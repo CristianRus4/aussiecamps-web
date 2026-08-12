@@ -4,13 +4,13 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
-  "inline-flex shrink-0 items-center justify-center gap-2 whitespace-nowrap border text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#49642f] focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0",
+  "ui-button inline-flex shrink-0 items-center justify-center gap-2 whitespace-nowrap border text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#49642f] focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0",
   {
     variants: {
       variant: {
-        default: "border-[#1e2b18] bg-[#1e2b18] text-white hover:bg-[#304227] dark:border-[#a6bd68] dark:bg-[#a6bd68] dark:text-[#10140e] dark:hover:bg-[#b8cc82]",
-        outline: "border-black/15 bg-transparent text-[#172012] hover:bg-black/[0.04] dark:border-white/20 dark:text-white dark:hover:bg-white/10",
-        light: "border-white bg-white text-[#172012] hover:bg-[#f1f1ed]",
+        default: "ui-button-default",
+        outline: "ui-button-outline",
+        light: "ui-button-light",
       },
       size: {
         default: "h-10 rounded-md px-4",
@@ -30,7 +30,7 @@ export interface ButtonProps
 
 export function Button({ className, variant, size, asChild = false, ...props }: ButtonProps) {
   const Comp = asChild ? Slot : "button";
-  return <Comp className={cn(buttonVariants({ variant, size, className }))} {...props} />;
+  return <Comp data-slot="button" data-variant={variant ?? "default"} className={cn(buttonVariants({ variant, size, className }))} {...props} />;
 }
 
 export { buttonVariants };

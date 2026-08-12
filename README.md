@@ -11,6 +11,14 @@ npm run dev
 
 The local site opens at `http://localhost:3000`.
 
+## GitHub Pages preview
+
+The public preview is deployed from `main` to:
+
+https://cristianrus4.github.io/aussiecamps-web/
+
+Pushing to `main` runs `.github/workflows/pages.yml`. The static export uses the `/aussiecamps-web` project path, so internal links and local assets work on GitHub Pages without tying the site to its eventual custom domain.
+
 ## Verify
 
 ```bash

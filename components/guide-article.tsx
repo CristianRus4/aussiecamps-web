@@ -32,8 +32,9 @@ export function GuideArticle({ item }: { item: Article }) {
           <p>{item.description}</p>
           <div><span><Clock />{item.readTime} minute read</span><span><MapPin />{item.places.length} places</span></div>
         </header>
-        <div className="article-hero-image" style={{ backgroundImage: `url(${item.image})` }} role="img" aria-label={item.imageAlt} />
-        <p className="article-photo-credit"><a href="https://github.com/CristianRus4/aussiecamps-web/tree/main/docs">Photo credits</a></p>
+        <figure className="article-hero-image" style={{ backgroundImage: `url(${item.image})` }} aria-label={item.imageAlt}>
+          <figcaption className="article-photo-credit"><a href="https://github.com/CristianRus4/aussiecamps-web/tree/main/docs">Photo credits</a></figcaption>
+        </figure>
         <div className="article-layout">
           <div className="article-body">
             <p className="article-intro">{item.intro}</p>

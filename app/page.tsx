@@ -106,7 +106,7 @@ export default function Home() {
 
       <section className="download-section"><div className="download-image image-slot" style={{backgroundImage:"url(/images/aussie-download.webp)"}} role="img" aria-label="AussieCamps app screen"/><div className="download-copy"><p className="eyebrow">Your next place is out there</p><h2>Find it. Save it.<br/><em>Plan the road ahead.</em></h2><p>Explore Australia, organise favourite places and keep the route, distance, notes and to-dos together in AussieCamps for iOS.</p><DownloadCard/></div></section>
     </main>
-    <a className="mobile-cta" href={APP_STORE_URL}>Download for iOS <ArrowRight/></a>
+    <Button asChild className="mobile-cta"><a href={APP_STORE_URL}>Download for iOS <ArrowRight/></a></Button>
     <Footer />
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}}/>
   </>;
