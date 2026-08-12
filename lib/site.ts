@@ -2,8 +2,15 @@ export const SITE_URL = "https://aussiecamps.com";
 export const APP_STORE_URL = "https://apps.apple.com/us/app/txtpod-text-to-speech-podcast/id6748379680";
 export const SUPPORT_EMAIL = "cristianrus4@gmail.com";
 
-export type ArticleCategory = "Road trips" | "Camping guides" | "Rules & safety" | "Trip planning" | "App guides";
+import { expandedArticles } from "@/lib/expanded-articles";
+
+export type ArticleCategory = "Road trips" | "Camping guides" | "Rules & safety" | "Trip planning" | "Costs & budget" | "App guides";
 export type ArticleSection = { heading: string; body: string[]; tips?: string[] };
+export type ArticlePriceTable = {
+  asOf: string;
+  note: string;
+  rows: { label: string; audLow: number; audHigh?: number; unit?: string }[];
+};
 export type Article = {
   slug: string;
   title: string;
@@ -17,6 +24,7 @@ export type Article = {
   intro: string;
   sections: ArticleSection[];
   sources?: { label: string; url: string }[];
+  priceTable?: ArticlePriceTable;
 };
 
 type ArticleInput = Omit<Article, "image">;
@@ -239,9 +247,10 @@ export const articles: Article[] = [
   article({ slug:"aussiecamps-place-details", title:"How to read a place in AussieCamps", description:"Check fee reports, facilities, access, weather, nearby services and directions before relying on a stop.", category:"App guides", region:"Australia", readTime:5, places:["Place details","Weather","Nearby useful stops"], imageAlt:"AussieCamps place details screen", intro:"Open the details before turning off the highway. The useful question is not only where the place is, but whether it works tonight.", sections:[section("Read the basics",["Check category, location, fee, rating and description first. Expand grouped features for access, amenities, activities, services and affiliations.","Look at reported fee information and compare nearby places when price matters." ]),section("Check the day",["Use the weather outlook and nearby useful stops to understand the stay around the pin. Fuel, water, a dump point or groceries can determine the better camp.","Live weather and external provider pages need reception."], ["Access","Fee","Facilities","Weather","Nearby services"]),section("Confirm and save",["Open the booking, website or contact details when present. Current provider information and on-site signs take priority.","Save the place to a smart list, custom collection or trip, then add a note that will matter on arrival."])] }),
   article({ slug:"aussiecamps-widgets-guide", title:"AussieCamps widgets: trips, collections and nearby places", description:"Keep the next stop, trip progress, favourite places or a nearby map on the Home Screen.", category:"App guides", region:"Australia", readTime:5, places:["Trip widget","Collections widget","Nearby map widget"], imageAlt:"AussieCamps iPhone widgets", intro:"Widgets keep the next useful piece of a trip visible without opening the full app.", sections:[section("Trip widget",["Choose a trip to show the next stop and visited progress. Small, medium and large layouts expose different amounts of the itinerary.","The Lock Screen accessory can keep the next stop close during a driving day." ]),section("Collection widgets",["Show top collections, saved totals or a selected smart collection such as Starred or Want to Visit.","Use a focused collection rather than displaying every saved place."], ["Next trip","Starred","Want to Visit"]),section("Nearby map",["The nearby widget uses the latest available location snapshot to show nearby places on a map. Medium and large sizes provide more context.","Refresh behaviour depends on iOS and location availability, so open the app before relying on a newly changed route."])] }),
   article({ slug:"best-camping-app-australia", title:"What to look for in a camping app for Australia", description:"Choose an app that covers the route, explains the stop and turns saved places into a workable trip.", category:"App guides", region:"Australia", readTime:7, places:["Campgrounds","Caravan parks","Rest areas","Dump points"], imageAlt:"Camping app open beside an Australian road", intro:"A useful camping app should reduce uncertainty before the turnoff and stay understandable when the route changes.", sections:[section("Coverage beyond campgrounds",["Long trips need caravan parks, roofed stays, rest areas, dump points, potable water, fuel and other useful stops. A campground-only map leaves gaps between nights.","Look for clear categories and a way to focus on the current map area." ]),section("Details that affect the decision",["Access, fees, toilets, water, power, dogs, vehicle suitability and booking information matter more than a large pin count.","Offline place information is valuable beyond coverage, while live maps, weather and routing still depend on data."], ["Offline place details","Access filters","Trip planning","Source links"]),section("From saved pin to route",["A strong app should organise favourites, separate maybes from booked stays and order trip stops with notes.","Choose the product whose workflow matches how you travel, not the one with the longest marketing list."])] }),
+  ...expandedArticles,
 ];
 
-export const categories: ArticleCategory[] = ["Road trips", "Camping guides", "Rules & safety", "Trip planning", "App guides"];
+export const categories: ArticleCategory[] = ["Road trips", "Camping guides", "Rules & safety", "Trip planning", "Costs & budget", "App guides"];
 export const getArticle = (slug: string) => articles.find((item) => item.slug === slug);
 
 export function getEditorialHeading(item: Article) {
@@ -249,6 +258,7 @@ export function getEditorialHeading(item: Article) {
   if (item.category === "Rules & safety") return `What camping in ${item.region} really asks of you`;
   if (item.category === "App guides") return "A better rhythm on the road";
   if (item.category === "Trip planning") return "The decisions that shape the trip";
+  if (item.category === "Costs & budget") return "What the trip really costs";
   return "Before the campsite comes into view";
 }
 
@@ -257,6 +267,19 @@ export function getEditorialPassages(item: Article) {
   const second = item.places[1] ?? item.region;
   const middle = item.places[Math.floor(item.places.length / 2)] ?? item.region;
   const last = item.places.at(-1) ?? item.region;
+
+  const sectionProse = item.sections.flatMap((part) => part.body);
+  const headings = item.sections.map((part) => part.heading);
+  const tips = item.sections.flatMap((part) => part.tips ?? []);
+  const tailoredPassages = [
+    `${item.description} The practical thread begins around ${first} and finishes near ${last}, with the decisions in between shaped by ${item.region}.`,
+    `The route through this subject is specific: ${headings.join("; ")}. Each stage answers a different question instead of repeating general travel advice.`,
+    tips.length > 0
+      ? `The details worth carrying into the plan are ${tips.join(", ")}. They belong beside the exact stop or driving day where they become useful.`
+      : `${second} and ${middle} provide the working reference points. Check current access, timing and local conditions before treating either one as fixed.`,
+    `${item.title} uses ${item.places.join(", ")} as its named reference points. They connect ${headings[0]} with ${headings.at(-1)}, so each saved place can carry the exact current check required before departure.`,
+  ];
+  return [...sectionProse, ...tailoredPassages].slice(0, 10);
 
   if (item.category === "Road trips") return [
     `${item.region} rewards an unhurried start. Around ${first}, the trip still feels close to ordinary life, but the landscape soon begins to set its own pace. Stop before the day becomes a race and let the first camp establish the rhythm for everything that follows.`,
@@ -310,6 +333,19 @@ export function getEditorialPassages(item: Article) {
     `Review the complete route once more from ${first} to ${last}. If any day has no safe backup, no realistic fuel margin or no time to arrive in daylight, change it before departure rather than hoping the road will solve it.`,
   ];
 
+  if (item.category === "Costs & budget") return [
+    `A useful budget begins with dated prices, not a promise that every counter near ${first} charges the same. Australia is a continent-sized market, so city competition, remote freight, season and availability can all move the final amount.`,
+    `Treat the figures around ${second} as planning benchmarks. They show the likely scale of the expense and make options comparable, while the provider, supermarket shelf or fuel board remains the current price at the moment of purchase.`,
+    `The cheapest headline is rarely the whole transaction. Around ${middle}, add booking charges, luggage, airport access, extra passengers, power, park entry or payment fees before deciding that one option beats another.`,
+    `Exchange-rate columns help visitors understand an Australian-dollar amount, but payment providers set their own rates and fees. The table uses one documented RBA reference date so every converted figure follows the same calculation.`,
+    `Build a low, middle and high estimate rather than one perfect number. A flexible range absorbs a busy weekend near ${last}, a changed route or the occasional purchase made for convenience instead of price.`,
+    `Location changes the budget quickly. Capital-city competition may lower groceries or fuel, while remote areas can charge more because stock travels farther and replacement services are limited. Buy dependable supplies before the long gaps.`,
+    `Time changes the price as much as distance. School holidays, festivals, summer coastlines and limited camps can turn an ordinary rate into a peak one, so compare the same dates and inclusions before drawing conclusions.`,
+    `Keep essential and discretionary spending separate. Fuel, a legal place to stay, food and vehicle safety come first; tours, restaurant meals and premium locations can then expand or contract without threatening the route.`,
+    `Update the working budget as the trip moves. Recording the actual amount near ${middle} makes the next section more accurate and helps expose whether fuel, accommodation or food is drifting beyond the original plan.`,
+    `Carry a contingency that is genuinely usable. A repair, extra night or closed road near ${last} should be inconvenient, not financially impossible, and the cheapest itinerary is not a good plan if it leaves no safe alternative.`,
+  ];
+
   return [
     `${first} may look straightforward on a map, but the right camp depends on the vehicle, the weather and the night you want. Check access and essential facilities first, then let scenery decide between the options that genuinely work.`,
     `Around ${second}, small details become the difference between an easy evening and a difficult one. Potable water, shade, turning space, toilets, pets and generator rules deserve attention before the final turnoff.`,
@@ -325,11 +361,13 @@ export function getEditorialPassages(item: Article) {
 }
 
 export function getPullQuote(item: Article) {
+  return item.description;
   const first = item.places[0] ?? item.region;
   const last = item.places.at(-1) ?? item.region;
   if (item.category === "Road trips") return `Leave enough time between ${first} and ${last} for the road itself to become part of the trip.`;
   if (item.category === "Rules & safety") return `At ${first}, the sign and the land manager matter more than an old pin or review.`;
   if (item.category === "App guides") return `Keep ${first} and ${last} in one plan, with the details you will need when reception disappears.`;
   if (item.category === "Trip planning") return `Build enough margin between ${first} and ${last} to enjoy the route and still arrive before dark.`;
+  if (item.category === "Costs & budget") return `Use the price near ${first} as a dated benchmark, then keep enough margin for the real total by ${last}.`;
   return `Choose the stop near ${first} that works in real conditions, then leave it ready for whoever reaches ${last} tomorrow.`;
 }

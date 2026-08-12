@@ -12,6 +12,7 @@ export function Header() {
         <nav className="desktop-nav" aria-label="Main navigation">
           <Link href="/#features">Features</Link>
           <Link href="/guides">Guides</Link>
+          <Link href="/tools">Tools</Link>
           <Link href="/support">Support</Link>
         </nav>
         <Button asChild size="sm" className="desktop-download"><a href={APP_STORE_URL}>Download for iOS</a></Button>
@@ -20,6 +21,7 @@ export function Header() {
           <nav aria-label="Mobile navigation">
             <Link href="/#features">Features</Link>
             <Link href="/guides">Guides</Link>
+            <Link href="/tools">Tools</Link>
             <Link href="/support">Support</Link>
             <a href={APP_STORE_URL}>Download for iOS</a>
           </nav>

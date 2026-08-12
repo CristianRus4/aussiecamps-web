@@ -19,11 +19,12 @@ Use clean screenshots or real photography. Do not add text inside product screen
 
 ## Article images
 
-All 52 article images are now present as unique 1600 × 900 WebP files. Creator, source and licence details are recorded in:
+All 70 article images are now present as unique 1600 × 900 WebP files. Creator, source and licence details are recorded in:
 
 - `docs/image-sources-road-trips.md`
 - `docs/image-sources-camping-rules.md`
 - `docs/image-sources-planning-app.md`
+- `docs/image-sources-cost-driving.md`
 
 Every article uses:
 

@@ -93,12 +93,13 @@ The `/guides` page presents the 20 road-trip routes. Each route has its own imag
 
 ### Guides
 
-The `/guides` page contains 52 long-form pages across:
+The `/guides` page contains 70 long-form pages across:
 
 - Road trips
 - Camping guides
 - Rules and safety
 - Trip planning
+- Costs and budget
 - App guides
 
 Each page has its own title, description, local image filename, introduction, topic-specific sections, named places, related reading and download call to action.
@@ -106,6 +107,7 @@ Each page has its own title, description, local image filename, introduction, to
 ### Support and legal
 
 - `/support`
+- `/tools`
 - `/privacy`
 - `/terms`
 
@@ -126,7 +128,7 @@ Each page has its own title, description, local image filename, introduction, to
 - Recheck official source links whenever a state booking system changes.
 - Update the bundled-place count when the app database changes.
 - Replace a route image without changing its filename.
-- Add a new article as one new object in `lib/site.ts`.
+- Add a core article in `lib/site.ts` or a cost/driving expansion article in `lib/expanded-articles.ts`.
 - Use only public claims supported by the current app.
 - Keep the five website testimonials identical to the app paywall until verified customer reviews replace both surfaces together.
 

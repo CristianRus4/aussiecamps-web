@@ -29,7 +29,7 @@ This builds the site, runs rendered-route tests and audits the content and image
 
 ## Images
 
-All 52 article images are downloaded, local WebP files. Article image names match their URL slug, and the source and licence records live under `docs/image-sources-*.md`.
+All 70 article images are downloaded, local WebP files. Article image names match their URL slug, and the source and licence records live under `docs/image-sources-*.md`.
 
 The product screenshot, icon, QR and social-preview filenames remain ready under `public/images` for the final app assets.
 
@@ -37,6 +37,6 @@ See `docs/ASSET-MANIFEST.md` for dimensions, crops and naming rules.
 
 ## Content
 
-All 52 articles live in `lib/site.ts`. Each entry controls its URL, metadata, category, image filename, introduction, sections, places and official sources.
+The original 52 articles live in `lib/site.ts`; the cost and driving expansion lives in `lib/expanded-articles.ts`. Each entry controls its URL, metadata, category, image filename, introduction, sections, places and official sources. Price articles can also define an AUD source table that is mechanically converted into ten currencies using `lib/currency.ts`.
 
 See `docs/WEBSITE-BRIEF.md` before changing public copy, structure or product claims.

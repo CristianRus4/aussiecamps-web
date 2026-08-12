@@ -5,6 +5,7 @@ import { Footer } from "@/components/footer";
 import { DownloadCard } from "@/components/download-card";
 import { ArticleCard } from "@/components/article-card";
 import { SITE_URL, articles, getEditorialHeading, getEditorialPassages, getPullQuote, type Article } from "@/lib/site";
+import { displayCurrencies, exchangeRateDate, formatAudRange } from "@/lib/currency";
 
 export function GuideArticle({ item }: { item: Article }) {
   const related = articles.filter((candidate) => candidate.slug !== item.slug && (candidate.category === item.category || candidate.region === item.region)).slice(0, 3);
@@ -44,6 +45,19 @@ export function GuideArticle({ item }: { item: Article }) {
               <blockquote>{getPullQuote(item)}</blockquote>
               {editorial.slice(5).map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
             </section>
+            {item.priceTable && <section className="article-price-section">
+              <span className="section-count">AUD</span>
+              <h2>Price table in 10 currencies</h2>
+              <p>{item.priceTable.note}</p>
+              <div className="price-table-meta"><strong>Prices checked {item.priceTable.asOf}</strong><span>Conversions use RBA rates from {exchangeRateDate}.</span></div>
+              <div className="price-table-wrap">
+                <table className="price-table">
+                  <thead><tr><th scope="col">Item</th>{displayCurrencies.map((currency) => <th scope="col" key={currency}>{currency}</th>)}</tr></thead>
+                  <tbody>{item.priceTable.rows.map((row) => <tr key={row.label}><th scope="row"><strong>{row.label}</strong>{row.unit && <span>{row.unit}</span>}</th>{displayCurrencies.map((currency) => <td key={currency}>{formatAudRange(row.audLow, row.audHigh, currency)}</td>)}</tr>)}</tbody>
+                </table>
+              </div>
+              <p className="price-table-disclaimer">Currency figures are mechanical conversions of the AUD benchmark, not card or cash quotes. Banks and payment providers apply their own rates and fees.</p>
+            </section>}
             {item.sections.map((part, index) => <section key={part.heading}>
               <span className="section-count">{String(index + 1).padStart(2, "0")}</span>
               <h2>{part.heading}</h2>

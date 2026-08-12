@@ -6,9 +6,9 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const output = resolve(root, "pages-dist");
 const basePath = (process.env.PAGES_BASE_PATH ?? "/aussiecamps-web").replace(/\/$/, "");
-const source = await readFile(resolve(root, "lib/site.ts"), "utf8");
-const slugs = [...source.matchAll(/slug:\s*"([^"]+)"/g)].map((match) => match[1]);
-const htmlRoutes = ["/", "/guides", ...slugs.map((slug) => `/guides/${slug}`), "/support", "/privacy", "/terms"];
+const sources = await Promise.all(["lib/site.ts", "lib/expanded-articles.ts"].map((path) => readFile(resolve(root, path), "utf8")));
+const slugs = sources.flatMap((source) => [...source.matchAll(/slug:\s*"([^"]+)"/g)].map((match) => match[1]));
+const htmlRoutes = ["/", "/guides", ...slugs.map((slug) => `/guides/${slug}`), "/tools", "/support", "/privacy", "/terms"];
 const textRoutes = ["/robots.txt", "/sitemap.xml", "/llms.txt"];
 
 await rm(output, { recursive: true, force: true });
@@ -25,7 +25,7 @@ function prepareHtml(html) {
   return html
     .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, (script) => {
       const openingTag = script.slice(0, script.indexOf(">") + 1);
-      return /type="application\/ld\+json"/i.test(openingTag) ? script : "";
+      return /type="application\/ld\+json"|data-static-tools/i.test(openingTag) ? script : "";
     })
     .replace(/<link\b[^>]*rel="modulepreload"[^>]*>/gi, "")
     .replace(/(href|src)="\/(?!\/)/g, `$1="${basePath}/`)

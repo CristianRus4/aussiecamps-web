@@ -36,9 +36,9 @@ test("renders an article with unique travel content and app CTA", async () => {
 });
 
 test("every guide renders as a long-form article", async () => {
-  const source = await readFile(new URL("../lib/site.ts", import.meta.url), "utf8");
-  const slugs = [...source.matchAll(/slug:\s*"([^"]+)"/g)].map((match) => match[1]);
-  assert.equal(slugs.length, 52);
+  const sources = await Promise.all(["../lib/site.ts", "../lib/expanded-articles.ts"].map((path) => readFile(new URL(path, import.meta.url), "utf8")));
+  const slugs = sources.flatMap((source) => [...source.matchAll(/slug:\s*"([^"]+)"/g)].map((match) => match[1]));
+  assert.equal(slugs.length, 70);
   for (const slug of slugs) {
     const response = await fetchPage(`/guides/${slug}`);
     assert.equal(response.status, 200, slug);
@@ -59,4 +59,24 @@ test("publishes crawler surfaces", async () => {
   assert.match(await robots.text(), /Sitemap:/);
   assert.match(await sitemap.text(), /perth-to-broome-road-trip/);
   assert.match(await llms.text(), /Core place details are available offline/);
+});
+
+test("renders dated multi-currency price tables", async () => {
+  const response = await fetchPage("/guides/australia-grocery-prices-2026");
+  assert.equal(response.status, 200);
+  const html = await response.text();
+  assert.match(html, /Price table in 10 currencies/);
+  assert.match(html.replace(/<!-- -->/g, ""), /Prices checked 12 August 2026/);
+  for (const currency of ["AUD", "NZD", "USD", "GBP", "EUR", "CNY", "INR", "SGD", "JPY", "KRW"]) assert.match(html, new RegExp(`>${currency}<`));
+  assert.match(html, /Reserve Bank of Australia exchange rates/);
+});
+
+test("renders standalone road trip tools", async () => {
+  const response = await fetchPage("/tools");
+  assert.equal(response.status, 200);
+  const html = await response.text();
+  assert.match(html, /Currency converter/);
+  assert.match(html, /Fuel calculator/);
+  assert.match(html, /data-static-tools/);
+  assert.match(html, /120\.0 L · A\$249\.60/);
 });
