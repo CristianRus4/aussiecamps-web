@@ -19,7 +19,8 @@ The website has two jobs:
 
 ## Product facts
 
-- 73,945 bundled Australian places.
+- 74,000+ bundled Australian places.
+- 4,000+ accommodation options.
 - Core place details remain available offline.
 - Live maps, weather, routing and external websites can require reception.
 - Nineteen place categories, including campgrounds, caravan parks, roofed accommodation, roadside rest areas, dump points, potable water, experiences and useful stops.
@@ -90,9 +91,9 @@ Avoid:
 
 The `/guides` page presents the 20 road-trip routes. Each route has its own image and named places that can later match place records inside the app.
 
-### Journal
+### Guides
 
-The `/journal` page contains 52 pages across:
+The `/guides` page contains 52 long-form pages across:
 
 - Road trips
 - Camping guides
@@ -116,7 +117,7 @@ Each page has its own title, description, local image filename, introduction, to
 - Generated sitemap with every article.
 - Robots file for major search and AI crawlers.
 - `llms.txt` with product facts and canonical article URLs.
-- Strong internal links from home to guides, journal categories, related articles and the app.
+- Strong internal links from home to guide categories, related articles and the app.
 - Server-rendered article content with no client-only dependency.
 
 ## Content maintenance

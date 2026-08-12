@@ -1,20 +1,21 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, Binoculars, CalendarDays, Caravan, Check, ChevronRight, CloudSun, Compass, Filter, Heart, ListChecks, Map, MapPinned, Navigation, Route, Search, ShieldCheck, Sparkles, TentTree, Trees, WifiOff } from "lucide-react";
+import { ArrowRight, Binoculars, CalendarDays, Caravan, Check, CloudSun, Compass, Filter, Heart, ListChecks, Map, MapPinned, Navigation, Route, Search, ShieldCheck, Sparkles, TentTree, Trees, WifiOff } from "lucide-react";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { DownloadCard } from "@/components/download-card";
 import { ArticleCard } from "@/components/article-card";
+import { Button } from "@/components/ui/button";
 import { APP_STORE_URL, SITE_URL, articles } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "AussieCamps | Find camps, plan road trips and explore Australia",
-  description: "Explore 73,945 campsites, caravan parks, rest areas and useful stops across Australia. Filter places, save collections and plan every road trip in one iPhone app.",
+  description: "Explore 74,000+ campsites, caravan parks, rest areas and useful stops across Australia. Filter places, save collections and plan every road trip in one iPhone app.",
   alternates: { canonical: "/" },
 };
 
 const features = [
-  {icon: MapPinned, title:"Every kind of stop, one map", text:"Explore 73,945 places across Australia, from bush camps and caravan parks to water taps, dump points and roofed stays."},
+  {icon: MapPinned, title:"Every kind of stop, one map", text:"Explore 74,000+ places across Australia, from bush camps and caravan parks to water taps, dump points and roofed stays."},
   {icon: Filter, title:"Find what actually fits", text:"Filter by fee, rating, booking, state, vehicle access and details like toilets, power, dogs, water or waterfront."},
   {icon: Route, title:"Build the whole run", text:"Order your stops, see driving distance, add dates and notes, track visited places and keep a packing list with the trip."},
   {icon: Heart, title:"Save it your way", text:"Star a favourite, mark places visited or wanted, then build custom collections for weekends, seasons and dream routes."},
@@ -24,7 +25,7 @@ const features = [
 
 const faqs = [
   ["What is AussieCamps?", "AussieCamps is an iPhone app for finding places to camp and stay around Australia, comparing practical details, saving places and building road trips stop by stop."],
-  ["What places are included?", "The current directory contains 73,945 places, including campgrounds, caravan parks, roofed accommodation, roadside rest areas, dump points, potable water, day-use areas, experiences and other useful stops."],
+  ["What places are included?", "The directory covers 74,000+ places, including 4,000+ accommodation options alongside campgrounds, caravan parks, rest areas, dump points, potable water, day-use areas and experiences."],
   ["Does it work without reception?", "The app bundles its place directory so core place data remains available beyond reliable signal. Live services such as current weather, directions and some map content still need connectivity."],
   ["Can I plan a multi-stop road trip?", "Yes. Create a trip, order stops, add dates and notes, view route distance, track visited places, add packing tasks and sync itinerary details to Calendar."],
   ["Can I filter for free camps or caravan access?", "Yes. Filters cover fee type, category, minimum rating, booking, state and detailed features such as access, amenities, activities, services and affiliations."],
@@ -52,8 +53,8 @@ export default function Home() {
             <span className="kicker"><Sparkles size={14}/> Built for the long way around</span>
             <h1>Australia is big.<br/><em>Your plan</em> can be simple.</h1>
             <p>Find camps, caravan parks, stays and useful stops. Know what is there. Build the road trip. Keep it all in one place.</p>
-            <div className="hero-actions"><DownloadCard compact/><Link href="/#how-it-works" className="button button-ghost">See how it works <ArrowRight size={17}/></Link></div>
-            <div className="hero-proof"><span><strong>73,945</strong><small>places across Australia</small></span><span><strong>19</strong><small>useful place categories</small></span><span><strong>8</strong><small>states & territories covered</small></span></div>
+            <div className="hero-actions"><DownloadCard/><Button asChild variant="outline" size="lg" className="w-[170px] rounded-[14px]"><Link href="/#how-it-works">See how it works <ArrowRight/></Link></Button></div>
+            <div className="hero-proof"><span><strong>74,000+</strong><small>places across Australia</small></span><span><strong>4,000+</strong><small>accommodation options</small></span><span><strong>19</strong><small>useful place categories</small></span></div>
           </div>
           <div className="hero-visual">
             <div className="image-slot hero-image-slot" style={{backgroundImage:"url(/images/aussie-hero.webp)"}} role="img" aria-label="AussieCamps map screen" />
@@ -91,7 +92,7 @@ export default function Home() {
         <div className="article-grid">{articles.filter(a=>a.category==="Road trips").slice(0,3).map((a,i)=><ArticleCard article={a} priority={i===0} key={a.slug}/>)}</div>
       </section>
 
-      <section className="section audiences"><div className="audience-copy"><p className="eyebrow">However you carry home</p><h2>Made for tents,<br/>vans and <em>big laps.</em></h2></div><div className="audience-grid">{[["Backpackers","Make a tight budget and flexible route work together.",Binoculars],["Campervans","Find the facilities, access and overnight mix you need.",Caravan],["Caravans & big rigs","Filter for space, services and practical access notes.",Navigation],["Weekend campers","Keep nearby favourites ready when Friday arrives.",TentTree]].map(([t,d,I])=>{const Icon=I as typeof TentTree;return <article key={t as string}><Icon/><h3>{t as string}</h3><p>{d as string}</p><ChevronRight/></article>})}</div></section>
+      <section className="section audiences"><div className="audience-copy"><p className="eyebrow">However you carry home</p><h2>Made for tents,<br/>vans and <em>big laps.</em></h2></div><div className="audience-grid">{[["Backpackers","Make a tight budget and flexible route work together.",Binoculars],["Campervans","Find the facilities, access and overnight mix you need.",Caravan],["Caravans & big rigs","Filter for space, services and practical access notes.",Navigation],["Weekend campers","Keep nearby favourites ready when Friday arrives.",TentTree]].map(([t,d,I])=>{const Icon=I as typeof TentTree;return <article key={t as string}><Icon/><h3>{t as string}</h3><p>{d as string}</p></article>})}</div></section>
 
       <section className="reviews-section">
         <div className="reviews-head"><div><p className="eyebrow">What travellers say</p><h2>Made for plans<br/>that <em>change.</em></h2></div></div>
@@ -102,9 +103,9 @@ export default function Home() {
 
       <section className="section faq-section"><div><span className="section-number">05</span><p className="eyebrow">A few straight answers</p><h2>Good questions.<br/><em>Clear answers.</em></h2><p>Still stuck? <Link href="/support">Visit support</Link> or send us a note.</p></div><div className="faq-list">{faqs.map(([q,a],i)=><details key={q} open={i===0}><summary>{q}<span>+</span></summary><p>{a}</p></details>)}</div></section>
 
-      <section className="download-section"><div className="download-image image-slot" style={{backgroundImage:"url(/images/aussie-download.webp)"}} role="img" aria-label="AussieCamps app screen"/><div className="download-copy"><p className="eyebrow">Your next place is out there</p><h2>Take the map.<br/><em>Make it yours.</em></h2><p>Start exploring Australia in AussieCamps for iPhone.</p><DownloadCard/></div></section>
+      <section className="download-section"><div className="download-image image-slot" style={{backgroundImage:"url(/images/aussie-download.webp)"}} role="img" aria-label="AussieCamps app screen"/><div className="download-copy"><p className="eyebrow">Your next place is out there</p><h2>Take the map.<br/><em>Make it yours.</em></h2><p>Start exploring Australia in AussieCamps for iOS.</p><DownloadCard/></div></section>
     </main>
-    <a className="mobile-cta" href={APP_STORE_URL}>Download AussieCamps <ArrowRight/></a>
+    <a className="mobile-cta" href={APP_STORE_URL}>Download for iOS <ArrowRight/></a>
     <Footer />
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}}/>
   </>;

@@ -20,7 +20,7 @@ export type Article = {
 };
 
 type ArticleInput = Omit<Article, "image">;
-const article = (input: ArticleInput): Article => ({ ...input, image: `/images/articles/${input.slug}.webp` });
+const article = (input: ArticleInput): Article => ({ ...input, readTime: Math.max(input.readTime, 10), image: `/images/articles/${input.slug}.webp` });
 const section = (heading: string, body: string[], tips?: string[]): ArticleSection => ({ heading, body, tips });
 
 export const articles: Article[] = [
@@ -243,3 +243,63 @@ export const articles: Article[] = [
 
 export const categories: ArticleCategory[] = ["Road trips", "Camping guides", "Rules & safety", "Trip planning", "App guides"];
 export const getArticle = (slug: string) => articles.find((item) => item.slug === slug);
+
+export function getEditorialHeading(item: Article) {
+  if (item.category === "Road trips") return "The road, properly travelled";
+  if (item.category === "Rules & safety") return `What camping in ${item.region} really asks of you`;
+  if (item.category === "App guides") return "A better rhythm on the road";
+  if (item.category === "Trip planning") return "The decisions that shape the trip";
+  return "Before the campsite comes into view";
+}
+
+export function getEditorialPassages(item: Article) {
+  const first = item.places[0] ?? item.region;
+  const second = item.places[1] ?? item.region;
+  const middle = item.places[Math.floor(item.places.length / 2)] ?? item.region;
+  const last = item.places.at(-1) ?? item.region;
+
+  if (item.category === "Road trips") return [
+    `${item.region} rewards an unhurried start. Around ${first}, the trip still feels close to ordinary life, but the landscape soon begins to set its own pace. Stop before the day becomes a race and let the first camp establish the rhythm for everything that follows.`,
+    `The stretch towards ${second} is where small decisions matter. A lookout, a bakery, a beach track or an extra walk can easily reshape the afternoon. Keep the route loose enough to enjoy those discoveries, while holding one dependable place to sleep before dark.`,
+    `By ${middle}, the vehicle has become part kitchen, part wardrobe and part refuge. This is a good moment to refill water, sort food, charge what needs charging and check the next road. A quiet hour spent resetting camp often gives the following days far more freedom.`,
+    `The final run towards ${last} should not feel like an exit. Leave room for one last swim, walk or long lunch, and arrive with daylight to spare. The character of this route lives as much in those slower hours as it does in the famous stops.`,
+  ];
+
+  if (item.category === "Rules & safety") return [
+    `Around ${first}, permission is always more important than appearance. A level clearing or an old fire ring does not prove that camping is allowed. Read current signs, identify the land manager and use the conditions published for the exact place.`,
+    `${second} is a useful reminder that access can change with weather, fire danger, maintenance and conservation work. A plan made weeks earlier needs another check before departure, then one final check while reception is still available.`,
+    `Good preparation is quiet and practical. Save permits, carry the water the site requires, know the vehicle limits and choose a legal alternative near ${middle}. That backup prevents a closure or full campground from becoming a risky late drive.`,
+    `At ${last}, the rules protect more than a night's stay. They protect Country, wildlife, neighbours and the chance for the place to remain open. Leave no wastewater, keep noise low and treat every local direction as part of the journey.`,
+  ];
+
+  if (item.category === "App guides") return [
+    `Start with ${first}, then add only the information that will matter when the road becomes busy. A short note about access, arrival or a booking is more useful than a crowded plan that no one wants to read at the end of the day.`,
+    `${second} belongs beside the rest of the trip, not buried in a separate list. Keep likely stops, firm bookings and alternatives distinct so a change of weather does not mean starting the search again.`,
+    `The strongest plan is easy to edit. Reorder ${middle}, shorten a driving day or swap a camp without losing the wider route. That flexibility is what turns a collection of saved pins into something that works outside the driveway.`,
+    `Before heading towards ${last}, open the important details while reception is available. Core place information remains on hand offline, while current weather, directions and external provider pages still need a live connection.`,
+  ];
+
+  if (item.category === "Trip planning") return [
+    `A good plan begins with the constraints around ${first}: daylight, distance, fuel, water and the kind of night the group actually wants. Solve those first and the enjoyable parts of the route have space to emerge.`,
+    `Between ${first} and ${second}, generous timing is worth more than an ambitious list. Camps take time to find, vehicles take time to pack and a beautiful stop can deserve an hour that never appeared on the original schedule.`,
+    `Use ${middle} as a reset point. Check supplies, weather and the next reliable services, then decide whether the route still suits the energy in the vehicle. Changing the plan early is usually easier than rescuing it late.`,
+    `Keep the arrival at ${last} simple. Know the legal backup, avoid dusk driving where wildlife is active and save enough energy to set up safely. The best itinerary ends each day with some margin left.`,
+  ];
+
+  return [
+    `${first} may look straightforward on a map, but the right camp depends on the vehicle, the weather and the night you want. Check access and essential facilities first, then let scenery decide between the options that genuinely work.`,
+    `Around ${second}, small details become the difference between an easy evening and a difficult one. Potable water, shade, turning space, toilets, pets and generator rules deserve attention before the final turnoff.`,
+    `Use ${middle} to pause and confirm the next step. Current signs and land-manager advice carry more weight than an old review, particularly after rain, fire or a busy holiday period.`,
+    `When the day finishes near ${last}, keep the setup contained and considerate. A clean site, low noise and responsible waste make the stay better for everyone and protect the places that make Australian camping memorable.`,
+  ];
+}
+
+export function getPullQuote(item: Article) {
+  const first = item.places[0] ?? item.region;
+  const last = item.places.at(-1) ?? item.region;
+  if (item.category === "Road trips") return `Leave enough time between ${first} and ${last} for the road itself to become part of the trip.`;
+  if (item.category === "Rules & safety") return `At ${first}, the sign and the land manager matter more than an old pin or review.`;
+  if (item.category === "App guides") return `Keep ${first} and ${last} in one plan, with the details you will need when reception disappears.`;
+  if (item.category === "Trip planning") return `Build enough margin between ${first} and ${last} to enjoy the route and still arrive before dark.`;
+  return `Choose the stop near ${first} that works in real conditions, then leave it ready for whoever reaches ${last} tomorrow.`;
+}

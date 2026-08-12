@@ -1,5 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
+import { readFile } from "node:fs/promises";
 
 async function fetchPage(path = "/") {
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
@@ -13,19 +14,36 @@ test("renders the AussieCamps homepage with product copy and SEO", async () => {
   assert.equal(response.status, 200);
   const html = await response.text();
   assert.match(html, /Australia is big/);
-  assert.match(html, /73,945/);
+  assert.match(html, /74,000\+/);
+  assert.match(html, /4,000\+/);
   assert.match(html, /application\/ld\+json/);
   assert.doesNotMatch(html, /codex-preview|react-loading-skeleton|not available yet/i);
 });
 
 test("renders an article with unique travel content and app CTA", async () => {
-  const response = await fetchPage("/journal/perth-to-broome-road-trip");
+  const response = await fetchPage("/guides/perth-to-broome-road-trip");
   assert.equal(response.status, 200);
   const html = await response.text();
   assert.match(html, /White dunes, coral reefs, red gorges/);
   assert.match(html, /Ningaloo and Karijini/);
+  assert.match(html, /The road, properly travelled/);
+  assert.ok((html.match(/<p[ >]/g) ?? []).length >= 10, "Guide must render at least ten prose paragraphs");
   assert.match(html, /Find the stop\. Build the trip\./);
   assert.doesNotMatch(html, /These names are intentionally explicit|Editorial landscape image|Reviewed 12 August/i);
+});
+
+test("every guide renders as a long-form article", async () => {
+  const source = await readFile(new URL("../lib/site.ts", import.meta.url), "utf8");
+  const slugs = [...source.matchAll(/slug:\s*"([^"]+)"/g)].map((match) => match[1]);
+  assert.equal(slugs.length, 52);
+  for (const slug of slugs) {
+    const response = await fetchPage(`/guides/${slug}`);
+    assert.equal(response.status, 200, slug);
+    const html = await response.text();
+    const article = html.match(/<article class="article-page">([\s\S]*?)<\/article>/)?.[1] ?? "";
+    assert.ok((article.match(/<p[ >]/g) ?? []).length >= 10, `${slug} must have at least ten prose paragraphs`);
+    assert.match(article, /<blockquote>/, `${slug} must include a pull quote`);
+  }
 });
 
 test("publishes crawler surfaces", async () => {
