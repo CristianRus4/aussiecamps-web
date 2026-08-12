@@ -19,6 +19,12 @@ Use clean screenshots or real photography. Do not add text inside product screen
 
 ## Article images
 
+All 52 article images are now present as unique 1600 × 900 WebP files. Creator, source and licence details are recorded in:
+
+- `docs/image-sources-road-trips.md`
+- `docs/image-sources-camping-rules.md`
+- `docs/image-sources-planning-app.md`
+
 Every article uses:
 
 `public/images/articles/<article-slug>.webp`
@@ -27,7 +33,7 @@ Example:
 
 `public/images/articles/perth-to-broome-road-trip.webp`
 
-The required slug list is audited by `npm run assets:check`. Run it to see every missing filename.
+The required slug list, file format and unique hashes are audited by `npm run assets:check`.
 
 Recommended article size: 1600 x 1000 or larger, landscape, WebP, roughly 200 KB to 450 KB after compression.
 

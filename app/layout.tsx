@@ -22,7 +22,13 @@ export const metadata: Metadata = {
   other: { "apple-itunes-app": "app-id=6748379680" },
 };
 
-export const viewport: Viewport = { themeColor: "#f4f1e8", colorScheme: "light" };
+export const viewport: Viewport = {
+  colorScheme: "light dark",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#f3f3ef" },
+    { media: "(prefers-color-scheme: dark)", color: "#111410" },
+  ],
+};
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return <html lang="en-AU"><body className={sans.variable}>{children}</body></html>;

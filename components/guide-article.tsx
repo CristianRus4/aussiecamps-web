@@ -33,16 +33,15 @@ export function GuideArticle({ item }: { item: Article }) {
           <div><span><Clock />{item.readTime} minute read</span><span><MapPin />{item.places.length} places</span></div>
         </header>
         <div className="article-hero-image" style={{ backgroundImage: `url(${item.image})` }} role="img" aria-label={item.imageAlt} />
+        <p className="article-photo-credit"><a href="https://github.com/CristianRus4/aussiecamps-web/tree/main/docs">Photo credits</a></p>
         <div className="article-layout">
           <div className="article-body">
             <p className="article-intro">{item.intro}</p>
             <section className="editorial-opening">
               <h2>{getEditorialHeading(item)}</h2>
-              <p>{editorial[0]}</p>
-              <p>{editorial[1]}</p>
+              {editorial.slice(0, 5).map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
               <blockquote>{getPullQuote(item)}</blockquote>
-              <p>{editorial[2]}</p>
-              <p>{editorial[3]}</p>
+              {editorial.slice(5).map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
             </section>
             {item.sections.map((part, index) => <section key={part.heading}>
               <span className="section-count">{String(index + 1).padStart(2, "0")}</span>
@@ -61,12 +60,12 @@ export function GuideArticle({ item }: { item: Article }) {
               <ul>{item.sources.map((source) => <li key={source.url}><a href={source.url}>{source.label}<ArrowRight /></a></li>)}</ul>
             </section>}
             <div className="article-end-cta">
-              <div><p className="eyebrow">Take it on the road</p><h2>Find the stop. Build the trip.</h2><p>Keep 74,000+ places, saved camps and trip notes close in AussieCamps.</p></div>
+              <div><p className="eyebrow">Take it on the road</p><h2>Save the stops. Plan the whole trip.</h2><p>Build an ordered route from saved places, calculate the distance and keep dates, notes and to-dos attached.</p></div>
               <DownloadCard compact />
             </div>
           </div>
           <aside>
-            <div className="article-side-card"><p className="eyebrow">Plan it in AussieCamps</p><h3>Save the places. Build the route.</h3><p>Keep camps, trip stops and useful details together.</p><DownloadCard compact /></div>
+            <div className="article-side-card"><p className="eyebrow">Plan it in AussieCamps</p><h3>Save the places. Build the route.</h3><p>Order the stops, see the distance and keep notes and to-dos with the trip.</p><DownloadCard compact /></div>
             <nav className="on-this-page" aria-label="Page contents"><strong>On this page</strong><span>{getEditorialHeading(item)}</span>{item.sections.map((part) => <span key={part.heading}>{part.heading}</span>)}</nav>
           </aside>
         </div>

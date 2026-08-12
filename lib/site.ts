@@ -263,6 +263,12 @@ export function getEditorialPassages(item: Article) {
     `The stretch towards ${second} is where small decisions matter. A lookout, a bakery, a beach track or an extra walk can easily reshape the afternoon. Keep the route loose enough to enjoy those discoveries, while holding one dependable place to sleep before dark.`,
     `By ${middle}, the vehicle has become part kitchen, part wardrobe and part refuge. This is a good moment to refill water, sort food, charge what needs charging and check the next road. A quiet hour spent resetting camp often gives the following days far more freedom.`,
     `The final run towards ${last} should not feel like an exit. Leave room for one last swim, walk or long lunch, and arrive with daylight to spare. The character of this route lives as much in those slower hours as it does in the famous stops.`,
+    `Choose overnight stops for the shape of the day, not only for the view. A simple camp near ${second} can be more valuable than a spectacular detour when it shortens tomorrow's drive, offers water or gives everyone a proper night's sleep.`,
+    `Weather changes the personality of ${item.region}. Wind can make an exposed coast exhausting, heat can close long walks and rain can turn an ordinary unsealed approach into the hardest part of the day. Read the detailed forecast and keep a sheltered alternative saved.`,
+    `Food and fuel deserve their own rhythm. Restock before the smaller towns, fill the tank well before empty and use ${middle} as the point where the next dependable services are confirmed. Remote roadhouses and seasonal businesses do not always keep city hours.`,
+    `The best sightseeing often happens early. Pack enough of the camp the night before to leave quietly, reach popular places before the coaches and keep the bright middle of the day for a swim, lunch or shorter transfer.`,
+    `Save both the places you intend to use and the alternatives around them. If a campground is full or a road closes, the trip planner can absorb the change without losing the distance, notes and later stops that still make sense.`,
+    `Finish each driving day before fatigue makes decisions for you. Wildlife is harder to see around dawn and dusk, narrow roads demand concentration and an unfamiliar campground is easier to understand while there is still light.`,
   ];
 
   if (item.category === "Rules & safety") return [
@@ -270,6 +276,12 @@ export function getEditorialPassages(item: Article) {
     `${second} is a useful reminder that access can change with weather, fire danger, maintenance and conservation work. A plan made weeks earlier needs another check before departure, then one final check while reception is still available.`,
     `Good preparation is quiet and practical. Save permits, carry the water the site requires, know the vehicle limits and choose a legal alternative near ${middle}. That backup prevents a closure or full campground from becoming a risky late drive.`,
     `At ${last}, the rules protect more than a night's stay. They protect Country, wildlife, neighbours and the chance for the place to remain open. Leave no wastewater, keep noise low and treat every local direction as part of the journey.`,
+    `Booking conditions deserve the same attention as the road. Confirm the number of people and vehicles, arrival window, site dimensions, pet rules and whether a separate entry permit applies. Save the confirmation before leaving reception.`,
+    `Fire rules can tighten within a day. A fireplace at ${second} is not permission to use it during a ban, and a cool evening does not remove the danger created by wind and dry fuel. Check the local authority immediately before lighting any flame.`,
+    `Water should be treated as a planned supply. A tap may be seasonal, untreated or unavailable after maintenance. Carry enough drinking water to remain independent and never empty grey water onto vegetation, roads or another campsite.`,
+    `Vehicle access is part of legal access. Gates, weight limits, high-clearance warnings and seasonal road closures still apply when a map can draw a line to the destination. Rental agreements and insurance can impose tighter limits again.`,
+    `Wildlife changes how camp is managed. Store food securely, never feed animals and keep the site clear of scraps. Around ${middle}, follow every local warning about crocodiles, snakes, dingoes, cassowaries or marine hazards where relevant.`,
+    `If the official information and the situation on arrival disagree, choose the safer interpretation. Move to the backup near ${last}, report damaged signs or unsafe conditions and avoid turning uncertainty into an argument for staying.`,
   ];
 
   if (item.category === "App guides") return [
@@ -277,6 +289,12 @@ export function getEditorialPassages(item: Article) {
     `${second} belongs beside the rest of the trip, not buried in a separate list. Keep likely stops, firm bookings and alternatives distinct so a change of weather does not mean starting the search again.`,
     `The strongest plan is easy to edit. Reorder ${middle}, shorten a driving day or swap a camp without losing the wider route. That flexibility is what turns a collection of saved pins into something that works outside the driveway.`,
     `Before heading towards ${last}, open the important details while reception is available. Core place information remains on hand offline, while current weather, directions and external provider pages still need a live connection.`,
+    `Use filters to remove places that genuinely cannot work, such as the wrong access, fee or required facilities. Leave softer preferences open so a strong alternative near ${second} is not hidden by an unnecessarily narrow search.`,
+    `Reported costs are easier to compare when they appear in your selected currency. Treat the conversion as a planning aid, then confirm the current amount, inclusions and booking terms directly with the place provider.`,
+    `Weather belongs beside the place decision. Compare the forecast around ${middle} with the exposure, road and facilities of the saved options, and follow official warnings whenever conditions could affect access or safety.`,
+    `Apple Look Around can make an unfamiliar arrival easier where imagery is available. Check the road environment, entrance and nearby streets before driving in, while remembering that imagery may be older than current signs or construction.`,
+    `A trip becomes useful when every stop carries its context. Add dates, booking references, arrival instructions and short notes, then use the distance calculation to find driving days that leave time for the place itself.`,
+    `Keep the to-do list practical and close to the route. Fuel, water, groceries, permits and campsite tasks can be checked off as the day moves, without separating the itinerary from the work that makes it possible.`,
   ];
 
   if (item.category === "Trip planning") return [
@@ -284,6 +302,12 @@ export function getEditorialPassages(item: Article) {
     `Between ${first} and ${second}, generous timing is worth more than an ambitious list. Camps take time to find, vehicles take time to pack and a beautiful stop can deserve an hour that never appeared on the original schedule.`,
     `Use ${middle} as a reset point. Check supplies, weather and the next reliable services, then decide whether the route still suits the energy in the vehicle. Changing the plan early is usually easier than rescuing it late.`,
     `Keep the arrival at ${last} simple. Know the legal backup, avoid dusk driving where wildlife is active and save enough energy to set up safely. The best itinerary ends each day with some margin left.`,
+    `Distance is only the first measure of a driving day. Add time for fuel, food, roadworks, slower unsealed sections and the stops that make ${item.region} worth travelling through. A short line on the map can still become a full day.`,
+    `Treat firm bookings and flexible camps differently. Lock the nights that are difficult to replace, then save two or three realistic alternatives around ${second} for the parts of the trip that can move with weather and energy.`,
+    `Notes should answer the questions that appear at arrival: gate code, check-in time, site number, water status, pet condition and the name on the booking. Keep them attached to the relevant stop instead of in a separate message thread.`,
+    `A shared to-do list prevents small jobs from gathering at the last minute. Add permits, tyre checks, groceries, charging, laundry and water refills, then mark each one when it is actually complete.`,
+    `Costs become clearer when camps, fuel and activities are considered together. Compare reported place prices in your preferred currency, but keep a contingency for changed plans, repairs and an occasional full-service night.`,
+    `Review the complete route once more from ${first} to ${last}. If any day has no safe backup, no realistic fuel margin or no time to arrive in daylight, change it before departure rather than hoping the road will solve it.`,
   ];
 
   return [
@@ -291,6 +315,12 @@ export function getEditorialPassages(item: Article) {
     `Around ${second}, small details become the difference between an easy evening and a difficult one. Potable water, shade, turning space, toilets, pets and generator rules deserve attention before the final turnoff.`,
     `Use ${middle} to pause and confirm the next step. Current signs and land-manager advice carry more weight than an old review, particularly after rain, fire or a busy holiday period.`,
     `When the day finishes near ${last}, keep the setup contained and considerate. A clean site, low noise and responsible waste make the stay better for everyone and protect the places that make Australian camping memorable.`,
+    `Price is only useful when the inclusions are clear. A higher nightly rate near ${second} may cover power, showers, laundry or a convenient location, while a low-cost camp may require more fuel, water and self-contained equipment.`,
+    `Look at the weather in relation to the site. Shade matters in heat, drainage matters in rain and overhead branches matter in wind. The safest position is not always the one closest to the water or the best photograph.`,
+    `For larger vehicles, confirm more than the road surface. Site length, turning room, slope, low branches and the ability to leave after rain can determine whether ${middle} is genuinely suitable.`,
+    `Save useful camps into collections before they are needed. Separate confirmed stays, strong alternatives and future ideas, then move the chosen places into a trip where distance, dates and notes can be considered together.`,
+    `Use Look Around where available to understand the approach, nearby streets and entrance, but place current signs and manager advice first. A visual preview can reduce surprise without proving present access.`,
+    `Before settling near ${last}, check the details one final time and keep the core listing available offline. Current weather, booking pages and directions still require reception, so open critical live information before the signal drops.`,
   ];
 }
 

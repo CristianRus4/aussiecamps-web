@@ -1,3 +1,5 @@
+import assert from "node:assert/strict";
+import { createHash } from "node:crypto";
 import { access, readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
@@ -5,15 +7,31 @@ const root = resolve(import.meta.dirname, "..");
 const source = await readFile(resolve(root, "lib/site.ts"), "utf8");
 const slugs = [...source.matchAll(/slug:\s*"([^"]+)"/g)].map((match) => match[1]);
 const core = ["aussiecamps-app-icon.webp", "aussie-hero.webp", "aussie-feature-1.webp", "aussie-feature-2.webp", "aussie-feature-3.webp", "aussie-download.webp", "aussie-qr.webp", "aussie-og.webp"];
-const expected = [...core.map((name) => resolve(root, "public/images", name)), ...slugs.map((slug) => resolve(root, "public/images/articles", `${slug}.webp`))];
-const missing = [];
-for (const path of expected) {
-  try { await access(path); } catch { missing.push(path.replace(`${root}/`, "")); }
+const corePaths = core.map((name) => resolve(root, "public/images", name));
+const articlePaths = slugs.map((slug) => resolve(root, "public/images/articles", `${slug}.webp`));
+const missingCore = [];
+const missingArticles = [];
+for (const path of corePaths) {
+  try { await access(path); } catch { missingCore.push(path.replace(`${root}/`, "")); }
 }
-if (missing.length) {
-  console.log(`Image slots ready: ${expected.length}`);
-  console.log(`Images still to add: ${missing.length}`);
-  for (const path of missing) console.log(`- ${path}`);
+for (const path of articlePaths) {
+  try { await access(path); } catch { missingArticles.push(path.replace(`${root}/`, "")); }
+}
+assert.deepEqual(missingArticles, [], `Missing article images:\n${missingArticles.join("\n")}`);
+
+const hashes = [];
+for (const path of articlePaths) {
+  const bytes = await readFile(path);
+  assert.equal(bytes.subarray(0, 4).toString(), "RIFF", `${path} is not a WebP file`);
+  assert.equal(bytes.subarray(8, 12).toString(), "WEBP", `${path} is not a WebP file`);
+  hashes.push(createHash("sha256").update(bytes).digest("hex"));
+}
+assert.equal(new Set(hashes).size, hashes.length, "Every article must use a unique image file");
+
+if (missingCore.length) {
+  console.log(`All ${articlePaths.length} article images are present, valid and unique.`);
+  console.log(`Product images still to add: ${missingCore.length}`);
+  for (const path of missingCore) console.log(`- ${path}`);
 } else {
-  console.log(`All ${expected.length} image assets are present.`);
+  console.log(`All ${corePaths.length + articlePaths.length} image assets are present and all article images are unique.`);
 }

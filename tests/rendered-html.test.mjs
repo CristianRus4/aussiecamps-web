@@ -16,6 +16,9 @@ test("renders the AussieCamps homepage with product copy and SEO", async () => {
   assert.match(html, /Australia is big/);
   assert.match(html, /74,000\+/);
   assert.match(html, /4,000\+/);
+  assert.match(html, /route, distance, notes and to-dos/i);
+  assert.doesNotMatch(html, /section-number|useful place categories|01 \/ 03/i);
+  assert.match(html, /M318\.7 268\.7/);
   assert.match(html, /application\/ld\+json/);
   assert.doesNotMatch(html, /codex-preview|react-loading-skeleton|not available yet/i);
 });
@@ -28,7 +31,7 @@ test("renders an article with unique travel content and app CTA", async () => {
   assert.match(html, /Ningaloo and Karijini/);
   assert.match(html, /The road, properly travelled/);
   assert.ok((html.match(/<p[ >]/g) ?? []).length >= 10, "Guide must render at least ten prose paragraphs");
-  assert.match(html, /Find the stop\. Build the trip\./);
+  assert.match(html, /Save the stops\. Plan the whole trip\./);
   assert.doesNotMatch(html, /These names are intentionally explicit|Editorial landscape image|Reviewed 12 August/i);
 });
 
@@ -42,6 +45,8 @@ test("every guide renders as a long-form article", async () => {
     const html = await response.text();
     const article = html.match(/<article class="article-page">([\s\S]*?)<\/article>/)?.[1] ?? "";
     assert.ok((article.match(/<p[ >]/g) ?? []).length >= 10, `${slug} must have at least ten prose paragraphs`);
+    const editorial = article.match(/<section class="editorial-opening">([\s\S]*?)<\/section>/)?.[1] ?? "";
+    assert.equal((editorial.match(/<p[ >]/g) ?? []).length, 10, `${slug} must have ten long-form paragraphs before numbered sections`);
     assert.match(article, /<blockquote>/, `${slug} must include a pull quote`);
   }
 });

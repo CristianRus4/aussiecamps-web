@@ -19,9 +19,11 @@ npm run check
 
 This builds the site, runs rendered-route tests and audits the content and image manifest.
 
-## Add images
+## Images
 
-The code already links every required product and article image. Add the matching `.webp` files under `public/images`. Article image names match their URL slug.
+All 52 article images are downloaded, local WebP files. Article image names match their URL slug, and the source and licence records live under `docs/image-sources-*.md`.
+
+The product screenshot, icon, QR and social-preview filenames remain ready under `public/images` for the final app assets.
 
 See `docs/ASSET-MANIFEST.md` for dimensions, crops and naming rules.
 
