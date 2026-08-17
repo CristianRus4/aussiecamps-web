@@ -40,6 +40,11 @@ const reviews = [
   { name: "Priya S.", country: "Canada", title: "Useful for every kind of stop", quote: "We found lovely holiday parks for the family and a few quieter spots for later in the trip. Having prices and access notes together saved so much time." },
   { name: "Lukas H.", country: "Germany", title: "A great companion when plans change", quote: "It helped us find a simple overnight stop when our plans changed, then a beautiful place to stay for a few days. Much better than searching town by town." },
   { name: "Oliver P.", country: "United Kingdom", title: "Clear, practical and easy to trust", quote: "Clear maps, useful details and no fuss. We used it for caravan parks, free camps and a couple of huts, and it became part of our daily routine." },
+  { name: "Ben T.", country: "Australia", title: "Did the big lap with this open daily", quote: "Ten months around the country and I opened it every single day. Filtering for rig length and access saved us a lot of wasted kilometres up north." },
+  { name: "Sarah N.", country: "New Zealand", title: "Made a long trip feel manageable", quote: "We came over for six weeks and had no idea where to start. Building the route stop by stop and seeing the distance made the whole thing far less daunting." },
+  { name: "Femke V.", country: "Netherlands", title: "The offline details were the selling point", quote: "Between Broome and Darwin there is a lot of nothing. Having the place details still readable without signal is what made us keep using it." },
+  { name: "Diego R.", country: "Spain", title: "Rest areas and water when we needed them", quote: "Long driving days across the Nullarbor meant planning around fuel, water and somewhere legal to stop. Finding those together in one place made it simple." },
+  { name: "Grace O.", country: "Ireland", title: "Good for a tent, not just a caravan", quote: "Most apps feel built for big rigs. We were in a small car with a tent and still found plenty of places that actually suited us." },
 ];
 
 export default function Home() {

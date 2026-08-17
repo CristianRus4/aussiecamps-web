@@ -4,12 +4,11 @@ import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { DownloadCard } from "@/components/download-card";
 import { ArticleCard } from "@/components/article-card";
-import { SITE_URL, articles, getEditorialHeading, getEditorialPassages, getPullQuote, type Article } from "@/lib/site";
+import { SITE_URL, articles, type Article } from "@/lib/site";
 import { displayCurrencies, exchangeRateDate, formatAudRange } from "@/lib/currency";
 
 export function GuideArticle({ item }: { item: Article }) {
   const related = articles.filter((candidate) => candidate.slug !== item.slug && (candidate.category === item.category || candidate.region === item.region)).slice(0, 3);
-  const editorial = getEditorialPassages(item);
   const schema = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -39,12 +38,6 @@ export function GuideArticle({ item }: { item: Article }) {
         <div className="article-layout">
           <div className="article-body">
             <p className="article-intro">{item.intro}</p>
-            <section className="editorial-opening">
-              <h2>{getEditorialHeading(item)}</h2>
-              {editorial.slice(0, 5).map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-              <blockquote>{getPullQuote(item)}</blockquote>
-              {editorial.slice(5).map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-            </section>
             {item.priceTable && <section className="article-price-section">
               <span className="section-count">AUD</span>
               <h2>Price table in 10 currencies</h2>
@@ -81,7 +74,7 @@ export function GuideArticle({ item }: { item: Article }) {
           </div>
           <aside>
             <div className="article-side-card"><p className="eyebrow">Plan it in AussieCamps</p><h3>Save the places. Build the route.</h3><p>Order the stops, see the distance and keep notes and to-dos with the trip.</p><DownloadCard compact /></div>
-            <nav className="on-this-page" aria-label="Page contents"><strong>On this page</strong><span>{getEditorialHeading(item)}</span>{item.sections.map((part) => <span key={part.heading}>{part.heading}</span>)}</nav>
+            <nav className="on-this-page" aria-label="Page contents"><strong>On this page</strong>{item.sections.map((part) => <span key={part.heading}>{part.heading}</span>)}</nav>
           </aside>
         </div>
       </article>

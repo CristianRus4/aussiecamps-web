@@ -29,8 +29,13 @@ test("renders an article with unique travel content and app CTA", async () => {
   const html = await response.text();
   assert.match(html, /White dunes, coral reefs, red gorges/);
   assert.match(html, /Ningaloo and Karijini/);
-  assert.match(html, /The road, properly travelled/);
-  assert.ok((html.match(/<p[ >]/g) ?? []).length >= 10, "Guide must render at least ten prose paragraphs");
+  const body = html.match(/<div class="article-body">([\s\S]*?)<\/div>\s*<aside/)?.[1] ?? "";
+  assert.ok((body.match(/<p[ >]/g) ?? []).length >= 5, "Guide must render substantial prose");
+  // Every heading must carry its own prose rather than pushing it into one undifferentiated blob.
+  for (const section of body.matchAll(/<section[^>]*>([\s\S]*?)<\/section>/g)) {
+    if (!/<h2/.test(section[1]) || /place-chips|price-table|sources/.test(section[1])) continue;
+    assert.match(section[1], /<p[ >]/, "every heading needs prose under it");
+  }
   assert.match(html, /Save the stops\. Plan the whole trip\./);
   assert.doesNotMatch(html, /These names are intentionally explicit|Editorial landscape image|Reviewed 12 August/i);
 });
@@ -43,11 +48,14 @@ test("every guide renders as a long-form article", async () => {
     const response = await fetchPage(`/guides/${slug}`);
     assert.equal(response.status, 200, slug);
     const html = await response.text();
-    const article = html.match(/<article class="article-page">([\s\S]*?)<\/article>/)?.[1] ?? "";
-    assert.ok((article.match(/<p[ >]/g) ?? []).length >= 10, `${slug} must have at least ten prose paragraphs`);
-    const editorial = article.match(/<section class="editorial-opening">([\s\S]*?)<\/section>/)?.[1] ?? "";
-    assert.equal((editorial.match(/<p[ >]/g) ?? []).length, 10, `${slug} must have ten long-form paragraphs before numbered sections`);
-    assert.match(article, /<blockquote>/, `${slug} must include a pull quote`);
+    const body = html.match(/<div class="article-body">([\s\S]*?)<\/div>\s*<aside/)?.[1] ?? "";
+    assert.ok((body.match(/<p[ >]/g) ?? []).length >= 5, `${slug} must render substantial prose`);
+    for (const section of body.matchAll(/<section[^>]*>([\s\S]*?)<\/section>/g)) {
+      if (!/<h2/.test(section[1]) || /place-chips|price-table|sources/.test(section[1])) continue;
+      assert.match(section[1], /<p[ >]/, `${slug} has a heading with no prose under it`);
+    }
+    // The generated editorial blob duplicated section prose and described the article to itself.
+    assert.doesNotMatch(body, /named reference points|The route through this subject is specific|The details worth carrying into the plan are/, `${slug} still contains templated filler`);
   }
 });
 

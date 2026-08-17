@@ -156,7 +156,8 @@ em { color: inherit; font: inherit; font-style: normal; }
 .reviews-head { margin-bottom: 50px; }
 .review-wall { display: grid; grid-template-columns: repeat(6, 1fr); gap: 18px; align-items: start; }
 .review-card { grid-column: span 2; padding: 26px; border: 1px solid rgba(30,43,24,0.14); border-radius: 6px; background: var(--paper); }
-.review-card:nth-child(4) { grid-column: 2 / span 2; }
+/* Three cards per row; a lone card on the final row is centred rather than left-aligned. */
+.review-card:last-child:nth-child(3n + 1) { grid-column: 3 / span 2; }
 .review-stars { color: var(--eucalyptus); font-size: 12px; letter-spacing: 0.1em; }
 .review-card h3 { margin: 12px 0 8px; font-size: 19px; letter-spacing: -0.02em; }
 .review-card blockquote { margin: 0; color: #596253; font-size: 16px; line-height: 1.55; }
@@ -345,8 +346,7 @@ em { color: inherit; font: inherit; font-style: normal; }
   .audiences { grid-template-columns: 1fr; gap: 40px; }
   .audience-copy, .faq-section > div:first-child { position: static; }
   .review-wall { grid-template-columns: 1fr 1fr; }
-  .review-card, .review-card:nth-child(4) { grid-column: auto; }
-  .review-card:last-child { grid-column: span 2; }
+  .review-card, .review-card:last-child:nth-child(3n + 1) { grid-column: auto; }
   .principles { grid-template-columns: 1fr; gap: 38px; padding: 90px 25px; }
   .faq-section { grid-template-columns: 1fr; }
   .download-section { grid-template-columns: 1fr; }
@@ -391,7 +391,7 @@ em { color: inherit; font: inherit; font-style: normal; }
   .audience-grid { grid-template-columns: 1fr; }
   .reviews-section { padding: 75px 18px; }
   .review-wall { grid-template-columns: 1fr; }
-  .review-card, .review-card:nth-child(4), .review-card:last-child { grid-column: auto; }
+  .review-card, .review-card:last-child:nth-child(3n + 1) { grid-column: auto; }
   .principles { padding: 70px 20px; }
   .download-image { min-height: 520px; }
   .download-copy { padding: 58px 22px; }

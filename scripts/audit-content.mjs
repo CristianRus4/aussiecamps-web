@@ -11,4 +11,6 @@ assert.equal(new Set(slugs).size, slugs.length, "Article slugs must be unique");
 assert.doesNotMatch(content, /\u2014/, "Em dashes are prohibited");
 assert.doesNotMatch(content, /not available yet|these names are intentionally|the website does not|editorial landscape image|realistic itinerary/i, "Internal or generic copy found");
 assert.doesNotMatch(content, /https:\/\/images\.unsplash\.com/i, "Remote article images are prohibited");
+// Copy must address travellers, not the developer building the page.
+assert.doesNotMatch(content, /this (section|page|guide|article) (explains|describes|shows|covers|will)|here goes|lorem ipsum|placeholder text|TODO|FIXME|coming soon|sample text/i, "Developer-facing or placeholder copy found");
 console.log(`Content audit passed with ${slugs.length} unique articles.`);
