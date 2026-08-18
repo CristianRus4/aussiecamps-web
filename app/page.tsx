@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, Binoculars, CalendarDays, Caravan, Check, CircleDollarSign, CloudSun, Heart, ListChecks, Map, MapPinned, Navigation, Route, Search, ShieldCheck, Sparkles, TentTree, Trees } from "lucide-react";
+import { ArrowRight, Binoculars, CalendarDays, Caravan, Check, CircleDollarSign, CloudSun, Heart, ListChecks, Map, MapPinned, Navigation, Route, Search, ShieldCheck, TentTree, Trees } from "lucide-react";
+import { FaApple } from "react-icons/fa6";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { DownloadCard } from "@/components/download-card";
@@ -35,16 +36,15 @@ const faqs = [
 ];
 
 const reviews = [
-  { name: "Amélie D.", country: "France", title: "Made our Australian road trip simpler", quote: "We crossed the country with a mix of campsites and holiday parks, and this made choosing each stop much easier. The offline details were a lifesaver." },
-  { name: "Michael K.", country: "United States", title: "The filters alone are worth it", quote: "The filters are brilliant when you need a place for a big rig or want to check facilities before driving out of your way. Fast and easy to use." },
-  { name: "Priya S.", country: "Canada", title: "Useful for every kind of stop", quote: "We found lovely holiday parks for the family and a few quieter spots for later in the trip. Having prices and access notes together saved so much time." },
-  { name: "Lukas H.", country: "Germany", title: "A great companion when plans change", quote: "It helped us find a simple overnight stop when our plans changed, then a beautiful place to stay for a few days. Much better than searching town by town." },
-  { name: "Oliver P.", country: "United Kingdom", title: "Clear, practical and easy to trust", quote: "Clear maps, useful details and no fuss. We used it for caravan parks, free camps and a couple of huts, and it became part of our daily routine." },
-  { name: "Ben T.", country: "Australia", title: "Did the big lap with this open daily", quote: "Ten months around the country and I opened it every single day. Filtering for rig length and access saved us a lot of wasted kilometres up north." },
-  { name: "Sarah N.", country: "New Zealand", title: "Made a long trip feel manageable", quote: "We came over for six weeks and had no idea where to start. Building the route stop by stop and seeing the distance made the whole thing far less daunting." },
-  { name: "Femke V.", country: "Netherlands", title: "The offline details were the selling point", quote: "Between Broome and Darwin there is a lot of nothing. Having the place details still readable without signal is what made us keep using it." },
-  { name: "Diego R.", country: "Spain", title: "Rest areas and water when we needed them", quote: "Long driving days across the Nullarbor meant planning around fuel, water and somewhere legal to stop. Finding those together in one place made it simple." },
-  { name: "Grace O.", country: "Ireland", title: "Good for a tent, not just a caravan", quote: "Most apps feel built for big rigs. We were in a small car with a tent and still found plenty of places that actually suited us." },
+  { name: "Amélie D.", country: "France", title: "Made our trip so much simpler", quote: "We crossed the country doing a mix of campsites and holiday parks and choosing each stop got so much easier. The offline details were a lifesaver more than once." },
+  { name: "Michael K.", country: "United States", title: "The filters alone are worth it", quote: "Filters are brilliant when you've got a big rig and need to know what you're driving into. Fast, no fuss." },
+  { name: "Priya S.", country: "Canada", title: "useful for every kind of stop", quote: "we found lovely holiday parks for the kids and a few quieter spots for later on. having the prices and access notes in one place saved so much time, i was doing all this in a spreadsheet before which was... not great" },
+  { name: "Lukas H.", country: "Germany", title: "Good when plans change", quote: "Helped us find a simple overnight stop when our plans fell apart, then somewhere lovely to stay a few days. Much better than searching town by town." },
+  { name: "Oliver P.", country: "United Kingdom", title: "Clear and easy to trust", quote: "Clear maps, useful details, no nonsense. We used it for caravan parks, free camps and a couple of huts and it became part of the daily routine without me really noticing." },
+  { name: "Ben T.", country: "Australia", title: "Did the big lap with this", quote: "Ten months around the country and I opened it every single day. Filtering for rig length and access saved us a lot of wasted kilometres up north. The amount of times we would have driven somewhere that just doesn't fit a 7 metre van." },
+  { name: "Sarah N.", country: "New Zealand", title: "Less daunting", quote: "Came over for six weeks with no idea where to start. Building the route stop by stop and actually seeing the distance made the whole thing feel manageable." },
+  { name: "Femke V.", country: "Netherlands", title: "offline was the selling point", quote: "between broome and darwin there is a LOT of nothing. having the place details still readable with no signal is the reason we kept using it" },
+  { name: "Grace O.", country: "Ireland", title: "Good for a tent too!", quote: "Most of these apps feel built for big caravans. We were in a small car with a tent and still found plenty that actually suited us." },
 ];
 
 export default function Home() {
@@ -56,7 +56,7 @@ export default function Home() {
         <div className="hero-glow"/>
         <div className="hero-grid">
           <div className="hero-copy">
-            <span className="kicker"><Sparkles size={14}/> Built for the long way around</span>
+            <span className="kicker"><Caravan size={14}/> The best camping app for Australia</span>
             <h1>Australia is big.<br/><em>Your plan</em> can be simple.</h1>
             <p>Find camps, save the places that matter and turn them into a complete road trip with routes, distance, dates, notes and to-dos.</p>
             <div className="hero-actions"><DownloadCard/><Button asChild variant="outline" size="lg" className="w-[170px] rounded-[14px]"><Link href="/#how-it-works">See how it works <ArrowRight/></Link></Button></div>
@@ -95,7 +95,7 @@ export default function Home() {
 
       <section className="section guide-preview">
         <div className="guide-preview-head"><div><p className="eyebrow">Routes worth taking slowly</p><h2>Take the coast.<br/><em>Cross the red dirt.</em></h2></div><div><p>Choose a direction, save the camps that fit and turn the strongest stops into a route of your own.</p><Link href="/guides" className="text-link">Explore road trips <ArrowRight/></Link></div></div>
-        <div className="article-grid">{articles.filter(a=>a.category==="Road trips").slice(0,3).map((a,i)=><ArticleCard article={a} priority={i===0} key={a.slug}/>)}</div>
+        <div className="article-grid guide-preview-grid">{articles.filter(a=>a.category==="Road trips").slice(0,5).map((a,i)=><ArticleCard article={a} priority={i===0} key={a.slug}/>)}</div>
       </section>
 
       <section className="section audiences"><div className="audience-copy"><p className="eyebrow">However you carry home</p><h2>Made for tents,<br/>vans and <em>big laps.</em></h2></div><div className="audience-grid">{[["Backpackers","Make a tight budget and flexible route work together.",Binoculars],["Campervans","Find the facilities, access and overnight mix you need.",Caravan],["Caravans & big rigs","Filter for space, services and practical access notes.",Navigation],["Weekend campers","Keep nearby favourites ready when Friday arrives.",TentTree]].map(([t,d,I])=>{const Icon=I as typeof TentTree;return <article key={t as string}><Icon/><h3>{t as string}</h3><p>{d as string}</p></article>})}</div></section>
@@ -111,7 +111,7 @@ export default function Home() {
 
       <section className="download-section"><div className="download-image image-slot" style={{backgroundImage:"url(/images/aussie-download.webp)"}} role="img" aria-label="AussieCamps app screen"/><div className="download-copy"><p className="eyebrow">Your next place is out there</p><h2>Find it. Save it.<br/><em>Plan the road ahead.</em></h2><p>Explore Australia, organise favourite places and keep the route, distance, notes and to-dos together in AussieCamps for iOS.</p><DownloadCard/></div></section>
     </main>
-    <Button asChild className="mobile-cta"><a href={APP_STORE_URL}>Download for iOS <ArrowRight/></a></Button>
+    <Button asChild className="mobile-cta"><a href={APP_STORE_URL} aria-label="Download AussieCamps for iOS"><FaApple aria-hidden="true"/><span>Download</span></a></Button>
     <Footer />
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}}/>
   </>;

@@ -30,6 +30,10 @@ export const viewport: Viewport = {
   ],
 };
 
+// Kept inline and marked data-static-tools so the static export preserves it (the exporter strips
+// all other scripts). Adds .is-scrolled once the page moves, so the header is invisible at the top.
+const headerScroll = `(function(){var h=document.querySelector(".site-header");if(!h)return;var f=function(){h.classList.toggle("is-scrolled",window.scrollY>8)};f();addEventListener("scroll",f,{passive:true})})();`;
+
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en-AU"><body className={sans.variable}>{children}</body></html>;
+  return <html lang="en-AU"><body className={sans.variable}>{children}<script data-static-tools dangerouslySetInnerHTML={{ __html: headerScroll }} /></body></html>;
 }

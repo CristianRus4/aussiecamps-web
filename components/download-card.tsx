@@ -7,7 +7,7 @@ export function DownloadCard({ compact = false }: { compact?: boolean }) {
       {!compact && <div className="qr-image" style={{backgroundImage:"url(/images/aussie-qr.webp)"}} role="img" aria-label="QR code to download AussieCamps" />}
       <a className="store-button" href={APP_STORE_URL} aria-label="Download AussieCamps for iOS">
         <FaApple aria-hidden="true" />
-        <span>Download for iOS</span>
+        <span>Download app</span>
       </a>
     </div>
   );
