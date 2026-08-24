@@ -7,7 +7,8 @@ Six languages are wired up: **de, es, fr, it, nl, pt**. Each is served from its 
 ## What gets translated
 
 Everything **except the road trip guides**. Those stay English-only: they are long, heavily
-place-specific and lose more in translation than they gain. Concretely, a translator receives:
+place-specific and lose more in translation than they gain. They are still published in every
+locale, just in English. Concretely, a translator receives:
 
 - all UI copy (navigation, hero, features, planner, FAQ, footer, tools, article chrome)
 - the support, privacy and terms pages
@@ -47,8 +48,8 @@ So a translation counts only when it is **complete and structurally identical** 
 translates: same number of sections, same number of paragraphs and tips in each, every one filled
 in. Anything short of that is treated as absent:
 
-- an incomplete guide is **not listed** on the localised `/guides` index and its localised URL
-  **404s** — the reader gets the complete English guide instead
+- an incomplete guide is served **whole, in English**, at its localised URL. Every guide is
+  available in every language; the ones not yet translated simply read in English
 - an incomplete support/privacy/terms page renders in English
 - a locale with an incomplete UI is not published at all (see below)
 
@@ -59,9 +60,9 @@ contains a guide the site cannot render, and tells you which one.
 ### Whenever the English changes
 
 If an English guide gains a section or a paragraph, its existing translations become structurally
-stale and stop rendering until they are updated. That is deliberate — it is exactly the failure
-above, caught at build time instead of in front of a reader. Re-run `npm run translations:source`
-and re-translate the affected guide.
+stale and the page silently falls back to English until they are updated. That is deliberate: it is
+exactly the failure above, caught before a reader sees it. `npm run check` fails in that case and
+names the guide, so it cannot go unnoticed. Re-run `npm run translations:source` and re-translate it.
 
 ## When a locale goes live
 

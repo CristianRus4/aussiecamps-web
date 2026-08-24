@@ -93,40 +93,57 @@ test("renders standalone road trip tools", async () => {
   assert.match(html, /120\.0 L · A\$249\.60/);
 });
 
-test("publishes a localised edition per language, road trips excluded", async () => {
+test("publishes every guide in every locale", async () => {
+  // Every guide is available in all six languages. Ones a locale has not translated are served
+  // whole in English, road trips included, so no localised URL is ever missing.
   for (const locale of locales) {
-    for (const route of ["", "/guides", "/tools", "/support", "/privacy", "/terms"]) {
+    for (const route of ["", "/guides", "/tools", "/support", "/privacy", "/terms",
+                         "/guides/australia-grocery-prices-2026", "/guides/perth-to-broome-road-trip"]) {
       assert.equal((await fetchPage(`/${locale}${route}`)).status, 200, `${locale}${route}`);
     }
-    // Road trips stay English-only, so no locale may ever serve one.
-    assert.equal((await fetchPage(`/${locale}/guides/perth-to-broome-road-trip`)).status, 404, `${locale} must not publish a translated road trip`);
   }
 });
+
+test("road trips are never translated", async () => {
+  for (const locale of locales) {
+    const file = JSON.parse(await readFile(new URL(`../lib/translations/${locale}.json`, import.meta.url), "utf8"));
+    assert.ok(!file.articles?.["perth-to-broome-road-trip"], `${locale} must not translate a road trip`);
+  }
+});
+
+const articleBody = (html) => html.match(/<div class="article-body">([\s\S]*?)<\/div>\s*<aside/)?.[1] ?? "";
+
+const decode = (html) => html.replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#x27;/g, "'").replace(/<!-- -->/g, "");
 
 test("never serves a half-translated guide", async () => {
-  // A localised guide URL exists only where that locale's translation is complete. Anything partial
-  // or structurally stale must 404 rather than render a mixture of two languages.
+  // The rule is all-or-nothing per guide. Where a locale has no translation, the article's own prose
+  // must appear verbatim in English, so a reader never gets one paragraph in their language and the
+  // next in English. (The chrome around the prose is translated, which is the point.)
+  const slug = "australia-grocery-prices-2026";
+  const source = JSON.parse(await readFile(new URL("../lib/translations/en.json", import.meta.url), "utf8")).articles[slug];
+  const prose = [source.intro, ...source.sections.flatMap((section) => [section.heading, ...section.body])];
+  assert.ok(prose.length >= 5);
   for (const locale of locales) {
     const file = JSON.parse(await readFile(new URL(`../lib/translations/${locale}.json`, import.meta.url), "utf8"));
-    const index = await (await fetchPage(`/${locale}/guides`)).text();
-    for (const slug of ["australia-grocery-prices-2026", "camping-rules-queensland", "australia-travel-cost-2026"]) {
-      const complete = Boolean(file.articles?.[slug]);
-      assert.equal((await fetchPage(`/${locale}/guides/${slug}`)).status, complete ? 200 : 404, `${locale}/${slug}`);
-      if (!complete) assert.ok(!index.includes(`/${locale}/guides/${slug}"`), `${locale} lists ${slug} it cannot serve`);
-    }
-    if (Object.keys(file.articles ?? {}).length === 0) assert.match(index, /Not available in this language yet/);
+    if (file.articles?.[slug]) continue;
+    // The localised article template has no sidebar, so match against the whole page.
+    const body = decode(await (await fetchPage(`/${locale}/guides/${slug}`)).text());
+    for (const text of prose) assert.ok(body.includes(text), `${locale}/${slug} is missing English prose it should be falling back to`);
   }
 });
 
-test("keeps untranslated locales out of the sitemap and index", async () => {
+test("a published locale translates the whole interface", async () => {
+  // A locale goes live only when every UI string is done, so a live locale must not leak English
+  // chrome, and one that is not live must stay noindex and out of the sitemap.
   const sitemap = await (await fetchPage("/sitemap.xml")).text();
+  const englishStrings = ["Download app", "Road trip tools", "Made for plans"];
   for (const locale of locales) {
     const file = JSON.parse(await readFile(new URL(`../lib/translations/${locale}.json`, import.meta.url), "utf8"));
-    const published = Object.keys(file.ui ?? {}).length > 0;
+    const total = JSON.parse(await readFile(new URL("../lib/translations/en.json", import.meta.url), "utf8"));
+    const published = Object.keys(file.ui ?? {}).length === Object.keys(total.ui).length;
     assert.equal(sitemap.includes(`/${locale}/guides`), published, `${locale} sitemap presence must match its translation state`);
     const html = await (await fetchPage(`/${locale}`)).text();
     assert.match(html, published ? /name="robots" content="index/ : /name="robots" content="noindex/, `${locale} robots meta must match its translation state`);
+    if (published) for (const phrase of englishStrings) assert.ok(!html.includes(phrase), `${locale} leaked English chrome: ${phrase}`);
   }
-  // Whatever a translator delivers, a road trip must never reach a localised URL.
-  for (const locale of locales) assert.ok(!sitemap.includes(`/${locale}/guides/perth-to-broome-road-trip`));
 });

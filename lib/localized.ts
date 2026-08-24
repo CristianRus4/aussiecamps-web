@@ -18,8 +18,12 @@ export const localeLabels: Record<LocaleCode, string> = { de: "Deutsch", es: "Es
  * /guides/ index lists.
  */
 export const untranslatedCategories: ArticleCategory[] = ["Road trips"];
-export const translatableArticles = articles.filter((item) => !untranslatedCategories.includes(item.category));
-export const translatableCategories = categories.filter((category) => !untranslatedCategories.includes(category));
+/** Every guide a locale publishes. Untranslated ones are served whole, in English. */
+export const localeArticles = articles;
+/** The subset a translator is asked for. Road trips are long, heavily place-specific and lose
+ * more in translation than they gain, so they stay English everywhere. */
+export const translatableArticles = localeArticles.filter((item) => !untranslatedCategories.includes(item.category));
+export const localeCategories = categories;
 
 type TranslatedSection = { heading?: string; body?: string[]; tips?: string[] };
 type TranslatedArticle = {
@@ -122,16 +126,19 @@ export function getPage(locale: LocaleCode, kind: StaticPageKind): StaticPage {
 }
 
 /**
- * The guides a locale actually publishes: only those whose translation is complete. An article with
- * a missing or structurally stale translation is not listed, and `generateStaticParams` never builds
- * a URL for it, so the localised path 404s rather than serving a mixture.
+ * Every guide, in the best language available for it.
+ *
+ * A guide whose translation is complete is returned translated. A guide with no translation, or one
+ * whose translation is incomplete or structurally stale, is returned **whole and untouched in
+ * English**. What never happens is the third thing: a single article rendered as a mixture of two
+ * languages, which is what this site shipped before `isArticleComplete` existed.
  */
 export function localizedArticles(locale: LocaleCode): Article[] {
   const translated = files[locale].articles ?? {};
-  return translatableArticles.flatMap((article) => {
+  return localeArticles.map((article) => {
     const item = translated[article.slug];
-    if (!isArticleComplete(article, item)) return [];
-    return [{
+    if (!isArticleComplete(article, item)) return article;
+    return {
       ...article,
       title: item!.title!,
       description: item!.description!,
@@ -149,13 +156,19 @@ export function localizedArticles(locale: LocaleCode): Article[] {
         note: item!.priceTable!.note!,
         rows: article.priceTable.rows.map((row, index) => ({ ...row, label: item!.priceTable!.rows![index].label!, unit: item!.priceTable!.rows![index].unit || row.unit })),
       } : undefined,
-    }];
+    };
   });
 }
+
+/** Slugs whose translation is complete, for the content audit and the build log. */
+export const fullyTranslatedSlugs = (locale: LocaleCode) => {
+  const translated = files[locale].articles ?? {};
+  return translatableArticles.filter((article) => isArticleComplete(article, translated[article.slug])).map((article) => article.slug);
+};
 
 const categoryKeys = { "Road trips": "roadTrips", "Camping guides": "campingGuides", "Rules & safety": "rulesSafety", "Trip planning": "tripPlanning", "Costs & budget": "costsBudget", "App guides": "appGuides" } as const;
 
 export const localizedCategories = (locale: LocaleCode) => {
   const ui = getTranslation(locale);
-  return translatableCategories.map((category) => ({ source: category, label: ui[categoryKeys[category]] }));
+  return localeCategories.map((category) => ({ source: category, label: ui[categoryKeys[category]] }));
 };

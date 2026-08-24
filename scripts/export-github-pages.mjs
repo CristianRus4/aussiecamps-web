@@ -9,12 +9,8 @@ const basePath = (process.env.PAGES_BASE_PATH ?? "/aussiecamps-web").replace(/\/
 const sources = await Promise.all(["lib/site.ts", "lib/expanded-articles.ts"].map((path) => readFile(resolve(root, path), "utf8")));
 const slugs = sources.flatMap((source) => [...source.matchAll(/slug:\s*"([^"]+)"/g)].map((match) => match[1]));
 const pageRoutes = ["/guides", ...slugs.map((slug) => `/guides/${slug}`), "/tools", "/support", "/privacy", "/terms"];
-// A locale exports only the guides it has actually finished translating; road trips are never among
-// them. The translation file is the source of truth, and the content audit keeps it honest.
-const localeRoutes = (await Promise.all(["de", "es", "fr", "it", "nl", "pt"].map(async (locale) => {
-  const { articles } = JSON.parse(await readFile(resolve(root, `lib/translations/${locale}.json`), "utf8"));
-  return ["", "/guides", ...Object.keys(articles ?? {}).map((slug) => `/guides/${slug}`), "/tools", "/support", "/privacy", "/terms"].map((route) => `/${locale}${route}`);
-}))).flat();
+// Every locale exports every guide; ones it has not translated are served in English.
+const localeRoutes = ["de", "es", "fr", "it", "nl", "pt"].flatMap((locale) => ["", "/guides", ...slugs.map((slug) => `/guides/${slug}`), "/tools", "/support", "/privacy", "/terms"].map((route) => `/${locale}${route}`));
 const htmlRoutes = ["/", ...pageRoutes, ...localeRoutes];
 const textRoutes = ["/robots.txt", "/sitemap.xml", "/llms.txt"];
 

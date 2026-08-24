@@ -1,6 +1,368 @@
 {
   "locale": "de",
-  "ui": {},
-  "pages": {},
+  "ui": {
+    "languageName": "Deutsch",
+    "navFeatures": "Funktionen",
+    "navGuides": "Ratgeber",
+    "navTools": "Rechner",
+    "navSupport": "Hilfe",
+    "download": "App laden",
+    "heroKicker": "Die beste Camping-App für Australien",
+    "heroTitle": "Australien ist riesig. Dein Plan darf einfach sein.",
+    "heroText": "Über 74.000 Orte in ganz Australien, offline mit dabei und auch ohne Empfang abrufbar. Filtere genau das heraus, was du brauchst, speichere es und mach aus der Auswahl einen Roadtrip mit Route, Entfernung, Terminen, Notizen und To-dos.",
+    "seeHow": "So funktioniert es",
+    "statPlaces": "74.000+",
+    "statPlacesLabel": "Orte in ganz Australien",
+    "statOffline": "Offline",
+    "statOfflineLabel": "alle Ortsdetails, ganz ohne Empfang",
+    "statStays": "4.000+",
+    "statStaysLabel": "Übernachtungsmöglichkeiten",
+    "trustLine": "Campingplätze, Caravanparks und nützliche Stopps in ganz Australien.",
+    "trustCampsites": "Campingplätze",
+    "trustCaravanParks": "Caravanparks",
+    "trustNationalParks": "Nationalparks",
+    "trustRestAreas": "Rastplätze",
+    "trustUsefulStops": "Nützliche Stopps",
+    "trustExperiences": "Erlebnisse",
+    "processEyebrow": "Von der Idee auf die Straße",
+    "processTitle": "Platz finden. Trip bauen.",
+    "processText": "Filtere den Platz für heute Nacht heraus, sammle die Möglichkeiten für morgen in Listen und behalte Route, Entfernung, Termine, Notizen und To-dos in einer Reise zusammen.",
+    "findTitle": "Genau den richtigen Ort finden",
+    "findText": "Durchsuche über 74.000 Orte, schau, was in der Nähe liegt, oder kombiniere Filter, bis nur noch die kostenlosen Stellplätze mit Toiletten und Wasser in deinem Kartenausschnitt übrig sind.",
+    "saveTitle": "In einer Sammlung speichern",
+    "saveText": "Setze ein Herz, einen Stern oder markiere einen Ort als besucht, und die smarten Sammlungen aktualisieren sich von selbst. Eigene Listen legst du für eine Region, eine Jahreszeit oder deine engere Auswahl an.",
+    "planTitle": "Daraus eine Reise machen",
+    "planText": "Bring die Stopps in die richtige Reihenfolge, sieh die Entfernung dazwischen, ergänze Termine und Notizen, prüfe das Wetter am Ziel, lass dich hinnavigieren und hak sie unterwegs ab.",
+    "featuresEyebrow": "Alles an Bord",
+    "featuresTitle": "Finden. Speichern. Die ganze Strecke planen.",
+    "featuresText": "Orte entdecken, Details vergleichen, Favoriten ordnen und eine Reise bauen, die auch nach dem Planen am Küchentisch noch nützlich ist.",
+    "featureMainEyebrow": "Den Ort kennen, bevor du ankommst",
+    "featureMainTitle": "Jeder Ort öffnet sich mit dem Detail, das den Ausschlag gibt.",
+    "featureMainText": "Fotos, eine echte Beschreibung, Öffnungszeiten, Gebühren, Bedingungen, nach Art gruppierte Ausstattung und Merkmale, aktuelle Hinweise, Bewertungen, Kontakt- und Buchungsdaten, das Wetter und Street View, um die Einfahrt schon von der Straße aus zu sehen.",
+    "featureList1": "Fotos, Zeiten, Gebühren, Bedingungen und Ausstattung",
+    "featureList2": "Street View, Wetter und Navigation direkt integriert",
+    "featureList3": "Offline dabei, es öffnet sich auch ohne Empfang",
+    "feature1Title": "Smarte Sammlungen und eigene Listen",
+    "feature1Text": "Gefällt mir, Markiert, Möchte ich hin und Besucht füllen sich von selbst, sobald du Orte markierst. Darüber legst du eigene Sammlungen an, für eine Region, eine Jahreszeit oder die Auswahl, über die ihr noch diskutiert.",
+    "feature2Title": "Filter, die eine echte Frage beantworten",
+    "feature2Text": "Frag nach kostenlosen Stellplätzen mit Toiletten und Trinkwasser rund um die Gold Coast und grenze danach weiter ein, nach Kategorie, Gebühr, Bewertung, Onlinebuchung, Bundesstaat sowie detaillierten Merkmalen zu Zufahrt, Ausstattung, Aktivitäten und Service.",
+    "feature3Title": "Standard-, Satelliten- und 3D-Karten",
+    "feature3Text": "Wechsle zwischen der Standardkarte und Satellitenbildern, die du in echtes Gelände kippen und drehen kannst. Herausgezoomt fassen sich die Nadeln zu Zahlen zusammen und lösen sich beim Hineinzoomen wieder auf.",
+    "feature4Title": "Street View vor der Abzweigung",
+    "feature4Text": "Street View öffnet sich direkt auf der Ortsseite, wo es Bildmaterial gibt. So siehst du Einfahrt, Straßenbelag und Umgebung, bevor du mit dem Wagen abbiegst.",
+    "feature5Title": "Wetter an jedem Ort",
+    "feature5Text": "Aktuelle Lage und Vorhersage stehen auf der Ortsseite und neben jedem Stopp der Reise, damit die Wahl zwischen zwei Plätzen mit Blick auf den Himmel fällt.",
+    "feature6Title": "Kosten in deiner eigenen Währung",
+    "feature6Text": "Zu Besuch und mit australischen Dollar noch nicht vertraut? Währung auswählen, Kurs einmal eintragen, und die angegebenen Gebühren erscheinen zusätzlich in Geld, das du sofort einschätzen kannst.",
+    "plannerEyebrow": "Das Herzstück",
+    "plannerTitle": "Stopp für Stopp. Tag für Tag.",
+    "plannerText": "Der Reiseplaner ist das, worauf alles andere zuläuft. Füge gespeicherte Orte als Stopps hinzu und zieh sie in die Reihenfolge, die du wirklich fährst. Jede Etappe zeigt ihre Entfernung, die Navigation zum nächsten Stopp startet direkt, jeder Stopp trägt eigenes Datum, Ankunftsnotizen und Wetter, und unterwegs hakst du sie als besucht ab. Alternativen in der Nähe bleiben für die Tage hinterlegt, an denen sich etwas ändert, die Packliste steht neben dem Reiseverlauf, und das Ganze lässt sich mit dem Kalender abgleichen.",
+    "plannerMetric1Title": "Entfernung & Navigation",
+    "plannerMetric1Text": "pro Etappe und für die ganze Reise",
+    "plannerMetric2Title": "Termine & Notizen",
+    "plannerMetric2Text": "an jedem einzelnen Stopp",
+    "plannerMetric3Title": "Besucht & To-dos",
+    "plannerMetric3Text": "Fortschritt, den du siehst",
+    "plannerMetric4Title": "Wetter pro Stopp",
+    "plannerMetric4Text": "direkt neben dem Reiseverlauf",
+    "routesEyebrow": "Ratgeber, die sich zuerst lohnen",
+    "routesTitle": "Regeln kennen. Kosten kennen.",
+    "routesText": "Praktische Ratgeber zu Campingregeln, Sicherheit auf der Straße, der besten Reisezeit und dem, was eine Australienreise wirklich kostet.",
+    "exploreRoutes": "Ratgeber entdecken",
+    "audiencesEyebrow": "Wie auch immer du unterwegs bist",
+    "audiencesTitle": "Gemacht für Zelte, Vans und die große Runde.",
+    "audience1Title": "Backpacker",
+    "audience1Text": "Knappes Budget und flexible Route bringst du damit zusammen.",
+    "audience2Title": "Campervans",
+    "audience2Text": "Finde die Ausstattung, Zufahrt und Mischung an Übernachtungen, die du brauchst.",
+    "audience3Title": "Caravans & große Gespanne",
+    "audience3Text": "Filtere nach Platz, Service und praktischen Hinweisen zur Zufahrt.",
+    "audience4Title": "Wochenendcamper",
+    "audience4Text": "Halte Favoriten in der Nähe bereit, wenn der Freitag kommt.",
+    "reviewsEyebrow": "Was Reisende sagen",
+    "reviewsTitle": "Gemacht für Pläne, die sich ändern.",
+    "principlesTitle": "Erst nützlich. Immer ehrlich.",
+    "principle1Title": "Schilder schlagen Bildschirme",
+    "principle1Text": "Hinweise vor Ort, die Betreiber und aktuelle Warnungen haben immer Vorrang vor einem Eintrag.",
+    "principle2Title": "Aktuelles prüfen zählt",
+    "principle2Text": "Prüfe vor der Abfahrt die neuesten Infos zu Buchung, Straße, Feuer und Sperrungen.",
+    "principle3Title": "Orte besser hinterlassen",
+    "principle3Text": "Legales Campen, sorgsame Entsorgung und Respekt vor dem Land halten diese Orte offen.",
+    "faqEyebrow": "Ein paar klare Antworten",
+    "faqTitle": "Gute Fragen. Klare Antworten.",
+    "faqIntro": "Klare Antworten zum Reisen mit AussieCamps.",
+    "faq1q": "Was ist AussieCamps?",
+    "faq1a": "AussieCamps ist eine iPhone-App, mit der du in ganz Australien Plätze zum Campen und Übernachten findest. Ein Verzeichnis mit über 74.000 Orten ist fest eingebaut, sodass die Details auch ohne Empfang lesbar bleiben, und aus deinen gespeicherten Orten wird ein Roadtrip mit geordneter Route, Terminen, Notizen und To-dos.",
+    "faq2q": "Welche Orte sind enthalten?",
+    "faq2a": "Mehr als 74.000 Orte: Campingplätze, Caravanparks, feste Unterkünfte, Farm- und Stationsaufenthalte, Backpacker-Hostels, Rastplätze an der Straße, Tagesplätze, Entsorgungsstationen, Trinkwasserstellen, Waschsalons, Informationszentren, Parkplätze für lange Fahrzeuge, Erlebnisse und weitere nützliche Stopps.",
+    "faq3q": "Funktioniert die App ohne Empfang?",
+    "faq3a": "Das Ortsverzeichnis ist fest in der App enthalten, sodass Namen, Kategorien, Beschreibungen, Gebühren, Ausstattung, Öffnungszeiten und Bedingungen weit jenseits des Netzes lesbar bleiben. Live-Dienste wie Wetter, Navigation, Street View, Fotos und Anbieterseiten brauchen weiterhin eine Verbindung.",
+    "faq4q": "Kann ich einen Roadtrip mit mehreren Stopps planen?",
+    "faq4a": "Ja, und genau das ist die Hauptfunktion der App. Füge Orte als Stopps hinzu, zieh sie in die richtige Reihenfolge, hinterlege bei jedem Datum und Ankunftsnotizen, sieh die Fahrstrecke pro Etappe und für die gesamte Reise, starte die Navigation zum nächsten Stopp, prüfe dort das Wetter, hak Stopps als besucht ab und behalte die Packliste neben dem Reiseverlauf. Die Termine lassen sich mit dem Kalender abgleichen.",
+    "faq5q": "Was sind Sammlungen?",
+    "faq5a": "Es gibt zwei Arten. Smarte Sammlungen (Gefällt mir, Markiert, Möchte ich hin, Besucht, Pins und Alle gespeicherten) füllen sich von selbst, sobald du Orte markierst. Darüber hinaus legst du eigene benannte Sammlungen mit Symbol und Notizen an, für eine Region, eine Jahreszeit, ein Fahrzeug oder deine engere Auswahl.",
+    "faq6q": "Kann ich nach Gratisplätzen oder Caravan-Zufahrt filtern?",
+    "faq6a": "Ja, und auch nach Kombinationen davon. Die Filter umfassen Kategorie, Gebührenart, Mindestbewertung, Onlinebuchung, Bundesstaat oder Territorium sowie detaillierte Merkmalsgruppen zu Zufahrt, Ausstattung, Aktivitäten, Service und Mitgliedschaften. „Kostenlose Stellplätze mit Toiletten und Trinkwasser in Queensland“ ist damit eine einzige Abfrage.",
+    "faq7q": "Was steht auf einer Ortsseite?",
+    "faq7a": "Fotos, eine Beschreibung, Öffnungszeiten, Gebühren, Bedingungen, nach Art gruppierte Ausstattung und Merkmale, aktuelle Hinweise, Bewertungen, Kontakt- und Buchungsdaten, Wetter, Street View, wo es Bildmaterial gibt, Navigation und Alternativen in der Nähe.",
+    "faq8q": "Welche Kartenansichten gibt es?",
+    "faq8a": "Eine Standardkarte und eine Satellitenansicht auf Basis der Flyover-Bilder von Apple, die du für echtes 3D-Gelände kippen und drehen kannst. Street View, basierend auf Apples Look-Around-Bildern, liefert die Ansicht auf Straßenhöhe direkt von der Ortsseite aus.",
+    "faq9q": "Kann ich Preise in meiner eigenen Währung sehen?",
+    "faq9a": "Ja. Wähle in den Einstellungen deine Währung und trage den Umrechnungskurs ein, dann erscheinen die angegebenen Gebühren in dieser Währung zusätzlich zum Betrag in australischen Dollar.",
+    "faq10q": "Kann ich in AussieCamps einen Campingplatz buchen?",
+    "faq10a": "Öffne die Buchungsdaten eines Ortes, um den Anbieter zu erreichen und Verfügbarkeit, Preise und Bedingungen direkt dort zu prüfen.",
+    "faq11q": "Gelten in ganz Australien dieselben Campingregeln?",
+    "faq11a": "Nein. Die Regeln unterscheiden sich je nach Bundesstaat, Territorium, Gemeinde, Park und einzelnem Platz. Richte dich immer nach aktuellen Schildern, den Vorgaben der Betreiber, Feuerverboten und offiziellen Warnungen.",
+    "downloadEyebrow": "Dein nächster Ort wartet da draußen",
+    "downloadTitle": "Finden. Speichern. Die Strecke planen.",
+    "downloadText": "Über 74.000 australische Orte offline, Filter scharf genug für genau den einen, Sammlungen, die sich selbst ordnen, und ein Reiseplaner, der die ganze Route trägt. AussieCamps für iOS.",
+    "guidesEyebrow": "Australische Camping-Ratgeber",
+    "guidesTitle": "Folge der Straße irgendwohin, wo es gut ist.",
+    "guidesIntro": "ausführliche Ratgeber zu Plätzen, Regeln, Kosten vor Ort und praktischer Reiseplanung in ganz Australien.",
+    "guideSingular": "Ratgeber",
+    "guidePlural": "Ratgeber",
+    "readGuide": "Ratgeber lesen",
+    "minuteRead": "Minuten Lesezeit",
+    "places": "Orte",
+    "backToGuides": "Ratgeber",
+    "photoCredits": "Bildnachweise",
+    "keepInMind": "Denk daran",
+    "placesAlong": "Orte entlang der Strecke",
+    "checkBefore": "Vor der Abfahrt prüfen",
+    "checkText": "Regeln und Bedingungen ändern sich. Prüfe vor der Abfahrt noch einmal die offizielle Quelle und die Seite deines konkreten Parks oder Campingplatzes.",
+    "priceTitle": "Preistabelle in 10 Währungen",
+    "pricesChecked": "Preise geprüft",
+    "conversionsUse": "Umrechnung mit RBA-Kursen vom",
+    "item": "Position",
+    "currencyDisclaimer": "Die Währungsangaben sind rechnerische Umrechnungen des AUD-Richtwerts, keine Karten- oder Bargeldkurse. Banken und Zahlungsdienstleister verwenden eigene Kurse und Gebühren.",
+    "related": "Passende Ratgeber",
+    "takeRoad": "Nimm es mit auf die Straße",
+    "savePlanTitle": "Stopps speichern. Ganze Reise planen.",
+    "savePlanText": "Bau aus gespeicherten Orten eine geordnete Route, berechne die Entfernung und behalte Termine, Notizen und To-dos daran.",
+    "toolsEyebrow": "Nützliche Zahlen",
+    "toolsTitle": "Rechner für den Roadtrip. Ohne Rätselraten.",
+    "toolsIntro": "Schnelle Rechner für australische Preise, Entfernungen und Kapazitäten. Jede Annahme bleibt sichtbar, sodass du sie durch die Zahl ersetzen kannst, die zu deiner Route passt.",
+    "currencyEyebrow": "Währungsrechner",
+    "currencyTitle": "Einen australischen Preis umrechnen.",
+    "currencyText": "Orientierungswert für die Reiseplanung auf Basis der Kurse der Reserve Bank of Australia. Deine Bank oder Karte kann einen anderen Kurs verwenden und Gebühren erheben.",
+    "fuelEyebrow": "Spritrechner",
+    "fuelTitle": "Was die Strecke an Sprit kostet.",
+    "fuelText": "Trage die gesamte Streckenlänge ein, den Verbrauch des beladenen Fahrzeugs und den erwarteten Literpreis. Abseits der Städte liegen die Preise oft deutlich höher.",
+    "driveEyebrow": "Fahrtzeit-Schätzer",
+    "driveTitle": "Wie lange der Tag wirklich dauert.",
+    "driveText": "Navi-Apps rechnen mit reiner Fahrzeit auf idealer Straße. Hier kommen der Straßencharakter und deine tatsächlichen Pausen dazu, und genau daran läuft ein Tag meist über.",
+    "tankEyebrow": "Wasser- und Abwasserplaner",
+    "tankTitle": "Wie viele Tage autark.",
+    "tankText": "Liter werden erst nützlich, wenn sie in Tagen ausgedrückt sind. Der Grauwassertank ist meist voll, bevor der Frischwassertank leer ist, deshalb stehen beide da.",
+    "campEyebrow": "Platzkosten im Vergleich",
+    "campTitle": "Pro Person oder pro Stellplatz?",
+    "campText": "Ein Nationalpark rechnet meist pro Erwachsenem ab, ein Ferienpark meist pro Stellplatz. Welche Variante günstiger ist, kippt mit der Gruppengröße, und genau das überrascht Familien.",
+    "amount": "Betrag",
+    "from": "Von",
+    "to": "Nach",
+    "labelDistance": "Strecke (km)",
+    "labelConsumption": "Verbrauch (l/100 km)",
+    "labelFuelPrice": "Spritpreis (AUD/l)",
+    "labelRoadType": "Straßentyp",
+    "roadMotorway": "Autobahn oder freie Gerade",
+    "roadHighway": "Fernstraße",
+    "roadWinding": "Kurvig oder Küste",
+    "roadNarrow": "Eng, steil oder Schotter",
+    "labelStops": "Pausen",
+    "labelFresh": "Frischwasser (l)",
+    "labelGrey": "Grauwasser (l)",
+    "labelPeople": "Personen",
+    "labelAdults": "Erwachsene",
+    "labelNights": "Nächte",
+    "labelPerAdult": "Pro Erwachsenem (AUD)",
+    "labelPerSite": "Pro Stellplatz (AUD)",
+    "toolsReadingTitle": "Bau das Budget aus aktuellen Richtwerten.",
+    "toolsReadingText": "Die Rechner rechnen genau das, was du einträgst. Unsere Kostenratgeber erklären, woher die Ausgangswerte stammen, wann sie geprüft wurden und was den Endpreis verändern kann.",
+    "toolsReadingLink": "Kostenratgeber entdecken",
+    "calculatorNote": "Diese Rechner sind Planungshilfen, keine Live-Angebote von Buchungsportalen, Tankstellen oder Devisenhändlern. Die Tankschätzung geht von rund 11 Litern Frischwasser und 9 Litern Grauwasser pro Person und Tag aus, was je nach Duschen und Kochen schwankt. Prüfe die aktuellen Preise vor dem Kauf.",
+    "enterValidValues": "Gültige Werte eingeben",
+    "enterValidAmount": "Gültigen Betrag eingeben",
+    "daysFresh": "Tage Frischwasser",
+    "daysGrey": "Tage Grauwasser",
+    "theSame": "gleich teuer",
+    "perAdultCheaper": "pro Erwachsenem günstiger",
+    "perSiteCheaper": "pro Stellplatz günstiger",
+    "supportTitle": "Wie können wir helfen?",
+    "supportIntro": "Antworten zum Finden von Orten, Speichern von Favoriten, Planen von Reisen und zur Nutzung von AussieCamps unterwegs.",
+    "contact": "Support kontaktieren",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "explore": "Entdecken",
+    "help": "Hilfe",
+    "getApp": "App holen",
+    "travelGuides": "Reiseratgeber",
+    "footerText": "Finde über 74.000 australische Orte offline, speichere die, auf die es ankommt, und bau daraus komplette Roadtrips mit Route, Entfernung, Terminen, Notizen und To-dos.",
+    "footerLine": "Gemacht für den langen Weg rund um Australien.",
+    "rulesSafety": "Regeln & Sicherheit",
+    "roadTrips": "Roadtrips",
+    "campingGuides": "Camping-Ratgeber",
+    "tripPlanning": "Reiseplanung",
+    "costsBudget": "Kosten & Budget",
+    "appGuides": "App-Ratgeber",
+    "review1Title": "Hat unsere Reise enorm vereinfacht",
+    "review1Quote": "Wir sind quer durchs Land gefahren, mal Campingplatz, mal Ferienpark, und die Wahl des nächsten Stopps wurde damit richtig einfach. Die Offline-Details haben uns mehr als einmal gerettet.",
+    "review1Country": "Frankreich",
+    "review2Title": "Allein die Filter sind es wert",
+    "review2Quote": "Die Filter sind großartig, wenn man ein großes Gespann hat und wissen muss, worauf man sich einlässt. Schnell, ohne Gedöns.",
+    "review2Country": "Vereinigte Staaten",
+    "review3Title": "Für jede Art von Stopp nützlich",
+    "review3Quote": "Wir haben schöne Ferienparks für die Kinder gefunden und später ein paar ruhigere Plätze. Preise und Hinweise zur Zufahrt an einem Ort zu haben, hat enorm Zeit gespart.",
+    "review3Country": "Kanada",
+    "review4Title": "Gut, wenn Pläne sich ändern",
+    "review4Quote": "Hat uns einen einfachen Übernachtungsplatz gefunden, als unsere Pläne platzten, und danach etwas Schönes für ein paar Tage. Viel besser, als Ort für Ort zu suchen.",
+    "review4Country": "Deutschland",
+    "review5Title": "Klar und vertrauenswürdig",
+    "review5Quote": "Klare Karten, nützliche Details, kein Schnickschnack. Wir haben es für Caravanparks, Gratisplätze und ein paar Hütten genutzt, und es wurde Teil des Alltags.",
+    "review5Country": "Vereinigtes Königreich"
+  },
+  "pages": {
+    "support": {
+      "title": "Wie können wir helfen?",
+      "lede": "Klare Antworten zu Karten, gespeicherten Orten, Reiseplanung und der Strecke, die vor dir liegt.",
+      "sections": [
+        {
+          "heading": "Orte finden",
+          "paragraphs": [
+            "Nutze Entdecken, um nach Ortsname, Adresse oder Beschreibung zu suchen. Verschiebe die Karte und wähle die Option für den aktuellen Ausschnitt, um die Ergebnisse auf den sichtbaren Bereich zu konzentrieren.",
+            "Filtere nach Ortskategorie, Gebühr, Bewertung, Onlinebuchung, Bundesstaat und detaillierten Merkmalsgruppen zu Zufahrt, Ausstattung, Aktivitäten und Service. Kombiniere nur die Filter, auf die es wirklich ankommt, damit gute Alternativen sichtbar bleiben.",
+            "Ausstattung, Gebühren, Zufahrt und Betreiber können sich ändern. Richte dich nach aktuellen Schildern und dem Betreiber vor Ort und schick uns anschließend eine Korrektur, damit das Verzeichnis besser wird."
+          ]
+        },
+        {
+          "heading": "Gespeicherte Orte",
+          "paragraphs": [
+            "Gefällt mir, Besucht, Möchte ich hin und Markiert aktualisieren sich automatisch, sobald du Orte markierst. Pins und Alle gespeicherten bieten weitere schnelle Ansichten.",
+            "Lege benannte Sammlungen mit Symbol und Notizen an und füge beliebige Orte hinzu. Nutze sie für eine Region, eine Jahreszeit, ein Fahrzeug oder deine engere Auswahl.",
+            "Die App unterstützt private iCloud-Synchronisierung für Markierungen, Sammlungen und Reisedaten, sofern iCloud verfügbar und aktiviert ist."
+          ]
+        },
+        {
+          "heading": "Reiseplaner",
+          "paragraphs": [
+            "Lege eine Reise an, füge Orte hinzu und zieh sie in die richtige Reihenfolge. Jeder Stopp kann ein eigenes Ankunftsdatum, Notizen, Wetter und den Besucht-Status tragen, und der Planer zeigt die Fahrstrecke pro Etappe und für die gesamte Reise.",
+            "Die Routenführung hängt von den verfügbaren MapKit-Wegbeschreibungen ab. Der Planer behält die Stopps, wenn eine Etappe fehlschlägt, aber ob die Straße aktuell befahrbar ist, musst du selbst prüfen.",
+            "Starte mit einer Vorlage für die Camping-Grundausstattung oder leg eigene Aufgaben an. Der Reisefortschritt hält die Liste neben dem Reiseverlauf, und die Termine lassen sich mit dem Kalender abgleichen."
+          ]
+        },
+        {
+          "heading": "Karten, Wetter und Live-Daten",
+          "paragraphs": [
+            "Wechsle zwischen der Standardkarte und einer Satellitenansicht auf Basis der Flyover-Bilder von Apple, die sich in 3D-Gelände kippen und drehen lässt. Street View, basierend auf Apples Look-Around-Bildern, öffnet sich von der Ortsseite aus, wo es Bildmaterial gibt.",
+            "Aktuelles Wetter und Vorhersage brauchen Live-Daten. Sichere wichtige Vorhersagen und offizielle Warnungen, bevor du das Netz verlässt.",
+            "Das eingebaute Ortsverzeichnis hält die wichtigsten Details auch jenseits von zuverlässigem Empfang bereit. Live-Karten, Routenführung, Wetter, Fotos und externe Anbieterseiten können Empfang voraussetzen."
+          ]
+        },
+        {
+          "heading": "Preise und Währung",
+          "paragraphs": [
+            "Wähle in den Einstellungen deine Währung und trage den Umrechnungskurs ein. Die angegebenen Gebühren erscheinen dann in dieser Währung zusätzlich zum Betrag in australischen Dollar, was hilft, wenn du zu Besuch bist und AUD nicht gewohnt bist.",
+            "Öffne die Buchungs- oder Kontaktdaten eines Ortes, um Verfügbarkeit, Preis und Bedingungen beim Anbieter zu prüfen. Die Preise in der App sind gemeldete Werte, keine Live-Angebote."
+          ]
+        },
+        {
+          "heading": "Premium und Konto",
+          "paragraphs": [
+            "Karte und Ortsdetails sind kostenlos, dazu zwei gespeicherte Listen.",
+            "Premium bringt unbegrenzte Listen, Reiseplanung, erweiterte Filter, Wetter am Ort und Roadtrip-Routen.",
+            "Öffne den Premium-Bereich und nutze Käufe wiederherstellen, während du mit dem Apple-Konto angemeldet bist, über das du ursprünglich gekauft hast."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung",
+      "lede": "AussieCamps hilft dir bei der Reiseplanung, ohne deine Reise in ein Werbeprofil zu verwandeln.",
+      "sections": [
+        {
+          "heading": "Auf deinem Gerät gespeicherte Informationen",
+          "paragraphs": [
+            "Gespeicherte Orte, Zugehörigkeit zu Sammlungen, Reisen, Notizen, Checklisteneinträge und Einstellungen werden gespeichert, damit die App funktioniert. Der Standort kann nach deiner Freigabe genutzt werden, um deine Position und Orte in der Nähe anzuzeigen."
+          ]
+        },
+        {
+          "heading": "iCloud",
+          "paragraphs": [
+            "Wenn iCloud verfügbar und aktiviert ist, kann die App deine private iCloud-Datenbank nutzen, um Markierungen, Sammlungen und App-Einträge zwischen deinen Geräten abzugleichen. Apple stellt den zugrunde liegenden Dienst bereit und wendet eigene Bedingungen an."
+          ]
+        },
+        {
+          "heading": "Live-Dienste von Apple",
+          "paragraphs": [
+            "Kartendarstellung, Wegbeschreibungen, Look Around, Wetter, Kalenderanbindung und Widgets können Apple-Frameworks nutzen. Anfragen und Datenverarbeitung dieser Dienste unterliegen Apple. Der Kalenderzugriff erfolgt erst nach deiner Freigabe und dient dazu, die von dir gewünschten Reisedaten einzutragen."
+          ]
+        },
+        {
+          "heading": "Externe Links und Server-Protokolle",
+          "paragraphs": [
+            "Aus den Ortsdetails lassen sich Buchungsanbieter, Webseiten, Social-Media-Profile, Telefonnummern, E-Mail-Adressen und Karten-Apps öffnen. Diese Dienste erhalten Informationen nach ihren eigenen Richtlinien, sobald du sie öffnest.",
+            "Hosting-Anbieter können übliche technische Protokolle wie IP-Adresse, Browsertyp und aufgerufene URL zur Auslieferung, Zuverlässigkeit und Sicherheit verarbeiten. AussieCamps setzt auf dieser Website keine Werbetracker ein."
+          ]
+        },
+        {
+          "heading": "Aufbewahrung und Kontrolle",
+          "paragraphs": [
+            "Du kannst App-Einträge in der App löschen und iCloud-Daten über dein Apple-Konto verwalten. Das Entfernen der App kann lokale Daten löschen, während synchronisierte Kopien in iCloud bleiben können, bis du sie dort separat löschst."
+          ]
+        },
+        {
+          "heading": "Kinder und Kontakt",
+          "paragraphs": [
+            "AussieCamps ist ein allgemeines Reise-Hilfsmittel und richtet sich nicht an Kinder. Übermittle über den Support keine personenbezogenen Daten von Kindern.",
+            "Bei Fragen zum Datenschutz wende dich an den Support von AussieCamps."
+          ]
+        }
+      ],
+      "effective": "Gültig ab 12. August 2026"
+    },
+    "terms": {
+      "title": "Nutzungsbedingungen",
+      "lede": "AussieCamps ist eine Planungshilfe. Es ersetzt weder offizielle Schilder noch Anweisungen der Betreiber, Notfallwarnungen, Verkehrshinweise oder deine eigene Verantwortung, im Rahmen deiner Möglichkeiten zu reisen.",
+      "sections": [
+        {
+          "heading": "Reiseinformationen ändern sich",
+          "paragraphs": [
+            "Orte, Preise, Zufahrt, Ausstattung, Netzabdeckung, Wetter, Feuerlage, Straßen und Buchungsbedingungen können sich jederzeit ändern. Prüfe entscheidende Angaben vor der Reise und noch einmal kurz vor der Abfahrt bei der zuständigen Behörde oder beim Anbieter."
+          ]
+        },
+        {
+          "heading": "Keine Garantie für Buchung oder Zufahrt",
+          "paragraphs": [
+            "Ein Eintrag garantiert nicht, dass ein Ort geöffnet, für dein Gespann zulässig, mit deinem Fahrzeug erreichbar oder verfügbar ist. Externe Buchungs- und Kontaktlinks dienen der Bequemlichkeit. Verträge kommen zwischen dir und dem jeweiligen Anbieter zustande."
+          ]
+        },
+        {
+          "heading": "Sicherheit und rechtmäßige Nutzung",
+          "paragraphs": [
+            "Du musst Schilder, Genehmigungen, Sperrungen, Feuerverbote, Verkehrsregeln sowie Anweisungen von Rangern, Traditional Owners, Rettungsdiensten und Betreibern befolgen. Nutze die App nicht während der Fahrt."
+          ]
+        },
+        {
+          "heading": "Nutzerdaten",
+          "paragraphs": [
+            "Für Notizen, Reisepläne und andere gespeicherte Informationen bist du selbst verantwortlich. Bewahre Genehmigungen, Buchungen und sicherheitsrelevante Pläne zusätzlich getrennt auf, wenn ihr Verlust eine Reise gefährden könnte."
+          ]
+        },
+        {
+          "heading": "Käufe",
+          "paragraphs": [
+            "In-App-Käufe werden von Apple abgewickelt und unterliegen den beim Kauf angezeigten Bedingungen. Funktionen, Zusammenstellung und Preise können sich im zulässigen Rahmen ändern. Nutze für Abrechnung, Kündigung und Erstattungen die Kaufwerkzeuge von Apple."
+          ]
+        },
+        {
+          "heading": "Geistiges Eigentum und Kontakt",
+          "paragraphs": [
+            "Marke, Oberfläche und redaktionelle Inhalte von AussieCamps gehören dem jeweiligen Rechteinhaber. Ortsnamen und öffentliche Fakten bleiben Eigentum bzw. Verantwortung ihrer ursprünglichen Quellen.",
+            "Fragen kannst du an den Support von AussieCamps richten."
+          ]
+        }
+      ],
+      "effective": "Gültig ab 12. August 2026"
+    }
+  },
   "articles": {}
 }

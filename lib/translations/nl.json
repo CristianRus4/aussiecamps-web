@@ -1,6 +1,368 @@
 {
   "locale": "nl",
-  "ui": {},
-  "pages": {},
+  "ui": {
+    "languageName": "Nederlands",
+    "navFeatures": "Functies",
+    "navGuides": "Gidsen",
+    "navTools": "Rekenhulpen",
+    "navSupport": "Hulp",
+    "download": "App downloaden",
+    "heroKicker": "De beste kampeerapp voor Australië",
+    "heroTitle": "Australië is enorm. Jouw plan mag simpel zijn.",
+    "heroText": "Ruim 74.000 plekken door heel Australië, offline meegeleverd zodat ze ook zonder bereik gewoon opengaan. Filter precies wat je nodig hebt, sla het op en maak van die selectie een roadtrip met route, afstand, data, notities en to-do’s.",
+    "seeHow": "Bekijk hoe het werkt",
+    "statPlaces": "74.000+",
+    "statPlacesLabel": "plekken door heel Australië",
+    "statOffline": "Offline",
+    "statOfflineLabel": "alle plekgegevens, zonder bereik",
+    "statStays": "4.000+",
+    "statStaysLabel": "plekken om te overnachten",
+    "trustLine": "Campings, caravanparken en handige stops door heel Australië.",
+    "trustCampsites": "Campings",
+    "trustCaravanParks": "Caravanparken",
+    "trustNationalParks": "Nationale parken",
+    "trustRestAreas": "Rustplaatsen",
+    "trustUsefulStops": "Handige stops",
+    "trustExperiences": "Belevenissen",
+    "processEyebrow": "Van idee naar de weg op",
+    "processTitle": "Vind een plek. Bouw de reis.",
+    "processText": "Filter de plek voor vanavond eruit, bewaar de mogelijkheden van morgen in collecties en houd route, afstand, data, notities en to-do’s samen in één reis.",
+    "findTitle": "Vind precies de juiste plek",
+    "findText": "Zoek in ruim 74.000 plekken, kijk wat er in de buurt ligt of stapel filters tot alleen de gratis kampeerplekken met toilet en water in jouw stukje kaart overblijven.",
+    "saveTitle": "Bewaar het in een collectie",
+    "saveText": "Geef een hartje of ster of markeer een plek als bezocht, en de slimme collecties werken zichzelf bij. Eigen lijsten maak je voor een regio, een seizoen of een shortlist.",
+    "planTitle": "Maak er een reis van",
+    "planText": "Zet de stops op volgorde, zie de afstand ertussen, voeg data en notities toe, bekijk het weer per stop, start de navigatie en vink ze onderweg af.",
+    "featuresEyebrow": "Alles wat je nodig hebt",
+    "featuresTitle": "Vinden. Bewaren. De hele route plannen.",
+    "featuresText": "Ontdek plekken, vergelijk de details, ordent je favorieten en bouw een reis die ook onderweg nog nuttig is.",
+    "featureMainEyebrow": "Ken de plek voordat je er bent",
+    "featureMainTitle": "Elke plek opent met het detail dat de doorslag geeft.",
+    "featureMainText": "Foto’s, een echte beschrijving, openingstijden, tarieven, voorwaarden, voorzieningen en kenmerken gegroepeerd per soort, actuele meldingen, beoordelingen, contact- en boekingsgegevens, het weer en Street View om de inrit al vanaf de weg te zien.",
+    "featureList1": "Foto’s, tijden, tarieven, voorwaarden en voorzieningen",
+    "featureList2": "Street View, weer en navigatie ingebouwd",
+    "featureList3": "Offline meegeleverd, opent zonder bereik",
+    "feature1Title": "Slimme collecties en je eigen lijsten",
+    "feature1Text": "Leuk, Met ster, Wil ik heen en Bezocht vullen zichzelf zodra je plekken markeert. Daarbovenop maak je eigen collecties met een naam, voor een regio, een seizoen of de shortlist waar jullie nog over discussiëren.",
+    "feature2Title": "Filters die een echte vraag beantwoorden",
+    "feature2Text": "Vraag om gratis kampeerplekken met toilet en drinkwater rond de Gold Coast en verfijn daarna verder op categorie, tarief, beoordeling, online boeken, staat en gedetailleerde kenmerken voor toegang, voorzieningen, activiteiten en diensten.",
+    "feature3Title": "Standaard-, satelliet- en 3D-kaarten",
+    "feature3Text": "Wissel tussen de standaardkaart en satellietbeelden die je kunt kantelen en draaien tot je het echte reliëf ziet. Uitgezoomd bundelen de spelden zich tot aantallen en bij inzoomen vallen ze weer uiteen.",
+    "feature4Title": "Street View vóór de afslag",
+    "feature4Text": "Street View opent direct vanuit het plekscherm waar beelden bestaan, zodat je de inrit, het wegdek en de omgeving ziet voordat je de bus die afslag in stuurt.",
+    "feature5Title": "Weer bij elke plek",
+    "feature5Text": "De actuele situatie en de verwachting staan op het plekscherm en naast elke stop van de reis, zodat de keuze tussen twee campings met een blik op de lucht valt.",
+    "feature6Title": "Kosten in je eigen valuta",
+    "feature6Text": "Op bezoek en niet thuis in Australische dollars? Kies je valuta, stel de koers één keer in, en de vermelde tarieven verschijnen er ook bij in geld dat je meteen inschat.",
+    "plannerEyebrow": "Waar het om draait",
+    "plannerTitle": "Stop voor stop. Dag na dag.",
+    "plannerText": "De reisplanner is waar al het andere naartoe werkt. Voeg bewaarde plekken toe als stops en sleep ze in de volgorde die je echt gaat rijden. Elke etappe toont de afstand, de navigatie naar de volgende opent meteen, elke stop draagt zijn eigen datum, aankomstnotities en weer, en onderweg vink je ze af als bezocht. Alternatieven in de buurt blijven eraan hangen voor de dagen die veranderen, de paklijst staat naast het reisschema en het geheel kan synchroniseren met Agenda.",
+    "plannerMetric1Title": "Afstand en navigatie",
+    "plannerMetric1Text": "per etappe en voor de hele reis",
+    "plannerMetric2Title": "Data en notities",
+    "plannerMetric2Text": "bij elke afzonderlijke stop",
+    "plannerMetric3Title": "Bezocht en to-do’s",
+    "plannerMetric3Text": "voortgang die je ziet",
+    "plannerMetric4Title": "Weer per stop",
+    "plannerMetric4Text": "naast het reisschema",
+    "routesEyebrow": "Gidsen om eerst te lezen",
+    "routesTitle": "Ken de regels. Ken de kosten.",
+    "routesText": "Praktische gidsen over kampeerregels, veiligheid op de weg, het juiste seizoen en wat een reis door Australië werkelijk kost.",
+    "exploreRoutes": "Ontdek de gidsen",
+    "audiencesEyebrow": "Hoe je ook reist",
+    "audiencesTitle": "Gemaakt voor tenten, bussen en grote rondes.",
+    "audience1Title": "Backpackers",
+    "audience1Text": "Laat een krap budget en een flexibele route samen werken.",
+    "audience2Title": "Campers",
+    "audience2Text": "Vind de voorzieningen, toegang en mix van overnachtingen die je nodig hebt.",
+    "audience3Title": "Caravans en grote combinaties",
+    "audience3Text": "Filter op ruimte, diensten en praktische opmerkingen over de toegang.",
+    "audience4Title": "Weekendkampeerders",
+    "audience4Text": "Houd favorieten dichtbij klaar voor als het vrijdag wordt.",
+    "reviewsEyebrow": "Wat reizigers zeggen",
+    "reviewsTitle": "Gemaakt voor plannen die veranderen.",
+    "principlesTitle": "Eerst nuttig. Altijd eerlijk.",
+    "principle1Title": "Borden gaan boven schermen",
+    "principle1Text": "Mededelingen ter plaatse, de beheerder van het terrein en actuele noodmeldingen gaan altijd vóór een vermelding.",
+    "principle2Title": "Actueel checken telt",
+    "principle2Text": "Bekijk vóór vertrek het laatste nieuws over boekingen, wegen, brand en afsluitingen.",
+    "principle3Title": "Laat plekken beter achter",
+    "principle3Text": "Kamperen waar het mag, afval zorgvuldig afvoeren en respect voor het land houden deze plekken open.",
+    "faqEyebrow": "Een paar heldere antwoorden",
+    "faqTitle": "Goede vragen. Heldere antwoorden.",
+    "faqIntro": "Directe antwoorden over reizen met AussieCamps.",
+    "faq1q": "Wat is AussieCamps?",
+    "faq1a": "AussieCamps is een iPhone-app waarmee je door heel Australië plekken vindt om te kamperen en te overnachten. Er zit een overzicht van ruim 74.000 plekken in de app, zodat de gegevens ook zonder bereik leesbaar blijven, en de plekken die je bewaart worden een roadtrip met stops op volgorde, data, notities en to-do’s.",
+    "faq2q": "Welke plekken zitten erin?",
+    "faq2a": "Meer dan 74.000 plekken: campings, caravanparken, overnachtingen met dak, verblijven op boerderijen en stations, hostels, rustplaatsen langs de weg, dagrecreatieplekken, stortplaatsen, drinkwaterpunten, wasserettes, informatiecentra, parkeerplaatsen voor lange voertuigen, belevenissen en andere handige stops.",
+    "faq3q": "Werkt het zonder bereik?",
+    "faq3a": "Het plekkenoverzicht zit in de app zelf, dus namen, categorieën, beschrijvingen, tarieven, voorzieningen, openingstijden en voorwaarden blijven ver buiten het netwerk leesbaar. Live diensten zoals weer, navigatie, Street View, foto’s en pagina’s van aanbieders hebben nog wel verbinding nodig.",
+    "faq4q": "Kan ik een roadtrip met meerdere stops plannen?",
+    "faq4a": "Ja, en dat is de hoofdfunctie van de app. Voeg plekken toe als stops, sleep ze op volgorde, geef elke stop een datum en aankomstnotities, bekijk de rijafstand per etappe en over de hele reis, start de navigatie naar de volgende, check daar het weer, vink stops af als bezocht en houd de paklijst naast het reisschema. Het reisschema kan synchroniseren met Agenda.",
+    "faq5q": "Wat zijn collecties?",
+    "faq5a": "Er zijn er twee soorten. Slimme collecties (Leuk, Met ster, Wil ik heen, Bezocht, Punaises en Alles bewaard) vullen zichzelf zodra je plekken markeert. Daarnaast maak je eigen collecties met naam, symbool en notities voor een regio, een seizoen, een voertuig of een shortlist.",
+    "faq6q": "Kan ik filteren op gratis kamperen of toegang voor caravans?",
+    "faq6a": "Ja, en ook op combinaties daarvan. De filters dekken categorie, soort tarief, minimale beoordeling, online boeken, staat of territorium en gedetailleerde kenmerkgroepen voor toegang, voorzieningen, activiteiten, diensten en aansluitingen, zodat „gratis kampeerplekken met toilet en drinkwater in Queensland” één enkele zoekopdracht is.",
+    "faq7q": "Wat staat er op een plekscherm?",
+    "faq7a": "Foto’s, een beschrijving, openingstijden, tarieven, voorwaarden, voorzieningen en kenmerken gegroepeerd per soort, actuele meldingen, beoordelingen, contact- en boekingsgegevens, weer, Street View waar beelden bestaan, navigatie en alternatieven in de buurt.",
+    "faq8q": "Welke kaartweergaven zijn er?",
+    "faq8a": "Een standaardkaart en een satellietweergave op basis van Apples flyover-beelden, die je kunt kantelen en draaien voor echt 3D-reliëf. Street View, gebaseerd op Apples Look Around-beelden, geeft het beeld op straatniveau vanaf het plekscherm.",
+    "faq9q": "Kan ik prijzen in mijn eigen valuta zien?",
+    "faq9a": "Ja. Kies je valuta in de instellingen en vul de omrekenkoers in, dan verschijnen de vermelde tarieven in die valuta naast het bedrag in Australische dollars.",
+    "faq10q": "Kan ik in AussieCamps een camping boeken?",
+    "faq10a": "Open de boekingsgegevens van een plek om de aanbieder te bereiken en daar beschikbaarheid, prijzen en voorwaarden te controleren.",
+    "faq11q": "Zijn de kampeerregels overal in Australië hetzelfde?",
+    "faq11a": "Nee. Ze verschillen per staat, territorium, gemeente, park en afzonderlijke plek. Volg altijd de actuele borden, de voorwaarden van de beheerder, de vuurbeperkingen en de officiële waarschuwingen.",
+    "downloadEyebrow": "Je volgende plek ligt daarbuiten",
+    "downloadTitle": "Vind het. Bewaar het. Plan de route.",
+    "downloadText": "Ruim 74.000 Australische plekken offline, filters scherp genoeg om precies die ene te vinden, collecties die zichzelf ordenen en een reisplanner die de hele route draagt. AussieCamps voor iOS.",
+    "guidesEyebrow": "Australische kampeergidsen",
+    "guidesTitle": "Volg de weg naar iets goeds.",
+    "guidesIntro": "uitgebreide gidsen over campings, regels, kosten ter plaatse en praktische reisvoorbereiding door heel Australië.",
+    "guideSingular": "gids",
+    "guidePlural": "gidsen",
+    "readGuide": "Lees de gids",
+    "minuteRead": "minuten lezen",
+    "places": "plekken",
+    "backToGuides": "Gidsen",
+    "photoCredits": "Fotoverantwoording",
+    "keepInMind": "Houd er rekening mee",
+    "placesAlong": "Plekken onderweg",
+    "checkBefore": "Check voor vertrek",
+    "checkText": "Regels en omstandigheden veranderen. Controleer vóór vertrek nog een keer de officiële bron en de pagina van jouw specifieke park of camping.",
+    "priceTitle": "Prijstabel in 10 valuta’s",
+    "pricesChecked": "Prijzen gecontroleerd op",
+    "conversionsUse": "Omrekening met RBA-koersen van",
+    "item": "Post",
+    "currencyDisclaimer": "De bedragen in andere valuta’s zijn rekenkundige omrekeningen van de AUD-referentie, geen pas- of contantkoersen. Banken en betaaldienstverleners hanteren eigen koersen en kosten.",
+    "related": "Gerelateerde gidsen",
+    "takeRoad": "Neem het mee de weg op",
+    "savePlanTitle": "Bewaar de stops. Plan de hele reis.",
+    "savePlanText": "Bouw een geordende route uit bewaarde plekken, bereken de afstand en houd data, notities en to-do’s eraan gekoppeld.",
+    "toolsEyebrow": "Nuttige cijfers",
+    "toolsTitle": "Rekenhulpen voor de roadtrip. Zonder rekenwerk vooraf.",
+    "toolsIntro": "Snelle rekenhulpen voor Australische prijzen, afstanden en capaciteit. Elke aanname blijft zichtbaar, zodat je die kunt vervangen door het getal dat bij jouw route past.",
+    "currencyEyebrow": "Valutarekenaar",
+    "currencyTitle": "Reken een Australische prijs om.",
+    "currencyText": "Indicatieve omrekening voor je voorbereiding, met de koersen van de Reserve Bank of Australia. Je bank of pas kan een andere koers hanteren en kosten rekenen.",
+    "fuelEyebrow": "Brandstofrekenaar",
+    "fuelTitle": "Wat de afstand kost.",
+    "fuelText": "Vul de totale afstand in, het verbruik van het beladen voertuig en de verwachte literprijs. Ver van de steden liggen de prijzen vaak flink boven het stedelijke gemiddelde.",
+    "driveEyebrow": "Schatting van een rijdag",
+    "driveTitle": "Hoe lang die dag echt duurt.",
+    "driveText": "Navigatieapps geven rijtijd op een ideale weg. Hier komen het karakter van de weg en je echte stops erbij, en juist daar loopt een dag uit.",
+    "tankEyebrow": "Water- en afvalwaterplanner",
+    "tankTitle": "Hoeveel dagen zelfvoorzienend.",
+    "tankText": "Liters worden pas bruikbaar als je ze in dagen uitdrukt. De grijswatertank zit meestal vol voordat het schone water op is, dus staan ze er allebei.",
+    "campEyebrow": "Campings vergelijken",
+    "campTitle": "Per persoon of per plek?",
+    "campText": "Een camping in een nationaal park rekent meestal per volwassene, een vakantiepark meestal per staanplaats. Welke goedkoper is, kantelt met de groepsgrootte, en juist daar worden gezinnen door verrast.",
+    "amount": "Bedrag",
+    "from": "Van",
+    "to": "Naar",
+    "labelDistance": "Afstand (km)",
+    "labelConsumption": "Verbruik (l/100 km)",
+    "labelFuelPrice": "Brandstofprijs (AUD/l)",
+    "labelRoadType": "Type weg",
+    "roadMotorway": "Snelweg of lange rechte weg",
+    "roadHighway": "Hoofdweg",
+    "roadWinding": "Bochtig of langs de kust",
+    "roadNarrow": "Smal, steil of onverhard",
+    "labelStops": "Stops",
+    "labelFresh": "Schoon water (l)",
+    "labelGrey": "Grijs water (l)",
+    "labelPeople": "Personen",
+    "labelAdults": "Volwassenen",
+    "labelNights": "Nachten",
+    "labelPerAdult": "Per volwassene (AUD)",
+    "labelPerSite": "Per staanplaats (AUD)",
+    "toolsReadingTitle": "Bouw het budget op actuele richtprijzen.",
+    "toolsReadingText": "De rekenhulpen rekenen precies wat je invult. Onze kostengidsen leggen uit waar de uitgangscijfers vandaan komen, wanneer ze zijn gecontroleerd en wat de eindprijs kan veranderen.",
+    "toolsReadingLink": "Ontdek de kostengidsen",
+    "calculatorNote": "Deze rekenhulpen zijn hulpmiddelen bij het plannen, geen actuele opgaven van boekingssites, tankstations of wisselkantoren. De tankschatting gaat uit van ongeveer 11 liter schoon water en 9 liter grijs water per persoon per dag, wat wisselt met douchen en koken. Controleer de actuele prijzen voordat je iets koopt.",
+    "enterValidValues": "Vul geldige waarden in",
+    "enterValidAmount": "Vul een geldig bedrag in",
+    "daysFresh": "dagen schoon water",
+    "daysGrey": "dagen grijs water",
+    "theSame": "even duur",
+    "perAdultCheaper": "per volwassene goedkoper",
+    "perSiteCheaper": "per staanplaats goedkoper",
+    "supportTitle": "Waarmee kunnen we helpen?",
+    "supportIntro": "Antwoorden over plekken vinden, favorieten bewaren, reizen plannen en AussieCamps onderweg gebruiken.",
+    "contact": "Neem contact op",
+    "privacy": "Privacy",
+    "terms": "Voorwaarden",
+    "explore": "Ontdekken",
+    "help": "Hulp",
+    "getApp": "Haal de app",
+    "travelGuides": "Reisgidsen",
+    "footerText": "Vind ruim 74.000 Australische plekken offline, bewaar de plekken die ertoe doen en bouw complete roadtrips met route, afstand, data, notities en to-do’s.",
+    "footerLine": "Gemaakt voor de lange weg rond Australië.",
+    "rulesSafety": "Regels en veiligheid",
+    "roadTrips": "Roadtrips",
+    "campingGuides": "Kampeergidsen",
+    "tripPlanning": "Reisvoorbereiding",
+    "costsBudget": "Kosten en budget",
+    "appGuides": "Appgidsen",
+    "review1Title": "Maakte onze reis zoveel eenvoudiger",
+    "review1Quote": "We reden dwars door het land met een mix van campings en vakantieparken, en elke volgende stop kiezen werd zoveel makkelijker. De offline gegevens hebben ons meer dan eens gered.",
+    "review1Country": "Frankrijk",
+    "review2Title": "Alleen de filters zijn het al waard",
+    "review2Quote": "De filters zijn geweldig als je een grote combinatie hebt en wilt weten waar je in rijdt. Snel, zonder gedoe.",
+    "review2Country": "Verenigde Staten",
+    "review3Title": "Handig voor elk soort stop",
+    "review3Quote": "We vonden fijne vakantieparken voor de kinderen en later een paar rustigere plekjes. Prijzen en toegangsopmerkingen op één plek scheelde enorm veel tijd.",
+    "review3Country": "Canada",
+    "review4Title": "Fijn als plannen veranderen",
+    "review4Quote": "Hielp ons aan een simpele overnachtingsplek toen onze plannen in duigen vielen, en daarna aan iets moois voor een paar dagen. Veel beter dan dorp voor dorp zoeken.",
+    "review4Country": "Duitsland",
+    "review5Title": "Helder en te vertrouwen",
+    "review5Quote": "Heldere kaarten, nuttige details, geen poespas. We gebruikten het voor caravanparken, gratis plekken en een paar hutten, en het werd vanzelf onderdeel van de dag.",
+    "review5Country": "Verenigd Koninkrijk"
+  },
+  "pages": {
+    "support": {
+      "title": "Waarmee kunnen we helpen?",
+      "lede": "Heldere antwoorden over kaarten, bewaarde plekken, reisvoorbereiding en de weg die voor je ligt.",
+      "sections": [
+        {
+          "heading": "Plekken vinden",
+          "paragraphs": [
+            "Gebruik Ontdekken om te zoeken op naam, adres of beschrijving. Verschuif de kaart en kies de optie voor het huidige gebied om de resultaten op het zichtbare deel te richten.",
+            "Filter op categorie, tarief, beoordeling, online boeken, staat en gedetailleerde kenmerkgroepen voor toegang, voorzieningen, activiteiten en diensten. Combineer alleen de filters die er echt toe doen, zodat goede alternatieven zichtbaar blijven.",
+            "Voorzieningen, tarieven, toegang en beheer kunnen veranderen. Volg de actuele borden en de beheerder van het terrein en stuur ons daarna een correctie, zodat het overzicht beter wordt."
+          ]
+        },
+        {
+          "heading": "Bewaarde plekken",
+          "paragraphs": [
+            "Leuk, Bezocht, Wil ik heen en Met ster werken zichzelf bij zodra je plekken markeert. Punaises en Alles bewaard bieden andere snelle overzichten.",
+            "Maak collecties met een naam, symbool en notities en voeg er elke plek aan toe. Gebruik ze voor een regio, een seizoen, een voertuig of een shortlist.",
+            "De app ondersteunt privésynchronisatie via iCloud voor markeringen, collecties en reisgegevens, zolang iCloud beschikbaar en ingeschakeld is."
+          ]
+        },
+        {
+          "heading": "Reisplanner",
+          "paragraphs": [
+            "Maak een reis aan, voeg plekken toe en sleep ze op volgorde. Elke stop kan een eigen aankomstdatum, notities, weer en bezochtstatus hebben, en de planner toont de rijafstand per etappe en over de hele reis.",
+            "De routeberekening hangt af van de beschikbare MapKit-navigatie. De planner behoudt de stops als een etappe mislukt, maar of de weg begaanbaar is moet je zelf nagaan.",
+            "Begin met de standaardlijst voor kampeerbenodigdheden of maak eigen taken. De voortgang van de reis houdt de lijst naast het reisschema, en het reisschema kan synchroniseren met Agenda."
+          ]
+        },
+        {
+          "heading": "Kaarten, weer en live gegevens",
+          "paragraphs": [
+            "Wissel tussen de standaardkaart en een satellietweergave op basis van Apples flyover-beelden, die kantelt en draait tot 3D-reliëf. Street View, gebaseerd op Apples Look Around-beelden, opent vanuit het plekscherm waar beelden bestaan.",
+            "Actueel weer en de verwachting hebben live gegevens nodig. Bewaar belangrijke verwachtingen en officiële waarschuwingen voordat je buiten bereik raakt.",
+            "Het meegeleverde overzicht houdt de belangrijkste gegevens beschikbaar ver voorbij betrouwbaar bereik. Live kaarten, routeberekening, weer, foto’s en externe pagina’s van aanbieders kunnen bereik vereisen."
+          ]
+        },
+        {
+          "heading": "Prijzen en valuta",
+          "paragraphs": [
+            "Kies je valuta in de instellingen en vul de omrekenkoers in. De vermelde tarieven verschijnen dan in die valuta naast het bedrag in Australische dollars, wat helpt als je op bezoek bent en de AUD niet gewend bent.",
+            "Open de boekings- of contactgegevens van een plek om beschikbaarheid, prijs en voorwaarden bij de aanbieder te controleren. De prijzen in de app zijn opgegeven bedragen, geen actuele offertes."
+          ]
+        },
+        {
+          "heading": "Premium en account",
+          "paragraphs": [
+            "De kaart en de plekgegevens zijn gratis, samen met twee bewaarde lijsten.",
+            "Premium voegt onbeperkte lijsten, reisplanning, geavanceerde filters, weer bij plekken en roadtriproutes toe.",
+            "Open het Premium-scherm en gebruik Aankopen herstellen terwijl je bent ingelogd met het Apple-account waarmee je oorspronkelijk hebt gekocht."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacybeleid",
+      "lede": "AussieCamps helpt je een reis te plannen zonder van je route een advertentieprofiel te maken.",
+      "sections": [
+        {
+          "heading": "Gegevens op je apparaat",
+          "paragraphs": [
+            "Bewaarde plekken, het lidmaatschap van collecties, reizen, notities, checklistitems en voorkeuren worden opgeslagen zodat de app werkt. Je locatie kan worden gebruikt om je positie en plekken in de buurt te tonen nadat je daarvoor toestemming geeft."
+          ]
+        },
+        {
+          "heading": "iCloud",
+          "paragraphs": [
+            "Als iCloud beschikbaar en ingeschakeld is, kan de app je privé-iCloud-database gebruiken om markeringen, collecties en gegevens tussen je apparaten te synchroniseren. Apple levert de onderliggende dienst en hanteert eigen voorwaarden."
+          ]
+        },
+        {
+          "heading": "Live diensten van Apple",
+          "paragraphs": [
+            "Kaartweergave, navigatie, Look Around, weer, agenda-integratie en widgets kunnen frameworks van Apple gebruiken. Verzoeken en gegevensverwerking van die diensten vallen onder Apple. Toegang tot de agenda gebeurt pas na toestemming en dient om de reisgegevens toe te voegen die je zelf vraagt."
+          ]
+        },
+        {
+          "heading": "Externe links en serverlogs",
+          "paragraphs": [
+            "Vanuit de plekgegevens kun je boekingsaanbieders, websites, sociale profielen, telefoonnummers, e-mailadressen en kaartapps openen. Die diensten ontvangen gegevens volgens hun eigen beleid zodra je ervoor kiest ze te openen.",
+            "Hostingpartijen kunnen gebruikelijke technische logs verwerken, zoals IP-adres, browsertype en opgevraagde URL, voor levering, betrouwbaarheid en beveiliging. AussieCamps gebruikt op deze website geen advertentietrackers."
+          ]
+        },
+        {
+          "heading": "Bewaren en beheren",
+          "paragraphs": [
+            "Je kunt gegevens in de app verwijderen en iCloud-gegevens beheren via je Apple-account. De app verwijderen kan lokale gegevens wissen, terwijl gesynchroniseerde kopieën in iCloud kunnen blijven staan tot je ze daar apart verwijdert."
+          ]
+        },
+        {
+          "heading": "Kinderen en contact",
+          "paragraphs": [
+            "AussieCamps is een algemeen reishulpmiddel en richt zich niet op kinderen. Stuur via de ondersteuning geen persoonsgegevens van kinderen op.",
+            "Voor vragen over privacy kun je terecht bij de ondersteuning van AussieCamps."
+          ]
+        }
+      ],
+      "effective": "Van kracht vanaf 12 augustus 2026"
+    },
+    "terms": {
+      "title": "Gebruiksvoorwaarden",
+      "lede": "AussieCamps is een hulpmiddel bij het plannen. Het vervangt geen officiële borden, aanwijzingen van beheerders, noodwaarschuwingen of verkeersinformatie, en ook niet je eigen verantwoordelijkheid om te reizen binnen wat je aankunt.",
+      "sections": [
+        {
+          "heading": "Reisinformatie verandert",
+          "paragraphs": [
+            "Plekken, prijzen, toegang, voorzieningen, telefoonbereik, weer, brandgevaar, wegen en boekingsvoorwaarden kunnen zonder aankondiging veranderen. Controleer doorslaggevende gegevens bij de verantwoordelijke instantie of de aanbieder voordat je vertrekt, en nog een keer vlak voor vertrek."
+          ]
+        },
+        {
+          "heading": "Geen garantie op boeking of toegang",
+          "paragraphs": [
+            "Een vermelding garandeert niet dat een plek open is, is toegestaan voor jouw combinatie, met jouw voertuig bereikbaar is of beschikbaar is. Externe boekings- en contactlinks staan er voor het gemak. Overeenkomsten komen tot stand tussen jou en de betreffende aanbieder."
+          ]
+        },
+        {
+          "heading": "Veiligheid en rechtmatig gebruik",
+          "paragraphs": [
+            "Je moet borden, vergunningen, afsluitingen, vuurbeperkingen, verkeersregels en aanwijzingen van rangers, traditionele eigenaren, hulpdiensten en terreinbeheerders opvolgen. Gebruik de app niet tijdens het rijden."
+          ]
+        },
+        {
+          "heading": "Gebruikersgegevens",
+          "paragraphs": [
+            "Je bent zelf verantwoordelijk voor notities, reisplannen en andere informatie die je bewaart. Bewaar vergunningen, boekingen en veiligheidskritische plannen ook apart wanneer verlies van toegang een reis in gevaar kan brengen."
+          ]
+        },
+        {
+          "heading": "Aankopen",
+          "paragraphs": [
+            "Aankopen in de app worden door Apple afgehandeld en vallen onder de voorwaarden die bij de aankoop worden getoond. Functies, samenstelling en prijzen kunnen binnen de toegestane kaders wijzigen. Gebruik voor facturering, opzegging en terugbetaling de aankoophulpmiddelen van Apple."
+          ]
+        },
+        {
+          "heading": "Intellectueel eigendom en contact",
+          "paragraphs": [
+            "Merk, interface en originele redactionele inhoud van AussieCamps behoren toe aan de rechthebbende. Plaatsnamen en publieke feiten blijven eigendom of verantwoordelijkheid van hun oorspronkelijke bronnen.",
+            "Vragen kun je sturen naar de ondersteuning van AussieCamps."
+          ]
+        }
+      ],
+      "effective": "Van kracht vanaf 12 augustus 2026"
+    }
+  },
   "articles": {}
 }

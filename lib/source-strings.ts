@@ -118,9 +118,6 @@ export const uiStrings = {
   guidesTitle: "Follow the road somewhere good.",
   guidesIntro: "Detailed guides for camps, rules, local costs and practical trip planning across Australia.",
   guideSingular: "guide", guidePlural: "guides", readGuide: "Read guide",
-  guidesEmptyTitle: "Not available in this language yet",
-  guidesEmptyText: "Our guides are being translated. Until they are ready they are published in English, complete and up to date, rather than half finished here.",
-  guidesEmptyLink: "Read the guides in English",
 
   minuteRead: "minute read", places: "places", backToGuides: "Guides", photoCredits: "Photo credits",
   keepInMind: "Keep in mind", placesAlong: "Places along the way",

@@ -12,7 +12,7 @@
     "start": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext start",
     "test": "node --test tests/rendered-html.test.mjs",
     "check": "npm run content:check && npm run build && npm test && npm run similarity:check && npm run assets:check",
-    "content:check": "node scripts/audit-content.mjs",
+    "content:check": "tsx scripts/audit-content.mjs",
     "translations:source": "tsx scripts/build-translation-source.mjs",
     "assets:check": "node scripts/check-assets.mjs",
     "similarity:check": "node scripts/audit-article-similarity.mjs",

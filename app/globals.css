@@ -50,7 +50,7 @@ em { color: inherit; font: inherit; font-style: normal; }
 .nav-wrap { max-width: 1240px; margin: auto; display: flex; align-items: center; gap: 28px; }
 .brand-link { display: flex; }
 .brand { display: inline-flex; align-items: center; gap: 10px; font-size: 20px; font-weight: 800; letter-spacing: -0.02em; }
-.brand-mark { width: 36px; height: 36px; border-radius: 7px; background: transparent url(/images/aussiecamps-app-icon.webp) center / contain no-repeat; }
+.brand-mark { width: 36px; height: 36px; border-radius: 7px; background: transparent url(/images/aussiecamps-app-icon.png) center / contain no-repeat; }
 .desktop-nav { display: flex; gap: 30px; margin-left: auto; }
 .desktop-nav a { color: #414a3b; font-size: 14px; font-weight: 700; }
 .desktop-nav a:hover { color: var(--fern); }
@@ -202,8 +202,13 @@ em { color: inherit; font: inherit; font-style: normal; }
 .footer-grid > div { display: flex; flex-direction: column; gap: 9px; }
 .footer-grid p { max-width: 330px; color: #879282; font-size: 13px; }
 .footer-grid strong { margin-bottom: 7px; color: #9cad92; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
+.language-nav { max-width: 1280px; margin: 34px auto 0; padding-top: 18px; border-top: 1px solid rgba(255,255,255,.12); display: flex; flex-wrap: wrap; gap: 8px 18px; }
+.language-nav a { color: #bdc7b7; font-size: 12px; }
+.language-nav a:hover, .language-nav a[aria-current="page"] { color: white; }
 .footer-grid a, .footer-grid span { font-size: 13px; }
 .footer-grid a:hover { color: #b7d17b; }
+.footer-bottom a:hover { color: #b7d17b; }
+.language-nav + .footer-bottom { margin-top: 22px; }
 .footer-bottom { margin-top: 58px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); color: #758171; display: flex; justify-content: space-between; font-size: 11px; }
 
 .page-hero { min-height: 560px; padding: 175px 32px 95px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }

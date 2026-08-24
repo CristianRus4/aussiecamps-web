@@ -16,24 +16,34 @@ assert.doesNotMatch(content, /https:\/\/images\.unsplash\.com/i, "Remote article
 // Copy must address travellers, not the developer building the page.
 assert.doesNotMatch(content, /this (section|page|guide|article) (explains|describes|shows|covers|will)|here goes|lorem ipsum|placeholder text|TODO|FIXME|coming soon|sample text/i, "Developer-facing or placeholder copy found");
 /**
- * Translation contract. Road trip guides are deliberately English-only, so a locale file must never
- * carry one. Everything else may be partial while a translation is in progress: lib/localized.ts
- * falls back to the English source per key, so a half-finished file renders as a mix rather than as
- * blank text. What is present, though, has to be well-formed.
+ * Translation contract.
+ *
+ * Every guide is published in every locale; ones a locale has not translated are served whole in
+ * English. Road trip guides are deliberately never translated, so a locale file must not carry one.
+ *
+ * What this enforces is that a locale file never contains a translation the site cannot use: if an
+ * article is in the file it must be complete and structurally identical to the English, or the site
+ * quietly falls back to English and the work looks done when it is not.
  */
 const roadTripSlugs = new Set([...content.matchAll(/slug:\s*"([^"]+)"[\s\S]{0,400}?category:\s*"Road trips"/g)].map((match) => match[1]));
 assert.ok(roadTripSlugs.size >= 15, `Expected the road trip guides to be found, got ${roadTripSlugs.size}`);
-for (const locale of ["de", "es", "fr", "it", "nl", "pt"]) {
+
+const { localeCodes, fullyTranslatedSlugs, translationProgress } = await import("../lib/localized.ts");
+const summary = [];
+for (const locale of localeCodes) {
   const file = JSON.parse(await readFile(resolve(root, `lib/translations/${locale}.json`), "utf8"));
   for (const key of ["ui", "pages", "articles"]) assert.ok(file[key] && typeof file[key] === "object", `${locale}.json is missing its ${key} object`);
   assert.doesNotMatch(JSON.stringify(file), /\u2014/, `${locale} contains an em dash`);
   for (const slug of roadTripSlugs) assert.ok(!file.articles[slug], `${locale} carries ${slug}, but road trips stay English-only`);
-  for (const [slug, article] of Object.entries(file.articles)) {
+  const complete = new Set(fullyTranslatedSlugs(locale));
+  for (const slug of Object.keys(file.articles)) {
     assert.ok(slugs.includes(slug), `${locale} translates ${slug}, which is not an article on this site`);
-    assert.ok(article.sections?.length, `${locale}/${slug} must contain translated sections`);
-    for (const section of article.sections) assert.ok(section.body?.length, `${locale}/${slug} has a section with no translated prose`);
+    assert.ok(complete.has(slug), `${locale}/${slug} is in the translation file but is incomplete or structurally stale, so the site falls back to English for it. Finish it or remove it.`);
   }
+  const progress = translationProgress(locale);
+  summary.push(`${locale} ${progress.ui}/${progress.uiTotal} ui, ${progress.articles}/${progress.articlesTotal} guides, ${progress.pages}/3 pages`);
 }
 
 const translatedCount = Object.keys(JSON.parse(await readFile(resolve(root, "lib/translations/de.json"), "utf8")).articles).length;
-console.log(`Content audit passed with ${slugs.length} unique articles, ${slugs.length - roadTripSlugs.size} translatable, ${translatedCount} translated so far.`);
+console.log(`Content audit passed with ${slugs.length} unique articles, ${slugs.length - roadTripSlugs.size} translatable.`);
+console.log(`Translations: ${summary.join(" \u00b7 ")}`);

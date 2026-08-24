@@ -34,9 +34,9 @@ Traditional place names, including Uluṟu, K'gari, Ikara and Tjoritja, must kee
 2. Translate the values, keeping every key and array position. Save as `lib/translations/<code>.json`.
 3. `npm run check` verifies the file and the locale routes.
 
-Nothing is ever rendered half-translated. A guide is published in a locale only when its translation
-is complete and structurally identical to the English; otherwise its localised URL 404s and the
-reader gets the English guide. A locale is published only when every UI string is translated, and
+Nothing is ever rendered half-translated. Every guide is published in every locale: one whose
+translation is complete and structurally identical to the English is served translated, and any
+other is served whole in English. A locale is published only when every UI string is translated, and
 stays `noindex` and absent from `sitemap.xml` and the footer language switcher until then.
 
 Article slugs stay in English. Titles, descriptions, Open Graph copy and `hreflang` are generated

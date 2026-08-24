@@ -11,8 +11,8 @@ export function generateStaticParams() {
   return localeCodes.flatMap((locale) => [
     { locale, path: [] as string[] }, { locale, path: ["guides"] }, { locale, path: ["tools"] },
     { locale, path: ["support"] }, { locale, path: ["privacy"] }, { locale, path: ["terms"] },
-    // Only guides this locale has actually finished. A stale or partial translation gets no URL
-    // at all, so the path 404s instead of serving a half-translated page.
+    // Every guide is published in every locale. Ones this locale has not finished translating are
+    // served whole in English rather than as a mixture, so none of them is missing.
     ...localizedArticles(locale).map((article) => ({ locale, path: ["guides", article.slug] })),
   ]);
 }
