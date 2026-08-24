@@ -340,7 +340,8 @@ em { color: inherit; font: inherit; font-style: normal; }
   .hero { min-height: auto; padding: 120px 22px 60px; }
   .hero-grid { grid-template-columns: 1fr; gap: 0; text-align: center; }
   .hero-copy { display: contents; }
-  .hero-copy .kicker { order: 1; border: 0; padding: 0; }
+  /* As a grid item the inline-flex kicker stretches, so its icon and text need centring too. */
+  .hero-copy .kicker { order: 1; justify-content: center; border: 0; padding: 0; }
   .hero-copy h1 { order: 2; font-size: clamp(32px, 8.4vw, 46px); margin: 18px 0 20px; }
   .hero-copy > p { order: 3; margin-inline: auto; font-size: 17px; }
   .hero-visual { order: 4; }
