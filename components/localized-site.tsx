@@ -3,7 +3,7 @@ import { ArrowLeft, ArrowRight, ArrowRightLeft, ArrowUpRight, Binoculars, Calend
 import { FaApple } from "react-icons/fa6";
 import { BrandMark } from "./brand-mark";
 import { Button } from "./ui/button";
-import { APP_STORE_URL, SITE_URL, SUPPORT_EMAIL, type Article } from "@/lib/site";
+import { APP_STORE_URL, SITE_URL, SUPPORT_MAILTO, type Article } from "@/lib/site";
 import { currencyRates, displayCurrencies, exchangeRateDate, formatAudRange } from "@/lib/currency";
 import { getPage, getTranslation, localizedArticles, localizedCategories, localeCodes, localeLabels, type LocaleCode } from "@/lib/localized";
 import { articleSchema, homeSchema } from "@/lib/seo";
@@ -22,7 +22,7 @@ export function LocalizedHeader({ locale }: { locale: LocaleCode }) {
 
 export function LocalizedFooter({ locale }: { locale: LocaleCode }) {
   const ui = getTranslation(locale);
-  return <footer className="footer"><div className="footer-grid"><div><BrandMark/><p>{ui.footerText}</p></div><div><strong>{ui.explore}</strong><Link href={prefix(locale,"/guides")}>{ui.travelGuides}</Link><Link href={prefix(locale,"/tools")}>{ui.navTools}</Link><Link href={`${prefix(locale)}#features`}>{ui.navFeatures}</Link></div><div><strong>{ui.help}</strong><Link href={prefix(locale,"/support")}>{ui.navSupport}</Link><a href={`mailto:${SUPPORT_EMAIL}`}>{ui.contact}</a></div><div><strong>{ui.getApp}</strong><a href={APP_STORE_URL}>{ui.download}</a><Link href={prefix(locale,"/privacy")}>{ui.privacy}</Link><Link href={prefix(locale,"/terms")}>{ui.terms}</Link></div></div><LanguageNav locale={locale}/><div className="footer-bottom"><span>© {new Date().getFullYear()} <a href="https://cntxtlabs.co/">Cntxt Labs</a></span><span>{ui.footerLine}</span></div></footer>;
+  return <footer className="footer"><div className="footer-grid"><div><BrandMark/><p>{ui.footerText}</p></div><div><strong>{ui.explore}</strong><Link href={prefix(locale,"/guides")}>{ui.travelGuides}</Link><Link href={prefix(locale,"/tools")}>{ui.navTools}</Link><Link href={`${prefix(locale)}#features`}>{ui.navFeatures}</Link></div><div><strong>{ui.help}</strong><Link href={prefix(locale,"/support")}>{ui.navSupport}</Link><a href={SUPPORT_MAILTO}>{ui.contact}</a></div><div><strong>{ui.getApp}</strong><a href={APP_STORE_URL}>{ui.download}</a><Link href={prefix(locale,"/privacy")}>{ui.privacy}</Link><Link href={prefix(locale,"/terms")}>{ui.terms}</Link></div></div><LanguageNav locale={locale}/><div className="footer-bottom"><span>© {new Date().getFullYear()} <a href="https://cntxtlabs.co/">Cntxt Labs</a></span><span>{ui.footerLine}</span></div></footer>;
 }
 
 /** The QR card plus the store button, exactly as the English pages show it. */
@@ -134,5 +134,5 @@ const a=adults*nights*perPerson,b=nights*perSite;root.querySelector('[data-camp-
 export function LocalizedInformationPage({ locale, kind }: { locale: LocaleCode; kind: StaticPageKind }) {
   const ui = getTranslation(locale);
   const page = getPage(locale, kind);
-  return <><LocalizedHeader locale={locale}/><main className={kind==="support"?undefined:"legal-page"}>{kind==="support"?<section className="page-hero support-hero"><p className="eyebrow">{ui.navSupport}</p><h1>{page.title}</h1><p>{page.lede}</p><Button asChild size="lg"><a href={`mailto:${SUPPORT_EMAIL}`}>{ui.contact}</a></Button></section>:<><p className="eyebrow">{page.effective}</p><h1>{page.title}</h1><p className="legal-lede">{page.lede}</p></>}<section className={kind==="support"?"support-shell":undefined}>{page.sections.map((section)=><section className={kind==="support"?"support-group":undefined} key={section.heading}><div><h2>{section.heading}</h2></div><div>{section.paragraphs.map((paragraph)=><p key={paragraph}>{paragraph}</p>)}</div></section>)}</section></main><LocalizedFooter locale={locale}/></>;
+  return <><LocalizedHeader locale={locale}/><main className={kind==="support"?undefined:"legal-page"}>{kind==="support"?<section className="page-hero support-hero"><p className="eyebrow">{ui.navSupport}</p><h1>{page.title}</h1><p>{page.lede}</p><Button asChild size="lg"><a href={SUPPORT_MAILTO}>{ui.contact}</a></Button></section>:<><p className="eyebrow">{page.effective}</p><h1>{page.title}</h1><p className="legal-lede">{page.lede}</p></>}<section className={kind==="support"?"support-shell":undefined}>{page.sections.map((section)=><section className={kind==="support"?"support-group":undefined} key={section.heading}><div><h2>{section.heading}</h2></div><div>{section.paragraphs.map((paragraph)=><p key={paragraph}>{paragraph}</p>)}</div></section>)}</section></main><LocalizedFooter locale={locale}/></>;
 }

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { APP_STORE_URL, SUPPORT_EMAIL } from "@/lib/site";
+import { APP_STORE_URL, SUPPORT_MAILTO } from "@/lib/site";
 import { localeLabels, publishedLocales } from "@/lib/localized";
 import { BrandMark } from "./brand-mark";
 
@@ -9,7 +9,7 @@ export function Footer() {
       <div className="footer-grid">
         <div><BrandMark /><p>Find 74,000+ Australian places offline, save the ones that matter and build complete road trips with routes, distance, dates, notes and to-dos.</p></div>
         <div><strong>Explore</strong><Link href="/guides">Travel guides</Link><Link href="/tools">Tools</Link><Link href="/#features">Features</Link></div>
-        <div><strong>Help</strong><Link href="/support">Support & FAQ</Link><a href={`mailto:${SUPPORT_EMAIL}`}>Contact</a></div>
+        <div><strong>Help</strong><Link href="/support">Support & FAQ</Link><a href={SUPPORT_MAILTO}>Contact</a></div>
         <div><strong>Get the app</strong><a href={APP_STORE_URL}>Download app</a><Link href="/privacy">Privacy</Link><Link href="/terms">Terms</Link></div>
       </div>
       {publishedLocales.length > 0 && <nav className="language-nav" aria-label="Languages"><Link href="/" aria-current="page">English</Link>{publishedLocales.map((code) => <Link href={`/${code}`} key={code}>{localeLabels[code]}</Link>)}</nav>}

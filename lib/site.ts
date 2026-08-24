@@ -1,6 +1,7 @@
 export const SITE_URL = "https://aussiecamps.app";
 export const APP_STORE_URL = "https://apps.apple.com/us/app/txtpod-text-to-speech-podcast/id6748379680";
-export const SUPPORT_EMAIL = "cristianrus4@gmail.com";
+export const SUPPORT_EMAIL = "support@cntxtlabs.co";
+export const SUPPORT_MAILTO = `mailto:${SUPPORT_EMAIL}?subject=AussieCamps%20web%20contact`;
 
 import { expandedArticles } from "@/lib/expanded-articles";
 
@@ -267,4 +268,3 @@ export const articles: Article[] = [
 
 export const categories: ArticleCategory[] = ["Road trips", "Camping guides", "Rules & safety", "Trip planning", "Costs & budget", "App guides"];
 export const getArticle = (slug: string) => articles.find((item) => item.slug === slug);
-
