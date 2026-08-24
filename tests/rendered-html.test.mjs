@@ -111,7 +111,6 @@ test("road trips are never translated", async () => {
   }
 });
 
-const articleBody = (html) => html.match(/<div class="article-body">([\s\S]*?)<\/div>\s*<aside/)?.[1] ?? "";
 
 const decode = (html) => html.replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#x27;/g, "'").replace(/<!-- -->/g, "");
 

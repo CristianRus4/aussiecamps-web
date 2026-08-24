@@ -44,6 +44,5 @@ for (const locale of localeCodes) {
   summary.push(`${locale} ${progress.ui}/${progress.uiTotal} ui, ${progress.articles}/${progress.articlesTotal} guides, ${progress.pages}/3 pages`);
 }
 
-const translatedCount = Object.keys(JSON.parse(await readFile(resolve(root, "lib/translations/de.json"), "utf8")).articles).length;
 console.log(`Content audit passed with ${slugs.length} unique articles, ${slugs.length - roadTripSlugs.size} translatable.`);
 console.log(`Translations: ${summary.join(" \u00b7 ")}`);

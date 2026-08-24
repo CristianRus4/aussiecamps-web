@@ -5,7 +5,9 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const output = resolve(root, "pages-dist");
-const basePath = (process.env.PAGES_BASE_PATH ?? "/aussiecamps-web").replace(/\/$/, "");
+// aussiecamps.app is a custom domain, so the site is served from the root. Only set
+// PAGES_BASE_PATH when deploying to a project-page subpath instead.
+const basePath = (process.env.PAGES_BASE_PATH ?? "").replace(/\/$/, "");
 const sources = await Promise.all(["lib/site.ts", "lib/expanded-articles.ts"].map((path) => readFile(resolve(root, path), "utf8")));
 const slugs = sources.flatMap((source) => [...source.matchAll(/slug:\s*"([^"]+)"/g)].map((match) => match[1]));
 const pageRoutes = ["/guides", ...slugs.map((slug) => `/guides/${slug}`), "/tools", "/support", "/privacy", "/terms"];
@@ -63,12 +65,15 @@ for (const name of await readdir(resolve(output, "assets"))) {
 await writeFile(resolve(output, ".nojekyll"), "");
 await cp(resolve(output, "index.html"), resolve(output, "404.html"));
 
+// Without CNAME in the artifact GitHub Pages drops the aussiecamps.app custom domain on deploy.
+if (!basePath) await cp(resolve(root, "CNAME"), resolve(output, "CNAME"));
+
 const exportedHtml = [];
 for (const route of htmlRoutes) {
   const target = route === "/" ? resolve(output, "index.html") : resolve(output, route.slice(1), "index.html");
   const html = await readFile(target, "utf8");
   assert.doesNotMatch(html, /self\.__VINEXT|__VINEXT_RSC/, `${route} contains runtime navigation code`);
-  assert.doesNotMatch(html, /(?:href|src)="\/(?!\/|aussiecamps-web(?:\/|"))/, `${route} contains a root-dependent internal URL`);
+  if (basePath) assert.doesNotMatch(html, new RegExp(`(?:href|src)="/(?!/|${basePath.slice(1)}(?:/|"))`), `${route} contains a root-dependent internal URL`);
   exportedHtml.push([route, html]);
 }
 

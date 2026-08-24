@@ -9,7 +9,7 @@
 export const uiStrings = {
   languageName: "English",
 
-  navFeatures: "Features", navGuides: "Guides", navTools: "Tools", navSupport: "Support", download: "Download app",
+  navFeatures: "Features", navGuides: "Guides", navTools: "Tools", navSupport: "Support", download: "Download app", downloadShort: "Download",
 
   heroKicker: "The best camping app for Australia",
   heroTitle: "Australia is big. Your plan can be simple.",
@@ -163,11 +163,24 @@ export const uiStrings = {
 
   rulesSafety: "Rules & safety", roadTrips: "Road trips", campingGuides: "Camping guides", tripPlanning: "Trip planning", costsBudget: "Costs & budget", appGuides: "App guides",
 
-  review1Title: "Made our trip so much simpler", review1Quote: "We crossed the country doing a mix of campsites and holiday parks and choosing each stop got so much easier. The offline details were a lifesaver more than once.", review1Country: "France",
-  review2Title: "The filters alone are worth it", review2Quote: "Filters are brilliant when you have a big rig and need to know what you are driving into. Fast, no fuss.", review2Country: "United States",
-  review3Title: "Useful for every kind of stop", review3Quote: "We found lovely holiday parks for the kids and a few quieter spots for later on. Having the prices and access notes in one place saved so much time.", review3Country: "Canada",
-  review4Title: "Good when plans change", review4Quote: "Helped us find a simple overnight stop when our plans fell apart, then somewhere lovely to stay a few days. Much better than searching town by town.", review4Country: "Germany",
-  review5Title: "Clear and easy to trust", review5Quote: "Clear maps, useful details, no nonsense. We used it for caravan parks, free camps and a couple of huts and it became part of the daily routine.", review5Country: "United Kingdom",
+  review1Title: "Made our trip so much simpler", review1Country: "France",
+  review1Quote: "We crossed the country doing a mix of campsites and holiday parks and choosing each stop got so much easier. The offline details were a lifesaver more than once.",
+  review2Title: "The filters alone are worth it", review2Country: "United States",
+  review2Quote: "Filters are brilliant when you've got a big rig and need to know what you're driving into. Fast, no fuss.",
+  review3Title: "useful for every kind of stop", review3Country: "Canada",
+  review3Quote: "we found lovely holiday parks for the kids and a few quieter spots for later on. having the prices and access notes in one place saved so much time, i was doing all this in a spreadsheet before which was... not great",
+  review4Title: "Good when plans change", review4Country: "Germany",
+  review4Quote: "Helped us find a simple overnight stop when our plans fell apart, then somewhere lovely to stay a few days. Much better than searching town by town.",
+  review5Title: "Clear and easy to trust", review5Country: "United Kingdom",
+  review5Quote: "Clear maps, useful details, no nonsense. We used it for caravan parks, free camps and a couple of huts and it became part of the daily routine without me really noticing.",
+  review6Title: "Did the big lap with this", review6Country: "Australia",
+  review6Quote: "Ten months around the country and I opened it every single day. Filtering for rig length and access saved us a lot of wasted kilometres up north. The amount of times we would have driven somewhere that just doesn't fit a 7 metre van.",
+  review7Title: "Less daunting", review7Country: "New Zealand",
+  review7Quote: "Came over for six weeks with no idea where to start. Building the route stop by stop and actually seeing the distance made the whole thing feel manageable.",
+  review8Title: "offline was the selling point", review8Country: "Netherlands",
+  review8Quote: "between broome and darwin there is a LOT of nothing. having the place details still readable with no signal is the reason we kept using it",
+  review9Title: "Good for a tent too!", review9Country: "Ireland",
+  review9Quote: "Most of these apps feel built for big caravans. We were in a small car with a tent and still found plenty that actually suited us.",
 } as const;
 
 export type UiKey = keyof typeof uiStrings;

@@ -24,9 +24,8 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      # No PAGES_BASE_PATH: aussiecamps.app is a custom domain, so the site is served from the root.
       - run: npm run build:pages
-        env:
-          PAGES_BASE_PATH: /aussiecamps-web
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

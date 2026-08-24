@@ -16,6 +16,7 @@ export function Header() {
           <Link href="/support">Support</Link>
         </nav>
         <Button asChild size="sm" className="desktop-download"><a href={APP_STORE_URL}>Download app</a></Button>
+        <Button asChild size="sm" className="mobile-download"><a href={APP_STORE_URL}>Download</a></Button>
         <details className="mobile-menu">
           <summary aria-label="Open menu"><Menu size={22} /></summary>
           <nav aria-label="Mobile navigation">

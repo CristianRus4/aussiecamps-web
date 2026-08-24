@@ -62,7 +62,7 @@ export default function Home() {
             <span className="kicker"><Caravan size={14}/> The best camping app for Australia</span>
             <h1>Australia is big.<br/><em>Your plan</em> can be simple.</h1>
             <p>74,000+ places across Australia, bundled offline so they still open with no signal. Filter down to exactly what you need, save it, and turn the shortlist into a road trip with routes, distance, dates, notes and to-dos.</p>
-            <div className="hero-actions"><DownloadCard/><Button asChild variant="outline" size="lg" className="w-[170px] rounded-[14px]"><Link href="/#how-it-works">See how it works <ArrowRight/></Link></Button></div>
+            <div className="hero-actions"><DownloadCard/><Button asChild variant="outline" size="lg" className="rounded-[14px]"><Link href="/#how-it-works">See how it works <ArrowRight/></Link></Button></div>
             <div className="hero-proof"><span><strong>74,000+</strong><small>places across Australia</small></span><span><strong>Offline</strong><small>every place detail, no signal needed</small></span><span><strong>4,000+</strong><small>places to stay</small></span></div>
           </div>
           <div className="hero-visual">
