@@ -13,6 +13,7 @@
     "test": "node --test tests/rendered-html.test.mjs",
     "check": "npm run content:check && npm run build && npm test && npm run similarity:check && npm run assets:check",
     "content:check": "node scripts/audit-content.mjs",
+    "translations:source": "tsx scripts/build-translation-source.mjs",
     "assets:check": "node scripts/check-assets.mjs",
     "similarity:check": "node scripts/audit-article-similarity.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern pages-dist --ignore-pattern .next",
@@ -46,7 +47,8 @@
     "typescript": "5.9.3",
     "vinext": "0.0.50",
     "vite": "8.0.13",
-    "wrangler": "4.92.0"
+    "wrangler": "4.92.0",
+    "tsx": "^4.20.3"
   },
   "type": "module"
 }

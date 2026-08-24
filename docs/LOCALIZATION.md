@@ -1,16 +1,21 @@
-# Localization plan
+# Localization
 
-Australian English is the source language. Locale configuration lives in `lib/i18n.ts`.
+Australian English is the source language. Locale configuration lives in `lib/i18n.ts`; the running
+implementation lives in `lib/localized.ts`, and the step-by-step process a translator follows is in
+[TRANSLATIONS.md](TRANSLATIONS.md).
 
-Planned first-wave locales:
+Live locale routes, one URL prefix each:
 
-- `en-NZ`
-- `de-DE`
-- `fr-FR`
-- `es-ES`
-- `it-IT`
-- `nl-NL`
-- `pt-PT`
+- `de-DE` at `/de`
+- `fr-FR` at `/fr`
+- `es-ES` at `/es`
+- `it-IT` at `/it`
+- `nl-NL` at `/nl`
+- `pt-PT` at `/pt`
+
+Road trip guides are deliberately excluded from every locale and stay English-only. Everything else
+is translatable: UI copy, the support, privacy and terms pages, and the rules, camping, planning,
+cost and app guides.
 
 ## Never translate
 
@@ -25,14 +30,17 @@ Traditional place names, including Uluṟu, K'gari, Ikara and Tjoritja, must kee
 
 ## Translation workflow
 
-1. Extract public strings from components and `lib/site.ts` into locale JSON files.
-2. Keep English values as the required fallback.
-3. Generate locale routes under `/<locale>/...`.
-4. Create reciprocal `hreflang` links and an `x-default` entry for every translated route.
-5. Localise title, description, Open Graph copy, structured data and visible content together.
-6. Keep article slugs in English for the first release unless the entire locale uses translated slugs consistently.
-7. Fail the build when a published locale is missing a required key.
-8. Review all legal and state-rule translations with a native speaker.
+1. `npm run translations:source` writes `lib/translations/en.json`, the complete English source.
+2. Translate the values, keeping every key and array position. Save as `lib/translations/<code>.json`.
+3. `npm run check` verifies the file and the locale routes.
+
+Nothing is ever rendered half-translated. A guide is published in a locale only when its translation
+is complete and structurally identical to the English; otherwise its localised URL 404s and the
+reader gets the English guide. A locale is published only when every UI string is translated, and
+stays `noindex` and absent from `sitemap.xml` and the footer language switcher until then.
+
+Article slugs stay in English. Titles, descriptions, Open Graph copy and `hreflang` are generated
+from the locale file, so no route needs editing by hand.
 
 ## Tone in translation
 

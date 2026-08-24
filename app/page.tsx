@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, Binoculars, CalendarDays, Caravan, Check, CircleDollarSign, CloudSun, Heart, ListChecks, Map, MapPinned, Navigation, Route, Search, ShieldCheck, TentTree, Trees } from "lucide-react";
+import { ArrowRight, Binoculars, CalendarDays, Caravan, Check, CircleDollarSign, CloudSun, Heart, Layers, ListChecks, Map, MapPinned, Navigation, Route, Search, ShieldCheck, SlidersHorizontal, TentTree, Trees } from "lucide-react";
 import { FaApple } from "react-icons/fa6";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
@@ -11,27 +11,30 @@ import { APP_STORE_URL, SITE_URL, articles } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "AussieCamps | Find camps, plan road trips and explore Australia",
-  description: "Explore 74,000+ campsites, caravan parks, rest areas and useful stops across Australia. Filter places, save collections and plan every road trip in one iPhone app.",
+  description: "74,000+ campsites, caravan parks, rest areas and useful stops across Australia, bundled offline. Filter for exactly the place you want, save collections and plan the whole road trip stop by stop.",
   alternates: { canonical: "/" },
 };
 
 const features = [
-  {icon: Heart, title:"Save every place worth returning to", text:"Star favourites, mark places visited or wanted, and organise camps into custom collections for this weekend or the next big lap."},
-  {icon: Route, title:"Plan the complete trip", text:"Put every overnight stop in order, follow the route between them and see the total driving distance before committing to the plan."},
-  {icon: ListChecks, title:"Keep notes and to-dos with the route", text:"Attach arrival notes to individual stops and keep the trip checklist beside the itinerary, where it is useful on the road."},
-  {icon: CircleDollarSign, title:"Read costs in your currency", text:"Compare reported place costs in the currency you understand instead of converting every stop by hand."},
-  {icon: CloudSun, title:"Check the weather around each stay", text:"See current conditions and the forecast while choosing between camps, then recheck official warnings before leaving coverage."},
-  {icon: Binoculars, title:"Look Around before the turnoff", text:"Use Apple Look Around where coverage exists to understand the entrance, road and surrounding area before arrival."},
+  {icon: Layers, title:"Smart collections and your own lists", text:"Liked, Starred, Want to visit and Visited fill themselves as you mark places. Build named collections on top for a region, a season or the shortlist you are still arguing about."},
+  {icon: SlidersHorizontal, title:"Filters that answer a real question", text:"Ask for free camping areas with toilets and drinking water around the Gold Coast, then narrow further by category, fee, rating, online booking, state and detailed access, amenity, activity and service features."},
+  {icon: Map, title:"Standard, satellite and 3D maps", text:"Switch between the standard map and satellite imagery you can tilt and spin into real terrain. Pins group into counts when you are zoomed out and break apart as you move in."},
+  {icon: Binoculars, title:"Street View before the turnoff", text:"Street View opens straight from the place screen where coverage exists, so you can see the entrance, the road surface and the surroundings before committing the van to the turnoff."},
+  {icon: CloudSun, title:"Weather on every place", text:"Current conditions and the forecast sit on the place screen and beside each trip stop, so a choice between two camps can be made with the sky in mind."},
+  {icon: CircleDollarSign, title:"Costs in your own currency", text:"Visiting and not fluent in Australian dollars? Choose your currency and set the rate once, and reported fees are shown alongside in money you can judge at a glance."},
 ];
 
 const faqs = [
-  ["What is AussieCamps?", "AussieCamps is an iPhone app for finding places to camp and stay around Australia, comparing practical details, saving places and building road trips stop by stop."],
-  ["What places are included?", "The directory covers 74,000+ places, including 4,000+ accommodation options alongside campgrounds, caravan parks, rest areas, dump points, potable water, day-use areas and experiences."],
-  ["Does it work without reception?", "The app bundles its place directory so core place data remains available beyond reliable signal. Live services such as current weather, directions and some map content still need connectivity."],
-  ["Can I plan a multi-stop road trip?", "Yes. Create a trip, order stops, add dates and notes, view route distance, track visited places, add packing tasks and sync itinerary details to Calendar."],
-  ["Can I filter for free camps or caravan access?", "Yes. Filters cover fee type, category, minimum rating, booking, state and detailed features such as access, amenities, activities, services and affiliations."],
-  ["Can I see prices in my own currency?", "Yes. AussieCamps can present reported place costs in your selected currency, making it easier to compare options while travelling."],
-  ["Can I book a campsite in AussieCamps?", "Open the booking details for a place to contact its provider and check live availability, prices and terms."],
+  ["What is AussieCamps?", "AussieCamps is an iPhone app for finding places to camp and stay around Australia. It bundles a directory of 74,000+ places so the details stay readable without reception, and it turns the ones you save into a road trip with an ordered route, dates, notes and to-dos."],
+  ["What places are included?", "More than 74,000 places: campgrounds, caravan parks, roofed accommodation, farm and station stays, backpacker hostels, roadside rest areas, day-use areas, dump points, potable water, laundromats, information centres, long-vehicle parking, experiences and other useful stops."],
+  ["Does it work without reception?", "The place directory is bundled with the app, so names, categories, descriptions, fees, amenities, opening hours and conditions stay readable well beyond signal. Live services such as weather, routing, Street View, photos and provider pages still need a connection."],
+  ["Can I plan a multi-stop road trip?", "Yes, and it is the app's main feature. Add places as stops, drag them into order, attach a date and arrival notes to each one, see the driving distance leg by leg and across the whole trip, open directions to the next stop, check the weather at each one, tick stops off as visited and keep the packing list beside the itinerary. Itinerary details can sync to Calendar."],
+  ["What are collections?", "Two kinds. Smart collections (Liked, Starred, Want to visit, Visited, Pins and All saved) fill themselves as you mark places. On top of those you can create your own named collections with an icon and notes for a region, a season, a vehicle or a shortlist."],
+  ["Can I filter for free camps or caravan access?", "Yes, and combinations of them. Filters cover category, fee type, minimum rating, online booking, state or territory, and detailed feature groups for access, amenities, activities, services and affiliations, so \u201cfree camping areas with toilets and drinking water in Queensland\u201d is a single query."],
+  ["What is on a place screen?", "Photos, a description, opening hours, fees, terms and conditions, amenities and features grouped by type, current alerts, ratings, contact and booking details, weather, Street View where coverage exists, directions, and nearby alternatives."],
+  ["What map views are there?", "A standard map and a satellite view built on Apple's flyover imagery, which you can tilt and rotate for real 3D terrain. Street View, built on Apple's Look Around imagery, gives the street-level view from the place screen."],
+  ["Can I see prices in my own currency?", "Yes. Choose your currency in settings and set the conversion rate, and reported fees are shown in that currency alongside the Australian dollar figure."],
+  ["Can I book a campsite in AussieCamps?", "Open the booking details for a place to reach its provider and check live availability, prices and terms."],
   ["Are camping rules the same across Australia?", "No. Rules vary by state, territory, council, park and individual site. Always follow current signs, land-manager conditions, fire restrictions and official alerts."],
 ];
 
@@ -58,9 +61,9 @@ export default function Home() {
           <div className="hero-copy">
             <span className="kicker"><Caravan size={14}/> The best camping app for Australia</span>
             <h1>Australia is big.<br/><em>Your plan</em> can be simple.</h1>
-            <p>Find camps, save the places that matter and turn them into a complete road trip with routes, distance, dates, notes and to-dos.</p>
+            <p>74,000+ places across Australia, bundled offline so they still open with no signal. Filter down to exactly what you need, save it, and turn the shortlist into a road trip with routes, distance, dates, notes and to-dos.</p>
             <div className="hero-actions"><DownloadCard/><Button asChild variant="outline" size="lg" className="w-[170px] rounded-[14px]"><Link href="/#how-it-works">See how it works <ArrowRight/></Link></Button></div>
-            <div className="hero-proof"><span><strong>74,000+</strong><small>places across Australia</small></span><span><strong>4,000+</strong><small>accommodation options</small></span><span><strong>Offline</strong><small>core place details</small></span></div>
+            <div className="hero-proof"><span><strong>74,000+</strong><small>places across Australia</small></span><span><strong>Offline</strong><small>every place detail, no signal needed</small></span><span><strong>4,000+</strong><small>places to stay</small></span></div>
           </div>
           <div className="hero-visual">
             <div className="image-slot hero-image-slot" style={{backgroundImage:"url(/images/aussie-hero.webp)"}} role="img" aria-label="AussieCamps map screen" />
@@ -71,18 +74,18 @@ export default function Home() {
       <section className="trust-strip"><p>Campsites, caravan parks and useful stops across Australia.</p><div>{[TentTree,Caravan,Trees,Navigation,Map,CloudSun].map((Icon,i)=><span key={i}><Icon/>{["Campsites","Caravan parks","National parks","Rest areas","Useful stops","Experiences"][i]}</span>)}</div></section>
 
       <section className="section story-section" id="how-it-works">
-        <div className="section-head"><div><p className="eyebrow">From idea to open road</p><h2>Find a camp.<br/>Build the trip.</h2></div><p>Find tonight’s camp, save tomorrow’s possibilities and keep the route, distance, notes and to-dos together.</p></div>
+        <div className="section-head"><div><p className="eyebrow">From idea to open road</p><h2>Find a camp.<br/>Build the trip.</h2></div><p>Filter down to tonight’s camp, save tomorrow’s possibilities into collections and keep the route, distance, dates, notes and to-dos together in one trip.</p></div>
         <div className="steps-grid">
-          <article><Search/><h3>Find the right place</h3><p>Search 74,000+ places, browse nearby and filter for the access, facilities and price that suit your setup.</p></article>
-          <article><Heart/><h3>Save places without losing them</h3><p>Keep favourites, future stops and custom collections organised while the route is still taking shape.</p></article>
-          <article><Route/><h3>Turn saved places into a trip</h3><p>Order the stops, calculate the route and distance, then add dates, notes and to-dos to the same plan.</p></article>
+          <article><Search/><h3>Find the exact place</h3><p>Search 74,000+ places, browse what is nearby, or stack filters until only the free camping areas with toilets and water in your corner of the map are left.</p></article>
+          <article><Heart/><h3>Save it into a collection</h3><p>Like, star or mark a place as visited and the smart collections update themselves. Build your own named lists for a region, a season or a shortlist.</p></article>
+          <article><Route/><h3>Turn it into a trip</h3><p>Order the stops, see the distance between them, add dates and notes, check each stop’s weather, get directions and tick them off as you go.</p></article>
         </div>
       </section>
 
       <section className="feature-stage" id="features">
         <div className="feature-intro"><p className="eyebrow">The full toolkit</p><h2>Find it. Save it.<br/>Plan the whole road ahead.</h2><p>Explore places, compare the details, organise favourites and build a trip that stays useful after the planning table.</p></div>
         <div className="feature-showcase">
-          <div className="feature-copy-large"><div className="icon-tile"><MapPinned/></div><p className="eyebrow">Explore and save</p><h3>Australia’s camping places, ready for a real plan.</h3><p>Move from national parks to caravan parks, free camps, rest areas and useful services, then save the strongest options directly into collections and trips.</p><ul><li><Check/>Map, list and satellite views</li><li><Check/>Powerful access and facility filters</li><li><Check/>Offline core place details</li></ul></div>
+          <div className="feature-copy-large"><div className="icon-tile"><MapPinned/></div><p className="eyebrow">Know the place before you get there</p><h3>Every place opens with the detail that decides it.</h3><p>Photos, a real description, opening hours, fees, terms and conditions, amenities and features grouped by type, current alerts, ratings, contact and booking details, the weather, and Street View to see the entrance from the road.</p><ul><li><Check/>Photos, hours, fees, conditions and amenities</li><li><Check/>Street View, weather and directions built in</li><li><Check/>Bundled offline, it opens with no signal</li></ul></div>
           <div className="product-images"><div className="image-slot product-shot product-shot-one" style={{backgroundImage:"url(/images/aussie-feature-1.webp)"}} role="img" aria-label="AussieCamps explore screen"/><div className="image-slot product-shot product-shot-two" style={{backgroundImage:"url(/images/aussie-feature-2.webp)"}} role="img" aria-label="AussieCamps place details screen"/></div>
         </div>
         <div className="feature-grid">{features.map(({icon:Icon,title,text})=><article key={title}><Icon/><h3>{title}</h3><p>{text}</p></article>)}</div>
@@ -90,7 +93,7 @@ export default function Home() {
 
       <section className="section itinerary-section">
         <div className="itinerary-image image-slot" style={{backgroundImage:"url(/images/aussie-feature-3.webp)"}} role="img" aria-label="AussieCamps trip planner screen"/>
-        <div className="itinerary-copy"><p className="eyebrow">A planner that comes along</p><h2>Stop by stop.<br/>Day by <em>day.</em></h2><p>Turn saved places into an ordered route you can understand at a glance. Calculate the drive, add dates and stop notes, keep to-dos beside the itinerary and hold nearby alternatives for the days that change.</p><div className="metric-grid"><div><Route/><strong>Route & distance</strong><small>across ordered stops</small></div><div><CalendarDays/><strong>Dates & notes</strong><small>attached to every stop</small></div><div><ListChecks/><strong>Trip to-dos</strong><small>and packing tasks together</small></div><div><CloudSun/><strong>Place weather</strong><small>when live data is available</small></div></div></div>
+        <div className="itinerary-copy"><p className="eyebrow">The main event</p><h2>Stop by stop.<br/>Day by <em>day.</em></h2><p>The trip planner is what everything else feeds. Add saved places as stops and drag them into the order you will actually drive. Every leg shows its distance, directions open to the next one, each stop carries its own date, arrival notes and weather, and you tick them off as visited while you travel. Nearby alternatives stay attached for the days that change, the packing list sits beside the itinerary, and the whole thing can sync to Calendar.</p><div className="metric-grid"><div><Route/><strong>Distance & directions</strong><small>leg by leg, and the whole trip</small></div><div><CalendarDays/><strong>Dates & notes</strong><small>attached to every stop</small></div><div><ListChecks/><strong>Visited & to-dos</strong><small>progress you can see</small></div><div><CloudSun/><strong>Weather per stop</strong><small>beside the itinerary</small></div></div></div>
       </section>
 
       <section className="section guide-preview">
@@ -109,7 +112,7 @@ export default function Home() {
 
       <section className="section faq-section"><div><p className="eyebrow">A few straight answers</p><h2>Good questions.<br/><em>Clear answers.</em></h2><p>Still stuck? <Link href="/support">Visit support</Link> or send us a note.</p></div><div className="faq-list">{faqs.map(([q,a],i)=><details key={q} open={i===0}><summary>{q}<span>+</span></summary><p>{a}</p></details>)}</div></section>
 
-      <section className="download-section"><div className="download-image image-slot" style={{backgroundImage:"url(/images/aussie-download.webp)"}} role="img" aria-label="AussieCamps app screen"/><div className="download-copy"><p className="eyebrow">Your next place is out there</p><h2>Find it. Save it.<br/><em>Plan the road ahead.</em></h2><p>Explore Australia, organise favourite places and keep the route, distance, notes and to-dos together in AussieCamps for iOS.</p><DownloadCard/></div></section>
+      <section className="download-section"><div className="download-image image-slot" style={{backgroundImage:"url(/images/aussie-download.webp)"}} role="img" aria-label="AussieCamps app screen"/><div className="download-copy"><p className="eyebrow">Your next place is out there</p><h2>Find it. Save it.<br/><em>Plan the road ahead.</em></h2><p>74,000+ Australian places offline, filters sharp enough to find the exact one, collections that organise themselves and a trip planner that holds the whole route. AussieCamps for iOS.</p><DownloadCard/></div></section>
     </main>
     <Button asChild className="mobile-cta"><a href={APP_STORE_URL} aria-label="Download AussieCamps for iOS"><FaApple aria-hidden="true"/><span>Download</span></a></Button>
     <Footer />

@@ -2,6 +2,8 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import { readFile } from "node:fs/promises";
 
+const locales = ["de", "es", "fr", "it", "nl", "pt"];
+
 async function fetchPage(path = "/") {
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
   workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}-${path}`);
@@ -16,7 +18,9 @@ test("renders the AussieCamps homepage with product copy and SEO", async () => {
   assert.match(html, /Australia is big/);
   assert.match(html, /74,000\+/);
   assert.match(html, /4,000\+/);
-  assert.match(html, /route, distance, notes and to-dos/i);
+  assert.match(html, /routes, distance, dates, notes and to-dos/i);
+  assert.match(html, /Offline/);
+  assert.match(html, /trip planner/i);
   assert.doesNotMatch(html, /section-number|useful place categories|01 \/ 03/i);
   assert.match(html, /M318\.7 268\.7/);
   assert.match(html, /application\/ld\+json/);
@@ -87,4 +91,42 @@ test("renders standalone road trip tools", async () => {
   assert.match(html, /Fuel calculator/);
   assert.match(html, /data-static-tools/);
   assert.match(html, /120\.0 L · A\$249\.60/);
+});
+
+test("publishes a localised edition per language, road trips excluded", async () => {
+  for (const locale of locales) {
+    for (const route of ["", "/guides", "/tools", "/support", "/privacy", "/terms"]) {
+      assert.equal((await fetchPage(`/${locale}${route}`)).status, 200, `${locale}${route}`);
+    }
+    // Road trips stay English-only, so no locale may ever serve one.
+    assert.equal((await fetchPage(`/${locale}/guides/perth-to-broome-road-trip`)).status, 404, `${locale} must not publish a translated road trip`);
+  }
+});
+
+test("never serves a half-translated guide", async () => {
+  // A localised guide URL exists only where that locale's translation is complete. Anything partial
+  // or structurally stale must 404 rather than render a mixture of two languages.
+  for (const locale of locales) {
+    const file = JSON.parse(await readFile(new URL(`../lib/translations/${locale}.json`, import.meta.url), "utf8"));
+    const index = await (await fetchPage(`/${locale}/guides`)).text();
+    for (const slug of ["australia-grocery-prices-2026", "camping-rules-queensland", "australia-travel-cost-2026"]) {
+      const complete = Boolean(file.articles?.[slug]);
+      assert.equal((await fetchPage(`/${locale}/guides/${slug}`)).status, complete ? 200 : 404, `${locale}/${slug}`);
+      if (!complete) assert.ok(!index.includes(`/${locale}/guides/${slug}"`), `${locale} lists ${slug} it cannot serve`);
+    }
+    if (Object.keys(file.articles ?? {}).length === 0) assert.match(index, /Not available in this language yet/);
+  }
+});
+
+test("keeps untranslated locales out of the sitemap and index", async () => {
+  const sitemap = await (await fetchPage("/sitemap.xml")).text();
+  for (const locale of locales) {
+    const file = JSON.parse(await readFile(new URL(`../lib/translations/${locale}.json`, import.meta.url), "utf8"));
+    const published = Object.keys(file.ui ?? {}).length > 0;
+    assert.equal(sitemap.includes(`/${locale}/guides`), published, `${locale} sitemap presence must match its translation state`);
+    const html = await (await fetchPage(`/${locale}`)).text();
+    assert.match(html, published ? /name="robots" content="index/ : /name="robots" content="noindex/, `${locale} robots meta must match its translation state`);
+  }
+  // Whatever a translator delivers, a road trip must never reach a localised URL.
+  for (const locale of locales) assert.ok(!sitemap.includes(`/${locale}/guides/perth-to-broome-road-trip`));
 });
