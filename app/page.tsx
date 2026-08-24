@@ -7,12 +7,13 @@ import { Footer } from "@/components/footer";
 import { DownloadCard } from "@/components/download-card";
 import { ArticleCard } from "@/components/article-card";
 import { Button } from "@/components/ui/button";
-import { APP_STORE_URL, SITE_URL, articles } from "@/lib/site";
+import { APP_STORE_URL, articles } from "@/lib/site";
+import { homeSchema, seoLanguageTags } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "AussieCamps | Find camps, plan road trips and explore Australia",
-  description: "74,000+ campsites, caravan parks, rest areas and useful stops across Australia, bundled offline. Filter for exactly the place you want, save collections and plan the whole road trip stop by stop.",
-  alternates: { canonical: "/" },
+  title: { absolute: "AussieCamps: Australia Camping Map & Road Trip Planner" },
+  description: "Find 74,000+ campgrounds, caravan parks, free camps, rest areas and dump points across Australia. Offline place details, sharp filters and a stop-by-stop road trip planner for iPhone.",
+  alternates: { canonical: "/", languages: seoLanguageTags("") },
 };
 
 const features = [
@@ -51,7 +52,7 @@ const reviews = [
 ];
 
 export default function Home() {
-  const schema = {"@context":"https://schema.org","@graph":[{"@type":"WebSite",name:"AussieCamps",url:SITE_URL,description:metadata.description},{"@type":"MobileApplication",name:"AussieCamps",operatingSystem:"iOS",applicationCategory:"TravelApplication",description:metadata.description},{"@type":"FAQPage",mainEntity:faqs.map(([q,a])=>({"@type":"Question",name:q,acceptedAnswer:{"@type":"Answer",text:a}}))}]};
+  const schema = homeSchema(metadata.description!, faqs as [string, string][]);
   return <>
     <Header />
     <main>
@@ -60,7 +61,7 @@ export default function Home() {
         <div className="hero-grid">
           <div className="hero-copy">
             <span className="kicker"><Caravan size={14}/> The best camping app for Australia</span>
-            <h1>Australia is big.<br/><em>Your plan</em> can be simple.</h1>
+            <h1>Australia is big,<br/><em>your plan</em> can be simple</h1>
             <p>74,000+ places across Australia, bundled offline so they still open with no signal. Filter down to exactly what you need, save it, and turn the shortlist into a road trip with routes, distance, dates, notes and to-dos.</p>
             <div className="hero-actions"><DownloadCard/><Button asChild variant="outline" size="lg" className="rounded-[14px]"><Link href="/#how-it-works">See how it works <ArrowRight/></Link></Button></div>
             <div className="hero-proof"><span><strong>74,000+</strong><small>places across Australia</small></span><span><strong>Offline</strong><small>every place detail, no signal needed</small></span><span><strong>4,000+</strong><small>places to stay</small></span></div>

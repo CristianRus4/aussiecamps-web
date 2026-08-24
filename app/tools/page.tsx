@@ -9,8 +9,9 @@ import { DriveTimeCalculator } from "@/components/drive-time-calculator";
 import { TankDurationCalculator } from "@/components/tank-duration-calculator";
 import { CampsiteCostCalculator } from "@/components/campsite-cost-calculator";
 import { currencyRates } from "@/lib/currency";
+import { seoLanguageTags } from "@/lib/seo";
 
-export const metadata: Metadata = { title: "Australia road trip tools", description: "Convert Australian prices, calculate road trip fuel, estimate a realistic driving day, plan tank capacity and compare campsite pricing.", alternates: { canonical: "/tools" } };
+export const metadata: Metadata = { title: "Australia road trip calculators", description: "Convert Australian prices, work out road trip fuel, estimate a realistic driving day, plan water and waste capacity and compare campsite pricing per person or per site.", alternates: { canonical: "/tools", languages: seoLanguageTags("/tools") } };
 
 export default function ToolsPage() {
   // One inline script drives every calculator. It is marked data-static-tools so the static export

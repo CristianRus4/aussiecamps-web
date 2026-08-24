@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { GuideArticle } from "@/components/guide-article";
 import { SITE_URL, articles, getArticle } from "@/lib/site";
+import { seoLanguageTags } from "@/lib/seo";
 
 export function generateStaticParams() {
   return articles.map(({ slug }) => ({ slug }));
@@ -14,14 +15,17 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: item.title,
     description: item.description,
-    alternates: { canonical: `/guides/${item.slug}` },
+    alternates: { canonical: `/guides/${item.slug}`, languages: seoLanguageTags(`/guides/${item.slug}`) },
     openGraph: {
       type: "article",
+      siteName: "AussieCamps",
+      locale: "en_AU",
       title: item.title,
       description: item.description,
       url: `${SITE_URL}/guides/${item.slug}`,
       images: [{ url: item.image, alt: item.imageAlt }],
     },
+    twitter: { card: "summary_large_image", title: item.title, description: item.description, images: [item.image] },
   };
 }
 

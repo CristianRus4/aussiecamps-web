@@ -9,10 +9,24 @@
 export const uiStrings = {
   languageName: "English",
 
+  /* Search-engine copy. Kept apart from the on-page headings because a page title and a headline
+     have different jobs: the title has to win a click from a results page. */
+  metaTitle: "AussieCamps: Australia Camping Map & Road Trip Planner",
+  metaDescription: "Find 74,000+ campgrounds, caravan parks, free camps, rest areas and dump points across Australia. Offline place details, sharp filters and a stop-by-stop road trip planner for iPhone.",
+  ogTitle: "AussieCamps: the camping map and road trip planner for Australia",
+  ogDescription: "74,000+ campgrounds, caravan parks, free camps and useful stops, bundled offline. Filter, save and plan the whole lap.",
+  metaKeywords: "camping app Australia, free camping Australia, campgrounds Australia, caravan parks Australia, offline camping map Australia, big lap app, dump points Australia, rest areas Australia, road trip planner Australia",
+  metaGuidesTitle: "Australian camping and road trip guides",
+  metaGuidesDescription: "Camping rules by state, free camping and rest area limits, fire bans, road safety, seasonal timing, real costs and practical planning for an Australian road trip.",
+  metaToolsTitle: "Australia road trip calculators",
+  metaToolsDescription: "Convert Australian prices, work out road trip fuel, estimate a realistic driving day, plan water and waste capacity and compare campsite pricing.",
+  metaSupportTitle: "Support and FAQ",
+  metaSupportDescription: "Help with AussieCamps maps, place details, filters, collections, the trip planner, offline data, currency conversion and premium access.",
+
   navFeatures: "Features", navGuides: "Guides", navTools: "Tools", navSupport: "Support", download: "Download app", downloadShort: "Download",
 
   heroKicker: "The best camping app for Australia",
-  heroTitle: "Australia is big. Your plan can be simple.",
+  heroTitle: "Australia is big, your plan can be simple",
   heroText: "74,000+ places across Australia, bundled offline so they still open with no signal. Filter down to exactly what you need, save it, and turn the shortlist into a road trip with routes, distance, dates, notes and to-dos.",
   seeHow: "See how it works",
   statPlaces: "74,000+", statPlacesLabel: "places across Australia",

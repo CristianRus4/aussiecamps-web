@@ -3,9 +3,10 @@ import { ArrowLeft, ArrowRight, ArrowRightLeft, ArrowUpRight, Binoculars, Calend
 import { FaApple } from "react-icons/fa6";
 import { BrandMark } from "./brand-mark";
 import { Button } from "./ui/button";
-import { APP_STORE_URL, SUPPORT_EMAIL, type Article } from "@/lib/site";
+import { APP_STORE_URL, SITE_URL, SUPPORT_EMAIL, type Article } from "@/lib/site";
 import { currencyRates, displayCurrencies, exchangeRateDate, formatAudRange } from "@/lib/currency";
 import { getPage, getTranslation, localizedArticles, localizedCategories, localeCodes, localeLabels, type LocaleCode } from "@/lib/localized";
+import { articleSchema, homeSchema } from "@/lib/seo";
 import type { StaticPageKind } from "@/lib/source-strings";
 
 const prefix = (locale: LocaleCode, path = "") => `/${locale}${path}`;
@@ -24,6 +25,11 @@ export function LocalizedFooter({ locale }: { locale: LocaleCode }) {
   return <footer className="footer"><div className="footer-grid"><div><BrandMark/><p>{ui.footerText}</p></div><div><strong>{ui.explore}</strong><Link href={prefix(locale,"/guides")}>{ui.travelGuides}</Link><Link href={prefix(locale,"/tools")}>{ui.navTools}</Link><Link href={`${prefix(locale)}#features`}>{ui.navFeatures}</Link></div><div><strong>{ui.help}</strong><Link href={prefix(locale,"/support")}>{ui.navSupport}</Link><a href={`mailto:${SUPPORT_EMAIL}`}>{ui.contact}</a></div><div><strong>{ui.getApp}</strong><a href={APP_STORE_URL}>{ui.download}</a><Link href={prefix(locale,"/privacy")}>{ui.privacy}</Link><Link href={prefix(locale,"/terms")}>{ui.terms}</Link></div></div><LanguageNav locale={locale}/><div className="footer-bottom"><span>© {new Date().getFullYear()} <a href="https://cntxtlabs.co/">Cntxt Labs</a></span><span>{ui.footerLine}</span></div></footer>;
 }
 
+/** The QR card plus the store button, exactly as the English pages show it. */
+function LocalizedDownloadCard({ locale }: { locale: LocaleCode }) {
+  return <div className="download-card"><div className="qr-image" style={{ "--qr": "url(/images/aussie-qr.png)" } as React.CSSProperties}/><StoreLink locale={locale}/></div>;
+}
+
 function StoreLink({ locale }: { locale: LocaleCode }) { const ui = getTranslation(locale); return <a className="store-button" href={APP_STORE_URL}><FaApple aria-hidden="true"/><span>{ui.download}</span></a>; }
 
 function LocalizedCard({ article, locale, priority = false }: { article: Article; locale: LocaleCode; priority?: boolean }) {
@@ -39,10 +45,12 @@ export function LocalizedHome({ locale }: { locale: LocaleCode }) {
   const reviews = [["Amélie D.",ui.review1Country,ui.review1Title,ui.review1Quote],["Michael K.",ui.review2Country,ui.review2Title,ui.review2Quote],["Priya S.",ui.review3Country,ui.review3Title,ui.review3Quote],["Lukas H.",ui.review4Country,ui.review4Title,ui.review4Quote],["Oliver P.",ui.review5Country,ui.review5Title,ui.review5Quote],["Ben T.",ui.review6Country,ui.review6Title,ui.review6Quote],["Sarah N.",ui.review7Country,ui.review7Title,ui.review7Quote],["Femke V.",ui.review8Country,ui.review8Title,ui.review8Quote],["Grace O.",ui.review9Country,ui.review9Title,ui.review9Quote]];
   const faqs = [[ui.faq1q,ui.faq1a],[ui.faq2q,ui.faq2a],[ui.faq3q,ui.faq3a],[ui.faq4q,ui.faq4a],[ui.faq5q,ui.faq5a],[ui.faq6q,ui.faq6a],[ui.faq7q,ui.faq7a],[ui.faq8q,ui.faq8a],[ui.faq9q,ui.faq9a],[ui.faq10q,ui.faq10a],[ui.faq11q,ui.faq11a]];
   const audiences = [[Binoculars,ui.audience1Title,ui.audience1Text],[Caravan,ui.audience2Title,ui.audience2Text],[Navigation,ui.audience3Title,ui.audience3Text],[TentTree,ui.audience4Title,ui.audience4Text]] as const;
+  // Localised pages carry the same structured data as English, with the FAQ in their own language.
+  const schema = homeSchema(ui.metaDescription, faqs as [string, string][]);
   return <>
     <LocalizedHeader locale={locale}/>
     <main>
-      <section className="hero"><div className="hero-glow"/><div className="hero-grid"><div className="hero-copy"><span className="kicker"><Caravan size={14}/> {ui.heroKicker}</span><h1>{ui.heroTitle}</h1><p>{ui.heroText}</p><div className="hero-actions"><div className="download-card"><div className="qr-image" style={{ "--qr": "url(/images/aussie-qr.png)" } as React.CSSProperties}/><StoreLink locale={locale}/></div><Button asChild variant="outline" size="lg" className="rounded-[14px]"><Link href={`${prefix(locale)}#features`}>{ui.seeHow}<ArrowRight/></Link></Button></div><div className="hero-proof"><span><strong>{ui.statPlaces}</strong><small>{ui.statPlacesLabel}</small></span><span><strong>{ui.statOffline}</strong><small>{ui.statOfflineLabel}</small></span><span><strong>{ui.statStays}</strong><small>{ui.statStaysLabel}</small></span></div></div><div className="hero-visual"><div className="image-slot hero-image-slot" style={{backgroundImage:"url(/images/aussie-hero.webp)"}}/></div></div></section>
+      <section className="hero"><div className="hero-glow"/><div className="hero-grid"><div className="hero-copy"><span className="kicker"><Caravan size={14}/> {ui.heroKicker}</span><h1>{ui.heroTitle}</h1><p>{ui.heroText}</p><div className="hero-actions"><LocalizedDownloadCard locale={locale}/><Button asChild variant="outline" size="lg" className="rounded-[14px]"><Link href={`${prefix(locale)}#features`}>{ui.seeHow}<ArrowRight/></Link></Button></div><div className="hero-proof"><span><strong>{ui.statPlaces}</strong><small>{ui.statPlacesLabel}</small></span><span><strong>{ui.statOffline}</strong><small>{ui.statOfflineLabel}</small></span><span><strong>{ui.statStays}</strong><small>{ui.statStaysLabel}</small></span></div></div><div className="hero-visual"><div className="image-slot hero-image-slot" style={{backgroundImage:"url(/images/aussie-hero.webp)"}}/></div></div></section>
 
       <section className="trust-strip"><p>{ui.trustLine}</p><div>{[TentTree,Caravan,Trees,Navigation,Map,CloudSun].map((Icon,i)=><span key={i}><Icon/>{[ui.trustCampsites,ui.trustCaravanParks,ui.trustNationalParks,ui.trustRestAreas,ui.trustUsefulStops,ui.trustExperiences][i]}</span>)}</div></section>
 
@@ -62,10 +70,11 @@ export function LocalizedHome({ locale }: { locale: LocaleCode }) {
 
       <section className="section faq-section"><div><p className="eyebrow">{ui.faqEyebrow}</p><h2>{ui.faqTitle}</h2><p>{ui.faqIntro}</p></div><div className="faq-list">{faqs.map(([question,answer],index)=><details key={question} open={index===0}><summary>{question}<span>+</span></summary><p>{answer}</p></details>)}</div></section>
 
-      <section className="download-section"><div className="download-image image-slot" style={{backgroundImage:"url(/images/aussie-download.webp)"}}/><div className="download-copy"><p className="eyebrow">{ui.downloadEyebrow}</p><h2>{ui.downloadTitle}</h2><p>{ui.downloadText}</p><StoreLink locale={locale}/></div></section>
+      <section className="download-section"><div className="download-image image-slot" style={{backgroundImage:"url(/images/aussie-download.webp)"}}/><div className="download-copy"><p className="eyebrow">{ui.downloadEyebrow}</p><h2>{ui.downloadTitle}</h2><p>{ui.downloadText}</p><LocalizedDownloadCard locale={locale}/></div></section>
     </main>
     <Button asChild className="mobile-cta"><a href={APP_STORE_URL}><FaApple aria-hidden="true"/><span>{ui.download}</span></a></Button>
     <LocalizedFooter locale={locale}/>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}}/>
   </>;
 }
 
@@ -82,7 +91,8 @@ export function LocalizedArticle({ locale, slug }: { locale: LocaleCode; slug: s
   if (!item) return null;
   const categoryLabel = localizedCategories(locale).find((entry) => entry.source === item.category)?.label ?? item.category;
   const related = list.filter((article) => article.slug !== slug && (article.category === item.category || article.region === item.region)).slice(0, 3);
-  return <><LocalizedHeader locale={locale}/><main><article className="article-page"><div className="article-breadcrumb"><Link href={prefix(locale,"/guides")}><ArrowLeft/>{ui.backToGuides}</Link><span>{categoryLabel}</span></div><header className="article-header"><p className="eyebrow">{categoryLabel} · {item.region}</p><h1>{item.title}</h1><p>{item.description}</p><div><span><Clock/>{item.readTime} {ui.minuteRead}</span><span><MapPin/>{item.places.length} {ui.places}</span></div></header><figure className="article-hero-image" style={{backgroundImage:`url(${item.image})`}} aria-label={item.imageAlt}><figcaption className="article-photo-credit"><a href="https://github.com/CristianRus4/aussiecamps-web/tree/main/docs">{ui.photoCredits}</a></figcaption></figure><div className="article-layout"><div className="article-body"><p className="article-intro">{item.intro}</p>
+  const schema = articleSchema({...item, category: categoryLabel}, `${SITE_URL}/${locale}/guides/${item.slug}`);
+  return <><LocalizedHeader locale={locale}/><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}}/><main><article className="article-page"><div className="article-breadcrumb"><Link href={prefix(locale,"/guides")}><ArrowLeft/>{ui.backToGuides}</Link><span>{categoryLabel}</span></div><header className="article-header"><p className="eyebrow">{categoryLabel} · {item.region}</p><h1>{item.title}</h1><p>{item.description}</p><div><span><Clock/>{item.readTime} {ui.minuteRead}</span><span><MapPin/>{item.places.length} {ui.places}</span></div></header><figure className="article-hero-image" style={{backgroundImage:`url(${item.image})`}} aria-label={item.imageAlt}><figcaption className="article-photo-credit"><a href="https://github.com/CristianRus4/aussiecamps-web/tree/main/docs">{ui.photoCredits}</a></figcaption></figure><div className="article-layout"><div className="article-body"><p className="article-intro">{item.intro}</p>
   {item.priceTable&&<section className="article-price-section"><span className="section-count">AUD</span><h2>{ui.priceTitle}</h2><p>{item.priceTable.note}</p><div className="price-table-meta"><strong>{ui.pricesChecked} {item.priceTable.asOf}</strong><span>{ui.conversionsUse} {exchangeRateDate}.</span></div><div className="price-table-wrap"><table className="price-table"><thead><tr><th>{ui.item}</th>{displayCurrencies.map((currency)=><th key={currency}>{currency}</th>)}</tr></thead><tbody>{item.priceTable.rows.map((row)=><tr key={row.label}><th><strong>{row.label}</strong>{row.unit&&<span>{row.unit}</span>}</th>{displayCurrencies.map((currency)=><td key={currency}>{formatAudRange(row.audLow,row.audHigh,currency)}</td>)}</tr>)}</tbody></table></div><p className="price-table-disclaimer">{ui.currencyDisclaimer}</p></section>}
   {item.sections.map((section,index)=><section key={section.heading}><span className="section-count">{String(index+1).padStart(2,"0")}</span><h2>{section.heading}</h2>{section.body.map((paragraph:string)=><p key={paragraph}>{paragraph}</p>)}{section.tips&&<div className="article-tips"><strong>{ui.keepInMind}</strong><ul>{section.tips.map((tip)=><li key={tip}>{tip}</li>)}</ul></div>}</section>)}<section><span className="section-count">MAP</span><h2>{ui.placesAlong}</h2><div className="place-chips">{item.places.map((place)=><span key={place}><MapPin/>{place}</span>)}</div></section>{item.sources&&<section className="sources"><h2>{ui.checkBefore}</h2><p>{ui.checkText}</p><ul>{item.sources.map((source)=><li key={source.url}><a href={source.url}>{source.label}<ArrowRight/></a></li>)}</ul></section>}<div className="article-end-cta"><div><p className="eyebrow">{ui.takeRoad}</p><h2>{ui.savePlanTitle}</h2><p>{ui.savePlanText}</p></div><StoreLink locale={locale}/></div></div></div></article><section className="related-section"><h2>{ui.related}</h2><div className="article-grid">{related.map((article)=><LocalizedCard article={article} locale={locale} key={article.slug}/>)}</div></section></main><LocalizedFooter locale={locale}/></>;
 }

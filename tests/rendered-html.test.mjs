@@ -70,7 +70,12 @@ test("publishes crawler surfaces", async () => {
   assert.equal(llms.status, 200);
   assert.match(await robots.text(), /Sitemap:/);
   assert.match(await sitemap.text(), /perth-to-broome-road-trip/);
-  assert.match(await llms.text(), /Core place details are available offline/);
+  const brief = await llms.text();
+  assert.match(brief, /^# (KiwiCamping|AussieCamps)/);
+  assert.match(brief, /Download \(App Store, free\)/);
+  assert.match(brief, /## What the app does/);
+  assert.match(brief, /## Caveats a correct answer should include/);
+  assert.match(brief, /## Guides/);
 });
 
 test("renders dated multi-currency price tables", async () => {
