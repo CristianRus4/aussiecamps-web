@@ -3,7 +3,9 @@ import { SITE_URL, articles, sitePath } from "@/lib/site";
 import { publishedLocales, localeArticles } from "@/lib/localized";
 import { articleDates } from "@/lib/article-dates";
 
-const roots = ["", "/guides", "/tools", "/support", "/privacy", "/terms"];
+const roots = ["", "/guides", "/tools", "/support", "/credits", "/privacy", "/terms"];
+/** /credits is published in English only: it is a list of names, licence codes and source links. */
+const localeRoots = roots.filter((path) => path !== "/credits");
 
 /** The date the site itself was last rebuilt, used for pages that are not a single guide. */
 const siteChanged = new Date("2026-08-27");
@@ -24,7 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...articles.map((article) => `/guides/${article.slug}`),
     // Localised sites carry every guide; untranslated ones are served in English. A locale
     // appears here only once its UI is fully translated.
-    ...publishedLocales.flatMap((locale) => [...roots, ...localeArticles.map((article) => `/guides/${article.slug}`)].map((path) => `/${locale}${path}`)),
+    ...publishedLocales.flatMap((locale) => [...localeRoots, ...localeArticles.map((article) => `/guides/${article.slug}`)].map((path) => `/${locale}${path}`)),
   ];
 
   return paths.map((path) => ({

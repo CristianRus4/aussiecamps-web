@@ -12,7 +12,7 @@ const siteName = "AussieCamps";
 const basePath = (process.env.PAGES_BASE_PATH ?? "").replace(/\/$/, "");
 const sources = await Promise.all(["lib/site.ts", "lib/expanded-articles.ts"].map((path) => readFile(resolve(root, path), "utf8")));
 const slugs = sources.flatMap((source) => [...source.matchAll(/slug:\s*"([^"]+)"/g)].map((match) => match[1]));
-const pageRoutes = ["/guides", ...slugs.map((slug) => `/guides/${slug}`), "/tools", "/support", "/privacy", "/terms"];
+const pageRoutes = ["/guides", ...slugs.map((slug) => `/guides/${slug}`), "/tools", "/support", "/credits", "/privacy", "/terms"];
 // Every locale exports every guide; ones it has not translated are served in English.
 const localeRoutes = ["de", "es", "fr", "it", "nl", "pt"].flatMap((locale) => ["", "/guides", ...slugs.map((slug) => `/guides/${slug}`), "/tools", "/support", "/privacy", "/terms"].map((route) => `/${locale}${route}`));
 const htmlRoutes = ["/", ...pageRoutes, ...localeRoutes];

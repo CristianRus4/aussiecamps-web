@@ -34,7 +34,7 @@ export function GuideArticle({ item }: { item: Article }) {
         </header>
         <figure className="article-hero-image">
           <CoverImage src={item.image} alt={item.imageAlt} priority sizes="(max-width: 1180px) 100vw, 1120px" />
-          <figcaption className="article-photo-credit"><a href="https://github.com/CristianRus4/aussiecamps-web/tree/main/docs">Photo credits</a></figcaption>
+          <figcaption className="article-photo-credit"><Link href={`/credits/#${item.slug}`}>Photo credits</Link></figcaption>
         </figure>
         <div className="article-layout">
           <div className="article-body">
