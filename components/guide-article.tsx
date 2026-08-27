@@ -4,6 +4,7 @@ import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { DownloadCard } from "@/components/download-card";
 import { ArticleCard } from "@/components/article-card";
+import { CoverImage } from "@/components/site-image";
 import { SITE_URL, articles, type Article } from "@/lib/site";
 import { articleSchema } from "@/lib/seo";
 import { displayCurrencies, exchangeRateDate, formatAudRange } from "@/lib/currency";
@@ -16,14 +17,15 @@ export function GuideArticle({ item }: { item: Article }) {
     <Header />
     <main>
       <article className="article-page">
-        <div className="article-breadcrumb"><Link href="/guides"><ArrowLeft />Guides</Link><span>{item.category}</span></div>
+        <div className="article-breadcrumb"><Link href="/guides/"><ArrowLeft />Guides</Link><span>{item.category}</span></div>
         <header className="article-header">
           <p className="eyebrow">{item.category} · {item.region}</p>
           <h1>{item.title}</h1>
           <p>{item.description}</p>
           <div><span><Clock />{item.readTime} minute read</span><span><MapPin />{item.places.length} places</span></div>
         </header>
-        <figure className="article-hero-image" style={{ backgroundImage: `url(${item.image})` }} aria-label={item.imageAlt}>
+        <figure className="article-hero-image">
+          <CoverImage src={item.image} alt={item.imageAlt} priority sizes="(max-width: 1180px) 100vw, 1120px" />
           <figcaption className="article-photo-credit"><a href="https://github.com/CristianRus4/aussiecamps-web/tree/main/docs">Photo credits</a></figcaption>
         </figure>
         <div className="article-layout">

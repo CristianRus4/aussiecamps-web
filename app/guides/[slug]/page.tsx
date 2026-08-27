@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: item.title,
     description: item.description,
-    alternates: { canonical: `/guides/${item.slug}`, languages: seoLanguageTags(`/guides/${item.slug}`) },
+    alternates: { canonical: `/guides/${item.slug}/`, languages: seoLanguageTags(`/guides/${item.slug}`) },
     openGraph: {
       type: "article",
       siteName: "AussieCamps",

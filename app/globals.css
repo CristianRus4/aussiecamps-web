@@ -75,7 +75,11 @@ em { color: inherit; font: inherit; font-style: normal; }
 .hero-proof strong { font-size: 22px; }
 .hero-proof small { color: var(--muted); font-size: 11px; }
 .hero-visual { min-height: 620px; display: grid; place-items: center; }
-.image-slot { background: transparent center / cover no-repeat; }
+/* Images are real <img> elements, not backgrounds. `.image-slot` centres a device screenshot at
+   90% of the slot height; `.cover-image` reproduces `background-size: cover`. */
+.image-slot { display: grid; place-items: center; overflow: hidden; }
+.image-slot > img { width: auto; height: 90%; max-width: 100%; object-fit: contain; }
+.cover-image { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .hero-image-slot { width: min(100%, 490px); aspect-ratio: 1010 / 1515; border-radius: 10px; }
 .store-button { min-width: 190px; height: 48px; padding: 0 14px; border-radius: 14px; background: var(--store-button-bg); color: var(--store-button-fg); display: inline-flex; align-items: center; justify-content: center; gap: 8px; font-size: 13px; font-weight: 700; letter-spacing: -0.01em; line-height: 1; white-space: nowrap; transition: background 180ms ease; }
 .store-button:hover { background: var(--store-button-hover); }
@@ -137,8 +141,11 @@ em { color: inherit; font: inherit; font-style: normal; }
 .article-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
 .article-card { overflow: hidden; border: 1px solid rgba(30,43,24,0.14); border-radius: 6px; background: var(--paper); display: block; transition: transform 0.2s ease, box-shadow 0.2s ease; }
 .article-card:hover { transform: translateY(-5px); box-shadow: 0 22px 42px rgba(29,44,20,0.1); }
-.article-image { height: 235px; background: transparent center / cover no-repeat; position: relative; }
-.article-image > span { position: absolute; top: 14px; left: 14px; padding: 5px 8px; border-radius: 3px; background: rgba(255,255,255,0.94); color: #172012; font-size: 9px; font-weight: 850; letter-spacing: 0.08em; text-transform: uppercase; }
+.article-image { height: 235px; position: relative; overflow: hidden; }
+/* The card's darkening gradient used to ride on the background shorthand; with a real <img> it
+   becomes its own layer, sitting above the photo and below the category badge. */
+.article-image::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 35%, rgba(16,26,13,.45)); }
+.article-image > span { position: absolute; z-index: 2; top: 14px; left: 14px; padding: 5px 8px; border-radius: 3px; background: rgba(255,255,255,0.94); color: #172012; font-size: 9px; font-weight: 850; letter-spacing: 0.08em; text-transform: uppercase; }
 .article-card-copy { padding: 22px; }
 .article-card-copy .eyebrow { font-size: 9px; }
 .article-card h3 { margin: 10px 0; font-size: 21px; letter-spacing: -0.015em; line-height: 1.24; }
@@ -241,8 +248,8 @@ em { color: inherit; font: inherit; font-style: normal; }
 .article-header > div { margin-top: 24px; display: flex; justify-content: center; gap: 22px; color: var(--muted); font-size: 11px; }
 .article-header > div span { display: flex; align-items: center; gap: 6px; }
 .article-header svg { width: 14px; }
-.article-hero-image { height: 610px; margin-top: 0; margin-bottom: 0; border-radius: 8px; background: transparent center / cover no-repeat; overflow: hidden; position: relative; }
-.article-photo-credit { position: absolute; right: 12px; bottom: 10px; margin: 0; }
+.article-hero-image { height: 610px; margin-top: 0; margin-bottom: 0; border-radius: 8px; overflow: hidden; position: relative; }
+.article-photo-credit { position: absolute; z-index: 2; right: 12px; bottom: 10px; margin: 0; }
 .article-photo-credit a { padding: 0; border: 0; background: transparent; color: rgba(0,0,0,0.3); font-size: 10px; font-weight: 700; line-height: 1; text-decoration: none; }
 .article-layout { padding: 75px 0 120px; display: grid; grid-template-columns: minmax(0, 720px) 300px; gap: 78px; }
 .article-intro { color: #34412d; font-size: 25px; line-height: 1.45; }

@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { SITE_URL, articles } from "@/lib/site";
+import { SITE_URL, articles , sitePath} from "@/lib/site";
 import { publishedLocales, localeArticles } from "@/lib/localized";
 
 const roots = ["", "/guides", "/tools", "/support", "/privacy", "/terms"];
@@ -15,7 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   return paths.map((path) => ({
-    url: `${SITE_URL}${path}`,
+    url: `${SITE_URL}${sitePath(path)}`,
     lastModified: now,
     changeFrequency: path === "" ? "weekly" as const : "monthly" as const,
     priority: path === "" ? 1 : path.includes("/guides/") ? 0.75 : 0.7,

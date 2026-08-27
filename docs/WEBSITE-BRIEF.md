@@ -134,4 +134,17 @@ Each page has its own title, description, local image filename, introduction, to
 
 ## App Store handoff
 
-The temporary App Store link uses the txtpod product URL requested for the client preview. At launch, replace only `APP_STORE_URL` in `lib/site.ts` and generate a matching QR at `public/images/aussie-qr.webp`.
+Every store link derives from one constant, `APP_ID` in `lib/site.ts`, which is the identifier
+AussieCamps is published under (`6801098680`). It feeds `APP_STORE_URL`, the `apple-itunes-app`
+smart app banner, the schema `installUrl`/`downloadUrl` and the `/download` redirect.
+
+`APP_STORE_URL` is storefront-neutral (`apps.apple.com/app/id<APP_ID>`) so Apple sends each visitor
+to their own country's listing. Once the listing is live, it can be swapped for the canonical URL
+with the product slug in it to save a redirect hop.
+
+`public/images/aussie-qr.png` encodes `APP_STORE_URL` and is regenerated whenever that changes.
+
+The homepage screenshots (`aussie-hero`, `aussie-feature-1/2/3`, `aussie-download`, `aussie-og`) are
+placeholders taken from the KiwiCamping app, so they show New Zealand places. Their alt text already
+describes AussieCamps; replace the files with Australian captures and the alt text stays correct.
+After replacing any image, run `npm run images:manifest`.

@@ -1,5 +1,27 @@
 export const SITE_URL = "https://aussiecamps.app";
-export const APP_STORE_URL = "https://apps.apple.com/us/app/txtpod-text-to-speech-podcast/id6748379680";
+/** The App Store identifier AussieCamps is published under. Every store link, the smart app banner,
+ * the QR card and the schema install URLs derive from this one constant. */
+export const APP_ID = "6801098680";
+/** Storefront-neutral so Apple sends each visitor to their own country's listing. */
+export const APP_STORE_URL = `https://apps.apple.com/app/id${APP_ID}`;
+/**
+ * The final URL for a site path.
+ *
+ * The host serves every directory route with a trailing slash and 301s the slash-less form, so
+ * `/guides` costs a redirect on every visit. Worse, it makes every canonical, hreflang tag and
+ * sitemap entry name a URL that redirects rather than the one that answers. Canonicals, alternates,
+ * sitemap entries and internal links all go through here so they name the served URL directly.
+ *
+ * Articles published at an existing `.html` URL are real files, not directories, and keep their
+ * exact published path.
+ */
+export function sitePath(path: string): string {
+  if (!path || path === "/") return "/";
+  const [base, hash] = path.split("#");
+  if (base.endsWith("/") || /\.[a-z0-9]+$/i.test(base)) return path;
+  return `${base}/${hash ? `#${hash}` : ""}`;
+}
+
 export const SUPPORT_EMAIL = "support@cntxtlabs.co";
 export const SUPPORT_MAILTO = `mailto:${SUPPORT_EMAIL}?subject=AussieCamps%20web%20contact`;
 

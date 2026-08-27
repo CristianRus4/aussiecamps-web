@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
-import { SITE_URL } from "@/lib/site";
+import { APP_ID, SITE_URL } from "@/lib/site";
 import { localeCodes } from "@/lib/localized";
 import { ogLocale, seoLanguageTags } from "@/lib/seo";
 
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   manifest: "/site.webmanifest",
-  other: { "apple-itunes-app": "app-id=6748379680" },
+  other: { "apple-itunes-app": `app-id=${APP_ID}` },
 };
 
 export const viewport: Viewport = {

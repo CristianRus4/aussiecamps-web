@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { SITE_URL } from "@/lib/site";
+import { SITE_URL , sitePath} from "@/lib/site";
 import { LocalizedArticle, LocalizedGuides, LocalizedHome, LocalizedInformationPage, LocalizedTools } from "@/components/localized-site";
 import { getTranslation, isLocale, isTranslated, localeCodes, localizedArticles } from "@/lib/localized";
 import { defaultOgLocale, ogLocale, seoLanguageTags } from "@/lib/seo";
@@ -49,7 +49,7 @@ export async function generateMetadata({params}:{params:Promise<{locale:string;p
     title: path.length ? title : { absolute: title },
     description,
     keywords:ui.metaKeywords.split(", "),
-    alternates:{canonical:`/${locale}${suffix}`,languages:indexable?seoLanguageTags(suffix):undefined},
+    alternates:{canonical:sitePath(`/${locale}${suffix}`),languages:indexable?seoLanguageTags(suffix):undefined},
     openGraph:{
       type:article?"article":"website",
       siteName:"AussieCamps",

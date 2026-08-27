@@ -1,4 +1,4 @@
-import { APP_STORE_URL, SITE_URL } from "@/lib/site";
+import { APP_ID, APP_STORE_URL, SITE_URL, sitePath } from "@/lib/site";
 import { localeCodes, type LocaleCode } from "@/lib/localized";
 
 /** The BCP 47 tag each locale directory is published under. */
@@ -15,15 +15,15 @@ export const defaultOgLocale = "en_AU";
  * place rather than written per page.
  */
 export function seoLanguageTags(path: string): Record<string, string> {
-  const english = path || "/";
+  const english = sitePath(path);
   return {
     [defaultHreflang]: english,
-    ...Object.fromEntries(localeCodes.map((code) => [hreflang[code], `/${code}${path}`])),
+    ...Object.fromEntries(localeCodes.map((code) => [hreflang[code], sitePath(`/${code}${path}`)])),
     "x-default": english,
   };
 }
 
-export const APP_ID = "6748379680";
+export { APP_ID };
 const LOGO = `${SITE_URL}/images/aussiecamps-app-icon.png`;
 const SCREENSHOT = `${SITE_URL}/images/aussie-hero.webp`;
 

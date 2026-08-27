@@ -11,9 +11,9 @@ export function Header() {
         <Link href="/" className="brand-link"><BrandMark /></Link>
         <nav className="desktop-nav" aria-label="Main navigation">
           <Link href="/#features">Features</Link>
-          <Link href="/guides">Guides</Link>
-          <Link href="/tools">Tools</Link>
-          <Link href="/support">Support</Link>
+          <Link href="/guides/">Guides</Link>
+          <Link href="/tools/">Tools</Link>
+          <Link href="/support/">Support</Link>
         </nav>
         <Button asChild size="sm" className="desktop-download"><a href={APP_STORE_URL}>Download app</a></Button>
         <Button asChild size="sm" className="mobile-download"><a href={APP_STORE_URL}>Download</a></Button>
@@ -21,9 +21,9 @@ export function Header() {
           <summary aria-label="Open menu"><Menu size={22} /></summary>
           <nav aria-label="Mobile navigation">
             <Link href="/#features">Features</Link>
-            <Link href="/guides">Guides</Link>
-            <Link href="/tools">Tools</Link>
-            <Link href="/support">Support</Link>
+            <Link href="/guides/">Guides</Link>
+            <Link href="/tools/">Tools</Link>
+            <Link href="/support/">Support</Link>
             <a href={APP_STORE_URL}>Download app</a>
           </nav>
         </details>

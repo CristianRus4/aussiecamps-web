@@ -13,6 +13,7 @@
     "test": "node --test tests/rendered-html.test.mjs",
     "check": "npm run content:check && npm run build && npm test && npm run similarity:check && npm run assets:check",
     "content:check": "tsx scripts/audit-content.mjs",
+    "images:manifest": "node scripts/build-image-manifest.mjs",
     "translations:source": "tsx scripts/build-translation-source.mjs",
     "assets:check": "node scripts/check-assets.mjs",
     "similarity:check": "node scripts/audit-article-similarity.mjs",

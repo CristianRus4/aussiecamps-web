@@ -6,6 +6,7 @@ import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { DownloadCard } from "@/components/download-card";
 import { ArticleCard } from "@/components/article-card";
+import { ScreenshotImage } from "@/components/site-image";
 import { Button } from "@/components/ui/button";
 import { APP_STORE_URL, articles } from "@/lib/site";
 import { homeSchema, seoLanguageTags } from "@/lib/seo";
@@ -67,7 +68,8 @@ export default function Home() {
             <div className="hero-proof"><span><strong>74,000+</strong><small>places across Australia</small></span><span><strong>Offline</strong><small>every place detail, no signal needed</small></span><span><strong>4,000+</strong><small>places to stay</small></span></div>
           </div>
           <div className="hero-visual">
-            <div className="image-slot hero-image-slot" style={{backgroundImage:"url(/images/aussie-hero.webp)"}} role="img" aria-label="AussieCamps map screen" />
+            <ScreenshotImage className="hero-image-slot" src="/images/aussie-hero.webp" priority sizes="(max-width: 700px) 215px, 320px"
+              alt="The AussieCamps map for Australia, with campground, caravan park and free camp pins across the coast and the Explore list of nearby places below" />
           </div>
         </div>
       </section>
@@ -87,18 +89,24 @@ export default function Home() {
         <div className="feature-intro"><p className="eyebrow">The full toolkit</p><h2>Find it. Save it.<br/>Plan the whole road ahead.</h2><p>Explore places, compare the details, organise favourites and build a trip that stays useful after the planning table.</p></div>
         <div className="feature-showcase">
           <div className="feature-copy-large"><div className="icon-tile"><MapPinned/></div><p className="eyebrow">Know the place before you get there</p><h3>Every place opens with the detail that decides it.</h3><p>Photos, a real description, opening hours, fees, terms and conditions, amenities and features grouped by type, current alerts, ratings, contact and booking details, the weather, and Street View to see the entrance from the road.</p><ul><li><Check/>Photos, hours, fees, conditions and amenities</li><li><Check/>Street View, weather and directions built in</li><li><Check/>Bundled offline, it opens with no signal</li></ul></div>
-          <div className="product-images"><div className="image-slot product-shot product-shot-one" style={{backgroundImage:"url(/images/aussie-feature-1.webp)"}} role="img" aria-label="AussieCamps explore screen"/><div className="image-slot product-shot product-shot-two" style={{backgroundImage:"url(/images/aussie-feature-2.webp)"}} role="img" aria-label="AussieCamps place details screen"/></div>
+          <div className="product-images">
+            <ScreenshotImage className="product-shot product-shot-one" src="/images/aussie-feature-1.webp" sizes="(max-width: 700px) 150px, 185px"
+              alt="An AussieCamps place screen for a coastal campground, showing the fee, opening status, amenities and a booking link" />
+            <ScreenshotImage className="product-shot product-shot-two" src="/images/aussie-feature-2.webp" sizes="185px"
+              alt="The AussieCamps collections screen with Want to visit, Visited, Pins and All saved lists over a satellite map" />
+          </div>
         </div>
         <div className="feature-grid">{features.map(({icon:Icon,title,text})=><article key={title}><Icon/><h3>{title}</h3><p>{text}</p></article>)}</div>
       </section>
 
       <section className="section itinerary-section">
-        <div className="itinerary-image image-slot" style={{backgroundImage:"url(/images/aussie-feature-3.webp)"}} role="img" aria-label="AussieCamps trip planner screen"/>
+        <ScreenshotImage className="itinerary-image" src="/images/aussie-feature-3.webp" sizes="(max-width: 700px) 200px, 285px"
+          alt="An AussieCamps road trip itinerary listing seven stops with driving distance, dates and the weather at each campground" />
         <div className="itinerary-copy"><p className="eyebrow">The main event</p><h2>Stop by stop.<br/>Day by <em>day.</em></h2><p>The trip planner is what everything else feeds. Add saved places as stops and drag them into the order you will actually drive. Every leg shows its distance, directions open to the next one, each stop carries its own date, arrival notes and weather, and you tick them off as visited while you travel. Nearby alternatives stay attached for the days that change, the packing list sits beside the itinerary, and the whole thing can sync to Calendar.</p><div className="metric-grid"><div><Route/><strong>Distance & directions</strong><small>leg by leg, and the whole trip</small></div><div><CalendarDays/><strong>Dates & notes</strong><small>attached to every stop</small></div><div><ListChecks/><strong>Visited & to-dos</strong><small>progress you can see</small></div><div><CloudSun/><strong>Weather per stop</strong><small>beside the itinerary</small></div></div></div>
       </section>
 
       <section className="section guide-preview">
-        <div className="guide-preview-head"><div><p className="eyebrow">Routes worth taking slowly</p><h2>Take the coast.<br/><em>Cross the red dirt.</em></h2></div><div><p>Choose a direction, save the camps that fit and turn the strongest stops into a route of your own.</p><Link href="/guides" className="text-link">Explore road trips <ArrowRight/></Link></div></div>
+        <div className="guide-preview-head"><div><p className="eyebrow">Routes worth taking slowly</p><h2>Take the coast.<br/><em>Cross the red dirt.</em></h2></div><div><p>Choose a direction, save the camps that fit and turn the strongest stops into a route of your own.</p><Link href="/guides/" className="text-link">Explore road trips <ArrowRight/></Link></div></div>
         <div className="article-grid guide-preview-grid">{articles.filter(a=>a.category==="Road trips").slice(0,5).map((a,i)=><ArticleCard article={a} priority={i===0} key={a.slug}/>)}</div>
       </section>
 
@@ -111,9 +119,10 @@ export default function Home() {
 
       <section className="principles"><div><ShieldCheck/><h2>Useful first.<br/>Honest always.</h2></div><div className="principle-list"><article><div><h3>Signs beat screens</h3><p>On-site notices, land managers and current emergency advice always take priority over a listing.</p></div></article><article><div><h3>Current checks matter</h3><p>Check the latest booking, road, fire and closure updates before departure.</p></div></article><article><div><h3>Leave places better</h3><p>Legal camping, thoughtful waste disposal and respect for Country keep these places open.</p></div></article></div></section>
 
-      <section className="section faq-section"><div><p className="eyebrow">A few straight answers</p><h2>Good questions.<br/><em>Clear answers.</em></h2><p>Still stuck? <Link href="/support">Visit support</Link> or send us a note.</p></div><div className="faq-list">{faqs.map(([q,a],i)=><details key={q} open={i===0}><summary>{q}<span>+</span></summary><p>{a}</p></details>)}</div></section>
+      <section className="section faq-section"><div><p className="eyebrow">A few straight answers</p><h2>Good questions.<br/><em>Clear answers.</em></h2><p>Still stuck? <Link href="/support/">Visit support</Link> or send us a note.</p></div><div className="faq-list">{faqs.map(([q,a],i)=><details key={q} open={i===0}><summary>{q}<span>+</span></summary><p>{a}</p></details>)}</div></section>
 
-      <section className="download-section"><div className="download-image image-slot" style={{backgroundImage:"url(/images/aussie-download.webp)"}} role="img" aria-label="AussieCamps app screen"/><div className="download-copy"><p className="eyebrow">Your next place is out there</p><h2>Find it. Save it.<br/><em>Plan the road ahead.</em></h2><p>74,000+ Australian places offline, filters sharp enough to find the exact one, collections that organise themselves and a trip planner that holds the whole route. AussieCamps for iOS.</p><DownloadCard/></div></section>
+      <section className="download-section"><ScreenshotImage className="download-image" src="/images/aussie-download.webp" sizes="(max-width: 700px) 210px, 300px"
+          alt="The AussieCamps Explore list showing campgrounds and caravan parks with their distance from the current map view" /><div className="download-copy"><p className="eyebrow">Your next place is out there</p><h2>Find it. Save it.<br/><em>Plan the road ahead.</em></h2><p>74,000+ Australian places offline, filters sharp enough to find the exact one, collections that organise themselves and a trip planner that holds the whole route. AussieCamps for iOS.</p><DownloadCard/></div></section>
     </main>
     <Button asChild className="mobile-cta"><a href={APP_STORE_URL} aria-label="Download AussieCamps for iOS"><FaApple aria-hidden="true"/><span>Download</span></a></Button>
     <Footer />
