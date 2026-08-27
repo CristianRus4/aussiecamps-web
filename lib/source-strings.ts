@@ -27,6 +27,11 @@ export const uiStrings = {
 
   /* Alt text for the app screenshots. Real <img> elements need real alt text, and a German page
      describing its screenshots in English helps neither a reader nor an image search. */
+  /** Prefix for the visible "Updated <date>" line in a guide header. */
+  updated: "Updated",
+  /** Heading above a guide's own two-question FAQ. */
+  commonQuestions: "Common questions",
+
   altHero: "The AussieCamps map for Australia, with campground, caravan park and free camp pins across the coast and the Explore list of nearby places below",
   altPlaceScreen: "An AussieCamps place screen for a coastal campground, showing the fee, opening status, amenities and a booking link",
   altCollectionsScreen: "The AussieCamps collections screen with Want to visit, Visited, Pins and All saved lists over a satellite map",

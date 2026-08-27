@@ -28,7 +28,7 @@ export const localeCategories = categories;
 type TranslatedSection = { heading?: string; body?: string[]; tips?: string[] };
 type TranslatedArticle = {
   title?: string; description?: string; category?: string; region?: string; imageAlt?: string; intro?: string;
-  sections?: TranslatedSection[]; sources?: { label?: string }[];
+  sections?: TranslatedSection[]; sources?: { label?: string }[]; faq?: [string, string][];
   priceTable?: null | { note?: string; rows?: { label?: string; unit?: string }[] };
 };
 type TranslationFile = {
@@ -68,6 +68,8 @@ function isArticleComplete(article: Article, item: TranslatedArticle | undefined
     return (translated.tips?.length ?? 0) === tips.length && (translated.tips ?? []).every(filled);
   });
   if (!sectionsMatch) return false;
+  const faq = article.faq ?? [];
+  if ((item.faq?.length ?? 0) !== faq.length || !(item.faq ?? []).every((pair) => pair.every(filled))) return false;
   const sources = article.sources ?? [];
   if ((item.sources?.length ?? 0) !== sources.length || !(item.sources ?? []).every((source) => filled(source.label))) return false;
   if (!article.priceTable) return true;
@@ -150,6 +152,7 @@ export function localizedArticles(locale: LocaleCode): Article[] {
         body: item!.sections![index].body!,
         tips: section.tips ? item!.sections![index].tips : undefined,
       })),
+      faq: article.faq?.map((_, index) => item!.faq![index]),
       sources: article.sources?.map((source, index) => ({ ...source, label: item!.sources![index].label! })),
       priceTable: article.priceTable ? {
         ...article.priceTable,

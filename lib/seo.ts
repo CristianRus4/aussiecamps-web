@@ -1,4 +1,5 @@
 import { APP_ID, APP_STORE_URL, SITE_URL, sitePath } from "@/lib/site";
+import { articleDates } from "@/lib/article-dates";
 import { localeCodes, type LocaleCode } from "@/lib/localized";
 
 /** The BCP 47 tag each locale directory is published under. */
@@ -25,7 +26,7 @@ export function seoLanguageTags(path: string): Record<string, string> {
 
 export { APP_ID };
 const LOGO = `${SITE_URL}/images/aussiecamps-app-icon.png`;
-const SCREENSHOT = `${SITE_URL}/images/aussie-hero.webp`;
+const SCREENSHOT = `${SITE_URL}/images/aussie-og.webp`;
 
 const organization = {
   "@type": "Organization",
@@ -97,7 +98,7 @@ export function homeSchema(description: string, faqs: readonly (readonly [string
 }
 
 /** A guide, with the breadcrumb Google needs to show the trail under the result. */
-export function articleSchema(item: { slug: string; title: string; description: string; image: string; imageAlt: string; places: string[]; category: string }, url: string) {
+export function articleSchema(item: { slug: string; title: string; description: string; image: string; imageAlt: string; places: string[]; category: string; faq?: readonly (readonly [string, string])[]; sections?: { heading: string; body: string[] }[] }, url: string) {
   return {
     "@context": "https://schema.org",
     "@graph": [
@@ -110,10 +111,34 @@ export function articleSchema(item: { slug: string; title: string; description: 
         author: { "@id": `${SITE_URL}/#organization` },
         publisher: { "@id": `${SITE_URL}/#organization` },
         mainEntityOfPage: url,
+        // From git history, not hand-typed: see scripts/build-article-dates.mjs.
+        ...(articleDates(item.slug) && { datePublished: articleDates(item.slug).published, dateModified: articleDates(item.slug).modified }),
         about: item.places,
         articleSection: item.category,
         isPartOf: { "@id": `${SITE_URL}/#website` },
       },
+      // The guide's own two questions. The same array renders the visible FAQ below the article, so
+      // the markup can never say something the page does not.
+      ...(item.faq?.length ? [{
+        "@type": "FAQPage",
+        "@id": `${url}#faq`,
+        mainEntity: item.faq.map(([question, answer]) => ({ "@type": "Question", name: question, acceptedAnswer: { "@type": "Answer", text: answer } })),
+      }] : []),
+      // An app guide teaches a task in the app, so its sections are genuinely steps. Route and
+      // rules guides are not tasks and get no HowTo.
+      ...(item.category === "App guides" && item.sections?.length ? [{
+        "@type": "HowTo",
+        "@id": `${url}#howto`,
+        name: item.title,
+        description: item.description,
+        step: item.sections.map((section, index) => ({
+          "@type": "HowToStep",
+          position: index + 1,
+          name: section.heading,
+          text: section.body[0],
+          url: `${url}#step-${index + 1}`,
+        })),
+      }] : []),
       {
         "@type": "BreadcrumbList",
         itemListElement: [

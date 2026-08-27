@@ -25,6 +25,7 @@ const forTranslation = (article) => ({
   imageAlt: article.imageAlt,
   intro: article.intro,
   sections: article.sections.map((part) => ({ heading: part.heading, body: part.body, tips: part.tips ?? [] })),
+  faq: (article.faq ?? []).map(([question, answer]) => [question, answer]),
   sources: (article.sources ?? []).map((source) => ({ label: source.label })),
   priceTable: article.priceTable ? { note: article.priceTable.note, rows: article.priceTable.rows.map((row) => ({ label: row.label, unit: row.unit ?? "" })) } : null,
 });
