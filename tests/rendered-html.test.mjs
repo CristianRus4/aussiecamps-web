@@ -33,6 +33,7 @@ test("renders an article with unique travel content and app CTA", async () => {
   const html = await response.text();
   assert.match(html, /White dunes, coral reefs, red gorges/);
   assert.match(html, /Ningaloo and Karijini/);
+  assert.match(html, /property="og:url" content="https:\/\/aussiecamps\.app\/guides\/perth-to-broome-road-trip\/"/);
   const body = html.match(/<div class="article-body">([\s\S]*?)<\/div>\s*<aside/)?.[1] ?? "";
   assert.ok((body.match(/<p[ >]/g) ?? []).length >= 5, "Guide must render substantial prose");
   // Every heading must carry its own prose rather than pushing it into one undifferentiated blob.
@@ -149,5 +150,8 @@ test("a published locale translates the whole interface", async () => {
     const html = await (await fetchPage(`/${locale}`)).text();
     assert.match(html, published ? /name="robots" content="index/ : /name="robots" content="noindex/, `${locale} robots meta must match its translation state`);
     if (published) for (const phrase of englishStrings) assert.ok(!html.includes(phrase), `${locale} leaked English chrome: ${phrase}`);
+    const guide = await (await fetchPage(`/${locale}/guides/australia-grocery-prices-2026`)).text();
+    assert.match(guide, /name="robots" content="noindex, follow"/, `${locale} untranslated guide must be noindex`);
+    assert.ok(!sitemap.includes(`/${locale}/guides/australia-grocery-prices-2026/`), `${locale} untranslated guide must stay out of the sitemap`);
   }
 });

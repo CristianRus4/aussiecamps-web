@@ -48,8 +48,9 @@ So a translation counts only when it is **complete and structurally identical** 
 translates: same number of sections, same number of paragraphs and tips in each, every one filled
 in. Anything short of that is treated as absent:
 
-- an incomplete guide is served **whole, in English**, at its localised URL. Every guide is
-  available in every language; the ones not yet translated simply read in English
+- an incomplete guide is served **whole, in English**, at its localised URL for visitors, but is
+  marked `noindex` and kept out of `sitemap.xml` until translated. Every guide is available in
+  every language; the ones not yet translated simply read in English
 - an incomplete support/privacy/terms page renders in English
 - a locale with an incomplete UI is not published at all (see below)
 
@@ -68,6 +69,10 @@ names the guide, so it cannot go unnoticed. Re-run `npm run translations:source`
 
 A locale is published once **every** UI string is translated. A partial UI would put a translated
 hero above an English FAQ, which is the same defect as a half-translated guide.
+
+That makes the locale shell indexable. Each guide still has its own gate: a complete article
+translation is required before that localised guide gets a self-canonical, `index` robots tag and a
+sitemap entry.
 
 Until then its pages still build and render — wholly in English — but they are marked `noindex`,
 kept out of `sitemap.xml` and hidden from the footer language switcher, so an untranslated scaffold

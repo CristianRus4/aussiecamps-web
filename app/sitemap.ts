@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL, articles, sitePath } from "@/lib/site";
-import { publishedLocales, localeArticles } from "@/lib/localized";
+import { fullyTranslatedSlugs, publishedLocales } from "@/lib/localized";
 import { articleDates } from "@/lib/article-dates";
 
 const roots = ["", "/guides", "/tools", "/support", "/credits", "/privacy", "/terms"];
@@ -24,9 +24,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const paths = [
     ...roots,
     ...articles.map((article) => `/guides/${article.slug}`),
-    // Localised sites carry every guide; untranslated ones are served in English. A locale
-    // appears here only once its UI is fully translated.
-    ...publishedLocales.flatMap((locale) => [...localeRoots, ...localeArticles.map((article) => `/guides/${article.slug}`)].map((path) => `/${locale}${path}`)),
+    // Localised sites carry every guide for visitors, but only complete translations enter search.
+    ...publishedLocales.flatMap((locale) => [...localeRoots, ...fullyTranslatedSlugs(locale).map((slug) => `/guides/${slug}`)].map((path) => `/${locale}${path}`)),
   ];
 
   return paths.map((path) => ({

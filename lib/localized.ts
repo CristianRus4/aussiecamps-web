@@ -91,16 +91,20 @@ function isPageComplete(kind: StaticPageKind, page: StaticPage | undefined): boo
 
 /**
  * A locale is published only when **every** UI string is translated. A partial UI would put a German
- * hero above an English FAQ, which is the same defect as a half-translated guide. Until then its
- * pages still build and render — wholly in English — but they stay out of the sitemap, out of the
- * footer language switcher and are marked noindex, so an untranslated scaffold never competes with
- * the English site. Filling lib/translations/<code>.json in is the only switch there is.
+ * hero above an English FAQ. Guides have a separate per-article indexability check below, so a
+ * translated UI never makes an untranslated English article compete with the English site.
  */
 export const isTranslated = (locale: LocaleCode) => {
   const overrides = files[locale].ui ?? {};
   return Object.keys(uiStrings).every((key) => filled(overrides[key as keyof UiStrings]));
 };
 export const publishedLocales = localeCodes.filter(isTranslated);
+
+/** A localised guide is indexable only when its complete article has been translated. */
+export function isArticleTranslated(locale: LocaleCode, slug: string) {
+  const article = localeArticles.find((item) => item.slug === slug);
+  return !!article && isArticleComplete(article, files[locale].articles?.[slug]);
+}
 
 /** How much of a locale is done, for the content audit and the build log. */
 export function translationProgress(locale: LocaleCode) {

@@ -172,7 +172,7 @@ export function articleSchema(item: { slug: string; title: string; description: 
         "@type": "BreadcrumbList",
         itemListElement: [
           { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
-          { "@type": "ListItem", position: 2, name: "Guides", item: `${SITE_URL}/guides` },
+          { "@type": "ListItem", position: 2, name: "Guides", item: `${SITE_URL}${sitePath("/guides")}` },
           { "@type": "ListItem", position: 3, name: item.title, item: url },
         ],
       },

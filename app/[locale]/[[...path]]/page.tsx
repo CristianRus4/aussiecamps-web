@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { SITE_URL , sitePath} from "@/lib/site";
 import { LocalizedArticle, LocalizedGuides, LocalizedHome, LocalizedInformationPage, LocalizedTools } from "@/components/localized-site";
-import { getTranslation, isLocale, isTranslated, localeCodes, localizedArticles } from "@/lib/localized";
+import { getTranslation, isArticleTranslated, isLocale, isTranslated, localeCodes, localizedArticles } from "@/lib/localized";
 import { defaultOgLocale, ogLocale, seoLanguageTags } from "@/lib/seo";
 import type { StaticPageKind } from "@/lib/source-strings";
 
@@ -39,11 +39,11 @@ export async function generateMetadata({params}:{params:Promise<{locale:string;p
     :section==="support"?ui.metaSupportDescription
     :ui.metaDescription;
   const suffix=path.length?`/${path.join("/")}`:"";
-  const url=`${SITE_URL}/${locale}${suffix}`;
+  const url=`${SITE_URL}${sitePath(`/${locale}${suffix}`)}`;
   const image=article?article.image:"/images/aussie-og.webp";
-  // An untranslated locale still builds and renders, but it must not compete with the English
-  // site for the same words until a translator has filled its file in.
-  const indexable=isTranslated(locale);
+  // An untranslated guide still builds and renders, but it must not compete with the English site
+  // for the same words until its complete article translation is in place.
+  const indexable=isTranslated(locale) && (!article || isArticleTranslated(locale, article.slug));
   return {
     // The locale root already carries the brand; every other page gets it from the layout template.
     title: path.length ? title : { absolute: title },

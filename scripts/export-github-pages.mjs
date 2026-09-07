@@ -91,7 +91,18 @@ await writeFile(resolve(output, "download/index.html"), `<!doctype html>
 `);
 
 await writeFile(resolve(output, ".nojekyll"), "");
-await cp(resolve(output, "index.html"), resolve(output, "404.html"));
+// GitHub Pages uses this file for unknown paths. Keep it a real 404 page rather than copying the
+// homepage, which makes a missing URL look like a duplicate homepage to crawlers.
+await writeFile(resolve(output, "404.html"), `<!doctype html>
+<html lang="${defaultLang}">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, follow">
+<title>Page not found | ${siteName}</title>
+</head>
+<body><main><h1>Page not found</h1><p><a href="${basePath || ""}/">Return to ${siteName}</a></p></main></body>
+</html>
+`);
 
 // Without CNAME in the artifact GitHub Pages drops the aussiecamps.app custom domain on deploy.
 if (!basePath) await cp(resolve(root, "CNAME"), resolve(output, "CNAME"));
