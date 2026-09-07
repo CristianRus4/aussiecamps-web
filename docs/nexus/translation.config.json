@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "project": "aussiecamps",
+  "catalogs": [
+    {
+      "id": "aussiecamps-website",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": ["de", "es", "fr", "it", "nl", "pt"],
+      "source": "../../lib/translations/en.json",
+      "targets": [
+        { "locale": "de", "path": "../../lib/translations/de.json" },
+        { "locale": "es", "path": "../../lib/translations/es.json" },
+        { "locale": "fr", "path": "../../lib/translations/fr.json" },
+        { "locale": "it", "path": "../../lib/translations/it.json" },
+        { "locale": "nl", "path": "../../lib/translations/nl.json" },
+        { "locale": "pt", "path": "../../lib/translations/pt.json" }
+      ],
+      "protectedTerms": ["AussieCamps", "AussieCamping", "Australia", "AUD"]
+    }
+  ]
+}
