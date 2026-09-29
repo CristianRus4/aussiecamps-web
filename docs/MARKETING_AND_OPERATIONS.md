@@ -10,7 +10,7 @@ coverage or completely offline maps.
 The public product name is currently **AussieCamps**, per the website brief.
 Engineering names the app target **AussieCamping**. Do not propagate either name
 across the boundary until the open identity decision is resolved and app,
-website, App Store, bundle-facing metadata, Nexus, and RevenueCat copy can be
+website, App Store, bundle-facing metadata, Context, and RevenueCat copy can be
 changed deliberately.
 
 ## Editorial operations
@@ -67,8 +67,6 @@ Rollback by reverting the faulty commit and allowing Pages to deploy the last
 known-good source. Remove or correct inaccurate safety/legal material urgently,
 then audit related pages and translations.
 
-## Nexus
+## Repository documentation
 
-The Nexus docs workflow is independent of Pages. It ingests the root README and
-all `docs/**/*.md` after a commit is pushed. A green Pages deployment does not
-prove the documentation sync succeeded, and vice versa.
+Committed documentation lives in this repository and Context reads it directly.

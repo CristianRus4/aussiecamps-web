@@ -31,5 +31,4 @@ an unresolved naming decision, not permission to silently rename either side.
 Public site copy follows the current website brief until the product owner
 resolves the system-wide identity.
 
-All Markdown under `docs/` is included by the Nexus manifest and syncs after a
-commit is pushed to main.
+Committed Markdown under `docs/` is available directly to Context.

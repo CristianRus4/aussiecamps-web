@@ -92,3 +92,10 @@ Translations: de 86/186 ui, 0/43 guides, 2/3 pages · es 86/186 ui, ...
 - Prices stay in AUD. The multi-currency table converts mechanically and its column headers are
   currency codes, which are not translated.
 - Place names, park names and official body names stay in their original form.
+
+## Engine integration
+
+The shared engine audits nested website catalogs, ordered article structures,
+SEO fields, links, markup, and complete-page translation gates. Product names,
+Australian place names, official bodies, and AUD references are protected by
+project rules.
