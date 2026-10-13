@@ -151,7 +151,9 @@ test("a published locale translates the whole interface", async () => {
     assert.match(html, published ? /name="robots" content="index/ : /name="robots" content="noindex/, `${locale} robots meta must match its translation state`);
     if (published) for (const phrase of englishStrings) assert.ok(!html.includes(phrase), `${locale} leaked English chrome: ${phrase}`);
     const guide = await (await fetchPage(`/${locale}/guides/australia-grocery-prices-2026`)).text();
-    assert.match(guide, /name="robots" content="noindex, follow"/, `${locale} untranslated guide must be noindex`);
-    assert.ok(!sitemap.includes(`/${locale}/guides/australia-grocery-prices-2026/`), `${locale} untranslated guide must stay out of the sitemap`);
+    // A guide is indexable once its translation is complete and the locale is live (docs/TRANSLATIONS.md).
+    const translatedGuide = Boolean(file.articles?.["australia-grocery-prices-2026"]) && published;
+    assert.match(guide, translatedGuide ? /name="robots" content="index, follow/ : /name="robots" content="noindex, follow"/, `${locale} guide robots must match its translation state`);
+    assert.equal(sitemap.includes(`/${locale}/guides/australia-grocery-prices-2026/`), translatedGuide, `${locale} guide sitemap presence must match its translation state`);
   }
 });

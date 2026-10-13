@@ -91,7 +91,10 @@ Translations: de 86/186 ui, 0/43 guides, 2/3 pages · es 86/186 ui, ...
 - **No em dashes.** The content audit rejects them in both English and translated copy.
 - Prices stay in AUD. The multi-currency table converts mechanically and its column headers are
   currency codes, which are not translated.
-- Place names, park names and official body names stay in their original form.
+- Place names, park names and official body names stay in their original form. That includes
+  state and territory names (New South Wales, Western Australia, Northern Territory, Tasmania…),
+  which the engine protects. Only the country itself uses each language's form (Australien,
+  Australie, Austrália), from the glossary.
 
 ## Engine integration
 
