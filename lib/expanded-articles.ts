@@ -1,7 +1,7 @@
 import { readingMinutes, type Article, type ArticlePriceTable, type ArticleSection, type ArticleTable } from "@/lib/site";
 
 const section = (heading: string, body: string[], tips?: string[], table?: ArticleTable): ArticleSection => ({ heading, body, tips, ...(table && { table }) });
-const priceTable = (note: string, rows: ArticlePriceTable["rows"]): ArticlePriceTable => ({ asOf: "12 August 2026", note, rows });
+const priceTable = (note: string, rows: ArticlePriceTable["rows"]): ArticlePriceTable => ({ asOf: "2026-08-12", note, rows });
 const article = (input: Omit<Article, "image">): Article => ({ ...input, readTime: readingMinutes(input), image: `/images/articles/${input.slug}.webp` });
 
 export const expandedArticles: Article[] = [

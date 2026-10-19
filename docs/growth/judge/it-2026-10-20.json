@@ -1,0 +1,89 @@
+{
+ "branch": "i18n/a-it @ 8694f1b",
+ "judgedAt": "2026-10-20",
+ "verdict": "merge-after-fixes",
+ "averageScore": 4.6,
+ "unitsReviewed": 1237,
+ "improvedVsOld": "Clearly better overall. The 1,214 rewritten units now read like a native Italian travel writer wrote them, consistently use the informal tu, drop unneeded pronouns and follow the glossary. Fixes over the old text: the calque 'cifre datate' became 'con la data di rilevazione'; caravan → roulotte; siti → piazzole; contea → comune; 'il gestore del terreno' → 'chi gestisce il terreno'; 'villaggi turistici' → holiday park (glossed once); state names in source labels are now English per the guide (no more 'Nuovo Galles del Sud: ...'); 'learner' is localised as 'foglio rosa'; and the old fuelText addition 'di parecchio' was removed. The privacy page sections now line up with the English: the old it.json had sections shifted and mismatched, and the new Google Analytics paragraphs and consent strings are accurate and natural. Automated checks: no em dashes; no offline-map claims (offline is always rendered as 'schede dei luoghi ... anche senza campo' or 'scarica in anticipo le mappe'); all numbers, prices (A$, $ placed after the figure) and dates match the English; all <a data-guide> markup and placeholders are intact, including the 23 markup-only restorations; and the apostrophe is the typographic ’ throughout (K'gari kept as the English writes it). Regressions: the campfire 'braciere' became the calque 'anello per il fuoco', and the free-camping heading got worse. Minor, non-blocking: some descriptions add a short sentence the English lacks ('Ecco come capire...', 'Ecco la lista...'); the domestic-flights description is 172 characters; '2025–27' keeps the English en dash rather than a hyphen; Whitsunday/Whitsundays and the 'counter meal' gloss are inconsistent across pages; 'punti di penalità' is used instead of the glossary's 'punti della patente'; and the support page assumes 'Avanzamento del viaggio' is a named screen.",
+ "criticalIssues": [],
+ "failingUnits": [
+  {
+   "key": "articles.is-free-camping-legal-australia.sections[4].body[2]",
+   "current": "Le station stay (soggiorni nelle station dell’outback) e il campeggio presso i roadhouse colmano i vuoti nelle zone remote. Di solito costano poco più che essere gratuiti, e spesso sono l’unica opzione per centinaia di chilometri.",
+   "problem": "'costano poco più che essere gratuiti' is ungrammatical and garbles the meaning. The English 'inexpensive rather than free' means they are cheap but not free.",
+   "suggested": "Le station stay (soggiorni nelle station dell’outback) e il campeggio presso i roadhouse colmano i vuoti nelle zone remote. Di solito non sono gratuiti ma costano poco, e spesso sono l’unica opzione per centinaia di chilometri."
+  },
+  {
+   "key": "articles.is-free-camping-legal-australia.sections[2].heading",
+   "current": "Lascia il posto com’è, e aperto",
+   "problem": "Awkward and unclear. The point is to behave so the area stays open. This is a regression: the old text 'Fai in modo che il posto resti aperto' was better.",
+   "suggested": "Comportati bene, e l’area resta aperta"
+  },
+  {
+   "key": "articles.campfires-camping-australia.imageAlt",
+   "current": "Falò consentito in un anello per il fuoco designato",
+   "problem": "'anello per il fuoco' is a word-for-word calque of 'fire ring' that no Italian camper uses. The old 'braciere' read naturally, so this is a regression.",
+   "suggested": "Falò consentito in un focolare attrezzato"
+  },
+  {
+   "key": "articles.campfires-camping-australia.intro",
+   "current": "... Un anello per il fuoco (fire ring) dimostra che lì si sono accesi fuochi, non che oggi sia legale farlo.",
+   "problem": "Same 'anello per il fuoco' calque. A native writer would say focolare or cerchio di pietre.",
+   "suggested": "... Un focolare in pietra dimostra che lì si sono accesi fuochi, non che oggi sia legale farlo."
+  },
+  {
+   "key": "articles.campfires-camping-australia.faq[0][1]",
+   "current": "... nessun fuoco a combustibile solido è legale in quel distretto, nemmeno in un anello per il fuoco.",
+   "problem": "Same 'anello per il fuoco' calque, here in a FAQ answer.",
+   "suggested": "... nessun fuoco a combustibile solido è legale in quel distretto, nemmeno in un focolare attrezzato."
+  },
+  {
+   "key": "articles.sleeping-in-car-australia.sections[2].body[0]",
+   "current": "Un campeggio spartano, un caravan park (campeggio attrezzato con piazzole e bungalow), un farm stay (soggiorno in fattoria) o uno showground, l’area delle fiere agricole spesso aperta ai camper: lì è più chiaro che puoi restare, e spesso trovi bagni o acqua. ...",
+   "problem": "Three glosses are stacked in one subject list, and the last one is unbracketed. The sentence becomes a heavy run-on that reads as translated, and the list order is shuffled.",
+   "suggested": "Un campeggio spartano, uno showground (l’area delle fiere agricole, spesso aperta ai camper), un caravan park o un farm stay ti danno un permesso chiaro, e spesso anche bagni o acqua. Arriva prima che faccia buio e verifica che il tuo veicolo possa entrare."
+  },
+  {
+   "key": "articles.australia-travel-cost-2026.priceTable.rows[0].label",
+   "current": "In camper o in ostello, budget basso",
+   "problem": "Meaning shift. In the English 'camper' is a person who camps. 'In camper' implies a motorhome, and the table explicitly excludes vehicle hire. The old 'Campeggiatore' was correct.",
+   "suggested": "In campeggio o in ostello, budget basso"
+  },
+  {
+   "key": "articles.driving-in-australia-road-rules-visitors.sections[0].body[0]",
+   "current": "... Il conducente va tenuto verso la linea di mezzeria e chi siede accanto verso il marciapiede.",
+   "problem": "'Il conducente va tenuto' is unidiomatic, as if someone were positioning the driver. The English means the driver's side should sit near the centre line.",
+   "suggested": "... Ricorda: il lato di chi guida sta verso la mezzeria, quello del passeggero verso il marciapiede."
+  },
+  {
+   "key": "articles.australia-road-rules-state-differences.description",
+   "current": "Limiti di velocità, traino, cellulare e patente straniera messi a confronto stato per stato, senza far passare una regola locale per una valida ovunque.",
+   "problem": "Fact drift: 'licence conditions' (which include learner and provisional restrictions) has been narrowed to 'patente straniera'.",
+   "suggested": "Limiti di velocità, traino, cellulare e condizioni della patente a confronto stato per stato, senza spacciare una regola locale per una valida ovunque."
+  },
+  {
+   "key": "articles.australia-road-rules-state-differences.sections[4].heading",
+   "current": "Le differenze in cui è più facile cascarci",
+   "problem": "'in cui ... cascarci' repeats the pronoun and reads colloquially and sloppily in a heading.",
+   "suggested": "Le differenze che colgono più spesso di sorpresa"
+  },
+  {
+   "key": "articles.interstate-biosecurity-road-trip.title",
+   "current": "Quarantena tra gli stati australiani: le regole per il road trip",
+   "problem": "Departs from the glossary (biosecurity = biosicurezza) and no longer matches the description, which starts with 'Biosicurezza nel road trip'. At 64 characters it is also over the roughly 60-character target.",
+   "suggested": "Biosicurezza tra gli stati: frutta, verdura e road trip in Australia"
+  },
+  {
+   "key": "articles.camping-rules-northern-territory.sections[6].body[2]",
+   "current": "In Central Australia è tutta un’altra storia: estati oltre i quaranta gradi e notti d’inverno sotto lo zero. ...",
+   "problem": "'Central Australia' is left in English in prose even though Italian has a common term (and it is not a protected state name).",
+   "suggested": "Nell’Australia centrale è tutta un’altra storia: estati oltre i quaranta gradi e notti d’inverno sotto lo zero. ..."
+  },
+  {
+   "key": "articles.alcohol-coffee-drink-prices-australia.priceTable.rows[3].label",
+   "current": "Birra australiana (prezzo equivalente)",
+   "problem": "'(prezzo equivalente)' tells the reader nothing. The row is the retail price of domestic beer bought at a shop.",
+   "suggested": "Birra australiana, al negozio"
+  }
+ ]
+}

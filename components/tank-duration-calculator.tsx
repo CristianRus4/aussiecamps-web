@@ -1,14 +1,16 @@
 import { Droplets } from "lucide-react";
+import { uiStrings, type UiStrings } from "@/lib/source-strings";
 
-export function TankDurationCalculator() {
+export function TankDurationCalculator({ ui = uiStrings, output, children }: { ui?: UiStrings; output: string; children?: React.ReactNode }) {
   return <section className="tool-card" data-tank-tool>
-    <div className="tool-heading"><Droplets/><div><p className="eyebrow">Water and waste planner</p><h2>How many days off grid.</h2></div></div>
-    <p>Capacity in litres only becomes useful once it is expressed in days. Grey water usually fills before fresh water empties, so both are shown.</p>
+    <div className="tool-heading"><Droplets/><div><p className="eyebrow">{ui.tankEyebrow}</p><h2>{ui.tankTitle}</h2></div></div>
+    <p>{ui.tankText}</p>
     <div className="converter-grid">
-      <label><span>Fresh water (L)</span><input data-tank-fresh inputMode="decimal" defaultValue="100" /></label>
-      <label><span>Grey water (L)</span><input data-tank-grey inputMode="decimal" defaultValue="90" /></label>
-      <label><span>People</span><input data-tank-people inputMode="numeric" defaultValue="2" /></label>
+      <label><span>{ui.labelFresh}</span><input data-tank-fresh inputMode="decimal" defaultValue="100" /></label>
+      <label><span>{ui.labelGrey}</span><input data-tank-grey inputMode="decimal" defaultValue="90" /></label>
+      <label><span>{ui.labelPeople}</span><input data-tank-people inputMode="numeric" defaultValue="2" /></label>
     </div>
-    <output className="tool-output" data-tank-output>4.5 days fresh · 4.5 days grey</output>
+    <output className="tool-output" data-tank-output>{output}</output>
+    {children}
   </section>;
 }

@@ -1,14 +1,16 @@
 import { Clock } from "lucide-react";
+import { uiStrings, type UiStrings } from "@/lib/source-strings";
 
-export function DriveTimeCalculator() {
+export function DriveTimeCalculator({ ui = uiStrings, output, children }: { ui?: UiStrings; output: string; children?: React.ReactNode }) {
   return <section className="tool-card" data-drive-tool>
-    <div className="tool-heading"><Clock/><div><p className="eyebrow">Driving day estimator</p><h2>How long that day really takes.</h2></div></div>
-    <p>Routing apps give moving time on an ideal road. This adds the road character and your actual stops, which is where a day usually runs over.</p>
+    <div className="tool-heading"><Clock/><div><p className="eyebrow">{ui.driveEyebrow}</p><h2>{ui.driveTitle}</h2></div></div>
+    <p>{ui.driveText}</p>
     <div className="converter-grid">
-      <label><span>Distance (km)</span><input data-drive-distance inputMode="decimal" defaultValue="250" /></label>
-      <label><span>Road type</span><select data-drive-speed defaultValue="60"><option value="85">Motorway or open straight</option><option value="70">Main highway</option><option value="60">Winding or coastal</option><option value="45">Narrow, steep or gravel</option></select></label>
-      <label><span>Stops</span><input data-drive-stops inputMode="numeric" defaultValue="3" /></label>
+      <label><span>{ui.labelDistance}</span><input data-drive-distance inputMode="decimal" defaultValue="250" /></label>
+      <label><span>{ui.labelRoadType}</span><select data-drive-speed defaultValue="60"><option value="85">{ui.roadMotorway}</option><option value="70">{ui.roadHighway}</option><option value="60">{ui.roadWinding}</option><option value="45">{ui.roadNarrow}</option></select></label>
+      <label><span>{ui.labelStops}</span><input data-drive-stops inputMode="numeric" defaultValue="3" /></label>
     </div>
-    <output className="tool-output" data-drive-output>4 h 32 min</output>
+    <output className="tool-output" data-drive-output>{output}</output>
+    {children}
   </section>;
 }

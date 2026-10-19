@@ -6,47 +6,261 @@
       "id": "aussiecamps-website",
       "adapter": "web-json",
       "sourceLocale": "en",
-      "locales": ["de", "es", "fr", "it", "nl", "pt"],
+      "locales": [
+        "de",
+        "es",
+        "it",
+        "nl",
+        "pt",
+        "ko",
+        "zh-hans",
+        "zh-hant",
+        "da",
+        "sv",
+        "nb",
+        "cs",
+        "pl"
+      ],
       "source": "../lib/translations/en.json",
       "targets": [
-        { "locale": "de", "path": "../lib/translations/de.json" },
-        { "locale": "es", "path": "../lib/translations/es.json" },
-        { "locale": "fr", "path": "../lib/translations/fr.json" },
-        { "locale": "it", "path": "../lib/translations/it.json" },
-        { "locale": "nl", "path": "../lib/translations/nl.json" },
-        { "locale": "pt", "path": "../lib/translations/pt.json" }
+        {
+          "locale": "de",
+          "path": "../lib/translations/de.json"
+        },
+        {
+          "locale": "es",
+          "path": "../lib/translations/es.json"
+        },
+        {
+          "locale": "it",
+          "path": "../lib/translations/it.json"
+        },
+        {
+          "locale": "nl",
+          "path": "../lib/translations/nl.json"
+        },
+        {
+          "locale": "pt",
+          "path": "../lib/translations/pt.json"
+        },
+        {
+          "locale": "ko",
+          "path": "../lib/translations/ko.json"
+        },
+        {
+          "locale": "zh-hans",
+          "path": "../lib/translations/zh-hans.json"
+        },
+        {
+          "locale": "zh-hant",
+          "path": "../lib/translations/zh-hant.json"
+        },
+        {
+          "locale": "da",
+          "path": "../lib/translations/da.json"
+        },
+        {
+          "locale": "sv",
+          "path": "../lib/translations/sv.json"
+        },
+        {
+          "locale": "nb",
+          "path": "../lib/translations/nb.json"
+        },
+        {
+          "locale": "cs",
+          "path": "../lib/translations/cs.json"
+        },
+        {
+          "locale": "pl",
+          "path": "../lib/translations/pl.json"
+        }
       ],
-      "protectedTerms": ["AussieCamps", "AussieCamping", "AUD", "Tourism Australia", "Reserve Bank of Australia", "Virgin Australia", "New South Wales", "Victoria", "Queensland", "South Australia", "Western Australia", "Tasmania", "Northern Territory", "Australian Capital Territory", "Central Australia"],
-      "glossary": { "Australia": { "de": "Australien", "es": "Australia", "fr": "Australie", "it": "Australia", "nl": "Australië", "pt": "Austrália" } },
-      "varieties": { "pt": "pt-PT" },
-      "register": { "de": "informal", "es": "informal", "fr": "formal", "it": "informal", "nl": "informal", "pt": "informal" }
+      "protectedTerms": [
+        "AussieCamps",
+        "AussieCamping",
+        "AUD",
+        "Tourism Australia",
+        "Reserve Bank of Australia",
+        "Virgin Australia",
+        "New South Wales",
+        "Victoria",
+        "Queensland",
+        "South Australia",
+        "Western Australia",
+        "Tasmania",
+        "Northern Territory",
+        "Australian Capital Territory",
+        "Central Australia",
+        "Uluṟu",
+        "K'gari",
+        "Ikara",
+        "Tjoritja",
+        "Kakadu",
+        "Namadgi"
+      ],
+      "glossary": {
+        "Australia": {
+          "de": "Australien",
+          "es": "Australia",
+          "fr": "Australie",
+          "it": "Australia",
+          "nl": "Australië",
+          "pt": "Austrália"
+        }
+      },
+      "varieties": {
+        "pt": "pt-PT",
+        "zh-hans": "zh-Hans",
+        "zh-hant": "zh-Hant"
+      },
+      "register": {
+        "de": "informal",
+        "es": "informal",
+        "fr": "formal",
+        "it": "informal",
+        "nl": "informal",
+        "pt": "informal"
+      }
+    },
+    {
+      "id": "aussiecamps-website-fr",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "fr"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "fr",
+          "path": "../lib/translations/fr.json"
+        }
+      ],
+      "protectedTerms": [
+        "AussieCamps",
+        "AussieCamping",
+        "AUD",
+        "Tourism Australia",
+        "Reserve Bank of Australia",
+        "Virgin Australia",
+        "Victoria",
+        "Queensland",
+        "Uluṟu",
+        "Ikara",
+        "Tjoritja",
+        "Kakadu",
+        "Namadgi"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {
+        "New South Wales": {
+          "fr": "Nouvelle-Galles du Sud"
+        },
+        "Victoria": {
+          "fr": "Victoria"
+        },
+        "Queensland": {
+          "fr": "Queensland"
+        },
+        "South Australia": {
+          "fr": "Australie-Méridionale"
+        },
+        "Western Australia": {
+          "fr": "Australie-Occidentale"
+        },
+        "Tasmania": {
+          "fr": "Tasmanie"
+        },
+        "Northern Territory": {
+          "fr": "Territoire du Nord"
+        },
+        "Australian Capital Territory": {
+          "fr": "Territoire de la capitale australienne"
+        },
+        "Central Australia": {
+          "fr": "Centre rouge"
+        },
+        "K'gari": {
+          "fr": "K’gari"
+        }
+      },
+      "register": {
+        "fr": "formal"
+      },
+      "styleGuide": {
+        "fr": "Follow docs/translation-style/fr.md: native French travel-writer voice for France, Belgium, Switzerland and Canada, formal vous, French typography (non-breaking spaces before : ; ? !, « » quotes), French state names, no calques, no offline-map claims."
+      }
     },
     {
       "id": "aussiecamps-website-ja",
       "adapter": "web-json",
       "sourceLocale": "en",
-      "locales": ["ja"],
+      "locales": [
+        "ja"
+      ],
       "source": "../lib/translations/en.json",
       "targets": [
-        { "locale": "ja", "path": "../lib/translations/ja.json" }
+        {
+          "locale": "ja",
+          "path": "../lib/translations/ja.json"
+        }
       ],
-      "protectedTerms": ["AussieCamps", "AussieCamping", "AUD"],
-      "untranslatedKeys": ["ui.review*", "ui.reviewsEyebrow", "ui.reviewsTitle"],
+      "protectedTerms": [
+        "AussieCamps",
+        "AussieCamping",
+        "AUD"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
       "glossary": {
-        "Australia": { "ja": "オーストラリア" },
-        "New South Wales": { "ja": "ニューサウスウェールズ" },
-        "Victoria": { "ja": "ビクトリア" },
-        "Queensland": { "ja": "クイーンズランド" },
-        "South Australia": { "ja": "南オーストラリア" },
-        "Western Australia": { "ja": "西オーストラリア" },
-        "Tasmania": { "ja": "タスマニア" },
-        "Northern Territory": { "ja": "ノーザンテリトリー" },
-        "Australian Capital Territory": { "ja": "オーストラリア首都特別地域" },
-        "Tourism Australia": { "ja": "オーストラリア政府観光局" },
-        "Reserve Bank of Australia": { "ja": "オーストラリア準備銀行" }
+        "Australia": {
+          "ja": "オーストラリア"
+        },
+        "New South Wales": {
+          "ja": "ニューサウスウェールズ"
+        },
+        "Victoria": {
+          "ja": "ビクトリア"
+        },
+        "Queensland": {
+          "ja": "クイーンズランド"
+        },
+        "South Australia": {
+          "ja": "南オーストラリア"
+        },
+        "Western Australia": {
+          "ja": "西オーストラリア"
+        },
+        "Tasmania": {
+          "ja": "タスマニア"
+        },
+        "Northern Territory": {
+          "ja": "ノーザンテリトリー"
+        },
+        "Australian Capital Territory": {
+          "ja": "オーストラリア首都特別地域"
+        },
+        "Tourism Australia": {
+          "ja": "オーストラリア政府観光局"
+        },
+        "Reserve Bank of Australia": {
+          "ja": "オーストラリア準備銀行"
+        }
       },
-      "register": { "ja": "formal" },
-      "styleGuide": { "ja": "Follow docs/translation-style/ja.md: natural です・ます travel-writer Japanese, full-width punctuation, katakana exonyms, no ダンプ and no offline-map claims." }
+      "register": {
+        "ja": "formal"
+      },
+      "styleGuide": {
+        "ja": "Follow docs/translation-style/ja.md: natural です・ます travel-writer Japanese, full-width punctuation, katakana exonyms, no ダンプ and no offline-map claims."
+      }
     }
   ]
 }

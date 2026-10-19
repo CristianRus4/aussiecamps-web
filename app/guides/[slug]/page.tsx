@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { GuideArticle } from "@/components/guide-article";
-import { SITE_URL, articles, getArticle, sitePath } from "@/lib/site";
-import { seoLanguageTags } from "@/lib/seo";
+import { SITE_URL, getArticle, sitePath } from "@/lib/site";
+import { alternatesFor } from "@/lib/seo";
+import { exportRoutes } from "@/lib/routes";
+import { guidePageKey } from "@/lib/routes/guides";
 
 export function generateStaticParams() {
-  return articles.map(({ slug }) => ({ slug }));
+  return exportRoutes().filter((route) => route.kind === "guide" && route.locale === "en").map((route) => ({ slug: route.pageKey.slice("guide:".length) }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -15,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: item.title,
     description: item.description,
-    alternates: { canonical: `/guides/${item.slug}/`, languages: seoLanguageTags(`/guides/${item.slug}`) },
+    alternates: { canonical: `/guides/${item.slug}/`, languages: alternatesFor(guidePageKey(item.slug)) },
     openGraph: {
       type: "article",
       siteName: "AussieCamps",

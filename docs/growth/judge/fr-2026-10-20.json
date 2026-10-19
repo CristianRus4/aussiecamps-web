@@ -1,0 +1,168 @@
+[
+ {
+  "commit": "09f5313",
+  "judgedAt": "2026-10-20",
+  "verdict": "merge-after-fixes",
+  "averageScore": 4.7,
+  "unitsReviewed": 1313,
+  "improvedVsOld": "Clearly better than the old text. The old text kept English state names (« pour Tasmania »), used stiffer calques and was missing many units. The new French reads native almost everywhere: idiomatic imperatives, glossary-consistent terms (caravan park and holiday park glossed once, aire de vidange, State Forests, Total Fire Ban, PVT register) and native exonyms (Nouvelle-Galles du Sud, Australie-Méridionale, Centre rouge, Adélaïde). Typography is right: NBSP before colons and units, ’ apostrophes, « » quotes, decimal commas, « $ AU » where the English writes A$. Automated checks over all 1,364 changed keys found no em dashes and no offline-map claims; every « sans réseau » refers to place details or saved confirmations, which the guide allows. Markup and placeholders match the English byte for byte, including the 51 link-only restorations. Numbers, prices, dates and macrons and other diacritics (Uluṟu, Kata Tjuṯa) are intact. Minor patterns that are not blocking: « comté (shire) » is used instead of municipalité in a few free-camping units; « outback » is lowercase twice (camping-water-planning tips[1], driving-with-road-trains s[3].b[0]); and K'gari has a straight apostrophe in 10 units. Upstream issue, not the translator's fault: the English source carries auto-linker errors that the French faithfully copies. These are « <a data-guide=\\\"australia-road-trip-fatigue-wildlife-safety\\\">Kangaroo</a> Island » (how-to-plan-trip-aussiecamps s[3].b[0], bus-train-costs s[5].b[1]), « Parks <a data-guide=\\\"camping-rules-victoria\\\">Victoria</a> » splitting the agency name (great-ocean-road s[4].b[0], s[7].b[3]) and « <a …queensland>Queensland</a> Rail » (bus-train-costs s[2].b[0]). They should be fixed in en.json and then propagated.",
+  "criticalIssues": [],
+  "failingUnits": [
+   {
+    "key": "ui.metaDescription",
+    "current": "Plus de 74 000 campings, caravan parks, campings gratuits, aires de repos et aires de vidange en Australie. Fiches lisibles sans réseau, filtres précis, road trip étape par étape.",
+    "problem": "Fact drop: the English names a trip planner and 'for iPhone'. Both are missing, and 'road trip étape par étape' no longer says what the product does. The offline wording is acceptable.",
+    "suggested": "Plus de 74 000 campings, caravan parks, campings gratuits, aires de repos et aires de vidange en Australie. Fiches consultables sans réseau, filtres précis et planificateur de road trip sur iPhone."
+   },
+   {
+    "key": "articles.east-coast-road-trip-sydney-cairns.sections[3].tips[0]",
+    "current": "Environ 2 400 km en direct",
+    "problem": "« en direct » means 'live' (as in a broadcast). It does not mean 'by the direct route'.",
+    "suggested": "Environ 2 400 km par la route directe"
+   },
+   {
+    "key": "articles.east-coast-road-trip-sydney-cairns.sections[4].tips[2]",
+    "current": "Les villes de transit n’ont rien de spécial à offrir",
+    "problem": "Meaning shift. The English means you need not plan anything special for transit towns. The French says the towns have nothing to offer, which is disparaging and not what the source says.",
+    "suggested": "Villes étapes : rien de spécial à prévoir"
+   },
+   {
+    "key": "articles.east-coast-road-trip-sydney-cairns.sections[5].body[1]",
+    "current": "…y compris dans des rivières, des criques et des plages d’apparence inoffensive…",
+    "problem": "False friend: an Australian 'creek' is a small stream (ruisseau). « crique » means a small cove. The Queensland rules page correctly uses « ruisseaux ».",
+    "suggested": "Les crocodiles marins vivent dans les cours d’eau à partir de Rockhampton environ vers le nord, y compris dans des rivières, des ruisseaux et sur des plages d’apparence inoffensive. Ne vous baignez jamais, ne videz pas votre poisson et ne campez pas au bord de l’eau en zone à crocodiles, et respectez chaque panneau d’avertissement."
+   },
+   {
+    "key": "articles.brisbane-to-cape-tribulation.sections[2].body[1]",
+    "current": "…ne partez jamais du principe qu’une plage ou une crique est sûre pour se baigner…",
+    "problem": "Same 'creek' to « crique » false friend.",
+    "suggested": "Choisissez un camping autorisé ou un <a data-guide=\"caravan-park-vs-holiday-park\">caravan park</a> et mettez la nourriture à l’abri. Respectez les avertissements sur les crocodiles, et ne partez jamais du principe qu’une plage ou un ruisseau est sûr pour se baigner parce que d’autres personnes sont au bord de l’eau."
+   },
+   {
+    "key": "articles.brisbane-to-cape-tribulation.sections[4].body[0]",
+    "current": "Les crocodiles marins habitent tous les cours d’eau du nord tropical : criques, mangroves, estuaires, et les plages elles-mêmes.…",
+    "problem": "Same 'creek' to « crique » false friend.",
+    "suggested": "Les crocodiles marins peuplent tous les cours d’eau du nord tropical : ruisseaux, mangroves, estuaires, et jusqu’aux plages. La côte de Daintree et de Cape Tribulation est un habitat de premier choix, et le risque est réel, pas théorique."
+   },
+   {
+    "key": "articles.brisbane-to-cape-tribulation.sections[7].tips[1]",
+    "current": "Ne le nourrissez ni ne vous approchez jamais",
+    "problem": "Ungrammatical: « s’approcher » needs « en » here. The pronoun « le » also has no antecedent in a stand-alone tip.",
+    "suggested": "Ne nourrissez jamais un casoar, ne l’approchez pas"
+   },
+   {
+    "key": "articles.perth-to-broome-road-trip.sections[3].body[2]",
+    "current": "…ces étapes se remplissent de voyageurs du sud qui fuient l’hiver, et il n’y a aucune capacité de débordement.",
+    "problem": "Calque of 'overflow capacity'. A native reader would spot it at once.",
+    "suggested": "Réservez vos hébergements à Exmouth, Coral Bay et Broome en saison sèche : ces étapes se remplissent de voyageurs du sud qui fuient l’hiver, et quand tout est complet, il n’y a aucune solution de repli sur place."
+   },
+   {
+    "key": "articles.towing-caravan-australia-road-rules.sections[2].body[1]",
+    "current": "…Ne généralisez jamais la règle d’un État en vitesse de remorquage valable pour tout le pays.",
+    "problem": "« généraliser X en Y » is not idiomatic French, so the sentence reads as translated.",
+    "suggested": "La limite de 100 km/h citée pour la Nouvelle-Galles du Sud s’applique quand le véhicule tracteur ou l’ensemble dépasse 4,5 tonnes. N’érigez jamais la règle d’un État en limite nationale de vitesse pour le remorquage."
+   },
+   {
+    "key": "articles.australia-road-rules-state-differences.faq[1][1]",
+    "current": "…Les points de pénalité, eux, sont comptabilisés d’un État à l’autre, même si les infractions sanctionnées diffèrent.",
+    "problem": "« comptabilisés d’un État à l’autre » is ambiguous and could be read as 'counted differently per state'. The English means demerit points are shared across states.",
+    "suggested": "…Les points de pénalité, eux, valent dans tous les États, même si les infractions qui les font perdre diffèrent."
+   },
+   {
+    "key": "articles.camping-rules-new-south-wales.sections[3].body[2]",
+    "current": "Les règles des réserves municipales varient énormément d’une collectivité locale à l’autre. Dormir sur une aire de repos, permis dans un comté, sera interdit dans le suivant : seuls les panneaux font foi.",
+    "problem": "Clunky: an infinitive subject with a participle aside and a future tense. It also uses « comté » for a council area, where the glossary prefers municipalité.",
+    "suggested": "Les règles des réserves municipales varient énormément d’une collectivité locale à l’autre. Une aire de repos où la nuit est permise dans une municipalité peut être interdite dans la suivante : seuls les panneaux font foi."
+   },
+   {
+    "key": "articles.camping-rules-queensland.sections[1].body[1]",
+    "current": "K'gari et les autres destinations de sable exigent un véhicule préparé, une bonne connaissance des marées et des autorisations d’accès vérifiées à part. Un repère sur la carte ne prouve pas qu’un deux-roues motrices peut y accéder.",
+    "problem": "Used as a noun, « un deux-roues » reads as a motorbike. It needs « véhicule ». The style guide also asks for a typographic apostrophe (K’gari), and the same straight apostrophe appears in 9 other K'gari units.",
+    "suggested": "K’gari et les autres destinations de sable exigent un véhicule préparé, une bonne connaissance des marées et des autorisations d’accès vérifiées à part. Un repère sur la carte ne prouve pas qu’un véhicule à deux roues motrices peut y accéder."
+   },
+   {
+    "key": "articles.camping-water-planning.sections[4].body[0]",
+    "current": "…mais tous les robinets ne sont pas potables et la signalisation n’est pas toujours présente. Si une eau est non traitée ou douteuse, traitez-la au lieu de supposer.",
+    "problem": "A tap is not « potable », the water is. « au lieu de supposer » with no object is an English calque, and « signalisation pas toujours présente » is stiff.",
+    "suggested": "Les villes, les <a data-guide=\"caravan-park-vs-holiday-park\">caravan parks</a>, les offices de tourisme et de nombreuses aires de repos ont de l’eau potable, mais l’eau n’est pas potable à tous les robinets et ce n’est pas toujours signalé. Si une eau n’est pas traitée ou paraît douteuse, traitez-la plutôt que de la croire potable."
+   },
+   {
+    "key": "articles.camping-rules-south-australia.sections[6].body[1]",
+    "current": "…Vérifiez le détail de l’interdiction au lieu de supposer.",
+    "problem": "« au lieu de supposer » with no object is an English calque (rule paragraph).",
+    "suggested": "Les jours d’interdiction, les appareils à gaz restent en général autorisés sous conditions, notamment une zone dégagée et une surveillance constante. Lisez le détail de l’interdiction plutôt que de vous fier à la règle générale."
+   },
+   {
+    "key": "articles.great-ocean-road-camping-guide.sections[5].tips[0]",
+    "current": "Le lever du soleil bat le coucher pour la foule",
+    "problem": "Calque of 'beats … for crowds'. It is unclear and unidiomatic.",
+    "suggested": "Moins de monde au lever qu’au coucher du soleil"
+   },
+   {
+    "key": "articles.brisbane-to-cape-tribulation.description",
+    "current": "Les stations balnéaires cèdent la place aux îles du récif et à la forêt tropicale à mesure que la côte devient tropicale.",
+    "problem": "« tropicale » appears twice in one short meta description, which is clumsy.",
+    "suggested": "Les stations balnéaires cèdent la place aux îles du récif et à la forêt humide à mesure que la côte bascule sous les tropiques."
+   },
+   {
+    "key": "articles.east-coast-road-trip-sydney-cairns.description",
+    "current": "Deux semaines de camps sur la plage, d’arrière-pays verdoyant et de matins tropicaux.",
+    "problem": "In French, « camps » for campsites sounds like scout or military camps. The natural term is « campings ».",
+    "suggested": "Deux semaines de campings en bord de mer, d’arrière-pays verdoyant et de matins tropicaux."
+   },
+   {
+    "key": "articles.camping-rules-tasmania.sections[0].body[1]",
+    "current": "Les frais de camping, eux, se paient ou se réservent à part.",
+    "problem": "Fidelity: the English hedges ('can be separate'), and the French states it as always true (rule paragraph).",
+    "suggested": "Les <a data-guide=\"camping-fees-australia-2026\">frais de camping</a> et la réservation peuvent, eux, être distincts de l’entrée du parc."
+   }
+  ]
+ },
+ {
+  "commit": "3f77bda",
+  "judgedAt": "2026-10-20",
+  "verdict": "merge-after-fixes",
+  "averageScore": 4.5,
+  "unitsReviewed": 705,
+  "improvedVsOld": "Overall the new text is clearly better. The diff has 986 changed values. Of these, 281 change only spacing or apostrophes (non-breaking spaces before punctuation, typographic apostrophes), and 705 are rewritten. I read all 705 rewritten units against EN, covering every title, description, heading, FAQ item, UI and consent string, price-table row and note, source label, and rules, fines or prices paragraph, plus nearly all other body text and tips.\n\nWhat improved:\n- Island names are now native per the fr-only catalog (île du Nord, île du Sud, île Stewart (Rakiura)).\n- First mentions of DOC, NZTA, ACC, MBIE, Stats NZ, Metlink, GeoNet and rāhui carry glosses.\n- Glossary terms are used consistently (holiday park with gloss, freedom camping with gloss, self-contained, aire de vidange, zone blanche, frais d’abandon, rachat de franchise).\n- Titles are SEO-led and follow the '<sujet> en Nouvelle-Zélande : <angle>' pattern.\n- The privacy page was fixed. In the old FR, sections 4 to 6 were shifted against EN (for example, 'Conservation et contrôle' stood under 'Website analytics'). They are now aligned, and the new analytics and consent text is accurate (13-month _ga cookies, 14-month retention, Google Ireland and Google LLC).\n\nAutomated checks, all clean:\n- No em dashes.\n- No 'tu'.\n- No English left untranslated beyond protected or glossary terms.\n- No new offline-map claims; the only 'hors connexion' hits are pre-existing unchanged text that mirrors EN 'offline app' and offline search.\n- Every number, date, price and currency matches EN. 'NZ$110 to NZ$180' became 'de 110 à 180 $ NZ'; times use the 24-hour format (23 h, 20 h 45).\n- Macrons are intact (Kaikōura, Wānaka, Taupō, Tākaka, rāhui, māori).\n- No data-guide links or placeholders appear in the changed units, and none were lost.\n\nMinor notes, not scored below 4:\n- The volcanic-safety title moves Tongariro, Ruapehu and Rotorua into the description.\n- The domestic-flights title adds '2026', which the dated-page rule in the style guide allows.\n- The Cook Strait title becomes 'Ferry Wellington-Picton', which is accurate for both operators.\n- One plain space remains in '330 ml'.\n- Some articles still say 'West Coast' or 'Coromandel' without 'côte Ouest' or 'péninsule', which the style guide allows on first mention.",
+  "criticalIssues": [],
+  "failingUnits": [
+   {
+    "key": "ui.metaDescription",
+    "current": "Plus de 6 500 campings, refuges du DOC, holiday parks et zones de freedom camping en Nouvelle-Zélande. Fiches lisibles sans réseau, filtres précis, road trip étape par étape.",
+    "problem": "Facts are dropped from the meta description. The rewrite cuts 'planner' (planificateur) and 'for iPhone', so 'road trip étape par étape' no longer says what the feature is. The old value kept both.",
+    "suggested": "Plus de 6 500 campings, refuges du DOC, holiday parks et aires de freedom camping en Nouvelle-Zélande. Fiches sans réseau, filtres précis, planificateur de road trip pour iPhone."
+   },
+   {
+    "key": "consent.text",
+    "current": "KiwiCamping peut-il utiliser les cookies de Google Analytics pour savoir quelles pages aident les voyageurs ? Ils ne servent jamais à la publicité.",
+    "problem": "This is a calque of 'May KiwiCamping use…'. French consent banners ask the reader directly ('Acceptez-vous que…'), so the inverted third-person question reads as translated. It is a high-visibility UI string.",
+    "suggested": "Acceptez-vous que KiwiCamping utilise les cookies de Google Analytics pour savoir quelles pages sont utiles aux voyageurs ? Ils ne servent jamais à la publicité."
+   },
+   {
+    "key": "articles.eating-out-new-zealand-prices-2026.sections[6].body[1]",
+    "current": "Les jours de transfert, quand vous arrivez tard, repartez tôt et que le repas sert surtout à reprendre des forces, contentez-vous de courses simples. Ce rythme vous paie les bons repas sans rendre chaque journée coûteuse.",
+    "problem": "'Ce rythme vous paie les bons repas' is a literal calque of 'That pattern buys you the good meals' and is not idiomatic French.",
+    "suggested": "Les jours de transfert, quand vous arrivez tard, repartez tôt et que le repas sert surtout à reprendre des forces, contentez-vous de courses simples. C’est ce qui vous permet de vous offrir les bons repas sans que chaque journée vous coûte cher."
+   },
+   {
+    "key": "articles.doc-campsite-rules.sections[3].heading",
+    "current": "Réservation, premier arrivé ou pass",
+    "problem": "The idiom is cut short. 'Premier arrivé' alone does not read as the first-come system; French says 'premier arrivé, premier servi'.",
+    "suggested": "Sur réservation, premier arrivé premier servi, ou avec un pass"
+   },
+   {
+    "key": "articles.towing-caravan-new-zealand.sections[6].heading",
+    "current": "Ces routes où réfléchir à deux fois",
+    "problem": "The heading is awkward and ungrammatical: an infinitive clause hangs after a demonstrative. No native editor would publish it.",
+    "suggested": "Des routes à aborder avec prudence"
+   },
+   {
+    "key": "articles.wof-registration-campervan-new-zealand.sections[4].body[0]",
+    "current": "…les véhicules diesel doivent en plus s’acquitter des road user charges (RUC), achetés à l’avance par tranche de mille kilomètres…",
+    "problem": "Minor agreement slip: 'charges' is feminine in French, so the participle should be 'achetées'. The fuel-cost guide avoids this by glossing RUC as 'une taxe kilométrique achetée'.",
+    "suggested": "…les véhicules diesel doivent en plus s’acquitter des road user charges (RUC, une taxe kilométrique), achetées à l’avance par tranche de mille kilomètres…"
+   }
+  ]
+ }
+]

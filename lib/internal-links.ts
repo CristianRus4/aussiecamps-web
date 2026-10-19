@@ -77,29 +77,87 @@ const live = targets.filter((target) => bySlug.has(target.slug));
 const escapeHtml = (text: string) =>
   text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
+/** One chosen link: the phrase at [start, end) of its paragraph links to `slug`. */
+export type LinkSpan = { start: number; end: number; slug: string };
+
 /**
- * Returns each paragraph as HTML, with at most one contextual link added per paragraph.
- *
- * The text is escaped first and the anchor inserted afterwards, so article prose can never inject
- * markup: the only HTML in the result is the anchor this function wrote.
+ * Chooses the contextual links for a run of paragraphs (one section's body): at most one per
+ * paragraph, never the current guide, never the same target twice, at most `budget` in total.
+ * Positions are in the raw text, so the same choice can be rendered as HTML (`linkProse`) or written
+ * into the translation source as markup (`markGuideLinks`).
  */
-export function linkProse(paragraphs: readonly string[], currentSlug: string, prefix = "", budget = 4): string[] {
+export function selectLinks(paragraphs: readonly string[], currentSlug: string, budget = 4): (LinkSpan | null)[] {
   const used = new Set<string>([currentSlug]);
   let remaining = budget;
-  const root = prefix.replace(/\/$/, "");
-  const hrefFor = (slug: string) => (root ? `${root}/guides/${slug}/` : sitePath(`/guides/${slug}`));
   return paragraphs.map((paragraph) => {
-    const escaped = escapeHtml(paragraph);
-    if (remaining <= 0) return escaped;
+    if (remaining <= 0) return null;
     for (const target of live) {
       if (used.has(target.slug)) continue;
-      const match = target.pattern.exec(escaped);
+      const match = target.pattern.exec(paragraph);
       if (!match) continue;
       used.add(target.slug);
       remaining -= 1;
-      const anchor = `<a href="${hrefFor(target.slug)}">${match[0]}</a>`;
-      return escaped.slice(0, match.index) + anchor + escaped.slice(match.index + match[0].length);
+      return { start: match.index, end: match.index + match[0].length, slug: target.slug };
     }
-    return escaped;
+    return null;
   });
+}
+
+/**
+ * Returns each paragraph as HTML, with at most one contextual link added per paragraph.
+ *
+ * The text is escaped and the anchor inserted around the escaped phrase, so article prose can never
+ * inject markup: the only HTML in the result is the anchor this function wrote.
+ */
+export function linkProse(paragraphs: readonly string[], currentSlug: string, prefix = "", budget = 4): string[] {
+  const root = prefix.replace(/\/$/, "");
+  const hrefFor = (slug: string) => (root ? `${root}/guides/${slug}/` : sitePath(`/guides/${slug}`));
+  const spans = selectLinks(paragraphs, currentSlug, budget);
+  return paragraphs.map((paragraph, index) => {
+    const span = spans[index];
+    if (!span) return escapeHtml(paragraph);
+    return escapeHtml(paragraph.slice(0, span.start))
+      + `<a href="${hrefFor(span.slug)}">${escapeHtml(paragraph.slice(span.start, span.end))}</a>`
+      + escapeHtml(paragraph.slice(span.end));
+  });
+}
+
+/**
+ * The same links, as markup a translator carries across: `<a data-guide="slug">phrase</a>`.
+ *
+ * scripts/build-translation-source.mjs writes guide bodies into en.json this way. A translator keeps
+ * the tag and its slug and moves it onto the natural phrase in their language; `renderGuideLinks`
+ * turns it back into a link to that language's edition of the guide.
+ */
+export function markGuideLinks(paragraphs: readonly string[], currentSlug: string, budget = 4): string[] {
+  const spans = selectLinks(paragraphs, currentSlug, budget);
+  return paragraphs.map((paragraph, index) => {
+    const span = spans[index];
+    if (!span) return paragraph;
+    return `${paragraph.slice(0, span.start)}<a data-guide="${span.slug}">${paragraph.slice(span.start, span.end)}</a>${paragraph.slice(span.end)}`;
+  });
+}
+
+const guideMarkup = /<a data-guide="([a-z0-9-]+)">([\s\S]*?)<\/a>/g;
+/** True when translated prose carries link markup, rather than plain text from before the markup existed. */
+export const hasGuideLinks = (paragraphs: readonly string[]) => paragraphs.some((paragraph) => /<a data-guide="/.test(paragraph));
+/** Translated prose with its link markup removed, for structured data and plain-text uses. */
+export const stripGuideLinks = (text: string) => text.replace(guideMarkup, "$2").replace(/<\/?a\b[^>]*>/g, "");
+
+/**
+ * Translated prose as HTML. Everything is escaped; the only markup let back in is
+ * `<a data-guide="slug">` naming a guide that exists, rewritten to that guide's URL in `root` (the
+ * locale directory, `/de`). Any other tag, or a link to an unknown guide, is reduced to its text.
+ */
+export function renderGuideLinks(text: string, root: string): string {
+  const clean = (part: string) => escapeHtml(part.replace(/<\/?a\b[^>]*>/g, ""));
+  let html = "";
+  let last = 0;
+  for (const match of text.matchAll(guideMarkup)) {
+    html += clean(text.slice(last, match.index));
+    const inner = clean(match[2]);
+    html += bySlug.has(match[1]) ? `<a href="${sitePath(`${root}/guides/${match[1]}`)}">${inner}</a>` : inner;
+    last = match.index! + match[0].length;
+  }
+  return html + clean(text.slice(last));
 }

@@ -32,6 +32,7 @@ const stamp = json("lib/data/hubs.prose-check.json");
 const proseText = existsSync(resolve(root, "lib/hubs/prose.json")) ? read("lib/hubs/prose.json") : "{}\n";
 const prose = JSON.parse(proseText);
 const { GATE, evaluateHub, wordCount } = await import("../lib/hubs/gate.ts");
+const { groundingIssues } = await import("../lib/hubs/grounding.ts");
 
 const STATES = ["NSW", "VIC", "QLD", "SA", "WA", "TAS", "NT", "ACT"];
 const KINDS = { "camping-state": ["campground"], "camping-park": ["campground"], "dump-points-state": ["public_dump_point"], "rest-areas-state": ["roadside_rest_area"] };
@@ -109,39 +110,8 @@ for (const id of Object.keys(prose)) {
 }
 
 // 4. Grounding ------------------------------------------------------------------------------------
-// Words that start sentences or name the product; anything else capitalised must come from the data.
-const allowed = new Set(`AussieCamps Pass App Store iPhone I
-The A An In On At Of For With Most Many Some Every Each All About Around Only There This That These Those It Its If When Where
-Which What Who How Why Unlike Like Both Neither Nearly More Fewer Less Just One Two Three Four Five Six Seven Eight Nine Ten
-Outside Inside Along Across Between Beyond Before After During While Because So But And Or Not No Yes Even Still Also Then Here
-Expect Check Book Plan Look Use Read Bring Pack Carry Treat Count Allow Pick Start Head Drive Stay Camp Set Take Keep Ask Find
-Over Under Roughly Almost Together Elsewhere Further Away Past Instead Otherwise However Overall Free Open`.split(/\s+/));
-const lowerWords = new Set(Object.values(prose).flat().join(" ").match(/\b[a-z][a-z'’-]*\b/g) ?? []);
-const numbersIn = (text) => (text.match(/\d[\d,]*(?:\.\d+)?/g) ?? []).map((number) => number.replace(/,/g, "").replace(/\.0+$/, ""));
-const ungrounded = [];
-for (const [id, paragraphs] of Object.entries(prose)) {
-  const hub = hubs.find((item) => item.id === id);
-  const cited = hub.sources.map((key) => sources.get(key)).map((source) => `${source.operator} ${source.short} ${source.url}`);
-  const record = [JSON.stringify(hub), ...cited, `Camping rules in ${hub.stateName}`, dataAsOf,
-    new Date(`${dataAsOf}T00:00:00Z`).toLocaleDateString("en-AU", { month: "long", year: "numeric", timeZone: "UTC" })].join("\n");
-  const known = new Set(numbersIn(record));
-  for (const value of JSON.stringify(hub).match(/-?\d+(?:\.\d+)?/g) ?? []) known.add(String(Number(value)));
-  const recordWords = new Set(record.match(/[\p{L}][\p{L}'’-]*/gu) ?? []);
-  for (const paragraph of paragraphs) {
-    assert.doesNotMatch(paragraph, /—|\\u2014/, `${id} prose contains an em dash`);
-    assert.doesNotMatch(paragraph, /offline map/i, `${id} prose claims an offline map`);
-    for (const number of numbersIn(paragraph)) if (!known.has(number)) ungrounded.push(`${id}: number ${number}`);
-    for (const sentence of paragraph.split(/(?<=[.!?])\s+/)) {
-      const tokens = sentence.match(/[\p{L}][\p{L}'’-]*/gu) ?? [];
-      tokens.forEach((token, index) => {
-        const word = token.replace(/['’]s$/, "");
-        if (!/^\p{Lu}/u.test(word) || allowed.has(word) || recordWords.has(word)) return;
-        if (index === 0 && lowerWords.has(word.toLowerCase())) return;
-        ungrounded.push(`${id}: "${word}"`);
-      });
-    }
-  }
-}
+const allProse = Object.values(prose).flat();
+const ungrounded = Object.entries(prose).flatMap(([id, paragraphs]) => groundingIssues(hubs.find((item) => item.id === id), paragraphs, sources, dataAsOf, allProse));
 assert.equal(ungrounded.length, 0, `Hub prose names things its data does not contain:\n  ${ungrounded.join("\n  ")}`);
 
 // 5. Description check stamp ---------------------------------------------------------------------

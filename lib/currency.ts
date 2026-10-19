@@ -13,23 +13,25 @@ export const currencyRates = {
 
 export type DisplayCurrency = keyof typeof currencyRates;
 export const displayCurrencies = Object.keys(currencyRates) as DisplayCurrency[];
-export const exchangeRateDate = "12 August 2026";
+/** ISO date of the RBA rates above; format it with formatArticleDate for the reader's language. */
+export const exchangeRateDate = "2026-08-12";
 
 export function convertFromAud(aud: number, currency: DisplayCurrency) {
   return aud * currencyRates[currency];
 }
 
-export function formatMoney(value: number, currency: DisplayCurrency) {
+/** Money in the reader's conventions: `intl` is the page's Intl locale (en-AU, de-DE, ja-JP). */
+export function formatMoney(value: number, currency: DisplayCurrency, intl = "en-AU") {
   const maximumFractionDigits = currency === "JPY" || currency === "KRW" ? 0 : value < 10 ? 2 : 0;
-  return new Intl.NumberFormat("en-AU", {
+  return new Intl.NumberFormat(intl, {
     style: "currency",
     currency,
     maximumFractionDigits,
   }).format(value);
 }
 
-export function formatAudRange(audLow: number, audHigh: number | undefined, currency: DisplayCurrency) {
-  const low = formatMoney(convertFromAud(audLow, currency), currency);
+export function formatAudRange(audLow: number, audHigh: number | undefined, currency: DisplayCurrency, intl = "en-AU") {
+  const low = formatMoney(convertFromAud(audLow, currency), currency, intl);
   if (audHigh == null || audHigh === audLow) return low;
-  return `${low}–${formatMoney(convertFromAud(audHigh, currency), currency)}`;
+  return `${low}–${formatMoney(convertFromAud(audHigh, currency), currency, intl)}`;
 }

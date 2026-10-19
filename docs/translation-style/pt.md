@@ -121,7 +121,7 @@ plain terms Portuguese travellers use for those topics (*preços*, *quanto custa
 | fuel / petrol / diesel | combustível / gasolina / gasóleo | Never *diesel* as a fuel name in prose |
 | fuel station | bomba de gasolina, posto de combustível | |
 | speed camera | radar | |
-| driving licence | carta de condução | International Driving Permit: *carta de condução internacional* |
+| driving licence / International Driving Permit | carta de condução / licença internacional de condução | The IDP is issued in Portugal by the IMT as *Licença Internacional de Condução*; use that in body text. People also search *carta de condução internacional*, which is fine in an FAQ question or title |
 | left-hand driving | conduzir pela esquerda | |
 | one-lane bridge | ponte de uma via | |
 | gravel road | estrada de terra batida, estrada de gravilha | |
@@ -138,7 +138,7 @@ plain terms Portuguese travellers use for those topics (*preços*, *quanto custa
 | the bush | o mato | |
 | the Outback | o Outback | Proper noun, kept |
 | biosecurity | biossegurança | |
-| sandflies (NZ) | sandflies (mosquitos-pólvora) on first use | |
+| sandflies (NZ) | sandflies (pequenas moscas negras que picam) on first use | NZ sandflies are blackflies, not biting midges; do not call them *mosquitos-pólvora* |
 | reception / signal | rede, cobertura de rede | *sem rede* is how Portuguese say "no signal" |
 | download (app) | transferir | Apple pt-PT wording |
 | screen | ecrã | Never *tela* |

@@ -1,7 +1,6 @@
 import { articles, categories, SITE_URL, SUPPORT_EMAIL } from "@/lib/site";
 import { appStoreUrl } from "@/lib/app-store";
-import { localeCodes, localeLabels } from "@/lib/localized";
-import { hreflang } from "@/lib/seo";
+import { liveLocales, localeEntry } from "@/lib/locales";
 
 /**
  * /llms.txt — a markdown brief for AI crawlers and assistants.
@@ -82,11 +81,10 @@ figure, for visitors not fluent in AUD.
 
 ## Languages
 
-The site is published in English plus ${localeCodes.length} translated editions. Guide prose is
-English in the translated editions unless a translation is complete; road trip guides are English
-everywhere by design.
+The site is published in English plus ${liveLocales.length} translated editions. Guide prose is
+English in the translated editions unless that guide's translation is complete.
 
-${localeCodes.map((code) => `- ${localeLabels[code]} (${hreflang[code]}): ${SITE_URL}/${code}`).join("\n")}
+${liveLocales.map((code) => `- ${localeEntry(code).label} (${localeEntry(code).htmlLang}): ${SITE_URL}/${localeEntry(code).segment}/`).join("\n")}
 
 ## Guides
 

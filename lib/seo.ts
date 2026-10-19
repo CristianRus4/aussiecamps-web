@@ -1,27 +1,37 @@
 import { APP_ID, APP_STORE_URL, SITE_URL, sitePath } from "@/lib/site";
-import { articleDates } from "@/lib/article-dates";
-import { localeCodes, type LocaleCode } from "@/lib/localized";
+import { articleDates, translationDate } from "@/lib/article-dates";
+import { englishLocale, htmlLang, liveLocales, localeEntry, localeRoot, type LocaleCode } from "@/lib/locales";
+import { routesFor } from "@/lib/routes";
 
-/** The BCP 47 tag each locale directory is published under. */
-export const hreflang: Record<LocaleCode, string> = { de: "de-DE", es: "es-ES", fr: "fr-FR", it: "it-IT", nl: "nl-NL", pt: "pt-PT" };
-export const ogLocale: Record<LocaleCode, string> = { de: "de_DE", es: "es_ES", fr: "fr_FR", it: "it_IT", nl: "nl_NL", pt: "pt_PT" };
-export const defaultHreflang = "en-AU";
-export const defaultOgLocale = "en_AU";
+export const defaultHreflang = englishLocale.hreflang[0];
+export const defaultOgLocale = englishLocale.og;
+/** The Open Graph locale of a language edition. */
+export const ogLocale = (code: LocaleCode | "en") => (code === "en" ? englishLocale.og : localeEntry(code).og);
+/** Open Graph alternates for a page: every other live language. */
+export const ogAlternates = (code: LocaleCode | "en") => [englishLocale.og, ...liveLocales.map((other) => localeEntry(other).og)].filter((og) => og !== ogLocale(code));
 
 /**
- * The reciprocal hreflang set for one page, given its path below the locale root.
+ * The hreflang set for one page, from the route manifest.
  *
- * Every page exists in every language, so each one advertises all seven URLs plus x-default. Google
- * only honours hreflang when the references are reciprocal, which is why this is generated from one
- * place rather than written per page.
+ * Only language editions that are indexable are listed: English, plus every live locale where this
+ * page is complete (its translation passes the completeness gate). x-default is English. Google only
+ * honours hreflang when every listed page lists the others back, and a noindexed page must never be
+ * an alternate, so every page derives its set from the same list and a noindexed page emits none.
+ * A page with no other language edition returns undefined, as there is nothing to declare.
+ *
+ * Paths are relative to the site root; Next resolves them against metadataBase.
  */
-export function seoLanguageTags(path: string): Record<string, string> {
-  const english = sitePath(path);
-  return {
-    [defaultHreflang]: english,
-    ...Object.fromEntries(localeCodes.map((code) => [hreflang[code], sitePath(`/${code}${path}`)])),
-    "x-default": english,
-  };
+export function alternatesFor(pageKey: string): Record<string, string> | undefined {
+  const editions = routesFor(pageKey).filter((route) => route.indexable && route.kind !== "crawler");
+  if (editions.length < 2) return undefined;
+  const tags: Record<string, string> = {};
+  for (const route of editions) {
+    const codes = route.locale === "en" ? [...englishLocale.hreflang] : localeEntry(route.locale).hreflang;
+    for (const code of codes) tags[code] = route.path;
+  }
+  const english = editions.find((route) => route.locale === "en");
+  if (english) tags["x-default"] = english.path;
+  return tags;
 }
 
 export { APP_ID };
@@ -42,7 +52,7 @@ const website = {
   name: "AussieCamps",
   url: SITE_URL,
   publisher: { "@id": `${SITE_URL}/#organization` },
-  inLanguage: [defaultHreflang, ...localeCodes.map((code) => hreflang[code])],
+  inLanguage: [englishLocale.htmlLang, ...liveLocales.map(htmlLang)],
 };
 
 /**
@@ -64,7 +74,7 @@ const application = {
   downloadUrl: APP_STORE_URL,
   screenshot: SCREENSHOT,
   image: LOGO,
-  inLanguage: [defaultHreflang, ...localeCodes.map((code) => hreflang[code])],
+  inLanguage: [englishLocale.htmlLang, ...liveLocales.map(htmlLang)],
   availableOnDevice: "iPhone",
   countriesSupported: "AU",
   publisher: { "@id": `${SITE_URL}/#organization` },
@@ -97,7 +107,7 @@ export function homeSchema(
   page: { url?: string; inLanguage?: string } = {},
 ) {
   const url = page.url ?? `${SITE_URL}/`;
-  const inLanguage = page.inLanguage ?? defaultHreflang;
+  const inLanguage = page.inLanguage ?? englishLocale.htmlLang;
   return {
     "@context": "https://schema.org",
     "@graph": [
@@ -126,8 +136,25 @@ export function homeSchema(
   };
 }
 
-/** A guide, with the breadcrumb Google needs to show the trail under the result. */
-export function articleSchema(item: { slug: string; title: string; description: string; image: string; imageAlt: string; places: string[]; category: string; faq?: readonly (readonly [string, string])[]; sections?: { heading: string; body: string[] }[] }, url: string) {
+/** Markup-free text for structured data: translated prose may carry `<a data-guide>` link markup. */
+const plain = (text: string) => text.replace(/<[^>]+>/g, "");
+
+/**
+ * A guide, with the breadcrumb Google needs to show the trail under the result.
+ *
+ * `locale` is the edition being rendered: it sets `inLanguage`, the breadcrumb (that language's home
+ * and guide index, with `guidesLabel` as the middle crumb's name) and `dateModified`, which for a
+ * translation is the day the translation itself last changed.
+ */
+export function articleSchema(
+  item: { slug: string; title: string; description: string; image: string; imageAlt: string; places: string[]; category: string; faq?: readonly (readonly [string, string])[]; sections?: { heading: string; body: string[] }[] },
+  url: string,
+  { locale = "en", guidesLabel = "Guides" }: { locale?: LocaleCode | "en"; guidesLabel?: string } = {},
+) {
+  const inLanguage = htmlLang(locale);
+  const dates = articleDates(item.slug);
+  const modified = locale === "en" ? dates?.modified : translationDate(item.slug, locale) ?? dates?.modified;
+  const root = localeRoot(locale);
   return {
     "@context": "https://schema.org",
     "@graph": [
@@ -136,12 +163,13 @@ export function articleSchema(item: { slug: string; title: string; description: 
         "@type": "Article",
         headline: item.title,
         description: item.description,
+        inLanguage,
         image: { "@type": "ImageObject", url: `${SITE_URL}${item.image}`, caption: item.imageAlt },
         author: { "@id": `${SITE_URL}/#organization` },
         publisher: { "@id": `${SITE_URL}/#organization` },
         mainEntityOfPage: url,
         // From git history, not hand-typed: see scripts/build-article-dates.mjs.
-        ...(articleDates(item.slug) && { datePublished: articleDates(item.slug).published, dateModified: articleDates(item.slug).modified }),
+        ...(dates && { datePublished: dates.published, dateModified: modified }),
         about: item.places,
         articleSection: item.category,
         isPartOf: { "@id": `${SITE_URL}/#website` },
@@ -151,6 +179,7 @@ export function articleSchema(item: { slug: string; title: string; description: 
       ...(item.faq?.length ? [{
         "@type": "FAQPage",
         "@id": `${url}#faq`,
+        inLanguage,
         mainEntity: item.faq.map(([question, answer]) => ({ "@type": "Question", name: question, acceptedAnswer: { "@type": "Answer", text: answer } })),
       }] : []),
       // An app guide teaches a task in the app, so its sections are genuinely steps. Route and
@@ -160,19 +189,20 @@ export function articleSchema(item: { slug: string; title: string; description: 
         "@id": `${url}#howto`,
         name: item.title,
         description: item.description,
+        inLanguage,
         step: item.sections.map((section, index) => ({
           "@type": "HowToStep",
           position: index + 1,
           name: section.heading,
-          text: section.body[0],
+          text: plain(section.body[0]),
           url: `${url}#step-${index + 1}`,
         })),
       }] : []),
       {
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
-          { "@type": "ListItem", position: 2, name: "Guides", item: `${SITE_URL}${sitePath("/guides")}` },
+          { "@type": "ListItem", position: 1, name: locale === "en" ? "Home" : "AussieCamps", item: `${SITE_URL}${sitePath(root || "/")}` },
+          { "@type": "ListItem", position: 2, name: guidesLabel, item: `${SITE_URL}${sitePath(`${root}/guides`)}` },
           { "@type": "ListItem", position: 3, name: item.title, item: url },
         ],
       },

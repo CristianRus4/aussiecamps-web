@@ -43,7 +43,10 @@ Italia*, *PleinAir* or a seasoned Italian travel blog, not a brochure and not a 
 
 ## 2. Glossary (English term -> Italian, with evidence)
 
-Sources used: Search Console for both sites (Italian pages and queries, Oct 2026); App Store keyword
+Sources used: Search Console for both sites (Italian pages and queries, Oct 2026: Italian searchers
+pair *campeggio* with the English state name, e.g. "northern territory campeggio", and on
+KiwiCamping "campeggio vicino a me"; the Italian pages with impressions are the cost, rules, dump
+point, biosecurity, DOC huts and sleeping-in-the-car guides); App Store keyword
 sets for the Italian listings (AussieCamps: *camper, campeggio, pianificatore, organizzare, van,
 tenda, parchi, soste, roulotte*; KiwiCamping: *campeggi, itinerario, camper, libero, DOC, rifugi,
 guida, meteo, scarico, bagni*); the apps' Italian UI; and native Italian writing about camper travel
