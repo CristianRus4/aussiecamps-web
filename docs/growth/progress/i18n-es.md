@@ -21,10 +21,30 @@ AussieCamps (50): batches a01..a13. KiwiCamping (43): batches k01..k11. Status p
 
 | Batch | Guides | Status |
 |---|---|---|
-| a01 | alcohol-coffee-drink-prices, sleeping-in-car, camping-rules-nsw, public-transport-costs | in progress |
-| a02 | eating-out-prices, camping-rules-wa, dump-points, camping-rules-victoria | in progress |
-| k01 | grocery-prices, doc-huts, public-transport-costs, road-signs | in progress |
-| k02 | biosecurity, doc-campsite-rules, fuel-cost, campervan-road-rules | in progress |
+| a01 | alcohol-coffee-drink-prices-australia, sleeping-in-car-australia, camping-rules-new-south-wales, public-transport-costs-australia-2026 | applied |
+| a02 | eating-out-australia-prices-2026, camping-rules-western-australia, dump-points-australia-guide, camping-rules-victoria | in progress |
+| a03 | australia-grocery-prices-2026, interstate-biosecurity-road-trip, campervan-road-trip-budget-australia, accommodation-costs-australia-2026 | in progress |
+| a04 | camping-rules-south-australia, domestic-flight-costs-australia-2026, camping-rules-act, camping-rules-queensland | queued |
+| a05 | australian-road-signs-visitors-guide, caravan-park-vs-holiday-park, towing-caravan-australia-road-rules, best-time-camping-australia | queued |
+| a06 | camping-rules-northern-territory, australia-road-rules-state-differences, camping-fees-australia-2026, australia-travel-cost-2026 | queued |
+| a07 | australia-road-trip-fuel-cost-2026, camping-rules-tasmania, is-free-camping-legal-australia, camping-without-phone-signal | queued |
+| a08 | campervan-driving-australia-safety-guide, camping-water-planning, bus-train-costs-australia-2026, campfires-camping-australia | queued |
+| a09 | overseas-driver-licence-australia-state-guide, best-camping-app-australia, driving-in-australia-road-rules-visitors, driving-in-australia-overseas-licence | queued |
+| a10 | camping-with-dogs-australia, camping-packing-list-australia, first-campervan-trip-australia, road-trip-fuel-planning-australia | queued |
+| a11 | camping-weather-safety-australia, responsible-camping-australia, choosing-campsite-australia, how-to-plan-trip-aussiecamps | queued |
+| a12 | how-to-use-aussiecamps-filters, save-collections-aussiecamps, aussiecamps-place-details, aussiecamps-widgets-guide | queued |
+| a13 | driving-with-road-trains-australia, australia-road-trip-fatigue-wildlife-safety | queued |
+| k01 | new-zealand-grocery-prices-2026, doc-huts-new-zealand-guide, public-transport-costs-new-zealand-2026, new-zealand-road-signs-visitors | in progress |
+| k02 | new-zealand-biosecurity-camping-gear, doc-campsite-rules, new-zealand-road-trip-fuel-cost-2026, campervan-road-rules-new-zealand | in progress |
+| k03 | eating-out-new-zealand-prices-2026, new-zealand-travel-cost-2026, speed-limits-new-zealand-visitors, beer-wine-coffee-prices-new-zealand | queued |
+| k04 | towing-caravan-new-zealand, wof-registration-campervan-new-zealand, accommodation-costs-new-zealand-2026, overseas-driver-licence-new-zealand | queued |
+| k05 | sandflies-new-zealand-camping, volcanic-safety-new-zealand-travel, dogs-camping-new-zealand, domestic-flight-costs-new-zealand-2026 | queued |
+| k06 | cook-strait-ferry-campervan-guide, kauri-dieback-camping-travel, bus-ferry-train-costs-new-zealand, alcohol-fatigue-driving-new-zealand | queued |
+| k07 | doc-hut-rules-etiquette, river-crossing-safety-new-zealand, left-side-driving-new-zealand, new-zealand-driving-day-planner | queued |
+| k08 | wildlife-livestock-road-safety-new-zealand, winter-camping-new-zealand, new-zealand-severe-weather-camping, earthquake-tsunami-camping-new-zealand | queued |
+| k09 | winter-driving-new-zealand-campervan, one-lane-bridges-gravel-roads-new-zealand, camping-rules-local-councils-new-zealand, campervan-budget-new-zealand | queued |
+| k10 | food-fuel-resupply-new-zealand-road-trip, plan-trip-kiwicamping, save-places-kiwicamping, kiwicamping-filters-guide | queued |
+| k11 | kiwicamping-offline-data-guide, kiwicamping-weather-look-around, kiwicamping-currency-place-costs | queued |
 
 ## Next
 - Remaining guides in GSC order, both sites interleaved.

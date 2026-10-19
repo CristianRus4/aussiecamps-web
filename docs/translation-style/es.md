@@ -139,6 +139,47 @@ yomeanimo.com (Argentina/Chile, Working Holiday, «recorrer Australia en van»),
 | sandflies (NZ) | **sandflies** (first use: «las sandflies, unas mosquitas que pican»), then «sandflies» | |
 | biosecurity | **bioseguridad** | |
 | i-SITE | **i-SITE (oficina de turismo)** | |
+| bottle shop | **bottle shop** (la bottle shop), first use: «bottle shop (tienda de bebidas alcohólicas)»; in meta: «tienda de alcohol» | |
+| schooner / pint | «schooner (el vaso de cerveza de barril habitual)» | «caña» is Spain-only |
+| rideshare | «servicio tipo Uber»; «un Uber» in short tips | «VTC» is Spain-only |
+| council reserve | **terrenos municipales (council reserves)** on first use | Not «reservas municipales»: reads as bookings |
+| shire / local government area | **municipio (shire)** | Never «condado» |
+| Crown land | **tierras de la Corona (Crown land)** | |
+| dispersed camping | **acampada dispersa (fuera de zonas delimitadas)** on first use | |
+| sanctuary zone (marine park) | **zona de protección integral (sanctuary zone)** | |
+| state agencies (Transport for NSW, Parks Victoria, DBCA…) | name unchanged, gloss on first use: «Transport for NSW (el organismo de transporte del estado)» | |
+| national park campground (AU) | **zona de acampada** (not «camping»): «las zonas de acampada del NPWS» | |
+| station wagon / sedan | «coche familiar (station wagon)» / «sedán» | «ranchera», «berlina» are Spain-only |
+| BAC 0.05 | keep «0,05» as written; you may add «(0,5 g/l)» | |
+| long glosses (agency names, legal terms) | give the gloss in the first running-text unit (intro or body), not in title, region, tips or table labels | Titles must stay short |
+| road user charges (NZ) | «los road user charges (RUC), una tasa por uso de la carretera…» first use, then «los RUC» | |
+| MBIE / Stats NZ | «el MBIE (Ministry of Business, Innovation and Employment, el ministerio neozelandés de empresa y empleo)», «Stats NZ (el instituto de estadística de Nueva Zelanda)» | |
+| rāhui | «rāhui (vedas temporales que establece la comunidad maorí local)» | |
+| honesty box | «honesty box (una caja donde dejas el pago)» | |
+| warden / ranger | «guarda»; «guardas de los parques (rangers)» | |
+| quiet hours | «horario de silencio» | |
+| Class 1 licence | «el permiso de conducir de coche (Class 1)» | |
+| ferry | «ferri» (RAE) | |
+| tent pegs | «estacas» | «piquetas» is Spain-only |
+| dashboard | «junto al volante» | «salpicadero» Spain-only, «tablero» regional |
+| regional verbs | avoid «coger» (vulgar in AR/MX: use «tomar», «agarrar», «subir a»), «pillar» (use «sorprender»), «bombona» (use «botella de gas») | |
+| station / station stay (WA, NT) | «estación ganadera (station)»; «estancias en estaciones ganaderas (station stays)» | |
+| satellite messenger / PLB | «comunicador por satélite»; «radiobaliza personal de localización (PLB)» | |
+| licensed water frontage | «riberas con licencia (licensed water frontages)» | |
+| BYO / corkage | «BYO, bring your own» on first use; «descorche» | |
+| entree (AU menus) | «entree» is the starter: «la entrada (el entrante)» | |
+| vehicle rego in a booking form | «matrícula del vehículo (rego)» (the plate); «registro del vehículo (rego)» for the registration itself | |
+| cassette | first use «váter químico (de casete)», then «casete» (RAE spelling) | |
+| stormwater drain | «alcantarilla de aguas pluviales» | «sumidero» is Spain-only |
+| park-and-ride | «park-and-ride (un aparcamiento junto a una estación de tren o de autobús)» | «aparcamiento disuasorio» is Spain-only |
+| mountain pass | «paso de montaña» | «puerto» is Spain-only |
+| DOC hut categories | «refugios con servicios (serviced huts)», «estándar (standard huts)», «básicos (basic huts)»; «tickets de refugio (hut tickets)»; Backcountry Hut Pass unchanged | |
+| hut book | «libro de registro del refugio» | |
+| intercity coach | «autobús de larga distancia» | «autocar» Spain, «micro» AR/CL |
+| tag on / off | «validar la tarjeta al subir / al bajar» | |
+| stop-go (roadworks) | «paso alternativo (stop-go)», «la paleta de stop-go» | |
+| chip seal | «chip seal (asfalto de gravilla)» | |
+| treat water | «potabilizar» | |
 
 ### App and product names
 
