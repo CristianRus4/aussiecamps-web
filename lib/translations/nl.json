@@ -1974,118 +1974,253 @@
       "priceTable": null
     },
     "is-free-camping-legal-australia": {
-      "title": "Is gratis kamperen legaal in Australië?",
-      "description": "Gratis kamperen is alleen legaal waar de beheerder van het terrein een overnachting toestaat.",
+      "title": "Is gratis kamperen legaal in Australië? Regels per staat 2026",
+      "description": "Gratis kamperen mag alleen waar de beheerder van het terrein het toestaat: State Forests, sommige plekken van gemeenten en rustplaatsen met een bord. De regels in elke staat voor 2026.",
       "region": "Australië",
       "imageAlt": "Eenvoudige gratis kampeerplek in Australië",
-      "intro": "Australië heeft gratis kampeerplekken, maar er is geen landelijk recht om te kamperen overal waar een voertuig kan parkeren. De regel hangt af van het precieze terrein, het bord en de lokale overheid.",
+      "intro": "Ja, maar alleen waar de beheerder van het terrein het toestaat: er bestaat geen landelijk recht om te kamperen overal waar je kunt parkeren. Gratis kamperen is legaal in de meeste State Forests in New South Wales en Victoria, op Crown land in South Australia tot 21 dagen, op plekken van gemeenten die dat aangeven en op rustplaatsen waarvan de regels een overnachting toestaan. De meeste campings in nationale parken kosten geld of moet je boeken, en sommige kustgemeenten, zoals Surf Coast Shire in Victoria, geven mensen een boete voor slapen in een voertuig.",
       "sections": [
+        {
+          "heading": "Waar gratis kamperen legaal is: de oostelijke staten",
+          "body": [
+            "In <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> staat elk State Forest behalve Cumberland en Strickland gratis kamperen toe, wie het eerst komt, wie het eerst maalt, tot vier weken. Sommige campings in nationale parken rekenen geen kampeertarief, maar moet je wel boeken, en dat kost A$ 6.",
+            "<a data-guide=\"camping-rules-victoria\">Victoria</a> laat je bijna overal in een State Forest tot 28 nachten achter elkaar kamperen, minstens 20 meter van water, en een paar campings van Parks Victoria, zoals King Hut, zijn gratis en hoef je niet te boeken.",
+            "<a data-guide=\"camping-rules-queensland\">Queensland</a> kent geen gratis kamperen in zijn parken of State Forests, waar elke kampeerplek een betaalde vergunning vraagt. De gratis opties zijn daar campings van gemeenten die het toestaan. Op rustplaatsen langs de weg mag je tot 20 uur stoppen, tenzij een bord iets anders zegt, maar de staat zegt dat het geen kampeerplekken zijn.",
+            "<a data-guide=\"camping-rules-tasmania\">Tasmania</a> heeft gratis kampen van gemeenten met eigen vergunningen en verblijfslimieten, gratis parkcampings in Southwest National Park (voor de toegang heb je nog wel een parkpas nodig), en kamperen op de meeste grond van Sustainable Timber Tasmania, tenzij een bord het verbiedt."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Gratis kamperen per staat, gecheckt in oktober 2026",
+            "head": [
+              "Staat",
+              "Gratis opties",
+              "Belangrijkste beperking",
+              "Wie stelt de regels vast"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "State Forests; sommige parkcampings zonder tarief",
+                "Vier weken in een bos; parkcampings zonder tarief rekenen meestal A$ 6 reserveringskosten",
+                "Forestry Corporation, NPWS, gemeenten"
+              ],
+              [
+                "Victoria",
+                "State Forests; sommige gratis parkcampings",
+                "28 nachten, 20 m van water",
+                "DEECA, Parks Victoria, gemeenten"
+              ],
+              [
+                "Queensland",
+                "Plekken van gemeenten die het toestaan",
+                "Rustplaatsen: 20 uur stoppen tenzij een bord iets anders zegt, geen kamperen",
+                "Gemeenten, Transport and Main Roads"
+              ],
+              [
+                "South Australia",
+                "Crown land; sommige plekken van gemeenten",
+                "21 dagen op Crown land",
+                "Department for Environment and Water, gemeenten"
+              ],
+              [
+                "Western Australia",
+                "Rustplaatsen met een bord voor overnachten",
+                "24 uur achter elkaar; elders is toestemming nodig",
+                "Main Roads WA, gemeenten"
+              ],
+              [
+                "Tasmania",
+                "Kampen van gemeenten; gratis parkkampen; bosbouwgrond",
+                "Limieten van gemeenten verschillen, vaak alleen voor self-contained voertuigen",
+                "Gemeenten, Parks and Wildlife Service, Sustainable Timber Tasmania"
+              ],
+              [
+                "Northern Territory",
+                "Rustplaatsen die zijn aangegeven voor overnachten",
+                "24 uur op de aangegeven plekken; een paar rekenen een tarief",
+                "NT Government, gemeenten"
+              ],
+              [
+                "ACT",
+                "Geen",
+                "Met een voertuig alleen kamperen op geboekte campings",
+                "ACT Parks and Conservation Service"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Waar gratis kamperen legaal is: het zuiden, het westen en het midden",
+          "body": [
+            "<a data-guide=\"camping-rules-south-australia\">South Australia</a> staat kamperen op Crown land zonder toestemming toe tot 21 dagen, met voertuigen die op bestaande paden blijven en zonder brandhout te sprokkelen. Kampeerplekken in nationale parken moet je daar vooraf boeken en betalen, behalve in de parken van de Munga-Thirri Simpson Desert, waarvoor je in plaats daarvan een Desert Parks Pass nodig hebt.",
+            "<a data-guide=\"camping-rules-western-australia\">Western Australia</a> vraagt toestemming voor kamperen overal behalve op een erkende camping, dus de gratis optie daar is een rustplaats met een bord voor maximaal 24 uur achter elkaar.",
+            "Het <a data-guide=\"camping-rules-northern-territory\">Northern Territory</a> vermeldt zijn rustplaatsen langs de weg afzonderlijk, en alleen de plekken die zijn aangegeven voor overnachten tot 24 uur staan dat toe. Campings in parken boek je online, en bezoekers hebben ook een parkpas nodig.",
+            "Het ACT kent helemaal geen gratis kamperen: met een voertuig kamperen mag alleen op erkende campings, elk vooraf geboekt, en elders op openbare grond kamperen zonder vergunning kan een boete tot 20 penalty units (boete-eenheden) opleveren."
+          ],
+          "tips": []
+        },
         {
           "heading": "Parkeren is geen toestemming om te kamperen",
           "body": [
-            "Ook op een legale parkeerplek kan het verboden zijn om te slapen, een kamp op te zetten of te overnachten. Kijk of er uitdrukkelijk toestemming is om te overnachten, en let op tijdslimieten en beperkingen voor voertuigen.",
-            "Vertrouw er niet op dat er geen bord met een kampeerverbod staat. Vraag de regel na bij de beheerder of de gemeente als niet duidelijk is waarvoor het terrein bedoeld is."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Plekken die gratis kunnen zijn",
-          "body": [
-            "Sommige gemeentelijke kampeerplekken, lokale reservaten, plekken in nationale parken en terreinen langs de weg rekenen geen tarief per nacht. Toch kunnen er voorwaarden gelden voor aanmelden, boeken, een donatie of de maximale verblijfsduur.",
-            "Rustplaatsen zijn er vooral om <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">vermoeidheid</a> tegen te gaan. Houd de vrachtwagenplekken vrij en laat luifel, stoelen of oprijblokken achterwege, want die maken van een korte pauze een illegaal kamp."
+            "Ook op een legale parkeerplek kan slapen, een kamp opzetten of overnachten verboden zijn. Kijk of er uitdrukkelijk toestemming is om te overnachten, en let op tijdslimieten en beperkingen voor voertuigen, en niet alleen op de afwezigheid van een bord met een kampeerverbod.",
+            "Sommige gemeenten verbieden slapen in een geparkeerd voertuig helemaal. Surf Coast Shire aan de kust van Victoria geeft mensen A$ 300 boete ter plekke voor slapen in een voertuig, overal in de shire."
           ],
           "tips": [
-            "Lees elk bord",
-            "Check wie het terrein beheert",
-            "Houd een reservestop achter de hand"
+            "Zoek uitdrukkelijke toestemming",
+            "Slapen in een bus kan verboden zijn",
+            "Check wie het terrein beheert"
           ]
         },
         {
-          "heading": "Houd de plek open",
+          "heading": "Mag je langs de weg kamperen?",
           "body": [
-            "Vang afval en afvalwater op, gebruik de toiletten als die er zijn en rij verder binnen de toegestane verblijfsduur. Lawaai, vuur en uitdijende opstellingen zijn veelvoorkomende redenen waarom gemeenten gratis kamperen aan banden leggen.",
-            "Is een plek vol, verzin dan geen nieuwe staanplaats op de begroeiing of in een straat in de buurt."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Er is geen landelijk antwoord",
-          "body": [
-            "Of gratis kamperen legaal is, bepaalt degene die het land beheert: parkdiensten van de staten, staatsbossen, gemeenten, wegenautoriteiten en particuliere eigenaren hanteren allemaal andere regels. Er bestaat geen regeling voor heel Australië die je kunt leren.",
-            "In de praktijk betekent dit dat het antwoord verandert bij elke gemeentegrens, en die grenzen zie je vanaf de weg niet. Een regel die in de ene shire klopt, zegt niets over de volgende.",
-            "Betrouwbare bronnen zijn de borden op de plek zelf en de website van de betreffende gemeente. Al het andere, ook apps en reisgidsen, is een vertrekpunt en geen autoriteit."
+            "Meestal niet, tenzij de plek een rustplaats is die het toestaat. Queensland verbiedt kamperen langs een weg van de staat, tenzij je <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">vermoeidheid</a> bestrijdt tussen 16.00 en 8.00 uur, buiten de bebouwde kom, minstens 200 meter van een stoeprand en 9 meter van de rijstrook, waar geen bord het verbiedt en niet op een snelweg of tolweg, zonder vuur of aggregaat.",
+            "Main Roads in <a data-guide=\"camping-rules-western-australia\">Western Australia</a> staat geen overnachting op een rustplaats toe zonder een bord dat het toestaat, en Service NSW zegt dat rustplaatsen niet bedoeld zijn om te kamperen, al zegt een planningsnota van juli 2026 dat kamperen op een rustplaats mag, tenzij een bord iets anders zegt.",
+            "Waar een overnachting is toegestaan, blijf dan bij je voertuig, laat de plekken voor vrachtwagens vrij voor zwaar verkeer en vertrek in de ochtend."
           ],
           "tips": [
-            "Er is geen landelijke regel",
-            "Het antwoord verandert bij elke shiregrens",
-            "Het bord heeft het laatste woord"
+            "Rustplaatsen, geen bermen",
+            "Laat de vrachtwagenplekken vrij",
+            "Vertrek in de ochtend"
           ]
         },
         {
-          "heading": "Waar het meestal mag",
+          "heading": "Boetes en hoe ze worden vastgesteld",
           "body": [
-            "In de staatsbossen van Victoria, NSW en <a data-guide=\"camping-rules-queensland\">Queensland</a> mag je in de meeste gebieden gratis wildkamperen, afhankelijk van stookbeperkingen en seizoenssluitingen. Dat is het betrouwbaarste gratis kamperen in de oostelijke staten.",
-            "Veel gemeenten in het binnenland, vooral in Queensland, NSW en <a data-guide=\"camping-rules-south-australia\">South Australia</a>, bieden gratis kamperen of kamperen tegen een donatie aan om reizigers naar het dorp te halen. Die plekken zijn aangegeven, je bent er welkom en vaak zijn er eenvoudige voorzieningen.",
-            "Station stays en kamperen bij roadhouses vullen de gaten in afgelegen gebieden. Beide zijn meestal goedkoop in plaats van gratis, en vaak de enige optie in honderden kilometers omtrek."
+            "Straffen worden vastgesteld door degene die het terrein bezit, dus ze lopen sterk uiteen. Kamperen buiten een kampeergebied in een nationaal park in NSW kost maximaal 30 penalty units, <a data-guide=\"camping-rules-act\">het ACT</a> stelt een maximum van 20 penalty units (A$ 3.200 voor een particulier) voor het gebruiken van openbare grond, ook om erop te kamperen, zonder vergunning, en misbruik van Crown land in South Australia kan een expiation (boete ter plekke) van A$ 315 opleveren.",
+            "Boetes van gemeenten worden lokaal vastgesteld, dus het bedrag verschilt van gemeente tot gemeente. Check de website van de gemeente of het bord op de plek."
           ],
           "tips": [
-            "Staatsbossen zijn de betrouwbare optie",
-            "Plaatsjes in het binnenland verwelkomen reizigers",
-            "Station stays vullen afgelegen gaten"
+            "De grondeigenaar bepaalt de straf",
+            "Boetes van gemeenten zijn lokaal",
+            "Fotografeer het bord als je aankomt"
           ]
         },
         {
-          "heading": "Waar het meestal verboden is",
+          "heading": "Self-contained voertuigen",
           "body": [
-            "Kustgemeenten rond grote steden en in toeristische gebieden verbieden overnachten in een voertuig vrijwel zonder uitzondering en handhaven dat met patrouilles en boetes. Ga aan elke populaire kust uit van een verbod, tenzij een bord iets anders zegt.",
-            "In nationale parken heb je bijna overal een vergunning en een aangewezen camping nodig. Buiten aangewezen zones kamperen in een nationaal park is in elke staat strafbaar.",
-            "Rustplaatsen van wegenautoriteiten zijn bedoeld om <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">vermoeidheid</a> tegen te gaan. Slapen mag meestal, een kamp opzetten met luifel en stoelen is niet waar ze voor zijn en vaak uitdrukkelijk verboden."
+            "Sommige gemeenten staan gratis kamperen alleen toe voor self-contained voertuigen (met eigen toilet, watertanks en afvalwatertank). Elke gemeente bepaalt zelf wat daaronder valt, dus check de voorwaarden voordat je op een draagbaar toilet rekent.",
+            "Self-contained zijn kan meer plekken openen, maar heft de verblijfslimiet niet op. De limiet op het bord blijft gelden, en afval gaat nog steeds alleen in een <a data-guide=\"dump-points-australia-guide\">lozingspunt</a> (dump point)."
           ],
           "tips": [
-            "Kustgemeenten verbieden en patrouilleren",
-            "Nationale parken alleen op aangewezen plekken",
-            "Rustplaatsen alleen om uit te rusten"
+            "De regels voor self-contained verschillen per gemeente",
+            "Verblijfslimieten blijven gelden",
+            "Leeg tanks alleen bij lozingspunten"
           ]
         },
         {
-          "heading": "Zelfvoorzienend en gedrag",
+          "heading": "Gedrag houdt gratis plekken open",
           "body": [
-            "Sommige gemeenten staan gratis kamperen alleen toe voor zelfvoorzienende voertuigen (self-contained) met een eigen toilet en opslag voor afvalwater. De definitie verschilt per gemeente: de ene vraagt een certificaat, de andere een eigen verklaring.",
-            "Los van de regels is het gedrag wat plekken openhoudt. Kom laat, vertrek vroeg, neem weinig ruimte in, neem al je afval mee en leeg afvalwater nergens anders dan bij een <a data-guide=\"dump-points-australia-guide\">lozingspunt</a>.",
-            "Plekken gaan dicht door afval, lawaai en drukte, en meestal voorgoed. De districten met de strengste regels van nu zijn die waar het gedrag vroeger het slechtst was."
+            "Gratis plekken kunnen sluiten of geld gaan kosten door afval, vuil, lawaai en drukte.",
+            "Kom laat, vertrek vroeg, neem weinig ruimte in, neem elke zak afval mee en gebruik de toiletten waar die er zijn. Is een plek vol, verzin dan geen nieuwe staanplaats op de begroeiing of in een straat in de buurt."
           ],
           "tips": [
-            "Regels voor zelfvoorzienend verschillen per gemeente",
-            "Kleine voetafdruk, vroeg vertrekken",
-            "Slecht gedrag sluit plekken voorgoed"
+            "Weinig ruimte, vroeg vertrekken",
+            "Neem al het afval mee",
+            "Vol is vol"
           ]
         },
         {
-          "heading": "Hulpmiddelen die echt helpen",
+          "heading": "Check voordat je stopt",
           "body": [
-            "Gemeentewebsites, pagina’s van de parkdiensten en de borden zelf zijn de gezaghebbende bronnen. <a data-guide=\"best-camping-app-australia\">Kampeerapps</a> en vermeldingen uit de community helpen je om kandidaten te vinden, maar zijn geen verweer als een plek verboden blijkt.",
-            "Als een vermelding en een bord elkaar tegenspreken, volg dan het bord en meld het verschil, zodat de vermelding beter wordt. Handhavers werken met de lokale verordening en het bord, niet met een app.",
-            "Twijfel je echt, dan ligt er meestal een goedkope gemeentecamping of een showground binnen bereik, en voor heel weinig geld is de vraag dan helemaal van tafel.",
-            "Het bord fotograferen als je aankomt kost niets en is het enige bewijs dat echt helpt als je later een boete wilt aanvechten."
+            "Het bord op de plek en de website van de beheerder zijn bepalend. <a data-guide=\"best-camping-app-australia\">Kampeerapps</a> en vermeldingen uit de community zijn goed om kandidaten te vinden, maar zijn geen verweer als een plek gesloten of verboden blijkt.",
+            "Als een vermelding en een bord elkaar tegenspreken, volg dan het bord. Twijfel je echt, dan ligt er vaak een goedkope gemeentecamping of een showground binnen bereik, en voor een klein bedrag is de vraag dan van tafel.",
+            "Fotografeer het bord als je aankomt. Het kost niets en is het beste bewijs dat je hebt als je later een bon wilt aanvechten."
           ],
           "tips": [
-            "Apps vinden kandidaten, borden beslissen",
-            "Meld verschillen die je vindt",
-            "Handhavers werken met de lokale verordening"
+            "Borden gaan voor vermeldingen",
+            "Een goedkope camping maakt een einde aan de twijfel",
+            "Fotografeer het bord"
           ]
         }
       ],
       "faq": [
         [
           "Is gratis kamperen legaal in Australië?",
-          "In aangewezen gebieden wel, en nergens anders. Er is geen landelijke regel: wat mag, bepalen de staat, de beheerder van het terrein en de gemeente, dus een rustplaats kan in de ene shire een legale overnachtingsplek zijn en in de volgende een boete opleveren."
+          "Ja, maar alleen waar de beheerder van het terrein het toestaat, via borden of een vaste regel: er bestaat geen landelijk recht om te kamperen overal waar je kunt parkeren. De belangrijkste legale opties zijn de meeste State Forests in New South Wales en Victoria, Crown land in South Australia tot 21 dagen, plekken van gemeenten die dat aangeven en rustplaatsen waarvan de regels een overnachting toestaan. De meeste campings in nationale parken kosten geld of moet je boeken."
         ],
         [
-          "Hoe lang mag je op een rustplaats langs de weg blijven?",
-          "Dat hangt af van het bord, en het loopt uiteen van een paar uur tot 72 uur. Rustplaatsen zijn er tegen vermoeidheid achter het stuur en niet als gratis campings, en de plekken waar je mag overnachten, geven dat ook aan."
+          "Mag je in Australië langs de weg kamperen?",
+          "Meestal niet. Stops langs de weg zijn beperkt tot rustplaatsen waarvan de regels of borden een overnachting toestaan, zoals de rustplaatsen van Western Australia met een bord voor 24 uur. Queensland laat je op een rustplaats tot 20 uur stoppen, tenzij een bord iets anders zegt, maar zegt dat rustplaatsen geen kampeerplekken zijn, en verbiedt kamperen langs wegen van de staat, behalve de smalle uitzondering voor vermoeidheid tussen 16.00 en 8.00 uur."
         ]
       ],
-      "sources": [],
+      "sources": [
+        {
+          "label": "Forestry Corporation of NSW: kamperen"
+        },
+        {
+          "label": "NSW National Parks: campings"
+        },
+        {
+          "label": "Kamperen in de State Forests van Victoria"
+        },
+        {
+          "label": "Queensland Parks: reserveringen voor kamperen"
+        },
+        {
+          "label": "Rustplaatsen in Queensland"
+        },
+        {
+          "label": "Transport Infrastructure (State-controlled Roads) Regulation 2017"
+        },
+        {
+          "label": "Toegang tot Crown land in South Australia"
+        },
+        {
+          "label": "Kamperen buiten caravanparken in WA"
+        },
+        {
+          "label": "Main Roads WA: lange afstanden rijden"
+        },
+        {
+          "label": "NT: rustplaatsen langs de weg"
+        },
+        {
+          "label": "Sustainable Timber Tasmania: de grond die we beheren bezoeken"
+        },
+        {
+          "label": "ACT Parks: waar overnachten"
+        },
+        {
+          "label": "Service NSW: rustplaatsen zoeken"
+        },
+        {
+          "label": "Surf Coast Shire: parkeren"
+        },
+        {
+          "label": "Main Roads WA: beleid voor rustplaatsen"
+        },
+        {
+          "label": "NSW National Parks and Wildlife Regulation 2019"
+        },
+        {
+          "label": "NSW practice note voor caravanparken en campings, juli 2026"
+        },
+        {
+          "label": "ACT Public Unleased Land Act 2013"
+        },
+        {
+          "label": "Parks Victoria: vrij kamperen in het Alpine National Park"
+        },
+        {
+          "label": "Southwest National Park: kamperen"
+        },
+        {
+          "label": "Northern Midlands Council: RV-vriendelijke plaatsen"
+        },
+        {
+          "label": "Central Coast Council: kampeerplekken"
+        },
+        {
+          "label": "NT Parks: kamperen"
+        },
+        {
+          "label": "Queensland Parks: veelgestelde vragen over kamperen"
+        },
+        {
+          "label": "National Parks SA: veelgestelde vragen over boeken"
+        }
+      ],
       "priceTable": null
     },
     "campfires-camping-australia": {
