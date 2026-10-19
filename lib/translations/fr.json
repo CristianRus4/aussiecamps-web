@@ -406,119 +406,248 @@
   },
   "articles": {
     "sleeping-in-car-australia": {
-      "title": "Dormir dans sa voiture ou son van en Australie : est-ce légal ?",
-      "description": "En Australie, dormir dans sa voiture ou son van n’est permis que là où les règles locales l’autorisent : statut du terrain, stationnement, type de véhicule.",
+      "title": "Dormir dans sa voiture en Australie : règles par État 2026",
+      "description": "Légal à certains endroits, verbalisé ailleurs. Limites des aires de repos, interdictions municipales et règles des parcs nationaux pour dormir en voiture dans chaque État, vérifiées en octobre 2026.",
       "region": "Australie",
       "imageAlt": "Van garé pour la nuit sur une aire autorisée",
-      "intro": "Le véhicule ne rend pas un lieu légal pour autant. Ce sont les arrêtés municipaux, les panneaux, le règlement des parcs et la propriété privée qui décident si vous pouvez y dormir.",
+      "intro": "Oui, au bon endroit : ce qui vaut des amendes, c’est de camper là où c’est interdit, et de nombreuses municipalités assimilent dormir dans une voiture garée à du camping. Les options légales sont les campings réservés, les forêts domaniales qui autorisent le camping et les aires de repos dont le règlement ou les panneaux permettent une halte de nuit, comme la limite de 20 heures du Queensland et les haltes de 24 heures signalées d’Australie-Occidentale.",
       "sections": [
         {
-          "heading": "Fiez-vous au terrain, pas à Internet",
+          "heading": "Les règles dans chaque État",
           "body": [
-            "Lisez les panneaux : horaires de stationnement, interdiction de camper, restrictions selon le véhicule. Dans les villes touristiques très fréquentées, les parkings de plage et les rues résidentielles sont souvent surveillés.",
-            "Un vieil avis en ligne ne vous protégera pas d’une amende. Reportez-vous aux informations à jour de la municipalité (council) ou du gestionnaire du terrain."
+            "Aucun État ne publie de réponse simple par oui ou par non. Les autorités routières fixent les limites des aires de repos, les municipalités les règles pour les rues, les plages et les parkings, et les organismes des parcs décident de ce qui se passe dans les parcs nationaux : la réponse dépend donc de celui des trois à qui appartient le sol sous votre voiture.",
+            "Seuls le Queensland et l’Australie-Occidentale publient une durée maximale valable dans tout l’État pour les aires de repos, et le Territoire du Nord indique lesquelles de ses haltes routières autorisent le camping de nuit. Partout ailleurs, c’est le panneau de l’aire de repos qui tranche, et les consignes en <a data-guide=\"camping-rules-new-south-wales\">Nouvelle-Galles du Sud</a> se contredisent : Service NSW dit que les aires de repos ne sont pas faites pour camper, alors qu’une note de pratique d’urbanisme de juillet 2026 précise qu’on peut y camper, sauf si un panneau l’interdit."
           ],
-          "tips": []
+          "tips": [],
+          "table": {
+            "caption": "Dormir en voiture, par État, vérifié en octobre 2026",
+            "head": [
+              "État",
+              "Aires de repos au bord des routes",
+              "Rues et parkings municipaux",
+              "Parcs nationaux",
+              "Aires de repos dans AussieCamps"
+            ],
+            "rows": [
+              [
+                "Nouvelle-Galles du Sud",
+                "Pas de limite pour tout l’État ; suivez le panneau",
+                "Autorisation de la municipalité ou accord signalé requis ; les municipalités verbalisent",
+                "Zones de camping désignées uniquement, 21 jours au maximum",
+                "869"
+              ],
+              [
+                "Victoria",
+                "Pas de limite pour tout l’État ; suivez le panneau",
+                "Certaines l’interdisent : le Surf Coast Shire met 300 $ d’amende",
+                "Sites désignés ; certains parcs autorisent le camping isolé",
+                "651"
+              ],
+              [
+                "Queensland",
+                "Jusqu’à 20 heures sauf panneau contraire ; pas des sites de camping",
+                "Beaucoup l’interdisent ; Cairns l’interdit sur les terrains municipaux hors de ses campings",
+                "Permis payant pour chaque emplacement",
+                "1 688"
+              ],
+              [
+                "Australie-Méridionale",
+                "Pas de limite pour tout l’État ; suivez le panneau",
+                "Règles variables selon la municipalité",
+                "Emplacements réservés uniquement",
+                "391"
+              ],
+              [
+                "Australie-Occidentale",
+                "Jusqu’à 24 heures consécutives, seulement là où c’est signalé",
+                "Camper ailleurs exige une autorisation",
+                "Campings désignés uniquement",
+                "1 661"
+              ],
+              [
+                "Tasmanie",
+                "Pas de limite pour tout l’État ; suivez le panneau",
+                "Certaines municipalités délivrent des permis gratuits",
+                "Parks Pass plus un site désigné",
+                "81"
+              ],
+              [
+                "Territoire du Nord",
+                "Seulement aux haltes signalées pour 24 heures de camping",
+                "Règles variables selon la municipalité",
+                "Emplacements réservés, plus un pass visiteur pour les non-résidents",
+                "211"
+              ],
+              [
+                "ACT",
+                "Camping en véhicule uniquement dans les campings",
+                "Pas de camping sur les terrains publics sans permis",
+                "Campings réservés uniquement",
+                "0"
+              ]
+            ]
+          }
         },
         {
-          "heading": "Aires de repos",
+          "heading": "Peut-on dormir dans sa voiture dans un parc national ?",
           "body": [
-            "Les aires de repos des grands axes et les haltes Driver Reviver sont là pour <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">lutter contre la fatigue</a>. Certaines autorisent un arrêt de nuit limité, d’autres interdisent le camping ou n’admettent que certains types de véhicules.",
-            "Laissez libres les places réservées aux camions, limitez le bruit et n’étalez pas votre matériel autour du véhicule, sauf si l’aire autorise le camping."
+            "Seulement là où le parc autorise le camping, ce qui signifie presque toujours un camping désigné réservé ou autorisé à l’avance. Une voiture laissée la nuit sur une aire de jour, à un point de vue ou au départ d’un sentier, c’est du camping sans autorisation, que quelqu’un ait planté une tente ou non.",
+            "Le <a data-guide=\"camping-rules-queensland\">Queensland</a> facture 7,75 $ par personne et par nuit pour chaque emplacement de parc et de forêt en 2026, et le permis s’applique que vous dormiez sous la tente ou en voiture. Les parcs du Territoire du Nord ne prennent de réservations qu’en ligne, ceux d’Australie-Méridionale en ligne ou via des agents, et la Nouvelle-Galles du Sud limite à 21 jours le séjour dans un parc.",
+            "Quelques parcs autorisent le camping isolé. L’Alpine National Park du <a data-guide=\"camping-rules-victoria\">Victoria</a> le permet dans une grande partie du parc, mais Parks Victoria demande aux campeurs d’avoir une tente et chaque parc fixe ses propres limites : lisez d’abord la page du parc."
           ],
           "tips": [
-            "Un lieu autorisé",
-            "Une bonne aération",
-            "Une sortie dégagée",
+            "Les aires de jour ne sont pas des campings",
+            "Réservez ou obtenez un permis d’abord",
+            "L’Alpine National Park autorise le camping isolé",
             "Pas de moteur allumé pour se chauffer"
           ]
         },
         {
-          "heading": "Des solutions plus sûres",
+          "heading": "Aires de repos : ce que signifient leurs limites",
           "body": [
-            "Une aire de camping sommaire, un showground (terrain de foire agricole), un <a data-guide=\"caravan-park-vs-holiday-park\">caravan park</a> (camping privé avec sanitaires, souvent des bungalows) ou un séjour à la ferme vous donnent une autorisation claire, et souvent des toilettes ou de l’eau. Arrivez avant la nuit et vérifiez que votre véhicule peut y accéder.",
-            "Ne dormez jamais dans un véhicule fermé avec un chauffage ou un réchaud à combustion allumé."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Stationner légalement n’est pas camper légalement",
-          "body": [
-            "Un véhicule peut être garé en toute légalité à un endroit où il est pourtant interdit de dormir dedans. C’est sur cette distinction que se jouent la plupart des amendes, et c’est pour cela que des voyageurs qui avaient bien lu les panneaux de stationnement se font quand même verbaliser.",
-            "Ce sont les règlements municipaux qui tranchent, et ils changent d’une municipalité à l’autre. Certains autorisent à dormir dans un véhicule dans des zones désignées, beaucoup l’interdisent dans tous les lieux publics, et les contrôles sont les plus stricts sur la côte et dans les zones touristiques.",
-            "Lisez la signalisation de la place précise, pas celle de la rue. Stationnement à durée limitée, zones réservées aux titulaires d’un permis et interdictions de nuit font souvent l’objet de panneaux distincts, et s’appliquent tous en même temps."
+            "Le <a data-guide=\"camping-rules-queensland\">Queensland</a> permet aux véhicules ordinaires et aux véhicules de loisirs de rester sur une aire de repos jusqu’à 20 heures sauf panneau contraire, mais il les qualifie de lieux d’arrêt et non de campings. Les aires de repos pour poids lourds sont réservées aux chauffeurs de camions, et les groupes électrogènes doivent rester éteints de 19 h à 7 h.",
+            "En Australie-Occidentale, on peut s’arrêter jusqu’à 24 heures consécutives sur les aires de repos signalées pour la nuit, qui, selon Main Roads WA, ne sont pas prévues pour camper, et il faut une autorisation pour passer la nuit ailleurs qu’en <a data-guide=\"caravan-park-vs-holiday-park\">caravan park</a> ou en camping. Le Territoire du Nord recense ses haltes routières une à une, et seules celles signalées pour 24 heures de camping de nuit l’autorisent.",
+            "Où que vous vous arrêtiez, garez-vous dans les places marquées, laissez libre le stationnement des camions et gardez l’auvent, les chaises et la table rangés. Une voiture où l’on dort passe pour une halte ; un camp installé passe pour du camping."
           ],
           "tips": [
-            "Bien garé ne veut pas dire autorisé à dormir",
-            "Les règles changent d’une municipalité à l’autre",
-            "Lisez le panneau de votre place"
+            "Queensland : 20 heures au maximum",
+            "WA : 24 heures là où c’est signalé",
+            "Laissez libres les places des camions"
           ]
         },
         {
-          "heading": "Là où c’est généralement admis",
+          "heading": "Municipalités, villes et littoral",
           "body": [
-            "Les aires de repos officielles le long des grands axes permettent de dormir pour gérer la <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">fatigue au volant</a>, en général jusqu’à 24 heures : dans tout le pays, c’est l’option la plus sûre du point de vue légal. Elles servent à se reposer, pas à installer un camp.",
-            "De nombreuses petites villes de l’intérieur mettent à disposition des aires de nuit gratuites ou peu chères où il est expressément permis de dormir dans son véhicule. Les showgrounds et les terrains de sport font souvent de même pour une somme modique.",
-            "Certaines stations-service ouvertes 24 h/24 et certains roadhouses (relais routiers des grandes routes isolées) acceptent le stationnement de nuit, surtout sur les longs itinéraires. Demandez à l’intérieur plutôt que de le supposer, et achetez quelque chose."
+            "Les règlements locaux sont à l’origine de la plupart des amendes. Sur la côte du Victoria, le Surf Coast Shire fait de dormir dans un véhicule n’importe où sur son territoire une infraction passible d’une amende immédiate de 300 $, et le Cairns Regional Council interdit le camping sur les bords de route, l’Esplanade, les parcs, les parkings et les plages.",
+            "Certaines municipalités de l’intérieur gèrent des aires gratuites ou bon marché pour les voyageurs. Le Northern Midlands Council, en <a data-guide=\"camping-rules-tasmania\">Tasmanie</a>, délivre par exemple des permis gratuits pour des séjours de 48 heures au plus, mais seulement aux véhicules totalement autonomes, avec leurs propres toilettes et douche, ce qui exclut la plupart des voitures.",
+            "Lisez le panneau de la place exacte, pas seulement celui de la rue. Limites de durée, zones à permis et panneaux d’interdiction de nuitée sont souvent côte à côte, et tous s’appliquent à la fois."
           ],
           "tips": [
-            "Aires de repos : jusqu’à 24 heures",
-            "Souvent permis dans les villes de l’intérieur",
-            "Au roadhouse, demandez d’abord"
+            "Certaines municipalités côtières verbalisent",
+            "Northern Midlands : 48 heures, véhicules autonomes uniquement",
+            "Lisez le panneau de la place exacte"
           ]
         },
         {
           "heading": "Dormir en voiture en toute sécurité",
           "body": [
-            "Choisissez un endroit éclairé, où d’autres véhicules sont garés et d’où vous pouvez repartir facilement. Si possible, garez-vous le nez vers la sortie, laissez les objets de valeur hors de vue et verrouillez les portières tout en gardant un moyen de sortir rapidement.",
-            "L’aération compte plus qu’on ne le croit. Une voiture fermée où l’on dort se charge vite d’humidité et l’air y devient étouffant ; par forte chaleur, c’est réellement dangereux. Entrouvrez les vitres, avec des moustiquaires si vous en avez.",
-            "Ne laissez jamais tourner le moteur pour la climatisation pendant que vous dormez. Les gaz d’échappement peuvent pénétrer dans l’habitacle, et le monoxyde de carbone, inodore, a déjà tué des gens qui faisaient exactement cela."
+            "Choisissez un endroit où il y a d’autres véhicules, un peu de lumière et une sortie facile. Garez-vous face à la sortie si possible, laissez les objets de valeur hors de vue et verrouillez les portières, tout en gardant une issue dégagée.",
+            "L’aération compte plus qu’on ne le croit. Une voiture fermée où l’on dort devient humide et étouffante en quelques heures, et par forte chaleur, elle devient dangereuse : entrouvrez un peu les vitres, derrière des moustiquaires.",
+            "Certaines stations-service ouvertes 24 h/24 et certains roadhouses (relais routiers des grandes routes isolées) acceptent le stationnement de nuit, surtout sur les longs itinéraires. Demandez à l’intérieur plutôt que de le supposer, et achetez quelque chose."
           ],
           "tips": [
-            "Le nez vers la sortie, issue dégagée",
-            "Aérez, ne calfeutrez pas",
-            "Coupez le moteur pour dormir"
+            "Garez-vous face à la sortie",
+            "Aérez derrière des moustiquaires",
+            "Laissez les objets de valeur hors de vue"
           ]
         },
         {
-          "heading": "Chaleur, froid : les limites concrètes",
+          "heading": "Monoxyde de carbone, chaleur et froid",
           "body": [
-            "En plein été australien, dormir dans une voiture non aérée n’est pas seulement inconfortable, c’est dangereux. Dans le nord, la température de l’habitacle grimpe vite et reste élevée toute la nuit : c’est la principale raison concrète de s’en abstenir.",
-            "En hiver, les nuits passent sous zéro dans l’intérieur des terres et en montagne, et une voiture n’isole presque pas du froid. Un vrai sac de couchage adapté aux températures compte encore plus en voiture que sous la tente.",
-            "Si vous le faites régulièrement, des pare-soleil pour les vitres, des moustiquaires et un bon matelas changent tout. Sans eux, cela passe pour une nuit, mais devient pénible au bout d’une semaine."
+            "Ne laissez jamais le moteur tourner pour chauffer ou climatiser pendant que vous dormez, et n’introduisez jamais de chauffage, de réchaud ou de barbecue à gaz à l’intérieur. L’organisme de sécurité gaz d’<a data-guide=\"camping-rules-western-australia\">Australie-Occidentale</a> avertit que les appareils à gaz portables d’extérieur ne doivent jamais servir à l’intérieur d’une tente, d’un espace semi-fermé, d’une caravane, d’un camping-car ou d’un local, en raison du risque d’intoxication au monoxyde de carbone.",
+            "La chaleur estivale est la principale limite pratique pour dormir en voiture. Les habitacles chauffent vite après le lever du soleil et restent chauds la nuit dans le nord : partez tôt le matin ou choisissez un emplacement avec électricité et de l’ombre.",
+            "L’hiver, les nuits passent sous zéro dans l’intérieur des terres et en montagne, et une voiture garde peu la chaleur. Un sac de couchage adapté aux conditions compte plus en voiture que sous la tente."
           ],
           "tips": [
-            "Dans le nord, l’habitacle surchauffe la nuit",
-            "Presque aucune isolation en hiver",
-            "Moustiquaires et pare-soleil changent tout"
+            "Ne laissez jamais le moteur tourner pendant que vous dormez",
+            "Aucun appareil à gaz à l’intérieur",
+            "Un sac de couchage adapté au gel"
           ]
         },
         {
           "heading": "Rendre la voiture vivable pour une nuit",
           "body": [
-            "Pare-soleil, moustiquaires et vrai matelas transforment la nuit en voiture : d’épreuve d’endurance, elle devient une solution que l’on peut répéter. Sans cet équipement, cela tient une nuit, mais une semaine entière devient vite un calvaire.",
-            "Un sol plat compte plus qu’il n’y paraît : une légère pente, imperceptible quand on se gare, devient flagrante une fois allongé. Il suffit souvent de garer le véhicule dans l’autre sens pour y remédier.",
-            "Pour un voyage plus long, un petit van ou un break sièges rabattus offre bien plus d’espace utile qu’une berline, pour un surcoût de location minime.",
+            "Pare-soleil, moustiquaires et vrai matelas font d’une nuit inconfortable une solution que l’on peut répéter toute une semaine. Sans eux, cela marche une fois, puis cela lasse très vite.",
+            "Un sol plat compte plus qu’on ne le croit : une pente qu’on ne remarque pas à l’arrêt devient évidente une fois allongé. Il suffit souvent de retourner la voiture pour y remédier.",
+            "Pour un voyage plus long, un petit van ou un break sièges rabattus offre bien plus de place qu’une berline."
+          ],
+          "tips": [
+            "D’abord pare-soleil et moustiquaires",
+            "Vérifiez la pente avant de dormir",
+            "Un break vaut mieux qu’une berline"
+          ]
+        },
+        {
+          "heading": "Où passer une nuit légale le plus facilement",
+          "body": [
+            "Les forêts domaniales sont l’option gratuite la plus simple en <a data-guide=\"camping-rules-new-south-wales\">Nouvelle-Galles du Sud</a> et dans le Victoria, où le camping est en général autorisé jusqu’à quatre semaines et 28 nuits consécutives respectivement. Les forêts de NSW n’autorisent pas le camping dans les aires de pique-nique, et dans le Victoria, vous devez camper à au moins 20 mètres des cours d’eau.",
+            "L’Australie-Méridionale autorise le camping sur les Crown land jusqu’à 21 jours sans autorisation, tandis que l’Australie-Occidentale attend de vous que vous utilisiez un <a data-guide=\"caravan-park-vs-holiday-park\">caravan park</a> agréé, un camping ou une aire de repos signalée, sauf autorisation.",
+            "Dans le doute, un camping simple ou un showground coûte peu et règle la question. Arrivez avant la nuit pour pouvoir lire les panneaux et vérifier l’accès pour votre véhicule.",
             "En été, la chaleur australienne rend une voiture non aérée réellement dangereuse la nuit : c’est elle, bien plus qu’un règlement local, qui fixe la limite pratique de cette façon de voyager."
           ],
           "tips": [
-            "Pare-soleil et moustiquaires font la différence",
-            "Un sol plat, ça compte une fois allongé",
-            "En pente, garez-vous dans l’autre sens"
+            "Forêts : gratuit en NSW et dans le Victoria",
+            "Crown land d’Australie-Méridionale : 21 jours",
+            "Arrivez avant la nuit"
           ]
         }
       ],
       "faq": [
         [
           "Est-il légal de dormir dans sa voiture en Australie ?",
-          "Tout dépend de l’endroit où la voiture est garée. Dormir dans un véhicule n’est pas une infraction en soi, mais camper dans un véhicule là où la municipalité l’interdit en est une, et c’est le cas dans la plupart des rues en ville, des parkings de plage et des réserves côtières."
+          "Oui, là où le camping est autorisé : campings réservés, forêts domaniales qui permettent de camper et aires de repos dont le règlement ou les panneaux autorisent une halte de nuit. De nombreuses municipalités assimilent dormir dans une voiture garée à du camping et verbalisent dans les rues, sur les plages et sur les parkings, comme l’amende immédiate de 300 $ du Surf Coast Shire."
         ],
         [
-          "Où peut-on dormir dans sa voiture en toute légalité ?",
-          "Sur les aires de repos officielles qui autorisent la nuit sur place, dans les campings et les caravan parks, et dans les municipalités dont le règlement le permet. Les roadhouses et certains parkings de pubs l’acceptent si vous en faites la demande : posez la question plutôt que de le supposer."
+          "Peut-on dormir dans sa voiture dans un parc national ?",
+          "Seulement là où le parc autorise le camping, ce qui signifie en général un camping désigné réservé à l’avance. Une voiture laissée la nuit sur une aire de jour ou au départ d’un sentier compte comme du camping sans autorisation."
         ]
       ],
-      "sources": [],
+      "sources": [
+        {
+          "label": "Queensland : aires de repos"
+        },
+        {
+          "label": "Main Roads WA : conduite sur longues distances"
+        },
+        {
+          "label": "Camper hors des caravan parks en Australie-Occidentale"
+        },
+        {
+          "label": "NT : aires de repos routières"
+        },
+        {
+          "label": "Service NSW : trouver des aires de repos"
+        },
+        {
+          "label": "NSW : note de pratique sur les caravan parks et terrains de camping, juillet 2026"
+        },
+        {
+          "label": "Surf Coast Shire : stationnement"
+        },
+        {
+          "label": "Cairns Regional Council : camping"
+        },
+        {
+          "label": "Queensland Parks : réservations de camping"
+        },
+        {
+          "label": "Camping isolé dans l’Alpine National Park"
+        },
+        {
+          "label": "Northern Midlands Council : villes accueillant les camping-cars"
+        },
+        {
+          "label": "WA Building and Energy : camper en sécurité avec du gaz"
+        },
+        {
+          "label": "NSW National Parks and Wildlife Regulation 2019"
+        },
+        {
+          "label": "Forestry Corporation of NSW : camping"
+        },
+        {
+          "label": "Gouvernement du Victoria : camper dans les forêts domaniales"
+        },
+        {
+          "label": "Accès aux Crown land d’Australie-Méridionale"
+        },
+        {
+          "label": "Queensland : règles des aires de repos (groupes électrogènes)"
+        },
+        {
+          "label": "NT Parks Visitor Pass"
+        }
+      ],
       "priceTable": null
     },
     "camping-rules-new-south-wales": {
@@ -2128,7 +2257,11 @@
             "Gardez vos déchets et vos eaux usées, utilisez les toilettes quand il y en a et repartez avant la fin de la durée autorisée. Le bruit, les feux et les campements qui s’étalent sont souvent ce qui pousse les localités à restreindre le camping gratuit.",
             "Si un site est complet, ne vous créez pas un emplacement sur la végétation ou dans une rue voisine."
           ],
-          "tips": []
+          "tips": [
+            "",
+            "",
+            "Identifiez le gestionnaire du terrain"
+          ]
         },
         {
           "heading": "Pas de réponse valable pour tout le pays",
@@ -2226,7 +2359,7 @@
           "tips": []
         },
         {
-          "heading": "Bois de chauffage et installation",
+          "heading": "Trois vérifications avant d’allumer",
           "body": [
             "Ramasser du bois est interdit dans de nombreux parcs, car le bois mort sert d’habitat. N’apportez du bois propre et non traité que là où le gestionnaire le permet.",
             "Utilisez un foyer existant, dégagez les abords comme indiqué et gardez de l’eau à côté de vous. N’allumez jamais sous des branches ni par vent fort."
@@ -2238,15 +2371,17 @@
           ]
         },
         {
-          "heading": "Éteindre jusqu’à refroidissement complet",
+          "heading": "Bois de chauffage et installation",
           "body": [
             "Éteignez avec de l’eau, remuez les restes et recommencez jusqu’à ce que tout soit assez froid pour être touché. Le sable peut cacher des braises encore chaudes au lieu de les éteindre.",
             "Ne laissez jamais un feu sans surveillance, pas même pendant votre sommeil. Si le vent se lève ou si les conditions vous semblent mauvaises, éteignez-le."
           ],
-          "tips": []
+          "tips": [
+            "Apportez votre bois"
+          ]
         },
         {
-          "heading": "Indices de danger et Total Fire Bans",
+          "heading": "Éteindre jusqu’à refroidissement complet",
           "body": [
             "L’Australie utilise un système national d’indice de danger d’incendie (Fire Danger Rating) à quatre niveaux, de Moderate à Catastrophic, publié chaque jour par district. Les Total Fire Bans (interdictions totales de feu) sont décrétés à part et proscrivent toute flamme nue, quel que soit l’indice.",
             "Un jour de Total Fire Ban, feux de camp et barbecues à combustible solide sont interdits. Les appareils au gaz sont généralement permis sous conditions, dont une zone dégagée et une surveillance constante, mais c’est le texte précis de l’interdiction qui fait foi.",
@@ -2285,7 +2420,7 @@
           ]
         },
         {
-          "heading": "L’éteindre, et les conséquences",
+          "heading": "Faire et maîtriser un feu autorisé",
           "body": [
             "Un feu est éteint quand il est froid au toucher. Arrosez, remuez les cendres, arrosez encore et continuez jusqu’à pouvoir mettre la main dans les restes. Les braises survivent sous la cendre pendant de longues heures.",
             "Un feu qui s’échappe entraîne de lourdes sanctions dans tous les États, y compris de fortes amendes et de la prison en cas de négligence avérée. Vous pouvez aussi devoir payer les frais de lutte contre l’incendie, qui atteignent des sommes considérables.",
@@ -2309,6 +2444,19 @@
             "Gaz en général permis sous conditions",
             "Jamais de cuisine en espace clos",
             "Le monoxyde de carbone est inodore"
+          ]
+        },
+        {
+          "heading": "Cuisiner quand le feu est interdit",
+          "body": [
+            "",
+            "",
+            ""
+          ],
+          "tips": [
+            "",
+            "Jamais de cuisine en espace clos",
+            ""
           ]
         }
       ],
@@ -2529,14 +2677,14 @@
           "tips": []
         },
         {
-          "heading": "Ce que recouvrent vraiment ces noms",
+          "heading": "Jugez sur les prestations, pas sur le nom",
           "body": [
             "Ce qui compte, ce sont les prestations, pas le nom : emplacements électrifiés ou non, sanitaires récents ou pas, présence d’une cuisine commune, d’une laverie, d’une piscine ou d’une <a data-guide=\"dump-points-australia-guide\">aire de vidange</a>, sans oublier les dimensions des emplacements par rapport à votre équipage.",
             "Certaines chaînes de campings vendent des adhésions payantes qui donnent droit à des réductions sur le prix de la nuit. Avant d’en acheter une, calculez si l’économie couvre le prix de la carte pour le nombre de nuits que vous passerez réellement dans les parcs de cette chaîne.",
             "Les chaînes et les cartes de membre donnent droit à des réductions sur le prix de la nuit, et sur un long voyage, l’adhésion est souvent vite amortie. Vérifiez d’abord si l’automobile-club de votre pays a un accord de réciprocité."
           ],
           "tips": [
-            "Deux noms, à peu près la même chose",
+            "Jugez sur les prestations, pas sur le nom",
             "Vérifiez la taille de l’emplacement pour votre équipage",
             "Faites le calcul de l’adhésion"
           ]
@@ -2625,119 +2773,186 @@
       "priceTable": null
     },
     "dump-points-australia-guide": {
-      "title": "Aires de vidange en Australie : les trouver et bien les utiliser",
-      "description": "Où trouver une aire de vidange en Australie et comment y vider eaux noires et eaux grises dans les règles, proprement, sans bloquer le voyageur suivant.",
+      "title": "Aires de vidange en Australie : où les trouver et comment les utiliser",
+      "description": "Où trouver les aires de vidange pour caravanes et vans dans chaque État, combien ont un robinet de rinçage, comment bien les utiliser et que faire des eaux grises.",
       "region": "Australie",
       "imageAlt": "Aire de vidange publique pour caravanes",
-      "intro": "Les eaux usées vont dans une aire de vidange agréée, pas dans un caniveau, dans le bush, sur la plage ni dans les toilettes d’un camping. Prévoyez la vidange avant que le réservoir soit plein.",
+      "intro": "Ne videz les toilettes d’une caravane ou d’un van que sur une aire de vidange. On en trouve dans les caravan parks, sur les showgrounds, les aires de repos et les offices de tourisme, et la National Public Toilet Map du gouvernement australien recense les aires publiques avec leurs équipements. AussieCamps en cartographie 347 en Nouvelle-Galles du Sud mais seulement 23 dans le Territoire du Nord : sur les étapes isolées, planifiez la prochaine aire de vidange aussi soigneusement que le prochain plein.",
       "sections": [
         {
-          "heading": "Trouver une aire compatible",
+          "heading": "Aires de vidange par État",
           "body": [
-            "Les aires de vidange publiques se trouvent dans les <a data-guide=\"caravan-park-vs-holiday-park\">caravan parks</a> (campings privés avec sanitaires, souvent des bungalows), les offices de tourisme, les showgrounds (terrains de foire agricole) et les aires routières. Vérifiez les horaires d’accès, le gabarit accepté et s’il faut une clé ou payer.",
-            "Une aire peut fermer pour entretien. Sur les longs trajets, ayez toujours une solution de repli."
+            "Les chiffres ci-dessous sont les aires de vidange publiques de la National Public Toilet Map que AussieCamps recense, par État. Les <a data-guide=\"caravan-park-vs-holiday-park\">caravan parks</a> (campings privés avec sanitaires) ont souvent leur propre aire de vidange, mais elles sont privées et ne sont pas comptées ici.",
+            "Un robinet de rinçage (washout) sert à rincer la cassette ou le tuyau après la vidange, et seule une aire de vidange sur six environ en a un. Emportez votre propre eau de rinçage plutôt que de compter dessus."
           ],
-          "tips": []
-        },
-        {
-          "heading": "Emportez le bon matériel",
-          "body": [
-            "Utilisez un tuyau bien fixé et des raccords adaptés au véhicule. Portez des gants, rangez à part le matériel destiné à l’eau potable et ne rincez jamais un tuyau d’évacuation au robinet d’eau potable.",
-            "Placez le véhicule sans gêner la circulation, puis suivez l’ordre des opérations affiché sur place."
-          ],
-          "tips": [
-            "Tuyau d’évacuation",
-            "Tuyau de rinçage dédié",
-            "Gants",
-            "Désinfectant"
-          ]
-        },
-        {
-          "heading": "Laisser l’aire prête pour le suivant",
-          "body": [
-            "Ne rincez que selon les consignes, refermez les couvercles et nettoyez immédiatement tout débordement. Si l’évacuation est bouchée, signalez-le au lieu de forcer en vidant davantage.",
-            "Ne videz jamais de produits chimiques pour WC dans une installation qui les interdit."
-          ],
-          "tips": []
+          "tips": [],
+          "table": {
+            "caption": "Aires de vidange publiques dans AussieCamps par État, données de septembre 2026",
+            "head": [
+              "État",
+              "Aires de vidange publiques",
+              "Avec robinet de rinçage"
+            ],
+            "rows": [
+              [
+                "Nouvelle-Galles du Sud",
+                "347",
+                "56"
+              ],
+              [
+                "Queensland",
+                "324",
+                "42"
+              ],
+              [
+                "Australie-Occidentale",
+                "238",
+                "36"
+              ],
+              [
+                "Australie-Méridionale",
+                "199",
+                "38"
+              ],
+              [
+                "Victoria",
+                "181",
+                "40"
+              ],
+              [
+                "Tasmanie",
+                "80",
+                "14"
+              ],
+              [
+                "Territoire du Nord",
+                "23",
+                "4"
+              ],
+              [
+                "ACT",
+                "1",
+                "0"
+              ]
+            ]
+          }
         },
         {
           "heading": "La repérer avant d’en avoir besoin",
           "body": [
-            "Les aires de vidange sont bien réparties : <a data-guide=\"caravan-park-vs-holiday-park\">caravan parks</a>, équipements municipaux, stations-service, aires de repos, offices de tourisme. La plupart sont gratuites ou demandent une petite somme. Le réflexe qui évite les ennuis : repérer la prochaine sur votre itinéraire plutôt que d’en chercher une quand le réservoir est plein.",
-            "Dans les caravan parks, l’aire de vidange est souvent accessible aux non-clients moyennant une petite somme, bon à savoir avant une longue étape isolée. Certaines ferment la nuit : arriver tard avec une cassette (WC chimique) pleine, c’est un manque d’anticipation.",
-            "Dans les régions isolées, les aires sont très espacées et certaines villes n’en ont aucune. Dans l’Outback, prévoyez l’arrêt vidange aussi soigneusement que le plein de carburant."
+            "L’habitude qui évite les ennuis, c’est de savoir où se trouve la prochaine aire de vidange avant que le réservoir soit presque plein. Vérifiez les horaires d’accès, la hauteur libre pour votre véhicule et s’il faut une clé, un code ou un paiement, car certaines sont verrouillées la nuit.",
+            "Dans le nord et l’Outback, les distances sont longues, et une aire de vidange peut être fermée pour maintenance. Gardez une deuxième option à chaque étape isolée, et demandez à l’accueil d’un <a data-guide=\"caravan-park-vs-holiday-park\">caravan park</a> si les non-clients peuvent utiliser la leur."
           ],
           "tips": [
-            "Repérez la prochaine aire à l’avance",
-            "Les caravan parks dépannent, contre paiement",
-            "Parfois des centaines de kilomètres entre deux aires"
+            "Repérez la prochaine à l’avance",
+            "Vérifiez horaires, clés et tarifs",
+            "Gardez une solution de repli sur les étapes isolées",
+            "Désinfectant"
+          ]
+        },
+        {
+          "heading": "Emportez le bon matériel",
+          "body": [
+            "Utilisez un tuyau bien fixé et des raccords adaptés au véhicule, portez des gants et gardez le matériel destiné à l’eau potable complètement à part. N’utilisez jamais un robinet d’eau potable pour rincer un tuyau d’évacuation.",
+            "Rangez des gants jetables et du gel hydroalcoolique avec le matériel de vidange, car il n’y a pas toujours de quoi se laver les mains sur les aires de vidange."
+          ],
+          "tips": [
+            "Tuyau d’évacuation et raccords",
+            "Gants et gel hydroalcoolique",
+            "Un tuyau de rinçage à part"
           ]
         },
         {
           "heading": "Bien utiliser une aire de vidange",
           "body": [
-            "Garez-vous de façon à laisser passer les autres véhicules, car les aires de vidange sont souvent desservies par une seule voie. Videz d’abord les eaux noires, rincez, puis videz les eaux grises, et rincez la zone ensuite au lieu de laisser ce soin au suivant.",
-            "Gardez le tuyau d’<a data-guide=\"camping-water-planning\">eau potable</a> totalement à l’écart de tout ce qui sert à la vidange, et ne remplissez jamais votre réservoir d’eau propre à un robinet de l’aire s’il n’est pas explicitement signalé comme potable. Lavez-vous les mains avant de toucher quoi que ce soit dans le véhicule.",
-            "N’utilisez que des produits compatibles avec l’installation qui reçoit les eaux. Beaucoup d’aires de vidange rurales sont reliées à des fosses septiques, et les produits agressifs au formaldéhyde abîment le processus biologique qui les fait fonctionner."
+            "Garez-vous de façon à laisser passer les autres véhicules, car beaucoup d’aires de vidange sont desservies par une seule voie. Videz d’abord les eaux noires, rincez, puis videz les eaux grises, et rincez la zone ensuite au lieu de laisser ce soin au suivant.",
+            "Ne remplissez jamais votre réservoir d’eau propre à un robinet d’une aire de vidange, sauf s’il est clairement signalé comme <a data-guide=\"camping-water-planning\">eau potable</a>, et lavez-vous les mains avant de toucher quoi que ce soit dans le véhicule.",
+            "Utilisez des produits pour toilettes que l’installation réceptrice peut traiter. Certaines aires de vidange rurales sont reliées à des fosses septiques, et les produits agressifs peuvent abîmer le processus biologique qui les fait fonctionner."
           ],
           "tips": [
-            "Eaux noires, rinçage, puis eaux grises",
-            "Des tuyaux strictement séparés",
+            "Eaux noires d’abord, puis eaux grises",
+            "Ne remplissez jamais l’eau potable à cet endroit",
             "Des produits compatibles fosse septique"
-          ]
-        },
-        {
-          "heading": "Les interdits et les sanctions",
-          "body": [
-            "Vider dans une bouche d’eaux pluviales envoie tout droit dans les cours d’eau, sans aucun traitement. Les toilettes publiques ne sont pas conçues pour le volume d’une cassette et se bouchent. Vider sur le sol ou dans le bush est l’infraction qui vaut les plus lourdes amendes.",
-            "Les amendes pour rejet illégal d’eaux usées sont nettement plus élevées que pour les infractions de camping ordinaires et peuvent atteindre plusieurs milliers de dollars, plusieurs États appliquant leur législation de protection de l’environnement.",
-            "C’est aussi le comportement qui risque le plus de faire fermer définitivement une aire de <a data-guide=\"is-free-camping-legal-australia\">camping gratuit</a>. Les municipalités (councils) prennent des photos, les riverains signalent, et le site ferme pour tout le monde."
-          ],
-          "tips": [
-            "Les eaux pluviales filent droit aux cours d’eau",
-            "Des amendes de plusieurs milliers de dollars",
-            "De quoi faire fermer un camping gratuit pour de bon"
-          ]
-        },
-        {
-          "heading": "En faire une routine",
-          "body": [
-            "Les voyageurs qui n’ont jamais de souci d’eaux usées vident à intervalles réguliers plutôt que dans l’urgence, en général dès qu’ils passent devant une aire avec des réservoirs remplis à plus de moitié. Cette seule habitude évite presque toutes les situations délicates.",
-            "Raisonnez en jours plutôt qu’en litres : combien de temps dure l’eau propre, au bout de combien de temps les eaux grises devront être vidées, combien de jours tiennent les toilettes pour votre groupe. Ce sont ces chiffres qui déterminent jusqu’où vous pouvez aller en autonomie.",
-            "Si votre équipement le permet, emportez une cassette de rechange. Sur les étapes isolées, elle double pratiquement votre autonomie, pour un coût minime."
-          ],
-          "tips": [
-            "Videz à intervalles réguliers, pas dans l’urgence",
-            "Raisonnez en jours, pas en litres",
-            "Une cassette de rechange double l’autonomie"
           ]
         },
         {
           "heading": "Cassette ou réservoir fixe",
           "body": [
-            "Avec des toilettes à cassette, le réservoir se porte à la main jusqu’à l’aire de vidange : vous pouvez donc utiliser les installations sans déplacer le véhicule, et même vider la cassette dans des toilettes publiques prévues pour cela, là où les panneaux l’autorisent.",
-            "Un réservoir fixe d’eaux noires oblige à conduire jusqu’à l’aire de vidange et à se garer juste au-dessus. Cette différence compte au moment de choisir un véhicule : la cassette offre plus de souplesse en ville et aux aires très fréquentées.",
+            "Une cassette de toilettes se porte jusqu’à l’aire de vidange, ce qui permet de la vider sans déplacer le véhicule. Certaines aires de vidange sont intégrées à des blocs sanitaires publics et figurent sur la Toilet Map, mais ne videz une cassette que dans des toilettes ou une aire de vidange signalées pour cet usage.",
+            "Un réservoir fixe d’eaux noires oblige à conduire jusqu’à l’aire de vidange et à se garer juste au-dessus, ce qui compte sur les aires très fréquentées et dans les villes à l’accès étroit.",
+            "Si votre installation le permet, une cassette de rechange double à peu près le temps que vous pouvez passer loin d’une aire de vidange sur une étape isolée."
+          ],
+          "tips": [
+            "La cassette se porte jusqu’à l’aire",
+            "Avec un réservoir fixe, il faut y amener le véhicule",
+            "Jamais dans des toilettes ordinaires"
+          ]
+        },
+        {
+          "heading": "Eaux grises",
+          "body": [
+            "Les eaux grises des douches et des éviers vont dans une aire de vidange ou là où le camping l’indique, pas sur le sol à côté du van. Les règles varient selon le gestionnaire du terrain : lisez la page du camping.",
+            "Là où vous campez sans équipements, les règles des forêts domaniales du <a data-guide=\"camping-rules-victoria\">Victoria</a> donnent la norme : versez l’eau de vaisselle à au moins 50 mètres des rivières et ruisseaux, et creusez les trous de toilettes à au moins 30 cm de profondeur et à 100 mètres de tout cours d’eau.",
+            "C’est aussi le comportement qui risque le plus de faire fermer définitivement une aire de <a data-guide=\"is-free-camping-legal-australia\">camping gratuit</a>. Les municipalités (councils) prennent des photos, les riverains signalent, et le site ferme pour tout le monde."
+          ],
+          "tips": [
+            "Suivez la règle du camping",
+            "Eau de lavage à 50 m des ruisseaux",
+            "Ne vidangez jamais sur les plages"
+          ]
+        },
+        {
+          "heading": "Les interdits et les sanctions",
+          "body": [
+            "Les bouches d’égout pluvial mènent droit aux cours d’eau, sans aucun traitement, et déverser des eaux usées sur le sol ou dans le bush est une infraction de pollution au regard du droit de l’environnement des États.",
+            "La <a data-guide=\"camping-rules-new-south-wales\">Nouvelle-Galles du Sud</a> a durci en avril 2024 ses sanctions contre les dépôts sauvages, avec notamment une infraction spécifique pour le dépôt de plus de 50 litres de déchets dans un lieu public, et des peines plus lourdes sur les terrains sensibles comme les parcs nationaux et les plages.",
+            "Les dépôts sauvages font aussi fermer des aires de <a data-guide=\"is-free-camping-legal-australia\">camping gratuit</a>. Les habitants les signalent, les municipalités agissent, et le site ferme pour tout le monde."
+          ],
+          "tips": [
+            "Les bouches d’égout mènent droit aux cours d’eau",
+            "Plus de 50 litres : une infraction spécifique en NSW",
+            "Les dépôts font fermer les camps gratuits"
+          ]
+        },
+        {
+          "heading": "En faire une routine",
+          "body": [
+            "Beaucoup de voyageurs vidangent selon un rythme régulier, en général dès qu’ils passent devant une aire de vidange avec des réservoirs remplis à plus de moitié, plutôt que lorsque la jauge les y oblige.",
+            "Raisonnez en jours plutôt qu’en litres : combien de temps dure l’eau propre, quand le réservoir d’eaux grises demandera votre attention et combien de jours tiennent les toilettes pour votre groupe. Ces chiffres déterminent jusqu’où vous pouvez aller hors des sentiers battus.",
             "Rangez des gants jetables et du gel hydroalcoolique avec le matériel de vidange, car il n’y a pas toujours de quoi se laver les mains sur les aires de vidange.",
             "Certaines aires de vidange ferment la nuit : arriver tard avec des réservoirs pleins relève d’un défaut d’organisation, pas de la malchance."
           ],
           "tips": [
-            "La cassette se porte jusqu’à l’aire",
-            "Avec un réservoir fixe, il faut amener le véhicule",
-            "La cassette, plus souple en ville"
+            "Videz à intervalles réguliers, pas dans l’urgence",
+            "Raisonnez en jours de capacité",
+            "À moitié plein, c’est le moment"
           ]
         }
       ],
       "faq": [
         [
           "Où vider les toilettes de sa caravane en Australie ?",
-          "Dans une aire de vidange publique (la plupart sont gérées par les municipalités et se trouvent sur les showgrounds, les terrains de sport et les roadhouses) ou dans un caravan park. Vider ailleurs, y compris dans des toilettes publiques, est illégal et lourdement sanctionné."
+          "Sur une aire de vidange. Les aires publiques se trouvent sur les showgrounds, les aires de repos, les offices de tourisme et les roadhouses, et figurent dans la National Public Toilet Map ; beaucoup de caravan parks ont aussi la leur. N’utilisez jamais une bouche d’égout ni le sol, et ne vidangez dans des toilettes que si un panneau l’autorise pour les cassettes."
         ],
         [
           "Peut-on vider ses eaux grises par terre en Australie ?",
-          "Cela dépend de l’endroit, et c’est de moins en moins le cas. Certaines municipalités isolées autorisent encore la dispersion des eaux grises, mais la plupart des zones peuplées et côtières imposent de passer par une aire de vidange, et les parcs nationaux l’interdisent purement et simplement."
+          "En règle générale, non. Les eaux grises vont dans une aire de vidange ou là où le camping l’indique, et là où il n’y a aucun équipement, la norme des forêts domaniales du Victoria est de verser l’eau de vaisselle à au moins 50 mètres des cours d’eau."
         ]
       ],
-      "sources": [],
+      "sources": [
+        {
+          "label": "National Public Toilet Map"
+        },
+        {
+          "label": "Camper dans les forêts domaniales du Victoria"
+        },
+        {
+          "label": "NSW EPA : renforcement de la réglementation et des sanctions"
+        },
+        {
+          "label": "NSW EPA : lois et sanctions sur les dépôts sauvages"
+        }
+      ],
       "priceTable": null
     },
     "camping-water-planning": {
@@ -4626,7 +4841,7 @@
           "tips": []
         },
         {
-          "heading": "Les tarifs des parcs nationaux varient selon l’État",
+          "heading": "Alterner nuits payantes et nuits simples",
           "body": [
             "Chaque État gère son propre réseau de parcs, avec sa grille tarifaire, sa plateforme de réservation et ses pass. Il n’existe pas de pass national pour camper dans les parcs, et un pass acheté dans un État ne vaut rien dans le suivant.",
             "Plusieurs États facturent l’entrée du véhicule séparément du camping : un emplacement affiché à un tarif bas peut donc revenir bien plus cher une fois l’entrée ajoutée. Vérifiez les deux montants avant de comparer.",
@@ -4720,6 +4935,18 @@
           },
           {
             "label": "Offre commerciale, emplacement électrifié",
+            "unit": "par emplacement/nuit"
+          },
+          {
+            "label": "",
+            "unit": ""
+          },
+          {
+            "label": "",
+            "unit": ""
+          },
+          {
+            "label": "",
             "unit": "par emplacement/nuit"
           }
         ]
