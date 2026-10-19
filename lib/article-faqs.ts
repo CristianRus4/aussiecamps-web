@@ -54,7 +54,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
   ],
   "campfires-camping-australia": [
     ["Can you have a campfire while camping in Australia?", "Yes, when there is no fire ban for the district and the campground allows fires, using the fireplace provided and wood you bring in. During a Total Fire Ban, or a local fire ban in Queensland, solid-fuel fires are illegal everywhere in that area, fire rings included."],
-    ["Can you use a gas stove on a total fire ban day?", "It depends on the state and the land. NSW national parks generally ban visitor-owned gas cookers on those days, South Australian and ACT parks ban portable stoves, Tasmania allows LPG and electric stoves but not liquid-fuel ones, and Queensland allows contained gas and spirit stoves during a fire ban."],
+    ["Can you use a gas stove on a total fire ban day?", "It depends on the state and the land. NSW national parks generally ban visitor-owned gas cookers on those days, ACT parks switch off gas barbecues, Tasmania allows LPG and electric stoves but not liquid-fuel ones, and Queensland allows contained gas and spirit stoves during a fire ban. In South Australia, check the park fire restrictions for the park you are in."],
   ],
   "sleeping-in-car-australia": [
     ["Is it legal to sleep in your car in Australia?", "Yes, where camping is allowed: booked campgrounds, state forests that permit camping, and rest areas whose rules or signs allow an overnight stop. Many councils count sleeping in a parked car as camping and fine it on streets, beaches and car parks, such as Surf Coast Shire's $300 on-the-spot fine."],
@@ -90,7 +90,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
   ],
   "towing-caravan-australia-road-rules": [
     ["What is the speed limit for towing a caravan in Australia?", "It depends on the state. Western Australia caps any vehicle towing a trailer or caravan at 100 km/h. In NSW the 100 km/h cap applies when the towing vehicle's GVM or GCM is over 4.5 tonnes; below that the posted limit applies. Check each state's towing rules before crossing a border, and drive to the rig's stability and the conditions."],
-    ["Do you need a special licence to tow a caravan in Australia?", "A standard car licence covers a tow vehicle of up to 4.5 tonnes gross vehicle mass (GVM); a heavier vehicle needs a light rigid licence or higher. The licence does not raise towing limits: the loaded caravan must stay within the lowest of the vehicle's towing capacity, the towbar and coupling rating and the caravan's own rating. In NSW, learners cannot tow and P1 drivers may only tow trailers up to 250 kg unladen."],
+    ["Do you need a special licence to tow a caravan in Australia?", "A standard car licence covers a tow vehicle of up to 4.5 tonnes gross vehicle mass (GVM); a heavier vehicle needs a light rigid licence or higher. The licence does not raise towing limits: the loaded caravan must stay within the lowest of the vehicle's towing capacity, the towbar and coupling rating, the caravan's own rating and the tyres' load rating. In NSW, learners cannot tow and P1 drivers may only tow trailers up to 250 kg unladen."],
   ],
   "driving-with-road-trains-australia": [
     ["How do you safely overtake a road train?", "With a very long clear stretch and a firm decision. A road train can run to 53.5 metres, so overtaking takes far more road than a truck, and pulling back in early is what causes the crashes. If in doubt, do not."],
@@ -115,7 +115,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["When is a caravan park worth the money?", "When you need power, hot showers, laundry and a resupply at once, or when the free and low-cost options nearby are full. Many long-trip travellers book one serviced night after two or three nights of bush camping."],
   ],
   "dump-points-australia-guide": [
-    ["Where can you empty a caravan toilet in Australia?", "At a dump point. Public ones sit at showgrounds, rest areas, visitor centres and roadhouses and are listed on the National Public Toilet Map, and many caravan parks have their own. Never use an ordinary toilet bowl, a drain or the ground."],
+    ["Where can you empty a caravan toilet in Australia?", "At a dump point. Public ones sit at showgrounds, rest areas, visitor centres and roadhouses and are listed on the National Public Toilet Map, and many caravan parks have their own. Never use a drain or the ground, and use a toilet only where it is signed for cassette disposal."],
     ["Can you empty grey water on the ground in Australia?", "Not as a rule. Grey water goes into a dump point or wherever the campground directs, and where there are no facilities the Victorian state forest standard is to tip washing-up water at least 50 metres from waterways."],
   ],
   "camping-water-planning": [
