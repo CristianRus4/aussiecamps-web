@@ -211,6 +211,11 @@ yomeanimo.com (Argentina/Chile, Working Holiday, «recorrer Australia en van»),
 | stickers / labels | «etiqueta» | «pegatina» mostly Spain |
 | licensing agent | «agente autorizado (licensing agent)» | |
 | probationary / graduated licence | «provisional» / «permiso por fases» | |
+| GeoNet / Volcanic Alert Level | «GeoNet (el servicio oficial de vigilancia de volcanes y terremotos)»; «nivel de alerta volcánica (Volcanic Alert Level)»; unrest «agitación volcánica»; lahar «lahares (coladas de barro volcánico)» | |
+| possum (NZ) | «possums (zarigüeyas australianas)» | plain «zarigüeya» is the American opossum |
+| 1080 | «el 1080, un veneno que se lanza desde el aire» | |
+| fare family / trunk route / seat-only fare | «tipos de tarifa» / «ruta principal» / «tarifa solo con asiento» | |
+| shuttle | «empresa de shuttle», «shuttles turísticos» | «lanzadera» Spain-only |
 
 ### App and product names
 
