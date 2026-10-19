@@ -20,6 +20,33 @@
       "glossary": { "Australia": { "de": "Australien", "es": "Australia", "fr": "Australie", "it": "Australia", "nl": "Australië", "pt": "Austrália" } },
       "varieties": { "pt": "pt-PT" },
       "register": { "de": "informal", "es": "informal", "fr": "formal", "it": "informal", "nl": "informal", "pt": "informal" }
+    },
+    {
+      "id": "aussiecamps-website-ja",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": ["ja"],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        { "locale": "ja", "path": "../lib/translations/ja.json" }
+      ],
+      "protectedTerms": ["AussieCamps", "AussieCamping", "AUD"],
+      "untranslatedKeys": ["ui.review*", "ui.reviewsEyebrow", "ui.reviewsTitle"],
+      "glossary": {
+        "Australia": { "ja": "オーストラリア" },
+        "New South Wales": { "ja": "ニューサウスウェールズ" },
+        "Victoria": { "ja": "ビクトリア" },
+        "Queensland": { "ja": "クイーンズランド" },
+        "South Australia": { "ja": "南オーストラリア" },
+        "Western Australia": { "ja": "西オーストラリア" },
+        "Tasmania": { "ja": "タスマニア" },
+        "Northern Territory": { "ja": "ノーザンテリトリー" },
+        "Australian Capital Territory": { "ja": "オーストラリア首都特別地域" },
+        "Tourism Australia": { "ja": "オーストラリア政府観光局" },
+        "Reserve Bank of Australia": { "ja": "オーストラリア準備銀行" }
+      },
+      "register": { "ja": "formal" },
+      "styleGuide": { "ja": "Follow docs/translation-style/ja.md: natural です・ます travel-writer Japanese, full-width punctuation, katakana exonyms, no ダンプ and no offline-map claims." }
     }
   ]
 }
