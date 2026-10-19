@@ -1,6 +1,1131 @@
 {
   "locale": "sv",
-  "ui": {},
-  "pages": {},
-  "articles": {}
+  "ui": {
+    "languageName": "Svenska",
+    "metaTitle": "AussieCamps: campingkarta och reseplanerare för Australien",
+    "metaDescription": "Över 74 000 campingplatser, gratisplatser, rastplatser och tömningsstationer i hela Australien. Platsinfo utan täckning, smarta filter och reseplanerare för iPhone.",
+    "ogTitle": "AussieCamps: campingkartan och reseplaneraren för Australien",
+    "ogDescription": "Över 74 000 campingplatser, caravan parks, gratisplatser och praktiska stopp, sparade offline i appen. Filtrera, spara och planera hela varvet runt landet.",
+    "metaKeywords": "campingapp Australien, fricamping Australien, campingplatser Australien, caravan parks Australien, husbil Australien, Big Lap-app, tömningsstationer Australien, rastplatser Australien, planera roadtrip Australien",
+    "metaGuidesTitle": "Guider för camping och roadtrip i Australien",
+    "metaGuidesDescription": "Campingregler per delstat, fricamping och rastplatser, eldningsförbud, trafiksäkerhet, säsonger, verkliga kostnader och praktisk planering för din roadtrip i Australien.",
+    "metaToolsTitle": "Räknare för en roadtrip i Australien",
+    "metaToolsDescription": "Räkna om australiska priser, beräkna bränslet för resan, uppskatta en realistisk kördag, se hur länge vatten- och gråvattentanken räcker och jämför campingpriser.",
+    "metaSupportTitle": "Support och vanliga frågor",
+    "metaSupportDescription": "Hjälp med kartor, platsinformation, filter, samlingar, reseplaneraren, offlinedata, valutaomräkning och Premium i AussieCamps.",
+    "navFeatures": "Funktioner",
+    "navGuides": "Guider",
+    "navTools": "Verktyg",
+    "navSupport": "Support",
+    "download": "Ladda ner appen",
+    "downloadShort": "Ladda ner",
+    "updated": "Uppdaterad",
+    "commonQuestions": "Vanliga frågor",
+    "altHero": "AussieCamps-kartan över Australien med kartnålar för campingplatser, caravan parks och gratisplatser längs kusten, och listan Utforska med platser i närheten nedanför",
+    "altPlaceScreen": "En platssida i AussieCamps för en campingplats vid kusten, med avgift, om platsen är öppen, faciliteter och en bokningslänk",
+    "altCollectionsScreen": "Samlingarna i AussieCamps med listorna Vill besöka, Besökta, Pins och Alla sparade ovanpå en satellitkarta",
+    "altTripScreen": "En resplan för en roadtrip i AussieCamps med sju stopp, körsträcka, datum och vädret vid varje campingplats",
+    "altExploreScreen": "Listan Utforska i AussieCamps med campingplatser och caravan parks och hur långt bort de ligger från den aktuella kartvyn",
+    "heroKicker": "Den bästa campingappen för Australien",
+    "heroTitle": "Australien är stort. Din plan kan vara enkel.",
+    "heroText": "Över 74 000 platser i hela Australien, sparade i appen så att de öppnas även utan täckning. Filtrera fram exakt det du behöver, spara det och gör om urvalet till en roadtrip med rutt, avstånd, datum, anteckningar och att göra-lista.",
+    "seeHow": "Se hur det fungerar",
+    "statPlaces": "74 000+",
+    "statPlacesLabel": "platser i hela Australien",
+    "statOffline": "Offline",
+    "statOfflineLabel": "all platsinformation, ingen täckning behövs",
+    "statStays": "4 000+",
+    "statStaysLabel": "boenden",
+    "trustLine": "Campingplatser, caravan parks och praktiska stopp i hela Australien.",
+    "trustCampsites": "Campingplatser",
+    "trustCaravanParks": "Caravan parks",
+    "trustNationalParks": "Nationalparker",
+    "trustRestAreas": "Rastplatser",
+    "trustUsefulStops": "Praktiska stopp",
+    "trustExperiences": "Upplevelser",
+    "processEyebrow": "Från idé till avfärd",
+    "processTitle": "Hitta campingen. Planera resan.",
+    "processText": "Filtrera fram var du ska sova i natt, spara morgondagens alternativ i samlingar och håll rutt, avstånd, datum, anteckningar och att göra-lista samlade i en och samma resa.",
+    "findTitle": "Hitta precis rätt plats",
+    "findText": "Sök bland över 74 000 platser, se vad som finns i närheten eller lägg på filter tills bara gratis campingplatser med toalett och vatten finns kvar på just din del av kartan.",
+    "saveTitle": "Spara den i en samling",
+    "saveText": "Gilla, stjärnmärk eller markera en plats som besökt, så uppdateras de smarta samlingarna av sig själva. Gör egna listor med namn för en region, en säsong eller ett urval.",
+    "planTitle": "Gör om den till en resa",
+    "planText": "Lägg stoppen i ordning, se avståndet mellan dem, lägg till datum och anteckningar, kolla vädret vid varje stopp, få vägbeskrivning och bocka av dem allteftersom.",
+    "featuresEyebrow": "Hela verktygslådan",
+    "featuresTitle": "Hitta den. Spara den. Planera hela resan.",
+    "featuresText": "Utforska platser, jämför detaljerna, ordna favoriterna och planera en resa som håller även när du har lämnat köksbordet.",
+    "featureMainEyebrow": "Lär känna platsen innan du kommer dit",
+    "featureMainTitle": "Varje plats öppnas med det som avgör valet.",
+    "featureMainText": "Foton, en riktig beskrivning, öppettider, avgifter, villkor, faciliteter och egenskaper sorterade efter typ, aktuella varningar, betyg, kontakt- och bokningsuppgifter, väder och Street View så att du ser infarten från vägen.",
+    "featureList1": "Foton, öppettider, avgifter, villkor och faciliteter",
+    "featureList2": "Street View, väder och vägbeskrivning direkt i appen",
+    "featureList3": "Finns offline och öppnas utan täckning",
+    "feature1Title": "Smarta samlingar och egna listor",
+    "feature1Text": "”Gillade”, ”Stjärnmärkt”, ”Vill besöka” och ”Besökta” fylls på av sig själva när du markerar platser. Skapa egna samlingar ovanpå för en region, en säsong eller den lista ni fortfarande inte är överens om.",
+    "feature2Title": "Filter som svarar på en riktig fråga",
+    "feature2Text": "Sök efter gratis campingplatser med toalett och dricksvatten runt Gold Coast och smalna sedan av efter kategori, avgift, betyg, bokning på nätet, delstat och detaljerade egenskaper för framkomlighet, faciliteter, aktiviteter och service.",
+    "feature3Title": "Standardkarta, satellit och 3D",
+    "feature3Text": "Växla mellan standardkartan och satellitbilder som du kan luta och vrida till verklig terräng. Kartnålarna slås ihop till en siffra när du zoomar ut och delas upp igen när du zoomar in.",
+    "feature4Title": "Street View innan du svänger av",
+    "feature4Text": "Street View öppnas direkt från platssidan där det finns bilder, så att du ser infarten, vägbeläggningen och omgivningen innan du svänger in med husbilen.",
+    "feature5Title": "Väder för varje plats",
+    "feature5Text": "Aktuellt väder och prognos finns på platssidan och vid varje stopp på resan, så att du kan välja mellan två campingplatser med ett öga på himlen.",
+    "feature6Title": "Kostnader i din egen valuta",
+    "feature6Text": "På besök och inte van vid australiska dollar? Välj din valuta och ställ in kursen en gång, så visas de uppgivna avgifterna även i en valuta du har känsla för.",
+    "plannerEyebrow": "Huvudnumret",
+    "plannerTitle": "Stopp för stopp. Dag för dag.",
+    "plannerText": "Reseplaneraren är navet som allt annat leder till. Lägg till sparade platser som stopp och dra dem i den ordning du faktiskt kommer att köra. Varje etapp visar sitt avstånd, vägbeskrivningen till nästa stopp är ett tryck bort, varje stopp har eget datum, egna anteckningar inför ankomsten och eget väder, och du bockar av stoppen som besökta under resan. Alternativ i närheten finns kvar för dagarna då planerna ändras, packlistan ligger bredvid resplanen och alltihop kan synkas med Kalender.",
+    "plannerMetric1Title": "Avstånd och vägbeskrivning",
+    "plannerMetric1Text": "etapp för etapp och för hela resan",
+    "plannerMetric2Title": "Datum och anteckningar",
+    "plannerMetric2Text": "kopplade till varje stopp",
+    "plannerMetric3Title": "Besökt och att göra",
+    "plannerMetric3Text": "så att du ser hur långt du har kommit",
+    "plannerMetric4Title": "Väder per stopp",
+    "plannerMetric4Text": "bredvid resplanen",
+    "routesEyebrow": "Guider värda att läsa först",
+    "routesTitle": "Koll på reglerna. Koll på kostnaderna.",
+    "routesText": "Praktiska guider om campingregler, trafiksäkerhet, rätt säsong och vad en resa i Australien faktiskt kostar.",
+    "exploreRoutes": "Utforska guiderna",
+    "audiencesEyebrow": "Vilket hem du än tar med dig",
+    "audiencesTitle": "För tält, husbilar och varvet runt Australien.",
+    "audience1Title": "Backpackers",
+    "audience1Text": "Få en snål budget och en flexibel rutt att gå ihop.",
+    "audience2Title": "Husbilar",
+    "audience2Text": "Hitta rätt mix av faciliteter, framkomlighet och övernattningsplatser.",
+    "audience3Title": "Husvagnar och stora ekipage",
+    "audience3Text": "Filtrera på utrymme, service och praktisk info om framkomlighet.",
+    "audience4Title": "Helgcampare",
+    "audience4Text": "Ha favoriterna i närheten redo när fredagen kommer.",
+    "principlesTitle": "Användbart först. Ärligt alltid.",
+    "principle1Title": "Skyltarna gäller före skärmen",
+    "principle1Text": "Anslag på plats, förvaltarens besked och aktuella råd vid nödlägen går alltid före det som står i appen.",
+    "principle2Title": "Kolla läget innan du åker",
+    "principle2Text": "Kolla de senaste uppgifterna om bokning, vägar, brandrisk och avstängningar innan du ger dig av.",
+    "principle3Title": "Lämna platsen finare",
+    "principle3Text": "Laglig camping, genomtänkt avfallshantering och respekt för Country, landet i aboriginsk mening, gör att platserna får fortsätta vara öppna.",
+    "faqEyebrow": "Några raka svar",
+    "faqTitle": "Bra frågor. Tydliga svar.",
+    "faqIntro": "Raka svar om att resa med AussieCamps.",
+    "faq1q": "Vad är AussieCamps?",
+    "faq1a": "AussieCamps är en iPhone-app för att hitta platser att campa och bo på runt om i Australien. Appen har en inbyggd katalog med över 74 000 platser, så att informationen går att läsa utan täckning, och gör om de platser du sparar till en roadtrip med rutt i rätt ordning, datum, anteckningar och att göra-lista.",
+    "faq2q": "Vilka platser finns med?",
+    "faq2a": "Över 74 000 platser: campingplatser, caravan parks, boenden med tak över huvudet, gårdsboenden och boenden på boskapsstationer, vandrarhem, rastplatser längs vägen, picknickplatser, tömningsstationer, dricksvatten, tvättomater, turistinformationer, parkering för långa fordon, upplevelser och andra praktiska stopp.",
+    "faq3q": "Fungerar den utan täckning?",
+    "faq3a": "Platskatalogen följer med appen, så namn, kategorier, beskrivningar, avgifter, faciliteter, öppettider och villkor går att läsa långt bortom täckningen. Livetjänster som väder, ruttberäkning, Street View, foton och leverantörernas sidor kräver fortfarande uppkoppling.",
+    "faq4q": "Kan jag planera en roadtrip med flera stopp?",
+    "faq4a": "Ja, det är appens viktigaste funktion. Lägg till platser som stopp, dra dem i rätt ordning, koppla ett datum och anteckningar inför ankomsten till varje stopp, se körsträckan etapp för etapp och för hela resan, öppna vägbeskrivningen till nästa stopp, kolla vädret vid varje stopp, bocka av stoppen som besökta och ha packlistan bredvid resplanen. Resplanen kan synkas med Kalender.",
+    "faq5q": "Vad är samlingar?",
+    "faq5a": "Det finns två slags. Smarta samlingar (”Gillade”, ”Stjärnmärkt”, ”Vill besöka”, ”Besökta”, ”Pins” och ”Alla sparade”) fylls på av sig själva när du markerar platser. Utöver dem kan du skapa egna samlingar med namn, ikon och anteckningar för en region, en säsong, ett fordon eller ett urval.",
+    "faq6q": "Kan jag filtrera fram gratisplatser eller platser som funkar med husvagn?",
+    "faq6a": "Ja, och kombinera dem. Filtren täcker kategori, typ av avgift, lägsta betyg, bokning på nätet, delstat eller territorium och detaljerade grupper för framkomlighet, faciliteter, aktiviteter, service och kedjor eller medlemskap, så ”gratis campingplatser med toalett och dricksvatten i Queensland” blir en enda sökning.",
+    "faq7q": "Vad finns på en platssida?",
+    "faq7a": "Foton, en beskrivning, öppettider, avgifter, villkor, faciliteter och egenskaper sorterade efter typ, aktuella varningar, betyg, kontakt- och bokningsuppgifter, väder, Street View där det finns bilder, vägbeskrivning och alternativ i närheten.",
+    "faq8q": "Vilka kartvyer finns det?",
+    "faq8a": "En standardkarta och en satellitvy som bygger på Apples Flyover-bilder, som du kan luta och vrida för verklig 3D-terräng. Street View, som bygger på bilderna från Apples Se dig omkring, ger vyn från gatunivå direkt från platssidan.",
+    "faq9q": "Kan jag se priserna i min egen valuta?",
+    "faq9a": "Ja. Välj valuta i inställningarna och ställ in växelkursen, så visas de uppgivna avgifterna i den valutan bredvid beloppet i australiska dollar.",
+    "faq10q": "Kan jag boka en campingplats i AussieCamps?",
+    "faq10a": "Öppna bokningsuppgifterna för en plats för att komma vidare till leverantören och kolla aktuell tillgänglighet, priser och villkor.",
+    "faq11q": "Är campingreglerna desamma i hela Australien?",
+    "faq11a": "Nej. Reglerna skiljer sig mellan delstater, territorier, kommuner, parker och enskilda platser. Följ alltid aktuella skyltar, förvaltarens villkor, eldningsrestriktioner och officiella varningar.",
+    "downloadEyebrow": "Nästa plats väntar där ute",
+    "downloadTitle": "Hitta den. Spara den. Planera resan.",
+    "downloadText": "Över 74 000 australiska platser offline, filter som hittar exakt rätt plats, samlingar som ordnar sig själva och en reseplanerare som rymmer hela rutten. AussieCamps för iOS.",
+    "guidesEyebrow": "Campingguider för Australien",
+    "guidesTitle": "Följ vägen dit det är fint.",
+    "guidesIntro": "Utförliga guider om campingplatser, regler, kostnader på plats och praktisk planering i hela Australien.",
+    "guideSingular": "guide",
+    "guidePlural": "guider",
+    "readGuide": "Läs guiden",
+    "minuteRead": "min läsning",
+    "places": "platser",
+    "backToGuides": "Guider",
+    "photoCredits": "Bildkällor",
+    "keepInMind": "Tänk på",
+    "placesAlong": "Platser längs vägen",
+    "checkBefore": "Kolla innan du åker",
+    "checkText": "Regler och förhållanden ändras. Kolla den officiella källan och sidan för just din park eller campingplats igen innan du åker.",
+    "priceTitle": "Pristabell i 10 valutor",
+    "pricesChecked": "Priserna kontrollerade",
+    "conversionsUse": "Omräkningarna bygger på RBA:s kurser från",
+    "item": "Vara",
+    "currencyDisclaimer": "Beloppen i andra valutor är mekaniska omräkningar av referenspriset i AUD, inte kurser för kort eller kontanter. Banker och betaltjänster använder egna kurser och avgifter.",
+    "related": "Läs också",
+    "takeRoad": "Ta med appen på resan",
+    "savePlanTitle": "Spara stoppen. Planera hela resan.",
+    "savePlanText": "Lägg upp en rutt i rätt ordning av dina sparade platser, räkna ut avståndet och håll datum, anteckningar och att göra-lista samlade.",
+    "toolsEyebrow": "Bra siffror att ha",
+    "toolsTitle": "Räknare för roadtripen. Inga mystiska siffror.",
+    "toolsIntro": "Snabba räknare för australiska priser, avstånd och hur länge vatten- och gråvattentanken räcker. Varje antagande syns, så att du kan byta ut det mot den siffra som passar din rutt.",
+    "currencyEyebrow": "Valutaomräknare",
+    "currencyTitle": "Räkna om ett australiskt pris.",
+    "currencyText": "Referensomräkning för reseplanering med kurser från Reserve Bank of Australia. Din bank eller ditt kort kan använda en annan kurs och lägga på avgifter.",
+    "fuelEyebrow": "Bränsleräknare",
+    "fuelTitle": "Vad kostar sträckan?",
+    "fuelText": "Ange hela ruttens längd, fordonets förbrukning med full last och det literpris du räknar med. Långt ute på landsbygden kan priset ligga över storstädernas.",
+    "driveEyebrow": "Räkna på kördagen",
+    "driveTitle": "Så lång blir kördagen i verkligheten.",
+    "driveText": "Navigeringsappar räknar körtid på en perfekt väg. Här läggs vägens karaktär och dina faktiska stopp till, och det är där en dag oftast drar över.",
+    "tankEyebrow": "Planera vatten och gråvatten",
+    "tankTitle": "Så många dagar räcker tankarna.",
+    "tankText": "Tankvolym i liter blir användbar först när den räknas om till dagar. Gråvattentanken blir oftast full innan färskvattnet tar slut, så båda visas.",
+    "campEyebrow": "Jämför campingpriser",
+    "campTitle": "Per person eller per plats?",
+    "campText": "En campingplats i en nationalpark tar oftast betalt per vuxen och en holiday park oftast per plats. Vilket som blir billigast beror på hur många ni är, och det är där barnfamiljer brukar gå bet.",
+    "amount": "Belopp",
+    "from": "Från",
+    "to": "Till",
+    "labelDistance": "Avstånd (km)",
+    "labelConsumption": "Förbrukning (l/100 km)",
+    "labelFuelPrice": "Bränslepris (AUD/l)",
+    "labelRoadType": "Vägtyp",
+    "roadMotorway": "Motorväg eller rak landsväg",
+    "roadHighway": "Större huvudväg",
+    "roadWinding": "Kurvig väg eller kustväg",
+    "roadNarrow": "Smal, brant väg eller grusväg",
+    "labelStops": "Stopp",
+    "labelFresh": "Färskvatten (l)",
+    "labelGrey": "Gråvatten (l)",
+    "labelPeople": "Personer",
+    "labelAdults": "Vuxna",
+    "labelNights": "Nätter",
+    "labelPerAdult": "Per vuxen (AUD)",
+    "labelPerSite": "Per plats (AUD)",
+    "toolsReadingTitle": "Gör budgeten utifrån aktuella riktpriser.",
+    "toolsReadingText": "Verktygen räknar exakt på det du matar in. Våra kostnadsguider förklarar var startsiffrorna kommer ifrån, när de kontrollerades och vad som kan ändra slutpriset.",
+    "toolsReadingLink": "Utforska kostnadsguiderna",
+    "calculatorNote": "Räknarna är ett stöd för planeringen, inte aktuella priser från bokningar, mackar eller valutaväxlare. Tankberäkningen utgår från ungefär 11 liter färskvatten och 9 liter gråvatten per person och dag, vilket varierar med hur mycket du duschar och lagar mat. Kolla aktuella priser innan du köper.",
+    "enterValidValues": "Ange giltiga värden",
+    "enterValidAmount": "Ange ett giltigt belopp",
+    "daysFresh": "dagar färskvatten",
+    "daysGrey": "dagar gråvatten",
+    "theSame": "samma",
+    "perAdultCheaper": "per vuxen är billigare",
+    "perSiteCheaper": "per plats är billigare",
+    "supportTitle": "Hur kan vi hjälpa till?",
+    "supportIntro": "Svar om att hitta platser, spara favoriter, planera resor och använda AussieCamps på vägen.",
+    "contact": "Kontakta support",
+    "privacy": "Integritet",
+    "terms": "Villkor",
+    "explore": "Utforska",
+    "help": "Hjälp",
+    "getApp": "Hämta appen",
+    "travelGuides": "Reseguider",
+    "footerText": "Hitta över 74 000 australiska platser offline, spara dem som betyder något och planera hela roadtrips med rutter, avstånd, datum, anteckningar och att göra-listor.",
+    "footerLine": "Gjord för den långa vägen runt Australien.",
+    "rulesSafety": "Regler och säkerhet",
+    "roadTrips": "Roadtrips",
+    "campingGuides": "Campingguider",
+    "tripPlanning": "Reseplanering",
+    "costsBudget": "Kostnader och budget",
+    "appGuides": "Appguider"
+  },
+  "consent": {
+    "label": "Integritetsval",
+    "message": "Får vi använda cookies från Google Analytics för att se vilka sidor som läses och vilka App Store-länkar som används? Inget används för reklam.",
+    "accept": "Godkänn",
+    "decline": "Avböj",
+    "learnMore": "Integritetspolicy",
+    "privacyChoices": "Integritetsval"
+  },
+  "pages": {
+    "support": {
+      "title": "Hur kan vi hjälpa till?",
+      "lede": "Tydliga svar om kartor, sparade platser, reseplanering och resan som ligger framför dig.",
+      "sections": [
+        {
+          "heading": "Hitta platser",
+          "paragraphs": [
+            "Använd ”Utforska” för att söka på en plats namn, adress eller beskrivning. Flytta kartan och välj alternativet för det aktuella området, så samlas resultaten kring det du ser på kartan.",
+            "Filtrera på platskategori, avgift, betyg, bokning på nätet, delstat och detaljerade grupper för framkomlighet, faciliteter, aktiviteter och service. Kombinera bara de filter som spelar roll, så att användbara alternativ inte försvinner ur listan.",
+            "Faciliteter, avgifter, framkomlighet och förvaltning kan ändras. Följ aktuella skyltar och förvaltarens besked, och skicka sedan gärna en rättelse så att katalogen blir bättre."
+          ]
+        },
+        {
+          "heading": "Sparade platser",
+          "paragraphs": [
+            "”Gillade”, ”Besökta”, ”Vill besöka” och ”Stjärnmärkt” uppdateras automatiskt när du markerar platser. ”Pins” och ”Alla sparade” ger fler snabba vyer.",
+            "Skapa samlingar med namn, ikon och anteckningar och lägg sedan till vilka platser du vill. Använd dem för en region, en säsong, ett fordon eller ett urval.",
+            "Appen kan synka dina markeringar, samlingar och resor privat via iCloud när iCloud finns och är aktiverat."
+          ]
+        },
+        {
+          "heading": "Reseplaneraren",
+          "paragraphs": [
+            "Skapa en resa, lägg till platser och dra dem i rätt ordning. Varje stopp kan ha eget ankomstdatum, egna anteckningar, väder och status som besökt, och planeraren visar körsträckan etapp för etapp och för hela resan.",
+            "Ruttberäkningen bygger på de vägbeskrivningar som MapKit kan ta fram. Om en etapp inte går att beräkna finns stoppen kvar, men du måste själv kontrollera att vägen går att köra just nu.",
+            "Börja med en färdig mall med det viktigaste för campingen eller skriv egna uppgifter. I vyn ”Resans framsteg” ligger listan bredvid resplanen, och resplanen kan synkas med Kalender."
+          ]
+        },
+        {
+          "heading": "Kartor, väder och liveinformation",
+          "paragraphs": [
+            "Växla mellan standardkartan och en satellitvy som bygger på Apples Flyover-bilder och som går att luta och vrida till 3D-terräng. Street View, som bygger på bilderna från Apples Se dig omkring, öppnas från platssidan där det finns bilder.",
+            "Aktuellt väder och prognoser kräver uppkoppling. Spara viktiga prognoser och officiella varningar innan du lämnar täckningen.",
+            "Platskatalogen följer med appen, så den viktigaste platsinformationen finns kvar även där täckningen sviktar. Kartan, ruttberäkningen, vädret, foton och externa leverantörers sidor hämtas live och kan kräva täckning."
+          ]
+        },
+        {
+          "heading": "Priser och valuta",
+          "paragraphs": [
+            "Välj valuta i inställningarna och ställ in växelkursen. De uppgivna avgifterna visas sedan i den valutan bredvid beloppet i australiska dollar, vilket hjälper när du är på besök och inte har någon känsla för AUD.",
+            "Öppna boknings- eller kontaktuppgifterna för en plats för att kolla tillgänglighet, pris och villkor med leverantören. Priserna i appen är uppgivna belopp, inte aktuella offerter."
+          ]
+        },
+        {
+          "heading": "Premium och konto",
+          "paragraphs": [
+            "Kartan och platsinformationen är gratis, liksom två sparade listor.",
+            "Premium ger obegränsat antal sparade listor, reseplanering, avancerade filter, väder för varje plats och färdiga rutter för roadtrips.",
+            "Öppna Premiumskärmen och tryck på ”Återställ köp” medan du är inloggad med det Apple-konto som användes vid det ursprungliga köpet."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "effective": "Gäller från 19 oktober 2026",
+      "title": "Integritetspolicy",
+      "lede": "AussieCamps hjälper dig att planera en resa utan att göra dina resor till en reklamprofil.",
+      "sections": [
+        {
+          "heading": "Uppgifter som sparas på din enhet",
+          "paragraphs": [
+            "Sparade platser, vilka samlingar de ligger i, resor, anteckningar, punkter i checklistor och inställningar sparas för att appen ska fungera. Din position kan användas för att visa var du är och vilka platser som finns i närheten, men först när du har gett tillstånd."
+          ]
+        },
+        {
+          "heading": "iCloud",
+          "paragraphs": [
+            "När iCloud finns och är aktiverat kan appen använda din privata iCloud-databas för att synka markeringar, samlingar och appdata mellan dina enheter. Apple tillhandahåller själva tjänsten, och där gäller Apples egna villkor."
+          ]
+        },
+        {
+          "heading": "Apple-tjänster som kräver uppkoppling",
+          "paragraphs": [
+            "Kartvisning, vägbeskrivningar, Se dig omkring, väder, kalenderkoppling och widgetar kan använda Apples ramverk. Förfrågningar och datahantering för de tjänsterna styrs av Apple. Appen använder kalendern först när du har gett tillstånd, och bara för att lägga in den information om resplanen som du själv ber om."
+          ]
+        },
+        {
+          "heading": "Externa länkar och webbplatsloggar",
+          "paragraphs": [
+            "Från platsinformationen kan du öppna bokningstjänster, webbplatser, sociala profiler, telefonnummer, e-postadresser och kartappar. De tjänsterna tar emot uppgifter enligt sina egna policyer när du väljer att öppna dem.",
+            "Webbhotellet kan behandla vanliga tekniska loggar som IP-adress, webbläsartyp och begärd URL för att kunna leverera webbplatsen, hålla den stabil och skydda den."
+          ]
+        },
+        {
+          "heading": "Webbanalys",
+          "paragraphs": [
+            "Den här webbplatsen använder Google Analytics 4 för att förstå vilka sidor som läses och hur besökare hittar appen. Google behandlar uppgifterna för vår räkning, som vårt personuppgiftsbiträde. För besökare i Europeiska ekonomiska samarbetsområdet (EES), Storbritannien och Schweiz tillhandahålls tjänsten av Google Ireland Limited.",
+            "Analysen registrerar vilka sidor du tittar på, vilken typ av enhet och webbläsare du använder, en ungefärlig position som härleds från din IP-adress och vilka App Store-länkar du klickar på. Google Analytics 4 loggar och lagrar inte IP-adresser, och får aldrig ditt namn, din e-postadress eller något som du sparar i appen.",
+            "Analysen använder två förstapartscookies, _ga och en vars namn börjar med _ga_ följt av vårt mät-ID, och båda sparas i upp till 13 månader. I EES, Storbritannien och Schweiz sätts de först när du har godkänt dem. Fram till dess sparas ingen analyscookie, och Google tar bara emot cookiefria mätningar utan någon identifierare. Du kan ändra ditt val när som helst via länken ”Integritetsval” längst ner på varje sida.",
+            "Google-signaler och anpassade annonser är avstängda, och analysdata raderas efter 14 månader. Den här webbplatsen använder inga spårare för reklam."
+          ]
+        },
+        {
+          "heading": "Lagring och kontroll",
+          "paragraphs": [
+            "Du kan radera appens data i appen och hantera iCloud-data via ditt Apple-konto. Om du tar bort appen kan lokala data försvinna, medan synkade kopior kan ligga kvar i iCloud tills du raderar dem separat."
+          ]
+        },
+        {
+          "heading": "Barn och kontakt",
+          "paragraphs": [
+            "AussieCamps är ett allmänt reseverktyg och riktar sig inte till barn. Skicka inte personuppgifter om ett barn via supporten.",
+            "Kontakta AussieCamps support om du har frågor om integritet."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "effective": "Gäller från 12 augusti 2026",
+      "title": "Användarvillkor",
+      "lede": "AussieCamps är ett hjälpmedel för planering. Appen ersätter inte officiella skyltar, förvaltarens anvisningar, varningar vid nödlägen, trafikinformation eller ditt eget ansvar att bara ge dig ut på det du klarar av.",
+      "sections": [
+        {
+          "heading": "Reseinformation ändras",
+          "paragraphs": [
+            "Platser, priser, framkomlighet, faciliteter, mobiltäckning, väder, brandläge, vägar och bokningsvillkor kan ändras utan förvarning. Kontrollera viktiga uppgifter med ansvarig myndighet eller leverantör före resan och igen strax innan du åker."
+          ]
+        },
+        {
+          "heading": "Ingen garanti för bokning eller tillträde",
+          "paragraphs": [
+            "Att en plats finns i appen garanterar inte att den är öppen, tillåten för ditt fordon och din utrustning, går att nå med ditt fordon eller är ledig. Externa länkar för bokning och kontakt finns där för att underlätta. Avtal ingås mellan dig och den externa leverantören."
+          ]
+        },
+        {
+          "heading": "Säkerhet och laglig användning",
+          "paragraphs": [
+            "Du måste följa skyltar, tillstånd, avstängningar, eldningsrestriktioner, trafikregler och anvisningar från rangers, Traditional Owners (de traditionella ägarna till landet), räddningstjänst och markförvaltare. Använd inte appen medan du kör."
+          ]
+        },
+        {
+          "heading": "Dina uppgifter",
+          "paragraphs": [
+            "Du ansvarar själv för anteckningar, reseplaner och annan information som du sparar. Ha separata kopior av tillstånd, bokningar och planer som rör din säkerhet, om förlorad åtkomst skulle kunna äventyra resan."
+          ]
+        },
+        {
+          "heading": "Köp",
+          "paragraphs": [
+            "Alla köp i appen hanteras av Apple och omfattas av de villkor som visas vid köpet. Funktioner, paketering och priser kan ändras där det är tillåtet. Använd Apples verktyg för frågor om betalning, uppsägning och återbetalning."
+          ]
+        },
+        {
+          "heading": "Immateriella rättigheter och kontakt",
+          "paragraphs": [
+            "AussieCamps varumärke, gränssnitt och originalinnehåll tillhör respektive ägare. Platsnamn och offentliga fakta förblir de ursprungliga källornas egendom eller ansvar.",
+            "Frågor kan skickas till AussieCamps support."
+          ]
+        }
+      ]
+    }
+  },
+  "articles": {
+    "alcohol-coffee-drink-prices-australia": {
+      "title": "Priser på öl, vin, kaffe och annan dryck i Australien",
+      "description": "Priser på pub, kafé och i bottle shop jämförda sida vid sida, så att kaffe, öl och vin inte i smyg äter upp reskassan när du reser i Australien.",
+      "region": "Australien",
+      "imageAlt": "Kaffe och andra drycker på ett kafébord i Australien",
+      "intro": "Det är lätt att underskatta vad drickat kostar, eftersom det kommer ett glas eller en kopp i taget. Aktuella prisintervall som användare själva har rapporterat in visar skillnaden mellan att handla i en bottle shop (spritbutik), stanna och fika på ett kafé och bjuda på en runda på en pub inne i stan.",
+      "sections": [
+        {
+          "heading": "Butikspris och krogpris är inte samma sak",
+          "body": [
+            "På puben betalar du för lokalen, personalen och serveringen, inte bara för det som är i glaset. Jämför lika med lika. Ett butikspris från en bottle shop, omräknat till samma mängd, är inte vad ett serverat glas kostar.",
+            "Happy hour och kampanjer är tillfälliga. Utgå från de vanliga priserna när du lägger budgeten, och se rabatterna som en extra marginal."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Alkohol när du ska köra",
+          "body": [
+            "Den säkraste planen för en roadtrip håller alkohol och körning helt isär. Promillegränserna skiljer sig åt beroende på körkort och fordonsklass, och för vissa förare gäller nollgräns.",
+            "Bestäm i förväg vem som kör och håller sig nykter, stanna över natten eller låt bilen stå och ta dig fram på annat sätt. Och använd aldrig en omräkningstabell för att räkna ut hur mycket du kan dricka och ändå köra."
+          ],
+          "tips": [
+            "Kör aldrig när du har druckit",
+            "Kolla lokala alkoholregler",
+            "Ha alltid vatten med dig"
+          ]
+        },
+        {
+          "heading": "Ha koll på vad du dricker upp varje dag",
+          "body": [
+            "Två kaffe och två glas på krogen om dagen blir en rejäl summa på en vecka. Bestäm vilka stopp som är värda pengarna i stället för att köpa av vana.",
+            "Ha alltid dricksvatten nära till hands och fyll på där det är tillåtet. När det är varmt hör vätska och skugga till säkerheten, inte till nöjesbudgeten."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Kaffet är en daglig utgift",
+          "body": [
+            "Australien har en stark kaffekultur, och även i småstäderna på landsbygden håller kaffet riktigt hög klass. Just därför blir det en egen post i budgeten. Med två flat white om dagen för två personer växer summan, utan att det någonsin känns som ett beslut.",
+            "En mokabryggare eller en AeroPress i husbilen ger dig morgonkaffet för en bråkdel av priset, och kafébesöket blir något du väljer i stället för något du gör per automatik. De flesta som gör så dricker till slut bättre kaffe.",
+            "På långa körsträckor är kaffet på roadhouses (mackar med kafé och ofta övernattning ute i outbacken) i bästa fall ojämnt. Längs outbackvägarna är det oftast både billigare och betydligt godare att brygga eget."
+          ],
+          "tips": [
+            "Två koppar om dagen blir snabbt mycket pengar",
+            "Brygg morgonkaffet själv",
+            "Kaffet på roadhouses varierar"
+          ]
+        },
+        {
+          "heading": "Så köper du alkohol i Australien",
+          "body": [
+            "I de flesta delstater köper du inte alkohol i mataffären utan i en bottle shop med tillstånd att sälja. Den ligger ofta vägg i vägg med en stormarknad men är en egen butik, ungefär som Systembolaget fast privat. Öppettiderna är reglerade och skiljer sig mellan delstaterna.",
+            "I många samhällen och regioner gäller alkoholrestriktioner, framför allt i Northern Territory och i delar av Queensland och Western Australia. Den som tar med alkohol in i ett sådant område riskerar kännbara straff.",
+            "Kolla reglerna innan du åker ut i avlägsna områden med alkohol i bilen. Restriktionerna är lagstadgade och kontrolleras. De gäller besökare lika väl som dem som bor där, och okunskap är ingen ursäkt."
+          ],
+          "tips": [
+            "Bottle shop, inte mataffären",
+            "Höga straff i områden med restriktioner",
+            "Kolla reglerna innan du åker ut i avlägsna områden"
+          ]
+        },
+        {
+          "heading": "Promillegränser och körning",
+          "body": [
+            "Den allmänna gränsen är 0,05 procent (0,5 promille) för förare med fullt körkort, och noll för övningskörande, förare med provisoriskt körkort och många yrkesförare. Slumpvisa nykterhetskontroller är vanliga, även på landsvägar och mitt på dagen.",
+            "På en roadtrip finns bara ett säkert sätt: håll alkohol och körning helt isär. Sov där du dricker, låt en nykter förare köra eller drick först när bilen står parkerad för natten.",
+            "Det är körningen morgonen efter som fäller många. Kroppen bryter ner ungefär en standarddrink i timmen, inte snabbare, så efter en blöt kväll kan du ligga över gränsen långt in på förmiddagen."
+          ],
+          "tips": [
+            "0,05 procent i regel, noll för många förare",
+            "Slumpvisa kontroller, även på dagen",
+            "Morgonen efter är fällan"
+          ]
+        },
+        {
+          "heading": "Vattnet är det viktigaste att få rätt",
+          "body": [
+            "Kranvattnet är säkert och gott i nästan alla australiska städer och samhällen, och att köpa vatten på flaska är i stort sett bortkastade pengar. Ha med flaskor som går att fylla på, och fyll dem vid vilken dricksvattenkran som helst i stan, på campingplatsen eller på andra allmänna platser.",
+            "Ute i bushen och i avlägsna områden är det tvärtom. Brunnsvatten (bore water) kan vara mineralrikt eller olämpligt att dricka, tankvatten är obehandlat, och ytvatten i jordbruksbygder kan innehålla kemikalier. Rena allt vatten som inte kommer från en skyltad dricksvattenkran på orten.",
+            "Skaffa en ordentlig termosflaska. I det australiska klimatet är kallt vatten det du faktiskt kommer att vilja dricka mest, och det kostar ingenting att fylla på."
+          ],
+          "tips": [
+            "Kranvattnet i städerna är säkert",
+            "Brunnsvatten duger ofta inte att dricka",
+            "Rena tankvatten och ytvatten"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Vad kostar en öl i Australien?",
+          "Guiden har daterade priser för en schooner (det vanliga ölglaset på puben), en hantverksöl, ett flak från en bottle shop och vin per glas och per flaska. Den enskilt största besparingen på en lång resa är att köpa i en bottle shop i stället för att dricka i baren."
+        ],
+        [
+          "Vad kostar kaffe i Australien?",
+          "En flat white ligger inom ett ganska snävt prisspann i hela landet, och kaféerna i innerstäderna hamnar i den övre änden. Kaffet i Australien är riktigt gott, och just därför smyger den här utgiften uppåt under en lång resa."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Numbeo: dryckespriser i Sydney"
+        },
+        {
+          "label": "Numbeo: butikspriser i Australien"
+        },
+        {
+          "label": "NSW: alkohol och bilkörning"
+        }
+      ],
+      "priceTable": {
+        "note": "Användarrapporterade prisintervall för Australien och Sydney, uppdaterade i juni 2026. Storleken på glas och kopp, ställe, kampanjer och läge varierar.",
+        "rows": [
+          {
+            "label": "Cappuccino",
+            "unit": "en kopp"
+          },
+          {
+            "label": "Fatöl på pub",
+            "unit": "ett glas"
+          },
+          {
+            "label": "Vin i mellanklassen",
+            "unit": "750 ml i butik"
+          },
+          {
+            "label": "Australisk öl, omräknat pris",
+            "unit": "500 ml i butik"
+          },
+          {
+            "label": "Läsk",
+            "unit": "330 ml på kafé eller krog"
+          }
+        ]
+      }
+    },
+    "sleeping-in-car-australia": {
+      "title": "Sova i bilen i Australien: är det lagligt?",
+      "description": "Du får bara sova i bilen där lokala regler för marken, parkeringen och fordonet tillåter det. Så tar du reda på var det är lagligt och tryggt.",
+      "region": "Australien",
+      "imageAlt": "Husbil parkerad på en plats där det är tillåtet att övernatta",
+      "intro": "Bara för att du sover i bilen blir platsen inte laglig. Det är kommunens lokala föreskrifter, skyltarna, parkens regler och markägarens rätt som avgör om du får sova där. Allemansrätten finns inte i Australien: du får bara övernatta där det uttryckligen är tillåtet.",
+      "sections": [
+        {
+          "heading": "Lita på skyltarna, inte på nätet",
+          "body": [
+            "Kolla skyltarna för parkeringstider, campingförbud och begränsningar för vissa fordon. I populära turistorter är strandparkeringar och bostadsgator ofta bevakade.",
+            "En gammal recension skyddar dig inte mot böter. Utgå från vad kommunen eller markförvaltaren säger i dag."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Rastplatser",
+          "body": [
+            "Rastplatserna längs huvudvägarna (rest areas på skyltarna) och Driver Reviver-stoppen finns för att förare ska kunna vila och slippa köra trötta. På vissa får du vila en begränsad tid över natten, på andra är camping förbjuden eller bara vissa fordon tillåtna.",
+            "Ställ dig inte i lastbilsfickorna, håll nere ljudet och bred inte ut dig med utrustning runt bilen om det inte är tillåtet att campa där."
+          ],
+          "tips": [
+            "Laglig plats",
+            "Ventilation",
+            "Fri väg ut",
+            "Låt inte motorn gå för värmens skull"
+          ]
+        },
+        {
+          "heading": "Säkrare alternativ",
+          "body": [
+            "En enkel campingplats, en caravan park (en vanlig kommersiell campingplats), en farm stay på en gård eller ett showground (ortens utställnings- och festplats) ger tydligare besked om att du får stanna. Ofta finns det också toaletter eller vatten. Kom fram innan det blir mörkt och kolla att du kommer in med ditt fordon.",
+            "Sov aldrig i en stängd bil med något igång som förbränner bränsle, som en värmare eller ett campingkök."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Får du parkera betyder det inte att du får campa",
+          "body": [
+            "Bilen kan stå helt lagligt parkerad, och ändå får du inte sova i den. Det är den skillnaden de flesta bötesärenden handlar om, och därför åker resenärer som har kollat parkeringsskyltarna ändå på böter.",
+            "Det styrs av kommunernas lokala föreskrifter, ungefär som kommunala ordningsföreskrifter hemma, och reglerna ändras vid varje kommungräns. Vissa kommuner tillåter att du sover i bilen på anvisade platser, många förbjuder det på all allmän plats, och kontrollerna är hårdast vid kusten och i turistområden.",
+            "Läs skyltarna för just den parkeringsruta du står i, inte för gatan i stort. Tidsbegränsad parkering, zoner där det krävs tillstånd och förbud mot övernattning skyltas ofta var för sig, och alla gäller samtidigt."
+          ],
+          "tips": [
+            "Laglig parkering betyder inte att du får sova där",
+            "Reglerna ändras vid varje kommungräns",
+            "Läs skylten för just din parkeringsruta"
+          ]
+        },
+        {
+          "heading": "Där det oftast går bra",
+          "body": [
+            "På anvisade rastplatser längs huvudvägarna får du sova för att inte köra trött, oftast i upp till 24 timmar. Det är det mest pålitliga lagliga alternativet i hela landet. Men rastplatserna är till för vila, inte för att slå läger.",
+            "Många småstäder i inlandet har gratis eller billiga ställplatser där kommunen uttryckligen tillåter att du sover i fordonet. Showgrounds och idrottsplatser gör ofta likadant mot en liten avgift.",
+            "En del mackar som har öppet 24 timmar låter dig stå kvar över natten, och det gör även vissa roadhouses (mackar med kafé och ofta övernattning ute i outbacken). Det gäller särskilt längs de långa huvudvägarna. Fråga inne i stället för att ta det för givet, och köp något."
+          ],
+          "tips": [
+            "Rastplatser: upp till 24 timmar",
+            "Inlandsorter tillåter det ofta",
+            "Fråga på roadhouset, ta inget för givet"
+          ]
+        },
+        {
+          "heading": "Så sover du säkert",
+          "body": [
+            "Välj en plats där det står andra fordon, där det är upplyst och där du lätt kommer därifrån. Parkera med fronten utåt om det går, ha värdesaker utom synhåll och lås dörrarna, men se till att du snabbt kan ta dig ut.",
+            "Ventilationen betyder mer än man tror. En helt stängd bil med folk som sover i blir snabbt fuktig och kvav, och i värme blir det rent farligt. Glänta på fönstren och sätt insektsnät för dem om du har.",
+            "Låt aldrig motorn gå för att köra AC:n medan du sover. Avgaser kan tränga in i kupén, och kolmonoxid luktar ingenting. Människor har dött när de gjort precis så."
+          ],
+          "tips": [
+            "Parkera med fronten utåt och håll vägen ut fri",
+            "Vädra, stäng inte bilen helt",
+            "Låt aldrig motorn gå medan du sover"
+          ]
+        },
+        {
+          "heading": "Värme, kyla och praktiska gränser",
+          "body": [
+            "En australisk sommar gör det inte bara obekvämt att sova i en bil utan ventilation, utan farligt. I norr stiger temperaturen i bilen snabbt och håller sig hög hela natten, och det är det främsta praktiska skälet att låta bli.",
+            "På vintern kryper temperaturen under nollan på nätterna i inlandet och i bergen, och en bil isolerar nästan ingenting. En ordentlig sovsäck med rätt komforttemperatur betyder mer i en bil än i ett tält.",
+            "Sover du i bilen ofta gör solskydd för alla fönster, insektsnät och en bra madrass enorm skillnad. Utan dem går det för en natt, men under en vecka blir det rena eländet."
+          ],
+          "tips": [
+            "I norr blir bilen för varm på natten",
+            "Nästan ingen isolering på vintern",
+            "Nät och solskydd gör stor skillnad"
+          ]
+        },
+        {
+          "heading": "Så fixar du bilen för en natt",
+          "body": [
+            "Med solskydd för fönstren, insektsnät och en riktig madrass går en natt i bilen från uthållighetsprov till något du orkar göra igen. Utan dem klarar du en natt, men en hel vecka blir en plåga.",
+            "Plan mark är viktigare än det låter. En svag lutning som du inte märker när du parkerar blir tydlig så fort du lägger dig. Ofta räcker det att vända bilen åt andra hållet.",
+            "På längre resor ger en liten van eller en kombi med fällda säten mycket mer användbar yta än en sedan, och hyran blir bara lite dyrare.",
+            "I den australiska sommarvärmen är det på riktigt farligt att sova över natten i en bil utan ventilation. Det är den gränsen som gäller i praktiken, inte någon lokal regel."
+          ],
+          "tips": [
+            "Solskydd och nät förändrar allt",
+            "Ställ bilen plant innan du lägger dig",
+            "Vänd bilen, så försvinner ofta lutningen"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Är det lagligt att sova i bilen i Australien?",
+          "Det beror helt på var bilen står. Att sova i ett fordon är inte olagligt i sig, men att campa i fordonet där kommunen förbjuder det är det. Förbuden gäller de flesta gator i städerna, strandparkeringar och naturområden längs kusten."
+        ],
+        [
+          "Var får man sova i bilen över natten?",
+          "På anvisade rastplatser där det är tillåtet att övernatta, på campingplatser och caravan parks, och i kommuner där de lokala föreskrifterna tillåter det. Roadhouses och en del pubar låter dig stå på parkeringen efter överenskommelse, så fråga hellre än att ta det för givet."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
+    "camping-rules-new-south-wales": {
+      "title": "Campingregler i New South Wales: fricamping och bokning",
+      "description": "Campingregler i New South Wales: bokning, anvisade platser, camping i avlägsna områden och eldningsförbud att kolla innan du stannar för natten.",
+      "region": "New South Wales",
+      "imageAlt": "Campingplats i en nationalpark i New South Wales",
+      "intro": "Vilka campingregler som gäller i New South Wales (NSW) beror på vem som förvaltar marken. Nationalparker, State Forests (statliga skogar), kommuner och privata campingplatser har alla sina egna villkor.",
+      "sections": [
+        {
+          "heading": "Campingplatser i nationalparkerna",
+          "body": [
+            "NSW National Parks (NPWS, nationalparksförvaltningen i New South Wales) kräver att du bokar i förväg på de campingplatser som står på deras lista och i boenden med fast tak. Ha bekräftelsen till hands och ange rätt antal personer och rätt uppgifter om fordonet.",
+            "Camping i avlägsna områden är bara tillåten på vissa angivna ställen. Även där du inte bokar en vanlig campingplats kan det rekommenderas att du lämnar en färdplan (trip intention form)."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Fricamping och camping vid vägen",
+          "body": [
+            "Allemansrätten finns inte i Australien: du får bara övernatta där det uttryckligen är tillåtet. En rastplats (rest area) är alltså inte automatiskt en campingplats. Läs skyltarna om parkeringstid och kommunens regler, ställ dig inte i lastbilsfickorna, och fäll inte ut markisen och ställ inte fram möbler där platsen bara är tänkt för en vilopaus.",
+            "Kommunala reservat och showgrounds (ortens utställnings- och festplatser) kan kräva lokala tillstånd, ha tidsgränser eller vara stängda. Kolla vad som gäller samma dag."
+          ],
+          "tips": [
+            "Läs skyltarna när du kommer fram",
+            "Håll tillfartsvägarna fria",
+            "Lämna inget avloppsvatten efter dig"
+          ]
+        },
+        {
+          "heading": "Brandrisk och varningar från parkerna",
+          "body": [
+            "Kolla parkvarningarna i NSW, brandriskklassen och om det råder totalt eldningsförbud (Total Fire Ban) innan du åker. Att det finns en eldstad på platsen betyder inte att du får elda när det är eldningsförbud.",
+            "Läget kan ändras snabbt och parker stängas med kort varsel. Ha en laglig reservplats utanför det drabbade området."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Vem förvaltar marken du står på?",
+          "body": [
+            "I NSW är campingen uppdelad på reservat som förvaltas av National Parks and Wildlife Service (NPWS), State Forests, Crown land (statlig mark), kommunala reservat och privat mark. Alla har sina egna bokningssystem, avgifter och regler, och gränserna syns ofta inte från vägen.",
+            "NPWS-campingarna bokar du på nätet, och de flesta tar både en campingavgift och en separat inträdesavgift till parken för fordonet. State Forests är i regel gratis och betydligt mindre reglerade, och därför är de det praktiska valet om du vill campa fritt, utan anvisade platser.",
+            "Kommunala reservat skiljer sig enormt åt mellan olika kommuner. En rastplats där du får övernatta i en kommun kan vara förbjuden i grannkommunen, och skyltarna är det enda du kan lita på."
+          ],
+          "tips": [
+            "NPWS: campingavgift plus parkinträde",
+            "State Forests är oftast gratis",
+            "Reglerna ändras vid varje kommungräns"
+          ]
+        },
+        {
+          "heading": "Så bokar du NPWS-campingar",
+          "body": [
+            "Populära campingplatser vid kusten och i bergen blir fullbokade flera månader i förväg inför sommaren, påsken och skolloven, och då finns det sällan något kvar för den som bara dyker upp. Utanför de perioderna går de flesta platser att boka några dagar innan.",
+            "Ett All Parks Pass ger fordonet inträde i de flesta parker i NSW under ett år och betalar sig snabbt om du besöker fler än en handfull. Det täcker inte campingavgifter, och för parkerna Sydney Harbour och Kosciuszko gäller det inte alltid.",
+            "Du bokar per plats, och varje plats har ett angivet maxantal personer och fordon. Att dyka upp med fler personer eller fordon än du har bokat är en vanlig orsak till problem på välbesökta campingplatser."
+          ],
+          "tips": [
+            "Boka månader i förväg inför sommaren",
+            "All Parks Pass gäller bara inträdet",
+            "Maxantalet per plats kontrolleras"
+          ]
+        },
+        {
+          "heading": "Eldning och totalt eldningsförbud",
+          "body": [
+            "Brandriskperioden (bush fire danger period) i NSW pågår oftast från oktober till mars och varierar mellan kommunerna. Under den perioden behöver du tillstånd för de flesta öppna eldar, och på dagar med totalt eldningsförbud är all öppen eld förbjuden.",
+            "På dagar med totalt eldningsförbud är grillar som eldas med ved eller kol förbjudna, liksom lägereldar. Utrustning som går på gasol är i regel tillåten på vissa villkor, men läs exakt vad som står i förbudet, för formuleringen ändras.",
+            "På många NPWS-campingar är det alltid förbjudet att elda, oavsett säsong. Kolla sidan för just den campingplatsen i stället för att utgå från att delstatens allmänna regler gäller."
+          ],
+          "tips": [
+            "Brandriskperioden: oktober till mars",
+            "Ingen ved eller kol på förbudsdagar",
+            "Många campingplatser har eldningsförbud året runt"
+          ]
+        },
+        {
+          "heading": "Fricamping och rastplatser",
+          "body": [
+            "Rastplatserna som Transport for NSW (delstatens trafikmyndighet) ansvarar för finns till för att trötta förare ska kunna vila, och på många får du stanna i upp till 24 timmar. Men de är inga campingplatser, och de är inte tänkta för att du ska fälla ut markisen och ställa fram stolar.",
+            "Riktig fricamping hittar du säkrast i State Forests, på en del Crown land och på platser som kommunen har anvisat. Flera av dem ber om ett litet frivilligt bidrag till orten.",
+            "Kontrollerna varierar, men i kustkommunerna och på populära platser sker de på riktigt. Campar du där det är förbjudet blir det böter, och eftersom de skrivs ut på fordonet skickar hyrfirman dem vidare till dig."
+          ],
+          "tips": [
+            "Rastplatser är till för vila, inte camping",
+            "State Forests är gratisalternativet",
+            "Kustkommunerna kontrollerar aktivt"
+          ]
+        },
+        {
+          "heading": "Marina parker och stränderna",
+          "body": [
+            "I de marina parkerna i NSW gäller zonregler som begränsar fiske och insamling i skyddszonerna (sanctuary zones). Gränserna finns publicerade men är inte skyltade på varje strand, så kolla innan du fiskar någonstans längs kusten.",
+            "På vissa ställen får du köra på stranden med tillstånd, på andra är det förbjudet. Stockton och delar av Mid North Coast tillåter det, och tillståndet får du från den kommun eller parkmyndighet som ansvarar för området.",
+            "State Forests är fortfarande det mest flexibla alternativet i New South Wales, och skogsförvaltningen publicerar kartor som visar var du får campa och köra.",
+            "Med ett All Parks Pass kommer du in med fordonet i de flesta parker i NSW under ett helt år, och passet har betalat sig så fort du besöker fler än en handfull."
+          ],
+          "tips": [
+            "Zonerna i marina parker begränsar fisket",
+            "Strandkörning kräver tillstånd",
+            "Gränserna är publicerade, inte skyltade"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Får man fricampa i New South Wales?",
+          "Ja, på anvisade platser, och reglerna kommer från tre håll. Platserna hos NSW National Parks bokar och betalar du, i State Forests får du campa fritt på många ställen, och vad som gäller på rastplatserna längs vägarna bestämmer kommunerna och Transport for NSW."
+        ],
+        [
+          "Måste man boka campingplats i nationalparkerna i NSW?",
+          "Nästan alltid. NSW National Parks har infört bokning på de allra flesta av sina campingplatser, även de som är gratis, och rangers kontrollerar faktiskt. Under skolloven blir parkerna vid kusten fullbokade flera månader i förväg."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NSW National Parks: camping och boende"
+        }
+      ],
+      "priceTable": null
+    },
+    "camping-rules-victoria": {
+      "title": "Campingregler i Victoria: fricamping och bokning",
+      "description": "Campingregler i Victoria: bokning och avgifter, gratis camping i statliga skogar, vägar som stängs under säsongen och vad som gäller för eldning.",
+      "region": "Victoria",
+      "imageAlt": "Campingplats i en skog i Victoria",
+      "intro": "I Victoria finns campingplatser i nationalparkerna som du bokar i förväg, enkla gratisplatser och kommersiella campingar. Vad det kostar och vad som finns på plats ser du bara säkert på sidan för just den campingplats du ska till.",
+      "sections": [
+        {
+          "heading": "Bokning och villkor på campingplatserna",
+          "body": [
+            "Platser som sköts av Parks Victoria, delstatens parkförvaltning, bokar du i det officiella bokningssystemet där det krävs. Ha bilens registreringsnummer till hands och spara bekräftelsen så att du lätt kan visa upp den.",
+            "På en del campingplatser gäller först till kvarn, medan andra håller stängt under delar av året. Ställ dig aldrig på en bokad eller stängd plats bara för att den ser tom ut."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Statliga skogar och rastplatser",
+          "body": [
+            "I de statliga skogarna (state forests) gäller andra regler än i nationalparkerna. Campa på platser som redan används, var rädd om vattendragen och kolla vad som gäller lokalt för ved och eldning.",
+            "Rastplatserna längs vägarna (rest areas på skyltarna) finns för att trötta förare ska kunna vila, och en skylt kan begränsa hur länge du får stanna. Kommunerna (councils) kan dessutom ha egna regler för att övernatta i bilen och se till att de följs."
+          ],
+          "tips": [
+            "Ta reda på vem som förvaltar marken",
+            "Kolla om det är säsongsstängt",
+            "Kontrollera maxlängden för fordon"
+          ]
+        },
+        {
+          "heading": "Brandrisk och vägar i bergen",
+          "body": [
+            "Brandrisken i Victoria kan stiga snabbt. Håll koll på VicEmergency och parkernas varningar, och tänd aldrig en eld när restriktionerna förbjuder det.",
+            "Vägar i bergen och skogarna stängs under delar av året eller efter oväder. Kör aldrig förbi en stängd bom, och ha alltid ett alternativ på lägre höjd."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Parks Victoria och bokningssystemet",
+          "body": [
+            "Camping i Victorias nationalparker bokar du hos Parks Victoria, och avgiften beror på vilken kategori platsen tillhör. Populära platser vid kusten, längs Great Ocean Road och i Wilsons Promontory, blir fullbokade månader i förväg, och under de mest efterfrågade perioderna lottas platserna ut.",
+            "Särskilt i Wilsons Promontory fördelas sommarplatserna genom lottning och inte efter vem som bokar först. Det överraskar många som räknar med att kunna boka som vanligt, så ta reda på hur det går till i god tid före resan.",
+            "På många platser står det i bokningen hur många fordon och personer som får plats. Håll dig till det du har bokat: platserna är små, och på välbesökta campingar kontrollerar parkvakterna (rangers) faktiskt."
+          ],
+          "tips": [
+            "Wilsons Prom lottar ut sommarplatserna",
+            "Boka kustplatser månader i förväg",
+            "Antalet personer kontrolleras"
+          ]
+        },
+        {
+          "heading": "Statliga skogar och vildcamping",
+          "body": [
+            "Victoria har stora statliga skogar där du får campa gratis utanför de anvisade campingplatserna, så länge eldningsregler och säsongsstängda vägar inte sätter stopp. Det är här du hittar det mesta av den camping i delstaten som verkligen är gratis.",
+            "Slå läger på platser som redan är röjda i stället för att göra nya, håll de angivna minimiavstånden till vattendrag och vägar, och ta med dig allt skräp därifrån. Här finns ingen service alls.",
+            "I High Country, Victorias bergsområde, och i andra skogsområden är många vägar i regel stängda från juni till november, för att skydda skogsvägar som lätt tar skada när de är blöta. Kör du på en stängd väg riskerar du dryga böter."
+          ],
+          "tips": [
+            "Camping i statliga skogar är gratis",
+            "Använd platser som redan är röjda",
+            "Säsongsstängt juni till november"
+          ]
+        },
+        {
+          "heading": "Eldningsregler och brandriskperioden",
+          "body": [
+            "Victorias brandriskperiod (Fire Danger Period) utlyses region för region och brukar sträcka sig över den australiska sommaren och en bit in på hösten. Då är lägereldar begränsade, och på dagar med totalt eldningsförbud (Total Fire Ban) är all öppen eld förbjuden, även grillar som eldas med ved eller kol.",
+            "Elden ska göras i en ordentligt byggd eldstad, får inte vara större än en gånger en meter och ska ha tre meter fritt runt om. Någon måste alltid vara vid elden. De här villkoren gäller även när det inte är eldningsförbud.",
+            "Kolla varje morgon under sommaren vilken brandriskklass CFA, brandförsvaret på Victorias landsbygd, har satt för ditt distrikt. En campingplats inne i skogen är ett av de sämsta ställena att söka skydd på en dag med hög brandrisk, och standardrådet är att ge sig av i god tid."
+          ],
+          "tips": [
+            "Högst en meter eld, tre meter fritt runt om",
+            "Lämna aldrig elden obevakad",
+            "Kolla CFA:s brandrisk varje morgon"
+          ]
+        },
+        {
+          "heading": "Fricamping och kusten",
+          "body": [
+            "Kustkommunerna längs Great Ocean Road och på Mornington Peninsula förbjuder nästan helt att man övernattar i fordon, och de kontrollerar flitigt. Allemansrätten finns inte i Australien, så utgå från att det är förbjudet om inte en skylt säger något annat.",
+            "Inåt landet ordnar flera kommuner gratis eller billig camping i sina orter för att locka resenärer. Victorias showgrounds, alltså orternas områden för lantbruksmässor och evenemang, har ofta billiga platser med el och servicehus.",
+            "Rastplatserna som delstatens vägmyndighet sköter är till för att du ska kunna vila när du är trött. Att sova där går bra, men inte att slå läger, och den skillnaden spelar roll där det kontrolleras."
+          ],
+          "tips": [
+            "Förbjudet och kontrollerat vid kusten",
+            "Orter i inlandet har gratisplatser",
+            "Sova på rastplatsen ja, slå läger nej"
+          ]
+        },
+        {
+          "heading": "Särskilda regler i bergen och längs floderna",
+          "body": [
+            "I Victorias alpina områden är camping begränsad över vissa höjder för att skydda den känsliga växtligheten. I de statliga skogarna gäller dessutom bestämda avstånd till vatten och vägar.",
+            "Vill du campa vid en flod på Crown land (statlig mark) behöver du känna till de arrenderade strandremsorna (licensed water frontages): på en del får man campa, på andra inte. Skyltarna och delstatens kartor över allmän mark visar vad som gäller.",
+            "Parks Victoria publicerar varje år datumen då vägar stängs för säsongen. Kolla dem innan du planerar en rutt genom High Country, så slipper du köra långt bara för att stå framför en låst bom.",
+            "På dagar med totalt eldningsförbud får du inte elda med ved, kol eller annat fast bränsle alls. Har du med dig ett gaskök hänger resan aldrig på om du får göra upp eld eller inte."
+          ],
+          "tips": [
+            "Höjdgränser för camping i bergen",
+            "Håll avstånd till vatten",
+            "Kolla reglerna för strandremsor på Crown land"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kan man campa gratis i Victoria?",
+          "Ja, och friare än i de flesta andra delstater. I stora delar av Victorias statliga skogar får du campa gratis utanför de anvisade campingplatserna, och det är främst därför High Country fungerar som campingmål."
+        ],
+        [
+          "Måste man boka campingplatserna i Victorias nationalparker?",
+          "Många av dem, ja. Parks Victoria tar emot bokningar till sina populära campingplatser och tar ut en avgift per plats, och platserna vid kusten och i bergen blir fulla under sommaren och påsken. Avlägsna campingplatser ute i bushen går oftare efter först till kvarn."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Parks Victoria: bokningsinformation"
+        }
+      ],
+      "priceTable": null
+    },
+    "eating-out-australia-prices-2026": {
+      "title": "Äta ute i Australien 2026: priser på mat, takeaway och kaffe",
+      "description": "Vad kostar det att äta ute i Australien? Priser på enkla måltider, snabbmat, kaffe och middag på mellanklassrestaurang, plus tre dagsbudgetar för mat.",
+      "region": "Sydney som riktmärke",
+      "imageAlt": "Mat på en uteservering i en australisk stad",
+      "intro": "En måltid i stan kan vara en snabb lunch vid disken eller dagens största utgift. Sydney är ett bra riktmärke i den dyrare änden, medan Tourism Australias guide ger en bredare utgångspunkt när du planerar restaurangbesöken.",
+      "sections": [
+        {
+          "heading": "Tre sätt att äta på resan",
+          "body": [
+            "Billigast blir det om du lagar maten själv och bara köper en kaffe eller ett mellanmål. Lägger du till en enkel måltid ute får du en blandad dag, medan en dag med många restaurangbesök kan kosta mer än boendet, och då har du inte ens räknat in dryckerna.",
+            "Frukost och lunch är ofta lättare att hålla nere än middagen. Har du mat med dig slipper du också att en sen ankomst slutar i dyrt letande längs turiststråket."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Räkna på hela notan",
+          "body": [
+            "Kolla om det tillkommer helg- eller helgdagstillägg och om det dras en kortavgift när du betalar. Rätter att dela, tillbehör och dryck kan göra att en till synes vanlig varmrätt kostar långt mer än priset på menyn.",
+            "Kaféer i avlägsna trakter och i småorter har andra inköpskostnader och andra öppettider. Se prisintervallen från städerna som ett riktmärke, inte som något du har rätt till."
+          ],
+          "tips": [
+            "Kolla tilläggen",
+            "Ha en reservmåltid med dig",
+            "Budgetera dryck för sig"
+          ]
+        },
+        {
+          "heading": "När det är värt att äta ute",
+          "body": [
+            "Satsa medvetet på måltider som hör ihop med resmålet och ät enkelt ur matkassen på resdagarna. Då får du råd med lokala skaldjur, bagerier och råvaror utan att varje dag blir dyr.",
+            "Skriv upp vad du faktiskt lägger på mat under några dagar. Många resenärer minns vad varmrätten kostade men glömmer kaffet, småätandet och leveransavgifterna."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Här får du valuta för pengarna",
+          "body": [
+            "Bageriet, fish and chips-stället och pubens counter meal (enkel pubmat som du beställer i baren) är de tre billiga alternativ som håller i hela landet. På landsorten är kvaliteten dessutom ofta bättre än i städerna.",
+            "Pubmaten är en australisk institution, och i en liten ort är puben ofta det enda stället där du kan äta middag. Portionerna är stora och priserna ligger oftast en bra bit under en restaurang i stan.",
+            "Kaféerna slutar i regel servera mat tidigare än man tror, och i småorterna kan allt vara stängt efter klockan åtta på kvällen. Det som räddar middagen när du kommer fram sent är att ha något med dig som du kan laga själv."
+          ],
+          "tips": [
+            "Pubens counter meals är prisvärda",
+            "Ofta bättre kvalitet på landsorten än i stan",
+            "Småorter stänger tidigt"
+          ]
+        },
+        {
+          "heading": "Tillägg och betalning",
+          "body": [
+            "Tillägg på allmänna helgdagar är lagliga och vanliga, men de måste framgå tydligt. Oftast handlar det om tio till femton procent. Många ställen tar också helgtillägg, och kortavgiften läggs på i kassan i stället för att stå på menyn.",
+            "Dricks förväntas inte i Australien, och personalen får en fastställd minimilön för branschen (award wage). En del kortterminaler frågar numera om du vill lämna dricks, men det är en ny import och ingen lokal sed.",
+            "Kontanter blir allt ovanligare och många ställen tar bara kort, men avlägsna roadhouses (mackar med café och ofta övernattning ute i outbacken) och honesty boxes (en låda eller burk där du lägger pengarna själv) kräver fortfarande kontanter. Ha lite på dig även om du sällan använder dem."
+          ],
+          "tips": [
+            "Helgdagstillägg är vanliga",
+            "Dricks förväntas inte",
+            "Ha lite kontanter till avlägsna trakter"
+          ]
+        },
+        {
+          "heading": "Äta gott utan att äta ute hela tiden",
+          "body": [
+            "Lägg pengarna på mat som hör till platsen: fisk och skaldjur vid kusten, mango i tropikerna när det är säsong, en lunch på en vingård i Barossa eller Margaret River. Det är de måltiderna man minns.",
+            "Ät enkelt från mataffären på resdagarna, när du kommer fram sent, åker tidigt och maten mest är bränsle och inte en upplevelse. Så har du råd med de goda måltiderna och håller ändå nere kostnaden de andra dagarna.",
+            "Lunchmenyn på en bra restaurang ger dig det mesta av middagsupplevelsen för betydligt mindre pengar. Vill du ha en måltid att minnas i en dyr stad, boka bord till lunch."
+          ],
+          "tips": [
+            "Lägg pengarna på regionens mat",
+            "Mat från affären på resdagar",
+            "Lunchmenyn slår middagspriset"
+          ]
+        },
+        {
+          "heading": "Beställning och portioner",
+          "body": [
+            "Portionerna i Australien är rejäla, och en varmrätt räcker oftast utan tillbehör. ”Entree” betyder förrätt och inte huvudrätt, något som ofta förvirrar besökare från Nordamerika, och det är helt normalt att dela på en förrätt.",
+            "BYO (bring your own), alltså att du tar med egen alkohol, är vanligt både på restauranger med och utan alkoholtillstånd, oftast mot en korkavgift per flaska eller per person. Det kan sänka notan rejält, så fråga om det när du bokar.",
+            "Fråga folk på orten i stället för att googla, särskilt i småorter där den bästa maten ofta finns på den lokala bowlsklubben (bowls club) eller på en pub som inte syns någonstans på nätet."
+          ],
+          "tips": [
+            "Entree betyder förrätt här",
+            "BYO mot korkavgift är vanligt",
+            "Portionerna är rejäla"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Vad kostar det att äta ute i Australien?",
+          "Guiden har daterade priser för frukost på kafé, en pubmåltid, en middag på mellanklassrestaurang och takeaway. Pubarnas bistroer är fortfarande det mest prisvärda sättet att äta en ordentlig måltid, och därför bygger de flesta roadtripbudgetar på dem."
+        ],
+        [
+          "Ska man lämna dricks i Australien?",
+          "Nej. Dricks förväntas inte, och personalens fastställda minimilön (award wage) bygger på att de inte får någon. Det uppskattas ändå om du avrundar uppåt eller lämnar något för ovanligt bra service. Ett tillägg på söndagar och helgdagar är normalt och lagligt."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Numbeo: priser i Sydney, uppdaterade juni 2026"
+        },
+        {
+          "label": "Tourism Australia: budgetguide"
+        },
+        {
+          "label": "Reserve Bank of Australia: växelkurser"
+        }
+      ],
+      "priceTable": {
+        "note": "Prisintervall för Sydney som användare har rapporterat in, uppdaterade i juni 2026. Restauranger vid vattnet, resorter, flygplatser, evenemang och bordsservering kan kosta mer.",
+        "rows": [
+          {
+            "label": "Måltid på enkel restaurang",
+            "unit": "per person"
+          },
+          {
+            "label": "Snabbmatsmeny",
+            "unit": "per person"
+          },
+          {
+            "label": "Cappuccino",
+            "unit": "en kopp"
+          },
+          {
+            "label": "Läsk",
+            "unit": "330 ml"
+          },
+          {
+            "label": "Middag för två på mellanklassrestaurang",
+            "unit": "tre rätter"
+          }
+        ]
+      }
+    },
+    "camping-rules-western-australia": {
+      "title": "Campingregler i Western Australia: fricamping och bokning",
+      "description": "Campingregler i Western Australia: bokning och inträde i nationalparkerna, 24-timmarsregeln på rastplatser och hur du planerar för de långa avstånden.",
+      "region": "Western Australia",
+      "imageAlt": "Campingplats i en nationalpark i Western Australia",
+      "intro": "I Western Australia, ofta förkortat WA, skiljer sig campingreglerna åt mellan nationalparker, kommunal mark, betesmarker och privata campingar. Med så stora avstånd är en stängd eller full campingplats ingen småsak.",
+      "sections": [
+        {
+          "heading": "Park Stay WA och avgifter",
+          "body": [
+            "Många campingplatser i nationalparkerna bokar du via Park Stay WA. Campingavgiften tas oftast ut per person och natt, och inträdet till parken kan tillkomma.",
+            "På en del campingplatser gäller fortfarande först till kvarn. Kom fram tidigt och se till att ha ett lagligt alternativ som du når på bränslet du har kvar."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Camping längs vägen och långt från allt",
+          "body": [
+            "Övernatta på skyltade platser och håll lastbilsfickorna fria. Kommunerna kan förbjuda camping utanför godkända campingplatser, även på stränder och parkeringar inne i orterna.",
+            "Innan du svänger av huvudvägen ut på avlägsna vägar: kolla att vägen går att köra, om du behöver lov från en station (en stor boskapsfarm) och om det krävs tillstånd för att resa på aboriginsk mark."
+          ],
+          "tips": [
+            "Campingbokning",
+            "Parkinträde",
+            "Koll på väg och tillstånd"
+          ]
+        },
+        {
+          "heading": "Eld, vatten och avstånd",
+          "body": [
+            "Ha med dig dricksvatten och kolla om vattnet ur kranarna på campingplatsen går att dricka. Eldningsreglerna varierar mellan distrikt och årstider.",
+            "Samla inte ved i skyddade områden. Värme och vind kan göra att en eld som var tillåten på morgonen är farlig, eller förbjuden, på eftermiddagen."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Avstånden styr planeringen",
+          "body": [
+            "Western Australia täcker en tredjedel av kontinenten, och avstånden mellan parker, orter och mackar saknar motsvarighet. En campingresa här är först och främst en övning i logistik.",
+            "Populära campingplatser som sköts av Parks and Wildlife, delstatens parkförvaltning (DBCA), bokar du på nätet, medan många avlägsna går efter först till kvarn. Det finns ett parkpass som täcker inträdet för fordonet, och det lönar sig om du besöker fler än några få parker.",
+            "Många parker i norr stänger under regnperioden (the wet), ungefär november till april, och öppnar igen när vägarna och vadställena är farbara igen. Kolla hur läget är just nu i stället för att lita på den publicerade säsongen."
+          ],
+          "tips": [
+            "Boka populära DBCA-platser på nätet",
+            "Parkpasset täcker inträdet för bilen",
+            "Parkerna i norr stänger under regnperioden"
+          ]
+        },
+        {
+          "heading": "Fricamping och 24-timmarsregeln",
+          "body": [
+            "Många kommuner i WA låter dig stanna upp till 24 timmar på anvisade rastplatser (rest areas på skyltarna) men förbjuder camping på andra ställen. Reglerna skiljer sig mycket mellan kommunerna (shires), och ju mer avlägsen kommunen är, desto mindre strikt brukar den vara.",
+            "En del rastplatser längs North West Coastal Highway och Great Northern Highway tillåter längre vistelser och fungerar i praktiken som gratis campingplatser. Skyltarna anger hur länge du får stanna, och där det är mycket folk kontrolleras det.",
+            "Station stays, där stora boskapsfarmar öppnar campingområden för resenärer, är typiska för Western Australia och ofta det enda boendet på hundratals kilometer. De flesta vill ha kontanter, och få går att boka på ett sätt du kan lita på."
+          ],
+          "tips": [
+            "24-timmarsgränser är vanliga",
+            "Station stays fyller luckorna",
+            "Ha kontanter till station stays"
+          ]
+        },
+        {
+          "heading": "Vatten, bränsle och kommunikation",
+          "body": [
+            "Ha med minst fyra till fem liter dricksvatten per person och dag, plus en rejäl reserv. Låt bilens räckvidd på en tank styra hur du lägger upp rutten. Ett roadhouse (mack med café och ofta övernattning ute i outbacken) kan vara stängt, ha slut på bränsle eller bara ta kort, med en uppkoppling som inte alltid fungerar.",
+            "Mobiltäckning finns nära orterna men försvinner helt mellan dem. En satellitkommunikator eller en personlig nödsändare (PLB) är standardutrustning när du reser i de avlägsna delarna av WA, inte ett tillval.",
+            "Berätta för någon vilken väg du tar och när du räknar med att vara framme. Går bilen sönder ska du stanna vid den. Den ger skydd och är mycket lättare att hitta än en människa till fots."
+          ],
+          "tips": [
+            "Fem liter per person och dag",
+            "Ha med en satellitkommunikator",
+            "Stanna vid bilen"
+          ]
+        },
+        {
+          "heading": "Värme, cykloner och torrperioden",
+          "body": [
+            "I norr är det torrperioden, maj till oktober, som gäller. Regnperioden betyder extrem luftfuktighet, monsunregn, cykloner mellan november och april och att mycket stänger.",
+            "I sydväst är det tvärtom: vintern är blöt och sval, sommaren het och torr, och våren är vildblommornas tid. Delstatens två halvor kräver helt olika planering.",
+            "Värmen är den risk som många underskattar. I inlandet går temperaturen ofta över 40 grader på sommaren, och att få motorstopp i den värmen utan tillräckligt med vatten är på riktigt livsfarligt."
+          ],
+          "tips": [
+            "Res i norr maj–oktober",
+            "Cykloner november–april",
+            "Värmen i inlandet är en verklig risk"
+          ]
+        },
+        {
+          "heading": "Aboriginsk mark och tillstånd",
+          "body": [
+            "Stora delar av Western Australia är aboriginsk mark där du behöver tillstånd för att resa in, bland annat delar av rutterna genom Kimberley och inlandet. Tillståndet söker du i förväg hos den organisation som ansvarar för området.",
+            "På en del rutter krävs ett transittillstånd även om du inte stannar. Kolla om vägen du tänker ta går över sådan mark, för tillstånden utfärdas inte vid gränsen.",
+            "Western Australias parkmyndighet publicerar på nätet vilka campingplatser som har lediga platser och vilka som är stängda. Det är värt att kolla, för med de här avstånden kan en stängd plats kosta dig en hel dag.",
+            "Bekräfta alltså att det finns plats innan du ger dig i väg på en lång etapp. Mellan parkerna i Western Australia är det så långt att en stängd campingplats kan sluka en hel dag."
+          ],
+          "tips": [
+            "Sök tillstånd i förväg, inte vid grinden",
+            "Transittillstånd gäller för genomfart",
+            "Kolla hela rutten, inte bara målet"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Får man campa var som helst i Western Australia?",
+          "Nej, även om de stora avstånden får det att kännas så. Allemansrätten finns inte här: du får bara övernatta där det uttryckligen är tillåtet. Campingplatserna hos Parks and Wildlife bokar och betalar du, station stays är privata överenskommelser, och rastplatserna med 24-timmarsgräns längs vägarna är till för vila, inte för att bo."
+        ],
+        [
+          "Kostar det inträde till nationalparkerna i Western Australia?",
+          "Ja, i de flesta av de stora parkerna. Inträdet kostar per fordon och dag och betalas separat från campingavgiften. Ett parkpass för semesterresenärer täcker inträdet i en månad eller längre och har snabbt betalat sig på en resa norrut längs kusten."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Explore Parks WA: campingavgifter"
+        }
+      ],
+      "priceTable": null
+    }
+  }
 }

@@ -200,6 +200,56 @@
       "styleGuide": {
         "fr": "Follow docs/translation-style/fr.md: native French travel-writer voice for France, Belgium, Switzerland and Canada, formal vous, French typography (non-breaking spaces before : ; ? !, « » quotes), French state names, no calques, no offline-map claims."
       }
+    },
+    {
+      "id": "aussiecamps-website-sv",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "sv"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "sv",
+          "path": "../lib/translations/sv.json"
+        }
+      ],
+      "protectedTerms": [
+        "AussieCamps",
+        "AussieCamping",
+        "AUD",
+        "Tourism Australia",
+        "Reserve Bank of Australia",
+        "Virgin Australia",
+        "New South Wales",
+        "Victoria",
+        "Queensland",
+        "South Australia",
+        "Western Australia",
+        "Tasmania",
+        "Northern Territory",
+        "Australian Capital Territory",
+        "Central Australia",
+        "BookEasy",
+        "App Store"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {
+        "Australia": {
+          "sv": "Australien"
+        }
+      },
+      "register": {
+        "sv": "informal"
+      },
+      "styleGuide": {
+        "sv": "Follow docs/translation-style/sv.md: a Swedish travel writer's voice, informal du, husbil/campingplats/tömningsstation vocabulary, Swedish number format (74 000, 2,08) and amounts as 35 AUD / 35 NZD, no offline-map claims."
+      }
     }
   ]
 }
