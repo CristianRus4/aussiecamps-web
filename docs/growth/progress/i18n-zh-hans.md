@@ -12,7 +12,7 @@ Style guide: `docs/translation-style/zh-hans.md` (identical in both repos).
   `zh-hans` and `varieties {"zh-hans": "zh-Hans"}`, so `locales:sync` leaves it alone.
 - AU done: UI, support, privacy, terms, consent bar, 50 guides, `<a data-guide>` markup added to 40
   guides, `tools` namespace. NZ: markup (84 units) and `tools` (152 units) still to do.
-- Queue AU: guides batch a1 (6 non-road-trip guides), then 20 road trips in r1..r4 (5 each).
+- AU COMPLETE (engine 4383/4383, 70/70 guides, stamped with translations:stamp, meta/zh-hans.json committed). Each drafted batch was edited by a separate reviewer subagent (negation/number check) before apply.
   Queue NZ: 18 non-road-trip guides, 20 road trips, markup, tools.
 - Working files: /tmp/zhhans/work-au-12, /tmp/zhhans/work-nz-12 (b-* sources, v-* values).
   Apply with /tmp/zhhans/tools/apply.sh au|nz FILE [--real] (locale id is now zh-hans).
