@@ -2225,25 +2225,88 @@
       "priceTable": null
     },
     "is-free-camping-legal-australia": {
-      "title": "Camping sauvage ou gratuit en Australie : est-ce légal ?",
-      "description": "En Australie, le camping gratuit n’est légal que là où le gestionnaire du terrain autorise la nuit sur place. Qui fixe les règles, et comment les vérifier.",
+      "title": "Camping gratuit en Australie : est-ce légal ? Règles par État 2026",
+      "description": "Le camping gratuit n’est légal que là où le gestionnaire du terrain l’autorise : forêts domaniales, certains sites municipaux et aires de repos signalées. Les règles de chaque État en 2026.",
       "region": "Australie",
       "imageAlt": "Aire de camping gratuite et rudimentaire en Australie",
-      "intro": "L’Australie compte des campings gratuits, mais aucun droit national ne vous autorise à camper partout où l’on peut garer un véhicule. Tout dépend du terrain précis, des panneaux et de l’autorité locale.",
+      "intro": "Oui, mais seulement là où le gestionnaire du terrain l’autorise : il n’existe aucun droit national de camper partout où un véhicule peut se garer. Le camping gratuit est légal dans la plupart des forêts domaniales de Nouvelle-Galles du Sud et du Victoria, sur les Crown land d’Australie-Méridionale jusqu’à 21 jours, sur les sites municipaux qui l’indiquent et sur les aires de repos dont le règlement autorise une halte de nuit. La plupart des campings de parcs nationaux sont payants ou exigent une réservation, et certaines municipalités côtières, comme le Surf Coast Shire dans le Victoria, verbalisent ceux qui dorment dans un véhicule.",
       "sections": [
         {
-          "heading": "Pouvoir se garer ne veut pas dire pouvoir camper",
+          "heading": "Où le camping gratuit est légal : les États de l’Est",
           "body": [
-            "Une place de stationnement autorisée peut très bien interdire d’y dormir, de s’y installer ou d’y passer la nuit. Cherchez une autorisation explicite de rester la nuit, les durées maximales et les restrictions selon le type de véhicule.",
-            "Ne vous fiez pas à l’absence de panneau « camping interdit ». Quand la vocation du lieu n’est pas claire, vérifiez la règle auprès du gestionnaire du terrain ou de la municipalité (council)."
+            "En <a data-guide=\"camping-rules-new-south-wales\">Nouvelle-Galles du Sud</a>, toutes les forêts domaniales, sauf Cumberland et Strickland, autorisent le camping gratuit, au premier arrivé, jusqu’à quatre semaines. Certains campings de parcs nationaux n’ont pas de tarif de camping mais exigent quand même une réservation, qui coûte 6 $.",
+            "Le <a data-guide=\"camping-rules-victoria\">Victoria</a> permet de camper presque partout en forêt domaniale jusqu’à 28 nuits consécutives, à au moins 20 mètres des cours d’eau, et quelques campings de Parks Victoria, comme King Hut, sont gratuits et sans réservation.",
+            "Le <a data-guide=\"camping-rules-queensland\">Queensland</a> n’a aucun camping gratuit dans ses parcs ni ses forêts domaniales, où chaque emplacement exige un permis payant. Les options gratuites y sont les campings municipaux qui l’autorisent. Les aires de repos au bord des routes permettent de s’arrêter jusqu’à 20 heures sauf panneau contraire, mais l’État précise que ce ne sont pas des sites de camping.",
+            "La <a data-guide=\"camping-rules-tasmania\">Tasmanie</a> propose des camps municipaux gratuits avec leurs propres permis et durées de séjour, des campings de parc gratuits dans le parc national de Southwest (un pass des parcs reste exigé pour y entrer), et le camping sur la plupart des terres de Sustainable Timber Tasmania, sauf si un panneau l’interdit."
           ],
-          "tips": []
+          "tips": [],
+          "table": {
+            "caption": "Camping gratuit par État, vérifié en octobre 2026",
+            "head": [
+              "État",
+              "Options gratuites",
+              "Principale limite",
+              "Qui fixe les règles"
+            ],
+            "rows": [
+              [
+                "Nouvelle-Galles du Sud",
+                "Forêts domaniales ; certains campings de parc sans tarif",
+                "Quatre semaines en forêt ; les campings de parc sans tarif facturent en général 6 $ de frais de réservation",
+                "Forestry Corporation, NPWS, municipalités"
+              ],
+              [
+                "Victoria",
+                "Forêts domaniales ; certains campings de parc gratuits",
+                "28 nuits, à 20 m des cours d’eau",
+                "DEECA, Parks Victoria, municipalités"
+              ],
+              [
+                "Queensland",
+                "Sites municipaux qui l’autorisent",
+                "Aires de repos : halte de 20 heures sauf panneau contraire, pas du camping",
+                "Municipalités, Transport and Main Roads"
+              ],
+              [
+                "Australie-Méridionale",
+                "Crown land ; certains sites municipaux",
+                "21 jours sur les Crown land",
+                "Department for Environment and Water, municipalités"
+              ],
+              [
+                "Australie-Occidentale",
+                "Aires de repos signalées pour la nuit",
+                "24 heures consécutives ; ailleurs, autorisation requise",
+                "Main Roads WA, collectivités locales"
+              ],
+              [
+                "Tasmanie",
+                "Camps municipaux ; camps de parc gratuits ; terres forestières",
+                "Limites municipales variables, souvent réservé aux véhicules autonomes",
+                "Municipalités, Parks and Wildlife Service, Sustainable Timber Tasmania"
+              ],
+              [
+                "Territoire du Nord",
+                "Haltes routières répertoriées pour le camping de nuit",
+                "24 heures aux haltes répertoriées ; quelques-unes sont payantes",
+                "Gouvernement du NT, municipalités"
+              ],
+              [
+                "ACT",
+                "Aucune",
+                "Camping en véhicule uniquement dans les campings réservés",
+                "ACT Parks and Conservation Service"
+              ]
+            ]
+          }
         },
         {
-          "heading": "Les lieux où la nuit peut être gratuite",
+          "heading": "Où le camping gratuit est légal : le sud, l’ouest et le centre",
           "body": [
-            "Certaines aires municipales, réserves communautaires, emplacements de parcs nationaux et aires en bord de route ne font rien payer pour la nuit. Un enregistrement, une réservation, un don ou une durée de séjour maximale peuvent malgré tout être exigés.",
-            "Les aires de repos sont d’abord là pour <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">lutter contre la fatigue</a> au volant. Laissez libres les places réservées aux camions et évitez auvent, chaises ou cales de mise à niveau, qui transforment une courte halte en camping illégal."
+            "L’<a data-guide=\"camping-rules-south-australia\">Australie-Méridionale</a> autorise le camping sur les Crown land sans autorisation jusqu’à 21 jours, véhicules cantonnés aux pistes existantes et sans ramassage de bois. Les emplacements des parcs nationaux doivent y être réservés et payés à l’avance, sauf dans les parcs du désert de Munga-Thirri-Simpson, qui exigent à la place un Desert Parks Pass.",
+            "L’<a data-guide=\"camping-rules-western-australia\">Australie-Occidentale</a> exige une autorisation pour camper ailleurs que dans un terrain de camping agréé : l’option gratuite y est donc une aire de repos signalée pour 24 heures consécutives au plus.",
+            "Le <a data-guide=\"camping-rules-northern-territory\">Territoire du Nord</a> recense ses haltes routières une à une, et seules celles signalées pour 24 heures de camping de nuit l’autorisent. Les campings de parc se réservent en ligne, et les visiteurs doivent aussi avoir un pass des parcs.",
+            "L’ACT n’a aucun camping gratuit : le camping en véhicule n’y est autorisé que dans des campings aménagés, tous réservés à l’avance, et camper ailleurs sur un terrain public sans permis peut valoir une peine pouvant aller jusqu’à 20 unités de pénalité (penalty units)."
           ],
           "tips": [
             "Lisez tous les panneaux",
@@ -2252,95 +2315,171 @@
           ]
         },
         {
-          "heading": "Pour que le lieu reste ouvert",
+          "heading": "Se garer ne veut pas dire pouvoir camper",
           "body": [
-            "Gardez vos déchets et vos eaux usées, utilisez les toilettes quand il y en a et repartez avant la fin de la durée autorisée. Le bruit, les feux et les campements qui s’étalent sont souvent ce qui pousse les localités à restreindre le camping gratuit.",
-            "Si un site est complet, ne vous créez pas un emplacement sur la végétation ou dans une rue voisine."
+            "Une place de stationnement légale peut quand même interdire d’y dormir, de s’y installer ou d’y passer la nuit. Cherchez une autorisation explicite de rester la nuit, des durées maximales et des restrictions de véhicules, et ne vous contentez pas de l’absence d’un panneau d’interdiction de camper.",
+            "Certaines municipalités interdisent purement et simplement de dormir dans un véhicule garé. Le Surf Coast Shire, sur la côte du Victoria, inflige une amende immédiate de 300 $ à quiconque dort dans un véhicule n’importe où sur son territoire."
           ],
           "tips": [
-            "",
-            "",
+            "Cherchez une autorisation explicite",
+            "Dormir dans un van peut être interdit",
             "Identifiez le gestionnaire du terrain"
           ]
         },
         {
-          "heading": "Pas de réponse valable pour tout le pays",
+          "heading": "Peut-on camper au bord de la route ?",
           "body": [
-            "C’est le gestionnaire du terrain qui décide si le camping gratuit y est légal : services des parcs des États, State Forests (forêts domaniales), municipalités, autorités routières et propriétaires privés appliquent tous des règles différentes. Il n’existe pas de règle nationale à retenir.",
-            "Concrètement, la réponse change à chaque limite de collectivité locale, et ces limites ne se voient pas depuis la route. Une règle vérifiée dans une municipalité (shire) ne vous dit rien de la suivante.",
-            "Les sources fiables sont les panneaux sur place et le site web de la municipalité concernée. Tout le reste, applis et guides compris, est un point de départ, pas une référence qui fait foi."
+            "En général, non, sauf si l’endroit est une aire de repos qui l’autorise. Le Queensland interdit le camping sur une route sous contrôle de l’État, sauf pour gérer la <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">fatigue</a> entre 16 h et 8 h, hors agglomération, à au moins 200 mètres de toute bordure et à 9 mètres de la voie de circulation, là où aucun panneau ne l’interdit et pas sur une autoroute ni une route à péage, sans feu ni groupe électrogène.",
+            "Main Roads, en <a data-guide=\"camping-rules-western-australia\">Australie-Occidentale</a>, n’autorise aucune nuit sur une aire de repos sans panneau l’y autorisant, et Service NSW indique que les aires de repos ne sont pas faites pour camper, même si une note d’urbanisme de juillet 2026 précise qu’on peut y camper, sauf si un panneau dit le contraire.",
+            "Là où une halte de nuit est permise, limitez-vous au véhicule, laissez les places des camions libres pour les poids lourds et repartez le matin."
           ],
           "tips": [
-            "Aucune règle nationale",
-            "La règle change d’une municipalité à l’autre",
-            "Les panneaux font foi"
+            "Les aires de repos, pas les bas-côtés",
+            "Laissez libres les places des camions",
+            "Repartez le matin"
           ]
         },
         {
-          "heading": "Là où c’est en général autorisé",
+          "heading": "Les amendes et la façon dont elles sont fixées",
           "body": [
-            "Dans le Victoria, en Nouvelle-Galles du Sud (NSW) et dans le <a data-guide=\"camping-rules-queensland\">Queensland</a>, les State Forests autorisent gratuitement le camping sauvage dans la plupart des secteurs, sous réserve des restrictions sur les feux et des fermetures saisonnières. C’est la solution de camping gratuit la plus sûre dans les États de l’est.",
-            "De nombreuses municipalités de l’intérieur, notamment dans le Queensland, en NSW et en <a data-guide=\"camping-rules-south-australia\">Australie-Méridionale</a>, proposent des aires de camping gratuites ou contre un don pour attirer les voyageurs en ville. Elles sont signalées, les voyageurs y sont les bienvenus, et on y trouve souvent des équipements de base.",
+            "Les sanctions sont fixées par celui à qui appartient le terrain, et elles varient donc beaucoup. Camper hors d’une zone de camping dans un parc national de NSW expose à 30 unités de pénalité (penalty units) au maximum, <a data-guide=\"camping-rules-act\">l’ACT</a> fixe un maximum de 20 unités de pénalité (3 200 $ pour un particulier) pour utiliser un terrain public, y compris pour y camper, sans permis, et l’usage abusif d’un Crown land d’Australie-Méridionale peut valoir une amende (expiation) de 315 $.",
+            "Les amendes municipales sont fixées localement : le montant diffère donc d’une municipalité à l’autre. Consultez le site de la municipalité ou le panneau du site.",
             "Dans les régions isolées, les séjours en station (station stays, dans de grandes exploitations d’élevage) et le camping dans les roadhouses (relais routiers des grandes routes isolées) prennent le relais. Les deux sont en général bon marché plutôt que gratuits, et ce sont souvent les seules options à des centaines de kilomètres à la ronde."
           ],
           "tips": [
-            "Les State Forests, l’option la plus sûre",
-            "Les villes de l’intérieur accueillent volontiers les voyageurs",
-            "Les séjours en station comblent les vides"
+            "Le propriétaire du terrain fixe la sanction",
+            "Les amendes municipales sont locales",
+            "Photographiez le panneau à l’arrivée"
           ]
         },
         {
-          "heading": "Là où c’est en général interdit",
+          "heading": "Véhicules autonomes",
           "body": [
-            "Près des grandes villes et dans les zones touristiques, les municipalités côtières interdisent presque toutes de passer la nuit dans un véhicule, et le font respecter par des patrouilles et des amendes. Sur une côte prisée, partez du principe que c’est interdit, sauf panneau contraire.",
-            "Dans les parcs nationaux, il faut presque partout un permis et un camping désigné. Camper en dehors des zones prévues dans un parc national est une infraction dans tous les États.",
+            "Certaines municipalités n’autorisent le camping gratuit qu’aux véhicules autonomes, équipés de toilettes et de réservoirs d’eaux usées. Chaque municipalité définit ce qui compte, alors vérifiez ses conditions avant de compter sur des toilettes portables.",
+            "L’autonomie peut ouvrir davantage de sites, mais elle ne lève pas la limite de séjour. La durée affichée sur le panneau s’applique toujours, et les eaux usées ne vont que dans une <a data-guide=\"dump-points-australia-guide\">aire de vidange</a>.",
             "Les aires de repos gérées par les autorités routières servent à faire une pause quand la <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">fatigue</a> se fait sentir. Y dormir est en général toléré ; y installer un campement avec auvent et chaises ne correspond pas à leur vocation, et c’est souvent expressément interdit."
           ],
           "tips": [
-            "Sur la côte, interdiction et patrouilles",
-            "Parcs nationaux : campings désignés uniquement",
-            "Aires de repos : pour se reposer, pas pour camper"
+            "Règles d’autonomie variables selon la municipalité",
+            "Les durées de séjour s’appliquent toujours",
+            "Ne vidangez que sur les aires de vidange"
           ]
         },
         {
-          "heading": "Autonomie et savoir-vivre",
+          "heading": "Le comportement garde les sites gratuits ouverts",
           "body": [
-            "Certaines municipalités n’autorisent le camping gratuit qu’aux véhicules autonomes, équipés de toilettes et de réservoirs à eaux usées. La définition varie d’une municipalité à l’autre : certaines exigent une certification, d’autres se contentent d’une déclaration sur l’honneur.",
-            "Au-delà des règles, c’est le comportement des campeurs qui garde les sites ouverts. Arrivez tard, partez tôt, faites-vous discret, remportez tous vos déchets et ne videz jamais vos réservoirs ailleurs que dans une <a data-guide=\"dump-points-australia-guide\">aire de vidange</a>.",
+            "Des sites gratuits peuvent fermer ou devenir payants à cause des ordures, des déchets, du bruit et de la surfréquentation.",
+            "Arrivez tard, partez tôt, laissez le moins de traces possible, remportez tous vos sacs de déchets et utilisez les toilettes là où il y en a. Si un site est complet, n’inventez pas un nouvel emplacement sur la végétation ou dans une rue voisine.",
             "Les sites ferment à cause des déchets, du bruit et de la surfréquentation, et ces fermetures sont en général définitives. Les secteurs aux règles les plus strictes aujourd’hui sont ceux où les comportements ont été les pires."
           ],
           "tips": [
-            "Règles d’autonomie variables selon la municipalité",
             "Discrétion et départ matinal",
-            "Les abus ferment les sites pour de bon"
+            "Remportez tous vos déchets",
+            "Complet, c’est complet"
           ]
         },
         {
-          "heading": "Les outils vraiment utiles",
+          "heading": "Vérifier avant de s’arrêter",
           "body": [
-            "Les sites des municipalités, les pages des services des parcs et les panneaux eux-mêmes sont les sources qui font foi. Les <a data-guide=\"best-camping-app-australia\">applis de camping</a> et les listes participatives aident à repérer des lieux possibles, mais ne vous couvrent pas si le site se révèle interdit.",
-            "Quand une fiche et un panneau se contredisent, suivez le panneau et signalez l’écart pour que la fiche soit corrigée. Les agents chargés des contrôles s’appuient sur la réglementation locale et sur les panneaux, jamais sur une appli.",
-            "En cas de vrai doute, une aire municipale bon marché ou un showground (terrain de foire agricole) se trouve en général à portée de route et règle la question pour une somme modique.",
+            "Le panneau sur place et le site web du gestionnaire du terrain font foi. Les <a data-guide=\"best-camping-app-australia\">apps de camping</a> et les listes communautaires aident à repérer des candidats, mais elles ne vous protègent pas si un site se révèle fermé ou interdit.",
+            "Si une liste et un panneau se contredisent, suivez le panneau. En cas de vrai doute, un camping municipal bon marché ou un showground (terrain de foire agricole) est souvent à portée de route et règle la question pour une somme modique.",
+            "Photographiez le panneau à votre arrivée. Cela ne coûte rien, et c’est la meilleure preuve dont vous disposez si un avis d’infraction est contesté plus tard.",
             "Photographier le panneau à votre arrivée ne coûte rien, et c’est la seule preuve vraiment utile si vous contestez ensuite une amende."
           ],
           "tips": [
-            "Les applis proposent, les panneaux tranchent",
-            "Signalez les écarts constatés",
-            "Les agents appliquent la réglementation locale"
+            "Le panneau l’emporte sur les listes",
+            "Un camping bon marché lève le doute",
+            "Photographiez le panneau"
           ]
         }
       ],
       "faq": [
         [
           "Le camping gratuit est-il légal en Australie ?",
-          "Oui, dans les zones prévues à cet effet, et nulle part ailleurs. Il n’existe pas de règle nationale : ce qui est permis dépend de l’État, du gestionnaire du terrain et de la municipalité, si bien qu’une aire de repos peut être une halte de nuit légale dans une municipalité et vous valoir une amende dans la suivante."
+          "Oui, mais seulement là où le gestionnaire du terrain l’autorise, par des panneaux ou une règle permanente : il n’existe aucun droit national de camper partout où un véhicule peut se garer. La plupart des forêts domaniales de Nouvelle-Galles du Sud et du Victoria, les Crown land d’Australie-Méridionale jusqu’à 21 jours, les sites municipaux qui l’indiquent et les aires de repos dont le règlement autorise une halte de nuit sont les principales options légales ; la plupart des campings de parcs nationaux sont payants ou exigent une réservation."
         ],
         [
-          "Combien de temps peut-on rester sur une aire de repos ?",
-          "Cela dépend du panneau : de quelques heures à 72 heures. Les aires de repos sont là pour lutter contre la fatigue au volant, pas pour servir de campings gratuits, et celles où l’on peut passer la nuit l’indiquent."
+          "Peut-on camper au bord de la route en Australie ?",
+          "En général, non. Les haltes au bord des routes se limitent aux aires de repos dont le règlement ou les panneaux autorisent une halte de nuit, comme les haltes signalées de 24 heures d’Australie-Occidentale. Le Queensland permet de s’arrêter sur une aire de repos jusqu’à 20 heures sauf panneau contraire, mais précise que ce ne sont pas des sites de camping, et il interdit le camping sur les routes de l’État en dehors d’une étroite exception pour la fatigue, de 16 h à 8 h."
         ]
       ],
-      "sources": [],
+      "sources": [
+        {
+          "label": "Forestry Corporation of NSW : camping"
+        },
+        {
+          "label": "NSW National Parks : campings"
+        },
+        {
+          "label": "Camper dans les forêts domaniales du Victoria"
+        },
+        {
+          "label": "Queensland Parks : réservations de camping"
+        },
+        {
+          "label": "Queensland : aires de repos"
+        },
+        {
+          "label": "Transport Infrastructure (State-controlled Roads) Regulation 2017"
+        },
+        {
+          "label": "Accéder aux Crown land d’Australie-Méridionale"
+        },
+        {
+          "label": "Camper hors des caravan parks en Australie-Occidentale"
+        },
+        {
+          "label": "Main Roads WA : conduite sur longues distances"
+        },
+        {
+          "label": "NT : aires de repos routières"
+        },
+        {
+          "label": "Sustainable Timber Tasmania : visiter les terres que nous gérons"
+        },
+        {
+          "label": "ACT Parks : où loger"
+        },
+        {
+          "label": "Service NSW : trouver des aires de repos"
+        },
+        {
+          "label": "Surf Coast Shire : stationnement"
+        },
+        {
+          "label": "Main Roads WA : politique sur les aires de repos"
+        },
+        {
+          "label": "NSW National Parks and Wildlife Regulation 2019"
+        },
+        {
+          "label": "NSW : note de pratique sur les caravan parks et terrains de camping, juillet 2026"
+        },
+        {
+          "label": "ACT : Public Unleased Land Act 2013"
+        },
+        {
+          "label": "Parks Victoria : camping isolé dans l’Alpine National Park"
+        },
+        {
+          "label": "Camping dans le parc national de Southwest"
+        },
+        {
+          "label": "Northern Midlands Council : villes accueillant les camping-cars"
+        },
+        {
+          "label": "Central Coast Council : sites de camping"
+        },
+        {
+          "label": "NT Parks : camping"
+        },
+        {
+          "label": "Queensland Parks : FAQ sur le camping"
+        },
+        {
+          "label": "National Parks SA : FAQ sur les réservations"
+        }
+      ],
       "priceTable": null
     },
     "campfires-camping-australia": {
