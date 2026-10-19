@@ -200,6 +200,17 @@ yomeanimo.com (Argentina/Chile, Working Holiday, «recorrer Australia en van»),
 | baggage allowance | «equipaje permitido» | not «franquicia de equipaje» (clashes with insurance excess) |
 | recreation area (QLD) | «área recreativa (recreation area)» | |
 | «a few dollars» | «unos pocos dólares australianos / neozelandeses» | never bare «dólares» |
+| open road (speed) | «en carretera», «fuera de las zonas urbanas» | never «carretera abierta» |
+| towing combination | «conjunto», first use «un conjunto (coche y caravana)» | |
+| gross laden weight / tow ball download / towbar rating | «peso total con carga» / «carga vertical sobre la bola» / «capacidad de la barra de remolque» | |
+| drive-through site | «parcela en la que se entra y se sale sin maniobrar (drive-through)» | |
+| IDP | «permiso internacional de conducir (IDP)» first use, then «IDP» | |
+| NZTA | «la NZTA (NZ Transport Agency Waka Kotahi, la agencia de transporte de Nueva Zelanda)» in running text; source labels «NZTA: …» | |
+| ACC (NZ) | «la ACC (Accident Compensation Corporation, el sistema público neozelandés de indemnización por accidentes)» | |
+| COF (NZ) | «el Certificate of Fitness (COF, la inspección de los vehículos pesados y de transporte de pasajeros)» | |
+| stickers / labels | «etiqueta» | «pegatina» mostly Spain |
+| licensing agent | «agente autorizado (licensing agent)» | |
+| probationary / graduated licence | «provisional» / «permiso por fases» | |
 
 ### App and product names
 
