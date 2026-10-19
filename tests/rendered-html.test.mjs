@@ -350,7 +350,7 @@ test("analytics sets Consent Mode defaults before anything else and loads GA4 wi
 });
 
 test("the consent bar shows in Europe until a choice is stored, and the choice sticks", () => {
-  for (const timeZone of ["Europe/Berlin", "Atlantic/Canary", "Atlantic/Reykjavik"]) {
+  for (const timeZone of ["Europe/Berlin", "Atlantic/Canary", "Atlantic/Reykjavik", "Asia/Nicosia", "Indian/Reunion", "America/Martinique"]) {
     const run = runAnalytics({ timeZone });
     assert.equal(run.bar.hidden, false, `${timeZone} shows the bar`);
     assert.ok(run.rootClasses.has("consent-open"), "the sticky CTA is hidden while the bar is open");
