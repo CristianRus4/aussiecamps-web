@@ -56,7 +56,7 @@ yomeanimo.com (Argentina/Chile, Working Holiday, «recorrer Australia en van»),
 | ute | **pickup** | |
 | RV | **autocaravana** | |
 | campground (AU, basic public) | **zona de acampada**; «camping» when it has services | e.g. «las zonas de acampada de los parques nacionales» |
-| campsite (generic place to camp) | **camping** (plural **campings**) | App: CAMPSITE / CAMPGROUND → CAMPING |
+| campsite (generic place to camp) | **camping** (plural **campings**) | App: CAMPSITE / CAMPGROUND → CAMPING. Latin America also says «campamento» (GSC AU: «campamentos en australia», 43 impressions): fine once as a synonym in a meta description, never as our default in body text |
 | campsite / site (a pitch) | **parcela** | «parcela con electricidad / sin electricidad» for powered / unpowered site |
 | DOC campsite | **camping del DOC** | Never «sitio del DOC» |
 | caravan park | **parque de caravanas** (gloss «(caravan park)» once per page where the term matters) | App AU label «Parques de caravanas» |
