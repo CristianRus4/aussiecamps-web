@@ -198,7 +198,7 @@ Use the established Taiwan exonym; otherwise keep the English. For a lesser-know
 - **Currency:** amounts stay in AUD / NZD exactly as the English writes them. Keep the $ figure and add 澳幣 / 紐幣 after it where the currency is not already clear: 「每晚 $30 澳幣」「$80 至 $130 澳幣」「一個人 $159 紐幣」 [TW-blog Christy: 「一個人 $159 紐幣」]. Keep A$ / NZ$ / AUD / NZD tokens when the English uses them (「每公升 A$2.08」「AUD」). Never convert to 新台幣. Never 澳元/紐元 in body copy (official-sounding; bloggers say 澳幣/紐幣).
 - **Units:** 公里, 公尺, 公升, 公斤, 攝氏 / °C, 公里/小時 or 時速 100 公里. Labels in the tools may keep the unit symbol: 「距離（km）」「油耗（L/100 km）」.
 - **Dates and times:** 2026 年 8 月 12 日; 11 月到隔年 4 月; 晚上 10 點到早上 7 點; 上午 10 點前退營. Weekdays 週一…週日.
-- **Titles and H1:** lead with the term Taiwanese search: 澳洲露營 / 澳洲自駕 / 紐西蘭露營車 / 紐西蘭自由露營 / 昆士蘭露營規定 / DOC 山屋. About 30 characters or fewer. Use 「：」 between the main term and the angle. No 【】 or ｜ stacks (blog style, but too noisy for this site).
+- **Titles and H1:** lead with the term Taiwanese search: 澳洲露營 / 澳洲自駕 / 紐西蘭露營車 / 紐西蘭自由露營 / 昆士蘭露營規定 / DOC 山屋. About 30 characters or fewer. Exception to the no-English-in-titles rule: where Taiwanese travellers search the English word itself (Dump Point / Dump Station, Holiday Park), the title may carry it once next to the Chinese term: 「澳洲 Dump Point 排污站：…」. Use 「：」 between the main term and the angle. No 【】 or ｜ stacks (blog style, but too noisy for this site).
 - **Meta descriptions:** 60 to 80 Chinese characters, one or two sentences, no keyword stuffing.
 - **Headings:** short noun phrases or imperative phrases; no full stop.
 - **Tips (short bullets):** 6 to 15 characters, no full stop, imperative or noun phrase: 「先訂好營位」「河口鱷出沒，遠離水邊」.
