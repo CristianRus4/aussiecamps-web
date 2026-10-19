@@ -53,7 +53,7 @@
     "planTitle": "Trasformalo in un viaggio",
     "planText": "Metti in ordine le tappe, guarda la distanza tra una e l’altra, aggiungi date e note, controlla il meteo di ogni tappa, apri le indicazioni e spuntale man mano che procedi.",
     "featuresEyebrow": "Tutto quello che serve",
-    "featuresTitle": "Trova, salva e pianifica tutta la strada.",
+    "featuresTitle": "Trova, salva e pianifica tutto il viaggio.",
     "featuresText": "Esplora i luoghi, confronta i dettagli, organizza i preferiti e prepara un viaggio che ti serve ancora quando sei già per strada.",
     "featureMainEyebrow": "Conosci il posto prima di arrivarci",
     "featureMainTitle": "Ogni scheda ti dice subito quello che conta per decidere.",
@@ -88,7 +88,7 @@
     "routesTitle": "Conosci le regole. Conosci i costi.",
     "routesText": "Guide pratiche su regole del campeggio, sicurezza stradale, stagioni e quanto costa davvero un viaggio in Australia.",
     "exploreRoutes": "Esplora le guide",
-    "audiencesEyebrow": "Comunque ti porti dietro la casa",
+    "audiencesEyebrow": "Comunque tu viaggi",
     "audiencesTitle": "Per chi viaggia in tenda, in van o fa il Big Lap.",
     "audience1Title": "Backpacker",
     "audience1Text": "Budget stretto e itinerario flessibile possono andare d’accordo.",
@@ -113,7 +113,7 @@
     "faq1q": "Che cos’è AussieCamps?",
     "faq1a": "AussieCamps è un’app per iPhone per trovare dove campeggiare e dormire in giro per l’Australia. Contiene un archivio di oltre 74.000 luoghi, così i dettagli restano leggibili anche senza campo, e trasforma i posti che salvi in un viaggio con tappe in ordine, date, note e cose da fare.",
     "faq2q": "Quali luoghi ci sono?",
-    "faq2a": "Più di 74.000 luoghi: campeggi, caravan park, alloggi al coperto, farm stay e soggiorni nelle station dell’outback, ostelli per backpacker, aree di sosta lungo la strada, aree attrezzate per il giorno, punti di scarico, acqua potabile, lavanderie a gettoni, uffici informazioni, parcheggi per veicoli lunghi, esperienze e altre soste utili.",
+    "faq2a": "Più di 74.000 luoghi: campeggi, caravan park, alloggi al coperto, farm stay e soggiorni nelle station dell’outback, ostelli per backpacker, aree di sosta lungo la strada, aree picnic, punti di scarico, acqua potabile, lavanderie a gettoni, uffici informazioni, parcheggi per veicoli lunghi, esperienze e altre soste utili.",
     "faq3q": "Funziona senza campo?",
     "faq3a": "L’archivio dei luoghi è dentro l’app, quindi nomi, categorie, descrizioni, tariffe, servizi, orari e condizioni restano leggibili anche dove il segnale non arriva. I servizi in tempo reale, come meteo, percorsi, Street View, foto e pagine dei gestori, richiedono invece una connessione.",
     "faq4q": "Posso pianificare un viaggio con più tappe?",
@@ -166,7 +166,7 @@
     "currencyText": "Conversione indicativa per organizzare il viaggio, ai tassi della Reserve Bank of Australia. La tua banca o la tua carta possono usare un altro tasso e aggiungere commissioni.",
     "fuelEyebrow": "Calcolo del carburante",
     "fuelTitle": "Quanto ti costa la strada.",
-    "fuelText": "Inserisci la distanza totale del percorso, il consumo del mezzo a pieno carico e il prezzo al litro che prevedi. Nelle zone remote i prezzi possono superare di parecchio quelli delle città.",
+    "fuelText": "Inserisci la distanza totale del percorso, il consumo del mezzo a pieno carico e il prezzo al litro che prevedi. Nelle zone remote i prezzi possono superare quelli delle città.",
     "driveEyebrow": "Stima della giornata di guida",
     "driveTitle": "Quanto dura davvero quella giornata.",
     "driveText": "I navigatori ti danno il tempo di guida su una strada ideale. Qui aggiungi il tipo di strada e le soste che farai davvero, ed è proprio lì che di solito la giornata si allunga.",
@@ -277,7 +277,7 @@
           "paragraphs": [
             "Crea un viaggio, aggiungi i luoghi e trascinali nell’ordine che vuoi. Ogni tappa può avere data di arrivo, note, meteo e stato di visita, e il pianificatore mostra la distanza in auto tratta per tratta e su tutto il viaggio.",
             "Il calcolo del percorso si basa sulle indicazioni disponibili in MapKit. Se una tratta non si riesce a calcolare, le tappe restano dove sono, ma controllare che la strada sia percorribile spetta a te.",
-            "Parti dalla lista base per il campeggio o crea le tue voci. Con l’avanzamento del viaggio la lista resta accanto all’itinerario, e i dettagli dell’itinerario si possono sincronizzare con Calendario."
+            "Parti dalla lista base per il campeggio o crea le tue cose da fare. Nella schermata Avanzamento del viaggio la lista resta accanto all’itinerario, e i dettagli dell’itinerario si possono sincronizzare con Calendario."
           ]
         },
         {
@@ -331,7 +331,16 @@
           "heading": "Link esterni e log del sito",
           "paragraphs": [
             "Dalla scheda di un luogo puoi aprire portali di prenotazione, siti web, profili social, numeri di telefono, indirizzi email e app di mappe. Quando scegli di aprirli, quei servizi ricevono informazioni secondo le loro politiche.",
-            "I fornitori di hosting possono trattare normali log tecnici, come indirizzo IP, tipo di browser e URL richiesto, per erogare il sito, mantenerlo affidabile e sicuro. AussieCamps non usa tracker pubblicitari su questo sito."
+            "I fornitori di hosting possono trattare normali log tecnici, come indirizzo IP, tipo di browser e URL richiesto, per erogare il sito e mantenerlo affidabile e sicuro."
+          ]
+        },
+        {
+          "heading": "Statistiche del sito",
+          "paragraphs": [
+            "Questo sito usa Google Analytics 4 per capire quali pagine vengono lette e come i visitatori arrivano all’app. Google tratta questi dati per nostro conto, come responsabile del trattamento. Per i visitatori dello Spazio economico europeo, del Regno Unito e della Svizzera il servizio è fornito da Google Ireland Limited.",
+            "Analytics registra le pagine che visiti, il tipo di dispositivo e di browser, una posizione approssimativa ricavata dal tuo indirizzo IP e i link all’App Store su cui fai clic. Google Analytics 4 non registra né conserva gli indirizzi IP e non riceve mai il tuo nome, il tuo indirizzo email o quello che salvi nell’app.",
+            "Analytics usa due cookie di prima parte: _ga e un secondo il cui nome inizia con _ga_ seguito dal nostro ID di misurazione. Entrambi durano fino a 13 mesi. Nello Spazio economico europeo, nel Regno Unito e in Svizzera vengono impostati solo dopo che li hai accettati: fino ad allora non viene salvato alcun cookie di analisi e Google riceve solo misurazioni senza cookie, prive di qualsiasi identificativo. Puoi cambiare la tua scelta in qualsiasi momento con il link Preferenze sulla privacy in fondo a ogni pagina.",
+            "Google Signals e la personalizzazione degli annunci sono disattivati, e i dati di analisi vengono cancellati dopo 14 mesi. Questo sito non usa tracker pubblicitari."
           ]
         },
         {
@@ -343,12 +352,12 @@
         {
           "heading": "Minori e contatti",
           "paragraphs": [
-            "AussieCamps è uno strumento di viaggio per tutti e non è rivolto ai minori. Non inviare dati personali di un minore tramite l’assistenza.",
+            "AussieCamps è un’app di viaggio per uso generale e non è rivolta ai minori. Non inviare dati personali di un minore tramite l’assistenza.",
             "Per domande sulla privacy, scrivi all’assistenza di AussieCamps."
           ]
         }
       ],
-      "effective": "In vigore dal 12 agosto 2026"
+      "effective": "In vigore dal 19 ottobre 2026"
     },
     "terms": {
       "title": "Condizioni d’uso",
@@ -363,7 +372,7 @@
         {
           "heading": "Nessuna garanzia di prenotazione o di accesso",
           "paragraphs": [
-            "Una scheda non garantisce che un luogo sia aperto, consentito per il tuo tipo di sistemazione, raggiungibile con il tuo mezzo o disponibile. I link esterni per prenotazioni e contatti sono forniti per comodità. Il contratto è tra te e il fornitore terzo."
+            "Una scheda non garantisce che un luogo sia aperto, consentito con il tuo mezzo o la tua attrezzatura, raggiungibile con il tuo veicolo o disponibile. I link esterni per prenotazioni e contatti sono forniti per comodità. Il contratto è tra te e il fornitore terzo."
           ]
         },
         {
@@ -375,7 +384,7 @@
         {
           "heading": "Dati dell’utente",
           "paragraphs": [
-            "Sei responsabile delle note, dei piani di viaggio e delle altre informazioni che salvi. Tieni copie separate di permessi, prenotazioni e piani da cui dipende la tua sicurezza, se perderne l’accesso potrebbe mettere a rischio il viaggio."
+            "Sei responsabile delle note, dei piani di viaggio e delle altre informazioni che salvi. Se restare senza permessi, prenotazioni o piani importanti per la sicurezza può mettere a rischio il viaggio, tienine una copia a parte."
           ]
         },
         {
@@ -866,7 +875,7 @@
       "priceTable": null
     },
     "interstate-biosecurity-road-trip": {
-      "title": "Biosicurezza tra gli stati nel road trip in Australia",
+      "title": "Quarantena tra gli stati australiani: le regole per il road trip",
       "description": "Biosicurezza nel road trip in Australia: frutta, verdura, miele, piante, terra e attrezzatura da campeggio possono essere bloccati ai confini tra gli stati.",
       "region": "Australia",
       "imageAlt": "Cartello di un posto di controllo per la quarantena tra stati australiani",
@@ -943,7 +952,7 @@
           "heading": "Perché è importante",
           "body": [
             "In Australia l’agricoltura è libera da molti parassiti presenti altrove, e questo dipende dalle barriere interne tanto quanto da quelle internazionali. Basta un solo focolaio di mosca della frutta per far perdere ai produttori di una regione i mercati di esportazione.",
-            "Per gli ecosistemi autoctoni la posta in gioco è simile. Dieback, ruggine del mirto e nuove piante infestanti hanno cambiato per sempre vaste aree, e nella maggior parte dei casi a portarli in giro è stato l’uomo, quando si poteva evitare.",
+            "Per gli ecosistemi autoctoni la posta in gioco è simile. Dieback, ruggine del mirto e nuove piante infestanti hanno cambiato per sempre vaste aree, e quasi sempre a diffonderli è stato l’uomo, in modi che si potevano evitare.",
             "Rispettare le regole costa pochi minuti e un po’ di organizzazione della spesa. Considera i contenitori al confine una parte normale del viaggio on the road, non un fastidio."
           ],
           "tips": [
@@ -5354,7 +5363,7 @@
             "Per molte piazzole la prenotazione indica il numero massimo di veicoli e di persone. Presentati con quello che hai prenotato: le piazzole sono piccole e nei campeggi affollati i ranger controllano davvero."
           ],
           "tips": [
-            "A Wilsons Prom l’estate si assegna per sorteggio",
+            "A Wilsons Prom le piazzole estive si sorteggiano",
             "Prenota la costa con mesi di anticipo",
             "Il limite di persone si controlla davvero"
           ]
@@ -6417,5 +6426,13 @@
       ],
       "priceTable": null
     }
+  },
+  "consent": {
+    "label": "Preferenze sulla privacy",
+    "message": "Possiamo usare i cookie di Google Analytics per sapere quali pagine si leggono e quali link all’App Store si aprono? Nessun dato viene usato per la pubblicità.",
+    "accept": "Accetta",
+    "decline": "Rifiuta",
+    "learnMore": "Informativa sulla privacy",
+    "privacyChoices": "Preferenze sulla privacy"
   }
 }
