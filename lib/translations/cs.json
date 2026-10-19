@@ -1,6 +1,758 @@
 {
   "locale": "cs",
-  "ui": {},
-  "pages": {},
-  "articles": {}
+  "ui": {
+    "languageName": "Čeština",
+    "metaTitle": "AussieCamps: mapa kempů v Austrálii a plánovač road tripu",
+    "metaDescription": "Přes 74 000 kempů, caravan parků, free kempů, odpočívadel a výlevek po celé Austrálii. Údaje o místech offline, přesné filtry a plánovač cesty po zastávkách. Pro iPhone.",
+    "ogTitle": "AussieCamps: mapa kempů a plánovač road tripu po Austrálii",
+    "ogDescription": "Přes 74 000 kempů, caravan parků, free kempů a užitečných zastávek, všechno uložené offline. Filtrujte, ukládejte a naplánujte si celou cestu kolem Austrálie.",
+    "metaKeywords": "aplikace na kempování Austrálie, kempování zdarma Austrálie, kempy Austrálie, caravan parky Austrálie, free kempy Austrálie, kempy Austrálie offline, obytným autem po Austrálii, výlevky Austrálie, odpočívadla Austrálie, plánovač road tripu Austrálie",
+    "metaGuidesTitle": "Kempování a road trip po Austrálii: praktické rady",
+    "metaGuidesDescription": "Pravidla kempování podle států, kempování zdarma a limity na odpočívadlech, zákazy ohně, bezpečnost na silnici, kdy jet, skutečné náklady a praktické plánování road tripu po Austrálii.",
+    "metaToolsTitle": "Kalkulačky pro road trip po Austrálii",
+    "metaToolsDescription": "Převeďte australské ceny, spočítejte palivo na cestu, odhadněte skutečnou délku dne za volantem, naplánujte zásoby vody a odpadní nádrže a porovnejte ceny kempů.",
+    "metaSupportTitle": "Podpora a časté dotazy",
+    "metaSupportDescription": "Pomoc s mapami, údaji o místech, filtry, sbírkami, plánovačem cest, offline daty, převodem měn a prémiovým přístupem v AussieCamps.",
+    "navFeatures": "Funkce",
+    "navGuides": "Průvodce",
+    "navTools": "Nástroje",
+    "navSupport": "Podpora",
+    "download": "Stáhnout aplikaci",
+    "downloadShort": "Stáhnout",
+    "updated": "Aktualizováno",
+    "commonQuestions": "Časté dotazy",
+    "altHero": "Mapa AussieCamps pro Austrálii s piny kempů, caravan parků a free kempů podél pobřeží a pod ní seznam Prozkoumat s místy v okolí",
+    "altPlaceScreen": "Detail místa v AussieCamps pro kemp u pobřeží s poplatkem, otevírací dobou, vybavením a odkazem na rezervaci",
+    "altCollectionsScreen": "Obrazovka sbírek v AussieCamps se seznamy Chci navštívit, Navštíveno, Piny a Vše uloženo nad satelitní mapou",
+    "altTripScreen": "Itinerář road tripu v AussieCamps se sedmi zastávkami, vzdáleností jízdy, daty a počasím u každého kempu",
+    "altExploreScreen": "Seznam Prozkoumat v AussieCamps s kempy a caravan parky a jejich vzdáleností od aktuálního výřezu mapy",
+    "heroKicker": "Nejlepší aplikace na kempování v Austrálii",
+    "heroTitle": "Austrálie je obrovská, váš plán může být jednoduchý",
+    "heroText": "Přes 74 000 míst po celé Austrálii, uložených offline, takže se otevřou i bez signálu. Vyfiltrujte přesně to, co potřebujete, uložte si to a z užšího výběru poskládejte road trip s trasou, vzdálenostmi, daty, poznámkami a úkoly.",
+    "seeHow": "Jak to funguje",
+    "statPlaces": "74 000+",
+    "statPlacesLabel": "míst po celé Austrálii",
+    "statOffline": "Offline",
+    "statOfflineLabel": "všechny údaje o místech i bez signálu",
+    "statStays": "4 000+",
+    "statStaysLabel": "možností ubytování",
+    "trustLine": "Kempy, caravan parky a užitečné zastávky po celé Austrálii.",
+    "trustCampsites": "Kempy",
+    "trustCaravanParks": "Caravan parky",
+    "trustNationalParks": "Národní parky",
+    "trustRestAreas": "Odpočívadla",
+    "trustUsefulStops": "Užitečné zastávky",
+    "trustExperiences": "Zážitky",
+    "processEyebrow": "Od nápadu až na silnici",
+    "processTitle": "Najděte kemp. Poskládejte cestu.",
+    "processText": "Vyfiltrujte si kemp na dnešní noc, zítřejší možnosti uložte do sbírek a trasu, vzdálenosti, data, poznámky i úkoly mějte pohromadě v jedné cestě.",
+    "findTitle": "Najděte přesně to pravé místo",
+    "findText": "Prohledávejte přes 74 000 míst, procházejte okolí, nebo přidávejte filtry, dokud vám ve vašem koutě mapy nezůstanou jen místa ke kempování zdarma s toaletami a vodou.",
+    "saveTitle": "Uložte si ho do sbírky",
+    "saveText": "Když místu dáte Líbilo se, hvězdičku nebo ho označíte jako navštívené, chytré sbírky se aktualizují samy. Vlastní pojmenované seznamy si vytvořte pro region, roční období nebo užší výběr.",
+    "planTitle": "Udělejte z toho cestu",
+    "planText": "Seřaďte zastávky, podívejte se na vzdálenosti mezi nimi, přidejte data a poznámky, zkontrolujte počasí u každé zastávky, spusťte navigaci a odškrtávejte, co máte za sebou.",
+    "featuresEyebrow": "Kompletní výbava",
+    "featuresTitle": "Najděte. Uložte. Naplánujte celou cestu.",
+    "featuresText": "Prozkoumávejte místa, porovnávejte podrobnosti, třiďte oblíbená místa a sestavte si cestu, která vám poslouží i dlouho po plánování u stolu.",
+    "featureMainEyebrow": "Poznejte místo dřív, než tam dorazíte",
+    "featureMainTitle": "U každého místa najdete přesně to, podle čeho se rozhodnete.",
+    "featureMainText": "Fotky, skutečný popis, otevírací doba, poplatky, podmínky, vybavení a vlastnosti seřazené podle typu, aktuální upozornění, hodnocení, kontakty a rezervace, počasí a Street View, ve kterém uvidíte vjezd ze silnice.",
+    "featureList1": "Fotky, otevírací doba, poplatky, podmínky a vybavení",
+    "featureList2": "Street View, počasí a navigace přímo v aplikaci",
+    "featureList3": "Uloženo offline, otevře se i bez signálu",
+    "feature1Title": "Chytré sbírky a vlastní seznamy",
+    "feature1Text": "Líbilo se, S hvězdičkou, Chci navštívit a Navštíveno se plní samy, jak místa označujete. Navíc si můžete vytvořit vlastní sbírky pro region, roční období nebo užší výběr, o kterém se ještě dohadujete.",
+    "feature2Title": "Filtry, které odpoví na skutečnou otázku",
+    "feature2Text": "Najděte místa ke kempování zdarma s toaletami a pitnou vodou kolem Gold Coast a pak výběr zužte podle kategorie, poplatku, hodnocení, online rezervace, státu a podrobných vlastností přístupu, vybavení, aktivit a služeb.",
+    "feature3Title": "Standardní, satelitní a 3D mapa",
+    "feature3Text": "Přepínejte mezi standardní mapou a satelitními snímky, které můžete naklonit a otočit do skutečného terénu. Při oddálení se piny seskupí a ukážou počet míst, při přiblížení se zase rozpadnou.",
+    "feature4Title": "Street View ještě před odbočkou",
+    "feature4Text": "Street View se otevírá přímo z detailu místa všude, kde je k dispozici, takže uvidíte vjezd, povrch cesty i okolí dřív, než s obytným autem odbočíte.",
+    "feature5Title": "Počasí u každého místa",
+    "feature5Text": "Aktuální počasí a předpověď najdete v detailu místa i u každé zastávky na cestě, takže se mezi dvěma kempy můžete rozhodnout i podle toho, co chystá obloha.",
+    "feature6Title": "Ceny ve vaší měně",
+    "feature6Text": "Jste v Austrálii poprvé a v australských dolarech se ještě nevyznáte? Zvolte si měnu, jednou nastavte kurz a nahlášené poplatky uvidíte i v penězích, které odhadnete na první pohled.",
+    "plannerEyebrow": "Hlavní funkce",
+    "plannerTitle": "Zastávku po zastávce. Den po dni.",
+    "plannerText": "Všechno ostatní se nakonec sejde v plánovači cest. Přidejte uložená místa jako zastávky a přetáhněte je do pořadí, v jakém je opravdu pojedete. U každého úseku vidíte vzdálenost, navigaci k další zastávce otevřete jedním klepnutím, každá zastávka má vlastní datum, poznámky k příjezdu a počasí a během cesty je odškrtáváte jako navštívené. Alternativy v okolí zůstávají po ruce pro dny, kdy se plán změní, seznam věcí na cestu leží hned vedle itineráře a celé to můžete synchronizovat do Kalendáře.",
+    "plannerMetric1Title": "Vzdálenost a navigace",
+    "plannerMetric1Text": "po úsecích i za celou cestu",
+    "plannerMetric2Title": "Data a poznámky",
+    "plannerMetric2Text": "u každé zastávky",
+    "plannerMetric3Title": "Navštíveno a úkoly",
+    "plannerMetric3Text": "postup, který máte na očích",
+    "plannerMetric4Title": "Počasí u zastávek",
+    "plannerMetric4Text": "hned vedle itineráře",
+    "routesEyebrow": "Co si přečíst předem",
+    "routesTitle": "Znát pravidla. Znát náklady.",
+    "routesText": "Praktické rady k pravidlům kempování, bezpečnosti na silnici, nejlepšímu období a k tomu, kolik cesta po Austrálii doopravdy stojí.",
+    "exploreRoutes": "Projít průvodce",
+    "audiencesEyebrow": "Ať cestujete jakkoli",
+    "audiencesTitle": "Pro stany, obytná auta i objezd celé Austrálie.",
+    "audience1Title": "Baťůžkáři",
+    "audience1Text": "Skloubíte napjatý rozpočet s volnou trasou.",
+    "audience2Title": "Campervany",
+    "audience2Text": "Najdete vybavení, příjezd a místa na noc, jaká potřebujete.",
+    "audience3Title": "Karavany a velké soupravy",
+    "audience3Text": "Filtrujte podle místa, služeb a praktických poznámek k příjezdu.",
+    "audience4Title": "Víkendoví kempaři",
+    "audience4Text": "Oblíbená místa v okolí máte připravená, až přijde pátek.",
+    "principlesTitle": "Hlavně užitečně. Vždy poctivě.",
+    "principle1Title": "Cedule mají přednost",
+    "principle1Text": "Značení na místě, pokyny správců území a aktuální varování záchranných složek mají vždy přednost před jakýmkoli záznamem v aplikaci.",
+    "principle2Title": "Vždy si ověřte aktuální stav",
+    "principle2Text": "Před odjezdem zkontrolujte nejnovější informace o rezervacích, silnicích, požárech a uzavírkách.",
+    "principle3Title": "Nechte místo lepší, než jste ho našli",
+    "principle3Text": "Legální kempování, ohleduplné nakládání s odpady a respekt ke Country (zemi a všemu, co pro Aboridžince znamená) pomáhají, aby tato místa zůstala otevřená.",
+    "faqEyebrow": "Pár přímých odpovědí",
+    "faqTitle": "Dobré otázky. Jasné odpovědi.",
+    "faqIntro": "Přímé odpovědi na to, jak se s AussieCamps cestuje.",
+    "faq1q": "Co je AussieCamps?",
+    "faq1a": "AussieCamps je aplikace pro iPhone, se kterou najdete místa ke kempování a přespání po celé Austrálii. Obsahuje adresář více než 74 000 míst, takže údaje přečtete i bez signálu, a z uložených míst vám poskládá road trip s pořadím zastávek, daty, poznámkami a úkoly.",
+    "faq2q": "Jaká místa aplikace obsahuje?",
+    "faq2a": "Více než 74 000 míst: kempy, caravan parky, ubytování pod střechou, pobyty na farmách a dobytkářských farmách, hostely pro baťůžkáře, odpočívadla u silnic, místa jen pro denní pobyt, výlevky, pitnou vodu, prádelny, informační centra, parkování pro dlouhá vozidla, zážitky a další užitečné zastávky.",
+    "faq3q": "Funguje aplikace bez signálu?",
+    "faq3a": "Adresář míst je přímo součástí aplikace, takže názvy, kategorie, popisy, poplatky, vybavení, otevírací doby a podmínky přečtete i daleko od signálu. Živé služby, jako je počasí, navigace, Street View, fotky a stránky poskytovatelů, připojení dál potřebují.",
+    "faq4q": "Dá se naplánovat road trip s více zastávkami?",
+    "faq4a": "Ano, to je hlavní funkce aplikace. Přidejte místa jako zastávky, přetáhněte je do pořadí, ke každé připojte datum a poznámky k příjezdu, sledujte vzdálenost jízdy po úsecích i za celou cestu, otevřete navigaci k další zastávce, zkontrolujte počasí na každé z nich, odškrtávejte navštívené zastávky a seznam věcí na cestu mějte hned vedle itineráře. Podrobnosti itineráře můžete synchronizovat do Kalendáře.",
+    "faq5q": "Co jsou sbírky?",
+    "faq5a": "Jsou dvojího druhu. Chytré sbírky (Líbilo se, S hvězdičkou, Chci navštívit, Navštíveno, Piny a Vše uloženo) se plní samy, jak místa označujete. Kromě nich si můžete vytvořit vlastní pojmenované sbírky s ikonou a poznámkami pro region, roční období, vozidlo nebo užší výběr.",
+    "faq6q": "Dá se filtrovat podle free kempů nebo příjezdu s karavanem?",
+    "faq6a": "Ano, a filtry jdou i kombinovat. Pokrývají kategorii, typ poplatku, minimální hodnocení, online rezervaci, stát nebo teritorium a podrobné skupiny vlastností pro přístup, vybavení, aktivity, služby a příslušnost, takže „místa ke kempování zdarma s toaletami a pitnou vodou v Queenslandu“ najdete jediným dotazem.",
+    "faq7q": "Co najdu v detailu místa?",
+    "faq7a": "Fotky, popis, otevírací dobu, poplatky, podmínky, vybavení a vlastnosti seřazené podle typu, aktuální upozornění, hodnocení, kontakty a rezervace, počasí, Street View tam, kde je k dispozici, navigaci a alternativy v okolí.",
+    "faq8q": "Jaká zobrazení mapy jsou k dispozici?",
+    "faq8a": "Standardní mapa a satelitní zobrazení z leteckých snímků Apple Flyover, které můžete naklonit a otočit do skutečného 3D terénu. Street View, postavené na snímcích Apple Look Around, ukazuje pohled z úrovně ulice přímo z detailu místa.",
+    "faq9q": "Můžu vidět ceny ve své měně?",
+    "faq9a": "Ano. V nastavení si zvolte měnu a zadejte kurz a nahlášené poplatky se zobrazí v této měně vedle částky v australských dolarech.",
+    "faq10q": "Dá se v AussieCamps rezervovat kemp?",
+    "faq10a": "Otevřete u místa rezervační údaje, dostanete se k poskytovateli a ověříte si aktuální dostupnost, ceny a podmínky.",
+    "faq11q": "Platí v celé Austrálii stejná pravidla kempování?",
+    "faq11a": "Ne. Pravidla se liší podle státu, teritoria, místní samosprávy, parku i konkrétního místa. Vždy se řiďte aktuálním značením, podmínkami správce území, protipožárními omezeními a oficiálními výstrahami.",
+    "downloadEyebrow": "Další místo na vás čeká",
+    "downloadTitle": "Najděte. Uložte. Naplánujte cestu.",
+    "downloadText": "Přes 74 000 australských míst offline, filtry, které najdou přesně to pravé, sbírky, které se třídí samy, a plánovač, který udrží celou trasu. AussieCamps pro iOS.",
+    "guidesEyebrow": "Kempování v Austrálii",
+    "guidesTitle": "Vydejte se na cestu, která stojí za to.",
+    "guidesIntro": "podrobných průvodců ke kempům, pravidlům, místním cenám a praktickému plánování cesty po Austrálii.",
+    "guideSingular": "průvodce",
+    "guidePlural": "průvodců",
+    "readGuide": "Číst průvodce",
+    "minuteRead": "min čtení",
+    "places": "místa",
+    "backToGuides": "Průvodce",
+    "photoCredits": "Autoři fotografií",
+    "keepInMind": "Na co myslet",
+    "placesAlong": "Místa po cestě",
+    "checkBefore": "Před cestou si ověřte",
+    "checkText": "Pravidla a podmínky se mění. Před odjezdem si znovu zkontrolujte oficiální zdroj a stránku konkrétního parku nebo kempu.",
+    "priceTitle": "Ceny v 10 měnách",
+    "pricesChecked": "Ceny ověřeny",
+    "conversionsUse": "Přepočty podle kurzů RBA ze dne",
+    "item": "Položka",
+    "currencyDisclaimer": "Částky v jiných měnách jsou mechanické přepočty australské ceny v AUD, ne kurzy pro platbu kartou nebo v hotovosti. Banky a platební služby používají vlastní kurzy a poplatky.",
+    "related": "Související průvodce",
+    "takeRoad": "Na cestu s sebou",
+    "savePlanTitle": "Uložte si zastávky. Naplánujte celou cestu.",
+    "savePlanText": "Z uložených míst sestavte trasu v pořadí, spočítejte vzdálenost a data, poznámky i úkoly mějte u každé zastávky.",
+    "toolsEyebrow": "Užitečná čísla",
+    "toolsTitle": "Nástroje na road trip. Bez záhadných výpočtů.",
+    "toolsIntro": "Rychlé kalkulačky pro plánování australských cen, vzdáleností a kapacit. Všechny předpoklady vidíte, takže je můžete nahradit čísly, která sedí na vaši trasu.",
+    "currencyEyebrow": "Převodník měn",
+    "currencyTitle": "Přepočítejte australskou cenu.",
+    "currencyText": "Orientační přepočet pro plánování cesty podle kurzů Reserve Bank of Australia. Vaše banka nebo karta může použít jiný kurz a připočítat poplatky.",
+    "fuelEyebrow": "Kalkulačka paliva",
+    "fuelTitle": "Kolik vás stojí ujeté kilometry.",
+    "fuelText": "Zadejte celkovou délku trasy, spotřebu naloženého vozidla a očekávanou cenu za litr. V odlehlých oblastech může být palivo dražší než ve městech.",
+    "driveEyebrow": "Odhad dne za volantem",
+    "driveTitle": "Jak dlouho ten den doopravdy trvá.",
+    "driveText": "Navigace počítá čistý čas jízdy po ideální silnici. Tady se přidá charakter silnice a vaše skutečné zastávky, a právě kvůli nim se den obvykle protáhne.",
+    "tankEyebrow": "Plánovač vody a odpadu",
+    "tankTitle": "Kolik dní vydržíte bez přípojek.",
+    "tankText": "Objem v litrech začne dávat smysl, až když ho převedete na dny. Šedá voda se obvykle naplní dřív, než dojde čistá, proto uvidíte obojí.",
+    "campEyebrow": "Porovnání kempů",
+    "campTitle": "Za osobu, nebo za místo?",
+    "campText": "Kemp v národním parku obvykle účtuje za dospělého, holiday park za místo. Která varianta vyjde levněji, se mění podle počtu lidí, a na tom se nachytá hodně rodin.",
+    "amount": "Částka",
+    "from": "Z měny",
+    "to": "Na měnu",
+    "labelDistance": "Vzdálenost (km)",
+    "labelConsumption": "Spotřeba (l/100 km)",
+    "labelFuelPrice": "Cena paliva (AUD/l)",
+    "labelRoadType": "Typ silnice",
+    "roadMotorway": "Dálnice nebo rovná silnice",
+    "roadHighway": "Hlavní silnice",
+    "roadWinding": "Klikatá nebo pobřežní",
+    "roadNarrow": "Úzká, strmá nebo šotolinová",
+    "labelStops": "Zastávky",
+    "labelFresh": "Čistá voda (l)",
+    "labelGrey": "Šedá voda (l)",
+    "labelPeople": "Počet osob",
+    "labelAdults": "Dospělí",
+    "labelNights": "Noci",
+    "labelPerAdult": "Za dospělého (AUD)",
+    "labelPerSite": "Za místo (AUD)",
+    "toolsReadingTitle": "Rozpočet postavte na aktuálních cenách.",
+    "toolsReadingText": "Nástroje spočítají přesně to, co zadáte. Naši průvodci náklady vysvětlují, odkud výchozí čísla pocházejí, kdy jsme je ověřili a co může konečnou cenu změnit.",
+    "toolsReadingLink": "Průvodce náklady",
+    "calculatorNote": "Kalkulačky jsou pomůcky pro plánování, ne aktuální nabídky rezervací, čerpacích stanic nebo směnáren. Odhad nádrží počítá zhruba s 11 litry čisté vody a 9 litry šedé vody na osobu a den, což se liší podle sprchování a vaření. Před nákupem si ověřte aktuální ceny.",
+    "enterValidValues": "Zadejte platné hodnoty",
+    "enterValidAmount": "Zadejte platnou částku",
+    "daysFresh": "dne čisté vody",
+    "daysGrey": "dne šedé vody",
+    "theSame": "vyjde to nastejno",
+    "perAdultCheaper": "levnější je platba za dospělého",
+    "perSiteCheaper": "levnější je platba za místo",
+    "supportTitle": "S čím vám můžeme pomoci?",
+    "supportIntro": "Odpovědi k hledání míst, ukládání oblíbených, plánování cest a používání AussieCamps na cestě.",
+    "contact": "Napsat podpoře",
+    "privacy": "Ochrana soukromí",
+    "terms": "Podmínky",
+    "explore": "Prozkoumat",
+    "help": "Nápověda",
+    "getApp": "Stáhnout aplikaci",
+    "travelGuides": "Cestovní průvodce",
+    "footerText": "Najděte přes 74 000 australských míst offline, uložte si ta, na kterých záleží, a sestavte celé road tripy s trasou, vzdálenostmi, daty, poznámkami a úkoly.",
+    "footerLine": "Pro dlouhou cestu kolem Austrálie.",
+    "rulesSafety": "Pravidla a bezpečnost",
+    "roadTrips": "Road tripy",
+    "campingGuides": "Kempování",
+    "tripPlanning": "Plánování cesty",
+    "costsBudget": "Náklady a rozpočet",
+    "appGuides": "Návody k aplikaci"
+  },
+  "consent": {
+    "label": "Nastavení soukromí",
+    "message": "Smíme používat soubory cookie Google Analytics, abychom viděli, které stránky se čtou a které odkazy na App Store se používají? K reklamě se nic z toho nepoužívá.",
+    "accept": "Přijmout",
+    "decline": "Odmítnout",
+    "learnMore": "Zásady ochrany osobních údajů",
+    "privacyChoices": "Nastavení soukromí"
+  },
+  "pages": {
+    "support": {
+      "title": "S čím vám můžeme pomoci?",
+      "lede": "Jasné odpovědi k mapám, uloženým místům, plánování cesty i k samotné cestě.",
+      "sections": [
+        {
+          "heading": "Hledání míst",
+          "paragraphs": [
+            "Na kartě Prozkoumat můžete hledat podle názvu místa, adresy nebo popisu. Když posunete mapu a zvolíte hledání v aktuální oblasti, výsledky se soustředí na to, co právě vidíte.",
+            "Filtrovat můžete podle kategorie místa, poplatku, hodnocení, online rezervace, státu a podrobných skupin vlastností pro přístup, vybavení, aktivity a služby. Kombinujte jen ty filtry, na kterých vám opravdu záleží, ať vám neutečou použitelné alternativy.",
+            "Vybavení, poplatky, přístup i správa místa se mohou změnit. Řiďte se aktuálním značením a pokyny správce území a pak nám pošlete opravu, ať je adresář přesnější."
+          ]
+        },
+        {
+          "heading": "Uložená místa",
+          "paragraphs": [
+            "Seznamy Líbilo se, Navštíveno, Chci navštívit a S hvězdičkou se aktualizují samy, jakmile místa označíte. Piny a Vše uloženo nabízejí další rychlé přehledy.",
+            "Vytvořte si vlastní pojmenované sbírky s ikonou a poznámkami a přidejte do nich jakékoli místo. Hodí se pro jeden region, roční období, konkrétní vozidlo nebo užší výběr.",
+            "Když je iCloud dostupný a zapnutý, aplikace přes něj soukromě synchronizuje označená místa, sbírky a data cest."
+          ]
+        },
+        {
+          "heading": "Plánovač cest",
+          "paragraphs": [
+            "Vytvořte si cestu, přidejte místa a přetáhněte je do správného pořadí. Každá zastávka může mít vlastní datum příjezdu, poznámky, počasí a stav navštíveno a plánovač ukazuje vzdálenost jízdy po jednotlivých úsecích i za celou cestu.",
+            "Trasy po silnicích závisí na tom, co zrovna nabídne navigace MapKit. Když se některý úsek spočítat nepodaří, plánovač zastávky zachová, ale aktuální sjízdnost silnice si musíte ověřit sami.",
+            "Začněte připraveným seznamem základní kempingové výbavy, nebo si vytvořte vlastní úkoly. V přehledu cesty máte seznam hned vedle itineráře a podrobnosti itineráře můžete synchronizovat do Kalendáře."
+          ]
+        },
+        {
+          "heading": "Mapy, počasí a živé údaje",
+          "paragraphs": [
+            "Přepínejte mezi standardní mapou a satelitním zobrazením z leteckých snímků Apple Flyover, které jde naklonit a otočit do 3D terénu. Street View, postavené na snímcích Apple Look Around, otevřete z detailu místa všude, kde je k dispozici.",
+            "Aktuální počasí i předpověď potřebují připojení. Důležité předpovědi a oficiální varování si uložte dřív, než ztratíte signál.",
+            "Adresář míst je přímo součástí aplikace, takže hlavní údaje o místech máte k dispozici i tam, kde signál spolehlivě nefunguje. Živé mapy, navigace, počasí, fotky a stránky externích poskytovatelů mohou připojení vyžadovat."
+          ]
+        },
+        {
+          "heading": "Ceny a měna",
+          "paragraphs": [
+            "V nastavení si zvolte měnu a zadejte kurz. Nahlášené poplatky se pak zobrazí v této měně vedle částky v australských dolarech, což oceníte, pokud v AUD ještě nepočítáte automaticky.",
+            "Dostupnost, cenu a podmínky si ověřte přímo u poskytovatele přes rezervační nebo kontaktní údaje v detailu místa. Ceny v aplikaci jsou nahlášené údaje, ne aktuální nabídky."
+          ]
+        },
+        {
+          "heading": "Premium a účet",
+          "paragraphs": [
+            "Mapa a údaje o místech jsou zdarma, spolu se dvěma uloženými seznamy.",
+            "Premium přidává neomezený počet uložených seznamů, plánování cest, pokročilé filtry, počasí u jednotlivých míst a trasy road tripů.",
+            "Otevřete obrazovku Premium a klepněte na Obnovit nákupy. Musíte být přihlášeni ke stejnému Apple účtu, přes který jste nákup původně provedli."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "effective": "Platné od 19. října 2026",
+      "title": "Zásady ochrany osobních údajů",
+      "lede": "S AussieCamps si naplánujete cestu, aniž by se z ní stal reklamní profil.",
+      "sections": [
+        {
+          "heading": "Údaje uložené ve vašem zařízení",
+          "paragraphs": [
+            "Aby aplikace fungovala, ukládá uložená místa, zařazení do sbírek, cesty, poznámky, položky kontrolních seznamů a nastavení. Polohu může po vašem svolení používat k zobrazení toho, kde jste, a míst v okolí."
+          ]
+        },
+        {
+          "heading": "iCloud",
+          "paragraphs": [
+            "Když je iCloud dostupný a zapnutý, může aplikace přes vaši soukromou databázi iCloud synchronizovat označená místa, sbírky a další záznamy mezi vašimi zařízeními. Samotnou službu poskytuje Apple a platí pro ni jeho vlastní podmínky."
+          ]
+        },
+        {
+          "heading": "Živé služby Apple",
+          "paragraphs": [
+            "Zobrazení mapy, navigace, Look Around, počasí, propojení s kalendářem a widgety mohou využívat technologie Apple. Požadavky na tyto služby a nakládání s daty se řídí pravidly společnosti Apple. Ke kalendáři aplikace přistupuje jen s vaším svolením, a to jen proto, aby do něj přidala údaje z itineráře, o které požádáte."
+          ]
+        },
+        {
+          "heading": "Externí odkazy a protokoly webu",
+          "paragraphs": [
+            "Z údajů o místě lze otevřít rezervační služby, weby, profily na sociálních sítích, telefonní čísla, e-mailové adresy a mapové aplikace. Pokud se je rozhodnete otevřít, dostanou tyto služby informace podle svých vlastních zásad.",
+            "Poskytovatelé hostingu mohou kvůli doručování obsahu, spolehlivosti a bezpečnosti zpracovávat běžné technické protokoly, například IP adresu, typ prohlížeče a požadovanou URL adresu."
+          ]
+        },
+        {
+          "heading": "Analytika webu",
+          "paragraphs": [
+            "Tento web používá Google Analytics 4, abychom věděli, které stránky lidé čtou a jak se k aplikaci dostanou. Google tato data zpracovává naším jménem jako náš zpracovatel. Návštěvníkům z Evropského hospodářského prostoru, Spojeného království a Švýcarska službu poskytuje společnost Google Ireland Limited.",
+            "Analytika zaznamenává stránky, které si prohlížíte, typ zařízení a prohlížeče, přibližnou polohu odvozenou z IP adresy a odkazy na App Store, na které kliknete. Google Analytics 4 IP adresy nezaznamenává ani neukládá a nikdy nedostane vaše jméno, e-mailovou adresu ani nic z toho, co si uložíte v aplikaci.",
+            "Analytika používá dva soubory cookie první strany: _ga a soubor, jehož název začíná _ga_ a pokračuje naším ID měření. Oba platí až 13 měsíců. V Evropském hospodářském prostoru, Spojeném království a Švýcarsku se ukládají až poté, co je přijmete. Do té doby se žádný analytický soubor cookie neukládá a Google dostává jen měření bez cookies, která nenesou žádný identifikátor. Svou volbu můžete kdykoli změnit přes odkaz Nastavení soukromí v patičce každé stránky.",
+            "Google signály i personalizace reklam jsou vypnuté a data analytiky se po 14 měsících mažou. Tento web nepoužívá žádné reklamní sledovací nástroje."
+          ]
+        },
+        {
+          "heading": "Uchovávání dat a jejich správa",
+          "paragraphs": [
+            "Záznamy aplikace můžete smazat přímo v aplikaci a data na iCloudu spravovat ve svém Apple účtu. Odinstalováním aplikace se mohou smazat místní data, synchronizované kopie ale mohou na iCloudu zůstat, dokud je zvlášť nesmažete."
+          ]
+        },
+        {
+          "heading": "Děti a kontakt",
+          "paragraphs": [
+            "AussieCamps je obecná cestovatelská aplikace a není určena dětem. Přes podporu nám neposílejte osobní údaje o dětech.",
+            "S dotazy k ochraně osobních údajů se obraťte na podporu AussieCamps."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "effective": "Platné od 12. srpna 2026",
+      "title": "Podmínky používání",
+      "lede": "AussieCamps je pomůcka pro plánování. Nenahrazuje oficiální značení, pokyny správců území, varování před nebezpečím, dopravní informace ani vaši vlastní odpovědnost necestovat nad své síly.",
+      "sections": [
+        {
+          "heading": "Cestovní informace se mění",
+          "paragraphs": [
+            "Místa, ceny, přístup, vybavení, pokrytí signálem, počasí, požární situace, silnice i podmínky rezervací se mohou změnit bez upozornění. Důležité údaje si ověřte u příslušného úřadu nebo poskytovatele před cestou a znovu krátce před odjezdem."
+          ]
+        },
+        {
+          "heading": "Bez záruky rezervace nebo přístupu",
+          "paragraphs": [
+            "To, že je místo v adresáři, ještě neznamená, že je otevřené, že na něm s vaší výbavou smíte legálně zůstat, že k němu vaše vozidlo dojede ani že je volné. Externí odkazy na rezervace a kontakty slouží jen pro pohodlí. Smlouvu uzavíráte vy přímo s daným poskytovatelem."
+          ]
+        },
+        {
+          "heading": "Bezpečnost a dodržování zákonů",
+          "paragraphs": [
+            "Musíte dodržovat značení, povolení, uzavírky, protipožární omezení, pravidla silničního provozu a pokyny rangerů, tradičních vlastníků půdy (Traditional Owners), záchranných složek a správců území. Aplikaci nepoužívejte během řízení."
+          ]
+        },
+        {
+          "heading": "Uživatelská data",
+          "paragraphs": [
+            "Za poznámky, plány cest a další informace, které si uložíte, odpovídáte vy. Povolení, rezervace a plány důležité pro bezpečnost si uchovávejte i jinde, pokud by ztráta přístupu k nim mohla cestu ohrozit."
+          ]
+        },
+        {
+          "heading": "Nákupy",
+          "paragraphs": [
+            "Nákupy v aplikaci zpracovává Apple a platí pro ně podmínky zobrazené při nákupu. Funkce, balíčky a ceny se mohou měnit, pokud je to přípustné. Platby, zrušení a vrácení peněz řešte přes nákupní nástroje Apple."
+          ]
+        },
+        {
+          "heading": "Duševní vlastnictví a kontakt",
+          "paragraphs": [
+            "Značka AussieCamps, rozhraní a původní redakční obsah patří jejich vlastníkovi. Názvy míst a veřejné údaje zůstávají majetkem nebo v odpovědnosti svých původních zdrojů.",
+            "Dotazy můžete posílat na podporu AussieCamps."
+          ]
+        }
+      ]
+    }
+  },
+  "articles": {
+    "camping-rules-new-south-wales": {
+      "title": "Pravidla kempování v New South Wales",
+      "description": "Než v NSW přespíte: rezervace, vyhrazená místa, kempování v odlehlých oblastech a kontrola zákazů rozdělávání ohně.",
+      "region": "New South Wales",
+      "imageAlt": "Kemp v národním parku v New South Wales",
+      "intro": "Pravidla kempování v NSW (Nový Jižní Wales) se řídí tím, kdo dané území spravuje. Národní parky, státní lesy (state forests), místní samosprávy (councils) i soukromé kempy si stanovují vlastní podmínky.",
+      "sections": [
+        {
+          "heading": "Kempy v národních parcích",
+          "body": [
+            "NSW National Parks (správa národních parků NSW) vyžaduje u kempů zařazených do svého rezervačního systému a u ubytování pod střechou rezervaci předem. Potvrzení mějte po ruce a zadejte správný počet osob a údaje o vozidle.",
+            "Kempovat v odlehlé přírodě se smí jen v určených oblastech. I tam, kde se kemp běžně nerezervuje, vám správa může doporučit vyplnit formulář s plánem cesty (trip intention form)."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Kempování zdarma a u silnice",
+          "body": [
+            "Odpočívadlo není automaticky kemp. Řiďte se limity pro parkování a cedulemi místní samosprávy, nezabírejte stání pro kamiony a tam, kde jde jen o zastávku kvůli únavě, nerozkládejte markýzu ani kempingový nábytek.",
+            "Na obecních pozemcích (council reserves) a výstavištích (showgrounds) mohou platit místní povolení, časové limity nebo uzavírky. Ověřte si je v den příjezdu."
+          ],
+          "tips": [
+            "Po příjezdu si přečtěte cedule",
+            "Nezatarasujte příjezdové cesty",
+            "Nenechávejte za sebou odpadní vodu"
+          ]
+        },
+        {
+          "heading": "Oheň a výstrahy v parcích",
+          "body": [
+            "Před odjezdem zkontrolujte výstrahy pro parky v NSW, stupeň požárního nebezpečí a vyhlášené úplné zákazy ohně (total fire ban). Připravené ohniště neznamená, že při zákazu smíte oheň rozdělat.",
+            "Parky se mohou kvůli aktuálním podmínkám zavřít téměř ze dne na den. Mějte v záloze legální místo mimo zasaženou oblast."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Kdo spravuje území, na kterém jste",
+          "body": [
+            "Kempování se v NSW dělí mezi chráněná území National Parks and Wildlife Service (NPWS, správa národních parků a přírody NSW), státní lesy, státní půdu (Crown land), obecní pozemky a soukromé vlastnictví. Každý typ území má vlastní rezervační systém, poplatky a pravidla a hranice mezi nimi ze silnice často vůbec nepoznáte.",
+            "Kempy NPWS se rezervují online a většina z nich účtuje poplatek za kempování i samostatné vstupné do parku za vozidlo. Státní lesy jsou většinou zdarma a platí v nich mnohem méně pravidel, proto jsou praktickou volbou pro volné kempování mimo vyznačené kempy (dispersed camping).",
+            "Pravidla na obecních pozemcích se mezi jednotlivými samosprávami obrovsky liší. V jednom okrese (shire) smíte na odpočívadle přespat, v sousedním už to bude zakázané. Jediným spolehlivým vodítkem je značení na místě."
+          ],
+          "tips": [
+            "NPWS účtuje kemp i vstupné do parku",
+            "Státní lesy jsou většinou zdarma",
+            "Každá samospráva má jiná pravidla"
+          ]
+        },
+        {
+          "heading": "Rezervace kempů NPWS",
+          "body": [
+            "Oblíbené kempy na pobřeží a v horách bývají na léto (prosinec až únor), Velikonoce a školní prázdniny obsazené měsíce dopředu a místo bez rezervace v té době seženete jen výjimečně. Mimo tato období se většina míst dá zarezervovat pár dní předem.",
+            "All Parks Pass pokrývá na rok vjezd vozidla do většiny parků v NSW a rychle se vyplatí, pokud jich navštívíte víc než pár. Nezahrnuje ale poplatky za kempování a ne vždy platí pro národní parky Sydney Harbour a Kosciuszko.",
+            "Rezervuje se konkrétní místo s uvedeným maximálním počtem osob a vozidel. Příjezd s více lidmi nebo auty, než je v rezervaci, bývá v plných kempech častým zdrojem potíží."
+          ],
+          "tips": [
+            "Na léto rezervujte měsíce předem",
+            "All Parks Pass platí jen na vjezd",
+            "Počty osob se kontrolují"
+          ]
+        },
+        {
+          "heading": "Oheň a úplné zákazy ohně",
+          "body": [
+            "Období zvýšeného nebezpečí požárů buše (bush fire danger period) trvá v NSW obvykle od října do března a v jednotlivých samosprávách se liší. Během něj potřebujete na většinu otevřených ohňů povolení a ve dnech úplného zákazu ohně se nesmí používat vůbec žádný otevřený plamen.",
+            "Grily na tuhá paliva a táboráky se v takové dny používat nesmějí. Plynové spotřebiče jsou za určitých podmínek většinou povolené, přesné znění zákazu si ale vždy ověřte, protože se mění.",
+            "V mnoha kempech NPWS je oheň zakázaný trvale, bez ohledu na roční období. Podívejte se na stránku konkrétního kempu a nespoléhejte na to, že platí obecná pravidla pro celé NSW."
+          ],
+          "tips": [
+            "Požární období od října do března",
+            "Při zákazu žádné dřevo ani uhlí",
+            "V mnoha kempech je oheň zakázaný vždy"
+          ]
+        },
+        {
+          "heading": "Kempování zdarma a odpočívadla",
+          "body": [
+            "Odpočívadla Transport for NSW (dopravní úřad NSW) slouží k tomu, aby si unavení řidiči odpočinuli, a na mnoha z nich se smí zůstat až 24 hodin. Kempy to ale nejsou a rozkládat tam markýzu a židle se nemá.",
+            "Skutečné kempování zdarma najdete nejspolehlivěji ve státních lesích, na části státní půdy (Crown land) a na místech, která k tomu vyhradila místní samospráva. Některá z nich žádají malý příspěvek pro místní komunitu.",
+            "Kontroly se liší, ale v pobřežních obcích a oblíbených oblastech opravdu probíhají. Za kempování v zakázaných oblastech hrozí pokuty. Pokuta se váže na vozidlo, takže vám ji půjčovna přeúčtuje."
+          ],
+          "tips": [
+            "Odpočívadla jsou na odpočinek, ne na kempování",
+            "Zdarma se kempuje ve státních lesích",
+            "Pobřežní obce aktivně kontrolují"
+          ]
+        },
+        {
+          "heading": "Mořské parky a přístup k pobřeží",
+          "body": [
+            "V mořských parcích NSW platí zónování, které v přísně chráněných zónách (sanctuary zones) omezuje rybolov a sběr. Hranice jsou zveřejněné, ale na každé pláži vyznačené nejsou, takže si je před rybařením kdekoli na pobřeží ověřte.",
+            "Jízda po pláži je na některých místech s povolením dovolená, jinde zakázaná. Jezdit se smí ve Stocktonu a na části pobřeží Mid North Coast, povolení vydává příslušná místní samospráva nebo správa parků.",
+            "Nejvíc volnosti nabízejí v New South Wales i nadále státní lesy. Lesnická správa zveřejňuje mapy, na kterých je vidět, kde se smí kempovat a kam se smí vjet autem.",
+            "Roční All Parks Pass kryje vjezd vozidla do většiny parků v NSW a vyplatí se, jakmile jich navštívíte víc než hrstku."
+          ],
+          "tips": [
+            "Zóny mořských parků omezují rybolov",
+            "Jízda po pláži jen s povolením",
+            "Hranice jsou zveřejněné, ne vyznačené"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Dá se v New South Wales kempovat zdarma?",
+          "Na vyhrazených místech ano. Pravidla ale přicházejí ze tří stran: místa NSW National Parks se rezervují a platí, ve státních lesích se v mnoha oblastech smí kempovat volně mimo vyznačená místa a limity na odpočívadlech u silnic stanovují místní samosprávy a Transport for NSW."
+        ],
+        [
+          "Je potřeba rezervovat kempy v národních parcích NSW?",
+          "Téměř vždy. Správa NSW National Parks zavedla rezervace u naprosté většiny svých kempů, včetně těch zdarma, a rangeři to opravdu kontrolují. Pobřežní parky se na školní prázdniny rezervují měsíce dopředu."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NSW National Parks: kempování a ubytování"
+        }
+      ],
+      "priceTable": null
+    },
+    "sleeping-in-car-australia": {
+      "title": "Spaní v autě v Austrálii: je povolené?",
+      "description": "Spát v autě se smí jen tam, kde to dovolují místní pravidla pro daný pozemek, parkování a vozidla.",
+      "region": "Austrálie",
+      "imageAlt": "Campervan zaparkovaný na místě, kde je přespání povolené",
+      "intro": "Auto samo o sobě z místa legální nocoviště neudělá. Jestli tam smíte spát, rozhodují obecní vyhlášky (council bylaws), cedule na místě, pravidla parků a práva vlastníků soukromých pozemků.",
+      "sections": [
+        {
+          "heading": "Řiďte se místem, ne internetem",
+          "body": [
+            "Na značkách hledejte, kdy se smí parkovat, jestli neplatí zákaz kempování a jestli nejsou omezené druhy vozidel. V turisticky vytížených městech se parkoviště u pláží a obytné ulice běžně kontrolují.",
+            "Stará recenze vás pokuty neuchrání. Řiďte se aktuálními informacemi od místní samosprávy nebo správce území."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Odpočívadla",
+          "body": [
+            "Zastávky Driver Reviver a odpočívadla u hlavních silnic jsou tu od toho, aby řidiči nejezdili unavení. Na některých si můžete v omezené míře odpočinout i přes noc, jinde je kempování zakázané nebo jsou povolené jen některé druhy vozidel.",
+            "Nezabírejte stání pro kamiony, buďte potichu a nerozkládejte věci kolem auta, pokud tam není kempování povolené."
+          ],
+          "tips": [
+            "Legální místo",
+            "Větrání",
+            "Bezpečná cesta ven",
+            "Kvůli teplu nenechávejte běžet motor"
+          ]
+        },
+        {
+          "heading": "Bezpečnější možnosti",
+          "body": [
+            "V jednoduchém kempu, na výstavišti (showground), v caravan parku (placený kemp s místy pro karavany, obytná auta i stany, často s chatkami) nebo při pobytu na farmě je přespání jasněji povolené a často tam najdete i toalety nebo vodu. Přijeďte před setměním a ověřte si, jestli tam s autem projedete.",
+            "V zavřeném autě nikdy nespěte, když v něm běží topení nebo vařič na plyn či jiné palivo."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Legálně parkovat neznamená legálně kempovat",
+          "body": [
+            "Auto může někde stát úplně legálně, a přesto v něm nesmíte spát. Právě na tomhle rozdílu stojí většina pokut, a proto je dostávají i cestovatelé, kteří si parkovací značky poctivě zkontrolovali.",
+            "Upravují to vyhlášky místních samospráv a mění se od jednoho obvodu k druhému. Některé spaní v autě na vyhrazených místech dovolují, mnohé ho zakazují na všech veřejných prostranstvích a nejpřísněji se kontroluje na pobřeží a v turistických oblastech.",
+            "Čtěte značky u konkrétního parkovacího místa, ne jen pro celou ulici. Časově omezené parkování, zóny jen pro držitele povolení a zákazy parkování přes noc bývají označené zvlášť a platí všechny najednou."
+          ],
+          "tips": [
+            "Legální parkování neznamená povolené spaní",
+            "Každý obvod má jiná pravidla",
+            "Čtěte značku u konkrétního místa"
+          ]
+        },
+        {
+          "heading": "Kde se to obecně toleruje",
+          "body": [
+            "Na vyhrazených odpočívadlech u hlavních silnic se kvůli únavě smí přespat, obvykle až 24 hodin. Po celé Austrálii je to nejspolehlivěji legální možnost. Odpočívadla ale slouží k odpočinku, ne k tomu, abyste se tam zabydleli.",
+            "Mnoho vnitrozemských měst nabízí místa na přespání zdarma nebo levně, kde se v autě spát výslovně smí. Výstaviště a sportoviště to často umožňují za malý poplatek.",
+            "Některé čerpací stanice otevřené 24 hodin denně a roadhousy (odlehlé benzinky s občerstvením) dovolují parkovat přes noc, hlavně na dlouhých trasách po hlavních silnicích. Nespoléhejte na to, zeptejte se uvnitř a něco si kupte."
+          ],
+          "tips": [
+            "Na odpočívadle až 24 hodin",
+            "Vnitrozemská města to často dovolují",
+            "V roadhousu se raději zeptejte"
+          ]
+        },
+        {
+          "heading": "Jak na to bezpečně",
+          "body": [
+            "Vyberte si místo, kde stojí i další auta, kde je světlo a odkud se dá snadno odjet. Pokud to jde, parkujte čelem ven, cennosti schovejte z dohledu a zamkněte se, ale nechte si volnou cestu, abyste se mohli rychle dostat ven.",
+            "Na větrání záleží víc, než by člověk čekal. V zavřeném autě, kde někdo spí, je rychle vlhko a dusno a v horku je to opravdu nebezpečné. Pootevřete okna, nejlépe se sítěmi proti hmyzu, pokud je máte.",
+            "Když spíte, nikdy nenechávejte běžet motor kvůli klimatizaci. Výfukové plyny se mohou dostat do kabiny a oxid uhelnatý nemá žádný zápach. Přesně takhle už lidé přišli o život."
+          ],
+          "tips": [
+            "Parkujte čelem ven a mějte kudy odjet",
+            "Větrejte, auto úplně nezavírejte",
+            "Ve spánku nikdy nenechávejte běžet motor"
+          ]
+        },
+        {
+          "heading": "Horko, zima a praktické limity",
+          "body": [
+            "V australském létě (prosinec až únor) není spaní v nevětraném autě jen nepohodlné, ale nebezpečné. Teplota uvnitř rychle stoupá a na severu zůstává vysoká i v noci. To je hlavní praktický důvod, proč to nedělat.",
+            "V zimě (červen až srpen) klesají noční teploty ve vnitrozemí a v horách pod nulu a auto skoro neizoluje. Pořádný spacák s teplotním limitem odpovídajícím podmínkám je proto v autě ještě důležitější než ve stanu.",
+            "Pokud v autě spíte pravidelně, úplně to změní sada stínítek na okna, sítě proti hmyzu a slušná matrace. Bez nich to na jednu noc jde, ale za týden je z toho utrpení."
+          ],
+          "tips": [
+            "Na severu se auto v noci přehřívá",
+            "V zimě auto skoro neizoluje",
+            "Sítě a stínítka dělají divy"
+          ]
+        },
+        {
+          "heading": "Jak auto připravit na noc",
+          "body": [
+            "Se stínítky na okna, sítěmi proti hmyzu a pořádnou matrací se ze spaní v autě stane místo zkoušky odolnosti něco, co se dá opakovat. Bez nich vydržíte jednu noc, ale celý týden je to trápení.",
+            "Rovný terén je důležitější, než se zdá. Mírný sklon, kterého si při parkování ani nevšimnete, poznáte hned, jak si lehnete. Často stačí auto otočit.",
+            "Na delší cesty nabídne malá dodávka nebo kombi se sklopenými sedadly mnohem víc využitelného místa než sedan. Půjčovné je přitom jen o málo vyšší.",
+            "V australském letním horku je nevětrané auto přes noc opravdu nebezpečné. Právě to, a ne nějaká místní vyhláška, je pro spaní v autě praktická hranice."
+          ],
+          "tips": [
+            "Sítě a stínítka změní všechno",
+            "Hledejte rovné místo",
+            "Sklon často vyřeší otočení auta"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Je v Austrálii legální spát v autě?",
+          "Záleží jen na tom, kde auto stojí. Spaní v autě samo o sobě přestupek není, kempování ve vozidle tam, kde ho místní samospráva zakazuje, ale ano. A to se týká většiny ulic ve městech, parkovišť u pláží a veřejných pozemků na pobřeží."
+        ],
+        [
+          "Kde se dá legálně přespat v autě?",
+          "Na vyhrazených odpočívadlech, kde je přespání povolené, v kempech a caravan parcích a v obvodech, jejichž vyhlášky to dovolují. Roadhousy a některá parkoviště u pubů to umožňují po domluvě, takže se vyplatí zeptat a nespoléhat na to."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
+    "alcohol-coffee-drink-prices-australia": {
+      "title": "Ceny piva, vína, kávy a dalších nápojů v Austrálii",
+      "description": "Přehledné srovnání cen v pubech, kavárnách a obchodech s alkoholem, aby vám pití potichu nespolykalo rozpočet na cestu.",
+      "region": "Austrálie",
+      "imageAlt": "Nápoje na stolku v australské kavárně",
+      "intro": "Výdaje za pití se snadno podcení, protože se platí po jednom. Aktuální cenová rozpětí, která hlásí sami lidé na místě, ukazují, jak velký je rozdíl mezi nákupem v obchodě s alkoholem (bottle shop), zastávkou v kavárně a rundou v městském pubu.",
+      "sections": [
+        {
+          "heading": "Cena v obchodě a cena v podniku jsou dvě různé věci",
+          "body": [
+            "V ceně pití v pubu neplatíte jen samotný nápoj, ale i podnik, personál a obsluhu. Srovnávejte proto srovnatelné a nezaměňujte cenu stejného množství z obchodu s alkoholem s cenou natočeného nápoje.",
+            "Happy hour a akční nabídky trvají jen chvíli. Rozpočet postavte na běžných cenách a každou slevu berte jako rezervu navíc."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Alkohol a den za volantem",
+          "body": [
+            "Nejbezpečnější je naplánovat road trip tak, aby se pití a řízení vůbec nepotkaly. Zákonné limity alkoholu v krvi se liší podle druhu řidičského průkazu a kategorie vozidla a někteří řidiči nesmějí mít v krvi žádný alkohol.",
+            "Určete si řidiče, který nebude pít, přespěte na místě nebo se nechte odvézt. A tabulku s přepočty nikdy neberte jako návod, kolik ještě smíte vypít."
+          ],
+          "tips": [
+            "Po alkoholu nikdy za volant",
+            "Ověřte si místní omezení",
+            "Mějte s sebou vodu"
+          ]
+        },
+        {
+          "heading": "Hlídejte nenápadnou denní útratu",
+          "body": [
+            "Dvě kávy a dva drinky v podniku denně dají za týden pořádnou sumu. Rozmyslete si, které zastávky za to opravdu stojí, a nekupujte ze zvyku.",
+            "Pitnou vodu mějte vždy po ruce a doplňujte ji jen tam, kde se smí. V horku patří dostatek tekutin a stín do plánu bezpečnosti, ne do rozpočtu na zábavu."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Káva jako každodenní položka",
+          "body": [
+            "Australané berou kávu vážně a i v menších městech na venkově bývá opravdu dobrá. Právě proto se z ní stává položka v rozpočtu. Dvě flat white denně pro dva lidi se nasčítají, aniž byste o tom kdy vědomě rozhodli.",
+            "S moka konvičkou nebo AeroPressem v autě si ranní kávu uvaříte za zlomek ceny a zastávka v kavárně pak bude volba, ne automatika. Kdo to tak dělá, většinou nakonec pije lepší kávu.",
+            "Káva v roadhousech (odlehlých benzinkách s občerstvením) bývá na dlouhých přejezdech přinejlepším loterie. Na trasách přes outback vyjde vlastní káva obvykle levněji a bývá i výrazně lepší."
+          ],
+          "tips": [
+            "Dva šálky denně se rychle nasčítají",
+            "Ranní kávu si vařte sami",
+            "Káva v roadhousech je loterie"
+          ]
+        },
+        {
+          "heading": "Nákup alkoholu v Austrálii",
+          "body": [
+            "Ve většině států se alkohol neprodává v supermarketech, ale v obchodech s licencí, tzv. bottle shopech. Často bývají hned u supermarketu, fungují ale samostatně. Otevírací doba je regulovaná a stát od státu se liší.",
+            "V řadě komunit a oblastí platí omezení pro alkohol, hlavně v teritoriu Northern Territory (Severní teritorium) a v částech Queenslandu a státu Western Australia (Západní Austrálie). Za převoz alkoholu do oblasti s omezením hrozí vysoké tresty.",
+            "Než s alkoholem vyrazíte do odlehlých oblastí, ověřte si, co tam platí. Omezení jsou daná zákonem a vymáhají se, týkají se návštěvníků stejně jako místních a neznalost zákona neomlouvá."
+          ],
+          "tips": [
+            "Alkohol v bottle shopu, ne v supermarketu",
+            "V oblastech s omezením hrozí vysoké tresty",
+            "Před cestou do odlehlých oblastí ověřte pravidla"
+          ]
+        },
+        {
+          "heading": "Pití a řízení na cestách",
+          "body": [
+            "Obecný limit pro držitele plného řidičského průkazu je 0,05 (tedy 0,5 promile). Pro řidiče v učení (learner), začínající řidiče se zkušebním průkazem (provisional) a řadu profesionálních řidičů platí nula. Namátkové dechové zkoušky jsou běžné, a to i na venkovských silnicích a přes den.",
+            "Na road tripu je jediný bezpečný přístup pití a řízení úplně oddělit: přespěte tam, kde pijete, nechte řídit někoho, kdo nepije, nebo pijte až ve chvíli, kdy auto stojí zaparkované na noc.",
+            "Zrádná bývá jízda ráno po večírku. Tělo odbourá zhruba jeden standardní nápoj za hodinu a rychleji to nejde, takže po vydatném večeru můžete být nad limitem ještě druhý den dopoledne."
+          ],
+          "tips": [
+            "Obecně 0,05, pro mnohé řidiče nula",
+            "Namátkové kontroly jsou běžné i ve dne",
+            "Zrádná je ranní jízda po pití"
+          ]
+        },
+        {
+          "heading": "Na vodě záleží nejvíc",
+          "body": [
+            "Voda z kohoutku je téměř ve všech australských městech a obcích nezávadná a dobrá, takže kupovat balenou vodu je skoro čisté vyhazování peněz. Vozte s sebou lahve na opakované plnění a doplňujte je z jakéhokoli kohoutku s pitnou vodou ve městě, v kempu nebo u veřejných zařízení.",
+            "V odlehlých oblastech a v buši je to naopak: voda z vrtů (bore water) může být silně mineralizovaná nebo k pití nevhodná, voda z nádrží není upravená a povrchová voda v zemědělských oblastech může obsahovat chemikálie. Všechno, co nepochází z označeného kohoutku městského vodovodu s pitnou vodou, před pitím upravte.",
+            "Pořiďte si pořádnou termolahev. V australských podmínkách je studená voda to, na co budete mít chuť nejčastěji, a její doplnění nic nestojí."
+          ],
+          "tips": [
+            "Voda z kohoutku ve městech je pitná",
+            "Voda z vrtů často není k pití",
+            "Vodu z nádrží i povrchovou vodu upravte"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kolik stojí pivo v Austrálii?",
+          "Uvádíme ceny točeného piva v pubu (schooner), řemeslného piva, kartonu piva z obchodu s alkoholem a vína po sklenkách i po lahvích, vždy s datem, ke kterému platí. Na dlouhé cestě nejvíc ušetříte, když budete pití kupovat v obchodě s alkoholem, a ne v baru."
+        ],
+        [
+          "Kolik stojí káva v Austrálii?",
+          "Cena flat white se po celé Austrálii drží v poměrně úzkém rozpětí, nejvýš jsou kavárny v centrech velkých měst. Australská káva je opravdu dobrá, a právě proto tahle položka na dlouhé cestě nenápadně roste."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Numbeo: ceny nápojů v Sydney"
+        },
+        {
+          "label": "Numbeo: rozpětí cen v obchodech v Austrálii"
+        },
+        {
+          "label": "NSW: alkohol a řízení (oficiální pokyny)"
+        }
+      ],
+      "priceTable": {
+        "note": "Rozpětí cen pro celou Austrálii a pro Sydney podle údajů, které zadávají sami uživatelé, aktualizováno v červnu 2026. Ceny se liší podle velikosti porce, podniku, akcí a místa.",
+        "rows": [
+          {
+            "label": "Cappuccino",
+            "unit": "jeden šálek"
+          },
+          {
+            "label": "Točené pivo v pubu",
+            "unit": "jedna sklenice"
+          },
+          {
+            "label": "Víno střední cenové kategorie",
+            "unit": "750 ml v obchodě"
+          },
+          {
+            "label": "Tuzemské pivo (přepočet)",
+            "unit": "500 ml v obchodě"
+          },
+          {
+            "label": "Limonáda",
+            "unit": "330 ml v podniku"
+          }
+        ]
+      }
+    }
+  }
 }
