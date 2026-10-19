@@ -13,10 +13,14 @@ Thread i18n-ja: Japanese for both sites. Branches `i18n/a-ja` (aussiecamps-web, 
 - Guides applied: A 23/50 (batches a01-a06, a16, a17); K 31/43 (batches k01-k08, k13, k14).
 - K privacy realigned with K-foundation's analytics section; K consent strings translated.
 
-## In progress
-- Running: a07, a08, k09 (subagents, one writer per values file; resume a limit-paused agent with SendMessage, never relaunch). Remaining after those: a09-a15, k10-k12.
-- Workflow: subagent writes /tmp/ja-work/out/<batch>.values.json, then lint (/tmp/ja-work/tools/lint.mjs), engine dry run, editor read (/tmp/ja-work/tools/read.mjs), apply (/tmp/ja-work/tools/apply.sh a|k file --real), structure check (/tmp/ja-work/tools/structure.mjs), commit.
-- If /tmp is lost: regenerate batches with `packet --locale ja --catalog <id>-ja`. Applied units drop out of packets.
+## In progress (updated 2026-10-20, second session)
+- Both branches merged with origin/main (merge commits, not rebase: ja.json add/add conflicts). Config keeps the separate `*-website-ja` catalog; `locales:sync` leaves it alone.
+- Main added `<a data-guide>` link markup to guides: 73 A + 71 K already-translated units need the links restored (relink batch: /tmp/ja-work/relink-{a,k}.json -> out/relink-{a,k}.values.json). Also the `tools` namespace (A 116, K 152 units): out/tools-{a,k}.values.json.
+- Old drafts out/a07 (complete), out/a08 (117/181, partial), out/k11 (complete) predate the link markup and were never applied: relink them, editor read, apply. k09 and k12 never drafted; a09-a15 not drafted.
+- Applied so far: A 23/70 guides, K ~37/78 guides. Remaining counts: run `translation-engine summary`.
+- Queue after that: road trips (A 20, K ~20), remaining guides, `translations:stamp -- --locale ja`.
+- Workflow: subagent writes /tmp/ja-work/out/<batch>.values.json, then lint (/tmp/ja-work/tools/lint.mjs), engine dry run, editor read (read.mjs), apply (apply.sh a|k file --real), structure check, commit.
+- Regenerate batches if /tmp is lost: `packet --locale ja --catalog <id>-ja`.
 
 ## Guide order (pages-3m.tsv impressions)
 - A: alcohol-coffee-drink-prices, sleeping-in-car, camping-rules-nsw, public-transport-costs, eating-out, camping-rules-wa, dump-points, camping-rules-victoria, grocery-prices, interstate-biosecurity, campervan-budget, accommodation-costs, rules-sa, domestic-flights, rules-act, rules-qld, road-signs, caravan-vs-holiday-park, towing, best-time, rules-nt, state-differences, camping-fees, travel-cost, fuel-cost, rules-tas, is-free-camping-legal, without-signal, campervan-driving-safety, water-planning, bus-train-costs, campfires, overseas-licence-state, best-camping-app, driving-road-rules-visitors, then the zero-impression rest.
