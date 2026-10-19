@@ -29,24 +29,42 @@ Scratch (not in git): `/tmp/i18n-fr/` holds the helper scripts (`tools/dump.mjs`
   - NZ wave 2: travel-cost-2026, biosecurity-camping-gear, eating-out-prices-2026, road-signs,
     domestic-flight-costs-2026, wof-registration, accommodation-costs-2026, volcanic-safety.
 
-## In progress
-- Wave 3 (subagents): AU camping-fees-2026, travel-cost-2026, interstate-biosecurity,
-  towing-caravan, fuel-cost-2026, camping-rules TAS, is-free-camping-legal, camping-rules NT;
-  NZ beer-wine-coffee-prices, dogs-camping, cook-strait-ferry, bus-ferry-train-costs, sandflies,
-  overseas-driver-licence, doc-hut-rules-etiquette, river-crossing-safety.
+## Done (continued, 2026-10-20 run)
+- AU rebased onto main (A-foundation M2 + A-tools-hubs); `locales:sync` and `translations:source` run.
+- **French-only catalogs** (as the es/ja lanes did): `aussiecamps-website-fr` (AU) and
+  `kiwicamping-website-fr` (NZ) in `docs/translation.config.json`. They drop the English state/island
+  names from `protectedTerms`, map them to French in the glossary (Nouvelle-Galles du Sud,
+  Australie-Méridionale, Australie-Occidentale, Tasmanie, Territoire du Nord, Territoire de la capitale
+  australienne, Centre rouge; île du Nord, île du Sud, île Stewart) and skip the testimonial keys.
+  **Values files must say `"catalog": "aussiecamps-website-fr"` / `"kiwicamping-website-fr"`.** The
+  "Australia" glossary entry is omitted on purpose: the engine matches it inside
+  `data-guide="australia-…"` slugs and raises false errors. All held units (36 AU, 5 NZ) applied.
+- AU: 137 units got their `<a data-guide>` link markup back (English source gained links); wave 3
+  applied (camping-fees, travel-cost, interstate-biosecurity, towing, fuel-cost, TAS, is-free-camping,
+  NT). AU guides rewritten so far: 24 of 50 existing.
+- AU road trips translated (new): great-ocean-road, east-coast-sydney-cairns, perth-to-broome,
+  brisbane-to-cape-tribulation (4 of 20).
+- NZ wave 3 polished: beer-wine-coffee, dogs, cook-strait, bus-ferry-train, sandflies,
+  overseas-driver-licence, doc-hut-rules, river-crossing (24 NZ guides rewritten so far).
+- `translations:stamp -- --locale fr` run on AU (3445 stamps). NZ not yet stamped.
+- Engine audit, fr-only catalog: AU has only `missing` (road trips 16 x 53, `tools` 116) plus 5
+  source-equal warnings (brand/agency names); NZ has 6 glossary hits in not-yet-rewritten guides
+  fixed, only 4 source-equal warnings left.
 
 ## Next
-- Remaining guides in Search Console order (`node /tmp/i18n-fr/tools/order.mjs`).
-- After A-foundation M2 / K-foundation equivalents merge: rebase, translate guide tables, road
-  trips, KiwiCamping legacy pages and the `<a data-guide>` markup; run
-  `npm run translations:stamp -- --locale fr` and
-  `npx tsx scripts/audit-content.mjs --strict --locale fr`.
+- AU: remaining 16 road trips (melbourne-to-adelaide, tasmania-camping-loop, darwin-kakadu, ...), the
+  `tools` namespace (116 units, gated), then rewrite the ~26 old guides still in the first-pass voice
+  (order: `node /tmp/i18n-fr/tools/order.mjs`; look for "parcs pour caravanes", English state names).
+- NZ: rebase `i18n/k-fr` onto origin/main once `git -C /Users/cristian/Developer/Webs/kiwicamping-web
+  log origin/main --oneline -3` shows the growth/k-foundation merge (not yet merged on 2026-10-20),
+  then `npm run locales:sync`, `npm run translations:source`, translate the new units (road trips,
+  tools, `<a data-guide>` markup, legacy pages), stamp. Expect a config conflict (both catalogs added
+  here): keep the `kiwicamping-website-fr` catalog.
+- Rewrite the remaining NZ guides still in the first-pass voice.
 
 ## Blockers / decisions needed
-- **State and island names.** `protectedTerms` forces the English New South Wales, South Australia,
-  Western Australia, Tasmania, Northern Territory, Australian Capital Territory, Central Australia
-  (AU) and North Island, South Island, Stewart Island (NZ) into French prose. Natural French uses
-  Nouvelle-Galles du Sud, Australie-Méridionale, Australie-Occidentale, Tasmanie, Territoire du Nord,
-  île du Nord, île du Sud. Proposed: move them from `protectedTerms` to per-locale glossary entries
-  (or add a per-locale exception to the engine). Units that contain these names keep their current
-  French until decided; their rewrites are held in `/tmp/i18n-fr/held-<catalog>.json` (AU: 36 units, NZ: 5 units so far).
+- `scripts/sync-locales.mjs` rewrites catalog 0 to target every locale, so the main catalog also
+  audits `fr` and reports the English-state-name protected-term errors there; the fr-only catalog is
+  the clean one. Same issue the es lane reported (sync should skip locales that own a catalog).
+- English fact issue (NZ overseas-driver-licence): section 0 says 18 months, reducing to 12 from
+  1 November 2026, while section 3 and the FAQ say 12 months flat. French follows the English.
