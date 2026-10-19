@@ -7,7 +7,10 @@
  *
  * - lib/translations/index.ts: the static import barrel for every locale file. Bundlers need static
  *   imports, so the list of JSON files is generated rather than built at runtime.
- * - docs/translation.config.json: the translation engine's `locales`, `targets` and `varieties`.
+ * - docs/translation.config.json: the shared `aussiecamps-website` catalog's `locales`, `targets` and
+ *   `varieties`. A locale that has a catalog of its own (an i18n thread's `aussiecamps-website-es`,
+ *   carrying that language's glossary and protected terms) is left to that catalog and not listed in
+ *   the shared one, so the engine never translates it twice. Every other catalog is left as it is.
  *
  *   npm run locales:sync            write both files
  *   npm run locales:sync -- --check exit 1 if either is stale (part of npm run content:check)
@@ -61,10 +64,13 @@ export const translationFiles: Record<LocaleCode, unknown> = { ${registry.map(({
 
 const configPath = resolve(root, "docs/translation.config.json");
 const config = JSON.parse(readFileSync(configPath, "utf8"));
-const catalog = config.catalogs.find((item) => item.adapter === "web-json");
-catalog.locales = registry.map(({ code }) => code);
-catalog.targets = registry.map(({ code }) => ({ locale: code, path: `../lib/translations/${code}.json` }));
-const varieties = Object.fromEntries(registry.filter(({ code, engine }) => engine !== code).map(({ code, engine }) => [code, engine]));
+const catalog = config.catalogs.find((item) => item.id === "aussiecamps-website");
+if (!catalog) throw new Error("docs/translation.config.json has no aussiecamps-website catalog");
+const dedicated = new Set(config.catalogs.filter((item) => item !== catalog).flatMap((item) => item.locales ?? []));
+const shared = registry.filter(({ code }) => !dedicated.has(code));
+catalog.locales = shared.map(({ code }) => code);
+catalog.targets = shared.map(({ code }) => ({ locale: code, path: `../lib/translations/${code}.json` }));
+const varieties = Object.fromEntries(shared.filter(({ code, engine }) => engine !== code).map(({ code, engine }) => [code, engine]));
 if (Object.keys(varieties).length) catalog.varieties = varieties;
 else delete catalog.varieties;
 const configText = `${JSON.stringify(config, null, 2)}\n`;
