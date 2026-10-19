@@ -102,7 +102,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
   ],
   "australia-road-rules-state-differences": [
     ["Do Australian road rules change between states?", "Yes, more than visitors expect. Speed limits, towing limits, mobile phone penalties, keep-left rules and the treatment of overseas licences are all set by each state and territory, and they apply from the moment you cross the border."],
-    ["Which rules differ most across Australian states?", "Towing speed limits, the minimum passing distance for cyclists, the rules for driving on unsealed roads in a rental, and school zone times. Demerit points are shared between states even though the rules that earn them are not."],
+    ["Which rules differ most across Australian states?", "Towing speed limits, the minimum passing distance for cyclists, the rules for driving on unsealed roads in a rental, and school zone times. Most states record demerit points from an interstate offence on your home licence, although Western Australia does not."],
   ],
 
   // --- Camping guides -------------------------------------------------------
