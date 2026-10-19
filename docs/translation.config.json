@@ -15,8 +15,7 @@
         "ko",
         "zh-hans",
         "zh-hant",
-        "cs",
-        "pl"
+        "cs"
       ],
       "source": "../lib/translations/en.json",
       "targets": [
@@ -55,10 +54,6 @@
         {
           "locale": "cs",
           "path": "../lib/translations/cs.json"
-        },
-        {
-          "locale": "pl",
-          "path": "../lib/translations/pl.json"
         }
       ],
       "protectedTerms": [
@@ -412,6 +407,81 @@
       },
       "styleGuide": {
         "nb": "Follow docs/translation-style/nb.md: natural Norwegian Bokmål travel-writer voice, informal du, bobil and campingplass vocabulary, Norwegian number and currency format, no offline-map claims."
+      }
+    },
+    {
+      "id": "aussiecamps-website-pl",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "pl"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "pl",
+          "path": "../lib/translations/pl.json"
+        }
+      ],
+      "protectedTerms": [
+        "AussieCamps",
+        "AussieCamping",
+        "AUD",
+        "Tourism Australia",
+        "Reserve Bank of Australia",
+        "Virgin Australia",
+        "Queensland",
+        "Uluṟu",
+        "Ikara",
+        "Tjoritja",
+        "Kakadu",
+        "Namadgi"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {
+        "Australia": {
+          "pl": "Australia"
+        },
+        "New South Wales": {
+          "pl": "Nowa Południowa Walia"
+        },
+        "Victoria": {
+          "pl": "Wiktoria"
+        },
+        "Queensland": {
+          "pl": "Queensland"
+        },
+        "South Australia": {
+          "pl": "Australia Południowa"
+        },
+        "Western Australia": {
+          "pl": "Australia Zachodnia"
+        },
+        "Tasmania": {
+          "pl": "Tasmania"
+        },
+        "Northern Territory": {
+          "pl": "Terytorium Północne"
+        },
+        "Australian Capital Territory": {
+          "pl": "Australijskie Terytorium Stołeczne"
+        },
+        "Central Australia": {
+          "pl": "Czerwone Centrum"
+        },
+        "K'gari": {
+          "pl": "K’gari"
+        }
+      },
+      "register": {
+        "pl": "informal"
+      },
+      "styleGuide": {
+        "pl": "Follow docs/translation-style/pl.md: native Polish travel-writer voice for readers from Poland, informal ty (singular, lower case, no Pan/Pani), no gendered forms aimed at the reader, Polish state names (Nowa Południowa Walia, Wiktoria, Australia Zachodnia), kemping and nocleg na dziko, no calques, no offline-map claims."
       }
     }
   ]
