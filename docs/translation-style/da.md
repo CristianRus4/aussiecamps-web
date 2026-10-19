@@ -5,6 +5,13 @@ lives in both repositories. Write Danish that reads as if a Danish travel writer
 autocamper around Australia and New Zealand wrote it for readers from Denmark. Nobody should be able
 to tell that an English page came first.
 
+## 0. Overriding rules (2026-10-20, orchestrator)
+
+- **No added facts or glosses.** Translate only what the English says. The "gloss once" notes in the glossary below are withdrawn: do not add an explanation, a parenthetical translation, months for a season or a conversion that the English does not have. Keep an English term as written (and the English term in parentheses only where the English itself has it).
+- **Rules and safety text:** before every commit, read each never / do not / only / must / no unit next to its English. A reversed or dropped negation is a critical error. Use "skal" (not "må") for must.
+- **Brand names and genitive:** the content audit counts brand names without a genitive -s for da. Write "supporten hos KiwiCamping", "billeder fra Apple", "Apple-frameworks", "KiwiCamping-appen", never "KiwiCampings" or "Apples".
+- **State and island names** use the Danish exonyms (Tasmanien, Centralaustralien, Nordøen, Sydøen) through the da-only catalog in `docs/translation.config.json`; section 6 below is obsolete.
+
 ## 1. Reader and voice
 
 **Who reads this.** Danes planning a trip in an autocamper or camper, young Danes on a working

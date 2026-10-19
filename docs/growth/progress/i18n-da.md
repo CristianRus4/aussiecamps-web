@@ -12,12 +12,14 @@ Working files (packets, batches, subagent values): `/tmp/da-i18n` (batches/, out
 - Milestone 1: UI (220 strings per site; testimonials deliberately absent), consent bar, support/privacy/terms (privacy incl. the 7-section analytics version) on both sites.
 - Milestone 2: the 6 highest-impression guides per site. AU: alcohol-coffee-drink-prices, sleeping-in-car, camping-rules-nsw, public-transport-costs, eating-out-prices, camping-rules-wa. NZ: grocery-prices, doc-huts, public-transport-costs, road-signs, biosecurity-gear, doc-campsite-rules.
 
-## In progress
-- Guides in impression order, 3 per batch (batches a03..a17, k03..k15 in /tmp/da-i18n/batches). Subagents draft, the thread edits and applies. Running: a03, a04, k03, k04.
+## In progress (run 2026-10-20, main account background agent)
+- Rebased both branches onto origin/main (M2). Own `da`-only catalog (`aussiecamps-website-da`, `kiwicamping-website-da`) in `docs/translation.config.json`: Tasmanien, Centralaustralien, Nordøen, Sydøen are now allowed.
+- Tools namespace translated (AU 116, NZ 152). data-guide links restored in 15 paragraphs. Brand genitive (Apples, KiwiCampings) removed because the content audit rejects it. Orchestrator rule applied to all done units: negation sweep (no reversals found; "må selv tjekke" changed to "skal selv tjekke") and glosses/added facts removed (see style guide section 0).
+- Working files in /tmp/da-i18n (batches/, out/, full-a3.json, full-k3.json, mkbatch.py, mkvals.py, ap.sh, qa.py, neg*.py, degloss.py).
 
 ## Next
-- Remaining guides in impression order (`/tmp/da-i18n/prio-a.tsv`, `prio-k.tsv`).
-- After the foundation milestones reach main: rebase, road trips, K legacy articles, `article`/`tools` namespaces, `<a data-guide>` markup, `translations:stamp`.
+- Guides in impression order (`/tmp/da-i18n/prio-a2.tsv`, `prio-k2.tsv`), skipping the 23 AU pages being rewritten by the paired release. Their existing da (sleeping-in-car, camping-rules-nsw, camping-rules-wa) have stale link markup: retranslate when the new English lands.
+- After the guides: road trips, K legacy articles, `translations:stamp`.
 
 ## English source issues found while translating (Danish follows the English unless noted)
 - NZ new-zealand-road-signs-visitors faq[1][1]: "The large arrow is your direction" contradicts sections[4].body[0]. The Danish says what section 4 says (large arrow = direction with priority). Suggested EN: "The large arrow shows the direction with priority and the small red arrow the direction that gives way."
@@ -28,6 +30,7 @@ Working files (packets, batches, subagent values): `/tmp/da-i18n` (batches/, out
 - AU camping-rules-western-australia FAQ "holiday park pass": DBCA's product is probably the "Holiday Pass"; worth checking.
 
 ## Blockers and open questions for the orchestrator
-- `da` is not yet in `lib/i18n.ts` / `lib/locales.json`, so `content:check` does not see da.json and `--strict --locale da` reports "Unknown locale" until the locale is registered (foundation/orchestrator).
 - Testimonials (review1..review9*, reviewsEyebrow, reviewsTitle) are deliberately left out of da.json. The current `isTranslated` gate requires every UI key, so the locale-registry change must exempt them for new locales.
-- Protected terms force English where Danish has standard exonyms: Tasmania (Tasmanien), Central Australia (Centralaustralien), North Island (Nordøen), South Island (Sydøen). Applied text uses the English forms with Danish grammar ("i Tasmania", "på South Island"), written so a later mechanical swap is safe. Same proposal as de/fr: move them from `protectedTerms` to per-locale glossary renderings.
+- Resolved: Danish exonyms now come from the da-only catalog (existing text had none of the four terms).
+- `ui.trustFreedomCamping` (KiwiCamping) is "Freedom camping" in Danish too (the established Danish usage); the engine flags it as source-equal.
+- Orchestrator: `scripts/audit-content.mjs` genitive set is only de/nl; if da should allow KiwiCampings/Apples, add da there (protected file).

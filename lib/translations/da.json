@@ -123,7 +123,7 @@
     "faq7q": "Hvad står der på et steds side?",
     "faq7a": "Fotos, en beskrivelse, åbningstider, priser, vilkår, faciliteter og funktioner ordnet efter type, aktuelle varsler, bedømmelser, kontakt- og bookingoplysninger, vejret, Street View hvor der findes billeder, rutevejledning og alternativer i nærheden.",
     "faq8q": "Hvilke kortvisninger er der?",
-    "faq8a": "Et standardkort og en satellitvisning bygget på Apples flyover-billeder, som du kan vippe og dreje, så terrænet ses i 3D. Street View bygger på Apples billeder fra »Se dig omkring« og viser stedet fra gadeplan direkte fra stedets side.",
+    "faq8a": "Et standardkort og en satellitvisning bygget på flyover-billeder fra Apple, som du kan vippe og dreje, så terrænet ses i 3D. Street View bygger på billeder fra Apple (»Se dig omkring«) og viser stedet fra gadeplan direkte fra stedets side.",
     "faq9q": "Kan jeg se priserne i min egen valuta?",
     "faq9a": "Ja. Vælg din valuta i indstillingerne, og angiv kursen, så vises de oplyste priser i den valuta ved siden af beløbet i australske dollar.",
     "faq10q": "Kan jeg booke en campingplads i AussieCamps?",
@@ -247,14 +247,14 @@
           "heading": "Rejseplanlæggeren",
           "paragraphs": [
             "Opret en tur, tilføj steder, og træk dem i rækkefølge. Hvert stop kan have sin egen ankomstdato, noter, vejrudsigt og status som besøgt, og planlæggeren viser køreafstanden etape for etape og for hele turen.",
-            "Ruteberegningen afhænger af, hvilke rutevejledninger MapKit kan levere. Planlæggeren beholder stoppene, hvis en etape ikke kan beregnes, men du må selv tjekke, om vejen er farbar lige nu.",
+            "Ruteberegningen afhænger af, hvilke rutevejledninger MapKit kan levere. Planlæggeren beholder stoppene, hvis en etape ikke kan beregnes, men du skal selv tjekke, om vejen er farbar lige nu.",
             "Start med en færdig liste over campingudstyr, eller lav dine egne opgaver. Turens fremskridt holder listen ved siden af rejseplanen, og rejseplanen kan synkroniseres med Kalender."
           ]
         },
         {
           "heading": "Kort, vejr og live-oplysninger",
           "paragraphs": [
-            "Skift mellem standardkortet og en satellitvisning bygget på Apples flyover-billeder, som kan vippes og drejes, så terrænet ses i 3D. Street View bygger på Apples billeder fra »Se dig omkring« og åbner fra stedets side, hvor der findes billeder.",
+            "Skift mellem standardkortet og en satellitvisning bygget på flyover-billeder fra Apple, som kan vippes og drejes, så terrænet ses i 3D. Street View bygger på billeder fra Apple (»Se dig omkring«) og åbner fra stedets side, hvor der findes billeder.",
             "Aktuelt vejr og vejrudsigt kræver live-data. Gem vigtige prognoser og officielle varsler, før du kører ud af dækning.",
             "Registret over steder ligger i appen, så de vigtigste oplysninger om hvert sted er tilgængelige, også hvor dækningen er dårlig. Live-kort, ruteberegning, vejr, fotos og eksterne udbyderes sider kan kræve forbindelse."
           ]
@@ -294,9 +294,9 @@
           ]
         },
         {
-          "heading": "Apples live-tjenester",
+          "heading": "Live-tjenester fra Apple",
           "paragraphs": [
-            "Kortvisning, rutevejledning, »Se dig omkring«, vejr, integration med kalenderen og widgets kan bruge Apples frameworks. Forespørgsler og behandling af data for disse tjenester er underlagt Apples regler. Appen får kun adgang til kalenderen, efter du har givet tilladelse, og bruger den kun til at tilføje de oplysninger fra rejseplanen, du beder om."
+            "Kortvisning, rutevejledning, »Se dig omkring«, vejr, integration med kalenderen og widgets kan bruge Apple-frameworks. Forespørgsler og behandling af data for disse tjenester styres af Apple. Appen får kun adgang til kalenderen, efter du har givet tilladelse, og bruger den kun til at tilføje de oplysninger fra rejseplanen, du beder om."
           ]
         },
         {
@@ -350,7 +350,7 @@
         {
           "heading": "Sikkerhed og lovlig brug",
           "paragraphs": [
-            "Du skal overholde skilte, tilladelser, lukninger, brandrestriktioner, færdselsregler og anvisninger fra rangers, Traditional Owners (de oprindelige ejere af landet), redningstjenester og de ansvarlige myndigheder. Brug ikke appen, mens du kører."
+            "Du skal overholde skilte, tilladelser, lukninger, brandrestriktioner, færdselsregler og anvisninger fra rangers, Traditional Owners, redningstjenester og de ansvarlige myndigheder. Brug ikke appen, mens du kører."
           ]
         },
         {
@@ -362,7 +362,7 @@
         {
           "heading": "Køb",
           "paragraphs": [
-            "Alle køb i appen behandles af Apple og er underlagt de vilkår, der vises ved købet. Funktioner, pakker og priser kan ændre sig, hvor det er tilladt. Brug Apples værktøjer til køb ved spørgsmål om betaling, opsigelse og refusion."
+            "Alle køb i appen behandles af Apple og er underlagt de vilkår, der vises ved købet. Funktioner, pakker og priser kan ændre sig, hvor det er tilladt. Har du spørgsmål om betaling, opsigelse eller refusion, så brug de værktøjer til køb, som Apple stiller til rådighed."
           ]
         },
         {
@@ -378,10 +378,10 @@
   "articles": {
     "alcohol-coffee-drink-prices-australia": {
       "title": "Priser på øl, vin, kaffe og andre drikkevarer i Australien",
-      "description": "Hvad koster øl, vin og kaffe på pub, café og i en bottle shop (vinhandel)? En klar sammenligning, så drikkevarerne ikke i det stille løber med rejsebudgettet.",
+      "description": "Hvad koster øl, vin og kaffe på pub, café og i en bottle shop? En klar sammenligning, så drikkevarerne ikke i det stille løber med rejsebudgettet.",
       "region": "Australien",
       "imageAlt": "Drikkevarer fra en australsk café på et bord",
-      "intro": "Drikkevarer er lette at undervurdere, for de kommer én ad gangen. Aktuelle prisspænd, som brugerne selv har indberettet, viser forskellen på et køb i en bottle shop (vinhandel), et stop på en café og en omgang på en pub inde i storbyen.",
+      "intro": "Drikkevarer er lette at undervurdere, for de kommer én ad gangen. Aktuelle prisspænd, som brugerne selv har indberettet, viser forskellen på et køb i en bottle shop, et stop på en café og en omgang på en pub inde i storbyen.",
       "sections": [
         {
           "heading": "Butikspris og barpris er ikke samme vare",
@@ -416,7 +416,7 @@
           "body": [
             "Australien har en stærk kaffekultur, og standarden er virkelig høj, også i provinsbyerne. Netop derfor bliver kaffen en post i budgettet. To flat whites om dagen til to personer løber op, uden at det nogensinde føles som et valg.",
             "En espressokande eller en AeroPress i camperen klarer morgenkoppen for en brøkdel af prisen, og så bliver cafébesøget noget, du vælger, og ikke noget, der bare sker. De fleste, der gør det, ender med at drikke bedre kaffe.",
-            "Kaffen på roadhouses (tankstationer med café og ofte overnatning i outbacken) er i bedste fald svingende på de lange stræk. På ruterne gennem outbacken er det som regel både billigere og langt bedre at lave den selv."
+            "Kaffen på roadhouses er i bedste fald svingende på de lange stræk. På ruterne gennem outbacken er det som regel både billigere og langt bedre at lave den selv."
           ],
           "tips": [
             "To kopper om dagen løber hurtigt op",
@@ -440,7 +440,7 @@
         {
           "heading": "Promille og køredagen",
           "body": [
-            "Den generelle grænse er 0,05 (0,5 promille) for bilister med fuldt kørekort og nul for øvelseskørende, bilister med prøvekørekort og mange erhvervschauffører. Tilfældig spritkontrol er almindelig, også på landevejene og midt på dagen.",
+            "Den generelle grænse er 0,05 for bilister med fuldt kørekort og nul for øvelseskørende, bilister med prøvekørekort og mange erhvervschauffører. Tilfældig spritkontrol er almindelig, også på landevejene og midt på dagen.",
             "På en roadtrip er den eneste sikre løsning at holde alkohol og kørsel helt adskilt: Overnat der, hvor du drikker, aftal en chauffør, der ikke drikker, eller drik først, når bilen er parkeret for natten.",
             "Det er kørslen dagen derpå, der overrasker mange. Kroppen forbrænder cirka én standarddrink i timen og ikke hurtigere, så efter en våd aften kan du stadig være over grænsen langt hen på formiddagen."
           ],
@@ -565,7 +565,7 @@
           "body": [
             "På udpegede rastepladser langs hovedvejene må du sove for at komme af med trætheden, som regel i op til 24 timer, og det er den løsning, der mest sikkert er lovlig i hele landet. Rastepladserne er til hvil, ikke til at pakke campingudstyret ud.",
             "Mange byer inde i landet har kommunale overnatningspladser, der er gratis eller billige, og hvor det udtrykkeligt er tilladt at sove i køretøjet. Showgrounds og sportsanlæg gør ofte det samme for et mindre gebyr.",
-            "Nogle døgnåbne servicestationer og roadhouses (tankstationer med café og ofte overnatning i outbacken) tillader, at du holder der natten over, især på de lange ruter ad hovedvejene. Spørg indenfor i stedet for at gå ud fra det, og køb noget."
+            "Nogle døgnåbne servicestationer og roadhouses tillader, at du holder der natten over, især på de lange ruter ad hovedvejene. Spørg indenfor i stedet for at gå ud fra det, og køb noget."
           ],
           "tips": [
             "Op til 24 timer på rastepladser",
@@ -589,7 +589,7 @@
         {
           "heading": "Varme, kulde og de praktiske grænser",
           "body": [
-            "En australsk sommer (december til februar) gør det ikke bare ubehageligt, men risikabelt at sove i en bil uden udluftning. I den nordlige del af landet stiger temperaturen i bilen hurtigt og holder sig høj natten igennem, og det er den vigtigste praktiske grund til at lade være.",
+            "En australsk sommer gør det ikke bare ubehageligt, men risikabelt at sove i en bil uden udluftning. I den nordlige del af landet stiger temperaturen i bilen hurtigt og holder sig høj natten igennem, og det er den vigtigste praktiske grund til at lade være.",
             "Om vinteren falder temperaturen under frysepunktet om natten inde i landet og i bjergene, og en bil isolerer næsten ikke. En ordentlig sovepose, der passer til forholdene, er vigtigere i en bil end i et telt.",
             "Sover du ofte i bilen, ændrer et sæt solskærme til vinduerne, insektnet og en ordentlig madras det hele. Uden dem går det for en nat, men i en hel uge bliver det elendigt."
           ],
@@ -637,8 +637,8 @@
         {
           "heading": "Campingpladser i nationalparkerne",
           "body": [
-            "Hos NSW National Parks (nationalparkmyndigheden i New South Wales) skal du booke på forhånd på de angivne campingpladser og til overnatning med tag over hovedet. Hav bekræftelsen ved hånden, og angiv de rigtige oplysninger om gruppen og køretøjet.",
-            "Camping i baglandet (remote camping) er kun tilladt i bestemte områder. Selv hvor du ikke booker en almindelig campingplads, kan det anbefales at udfylde en trip intention form (en turplan, der fortæller, hvor du skal hen)."
+            "Hos NSW National Parks skal du booke på forhånd på de angivne campingpladser og til overnatning med tag over hovedet. Hav bekræftelsen ved hånden, og angiv de rigtige oplysninger om gruppen og køretøjet.",
+            "Camping i baglandet (remote camping) er kun tilladt i bestemte områder. Selv hvor du ikke booker en almindelig campingplads, kan det anbefales at udfylde en trip intention form."
           ],
           "tips": []
         },
@@ -646,7 +646,7 @@
           "heading": "Gratis camping og camping langs vejen",
           "body": [
             "En rasteplads er ikke automatisk en campingplads. Læs tidsgrænserne for parkering og kommunens skilte, hold lastbilpladserne fri, og stil ikke markise eller møbler op, hvor stedet kun er tænkt som et hvil for trætte bilister.",
-            "Kommunale arealer (council reserves) og showgrounds (udstillings- og dyrskuepladser, der ofte har billige pladser) kan kræve lokal tilladelse, have tidsbegrænsning eller være lukket. Tjek det samme dag, som du kommer."
+            "Kommunale arealer (council reserves) og showgrounds kan kræve lokal tilladelse, have tidsbegrænsning eller være lukket. Tjek det samme dag, som du kommer."
           ],
           "tips": [
             "Læs skiltene, når du ankommer",
@@ -678,7 +678,7 @@
         {
           "heading": "Sådan booker du NPWS-campingpladser",
           "body": [
-            "Populære campingpladser ved kysten og i bjergene er booket op flere måneder i forvejen om sommeren (december til februar), i påsken og i skoleferierne, og i de perioder er der sjældent plads, hvis du bare dukker op. Uden for dem kan de fleste pladser bookes et par dage i forvejen.",
+            "Populære campingpladser ved kysten og i bjergene er booket op flere måneder i forvejen om sommeren, i påsken og i skoleferierne, og i de perioder er der sjældent plads, hvis du bare dukker op. Uden for dem kan de fleste pladser bookes et par dage i forvejen.",
             "Et All Parks Pass dækker entré for bilen i de fleste parker i NSW i et år og har hurtigt tjent sig selv ind, hvis du besøger mere end en håndfuld. Det dækker ikke campinggebyrer og heller ikke i alle tilfælde parkerne ved Sydney Harbour og Kosciuszko.",
             "Du booker pr. plads med et angivet maksimum for personer og køretøjer. Dukker du op med flere personer eller køretøjer, end der er booket til, er det en almindelig kilde til ballade på travle pladser."
           ],
@@ -810,7 +810,7 @@
         {
           "heading": "Hvornår du skal lade bilen stå",
           "body": [
-            "Det er ingen fornøjelse at køre en autocamper ind i det centrale Sydney eller Melbourne. Parkering er dyr, og højdebegrænsninger spænder konstant ben for store køretøjer. Det er hurtigere og billigere at lade den stå på en <a data-guide=\"caravan-park-vs-holiday-park\">caravanpark</a> (en kommerciel campingplads med pladser og hytter) og tage den offentlige transport ind til centrum.",
+            "Det er ingen fornøjelse at køre en autocamper ind i det centrale Sydney eller Melbourne. Parkering er dyr, og højdebegrænsninger spænder konstant ben for store køretøjer. Det er hurtigere og billigere at lade den stå på en <a data-guide=\"caravan-park-vs-holiday-park\">caravanpark</a> og tage den offentlige transport ind til centrum.",
             "Det samme gælder i de fleste delstatshovedstæder. Bo uden for centrum, og brug den lokale kollektive trafik de dage, du vil være inde i byen.",
             "Uden for hovedstæderne og en håndfuld regionale centre er den offentlige transport sparsom eller helt fraværende. En rejse planlagt efter busserne fungerer mellem byerne, men når ikke ud til campingpladser eller startstederne for vandreture."
           ],
@@ -930,7 +930,7 @@
         {
           "heading": "Her får du mest for pengene",
           "body": [
-            "Bageren, fish and chips-butikken og pubbens counter meal (mad, du bestiller ved baren) er de tre sikre billige muligheder i hele landet, og kvaliteten i provinsbyerne er tit bedre end i storbyerne.",
+            "Bageren, fish and chips-butikken og pubbens counter meal er de tre sikre billige muligheder i hele landet, og kvaliteten i provinsbyerne er tit bedre end i storbyerne.",
             "Især pubmaden er en australsk institution og ofte det eneste sted at få aftensmad i en lille by. Portionerne er store, og priserne ligger som regel et godt stykke under en restaurant i storbyen.",
             "Caféerne holder generelt op med at servere mad tidligere, end turister regner med, og i små byer kan alt være lukket efter kl. 20. Har du noget med, du selv kan lave, ender en sen ankomst ikke med, at du må undvære aftensmad."
           ],
@@ -1046,7 +1046,7 @@
           "heading": "Overnatning langs vejen og i de afsides egne",
           "body": [
             "Brug de skiltede overnatningspladser, og hold pladserne til lastbiler fri. Kommunerne kan forbyde camping uden for godkendte campingpladser, også på strande og byernes parkeringspladser.",
-            "På afsides veje skal du tjekke adgangen, om du har tilladelse fra stationen (en kæmpe kvæg- eller fårefarm i outbacken), og om der kræves tilladelse til at køre ind på aboriginal-områder, før du forlader hovedvejen."
+            "På afsides veje skal du tjekke adgangen, om du har tilladelse fra stationen, og om der kræves tilladelse til at køre ind på aboriginal-områder, før du forlader hovedvejen."
           ],
           "tips": [
             "Book pladsen",
@@ -1066,7 +1066,7 @@
           "heading": "Størrelsen ændrer planlægningen",
           "body": [
             "Western Australia dækker en tredjedel af kontinentet, og afstandene mellem parker, byer og brændstof er som intet andet sted. En campingtur her er først og fremmest en øvelse i logistik.",
-            "De populære pladser hos Parks and Wildlife (delstatens parkmyndighed under DBCA) bookes online, mens mange af de afsides kører efter først til mølle. Der findes et parkpas, der dækker bilens entré, og det kan betale sig, hvis du besøger mere end et par parker.",
+            "De populære pladser hos Parks and Wildlife bookes online, mens mange af de afsides kører efter først til mølle. Der findes et parkpas, der dækker bilens entré, og det kan betale sig, hvis du besøger mere end et par parker.",
             "Mange parker i nord lukker i regntiden, cirka fra november til april, og åbner igen, når veje og vadesteder tillader det. Tjek den aktuelle status i stedet for at stole på den officielle sæson."
           ],
           "tips": [
@@ -1078,7 +1078,7 @@
         {
           "heading": "Gratis camping og 24-timersreglen",
           "body": [
-            "Mange kommuner i WA tillader ophold på 24 timer på udpegede rastepladser og forbyder camping alle andre steder. Reglerne varierer meget fra shire til shire (landkommune), og jo mere afsides kommunen ligger, jo mere afslappet er den som regel.",
+            "Mange kommuner i WA tillader ophold på 24 timer på udpegede rastepladser og forbyder camping alle andre steder. Reglerne varierer meget fra shire til shire, og jo mere afsides kommunen ligger, jo mere afslappet er den som regel.",
             "Nogle rastepladser langs North West Coastal Highway og Great Northern Highway tillader længere ophold og fungerer reelt som gratis campingpladser. Skiltene viser grænsen, og den bliver håndhævet i de mere travle områder.",
             "Ophold på stationerne (station stays), hvor de store kvæg- og fårefarme åbner campingområder for rejsende, er noget særligt for WA og tit den eneste overnatning i flere hundrede kilometers omkreds. De fleste tager kontanter, og kun få har en booking, du kan stole på."
           ],
@@ -1105,7 +1105,7 @@
           "heading": "Varme, cykloner og tørtiden",
           "body": [
             "Tørtiden fra maj til oktober er sæsonen for det nordlige WA. Regntiden bringer ekstrem luftfugtighed, monsunregn, cykloner mellem november og april og lukninger mange steder.",
-            "I sydvest er det omvendt: Vinteren (juni til august) er våd og kølig, sommeren (december til februar) varm og tør, og foråret (september til november) er tiden for de vilde blomster. De to halvdele af delstaten kræver helt forskellig planlægning.",
+            "I sydvest er det omvendt: Vinteren er våd og kølig, sommeren varm og tør, og foråret er tiden for de vilde blomster. De to halvdele af delstaten kræver helt forskellig planlægning.",
             "Varmen er den undervurderede risiko. Inde i landet ryger temperaturen om sommeren jævnligt over 40 grader, og går bilen i stå i den varme uden nok vand, er det direkte livsfarligt."
           ],
           "tips": [
@@ -1191,7 +1191,7 @@
         ],
         "assumptions": [
           "Brug forbruget med fuld last. En autocamper, en tagboks eller en campingvogn i hækken æder mere end tallet i brochuren, så mål dit eget, hvis du kan.",
-          "Bygennemsnittene er et udgangspunkt. Roadhouses (tankstationer med café) ude i outbacken tager som regel mere, så sæt prisen op på de etaper.",
+          "Bygennemsnittene er et udgangspunkt. Roadhouses ude i outbacken tager som regel mere, så sæt prisen op på de etaper.",
           "Distancen er hele ruten, også afstikkerne til campingpladser, udsigtspunkter og byer væk fra hovedvejen."
         ],
         "faq": [
