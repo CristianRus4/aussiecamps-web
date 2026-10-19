@@ -406,119 +406,245 @@
   },
   "articles": {
     "sleeping-in-car-australia": {
-      "title": "Slapen in je auto in Australië: mag dat?",
-      "description": "In je auto overnachten in Australië mag alleen waar de lokale regels voor het terrein, parkeren en voertuigen het toestaan.",
+      "title": "In je auto slapen in Australië: mag dat? Regels per staat 2026",
+      "description": "Op sommige plekken mag het, op andere krijg je een boete. Regels voor rustplaatsen, verboden van gemeenten en nationale parken voor slapen in je auto in elke staat, gecheckt in oktober 2026.",
       "region": "Australië",
       "imageAlt": "Camper op een plek waar je officieel mag overnachten",
-      "intro": "Een auto maakt van een parkeerplek nog geen legale slaapplek. Of je er mag slapen, hangt af van de verordeningen van de gemeente (council), de borden, de regels van het park en de rechten van de grondeigenaar.",
+      "intro": "Ja, op de juiste plek: waar mensen een boete voor krijgen, is kamperen waar het verboden is, en veel gemeenten zien slapen in een geparkeerde auto als kamperen. De legale opties zijn geboekte campings, State Forests die kamperen toestaan en rustplaatsen waarvan de regels of borden een overnachting toestaan, zoals de limiet van 20 uur in Queensland en de rustplaatsen met een bord voor 24 uur in Western Australia.",
       "sections": [
         {
-          "heading": "Kijk naar de plek zelf, niet naar internet",
+          "heading": "De regels in elke staat",
           "body": [
-            "Check de borden op parkeertijden, kampeerverboden en beperkingen voor voertuigen. In drukke toeristenplaatsen wordt vaak gecontroleerd op parkeerplaatsen bij het strand en in woonstraten.",
-            "Een oude review beschermt je niet tegen een boete. Ga uit van de actuele informatie van de gemeente of de beheerder."
+            "Geen enkele staat publiceert één simpel ja of nee. Wegbeheerders stellen de limieten voor rustplaatsen vast, gemeenten bepalen de regels voor straten, stranden en parkeerplaatsen, en parkdiensten beslissen wat er in nationale parken gebeurt. Het antwoord hangt dus af van wie van de drie de grond onder je auto beheert.",
+            "Alleen Queensland en Western Australia publiceren een tijdslimiet voor rustplaatsen voor de hele staat, en het Northern Territory vermeldt welke rustplaatsen langs de highways kamperen tijdens de nacht toestaan. Overal elders beslist het bord op de rustplaats, en de adviezen in <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> zijn niet eenduidig: Service NSW zegt dat rustplaatsen niet bedoeld zijn om te kamperen, terwijl een planning practice note van juli 2026 zegt dat kamperen op een rustplaats mag, tenzij een bord iets anders zegt."
           ],
-          "tips": []
+          "tips": [],
+          "table": {
+            "caption": "Slapen in je auto per staat, gecheckt in oktober 2026",
+            "head": [
+              "Staat",
+              "Rustplaatsen langs de weg",
+              "Straten en parkeerplaatsen van gemeenten",
+              "Nationale parken",
+              "Rustplaatsen in AussieCamps"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "Geen limiet voor de hele staat; volg het bord",
+                "Toestemming van de gemeente of een bord met toestemming nodig; gemeenten handhaven",
+                "Alleen aangewezen kampeergebieden, maximaal 21 dagen",
+                "869"
+              ],
+              [
+                "Victoria",
+                "Geen limiet voor de hele staat; volg het bord",
+                "Sommige verbieden het: Surf Coast Shire geeft A$ 300 boete",
+                "Aangewezen plekken; sommige parken staan vrij kamperen toe",
+                "651"
+              ],
+              [
+                "Queensland",
+                "Tot 20 uur tenzij een bord iets anders zegt; geen kampeerplekken",
+                "Veel gemeenten verbieden het; Cairns verbiedt het op gemeentegrond buiten zijn campings",
+                "Betaalde vergunning voor elke kampeerplek",
+                "1.688"
+              ],
+              [
+                "South Australia",
+                "Geen limiet voor de hele staat; volg het bord",
+                "De regels verschillen per gemeente",
+                "Alleen geboekte kampeerplekken",
+                "391"
+              ],
+              [
+                "Western Australia",
+                "Tot 24 uur achter elkaar, alleen waar een bord het aangeeft",
+                "Kamperen elders vraagt toestemming",
+                "Alleen aangewezen campings",
+                "1.661"
+              ],
+              [
+                "Tasmania",
+                "Geen limiet voor de hele staat; volg het bord",
+                "Sommige gemeenten geven gratis vergunningen uit",
+                "Parks Pass plus een aangewezen plek",
+                "81"
+              ],
+              [
+                "Northern Territory",
+                "Alleen op stops met een bord voor kamperen tot 24 uur",
+                "De regels verschillen per gemeente",
+                "Geboekte kampeerplekken, plus een bezoekerspas voor niet-inwoners",
+                "211"
+              ],
+              [
+                "ACT",
+                "Met een voertuig alleen kamperen op campings",
+                "Geen kamperen op openbare grond zonder vergunning",
+                "Alleen geboekte campings",
+                "0"
+              ]
+            ]
+          }
         },
         {
-          "heading": "Rustplaatsen",
+          "heading": "Mag je in een nationaal park in je auto slapen?",
           "body": [
-            "Driver Reviver-stops en rustplaatsen (rest areas) langs de highway zijn er om <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">vermoeidheid</a> tegen te gaan. Op sommige mag je beperkt overnachten, andere verbieden kamperen of laten alleen bepaalde voertuigen toe.",
-            "Houd de parkeerhavens voor vrachtwagens vrij, houd het rustig en zet geen spullen buiten je voertuig, tenzij kamperen daar mag."
+            "Alleen waar het park kamperen toestaat, en dat betekent bijna altijd een aangewezen camping die je vooraf boekt of waarvoor je vooraf een vergunning hebt. Een auto die ’s nachts blijft staan op een dagrecreatieplek, bij een uitkijkpunt of bij het begin van een wandelpad is kamperen zonder toestemming, of er nu een tent is opgezet of niet.",
+            "<a data-guide=\"camping-rules-queensland\">Queensland</a> rekent in 2026 A$ 7,75 per persoon per nacht voor elke kampeerplek in een park of bos, en de vergunning geldt of je nu in een tent of in de auto slaapt. Parken in het Northern Territory kun je alleen online boeken, parken in South Australia online of via verkooppunten, en NSW beperkt een verblijf in elk park tot 21 dagen.",
+            "Een paar parken staan vrij kamperen toe. Het Alpine National Park in <a data-guide=\"camping-rules-victoria\">Victoria</a> staat het in een groot deel van het park toe, maar Parks Victoria vraagt kampeerders een tent mee te nemen en elk park stelt zijn eigen grenzen vast, dus lees eerst de parkpagina."
           ],
           "tips": [
-            "Een plek waar het mag",
-            "Ventilatie",
-            "Een veilige uitweg",
-            "Motor niet laten draaien voor warmte"
+            "Dagrecreatieplekken zijn geen kampeerplekken",
+            "Boek eerst of regel een vergunning",
+            "Alpine National Park staat vrij kamperen toe"
           ]
         },
         {
-          "heading": "Veiligere alternatieven",
+          "heading": "Rustplaatsen en wat hun limieten betekenen",
           "body": [
-            "Op een eenvoudige camping, een showground (evenemententerrein met kampeerplekken), een <a data-guide=\"caravan-park-vs-holiday-park\">caravanpark</a> of een farm stay (overnachten op een boerderij) is veel duidelijker dat je er mag staan, en is er vaak een toilet of water. Kom aan voordat het donker wordt en check of je voertuig er kan komen.",
-            "Slaap nooit in een gesloten voertuig terwijl er een kachel of kooktoestel op brandstof aanstaat."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Legaal parkeren is niet hetzelfde als legaal kamperen",
-          "body": [
-            "Je auto kan ergens volgens de regels geparkeerd staan, terwijl je er toch niet in mag slapen. Om dat verschil draait het bij de meeste overtredingen, en daarom krijgen reizigers die de parkeerborden wel hebben gecheckt toch een boete.",
-            "Dit staat in de lokale verordeningen van de gemeente, en die verschillen bij elke gemeentegrens. Sommige gemeenten staan slapen in een voertuig toe op aangewezen plekken, veel verbieden het op alle openbare plekken. Aan de kust en in toeristische gebieden wordt het strengst gehandhaafd.",
-            "Lees de borden voor het parkeervak waar je staat, niet die voor de straat. Parkeren met een tijdslimiet, vergunningszones en overnachtingsverboden staan vaak op aparte borden, en gelden allemaal tegelijk."
+            "<a data-guide=\"camping-rules-queensland\">Queensland</a> laat gewone voertuigen en recreatievoertuigen tot 20 uur op een rustplaats blijven, tenzij een bord iets anders zegt, maar noemt ze stopplaatsen en geen kampeerplekken. Rustplaatsen voor zwaar verkeer zijn alleen voor vrachtwagenchauffeurs, en aggregaten moeten tussen 19.00 en 7.00 uur uit blijven.",
+            "In Western Australia mag je tot 24 uur achter elkaar stoppen op rustplaatsen die zijn aangegeven voor overnachten, die volgens Main Roads WA niet bedoeld zijn om te kamperen, en voor overnachten ergens anders buiten een <a data-guide=\"caravan-park-vs-holiday-park\">caravanpark</a> of camping heb je toestemming nodig. Het Northern Territory vermeldt zijn rustplaatsen langs de weg een voor een, en alleen de plekken die zijn aangegeven voor overnachten tot 24 uur staan dat toe.",
+            "Parkeer waar je ook stopt binnen de aangegeven vakken, houd de plekken voor vrachtwagens vrij en laat luifel, stoelen en tafel ingepakt. Een auto met slapende mensen erin leest als een rustpauze; een opgezet kamp leest als kamperen."
           ],
           "tips": [
-            "Legaal parkeren is geen vrijbrief om te slapen",
-            "Bij elke gemeentegrens andere regels",
-            "Lees het bord bij je eigen parkeervak"
+            "Queensland: maximaal 20 uur",
+            "WA: 24 uur waar een bord het aangeeft",
+            "Laat de vrachtwagenplekken vrij"
           ]
         },
         {
-          "heading": "Waar het meestal wel kan",
+          "heading": "Gemeenten, steden en de kust",
           "body": [
-            "Op aangewezen rustplaatsen langs de highways mag je slapen om <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">vermoeidheid</a> tegen te gaan, meestal tot 24 uur. Dat is in heel Australië de betrouwbaarste legale optie. Ze zijn bedoeld om uit te rusten, niet om je kamp op te slaan.",
-            "Veel gemeenten in het binnenland hebben gratis of goedkope overnachtingsplekken waar slapen in je voertuig uitdrukkelijk is toegestaan. Showgrounds en sportvelden doen vaak hetzelfde, voor een klein bedrag.",
-            "Sommige tankstations en roadhouses (wegrestaurants met tankstation) die 24 uur per dag open zijn, laten je ’s nachts op hun terrein parkeren, vooral langs lange highways. Vraag het binnen in plaats van ervan uit te gaan, en koop iets."
+            "De meeste boetes komen uit lokale verordeningen. Aan de kust van Victoria ziet Surf Coast Shire slapen in een voertuig overal in de shire als een overtreding met een boete van A$ 300 ter plekke, en Cairns Regional Council verbiedt kamperen langs wegen, op de Esplanade, in parken, op parkeerplaatsen en op stranden.",
+            "Sommige gemeenten in het binnenland hebben gratis of goedkope plekken voor reizigers. De Northern Midlands Council in <a data-guide=\"camping-rules-tasmania\">Tasmania</a> geeft bijvoorbeeld gratis vergunningen uit voor verblijven tot 48 uur, maar alleen voor volledig self-contained voertuigen met eigen toilet en douche, en dat sluit de meeste auto’s uit.",
+            "Lees het bord voor het exacte parkeervak, niet alleen dat voor de straat. Tijdslimieten, vergunningszones en borden met een overnachtingsverbod hangen vaak naast elkaar, en ze gelden allemaal tegelijk."
           ],
           "tips": [
-            "Op rustplaatsen mag je tot 24 uur blijven",
-            "In het binnenland mag het vaak",
-            "Vraag het bij roadhouses, ga er niet van uit"
+            "Sommige kustgemeenten geven boetes",
+            "Northern Midlands: 48 uur, alleen self-contained",
+            "Lees het bord voor het exacte parkeervak"
           ]
         },
         {
-          "heading": "Veilig in je auto slapen",
+          "heading": "Zo doe je het veilig",
           "body": [
-            "Kies een plek met andere voertuigen in de buurt, verlichting en een makkelijke uitweg. Parkeer zo mogelijk met de neus naar de uitgang, houd waardevolle spullen uit het zicht en doe de deuren op slot, maar zorg dat je er snel uit kunt.",
-            "Ventilatie is belangrijker dan je denkt. Een dichte auto met slapende mensen erin wordt snel vochtig en benauwd, en bij hitte echt gevaarlijk. Zet de ramen op een kier, met horren ervoor als je die hebt.",
-            "Laat nooit de motor draaien voor de airco terwijl je slaapt. Uitlaatgassen kunnen de auto binnenkomen, en koolmonoxide ruik je niet. Er zijn mensen omgekomen die precies dit deden."
+            "Kies een plek met andere voertuigen in de buurt, wat licht en een makkelijke uitweg. Parkeer zo mogelijk met de neus naar de uitgang, houd waardevolle spullen uit het zicht en doe de deuren op slot, maar houd één uitweg vrij.",
+            "Ventilatie is belangrijker dan je denkt. Een gesloten auto met slapende mensen erin wordt binnen een paar uur vochtig en benauwd, en bij hitte wordt het gevaarlijk. Zet de ramen dus op een kier, met horren ervoor."
           ],
           "tips": [
-            "Parkeer met de neus naar buiten, houd een uitweg vrij",
-            "Ventileer, zet de auto niet potdicht",
-            "Laat de motor nooit draaien als je slaapt"
+            "Parkeer met de neus naar de uitgang",
+            "Ventileer achter horren",
+            "Houd waardevolle spullen uit het zicht"
           ]
         },
         {
-          "heading": "Hitte, kou en de praktische grenzen",
+          "heading": "Koolmonoxide, hitte en kou",
           "body": [
-            "In de zomer in Australië is slapen in een auto zonder ventilatie niet alleen onprettig, maar onveilig. Binnen in de auto loopt de temperatuur snel op, en in het noorden blijft die de hele nacht hoog. Dat is de belangrijkste praktische reden om het niet te doen.",
-            "In de winter vriest het ’s nachts in het binnenland en in de bergen, en een auto isoleert bijna niet. Een goede slaapzak voor die temperaturen telt in een auto nog zwaarder dan in een tent.",
-            "Doe je dit vaker, dan maken een set raamschermen, horren en een fatsoenlijk matras een wereld van verschil. Zonder die spullen gaat het voor één nacht, maar een week lang wordt het ellende."
+            "Laat nooit de motor draaien voor verwarming of airco terwijl je slaapt, en neem nooit een gaskachel, kooktoestel of barbecue mee naar binnen. De toezichthouder op gasveiligheid van <a data-guide=\"camping-rules-western-australia\">Western Australia</a> waarschuwt dat draagbare gastoestellen voor buiten nooit gebruikt mogen worden in een tent, een half afgesloten ruimte, een caravan, een camper of binnenshuis, vanwege het risico op koolmonoxidevergiftiging.",
+            "De zomerhitte is de belangrijkste praktische grens aan slapen in een auto. De cabine warmt na zonsopgang snel op en blijft in het noorden ’s nachts warm, dus begin de dag vroeg of kies een plek met stroom en schaduw.",
+            "In het binnenland en in de bergen vriest het in de winter ’s nachts, en een auto houdt weinig warmte vast. Een slaapzak die geschikt is voor de omstandigheden telt in een voertuig zwaarder dan in een tent."
           ],
           "tips": [
-            "In het noorden blijft de auto ’s nachts heet",
-            "In de winter bijna geen isolatie",
-            "Horren en raamschermen maken het verschil"
+            "Laat de motor nooit draaien terwijl je slaapt",
+            "Geen gastoestellen binnen",
+            "Neem een slaapzak die tegen vorst kan"
           ]
         },
         {
-          "heading": "Je auto klaarmaken voor de nacht",
+          "heading": "Je auto bruikbaar maken voor een nacht",
           "body": [
-            "Met raamschermen, horren en een goed matras is slapen in je auto geen uithoudingsproef meer, maar iets wat je nacht na nacht kunt doen. Zonder die spullen houd je het één nacht vol, maar een week lang is het ellende.",
-            "Vlakke grond is belangrijker dan het klinkt. Een lichte helling die je bij het parkeren niet opmerkt, voel je meteen zodra je ligt. Vaak is het al genoeg om de auto andersom te zetten.",
-            "Voor langere reizen heb je in een busje of een stationwagen met neergeklapte stoelen veel meer bruikbare ruimte dan in een sedan, voor nauwelijks hogere huurkosten.",
-            "Door de zomerhitte in Australië is een auto zonder ventilatie ’s nachts echt onveilig. Die hitte bepaalt in de praktijk de grens van slapen in je auto, niet een lokale regel."
+            "Met raamschermen, horren en een goed matras wordt één oncomfortabele nacht iets wat je een week kunt herhalen. Zonder die spullen lukt het één keer en raak je het snel zat.",
+            "Vlakke grond is belangrijker dan het klinkt, want een helling die je bij het parkeren niet opmerkt, voel je meteen als je ligt. Vaak is het al genoeg om de auto andersom te zetten.",
+            "Voor een langere reis heb je in een busje of een stationwagen met neergeklapte stoelen veel meer ruimte dan in een sedan."
           ],
           "tips": [
-            "Met horren en schermen is het een ander verhaal",
-            "Vlakke grond telt als je ligt",
-            "Auto omdraaien lost een helling vaak op"
+            "Eerst schermen en horren",
+            "Check de helling voordat je gaat slapen",
+            "Een stationwagen wint van een sedan"
+          ]
+        },
+        {
+          "heading": "Waar een legale nacht het makkelijkst is",
+          "body": [
+            "State Forests zijn de eenvoudigste gratis optie in <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> en Victoria, waar kamperen meestal is toegestaan tot respectievelijk vier weken en 28 nachten achter elkaar. In de bossen van NSW mag je niet kamperen op picknickplaatsen, en in Victoria moet je minstens 20 meter van water kamperen.",
+            "South Australia staat kamperen op Crown land toe zonder toestemming tot 21 dagen, terwijl Western Australia verwacht dat je een erkend <a data-guide=\"caravan-park-vs-holiday-park\">caravanpark</a>, een camping of een rustplaats met een bord gebruikt, tenzij je toestemming hebt.",
+            "Bij twijfel kost een eenvoudige camping of showground weinig en is de vraag van tafel. Kom aan voordat het donker wordt, zodat je de borden kunt lezen en kunt checken of je voertuig er kan komen."
+          ],
+          "tips": [
+            "Bossen: gratis in NSW en Victoria",
+            "Crown land in SA: 21 dagen",
+            "Kom aan voordat het donker wordt"
           ]
         }
       ],
       "faq": [
         [
           "Is slapen in je auto in Australië legaal?",
-          "Dat hangt helemaal af van waar de auto staat. Slapen in een voertuig is op zich niet strafbaar, maar kamperen in een voertuig waar de gemeente dat verbiedt wel. En dat geldt voor de meeste straten in de stad, parkeerplaatsen bij het strand en natuurgebieden langs de kust (coastal reserves)."
+          "Ja, waar kamperen is toegestaan: geboekte campings, State Forests die kamperen toestaan en rustplaatsen waarvan de regels of borden een overnachting toestaan. Veel gemeenten zien slapen in een geparkeerde auto als kamperen en geven een boete op straat, bij het strand en op parkeerplaatsen, zoals de boete van A$ 300 ter plekke in Surf Coast Shire."
         ],
         [
-          "Waar mag je legaal in je auto overnachten?",
-          "Op aangewezen rustplaatsen waar overnachten is toegestaan, op campings en caravanparken, en in gemeenten waarvan de verordeningen het toestaan. Bij roadhouses en op sommige parkeerplaatsen van pubs mag het in overleg: vraag het, en ga er niet zomaar van uit."
+          "Mag je in een nationaal park in je auto slapen?",
+          "Alleen waar het park kamperen toestaat, en dat betekent meestal een aangewezen camping die je vooraf boekt. Een auto die ’s nachts blijft staan op een dagrecreatieplek of bij het begin van een wandelpad geldt als kamperen zonder toestemming."
         ]
       ],
-      "sources": [],
+      "sources": [
+        {
+          "label": "Rustplaatsen in Queensland"
+        },
+        {
+          "label": "Main Roads WA: lange afstanden rijden"
+        },
+        {
+          "label": "Kamperen buiten caravanparken in WA"
+        },
+        {
+          "label": "NT: rustplaatsen langs de weg"
+        },
+        {
+          "label": "Service NSW: rustplaatsen zoeken"
+        },
+        {
+          "label": "NSW practice note voor caravanparken en campings, juli 2026"
+        },
+        {
+          "label": "Surf Coast Shire: parkeren"
+        },
+        {
+          "label": "Cairns Regional Council: kamperen"
+        },
+        {
+          "label": "Queensland Parks: reserveringen voor kamperen"
+        },
+        {
+          "label": "Vrij kamperen in het Alpine National Park"
+        },
+        {
+          "label": "Northern Midlands Council: RV-vriendelijke plaatsen"
+        },
+        {
+          "label": "WA Building and Energy: veilig kamperen met gas"
+        },
+        {
+          "label": "NSW National Parks and Wildlife Regulation 2019"
+        },
+        {
+          "label": "Forestry Corporation of NSW: kamperen"
+        },
+        {
+          "label": "Regering van Victoria: kamperen in State Forests"
+        },
+        {
+          "label": "Toegang tot Crown land in SA"
+        },
+        {
+          "label": "Queensland: regels voor rustplaatsen (aggregaten)"
+        },
+        {
+          "label": "NT Parks Visitor Pass"
+        }
+      ],
       "priceTable": null
     },
     "best-camping-app-australia": {
