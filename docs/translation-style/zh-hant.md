@@ -120,6 +120,7 @@ Sources: [TW-blog] Taiwanese personal blogs; [TW-com] Taiwanese-language commerc
 | speed limit | 速限 | 「速限 100 公里」. |
 | international driving permit | 國際駕照（IDP）✱ | Plus 駕照翻譯本 for an official translation. |
 | overseas licence | 外國駕照 / 你的台灣駕照 (only when the source means the reader's home licence) | |
+| learner / provisional licence (AU) | 學習駕照（L 牌）/ 實習駕照（P 牌） | Never 見習駕照. |
 | rego (AU) | 車輛登記（rego）✱ | |
 | WOF (NZ) | WOF 車輛安全檢驗 ✱ | 年檢 alone suggests the Taiwanese inspection. |
 | toll road | 收費公路 | |
@@ -182,7 +183,7 @@ Sources: [TW-blog] Taiwanese personal blogs; [TW-com] Taiwanese-language commerc
 
 Use the established Taiwan exonym; otherwise keep the English. For a lesser-known place a reader must find on a sign, write the Chinese (if established) and add the English in parentheses at the first mention in the page body.
 
-- **Australia:** 澳洲 (never 澳大利亞 in copy). States: 新南威爾斯, 昆士蘭, 維多利亞, 南澳, 西澳, 塔斯馬尼亞, 北領地, 澳洲首都領地 (ACT). Add 州 where the sentence needs it (維多利亞州, 昆士蘭州); 新州/維州/昆州/塔州 only in tips or tight UI. Cities: 雪梨, 墨爾本, 布里斯本, 伯斯, 阿德雷德, 荷巴特, 坎培拉, 達爾文, 凱恩斯, 黃金海岸, 陽光海岸, 湯斯維爾, 洛坎普頓, 布魯姆, 愛麗絲泉, 拜倫灣. Places: 大洋路, 大堡礁, 烏魯魯（Uluṟu）, 卡卡度國家公園, 聖靈群島, 藍山, 袋鼠島, 菲利普島, 威爾遜岬, 格蘭屏, 搖籃山, 菲欣納國家公園, 瑪格麗特河, 寧格魯, 納拉伯平原, 費林德斯山脈, 苦難角, 丹翠, 吉布河路（Gibb River Road）.
+- **Australia:** 澳洲 (never 澳大利亞 in copy). States: 新南威爾斯, 昆士蘭, 維多利亞, 南澳, 西澳, 塔斯馬尼亞, 北領地, 澳洲首都領地 (ACT). Add 州 where the sentence needs it (維多利亞州, 昆士蘭州); 新州/維州/昆州/塔州 only in tips or tight UI. Cities: 雪梨, 墨爾本, 布里斯本, 伯斯, 阿德雷德, 荷巴特, 坎培拉, 達爾文, 凱恩斯, 黃金海岸, 陽光海岸, 湯斯維爾, 洛坎普頓, 布魯姆, 愛麗絲泉, 拜倫灣. Places: 大洋路, 大堡礁, 烏魯魯（Uluṟu）, 卡卡度國家公園, 聖靈群島, 藍山, 袋鼠島, 菲利普島, 威爾遜岬, 格蘭屏, 搖籃山, 菲欣納國家公園, 瑪格麗特河, 寧格魯, 納拉伯平原, 費林德斯山脈, 苦難角, 丹翠, 吉布河路（Gibb River Road）, 金伯利（Kimberley）, 北領地頂端（Top End）, 紅土中心（Red Centre）, 埃克斯茅斯（Exmouth）.
 - **Aboriginal names keep their exact spelling and diacritics:** Uluṟu, K'gari, Ikara, Tjoritja, Kakadu, Namadgi. K'gari: 「K'gari（舊稱芬瑟島）」 at first mention.
 - **New Zealand:** 紐西蘭 (never 新西蘭). 北島, 南島, 史都華島. 奧克蘭, 威靈頓, 基督城, 皇后鎮, 但尼丁, 羅托魯瓦, 陶波, 納皮爾, 陶朗加, 漢密爾頓, 新普利茅斯, 尼爾森, 皮克頓, 布倫亨, 凱庫拉, 格雷茅斯, 霍基蒂卡, 因弗卡吉爾, 蒂阿瑙, 瓦納卡, 奧瑪魯, 吉斯本. 米佛峽灣, 庫克山（Aoraki）, 蒂卡波湖, 福克斯冰河, 法蘭茲約瑟夫冰河, 亞瑟隘口, 哈斯特隘口, 林迪斯隘口, 皇冠山脈（Crown Range）, 沙漠公路（Desert Road）, 庫克海峽, 島嶼灣, 金灣, 亞伯塔斯曼國家公園, 峽灣國家公園, 科羅曼德半島, 雷因格角, 東角, 北地, 南地, 西岸, 馬爾堡.
 - **Māori names keep macrons exactly:** Aoraki, Taupō, Whanganui, Ōhope, Tāmaki Makaurau, Te Araroa, Aotearoa. When the Chinese exonym is used, keep the macron spelling in the parenthesis: 陶波（Taupō）.
