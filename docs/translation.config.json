@@ -132,6 +132,77 @@
         "nl": "informal",
         "pt": "informal"
       }
+    },
+    {
+      "id": "aussiecamps-website-fr",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "fr"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "fr",
+          "path": "../lib/translations/fr.json"
+        }
+      ],
+      "protectedTerms": [
+        "AussieCamps",
+        "AussieCamping",
+        "AUD",
+        "Tourism Australia",
+        "Reserve Bank of Australia",
+        "Virgin Australia",
+        "Victoria",
+        "Queensland",
+        "Uluṟu",
+        "K'gari",
+        "Ikara",
+        "Tjoritja",
+        "Kakadu",
+        "Namadgi"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {
+        "New South Wales": {
+          "fr": "Nouvelle-Galles du Sud"
+        },
+        "Victoria": {
+          "fr": "Victoria"
+        },
+        "Queensland": {
+          "fr": "Queensland"
+        },
+        "South Australia": {
+          "fr": "Australie-Méridionale"
+        },
+        "Western Australia": {
+          "fr": "Australie-Occidentale"
+        },
+        "Tasmania": {
+          "fr": "Tasmanie"
+        },
+        "Northern Territory": {
+          "fr": "Territoire du Nord"
+        },
+        "Australian Capital Territory": {
+          "fr": "Territoire de la capitale australienne"
+        },
+        "Central Australia": {
+          "fr": "Centre rouge"
+        }
+      },
+      "register": {
+        "fr": "formal"
+      },
+      "styleGuide": {
+        "fr": "Follow docs/translation-style/fr.md: native French travel-writer voice for France, Belgium, Switzerland and Canada, formal vous, French typography (non-breaking spaces before : ; ? !, « » quotes), French state names, no calques, no offline-map claims."
+      }
     }
   ]
 }
