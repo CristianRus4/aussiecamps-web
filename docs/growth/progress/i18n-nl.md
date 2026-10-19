@@ -13,6 +13,12 @@ Dutch (nl) on both sites. Branches: `i18n/a-nl` (aussiecamps-web), `i18n/k-nl` (
 - [x] AU guides: camping rules for 7 states/territories (NSW, VIC, WA, SA, QLD, ACT, TAS; NT in progress), dump points, sleeping in your car, drink, eating-out, grocery, public transport and domestic flight prices, travel cost, interstate biosecurity, towing a caravan, fuel cost, best time to camp, caravan park vs holiday park, road rules by state, camping fees.
 - [x] NZ guides: grocery prices, DOC huts, DOC campsite rules, campervan road rules, speed limits, fuel cost, public transport, towing a caravan, travel cost, biosecurity, eating out, road signs, domestic flights, WoF and registration, accommodation costs, volcanic safety, beer/wine/coffee prices, camping with dogs, Cook Strait ferry, bus/ferry/train costs, sandflies, overseas driver licence.
 
+## Run 2026-10-20 (background agent, orchestrator)
+- AU rebased onto origin/main (A-foundation M2, tools-hubs). Batch 1: restored `<a data-guide>` markup in 151 existing nl units (all guides), loospunt to lozingspunt, verspreid kamperen to wildkamperen; stamped nl.
+- Batch 2: road trips brisbane-to-cape-tribulation, great-ocean-road-camping-guide, melbourne-to-adelaide-coastal-route, perth-to-broome-road-trip, east-coast-road-trip-sydney-cairns (AU nl now 55/70 guides).
+- Remaining AU gaps: 15 road trips (adelaide-to-uluru, sunshine-coast-hinterland, gibb-river-road, nullarbor, australian-alps, flinders-ranges, red-centre-way, tasmania-camping-loop, darwin-kakadu-litchfield, sydney-south-coast, queensland-outback-way, south-west-wa, victoria-high-country, kangaroo-island, blue-mountains), tools namespace (116 units, gated), KiwiCamping rebase onto K-foundation main (not started this run) and its own markup fixes.
+- Source issues (AU road trips): east-coast-road-trip-sydney-cairns intro says about 2,500 km, sections[3] says roughly 2,400 km (Dutch mirrors both); melbourne-to-adelaide sections[7].body[3] is a Grampians sentence under the Coorong heading; melbourne-to-adelaide sections[1].body[0] repeats the caravan-park link text; brisbane-to-cape-tribulation sections[0].body[1], perth-to-broome and others link words like "Kangaroo" or "night driving" to unrelated guides (auto-generated link placement).
+
 ## In progress
 - Full rewrite pass, every unit, both repos. Order: UI, support/privacy/terms, guides by English impressions (pages-3m.tsv).
 
