@@ -53,7 +53,7 @@ Sources: S = Search Console queries in Dutch (KiwiCamping, 3 months to 19 Oct 20
 | DOC | **DOC** | Protected. First use per page: "DOC (Department of Conservation, de Nieuw-Zeelandse natuurbeheerder)". Compounds with hyphen: DOC-camping, DOC-hut, DOC-kantoor (W, S: doc campings nieuw zeeland). |
 | NPWS, Parks Victoria, QPWS, Parks and Wildlife | keep the name | Short gloss once: "NPWS (de parkendienst van New South Wales)". |
 | hut | hut, DOC-hut | A: hutten; U: Hutten. "Berghut" only for alpine huts. |
-| Great Walk | Great Walk (mv. Great Walks) | Gloss once: "een van de tien Great Walks, de meerdaagse topwandelingen van DOC". |
+| Great Walk | Great Walk (mv. Great Walks) | Gloss once: "een van de Great Walks, de meerdaagse topwandelingen van DOC". |
 | tramping | trekken, meerdaagse wandeling (tramping) | |
 | powered site / unpowered | plek met stroom / plek zonder stroom (powered site) | W: Nieuw-Zeeland.nl "powered sites", "plekken met stroomvoorziening". |
 | booking, to book | reservering, boeken/reserveren | Both natural. |
@@ -131,7 +131,7 @@ Sources: S = Search Console queries in Dutch (KiwiCamping, 3 months to 19 Oct 20
 | Bouw de reis / bouw een reis | Stel je reis samen, stippel je route uit |
 | Een aanwezige vuurplaats maakt een vuur niet legaal | Ook bij een vuurplaats mag je tijdens een stookverbod geen vuur maken |
 | verspreid in de natuur kamperen (dispersed camping) | vrij in het bos staan, wildkamperen waar het mag |
-| Respecteer de gedeelde tijden | Hou je aan de stiltetijden |
+| Respecteer de gedeelde tijden | Houd je aan de stiltetijden |
 | het juiste product boeken (DOC product) | de juiste plek of het juiste tarief boeken |
 | vat een rustige plek niet op als stilzwijgende toestemming | een rustige plek betekent nog niet dat het mag |
 | Het is belangrijk om … te … | Zorg dat je … / … is belangrijk, want … (or simply the imperative) |
@@ -159,7 +159,7 @@ Never translate word for word idioms such as "the big lap", "walk-up", "book out
    - After: "Ook als er een vuurplaats is, mag je tijdens een stookverbod geen vuur maken."
 3. KiwiCamping, DOC campsite rules ("Respect shared hours" / "Pets and drones require explicit permission. Check the exact campsite page rather than treating a quiet location as implied approval.")
    - Before: "Respecteer de gedeelde tijden" / "Voor huisdieren en drones heb je uitdrukkelijk toestemming nodig. Controleer de pagina van de camping zelf en vat een rustige locatie niet op als stilzwijgende toestemming."
-   - After: "Hou rekening met de stiltetijden" / "Voor huisdieren en drones heb je altijd expliciet toestemming nodig. Kijk op de pagina van die camping zelf: dat het er rustig is, betekent nog niet dat het mag."
+   - After: "Houd rekening met de stiltetijden" / "Voor huisdieren en drones heb je altijd expliciet toestemming nodig. Kijk op de pagina van die camping zelf: dat het er rustig is, betekent nog niet dat het mag."
 
 ## 6. Checklist per unit
 

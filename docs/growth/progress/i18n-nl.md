@@ -14,6 +14,8 @@ Dutch (nl) on both sites. Branches: `i18n/a-nl` (aussiecamps-web), `i18n/k-nl` (
 
 ## Next
 - Road trips, Kiwi legacy pages, consent/article/tools namespaces and data-guide link markup once the foundation milestones merge (wait for the orchestrator's message).
+- A-foundation M1 (pending merge): `consent` namespace (6 strings), privacy page gains a "Website analytics" section (nl privacy goes stale until re-translated), guide sections may gain `table: { caption, head, rows }`. Hand-off check becomes `npx tsx scripts/audit-content.mjs --strict --locale nl`.
+- A-foundation M2: road trips translatable, `<a data-guide>` markup in en.json bodies, `npm run translations:stamp -- --locale nl` after each batch.
 
 ## Working method (to resume)
 - Work files are made from `translation-engine packet --locale nl --all` and split per page under /tmp/nl-work/{a,k}/ (scratch, not in the repo; regenerate with the same command if lost).
