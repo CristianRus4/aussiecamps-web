@@ -20,7 +20,7 @@ unit is being re-reviewed and rewritten against `docs/translation-style/it.md`.
 - [x] UI + support/privacy/terms, both sites (merged to main)
 - [x] Judge round 1 fixes (AU 7 + NZ 15 failing units, plus the same defects in shared copy)
 - [x] New English: privacy "Website analytics" (GA4) section, effective date, `consent.*` (both sites)
-- [ ] Guides AU (50): A01-A05 done (25 guides); A06 in progress (camping-rules-tasmania drafted in /tmp/i18n-it/out/A06.part-1.json, not yet applied); A07-A10 queued
+- [ ] Guides AU (50): A01-A07 done (35 guides); A08-A10 queued (15 guides, in order)
 - [ ] Guides NZ (43): K01-K05 done (25 guides); K06, K07 in progress; K08-K09 queued
 - [ ] Road trips, Kiwi legacy pages, article/tools namespaces, data-guide link markup: not yet in
       `en.json` on main ("Road trips" is still in `untranslatedCategories`). Waiting.
@@ -33,8 +33,8 @@ unit is being re-reviewed and rewritten against `docs/translation-style/it.md`.
 | A03 | campervan-road-trip-budget, accommodation-costs, camping-rules-sa, domestic-flight-costs, camping-rules-act | done |
 | A04 | camping-rules-qld, road-signs, caravan-park-vs-holiday-park, towing-caravan, best-time-camping | done |
 | A05 | camping-rules-nt, road-rules-state-differences, camping-fees, travel-cost, fuel-cost | done |
-| A06 | camping-rules-tas, is-free-camping-legal, camping-without-phone-signal, campervan-driving-safety, water-planning | subagent |
-| A07 | bus-train-costs, overseas-driver-licence-state-guide, campfires, best-camping-app, road-rules-visitors | queued |
+| A06 | camping-rules-tas, is-free-camping-legal, camping-without-phone-signal, campervan-driving-safety, water-planning | done |
+| A07 | bus-train-costs, overseas-driver-licence-state-guide, campfires, best-camping-app, road-rules-visitors | done |
 | A08 | driving-overseas-licence, camping-with-dogs, packing-list, first-campervan-trip, fuel-planning | queued |
 | A09 | weather-safety, responsible-camping, choosing-campsite, road-trains, fatigue-wildlife | queued |
 | A10 | how-to-plan-trip, filters, save-collections, place-details, widgets | queued |
@@ -105,6 +105,14 @@ A01-A05 has the links restored (commit 6d1add7 for the old guides; A05+ written 
 from A06 on must keep the markup around a natural Italian phrase. Workflow files live in /tmp/i18n-it
 (`show.mjs`, `txt2part.mjs`, `merge.mjs`, `wrap.mjs`, `linklist.mjs`); the NZ links and `translations:stamp`
 have not been done yet (stamp once at the end: it would otherwise stamp unreviewed drafts).
+
+AU source notes (new, translated as written): camping-fees faq[0][1] and australia-travel-cost faq[0][1] say
+"dated figures" where tables are promo examples or benchmarks; australia-road-trip-fuel-cost faq[1][1] says "divide by
+consumption" (should be multiply by consumption/100); is-free-camping-legal faq[0][1] says free camping is legal "in
+designated areas, and nowhere else", which contradicts its own sections (State Forests, council camps);
+camping-without-phone-signal sections repeat each other (sections[5] and [7].body[3]); campfires sections[0] and
+[1].body[1] repeat Total Fire Ban points; best-camping-app sections[6] and [7] repeat the same sign/fire-ban idea;
+bus-train-costs links "Kangaroo Island" to the fatigue guide (odd anchor, kept).
 
 ## Blockers
 - None.
