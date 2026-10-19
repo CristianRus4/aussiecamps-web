@@ -20,7 +20,7 @@ unit is being re-reviewed and rewritten against `docs/translation-style/it.md`.
 - [x] UI + support/privacy/terms, both sites (merged to main)
 - [x] Judge round 1 fixes (AU 7 + NZ 15 failing units, plus the same defects in shared copy)
 - [x] New English: privacy "Website analytics" (GA4) section, effective date, `consent.*` (both sites)
-- [ ] Guides AU (50): A01-A04 done (20 guides); A05, A06 in progress; A07-A10 queued
+- [ ] Guides AU (50): A01-A05 done (25 guides); A06 in progress (camping-rules-tasmania drafted in /tmp/i18n-it/out/A06.part-1.json, not yet applied); A07-A10 queued
 - [ ] Guides NZ (43): K01-K05 done (25 guides); K06, K07 in progress; K08-K09 queued
 - [ ] Road trips, Kiwi legacy pages, article/tools namespaces, data-guide link markup: not yet in
       `en.json` on main ("Road trips" is still in `untranslatedCategories`). Waiting.
@@ -32,7 +32,7 @@ unit is being re-reviewed and rewritten against `docs/translation-style/it.md`.
 | A02 | camping-rules-wa, dump-points, camping-rules-vic, grocery-prices, interstate-biosecurity | done |
 | A03 | campervan-road-trip-budget, accommodation-costs, camping-rules-sa, domestic-flight-costs, camping-rules-act | done |
 | A04 | camping-rules-qld, road-signs, caravan-park-vs-holiday-park, towing-caravan, best-time-camping | done |
-| A05 | camping-rules-nt, road-rules-state-differences, camping-fees, travel-cost, fuel-cost | subagent |
+| A05 | camping-rules-nt, road-rules-state-differences, camping-fees, travel-cost, fuel-cost | done |
 | A06 | camping-rules-tas, is-free-camping-legal, camping-without-phone-signal, campervan-driving-safety, water-planning | subagent |
 | A07 | bus-train-costs, overseas-driver-licence-state-guide, campfires, best-camping-app, road-rules-visitors | queued |
 | A08 | driving-overseas-licence, camping-with-dogs, packing-list, first-campervan-trip, fuel-planning | queued |
@@ -98,6 +98,13 @@ KiwiCamping
   (they are booked and paid); SA lists the Flinders Ranges as a Desert Parks Pass park.
 - Many guides on both sites end a section with a paragraph that repeats an earlier one (listed per
   batch in the subagent notes); translated as written to keep structure parity.
+
+## Link markup (2026-10-20)
+The English on main now links guides with `<a data-guide="slug">…</a>` (about 150 AU units). The Italian of
+A01-A05 has the links restored (commit 6d1add7 for the old guides; A05+ written with them). Every guide
+from A06 on must keep the markup around a natural Italian phrase. Workflow files live in /tmp/i18n-it
+(`show.mjs`, `txt2part.mjs`, `merge.mjs`, `wrap.mjs`, `linklist.mjs`); the NZ links and `translations:stamp`
+have not been done yet (stamp once at the end: it would otherwise stamp unreviewed drafts).
 
 ## Blockers
 - None.
