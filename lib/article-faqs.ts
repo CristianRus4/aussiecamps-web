@@ -111,8 +111,8 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Why are dogs banned in Australian national parks?", "Because of the risk to native wildlife, and because 1080 baiting for foxes and wild dogs is used in and around many parks. A baited dog dies quickly, and the baits are not always signed as clearly as you would hope."],
   ],
   "caravan-park-vs-holiday-park": [
-    ["What is the difference between a caravan park and a national park campground?", "A caravan park is a commercial site with powered sites, amenities blocks, laundry and usually cabins, priced per site or per couple. A national park campground is public land with far fewer facilities, a booked permit and a much lower fee."],
-    ["When is a caravan park worth the money?", "When you need power, a hot shower, laundry and a resupply, which on a long trip is roughly every third or fourth night. On the big drives they also matter as the reliable place to stop when the free options are full."],
+    ["What is the difference between a caravan park and a holiday park?", "Very little in practice: both are commercial parks with powered and unpowered sites, amenities and usually cabins. Holiday park usually signals more family facilities such as a pool, playground or activities, and often more cabins."],
+    ["When is a caravan park worth the money?", "When you need power, hot showers, laundry and a resupply at once, or when the free and low-cost options nearby are full. Many long-trip travellers book one serviced night after two or three nights of bush camping."],
   ],
   "dump-points-australia-guide": [
     ["Where can you empty a caravan toilet in Australia?", "At a dump point. Public ones sit at showgrounds, rest areas, visitor centres and roadhouses and are listed on the National Public Toilet Map, and many caravan parks have their own. Never use an ordinary toilet bowl, a drain or the ground."],
