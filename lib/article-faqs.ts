@@ -205,8 +205,8 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["What is the cheapest way to sleep in Australia?", "Camping, by a wide margin, and a council or national park site costs a fraction of a hostel dorm. The saving holds only if the vehicle and fuel to reach those sites are already part of the plan."],
   ],
   "camping-fees-australia-2026": [
-    ["How much does camping cost per night in Australia?", "From free at many council rest areas and showgrounds, through a modest per-person fee at national park campgrounds, to a caravan park site at many times that. The guide prices each tier with dated figures."],
-    ["Do you pay park entry on top of camping fees?", "In some states, yes. Western Australia, Tasmania and parts of the Northern Territory charge vehicle entry separately from the camping fee, and a multi-day or holiday pass is usually cheaper than paying daily."],
+    ["How much does camping cost per night in Australia?", "In national parks, from nothing to about $35 a night in 2026: Queensland charges $7.75 per person, WA and the NT $10 to $20 per adult, Victoria's half-price bookable sites start at $16.40, and some NSW campgrounds charge only a $6 booking fee. Commercial holiday parks set their own prices."],
+    ["Do you pay park entry on top of camping fees?", "In some states. Tasmania requires a Parks Pass for every national park, WA charges $17 a vehicle at parks such as Karijini, 45 NSW parks charge vehicle entry, and NT visitors need a Parks Visitor Pass. South Australia waives entry with most campground bookings, and Queensland charges no park entry fees."],
   ],
   "australia-road-trip-fuel-cost-2026": [
     ["How much does fuel cost in Australia?", "The guide gives dated prices per litre for petrol and diesel and works them through real routes. Remote roadhouse prices run far above city prices, sometimes by half again, which is what breaks outback budgets."],
