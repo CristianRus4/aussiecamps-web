@@ -10,11 +10,11 @@ Thread i18n-ja: Japanese for both sites. Branches `i18n/a-ja` (aussiecamps-web, 
 
 - Milestone 1: UI (220/220, testimonials excluded) + support/privacy/terms on both sites.
 - AU privacy realigned with A-foundation's Website analytics section; consent strings translated.
-- Guides applied: A 17/50 (alcohol-coffee-drink-prices, sleeping-in-car, camping-rules-nsw, public-transport-costs, eating-out, camping-rules-wa, dump-points, camping-rules-victoria, grocery-prices, interstate-biosecurity, campervan-budget, accommodation-costs, road-trains, fatigue-wildlife, save-collections, place-details, widgets); K 13/43 (grocery-prices, doc-huts, public-transport-costs, road-signs, biosecurity-gear, doc-campsite-rules, food-fuel-resupply, plan-trip, save-places, filters, offline-data, weather-look-around, currency-place-costs).
+- Guides applied: A 23/50 (batches a01-a06, a16, a17); K 31/43 (batches k01-k08, k13, k14).
 - K privacy realigned with K-foundation's analytics section; K consent strings translated.
 
 ## In progress
-- Batches a05, a06, k03 being translated by subagents (one writer per values file; never relaunch a batch whose agent is only paused by a usage limit, they resume on their own). Done batches: a01-a04, a16, a17, k01, k02, k13, k14. Remaining: a07-a15, k04-k12.
+- Running: a07, a08, k09 (subagents, one writer per values file; resume a limit-paused agent with SendMessage, never relaunch). Remaining after those: a09-a15, k10-k12.
 - Workflow: subagent writes /tmp/ja-work/out/<batch>.values.json, then lint (/tmp/ja-work/tools/lint.mjs), engine dry run, editor read (/tmp/ja-work/tools/read.mjs), apply (/tmp/ja-work/tools/apply.sh a|k file --real), structure check (/tmp/ja-work/tools/structure.mjs), commit.
 - If /tmp is lost: regenerate batches with `packet --locale ja --catalog <id>-ja`. Applied units drop out of packets.
 
