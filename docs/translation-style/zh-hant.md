@@ -99,6 +99,7 @@ Sources: [TW-blog] Taiwanese personal blogs; [TW-com] Taiwanese-language commerc
 | campfire | 營火 | 篝火 is mainland/literary. |
 | sandflies | 沙蠅 | [GSC kiwicamping: 「紐西蘭沙蠅季節」] [TW-blog nzyouroyster]. Never 沙蚊. |
 | biosecurity | 入境檢疫 / 檢疫 (border, interstate); 生物安全 only for the concept | [TW-blog: 入境申報]. 州際檢疫 for interstate fruit-fly zones. |
+| fruit fly / fruit fly exclusion zone | 果實蠅 / 果實蠅管制區 | Taiwan's agriculture authority term (東方果實蠅); 果蠅 is the household fly. |
 | kauri dieback | 貝殼杉枯萎病（kauri dieback） | |
 | crocodile / croc country | 鱷魚 / 鱷魚出沒區 | Estuarine crocodile → 河口鱷. |
 | dingo | 澳洲野犬（dingo） | |
