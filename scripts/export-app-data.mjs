@@ -223,6 +223,32 @@ const round = (value, places) => { const factor = 10 ** places; const result = M
 const share = (part, whole) => (whole ? Math.round((100 * part) / whole) : 0);
 const byText = (a, b) => (a < b ? -1 : a > b ? 1 : 0);
 
+/**
+ * Some sources publish names in capitals ("NEWELL HIGHWAY", "WOLLONDILLY"). Those are set in title
+ * case; mixed-case names are left exactly as the source wrote them.
+ */
+const KEEP_UPPER = new Set(["NSW", "ACT", "QLD", "VIC", "TAS", "WA", "SA", "NT", "RSL", "CWA", "BP", "PO", "VC", "NP", "SES", "4WD", "2WD"]);
+const SMALL_WORDS = new Set(["of", "and", "the", "at", "on", "in"]);
+function tidy(text) {
+  if (!text || !/[A-Z]{3}/.test(text)) return text;
+  // In an all-capitals name every word is recased; in a mixed one ("BENALLA rest area") only the
+  // leading capitalised words, so an acronym later in a name ("National Park (CYPAL)") survives.
+  const allCaps = !/[a-z]/.test(text);
+  let leading = true;
+  return text.split(" ").map((word, index) => {
+    if (/[a-z]/.test(word)) leading = false;
+    if (KEEP_UPPER.has(word.replace(/[^A-Z0-9]/g, "")) || /[a-z]/.test(word) || !/[A-Z]/.test(word)) return word;
+    if (!allCaps && !leading) return word;
+    const lower = word.toLowerCase();
+    if (index > 0 && SMALL_WORDS.has(lower)) return lower;
+    // "NT/SA" keeps both abbreviations; anything else is recased part by part.
+    return word.split("/").map((part) => (KEEP_UPPER.has(part.replace(/[^A-Z0-9]/g, "")) ? part
+      : part.toLowerCase().replace(/(^|[-'’(])([a-z])/g, (match, before, letter) => before + letter.toUpperCase()))).join("/");
+  }).join(" ");
+}
+/** Names a source uses when it has none, which say nothing to a reader and are never listed. */
+const PLACEHOLDER_NAME = /^(rest area|rest area rest area|unnamed|unknown|no name)$/i;
+
 function slugify(name) {
   const slug = name.normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase()
     .replace(/['’`]/g, "").replace(/&/g, " and ").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
@@ -327,7 +353,7 @@ async function run() {
 
   // Park names and pages, for campgrounds that sit inside one.
   const parks = new Map(db.prepare("SELECT Id, Name, Website FROM Park").all().map((row) => [row.Id, row]));
-  const cleanName = (name) => (name ?? "").replace(/\s+/g, " ").trim();
+  const cleanName = (name) => tidy((name ?? "").replace(/\s+/g, " ").trim());
   const parkOf = (site) => {
     const named = cleanName(site.ParentName);
     const park = site.ParkId ? parks.get(site.ParkId) : undefined;
@@ -440,7 +466,7 @@ async function run() {
   };
   const roadOf = (site) => {
     const road = cleanName(site.Address);
-    return /\b(highway|hwy|road|rd|freeway|fwy|motorway|way|drive|route)\b/i.test(road) ? road.replace(/\bHwy\b/, "Highway") : null;
+    return /\b(highway|hwy|road|rd|freeway|fwy|motorway|way|drive|route)\b/i.test(road) ? road.replace(/\bHwy\b/i, "Highway") : null;
   };
   const sourceFacts = (list) => {
     const counts = new Map();
@@ -449,7 +475,8 @@ async function run() {
   };
   const facilityFacts = (list, codes, dimension) => codes.map((code) => fact(dimension, `with:${code}`, factLabel(code), flagged(list, code), list.length));
   const score = (place) => place.facilities.length * 4 + (place.url ? 3 : 0) + (place.locality || place.park ? 2 : 0) + (place.fee ? 1 : 0);
-  const pick = (places) => places.slice().sort((a, b) => score(b) - score(a) || byText(a.name, b.name) || byText(a.id, b.id)).slice(0, 25);
+  const pick = (places) => places.filter((place) => !PLACEHOLDER_NAME.test(place.name))
+    .sort((a, b) => score(b) - score(a) || byText(a.name, b.name) || byText(a.id, b.id)).slice(0, 25);
   const dots = (list) => [...new Set(list.map((site) => `${round(site.Longitude, 2)},${round(site.Latitude, 2)}`))].sort()
     .map((pair) => pair.split(",").map(Number));
   const usedSources = (list) => [...new Set(list.map((site) => SOURCES[site.Operator].key))].sort();

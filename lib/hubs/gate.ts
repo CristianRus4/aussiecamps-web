@@ -71,6 +71,8 @@ export function evaluateHub(hub: Hub, hubs: Hub[] = hubData.hubs, prose: Record<
   if (!built) reasons.push(`${hub.placeCount} places (under ${GATE.minPlacesBuilt}: not built)`);
   else {
     if (hub.placeCount < GATE.minPlacesIndexed) reasons.push(`${hub.placeCount} places (under ${GATE.minPlacesIndexed})`);
+    // A hub whose source gives its places no names has nothing to list, however many there are.
+    if (hub.places.length < GATE.minPlacesBuilt) reasons.push(`${hub.places.length} named places to list (under ${GATE.minPlacesBuilt})`);
     if (dimensions < GATE.minDimensions) reasons.push(`${dimensions} fact dimensions (under ${GATE.minDimensions})`);
     if (uniqueFacts < GATE.minUniqueFacts) reasons.push(`${uniqueFacts} facts not shared with a sibling (under ${GATE.minUniqueFacts})`);
     if (overlap > GATE.maxOverlap) reasons.push(`${Math.round(overlap * 100)}% of places shared with ${overlapWith}`);

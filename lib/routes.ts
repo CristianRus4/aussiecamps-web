@@ -3,6 +3,7 @@ import { pageRoutes } from "@/lib/routes/pages";
 import { guideRoutes } from "@/lib/routes/guides";
 import { crawlerRoutes } from "@/lib/routes/crawlers";
 import { toolRoutes } from "@/lib/routes/tools";
+import { hubRoutes } from "@/lib/routes/hubs";
 
 /**
  * Every URL the site publishes, in one list.
@@ -40,6 +41,7 @@ const features: (() => ExportRoute[])[] = [
   guideRoutes,
   crawlerRoutes,
   toolRoutes,
+  hubRoutes,
 ];
 
 let cache: ExportRoute[] | undefined;
