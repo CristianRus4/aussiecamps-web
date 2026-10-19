@@ -24,7 +24,7 @@
     "altHero": "Die AussieCamps-Karte von Australien mit Pins für Campingplätze, Caravanparks und kostenlose Stellplätze entlang der Küste, darunter die Liste „Entdecken“ mit Orten in der Nähe",
     "altPlaceScreen": "Detailseite eines Campingplatzes an der Küste in AussieCamps mit Gebühr, Öffnungsstatus, Ausstattung und Buchungslink",
     "altCollectionsScreen": "Die Sammlungen in AussieCamps mit den Listen „Wunschziele“, „Besucht“, „Pins“ und „Alle gespeicherten“ über einer Satellitenkarte",
-    "altTripScreen": "Eine Reiseroute in AussieCamps mit sieben Stopps, Fahrstrecke, Daten und dem Wetter an jedem Campingplatz",
+    "altTripScreen": "Eine Reiseroute in AussieCamps mit sieben Stopps, Fahrstrecke, Terminen und dem Wetter an jedem Campingplatz",
     "altExploreScreen": "Die Liste „Entdecken“ in AussieCamps mit Campingplätzen und Caravanparks und ihrer Entfernung zum aktuellen Kartenausschnitt",
     "heroKicker": "Die beste Camping-App für Australien",
     "heroTitle": "Australien ist riesig, dein Plan darf einfach sein",
@@ -60,7 +60,7 @@
     "featureMainText": "Fotos, eine echte Beschreibung, Öffnungszeiten, Gebühren, Bedingungen, Ausstattung und Merkmale nach Art sortiert, aktuelle Hinweise, Bewertungen, Kontakt- und Buchungsdaten, das Wetter und Street View, damit du die Einfahrt schon vorher von der Straße aus siehst.",
     "featureList1": "Fotos, Öffnungszeiten, Gebühren, Bedingungen und Ausstattung",
     "featureList2": "Street View, Wetter und Navigation direkt eingebaut",
-    "featureList3": "Offline gespeichert, öffnet auch ohne Empfang",
+    "featureList3": "In der App gespeichert, auch ohne Empfang abrufbar",
     "feature1Title": "Intelligente Sammlungen und eigene Listen",
     "feature1Text": "„Gefällt mir“, „Mit Stern“, „Wunschziele“ und „Besucht“ füllen sich von selbst, sobald du Orte markierst. Dazu legst du eigene Sammlungen an, für eine Region, eine Jahreszeit oder die Auswahl, über die ihr noch diskutiert.",
     "feature2Title": "Filter, die echte Fragen beantworten",
@@ -105,7 +105,7 @@
     "principle1Text": "Hinweise vor Ort, die zuständigen Stellen und aktuelle Warnungen haben immer Vorrang vor einem Eintrag in der App.",
     "principle2Title": "Immer aktuell prüfen",
     "principle2Text": "Prüf vor der Abfahrt die neuesten Infos zu Buchungen, Straßen, Feuer und Sperrungen.",
-    "principle3Title": "Plätze besser hinterlassen",
+    "principle3Title": "Plätze besser hinterlassen, als du sie vorgefunden hast",
     "principle3Text": "Legal campen, Abfall sorgfältig entsorgen und das Land der Aboriginal People respektieren: So bleiben diese Orte offen.",
     "faqEyebrow": "Ein paar klare Antworten",
     "faqTitle": "Gute Fragen. Klare Antworten.",
@@ -134,9 +134,9 @@
     "faq11a": "Nein. Die Regeln unterscheiden sich je nach Bundesstaat, Territorium, Gemeinde, Park und einzelnem Platz. Halte dich immer an aktuelle Schilder, die Vorgaben der zuständigen Stelle, Feuerverbote und offizielle Warnungen.",
     "downloadEyebrow": "Dein nächster Platz wartet schon",
     "downloadTitle": "Finden. Speichern. Die Strecke planen.",
-    "downloadText": "Über 74.000 Orte in Australien, auch ohne Netz abrufbar, Filter, die genau den richtigen Platz finden, Sammlungen, die sich selbst ordnen, und ein Reiseplaner für die ganze Route. AussieCamps für iOS.",
+    "downloadText": "Über 74.000 Orte in Australien, auch ohne Netz abrufbar. Dazu Filter, die genau den richtigen Platz finden, Sammlungen, die sich selbst ordnen, und ein Reiseplaner für die ganze Route. AussieCamps für iOS.",
     "guidesEyebrow": "Camping-Ratgeber für Australien",
-    "guidesTitle": "Folge der Straße an schöne Orte.",
+    "guidesTitle": "Folge der Straße zu schönen Orten.",
     "guidesIntro": "ausführliche Ratgeber zu Campingplätzen, Regeln, Kosten vor Ort und praktischer Reiseplanung in ganz Australien.",
     "guideSingular": "Ratgeber",
     "guidePlural": "Ratgeber",
@@ -160,7 +160,7 @@
     "savePlanText": "Bau aus gespeicherten Orten eine Route Stopp für Stopp, berechne die Entfernung und hinterlege Termine, Notizen und To-dos direkt dazu.",
     "toolsEyebrow": "Nützliche Zahlen",
     "toolsTitle": "Roadtrip-Rechner. Ohne Rätselraten.",
-    "toolsIntro": "Schnelle Rechner für australische Preise, Strecken und Tankkapazität. Jede Annahme bleibt sichtbar, damit du sie durch die Zahl ersetzen kannst, die zu deiner Route passt.",
+    "toolsIntro": "Schnelle Rechner für australische Preise, Strecken und Wasservorräte. Jede Annahme bleibt sichtbar, damit du sie durch die Zahl ersetzen kannst, die zu deiner Route passt.",
     "currencyEyebrow": "Währungsrechner",
     "currencyTitle": "Australische Preise umrechnen.",
     "currencyText": "Richtwert für die Reiseplanung, berechnet mit den Kursen der Reserve Bank of Australia. Deine Bank oder Karte kann einen anderen Kurs nutzen und Gebühren aufschlagen.",
@@ -178,7 +178,7 @@
     "campText": "Campingplätze in Nationalparks rechnen meist pro Erwachsenem ab, Holiday Parks meist pro Stellplatz. Welche Variante günstiger ist, hängt von der Gruppengröße ab, und genau das überrascht viele Familien.",
     "amount": "Betrag",
     "from": "Von",
-    "to": "In",
+    "to": "Nach",
     "labelDistance": "Strecke (km)",
     "labelConsumption": "Verbrauch (l/100 km)",
     "labelFuelPrice": "Spritpreis (AUD/l)",
@@ -198,7 +198,7 @@
     "toolsReadingTitle": "Plane dein Budget mit aktuellen Richtwerten.",
     "toolsReadingText": "Die Rechner rechnen genau mit dem, was du einträgst. Unsere Kosten-Ratgeber erklären, woher die Ausgangswerte stammen, wann sie geprüft wurden und was den Endpreis noch verändern kann.",
     "toolsReadingLink": "Zu den Kosten-Ratgebern",
-    "calculatorNote": "Die Rechner sind Planungshilfen, keine Live-Preise von Buchungsportalen, Tankstellen oder Wechselstuben. Die Tankschätzung geht von etwa 11 Litern Frischwasser und 9 Litern Grauwasser pro Person und Tag aus, je nachdem, wie viel du duschst und kochst. Prüf vor dem Kauf die aktuellen Preise.",
+    "calculatorNote": "Die Rechner sind Planungshilfen, keine Live-Preise von Buchungsportalen, Tankstellen oder Wechselstuben. Für die Wassertanks rechnen wir mit etwa 11 Litern Frischwasser und 9 Litern Grauwasser pro Person und Tag. Wie viel es wirklich ist, hängt davon ab, wie viel du duschst und kochst. Prüf vor dem Kauf die aktuellen Preise.",
     "enterValidValues": "Gültige Werte eingeben",
     "enterValidAmount": "Gültigen Betrag eingeben",
     "daysFresh": "Tage Frischwasser",
@@ -207,7 +207,7 @@
     "perAdultCheaper": "pro Erwachsenem günstiger",
     "perSiteCheaper": "pro Stellplatz günstiger",
     "supportTitle": "Wie können wir helfen?",
-    "supportIntro": "Antworten rund ums Finden von Plätzen, Speichern von Favoriten, Planen von Reisen und zu AussieCamps unterwegs.",
+    "supportIntro": "Antworten dazu, wie du Plätze findest, Favoriten speicherst, Reisen planst und AussieCamps unterwegs nutzt.",
     "contact": "Support kontaktieren",
     "privacy": "Datenschutz",
     "terms": "Nutzungsbedingungen",
@@ -250,6 +250,14 @@
     "review9Title": "Auch fürs Zelt gut!",
     "review9Country": "Irland",
     "review9Quote": "Die meisten dieser Apps wirken für große Caravans gemacht. Wir waren mit einem kleinen Auto und einem Zelt unterwegs und haben trotzdem viel gefunden, das wirklich zu uns passte."
+  },
+  "consent": {
+    "label": "Datenschutzeinstellungen",
+    "message": "Dürfen wir Cookies von Google Analytics setzen, um zu sehen, welche Seiten gelesen und welche App-Store-Links genutzt werden? Für Werbung wird nichts davon verwendet.",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen",
+    "learnMore": "Datenschutzerklärung",
+    "privacyChoices": "Datenschutzeinstellungen"
   },
   "pages": {
     "support": {
@@ -307,7 +315,7 @@
     },
     "privacy": {
       "title": "Datenschutzerklärung",
-      "lede": "AussieCamps hilft dir, eine Reise zu planen, ohne aus deiner Reise ein Werbeprofil zu machen.",
+      "lede": "AussieCamps hilft dir bei der Reiseplanung, ohne aus deinen Fahrten ein Werbeprofil zu machen.",
       "sections": [
         {
           "heading": "Daten auf deinem Gerät",
@@ -331,7 +339,16 @@
           "heading": "Externe Links und Server-Protokolle",
           "paragraphs": [
             "Aus den Ortsdetails heraus kannst du Buchungsanbieter, Websites, Social-Media-Profile, Telefonnummern, E-Mail-Adressen und Karten-Apps öffnen. Diese Dienste erhalten dann Informationen nach ihren eigenen Datenschutzregeln.",
-            "Hosting-Anbieter können übliche technische Protokolle wie IP-Adresse, Browsertyp und aufgerufene URL verarbeiten, um die Website auszuliefern, stabil zu halten und abzusichern. AussieCamps setzt auf dieser Website keine Werbetracker ein."
+            "Hosting-Anbieter können übliche technische Protokolle wie IP-Adresse, Browsertyp und aufgerufene URL verarbeiten, um die Website auszuliefern, stabil zu halten und abzusichern."
+          ]
+        },
+        {
+          "heading": "Webanalyse",
+          "paragraphs": [
+            "Diese Website nutzt Google Analytics 4, um zu verstehen, welche Seiten gelesen werden und wie Besucher auf die App stoßen. Google verarbeitet diese Daten in unserem Auftrag als Auftragsverarbeiter. Für Besucher aus dem Europäischen Wirtschaftsraum, dem Vereinigten Königreich und der Schweiz stellt Google Ireland Limited den Dienst bereit.",
+            "Erfasst werden die Seiten, die du aufrufst, dein Geräte- und Browsertyp, ein ungefährer Standort, der aus deiner IP-Adresse abgeleitet wird, und die App-Store-Links, die du anklickst. Google Analytics 4 protokolliert und speichert keine IP-Adressen und erhält nie deinen Namen, deine E-Mail-Adresse oder etwas, das du in der App speicherst.",
+            "Google Analytics nutzt zwei First-Party-Cookies: _ga und ein zweites, dessen Name mit _ga_ und unserer Mess-ID beginnt. Beide bleiben bis zu 13 Monate gespeichert. Im Europäischen Wirtschaftsraum, im Vereinigten Königreich und in der Schweiz werden sie erst gesetzt, wenn du zustimmst. Bis dahin wird kein Analyse-Cookie gespeichert, und Google erhält nur cookielose Messungen ohne Kennung. Deine Auswahl kannst du jederzeit über den Link „Datenschutzeinstellungen“ unten auf jeder Seite ändern.",
+            "Google Signals und personalisierte Werbung sind deaktiviert, und die Analysedaten werden nach 14 Monaten gelöscht. Diese Website verwendet keine Werbetracker."
           ]
         },
         {
@@ -348,7 +365,7 @@
           ]
         }
       ],
-      "effective": "Gültig ab 12. August 2026"
+      "effective": "Gültig ab 19. Oktober 2026"
     },
     "terms": {
       "title": "Nutzungsbedingungen",
@@ -385,7 +402,7 @@
           ]
         },
         {
-          "heading": "Urheberrecht und Kontakt",
+          "heading": "Geistiges Eigentum und Kontakt",
           "paragraphs": [
             "Marke, Oberfläche und eigene redaktionelle Inhalte von AussieCamps gehören ihrem jeweiligen Inhaber. Ortsnamen und öffentlich verfügbare Fakten bleiben Eigentum oder Verantwortung ihrer ursprünglichen Quellen.",
             "Fragen kannst du an den AussieCamps-Support schicken."
