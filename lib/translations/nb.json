@@ -1,6 +1,387 @@
 {
   "locale": "nb",
-  "ui": {},
-  "pages": {},
-  "articles": {}
+  "ui": {
+    "languageName": "Norsk",
+    "metaTitle": "AussieCamps: campingkart og reiseplanlegger for Australia",
+    "metaDescription": "Over 74 000 campingplasser, caravanparker, gratisplasser, rasteplasser og tømmestasjoner i Australia. Stedsinfo uten dekning, skarpe filtre og en reiseplanlegger stopp for stopp på iPhone.",
+    "ogTitle": "AussieCamps: campingkartet og reiseplanleggeren for Australia",
+    "ogDescription": "Over 74 000 campingplasser, caravanparker, gratisplasser og nyttige stopp, lagret i appen og tilgjengelige uten dekning. Filtrer, lagre og planlegg hele runden.",
+    "metaKeywords": "campingapp Australia, camping i Australia, gratis camping Australia, fricamping Australia, campingplasser Australia, caravanparker Australia, bobil Australia, tømmestasjoner Australia, rasteplasser Australia, reiseplanlegger Australia, roadtrip Australia",
+    "metaGuidesTitle": "Guider til camping og roadtrip i Australia",
+    "metaGuidesDescription": "Campingregler for hver delstat, gratis camping og regler for rasteplasser, bålforbud, trafikksikkerhet, beste reisetid, hva det faktisk koster og praktisk planlegging av en roadtrip i Australia.",
+    "metaToolsTitle": "Kalkulatorer for roadtrip i Australia",
+    "metaToolsDescription": "Regn om australske priser, beregn drivstoff for turen, anslå en realistisk kjøredag, planlegg vann- og spillvannskapasitet og sammenlign priser på campingplasser.",
+    "metaSupportTitle": "Hjelp og vanlige spørsmål",
+    "metaSupportDescription": "Hjelp med kart, stedsinformasjon, filtre, samlinger, reiseplanleggeren, data uten dekning, valutaomregning og premiumtilgang i AussieCamps.",
+    "navFeatures": "Funksjoner",
+    "navGuides": "Guider",
+    "navTools": "Verktøy",
+    "navSupport": "Hjelp",
+    "download": "Last ned appen",
+    "downloadShort": "Last ned",
+    "updated": "Oppdatert",
+    "commonQuestions": "Vanlige spørsmål",
+    "altHero": "AussieCamps-kartet over Australia, med pinner for campingplasser, caravanparker og gratisplasser langs kysten og Utforsk-listen med steder i nærheten nederst",
+    "altPlaceScreen": "En stedsside i AussieCamps for en campingplass ved kysten, med pris, åpningsstatus, fasiliteter og bookinglenke",
+    "altCollectionsScreen": "Samlingssiden i AussieCamps med listene «Ønsker å besøke», «Besøkte», «Pinner» og «Alle lagret» over et satellittkart",
+    "altTripScreen": "En reiserute i AussieCamps med sju stopp, kjøreavstand, datoer og været ved hver campingplass",
+    "altExploreScreen": "Utforsk-listen i AussieCamps med campingplasser og caravanparker og avstanden til dem fra kartutsnittet",
+    "heroKicker": "Den beste campingappen for Australia",
+    "heroTitle": "Australia er stort, planen kan være enkel",
+    "heroText": "Over 74 000 steder i hele Australia, lagret i appen så de åpner selv uten dekning. Filtrer deg frem til akkurat det du trenger, lagre det og gjør kortlisten om til en roadtrip med rute, avstand, datoer, notater og gjøremål.",
+    "seeHow": "Se hvordan det virker",
+    "statPlaces": "74 000+",
+    "statPlacesLabel": "steder i hele Australia",
+    "statOffline": "Offline",
+    "statOfflineLabel": "all stedsinformasjon, uten dekning",
+    "statStays": "4 000+",
+    "statStaysLabel": "steder å overnatte",
+    "trustLine": "Campingplasser, caravanparker og nyttige stopp i hele Australia.",
+    "trustCampsites": "Campingplasser",
+    "trustCaravanParks": "Caravanparker",
+    "trustNationalParks": "Nasjonalparker",
+    "trustRestAreas": "Rasteplasser",
+    "trustUsefulStops": "Nyttige stopp",
+    "trustExperiences": "Opplevelser",
+    "processEyebrow": "Fra idé til landevei",
+    "processTitle": "Finn en plass. Lag turen.",
+    "processText": "Filtrer deg frem til kveldens plass, lagre morgendagens muligheter i samlinger og hold rute, avstand, datoer, notater og gjøremål samlet i én tur.",
+    "findTitle": "Finn akkurat det rette stedet",
+    "findText": "Søk blant over 74 000 steder, se hva som ligger i nærheten, eller legg på filtre til bare de gratis plassene med toalett og vann i ditt hjørne av kartet står igjen.",
+    "saveTitle": "Lagre det i en samling",
+    "saveText": "Lik, stjernemerk eller merk et sted som besøkt, så oppdaterer de smarte samlingene seg selv. Lag egne lister med navn for en region, en sesong eller en kortliste.",
+    "planTitle": "Gjør det om til en tur",
+    "planText": "Sett stoppene i rekkefølge, se avstanden mellom dem, legg til datoer og notater, sjekk været ved hvert stopp, få veibeskrivelse og kryss dem av underveis.",
+    "featuresEyebrow": "Hele verktøykassen",
+    "featuresTitle": "Finn det. Lagre det. Planlegg hele veien videre.",
+    "featuresText": "Utforsk steder, sammenlign detaljene, organiser favorittene og lag en tur som er like nyttig på veien som ved kjøkkenbordet.",
+    "featureMainEyebrow": "Kjenn stedet før du kommer dit",
+    "featureMainTitle": "Stedssiden viser med en gang det som avgjør valget.",
+    "featureMainText": "Bilder, en ordentlig beskrivelse, åpningstider, priser, vilkår, fasiliteter og egenskaper sortert etter type, aktuelle varsler, vurderinger, kontakt- og bookinginfo, været og Street View, så du ser innkjørselen fra veien.",
+    "featureList1": "Bilder, åpningstider, priser, vilkår og fasiliteter",
+    "featureList2": "Street View, vær og veibeskrivelse innebygd",
+    "featureList3": "Lagret i appen, åpner uten dekning",
+    "feature1Title": "Smarte samlinger og egne lister",
+    "feature1Text": "«Likte», «Stjernemerket», «Ønsker å besøke» og «Besøkte» fyller seg selv når du merker steder. Lag i tillegg egne samlinger for en region, en sesong eller kortlisten dere fortsatt krangler om.",
+    "feature2Title": "Filtre som svarer på et ekte spørsmål",
+    "feature2Text": "Be om gratis plasser med toalett og drikkevann rundt Gold Coast, og snevre inn videre etter kategori, pris, vurdering, nettbooking, delstat og detaljerte egenskaper for adkomst, fasiliteter, aktiviteter og tjenester.",
+    "feature3Title": "Standardkart, satellitt og 3D",
+    "feature3Text": "Bytt mellom standardkartet og satellittbilder du kan vippe og rotere til ekte terreng. Når du zoomer ut, samles pinnene i grupper med et tall. Zoomer du inn, deler de seg opp igjen.",
+    "feature4Title": "Street View før du svinger av",
+    "feature4Text": "Street View åpnes rett fra stedssiden der det finnes bilder, så du ser innkjørselen, veidekket og omgivelsene før du svinger av med bobilen.",
+    "feature5Title": "Vær for hvert sted",
+    "feature5Text": "Været nå og prognosen står på stedssiden og ved hvert stopp på turen, så du kan ta værmeldingen med i vurderingen når du skal velge mellom to plasser.",
+    "feature6Title": "Priser i din egen valuta",
+    "feature6Text": "På besøk og ikke vant med australske dollar? Velg valuta og angi kursen én gang, så ser du rapporterte priser også i en valuta du har følelsen for.",
+    "plannerEyebrow": "Hovedattraksjonen",
+    "plannerTitle": "Stopp for stopp. Dag for dag.",
+    "plannerText": "Alt annet i appen leder inn i reiseplanleggeren. Legg til lagrede steder som stopp og dra dem i den rekkefølgen du faktisk skal kjøre. Hver etappe viser avstanden, veibeskrivelsen til neste stopp er ett trykk unna, hvert stopp har egen dato, ankomstnotater og vær, og du krysser dem av som besøkt underveis. Alternativer i nærheten følger med for dagene som ikke går etter planen, pakkelisten ligger ved siden av reiseruten, og alt kan synkroniseres med Kalender.",
+    "plannerMetric1Title": "Avstand og veibeskrivelse",
+    "plannerMetric1Text": "etappe for etappe og for hele turen",
+    "plannerMetric2Title": "Datoer og notater",
+    "plannerMetric2Text": "knyttet til hvert stopp",
+    "plannerMetric3Title": "Besøkt og gjøremål",
+    "plannerMetric3Text": "fremdrift du kan se",
+    "plannerMetric4Title": "Vær for hvert stopp",
+    "plannerMetric4Text": "ved siden av reiseruten",
+    "routesEyebrow": "Guider verdt å lese først",
+    "routesTitle": "Kjenn reglene. Kjenn prisene.",
+    "routesText": "Praktiske guider om campingregler, trafikksikkerhet, beste reisetid og hva en tur i Australia faktisk koster.",
+    "exploreRoutes": "Se guidene",
+    "audiencesEyebrow": "Uansett hva du sover i",
+    "audiencesTitle": "Laget for telt, bobiler og lange runder.",
+    "audience1Title": "Backpackere",
+    "audience1Text": "Få et stramt budsjett og en fleksibel rute til å gå opp.",
+    "audience2Title": "Bobiler",
+    "audience2Text": "Finn fasilitetene, adkomsten og overnattingsstedene du trenger.",
+    "audience3Title": "Campingvogner og store bobiler",
+    "audience3Text": "Filtrer på plass, tjenester og praktisk info om adkomst.",
+    "audience4Title": "Helgecampere",
+    "audience4Text": "Ha favorittene i nærheten klare når fredagen kommer.",
+    "principlesTitle": "Nyttig først. Alltid ærlig.",
+    "principle1Title": "Skiltet slår skjermen",
+    "principle1Text": "Oppslag på stedet, forvalteren og gjeldende beredskapsråd går alltid foran en oppføring i appen.",
+    "principle2Title": "Sjekk det som gjelder nå",
+    "principle2Text": "Sjekk siste nytt om booking, veier, brannfare og stengninger før du drar.",
+    "principle3Title": "Legg igjen stedet bedre",
+    "principle3Text": "Lovlig camping, omtanke med avfall og respekt for aboriginsk land (Country) holder disse stedene åpne.",
+    "faqEyebrow": "Noen rette svar",
+    "faqTitle": "Gode spørsmål. Klare svar.",
+    "faqIntro": "Rette svar om å reise med AussieCamps.",
+    "faq1q": "Hva er AussieCamps?",
+    "faq1a": "AussieCamps er en iPhone-app for å finne steder å campe og overnatte i hele Australia. Den har en katalog med over 74 000 steder lagret i appen, så informasjonen kan leses også uten dekning, og den gjør stedene du lagrer om til en roadtrip med rute i rekkefølge, datoer, notater og gjøremål.",
+    "faq2q": "Hvilke steder er med?",
+    "faq2a": "Over 74 000 steder: campingplasser, caravanparker, overnatting under tak, gårdsopphold og overnatting på outbackgårder, backpackerhosteller, rasteplasser langs veien, dagsområder, tømmestasjoner, drikkevann, vaskerier, turistinformasjon, parkering for lange kjøretøy, opplevelser og andre nyttige stopp.",
+    "faq3q": "Virker appen uten dekning?",
+    "faq3a": "Stedskatalogen følger med appen, så navn, kategorier, beskrivelser, priser, fasiliteter, åpningstider og vilkår kan leses langt utenfor dekning. Direktetjenester som vær, ruteplanlegging, Street View, bilder og tilbydernes nettsider trenger fortsatt nett.",
+    "faq4q": "Kan jeg planlegge en roadtrip med flere stopp?",
+    "faq4a": "Ja, det er appens viktigste funksjon. Legg til steder som stopp, dra dem i rekkefølge, gi hvert stopp en dato og ankomstnotater, se kjøreavstanden for hver etappe og for hele turen, åpne veibeskrivelsen til neste stopp, sjekk været ved hvert av dem, kryss av stopp som besøkt og ha pakkelisten ved siden av reiseruten. Detaljene i reiseruten kan synkroniseres med Kalender.",
+    "faq5q": "Hva er samlinger?",
+    "faq5a": "Det finnes to typer. Smarte samlinger («Likte», «Stjernemerket», «Ønsker å besøke», «Besøkte», «Pinner» og «Alle lagret») fyller seg selv når du merker steder. I tillegg kan du lage egne samlinger med navn, ikon og notater for en region, en sesong, et kjøretøy eller en kortliste.",
+    "faq6q": "Kan jeg filtrere på gratis plasser eller adkomst for campingvogn?",
+    "faq6a": "Ja, og på kombinasjoner av dem. Filtrene dekker kategori, pristype, laveste vurdering, nettbooking, delstat eller territorium og detaljerte grupper av egenskaper for adkomst, fasiliteter, aktiviteter, tjenester og tilknytning, så «gratis plasser med toalett og drikkevann i Queensland» er ett enkelt søk.",
+    "faq7q": "Hva står på stedssiden?",
+    "faq7a": "Bilder, en beskrivelse, åpningstider, priser, vilkår, fasiliteter og egenskaper sortert etter type, aktuelle varsler, vurderinger, kontakt- og bookinginfo, vær, Street View der det finnes bilder, veibeskrivelse og alternativer i nærheten.",
+    "faq8q": "Hvilke kartvisninger finnes?",
+    "faq8a": "Et standardkart og en satellittvisning bygget på Apples flyover-bilder, som du kan vippe og rotere for ekte 3D-terreng. Street View bygger på bildene fra Apples «Se deg rundt» og viser gatebildet rett fra stedssiden.",
+    "faq9q": "Kan jeg se prisene i min egen valuta?",
+    "faq9a": "Ja. Velg valuta i innstillingene og angi omregningskursen, så vises rapporterte priser i den valutaen ved siden av beløpet i australske dollar.",
+    "faq10q": "Kan jeg bestille en campingplass i AussieCamps?",
+    "faq10a": "Åpne bookinginfoen for stedet, så kommer du til tilbyderen og kan sjekke ledige plasser, priser og vilkår i sanntid.",
+    "faq11q": "Er campingreglene like i hele Australia?",
+    "faq11a": "Nei. Reglene varierer mellom delstater, territorier, kommuner, parker og den enkelte plassen. Følg alltid gjeldende skilting, forvalterens vilkår, brannrestriksjoner og offisielle varsler.",
+    "downloadEyebrow": "Neste plass venter der ute",
+    "downloadTitle": "Finn det. Lagre det. Planlegg veien videre.",
+    "downloadText": "Over 74 000 australske steder som virker uten dekning, filtre skarpe nok til å finne akkurat det rette, samlinger som ordner seg selv og en reiseplanlegger som holder hele ruten. AussieCamps for iOS.",
+    "guidesEyebrow": "Campingguider for Australia",
+    "guidesTitle": "Følg veien til et godt sted.",
+    "guidesIntro": "Grundige guider om campingplasser, regler, lokale priser og praktisk reiseplanlegging i hele Australia.",
+    "guideSingular": "guide",
+    "guidePlural": "guider",
+    "readGuide": "Les guiden",
+    "minuteRead": "min lesetid",
+    "places": "steder",
+    "backToGuides": "Guider",
+    "photoCredits": "Bildekreditering",
+    "keepInMind": "Verdt å huske",
+    "placesAlong": "Steder underveis",
+    "checkBefore": "Sjekk før du drar",
+    "checkText": "Regler og forhold endrer seg. Sjekk den offisielle kilden og siden for akkurat din park eller campingplass på nytt før du drar.",
+    "priceTitle": "Pristabell i 10 valutaer",
+    "pricesChecked": "Priser sjekket",
+    "conversionsUse": "Omregningene bruker RBA-kurser fra",
+    "item": "Vare",
+    "currencyDisclaimer": "Valutatallene er mekaniske omregninger av referanseprisen i AUD, ikke kurser for kort eller kontanter. Banker og betalingstjenester bruker egne kurser og gebyrer.",
+    "related": "Relaterte guider",
+    "takeRoad": "Ta den med på veien",
+    "savePlanTitle": "Lagre stoppene. Planlegg hele turen.",
+    "savePlanText": "Lag en rute i rekkefølge fra lagrede steder, regn ut avstanden og ha datoer, notater og gjøremål knyttet til turen.",
+    "toolsEyebrow": "Nyttige tall",
+    "toolsTitle": "Roadtrip-verktøy. Ingen mystisk matte.",
+    "toolsIntro": "Raske kalkulatorer for australske priser, avstander og kapasitet. Alle forutsetninger er synlige, så du kan bytte dem ut med tallene som passer ruten din.",
+    "currencyEyebrow": "Valutakalkulator",
+    "currencyTitle": "Regn om en australsk pris.",
+    "currencyText": "Veiledende omregning for reiseplanlegging, med kurser fra Reserve Bank of Australia. Banken eller kortet ditt kan bruke en annen kurs og legge på gebyrer.",
+    "fuelEyebrow": "Drivstoffkalkulator",
+    "fuelTitle": "Hva koster kjøringen?",
+    "fuelText": "Legg inn hele lengden på ruten, kjøretøyets forbruk med full last og forventet literpris. Langt ute på landet kan prisene ligge over referanseprisene i byene.",
+    "driveEyebrow": "Kjøredagsberegner",
+    "driveTitle": "Hvor lang tid dagen faktisk tar.",
+    "driveText": "Navigasjonsapper oppgir kjøretiden på en ideell vei. Her legges veitypen og de faktiske stoppene dine til, og det er der en dag som regel sprekker.",
+    "tankEyebrow": "Planlegger for vann og spillvann",
+    "tankTitle": "Hvor mange dager kan du stå fritt.",
+    "tankText": "Kapasitet i liter blir først nyttig når den regnes om til dager. Gråvannstanken blir som regel full før ferskvannstanken er tom, så begge vises.",
+    "campEyebrow": "Sammenlign campingpriser",
+    "campTitle": "Per person eller per plass?",
+    "campText": "En campingplass i en nasjonalpark tar som regel betalt per voksen, og en feriepark tar som regel betalt per plass. Hva som er billigst, snur med antall personer, og det overrasker mange familier.",
+    "amount": "Beløp",
+    "from": "Fra",
+    "to": "Til",
+    "labelDistance": "Avstand (km)",
+    "labelConsumption": "Forbruk (l/100 km)",
+    "labelFuelPrice": "Drivstoffpris (AUD/l)",
+    "labelRoadType": "Veitype",
+    "roadMotorway": "Motorvei eller lang rettstrekning",
+    "roadHighway": "Hovedvei",
+    "roadWinding": "Svingete eller langs kysten",
+    "roadNarrow": "Smal, bratt eller grus",
+    "labelStops": "Stopp",
+    "labelFresh": "Ferskvann (l)",
+    "labelGrey": "Gråvann (l)",
+    "labelPeople": "Personer",
+    "labelAdults": "Voksne",
+    "labelNights": "Netter",
+    "labelPerAdult": "Per voksen (AUD)",
+    "labelPerSite": "Per plass (AUD)",
+    "toolsReadingTitle": "Lag budsjettet ut fra oppdaterte referansepriser.",
+    "toolsReadingText": "Verktøyene regner ut nøyaktig det du legger inn. Kostnadsguidene våre forklarer hvor startverdiene kommer fra, når de ble sjekket og hva som kan endre sluttprisen.",
+    "toolsReadingLink": "Se kostnadsguidene",
+    "calculatorNote": "Kalkulatorene er planleggingshjelp, ikke sanntidspriser fra booking, bensinstasjoner eller valutamarkedet. Tankberegningene regner med omtrent 11 liter ferskvann og 9 liter gråvann per person per døgn, noe som varierer med dusjing og matlaging. Sjekk gjeldende priser før du kjøper.",
+    "enterValidValues": "Legg inn gyldige verdier",
+    "enterValidAmount": "Legg inn et gyldig beløp",
+    "daysFresh": "dager ferskvann",
+    "daysGrey": "dager gråvann",
+    "theSame": "det samme",
+    "perAdultCheaper": "per voksen er billigst",
+    "perSiteCheaper": "per plass er billigst",
+    "supportTitle": "Hva kan vi hjelpe med?",
+    "supportIntro": "Svar om å finne steder, lagre favoritter, planlegge turer og bruke AussieCamps på veien.",
+    "contact": "Kontakt kundestøtte",
+    "privacy": "Personvern",
+    "terms": "Vilkår",
+    "explore": "Utforsk",
+    "help": "Hjelp",
+    "getApp": "Last ned appen",
+    "travelGuides": "Reiseguider",
+    "footerText": "Finn over 74 000 australske steder som virker uten dekning, lagre dem som betyr noe, og lag komplette roadtrips med rute, avstand, datoer, notater og gjøremål.",
+    "footerLine": "Laget for den lange veien rundt Australia.",
+    "rulesSafety": "Regler og sikkerhet",
+    "roadTrips": "Roadtrips",
+    "campingGuides": "Campingguider",
+    "tripPlanning": "Reiseplanlegging",
+    "costsBudget": "Kostnader og budsjett",
+    "appGuides": "Appguider"
+  },
+  "pages": {
+    "support": {
+      "title": "Hva kan vi hjelpe med?",
+      "lede": "Klare svar om kart, lagrede steder, reiseplanlegging og veien videre.",
+      "sections": [
+        {
+          "heading": "Finne steder",
+          "paragraphs": [
+            "Bruk Utforsk til å søke på stedsnavn, adresse eller beskrivelse. Flytt kartet og velg å søke i området du ser, så samles treffene rundt kartutsnittet.",
+            "Filtrer på kategori, pris, vurdering, nettbooking, delstat og detaljerte grupper av egenskaper for adkomst, fasiliteter, aktiviteter og tjenester. Bruk bare filtrene som betyr noe, så gode alternativer fortsatt er synlige.",
+            "Fasiliteter, priser, adkomst og drift kan endre seg. Følg gjeldende skilting og forvalteren på stedet, og send oss gjerne en rettelse så katalogen blir bedre."
+          ]
+        },
+        {
+          "heading": "Lagrede steder",
+          "paragraphs": [
+            "«Likte», «Besøkte», «Ønsker å besøke» og «Stjernemerket» oppdateres automatisk når du merker steder. «Pinner» og «Alle lagret» gir deg andre raske oversikter.",
+            "Lag samlinger med navn, ikon og notater, og legg til hvilket som helst sted. Bruk dem for en region, en sesong, et kjøretøy eller en kortliste.",
+            "Appen støtter privat iCloud-synkronisering av lagrede markeringer, samlinger og turdata når iCloud er tilgjengelig og slått på."
+          ]
+        },
+        {
+          "heading": "Reiseplanleggeren",
+          "paragraphs": [
+            "Opprett en tur, legg til steder og dra dem i rekkefølge. Hvert stopp kan ha egen ankomstdato, notater, vær og besøkt-status, og planleggeren viser kjøreavstanden for hver etappe og for hele turen.",
+            "Ruteberegningen er avhengig av at MapKit kan gi veibeskrivelse. Planleggeren beholder stoppene selv om en etappe ikke lar seg beregne, men du må selv sjekke at veien er farbar.",
+            "Start med en ferdig liste over det viktigste campingutstyret, eller lag dine egne gjøremål. Turens fremdrift holder listen ved siden av reiseruten, og detaljene i reiseruten kan synkroniseres med Kalender."
+          ]
+        },
+        {
+          "heading": "Kart, vær og direktedata",
+          "paragraphs": [
+            "Bytt mellom standardkartet og en satellittvisning bygget på Apples flyover-bilder, som kan vippes og roteres til 3D-terreng. Street View bygger på bildene fra Apples «Se deg rundt» og åpnes fra stedssiden der det finnes bilder.",
+            "Været nå og prognosen krever nettilgang. Lagre viktige prognoser og offisielle farevarsler før du kjører ut av dekning.",
+            "Stedskatalogen følger med appen, så den viktigste stedsinformasjonen er tilgjengelig også der dekningen er dårlig. Direktekart, ruteplanlegging, vær, bilder og eksterne tilbyderes nettsider kan kreve dekning."
+          ]
+        },
+        {
+          "heading": "Priser og valuta",
+          "paragraphs": [
+            "Velg valuta i innstillingene og angi omregningskursen. Rapporterte priser vises da i den valutaen ved siden av beløpet i australske dollar, noe som hjelper når du er på besøk og ikke har følelsen for AUD.",
+            "Åpne booking- eller kontaktinformasjonen for et sted for å sjekke ledighet, pris og vilkår hos tilbyderen. Prisene i appen er rapporterte tall, ikke priser i sanntid."
+          ]
+        },
+        {
+          "heading": "Premium og konto",
+          "paragraphs": [
+            "Kart og stedsinformasjon er gratis, sammen med to lagrede lister.",
+            "Premium gir ubegrenset antall lagrede lister, reiseplanlegging, avanserte filtre, vær for hvert sted og roadtrip-ruter.",
+            "Åpne Premium-skjermen og trykk på «Gjenopprett kjøp» mens du er logget inn med Apple-kontoen som ble brukt til det opprinnelige kjøpet."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "effective": "Gjelder fra 19. oktober 2026",
+      "title": "Personvernerklæring",
+      "lede": "AussieCamps hjelper deg å planlegge turen uten å gjøre reisen din om til en reklameprofil.",
+      "sections": [
+        {
+          "heading": "Informasjon som lagres på enheten din",
+          "paragraphs": [
+            "Lagrede steder, hvilke samlinger de hører til, turer, notater, punkter på sjekklister og innstillinger lagres slik at appen fungerer. Posisjonen din kan brukes til å vise hvor du er og steder i nærheten, etter at du har gitt tillatelse."
+          ]
+        },
+        {
+          "heading": "iCloud",
+          "paragraphs": [
+            "Når iCloud er tilgjengelig og slått på, kan appen bruke din private iCloud-database til å synkronisere lagrede markeringer, samlinger og appdata mellom enhetene dine. Apple leverer selve tjenesten og har egne vilkår for den."
+          ]
+        },
+        {
+          "heading": "Apples direktetjenester",
+          "paragraphs": [
+            "Kartvisning, veibeskrivelse, «Se deg rundt», vær, kalenderintegrasjon og widgeter kan bruke rammeverk fra Apple. Forespørsler og databehandling for disse tjenestene reguleres av Apple. Appen får bare tilgang til kalenderen etter at du har gitt tillatelse, og bruker den til å legge inn informasjon fra reiseruten når du ber om det."
+          ]
+        },
+        {
+          "heading": "Eksterne lenker og logger på nettstedet",
+          "paragraphs": [
+            "Stedsinformasjonen kan åpne bookingtjenester, nettsider, profiler i sosiale medier, telefonnumre, e-postadresser og kartapper. Når du velger å åpne dem, mottar disse tjenestene informasjon etter sine egne retningslinjer.",
+            "Leverandørene som drifter nettstedet, kan behandle vanlige tekniske logger, som IP-adresse, nettlesertype og forespurt URL, for levering, stabilitet og sikkerhet."
+          ]
+        },
+        {
+          "heading": "Analyse av nettstedet",
+          "paragraphs": [
+            "Dette nettstedet bruker Google Analytics 4 for å forstå hvilke sider som leses og hvordan besøkende finner appen. Google behandler disse dataene på våre vegne som vår databehandler. For besøkende i EØS, Storbritannia og Sveits leveres tjenesten av Google Ireland Limited.",
+            "Analyseverktøyet registrerer hvilke sider du ser på, enhets- og nettlesertype, en omtrentlig plassering utledet fra IP-adressen din og hvilke App Store-lenker du klikker på. Google Analytics 4 logger eller lagrer ikke IP-adresser, og får aldri navnet ditt, e-postadressen din eller noe av det du lagrer i appen.",
+            "Analyseverktøyet bruker to førstepartskapsler (informasjonskapsler fra dette nettstedet): _ga og én med et navn som begynner med _ga_ etterfulgt av måle-ID-en vår. Begge varer i opptil 13 måneder. I EØS, Storbritannia og Sveits settes de først etter at du har godtatt dem. Inntil da lagres ingen analysekapsler, og Google mottar bare målinger uten informasjonskapsler og uten identifikator. Du kan når som helst endre valget ditt med lenken «Personvernvalg» nederst på hver side.",
+            "Google-signaler og annonsetilpasning er slått av, og analysedata slettes etter 14 måneder. Nettstedet bruker ingen sporingsverktøy for reklame."
+          ]
+        },
+        {
+          "heading": "Lagring og kontroll",
+          "paragraphs": [
+            "Du kan slette appdata i appen og administrere iCloud-data via Apple-kontoen din. Hvis du fjerner appen, kan lokale data bli slettet, mens synkroniserte kopier kan ligge igjen i iCloud til de slettes for seg."
+          ]
+        },
+        {
+          "heading": "Barn og kontakt",
+          "paragraphs": [
+            "AussieCamps er et generelt reiseverktøy og er ikke rettet mot barn. Ikke send personopplysninger om barn via kundestøtte.",
+            "Har du spørsmål om personvern, kan du kontakte kundestøtten for AussieCamps."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "effective": "Gjelder fra 12. august 2026",
+      "title": "Bruksvilkår",
+      "lede": "AussieCamps er et hjelpemiddel for planlegging. Appen erstatter ikke offisielle skilt, forvalterens anvisninger, farevarsler, trafikkinformasjon eller ditt eget ansvar for å reise innenfor det du mestrer.",
+      "sections": [
+        {
+          "heading": "Reiseinformasjon endrer seg",
+          "paragraphs": [
+            "Steder, priser, adkomst, fasiliteter, mobildekning, vær, brannforhold, veier og bookingordninger kan endres uten varsel. Kontroller viktige detaljer med ansvarlig myndighet eller tilbyder før du reiser, og igjen like før avreise."
+          ]
+        },
+        {
+          "heading": "Ingen garanti for booking eller adkomst",
+          "paragraphs": [
+            "At et sted er oppført, garanterer ikke at det er åpent, lovlig for ditt oppsett, tilgjengelig med ditt kjøretøy eller ledig. Eksterne lenker til booking og kontakt er lagt inn for å gjøre det enklere for deg. Avtaler inngås mellom deg og den eksterne tilbyderen."
+          ]
+        },
+        {
+          "heading": "Sikkerhet og lovlig bruk",
+          "paragraphs": [
+            "Du må følge skilt, tillatelser, stengninger, brannrestriksjoner, trafikkregler og anvisninger fra rangere, Traditional Owners (de tradisjonelle eierne av landet), nødetater og forvaltere. Ikke bruk appen mens du kjører."
+          ]
+        },
+        {
+          "heading": "Brukerdata",
+          "paragraphs": [
+            "Du er selv ansvarlig for notater, reiseplaner og annen informasjon du lagrer. Ha egne kopier av tillatelser, bestillinger og sikkerhetskritiske planer der tap av tilgang kan sette turen i fare."
+          ]
+        },
+        {
+          "heading": "Kjøp",
+          "paragraphs": [
+            "Alle kjøp i appen behandles av Apple og er underlagt vilkårene som vises ved kjøpet. Funksjoner, pakker og priser kan endres der det er tillatt. Bruk Apples kjøpsverktøy for fakturering, oppsigelse og refusjon."
+          ]
+        },
+        {
+          "heading": "Immaterielle rettigheter og kontakt",
+          "paragraphs": [
+            "Merkevaren, grensesnittet og det originale redaksjonelle innholdet i AussieCamps tilhører rettighetshaveren. Stedsnavn og offentlige fakta forblir de opprinnelige kildenes eiendom eller ansvar.",
+            "Spørsmål kan sendes til kundestøtten for AussieCamps."
+          ]
+        }
+      ]
+    }
+  },
+  "articles": {},
+  "consent": {
+    "label": "Personvernvalg",
+    "message": "Kan vi bruke informasjonskapsler fra Google Analytics for å se hvilke sider som leses og hvilke App Store-lenker som brukes? Ingenting brukes til reklame.",
+    "accept": "Godta",
+    "decline": "Avslå",
+    "learnMore": "Personvernerklæring",
+    "privacyChoices": "Personvernvalg"
+  }
 }

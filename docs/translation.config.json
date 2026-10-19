@@ -16,7 +16,6 @@
         "zh-hans",
         "zh-hant",
         "da",
-        "nb",
         "cs",
         "pl"
       ],
@@ -57,10 +56,6 @@
         {
           "locale": "da",
           "path": "../lib/translations/da.json"
-        },
-        {
-          "locale": "nb",
-          "path": "../lib/translations/nb.json"
         },
         {
           "locale": "cs",
@@ -312,6 +307,58 @@
       },
       "styleGuide": {
         "sv": "Follow docs/translation-style/sv.md: a Swedish travel writer's voice, informal du, husbil/campingplats/tömningsstation vocabulary, Swedish number format (74 000, 2,08) and amounts as 35 AUD / 35 NZD, no offline-map claims."
+      }
+    },
+    {
+      "id": "aussiecamps-website-nb",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "nb"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "nb",
+          "path": "../lib/translations/nb.json"
+        }
+      ],
+      "protectedTerms": [
+        "AussieCamps",
+        "AussieCamping",
+        "AUD",
+        "Tourism Australia",
+        "Reserve Bank of Australia",
+        "Virgin Australia",
+        "New South Wales",
+        "Victoria",
+        "Queensland",
+        "South Australia",
+        "Western Australia",
+        "Tasmania",
+        "Northern Territory",
+        "Australian Capital Territory",
+        "Central Australia",
+        "Uluṟu",
+        "K'gari",
+        "Ikara",
+        "Tjoritja",
+        "Kakadu",
+        "Namadgi",
+        "BookEasy",
+        "App Store"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {},
+      "register": {
+        "nb": "informal"
+      },
+      "styleGuide": {
+        "nb": "Follow docs/translation-style/nb.md: natural Norwegian Bokmål travel-writer voice, informal du, bobil and campingplass vocabulary, Norwegian number and currency format, no offline-map claims."
       }
     }
   ]
