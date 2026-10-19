@@ -8,6 +8,10 @@ Dutch (nl) on both sites. Branches: `i18n/a-nl` (aussiecamps-web), `i18n/k-nl` (
 
 ## Done
 - [x] Style guide `docs/translation-style/nl.md` (identical in both repos), with glossary and evidence.
+- [x] UI, support, privacy, terms rewritten on both sites (handoff 1, merged). Judge 4.45 (AU) / 4.4 (NZ); every failing unit fixed.
+- [x] Privacy rebuilt for the 7-section English page (GA4 section), consent namespace translated (both sites).
+- [x] AU guides: camping rules for all 8 states/territories, dump points, sleeping in your car, drink, eating-out, grocery, public transport and domestic flight prices.
+- [x] NZ guides: grocery prices, DOC huts, DOC campsite rules, campervan road rules, speed limits, fuel cost.
 
 ## In progress
 - Full rewrite pass, every unit, both repos. Order: UI, support/privacy/terms, guides by English impressions (pages-3m.tsv).
@@ -23,3 +27,21 @@ Dutch (nl) on both sites. Branches: `i18n/a-nl` (aussiecamps-web), `i18n/k-nl` (
 
 ## Open questions for the orchestrator
 - State and island names are protected terms (house rule), so Dutch copy says "Tasmania", "het South Island". Dutch media mostly write Tasmanië, Noordereiland/Zuidereiland, West-Australië. Allowing nl exonyms would need a protectedTerms exception per locale; not changed.
+
+## English source issues noticed (AU)
+- camping-rules-new-south-wales sections[7].body[3] repeats the All Parks Pass sentence of sections[4].body[1].
+- camping-rules-western-australia sections[7].body[2] and [3] both say a closed campground can cost a full day.
+- camping-rules-western-australia sections[1].tips (Camp booking / Park entry / Road and permit check) don't match that section (roadside and remote camping).
+- camping-rules-western-australia faq[1][1] says "A holiday park pass covers entry for a month or more": the WA pass is the "Holiday Pass" (not a holiday park pass); verify its validity period against DBCA.
+## English source issues (both sites)
+- pages.support sections[5].paragraphs[0] (AU and NZ): "Map and place details are free, together with two saved lists." conflicts with the Pass boundary in THREADS.md (only BookEasy/BookIt stays and tours are free). Dutch mirrors the English for now.
+## English source issues (NZ)
+- new-zealand-grocery-prices-2026 sections[3].body[0] names Countdown (now Woolworths NZ) and calls Countdown and New World "the two big chains" (New World and Pak'nSave are both Foodstuffs).
+- new-zealand-grocery-prices-2026 faq[0][1] does not answer "how much per week" (the NZ$110-180 figure is only in sections[6]) and claims dated per-item figures the page does not have.
+- doc-huts: Great Walks count is 11 since the Hump Ridge Track joined; avoid writing "ten".
+- alcohol-coffee-drink-prices-australia faq[0][1] promises dated prices for craft beer, a bottle-shop carton and wine by the glass; the price table has none of those. priceTable.rows[3] "Domestic beer equivalent" is unclear. sections[1] and [5] overlap; sections[1].tips[2] "Carry water" sits under alcohol and driving.
+- sleeping-in-car-australia sections[6].body[2] repeats [7].body[0], [6].body[0] repeats [7].body[3]; the four tips of sections[1] (legal spot, ventilation, safe exit, engine off) sit under "Rest areas".
+- (NZ) speed-limits-new-zealand-visitors sections[4].body[0] and [8].body[1] say demerit points do not apply to overseas licences; overseas licence holders can accrue demerit points and be suspended in NZ (camera fines carry none). Verify against NZTA.
+- (NZ) campervan-road-rules-new-zealand sections[6].body[1] says you are "required" to pull over with five or more vehicles queued behind; check the Road Code wording.
+- (NZ) campervan-road-rules-new-zealand sections[5].body[1] "Rimutaka Hill Road" is officially Remutaka Hill Road since 2017.
+- (NZ) new-zealand-road-trip-fuel-cost-2026 faq[0][1] promises a dated diesel price (page has only petrol); faq[1][1] says "divide by your vehicle's real consumption" while the page uses L/100 km (multiply).
