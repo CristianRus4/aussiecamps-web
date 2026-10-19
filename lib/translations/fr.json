@@ -2642,7 +2642,7 @@
           ]
         },
         {
-          "heading": "Cuisiner quand le feu est interdit",
+          "heading": "Amendes et responsabilité",
           "body": [
             "Allumer un feu un jour de Total Fire Ban en NSW vaut une amende immédiate de 2 200 $, ou jusqu’à 5 500 $ et 12 mois de prison devant un tribunal. L’<a data-guide=\"camping-rules-western-australia\">Australie-Occidentale</a> inflige une contravention de 1 000 $, avec jusqu’à 25 000 $ et 12 mois de prison en cas de condamnation.",
             "Le CFA prévient qu’un feu un jour de Total Fire Ban dans le <a data-guide=\"camping-rules-victoria\">Victoria</a> peut valoir une amende de plus de 40 000 $, deux ans de prison, ou les deux. Dans le Territoire du Nord, allumer un feu à une autre fin que la cuisine sans permis expose à environ 77 000 $ ou cinq ans, et ne pas dégager 4 mètres autour d’un feu à environ 15 000 $ ; les montants sont indexés, consultez donc la page du NT.",
@@ -5078,45 +5078,109 @@
       }
     },
     "camping-fees-australia-2026": {
-      "title": "Prix du camping en Australie : parcs nationaux ou holiday parks",
-      "description": "Ce que coûte une nuit en camping rudimentaire, équipé ou avec électricité, et ce que chaque tarif inclut ou non.",
+      "title": "Tarifs de camping en Australie 2026 : parcs nationaux par État",
+      "description": "Camping en parc national en 2026 : 7,75 $ par personne au Queensland, 10 à 20 $ par adulte en WA et dans le NT, dès 16 $ l’emplacement dans le Victoria, plus les droits d’entrée.",
       "region": "Australie",
       "imageAlt": "Caravane et tente dans un camping australien",
-      "intro": "Une nuit de camping peut coûter quelques dollars par personne, ou davantage qu’une chambre simple. Le prix dépend de l’emplacement, des équipements, de la saison, des conditions de réservation et du mode de facturation : par emplacement ou par personne.",
+      "intro": "Le camping en parc national en Australie coûte en 2026 de zéro à plus de 40 $ la nuit sur les sites avec services les plus fréquentés, comme Tidal River à Wilsons Promontory : le Queensland facture 7,75 $ par personne, l’Australie-Occidentale et le Territoire du Nord 10 à 20 $ par adulte, les campings réservables du Victoria à moitié prix démarrent à 16 $ l’emplacement, et certains campings de NSW ne coûtent rien de plus que 6 $ de frais de réservation. Entrée du parc, pass, et tarif par personne ou par emplacement pèsent plus sur le total que le tarif affiché.",
       "sections": [
         {
-          "heading": "Comprendre l’unité de facturation",
+          "heading": "Tarifs des parcs nationaux par État",
           "body": [
-            "Un tarif par personne pour un camp accessible à pied et un tarif par emplacement avec électricité ne se classent pas sans connaître la taille du groupe. Ajoutez les suppléments par personne, par véhicule, l’entrée du parc et les frais de réservation avant de comparer.",
-            "Les équipements comptent. Toilettes, douches, électricité, eau, laverie, <a data-guide=\"dump-points-australia-guide\">aire de vidange</a>, ville à proximité : autant de dépenses que vous n’aurez pas à faire ailleurs."
+            "Il n’existe aucun pass national des parcs. Chaque État a son propre système de réservation, sa grille tarifaire et ses pass, et un pass acheté dans un État ne sert à rien dans le suivant.",
+            "L’entrée et le camping sont facturés séparément dans plusieurs États : un tarif de nuit bas peut donc coûter plus cher une fois l’entrée ajoutée. La <a data-guide=\"camping-rules-tasmania\">Tasmanie</a> exige un Parks Pass pour chaque parc national, alors que l’Australie-Méridionale supprime l’entrée des véhicules avec la plupart des réservations de campings."
           ],
-          "tips": []
+          "tips": [],
+          "table": {
+            "caption": "Tarifs de camping et d’entrée des parcs nationaux par État, vérifiés en octobre 2026",
+            "head": [
+              "État",
+              "Tarif de camping",
+              "Entrée du véhicule",
+              "Pass principal"
+            ],
+            "rows": [
+              [
+                "Nouvelle-Galles du Sud",
+                "Fixé par camping ; certains gratuits avec 6 $ de frais de réservation",
+                "45 parcs facturent, par exemple 8 $ par jour à Myall Lakes",
+                "All Parks Pass, 190 $ par an"
+              ],
+              [
+                "Victoria",
+                "Moitié prix dans 131 campings réservables jusqu’en juillet 2027, dès 16 $ l’emplacement",
+                "La plupart des parcs n’ont pas de droit d’entrée",
+                "Aucun nécessaire pour la plupart des parcs"
+              ],
+              [
+                "Queensland",
+                "7,75 $ par personne ou 31 $ par famille et par nuit",
+                "Pas de droit d’entrée général, mais rouler sur K’gari et sur les autres îles de sable exige un permis d’accès véhicule payant",
+                "Permis d’accès véhicule sur K’gari et les autres îles de sable"
+              ],
+              [
+                "Australie-Méridionale",
+                "Ikara-Flinders Ranges dès 12,30 $ la nuit",
+                "14,40 $ par véhicule à Ikara, supprimés avec la plupart des réservations",
+                "Parks Passes ; Desert Parks Pass"
+              ],
+              [
+                "Australie-Occidentale",
+                "10, 15 ou 20 $ par adulte, selon les équipements",
+                "17 $ par véhicule à Karijini et Cape Range",
+                "All Parks Pass, 130 $ par an"
+              ],
+              [
+                "Tasmanie",
+                "Fixé par camping ; Mount Field 24 ou 35 $ à partir du 3 novembre 2026",
+                "Parks Pass obligatoire : 49,15 $ par jour",
+                "Pass vacances, 98,35 $ pour deux mois"
+              ],
+              [
+                "Territoire du Nord",
+                "10, 15 ou 20 $ par adulte, selon la catégorie",
+                "NT Parks Visitor Pass pour les visiteurs",
+                "Pass visiteur annuel, 60 $"
+              ],
+              [
+                "ACT",
+                "Des tarifs s’appliquent dans chaque camping réservable",
+                "Entrée de Namadgi gratuite",
+                "Aucun"
+              ]
+            ]
+          }
         },
         {
-          "heading": "Une promo n’est pas un tarif courant",
+          "heading": "Par personne ou par emplacement : un exemple chiffré",
           "body": [
-            "Les offres commerciales peuvent imposer un séjour minimal, des dates précises ou une occupation à deux. Notez-les comme des offres repérées, pas comme une moyenne nationale garantie.",
-            "Les tarifs publics changent aussi selon l’exercice budgétaire et la catégorie. Ouvrez la page du camping concerné avant de partir."
+            "Prenons deux adultes et deux enfants de 8 et 10 ans pour trois nuits. Un emplacement de parc national au <a data-guide=\"camping-rules-queensland\">Queensland</a> coûte 93 $ au tarif famille de 31 $, un camping d’Australie-Occidentale avec équipements de base 120 $ (15 $ par adulte et 5 $ par enfant et par nuit), et un camping de catégorie A du Territoire du Nord 114 $ au tarif famille de 38 $.",
+            "Un emplacement réservable du Victoria à partir de 16 $ la nuit revient à environ 48 $ pour les trois mêmes nuits, car le <a data-guide=\"camping-rules-victoria\">Victoria</a> facture par emplacement et non par personne. L’ordre s’inverse pour un voyageur seul, qui paie 23,25 $ au Queensland et 45 $ dans le même camping de WA.",
+            "Faites le calcul pour votre groupe et vos nuits, puis ajoutez l’entrée, l’électricité et les frais de réservation. Un emplacement avec électricité et douches peut être plus avantageux qu’un camp de brousse moins cher, une fois compté ce qu’il vous évite de payer ailleurs."
           ],
           "tips": [
-            "Vérifiez l’unité de facturation",
-            "Confirmez ce qui est inclus",
-            "Lisez les conditions d’arrivée"
+            "Comptez votre groupe, pas le tarif affiché",
+            "Pour une famille, l’option la moins chère change",
+            "Ajoutez l’entrée et les frais de réservation"
+          ]
+        },
+        {
+          "heading": "Holiday parks et caravan parks",
+          "body": [
+            "Les holiday parks (campings privés tout équipés) et <a data-guide=\"caravan-park-vs-holiday-park\">caravan parks</a> commerciaux fixent leurs propres prix, en général par emplacement pour un nombre de personnes donné, avec des suppléments pour les invités en plus, l’électricité et les dates de pointe. Consultez la page de tarifs du camping et ses règles de séjour minimal pour les vacances scolaires et les week-ends prolongés.",
+            "Les offres spéciales affichées exigent souvent un séjour minimal ou des dates limitées : considérez-les comme des offres, pas comme des tarifs normaux. Dans AussieCamps, les holiday parks répertoriés par le partenaire de réservation BookEasy se consultent et se réservent sans le Pass."
+          ],
+          "tips": [
+            "Prix par emplacement pour un nombre de personnes fixé",
+            "La haute saison impose des séjours minimaux",
+            "Une offre spéciale n’est pas un tarif courant"
           ]
         },
         {
           "heading": "Alterner nuits payantes et nuits simples",
           "body": [
             "Une nuit avec peu d’équipements fonctionne quand le véhicule et les provisions sont prêts. Une nuit avec services vaut son prix quand les réservoirs, les batteries, la lessive et les voyageurs ont tous besoin de souffler.",
-            "Gardez toujours en réserve une solution payante et légale près des aires gratuites ou bon marché très fréquentées. Si le site est complet ou si les règles locales ont changé, vous n’aurez pas à rouler de nuit pour trouver une place."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Alterner nuits payantes et nuits simples",
-          "body": [
-            "Chaque État gère son propre réseau de parcs, avec sa grille tarifaire, sa plateforme de réservation et ses pass. Il n’existe pas de pass national pour camper dans les parcs, et un pass acheté dans un État ne vaut rien dans le suivant.",
-            "Plusieurs États facturent l’entrée du véhicule séparément du camping : un emplacement affiché à un tarif bas peut donc revenir bien plus cher une fois l’entrée ajoutée. Vérifiez les deux montants avant de comparer.",
+            "Gardez en réserve une solution payante et légale près des aires gratuites ou bon marché très fréquentées : si le site est complet ou si une règle locale a changé, vous n’aurez pas à rouler de nuit dans de mauvaises conditions.",
             "Les pass multi-parcs ou annuels deviennent rentables dès que vous prévoyez de visiter plus de deux ou trois parcs dans un même État. Ils ne couvrent presque jamais le camping, seulement l’entrée."
           ],
           "tips": [
@@ -5128,97 +5192,163 @@
         {
           "heading": "Le camping gratuit : ce qu’il coûte vraiment",
           "body": [
-            "Le <a data-guide=\"is-free-camping-legal-australia\">camping gratuit</a> fait réaliser de vraies économies quand le véhicule est équipé pour et que l’itinéraire passe déjà par des aires adaptées. Il n’en fait plus quand vous roulez soixante kilomètres de plus pour rejoindre un site gratuit.",
-            "Les coûts cachés, ce sont les douches, la laverie, l’eau, les <a data-guide=\"dump-points-australia-guide\">aires de vidange</a> et la nuit payante occasionnelle que l’autonomie finit toujours par exiger. Prévoyez une nuit payante plus souvent que vous ne comptez en prendre.",
-            "Une amende pour camping en zone interdite efface des semaines d’économies d’un seul coup, et les municipalités côtières n’hésitent pas à en distribuer. Le gratuit n’est gratuit que là où il est légal."
+            "Le <a data-guide=\"is-free-camping-legal-australia\">camping gratuit</a> fait réaliser de vraies économies quand le véhicule est équipé pour et que l’itinéraire passe déjà par des sites légaux. Il n’en fait plus quand vous roulez soixante kilomètres de plus pour en rejoindre un.",
+            "Les coûts cachés, ce sont les douches, la laverie, l’eau, les <a data-guide=\"dump-points-australia-guide\">aires de vidange</a> et les nuits payantes que l’autonomie finit toujours par exiger. Prévoyez une nuit payante plus souvent que vous ne comptez en prendre.",
+            "Une seule amende municipale pour avoir campé là où c’est interdit peut annuler des semaines d’économies : gratuit ne l’est que là où le gestionnaire du terrain l’autorise."
           ],
           "tips": [
             "Ne faites pas de longs détours pour économiser",
             "Le camping gratuit a aussi des coûts",
-            "Une amende efface des semaines d’économies"
+            "Une amende annule des semaines d’économies"
           ]
         },
         {
-          "heading": "Par personne ou par emplacement",
+          "heading": "Frais de réservation, remboursements et extras",
           "body": [
-            "Les campings des parcs nationaux facturent souvent par personne, les campings privés par emplacement avec un nombre d’occupants défini. La formule la moins chère s’inverse donc avec la taille du groupe, et les familles se trompent régulièrement de sens.",
-            "Faites le calcul pour votre groupe et vos nuits plutôt que de comparer les tarifs affichés. Deux adultes et deux enfants n’obtiendront pas du tout le même résultat qu’un voyageur seul face aux deux mêmes options.",
-            "Ajoutez ensuite l’électricité, les douches et les frais de réservation. Un emplacement électrifié avec sanitaires peut être plus avantageux qu’un emplacement moins cher sans électricité, une fois compté ce qu’il vous évite de payer ailleurs."
+            "NSW National Parks ajoute des frais de réservation non remboursables à chaque réservation de camping, soit 6 $ dans les campings sans tarif de camping. Une annulation 31 jours ou plus à l’avance est remboursée à 75 % du tarif de camping, une annulation plus tardive à 50 %.",
+            "Le <a data-guide=\"camping-rules-victoria\">Victoria</a> permet à une réservation de porter sur trois emplacements maximum dans le même camping, et chaque emplacement accessible en voiture inclut un véhicule dans le tarif. La Tasmanie passe à un nouveau système, le Parks Online Booking System, le 3 novembre 2026, avec des tarifs plus élevés dans des campings comme Fortescue Bay et Mount Field.",
+            "Véhicules supplémentaires, remorques et visiteurs peuvent chacun ajouter un supplément. Lisez la page de réservation pour savoir ce que couvre le tarif avant de payer."
           ],
           "tips": [
-            "Par personne ou par emplacement : tout dépend du groupe",
-            "Faites le calcul pour votre groupe",
-            "Comptez ce que le tarif remplace"
+            "Frais de réservation de NSW non remboursables",
+            "Victoria : jusqu’à trois emplacements par réservation",
+            "Le système de la Tasmanie change le 3 novembre"
           ]
         },
         {
           "heading": "Un système de réservation par État",
           "body": [
-            "Chaque État a sa propre plateforme de réservation, avec ses règles sur le délai d’anticipation, les conditions d’annulation et le fait que l’emplacement soit attribué ou laissé au choix à l’arrivée. Se familiariser avec le système des États de votre itinéraire évite bien des frustrations.",
-            "Les parcs prisés ouvrent les réservations sur une fenêtre glissante, et les meilleurs emplacements partent dans les minutes qui suivent l’ouverture. Si vous tenez à un emplacement précis, repérez la date d’ouverture et réservez ce jour-là, pas une semaine plus tard.",
-            "Enregistrez vos confirmations de réservation sur le téléphone pour pouvoir les montrer sans réseau : les campings où la couverture est la plus mauvaise sont souvent ceux où un ranger vous les demandera."
+            "Le <a data-guide=\"camping-rules-queensland\">Queensland</a> et l’Australie-Méridionale ouvrent les réservations des parcs 12 mois à l’avance, Park Stay WA en Australie-Occidentale 180 jours à l’avance, et le Victoria libère les emplacements par lots trimestriels. Apprenez le système de chaque État de votre itinéraire avant d’en avoir besoin.",
+            "Les sites les plus prisés partent vite. Les campings de la côte de Ningaloo libèrent un mois à la fois, le premier mardi à 10 h, heure de Perth : notez la date d’ouverture quand un site précis compte pour vous.",
+            "Gardez vos confirmations de réservation sur votre téléphone, car les campings à la réception la plus faible sont souvent ceux où un ranger demande à en voir une."
           ],
           "tips": [
-            "Chaque État a sa plateforme",
-            "Les fenêtres glissantes se remplissent vite",
-            "Repérez la date d’ouverture des parcs prisés"
+            "Queensland et Australie-Méridionale : 12 mois à l’avance",
+            "Park Stay WA : 180 jours à l’avance",
+            "Notez les dates d’ouverture des sites très demandés"
           ]
         }
       ],
       "faq": [
         [
           "Combien coûte une nuit de camping en Australie ?",
-          "Du gratuit sur de nombreuses aires de repos municipales et showgrounds (terrains de foire agricole), à un tarif modeste par personne dans les campings des parcs nationaux, jusqu’à un emplacement de caravan park (camping privé avec sanitaires, souvent des bungalows) qui coûte bien plus. Le guide chiffre chaque niveau avec des prix datés."
+          "Dans les parcs nationaux, de zéro à plus de 40 $ la nuit sur les sites avec services les plus fréquentés en 2026 : le Queensland facture 7,75 $ par personne, la WA et le NT 10 à 20 $ par adulte, les campings réservables du Victoria à moitié prix démarrent à 16 $ l’emplacement, et certains campings de NSW ne facturent que 6 $ de frais de réservation. Les holiday parks commerciaux fixent leurs propres prix."
         ],
         [
           "Faut-il payer l’entrée du parc en plus du camping ?",
-          "Dans certains États, oui. L’Australie-Occidentale, la Tasmanie et une partie du Territoire du Nord facturent l’entrée du véhicule séparément du camping, et un pass de plusieurs jours ou un pass vacances revient en général moins cher que de payer chaque jour."
+          "Dans certains États. La Tasmanie exige un Parks Pass pour chaque parc national, la WA facture 17 $ par véhicule dans des parcs comme Karijini, 45 parcs de NSW font payer l’entrée des véhicules, et les visiteurs du NT ont besoin d’un Parks Visitor Pass. L’Australie-Méridionale supprime l’entrée avec la plupart des réservations de campings, et le Queensland n’a pas de droit d’entrée général, mais rouler sur K’gari et sur les autres îles de sable exige un permis d’accès véhicule payant."
         ]
       ],
       "sources": [
         {
-          "label": "Tarifs Parks Victoria 2025–27"
+          "label": "Queensland Parks : réservations et tarifs de camping"
         },
         {
-          "label": "Offre BIG4 Harrington"
+          "label": "NSW National Parks : parcs à droit d’entrée"
         },
         {
-          "label": "Offre BIG4 Sandstone Point"
+          "label": "NSW National Parks : pass annuels"
+        },
+        {
+          "label": "NSW National Parks : conditions de réservation"
+        },
+        {
+          "label": "Parks Victoria : informations sur les réservations"
+        },
+        {
+          "label": "Parks Victoria : tarifs 2026-27"
+        },
+        {
+          "label": "Parc national d’Ikara-Flinders Ranges"
+        },
+        {
+          "label": "Explore Parks WA : tarifs de camping"
+        },
+        {
+          "label": "Parc national de Karijini"
+        },
+        {
+          "label": "Tasmanie : pass des parcs et droits d’entrée"
+        },
+        {
+          "label": "Camping de Mount Field"
+        },
+        {
+          "label": "NT : tarifs de camping"
+        },
+        {
+          "label": "NT Parks Visitor Pass"
+        },
+        {
+          "label": "ACT Parks : réservations et permis"
+        },
+        {
+          "label": "NSW National Parks : campings de Corowa (6 $ de frais de réservation)"
+        },
+        {
+          "label": "Parks Victoria : règles sur les véhicules par emplacement"
+        },
+        {
+          "label": "National Parks SA : FAQ sur les réservations"
+        },
+        {
+          "label": "National Parks SA : l’essentiel du camping"
+        },
+        {
+          "label": "Explore Parks WA : où et quand camper"
+        },
+        {
+          "label": "Parc national de Cape Range"
+        },
+        {
+          "label": "WA : pass des parcs"
+        },
+        {
+          "label": "Camping de Fortescue Bay"
+        },
+        {
+          "label": "Parc national de Namadgi"
+        },
+        {
+          "label": "Queensland : permis d’accès véhicule"
+        },
+        {
+          "label": "NT Parks : système de réservation"
         }
       ],
       "priceTable": {
-        "note": "Barème public et exemples de promotions commerciales datées. L’entrée des parcs, les frais de réservation, les personnes et véhicules supplémentaires peuvent être facturés à part.",
+        "note": "Tarifs de camping officiels 2026 des parcs, relevés auprès de l’organisme des parcs de chaque État. L’entrée du parc, les frais de réservation, les véhicules supplémentaires et les pass peuvent être facturés à part.",
         "rows": [
           {
-            "label": "Camp de parc sélectionné, accessible à pied",
+            "label": "Emplacement de parc au Queensland",
             "unit": "par personne/nuit"
           },
           {
-            "label": "Camp de parc, catégorie intermédiaire",
-            "unit": "par emplacement/nuit"
+            "label": "Emplacement de parc au Queensland, famille",
+            "unit": "par famille/nuit"
           },
           {
-            "label": "Camp de parc mieux équipé",
-            "unit": "par emplacement/nuit"
+            "label": "Camping de NSW sans tarif de camping",
+            "unit": "frais de réservation"
           },
           {
-            "label": "Tidal River, emplacement électrifié en haute saison",
-            "unit": "par emplacement/nuit"
+            "label": "Camping réservable du Victoria, à moitié prix",
+            "unit": "par emplacement/nuit, à partir de"
           },
           {
-            "label": "Offre commerciale, emplacement électrifié",
-            "unit": "par emplacement/nuit"
+            "label": "Emplacement de l’Ikara-Flinders Ranges",
+            "unit": "par nuit, à partir de"
           },
           {
-            "label": "",
-            "unit": ""
+            "label": "Camping de parc d’Australie-Occidentale",
+            "unit": "par adulte/nuit"
           },
           {
-            "label": "",
-            "unit": ""
+            "label": "Camping de parc du Territoire du Nord",
+            "unit": "par adulte/nuit"
           },
           {
-            "label": "",
+            "label": "Mount Field, Tasmanie, à partir du 3 novembre 2026",
             "unit": "par emplacement/nuit"
           }
         ]
