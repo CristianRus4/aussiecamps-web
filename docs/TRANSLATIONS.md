@@ -1,22 +1,39 @@
 # Translating the AussieCamps site
 
-Six languages are wired up: **de, es, fr, it, nl, pt**. Each is served from its own URL prefix
-(`/de`, `/es`, …) and covers the home page, `/guides`, every translatable guide, `/tools`,
-`/support`, `/privacy` and `/terms`.
+Languages are declared in one place, `lib/locales.json`: code, URL segment, label, `<html lang>`,
+hreflang tags, Open Graph locale, Intl locale, engine variety, script (latin or cjk), status and
+whether the home page shows the testimonials (`reviews`). After editing it, run
+`npm run locales:sync`, which regenerates the import barrel (`lib/translations/index.ts`) and the
+engine's targets in `docs/translation.config.json`. `npm run content:check` fails if either is stale.
+
+- **live** locales (de, es, fr, it, nl, pt) are built, exported, in the sitemaps, hreflang and the
+  footer language list. A live locale must translate its whole interface.
+- **draft** locales (ja, ko, zh-hans, zh-hant, da, sv, nb, cs, pl) are not exported at all. Preview
+  them with `LOCALES_PREVIEW=1 npm run dev`. Only the orchestrator flips a status.
+
+Each locale is served from its own URL prefix (`/de/`, `/zh-hans/`, …) and covers the home page,
+`/guides/`, every guide, `/tools/`, `/support/`, `/privacy/` and `/terms/`.
 
 ## What gets translated
 
-Everything **except the road trip guides**. Those stay English-only: they are long, heavily
-place-specific and lose more in translation than they gain. They are still published in every
-locale, just in English. Concretely, a translator receives:
+Everything, road trips included:
 
-- all UI copy (navigation, hero, features, planner, FAQ, footer, tools, article chrome)
-- the support, privacy and terms pages
-- every guide in **Rules & safety**, **Camping guides**, **Trip planning**, **Costs & budget** and
-  **App guides**
+- all UI copy (navigation, hero, features, planner, FAQ, footer, tools, article chrome). A locale
+  with `reviews: false` does not translate the testimonials (`review*` keys) and does not show them;
+- the consent bar (`consent`, see below);
+- the support, privacy and terms pages;
+- every guide.
 
-The rule lives in one place, `untranslatedCategories` in `lib/localized.ts`. Nothing else needs
-changing to move a category in or out.
+`untranslatedCategories` in `lib/localized.ts` is empty; listing a category there would take its
+guides out of `en.json` again.
+
+### Links inside guides
+
+Guide paragraphs in `en.json` carry the site's contextual links as markup:
+`… mixing <a data-guide="is-free-camping-legal-australia">free camps</a> and …`. Keep the tag and
+its slug exactly and put it around the natural phrase in your language. The site turns it into a link
+to that guide in your language; everything else in the string is escaped. A translation without the
+markup still renders, with the English link choice applied to it.
 
 ## The workflow
 
@@ -76,6 +93,29 @@ npx tsx scripts/audit-content.mjs --strict --locale de
 which fails on any guide in `de.json` that is not complete. Re-run `npm run translations:source`
 and re-translate the listed guides.
 
+### Stale translations: stamps
+
+Structure alone cannot tell that a paragraph's English was reworded. After each batch, stamp your
+locale:
+
+```bash
+npm run translations:stamp -- --locale de       # record the English each string was translated from
+npm run translations:invalidate -- --locale de  # blank every string whose English changed since
+```
+
+Stamps live in `lib/translations/meta/<code>.json` (owned by the locale's translation thread). A
+string whose translation changed is re-stamped; one whose English changed while the translation did
+not stays stale until it is re-translated (`--all` accepts the whole file after a full review).
+`npm run content:check` prints the stale count per locale, and `--strict --locale <code>` fails on
+any.
+
+### Numbers and the product name
+
+`content:check` compares every complete unit with its English: each money amount (after $, A$, AU$,
+NZ$, AUD or NZD) must keep its value in the translation, written in either decimal style, and
+"AussieCamps" must not disappear. Under `--strict`, the product name must appear exactly as often as
+in the English.
+
 ### Section tables
 
 A guide section can carry a small table (`table: { caption, head, rows }`). It is translated with
@@ -91,17 +131,17 @@ the rest of the locale; nothing goes offline while it is missing.
 
 ## When a locale goes live
 
-A locale is published once **every** UI string is translated. A partial UI would put a translated
+A live locale must have **every** UI string translated (less the testimonials when `reviews` is
+false); `npm run content:check` fails otherwise. A partial UI would put a translated
 hero above an English FAQ, which is the same defect as a half-translated guide.
 
-That makes the locale shell indexable. Each guide still has its own gate: a complete article
-translation is required before that localised guide gets a self-canonical, `index` robots tag and a
-sitemap entry.
-
-Until then its pages still build and render — wholly in English — but they are marked `noindex`,
-kept out of `sitemap.xml` and hidden from the footer language switcher, so an untranslated scaffold
-never competes with the English site for the same search terms. There is no flag to flip: filling
-the file in is the switch.
+Each page then has its own gate: a guide needs a complete article translation, and support, privacy
+and terms a complete page translation, before that localised page gets an `index` robots tag, a
+sitemap entry (`/sitemaps/<segment>.xml`, dated by the translation's own last commit) and a place in
+the page's hreflang set. Until then it still builds and renders, wholly in English, marked `noindex`,
+out of the sitemaps and out of hreflang, and the footer language list links to that language's home
+instead. Every one of these decisions comes from the route manifest (`lib/routes.ts`), and
+`npm run seo:audit` checks the exported pages against it.
 
 `npm run check` prints the progress of every locale:
 

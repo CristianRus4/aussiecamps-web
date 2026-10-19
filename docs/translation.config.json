@@ -6,20 +6,132 @@
       "id": "aussiecamps-website",
       "adapter": "web-json",
       "sourceLocale": "en",
-      "locales": ["de", "es", "fr", "it", "nl", "pt"],
+      "locales": [
+        "de",
+        "es",
+        "fr",
+        "it",
+        "nl",
+        "pt",
+        "ja",
+        "ko",
+        "zh-hans",
+        "zh-hant",
+        "da",
+        "sv",
+        "nb",
+        "cs",
+        "pl"
+      ],
       "source": "../lib/translations/en.json",
       "targets": [
-        { "locale": "de", "path": "../lib/translations/de.json" },
-        { "locale": "es", "path": "../lib/translations/es.json" },
-        { "locale": "fr", "path": "../lib/translations/fr.json" },
-        { "locale": "it", "path": "../lib/translations/it.json" },
-        { "locale": "nl", "path": "../lib/translations/nl.json" },
-        { "locale": "pt", "path": "../lib/translations/pt.json" }
+        {
+          "locale": "de",
+          "path": "../lib/translations/de.json"
+        },
+        {
+          "locale": "es",
+          "path": "../lib/translations/es.json"
+        },
+        {
+          "locale": "fr",
+          "path": "../lib/translations/fr.json"
+        },
+        {
+          "locale": "it",
+          "path": "../lib/translations/it.json"
+        },
+        {
+          "locale": "nl",
+          "path": "../lib/translations/nl.json"
+        },
+        {
+          "locale": "pt",
+          "path": "../lib/translations/pt.json"
+        },
+        {
+          "locale": "ja",
+          "path": "../lib/translations/ja.json"
+        },
+        {
+          "locale": "ko",
+          "path": "../lib/translations/ko.json"
+        },
+        {
+          "locale": "zh-hans",
+          "path": "../lib/translations/zh-hans.json"
+        },
+        {
+          "locale": "zh-hant",
+          "path": "../lib/translations/zh-hant.json"
+        },
+        {
+          "locale": "da",
+          "path": "../lib/translations/da.json"
+        },
+        {
+          "locale": "sv",
+          "path": "../lib/translations/sv.json"
+        },
+        {
+          "locale": "nb",
+          "path": "../lib/translations/nb.json"
+        },
+        {
+          "locale": "cs",
+          "path": "../lib/translations/cs.json"
+        },
+        {
+          "locale": "pl",
+          "path": "../lib/translations/pl.json"
+        }
       ],
-      "protectedTerms": ["AussieCamps", "AussieCamping", "AUD", "Tourism Australia", "Reserve Bank of Australia", "Virgin Australia", "New South Wales", "Victoria", "Queensland", "South Australia", "Western Australia", "Tasmania", "Northern Territory", "Australian Capital Territory", "Central Australia"],
-      "glossary": { "Australia": { "de": "Australien", "es": "Australia", "fr": "Australie", "it": "Australia", "nl": "Australië", "pt": "Austrália" } },
-      "varieties": { "pt": "pt-PT" },
-      "register": { "de": "informal", "es": "informal", "fr": "formal", "it": "informal", "nl": "informal", "pt": "informal" }
+      "protectedTerms": [
+        "AussieCamps",
+        "AussieCamping",
+        "AUD",
+        "Tourism Australia",
+        "Reserve Bank of Australia",
+        "Virgin Australia",
+        "New South Wales",
+        "Victoria",
+        "Queensland",
+        "South Australia",
+        "Western Australia",
+        "Tasmania",
+        "Northern Territory",
+        "Australian Capital Territory",
+        "Central Australia",
+        "Uluṟu",
+        "K'gari",
+        "Ikara",
+        "Tjoritja",
+        "Kakadu",
+        "Namadgi"
+      ],
+      "glossary": {
+        "Australia": {
+          "de": "Australien",
+          "es": "Australia",
+          "fr": "Australie",
+          "it": "Australia",
+          "nl": "Australië",
+          "pt": "Austrália"
+        }
+      },
+      "varieties": {
+        "pt": "pt-PT",
+        "zh-hans": "zh-Hans",
+        "zh-hant": "zh-Hant"
+      },
+      "register": {
+        "de": "informal",
+        "es": "informal",
+        "fr": "formal",
+        "it": "informal",
+        "nl": "informal",
+        "pt": "informal"
+      }
     }
   ]
 }

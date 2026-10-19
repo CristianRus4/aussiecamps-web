@@ -11,12 +11,12 @@ import { Button } from "@/components/ui/button";
 import { articles } from "@/lib/site";
 import { appStoreUrl } from "@/lib/app-store";
 import { mainData } from "@/lib/analytics";
-import { homeSchema, seoLanguageTags } from "@/lib/seo";
+import { alternatesFor, homeSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: { absolute: "AussieCamps: Australia Camping Map & Road Trip Planner" },
   description: "Find 74,000+ campgrounds, caravan parks, free camps, rest areas and dump points across Australia. Offline place details, sharp filters and a stop-by-stop road trip planner for iPhone.",
-  alternates: { canonical: "/", languages: seoLanguageTags("") },
+  alternates: { canonical: "/", languages: alternatesFor("home") },
 };
 
 const features = [

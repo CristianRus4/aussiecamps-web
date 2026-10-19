@@ -4,8 +4,7 @@ import "./globals.css";
 import { SITE_URL } from "@/lib/site";
 import { smartBannerContent } from "@/lib/app-store";
 import { AnalyticsScript } from "@/components/analytics";
-import { localeCodes } from "@/lib/localized";
-import { ogLocale, seoLanguageTags } from "@/lib/seo";
+import { alternatesFor, ogAlternates } from "@/lib/seo";
 
 const sans = DM_Sans({ variable: "--font-sans", subsets: ["latin"], display: "swap" });
 
@@ -28,11 +27,11 @@ export const metadata: Metadata = {
   authors: [{ name: "AussieCamps" }],
   creator: "AussieCamps",
   publisher: "AussieCamps",
-  alternates: { canonical: "/", languages: seoLanguageTags("") },
+  alternates: { canonical: "/", languages: alternatesFor("home") },
   openGraph: {
     type: "website",
     locale: "en_AU",
-    alternateLocale: localeCodes.map((code) => ogLocale[code]),
+    alternateLocale: ogAlternates("en"),
     siteName: "AussieCamps",
     title: "AussieCamps: the camping map and road trip planner for Australia",
     description:
