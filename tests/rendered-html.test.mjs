@@ -6,7 +6,7 @@ import { APP_STORE_URL, APPLE_PROVIDER_TOKEN, GA_MEASUREMENT_ID } from "../lib/s
 import { CAMPAIGN_TOKEN_MAX, campaignTokenPattern, ctaPlacements, smartBannerContent } from "../lib/app-store.ts";
 import { analyticsBootstrap, consentRegions, CONSENT_STORAGE_KEY } from "../lib/analytics.ts";
 import { isArticleComplete, isArticleTranslated, isTranslated } from "../lib/localized.ts";
-import { articles, categories } from "../lib/site.ts";
+import { articles, categories, isScheduled } from "../lib/site.ts";
 import { liveLocales, localeCodes, localeEntry } from "../lib/locales.ts";
 
 /** Live locales, from lib/locales.json: the only list of languages anywhere in the code. */
@@ -61,6 +61,11 @@ test("every guide renders as a long-form article", async () => {
   assert.equal(slugs.length, 70);
   for (const slug of slugs) {
     const response = await fetchPage(`/guides/${slug}`);
+    // A guide whose publishAt is still ahead is not served at all (lib/publish.ts).
+    if (isScheduled(slug)) {
+      assert.equal(response.status, 404, `${slug} is scheduled but already served`);
+      continue;
+    }
     assert.equal(response.status, 200, slug);
     const html = await response.text();
     const body = html.match(/<div class="article-body">([\s\S]*?)<\/div>\s*<aside/)?.[1] ?? "";
