@@ -38,7 +38,7 @@ Thread: A-content (Kai). Branch `growth/a-content`. Never push. Session 2 took o
 - DONE fact-check batch F2: c1-verdicts.md, campfires, dump-points, caravan-park reports in /tmp/a-content/factcheck. DONE b8020e1 fix batch X3 (F2 + caravan-park $16.40).
 - DONE 2adc6f9 demerit points (both lines corrected, sources added) and NSW 5pm fire-ban claim removed; NSW fines $2,200/$5,500 verified. Towing retitled.
 - HANDED OFF batch 1 (2026-10-20): growth/a-content, npm run check passed.
-- DONE fact-check of the 5 cost pages (Sonnet high) -> /tmp/a-content/factcheck/<slug>.md. Then a fixer applies it ON growth/a-content-costs, then the cost-pages units doc.
+- DONE fact-check of the 5 cost pages (Sonnet high) -> /tmp/a-content/factcheck/<slug>.md. 
 
 ## DONE: demerit points (from the Spanish lane, 2026-10-20)
 - Verify and correct/qualify, including for overseas licence holders: `lib/article-faqs.ts` australia-road-rules-state-differences FAQ 2 "Demerit points are shared between states even though the rules that earn them are not", and `lib/expanded-articles.ts` driving-in-australia-road-rules-visitors "Demerit points do not apply to overseas licences but the fines certainly do". Also grep the other driving and licence guides for demerit claims. Sources: state transport agencies, national exchange of driver records (NEVDIS/Austroads). Penalty claim, so opus medium. Run after F2 finishes.
