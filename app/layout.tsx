@@ -1,7 +1,9 @@
 import type { Metadata, Viewport } from "next";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
-import { APP_ID, SITE_URL } from "@/lib/site";
+import { SITE_URL } from "@/lib/site";
+import { smartBannerContent } from "@/lib/app-store";
+import { AnalyticsScript } from "@/components/analytics";
 import { localeCodes } from "@/lib/localized";
 import { ogLocale, seoLanguageTags } from "@/lib/seo";
 
@@ -51,7 +53,8 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   manifest: "/site.webmanifest",
-  other: { "apple-itunes-app": `app-id=${APP_ID}` },
+  // The Smart App Banner. Localised pages override it with their own campaign token.
+  other: { "apple-itunes-app": smartBannerContent("en") },
 };
 
 export const viewport: Viewport = {
@@ -67,5 +70,6 @@ export const viewport: Viewport = {
 const headerScroll = `(function(){var h=document.querySelector(".site-header");if(!h)return;var f=function(){h.classList.toggle("is-scrolled",window.scrollY>8)};f();addEventListener("scroll",f,{passive:true})})();`;
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en-AU"><body className={sans.variable}>{children}<script data-static-tools dangerouslySetInnerHTML={{ __html: headerScroll }} /></body></html>;
+  // Analytics comes first in <body> so the Consent Mode defaults are set before anything else runs.
+  return <html lang="en-AU"><body className={sans.variable}><AnalyticsScript />{children}<script data-static-tools dangerouslySetInnerHTML={{ __html: headerScroll }} /></body></html>;
 }

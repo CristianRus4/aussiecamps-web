@@ -138,11 +138,17 @@ Every store link derives from one constant, `APP_ID` in `lib/site.ts`, which is 
 AussieCamps is published under (`6801098680`). It feeds `APP_STORE_URL`, the `apple-itunes-app`
 smart app banner, the schema `installUrl`/`downloadUrl` and the `/download` redirect.
 
+Clickable store links never use `APP_STORE_URL` directly. They go through `appStoreUrl({ placement,
+locale })` in `lib/app-store.ts`, which adds the App Store Connect campaign parameters
+(`pt=<APPLE_PROVIDER_TOKEN>&ct=w_<placement>_<locale>&mt=8`) and carry a matching `data-cta`
+attribute. The schema URLs stay clean.
+
 `APP_STORE_URL` is storefront-neutral (`apps.apple.com/app/id<APP_ID>`) so Apple sends each visitor
 to their own country's listing. Once the listing is live, it can be swapped for the canonical URL
 with the product slug in it to save a redirect hop.
 
-`public/images/aussie-qr.png` encodes `APP_STORE_URL` and is regenerated whenever that changes.
+The download QR code is inline SVG generated at build time (`components/qr-code.tsx`) from
+`appStoreUrl({ placement: "qr", locale })`, so it always matches the current link and campaign.
 
 The homepage screenshots (`aussie-hero`, `aussie-feature-1/2/3`, `aussie-download`, `aussie-og`) are
 placeholders taken from the KiwiCamping app, so they show New Zealand places. Their alt text already

@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL, articles, sitePath } from "@/lib/site";
-import { fullyTranslatedSlugs, publishedLocales } from "@/lib/localized";
+import { fullyTranslatedSlugs, isStaticPageTranslated, publishedLocales } from "@/lib/localized";
+import type { StaticPageKind } from "@/lib/source-strings";
 import { articleDates } from "@/lib/article-dates";
 
 const roots = ["", "/guides", "/tools", "/support", "/credits", "/privacy", "/terms"];
@@ -25,7 +26,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...roots,
     ...articles.map((article) => `/guides/${article.slug}`),
     // Localised sites carry every guide for visitors, but only complete translations enter search.
-    ...publishedLocales.flatMap((locale) => [...localeRoots, ...fullyTranslatedSlugs(locale).map((slug) => `/guides/${slug}`)].map((path) => `/${locale}${path}`)),
+    ...publishedLocales.flatMap((locale) => [
+      ...localeRoots.filter((path) => !["/support", "/privacy", "/terms"].includes(path) || isStaticPageTranslated(locale, path.slice(1) as StaticPageKind)),
+      ...fullyTranslatedSlugs(locale).map((slug) => `/guides/${slug}`),
+    ].map((path) => `/${locale}${path}`)),
   ];
 
   return paths.map((path) => ({

@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { SITE_URL , sitePath} from "@/lib/site";
 import { LocalizedArticle, LocalizedGuides, LocalizedHome, LocalizedInformationPage, LocalizedTools } from "@/components/localized-site";
-import { getTranslation, isArticleTranslated, isLocale, isTranslated, localeCodes, localizedArticles } from "@/lib/localized";
+import { getTranslation, isArticleTranslated, isLocale, isStaticPageTranslated, isTranslated, localeCodes, localizedArticles } from "@/lib/localized";
 import { defaultOgLocale, ogLocale, seoLanguageTags } from "@/lib/seo";
+import { smartBannerContent } from "@/lib/app-store";
 import type { StaticPageKind } from "@/lib/source-strings";
 
 export const dynamicParams = false;
@@ -43,7 +44,9 @@ export async function generateMetadata({params}:{params:Promise<{locale:string;p
   const image=article?article.image:"/images/aussie-og.webp";
   // An untranslated guide still builds and renders, but it must not compete with the English site
   // for the same words until its complete article translation is in place.
-  const indexable=isTranslated(locale) && (!article || isArticleTranslated(locale, article.slug));
+  // Support, privacy and terms follow the same rule: an English fallback is not indexed.
+  const staticKind=path.length===1&&["support","privacy","terms"].includes(section)?section as StaticPageKind:undefined;
+  const indexable=isTranslated(locale) && (!article || isArticleTranslated(locale, article.slug)) && (!staticKind || isStaticPageTranslated(locale, staticKind));
   return {
     // The locale root already carries the brand; every other page gets it from the layout template.
     title: path.length ? title : { absolute: title },
@@ -62,6 +65,7 @@ export async function generateMetadata({params}:{params:Promise<{locale:string;p
     },
     twitter:{card:"summary_large_image",title:article?article.title:ui.ogTitle,description:article?article.description:ui.ogDescription,images:[image]},
     robots:{index:indexable,follow:true,googleBot:{index:indexable,follow:true,"max-image-preview":"large","max-snippet":-1}},
+    other:{"apple-itunes-app":smartBannerContent(locale)},
   };
 }
 

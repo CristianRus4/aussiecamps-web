@@ -60,10 +60,34 @@ contains a guide the site cannot render, and tells you which one.
 
 ### Whenever the English changes
 
-If an English guide gains a section or a paragraph, its existing translations become structurally
-stale and the page silently falls back to English until they are updated. That is deliberate: it is
-exactly the failure above, caught before a reader sees it. `npm run check` fails in that case and
-names the guide, so it cannot go unnoticed. Re-run `npm run translations:source` and re-translate it.
+If an English guide gains a section, a paragraph, a source or a table, its existing translations
+become structurally stale and the page falls back to English (noindex, out of the sitemap) until
+they are updated. That is deliberate: it is exactly the failure above, caught before a reader sees
+it.
+
+Content and translation work happen in parallel, so a stale translation does not fail
+`npm run content:check`: it is listed under "Incomplete or structurally stale translations" with the
+locale and slug. A translation thread checks its own locale strictly before handing off:
+
+```bash
+npx tsx scripts/audit-content.mjs --strict --locale de
+```
+
+which fails on any guide in `de.json` that is not complete. Re-run `npm run translations:source`
+and re-translate the listed guides.
+
+### Section tables
+
+A guide section can carry a small table (`table: { caption, head, rows }`). It is translated with
+the section: the caption, every header cell and every row cell, keeping the same number of rows and
+cells. A translated section without its table, or with a different shape, makes the guide
+incomplete.
+
+### Consent bar strings
+
+The analytics consent bar has its own namespace, `consent`, next to `ui` in each locale file. Unlike
+`ui`, it never gates publishing: every string falls back to English on its own. Translate it with
+the rest of the locale; nothing goes offline while it is missing.
 
 ## When a locale goes live
 

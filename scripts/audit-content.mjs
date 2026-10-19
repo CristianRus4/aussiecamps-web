@@ -28,9 +28,27 @@ assert.doesNotMatch(content, /this (section|page|guide|article) (explains|descri
 const roadTripSlugs = new Set([...content.matchAll(/slug:\s*"([^"]+)"[\s\S]{0,400}?category:\s*"Road trips"/g)].map((match) => match[1]));
 assert.ok(roadTripSlugs.size >= 15, `Expected the road trip guides to be found, got ${roadTripSlugs.size}`);
 
+/**
+ * Incomplete or structurally stale translations.
+ *
+ * The site never shows one: `isArticleComplete` serves that guide whole in English, noindex and out
+ * of the sitemap. So by default they are reported, not fatal. Content threads change English guides
+ * (a new source, a new section) while the locale files belong to the translation threads, and an
+ * English edit must not be blocked by a translation that has simply fallen behind it.
+ *
+ * `--strict --locale <code>` is what a translation thread runs on its own locale before handing off:
+ * there every guide in the file must be complete, so unfinished work can never be passed off as done.
+ */
+const args = process.argv.slice(2);
+const strict = args.includes("--strict");
+const onlyLocale = args.includes("--locale") ? args[args.indexOf("--locale") + 1] : undefined;
 const { localeCodes, fullyTranslatedSlugs, translationProgress } = await import("../lib/localized.ts");
+assert.ok(!onlyLocale || localeCodes.includes(onlyLocale), `Unknown locale: ${onlyLocale}`);
+assert.ok(!strict || onlyLocale, "--strict needs --locale <code>");
 const summary = [];
+const stale = [];
 for (const locale of localeCodes) {
+  if (onlyLocale && locale !== onlyLocale) continue;
   const file = JSON.parse(await readFile(resolve(root, `lib/translations/${locale}.json`), "utf8"));
   for (const key of ["ui", "pages", "articles"]) assert.ok(file[key] && typeof file[key] === "object", `${locale}.json is missing its ${key} object`);
   assert.doesNotMatch(JSON.stringify(file), /\u2014/, `${locale} contains an em dash`);
@@ -38,7 +56,9 @@ for (const locale of localeCodes) {
   const complete = new Set(fullyTranslatedSlugs(locale));
   for (const slug of Object.keys(file.articles)) {
     assert.ok(slugs.includes(slug), `${locale} translates ${slug}, which is not an article on this site`);
-    assert.ok(complete.has(slug), `${locale}/${slug} is in the translation file but is incomplete or structurally stale, so the site falls back to English for it. Finish it or remove it.`);
+    if (complete.has(slug)) continue;
+    assert.ok(!strict, `${locale}/${slug} is in the translation file but is incomplete or structurally stale, so the site falls back to English for it. Finish it or remove it.`);
+    stale.push(`${locale}/${slug}`);
   }
   const progress = translationProgress(locale);
   summary.push(`${locale} ${progress.ui}/${progress.uiTotal} ui, ${progress.articles}/${progress.articlesTotal} guides, ${progress.pages}/3 pages`);
@@ -46,3 +66,7 @@ for (const locale of localeCodes) {
 
 console.log(`Content audit passed with ${slugs.length} unique articles, ${slugs.length - roadTripSlugs.size} translatable.`);
 console.log(`Translations: ${summary.join(" \u00b7 ")}`);
+if (stale.length) {
+  console.log(`Incomplete or structurally stale translations (served in English, noindex, until re-translated): ${stale.length}`);
+  for (const entry of stale) console.log(`- ${entry}`);
+}

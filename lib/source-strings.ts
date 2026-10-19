@@ -213,7 +213,26 @@ export const uiStrings = {
 export type UiKey = keyof typeof uiStrings;
 export type UiStrings = Record<UiKey, string>;
 
-export type StaticPage = { effective?: string; title: string; lede: string; sections: { heading: string; paragraphs: string[] }[] };
+/**
+ * The analytics consent bar and the footer link that reopens it.
+ *
+ * A separate namespace on purpose. A locale is published only when every `ui` string is translated
+ * (see `isTranslated` in lib/localized.ts), so adding these to `ui` would have unpublished every
+ * language at once. Here each string falls back to English on its own and never gates publishing.
+ */
+export const consentStrings = {
+  label: "Privacy choices",
+  message: "May we use Google Analytics cookies to see which pages are read and which App Store links are used? Nothing is used for advertising.",
+  accept: "Accept",
+  decline: "Decline",
+  learnMore: "Privacy policy",
+  privacyChoices: "Privacy choices",
+} as const;
+export type ConsentKey = keyof typeof consentStrings;
+export type ConsentStrings = Record<ConsentKey, string>;
+
+/** `id` is an anchor that stays the same in every language, so links can point at one section. */
+export type StaticPage = { effective?: string; title: string; lede: string; sections: { id?: string; heading: string; paragraphs: string[] }[] };
 export type StaticPageKind = "support" | "privacy" | "terms";
 
 export const staticPages: Record<StaticPageKind, StaticPage> = {
@@ -253,7 +272,7 @@ export const staticPages: Record<StaticPageKind, StaticPage> = {
     ],
   },
   privacy: {
-    effective: "Effective 12 August 2026",
+    effective: "Effective 19 October 2026",
     title: "Privacy policy",
     lede: "AussieCamps helps you plan a trip without turning your journey into an advertising profile.",
     sections: [
@@ -262,7 +281,13 @@ export const staticPages: Record<StaticPageKind, StaticPage> = {
       { heading: "Live Apple services", paragraphs: ["Map display, directions, Look Around, weather, calendar integration and widgets may use Apple frameworks. Requests and data handling for those services are governed by Apple. Calendar access occurs only after permission and is used to add trip itinerary information you request."] },
       { heading: "External links and website logs", paragraphs: [
         "Place details can open booking providers, websites, social profiles, phone numbers, email addresses and map apps. Those services receive information according to their own policies when you choose to open them.",
-        "Hosting providers may process routine technical logs such as IP address, browser type and requested URL for delivery, reliability and security. AussieCamps does not use advertising trackers on this website.",
+        "Hosting providers may process routine technical logs such as IP address, browser type and requested URL for delivery, reliability and security.",
+      ] },
+      { id: "website-analytics", heading: "Website analytics", paragraphs: [
+        "This website uses Google Analytics 4 to understand which pages are read and how visitors find the app. Google processes this data on our behalf as our processor. For visitors in the European Economic Area, the United Kingdom and Switzerland, the service is provided by Google Ireland Limited.",
+        "Analytics records the pages you view, your device and browser type, an approximate location derived from your IP address and the App Store links you click. Google Analytics 4 does not log or store IP addresses, and it never receives your name, your email address or anything you save in the app.",
+        "Analytics uses two first-party cookies, _ga and one whose name starts with _ga_ followed by our measurement ID, and both last up to 13 months. In the European Economic Area, the United Kingdom and Switzerland they are set only after you accept them. Until then no analytics cookie is stored and Google receives only cookieless measurements that carry no identifier. You can change your choice at any time with the Privacy choices link at the bottom of every page.",
+        "Google signals and ad personalisation are switched off, and analytics data is deleted after 14 months. This website does not use advertising trackers.",
       ] },
       { heading: "Retention and control", paragraphs: ["You can delete app records through the app and manage iCloud data through your Apple account. Removing the app can remove local data, while synced copies may remain in iCloud until separately deleted."] },
       { heading: "Children and contact", paragraphs: [

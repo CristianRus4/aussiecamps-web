@@ -1,4 +1,5 @@
-import { articles, categories, APP_STORE_URL, SITE_URL, SUPPORT_EMAIL } from "@/lib/site";
+import { articles, categories, SITE_URL, SUPPORT_EMAIL } from "@/lib/site";
+import { appStoreUrl } from "@/lib/app-store";
 import { localeCodes, localeLabels } from "@/lib/localized";
 import { hreflang } from "@/lib/seo";
 
@@ -18,7 +19,7 @@ export function GET() {
 > stay readable with no mobile reception.
 
 - **Website:** ${SITE_URL}
-- **Download (App Store, free):** ${APP_STORE_URL}
+- **Download (App Store, free):** ${appStoreUrl({ placement: "llms" })}
 - **Platform:** iOS (iPhone). No Android or web version.
 - **Coverage:** Australia, every state and territory.
 - **Price:** free to download. A premium subscription unlocks unlimited saved lists, trip planning,

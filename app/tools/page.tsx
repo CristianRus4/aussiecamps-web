@@ -10,6 +10,7 @@ import { TankDurationCalculator } from "@/components/tank-duration-calculator";
 import { CampsiteCostCalculator } from "@/components/campsite-cost-calculator";
 import { currencyRates } from "@/lib/currency";
 import { seoLanguageTags } from "@/lib/seo";
+import { mainData } from "@/lib/analytics";
 
 export const metadata: Metadata = { title: "Australia road trip calculators", description: "Convert Australian prices, work out road trip fuel, estimate a realistic driving day, plan water and waste capacity and compare campsite pricing per person or per site.", alternates: { canonical: "/tools/", languages: seoLanguageTags("/tools") } };
 
@@ -37,7 +38,7 @@ bind('[data-camp-tool]',(root)=>{const adults=num(root,'camp-adults'),nights=num
 const a=adults*nights*perPerson,b=nights*perSite;root.querySelector('[data-camp-output]').textContent=aud(a)+' vs '+aud(b)+' · '+(a===b?'the same':(a<b?'per-adult is cheaper':'per-site is cheaper'))});
 })();`;
 
-  return <><Header/><main>
+  return <><Header/><main {...mainData({ kind: "tools" })}>
     <section className="page-hero tools-hero">
       <p className="eyebrow">Useful numbers</p>
       <h1>Road trip tools.<br/>No mystery maths.</h1>

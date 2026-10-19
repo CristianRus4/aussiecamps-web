@@ -5,10 +5,12 @@ import { Footer } from "@/components/footer";
 import { DownloadCard } from "@/components/download-card";
 import { ArticleCard } from "@/components/article-card";
 import { CoverImage } from "@/components/site-image";
+import { SectionTable } from "@/components/article-table";
 import { SITE_URL, articles, sitePath, type Article } from "@/lib/site";
 import { articleSchema } from "@/lib/seo";
 import { articleDates, formatArticleDate } from "@/lib/article-dates";
 import { linkProse } from "@/lib/internal-links";
+import { mainData } from "@/lib/analytics";
 import { displayCurrencies, exchangeRateDate, formatAudRange } from "@/lib/currency";
 
 export function GuideArticle({ item }: { item: Article }) {
@@ -19,7 +21,7 @@ export function GuideArticle({ item }: { item: Article }) {
 
   return <>
     <Header />
-    <main>
+    <main {...mainData({ kind: "guide", slug: item.slug, category: item.category })}>
       <article className="article-page">
         <div className="article-breadcrumb"><Link href="/guides/"><ArrowLeft />Guides</Link><span>{item.category}</span></div>
         <header className="article-header">
@@ -57,6 +59,7 @@ export function GuideArticle({ item }: { item: Article }) {
               <h2>{part.heading}</h2>
               {/* The only HTML here is the anchor linkProse inserted; the prose itself is escaped. */}
               {linkProse(part.body, item.slug).map((paragraph, position) => <p key={part.body[position]} dangerouslySetInnerHTML={{ __html: paragraph }} />)}
+              {part.table && <SectionTable table={part.table} />}
               {part.tips && <div className="article-tips"><strong>Keep in mind</strong><ul>{part.tips.map((tip) => <li key={tip}>{tip}</li>)}</ul></div>}
             </section>)}
             {item.places.length > 0 && <section>

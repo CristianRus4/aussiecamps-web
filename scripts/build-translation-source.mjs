@@ -15,7 +15,7 @@
  */
 import { mkdir, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
-import { uiStrings, staticPages } from "../lib/source-strings.ts";
+import { consentStrings, uiStrings, staticPages } from "../lib/source-strings.ts";
 import { translatableArticles } from "../lib/localized.ts";
 
 const forTranslation = (article) => ({
@@ -24,7 +24,7 @@ const forTranslation = (article) => ({
   region: article.region,
   imageAlt: article.imageAlt,
   intro: article.intro,
-  sections: article.sections.map((part) => ({ heading: part.heading, body: part.body, tips: part.tips ?? [] })),
+  sections: article.sections.map((part) => ({ heading: part.heading, body: part.body, tips: part.tips ?? [], ...(part.table && { table: { caption: part.table.caption, head: part.table.head, rows: part.table.rows } }) })),
   faq: (article.faq ?? []).map(([question, answer]) => [question, answer]),
   sources: (article.sources ?? []).map((source) => ({ label: source.label })),
   priceTable: article.priceTable ? { note: article.priceTable.note, rows: article.priceTable.rows.map((row) => ({ label: row.label, unit: row.unit ?? "" })) } : null,
@@ -33,7 +33,10 @@ const forTranslation = (article) => ({
 const source = {
   locale: "en",
   ui: uiStrings,
-  pages: staticPages,
+  // Its own namespace: these never gate publishing (see consentStrings in lib/source-strings.ts).
+  consent: consentStrings,
+  // `id` is a fixed anchor, not copy, so translators never see it.
+  pages: Object.fromEntries(Object.entries(staticPages).map(([kind, page]) => [kind, { ...page, sections: page.sections.map((section) => ({ heading: section.heading, paragraphs: section.paragraphs })) }])),
   articles: Object.fromEntries(translatableArticles.map((article) => [article.slug, forTranslation(article)])),
 };
 

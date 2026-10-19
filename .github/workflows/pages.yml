@@ -19,13 +19,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Full history: article and translation dates are read from git log, and a shallow clone
+          # would date every guide to the deploy commit.
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
       - run: npm ci
+      # The whole gate, building once: content audit, build, static export, tests over the export,
+      # similarity and asset checks. Any failure stops the job, so nothing is uploaded or deployed.
       # No PAGES_BASE_PATH: aussiecamps.app is a custom domain, so the site is served from the root.
-      - run: npm run build:pages
+      - run: npm run check
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

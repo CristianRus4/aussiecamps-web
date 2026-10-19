@@ -2,8 +2,16 @@ export const SITE_URL = "https://aussiecamps.app";
 /** The App Store identifier AussieCamps is published under. Every store link, the smart app banner,
  * the QR card and the schema install URLs derive from this one constant. */
 export const APP_ID = "6801098680";
-/** Storefront-neutral so Apple sends each visitor to their own country's listing. */
+/** Storefront-neutral so Apple sends each visitor to their own country's listing. Kept free of
+ * campaign parameters: the schema's installUrl and downloadUrl use it as is. Every clickable store
+ * link goes through `appStoreUrl()` in lib/app-store.ts instead. */
 export const APP_STORE_URL = `https://apps.apple.com/app/id${APP_ID}`;
+/** The App Store Connect provider token (`pt`) for campaign links. Empty means store links carry no
+ * campaign parameters at all. */
+export const APPLE_PROVIDER_TOKEN = "";
+/** The GA4 measurement ID (G-…). Empty means no analytics script, no consent bar and no
+ * "Privacy choices" link on any page. */
+export const GA_MEASUREMENT_ID = "";
 /**
  * The final URL for a site path.
  *
@@ -29,7 +37,10 @@ import { expandedArticles } from "@/lib/expanded-articles";
 import { articleFaqs } from "@/lib/article-faqs";
 
 export type ArticleCategory = "Road trips" | "Camping guides" | "Rules & safety" | "Trip planning" | "Costs & budget" | "App guides";
-export type ArticleSection = { heading: string; body: string[]; tips?: string[] };
+/** A small data table inside a section. Plain-text cells; every row has exactly `head.length` cells,
+ * and the first cell of each row is its label. Translated like the prose around it. */
+export type ArticleTable = { caption: string; head: string[]; rows: string[][] };
+export type ArticleSection = { heading: string; body: string[]; tips?: string[]; table?: ArticleTable };
 export type ArticlePriceTable = {
   asOf: string;
   note: string;
@@ -69,7 +80,7 @@ type ArticleInput = Omit<Article, "image">;
 export function readingMinutes(input: Pick<Article, "intro" | "sections"> & { priceTable?: Article["priceTable"] }) {
   const parts = [
     input.intro,
-    ...input.sections.flatMap((part) => [part.heading, ...part.body, ...(part.tips ?? [])]),
+    ...input.sections.flatMap((part) => [part.heading, ...part.body, ...(part.tips ?? []), ...(part.table ? [part.table.caption, ...part.table.head, ...part.table.rows.flat()] : [])]),
     ...(input.priceTable ? [input.priceTable.note, ...input.priceTable.rows.map((row) => `${row.label} ${row.unit ?? ""}`)] : []),
   ];
   const words = parts.join(" ").trim().split(/\s+/).filter(Boolean).length;
@@ -77,7 +88,7 @@ export function readingMinutes(input: Pick<Article, "intro" | "sections"> & { pr
 }
 
 const article = (input: ArticleInput): Article => ({ ...input, readTime: readingMinutes(input), image: `/images/articles/${input.slug}.webp` });
-const section = (heading: string, body: string[], tips?: string[]): ArticleSection => ({ heading, body, tips });
+const section = (heading: string, body: string[], tips?: string[], table?: ArticleTable): ArticleSection => ({ heading, body, tips, ...(table && { table }) });
 
 export const articles: Article[] = [
   article({

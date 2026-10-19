@@ -4,8 +4,8 @@ import fr from "./translations/fr.json";
 import it from "./translations/it.json";
 import nl from "./translations/nl.json";
 import pt from "./translations/pt.json";
-import { staticPages, uiStrings, type StaticPage, type StaticPageKind, type UiStrings } from "./source-strings";
-import { articles, categories, type Article, type ArticleCategory } from "./site";
+import { consentStrings, staticPages, uiStrings, type ConsentKey, type ConsentStrings, type StaticPage, type StaticPageKind, type UiStrings } from "./source-strings";
+import { articles, categories, type Article, type ArticleCategory, type ArticleSection } from "./site";
 
 export const localeCodes = ["de", "es", "fr", "it", "nl", "pt"] as const;
 export type LocaleCode = (typeof localeCodes)[number];
@@ -25,7 +25,7 @@ export const localeArticles = articles;
 export const translatableArticles = localeArticles.filter((item) => !untranslatedCategories.includes(item.category));
 export const localeCategories = categories;
 
-type TranslatedSection = { heading?: string; body?: string[]; tips?: string[] };
+type TranslatedSection = { heading?: string; body?: string[]; tips?: string[]; table?: { caption?: string; head?: string[]; rows?: string[][] } };
 type TranslatedArticle = {
   title?: string; description?: string; category?: string; region?: string; imageAlt?: string; intro?: string;
   sections?: TranslatedSection[]; sources?: { label?: string }[]; faq?: [string, string][];
@@ -34,6 +34,7 @@ type TranslatedArticle = {
 type TranslationFile = {
   locale?: string;
   ui?: Partial<Record<keyof UiStrings, string>>;
+  consent?: Partial<Record<ConsentKey, string>>;
   articles?: Record<string, TranslatedArticle>;
   pages?: Partial<Record<StaticPageKind, StaticPage>>;
 };
@@ -56,7 +57,16 @@ export const isLocale = (value: string): value is LocaleCode => localeCodes.incl
  */
 const filled = (value: unknown): value is string => typeof value === "string" && value.trim().length > 0;
 
-function isArticleComplete(article: Article, item: TranslatedArticle | undefined): boolean {
+/** A section table translates completely or not at all: same shape, every cell filled. */
+function isTableComplete(english: ArticleSection["table"], translated: TranslatedSection["table"]): boolean {
+  if (!english) return true;
+  if (!translated || !filled(translated.caption)) return false;
+  if (translated.head?.length !== english.head.length || !translated.head.every(filled)) return false;
+  if (translated.rows?.length !== english.rows.length) return false;
+  return english.rows.every((row, index) => translated.rows![index]?.length === row.length && translated.rows![index].every(filled));
+}
+
+export function isArticleComplete(article: Article, item: TranslatedArticle | undefined): boolean {
   if (!item) return false;
   if (![item.title, item.description, item.region, item.imageAlt, item.intro].every(filled)) return false;
   if (item.sections?.length !== article.sections.length) return false;
@@ -65,6 +75,7 @@ function isArticleComplete(article: Article, item: TranslatedArticle | undefined
     if (!filled(translated?.heading)) return false;
     if (translated.body?.length !== section.body.length || !translated.body.every(filled)) return false;
     const tips = section.tips ?? [];
+    if (!isTableComplete(section.table, translated.table)) return false;
     return (translated.tips?.length ?? 0) === tips.length && (translated.tips ?? []).every(filled);
   });
   if (!sectionsMatch) return false;
@@ -106,6 +117,11 @@ export function isArticleTranslated(locale: LocaleCode, slug: string) {
   return !!article && isArticleComplete(article, files[locale].articles?.[slug]);
 }
 
+/** A localised support, privacy or terms page is indexable only when its translation is complete. */
+export function isStaticPageTranslated(locale: LocaleCode, kind: StaticPageKind) {
+  return isPageComplete(kind, files[locale].pages?.[kind]);
+}
+
 /** How much of a locale is done, for the content audit and the build log. */
 export function translationProgress(locale: LocaleCode) {
   const overrides = files[locale].ui ?? {};
@@ -123,6 +139,15 @@ export function translationProgress(locale: LocaleCode) {
 export function getTranslation(locale: LocaleCode): UiStrings {
   const overrides = files[locale].ui ?? {};
   return Object.fromEntries(Object.entries(uiStrings).map(([key, english]) => [key, overrides[key as keyof UiStrings] || english])) as UiStrings;
+}
+
+/**
+ * The consent bar strings. Unlike `ui`, each one falls back to English on its own and none of them
+ * gates publishing, so the bar can ship before every language has translated it.
+ */
+export function getConsentStrings(locale: LocaleCode | "en"): ConsentStrings {
+  const overrides = locale === "en" ? {} : files[locale].consent ?? {};
+  return Object.fromEntries(Object.entries(consentStrings).map(([key, english]) => [key, overrides[key as ConsentKey] || english])) as ConsentStrings;
 }
 
 export function getPage(locale: LocaleCode, kind: StaticPageKind): StaticPage {
@@ -155,6 +180,7 @@ export function localizedArticles(locale: LocaleCode): Article[] {
         heading: item!.sections![index].heading!,
         body: item!.sections![index].body!,
         tips: section.tips ? item!.sections![index].tips : undefined,
+        table: section.table ? item!.sections![index].table as ArticleSection["table"] : undefined,
       })),
       faq: article.faq?.map((_, index) => item!.faq![index]),
       sources: article.sources?.map((source, index) => ({ ...source, label: item!.sources![index].label! })),

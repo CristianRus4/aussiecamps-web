@@ -5,6 +5,7 @@ import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import credits from "@/lib/image-credits.json";
 import { articles, sitePath } from "@/lib/site";
+import { mainData } from "@/lib/analytics";
 
 type Credit = { slug: string; subject: string; creator: string; licence: string; licenceUrl?: string; sourceUrl?: string };
 
@@ -28,7 +29,7 @@ export default function CreditsPage() {
   const rows = credits as Credit[];
   return <>
     <Header />
-    <main>
+    <main {...mainData({ kind: "legal" })}>
       <section className="page-hero">
         <p className="eyebrow"><Camera size={13} /> Photo credits</p>
         <h1>Whose photographs<br /><em>these are.</em></h1>

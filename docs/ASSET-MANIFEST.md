@@ -12,7 +12,6 @@ Add files under `public/images`. Keep the exact filenames so no code change is n
 | `aussie-feature-2.webp` | Place details screenshot | 1010 x 1515 portrait |
 | `aussie-feature-3.webp` | Trip planner screenshot | 1010 x 1515 portrait |
 | `aussie-download.webp` | Final download section | 1600 x 1400 landscape or square |
-| `aussie-qr.webp` | App Store QR | 600 x 600 square |
 | `aussie-og.webp` | Social share preview | 1200 x 630 landscape |
 
 Use clean screenshots or real photography. Do not add text inside product screenshots unless it is part of the actual app interface.

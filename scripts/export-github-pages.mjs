@@ -2,6 +2,8 @@ import assert from "node:assert/strict";
 import { access, cp, mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
+import { APP_STORE_URL } from "../lib/site.ts";
+import { appStoreUrl } from "../lib/app-store.ts";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const output = resolve(root, "pages-dist");
@@ -38,7 +40,10 @@ function prepareHtml(html, route) {
     .replace(/<html lang="[^"]*"/i, `<html lang="${routeLang(route)}"`)
     .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, (script) => {
       const openingTag = script.slice(0, script.indexOf(">") + 1);
-      return /type="application\/ld\+json"|data-static-tools/i.test(openingTag) ? script : "";
+      // Structured data, the calculators (data-static-tools) and the analytics bootstrap
+      // (data-static-keep) are the only scripts a static page needs. Everything else is the
+      // runtime's own hydration and navigation code, which a static host cannot use.
+      return /type="application\/ld\+json"|data-static-tools|data-static-keep/i.test(openingTag) ? script : "";
     })
     .replace(/<link\b[^>]*rel="modulepreload"[^>]*>/gi, "")
     .replace(/(href|src)="\/(?!\/)/g, `$1="${basePath}/`)
@@ -70,23 +75,22 @@ for (const name of await readdir(resolve(output, "assets"))) {
   await writeFile(path, css.replace(/url\(\/(?!\/)/g, `url(${basePath}/`));
 }
 
-// A short, memorable download URL for QR codes, print and link-in-bio. GitHub Pages cannot issue a
-// 301, so this is the static equivalent: an immediate meta refresh, noindex so it never competes in
-// search, and a real link for anything that ignores the refresh.
-const siteConstants = await readFile(resolve(root, "lib/site.ts"), "utf8");
-const appId = siteConstants.match(/APP_ID = "(\d+)"/)[1];
-const appStoreUrl = siteConstants.match(/export const APP_STORE_URL = `([^`]+)`/)[1].replace("${APP_ID}", appId);
+// A short, memorable download URL for print and link-in-bio. GitHub Pages cannot issue a 301, so
+// this is the static equivalent: an immediate meta refresh, noindex so it never competes in search,
+// and a real link for anything that ignores the refresh. It carries its own campaign token
+// (`w_dl_en`); the canonical stays the clean store URL.
+const downloadUrl = appStoreUrl({ placement: "dl" }).replace(/&/g, "&amp;");
 await mkdir(resolve(output, "download"), { recursive: true });
 await writeFile(resolve(output, "download/index.html"), `<!doctype html>
 <html lang="${defaultLang}">
 <head>
 <meta charset="utf-8">
 <meta name="robots" content="noindex, follow">
-<meta http-equiv="refresh" content="0; url=${appStoreUrl}">
-<link rel="canonical" href="${appStoreUrl}">
+<meta http-equiv="refresh" content="0; url=${downloadUrl}">
+<link rel="canonical" href="${APP_STORE_URL}">
 <title>Download ${siteName}</title>
 </head>
-<body><p>Opening the App Store. <a href="${appStoreUrl}">Continue to ${siteName} on the App Store</a>.</p></body>
+<body><p>Opening the App Store. <a href="${downloadUrl}" data-cta="dl">Continue to ${siteName} on the App Store</a>.</p></body>
 </html>
 `);
 

@@ -251,6 +251,14 @@
     "review9Country": "Ireland",
     "review9Quote": "Most of these apps feel built for big caravans. We were in a small car with a tent and still found plenty that actually suited us."
   },
+  "consent": {
+    "label": "Privacy choices",
+    "message": "May we use Google Analytics cookies to see which pages are read and which App Store links are used? Nothing is used for advertising.",
+    "accept": "Accept",
+    "decline": "Decline",
+    "learnMore": "Privacy policy",
+    "privacyChoices": "Privacy choices"
+  },
   "pages": {
     "support": {
       "title": "How can we help?",
@@ -306,7 +314,7 @@
       ]
     },
     "privacy": {
-      "effective": "Effective 12 August 2026",
+      "effective": "Effective 19 October 2026",
       "title": "Privacy policy",
       "lede": "AussieCamps helps you plan a trip without turning your journey into an advertising profile.",
       "sections": [
@@ -332,7 +340,16 @@
           "heading": "External links and website logs",
           "paragraphs": [
             "Place details can open booking providers, websites, social profiles, phone numbers, email addresses and map apps. Those services receive information according to their own policies when you choose to open them.",
-            "Hosting providers may process routine technical logs such as IP address, browser type and requested URL for delivery, reliability and security. AussieCamps does not use advertising trackers on this website."
+            "Hosting providers may process routine technical logs such as IP address, browser type and requested URL for delivery, reliability and security."
+          ]
+        },
+        {
+          "heading": "Website analytics",
+          "paragraphs": [
+            "This website uses Google Analytics 4 to understand which pages are read and how visitors find the app. Google processes this data on our behalf as our processor. For visitors in the European Economic Area, the United Kingdom and Switzerland, the service is provided by Google Ireland Limited.",
+            "Analytics records the pages you view, your device and browser type, an approximate location derived from your IP address and the App Store links you click. Google Analytics 4 does not log or store IP addresses, and it never receives your name, your email address or anything you save in the app.",
+            "Analytics uses two first-party cookies, _ga and one whose name starts with _ga_ followed by our measurement ID, and both last up to 13 months. In the European Economic Area, the United Kingdom and Switzerland they are set only after you accept them. Until then no analytics cookie is stored and Google receives only cookieless measurements that carry no identifier. You can change your choice at any time with the Privacy choices link at the bottom of every page.",
+            "Google signals and ad personalisation are switched off, and analytics data is deleted after 14 months. This website does not use advertising trackers."
           ]
         },
         {
