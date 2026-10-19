@@ -15,7 +15,6 @@
         "ja",
         "ko",
         "zh-hans",
-        "zh-hant",
         "da",
         "sv",
         "nb",
@@ -55,10 +54,6 @@
         {
           "locale": "zh-hans",
           "path": "../lib/translations/zh-hans.json"
-        },
-        {
-          "locale": "zh-hant",
-          "path": "../lib/translations/zh-hant.json"
         },
         {
           "locale": "da",
@@ -116,8 +111,7 @@
       },
       "varieties": {
         "pt": "pt-PT",
-        "zh-hans": "zh-Hans",
-        "zh-hant": "zh-Hant"
+        "zh-hans": "zh-Hans"
       },
       "register": {
         "de": "informal",
@@ -206,12 +200,12 @@
       "adapter": "web-json",
       "sourceLocale": "en",
       "locales": [
-        "zh-Hant"
+        "zh-hant"
       ],
       "source": "../lib/translations/en.json",
       "targets": [
         {
-          "locale": "zh-Hant",
+          "locale": "zh-hant",
           "path": "../lib/translations/zh-hant.json"
         }
       ],
@@ -228,32 +222,35 @@
       ],
       "glossary": {
         "New South Wales": {
-          "zh-Hant": "新南威爾斯"
+          "zh-hant": "新南威爾斯"
         },
         "Queensland": {
-          "zh-Hant": "昆士蘭"
+          "zh-hant": "昆士蘭"
         },
         "Victoria": {
-          "zh-Hant": "維多利亞"
+          "zh-hant": "維多利亞"
         },
         "South Australia": {
-          "zh-Hant": "南澳"
+          "zh-hant": "南澳"
         },
         "Western Australia": {
-          "zh-Hant": "西澳"
+          "zh-hant": "西澳"
         },
         "Tasmania": {
-          "zh-Hant": "塔斯馬尼亞"
+          "zh-hant": "塔斯馬尼亞"
         },
         "Northern Territory": {
-          "zh-Hant": "北領地"
+          "zh-hant": "北領地"
         },
         "Australian Capital Territory": {
-          "zh-Hant": "澳洲首都領地"
+          "zh-hant": "澳洲首都領地"
         }
       },
       "styleGuide": {
-        "zh-Hant": "Follow docs/translation-style/zh-hant.md: native Taiwanese Traditional Chinese travel-writer voice, 你 not 您, Taiwan vocabulary, full-width punctuation, no dashes, no offline-map claims."
+        "zh-hant": "Follow docs/translation-style/zh-hant.md: native Taiwanese Traditional Chinese travel-writer voice, 你 not 您, Taiwan vocabulary, full-width punctuation, no dashes, no offline-map claims."
+      },
+      "varieties": {
+        "zh-hant": "zh-Hant"
       }
     }
   ]
