@@ -31,11 +31,11 @@ Thread: A-content (Kai). Branch `growth/a-content`. Never push. Session 2 took o
 ## In progress (session 2)
 - DONE fact-check batch F1 (reports in /tmp/a-content/factcheck): TAS, ACT, sleeping-in-car, free-camping hub, camping-fees. DONE 48ea684 fix batch X2.
 - DONE 9438657 fix batch C1: audit-confirmed errors on darwin-kakadu-litchfield-loop, australian-alps-camping-route, adelaide-to-uluru-road-trip, australian-road-signs-visitors-guide, plus towing-caravan flags. Changed claims in /tmp/a-content/factcheck/c1-changes.md. Darwin loop FAQ not added (road-trip guides carry none per lib/article-faqs.ts header); draft FAQ kept in drafts/.
-- DONE fact-check batch F2: c1-verdicts.md, campfires, dump-points, caravan-park reports in /tmp/a-content/factcheck. Fix batch X3 (Opus) applying F2 + caravan-park $16.40. Demerit and NSW fire-fine wording to apply after X3 commits.
-- Research (Opus, penalty claims): demerit points -> factcheck/demerit-points.md; NSW fire-ban fines -> factcheck/nsw-fire-penalties.md.
-- Next fact-check batch: the 5 cost pages. Then apply all fixes and hand off batch 1.
+- DONE fact-check batch F2: c1-verdicts.md, campfires, dump-points, caravan-park reports in /tmp/a-content/factcheck. DONE b8020e1 fix batch X3 (F2 + caravan-park $16.40).
+- DONE 2adc6f9 demerit points (both lines corrected, sources added) and NSW 5pm fire-ban claim removed; NSW fines $2,200/$5,500 verified. Towing retitled.
+- Fact-check of the 5 cost pages (Sonnet high) running -> factcheck/<slug>.md. Then a fixer applies it, then hand off batch 1.
 
-## Queue: demerit points (from the Spanish lane, 2026-10-20)
+## DONE: demerit points (from the Spanish lane, 2026-10-20)
 - Verify and correct/qualify, including for overseas licence holders: `lib/article-faqs.ts` australia-road-rules-state-differences FAQ 2 "Demerit points are shared between states even though the rules that earn them are not", and `lib/expanded-articles.ts` driving-in-australia-road-rules-visitors "Demerit points do not apply to overseas licences but the fines certainly do". Also grep the other driving and licence guides for demerit claims. Sources: state transport agencies, national exchange of driver records (NEVDIS/Austroads). Penalty claim, so opus medium. Run after F2 finishes.
 
 ## Next (audit queue, docs/growth/audit/summary.csv in main)
