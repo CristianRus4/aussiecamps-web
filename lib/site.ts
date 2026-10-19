@@ -35,6 +35,7 @@ export const SUPPORT_MAILTO = `mailto:${SUPPORT_EMAIL}?subject=AussieCamps%20web
 
 import { expandedArticles } from "@/lib/expanded-articles";
 import { articleFaqs } from "@/lib/article-faqs";
+import { assertPublishAt, isPublished, scheduleFixture } from "@/lib/publish";
 
 export type ArticleCategory = "Road trips" | "Camping guides" | "Rules & safety" | "Trip planning" | "Costs & budget" | "App guides";
 /** A small data table inside a section. Plain-text cells; every row has exactly `head.length` cells,
@@ -72,6 +73,11 @@ export type Article = {
   priceTable?: ArticlePriceTable;
   /** Optional hand-picked related guides (slugs), shown first under the article. See lib/related.ts. */
   related?: string[];
+  /**
+   * New guides only: the New Zealand day (YYYY-MM-DD) the guide goes live. Until then it is absent from
+   * the whole build (lib/publish.ts). Never set it on a guide that is already live.
+   */
+  publishAt?: string;
 };
 
 type ArticleInput = Omit<Article, "image">;
@@ -93,7 +99,11 @@ export function readingMinutes(input: Pick<Article, "intro" | "sections"> & { pr
 const article = (input: ArticleInput): Article => ({ ...input, readTime: readingMinutes(input), image: `/images/articles/${input.slug}.webp` });
 const section = (heading: string, body: string[], tips?: string[], table?: ArticleTable): ArticleSection => ({ heading, body, tips, ...(table && { table }) });
 
-export const articles: Article[] = [
+/**
+ * Every guide written, published or scheduled. Only the translation source, the content audits and
+ * link selection read this; everything a reader or crawler sees reads `articles`.
+ */
+export const allArticles: Article[] = [
   article({
     slug: "great-ocean-road-camping-guide", title: "Great Ocean Road camping guide: a 3-day route", description: "Surf beaches, rainforest bends and a final sunset over the Twelve Apostles.", category: "Road trips", region: "Victoria Coast", readTime: 9,
     places: ["Torquay", "Aireys Inlet", "Apollo Bay Holiday Park", "Aire River East Campground", "Johanna Beach Campground", "Port Campbell", "Warrnambool"], imageAlt: "Great Ocean Road coast in Victoria", intro: "Three days gives the Great Ocean Road enough breathing room for lighthouse walks, forest detours and an evening beside the Southern Ocean. Drive west from Torquay and keep the final night near Port Campbell or Warrnambool.",
@@ -311,7 +321,16 @@ export const articles: Article[] = [
   article({ slug:"best-camping-app-australia", title:"What to look for in a camping app for Australia", description:"Choose an app that covers the route, explains the stop and turns saved places into a workable trip.", category:"App guides", region:"Australia", readTime:7, places:["Campgrounds","Caravan parks","Rest areas","Dump points"], imageAlt:"Camping app open beside an Australian road", intro:"A useful camping app should reduce uncertainty before the turnoff and stay understandable when the route changes.", sections:[section("Coverage beyond campgrounds",["Long trips need caravan parks, roofed stays, rest areas, dump points, potable water, fuel and other useful stops. A campground-only map leaves gaps between nights.","Look for clear categories and a way to focus on the current map area." ]),section("Details that affect the decision",["Access, fees, toilets, water, power, dogs, vehicle suitability and booking information matter more than a large pin count.","Offline place information is valuable beyond coverage, while live maps, weather and routing still depend on data."], ["Offline place details","Access filters","Trip planning","Source links"]),section("From saved pin to route",["A strong app should organise favourites, separate maybes from booked stays and order trip stops with notes.","Choose the product whose workflow matches how you travel, not the one with the longest marketing list."]),section("Offline data is the first test",["Australia removes mobile coverage faster than almost anywhere, and it does so exactly where you are choosing a campsite. An app that needs a connection to show place details is not useful across most of the continent.","Offline means different things: some tools cache map tiles only, leaving you with a map and no information. Others bundle the place directory so categories, facilities, fees and access notes stay readable with no signal.","Test it before you leave the last town. Put the phone in flight mode and open a place you have not looked at. Whatever appears is what you will have out there."],["Test offline in flight mode first","Cached tiles are not cached details","Coverage stops where you need it most"]),section("Rules clarity and how the app is funded",["The second test is whether the app distinguishes what is legally different: a national park campground with a permit, a council free camp with a stay limit, a rest area for fatigue only, and private land. Blurring those is what produces fines.","The third is how the app makes money. A tool funded by bookings has a structural reason to surface bookable commercial sites ahead of free ones, which is not dishonest but does shape what you see first.","A subscription or one-off licence removes that incentive. A free app with no visible revenue is worth a moment's thought about where the value goes."],["Legal categories must be distinct","Booking-funded apps favour paid sites","Know how the app is funded"]),section("Trip planning that survives a change",["The fourth test is whether the app helps when the plan breaks, which on an Australian trip it will. Ordered stops, saved alternatives, notes attached to the right place and a visible route distance are what matter.","Bookmarks alone are not trip planning. The difference shows at the point where a campground is full, a road is closed or the weather turns, and you need to rearrange without rebuilding from scratch.","Filters matter too, particularly rig length and access, because Australia has more large vehicles and more roads unsuitable for them than most countries."],["Bookmarks are not trip planning","Rig length filtering matters here","Judge it by how it handles a change"]),section("Nothing replaces the sign",["Every app is a planning aid. On-site signage, current fire bans, ranger directions and council local laws override anything cached on a phone, and they change faster than any dataset refreshes.","Before settling in for the night, read the sign at the entrance. If it disagrees with the app, the sign wins. That habit costs nothing and is what keeps free camping areas open.","Most travellers end up carrying more than one app, and that is a reasonable outcome rather than a failure to choose. Use each for what it is actually good at."],["Signs override every app","Fire bans change daily","Carrying two apps is normal"]),section("What no app can do",["No app confirms that a site is open today, that a fire ban has just been declared, or that a road closed after last night's rain. Those change faster than any dataset refreshes.","Use the app to plan and shortlist, then verify anything critical with the land manager, the state road authority or the sign at the entrance. That division of labour is what makes the tool genuinely useful.","Whichever you choose, test it properly in the first week while you still have easy access to alternatives rather than discovering its limits somewhere remote.","Test any app in flight mode before you rely on it, because whatever appears with no signal is exactly what you will have when it matters."],["Apps cannot confirm today's status","Verify critical facts directly","Plan with the app, confirm with the source"])] }),
   ...expandedArticles,
 // Each guide gets its own two-question FAQ attached by slug (see lib/article-faqs.ts).
-].map((article) => (articleFaqs[article.slug] ? { ...article, faq: articleFaqs[article.slug] } : article));
+].map((article) => (articleFaqs[article.slug] ? { ...article, faq: articleFaqs[article.slug] } : article))
+  // After the list, not in it: scripts/build-article-dates.mjs dates the last guide by the text up to "\n]".
+  .concat(scheduleFixture<Article>() ?? []);
+for (const item of allArticles) assertPublishAt(item.slug, item.publishAt);
+
+/** The guides this build publishes: every guide whose publishAt, if it has one, has come (lib/publish.ts). */
+export const articles: Article[] = allArticles.filter((item) => isPublished(item));
+const scheduledSlugs = new Set(allArticles.filter((item) => !isPublished(item)).map((item) => item.slug));
+/** A guide that is written but not yet published, which nothing may link to or name. */
+export const isScheduled = (slug: string) => scheduledSlugs.has(slug);
 
 export const categories: ArticleCategory[] = ["Road trips", "Camping guides", "Rules & safety", "Trip planning", "Costs & budget", "App guides"];
 export const getArticle = (slug: string) => articles.find((item) => item.slug === slug);
