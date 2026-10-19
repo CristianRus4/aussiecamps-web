@@ -10,15 +10,15 @@ Thread: i18n-ko. Language: Korean (`ko`, engine locale `ko`). Branches: `i18n/a-
 
 ## Done
 - Style guide written (both repos).
-- UI (220 strings, testimonials excluded), consent strings and support/privacy/terms: AU and NZ applied (privacy re-synced to the Website analytics section on 2026-10-19).
-- AU guides (26/50): camping-rules-new-south-wales, camping-rules-queensland, camping-rules-victoria, camping-rules-south-australia, camping-rules-western-australia, camping-rules-northern-territory, camping-rules-act, sleeping-in-car-australia, interstate-biosecurity-road-trip, caravan-park-vs-holiday-park, dump-points-australia-guide, campervan-road-trip-budget-australia, best-time-camping-australia, how-to-plan-trip-aussiecamps, how-to-use-aussiecamps-filters, save-collections-aussiecamps, aussiecamps-place-details, aussiecamps-widgets-guide, australia-grocery-prices-2026, eating-out-australia-prices-2026, alcohol-coffee-drink-prices-australia, accommodation-costs-australia-2026, public-transport-costs-australia-2026, domestic-flight-costs-australia-2026, australian-road-signs-visitors-guide, towing-caravan-australia-road-rules.
-- NZ guides (22/43): doc-huts-new-zealand-guide, doc-campsite-rules, dogs-camping-new-zealand, kauri-dieback-camping-travel, new-zealand-biosecurity-camping-gear, sandflies-new-zealand-camping, volcanic-safety-new-zealand-travel, new-zealand-road-signs-visitors, overseas-driver-licence-new-zealand, campervan-road-rules-new-zealand, wof-registration-campervan-new-zealand, towing-caravan-new-zealand, speed-limits-new-zealand-visitors, cook-strait-ferry-campervan-guide, new-zealand-travel-cost-2026, new-zealand-grocery-prices-2026, eating-out-new-zealand-prices-2026, beer-wine-coffee-prices-new-zealand, accommodation-costs-new-zealand-2026, new-zealand-road-trip-fuel-cost-2026, public-transport-costs-new-zealand-2026, domestic-flight-costs-new-zealand-2026.
+- UI (220 strings, testimonials excluded), consent strings and support/privacy/terms: AU and NZ applied (privacy synced to the Website analytics section).
+- AU guides: 39 translated (all older guides; see ko.json). NZ guides: 40 translated.
+- 2026-10-20: both branches squashed and rebased onto main (M2 + tools hubs). Backup branches `i18n/a-ko-pre-rebase` / `i18n/k-ko-pre-rebase` hold the old history. Ko stays on its own dedicated engine catalog (`*-website-ko`), `locales:sync` drops ko from the shared catalog.
 
-## In progress / next
-- Guides in order of GSC impressions (pages-3m.tsv), interleaving both sites.
-  - AU in progress: australia-grocery-prices-2026, interstate-biosecurity-road-trip, campervan-road-trip-budget-australia, accommodation-costs-australia-2026 (written, in self-review).
-  - NZ in progress: dogs-camping-new-zealand, domestic-flight-costs-new-zealand-2026, cook-strait-ferry-campervan-guide, kauri-dieback-camping-travel, accommodation-costs-new-zealand-2026, overseas-driver-licence-new-zealand, sandflies-new-zealand-camping, volcanic-safety-new-zealand-travel.
-- Later: road trips, K legacy pages, consent/article/tools namespaces after foundation merges.
+## In progress / next (as of 2026-10-20)
+- Link-markup fix: the new English has `<a data-guide>` links in guides already translated (AU 135 units, NZ 83). Fix files /tmp/ko-work/fix/{au,nz}-out.json, then apply.
+- NZ batch 1 (writing): best-nz-camping-apps, where-to-camp-in-new-zealand, east-cape-road-trip, coromandel-rotorua-road-trip, northland-cape-reinga-camping-route.
+- Queue (impressions order, /tmp/ko-work/{au,nz}-queue.json): AU road trips and guides (brisbane-to-cape-tribulation, great-ocean-road-camping-guide, ...), NZ remaining guides and road trips; then `tools` namespaces (AU 116 keys, NZ 152), consent/article namespaces if new keys appear.
+- Working files in /tmp/ko-work (scripts: snapshot.py, check.py, normalize.py, mkinput.py, apply.zsh, audit.sh).
 
 ## Notes for the orchestrator
 - English source issues seen (not changed, English is not ours): AU `ui.metaKeywords` contains "offline camping map Australia" and NZ has "offline camping map NZ" (Korean uses 오프라인 캠핑 앱 instead); AU `pages.support.sections[5].paragraphs[0]` says "Map and place details are free", which conflicts with the Pass boundary.
