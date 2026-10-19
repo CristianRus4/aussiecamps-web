@@ -20,7 +20,7 @@ unit is being re-reviewed and rewritten against `docs/translation-style/it.md`.
 - [x] UI + support/privacy/terms, both sites (merged to main)
 - [x] Judge round 1 fixes (AU 7 + NZ 15 failing units, plus the same defects in shared copy)
 - [x] New English: privacy "Website analytics" (GA4) section, effective date, `consent.*` (both sites)
-- [ ] Guides AU (50): A01-A07 done (35 guides); A08-A10 queued (15 guides, in order)
+- [x] Guides AU (50): A01-A10 done (50 guides; A05-A07 judged 4.6 and merged, judge fixes applied; A08-A10 await judging)
 - [ ] Guides NZ (43): K01-K05 done (25 guides); K06, K07 in progress; K08-K09 queued
 - [ ] Road trips, Kiwi legacy pages, article/tools namespaces, data-guide link markup: not yet in
       `en.json` on main ("Road trips" is still in `untranslatedCategories`). Waiting.
@@ -35,9 +35,9 @@ unit is being re-reviewed and rewritten against `docs/translation-style/it.md`.
 | A05 | camping-rules-nt, road-rules-state-differences, camping-fees, travel-cost, fuel-cost | done |
 | A06 | camping-rules-tas, is-free-camping-legal, camping-without-phone-signal, campervan-driving-safety, water-planning | done |
 | A07 | bus-train-costs, overseas-driver-licence-state-guide, campfires, best-camping-app, road-rules-visitors | done |
-| A08 | driving-overseas-licence, camping-with-dogs, packing-list, first-campervan-trip, fuel-planning | queued |
-| A09 | weather-safety, responsible-camping, choosing-campsite, road-trains, fatigue-wildlife | queued |
-| A10 | how-to-plan-trip, filters, save-collections, place-details, widgets | queued |
+| A08 | driving-overseas-licence, camping-with-dogs, packing-list, first-campervan-trip, fuel-planning | done |
+| A09 | weather-safety, responsible-camping, choosing-campsite, road-trains, fatigue-wildlife | done |
+| A10 | how-to-plan-trip, filters, save-collections, place-details, widgets | done |
 | K01 | grocery-prices, doc-huts, public-transport-costs, road-signs, biosecurity-gear | done |
 | K02 | doc-campsite-rules, fuel-cost, campervan-road-rules, eating-out, travel-cost | done |
 | K03 | speed-limits, beer-wine-coffee, towing-caravan, wof-registration, accommodation-costs | done |
@@ -116,3 +116,9 @@ bus-train-costs links "Kangaroo Island" to the fatigue guide (odd anchor, kept).
 
 ## Blockers
 - None.
+
+## Run 3 (2026-10-20)
+A08-A10 written and committed on i18n/a-it, rebased onto origin/main (which has A05-A07). Judge fixes for A05-A07
+applied (commit "Apply Italian judge fixes (A05-A07)"). "Focolare" is the word for fire ring (no "anello per il fuoco").
+The NT tip "In Central Australia di notte si gela" keeps the English name (protected term).
+Next: rebase i18n/k-it onto origin/main (K-foundation merged), restore `<a data-guide>` markup in K01-K05, then K06-K09.
