@@ -54,6 +54,8 @@ everyday writing. Past tense -et (kastet, regnet). Choose and keep: **vei**, **b
 vegvesen signs: enfeltsbru), **ferje**, **frem**, **slik** (not sånn), **ennå** (yet), **etter
 hvert**.
 
+**Fidelity rule (added 2026-10-20, overrides every gloss instruction above).** Never add a fact, number, gloss, translation of a local term or explanatory aside that the English source does not contain. Where a term is explained in the English, translate the explanation; where it is not, keep the term as the English has it. Before every commit, re-read every sentence that states a rule, warning, fine or safety advice next to its English and confirm each never, do not, only, must and no is still there with the same meaning. A reversed or dropped negation is a critical error.
+
 ## 2. Glossary
 
 Sources: App Store keyword sets (`listing-checks/2026-10-14T1141-live.json`, locale `no`: bobil,
