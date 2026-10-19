@@ -3,7 +3,7 @@
   "ui": {
     "languageName": "Français",
     "metaTitle": "AussieCamps : carte camping et road trip en Australie",
-    "metaDescription": "Plus de 74 000 campings, caravan parks, campings gratuits, aires de repos et aires de vidange en Australie. Fiches lisibles sans réseau, filtres précis, road trip étape par étape.",
+    "metaDescription": "Plus de 74 000 campings, caravan parks, campings gratuits, aires de repos et aires de vidange en Australie. Fiches consultables sans réseau, filtres précis et planificateur de road trip sur iPhone.",
     "ogTitle": "AussieCamps : la carte camping et le planificateur de road trip pour l’Australie",
     "ogDescription": "Plus de 74 000 campings, caravan parks, campings gratuits et haltes pratiques, intégrés à l’app et lisibles sans réseau. Filtrez, gardez vos favoris et préparez tout le tour de l’Australie.",
     "metaKeywords": "application camping Australie, camping gratuit Australie, campings Australie, caravan parks Australie, camping sans réseau Australie, tour de l’Australie en van, aires de vidange Australie, aires de repos Australie, road trip Australie",
@@ -561,7 +561,7 @@
           "body": [
             "En NSW, le camping se répartit entre les réserves du National Parks and Wildlife Service (NPWS), les State Forests, le Crown land (terres publiques), les réserves municipales et les propriétés privées. Chaque type de terrain a son propre système de réservation, ses tarifs et ses règles, et les limites entre eux sont souvent invisibles depuis la route.",
             "Les campings du NPWS se réservent en ligne, et la plupart font payer à la fois le camping et, séparément, l’entrée du véhicule dans le parc. Les State Forests sont en général gratuites et bien moins réglementées : c’est l’option pratique pour le camping sauvage.",
-            "Les règles des réserves municipales varient énormément d’une collectivité locale à l’autre. Dormir sur une aire de repos, permis dans un comté, sera interdit dans le suivant : seuls les panneaux font foi."
+            "Les règles des réserves municipales varient énormément d’une collectivité locale à l’autre. Une aire de repos où la nuit est permise dans une municipalité peut être interdite dans la suivante : seuls les panneaux font foi."
           ],
           "tips": [
             "NPWS : camping et entrée du parc payants",
@@ -659,7 +659,7 @@
           "heading": "Camping sauvage et accès en véhicule",
           "body": [
             "Le bush camping (camping sauvage) n’est autorisé que là où le parc le permet. Restez à l’écart des cours d’eau, des chemins et des aires de pique-nique, et respectez les conditions de faible impact propres à chaque itinéraire.",
-            "K'gari et les autres destinations de sable exigent un véhicule préparé, une bonne connaissance des marées et des autorisations d’accès vérifiées à part. Un repère sur la carte ne prouve pas qu’un deux-roues motrices peut y accéder."
+            "K’gari et les autres destinations de sable exigent un véhicule préparé, une bonne connaissance des marées et des autorisations d’accès vérifiées à part. Un repère sur la carte ne prouve pas qu’un véhicule à deux roues motrices peut y accéder."
           ],
           "tips": [
             "Permis de camping",
@@ -679,7 +679,7 @@
           "heading": "Parcs nationaux : le système des permis",
           "body": [
             "Pour camper dans un parc national du Queensland, il faut un permis réservé à l’avance via le système de réservation Queensland Parks, et ce permis doit être affiché. Beaucoup de sites sont isolés et rudimentaires, avec peu ou pas d’équipements.",
-            "Les îles et les parcs côtiers les plus prisés, dont K'gari et les Whitsundays, sont complets des mois à l’avance et imposent leurs propres conditions d’accès et de véhicule, en plus du permis de camping.",
+            "Les îles et les parcs côtiers les plus prisés, dont K’gari et les Whitsundays, sont complets des mois à l’avance et imposent leurs propres conditions d’accès et de véhicule, en plus du permis de camping.",
             "Certains parcs exigent un permis d’accès distinct pour le véhicule, en particulier pour rouler sur la plage. Vérifiez les deux avant de partir : arriver avec l’un sans l’autre est une erreur fréquente, et elle coûte cher."
           ],
           "tips": [
@@ -728,9 +728,9 @@
           ]
         },
         {
-          "heading": "K'gari : la sécurité face aux dingos",
+          "heading": "K’gari : la sécurité face aux dingos",
           "body": [
-            "Sur K'gari, des règles précises encadrent la sécurité face aux dingos, et elles sont appliquées strictement : rester en groupe, ne jamais porter de nourriture en marchant, camper dans les aires clôturées. Si ces règles existent, c’est que des attaques graves se sont déjà produites.",
+            "Sur K’gari, des règles précises encadrent la sécurité face aux dingos, et elles sont appliquées strictement : rester en groupe, ne jamais porter de nourriture en marchant, camper dans les aires clôturées. Si ces règles existent, c’est que des attaques graves se sont déjà produites.",
             "Nourrir un dingo, ou laisser de la nourriture à sa portée, expose à de lourdes amendes. Ce sont les animaux habitués à l’homme qui attaquent, et chaque incident remonte à un accès à la nourriture.",
             "Le système de réservation des parcs du Queensland ouvre les réservations sur une période glissante avant la date d’arrivée, et les sites les plus prisés, sur les îles et sur la côte, partent dans les minutes qui suivent l’ouverture.",
             "Les permis d’accès des véhicules pour rouler sur la plage sont distincts des permis de camping : sur les îles, arriver avec un seul des deux est une erreur fréquente et coûteuse."
@@ -956,7 +956,7 @@
           "heading": "Restrictions sur les feux",
           "body": [
             "L’Australie-Méridionale fixe sa saison des incendies (fire danger season) district par district, en général de novembre à avril. Pendant cette saison, les <a data-guide=\"campfires-camping-australia\">feux de camp</a> sont soumis à restrictions, et les Total Fire Bans (interdictions totales de feu) proscrivent toute flamme nue, barbecues à combustible solide compris.",
-            "Les jours d’interdiction, les appareils à gaz restent en général autorisés sous conditions, notamment une zone dégagée et une surveillance constante. Vérifiez le détail de l’interdiction au lieu de supposer.",
+            "Les jours d’interdiction, les appareils à gaz restent en général autorisés sous conditions, notamment une zone dégagée et une surveillance constante. Lisez le détail de l’interdiction plutôt que de vous fier à la règle générale.",
             "De nombreux parcs interdisent les feux en permanence, surtout en zone aride, où le ramassage du bois abîme un milieu fragile. Emportez un réchaud à gaz et ne comptez pas sur un feu de camp."
           ],
           "tips": [
@@ -1048,7 +1048,7 @@
         {
           "heading": "Camping gratuit et règle des 24 heures",
           "body": [
-            "De nombreuses collectivités locales de WA autorisent un séjour de 24 heures sur les aires de repos prévues à cet effet et interdisent le camping ailleurs. Les règles varient beaucoup d’un comté (shire) à l’autre, et plus le comté est isolé, plus il est en général tolérant.",
+            "De nombreuses collectivités locales de WA autorisent un séjour de 24 heures sur les aires de repos prévues à cet effet et interdisent le camping ailleurs. Les règles varient beaucoup d’une municipalité (shire) à l’autre, et plus la municipalité est isolée, plus elle est en général tolérante.",
             "Sur la North West Coastal Highway et la Great Northern Highway, certaines aires de repos autorisent des séjours plus longs et font de fait office de campings gratuits. La durée maximale est affichée, et elle est contrôlée dans les secteurs les plus fréquentés.",
             "Les séjours en station (station stays), où de grandes exploitations d’élevage ouvrent des aires de camping aux voyageurs, sont une spécialité de WA et souvent le seul hébergement à des centaines de kilomètres à la ronde. La plupart des stations acceptent les espèces, et rares sont celles où l’on peut réserver de façon fiable."
           ],
@@ -1168,7 +1168,7 @@
           "heading": "Kakadu, Litchfield et pass des parcs",
           "body": [
             "Kakadu exige un pass acheté à l’avance, Litchfield non. Uluṟu-Kata Tjuṯa et Watarrka ont leurs propres modalités : vérifiez parc par parc au lieu de supposer un système unique pour tout le Territoire.",
-            "À Kakadu, beaucoup des plus beaux sites ne sont accessibles qu’en 4x4 à garde au sol haute, avec des gués à franchir, ce que la plupart des contrats de location standard interdisent. Avec un véhicule deux-roues motrices, vous en verrez davantage en une journée à Litchfield.",
+            "À Kakadu, beaucoup des plus beaux sites ne sont accessibles qu’en 4x4 à garde au sol haute, avec des gués à franchir, ce que la plupart des contrats de location standard interdisent. Avec un véhicule à deux roues motrices, vous en verrez davantage en une journée à Litchfield.",
             "Dans les parcs, les sites sacrés sont soumis à des restrictions de photo et d’accès, indiquées par des panneaux. Ce sont des conditions d’accès, pas des recommandations, et il importe de les respecter."
           ],
           "tips": [
@@ -1750,12 +1750,12 @@
           "heading": "Pas de réponse valable pour tout le pays",
           "body": [
             "C’est le gestionnaire du terrain qui décide si le camping gratuit y est légal : services des parcs des États, State Forests (forêts domaniales), municipalités, autorités routières et propriétaires privés appliquent tous des règles différentes. Il n’existe pas de règle nationale à retenir.",
-            "Concrètement, la réponse change à chaque limite de collectivité locale, et ces limites ne se voient pas depuis la route. Une règle vérifiée dans un comté (shire) ne vous dit rien du suivant.",
+            "Concrètement, la réponse change à chaque limite de collectivité locale, et ces limites ne se voient pas depuis la route. Une règle vérifiée dans une municipalité (shire) ne vous dit rien de la suivante.",
             "Les sources fiables sont les panneaux sur place et le site web de la municipalité concernée. Tout le reste, applis et guides compris, est un point de départ, pas une référence qui fait foi."
           ],
           "tips": [
             "Aucune règle nationale",
-            "La règle change d’un comté à l’autre",
+            "La règle change d’une municipalité à l’autre",
             "Les panneaux font foi"
           ]
         },
@@ -1816,7 +1816,7 @@
       "faq": [
         [
           "Le camping gratuit est-il légal en Australie ?",
-          "Oui, dans les zones prévues à cet effet, et nulle part ailleurs. Il n’existe pas de règle nationale : ce qui est permis dépend de l’État, du gestionnaire du terrain et de la municipalité, si bien qu’une aire de repos peut être une halte de nuit légale dans un comté et vous valoir une amende dans le suivant."
+          "Oui, dans les zones prévues à cet effet, et nulle part ailleurs. Il n’existe pas de règle nationale : ce qui est permis dépend de l’État, du gestionnaire du terrain et de la municipalité, si bien qu’une aire de repos peut être une halte de nuit légale dans une municipalité et vous valoir une amende dans la suivante."
         ],
         [
           "Combien de temps peut-on rester sur une aire de repos ?",
@@ -2345,7 +2345,7 @@
         {
           "heading": "Où refaire le plein",
           "body": [
-            "Les villes, les <a data-guide=\"caravan-park-vs-holiday-park\">caravan parks</a>, les offices de tourisme et de nombreuses aires de repos ont de l’eau potable, mais tous les robinets ne sont pas potables et la signalisation n’est pas toujours présente. Si une eau est non traitée ou douteuse, traitez-la au lieu de supposer.",
+            "Les villes, les <a data-guide=\"caravan-park-vs-holiday-park\">caravan parks</a>, les offices de tourisme et de nombreuses aires de repos ont de l’eau potable, mais l’eau n’est pas potable à tous les robinets et ce n’est pas toujours signalé. Si une eau n’est pas traitée ou paraît douteuse, traitez-la plutôt que de la croire potable.",
             "L’eau de forage est courante dans l’intérieur de l’Australie et souvent très chargée en minéraux ou en sels. Elle peut être sans danger mais désagréable, ou totalement impropre à la consommation, et les panneaux l’indiquent en général.",
             "Dans les régions isolées, les citernes des campings recueillent l’eau de pluie et leur état varie. Emportez de quoi traiter l’eau plutôt que de compter sur une source unique, disponible et propre."
           ],
@@ -2711,7 +2711,7 @@
           "heading": "Faune et nourrissage",
           "body": [
             "Ne nourrissez aucun animal sauvage. La nourriture humaine provoque maladies, dépendance et agressivité, et les animaux habitués finissent tués sur les routes ou abattus comme animaux à problème. Cela vaut autant pour les dingos que pour les <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">kangourous</a>, les phalangers et les oiseaux.",
-            "La nuit, rangez nourriture et déchets en lieu sûr. Sur K'gari en particulier, des dingos ont causé des blessures graves et des décès, et chaque incident remonte à un accès à la nourriture et à l’accoutumance à l’homme.",
+            "La nuit, rangez nourriture et déchets en lieu sûr. Sur K’gari en particulier, des dingos ont causé des blessures graves et des décès, et chaque incident remonte à un accès à la nourriture et à l’accoutumance à l’homme.",
             "Gardez vos distances pour photographier, ne vous placez jamais entre un animal et sa voie de fuite, et laissez une large marge aux animaux qui nichent ou se reposent."
           ],
           "tips": [
@@ -5309,7 +5309,7 @@
           "heading": "Des règles de vitesse qui varient",
           "body": [
             "L’<a data-guide=\"camping-rules-western-australia\">Australie-Occidentale</a> limite à 100 km/h tout véhicule qui tracte une remorque ou une caravane, et impose une distance de 60 mètres derrière certains véhicules lourds ou attelés, sauf pour dépasser.",
-            "La limite de 100 km/h citée pour la Nouvelle-Galles du Sud s’applique quand le véhicule tracteur ou l’ensemble dépasse 4,5 tonnes. Ne généralisez jamais la règle d’un État en vitesse de remorquage valable pour tout le pays."
+            "La limite de 100 km/h citée pour la Nouvelle-Galles du Sud s’applique quand le véhicule tracteur ou l’ensemble dépasse 4,5 tonnes. N’érigez jamais la règle d’un État en limite nationale de vitesse pour le remorquage."
           ],
           "tips": []
         },
@@ -5709,7 +5709,7 @@
         ],
         [
           "Quelles règles changent le plus d’un État australien à l’autre ?",
-          "Les vitesses maximales en remorquage, la distance minimale pour dépasser un cycliste, les règles de conduite sur piste non goudronnée avec un véhicule de location et les horaires des zones scolaires. Les points de pénalité, eux, sont comptabilisés d’un État à l’autre, même si les infractions sanctionnées diffèrent."
+          "Les vitesses maximales en remorquage, la distance minimale pour dépasser un cycliste, les règles de conduite sur piste non goudronnée avec un véhicule de location et les horaires des zones scolaires. Les points de pénalité, eux, valent dans tous les États, même si les infractions qui les font perdre diffèrent."
         ]
       ],
       "sources": [
@@ -6495,7 +6495,7 @@
             "Loch Ard Gorge, quelques minutes plus à l’ouest, est plus tranquille que les Apôtres et sans doute le meilleur arrêt. L’histoire du naufrage et l’accès à la plage valent bien plus que les dix minutes que la plupart des gens lui accordent."
           ],
           "tips": [
-            "Le lever du soleil bat le coucher pour la foule",
+            "Moins de monde au lever qu’au coucher du soleil",
             "Loch Ard Gorge est plus calme",
             "Réservez les vols le matin"
           ]
@@ -6534,7 +6534,7 @@
     },
     "east-coast-road-trip-sydney-cairns": {
       "title": "De Sydney à Cairns : road trip en camping de 14 jours",
-      "description": "Deux semaines de camps sur la plage, d’arrière-pays verdoyant et de matins tropicaux.",
+      "description": "Deux semaines de campings en bord de mer, d’arrière-pays verdoyant et de matins tropicaux.",
       "region": "Côte est",
       "imageAlt": "Route tropicale de la côte est, dans le Queensland",
       "intro": "De Sydney à Cairns, comptez environ 2 500 kilomètres, détours non compris. Quatorze jours, c’est court : misez sur quelques longues étapes plutôt que de dormir chaque soir dans une ville différente.",
@@ -6551,11 +6551,11 @@
           "heading": "Nord de la Nouvelle-Galles du Sud et sud-est du Queensland",
           "body": [
             "Byron Bay est populaire pour de bonnes raisons, mais les <a data-guide=\"caravan-park-vs-holiday-park\">caravan parks</a> (campings privés avec sanitaires, souvent des bungalows) des environs affichent vite complet et la circulation est lente pendant les vacances. Brunswick Heads, Lennox Head et la région de Tweed offrent une base plus calme.",
-            "En passant dans le <a data-guide=\"camping-rules-queensland\">Queensland</a>, choisissez entre l’arrière-pays de la Gold Coast et le littoral. Le parc national de Springbrook ajoute des cascades et des nuits plus fraîches. K'gari demande une préparation à part : marées, permis pour véhicules et conduite sur le sable."
+            "En passant dans le <a data-guide=\"camping-rules-queensland\">Queensland</a>, choisissez entre l’arrière-pays de la Gold Coast et le littoral. Le parc national de Springbrook ajoute des cascades et des nuits plus fraîches. K’gari demande une préparation à part : marées, permis pour véhicules et conduite sur le sable."
           ],
           "tips": [
             "Vérifiez les dates des vacances scolaires",
-            "Confirmez les règles pour véhicules à K'gari",
+            "Confirmez les règles pour véhicules à K’gari",
             "Ne conduisez pas fatigué après une journée de plage"
           ]
         },
@@ -6575,7 +6575,7 @@
             "Choisissez trois temps forts et traitez le reste comme des journées de route avec une baignade. Vouloir tout faire donne un voyage passé presque entièrement dans le véhicule."
           ],
           "tips": [
-            "Environ 2 400 km en direct",
+            "Environ 2 400 km par la route directe",
             "Trois temps forts, pas six",
             "200 km par jour : le rythme réaliste"
           ]
@@ -6590,14 +6590,14 @@
           "tips": [
             "Deux nuits : Byron, Noosa, Airlie, Port Douglas",
             "Une journée de réserve pour la météo du récif",
-            "Les villes de transit n’ont rien de spécial à offrir"
+            "Villes étapes : rien de spécial à prévoir"
           ]
         },
         {
           "heading": "Stingers, crocodiles et baignade",
           "body": [
             "Au nord d’une ligne passant à peu près par Gladstone, les stingers (méduses venimeuses) rendent la baignade en mer sans protection dangereuse, en gros de novembre à mai. Filets anti-méduses et combinaisons intégrales sont la précaution standard, et la signalisation est fiable : suivez-la au lieu de vous fier au calme apparent de l’eau.",
-            "Les crocodiles marins vivent dans les cours d’eau à partir de Rockhampton environ vers le nord, y compris dans des rivières, des criques et des plages d’apparence inoffensive. Ne vous baignez jamais, ne nettoyez pas votre poisson et ne campez pas au bord de l’eau en zone à crocodiles, et respectez chaque panneau d’avertissement.",
+            "Les crocodiles marins vivent dans les cours d’eau à partir de Rockhampton environ vers le nord, y compris dans des rivières, des ruisseaux et sur des plages d’apparence inoffensive. Ne vous baignez jamais, ne videz pas votre poisson et ne campez pas au bord de l’eau en zone à crocodiles, et respectez chaque panneau d’avertissement.",
             "Dans le nord, les baignades sûres sont les plages surveillées à l’intérieur des filets anti-méduses, les bassins d’eau douce là où les panneaux le confirment, et les nombreux lagons aménagés des villes. Cairns et Airlie Beach ont chacune un excellent lagon public gratuit, justement pour cette raison."
           ],
           "tips": [
@@ -6622,14 +6622,14 @@
         {
           "heading": "Les îles qui valent le détour",
           "body": [
-            "K'gari, les Whitsundays et Magnetic Island sont les trois détours insulaires de cet itinéraire, et chacun demande au moins deux jours, transferts compris. Les ajouter tous les trois à une quinzaine, c’est ce qui fait exploser l’itinéraire.",
-            "K'gari exige un 4x4 et un permis véhicule, ou une excursion organisée, et impose des règles strictes de sécurité face aux dingos, à respecter à la lettre. Choisissez une île et faites-la bien plutôt que de courir les trois.",
+            "K’gari, les Whitsundays et Magnetic Island sont les trois détours insulaires de cet itinéraire, et chacun demande au moins deux jours, transferts compris. Les ajouter tous les trois à une quinzaine, c’est ce qui fait exploser l’itinéraire.",
+            "K’gari exige un 4x4 et un permis véhicule, ou une excursion organisée, et impose des règles strictes de sécurité face aux dingos, à respecter à la lettre. Choisissez une île et faites-la bien plutôt que de courir les trois.",
             "Quelles que soient les îles que vous choisissez, réservez la sortie en bateau dès le début de votre séjour dans la ville concernée, pour pouvoir la reporter en cas d’annulation météo plutôt que tout perdre.",
             "La saison des cyclones, dans le nord tropical, va de novembre à avril : un système peut fermer la Bruce Highway et clouer au sol les sorties sur le récif pendant plusieurs jours d’affilée."
           ],
           "tips": [
             "Deux jours minimum par île",
-            "K'gari : 4x4 et permis obligatoires",
+            "K’gari : 4x4 et permis obligatoires",
             "Une île, pas trois"
           ]
         }
@@ -6678,7 +6678,7 @@
           "body": [
             "De Perth à Broome, il y a environ 2 200 kilomètres, les villes sont très espacées, et il arrive que la prochaine station-service soit à plusieurs centaines de kilomètres. C’est le voyage où la planification de l’autonomie cesse d’être théorique.",
             "Dix jours, c’est le minimum pour s’arrêter à Kalbarri, Shark Bay, Coral Bay et Exmouth. Avec deux semaines, vous pouvez ajouter Karijini, le meilleur détour du parcours, qui ajoute environ 600 kilomètres.",
-            "Réservez vos hébergements à Exmouth, Coral Bay et Broome en saison sèche : ces étapes se remplissent de voyageurs du sud qui fuient l’hiver, et il n’y a aucune capacité de débordement."
+            "Réservez vos hébergements à Exmouth, Coral Bay et Broome en saison sèche : ces étapes se remplissent de voyageurs du sud qui fuient l’hiver, et quand tout est complet, il n’y a aucune solution de repli sur place."
           ],
           "tips": [
             "Environ 2 200 km",
@@ -6746,7 +6746,7 @@
     },
     "brisbane-to-cape-tribulation": {
       "title": "Itinéraire en camping de Brisbane à Cape Tribulation",
-      "description": "Les stations balnéaires cèdent la place aux îles du récif et à la forêt tropicale à mesure que la côte devient tropicale.",
+      "description": "Les stations balnéaires cèdent la place aux îles du récif et à la forêt humide à mesure que la côte bascule sous les tropiques.",
       "region": "Côte du Queensland",
       "imageAlt": "Route en forêt tropicale près de Cape Tribulation",
       "intro": "Au nord de Brisbane, les saisons changent plus vite que les paysages. Prévoyez au moins deux semaines pour ce trajet, et placez vos plus longues journées de route loin des endroits où vous voulez le plus nager, marcher ou simplement ne rien faire.",
@@ -6754,7 +6754,7 @@
         {
           "heading": "De Brisbane à la Capricorn Coast",
           "body": [
-            "Commencez par Noosa ou la côte de Cooloola, puis décidez si K'gari convient à votre véhicule et à votre programme. Voyager sur l’île implique des permis, des fenêtres de marée et du sable mou : ce n’est jamais une escapade à improviser.",
+            "Commencez par Noosa ou la côte de Cooloola, puis décidez si K’gari convient à votre véhicule et à votre programme. Voyager sur l’île implique des permis, des fenêtres de marée et du sable mou : ce n’est jamais une escapade à improviser.",
             "Agnes Water est une pause confortable avant les plus longues distances de la côte centrale. Faites vos provisions dans les grandes villes et ne laissez pas une arrivée tardive vous transformer en <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">conduite de nuit</a> en pleine zone de faune sauvage."
           ],
           "tips": []
@@ -6775,7 +6775,7 @@
           "heading": "Daintree et Cape Tribulation",
           "body": [
             "Traversez la Daintree River avec assez de carburant et de lumière du jour. Le réseau mobile peut être capricieux, les routes peuvent être touchées par de fortes pluies et les grands véhicules doivent vérifier soigneusement l’accès.",
-            "Choisissez un camping autorisé ou un <a data-guide=\"caravan-park-vs-holiday-park\">caravan park</a> et mettez la nourriture à l’abri. Respectez les avertissements sur les crocodiles, et ne partez jamais du principe qu’une plage ou une crique est sûre pour se baigner parce que d’autres personnes sont au bord de l’eau."
+            "Choisissez un camping autorisé ou un <a data-guide=\"caravan-park-vs-holiday-park\">caravan park</a> et mettez la nourriture à l’abri. Respectez les avertissements sur les crocodiles, et ne partez jamais du principe qu’une plage ou un ruisseau est sûr pour se baigner parce que d’autres personnes sont au bord de l’eau."
           ],
           "tips": []
         },
@@ -6795,7 +6795,7 @@
         {
           "heading": "Ici, les crocodiles dictent les règles",
           "body": [
-            "Les crocodiles marins habitent tous les cours d’eau du nord tropical : criques, mangroves, estuaires, et les plages elles-mêmes. La côte de Daintree et de Cape Tribulation est un habitat de premier choix, et le risque est réel, pas théorique.",
+            "Les crocodiles marins peuplent tous les cours d’eau du nord tropical : ruisseaux, mangroves, estuaires, et jusqu’aux plages. La côte de Daintree et de Cape Tribulation est un habitat de premier choix, et le risque est réel, pas théorique.",
             "Ne vous baignez dans aucun cours d’eau, ni à côté, sauf dans une zone de baignade désignée comme sûre. Ne campez pas à quelques mètres de l’eau, ne nettoyez pas votre poisson au bord et ne restez pas dans les eaux peu profondes pour une photo.",
             "Les baignades sûres, ici, se font dans les bassins d’eau douce désignés, comme Mossman Gorge et Emmagen Creek, et même ceux-là portent des panneaux qui valent la peine d’être lus à chaque visite, car les conditions changent."
           ],
@@ -6841,7 +6841,7 @@
           ],
           "tips": [
             "Ralentissez dans les zones à casoars signalées",
-            "Ne le nourrissez ni ne vous approchez jamais",
+            "Ne nourrissez jamais un casoar, ne l’approchez pas",
             "Mettez un obstacle entre vous, ne courez pas"
           ]
         }
