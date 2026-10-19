@@ -1,0 +1,50 @@
+{
+ "url": "https://aussiecamps.app/guides/save-collections-aussiecamps/",
+ "slug": "save-collections-aussiecamps",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "aussiecamps saved places / collections (brand help page)",
+ "scores": {
+  "searchFit": 1,
+  "accuracy": 5,
+  "depth": 3,
+  "conversion": 3,
+  "links": 2,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 53.7,
+ "accuracyFlags": [],
+ "cannibalWith": [
+  "/support/"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "Save and Organise Camping Places in AussieCamps",
+  "meta": "Use smart lists, custom collections and notes in AussieCamps to keep backups, ideas and trip stops separate, with private iCloud sync.",
+  "h1": "How to organise saved places in AussieCamps",
+  "addSections": [
+   "Screenshot of Collections screen (currently none) and a QR to the App Store",
+   "Link from every guide's CTA to this page as 'how saving works'",
+   "Short 'booked stays are free, other places need the Pass' note to state free/Pass boundary honestly"
+  ],
+  "faqFromQueries": [],
+  "cta": "This page is the CTA target: add a primary 'Open Collections in AussieCamps' App Store button with QR on desktop.",
+  "linksIn": [
+   "/support/",
+   "/tools/",
+   "/guides/dump-points-australia-guide/"
+  ],
+  "linksOut": [
+   "/support/",
+   "/tools/",
+   "/guides/is-free-camping-legal-australia/"
+  ]
+ },
+ "notes": "Product claims checked against the app blueprint (Liked, Starred, Visited, Want to Visit smart lists; custom collections; notes; private iCloud sync): all true. Branded help content with no organic demand: keep as product documentation. Repeated sections (smart collections and iCloud sync described twice). No Pass-status mention. Generic 'Save the stops. Plan the whole trip. / Download app' block, no feature-specific wording, no screenshot, no QR noted. Locale copies indexed. Source lib/site.ts:305, lib/article-faqs.ts:169."
+}

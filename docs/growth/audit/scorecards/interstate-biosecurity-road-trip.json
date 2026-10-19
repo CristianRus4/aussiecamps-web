@@ -1,0 +1,62 @@
+{
+ "url": "https://aussiecamps.app/guides/interstate-biosecurity-road-trip/",
+ "slug": "interstate-biosecurity-road-trip",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 61,
+  "pos": 13.4,
+  "topQueries": [
+   "locale variants: es 102 impr pos 16.6, it 37 pos 9.3, de 28 pos 9.2"
+  ]
+ },
+ "primaryQuery": "can you take fruit across state borders australia",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 4,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 52.0,
+ "accuracyFlags": [
+  "States 'on-the-spot fine' with no amounts; official fines differ by state and must be sourced and dated 2026.",
+  "Describes SA, Tasmania, Vic and NSW as 'fruit fly exclusion zones'; official terms are pest-free areas, outbreak zones and restricted areas, with specific regions. Needs a state table with official links.",
+  "Only one official link (agriculture.gov.au); no WA, SA, Tas or NT agency links; NT and WA checkpoint locations (Eucla/Border Village, Kununurra) not stated."
+ ],
+ "cannibalWith": [
+  "nullarbor-crossing-camping-guide",
+  "melbourne-to-adelaide-coastal-route",
+  "kangaroo-island-camping-guide"
+ ],
+ "action": "RETITLE",
+ "priority": "P1",
+ "proposed": {
+  "title": "Fruit Fly & Quarantine Rules Between Australian States (2026)",
+  "meta": "What fruit, honey, plants and gear you can't carry across state borders, which borders have checkpoints and what the fines are.",
+  "h1": "Interstate biosecurity: what you can't carry across Australian borders",
+  "addSections": [
+   "State-by-state table: checkpoints, restricted items, fine amounts with official links and 2026 date",
+   "Border checklist to run down the fridge"
+  ],
+  "faqFromQueries": [
+   "Can you take fruit across state borders in Australia?",
+   "Where are the quarantine checkpoints in Australia?",
+   "Can you take honey into Tasmania?"
+  ],
+  "cta": "Add a dump-and-restock stop before each border in your AussieCamps trip to-do list (Planner)",
+  "linksIn": [
+   "/guides/nullarbor-crossing-camping-guide/",
+   "/guides/melbourne-to-adelaide-coastal-route/",
+   "/guides/kangaroo-island-camping-guide/"
+  ],
+  "linksOut": [
+   "/guides/camping-rules-western-australia/",
+   "/guides/camping-rules-tasmania/",
+   "/guides/camping-rules-south-australia/",
+   "/guides/nullarbor-crossing-camping-guide/"
+  ]
+ },
+ "notes": "Pos 13.4, 0 clicks vs ~1.8 expected (3%), below half: RETITLE. Verify and add fine amounts before publishing the new title. Foreign-language variants outrank English, suggesting demand."
+}

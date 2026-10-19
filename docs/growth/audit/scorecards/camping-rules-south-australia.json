@@ -1,0 +1,66 @@
+{
+ "url": "https://aussiecamps.app/guides/camping-rules-south-australia/",
+ "slug": "camping-rules-south-australia",
+ "gsc90": {
+  "clicks": 2,
+  "impr": 184,
+  "pos": 12.8,
+  "topQueries": [
+   "can you park a campervan anywhere in south australia (10 impr, pos 52.6)",
+   "campsite rules adelaide (4 impr)"
+  ]
+ },
+ "primaryQuery": "camping rules south australia",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 2,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 50.5,
+ "accuracyFlags": [
+  "'Some parks, including the Flinders Ranges and Innamincka, have desert parks passes' - Desert Parks Pass covers Simpson/Strzelecki/Innamincka-type outback reserves; Ikara-Flinders Ranges is booked via the SA parks system, not the pass (SA DEW lists Ikara among online-booked Desert Parks but not as a Desert Parks Pass park) - verify and reword",
+  "Fruit fly section: Riverland is the pest-free area with roadblocks/bins; 'prohibits bringing fresh fruit across its borders' overstates, and SA fruit fly outbreak zones in Adelaide changed 2025-26 - date and cite PIRSA",
+  "Fire danger season 'generally November to April' varies by district - needs CFS source",
+  "Page chases 'campervan anywhere in SA' query but says nothing on freedom camping/ roadside rules"
+ ],
+ "cannibalWith": [
+  "/guides/camping-fees-australia-2026/ (fees and park passes by state)",
+  "/guides/is-free-camping-legal-australia/ (free camping rules by state)",
+  "/guides/campfires-camping-australia/ (fire bans)"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "Camping rules South Australia 2026: bookings, passes, fires",
+  "meta": "South Australia camping rules for 2026: national park bookings, Desert Parks Pass, fire bans, fruit fly checkpoints and where you can camp for free.",
+  "h1": "Camping rules in South Australia (2026): bookings, fees, fires, free camping",
+  "addSections": [
+   "Where can you camp in a campervan in SA (council rest areas, no roadside camping rule box)",
+   "Desert Parks Pass: exactly which parks, price, date, link",
+   "PIRSA fruit fly: zones, what to bin, link"
+  ],
+  "faqFromQueries": [
+   "can you park a campervan anywhere in south australia",
+   "campsite rules adelaide",
+   "do you need a permit to camp in south australian parks"
+  ],
+  "cta": "Find the South Australia campgrounds, rest areas, dump points and water points with filters in AussieCamps (Pass places; BookEasy stays and tours stay free). Screenshot of the South Australia map filtered to campgrounds, QR on desktop.",
+  "linksIn": [
+   "/guides/camping-fees-australia-2026/",
+   "/guides/is-free-camping-legal-australia/",
+   "/tools/ (road trip planner)"
+  ],
+  "linksOut": [
+   "National Parks and Wildlife Service SA bookings (linked)",
+   "/guides/camping-fees-australia-2026/",
+   "/guides/is-free-camping-legal-australia/",
+   "/guides/campfires-camping-australia/",
+   "/guides/camping-rules-new-south-wales/ and neighbouring state pages"
+  ]
+ },
+ "notes": "Page carries two layers of text: a short original summary (sections 01-03) then long appended sections (04-08) that repeat points (e.g. fire bans, passes, permits stated twice) - tighten and dedupe. No official-source links in the body (only a plain-text 'Check before you go' label naming the agency, not linked), no dollar fees and no 2026-dated figures; 'Updated 18 August 2026' only. Generic trip-planner CTA. Rest-area/ camping/ dump-point data is Pass-only, so CTA must say so honestly."
+}

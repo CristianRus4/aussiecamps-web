@@ -1,0 +1,58 @@
+{
+ "url": "https://aussiecamps.app/guides/queensland-outback-way/",
+ "slug": "queensland-outback-way",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "queensland outback road trip (carnarvon gorge, longreach, winton, boodjamulla)",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 53.7,
+ "accuracyFlags": [
+  "'Gaps between fuel can exceed 200 km' here vs '300 km' on road-trip-fuel-planning-australia: pick one sourced figure.",
+  "Fines for driving closed outback roads asserted as 'substantial' with no council/TMR source; no Queensland Parks booking/fee detail for Carnarvon Gorge or Boodjamulla (camping permits are required and booked via QLD Parks).",
+  "Dry season April-October, wet season November-March: reasonable but undated and unsourced; 'Mitchell, Cunnamulla, Eulo all have facilities' (artesian baths) unverified for 2026 opening."
+ ],
+ "cannibalWith": [
+  "/guides/east-coast-road-trip-sydney-cairns/",
+  "/guides/camping-rules-queensland/"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "Queensland Outback Camping Route: Carnarvon to Boodjamulla",
+  "meta": "Ten-day outback Queensland route: Carnarvon Gorge, Longreach, Winton and Boodjamulla, with fuel gaps, wet-season closures and booking tips.",
+  "h1": "Queensland outback camping route",
+  "addSections": [
+   "Route table with daily km, fuel stops and camp options",
+   "Queensland Parks permit and booking steps for Carnarvon Gorge and Boodjamulla with 2026 fees and QLD Government link",
+   "Road closure sources: QLDTraffic and council road-condition pages"
+  ],
+  "faqFromQueries": [
+   "When is the best time to drive the Queensland outback?",
+   "Do you need a permit to camp at Boodjamulla?"
+  ],
+  "cta": "Browse outback Queensland campgrounds and roadhouses in AussieCamps and save the fuel stops as a trip so distances between them show.",
+  "linksIn": [
+   "/guides/road-trip-fuel-planning-australia/",
+   "/guides/camping-rules-queensland/",
+   "/guides/camping-without-phone-signal/"
+  ],
+  "linksOut": [
+   "/guides/camping-rules-queensland/",
+   "/guides/road-trip-fuel-planning-australia/",
+   "/guides/camping-without-phone-signal/"
+  ]
+ },
+ "notes": "Zero impressions in 3 months (data window starts 27 Aug), so NOINDEX/MERGE is the literal rule; treated as KEEP because the site is only ~7 weeks into indexing and a genuine topic cluster exists. Before any noindex, run URL Inspection: it is in sitemap.xml (en only) but crawl status is unknown. hreflang alternates on this page point to de/es/fr/it/nl/pt copies that are noindex and absent from sitemap.xml (en-only in sitemap): mixed signal, drop the alternates (or index the locales) so Search Console stops reporting excluded-by-noindex/alternate issues. Generic 'Save the stops. Plan the whole trip. / Download app' block, no feature-specific wording, no screenshot, no QR noted. Source lib/site.ts:185."
+}

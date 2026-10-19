@@ -1,0 +1,60 @@
+{
+ "url": "https://aussiecamps.app/guides/great-ocean-road-camping-guide/",
+ "slug": "great-ocean-road-camping-guide",
+ "gsc90": {
+  "clicks": 1,
+  "impr": 90,
+  "pos": 58.9,
+  "topQueries": [
+   "great ocean road camping (12, pos 64.3)",
+   "camping great ocean road australia (11, pos 60.3)",
+   "great ocean road campground (4, pos 63.8)"
+  ]
+ },
+ "primaryQuery": "great ocean road camping",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 4,
+  "conversion": 3,
+  "links": 4,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 59.0,
+ "accuracyFlags": [
+  "'Poor crash record involving visiting drivers' is unsourced; cite TAC/VicRoads or drop it.",
+  "Johanna Beach and Aire River booking via Parks Victoria is plausible but no 2026 fees or dates; Wye River/Jamieson Creek/Cumberland River options that top-ranking guides list are missing."
+ ],
+ "cannibalWith": [
+  "melbourne-to-adelaide-coastal-route",
+  "is-free-camping-legal-australia"
+ ],
+ "action": "KEEP",
+ "priority": "P2",
+ "proposed": {
+  "title": "Great Ocean Road Camping: 3-Day Route & Campgrounds",
+  "meta": "Where to camp on the Great Ocean Road: booked Parks Victoria sites, holiday parks, why free camping is rare and a 3-day plan.",
+  "h1": "Great Ocean Road camping guide: campgrounds and a 3-day route",
+  "addSections": [
+   "Campground comparison table (Aire River, Johanna Beach, Jamieson Creek, Apollo Bay, Port Campbell) with fees and booking source",
+   "Free camping reality section linking the Victoria rules page"
+  ],
+  "faqFromQueries": [
+   "Can you free camp on the Great Ocean Road?",
+   "How many days do you need for the Great Ocean Road?",
+   "Great Ocean Walk camping"
+  ],
+  "cta": "Search every Great Ocean Road campground, holiday park and dump point in AussieCamps and save the three you want (place details work offline)",
+  "linksIn": [
+   "/guides/melbourne-to-adelaide-coastal-route/",
+   "/guides/camping-rules-victoria/"
+  ],
+  "linksOut": [
+   "/guides/camping-rules-victoria/",
+   "/guides/is-free-camping-legal-australia/",
+   "/guides/caravan-park-vs-holiday-park/"
+  ]
+ },
+ "notes": "Pos 59 with 90 impressions is below the 200-impression REWRITE threshold, so KEEP, but the current title is 61 chars and leads with 'Great Ocean Road camping guide'; the meta is poetic and does not answer a camping query. Metadata edit is low risk."
+}

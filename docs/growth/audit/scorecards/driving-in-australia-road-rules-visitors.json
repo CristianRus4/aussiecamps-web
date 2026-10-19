@@ -1,0 +1,58 @@
+{
+ "url": "https://aussiecamps.app/guides/driving-in-australia-road-rules-visitors/",
+ "slug": "driving-in-australia-road-rules-visitors",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 18,
+  "pos": 52.8,
+  "topQueries": [
+   "driving in australia road rules visitors (en, 18 impr, pos 52.8)"
+  ]
+ },
+ "primaryQuery": "driving in australia road rules for tourists",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 2,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 46,
+ "accuracyFlags": [
+  "Body: 'Never present 0.05 as a universal allowance' but FAQ tells visitors to 'observe the 0.05 blood alcohol limit': contradictory",
+  "'Demerit points do not apply to overseas licences': oversimplified, fines and demerit consequences vary by state",
+  "'speed enforced by camera far more than by patrol' unsourced",
+  "Title is 75 chars; no 2026 date or fine amounts"
+ ],
+ "cannibalWith": [
+  "australia-road-rules-state-differences",
+  "australian-road-signs-visitors-guide",
+  "driving-in-australia-overseas-licence"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P1",
+ "proposed": {
+  "title": "Driving in Australia: Road Rules for Visitors (2026)",
+  "meta": "Drive on the left, speed limits, 0.05 BAC, phones, roundabouts and school zones: the rules visitors get fined for.",
+  "h1": "Driving in Australia for the first time: essential road rules",
+  "addSections": [
+   "Fine table per state with dated official source",
+   "Mobile phone rule by state"
+  ],
+  "faqFromQueries": [
+   "Is it hard to drive in Australia as a tourist?"
+  ],
+  "cta": "Add campgrounds and rest areas to a trip in the app (Pass)",
+  "linksIn": [
+   "australia-road-rules-state-differences",
+   "australian-road-signs-visitors-guide"
+  ],
+  "linksOut": [
+   "state road authorities"
+  ]
+ },
+ "notes": "Overlaps state-differences and signs guides; keep this as the visitor overview. Fix the BAC contradiction first.",
+ "rulesOrLegal": true
+}

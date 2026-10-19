@@ -1,0 +1,70 @@
+{
+ "url": "https://aussiecamps.app/guides/camping-fees-australia-2026/",
+ "slug": "camping-fees-australia-2026",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 69,
+  "pos": 8.0,
+  "topQueries": [
+   "site fees",
+   "how much does camping cost in australia"
+  ]
+ },
+ "primaryQuery": "camping fees australia",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 51.6,
+ "accuracyFlags": [
+  "FAQ lists only WA, Tasmania and parts of NT as charging vehicle entry separately, but the Alps and Blue Mountains guides (and NPWS, $17/$29 at Kosciuszko) show NSW also does; SA parks also charge entry at some parks. FAQ understates.",
+  "Parks Victoria figures are labelled 2025-27: the $6.60/$18/$32-$35/$43 amounts need re-checking against the current 2026-27 schedule.",
+  "Commercial powered-site range $39-$119 is built from two promotional offers (BIG4 Harrington, Sandstone Point), not a representative range.",
+  "Page headline is 2026 but the key government source is the 2025-27 schedule; add NPWS, Queensland, WA DBCA and Tas Parks fees.",
+  "Footer blurb says 'Find 74,000+ Australian places offline': AussieCamps is not an offline map; only place details and guides work offline, and the 74,000 total is out of scope but the wording should say 'place details and guides work offline'."
+ ],
+ "cannibalWith": [
+  "campervan-road-trip-budget-australia",
+  "camping-rules-new-south-wales",
+  "is-free-camping-legal-australia"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "Camping Fees Australia 2026: National Parks vs Holiday Parks | AussieCamps",
+  "meta": "What camping costs in 2026: national park fees by state, powered holiday park sites, park entry extras and how to compare per person vs per site.",
+  "h1": "Camping fees in Australia 2026: national parks vs holiday parks",
+  "addSections": [
+   "State table of national park camping and entry fees with official links (NSW, Vic, Qld, WA, SA, Tas, NT)",
+   "Typical holiday park range with sample size, not two promos",
+   "Per-person vs per-site worked example for a family"
+  ],
+  "faqFromQueries": [
+   "camping fees australia",
+   "site fees",
+   "how much does camping cost in australia",
+   "caravan park prices australia"
+  ],
+  "cta": "Show the app's campground place details with fee notes (Pass places); say partner holiday parks bookable free via BookEasy.",
+  "linksIn": [
+   "campervan-road-trip-budget-australia",
+   "australia-travel-cost-2026",
+   "australian-alps-camping-route",
+   "blue-mountains-camping-weekend"
+  ],
+  "linksOut": [
+   "campervan-road-trip-budget-australia",
+   "is-free-camping-legal-australia",
+   "camping-rules-new-south-wales",
+   "camping-rules-victoria",
+   "camping-rules-queensland",
+   "caravan-park-vs-holiday-park"
+  ]
+ },
+ "notes": "Pos 8.0, 69 impr, 0 clicks vs about 2 expected, so RETITLE as well (current title is 63 chars plus brand, over 60 and brand-trimmed in SERPs). Fee page = accuracy gate; fix FAQ and verify Parks Victoria dates first, then retitle."
+}

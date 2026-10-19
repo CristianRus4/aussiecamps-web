@@ -1,0 +1,40 @@
+{
+ "url": "https://aussiecamps.app/credits/",
+ "slug": "credits",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "(none, attribution page)",
+ "scores": {
+  "searchFit": 1,
+  "accuracy": 5,
+  "depth": 1,
+  "conversion": 0,
+  "links": 2,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 40.0,
+ "accuracyFlags": [],
+ "cannibalWith": [],
+ "action": "NOINDEX",
+ "priority": "P3",
+ "proposed": {
+  "title": "Photo credits | AussieCamps",
+  "meta": "Attribution and licence details for every photograph used in the AussieCamps guides.",
+  "h1": "Whose photographs these are.",
+  "addSections": [],
+  "faqFromQueries": [],
+  "cta": "None needed",
+  "linksIn": [
+   "/guides/ (footer only)"
+  ],
+  "linksOut": [
+   "/guides/"
+  ]
+ },
+ "notes": "Zero impressions in 3 months. 249 outbound links (Wikimedia Commons) from a page with no search value. Set meta robots 'noindex, follow' and drop it from the sitemap but keep it live and linked from article footers to satisfy CC BY-SA attribution. Conversion 0 is fine for a utility page."
+}

@@ -1,0 +1,47 @@
+{
+ "url": "https://aussiecamps.app/guides/aussiecamps-widgets-guide/",
+ "slug": "aussiecamps-widgets-guide",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "aussiecamps widgets",
+ "scores": {
+  "searchFit": 1,
+  "accuracy": 4,
+  "depth": 2,
+  "conversion": 3,
+  "links": 2,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 46.3,
+ "accuracyFlags": [
+  "Trip widget and Lock Screen accessory claims match the app code (accessoryRectangular exists on one widget); no widget screenshot, and section 08 repeats the offline-widget sentence from section 04 verbatim."
+ ],
+ "cannibalWith": [],
+ "action": "NOINDEX/MERGE",
+ "priority": "P3",
+ "proposed": {
+  "title": "AussieCamps Widgets: Trips, Collections, Nearby",
+  "meta": "Keep the next stop, trip progress, favourite places or a nearby map on your iPhone Home Screen.",
+  "h1": "AussieCamps widgets: trips, collections and nearby places",
+  "addSections": [
+   "Widget screenshots per size",
+   "Pass note: trips and collections need the Pass"
+  ],
+  "faqFromQueries": [],
+  "cta": "Add the widgets after saving your first trip in AussieCamps (trips and collections need the Pass).",
+  "linksIn": [
+   "/guides/save-collections-aussiecamps/",
+   "/support/"
+  ],
+  "linksOut": [
+   "/guides/save-collections-aussiecamps/",
+   "/guides/camping-without-phone-signal/"
+  ]
+ },
+ "notes": "Zero impressions; brand-only how-to. Merge into a single 'AussieCamps app guide' section on /support/ or noindex."
+}

@@ -1,0 +1,67 @@
+{
+ "url": "https://aussiecamps.app/guides/dump-points-australia-guide/",
+ "slug": "dump-points-australia-guide",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 171,
+  "pos": 31.5,
+  "topQueries": [
+   "dump point near me (8 impr, pos 41.2)",
+   "toilet dump points near me (4 impr, pos 47.5)",
+   "en page 171 impr pos 31.5; locale variants rank pos 7-12"
+  ]
+ },
+ "primaryQuery": "dump points australia",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 2,
+  "conversion": 1,
+  "links": 4,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 45,
+ "accuracyFlags": [
+  "Body says a cassette can be emptied at 'a public toilet designed to accept them where signage permits'; FAQ says emptying at a public toilet is illegal: contradictory",
+  "'Fines run into thousands' unsourced: penalties vary by state EPA (up to far higher maxima for illegal discharge) and no state or amount is cited",
+  "'Most are free or charge a small fee' and 'almost every' claims have no source (council pages quote fees like $4-5 or lock codes)",
+  "Grey water FAQ ('national parks prohibit it outright') unsourced"
+ ],
+ "cannibalWith": [
+  "caravan-park-vs-holiday-park",
+  "is-free-camping-legal-australia",
+  "camping-water-planning"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P1",
+ "proposed": {
+  "title": "Dump Points in Australia: Find One and Use It Correctly",
+  "meta": "How to find a caravan or campervan dump point, what it costs, step-by-step use and the fines for illegal dumping.",
+  "h1": "How to find and use dump points in Australia",
+  "addSections": [
+   "Fines by state with official source",
+   "How to find one: National Public Toilet Map, council pages, the app",
+   "Fees and lock-code examples",
+   "Cassette vs fixed tank checklist (keep)"
+  ],
+  "faqFromQueries": [
+   "Where can I empty my caravan toilet?",
+   "Is dump point use free?",
+   "Can I empty grey water on the ground?"
+  ],
+  "cta": "The app carries 1,393 dump points (230 with washout) with place details, in the Pass layer; search near your route",
+  "linksIn": [
+   "camping-water-planning",
+   "caravan-park-vs-holiday-park",
+   "is-free-camping-legal-australia",
+   "road-trip-fuel-planning-australia"
+  ],
+  "linksOut": [
+   "National Public Toilet Map",
+   "state EPA pages"
+  ]
+ },
+ "notes": "171 impressions at pos 31.5 (just under the 200 REWRITE threshold) while locale variants rank 7-12: English is competing with national directories. Fix the contradiction and sourcing first, then rewrite around finding a dump point. Conversion is the weakest part: product-facts has 1,393 dump points and the CTA names none of it.",
+ "rulesOrLegal": true
+}

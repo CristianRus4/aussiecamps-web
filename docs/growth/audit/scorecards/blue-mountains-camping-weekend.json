@@ -1,0 +1,58 @@
+{
+ "url": "https://aussiecamps.app/guides/blue-mountains-camping-weekend/",
+ "slug": "blue-mountains-camping-weekend",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "blue mountains camping",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 49.5,
+ "accuracyFlags": [
+  "'consistently around eight degrees cooler than Sydney': approximate and not constant; reword with BOM Katoomba averages.",
+  "Vehicle entry fees mentioned but with no amounts or source; NPWS campground fees not stated, no 2026 date.",
+  "Jenolan access 'affected by landslips in recent years' is vague; give current status link.",
+  "Footer blurb says 'Find 74,000+ Australian places offline': AussieCamps is not an offline map; only place details and guides work offline, and the 74,000 total is out of scope but the wording should say 'place details and guides work offline'."
+ ],
+ "cannibalWith": [
+  "camping-rules-new-south-wales"
+ ],
+ "action": "NOINDEX/MERGE",
+ "priority": "P3",
+ "proposed": {
+  "title": "Blue Mountains Camping Weekend from Sydney | AussieCamps",
+  "meta": "Two nights at Euroka, Murphys Glen or Perrys Lookdown: itinerary, NPWS booking and entry fees, fire risk and best lookouts near Katoomba.",
+  "h1": "Blue Mountains camping weekend from Sydney",
+  "addSections": [
+   "NPWS campground table with 2026 fees and booking link",
+   "Drive times from Sydney CBD to each campground",
+   "Blue Mountains NP alerts link"
+  ],
+  "faqFromQueries": [
+   "blue mountains camping",
+   "camping near sydney"
+  ],
+  "cta": "Show Euroka and Murphys Glen place details from the app (Pass places).",
+  "linksIn": [
+   "camping-rules-new-south-wales",
+   "east-coast-road-trip-sydney-cairns",
+   "camping-fees-australia-2026"
+  ],
+  "linksOut": [
+   "camping-rules-new-south-wales",
+   "campfires-camping-australia",
+   "camping-fees-australia-2026"
+  ]
+ },
+ "notes": "No impressions in 3 months and not a hub. Options: keep indexed and expand because 'blue mountains camping' is a strong query, or fold into a NSW camping page. Rule outcome is NOINDEX/MERGE; recommend a fee/entry-fee expansion first and re-test, otherwise merge into camping-rules-new-south-wales."
+}

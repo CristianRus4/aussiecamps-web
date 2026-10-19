@@ -1,0 +1,73 @@
+{
+ "url": "https://aussiecamps.app/guides/towing-caravan-australia-road-rules/",
+ "slug": "towing-caravan-australia-road-rules",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 59,
+  "pos": 53.2,
+  "topQueries": [
+   "caravan towing (9 impr, pos 70.2)",
+   "caravan towing laws australia (4, pos 51.5)",
+   "can i drive a motorhome with a car license in australia (12, pos 80.3)",
+   "can you drive a campervan on a car licence (4-7 impr, pos 58-72)",
+   "/es copy: 59 impr, pos 26.3"
+  ]
+ },
+ "primaryQuery": "caravan towing laws australia",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 2,
+  "depth": 2,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 44.2,
+ "accuracyFlags": [
+  "FAQ: 'A standard car licence covers most combinations up to 4.5 tonnes gross combination mass': wrong measure. A car licence covers a vehicle up to 4.5 t GVM (heavier needs Light Rigid); the combination limit is the vehicle's own towing capacity, GCM rating and each state's trailer rules. Mislabelling GVM as GCM could mislead a driver.",
+  "FAQ speed: 'Western Australia and the Northern Territory hold towing vehicles to a lower limit': WA is correct (100 km/h), but sources show the NT applies the posted limit to caravans; NSW's 100 km/h cap applies to combinations over 4.5 t, which the body states correctly but the FAQ omits. Body and FAQ disagree.",
+  "'Exceeding your vehicle's rated tow capacity voids insurance regardless of licence': overstated, cover depends on policy and insurer.",
+  "'Western Australia ... 60-metre following rule behind certain heavy or towing vehicles': unverified; link the WA Road Traffic Code section.",
+  "'Ten percent of weight on the tow ball' is a rule of thumb (typically 8-15% depending on van): label as such. Page links WA, NSW and SA only; Vic, Qld, Tas, NT, ACT rules absent so 'state differences' in the title is under-delivered."
+ ],
+ "cannibalWith": [
+  "/guides/driving-in-australia-overseas-licence/",
+  "/guides/overseas-driver-licence-australia-state-guide/",
+  "/guides/caravan-park-vs-holiday-park/",
+  "/guides/australia-road-rules-state-differences/",
+  "/guides/campervan-driving-australia-safety-guide/"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "Caravan Towing Laws Australia 2026: Speed, Weight, Licence",
+  "meta": "State-by-state caravan towing rules: speed limits, licence class (car vs LR), tow-ball weight and passengers, with official links.",
+  "h1": "Towing a caravan in Australia: weights, speed and licence by state",
+  "addSections": [
+   "State-by-state table (NSW, VIC, QLD, WA, SA, TAS, NT, ACT): towing speed, following distance, licence, with 2026 official links",
+   "Licence section: car vs light rigid, GVM vs GCM vs ATM explained; answer 'can I drive a campervan/motorhome on a car licence' (queries pos 58-80)",
+   "Weighbridge/compliance plate how-to"
+  ],
+  "faqFromQueries": [
+   "Can I drive a motorhome or campervan on a car licence in Australia?",
+   "What is the speed limit when towing a caravan?",
+   "Can passengers ride in a caravan?"
+  ],
+  "cta": "Check the route for towing-friendly campgrounds in AussieCamps: filter for caravan parks and big-rig friendly stays, and save them as a trip.",
+  "linksIn": [
+   "/guides/driving-in-australia-overseas-licence/",
+   "/guides/caravan-park-vs-holiday-park/",
+   "/guides/camping-rules-queensland/",
+   "/guides/road-trip-fuel-planning-australia/"
+  ],
+  "linksOut": [
+   "/guides/driving-in-australia-overseas-licence/",
+   "/guides/caravan-park-vs-holiday-park/",
+   "/guides/camping-rules-victoria/",
+   "/guides/camping-rules-queensland/",
+   "/guides/camping-rules-new-south-wales/"
+  ]
+ },
+ "notes": "Rules page with a licence misstatement in the FAQ (FAQ also feeds FAQPage markup, so the error is in structured data too). The 'state differences' promise needs a table for all eight jurisdictions. Query cluster 'campervan on a car licence' is not answered anywhere on the site: either answer here or in the overseas-licence guide, and make exactly one URL own it. Title is 72 chars including brand (truncated). Generic 'Save the stops. Plan the whole trip. / Download app' block, no feature-specific wording, no screenshot, no QR noted. Locale copies in sitemap; ES copy 59 impr at pos 26. Source lib/expanded-articles.ts:163, lib/article-faqs.ts:91. Sibling pages found in the audit folder that overlap: /guides/australia-road-rules-state-differences/, /guides/campervan-driving-australia-safety-guide/ (decide one owner per cluster)."
+}

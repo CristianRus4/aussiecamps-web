@@ -1,0 +1,89 @@
+{
+ "url": "https://aussiecamps.app/guides/camping-rules-act/",
+ "slug": "camping-rules-act",
+ "gsc90": {
+  "clicks": 2,
+  "impr": 96,
+  "pos": 8.6,
+  "topQueries": [
+   "(none exported)"
+  ]
+ },
+ "primaryQuery": "camping rules act",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 1,
+  "depth": 2,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 43.2,
+ "accuracyFlags": [
+  {
+   "status": "CONFIRMED",
+   "claim": "Section 04: 'Namadgi campgrounds are mostly free but require registration' and takeaway 'Namadgi sites are free but need registration'.",
+   "correct": "Namadgi vehicle-based campgrounds (Honeysuckle, Orroral, Mount Clear) must be booked in advance and camping fees apply; max booking 7 consecutive days. Walk-in bush camping is allowed in much of Namadgi. Replace with 'booked online in advance, fees apply' (matches the page FAQ).",
+   "source": "https://www.parks.act.gov.au/find-a-nature-park/namadgi-national-park/honeysuckle-campground ; https://www.parks.act.gov.au/before-you-go/bookings-and-permits ; https://www.parks.act.gov.au/where-to-stay",
+   "fix": "Namadgi campgrounds are NOT free: booked in advance, fees apply, max 7 nights (ACT Parks)"
+  },
+  {
+   "status": "CONFIRMED",
+   "claim": "Section 08: 'The Cotter Reserve and Casuarina Sands offer day use and limited camping close to Canberra'.",
+   "correct": "Casuarina Sands is day use only; camping and fires prohibited. Cotter-area camping is only at Cotter Campground (1691 Cotter Road, Stromlo): bookings essential, max 2 weeks in any 6, fireplaces, hot showers, potable water, flush toilets, no dogs.",
+   "source": "https://www.parks.act.gov.au/find-a-nature-park/murrumbidgee-river-corridor/casuarina-sands ; https://www.parks.act.gov.au/find-a-nature-park/murrumbidgee-river-corridor/cotter-campground",
+   "fix": "Casuarina Sands: no camping, no fires; Cotter camping only at bookable Cotter Campground (max 2 weeks in 6, no dogs)"
+  },
+  {
+   "status": "CONFIRMED",
+   "claim": "Section 06: 'Namadgi prohibits campfires entirely in most areas year round, and gas cookers are the practical option'; takeaway 'Namadgi prohibits most campfires'.",
+   "correct": "Namadgi is one of 4 ACT protected areas where campfires are permitted: only in the constructed fireplaces provided, own firewood (collecting prohibited), never on Total Fire Ban days. Gas stoves allowed except on Total Fire Ban days.",
+   "source": "https://www.parks.act.gov.au/before-you-go/campfires ; https://www.parks.act.gov.au/find-a-nature-park/namadgi-national-park/honeysuckle-campground",
+   "fix": "Namadgi campfires ARE allowed in provided fireplaces with own wood, never on Total Fire Ban days (ACT Parks)"
+  }
+ ],
+ "cannibalWith": [
+  "/guides/camping-fees-australia-2026/ (fees and park passes by state)",
+  "/guides/is-free-camping-legal-australia/ (free camping rules by state)",
+  "/guides/campfires-camping-australia/ (fire bans)"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "Camping rules ACT 2026: Namadgi bookings, fees, fires",
+  "meta": "ACT camping rules for 2026: Namadgi and Cotter campground bookings, fees, fire bans, wilderness permits and where people camp near Canberra.",
+  "h1": "Camping rules in the ACT (2026): bookings, fees, fires, free camping",
+  "addSections": [
+   "Namadgi campground table: Honeysuckle, Mount Clear, Orroral - booking, fee, 7-night limit, dogs, link",
+   "Wilderness camping permit steps (Namadgi Visitor Centre)",
+   "Nearby NSW alternatives (Kosciuszko, state forests)"
+  ],
+  "faqFromQueries": [
+   "can you camp in the act",
+   "where do people camp near canberra"
+  ],
+  "cta": "Find the the ACT campgrounds, rest areas, dump points and water points with filters in AussieCamps (Pass places; BookEasy stays and tours stay free). Screenshot of the the ACT map filtered to campgrounds, QR on desktop.",
+  "linksIn": [
+   "/guides/camping-fees-australia-2026/",
+   "/guides/is-free-camping-legal-australia/",
+   "/tools/ (road trip planner)"
+  ],
+  "linksOut": [
+   "ACT Parks and Conservation (linked)",
+   "/guides/camping-fees-australia-2026/",
+   "/guides/is-free-camping-legal-australia/",
+   "/guides/campfires-camping-australia/",
+   "/guides/camping-rules-new-south-wales/ and neighbouring state pages"
+  ]
+ },
+ "notes": "Page carries two layers of text: a short original summary (sections 01-03) then long appended sections (04-08) that repeat points (e.g. fire bans, passes, permits stated twice) - tighten and dedupe. No official-source links in the body (only a plain-text 'Check before you go' label naming the agency, not linked), no dollar fees and no 2026-dated figures; 'Updated 18 August 2026' only. Generic trip-planner CTA. Rest-area/ camping/ dump-point data is Pass-only, so CTA must say so honestly.",
+ "accuracyFlagsOriginal": [
+  "'Namadgi campgrounds are mostly free but require registration' - ACT Parks says bookings are essential and camping fees apply at Honeysuckle and Mount Clear (7-night limit); contradicts the page's own FAQ ('booked through the ACT Parks system')",
+  "'Cotter Reserve and Casuarina Sands offer ... limited camping' while map lists Cotter Campground - verify which are bookable and fee-paying",
+  "Page says Namadgi 'prohibits campfires entirely in most areas year round' - verify against ACT Parks"
+ ],
+ "rejectedFlags": [],
+ "accuracyAdjudicated": "2026-10-19",
+ "adjudicationNote": "Accuracy adjudicated 2026-10-19: all 3 flags confirmed. FIX-FACTS P0 unchanged."
+}

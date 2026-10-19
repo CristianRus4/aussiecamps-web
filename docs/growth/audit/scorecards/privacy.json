@@ -1,0 +1,45 @@
+{
+ "url": "https://aussiecamps.app/privacy/",
+ "slug": "privacy",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "aussiecamps privacy policy",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 1,
+  "links": 3,
+  "eeat": 4,
+  "translation": null
+ },
+ "weighted": 57,
+ "accuracyFlags": [
+  "Policy says no advertising trackers on the website, but the repo recently turned on GA4 (commit 'Turn on GA4 ... for aussiecamps.app'); the Website logs section should mention analytics and consent, or the statement is false."
+ ],
+ "cannibalWith": [],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "Privacy policy | AussieCamps",
+  "meta": "How AussieCamps handles app and website data: on-device storage, iCloud sync, Apple services and analytics consent.",
+  "h1": "Privacy policy",
+  "addSections": [
+   "Website analytics (GA4) and cookie consent, region-based"
+  ],
+  "faqFromQueries": [],
+  "cta": "None needed",
+  "linksIn": [
+   "footer"
+  ],
+  "linksOut": [
+   "/terms",
+   "/support"
+  ]
+ },
+ "notes": "Legal page; no impressions. Consider noindex only if wanted, otherwise keep. Verify the analytics statement against the live consent implementation before editing."
+}

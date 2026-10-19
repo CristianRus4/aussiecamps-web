@@ -1,0 +1,55 @@
+{
+ "url": "https://aussiecamps.app/guides/australia-road-trip-fatigue-wildlife-safety/",
+ "slug": "australia-road-trip-fatigue-wildlife-safety",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "driving at night australia kangaroos",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 4,
+  "translation": null
+ },
+ "weighted": 57.9,
+ "accuracyFlags": [
+  "Section 06 'Do not drive between dusk and dawn in rural Australia if you can avoid it' and FAQ 'accept the hit rather than swerving' are advice stated flatly; official state sources linked are fatigue-only, none for wildlife strikes.",
+  "'Plan the itinerary so no day requires more than about four hours of driving' contradicts the page's own sibling routes (Adelaide to Uluru is four days each way)."
+ ],
+ "cannibalWith": [
+  "/guides/campervan-driving-australia-safety-guide",
+  "/guides/driving-with-road-trains-australia"
+ ],
+ "action": "NOINDEX/MERGE",
+ "priority": "P3",
+ "proposed": {
+  "title": "Night Driving & Kangaroos in Australia: Safety Guide",
+  "meta": "How to avoid kangaroo and cattle strikes, spot fatigue early and plan breaks on long Australian road trips.",
+  "h1": "Fatigue, wildlife and night driving on Australian road trips",
+  "addSections": [
+   "Kangaroo strike risk by state and season with official wildlife source",
+   "What to do after a strike: wildlife rescue numbers by state"
+  ],
+  "faqFromQueries": [
+   "Is it safe to drive at night in Australia?",
+   "What do you do if you hit a kangaroo?"
+  ],
+  "cta": "Set daylight-only legs in your AussieCamps trip: distance per leg is shown, and place details work offline; trips need the Pass.",
+  "linksIn": [
+   "/guides/campervan-driving-australia-safety-guide/",
+   "/guides/adelaide-to-uluru-road-trip/"
+  ],
+  "linksOut": [
+   "/guides/campervan-driving-australia-safety-guide/",
+   "/guides/driving-with-road-trains-australia/",
+   "/guides/camping-without-phone-signal/"
+  ]
+ },
+ "notes": "Zero impressions. Strong sources (Vic, Qld, NT, WA) so keep content, but consolidate with campervan-driving-australia-safety-guide (26.3 pos) and remove from index, or retarget to 'kangaroo night driving' with its own query evidence before indexing."
+}

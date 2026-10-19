@@ -1,0 +1,60 @@
+{
+ "url": "https://aussiecamps.app/guides/sydney-south-coast-camping/",
+ "slug": "sydney-south-coast-camping",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "nsw south coast camping / sydney to eden camping",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 2,
+  "links": 4,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 55.8,
+ "accuracyFlags": [
+  "'Booderee National Park ... charges its own entry fee separate from NSW parks': correct (Commonwealth park) but give the 2026 fee and link; same for NSW 'All Parks Pass' price (page gives none).",
+  "'Murramarang and Booderee campgrounds sell out months ahead' unsourced; NSW National Parks booking window ('rolling window') stated without dates.",
+  "Whale migration 'May to July northbound, September to November southbound' is standard; 'around 500 km to Eden' fine; 'Fires Near Me' app is the NSW RFS app (name correct).",
+  "Heading 'Sapphire Coast' in title/H1 under-targets the more common query 'NSW south coast camping'."
+ ],
+ "cannibalWith": [
+  "/guides/camping-fees-australia-2026/",
+  "/guides/camping-rules-new-south-wales/",
+  "/guides/east-coast-road-trip-sydney-cairns/"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "NSW South Coast Camping: Sydney to Eden Route and Bookings",
+  "meta": "Camp from Sydney to Eden: Jervis Bay, Murramarang, Bermagui and Mimosa Rocks, with booking windows, park fees and fire-season advice.",
+  "h1": "NSW South Coast camping: Sydney to the Sapphire Coast",
+  "addSections": [
+   "NSW Parks fees 2026 and All Parks Pass price with official link",
+   "Booderee entry fee and booking link",
+   "Fire-danger checklist: RFS Fires Near Me, NSW NPWS park alerts"
+  ],
+  "faqFromQueries": [
+   "Where can you camp on the NSW south coast?",
+   "When do NSW national park campgrounds open for booking?"
+  ],
+  "cta": "Save Murramarang and Jervis Bay campgrounds in AussieCamps and see which BookEasy stays can be booked in-app (free).",
+  "linksIn": [
+   "/guides/camping-fees-australia-2026/",
+   "/guides/camping-rules-new-south-wales/",
+   "/guides/east-coast-road-trip-sydney-cairns/"
+  ],
+  "linksOut": [
+   "/guides/camping-fees-australia-2026/",
+   "/guides/camping-rules-new-south-wales/",
+   "/guides/campfires-camping-australia/"
+  ]
+ },
+ "notes": "Best-linked route page (links to fees, rules and fire guides) but no impressions; title leads with a brand-ish phrase instead of the query. hreflang alternates on this page point to de/es/fr/it/nl/pt copies that are noindex and absent from sitemap.xml (en-only in sitemap): mixed signal, drop the alternates (or index the locales) so Search Console stops reporting excluded-by-noindex/alternate issues. Generic 'Save the stops. Plan the whole trip. / Download app' block, no feature-specific wording, no screenshot, no QR noted. Source lib/site.ts:167."
+}

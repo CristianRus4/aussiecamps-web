@@ -1,0 +1,64 @@
+{
+ "url": "https://aussiecamps.app/guides/camping-rules-western-australia/",
+ "slug": "camping-rules-western-australia",
+ "gsc90": {
+  "clicks": 2,
+  "impr": 194,
+  "pos": 8.2,
+  "topQueries": [
+   "can you park a campervan anywhere in south australia (adjacent, not WA)"
+  ]
+ },
+ "primaryQuery": "camping rules western australia",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 49.5,
+ "accuracyFlags": [
+  "CTR 1.0% (2/194) at pos 8.2 vs 3% expected - below half, RETITLE",
+  "FAQ says 'A holiday park pass covers entry for a month or more' - WA DBCA product is the Holiday Pass (4 weeks) / annual passes; wording and figures need the official name, price and date",
+  "Page says wet season 'roughly November to April' in sections 04/07 but gives no park-specific dates; fine as general but cite DBCA",
+  "'Parks Stay WA' brand: page says Park Stay WA - official name is Parkstay WA, verify"
+ ],
+ "cannibalWith": [
+  "/guides/camping-fees-australia-2026/ (fees and park passes by state)",
+  "/guides/is-free-camping-legal-australia/ (free camping rules by state)",
+  "/guides/campfires-camping-australia/ (fire bans)"
+ ],
+ "action": "RETITLE",
+ "priority": "P1",
+ "proposed": {
+  "title": "Camping rules WA 2026: Parkstay bookings, fees, free camps",
+  "meta": "Western Australia camping rules for 2026: Parkstay WA bookings, per-person camping fees, park entry passes, 24-hour rest areas and Aboriginal land permits.",
+  "h1": "Camping rules in Western Australia (2026): bookings, fees, fires, free camping",
+  "addSections": [
+   "Fee table with DBCA per-person night rates and Holiday Pass / Annual All Parks Pass prices and dates",
+   "Shire-by-shire 24 hour rest area table for popular coastal routes",
+   "Aboriginal land permit links (Kimberley, Gibb River Road)"
+  ],
+  "faqFromQueries": [
+   "can you camp anywhere in western australia",
+   "do wa national parks charge an entry fee"
+  ],
+  "cta": "Find the Western Australia campgrounds, rest areas, dump points and water points with filters in AussieCamps (Pass places; BookEasy stays and tours stay free). Screenshot of the Western Australia map filtered to campgrounds, QR on desktop.",
+  "linksIn": [
+   "/guides/camping-fees-australia-2026/",
+   "/guides/is-free-camping-legal-australia/",
+   "/tools/ (road trip planner)"
+  ],
+  "linksOut": [
+   "Explore Parks WA camping fees (linked)",
+   "/guides/camping-fees-australia-2026/",
+   "/guides/is-free-camping-legal-australia/",
+   "/guides/campfires-camping-australia/",
+   "/guides/camping-rules-new-south-wales/ and neighbouring state pages"
+  ]
+ },
+ "notes": "Page carries two layers of text: a short original summary (sections 01-03) then long appended sections (04-08) that repeat points (e.g. fire bans, passes, permits stated twice) - tighten and dedupe. No official-source links in the body (only a plain-text 'Check before you go' label naming the agency, not linked), no dollar fees and no 2026-dated figures; 'Updated 18 August 2026' only. Generic trip-planner CTA. Rest-area/ camping/ dump-point data is Pass-only, so CTA must say so honestly."
+}

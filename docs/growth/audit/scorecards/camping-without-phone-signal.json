@@ -1,0 +1,57 @@
+{
+ "url": "https://aussiecamps.app/guides/camping-without-phone-signal/",
+ "slug": "camping-without-phone-signal",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 25,
+  "pos": 6.1,
+  "topQueries": [
+   "camping without phone signal (en, pos 6.1, 25 impr)"
+  ]
+ },
+ "primaryQuery": "camping without phone signal",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 2,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 51,
+ "accuracyFlags": [
+  "No official source on page (no Check-before-you-go block); PLB registration claim should cite AMSA beacon registration",
+  "Omits iPhone Emergency SOS via satellite, so the satellite section reads dated for 2026",
+  "Title 'Camping beyond phone signal' does not contain the query wording 'without phone signal / no reception'"
+ ],
+ "cannibalWith": [
+  "camping-weather-safety-australia",
+  "campervan-driving-australia-safety-guide"
+ ],
+ "action": "RETITLE",
+ "priority": "P2",
+ "proposed": {
+  "title": "Camping Without Phone Signal in Australia: What to Prepare",
+  "meta": "No reception at the campsite? Save place details, leave a trip plan, carry a PLB and know where Australian coverage stops. 2026 checklist.",
+  "h1": "Camping without phone signal in Australia",
+  "addSections": [
+   "Official sources: AMSA beacon registration, Telstra/Optus coverage maps with caveat",
+   "Emergency SOS via satellite on recent iPhones and where it works",
+   "Checklist table: what works offline vs needs reception in AussieCamps"
+  ],
+  "faqFromQueries": [],
+  "cta": "Place details for campgrounds, rest areas and water points stay readable with no signal (Pass); save the stops before leaving the last town",
+  "linksIn": [
+   "camping-water-planning",
+   "campervan-driving-australia-safety-guide",
+   "best-camping-app-australia"
+  ],
+  "linksOut": [
+   "AMSA beacon registration",
+   "Telstra coverage map"
+  ]
+ },
+ "notes": "Pos 6 but 0 clicks of 25 (expected ~3%): retitle. Product claim (place details offline, maps/weather need reception) is correct and in line with facts. Low volume so noisy; the locale it variant got 1 click.",
+ "rulesOrLegal": false
+}

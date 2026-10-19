@@ -1,0 +1,60 @@
+{
+ "url": "https://aussiecamps.app/guides/flinders-ranges-camping-guide/",
+ "slug": "flinders-ranges-camping-guide",
+ "gsc90": {
+  "clicks": 1,
+  "impr": 5,
+  "pos": 16.0,
+  "topQueries": [
+   "flinders ranges camping (6 impr, pos 53.3, site-wide)"
+  ]
+ },
+ "primaryQuery": "flinders ranges camping",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 2,
+  "depth": 3,
+  "conversion": 3,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 46.0,
+ "accuracyFlags": [
+  "Section 8 says the bush campgrounds (Brachina, Bunyeroo) are 'first come and rarely full', but section 1 says to choose a booked campground and the SA National Parks listings show Ikara-Flinders campgrounds (Cambrian, Koolamon, Youngoona, Aroona, Dingly Dell) take online bookings and fees. The page contradicts itself and the first-come claim looks wrong.",
+  "Claims Adnyamathanha Traditional Owners ask visitors not to climb St Mary Peak and that Tanderra Saddle is the 'respectful alternative'. Third-party sources repeat this but SA National Parks promotes the summit walk; verify wording against parks.sa.gov.au and Adnyamathanha guidance before stating it as a request.",
+  "No park entry/camping fee or 2026 date given, no official link (parks.sa.gov.au)."
+ ],
+ "cannibalWith": [
+  "adelaide-to-uluru-road-trip"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "Flinders Ranges Camping: Wilpena, Brachina & Where to Book",
+  "meta": "Where to camp in Ikara-Flinders Ranges National Park, which campgrounds need booking, best months and which roads close after rain.",
+  "h1": "Flinders Ranges camping guide: where to stay and what to book",
+  "addSections": [
+   "Campground table: Wilpena Pound Resort, Cooinda, Brachina, Bunyeroo, Aroona with booking status and 2026 fees from parks.sa.gov.au",
+   "Official sources box (SA National Parks, Adnyamathanha cultural guidance)"
+  ],
+  "faqFromQueries": [
+   "Do you need to book camping in the Flinders Ranges?",
+   "Best time to camp in the Flinders Ranges",
+   "Can you drive the Flinders Ranges in a 2WD?"
+  ],
+  "cta": "Plan it in AussieCamps: save these stops, order them and see the route distance (place details work offline; routing and weather need signal)",
+  "linksIn": [
+   "/guides/adelaide-to-uluru-road-trip/",
+   "/guides/best-time-camping-australia/",
+   "/guides/camping-rules-south-australia/"
+  ],
+  "linksOut": [
+   "/guides/camping-rules-south-australia/",
+   "/guides/camping-water-planning/",
+   "/guides/camping-without-phone-signal/",
+   "/guides/road-trip-fuel-planning-australia/"
+  ]
+ },
+ "notes": "Resolve booking contradiction first, then retitle. Page has 4-min read but sections 4-8 appear appended; some content duplicated (summer heat repeated)."
+}

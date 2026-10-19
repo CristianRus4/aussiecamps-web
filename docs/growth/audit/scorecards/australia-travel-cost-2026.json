@@ -1,0 +1,63 @@
+{
+ "url": "https://aussiecamps.app/guides/australia-travel-cost-2026/",
+ "slug": "australia-travel-cost-2026",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 62,
+  "pos": 21.7,
+  "topQueries": []
+ },
+ "primaryQuery": "how much does it cost to travel australia 2026",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 54.7,
+ "accuracyFlags": [
+  "Table gives low-cost traveller $85-$135/day but section 06 and its 'Keep in mind' say frugal is $80 to $130: the two ranges contradict each other.",
+  "Sources include Nomads.com and crowd-sourced Numbeo as the main cost benchmarks; no official source for fuel, park or accommodation components.",
+  "Footer blurb says 'Find 74,000+ Australian places offline': AussieCamps is not an offline map; only place details and guides work offline, and the 74,000 total is out of scope but the wording should say 'place details and guides work offline'."
+ ],
+ "cannibalWith": [
+  "eating-out-australia-prices-2026",
+  "campervan-road-trip-budget-australia",
+  "bus-train-costs-australia-2026",
+  "camping-fees-australia-2026"
+ ],
+ "action": "EXPAND",
+ "priority": "P2",
+ "proposed": {
+  "title": "Australia Travel Cost 2026: Daily Budget Per Person | AussieCamps",
+  "meta": "What travelling Australia really costs in 2026: backpacker, camper and hotel daily budgets in AUD plus 9 currencies, with fuel and park fees.",
+  "h1": "How much does it cost to travel Australia in 2026?",
+  "addSections": [
+   "Sample 14-day budgets by route (East Coast, Red Centre, Perth to Broome) with fuel litres and distance",
+   "Flights, vehicle hire and Tasmania crossing line items with dated official sources",
+   "Currency conversions for Canada/Germany/UK visitors given impressions from DE/UK/NL"
+  ],
+  "faqFromQueries": [
+   "how much does it cost to travel around australia in a caravan",
+   "road trip cost calculator australia",
+   "trip cost calculator"
+  ],
+  "cta": "Use the app Trip planner to total route distance and fuel for your saved stops (check feature name in app before publishing); link to /tools road trip calculator.",
+  "linksIn": [
+   "campervan-road-trip-budget-australia",
+   "camping-fees-australia-2026",
+   "eating-out-australia-prices-2026",
+   "/tools"
+  ],
+  "linksOut": [
+   "campervan-road-trip-budget-australia",
+   "camping-fees-australia-2026",
+   "bus-train-costs-australia-2026",
+   "/tools"
+  ]
+ },
+ "notes": "Pos 21.7 so outside EXPAND band by the rules, but many tool/calculator queries (trip/road trip cost calculator, pos 75-80) point to /tools; this page should link there. Pass boundary not mentioned; fine. Fix the $85 vs $80 mismatch first. Only 3 related-guide links and the cost cluster pages do not link each other. Competitors (Skyscanner, Lonely Planet, Finder, Tourism Australia) carry regional price tables and sample itineraries."
+}

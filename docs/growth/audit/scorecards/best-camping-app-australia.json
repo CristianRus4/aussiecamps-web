@@ -1,0 +1,61 @@
+{
+ "url": "https://aussiecamps.app/guides/best-camping-app-australia/",
+ "slug": "best-camping-app-australia",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "best camping app australia",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 2,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 46.3,
+ "accuracyFlags": [
+  "Argues booking-funded apps are biased toward paid sites and that a subscription removes the incentive, without disclosing that AussieCamps itself earns from BookEasy partner bookings and sells a Pass; honest-status disclosure missing.",
+  "No statement of the free vs Pass boundary (free = BookEasy stays and tours only; campgrounds, parks, rest areas, dump points, guides, trips need the Pass).",
+  "Footer: 'Find 74,000+ Australian places offline' conflicts with the page's own advice to distinguish cached tiles from details; the app has no offline maps.",
+  "'Offline data is the first test' implies the recommended product's offline coverage; ensure the AussieCamps claim is place details and guides only."
+ ],
+ "cannibalWith": [
+  "camping-without-phone-signal",
+  "how-to-use-aussiecamps-filters"
+ ],
+ "action": "EXPAND",
+ "priority": "P2",
+ "proposed": {
+  "title": "Best Camping Apps for Australia: What to Compare | AussieCamps",
+  "meta": "Compare camping apps for Australia by coverage, offline details, rules clarity and pricing. What each type does well, and where AussieCamps fits.",
+  "h1": "Best camping apps for Australia: what to compare",
+  "addSections": [
+   "Comparison table of app types (map-tile apps, community databases, AussieCamps) with honest limits",
+   "AussieCamps section: what is free (BookEasy stays/tours) and what needs the Pass, no offline-maps claim",
+   "Data sources and last-updated date"
+  ],
+  "faqFromQueries": [
+   "best camping app australia",
+   "camping trip planner",
+   "dump point near me"
+  ],
+  "cta": "Contextual CTA: 'See place details and filters for 1,838 campgrounds in the app (Pass)' with product-facts totals, an app screenshot and desktop QR.",
+  "linksIn": [
+   "camping-without-phone-signal",
+   "how-to-use-aussiecamps-filters",
+   "dump-points-australia-guide"
+  ],
+  "linksOut": [
+   "how-to-use-aussiecamps-filters",
+   "camping-without-phone-signal",
+   "is-free-camping-legal-australia",
+   "sleeping-in-car-australia"
+  ]
+ },
+ "notes": "No English impressions in GSC (only /es 19 impr at pos 44). Strict rule would say NOINDEX/MERGE, but this is the only commercial-intent page and a hub-like page for the product, so recommend EXPAND and re-check in 4 weeks; the title is also not leading with 'best camping apps'. Brand-funded disclosure is the main trust gap."
+}

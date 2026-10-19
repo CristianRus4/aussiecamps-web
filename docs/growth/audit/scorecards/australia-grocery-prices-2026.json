@@ -1,0 +1,58 @@
+{
+ "url": "https://aussiecamps.app/guides/australia-grocery-prices-2026/",
+ "slug": "australia-grocery-prices-2026",
+ "gsc90": {
+  "clicks": 3,
+  "impr": 103,
+  "pos": 7.7,
+  "topQueries": []
+ },
+ "primaryQuery": "grocery prices australia",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 4,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 56.8,
+ "accuracyFlags": [
+  "Section 03 says a careful solo traveller should budget 'A$80-A$140' a week for groceries; section 07 says 'a hundred to a hundred and seventy dollars a week' for the same traveller. Two different weekly figures on one page.",
+  "All prices are community-contributed (Numbeo) June 2026, not ABS or a supermarket source; ranges such as beef A$12-35/kg are too wide to guide a budget."
+ ],
+ "cannibalWith": [
+  "/guides/eating-out-australia-prices-2026",
+  "/guides/australia-travel-cost-2026"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "Australia Grocery Prices 2026: Weekly Food Budget",
+  "meta": "Milk A$1.55-4, eggs A$4.20-10, chicken A$8-18/kg, plus a realistic weekly shop of A$100-170 for a solo traveller in 2026.",
+  "h1": "Australia grocery prices in 2026: a real supermarket budget",
+  "addSections": [
+   "Resolve section 03 and 07 to one dated weekly range",
+   "Coles vs Woolworths vs Aldi vs IGA basket comparison",
+   "Official source: ABS average retail prices or CPI",
+   "Interstate biosecurity link with state fines"
+  ],
+  "faqFromQueries": [
+   "How much is a loaf of bread in Australia?",
+   "How much is milk in Australia?",
+   "How much do groceries cost per week in Australia?"
+  ],
+  "cta": "Plan supermarket stops in AussieCamps: save Coles, Woolworths, Aldi and IGA towns along your trip route; trips need the Pass, place details work offline.",
+  "linksIn": [
+   "/guides/eating-out-australia-prices-2026/",
+   "/guides/australia-travel-cost-2026/"
+  ],
+  "linksOut": [
+   "/guides/interstate-biosecurity-road-trip/",
+   "/guides/eating-out-australia-prices-2026/",
+   "/guides/australia-travel-cost-2026/"
+  ]
+ },
+ "notes": "CTR 2.9% at position 7.7 versus 3% expected: healthy, no RETITLE. Contradictory weekly figures are the gate failure. Translations also rank (nl pos 6.2, 84 impr)."
+}

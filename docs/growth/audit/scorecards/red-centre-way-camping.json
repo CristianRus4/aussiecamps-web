@@ -1,0 +1,62 @@
+{
+ "url": "https://aussiecamps.app/guides/red-centre-way-camping/",
+ "slug": "red-centre-way-camping",
+ "gsc90": {
+  "clicks": 1,
+  "impr": 3,
+  "pos": 40.3,
+  "topQueries": [
+   "(only /es copy shows: 1 click, 3 impr, pos 40.3; en page has no impressions)"
+  ]
+ },
+ "primaryQuery": "red centre way camping (alice springs, kings canyon, uluru)",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 2,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 45.3,
+ "accuracyFlags": [
+  "'The water in these gorges is snowmelt-cold year round': wrong. There is no snowmelt in Central Australia; gorge waterholes are cold from permanent shade and groundwater.",
+  "'Both ranges have basic national park campgrounds requiring a Parks and Wildlife pass' / 'NT parks pass required': the NT has no general parks pass; campground fees are paid per site (booked via NT Parks), and entry to Uluru-Kata Tjuta needs the separate Commonwealth pass (not mentioned, a big omission on an Uluru route).",
+  "Mereenie Loop 'permit is inexpensive': sources quote roughly $5-$6.50 per vehicle for 3 days, undated; state the figure and the official source (Central Land Council / Discover Central Australia). Check whether any section has been sealed before saying 'unsealed'.",
+  "Kings Canyon Rim Walk heat closure and 'four litres of water per person' stated with no NT Parks source; Larapinta 223 km is correct.",
+  "'Updated 18 August 2026' but nothing on the page is dated or sourced to 2026."
+ ],
+ "cannibalWith": [
+  "/guides/perth-to-broome-road-trip/",
+  "/guides/east-coast-road-trip-sydney-cairns/"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "Red Centre Way Camping: Alice Springs, Kings Canyon, Uluru",
+  "meta": "How to camp the Red Centre Way: West MacDonnells gorges, Kings Canyon, Uluru, the Mereenie Loop permit and winter-only timing.",
+  "h1": "Red Centre Way camping route",
+  "addSections": [
+   "Uluru-Kata Tjuta entry pass and Kings Canyon/Tjoritja campground fees with 2026 prices and NT Parks link",
+   "Mereenie Loop permit: cost, where to buy, rental-car rules",
+   "Sample 7-day itinerary with km per day and fuel stops (Alice, Hermannsburg, Glen Helen, Kings Canyon, Curtin Springs, Yulara)"
+  ],
+  "faqFromQueries": [
+   "Do you need a permit for the Mereenie Loop?",
+   "What is the best time of year for the Red Centre Way?"
+  ],
+  "cta": "Open the Red Centre in AussieCamps and save Ormiston Gorge, Kings Canyon and Curtin Springs into one trip to see the real distances.",
+  "linksIn": [
+   "/guides/camping-without-phone-signal/",
+   "/guides/road-trip-fuel-planning-australia/",
+   "/guides/perth-to-broome-road-trip/"
+  ],
+  "linksOut": [
+   "/guides/road-trip-fuel-planning-australia/",
+   "/guides/camping-without-phone-signal/",
+   "/guides/australia-road-trip-fatigue-wildlife-safety/"
+  ]
+ },
+ "notes": "Fix the snowmelt error and the invented 'NT parks pass' claim first (P0, accuracy gate). No impressions on en. hreflang alternates on this page point to de/es/fr/it/nl/pt copies that are noindex and absent from sitemap.xml (en-only in sitemap): mixed signal, drop the alternates (or index the locales) so Search Console stops reporting excluded-by-noindex/alternate issues. Generic 'Save the stops. Plan the whole trip. / Download app' block, no feature-specific wording, no screenshot, no QR noted. Source lib/site.ts:221."
+}

@@ -1,0 +1,75 @@
+{
+ "url": "https://aussiecamps.app/guides/adelaide-to-uluru-road-trip/",
+ "slug": "adelaide-to-uluru-road-trip",
+ "gsc90": {
+  "clicks": 1,
+  "impr": 21,
+  "pos": 25.1,
+  "topQueries": []
+ },
+ "primaryQuery": "adelaide to uluru road trip",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 2,
+  "conversion": 3,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 53.7,
+ "accuracyFlags": [
+  {
+   "status": "CONFIRMED",
+   "claim": "Section 07: 'A national park pass covers Uluru-Kata Tjuta and is bought in advance.' No fee, date or source, and the pass does not have to be bought in advance.",
+   "correct": "An Uluṟu-Kata Tjuṯa park pass is required: $38/adult for 3 days or $50/adult for a year, under-18s free; NT-registered private vehicle annual pass $109. Parks Australia recommends buying online but it can be bought at the park entry station. Covers Uluṟu-Kata Tjuṯa only, not Watarrka/Kings Canyon. Prices checked October 2026.",
+   "source": "https://uluru.gov.au/plan/passes/",
+   "fix": "Sec 07 park pass: not required in advance (online or entry station); $38/adult 3-day, $50 annual, under-18 free, NT vehicle annual $109; Uluṟu-Kata Tjuṯa only; date Oct 2026 + link uluru.gov.au/plan/passes"
+  }
+ ],
+ "cannibalWith": [
+  "/guides/queensland-outback-way",
+  "/guides/driving-with-road-trains-australia"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "Adelaide to Uluru Road Trip: Route, Days and Camps",
+  "meta": "Adelaide to Uluru is about 1,600 km via the Stuart Highway. See the 8-10 day route, fuel stops, Coober Pedy and where to camp.",
+  "h1": "Adelaide to Uluru road trip: an outback camping route",
+  "addSections": [
+   "Day-by-day itinerary with km per leg and fuel stops (Port Augusta, Glendambo, Coober Pedy, Marla, Kulgera, Erldunda)",
+   "Where to camp: Wilpena, Coober Pedy, Ayers Rock Campground at Yulara",
+   "Uluru-Kata Tjuta park pass price and booking, dated 2026, from Parks Australia",
+   "Best season and heat closures"
+  ],
+  "faqFromQueries": [
+   "How long does it take to drive from Adelaide to Uluru?",
+   "How far is Adelaide to Uluru?",
+   "Can you drive from Adelaide to Uluru in 3 days?"
+  ],
+  "cta": "Save the route's stops in AussieCamps: place details (fees, access, facilities) work offline along the Stuart Highway; campgrounds and trips need the Pass.",
+  "linksIn": [
+   "/guides/australia-road-trip-fuel-cost-2026/",
+   "/guides/australia-road-trip-fatigue-wildlife-safety/"
+  ],
+  "linksOut": [
+   "/guides/road-trip-fuel-planning-australia/",
+   "/guides/driving-with-road-trains-australia/",
+   "/guides/camping-without-phone-signal/",
+   "/guides/camping-rules-northern-territory/"
+  ]
+ },
+ "notes": "21 impressions at position 25: below EXPAND and REWRITE thresholds so KEEP, but the content lacks a day plan and camp names (depth 2) and has only one source-less claim set; quick wins are the spelling in the title and the inconsistent duration. Climbing ban since 2019 is correct. Page links no official source (Parks Australia, NT Government).",
+ "accuracyFlagsOriginal": [
+  "Intro says 'Seven to ten days' while section 04 says 'Four days each way at a sensible pace' (8 days driving plus Yulara); the totals contradict.",
+  "'A national park pass covers Uluru-Kata Tjuta and is bought in advance' gives no fee or date and no Parks Australia source; park fees and conditions are the sort of fact that must be dated for 2026.",
+  "Title and H1 use 'Uluṟu' with a dotted ṟ; the plain spelling 'Uluru' is what people search, so the page matches the query poorly."
+ ],
+ "rejectedFlags": [
+  "Intro 7-10 days vs section 04 'four days each way': wording ambiguity, not a factual error (say 'one way').",
+  "Title/H1 'Uluṟu' spelling: official Parks Australia spelling; adding plain 'Uluru' is an SEO choice."
+ ],
+ "accuracyAdjudicated": "2026-10-19",
+ "adjudicationNote": "Accuracy adjudicated 2026-10-19: 1 confirmed low-severity fix (park pass); duration and spelling flags rejected. Action unchanged."
+}

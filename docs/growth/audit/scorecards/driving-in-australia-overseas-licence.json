@@ -1,0 +1,60 @@
+{
+ "url": "https://aussiecamps.app/guides/driving-in-australia-overseas-licence/",
+ "slug": "driving-in-australia-overseas-licence",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": [
+   "what licence do i need to drive a campervan in australia (7 impr, pos 58.9)",
+   "can i drive a campervan on a car licence in australia (7 impr, pos 62.3)"
+  ]
+ },
+ "primaryQuery": "driving in australia with an overseas licence",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 2,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 46,
+ "accuracyFlags": [
+  "FAQ: 'each has its own time limit and its own point at which a visitor becomes a resident': misleading, visitors can generally drive on a current licence and time limits relate to residency, state by state",
+  "'A standard car licence in most Australian states covers up to 4.5 tonnes GVM and twelve occupants' has no official source and no per-state check",
+  "No dates and no state transport authority sources: only a federal overview link",
+  "'Compulsory third party ... varies by state' unsourced"
+ ],
+ "cannibalWith": [
+  "overseas-driver-licence-australia-state-guide",
+  "driving-in-australia-road-rules-visitors"
+ ],
+ "action": "MERGE/CANONICALISE",
+ "priority": "P1",
+ "proposed": {
+  "title": "Driving in Australia on an Overseas Licence (2026)",
+  "meta": "Can you drive on your home licence? Rules by state, when you need an IDP or translation, and campervan licence class limits.",
+  "h1": "Driving in Australia with an overseas licence",
+  "addSections": [
+   "Move per-state table into overseas-driver-licence-australia-state-guide (canonical)",
+   "Campervan licence class section keeps the 'car licence for a campervan?' queries",
+   "Link each state authority"
+  ],
+  "faqFromQueries": [
+   "Can I drive a campervan on a car licence in Australia?",
+   "Do I need an IDP in Australia?"
+  ],
+  "cta": "Plan the route in the app; campgrounds and rest areas are in the Pass layer, holiday parks and rentals bookable free",
+  "linksIn": [
+   "campervan-driving-australia-safety-guide",
+   "first-campervan-trip-australia"
+  ],
+  "linksOut": [
+   "state transport authorities (NSW, VIC, QLD, WA, SA, TAS, NT, ACT)"
+  ]
+ },
+ "notes": "No impressions. Cluster is also covered by overseas-driver-licence-australia-state-guide; pick one owner (recommend the state guide) and 301 or repurpose this one as the campervan licence-class page, which matches the only queries seen.",
+ "rulesOrLegal": true
+}

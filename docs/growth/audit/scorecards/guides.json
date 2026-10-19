@@ -1,0 +1,48 @@
+{
+ "url": "https://aussiecamps.app/guides/",
+ "slug": "guides",
+ "gsc90": {
+  "clicks": 1,
+  "impr": 91,
+  "pos": 46.0,
+  "topQueries": []
+ },
+ "primaryQuery": "australia camping guides",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 2,
+  "links": 4,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 63.2,
+ "accuracyFlags": [
+  "Hero says '70 detailed guides'; hard-coded count should be generated from the article list so it cannot drift."
+ ],
+ "cannibalWith": [],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "Australian camping and road trip guides | AussieCamps",
+  "meta": "Camping rules by state, free camping and rest area limits, fire bans, road safety, costs and road trips for an Australian trip.",
+  "h1": "Australian camping guides: rules, routes and costs",
+  "addSections": [
+   "Short intro paragraph with the three most-searched guides (state rules, sleeping in a car, free camping legality) above the card grid",
+   "Pass/free one-liner and app CTA at the top"
+  ],
+  "faqFromQueries": [],
+  "cta": "Download on the App Store with Pass/free line",
+  "linksIn": [
+   "/",
+   "/support/"
+  ],
+  "linksOut": [
+   "/guides/is-free-camping-legal-australia/",
+   "/guides/sleeping-in-car-australia/",
+   "/guides/camping-rules-new-south-wales/"
+  ]
+ },
+ "notes": "Hub; keep indexed. Position 46 on 91 impressions is typical for a hub. H1 is poetic ('Follow the road somewhere good') which gives search nothing; a keyword subtitle would help. Title is 56 chars."
+}

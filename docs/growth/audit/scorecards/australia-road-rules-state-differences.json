@@ -1,0 +1,58 @@
+{
+ "url": "https://aussiecamps.app/guides/australia-road-rules-state-differences/",
+ "slug": "australia-road-rules-state-differences",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 79,
+  "pos": 9.5,
+  "topQueries": []
+ },
+ "primaryQuery": "australian road rules by state",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 4,
+  "translation": null
+ },
+ "weighted": 57.9,
+ "accuracyFlags": [
+  "'Western Australia capping towing at 100 and other states applying limits based on vehicle mass' is sourced only to the WA traffic-infringements page; WA's 100 km/h towing cap is consistent with secondary sources but no official WA or other-state towing citation is linked, and 'based on vehicle mass' is unsourced.",
+  "States 'Demerit points are shared between states' and overseas-licence conversion periods vary with no dated 2026 source or table."
+ ],
+ "cannibalWith": [
+  "/guides/driving-in-australia-road-rules-visitors",
+  "/guides/towing-caravan-australia-road-rules",
+  "/guides/overseas-driver-licence-australia-state-guide"
+ ],
+ "action": "RETITLE",
+ "priority": "P1",
+ "proposed": {
+  "title": "Australian Road Rules by State: Speed, Towing, Phones",
+  "meta": "Default speed limits, towing caps, phone rules and overseas-licence periods compared by state and territory. Checked 2026.",
+  "h1": "Australian road rules by state and territory",
+  "addSections": [
+   "State-by-state comparison table (speed default, towing limit, mobile phone penalty, overseas licence period) with official links, dated 2026",
+   "Merge in the visitor road-rules page to make this the single owner of the cluster",
+   "Cross-border checklist as short list near the top"
+  ],
+  "faqFromQueries": [
+   "Do Australian road rules change between states?",
+   "What is the speed limit in Australia?"
+  ],
+  "cta": "Save the state authority pages and your border stops in AussieCamps: place details work offline; trips need the Pass.",
+  "linksIn": [
+   "/guides/driving-in-australia-road-rules-visitors/",
+   "/guides/towing-caravan-australia-road-rules/",
+   "/guides/overseas-driver-licence-australia-state-guide/"
+  ],
+  "linksOut": [
+   "/guides/towing-caravan-australia-road-rules/",
+   "/guides/overseas-driver-licence-australia-state-guide/",
+   "/guides/camping-rules-queensland/"
+  ]
+ },
+ "notes": "79 impressions, 0 clicks at position 9.5 (expected about 2.4): below half so RETITLE. Current title is 71 chars with brand, so it truncates; lead with 'Australian road rules by state'. Official links are good (Qld, Vic, WA, NT, infrastructure.gov.au) but NSW, SA, Tas, ACT missing. Overlaps three sibling guides: pick this as owner and canonicalise or redirect the weakest (driving-in-australia-road-rules-visitors, 18 impr at position 52.8)."
+}

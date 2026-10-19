@@ -1,0 +1,59 @@
+{
+ "url": "https://aussiecamps.app/guides/victoria-high-country-camping/",
+ "slug": "guides_victoria-high-country-camping",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "victoria high country camping",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 3,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 52,
+ "accuracyFlags": [
+  "Text says 'Queen's Birthday weekend'; Victoria's June long weekend has been the King's Birthday since 2022, so the closure window wording is outdated.",
+  "Seasonal closure dates (Queen's Birthday to Melbourne Cup weekend) are given without a 2026 date or direct Parks Victoria link; confirm against the current Parks Victoria closure list.",
+  "'Closed track fines are substantial' states a fine with no amount or source.",
+  "Lake Catani booked camping 'when open' and fishing licence/closed-season claims have no cited official source."
+ ],
+ "cannibalWith": [
+  "/guides/camping-rules-victoria (rules overlap: fire bans, fishing)"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "Victoria High Country camping: roads, closures, huts",
+  "meta": "Bright, Omeo and Mount Buffalo camping with 2026 seasonal track closures, fire-ban rules and the sealed roads that need no 4WD.",
+  "h1": "Victoria High Country camping road trip",
+  "addSections": [
+   "Camping options by base town (Bright, Mount Beauty, Omeo, Dargo) with free vs booked",
+   "Official sources box: Parks Victoria closures, VicEmergency, Vic Fisheries",
+   "2026 seasonal closure dates with source and checked date",
+   "Suggested 3 and 5 day itineraries"
+  ],
+  "faqFromQueries": [
+   "Do I need a 4WD in the Victorian High Country?",
+   "When are High Country tracks closed?",
+   "Is free camping allowed in the High Country?"
+  ],
+  "cta": "Save Bright, Omeo and Howqua stops in AussieCamps and see the route distance between them (campgrounds and parks need the Pass).",
+  "linksIn": [
+   "/guides/camping-rules-victoria",
+   "/guides/great-ocean-road-camping-guide"
+  ],
+  "linksOut": [
+   "/guides/camping-rules-victoria",
+   "/guides/campfires-camping-australia",
+   "/tools"
+  ]
+ },
+ "notes": "No GSC impressions in 3 months so no CTR data. Fix King's Birthday wording and add official sources and 2026 dating before anything else. Title does not lead with a query cluster and is generic. Page is the only High Country URL."
+}

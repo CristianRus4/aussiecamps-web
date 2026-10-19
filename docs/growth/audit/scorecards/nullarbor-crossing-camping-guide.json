@@ -1,0 +1,57 @@
+{
+ "url": "https://aussiecamps.app/guides/nullarbor-crossing-camping-guide/",
+ "slug": "nullarbor-crossing-camping-guide",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": [
+   "it locale: 17 impr pos 12.6, 1 click"
+  ]
+ },
+ "primaryQuery": "nullarbor crossing camping",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 4,
+  "conversion": 3,
+  "links": 5,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 61.0,
+ "accuracyFlags": [
+  "Ceduna-Norseman about 1,200 km, 90 Mile Straight 146.6 km and 53.5 m road trains look correct, but the page gives no 2026 fuel prices, quarantine checkpoint locations (Eucla/Border Village) or Main Roads WA source.",
+  "'Head of Bight whales June to October' and the 'unofficial time zone' are accurate in substance; confirm Head of Bight access fee and operating dates."
+ ],
+ "cannibalWith": [
+  "interstate-biosecurity-road-trip",
+  "adelaide-to-uluru-road-trip"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "Nullarbor Crossing: Camps, Fuel Stops & Distances (2026)",
+  "meta": "Eyre Highway guide: roadhouse fuel stops, free camps along the Bight, water to carry and quarantine rules.",
+  "h1": "Crossing the Nullarbor: camps, fuel and preparation",
+  "addSections": [
+   "Roadhouse table (distance, fuel hours, camping) with sources",
+   "Quarantine checkpoint box linking the biosecurity guide"
+  ],
+  "faqFromQueries": [
+   "How long does it take to cross the Nullarbor?",
+   "Where can you free camp on the Nullarbor?"
+  ],
+  "cta": "Save the roadhouses as stops in AussieCamps and check the fuel gaps (place details work offline across the Nullarbor)",
+  "linksIn": [
+   "/guides/interstate-biosecurity-road-trip/",
+   "/guides/adelaide-to-uluru-road-trip/"
+  ],
+  "linksOut": [
+   "/guides/road-trip-fuel-planning-australia/",
+   "/guides/driving-with-road-trains-australia/",
+   "/guides/interstate-biosecurity-road-trip/"
+  ]
+ },
+ "notes": "Strong internal links. English page has no GSC impressions; Italian version is already ranking."
+}

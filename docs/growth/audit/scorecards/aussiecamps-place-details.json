@@ -1,0 +1,48 @@
+{
+ "url": "https://aussiecamps.app/guides/aussiecamps-place-details/",
+ "slug": "aussiecamps-place-details",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "how to read a campsite listing",
+ "scores": {
+  "searchFit": 1,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 3,
+  "links": 2,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 49.5,
+ "accuracyFlags": [
+  "'Where a permit is required ... Arriving without it is an offence even where sites are available' is a legal claim with no state authority linked."
+ ],
+ "cannibalWith": [],
+ "action": "NOINDEX/MERGE",
+ "priority": "P3",
+ "proposed": {
+  "title": "How to Read a Place in AussieCamps",
+  "meta": "Check fees, facilities, access, weather and nearby services before you rely on a stop.",
+  "h1": "How to read a place in AussieCamps",
+  "addSections": [
+   "Screenshot of the place screen with annotated fields",
+   "Mention Apple Look Around where coverage exists"
+  ],
+  "faqFromQueries": [],
+  "cta": "Open a place in AussieCamps: details stay readable offline; campgrounds and rest areas need the Pass, BookEasy stays are free.",
+  "linksIn": [
+   "/support/",
+   "/"
+  ],
+  "linksOut": [
+   "/guides/camping-water-planning/",
+   "/guides/dump-points-australia-guide/",
+   "/guides/is-free-camping-legal-australia/"
+  ]
+ },
+ "notes": "Zero impressions in 3 months. App how-to with brand-only intent; fold the useful 'access, fees, blank means unrecorded' content into /support/ or the homepage FAQ and noindex, or retarget to 'what to check before booking a campsite'. Does not mention Look Around or the Pass."
+}

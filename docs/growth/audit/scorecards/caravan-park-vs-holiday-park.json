@@ -1,0 +1,59 @@
+{
+ "url": "https://aussiecamps.app/guides/caravan-park-vs-holiday-park/",
+ "slug": "caravan-park-vs-holiday-park",
+ "gsc90": {
+  "clicks": 3,
+  "impr": 84,
+  "pos": 8.4,
+  "topQueries": [
+   "caravan park vs holiday park (en, pos 8.4, 84 impr, 3 clicks, CTR 3.6% vs 3% expected)"
+  ]
+ },
+ "primaryQuery": "caravan park vs holiday park",
+ "scores": {
+  "searchFit": 4,
+  "accuracy": 4,
+  "depth": 2,
+  "conversion": 2,
+  "links": 4,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 63,
+ "accuracyFlags": [
+  "Section 'Caravan and holiday parks' separates the two; section 'What the names actually mean' says they are interchangeable: self-contradiction",
+  "Duplicate paragraph on late-arrival procedure appears twice",
+  "No prices or 2026 dating; 'roughly every third or fourth night' is unsourced"
+ ],
+ "cannibalWith": [
+  "camping-fees-australia-2026",
+  "is-free-camping-legal-australia"
+ ],
+ "action": "EXPAND",
+ "priority": "P2",
+ "proposed": {
+  "title": "Caravan Park vs Holiday Park vs Campground: Which to Pick",
+  "meta": "Caravan parks, holiday parks and bush campgrounds compared: facilities, typical nightly cost and when each is worth it.",
+  "h1": "Caravan park vs holiday park vs campground",
+  "addSections": [
+   "Comparison table: powered site, cabin, NP campground, free camp with typical 2026 nightly ranges and source",
+   "Chains and membership discounts with named schemes",
+   "Pets, generators, quiet hours by type"
+  ],
+  "faqFromQueries": [
+   "What is the difference between a caravan park and a holiday park?",
+   "Are holiday parks more expensive than caravan parks?"
+  ],
+  "cta": "Holiday parks are bookable free in the AussieCamps app (partner stays); campgrounds and national park sites are in the Pass layer",
+  "linksIn": [
+   "camping-fees-australia-2026",
+   "dump-points-australia-guide",
+   "how-to-use-aussiecamps-filters"
+  ],
+  "linksOut": [
+   "camping-fees-australia-2026"
+  ]
+ },
+ "notes": "CTR meets expectation so not a retitle. Depth is generic (no costs, no table). Good CTA opportunity: holiday_park is a free BookEasy category, campground is Pass; the page currently says neither.",
+ "rulesOrLegal": false
+}

@@ -1,0 +1,190 @@
+[
+ {
+  "url": "https://aussiecamps.app/guides/camping-rules-new-south-wales/",
+  "scorecardPath": "/private/tmp/claude-501/-Users-cristian-Developer-Webs-aussiecamps-web/da13faa5-4a56-43c8-b6a3-1638e5b37a79/scratchpad/audit/aussiecamps/camping-rules-new-south-wales.json",
+  "weighted": 49.5,
+  "action": "RETITLE",
+  "priority": "P1",
+  "accuracyFlags": [
+   "CTR 0.5% (2/421) at pos 8.4 vs 3% expected: below half, RETITLE",
+   "'All Parks Pass ... does not cover camping fees or the Sydney Harbour and Kosciuszko parks in all cases' is vague; Kosciuszko has its own pass arrangements and no price/2026 date is given - verify against NSW NPWS",
+   "'State Forests are generally free' - Forestry Corporation has introduced some booked/fee camping; verify and date",
+   "All Parks Pass sentence is duplicated in sections 05 and 08"
+  ],
+  "rulesOrLegal": true,
+  "slug": "camping-rules-new-south-wales",
+  "primaryQuery": "camping rules nsw"
+ },
+ {
+  "url": "https://aussiecamps.app/guides/camping-rules-victoria/",
+  "scorecardPath": "/private/tmp/claude-501/-Users-cristian-Developer-Webs-aussiecamps-web/da13faa5-4a56-43c8-b6a3-1638e5b37a79/scratchpad/audit/aussiecamps/camping-rules-victoria.json",
+  "weighted": 49.5,
+  "action": "RETITLE",
+  "priority": "P1",
+  "accuracyFlags": [
+   "0 clicks / 272 impressions at pos 9.3: CTR far below 3% expected - RETITLE",
+   "'Camping in Victorian alpine areas is restricted above certain elevations' is unsourced and vague - verify or remove",
+   "Free dispersed state-forest camping stated without 2026 date or Forest Fire Management / DEECA source; some state forest camps now need checking for closures/bookings",
+   "Seasonal closure 'June to November' plausible (Queen's Birthday to Melbourne Cup weekend) but should be stated with those dates and a source"
+  ],
+  "rulesOrLegal": true,
+  "slug": "camping-rules-victoria",
+  "primaryQuery": "camping rules victoria"
+ },
+ {
+  "url": "https://aussiecamps.app/guides/camping-rules-western-australia/",
+  "scorecardPath": "/private/tmp/claude-501/-Users-cristian-Developer-Webs-aussiecamps-web/da13faa5-4a56-43c8-b6a3-1638e5b37a79/scratchpad/audit/aussiecamps/camping-rules-western-australia.json",
+  "weighted": 49.5,
+  "action": "RETITLE",
+  "priority": "P1",
+  "accuracyFlags": [
+   "CTR 1.0% (2/194) at pos 8.2 vs 3% expected - below half, RETITLE",
+   "FAQ says 'A holiday park pass covers entry for a month or more' - WA DBCA product is the Holiday Pass (4 weeks) / annual passes; wording and figures need the official name, price and date",
+   "Page says wet season 'roughly November to April' in sections 04/07 but gives no park-specific dates; fine as general but cite DBCA",
+   "'Parks Stay WA' brand: page says Park Stay WA - official name is Parkstay WA, verify"
+  ],
+  "rulesOrLegal": true,
+  "slug": "camping-rules-western-australia",
+  "primaryQuery": "camping rules western australia"
+ },
+ {
+  "url": "https://aussiecamps.app/guides/camping-rules-south-australia/",
+  "scorecardPath": "/private/tmp/claude-501/-Users-cristian-Developer-Webs-aussiecamps-web/da13faa5-4a56-43c8-b6a3-1638e5b37a79/scratchpad/audit/aussiecamps/camping-rules-south-australia.json",
+  "weighted": 50.5,
+  "action": "FIX-FACTS",
+  "priority": "P0",
+  "accuracyFlags": [
+   "'Some parks, including the Flinders Ranges and Innamincka, have desert parks passes' - Desert Parks Pass covers Simpson/Strzelecki/Innamincka-type outback reserves; Ikara-Flinders Ranges is booked via the SA parks system, not the pass (SA DEW lists Ikara among online-booked Desert Parks but not as a Desert Parks Pass park) - verify and reword",
+   "Fruit fly section: Riverland is the pest-free area with roadblocks/bins; 'prohibits bringing fresh fruit across its borders' overstates, and SA fruit fly outbreak zones in Adelaide changed 2025-26 - date and cite PIRSA",
+   "Fire danger season 'generally November to April' varies by district - needs CFS source",
+   "Page chases 'campervan anywhere in SA' query but says nothing on freedom camping/ roadside rules"
+  ],
+  "rulesOrLegal": true,
+  "slug": "camping-rules-south-australia",
+  "primaryQuery": "camping rules south australia"
+ },
+ {
+  "url": "https://aussiecamps.app/guides/camping-rules-queensland/",
+  "scorecardPath": "/private/tmp/claude-501/-Users-cristian-Developer-Webs-aussiecamps-web/da13faa5-4a56-43c8-b6a3-1638e5b37a79/scratchpad/audit/aussiecamps/camping-rules-queensland.json",
+  "weighted": 49.5,
+  "action": "RETITLE",
+  "priority": "P1",
+  "accuracyFlags": [
+   "0 clicks / 110 impressions at pos 11.3 (expected ~1% = 1) - RETITLE candidate",
+   "'Tagged to your vehicle ... must be displayed' / 'Display the camping tag as instructed' - QPWS has moved to online permits; verify whether physical tag display is still required",
+   "'Booking system opens a rolling window ... popular sites taken within minutes of release' unsourced; state the real booking window with QPWS link",
+   "Crocodile 'from roughly Rockhampton northwards' - cite Queensland Government croc advice with date",
+   "No fee figures or 2026 date"
+  ],
+  "rulesOrLegal": true,
+  "slug": "camping-rules-queensland",
+  "primaryQuery": "camping rules queensland"
+ },
+ {
+  "url": "https://aussiecamps.app/guides/camping-rules-act/",
+  "scorecardPath": "/private/tmp/claude-501/-Users-cristian-Developer-Webs-aussiecamps-web/da13faa5-4a56-43c8-b6a3-1638e5b37a79/scratchpad/audit/aussiecamps/camping-rules-act.json",
+  "weighted": 43.2,
+  "action": "FIX-FACTS",
+  "priority": "P0",
+  "accuracyFlags": [
+   "'Namadgi campgrounds are mostly free but require registration' - ACT Parks says bookings are essential and camping fees apply at Honeysuckle and Mount Clear (7-night limit); contradicts the page's own FAQ ('booked through the ACT Parks system')",
+   "'Cotter Reserve and Casuarina Sands offer ... limited camping' while map lists Cotter Campground - verify which are bookable and fee-paying",
+   "Page says Namadgi 'prohibits campfires entirely in most areas year round' - verify against ACT Parks"
+  ],
+  "rulesOrLegal": true,
+  "slug": "camping-rules-act",
+  "primaryQuery": "camping rules act"
+ },
+ {
+  "url": "https://aussiecamps.app/guides/camping-rules-tasmania/",
+  "scorecardPath": "/private/tmp/claude-501/-Users-cristian-Developer-Webs-aussiecamps-web/da13faa5-4a56-43c8-b6a3-1638e5b37a79/scratchpad/audit/aussiecamps/camping-rules-tasmania.json",
+  "weighted": 54.7,
+  "action": "KEEP",
+  "priority": "P2",
+  "accuracyFlags": [
+   "No Parks Pass price, Holiday Pass price or 2026 date - 'far better value' unsubstantiated",
+   "Cradle Mountain 'mandatory shuttle' stated flatly - verify hours/season and rule for private vehicles",
+   "Freycinet ballot/booking wording - verify against PWS Tasmania for 2026-27",
+   "CTR 1.9% at pos 7.4 vs 3% expected: not below half"
+  ],
+  "rulesOrLegal": true,
+  "slug": "camping-rules-tasmania",
+  "primaryQuery": "camping rules tasmania"
+ },
+ {
+  "url": "https://aussiecamps.app/guides/camping-rules-northern-territory/",
+  "scorecardPath": "/private/tmp/claude-501/-Users-cristian-Developer-Webs-aussiecamps-web/da13faa5-4a56-43c8-b6a3-1638e5b37a79/scratchpad/audit/aussiecamps/camping-rules-northern-territory.json",
+  "weighted": 49.5,
+  "action": "EXPAND",
+  "priority": "P2",
+  "accuracyFlags": [
+   "Wet season stated three ways: 'December to March' (section 07), 'November to April' (FAQ) and 'roughly November to April' - reconcile with Parks NT",
+   "'NT Parks Visitor Pass' and 'Kakadu uses separate arrangements' - verify current pass names, prices and 2026 date with Parks NT / Parks Australia",
+   "'Kakadu requires a park pass purchased in advance' - verify (Kakadu entry pass is bought online or at gates)",
+   "Alcohol restriction penalties unspecified and repeated twice"
+  ],
+  "rulesOrLegal": true,
+  "slug": "camping-rules-northern-territory",
+  "primaryQuery": "camping rules northern territory"
+ },
+ {
+  "url": "https://aussiecamps.app/guides/camping-water-planning/",
+  "scorecardPath": "/private/tmp/claude-501/-Users-cristian-Developer-Webs-aussiecamps-web/da13faa5-4a56-43c8-b6a3-1638e5b37a79/scratchpad/audit/aussiecamps/camping-water-planning.json",
+  "weighted": 49.5,
+  "action": "RETITLE",
+  "priority": "P2",
+  "accuracyFlags": [
+   "Body says 4-5 litres per person per day, FAQ says 'at least five litres' - make consistent and cite a government source",
+   "'Boiling for one minute' - official advice is a rolling boil; cite state health guidance",
+   "Duplicated 'sanitise the tank' sentences in sections 07 and 08"
+  ],
+  "rulesOrLegal": false,
+  "slug": "camping-water-planning",
+  "primaryQuery": "how much water for camping australia"
+ },
+ {
+  "url": "https://aussiecamps.app/guides/camping-weather-safety-australia/",
+  "scorecardPath": "/private/tmp/claude-501/-Users-cristian-Developer-Webs-aussiecamps-web/da13faa5-4a56-43c8-b6a3-1638e5b37a79/scratchpad/audit/aussiecamps/camping-weather-safety-australia.json",
+  "weighted": 53.7,
+  "action": "KEEP",
+  "priority": "P3",
+  "accuracyFlags": [
+   "Wet season 'November to April' stated as a blanket for the north; fine but cite BOM",
+   "Fire danger ratings listed 'Moderate to Catastrophic' - AFDRS also has 'High' and 'Extreme' between; list all and cite AFDRS"
+  ],
+  "rulesOrLegal": false,
+  "slug": "camping-weather-safety-australia",
+  "primaryQuery": "camping weather safety australia / bushfire camping"
+ },
+ {
+  "url": "https://aussiecamps.app/guides/camping-with-dogs-australia/",
+  "scorecardPath": "/private/tmp/claude-501/-Users-cristian-Developer-Webs-aussiecamps-web/da13faa5-4a56-43c8-b6a3-1638e5b37a79/scratchpad/audit/aussiecamps/camping-with-dogs-australia.json",
+  "weighted": 43.2,
+  "action": "FIX-FACTS",
+  "priority": "P1",
+  "accuracyFlags": [
+   "'Dogs are prohibited in almost all Australian national parks, in every state' - some parks/areas allow dogs on lead (e.g. selected NSW/WA/Tas areas); say 'most' and cite each state agency",
+   "'Some state forests allow dogs off lead outside baiting periods' - unsourced, rules differ per state",
+   "'Keep dogs leashed and muzzled in baited areas' - muzzling advice unsourced; official advice is to avoid baited areas and check notices",
+   "'Dog-friendly stays' meta promises stays but no AussieCamps data point (BookEasy pet-friendly filter) is described"
+  ],
+  "rulesOrLegal": true,
+  "slug": "camping-with-dogs-australia",
+  "primaryQuery": "camping with dogs australia"
+ },
+ {
+  "url": "https://aussiecamps.app/guides/camping-packing-list-australia/",
+  "scorecardPath": "/private/tmp/claude-501/-Users-cristian-Developer-Webs-aussiecamps-web/da13faa5-4a56-43c8-b6a3-1638e5b37a79/scratchpad/audit/aussiecamps/camping-packing-list-australia.json",
+  "weighted": 51.6,
+  "action": "KEEP",
+  "priority": "P3",
+  "accuracyFlags": [
+   "'Rental vehicles frequently arrive missing' a spare/jack - unsupported",
+   "'Antivenom exists for all Australian snakes' - cite Australian Venom Research Unit/ St John",
+   "Advice 'Carry offline maps' is generic and fine, but any product copy must not say AussieCamps is an offline map app (place details and guides work offline)"
+  ],
+  "rulesOrLegal": false,
+  "slug": "camping-packing-list-australia",
+  "primaryQuery": "camping packing list australia"
+ }
+]

@@ -1,0 +1,57 @@
+{
+ "url": "https://aussiecamps.app/guides/camping-packing-list-australia/",
+ "slug": "camping-packing-list-australia",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": [
+   "(related: australie kamperen spullen, 18 impr pos 54, Dutch, other locale)"
+  ]
+ },
+ "primaryQuery": "camping packing list australia",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 2,
+  "links": 2,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 51.6,
+ "accuracyFlags": [
+  "'Rental vehicles frequently arrive missing' a spare/jack - unsupported",
+  "'Antivenom exists for all Australian snakes' - cite Australian Venom Research Unit/ St John",
+  "Advice 'Carry offline maps' is generic and fine, but any product copy must not say AussieCamps is an offline map app (place details and guides work offline)"
+ ],
+ "cannibalWith": [
+  "/guides/camping-without-phone-signal/"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "Australia camping packing list (printable checklist)",
+  "meta": "What to pack for camping in Australia: sleep, water, sun, insects, snake first aid, vehicle recovery and comms. Checklist by trip type.",
+  "h1": "Australia camping packing list",
+  "addSections": [
+   "Printable checklist table by trip type (tent, campervan, outback)",
+   "First-aid and PLB sourcing links"
+  ],
+  "faqFromQueries": [
+   "what do you need to pack for camping in australia"
+  ],
+  "cta": "Build the stop list in AussieCamps: save campgrounds, water points and dump points to a trip (Pass places). Place details and guides work offline.",
+  "linksIn": [
+   "/guides/camping-water-planning/",
+   "/guides/camping-weather-safety-australia/",
+   "/guides/sleeping-in-car-australia/"
+  ],
+  "linksOut": [
+   "/guides/camping-water-planning/",
+   "/guides/camping-without-phone-signal/",
+   "/guides/is-free-camping-legal-australia/"
+  ]
+ },
+ "notes": "No GSC rows. Low rule content; competes with large listicles (REI/Anaconda style) so needs a checklist format to earn rank. Keep and revisit."
+}

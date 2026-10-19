@@ -1,0 +1,60 @@
+{
+ "url": "https://aussiecamps.app/guides/overseas-driver-licence-australia-state-guide/",
+ "slug": "overseas-driver-licence-australia-state-guide",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": [
+   "can i drive a motorhome with a car license in australia (12, pos 80.3)",
+   "what licence do i need to drive a campervan in australia (7, pos 58.9)",
+   "can i drive a campervan on a car licence (4)"
+  ]
+ },
+ "primaryQuery": "can i drive a campervan in australia on an overseas licence",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 2,
+  "depth": 3,
+  "conversion": 3,
+  "links": 3,
+  "eeat": 4,
+  "translation": null
+ },
+ "weighted": 50.0,
+ "accuracyFlags": [
+  "Section 1 says NSW temporary visitors 'can generally drive for up to six months' and Victoria 'also describes a six-month visitor period', while the FAQ says visitors can drive for their whole stay in most states; the page contradicts itself and the six-month claim does not match the linked NSW/Vic pages as I understand them. Verify each of the four official pages and date it 2026.",
+  "'Conversion mandatory within frequently three months' is stated for residents without per-state figures; states differ.",
+  "'Obtain the IDP in your home country because it generally cannot be issued after arrival' is stated without source."
+ ],
+ "cannibalWith": [
+  "driving-in-australia-overseas-licence"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "Driving in Australia on an Overseas Licence: State Rules (2026)",
+  "meta": "How long you can drive on a foreign licence in each state, when you need an IDP or translation and what licence a campervan needs.",
+  "h1": "Can you drive in Australia with an overseas licence?",
+  "addSections": [
+   "Table: state, visitor rule, resident conversion deadline, official link, checked date",
+   "Campervan licence class section (4.5 t GVM / 12 occupants)"
+  ],
+  "faqFromQueries": [
+   "Can I drive a motorhome with a car licence in Australia?",
+   "What licence do I need to drive a campervan in Australia?",
+   "Do I need an International Driving Permit in Australia?"
+  ],
+  "cta": "Check campervan hire rules, then plan the route in AussieCamps (Planner)",
+  "linksIn": [
+   "/guides/driving-in-australia-overseas-licence/",
+   "/guides/first-campervan-trip-australia/"
+  ],
+  "linksOut": [
+   "/guides/driving-in-australia-overseas-licence/",
+   "/guides/campervan-road-trip-budget-australia/",
+   "/guides/first-campervan-trip-australia/"
+  ]
+ },
+ "notes": "Next step after facts fixed: decide which of this URL and /guides/driving-in-australia-overseas-licence/ owns the cluster and MERGE the other. Official links are present (good E-E-A-T) but the on-page claims must match them."
+}

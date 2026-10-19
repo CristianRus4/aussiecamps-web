@@ -1,0 +1,66 @@
+{
+ "url": "https://aussiecamps.app/guides/public-transport-costs-australia-2026/",
+ "slug": "public-transport-costs-australia-2026",
+ "gsc90": {
+  "clicks": 2,
+  "impr": 151,
+  "pos": 10.0,
+  "topQueries": [
+   "(no page-level queries listed; en page 151 impr pos 10.0, 1.3% CTR vs 3% expected, below half = RETITLE signal)",
+   "locale copies add 258 impr: nl 97 (pos 18.2), pt 72 (8.3), it 43 (6.5), fr 24, de 22"
+  ]
+ },
+ "primaryQuery": "australia public transport fares 2026 (opal / myki / go card / smartrider)",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 4,
+  "translation": null
+ },
+ "weighted": 53.7,
+ "accuracyFlags": [
+  "Sydney Mon-Thu cap shown as $19 AUD; Transport for NSW lists adult Opal Mon-Thu cap $19.30 (from 14 Jul 2025). Recheck the 2026-27 Opal schedule too: page claims 'checked 12 August 2026' but figure matches no official tier.",
+  "Melbourne section says contactless is not accepted on most services so a Myki is required, while the FAQ says several cities 'now accept a contactless bank card directly': internally contradictory and the FAQ never names which. Perth (SmartRider/contactless), Brisbane/SEQ and Sydney do accept contactless; Perth is also free on Sundays (omitted).",
+  "Perth SmartRider standard journey $2.80 and DayRider $7.00: DayRider $7.00 confirmed (cut 1 Jan 2026); the $2.80 single-journey figure could not be verified against transperth.wa.gov.au.",
+  "Victoria $5.70 full-fare daily cap is correct but temporary (half-price 1 Jun 2026 to 1 Jan 2027, excludes SkyBus, ferries, some regional buses); page must state the end date and what reverts to ($11.40).",
+  "Queensland 50c fare: now permanent (legislated 2026), page calls it 'Queensland Translink journey' and 'confirm temporary fare periods' which implies it may lapse; Airtrain and long-distance QR excluded correctly. 'Adelaide metroCARD' as the current Adelaide card is unverified."
+ ],
+ "cannibalWith": [
+  "/guides/australia-travel-cost-2026/",
+  "/guides/bus-train-costs-australia-2026/"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "Australia public transport fares 2026: Opal, Myki, go card, SmartRider",
+  "meta": "Compare 2026 adult fares and daily caps for Sydney, Melbourne, Brisbane and Perth, plus airport fees, in 10 currencies. Checked August 2026.",
+  "h1": "Public transport costs across Australian cities in 2026",
+  "addSections": [
+   "Which cities accept a contactless bank card (table: Sydney yes, Brisbane/SEQ yes, Perth yes, Melbourne no, Adelaide check) with the date verified",
+   "Victoria half-price window ends 1 Jan 2027: what the fare becomes",
+   "Perth free-Sunday rule and Perth Go Anywhere cap",
+   "Sample 3-day capital-city budget for a camper who parks at a holiday park and takes transit in"
+  ],
+  "faqFromQueries": [
+   "How much is public transport in Australia?",
+   "Does Melbourne accept contactless payment?",
+   "Is public transport free in Perth on Sunday?"
+  ],
+  "cta": "Park the van outside the centre: in AussieCamps, search the Caravan Parks layer around the city (BookEasy stays are free) and save the one with a rail or tram stop nearby.",
+  "linksIn": [
+   "/guides/australia-travel-cost-2026/",
+   "/guides/caravan-park-vs-holiday-park/",
+   "/guides/east-coast-road-trip-sydney-cairns/"
+  ],
+  "linksOut": [
+   "/guides/australia-travel-cost-2026/",
+   "/guides/caravan-park-vs-holiday-park/",
+   "/guides/camping-fees-australia-2026/",
+   "/tools/"
+  ]
+ },
+ "notes": "Fare facts are the gate: fix the Opal figure and the contactless contradiction first, add a per-row 'source + checked date' column using the four official links already present, then retitle. Current title is 71 chars including brand (truncates); hero H1 can stay. Locale copies of this page are indexable and in the sitemap, so hreflang is fine here; check they carry the same corrected fares point to de/es/fr/it/nl/pt copies that are noindex and absent from sitemap.xml (en-only in sitemap): mixed signal, drop the alternates (or index the locales) so Search Console stops reporting excluded-by-noindex/alternate issues. Generic 'Save the stops. Plan the whole trip. / Download app' block, no feature-specific wording, no screenshot, no QR noted. Source in lib/expanded-articles.ts:106 (+ lib/article-faqs.ts:215). Sibling pages found in the audit folder that overlap: /guides/bus-train-costs-australia-2026/ (decide one owner per cluster)."
+}

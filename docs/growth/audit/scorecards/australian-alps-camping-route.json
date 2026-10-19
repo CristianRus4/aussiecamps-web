@@ -1,0 +1,74 @@
+{
+ "url": "https://aussiecamps.app/guides/australian-alps-camping-route/",
+ "slug": "australian-alps-camping-route",
+ "gsc90": {
+  "clicks": 2,
+  "impr": 15,
+  "pos": 6.9,
+  "topQueries": []
+ },
+ "primaryQuery": "australian alps camping route",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 3,
+  "depth": 2,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 51.6,
+ "accuracyFlags": [
+  {
+   "status": "CONFIRMED",
+   "claim": "'The Alpine Way between Khancoban and Jindabyne ... requiring wheel chains to be carried in winter within the national park regardless of conditions' and 'Wheel chains must be carried within Kosciuszko in winter regardless of the forecast, and the requirement is enforced at park entry points.'",
+   "correct": "Between the June and October long weekends, NPWS makes snow chains compulsory for 2WD vehicles on the Alpine Way between Thredbo and Tom Groggin, Kosciuszko Road (Thredbo-Perisher area) and Guthega Road. For other vehicles, 4WD and AWD included, chains are recommended, not required. Drop 'enforced at park entry points' (no NPWS source).",
+   "source": "https://www.nationalparks.nsw.gov.au/things-to-do/driving-routes/kosciuszko-alpine-way-drive/visitor-info ; https://www.nationalparks.nsw.gov.au/visit-a-park/parks/kosciuszko-national-park/visitor-info",
+   "fix": "Snow chains: compulsory only for 2WD, June-Oct long weekends, on Alpine Way Thredbo-Tom Groggin, Kosciuszko Rd and Guthega Rd; recommended for 4WD/AWD; drop 'enforced at park entry points' (NPWS)"
+  }
+ ],
+ "cannibalWith": [
+  "camping-rules-new-south-wales",
+  "camping-rules-victoria"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P2",
+ "proposed": {
+  "title": "Australian Alps Camping Route: Jindabyne to Bright | AussieCamps",
+  "meta": "Plan a Kosciuszko to Victorian High Country camping trip: campgrounds, Alpine Way chains, park entry fees and seasonal road closures for 2026.",
+  "h1": "Australian Alps camping route: Jindabyne to Bright",
+  "addSections": [
+   "Park entry fees 2026 (NPWS $17 / $29 winter) and chain rules with NPWS link",
+   "Day-by-day 3 night itinerary with driving times",
+   "Kosciuszko campground table (Thredbo Diggings, Island Bend, Geehi, Tom Groggin) with booking status"
+  ],
+  "faqFromQueries": [],
+  "cta": "Show the Kosciuszko and Geehi Flats campground place details the app carries (campgrounds are Pass places) and note the app guides work offline.",
+  "linksIn": [
+   "camping-rules-new-south-wales",
+   "camping-rules-victoria",
+   "great-ocean-road-camping-guide"
+  ],
+  "linksOut": [
+   "camping-rules-new-south-wales",
+   "camping-rules-victoria",
+   "campfires-camping-australia",
+   "best-time-camping-australia"
+  ]
+ },
+ "notes": "Low volume (15 impr, pos 6.9, 2 clicks = 13% CTR, above expected). Keep. Add official NPWS/Parks Vic sources (none shown) and the alpine fire rules link; page mentions fire prohibition without linking campfires guide properly.",
+ "accuracyFlagsOriginal": [
+  "Says wheel chains must be carried in Kosciuszko in winter 'regardless of the forecast' on the whole Alpine Way: NPWS requires 2WD vehicles to carry chains on listed roads (Kosciuszko Rd to Perisher, Guthega Rd, Alpine Way Thredbo to Tom Groggin) between June and the October long weekend; wording is broader than the source.",
+  "States park entry is charged but gives no amount: NPWS lists $17/vehicle/day (rest of year) and $29 in winter; add dated figures with source.",
+  "Calls the Alpine Way 'open year round' while NPWS closes sections for snow or incidents; add 'check alerts'.",
+  "Footer blurb says 'Find 74,000+ Australian places offline': AussieCamps is not an offline map; only place details and guides work offline, and the 74,000 total is out of scope but the wording should say 'place details and guides work offline'."
+ ],
+ "rejectedFlags": [
+  "Park entry with no amount: accurate as written ($29/vehicle/day winter, $17 rest of year, annual $190); content gap only.",
+  "Alpine Way 'open year round': matches NPWS (closures are other roads).",
+  "Footer '74,000+ places offline': offline claim supported by bundled SQLite (73,945 Site rows); '74,000+' slightly overstates."
+ ],
+ "accuracyAdjudicated": "2026-10-19",
+ "actionBeforeAdjudication": "KEEP P3",
+ "adjudicationNote": "Accuracy adjudicated 2026-10-19: 1 confirmed rules overstatement (snow chains); 3 flags rejected. Moved KEEP P3 -> FIX-FACTS P2 (rules error, low traffic: 15 impr)."
+}

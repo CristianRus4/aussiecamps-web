@@ -1,0 +1,60 @@
+{
+ "url": "https://aussiecamps.app/guides/tasmania-camping-loop/",
+ "slug": "tasmania-camping-loop",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "tasmania camping road trip / 10 days tasmania itinerary",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 49.5,
+ "accuracyFlags": [
+  "'A Tasmania Parks Pass is required for vehicle entry to national parks and a holiday pass covering all parks for eight weeks': structure correct (Holiday Pass is 8 weeks) but no 2026 price or Parks & Wildlife Service link; 'book the pass in advance in peak season' is unsourced.",
+  "Cradle Mountain 'mandatory shuttle bus ... private vehicle access restricted': applies to the Dove Lake road in peak season only, and shuttle is included with park entry; state the season and cite Parks Tasmania.",
+  "'Bay of Fires has free and low-cost camping': mostly correct but some sites require booking/fees in summer; verify against Parks Tasmania.",
+  "Spirit of Tasmania 'Geelong to Devonport' correct; fares/sailings not dated; quarantine rule on fresh produce correct but unsourced. Total loop '1,400 km' vs heading '10 days' fine.",
+  "Section 5 route returns via 'Lake St Clair and the Derwent Valley' while section 3 says 'central highlands or Mount Field': inconsistent."
+ ],
+ "cannibalWith": [
+  "/guides/camping-rules-tasmania/",
+  "/guides/great-ocean-road-camping-guide/"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "Tasmania Camping Road Trip: 10-Day Loop from Hobart",
+  "meta": "A 10-day camping loop from Hobart: Freycinet, Bay of Fires, Cradle Mountain and the west coast, with parks pass tips and ferry advice.",
+  "h1": "Tasmania camping loop: 10 days from Hobart",
+  "addSections": [
+   "Tasmania Parks Pass and Holiday Pass 2026 prices with Parks Tasmania link",
+   "Spirit of Tasmania 2026 booking and vehicle-size notes with official link",
+   "Day-by-day table with distances"
+  ],
+  "faqFromQueries": [
+   "How many days do you need to camp around Tasmania?",
+   "Do you need a parks pass for Tasmania?"
+  ],
+  "cta": "Save Freycinet, Bay of Fires and Cradle Mountain campgrounds in AussieCamps to build the 10-day trip with distances.",
+  "linksIn": [
+   "/guides/camping-rules-tasmania/",
+   "/guides/best-time-camping-australia/",
+   "/guides/great-ocean-road-camping-guide/"
+  ],
+  "linksOut": [
+   "/guides/camping-rules-tasmania/",
+   "/guides/best-time-camping-australia/",
+   "/guides/camping-fees-australia-2026/"
+  ]
+ },
+ "notes": "No impressions in window; keep but add official fee sources. hreflang alternates on this page point to de/es/fr/it/nl/pt copies that are noindex and absent from sitemap.xml (en-only in sitemap): mixed signal, drop the alternates (or index the locales) so Search Console stops reporting excluded-by-noindex/alternate issues. Generic 'Save the stops. Plan the whole trip. / Download app' block, no feature-specific wording, no screenshot, no QR noted. Source lib/site.ts:140."
+}

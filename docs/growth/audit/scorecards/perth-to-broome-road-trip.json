@@ -1,0 +1,60 @@
+{
+ "url": "https://aussiecamps.app/guides/perth-to-broome-road-trip/",
+ "slug": "perth-to-broome-road-trip",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 77,
+  "pos": 65.0,
+  "topQueries": [
+   "perth to broome road trip (20, pos 74.6)",
+   "road trip perth broome (10, pos 73.8)",
+   "road trip perth to broome (7, pos 38.3)",
+   "perth to broome road trip distance (4, pos 89.8)"
+  ]
+ },
+ "primaryQuery": "perth to broome road trip",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 4,
+  "depth": 4,
+  "conversion": 3,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 62.0,
+ "accuracyFlags": [
+  "Distance about 2,200 km, dry season May-Oct, cyclone season Nov-Apr, Karijini detour about 600 km and whale shark season look correct; no 2026 park fees or Main Roads WA source; Cape Range/Karijini bookings not sourced."
+ ],
+ "cannibalWith": [
+  "gibb-river-road-camping",
+  "east-coast-road-trip-sydney-cairns"
+ ],
+ "action": "KEEP",
+ "priority": "P2",
+ "proposed": {
+  "title": "Perth to Broome Road Trip: 2,200 km Camping Route",
+  "meta": "Plan the Perth to Broome drive: distance, days needed, Ningaloo, Karijini and Kalbarri camps, fuel gaps and the best season.",
+  "h1": "Perth to Broome camping road trip",
+  "addSections": [
+   "Distance and drive-time table by leg",
+   "Camping fees and booking table for Cape Range, Karijini, Kalbarri"
+  ],
+  "faqFromQueries": [
+   "How far is Perth to Broome by road?",
+   "How many days for a Perth to Broome road trip?",
+   "Best time to drive Perth to Broome"
+  ],
+  "cta": "Open this route in AussieCamps: stops in order with the leg distances (Planner)",
+  "linksIn": [
+   "/guides/gibb-river-road-camping/",
+   "/guides/best-time-camping-australia/"
+  ],
+  "linksOut": [
+   "/guides/gibb-river-road-camping/",
+   "/guides/road-trip-fuel-planning-australia/",
+   "/guides/camping-rules-western-australia/"
+  ]
+ },
+ "notes": "Pos 65 with 77 impressions, below the REWRITE threshold. Title already contains the query but not in the exact word order; query cluster pos 38-90, so distance in title/meta is the cheap lever."
+}

@@ -1,0 +1,65 @@
+{
+ "url": "https://aussiecamps.app/guides/is-free-camping-legal-australia/",
+ "slug": "is-free-camping-legal-australia",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 50,
+  "pos": 9.4,
+  "topQueries": [
+   "can you camp on the side of the road in australia (11, pos 45.9)",
+   "can you sleep in your car in a national park (5, pos 19.8)",
+   "can you park a campervan anywhere in south australia (10, pos 52.6)"
+  ]
+ },
+ "primaryQuery": "is free camping legal in australia",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 2,
+  "depth": 3,
+  "conversion": 3,
+  "links": 3,
+  "eeat": 1,
+  "translation": null
+ },
+ "weighted": 49.0,
+ "accuracyFlags": [
+  "'State forests in Victoria, NSW and Queensland permit dispersed camping free of charge in most areas': wrong for Queensland, where state forest camping needs a booked permit and per-person fee (about $7.25 in 2025; QPWS), and some NSW forests require permits/fees.",
+  "'Camping outside designated areas in a national park is an offence in every state': overstated; several states allow permitted or remote/bush camping in parks.",
+  "'Sleeping is generally fine' at rest areas and a '72 hours' stay maximum are asserted with no state source or date; limits differ by state and sign.",
+  "Legal page with no official links, no fine amounts and no 2026 dating."
+ ],
+ "cannibalWith": [
+  "sleeping-in-car-australia",
+  "camping-rules-new-south-wales",
+  "camping-rules-queensland",
+  "camping-rules-victoria"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "Is Free Camping Legal in Australia? State-by-State (2026)",
+  "meta": "Free camping is legal only where the land manager allows it. See the rules for each state, where it is allowed and typical fines.",
+  "h1": "Is free camping legal in Australia?",
+  "addSections": [
+   "State-by-state table (rule, authority link, fine range, checked date)",
+   "Where free camping is allowed: Victorian state forests, WA/NSW/SA council camps, with sources"
+  ],
+  "faqFromQueries": [
+   "Can you camp on the side of the road in Australia?",
+   "Can you sleep in your car in a national park?",
+   "Can you park a campervan anywhere in South Australia?"
+  ],
+  "cta": "Filter AussieCamps for free camps, rest areas and council camps near your route and save a legal fallback (Free tier lists them; Pass is for BookEasy stays/tours only)",
+  "linksIn": [
+   "/guides/sleeping-in-car-australia/",
+   "/guides/camping-rules-south-australia/"
+  ],
+  "linksOut": [
+   "/guides/camping-rules-western-australia/",
+   "/guides/camping-rules-queensland/",
+   "/guides/sleeping-in-car-australia/",
+   "/guides/dump-points-australia-guide/"
+  ]
+ },
+ "notes": "FIX-FACTS outranks RETITLE here (pos 9.4, 0 clicks vs ~1.5 expected also qualifies). Define one owner versus sleeping-in-car-australia: this URL = legality overview, other = vehicle sleeping."
+}

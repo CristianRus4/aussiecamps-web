@@ -1,0 +1,41 @@
+{
+ "url": "https://aussiecamps.app/guides/how-to-use-aussiecamps-filters/",
+ "slug": "how-to-use-aussiecamps-filters",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "camping filters app",
+ "scores": {
+  "searchFit": 1,
+  "accuracy": 4,
+  "depth": 2,
+  "conversion": 3,
+  "links": 3,
+  "eeat": 1,
+  "translation": null
+ },
+ "weighted": 44.0,
+ "accuracyFlags": [
+  "Final paragraph of section 8 repeats section 7's 'save a legal alternative' sentence nearly verbatim.",
+  "Claims filters for 'big-rig access', 'dogs', 'power' exist; verify against current filter list."
+ ],
+ "cannibalWith": [
+  "how-to-plan-trip-aussiecamps"
+ ],
+ "action": "NOINDEX/MERGE",
+ "priority": "P3",
+ "proposed": {
+  "title": "",
+  "meta": "",
+  "h1": "",
+  "addSections": [],
+  "faqFromQueries": [],
+  "cta": "Plan it in AussieCamps: save these stops, order them and see the route distance (place details work offline; routing and weather need signal)",
+  "linksIn": [],
+  "linksOut": []
+ },
+ "notes": "No impressions and no matching queries; thin product tutorial padded with repeated advice. Merge the unique filter tips into /features/ (or the trip planning guide) and 301, or noindex until it has search demand. Rule-driven call; the owner may prefer KEEP as support content."
+}

@@ -1,0 +1,66 @@
+{
+ "url": "https://aussiecamps.app/guides/camping-rules-queensland/",
+ "slug": "camping-rules-queensland",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 110,
+  "pos": 11.3,
+  "topQueries": [
+   "can you sleep in your car in a national park (5 impr, pos 19.8, loosely related)"
+  ]
+ },
+ "primaryQuery": "camping rules queensland",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 49.5,
+ "accuracyFlags": [
+  "0 clicks / 110 impressions at pos 11.3 (expected ~1% = 1) - RETITLE candidate",
+  "'Tagged to your vehicle ... must be displayed' / 'Display the camping tag as instructed' - QPWS has moved to online permits; verify whether physical tag display is still required",
+  "'Booking system opens a rolling window ... popular sites taken within minutes of release' unsourced; state the real booking window with QPWS link",
+  "Crocodile 'from roughly Rockhampton northwards' - cite Queensland Government croc advice with date",
+  "No fee figures or 2026 date"
+ ],
+ "cannibalWith": [
+  "/guides/camping-fees-australia-2026/ (fees and park passes by state)",
+  "/guides/is-free-camping-legal-australia/ (free camping rules by state)",
+  "/guides/campfires-camping-australia/ (fire bans)"
+ ],
+ "action": "RETITLE",
+ "priority": "P1",
+ "proposed": {
+  "title": "Camping rules Queensland 2026: permits, fees, free camps",
+  "meta": "Queensland camping rules for 2026: national park permits, K'gari vehicle permits, crocodile country, wet-season closures and free council camps.",
+  "h1": "Camping rules in Queensland (2026): bookings, fees, fires, free camping",
+  "addSections": [
+   "Permit price and booking window table with QPWS link",
+   "K'gari: camping + vehicle access permit steps and dingo rules with fines",
+   "Free camping: council rest area stay limits"
+  ],
+  "faqFromQueries": [
+   "do you need a permit to camp in queensland national parks",
+   "where can you free camp in queensland",
+   "can you sleep in your car in a national park"
+  ],
+  "cta": "Find the Queensland campgrounds, rest areas, dump points and water points with filters in AussieCamps (Pass places; BookEasy stays and tours stay free). Screenshot of the Queensland map filtered to campgrounds, QR on desktop.",
+  "linksIn": [
+   "/guides/camping-fees-australia-2026/",
+   "/guides/is-free-camping-legal-australia/",
+   "/tools/ (road trip planner)"
+  ],
+  "linksOut": [
+   "Queensland Parks camping bookings (linked)",
+   "/guides/camping-fees-australia-2026/",
+   "/guides/is-free-camping-legal-australia/",
+   "/guides/campfires-camping-australia/",
+   "/guides/camping-rules-new-south-wales/ and neighbouring state pages"
+  ]
+ },
+ "notes": "Page carries two layers of text: a short original summary (sections 01-03) then long appended sections (04-08) that repeat points (e.g. fire bans, passes, permits stated twice) - tighten and dedupe. No official-source links in the body (only a plain-text 'Check before you go' label naming the agency, not linked), no dollar fees and no 2026-dated figures; 'Updated 18 August 2026' only. Generic trip-planner CTA. Rest-area/ camping/ dump-point data is Pass-only, so CTA must say so honestly."
+}

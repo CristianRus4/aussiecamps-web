@@ -1,0 +1,65 @@
+{
+ "url": "https://aussiecamps.app/guides/campfires-camping-australia/",
+ "slug": "campfires-camping-australia",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 23,
+  "pos": 8.7,
+  "topQueries": []
+ },
+ "primaryQuery": "campfire rules australia",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 2,
+  "conversion": 2,
+  "links": 2,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 46.3,
+ "accuracyFlags": [
+  "Says total fire bans 'prohibit all open flame regardless of rating' and in the next breath that gas appliances are generally permitted: internally contradictory (solid-fuel fires banned, gas conditional).",
+  "Treats 'total fire ban' as a national mechanism; Queensland uses local fire bans under QFES rather than statewide total fire bans and WA/SA/Tas have their own names; add per-state source links.",
+  "'Check before you go' lists only the Bureau of Meteorology; no state fire authority links (RFS, CFA, QFES, DFES, CFS, TFS) for rules the page says to check.",
+  "'Complete fire bans override normal campground permission' consistent, but penalty claims ('imprisonment') have no source."
+ ],
+ "cannibalWith": [
+  "camping-rules-new-south-wales",
+  "camping-rules-victoria",
+  "camping-rules-queensland"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "Campfire Rules in Australia: Fire Bans, Parks and Penalties | AussieCamps",
+  "meta": "When a campfire is legal in Australia: total fire bans, fire danger ratings, park rules and how to check RFS, CFA and QFES on the day.",
+  "h1": "Campfire rules for camping in Australia",
+  "addSections": [
+   "State-by-state table of fire authorities and ban names with official links",
+   "Gas stove rules on ban days per state",
+   "Penalties summary with legislation sources"
+  ],
+  "faqFromQueries": [
+   "campfire rules australia",
+   "can you have a campfire in a national park australia",
+   "total fire ban camping"
+  ],
+  "cta": "Link to the app's campground place details for fire notes (Pass); do not claim live fire-ban data.",
+  "linksIn": [
+   "camping-rules-new-south-wales",
+   "camping-rules-victoria",
+   "camping-rules-queensland",
+   "australian-alps-camping-route",
+   "best-time-camping-australia"
+  ],
+  "linksOut": [
+   "camping-rules-new-south-wales",
+   "camping-rules-victoria",
+   "camping-rules-queensland",
+   "camping-rules-western-australia",
+   "camping-rules-tasmania"
+  ]
+ },
+ "notes": "Pos 8.7 with 23 impr and 0 clicks (expected about 0.7) is thin evidence; accuracy rules the action (FIX-FACTS P0). Safety page, so every ban/penalty statement needs an official source. Then retitle for 'campfire rules australia'. Many internal links point here from other guides, so it is a hub for rules."
+}

@@ -1,0 +1,80 @@
+{
+ "url": "https://aussiecamps.app/guides/australian-road-signs-visitors-guide/",
+ "slug": "australian-road-signs-visitors-guide",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 48,
+  "pos": 20.8,
+  "topQueries": [
+   "road signs australia",
+   "signs on road",
+   "road signs road works"
+  ]
+ },
+ "primaryQuery": "road signs australia",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 2,
+  "conversion": 1,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 47.4,
+ "accuracyFlags": [
+  {
+   "status": "CONFIRMED",
+   "claim": "Section 05: 'the default open road limit varies by state, from 100 in most to 110 on many highways and 130 on specified Northern Territory sections' mixes default and posted limits.",
+   "correct": "With no speed sign, the limit outside built-up areas is 100 km/h in NSW, Vic, Qld, SA, Tas and ACT, and 110 km/h in WA and NT. Some highways in other states are signposted 110. NT 130 km/h applies only on signposted sections of the Stuart, Barkly, Victoria and Arnhem highways. (NT pages returned 403 to the checker; NT detail from search summaries of official pages.)",
+   "source": "https://www.mainroads.wa.gov.au/technical-commercial/technical-library/road-traffic-engineering/traffic-management/speed-zones/ ; https://nt.gov.au/driving/safety/speed-limits ; https://austlii.edu.au/au/legis/nt/consol_reg/tr1999186/s77a.html",
+   "fix": "Sec 05 speed limits: default rural 100 km/h NSW/Vic/Qld/SA/Tas/ACT, 110 km/h WA and NT; 110 elsewhere only where signed; NT 130 only on signed sections (Main Roads WA, nt.gov.au) - low severity"
+  }
+ ],
+ "cannibalWith": [
+  "australia-road-rules-state-differences",
+  "driving-with-road-trains-australia"
+ ],
+ "action": "REWRITE",
+ "priority": "P2",
+ "proposed": {
+  "title": "Australian Road Signs Explained for Visitors | AussieCamps",
+  "meta": "Stop, give way, floodway, road train and wildlife signs decoded, plus speed limits by state and what fuel-distance signs mean on outback roads.",
+  "h1": "Australian road signs visitors should know",
+  "addSections": [
+   "Image grid of the signs named (floodway depth post, grid, kangaroo, road train) with alt text",
+   "State speed-limit default table with road-authority links",
+   "Roadworks and variable speed sign rules with fines note"
+  ],
+  "faqFromQueries": [
+   "road signs australia",
+   "what do the road works signs mean",
+   "signs on road"
+  ],
+  "cta": "Link to the app's road-trip guides and rest-area and fuel places (Pass) for planning around fuel-distance signs.",
+  "linksIn": [
+   "australia-road-rules-state-differences",
+   "driving-with-road-trains-australia",
+   "campervan-driving-australia-safety-guide"
+  ],
+  "linksOut": [
+   "australia-road-rules-state-differences",
+   "driving-with-road-trains-australia",
+   "australia-road-trip-fatigue-wildlife-safety"
+  ]
+ },
+ "notes": "Page has no signs imagery, which is the dominant intent for 'road signs australia' (pos 64), so image search is lost. Overlaps with australia-road-rules-state-differences. Spanish version gets 59 impr but English 48 at pos 20.8 and 0 clicks.",
+ "accuracyFlagsOriginal": [
+  "Road train signs described as 'a yellow ROAD TRAIN or LONG VEHICLE panel': check wording against state road-authority guidance; panel colours and rules differ by state.",
+  "'Default open road limit ... 100 in most to 110 ... 130 on specified NT sections' has no source; verify per state (NT 130 applies only to nominated highway sections).",
+  "No official source section (Austroads / state road authority), despite being a road-rules page; no images of the signs themselves.",
+  "Footer blurb says 'Find 74,000+ Australian places offline': AussieCamps is not an offline map; only place details and guides work offline, and the 74,000 total is out of scope but the wording should say 'place details and guides work offline'."
+ ],
+ "rejectedFlags": [
+  "Road train 'yellow panel': correct per NHVR VSG-19 (consider softening 'not a roadside instruction').",
+  "No official source section / no images: page has a 'Check before you go' block; images are an SEO gap.",
+  "Footer '74,000+ places offline': accurate offline claim; 73,945 rows so '74,000+' slightly overstates."
+ ],
+ "accuracyAdjudicated": "2026-10-19",
+ "adjudicationNote": "Accuracy adjudicated 2026-10-19: 1 low-severity wording fix confirmed; 3 flags rejected. Accuracy raised 3->4. REWRITE P2 unchanged (driven by missing sign imagery for 'road signs australia')."
+}

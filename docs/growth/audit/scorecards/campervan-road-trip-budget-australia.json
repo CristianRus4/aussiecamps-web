@@ -1,0 +1,66 @@
+{
+ "url": "https://aussiecamps.app/guides/campervan-road-trip-budget-australia/",
+ "slug": "campervan-road-trip-budget-australia",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 18,
+  "pos": 26.9,
+  "topQueries": [
+   "campervan fuel cost australia",
+   "campervan fuel cost",
+   "fuel cost per km australia"
+  ]
+ },
+ "primaryQuery": "campervan road trip budget australia",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 2,
+  "conversion": 2,
+  "links": 2,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 44.2,
+ "accuracyFlags": [
+  "FAQ says the guide 'breaks a realistic day into vehicle, fuel, camp fees, food and park passes, with dated Australian dollar figures', but the page contains no figures or dates: the claim is false for the page as published.",
+  "'Shoulder season saves a third or more' unsourced; no 2026 fuel price or hire rate.",
+  "Duplicated text: shoulder-season and 'single biggest saving' paragraph is repeated twice.",
+  "Footer blurb says 'Find 74,000+ Australian places offline': AussieCamps is not an offline map; only place details and guides work offline, and the 74,000 total is out of scope but the wording should say 'place details and guides work offline'."
+ ],
+ "cannibalWith": [
+  "australia-travel-cost-2026",
+  "camping-fees-australia-2026"
+ ],
+ "action": "EXPAND",
+ "priority": "P1",
+ "proposed": {
+  "title": "Campervan Road Trip Budget Australia 2026: Fuel, Hire, Camps | AussieCamps",
+  "meta": "What a campervan trip costs in 2026: hire rates, fuel per 1,000 km, camp fees and park passes, with a worked 14-day budget in AUD.",
+  "h1": "Australia campervan road trip budget",
+  "addSections": [
+   "Price table in AUD with 2026 dates: hire per day, fuel litres and cost per 1,000 km, camps, park fees",
+   "Worked 14-day budget for two",
+   "Fuel cost calculator walkthrough with the /tools calculator"
+  ],
+  "faqFromQueries": [
+   "campervan fuel cost australia",
+   "how much does it cost to travel around australia in a caravan",
+   "fuel cost per km australia",
+   "driving cost calculator"
+  ],
+  "cta": "Link /tools calculators and the app's trip planner for distance and fuel.",
+  "linksIn": [
+   "australia-travel-cost-2026",
+   "camping-fees-australia-2026",
+   "campervan-driving-australia-safety-guide"
+  ],
+  "linksOut": [
+   "australia-travel-cost-2026",
+   "camping-fees-australia-2026",
+   "campervan-driving-australia-safety-guide",
+   "/tools"
+  ]
+ },
+ "notes": "Locale versions (nl 94, de 65, es 31 impr, pos about 73) outrank English by impressions: translated queries (camper huren australie kosten, camper mieten australien kosten) show demand for the price table that this page lacks. Pos 26.9 so EXPAND/REWRITE bands are borderline; recommend writing the numbers first."
+}

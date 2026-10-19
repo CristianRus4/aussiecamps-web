@@ -1,0 +1,54 @@
+{
+ "url": "https://aussiecamps.app/guides/choosing-campsite-australia/",
+ "slug": "choosing-campsite-australia",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "how to choose a campsite in australia",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 2,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 51,
+ "accuracyFlags": [
+  "'never camp within about fifty metres of any waterway' in croc country is presented as a rule but is unsourced; NT parks guidance is to stay well back from the water's edge, no fixed 50 m",
+  "Eucalypt/'widow maker' limb warning appears twice (sections 4 and 8)",
+  "No official sources or Check-before-you-go block"
+ ],
+ "cannibalWith": [
+  "camping-weather-safety-australia",
+  "responsible-camping-australia",
+  "caravan-park-vs-holiday-park"
+ ],
+ "action": "NOINDEX/MERGE",
+ "priority": "P3",
+ "proposed": {
+  "title": "How to Choose a Campsite in Australia: Checklist",
+  "meta": "Access, water, shade, ground and flood risk: what to check before you drive in, with a backup plan for a full site.",
+  "h1": "How to choose a campsite in Australia",
+  "addSections": [
+   "If kept: fold into camping-weather-safety-australia as a checklist section and 301",
+   "Source NT Parks croc guidance"
+  ],
+  "faqFromQueries": [
+   "What makes a good campsite?",
+   "What should you avoid when picking a campsite?"
+  ],
+  "cta": "Filter campgrounds by water, toilets, showers and dump point in the app before you drive in (Pass)",
+  "linksIn": [
+   "caravan-park-vs-holiday-park",
+   "camping-weather-safety-australia"
+  ],
+  "linksOut": []
+ },
+ "notes": "Zero GSC impressions in 3 months in any locale (not in pages-3m.tsv). Not a hub. Overlaps weather-safety and responsible-camping. Recommend merge and 301; if kept, fix the croc distance wording.",
+ "rulesOrLegal": false
+}

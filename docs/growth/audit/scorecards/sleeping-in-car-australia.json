@@ -1,0 +1,71 @@
+{
+ "url": "https://aussiecamps.app/guides/sleeping-in-car-australia/",
+ "slug": "sleeping-in-car-australia",
+ "gsc90": {
+  "clicks": 4,
+  "impr": 546,
+  "pos": 13.3,
+  "topQueries": [
+   "can you sleep in your car in a national park (5 impr, pos 19.8)",
+   "car camping australia (7, pos 64.1)",
+   "(en page: 4 clicks, 546 impr, pos 13.3, CTR 0.73% vs 1% expected pos 11-20)",
+   "locale copies add 340 impr (pt 149 pos 8.8, de 56, es 52, nl 52, it 31) at pos 7-9"
+  ]
+ },
+ "primaryQuery": "can you sleep in your car in australia",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 2,
+  "depth": 2,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 47.4,
+ "accuracyFlags": [
+  "'Designated rest areas along highways permit sleeping for fatigue management, usually up to 24 hours ... the most reliably legal option nationwide' and chip 'Rest areas allow up to 24 hours': Queensland rest areas are signed up to 20 hours (councils can set up to 72), and NSW/VIC/WA limits are set by sign. Some rest areas ban overnight stays (the page's own section 02 says so). Do not state 24 hours as general.",
+  "'Council local laws ... many prohibit it in all public places' with no council or state source; page has no 'Check before you go' official-source block (the only rules page of these 12 without one).",
+  "FAQ 'sleeping in a vehicle is not itself an offence': true generally but Gold Coast and other council by-laws define sleeping in a vehicle as camping; say so and cite.",
+  "Chip 'No engine running for heat' and CO advice are correct; section 08 largely repeats section 07 (duplicate paragraph on shades/mattress)."
+ ],
+ "cannibalWith": [
+  "/guides/camping-rules-new-south-wales/",
+  "/guides/camping-rules-queensland/",
+  "/guides/camping-rules-victoria/",
+  "/guides/is-free-camping-legal-australia/"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "Can You Sleep in Your Car in Australia? State Rules 2026",
+  "meta": "Legal in some places, fined in others. Rest-area limits, council by-laws and national park rules for sleeping in a car, by state.",
+  "h1": "Can you sleep in your car in Australia?",
+  "addSections": [
+   "State-by-state table: rest-area time limits (QLD 20 h signed, others by sign) with official TMR/Transport links",
+   "Sleeping in your car in a national park: answer first (generally no, camp in designated campgrounds), matching query 'can you sleep in your car in a national park'",
+   "Fines table: examples from Gold Coast, Byron, Sunshine Coast by-laws with links",
+   "Cheap legal alternatives near you: how to find free/low-cost camps in AussieCamps"
+  ],
+  "faqFromQueries": [
+   "Can you sleep in your car in a national park?",
+   "Is it illegal to sleep in your car at a rest area in Australia?",
+   "Can you sleep in your car on the street in Australia?"
+  ],
+  "cta": "Find the legal option for tonight: AussieCamps lists roadside rest areas and campgrounds with the exact rules where the source states them; filter for rest areas and campgrounds near you.",
+  "linksIn": [
+   "/guides/is-free-camping-legal-australia/",
+   "/guides/camping-rules-queensland/",
+   "/guides/australia-road-trip-fatigue-wildlife-safety/",
+   "/guides/responsible-camping-australia/"
+  ],
+  "linksOut": [
+   "/guides/camping-rules-new-south-wales/",
+   "/guides/camping-rules-queensland/",
+   "/guides/camping-rules-victoria/",
+   "/guides/is-free-camping-legal-australia/",
+   "/guides/australia-road-trip-fatigue-wildlife-safety/"
+  ]
+ },
+ "notes": "Highest-traffic page in this batch and a rules page, so fix the 24-hour claim before any title or expansion work (then EXPAND, pos 13 to push into top 10; CTR is just above half expected so retitle is secondary). Title already leads with the query; adding the year and 'state rules' helps. Sitemap lists en and locales (locale copies get pos 7-9 impressions). Generic 'Save the stops. Plan the whole trip. / Download app' block, no feature-specific wording, no screenshot, no QR noted. Source lib/site.ts:286, lib/article-faqs.ts:59."
+}

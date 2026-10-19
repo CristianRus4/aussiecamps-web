@@ -1,0 +1,66 @@
+{
+ "url": "https://aussiecamps.app/guides/best-time-camping-australia/",
+ "slug": "best-time-camping-australia",
+ "gsc90": {
+  "clicks": 1,
+  "impr": 86,
+  "pos": 8.7,
+  "topQueries": [
+   "camping in australia",
+   "how to camp in australia",
+   "northern territory campeggio"
+  ]
+ },
+ "primaryQuery": "best time to camp in australia",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 2,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 50.5,
+ "accuracyFlags": [
+  "No dates or official sources: claims such as school-holiday blocks, cyclone season Nov-Apr and wet/dry seasons carry no BOM or state education department source and no 2026 date.",
+  "Tasmania and alps 'December to March' and WA wildflowers 'August to November' unsourced.",
+  "Footer blurb says 'Find 74,000+ Australian places offline': AussieCamps is not an offline map; only place details and guides work offline, and the 74,000 total is out of scope but the wording should say 'place details and guides work offline'."
+ ],
+ "cannibalWith": [
+  "campfires-camping-australia (seasons/fire) only partially"
+ ],
+ "action": "RETITLE",
+ "priority": "P1",
+ "proposed": {
+  "title": "Best Time to Go Camping in Australia, Month by Region | AussieCamps",
+  "meta": "Dry season north, summer south, winter Red Centre: the best month to camp in each region, plus 2026 school holidays and cyclone and fire seasons.",
+  "h1": "Best time to camp in Australia, region by region",
+  "addSections": [
+   "Month by region table (12 months x 6 regions)",
+   "2026 school holiday dates by state with education department links",
+   "BOM climate zone and cyclone season links"
+  ],
+  "faqFromQueries": [
+   "best time to camp in australia",
+   "best time to go camping in australia",
+   "camping australia",
+   "how to camp in australia"
+  ],
+  "cta": "Link to the app's region guides and saved-place collections; add screenshot of region browse.",
+  "linksIn": [
+   "australian-alps-camping-route",
+   "brisbane-to-cape-tribulation",
+   "camping-fees-australia-2026",
+   "campervan-road-trip-budget-australia"
+  ],
+  "linksOut": [
+   "camping-rules-queensland",
+   "camping-rules-tasmania",
+   "camping-rules-western-australia",
+   "campfires-camping-australia",
+   "campervan-road-trip-budget-australia"
+  ]
+ },
+ "notes": "Pos 8.7, 86 impr, 1 click = 1.2% vs 3% expected, under half, so RETITLE. Current title 'Best time to camp around Australia' misses the 'go camping' and month phrasing. Competitors (Camplify, Mighty Campers, Travelnuity) all use month-by-region tables, which this page lacks (depth). Spanish version pos 9.4 also."
+}

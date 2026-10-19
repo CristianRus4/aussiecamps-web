@@ -1,0 +1,61 @@
+{
+ "url": "https://aussiecamps.app/guides/driving-with-road-trains-australia/",
+ "slug": "driving-with-road-trains-australia",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "how to overtake a road train australia",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 2,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 47,
+ "accuracyFlags": [
+  "Intro: road train 'roughly 27.5 to 60 metres'; FAQ: 'can run to 53.5 metres'; body: 'fifty metre combination': three different lengths, jurisdiction maxima not stated",
+  "'Triples and quads are normal on those roads' contradicts the 53.5 m figure (quads exceed it) and is not jurisdiction-specific",
+  "NT-only passing advice ('maintain speed and keep left') is applied generally; other states differ",
+  "Source list includes 'WA towing rules' which is unrelated to road trains; no Queensland/SA source",
+  "'UHF channel 40' presented as useful but no source"
+ ],
+ "cannibalWith": [
+  "australia-road-trip-fatigue-wildlife-safety",
+  "campervan-driving-australia-safety-guide"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "Overtaking and Sharing the Road with Road Trains in Australia",
+  "meta": "How long road trains are, how to overtake safely, what to do on single-lane roads and when one passes you. NT, WA and Qld guidance.",
+  "h1": "How to share Australian roads with road trains",
+  "addSections": [
+   "Table: max length by state and route type with official source",
+   "Passing and oncoming rules by state",
+   "Dust and gravel behaviour"
+  ],
+  "faqFromQueries": [
+   "How long is a road train in Australia?",
+   "How do you overtake a road train?"
+  ],
+  "cta": "Route the outback legs with rest areas and fuel/roadhouse stops in the app (Pass)",
+  "linksIn": [
+   "driving-in-australia-road-rules-visitors",
+   "nullarbor-crossing-camping-guide",
+   "queensland-outback-way"
+  ],
+  "linksOut": [
+   "NT driving with road trains",
+   "Main Roads WA",
+   "Qld TMR"
+  ]
+ },
+ "notes": "No impressions. Safety/rules page with internally inconsistent lengths: P0 fact fix, then reassess (merge into campervan-driving-australia-safety-guide if it stays at zero).",
+ "rulesOrLegal": true
+}

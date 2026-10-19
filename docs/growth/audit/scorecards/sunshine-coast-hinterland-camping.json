@@ -1,0 +1,62 @@
+{
+ "url": "https://aussiecamps.app/guides/sunshine-coast-hinterland-camping/",
+ "slug": "sunshine-coast-hinterland-camping",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 35,
+  "pos": 43.1,
+  "topQueries": [
+   "camping sunshine coast hinterland (7 impr, pos 49.6)",
+   "campsites sunshine coast hinterland (4, pos 45.0)"
+  ]
+ },
+ "primaryQuery": "camping sunshine coast hinterland",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 54.7,
+ "accuracyFlags": [
+  "'Mount Ngungun ... around an hour return': QLD Parks lists roughly 1.5 hours (2.8 km return); 'Mount Beerwah a genuinely steep scramble' omits that Traditional Owners ask people not to climb Tibrogargan and Beerwah and that three deaths were reported in 2026 (ABC, April 2026); link QLD Parks alerts.",
+  "Camping detail is thin for a page targeting 'camping': no mention of QLD Parks camping permit/booking for Conondale, or the Cooloola/Teewah Beach vehicle access and camping permits referenced under Noosa North Shore.",
+  "'Noosa Everglades one of only two everglade systems in the world' is a common marketing claim with no source.",
+  "'Mary Valley' is in the first section heading but not covered anywhere."
+ ],
+ "cannibalWith": [
+  "/guides/east-coast-road-trip-sydney-cairns/",
+  "/guides/camping-rules-queensland/"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "Camping Sunshine Coast Hinterland: Conondale to Noosa Loop",
+  "meta": "Where to camp in the Sunshine Coast hinterland: Conondale, Kenilworth, Mapleton and the coast, with permits, walks and wet-season tips.",
+  "h1": "Camping in the Sunshine Coast hinterland: a 4-day loop",
+  "addSections": [
+   "Named campgrounds with booking/permit source (Conondale NP, Booloumba Creek, Noosa North Shore, Cooloola)",
+   "Glass House Mountains safety and cultural request with QLD Parks alert link",
+   "Campground comparison table: coast vs hinterland"
+  ],
+  "faqFromQueries": [
+   "Where can you camp in the Sunshine Coast hinterland?",
+   "Can you camp in Noosa National Park?"
+  ],
+  "cta": "Browse Sunshine Coast hinterland campgrounds in AussieCamps and save Conondale and Kenilworth stays to compare.",
+  "linksIn": [
+   "/guides/camping-rules-queensland/",
+   "/guides/east-coast-road-trip-sydney-cairns/",
+   "/guides/caravan-park-vs-holiday-park/"
+  ],
+  "linksOut": [
+   "/guides/camping-rules-queensland/",
+   "/guides/caravan-park-vs-holiday-park/",
+   "/guides/best-time-camping-australia/"
+  ]
+ },
+ "notes": "Only page here with impressions on a camping-intent query; both queries are 'camping sunshine coast hinterland', which the current title/H1 ('camping loop') only partly mirrors. Volume (35 impr, pos 43) is below the >200 REWRITE threshold, so KEEP with a title/H1 and camping-detail tweak. hreflang alternates on this page point to de/es/fr/it/nl/pt copies that are noindex and absent from sitemap.xml (en-only in sitemap): mixed signal, drop the alternates (or index the locales) so Search Console stops reporting excluded-by-noindex/alternate issues. Generic 'Save the stops. Plan the whole trip. / Download app' block, no feature-specific wording, no screenshot, no QR noted. Source lib/site.ts:266."
+}

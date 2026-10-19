@@ -1,0 +1,56 @@
+{
+ "url": "https://aussiecamps.app/guides/first-campervan-trip-australia/",
+ "slug": "first-campervan-trip-australia",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": [
+   "how to plan a campervan trip australia (5 impr, pos 32.8)",
+   "campervan trip australie (12 impr, pos 76.8)"
+  ]
+ },
+ "primaryQuery": "first campervan trip australia",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 2,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 51,
+ "accuracyFlags": [
+  "Duplicate paragraph: 'Photograph the vehicle inside and out at pickup with the odometer visible' repeats section 4",
+  "Handover and 'book first two nights' advice repeated across sections 1, 2, 4, 5",
+  "No sources or FAQ sourcing; 'most rental damage happens in the first 48 hours' unsourced"
+ ],
+ "cannibalWith": [
+  "campervan-driving-australia-safety-guide",
+  "campervan-road-trip-budget-australia"
+ ],
+ "action": "NOINDEX/MERGE",
+ "priority": "P3",
+ "proposed": {
+  "title": "First Campervan Trip in Australia: Beginner's Checklist",
+  "meta": "Handover checks, an easy first night, short driving days and the size of van to book for your first campervan trip.",
+  "h1": "Your first campervan trip in Australia",
+  "addSections": [
+   "Merge into campervan-driving-australia-safety-guide as the beginners section, or add a 3-day starter route"
+  ],
+  "faqFromQueries": [
+   "How far should you drive on the first day?",
+   "What size campervan should I hire?"
+  ],
+  "cta": "Find the powered site for night one: holiday parks bookable free in the app, campgrounds in the Pass layer",
+  "linksIn": [
+   "campervan-road-trip-budget-australia",
+   "driving-in-australia-overseas-licence",
+   "dump-points-australia-guide"
+  ],
+  "linksOut": []
+ },
+ "notes": "Zero page impressions; only tail queries. Merge with the campervan safety guide to remove repetition, or keep and add a starter route. Not a hub.",
+ "rulesOrLegal": false
+}

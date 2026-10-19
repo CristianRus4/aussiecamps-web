@@ -1,0 +1,61 @@
+{
+ "url": "https://aussiecamps.app/guides/responsible-camping-australia/",
+ "slug": "responsible-camping-australia",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "responsible camping australia / leave no trace camping australia",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 53.7,
+ "accuracyFlags": [
+  "'Collecting firewood is prohibited in most national parks': broadly true but rules differ by state and park; unsourced.",
+  "'Dingoes on K'gari ... have caused serious injuries and deaths': defensible but unsourced and presented as fact about the whole island with no QLD Parks link.",
+  "'Many arid parks now require carrying (toilet waste) out entirely' and 'total fire ban: no open flame at all' are overgeneralised (fire-ban rules differ by state, gas cookers are often allowed): needs state-fire-authority links.",
+  "Duplicated content: the 'never feed native animals' paragraph appears twice (section 06 and again at end of 08); several 'Keep in mind' chips repeat body text."
+ ],
+ "cannibalWith": [
+  "/guides/is-free-camping-legal-australia/",
+  "/guides/campfires-camping-australia/",
+  "/guides/dump-points-australia-guide/"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "Responsible Camping in Australia: Leave No Trace Rules",
+  "meta": "Leave No Trace for Australian conditions: waste, toilets, fire bans, wildlife and Country, with links to state land managers.",
+  "h1": "Responsible camping in Australia",
+  "addSections": [
+   "Official sources block: Tracks and Trails/Leave No Trace Australia, state parks fire-ban pages, QLD Parks K'gari dingo safety",
+   "Remove the duplicated feeding paragraph and tighten to one fire section that defers to /guides/campfires-camping-australia/",
+   "What to carry checklist (trowel/WAG bag, gas stove, bin bags)"
+  ],
+  "faqFromQueries": [
+   "What are the Leave No Trace principles in Australia?",
+   "Can you bury toilet waste when camping in Australia?"
+  ],
+  "cta": "Find dump points and toilets on your route in AussieCamps (Dump Point and Public Toilet layers) before heading somewhere with no bins.",
+  "linksIn": [
+   "/guides/is-free-camping-legal-australia/",
+   "/guides/campfires-camping-australia/",
+   "/guides/dump-points-australia-guide/"
+  ],
+  "linksOut": [
+   "/guides/campfires-camping-australia/",
+   "/guides/dump-points-australia-guide/",
+   "/guides/is-free-camping-legal-australia/",
+   "/guides/australia-road-trip-fatigue-wildlife-safety/"
+  ]
+ },
+ "notes": "No impressions, but the topic has genuine demand; overlaps with campfires and free-camping guides, so expect it to rank only as a supporting page. Keep, de-duplicate, add official sources. Generic 'Save the stops. Plan the whole trip. / Download app' block, no feature-specific wording, no screenshot, no QR noted. Source lib/site.ts:300 and lib/article-faqs.ts:125. Locale copies are indexed (in sitemap), so hreflang is consistent."
+}

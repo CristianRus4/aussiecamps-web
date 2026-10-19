@@ -1,0 +1,51 @@
+{
+ "url": "https://aussiecamps.app/support/",
+ "slug": "support",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "aussiecamps support",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 2,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 50,
+ "accuracyFlags": [
+  "'Map and place details are free, together with two saved lists' conflicts with the Pass boundary: free = BookEasy stays and tours only; campgrounds, parks, rest areas, dump points etc. need the Pass.",
+  "'Premium' naming vs the Pass; 'Premium adds ... trip planning, advanced filters, place weather and road trip routes' should match current Pass contents in product-facts.",
+  "'The bundled place directory keeps core place details available beyond reliable signal' is fine, but must not imply offline maps."
+ ],
+ "cannibalWith": [],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "AussieCamps support and FAQ",
+  "meta": "Help with AussieCamps places, saved lists, trip planner, offline place details and the Pass.",
+  "h1": "How can we help?",
+  "addSections": [
+   "Free vs Pass: what stays free (bookable stays and tours)",
+   "Offline: place details and guides work offline, maps do not"
+  ],
+  "faqFromQueries": [],
+  "cta": "None needed",
+  "linksIn": [
+   "footer",
+   "/terms",
+   "/privacy"
+  ],
+  "linksOut": [
+   "/privacy",
+   "/terms",
+   "/guides"
+  ]
+ },
+ "notes": "No impressions. Meta mentions \"offline data\" and \"currency conversion\" which is vague; fix the free/Pass FAQ first."
+}

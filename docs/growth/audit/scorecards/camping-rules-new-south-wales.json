@@ -1,0 +1,95 @@
+{
+ "url": "https://aussiecamps.app/guides/camping-rules-new-south-wales/",
+ "slug": "camping-rules-new-south-wales",
+ "gsc90": {
+  "clicks": 2,
+  "impr": 421,
+  "pos": 8.4,
+  "topQueries": [
+   "(no page-level queries exported; related: can you camp on the side of the road in australia, campsite rules adelaide-style rules queries)"
+  ]
+ },
+ "primaryQuery": "camping rules nsw",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 2,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 45.3,
+ "accuracyFlags": [
+  {
+   "status": "CONFIRMED",
+   "claim": "Section 05: All Parks Pass 'does not cover camping fees or the Sydney Harbour and Kosciuszko parks in all cases' reads as if Kosciuszko is excluded; no price or date.",
+   "correct": "The All Parks Pass covers vehicle entry at all 45 NSW parks that charge entry fees, including Kosciuszko. $190 for 1 year (seniors $152), $335 for 2 years (seniors $268), checked October 2026. No annual pass covers camping/accommodation fees, Sydney Harbour NP island landing fees, Chowder Bay, or the Kosciuszko Skitube. Multi Park, Country Parks and Single Park passes exclude Kosciuszko.",
+   "source": "https://www.nationalparks.nsw.gov.au/passes-and-fees/annual-passes",
+   "fix": "All Parks Pass INCLUDES Kosciuszko: covers all 45 fee parks; $190/1 yr, $335/2 yr (Oct 2026); excludes camping fees, Sydney Harbour island landing fees, Chowder Bay, Skitube"
+  },
+  {
+   "status": "CONFIRMED",
+   "claim": "All Parks Pass sentence repeated almost word for word in section 08 (Marine parks), off-topic there; says 'most NSW parks' (editorial).",
+   "correct": "Keep one All Parks Pass statement in section 05 with the official wording and price; delete the section 08 repeat; change 'most NSW parks' to 'all 45 NSW parks that charge vehicle entry fees'.",
+   "source": "https://www.nationalparks.nsw.gov.au/passes-and-fees/annual-passes",
+   "fix": "Delete duplicate All Parks Pass sentence in sec 08; 'most NSW parks' -> 'all 45 NSW parks that charge vehicle entry'"
+  },
+  {
+   "status": "CONFIRMED",
+   "claim": "Section 04: 'NPWS campgrounds ... most charge both a camping fee and a separate vehicle entry fee'; Keep-in-mind bullet 'NPWS charges camping plus park entry'.",
+   "correct": "Vehicle entry fees apply at only 45 of the 890+ NSW parks and reserves. Many NPWS campgrounds charge a camping fee only; some are free but still need booking.",
+   "source": "https://www.nationalparks.nsw.gov.au/passes-and-fees/annual-passes",
+   "fix": "Sec 04: only 45 of 890+ NSW parks charge vehicle entry; most NPWS campgrounds charge camping fee only, some free but booked"
+  }
+ ],
+ "cannibalWith": [
+  "/guides/camping-fees-australia-2026/ (fees and park passes by state)",
+  "/guides/is-free-camping-legal-australia/ (free camping rules by state)",
+  "/guides/campfires-camping-australia/ (fire bans)"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "Camping rules NSW 2026: parks, state forests, fires | AussieCamps",
+  "meta": "NSW camping rules for 2026: booking national park sites, free state forest camping, rest-area limits and fire-ban rules. Check before you go.",
+  "h1": "Camping rules in New South Wales (2026): bookings, fees, fires, free camping",
+  "addSections": [
+   "Fee table: NPWS camping fee + vehicle entry, All Parks Pass current price with source link and date",
+   "Fire danger period and total fire ban dos/don'ts with NSW RFS link",
+   "State forest vs rest area vs council reserve decision table"
+  ],
+  "faqFromQueries": [
+   "can you free camp in new south wales",
+   "do you need to book nsw national park campsites",
+   "can you camp on the side of the road in australia"
+  ],
+  "cta": "Find the New South Wales campgrounds, rest areas, dump points and water points with filters in AussieCamps (Pass places; BookEasy stays and tours stay free). Screenshot of the New South Wales map filtered to campgrounds, QR on desktop.",
+  "linksIn": [
+   "/guides/camping-fees-australia-2026/",
+   "/guides/is-free-camping-legal-australia/",
+   "/tools/ (road trip planner)"
+  ],
+  "linksOut": [
+   "NSW National Parks camping and accommodation page (linked)",
+   "/guides/camping-fees-australia-2026/",
+   "/guides/is-free-camping-legal-australia/",
+   "/guides/campfires-camping-australia/",
+   "/guides/camping-rules-new-south-wales/ and neighbouring state pages"
+  ]
+ },
+ "notes": "Page carries two layers of text: a short original summary (sections 01-03) then long appended sections (04-08) that repeat points (e.g. fire bans, passes, permits stated twice) - tighten and dedupe. No official-source links in the body (only a plain-text 'Check before you go' label naming the agency, not linked), no dollar fees and no 2026-dated figures; 'Updated 18 August 2026' only. Generic trip-planner CTA. Rest-area/ camping/ dump-point data is Pass-only, so CTA must say so honestly.",
+ "accuracyFlagsOriginal": [
+  "CTR 0.5% (2/421) at pos 8.4 vs 3% expected: below half, RETITLE",
+  "'All Parks Pass ... does not cover camping fees or the Sydney Harbour and Kosciuszko parks in all cases' is vague; Kosciuszko has its own pass arrangements and no price/2026 date is given - verify against NSW NPWS",
+  "'State Forests are generally free' - Forestry Corporation has introduced some booked/fee camping; verify and date",
+  "All Parks Pass sentence is duplicated in sections 05 and 08"
+ ],
+ "rejectedFlags": [
+  "CTR 0.5% at pos 8.4: a search metric, not an accuracy claim (still a valid RETITLE reason).",
+  "'State Forests are generally free': confirmed by Forestry Corporation (free, first come, max 4 weeks; Cumberland SF no camping)."
+ ],
+ "accuracyAdjudicated": "2026-10-19",
+ "actionBeforeAdjudication": "RETITLE P1",
+ "adjudicationNote": "Accuracy adjudicated 2026-10-19: 3 confirmed (pass scope, duplicate, entry-fee overstatement); State Forests flag rejected. Moved RETITLE P1 -> FIX-FACTS P0: fix facts, then apply the proposed title (CTR 0.5% at pos 8.4 on 421 impr still justifies the retitle). Accuracy 3->2."
+}

@@ -1,0 +1,59 @@
+{
+ "url": "https://aussiecamps.app/tools/",
+ "slug": "tools",
+ "gsc90": {
+  "clicks": 2,
+  "impr": 870,
+  "pos": 59.3,
+  "topQueries": [
+   "distance calculator (64, pos 88.5)",
+   "trip calculator (35, pos 77.9)",
+   "travel calculator australia (21)",
+   "road trip calculator (16)",
+   "road distance calculator australia (15)"
+  ]
+ },
+ "primaryQuery": "road trip calculator australia",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 53,
+ "accuracyFlags": [
+  "Fuel/day-time/water assumptions (11 L fresh, 9 L grey per person per day) are uncited rules of thumb; label as assumptions.",
+  "Currency tool cites RBA rates from 12 August 2026; stale by 19 Oct, refresh or state clearly."
+ ],
+ "cannibalWith": [],
+ "action": "REWRITE",
+ "priority": "P2",
+ "proposed": {
+  "title": "Road trip calculator Australia: fuel, distance, cost",
+  "meta": "Free Australia road trip calculators: fuel cost, driving day time, water days and campsite price. Every assumption visible.",
+  "h1": "Australia road trip calculators",
+  "addSections": [
+   "Distance and drive-time calculator between Australian cities with presets (Perth to Broome, Sydney to Cairns)",
+   "Road trip cost calculator combining fuel, camp fees and tolls",
+   "Worked example per tool",
+   "Link to cost guides"
+  ],
+  "faqFromQueries": [
+   "How do I calculate road trip fuel cost in Australia?",
+   "How long does it take to drive between Australian cities?"
+  ],
+  "cta": "Plan the route in AussieCamps: order saved stops and see the distance and drive legs (trip planner needs the Pass).",
+  "linksIn": [
+   "/guides/perth-to-broome-road-trip",
+   "/guides/east-coast-road-trip-sydney-cairns"
+  ],
+  "linksOut": [
+   "/guides",
+   "/"
+  ]
+ },
+ "notes": "870 impressions at avg pos 59 over 3 months, 2 clicks. Top queries are distance/trip calculators the page does not clearly offer (no distance calculator). Add a distance calculator and retitle around \"road trip calculator Australia\". Page title currently \"Australia road trip calculators\", 33 chars, acceptable but lacks distance/cost terms."
+}

@@ -1,0 +1,59 @@
+{
+ "url": "https://aussiecamps.app/guides/camping-water-planning/",
+ "slug": "camping-water-planning",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 36,
+  "pos": 7.6,
+  "topQueries": [
+   "(none exported)"
+  ]
+ },
+ "primaryQuery": "how much water for camping australia",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 49.5,
+ "accuracyFlags": [
+  "Body says 4-5 litres per person per day, FAQ says 'at least five litres' - make consistent and cite a government source",
+  "'Boiling for one minute' - official advice is a rolling boil; cite state health guidance",
+  "Duplicated 'sanitise the tank' sentences in sections 07 and 08"
+ ],
+ "cannibalWith": [
+  "/guides/dump-points-australia-guide/ (hose hygiene overlap)"
+ ],
+ "action": "RETITLE",
+ "priority": "P2",
+ "proposed": {
+  "title": "How much water for camping in Australia: litres per day",
+  "meta": "Plan 4-5 litres per person per day (7-10 in outback heat), find refills and treat water safely. Checklist for remote camping.",
+  "h1": "How much water do you need for camping in Australia?",
+  "addSections": [
+   "Per-day litres table by climate and activity",
+   "Refill source checklist (potable, bore, tank, creek)",
+   "Official-source links (state health, DBCA/NT guidance)"
+  ],
+  "faqFromQueries": [
+   "how much water per person per day camping australia",
+   "is campground tap water safe to drink"
+  ],
+  "cta": "Find water points and campgrounds with drinking water in AussieCamps: 3,004 water points and 588 campgrounds with drinking water (Pass places, data as of 2026-09-09). Screenshot of the water-point filter, QR on desktop.",
+  "linksIn": [
+   "/guides/camping-packing-list-australia/",
+   "/guides/camping-rules-western-australia/",
+   "/guides/camping-without-phone-signal/"
+  ],
+  "linksOut": [
+   "/guides/dump-points-australia-guide/",
+   "/guides/how-to-use-aussiecamps-filters/",
+   "/guides/sleeping-in-car-australia/"
+  ]
+ },
+ "notes": "Short original summary plus long appended sections with some repeated sentences; no linked official sources; 'Updated 18 August 2026' only. 36 impressions, 0 clicks at pos 7.6; expected about 1 click, so low signal; retitle to lead with the litres-per-day query."
+}

@@ -1,0 +1,94 @@
+{
+ "url": "https://aussiecamps.app/guides/darwin-kakadu-litchfield-loop/",
+ "slug": "darwin-kakadu-litchfield-loop",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "darwin kakadu litchfield camping loop",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 2,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 1,
+  "translation": null
+ },
+ "weighted": 43.2,
+ "accuracyFlags": [
+  {
+   "status": "CONFIRMED",
+   "claim": "Section 07: 'Two-wheel drive vehicles are limited to the sealed roads, which still reach Ubirr, Nourlangie and Gunlom.'",
+   "correct": "Gunlom is down an unsealed road (Parks Australia lists it with Two Mile Hole, Kubara, Yurmikmik); some hire companies bar 2WDs and 'you may still need a 4WD'. Not on the 4WD-only list, so a private 2WD can use it in the dry. Suggested: 'Sealed roads reach Ubirr and Nourlangie. Gunlom is down a long unsealed road that many hire agreements exclude for 2WDs, so check the Kakadu road report and your rental terms.' Do not print a ~37-40 km figure as official. Gunlom Road upgrade in planning 2026/27.",
+   "source": "https://kakadu.gov.au/plan/getting-around ; https://parksaustralia.gov.au/kakadu/plan/getting-around ; https://kakadu.gov.au/news/projects/gunlom-road-upgrade/",
+   "fix": "Gunlom is NOT on sealed road: unsealed access, many hire 2WDs excluded; check road report and rental terms (kakadu.gov.au)"
+  },
+  {
+   "status": "CONFIRMED",
+   "claim": "Section 08: 'there is no supermarket in Kakadu' and Keep-in-mind 'No supermarket inside Kakadu'.",
+   "correct": "Jabiru, inside Kakadu, has a supermarket and service station; Cooinda's store sells fuel and groceries. Suggested: 'Do a big shop in Darwin. Jabiru has the only supermarket in the park, and roadhouse prices reflect the distance.'",
+   "source": "https://kakadu.gov.au/do/shopping/",
+   "fix": "Jabiru (inside Kakadu) HAS a supermarket; Cooinda sells fuel and groceries"
+  },
+  {
+   "status": "CONFIRMED",
+   "claim": "No Check-before-you-go sources block and no FAQ, unlike sibling camping-rules-northern-territory (structural/E-E-A-T gap, not a factual error).",
+   "correct": "Add a sources block linking kakadu.gov.au/plan/passes, kakadu.gov.au/plan/getting-around, the Kakadu access report and NT Parks Litchfield pages.",
+   "source": "https://aussiecamps.app/guides/darwin-kakadu-litchfield-loop/ vs https://aussiecamps.app/guides/camping-rules-northern-territory/",
+   "fix": "Add sources block (kakadu.gov.au passes, getting-around, access report; NT Parks Litchfield) - structural"
+  }
+ ],
+ "cannibalWith": [
+  "camping-rules-northern-territory",
+  "gibb-river-road-camping"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "Darwin, Kakadu & Litchfield Camping Loop: 7-Day Itinerary",
+  "meta": "Litchfield, Kakadu and Mary River in a week: dry-season roads, croc-safe swimming, passes and 4WD limits for 2026.",
+  "h1": "Darwin, Kakadu and Litchfield camping loop",
+  "addSections": [
+   "Day-by-day table with km and driving time",
+   "Kakadu Park Pass price and where to buy (Parks Australia, 2026)",
+   "Litchfield campground booking via NT Parks",
+   "Gunlom, Jim Jim, Twin Falls access status and 4WD requirement",
+   "Jabiru services (supermarket, fuel)",
+   "Check-before-you-go sources and FAQ"
+  ],
+  "faqFromQueries": [
+   "How many days do you need for Kakadu and Litchfield?",
+   "Do you need a 4WD for Kakadu?",
+   "When are the waterfalls open?"
+  ],
+  "cta": "Campgrounds and national park places for Litchfield, Kakadu and Mary River are in the app (Pass); Darwin stays and tours are free to book",
+  "linksIn": [
+   "camping-rules-northern-territory",
+   "best-time-camping-australia",
+   "driving-with-road-trains-australia"
+  ],
+  "linksOut": [
+   "parksaustralia.gov.au/kakadu",
+   "NT Parks and Wildlife booking",
+   "Kakadu road conditions"
+  ]
+ },
+ "notes": "Zero impressions, no ranking. Accuracy errors on a page that advises vehicle access and crocodile safety take priority over noindex: fix first. Sources checked: Parks Australia getting-around page (2WD hire restrictions to Gunlom) and kakadu.gov.au shops page (Jabiru supermarket).",
+ "rulesOrLegal": true,
+ "accuracyFlagsOriginal": [
+  "'Two-wheel drive vehicles are limited to the sealed roads, which still reach Ubirr, Nourlangie and Gunlom': Gunlom is reached by a ~37-40 km unsealed road (Parks Australia warns hire 2WDs may not be allowed on it), so it is not on the sealed network",
+  "'There is no supermarket in Kakadu': Jabiru township, inside the park, has a supermarket (kakadu.gov.au lists it)",
+  "'A park pass ... may apply' / 'buy the Kakadu pass online' with no price, no date and no Parks Australia source; Litchfield campground booking not mentioned",
+  "Page has no Check-before-you-go sources and no FAQ, unlike sibling guides",
+  "'Wangi Falls and Florence Falls are the commonly open ones' is time-sensitive swim status with no dated source"
+ ],
+ "rejectedFlags": [
+  "Kakadu pass / Litchfield booking stated without price, date or source: nothing stated is wrong (content gap).",
+  "Wangi/Florence 'commonly open' swim status: not confirmed as an error by adjudication."
+ ],
+ "accuracyAdjudicated": "2026-10-19",
+ "adjudicationNote": "Accuracy adjudicated 2026-10-19: 2 factual errors + 1 structural gap confirmed; pass-price and swim-status flags not confirmed. FIX-FACTS P0 unchanged."
+}

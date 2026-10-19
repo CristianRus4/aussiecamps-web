@@ -1,0 +1,60 @@
+{
+ "url": "https://aussiecamps.app/guides/south-west-wa-camping-loop/",
+ "slug": "south-west-wa-camping-loop",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "south west wa camping / margaret river camping loop from perth",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 49.5,
+ "accuracyFlags": [
+  "Title/H1 promise a 'loop from Perth' but the route runs Perth-Albany-Esperance and never describes the return leg (~700 km Esperance-Perth).",
+  "'Cape to Cape track running 123 kilometres': official WA Parks/Cape to Cape Track materials often cite 135 km; verify and cite.",
+  "Cave tickets (Jewel, Lake, Mammoth) 'separately ticketed' and tree-top walk height 40 m: unsourced and may have changed; no WA Parks (DBCA) fee or pass information although the route uses national parks (park entry and camping fees are not mentioned).",
+  "Wildflower season 'August to November' is fine but undated; shark advice lacks Surf Life Saving WA / SharkSmart link.",
+  "'Valley of the Giants ... near Walpole' correct, but Greens Pool is at William Bay near Denmark and is listed under 'Denmark and Walpole' loosely."
+ ],
+ "cannibalWith": [
+  "/guides/perth-to-broome-road-trip/",
+  "/guides/camping-rules-western-australia/"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "South West WA Camping Loop from Perth: Margaret River to Esperance",
+  "meta": "Camp the South West: Margaret River, karri forest, Albany and Cape Le Grand, with spring wildflower timing and booking tips.",
+  "h1": "South West WA camping loop from Perth",
+  "addSections": [
+   "DBCA park pass and campsite fees 2026 with official link",
+   "Day-by-day km table including the return from Esperance",
+   "Rewrite intro to match the actual route (Perth to Esperance and back)"
+  ],
+  "faqFromQueries": [
+   "How many days do you need for Margaret River and the south west?",
+   "Where can you camp near Margaret River?"
+  ],
+  "cta": "Save Hamelin Bay, Pemberton and Cape Le Grand campgrounds into a trip in AussieCamps to see the distance between them.",
+  "linksIn": [
+   "/guides/camping-rules-western-australia/",
+   "/guides/perth-to-broome-road-trip/",
+   "/guides/best-time-camping-australia/"
+  ],
+  "linksOut": [
+   "/guides/camping-rules-western-australia/",
+   "/guides/perth-to-broome-road-trip/",
+   "/guides/best-time-camping-australia/"
+  ]
+ },
+ "notes": "No impressions yet; literal rule says NOINDEX/MERGE but this is a distinct, high-demand destination. Keep, add the missing fee/source data. hreflang alternates on this page point to de/es/fr/it/nl/pt copies that are noindex and absent from sitemap.xml (en-only in sitemap): mixed signal, drop the alternates (or index the locales) so Search Console stops reporting excluded-by-noindex/alternate issues. Generic 'Save the stops. Plan the whole trip. / Download app' block, no feature-specific wording, no screenshot, no QR noted. Source lib/site.ts:194."
+}

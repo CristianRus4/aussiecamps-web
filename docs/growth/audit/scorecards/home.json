@@ -1,0 +1,52 @@
+{
+ "url": "https://aussiecamps.app/",
+ "slug": "home",
+ "gsc90": {
+  "clicks": 2,
+  "impr": 70,
+  "pos": 21.1,
+  "topQueries": []
+ },
+ "primaryQuery": "australia camping app",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 2,
+  "depth": 3,
+  "conversion": 3,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 55.8,
+ "accuracyFlags": [
+  "Homepage body and FAQ say 'Street View' in 11 places (feature card 'Street View before the turnoff', 'Street View, weather and directions built in', FAQ 'Street View still need a connection'); the app uses Apple Look Around, so every instance is wrong (the FAQ JSON-LD already says Look Around, so page and schema disagree).",
+  "Copy such as 'stack filters until only the free camping areas with toilets and water in your corner of the map are left' and 'Search 74,000+ places' never states that campgrounds, rest areas, dump points and water need the Pass (only BookEasy stays/tours are free); no honest free/Pass line anywhere on the page.",
+  "Meta description is about 180 chars (limit 155) and promises 'free camps' without the Pass boundary."
+ ],
+ "cannibalWith": [],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "AussieCamps: Australia Camping Map & Road Trip Planner",
+  "meta": "Find campgrounds, caravan parks, rest areas and dump points across Australia. Place details work offline; plan stop-by-stop road trips on iPhone.",
+  "h1": "Australia is big, your plan can be simple",
+  "addSections": [
+   "Replace every 'Street View' with 'Apple Look Around' (feature card, bullets, FAQ)",
+   "'What is free and what needs the Pass' block: BookEasy stays and tours free; campgrounds, rest areas, dump points, water, guides, collections and trips on the Pass",
+   "App screenshot of the place screen plus desktop QR to the App Store"
+  ],
+  "faqFromQueries": [
+   "Is AussieCamps free?",
+   "Does AussieCamps work offline?"
+  ],
+  "cta": "Download on the App Store, with a one-line Pass explainer under the button",
+  "linksIn": [],
+  "linksOut": [
+   "/guides/",
+   "/guides/is-free-camping-legal-australia/",
+   "/guides/camping-rules-new-south-wales/",
+   "/tools/"
+  ]
+ },
+ "notes": "Testimonials, user counts and headline place totals ignored (owner out of scope). Offline claim is correctly scoped (place details and guides, not maps) in FAQ. Only 2 clicks / 70 impressions at position 21, so the main prize here is the P0 fact fix rather than CTR. JSON-LD Organization/WebSite/MobileApplication present; 5 reviews stars out of scope."
+}

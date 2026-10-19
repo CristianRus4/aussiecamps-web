@@ -1,0 +1,58 @@
+{
+ "url": "https://aussiecamps.app/guides/how-to-plan-trip-aussiecamps/",
+ "slug": "how-to-plan-trip-aussiecamps",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": [
+   "camping trip planner (14, pos 61.7, site-wide)",
+   "how to plan a campervan trip australia (5, pos 32.8)"
+  ]
+ },
+ "primaryQuery": "camping trip planner app",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 3,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 54.0,
+ "accuracyFlags": [
+  "Claims 'each stop carries its own date, arrival notes and weather' and Calendar sync; confirm against current app build. Offline wording is correct (core place details readable offline; routing, weather, booking not).",
+  "Does not state free/Pass status of the Planner; add honest note."
+ ],
+ "cannibalWith": [
+  "how-to-use-aussiecamps-filters",
+  "/tools"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "How to Plan a Road Trip in AussieCamps | Trip Planner Guide",
+  "meta": "Build a camping road trip: add stops, order them, see distance, attach booking notes and a packing checklist.",
+  "h1": "How to plan a road trip with AussieCamps",
+  "addSections": [
+   "Screenshot of the Planner",
+   "FAQ for 'how to plan a campervan trip Australia'"
+  ],
+  "faqFromQueries": [
+   "How to plan a campervan trip in Australia",
+   "Is there a camping trip planner app for Australia?"
+  ],
+  "cta": "Download AussieCamps and build your first trip in Planner (state clearly what is free and that Pass covers BookEasy stays and tours only)",
+  "linksIn": [
+   "/tools/",
+   "/guides/first-campervan-trip-australia/"
+  ],
+  "linksOut": [
+   "/guides/road-trip-fuel-planning-australia/",
+   "/guides/camping-packing-list-australia/",
+   "/guides/camping-without-phone-signal/"
+  ]
+ },
+ "notes": "No impressions in 3 months. Product tutorial; keep as conversion support. Sections 4-8 repeat sections 1-3 in places."
+}

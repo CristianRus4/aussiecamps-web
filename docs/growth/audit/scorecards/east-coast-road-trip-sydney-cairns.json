@@ -1,0 +1,64 @@
+{
+ "url": "https://aussiecamps.app/guides/east-coast-road-trip-sydney-cairns/",
+ "slug": "east-coast-road-trip-sydney-cairns",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 79,
+  "pos": 54.7,
+  "topQueries": [
+   "sydney to cairns drive (24 impr, pos 67.6)",
+   "sydney to cairns road trip (16 impr, pos 70.0)",
+   "sydney to cairns road trip 14 days (7 impr, pos 8.0)"
+  ]
+ },
+ "primaryQuery": "sydney to cairns road trip",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 3,
+  "depth": 2,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 52,
+ "accuracyFlags": [
+  "Intro: 'about 2,500 kilometres'; section 4: 'roughly 2,400 kilometres by the direct inland route': inconsistent, and the inland route is not shorter than the coastal Pacific/Bruce route",
+  "'about 200 km a day' does not match 2,500 km over 14 days (about 180 km/day) once detours are added",
+  "No Check-before-you-go sources (K'gari permits, stinger season, QLD parks) and no FAQ"
+ ],
+ "cannibalWith": [
+  "brisbane-to-cape-tribulation",
+  "queensland-outback-way"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P1",
+ "proposed": {
+  "title": "Sydney to Cairns Road Trip: 14-Day Camping Itinerary",
+  "meta": "2,500 km in 14 days: where to camp each night, which stops earn a second night, stingers, crocs and K'gari permits.",
+  "h1": "Sydney to Cairns: a 14-day camping road trip",
+  "addSections": [
+   "Day-by-day table with km and campsite per night",
+   "Distance and driving-time table by leg",
+   "K'gari permit and stinger-season sources",
+   "FAQ block on drive time and best time"
+  ],
+  "faqFromQueries": [
+   "How long does it take to drive from Sydney to Cairns?",
+   "How far is Sydney to Cairns?",
+   "What is the best time for a Sydney to Cairns road trip?"
+  ],
+  "cta": "Day-by-day: nights at Myall Lakes, Byron, Noosa, Airlie and Mission Beach map to campgrounds in the app (Pass)",
+  "linksIn": [
+   "brisbane-to-cape-tribulation",
+   "best-time-camping-australia",
+   "caravan-park-vs-holiday-park"
+  ],
+  "linksOut": [
+   "QLD parks K'gari permits",
+   "Beachsafe stinger info"
+  ]
+ },
+ "notes": "Position 8 for the exact '14 days' query shows the title match works; the generic 'drive' and 'road trip' queries at pos 67-70 need a distance/time table and FAQ. Overlap with brisbane-to-cape-tribulation: keep this as the full Sydney-Cairns owner.",
+ "rulesOrLegal": false
+}

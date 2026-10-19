@@ -1,0 +1,59 @@
+{
+ "url": "https://aussiecamps.app/guides/camping-with-dogs-australia/",
+ "slug": "camping-with-dogs-australia",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "camping with dogs australia",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 2,
+  "depth": 3,
+  "conversion": 2,
+  "links": 2,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 43.2,
+ "accuracyFlags": [
+  "'Dogs are prohibited in almost all Australian national parks, in every state' - some parks/areas allow dogs on lead (e.g. selected NSW/WA/Tas areas); say 'most' and cite each state agency",
+  "'Some state forests allow dogs off lead outside baiting periods' - unsourced, rules differ per state",
+  "'Keep dogs leashed and muzzled in baited areas' - muzzling advice unsourced; official advice is to avoid baited areas and check notices",
+  "'Dog-friendly stays' meta promises stays but no AussieCamps data point (BookEasy pet-friendly filter) is described"
+ ],
+ "cannibalWith": [
+  "/guides/is-free-camping-legal-australia/",
+  "/guides/sleeping-in-car-australia/"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P1",
+ "proposed": {
+  "title": "Camping with dogs in Australia: where dogs are allowed",
+  "meta": "Most national parks ban dogs. Where you can camp with a dog, 1080 baiting warnings, heat and tick safety. Check state rules.",
+  "h1": "Camping with dogs in Australia",
+  "addSections": [
+   "State-by-state table of dog rules in parks, state forests, council reserves with links",
+   "1080 baiting notice links per state",
+   "Hot-car laws and penalties per state"
+  ],
+  "faqFromQueries": [
+   "can you take a dog camping in australia",
+   "are dogs allowed in national parks"
+  ],
+  "cta": "Only claim what the app does: check whether BookEasy stays have a pet-friendly filter before naming it; otherwise point to dog-friendly holiday parks via the Stays tab (free).",
+  "linksIn": [
+   "/guides/camping-rules-new-south-wales/",
+   "/guides/caravan-park-vs-holiday-park/",
+   "/guides/camping-fees-australia-2026/"
+  ],
+  "linksOut": [
+   "/guides/is-free-camping-legal-australia/",
+   "/guides/australia-road-trip-fatigue-wildlife-safety/",
+   "/guides/sleeping-in-car-australia/"
+  ]
+ },
+ "notes": "No GSC rows. Rules-type claims (park dog bans, hot-car laws) need per-state official sources. Fix facts before any promotion."
+}

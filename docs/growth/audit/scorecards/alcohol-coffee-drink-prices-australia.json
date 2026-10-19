@@ -1,0 +1,75 @@
+{
+ "url": "https://aussiecamps.app/guides/alcohol-coffee-drink-prices-australia/",
+ "slug": "alcohol-coffee-drink-prices-australia",
+ "gsc90": {
+  "clicks": 2,
+  "impr": 647,
+  "pos": 9.2,
+  "topQueries": [
+   "how much is a glass of wine in australia (4 impr, pos 14.5)"
+  ]
+ },
+ "primaryQuery": "alcohol prices in australia",
+ "scores": {
+  "searchFit": 1,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 48.4,
+ "accuracyFlags": [
+  {
+   "status": "CONFIRMED",
+   "claim": "FAQ 'How much is a beer in Australia?' says the guide prices a pub schooner, craft beer, bottle-shop carton and wine by the glass and bottle; the table only has pub draught beer, 500 ml retail beer and a 750 ml retail wine bottle.",
+   "correct": "Rewrite the FAQ to match the table, e.g. 'A pub draught beer is about A$7-16 depending on venue and city, and a 500 ml bottle-shop beer is about A$3.50-12 (Numbeo community data, 2026).' Or add the schooner, craft beer, carton and wine-by-the-glass rows the FAQ promises.",
+   "source": "Page's own price table vs FAQ; figures https://www.numbeo.com/cost-of-living/country_result.jsp?country=Australia",
+   "fix": "FAQ 'How much is a beer' promises schooner/craft/carton/wine-by-glass rows the table lacks: rewrite to table (pub draught A$7-16, 500 ml bottle-shop A$3.50-12, Numbeo 2026) or add the rows"
+  }
+ ],
+ "cannibalWith": [
+  "/guides/eating-out-australia-prices-2026",
+  "/guides/australia-travel-cost-2026"
+ ],
+ "action": "RETITLE",
+ "priority": "P1",
+ "proposed": {
+  "title": "Alcohol & Coffee Prices in Australia 2026: Beer, Wine",
+  "meta": "Pub beer A$7-16, bottle-shop wine A$12-29, a cappuccino A$4.90-7. Real 2026 price ranges so drinks do not wreck your travel budget.",
+  "h1": "Beer, wine, coffee and drink prices in Australia (2026)",
+  "addSections": [
+   "Price of a schooner, pot and pint by state (glass sizes differ)",
+   "Alcohol price by city: Sydney vs Melbourne vs Perth vs Darwin",
+   "Remote-community alcohol restrictions by state with official links (NT, QLD, WA)",
+   "Merge sections 02 and 06 into one drink-driving section with state sources"
+  ],
+  "faqFromQueries": [
+   "How much is a glass of wine in Australia?",
+   "How much is a beer in Australia?",
+   "How much is a coffee in Australia?"
+  ],
+  "cta": "Budget the whole trip in AussieCamps: costs shown in your own currency on every place; place details work offline; trips need the Pass.",
+  "linksIn": [
+   "/guides/eating-out-australia-prices-2026/",
+   "/guides/australia-grocery-prices-2026/"
+  ],
+  "linksOut": [
+   "/guides/eating-out-australia-prices-2026/",
+   "/guides/australia-travel-cost-2026/",
+   "/guides/camping-water-planning/"
+  ]
+ },
+ "notes": "647 impressions at position 9.2 but only 2 clicks (0.3% vs 3% expected at positions 7-10, about 10 percent of expected): clear RETITLE. Current title 'Beer, wine, coffee and drink prices in Australia | AussieCamps' (62 chars) is generic and has no number or year. Translations of this page earn big impressions too (es 203, pt 144, fr 134, it 124, nl 116, de 74), so the retitle should be mirrored in all locales.",
+ "accuracyFlagsOriginal": [
+  "Price ranges come only from Numbeo community data (June 2026), not an official source; 'Domestic beer equivalent 500 ml retail A$3.41-A$12' and 'Pub draught beer A$7-A$16' are very wide bands that read as precision they do not have.",
+  "Sections 02 'Alcohol and the driving day' and 06 'Drinking and the driving day' repeat the same BAC advice; blood-alcohol limits are cited only to a NSW government page though the page states them nationally (0.05 general, zero for learner/provisional/many professional drivers) and says restricted areas carry 'substantial penalties' with no state source."
+ ],
+ "rejectedFlags": [
+  "Numbeo-only, wide bands: no official source publishes drink prices; figures match Numbeo; presentation choice.",
+  "BAC stated nationally but sourced to NSW; restricted-area penalties: statements correct in every state; sourcing/dedupe improvement only."
+ ],
+ "accuracyAdjudicated": "2026-10-19",
+ "adjudicationNote": "Accuracy adjudicated 2026-10-19: both original flags rejected, 1 new confirmed FAQ/table mismatch. Accuracy raised 3->4. RETITLE P1 unchanged (CTR 0.3% at pos 9.2)."
+}

@@ -1,0 +1,62 @@
+{
+ "url": "https://aussiecamps.app/guides/road-trip-fuel-planning-australia/",
+ "slug": "road-trip-fuel-planning-australia",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": [
+   "adjacent site queries with no landing page match: fuel distance calculator australia (12 impr, pos 72.9), campervan fuel cost australia (8, 61.1), fuel cost per km australia (4, 81.8)"
+  ]
+ },
+ "primaryQuery": "campervan fuel cost australia / outback fuel stops",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 2,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 1,
+  "translation": null
+ },
+ "weighted": 48.4,
+ "accuracyFlags": [
+  "'Gap between fuel stops can exceed three hundred kilometres' vs 200 km on the Queensland outback page: inconsistent, give examples with named stops (e.g. Nullarbor, Barkly, Tanami) and distances.",
+  "'Diesel is generally more available than premium unleaded in remote areas' and 'every 10 km/h above ~90 costs more fuel': plausible but unsourced.",
+  "Jerry-can advice ('approved containers, outside living space') lacks the dangerous-goods/state rule reference; no source at all on the page (no 'Check before you go' block).",
+  "Duplicate content: 'Fill at every opportunity' and 'remote roadhouses can be closed' are repeated in several sections."
+ ],
+ "cannibalWith": [
+  "/tools/",
+  "/guides/australia-road-trip-fuel-cost-2026/"
+ ],
+ "action": "KEEP",
+ "priority": "P2",
+ "proposed": {
+  "title": "Fuel Planning for Australian Road Trips: Range and Costs",
+  "meta": "Work out real range, remote fuel gaps and trip fuel cost for a campervan or caravan, with the stops that matter on outback highways.",
+  "h1": "Fuel planning for long Australian road trips",
+  "addSections": [
+   "Worked fuel-cost example: 1,000 km at 10/14/18 L/100 km at an assumed price, with calculator link",
+   "Named remote fuel gaps table (Nullarbor, Plenty Hwy, Tanami, Gibb River) with km between roadhouses",
+   "Fuel types and jerry-can rules per state with official links"
+  ],
+  "faqFromQueries": [
+   "How much does fuel cost for a campervan trip around Australia?",
+   "How far can you drive between fuel stops in the outback?"
+  ],
+  "cta": "Use the AussieCamps distance calculator (/tools) to measure legs, then save roadhouses as stops on the trip so the gap between fills is visible.",
+  "linksIn": [
+   "/tools/",
+   "/guides/australia-travel-cost-2026/",
+   "/guides/queensland-outback-way/",
+   "/guides/perth-to-broome-road-trip/"
+  ],
+  "linksOut": [
+   "/tools/",
+   "/guides/australia-travel-cost-2026/",
+   "/guides/camping-without-phone-signal/"
+  ]
+ },
+ "notes": "Real search demand sits on 'campervan fuel cost / fuel distance calculator', which this page does not answer with numbers; no landing page owns it (tools has 'distance calculator' 64 impr at pos 88). Depth is the issue, not facts. hreflang alternates on this page point to de/es/fr/it/nl/pt copies that are noindex and absent from sitemap.xml (en-only in sitemap): mixed signal, drop the alternates (or index the locales) so Search Console stops reporting excluded-by-noindex/alternate issues. Generic 'Save the stops. Plan the whole trip. / Download app' block, no feature-specific wording, no screenshot, no QR noted. Source lib/site.ts:298, lib/article-faqs.ts:155. Sibling pages found in the audit folder that overlap: /guides/australia-road-trip-fuel-cost-2026/ (decide one owner per cluster)."
+}

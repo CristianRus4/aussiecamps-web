@@ -1,0 +1,62 @@
+{
+ "url": "https://aussiecamps.app/guides/domestic-flight-costs-australia-2026/",
+ "slug": "domestic-flight-costs-australia-2026",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 149,
+  "pos": 8.4,
+  "topQueries": [
+   "domestic flight costs australia (en, pos 8.4, 149 impr, 0 clicks)"
+  ]
+ },
+ "primaryQuery": "domestic flight costs australia",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 4,
+  "eeat": 4,
+  "translation": null
+ },
+ "weighted": 56,
+ "accuracyFlags": [
+  "FAQ says 'The guide gives realistic sale floors and typical fares on the main routes' but the page has only six expired promotional sale fares, no typical fares",
+  "FAQ 'flying usually wins on both cost and time' for crossing the continent is unsupported by any figure on the page",
+  "'short east-coast sector may compete with rail' overstates rail alternatives on the east coast",
+  "Table fares are expired Virgin/Jetstar promotions (July/Aug 2026): correctly labelled, but title 'realistic 2026 sale floors' mismatches searchers wanting typical fares"
+ ],
+ "cannibalWith": [
+  "australia-travel-cost-2026",
+  "bus-train-costs-australia-2026",
+  "public-transport-costs-australia-2026"
+ ],
+ "action": "RETITLE",
+ "priority": "P1",
+ "proposed": {
+  "title": "Domestic Flight Costs in Australia 2026: Typical Fares",
+  "meta": "What flights between Sydney, Melbourne, Cairns, Darwin and Perth really cost in 2026: sale floors, typical fares and baggage extras.",
+  "h1": "Domestic flight costs in Australia in 2026",
+  "addSections": [
+   "Typical (non-sale) fare range per route with source and date",
+   "Baggage fee table per carrier",
+   "Fly vs drive vs one-way relocation worked example"
+  ],
+  "faqFromQueries": [
+   "How much is a domestic flight in Australia?",
+   "Is it cheaper to fly or drive in Australia?",
+   "Do domestic flights include checked baggage?"
+  ],
+  "cta": "Pair with a ground leg: relocation and tours are bookable free in the app, camping on the route is in the Pass layer",
+  "linksIn": [
+   "australia-travel-cost-2026",
+   "campervan-road-trip-budget-australia",
+   "bus-train-costs-australia-2026"
+  ],
+  "linksOut": [
+   "Qantas, Virgin, Jetstar fare pages"
+  ]
+ },
+ "notes": "Pos 8.4 with 149 impressions and 0 clicks vs 3% expected (>4 clicks): RETITLE. Title is 76 chars (truncated). Cluster owner should be this URL for 'domestic flights australia cost'; australia-travel-cost-2026 should link here.",
+ "rulesOrLegal": false
+}

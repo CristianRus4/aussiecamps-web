@@ -1,0 +1,59 @@
+{
+ "url": "https://aussiecamps.app/guides/melbourne-to-adelaide-coastal-route/",
+ "slug": "melbourne-to-adelaide-coastal-route",
+ "gsc90": {
+  "clicks": 2,
+  "impr": 50,
+  "pos": 23.0,
+  "topQueries": [
+   "melbourne naar adelaide camper (46, pos 37.8; NL)",
+   "distance calculator adelaide (5)"
+  ]
+ },
+ "primaryQuery": "melbourne to adelaide coastal route",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 2,
+  "depth": 3,
+  "conversion": 3,
+  "links": 4,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 53.0,
+ "accuracyFlags": [
+  "'Coastal route through the Great Ocean Road and Warrnambool to Mount Gambier is roughly 900 kilometres' is wrong or mislabelled: Melbourne to Mount Gambier via the coast is roughly 580-600 km, and the whole coastal route to Adelaide is roughly 1,000+ km; compared with the inland 730 km Western Highway to Adelaide it is not like for like.",
+  "'Free ferry crossings near Goolwa' is unverified (the free ferries are on the Murray at Narrung/Wellington); check.",
+  "'SA enforces fruit fly quarantine at the border' with checkpoint bins: verify the specific border road points on the PIRSA site; no fines or sources given."
+ ],
+ "cannibalWith": [
+  "great-ocean-road-camping-guide",
+  "interstate-biosecurity-road-trip"
+ ],
+ "action": "FIX-FACTS",
+ "priority": "P0",
+ "proposed": {
+  "title": "Melbourne to Adelaide Coastal Route: Camping Stops & Distance",
+  "meta": "The slow coastal drive from Melbourne to Adelaide: distance by route, campsites, Limestone Coast and Coorong stops, 5-7 days.",
+  "h1": "Melbourne to Adelaide coastal camping route",
+  "addSections": [
+   "Distance and drive-time table by leg (Melbourne-Port Fairy-Mount Gambier-Robe-Coorong-Adelaide)",
+   "Coastal vs inland comparison with corrected distances"
+  ],
+  "faqFromQueries": [
+   "How long is the drive from Melbourne to Adelaide via the coast?",
+   "Melbourne naar Adelaide camper (NL version)"
+  ],
+  "cta": "Add the legs to a trip in AussieCamps and read each leg's distance (replaces guessing the 900 km figure)",
+  "linksIn": [
+   "/guides/great-ocean-road-camping-guide/",
+   "/guides/interstate-biosecurity-road-trip/"
+  ],
+  "linksOut": [
+   "/guides/great-ocean-road-camping-guide/",
+   "/guides/interstate-biosecurity-road-trip/",
+   "/guides/camping-rules-south-australia/"
+  ]
+ },
+ "notes": "CTR 4% at pos 23 is fine (2 clicks). Fix distances and verify the ferry claim, then add distance table."
+}

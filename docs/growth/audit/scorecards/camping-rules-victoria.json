@@ -1,0 +1,64 @@
+{
+ "url": "https://aussiecamps.app/guides/camping-rules-victoria/",
+ "slug": "camping-rules-victoria",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 272,
+  "pos": 9.3,
+  "topQueries": [
+   "(none exported for this page; 272 impressions, mostly anonymised)"
+  ]
+ },
+ "primaryQuery": "camping rules victoria",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 49.5,
+ "accuracyFlags": [
+  "0 clicks / 272 impressions at pos 9.3: CTR far below 3% expected - RETITLE",
+  "'Camping in Victorian alpine areas is restricted above certain elevations' is unsourced and vague - verify or remove",
+  "Free dispersed state-forest camping stated without 2026 date or Forest Fire Management / DEECA source; some state forest camps now need checking for closures/bookings",
+  "Seasonal closure 'June to November' plausible (Queen's Birthday to Melbourne Cup weekend) but should be stated with those dates and a source"
+ ],
+ "cannibalWith": [
+  "/guides/camping-fees-australia-2026/ (fees and park passes by state)",
+  "/guides/is-free-camping-legal-australia/ (free camping rules by state)",
+  "/guides/campfires-camping-australia/ (fire bans)"
+ ],
+ "action": "RETITLE",
+ "priority": "P1",
+ "proposed": {
+  "title": "Camping rules Victoria 2026: free camping, fires, bookings",
+  "meta": "Victoria camping rules for 2026: Parks Victoria bookings, free state forest camping, campfire size limits, ballots and seasonal road closures.",
+  "h1": "Camping rules in Victoria (2026): bookings, fees, fires, free camping",
+  "addSections": [
+   "Parks Victoria fee ranges and booking window with link",
+   "Campfire rules box: 1m x 1m, 3m clearance, total fire ban days, CFA/VicEmergency links",
+   "High Country seasonal road closure dates"
+  ],
+  "faqFromQueries": [
+   "can you camp for free in victoria",
+   "do victorian national park campsites need booking"
+  ],
+  "cta": "Find the Victoria campgrounds, rest areas, dump points and water points with filters in AussieCamps (Pass places; BookEasy stays and tours stay free). Screenshot of the Victoria map filtered to campgrounds, QR on desktop.",
+  "linksIn": [
+   "/guides/camping-fees-australia-2026/",
+   "/guides/is-free-camping-legal-australia/",
+   "/tools/ (road trip planner)"
+  ],
+  "linksOut": [
+   "Parks Victoria booking information (linked)",
+   "/guides/camping-fees-australia-2026/",
+   "/guides/is-free-camping-legal-australia/",
+   "/guides/campfires-camping-australia/",
+   "/guides/camping-rules-new-south-wales/ and neighbouring state pages"
+  ]
+ },
+ "notes": "Page carries two layers of text: a short original summary (sections 01-03) then long appended sections (04-08) that repeat points (e.g. fire bans, passes, permits stated twice) - tighten and dedupe. No official-source links in the body (only a plain-text 'Check before you go' label naming the agency, not linked), no dollar fees and no 2026-dated figures; 'Updated 18 August 2026' only. Generic trip-planner CTA. Rest-area/ camping/ dump-point data is Pass-only, so CTA must say so honestly."
+}

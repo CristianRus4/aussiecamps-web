@@ -1,0 +1,55 @@
+{
+ "url": "https://aussiecamps.app/guides/camping-weather-safety-australia/",
+ "slug": "camping-weather-safety-australia",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "camping weather safety australia / bushfire camping",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 2,
+  "links": 2,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 53.7,
+ "accuracyFlags": [
+  "Wet season 'November to April' stated as a blanket for the north; fine but cite BOM",
+  "Fire danger ratings listed 'Moderate to Catastrophic' - AFDRS also has 'High' and 'Extreme' between; list all and cite AFDRS"
+ ],
+ "cannibalWith": [
+  "/guides/campfires-camping-australia/ (fire bans)",
+  "/guides/best-time-camping-australia/"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "Camping weather safety Australia: heat, fire, floods",
+  "meta": "Heat, bushfire ratings, flash floods and storms: what to check and when to leave before a camping trip in Australia.",
+  "h1": "Weather safety for camping in Australia",
+  "addSections": [
+   "Link each state fire agency and BOM warnings page",
+   "Fire danger rating table (AFDRS)"
+  ],
+  "faqFromQueries": [
+   "what to do if a bushfire starts near campsite"
+  ],
+  "cta": "Check conditions before you go: save backup campgrounds and rest areas on the map in AussieCamps (Pass places). Honest note: warnings come from BOM and state agencies, not the app.",
+  "linksIn": [
+   "/guides/camping-rules-victoria/",
+   "/guides/camping-rules-queensland/",
+   "/guides/best-time-camping-australia/"
+  ],
+  "linksOut": [
+   "https://www.bom.gov.au/ (already linked)",
+   "/guides/camping-without-phone-signal/",
+   "/guides/campfires-camping-australia/"
+  ]
+ },
+ "notes": "No GSC rows (zero or below export threshold) in first 7 weeks of data; new site, so keep and recheck in 4-6 weeks. Only one external source link (BOM)."
+}

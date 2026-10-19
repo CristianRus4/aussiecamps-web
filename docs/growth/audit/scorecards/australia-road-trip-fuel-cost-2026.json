@@ -1,0 +1,63 @@
+{
+ "url": "https://aussiecamps.app/guides/australia-road-trip-fuel-cost-2026/",
+ "slug": "australia-road-trip-fuel-cost-2026",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 55,
+  "pos": 13.1,
+  "topQueries": [
+   "fuel distance calculator australia (12 impr, pos 72.9)",
+   "campervan fuel cost australia (8 impr, pos 61.1)",
+   "fuel cost per km australia (4 impr, pos 81.8)",
+   "campervan fuel cost (4 impr, pos 45.8)"
+  ]
+ },
+ "primaryQuery": "road trip fuel cost australia",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 2,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 4,
+  "translation": null
+ },
+ "weighted": 50.5,
+ "accuracyFlags": [
+  "Petrol A$2.08/L and diesel A$2.47/L are Fuel Plan five-city averages for 5 August 2026; on 19 October they are 10 weeks stale yet the page says 'current official city benchmarks' and 'Updated 18 August 2026'.",
+  "The three worked examples (1,000 km at 8, 12 and 15 L/100 km) are arithmetic on those stale prices; they will mislead if the price has moved."
+ ],
+ "cannibalWith": [
+  "/guides/road-trip-fuel-planning-australia",
+  "/tools"
+ ],
+ "action": "EXPAND",
+ "priority": "P2",
+ "proposed": {
+  "title": "Road Trip Fuel Cost Australia 2026: Calculator & Rates",
+  "meta": "Petrol A$2.08/L, diesel A$2.47/L. Work out the fuel cost for any distance and L/100 km, with campervan and remote-road examples.",
+  "h1": "Australian road-trip fuel costs in 2026",
+  "addSections": [
+   "Interactive calculator (distance, L/100 km, fuel type) matching the 'fuel distance calculator' and 'fuel cost per km' queries",
+   "Cost per km table for car, campervan, 4WD and rig",
+   "Cost for named routes (Sydney-Melbourne, Perth-Broome, Adelaide-Uluru)",
+   "Dated price block with monthly refresh"
+  ],
+  "faqFromQueries": [
+   "How much does fuel cost for a road trip in Australia?",
+   "How much is fuel per km for a campervan in Australia?",
+   "What is the cost to drive 1,000 km in Australia?"
+  ],
+  "cta": "Use the AussieCamps trip planner for the distance of each leg, then multiply by this page's cost per km; trips need the Pass, place details work offline.",
+  "linksIn": [
+   "/tools/",
+   "/guides/australia-travel-cost-2026/"
+  ],
+  "linksOut": [
+   "/tools/",
+   "/guides/road-trip-fuel-planning-australia/",
+   "/guides/nullarbor-crossing-guide/"
+  ]
+ },
+ "notes": "Position 13.1 with 55 impressions and 0 clicks; page ranks 60-80 for calculator-style queries, so a real calculator (and a distance calculator link to /tools) is the depth gap. Fuel Plan and ACCC are strong official sources. Clear overlap with road-trip-fuel-planning-australia: decide which owns 'fuel cost' and canonicalise the other."
+}

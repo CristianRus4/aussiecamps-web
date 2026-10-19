@@ -1,0 +1,63 @@
+{
+ "url": "https://aussiecamps.app/guides/camping-rules-tasmania/",
+ "slug": "camping-rules-tasmania",
+ "gsc90": {
+  "clicks": 1,
+  "impr": 52,
+  "pos": 7.4,
+  "topQueries": [
+   "(none exported)"
+  ]
+ },
+ "primaryQuery": "camping rules tasmania",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 3,
+  "depth": 3,
+  "conversion": 2,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 54.7,
+ "accuracyFlags": [
+  "No Parks Pass price, Holiday Pass price or 2026 date - 'far better value' unsubstantiated",
+  "Cradle Mountain 'mandatory shuttle' stated flatly - verify hours/season and rule for private vehicles",
+  "Freycinet ballot/booking wording - verify against PWS Tasmania for 2026-27",
+  "CTR 1.9% at pos 7.4 vs 3% expected: not below half"
+ ],
+ "cannibalWith": [
+  "/guides/camping-fees-australia-2026/ (fees and park passes by state)",
+  "/guides/is-free-camping-legal-australia/ (free camping rules by state)",
+  "/guides/campfires-camping-australia/ (fire bans)"
+ ],
+ "action": "KEEP",
+ "priority": "P2",
+ "proposed": {
+  "title": "Camping rules Tasmania 2026: Parks Pass, bookings, free camps",
+  "meta": "Tasmania camping rules for 2026: Parks Pass and Holiday Pass, Freycinet and Cradle bookings, fuel stove only areas, biosecurity and free council camps.",
+  "h1": "Camping rules in Tasmania (2026): bookings, fees, fires, free camping",
+  "addSections": [
+   "Parks Pass options and prices with PWS link and date",
+   "Overland Track booking season and fee"
+  ],
+  "faqFromQueries": [
+   "do you need a parks pass to camp in tasmania",
+   "can you free camp in tasmania"
+  ],
+  "cta": "Find the Tasmania campgrounds, rest areas, dump points and water points with filters in AussieCamps (Pass places; BookEasy stays and tours stay free). Screenshot of the Tasmania map filtered to campgrounds, QR on desktop.",
+  "linksIn": [
+   "/guides/camping-fees-australia-2026/",
+   "/guides/is-free-camping-legal-australia/",
+   "/tools/ (road trip planner)"
+  ],
+  "linksOut": [
+   "Parks and Wildlife Service Tasmania (linked)",
+   "/guides/camping-fees-australia-2026/",
+   "/guides/is-free-camping-legal-australia/",
+   "/guides/campfires-camping-australia/",
+   "/guides/camping-rules-new-south-wales/ and neighbouring state pages"
+  ]
+ },
+ "notes": "Page carries two layers of text: a short original summary (sections 01-03) then long appended sections (04-08) that repeat points (e.g. fire bans, passes, permits stated twice) - tighten and dedupe. No official-source links in the body (only a plain-text 'Check before you go' label naming the agency, not linked), no dollar fees and no 2026-dated figures; 'Updated 18 August 2026' only. Generic trip-planner CTA. Rest-area/ camping/ dump-point data is Pass-only, so CTA must say so honestly."
+}

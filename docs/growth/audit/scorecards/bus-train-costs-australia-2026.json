@@ -1,0 +1,53 @@
+{
+ "url": "https://aussiecamps.app/guides/bus-train-costs-australia-2026/",
+ "slug": "bus-train-costs-australia-2026",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 36,
+  "pos": 11.6,
+  "topQueries": []
+ },
+ "primaryQuery": "bus and train costs australia",
+ "scores": {
+  "searchFit": 3,
+  "accuracy": 3,
+  "depth": 2,
+  "conversion": 1,
+  "links": 3,
+  "eeat": 3,
+  "translation": null
+ },
+ "weighted": 50.5,
+ "accuracyFlags": [
+  "Queensland Rail fare is the 2025-26 sheet; page itself says verify 2026-27, so the table mixes years. Add a date or remove.",
+  "'Greyhound and a handful of regional operators connect the major cities': network has changed (Firefly, FlixBus launching Sydney-Melbourne fares); confirm current operators.",
+  "'Hop-on hop-off passes exist ... along the east coast': verify the passes still sell in 2026.",
+  "Uses 'Fraser Island' while other guides use K'gari.",
+  "Footer blurb says 'Find 74,000+ Australian places offline': AussieCamps is not an offline map; only place details and guides work offline, and the 74,000 total is out of scope but the wording should say 'place details and guides work offline'."
+ ],
+ "cannibalWith": [
+  "australia-travel-cost-2026"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "Australia Bus and Train Costs 2026: Coach, Rail, Ferry | AussieCamps",
+  "meta": "Dated 2026 fares for Sydney to Melbourne coaches, Queensland Rail, the Ghan and Spirit of Tasmania, and how they compare with driving.",
+  "h1": "Long-distance bus and train costs in Australia",
+  "addSections": [
+   "2026 coach operator comparison (Greyhound, Firefly, FlixBus)",
+   "Spirit of Tasmania 2026-27 vehicle fare example",
+   "Cost per km vs driving"
+  ],
+  "faqFromQueries": [],
+  "cta": "Link to the app's camping near coach-stop towns is not possible; keep a plain trip-planner CTA.",
+  "linksIn": [
+   "australia-travel-cost-2026"
+  ],
+  "linksOut": [
+   "australia-travel-cost-2026",
+   "campervan-road-trip-budget-australia"
+  ]
+ },
+ "notes": "Peripheral to a camping app; 36 impr at pos 11.6. Not a camping query page so conversion is weak. Keep, but fix operators and mixed-year fares."
+}

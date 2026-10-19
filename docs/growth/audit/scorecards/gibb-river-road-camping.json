@@ -1,0 +1,60 @@
+{
+ "url": "https://aussiecamps.app/guides/gibb-river-road-camping/",
+ "slug": "gibb-river-road-camping",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": [
+   "camping gibb river road (7, pos 45)",
+   "gibb river road camping (6, pos 51)",
+   "gibb river road accommodation (6, pos 53.8)"
+  ]
+ },
+ "primaryQuery": "gibb river road camping",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 4,
+  "depth": 3,
+  "conversion": 3,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 54.0,
+ "accuracyFlags": [
+  "No dated fees, road-status date or official source (Main Roads WA, Parks and Wildlife) although the page says to check them; 660 km, Nov-Apr wet closure and rental restrictions look consistent with common guidance.",
+  "Section 4 repeats 'check road status' almost verbatim from section 5: padding."
+ ],
+ "cannibalWith": [
+  "perth-to-broome-road-trip"
+ ],
+ "action": "KEEP",
+ "priority": "P2",
+ "proposed": {
+  "title": "Gibb River Road Camping: Stations, Gorges & Dry-Season Dates",
+  "meta": "660 km from Derby to Kununurra: when the road is open, which stations take campers, fuel stops and the gear a 4WD needs.",
+  "h1": "Gibb River Road camping guide",
+  "addSections": [
+   "2026 station camping fees and fuel hours table with dates",
+   "Main Roads WA road report link"
+  ],
+  "faqFromQueries": [
+   "When is the Gibb River Road open?",
+   "Can you take a rental car on the Gibb River Road?",
+   "Where can you camp on the Gibb River Road?"
+  ],
+  "cta": "Save the stations and gorges as a trip in AussieCamps and see the distance between fuel stops (place details work offline; there is no signal on most of the road)",
+  "linksIn": [
+   "/guides/perth-to-broome-road-trip/",
+   "/guides/camping-without-phone-signal/"
+  ],
+  "linksOut": [
+   "/guides/camping-fees-australia-2026/",
+   "/guides/australia-road-trip-fatigue-wildlife-safety/",
+   "/guides/camping-water-planning/",
+   "/guides/road-trip-fuel-planning-australia/"
+  ]
+ },
+ "notes": "English page has no impressions in the 3-month window; PT version has 25 at pos 43. Queries cluster at pos 45-54 so retitle to lead with 'gibb river road camping' is cheap."
+}

@@ -1,0 +1,56 @@
+{
+ "url": "https://aussiecamps.app/guides/kangaroo-island-camping-guide/",
+ "slug": "kangaroo-island-camping-guide",
+ "gsc90": {
+  "clicks": 0,
+  "impr": 0,
+  "pos": null,
+  "topQueries": []
+ },
+ "primaryQuery": "kangaroo island camping",
+ "scores": {
+  "searchFit": 2,
+  "accuracy": 3,
+  "depth": 4,
+  "conversion": 3,
+  "links": 3,
+  "eeat": 2,
+  "translation": null
+ },
+ "weighted": 53.0,
+ "accuracyFlags": [
+  "'Fresh produce cannot be brought onto the island under South Australian quarantine rules in some circumstances' is vague; official KI restrictions (honey, bees and used beekeeping equipment, potatoes) should be named with a PIRSA link.",
+  "Ferry duration (about 45 min, Cape Jervis to Penneshaw), 155 km length and '2019-20 fires burnt roughly half the island' look correct; no 2026 fares or park fees and no SeaLink/NPWSA sources.",
+  "Section 8 repeats the ferry booking warning from sections 1 and 4."
+ ],
+ "cannibalWith": [
+  "interstate-biosecurity-road-trip"
+ ],
+ "action": "KEEP",
+ "priority": "P3",
+ "proposed": {
+  "title": "Kangaroo Island Camping Guide: Ferry, Parks & Bookings",
+  "meta": "Plan Kangaroo Island camping: SeaLink ferry from Cape Jervis, Flinders Chase campgrounds, Seal Bay and biosecurity rules.",
+  "h1": "Kangaroo Island camping guide",
+  "addSections": [
+   "Ferry and park fees 2026 table with SeaLink and SA National Parks links",
+   "Named KI biosecurity restrictions"
+  ],
+  "faqFromQueries": [
+   "Can you camp on Kangaroo Island?",
+   "How long do you need on Kangaroo Island?",
+   "Can you take your own vehicle to Kangaroo Island?"
+  ],
+  "cta": "Plan it in AussieCamps: save these stops, order them and see the route distance (place details work offline; routing and weather need signal) (anchor the ferry first, as the trip planner guide suggests)",
+  "linksIn": [
+   "/guides/adelaide-to-uluru-road-trip/",
+   "/guides/how-to-plan-trip-aussiecamps/"
+  ],
+  "linksOut": [
+   "/guides/interstate-biosecurity-road-trip/",
+   "/guides/camping-rules-south-australia/",
+   "/guides/australia-road-trip-fatigue-wildlife-safety/"
+  ]
+ },
+ "notes": "No impressions or queries in data. Substantive unique content, keep and wait for crawl."
+}
