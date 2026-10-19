@@ -29,3 +29,10 @@ Style guide: `docs/translation-style/de.md` (identical in both repos).
 ## Blockers and open questions for the orchestrator
 - None open. English source oddities noticed while drafting are listed in /tmp/de-i18n/en-issues.md and in the batch reports
   (e.g. NT wet season dates, overseas licence 6-month vs "length of stay", Tasmania/Uluru spellings); for the content lanes.
+
+## Paired release sync (2026-10-20, main account)
+- Branch `i18n/a-de-b1` (cut from `release/a-content-b1`), tip 56dc9e3: all 23 A-content batch 1 pages translated into German
+  (1155 changed units; unchanged units carried over from the rewritten `i18n/a-de` text). `npm run check` passed there once.
+  Includes the same `docs/translation.config.json` change as `i18n/a-de` (Tasmania, Central Australia moved from protectedTerms to the German glossary).
+- Working files: /tmp/de-i18n/b1 (plan.json, in-*.txt sources, conv.js, assemble.js).
+- Do NOT edit those 23 pages in `i18n/a-de`; at merge time de.json hunks for them conflict with `i18n/a-de-b1` (take the b1 text).
