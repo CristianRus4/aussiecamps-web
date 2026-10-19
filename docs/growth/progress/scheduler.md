@@ -8,7 +8,7 @@
 - `docs/growth/publish-schedule.md`, PARITY row.
 
 ## Next
-- Port to KiwiCamping (`growth/k-scheduler`).
+- Nothing. KiwiCamping port is on `growth/k-scheduler`; hand off to the orchestrator.
 
 ## Blockers
 - None.
