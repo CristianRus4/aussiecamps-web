@@ -145,6 +145,7 @@ Sources: [TW-blog] Taiwanese personal blogs; [TW-com] Taiwanese-language commerc
 | BBQ | 烤肉 / BBQ | 燒烤 is HK. |
 | budget | 預算 | |
 | fee | 費用 / 營地費 | |
+| menu (restaurant) | 菜單 | Correct in Taiwan. The engine flags 菜單 as mainland because 選單 is the software menu; that warning is a false positive for food. |
 | packing list | 行李清單 / 打包清單 | |
 | to-do | 待辦事項 | |
 
