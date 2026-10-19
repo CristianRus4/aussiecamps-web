@@ -21,13 +21,17 @@ Language: Traditional Chinese, Taiwan first (`zh-hant` file, engine id `zh-Hant`
 - English now carries inline `<a data-guide="slug">anchor</a>` links; 157 existing units (100 AU, 57 NZ) were re-linked and applied. Scripts and packets live in /tmp/zhhant (bin/relink_packet.py, bin/mksrc.py a|k <slug|tools>, bin/apply.sh, bin/audit.sh, bin/complete.py, bin/wrap.py uses locale zh-hant).
 - Engine apply/packet locale id is now `zh-hant`.
 
-## In progress
-- Drafts in /tmp/zhhant/out awaiting native-voice review then apply: AU how-to-plan-trip, campfires, choosing-campsite, accommodation-costs, campervan-driving-safety, bus-train-costs, camping-without-phone-signal, camping-water-planning, how-to-use-filters; NZ winter-driving, alcohol-fatigue, severe-weather, wildlife-livestock, food-fuel-resupply, driving-day-planner, plan-trip-kiwicamping.
-- Drafting: `tools` namespace (both sites), then AU road trips (brisbane-to-cape-tribulation, great-ocean-road, melbourne-to-adelaide, perth-to-broome, east-coast) and NZ best-nz-camping-apps, where-to-camp-in-new-zealand, east-cape, coromandel-rotorua, northland.
+## Done since the rebase
+- Applied and handed off (milestone 3, 2026-10-20): reviewed AU/NZ app and safety guides, `tools` namespace on both sites, AU road trips (brisbane, great ocean road, melbourne-adelaide, perth-broome, east coast), NZ best-nz-camping-apps, where-to-camp, east-cape, coromandel-rotorua, northland. AU 47/70 guides, NZ 43/78.
 
-## Next (by pages-3m impressions)
-- NZ: arthurs-pass, taranaki, picton-kaikoura-christchurch, wanaka-haast-pass, nelson-abel-tasman, banks-peninsula, bay-of-islands, rakiura, three-week route, christchurch-tekapo, then the rest. AU: sunshine-coast, gibb-river-road, adelaide-to-uluru, best-camping-app-australia, nullarbor, australian-alps, flinders-ranges, red-centre, then the rest.
-- Remaining NZ: 48 guides not applied; AU: 38. `translations:stamp -- --locale zh-hant` once most are done.
+## In progress
+- Reviewing then applying drafts: NZ wanaka-haast, nelson-abel-tasman, banks-peninsula, bay-of-islands, rakiura, three-week, christchurch-tekapo, wellington-wairarapa, north-island-two-week, west-coast, arthurs-pass, taranaki, picton-kaikoura; AU adelaide-uluru, nullarbor, australian-alps, flinders, red-centre, sunshine-coast, gibb-river, best-camping-app, tasmania-loop, darwin-kakadu.
+- Drafting: NZ freedom-camping x2, doc-campsites, camping-fees, self-contained, holiday-parks, wastewater, campfire, queenstown, fiordland, winter-camping, southern-scenic; AU fuel-planning, dogs, responsible-camping, first-campervan, packing-list, sydney-south-coast, qld-outback-way, south-west-wa, victoria-high-country, kangaroo-island, blue-mountains.
+
+## Next
+- Remaining after those: NZ save-places, filters-guide, offline-data-guide, weather-look-around, currency-place-costs, responsible-camping, two-week-itinerary, packing-list, best-time, scenic-campsites, south-island-two-week; AU save-collections, place-details, widgets-guide.
+- Then `npm run translations:stamp -- --locale zh-hant` in both, one `npm run check` each, final handoff.
+- Workflow: /tmp/zhhant/bin/mksrc.py (src from en.json), Opus drafts to /tmp/zhhant/out, separate Opus review writes review-*.json fixes (see /tmp/zhhant/review-brief.md), then bin/apply.sh a|k <slugs>.
 
 ## Blockers / notes for the orchestrator
 - More English source issues (translated as written): NZ licence guide says 18 months then 12 months in different sections; Melbourne contactless claim may be dated; NZ road-signs FAQ contradicts section 4 on which arrow is yours; LSZ signs are being phased out; AU fuel guide cites an "Australian Government Fuel Plan" as price source (usually ACCC/AIP); fuel FAQs (AU and NZ) say "divide by consumption"; AU towing FAQ says NT has a lower towing limit and that a car licence covers 4.5 t GCM (it is the vehicle's GVM); Greater Sunraysia lost pest-free status (biosecurity guide); myrtle rust is established in NZ since 2017; InterCity GoTickets may no longer exist; several guides repeat a paragraph in two sections (caravan park, Tasmania, SA, WA, fuel).
