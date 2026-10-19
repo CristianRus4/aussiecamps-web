@@ -51,6 +51,7 @@ AussieCamps (50): batches a01..a13. KiwiCamping (43): batches k01..k11. Status p
 
 ## Next
 - 2026-10-20 (2): orchestrator answers applied. Spanish-only catalog `aussiecamps-website-es` in docs/translation.config.json (brands, AUD, agencies, Indigenous names protected; state exonyms in glossary). NOTE values files must say "catalog":"aussiecamps-website-es". Style guide has the new state-name rule (Spanish first, English official name once in parentheses on state-rules intros). Native-voice review run on a06, link fixes and a07 (opus). a07 applied. Drafting model now sonnet high, review opus medium, one subagent at a time.
+- BLOCKER for orchestrator: `scripts/sync-locales.mjs` (protected) rewrites catalog 0 to list every locale, so `es` is again targeted by the main catalog, which still protects the English state names (55 protected-term errors for es there). The es-only catalog is clean (glossary 40, all in not-yet-rewritten guides). Fix: sync should skip locales that have their own catalog, or drop the state names from catalog 0's protectedTerms.
 - Order: a08..a13, `tools` strings, 20 road trips, then rebase i18n/k-es, give Kiwi the same catalog treatment (NZ islands, Spanish forms), k04..k11.
 - Demerit points line is an English-source issue passed to A-content; Spanish stays faithful.
 - 2026-10-20: AU branch rebased onto origin/main (M2 + tools). a01..a06 applied; 70 `<a data-guide>` link fixes applied to a01..a05 guides (links1). Working files: /tmp/es-work/a/all.json refreshed.
