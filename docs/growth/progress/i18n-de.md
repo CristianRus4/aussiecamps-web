@@ -9,20 +9,21 @@ Style guide: `docs/translation-style/de.md` (identical in both repos).
 - Milestone 1 (merged): UI and support/privacy/terms on both sites.
 - Judge fixes for milestone 1; privacy "Website analytics" section (7 sections now) and the `consent` namespace on both sites.
 - Guides re-reviewed and rewritten (batches of 5, ordered by Search Console impressions):
-  - AussieCamps a01, a02: alcohol-coffee-drink-prices, sleeping-in-car, eating-out-prices, public-transport-costs,
-    camping-rules-new-south-wales, camping-rules-western-australia, campervan-road-trip-budget, dump-points,
-    accommodation-costs, interstate-biosecurity-road-trip.
+  - AussieCamps a01..a04 (20 guides, top by impressions; see /tmp/de-i18n/a-order.json first 20).
   - KiwiCamping k01, k02: road-signs, public-transport-costs, grocery-prices, biosecurity-camping-gear,
     doc-huts-guide, campervan-road-rules, eating-out-prices, accommodation-costs, road-trip-fuel-cost,
     doc-campsite-rules.
 
-## In progress
-- AussieCamps a03..a10 (40 guides), KiwiCamping k03..k09 (33 guides). Working files: /tmp/de-i18n
-  (batches/, out/ = German masters with exonyms, applied/ = what was applied).
+## In progress (2026-10-20 handoff, session 2)
+- Rebased aussiecamps `i18n/a-de` onto main (foundation M2, tools-hubs). English now has `<a data-guide>` links in guides, so:
+  - 151 placeholder errors: the 20 rewritten AussieCamps guides need the link tags (batches fa01, fa02) and every remaining guide gets them while rewritten.
+  - Batches in /tmp/de-i18n/batches2 (built by mkbatches2.js from `translation-engine packet --all`): fa01-02 link fix, a05-a10 (remaining 30 guides),
+    rt01-rt04 (20 road trips), tl01 (tools namespace). Brief: /tmp/de-i18n/BRIEF.md + BRIEF2.md. Outputs in /tmp/de-i18n/out2, apply via toapply.js then dry.sh.
+- KiwiCamping k05..k09 (25 guides) still to do; its worktree is not rebased yet (check kiwicamping-web origin/main for its foundation M2).
 
 ## Next
-- After the foundation M2 reaches main: road trips, KiwiCamping legacy articles, guide tables, the
-  `article`/`tools` namespaces and the `<a data-guide>` link markup; `translations:stamp` once it exists.
+- Finish a05-a10, rt01-rt04, tl01 on AussieCamps, then Kiwi (rebase, link fix, k05-k09, road trips, legacy articles, tools).
+- `translations:stamp -- --locale de` after each applied chunk if the script is present.
 
 ## Blockers and open questions for the orchestrator
 - Protected terms force English where German has standard exonyms: "Tasmania" (AussieCamps) should be
