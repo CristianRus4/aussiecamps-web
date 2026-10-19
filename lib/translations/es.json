@@ -3891,45 +3891,109 @@
       }
     },
     "camping-fees-australia-2026": {
-      "title": "Precios de camping en Australia: parques nacionales frente a holiday parks",
-      "description": "Lo que pueden costar las zonas de acampada básicas, las que tienen servicios y las parcelas con electricidad, y qué incluye o no cada tarifa por noche.",
+      "title": "Tarifas de camping en Australia 2026: precios de los parques nacionales por estado",
+      "description": "Acampar en parques nacionales en 2026: 7,75 AUD por persona en Queensland, de 10 a 20 AUD por adulto en Australia Occidental y el Territorio del Norte, desde 16 AUD por parcela en Victoria, más la entrada.",
       "region": "Australia",
       "imageAlt": "Caravana y tienda de campaña en un camping australiano",
-      "intro": "Una parcela puede costar unos pocos dólares por persona o más que una habitación básica. El precio depende de la ubicación, los servicios, la temporada, las condiciones de reserva y de si el gestor cobra por parcela o por persona.",
+      "intro": "Acampar en un parque nacional australiano en 2026 cuesta desde nada hasta más de 40 AUD por noche en las zonas con más servicios y más concurridas, como Tidal River, en Wilsons Promontory: Queensland cobra 7,75 AUD por persona, Australia Occidental y el Territorio del Norte de 10 a 20 AUD por adulto, las zonas de acampada reservables de Victoria, a mitad de precio, empiezan en 16 AUD por parcela, y algunas zonas de acampada de Nueva Gales del Sur no cobran nada más allá de una tarifa de reserva de 6 AUD. La entrada al parque, los pases y que la tarifa sea por persona o por parcela cambian el total más que el precio de portada.",
       "sections": [
         {
-          "heading": "Entiende cómo se cobra",
+          "heading": "Las tarifas de los parques nacionales por estado",
           "body": [
-            "No se puede comparar una tarifa por persona en una zona de acampada a la que se llega a pie con una tarifa por parcela con electricidad sin saber cuántos sois. Antes de comparar, suma los suplementos por persona extra, por vehículo, la entrada al parque y los gastos de reserva.",
-            "Los servicios importan. Baños, duchas, electricidad, agua, lavandería, puntos de vaciado y estar cerca del pueblo pueden ahorrarte otros gastos."
+            "No existe un pase nacional de parques. Cada estado tiene su propio sistema de reservas, su escala de tarifas y su pase, y un pase comprado en un estado no sirve en el siguiente.",
+            "En varios estados la entrada y la acampada se cobran por separado, así que una tarifa nocturna barata puede costar más al sumar la entrada. <a data-guide=\"camping-rules-tasmania\">Tasmania</a> exige un Parks Pass para cada parque nacional, mientras que Australia Meridional no cobra la entrada de vehículos con la mayoría de las reservas de zonas de acampada."
           ],
-          "tips": []
+          "tips": [],
+          "table": {
+            "caption": "Tarifas de acampada y de entrada a los parques nacionales por estado, comprobadas en octubre de 2026",
+            "head": [
+              "Estado",
+              "Tarifa de acampada",
+              "Entrada de vehículo",
+              "Pase principal"
+            ],
+            "rows": [
+              [
+                "Nueva Gales del Sur",
+                "Se fija por zona de acampada; algunas son gratuitas con una tarifa de reserva de 6 AUD",
+                "Cobran 45 parques, por ejemplo 8 AUD al día en Myall Lakes",
+                "All Parks Pass, 190 AUD al año"
+              ],
+              [
+                "Victoria",
+                "A mitad de precio en 131 zonas de acampada reservables hasta julio de 2027, desde 16 AUD por parcela",
+                "La mayoría de los parques no cobran entrada",
+                "Ninguno necesario en la mayoría de los parques"
+              ],
+              [
+                "Queensland",
+                "7,75 AUD por persona o 31 AUD por familia y noche",
+                "Sin tarifa general de entrada, pero conducir por K'gari y otras islas de arena exige un permiso de acceso de vehículos de pago",
+                "Permiso de acceso de vehículos en K'gari y otras islas de arena"
+              ],
+              [
+                "Australia Meridional",
+                "Ikara-Flinders Ranges desde 12,30 AUD por noche",
+                "14,40 AUD por vehículo en Ikara, gratis con la mayoría de las reservas",
+                "Parks Passes; Desert Parks Pass"
+              ],
+              [
+                "Australia Occidental",
+                "10, 15 o 20 AUD por adulto, según los servicios",
+                "17 AUD por vehículo en Karijini y Cape Range",
+                "All Parks Pass, 130 AUD al año"
+              ],
+              [
+                "Tasmania",
+                "Se fija por zona de acampada; Mount Field, 24 o 35 AUD desde el 3 de noviembre de 2026",
+                "Parks Pass obligatorio: 49,15 AUD al día",
+                "Holiday pass, 98,35 AUD por dos meses"
+              ],
+              [
+                "Territorio del Norte",
+                "10, 15 o 20 AUD por adulto, según la categoría",
+                "NT Parks Visitor Pass para visitantes",
+                "Pase anual de visitante, 60 AUD"
+              ],
+              [
+                "ACT",
+                "Hay tarifa en todas las zonas de acampada reservables",
+                "La entrada a Namadgi es gratuita",
+                "Ninguno"
+              ]
+            ]
+          }
         },
         {
-          "heading": "Las promociones no son tarifas normales",
+          "heading": "Por persona o por parcela: un ejemplo con números",
           "body": [
-            "Los ejemplos comerciales pueden exigir una estancia mínima, fechas concretas u ocupación de dos personas. Anótalos como ofertas vistas en un momento dado, no como una media nacional garantizada.",
-            "Las tarifas públicas también cambian según el ejercicio fiscal y la categoría. Abre la página del camping concreto antes de salir."
+            "Imagina dos adultos y dos niños de 8 y 10 años durante tres noches. Una parcela en un parque nacional de <a data-guide=\"camping-rules-queensland\">Queensland</a> cuesta 93 AUD con la tarifa familiar de 31 AUD, una zona de acampada de Australia Occidental con servicios básicos cuesta 120 AUD (15 AUD por adulto y 5 AUD por niño cada noche) y una zona de acampada de categoría A del Territorio del Norte cuesta 114 AUD con la tarifa familiar de 38 AUD.",
+            "Una parcela reservable de Victoria desde 16 AUD la noche sale por unos 48 AUD las mismas tres noches, porque <a data-guide=\"camping-rules-victoria\">Victoria</a> cobra por parcela y no por persona. El orden se invierte para quien viaja solo, que paga 23,25 AUD en Queensland y 45 AUD en la misma zona de acampada de Australia Occidental.",
+            "Haz la cuenta con tu grupo y tus noches, y suma después la entrada, la electricidad y las tarifas de reserva. Una parcela con electricidad y duchas puede salir más a cuenta que un camping de monte más barato cuando cuentas lo que te ahorra."
           ],
           "tips": [
-            "Comprueba la unidad de cobro",
-            "Confirma qué incluye",
-            "Lee las condiciones de llegada"
+            "Cuenta tu grupo, no la tarifa de portada",
+            "Con niños cambia la opción más barata",
+            "Suma entrada y tarifas de reserva"
+          ]
+        },
+        {
+          "heading": "Holiday parks y parques de caravanas",
+          "body": [
+            "Los holiday parks comerciales y los <a data-guide=\"caravan-park-vs-holiday-park\">parques de caravanas</a> fijan sus propios precios, normalmente por parcela para un número de personas determinado, con recargos por más huéspedes, electricidad y fechas de temporada alta. Consulta la página de tarifas del propio parque y sus normas de estancia mínima en las vacaciones escolares y los fines de semana largos.",
+            "Las ofertas anunciadas suelen exigir una estancia mínima o fechas limitadas, así que anótalas como ofertas y no como tarifas normales. En AussieCamps, los holiday parks del socio de reservas BookEasy se pueden consultar y reservar sin el Pase."
+          ],
+          "tips": [
+            "Precio por parcela y número de personas",
+            "En temporada alta, estancia mínima",
+            "Las ofertas no son tarifas normales"
           ]
         },
         {
           "heading": "Alterna noches de pago y noches sencillas con cabeza",
           "body": [
-            "Una noche con pocos servicios funciona cuando el vehículo y las provisiones están a punto. Una noche con servicios vale la pena cuando los depósitos, las baterías, la ropa y las personas necesitan reponerse.",
-            "Ten guardada una alternativa legal de pago cerca de las zonas populares gratuitas o baratas. Que un sitio esté lleno o que cambien las restricciones locales no debería obligarte a conducir de noche con riesgo."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Las tarifas de los parques nacionales cambian según el estado",
-          "body": [
-            "Cada estado gestiona su propio sistema de parques, con su estructura de tarifas, su plataforma de reservas y sus propios pases. No existe un pase nacional para acampar en parques nacionales, y un pase comprado en un estado no sirve de nada en el siguiente.",
-            "Varios estados cobran la entrada del vehículo aparte de la acampada, así que una parcela anunciada con una tarifa por noche baja puede salir bastante más cara al sumar la entrada. Mira las dos cifras antes de comparar opciones.",
+            "Una noche con pocos servicios funciona cuando el vehículo y las provisiones están a punto. Una noche con servicios merece su precio cuando los depósitos, las baterías, la colada y las personas necesitan ponerse a cero.",
+            "Ten guardada una alternativa legal de pago cerca de las zonas gratuitas o baratas más populares, para que un sitio lleno o una norma local nueva no te obliguen a conducir de noche con riesgo.",
             "Los pases para varios parques o anuales compensan en cuanto piensas visitar más de dos o tres parques de un mismo estado. Casi nunca cubren la acampada, solo la entrada."
           ],
           "tips": [
@@ -3941,9 +4005,9 @@
         {
           "heading": "La acampada gratuita y lo que cuesta de verdad",
           "body": [
-            "La acampada gratuita ahorra dinero de verdad cuando el vehículo está preparado para ello y la ruta ya pasa por zonas adecuadas. Deja de ahorrar cuando haces sesenta kilómetros de más para llegar a un sitio gratis.",
-            "Los costes ocultos son las duchas, la lavandería, el agua, los puntos de vaciado y alguna noche de pago que la autosuficiencia sigue exigiendo. Calcula noches de pago con más frecuencia de la que piensas usarlas.",
-            "Una multa por acampar en una zona prohibida se lleva por delante semanas de ahorro de una sola vez, y los ayuntamientos de la costa las ponen continuamente. Lo gratis solo es gratis donde es legal."
+            "<a data-guide=\"is-free-camping-legal-australia\">Acampar gratis</a> ahorra dinero de verdad cuando el vehículo está preparado para ello y la ruta ya pasa por sitios donde es legal. Deja de ahorrar cuando haces sesenta kilómetros de más para llegar a uno.",
+            "Los costes ocultos son las duchas, la colada, el agua, los <a data-guide=\"dump-points-australia-guide\">puntos de vaciado</a> y las noches de pago que la autonomía siempre acaba necesitando. En el presupuesto, cuenta con más noches de pago de las que tienes previstas.",
+            "Una sola multa del ayuntamiento por acampar donde está prohibido puede borrar semanas de ahorro, así que gratis solo es gratis donde lo permite quien gestiona el terreno."
           ],
           "tips": [
             "No hagas muchos kilómetros para ahorrarte una tarifa",
@@ -3952,75 +4016,153 @@
           ]
         },
         {
-          "heading": "Por persona o por parcela",
+          "heading": "Tarifas de reserva, reembolsos y extras",
           "body": [
-            "Los campings de los parques nacionales suelen cobrar por persona y los comerciales por parcela, con una ocupación determinada. Por eso la opción más barata cambia según el tamaño del grupo, y las familias suelen echar mal la cuenta.",
-            "Haz los números para tu grupo y tus noches reales en lugar de comparar las tarifas anunciadas. Dos adultos y dos niños obtienen un resultado muy distinto al de alguien que viaja solo con las mismas dos opciones.",
-            "Luego suma la electricidad, las duchas y los gastos de reserva. Una parcela con electricidad y servicios puede salir más a cuenta que otra más barata sin electricidad cuando cuentas todo lo que te ahorra."
+            "NSW National Parks añade una tarifa de reserva no reembolsable a cada reserva de zona de acampada, y de 6 AUD en las zonas que no cobran por acampar. Si cancelas con 31 días o más de antelación, te devuelven el 75 % de la tarifa de acampada, y con menos antelación, el 50 %.",
+            "<a data-guide=\"camping-rules-victoria\">Victoria</a> permite que una misma reserva incluya hasta tres parcelas en la misma zona de acampada, y todas las parcelas a las que se llega en coche incluyen un vehículo en la tarifa. Tasmania pasa a un nuevo Parks Online Booking System el 3 de noviembre de 2026, con tarifas más altas en zonas de acampada como Fortescue Bay y Mount Field.",
+            "Los vehículos adicionales, los remolques y las visitas pueden añadir cada uno un recargo. Lee en la página de reserva qué cubre la tarifa antes de pagar."
           ],
           "tips": [
-            "Por persona o por parcela: depende del grupo",
-            "Haz los números para tu grupo real",
-            "Cuenta lo que te ahorra la tarifa"
+            "Reserva en NSW: tarifa no reembolsable",
+            "Victoria: hasta tres parcelas por reserva",
+            "El sistema de Tasmania cambia el 3 de noviembre"
           ]
         },
         {
           "heading": "Cada estado tiene su sistema de reservas",
           "body": [
-            "Cada estado tiene su propia plataforma de reservas, con sus normas sobre con cuánta antelación puedes reservar, sus condiciones de cancelación y si las parcelas son asignadas o libres. Conocer el sistema de los estados por los que pasa tu ruta te ahorra muchos disgustos.",
-            "Los parques más populares abren las reservas en ventanas móviles y las mejores parcelas vuelan a los pocos minutos de abrirse. Si te importa una parcela concreta, averigua la fecha de apertura y reserva en ese momento, no una semana después.",
-            "Guarda las confirmaciones de reserva para verlas sin conexión, porque los campings con peor cobertura suelen ser justo aquellos donde un guarda te pedirá que se la enseñes."
+            "<a data-guide=\"camping-rules-queensland\">Queensland</a> y Australia Meridional abren las reservas de parques con 12 meses de antelación, Park Stay WA de Australia Occidental con 180 días, y Victoria libera las parcelas en tandas trimestrales. Aprende el sistema de cada estado de tu ruta antes de necesitarlo.",
+            "Las parcelas más codiciadas vuelan. Las zonas de acampada de la Ningaloo Coast se liberan de mes en mes el primer martes a las 10:00, hora de Perth, así que apunta la fecha de apertura cuando te importe un sitio concreto.",
+            "Guarda las confirmaciones de reserva en el móvil, porque las zonas de acampada con peor cobertura suelen ser justo aquellas en las que un guarda te pide enseñarla."
           ],
           "tips": [
-            "Cada estado tiene su propia plataforma",
-            "Las ventanas de reserva se llenan rápido",
-            "Averigua cuándo abren las reservas en los parques populares"
+            "Queensland y SA: 12 meses antes",
+            "Park Stay WA: 180 días antes",
+            "Apunta las fechas de apertura de los sitios concurridos"
           ]
         }
       ],
       "faq": [
         [
           "¿Cuánto cuesta acampar una noche en Australia?",
-          "Desde nada en muchas áreas de descanso municipales y recintos feriales (showgrounds), pasando por una tarifa modesta por persona en los campings de los parques nacionales, hasta una parcela en un parque de caravanas que cuesta varias veces más. La guía da precios con fecha para cada nivel."
+          "En los parques nacionales, desde nada hasta más de 40 AUD por noche en las zonas con más servicios y más concurridas en 2026: Queensland cobra 7,75 AUD por persona, Australia Occidental y el Territorio del Norte de 10 a 20 AUD por adulto, las zonas de acampada reservables de Victoria, a mitad de precio, empiezan en 16 AUD por parcela, y algunas zonas de acampada de Nueva Gales del Sur cobran solo una tarifa de reserva de 6 AUD. Los holiday parks comerciales fijan sus propios precios."
         ],
         [
           "¿Se paga la entrada al parque además de la acampada?",
-          "En algunos estados, sí. Western Australia, Tasmania y partes del Northern Territory cobran la entrada del vehículo aparte de la tarifa de acampada, y un pase de varios días o para las vacaciones suele salir más barato que pagar cada día."
+          "En algunos estados. Tasmania exige un Parks Pass para cada parque nacional, Australia Occidental cobra 17 AUD por vehículo en parques como Karijini, 45 parques de Nueva Gales del Sur cobran la entrada de vehículos y los visitantes del Territorio del Norte necesitan un Parks Visitor Pass. Australia Meridional no cobra la entrada con la mayoría de las reservas de zonas de acampada y Queensland no tiene una tarifa general de entrada a los parques, pero conducir por K'gari y las demás islas de arena exige un permiso de acceso de vehículos de pago."
         ]
       ],
       "sources": [
         {
-          "label": "Tarifas de Parks Victoria 2025–27"
+          "label": "Reservas y tarifas de acampada de Queensland Parks"
         },
         {
-          "label": "Oferta de BIG4 Harrington"
+          "label": "NSW National Parks: parques con tarifa de entrada"
         },
         {
-          "label": "Oferta de BIG4 Sandstone Point"
+          "label": "Pases anuales de NSW National Parks"
+        },
+        {
+          "label": "Condiciones de reserva de NSW National Parks"
+        },
+        {
+          "label": "Información sobre reservas de Parks Victoria"
+        },
+        {
+          "label": "Tarifas y cargos de Parks Victoria 2026-27"
+        },
+        {
+          "label": "Ikara-Flinders Ranges National Park"
+        },
+        {
+          "label": "Tarifas de acampada de Explore Parks WA"
+        },
+        {
+          "label": "Karijini National Park"
+        },
+        {
+          "label": "Pases y tarifas de entrada a los parques de Tasmania"
+        },
+        {
+          "label": "Acampada en Mount Field"
+        },
+        {
+          "label": "Tarifas de acampada del NT"
+        },
+        {
+          "label": "NT Parks Visitor Pass"
+        },
+        {
+          "label": "Reservas y permisos de ACT Parks"
+        },
+        {
+          "label": "NSW National Parks: zonas de acampada de Corowa (tarifa de reserva de 6 AUD)"
+        },
+        {
+          "label": "Parks Victoria: normas de vehículos en las parcelas"
+        },
+        {
+          "label": "National Parks SA: preguntas frecuentes sobre reservas"
+        },
+        {
+          "label": "National Parks SA: lo esencial para acampar"
+        },
+        {
+          "label": "Explore Parks WA: dónde y cuándo acampar"
+        },
+        {
+          "label": "Cape Range National Park"
+        },
+        {
+          "label": "Pases de parques de WA"
+        },
+        {
+          "label": "Acampada en Fortescue Bay"
+        },
+        {
+          "label": "Namadgi National Park"
+        },
+        {
+          "label": "Permisos de acceso de vehículos de Queensland"
+        },
+        {
+          "label": "Sistema de reservas de NT Parks"
         }
       ],
       "priceTable": {
-        "note": "Tarifas oficiales y ejemplos de promociones comerciales con fecha. La entrada al parque, los gastos de reserva, los huéspedes adicionales y los vehículos pueden cobrarse aparte.",
+        "note": "Tarifas oficiales de 2026 para acampar en parques, según el organismo de parques de cada estado. La entrada al parque, las tarifas de reserva, los vehículos adicionales y los pases pueden cobrarse aparte.",
         "rows": [
           {
-            "label": "Zona de acampada de parque seleccionada, con acceso a pie",
+            "label": "Parcela en un parque de Queensland",
             "unit": "por persona/noche"
           },
           {
-            "label": "Camping de parque de categoría media",
-            "unit": "por parcela/noche"
+            "label": "Parcela en un parque de Queensland, tarifa familiar",
+            "unit": "por familia y noche"
           },
           {
-            "label": "Camping de parque con más servicios",
-            "unit": "por parcela/noche"
+            "label": "Zona de acampada sin tarifa de acampada en Nueva Gales del Sur",
+            "unit": "tarifa de reserva"
           },
           {
-            "label": "Parcela con electricidad en Tidal River, temporada alta",
-            "unit": "por parcela/noche"
+            "label": "Zona de acampada reservable de Victoria, a mitad de precio",
+            "unit": "por parcela y noche, desde"
           },
           {
-            "label": "Oferta comercial de parcela con electricidad",
-            "unit": "por parcela/noche"
+            "label": "Parcela en Ikara-Flinders Ranges",
+            "unit": "por noche, desde"
+          },
+          {
+            "label": "Zona de acampada de parque en Australia Occidental",
+            "unit": "por adulto y noche"
+          },
+          {
+            "label": "Zona de acampada de parque en el Territorio del Norte",
+            "unit": "por adulto y noche"
+          },
+          {
+            "label": "Mount Field (Tasmania), desde el 3 de noviembre de 2026",
+            "unit": "por parcela y noche"
           }
         ]
       }
