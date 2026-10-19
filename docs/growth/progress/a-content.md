@@ -2,6 +2,10 @@
 
 Thread: A-content (Kai). Branch `growth/a-content`. Never push. Session 2 took over on 2026-10-20 (session 1 retired for context size).
 
+## Subagent rules (orchestrator, 2026-10-20, to save Kai usage)
+- Fact-check and research subagents: model sonnet, effort high, ONE AT A TIME. Opus medium only when a Sonnet check is inconclusive or the claim is a fine, penalty or legal requirement.
+- Drafting a page: opus medium. At most 2 subagents in total.
+
 ## Decisions and constraints found
 - A-foundation M1 and M2 are on main (rebased 2026-10-20). A structurally stale translation is a `content:check` warning (served in English, noindex). Sections take an optional `table`. `priceTable.asOf` must be ISO `YYYY-MM-DD` (the expanded-articles `priceTable()` helper takes it as an optional third argument).
 - App counts come from `lib/data/product-facts.json` (byState.<STATE>.{campgrounds, dumpPoints, restAreas, water}). No free-campground, caravan-park or showground count exists, so none is published.
@@ -29,6 +33,9 @@ Thread: A-content (Kai). Branch `growth/a-content`. Never push. Session 2 took o
 - DONE 9438657 fix batch C1: audit-confirmed errors on darwin-kakadu-litchfield-loop, australian-alps-camping-route, adelaide-to-uluru-road-trip, australian-road-signs-visitors-guide, plus towing-caravan flags. Changed claims in /tmp/a-content/factcheck/c1-changes.md. Darwin loop FAQ not added (road-trip guides carry none per lib/article-faqs.ts header); draft FAQ kept in drafts/.
 - Fact-check batch F2 (Opus): c1-changes (-> factcheck/c1-verdicts.md), campfires, dump-points, caravan-park.
 - Next fact-check batch: the 5 cost pages. Then apply all fixes and hand off batch 1.
+
+## Queue: demerit points (from the Spanish lane, 2026-10-20)
+- Verify and correct/qualify, including for overseas licence holders: `lib/article-faqs.ts` australia-road-rules-state-differences FAQ 2 "Demerit points are shared between states even though the rules that earn them are not", and `lib/expanded-articles.ts` driving-in-australia-road-rules-visitors "Demerit points do not apply to overseas licences but the fines certainly do". Also grep the other driving and licence guides for demerit claims. Sources: state transport agencies, national exchange of driver records (NEVDIS/Austroads). Penalty claim, so opus medium. Run after F2 finishes.
 
 ## Next (audit queue, docs/growth/audit/summary.csv in main)
 - P0 FIX-FACTS not yet done: towing-caravan-australia-road-rules, melbourne-to-adelaide-coastal-route, flinders-ranges-camping-guide, red-centre-way-camping, darwin-kakadu-litchfield-loop, driving-with-road-trains-australia, overseas-driver-licence-australia-state-guide, victoria-high-country-camping, homepage, support, privacy (check ownership of homepage/support/privacy with the orchestrator).
