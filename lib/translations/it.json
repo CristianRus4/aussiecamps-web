@@ -406,118 +406,253 @@
   },
   "articles": {
     "is-free-camping-legal-australia": {
-      "title": "Il campeggio libero in Australia è legale?",
-      "description": "Il campeggio libero è legale solo dove chi gestisce il terreno consente di passare la notte. Ecco come capire cosa vale nel posto in cui ti trovi.",
+      "title": "Il campeggio libero in Australia è legale? Regole per stato 2026",
+      "description": "Il campeggio libero è legale solo dove chi gestisce il terreno lo consente: State Forest, alcuni siti comunali e aree di sosta segnalate. Le regole di ogni stato nel 2026.",
       "region": "Australia",
       "imageAlt": "Campeggio gratuito essenziale in Australia",
-      "intro": "In Australia esistono aree di sosta e campeggi gratuiti, ma non c’è nessun diritto nazionale di campeggiare dove capita di poter parcheggiare. La regola dipende dal terreno preciso, dai cartelli e dall’autorità locale.",
+      "intro": "Sì, ma solo dove chi gestisce il terreno lo consente: non esiste un diritto nazionale di campeggiare ovunque si possa parcheggiare un veicolo. Il campeggio libero è legale nella maggior parte delle State Forest (foreste demaniali) del New South Wales e di Victoria, sulle Crown land (terreni demaniali) del South Australia fino a 21 giorni, nei siti comunali che lo dicono e nelle aree di sosta le cui regole ammettono una sosta notturna. La maggior parte dei campeggi dei parchi nazionali è a pagamento o va prenotata, e alcuni comuni della costa, come il Surf Coast Shire a Victoria, multano chi dorme in un veicolo.",
       "sections": [
+        {
+          "heading": "Dove il campeggio libero è legale: gli stati dell’est",
+          "body": [
+            "Nel <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> tutte le State Forest tranne Cumberland e Strickland ammettono il campeggio gratuito, in ordine di arrivo, fino a quattro settimane. Alcuni campeggi dei parchi nazionali non hanno tariffa di campeggio ma richiedono comunque una prenotazione, che costa 6 $.",
+            "In <a data-guide=\"camping-rules-victoria\">Victoria</a> si può campeggiare quasi ovunque in una State Forest fino a 28 notti consecutive, ad almeno 20 metri dai corsi d’acqua, e alcuni campeggi di Parks Victoria come King Hut sono gratuiti e senza prenotazione.",
+            "Il <a data-guide=\"camping-rules-queensland\">Queensland</a> non ha campeggio libero nei suoi parchi e nelle sue State Forest, dove ogni piazzola richiede un permesso a pagamento. Le opzioni gratuite sono i campeggi comunali che lo ammettono. Nelle aree di sosta lungo la strada ti puoi fermare fino a 20 ore, salvo cartelli diversi, ma lo stato precisa che non sono luoghi dove campeggiare.",
+            "La <a data-guide=\"camping-rules-tasmania\">Tasmania</a> offre campi comunali gratuiti con permessi e limiti di permanenza propri, campeggi gratuiti nel Southwest National Park (per entrare serve comunque un parks pass) e il campeggio nella maggior parte dei terreni di Sustainable Timber Tasmania, salvo cartelli che lo vietino."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Campeggio libero per stato, verificato a ottobre 2026",
+            "head": [
+              "Stato",
+              "Opzioni gratuite",
+              "Limite principale",
+              "Chi fissa le regole"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "State Forest; alcuni campeggi dei parchi senza tariffa",
+                "Quattro settimane in una foresta; i campeggi dei parchi senza tariffa di solito fanno pagare 6 $ di prenotazione",
+                "Forestry Corporation, NPWS, comuni"
+              ],
+              [
+                "Victoria",
+                "State Forest; alcuni campeggi gratuiti dei parchi",
+                "28 notti, a 20 m dai corsi d’acqua",
+                "DEECA, Parks Victoria, comuni"
+              ],
+              [
+                "Queensland",
+                "Siti comunali che lo ammettono",
+                "Aree di sosta: sosta di 20 ore salvo cartelli, non è campeggio",
+                "Comuni, Transport and Main Roads"
+              ],
+              [
+                "South Australia",
+                "Crown land; alcuni siti comunali",
+                "21 giorni su Crown land",
+                "Department for Environment and Water, comuni"
+              ],
+              [
+                "Western Australia",
+                "Aree di sosta segnalate per la notte",
+                "24 ore consecutive; altrove serve un’autorizzazione",
+                "Main Roads WA, comuni"
+              ],
+              [
+                "Tasmania",
+                "Campi comunali; campeggi gratuiti dei parchi; terreni forestali",
+                "I limiti dei comuni variano, spesso solo veicoli self-contained",
+                "Comuni, Parks and Wildlife Service, Sustainable Timber Tasmania"
+              ],
+              [
+                "Northern Territory",
+                "Aree di sosta indicate per il campeggio notturno",
+                "24 ore nelle aree indicate; alcune fanno pagare una tariffa",
+                "Governo del Northern Territory, comuni"
+              ],
+              [
+                "ACT",
+                "Nessuna",
+                "Campeggio con il veicolo solo nei campeggi prenotati",
+                "ACT Parks and Conservation Service"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Dove il campeggio libero è legale: sud, ovest e centro",
+          "body": [
+            "Il <a data-guide=\"camping-rules-south-australia\">South Australia</a> ammette il campeggio sulle Crown land senza autorizzazione fino a 21 giorni, con i veicoli tenuti sulle piste esistenti e senza raccolta di legna. I campeggi dei parchi nazionali lì vanno prenotati e pagati in anticipo, tranne nei parchi del Munga-Thirri Simpson Desert, che richiedono invece un Desert Parks Pass.",
+            "Il <a data-guide=\"camping-rules-western-australia\">Western Australia</a> richiede un’autorizzazione per campeggiare ovunque non sia un campeggio con licenza, quindi l’opzione gratuita è un’area di sosta segnalata per un massimo di 24 ore consecutive.",
+            "Il <a data-guide=\"camping-rules-northern-territory\">Northern Territory</a> elenca le sue aree di sosta stradali una per una, e solo quelle segnalate per il campeggio notturno di 24 ore lo consentono. I campeggi dei parchi si prenotano online, e i visitatori hanno bisogno anche di un parks pass.",
+            "L’ACT non ha affatto campeggio libero: il campeggio con il veicolo è ammesso solo nei campeggi attrezzati, ciascuno prenotato in anticipo, e campeggiare altrove su terreno pubblico senza permesso può comportare una sanzione fino a 20 penalty unit (unità di sanzione)."
+          ],
+          "tips": []
+        },
         {
           "heading": "Parcheggiare non significa poter campeggiare",
           "body": [
-            "In un parcheggio regolare può comunque essere vietato dormire, montare il campo o fermarsi per la notte. Cerca un permesso esplicito per la notte, i limiti di tempo e le restrizioni sui veicoli.",
-            "Non fidarti dell’assenza di un cartello di divieto. Se non è chiaro a cosa serva l’area, verifica la regola di chi la gestisce o del comune."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "I posti che possono essere gratuiti",
-          "body": [
-            "Alcune aree comunali, riserve gestite dalle comunità, campeggi dei parchi nazionali e aree lungo la strada non fanno pagare la notte. Possono comunque valere registrazione, prenotazione, un’offerta libera o un limite massimo di permanenza.",
-            "Le aree di sosta servono soprattutto a combattere la <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">stanchezza</a> alla guida. Lascia libere le piazzole per i camion ed evita tendalini, sedie o cunei per mettere in piano il mezzo, che trasformano una breve pausa in un campeggio illegale."
+            "Un parcheggio regolare può comunque vietare di dormire, di montare il campo o di fermarsi per la notte. Cerca un permesso esplicito per la notte, limiti di tempo e restrizioni sui veicoli, non solo l’assenza di un cartello di divieto di campeggio.",
+            "Alcuni comuni vietano del tutto di dormire in un veicolo parcheggiato. Il Surf Coast Shire sulla costa di Victoria multa con 300 $ sul posto chi dorme in un veicolo in qualsiasi punto del comune."
           ],
           "tips": [
-            "Leggi ogni cartello",
-            "Verifica chi gestisce il terreno",
-            "Tieni una sosta di riserva"
+            "Cerca un permesso esplicito",
+            "Dormire in un van può essere vietato",
+            "Verifica chi gestisce il terreno"
           ]
         },
         {
-          "heading": "Lascia il posto com’è, e aperto",
+          "heading": "Si può campeggiare a bordo strada?",
           "body": [
-            "Porta via rifiuti e acque reflue, usa i bagni dove ci sono e riparti entro il tempo consentito. Rumore, fuochi e accampamenti che si allargano sono i motivi più frequenti per cui le comunità limitano il campeggio libero.",
-            "Se l’area è piena, non inventarti una piazzola sulla vegetazione o in una strada vicina."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Non esiste una risposta valida per tutto il Paese",
-          "body": [
-            "Se il campeggio libero è legale lo stabilisce chi gestisce il terreno: enti dei parchi statali, State Forest, comuni, enti stradali e proprietari privati applicano tutti regole diverse. Non c’è una regola valida in tutta l’Australia da imparare a memoria.",
-            "In pratica la risposta cambia a ogni confine tra comuni, e dalla strada quei confini non si vedono. Una regola verificata in un comune non ti dice niente su quello dopo.",
-            "Le fonti affidabili sono i cartelli sul posto e il sito del comune competente. Tutto il resto, app e guide comprese, è un punto di partenza e non un’autorità."
+            "Di solito no, a meno che il punto sia un’area di sosta che lo consente. Il Queensland vieta il campeggio su una strada di competenza statale, a meno che tu stia gestendo la <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">stanchezza</a> tra le 16 e le 8, fuori da un centro abitato, ad almeno 200 metri da qualsiasi cordolo e a 9 metri dalla corsia di marcia, dove nessun cartello lo vieta e non su un’autostrada o a pedaggio, senza fuochi né generatori.",
+            "Main Roads del <a data-guide=\"camping-rules-western-australia\">Western Australia</a> non ammette soste notturne in un’area di sosta senza un cartello che le consenta, e Service NSW dice che le aree di sosta non sono per campeggiare, anche se una nota di pianificazione di luglio 2026 dice che campeggiarvi può essere consentito, salvo cartelli diversi.",
+            "Dove una sosta notturna è consentita, limitati al veicolo, lascia libere per i mezzi pesanti le piazzole dei camion e riparti la mattina."
           ],
           "tips": [
-            "Non esiste una regola nazionale",
-            "La risposta cambia a ogni confine tra comuni",
-            "Fanno fede i cartelli"
+            "Aree di sosta, non cigli stradali",
+            "Lascia libere le piazzole dei camion",
+            "Riparti al mattino"
           ]
         },
         {
-          "heading": "Dove di solito è permesso",
+          "heading": "Multe e come vengono fissate",
           "body": [
-            "In Victoria, nel New South Wales e nel <a data-guide=\"camping-rules-queensland\">Queensland</a> le State Forest consentono il campeggio libero gratuito nella maggior parte delle zone, nel rispetto dei divieti di fuochi e delle chiusure stagionali. È il campeggio gratuito più affidabile degli stati orientali.",
-            "Molti comuni dell’interno, soprattutto nel Queensland, nel New South Wales e nel <a data-guide=\"camping-rules-south-australia\">South Australia</a>, offrono campeggio gratuito o a offerta libera per attirare i viaggiatori in paese. Sono aree segnalate, accoglienti e spesso con servizi essenziali.",
-            "Le station stay (soggiorni nelle station dell’outback) e il campeggio presso i roadhouse colmano i vuoti nelle zone remote. Di solito costano poco più che essere gratuiti, e spesso sono l’unica opzione per centinaia di chilometri."
+            "Le sanzioni le fissa chi possiede il terreno, quindi variano molto. Campeggiare fuori da un’area di campeggio in un parco nazionale del NSW comporta un massimo di 30 penalty unit, <a data-guide=\"camping-rules-act\">l’ACT</a> fissa un massimo di 20 penalty unit (3.200 $ per un privato) per usare un terreno pubblico, campeggio compreso, senza permesso, e l’uso improprio delle Crown land del South Australia può costare una sanzione amministrativa (expiation) di 315 $.",
+            "Le multe dei comuni si fissano a livello locale, quindi l’importo cambia da un comune all’altro. Controlla il sito del comune o il cartello sul posto."
           ],
           "tips": [
-            "Le State Forest sono la scelta più affidabile",
-            "I paesi dell’interno accolgono volentieri i viaggiatori",
-            "Le station stay colmano i vuoti"
+            "Il proprietario del terreno fissa la sanzione",
+            "Le multe dei comuni sono locali",
+            "Fotografa il cartello appena arrivi"
           ]
         },
         {
-          "heading": "Dove di solito è vietato",
+          "heading": "Veicoli self-contained",
           "body": [
-            "I comuni costieri vicino alle grandi città e nelle zone turistiche vietano quasi tutti di passare la notte in un veicolo, e lo fanno rispettare con pattuglie e multe. Su qualsiasi costa frequentata dai per scontato che sia vietato, a meno che un cartello non dica il contrario.",
-            "Nei parchi nazionali servono quasi ovunque un permesso e un campeggio designato. Campeggiare fuori dalle aree designate di un parco nazionale è un’infrazione in tutti gli stati.",
-            "Le aree di sosta gestite dagli enti stradali servono per le pause contro la <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">stanchezza</a>. Dormire in genere va bene, ma montare il campo con tendalino e sedie non è lo scopo per cui esistono ed è spesso vietato espressamente."
+            "Alcuni comuni ammettono il campeggio libero solo per i veicoli self-contained (autosufficienti) con WC e serbatoi di bordo. Ogni comune definisce che cosa conta, quindi controlla le sue condizioni prima di fare affidamento su un WC portatile.",
+            "L’autosufficienza può aprire più siti, ma non toglie il limite di permanenza. Il limite indicato sul cartello vale comunque, e i rifiuti vanno sempre e solo in un <a data-guide=\"dump-points-australia-guide\">punto di scarico</a>."
           ],
           "tips": [
-            "I comuni costieri vietano e pattugliano",
-            "Nei parchi nazionali solo campeggi designati",
-            "Le aree di sosta servono solo a riposare"
+            "Le regole sui self-contained cambiano da comune a comune",
+            "I limiti di permanenza valgono ancora",
+            "Svuota i serbatoi solo nei punti di scarico"
           ]
         },
         {
-          "heading": "Autosufficienza e comportamento",
+          "heading": "Il comportamento tiene aperti i siti gratuiti",
           "body": [
-            "Alcuni comuni permettono il campeggio libero solo ai veicoli autosufficienti, con bagno e serbatoi dei rifiuti a bordo. La definizione cambia da comune a comune: alcuni chiedono una certificazione, altri si accontentano di un’autodichiarazione.",
-            "Qualunque siano le regole, è il comportamento a tenere aperte le aree. Arriva tardi, riparti presto, ingombra poco, porta via tutti i rifiuti e non svuotare mai i serbatoi se non in un <a data-guide=\"dump-points-australia-guide\">punto di scarico</a>.",
-            "Le aree chiudono per rifiuti, rumore e sovraffollamento, e di solito le chiusure sono definitive. Le zone con le regole più severe oggi sono quelle dove in passato ci si è comportati peggio."
+            "I siti gratuiti possono chiudere o iniziare a far pagare per colpa di rifiuti, scarichi, rumore e sovraffollamento.",
+            "Arriva tardi, parti presto, lascia un’impronta ridotta, porta via ogni sacco di rifiuti e usa i bagni dove ci sono. Se un sito è pieno, non inventarti una nuova piazzola sulla vegetazione o in una strada vicina."
           ],
           "tips": [
-            "Le regole sull’autosufficienza cambiano da comune a comune",
             "Ingombro minimo, partenza presto",
-            "I comportamenti scorretti fanno chiudere le aree per sempre"
+            "Porta via tutti i rifiuti",
+            "Pieno vuol dire pieno"
           ]
         },
         {
-          "heading": "Gli strumenti che aiutano davvero",
+          "heading": "Controlla prima di fermarti",
           "body": [
-            "I siti dei comuni, le pagine dei parchi statali e i cartelli stessi sono le fonti ufficiali. Le <a data-guide=\"best-camping-app-australia\">app di campeggio</a> e gli elenchi della community servono a trovare i posti da provare, ma non ti difendono se un’area si rivela vietata.",
-            "Quando una scheda e un cartello non coincidono, segui il cartello e segnala la differenza, così la scheda migliora. Chi controlla applica la legge locale e i cartelli, non quello che dice un’app.",
-            "Nel dubbio vero, un campeggio comunale economico o uno showground (l’area delle fiere agricole) di solito è a portata di mano e risolve la questione con pochissimi soldi.",
-            "Fotografare il cartello appena arrivi non costa nulla ed è l’unica prova che aiuta davvero se in seguito contesti una multa."
+            "Fanno fede il cartello sul posto e il sito di chi gestisce il terreno. Le <a data-guide=\"best-camping-app-australia\">app di campeggio</a> e gli elenchi della community vanno bene per trovare i posti da provare, ma non ti difendono se un sito si rivela chiuso o vietato.",
+            "Se un elenco e un cartello non concordano, segui il cartello. Nel dubbio vero, un campeggio comunale economico o uno showground (l’area delle fiere agricole, spesso aperta ai camper) è spesso a portata di mano e risolve la questione con una piccola cifra.",
+            "Fotografa il cartello quando arrivi. Non costa niente ed è la prova migliore che hai se in seguito un avviso viene contestato."
           ],
           "tips": [
-            "Le app trovano, i cartelli decidono",
-            "Segnala le differenze che trovi",
-            "Chi controlla applica la legge locale"
+            "I cartelli valgono più degli elenchi",
+            "Un campeggio economico toglie il dubbio",
+            "Fotografa il cartello"
           ]
         }
       ],
       "faq": [
         [
           "Il campeggio libero in Australia è legale?",
-          "Sì, ma solo nelle aree designate e da nessun’altra parte. Non esiste una regola nazionale: cosa è permesso lo decidono lo stato, chi gestisce il terreno e il comune, quindi un’area di sosta può essere una sosta notturna legale in un comune e costarti una multa in quello dopo."
+          "Sì, ma solo dove chi gestisce il terreno lo consente, con cartelli o con una regola generale: in Australia non esiste un diritto nazionale di campeggiare ovunque si possa parcheggiare un veicolo. Le principali possibilità legali sono la maggior parte delle State Forest del New South Wales e di Victoria, le Crown land del South Australia fino a 21 giorni, i siti comunali che lo dicono e le aree di sosta le cui regole ammettono una sosta notturna; la maggior parte dei campeggi dei parchi nazionali è a pagamento o va prenotata."
         ],
         [
-          "Quanto si può restare in un’area di sosta lungo la strada?",
-          "Dipende dal cartello, e si va da poche ore fino a 72 ore. Le aree di sosta esistono per la stanchezza alla guida, non come campeggi gratuiti, e quelle pensate per la notte lo dicono."
+          "Si può campeggiare a bordo strada in Australia?",
+          "Di solito no. Le soste lungo la strada sono limitate alle aree di sosta le cui regole o i cui cartelli ammettono una sosta notturna, come le soste segnalate di 24 ore del Western Australia. Il Queensland ti permette di fermarti in un’area di sosta fino a 20 ore, salvo cartelli diversi, ma precisa che le aree di sosta non sono luoghi dove campeggiare, e vieta il campeggio sulle strade statali fuori da una stretta eccezione per la stanchezza dalle 16 alle 8."
         ]
       ],
-      "sources": [],
+      "sources": [
+        {
+          "label": "Forestry Corporation of NSW: campeggio"
+        },
+        {
+          "label": "NSW National Parks: campeggi"
+        },
+        {
+          "label": "Campeggio nelle State Forest di Victoria"
+        },
+        {
+          "label": "Queensland Parks: prenotazioni del campeggio"
+        },
+        {
+          "label": "Aree di sosta del Queensland"
+        },
+        {
+          "label": "Transport Infrastructure (State-controlled Roads) Regulation 2017"
+        },
+        {
+          "label": "Accedere alle Crown land nel South Australia"
+        },
+        {
+          "label": "Campeggiare fuori dai caravan park nel WA"
+        },
+        {
+          "label": "Main Roads WA: guidare su lunghe distanze"
+        },
+        {
+          "label": "Aree di sosta stradali del NT"
+        },
+        {
+          "label": "Sustainable Timber Tasmania: visitare i terreni gestiti"
+        },
+        {
+          "label": "ACT Parks: dove dormire"
+        },
+        {
+          "label": "Service NSW: trovare le aree di sosta"
+        },
+        {
+          "label": "Surf Coast Shire: parcheggio"
+        },
+        {
+          "label": "Main Roads WA: politica sulle aree di sosta"
+        },
+        {
+          "label": "NSW National Parks and Wildlife Regulation 2019"
+        },
+        {
+          "label": "Nota operativa sui caravan park e sui campeggi del NSW, luglio 2026"
+        },
+        {
+          "label": "ACT Public Unleased Land Act 2013"
+        },
+        {
+          "label": "Parks Victoria: campeggio libero nell’Alpine National Park"
+        },
+        {
+          "label": "Campeggio nel Southwest National Park"
+        },
+        {
+          "label": "Northern Midlands Council: cittadine accoglienti per i camper"
+        },
+        {
+          "label": "Central Coast Council: siti di campeggio"
+        },
+        {
+          "label": "NT Parks: campeggio"
+        },
+        {
+          "label": "Queensland Parks: domande frequenti sul campeggio"
+        },
+        {
+          "label": "National Parks SA: domande frequenti sulle prenotazioni"
+        }
+      ],
       "priceTable": null
     },
     "campfires-camping-australia": {
@@ -778,119 +913,245 @@
       "priceTable": null
     },
     "sleeping-in-car-australia": {
-      "title": "Dormire in auto in Australia: si può?",
-      "description": "Dormire in auto in Australia si può solo dove lo permettono le regole locali su terreni, parcheggio e veicoli.",
+      "title": "Dormire in auto in Australia: si può? Regole per stato 2026",
+      "description": "Legale in alcuni posti, multato in altri. Limiti delle aree di sosta, divieti dei comuni e regole dei parchi nazionali per dormire in auto in ogni stato, verificati a ottobre 2026.",
       "region": "Australia",
       "imageAlt": "Camper parcheggiato in un’area autorizzata alla sosta notturna",
-      "intro": "Non è il veicolo a rendere legale il posto: a decidere se puoi dormirci sono i regolamenti comunali, i cartelli, le regole dei parchi e i diritti dei proprietari privati.",
+      "intro": "Sì, nel posto giusto: quello che fa prendere la multa è campeggiare dove è vietato, e molti comuni considerano campeggio anche dormire in un’auto parcheggiata. Le opzioni legali sono i campeggi prenotati, le State Forest che ammettono il campeggio e le aree di sosta le cui regole o i cui cartelli consentono una sosta notturna, come il limite di 20 ore del Queensland e le soste segnalate di 24 ore del Western Australia.",
       "sections": [
         {
-          "heading": "Fidati dei cartelli, non di internet",
+          "heading": "Le regole di ogni stato",
           "body": [
-            "Controlla sui cartelli gli orari di sosta, i divieti di campeggio e le limitazioni per tipo di veicolo. Nelle località turistiche più frequentate i parcheggi sulla spiaggia e le strade residenziali sono spesso controllati.",
-            "Una vecchia recensione non ti salva dalla multa. Fai riferimento alle informazioni aggiornate del comune o di chi gestisce il terreno."
+            "Nessuno stato pubblica un semplice sì o no. Gli enti stradali fissano i limiti delle aree di sosta, i comuni le regole per strade, spiagge e parcheggi, e gli enti dei parchi decidono che cosa succede dentro i parchi nazionali, quindi la risposta dipende da chi possiede il terreno sotto la tua auto.",
+            "Solo il Queensland e il Western Australia pubblicano un limite di tempo valido in tutto lo stato per le aree di sosta, e il Northern Territory elenca quali delle sue aree di sosta sulle highway ammettono il campeggio notturno. Ovunque altrove decide il cartello dell’area di sosta, e le indicazioni nel <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> non sono univoche: Service NSW dice che le aree di sosta non sono per campeggiare, mentre una nota operativa di luglio 2026 sulla pianificazione dice che campeggiarvi può essere consentito, a meno che un cartello dica altro."
           ],
-          "tips": []
+          "tips": [],
+          "table": {
+            "caption": "Dormire in auto per stato, verificato a ottobre 2026",
+            "head": [
+              "Stato",
+              "Aree di sosta lungo la strada",
+              "Strade e parcheggi comunali",
+              "Parchi nazionali",
+              "Aree di sosta in AussieCamps"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "Nessun limite valido in tutto lo stato; segui il cartello",
+                "Serve l’approvazione del comune o un permesso segnalato; i comuni controllano",
+                "Solo aree di campeggio designate, al massimo 21 giorni",
+                "869"
+              ],
+              [
+                "Victoria",
+                "Nessun limite valido in tutto lo stato; segui il cartello",
+                "Alcuni lo vietano: il Surf Coast Shire multa con 300 $",
+                "Piazzole designate; alcuni parchi ammettono il campeggio libero",
+                "651"
+              ],
+              [
+                "Queensland",
+                "Fino a 20 ore, salvo cartelli diversi; non sono luoghi dove campeggiare",
+                "Molti lo vietano; Cairns lo vieta sui terreni comunali fuori dai suoi campeggi",
+                "Permesso a pagamento per ogni piazzola",
+                "1.688"
+              ],
+              [
+                "South Australia",
+                "Nessun limite valido in tutto lo stato; segui il cartello",
+                "Le regole cambiano da comune a comune",
+                "Solo piazzole prenotate",
+                "391"
+              ],
+              [
+                "Western Australia",
+                "Fino a 24 ore consecutive, solo dove segnalato",
+                "Campeggiare altrove richiede un’autorizzazione",
+                "Solo campeggi designati",
+                "1.661"
+              ],
+              [
+                "Tasmania",
+                "Nessun limite valido in tutto lo stato; segui il cartello",
+                "Alcuni comuni rilasciano permessi gratuiti",
+                "Parks Pass più una piazzola designata",
+                "81"
+              ],
+              [
+                "Northern Territory",
+                "Solo nelle aree segnalate per il campeggio di 24 ore",
+                "Le regole cambiano da comune a comune",
+                "Piazzole prenotate, più un pass per i visitatori non residenti",
+                "211"
+              ],
+              [
+                "ACT",
+                "Campeggio con il veicolo solo nei campeggi",
+                "Niente campeggio su terreno pubblico senza permesso",
+                "Solo campeggi prenotati",
+                "0"
+              ]
+            ]
+          }
         },
         {
-          "heading": "Aree di sosta",
+          "heading": "Si può dormire in auto in un parco nazionale?",
           "body": [
-            "Le aree Driver Reviver e le aree di sosta lungo le highway servono a combattere la <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">stanchezza alla guida</a>. Alcune ammettono una sosta notturna limitata, altre vietano il campeggio o limitano i tipi di veicolo.",
-            "Lascia libere le piazzole per i camion, non fare rumore e non spargere l’attrezzatura fuori dal veicolo, a meno che nell’area non sia ammesso il campeggio."
+            "Solo dove il parco ammette il campeggio, il che quasi sempre significa un campeggio designato prenotato o autorizzato in anticipo. Un’auto lasciata per la notte in un’area di sosta diurna, in un punto panoramico o all’inizio di un sentiero è campeggio senza permesso, che qualcuno abbia montato una tenda o no.",
+            "Il <a data-guide=\"camping-rules-queensland\">Queensland</a> chiede 7,75 $ a persona a notte per ogni piazzola di parchi e foreste nel 2026, e il permesso vale sia che dormi in tenda sia che dormi in auto. I parchi del Northern Territory si prenotano solo online, quelli del South Australia online o tramite agenzie, e il NSW limita a 21 giorni il soggiorno in qualsiasi parco.",
+            "Alcuni parchi ammettono il campeggio libero. L’Alpine National Park di <a data-guide=\"camping-rules-victoria\">Victoria</a> lo permette in gran parte del parco, ma Parks Victoria chiede ai campeggiatori di portare una tenda e ogni parco fissa i propri confini, quindi leggi prima la pagina del parco."
           ],
           "tips": [
-            "Posto in regola",
-            "Ricambio d’aria",
-            "Via d’uscita libera",
-            "Niente motore acceso per scaldarti"
+            "Le aree di sosta diurna non sono piazzole",
+            "Prenota o procurati prima un permesso",
+            "L’Alpine National Park ammette il campeggio libero"
           ]
         },
         {
-          "heading": "Alternative più sicure",
+          "heading": "Aree di sosta e cosa significano i loro limiti",
           "body": [
-            "Un campeggio spartano, un <a data-guide=\"caravan-park-vs-holiday-park\">caravan park</a> (campeggio attrezzato con piazzole e bungalow), un farm stay (soggiorno in fattoria) o uno showground, l’area delle fiere agricole spesso aperta ai camper: lì è più chiaro che puoi restare, e spesso trovi bagni o acqua. Arriva prima che faccia buio e verifica che il tuo veicolo possa entrare.",
-            "Non dormire mai con una stufetta o un fornello a combustibile acceso dentro un veicolo chiuso."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Parcheggiare in regola non vuol dire campeggiare in regola",
-          "body": [
-            "Un veicolo può essere parcheggiato in regola in un posto dove però è vietato dormirci. Quasi tutte le multe si giocano su questa differenza, ed è per questo che anche chi aveva controllato i cartelli di sosta si ritrova sanzionato.",
-            "A stabilirlo sono i regolamenti comunali, che cambiano appena passi il confine. Alcuni comuni permettono di dormire nel veicolo in aree designate, molti lo vietano in tutti i luoghi pubblici, e i controlli sono più serrati sulla costa e nelle zone turistiche.",
-            "Leggi i cartelli del singolo posto auto, non quelli della via in generale. Sosta a tempo, zone con permesso e divieti notturni sono spesso indicati da cartelli diversi e valgono tutti insieme."
+            "Il <a data-guide=\"camping-rules-queensland\">Queensland</a> consente ai veicoli normali e ricreazionali di restare in un’area di sosta fino a 20 ore, salvo cartelli diversi, ma le chiama luoghi di sosta e non campeggi. Le aree di sosta per i mezzi pesanti sono riservate ai camionisti, e i generatori devono restare spenti dalle 19 alle 7.",
+            "Nel Western Australia puoi fermarti fino a 24 ore consecutive nelle aree di sosta segnalate per il pernottamento, che secondo Main Roads WA non sono pensate per il campeggio, e per passare la notte in qualsiasi altro posto fuori da un <a data-guide=\"caravan-park-vs-holiday-park\">caravan park</a> o da un campeggio serve un’autorizzazione. Il Northern Territory elenca le sue aree di sosta stradali una per una, e solo quelle segnalate per il campeggio notturno di 24 ore lo consentono.",
+            "Ovunque ti fermi, parcheggia dentro gli spazi segnati, lascia libero il parcheggio dei camion e tieni tendalino, sedie e tavolo chiusi. Un’auto con delle persone che dormono dentro sembra una sosta per riposare; un campo allestito sembra campeggio."
           ],
           "tips": [
-            "Parcheggiare in regola non vuol dire poterci dormire",
-            "Le regole cambiano da comune a comune",
-            "Leggi il cartello del singolo posto auto"
+            "Queensland: al massimo 20 ore",
+            "WA: 24 ore dove segnalato",
+            "Lascia libere le piazzole dei camion"
           ]
         },
         {
-          "heading": "Dove in genere è accettato",
+          "heading": "Comuni, città e costa",
           "body": [
-            "Le aree di sosta designate lungo le highway permettono di dormire per smaltire la <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">stanchezza</a>, di solito fino a 24 ore, ed è l’opzione più affidabile in tutto il Paese per dormire in regola. Servono a riposare, non a piantare il campo.",
-            "Molti comuni dell’interno mettono a disposizione aree per la notte gratuite o economiche, dove dormire nel veicolo è espressamente permesso. Showground e campi sportivi spesso fanno lo stesso per una piccola tariffa.",
-            "Alcuni distributori aperti 24 ore e alcuni roadhouse (stazioni di servizio isolate con bar e spesso camere) lasciano sostare per la notte, soprattutto lungo le highway più lunghe. Chiedi dentro invece di dare per scontato, e compra qualcosa."
+            "Le leggi locali sono la fonte della maggior parte delle multe. Sulla costa di Victoria il Surf Coast Shire considera un reato dormire in un veicolo in qualsiasi punto del comune, con una multa immediata di 300 $, e il Cairns Regional Council vieta il campeggio su bordi stradali, Esplanade, parchi, parcheggi e spiagge.",
+            "Alcuni comuni dell’entroterra gestiscono aree gratuite o a basso costo per i viaggiatori. Il Northern Midlands Council della <a data-guide=\"camping-rules-tasmania\">Tasmania</a>, per esempio, rilascia permessi gratuiti per soggiorni fino a 48 ore, ma solo per veicoli completamente autosufficienti (self-contained) con WC e doccia propri, il che esclude la maggior parte delle auto.",
+            "Leggi il cartello per lo spazio esatto, non solo per la strada. Limiti di tempo, zone con permesso e divieti di pernottamento spesso stanno uno accanto all’altro, e valgono tutti insieme."
           ],
           "tips": [
-            "Aree di sosta: fino a 24 ore",
-            "Nei paesi dell’interno spesso si può",
-            "Al roadhouse chiedi, non dare per scontato"
+            "Alcuni comuni della costa multano",
+            "Northern Midlands: 48 ore, solo veicoli self-contained",
+            "Leggi il cartello dello spazio esatto"
           ]
         },
         {
           "heading": "Dormire in auto in sicurezza",
           "body": [
-            "Scegli un posto illuminato, con altri veicoli intorno e facile da lasciare. Se puoi, parcheggia con il muso verso l’uscita, tieni gli oggetti di valore fuori vista e chiudi le portiere a chiave, ma lasciati sempre un modo per uscire in fretta.",
-            "Il ricambio d’aria conta più di quanto si pensi. Un’auto chiusa con dentro persone che dormono diventa presto umida e soffocante, e con il caldo diventa davvero pericolosa. Lascia i finestrini socchiusi, con le zanzariere se le hai.",
-            "Non lasciare mai il motore acceso per l’aria condizionata mentre dormi. I gas di scarico possono entrare nell’abitacolo, e il monossido di carbonio non ha odore: c’è chi è morto proprio così."
+            "Scegli un posto con altri veicoli, un po’ di luce e una via d’uscita facile. Se puoi, parcheggia con il muso verso l’uscita, tieni gli oggetti di valore fuori vista e chiudi le portiere a chiave, lasciandoti sempre un modo per uscire in fretta.",
+            "La ventilazione conta più di quanto si pensi. Un’auto chiusa con delle persone che dormono dentro diventa umida e soffocante in poche ore, e con il caldo diventa pericolosa, quindi apri un po’ i finestrini dietro le zanzariere."
           ],
           "tips": [
-            "Muso verso l’uscita, via di fuga libera",
-            "Fai circolare l’aria, non chiuderti dentro ermeticamente",
-            "Mai il motore acceso mentre dormi"
+            "Parcheggia con il muso verso l’uscita",
+            "Ventila dietro le zanzariere",
+            "Tieni gli oggetti di valore fuori vista"
           ]
         },
         {
-          "heading": "Caldo, freddo e limiti pratici",
+          "heading": "Monossido di carbonio, caldo e freddo",
           "body": [
-            "D’estate in Australia dormire in un’auto senza ricambio d’aria non è solo scomodo: è pericoloso. Al nord la temperatura nell’abitacolo sale in fretta e resta alta tutta la notte, ed è questo il motivo pratico principale per non farlo.",
-            "In inverno, nell’interno e in montagna, di notte si scende sotto zero e un’auto non isola quasi per niente. Un buon sacco a pelo adatto alle temperature conta più in auto che in tenda.",
-            "Se lo fai spesso, un set di oscuranti per i finestrini, le zanzariere e un materasso decente cambiano tutto. Senza, per una notte va bene, ma nell’arco di una settimana diventa un supplizio."
+            "Non tenere mai il motore acceso per riscaldare o raffreddare mentre dormi, e non portare mai dentro una stufa, un fornello o un barbecue a gas. L’ente per la sicurezza del gas del <a data-guide=\"camping-rules-western-australia\">Western Australia</a> avverte che gli apparecchi a gas portatili da esterno non vanno mai usati dentro una tenda, in uno spazio semichiuso, in una roulotte, in un camper o al chiuso, per il rischio di intossicazione da monossido di carbonio.",
+            "Il caldo estivo è il principale limite pratico del dormire in auto. Gli abitacoli si scaldano in fretta dopo l’alba e di notte restano caldi nel nord, quindi parti presto o scegli una piazzola con corrente e ombra.",
+            "Nell’interno e in montagna in inverno di notte si scende sotto zero e un’auto trattiene poco calore. Un sacco a pelo adatto alle condizioni conta più in un veicolo che in una tenda."
           ],
           "tips": [
-            "Al nord l’auto resta rovente anche di notte",
-            "D’inverno l’auto non isola quasi per niente",
-            "Zanzariere e oscuranti cambiano tutto"
+            "Mai il motore acceso mentre dormi",
+            "Niente apparecchi a gas dentro",
+            "Scegli un sacco a pelo adatto al gelo"
           ]
         },
         {
           "heading": "Rendere l’auto vivibile per una notte",
           "body": [
-            "Con oscuranti, zanzariere e un vero materasso, dormire in auto smette di essere una prova di resistenza e diventa qualcosa che puoi ripetere. Senza, regge per una notte e dopo una settimana è un tormento.",
-            "Il terreno in piano conta più di quanto sembri: una leggera pendenza che da parcheggiato non noti diventa evidente appena ti sdrai. Spesso basta girare il veicolo dall’altra parte per risolvere.",
-            "Per i viaggi più lunghi, un piccolo van o una station wagon con i sedili abbattuti offre molto più spazio utile di una berlina, e a noleggio costa appena qualcosa in più.",
-            "Con il caldo dell’estate australiana, di notte un’auto senza ricambio d’aria diventa davvero pericolosa: è questo, più di qualsiasi regolamento locale, il vero limite di questa soluzione."
+            "Oscuranti per i finestrini, zanzariere e un vero materasso trasformano una notte scomoda in qualcosa che puoi ripetere per una settimana. Senza, funziona una volta e stanca in fretta.",
+            "Il terreno in piano conta più di quanto sembri, perché una pendenza che da parcheggiato non noti diventa evidente quando sei sdraiato. Spesso basta girare l’auto dall’altra parte per risolvere.",
+            "Per un viaggio più lungo, un piccolo van o una station wagon con i sedili abbattuti offre molto più spazio di una berlina."
           ],
           "tips": [
-            "Zanzariere e oscuranti fanno la differenza",
-            "Da sdraiato la pendenza si sente",
-            "Per la pendenza spesso basta girare l’auto"
+            "Prima oscuranti e zanzariere",
+            "Controlla la pendenza prima di dormire",
+            "Una station wagon batte una berlina"
+          ]
+        },
+        {
+          "heading": "Dove è più facile trovare una notte legale",
+          "body": [
+            "Le State Forest sono l’opzione gratuita più semplice nel <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> e in Victoria, dove il campeggio è in genere ammesso rispettivamente fino a quattro settimane e a 28 notti consecutive. Le foreste del NSW non ammettono il campeggio nelle aree picnic, e in Victoria devi campeggiare ad almeno 20 metri dai corsi d’acqua.",
+            "Il South Australia ammette il campeggio sulle Crown land (terreni demaniali) fino a 21 giorni senza autorizzazione, mentre il Western Australia si aspetta che tu usi un <a data-guide=\"caravan-park-vs-holiday-park\">caravan park</a> con licenza, un campeggio o un’area di sosta segnalata, a meno che tu abbia un’autorizzazione.",
+            "Nel dubbio, un campeggio essenziale o uno showground (l’area delle fiere agricole, spesso aperta ai camper) costa poco e toglie ogni dubbio. Arriva prima che faccia buio, così puoi leggere i cartelli e controllare l’accesso per il tuo veicolo."
+          ],
+          "tips": [
+            "Foreste: gratis nel NSW e in Victoria",
+            "Crown land del SA: 21 giorni",
+            "Arriva prima che faccia buio"
           ]
         }
       ],
       "faq": [
         [
           "È legale dormire in auto in Australia?",
-          "Dipende tutto da dove è parcheggiata l’auto. Dormire in un veicolo non è di per sé un’infrazione, ma campeggiare in un veicolo dove il comune lo vieta sì, e il divieto riguarda la maggior parte delle strade urbane, dei parcheggi sulla spiaggia e delle riserve costiere."
+          "Sì, dove il campeggio è consentito: campeggi prenotati, State Forest che ammettono il campeggio e aree di sosta le cui regole o i cui cartelli consentono una sosta notturna. Molti comuni considerano campeggio anche dormire in un’auto parcheggiata e lo multano in strade, spiagge e parcheggi, come i 300 $ di multa immediata del Surf Coast Shire."
         ],
         [
-          "Dove puoi dormire legalmente in auto per la notte?",
-          "Nelle aree di sosta designate che ammettono la sosta notturna, nei campeggi e nei caravan park, e nei comuni il cui regolamento lo consente. Roadhouse e alcuni parcheggi dei pub lo permettono previo accordo: meglio chiedere che dare per scontato."
+          "Si può dormire in auto in un parco nazionale?",
+          "Solo dove il parco ammette il campeggio, il che di solito significa un campeggio designato prenotato in anticipo. Un’auto lasciata per la notte in un’area di sosta diurna o all’inizio di un sentiero conta come campeggio senza permesso."
         ]
       ],
-      "sources": [],
+      "sources": [
+        {
+          "label": "Aree di sosta del Queensland"
+        },
+        {
+          "label": "Main Roads WA: guidare su lunghe distanze"
+        },
+        {
+          "label": "Campeggiare fuori dai caravan park nel WA"
+        },
+        {
+          "label": "Aree di sosta stradali del NT"
+        },
+        {
+          "label": "Service NSW: trovare le aree di sosta"
+        },
+        {
+          "label": "Nota operativa sui caravan park e sui campeggi del NSW, luglio 2026"
+        },
+        {
+          "label": "Surf Coast Shire: parcheggio"
+        },
+        {
+          "label": "Cairns Regional Council: campeggio"
+        },
+        {
+          "label": "Queensland Parks: prenotazioni del campeggio"
+        },
+        {
+          "label": "Campeggio libero nell’Alpine National Park"
+        },
+        {
+          "label": "Northern Midlands Council: cittadine accoglienti per i camper"
+        },
+        {
+          "label": "Building and Energy del Western Australia: campeggiare in sicurezza con il gas"
+        },
+        {
+          "label": "NSW National Parks and Wildlife Regulation 2019"
+        },
+        {
+          "label": "Forestry Corporation of NSW: campeggio"
+        },
+        {
+          "label": "Governo di Victoria: campeggio nelle State Forest"
+        },
+        {
+          "label": "Accesso alle Crown land del South Australia"
+        },
+        {
+          "label": "Queensland: regole delle aree di sosta (generatori)"
+        },
+        {
+          "label": "NT Parks Visitor Pass"
+        }
+      ],
       "priceTable": null
     },
     "driving-in-australia-overseas-licence": {
@@ -1249,24 +1510,71 @@
     },
     "caravan-park-vs-holiday-park": {
       "title": "Caravan park, holiday park o campeggio: quale scegliere",
-      "description": "Caravan park, holiday park o campeggio: per ogni notte scegli il giusto mix di servizi, prezzo e atmosfera.",
+      "description": "Caravan park, holiday park o campeggio: chi li gestisce, quali servizi offrono, regole di prenotazione e tariffe 2026 dei parchi nazionali, in un’unica tabella di confronto.",
       "region": "Australia",
       "imageAlt": "Caravan park accanto a una spiaggia australiana",
-      "intro": "I nomi si sovrappongono, ma l’esperienza può essere molto diversa. Scegli dove dormire in base a ciò che ti serve quella notte, invece di cercare lo stesso tipo di posto per tutto il viaggio.",
+      "intro": "Caravan park (campeggio attrezzato con piazzole e bungalow) e holiday park (campeggio-villaggio con bungalow, piscina e servizi) sono più o meno la stessa cosa: parchi commerciali con piazzole con corrente, servizi e di solito bungalow, con gli holiday park più orientati a piscine, parchi giochi e servizi per le famiglie. Un campeggio in un parco nazionale o in una State Forest (foresta demaniale) rinuncia a quei servizi in cambio dell’ambientazione e di una tariffa più bassa o nulla. Scegli la sistemazione in base a ciò che serve al viaggio quella notte, senza usare lo stesso tipo per tutto il percorso.",
       "sections": [
         {
-          "heading": "Caravan park e holiday park",
+          "heading": "Caravan park o holiday park: cosa significano i nomi",
           "body": [
-            "I caravan park (campeggi attrezzati con piazzole e bungalow) puntano soprattutto sulle piazzole, con e senza corrente, sui servizi igienici e sull’accesso per i mezzi. Gli holiday park somigliano di più a un campeggio-villaggio: spesso aggiungono piscine, parchi giochi, bungalow e un’atmosfera più da resort.",
-            "Chiedi quanto è lunga la piazzola e che fondo ha, com’è l’allaccio elettrico, a che ora si fa il check-in e se i servizi sono aperti solo in certe stagioni."
+            "I due nomi si sovrappongono e i gestori li usano alla leggera. Entrambi indicano un parco commerciale con piazzole con e senza corrente, blocchi servizi e di solito bungalow; holiday park tende a indicare più servizi per le famiglie, come piscina, parco giochi o attività, e spesso più bungalow.",
+            "La differenza più grande è tra parchi commerciali e campeggi pubblici. I parchi vendono servizi, corrente e comodità, mentre i campeggi dei parchi nazionali e delle foreste vendono il luogo e lasciano a te la maggior parte dei servizi."
           ],
-          "tips": []
+          "tips": [],
+          "table": {
+            "caption": "Caravan park, holiday park e campeggio a confronto",
+            "head": [
+              "Tipo di sistemazione",
+              "Chi lo gestisce",
+              "Cosa trovi di solito",
+              "Prenotazione",
+              "In AussieCamps"
+            ],
+            "rows": [
+              [
+                "Holiday park",
+                "Operatore commerciale",
+                "Piazzole con corrente, bungalow, servizi, spesso piscina e parco giochi",
+                "Prenota in anticipo; soggiorno minimo in alta stagione",
+                "Parchi partner da sfogliare e prenotare gratis"
+              ],
+              [
+                "Caravan park",
+                "Operatore commerciale o comune",
+                "Piazzole con e senza corrente, servizi, lavanderia, spesso bungalow",
+                "Prenota in anticipo in alta stagione",
+                "Parchi partner da sfogliare e prenotare gratis"
+              ],
+              [
+                "Campeggio di un parco nazionale",
+                "Ente statale dei parchi",
+                "Bagni nella maggior parte delle piazzole; acqua o docce in alcune; raramente corrente",
+                "Prenotazione o permesso nella maggior parte degli stati",
+                "Serve il Pass"
+              ],
+              [
+                "Campeggio di una State Forest",
+                "Ente statale delle foreste",
+                "Servizi essenziali o nessuno",
+                "Spesso in ordine di arrivo; le State Forest del Queensland richiedono un permesso prenotato",
+                "Serve il Pass"
+              ],
+              [
+                "Area di sosta lungo la strada",
+                "Ente stradale",
+                "Parcheggio, bagni in alcune",
+                "Nessuna prenotazione; valgono limiti di tempo",
+                "Serve il Pass"
+              ]
+            ]
+          }
         },
         {
           "heading": "Campeggi nel bush",
           "body": [
-            "Nei campeggi dei parchi nazionali e delle foreste si rinuncia ai servizi in cambio della posizione. I bagni possono essere essenziali, l’acqua non trattata o assente, e i generatori possono essere soggetti a limiti.",
-            "Prima di imboccare la strada controlla l’accesso e la prenotazione. Una tariffa più bassa può costarti di più se il posto non va bene per il tuo mezzo o la tua attrezzatura."
+            "I campeggi dei parchi nazionali e delle foreste rinunciano ai servizi in cambio della posizione. I bagni possono essere essenziali, l’acqua non trattata o assente, la corrente è rara e i generatori sono spesso limitati.",
+            "Costano anche meno. Nel 2026 il <a data-guide=\"camping-rules-queensland\">Queensland</a> chiede 7,75 $ a persona a notte, i parchi del Western Australia da 10 a 20 $ a adulto, e le piazzole prenotabili di Victoria partono da 16 $ a notte, mentre nella maggior parte delle State Forest del NSW il campeggio è gratuito. Controlla accesso stradale e prenotazione prima di partire."
           ],
           "tips": [
             "Serve la corrente?",
@@ -1284,24 +1592,23 @@
           "tips": []
         },
         {
-          "heading": "Cosa vogliono dire davvero i nomi",
+          "heading": "Giudica da cosa offre, non dal nome",
           "body": [
-            "In Australia i due termini sono in gran parte intercambiabili e indicano la stessa cosa: una struttura privata con piazzole con e senza corrente, blocchi servizi e di solito bungalow. «Holiday park» tende a segnalare più servizi pensati per le famiglie.",
-            "Conta quello che offre, non il nome: se le piazzole hanno la corrente, se i servizi sono moderni, se ci sono cucina comune, lavanderia, piscina e <a data-guide=\"dump-points-australia-guide\">punto di scarico</a>, e quanto sono grandi le piazzole.",
-            "Le catene e le tessere associative offrono sconti sulle tariffe per notte, e in un viaggio lungo l’iscrizione spesso si ripaga da sola. Prima, però, controlla se l’automobile club del tuo Paese ha un accordo di reciprocità."
+            "Conta quello che offre, non il nome: se le piazzole hanno la corrente, quanto sono moderni i servizi e se ci sono cucina comune, lavanderia, piscina o <a data-guide=\"dump-points-australia-guide\">punto di scarico</a>, oltre alle dimensioni delle piazzole per il tuo mezzo.",
+            "Alcune catene di parchi vendono tessere a pagamento con sconti sulle tariffe notturne. Prima di comprarne una, calcola se il risparmio copre il costo per il numero di notti che passerai davvero nei parchi di quella catena."
           ],
           "tips": [
-            "I due nomi vogliono dire più o meno la stessa cosa",
             "Giudica da cosa offre, non dal nome",
-            "Gli sconti per i soci si sommano in fretta"
+            "Controlla le dimensioni della piazzola per il tuo mezzo",
+            "Fai il conto della tessera"
           ]
         },
         {
           "heading": "Quando conviene ciascun tipo",
           "body": [
             "Un caravan park o un holiday park vale la spesa dopo diverse notti di <a data-guide=\"is-free-camping-legal-australia\">campeggio libero</a>, prima di una partenza all’alba, con il brutto tempo, o quando bucato, doccia calda, ricariche e acqua vanno sistemati tutti insieme. Se lo confronti con tutto quello che ti risolve, di solito il prezzo è giusto.",
-            "I campeggi dei parchi nazionali e delle aree protette costano meno e ti danno il paesaggio, ma devi essere autosufficiente e di solito non c’è corrente. I campeggi gratuiti e le aree di sosta non costano nulla e non offrono nulla.",
-            "Lo schema su cui finisce per assestarsi la maggior parte di chi fa viaggi lunghi è due o tre notti economiche seguite da una notte con servizi che rimette tutto a posto. È l’equilibrio che tiene in piedi sia il budget sia il mezzo."
+            "I campeggi dei parchi nazionali e delle foreste costano meno e ti danno il paesaggio, ma devi essere autosufficiente e di solito non c’è corrente. Le aree di sosta non costano nulla e offrono poco più di un posto dove fermarsi per un tempo limitato.",
+            "Uno schema comune sui viaggi lunghi è due o tre notti economiche seguite da una notte con servizi che rimette tutto a posto. È l’equilibrio che tiene in piedi sia il budget sia il mezzo."
           ],
           "tips": [
             "Una notte con servizi rimette in sesto tutto il mezzo",
@@ -1312,9 +1619,9 @@
         {
           "heading": "Prenotazioni e alta stagione",
           "body": [
-            "Durante le vacanze scolastiche, a Pasqua e a Natale i caravan park e gli holiday park sulla costa sono al completo con mesi di anticipo, impongono un soggiorno minimo e costano molto di più. Alcuni assegnano i posti a sorteggio o hanno clienti che riprenotano da anni, e per chi prenota la prima volta trovare posto è difficilissimo.",
+            "I parchi della costa durante le vacanze scolastiche, a Pasqua e a Natale vanno esauriti con mesi di anticipo, spesso impongono soggiorni minimi e applicano tariffe di alta stagione. Prenota appena hai fissato le date.",
             "Dichiara con precisione la lunghezza del mezzo, perché le piazzole si assegnano in base alle dimensioni e, se dichiari meno, all’arrivo ti aspetta una conversazione imbarazzante. Di’ se ti serve una piazzola passante (drive-through) o se viaggi con qualcosa al traino.",
-            "Quando prenoti, chiedi come funziona l’arrivo in tarda serata. Quasi tutte le strutture chiudono la reception la sera e lasciano una busta con il codice del cancello, ma devi saperlo prima di trovarti davanti a una sbarra abbassata."
+            "Quando prenoti, chiedi come funziona l’arrivo in tarda serata. Molte strutture chiudono la reception la sera e lasciano una busta con il codice del cancello, ma devi saperlo prima di trovarti davanti a una sbarra abbassata."
           ],
           "tips": [
             "Sulla costa si prenota con mesi di anticipo",
@@ -1340,8 +1647,7 @@
           "body": [
             "Il voto dice meno delle lamentele specifiche. Se tornano spesso critiche sulla pulizia dei servizi, sul rumore della strada, sulle dimensioni delle piazzole o sull’atteggiamento della gestione, sono quelli i segnali di cui tenere conto.",
             "Le foto degli ospiti sono più affidabili di quelle della struttura. Cerca il tipo di piazzola che stai prenotando, non la piscina e il parco giochi, che tutti fotografano bene.",
-            "Se pensi di usare l’aria condizionata, chiedi quanti ampere ha l’allaccio delle piazzole con corrente: alcune strutture più vecchie forniscono meno di quanto assorbe una roulotte moderna.",
-            "Quando prenoti, chiedi come funziona l’arrivo in tarda serata: quasi tutte le strutture chiudono la reception la sera, e trovarsi alle 22 davanti a una sbarra abbassata è un brutto modo di chiudere una giornata di guida."
+            "Se pensi di usare l’aria condizionata, chiedi quanti ampere ha l’allaccio delle piazzole con corrente: alcune strutture più vecchie forniscono meno di quanto assorbe una roulotte moderna."
           ],
           "tips": [
             "Leggi le lamentele, non i voti",
@@ -1352,131 +1658,210 @@
       ],
       "faq": [
         [
-          "Che differenza c’è tra un caravan park e un campeggio in un parco nazionale?",
-          "Un caravan park è una struttura privata con piazzole con corrente, blocchi servizi, lavanderia e di solito bungalow, e si paga a piazzola o a coppia. Un campeggio in un parco nazionale sta su terreno pubblico, ha molti meno servizi, richiede un permesso da prenotare e costa molto meno."
+          "Che differenza c’è tra un caravan park e un holiday park?",
+          "In pratica pochissima: sono entrambi parchi commerciali con piazzole con e senza corrente, servizi e di solito bungalow. Holiday park di solito indica più servizi per le famiglie, come piscina, parco giochi o attività, e spesso più bungalow."
         ],
         [
           "Quando vale la pena pagare un caravan park?",
-          "Quando ti servono corrente, una doccia calda, la lavanderia e fare scorta di tutto, cosa che in un viaggio lungo capita più o meno ogni tre o quattro notti. Nei lunghi trasferimenti sono anche il punto d’appoggio sicuro quando le soluzioni gratuite sono piene."
+          "Quando ti servono insieme corrente, docce calde, lavanderia e rifornimenti, oppure quando le opzioni gratuite o economiche vicine sono piene. Molti viaggiatori sui percorsi lunghi prenotano una notte con servizi dopo due o tre notti nel bush."
         ]
       ],
-      "sources": [],
+      "sources": [
+        {
+          "label": "Dove campeggiare nei parchi del Queensland"
+        },
+        {
+          "label": "Queensland Parks: prenotazioni e tariffe del campeggio"
+        },
+        {
+          "label": "Explore Parks WA: tariffe di campeggio"
+        },
+        {
+          "label": "Parks Victoria: tariffe 2026-27"
+        },
+        {
+          "label": "Forestry Corporation of NSW: campeggio"
+        }
+      ],
       "priceTable": null
     },
     "dump-points-australia-guide": {
-      "title": "Punti di scarico in Australia: come trovarli e usarli",
-      "description": "Punti di scarico in Australia: come svuotare acque nere e grigie in modo legale e pulito, senza bloccare chi arriva dopo di te.",
+      "title": "Punti di scarico in Australia: dove trovarli per stato e come usarli",
+      "description": "Dove trovare i punti di scarico per roulotte e camper in ogni stato, quanti hanno il rubinetto per il risciacquo, come usarli correttamente e cosa fare con le acque grigie.",
       "region": "Australia",
       "imageAlt": "Punto di scarico pubblico per roulotte",
-      "intro": "Le acque reflue vanno in un punto di scarico autorizzato, non in un tombino, nel bush, in spiaggia o nei bagni di un campeggio. Organizza lo scarico prima che il serbatoio sia pieno.",
+      "intro": "Svuota il WC di una roulotte o di un camper solo in un punto di scarico. Si trovano nei caravan park (campeggi attrezzati con piazzole e bungalow), negli showground (l’area delle fiere agricole, spesso aperta ai camper), nelle aree di sosta e nei centri visitatori, e la National Public Toilet Map del governo australiano riporta quelli pubblici con i loro servizi. AussieCamps ne mappa 347 nel New South Wales ma solo 23 nel Northern Territory, quindi sulle tratte remote pianifica il prossimo punto di scarico con la stessa cura del prossimo rifornimento.",
       "sections": [
         {
-          "heading": "Trova un punto adatto al tuo mezzo",
+          "heading": "Punti di scarico per stato",
           "body": [
-            "I punti di scarico pubblici si trovano nei <a data-guide=\"caravan-park-vs-holiday-park\">caravan park</a> (campeggi attrezzati con piazzole e bungalow), negli uffici turistici, negli showground (le aree delle fiere agricole, spesso aperte ai camper) e nelle aree di sosta lungo la strada. Controlla gli orari, se il tuo mezzo ci passa e se serve una chiave o si paga.",
-            "Un punto di scarico può essere chiuso per manutenzione: sui percorsi lunghi tieni sempre un’alternativa."
+            "I numeri qui sotto sono i punti di scarico pubblici della National Public Toilet Map che AussieCamps include, per stato. Anche i <a data-guide=\"caravan-park-vs-holiday-park\">caravan park</a> spesso hanno un proprio punto di scarico, ma sono privati e non sono conteggiati qui.",
+            "Il washout è un rubinetto per sciacquare la cassetta o il tubo dopo lo svuotamento, e ce l’ha solo un punto di scarico su sei circa. Porta con te l’acqua per il risciacquo invece di contare su quel rubinetto."
           ],
-          "tips": []
-        },
-        {
-          "heading": "L’attrezzatura giusta",
-          "body": [
-            "Usa un tubo che non perde e raccordi adatti al tuo veicolo. Metti i guanti, tieni separata l’attrezzatura per l’acqua potabile e non sciacquare mai il tubo di scarico al rubinetto dell’acqua da bere.",
-            "Posiziona il veicolo senza intralciare il passaggio, poi segui la sequenza indicata sul posto."
-          ],
-          "tips": [
-            "Tubo di scarico",
-            "Tubo solo per il risciacquo",
-            "Guanti",
-            "Disinfettante"
-          ]
-        },
-        {
-          "heading": "Lascialo pronto per chi arriva dopo",
-          "body": [
-            "Risciacqua solo come indicato, chiudi i coperchi e pulisci subito se versi qualcosa. Se lo scarico è intasato segnalalo, invece di forzarci dentro altro.",
-            "Non versare mai i prodotti chimici per il WC in un impianto che li vieta."
-          ],
-          "tips": []
+          "tips": [],
+          "table": {
+            "caption": "Punti di scarico pubblici in AussieCamps per stato, dati aggiornati a settembre 2026",
+            "head": [
+              "Stato",
+              "Punti di scarico pubblici",
+              "Con rubinetto di risciacquo (washout)"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "347",
+                "56"
+              ],
+              [
+                "Queensland",
+                "324",
+                "42"
+              ],
+              [
+                "Western Australia",
+                "238",
+                "36"
+              ],
+              [
+                "South Australia",
+                "199",
+                "38"
+              ],
+              [
+                "Victoria",
+                "181",
+                "40"
+              ],
+              [
+                "Tasmania",
+                "80",
+                "14"
+              ],
+              [
+                "Northern Territory",
+                "23",
+                "4"
+              ],
+              [
+                "ACT",
+                "1",
+                "0"
+              ]
+            ]
+          }
         },
         {
           "heading": "Trovarne uno prima che serva",
           "body": [
-            "I punti di scarico sono molto diffusi: nei <a data-guide=\"caravan-park-vs-holiday-park\">caravan park</a>, nelle strutture comunali, ai distributori, nelle aree di sosta e negli uffici turistici, e quasi tutti sono gratuiti o costano poco. L’abitudine che evita i guai è individuare il prossimo sul percorso, invece di cercarne uno quando il serbatoio è già pieno.",
-            "Spesso i caravan park lasciano usare il punto di scarico anche a chi non è ospite, con un piccolo contributo: buono a sapersi su una lunga tratta isolata. Alcuni chiudono di notte, quindi arrivare tardi con la cassetta del WC piena è un errore di programmazione.",
-            "Nelle zone remote i punti di scarico sono molto distanti tra loro e alcuni paesi non ne hanno neanche uno. Sulle strade dell’outback organizza la sosta per lo scarico con la stessa cura del rifornimento."
+            "L’abitudine che evita i problemi è sapere dov’è il prossimo punto di scarico prima che il serbatoio sia quasi pieno. Controlla orari di accesso, altezza libera del veicolo e se servono chiave, codice o pagamento, perché alcuni di notte sono chiusi.",
+            "Nel nord e nell’outback le distanze sono lunghe e un punto di scarico può essere chiuso per manutenzione. Tieni una seconda opzione su ogni tratta remota e chiedi alla reception di un <a data-guide=\"caravan-park-vs-holiday-park\">caravan park</a> se chi non alloggia lì può usare il loro."
           ],
           "tips": [
             "Individua prima il prossimo punto",
-            "Nei caravan park spesso si scarica anche senza dormirci, a pagamento",
-            "Nelle zone remote possono esserci centinaia di km tra un punto e l’altro"
+            "Controlla orari, chiavi e costi",
+            "Tieni un’alternativa sulle tratte remote"
+          ]
+        },
+        {
+          "heading": "L’attrezzatura giusta",
+          "body": [
+            "Usa un tubo ben fissato e raccordi adatti al veicolo, metti i guanti e tieni completamente separata l’attrezzatura per l’acqua potabile. Non usare mai il rubinetto dell’acqua da bere per sciacquare un tubo di scarico.",
+            "Porta guanti usa e getta e gel igienizzante insieme all’attrezzatura per i rifiuti, perché ai punti di scarico non sempre c’è un posto dove lavarsi le mani."
+          ],
+          "tips": [
+            "Tubo di scarico e raccordi",
+            "Guanti e gel igienizzante",
+            "Un tubo separato per il risciacquo"
           ]
         },
         {
           "heading": "Come usarlo nel modo giusto",
           "body": [
-            "Parcheggia in modo che gli altri possano passare, perché spesso ai punti di scarico si accede da un’unica corsia. Scarica prima le acque nere, risciacqua, poi le grigie, e alla fine dai una sciacquata all’area invece di lasciarla a chi arriva dopo.",
-            "Tieni il tubo dell’<a data-guide=\"camping-water-planning\">acqua potabile</a> completamente separato da tutto quello che usi allo scarico, e non riempire mai il serbatoio delle acque chiare da un rubinetto del punto di scarico se non è indicato chiaramente come potabile. Lavati le mani prima di toccare qualsiasi cosa nel veicolo.",
-            "Usa solo prodotti chimici compatibili con l’impianto che li riceve. Molti punti di scarico in campagna finiscono in fosse settiche, e i prodotti aggressivi a base di formaldeide danneggiano il processo biologico che le fa funzionare."
+            "Parcheggia in modo che gli altri possano passare, perché molti punti di scarico si trovano su un’unica corsia di accesso. Svuota prima le acque nere, risciacqua, poi le grigie, e alla fine dai una sciacquata all’area invece di lasciarla a chi arriva dopo.",
+            "Non riempire mai il serbatoio dell’acqua da un rubinetto di un punto di scarico, a meno che sia indicato chiaramente come <a data-guide=\"camping-water-planning\">acqua potabile</a>, e lavati le mani prima di toccare qualsiasi cosa nel veicolo.",
+            "Usa prodotti per il WC che l’impianto ricevente sia in grado di gestire. Alcuni punti di scarico in campagna finiscono in fosse settiche, e i prodotti aggressivi possono danneggiare il processo biologico che le fa funzionare."
           ],
           "tips": [
-            "Prima le nere, poi risciacquo, poi le grigie",
-            "Tubi sempre separati",
+            "Prima le nere, poi le grigie",
+            "Mai riempire l’acqua potabile lì",
             "Prodotti adatti alle fosse settiche"
-          ]
-        },
-        {
-          "heading": "Cosa non fare e cosa rischi",
-          "body": [
-            "Svuotare in un tombino delle acque piovane significa scaricare direttamente nei corsi d’acqua, senza alcun trattamento. I bagni pubblici non sono fatti per il contenuto di una cassetta e si intasano. Svuotare sul terreno o nel bush è l’infrazione punita con le multe più alte.",
-            "Le sanzioni per lo scarico abusivo di reflui sono molto più alte delle normali multe legate al campeggio e possono arrivare a migliaia di dollari; in diversi stati si applicano anche le leggi sulla tutela dell’ambiente.",
-            "È anche il comportamento che più facilmente fa chiudere per sempre un’area di <a data-guide=\"is-free-camping-legal-australia\">campeggio libero</a>. Il comune scatta le foto, i residenti segnalano e l’area chiude per tutti."
-          ],
-          "tips": [
-            "I tombini finiscono dritti nei corsi d’acqua",
-            "Multe fino a migliaia di dollari",
-            "Fa chiudere per sempre le aree gratuite"
-          ]
-        },
-        {
-          "heading": "Farne un’abitudine",
-          "body": [
-            "Chi non ha mai problemi con gli scarichi svuota a intervalli regolari e non quando è costretto, di solito ogni volta che passa da un punto di scarico con i serbatoi pieni oltre la metà. Questa sola abitudine elimina quasi tutte le situazioni imbarazzanti.",
-            "Ragiona in giorni, non in litri: quanto ti dura l’acqua pulita, dopo quanto vanno svuotate le grigie, quanti giorni regge il WC con il numero di persone a bordo. Sono questi numeri a dirti quanto a lungo puoi stare lontano dai servizi.",
-            "Se il tuo mezzo lo permette, porta una cassetta di scorta: sulle tratte isolate raddoppia di fatto l’autonomia e costa pochissimo."
-          ],
-          "tips": [
-            "Svuota a intervalli regolari, non all’ultimo",
-            "Autonomia in giorni, non in litri",
-            "Una cassetta di scorta raddoppia l’autonomia"
           ]
         },
         {
           "heading": "Cassetta o serbatoio fisso",
           "body": [
-            "Il WC a cassetta si porta a mano fino al punto di scarico: non devi spostare il veicolo e, dove i cartelli lo consentono, puoi svuotarlo anche nei bagni pubblici predisposti.",
-            "Con un serbatoio fisso per le acque nere devi guidare fino al punto di scarico e posizionarti sopra. È una differenza che conta quando scegli il mezzo, perché la cassetta ti dà più libertà in città e nei punti affollati.",
-            "Tieni guanti usa e getta e gel igienizzante insieme all’attrezzatura per lo scarico, perché ai punti di scarico non sempre c’è un posto dove lavarsi le mani.",
-            "Alcuni punti di scarico chiudono di notte: arrivare tardi con i serbatoi pieni è un errore di programmazione, non sfortuna."
+            "Una cassetta del WC si può portare al punto di scarico, così puoi svuotarla senza spostare il veicolo. Alcuni punti di scarico sono integrati nei blocchi dei bagni pubblici e indicati sulla Toilet Map, ma svuota una cassetta solo in un WC o in un punto di scarico segnalato per quell’uso.",
+            "Con un serbatoio delle acque nere fisso devi andare al punto di scarico e posizionarti sopra, il che conta nelle strutture affollate e nelle città con accessi stretti.",
+            "Se il tuo mezzo lo permette, una cassetta di scorta più o meno raddoppia il tempo in cui puoi stare lontano da un punto di scarico su una tratta remota."
           ],
           "tips": [
-            "La cassetta si porta a mano fino allo scarico",
-            "Con il serbatoio fisso devi spostare il mezzo",
-            "In città la cassetta è più comoda"
+            "La cassetta si porta fino al punto",
+            "Il serbatoio fisso richiede il veicolo sul posto",
+            "Mai usare un WC qualsiasi"
+          ]
+        },
+        {
+          "heading": "Acque grigie",
+          "body": [
+            "Le acque grigie di docce e lavelli vanno in un punto di scarico o dove indica il campeggio, non a terra accanto al van. Le regole cambiano in base a chi gestisce il terreno, quindi leggi la pagina del campeggio.",
+            "Dove campeggi senza servizi, le regole delle State Forest di <a data-guide=\"camping-rules-victoria\">Victoria</a> indicano lo standard: versa l’acqua dei piatti ad almeno 50 metri da fiumi e torrenti e scava le buche per i bisogni profonde almeno 30 cm e a 100 metri da qualsiasi corso d’acqua."
+          ],
+          "tips": [
+            "Segui la regola del campeggio",
+            "Acqua dei piatti a 50 m dai torrenti",
+            "Mai scaricare sulle spiagge"
+          ]
+        },
+        {
+          "heading": "Cosa non fare e cosa rischi",
+          "body": [
+            "I tombini delle acque meteoriche finiscono direttamente nei corsi d’acqua senza alcun trattamento, e scaricare a terra o nel bush è un reato di inquinamento secondo la legge ambientale dello stato.",
+            "Il <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> ha inasprito le pene per gli scarichi abusivi nell’aprile 2024, con un reato specifico per lo scarico di più di 50 litri di rifiuti in un luogo pubblico e pene più pesanti nelle zone sensibili come parchi nazionali e spiagge.",
+            "Gli scarichi abusivi portano anche alla chiusura delle aree di <a data-guide=\"is-free-camping-legal-australia\">campeggio libero</a>. I residenti segnalano, i comuni intervengono e l’area chiude per tutti."
+          ],
+          "tips": [
+            "I tombini finiscono dritti nei corsi d’acqua",
+            "Oltre 50 litri è un reato specifico nel NSW",
+            "Gli scarichi abusivi fanno chiudere i campeggi liberi"
+          ]
+        },
+        {
+          "heading": "Farne un’abitudine",
+          "body": [
+            "Molti viaggiatori svuotano a intervalli regolari, di solito ogni volta che passano da un punto di scarico con i serbatoi pieni per più di metà, invece di aspettare che sia l’indicatore a costringerli.",
+            "Ragiona in giorni e non in litri: quanto dura l’acqua pulita, quando le acque grigie richiedono attenzione e quanti giorni regge il WC per il tuo gruppo. Sono questi numeri a dirti quanto lontano dai servizi puoi spingerti."
+          ],
+          "tips": [
+            "Svuota a intervalli regolari, non all’ultimo",
+            "Autonomia in giorni",
+            "Metà pieno è il segnale"
           ]
         }
       ],
       "faq": [
         [
           "Dove si svuota il WC della roulotte in Australia?",
-          "In un punto di scarico pubblico, quasi sempre gestito dal comune e situato in showground, campi sportivi e roadhouse (stazioni di servizio isolate con bar e spesso camere), oppure in un caravan park. Svuotarlo altrove, anche in un bagno pubblico, è illegale e comporta multe salate."
+          "Al punto di scarico. Quelli pubblici si trovano negli showground, nelle aree di sosta, nei centri visitatori e nei roadhouse e sono elencati nella National Public Toilet Map, e molti caravan park ne hanno uno proprio. Non usare mai uno scarico stradale o il terreno, e usa un WC solo dove un cartello indica che si può svuotare la cassetta."
         ],
         [
           "In Australia si possono scaricare le acque grigie a terra?",
-          "Dipende da dove sei, e sempre meno spesso. Alcuni comuni nelle zone remote permettono ancora di disperderle a terra, ma nella maggior parte delle zone abitate e costiere le grigie vanno portate a un punto di scarico, e nei parchi nazionali è vietato del tutto."
+          "In genere no. Le acque grigie vanno in un punto di scarico o dove indica il campeggio, e dove non ci sono servizi lo standard delle State Forest di Victoria è versare l’acqua dei piatti ad almeno 50 metri dai corsi d’acqua."
         ]
       ],
-      "sources": [],
+      "sources": [
+        {
+          "label": "National Public Toilet Map"
+        },
+        {
+          "label": "Campeggio nelle State Forest di Victoria"
+        },
+        {
+          "label": "NSW EPA: regolamentazione e sanzioni più severe"
+        },
+        {
+          "label": "NSW EPA: leggi e sanzioni sugli scarichi abusivi"
+        }
+      ],
       "priceTable": null
     },
     "camping-water-planning": {
