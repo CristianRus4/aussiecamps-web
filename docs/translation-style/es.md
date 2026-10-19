@@ -247,16 +247,17 @@ label is a mistranslation (marked ✗; use the fix).
   «el DOC (Department of Conservation, el organismo público que gestiona los parques y espacios
   protegidos de Nueva Zelanda)», «NPWS (el servicio de parques nacionales de New South Wales)»,
   «Parks Victoria», «Waka Kotahi», «MPI», «Home Affairs», «Immigration New Zealand».
-- Protected place names (the engine rejects anything else): the Australian states and territories
-  **New South Wales, Victoria, Queensland, South Australia, Western Australia, Tasmania, Northern
-  Territory, Australian Capital Territory, Central Australia**, and NZ's **North Island, South
-  Island, Stewart Island, Aotearoa, Aoraki**. Use them with the Spanish article and gender of the
-  Spanish noun: «en New South Wales», «el Northern Territory», «la North Island», «la South
-  Island». Where the page is about that state or island, add the Spanish exonym once in the
-  intro or first mention: «New South Wales (Nueva Gales del Sur)», «Western Australia (Australia
-  Occidental)», «South Australia (Australia Meridional)», «Northern Territory (Territorio del
-  Norte)», «la North Island (Isla Norte)», «la South Island (Isla Sur)». Adjectives are not protected:
-  «los parques de Australia Occidental» is fine where the English says «Western Australian parks».
+- Australian states and territories use the natural Spanish forms (AussieCamps catalog; the es
+  glossary enforces them): **Nueva Gales del Sur, Australia Meridional, Australia Occidental,
+  Territorio del Norte, Territorio de la Capital Australiana**; Queensland, Victoria and Tasmania
+  stay as they are. Central Australia is «el centro de Australia» (the Red Centre
+  where the English says so). On state-rules pages, give the English official name once in parentheses
+  where the reader needs it to match signs or official sites: «Australia Occidental (Western
+  Australia)», «Territorio del Norte (Northern Territory)». Agency and park-service names keep
+  their English form with a short gloss on first use.
+- NZ protected place names (KiwiCamping catalog, until it gets the same treatment): **North Island,
+  South Island, Stewart Island, Aotearoa, Aoraki**; use them with the Spanish article and gender
+  («la North Island (Isla Norte)» on first mention).
 - Other place names stay as on the map and the signs (Great Ocean Road, Cape York, Bay of Islands,
   West Coast, Coromandel, Milford Sound / Piopiotahi). Established Spanish exonyms are fine where
   they exist: **Australia, Nueva Zelanda, Sídney, Tasmania, la Gran Barrera de Coral** («Great
