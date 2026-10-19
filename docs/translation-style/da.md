@@ -201,6 +201,27 @@ mistranslation (listed here with the replacement). Labels go in »…«.
 | Calendar (Apple app) | **Kalender** | |
 | settings | **Indstillinger** | Indstillinger |
 
+### Settled in review
+
+| English | Danish | Notes |
+|---|---|---|
+| biosecurity / border officer | **kontrollant** | Never "betjent", which reads as police. |
+| warden (DOC) | **opsynsmand** | |
+| public conservation land | **statens naturområder** | "forvaltet af DOC" on first use. |
+| Campsite Pass, Backcountry Hut Pass, parks pass | official name kept; generic: **parkpas**, **periodekort** | Never a bare "pas", which Danes read as a passport. |
+| Serviced / Standard / Basic / Great Walk huts | **Serviced-hytter**, **Standard-hytter**, **Basic-hytter**, **Great Walk-hytter** | Never "betjente hytter": the huts have no staff. |
+| keep the confirmation offline | **hav bekræftelsen klar, så den kan vises uden net** | |
+| fare cap; transport card; tag on/off | **prisloft**; **rejsekort**; **checke ind/ud** | Rejsekort wording Danes know. |
+| rideshare | **kørselstjeneste via app** | Not "samkørsel" (carpooling); no brand unless the English names one. |
+| BAC 0.05 | **0,05 (0,5 promille)** | Promille gloss once per page. |
+| standard drink | **standarddrink** | Not "genstand" (Danish 12 g vs Australian 10 g). |
+| bottle shop | **bottle shop (vinhandel)** | Gloss once. |
+| award wage; corkage | **overenskomstløn (award wage)**; **proppenge** | |
+| shire (AU) | **shire (landkommune)** | Gloss once. |
+| honesty box | **tillidskasse (honesty box)** | |
+| boil-water notice | **kogeanbefaling** | |
+| times | **kl. 22**, **kl. 16** | 24-hour clock. |
+
 ## 3. Conventions
 
 - **Numbers:** full stop for thousands, comma for decimals: 74.000, 6.500, 2,08. "74,000+" is "over
