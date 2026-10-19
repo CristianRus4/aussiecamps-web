@@ -43,7 +43,7 @@ export function HubIndex({ section }: { section: HubSection }) {
             <section className="sources">
               <h2>By state</h2>
               <ul>{hubs.map((hub) => <li key={hub.id}><Link href={hubPath(hub)}>{hub.name}<span className="hub-count">{number(hub.placeCount)} {copy.many}</span><ArrowRight /></Link></li>)}</ul>
-              {unlinked.length > 0 && <p>The app also lists {unlinked.map((hub) => `${number(hub.placeCount)} in ${hub.stateName}`).join(", ")}. Those states do not have a page here yet because the data for them is still too thin to say much beyond the count.</p>}
+              {unlinked.length > 0 && <p>The app also lists {unlinked.map((hub) => `${number(hub.placeCount)} in ${hub.stateName}`).join(", ")}. Those states are not covered in depth here yet; the app has every place.</p>}
             </section>
             {parks.length > 0 && <section className="sources">
               <h2>Parks with their own page</h2>

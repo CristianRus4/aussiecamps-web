@@ -20,7 +20,7 @@ export const ctaPlacements = ["hdr", "hero", "card", "stick", "foot", "inl", "to
 export type CtaPlacement = (typeof ctaPlacements)[number];
 
 /** Apple truncates longer campaign tokens, which would merge distinct placements in the report. */
-export const CAMPAIGN_TOKEN_MAX = 40;
+export const CAMPAIGN_TOKEN_MAX = 30; // App Store Connect limit for ct
 export const campaignTokenPattern = /^w_[a-z]+_[a-z-]+$/;
 
 /** `w_<placement>_<locale>`. English is `en`; other locales use their code (`de`, `zh-hans`). */

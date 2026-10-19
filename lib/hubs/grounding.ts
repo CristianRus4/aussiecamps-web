@@ -20,6 +20,7 @@ export const numbersIn = (text: string) => (text.match(/\d[\d,]*(?:\.\d+)?/g) ??
 
 export function groundingIssues(hub: GroundingHub, paragraphs: string[], sources: Map<string, GroundingSource>, dataAsOf: string, allProse: string[]): string[] {
   const issues: string[] = [];
+  for (const key of hub.sources) if (!sources.has(key)) issues.push(`${hub.id}: unknown source "${key}"`);
   const cited = hub.sources.map((key) => sources.get(key)).filter((source) => !!source).map((source) => `${source!.operator} ${source!.short} ${source!.url}`);
   const asOf = new Date(`${dataAsOf}T00:00:00Z`);
   const record = [JSON.stringify(hub), ...cited, `Camping rules in ${hub.stateName}`, dataAsOf,
