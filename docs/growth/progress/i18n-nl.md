@@ -11,7 +11,7 @@ Dutch (nl) on both sites. Branches: `i18n/a-nl` (aussiecamps-web), `i18n/k-nl` (
 - [x] UI, support, privacy, terms rewritten on both sites (handoff 1, merged). Judge 4.45 (AU) / 4.4 (NZ); every failing unit fixed.
 - [x] Privacy rebuilt for the 7-section English page (GA4 section), consent namespace translated (both sites).
 - [x] AU guides: camping rules for 7 states/territories (NSW, VIC, WA, SA, QLD, ACT, TAS; NT in progress), dump points, sleeping in your car, drink, eating-out, grocery, public transport and domestic flight prices, travel cost, interstate biosecurity, towing a caravan, fuel cost, best time to camp, caravan park vs holiday park, road rules by state, camping fees.
-- [x] NZ guides: grocery prices, DOC huts, DOC campsite rules, campervan road rules, speed limits, fuel cost, public transport, towing a caravan, travel cost, biosecurity, eating out, road signs, domestic flights, WoF and registration, accommodation costs, volcanic safety, beer/wine/coffee prices, camping with dogs.
+- [x] NZ guides: grocery prices, DOC huts, DOC campsite rules, campervan road rules, speed limits, fuel cost, public transport, towing a caravan, travel cost, biosecurity, eating out, road signs, domestic flights, WoF and registration, accommodation costs, volcanic safety, beer/wine/coffee prices, camping with dogs, Cook Strait ferry, bus/ferry/train costs, sandflies, overseas driver licence.
 
 ## In progress
 - Full rewrite pass, every unit, both repos. Order: UI, support/privacy/terms, guides by English impressions (pages-3m.tsv).
@@ -58,3 +58,6 @@ Dutch (nl) on both sites. Branches: `i18n/a-nl` (aussiecamps-web), `i18n/k-nl` (
 - (NZ) accommodation-costs-new-zealand-2026 faq[0][1] promises dated motel prices; the table has no motel row.
 - best-time-camping-australia faq[0][1] gives the northern dry season as May to September; the rest of the page says May to October.
 - caravan-park-vs-holiday-park sections[7].body[3] repeats sections[5].body[2]; camping-fees-australia-2026 faq[1][1] writes "holiday pass" in lowercase for the WA/Tasmania Holiday Pass products.
+- (NZ) overseas-driver-licence-new-zealand sections[0].body[0] says 18 months from last arrival until 1 November 2026, then 12 months; sections[3].body[0], sections[3].tips[0], sections[7].body[0] and faq[0][1] give a flat 12 months from arrival. faq[1][1] says "certified English translation" vs "approved translation" in sections[1], and "only if" not in English vs rental companies requiring an IDP anyway (sections[8]). Verify against NZTA.
+- (NZ) bus-ferry-train-costs-new-zealand faq[0][1] promises dated foot-passenger, car and campervan fares; the table has 2026 planning ranges with car and camper in one row.
+- (NZ) sandflies-new-zealand-camping sections[7].body[2] writes Maori and Hine-nui-te-po without macrons (Dutch uses Māori, Hine-nui-te-pō).
