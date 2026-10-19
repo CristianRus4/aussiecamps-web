@@ -14,7 +14,9 @@ Read this before starting any thread task in the growth push. The plan itself is
 | Ava | K-content | kiwicamping-web | `growth/k-content` |
 | Ava | K-tools-hubs | kiwicamping-web | `growth/k-tools-hubs` |
 | Ava | i18n-es, i18n-it, i18n-pt | both sites | `i18n/a-<code>` and `i18n/k-<code>` |
-| Max | i18n-ja, i18n-zh-hant, i18n-ko, i18n-zh-hans | both sites | `i18n/a-<code>` and `i18n/k-<code>` |
+| Max | i18n-ja, i18n-zh-hant, i18n-ko, i18n-zh-hans, i18n-pl | both sites | `i18n/a-<code>` and `i18n/k-<code>` |
+| Kai | i18n-da, i18n-sv (added 2026-10-19) | both sites | `i18n/a-<code>` and `i18n/k-<code>` |
+| Ava | i18n-nb, i18n-cs (added 2026-10-19) | both sites | `i18n/a-<code>` and `i18n/k-<code>` |
 
 **One language per i18n thread.** Each i18n thread owns one language on both sites, so the voice, terms and style guide are identical across AussieCamps and KiwiCamping.
 - T3 creates your worktree for the first repo.
@@ -95,3 +97,9 @@ Other gate rules:
    That is an APFS copy-on-write clone, so it costs almost no disk.
 5. **Build sparingly.** At most one full `npm run check` at a time per thread. During iteration, prefer `npm run content:check`.
 6. If something in this file or the plan is wrong or blocks you, say so in your reply instead of working around it.
+
+## Follow-up work
+Everything after the first push is tracked in Linear: CNTXT-868 (parent) and its sub-issues (GA4 setup, Search Console after M2, new-language go-live, weekly loop, summer content, change scoring, second-wave content per site, hubs, freshness, owner items).
+
+## Usage limits
+If a thread hits its account usage limit, the orchestrator schedules a "continue" message for 2 minutes after the reset. Work is never moved to another account.
