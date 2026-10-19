@@ -81,124 +81,31 @@
           "path": "../lib/translations/pl.json"
         }
       ],
-      "protectedTerms": [
-        "AussieCamps",
-        "AussieCamping",
-        "AUD",
-        "Tourism Australia",
-        "Reserve Bank of Australia",
-        "Virgin Australia",
-        "New South Wales",
-        "Victoria",
-        "Queensland",
-        "South Australia",
-        "Western Australia",
-        "Tasmania",
-        "Northern Territory",
-        "Australian Capital Territory",
-        "Central Australia",
-        "Uluṟu",
-        "K'gari",
-        "Ikara",
-        "Tjoritja",
-        "Kakadu",
-        "Namadgi"
-      ],
-      "glossary": {
-        "Australia": {
-          "de": "Australien",
-          "es": "Australia",
-          "fr": "Australie",
-          "it": "Australia",
-          "nl": "Australië",
-          "pt": "Austrália"
-        }
-      },
-      "varieties": {
-        "pt": "pt-PT",
-        "zh-hans": "zh-Hans",
-        "zh-hant": "zh-Hant"
-      },
-      "register": {
-        "de": "informal",
-        "es": "informal",
-        "fr": "formal",
-        "it": "informal",
-        "nl": "informal",
-        "pt": "informal"
-      }
+      "protectedTerms": ["AussieCamps", "AussieCamping", "AUD", "Tourism Australia", "Reserve Bank of Australia", "Virgin Australia", "New South Wales", "Victoria", "Queensland", "South Australia", "Western Australia", "Tasmania", "Northern Territory", "Australian Capital Territory", "Central Australia"],
+      "glossary": { "Australia": { "de": "Australien", "es": "Australia", "fr": "Australie", "it": "Australia", "nl": "Australië", "pt": "Austrália" } },
+      "varieties": { "pt": "pt-PT" },
+      "register": { "de": "informal", "es": "informal", "fr": "formal", "it": "informal", "nl": "informal", "pt": "informal" }
     },
     {
-      "id": "aussiecamps-website-fr",
+      "id": "aussiecamps-website-zh-Hant",
       "adapter": "web-json",
       "sourceLocale": "en",
-      "locales": [
-        "fr"
-      ],
+      "locales": ["zh-Hant"],
       "source": "../lib/translations/en.json",
       "targets": [
-        {
-          "locale": "fr",
-          "path": "../lib/translations/fr.json"
-        }
+        { "locale": "zh-Hant", "path": "../lib/translations/zh-hant.json" }
       ],
-      "protectedTerms": [
-        "AussieCamps",
-        "AussieCamping",
-        "AUD",
-        "Tourism Australia",
-        "Reserve Bank of Australia",
-        "Virgin Australia",
-        "Victoria",
-        "Queensland",
-        "Uluṟu",
-        "Ikara",
-        "Tjoritja",
-        "Kakadu",
-        "Namadgi"
-      ],
-      "untranslatedKeys": [
-        "ui.review*",
-        "ui.reviewsEyebrow",
-        "ui.reviewsTitle"
-      ],
+      "protectedTerms": ["AussieCamps", "AussieCamping", "AUD"],
+      "untranslatedKeys": ["ui.review*", "ui.reviewsEyebrow", "ui.reviewsTitle"],
       "glossary": {
-        "New South Wales": {
-          "fr": "Nouvelle-Galles du Sud"
-        },
-        "Victoria": {
-          "fr": "Victoria"
-        },
-        "Queensland": {
-          "fr": "Queensland"
-        },
-        "South Australia": {
-          "fr": "Australie-Méridionale"
-        },
-        "Western Australia": {
-          "fr": "Australie-Occidentale"
-        },
-        "Tasmania": {
-          "fr": "Tasmanie"
-        },
-        "Northern Territory": {
-          "fr": "Territoire du Nord"
-        },
-        "Australian Capital Territory": {
-          "fr": "Territoire de la capitale australienne"
-        },
-        "Central Australia": {
-          "fr": "Centre rouge"
-        },
-        "K'gari": {
-          "fr": "K’gari"
-        }
-      },
-      "register": {
-        "fr": "formal"
-      },
-      "styleGuide": {
-        "fr": "Follow docs/translation-style/fr.md: native French travel-writer voice for France, Belgium, Switzerland and Canada, formal vous, French typography (non-breaking spaces before : ; ? !, « » quotes), French state names, no calques, no offline-map claims."
+        "New South Wales": { "zh-Hant": "新南威爾斯" },
+        "Queensland": { "zh-Hant": "昆士蘭" },
+        "Victoria": { "zh-Hant": "維多利亞" },
+        "South Australia": { "zh-Hant": "南澳" },
+        "Western Australia": { "zh-Hant": "西澳" },
+        "Tasmania": { "zh-Hant": "塔斯馬尼亞" },
+        "Northern Territory": { "zh-Hant": "北領地" },
+        "Australian Capital Territory": { "zh-Hant": "澳洲首都領地" }
       }
     }
   ]
