@@ -210,7 +210,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
   ],
   "australia-road-trip-fuel-cost-2026": [
     ["How much does fuel cost in Australia?", "The guide gives dated prices per litre for petrol and diesel and works them through real routes. Remote roadhouse prices run far above city prices, sometimes by half again, which is what breaks outback budgets."],
-    ["How do you estimate fuel for an Australian road trip?", "Take the route distance and add a fifth for detours, multiply by your vehicle's real consumption in litres per 100 km and divide by 100 to get litres, then multiply by the price per litre. A 1,000 km drive at 12 L/100 km uses 120 litres. Use real consumption, not the brochure figure: a loaded van into a headwind will not meet its rated economy."],
+    ["How do you estimate fuel for an Australian road trip?", "Take the route distance and add a fifth for detours, multiply by your vehicle's real consumption in litres per 100 km and divide by 100 to get litres, then multiply by the price per litre. So a van using 12 litres per 100 km needs about 120 litres for every 1,000 km driven. Use real consumption, not the brochure figure: a loaded van into a headwind will not meet its rated economy."],
   ],
   "public-transport-costs-australia-2026": [
     ["Can you travel Australia without a car?", "Between the capitals, yes. Beyond them the network thins fast, and the coastal and outback places most people come for are effectively unreachable without a vehicle or a tour."],
