@@ -25,7 +25,7 @@ Thread: A-content (Kai). Branch `growth/a-content`. Never push. Session 2 took o
 - Rebased onto main 2026-10-20 (1f7ccad: ISO priceTable dates, en.json regenerated).
 
 ## In progress (session 2)
-- Fact-check batch F1 (Opus): finish TAS (sections 3+) and ACT (sections 2+), plus sleeping-in-car, free-camping hub, camping-fees.
+- DONE fact-check batch F1 (reports in /tmp/a-content/factcheck): TAS, ACT, sleeping-in-car, free-camping hub, camping-fees. Fix batch X2 (Opus) applying them.
 - DONE 9438657 fix batch C1: audit-confirmed errors on darwin-kakadu-litchfield-loop, australian-alps-camping-route, adelaide-to-uluru-road-trip, australian-road-signs-visitors-guide, plus towing-caravan flags. Changed claims in /tmp/a-content/factcheck/c1-changes.md. Darwin loop FAQ not added (road-trip guides carry none per lib/article-faqs.ts header); draft FAQ kept in drafts/.
 - Fact-check batch F2 (Opus): c1-changes (-> factcheck/c1-verdicts.md), campfires, dump-points, caravan-park.
 - Next fact-check batch: the 5 cost pages. Then apply all fixes and hand off batch 1.
