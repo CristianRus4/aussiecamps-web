@@ -779,119 +779,248 @@
       "priceTable": null
     },
     "sleeping-in-car-australia": {
-      "title": "¿Se puede dormir en el coche en Australia?",
-      "description": "Dormir en el coche solo está permitido donde lo autorizan las normas locales sobre el terreno, el aparcamiento y los vehículos.",
+      "title": "¿Se puede dormir en el coche en Australia? Normas por estado en 2026",
+      "description": "Legal en unos sitios y multado en otros. Límites en áreas de descanso, prohibiciones municipales y normas de parques nacionales para dormir en el coche en cada estado, octubre de 2026.",
       "region": "Australia",
       "imageAlt": "Camper aparcada en un lugar autorizado para pasar la noche",
-      "intro": "Que vayas en coche no convierte un sitio en legal. Las ordenanzas del ayuntamiento (council local), las señales, las normas de cada parque y la propiedad privada deciden si puedes dormir allí.",
+      "intro": "Sí, en el sitio adecuado: lo que acaba en multa es acampar donde está prohibido, y muchos ayuntamientos consideran acampada dormir en un coche aparcado. Las opciones legales son las zonas de acampada con reserva, los bosques estatales que permiten acampar y las áreas de descanso cuyas normas o señales permiten pasar la noche, como el límite de 20 horas de Queensland y las paradas de 24 horas señalizadas de Australia Occidental.",
       "sections": [
         {
-          "heading": "Fíate del sitio, no de internet",
+          "heading": "Las normas en cada estado",
           "body": [
-            "Mira las señales: horarios de aparcamiento, prohibición de acampar y restricciones de vehículos. Los aparcamientos de playa y las calles residenciales suelen estar vigilados en los pueblos turísticos con mucha afluencia.",
-            "Una reseña antigua no te libra de una multa. Consulta la información actual del ayuntamiento o del organismo que gestiona el terreno."
+            "Ningún estado publica un simple sí o no. Las autoridades de carreteras fijan los límites de las áreas de descanso, los ayuntamientos las normas de calles, playas y aparcamientos, y los organismos de parques deciden qué pasa dentro de los parques nacionales, así que la respuesta depende de cuál de los tres es dueño del suelo donde está tu coche.",
+            "Solo Queensland y Australia Occidental publican un límite de tiempo en áreas de descanso para todo el estado, y el Territorio del Norte indica cuáles de sus paradas de carretera permiten acampar de noche. En el resto manda la señal del área de descanso, y la información en <a data-guide=\"camping-rules-new-south-wales\">Nueva Gales del Sur</a> es contradictoria: Service NSW dice que las áreas de descanso no son para acampar, mientras que una nota de práctica de planificación de julio de 2026 dice que acampar en una puede estar permitido salvo que una señal diga lo contrario."
           ],
-          "tips": []
+          "tips": [],
+          "table": {
+            "caption": "Dormir en el coche por estado, comprobado en octubre de 2026",
+            "head": [
+              "Estado",
+              "Áreas de descanso junto a la carretera",
+              "Calles y aparcamientos municipales",
+              "Parques nacionales",
+              "Áreas de descanso en AussieCamps"
+            ],
+            "rows": [
+              [
+                "Nueva Gales del Sur",
+                "Sin límite para todo el estado; sigue la señal",
+                "Hace falta aprobación del ayuntamiento o permiso señalizado; los ayuntamientos vigilan",
+                "Solo zonas de acampada designadas, 21 días como máximo",
+                "869"
+              ],
+              [
+                "Victoria",
+                "Sin límite para todo el estado; sigue la señal",
+                "Algunos lo prohíben: el Surf Coast Shire multa con 300 AUD",
+                "Sitios designados; algunos parques permiten la acampada dispersa",
+                "651"
+              ],
+              [
+                "Queensland",
+                "Hasta 20 horas salvo que se indique otra cosa; no son zonas de acampada",
+                "Muchos lo prohíben; Cairns lo prohíbe en terrenos municipales fuera de sus zonas de acampada",
+                "Permiso de pago para cada parcela",
+                "1.688"
+              ],
+              [
+                "Australia Meridional",
+                "Sin límite para todo el estado; sigue la señal",
+                "Las normas varían según el ayuntamiento",
+                "Solo parcelas reservadas",
+                "391"
+              ],
+              [
+                "Australia Occidental",
+                "Hasta 24 horas seguidas, solo donde esté señalizado",
+                "Acampar en otros sitios requiere aprobación",
+                "Solo zonas de acampada designadas",
+                "1.661"
+              ],
+              [
+                "Tasmania",
+                "Sin límite para todo el estado; sigue la señal",
+                "Algunos ayuntamientos dan permisos gratuitos",
+                "Parks Pass más un sitio designado",
+                "81"
+              ],
+              [
+                "Territorio del Norte",
+                "Solo en las paradas señalizadas para acampar 24 horas",
+                "Las normas varían según el ayuntamiento",
+                "Parcelas reservadas, más un pase de visitante para quienes no residen allí",
+                "211"
+              ],
+              [
+                "ACT",
+                "Acampar en vehículo solo en zonas de acampada",
+                "Prohibido acampar en terreno público sin permiso",
+                "Solo zonas de acampada reservadas",
+                "0"
+              ]
+            ]
+          }
         },
         {
-          "heading": "Áreas de descanso",
+          "heading": "¿Se puede dormir en el coche en un parque nacional?",
           "body": [
-            "Las áreas de descanso de las autopistas y los puntos Driver Reviver existen para combatir la fatiga. Algunas permiten un descanso nocturno limitado; otras prohíben acampar o restringen ciertos tipos de vehículo.",
-            "Deja libres las zonas para camiones, no hagas ruido y no saques el equipo fuera del vehículo salvo que en esa zona esté permitido acampar."
+            "Solo donde el parque permite acampar, lo que casi siempre significa una zona de acampada designada y reservada o autorizada con antelación. Un coche que pasa la noche en una zona de día, un mirador o el inicio de un sendero es acampar sin permiso, aunque nadie haya montado una tienda.",
+            "<a data-guide=\"camping-rules-queensland\">Queensland</a> cobra 7,75 AUD por persona y noche en todas las parcelas de parques y bosques en 2026, y el permiso se aplica tanto si duermes en una tienda como en el coche. Los parques del Territorio del Norte aceptan reservas solo por internet, los de Australia Meridional por internet o a través de agentes, y Nueva Gales del Sur limita la estancia en cualquier parque a 21 días.",
+            "Algunos parques permiten la acampada dispersa. El Alpine National Park, en <a data-guide=\"camping-rules-victoria\">Victoria</a>, la permite en gran parte del parque, pero Parks Victoria pide llevar tienda de campaña y cada parque fija sus propios límites, así que lee antes la página del parque."
           ],
           "tips": [
-            "Un sitio legal",
-            "Ventilación",
-            "Una salida segura",
+            "Las zonas de día no son parcelas",
+            "Reserva o consigue el permiso antes",
+            "Alpine National Park permite la acampada dispersa",
             "Nada de motor en marcha para calentarte"
           ]
         },
         {
-          "heading": "Alternativas más seguras",
+          "heading": "Áreas de descanso y qué significan sus límites",
           "body": [
-            "Un camping sencillo, un recinto ferial (showground), un parque de caravanas o una granja que acepte viajeros te da un permiso claro y, a menudo, baños o agua. Llega antes de que anochezca y confirma que tu vehículo puede entrar.",
-            "No duermas nunca con un calefactor o un hornillo de combustible encendido dentro de un vehículo cerrado."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Aparcar legalmente no es lo mismo que acampar legalmente",
-          "body": [
-            "Un vehículo puede estar bien aparcado y, aun así, estar prohibido dormir dentro. En esa diferencia se basan la mayoría de las multas, y por eso hay viajeros a los que multan aunque hayan revisado las señales de aparcamiento.",
-            "Lo regulan las ordenanzas de cada ayuntamiento y cambian en cada límite municipal. Algunos permiten dormir en el vehículo en zonas señalizadas, muchos lo prohíben en cualquier espacio público y la vigilancia es más intensa en la costa y en las zonas turísticas.",
-            "Lee la señal de la plaza concreta, no la de la calle. El aparcamiento con límite de tiempo, las zonas con permiso y las prohibiciones nocturnas suelen señalizarse por separado y se aplican todas a la vez."
+            "<a data-guide=\"camping-rules-queensland\">Queensland</a> permite que los vehículos generales y de ocio pasen hasta 20 horas en un área de descanso salvo que una señal diga otra cosa, pero las llama lugares de parada y no zonas de acampada. Las áreas de descanso para vehículos pesados son solo para camioneros, y los generadores deben estar apagados entre las 19:00 y las 7:00.",
+            "En Australia Occidental puedes parar hasta 24 horas seguidas en las áreas de descanso marcadas para pasar la noche, que según Main Roads WA no están pensadas para acampar, y necesitas aprobación para pasar la noche en cualquier otro sitio fuera de un <a data-guide=\"caravan-park-vs-holiday-park\">parque de caravanas</a> o una zona de acampada. El Territorio del Norte enumera sus paradas de carretera una por una, y solo las marcadas para acampar 24 horas lo permiten.",
+            "Dondequiera que pares, aparca dentro de las plazas marcadas, deja libre el aparcamiento de camiones y no saques el toldo, las sillas ni la mesa. Un coche con gente dormida dentro parece una parada de descanso; un campamento montado parece acampada."
           ],
           "tips": [
-            "Poder aparcar no significa poder dormir",
-            "Las normas cambian en cada límite municipal",
-            "Lee la señal de tu plaza concreta"
+            "Queensland: 20 horas como máximo",
+            "WA: 24 horas donde esté señalizado",
+            "Deja libres las plazas de camiones"
           ]
         },
         {
-          "heading": "Dónde suele aceptarse",
+          "heading": "Ayuntamientos, ciudades y costa",
           "body": [
-            "Las áreas de descanso señalizadas junto a las autopistas permiten dormir para combatir la fatiga, normalmente hasta 24 horas, y son la opción legal más fiable en todo el país. Están pensadas para descansar, no para montar campamento.",
-            "Muchos pueblos del interior ofrecen zonas gratuitas o baratas para pasar la noche donde se permite expresamente dormir en el vehículo. Los recintos feriales y los campos de deporte suelen hacer lo mismo por una pequeña tarifa.",
-            "Algunas gasolineras abiertas 24 horas y algunos roadhouses (áreas de servicio del outback) permiten pasar la noche aparcado, sobre todo en las rutas largas por autopista. Pregunta dentro en lugar de darlo por hecho, y compra algo."
+            "Las ordenanzas locales son el origen de la mayoría de las multas. En la costa de Victoria, el Surf Coast Shire considera una infracción dormir en un vehículo en cualquier punto del municipio, con una multa en el acto de 300 AUD, y el Cairns Regional Council prohíbe acampar en arcenes, en la Esplanade, en parques, aparcamientos y playas.",
+            "Algunos ayuntamientos del interior mantienen zonas gratuitas o baratas para viajeros. El Northern Midlands Council de <a data-guide=\"camping-rules-tasmania\">Tasmania</a>, por ejemplo, da permisos gratuitos para estancias de hasta 48 horas, pero solo a vehículos self-contained con váter y ducha propios, lo que deja fuera a casi todos los coches.",
+            "Lee la señal de la plaza concreta, no solo la de la calle. Los límites de tiempo, las zonas con permiso y las señales de prohibido pasar la noche suelen ir juntos, y se aplican todos a la vez."
           ],
           "tips": [
-            "Áreas de descanso: hasta 24 horas",
-            "Los pueblos del interior suelen permitirlo",
-            "En los roadhouses, pregunta antes"
+            "Algunos ayuntamientos costeros multan",
+            "Northern Midlands: 48 horas, solo self-contained",
+            "Lee la señal de la plaza concreta"
           ]
         },
         {
           "heading": "Cómo hacerlo con seguridad",
           "body": [
-            "Elige un sitio con otros vehículos, iluminación y una salida fácil. Aparca mirando hacia fuera si puedes, no dejes objetos de valor a la vista y cierra las puertas sin perder una vía rápida para salir.",
-            "La ventilación importa más de lo que se suele pensar. Un coche cerrado con gente durmiendo dentro se vuelve húmedo y cargado enseguida, y con calor llega a ser realmente peligroso. Deja las ventanillas un poco abiertas, con mosquiteras si las tienes.",
-            "No dejes nunca el motor en marcha para el aire acondicionado mientras duermes. Los gases del escape pueden entrar en el habitáculo, y el monóxido de carbono no huele: ha matado a gente que hacía exactamente eso."
+            "Elige un sitio con otros vehículos, algo de luz y una salida fácil. Aparca mirando hacia la salida si puedes, no dejes objetos de valor a la vista y cierra las puertas por dentro, pero con una vía de salida despejada.",
+            "La ventilación importa más de lo que se cree. Un coche cerrado con gente dormida dentro se humedece y se vuelve irrespirable en pocas horas, y con calor se vuelve peligroso, así que abre un poco las ventanillas con mosquiteras.",
+            "Algunas gasolineras abiertas 24 horas y algunos roadhouses (áreas de servicio del outback) permiten pasar la noche aparcado, sobre todo en las rutas largas por autopista. Pregunta dentro en lugar de darlo por hecho, y compra algo."
           ],
           "tips": [
-            "Aparca mirando hacia fuera y con la salida libre",
-            "Ventila, no cierres el coche del todo",
-            "Nunca dejes el motor en marcha mientras duermes"
+            "Aparca mirando hacia la salida",
+            "Ventila con mosquiteras",
+            "No dejes objetos de valor a la vista"
           ]
         },
         {
-          "heading": "Calor, frío y límites prácticos",
+          "heading": "Monóxido de carbono, calor y frío",
           "body": [
-            "En pleno verano australiano, dormir en un coche sin ventilación no es solo incómodo: es peligroso. La temperatura interior sube rápido y en el norte se mantiene alta toda la noche, y ese es el principal motivo práctico para no hacerlo.",
-            "En invierno, las noches del interior y de la montaña bajan de cero y un coche apenas aísla. Un buen saco de dormir adecuado a las condiciones es más importante en un vehículo que en una tienda.",
-            "Si lo vas a hacer a menudo, unas cortinillas para las ventanillas, mosquiteras y un buen colchón lo cambian todo. Sin eso, aguantas una noche, pero una semana se hace insoportable."
+            "No dejes nunca el motor en marcha para calentarte o refrigerar mientras duermes, y no metas nunca dentro un calefactor de gas, un hornillo o una barbacoa. El organismo regulador de seguridad del gas de <a data-guide=\"camping-rules-western-australia\">Australia Occidental</a> advierte de que los aparatos de gas portátiles de exterior no deben usarse nunca dentro de una tienda, un espacio semicerrado, una caravana, una autocaravana ni en interiores, por el riesgo de intoxicación por monóxido de carbono.",
+            "El calor del verano es el principal límite práctico para dormir en un coche. El habitáculo se calienta rápido tras el amanecer y por la noche sigue caliente en el norte, así que empieza el día pronto o elige una parcela con electricidad y sombra.",
+            "Las noches del interior y de la montaña bajan de cero en invierno y un coche retiene poco calor. Un saco de dormir adecuado a las condiciones importa más en un vehículo que en una tienda."
           ],
           "tips": [
-            "En el norte, el coche se recalienta de noche",
-            "En invierno, casi no aísla",
-            "Mosquiteras y cortinillas lo cambian todo"
+            "Nunca dejes el motor en marcha mientras duermes",
+            "Sin aparatos de gas dentro",
+            "Un saco de dormir para las heladas"
           ]
         },
         {
           "heading": "Cómo preparar el coche para una noche",
           "body": [
-            "Con cortinillas, mosquiteras y un colchón de verdad, dormir en el coche pasa de ser una prueba de resistencia a algo que puedes repetir. Sin ellos, funciona una noche y se vuelve un suplicio a lo largo de una semana.",
-            "Que el suelo esté nivelado importa más de lo que parece: una ligera pendiente que no notas al aparcar se hace evidente en cuanto te tumbas. A menudo basta con girar el vehículo para solucionarlo.",
-            "Para viajes más largos, una furgoneta pequeña o una ranchera con los asientos abatidos te da mucho más espacio útil que una berlina, y el alquiler apenas cuesta algo más.",
+            "Con cortinillas, mosquiteras y un colchón de verdad, una noche incómoda pasa a ser algo que puedes repetir durante una semana. Sin ellos funciona una vez y se hace pesado enseguida.",
+            "Que el suelo esté nivelado importa más de lo que parece: una pendiente que no notas al aparcar se hace evidente cuando te tumbas. A menudo basta con girar el coche para solucionarlo.",
+            "Para un viaje más largo, una furgoneta pequeña o un coche familiar (station wagon) con los asientos abatidos da mucho más espacio que un sedán."
+          ],
+          "tips": [
+            "Primero cortinillas y mosquiteras",
+            "Comprueba la pendiente antes de dormir",
+            "Mejor un familiar que un sedán"
+          ]
+        },
+        {
+          "heading": "Dónde es más fácil una noche legal",
+          "body": [
+            "Los bosques estatales son la opción gratuita más sencilla en <a data-guide=\"camping-rules-new-south-wales\">Nueva Gales del Sur</a> y Victoria, donde en general se puede acampar hasta cuatro semanas y 28 noches seguidas, respectivamente. En los bosques de Nueva Gales del Sur no se puede acampar en las zonas de pícnic, y en Victoria hay que acampar al menos a 20 metros de los cursos de agua.",
+            "Australia Meridional permite acampar en terrenos de la Corona hasta 21 días sin aprobación, mientras que Australia Occidental espera que uses un <a data-guide=\"caravan-park-vs-holiday-park\">parque de caravanas</a> con licencia, una zona de acampada o una parada de descanso señalizada, salvo que tengas aprobación.",
+            "En caso de duda, una zona de acampada sencilla o un recinto ferial (showground) cuesta poco y te quita la duda. Llega antes de que anochezca para poder leer las señales y comprobar el acceso para tu vehículo.",
             "El calor del verano australiano hace que un coche sin ventilación sea realmente peligroso por la noche, y ese es el límite práctico de esta opción, más que cualquier norma local."
           ],
           "tips": [
-            "Cortinillas y mosquiteras lo cambian todo",
-            "Al tumbarte, el suelo nivelado importa",
-            "Girar el coche suele corregir la pendiente"
+            "Bosques: gratis en NSW y Victoria",
+            "Terrenos de la Corona en SA: 21 días",
+            "Llega antes de que anochezca"
           ]
         }
       ],
       "faq": [
         [
           "¿Es legal dormir en el coche en Australia?",
-          "Depende por completo de dónde esté aparcado. Dormir en un vehículo no es delito en sí, pero acampar en él donde el ayuntamiento lo prohíbe sí es una infracción, y eso incluye la mayoría de las calles urbanas, los aparcamientos de playa y las reservas costeras."
+          "Sí, donde se permite acampar: zonas de acampada con reserva, bosques estatales que permiten acampar y áreas de descanso cuyas normas o señales permiten pasar la noche. Muchos ayuntamientos consideran acampada dormir en un coche aparcado y multan en calles, playas y aparcamientos, como la multa en el acto de 300 AUD del Surf Coast Shire."
         ],
         [
-          "¿Dónde se puede dormir legalmente en el coche?",
-          "En las áreas de descanso señalizadas que permiten pernoctar, en campings y parques de caravanas, y en municipios cuyas ordenanzas lo autorizan. Los roadhouses y algunos aparcamientos de pubs lo permiten si lo acuerdas con ellos, así que merece la pena preguntar en lugar de darlo por hecho."
+          "¿Se puede dormir en el coche en un parque nacional?",
+          "Solo donde el parque permite acampar, que normalmente significa una zona de acampada designada y reservada con antelación. Un coche que pasa la noche en una zona de día o al inicio de un sendero cuenta como acampada sin permiso."
         ]
       ],
-      "sources": [],
+      "sources": [
+        {
+          "label": "Áreas de descanso de Queensland"
+        },
+        {
+          "label": "Viajes largos por carretera según Main Roads WA"
+        },
+        {
+          "label": "Acampar fuera de los parques de caravanas en WA"
+        },
+        {
+          "label": "Paradas de descanso de carretera del NT"
+        },
+        {
+          "label": "Service NSW: encontrar áreas de descanso"
+        },
+        {
+          "label": "Nota de práctica sobre parques de caravanas y zonas de acampada de NSW, julio de 2026"
+        },
+        {
+          "label": "Aparcamiento en el Surf Coast Shire"
+        },
+        {
+          "label": "Acampada en el Cairns Regional Council"
+        },
+        {
+          "label": "Reservas de acampada de Queensland Parks"
+        },
+        {
+          "label": "Acampada dispersa en el Alpine National Park"
+        },
+        {
+          "label": "Northern Midlands Council: ciudades para autocaravanas"
+        },
+        {
+          "label": "WA Building and Energy: acampar con gas con seguridad"
+        },
+        {
+          "label": "NSW National Parks and Wildlife Regulation 2019"
+        },
+        {
+          "label": "Forestry Corporation of NSW: acampada"
+        },
+        {
+          "label": "Gobierno de Victoria: acampar en bosques estatales"
+        },
+        {
+          "label": "Acceso a terrenos de la Corona de SA"
+        },
+        {
+          "label": "Normas de las áreas de descanso de Queensland (generadores)"
+        },
+        {
+          "label": "NT Parks Visitor Pass"
+        }
+      ],
       "priceTable": null
     },
     "driving-in-australia-overseas-licence": {
