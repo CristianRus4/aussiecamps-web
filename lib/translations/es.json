@@ -512,25 +512,93 @@
       "priceTable": null
     },
     "campfires-camping-australia": {
-      "title": "Normas sobre hogueras para acampar en Australia",
-      "description": "Consulta las prohibiciones de fuego locales, las normas del parque y el tiempo antes de encender una cerilla.",
+      "title": "Normas sobre hogueras en Australia 2026: prohibiciones y multas por estado",
+      "description": "Cuándo es legal una hoguera en cada estado: temporadas de incendios, prohibiciones totales, hornillos de gas y multas. Normas oficiales de octubre de 2026.",
       "region": "Australia",
       "imageAlt": "Hoguera legal en un fogón designado",
-      "intro": "El permiso para hacer una hoguera puede cambiar según el distrito, la temporada, el tipo de combustible y el índice de peligro de incendios. Un fogón demuestra que ahí se han hecho hogueras, no que hoy sea legal hacer una.",
+      "intro": "Una hoguera es legal solo cuando no hay prohibición de fuego en el distrito, quien gestiona el terreno permite hacer fuego en ese sitio y cumples las normas de tamaño y de zona despejada. Cada estado tiene su propio sistema: Nueva Gales del Sur, Victoria, Australia Meridional, Australia Occidental, Tasmania y el ACT declaran prohibiciones totales de fuego (Total Fire Bans), Queensland declara prohibiciones locales de fuego, y las del Territorio del Norte suelen durar hasta 24 horas.",
       "sections": [
+        {
+          "heading": "Las normas por estado",
+          "body": [
+            "El combustible sólido es la constante: cualquier día de prohibición, los fuegos de leña, carbón o briquetas son ilegales en el distrito afectado, incluidos los fogones. Lo que cambia de un estado a otro es la temporada de incendios, las normas de tamaño y de zona despejada para un fuego legal y si un hornillo de gas sigue permitido en un parque en un día de prohibición.",
+            "Lee la fila del estado en el que estés y consulta después a la autoridad de incendios ese mismo día. Los organismos de parques pueden añadir sus propias prohibiciones y cierres, y estos se aplican aunque la autoridad de incendios no haya declarado nada."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Normas sobre hogueras por estado, comprobadas en octubre de 2026",
+            "head": [
+              "Estado",
+              "Autoridad de incendios",
+              "Temporada de incendios 2026-27",
+              "Hornillos en parques en un día de prohibición",
+              "Hoguera permitida"
+            ],
+            "rows": [
+              [
+                "Nueva Gales del Sur",
+                "NSW Rural Fire Service",
+                "Normalmente del 1 de octubre al 31 de marzo; en algunas zonas empieza antes o termina después",
+                "Hornillos de gas de visitantes, en general prohibidos en parques nacionales",
+                "Bosques estatales: menos de 1 m², a 4,5 m de los árboles"
+              ],
+              [
+                "Victoria",
+                "CFA",
+                "La fija cada área municipal",
+                "Hornillos de combustible sólido y químico prohibidos",
+                "Menos de 1 m de ancho, 3 m despejados y siempre vigilada"
+              ],
+              [
+                "Queensland",
+                "Queensland Fire Department",
+                "Prohibiciones locales de fuego; no existe el término Total Fire Ban",
+                "Hornillos de gas y de alcohol con la llama contenida permitidos",
+                "Solo en los fogones y anillos de fuego del QPWS"
+              ],
+              [
+                "Australia Meridional",
+                "Country Fire Service",
+                "Desde el 15 de octubre o el 1 de noviembre en muchos distritos; en otros, más tarde",
+                "Se decide parque por parque; consulta las restricciones de fuego del NPWS",
+                "Zanja de 30 cm, 1 m² y 4 m despejados"
+              ],
+              [
+                "Australia Occidental",
+                "DFES y ayuntamientos",
+                "Cada ayuntamiento fija sus horarios de quema",
+                "Consulta el DBCA y el DFES; el gas tiene restricciones en los días de prohibición",
+                "Solo en los fogones del parque, con 3 m despejados"
+              ],
+              [
+                "Tasmania",
+                "Tasmania Fire Service",
+                "Periodos de permiso de fuego declarados por zona",
+                "Solo GLP y eléctricos; sin hornillos de combustible líquido",
+                "Menos de 1 m por 1 m, a 3 m del combustible"
+              ],
+              [
+                "Territorio del Norte",
+                "Gobierno del NT (Bushfires NT)",
+                "Se declara por distrito (Top End: del 22 de junio al 4 de octubre de 2026)",
+                "Los fuegos para cocinar no necesitan permiso; los demás, sí",
+                "4 m despejados alrededor de cada fuego"
+              ],
+              [
+                "ACT",
+                "ACT Emergency Services Agency",
+                "La declara la ACT Emergency Services Agency",
+                "Barbacoas de gas de los parques apagadas",
+                "Solo en fogones construidos de cuatro zonas"
+              ]
+            ]
+          }
+        },
         {
           "heading": "Tres comprobaciones antes de encender",
           "body": [
-            "Lee las normas del camping, consulta a la autoridad de incendios del estado correspondiente y busca avisos locales del parque. Una prohibición total de fuego anula el permiso normal del camping.",
-            "Los hornillos de gas también pueden restringirse en condiciones extremas. Comprueba la norma para cada aparato, no solo para el fuego al aire libre."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Leña y preparación",
-          "body": [
-            "En muchos parques está prohibido recoger leña, porque la madera caída es hábitat. Lleva leña limpia y sin tratar solo donde lo permita quien gestiona el terreno.",
-            "Usa un fogón ya existente, despeja la zona de alrededor según te indiquen y ten agua a tu lado. No enciendas nunca fuego bajo ramas ni con viento fuerte."
+            "Consulta a la autoridad de incendios del distrito, la página de avisos del parque y las normas del propio camping. En <a data-guide=\"camping-rules-queensland\">Queensland</a>, llama al 1800 020 440 o pregunta en la oficina local del Rural Fire Service si no estás seguro de que haya una prohibición de fuego.",
+            "Las prohibiciones suelen declararse la tarde anterior, aunque el RFS todavía puede declarar una el mismo día. Mira por la tarde y otra vez por la mañana, para cambiar el plan de la cena a tiempo en lugar de improvisar ya en el camping."
           ],
           "tips": [
             "Permiso comprobado",
@@ -539,18 +607,22 @@
           ]
         },
         {
-          "heading": "Apágalo hasta que esté frío",
+          "heading": "Leña y preparación",
           "body": [
-            "Apágalo con agua, remueve los restos y repite hasta que todo esté lo bastante frío como para tocarlo. La arena puede esconder brasas calientes en lugar de apagarlas.",
-            "No dejes nunca un fuego sin vigilancia, tampoco mientras duermes. Si se levanta viento o algo no te da buena espina, apágalo."
+            "Recoger leña está prohibido en los parques nacionales de la mayoría de los estados, porque la madera caída es hábitat, y en <a data-guide=\"camping-rules-western-australia\">Australia Occidental</a> la prohibición abarca los parques nacionales y otras reservas de conservación. Lleva leña limpia y sin tratar de fuera del parque, en los sitios donde se permiten fuegos.",
+            "Usa el fogón que haya, despeja la zona como exijan las normas y ten agua a tu lado, no en el vehículo. No enciendas nunca fuego bajo ramas ni con viento fuerte."
           ],
-          "tips": []
+          "tips": [
+            "Lleva tu propia leña",
+            "Agua junto al fuego",
+            "Sin fuego con viento fuerte"
+          ]
         },
         {
-          "heading": "Índices de peligro de incendios y prohibiciones totales",
+          "heading": "Apágalo hasta que esté frío",
           "body": [
-            "Australia usa un sistema nacional de índice de peligro de incendios (Fire Danger Rating) con cuatro niveles, de Moderate (moderado) a Catastrophic (catastrófico), que se publica a diario por distritos. Las prohibiciones totales de fuego se declaran aparte y vetan cualquier llama abierta, sea cual sea el índice.",
-            "Un día de prohibición total de fuego, las hogueras y las barbacoas de combustible sólido están prohibidas. Los aparatos de gas suelen estar permitidos con condiciones, como tener una zona despejada y vigilancia constante, pero manda el texto concreto de la prohibición.",
+            "Apágalo con agua, remueve las cenizas y vuelve a echar agua hasta que los restos estén fríos al tocarlos. La arena puede esconder brasas calientes en lugar de apagarlas.",
+            "No dejes nunca un fuego sin vigilancia, tampoco mientras se consume ni mientras duermes. Si sube el viento, apágalo.",
             "Los índices y las prohibiciones se publican cada tarde para el día siguiente. En verano, consúltalos a diario en lugar de fiarte de la sensación que te da el tiempo, porque la declaración se basa en las condiciones previstas."
           ],
           "tips": [
@@ -560,72 +632,148 @@
           ]
         },
         {
-          "heading": "Dónde se permite hacer fuego",
+          "heading": "Índices de peligro de incendios y prohibiciones totales",
           "body": [
-            "Muchos parques nacionales prohíben las hogueras de forma permanente, sobre todo en las zonas áridas, donde recoger leña destruye un hábitat que tarda décadas en formarse. Otros solo las permiten en los fogones instalados.",
-            "Recoger leña está prohibido en la mayoría de los parques nacionales y reservas. Trae la tuya de fuera de la zona, y ten en cuenta que algunas regiones también restringen el transporte de leña para frenar la propagación de plagas.",
-            "Consulta la página del camping concreto y no la norma general del estado. En muchos sitios, la norma de quien gestiona el terreno es más estricta que el sistema de peligro de incendios y se aplica todo el año."
+            "El Australian Fire Danger Rating System tiene cuatro niveles, Moderate, High, Extreme y Catastrophic, que se publican por distrito. Una prohibición total de fuego se declara aparte, así que comprueba las dos cosas y no tomes el índice como un permiso.",
+            "En un día de prohibición, las hogueras y las barbacoas de combustible sólido son ilegales en el distrito. Con el gas es donde difieren los estados: los parques nacionales de Nueva Gales del Sur prohíben en general los hornillos de gas de los visitantes, los parques del ACT apagan las barbacoas de gas, las normas de los parques de Australia Meridional se fijan parque por parque, Tasmania permite los hornillos de GLP y eléctricos pero no los de combustible líquido, y <a data-guide=\"camping-rules-queensland\">Queensland</a> permite los hornillos de gas y de alcohol con la llama contenida durante una prohibición de fuego.",
+            "Los parques también cierran en los peores días. Los parques de Australia Meridional y los bosques de ForestrySA pueden cerrar en los días de prohibición, y el NPWS puede declarar su propia prohibición de fuego en un parque o cerrarlo en Nueva Gales del Sur cuando el riesgo es alto."
           ],
           "tips": [
-            "Muchos parques prohíben siempre el fuego",
-            "Recoger leña suele estar prohibido",
-            "Lleva tu propia leña"
+            "Cuatro niveles, de Moderate a Catastrophic",
+            "Combustible sólido prohibido en todas partes",
+            "El gas depende del estado"
+          ]
+        },
+        {
+          "heading": "Dónde se permite realmente hacer fuego",
+          "body": [
+            "Muchos parques prohíben hacer fuego durante parte del año o todo el año. Ikara-Flinders Ranges prohíbe los fuegos de leña durante su periodo de prohibición, de mediados de octubre de 2026 a finales de marzo de 2027, ForestrySA prohíbe los fuegos en sus bosques del 1 de noviembre al 30 de abril, y muchos parques de Australia Occidental suspenden las hogueras más o menos del 1 de diciembre al 31 de marzo.",
+            "En <a data-guide=\"camping-rules-tasmania\">Tasmania</a>, las Fuel Stove Only Areas (zonas donde solo se permiten hornillos de combustible) prohíben las hogueras todo el año en gran parte de las zonas salvajes, entre ellas Cradle Mountain-Lake St Clair, Freycinet y Mount Field. En el ACT, las hogueras solo se permiten en fogones construidos de cuatro zonas: Namadgi, Tidbinbilla y las áreas recreativas de Cotter y Uriarra Crossing.",
+            "Al final decide la página del camping, porque la norma de quien gestiona el terreno suele ser más estricta que el sistema de peligro de incendios y se aplica todo el año."
+          ],
+          "tips": [
+            "Prohibiciones estacionales en parques",
+            "Tasmania: Fuel Stove Only Areas",
+            "Manda la página del camping"
           ]
         },
         {
           "heading": "Hacer y controlar un fuego legal",
           "body": [
-            "Donde esté permitido, usa un fogón ya existente, haz un fuego pequeño, aparta bien todo lo que pueda arder y ten el agua justo a tu lado, no en el vehículo. No enciendas nunca fuego con viento ni bajo ramas que cuelguen encima.",
-            "Las condiciones legales habituales fijan un tamaño máximo del fuego, un radio despejado de varios metros y la vigilancia constante de un adulto. También se aplican fuera de las prohibiciones totales de fuego, e incumplirlas conlleva sanciones.",
-            "No dejes nunca un fuego sin vigilancia, tampoco mientras se consume. La mayoría de las hogueras que se descontrolan empiezan después de que quienes las encendieron decidieran que ya casi estaban apagadas."
+            "Las normas de tamaño y de zona despejada varían: los bosques estatales de Nueva Gales del Sur exigen un fuego de menos de un metro cuadrado y a 4,5 metros del árbol más cercano, los de Victoria uno de menos de un metro de ancho con tres metros despejados, y <a data-guide=\"camping-rules-south-australia\">Australia Meridional</a> una zanja de 30 cm de profundidad durante la temporada de incendios.",
+            "La CFA pide que un adulto despierto y atento vigile la hoguera a menos de 50 metros en todo momento, y solo con viento de menos de 10 km/h. Son buenas condiciones en cualquier lugar de Australia.",
+            "Muchas hogueras que se descontrolan empiezan cuando quienes las encendieron daban por hecho que ya casi estaban apagadas. Trata el fuego como activo hasta que esté frío al tocarlo."
           ],
           "tips": [
-            "El agua a tu lado, no en el vehículo",
-            "Radio despejado de varios metros",
-            "No lo dejes nunca sin vigilancia"
+            "Viento de menos de 10 km/h",
+            "Adulto a menos de 50 metros",
+            "Activo hasta que esté frío"
           ]
         },
         {
-          "heading": "Apagarlo y las consecuencias",
+          "heading": "Multas y responsabilidad",
           "body": [
-            "Un fuego está apagado cuando está frío al tacto. Échale agua, remueve las cenizas, vuelve a echar agua y sigue hasta que puedas meter la mano en los restos. Las brasas aguantan muchas horas bajo la ceniza.",
-            "Un fuego que se descontrola conlleva sanciones graves en todos los estados, incluidas multas elevadas y penas de prisión cuando se demuestra negligencia. También te pueden hacer responsable de los costes de extinción, que alcanzan sumas muy elevadas.",
-            "Si el fuego se descontrola, no intentes combatirlo más allá de los primeros segundos. Aléjate y llama de inmediato al triple cero (000) dando la ubicación más precisa que puedas."
+            "Encender fuego en un día de prohibición total en Nueva Gales del Sur supone una multa en el acto de 2.200 AUD o, ante un tribunal, hasta 5.500 AUD y 12 meses de cárcel. <a data-guide=\"camping-rules-western-australia\">Australia Occidental</a> impone una multa de 1.000 AUD, y hasta 25.000 AUD y 12 meses de cárcel si hay condena.",
+            "La CFA advierte de que un fuego en un día de prohibición total en <a data-guide=\"camping-rules-victoria\">Victoria</a> puede costar una multa de más de 40.000 AUD, dos años de prisión o ambas cosas. En el Territorio del Norte, encender un fuego para algo que no sea cocinar sin permiso conlleva hasta unos 77.000 AUD o cinco años, y no despejar 4 metros alrededor de un fuego, hasta unos 15.000 AUD; los importes se indexan, así que consulta la página del NT.",
+            "Si un fuego se descontrola, no intentes combatirlo más allá de los primeros segundos. Aléjate y llama al triple cero (000) con la ubicación más precisa que puedas dar.",
+            "Los índices de peligro de incendios se publican cada tarde para el día siguiente, así que consultarlos la víspera te da tiempo para cambiar de planes en vez de improvisar."
           ],
           "tips": [
-            "Apagado significa frío al tacto",
-            "Puedes pagar los costes de extinción",
-            "Llama al 000 y aléjate"
+            "Multa en Nueva Gales del Sur: 2.200 AUD",
+            "Victoria: más de 40.000 AUD ante el tribunal",
+            "Fuego descontrolado: aléjate y llama al 000"
           ]
         },
         {
           "heading": "Cocinar cuando se prohíbe el fuego",
           "body": [
-            "Los hornillos de gas suelen estar permitidos los días de prohibición total de fuego con condiciones: una zona despejada, alguien vigilando y agua a mano. Revisa el texto concreto de la prohibición, porque las condiciones varían según el estado.",
-            "No cocines nunca dentro de una tienda, bajo un toldo ni en un vehículo sin ventilación. El monóxido de carbono no huele y ya ha matado a campistas, y el riesgo es mayor justo con el frío o la lluvia que invitan a meterse dentro.",
-            "Lleva siempre un hornillo de gas ligero en el vehículo, porque una prohibición total de fuego puede declararse con un día de antelación y así no dependes en absoluto de poder encender fuego.",
-            "Los índices de peligro de incendios se publican cada tarde para el día siguiente, así que consultarlos la víspera te da tiempo para cambiar de planes en vez de improvisar."
+            "Lleva siempre un hornillo de gas en el vehículo y comprueba la norma sobre hornillos además de la de hogueras, porque algunos parques también los prohíben en los peores días.",
+            "No cocines nunca dentro de una tienda, un toldo o un vehículo cerrado. El organismo regulador de seguridad del gas de <a data-guide=\"camping-rules-western-australia\">Australia Occidental</a> advierte de que los aparatos de gas portátiles de exterior no deben usarse nunca dentro de una tienda, un espacio semicerrado, una caravana o una autocaravana.",
+            "Planifica comidas que no necesiten llama para los días en que se prevea una prohibición: almuerzos fríos, wraps y comida preparada la noche anterior mantienen el viaje en marcha."
           ],
           "tips": [
-            "El gas suele permitirse con condiciones",
+            "Lleva un hornillo de gas",
             "No cocines nunca en un espacio cerrado",
-            "El monóxido de carbono no huele"
+            "Planifica comidas frías para los días de prohibición"
           ]
         }
       ],
       "faq": [
         [
           "¿Se puede hacer una hoguera de acampada en Australia?",
-          "Solo cuando no hay prohibición de fuego y quien gestiona el terreno lo permite. El servicio de bomberos de cada estado declara las prohibiciones totales de fuego por distrito y por día, y mientras están vigentes no es legal ningún fuego de combustible sólido en todo ese distrito, ni siquiera en un fogón."
+          "Sí, cuando no hay prohibición de fuego en el distrito y el camping permite hacer fuego, siempre en el fogón disponible y con leña que traes de fuera. Durante una prohibición total de fuego (Total Fire Ban), o una prohibición local de fuego en Queensland, los fuegos de combustible sólido son ilegales en toda esa zona, incluidos los fogones."
         ],
         [
-          "¿Cómo se comprueba si hay prohibición total de fuego?",
-          "En la web del servicio de bomberos del estado en el que estés, el mismo día: el RFS en NSW, la CFA en Victoria, el QFES en Queensland y sus equivalentes en el resto. Los índices de peligro de incendios se fijan cada tarde para el día siguiente."
+          "¿Se puede usar un hornillo de gas en un día de prohibición total de fuego?",
+          "Depende del estado y del terreno. Los parques nacionales de Nueva Gales del Sur prohíben en general los hornillos de gas de los visitantes esos días, los parques del ACT apagan las barbacoas de gas, Tasmania permite los hornillos de GLP y eléctricos pero no los de combustible líquido, y Queensland permite los hornillos de gas y de alcohol con la llama contenida durante una prohibición de fuego. En Australia Meridional, consulta las restricciones de fuego del parque en el que estés."
         ]
       ],
       "sources": [
         {
-          "label": "Avisos de la Bureau of Meteorology"
+          "label": "Australian Fire Danger Rating System"
+        },
+        {
+          "label": "Normas del NSW RFS sobre prohibiciones totales de fuego"
+        },
+        {
+          "label": "NSW RFS: periodo de peligro de incendios forestales"
+        },
+        {
+          "label": "Prohibiciones de fuego en los parques nacionales de NSW"
+        },
+        {
+          "label": "Forestry Corporation of NSW: prohibiciones de fuegos de combustible sólido"
+        },
+        {
+          "label": "Normas de la CFA sobre hogueras"
+        },
+        {
+          "label": "Hogueras en los bosques estatales de Victoria"
+        },
+        {
+          "label": "Queensland Fire Department: prohibiciones de fuego"
+        },
+        {
+          "label": "Hogueras en los parques de Queensland"
+        },
+        {
+          "label": "SA CFS: fechas de la temporada de peligro de incendios"
+        },
+        {
+          "label": "SA CFS: qué puedes hacer y qué no"
+        },
+        {
+          "label": "DFES: prohibiciones totales de fuego"
+        },
+        {
+          "label": "Hogueras y leña en los parques de WA"
+        },
+        {
+          "label": "Tasmania Parks: hogueras y prohibiciones de fuego"
+        },
+        {
+          "label": "Prohibiciones de fuego en el NT"
+        },
+        {
+          "label": "Seguridad con las hogueras en el NT"
+        },
+        {
+          "label": "ACT Parks: hogueras"
+        },
+        {
+          "label": "WA Building and Energy: acampar con gas con seguridad"
+        },
+        {
+          "label": "NT: declaración del periodo de peligro de incendios de junio de 2026"
+        },
+        {
+          "label": "Prohibiciones y restricciones de fuego en los parques nacionales de SA"
+        },
+        {
+          "label": "ForestrySA: acampar"
+        },
+        {
+          "label": "Tasmania Parks: Fuel Stove Only Areas"
         }
       ],
       "priceTable": null
@@ -3268,7 +3416,7 @@
         {
           "heading": "Cómo sacarle partido al dinero una vez aquí",
           "body": [
-            "El pago con tarjeta sin contacto se acepta casi en todas partes, incluso en pequeñas cafeterías de pueblo, aunque son habituales los recargos del uno al dos por ciento por pagar con tarjeta, que se aplican en caja y no aparecen en la carta. El efectivo sigue haciendo falta para las cajas de pago por confianza, los puestos de carretera y algunos roadhouses remotos.",
+            "El pago sin contacto con tarjeta se acepta casi en todas partes, incluso en cafeterías pequeñas de pueblo, y desde el 1 de octubre de 2026 los comercios ya no pueden añadir un recargo a los pagos con eftpos, Mastercard o Visa. El efectivo sigue haciendo falta en las honesty boxes (cajas donde dejas el pago), los puestos junto a la carretera y algunos roadhouses aislados.",
             "Las comisiones por pagos en el extranjero son la sangría silenciosa. Una tarjeta de viaje o un banco que no las cobre te ahorra una cantidad considerable en un mes, y además te quita la tentación de aceptar la conversión dinámica de divisa en el datáfono, que siempre aplica el peor cambio.",
             "Ten un pequeño fondo de emergencia totalmente separado del presupuesto del viaje, porque su razón de ser es que nunca tengas que plantearte si te puedes permitir un gasto imprevisto."
           ],
@@ -3972,7 +4120,7 @@
         ],
         [
           "¿Cómo se calcula el combustible para un viaje por carretera por Australia?",
-          "Toma la distancia de la ruta, súmale una quinta parte para desvíos y calcula con el consumo real de tu vehículo, no con la cifra del folleto. Una camper cargada y con viento de cara no va a cumplir el consumo homologado, y en Australia sopla mucho viento de cara."
+          "Toma la distancia de la ruta y suma una quinta parte por desvíos, multiplica por el consumo real de tu vehículo en litros cada 100 km y divide entre 100 para obtener los litros; después multiplica por el precio del litro. Un trayecto de 1.000 km a 12 l/100 km gasta 120 litros. Usa el consumo real, no el del folleto: una camper cargada con viento de cara no alcanza el consumo homologado."
         ]
       ],
       "sources": [
@@ -4347,7 +4495,7 @@
           "body": [
             "Las normas sobre el móvil son estrictas y en varios estados se vigilan con cámaras específicas de detección. Tocar el móvil mientras conduces, incluso parado en un atasco, es una infracción con multas elevadas y pérdida de puntos.",
             "El manos libres con soporte o Bluetooth suele estar permitido para quien tiene el permiso definitivo, pero está totalmente prohibido para los conductores en prácticas y noveles. Configura el navegador antes de arrancar.",
-            "Las multas se envían al titular del vehículo, así que la empresa de alquiler te las repercutirá con un cargo de gestión. Los puntos no se aplican a los permisos extranjeros, pero las multas, desde luego, sí."
+            "Las multas de las cámaras van al titular del vehículo, así que la empresa de alquiler te identificará como conductor y normalmente añadirá una tarifa de gestión. Quienes conducen con un <a data-guide=\"overseas-driver-licence-australia-state-guide\">permiso extranjero</a> también acumulan puntos, y perder demasiados en un estado supone perder el derecho a conducir allí."
           ],
           "tips": [
             "Las cámaras de detección están por todas partes",
@@ -4388,6 +4536,21 @@
         },
         {
           "label": "Alcohol y drogas en NSW"
+        },
+        {
+          "label": "Puntos del permiso en NSW"
+        },
+        {
+          "label": "Queensland: conducir con un permiso extranjero"
+        },
+        {
+          "label": "VicRoads: conducir con un permiso extranjero"
+        },
+        {
+          "label": "Conductores de visita en el NT e infracciones de tráfico"
+        },
+        {
+          "label": "Revenue NSW: nombrar a otro conductor en una multa"
         }
       ],
       "priceTable": null
@@ -4557,7 +4720,7 @@
         {
           "heading": "Señales de velocidad y límites variables",
           "body": [
-            "Los límites de velocidad se indican en kilómetros por hora y el límite genérico en carretera varía según el estado: 100 en la mayoría, 110 en muchas autovías y 130 en determinados tramos del Northern Territory.",
+            "<a data-guide=\"australia-road-rules-state-differences\">Los límites de velocidad</a> están en kilómetros por hora. Donde no hay ninguna señal de velocidad, el límite por defecto fuera de zonas urbanas es de 100 km/h en la mayoría de los estados y de 110 km/h en Australia Occidental y en el Territorio del Norte. Algunas carreteras están señalizadas a 110 km/h, y el Territorio del Norte permite 130 km/h solo en los tramos de las carreteras Stuart, Barkly, Victoria y Arnhem donde lo indican las señales.",
             "Los paneles de mensaje variable y las señales electrónicas de velocidad prevalecen sobre los límites fijos y son habituales en obras, túneles y zonas escolares. Los límites de las obras se aplican tanto si se ve a gente trabajando como si no.",
             "Las velocidades recomendadas de las señales amarillas en las curvas no son límites legales, sino que están pensadas para un turismo en buenas condiciones. Con una camper cargada o remolcando, la velocidad segura es todavía menor."
           ],
@@ -4616,6 +4779,15 @@
         },
         {
           "label": "Señales de tráfico del Northern Territory"
+        },
+        {
+          "label": "Zonas de velocidad de Main Roads WA"
+        },
+        {
+          "label": "Límites de velocidad del Territorio del Norte"
+        },
+        {
+          "label": "SA Driver's Handbook: límites de velocidad"
         }
       ],
       "priceTable": null
@@ -4732,8 +4904,8 @@
       "priceTable": null
     },
     "towing-caravan-australia-road-rules": {
-      "title": "Remolcar una caravana en Australia: pesos, velocidad y diferencias entre estados",
-      "description": "Guía práctica sobre límites con carga, enganches, distancia de frenado y las normas de remolque que cambian al cruzar de un estado a otro.",
+      "title": "Remolcar una caravana en Australia 2026: velocidad, peso y permiso",
+      "description": "Remolcar en Australia en 2026: qué cubre el permiso de coche, velocidad máxima en Australia Occidental y Nueva Gales del Sur, peso sobre la bola y límites de carga.",
       "region": "Australia",
       "imageAlt": "Coche con caravana circulando por una carretera australiana",
       "intro": "Remolcar con seguridad empieza por el conjunto real cargado, no por el folleto de la caravana vacía. Los límites del fabricante, la carga sobre la bola, las condiciones del permiso y las normas de cada jurisdicción tienen que cuadrar.",
@@ -4797,12 +4969,12 @@
           "body": [
             "El límite que manda es el más bajo de estos: la capacidad de remolque del vehículo tractor, la homologación de la barra de remolque, la masa total del remolque (ATM) de la caravana y la capacidad de la bola. Superar cualquiera de ellos afecta al comportamiento, a la frenada y al seguro.",
             "Pesa el conjunto cargado en lugar de calcularlo a ojo. Hay básculas públicas en muchos sitios y son baratas, y la mayoría de las caravanas viajan con más peso del que creen sus dueños.",
-            "Deja alrededor del diez por ciento del peso sobre la bola y coloca los objetos pesados abajo y sobre el eje. Cargar la caravana por detrás es la causa más habitual del serpenteo."
+            "Deja entre el 5 y el 10 % del peso de la caravana cargada sobre la bola, como aconseja la guía de Nueva Gales del Sur, y comprueba los límites en los manuales de tu vehículo y tu caravana. Coloca los objetos pesados abajo y sobre el eje. Cargar la caravana por detrás es la causa más habitual del serpenteo."
           ],
           "tips": [
             "Manda el límite más bajo",
             "Usa una báscula pública",
-            "El diez por ciento sobre la bola"
+            "Revisa el peso sobre la bola"
           ]
         },
         {
@@ -4822,11 +4994,11 @@
       "faq": [
         [
           "¿Cuál es el límite de velocidad para remolcar una caravana en Australia?",
-          "Depende del estado. Western Australia y el Northern Territory imponen a los vehículos con remolque un límite inferior al general, mientras que la mayoría de los estados del este aplican el límite señalizado normal. La estabilidad del propio conjunto suele ser el verdadero límite."
+          "Depende del estado. En Australia Occidental, cualquier vehículo que arrastre un remolque o una caravana tiene un tope de 100 km/h. En Nueva Gales del Sur ese tope de 100 km/h se aplica cuando el GVM o el GCM del vehículo tractor supera las 4,5 toneladas; por debajo de esa cifra rige el límite señalizado. Consulta las normas de remolque de cada estado antes de cruzar una frontera y conduce según la estabilidad del conjunto y las condiciones."
         ],
         [
           "¿Hace falta un permiso especial para remolcar una caravana en Australia?",
-          "El permiso de turismo estándar cubre la mayoría de los conjuntos de hasta 4,5 toneladas de masa máxima del conjunto. Por encima de eso se necesita un permiso Light Rigid o Medium Rigid, y superar la capacidad de remolque homologada de tu vehículo anula el seguro, tengas el permiso que tengas."
+          "El permiso de coche normal cubre un vehículo tractor de hasta 4,5 toneladas de masa máxima autorizada (GVM); uno más pesado exige un permiso light rigid o superior. El permiso no amplía los límites de remolque: la caravana cargada debe respetar el más bajo entre la capacidad de remolque del vehículo, la homologación de la barra y el enganche, la del propio remolque y la capacidad de carga de los neumáticos. En Nueva Gales del Sur, quienes están en prácticas no pueden remolcar y los conductores con permiso P1 solo pueden llevar remolques de hasta 250 kg en vacío."
         ]
       ],
       "sources": [
@@ -4838,6 +5010,9 @@
         },
         {
           "label": "Remolque de caravanas en South Australia"
+        },
+        {
+          "label": "Clases de permiso en NSW"
         }
       ],
       "priceTable": null
@@ -5051,7 +5226,7 @@
         ],
         [
           "¿Qué normas cambian más entre los estados de Australia?",
-          "Los límites de velocidad con remolque, la distancia mínima para adelantar a ciclistas, las normas para circular por pistas sin asfaltar con un vehículo de alquiler y los horarios de las zonas escolares. Los puntos del permiso se comparten entre estados, aunque las normas por las que se pierden no sean las mismas."
+          "Los límites de velocidad con remolque, la distancia mínima para adelantar a ciclistas, las normas para circular por pistas sin asfaltar con un vehículo de alquiler y los horarios de las zonas escolares. La mayoría de los estados anotan en tu permiso de origen los puntos de una infracción cometida en otro estado, aunque Australia Occidental no lo hace."
         ]
       ],
       "sources": [
@@ -5069,6 +5244,18 @@
         },
         {
           "label": "Límites de velocidad en el NT"
+        },
+        {
+          "label": "Puntos del permiso en NSW"
+        },
+        {
+          "label": "Puntos del permiso en Queensland"
+        },
+        {
+          "label": "Puntos del permiso en WA"
+        },
+        {
+          "label": "Austroads: permisos de conducir en Australia"
         }
       ],
       "priceTable": null
@@ -6413,6 +6600,360 @@
         },
         {
           "label": "Normas de remolque en WA"
+        }
+      ],
+      "priceTable": null
+    },
+    "adelaide-to-uluru-road-trip": {
+      "title": "",
+      "description": "",
+      "region": "",
+      "imageAlt": "",
+      "intro": "",
+      "sections": [
+        {
+          "heading": "",
+          "body": [
+            "",
+            ""
+          ],
+          "tips": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "heading": "",
+          "body": [
+            "",
+            ""
+          ],
+          "tips": []
+        },
+        {
+          "heading": "",
+          "body": [
+            "",
+            ""
+          ],
+          "tips": []
+        },
+        {
+          "heading": "",
+          "body": [
+            "",
+            "",
+            ""
+          ],
+          "tips": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "heading": "",
+          "body": [
+            "",
+            "",
+            ""
+          ],
+          "tips": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "heading": "",
+          "body": [
+            "",
+            "",
+            ""
+          ],
+          "tips": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "heading": "",
+          "body": [
+            "",
+            "",
+            "Uluru-Kata Tjuta tiene su propio pase de parque: a octubre de 2026 cuesta 38 AUD por adulto para 3 días o 50 AUD para un año, y los menores de 18 años entran gratis. Comprarlo por internet es lo más rápido, pero también se puede comprar en la garita de entrada del parque. Watarrka, donde está Kings Canyon, es un parque aparte, así que comprueba qué necesita tu ruta antes de llegar a una barrera."
+          ],
+          "tips": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "heading": "",
+          "body": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "tips": [
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [
+        {
+          "label": "Pases del parque Uluru-Kata Tjuta"
+        },
+        {
+          "label": "Visitor Pass de NT Parks"
+        }
+      ],
+      "priceTable": null
+    },
+    "australian-alps-camping-route": {
+      "title": "",
+      "description": "",
+      "region": "",
+      "imageAlt": "",
+      "intro": "",
+      "sections": [
+        {
+          "heading": "",
+          "body": [
+            "",
+            ""
+          ],
+          "tips": []
+        },
+        {
+          "heading": "",
+          "body": [
+            "",
+            ""
+          ],
+          "tips": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "heading": "",
+          "body": [
+            "",
+            ""
+          ],
+          "tips": []
+        },
+        {
+          "heading": "",
+          "body": [
+            "La Alpine Way entre Khancoban y Jindabyne es el eje de esta ruta: está asfaltada y abierta todo el año. Entre los fines de semana largos de junio y de octubre, los vehículos de tracción a dos ruedas (2WD) deben llevar cadenas para la nieve en la Alpine Way entre Thredbo y Tom Groggin, y el NPWS recomienda cadenas también para los 4WD y los AWD.",
+            "",
+            ""
+          ],
+          "tips": [
+            "Cadenas obligatorias en invierno para 2WD",
+            "",
+            ""
+          ]
+        },
+        {
+          "heading": "",
+          "body": [
+            "",
+            "",
+            ""
+          ],
+          "tips": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "heading": "",
+          "body": [
+            "",
+            "",
+            ""
+          ],
+          "tips": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "heading": "",
+          "body": [
+            "",
+            "",
+            ""
+          ],
+          "tips": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "heading": "",
+          "body": [
+            "",
+            "",
+            "",
+            "Entre los fines de semana largos de junio y de octubre, los vehículos 2WD deben llevar cadenas para la nieve en la Kosciuszko Road desde el límite del parque en el Thredbo River, en la Alpine Way entre Thredbo y Tom Groggin y en toda la Island Bend/Guthega Road. Las cadenas no son obligatorias para los 4WD y los AWD, pero el NPWS recomienda llevarlas, y cualquier conductor debe ponérselas cuando lo indiquen las señales del parque o los guardas."
+          ],
+          "tips": [
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [
+        {
+          "label": "Normas del NPWS para conducir sobre nieve"
+        },
+        {
+          "label": "Información para visitantes del Kosciuszko National Park"
+        },
+        {
+          "label": "Información para visitantes sobre la Kosciuszko Alpine Way"
+        }
+      ],
+      "priceTable": null
+    },
+    "darwin-kakadu-litchfield-loop": {
+      "title": "",
+      "description": "",
+      "region": "",
+      "imageAlt": "",
+      "intro": "",
+      "sections": [
+        {
+          "heading": "",
+          "body": [
+            "",
+            ""
+          ],
+          "tips": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "heading": "",
+          "body": [
+            "",
+            ""
+          ],
+          "tips": []
+        },
+        {
+          "heading": "",
+          "body": [
+            "",
+            ""
+          ],
+          "tips": []
+        },
+        {
+          "heading": "",
+          "body": [
+            "",
+            "",
+            ""
+          ],
+          "tips": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "heading": "",
+          "body": [
+            "",
+            "",
+            ""
+          ],
+          "tips": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "heading": "",
+          "body": [
+            "",
+            "",
+            ""
+          ],
+          "tips": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "heading": "",
+          "body": [
+            "Gran parte de lo mejor de Kakadu, incluidas Jim Jim Falls y Twin Falls, exige un 4x4 con mucha altura libre al suelo y obliga a cruzar arroyos. Un vehículo de tracción a dos ruedas sí llega a Ubirr y a Burrungkuy (Nourlangie) en la estación seca. El informe de accesos de Kakadu indica ahora que la Gunlom Road es solo para 4x4 con mucha altura libre, y algunas empresas de alquiler no permiten los vehículos de tracción a dos ruedas en caminos sin asfaltar, así que consulta el informe de accesos y las condiciones de tu alquiler.",
+            "",
+            ""
+          ],
+          "tips": [
+            "",
+            "",
+            "Mira las condiciones del alquiler"
+          ]
+        },
+        {
+          "heading": "",
+          "body": [
+            "",
+            "Haz la compra grande en Darwin antes de entrar en cualquiera de los dos parques. Dentro de Kakadu, Jabiru tiene supermercado y gasolinera, y la tienda de Cooinda vende combustible y alimentos. El combustible también es bastante más barato en la ciudad.",
+            "",
+            ""
+          ],
+          "tips": [
+            "",
+            "",
+            "Jabiru y Cooinda tienen tiendas"
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [
+        {
+          "label": "Pases del parque Kakadu"
+        },
+        {
+          "label": "Moverse por Kakadu"
+        },
+        {
+          "label": "Informe de accesos y avisos de Kakadu"
+        },
+        {
+          "label": "Compras en Kakadu"
+        },
+        {
+          "label": "NT Parks: Litchfield National Park"
+        },
+        {
+          "label": "Visitor Pass de NT Parks"
         }
       ],
       "priceTable": null
