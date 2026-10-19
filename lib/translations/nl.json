@@ -2089,120 +2089,258 @@
       "priceTable": null
     },
     "campfires-camping-australia": {
-      "title": "Regels voor kampvuren bij het kamperen in Australië",
-      "description": "Check lokale stookverboden, parkregels en het weer voordat je een lucifer afstrijkt.",
+      "title": "Regels voor kampvuren in Australië 2026: stookverboden en boetes per staat",
+      "description": "Wanneer mag je in elke staat een kampvuur maken: brandseizoenen, Total Fire Bans, gasstellen op verbodsdagen en de boetes. Officiële regels, gecheckt in oktober 2026.",
       "region": "Australië",
       "imageAlt": "Toegestaan kampvuur in een aangewezen vuurring",
-      "intro": "Of je een kampvuur mag maken, kan veranderen met het district, het seizoen, de brandstof en het brandgevaarniveau. Een vuurring bewijst alleen dat er ooit vuur is gestookt, niet dat het vandaag mag.",
+      "intro": "Een kampvuur mag alleen als er voor het district geen stookverbod geldt, de beheerder van het terrein vuur op die plek toestaat en je je houdt aan de regels voor grootte en vrijgemaakte ruimte. Elke staat heeft een eigen systeem: NSW, Victoria, South Australia, Western Australia, Tasmania en het ACT kondigen Total Fire Bans af, Queensland kondigt in plaats daarvan lokale stookverboden af, en de stookverboden in het Northern Territory duren meestal maximaal 24 uur.",
       "sections": [
+        {
+          "heading": "De regels per staat",
+          "body": [
+            "Vaste brandstof is de constante: op elke verbodsdag zijn vuren op hout, houtskool en briketten illegaal in het getroffen district, vuurringen inbegrepen. Wat per staat verschilt, is het brandseizoen, de regels voor grootte en vrijgemaakte ruimte bij een toegestaan vuur, en of een gaskookstel op een verbodsdag in een park nog mag.",
+            "Lees de rij voor de staat waar je bent en check dan op de dag zelf de brandweerautoriteit. Parkbeheerders kunnen daarbovenop eigen verboden en afsluitingen instellen, en die gelden ook als de brandweerautoriteit niets heeft afgekondigd."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Regels voor kampvuren per staat, gecheckt in oktober 2026",
+            "head": [
+              "Staat",
+              "Brandweerautoriteit",
+              "Brandseizoen 2026-27",
+              "Kooktoestellen in parken op een verbodsdag",
+              "Toegestaan kampvuur"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "NSW Rural Fire Service",
+                "Meestal 1 oktober tot 31 maart; in sommige gebieden begint het eerder of eindigt het later",
+                "Gaskookstellen van bezoekers meestal verboden in nationale parken",
+                "State Forests: onder 1 m², 4,5 m van bomen"
+              ],
+              [
+                "Victoria",
+                "CFA",
+                "Per gemeente vastgesteld",
+                "Kooktoestellen op vaste en chemische brandstof verboden",
+                "Onder 1 m breed, 3 m kaal gemaakt, altijd onder toezicht"
+              ],
+              [
+                "Queensland",
+                "Queensland Fire Department",
+                "Lokale stookverboden; geen term Total Fire Ban",
+                "Afgeschermde gas- en spiritusbranders toegestaan",
+                "Alleen in QPWS-vuurplaatsen en vuurringen"
+              ],
+              [
+                "South Australia",
+                "Country Fire Service",
+                "Vanaf 15 oktober of 1 november in veel districten; andere later",
+                "Per park vastgesteld; check de stookbeperkingen van NPWS voor het park",
+                "Geul van 30 cm, 1 m², 4 m kaal gemaakt"
+              ],
+              [
+                "Western Australia",
+                "DFES en gemeenten",
+                "Stooktijden per gemeente vastgesteld",
+                "Check DBCA en DFES; gas is op verbodsdagen beperkt",
+                "Alleen vuurringen in parken, 3 m kaal gemaakt"
+              ],
+              [
+                "Tasmania",
+                "Tasmania Fire Service",
+                "Periodes met vuurvergunning per gebied afgekondigd",
+                "Alleen LPG en elektrisch; geen branders op vloeibare brandstof",
+                "Onder 1 m bij 1 m, 3 m van brandbaar materiaal"
+              ],
+              [
+                "Northern Territory",
+                "NT Government (Bushfires NT)",
+                "Per district afgekondigd (Top End: 22 juni tot 4 oktober 2026)",
+                "Kookvuren hebben geen vergunning nodig; andere vuren wel",
+                "4 m kaal gemaakt rond elk vuur"
+              ],
+              [
+                "ACT",
+                "ACT Emergency Services Agency",
+                "Afgekondigd door de ACT Emergency Services Agency",
+                "Gasbarbecues in parken uitgeschakeld",
+                "Alleen aangelegde vuurplaatsen in vier gebieden"
+              ]
+            ]
+          }
+        },
         {
           "heading": "Drie checks voordat je aansteekt",
           "body": [
-            "Lees de regels van de camping, check de brandweerautoriteit van de staat en kijk of er lokale parkmeldingen zijn. Een volledig stookverbod gaat boven de gewone toestemming van de camping.",
-            "Ook gasstellen kunnen bij extreme omstandigheden aan banden worden gelegd. Check de regel voor jouw toestel, niet alleen die voor open vuur."
+            "Check de brandweerautoriteit voor het district, de pagina met parkmeldingen en de eigen regels van de camping. Bel in <a data-guide=\"camping-rules-queensland\">Queensland</a> 1800 020 440 of check bij het lokale kantoor van de Rural Fire Service als je niet zeker weet of een stookverbod geldt.",
+            "Verboden worden meestal de middag ervoor afgekondigd, al kan de RFS er ook op de dag zelf een afkondigen. Check dus ’s avonds en ’s ochtends nog een keer, dan pas je het avondeten aan in plaats van op de camping te reageren."
           ],
           "tips": []
         },
         {
           "heading": "Brandhout en voorbereiding",
           "body": [
-            "In veel parken is hout sprokkelen verboden, omdat dood hout leefgebied is. Neem alleen schoon, onbehandeld brandhout mee waar de beheerder dat toestaat.",
-            "Gebruik een bestaande vuurplaats, maak de directe omgeving vrij zoals voorgeschreven en houd water naast je. Steek nooit een vuur aan onder takken of bij harde wind."
+            "Brandhout sprokkelen is in de meeste staten verboden in nationale parken omdat gevallen hout leefgebied is, en in <a data-guide=\"camping-rules-western-australia\">Western Australia</a> geldt het verbod voor nationale parken en andere natuurreservaten. Neem schoon, onbehandeld hout van buiten het park mee waar vuur is toegestaan.",
+            "Gebruik de vuurplaats die er is, maak de ruimte vrij zoals de regels voorschrijven en houd water naast je, niet in het voertuig. Steek nooit een vuur aan onder takken of bij harde wind."
           ],
           "tips": [
-            "Toestemming gecheckt",
-            "Water klaar",
-            "Een volwassene houdt toezicht op het vuur"
+            "Neem je eigen hout mee",
+            "Water naast het vuur",
+            "Geen vuur bij harde wind"
           ]
         },
         {
           "heading": "Doof het tot alles koud is",
           "body": [
-            "Doof met water, roer door de resten en herhaal dat tot alles koud genoeg is om aan te raken. Zand kan hete sintels verbergen in plaats van ze te doven.",
-            "Laat een vuur nooit onbeheerd, ook niet terwijl je slaapt. Steekt de wind op of voelt er iets niet goed, doof het dan."
+            "Giet water over het vuur, roer door de as en giet opnieuw tot de resten koud zijn als je ze aanraakt. Zand kan hete sintels verbergen in plaats van ze te doven.",
+            "Laat een vuur nooit onbeheerd, ook niet terwijl het uitbrandt of terwijl je slaapt. Steekt de wind op, doof het dan."
           ],
           "tips": []
         },
         {
-          "heading": "Brandgevaarniveaus en Total Fire Bans",
+          "heading": "Brandgevaarniveaus en stookverboden",
           "body": [
-            "Australië gebruikt een landelijk systeem van brandgevaarniveaus (Fire Danger Rating) met vier niveaus, van „Moderate” tot „Catastrophic”, dat dagelijks per district wordt gepubliceerd. Total Fire Bans (totale stookverboden) worden apart afgekondigd en verbieden elk open vuur, welk niveau er ook geldt.",
-            "Op een dag met een Total Fire Ban zijn kampvuren en barbecues op vaste brandstof verboden. Gastoestellen zijn meestal toegestaan onder voorwaarden, zoals een vrijgemaakte ruimte en voortdurend toezicht, maar de precieze tekst van het verbod is bepalend.",
-            "Niveaus en verboden worden elke middag voor de volgende dag bekendgemaakt. Check ze in de zomer dagelijks in plaats van te vertrouwen op hoe het weer aanvoelt, want het besluit is gebaseerd op de verwachte omstandigheden."
+            "Het Australian Fire Danger Rating System kent vier niveaus: Moderate, High, Extreme en Catastrophic, per district gepubliceerd. Een Total Fire Ban wordt apart afgekondigd, dus check allebei en lees het niveau niet als toestemming.",
+            "Op een verbodsdag zijn kampvuren en barbecues op vaste brandstof in het district illegaal. Bij gas verschillen de staten: nationale parken in NSW verbieden gaskookstellen van bezoekers meestal, parken in het ACT zetten gasbarbecues uit, de regels van de parken in South Australia gelden per park, Tasmania staat LPG- en elektrische stellen wel toe maar geen stellen op vloeibare brandstof, en <a data-guide=\"camping-rules-queensland\">Queensland</a> staat tijdens een stookverbod afgeschermde gas- en spiritusbranders toe.",
+            "Parken sluiten ook op de slechtste dagen. Parken in South Australia en bossen van ForestrySA kunnen op verbodsdagen sluiten, en NPWS kan in NSW een eigen stookverbod voor een park afkondigen of een park sluiten als het risico hoog is."
           ],
           "tips": [
             "Vier niveaus, van Moderate tot Catastrophic",
-            "Verboden sluiten vaste brandstof volledig uit",
-            "Check de afkondiging dagelijks"
+            "Vaste brandstof is op verbodsdagen overal verboden",
+            "De regels voor gas verschillen per staat"
           ]
         },
         {
           "heading": "Waar vuur überhaupt mag",
           "body": [
-            "Veel nationale parken verbieden kampvuren permanent, vooral in droge gebieden, waar brandhout sprokkelen leefgebieden verwoest die decennia nodig hebben om te ontstaan. Andere staan ze alleen toe in de aanwezige vuurplaatsen.",
-            "In de meeste nationale parken en reservaten is brandhout sprokkelen verboden. Neem je eigen hout van buiten het gebied mee, en houd er rekening mee dat sommige regio’s ook het vervoer van brandhout beperken om de verspreiding van plagen tegen te gaan.",
-            "Kijk op de pagina van de specifieke camping in plaats van naar de regel voor de hele staat. Op veel plekken is de regel van de beheerder strenger dan het brandgevaarsysteem en geldt die het hele jaar."
+            "Veel parken verbieden vuur een deel van het jaar of het hele jaar. Ikara-Flinders Ranges verbiedt houtvuren tijdens de periode van het stookverbod, van half oktober 2026 tot eind maart 2027, ForestrySA verbiedt vuur in zijn bossen van 1 november tot 30 april, en veel parken in Western Australia stoppen kampvuren van ongeveer 1 december tot 31 maart.",
+            "De Fuel Stove Only Areas van <a data-guide=\"camping-rules-tasmania\">Tasmania</a> verbieden kampvuren het hele jaar in een groot deel van de wildernis, waaronder Cradle Mountain-Lake St Clair, Freycinet en Mount Field. In het ACT zijn kampvuren alleen toegestaan in aangelegde vuurplaatsen in vier gebieden: Namadgi, Tidbinbilla en de recreatiegebieden Cotter en Uriarra Crossing.",
+            "De pagina van de camping beslist uiteindelijk, want de regel van een beheerder is vaak strenger dan het brandgevaarsysteem en geldt het hele jaar."
           ],
           "tips": [
-            "Veel parken verbieden vuur permanent",
-            "Brandhout sprokkelen is meestal verboden",
-            "Neem je eigen hout mee"
+            "Seizoensverboden in parken komen vaak voor",
+            "Tasmania: Fuel Stove Only Areas",
+            "De pagina van de camping beslist"
           ]
         },
         {
           "heading": "Een legaal vuur aanleggen en onder controle houden",
           "body": [
-            "Waar het mag: gebruik een bestaande vuurplaats, houd het vuur klein, haal brandbaar materiaal ruim weg en zorg dat er water direct naast je staat en niet in het voertuig. Steek nooit iets aan bij wind of onder overhangende takken.",
-            "Gangbare voorwaarden leggen een maximale grootte van het vuur vast, een vrijgemaakte straal van een paar meter en voortdurend toezicht door een volwassene. Ze gelden ook buiten Total Fire Bans, en wie ze overtreedt, riskeert straffen.",
-            "Laat een vuur nooit onbeheerd, ook niet terwijl het uitbrandt. De meeste kampvuren die uit de hand lopen, beginnen nadat de mensen die ze aanstaken hadden besloten dat het bijna uit was."
+            "De regels voor grootte en vrijgemaakte ruimte verschillen: State Forests in NSW eisen een vuur onder één vierkante meter en 4,5 meter van de dichtstbijzijnde boom, State Forests in Victoria een vuur onder een meter breed met drie meter kaal gemaakte grond eromheen, en <a data-guide=\"camping-rules-south-australia\">South Australia</a> een geul van 30 cm diep tijdens het brandseizoen.",
+            "CFA vraagt dat een kampvuur altijd wordt bewaakt door een wakkere, alerte volwassene binnen 50 meter, en alleen als de wind onder 10 km/u is. Die voorwaarden zijn overal in Australië een goede standaard.",
+            "Kampvuren die uit de hand lopen, beginnen vaak nadat de mensen die ze aanstaken hadden besloten dat het bijna uit was. Behandel het vuur als levend tot het koud is als je het aanraakt."
           ],
           "tips": [
-            "Water naast je, niet in het voertuig",
-            "Vrijgemaakte straal van een paar meter",
-            "Laat het nooit onbeheerd"
+            "Wind onder 10 km/u",
+            "Volwassene binnen 50 meter",
+            "Levend tot het koud is"
           ]
         },
         {
-          "heading": "Doven en de gevolgen",
+          "heading": "Boetes en aansprakelijkheid",
           "body": [
-            "Een vuur is pas uit als het koud aanvoelt. Giet er water over, roer door de as, giet opnieuw en ga door tot je je hand in de resten kunt leggen. Sintels blijven onder de as urenlang heet.",
-            "Op vuren die uit de hand lopen staan in elke staat zware straffen, tot hoge boetes en gevangenisstraf aan toe als nalatigheid wordt vastgesteld. Je kunt ook aansprakelijk zijn voor de bluskosten, en die lopen in zeer grote bedragen.",
-            "Raakt een vuur buiten controle, probeer het dan niet langer dan de eerste seconden te bestrijden. Ga weg en bel meteen 000 (triple zero) met een zo duidelijk mogelijke locatie."
+            "Wie in NSW op een dag met een Total Fire Ban vuur maakt, krijgt een boete van A$ 2.200 ter plekke, of voor de rechter tot A$ 5.500 en 12 maanden cel. <a data-guide=\"camping-rules-western-australia\">Western Australia</a> geeft een boete van A$ 1.000, met bij veroordeling tot A$ 25.000 en 12 maanden cel.",
+            "CFA waarschuwt dat vuur op een dag met een Total Fire Ban in <a data-guide=\"camping-rules-victoria\">Victoria</a> een boete van meer dan A$ 40.000, twee jaar cel of allebei kan opleveren. In het Northern Territory kost vuur maken voor iets anders dan koken zonder vergunning tot ongeveer A$ 77.000 of vijf jaar, en geen 4 meter kaal maken rond een vuur tot ongeveer A$ 15.000. De bedragen worden geïndexeerd, dus check de pagina van het NT.",
+            "Raakt een vuur buiten controle, bestrijd het dan niet langer dan de eerste seconden. Ga weg en bel 000 (triple zero) met een zo duidelijk mogelijke locatie."
           ],
           "tips": [
-            "Uit betekent koud bij aanraking",
-            "Aansprakelijkheid omvat de bluskosten",
-            "Bel 000 en ga weg"
+            "NSW, boete op een verbodsdag: A$ 2.200",
+            "Victoria: boven A$ 40.000 voor de rechter",
+            "Vuur uit de hand: ga weg en bel 000"
           ]
         },
         {
           "heading": "Koken als vuur verboden is",
           "body": [
-            "Gasstellen zijn op dagen met een Total Fire Ban meestal toegestaan onder voorwaarden: een vrijgemaakte ruimte, iemand die erbij blijft en water binnen handbereik. Check de precieze tekst van het verbod, want de voorwaarden verschillen per staat.",
-            "Kook nooit in een tent, onder een luifel of in een voertuig zonder ventilatie. Koolmonoxide is reukloos en heeft al kampeerders het leven gekost, en het risico is het grootst bij precies het koude of natte weer waarbij mensen naar binnen willen.",
-            "Houd altijd een licht gasstel in je voertuig, want een Total Fire Ban kan een dag van tevoren worden afgekondigd en zo ben je nooit afhankelijk van een vuur.",
-            "Brandgevaarniveaus worden elke middag voor de volgende dag gepubliceerd, dus als je ze de avond ervoor checkt, heb je tijd om je plannen aan te passen in plaats van alleen te reageren."
+            "Houd altijd een gasstel in je voertuig, en check de regel voor kooktoestellen en voor vuren, want sommige parken verbieden ook die op de slechtste dagen.",
+            "Kook nooit in een tent, onder een luifel of in een afgesloten voertuig. De toezichthouder op gasveiligheid van <a data-guide=\"camping-rules-western-australia\">Western Australia</a> waarschuwt dat draagbare gastoestellen voor buiten nooit gebruikt mogen worden in een tent, een half afgesloten ruimte, een caravan of een camper.",
+            "Plan maaltijden zonder vlam voor de dagen waarop een verbod wordt voorspeld: koude lunches, wraps en eten dat je de avond ervoor hebt klaargemaakt houden je reis op gang."
           ],
           "tips": [
-            "Gas meestal toegestaan onder voorwaarden",
+            "Neem een gasstel mee",
             "Kook nooit in een afgesloten ruimte",
-            "Koolmonoxide ruik je niet"
+            "Plan koude maaltijden voor verbodsdagen"
           ]
         }
       ],
       "faq": [
         [
           "Mag je een kampvuur maken als je kampeert in Australië?",
-          "Alleen als er geen stookverbod is en de beheerder van het terrein het toestaat. De brandweer van elke staat kondigt Total Fire Bans per district en per dag af, en dan is in het hele district geen vuur op vaste brandstof legaal, ook niet in een vuurring."
+          "Ja, als er voor het district geen stookverbod geldt en de camping vuur toestaat, met de vuurplaats die er is en hout dat je zelf meebrengt. Tijdens een Total Fire Ban, of een lokaal stookverbod in Queensland, is vuur op vaste brandstof in dat hele gebied illegaal, ook in vuurringen."
         ],
         [
-          "Hoe check je of er een Total Fire Ban geldt?",
-          "Op de dag zelf op de website van de brandweer van de staat waar je bent: RFS in NSW, CFA in Victoria, QFES in Queensland en hun tegenhangers elders. Brandgevaarniveaus worden elke middag voor de volgende dag vastgesteld."
+          "Mag je op een dag met een Total Fire Ban een gasstel gebruiken?",
+          "Dat hangt af van de staat en van het terrein. In nationale parken van NSW zijn gaskookstellen van bezoekers op die dagen meestal verboden, in parken in het ACT gaan gasbarbecues uit, Tasmania staat LPG- en elektrische stellen wel toe maar geen stellen op vloeibare brandstof, en Queensland staat tijdens een stookverbod afgeschermde gas- en spiritusbranders toe. Check in South Australia de stookbeperkingen voor het park waar je bent."
         ]
       ],
       "sources": [
         {
-          "label": "Bureau of Meteorology: waarschuwingen"
+          "label": "Australian Fire Danger Rating System"
+        },
+        {
+          "label": "NSW RFS: regels voor een Total Fire Ban"
+        },
+        {
+          "label": "NSW RFS: Bush Fire Danger Period"
+        },
+        {
+          "label": "NSW National Parks: stookverboden"
+        },
+        {
+          "label": "Forestry Corporation of NSW: stookverboden voor vaste brandstof"
+        },
+        {
+          "label": "CFA: regels voor kampvuren"
+        },
+        {
+          "label": "Kampvuren in de State Forests van Victoria"
+        },
+        {
+          "label": "Queensland Fire Department: stookverboden"
+        },
+        {
+          "label": "Kampvuren in de parken van Queensland"
+        },
+        {
+          "label": "SA CFS: data van het brandseizoen"
+        },
+        {
+          "label": "SA CFS: wat wel en niet mag"
+        },
+        {
+          "label": "DFES: Total Fire Bans"
+        },
+        {
+          "label": "Parken in WA: kampvuren en brandhout"
+        },
+        {
+          "label": "Tasmania Parks: kampvuren en stookverboden"
+        },
+        {
+          "label": "NT: stookverboden"
+        },
+        {
+          "label": "NT: veiligheid bij kampvuur"
+        },
+        {
+          "label": "ACT Parks: kampvuren"
+        },
+        {
+          "label": "WA Building and Energy: veilig kamperen met gas"
+        },
+        {
+          "label": "NT: afkondiging van een brandgevaarperiode, juni 2026"
+        },
+        {
+          "label": "SA National Parks: stookverboden en beperkingen"
+        },
+        {
+          "label": "ForestrySA: kamperen"
+        },
+        {
+          "label": "Tasmania Parks: Fuel Stove Only Areas"
         }
       ],
       "priceTable": null
