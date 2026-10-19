@@ -14,7 +14,11 @@ Thread: A-content (Kai). Branch `growth/a-content`. Never push. Session 2 took o
 - Card surcharges on eftpos, Mastercard and Visa are banned from 1 October 2026 (RBA conclusions paper, 31 March 2026).
 - Gold Coast and Byron fine amounts only appear in news coverage, not on official pages: do not publish them.
 
-## Blocker for the orchestrator (found 2026-10-20 after rebasing)
+## Orchestrator decision on the parity block (2026-10-20)
+- Batch 1 is handed off WITHOUT the five cost pages: 9d5aaba restores them to main on growth/a-content.
+- Cost-page work lives on branch growth/a-content-costs (worktree /Users/cristian/.t3/worktrees/aussiecamps-web/growth-a-content-costs, cut from 9d5aaba; 60646f7 re-applies the refresh). Apply the cost fact-check fixes there, then write docs/growth/cost-pages-2026-10-20.md (per page: unit id, old English, new English for every unit whose numbers changed). The orchestrator merges it together with the de/es/fr/it/nl/pt updates.
+
+## Blocker for the orchestrator (found 2026-10-20 after rebasing, resolved by the split above)
 - `content:check` now has a number-parity gate (scripts/audit-content.mjs `parityProblems`) that compares every structurally complete translated guide with the English. Text-only English edits that change any amount (fees, fares, prices) make live locales fail: 143 problems in each of de, es, fr, it, nl, pt across 9 text-only edited guides (camping-rules-tasmania, -western-australia, -northern-territory, -act, and the five cost pages). No stamps exist yet (lib/translations/meta/ is empty), so nothing marks those units stale. A content thread cannot fix this (locale JSON and audit scripts are off limits). Needed: either the gate skips units whose English changed (stamps), or treats a guide with parity problems as stale (served in English) instead of failing, or the i18n threads re-translate those nine guides before merge.
 - While iterating, use `/tmp/a-content/scripts/cc.sh` (content:check with that one assert downgraded to a warning; temp copy deleted on exit, never committed).
 
@@ -24,7 +28,7 @@ Thread: A-content (Kai). Branch `growth/a-content`. Never push. Session 2 took o
 
 ## Done (committed on the branch, not yet handed off)
 - 8 state camping-rules pages retitled and rewritten. NSW, QLD, VIC, SA, NT, WA: fact-checked, fixes and sources applied (NT/WA in 1e1fcfe; adding sources makes translations structurally stale, which also clears their parity failures).
-- 5 cost pages (drinks, eating out, flights, public transport, groceries) retitled and refreshed; surcharge line on australia-travel-cost-2026.
+- 5 cost pages: moved to growth/a-content-costs (see above). Surcharge line on australia-travel-cost-2026 stays in batch 1.
 - Structural rewrites: sleeping-in-car-australia, is-free-camping-legal-australia, camping-fees-australia-2026, campfires-camping-australia, dump-points-australia-guide (by state); caravan-park-vs-holiday-park strengthened with a table.
 - Rebased onto main 2026-10-20 (1f7ccad: ISO priceTable dates, en.json regenerated).
 
@@ -33,7 +37,8 @@ Thread: A-content (Kai). Branch `growth/a-content`. Never push. Session 2 took o
 - DONE 9438657 fix batch C1: audit-confirmed errors on darwin-kakadu-litchfield-loop, australian-alps-camping-route, adelaide-to-uluru-road-trip, australian-road-signs-visitors-guide, plus towing-caravan flags. Changed claims in /tmp/a-content/factcheck/c1-changes.md. Darwin loop FAQ not added (road-trip guides carry none per lib/article-faqs.ts header); draft FAQ kept in drafts/.
 - DONE fact-check batch F2: c1-verdicts.md, campfires, dump-points, caravan-park reports in /tmp/a-content/factcheck. DONE b8020e1 fix batch X3 (F2 + caravan-park $16.40).
 - DONE 2adc6f9 demerit points (both lines corrected, sources added) and NSW 5pm fire-ban claim removed; NSW fines $2,200/$5,500 verified. Towing retitled.
-- Fact-check of the 5 cost pages (Sonnet high) running -> factcheck/<slug>.md. Then a fixer applies it, then hand off batch 1.
+- HANDED OFF batch 1 (2026-10-20): growth/a-content, npm run check passed.
+- DONE fact-check of the 5 cost pages (Sonnet high) -> /tmp/a-content/factcheck/<slug>.md. Then a fixer applies it ON growth/a-content-costs, then the cost-pages units doc.
 
 ## DONE: demerit points (from the Spanish lane, 2026-10-20)
 - Verify and correct/qualify, including for overseas licence holders: `lib/article-faqs.ts` australia-road-rules-state-differences FAQ 2 "Demerit points are shared between states even though the rules that earn them are not", and `lib/expanded-articles.ts` driving-in-australia-road-rules-visitors "Demerit points do not apply to overseas licences but the fines certainly do". Also grep the other driving and licence guides for demerit claims. Sources: state transport agencies, national exchange of driver records (NEVDIS/Austroads). Penalty claim, so opus medium. Run after F2 finishes.
