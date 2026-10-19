@@ -8,10 +8,10 @@ export const APP_ID = "6801098680";
 export const APP_STORE_URL = `https://apps.apple.com/app/id${APP_ID}`;
 /** The App Store Connect provider token (`pt`) for campaign links. Empty means store links carry no
  * campaign parameters at all. */
-export const APPLE_PROVIDER_TOKEN = "";
+export const APPLE_PROVIDER_TOKEN = "127436485";
 /** The GA4 measurement ID (G-…). Empty means no analytics script, no consent bar and no
  * "Privacy choices" link on any page. */
-export const GA_MEASUREMENT_ID = "";
+export const GA_MEASUREMENT_ID = "G-XL23QF1F3F";
 /**
  * The final URL for a site path.
  *
