@@ -26,10 +26,10 @@ AussieCamps (50): batches a01..a13. KiwiCamping (43): batches k01..k11. Status p
 |---|---|---|
 | a01 | alcohol-coffee-drink-prices-australia, sleeping-in-car-australia, camping-rules-new-south-wales, public-transport-costs-australia-2026 | applied |
 | a02 | eating-out-australia-prices-2026, camping-rules-western-australia, dump-points-australia-guide, camping-rules-victoria | applied |
-| a03 | australia-grocery-prices-2026, interstate-biosecurity-road-trip, campervan-road-trip-budget-australia, accommodation-costs-australia-2026 | in progress |
-| a04 | camping-rules-south-australia, domestic-flight-costs-australia-2026, camping-rules-act, camping-rules-queensland | in progress |
-| a05 | australian-road-signs-visitors-guide, caravan-park-vs-holiday-park, towing-caravan-australia-road-rules, best-time-camping-australia | queued |
-| a06 | camping-rules-northern-territory, australia-road-rules-state-differences, camping-fees-australia-2026, australia-travel-cost-2026 | queued |
+| a03 | australia-grocery-prices-2026, interstate-biosecurity-road-trip, campervan-road-trip-budget-australia, accommodation-costs-australia-2026 | applied |
+| a04 | camping-rules-south-australia, domestic-flight-costs-australia-2026, camping-rules-act, camping-rules-queensland | applied |
+| a05 | australian-road-signs-visitors-guide, caravan-park-vs-holiday-park, towing-caravan-australia-road-rules, best-time-camping-australia | applied |
+| a06 | camping-rules-northern-territory, australia-road-rules-state-differences, camping-fees-australia-2026, australia-travel-cost-2026 | applied (a06 rewrite 112/239 units, rest kept) |
 | a07 | australia-road-trip-fuel-cost-2026, camping-rules-tasmania, is-free-camping-legal-australia, camping-without-phone-signal | queued |
 | a08 | campervan-driving-australia-safety-guide, camping-water-planning, bus-train-costs-australia-2026, campfires-camping-australia | queued |
 | a09 | overseas-driver-licence-australia-state-guide, best-camping-app-australia, driving-in-australia-road-rules-visitors, driving-in-australia-overseas-licence | queued |
@@ -50,6 +50,10 @@ AussieCamps (50): batches a01..a13. KiwiCamping (43): batches k01..k11. Status p
 | k11 | kiwicamping-offline-data-guide, kiwicamping-weather-look-around, kiwicamping-currency-place-costs | queued |
 
 ## Next
+- 2026-10-20: AU branch rebased onto origin/main (M2 + tools). a01..a06 applied; 70 `<a data-guide>` link fixes applied to a01..a05 guides (links1). Working files: /tmp/es-work/a/all.json refreshed.
+- Remaining AU placeholder errors (data-guide links) sit in queued guides a07+; they are fixed as each batch is rewritten.
+- Still to do AU: a07..a13, 20 road-trip guides (articles.*-road-trip etc, 53 units each, all missing), `tools` namespace (116 units missing), then glossary errors (86, exonyms, see open question).
+- Kiwi branch i18n/k-es NOT yet rebased (do `git fetch origin && git rebase origin/main`, locales:sync, translations:source there); k04..k11 pending.
 - Remaining guides in GSC order, both sites interleaved.
 - After the foundation milestones merge (orchestrator will message): rebase, regenerate en.json,
   translate road trips, Kiwi legacy pages, `consent`/`article`/`tools` namespaces, `<a data-guide>` markup.
