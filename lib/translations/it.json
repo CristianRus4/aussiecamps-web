@@ -521,120 +521,258 @@
       "priceTable": null
     },
     "campfires-camping-australia": {
-      "title": "Falò in campeggio in Australia: le regole",
-      "description": "Controlla i divieti di fuochi locali, le regole del parco e il meteo prima di accendere un fiammifero.",
+      "title": "Falò in campeggio in Australia 2026: divieti e multe per stato",
+      "description": "Falò in campeggio in Australia: quando sono legali stato per stato, Total Fire Ban, fornelli a gas nei giorni di divieto e multe. Regole ufficiali, verificate a ottobre 2026.",
       "region": "Australia",
       "imageAlt": "Falò consentito in un anello per il fuoco designato",
-      "intro": "Il permesso di accendere un falò può cambiare con il distretto, la stagione, il tipo di combustibile e l’indice di pericolo incendi. Un anello per il fuoco (fire ring) dimostra che lì si sono accesi fuochi, non che oggi sia legale farlo.",
+      "intro": "Un falò è legale solo se per il distretto non c’è un divieto di fuochi, chi gestisce il terreno lo ammette in quel punto e rispetti le regole su dimensioni e area sgombra. Ogni stato ha il suo sistema: New South Wales, Victoria, South Australia, Western Australia, Tasmania e ACT dichiarano i Total Fire Ban (divieti totali di accendere fuochi), il Queensland dichiara invece divieti locali di fuochi, e nel Northern Territory i divieti di solito durano fino a 24 ore.",
       "sections": [
+        {
+          "heading": "Le regole stato per stato",
+          "body": [
+            "Il combustibile solido è la costante: in un giorno di divieto i fuochi a legna, carbone e bricchette (heat bead) sono illegali nel distretto interessato, focolari compresi. Da uno stato all’altro cambiano la stagione degli incendi, le regole su dimensioni e area sgombra per un fuoco legale e la possibilità di usare ancora un fornello a gas in un parco nei giorni di divieto.",
+            "Leggi la riga dello stato in cui ti trovi, poi controlla il servizio antincendio il giorno stesso. Gli enti dei parchi possono aggiungere divieti e chiusure propri, e valgono anche quando il servizio antincendio non ha dichiarato nulla."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Regole sui falò per stato, verificate a ottobre 2026",
+            "head": [
+              "Stato",
+              "Servizio antincendio",
+              "Stagione degli incendi 2026-27",
+              "Fornelli nei parchi nei giorni di divieto",
+              "Falò legale"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "NSW Rural Fire Service",
+                "Di solito dal 1º ottobre al 31 marzo; in alcune zone inizia prima o finisce dopo",
+                "Fornelli a gas dei visitatori in genere vietati nei parchi nazionali",
+                "State Forest: sotto 1 m², a 4,5 m dagli alberi"
+              ],
+              [
+                "Victoria",
+                "CFA",
+                "Stabilita per area comunale",
+                "Fornelli a combustibile solido e chimico vietati",
+                "Meno di 1 m di diametro, 3 m sgombri, sempre sorvegliato"
+              ],
+              [
+                "Queensland",
+                "Queensland Fire Department",
+                "Divieti locali di fuochi; nessun Total Fire Ban",
+                "Fornelli a gas e a spirito con fiamma contenuta ammessi",
+                "Solo nei focolari e nei fire ring dei QPWS"
+              ],
+              [
+                "South Australia",
+                "Country Fire Service",
+                "Dal 15 ottobre o dal 1º novembre in molti distretti; altrove più tardi",
+                "Stabilito parco per parco; controlla le restrizioni antincendio dei parchi (NPWS)",
+                "Fossa di 30 cm, 1 m², 4 m sgombri"
+              ],
+              [
+                "Western Australia",
+                "DFES e comuni",
+                "Gli orari in cui si può bruciare li fissa ogni comune",
+                "Controlla DBCA e DFES; il gas è limitato nei giorni di divieto",
+                "Solo focolari dei parchi, 3 m sgombri"
+              ],
+              [
+                "Tasmania",
+                "Tasmania Fire Service",
+                "Periodi di permesso per i fuochi dichiarati per area",
+                "Solo GPL ed elettrici; niente fornelli a combustibile liquido",
+                "Meno di 1 m per 1 m, a 3 m da ciò che può bruciare"
+              ],
+              [
+                "Northern Territory",
+                "Governo del Northern Territory (Bushfires NT)",
+                "Dichiarata per distretto (Top End: dal 22 giugno al 4 ottobre 2026)",
+                "Per cucinare non serve alcun permesso; per gli altri fuochi sì",
+                "4 m sgombri intorno a ogni fuoco"
+              ],
+              [
+                "ACT",
+                "ACT Emergency Services Agency",
+                "Dichiarata dall’ACT Emergency Services Agency",
+                "Barbecue a gas nei parchi spenti",
+                "Solo focolari costruiti, in quattro aree"
+              ]
+            ]
+          }
+        },
         {
           "heading": "Tre controlli prima di accendere",
           "body": [
-            "Leggi le regole del campeggio, controlla il servizio antincendio dello stato e cerca gli avvisi locali dei parchi. I divieti totali di fuochi, i Total Fire Ban, prevalgono sul normale permesso del campeggio.",
-            "Anche i fornelli a gas possono essere limitati in condizioni estreme. Controlla la regola per il tuo apparecchio, non solo per i fuochi all’aperto."
+            "Controlla il servizio antincendio del distretto, la pagina degli avvisi del parco e le regole del campeggio. Nel <a data-guide=\"camping-rules-queensland\">Queensland</a> chiama il numero 1800 020 440 o rivolgiti all’ufficio locale del Rural Fire Service se non sei sicuro che valga un divieto di fuochi.",
+            "Di solito i divieti vengono dichiarati il pomeriggio prima, ma l’RFS può dichiararne uno anche il giorno stesso: controlla la sera e di nuovo la mattina, così cambi il programma della cena in anticipo invece di dover rimediare al campo."
           ],
           "tips": []
         },
         {
           "heading": "Legna e preparazione",
           "body": [
-            "Raccogliere legna è vietato in molti parchi, perché il legno caduto è un habitat. Porta legna pulita e non trattata solo dove chi gestisce il terreno lo consente.",
-            "Usa un focolare già esistente, libera l’area intorno come indicato e tieni l’acqua accanto a te. Non accendere mai sotto i rami o con vento forte."
+            "Raccogliere legna è vietato nei parchi nazionali della maggior parte degli stati, perché il legno caduto è habitat, e nel <a data-guide=\"camping-rules-western-australia\">Western Australia</a> il divieto vale per i parchi nazionali e le altre riserve naturali. Porta legna pulita e non trattata da fuori parco, dove i fuochi sono ammessi.",
+            "Usa il focolare predisposto, libera l’area come richiedono le regole e tieni l’acqua accanto a te, non nel veicolo. Non accendere mai sotto i rami o con vento forte."
           ],
           "tips": [
-            "Permesso verificato",
-            "Acqua pronta",
-            "Fuoco sorvegliato da un adulto"
+            "Porta la tua legna",
+            "Acqua accanto al fuoco",
+            "Niente fuochi con vento forte"
           ]
         },
         {
           "heading": "Spegnilo finché è freddo",
           "body": [
-            "Spegni con l’acqua, rimesta i resti e ripeti finché tutto è abbastanza freddo da poterlo toccare. La sabbia può nascondere le braci ancora calde invece di spegnerle.",
-            "Non lasciare mai un fuoco incustodito, nemmeno mentre dormi. Se si alza il vento o la situazione non ti convince, spegnilo."
+            "Versa acqua sul fuoco, rimescola la cenere e bagna di nuovo finché i resti sono freddi al tatto. La sabbia può nascondere le braci ancora calde invece di spegnerle.",
+            "Non lasciare mai un fuoco incustodito, nemmeno mentre si consuma o mentre dormi. Se si alza il vento, spegnilo."
           ],
           "tips": []
         },
         {
-          "heading": "Indici di pericolo e divieti totali di fuochi",
+          "heading": "Indici di pericolo incendi e divieti di fuochi",
           "body": [
-            "L’Australia usa un sistema nazionale di indici di pericolo incendi (Fire Danger Rating) con quattro livelli, da Moderate a Catastrophic, pubblicato ogni giorno per distretto. I divieti totali di fuochi (Total Fire Ban) vengono dichiarati a parte e vietano qualsiasi fiamma libera, a prescindere dall’indice.",
-            "In un giorno di Total Fire Ban sono vietati falò e barbecue a combustibile solido. Gli apparecchi a gas sono in genere permessi a determinate condizioni, tra cui un’area sgombra e la sorveglianza costante, ma a decidere è il testo preciso del divieto.",
-            "Indici e divieti vengono pubblicati ogni pomeriggio per il giorno dopo. In estate controllali ogni giorno invece di fidarti di come ti sembra il tempo, perché la decisione si basa sulle condizioni previste."
+            "Il sistema australiano degli indici di pericolo incendi (Australian Fire Danger Rating System) ha quattro livelli, Moderate, High, Extreme e Catastrophic, pubblicati per distretto. Il Total Fire Ban viene dichiarato a parte: controlla entrambi e non leggere l’indice come un permesso.",
+            "In un giorno di divieto falò e barbecue a combustibile solido sono illegali nel distretto. Sul gas gli stati differiscono: nei parchi nazionali del New South Wales i fornelli a gas dei visitatori sono in genere vietati, i parchi dell’ACT spengono i barbecue a gas, nel South Australia le regole dei parchi si decidono parco per parco, la Tasmania ammette fornelli a GPL ed elettrici ma non a combustibile liquido e il <a data-guide=\"camping-rules-queensland\">Queensland</a> consente fornelli a gas e a spirito con fiamma contenuta durante un divieto di fuochi.",
+            "Nei giorni peggiori i parchi chiudono. I parchi del South Australia e le foreste di ForestrySA possono chiudere nei giorni di divieto, e nel New South Wales l’NPWS può dichiarare un divieto di fuochi proprio del parco o chiuderlo quando il rischio è alto."
           ],
           "tips": [
             "Quattro livelli, da Moderate a Catastrophic",
-            "Con il divieto, niente combustibile solido",
-            "Controlla ogni giorno il bollettino"
+            "Nei giorni di divieto, niente combustibile solido",
+            "Le regole sul gas cambiano da stato a stato"
           ]
         },
         {
-          "heading": "Dove i fuochi sono consentiti",
+          "heading": "Dove si possono accendere fuochi",
           "body": [
-            "Molti parchi nazionali vietano i falò in modo permanente, soprattutto nelle zone aride, dove raccogliere legna distrugge un habitat che impiega decenni a formarsi. Altri li permettono solo nei focolari predisposti.",
-            "Raccogliere legna è vietato nella maggior parte dei parchi nazionali e delle riserve. Portala da fuori zona, e tieni presente che alcune regioni limitano anche il trasporto di legna per frenare la diffusione dei parassiti.",
-            "Controlla la pagina del campeggio specifico invece della regola generale dello stato. In molti posti la regola di chi gestisce il terreno è più severa del sistema di pericolo incendi e vale tutto l’anno."
+            "Molti parchi vietano i fuochi per una parte o per tutto l’anno. L’Ikara-Flinders Ranges vieta i fuochi a legna durante il periodo di divieto, da metà ottobre 2026 a fine marzo 2027, ForestrySA vieta i fuochi nelle sue foreste dal 1º novembre al 30 aprile, e in molti parchi del Western Australia i falò si fermano dal 1º dicembre al 31 marzo circa.",
+            "Le Fuel Stove Only Areas della <a data-guide=\"camping-rules-tasmania\">Tasmania</a> (zone dove si può usare solo il fornello) vietano i falò tutto l’anno in gran parte delle zone selvagge, tra cui Cradle Mountain-Lake St Clair, Freycinet e Mount Field. Nell’ACT i falò sono ammessi solo nei focolari costruiti in quattro aree: Namadgi, Tidbinbilla e le aree ricreative di Cotter e Uriarra Crossing.",
+            "Alla fine decide la pagina del campeggio, perché la regola di chi gestisce il terreno è spesso più severa del sistema di pericolo incendi e vale tutto l’anno."
           ],
           "tips": [
-            "Molti parchi vietano sempre i fuochi",
-            "Raccogliere legna di solito è vietato",
-            "Porta la tua legna"
+            "I divieti stagionali nei parchi sono frequenti",
+            "Tasmania: Fuel Stove Only Areas",
+            "Decide la pagina del campeggio"
           ]
         },
         {
           "heading": "Accendere e controllare un fuoco consentito",
           "body": [
-            "Dove è permesso, usa un focolare esistente, tieni il fuoco piccolo, allontana bene tutto ciò che può bruciare e tieni l’acqua proprio accanto a te, non nel veicolo. Non accendere mai con il vento o sotto rami sporgenti.",
-            "Le condizioni tipiche fissano una dimensione massima del fuoco, un raggio sgombro di diversi metri e la presenza costante di un adulto. Valgono anche fuori dai giorni di Total Fire Ban, e violarle comporta sanzioni.",
-            "Non lasciare mai un fuoco incustodito, nemmeno mentre si consuma. La maggior parte dei falò sfuggiti al controllo riparte dopo che chi li aveva accesi aveva deciso che erano quasi spenti."
+            "Dimensioni e area sgombra cambiano: negli State Forest del New South Wales il fuoco deve stare sotto un metro quadrato e a 4,5 metri dall’albero più vicino, in quelli di Victoria sotto un metro di diametro con tre metri sgombri, e nel <a data-guide=\"camping-rules-south-australia\">South Australia</a> serve una fossa profonda 30 cm durante la stagione degli incendi.",
+            "Il CFA (Country Fire Authority, il servizio antincendio di Victoria) chiede che un falò sia sorvegliato in ogni momento da un adulto sveglio e vigile a meno di 50 metri, e solo con vento sotto i 10 km/h. Sono condizioni che valgono come standard ovunque in Australia.",
+            "I falò sfuggiti al controllo spesso partono dopo che chi li ha accesi ha deciso che erano quasi spenti. Considera il fuoco acceso finché non è freddo al tatto."
           ],
           "tips": [
-            "Acqua accanto a te, non nel veicolo",
-            "Diversi metri liberi intorno",
-            "Mai incustodito"
+            "Vento sotto i 10 km/h",
+            "Un adulto a meno di 50 metri",
+            "Acceso finché non è freddo"
           ]
         },
         {
-          "heading": "Spegnerlo e le conseguenze",
+          "heading": "Multe e responsabilità",
           "body": [
-            "Un fuoco è spento quando è freddo al tatto. Bagnalo, rimesta la cenere, bagnalo di nuovo e continua finché puoi infilare la mano nei resti. Le braci restano vive sotto la cenere per molte ore.",
-            "Un incendio sfuggito al controllo comporta sanzioni severe in tutti gli stati, comprese multe salate e il carcere se viene accertata la negligenza. Puoi anche dover pagare i costi di spegnimento, che arrivano a cifre altissime.",
-            "Se un fuoco ti sfugge, non cercare di combatterlo oltre i primi secondi. Allontanati e chiama subito il triplo zero (000), dando la posizione più precisa possibile."
+            "Accendere un fuoco in un giorno di Total Fire Ban nel New South Wales costa una multa immediata di 2.200 $, oppure fino a 5.500 $ e 12 mesi di carcere in tribunale. Il <a data-guide=\"camping-rules-western-australia\">Western Australia</a> emette una sanzione di 1.000 $, con fino a 25.000 $ e 12 mesi di carcere in caso di condanna.",
+            "Il CFA avverte che un fuoco acceso in un giorno di Total Fire Ban in <a data-guide=\"camping-rules-victoria\">Victoria</a> può costare una multa di oltre 40.000 $, due anni di carcere o entrambi. Nel Northern Territory accendere senza permesso un fuoco per qualsiasi scopo diverso dal cucinare comporta fino a circa 77.000 $ o cinque anni, e non sgomberare 4 metri intorno al fuoco fino a circa 15.000 $; gli importi sono indicizzati, quindi controlla la pagina del NT.",
+            "Se un fuoco ti sfugge, non cercare di combatterlo oltre i primi secondi. Allontanati e chiama il triplo zero (000), dando la posizione più chiara possibile."
           ],
           "tips": [
-            "Spento vuol dire freddo al tatto",
-            "Puoi dover pagare i costi di spegnimento",
-            "Chiama lo 000 e allontanati"
+            "Multa nel NSW nei giorni di divieto: 2.200 $",
+            "Victoria: oltre 40.000 $ in tribunale",
+            "Fuoco sfuggito: allontanati e chiama lo 000"
           ]
         },
         {
           "heading": "Cucinare quando i fuochi sono vietati",
           "body": [
-            "I fornelli a gas sono in genere permessi nei giorni di Total Fire Ban a determinate condizioni: un’area sgombra, una persona presente e acqua subito a portata di mano. Controlla il testo preciso del divieto, perché le condizioni cambiano da stato a stato.",
-            "Non cucinare mai dentro una tenda, sotto un tendalino o in un veicolo non ventilato. Il monossido di carbonio è inodore e ha già ucciso dei campeggiatori, e il rischio è massimo proprio con il freddo o la pioggia che spingono a stare al chiuso.",
-            "Tieni sempre nel veicolo un fornello a gas leggero: un Total Fire Ban può essere dichiarato con un giorno di preavviso, e così non dipendi mai dal poter accendere un fuoco.",
-            "Gli indici di pericolo incendi vengono pubblicati ogni pomeriggio per il giorno dopo, quindi controllarli la sera prima ti dà il tempo di cambiare programma invece di rincorrere gli eventi."
+            "Tieni sempre in veicolo un fornello a gas e controlla la regola per i fornelli oltre che per i fuochi, perché nei giorni peggiori alcuni parchi vietano anche quelli.",
+            "Non cucinare mai dentro una tenda, un tendalino o un veicolo chiuso. L’ente per la sicurezza del gas del <a data-guide=\"camping-rules-western-australia\">Western Australia</a> avverte che gli apparecchi a gas portatili da esterno non vanno mai usati dentro una tenda, in uno spazio semichiuso, in una roulotte o in un camper.",
+            "Per i giorni in cui è previsto un divieto organizza pasti che non richiedano fiamma: pranzi freddi, wrap e piatti cucinati la sera prima non fermano il viaggio."
           ],
           "tips": [
-            "Gas di solito ammesso a condizioni",
+            "Porta con te un fornello a gas",
             "Mai cucinare in uno spazio chiuso",
-            "Il monossido di carbonio non ha odore"
+            "Pasti freddi per i giorni di divieto"
           ]
         }
       ],
       "faq": [
         [
           "Si può accendere un falò in campeggio in Australia?",
-          "Solo quando non c’è un divieto di fuochi e chi gestisce il terreno lo consente. Il servizio antincendio di ogni stato dichiara i Total Fire Ban per distretto e per giorno, e mentre è in vigore un divieto nessun fuoco a combustibile solido è legale in quel distretto, nemmeno in un anello per il fuoco."
+          "Sì, quando per il distretto non c’è un divieto di fuochi e il campeggio li ammette, usando il focolare predisposto e legna portata da fuori. Durante un Total Fire Ban, o un divieto locale di fuochi nel Queensland, i fuochi a combustibile solido sono illegali ovunque in quell’area, focolari compresi."
         ],
         [
-          "Come si controlla se c’è un Total Fire Ban?",
-          "Sul sito del servizio antincendio dello stato in cui ti trovi, il giorno stesso: RFS nel New South Wales, CFA in Victoria, QFES nel Queensland e i loro equivalenti altrove. Gli indici di pericolo incendi vengono fissati ogni pomeriggio per il giorno dopo."
+          "Si può usare un fornello a gas in un giorno di Total Fire Ban?",
+          "Dipende dallo stato e dal terreno. Nei parchi nazionali del New South Wales di solito i fornelli a gas dei visitatori sono vietati in quei giorni, i parchi dell’ACT spengono i barbecue a gas, la Tasmania ammette fornelli a GPL ed elettrici ma non a combustibile liquido e il Queensland consente fornelli a gas e a spirito con fiamma contenuta durante un divieto di fuochi. Nel South Australia controlla le restrizioni antincendio del parco in cui ti trovi."
         ]
       ],
       "sources": [
         {
-          "label": "Allerte del Bureau of Meteorology"
+          "label": "Australian Fire Danger Rating System"
+        },
+        {
+          "label": "NSW RFS: regole sui Total Fire Ban"
+        },
+        {
+          "label": "NSW RFS: periodo di pericolo di incendi boschivi (Bush Fire Danger Period)"
+        },
+        {
+          "label": "NSW National Parks: divieti di fuochi"
+        },
+        {
+          "label": "Forestry Corporation of NSW: divieti dei fuochi a combustibile solido"
+        },
+        {
+          "label": "CFA: regole sui falò"
+        },
+        {
+          "label": "Falò nelle State Forest di Victoria"
+        },
+        {
+          "label": "Queensland Fire Department: divieti di fuochi"
+        },
+        {
+          "label": "Falò nei parchi del Queensland"
+        },
+        {
+          "label": "SA CFS: date della stagione di pericolo incendi"
+        },
+        {
+          "label": "SA CFS: cosa puoi e non puoi fare"
+        },
+        {
+          "label": "DFES: Total Fire Ban"
+        },
+        {
+          "label": "Parchi del Western Australia: falò e legna"
+        },
+        {
+          "label": "Tasmania Parks: falò e divieti di fuochi"
+        },
+        {
+          "label": "Northern Territory: divieti di fuochi"
+        },
+        {
+          "label": "Northern Territory: sicurezza dei falò"
+        },
+        {
+          "label": "ACT Parks: falò"
+        },
+        {
+          "label": "Building and Energy del Western Australia: campeggiare in sicurezza con il gas"
+        },
+        {
+          "label": "Northern Territory: dichiarazione del periodo di pericolo incendi, giugno 2026"
+        },
+        {
+          "label": "National Parks del South Australia: divieti e restrizioni sui fuochi"
+        },
+        {
+          "label": "ForestrySA: campeggio"
+        },
+        {
+          "label": "Tasmania Parks: Fuel Stove Only Areas"
         }
       ],
       "priceTable": null
@@ -3277,7 +3415,7 @@
         {
           "heading": "Gestire bene i soldi mentre sei lì",
           "body": [
-            "Il contactless è accettato quasi ovunque, anche nei piccoli bar di provincia, ma sono comuni supplementi dell’1-2% per il pagamento con carta, applicati alla cassa e non indicati nel menu. I contanti servono ancora per le cassette del pagamento sulla fiducia, le bancarelle lungo la strada e alcuni roadhouse isolati.",
+            "Quasi ovunque, anche nei piccoli caffè di provincia, si paga con la carta contactless, e dal 1º ottobre 2026 gli esercenti non possono più aggiungere un supplemento ai pagamenti eftpos, Mastercard o Visa. Il contante serve ancora per le cassette del pagamento sulla fiducia, le bancarelle lungo la strada e alcuni roadhouse isolati.",
             "Le commissioni sulle transazioni all’estero sono una perdita silenziosa. Una carta da viaggio, o una banca che non le applica, fa risparmiare una bella cifra in un mese ed evita la tentazione di accettare al terminale la conversione dinamica della valuta, che ha sempre il cambio peggiore.",
             "Tieni un piccolo fondo di emergenza del tutto separato dal budget del viaggio: serve proprio a non doverti mai chiedere se una spesa imprevista te la puoi permettere."
           ],
@@ -3752,59 +3890,118 @@
       }
     },
     "camping-fees-australia-2026": {
-      "title": "Quanto costa campeggiare in Australia: parchi nazionali e holiday park",
-      "description": "Quanto possono costare una piazzola essenziale, una con servizi e una con corrente, e cosa include o non include la tariffa a notte.",
+      "title": "Tariffe dei campeggi in Australia 2026: parchi nazionali per stato",
+      "description": "Campeggio nei parchi nazionali nel 2026: 7,75 $ a persona nel Queensland, 10-20 $ a adulto nel Western Australia e nel Northern Territory, da 16 $ a piazzola in Victoria, più l’ingresso.",
       "region": "Australia",
       "imageAlt": "Roulotte e tenda in un campeggio australiano",
-      "intro": "Una piazzola può costare pochi dollari a persona o più di una camera semplice. Il prezzo dipende da posizione, servizi, stagione, condizioni di prenotazione e dal fatto che il gestore faccia pagare a piazzola o a persona.",
+      "intro": "In Australia il campeggio nei parchi nazionali nel 2026 va dal gratuito a più di 40 $ a notte nei campeggi con più servizi e più affollati, come Tidal River a Wilsons Promontory: il Queensland chiede 7,75 $ a persona, il Western Australia e il Northern Territory da 10 a 20 $ a adulto, i campeggi prenotabili a metà prezzo di Victoria partono da 16 $ a piazzola e alcuni campeggi del New South Wales non chiedono altro che 6 $ di prenotazione. Ingresso al parco, pass e il fatto che la tariffa sia a persona o a piazzola incidono sul totale più della tariffa in evidenza.",
       "sections": [
         {
-          "heading": "Capire come si calcola la tariffa",
+          "heading": "Tariffe dei parchi nazionali stato per stato",
           "body": [
-            "Una tariffa a persona per un campo raggiungibile solo a piedi e una tariffa a piazzola con corrente non si possono mettere in classifica senza sapere quante persone siete. Prima di confrontare, aggiungi supplementi per persona e per veicolo, ingresso al parco e spese di prenotazione.",
-            "Contano anche i servizi. Bagni, docce, corrente, acqua, lavanderia, <a data-guide=\"dump-points-australia-guide\">punti di scarico</a> e una posizione comoda vicino al paese possono sostituire altre spese."
+            "Non esiste un pass nazionale per i parchi. Ogni stato ha il proprio sistema di prenotazione, la propria scala tariffaria e il proprio pass, e un pass comprato in uno stato non serve a nulla in quello successivo.",
+            "In diversi stati ingresso e campeggio si pagano a parte, quindi una tariffa notturna bassa può costare di più una volta aggiunto l’ingresso. La <a data-guide=\"camping-rules-tasmania\">Tasmania</a> richiede un Parks Pass per ogni parco nazionale, mentre il South Australia non fa pagare l’ingresso del veicolo con la maggior parte delle prenotazioni di campeggio."
           ],
-          "tips": []
+          "tips": [],
+          "table": {
+            "caption": "Tariffe di campeggio e ingresso ai parchi nazionali per stato, verificate a ottobre 2026",
+            "head": [
+              "Stato",
+              "Tariffa di campeggio",
+              "Ingresso del veicolo",
+              "Pass principale"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "Stabilita campeggio per campeggio; alcuni gratuiti con 6 $ di prenotazione",
+                "45 parchi fanno pagare l’ingresso, per esempio 8 $ al giorno a Myall Lakes",
+                "All Parks Pass, 190 $ all’anno"
+              ],
+              [
+                "Victoria",
+                "Metà prezzo in 131 campeggi prenotabili fino a luglio 2027, da 16 $ a piazzola",
+                "La maggior parte dei parchi non ha tariffa d’ingresso",
+                "Non serve per la maggior parte dei parchi"
+              ],
+              [
+                "Queensland",
+                "7,75 $ a persona o 31 $ a famiglia a notte",
+                "Nessuna tariffa generale d’ingresso, ma per guidare su K'gari e sulle altre isole di sabbia serve un permesso di accesso per i veicoli a pagamento",
+                "Permesso di accesso per i veicoli su K'gari e sulle altre isole di sabbia"
+              ],
+              [
+                "South Australia",
+                "Ikara-Flinders Ranges da 12,30 $ a notte",
+                "14,40 $ a veicolo a Ikara, non dovuti con la maggior parte delle prenotazioni",
+                "Parks Pass; Desert Parks Pass"
+              ],
+              [
+                "Western Australia",
+                "10, 15 o 20 $ a adulto, in base ai servizi",
+                "17 $ a veicolo a Karijini e Cape Range",
+                "All Parks Pass, 130 $ all’anno"
+              ],
+              [
+                "Tasmania",
+                "Stabilita campeggio per campeggio; Mount Field 24 o 35 $ dal 3 novembre 2026",
+                "Parks Pass obbligatorio: 49,15 $ al giorno",
+                "Holiday pass, 98,35 $ per due mesi"
+              ],
+              [
+                "Northern Territory",
+                "10, 15 o 20 $ a adulto, in base alla categoria",
+                "NT Parks Visitor Pass per i visitatori",
+                "Pass annuale per visitatori, 60 $"
+              ],
+              [
+                "ACT",
+                "Tariffa in ogni campeggio prenotabile",
+                "L’ingresso a Namadgi è gratuito",
+                "Nessuno"
+              ]
+            ]
+          }
         },
         {
-          "heading": "Le promozioni non sono tariffe normali",
+          "heading": "A persona o a piazzola: un esempio di calcolo",
           "body": [
-            "Gli esempi commerciali possono richiedere un soggiorno minimo, date limitate o l’occupazione in due. Considerali offerte rilevate in un dato momento, non una media nazionale garantita.",
-            "Anche le tariffe pubbliche cambiano con l’anno finanziario e con la categoria. Prima di partire apri la pagina del campeggio che ti interessa."
+            "Prendi due adulti e due bambini di 8 e 10 anni per tre notti. Una piazzola in un parco nazionale del <a data-guide=\"camping-rules-queensland\">Queensland</a> costa 93 $ con la tariffa famiglia da 31 $, un campeggio del Western Australia con servizi di base costa 120 $ (15 $ per adulto e 5 $ per bambino a notte) e un campeggio di Category A del Northern Territory costa 114 $ con la tariffa famiglia da 38 $.",
+            "Una piazzola prenotabile di Victoria da 16 $ a notte viene a costare circa 48 $ per le stesse tre notti, perché in <a data-guide=\"camping-rules-victoria\">Victoria</a> si paga a piazzola e non a persona. Per chi viaggia da solo l’ordine si capovolge: paga 23,25 $ nel Queensland e 45 $ nello stesso campeggio del Western Australia.",
+            "Fai il conto per il tuo gruppo e le tue notti, poi aggiungi ingresso, corrente e costi di prenotazione. Una piazzola con corrente e docce può convenire più di un campo nel bush più economico, se conti ciò che sostituisce."
           ],
           "tips": [
-            "Controlla come si calcola la tariffa",
-            "Verifica cosa è incluso",
-            "Leggi le condizioni di arrivo"
+            "Conta il tuo gruppo, non la tariffa in evidenza",
+            "Con una famiglia cambia l’opzione più economica",
+            "Aggiungi ingresso e costi di prenotazione"
+          ]
+        },
+        {
+          "heading": "Holiday park e caravan park",
+          "body": [
+            "Gli holiday park commerciali (campeggi-villaggio con bungalow, piscina e servizi) e i <a data-guide=\"caravan-park-vs-holiday-park\">caravan park</a> fissano i prezzi per conto proprio, di solito a piazzola per un numero stabilito di persone, con supplementi per gli ospiti in più, la corrente e le date di alta stagione. Controlla la pagina delle tariffe del parco e le regole sul soggiorno minimo per le vacanze scolastiche e i weekend lunghi.",
+            "Le offerte speciali spesso richiedono un soggiorno minimo o date limitate, quindi annotale come offerte e non come tariffe normali. In AussieCamps gli holiday park proposti dal partner di prenotazione BookEasy si sfogliano e si prenotano anche senza il Pass."
+          ],
+          "tips": [
+            "Prezzo a piazzola per un numero fisso di ospiti",
+            "L’alta stagione porta soggiorni minimi",
+            "Le offerte speciali non sono tariffe normali"
           ]
         },
         {
           "heading": "Alterna con criterio notti a pagamento e notti essenziali",
           "body": [
-            "Una notte con pochi servizi va bene quando mezzo e provviste sono pronti. Una notte attrezzata è preziosa quando serbatoi, batterie, bucato e persone hanno bisogno di rimettersi in sesto.",
-            "Vicino alle aree gratuite o economiche più frequentate tieni salvata un’alternativa legale a pagamento. Se è tutto pieno o le regole locali sono cambiate, non devi ritrovarti a guidare di notte in condizioni pericolose."
+            "Una notte con pochi servizi funziona quando il mezzo e le provviste sono pronti. Una notte attrezzata vale il suo prezzo quando serbatoi, batterie, bucato e persone hanno bisogno di rimettersi in sesto.",
+            "Tieni salvata un’alternativa legale a pagamento vicino alle aree gratuite o economiche più frequentate, così un campeggio pieno o una regola locale cambiata non ti costringono a guidare di sera in condizioni pericolose."
           ],
           "tips": []
         },
         {
-          "heading": "Le tariffe dei parchi nazionali cambiano da stato a stato",
-          "body": [
-            "Ogni stato gestisce un proprio sistema di parchi, con la sua struttura tariffaria, la sua piattaforma di prenotazione e i suoi pass. Non esiste un pass nazionale per il campeggio nei parchi, e un pass comprato in uno stato non vale nulla in quello dopo.",
-            "Diversi stati fanno pagare l’ingresso del veicolo a parte rispetto al campeggio, quindi una piazzola pubblicizzata a una tariffa bassa può costare molto di più una volta aggiunto l’ingresso. Prima di confrontare le opzioni controlla entrambe le cifre.",
-            "I pass per più parchi o annuali convengono quando pensi di visitare più di due o tre parchi nello stesso stato. Raramente coprono il campeggio: di solito valgono solo per l’ingresso."
-          ],
-          "tips": [
-            "Non esiste un pass nazionale dei parchi",
-            "L’ingresso spesso si paga a parte",
-            "Il pass copre l’ingresso, non il campeggio"
-          ]
-        },
-        {
           "heading": "Il campeggio libero e quanto costa davvero",
           "body": [
-            "Il <a data-guide=\"is-free-camping-legal-australia\">campeggio libero</a> fa risparmiare davvero quando il mezzo è attrezzato e il percorso passa già vicino a zone adatte. Smette di convenire se fai sessanta chilometri in più per arrivare a un’area gratuita.",
-            "I costi nascosti sono docce, lavanderia, acqua, <a data-guide=\"dump-points-australia-guide\">punti di scarico</a> e la notte a pagamento che l’autosufficienza richiede comunque ogni tanto. Metti in budget una notte a pagamento più spesso di quanto pensi di farne.",
-            "Una multa per aver campeggiato in un’area vietata cancella settimane di risparmi in un colpo solo, e i comuni costieri le fanno di routine. Gratis è gratis solo dove è legale."
+            "Il <a data-guide=\"is-free-camping-legal-australia\">campeggio libero</a> fa risparmiare davvero quando il mezzo è attrezzato e il percorso passa già vicino a luoghi dove è consentito. Smette di convenire se fai sessanta chilometri in più per raggiungerne uno.",
+            "I costi nascosti sono docce, lavanderia, acqua, <a data-guide=\"dump-points-australia-guide\">punti di scarico</a> e le notti a pagamento che l’autosufficienza richiede comunque. Metti in budget una notte a pagamento più spesso di quanto pensi di farne.",
+            "Una sola multa del comune per aver campeggiato dove è vietato può cancellare settimane di risparmi, quindi gratis è davvero gratis solo dove chi gestisce il terreno lo consente."
           ],
           "tips": [
             "Non fare lunghe deviazioni per risparmiare",
@@ -3813,74 +4010,152 @@
           ]
         },
         {
-          "heading": "A persona o a piazzola",
+          "heading": "Costi di prenotazione, rimborsi e extra",
           "body": [
-            "Nei parchi nazionali spesso si paga a persona, mentre i campeggi commerciali fanno pagare a piazzola, con un numero di occupanti stabilito. L’opzione più economica quindi si ribalta in base a quanti siete, e le famiglie sbagliano spesso il conto.",
-            "Fai i conti per il tuo gruppo e per le notti che ti servono davvero, invece di confrontare le tariffe di vetrina. Due adulti e due bambini hanno un risultato molto diverso da chi viaggia da solo con le stesse due opzioni.",
-            "Poi aggiungi corrente, docce e spese di prenotazione. Una piazzola con corrente e servizi può convenire più di una senza corrente più economica, se conti ciò che sostituisce."
+            "NSW National Parks aggiunge un costo di prenotazione non rimborsabile a ogni prenotazione di campeggio, e 6 $ nei campeggi senza tariffa di campeggio. Se disdici 31 giorni prima o più, ti rimborsano il 75% della tariffa di campeggio, e il 50% se disdici dopo.",
+            "In <a data-guide=\"camping-rules-victoria\">Victoria</a> una prenotazione può valere fino a tre piazzole nello stesso campeggio, e ogni piazzola raggiungibile in auto include un veicolo nella tariffa. La Tasmania passa al nuovo Parks Online Booking System il 3 novembre 2026, con tariffe più alte in campeggi come Fortescue Bay e Mount Field.",
+            "Veicoli, rimorchi e visitatori in più possono avere ciascuno un costo. Leggi nella pagina di prenotazione cosa copre la tariffa prima di pagare."
           ],
           "tips": [
-            "A persona o a piazzola: dipende da quanti siete",
-            "Fai i conti per il tuo gruppo reale",
-            "Conta cosa sostituisce la tariffa"
+            "I costi di prenotazione del NSW non sono rimborsabili",
+            "Victoria: fino a tre piazzole a prenotazione",
+            "Il sistema della Tasmania cambia il 3 novembre"
           ]
         },
         {
           "heading": "Sistemi di prenotazione diversi da stato a stato",
           "body": [
-            "Ogni stato ha la sua piattaforma di prenotazione, con regole proprie su quanto in anticipo si può prenotare, sulle condizioni di cancellazione e sul fatto che le piazzole siano assegnate o libere. Imparare come funziona negli stati del tuo percorso ti evita parecchie frustrazioni.",
-            "I parchi più richiesti aprono le prenotazioni con una finestra mobile, e le piazzole migliori spariscono pochi minuti dopo l’apertura. Se ti interessa una piazzola precisa, scopri la data di apertura e prenota quel giorno, non una settimana dopo.",
-            "Tieni le conferme di prenotazione salvate sul telefono: spesso è proprio nei campeggi con meno campo che un ranger ti chiede di mostrarne una."
+            "Il <a data-guide=\"camping-rules-queensland\">Queensland</a> e il South Australia aprono le prenotazioni dei parchi 12 mesi prima, il Park Stay WA del Western Australia 180 giorni prima, mentre Victoria rilascia le piazzole a blocchi trimestrali. Impara il sistema di ogni stato lungo il tuo percorso prima di averne bisogno.",
+            "I posti più richiesti vanno via in fretta. I campeggi della Ningaloo Coast aprono un mese alla volta il primo martedì alle 10, ora di Perth, quindi segna la data di apertura quando ti interessa un campeggio in particolare.",
+            "Tieni le conferme di prenotazione sul telefono: spesso è proprio nei campeggi con meno campo che un ranger ti chiede di mostrarne una."
           ],
           "tips": [
-            "Ogni stato ha la sua piattaforma",
-            "Le finestre mobili si riempiono in fretta",
-            "Scopri la data di apertura dei parchi più richiesti"
+            "Queensland e SA: 12 mesi prima",
+            "Park Stay WA: 180 giorni prima",
+            "Segna le date di apertura dei posti più richiesti"
           ]
         }
       ],
       "faq": [
         [
           "Quanto costa una notte in campeggio in Australia?",
-          "Si va dal gratuito in molte aree di sosta comunali e showground, a una tariffa modesta a persona nei campeggi dei parchi nazionali, fino a una piazzola in un caravan park che costa molte volte tanto. La guida indica il prezzo di ogni fascia, con la data di rilevazione."
+          "Nei parchi nazionali, nel 2026, da niente a più di 40 $ a notte nei campeggi con più servizi e più affollati: il Queensland chiede 7,75 $ a persona, il Western Australia e il Northern Territory da 10 a 20 $ a adulto, i campeggi prenotabili a metà prezzo di Victoria partono da 16 $ a piazzola e alcuni campeggi del New South Wales fanno pagare solo 6 $ di prenotazione. Gli holiday park commerciali fissano i prezzi per conto proprio."
         ],
         [
           "L’ingresso al parco si paga oltre al campeggio?",
-          "In alcuni stati sì. Western Australia, Tasmania e parte del Northern Territory fanno pagare l’ingresso del veicolo a parte rispetto alla tariffa del campeggio, e un pass di più giorni o un holiday pass di solito costa meno che pagare ogni giorno."
+          "In alcuni stati sì. La Tasmania richiede un Parks Pass per ogni parco nazionale, il Western Australia chiede 17 $ a veicolo in parchi come Karijini, 45 parchi del New South Wales fanno pagare l’ingresso del veicolo e nel Northern Territory i visitatori hanno bisogno di un Parks Visitor Pass. Il South Australia non fa pagare l’ingresso con la maggior parte delle prenotazioni di campeggio e il Queensland non ha una tariffa generale d’ingresso ai parchi, ma per guidare su K'gari e sulle altre isole di sabbia serve un permesso di accesso per i veicoli a pagamento."
         ]
       ],
       "sources": [
         {
-          "label": "Tariffe di Parks Victoria 2025–27"
+          "label": "Queensland Parks: prenotazioni e tariffe del campeggio"
         },
         {
-          "label": "BIG4 Harrington: offerta"
+          "label": "NSW National Parks: parchi a pagamento"
         },
         {
-          "label": "BIG4 Sandstone Point: offerta"
+          "label": "NSW National Parks: pass annuali"
+        },
+        {
+          "label": "NSW National Parks: condizioni di prenotazione"
+        },
+        {
+          "label": "Parks Victoria: informazioni sulle prenotazioni"
+        },
+        {
+          "label": "Parks Victoria: tariffe 2026-27"
+        },
+        {
+          "label": "Parco nazionale Ikara-Flinders Ranges"
+        },
+        {
+          "label": "Explore Parks WA: tariffe di campeggio"
+        },
+        {
+          "label": "Parco nazionale Karijini"
+        },
+        {
+          "label": "Tasmania: pass e tariffe d’ingresso dei parchi"
+        },
+        {
+          "label": "Campeggio al Mount Field"
+        },
+        {
+          "label": "Northern Territory: tariffe di campeggio"
+        },
+        {
+          "label": "NT Parks Visitor Pass"
+        },
+        {
+          "label": "ACT Parks: prenotazioni e permessi"
+        },
+        {
+          "label": "NSW National Parks: campeggi di Corowa (6 $ di prenotazione)"
+        },
+        {
+          "label": "Parks Victoria: regole sui veicoli nelle piazzole"
+        },
+        {
+          "label": "National Parks SA: domande frequenti sulle prenotazioni"
+        },
+        {
+          "label": "National Parks SA: l’essenziale per il campeggio"
+        },
+        {
+          "label": "Explore Parks WA: dove e quando campeggiare"
+        },
+        {
+          "label": "Parco nazionale Cape Range"
+        },
+        {
+          "label": "Pass dei parchi del Western Australia"
+        },
+        {
+          "label": "Campeggio a Fortescue Bay"
+        },
+        {
+          "label": "Parco nazionale Namadgi"
+        },
+        {
+          "label": "Queensland: permessi di accesso per i veicoli"
+        },
+        {
+          "label": "NT Parks: sistema di prenotazione"
         }
       ],
       "priceTable": {
-        "note": "Tariffario pubblico ed esempi di promozioni commerciali con la data di rilevazione. Ingresso al parco, spese di prenotazione, ospiti e veicoli in più possono essere a parte.",
+        "note": "Tariffe ufficiali 2026 per il campeggio nei parchi, dall’ente dei parchi di ogni stato. Ingresso al parco, costi di prenotazione, veicoli in più e pass possono essere a parte.",
         "rows": [
           {
-            "label": "Campo del parco raggiungibile solo a piedi (esempio)",
+            "label": "Piazzola in un parco del Queensland",
             "unit": "a persona/notte"
           },
           {
-            "label": "Campo del parco, categoria intermedia",
-            "unit": "a piazzola/notte"
+            "label": "Piazzola in un parco del Queensland, tariffa famiglia",
+            "unit": "a famiglia/notte"
           },
           {
-            "label": "Campo del parco con più servizi",
-            "unit": "a piazzola/notte"
+            "label": "Campeggio del New South Wales senza tariffa di campeggio",
+            "unit": "costo di prenotazione"
           },
           {
-            "label": "Tidal River, piazzola con corrente in alta stagione",
-            "unit": "a piazzola/notte"
+            "label": "Campeggio prenotabile di Victoria, metà prezzo",
+            "unit": "a piazzola/notte, da"
           },
           {
-            "label": "Offerta commerciale, piazzola con corrente",
+            "label": "Piazzola all’Ikara-Flinders Ranges",
+            "unit": "a notte, da"
+          },
+          {
+            "label": "Campeggio in un parco del Western Australia",
+            "unit": "per adulto/notte"
+          },
+          {
+            "label": "Campeggio in un parco del Northern Territory",
+            "unit": "per adulto/notte"
+          },
+          {
+            "label": "Mount Field, Tasmania, dal 3 novembre 2026",
             "unit": "a piazzola/notte"
           }
         ]
@@ -3981,7 +4256,7 @@
         ],
         [
           "Come si stima il carburante per un viaggio on the road in Australia?",
-          "Prendi la distanza del percorso, aggiungi un quinto per le deviazioni, poi applica il consumo reale del tuo mezzo invece di quello dichiarato. Un van carico con il vento contro non rispetterà i consumi dichiarati, e in Australia il vento contrario non manca."
+          "Prendi la distanza del percorso e aggiungi un quinto per le deviazioni, poi moltiplica per il consumo reale del tuo mezzo in litri ogni 100 km e dividi per 100: ottieni i litri, da moltiplicare per il prezzo al litro. Per 1.000 km a 12 l/100 km servono 120 litri. Usa il consumo reale e non quello dichiarato: un van carico con il vento contro non rispetterà i consumi dichiarati."
         ]
       ],
       "sources": [
@@ -4356,7 +4631,7 @@
           "body": [
             "Le leggi sul cellulare alla guida sono severe e in diversi stati vengono fatte rispettare con telecamere apposite. Toccare il telefono mentre guidi, anche fermo nel traffico, è un’infrazione con multe salate e punti di penalità.",
             "L’uso in vivavoce con supporto o Bluetooth è in genere permesso a chi ha la patente definitiva, ma del tutto vietato a chi ha quella da principiante o provvisoria. Imposta il navigatore prima di partire.",
-            "Le multe arrivano all’intestatario del veicolo, quindi la società di noleggio te le riaddebiterà con delle spese di gestione. I punti di penalità non si applicano alle patenti straniere, ma le multe sì, eccome."
+            "Le multe delle telecamere arrivano al proprietario registrato del veicolo, quindi la società di noleggio comunicherà il tuo nome come conducente, di solito aggiungendo una tariffa amministrativa. Anche con una <a data-guide=\"overseas-driver-licence-australia-state-guide\">patente straniera</a> si accumulano punti della patente, e superare il limite in uno stato significa perdere il diritto di guidare lì."
           ],
           "tips": [
             "Telecamere di rilevamento molto diffuse",
@@ -4397,6 +4672,21 @@
         },
         {
           "label": "NSW: alcol e droghe"
+        },
+        {
+          "label": "New South Wales: punti della patente"
+        },
+        {
+          "label": "Queensland: guidare con una patente straniera"
+        },
+        {
+          "label": "VicRoads: guidare con una patente straniera"
+        },
+        {
+          "label": "Northern Territory: conducenti in visita e infrazioni stradali"
+        },
+        {
+          "label": "Revenue NSW: indicare un altro conducente per una multa"
         }
       ],
       "priceTable": null
@@ -4566,7 +4856,7 @@
         {
           "heading": "Cartelli di velocità e limiti variabili",
           "body": [
-            "I <a data-guide=\"australia-road-rules-state-differences\">limiti</a> sono in chilometri orari, e quello generale fuori dai centri abitati cambia da stato a stato: 100 nella maggior parte degli stati, 110 su molte highway e 130 su alcuni tratti indicati del Northern Territory.",
+            "<a data-guide=\"australia-road-rules-state-differences\">I limiti di velocità</a> sono in chilometri orari. Dove non c’è un cartello, fuori dai centri abitati il limite predefinito è 100 km/h nella maggior parte degli stati e 110 km/h nel Western Australia e nel Northern Territory. Alcune strade extraurbane principali sono segnalate a 110 km/h, e il Northern Territory ammette i 130 km/h solo sui tratti di Stuart, Barkly, Victoria e Arnhem Highway dove lo indicano i cartelli.",
             "I pannelli a messaggio variabile e i limiti elettronici prevalgono su quelli fissi e sono frequenti vicino a cantieri, gallerie e zone scolastiche. I limiti dei cantieri valgono anche quando non si vede nessuno al lavoro.",
             "Le velocità consigliate sui cartelli gialli in curva non sono limiti di legge: sono pensate per un’auto quando le condizioni sono buone. Con un camper carico o con un rimorchio, la velocità sicura è ancora più bassa."
           ],
@@ -4625,6 +4915,15 @@
         },
         {
           "label": "Northern Territory: cartelli stradali"
+        },
+        {
+          "label": "Main Roads WA: zone di velocità"
+        },
+        {
+          "label": "Northern Territory: limiti di velocità"
+        },
+        {
+          "label": "SA Driver's Handbook: limiti di velocità"
         }
       ],
       "priceTable": null
@@ -4741,8 +5040,8 @@
       "priceTable": null
     },
     "towing-caravan-australia-road-rules": {
-      "title": "Trainare una roulotte in Australia: pesi, velocità e regole per stato",
-      "description": "Trainare una roulotte in Australia: guida pratica a limiti a pieno carico, aggancio, spazi di frenata e regole che cambiano al confine tra uno stato e l’altro.",
+      "title": "Trainare una roulotte in Australia 2026: velocità, peso, patente",
+      "description": "Trainare una roulotte in Australia nel 2026: patente, limiti di velocità nel Western Australia e nel New South Wales, peso sulla sfera e i quattro limiti di carico da controllare.",
       "region": "Australia",
       "imageAlt": "Auto con roulotte su una strada australiana",
       "intro": "Per trainare in sicurezza si parte dal peso reale del convoglio carico (auto più roulotte), non dal depliant della roulotte vuota. I limiti del costruttore, il carico sulla sfera, le condizioni della patente e le regole dello stato o del territorio in cui guidi devono quadrare tutti insieme.",
@@ -4806,12 +5105,12 @@
           "body": [
             "Il limite che conta è il più basso tra la capacità di traino del veicolo, la portata del gancio, la massa complessiva a pieno carico della roulotte e il carico ammesso sulla sfera. Superarne uno qualsiasi si ripercuote su tenuta di strada, frenata e assicurazione.",
             "Pesa il convoglio carico invece di andare a stima. Le pese pubbliche sono diffuse e costano poco, e quasi tutte le roulotte viaggiano più pesanti di quanto credano i proprietari.",
-            "Tieni circa il 10% del peso sulla sfera e carica le cose pesanti in basso, sopra l’asse. Caricare troppo la parte posteriore è la causa più comune del serpeggiamento della roulotte."
+            "Come indicano le linee guida del New South Wales, tieni sulla sfera circa il 5-10% del peso della roulotte carica e controlla i limiti nei manuali del veicolo e della roulotte. Carica le cose pesanti in basso, sopra l’asse. Caricare troppo la parte posteriore è la causa più comune di serpeggiamento."
           ],
           "tips": [
             "Vale il limite più basso",
             "Usa una pesa pubblica",
-            "Il 10% del peso sulla sfera"
+            "Controlla il peso sulla sfera"
           ]
         },
         {
@@ -4831,11 +5130,11 @@
       "faq": [
         [
           "Qual è il limite di velocità per chi traina una roulotte in Australia?",
-          "Dipende dallo stato. Il Western Australia e il Northern Territory impongono ai veicoli con traino un limite più basso di quello generale, mentre quasi tutti gli stati dell’est applicano il normale limite indicato. Di solito il vero limite è la stabilità del convoglio."
+          "Dipende dallo stato. Nel Western Australia qualsiasi veicolo che traina un rimorchio o una roulotte non può superare i 100 km/h. Nel New South Wales il tetto di 100 km/h vale quando la massa complessiva del veicolo trainante (GVM) o del convoglio (GCM) supera le 4,5 tonnellate; sotto quella soglia vale il limite segnalato. Controlla le regole di traino di ogni stato prima di passare il confine e guida in base alla stabilità del convoglio e alle condizioni."
         ],
         [
           "Serve una patente speciale per trainare una roulotte in Australia?",
-          "Con la normale patente per auto puoi guidare la maggior parte dei convogli fino a 4,5 tonnellate di massa complessiva. Oltre serve una patente light rigid o medium rigid (le categorie australiane per i mezzi più pesanti), e se superi la capacità di traino dichiarata del veicolo l’assicurazione non ti copre, qualunque patente tu abbia."
+          "Una normale patente per auto copre un veicolo trainante fino a 4,5 tonnellate di massa complessiva (GVM); per uno più pesante serve una patente light rigid o superiore. La patente non alza i limiti di traino: la roulotte carica deve restare entro il più basso tra capacità di traino del veicolo, portata del gancio e dell’attacco, portata della roulotte stessa e carico massimo degli pneumatici. Nel New South Wales i learner (chi ha il permesso per allievi) non possono trainare e chi ha la patente P1 può trainare solo rimorchi fino a 250 kg a vuoto."
         ]
       ],
       "sources": [
@@ -4847,6 +5146,9 @@
         },
         {
           "label": "South Australia: trainare una roulotte"
+        },
+        {
+          "label": "New South Wales: categorie di patente"
         }
       ],
       "priceTable": null
@@ -5060,7 +5362,7 @@
         ],
         [
           "Quali regole cambiano di più tra gli stati australiani?",
-          "I limiti di velocità con il traino, la distanza minima per sorpassare i ciclisti, le regole sulle strade sterrate con un mezzo a noleggio e gli orari delle zone scolastiche. I punti di penalità valgono in tutti gli stati, anche se le regole che li fanno perdere non sono le stesse."
+          "I limiti di velocità con il traino, la distanza minima per sorpassare i ciclisti, le regole sulle strade sterrate con un mezzo a noleggio e gli orari delle zone scolastiche. Quasi tutti gli stati registrano sulla tua patente d’origine i punti persi per un’infrazione commessa in un altro stato, ma il Western Australia no."
         ]
       ],
       "sources": [
@@ -5078,482 +5380,680 @@
         },
         {
           "label": "Northern Territory: limiti di velocità"
+        },
+        {
+          "label": "New South Wales: punti della patente"
+        },
+        {
+          "label": "Queensland: punti della patente"
+        },
+        {
+          "label": "Western Australia: punti della patente"
+        },
+        {
+          "label": "Austroads: rilascio delle patenti in Australia"
         }
       ],
       "priceTable": null
     },
     "camping-rules-new-south-wales": {
-      "title": "Campeggio nel New South Wales: le regole",
-      "description": "Campeggio nel New South Wales: prenotazioni, aree designate, campeggio in zone remote e cosa controllare sul rischio incendi prima di passare la notte nel NSW.",
+      "title": "Campeggio nel New South Wales 2026: libero, State Forest, tariffe",
+      "description": "Campeggio libero nelle State Forest del New South Wales fino a quattro settimane; nei parchi nazionali si prenota, 6 $ anche se gratis. Divieti di fuochi e multe 2026.",
       "region": "New South Wales",
       "imageAlt": "Campeggio in un parco nazionale del New South Wales",
-      "intro": "Nel New South Wales (Nuovo Galles del Sud) le regole del campeggio dipendono da chi gestisce il terreno: parchi nazionali, State Forest (foreste demaniali), comuni e campeggi privati fissano ciascuno le proprie condizioni.",
+      "intro": "Sì, nel New South Wales (Nuovo Galles del Sud) si può fare campeggio libero: tutte le State Forest (foreste demaniali) tranne Cumberland e Strickland ammettono il campeggio gratuito fino a quattro settimane, secondo l’ordine di arrivo, e alcuni campeggi dei parchi nazionali non hanno tariffa di campeggio, anche se quasi tutti fanno comunque pagare 6 $ di prenotazione. AussieCamps mappa 372 campeggi dei parchi nazionali del NSW, 869 aree di sosta lungo la strada e 347 punti di scarico pubblici.",
       "sections": [
         {
           "heading": "Campeggi nei parchi nazionali",
           "body": [
-            "NSW National Parks (l’ente dei parchi del New South Wales) chiede di prenotare in anticipo i campeggi in elenco e gli alloggi al coperto. Tieni a portata di mano la conferma e indica con precisione il numero di persone e i dati del veicolo.",
-            "Il campeggio in zone remote è ammesso solo in aree precise. Anche dove non serve la normale prenotazione, può essere consigliato compilare un trip intention form, il modulo in cui lasci detto il tuo itinerario."
+            "I parchi nazionali del NSW hanno più di 365 campeggi, e la maggior parte di quelli elencati sul sito di NSW National Parks richiede la prenotazione anche quando il campeggio è gratuito; su quei campeggi gratuiti si paga una prenotazione di 6 $. Alcune piazzole essenziali in elenco, come il campeggio di Tuross River nel Wadbilliga National Park, non richiedono prenotazione, e nemmeno il campeggio in zone remote in luoghi non in elenco, anche se l’NPWS (National Parks and Wildlife Service, l’ente dei parchi del New South Wales) consiglia di compilare un modulo di intenzione di viaggio (trip intention form).",
+            "Le <a data-guide=\"camping-fees-australia-2026\">tariffe di campeggio</a> e l’ingresso al parco sono separati. L’ingresso del veicolo si paga in 45 degli oltre 890 parchi e riserve, per esempio 8 $ al giorno a Myall Lakes e Murramarang, e una prenotazione copre solo il numero di persone indicato e pagato: l’NPWS può far pagare gli occupanti in più, oppure mandarli via."
           ],
           "tips": []
         },
         {
           "heading": "Campeggio libero e soste lungo la strada",
           "body": [
-            "Un’area di sosta non è automaticamente un campeggio. Leggi i limiti di sosta e i cartelli del comune, lascia libere le piazzole per i camion e, dove è prevista solo <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">una pausa per riposare</a>, non aprire tendalino, tavolo e sedie: in un’area di sosta si sosta, non si campeggia.",
-            "Le aree comunali e gli showground (l’area delle fiere agricole, spesso aperta ai camper) possono richiedere permessi locali, avere limiti di permanenza o essere chiusi. Verifica il giorno stesso."
+            "I consigli ufficiali sulle aree di sosta non sono univoci. Service NSW dice che le aree di sosta non sono per campeggiare, mentre la nota operativa di luglio 2026 sulla pianificazione dice che campeggiarvi può essere consentito, a meno che un comune o Transport for NSW abbia messo un cartello di divieto di campeggio o di pernottamento.",
+            "Campeggiare fuori da un <a data-guide=\"caravan-park-vs-holiday-park\">caravan park</a> (campeggio attrezzato con piazzole e bungalow) o da un campeggio di solito richiede l’approvazione del comune, salvo che si applichi un’esenzione del Local Government Regulation, e i comuni possono vietare il campeggio sui propri terreni con dei cartelli. La multa per aver ignorato un cartello del comune è fissata dalla legge dello stato in 110 $ sul posto, e le riserve demaniali (Crown reserve) seguono le regole di chi le gestisce."
           ],
           "tips": [
-            "Leggi i cartelli appena arrivi",
-            "Lascia libere le strade d’accesso",
-            "Non lasciare acque di scarico"
+            "Leggi il cartello dell’area di sosta",
+            "Usa le piazzole per auto, non quelle per camion",
+            "Fuori dai campeggi serve l’approvazione del comune"
           ]
         },
         {
           "heading": "Incendi e avvisi dei parchi",
           "body": [
-            "Prima di partire controlla gli avvisi dei parchi del NSW, l’indice di pericolo incendi e gli eventuali <a data-guide=\"campfires-camping-australia\">Total Fire Ban (divieto totale di accendere fuochi)</a>. Se c’è un divieto, il focolare del campeggio non rende legale accendere il fuoco.",
-            "A seconda delle condizioni, un parco può chiudere con pochissimo preavviso: tieni pronta un’alternativa in regola fuori dalla zona interessata."
+            "Prima di accendere qualsiasi cosa controlla l’indice di pericolo incendi dell’RFS del NSW, gli avvisi dei parchi dell’NPWS e gli eventuali <a data-guide=\"campfires-camping-australia\">divieti di fuochi</a> del parco. L’NPWS può dichiarare un divieto di fuochi nel parco o chiuderlo quando il rischio è alto, indipendentemente da un Total Fire Ban.",
+            "Nei parchi nazionali accendi il fuoco solo nei focolari designati, non spezzare mai rami né raccogliere legna caduta e non usare mai un generatore durante un divieto di fuochi. Non tutti i parchi ammettono i falò, quindi controlla prima di partire."
           ],
           "tips": []
         },
         {
           "heading": "Chi gestisce il terreno dove ti trovi",
           "body": [
-            "Nel NSW il campeggio si divide tra riserve del National Parks and Wildlife Service, State Forest, terreni demaniali (Crown land), aree comunali e proprietà private. Ognuno ha il suo sistema di prenotazione, le sue tariffe e le sue regole, e dalla strada spesso non si capisce dove finisce uno e comincia l’altro.",
-            "I campeggi NPWS si prenotano online e la maggior parte fa pagare sia la tariffa di campeggio sia, a parte, l’ingresso del veicolo nel parco. Le State Forest sono in genere gratuite e molto meno regolamentate: per campeggiare liberamente, fuori dalle aree attrezzate, sono la scelta più pratica.",
-            "Le aree comunali cambiano moltissimo da un comune all’altro. In un comune l’area di sosta ammette la notte, in quello accanto è vietata: l’unica guida affidabile sono i cartelli."
+            "Le regole del campeggio nel NSW dipendono da chi gestisce il terreno. Il National Parks and Wildlife Service gestisce i parchi, la Forestry Corporation of NSW le State Forest, i comuni le proprie aree e gli enti che gestiscono i terreni demaniali (Crown land) le Crown reserve.",
+            "In una State Forest puoi piantare la tenda quasi ovunque, tranne sulle strade, nelle aree picnic o con permesso, nelle piantagioni di pini e nel bosco fitto. Le piazzole non si prenotano, il soggiorno massimo è di quattro settimane salvo un cartello che indichi meno, e in molte foreste non ci sono cestini, quindi porta via i rifiuti.",
+            "In un parco nazionale devi campeggiare in un’area riservata al campeggio, a meno che il parco ammetta il campeggio in zone remote, e per non più di 21 giorni consecutivi, salvo un limite diverso indicato da un cartello del parco o dal piano di gestione. Campeggiare in qualsiasi altro punto di un parco comporta una sanzione massima di 30 penalty unit (unità di sanzione)."
           ],
           "tips": [
-            "Con NPWS paghi campeggio e ingresso al parco",
-            "State Forest quasi sempre gratuite",
-            "Regole diverse a ogni confine comunale"
+            "State Forest: gratis, al massimo quattro settimane",
+            "Parchi: 21 giorni, salvo diversa indicazione dei cartelli",
+            "Sono i comuni a decidere dove il campeggio è vietato"
           ]
         },
         {
           "heading": "Prenotare i campeggi NPWS",
           "body": [
-            "I campeggi più richiesti, sulla costa e in montagna, vanno esauriti con mesi di anticipo per l’estate, Pasqua e le vacanze scolastiche, e in quei periodi trovare posto senza prenotazione è raro. Negli altri periodi la maggior parte delle piazzole si prenota anche pochi giorni prima.",
-            "L’All Parks Pass copre per un anno l’ingresso del veicolo nella maggior parte dei parchi del NSW e si ripaga in fretta se ne visiti più di qualcuno. Non copre le <a data-guide=\"camping-fees-australia-2026\">tariffe di campeggio</a> e non sempre vale per i parchi di Sydney Harbour e del Kosciuszko.",
-            "Si prenota per piazzola, con un numero massimo di persone e di veicoli. Presentarsi con più persone o più veicoli di quelli prenotati è uno dei motivi più comuni di problemi nei campeggi affollati."
+            "I campeggi della costa più richiesti possono andare esauriti in estate e durante le vacanze scolastiche, quindi prenota appena hai fissato le date. La tariffa di campeggio si paga per intero al momento della prenotazione, più un costo di prenotazione non rimborsabile.",
+            "Disdire 31 giorni prima dell’arrivo o più comporta il rimborso del 75% della tariffa, disdire più tardi il 50%. Nessuno dei due rimborsi include il costo di prenotazione.",
+            "L’All Parks Pass costa 190 $ all’anno e copre l’ingresso del veicolo in tutti i 45 parchi a pagamento, Kosciuszko compreso, con restrizioni a Chowder Bay e nell’area del faro di Cape Byron, ma nessun pass annuale copre il campeggio. L’ingresso a Kosciuszko costa 29 $ ogni 24 ore dal weekend lungo di giugno a quello di ottobre e 17 $ nel resto dell’anno."
           ],
           "tips": [
-            "Per l’estate prenota mesi prima",
-            "L’All Parks Pass copre solo l’ingresso",
-            "Il limite di persone e veicoli si controlla"
+            "Prenota presto i campeggi più richiesti in estate",
+            "All Parks Pass: 190 $ all’anno",
+            "I pass non coprono mai il campeggio"
           ]
         },
         {
           "heading": "Fuochi e Total Fire Ban",
           "body": [
-            "Nel NSW il periodo a rischio di incendi boschivi (bush fire danger period) va di solito da ottobre a marzo e cambia da comune a comune. In questi mesi serve un permesso per la maggior parte dei fuochi all’aperto, e nei giorni di <a data-guide=\"campfires-camping-australia\">Total Fire Ban</a> non è ammessa nessuna fiamma libera.",
-            "Nei giorni di Total Fire Ban sono vietati falò e barbecue a combustibile solido. Gli apparecchi a gas di solito sono ammessi a certe condizioni, ma controlla il testo esatto del divieto, perché cambia.",
-            "Molti campeggi NPWS vietano i fuochi sempre, in qualsiasi stagione. Controlla la pagina del singolo campeggio invece di dare per scontato che valga la regola generale dello stato."
+            "Il Bush Fire Danger Period (periodo di pericolo di incendi boschivi) previsto dalla legge va dal 1º ottobre al 31 marzo, anche se le condizioni locali possono cambiarlo. In quel periodo l’RFS (Rural Fire Service) decide ogni pomeriggio se dichiarare per il giorno dopo un <a data-guide=\"campfires-camping-australia\">Total Fire Ban</a>, e un divieto può essere dichiarato anche il giorno stesso.",
+            "In un giorno di Total Fire Ban non puoi accendere fuochi all’aperto né usare un barbecue a combustibile solido, e accendere un fuoco comporta una multa immediata di 2.200 $, oppure fino a 5.500 $ e 12 mesi di carcere se si arriva in tribunale. Nei parchi nazionali in genere sono vietati anche i fornelli a gas ed elettrici dei visitatori, tranne dentro una roulotte o nel suo annesso a tre lati.",
+            "Anche le State Forest dichiarano divieti dei fuochi a combustibile solido, durante i quali si possono usare solo apparecchi a gas, con una sanzione massima di 2.200 $. Quando i fuochi nelle foreste sono ammessi, tienili sotto un metro quadrato e a 4,5 metri dal tronco, dal ceppo o dall’albero più vicino, con 2 metri di terreno sgombro intorno."
           ],
           "tips": [
-            "Pericolo incendi da ottobre a marzo",
-            "Niente combustibile solido nei giorni di divieto",
-            "Molti campeggi vietano sempre il fuoco"
+            "Periodo di pericolo dal 1º ottobre al 31 marzo",
+            "Fuoco nei giorni di divieto: multa di 2.200 $",
+            "Fornelli a gas dei visitatori in genere vietati nei parchi nei giorni di divieto"
           ]
         },
         {
           "heading": "Campeggio libero e aree di sosta",
           "body": [
-            "Le aree di sosta di Transport for NSW servono a <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">far riposare chi guida</a> e molte ammettono una sosta fino a 24 ore, ma non sono campeggi e non sono pensate per aprire tendalino e sedie.",
-            "Il vero <a data-guide=\"is-free-camping-legal-australia\">campeggio libero</a> lo trovi con più sicurezza nelle State Forest, su alcuni terreni demaniali e nelle aree indicate dai comuni, diverse delle quali chiedono una piccola offerta per la comunità locale.",
-            "I controlli variano, ma nei comuni della costa e nelle zone più frequentate ci sono davvero. Campeggiare dove è vietato costa una multa, e la sanzione è legata al veicolo: se è a noleggio, l’agenzia te la riaddebita."
+            "Il <a data-guide=\"is-free-camping-legal-australia\">campeggio libero</a> nel NSW significa soprattutto State Forest, più i campeggi dei parchi nazionali senza tariffa di campeggio, che nella maggior parte dei casi fanno comunque pagare 6 $ di prenotazione. Il campeggio in genere non è ammesso nelle aree picnic delle State Forest, tranne nelle aree di sosta dove le highway attraversano una foresta.",
+            "I cani sono ammessi in tutte le State Forest ma devono essere sempre sotto controllo, e la Forestry Corporation chiede di tenerli al guinzaglio. Nella maggior parte dei parchi nazionali non sono ammessi, anche se alcuni parchi regionali, come il Murrumbidgee Valley Regional Park, li accettano, e molte foreste confinano con parchi nazionali.",
+            "Sono i comuni a decidere dove il campeggio è vietato sui propri terreni, e molti lo vietano nei parcheggi sul lungomare, quindi controlla i cartelli e le regole del comune prima di fermarti per la notte."
           ],
           "tips": [
-            "Le aree di sosta servono a riposare, non a campeggiare",
             "Le State Forest sono l’opzione gratuita",
-            "I comuni costieri multano davvero"
+            "Niente cani nella maggior parte dei parchi nazionali",
+            "Controlla i cartelli dei parcheggi in spiaggia"
           ]
         },
         {
           "heading": "Parchi marini e accesso alla costa",
           "body": [
-            "I parchi marini del NSW sono divisi in zone, e nelle sanctuary zone (zone di tutela integrale) pesca e raccolta sono limitate. I confini sono pubblicati, ma non segnalati su ogni spiaggia: informati prima di pescare in qualsiasi punto della costa.",
-            "In alcune zone si può guidare sulla spiaggia con un permesso, altrove è vietato. A Stockton e in parte della Mid North Coast è consentito, e i permessi li rilascia il comune o l’ente parchi competente.",
-            "Le State Forest restano l’opzione più flessibile del New South Wales, e l’ente forestale pubblica mappe che indicano dove si può campeggiare e dove si può entrare con il veicolo.",
-            "Con l’All Parks Pass entri con il veicolo nella maggior parte dei parchi del NSW per un anno, e la spesa si ripaga in fretta appena ne visiti più di qualcuno."
+            "I parchi marini del NSW hanno sanctuary zone (zone di tutela integrale) dove la pesca è vietata; le zone sono indicate sulle mappe ufficiali e nell’app FishSmart NSW, perché dalla riva i confini non sono sempre evidenti.",
+            "Guidare sulla spiaggia è permesso solo su alcune spiagge del NSW, e le regole variano: in alcuni casi serve un permesso del comune, su certe spiagge dei parchi nazionali serve un pass del parco, e le Worimi Conservation Lands vicino a Port Stephens richiedono un permesso di accesso per i veicoli, che i pass annuali dei parchi non coprono.",
+            "Molti campeggi della costa sono dentro parchi nazionali, quindi il limite di 21 giorni, il divieto per i cani e i <a data-guide=\"campfires-camping-australia\">divieti di fuochi</a> dell’NPWS valgono anche dove la spiaggia sembra un terreno pubblico.",
+            "Controlla gli avvisi dei parchi dell’NPWS la mattina in cui parti, perché i parchi della costa chiudono le strade dopo le tempeste e i campeggi dopo i danni di incendi o alluvioni."
           ],
           "tips": [
-            "Nei parchi marini la pesca è limitata per zone",
-            "Per guidare in spiaggia serve un permesso",
-            "Confini pubblicati, non segnalati"
+            "Nelle sanctuary zone la pesca è vietata",
+            "Per le Worimi serve un permesso per i veicoli",
+            "Sulle spiagge dei parchi valgono le regole del parco"
           ]
         }
       ],
       "faq": [
         [
           "Si può fare campeggio libero nel New South Wales?",
-          "Sì, nelle aree designate, e le regole arrivano da tre fronti: le piazzole di NSW National Parks si prenotano e si pagano, nelle State Forest il campeggio libero è ammesso in molte zone e i limiti nelle aree di sosta lungo la strada li fissano i comuni e Transport for NSW."
+          "Sì. Tutte le State Forest del New South Wales, tranne Cumberland e Strickland, ammettono il campeggio gratuito fino a quattro settimane, secondo l’ordine di arrivo. Alcuni campeggi dei parchi nazionali non hanno tariffa di campeggio ma richiedono comunque una prenotazione, con 6 $ di costo di prenotazione."
         ],
         [
           "Bisogna prenotare per campeggiare nei parchi nazionali del NSW?",
-          "Quasi sempre. NSW National Parks ha introdotto la prenotazione per la grande maggioranza dei suoi campeggi, compresi quelli gratuiti, e i ranger controllano davvero. Nei parchi della costa, durante le vacanze scolastiche, i posti vanno esauriti mesi prima."
+          "Per la maggior parte dei campeggi in elenco sì, anche per quelli gratuiti, che fanno pagare 6 $ di prenotazione, e i campeggi più richiesti della costa possono andare esauriti in estate e durante le vacanze scolastiche. Alcune piazzole essenziali in elenco, come il campeggio di Tuross River, e il campeggio in zone remote in luoghi non in elenco non richiedono prenotazione."
         ]
       ],
       "sources": [
         {
           "label": "NSW National Parks: campeggio e alloggi"
+        },
+        {
+          "label": "NPWS: sicurezza in campeggio"
+        },
+        {
+          "label": "NPWS: parchi a pagamento"
+        },
+        {
+          "label": "NPWS: pass annuali"
+        },
+        {
+          "label": "NPWS: condizioni di prenotazione"
+        },
+        {
+          "label": "NPWS: divieti di fuochi"
+        },
+        {
+          "label": "Forestry Corporation: campeggio e picnic"
+        },
+        {
+          "label": "Forestry Corporation: divieti dei fuochi a combustibile solido"
+        },
+        {
+          "label": "NSW RFS: periodo di pericolo di incendi boschivi (Bush Fire Danger Period)"
+        },
+        {
+          "label": "NSW RFS: regole sui Total Fire Ban"
+        },
+        {
+          "label": "Service NSW: aree di sosta"
+        },
+        {
+          "label": "Nota operativa sui caravan park e sui campeggi del NSW, luglio 2026"
+        },
+        {
+          "label": "National Parks and Wildlife Regulation 2019"
+        },
+        {
+          "label": "Animali domestici nei parchi nazionali del NSW"
+        },
+        {
+          "label": "Campeggio di Tuross River"
+        },
+        {
+          "label": "Campeggio nelle State Forest del NSW"
+        },
+        {
+          "label": "Local Government Act 1993 (NSW)"
         }
       ],
       "priceTable": null
     },
     "camping-rules-queensland": {
-      "title": "Campeggio nel Queensland: le regole",
-      "description": "Campeggio nel Queensland: permessi, prenotazioni da fare in anticipo e avvisi da controllare per i parchi e le foreste dello stato.",
+      "title": "Campeggio nel Queensland 2026: permessi, campeggio libero e tariffe",
+      "description": "Niente campeggio libero nei parchi e nelle foreste del Queensland: nel 2026 il permesso costa 7,75 $ a persona a notte. Gratis solo nei campeggi comunali; aree di sosta per 20 ore.",
       "region": "Queensland",
       "imageAlt": "Campeggio in un parco nazionale del Queensland",
-      "intro": "Nelle aree protette del Queensland, per campeggiare di solito serve prima di tutto un permesso. Prenotalo prima di arrivare e porta con te i dati del permesso in una forma che puoi consultare anche dove non c’è campo.",
+      "intro": "Non nei parchi e nelle foreste del Queensland, dove ogni campeggio richiede un permesso a pagamento: 7,75 $ a persona o 31 $ a famiglia a notte nel 2026. Campeggio libero significa i campeggi comunali che lo ammettono, e nelle aree di sosta lungo la strada ti puoi fermare fino a 20 ore, salvo cartelli diversi, anche se lo stato precisa che non sono luoghi dove campeggiare. AussieCamps mappa 517 campeggi dei parchi e delle foreste del Queensland, 1.688 aree di sosta lungo la strada e 324 punti di scarico pubblici.",
       "sections": [
         {
           "heading": "Prenota e paga prima di arrivare",
           "body": [
-            "Nel Queensland serve un permesso per campeggiare nelle aree dei parchi nazionali e delle foreste. Quasi tutti si prenotano online, e durante le vacanze scolastiche i posti più richiesti possono andare esauriti con settimane di anticipo.",
-            "Esponi il cartellino del campeggio (camping tag) come indicato. Per il veicolo può servire un permesso di accesso a parte, soprattutto nelle aree ricreative e sulle isole."
+            "Il permesso di campeggio va prenotato e pagato prima di arrivare, online sul Queensland National Parks Booking Service, in un ufficio prenotazioni o al numero 13 QGOV (13 74 68). Le prenotazioni aprono 12 mesi prima, e per i posti più richiesti conviene prenotare almeno sei settimane prima.",
+            "Una volta montato il campo, esponi il cartellino del campeggio o i dati del permesso sulla tenda, sulla struttura del campo o sul cruscotto del veicolo. Se non hai una stampante, scrivi su un foglio, dentro una busta trasparente impermeabile, numero del permesso, area di campeggio, date, numero di persone, cognome e targa."
           ],
           "tips": []
         },
         {
           "heading": "Campeggio nel bush e accesso con il veicolo",
           "body": [
-            "Il campeggio nel bush è consentito solo dove il parco lo prevede. Stai lontano da corsi d’acqua, sentieri e aree picnic, e rispetta le regole per ridurre l’impatto previste per quell’itinerario.",
-            "K'gari e le altre mete sulla sabbia richiedono un mezzo preparato, la conoscenza delle maree e verifiche di accesso a parte. Un segnaposto sulla mappa che sembra raggiungibile con un’auto a due ruote motrici non garantisce che ci si arrivi davvero."
+            "Il campeggio nel bush è ammesso solo in alcuni parchi. Accampati ben lontano da corsi d’acqua, laghi, sentieri e aree picnic, e dove non ci sono servizi igienici seppellisci i tuoi bisogni a una profondità di almeno 50 cm e a 50 metri da acqua, sentieri e campi.",
+            "Se guidi nelle aree ricreative di K'gari, Bribie Island, Mulgumpin (Moreton Island), Minjerribah (North Stradbroke Island) o a Cooloola, serve un permesso di accesso per i veicoli oltre al permesso di campeggio. I permessi per K'gari, Bribie e Cooloola si prenotano insieme sul Queensland National Parks Booking Service, e con le telecamere sulle targhe il permesso del veicolo non va più esposto."
           ],
           "tips": [
-            "Permesso di campeggio",
-            "Permesso per il veicolo, se richiesto",
-            "Controlla maree e strade"
+            "Nel bush accampati lontano dall’acqua",
+            "Seppellisci i rifiuti a 50 cm",
+            "Per guidare sulla sabbia serve un permesso per il veicolo"
           ]
         },
         {
           "heading": "Avvisi, meteo e incendi",
           "body": [
-            "Prima di partire controlla gli avvisi dei parchi del Queensland, le allerte del Bureau of Meteorology (il servizio meteorologico nazionale) e i <a data-guide=\"campfires-camping-australia\">divieti di fuochi</a>. Nella stagione delle piogge strade e guadi possono chiudere in poco tempo.",
-            "Non entrare mai in un tratto allagato. Torna indietro e raggiungi il campeggio di riserva, invece di aspettare davanti a un guado pericoloso."
+            "Prima di partire controlla gli avvisi dei parchi del Queensland, le allerte del Bureau of Meteorology e i <a data-guide=\"campfires-camping-australia\">divieti di fuochi</a> locali. Il Queensland non usa il termine Total Fire Ban: il Queensland Fire Department dichiara divieti locali di fuochi per tutta un’area comunale o per una parte, e valgono anche nei parchi e nelle foreste.",
+            "I falò sono ammessi solo nei campeggi che li consentono, nei focolari, nei fire ring o nei punti per il fuoco già presenti dei QPWS (Queensland Parks and Wildlife Service, l’ente dei parchi del Queensland), con legna portata da fuori, e mai durante un divieto di fuochi o un divieto dei QPWS. Fornelli a gas e a spirito si possono usare anche durante un divieto di fuochi, se non possono sprigionare braci, hanno la fiamma contenuta e non sono mai lasciati incustoditi."
           ],
           "tips": []
         },
         {
           "heading": "I parchi nazionali e il sistema dei permessi",
           "body": [
-            "Per campeggiare in un parco nazionale del Queensland serve un permesso, da prenotare in anticipo tramite il sistema di Queensland Parks, e il permesso va esposto. Molti campeggi sono isolati ed essenziali, con pochi servizi o nessuno.",
-            "Le isole e i parchi costieri più richiesti, tra cui K'gari e le Whitsunday, vanno esauriti con mesi di anticipo e, oltre al permesso di campeggio, hanno requisiti specifici per i veicoli e per l’accesso.",
-            "Alcuni parchi richiedono un permesso di accesso separato per il veicolo, soprattutto per guidare in spiaggia. Controlla entrambi i requisiti prima di partire, perché arrivare con un permesso e senza l’altro è un errore frequente e costoso."
+            "La tariffa di campeggio dal 1º luglio 2026 è di 7,75 $ a persona a notte, o 31 $ a famiglia, cioè uno o due adulti con figli sotto i 18 anni, fino a otto persone. I bambini sotto i cinque anni campeggiano gratis, e le tariffe salgono un po’ ogni luglio o agosto.",
+            "Il sistema dei permessi copre circa 525 aree di campeggio nei parchi e nelle foreste del Queensland, e nessuna ha l’elettricità. Devi raggiungere la piazzola entro 24 ore dall’inizio del permesso e non lasciarla incustodita per più di 24 ore.",
+            "Campeggiare senza permesso, o con più persone di quelle previste, comporta una sanzione massima di 20 penalty unit (unità di sanzione). I ranger fanno multe sul posto: nel 2025 un gruppo di quattro persone nel Main Range National Park è stato multato di 322 $ per avere un permesso per una sola persona."
           ],
           "tips": [
-            "Permessi da prenotare ed esporre",
-            "Le isole si prenotano mesi prima",
-            "Guida in spiaggia: permesso a parte"
+            "7,75 $ a persona a notte",
+            "Famiglie 31 $, bambini sotto i cinque anni gratis",
+            "Il numero di persone si controlla"
           ]
         },
         {
           "heading": "Dove ci sono coccodrilli le regole cambiano",
           "body": [
-            "I coccodrilli marini sono presenti più o meno da Rockhampton verso nord, in tutte le acque tropicali: torrenti, estuari e spiagge compresi. I cartelli Croc-wise si trovano dappertutto e vanno rispettati senza eccezioni.",
-            "Nelle zone dei coccodrilli non accamparti a meno di una cinquantina di metri dalla riva, non pulire il pesce in acqua e non fare mai il bagno fuori dalle aree dichiarate sicure. Le apparenze e l’acqua limpida non dicono nulla su come si comporterà un coccodrillo.",
-            "Segnala gli avvistamenti all’autorità competente invece di dare per scontato che l’abbia già fatto qualcuno. Gli esemplari pericolosi vengono rimossi solo se qualcuno li segnala, e questo protegge chi arriva dopo di te quanto te."
+            "I coccodrilli marini vivono tra Gladstone e la Cape York Peninsula e in tutto il Golfo di Carpentaria, in qualsiasi corso d’acqua e in mare, compresi fiumi d’acqua dolce, lagune e paludi molto all’interno. Rispetta ogni cartello sui coccodrilli.",
+            "Monta il campo ben lontano dalla riva, perché i coccodrilli hanno attaccato persone nelle tende piantate troppo vicino. Non nuotare né camminare nell’acqua nelle zone dei coccodrilli, resta ad almeno 5 metri dalla riva e non pulire il pesce lì.",
+            "Segnala gli avvistamenti di coccodrilli al dipartimento dell’ambiente del Queensland. Ogni segnalazione viene esaminata nell’ambito del Queensland Crocodile Management Plan, e i coccodrilli che rappresentano una minaccia per le persone vengono destinati alla rimozione."
           ],
           "tips": [
-            "Coccodrilli da Rockhampton in su",
+            "Da Gladstone in su e nel Golfo",
             "Accampati lontano dall’acqua",
-            "Segnala gli avvistamenti"
+            "Segnala ogni avvistamento"
           ]
         },
         {
           "heading": "Stagione delle piogge e strade chiuse",
           "body": [
-            "Nel nord del Queensland la <a data-guide=\"best-time-camping-australia\">stagione delle piogge</a> va più o meno da novembre ad aprile e porta piogge monsoniche, cicloni e strade chiuse un po’ ovunque. Molti campeggi dei parchi nazionali restano chiusi per tutta la stagione.",
-            "Le strade sterrate diventano impraticabili in fretta, e percorrerle bagnate le rovina e ti espone a multe. Controlla ogni giorno le chiusure con il comune o con l’ente stradale dello stato, invece di affidarti alle previsioni.",
-            "La stagione secca, da maggio a ottobre, è quella in cui il campeggio funziona davvero in quasi tutto lo stato, ed è anche il periodo in cui i posti più noti si riempiono di viaggiatori in fuga dall’inverno degli stati del sud."
+            "La stagione dei cicloni nel Queensland va ufficialmente dal 1º novembre al 30 aprile, e le comunità entro 50 km dalla costa, da Bundaberg a Thursday Island e intorno al Golfo, sono le più esposte. Anche un ciclone di categoria 1 può danneggiare le roulotte.",
+            "Le piogge della stagione umida chiudono in fretta le strade sterrate e i guadi dei torrenti. Controlla ogni giorno gli avvisi dei parchi, QLDTraffic e le allerte del Bureau of Meteorology, e non guidare mai dentro l’acqua alta.",
+            "La stagione secca, più o meno da maggio a ottobre, è il momento migliore per il campeggio nell’estremo nord, ma molti parchi di Cape York restano chiusi fino a giugno o luglio dopo la stagione umida. I posti più richiesti si riempiono in fretta durante le vacanze scolastiche e i giorni festivi, quindi prenota almeno sei settimane prima."
           ],
           "tips": [
-            "Stagione delle piogge da novembre ad aprile",
-            "Molti campeggi chiudono per la stagione",
-            "Nella stagione secca arrivano i viaggiatori dal sud"
+            "Stagione dei cicloni da novembre ad aprile",
+            "Controlla QLDTraffic ogni giorno",
+            "Prenota i posti più richiesti sei settimane prima"
           ]
         },
         {
           "heading": "Campeggio libero e aree comunali",
           "body": [
-            "Il Queensland ha una buona rete di <a data-guide=\"is-free-camping-legal-australia\">aree di campeggio gratuite o economiche</a> gestite dai comuni, molte in piccoli centri dell’interno che invitano apertamente i viaggiatori a fermarsi e a spendere in paese. Di solito si può restare da 24 a 72 ore.",
-            "Alcune accettano solo mezzi self-contained (autosufficienti, con bagno e serbatoi propri) e quasi tutte hanno condizioni specifiche indicate sui cartelli. Molto diffuso anche il campeggio negli showground (l’area delle fiere agricole, spesso aperta ai camper), di solito economico e con servizi essenziali.",
-            "Sulla costa i comuni sono molto più severi che nell’interno, perché la domanda è più alta. Considera vietato qualsiasi parcheggio fronte mare, a meno che un cartello non dica chiaramente il contrario."
+            "Il <a data-guide=\"is-free-camping-legal-australia\">campeggio libero</a> nel Queensland significa i campeggi approvati dai comuni, non i parchi. Le aree di sosta consentono ai veicoli normali e ai veicoli ricreazionali di fermarsi fino a 20 ore, salvo cartelli diversi, ma lo stato precisa che non sono luoghi dove campeggiare, e le aree di sosta per veicoli pesanti sono riservate ai camionisti.",
+            "Ogni comune fissa le proprie regole, e alcuni gestiscono campeggi a basso costo o ammettono soste brevi nei luoghi segnalati, quindi controlla prima il sito del comune. Le città sono più rigide: Cairns vieta il campeggio sui terreni comunali, compresi i bordi delle strade, l’Esplanade, i parchi, i parcheggi e le spiagge.",
+            "Campeggiare su una strada di competenza statale è illegale, a meno che tu stia gestendo la <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">stanchezza</a> tra le 16 e le 8, su una strada che non sia un’autostrada o a pedaggio, dove nessun cartello lo vieta, fuori da un centro abitato e ad almeno 200 metri da qualsiasi cordolo o marciapiede. Non sono ammessi fuochi, generatori e rimorchi sganciati, e le aree di sosta vietano i generatori dalle 19 alle 7."
           ],
           "tips": [
-            "I paesi dell’interno accolgono i viaggiatori",
-            "Showground: una buona soluzione economica",
-            "I comuni della costa sono severi"
+            "Aree di sosta: 20 ore, salvo cartelli diversi",
+            "Cairns vieta il campeggio sui terreni comunali",
+            "Aree di sosta: niente generatori dalle 19 alle 7"
           ]
         },
         {
           "heading": "K'gari e i dingo: le regole di sicurezza",
           "body": [
-            "Su K'gari valgono regole specifiche sui dingo, fatte rispettare con rigore: muoversi in gruppo, non portare mai cibo mentre si cammina e usare le aree di campeggio recintate. Ci sono stati attacchi gravi, ed è per questo che le regole esistono.",
-            "Dare da mangiare ai dingo o lasciare il cibo alla loro portata costa multe salate. Ad attaccare sono gli animali abituati all’uomo, e dietro ogni incidente c’è un dingo che ha avuto accesso al cibo.",
-            "Il sistema di prenotazione dei parchi del Queensland apre le date con un anticipo fisso rispetto all’arrivo (una finestra mobile), e i campeggi più richiesti sulle isole e sulla costa vanno via pochi minuti dopo l’apertura.",
-            "I permessi di accesso per guidare in spiaggia sono separati da quelli di campeggio, e sulle isole arrivare con uno solo dei due è un errore frequente e costoso."
+            "A K'gari cammina sempre in gruppo, perché camminare o sedersi da soli fuori da un’area recintata rende più probabile l’incontro con un dingo. Alle famiglie con bambini sotto i 14 anni si consiglia vivamente di campeggiare in un campeggio recintato.",
+            "Non tenere mai cibo nella tenda e non portare cibo né fare picnic sulla riva del lago o in spiaggia. A chi disturba o fa del male ai dingo a K'gari si applicano multe fino a 28.495 $.",
+            "Cani e altri animali domestici non sono ammessi nei parchi nazionali del Queensland, anche se alcuni parchi di conservazione, State Forest e aree ricreative li accettano. Puoi attraversare un parco nazionale con un cane solo sulle strade ufficiali (gazetted roads), con il cane dentro il veicolo e senza fermarti nelle aree di sosta diurna, nei punti panoramici o in altri luoghi.",
+            "I droni sono vietati in tutte le aree di campeggio delle aree protette, delle aree ricreative e delle foreste del Queensland, quindi tieni il drone riposto in un contenitore nel veicolo."
           ],
           "tips": [
-            "Regole sui dingo fatte rispettare con rigore",
-            "Mai portare cibo mentre cammini",
-            "Nutrire i dingo costa multe salate"
+            "A K'gari cammina in gruppo",
+            "Niente cibo nella tenda",
+            "Niente animali domestici nei parchi nazionali"
           ]
         }
       ],
       "faq": [
         [
           "Serve un permesso per campeggiare nei parchi nazionali del Queensland?",
-          "Sì. Nel Queensland ogni piazzola dei parchi nazionali richiede un permesso di campeggio prenotato in anticipo, associato al veicolo e da esporre. Chi campeggia senza permesso rischia una multa."
+          "Sì. Ogni campeggio in un parco nazionale, in una State Forest (foresta demaniale) o in un’area ricreativa del Queensland richiede un permesso prenotato e pagato prima di arrivare, 7,75 $ a persona o 31 $ a famiglia a notte nel 2026, e il cartellino o i dati del permesso vanno esposti al campo."
         ],
         [
           "Dove si può fare campeggio libero nel Queensland?",
-          "Soprattutto nelle aree di sosta e negli showground gestiti dai comuni, molti gratuiti o da pochi dollari per i mezzi self-contained. Molti comuni rurali dell’outback accolgono volentieri chi si ferma per la notte, mentre i comuni della costa sono molto più restrittivi."
+          "Non nei parchi e nelle foreste, dove si paga sempre. Campeggio libero significa i campeggi comunali che lo ammettono. Nelle aree di sosta lungo la strada ti puoi fermare fino a 20 ore, salvo cartelli diversi, ma lo stato precisa che non sono luoghi dove campeggiare, e molti comuni della costa, Cairns compresa, vietano il campeggio sui terreni comunali."
         ]
       ],
       "sources": [
         {
           "label": "Queensland Parks: prenotazione dei campeggi"
+        },
+        {
+          "label": "Queensland: requisiti legali per il campeggio"
+        },
+        {
+          "label": "Queensland: domande frequenti sul campeggio"
+        },
+        {
+          "label": "Dove campeggiare nei parchi del Queensland"
+        },
+        {
+          "label": "Falò nei parchi del Queensland"
+        },
+        {
+          "label": "Queensland Fire Department: divieti di fuochi"
+        },
+        {
+          "label": "Aree di sosta del Queensland"
+        },
+        {
+          "label": "Transport Infrastructure (State-controlled Roads) Regulation 2017"
+        },
+        {
+          "label": "Cairns: regole su campeggio e roulotte"
+        },
+        {
+          "label": "DETSI: giro di vite sulle attività illegali, 2025"
+        },
+        {
+          "label": "Convivere con i coccodrilli nel Queensland"
+        },
+        {
+          "label": "Queensland: cicloni e mareggiate"
+        },
+        {
+          "label": "Dingo-safe on K'gari"
+        },
+        {
+          "label": "Cani e animali domestici nei parchi del Queensland"
         }
       ],
       "priceTable": null
     },
     "camping-rules-victoria": {
-      "title": "Regole del campeggio in Victoria",
-      "description": "Campeggio in Victoria: prenotazioni, tariffe, strade che chiudono a seconda della stagione e restrizioni sui fuochi in tutto lo stato.",
+      "title": "Campeggio in Victoria 2026: libero, foreste e tariffe",
+      "description": "Campeggio libero nelle State Forest di Victoria fino a 28 notti, a 20 m dall’acqua. I campeggi prenotabili di Parks Victoria costano la metà fino a luglio 2027. Regole 2026 sui fuochi.",
       "region": "Victoria",
       "imageAlt": "Campeggio in un bosco dello stato di Victoria",
-      "intro": "In Victoria trovi campeggi da prenotare nei parchi nazionali, aree gratuite con servizi minimi e campeggi privati. L’unica fonte affidabile per verificare tariffe e servizi è la pagina del singolo campeggio.",
+      "intro": "Sì, in Victoria si può fare campeggio libero: nelle State Forest (foreste demaniali) si può campeggiare quasi ovunque fino a 28 notti consecutive restando ad almeno 20 metri dai corsi d’acqua, tutti i campeggi delle State Forest sono gratuiti tranne la Murrindindi Scenic Reserve, e alcuni campeggi di Parks Victoria non costano nulla e non si prenotano. AussieCamps mappa 438 campeggi di Victoria, 350 dei quali State Forest e terreni demaniali (Crown land) gestiti dal DEECA (il dipartimento di Victoria per energia, ambiente e clima) e 88 gestiti da Parks Victoria, più 651 aree di sosta lungo la strada e 181 punti di scarico pubblici.",
       "sections": [
         {
           "heading": "Prenotazioni e regole dei campeggi",
           "body": [
-            "Dove è richiesto, prenota i campeggi di Parks Victoria (l’ente che gestisce i parchi dello stato) tramite il sistema ufficiale. Tieni a portata di mano la targa del veicolo e la conferma della prenotazione.",
-            "Alcuni campeggi non si prenotano e funzionano in ordine di arrivo, altri chiudono in certe stagioni. Non occupare una piazzola prenotata o chiusa solo perché sembra vuota."
+            "I campeggi prenotabili di Parks Victoria richiedono una prenotazione anticipata con la targa del tuo veicolo. Non devi più stampare né esporre il permesso, ma controlla che la targa indicata nella prenotazione sia giusta; puoi aggiornarla in qualsiasi momento da «manage booking» (gestisci prenotazione) nell’email di conferma.",
+            "Alcuni campeggi dei parchi sono gratuiti e senza prenotazione, come il Warby-Ovens National Park e King Hut nell’Alpine National Park, mentre altri aprono solo in certe stagioni: il Lake Catani al Mount Buffalo è chiuso dal 31 agosto al 30 ottobre 2026. Non occupare una piazzola prenotata o chiusa solo perché sembra vuota."
           ],
           "tips": []
         },
         {
           "heading": "Foreste demaniali e soste lungo la strada",
           "body": [
-            "Nelle foreste demaniali (State Forest) le regole per il campeggio sono diverse da quelle dei parchi nazionali. Usa le piazzole già esistenti, rispetta i corsi d’acqua e controlla le regole locali su legna e fuochi.",
-            "Le aree di sosta lungo la strada servono a fermarsi <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">quando sei stanco</a> e possono avere limiti di tempo indicati sui cartelli. I comuni possono imporre regole a parte per la sosta notturna."
+            "Le State Forest hanno regole diverse da quelle dei parchi nazionali. In una State Forest puoi campeggiare ovunque ad almeno 20 metri da un corso d’acqua per un massimo di 28 notti consecutive, ma nelle riserve forestali devi usare i campeggi predisposti da chi gestisce il terreno.",
+            "Le aree di sosta sono pensate per fermarsi a riposare, non per campeggiare. Quelle sulle strade principali sono gestite da Transport Victoria, e sulle strade locali le regole per la notte le fissano i comuni: segui i cartelli a ogni sosta e non passare la notte se un cartello non lo consente."
           ],
           "tips": [
-            "Verifica chi gestisce il terreno",
-            "Controlla le chiusure stagionali",
-            "Controlla i limiti di lunghezza del mezzo"
+            "Foresta: 20 m dall’acqua",
+            "Al massimo 28 notti consecutive",
+            "Riserve forestali: solo nei campeggi"
           ]
         },
         {
           "heading": "Fuochi e accesso alle zone alpine",
           "body": [
-            "In Victoria il pericolo d’incendio può salire molto in fretta. Controlla VicEmergency (il servizio ufficiale di allerta dello stato) e gli avvisi dei parchi, e non accendere mai un fuoco quando le restrizioni lo vietano.",
-            "Le strade alpine e forestali chiudono in certe stagioni o dopo i temporali. Rispetta le sbarre e tieni pronto un piano B a quota più bassa."
+            "Le condizioni di rischio incendi in Victoria cambiano di giorno in giorno, e nei giorni di <a data-guide=\"campfires-camping-australia\">Total Fire Ban</a> è più probabile che i fuochi si propaghino in fretta. In estate controlla ogni mattina l’app VicEmergency e la pagina degli avvisi del parco, e non accendere mai un fuoco quando le restrizioni lo vietano.",
+            "Le strade alpine e forestali chiudono d’inverno e dopo le tempeste. Rispetta le sbarre chiuse e tieni di riserva un campeggio a quota più bassa, nel caso l’High Country ti respinga."
           ],
           "tips": []
         },
         {
           "heading": "Parks Victoria e il sistema di prenotazione",
           "body": [
-            "Nei parchi nazionali dello stato il campeggio si prenota tramite Parks Victoria e la tariffa cambia secondo la categoria della piazzola. I posti più richiesti sulla costa, lungo la Great Ocean Road e a Wilsons Promontory, vanno esauriti con mesi di anticipo, e per i periodi di punta si fa un sorteggio.",
-            "A Wilsons Promontory, in particolare, le piazzole estive si assegnano per sorteggio e non a chi prenota per primo, e chi pensava di prenotare come al solito resta spiazzato. Informati sulla procedura con largo anticipo rispetto alle date del viaggio.",
-            "Per molte piazzole la prenotazione indica il numero massimo di veicoli e di persone. Presentati con quello che hai prenotato: le piazzole sono piccole e nei campeggi affollati i ranger controllano davvero."
+            "Le <a data-guide=\"camping-fees-australia-2026\">tariffe di campeggio</a> in 131 campeggi prenotabili di Parks Victoria sono a metà prezzo dal 1º luglio 2025, e il governo di Victoria le ha finanziate fino a luglio 2027. Il precedente programma di campeggio gratuito in quei campeggi è finito il 30 giugno 2025, quindi servono ancora prenotazione e tariffa.",
+            "L’alta stagione a Wilsons Promontory si gestisce con rilasci trimestrali di prenotazioni, non con un sorteggio. Le prenotazioni di Tidal River dal 1º marzo al 30 giugno 2027 sono aperte dal 28 settembre 2026, e nel picco estivo, dal 20 dicembre 2026 al 24 gennaio 2027, le piazzole richiedono un soggiorno minimo di 7 notti con arrivo e partenza di domenica. Dal 1º luglio 2026 alcune piazzole della Great Ocean Road si prenotano tramite la Great Ocean Road Coast and Parks Authority.",
+            "Con una prenotazione ora si possono tenere fino a tre piazzole nello stesso campeggio. La maggior parte delle piazzole include un veicolo nella tariffa e Tidal River ammette due auto per piazzola, quindi controlla il limite sulla prenotazione prima di portare una seconda auto o un rimorchio."
           ],
           "tips": [
-            "A Wilsons Prom le piazzole estive si sorteggiano",
-            "Prenota la costa con mesi di anticipo",
-            "Il limite di persone si controlla davvero"
+            "Tariffe a metà prezzo fino a luglio 2027",
+            "Nessun sorteggio per Wilsons Prom",
+            "Fino a tre piazzole per prenotazione"
           ]
         },
         {
           "heading": "Foreste demaniali e campeggio libero",
           "body": [
-            "In Victoria ci sono vaste foreste demaniali dove il <a data-guide=\"is-free-camping-legal-australia\">campeggio libero</a> è consentito gratis, salvo restrizioni sui fuochi e chiusure stagionali delle strade. È qui che si concentra quasi tutto il campeggio davvero gratuito dello stato.",
-            "Monta il campo nelle radure già usate invece di aprirne di nuove, rispetta le distanze minime indicate da corsi d’acqua e strade e porta via tutti i rifiuti. Non ci sono servizi.",
-            "Nell’High Country e in altre zone forestali le chiusure stagionali delle strade vanno di solito da giugno a novembre, per proteggere piste che con il bagnato si rovinano. Chi percorre una strada chiusa rischia multe salate."
+            "Le State Forest di Victoria hanno più di 300 campeggi, e tutti sono gratuiti tranne la Murrindindi Scenic Reserve, dove si paga un piccolo permesso. Nei punti informali non ci sono servizi: porta acqua, una pala e riporta indietro ogni sacco di rifiuti.",
+            "Scava le buche per i bisogni profonde almeno 30 cm e ad almeno 100 metri da qualsiasi corso d’acqua, e versa l’acqua dei piatti ad almeno 50 metri da fiumi e torrenti. Costruire qualsiasi cosa permanente o semipermanente richiede un permesso.",
+            "Le chiusure stagionali delle strade vanno da giugno a novembre di ogni anno, per proteggere piste che si rovinano facilmente quando sono bagnate. Nel 2026 la maggior parte delle chiusure nei parchi di Parks Victoria è iniziata il 4 o l’11 giugno ed è terminata il 29 ottobre; per le strade delle State Forest controlla la mappa delle chiusure di FFMVic, e metti in conto una multa se percorri una strada chiusa."
           ],
           "tips": [
-            "Nelle foreste demaniali si campeggia gratis",
-            "Usa le radure già esistenti",
+            "Buche per i bisogni profonde 30 cm",
+            "Acqua dei piatti a 50 m dai torrenti",
             "Strade chiuse da giugno a novembre"
           ]
         },
         {
           "heading": "Restrizioni sui fuochi e periodo di pericolo incendi",
           "body": [
-            "In Victoria il periodo di pericolo incendi viene dichiarato regione per regione e di solito va dall’estate all’autunno. In quei mesi i <a data-guide=\"campfires-camping-australia\">fuochi da campo</a> sono soggetti a restrizioni, e nei giorni di Total Fire Ban (divieto totale di accendere fuochi) è vietata qualsiasi fiamma libera, compresi i barbecue a combustibile solido, cioè a legna o a carbone.",
-            "Il fuoco va acceso in un focolare costruito come si deve, non più grande di un metro per un metro, con tre metri di spazio libero intorno e sempre qualcuno a sorvegliarlo. Queste regole valgono anche quando non c’è un divieto.",
-            "D’estate controlla ogni mattina l’indice di pericolo incendi della CFA (Country Fire Authority, i vigili del fuoco delle zone rurali) per il tuo distretto. In una giornata a rischio un campeggio nel bosco è tra i posti peggiori dove ripararsi, e il consiglio di sempre è andarsene per tempo."
+            "Il periodo di pericolo incendi (Fire Danger Period) inizia e finisce in date diverse in ogni area comunale, di solito prima dell’estate e fino ad aprile o maggio. Per il 2026-27 è iniziato il 5 ottobre in East Gippsland e Wellington.",
+            "In una State Forest usa un focolare apposito se puoi, fisso o portatile, tieni il fuoco sotto un metro di diametro con tre metri sgombri intorno e non lasciarlo mai incustodito. Durante il Fire Danger Period il fuoco deve stare in un focolare di pietra, metallo o cemento o in una fossa profonda almeno 30 cm, e nei parchi nazionali e statali puoi usare solo i focolari predisposti dal parco.",
+            "In un giorno di <a data-guide=\"campfires-camping-australia\">Total Fire Ban</a> falò e barbecue o fornelli che bruciano combustibile solido o chimico sono vietati in tutti i distretti coperti dal divieto, e alcuni divieti coprono l’intero stato. Il CFA avverte che accendere un fuoco in uno di quei giorni può costare una multa di oltre 40.000 $, due anni di carcere o entrambi."
           ],
           "tips": [
-            "Fuoco di un metro per un metro, tre metri liberi intorno",
-            "Mai lasciare il fuoco incustodito",
-            "Controlla l’indice della CFA ogni mattina"
+            "Focolare sotto un metro di diametro",
+            "Tre metri sgombri tutto intorno",
+            "Total Fire Ban: niente falò"
           ]
         },
         {
           "heading": "Campeggio libero e costa",
           "body": [
-            "I comuni della costa, lungo la Great Ocean Road e sulla Mornington Peninsula, vietano quasi del tutto di passare la notte in un veicolo e fanno controlli serrati. Se nessun cartello dice il contrario, parti dal presupposto che sia vietato.",
-            "Nell’entroterra diversi comuni offrono campeggio gratuito o a basso costo in paese per attirare i viaggiatori, e gli showground dello stato (le aree delle fiere agricole, spesso aperte ai camper) hanno spesso piazzole economiche con corrente e servizi.",
-            "Le aree di sosta gestite dall’ente stradale dello stato servono per le <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">pause contro la stanchezza</a>. Dormire va bene, montare il campo no: in un’area di sosta si sosta, non si campeggia, e dove i controlli sono frequenti la differenza conta."
+            "Alcuni comuni della costa sono severi. Il Surf Coast Shire, che comprende Torquay, Anglesea e Lorne, considera un reato dormire in un veicolo in qualsiasi punto del comune, con una multa immediata di 300 $: non dormire nel veicolo in nessun parcheggio o strada della zona, ma prenota invece un <a data-guide=\"caravan-park-vs-holiday-park\">caravan park</a> o un campeggio.",
+            "Alcuni comuni dell’entroterra gestiscono aree di campeggio gratuite o a basso costo, e alcuni showground accolgono i camper. Controlla il sito del comune o chiedi al centro visitatori le regole in vigore.",
+            "Wilsons Promontory vieta animali domestici, droni, generatori, <a data-guide=\"campfires-camping-australia\">falò</a> e barbecue a combustibile solido, e i cani in genere non sono ammessi nei parchi nazionali di Victoria. Le State Forest sono l’alternativa per chi viaggia con il cane, con i cani al guinzaglio o sotto controllo vicino ai campi e ai servizi."
           ],
           "tips": [
-            "I comuni costieri vietano e multano",
-            "Nei paesi dell’entroterra ci sono piazzole gratuite",
-            "Area di sosta: si dorme, non si campeggia"
+            "Multa nella Surf Coast: 300 $",
+            "Alcune cittadine dell’entroterra offrono piazzole gratuite",
+            "Porta i cani nelle State Forest"
           ]
         },
         {
           "heading": "Montagna e fiumi: le regole specifiche",
           "body": [
-            "Nelle zone alpine dello stato il campeggio è limitato oltre certe quote per proteggere una vegetazione fragile, e nelle foreste demaniali valgono distanze precise da acqua e strade.",
-            "Per campeggiare lungo un fiume su terreni demaniali (Crown land) devi sapere quali sponde sono date in concessione: su alcune il campeggio è permesso, su altre no. Fanno fede i cartelli e le mappe dei terreni pubblici dello stato.",
-            "Parks Victoria pubblica ogni anno le date delle chiusure stagionali delle strade: controllarle prima di organizzare un percorso nell’High Country ti evita di guidare per niente fino a una sbarra chiusa.",
-            "Nei giorni di <a data-guide=\"campfires-camping-australia\">Total Fire Ban</a> il combustibile solido è vietato del tutto: con un fornello a gas il viaggio non dipende mai dal permesso di accendere un fuoco."
+            "Sulle Bogong High Plains il campeggio libero non è ammesso entro 200 metri dalle strade Bogong High Plains e Pretty Valley. Lassù la legna scarseggia, quindi Parks Victoria chiede ai campeggiatori di usare il fornello.",
+            "Sulle sponde fluviali demaniali con licenza (licensed Crown river frontages), spesso usate come pascolo dalla fattoria vicina, puoi campeggiare solo nelle aree designate, fino a 14 notti, a più di 20 metri dall’acqua e a 200 metri da una casa, e senza cani. Sulle sponde demaniali senza licenza puoi campeggiare a più di 20 metri dall’acqua e a 200 metri da una casa per un massimo di 28 notti consecutive.",
+            "Parks Victoria pubblica ogni anno l’elenco delle chiusure stagionali delle strade: leggerlo prima di organizzare un giro nell’High Country ti evita di guidare per niente fino a una sbarra chiusa.",
+            "Porta un fornello a gas. In un giorno di <a data-guide=\"campfires-camping-australia\">Total Fire Ban</a> puoi comunque cucinare con uno, se è stabile, non c’è nulla di infiammabile entro tre metri, lo sorvegli per tutto il tempo e hai a portata di mano almeno 10 litri d’acqua."
           ],
           "tips": [
-            "In montagna ci sono limiti di quota",
-            "Rispetta le distanze dall’acqua",
-            "Controlla le regole sulle sponde demaniali"
+            "200 m dalle strade degli altopiani",
+            "Sponde con licenza: solo piazzole designate",
+            "Porta un fornello a gas"
           ]
         }
       ],
       "faq": [
         [
           "Si può campeggiare gratis in Victoria?",
-          "Sì, e con più libertà che nella maggior parte degli altri stati. Su ampie zone delle foreste demaniali dello stato di Victoria il campeggio libero è consentito senza pagare, ed è il motivo principale per cui l’High Country funziona così bene come meta per il campeggio."
+          "Sì. Nella maggior parte delle State Forest di Victoria puoi campeggiare gratis fino a 28 notti consecutive, ad almeno 20 metri dai corsi d’acqua; tutti i campeggi delle State Forest sono gratuiti tranne la Murrindindi Scenic Reserve, e alcuni campeggi di Parks Victoria, come King Hut e Warby-Ovens, sono gratuiti e senza prenotazione."
         ],
         [
           "Nei parchi nazionali di Victoria bisogna prenotare la piazzola?",
-          "In molti sì. Parks Victoria accetta prenotazioni per i campeggi più richiesti e fa pagare la piazzola, e quelli sulla costa e in montagna si riempiono in estate e a Pasqua. I campeggi isolati nel bush funzionano più spesso in ordine di arrivo."
+          "Quelli prenotabili sì, e le loro tariffe sono a metà prezzo da luglio 2025 e restano così fino a luglio 2027. A Wilsons Promontory si usano rilasci trimestrali di prenotazioni anziché un sorteggio, e alcune piazzole della Great Ocean Road si prenotano ora tramite la Great Ocean Road Coast and Parks Authority."
         ]
       ],
       "sources": [
         {
           "label": "Parks Victoria: informazioni sulle prenotazioni"
+        },
+        {
+          "label": "Parks Victoria: campeggio"
+        },
+        {
+          "label": "Campeggio nelle State Forest di Victoria"
+        },
+        {
+          "label": "Falò, fornelli e barbecue nelle State Forest"
+        },
+        {
+          "label": "CFA: regole sui falò"
+        },
+        {
+          "label": "CFA: date delle restrizioni antincendio"
+        },
+        {
+          "label": "Campeggio libero nell’Alpine National Park"
+        },
+        {
+          "label": "Campeggio nel Warby-Ovens National Park"
+        },
+        {
+          "label": "Campeggio sulle sponde demaniali con licenza"
+        },
+        {
+          "label": "Cani nelle State Forest di Victoria"
+        },
+        {
+          "label": "Parks Victoria: parchi che ammettono i cani"
+        },
+        {
+          "label": "Surf Coast Shire: parcheggio e campeggio"
+        },
+        {
+          "label": "Campeggio di Tidal River"
+        },
+        {
+          "label": "Parks Victoria: chiusure stagionali delle strade 2026"
+        },
+        {
+          "label": "Explore Outdoors: prima di partire"
+        },
+        {
+          "label": "Guida all’accesso alle sponde fluviali demaniali"
         }
       ],
       "priceTable": null
     },
     "camping-rules-tasmania": {
-      "title": "Campeggio in Tasmania: le regole",
-      "description": "Campeggio in Tasmania: pass dei parchi, campeggi su prenotazione, meteo variabile e come accamparsi a basso impatto ambientale.",
+      "title": "Campeggio in Tasmania 2026: campeggio libero, Parks Pass e fuochi",
+      "description": "Campeggio libero in Tasmania nei siti comunali segnalati, nei campeggi gratuiti dei parchi e nei terreni forestali. Prezzi 2026 del Parks Pass, nuove tariffe dal 3 novembre e regole sui fuochi.",
       "region": "Tasmania",
       "imageAlt": "Campeggio in un parco nazionale della Tasmania",
-      "intro": "In Tasmania trovi piccole aree di campeggio gratuite, piazzole nei parchi nazionali e holiday park privati (campeggi-villaggio con bungalow, piscina e servizi). Per via del meteo e della fragilità degli ambienti, i dettagli di ogni campeggio fanno la differenza.",
+      "intro": "Sì, in Tasmania si può fare campeggio libero: nei siti comunali che lo ammettono, nei campeggi gratuiti del Parks and Wildlife Service (l’ente dei parchi della Tasmania) come Huon e Teds Beach nel Southwest National Park, e nella maggior parte dei terreni di Sustainable Timber Tasmania (l’ente forestale pubblico), salvo cartelli che lo vietino. Dentro i parchi nazionali serve un Parks Pass, le tariffe dei campeggi si aggiungono, e sia le prenotazioni sia le tariffe cambiano il 3 novembre 2026. AussieCamps mappa 27 campeggi dei parchi della Tasmania e 80 punti di scarico pubblici.",
       "sections": [
         {
           "heading": "Pass dei parchi e prenotazioni",
           "body": [
-            "Per entrare nei parchi nazionali della Tasmania serve un pass dei parchi valido. <a data-guide=\"camping-fees-australia-2026\">La tariffa del campeggio</a> e la prenotazione possono essere a parte rispetto all’ingresso.",
-            "A Freycinet e in altre zone molto richieste possono valere prenotazioni stagionali o un sorteggio dei posti. Controlla come funziona prima di fissare traghetto e giorni di viaggio in base a un solo campeggio."
+            "Per entrare in qualsiasi parco nazionale della Tasmania serve un parks pass valido, che tu arrivi in auto, a piedi, in autobus o in bici, e le tariffe dei campeggi si pagano in più. Anche le piazzole gratuite dentro un parco, come i walker camp di Freycinet, richiedono il pass.",
+            "Il Parks and Wildlife Service passa al nuovo Parks Online Booking System il 3 novembre 2026 e ha sospeso le nuove prenotazioni per i soggiorni da quella data in campeggi come Fortescue Bay e Richardsons Beach a Freycinet. Controlla quando le prenotazioni riaprono prima di fissare le date del traghetto attorno a un solo campeggio."
           ],
           "tips": []
         },
         {
           "heading": "Aree gratuite e regole locali",
           "body": [
-            "Nelle aree comunali e in quelle gestite dalle comunità locali possono esserci obblighi di registrazione, un’offerta libera, limiti sul tipo di veicolo o sulla durata massima della sosta. Leggi i cartelli e non dare per scontato che una vecchia recensione descriva ancora le regole di oggi.",
-            "Tieni le acque reflue nei serbatoi e svuotali nei <a data-guide=\"dump-points-australia-guide\">punti di scarico pubblici</a>. Accampati solo su terreno resistente, fuori dalle zone interdette."
+            "I siti di campeggio comunali fissano condizioni proprie. Il Northern Midlands Council rilascia un permesso gratuito ai veicoli self-contained (autosufficienti, con bagno fisso e serbatoi) per fermarsi fino a 48 ore. Il Central Coast Council ammette fino a tre notti per i veicoli self-contained, ma sta passando i suoi siti a un permesso a pagamento di 15 $ a notte, quindi controlla i cartelli di ogni sito e non fidarti di una vecchia recensione.",
+            "Nei terreni protetti (reserved land) non si può campeggiare in un’area dove il campeggio è vietato né a meno di 500 metri da una strada fuori da un’area di campeggio designata, con una multa fino a 20 penalty unit (unità di sanzione). Sustainable Timber Tasmania accoglie i campeggiatori nei terreni che gestisce, tranne dove i cartelli lo vietano."
           ],
           "tips": [
-            "Pass dei parchi",
-            "Prenotazione del campeggio",
-            "Attrezzatura per il freddo"
+            "I limiti dei comuni variano: controlla ogni cartello",
+            "Terreni protetti: a 500 m dalle strade",
+            "Terreni forestali, salvo cartelli"
           ]
         },
         {
           "heading": "Meteo e biosicurezza",
           "body": [
-            "In Tasmania il tempo cambia in fretta. Anche d’estate porta l’occorrente per pioggia e freddo, ed evita i campeggi esposti quando è previsto vento forte.",
-            "Pulisci scarponi, bici e attrezzatura da campeggio, per non portare terra, semi e specie acquatiche infestanti da un ambiente delicato all’altro."
+            "Il tempo in Tasmania cambia in fretta, e freddo intenso, pioggia e vento possono arrivare in qualsiasi periodo dell’anno, anche d’estate. A gennaio porta vestiti per la pioggia fredda e lascia i campi esposti quando il Bureau of Meteorology emette un’allerta di <a data-guide=\"camping-weather-safety-australia\">maltempo</a> per venti dannosi.",
+            "Pulisci scarponi, bici e attrezzatura da campeggio prima di spostarti tra un sentiero e un corso d’acqua, così terra, semi e parassiti dell’acqua non viaggiano con te nelle zone selvagge."
           ],
           "tips": []
         },
         {
           "heading": "Il pass dei parchi è obbligatorio",
           "body": [
-            "Per entrare con il veicolo in qualsiasi parco nazionale serve un Tasmania Parks Pass, che non comprende la tariffa del campeggio. Se visiti più di due parchi, l’holiday pass, valido otto settimane in tutti i parchi, conviene molto più dei pass giornalieri.",
-            "Nei parchi principali, tra cui Cradle Mountain e Freycinet, il pass si controlla, e chi entra senza prende una multa. Compralo online prima di partire, non all’ingresso.",
-            "A Cradle Mountain, inoltre, di giorno c’è una navetta obbligatoria che parte dal centro visitatori, e l’accesso con i mezzi privati è limitato. Organizza la giornata tenendo conto dei suoi orari."
+            "Prezzi dal 1º luglio 2026: un pass giornaliero costa 49,15 $ a veicolo con fino a otto persone, o 24,55 $ a persona a piedi, in autobus o in bici, e non copre Cradle Mountain. L’holiday pass copre ogni parco nazionale per un massimo di due mesi a 98,35 $ a veicolo, e il pass annuale costa 104,75 $.",
+            "Due pass giornalieri costano più o meno quanto un holiday pass, che quindi conviene dal terzo giorno di visite ai parchi. Compralo online su passes.parks.tas.gov.au prima di partire.",
+            "Cradle Mountain ha una navetta dal centro visitatori, e mentre è in servizio i veicoli privati non possono entrare nel parco. Il pass giornaliero di Cradle Mountain costa 30,70 $ a adulto e include la navetta; chi ha l’holiday pass compra a parte il biglietto della navetta."
           ],
           "tips": [
-            "Pass obbligatorio per entrare con il veicolo",
-            "L’holiday pass vale otto settimane",
-            "Navetta obbligatoria a Cradle Mountain"
+            "Holiday pass: 98,35 $ per due mesi",
+            "Il pass giornaliero non include Cradle Mountain",
+            "Le auto private aspettano la navetta"
           ]
         },
         {
           "heading": "Quarantena all’arrivo",
           "body": [
-            "La Tasmania applica controlli di <a data-guide=\"interstate-biosecurity-road-trip\">biosicurezza</a> severi a chi arriva in traghetto o in aereo. Frutta e verdura fresche, piante, terra, miele e attrezzatura apistica usata sono tutti soggetti a restrizioni, e al terminal dei traghetti lavorano i cani da fiuto.",
-            "Pulisci attrezzatura da campeggio, scarponi e bici prima di partire, e liberati dei prodotti freschi prima dell’imbarco invece di farteli sequestrare. Per ciò che non dichiari sono previste multe.",
-            "Queste regole esistono perché in Tasmania non ci sono diversi parassiti e malattie presenti sul continente. Rispettarle richiede pochi minuti e tutela l’economia agricola dell’isola."
+            "La Tasmania ha regole di <a data-guide=\"interstate-biosecurity-road-trip\">biosicurezza</a> severe, e frutta e verdura fresca sono tra le cose che non si possono portare. Macchine a raggi X e cani da rilevamento controllano gli arrivi negli aeroporti di Hobart e Launceston.",
+            "Sullo Spirit of Tasmania a bordo puoi mangiare il tuo cibo, ma gli avanzi vanno nei bidoni a bordo o nel punto di ispezione di biosicurezza all’uscita dal terminal. Il personale di Geelong fa domande di biosicurezza prima dell’imbarco, e Biosecurity Tasmania fa controlli casuali sui veicoli a Devonport.",
+            "Gli oggetti vietati non dichiarati comportano sanzioni, e le regole proteggono un’isola libera da diversi parassiti presenti sul continente. Mangia o butta il cibo fresco prima di imbarcarti e fai rifornimento a Devonport."
           ],
           "tips": [
-            "Niente prodotti freschi oltre lo Stretto di Bass",
-            "Scarponi e attrezzatura puliti prima di partire",
-            "Cani da fiuto al terminal dei traghetti"
+            "Niente frutta e verdura fresca",
+            "Butta il cibo prima di lasciare il terminal",
+            "Controlli casuali dei veicoli a Devonport"
           ]
         },
         {
           "heading": "Meteo di montagna in ogni stagione",
           "body": [
-            "Il meteo della Tasmania è il più variabile d’Australia e sugli altopiani può nevicare in qualsiasi mese. Sopra il limite degli alberi un’escursione è un’uscita in alta montagna, qualunque siano la data o le previsioni giù al parcheggio.",
-            "A ogni escursione porta strati caldi e impermeabili, anche a gennaio. L’ipotermia è il problema serio più frequente nelle escursioni di un giorno in Tasmania, e con vento e pioggia arriva in fretta.",
-            "All’inizio dei sentieri scrivi il tuo itinerario nei registri. Quando qualcuno non rientra sono la prima cosa che si controlla, e più di una volta hanno accorciato le ricerche."
+            "Le escursioni sopra il limite degli alberi sono uscite in alta montagna, qualunque cosa dica la previsione al parcheggio. Freddo, pioggia e vento possono arrivare in qualsiasi mese sugli altopiani, anche in piena estate.",
+            "A ogni escursione porta strati caldi e impermeabili, anche a gennaio. L’ipotermia arriva in fretta con vento e pioggia, anche in una breve camminata dall’auto.",
+            "Firma il registro all’inizio del sentiero e lascia il tuo programma a qualcuno a casa, perché sono le prime due cose che i soccorritori controllano quando un escursionista è in ritardo."
           ],
           "tips": [
-            "Neve possibile in qualsiasi mese",
+            "Anche d’estate può nevischiare",
             "Abbigliamento impermeabile anche a gennaio",
-            "Compila i registri all’inizio dei sentieri"
+            "Firma il registro all’inizio del sentiero"
           ]
         },
         {
           "heading": "Campeggio libero e costa ovest",
           "body": [
-            "La Tasmania ha una buona rete di aree di campeggio comunali gratuite o economiche, molte nei piccoli centri, e lo stato è abbastanza compatto da non lasciarti quasi mai lontano da una. Di solito si può restare da 24 a 72 ore.",
-            "I campeggi dei parchi nazionali vanno dai più spartani a quelli con servizi, e a seconda del posto si prenotano o funzionano in ordine di arrivo. A Freycinet e a Cradle Mountain in alta stagione bisogna prenotare.",
-            "La costa ovest è piovosa, isolata e con pochi servizi. Fai il pieno a Queenstown o a Strahan e porta provviste, perché da quel lato dell’isola le distanze tra un paese e l’altro si fanno sentire."
+            "Huon e Teds Beach nel Southwest National Park non hanno prenotazioni e non fanno pagare il campeggio, e anche i walker camp di Wineglass Bay, Hazards e Cooks Beach a Freycinet e Encampment Cove a Maria Island sono gratuiti. Dentro ogni parco vale comunque il parks pass.",
+            "Altri campeggi dei parchi si prenotano oppure funzionano in ordine di arrivo, a seconda della stagione. Fortescue Bay accetta prenotazioni dal 1º ottobre al 30 aprile e funziona in ordine di arrivo da maggio a settembre, e dal 3 novembre 2026 costa 24 $ a piazzola per un massimo di sei persone.",
+            "La costa ovest è piovosa, isolata e con pochi servizi. Fai il pieno e la spesa a Queenstown o a Strahan, perché da quel lato dell’isola le distanze tra una città e l’altra sono lunghe."
           ],
           "tips": [
-            "Buona rete di aree comunali gratuite",
-            "In stagione prenota Freycinet e Cradle Mountain",
+            "I campeggi del Southwest sono gratuiti",
+            "Fortescue Bay: 24 $ a piazzola dal 3 novembre",
             "Fai il pieno prima della costa ovest"
           ]
         },
         {
           "heading": "Le regole sui sentieri",
           "body": [
-            "Nella stagione escursionistica l’Overland Track va prenotato e pagato, e si percorre in un solo senso, da nord a sud. Gli altri trekking di più giorni hanno i loro permessi e le loro regole di registrazione.",
-            "In gran parte delle zone selvagge della Tasmania si cucina solo con il fornello: i <a data-guide=\"campfires-camping-australia\">fuochi da campo</a> sono vietati del tutto, qualunque sia l’indice di pericolo incendi. Porta un fornello e controlla le regole in vigore sul tuo percorso.",
-            "La Tasmania è compatta e raramente sei a più di un’ora da un paese, quindi rifornirsi è molto più semplice che nei viaggi nelle zone remote del continente.",
-            "Le aree in cui è ammesso solo il fornello coprono gran parte delle zone selvagge della Tasmania e valgono qualunque sia l’indice di pericolo incendi, quindi controlla le regole per il tuo percorso."
+            "L’Overland Track richiede prenotazione e tariffa dal 1º ottobre al 31 maggio: 312 $ a adulto, con tariffe ridotte per bambini e titolari di agevolazioni, e solo da nord a sud. Le prenotazioni aprono il primo martedì di luglio, e la tariffa include l’ingresso al parco per il trekking e la navetta.",
+            "Fuori dalla stagione di prenotazione, da giugno a settembre, l’Overland Track non ha tariffa, ma serve comunque un parks pass, devi registrare il percorso online presso il PWS e ti serve un’attrezzatura invernale completa.",
+            "Le Fuel Stove Only Areas vietano i <a data-guide=\"campfires-camping-australia\">falò</a> tutto l’anno in gran parte delle zone selvagge, tra cui Cradle Mountain-Lake St Clair, Freycinet, Mount Field, Southwest e i Walls of Jerusalem, a prescindere dall’indice di pericolo incendi. Alcuni punti segnalati nella World Heritage Area e nel Tasman National Park ammettono i fuochi nei focolari esistenti.",
+            "In un giorno di Total Fire Ban in tutti i parchi sono vietati i fuochi all’aperto. Le uniche eccezioni sono i fornelli a GPL ed elettrici: non sono ammessi i fornelli a alcol denaturato e a shellite, e Freycinet vieta ogni fiamma libera all’aperto, gas compreso."
           ],
           "tips": [
-            "L’Overland Track va prenotato",
-            "Molte aree in cui è ammesso solo il fornello",
-            "In stagione si cammina in un solo senso"
+            "Overland: 312 $ a adulto",
+            "Le Fuel Stove Only Areas vietano i fuochi",
+            "Niente fornelli a combustibile liquido nei giorni di divieto"
           ]
         }
       ],
       "faq": [
         [
           "Serve un pass dei parchi per campeggiare in Tasmania?",
-          "Per entrare in un parco nazionale serve un Tasmanian Parks Pass, e nella maggior parte dei campeggi dei parchi si paga a parte anche la tariffa del campeggio. Se il viaggio dura più di qualche giorno, l’holiday pass costa meno degli ingressi giornalieri."
+          "Sì, dentro un parco nazionale. Il pass copre l’ingresso e la maggior parte dei campeggi dei parchi fa pagare una tariffa in più. L’holiday pass, 98,35 $ a veicolo per un massimo di due mesi, conviene più dei pass giornalieri dal terzo giorno, e i campeggi comunali fuori dai parchi non richiedono alcun pass."
         ],
         [
           "Si può fare campeggio libero in Tasmania?",
-          "Sì, nelle aree comunali designate, e la Tasmania ne ha una buona rete, gratuite o economiche. Campeggiare altrove, soprattutto nelle riserve e sulle spiagge, è in genere vietato e i controlli ci sono."
+          "Sì, nei siti comunali che lo ammettono, nei campeggi gratuiti dei parchi come Huon e Teds Beach nel Southwest National Park, e nella maggior parte dei terreni di Sustainable Timber Tasmania, salvo cartelli diversi. Nei terreni protetti (reserved land) non si può campeggiare a meno di 500 metri da una strada fuori da un’area di campeggio designata."
         ]
       ],
       "sources": [
         {
           "label": "Parks and Wildlife Service Tasmania: sito ufficiale dei parchi"
+        },
+        {
+          "label": "Tasmania: pass e tariffe d’ingresso dei parchi"
+        },
+        {
+          "label": "Campeggio a Fortescue Bay"
+        },
+        {
+          "label": "Campeggio nel Southwest National Park"
+        },
+        {
+          "label": "Freycinet: campeggio notturno per escursionisti"
+        },
+        {
+          "label": "Tasmania: falò e divieti di fuochi"
+        },
+        {
+          "label": "Fuel Stove Only Areas"
+        },
+        {
+          "label": "Overland Track"
+        },
+        {
+          "label": "Navetta di Cradle Mountain"
+        },
+        {
+          "label": "National Parks and Reserves Management Regulations 2019"
+        },
+        {
+          "label": "Sustainable Timber Tasmania: visitare i terreni gestiti"
+        },
+        {
+          "label": "Northern Midlands: cittadine accoglienti per i camper"
+        },
+        {
+          "label": "Biosecurity Tasmania: chi viaggia con lo Spirit of Tasmania"
+        },
+        {
+          "label": "Campeggio a Encampment Cove, Maria Island"
+        },
+        {
+          "label": "Overland Track: domande frequenti"
+        },
+        {
+          "label": "PWS: sicurezza nei parchi"
+        },
+        {
+          "label": "Central Coast Council: siti di campeggio"
+        },
+        {
+          "label": "Bureau of Meteorology: allerte per la Tasmania"
+        },
+        {
+          "label": "Biosecurity Tasmania: portare cibo in Tasmania"
         }
       ],
       "priceTable": null
