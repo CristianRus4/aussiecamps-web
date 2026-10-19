@@ -12,7 +12,7 @@ Scratch (not committed): `/tmp/i18n-it/` holds work files (`work/<batch>.json`),
 `setv.mjs` and `commit.sh`. If `/tmp` was wiped, regenerate work files from
 `translation-engine packet --locale it --all` and slice them by guide.
 
-## Status (2026-10-19, evening)
+## Status (2026-10-20)
 Both sites were already 100% "complete" in Italian but read as a fluent machine draft, so every
 unit is being re-reviewed and rewritten against `docs/translation-style/it.md`.
 
@@ -20,31 +20,31 @@ unit is being re-reviewed and rewritten against `docs/translation-style/it.md`.
 - [x] UI + support/privacy/terms, both sites (merged to main)
 - [x] Judge round 1 fixes (AU 7 + NZ 15 failing units, plus the same defects in shared copy)
 - [x] New English: privacy "Website analytics" (GA4) section, effective date, `consent.*` (both sites)
-- [ ] Guides AU (50): A02 done; A01, A03 in progress; A04-A10 queued
-- [ ] Guides NZ (43): K01, K02 done; K03, K04 in progress; K05-K09 queued
+- [ ] Guides AU (50): A01-A04 done (20 guides); A05, A06 in progress; A07-A10 queued
+- [ ] Guides NZ (43): K01-K05 done (25 guides); K06, K07 in progress; K08-K09 queued
 - [ ] Road trips, Kiwi legacy pages, article/tools namespaces, data-guide link markup: not yet in
       `en.json` on main ("Road trips" is still in `untranslatedCategories`). Waiting.
 
 ## Batches (search-value order)
 | Batch | Guides | State |
 |---|---|---|
-| A01 | alcohol-coffee-drink-prices, sleeping-in-car, camping-rules-nsw, public-transport-costs, eating-out | subagent |
+| A01 | alcohol-coffee-drink-prices, sleeping-in-car, camping-rules-nsw, public-transport-costs, eating-out | done |
 | A02 | camping-rules-wa, dump-points, camping-rules-vic, grocery-prices, interstate-biosecurity | done |
-| A03 | campervan-road-trip-budget, accommodation-costs, camping-rules-sa, domestic-flight-costs, camping-rules-act | subagent |
-| A04 | camping-rules-qld, road-signs, caravan-park-vs-holiday-park, towing-caravan, best-time-camping | queued |
-| A05 | camping-rules-nt, road-rules-state-differences, camping-fees, travel-cost, fuel-cost | queued |
-| A06 | camping-rules-tas, is-free-camping-legal, camping-without-phone-signal, campervan-driving-safety, water-planning | queued |
+| A03 | campervan-road-trip-budget, accommodation-costs, camping-rules-sa, domestic-flight-costs, camping-rules-act | done |
+| A04 | camping-rules-qld, road-signs, caravan-park-vs-holiday-park, towing-caravan, best-time-camping | done |
+| A05 | camping-rules-nt, road-rules-state-differences, camping-fees, travel-cost, fuel-cost | subagent |
+| A06 | camping-rules-tas, is-free-camping-legal, camping-without-phone-signal, campervan-driving-safety, water-planning | subagent |
 | A07 | bus-train-costs, overseas-driver-licence-state-guide, campfires, best-camping-app, road-rules-visitors | queued |
 | A08 | driving-overseas-licence, camping-with-dogs, packing-list, first-campervan-trip, fuel-planning | queued |
 | A09 | weather-safety, responsible-camping, choosing-campsite, road-trains, fatigue-wildlife | queued |
 | A10 | how-to-plan-trip, filters, save-collections, place-details, widgets | queued |
 | K01 | grocery-prices, doc-huts, public-transport-costs, road-signs, biosecurity-gear | done |
 | K02 | doc-campsite-rules, fuel-cost, campervan-road-rules, eating-out, travel-cost | done |
-| K03 | speed-limits, beer-wine-coffee, towing-caravan, wof-registration, accommodation-costs | subagent |
-| K04 | overseas-driver-licence, sandflies, volcanic-safety, dogs-camping, domestic-flight-costs | subagent |
-| K05 | cook-strait-ferry, kauri-dieback, bus-ferry-train, alcohol-fatigue, doc-hut-rules | queued |
-| K06 | river-crossing, left-side-driving, driving-day-planner, wildlife-livestock, winter-camping | queued |
-| K07 | severe-weather, earthquake-tsunami, winter-driving, one-lane-bridges, local-councils | queued |
+| K03 | speed-limits, beer-wine-coffee, towing-caravan, wof-registration, accommodation-costs | done |
+| K04 | overseas-driver-licence, sandflies, volcanic-safety, dogs-camping, domestic-flight-costs | done |
+| K05 | cook-strait-ferry, kauri-dieback, bus-ferry-train, alcohol-fatigue, doc-hut-rules | done |
+| K06 | river-crossing, left-side-driving, driving-day-planner, wildlife-livestock, winter-camping | subagent |
+| K07 | severe-weather, earthquake-tsunami, winter-driving, one-lane-bridges, local-councils | subagent |
 | K08 | campervan-budget, food-fuel-resupply, plan-trip, save-places, filters | queued |
 | K09 | offline-data, weather-look-around, currency-place-costs | queued |
 
@@ -83,6 +83,21 @@ KiwiCamping
   heading never explained.
 - campervan-road-rules: "Rimutaka Hill Road" is officially "Remutaka"; Desert Road closing to
   high-sided vehicles in wind is doubtful (it closes mainly for snow and ice).
+
+- campervan-road-rules + towing (NZ): "a full car licence covers combinations up to 4,500 kg" conflicts
+  with the 6,000 kg Class 1 figure in overseas-driver-licence; check with NZTA.
+- overseas-driver-licence (NZ): sections[0] says 18 months until 1 Nov 2026 then 12; the rest says 12.
+- volcanic-safety (NZ): level 2 closes tracks (sections[3]) vs "tracks usually open up to level 2" (faq[1][1]).
+- speed-limits (NZ): "lower rural limits keep expanding" may be outdated (many reductions reversed in 2025).
+- English writes "Maori", "Hine-nui-te-po", "Tane Mahuta", "rahui" without macrons in places (Italian has them).
+- Several cost FAQs on both sites name items (brunch, pub meal, motel, six-pack, Melbourne fares,
+  car vs campervan ferry fares) that their price tables do not contain.
+- AU: All Parks Pass "does not always cover Kosciuszko" (NSW) looks wrong; Melbourne "no contactless"
+  may be outdated; towing FAQ names the NT though the body does not; best-time FAQ gives the northern
+  dry season as May-September vs May-October elsewhere; ACT says Namadgi campgrounds are "mostly free"
+  (they are booked and paid); SA lists the Flinders Ranges as a Desert Parks Pass park.
+- Many guides on both sites end a section with a paragraph that repeats an earlier one (listed per
+  batch in the subagent notes); translated as written to keep structure parity.
 
 ## Blockers
 - None.
