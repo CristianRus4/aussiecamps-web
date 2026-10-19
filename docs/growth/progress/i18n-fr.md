@@ -51,6 +51,33 @@ Scratch (not in git): `/tmp/i18n-fr/` holds the helper scripts (`tools/dump.mjs`
   source-equal warnings (brand/agency names); NZ has 6 glossary hits in not-yet-rewritten guides
   fixed, only 4 source-equal warnings left.
 
+## Run of 2026-10-20 (evening, background agent)
+- Both branches rebased onto origin/main (AU 90ec2bb with the locales:sync change, NZ 6838b88 K-foundation M2).
+  NZ config conflict resolved by keeping the `kiwicamping-website-fr` catalog; `locales:sync` now leaves
+  `fr` out of the shared catalog in both repos (committed). SHAs changed after the rebase.
+- NZ: 86 `<a data-guide>` link units restored (all existing guides), `ui.metaDescription` now names iPhone
+  (new brand-parity check in audit-content).
+- NZ: 5 core guides translated for the first time (they were not in fr.json at all): freedom-camping-new-zealand-guide,
+  freedom-camping-rules-new-zealand, doc-campsites-new-zealand-guide, holiday-parks-new-zealand-guide,
+  camping-fees-new-zealand-2026.
+- Scan for old-voice markers (parcs pour caravanes, English state names, hors ligne, "définitivement"): NZ is clean.
+  AU still has "parc(s) pour caravanes" in camping-with-dogs-australia, camping-water-planning,
+  campervan-road-trip-budget-australia, accommodation-costs-australia-2026 (faq units) and
+  "Tasmania" in bus-train-costs-australia-2026.
+- NZ: 10 road trips translated (east-cape, northland-cape-reinga, arthurs-pass, taranaki-forgotten-world, coromandel-rotorua,
+  picton-kaikoura-christchurch, wanaka-haast-pass, banks-peninsula, bay-of-islands, christchurch-tekapo-aoraki). NZ stamped (2973 stamps).
+  fr is at 58/78 guides on NZ. Remaining NZ missing: 10 road trips (nelson-abel-tasman-golden-bay, rakiura-stewart-island-camping-guide,
+  new-zealand-three-week-campervan-route, wellington-wairarapa-camping-loop, north-island-two-week-road-trip, west-coast-south-island-road-trip,
+  queenstown-glenorchy-camping, southern-scenic-route-camping, fiordland-camping-road-trip, south-island-two-week-road-trip) and 10 core guides
+  (best-nz-camping-apps, where-to-camp-in-new-zealand, responsible-camping, two-week-camper-itinerary, self-contained-campervan-green-warrant,
+  camping-wastewater-rubbish, campfire-rules, new-zealand-camping-packing-list, best-time-camping, scenic-campsites).
+- Judge fixes applied on both branches (24 units + same-pattern units: crique to ruisseau, comté to municipalité, K’gari typographic apostrophe
+  with a glossary entry in `aussiecamps-website-fr` instead of a protected term, un véhicule à deux roues motrices, consent text asked directly).
+  `tools/normalize.mjs` no longer reverts K’gari.
+- Engine audit: the two `register` hits on NZ road trips are false positives (Māori "Te Paki", "Te Puia" read as informal "te").
+- Still not done: AU 16 road trips, AU `tools` (116 units), ~26 AU guides in the first-pass voice; first task next run: paired-release sync
+  (/Users/cristian/Developer/Webs/.growth-lanes/a-content-b1-sync.md).
+
 ## Next
 - AU: remaining 16 road trips (melbourne-to-adelaide, tasmania-camping-loop, darwin-kakadu, ...), the
   `tools` namespace (116 units, gated), then rewrite the ~26 old guides still in the first-pass voice
