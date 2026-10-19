@@ -319,7 +319,7 @@ test("analytics sets Consent Mode defaults before anything else and loads GA4 wi
   const [first, second, ...rest] = run.calls();
   assert.deepEqual(first.slice(0, 2), ["consent", "default"]);
   assert.deepEqual(first[2], { ad_storage: "denied", ad_user_data: "denied", ad_personalization: "denied", analytics_storage: "denied", region: [...consentRegions], wait_for_update: 500 });
-  assert.equal(consentRegions.length, 32, "EU27 plus IS, LI, NO, GB and CH");
+  assert.equal(consentRegions.length, 47, "EU27 plus IS, LI, NO, GB, CH, EU outermost regions, Crown dependencies, Gibraltar and microstates");
   assert.deepEqual(second, ["consent", "default", { ad_storage: "denied", ad_user_data: "denied", ad_personalization: "denied", analytics_storage: "granted" }]);
   const config = rest.find((call) => call[0] === "config");
   assert.equal(config[1], "G-TEST123");
