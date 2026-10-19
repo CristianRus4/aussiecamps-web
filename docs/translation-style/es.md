@@ -180,6 +180,26 @@ yomeanimo.com (Argentina/Chile, Working Holiday, «recorrer Australia en van»),
 | stop-go (roadworks) | «paso alternativo (stop-go)», «la paleta de stop-go» | |
 | chip seal | «chip seal (asfalto de gravilla)» | |
 | treat water | «potabilizar» | |
+| hostel dorm bed | «cama en dormitorio compartido de hostel» | never «albergue» |
+| Tourism Australia | first use «Tourism Australia (el organismo oficial de turismo del país)» | |
+| Phytophthora dieback | «la Phytophthora (dieback)», then «dieback» | |
+| laundry (chore) | «lavar la ropa», «la ropa sucia» | «colada» is Spain-only |
+| deli counter | «mostrador de fiambres y comida preparada» | |
+| one-way fee | «suplemento por devolver en otro sitio» | |
+| bond (rental) | «depósito» | not «fianza» |
+| recovery gear (4x4) | «equipo de rescate para 4x4 (recovery gear)» | |
+| headline rate | «tarifa anunciada» | |
+| shoulder season | «temporada media» | |
+| bakery pie (NZ/AU) | «pie de panadería (un pastel salado relleno, normalmente de carne)» on first use | not «empanada» |
+| card reader / EFTPOS | «lector de tarjetas» | «datáfono» Spain-only |
+| route labels in tables | «Sídney-Ballina» (hyphen between names) | en dash only between numbers |
+| ACT | first use «el ACT (Territorio de la Capital Australiana)»; title «Normas de acampada en el ACT» | |
+| fire/emergency/met agencies | «el Country Fire Service (CFS, los bomberos rurales del estado)», «la CFA (Country Fire Authority, los bomberos rurales de Victoria)», «el Bureau of Meteorology (BoM, el servicio meteorológico nacional)» | |
+| designated area/site | «zona habilitada» | |
+| relocation deal | «oferta de reubicación (relocation deal, en la que llevas un vehículo de alquiler a otra ciudad)» | |
+| baggage allowance | «equipaje permitido» | not «franquicia de equipaje» (clashes with insurance excess) |
+| recreation area (QLD) | «área recreativa (recreation area)» | |
+| «a few dollars» | «unos pocos dólares australianos / neozelandeses» | never bare «dólares» |
 
 ### App and product names
 
