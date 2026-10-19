@@ -19,14 +19,14 @@ Thread: A-content (Kai). Branch `growth/a-content`. Never push. Session 2 took o
 - `scripts/totext.ts <slug>` renders a page as numbered text for fact-checkers (`pages/`); `sources/` official source lists; `factcheck/` verdicts; `research/`.
 
 ## Done (committed on the branch, not yet handed off)
-- 8 state camping-rules pages retitled and rewritten. NSW, QLD, VIC, SA: fact-checked, fixes and sources applied.
+- 8 state camping-rules pages retitled and rewritten. NSW, QLD, VIC, SA, NT, WA: fact-checked, fixes and sources applied (NT/WA in 1e1fcfe; adding sources makes translations structurally stale, which also clears their parity failures).
 - 5 cost pages (drinks, eating out, flights, public transport, groceries) retitled and refreshed; surcharge line on australia-travel-cost-2026.
 - Structural rewrites: sleeping-in-car-australia, is-free-camping-legal-australia, camping-fees-australia-2026, campfires-camping-australia, dump-points-australia-guide (by state); caravan-park-vs-holiday-park strengthened with a table.
 - Rebased onto main 2026-10-20 (1f7ccad: ISO priceTable dates, en.json regenerated).
 
 ## In progress (session 2)
 - Fact-check batch F1 (Opus): finish TAS (sections 3+) and ACT (sections 2+), plus sleeping-in-car, free-camping hub, camping-fees.
-- Fix batch X1 (Opus): apply NT and WA verdicts and sources.
+- Fix batch C1 (Opus): audit-confirmed errors on darwin-kakadu-litchfield-loop, australian-alps-camping-route, adelaide-to-uluru-road-trip, australian-road-signs-visitors-guide, plus towing-caravan flags. Its changed claims go to /tmp/a-content/factcheck/c1-changes.md for an independent check.
 - Next fact-check batch: campfires, dump-points, caravan-park, then the 5 cost pages. Then apply all fixes and hand off batch 1.
 
 ## Next (audit queue, docs/growth/audit/summary.csv in main)
