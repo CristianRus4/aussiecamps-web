@@ -443,7 +443,7 @@
         {
           "heading": "Que el sitio siga abierto",
           "body": [
-            "No dejes basura ni aguas residuales, usa los baños donde los haya y márchate dentro de la estancia permitida. El ruido, las hogueras y los campamentos que se extienden más de la cuenta son motivos habituales por los que las comunidades restringen la acampada libre.",
+            "No dejes basura ni aguas residuales, usa los baños donde los haya y márchate antes de que se acabe la estancia permitida. El ruido, las hogueras y los campamentos que se extienden más de la cuenta son motivos habituales por los que las comunidades restringen la acampada libre.",
             "Si un sitio está lleno, no te inventes una plaza nueva sobre la vegetación ni en una calle cercana."
           ],
           "tips": []
@@ -464,8 +464,8 @@
         {
           "heading": "Dónde suele estar permitida",
           "body": [
-            "Los bosques estatales de Victoria, Nueva Gales del Sur y <a data-guide=\"camping-rules-queensland\">Queensland</a> permiten la acampada dispersa (fuera de zonas delimitadas) gratis en la mayor parte de sus zonas, con restricciones de fuego y cierres de temporada. Es la acampada gratuita más fiable de los estados del este.",
-            "Muchos ayuntamientos del interior, sobre todo en Queensland, Nueva Gales del Sur y <a data-guide=\"camping-rules-south-australia\">Australia Meridional</a>, ofrecen acampada gratuita o a cambio de un donativo para atraer viajeros al pueblo. Estas zonas están señalizadas, reciben bien a los viajeros y a menudo tienen servicios básicos.",
+            "Los bosques estatales de Victoria, Nueva Gales del Sur y <a data-guide=\"camping-rules-queensland\">Queensland</a> permiten la acampada dispersa (fuera de zonas delimitadas) gratis en la mayor parte de sus zonas, siempre que respetes las restricciones de fuego y los cierres de temporada. Es la acampada gratuita más fiable de los estados del este.",
+            "Muchos ayuntamientos del interior, sobre todo en Queensland, Nueva Gales del Sur y <a data-guide=\"camping-rules-south-australia\">Australia Meridional</a>, ofrecen acampada gratuita o a cambio de un donativo para atraer viajeros al pueblo. Estas zonas están señalizadas, allí eres bienvenido y a menudo tienen servicios básicos.",
             "Las estancias en estaciones ganaderas (station stays) y las zonas de acampada de los roadhouses (gasolineras con bar y tienda del outback) cubren los huecos en las zonas remotas. Ambas opciones suelen ser baratas más que gratuitas, y con frecuencia son lo único que hay en cientos de kilómetros."
           ],
           "tips": [
@@ -479,7 +479,7 @@
           "body": [
             "Los ayuntamientos costeros cercanos a las grandes ciudades y en zonas turísticas prohíben casi sin excepción pernoctar en vehículos, y lo hacen cumplir con patrullas y multas. En cualquier costa popular, da por hecho que está prohibido salvo que un cartel diga lo contrario.",
             "Los parques nacionales exigen casi en todas partes un permiso y una zona de acampada habilitada. Acampar fuera de las zonas habilitadas de un parque nacional es una infracción en todos los estados.",
-            "Las áreas de descanso que gestionan las autoridades de carreteras sirven para descansar y combatir la <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">fatiga</a>. Dormir suele estar bien; montar el campamento con toldo y sillas no es para lo que están pensadas y a menudo se prohíbe expresamente."
+            "Las áreas de descanso que gestionan las autoridades de carreteras sirven para descansar y combatir la <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">fatiga</a>. Dormir suele estar permitido; montar el campamento con toldo y sillas no es el uso para el que están pensadas y a menudo se prohíbe expresamente."
           ],
           "tips": [
             "Los ayuntamientos costeros prohíben y patrullan",
@@ -490,12 +490,12 @@
         {
           "heading": "Vehículos self-contained y comportamiento",
           "body": [
-            "Algunos ayuntamientos solo permiten la acampada gratuita a vehículos self-contained (autónomos: váter fijo, depósitos de agua limpia y de aguas grises), con váter y almacenamiento de residuos a bordo. La definición cambia de un ayuntamiento a otro: algunos exigen una certificación y otros se conforman con una declaración.",
+            "Algunos ayuntamientos solo permiten la acampada libre a vehículos self-contained (autónomos: con váter fijo y depósitos para los residuos a bordo). La definición cambia de un ayuntamiento a otro: algunos exigen una certificación y otros se conforman con una declaración.",
             "Al margen de las normas, lo que mantiene abiertos los sitios es el comportamiento. Llega tarde, márchate pronto, ocupa poco, llévate toda la basura y no vacíes nunca los residuos en otro sitio que no sea un <a data-guide=\"dump-points-australia-guide\">punto de vaciado</a>.",
             "Los sitios cierran por los residuos, el ruido y la masificación, y los cierres suelen ser definitivos. Los distritos con las normas más estrictas hoy son aquellos donde antes peor se comportó la gente."
           ],
           "tips": [
-            "Las normas self-contained varían según el ayuntamiento",
+            "Los requisitos self-contained varían según el ayuntamiento",
             "Ocupa poco y márchate pronto",
             "El mal comportamiento cierra sitios para siempre"
           ]
@@ -1933,7 +1933,7 @@
     },
     "camping-without-phone-signal": {
       "title": "Acampar sin cobertura móvil",
-      "description": "Prepara los detalles de los lugares, las reservas, el tiempo y los contactos de emergencia antes de quedarte sin cobertura.",
+      "description": "Prepara los detalles de los lugares, las reservas, la previsión del tiempo y los contactos de emergencia antes de quedarte sin cobertura.",
       "region": "Australia",
       "imageAlt": "Camping remoto fuera de la cobertura móvil",
       "intro": "Estar sin cobertura es relajante solo si ya llevas contigo la información esencial.",
@@ -1941,7 +1941,7 @@
         {
           "heading": "Guarda lo que importa",
           "body": [
-            "Ten a mano, sin conexión, las confirmaciones de reserva, los códigos de las barreras, los datos del camping, los números de emergencia y las notas de la ruta. Haz capturas de pantalla de los avisos de tiempo y de cierres importantes justo antes de salir.",
+            "Ten a mano, sin conexión, las confirmaciones de reserva, los códigos de las barreras, los datos del camping, los números de emergencia y las notas de la ruta. Haz capturas de pantalla de los avisos meteorológicos y de cierres importantes justo antes de salir.",
             "Los detalles esenciales de cada lugar en AussieCamps siguen disponibles sin conexión, pero los mapas, la navegación, la previsión del tiempo y las webs pueden necesitar cobertura."
           ],
           "tips": []
@@ -1996,7 +1996,7 @@
         {
           "heading": "Prepárate antes de perder la señal",
           "body": [
-            "Descarga antes los mapas de toda la ruta, no solo del siguiente tramo, y comprueba que se abren en modo avión antes de fiarte de ellos. Guarda como capturas de pantalla las reservas, los contactos y las instrucciones de acceso.",
+            "Descarga antes los mapas de toda la ruta, no solo del siguiente tramo, y comprueba que funcionan en modo avión antes de fiarte de ellos. Guarda como capturas de pantalla las reservas, los contactos y las instrucciones de acceso.",
             "Llena el depósito y el agua, revisa los neumáticos y cuéntale a alguien tu ruta y tu hora prevista de llegada, con una hora acordada a partir de la cual debe dar la voz de alarma. Ese acuerdo es lo que convierte un retraso en una búsqueda en el momento justo.",
             "Lleva mapas en papel para las rutas realmente remotas. No necesitan batería, funcionan en cualquier parte y te dan la visión de conjunto que nunca da la pantalla de un móvil."
           ],
@@ -2023,7 +2023,7 @@
           "heading": "Entretenimiento y comodidad",
           "body": [
             "Descarga mapas, música, pódcasts y lecturas antes de perder la señal. Los tramos largos por zonas remotas y los atardeceres tempranos dejan más tiempo libre del que la mayoría espera, y tener algo descargado mejora mucho las noches.",
-            "Avisa con antelación a familia y amigos de que no podrán localizarte durante un periodo concreto. Así evitas preocupaciones innecesarias y, sobre todo, haces que una alarma real por retraso tenga sentido.",
+            "Avisa con antelación a familia y amigos de que no podrán localizarte durante un periodo concreto. Así evitas preocupaciones innecesarias y, sobre todo, si un día no apareces cuando toca, sabrán que hay motivo real de alarma.",
             "Acuerda con alguien en casa un calendario de contacto, aunque sea un solo mensaje cada pocos días, para que un silencio sin explicación signifique algo y no se pase por alto.",
             "Prueba los mapas descargados en modo avión antes de salir del último pueblo, porque descubrir que no se descargaron bien es un problema que allí no tiene arreglo."
           ],
@@ -2037,11 +2037,11 @@
       "faq": [
         [
           "¿Qué parte de Australia tiene cobertura móvil?",
-          "Una pequeña fracción del territorio, aunque sí a la mayor parte de la población. Telstra tiene, con diferencia, la red rural más amplia, y lejos de las carreteras principales y los pueblos deberías dar por hecho que no habrá ninguna cobertura."
+          "Solo una pequeña parte del territorio, aunque llega a la mayor parte de la población. Telstra tiene, con diferencia, la red rural más amplia, y lejos de las carreteras principales y los pueblos deberías dar por hecho que no habrá ninguna cobertura."
         ],
         [
           "¿Qué debes llevar para acampar sin cobertura?",
-          "Mapas descargados y detalles de los lugares disponibles sin conexión, un mapa en papel de reserva y, para viajes de verdad remotos, un comunicador por satélite o una PLB. La PLB es la que activa el rescate, y muchas veces se puede alquilar en lugar de comprar."
+          "Mapas descargados y detalles de los lugares disponibles sin conexión, un mapa en papel de reserva y, para viajes realmente remotos, un comunicador por satélite o una PLB. La PLB es la que activa el rescate, y muchas veces se puede alquilar en lugar de comprar."
         ]
       ],
       "sources": [],
@@ -3912,7 +3912,7 @@
         {
           "heading": "La media de las capitales no es el precio en zonas remotas",
           "body": [
-            "La referencia oficial de las ciudades es un punto de partida transparente. Los roadhouses remotos (gasolineras con bar y tienda del outback) tienen otros costes y son demasiado importantes para saltártelos solo por buscar un precio más bajo más adelante.",
+            "La referencia oficial de las ciudades es un punto de partida claro. Los roadhouses remotos (gasolineras con bar y tienda del outback) tienen otros costes y son demasiado importantes como para saltártelos solo por buscar un precio más barato más adelante en la ruta.",
             "Llena el depósito con prudencia, ten claro cuál es el próximo punto de servicio fiable e incluye las paradas para repostar en el plan del viaje."
           ],
           "tips": [
@@ -3972,7 +3972,7 @@
           "heading": "Calidad del combustible y requisitos del vehículo",
           "body": [
             "La gasolina sin plomo premium no está disponible en todos los roadhouses remotos, y algunos solo tienen sin plomo normal y diésel. Si tu vehículo necesita premium, comprueba la disponibilidad a lo largo de la ruta en lugar de darla por hecha.",
-            "El diésel en las zonas remotas suele ser fiable y hay en abundancia, porque es lo que usan los camiones y las estaciones ganaderas. Esa disponibilidad, más que el precio en el surtidor, es el argumento práctico de más peso a favor del diésel en las rutas por el outback.",
+            "En las zonas remotas, el diésel suele ser de fiar y casi todas las gasolineras lo tienen, porque es lo que usan los camiones y las estaciones ganaderas. Esa disponibilidad, más que el precio en el surtidor, es el argumento práctico de más peso a favor del diésel en las rutas por el outback.",
             "Aunque no hagas nada más, apunta los kilómetros del cuentakilómetros cada vez que llenes el depósito: en una semana tendrás una cifra de autonomía real y te quitarás casi toda la ansiedad por el combustible."
           ],
           "tips": [
@@ -3988,7 +3988,7 @@
           "La guía da precios por litro con fecha para la gasolina y el diésel y los aplica a rutas reales. En los roadhouses remotos los precios están muy por encima de los de la ciudad, a veces un 50 % más, y eso es lo que descuadra los presupuestos en el outback."
         ],
         [
-          "¿Cómo calcular el combustible para un road trip por Australia?",
+          "¿Cómo se calcula el combustible que necesitas para un road trip por Australia?",
           "Toma la distancia de la ruta, súmale una quinta parte para desvíos y calcula con el consumo real de tu vehículo, no con la cifra del folleto. Una camper cargada y con viento de cara no va a cumplir el consumo homologado, y en Australia sopla mucho viento de cara."
         ]
       ],
@@ -5452,7 +5452,7 @@
       "description": "Pases de parques, campings con reserva, tiempo cambiante y acampada de bajo impacto en Tasmania.",
       "region": "Tasmania",
       "imageAlt": "Paisaje de acampada en un parque nacional de Tasmania",
-      "intro": "Tasmania combina pequeñas zonas de acampada gratuitas, zonas de acampada en parques nacionales y holiday parks (campings privados con cabañas y servicios). Con un tiempo cambiante y entornos frágiles, los detalles de cada sitio importan.",
+      "intro": "Tasmania combina pequeñas zonas de acampada gratuitas, zonas de acampada en parques nacionales y holiday parks (campings privados con cabañas y servicios). Por el tiempo y la fragilidad de muchos entornos, los detalles de cada sitio importan.",
       "sections": [
         {
           "heading": "Pases de parques y reservas",
@@ -5466,7 +5466,7 @@
           "heading": "Zonas de acampada gratuitas y normas locales",
           "body": [
             "Las zonas de acampada municipales y comunitarias pueden pedir registro o un donativo, o tener normas sobre el tipo de vehículo o la estancia máxima. Lee los carteles y no des por hecho que una reseña antigua refleja cómo funciona ahora.",
-            "Mantén las aguas residuales bien contenidas y usa los <a data-guide=\"dump-points-australia-guide\">puntos de vaciado</a> públicos. Acampa solo en terreno firme y fuera de las zonas de exclusión."
+            "Guarda las aguas residuales en los depósitos y vacíalas en los <a data-guide=\"dump-points-australia-guide\">puntos de vaciado</a> públicos. Acampa solo en terreno firme y fuera de las zonas de exclusión."
           ],
           "tips": [
             "Pase de parques",
@@ -5486,8 +5486,8 @@
           "heading": "El pase de parques es obligatorio",
           "body": [
             "Para entrar en vehículo en cualquier parque nacional hace falta un Tasmania Parks Pass, que va aparte de cualquier tarifa de acampada. El pase de vacaciones (holiday pass), que cubre todos los parques durante ocho semanas, sale mucho más a cuenta que los pases diarios si vas a visitar más de dos.",
-            "Los pases se comprueban en los parques principales, como Cradle Mountain y Freycinet, y entrar sin pase se multa. Compra el pase por internet antes de viajar, mejor que en la entrada.",
-            "Cradle Mountain también tiene un servicio de shuttle obligatorio desde el centro de visitantes durante el día, con el acceso en vehículo privado restringido. Ten en cuenta el horario del shuttle al planificar."
+            "Los pases se comprueban en los parques principales, como Cradle Mountain y Freycinet, y entrar sin él se castiga con multa. Cómpralo por internet antes de viajar en vez de en la entrada.",
+            "Cradle Mountain tiene además un shuttle obligatorio desde el centro de visitantes durante el día, y el acceso en vehículo particular está restringido. Cuenta con el horario del shuttle al planificar."
           ],
           "tips": [
             "Pase obligatorio para entrar en vehículo",
@@ -5499,7 +5499,7 @@
           "heading": "Cuarentena al llegar",
           "body": [
             "Tasmania aplica una <a data-guide=\"interstate-biosecurity-road-trip\">bioseguridad</a> estricta a quien llega en ferri o en avión. La fruta y la verdura frescas, las plantas, la tierra, la miel y el material apícola usado están restringidos, y en la terminal del ferri trabajan perros detectores.",
-            "Limpia el equipo de acampada, las botas y las bicis antes de viajar, y deshazte de los productos frescos antes de embarcar para que no te los requisen. Se multa por no declarar artículos.",
+            "Limpia el equipo de acampada, las botas y las bicis antes de viajar, y deshazte de los productos frescos antes de embarcar para que no te los confisquen. Lo que no declares te puede costar una multa.",
             "Las normas existen porque Tasmania está libre de varias plagas y enfermedades presentes en el continente. Cumplirlas lleva unos minutos y protege la economía agrícola de una isla."
           ],
           "tips": [
@@ -5522,10 +5522,10 @@
           ]
         },
         {
-          "heading": "Acampar gratis y la costa oeste",
+          "heading": "Acampada libre y la costa oeste",
           "body": [
             "Tasmania tiene una buena red de zonas de acampada municipales gratuitas o baratas, muchas en pueblos pequeños, y el estado es lo bastante compacto como para que rara vez quedes lejos de una. Los límites de estancia suelen ser de 24 a 72 horas.",
-            "Las zonas de acampada de los parques nacionales van de básicas a con servicios, y según el sitio se reservan o funcionan por orden de llegada. Tanto Freycinet como Cradle Mountain exigen reserva en temporada alta.",
+            "Las zonas de acampada de los parques nacionales van desde las más básicas hasta las que tienen servicios, y según el sitio se reservan o funcionan por orden de llegada. Tanto Freycinet como Cradle Mountain exigen reserva en temporada alta.",
             "La costa oeste es lluviosa, remota y con pocos servicios. Llena el depósito en Queenstown o Strahan y lleva provisiones, porque en ese lado de la isla las distancias entre pueblos son considerables."
           ],
           "tips": [
@@ -5538,7 +5538,7 @@
           "heading": "Normativa de los senderos",
           "body": [
             "El Overland Track exige reserva y el pago de una tarifa en la temporada de senderismo, y se recorre en un único sentido, de norte a sur. Otras rutas de varios días tienen sus propios requisitos de permiso y registro.",
-            "Buena parte de la naturaleza salvaje de Tasmania es zona de solo hornillo (fuel stove only), donde las <a data-guide=\"campfires-camping-australia\">hogueras</a> están totalmente prohibidas sea cual sea el índice de peligro de incendios. Lleva hornillo y comprueba la situación de tu ruta.",
+            "Buena parte de la naturaleza salvaje de Tasmania es zona de solo hornillo (fuel stove only), donde las <a data-guide=\"campfires-camping-australia\">hogueras</a> están totalmente prohibidas sea cual sea el índice de peligro de incendios. Lleva hornillo y comprueba las restricciones vigentes en tu ruta.",
             "Como Tasmania es pequeña, rara vez estás a más de una hora de un pueblo, así que reabastecerte es sencillo en comparación con los viajes por zonas remotas del continente.",
             "Las zonas de solo hornillo cubren buena parte de la naturaleza salvaje de Tasmania y se aplican sea cual sea el índice de peligro de incendios, así que comprueba la situación de tu ruta concreta."
           ],
@@ -5556,7 +5556,7 @@
         ],
         [
           "¿Se puede acampar gratis en Tasmania?",
-          "Sí, en las zonas municipales habilitadas: Tasmania tiene una buena red de zonas de acampada municipales gratuitas o baratas. Acampar fuera de ellas, sobre todo en reservas y playas, suele estar prohibido y se controla."
+          "Sí, en las zonas municipales habilitadas: Tasmania tiene una buena red de zonas de acampada municipales gratuitas o baratas. Acampar fuera de ellas, sobre todo en zonas de reserva y playas, suele estar prohibido y se vigila."
         ]
       ],
       "sources": [
