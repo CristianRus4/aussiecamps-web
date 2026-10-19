@@ -26,8 +26,9 @@ Thread: A-content (Kai). Branch `growth/a-content`. Never push. Session 2 took o
 
 ## In progress (session 2)
 - Fact-check batch F1 (Opus): finish TAS (sections 3+) and ACT (sections 2+), plus sleeping-in-car, free-camping hub, camping-fees.
-- Fix batch C1 (Opus): audit-confirmed errors on darwin-kakadu-litchfield-loop, australian-alps-camping-route, adelaide-to-uluru-road-trip, australian-road-signs-visitors-guide, plus towing-caravan flags. Its changed claims go to /tmp/a-content/factcheck/c1-changes.md for an independent check.
-- Next fact-check batch: campfires, dump-points, caravan-park, then the 5 cost pages. Then apply all fixes and hand off batch 1.
+- DONE 9438657 fix batch C1: audit-confirmed errors on darwin-kakadu-litchfield-loop, australian-alps-camping-route, adelaide-to-uluru-road-trip, australian-road-signs-visitors-guide, plus towing-caravan flags. Changed claims in /tmp/a-content/factcheck/c1-changes.md. Darwin loop FAQ not added (road-trip guides carry none per lib/article-faqs.ts header); draft FAQ kept in drafts/.
+- Fact-check batch F2 (Opus): c1-changes (-> factcheck/c1-verdicts.md), campfires, dump-points, caravan-park.
+- Next fact-check batch: the 5 cost pages. Then apply all fixes and hand off batch 1.
 
 ## Next (audit queue, docs/growth/audit/summary.csv in main)
 - P0 FIX-FACTS not yet done: towing-caravan-australia-road-rules, melbourne-to-adelaide-coastal-route, flinders-ranges-camping-guide, red-centre-way-camping, darwin-kakadu-litchfield-loop, driving-with-road-trains-australia, overseas-driver-licence-australia-state-guide, victoria-high-country-camping, homepage, support, privacy (check ownership of homepage/support/privacy with the orchestrator).
