@@ -13,7 +13,6 @@
         "pt",
         "ja",
         "ko",
-        "zh-hans",
         "zh-hant",
         "cs",
         "pl"
@@ -43,10 +42,6 @@
         {
           "locale": "ko",
           "path": "../lib/translations/ko.json"
-        },
-        {
-          "locale": "zh-hans",
-          "path": "../lib/translations/zh-hans.json"
         },
         {
           "locale": "zh-hant",
@@ -100,7 +95,6 @@
       },
       "varieties": {
         "pt": "pt-PT",
-        "zh-hans": "zh-Hans",
         "zh-hant": "zh-Hant"
       },
       "register": {
@@ -255,22 +249,36 @@
       }
     },
     {
+<<<<<<< HEAD
       "id": "aussiecamps-website-sv",
       "adapter": "web-json",
       "sourceLocale": "en",
       "locales": [
         "sv"
+=======
+      "id": "aussiecamps-website-zh-Hans",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "zh-hans"
+>>>>>>> 113c47d (Replay zh-hans work onto main: dedicated catalog, style guide, translations)
       ],
       "source": "../lib/translations/en.json",
       "targets": [
         {
+<<<<<<< HEAD
           "locale": "sv",
           "path": "../lib/translations/sv.json"
+=======
+          "locale": "zh-hans",
+          "path": "../lib/translations/zh-hans.json"
+>>>>>>> 113c47d (Replay zh-hans work onto main: dedicated catalog, style guide, translations)
         }
       ],
       "protectedTerms": [
         "AussieCamps",
         "AussieCamping",
+<<<<<<< HEAD
         "AUD",
         "Tourism Australia",
         "Reserve Bank of Australia",
@@ -286,6 +294,9 @@
         "Central Australia",
         "BookEasy",
         "App Store"
+=======
+        "AUD"
+>>>>>>> 113c47d (Replay zh-hans work onto main: dedicated catalog, style guide, translations)
       ],
       "untranslatedKeys": [
         "ui.review*",
@@ -293,6 +304,7 @@
         "ui.reviewsTitle"
       ],
       "glossary": {
+<<<<<<< HEAD
         "Australia": {
           "sv": "Australien"
         }
@@ -412,6 +424,32 @@
       },
       "styleGuide": {
         "nb": "Follow docs/translation-style/nb.md: natural Norwegian Bokmål travel-writer voice, informal du, bobil and campingplass vocabulary, Norwegian number and currency format, no offline-map claims."
+=======
+        "dump point": {
+          "zh-hans": "排污站"
+        },
+        "rest area": {
+          "zh-hans": "休息区"
+        },
+        "holiday park": {
+          "zh-hans": "假日公园"
+        },
+        "caravan park": {
+          "zh-hans": "房车营地"
+        },
+        "New Zealand": {
+          "zh-hans": "新西兰"
+        }
+      },
+      "register": {
+        "zh-hans": "informal"
+      },
+      "styleGuide": {
+        "zh-hans": "Follow docs/translation-style/zh-hans.md: write as a seasoned mainland Chinese self-drive guide writer, address the reader as 你, short topic-first clauses, full-width punctuation, “ ” quotes, no em dashes or 破折号, Simplified characters only, never claim an offline map."
+      },
+      "varieties": {
+        "zh-hans": "zh-Hans"
+>>>>>>> 113c47d (Replay zh-hans work onto main: dedicated catalog, style guide, translations)
       }
     }
   ]
