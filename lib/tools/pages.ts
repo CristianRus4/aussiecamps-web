@@ -4,6 +4,7 @@ import { SITE_URL, sitePath } from "../site";
 import { isTranslated, routedLocales, type LocaleCode } from "../localized";
 import { localeRoot } from "../locales";
 import { alternatesFor, ogLocale } from "../seo";
+import { smartBannerContent } from "../app-store";
 import { toolKeys, toolStrings, uiStrings, type ToolKey, type UiKey } from "../source-strings";
 import { isToolTranslated, toolCopy } from "./strings";
 
@@ -55,6 +56,8 @@ export function toolMetadata(tool: ToolKey, locale: "en" | LocaleCode): Metadata
       title: copy.metaTitle, description: copy.metaDescription, url: `${SITE_URL}${path}`, images: [{ url: "/images/aussie-og.webp", alt: "AussieCamps" }],
     },
     robots: { index: indexable, follow: true, googleBot: { index: indexable, follow: true, "max-image-preview": "large", "max-snippet": -1 } },
+    // The root layout's banner carries the English campaign; a localised page reports its own.
+    other: { "apple-itunes-app": smartBannerContent(locale) },
   };
 }
 

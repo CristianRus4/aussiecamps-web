@@ -46,19 +46,40 @@ Branch `growth/a-tools-hubs`. Edited only by the A-tools-hubs thread.
   - matches the server-rendered default exactly.
 - `lib/routes/tools.ts` provides `toolRoutes()`. The sitemap includes the indexable tool pages.
 
-## Next
-- After foundation M2 merges:
-  - rebase;
-  - switch `ExportRoute` to the `lib/routes` type;
-  - register `toolRoutes` in the manifest;
-  - swap `storeUrl()` for `appStoreUrl({placement:"tool"})`;
-  - add `mainData`.
-- **M3:**
-  - the Natural Earth outline;
-  - hub components and pages;
-  - prose for the hubs that can pass the gate;
-  - `lib/routes/hubs.ts`.
+### M3: data hubs (handed off)
+- **Pages:**
+  - Hubs: `/camping/<state>/`, `/camping/<state>/<park>/`, `/dump-points/<state>/` and `/rest-areas/<state>/`.
+  - Indexes: `/camping/`, `/dump-points/` and `/rest-areas/`.
+  - Built from `components/hubs/*` and registered as `hubRoutes()` in the manifest.
+- **Map:** a static SVG dot map over a simplified Natural Earth 1:50m outline (`lib/data/au-outline.json`, from `scripts/build-au-outline.mjs`).
+- **Prose:** `lib/hubs/prose.json` holds 22 hubs of grounded prose, 275 to 376 words each. The grounding check lives in `lib/hubs/grounding.ts` and is enforced by `scripts/audit-hubs.mjs`.
+- **Exporter changes:**
+  - title-cases ALL-CAPS source names;
+  - never lists placeholder names.
+- **Gate change:** a hub with fewer than 5 named places is noindex.
+- **Gate result:**
+  - 169 candidates and 92 built.
+  - 21 indexable: camping NSW, VIC, QLD, WA and TAS; parks K'gari, Cooloola and Rinyirru; dump points in 7 states; rest areas in 6 states.
+  - 71 noindex.
 
-## Blockers / notes for the orchestrator
-- The exporter (`scripts/export-github-pages.mjs`) builds its route list by regex and won't export new route types. Hubs and tool pages need foundation M2's route manifest, or an exporter hook, before they deploy.
-- `tests/rendered-html.test.mjs` asserts that `/tools` contains "Currency converter", "Fuel calculator", `data-static-tools` and `120.0 L · A$249.60`. The `/tools/` index keeps those.
+### Rebased onto foundation M2 (growth/a-foundation 43a8667)
+- `toolRoutes` and `hubRoutes` are registered in `lib/routes.ts`.
+- `tools` is added to `lib/translation-source.ts`, so `en.json` carries the namespace.
+- Footer `pageKey`, `alternatesFor`, `routedLocales`, `intlLocale` and `htmlLang` are in use.
+- Localised tool pages set their own Smart App Banner campaign.
+
+## Next
+- When i18n threads translate `tools.common` and `tools.tools.<tool>`, the locale tool pages go indexable automatically.
+- Localised hubs come later, once Search Console shows the English hubs are indexed.
+- To publish more hubs: write grounded prose into `lib/hubs/prose.json`, then re-run `npm run data:export` where the app repo exists. The description check has to re-stamp.
+
+## Notes for the orchestrator
+- Merge order: foundation M2 first, then this branch. It is rebased on top of it.
+- Reciprocal links are wanted from these guides to the tool pages:
+  - `australia-road-trip-fuel-cost-2026`
+  - `road-trip-fuel-planning-australia`
+  - `camping-fees-australia-2026`
+  - `camping-water-planning`
+  - `dump-points-australia-guide`
+  - `australia-road-trip-fatigue-wildlife-safety`
+- Reciprocal links are wanted from the `camping-rules-<state>` guides and `dump-points-australia-guide` to the hubs.
