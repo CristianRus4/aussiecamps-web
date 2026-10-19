@@ -14,19 +14,18 @@ Style guide: `docs/translation-style/de.md` (identical in both repos).
     doc-huts-guide, campervan-road-rules, eating-out-prices, accommodation-costs, road-trip-fuel-cost,
     doc-campsite-rules.
 
-## In progress (2026-10-20 handoff, session 2)
-- Rebased aussiecamps `i18n/a-de` onto main (foundation M2, tools-hubs). English now has `<a data-guide>` links in guides, so:
-  - 151 placeholder errors: the 20 rewritten AussieCamps guides need the link tags (batches fa01, fa02) and every remaining guide gets them while rewritten.
-  - Batches in /tmp/de-i18n/batches2 (built by mkbatches2.js from `translation-engine packet --all`): fa01-02 link fix, a05-a10 (remaining 30 guides),
-    rt01-rt04 (20 road trips), tl01 (tools namespace). Brief: /tmp/de-i18n/BRIEF.md + BRIEF2.md. Outputs in /tmp/de-i18n/out2, apply via toapply.js then dry.sh.
-- KiwiCamping k05..k09 (25 guides) still to do; its worktree is not rebased yet (check kiwicamping-web origin/main for its foundation M2).
+## In progress (2026-10-20, session 2)
+- AussieCamps de is complete: all 4411 units translated and stamped (guides a01..a10 rewritten, link markup added, 20 road trips,
+  `tools` namespace, native review passes rv-1..rv-3). Branch `i18n/a-de` is rebased on main and `npm run check` passed.
+- Working files: /tmp/de-i18n (batches2/, out2/, masters/, BRIEF.md + BRIEF2.md for drafters, REVIEW.md for reviewers, mkbatches2.js, mkreview.js, toapply.js, dry.sh).
+- Exonyms: Tasmania/Central Australia (AussieCamps) and North/South Island (KiwiCamping) moved from `protectedTerms` to the German `glossary`
+  in docs/translation.config.json, so Tasmanien, Zentralaustralien, Nordinsel, Südinsel are now used natively.
+- KiwiCamping: k05..k09 (25 guides) still to rewrite (batches in /tmp/de-i18n/batches), then a review pass; KiwiCamping main has not
+  merged its foundation M2 yet, so legacy articles, road trips, `tools`, link markup and stamps wait for it.
 
 ## Next
-- Finish a05-a10, rt01-rt04, tl01 on AussieCamps, then Kiwi (rebase, link fix, k05-k09, road trips, legacy articles, tools).
-- `translations:stamp -- --locale de` after each applied chunk if the script is present.
+- Kiwi k05..k09 + review; after K-foundation M2 reaches kiwicamping main: rebase, link-fix, road trips, legacy articles, tools, stamp.
 
 ## Blockers and open questions for the orchestrator
-- Protected terms force English where German has standard exonyms: "Tasmania" (AussieCamps) should be
-  "Tasmanien"; "North Island"/"South Island" (KiwiCamping) should be "Nordinsel"/"Südinsel". Proposal:
-  move them from `protectedTerms` to per-locale `glossary` renderings. Until then the applied text uses
-  the English forms; the German masters with the exonyms are kept for re-application.
+- None open. English source oddities noticed while drafting are listed in /tmp/de-i18n/en-issues.md and in the batch reports
+  (e.g. NT wet season dates, overseas licence 6-month vs "length of stay", Tasmania/Uluru spellings); for the content lanes.
