@@ -1,0 +1,93 @@
+{
+ "branch": "i18n/a-pt",
+ "judgedAt": "2026-10-19",
+ "verdict": "merge-after-fixes",
+ "averageScore": 4.4,
+ "unitsReviewed": 358,
+ "improvedVsOld": "The new text is clearly better than the old across the batch. It fixes the calques the style guide calls out ('Há duas espécies', 'alojamento com telhado', 'estações' for stations, 'Verificar o atual conta', 'Cada local abre com o detalhe que decide'). It replaces 'parques de caravanas', 'concelho'/'shire' misuse and 'Destacados/Quero ir/Marcadores' with the glossary terms and app labels, and changes 'tarifa' to 'preço' and 'meteorologia' to 'o tempo' in the UI. Every 'offline' claim in the changed keys becomes 'abre sem rede' / 'vem dentro da app', and 'datados' becomes 'com a data de verificação'. It adds the required first-use glosses (roadhouse, bottle shop, honesty box, NPWS, total fire ban, Country, Traditional Owners, award wage, schooner). Article titles and descriptions now lead with search terms ('Dormir no carro na Austrália', 'Comer fora na Austrália', 'Transportes públicos na Austrália'). Register is a consistent informal tu, with no você, no em dashes and no Brazilianisms in the changed values. Prose is idiomatic pt-PT ('paredes-meias', 'é uma lotaria', 'Se conduzires, não bebas', 'Poder estacionar não é poder dormir'). All numbers, prices, dates and placeholders match EN, apart from the misaligned privacy keys. The weak spots: three UI meta descriptions are well over 160 characters, a couple of headings drift from the meaning, and 'mapa padrão'/'meteorologia' are used inconsistently between the support page and the UI.",
+ "criticalIssues": [
+  "The Portuguese privacy page does not match the English structure. pt has 6 sections and EN has 7: the whole 'Website analytics' (GA4) section and its 4 paragraphs are missing, every later heading and paragraph is shifted by one, there is an orphan key pages.privacy.sections[5].paragraphs[1], and the effective date says 12 August 2026 where EN says 19 October 2026. lib/localized.ts isPageComplete() therefore fails, so getPage() serves the whole page in English and /pt/privacy stays non-indexable. The branch retranslated these keys without realigning them, so that work is wasted. The gap existed on main before this branch, but this branch should fix it.",
+  "The consent.* strings (label, message, accept, decline, learnMore, privacyChoices) are missing from pt.json, so Portuguese (EU) visitors see the GA4 consent bar in English. This gap also existed on main before the branch.",
+  "Not part of this diff, but the site is now inconsistent: the new ui.faq5a/feature1Text use the app labels Com estrela / Quero visitar / Pins / Todos os guardados, while the untouched articles save-collections-aussiecamps, aussiecamps-widgets-guide and best-camping-app-australia still say Destacados / Quero ir / Marcadores / Tudo o que guardaste. ui.review1Quote still contains 'salvar' and 'offline', 'autossuficiente' remains in aussiecamps-place-details, and 'conselho' remains in 5 untouched keys. These need a follow-up batch."
+ ],
+ "failingUnits": [
+  {
+   "key": "pages.privacy.sections[4].heading",
+   "current": "Conservação e controlo dos dados",
+   "problem": "Misaligned with English. EN sections[4] is now 'Website analytics' (the GA4 section). The pt file still has the old 6-section privacy structure, so this heading belongs to EN sections[5].",
+   "suggested": "Análise de tráfego do site (then move 'Conservação e controlo dos dados' to sections[5].heading)"
+  },
+  {
+   "key": "pages.privacy.sections[4].paragraphs[0]",
+   "current": "Podes apagar os registos na própria app e gerir os dados do iCloud na tua conta Apple. Remover a app pode apagar os dados locais, mas as cópias sincronizadas podem manter-se no iCloud até serem apagadas separadamente.",
+   "problem": "This text belongs to EN sections[5].paragraphs[0]. EN sections[4].paragraphs[0] is the GA4 disclosure, and its 4 paragraphs are missing entirely (Google Ireland processor, data collected, _ga cookies for 13 months with consent in the EEA/UK/CH, 14-month retention, no ad personalisation).",
+   "suggested": "Este site usa o Google Analytics 4 para perceber que páginas são lidas e como os visitantes chegam à app. A Google trata estes dados em nosso nome, como subcontratante. Para quem visita a partir do Espaço Económico Europeu, do Reino Unido e da Suíça, o serviço é prestado pela Google Ireland Limited. (Also translate paragraphs[1] to [3] and shift the retention text to sections[5].)"
+  },
+  {
+   "key": "pages.privacy.sections[5].paragraphs[0]",
+   "current": "A AussieCamps é uma ferramenta de viagem de uso geral e não se destina a crianças. Não envies ao apoio dados pessoais de uma criança.",
+   "problem": "Shifted by one section. EN sections[5].paragraphs[0] is the retention/iCloud deletion text, and this children text belongs to sections[6].",
+   "suggested": "Podes apagar os registos na própria app e gerir os dados do iCloud na tua conta Apple. Remover a app pode apagar os dados locais, mas as cópias sincronizadas podem manter-se no iCloud até serem apagadas à parte."
+  },
+  {
+   "key": "pages.privacy.sections[5].paragraphs[1]",
+   "current": "Para questões de privacidade, contacta o apoio da AussieCamps.",
+   "problem": "This key has no English counterpart. EN sections[5] has 1 paragraph, so the text belongs in sections[6].paragraphs[1].",
+   "suggested": "Move to sections[6].paragraphs[1]: Para questões de privacidade, contacta o apoio da AussieCamps."
+  },
+  {
+   "key": "pages.privacy.effective",
+   "current": "Em vigor a partir de 12 de agosto de 2026",
+   "problem": "Wrong date. EN says Effective 19 October 2026. This is a legal page.",
+   "suggested": "Em vigor a partir de 19 de outubro de 2026"
+  },
+  {
+   "key": "pages.privacy.sections[3].paragraphs[1]",
+   "current": "Os prestadores de alojamento web podem tratar registos técnicos de rotina, como o endereço IP, o tipo de navegador e o URL pedido, para fins de entrega de conteúdos, fiabilidade e segurança. A AussieCamps não usa rastreadores publicitários neste site.",
+   "problem": "Adds a sentence that EN no longer has here. EN moved 'does not use advertising trackers' into the analytics section, where GA4 is disclosed.",
+   "suggested": "Os prestadores de alojamento web podem tratar registos técnicos de rotina, como o endereço IP, o tipo de navegador e o URL pedido, para entregar o site, garantir a fiabilidade e a segurança."
+  },
+  {
+   "key": "ui.metaDescription",
+   "current": "Mais de 74.000 parques de campismo, áreas gratuitas, áreas de descanso e pontos de despejo na Austrália. Fichas que abrem sem rede, filtros precisos e um planeador de viagens paragem a paragem, para iPhone.",
+   "problem": "206 characters, well over the guide's 150 to 160, so it will be truncated in Google. 'áreas gratuitas' on its own is vague: the glossary term is 'área de campismo gratuita'.",
+   "suggested": "Mais de 74.000 parques e áreas de campismo, locais gratuitos, áreas de descanso e pontos de despejo na Austrália, com fichas que abrem sem rede e planeador de viagens."
+  },
+  {
+   "key": "ui.metaGuidesDescription",
+   "current": "Regras de campismo por estado, campismo gratuito e limites nas áreas de descanso, proibições de fogo, segurança na estrada, melhor época, custos reais e planeamento prático para uma viagem de carro pela Austrália.",
+   "problem": "213 characters (EN about 168), well past the 160 limit. The keywords at the end will be cut.",
+   "suggested": "Regras de campismo por estado, campismo gratuito, áreas de descanso, proibições de fogo, segurança na estrada, melhor época e custos reais para viajar pela Austrália."
+  },
+  {
+   "key": "ui.metaSupportDescription",
+   "current": "Ajuda com os mapas da AussieCamps, as fichas dos locais, os filtros, as coleções, o planeador de viagens, os dados disponíveis sem rede, a conversão de moeda e o acesso premium.",
+   "problem": "177 characters (EN 137). The string of articles makes it long and heavy for a snippet.",
+   "suggested": "Ajuda com mapas, fichas dos locais, filtros, coleções, planeador de viagens, dados sem rede, conversão de moeda e acesso premium da AussieCamps."
+  },
+  {
+   "key": "ui.metaKeywords",
+   "current": "app de campismo Austrália, campismo gratuito Austrália, parques de campismo Austrália, autocaravana Austrália, campervan Austrália, app de campismo sem rede Austrália, volta à Austrália, pontos de despejo Austrália, áreas de descanso Austrália, planeador de viagens Austrália",
+   "problem": "'app de campismo sem rede' reads as 'a camping app that works with no signal', which comes close to the banned offline-app claim. Only the place details work without signal.",
+   "suggested": "app de campismo Austrália, campismo gratuito Austrália, parques de campismo Austrália, autocaravana Austrália, campervan Austrália, áreas de campismo Austrália, volta à Austrália, pontos de despejo Austrália, áreas de descanso Austrália, planeador de viagens Austrália"
+  },
+  {
+   "key": "articles.sleeping-in-car-australia.sections[7].tips[1]",
+   "current": "Deitado, o chão plano conta",
+   "problem": "Awkward, clipped syntax that no native writer would produce. The dangling 'Deitado' does not attach to anything.",
+   "suggested": "Para dormir, o chão tem de estar plano"
+  },
+  {
+   "key": "articles.alcohol-coffee-drink-prices-australia.sections[0].heading",
+   "current": "Loja e bar vendem produtos diferentes",
+   "problem": "Changes the meaning. EN says a shop price and a venue price are different products (they are not comparable), not that the shop and the bar sell different goods.",
+   "suggested": "Preço de loja e preço de bar não se comparam"
+  },
+  {
+   "key": "pages.support.sections[3].paragraphs[0]",
+   "current": "Alterna entre o mapa padrão e uma vista de satélite assente nas imagens flyover da Apple, ...",
+   "problem": "Inconsistent with the UI strings on the same branch, which now say 'mapa normal' and 'Flyover'. support.sections[2].paragraphs[0] and sections[3].paragraphs[2] likewise keep 'meteorologia' where the UI switched to 'o tempo'. The guide asks for one term per concept.",
+   "suggested": "Alterna entre o mapa normal e uma vista de satélite com as imagens Flyover da Apple, que se inclina e roda até mostrar o relevo em 3D. O Street View, feito com as imagens Look Around da Apple, abre-se a partir da ficha do local, onde houver cobertura."
+  }
+ ]
+}

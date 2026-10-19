@@ -1,0 +1,75 @@
+{
+ "branch": "i18n/a-fr",
+ "judgedAt": "2026-10-19",
+ "verdict": "merge-after-fixes",
+ "averageScore": 4.4,
+ "unitsReviewed": 189,
+ "improvedVsOld": "Clearly better than the removed text. It replaces the calques 'parcs pour caravanes', 'parc de vacances' and 'votre prochain lieu est quelque part dehors' and the planning-table sentence. It aligns the app labels (« J’ai aimé », « Favoris », « Envie de visiter », « Épingles », « tâches », « liste de choses à emporter »), replaces 'hors connexion' with 'sans réseau' and 'intégré à l’app', and uses imperatives in headings. Typography is correct throughout the changed units: U+00A0 before : ; ? » and inside numbers, typographic apostrophes, and no em dashes. There are no offline-map claims. Numbers (74 000+, 4 000+, 11 l, 9 l), AUD and the RBA are intact, and brand names are untouched. One regression against the old text: ui.driveTitle. Minor style note: 'caravan park' and 'holiday park' are never glossed on the home page or the tools page, which the glossary asks for once per page.",
+ "criticalIssues": [
+  "The French privacy page is missing the 'Website analytics' (Google Analytics 4 / Google Ireland) section. English has 7 privacy sections and French has 6. The keys pages.privacy.sections[4].paragraphs[1..3] and sections[6].* do not exist in fr.json, and French sections [4] onward are shifted by one against English. This fails the style guide's completeness gate (§7), and for EEA visitors it is a GDPR disclosure gap on a site that now loads GA4.",
+  "The consent banner namespace is untranslated. consent.label, consent.message, consent.accept, consent.decline, consent.learnMore and consent.privacyChoices are absent from fr.json, but the style guide (§7) says the consent namespace follows the same rules once it reaches en.json.",
+  "pages.privacy.effective still says 12 août 2026 while English says 19 October 2026, and pages.privacy.sections[3].paragraphs[1] keeps the 'n’utilise pas de traceurs publicitaires' sentence that English removed. Together they present an outdated privacy policy as current."
+ ],
+ "failingUnits": [
+  {
+   "key": "pages.privacy.sections[3].paragraphs[1]",
+   "current": "Les hébergeurs peuvent traiter des journaux techniques courants (adresse IP, type de navigateur, URL demandée) pour la diffusion, la fiabilité et la sécurité du site. AussieCamps n’utilise pas de traceurs publicitaires sur ce site.",
+   "problem": "Fact fidelity: the second sentence is not in the English. English main deliberately dropped it when GA4 went live, so the French privacy policy now makes a claim the English no longer makes, on a site that runs Google Analytics 4. Score 2.",
+   "suggested": "Les hébergeurs peuvent traiter des journaux techniques courants (adresse IP, type de navigateur, URL demandée) pour la diffusion, la fiabilité et la sécurité du site."
+  },
+  {
+   "key": "pages.privacy.effective",
+   "current": "En vigueur depuis le 12 août 2026",
+   "problem": "Wrong date. The English says 'Effective 19 October 2026'. The French policy also still lacks the new GA4 section (see critical issues), so it presents an outdated policy as current. Score 2.",
+   "suggested": "En vigueur depuis le 19 octobre 2026 (only once the Website analytics section has been added to the French file)"
+  },
+  {
+   "key": "ui.driveTitle",
+   "current": "Combien de temps prend vraiment cette journée.",
+   "problem": "Reads as a question with a full stop. A native writer would not leave an indirect question without a main clause. The old text was better. Score 3.",
+   "suggested": "Le temps réel d’une journée de route."
+  },
+  {
+   "key": "ui.featuresTitle",
+   "current": "Trouvez. Enregistrez. Préparez toute la route.",
+   "problem": "'Préparer toute la route' is an odd collocation in French. A native writer would say 'préparer le voyage' or 'le trajet'. Score 3.5.",
+   "suggested": "Trouvez. Enregistrez. Préparez tout le voyage."
+  },
+  {
+   "key": "ui.audiencesEyebrow",
+   "current": "Quelle que soit votre maison sur roues",
+   "problem": "'Maison sur roues' leaves out tents, but the title right below starts with 'la tente'. The English 'However you carry home' covers tents too. Score 3.5.",
+   "suggested": "Tente, van ou camping-car"
+  },
+  {
+   "key": "ui.guidesTitle",
+   "current": "Suivez la route vers un bel endroit.",
+   "problem": "Word-for-word calque that sounds flat and translated. Score 3.5.",
+   "suggested": "Prenez la route, cap sur les beaux endroits."
+  },
+  {
+   "key": "ui.feature1Text",
+   "current": "« J’ai aimé », « Favoris », « Envie de visiter » et « Visité » se remplissent toutes seules à mesure que vous marquez des lieux. …",
+   "problem": "'toutes seules' is feminine plural, but the sentence never names the noun ('listes'). The agreement is left hanging. Score 3.5.",
+   "suggested": "Les listes « J’ai aimé », « Favoris », « Envie de visiter » et « Visité » se remplissent toutes seules à mesure que vous marquez des lieux. Ajoutez par-dessus vos propres collections pour une région, une saison ou la présélection dont vous débattez encore."
+  },
+  {
+   "key": "ui.feature4Text",
+   "current": "Là où les images existent, Street View s’ouvre directement depuis la fiche du lieu : vous voyez l’entrée, l’état de la piste et les alentours avant d’y engager le van.",
+   "problem": "'piste' means an unsealed or 4x4 track (style guide glossary). The English 'road surface' is generic. The old 'chaussée' was accurate. Score 3.5.",
+   "suggested": "Là où les images existent, Street View s’ouvre directement depuis la fiche du lieu : vous voyez l’entrée, l’état de la route et les alentours avant d’y engager le van."
+  },
+  {
+   "key": "ui.faq6a",
+   "current": "Oui, et même les combiner. Les filtres portent sur …",
+   "problem": "The ellipsis ('et même les combiner') is grammatically incomplete after 'Puis-je filtrer… ?'. It reads clipped. Score 3.5.",
+   "suggested": "Oui, et vous pouvez même combiner ces filtres. Les filtres portent sur la catégorie, …"
+  },
+  {
+   "key": "ui.metaSupportDescription",
+   "current": "Aide pour AussieCamps : carte, fiches des lieux, filtres, collections, planificateur de voyage, données hors connexion, conversion de devises et accès premium.",
+   "problem": "This is the only changed unit that keeps 'hors connexion'. Everywhere else the branch moves to 'sans réseau', in line with the style guide's wording for what works offline. It is not a map claim, but it is inconsistent. Score 3.5.",
+   "suggested": "Aide pour AussieCamps : carte, fiches des lieux, filtres, collections, planificateur de voyage, consultation sans réseau, conversion de devises et accès premium."
+  }
+ ]
+}

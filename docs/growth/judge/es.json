@@ -1,0 +1,99 @@
+{
+ "branch": "i18n/a-es",
+ "judgedAt": "2026-10-19",
+ "verdict": "merge-after-fixes",
+ "averageScore": 4.34,
+ "unitsReviewed": 127,
+ "improvedVsOld": "Clearly better overall. The new text removes the English left in the old version (campgrounds, caravan parks in the image alt texts), fixes the app labels to match the app (Me gustó, Quiero visitar, Pines, Todos guardados instead of Me gusta, Quiero ir, Marcadores), drops the banned 'parque vacacional' and the vosotros form ('estáis discutiendo'), uses the glossary terms 'zona de acampada gratuita' and 'acampada libre', and adopts the style guide's before/after rewrites (featureMainTitle, plannerText, principle2Title). A few units regressed against the old text: toolsTitle ('cuentas misteriosas'), support.sections[3].heading (the 'tiempo / tiempo real' clash) and toolsReadingText. The 14 units scoring below 4 are wording fixes, not systematic problems.",
+ "criticalIssues": [
+  "Pre-existing gap, not introduced by this diff, but this branch rewrites the privacy page and leaves it out of step with English. The Spanish file has no consent.* keys (label, message, accept, decline, learnMore, privacyChoices) and no 'Website analytics' (GA4) privacy section. origin/main en.json has 7 privacy sections and es.json has 6, so from index 4 the sections are off by one (es[4] 'Conservación y control' sits where EN[4] is 'Website analytics'). The Spanish privacy page therefore does not disclose GA4 or its cookies, even though GA4 and the consent banner are now live. Add them before or alongside this merge.",
+  "No em dashes, no 'offline map' claims, no vosotros/usted, no untranslated English and no broken placeholders or markup were found in the changed units. Numbers (74.000), AUD and app labels (Me gustó, Quiero visitar, Pines, Todos guardados, Mirar alrededor) follow the style guide.",
+  "Out of scope for this diff (article bodies were not changed): es.json still uses 'autosuficiente' as the main term 8 times, against the glossary's 'self-contained', and uses 'céntimos' twice (articles.public-transport-costs-australia-2026), which should be 'centavos'. The 'mapas sin conexión' hits in articles are about downloading third-party maps, not claims about the app, so they are acceptable."
+ ],
+ "failingUnits": [
+  {
+   "key": "ui.metaToolsDescription",
+   "current": "Convierte precios australianos, calcula el combustible de la ruta, estima cuánto dura de verdad una jornada al volante, calcula tu autonomía de agua y aguas grises y compara precios de campings.",
+   "problem": "'autonomía de aguas grises' is semantically wrong: grey water is a capacity that fills, not a range you run out of. 'calcula' is also used twice in one meta description.",
+   "suggested": "Convierte precios australianos, calcula el combustible de la ruta, estima cuánto dura de verdad una jornada al volante, planifica la capacidad de agua y aguas grises y compara precios de campings."
+  },
+  {
+   "key": "ui.altExploreScreen",
+   "current": "La lista Explorar de AussieCamps con campings y parques de caravanas y la distancia a la que están de la vista actual del mapa",
+   "problem": "The 'y ... y' chain is clunky and 'la distancia a la que están de la vista actual del mapa' reads as a calque.",
+   "suggested": "La lista Explorar de AussieCamps con campings y parques de caravanas, y la distancia de cada uno a la zona del mapa que estás viendo"
+  },
+  {
+   "key": "ui.saveText",
+   "current": "Marca un lugar con Me gustó, como destacado o como visitado y las colecciones inteligentes se actualizan solas. Crea tus propias listas con nombre para una región, una temporada o una preselección.",
+   "problem": "Mixed construction ('con Me gustó, como destacado o como visitado'). The in-app label is not in « » as the style guide requires.",
+   "suggested": "Dale a «Me gustó», destaca un lugar o márcalo como visitado y las colecciones inteligentes se actualizan solas. Crea tus propias listas con nombre para una región, una temporada o una preselección."
+  },
+  {
+   "key": "ui.feature1Text",
+   "current": "Me gustó, Destacados, Quiero visitar y Visitados se llenan solas a medida que marcas lugares. Además, puedes crear colecciones con nombre para una región, una temporada o esa preselección que todavía está en discusión.",
+   "problem": "'que todavía está en discusión' is flat and bureaucratic, and it loses the playful 'still arguing about' of the English. The labels are not in « ».",
+   "suggested": "«Me gustó», «Destacados», «Quiero visitar» y «Visitados» se llenan solas a medida que marcas lugares. Además, puedes crear colecciones con nombre para una región, una temporada o esa preselección que todavía estás discutiendo."
+  },
+  {
+   "key": "ui.principle3Title",
+   "current": "Deja cada sitio mejor que como lo encontraste",
+   "problem": "Far longer than the English 3-word title. 'mejor que como' is colloquial; the standard form is 'mejor de como'.",
+   "suggested": "Deja cada sitio mejor de como lo encontraste"
+  },
+  {
+   "key": "ui.principle3Text",
+   "current": "Acampar solo donde se puede, deshacerte bien de los residuos y respetar Country, la tierra ancestral de los pueblos aborígenes, es lo que mantiene abiertos estos lugares.",
+   "problem": "Register break: the impersonal infinitive 'Acampar' sits next to the tú reflexive 'deshacerte'. The gloss for Country differs from the style-guide wording.",
+   "suggested": "Acampar solo donde está permitido, gestionar bien los residuos y respetar Country (la tierra y su significado para los pueblos aborígenes) es lo que mantiene abiertos estos lugares."
+  },
+  {
+   "key": "ui.toolsTitle",
+   "current": "Calculadoras para tu road trip. Sin cuentas misteriosas.",
+   "problem": "'cuentas misteriosas' is a literal calque of 'mystery maths'. The old 'Sin cuentas raras' was more idiomatic, so this unit got worse.",
+   "suggested": "Calculadoras para tu road trip. Sin cuentas raras."
+  },
+  {
+   "key": "ui.campText",
+   "current": "Un camping de parque nacional suele cobrar por adulto y un holiday park, por parcela. Cuál sale más barato cambia según el tamaño del grupo, y ahí es donde muchas familias se llevan la sorpresa.",
+   "problem": "This is the first use of 'holiday park' on the tools page and it has no gloss, which the glossary requires on first use per page.",
+   "suggested": "Un camping de parque nacional suele cobrar por adulto y un holiday park (camping privado con cabañas y servicios), por parcela. Cuál sale más barato cambia según el tamaño del grupo, y ahí es donde muchas familias se llevan la sorpresa."
+  },
+  {
+   "key": "ui.toolsReadingText",
+   "current": "Las calculadoras calculan exactamente lo que introduces. Nuestras guías de costes explican de dónde salen las cifras de partida, cuándo se comprobaron y qué puede hacer cambiar el precio final.",
+   "problem": "'qué puede hacer cambiar' is clunkier than the old 'qué puede cambiar'. 'Las calculadoras calculan' is redundant.",
+   "suggested": "Las calculadoras hacen la cuenta exacta con lo que introduces. Nuestras guías de costes explican de dónde salen las cifras de partida, cuándo se comprobaron y qué puede cambiar el precio final."
+  },
+  {
+   "key": "pages.support.sections[2].paragraphs[2]",
+   "current": "Empieza con la lista predefinida de básicos de camping o crea tus propias tareas. El progreso del viaje mantiene la lista junto al itinerario, y los datos del itinerario se pueden sincronizar con Calendario.",
+   "problem": "'básicos de camping' as a noun is an anglicism for 'essentials', and the sentence is heavy.",
+   "suggested": "Empieza con la lista predefinida de imprescindibles para acampar o crea tus propias tareas. El progreso del viaje mantiene la lista junto al itinerario, y los datos del itinerario se pueden sincronizar con Calendario."
+  },
+  {
+   "key": "pages.support.sections[3].heading",
+   "current": "Mapas, tiempo y datos en tiempo real",
+   "problem": "'tiempo ... en tiempo real' is an awkward clash in a heading. The old 'en vivo' avoided it, so this unit got worse.",
+   "suggested": "Mapas, el tiempo y datos en directo"
+  },
+  {
+   "key": "pages.support.sections[3].paragraphs[2]",
+   "current": "El directorio de lugares incluido en la app mantiene disponibles los datos esenciales de cada lugar aunque no tengas buena señal. Los mapas en tiempo real, la navegación, el tiempo, las fotos y las webs externas de los proveedores pueden necesitar cobertura.",
+   "problem": "Same clash: 'en tiempo real' and 'el tiempo' appear in one list. 'lugares ... cada lugar' repeats.",
+   "suggested": "El directorio incluido en la app mantiene disponibles los datos esenciales de cada lugar aunque no tengas buena señal. Los mapas en directo, la navegación, el tiempo, las fotos y las webs externas de los proveedores pueden necesitar cobertura."
+  },
+  {
+   "key": "pages.support.sections[5].paragraphs[1]",
+   "current": "Premium añade listas guardadas ilimitadas, planificación de viajes, filtros avanzados, el tiempo en cada lugar y rutas de road trip.",
+   "problem": "'rutas de road trip' is redundant and unnatural.",
+   "suggested": "Premium añade listas guardadas ilimitadas, planificación de viajes, filtros avanzados, el tiempo en cada lugar y rutas por carretera para tu road trip."
+  },
+  {
+   "key": "pages.privacy.sections[3].paragraphs[1]",
+   "current": "Los proveedores de alojamiento web pueden tratar registros técnicos habituales, como la dirección IP, el tipo de navegador y la URL solicitada, para servir la web y mantenerla estable y segura. AussieCamps no utiliza rastreadores publicitarios en esta web.",
+   "problem": "Fact fidelity: the second sentence is not in the English at this key. On main the English moved 'This website does not use advertising trackers' into the new 'Website analytics' section, which the Spanish file does not have (see critical issues).",
+   "suggested": "Los proveedores de alojamiento web pueden tratar registros técnicos habituales, como la dirección IP, el tipo de navegador y la URL solicitada, para servir la web y mantenerla estable y segura."
+  }
+ ]
+}

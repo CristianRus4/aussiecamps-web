@@ -1,0 +1,62 @@
+{
+ "branch": "i18n/a-de",
+ "judgedAt": "2026-10-19",
+ "verdict": "merge-after-fixes",
+ "averageScore": 4.5,
+ "unitsReviewed": 156,
+ "improvedVsOld": "The new text is clearly better overall. It follows the style guide consistently: 'Gratisplätze' becomes 'kostenlose Stellplätze/Campingplätze', 'Campground' no longer appears in prose, and 'Offline Campingkarte' is gone from the meta keywords. App labels now match the app ('Wunschziele', 'Mit Stern', 'Gefällt mir', 'Umsehen (Look Around)'), and 'Detailseite' replaces 'Ortsseite'. 'Betreiber' becomes 'zuständige Stelle' for land managers, and 'Wohnwagen' replaces 'Caravans'. The calques are fixed ('Nadeln', 'Schilder schlagen Bildschirme', 'Nimm es mit auf die Straße', 'Wie auch immer du unterwegs bist'), the du-imperatives read naturally, and the SEO titles are tighter. Checks: no em dashes or spaced en dashes, no claim that the app is an offline map, and numbers, AUD and brand names are intact. Two regressions: terms 'Geistiges Eigentum' became 'Urheberrecht', and toolsIntro 'Kapazitäten' became 'Tankkapazität', which now suggests a fuel tank. Minor notes that do not fail: ui.metaDescription is about 205 characters, longer than the 140–160 the guide asks for, and 'Preise geprüft am' is followed by an English-format asOf date ('12 August 2026'). That date comes from the code, not the translation.",
+ "criticalIssues": [
+  "Privacy page structure (pre-existing, not introduced by this branch, but this branch rewrites the same keys without fixing it). The German pages.privacy has 6 sections; the English has 7, including the GA4 'Website analytics' section. GA4 is live on main and the German privacy page has no analytics disclosure. The isPageComplete gate in lib/localized.ts stops it publishing in German, so the risk is contained for now. Fix it before the German privacy page is expected to go live.",
+  "pages.privacy.sections[3].paragraphs[1] adds a privacy claim that is not in the English source ('keine Werbetracker'). Remove it, since GA4 is now running."
+ ],
+ "failingUnits": [
+  {
+   "key": "ui.toolsIntro",
+   "current": "Schnelle Rechner für australische Preise, Strecken und Tankkapazität. Jede Annahme bleibt sichtbar, damit du sie durch die Zahl ersetzen kannst, die zu deiner Route passt.",
+   "problem": "Fact drift and a regression from the old text. The English 'capacity' refers to the fresh-water and grey-water tank calculator. German 'Tankkapazität' reads as the fuel tank. The old 'Kapazitäten' was vague but not wrong.",
+   "suggested": "Schnelle Rechner für australische Preise, Strecken und Wasservorräte. Jede Annahme bleibt sichtbar, damit du sie durch die Zahl ersetzen kannst, die zu deiner Route passt."
+  },
+  {
+   "key": "pages.privacy.sections[3].paragraphs[1]",
+   "current": "Hosting-Anbieter können übliche technische Protokolle wie IP-Adresse, Browsertyp und aufgerufene URL verarbeiten, um die Website auszuliefern, stabil zu halten und abzusichern. AussieCamps setzt auf dieser Website keine Werbetracker ein.",
+   "problem": "Adds a claim that is not in the English source: 'AussieCamps setzt auf dieser Website keine Werbetracker ein.' The sentence was already in the old text and the rewrite kept it. GA4 is now live on main, so an unsourced privacy claim is risky.",
+   "suggested": "Hosting-Anbieter können übliche technische Protokolle wie IP-Adresse, Browsertyp und aufgerufene URL verarbeiten, um die Website auszuliefern, stabil zu halten und abzusichern."
+  },
+  {
+   "key": "pages.privacy.sections[4] (heading + paragraphs) and sections[5]",
+   "current": "[4] 'Speicherdauer und Kontrolle' (1 paragraph about retention), [5] 'Kinder und Kontakt'",
+   "problem": "Structural misalignment. The English page has 7 sections, with a new [4] 'Website analytics' (GA4, 4 paragraphs), [5] Retention and [6] Children. The German page has 6 sections, so by JSON path the German retention text sits on the analytics key and the children text on the retention key. isPageComplete() rejects the page, so the German privacy page is not published and the privacy edits on this branch never render. The progress notes list this as a next step, so it predates this branch.",
+   "suggested": "Insert a new sections[4] {heading: 'Website-Analyse', 4 translated GA4 paragraphs}. Move 'Speicherdauer und Kontrolle' to [5] and 'Kinder und Kontakt' to [6]."
+  },
+  {
+   "key": "ui.altTripScreen",
+   "current": "Eine Reiseroute in AussieCamps mit sieben Stopps, Fahrstrecke, Daten und dem Wetter an jedem Campingplatz",
+   "problem": "'Daten' reads first as 'data', not 'dates'. Elsewhere the file uses 'Termine' for dates, so this is also inconsistent.",
+   "suggested": "Eine Reiseroute in AussieCamps mit sieben Stopps, Fahrstrecke, Terminen und dem Wetter an jedem Campingplatz"
+  },
+  {
+   "key": "ui.principle3Title",
+   "current": "Plätze besser hinterlassen",
+   "problem": "A clipped calque of 'Leave places better'. A German reader expects the full idiom 'besser hinterlassen, als man sie vorgefunden hat'.",
+   "suggested": "Plätze besser hinterlassen, als du sie vorfindest"
+  },
+  {
+   "key": "ui.supportIntro",
+   "current": "Antworten rund ums Finden von Plätzen, Speichern von Favoriten, Planen von Reisen und zu AussieCamps unterwegs.",
+   "problem": "Broken parallelism: 'rund ums … und zu …'. It also uses the noun-heavy Nominalstil that the style guide bans.",
+   "suggested": "Antworten dazu, wie du Plätze findest, Favoriten speicherst, Reisen planst und AussieCamps unterwegs nutzt."
+  },
+  {
+   "key": "pages.privacy.lede",
+   "current": "AussieCamps hilft dir, eine Reise zu planen, ohne aus deiner Reise ein Werbeprofil zu machen.",
+   "problem": "'Reise' appears twice in one sentence, which a native reader notices at once. The English uses two different words (trip / journey).",
+   "suggested": "AussieCamps hilft dir bei der Reiseplanung, ohne aus deinen Fahrten ein Werbeprofil zu machen."
+  },
+  {
+   "key": "pages.terms.sections[5].heading",
+   "current": "Urheberrecht und Kontakt",
+   "problem": "A regression from the old text. 'Intellectual property' covers branding and trademarks, and the paragraph below names branding. 'Urheberrecht' (copyright) is narrower. The old 'Geistiges Eigentum' was correct.",
+   "suggested": "Geistiges Eigentum und Kontakt"
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "branch": "i18n/a-nl",
+ "judgedAt": "2026-10-19",
+ "verdict": "merge-after-fixes",
+ "averageScore": 4.45,
+ "unitsReviewed": 433,
+ "improvedVsOld": "Clearly better than the old text. It now follows the style guide glossary: lozingspunt instead of loospunt, free camps, State Forests and Crown land with a gloss, holiday park instead of vakantiepark, and stookverbod/Total Fire Ban glossed on first use. App list names now match the app UI and sit in curly quotes (‘Vond ik leuk’, ‘Wil bezoeken’, ‘Pinnen’, ‘Allemaal opgeslagen’, ‘Kijk rond’). Calques the guide bans are gone: 'Bouw de reis', 'verspreid kamperen', 'Een aanwezige vuurplaats maakt een vuur niet legaal', 'op de dag zelf controleren'. Long English sentences are split into short, direct Dutch with good idiom: op de bonnefooi, Spreek een Bob af, komt bedrogen uit, ga je de mist in. Facts, numbers, currencies, dates and place names are intact. There are no em dashes, no u/uw and no offline-map claims; the three 'offline' mentions refer only to place data, which the guide allows. No English is left untranslated beyond glossed loanwords. The regressions are minor: 'gemelde tarieven' (the old text had 'vermelde'), 'jouw hoek van de kaart' (the old 'jouw stukje kaart' was better) and 'Neem het mee onderweg'. NSW, Victoria and WA titles add ': gratis kamperen en boeken' for search. The style guide allows this and those topics are covered in the articles, but WA comes to 61 characters.",
+ "criticalIssues": [
+  "The Dutch privacy policy is out of sync with origin/main. The branch is cut from 8dd378b, before commit 652ce5f ('Turn on GA4...'). English pages.privacy now has a 7th section, 'Website analytics' (index 4, 4 paragraphs disclosing GA4, the _ga/_ga_ cookies, EEA consent and 14-month retention), and the effective date is 'Effective 19 October 2026'. nl.json still has 6 sections, no analytics disclosure and 'Geldig vanaf 12 augustus 2026'. Sections 4 and 5 no longer pair with the English by index. NL/BE visitors are EEA users, so the Dutch privacy page must disclose GA4 before this ships. This gap existed before the rewrite (the translator kept the old structure) but it must be fixed on rebase.",
+  "nl.json has no 'consent' block (label, message, accept, decline, learnMore, privacyChoices), which origin/main added for the GA4 consent banner. Dutch visitors will either see an English consent banner or hit missing keys. Add it on rebase, e.g. message: 'Mogen we cookies van Google Analytics gebruiken om te zien welke pagina’s gelezen worden en welke App Store-links worden gebruikt? Niets wordt voor advertenties gebruikt.', accept: 'Accepteren', decline: 'Weigeren', learnMore: 'Privacybeleid', label/privacyChoices: 'Privacykeuzes'."
+ ],
+ "failingUnits": [
+  {
+   "key": "pages.privacy.sections[4].heading / sections[4].paragraphs / sections[5].paragraphs / pages.privacy.effective",
+   "current": "sections[4].heading = 'Bewaren en zelf beheren', sections[5] = children + contact; effective = 'Geldig vanaf 12 augustus 2026'",
+   "problem": "Out of sync with current English on origin/main (pre-existing, not caused by this rewrite: the branch is cut from 8dd378b, before 652ce5f added GA4). English now has a 'Website analytics' section at index 4 with 4 paragraphs on GA4, cookies, consent and retention, and the effective date is 19 October 2026. The Dutch page has no analytics disclosure at all, its sections pair with the wrong English sections by index, and it shows the old date. NL/BE visitors are in the EEA and get the consent flow, so this is a legal-accuracy gap.",
+   "suggested": "Rebase onto origin/main and insert a new section at index 4: heading 'Websitestatistieken', followed by the 4 GA4 paragraphs translated with je-form (e.g. 'Deze website gebruikt Google Analytics 4 om te zien welke pagina’s gelezen worden en hoe bezoekers de app vinden. Google verwerkt die gegevens namens ons, als verwerker. Voor bezoekers in de Europese Economische Ruimte, het Verenigd Koninkrijk en Zwitserland levert Google Ireland Limited de dienst.' ...). Keep 'Bewaren en zelf beheren' as section 5 and 'Kinderen en contact' as section 6. Set effective to 'Geldig vanaf 19 oktober 2026'. Drop the trailing 'AussieCamps gebruikt op deze website geen advertentietrackers.' from sections[3].paragraphs[1], since English moved that line to the end of the analytics section."
+  },
+  {
+   "key": "ui.takeRoad",
+   "current": "Neem het mee onderweg",
+   "problem": "Not idiomatic. You 'neemt iets mee op reis/de weg op'; 'meenemen onderweg' mixes two constructions and reads as translated.",
+   "suggested": "Neem het mee op reis"
+  },
+  {
+   "key": "ui.ogDescription",
+   "current": "Ruim 74.000 campings, caravanparken, free camps en handige stops, ook zonder bereik in de app. Filter, bewaar en plan je hele rondreis.",
+   "problem": "'ook zonder bereik in de app' is a dangling phrase: it reads as if the stops are 'in the app without reception'. Clumsy for a social share card.",
+   "suggested": "Ruim 74.000 campings, caravanparken, free camps en handige stops, ook zonder bereik te bekijken. Filter, bewaar en plan je hele rondreis."
+  },
+  {
+   "key": "ui.processEyebrow",
+   "current": "Van eerste idee tot op weg",
+   "problem": "'tot op weg' is not a Dutch phrase. It is an unfinished calque of 'to open road'.",
+   "suggested": "Van eerste idee tot de open weg"
+  },
+  {
+   "key": "ui.findText",
+   "current": "... tot alleen de gratis kampeerplekken met toilet en water in jouw hoek van de kaart overblijven.",
+   "problem": "'jouw hoek van de kaart' is a literal calque of 'your corner of the map', and it uses unstressed 'jouw', which the style guide forbids. The old 'jouw stukje kaart' was more natural.",
+   "suggested": "... tot alleen de gratis kampeerplekken met toilet en water in je stukje van de kaart overblijven."
+  },
+  {
+   "key": "ui.feature6Text",
+   "current": "... en je ziet de gemelde tarieven ook in geld waar je meteen een gevoel bij hebt.",
+   "problem": "'gemelde tarieven' calques 'reported fees'. In Dutch 'gemeld' suggests something reported to an authority. The listing's fees are 'vermelde' or 'opgegeven' tarieven. The old text had it right.",
+   "suggested": "... en je ziet de vermelde tarieven ook in geld waar je meteen een gevoel bij hebt."
+  },
+  {
+   "key": "ui.faq9a",
+   "current": "Ja. Kies je valuta in de instellingen en stel de wisselkoers in, dan zie je gemelde tarieven in die valuta naast het bedrag in Australische dollars.",
+   "problem": "Same 'gemelde tarieven' calque. It is also inconsistent with pages.support.sections[4].paragraphs[0], which correctly uses 'opgegeven tarieven'.",
+   "suggested": "Ja. Kies je valuta in de instellingen en stel de wisselkoers in, dan zie je de opgegeven tarieven in die valuta naast het bedrag in Australische dollars."
+  },
+  {
+   "key": "ui.downloadEyebrow",
+   "current": "Je volgende plek ligt ergens daarbuiten",
+   "problem": "A literal rendering of 'out there'. 'ligt ergens daarbuiten' sounds translated (a sci-fi or X-Files echo) and is not how Dutch travel copy talks.",
+   "suggested": "Je volgende plek ligt al op je te wachten"
+  },
+  {
+   "key": "articles.sleeping-in-car-australia.sections[7].body[3]",
+   "current": "Door de zomerhitte in Australië is een auto zonder ventilatie ’s nachts echt onveilig. Dat is de praktische grens van slapen in je auto, meer nog dan welke lokale regel ook.",
+   "problem": "Fidelity shift. English says the practical limit is the heat 'rather than any local law', which contrasts the two. 'meer nog dan welke lokale regel ook' turns this into a comparison of degree.",
+   "suggested": "Door de zomerhitte in Australië is een auto zonder ventilatie ’s nachts echt onveilig. Dat is de praktische grens van slapen in je auto, niet een of andere lokale regel."
+  },
+  {
+   "key": "articles.camping-rules-western-australia.faq[1][1]",
+   "current": "... Een Holiday Pass, de parkpas voor een vakantie, geeft een maand of langer toegang en is op een reis langs de kust naar het noorden snel terugverdiend.",
+   "problem": "The gloss 'de parkpas voor een vakantie' is clumsy and explains nothing. Using the official name 'Holiday Pass' for the English 'holiday park pass' is a defensible correction.",
+   "suggested": "Bij de meeste grote parken wel, per voertuig per dag en los van het kampeertarief. Een Holiday Pass (een parkpas die een maand of langer geldig is) heb je op een reis langs de kust naar het noorden snel terugverdiend."
+  },
+  {
+   "key": "articles.alcohol-coffee-drink-prices-australia.sections[2].heading",
+   "current": "Let op het ongemerkte dagtotaal",
+   "problem": "'het ongemerkte dagtotaal' is not natural Dutch. A total is not 'ongemerkt'; the spending is.",
+   "suggested": "Let op wat je per dag ongemerkt uitgeeft"
+  },
+  {
+   "key": "articles.alcohol-coffee-drink-prices-australia.faq[0][1]",
+   "current": "Dat hangt vooral af van waar je het koopt. Hieronder staan prijzen met peildatum voor een schooner (het gangbare glas tapbier) in de pub, een speciaalbier, een carton (tray) uit de bottle shop ...",
+   "problem": "It adds an opening sentence that is not in the English. The '(tray)' gloss is wrong: Australians say carton or slab, and 'tray' does not help a Dutch reader.",
+   "suggested": "Hieronder staan prijzen met peildatum voor een schooner (het gangbare glas tapbier) in de pub, een speciaalbier, een carton (een doos bier) uit de bottle shop en wijn per glas en per fles. Op een lange reis bespaar je het meest door in de bottle shop te kopen in plaats van aan de bar."
+  }
+ ]
+}

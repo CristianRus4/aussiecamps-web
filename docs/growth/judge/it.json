@@ -1,0 +1,56 @@
+{
+ "branch": "i18n/a-it",
+ "judgedAt": "2026-10-19",
+ "verdict": "merge-after-fixes",
+ "averageScore": 4.5,
+ "unitsReviewed": 380,
+ "improvedVsOld": "Clearly better overall. The new text reads like native travel writing: idioms such as 'chi prima arriva, meglio alloggia', 'piano B', 'in un’area di sosta si sosta, non si campeggia' and 'non è speculazione: sono semplicemente i conti' fit naturally. Glossary terms are applied consistently: collezioni (not raccolte), aree gratuite / campeggio libero (not soste gratuite), piazzola, punto di scarico, station dell’outback, Total Fire Ban glossed. Agencies get first-use glosses: Parks Victoria, VicEmergency, CFA, Parks and Wildlife/DBCA, shire, roadhouse, showground, honesty box. The new text also removes a banned offline-map claim: old ui.metaKeywords had 'mappa campeggi offline Australia', new has 'app campeggi offline Australia'. All remaining 'offline' mentions refer to place details, which mirrors the English and the style guide allows. Automated checks found no em dashes, no straight apostrophes, all placeholders and markup intact, and all numbers, AUD figures and dates preserved. Prices are formatted per the guide (80-140 A$). Grocery sections[6].body[0] writes '100-170 dollari' for the English 'a hundred to a hundred and seventy dollars', which is correct. Two small regressions where the old text was better: ui.audiencesEyebrow and the Wilsons Prom tip.",
+ "criticalIssues": [
+  "Not caused by this diff, but it surfaces on merge: the branch was cut from f0e8041, before main added GA4 (652ce5f, f32829e, e3b8624). Against origin/main's en.json, the Italian privacy page is stale. It has 6 sections against 7 in English: the whole 'Website analytics' section (GA4 processing, Google Ireland, the _ga/_ga_ cookies with 13-month lifetime, consent in the EEA/UK/CH, 14-month retention) is missing. As a result pages.privacy.sections[4]/[5] are shifted by one section against the English keys. pages.privacy.effective still reads 'In vigore dal 12 agosto 2026' (English: 19 October 2026). The consent.* keys (accept, decline, label, learnMore, message, privacyChoices) do not exist in it.json on main or on this branch. Italian visitors are EEA users who get the consent banner, so the Italian privacy policy should disclose GA4 before or with this merge. Fix: rebase the branch onto main, then translate the GA4 section, the new effective date and the consent.* keys.",
+  "pages.privacy.sections[3].paragraphs[1] keeps 'AussieCamps non usa tracker pubblicitari su questo sito.', which matched the English at the merge base. On main that sentence has moved into the new GA4 section, so after the rebase it must be re-aligned."
+ ],
+ "failingUnits": [
+  {
+   "key": "ui.audiencesEyebrow",
+   "current": "Comunque ti porti dietro la casa",
+   "problem": "Word-for-word calque of 'However you carry home'. 'Comunque' at the start reads as 'anyway', so the line does not parse naturally. This is a regression: the old 'Comunque tu viaggi' was better.",
+   "suggested": "In qualunque modo ti porti dietro la casa (or simply: Comunque tu viaggi)"
+  },
+  {
+   "key": "pages.support.sections[2].paragraphs[2]",
+   "current": "Parti dalla lista base per il campeggio o crea le tue voci. Con l’avanzamento del viaggio la lista resta accanto all’itinerario, e i dettagli dell’itinerario si possono sincronizzare con Calendario.",
+   "problem": "'Trip progress' is the app view that holds the list. 'Con l’avanzamento del viaggio' reads as 'as the trip goes on', which changes the meaning. 'Crea le tue voci' also loses 'tasks'.",
+   "suggested": "Parti dalla lista base per il campeggio o crea le tue cose da fare. Nella schermata con l’avanzamento del viaggio la lista resta accanto all’itinerario, e i dettagli dell’itinerario si possono sincronizzare con Calendario."
+  },
+  {
+   "key": "pages.terms.sections[3].paragraphs[0]",
+   "current": "Sei responsabile delle note, dei piani di viaggio e delle altre informazioni che salvi. Tieni copie separate di permessi, prenotazioni e piani da cui dipende la tua sicurezza, se perderne l’accesso potrebbe mettere a rischio il viaggio.",
+   "problem": "'Perderne l’accesso' is clumsy, and the conditional 'se...' tacked on at the end after a comma reads as translated.",
+   "suggested": "Sei responsabile delle note, dei piani di viaggio e delle altre informazioni che salvi. Se restare senza accesso a permessi, prenotazioni e piani importanti per la sicurezza può mettere a rischio il viaggio, tienine una copia a parte."
+  },
+  {
+   "key": "articles.camping-rules-victoria.sections[3].tips[0]",
+   "current": "A Wilsons Prom l’estate si assegna per sorteggio",
+   "problem": "Literally says 'the summer is allocated by ballot'. The sites are what get allocated. This is a regression from the old 'A Wilsons Prom c’è il sorteggio estivo'.",
+   "suggested": "A Wilsons Prom le piazzole estive si sorteggiano"
+  },
+  {
+   "key": "articles.interstate-biosecurity-road-trip.title",
+   "current": "Biosicurezza tra gli stati nel road trip in Australia",
+   "problem": "'Nel road trip' is awkward as a title. It does not lead with a term Italians search for: 'quarantena' and 'cosa non portare' are more natural queries than 'biosicurezza'.",
+   "suggested": "Quarantena tra gli stati australiani: le regole per il road trip"
+  },
+  {
+   "key": "articles.interstate-biosecurity-road-trip.sections[6].body[1]",
+   "current": "Per gli ecosistemi autoctoni la posta in gioco è simile. Dieback, ruggine del mirto e nuove piante infestanti hanno cambiato per sempre vaste aree, e nella maggior parte dei casi a portarli in giro è stato l’uomo, quando si poteva evitare.",
+   "problem": "The closing clause 'quando si poteva evitare' is stiff and grammatically loose. It reads as a translation of 'human-assisted and avoidable'.",
+   "suggested": "Per gli ecosistemi autoctoni la posta in gioco è simile. Dieback, ruggine del mirto e nuove piante infestanti hanno cambiato per sempre vaste aree, e quasi sempre a diffonderli è stato l’uomo, in modi che si potevano evitare."
+  },
+  {
+   "key": "ui.fuelText",
+   "current": "Inserisci la distanza totale del percorso, il consumo del mezzo a pieno carico e il prezzo al litro che prevedi. Nelle zone remote i prezzi possono superare di parecchio quelli delle città.",
+   "problem": "Small fidelity drift: 'di parecchio' adds an intensifier that the English ('can exceed city benchmarks') does not make. It was inherited from the old text.",
+   "suggested": "Inserisci la distanza totale del percorso, il consumo del mezzo a pieno carico e il prezzo al litro che prevedi. Nelle zone remote i prezzi possono superare quelli delle città."
+  }
+ ]
+}
