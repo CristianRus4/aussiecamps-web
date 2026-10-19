@@ -286,6 +286,21 @@ label is a mistranslation (marked ✗; use the fix).
 | «en orden a», «a los efectos de», «procedes a» | plain verbs | Officialese |
 | possessive on every noun («tu coche, tus llaves, tu móvil») | drop where obvious | Calque of English possessives |
 
+### Lessons from the first judge round (2026-10-19)
+
+- In-app list and button names always go in « » inside a sentence: «Me gustó», «Quiero visitar»,
+  «Opciones de privacidad». Refer to the smart lists as «las listas «Me gustó»…» so «solas» agrees.
+- Never put «tiempo real» next to «el tiempo» (weather). Use «en línea» or «online» for live data
+  and «previsión del tiempo» for the forecast.
+- Meta descriptions near 150 characters; drop secondary items before going over.
+- «mejor de como», not «mejor que como». «Crea» (neutral) rather than «Arma» (Latin America) or
+  «Monta» (Spain) for building a route or list.
+- Do not calque playful English: «No mystery maths» is «Sin cuentas raras», not «Sin cuentas
+  misteriosas».
+- «básicos» is not a noun for «essentials»: «imprescindibles».
+- Keep impersonal infinitive lists consistent: «Acampar…, gestionar…, respetar…», not a tú
+  reflexive in the middle («deshacerte»).
+
 ## 6. Before and after (from the current site translations)
 
 1. **Feature title** (`ui.featureMainTitle`, both sites). EN: «Every place opens with the detail that
