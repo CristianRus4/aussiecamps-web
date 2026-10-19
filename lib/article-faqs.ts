@@ -53,8 +53,8 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Can you camp on the side of the road in Australia?", "Usually not. Roadside camping is limited to rest areas whose rules or signs allow an overnight stop, such as Queensland's 20-hour limit and Western Australia's signed 24-hour stops, and Queensland bans camping on state roads outside a narrow 4pm to 8am rest exception."],
   ],
   "campfires-camping-australia": [
-    ["Can you have a campfire while camping in Australia?", "Only when there is no fire ban and the land manager allows it. Each state's fire service declares total fire bans by district and by day, and during one no solid-fuel fire is legal anywhere in that district, including in a fire ring."],
-    ["How do you check for a total fire ban?", "On the fire service website for the state you are in, on the day: RFS in NSW, CFA in Victoria, QFES in Queensland, and their equivalents elsewhere. Fire danger ratings are set each afternoon for the following day."],
+    ["Can you have a campfire while camping in Australia?", "Yes, when there is no fire ban for the district and the campground allows fires, using the fireplace provided and wood you bring in. During a Total Fire Ban, or a local fire ban in Queensland, solid-fuel fires are illegal everywhere in that area, fire rings included."],
+    ["Can you use a gas stove on a total fire ban day?", "It depends on the state and the land. NSW national parks generally ban visitor-owned gas cookers on those days, South Australian and ACT parks ban portable stoves, Tasmania allows LPG and electric stoves but not liquid-fuel ones, and Queensland allows contained gas and spirit stoves during a fire ban."],
   ],
   "sleeping-in-car-australia": [
     ["Is it legal to sleep in your car in Australia?", "Yes, where camping is allowed: booked campgrounds, state forests that permit camping, and rest areas whose rules or signs allow an overnight stop. Many councils count sleeping in a parked car as camping and fine it on streets, beaches and car parks, such as Surf Coast Shire's $300 on-the-spot fine."],
