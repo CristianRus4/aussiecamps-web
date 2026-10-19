@@ -49,16 +49,16 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Do you need to book camping in Namadgi National Park?", "Yes. Honeysuckle, Orroral and Mount Clear need bookings made in advance, fees apply and stays are capped at seven consecutive days, although entry to the park itself is free. Woods Reserve is closed until early 2027."],
   ],
   "is-free-camping-legal-australia": [
-    ["Is free camping legal in Australia?", "In designated areas, yes, and nowhere else. There is no national rule: what is permitted is set by the state, the land manager and the local council, so a rest area can be a legal overnight stop in one shire and a fine in the next."],
-    ["How long can you stay in a roadside rest area?", "It depends on the sign, and the range runs from a few hours to 72 hours. Rest areas exist for driver fatigue rather than as free campgrounds, and the ones intended for overnight stays say so."],
+    ["Is free camping legal in Australia?", "Yes, where the land manager allows it, and nowhere else. State forests in New South Wales and Victoria, South Australian Crown land, council sites that say so and rest areas that permit an overnight stop are the main legal options; most national parks charge or need a booking."],
+    ["Can you camp on the side of the road in Australia?", "Usually not. Roadside camping is limited to rest areas whose rules or signs allow an overnight stop, such as Queensland's 20-hour limit and Western Australia's signed 24-hour stops, and Queensland bans camping on state roads outside a narrow 4pm to 8am rest exception."],
   ],
   "campfires-camping-australia": [
     ["Can you have a campfire while camping in Australia?", "Only when there is no fire ban and the land manager allows it. Each state's fire service declares total fire bans by district and by day, and during one no solid-fuel fire is legal anywhere in that district, including in a fire ring."],
     ["How do you check for a total fire ban?", "On the fire service website for the state you are in, on the day: RFS in NSW, CFA in Victoria, QFES in Queensland, and their equivalents elsewhere. Fire danger ratings are set each afternoon for the following day."],
   ],
   "sleeping-in-car-australia": [
-    ["Is it legal to sleep in your car in Australia?", "It depends entirely on where the car is parked. Sleeping in a vehicle is not itself an offence, but camping in a vehicle where a council prohibits it is, and that covers most urban streets, beach car parks and coastal reserves."],
-    ["Where can you legally sleep in your car overnight?", "In designated rest areas that permit overnight stays, at campgrounds and caravan parks, and in council areas whose bylaws allow it. Roadhouses and some pub car parks allow it by arrangement, which is worth asking about rather than assuming."],
+    ["Is it legal to sleep in your car in Australia?", "Yes, where camping is allowed: booked campgrounds, state forests that permit camping, and rest areas whose rules or signs allow an overnight stop. Many councils count sleeping in a parked car as camping and fine it on streets, beaches and car parks, such as Surf Coast Shire's $300 on-the-spot fine."],
+    ["Can you sleep in your car in a national park?", "Only where the park allows camping, which usually means a designated campground booked in advance. A car left overnight at a day-use area or trailhead counts as camping without permission."],
   ],
   "driving-in-australia-overseas-licence": [
     ["Can you drive in Australia on an overseas licence?", "Yes, as a visitor, provided the licence is current and covers the class of vehicle. The rules are set per state, and each has its own time limit and its own point at which a visitor becomes a resident who must convert."],
