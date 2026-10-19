@@ -8,8 +8,14 @@ Thread i18n-ja: Japanese for both sites. Branches `i18n/a-ja` (aussiecamps-web, 
 - `lib/translations/ja.json` created in both repos.
 - `docs/translation.config.json`: separate `aussiecamps-website-ja` / `kiwicamping-website-ja` catalogs (see blockers).
 
+- Milestone 1: UI (220/220, testimonials excluded) + support/privacy/terms on both sites.
+- AU privacy realigned with A-foundation's Website analytics section; consent strings translated.
+- Guides applied: A 6/50 (alcohol-coffee-drink-prices, sleeping-in-car, camping-rules-nsw, public-transport-costs, eating-out, camping-rules-wa); K 3/43 (grocery-prices, doc-huts, public-transport-costs).
+
 ## In progress
-- UI strings (A, then K), support/privacy/terms (A+K), guides in search-value order.
+- Batches a03, a04, k02 being translated by subagents (values files in /tmp/ja-work/out; source batches and the batch plan in /tmp/ja-work/src and /tmp/ja-work/batches.txt).
+- Workflow: subagent writes /tmp/ja-work/out/<batch>.values.json, then lint (/tmp/ja-work/tools/lint.mjs), engine dry run, editor read (/tmp/ja-work/tools/read.mjs), apply (/tmp/ja-work/tools/apply.sh a|k file --real), structure check (/tmp/ja-work/tools/structure.mjs), commit.
+- If /tmp is lost: regenerate batches with `packet --locale ja --catalog <id>-ja`. Applied units drop out of packets.
 
 ## Guide order (pages-3m.tsv impressions)
 - A: alcohol-coffee-drink-prices, sleeping-in-car, camping-rules-nsw, public-transport-costs, eating-out, camping-rules-wa, dump-points, camping-rules-victoria, grocery-prices, interstate-biosecurity, campervan-budget, accommodation-costs, rules-sa, domestic-flights, rules-act, rules-qld, road-signs, caravan-vs-holiday-park, towing, best-time, rules-nt, state-differences, camping-fees, travel-cost, fuel-cost, rules-tas, is-free-camping-legal, without-signal, campervan-driving-safety, water-planning, bus-train-costs, campfires, overseas-licence-state, best-camping-app, driving-road-rules-visitors, then the zero-impression rest.
