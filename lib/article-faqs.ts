@@ -18,7 +18,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
   // --- Rules & safety, state by state ---------------------------------------
   "camping-rules-new-south-wales": [
     ["Can you free camp in New South Wales?", "Yes. Every NSW state forest except Cumberland and Strickland allows free camping for up to four weeks, first come first served. Some national park campgrounds have no camping fee but still need a booking with a $6 booking fee."],
-    ["Do you need to book NSW national park campsites?", "For listed campgrounds, yes, including free ones, and coastal parks book out over summer and school holidays. Remote camping at sites not listed on the NPWS website needs no booking, though NPWS recommends a trip intention form."],
+    ["Do you need to book NSW national park campsites?", "For most listed campgrounds, yes, including free ones, which charge a $6 booking fee, and popular coastal campgrounds can book out over summer and school holidays. A few basic listed sites, such as Tuross River campground, and remote camping at unlisted sites need no booking."],
   ],
   "camping-rules-queensland": [
     ["Do you need a permit to camp in Queensland national parks?", "Yes. Every camp in a Queensland national park, state forest or recreation area needs a permit booked and paid for before you arrive, $7.75 per person or $31 per family a night in 2026, and the tag or permit details must be displayed at camp."],
