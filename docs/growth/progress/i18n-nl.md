@@ -10,15 +10,15 @@ Dutch (nl) on both sites. Branches: `i18n/a-nl` (aussiecamps-web), `i18n/k-nl` (
 - [x] Style guide `docs/translation-style/nl.md` (identical in both repos), with glossary and evidence.
 - [x] UI, support, privacy, terms rewritten on both sites (handoff 1, merged). Judge 4.45 (AU) / 4.4 (NZ); every failing unit fixed.
 - [x] Privacy rebuilt for the 7-section English page (GA4 section), consent namespace translated (both sites).
-- [x] AU guides: camping rules for all 8 states/territories, dump points, sleeping in your car, drink, eating-out, grocery, public transport and domestic flight prices.
-- [x] NZ guides: grocery prices, DOC huts, DOC campsite rules, campervan road rules, speed limits, fuel cost.
+- [x] AU guides: camping rules for 7 states/territories (NSW, VIC, WA, SA, QLD, ACT, TAS; NT in progress), dump points, sleeping in your car, drink, eating-out, grocery, public transport and domestic flight prices, travel cost, interstate biosecurity, towing a caravan, fuel cost.
+- [x] NZ guides: grocery prices, DOC huts, DOC campsite rules, campervan road rules, speed limits, fuel cost, public transport, towing a caravan, travel cost, biosecurity, eating out, road signs, domestic flights, WoF and registration.
 
 ## In progress
 - Full rewrite pass, every unit, both repos. Order: UI, support/privacy/terms, guides by English impressions (pages-3m.tsv).
 
 ## Next
 - Road trips, Kiwi legacy pages, consent/article/tools namespaces and data-guide link markup once the foundation milestones merge (wait for the orchestrator's message).
-- A-foundation M1 (pending merge): `consent` namespace (6 strings), privacy page gains a "Website analytics" section (nl privacy goes stale until re-translated), guide sections may gain `table: { caption, head, rows }`. Hand-off check becomes `npx tsx scripts/audit-content.mjs --strict --locale nl`.
+- A-foundation M1 is on main and done for nl (consent, GA4 privacy section). Hand-off check: `npx tsx scripts/audit-content.mjs --strict --locale nl`. Guide sections may gain `table: { caption, head, rows }`.
 - A-foundation M2: road trips translatable, `<a data-guide>` markup in en.json bodies, `npm run translations:stamp -- --locale nl` after each batch.
 
 ## Working method (to resume)
@@ -45,3 +45,10 @@ Dutch (nl) on both sites. Branches: `i18n/a-nl` (aussiecamps-web), `i18n/k-nl` (
 - (NZ) campervan-road-rules-new-zealand sections[6].body[1] says you are "required" to pull over with five or more vehicles queued behind; check the Road Code wording.
 - (NZ) campervan-road-rules-new-zealand sections[5].body[1] "Rimutaka Hill Road" is officially Remutaka Hill Road since 2017.
 - (NZ) new-zealand-road-trip-fuel-cost-2026 faq[0][1] promises a dated diesel price (page has only petrol); faq[1][1] says "divide by your vehicle's real consumption" while the page uses L/100 km (multiply).
+- (NZ) new-zealand-road-signs-visitors faq[1][1] says the large arrow is always your own direction, contradicting sections[4].body[0] (large arrow = direction with priority). The Dutch follows sections[4] (the correct rule).
+- (NZ) new-zealand-road-signs-visitors sections[6].body[1] repeats the "legally required to pull over with five vehicles queued" claim; sections[7].body[0] and faq[0][1] mention LSZ (Limited Speed Zone) signs, which NZTA has been phasing out: verify.
+- (NZ) wof-registration-campervan-new-zealand sections[4].body[0] says the rego label is displayed on the windscreen (NZ removed the display requirement for many vehicles: verify); faq[0][1] "every vehicle needs a current WoF" ignores the Certificate of Fitness the intro mentions.
+- (NZ) eating-out-new-zealand-prices-2026 faq[0][1] promises dated café brunch and pub meal prices the price table does not have.
+- (NZ) towing-caravan-new-zealand faq[1][1] says a full car licence covers combinations up to 4,500 kg; NZTA Class 1 is 6,000 kg GLW/GCW (4,500 kg is an Australian figure): verify. sections[6].body[0] "Rimutaka" → Remutaka.
+- (NZ) new-zealand-biosecurity-camping-gear sections[7].body[0] "no land mammals" ignores native bats; sections[7].body[1] treats myrtle rust as intercepted at the border (established in NZ since 2017).
+- (NZ) public-transport-costs-new-zealand-2026 faq[1][1] promises dated fares for Auckland, Wellington and Christchurch; the price table has Auckland only.
