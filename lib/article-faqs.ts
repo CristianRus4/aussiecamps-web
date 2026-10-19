@@ -22,19 +22,19 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
   ],
   "camping-rules-queensland": [
     ["Do you need a permit to camp in Queensland national parks?", "Yes. Every camp in a Queensland national park, state forest or recreation area needs a permit booked and paid for before you arrive, $7.75 per person or $31 per family a night in 2026, and the tag or permit details must be displayed at camp."],
-    ["Where can you free camp in Queensland?", "Not in parks or forests, which all charge. Free options are council campgrounds that allow it and roadside rest areas, where general vehicles may stop for up to 20 hours unless a sign says otherwise. Many coastal councils, including Cairns, ban camping on council land."],
+    ["Where can you free camp in Queensland?", "Not in parks or forests, which all charge. Free camping means council campgrounds that allow it. Roadside rest areas let you stop for up to 20 hours unless a sign says otherwise, but the state says they are not camping sites, and many coastal councils, including Cairns, ban camping on council land."],
   ],
   "camping-rules-victoria": [
-    ["Can you camp for free in Victoria?", "Yes. You can camp in most of Victoria's state forests at no charge for up to 28 consecutive nights, at least 20 metres from waterways, and some Parks Victoria campgrounds such as King Hut and Warby-Ovens are free with no booking."],
-    ["Do Victorian national park campsites need booking?", "Bookable campgrounds do, and their fees have been half price since July 2025 and stay that way until July 2027. Wilsons Promontory uses quarterly booking releases rather than a ballot, and some Great Ocean Road sites are now booked through the Great Ocean Road Coast and Parks Authority."],
+    ["Can you camp for free in Victoria?", "Yes. You can camp in most of Victoria's state forests at no charge for up to 28 consecutive nights, at least 20 metres from waterways, every state forest campground is free except Murrindindi Scenic Reserve, and some Parks Victoria campgrounds such as King Hut and Warby-Ovens are free with no booking."],
+    ["Do Victorian national park campsites need booking?", "Bookable campgrounds do, and their camping fees have been half price since July 2025 and stay that way until July 2027. Wilsons Promontory uses quarterly booking releases rather than a ballot, and some Great Ocean Road sites are now booked through the Great Ocean Road Coast and Parks Authority."],
   ],
   "camping-rules-tasmania": [
     ["Do you need a parks pass to camp in Tasmania?", "Yes, inside a national park. The pass covers entry and most park campgrounds charge a fee on top. The holiday pass, $98.35 per vehicle for up to two months, beats daily passes from the third day, and council campgrounds outside parks need no pass."],
     ["Can you free camp in Tasmania?", "Yes, at council sites that allow it, at free park campgrounds such as Huon and Teds Beach in Southwest National Park, and on most Sustainable Timber Tasmania land unless signs say otherwise. On reserved land you cannot camp within 500 metres of a road outside a designated camping area."],
   ],
   "camping-rules-south-australia": [
-    ["Do you need a permit to camp in South Australian parks?", "Yes. Every national park campsite is booked and paid for before you arrive, online or through a booking agent, and the booking usually covers vehicle entry to that park. Desert parks also accept the 12-month Desert Parks Pass, which is compulsory for the Simpson Desert."],
-    ["Where can you camp for free in South Australia?", "On Crown land, where camping is allowed without approval for up to 21 days, and at council sites and rest areas whose signs permit an overnight stay. Many councils near Adelaide and along the coast ban overnight stays outright, so read the sign at the exact spot."],
+    ["Do you need a permit to camp in South Australian parks?", "Yes, almost everywhere. National park campsites are booked and paid for before you arrive, online or through a booking agent, and the booking usually covers vehicle entry to that park. The Simpson Desert parks use the 12-month Desert Parks Pass instead, which is also compulsory east of Dalhousie Springs in Witjira."],
+    ["Can you park a campervan anywhere in South Australia?", "No. You can camp on Crown land for up to 21 days without approval, at council sites and rest areas where signs allow an overnight stop, and at booked park campsites. Some councils ban or limit overnight stays, so read the sign at the exact spot."],
   ],
   "camping-rules-western-australia": [
     ["Can you camp anywhere in Western Australia?", "No. Camping outside a licensed caravan park or camping ground needs approval, national park camping is limited to designated campgrounds, and signed overnight rest stops allow up to 24 consecutive hours without approval."],
@@ -115,8 +115,8 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["When is a caravan park worth the money?", "When you need power, a hot shower, laundry and a resupply, which on a long trip is roughly every third or fourth night. On the big drives they also matter as the reliable place to stop when the free options are full."],
   ],
   "dump-points-australia-guide": [
-    ["Where can you empty a caravan toilet in Australia?", "At a public dump point, most of which are run by councils and sit at showgrounds, sports grounds and roadhouses, and at caravan parks. Emptying anywhere else, including a public toilet, is illegal and heavily fined."],
-    ["Can you empty grey water on the ground in Australia?", "It depends where you are, and increasingly not. Some remote council areas still permit dispersed grey water, while most populated and coastal areas require it to go to a dump point, and national parks prohibit it outright."],
+    ["Where can you empty a caravan toilet in Australia?", "At a dump point. Public ones sit at showgrounds, rest areas, visitor centres and roadhouses and are listed on the National Public Toilet Map, and many caravan parks have their own. Never use an ordinary toilet bowl, a drain or the ground."],
+    ["Can you empty grey water on the ground in Australia?", "Not as a rule. Grey water goes into a dump point or wherever the campground directs, and where there are no facilities the Victorian state forest standard is to tip washing-up water at least 50 metres from waterways."],
   ],
   "camping-water-planning": [
     ["How much water do you need for remote camping in Australia?", "Plan on at least five litres per person per day for drinking and cooking, more in heat, and carry a reserve on top for a breakdown. On outback tracks the standard advice is enough water to sit still for several days."],
