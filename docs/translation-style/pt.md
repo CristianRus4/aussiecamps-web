@@ -59,12 +59,20 @@ nacionais, campismos`); U = app UI label (the app's `pt` localisation is Brazili
 §2.3); W = Portuguese web usage (Visit Portugal/Turismo de Portugal ASA rules, santander.pt and
 repsol.pt motorhome guides, roadsurfer.com/pt, camperchamp.com/pt-pt, Código da Estrada).
 
+Search Console (export of 2026-10-19, last 3 months) gives little direct evidence: no
+Portuguese-language query reaches the export's 4-impression threshold on either site (most
+impressions are anonymised long tail). The /pt/ pages still drew impressions, led on AussieCamps by
+sleeping-in-car, drink prices and public transport costs, and on KiwiCamping by public transport
+costs, biosecurity, eating out, groceries and DOC campsite rules. Titles therefore lead with the
+plain terms Portuguese travellers use for those topics (*preços*, *quanto custa*, *dormir no carro*,
+*regras*, *parques de campismo do DOC*).
+
 ### 2.1 Vehicles, places to stay, services
 
 | English | pt-PT | Notes and source |
 |---|---|---|
 | camping (activity) | campismo | Always *campismo*, never *camping* in prose (pt-BR). *Acampar* as the verb. A, W |
-| campground / campsite (the place) | parque de campismo (commercial, with services); área de campismo / zona de campismo (basic national-park, forest or council ground) | *Campismo* alone is not a place. App says "Áreas de camping" (pt-BR), do not copy |
+| campground / campsite (the place) | parque de campismo (the generic Portuguese word for any campground, and for DOC campsites: *parque de campismo do DOC*); área de campismo (basic Australian national-park, forest or council ground, or wherever the English stresses that it is basic) | *Campismo* alone is not a place. App says "Áreas de camping" (pt-BR), do not copy |
 | campsite (one pitch) | lugar | *lugar com eletricidade*, *lugar sem eletricidade*. Not *alvéolo* (too formal), not *site* |
 | powered site / unpowered site | lugar com eletricidade / lugar sem eletricidade | App "Alimentado" is a mistranslation; do not use |
 | caravan park (AU) | parque de campismo; *caravan park* in italics-free English only where the guide contrasts it with a holiday park | Gloss on first use in the comparison guide: *caravan park (o parque de campismo clássico australiano)*. App "Parques de caravanas" is a calque; avoid |
@@ -95,16 +103,20 @@ repsol.pt motorhome guides, roadsurfer.com/pt, camperchamp.com/pt-pt, Código da
 | track / walking track / tramp | trilho, percurso pedestre; caminhada (tramping) | |
 | national park | parque nacional | U, A |
 | state forest | floresta estadual | |
-| council / shire / local government | câmara municipal, município; *shire* kept when the source names one | *Conselho* is wrong for a council |
+| council / shire / local government | the council itself: câmara municipal; its area: município; *shire* kept when the source names one | *Conselho* is a false friend; *concelho* is a Portuguese administrative unit, so do not use it for Australian or NZ councils |
 | bylaw | regulamento municipal | |
 | ranger | guarda do parque (ranger) | |
 | station stay (AU) | estadia numa station (grande herdade de gado) on first use | Not *estação* |
 | farm stay | estadia numa quinta | |
 | roofed accommodation | alojamento com teto, alojamento (hotéis, motéis, cabanas) | Not *alojamento com telhado* |
 | backpacker hostel | hostel | |
+| rideshare (Uber, DiDi) | TVDE (Uber e afins) on first use | The Portuguese legal term for app-based rides |
+| bottle shop (AU) | bottle shop (loja de bebidas alcoólicas) on first use | |
+| honesty box | caixa de pagamento por confiança (honesty box) on first use | |
+| amenities (AU) / facilities (NZ) | comodidades / instalações | Each site keeps its own source word |
 | holiday (vacation) | férias | |
 | booking / book | reserva / reservar | |
-| fee / fees | preço, tarifa, taxa (official fees: *taxa*) | *Taxa de campismo do DOC* |
+| fee / fees | preço (general); taxa (official fees set by an authority: *taxa de campismo do DOC*, *taxa de entrada*); tarifa only for transport fares | |
 | toll | portagem | W (roadsurfer.com/pt "Portagens") |
 | fuel / petrol / diesel | combustível / gasolina / gasóleo | Never *diesel* as a fuel name in prose |
 | fuel station | bomba de gasolina, posto de combustível | |
@@ -242,6 +254,7 @@ stay recognisably close.
 | *de forma a*, *a nível de*, *em termos de* | Filler and calques | rephrase |
 | *é importante notar que*, *tenha em atenção que* before every fact | Padding | state the fact |
 | *experiência única*, *paraíso*, *imperdível*, *o melhor* without a source | Unsupported superlatives | the concrete fact |
+| *datado(s)* for "dated figures" | Reads as "outdated" in Portugal | *com a data de verificação*, *preços com data* |
 | *eventualmente* for "eventually" | False friend (means "possibly") | *acabar por*, *mais cedo ou mais tarde* |
 | *assumir* for "assume" | Calque | *partir do princípio*, *contar com* |
 | *suportar* for "support" (a feature) | Calque | *permitir*, *ser compatível com* |
