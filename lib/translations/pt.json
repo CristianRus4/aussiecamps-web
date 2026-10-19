@@ -899,7 +899,7 @@
     },
     "driving-in-australia-road-rules-visitors": {
       "title": "Conduzir na Austrália pela primeira vez: as regras de trânsito essenciais",
-      "description": "Circular pela esquerda, perceber as regras de velocidade e de cintos e saber porque é que as condições da carta contam de estado para estado.",
+      "description": "Conduz pela esquerda, respeita os limites de velocidade e os cintos e percebe porque é que a carta pode ter condições diferentes de estado para estado.",
       "region": "Austrália",
       "imageAlt": "Estrada australiana vista do lugar do condutor, com circulação pela esquerda",
       "intro": "Na Austrália conduz-se pela esquerda, mas conduzir com segurança como visitante exige mais do que lembrar o lado da estrada. Velocidade, álcool, telemóveis e condições da carta pedem uma abordagem prudente e atenta às regras de cada estado.",
@@ -928,7 +928,7 @@
           "heading": "Álcool e diferenças entre estados",
           "body": [
             "Nunca apresentes 0,05 como um limite universal. Os condutores com licença de aprendizagem ou provisória podem estar sujeitos a taxa zero, e algumas categorias de pesados ou de transporte de passageiros têm limites mais baixos.",
-            "As Australian Road Rules são um modelo nacional, mas cada estado e território aprova a sua própria lei e pode acrescentar diferenças. Consulta a autoridade do sítio onde estás a conduzir."
+            "As <a data-guide=\"australia-road-rules-state-differences\">Australian Road Rules</a> são um modelo nacional, mas cada estado e território aprova a sua própria lei e pode acrescentar diferenças. Consulta a autoridade do sítio onde estás a conduzir."
           ],
           "tips": []
         },
@@ -963,19 +963,19 @@
           "body": [
             "As leis sobre telemóveis são rigorosas e, em vários estados, fiscalizadas com câmaras próprias de deteção. Tocar no telemóvel ao volante, mesmo parado no trânsito, é uma infração com multas pesadas e perda de pontos.",
             "O uso em mãos-livres, com suporte ou Bluetooth, é em geral permitido a quem tem carta definitiva, mas totalmente proibido a condutores com licença de aprendizagem ou provisória. Configura a navegação antes de arrancar.",
-            "As multas são enviadas ao titular do registo do veículo, por isso a empresa de aluguer reencaminha-tas com uma taxa administrativa. Os pontos não se aplicam a cartas estrangeiras, mas as multas aplicam-se de certeza."
+            "As multas das câmaras de velocidade e semáforos vão para o titular do registo, por isso a empresa de aluguer indica-te como condutor e costuma acrescentar um suplemento administrativo. Quem conduz com uma <a data-guide=\"overseas-driver-licence-australia-state-guide\">carta de condução estrangeira</a> também acumula pontos de penalização (demerit points), e pontos a mais num estado significam perder o direito de conduzir lá."
           ],
           "tips": [
             "As câmaras de deteção estão por todo o lado",
             "Parado no trânsito também conta",
-            "As rent-a-car cobram as multas com taxa"
+            "As empresas de aluguer repassam as multas, com suplemento"
           ]
         },
         {
           "heading": "Estacionamento e sinalização",
           "body": [
             "A sinalização de estacionamento nas cidades australianas é densa e fiscalizada à risca, com clearways, zonas para residentes, zonas de cargas e descargas e limites de tempo muitas vezes empilhados no mesmo poste. Lê o sinal todo de cima para baixo, porque prevalece a condição mais restritiva.",
-            "Nas clearways é proibido parar durante o horário afixado e os veículos são rebocados em vez de multados. Em Sydney e Melbourne isto apanha visitantes com frequência, e recuperar uma autocaravana rebocada é caro e demorado.",
+            "Nas clearways é proibido parar durante o horário afixado e os veículos são rebocados em vez de multados. Em Sydney e Melbourne isto apanha visitantes com frequência, e recuperar uma campervan rebocada é caro e demorado.",
             "Na dúvida num cruzamento, ceder a passagem custa uns segundos e resolve com segurança quase todas as incertezas."
           ],
           "tips": [
@@ -1004,6 +1004,21 @@
         },
         {
           "label": "NSW: álcool e drogas ao volante"
+        },
+        {
+          "label": "NSW: pontos de penalização (demerit points)"
+        },
+        {
+          "label": "Queensland: conduzir com carta estrangeira"
+        },
+        {
+          "label": "VicRoads: conduzir com carta estrangeira"
+        },
+        {
+          "label": "NT: condutores visitantes e infrações de trânsito"
+        },
+        {
+          "label": "Revenue NSW: indicar outra pessoa como condutora de uma infração"
         }
       ],
       "priceTable": null
@@ -1123,88 +1138,88 @@
       "priceTable": null
     },
     "australian-road-signs-visitors-guide": {
-      "title": "Sinais de trânsito australianos que os visitantes devem conhecer",
-      "description": "Sinais de regulamentação, de perigo, de velocidade aconselhada e de obras explicados para quem vai começar uma viagem de carro pela Austrália.",
+      "title": "Sinais de trânsito na Austrália que um visitante deve conhecer",
+      "description": "Sinais de regulamentação, de perigo, de velocidade aconselhada e de obras: o que querem dizer, explicado a quem vai começar uma viagem de carro pela Austrália.",
       "region": "Austrália",
       "imageAlt": "Sinais de trânsito australianos de perigo e de regulamentação",
-      "intro": "Os sinais australianos usam formas e cores familiares, mas um visitante precisa de distinguir uma ordem legal de um aviso de perigo ou de uma velocidade aconselhada. A sinalização temporária de trânsito conta tanto como a permanente.",
+      "intro": "Os sinais australianos usam formas e cores conhecidas, mas quem vem de fora tem de saber distinguir uma ordem com força de lei de um aviso de perigo ou de uma velocidade aconselhada. A sinalização temporária conta tanto como a permanente.",
       "sections": [
         {
           "heading": "Sinais de regulamentação",
           "body": [
-            "Stop, Give Way, limites de velocidade, Keep Left, sentido proibido, viragens proibidas, rotundas e zonas partilhadas criam obrigações legais. Um sinal de Stop obriga a parar por completo.",
-            "O Give Way obriga a abrandar e a parar quando for preciso, aplicando depois a regra de prioridade desse cruzamento."
+            "Stop, Give Way (cedência de passagem), <a data-guide=\"australia-road-rules-state-differences\">limites de velocidade</a>, Keep Left (passar pela esquerda), No Entry (sentido proibido), proibições de virar, rotundas e zonas de coexistência (shared zones) criam obrigações legais. Um sinal de Stop obriga a parar por completo.",
+            "O Give Way obriga a abrandar e, se for preciso, a parar, e depois a aplicar a regra de prioridade desse cruzamento."
           ],
           "tips": []
         },
         {
           "heading": "Sinais de perigo e velocidades aconselhadas",
           "body": [
-            "Os sinais de perigo assinalam curvas, vias que convergem ou estreitam, animais, pisos sem alcatrão, zonas inundáveis e passagens de nível. O perigo muda a forma como conduzes, mesmo que o limite máximo afixado seja o mesmo.",
-            "Um sinal de limite de velocidade não é o mesmo que uma velocidade aconselhada indicada para uma curva ou uma lomba. Adapta a velocidade às condições e ao veículo."
+            "Os sinais de perigo assinalam curvas, vias que se juntam ou estreitam, animais, pisos sem alcatrão, floodways (troços de estrada que ficam debaixo de água) e passagens de nível. O perigo muda a forma de conduzir, mesmo que o limite máximo afixado seja o mesmo.",
+            "Um sinal de limite de velocidade não é o mesmo que a velocidade aconselhada indicada para uma curva ou uma lomba. Abranda de acordo com as condições e com o veículo."
           ],
           "tips": [
             "Lê a forma e a cor",
-            "A velocidade aconselhada não é um objetivo",
+            "A velocidade aconselhada não é uma meta",
             "Conta com animais ao anoitecer"
           ]
         },
         {
           "heading": "Obras e road trains",
           "body": [
-            "Nas obras, tens de cumprir os limites temporários, os semáforos e as indicações dos sinaleiros. As condições podem mudar de uma passagem para a seguinte.",
-            "Um painel amarelo ROAD TRAIN ou LONG VEHICLE fixado num camião identifica esse veículo. Dá-lhe espaço e não confundas o painel com uma indicação à beira da estrada."
+            "Nas obras, os <a data-guide=\"australia-road-rules-state-differences\">limites de velocidade</a> temporários, os semáforos e as indicações dos sinaleiros são para cumprir. As condições podem mudar de uma passagem para a seguinte.",
+            "Um painel amarelo com <a data-guide=\"driving-with-road-trains-australia\">ROAD TRAIN</a> ou LONG VEHICLE preso a um camião diz respeito a esse camião (um road train é um camião com vários atrelados). Dá-lhe espaço e não confundas o painel com uma indicação da estrada."
           ],
           "tips": []
         },
         {
           "heading": "Sinais que nunca viste noutro lado",
           "body": [
-            "Nas estradas que atravessam linhas de água aparecem marcadores de zonas inundáveis, com postes numerados que indicam a profundidade da água. Nunca avances se a profundidade for desconhecida ou se a água estiver a correr.",
-            "Os sinais de grid avisam para as grelhas de gado no pavimento, que podem ser bruscas a alta velocidade. Os sinais de open range e de gado indicam estradas sem vedação onde os animais podem estar na faixa a qualquer hora.",
-            "Os sinais de road train e de long vehicle nos camiões identificam conjuntos até 53,5 metros. O sinal está no veículo e não é uma instrução à beira da estrada, o que confunde muitos visitantes."
+            "Nas estradas que atravessam linhas de água há marcadores de floodway com indicadores de profundidade: são postes numerados que mostram a altura da água. Nunca avances se não souberes a profundidade ou se a água estiver a correr.",
+            "Os sinais de grid avisam que há uma grelha de gado (cattle grid) no pavimento, que dá um solavanco forte se a passares depressa. Os sinais de open range (gado à solta) e de gado indicam estradas sem vedação onde pode haver animais na faixa a qualquer hora.",
+            "Os sinais <a data-guide=\"driving-with-road-trains-australia\">ROAD TRAIN</a> e LONG VEHICLE nos camiões identificam conjuntos com até 53,5 metros. O sinal vai no próprio veículo e não é uma indicação à beira da estrada, o que confunde muitos visitantes."
           ],
           "tips": [
-            "Os postes nas zonas inundáveis indicam a profundidade",
-            "Open range significa gado sem vedação",
-            "O sinal de road train está no camião"
+            "Os postes das floodways medem a água",
+            "Open range: gado sem vedação",
+            "O sinal de road train vai no camião"
           ]
         },
         {
           "heading": "Sinais de velocidade e limites variáveis",
           "body": [
-            "Os limites de velocidade estão em quilómetros por hora e o limite geral fora das localidades varia de estado para estado: 100 na maioria, 110 em muitas autoestradas e 130 em troços definidos do Northern Territory.",
-            "Os painéis de mensagem variável e os sinais eletrónicos de velocidade prevalecem sobre os limites afixados e são comuns junto a obras, túneis e zonas escolares. Os limites de obras aplicam-se haja ou não trabalhos à vista.",
-            "As velocidades aconselhadas nos sinais amarelos das curvas não são limites legais, mas estão pensadas para um carro em boas condições. Numa autocaravana carregada ou a rebocar, a velocidade segura é ainda mais baixa."
+            "Os <a data-guide=\"australia-road-rules-state-differences\">limites de velocidade</a> estão em quilómetros por hora. Onde não há sinal de velocidade, o limite geral fora das localidades é de 100 km/h na maioria dos estados e de 110 km/h na Western Australia e no Northern Territory. Algumas estradas principais estão sinalizadas a 110 km/h, e o Northern Territory só permite 130 km/h em troços das Stuart, Barkly, Victoria e Arnhem highways onde os sinais o indicam.",
+            "Os painéis de mensagem variável e os sinais eletrónicos de velocidade sobrepõem-se aos limites afixados e são comuns junto a obras, túneis e zonas escolares. Os limites das obras aplicam-se mesmo que não se veja ninguém a trabalhar.",
+            "As velocidades aconselhadas nos sinais amarelos das curvas não são limites legais e estão pensadas para um carro em boas condições. Numa campervan carregada ou a rebocar, a velocidade segura é ainda mais baixa."
           ],
           "tips": [
             "O limite geral varia por estado",
-            "Os sinais eletrónicos prevalecem",
-            "Os sinais amarelos pensam num carro"
+            "Os sinais eletrónicos prevalecem sobre os fixos",
+            "Os sinais amarelos são pensados para carros"
           ]
         },
         {
-          "heading": "Sinais de fauna e de fadiga",
+          "heading": "Sinais de fauna e de cansaço",
           "body": [
-            "Os sinais de perigo com cangurus, vombates, casuares ou camelos marcam zonas com risco real de colisão, sobretudo ao amanhecer e ao anoitecer. Encara-os como um motivo para abrandar e não como decoração.",
-            "Os sinais Driver Reviver e de áreas de descanso marcam sítios para parar por cansaço e, nas rotas longas, indicam muitas vezes a distância até ao seguinte. Usa-os em vez de insistir.",
-            "Algumas rotas remotas têm sinais com a distância até ao próximo ponto de combustível ou de água. Não são sugestões: no Nullarbor e no outback, é dessa informação que a tua viagem depende."
+            "Os sinais com <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">cangurus</a>, vombates, casuares ou camelos marcam zonas com risco real de colisão, sobretudo ao amanhecer e ao anoitecer. Não são decoração: são um motivo para abrandar.",
+            "Os sinais Driver Reviver e de área de descanso indicam sítios para parar quando o cansaço aperta e, nas rotas longas, mostram muitas vezes a distância até ao próximo. Usa-os em vez de continuares a todo o custo.",
+            "Algumas rotas remotas têm sinais com a distância até ao próximo sítio com combustível ou água. Não são sugestões: na Nullarbor e no Outback, é dessa informação que a viagem depende."
           ],
           "tips": [
-            "Os sinais de animais marcam zonas de colisão reais",
-            "Os sinais de descanso indicam a próxima distância",
-            "Os sinais de distância ao combustível são críticos"
+            "Os sinais de animais marcam risco real",
+            "Os sinais de descanso dão a distância",
+            "A distância ao combustível é vital"
           ]
         },
         {
           "heading": "Marcos de distância e sinais de localização",
           "body": [
-            "Os marcos de distância à beira da estrada e os sinais de referência de localização são a forma de dizer aos serviços de emergência onde estás em zonas remotas. Anotar o mais próximo antes de ligares poupa muito tempo.",
-            "Muitas autoestradas têm sinais com a distância até ao próximo combustível, água ou área de descanso. Nas rotas do outback são informação de planeamento e não curiosidades, e muitas vezes são os sinais mais úteis da estrada.",
-            "Passa dez minutos com um guia de sinais antes do primeiro dia de condução, porque reconhecer um sinal desconhecido em andamento é bem mais difícil do que aprendê-lo com antecedência."
+            "Em zonas remotas, os marcos de distância à beira da estrada e os sinais de referência de localização são a forma de dizeres aos serviços de emergência onde estás. Anotar o mais próximo antes de ligares poupa muito tempo.",
+            "Muitas estradas principais têm sinais com a distância até ao próximo combustível, água ou área de descanso. Nas rotas do Outback não são curiosidades, são informação para planear, e muitas vezes são os sinais mais úteis da estrada.",
+            "Passa dez minutos com um guia de sinais antes do primeiro dia ao volante, porque reconhecer um sinal desconhecido em andamento é muito mais difícil do que aprendê-lo antes."
           ],
           "tips": [
-            "Anota os marcos antes de pedir ajuda",
+            "Anota o marco antes de pedires ajuda",
             "As distâncias ao combustível servem para planear",
             "As referências de localização guiam o socorro"
           ]
@@ -1212,12 +1227,12 @@
       ],
       "faq": [
         [
-          "Que sinais de trânsito australianos precisam os visitantes de conhecer?",
-          "Os que não têm equivalente noutros países: marcadores de zonas inundáveis e de profundidade, avisos de road trains, sinais de cangurus e de gado e a velocidade aconselhada a amarelo nas curvas. Os sinais de grelhas de gado e de gado sem vedação querem dizer que pode haver animais na estrada."
+          "Que sinais de trânsito australianos deve um visitante conhecer?",
+          "Os que não têm equivalente fora da Austrália: marcadores de floodway e de profundidade, avisos de road trains, sinais de cangurus e de gado e a velocidade aconselhada a amarelo nas curvas. Os sinais de grid e de gado sem vedação querem dizer que pode haver animais na estrada."
         ],
         [
           "O que significa um sinal de floodway?",
-          "Que a estrada atravessa uma linha de água e pode ficar submersa sem aviso. Os marcadores de profundidade ao lado indicam a altura da água, e a regra é a nacional: se está inundada, esquece. A maioria das mortes em cheias na Austrália acontece dentro de veículos."
+          "Que a estrada atravessa uma linha de água e pode ficar debaixo de água sem aviso. Os marcadores de profundidade ao lado mostram a altura da água, e a regra é a de todo o país: se está inundada, esquece. Na Austrália, a maioria das mortes em cheias acontece dentro de veículos."
         ]
       ],
       "sources": [
@@ -1232,6 +1247,15 @@
         },
         {
           "label": "Northern Territory: sinais de trânsito"
+        },
+        {
+          "label": "Main Roads WA: zonas de velocidade"
+        },
+        {
+          "label": "Northern Territory: limites de velocidade"
+        },
+        {
+          "label": "SA Driver's Handbook: limites de velocidade"
         }
       ],
       "priceTable": null
@@ -1348,25 +1372,25 @@
       "priceTable": null
     },
     "towing-caravan-australia-road-rules": {
-      "title": "Rebocar uma caravana na Austrália: pesos, velocidade e diferenças entre estados",
-      "description": "Guia prático sobre limites com carga, engates, distância de travagem e as regras de reboque que mudam nas fronteiras entre estados.",
+      "title": "Rebocar uma caravana na Austrália 2026: velocidade, peso, carta",
+      "description": "Regras de reboque de caravanas em 2026: o que a carta de ligeiros permite, limites de velocidade em WA e NSW, peso na bola e os quatro limites de carga.",
       "region": "Austrália",
-      "imageAlt": "Carro com caravana numa estrada australiana",
-      "intro": "Rebocar em segurança começa pelo conjunto real carregado, não pela caravana vazia do catálogo. Os limites do fabricante, a carga sobre a bola, as condições da carta e as regras de cada estado têm de bater certo.",
+      "imageAlt": "Carro a rebocar uma caravana numa estrada australiana",
+      "intro": "Rebocar em segurança começa pelo conjunto real, carregado, e não pelos números da caravana vazia no catálogo. Os limites do fabricante, a carga sobre a bola de reboque, as condições da carta de condução e as regras de cada estado têm de bater certo.",
       "sections": [
         {
           "heading": "Pesos e engate",
           "body": [
-            "Mantém a caravana carregada dentro dos limites do veículo trator, do gancho de reboque, do engate e do fabricante. Prende bem a carga e inspeciona correntes, escotilhas, pneus, travões e luzes.",
-            "Repete a inspeção ao longo das viagens longas. O calor, as vibrações e os pisos irregulares podem revelar um problema que não se via à partida."
+            "A caravana carregada tem de ficar dentro dos limites do veículo trator, do gancho de reboque, do engate e do fabricante. Prende bem a carga e verifica as correntes, as escotilhas, os pneus, os travões e as luzes.",
+            "Nas viagens longas, repete a inspeção pelo caminho. O calor, a vibração e os pisos em mau estado podem pôr a nu um problema que não se via à partida."
           ],
           "tips": []
         },
         {
-          "heading": "Ninguém viaja dentro da caravana",
+          "heading": "Ninguém viaja na caravana",
           "body": [
-            "Uma caravana ou um atrelado rebocado não é um compartimento de passageiros. Todos viajam num lugar homologado do veículo, com o sistema de retenção correto.",
-            "Mais comprimento e mais massa exigem maior distância de travagem, curvas mais abertas e uma direção e uma travagem suaves."
+            "Uma caravana ou um atrelado rebocado não é lugar para passageiros. Todos viajam num banco homologado do veículo, com o cinto ou a cadeirinha adequados.",
+            "Mais comprimento e mais peso pedem mais distância de travagem, curvas mais abertas e suavidade ao volante e no travão."
           ],
           "tips": [
             "Confirma todos os limites",
@@ -1377,17 +1401,17 @@
         {
           "heading": "As regras de velocidade variam",
           "body": [
-            "Western Australia limita a 100 km/h os veículos que rebocam um atrelado ou uma caravana e impõe uma distância de 60 metros atrás de certos veículos pesados ou com reboque, exceto para ultrapassar.",
-            "O limite de 100 km/h citado em Nova Gales do Sul aplica-se quando o veículo trator ou o conjunto ultrapassa as 4,5 toneladas. Nunca transformes a regra de uma jurisdição numa velocidade de reboque para todo o país."
+            "Na <a data-guide=\"camping-rules-western-australia\">Western Australia</a>, um veículo que reboca um atrelado ou uma caravana está limitado a 100 km/h, e há uma distância mínima de 60 metros atrás de certos veículos pesados ou com reboque, salvo para ultrapassar.",
+            "Em New South Wales, o limite de 100 km/h citado aplica-se quando o veículo trator ou o conjunto passa das 4,5 toneladas. Nunca transformes a regra de um estado ou território num limite de reboque para o país inteiro."
           ],
           "tips": []
         },
         {
           "heading": "Marcha-atrás, estacionamento e parques de campismo",
           "body": [
-            "Treina a marcha-atrás num parque de estacionamento vazio antes da viagem. Nos parques de caravanas é frequente teres de entrar de marcha-atrás num lugar delimitado, com vizinhos dos dois lados, e fazê-lo pela primeira vez com plateia é a receita para estragar a caravana.",
-            "Reserva lugares adequados ao comprimento do teu conjunto e diz que vais a rebocar quando reservares. Muitos parques têm lugares drive-through, de entrada e saída a direito, que tiram quase toda a dificuldade à chegada.",
-            "Desatrelar dá-te um veículo normal para as saídas do dia e compensa em qualquer estadia de mais de uma noite. Usa calços e rampas de nivelamento e confirma primeiro que o travão de mão segura."
+            "Treina a marcha-atrás num parque de estacionamento vazio antes da viagem. Nos <a data-guide=\"caravan-park-vs-holiday-park\">parques de campismo</a> é frequente teres de meter a caravana de marcha-atrás num lugar delimitado, com vizinhos dos dois lados, e fazê-lo pela primeira vez com plateia é a melhor maneira de a estragar.",
+            "Reserva lugares à medida do comprimento do conjunto e diz que vais a rebocar quando fizeres a reserva. Muitos parques têm lugares drive-through, em que entras e sais sem fazer marcha-atrás, o que tira quase toda a dificuldade à chegada.",
+            "Desatrelar a caravana deixa-te com um carro normal para as saídas do dia e compensa em qualquer estadia de mais de uma noite. Usa calços e rampas de nivelamento e confirma primeiro que o travão de mão segura."
           ],
           "tips": [
             "Treina a marcha-atrás antes",
@@ -1398,62 +1422,65 @@
         {
           "heading": "Estradas e condições a evitar",
           "body": [
-            "Muitas estradas de montanha e costeiras não são adequadas a conjuntos grandes, e algumas estão-lhes simplesmente vedadas. Confirma antes de avançar, porque dar a volta com uma caravana numa estrada estreita é muitas vezes impossível.",
-            "Nas descidas, engrena uma mudança mais baixa e usa o travão-motor em vez de ires sempre com o pé no travão, que aquece, perde eficácia e pode falhar por completo numa descida longa com uma caravana pesada atrás.",
-            "As estradas de terra com ondulação castigam as caravanas e provocam danos estruturais com o tempo. Muitas apólices excluem ou limitam a cobertura dos danos sofridos nelas."
+            "Muitas estradas de montanha e de costa não servem para conjuntos grandes, e algumas estão-lhes mesmo proibidas. Confirma antes de te meteres nelas, porque dar a volta com uma caravana numa estrada estreita é muitas vezes impossível.",
+            "Nas descidas, mete uma mudança mais baixa e usa o travão-motor em vez de ires sempre com o pé no travão: os travões aquecem, perdem eficácia e podem falhar por completo numa descida longa com uma caravana pesada atrás.",
+            "As estradas de terra com piso ondulado (corrugations) castigam as caravanas e, com o tempo, provocam danos estruturais. Muitas apólices de seguro excluem ou limitam a cobertura dos danos sofridos nelas."
           ],
           "tips": [
-            "Algumas estradas vedam conjuntos grandes",
+            "Há estradas proibidas a conjuntos grandes",
             "Travão-motor nas descidas",
-            "A ondulação provoca danos estruturais"
+            "O piso ondulado causa danos estruturais"
           ]
         },
         {
-          "heading": "Pesos e a papelada que importa",
+          "heading": "Pesos e os papéis que contam",
           "body": [
-            "O valor que manda é o mais baixo entre a capacidade de reboque do veículo, a classificação do gancho, a massa máxima da caravana e a classificação da bola de reboque. Ultrapassar qualquer um deles afeta o comportamento, a travagem e o seguro.",
-            "Pesa o conjunto carregado em vez de fazer estimativas. As básculas públicas são fáceis de encontrar e baratas, e a maioria das caravanas viaja mais pesada do que os donos julgam.",
-            "Põe cerca de dez por cento do peso sobre a bola de reboque e arruma os objetos pesados em baixo e por cima do eixo. Carregar a caravana atrás é a causa mais comum de ondulação do reboque."
+            "O limite real é o valor mais baixo entre a capacidade de reboque do veículo, a capacidade do gancho de reboque, a massa máxima autorizada da caravana (ATM, aggregate trailer mass) e a capacidade da bola de reboque. Ultrapassar qualquer um deles afeta o comportamento em estrada, a travagem e o seguro.",
+            "Pesa o conjunto carregado em vez de fazeres contas de cabeça. Há básculas públicas em muitos sítios e são baratas, e a maioria das caravanas anda mais pesada do que os donos pensam.",
+            "Mantém cerca de 5 a 10 por cento do peso da caravana carregada sobre a bola de reboque, como aconselha a orientação de NSW, e consulta os manuais do veículo e da caravana para saberes os limites de cada um. Arruma as coisas pesadas em baixo e por cima do eixo. Carregar a caravana na traseira é a causa mais comum de oscilação lateral (sway)."
           ],
           "tips": [
-            "Manda a classificação mais baixa",
+            "Manda o valor mais baixo",
             "Usa uma báscula pública",
-            "Dez por cento sobre a bola"
+            "Confirma o peso sobre a bola"
           ]
         },
         {
-          "heading": "Antes de cada dia de condução",
+          "heading": "Antes de cada dia de estrada",
           "body": [
-            "Dá a volta ao conjunto: confirma que o engate está fechado e trancado, que as correntes de segurança estão cruzadas e ligadas, que a roda de manobra está levantada, que luzes e travões funcionam e que nada está solto na lança ou no tejadilho.",
-            "Repete uma verificação rápida na primeira paragem do dia. O calor, as vibrações e a ondulação soltam peças, e um problema detetado numa bomba de gasolina é uma ninharia comparado com o mesmo problema em andamento.",
-            "Pondera fazer um curso de reboque antes da primeira viagem longa, porque um dia de formação ensina marcha-atrás, distribuição de peso e recuperação da ondulação muito melhor do que qualquer leitura."
+            "Dá uma volta ao conjunto: confirma que o engate está fechado e com o pino de segurança, que as correntes de segurança estão cruzadas e presas, que a roda de manobra está levantada, que as luzes e os travões funcionam e que não há nada solto na lança nem no tejadilho.",
+            "Repete uma verificação rápida na primeira paragem do dia. O calor, a vibração e o piso ondulado soltam peças, e um problema detetado numa bomba de gasolina é uma ninharia ao lado do mesmo problema em andamento.",
+            "Pondera fazer um curso de reboque antes da primeira viagem longa: um dia de formação ensina a marcha-atrás, a distribuição do peso e a forma de controlar a oscilação muito melhor do que qualquer leitura."
           ],
           "tips": [
             "Verifica engate, correntes e luzes",
             "Volta a verificar na primeira paragem",
-            "A ondulação solta peças"
+            "O piso ondulado solta peças"
           ]
         }
       ],
       "faq": [
         [
           "Qual é o limite de velocidade para rebocar uma caravana na Austrália?",
-          "Depende do estado. Western Australia e o Northern Territory impõem aos veículos com reboque um limite inferior ao geral, enquanto a maioria dos estados do leste aplica o limite normal afixado. Na prática, o verdadeiro limite costuma ser a estabilidade do próprio conjunto."
+          "Depende do estado. A Western Australia limita a 100 km/h qualquer veículo que reboque um atrelado ou uma caravana. Em NSW, o limite de 100 km/h aplica-se quando a massa bruta do veículo (GVM) ou do conjunto (GCM) ultrapassa as 4,5 toneladas; abaixo disso vale o limite afixado. Consulta as regras de reboque de cada estado antes de passares uma fronteira e conduz de acordo com a estabilidade do conjunto e com as condições."
         ],
         [
           "É preciso uma carta especial para rebocar uma caravana na Austrália?",
-          "Uma carta de ligeiros normal abrange a maioria dos conjuntos até 4,5 toneladas de massa bruta combinada. Acima disso é exigida uma carta light rigid ou medium rigid, e ultrapassar a capacidade de reboque homologada do veículo anula o seguro, seja qual for a carta."
+          "Uma carta normal de ligeiros abrange um veículo de reboque até 4,5 toneladas de massa bruta (GVM); um veículo mais pesado exige uma carta light rigid (categoria australiana para camiões) ou superior. A carta não aumenta os limites de reboque: a caravana carregada tem de ficar dentro do mais baixo entre a capacidade de reboque do veículo, a classificação do engate e da barra de reboque, a classificação da própria caravana e a carga máxima dos pneus. Em NSW, os condutores aprendizes não podem rebocar e os condutores P1 só podem rebocar atrelados até 250 kg sem carga."
         ]
       ],
       "sources": [
         {
-          "label": "WA: regras de reboque"
+          "label": "Western Australia: regras de reboque"
         },
         {
-          "label": "NSW: orientações sobre reboque"
+          "label": "New South Wales: orientações sobre reboque"
         },
         {
           "label": "South Australia: reboque de caravanas"
+        },
+        {
+          "label": "NSW: categorias de carta de condução"
         }
       ],
       "priceTable": null
@@ -1684,72 +1711,72 @@
       "priceTable": null
     },
     "australia-road-rules-state-differences": {
-      "title": "Regras de trânsito australianas que mudam de estado para estado",
-      "description": "Velocidades por defeito, reboque, telemóveis e condições da carta comparados, sem transformar regras locais em conselhos nacionais.",
+      "title": "Regras de trânsito na Austrália: diferenças entre estados",
+      "description": "Limites gerais de velocidade, reboque, telemóvel e condições da carta comparados entre estados, sem fazer de uma regra local uma recomendação para todo o país.",
       "region": "Austrália",
-      "imageAlt": "Autoestrada australiana a atravessar uma fronteira entre estados",
-      "intro": "As regras de trânsito australianas são, no geral, coerentes, mas a legislação pertence a cada estado e território. As velocidades por defeito, as exceções para telemóveis, as restrições dos condutores provisórios, o reboque e os prazos para cartas estrangeiras podem mudar numa fronteira.",
+      "imageAlt": "Estrada australiana a atravessar a fronteira entre dois estados",
+      "intro": "As regras de trânsito são, no geral, as mesmas em toda a Austrália, mas a legislação é de cada estado e território. Os limites gerais de velocidade, as exceções ao uso do telemóvel, as restrições à carta provisória, o reboque e o tempo durante o qual podes conduzir com uma carta estrangeira podem mudar quando passas uma fronteira.",
       "sections": [
         {
-          "heading": "Regras-modelo e lei local",
+          "heading": "O modelo nacional e a lei de cada estado",
           "body": [
-            "As Australian Road Rules são um modelo nacional. Cada jurisdição aprova e altera a sua própria versão, por isso nenhum resumo substitui a autoridade local atual.",
-            "Os sinais afixados, as condições da carta e os limites mais baixos para certos veículos prevalecem sempre sobre um valor geral por defeito."
+            "As Australian Road Rules são um modelo nacional. Cada estado e território aprova e altera a sua própria versão, por isso nenhum resumo substitui o que diz, no momento, a autoridade local.",
+            "A sinalização, as condições da tua carta e os limites mais baixos para certos tipos de veículo prevalecem sempre sobre o limite geral."
           ],
           "tips": []
         },
         {
-          "heading": "Exemplos de velocidades por defeito sem sinalização",
+          "heading": "Exemplos de limites gerais onde não há sinalização",
           "body": [
-            "Queensland e Victoria indicam 50 km/h dentro das localidades e 100 km/h fora delas. Western Australia indica 50 km/h dentro das localidades e 110 km/h em estrada aberta.",
-            "O Northern Territory aplica em geral 60 km/h dentro das localidades, salvo limite inferior publicado, e 110 km/h fora delas, com troços sinalizados a 130 km/h em determinadas autoestradas."
+            "<a data-guide=\"camping-rules-queensland\">Queensland</a> e Victoria indicam 50 km/h dentro das localidades e 100 km/h fora delas. A Western Australia fixa 50 km/h dentro das localidades e 110 km/h em estrada aberta.",
+            "O <a data-guide=\"camping-rules-northern-territory\">Northern Territory</a> aplica em geral 60 km/h dentro das localidades, salvo limite inferior publicado oficialmente, e 110 km/h fora delas, com troços sinalizados a 130 km/h em certas estradas principais."
           ],
           "tips": [
-            "Cumpre os sinais afixados",
+            "Cumpre a sinalização",
             "Confirma antes de mudar de estado",
-            "Aplica os limites do teu veículo"
+            "Respeita os limites do teu veículo"
           ]
         },
         {
           "heading": "As outras diferenças que contam",
           "body": [
-            "As exceções para telemóveis, as condições para condutores aprendizes e provisórios, as velocidades de reboque e os prazos para trocar uma carta estrangeira variam todos. A empresa de aluguer também pode impor exclusões de estradas mais apertadas.",
-            "Guarda antes da viagem as ligações diretas para as autoridades de cada estado e revê-as sempre que mudarem o veículo, a tua situação de carta ou a jurisdição."
+            "As exceções ao uso do telemóvel, as condições da licença de aprendizagem e da carta provisória, as velocidades com reboque e os prazos para trocar uma carta estrangeira variam todos. A empresa de aluguer pode ainda proibir estradas que a lei permite.",
+            "Antes de partires, guarda as ligações diretas para as autoridades de cada estado e volta a consultá-las sempre que mudares de veículo, a tua carta mudar de situação ou entrares noutro estado ou território."
           ],
           "tips": []
         },
         {
-          "heading": "Porque é que as regras chegam a ser diferentes",
+          "heading": "Porque é que as regras variam",
           "body": [
-            "Na Austrália, o código da estrada é feito por cada estado e território e não a nível nacional. As Australian Road Rules servem de modelo que as jurisdições adotam com variações, pelo que a base é coerente e os pormenores não.",
-            "Na prática, as velocidades por defeito, as exceções para telemóveis, os limites de reboque, as condições da carta e até alguma sinalização mudam quando atravessas uma fronteira, muitas vezes sem qualquer aviso.",
-            "Numa viagem que atravesse vários estados, isto conta. Confirma as regras de cada jurisdição do teu percurso em vez de levares as de um estado para o país inteiro."
+            "Na Austrália, as leis de trânsito são feitas por cada estado e território, e não à escala nacional. As Australian Road Rules servem de modelo, que cada um adota com variações: a base é a mesma, os pormenores não.",
+            "Na prática, os limites gerais de velocidade, as exceções ao uso do telemóvel, os limites de reboque, as condições da carta e até alguma sinalização mudam quando atravessas uma fronteira, muitas vezes sem nada que to lembre.",
+            "Numa viagem por vários estados, isto conta. Confirma as regras de cada estado ou território do percurso em vez de levares as de um só para o país inteiro."
           ],
           "tips": [
-            "Cada estado faz o seu código da estrada",
-            "As fronteiras mudam as regras sem aviso",
-            "Confirma cada jurisdição do percurso"
+            "Cada estado faz as suas leis de trânsito",
+            "A fronteira muda as regras sem aviso",
+            "Confirma cada estado do percurso"
           ]
         },
         {
           "heading": "As diferenças que mais te podem apanhar",
           "body": [
-            "Os limites por defeito em estrada aberta vão de 100 a 110 quilómetros por hora, com troços definidos do Northern Territory a 130. Os limites por defeito dentro das localidades também variam: o Território usa 60 em vez de 50.",
-            "Os limites de velocidade para reboque são diferentes: Western Australia limita o reboque a 100 e outros estados aplicam limites em função da massa do veículo. As regras de distância atrás de veículos pesados também variam.",
-            "As regras sobre telemóveis, as restrições para aprendizes e provisórios e o tratamento das cartas estrangeiras diferem de estado para estado, e as penalizações por errar são bem reais."
+            "O limite geral em estrada aberta vai de 100 a 110 quilómetros por hora, com troços definidos do <a data-guide=\"camping-rules-northern-territory\">Northern Territory</a> a 130. O limite geral dentro das localidades também varia: o Território usa 60 em vez de 50.",
+            "Os limites de velocidade com reboque são diferentes: a <a data-guide=\"camping-rules-western-australia\">Western Australia</a> fixa um máximo de 100 e outros estados aplicam limites em função da massa do veículo. As regras sobre a distância a manter atrás de veículos pesados também variam.",
+            "As regras sobre o telemóvel, as restrições à licença de aprendizagem e à carta provisória e o tratamento das cartas estrangeiras mudam de estado para estado, e as sanções para quem se engana são bem reais."
           ],
           "tips": [
-            "Em estrada aberta, de 100 a 130",
-            "Os limites de reboque variam por estado",
+            "Estrada aberta: de 100 a 130",
+            "O limite com reboque varia por estado",
             "No NT, 60 dentro das localidades"
           ]
         },
         {
-          "heading": "Atravessar fronteiras na prática",
+          "heading": "Passar a fronteira, na prática",
           "body": [
-            "Há postos de controlo de quarentena em várias fronteiras estaduais, que restringem produtos frescos, mel, plantas e terra. São fiscalizados com multas e, nalguns pontos de passagem, com cães detetores.",
-            "O fuso horário muda nalgumas fronteiras e noutras não, e vários estados adotam a hora de verão enquanto outros não. Queensland, o Northern Territory e Western Australia não a adotam, o que cria diferenças maiores no verão.",
-            "Os preços do combustível, as restrições ao álcool e até a disponibilidade de certos tipos de combustível mudam de um lado para o outro da fronteira. Confirma o que se aplica para onde vais, e não onde estiveste."
+            "Há postos de controlo de quarentena em várias fronteiras entre estados, que restringem a entrada de fruta e legumes frescos, mel, plantas e terra. A fiscalização faz-se com multas e, em alguns pontos de passagem, com cães detetores.",
+            "O fuso horário muda nalgumas fronteiras e noutras não, e há estados com hora de verão e outros sem ela. <a data-guide=\"camping-rules-queensland\">Queensland</a>, o Northern Territory e a Western Australia não mudam a hora, o que aumenta as diferenças horárias no verão.",
+            "O preço do combustível, as restrições ao álcool e até a oferta de certos tipos de combustível mudam de um lado para o outro da fronteira. Confirma o que vale para onde vais, e não para onde estiveste."
           ],
           "tips": [
             "Controlos de quarentena em várias fronteiras",
@@ -1760,30 +1787,30 @@
         {
           "heading": "Lista prática para cada fronteira",
           "body": [
-            "Antes de cada fronteira, percorre a pequena lista: produtos em quarentena, mudança de fuso horário, atestar o depósito, restrições ao álcool mais à frente e qualquer alteração nos limites de velocidade ou de reboque. Leva dois minutos e evita a maior parte dos problemas.",
-            "Guarda, enquanto tens rede, a página da autoridade rodoviária de cada jurisdição do percurso. As regras mudam e a página da autoridade é a única fonte que reflete a situação atual.",
-            "Na dúvida, segue a regra mais restritiva que conheces. Conduzir com mais prudência do que o limite local permite nunca é infração."
+            "Antes de cada fronteira, passa por esta pequena lista: fruta e legumes sujeitos a quarentena, mudança de fuso horário, atestar o depósito, restrições ao álcool do outro lado e qualquer mudança nos limites de velocidade ou de reboque. Leva dois minutos e evita a maior parte dos problemas na fronteira.",
+            "Enquanto tens rede, guarda a página da autoridade rodoviária de cada estado e território do percurso. As regras mudam, e só a página oficial mostra a situação atual.",
+            "Na dúvida, segue a regra mais restritiva que conheces. Conduzir com mais cuidado do que o limite local permite nunca é infração."
           ],
           "tips": [
             "Faz a lista em cada fronteira",
             "Guarda as páginas oficiais com rede",
-            "Dois minutos evitam quase tudo"
+            "Dois minutos evitam a maioria dos problemas"
           ]
         }
       ],
       "faq": [
         [
-          "As regras de trânsito australianas mudam de estado para estado?",
-          "Sim, mais do que os visitantes esperam. Os limites de velocidade, os limites de reboque, as penalizações por uso do telemóvel, as regras de circular pela esquerda e o tratamento das cartas estrangeiras são definidos por cada estado e território e aplicam-se a partir do momento em que atravessas a fronteira."
+          "As regras de trânsito mudam de estado para estado na Austrália?",
+          "Sim, mais do que os visitantes esperam. Os limites de velocidade e de reboque, as sanções por usar o telemóvel, as regras de manter a esquerda e o tratamento das cartas estrangeiras são definidos por cada estado e território e aplicam-se a partir do momento em que atravessas a fronteira."
         ],
         [
           "Que regras mais variam entre os estados australianos?",
-          "Os limites de velocidade para reboque, a distância mínima para ultrapassar ciclistas, as regras para conduzir um carro de aluguer em estradas de terra e os horários das zonas escolares. Os pontos da carta são partilhados entre estados, embora as regras que os fazem perder não o sejam."
+          "Os limites de velocidade com reboque, a distância mínima para ultrapassar ciclistas, as regras para conduzir um carro alugado em estradas de terra e os horários das zonas escolares. A maioria dos estados regista na tua carta de condução de origem os pontos de penalização (demerit points) de uma infração cometida noutro estado, mas a Western Australia não o faz."
         ]
       ],
       "sources": [
         {
-          "label": "Resumo das Australian Road Rules"
+          "label": "Australian Road Rules: visão geral"
         },
         {
           "label": "Queensland: limites de velocidade"
@@ -1796,6 +1823,18 @@
         },
         {
           "label": "NT: limites de velocidade"
+        },
+        {
+          "label": "NSW: pontos de penalização (demerit points)"
+        },
+        {
+          "label": "Queensland: pontos de penalização (demerit points)"
+        },
+        {
+          "label": "WA: pontos de penalização (demerit points)"
+        },
+        {
+          "label": "Austroads: carta de condução na Austrália"
         }
       ],
       "priceTable": null
@@ -2868,120 +2907,258 @@
       "priceTable": null
     },
     "campfires-camping-australia": {
-      "title": "Regras para fogueiras no campismo na Austrália",
-      "description": "Confirma as proibições de fogo locais, as regras dos parques e a meteorologia antes de riscares um fósforo.",
+      "title": "Fogueiras na Austrália 2026: proibições e multas por estado",
+      "description": "Quando é legal fazer fogueira em cada estado: épocas de incêndios, proibições totais de fogo, gás nos dias de proibição e multas. Regras oficiais, outubro de 2026.",
       "region": "Austrália",
-      "imageAlt": "Fogueira legal num círculo de fogo designado",
-      "intro": "A autorização para fazer fogueira pode mudar consoante o distrito, a época, o tipo de combustível e o índice de perigo de incêndio. Um círculo de fogo prova que ali já se fizeram fogueiras, não que hoje seja legal fazer uma.",
+      "imageAlt": "Fogueira legal num local próprio para fogueiras",
+      "intro": "Uma fogueira só é legal quando não há proibição de fogo para o distrito, quando a entidade gestora do terreno permite fogueiras nesse local e quando cumpres as regras de tamanho e de área limpa. Cada estado tem o seu sistema: NSW, Victoria, South Australia, Western Australia, Tasmania e o ACT declaram proibições totais de fogo (Total Fire Bans), Queensland declara antes proibições locais de fogo, e no Northern Territory as proibições de fogo costumam durar até 24 horas.",
       "sections": [
+        {
+          "heading": "As regras por estado",
+          "body": [
+            "O combustível sólido é a constante: em qualquer dia de proibição, as fogueiras de lenha, carvão e briquetes (heat beads) são ilegais no distrito afetado, incluindo nos locais próprios para fogueiras. O que muda de estado para estado é a época de incêndios, as regras de tamanho e de área limpa para uma fogueira legal e se um fogareiro a gás continua a ser permitido num parque num dia de proibição.",
+            "Lê a linha do estado em que estás e confirma depois a autoridade de incêndios no próprio dia. As entidades dos parques podem acrescentar as suas próprias proibições e encerramentos, e esses valem mesmo quando a autoridade de incêndios não declarou nada."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Regras de fogueiras por estado, verificadas em outubro de 2026",
+            "head": [
+              "Estado",
+              "Autoridade de incêndios",
+              "Época de incêndios 2026-27",
+              "Fogareiros nos parques em dia de proibição",
+              "Fogueira legal"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "NSW Rural Fire Service",
+                "Normalmente de 1 de outubro a 31 de março; algumas zonas começam mais cedo ou acabam mais tarde",
+                "Fogareiros a gás dos visitantes, em geral proibidos nos parques nacionais",
+                "Florestas estaduais: menos de 1 m², a 4,5 m das árvores"
+              ],
+              [
+                "Victoria",
+                "CFA",
+                "Definida por município",
+                "Fogareiros a combustível sólido e químico proibidos",
+                "Menos de 1 m de largura, 3 m limpos à volta, sempre vigiada"
+              ],
+              [
+                "Queensland",
+                "Queensland Fire Department",
+                "Proibições locais de fogo; sem o termo Total Fire Ban",
+                "Fogareiros a gás e a álcool de queima contida permitidos",
+                "Só em lareiras e locais próprios para fogueiras do QPWS"
+              ],
+              [
+                "South Australia",
+                "Country Fire Service",
+                "A partir de 15 de outubro ou 1 de novembro em muitos distritos; noutros, mais tarde",
+                "Definido parque a parque; consulta as restrições de fogo do NPWS",
+                "Vala de 30 cm, 1 m², 4 m limpos"
+              ],
+              [
+                "Western Australia",
+                "DFES e câmaras municipais",
+                "Horários de queima definidos por cada câmara municipal",
+                "Consulta o DBCA e o DFES; o gás tem restrições nos dias de proibição",
+                "Só nos locais para fogueiras dos parques, 3 m limpos"
+              ],
+              [
+                "Tasmania",
+                "Tasmania Fire Service",
+                "Períodos de licença de fogo declarados por zona",
+                "Só GPL e elétricos; sem fogareiros a combustível líquido",
+                "Menos de 1 m por 1 m, a 3 m de combustível"
+              ],
+              [
+                "Northern Territory",
+                "Governo do NT (Bushfires NT)",
+                "Declarada por distrito (Top End: 22 de junho a 4 de outubro de 2026)",
+                "Fogueiras para cozinhar não precisam de licença; as outras precisam",
+                "4 m limpos à volta de cada fogueira"
+              ],
+              [
+                "ACT",
+                "ACT Emergency Services Agency",
+                "Declarada pela ACT Emergency Services Agency",
+                "Grelhadores a gás desligados nos parques",
+                "Só em lareiras construídas, em quatro zonas"
+              ]
+            ]
+          }
+        },
         {
           "heading": "Três verificações antes de acender",
           "body": [
-            "Lê as regras do parque de campismo, consulta a autoridade de incêndios do estado e procura alertas locais do parque. As proibições totais de fogo sobrepõem-se à autorização normal do parque de campismo.",
-            "Os fogareiros a gás também podem ser restringidos em condições graves. Confirma a regra para o aparelho e não apenas para as fogueiras."
+            "Consulta a autoridade de incêndios do distrito, a página de alertas do parque e as regras do próprio parque de campismo. Em <a data-guide=\"camping-rules-queensland\">Queensland</a>, liga para o 1800 020 440 ou fala com o gabinete local do Rural Fire Service (RFS, o serviço de bombeiros rurais) se não tiveres a certeza de que há proibição de fogo.",
+            "As proibições costumam ser declaradas na tarde anterior, embora o RFS ainda possa declarar uma no próprio dia, por isso confirma ao fim do dia e outra vez de manhã, para mudares o plano do jantar em vez de reagires já no local."
           ],
           "tips": []
         },
         {
           "heading": "Lenha e preparação",
           "body": [
-            "Apanhar madeira é proibido em muitos parques, porque a madeira caída é habitat. Leva lenha limpa e não tratada apenas onde a entidade gestora do terreno o permite.",
-            "Usa uma lareira já existente, limpa a área à volta conforme as indicações e tem água ao teu lado. Nunca acendas debaixo de ramos nem com vento forte."
+            "Apanhar lenha é proibido nos parques nacionais da maioria dos estados, porque a madeira caída é habitat, e na <a data-guide=\"camping-rules-western-australia\">Western Australia</a> a proibição abrange os parques nacionais e outras reservas de conservação. Leva lenha limpa e não tratada de fora do parque, onde as fogueiras forem permitidas.",
+            "Usa a lareira que o local disponibiliza, limpa a área como as regras exigem e mantém a água ao teu lado, não no veículo. Nunca acendas uma fogueira debaixo de ramos nem com vento forte."
           ],
           "tips": [
-            "Autorização confirmada",
-            "Água à mão",
-            "Fogueira sempre vigiada por um adulto"
+            "Leva a tua própria lenha",
+            "Água junto à fogueira",
+            "Sem fogueira com vento forte"
           ]
         },
         {
           "heading": "Apaga-a até ficar fria",
           "body": [
-            "Apaga com água, remexe os restos e repete até tudo estar frio ao toque. A areia pode esconder brasas quentes em vez de as apagar.",
-            "Nunca deixes uma fogueira sem vigilância, nem enquanto dormes. Se o vento aumentar ou as condições te parecerem estranhas, apaga-a."
+            "Encharca a fogueira com água, remexe as cinzas e encharca outra vez até os restos ficarem frios ao toque. A areia pode esconder brasas quentes em vez de as apagar.",
+            "Nunca deixes uma fogueira sem vigilância, nem enquanto se vai consumindo, nem enquanto dormes. Se o vento aumentar, apaga-a."
           ],
           "tips": []
         },
         {
-          "heading": "Índices de perigo de incêndio e proibições totais de fogo",
+          "heading": "Índices de perigo de incêndio e proibições de fogo",
           "body": [
-            "A Austrália usa um sistema nacional de índice de perigo de incêndio (Fire Danger Rating) com quatro níveis, de Moderado (Moderate) a Catastrófico (Catastrophic), publicado diariamente por distrito. As proibições totais de fogo são declaradas à parte e proíbem qualquer chama aberta, seja qual for o índice.",
-            "Num dia de proibição total de fogo, as fogueiras e os grelhadores a combustível sólido são proibidos. Os aparelhos a gás costumam ser permitidos com condições, como uma área limpa à volta e vigilância constante, mas o que manda é a redação concreta da proibição.",
-            "Os índices e as proibições são publicados todas as tardes para o dia seguinte. No verão, consulta-os diariamente em vez de te guiares pela sensação do tempo, porque a declaração se baseia nas condições previstas."
+            "O sistema australiano de índice de perigo de incêndio (Australian Fire Danger Rating System) tem quatro níveis, Moderado (Moderate), Alto (High), Extremo (Extreme) e Catastrófico (Catastrophic), publicados por distrito. Uma proibição total de fogo é declarada à parte, por isso confirma as duas coisas e não leias o índice como se fosse uma autorização.",
+            "Num dia de proibição, as fogueiras e os grelhadores a combustível sólido são ilegais no distrito. É no gás que os estados diferem: os parques nacionais de NSW proíbem em geral os fogareiros a gás dos visitantes, os parques do ACT desligam os grelhadores a gás, as regras dos parques de South Australia são definidas parque a parque, a Tasmania permite fogareiros a GPL e elétricos mas não os de combustível líquido, e <a data-guide=\"camping-rules-queensland\">Queensland</a> permite fogareiros a gás e a álcool de queima contida durante uma proibição de fogo.",
+            "Os parques também fecham nos piores dias. Os parques de South Australia e as florestas da ForestrySA podem fechar nos dias de proibição, e o NPWS (National Parks and Wildlife Service, o serviço de parques nacionais) pode declarar uma proibição de fogo própria num parque ou fechá-lo em NSW quando o risco é alto."
           ],
           "tips": [
-            "Quatro níveis, de Moderado a Catastrófico",
-            "As proibições excluem todo o combustível sólido",
-            "Consulta a declaração todos os dias"
+            "Quatro índices, de Moderate a Catastrophic",
+            "Nos dias de proibição, nada de combustível sólido",
+            "As regras do gás mudam por estado"
           ]
         },
         {
-          "heading": "Onde é que se pode fazer fogueira",
+          "heading": "Onde é que se pode mesmo fazer fogueira",
           "body": [
-            "Muitos parques nacionais proíbem as fogueiras de forma permanente, sobretudo nas zonas áridas, onde a recolha de lenha destrói habitats que levam décadas a formar-se. Outros só as permitem nas lareiras disponibilizadas.",
-            "Apanhar lenha é proibido na maioria dos parques nacionais e reservas. Leva a tua de fora da zona e tem em conta que algumas regiões também restringem o transporte de lenha para travar a propagação de pragas.",
-            "Consulta a página do parque de campismo em concreto e não a regra geral do estado. Em muitos sítios, a regra da entidade gestora é mais rigorosa do que o sistema de perigo de incêndio e aplica-se todo o ano."
+            "Muitos parques proíbem as fogueiras durante parte do ano ou o ano todo. O Ikara-Flinders Ranges proíbe as fogueiras de lenha no seu período de proibição de fogo, de meados de outubro de 2026 a finais de março de 2027, a ForestrySA proíbe as fogueiras nas suas florestas de 1 de novembro a 30 de abril, e muitos parques da Western Australia suspendem as fogueiras de cerca de 1 de dezembro a 31 de março.",
+            "As Fuel Stove Only Areas (zonas só para fogareiros) da <a data-guide=\"camping-rules-tasmania\">Tasmania</a> proíbem as fogueiras todo o ano em grande parte das zonas selvagens, incluindo Cradle Mountain-Lake St Clair, Freycinet e Mount Field. No ACT, só se pode fazer fogueira em lareiras construídas, em quatro zonas: Namadgi, Tidbinbilla e as zonas de lazer de Cotter e Uriarra Crossing.",
+            "No fim, quem decide é a página do parque de campismo, porque a regra da entidade gestora é muitas vezes mais rigorosa do que o sistema de perigo de incêndio e aplica-se todo o ano."
           ],
           "tips": [
-            "Muitos parques proíbem sempre o fogo",
-            "Apanhar lenha costuma ser proibido",
-            "Leva a tua própria lenha"
+            "Proibições sazonais nos parques são comuns",
+            "Tasmania: Fuel Stove Only Areas",
+            "A página do parque decide"
           ]
         },
         {
           "heading": "Fazer e controlar uma fogueira legal",
           "body": [
-            "Onde for permitido, usa uma lareira já existente, mantém a fogueira pequena, afasta bem o material combustível e tem água logo ao teu lado e não no veículo. Nunca acendas com vento nem debaixo de ramos pendentes.",
-            "As condições legais habituais fixam um tamanho máximo para a fogueira, um raio limpo de vários metros e a presença constante de um adulto. Aplicam-se também fora das proibições totais de fogo, e não as cumprir dá sanções.",
-            "Nunca deixes uma fogueira sem vigilância, nem enquanto se vai apagando. A maioria das fogueiras que fogem ao controlo começa depois de quem as acendeu decidir que já estavam quase apagadas."
+            "As regras de tamanho e de área limpa variam: as florestas estaduais de NSW exigem uma fogueira com menos de um metro quadrado e a 4,5 metros da árvore mais próxima, as florestas estaduais de Victoria uma com menos de um metro de largura e três metros limpos, e <a data-guide=\"camping-rules-south-australia\">South Australia</a> uma vala com 30 cm de profundidade durante a época de incêndios.",
+            "O CFA (Country Fire Authority, o serviço de bombeiros rurais de Victoria) pede que uma fogueira seja vigiada em permanência por um adulto acordado e atento, a menos de 50 metros, e só com vento abaixo de 10 km/h. Essas condições são uma boa regra em qualquer ponto da Austrália.",
+            "As fogueiras que fogem ao controlo começam muitas vezes depois de quem as acendeu decidir que já estavam quase apagadas. Trata a fogueira como acesa até estar fria ao toque."
           ],
           "tips": [
-            "Água ao teu lado, não no veículo",
-            "Raio limpo de vários metros",
-            "Nunca a deixes sem vigilância"
+            "Vento abaixo de 10 km/h",
+            "Adulto a menos de 50 metros",
+            "Acesa até estar fria"
           ]
         },
         {
-          "heading": "Apagar a fogueira e as consequências",
+          "heading": "Multas e responsabilidade",
           "body": [
-            "Uma fogueira só está apagada quando está fria ao toque. Encharca-a, remexe as cinzas, volta a encharcar e continua até conseguires pôr a mão nos restos. As brasas sobrevivem debaixo das cinzas durante muitas horas.",
-            "Os incêndios provocados por fogueiras descontroladas têm sanções pesadas em todos os estados, incluindo multas elevadas e prisão quando se prova negligência. Também podes ser responsabilizado pelos custos de combate ao incêndio, que chegam a valores muito elevados.",
-            "Se uma fogueira fugir ao controlo, não tentes combatê-la para lá dos primeiros segundos. Afasta-te e liga de imediato para o 000 (triple zero), indicando a localização mais precisa que conseguires."
+            "Acender uma fogueira num dia de proibição total de fogo em NSW dá uma multa no local de 2.200 AUD, ou até 5.500 AUD e 12 meses de prisão em tribunal. A <a data-guide=\"camping-rules-western-australia\">Western Australia</a> aplica uma multa de 1.000 AUD, com até 25.000 AUD e 12 meses de prisão em caso de condenação.",
+            "O CFA avisa que uma fogueira num dia de proibição total de fogo em <a data-guide=\"camping-rules-victoria\">Victoria</a> pode dar uma multa de mais de 40.000 AUD, dois anos de prisão ou ambos. No Northern Territory, acender uma fogueira para outro fim que não cozinhar, sem licença, pode custar até cerca de 77.000 AUD ou cinco anos de prisão, e não limpar 4 metros à volta de uma fogueira até cerca de 15.000 AUD; os valores são indexados, por isso consulta a página do NT.",
+            "Se uma fogueira fugir ao controlo, não tentes combatê-la para lá dos primeiros segundos. Afasta-te e liga para o 000 (triple zero), indicando a localização mais precisa que conseguires."
           ],
           "tips": [
-            "Apagada quer dizer fria ao toque",
-            "Podes pagar os custos de combate ao incêndio",
-            "Liga para o 000 e afasta-te"
+            "Multa em NSW num dia de proibição: 2.200 AUD",
+            "Victoria: mais de 40.000 AUD em tribunal",
+            "Fogo fora de controlo: afasta-te e liga 000"
           ]
         },
         {
           "heading": "Cozinhar quando o fogo está proibido",
           "body": [
-            "Os fogareiros a gás costumam ser permitidos nos dias de proibição total de fogo, com condições: uma área limpa à volta, uma pessoa sempre presente e acesso imediato a água. Confirma a redação concreta da proibição, porque as condições variam de estado para estado.",
-            "Nunca cozinhes dentro de uma tenda, debaixo de um toldo ou num veículo sem ventilação. O monóxido de carbono não tem cheiro e já matou campistas, e o risco é maior precisamente nas condições de frio ou chuva que levam as pessoas a recolher-se.",
-            "Tem sempre um fogareiro a gás leve no veículo, porque uma proibição total de fogo pode ser declarada com um dia de antecedência e assim deixas de depender de poder acender uma fogueira.",
-            "Os índices de perigo de incêndio são publicados todas as tardes para o dia seguinte, por isso consultá-los na véspera dá-te tempo para mudar de planos em vez de teres de reagir à pressa."
+            "Leva sempre um fogareiro a gás no veículo e confirma a regra para os fogareiros, não só para as fogueiras, porque alguns parques os proíbem também nos piores dias.",
+            "Nunca cozinhes dentro de uma tenda, debaixo de um toldo ou num veículo fechado. O regulador de segurança do gás da <a data-guide=\"camping-rules-western-australia\">Western Australia</a> avisa que os aparelhos a gás portáteis de exterior nunca devem ser usados dentro de uma tenda, de uma zona semifechada, de uma caravana ou de uma autocaravana.",
+            "Planeia refeições que não precisem de chama para os dias em que está prevista proibição: almoços frios, wraps e comida feita na véspera mantêm a viagem a andar."
           ],
           "tips": [
-            "O gás costuma ser permitido com condições",
+            "Leva um fogareiro a gás",
             "Nunca cozinhes num espaço fechado",
-            "O monóxido de carbono não tem cheiro"
+            "Planeia refeições frias para os dias de proibição"
           ]
         }
       ],
       "faq": [
         [
           "Pode-se fazer uma fogueira quando se acampa na Austrália?",
-          "Só quando não há proibição de fogo e a entidade gestora do terreno o permite. Os serviços de bombeiros de cada estado declaram proibições totais de fogo por distrito e por dia e, enquanto vigoram, nenhum fogo a combustível sólido é legal em todo o distrito, nem sequer num círculo de fogo."
+          "Sim, quando não há proibição de fogo para o distrito e o parque de campismo permite fogueiras, usando a lareira disponibilizada e lenha que tenhas trazido. Durante uma proibição total de fogo, ou uma proibição local de fogo em Queensland, as fogueiras de combustível sólido são ilegais em toda essa zona, incluindo nos locais próprios para fogueiras."
         ],
         [
-          "Como se sabe se há uma proibição total de fogo?",
-          "No site dos bombeiros do estado onde estás, no próprio dia: RFS em NSW, CFA em Victoria, QFES em Queensland e os seus equivalentes nos outros estados. Os índices de perigo de incêndio são definidos todas as tardes para o dia seguinte."
+          "Posso usar um fogareiro a gás num dia de proibição total de fogo?",
+          "Depende do estado e do terreno. Os parques nacionais de NSW proíbem em geral os fogareiros a gás dos visitantes nesses dias, os parques do ACT desligam os grelhadores a gás, a Tasmania permite fogareiros a GPL e elétricos mas não os de combustível líquido, e Queensland permite fogareiros a gás e a álcool de queima contida durante uma proibição de fogo. Em South Australia, consulta as restrições de fogo do parque onde estás."
         ]
       ],
       "sources": [
         {
-          "label": "Avisos do Bureau of Meteorology"
+          "label": "Australian Fire Danger Rating System: índice de perigo de incêndio"
+        },
+        {
+          "label": "NSW RFS: regras das proibições totais de fogo"
+        },
+        {
+          "label": "NSW RFS: Bush Fire Danger Period (época de perigo de incêndio)"
+        },
+        {
+          "label": "NSW National Parks: proibições de fogo"
+        },
+        {
+          "label": "Forestry Corporation of NSW: proibições de fogo de combustível sólido"
+        },
+        {
+          "label": "CFA: regras para fogueiras"
+        },
+        {
+          "label": "Fogueiras nas florestas estaduais de Victoria"
+        },
+        {
+          "label": "Queensland Fire Department: proibições de fogo"
+        },
+        {
+          "label": "Fogueiras nos parques de Queensland"
+        },
+        {
+          "label": "SA CFS: datas da época de perigo de incêndio"
+        },
+        {
+          "label": "SA CFS: o que podes e não podes fazer"
+        },
+        {
+          "label": "DFES: proibições totais de fogo"
+        },
+        {
+          "label": "WA Parks: fogueiras e lenha"
+        },
+        {
+          "label": "Tasmania Parks: fogueiras e proibições de fogo"
+        },
+        {
+          "label": "NT: proibições de fogo"
+        },
+        {
+          "label": "NT: segurança com fogueiras"
+        },
+        {
+          "label": "ACT Parks: fogueiras"
+        },
+        {
+          "label": "WA Building and Energy: acampar em segurança com gás"
+        },
+        {
+          "label": "NT: declaração do período de perigo de incêndio, junho de 2026"
+        },
+        {
+          "label": "SA National Parks: proibições e restrições de fogo"
+        },
+        {
+          "label": "ForestrySA: campismo"
+        },
+        {
+          "label": "Tasmania Parks: Fuel Stove Only Areas (zonas só para fogareiros)"
         }
       ],
       "priceTable": null
@@ -3341,119 +3518,180 @@
       "priceTable": null
     },
     "caravan-park-vs-holiday-park": {
-      "title": "Parque de caravanas, holiday park ou parque de campismo?",
-      "description": "Escolhe a combinação certa de instalações, preço e ambiente para cada noite.",
+      "title": "Caravan park, holiday park ou área de campismo: qual escolher",
+      "description": "Caravan park, holiday park ou área de campismo: quem gere cada um, os serviços, as regras de reserva e as taxas dos parques nacionais em 2026, numa só tabela.",
       "region": "Austrália",
-      "imageAlt": "Parque de caravanas junto a uma praia australiana",
-      "intro": "Os nomes sobrepõem-se, mas a experiência pode ser muito diferente. Adapta a estadia ao que a viagem precisa nessa noite, em vez de insistires num só tipo durante todo o percurso.",
+      "imageAlt": "Parque de campismo junto a uma praia australiana",
+      "intro": "Um caravan park e um holiday park são praticamente a mesma coisa: parques comerciais com lugares com eletricidade, comodidades e, normalmente, bungalows, com os holiday parks mais virados para piscinas, parques infantis e serviços para famílias. Uma área de campismo num parque nacional ou numa floresta estadual troca esses serviços pelo cenário e por uma taxa mais baixa, ou nenhuma. Escolhe onde ficar consoante o que a viagem pede nessa noite, em vez de usares um só tipo durante o percurso todo.",
       "sections": [
         {
-          "heading": "Parques de caravanas e holiday parks",
+          "heading": "Caravan park ou holiday park: o que querem dizer os nomes",
           "body": [
-            "Os parques de caravanas centram-se em lugares com e sem eletricidade, instalações sanitárias e acesso para veículos. Os holiday parks (parques de férias) juntam muitas vezes piscinas, parques infantis, bungalows e um ambiente mais de resort.",
-            "Pergunta pelo comprimento do lugar, pelo tipo de piso, pela ligação elétrica, pela hora de check-in e se as instalações funcionam só em certas épocas."
+            "Os dois nomes sobrepõem-se e os operadores usam-nos à vontade. Ambos descrevem um parque de campismo comercial com lugares com e sem eletricidade, blocos sanitários e, normalmente, bungalows; holiday park costuma indicar mais serviços para famílias, como piscina, parque infantil ou atividades, e muitas vezes mais bungalows.",
+            "A diferença maior é entre os parques comerciais e as áreas de campismo públicas. Os parques vendem serviços, eletricidade e comodidade, enquanto as áreas de campismo dos parques nacionais e das florestas vendem o sítio e deixam a maior parte dos serviços por tua conta."
           ],
-          "tips": []
+          "tips": [],
+          "table": {
+            "caption": "Caravan park, holiday park e área de campismo comparados",
+            "head": [
+              "Tipo de local",
+              "Quem gere",
+              "O que costumas ter",
+              "Reserva",
+              "Na AussieCamps"
+            ],
+            "rows": [
+              [
+                "Holiday park",
+                "Operador comercial",
+                "Lugares com eletricidade, bungalows, comodidades, muitas vezes piscina e parque infantil",
+                "Reserva com antecedência; estadias mínimas na época alta",
+                "Parques parceiros: consulta e reserva grátis"
+              ],
+              [
+                "Caravan park",
+                "Operador comercial ou câmara municipal",
+                "Lugares com e sem eletricidade, comodidades, lavandaria, muitas vezes bungalows",
+                "Reserva com antecedência na época alta",
+                "Parques parceiros: consulta e reserva grátis"
+              ],
+              [
+                "Área de campismo de um parque nacional",
+                "Entidade estadual de parques",
+                "Casas de banho na maioria dos locais; água ou duches em alguns; eletricidade raramente",
+                "Reserva ou licença na maioria dos estados",
+                "Requer o Pass"
+              ],
+              [
+                "Área de campismo de uma floresta estadual",
+                "Entidade estadual de florestas",
+                "Comodidades básicas ou nenhumas",
+                "Muitas vezes por ordem de chegada; as florestas estaduais de Queensland exigem uma licença reservada",
+                "Requer o Pass"
+              ],
+              [
+                "Área de descanso à beira da estrada",
+                "Entidade rodoviária",
+                "Estacionamento, casas de banho em alguns",
+                "Sem reserva; há limites de tempo",
+                "Requer o Pass"
+              ]
+            ]
+          }
         },
         {
-          "heading": "Parques de campismo no mato",
+          "heading": "Áreas de campismo no mato",
           "body": [
-            "As zonas de campismo dos parques nacionais e das florestas trocam serviços por localização. As casas de banho podem ser básicas, a água pode não ser tratada ou nem existir e os geradores podem ter restrições.",
-            "Confirma o acesso por estrada e a reserva antes de entrares. Uma taxa mais barata pode sair mais cara se o sítio não servir para o teu conjunto."
+            "Nas áreas de campismo dos parques nacionais e das florestas, ganha-se em localização o que se perde em serviços. As casas de banho podem ser básicas, a água pode não ser tratada ou nem existir, a eletricidade é rara e os geradores têm muitas vezes restrições.",
+            "Também custam menos. Em 2026, <a data-guide=\"camping-rules-queensland\">Queensland</a> cobra 7,75 AUD por pessoa e por noite, os parques da Western Australia 10 a 20 AUD por adulto, e os lugares com reserva de Victoria começam em 16 AUD por noite, enquanto acampar na maioria das florestas estaduais de NSW é gratuito. Confirma o acesso por estrada e a reserva antes de entrares."
           ],
           "tips": [
             "Precisas de eletricidade?",
-            "Há água potável?",
-            "Duche ou lavandaria?",
+            "Há água para beber?",
+            "Duches ou lavandaria?",
             "Comprimento do veículo?"
           ]
         },
         {
-          "heading": "Usa uma estratégia mista",
+          "heading": "Combina os vários tipos",
           "body": [
-            "Um campismo simples no mato seguido de uma noite num holiday park com eletricidade facilita a roupa, os carregamentos e o reabastecimento de água. Com tempo severo, uma noite num alojamento com teto pode safar o percurso.",
-            "Reserva orçamento para algumas noites com serviços, em vez de esperares que todos os parques ofereçam tudo."
+            "Uma noite numa área de campismo simples no mato seguida de outra num holiday park com eletricidade facilita a roupa, os carregamentos e o abastecimento de água. Com <a data-guide=\"camping-weather-safety-australia\">mau tempo</a> a sério, uma noite num alojamento com teto pode ser a tábua de salvação do percurso.",
+            "Conta no orçamento com algumas noites com serviços, em vez de esperares que todos os sítios tenham tudo."
           ],
           "tips": []
         },
         {
-          "heading": "O que os nomes querem realmente dizer",
+          "heading": "Avalia pelo que têm, não pelo nome",
           "body": [
-            "Na Austrália, os termos são praticamente intermutáveis e descrevem o mesmo produto: um parque comercial com lugares com e sem eletricidade, blocos sanitários e, normalmente, bungalows. A designação holiday park tende a indicar mais instalações pensadas para famílias.",
-            "O que importa são as características e não o nome: se os lugares têm eletricidade, se as instalações sanitárias são modernas, se há cozinha comum, lavandaria, piscina e ponto de despejo, e quais são as dimensões dos lugares.",
-            "As cadeias e os programas de sócio dão desconto nas tarifas por noite e, numa viagem longa, a quota paga-se muitas vezes a si própria. Vê primeiro se o automóvel clube do teu país tem um acordo de reciprocidade."
+            "O que conta é o que o parque tem, não o nome: se os lugares têm eletricidade, se as comodidades são modernas, se há cozinha comum, lavandaria, piscina ou <a data-guide=\"dump-points-australia-guide\">ponto de despejo</a>, e as dimensões dos lugares para o teu conjunto.",
+            "Algumas cadeias de parques vendem cartões de sócio pagos, com descontos nos preços por noite. Antes de comprares um, faz as contas: vê se a poupança cobre a quota para o número de noites que vais mesmo passar nos parques dessa cadeia."
           ],
           "tips": [
-            "Os nomes querem dizer quase o mesmo",
-            "Avalia pelas características, não pelo nome",
-            "Os descontos de sócio somam-se depressa"
+            "Avalia pelo que têm, não pelo nome",
+            "Confirma o tamanho do lugar para o teu conjunto",
+            "Faz as contas ao cartão de sócio"
           ]
         },
         {
           "heading": "Onde cada tipo faz sentido",
           "body": [
-            "Vale a pena pagar um parque comercial depois de várias noites de campismo gratuito, antes de uma partida cedo, com mau tempo ou quando a roupa, os duches quentes, os carregamentos e a água precisam todos de atenção ao mesmo tempo. Contando com as tarefas que resolve, costuma compensar.",
-            "As zonas de campismo dos parques nacionais e das áreas protegidas custam menos e dão-te o cenário, em troca de autonomia e, normalmente, sem eletricidade. O campismo gratuito e as áreas de descanso não custam nada e não oferecem nada.",
-            "O padrão a que chega a maioria de quem faz viagens longas é duas ou três noites baratas seguidas de uma noite com serviços que põe tudo em dia. Esse equilíbrio mantém tanto o orçamento como o veículo em condições."
+            "Um parque de campismo comercial vale o que custa depois de várias noites de <a data-guide=\"is-free-camping-legal-australia\">campismo gratuito</a>, antes de uma partida cedo, com mau tempo ou quando a roupa, os duches quentes, os carregamentos e a água precisam de atenção ao mesmo tempo. Feitas as contas a tudo o que resolve de uma vez, costuma compensar.",
+            "As áreas de campismo dos parques nacionais e das florestas custam menos e dão-te o cenário, mas em troca tens de levar tudo o que precisas e quase nunca há eletricidade. As áreas de descanso não custam nada e dão pouco mais do que um sítio para parar durante um tempo limitado.",
+            "Um ritmo comum nas viagens longas é de duas ou três noites baratas seguidas de uma noite com serviços que põe tudo em dia. Esse equilíbrio mantém o orçamento e o veículo em condições."
           ],
           "tips": [
-            "Uma noite com serviços põe o veículo todo em dia",
-            "Os parques nacionais dão cenário, não serviços",
+            "Uma noite com serviços põe o veículo em dia",
+            "Parques nacionais: cenário, não serviços",
             "Duas ou três noites baratas, depois uma paga"
           ]
         },
         {
           "heading": "Reservas e época alta",
           "body": [
-            "Os parques do litoral esgotam com meses de antecedência nas férias escolares, na Páscoa e no Natal, impõem estadias mínimas e cobram bastante mais. Alguns fazem sorteios ou têm reservas repetidas de longa data que tornam muito difícil conseguir lugar pela primeira vez.",
-            "Indica com rigor o comprimento do teu veículo, porque os lugares são atribuídos por tamanho e declarar a menos dá origem a uma conversa constrangedora no check-in. Avisa se precisas de um lugar de entrada e saída direta ou se levas reboque.",
-            "Pergunta pela chegada tardia quando fizeres a reserva. A maioria dos parques fecha a receção à noite e deixa um envelope com o código do portão, mas precisas dessa informação antes de dares com uma cancela fechada."
+            "Nas férias escolares, na Páscoa e no Natal, os parques do litoral esgotam com meses de antecedência, impõem muitas vezes estadias mínimas e cobram preços de época alta. Reserva assim que as datas estiverem fixadas.",
+            "Indica o comprimento exato do veículo, porque os lugares são atribuídos por tamanho e declarar a menos acaba numa conversa desagradável no check-in. Diz se precisas de um lugar drive-through (em que entras e sais sem fazer marcha-atrás) ou se levas reboque.",
+            "Quando reservares, pergunta o que fazer se chegares tarde. Muitos parques fecham a receção ao fim do dia e deixam um envelope com o código do portão, mas precisas de saber isso antes de dares com a cancela fechada."
           ],
           "tips": [
-            "Os parques do litoral esgotam com meses de antecedência",
-            "Indica com rigor o comprimento do veículo",
-            "Pergunta como funciona a chegada tardia"
+            "O litoral esgota com meses de antecedência",
+            "Indica o comprimento exato do veículo",
+            "Pergunta o que fazer se chegares tarde"
           ]
         },
         {
-          "heading": "Espaço partilhado e instalações",
+          "heading": "Espaços partilhados e comodidades",
           "body": [
-            "As horas de silêncio são para cumprir e os parques são espaços densos onde o som se propaga. Mantém-te dentro dos limites do teu lugar, vigia as crianças junto das vias internas e das piscinas e confirma a política sobre animais antes de chegares com um cão.",
-            "Usa a cozinha comum e a lavandaria de forma intencional, porque é por isso que estás a pagar. Uma só noite chega para pôr em dia a roupa de uma semana, carregar tudo e reabastecer de água, despejando os resíduos pela ordem certa.",
-            "Nunca enchas água para beber numa torneira perto do ponto de despejo e pergunta quais são as torneiras de água potável. Nem todas são, e a sinalização nem sempre é óbvia."
+            "As horas de silêncio são para cumprir, e num parque com os lugares encostados uns aos outros o som propaga-se. Fica dentro dos limites do teu lugar, vigia as crianças perto das vias internas e das piscinas e confirma as regras sobre animais antes de apareceres com um cão.",
+            "Aproveita a sério a cozinha comum e a lavandaria, porque é por elas que estás a pagar. Numa só noite dá para lavar a roupa de uma semana, carregar tudo e encher a água, despejando os resíduos pela ordem certa.",
+            "Nunca enchas água para beber numa torneira perto do <a data-guide=\"dump-points-australia-guide\">ponto de despejo</a> e pergunta quais são as torneiras de água potável. Nem todas são, e a sinalização nem sempre é clara."
           ],
           "tips": [
             "As horas de silêncio são para cumprir",
-            "Confirma a política sobre animais antes de chegar",
-            "Pergunta quais as torneiras de água potável"
+            "Confirma as regras sobre animais antes",
+            "Pergunta que torneiras dão água potável"
           ]
         },
         {
-          "heading": "Ler as avaliações com proveito",
+          "heading": "Como tirar partido das avaliações",
           "body": [
-            "As pontuações dizem-te menos do que as queixas concretas. Referências repetidas à limpeza das instalações, ao barulho da estrada, ao tamanho dos lugares ou à atitude da gerência são os sinais a ter em conta.",
-            "As fotografias dos hóspedes são mais fiáveis do que as do próprio parque. Procura o tipo de lugar que estás a reservar, e não a piscina e o parque infantil, que todos os parques fotografam bem.",
-            "Pergunta a amperagem de um lugar com eletricidade se tencionas usar o ar condicionado, porque alguns parques mais antigos fornecem menos do que uma caravana moderna consome.",
-            "Pergunta como funciona a chegada tardia quando fizeres a reserva, porque a maioria dos parques fecha a receção à noite e uma cancela fechada às dez é um mau final para um dia de estrada."
+            "A pontuação diz-te menos do que as queixas concretas. Referências repetidas à limpeza dos blocos sanitários, ao barulho da estrada, ao tamanho dos lugares ou à atitude da gerência são os sinais a que vale a pena dar ouvidos.",
+            "As fotografias dos clientes são mais fiáveis do que as do próprio parque. Procura fotos do tipo de lugar que vais reservar, e não da piscina e do parque infantil, que todos os parques fotografam bem.",
+            "Se contas usar o ar condicionado, pergunta a amperagem do lugar com eletricidade, porque alguns parques mais antigos fornecem menos do que uma caravana moderna consome."
           ],
           "tips": [
-            "Lê as queixas, não as pontuações",
-            "As fotos dos hóspedes valem mais do que as promocionais",
-            "Procura especificamente o teu tipo de lugar"
+            "Lê as queixas, não a pontuação",
+            "As fotos dos clientes valem mais que as promocionais",
+            "Procura fotos do teu tipo de lugar"
           ]
         }
       ],
       "faq": [
         [
-          "Qual é a diferença entre um parque de caravanas e uma zona de campismo de um parque nacional?",
-          "Um parque de caravanas é um espaço comercial com lugares com eletricidade, blocos sanitários, lavandaria e, normalmente, bungalows, com preço por lugar ou por casal. Uma zona de campismo de um parque nacional fica em terreno público, tem muito menos instalações, exige uma licença reservada e cobra uma taxa muito mais baixa."
+          "Qual é a diferença entre um caravan park e um holiday park?",
+          "Muito pouca, na prática: ambos são parques comerciais com lugares com e sem eletricidade, comodidades e, normalmente, bungalows. Holiday park costuma indicar mais serviços para famílias, como piscina, parque infantil ou atividades, e muitas vezes mais bungalows."
         ],
         [
-          "Quando é que vale a pena pagar um parque de caravanas?",
-          "Quando precisas de eletricidade, de um duche quente, de lavandaria e de reabastecer, o que numa viagem longa acontece mais ou menos a cada três ou quatro noites. Nas grandes travessias, são também o sítio fiável para parar quando as opções gratuitas estão cheias."
+          "Quando é que vale a pena pagar um caravan park?",
+          "Quando precisas ao mesmo tempo de eletricidade, duches quentes, lavandaria e de reabastecer, ou quando as alternativas gratuitas e baratas por perto estão cheias. Muita gente em viagens longas reserva uma noite com serviços depois de duas ou três noites de campismo no mato."
         ]
       ],
-      "sources": [],
+      "sources": [
+        {
+          "label": "Onde acampar nos parques de Queensland"
+        },
+        {
+          "label": "Queensland Parks: reservas e taxas de campismo"
+        },
+        {
+          "label": "Explore Parks WA: taxas de campismo"
+        },
+        {
+          "label": "Parks Victoria: taxas e custos 2026-27"
+        },
+        {
+          "label": "Forestry Corporation of NSW: campismo"
+        }
+      ],
       "priceTable": null
     },
     "dump-points-australia-guide": {
@@ -5316,37 +5554,37 @@
       "priceTable": null
     },
     "australia-travel-cost-2026": {
-      "title": "Quanto custa realmente viajar pela Austrália em 2026?",
-      "description": "Um orçamento diário prático para mochileiros, campistas, quem faz road trip e viajantes que querem um pouco mais de conforto.",
+      "title": "Quanto custa viajar pela Austrália em 2026? Os números reais",
+      "description": "Um orçamento diário prático para viajar pela Austrália de mochila às costas, a acampar, de carro ou com um pouco mais de conforto, com os custos que mais pesam.",
       "region": "Austrália",
       "imageAlt": "Viajante a planear o orçamento de uma viagem de carro pela Austrália",
-      "intro": "É possível viajar pela Austrália com pouco, com conforto ou com extravagância, mas o total honesto depende da frequência com que mudas de sítio. Estas referências datadas juntam comida, alojamento, transportes locais e uma verba modesta para atividades, antes das deslocações de longa distância.",
+      "intro": "Dá para viajar pela Austrália com pouco, com conforto ou sem olhar a gastos, mas o total real depende de quantas vezes mudas de sítio. Estas referências, com a data de verificação, juntam comida, alojamento, transportes locais e uma verba modesta para atividades, sem contar as deslocações de longa distância.",
       "sections": [
         {
-          "heading": "Constrói o valor diário a partir de componentes reais",
+          "heading": "Calcula o valor diário a partir de custos reais",
           "body": [
-            "Começa pela cama ou pelo lugar de campismo e depois soma as compras de supermercado, as refeições fora, os transportes locais e o custo médio das experiências pagas. Manter estas rubricas separadas facilita atualizar a estimativa quando uma delas muda.",
-            "Quem viaja de veículo deve calcular o combustível a partir dos quilómetros e do consumo, em vez de o esconder numa verba diária. Uma volta rápida custa mais do que uma viagem mais lenta, mesmo que o preço por noite seja igual."
+            "Começa pela cama ou pelo lugar de campismo e depois soma as compras de supermercado, as <a data-guide=\"eating-out-australia-prices-2026\">refeições fora</a>, os transportes locais e o custo médio das atividades pagas. Com estas rubricas separadas, é mais fácil atualizar a estimativa quando uma delas muda.",
+            "Quem viaja com veículo deve calcular o combustível a partir dos quilómetros e do consumo, em vez de o esconder numa verba diária. Uma volta feita à pressa custa mais do que uma viagem mais lenta, mesmo que o preço por noite seja igual."
           ],
           "tips": []
         },
         {
-          "heading": "Porque é que uma média australiana engana",
+          "heading": "Porque é que uma média para toda a Austrália engana",
           "body": [
-            "Sydney, as roadhouses remotas, as localidades tropicais na estação seca e as praias nas férias escolares podem ficar todas acima de uma referência regional normal. As promoções e as estadias mais longas podem puxar no sentido contrário.",
-            "Usa a tabela para simular cenários e depois substitui cada linha por orçamentos para as datas e o percurso que queres mesmo fazer."
+            "Sydney, as roadhouses (postos de abastecimento isolados no Outback) das zonas remotas, as terras tropicais na época seca e as praias nas férias escolares podem ficar todas acima da referência habitual fora das grandes cidades. As promoções e as estadias mais longas podem puxar no sentido contrário.",
+            "Usa a tabela para simular cenários e depois substitui cada linha por orçamentos reais para as datas e o percurso que queres mesmo fazer."
           ],
           "tips": [
-            "Orça as datas exatas",
-            "Separa o aluguer do veículo",
+            "Vê os preços das datas exatas",
+            "Conta o aluguer do veículo à parte",
             "Guarda uma reserva para emergências"
           ]
         },
         {
           "heading": "Um orçamento que aguenta uma mudança de planos",
           "body": [
-            "Tem sempre pelo menos uma opção legal de noite paga e dinheiro suficiente para mais um depósito de combustível. O campismo gratuito não acaba com a necessidade de duches, lavandaria, água, reparações ou uma ou outra noite num parque com todos os serviços para recarregar baterias.",
-            "Revê o que gastas de facto de poucos em poucos dias. Corrigir um pequeno desvio na primeira semana é mais fácil do que cancelar a melhor parte da viagem na quarta."
+            "Tem sempre pelo menos uma alternativa legal para uma noite paga e dinheiro para mais um depósito de combustível. O <a data-guide=\"is-free-camping-legal-australia\">campismo gratuito</a> não acaba com a necessidade de duches, lavandaria, água, reparações ou uma ou outra noite num parque com todos os serviços para pôr tudo em dia.",
+            "De poucos em poucos dias, revê o que gastaste de facto. Corrigir um pequeno desvio na primeira semana é mais fácil do que cancelar a melhor parte da viagem na quarta."
           ],
           "tips": []
         },
@@ -5354,51 +5592,51 @@
           "heading": "Para onde vai realmente o dinheiro",
           "body": [
             "Na maioria das viagens de carro, a ordem é veículo, combustível, comida, parques de campismo e atividades. Os parques de campismo costumam pesar menos do que se espera e o combustível muito mais, e é por isso que escolher um percurso mais lento poupa mais do que escolher sítios mais baratos.",
-            "Essa ordem diz-te onde procurar quando o orçamento derrapa. Trocar um lugar de campismo de 40 AUD por um gratuito poupa menos do que cortar um desvio de quinhentos quilómetros, e ainda te custa um duche.",
-            "As atividades são a outra rubrica silenciosa. Uma saída ao recife, um voo panorâmico sobre Uluru ou um cruzeiro no Kimberley podem, cada um, valer vários dias de viagem normal, por isso decide com antecedência quais são as duas ou três que valem a pena."
+            "Essa ordem diz-te onde procurar quando o orçamento derrapa. Trocar um lugar de campismo de quarenta dólares por um gratuito poupa menos do que cortar um desvio de quinhentos quilómetros, e ainda te custa um duche.",
+            "As atividades são a outra despesa que cresce sem se dar por isso. Uma ida ao recife, um voo panorâmico sobre Uluṟu ou um cruzeiro no Kimberley podem custar, cada um, o mesmo que vários dias de viagem normal, por isso decide com antecedência quais são as duas ou três que valem a pena."
           ],
           "tips": [
-            "O combustível costuma pesar mais do que o alojamento",
-            "Um desvio custa mais do que muitas noites de campismo",
+            "O combustível pesa mais que o alojamento",
+            "Um desvio custa mais que várias noites pagas",
             "Escolhe as grandes atividades com antecedência"
           ]
         },
         {
           "heading": "Custos que só aparecem quando chegas",
           "body": [
-            "A redução da franquia do veículo, as taxas de entrega noutra cidade, um cartão SIM local, os passes de parques nacionais em vários estados e a caução cativada no cartão são valores reais que raramente entram num orçamento diário. Juntos, acrescentam várias centenas de dólares a uma quinzena.",
-            "Os passes dos parques, em particular, apanham muita gente desprevenida. Vários estados cobram a entrada do veículo à parte do campismo, e um passe para vários parques compensa quase sempre mais do que pagar entradas diárias quando visitas mais de dois.",
-            "A quarentena entre estados também tem um pequeno custo: os produtos deitados fora nas fronteiras são dinheiro gasto duas vezes se fizeres compras antes de atravessar em vez de depois."
+            "A redução da franquia do seguro do veículo, o suplemento de devolução noutro local, um cartão SIM local, os passes dos parques nacionais em vários estados e a caução cativada no cartão são valores reais que raramente entram num orçamento diário. Juntos, acrescentam várias centenas de dólares a uma quinzena.",
+            "Os passes dos parques, sobretudo, apanham muita gente desprevenida. Vários estados cobram a entrada do veículo à parte do campismo, e um passe para vários parques compensa quase sempre muito mais do que pagar entradas diárias a partir do momento em que visitas mais de dois.",
+            "A quarentena entre estados também tem um pequeno custo: a fruta e os legumes deitados fora na fronteira são dinheiro gasto duas vezes, se fizeres as compras antes de atravessar em vez de depois."
           ],
           "tips": [
             "A redução da franquia é um custo real",
-            "A entrada nos parques paga-se muitas vezes à parte",
-            "Faz compras depois das fronteiras de quarentena"
+            "Entrada nos parques, muitas vezes à parte",
+            "Faz compras depois da fronteira de quarentena"
           ]
         },
         {
-          "heading": "Três orçamentos diários honestos",
+          "heading": "Três orçamentos diários, sem ilusões",
           "body": [
-            "Um viajante poupado que cozinha quase tudo, alterna campismo gratuito com lugares baratos em parques nacionais e faz distâncias moderadas pode contar com 80 a 130 AUD por pessoa e por dia, sem contar as deslocações de longa distância.",
-            "Uma abordagem intermédia, com um parque de caravanas a cada três noites, algumas refeições fora e umas quantas atividades pagas, fica mais ou menos entre 160 e 260 AUD. Uma viagem pensada para o conforto, com bungalows e restaurantes frequentes, vai bem além disso.",
-            "Nenhum destes valores inclui o próprio veículo, os voos ou a travessia para Tasmania. Orça-os à parte, porque são valores fixos elevados que distorcem uma média diária."
+            "Um viajante poupado, que cozinha quase tudo, alterna <a data-guide=\"is-free-camping-legal-australia\">áreas de campismo gratuitas</a> com lugares baratos em parques nacionais e faz distâncias moderadas, pode contar com 80 a 130 AUD por pessoa e por dia, sem as deslocações de longa distância.",
+            "Um orçamento intermédio, com um <a data-guide=\"caravan-park-vs-holiday-park\">parque de campismo</a> uma noite em cada três, algumas refeições fora e umas quantas atividades pagas, fica mais ou menos entre 160 e 260 AUD. Uma viagem a pensar no conforto, com bungalows e idas frequentes ao restaurante, vai bem além disso.",
+            "Nenhum destes valores inclui o próprio veículo, os voos ou a travessia para a <a data-guide=\"camping-rules-tasmania\">Tasmania</a>. Calcula-os à parte, porque são valores fixos elevados que distorcem uma média diária."
           ],
           "tips": [
             "Poupado: 80 a 130 AUD por dia",
             "Intermédio: 160 a 260 AUD",
-            "Orça o veículo à parte"
+            "Calcula o veículo à parte"
           ]
         },
         {
           "heading": "Gerir o dinheiro enquanto cá estás",
           "body": [
-            "O pagamento sem contacto com cartão é aceite quase em todo o lado, até nos pequenos cafés do interior, mas as sobretaxas de um a dois por cento são comuns e aplicadas na caixa, sem aparecerem no menu. O dinheiro vivo continua a ser preciso para as caixas de pagamento por confiança, as bancas à beira da estrada e algumas roadhouses remotas.",
-            "As comissões por transações em moeda estrangeira são a sangria silenciosa. Um cartão de viagem ou um banco que não as cobre poupa um valor considerável num mês e tira-te a tentação de aceitar a conversão dinâmica de moeda no terminal, que tem sempre a pior taxa.",
-            "Guarda um pequeno fundo de emergência totalmente separado do orçamento da viagem, porque o objetivo é nunca teres de decidir se um custo inesperado cabe nas contas."
+            "O pagamento contactless com cartão é aceite quase em todo o lado, incluindo os pequenos cafés fora das grandes cidades, e desde 1 de outubro de 2026 os estabelecimentos já não podem acrescentar sobretaxa aos pagamentos eftpos, Mastercard ou Visa. O dinheiro vivo continua a ser preciso nas caixas de pagamento por confiança (honesty boxes), nas bancas à beira da estrada e em algumas roadhouses remotas.",
+            "As comissões por pagamentos em moeda estrangeira vão levando dinheiro sem dares por isso. Um cartão de viagem ou um banco que não as cobre poupa um valor considerável num mês e tira-te a tentação de aceitar a conversão dinâmica de moeda no terminal, que tem sempre a pior taxa de câmbio.",
+            "Tem um pequeno fundo de emergência totalmente separado do orçamento da viagem: a ideia é nunca teres de decidir se um custo inesperado cabe nas contas."
           ],
           "tips": [
             "As sobretaxas do cartão aparecem na caixa",
-            "Leva dinheiro para as caixas de confiança",
+            "Leva dinheiro vivo para as honesty boxes",
             "Recusa a conversão dinâmica de moeda"
           ]
         }
@@ -5406,48 +5644,48 @@
       "faq": [
         [
           "Quanto custa viajar pela Austrália em 2026?",
-          "O total depende sobretudo da distância, porque é no combustível e nos voos domésticos que vai o dinheiro. O guia apresenta referências datadas em dólares australianos para transportes, alojamento e comida, convertidas em dez moedas."
+          "O total depende da distância mais do que de qualquer outra coisa, porque é no combustível e nos voos domésticos que vai o dinheiro. O guia dá referências em dólares australianos, com a data de verificação, para transportes, alojamento e comida, convertidas em dez moedas."
         ],
         [
           "Viajar pela Austrália é caro?",
-          "Sim, sobretudo o alojamento, as refeições fora e as grandes distâncias. O campismo e cozinhar por conta própria são o que deixa de ser caro, e é por isso que a diferença entre uma viagem a acampar e uma viagem de hotel é aqui invulgarmente grande."
+          "Sim, sobretudo no alojamento, nas refeições fora e nas grandes distâncias. É a acampar e a cozinhar que deixa de ser caro, e é por isso que a diferença entre uma viagem a acampar e uma viagem de hotel é aqui invulgarmente grande."
         ]
       ],
       "sources": [
         {
-          "label": "Comparação do custo de vida australiano na Nomads.com"
+          "label": "Nomads.com: comparação do custo de vida na Austrália"
         },
         {
-          "label": "Guia de orçamento da Tourism Australia"
+          "label": "Tourism Australia: guia de orçamento"
         },
         {
-          "label": "Referências de custos da Numbeo para a Austrália, junho de 2026"
+          "label": "Numbeo: referências de custos na Austrália, junho de 2026"
         },
         {
-          "label": "Taxas de câmbio do Reserve Bank of Australia"
+          "label": "Reserve Bank of Australia: taxas de câmbio"
         }
       ],
       "priceTable": {
-        "note": "Totais diários ilustrativos construídos a partir dos preços datados de cada componente neste guia. As deslocações de longa distância, o aluguer do veículo e os voos internacionais ficam à parte.",
+        "note": "Totais diários indicativos, montados a partir dos preços com data de cada rubrica deste guia. As deslocações de longa distância, o aluguer do veículo e os voos internacionais ficam à parte.",
         "rows": [
           {
-            "label": "Campista ou viajante de hostel económico",
+            "label": "Campista ou viajante de hostel, orçamento apertado",
             "unit": "por pessoa/dia"
           },
           {
-            "label": "Viajante independente com orçamento intermédio",
+            "label": "Viajante independente, orçamento intermédio",
             "unit": "por pessoa/dia"
           },
           {
-            "label": "Viagem de carro confortável, com hotéis",
+            "label": "Viagem de carro com conforto e hotéis",
             "unit": "por pessoa/dia"
           },
           {
-            "label": "Viagem económica de duas semanas",
+            "label": "Duas semanas com orçamento apertado",
             "unit": "por pessoa"
           },
           {
-            "label": "Viagem de quatro semanas com orçamento intermédio",
+            "label": "Quatro semanas com orçamento intermédio",
             "unit": "por pessoa"
           }
         ]
@@ -6002,251 +6240,388 @@
       }
     },
     "camping-fees-australia-2026": {
-      "title": "Preços do campismo na Austrália: parques nacionais ou holiday parks",
-      "description": "Quanto podem custar as zonas de campismo simples, com serviços e com eletricidade, e o que cada tarifa por noite inclui ou não inclui.",
+      "title": "Preços do campismo na Austrália 2026: parques por estado",
+      "description": "Campismo nos parques nacionais em 2026: 7,75 AUD por pessoa em Queensland, 10 a 20 AUD por adulto na WA e no NT, desde 16 AUD por lugar em Victoria.",
       "region": "Austrália",
       "imageAlt": "Caravana e tenda num parque de campismo australiano",
-      "intro": "Um lugar de campismo pode custar uns poucos dólares por pessoa ou mais do que um quarto simples. O preço reflete a localização, as comodidades, a época, as condições de reserva e se a entidade cobra por lugar ou por pessoa.",
+      "intro": "O campismo nos parques nacionais australianos em 2026 vai do gratuito a mais de 40 AUD por noite nos locais com mais serviços e mais procurados, como Tidal River, em Wilsons Promontory: Queensland cobra 7,75 AUD por pessoa, a Western Australia e o Northern Territory 10 a 20 AUD por adulto, os parques de campismo com reserva de Victoria, a metade do preço, começam em 16 AUD por lugar, e alguns parques de NSW não cobram nada além de 6 AUD de custos de reserva. A entrada no parque, os passes e o facto de a taxa ser por pessoa ou por lugar alteram o total mais do que o preço anunciado.",
       "sections": [
         {
-          "heading": "Percebe a unidade de cobrança",
+          "heading": "Taxas dos parques nacionais por estado",
           "body": [
-            "Uma tarifa por pessoa numa zona de campismo a que só se chega a pé e uma tarifa por lugar com eletricidade não se podem ordenar sem saber o tamanho do grupo. Soma as taxas por pessoa extra, por veículo, de entrada no parque e de reserva antes de comparar.",
-            "As comodidades contam. Casas de banho, duches, eletricidade, água, lavandaria, pontos de despejo e uma localização prática perto da terra podem substituir outras despesas."
+            "Não existe um passe nacional para os parques. Cada estado tem o seu sistema de reservas, a sua escala de taxas e o seu passe, e um passe comprado num estado não serve no seguinte.",
+            "Em vários estados a entrada e o campismo cobram-se à parte, por isso uma taxa baixa por noite pode sair mais cara depois de somada a entrada. A <a data-guide=\"camping-rules-tasmania\">Tasmania</a> exige um Parks Pass em todos os parques nacionais, enquanto South Australia dispensa a entrada do veículo na maioria das reservas de parques de campismo."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Taxas de campismo e de entrada nos parques nacionais por estado, verificadas em outubro de 2026",
+            "head": [
+              "Estado",
+              "Taxa de campismo",
+              "Entrada do veículo",
+              "Passe principal"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "Definida por parque de campismo; alguns são gratuitos, com 6 AUD de custos de reserva",
+                "45 parques cobram, por exemplo 8 AUD por dia em Myall Lakes",
+                "All Parks Pass, 190 AUD por ano"
+              ],
+              [
+                "Victoria",
+                "Metade do preço em 131 parques de campismo com reserva até julho de 2027, desde 16 AUD por lugar",
+                "A maioria dos parques não cobra entrada",
+                "Dispensável na maioria dos parques"
+              ],
+              [
+                "Queensland",
+                "7,75 AUD por pessoa ou 31 AUD por família e noite",
+                "Sem taxa de entrada geral, mas conduzir em K'gari e noutras ilhas de areia exige uma licença paga de acesso de veículos",
+                "Licença de acesso de veículos em K'gari e noutras ilhas de areia"
+              ],
+              [
+                "South Australia",
+                "Ikara-Flinders Ranges desde 12,30 AUD por noite",
+                "14,40 AUD por veículo em Ikara, dispensados na maioria das reservas",
+                "Parks Passes; Desert Parks Pass"
+              ],
+              [
+                "Western Australia",
+                "10, 15 ou 20 AUD por adulto, conforme as comodidades",
+                "17 AUD por veículo em Karijini e Cape Range",
+                "All Parks Pass, 130 AUD por ano"
+              ],
+              [
+                "Tasmania",
+                "Definida por parque de campismo; Mount Field 24 ou 35 AUD a partir de 3 de novembro de 2026",
+                "Parks Pass obrigatório: 49,15 AUD por dia",
+                "Holiday pass, 98,35 AUD por dois meses"
+              ],
+              [
+                "Northern Territory",
+                "10, 15 ou 20 AUD por adulto, conforme a categoria",
+                "NT Parks Visitor Pass para visitantes",
+                "Passe anual de visitante, 60 AUD"
+              ],
+              [
+                "ACT",
+                "Há taxas em todos os parques de campismo com reserva",
+                "A entrada em Namadgi é gratuita",
+                "Nenhum"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Por pessoa ou por lugar: um exemplo em contas",
+          "body": [
+            "Imagina dois adultos e duas crianças de 8 e 10 anos, durante três noites. Um lugar num parque nacional de <a data-guide=\"camping-rules-queensland\">Queensland</a> custa 93 AUD à taxa familiar de 31 AUD, um parque de campismo da Western Australia com comodidades básicas custa 120 AUD (15 AUD por adulto e 5 AUD por criança, por noite), e um parque de campismo de categoria A do Northern Territory custa 114 AUD à taxa familiar de 38 AUD.",
+            "Um lugar com reserva em Victoria a partir de 16 AUD por noite fica em cerca de 48 AUD nas mesmas três noites, porque <a data-guide=\"camping-rules-victoria\">Victoria</a> cobra por lugar e não por pessoa. A ordem inverte-se para quem viaja sozinho, que paga 23,25 AUD em Queensland e 45 AUD no mesmo parque de campismo da WA.",
+            "Faz as contas para o teu grupo e as tuas noites e depois soma a entrada, a eletricidade e os custos de reserva. Um lugar com eletricidade e duches pode compensar mais do que uma área de campismo básica mais barata, quando contas o que ele substitui."
+          ],
+          "tips": [
+            "Conta o teu grupo, não o preço anunciado",
+            "As famílias invertem a opção mais barata",
+            "Soma a entrada e os custos de reserva"
+          ]
+        },
+        {
+          "heading": "Holiday parks e parques de campismo comerciais",
+          "body": [
+            "Os holiday parks (parques de campismo com bungalows, piscina e mais serviços) e os <a data-guide=\"caravan-park-vs-holiday-park\">caravan parks</a> comerciais fixam os seus próprios preços, em regra por lugar para um número de pessoas indicado, com suplementos para mais hóspedes, eletricidade e datas de época alta. Consulta a página de preços do próprio parque e as regras de estadia mínima nas férias escolares e nos fins de semana prolongados.",
+            "As promoções anunciadas exigem muitas vezes uma estadia mínima ou datas limitadas, por isso toma-as como ofertas e não como preços normais. Na AussieCamps, os holiday parks listados pelo parceiro de reservas BookEasy podem ser consultados e reservados sem o Pass."
+          ],
+          "tips": [
+            "Preço por lugar para um número fixo de pessoas",
+            "A época alta traz estadias mínimas",
+            "As promoções não são preços normais"
+          ]
+        },
+        {
+          "heading": "Alterna noites pagas e simples com critério",
+          "body": [
+            "Uma noite com poucas comodidades resulta quando o veículo e os mantimentos estão em dia. Uma noite com serviços justifica o preço quando os depósitos, as baterias, a roupa e as pessoas precisam todos de recarregar.",
+            "Tem guardada uma alternativa paga e legal perto das zonas gratuitas ou baratas mais procuradas, para que um lugar cheio ou uma regra local nova nunca te obriguem a conduzir até tarde sem segurança."
           ],
           "tips": []
         },
         {
-          "heading": "Promoções não são tarifas normais",
+          "heading": "Campismo gratuito: quanto custa de facto",
           "body": [
-            "Os exemplos comerciais podem exigir uma estadia mínima, datas restritas ou ocupação por duas pessoas. Regista-os como ofertas observadas e não como uma média nacional garantida.",
-            "As tarifas públicas também mudam com o ano fiscal e com a categoria. Abre a página exata do parque de campismo antes de partires."
+            "O <a data-guide=\"is-free-camping-legal-australia\">campismo gratuito</a> poupa dinheiro a sério quando o veículo está preparado e o percurso já passa por sítios legais. Deixa de poupar quando fazes mais sessenta quilómetros para chegar a um.",
+            "Os custos escondidos são os duches, a lavandaria, a água, os <a data-guide=\"dump-points-australia-guide\">pontos de despejo</a> e as noites pagas que, mesmo com um veículo autónomo, acabam por ser precisas. Põe no orçamento mais noites pagas do que as que tencionas fazer.",
+            "Uma só multa de uma câmara municipal por acampar onde é proibido pode anular semanas de poupança, por isso gratuito só é gratuito onde a entidade gestora do terreno o permite."
           ],
           "tips": [
-            "Confirma a unidade da tarifa",
-            "Confirma o que está incluído",
-            "Lê as condições de chegada"
-          ]
-        },
-        {
-          "heading": "Usa as noites pagas e as simples de forma pensada",
-          "body": [
-            "Uma noite com poucas comodidades funciona quando o veículo e os mantimentos estão prontos. Uma noite com serviços vale a pena quando os depósitos, as baterias, a roupa e as pessoas precisam todos de recarregar.",
-            "Tem guardada uma alternativa legal paga perto das zonas gratuitas ou baratas mais procuradas. Lugares esgotados ou restrições locais alteradas não devem obrigar-te a conduzir tarde e sem segurança."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "As tarifas dos parques nacionais variam por estado",
-          "body": [
-            "Cada estado gere o seu próprio sistema de parques, com a sua estrutura de tarifas, a sua plataforma de reservas e os seus passes. Não existe um passe nacional de campismo nos parques, e um passe comprado num estado não vale nada no seguinte.",
-            "Vários estados cobram a entrada do veículo à parte do campismo, por isso um lugar anunciado com uma tarifa baixa por noite pode sair bem mais caro depois de somada a entrada. Confirma os dois valores antes de comparar opções.",
-            "Os passes para vários parques ou anuais compensam a partir do momento em que planeias visitar mais de dois ou três parques num estado. Raramente cobrem as tarifas de campismo, só a entrada."
-          ],
-          "tips": [
-            "Não existe um passe nacional de parques",
-            "A entrada cobra-se muitas vezes à parte",
-            "Os passes cobrem a entrada, não o campismo"
-          ]
-        },
-        {
-          "heading": "O campismo gratuito e o que custa realmente",
-          "body": [
-            "O campismo gratuito poupa dinheiro a sério quando o veículo está preparado para isso e o percurso já passa por zonas adequadas. Deixa de poupar quando conduzes mais sessenta quilómetros para chegar a um local gratuito.",
-            "Os custos escondidos são os duches, a lavandaria, a água, os pontos de despejo e uma ou outra noite paga que a autonomia continua a exigir. Orça noites pagas com mais frequência do que planeias usá-las.",
-            "Uma multa por acampar numa zona proibida apaga semanas de poupança de uma só vez, e as câmaras municipais da costa passam-nas com regularidade. Gratuito só é gratuito onde é legal."
-          ],
-          "tips": [
-            "Não faças muitos quilómetros para poupar uma tarifa",
+            "Não te desvies muito só para não pagar",
             "O campismo gratuito também tem custos",
-            "Uma multa apaga semanas de poupança"
+            "Uma multa anula semanas de poupança"
           ]
         },
         {
-          "heading": "Comparar por pessoa com por lugar",
+          "heading": "Custos de reserva, reembolsos e extras",
           "body": [
-            "Os lugares nos parques nacionais cobram muitas vezes por pessoa e os parques comerciais por lugar, com uma ocupação indicada. A opção mais barata inverte-se por isso com o tamanho do grupo, e as famílias erram nisto com frequência.",
-            "Faz as contas para o teu grupo e as tuas noites em vez de comparares tarifas de destaque. Dois adultos e duas crianças dão um resultado muito diferente do de um viajante sozinho nas mesmas duas opções.",
-            "Depois soma a eletricidade, os duches e as taxas de reserva. Um lugar com eletricidade e comodidades pode compensar mais do que um lugar sem eletricidade mais barato, quando contas o que ele substitui."
+            "O NSW National Parks acrescenta um custo de reserva não reembolsável a cada reserva de parque de campismo, e de 6 AUD nos parques de campismo sem taxa de campismo. Cancelar com 31 dias ou mais de antecedência reembolsa 75% da taxa de campismo, e cancelamentos mais tardios 50%.",
+            "<a data-guide=\"camping-rules-victoria\">Victoria</a> deixa uma reserva incluir até três lugares no mesmo parque de campismo, e cada lugar a que se chega de carro inclui um veículo na taxa. A Tasmania passa para um novo sistema de reservas, o Parks Online Booking System, a 3 de novembro de 2026, com taxas mais altas em parques de campismo como Fortescue Bay e Mount Field.",
+            "Veículos, atrelados e visitantes extra podem acrescentar, cada um, um custo. Lê na página de reservas o que a taxa inclui antes de pagares."
           ],
           "tips": [
-            "Por pessoa ou por lugar depende do grupo",
-            "Faz as contas para o teu grupo real",
-            "Conta o que a tarifa substitui"
+            "Os custos de reserva de NSW não são reembolsáveis",
+            "Victoria: até três lugares por reserva",
+            "O sistema da Tasmania muda a 3 de novembro"
           ]
         },
         {
           "heading": "Os sistemas de reserva variam por estado",
           "body": [
-            "Cada estado tem a sua plataforma de reservas, com regras próprias sobre a antecedência com que podes reservar, as condições de cancelamento e se os lugares são atribuídos ou livres. Aprender o sistema dos estados do teu percurso poupa muitas frustrações.",
-            "Os parques mais procurados abrem as reservas em janelas sucessivas e os melhores lugares desaparecem minutos depois da abertura. Quando um lugar concreto importa, descobre a data de abertura e reserva nesse momento, e não uma semana depois.",
-            "Guarda as confirmações de reserva offline, porque os parques de campismo com pior rede são muitas vezes aqueles onde um guarda te pede para ver uma."
+            "<a data-guide=\"camping-rules-queensland\">Queensland</a> e South Australia abrem as reservas dos parques 12 meses antes, o Park Stay WA da Western Australia 180 dias antes, e Victoria liberta os lugares em lotes trimestrais. Aprende o sistema de cada estado do teu percurso antes de precisares dele.",
+            "Os locais mais procurados esgotam depressa. Os parques de campismo da Ningaloo Coast abrem um mês de cada vez, à primeira terça-feira, às 10h da hora de Perth, por isso marca a data de abertura quando um local concreto é importante.",
+            "Guarda as confirmações de reserva no telemóvel, porque os parques de campismo com pior cobertura de rede são muitas vezes aqueles em que um guarda pede para ver uma."
           ],
           "tips": [
-            "Cada estado tem a sua plataforma",
-            "As janelas de reserva esgotam depressa",
-            "Descobre a data de abertura dos parques populares"
+            "Queensland e SA: 12 meses antes",
+            "Park Stay WA: 180 dias antes",
+            "Marca as datas de abertura dos locais concorridos"
           ]
         }
       ],
       "faq": [
         [
-          "Quanto custa acampar por noite na Austrália?",
-          "Vai do gratuito, em muitas áreas de descanso municipais e recintos de feiras (showgrounds), a uma tarifa modesta por pessoa nos parques de campismo dos parques nacionais, até um lugar num parque de caravanas que custa várias vezes isso. O guia indica o preço de cada patamar com valores datados."
+          "Quanto custa uma noite de campismo na Austrália?",
+          "Nos parques nacionais, de nada a mais de 40 AUD por noite nos locais com mais serviços e mais procurados em 2026: Queensland cobra 7,75 AUD por pessoa, a WA e o NT 10 a 20 AUD por adulto, os parques de campismo com reserva de Victoria, a metade do preço, começam em 16 AUD por lugar, e alguns parques de NSW cobram apenas 6 AUD de custos de reserva. Os holiday parks comerciais fixam os seus próprios preços."
         ],
         [
-          "Paga-se a entrada no parque além da tarifa de campismo?",
-          "Nalguns estados, sim. Western Australia, Tasmania e partes do Northern Territory cobram a entrada do veículo à parte da tarifa de campismo, e um passe de vários dias ou de férias sai normalmente mais barato do que pagar todos os dias."
+          "Paga-se a entrada no parque além da taxa de campismo?",
+          "Em alguns estados. A Tasmania exige um Parks Pass em todos os parques nacionais, a WA cobra 17 AUD por veículo em parques como Karijini, 45 parques de NSW cobram a entrada de veículos, e os visitantes do NT precisam de um Parks Visitor Pass. South Australia dispensa a entrada na maioria das reservas de parques de campismo, e Queensland não tem taxa de entrada geral, mas conduzir em K'gari e nas outras ilhas de areia exige uma licença paga de acesso de veículos."
         ]
       ],
       "sources": [
         {
-          "label": "Tarifas da Parks Victoria 2025–27"
+          "label": "Queensland Parks: reservas e taxas de campismo"
         },
         {
-          "label": "Oferta do BIG4 Harrington"
+          "label": "NSW National Parks: parques com taxa de entrada"
         },
         {
-          "label": "Oferta do BIG4 Sandstone Point"
+          "label": "NSW National Parks: passes anuais"
+        },
+        {
+          "label": "NSW National Parks: condições de reserva"
+        },
+        {
+          "label": "Parks Victoria: informação sobre reservas"
+        },
+        {
+          "label": "Parks Victoria: taxas e custos 2026-27"
+        },
+        {
+          "label": "Ikara-Flinders Ranges National Park"
+        },
+        {
+          "label": "Explore Parks WA: taxas de campismo"
+        },
+        {
+          "label": "Karijini National Park"
+        },
+        {
+          "label": "Tasmania: passes e taxas de entrada nos parques"
+        },
+        {
+          "label": "Mount Field: campismo"
+        },
+        {
+          "label": "NT: taxas de campismo"
+        },
+        {
+          "label": "NT Parks Visitor Pass: passe de visitante dos parques do Northern Territory"
+        },
+        {
+          "label": "ACT Parks: reservas e licenças"
+        },
+        {
+          "label": "NSW National Parks: parques de campismo de Corowa (6 AUD de custos de reserva)"
+        },
+        {
+          "label": "Parks Victoria: regras de veículos nos lugares de campismo"
+        },
+        {
+          "label": "National Parks SA: perguntas frequentes sobre reservas"
+        },
+        {
+          "label": "National Parks SA: o essencial sobre campismo"
+        },
+        {
+          "label": "Explore Parks WA: onde e quando acampar"
+        },
+        {
+          "label": "Cape Range National Park"
+        },
+        {
+          "label": "WA: passes dos parques"
+        },
+        {
+          "label": "Fortescue Bay: campismo"
+        },
+        {
+          "label": "Namadgi National Park"
+        },
+        {
+          "label": "Queensland: licenças de acesso de veículos"
+        },
+        {
+          "label": "NT Parks: sistema de reservas"
         }
       ],
       "priceTable": {
-        "note": "Tabela oficial e exemplos datados de promoções comerciais. A entrada no parque, as taxas de reserva, os hóspedes extra e os veículos podem ser cobrados à parte.",
+        "note": "Taxas oficiais de campismo nos parques em 2026, da entidade de parques de cada estado. A entrada no parque, os custos de reserva, os veículos extra e os passes podem ser cobrados à parte.",
         "rows": [
           {
-            "label": "Zona de campismo selecionada com acesso a pé",
+            "label": "Lugar em parque de Queensland",
             "unit": "por pessoa/noite"
           },
           {
-            "label": "Zona de campismo de categoria intermédia",
-            "unit": "por lugar/noite"
+            "label": "Lugar em parque de Queensland, família",
+            "unit": "por família/noite"
           },
           {
-            "label": "Zona de campismo com mais serviços",
-            "unit": "por lugar/noite"
+            "label": "Parque de campismo de NSW sem taxa de campismo",
+            "unit": "custos de reserva"
           },
           {
-            "label": "Lugar com eletricidade em Tidal River, época alta",
-            "unit": "por lugar/noite"
+            "label": "Parque de campismo de Victoria com reserva, a metade do preço",
+            "unit": "por lugar/noite, desde"
           },
           {
-            "label": "Oferta comercial de lugar com eletricidade",
+            "label": "Lugar em Ikara-Flinders Ranges",
+            "unit": "por noite, desde"
+          },
+          {
+            "label": "Parque de campismo da Western Australia",
+            "unit": "por adulto/noite"
+          },
+          {
+            "label": "Parque de campismo do Northern Territory",
+            "unit": "por adulto/noite"
+          },
+          {
+            "label": "Mount Field, Tasmania, a partir de 3 de novembro de 2026",
             "unit": "por lugar/noite"
           }
         ]
       }
     },
     "australia-road-trip-fuel-cost-2026": {
-      "title": "Quanto custa o combustível numa viagem de carro pela Austrália em 2026",
-      "description": "Calcula a gasolina ou o gasóleo a partir da distância e do consumo, com as referências oficiais atuais das cidades e uma margem para as estradas remotas.",
+      "title": "Preço do combustível na Austrália: custo da viagem de carro em 2026",
+      "description": "Calcula a gasolina ou o gasóleo de uma viagem pela Austrália com a distância, o consumo, a referência oficial das cidades e uma margem para as estradas remotas.",
       "region": "Austrália",
       "imageAlt": "Veículo a abastecer durante uma viagem de carro pela Austrália",
-      "intro": "É no combustível que a distância se transforma em dinheiro. Os dados oficiais do Fuel Plan de 5 de agosto de 2026 punham a média das cinco maiores cidades em 2,08 AUD por litro de gasolina e 2,47 AUD por litro de gasóleo, e nas zonas remotas os preços podem ser bem mais altos.",
+      "intro": "É no combustível que a distância se transforma em dinheiro. Segundo os dados oficiais do Fuel Plan, do Governo australiano, a 5 de agosto de 2026 a média das cinco maiores cidades era de 2,08 AUD por litro de gasolina e 2,47 AUD por litro de gasóleo, e nas zonas remotas os preços podem ser bastante mais altos.",
       "sections": [
         {
-          "heading": "O cálculo",
+          "heading": "Como fazer as contas",
           "body": [
             "Multiplica os quilómetros pelos litros aos 100 quilómetros, divide por 100 e multiplica pelo preço por litro. Uma viagem de 1.000 km a 12 l/100 km gasta 120 litros.",
-            "Usa, sempre que possível, o consumo real do veículo carregado. Carga no tejadilho, reboque, vento, velocidade, relevo e ar condicionado podem levá-lo além do valor do catálogo."
+            "Sempre que possível, usa o consumo real do veículo carregado. A carga no tejadilho, o reboque, o vento, a velocidade, o relevo e o ar condicionado podem pô-lo acima do valor do catálogo."
           ],
           "tips": []
         },
         {
-          "heading": "As médias das capitais não são preços remotos",
+          "heading": "A média das capitais não vale para as zonas remotas",
           "body": [
-            "A referência oficial das cidades é um ponto de partida transparente. As roadhouses remotas têm outros custos e são demasiado importantes para as saltares só para ires atrás de um preço mais baixo mais à frente.",
-            "Abastece com prudência, sabe qual é o próximo posto fiável e inclui as paragens para combustível no plano da viagem."
+            "A referência oficial das cidades é um ponto de partida claro. As roadhouses (postos de abastecimento isolados no Outback) das zonas remotas têm outros custos e são importantes demais para passares por elas sem abastecer só para ires atrás de um preço mais baixo lá mais à frente.",
+            "Abastece com folga, sabe onde fica o próximo posto em que podes confiar e inclui as paragens para abastecer no plano da viagem."
           ],
           "tips": [
-            "Usa o consumo com carga",
+            "Conta com o consumo em carga",
             "Junta uma margem para as zonas remotas",
-            "Nunca deixes o depósito esvaziar"
+            "Nunca esgotes o depósito"
           ]
         },
         {
-          "heading": "Reduzir o custo sem reduzir a segurança",
+          "heading": "Gastar menos sem perder segurança",
           "body": [
-            "Conduzir mais devagar e com suavidade e ter a pressão certa nos pneus pode ajudar, mas a pressão tem de ser adequada ao veículo, à carga e às indicações do fabricante. Nunca circules em ponto morto de forma perigosa nem transportes combustível num recipiente inadequado.",
-            "A maior poupança vem muitas vezes de fazer menos quilómetros desnecessários. Agrupa as paragens próximas e evita atravessar a mesma cidade ou o mesmo troço remoto várias vezes."
+            "Conduzir mais devagar e com suavidade e ter os pneus com a pressão certa pode ajudar, mas a pressão tem de ser a adequada ao veículo, à carga e às indicações do fabricante. Nunca circules em ponto morto de forma insegura nem leves combustível num recipiente inadequado.",
+            "A maior poupança está muitas vezes em fazer menos quilómetros desnecessários. Junta as paragens que ficam perto umas das outras e evita atravessar várias vezes a mesma cidade ou o mesmo troço remoto."
           ],
           "tips": []
         },
         {
           "heading": "Onde o combustível é mais caro",
           "body": [
-            "Os preços são mais baixos nas capitais e mais altos nas roadhouses remotas, onde a diferença pode ser enorme. O Nullarbor, o Kimberley, o centro da Austrália e Cape York têm todos acréscimos consideráveis.",
-            "Esse acréscimo nunca é razão para esticar um depósito. Vinte litros a mais a preço alto são uma ninharia comparados com ficar sem combustível a centenas de quilómetros de qualquer lado e sem rede.",
-            "As apps de preços de combustível e os vales de desconto dos supermercados poupam dinheiro a sério nas zonas urbanas e regionais, mas deixam de contar nas zonas remotas, onde não há postos concorrentes."
+            "Os preços são mais baixos nas capitais e mais altos nas roadhouses remotas, onde o sobrepreço pode ser enorme. O Nullarbor, o Kimberley, o centro da Austrália e Cape York têm todos acréscimos consideráveis.",
+            "Esse sobrepreço nunca é razão para esticar o depósito. Vinte litros a mais a preço alto custam uma ninharia comparado com ficar sem combustível a centenas de quilómetros de tudo e <a data-guide=\"camping-without-phone-signal\">sem rede</a>.",
+            "As apps de preços de combustível e os vales de desconto dos supermercados poupam dinheiro a sério nas cidades e nas vilas, mas quase não contam nas zonas remotas, onde não há outro posto a fazer concorrência."
           ],
           "tips": [
-            "Nas zonas remotas os acréscimos são grandes",
-            "Nunca estiques um depósito para poupar",
+            "Nas zonas remotas, o sobrepreço é grande",
+            "Nunca estiques o depósito para poupar",
             "As apps de combustível só ajudam na cidade"
           ]
         },
         {
-          "heading": "O que faz realmente variar o consumo",
+          "heading": "O que faz mesmo variar o consumo",
           "body": [
-            "A carga, as malas de tejadilho, o vento de frente, as subidas longas, o reboque e a velocidade contam todos, e uma autocaravana carregada contra o vento pode gastar mais um quarto do que o valor do catálogo. O ar condicionado tem, em comparação, um efeito modesto.",
-            "A pressão dos pneus deve ser ajustada ao veículo carregado e não ao vazio. As autocaravanas de aluguer chegam muitas vezes com pouca pressão, o que custa combustível e estabilidade ao mesmo tempo.",
-            "Cada dez quilómetros por hora acima dos noventa custam bastante mais num veículo alto. Nas retas longas, abrandar poupa combustível e reduz a fadiga ao mesmo tempo."
+            "A carga, as caixas de tejadilho, o vento de frente, as subidas longas, o reboque e a velocidade contam todos, e uma campervan carregada contra o vento pode gastar mais um quarto do que o valor do catálogo. Em comparação, o ar condicionado tem pouco efeito.",
+            "A pressão dos pneus deve ser a indicada para o veículo carregado, não vazio. As campervans de aluguer chegam muitas vezes com os pneus com pouca pressão, o que custa combustível e estabilidade ao mesmo tempo.",
+            "Num veículo alto, cada dez quilómetros por hora acima dos noventa, mais coisa menos coisa, custam bastante mais. Nas retas longas, abrandar poupa combustível e reduz o <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">cansaço</a> ao mesmo tempo."
           ],
           "tips": [
             "Ajusta a pressão ao veículo carregado",
-            "O vento de frente gasta mais do que o ar condicionado",
-            "A velocidade pesa mais nos veículos altos"
+            "Vento de frente gasta mais que o ar condicionado",
+            "Nos veículos altos, a velocidade sai cara"
           ]
         },
         {
-          "heading": "Levar combustível e os troços remotos",
+          "heading": "Combustível de reserva e troços remotos",
           "body": [
-            "Quando a distância entre postos ultrapassa a tua autonomia, leva combustível extra em jerricãs homologados, bem presos e ventilados, e nunca dentro da zona habitável do veículo.",
-            "Calcula a tua autonomia real a partir do consumo medido e não do valor do fabricante, e planeia chegar com uma reserva considerável. As roadhouses podem estar fechadas, sem stock ou sem conseguir aceitar cartão.",
-            "Na Austrália remota, o gasóleo encontra-se em geral com mais facilidade do que a gasolina de 98, o que é um argumento prático a favor do gasóleo nas rotas do outback, independentemente do preço."
+            "Quando a distância entre postos é maior do que a tua autonomia, leva combustível extra em <a data-guide=\"road-trip-fuel-planning-australia\">jerricãs homologados</a>, bem presos e com ventilação, e nunca dentro da zona habitável do veículo.",
+            "Calcula a autonomia real a partir do consumo que mediste, e não do valor do fabricante, e planeia chegar com uma boa reserva. As roadhouses podem estar fechadas, sem combustível ou sem conseguir aceitar cartão.",
+            "Na Austrália remota, o gasóleo encontra-se em geral com mais facilidade do que a gasolina premium, o que é um argumento prático a favor do gasóleo nas rotas do Outback, seja qual for o preço do combustível."
           ],
           "tips": [
             "Jerricãs homologados, presos e ventilados",
             "Calcula a autonomia pelo consumo medido",
-            "O gasóleo é mais fácil de encontrar no interior"
+            "Nas zonas remotas há mais gasóleo"
           ]
         },
         {
-          "heading": "Qualidade do combustível e exigências do veículo",
+          "heading": "Qualidade do combustível e o que o veículo exige",
           "body": [
-            "A gasolina de 98 não existe em todas as roadhouses remotas, e algumas só têm gasolina normal e gasóleo. Se o teu veículo exige gasolina de 98, confirma a disponibilidade ao longo do percurso em vez de a dares como certa.",
-            "O gasóleo nas zonas remotas é em geral fiável e está disponível em quase todo o lado, porque é o que usam os camiões e as herdades. É essa disponibilidade, mais do que o preço na bomba, o argumento prático mais forte a favor do gasóleo nas rotas do outback.",
-            "Regista a quilometragem em cada abastecimento, mesmo que não faças mais nada, porque numa semana ficas com um valor real de autonomia e acabas com quase toda a ansiedade com o combustível."
+            "Nem todas as roadhouses remotas têm gasolina premium, e algumas só vendem gasolina normal e gasóleo. Se o teu veículo precisa de gasolina premium, confirma onde a há ao longo do percurso em vez de contares com ela.",
+            "Nas zonas remotas, o gasóleo é em geral fiável e há quase em todo o lado, porque é o que usam os camiões e as stations (grandes herdades de gado). É essa disponibilidade, mais do que o preço na bomba, o argumento prático mais forte a favor do gasóleo nas rotas do Outback.",
+            "Mesmo que não faças mais nada, aponta os quilómetros do conta-quilómetros sempre que abasteces: numa semana tens um valor real de autonomia e acaba-se quase toda a ansiedade com o combustível."
           ],
           "tips": [
-            "A gasolina de 98 nem sempre existe",
-            "Há gasóleo em todas as zonas remotas",
-            "Confirma os combustíveis ao longo do percurso"
+            "Nem sempre há gasolina premium",
+            "Nas zonas remotas há sempre gasóleo",
+            "Confirma os combustíveis do percurso"
           ]
         }
       ],
       "faq": [
         [
           "Quanto custa o combustível na Austrália?",
-          "O guia indica preços datados por litro de gasolina e de gasóleo e aplica-os a percursos reais. Nas roadhouses remotas os preços ficam muito acima dos da cidade, por vezes mais de metade, e é isso que rebenta os orçamentos no outback."
+          "O guia dá preços por litro de gasolina e de gasóleo, com data, e aplica-os a percursos reais. Nas roadhouses remotas, os preços ficam muito acima dos da cidade, às vezes uma vez e meia, e é isso que rebenta os orçamentos no Outback."
         ],
         [
-          "Como se estima o combustível para uma viagem de carro pela Austrália?",
-          "Pega na distância do percurso, junta-lhe um quinto para desvios e calcula com o consumo real do teu veículo e não com o do catálogo. Uma carrinha carregada contra o vento não cumpre o consumo homologado, e na Austrália há muito vento de frente."
+          "Como se calcula o combustível para uma viagem de carro pela Austrália?",
+          "Pega na distância do percurso, soma-lhe um quinto para desvios, multiplica pelo consumo real do teu veículo em litros por 100 km e divide por 100 para obteres os litros; depois multiplica pelo preço por litro. Uma viagem de 1.000 km a 12 l/100 km gasta 120 litros. Usa o consumo real, não o do catálogo: uma carrinha carregada com vento de frente não consegue o consumo homologado."
         ]
       ],
       "sources": [
         {
-          "label": "Estatísticas do Fuel Plan do Governo australiano"
+          "label": "Australian Government: estatísticas do Fuel Plan"
         },
         {
-          "label": "Monitorização semanal de combustíveis da ACCC"
+          "label": "ACCC: monitorização semanal dos combustíveis"
         },
         {
-          "label": "Taxas de câmbio do Reserve Bank of Australia"
+          "label": "Reserve Bank of Australia: taxas de câmbio"
         }
       ],
       "priceTable": {
-        "note": "Calculado a partir das médias das cinco maiores cidades do Fuel Plan a 5 de agosto de 2026: 2,08 AUD/l de gasolina e 2,47 AUD/l de gasóleo.",
+        "note": "Calculado com as médias das cinco maiores cidades publicadas pelo Fuel Plan a 5 de agosto de 2026: 2,08 AUD/l para a gasolina e 2,47 AUD/l para o gasóleo.",
         "rows": [
           {
             "label": "Gasolina",
@@ -6261,11 +6636,11 @@
             "unit": "viagem"
           },
           {
-            "label": "Autocaravana a gasolina, 1.000 km a 12 l/100 km",
+            "label": "Campervan a gasolina, 1.000 km a 12 l/100 km",
             "unit": "viagem"
           },
           {
-            "label": "Conjunto a gasóleo, 1.000 km a 15 l/100 km",
+            "label": "Veículo grande a gasóleo, 1.000 km a 15 l/100 km",
             "unit": "viagem"
           }
         ]
