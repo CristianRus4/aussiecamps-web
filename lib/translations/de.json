@@ -3814,16 +3814,16 @@
     },
     "save-collections-aussiecamps": {
       "title": "Gespeicherte Orte in AussieCamps ordnen",
-      "description": "Trenn gebuchte Aufenthalte, Vielleichts, Favoriten und künftige Reisen, ohne die Karte aus dem Blick zu verlieren.",
+      "description": "Gebuchte Stopps, Vielleicht-Kandidaten, Favoriten und künftige Reisen auseinanderhalten, ohne die Karte aus den Augen zu verlieren.",
       "region": "Australien",
       "imageAlt": "Gespeicherte Sammlungen in der AussieCamps-App",
-      "intro": "Ein kleines System für gespeicherte Orte macht ein großes Land übersichtlicher. Nutze smarte Listen für den Status und eigene Sammlungen für die Reise oder die Idee.",
+      "intro": "Mit einem kleinen System für gespeicherte Orte behältst du ein großes Land leichter im Kopf. Nimm intelligente Sammlungen für den Status und eigene Sammlungen für die Reise oder die Idee.",
       "sections": [
         {
-          "heading": "Smarte Listen nutzen",
+          "heading": "Intelligente Sammlungen nutzen",
           "body": [
-            "Markiere einen Ort mit Gefällt mir, Besucht, Möchte ich hin oder Markiert, und er erscheint in der passenden smarten Sammlung. Pins und Alle gespeicherten bieten breitere Ansichten.",
-            "Nutze Markiert für die wenigen Orte, die sichtbar über den gewöhnlichen Vielleichts stehen sollen."
+            "Markiere einen Ort mit „Gefällt mir“, „Besucht“, „Wunschziele“ oder „Mit Stern“, dann erscheint er in der passenden intelligenten Sammlung. „Pins“ und „Alle gespeicherten“ zeigen dir mehr auf einmal.",
+            "„Mit Stern“ ist für die wenigen Orte, die über den gewöhnlichen Vielleicht-Kandidaten sichtbar bleiben sollen."
           ],
           "tips": []
         },
@@ -3843,17 +3843,17 @@
         {
           "heading": "Nach der Reise aufräumen",
           "body": [
-            "Markiere besuchte Orte und entferne Optionen, die dich nicht mehr interessieren. Behalte nützliche Notizen zu Zufahrt oder Timing für den nächsten Besuch.",
-            "Die private iCloud-Synchronisierung kann Markierungen und Sammlungen auf alle deine Geräte bringen, wenn sie aktiviert ist."
+            "Markiere besuchte Orte als „Besucht“ und entferne Optionen, die dich nicht mehr interessieren. Behalte nützliche Notizen zur Zufahrt oder zum richtigen Zeitpunkt für den nächsten Besuch.",
+            "Ist iCloud aktiviert, überträgt die private Synchronisierung Markierungen und Sammlungen auf alle deine Geräte."
           ],
           "tips": []
         },
         {
-          "heading": "Gespeicherte Orte nach Absicht trennen",
+          "heading": "Gespeicherte Orte nach Zweck trennen",
           "body": [
-            "Sinnvoll ist eine Aufteilung danach, was du mit einem Ort vorhast: eine Liste für die Reise, die du machst, eine für realistische Ausweichplätze in Reichweite der Route und eine für Ideen, die du vielleicht nie umsetzt.",
-            "Die Liste mit Ausweichplätzen zahlt sich immer wieder aus. Zu wissen, dass du zwei legale Alternativen innerhalb einer Stunde hast, verändert, wie du mit einem vollen Campingplatz umgehst, besonders in der Dämmerung an einem langen Wochenende.",
-            "Wer alle drei in eine Liste mischt, hat genau in dem Moment eine unbrauchbare Sammlung, in dem er sie braucht."
+            "Sinnvoll ist eine Aufteilung danach, was du mit einem Ort vorhast: eine Liste für die Reise, die du wirklich machst, eine für realistische Ausweichplätze in Reichweite der Route und eine für Ideen, die du vielleicht nie umsetzt.",
+            "Die Liste mit Ausweichplätzen zahlt sich immer wieder aus. Wer weiß, dass zwei legale Alternativen höchstens eine Stunde entfernt sind, geht mit einem vollen Campingplatz ganz anders um, vor allem in der Abenddämmerung an einem langen Wochenende.",
+            "Wer alle drei in eine Liste wirft, hat genau dann eine unbrauchbare Sammlung, wenn er sie braucht."
           ],
           "tips": [
             "Reise, Ausweichplätze, Ideen als drei Listen",
@@ -3862,24 +3862,24 @@
           ]
         },
         {
-          "heading": "Listen so benennen, dass sie später Sinn ergeben",
+          "heading": "Listen so benennen, dass man sie später noch versteht",
           "body": [
-            "Eine Liste namens Queensland sagt dir in vier Monaten nichts. Queensland Juli, Stellplätze mit Strom für den Van sagt dir, welches Problem du lösen wolltest und ob du die Liste wiederverwenden kannst.",
+            "Eine Liste namens „<a data-guide=\"camping-rules-queensland\">Queensland</a>“ sagt dir in vier Monaten nichts. „Queensland Juli, Stellplätze mit Strom für den Van“ sagt dir, was du damit lösen wolltest und ob du die Liste wiederverwenden kannst.",
             "Benenn sie nach Region, Jahreszeit, Fahrzeug oder Reise und füg, wo möglich, eine kurze Beschreibung hinzu. Der Grund, warum du einen Ort gespeichert hast, verblasst am schnellsten, und meist war genau er das Wichtige.",
             "Miste nach jeder Reise aus: Markiere, was du besucht hast, lösch, was nicht gepasst hat, und behalte die Hinweise zur Zufahrt, die auch beim nächsten Mal noch stimmen."
           ],
           "tips": [
             "Nach Region, Jahreszeit und Fahrzeug benennen",
-            "Notieren, warum du ihn gespeichert hast",
+            "Notieren, warum du einen Ort gespeichert hast",
             "Ausmisten, solange die Reise frisch ist"
           ]
         },
         {
-          "heading": "Aus den Details speichern, nicht vom Pin",
+          "heading": "Von der Detailseite aus speichern, nicht vom Pin",
           "body": [
-            "Öffne den Ort, bevor du ihn speicherst. Hinweise zur Zufahrt, Eignung für dein Gespann, Ausstattung, Gebühren und die Quelle der Infos entscheiden, ob er zu deinem Setup passt, und nichts davon siehst du an einem Pin auf der Karte.",
-            "Schreib eine Notiz dazu, was genau ihn lohnenswert gemacht hat: einziger Platz hier mit Entsorgungsstation, Schotterzufahrt ungeeignet für ein tiefes Auto, nachmittags schattig. Genau das macht eine Auswahl brauchbar.",
-            "Wer von der Karte aus speichert, bekommt eine Liste mit Namen. Wer aus den Details speichert, bekommt eine Liste mit Optionen, zwischen denen er wirklich wählen kann."
+            "Öffne den Ort, bevor du ihn speicherst. Zufahrtshinweise, Eignung für dein Gespann, Ausstattung, Gebühren und die Quelle der Infos entscheiden, ob er für dich funktioniert, und nichts davon siehst du an einem Pin auf der Karte.",
+            "Halt in einer Notiz fest, was den Ort speichernswert macht: einziger Platz hier mit <a data-guide=\"dump-points-australia-guide\">Entsorgungsstation</a>, Schotterzufahrt, für Autos mit wenig Bodenfreiheit ungeeignet, nachmittags schattig. Genau das macht eine Auswahl brauchbar.",
+            "Wer von der Karte aus speichert, bekommt eine Liste mit Namen. Wer von der Detailseite aus speichert, bekommt eine Liste mit Optionen, zwischen denen er wirklich wählen kann."
           ],
           "tips": [
             "Den Ort vor dem Speichern öffnen",
@@ -3890,63 +3890,63 @@
         {
           "heading": "Synchronisieren und Listen in Reisen übernehmen",
           "body": [
-            "Wenn iCloud verfügbar und aktiviert ist, werden Markierungen, Sammlungen und Reisedaten privat auf allen deinen Geräten synchronisiert. So kannst du auf einem größeren Bildschirm planen und hast im Fahrzeug dieselben Listen.",
-            "Es heißt auch, dass ein ersetztes oder zurückgesetztes Handy die Reise nicht mitnimmt, und das zählt auf einer langen Runde mehr als an einem Wochenende.",
-            "Wenn Stopps feststehen, verschieb sie in eine Reise. Listen enthalten Möglichkeiten, der Planer macht daraus eine geordnete Route mit Entfernung, und genau die Trennung der beiden macht beide nützlich."
+            "Wenn iCloud verfügbar und aktiviert ist, werden Markierungen, Sammlungen und Reisedaten privat auf allen deinen Geräten synchronisiert. So kannst du am größeren Bildschirm planen und hast im Fahrzeug dieselben Listen.",
+            "Außerdem geht die Reise nicht verloren, wenn du das Handy ersetzt oder zurücksetzt, und das zählt auf einer langen Rundreise mehr als an einem Wochenende.",
+            "Wenn Stopps feststehen, verschieb sie in eine Reise. Listen halten Möglichkeiten fest, der Reiseplaner macht daraus eine geordnete Reiseroute mit Entfernung. Erst die Trennung beider macht jedes für sich nützlich."
           ],
           "tips": [
             "iCloud-Sync über alle Geräte",
             "Ein zurückgesetztes Handy verliert die Reise nicht",
-            "Listen halten Optionen, Reisen halten Pläne"
+            "Listen für Optionen, Reisen für Pläne"
           ]
         },
         {
-          "heading": "Smarte Sammlungen nutzen",
+          "heading": "So funktionieren intelligente Sammlungen",
           "body": [
-            "Gefällt mir, Besucht, Möchte ich hin und Markiert aktualisieren sich automatisch, sobald du Orte markierst. Sie bilden also den Status ab und nicht deine Pläne. Besucht ist auf einer langen Runde richtig nützlich, weil du dann nichts doppelt recherchierst.",
-            "Pins und Alle gespeicherten geben dir den Überblick, wenn du nicht mehr weißt, in welcher Liste etwas gelandet ist. Betrachte sie als Sicherheitsnetz, nicht als Ablagesystem.",
-            "Geh die Listen am Ende jeder Reise durch, solange die Details frisch sind, denn eine Notiz, die einen Monat später geschrieben wird, ist nie so nützlich wie eine aus derselben Woche.",
+            "„Gefällt mir“, „Besucht“, „Wunschziele“ und „Mit Stern“ aktualisieren sich automatisch, sobald du Orte markierst. Sie bilden also den Status ab und nicht deine Pläne. „Besucht“ ist auf einer langen Tour richtig nützlich, weil du dann nichts doppelt recherchierst.",
+            "„Pins“ und „Alle gespeicherten“ geben dir den Überblick, wenn du nicht mehr weißt, in welcher Liste etwas gelandet ist. Sieh sie als Sicherheitsnetz, nicht als Ablagesystem.",
+            "Geh die Listen am Ende jeder Reise durch, solange die Details frisch sind, denn eine Notiz, die einen Monat später entsteht, ist nie so nützlich wie eine aus derselben Woche.",
             "Mit aktivierter iCloud werden gespeicherte Orte und Reisen privat auf allen Geräten synchronisiert, sodass die Planung am großen Bildschirm zu Hause direkt im Fahrzeug ankommt."
           ],
           "tips": [
-            "Smarte Sammlungen bilden den Status ab",
-            "Besucht verhindert doppelte Recherche",
-            "Alle gespeicherten ist das Sicherheitsnetz"
+            "Intelligente Sammlungen bilden den Status ab",
+            "„Besucht“ verhindert doppelte Recherche",
+            "„Alle gespeicherten“ ist das Sicherheitsnetz"
           ]
         }
       ],
       "faq": [
         [
-          "Was ist der Unterschied zwischen smarten und eigenen Sammlungen?",
-          "Smarte Sammlungen füllen sich von selbst: Gefällt mir, Markiert, Möchte ich hin, Besucht, Pins und Alle gespeicherten aktualisieren sich, sobald du Orte markierst. Eigene Sammlungen benennst und füllst du selbst, für einen Bundesstaat, eine Jahreszeit, ein Fahrzeug oder eine engere Auswahl."
+          "Was ist der Unterschied zwischen intelligenten und eigenen Sammlungen?",
+          "Intelligente Sammlungen füllen sich von selbst: „Gefällt mir“, „Mit Stern“, „Wunschziele“, „Besucht“, „Pins“ und „Alle gespeicherten“ aktualisieren sich, sobald du Orte markierst. Eigene Sammlungen benennst und füllst du selbst, für einen Bundesstaat, eine Jahreszeit, ein Fahrzeug oder eine engere Auswahl."
         ],
         [
           "Werden gespeicherte Orte zwischen Geräten synchronisiert?",
-          "Mit aktivierter iCloud ja: Markierungen, Sammlungen und Reisedaten folgen deinem Apple Account. Ohne iCloud bleibt alles auf dem einen Gerät."
+          "Ja, mit aktivierter iCloud: Markierungen, Sammlungen und Reisedaten folgen deinem Apple Account. Ohne iCloud bleibt alles auf dem einen Gerät."
         ]
       ],
       "sources": [],
       "priceTable": null
     },
     "aussiecamps-place-details": {
-      "title": "Eine Ortsseite in AussieCamps richtig lesen",
+      "title": "Detailseiten in AussieCamps richtig lesen",
       "description": "Prüf Gebührenangaben, Ausstattung, Zufahrt, Wetter, Versorgung in der Nähe und Navigation, bevor du dich auf einen Stopp verlässt.",
       "region": "Australien",
-      "imageAlt": "Ortsdetails in der AussieCamps-App",
-      "intro": "Öffne die Details, bevor du vom Highway abbiegst. Die entscheidende Frage ist nicht nur, wo der Ort liegt, sondern ob er heute Nacht passt.",
+      "imageAlt": "Detailseite eines Ortes in der AussieCamps-App",
+      "intro": "Schau dir die Details an, bevor du vom Highway abbiegst. Wichtig ist nicht nur, wo der Platz liegt, sondern ob er heute Nacht passt.",
       "sections": [
         {
-          "heading": "Die Grundlagen lesen",
+          "heading": "Die Eckdaten lesen",
           "body": [
             "Prüf zuerst Kategorie, Lage, Gebühr, Bewertung und Beschreibung. Klapp die gruppierten Merkmale zu Zufahrt, Ausstattung, Aktivitäten, Service und Mitgliedschaften auf.",
-            "Schau dir die angegebenen Gebühren an und vergleich Orte in der Nähe, wenn der Preis eine Rolle spielt."
+            "Schau dir die gemeldeten Gebühren an und vergleich Orte in der Nähe, wenn der Preis eine Rolle spielt."
           ],
           "tips": []
         },
         {
-          "heading": "Den Tag prüfen",
+          "heading": "Den Tag im Blick haben",
           "body": [
-            "Nutze die Wetteraussicht und nützliche Stopps in der Nähe, um den Aufenthalt rund um den Pin einzuschätzen. Sprit, Wasser, eine Entsorgungsstation oder ein Supermarkt können entscheiden, welcher Platz der bessere ist.",
+            "Nutze die Wetteraussicht und nützliche Stopps in der Nähe, um den Aufenthalt rund um den Pin einzuschätzen. Sprit, Wasser, eine <a data-guide=\"dump-points-australia-guide\">Entsorgungsstation</a> oder Einkaufsmöglichkeiten können entscheiden, welcher Platz der bessere ist.",
             "Live-Wetter und externe Anbieterseiten brauchen Empfang."
           ],
           "tips": [
@@ -3961,15 +3961,15 @@
           "heading": "Bestätigen und speichern",
           "body": [
             "Öffne Buchung, Website oder Kontaktdaten, wenn vorhanden. Aktuelle Infos des Anbieters und Schilder vor Ort haben Vorrang.",
-            "Speichere den Ort in einer smarten Liste, einer eigenen Sammlung oder einer Reise und füg eine Notiz hinzu, die dir bei der Ankunft hilft."
+            "Speicher den Ort in einer intelligenten Sammlung, einer eigenen Sammlung oder in einer Reise und schreib eine Notiz dazu, die dir bei der Ankunft hilft."
           ],
           "tips": []
         },
         {
           "heading": "Zuerst die Hinweise zur Zufahrt lesen",
           "body": [
-            "Die Zufahrt entscheidet, ob ein Ort zu deinem Fahrzeug passt, und sie ist das Feld, das du vor allem anderen lesen solltest. Straßenbelag, Steigung, Bodenfreiheit, Platz zum Wenden und Längenbegrenzungen stehen alle hier.",
-            "Ein Platz mit hervorragender Ausstattung, zu dem eine Straße führt, die dein Fahrzeug nicht fahren kann, ist keine Option. In Australien zählt das mehr als anderswo, weil so viele gute Plätze am Ende unbefestigter Straßen liegen.",
+            "Ob ein Ort zu deinem Fahrzeug passt, entscheidet die Zufahrt. Lies dieses Feld deshalb vor allem anderen. Hier stehen Straßenbelag, Steigung, Bodenfreiheit, Wendeplatz und Längenbegrenzungen für Gespanne.",
+            "Ein Platz mit sehr guter Ausstattung nützt nichts, wenn die Straße dorthin für dein Fahrzeug nicht befahrbar ist. In Australien zählt das mehr als anderswo, weil so viele gute Plätze am Ende unbefestigter Straßen liegen.",
             "Gleich das mit deinem Mietvertrag ab, wenn du ein Fahrzeug mietest. Dass eine Straße legal und befahrbar ist, heißt nicht, dass deine Versicherung mitfährt."
           ],
           "tips": [
@@ -3981,38 +3981,38 @@
         {
           "heading": "Gebühren, Buchung und was enthalten ist",
           "body": [
-            "Prüf, ob die Gebühr pro Person, pro Stellplatz oder pro Fahrzeug gilt und ob der Parkeintritt getrennt vom Camping berechnet wird. Diese beiden Beträge sind oft getrennt, und Reisende planen regelmäßig nur einen davon ein.",
-            "Achte darauf, ob der Platz buchbar ist oder nach dem Prinzip „wer zuerst kommt“ vergeben wird. Das ist in Australien je nach Bundesstaat und Park verschieden, und an einem Platz, der nur mit Buchung geht, einfach aufzutauchen, kann eine vergebliche Fahrt von Hunderten Kilometern bedeuten.",
-            "Wo eine Genehmigung nötig ist, musst du sie meist vorab besorgen und manchmal sichtbar anbringen. Ohne sie anzukommen ist eine Ordnungswidrigkeit, auch wenn Plätze frei sind."
+            "Prüf, ob die Gebühr pro Person, pro Stellplatz oder pro Fahrzeug gilt und ob der Eintritt in den Park extra zur Campinggebühr kommt. Beides wird häufig getrennt berechnet, und viele Reisende kalkulieren nur eins davon ein.",
+            "Achte darauf, ob man den Platz buchen kann oder ob „wer zuerst kommt, mahlt zuerst“ gilt. In Australien ist das je nach Bundesstaat und Park verschieden, und wer ohne Buchung zu einem Platz fährt, der nur mit Buchung geht, hat womöglich Hunderte Kilometer umsonst zurückgelegt.",
+            "Wo eine Genehmigung nötig ist, besorgst du sie meist vorab und legst sie manchmal sichtbar aus. Ohne Genehmigung anzureisen ist ein Verstoß, auch wenn Plätze frei sind."
           ],
           "tips": [
             "Parkeintritt kommt oft extra",
-            "Buchbar oder nicht ist je Bundesstaat verschieden",
+            "Ob man buchen muss, hängt vom Bundesstaat ab",
             "Genehmigungen vorab besorgen"
           ]
         },
         {
-          "heading": "Ausstattung, und was fehlende Daten bedeuten",
+          "heading": "Ausstattung und was fehlende Angaben bedeuten",
           "body": [
-            "Ein leeres Ausstattungsfeld bedeutet, dass niemand es erfasst hat, nicht, dass es die Einrichtung nicht gibt. Betrachte die aufgeführte Ausstattung als Mindeststand, nicht als vollständige Beschreibung, und nimm mit, was du brauchst, um unabhängig zu sein.",
-            "Wasser, das an einem Platz angegeben ist, ist nicht unbedingt trinkbar, besonders in abgelegenen Gegenden, wo Tanks Regenwasser enthalten und Brunnenwasser mineralreich ist. Nimm etwas zur Aufbereitung mit und genug Trinkwasser, um autark zu sein.",
-            "Wo Ausstattung aus einem bestimmten Grund wichtig ist, etwa Barrierefreiheit oder eine Entsorgungsstation vor einer langen Etappe, frag beim Verwalter nach, statt dich nur auf den Eintrag zu verlassen."
+            "Ein leeres Feld bei der Ausstattung heißt: Niemand hat es erfasst. Es heißt nicht, dass es die Einrichtung nicht gibt. Sieh die aufgeführte Ausstattung als Untergrenze, nicht als vollständige Beschreibung, und nimm mit, was du brauchst, um unabhängig zu sein.",
+            "Wasser, das für einen Platz angegeben ist, muss nicht trinkbar sein, vor allem in abgelegenen Gegenden, wo in den Tanks Regenwasser steht und das Wasser aus Bohrbrunnen stark mineralisiert ist. Nimm etwas zur Wasseraufbereitung und genug <a data-guide=\"camping-water-planning\">Trinkwasser</a> mit, um autark zu sein.",
+            "Wo Ausstattung aus einem bestimmten Grund wichtig ist, etwa Barrierefreiheit oder eine <a data-guide=\"dump-points-australia-guide\">Entsorgungsstation</a> vor einer langen Etappe, frag bei der zuständigen Stelle nach, statt dich nur auf den Eintrag zu verlassen."
           ],
           "tips": [
-            "Leer heißt nicht erfasst, nicht nicht vorhanden",
-            "Angegebenes Wasser ist evtl. nicht trinkbar",
+            "Leer bedeutet: nicht erfasst, nicht fehlend",
+            "Angegebenes Wasser ist nicht immer trinkbar",
             "Alles Wichtige direkt bestätigen lassen"
           ]
         },
         {
-          "heading": "Der Eintrag sticht nie das Schild",
+          "heading": "Das Schild geht vor dem Eintrag",
           "body": [
-            "Ortsdaten spiegeln wider, was beim Erfassen galt. Ranger schließen Plätze, Gemeinden ändern ihre Verordnungen, Feuer und Hochwasser schneiden Zufahrten ab, und Feuerverbote kommen schnell. Vor Ort entscheiden das Schild und der Verwalter.",
-            "Wenn das, was du vorfindest, dem widerspricht, was du gespeichert hast, folge dem, was vor dir ist, und fahr zu deiner gespeicherten Alternative. Genau deshalb suchst du dir eine aus, bevor du das Netz verlässt.",
-            "Wenn ein Eintrag eindeutig falsch ist, schick eine Korrektur. Das Verzeichnis wird durch Meldungen besser, und die nächsten Reisenden profitieren von dreißig Sekunden deiner Zeit."
+            "Die Angaben zu einem Ort zeigen, was zum Zeitpunkt der Erfassung galt. Ranger schließen Plätze, Gemeinden ändern ihre örtlichen Vorschriften, Feuer und Hochwasser schneiden Zufahrten ab, und <a data-guide=\"campfires-camping-australia\">Feuerverbote</a> kommen schnell. Vor Ort entscheiden das Schild und die zuständige Stelle.",
+            "Widerspricht das, was du vor Ort vorfindest, dem gespeicherten Eintrag, gilt, was vor dir steht. Fahr dann zu deiner gespeicherten Alternative. Genau dafür suchst du dir eine aus, bevor du das Netz verlässt.",
+            "Ist ein Eintrag eindeutig falsch, schick eine Korrektur. Das Verzeichnis wird durch Meldungen besser, und die nächsten Reisenden profitieren von dreißig Sekunden deiner Zeit."
           ],
           "tips": [
-            "Schilder stechen jeden Eintrag",
+            "Das Schild schlägt jeden Eintrag",
             "Zur gespeicherten Alternative fahren",
             "Korrekturen schicken, wenn du welche findest"
           ]
@@ -4021,25 +4021,25 @@
           "heading": "Buchungs- und Kontaktlinks",
           "body": [
             "Wenn ein Ort Buchungs- oder Kontaktdaten hat, kannst du darüber Verfügbarkeit, Preis und aktuelle Bedingungen direkt beim Anbieter bestätigen. Erst diese Bestätigung macht aus einem Eintrag einen Plan.",
-            "Mach das, solange du noch Empfang hast. Ein Buchungslink nützt dir drei Stunden nach Beginn einer Etappe ohne Netz nichts, und die Anbieter, bei denen sich ein Anruf am meisten lohnt, liegen oft in den Gegenden mit dem schlechtesten Empfang.",
+            "Mach das, solange du noch Empfang hast. Ein Buchungslink nützt dir nichts, wenn du drei Stunden nach Beginn einer Etappe <a data-guide=\"camping-without-phone-signal\">kein Netz</a> hast, und die Anbieter, bei denen sich ein Anruf am meisten lohnt, liegen oft in den Gegenden mit dem schlechtesten Empfang.",
             "Wenn ein Ort vor Kurzem besucht wurde, entsprechen die Details eher den aktuellen Bedingungen, aber nichts ersetzt den Blick aufs Schild bei der Ankunft.",
             "Wenn ein Eintrag dem widerspricht, was du vor Ort vorfindest, folge dem Schild und schick eine Korrektur, damit die nächsten Reisenden bessere Infos bekommen."
           ],
           "tips": [
             "Direkt beim Anbieter bestätigen",
-            "Solange du Netz hast",
+            "Erledigen, solange du Netz hast",
             "Ein Eintrag ist keine Buchung"
           ]
         }
       ],
       "faq": [
         [
-          "Welche Infos zeigt eine Ortsseite?",
+          "Welche Infos zeigt die Detailseite eines Ortes?",
           "Fotos, eine Beschreibung, Öffnungsinfos, Gebühren, Bedingungen, nach Art gruppierte Ausstattung, aktuelle Hinweise, Bewertungen, Kontakt- und Buchungsdaten, Wetter und Navigation."
         ],
         [
           "Woran erkennt man, ob ein Campingplatz zum eigenen Fahrzeug passt?",
-          "Lies die Details zu Zufahrt und Ausstattung statt der Kategorie. Hinweise zur Zufahrt, Untergrund, Größenbeschränkungen und Stromanschluss entscheiden, ob ein Platz für ein großes Gespann funktioniert, und nichts davon siehst du an einem Pin auf der Karte."
+          "Lies die Details zu Zufahrt und Ausstattung statt der Kategorie. Zufahrtshinweise, Untergrund, Größenbeschränkungen und Stromanschluss entscheiden, ob ein Platz für ein großes Gespann taugt, und nichts davon siehst du an einem Pin auf der Karte."
         ]
       ],
       "sources": [],
@@ -4050,55 +4050,55 @@
       "description": "Behalte den nächsten Stopp, den Reisefortschritt, Lieblingsorte oder eine Karte der Umgebung auf dem Home-Bildschirm im Blick.",
       "region": "Australien",
       "imageAlt": "AussieCamps-Widgets auf dem iPhone",
-      "intro": "Widgets halten den nächsten nützlichen Teil einer Reise sichtbar, ohne dass du die ganze App öffnen musst.",
+      "intro": "Ein Widget zeigt dir den nächsten wichtigen Teil deiner Reise, ohne dass du die ganze App öffnen musst.",
       "sections": [
         {
           "heading": "Reise-Widget",
           "body": [
-            "Wähl eine Reise aus, um den nächsten Stopp und deinen Fortschritt bei den besuchten Orten zu sehen. Die kleine, mittlere und große Variante zeigen unterschiedlich viel vom Reiseverlauf.",
-            "Das Widget für den Sperrbildschirm hält den nächsten Stopp an einem Fahrtag immer griffbereit."
+            "Wähl eine Reise aus, um den nächsten Stopp und den Fortschritt bei den besuchten Orten zu sehen. Die kleine, mittlere und große Variante zeigen unterschiedlich viel von der Reiseroute.",
+            "Das Widget für den Sperrbildschirm hat den nächsten Stopp an Fahrtagen griffbereit."
           ],
           "tips": []
         },
         {
           "heading": "Sammlungs-Widgets",
           "body": [
-            "Zeig deine Top-Sammlungen, die Zahl der gespeicherten Orte oder eine ausgewählte smarte Sammlung wie Markiert oder Möchte ich hin.",
+            "Zeig deine wichtigsten <a data-guide=\"save-collections-aussiecamps\">Sammlungen</a>, die Zahl der gespeicherten Orte oder eine ausgewählte intelligente Sammlung wie „Mit Stern“ oder „Wunschziele“.",
             "Nutze eine gezielte Sammlung, statt jeden gespeicherten Ort anzuzeigen."
           ],
           "tips": [
             "Nächste Reise",
-            "Markiert",
-            "Möchte ich hin"
+            "„Mit Stern“",
+            "„Wunschziele“"
           ]
         },
         {
           "heading": "Karte der Umgebung",
           "body": [
             "Das Umgebungs-Widget nutzt den zuletzt verfügbaren Standort, um Orte in der Nähe auf einer Karte zu zeigen. Die mittlere und große Variante liefern mehr Kontext.",
-            "Wie oft es sich aktualisiert, hängt von iOS und der Verfügbarkeit des Standorts ab, also öffne die App, bevor du dich nach einer gerade geänderten Route darauf verlässt."
+            "Wann sich das Widget aktualisiert, bestimmen iOS und die Verfügbarkeit des Standorts. Öffne deshalb die App, bevor du dich nach einer frisch geänderten Route darauf verlässt."
           ],
           "tips": []
         },
         {
           "heading": "Wofür ein Widget gut ist",
           "body": [
-            "Ein Widget bringt eine Information auf den Home-Bildschirm, ohne dass du etwas öffnen musst, und das zählt, wenn du den ganzen Tag ein- und aussteigst. Die nützlichen beantworten eine einzige, immer wiederkehrende Frage auf einen Blick.",
+            "Ein Widget bringt eine Information auf den Home-Bildschirm, ohne dass du etwas öffnen musst, und das zählt, wenn du den ganzen Tag ein- und aussteigst. Die nützlichen beantworten auf einen Blick eine einzige Frage, die immer wieder kommt.",
             "Auf einem Roadtrip lautet diese Frage meist: Wo übernachte ich heute, was ist in der Nähe, oder was steht noch auf der To-do-Liste? Ein Widget beantwortet sie in der Zeit, die das Entsperren des Handys dauert.",
             "Widgets lesen gespeicherte Daten, also bleiben die Ortsinfos, die sie zeigen, auch ohne Empfang verfügbar. Alles, was live abgerufen wird, etwa das Wetter, braucht zum Aktualisieren weiterhin eine Verbindung."
           ],
           "tips": [
             "Eine Frage, auf einen Blick beantwortet",
-            "Gespeicherte Ortsdaten funktionieren offline",
+            "Gespeicherte Ortsdaten gehen auch ohne Netz",
             "Live-Daten brauchen weiterhin Netz"
           ]
         },
         {
           "heading": "Reise- und Umgebungs-Widgets",
           "body": [
-            "Ein Reise-Widget zeigt den nächsten Stopp und hält den Plan sichtbar, ohne dass du die App öffnest, und das ist an einem Fahrtag das Nützlichste überhaupt. Außerdem kann ein Beifahrer es ansehen, ohne dir das Handy wegzunehmen.",
+            "Ein Reise-Widget zeigt den nächsten Stopp und hält den Plan sichtbar, ohne dass du die App öffnest, und das ist an einem Fahrtag das Nützlichste überhaupt. Auch Mitfahrende können so nachsehen, ohne dir das Handy abzunehmen.",
             "Ein Umgebungs-Widget beantwortet die andere häufige Frage: Was gibt es hier gerade in der Nähe? Das zählt vor allem, wenn sich ein Plan ändert und du schnell eine Option brauchst statt einer kompletten Suche.",
-            "Zusammen decken die beiden das meiste ab, was du unterwegs wirklich brauchst, und die vollständige App bleibt fürs Planen statt fürs Navigieren."
+            "Zusammen decken die beiden das meiste ab, was du unterwegs wirklich brauchst. Die komplette App ist dann fürs Planen da, nicht fürs Navigieren."
           ],
           "tips": [
             "Reise-Widget für den nächsten Stopp",
@@ -4109,12 +4109,12 @@
         {
           "heading": "Sammlungen auf dem Home-Bildschirm",
           "body": [
-            "Ein Sammlungs-Widget bringt eine bestimmte gespeicherte Liste auf einen Tipp nah, und das passt zu einer Auswahl an Ausweichplätzen oder den Orten, zwischen denen du dich heute Abend entscheidest.",
-            "Kombinier es mit der Listenstruktur, die funktioniert: Reise, Ausweichplätze, Ideen. Wenn die Liste mit Ausweichplätzen auf dem Home-Bildschirm liegt, ist sie genau dann nützlich, wenn sich ein Campingplatz als voll herausstellt.",
+            "Mit einem Sammlungs-Widget ist eine bestimmte gespeicherte Liste nur einen Tipp entfernt. Das passt gut zu einer Auswahl an Ausweichplätzen oder zu den Orten, zwischen denen du dich für heute Abend entscheidest.",
+            "Kombinier das mit der Listenstruktur, die funktioniert: Reise, Ausweichplätze, Ideen. Wenn die Liste mit Ausweichplätzen auf dem Home-Bildschirm liegt, ist sie genau dann nützlich, wenn sich ein Campingplatz als voll herausstellt.",
             "Widgets sind am nützlichsten, wenn die Listen dahinter gut gepflegt sind. Ein Widget, das auf eine Liste mit zweihundert unsortierten Pins zeigt, hilft nicht."
           ],
           "tips": [
-            "Die Ausweichliste auf den Home-Bildschirm",
+            "Liste mit Ausweichplätzen auf den Home-Bildschirm",
             "Widgets sind so gut wie die Listen",
             "Die Listen dahinter ausmisten"
           ]
@@ -4122,9 +4122,9 @@
         {
           "heading": "Einrichten und Akku",
           "body": [
-            "Füg Widgets hinzu, indem du lange auf den Home-Bildschirm drückst und die App auswählst, und wähl dann die Größe, die zu dem passt, was du sehen willst. Größere Varianten zeigen mehr Einträge und brauchen mehr Platz.",
-            "Widgets aktualisieren sich in Abständen und nicht ständig, also kann ein gerade hinzugefügter Stopp einen Moment brauchen, bis er erscheint. Wenn du die App öffnest, wird das Widget sofort aktualisiert.",
-            "Der Akku zählt auf einem Roadtrip, weil das Handy ohnehin navigiert, fotografiert und nach Netz sucht. Widgets brauchen wenig, aber der Flugmodus in Gegenden ohne Empfang spart deutlich mehr."
+            "Um ein Widget hinzuzufügen, drückst du lange auf den Home-Bildschirm und wählst die App aus. Such dir dann die Größe aus, die zu dem passt, was du sehen willst. Größere Varianten zeigen mehr Einträge und brauchen mehr Platz.",
+            "Widgets aktualisieren sich in Abständen, nicht laufend. Ein gerade hinzugefügter Stopp erscheint deshalb vielleicht erst nach einem Moment. Öffnest du die App, wird sofort aktualisiert.",
+            "Der Akku zählt auf einem Roadtrip, weil das Handy ohnehin navigiert, fotografiert und nach Netz sucht. Widgets brauchen wenig Strom, aber der Flugmodus in Gegenden ohne Empfang spart deutlich mehr."
           ],
           "tips": [
             "Lange drücken zum Hinzufügen, Größe wählen",
@@ -4137,8 +4137,8 @@
           "body": [
             "Für einen Roadtrip reichen meist zwei Widgets: eins mit dem nächsten Stopp der aktuellen Reise und eins mit dem, was in der Nähe ist. Mehr verwässert eher, als dass es hilft.",
             "Leg sie auf den ersten Home-Bildschirm, wo du sie wirklich siehst. Ein Widget zwei Bildschirme weiter beantwortet eine Frage, für die du die App schon geöffnet hast.",
-            "Es lohnt sich, die Widgets neu zu wählen, wenn sich der Charakter der Reise ändert, denn das nützliche Widget an einem Fahrtag ist nicht dasselbe wie in einer Woche an einem festen Standort.",
-            "Widgets lesen gespeicherte Daten, sodass Ortsinfos offline sichtbar bleiben, während alles, was live abgerufen wird, etwa das Wetter, zum Aktualisieren weiterhin eine Verbindung braucht."
+            "Wähl die Widgets neu, wenn sich die Art der Reise ändert: An einem Fahrtag ist ein anderes Widget nützlich als in einer Woche an einem festen Standort.",
+            "Widgets lesen gespeicherte Daten, sodass Ortsinfos auch ohne Netz sichtbar bleiben, während alles, was live abgerufen wird, etwa das Wetter, zum Aktualisieren weiterhin eine Verbindung braucht."
           ],
           "tips": [
             "Zwei Widgets reichen meist",
@@ -6093,11 +6093,11 @@
       "priceTable": null
     },
     "driving-with-road-trains-australia": {
-      "title": "So teilst du dir die australischen Straßen mit Road Trains",
-      "description": "Überholen, Staub, Bremsweg und das Verhalten auf einspurigen Straßen rund um Fahrzeuge von bis zu 60 Metern Länge.",
-      "region": "Outback-Australien",
+      "title": "Road Trains in Australien: sicher überholen und begegnen",
+      "description": "Überholen, Staub, Bremsweg und Verhalten auf einspurigen Straßen, wenn Fahrzeuge von bis zu 60 Metern Länge unterwegs sind.",
+      "region": "Outback, Australien",
       "imageAlt": "Road Train auf einem abgelegenen australischen Highway",
-      "intro": "Ein Road Train kann etwa 27,5 bis 60 Meter lang sein. Er braucht Platz zum Bremsen, Abbiegen und Überholtwerden, und am sichersten ist, wer berechenbar fährt und nicht auf improvisierte Weise hilfsbereit sein will.",
+      "intro": "Ein Road Train (Lkw mit mehreren Anhängern) ist etwa 27,5 bis 60 Meter lang. Er braucht Platz zum Bremsen, Abbiegen und Überholen, und am sichersten fährt, wer berechenbar bleibt, statt spontan den Hilfsbereiten zu spielen.",
       "sections": [
         {
           "heading": "Hinterherfahren und Überholen",
@@ -6108,10 +6108,10 @@
           "tips": []
         },
         {
-          "heading": "Wenn ein Road Train an dir vorbeifährt",
+          "heading": "Wenn dich ein Road Train überholt",
           "body": [
-            "Die Hinweise des Northern Territory lauten: Tempo halten und links bleiben, erst langsamer werden, wenn der Lkw zum Überholen ausgeschert ist. Wer zu früh plötzlich abbremst, kann das Manöver stören.",
-            "Verlass dich nicht auf Lichthupe oder Anweisungen über Funk, als wären sie eine rechtlich gültige Verkehrsregelung."
+            "Laut den Hinweisen des <a data-guide=\"camping-rules-northern-territory\">Northern Territory</a> hältst du das Tempo und bleibst links, und wirst erst langsamer, wenn der Lkw zum Überholen ausgeschert ist. Wer zu früh plötzlich abbremst, kann das Manöver stören.",
+            "Verlass dich nicht auf spontane Lichthupe oder Anweisungen per UHF-Funk, als wären sie eine rechtlich verbindliche Verkehrsregelung."
           ],
           "tips": [
             "Berechenbar fahren",
@@ -6122,17 +6122,17 @@
         {
           "heading": "Einspurige und unbefestigte Straßen",
           "body": [
-            "Auf einem einspurigen Highway im NT fährst du langsamer und weichst aus, bewegst dich bei einem entgegenkommenden Road Train, wenn es sicher ist, langsam auf dem Seitenstreifen. Rechne mit Staub und lockeren Steinen.",
-            "Wähl eine sichere Stelle und meide einen weichen, steilen oder beschädigten Seitenstreifen. Die Bedingungen und die Hinweise des Bundesstaats entscheiden trotzdem mit."
+            "Auf einem einspurigen Highway im NT fährst du langsamer und weichst aus: Kommt dir ein Road Train entgegen, rollst du, wenn es sicher ist, langsam auf den Seitenstreifen. Rechne mit Staub und losen Steinen.",
+            "Wähl eine sichere Stelle und meide einen weichen, steilen oder beschädigten Seitenstreifen. Die Lage vor Ort und die Vorgaben des jeweiligen Bundesstaats oder Territoriums bleiben trotzdem maßgeblich."
           ],
           "tips": []
         },
         {
           "heading": "Wo du ihnen begegnest",
           "body": [
-            "Road Trains verkehren im Northern Territory, im Outback von Queensland, im Norden von South Australia und in weiten Teilen von Western Australia, die längsten Kombinationen auf ausgewiesenen Strecken. Triples und Quads sind auf diesen Straßen normal.",
+            "Road Trains sind im Northern Territory, im Outback von <a data-guide=\"camping-rules-queensland\">Queensland</a>, im Norden von South Australia und in weiten Teilen von Western Australia unterwegs, die längsten Kombinationen auf ausgewiesenen Strecken. Triples und Quads, also Lkw mit drei oder vier Anhängern, sind auf diesen Straßen normal.",
             "Sie sind auch auf den Zufahrtsstraßen zu Minen und Rinderfarmen unterwegs, oft auf unbefestigtem Untergrund, wo der Staub sie erst aus nächster Nähe sichtbar macht. Geh davon aus, dass hinter jeder uneinsehbaren Kurve auf einer Farmstraße einer auftauchen kann.",
-            "Wegen ihrer Länge können sie nicht anhalten, ausweichen oder nennenswert zur Seite fahren. Jede Sicherheitsentscheidung auf diesen Straßen musst du treffen, nicht sie."
+            "Wegen ihrer Länge können sie nicht mal eben anhalten, ausweichen oder nennenswert zur Seite fahren. Für die Sicherheit musst auf diesen Straßen du sorgen, nicht sie."
           ],
           "tips": [
             "Triples und Quads sind normal",
@@ -6141,15 +6141,15 @@
           ]
         },
         {
-          "heading": "Sicher überholen",
+          "heading": "Einen Road Train sicher überholen",
           "body": [
-            "Du brauchst eine sehr lange, vollständig einsehbare freie Strecke, deutlich mehr als für einen Lkw zu Hause. Die Länge eines Road Trains von hinten abzuschätzen ist schwierig, und sich dabei zu verschätzen ist der klassische tödliche Fehler auf diesen Straßen.",
+            "Du brauchst eine sehr lange, vollständig einsehbare freie Strecke, deutlich mehr als für einen Lkw zu Hause. Die Länge eines Road Trains von hinten richtig einzuschätzen ist schwer, und genau diese Fehleinschätzung ist der klassische tödliche Fehler auf diesen Straßen.",
             "Beginne ein Überholmanöver nie auf einer Kuppe, in einer Kurve oder dort, wo Staub die Sicht einschränkt. Wenn du nicht das ganze Gespann und dahinter eine lange freie Strecke sehen kannst, warte.",
-            "Scher nach dem Überholen nicht zu früh wieder ein. Sein Bremsweg ist viel länger als der eines Pkw, und wer knapp davor einschert, nimmt ihm den einzigen Spielraum, den er hat."
+            "Scher nach dem Überholen nicht zu früh wieder ein. Der Bremsweg eines Road Trains ist viel länger als der eines Pkw, und wer knapp davor einschert, nimmt ihm den einzigen Spielraum, den er hat."
           ],
           "tips": [
-            "Du brauchst viel mehr freie Straße",
-            "Nie in Staub oder auf einer Kuppe überholen",
+            "Viel mehr freie Strecke einplanen",
+            "Nie im Staub oder auf einer Kuppe überholen",
             "Nach dem Überholen nicht knapp einscheren"
           ]
         },
@@ -6157,26 +6157,26 @@
           "heading": "Wenn einer dich überholt oder dir entgegenkommt",
           "body": [
             "Wenn dich ein Road Train überholt, halte dein Tempo und bleib links in deiner Spur. Wer plötzlich abbremst, stört das Manöver und verlängert die Zeit, die der Lkw auf der falschen Straßenseite verbringt.",
-            "Auf einspurigem Asphalt, wie er im Outback üblich ist, fährst du bei einem entgegenkommenden Road Train langsamer und auf den Seitenstreifen, beide linken Räder neben dem Belag. Rechne mit fliegenden Steinen und einer großen Staubwolke.",
-            "Auf unbefestigten Straßen fährst du weit an den Rand und hältst an, wenn die Sicht verschwindet. Dreißig Sekunden zu warten, bis sich der Staub legt, ist die richtige Reaktion und nicht, blind hindurchzufahren."
+            "Auf einspurigem Asphalt, wie er im Outback üblich ist, fährst du bei einem entgegenkommenden Road Train langsamer und auf den Seitenstreifen, mit beiden linken Rädern neben dem Belag. Rechne mit fliegenden Steinen und einer großen Staubwolke.",
+            "Auf unbefestigten Straßen fährst du weit an den Rand und hältst an, wenn die Sicht verschwindet. Wer dreißig Sekunden wartet, bis sich der Staub gelegt hat, reagiert richtig, wer blind durchfährt, nicht."
           ],
           "tips": [
             "Beim Überholtwerden Tempo und Spur halten",
-            "Bei Gegenverkehr von einspurigem Belag runterfahren",
+            "Bei Gegenverkehr den einspurigen Belag verlassen",
             "Anhalten und warten, bis sich der Staub legt"
           ]
         },
         {
           "heading": "Road Trains an Roadhouses und Rastplätzen",
           "body": [
-            "Roadhouses sind Arbeitshalte für Road-Train-Fahrer, und die Parkflächen sind für Fahrzeuge angelegt, die kaum rückwärtsfahren oder wenden können. Park nicht auf den Lkw-Stellplätzen und nicht auf den Ein- und Ausfahrtslinien.",
+            "Roadhouses, also Tankstellen mit Imbiss und oft Stellplätzen im Outback, sind Arbeitshalte für Road-Train-Fahrer, und die Parkflächen sind für Fahrzeuge angelegt, die kaum rückwärtsfahren oder wenden können. Park so, dass die Lkw-Stellplätze und die Wege zur Ein- und Ausfahrt frei bleiben.",
             "Die Fahrer machen gesetzlich vorgeschriebene Pausen, und dafür gibt es die Stellplätze. Sie zu blockieren ist rücksichtslos und ein echtes Sicherheitsproblem, wenn ein Fahrer ein fünfzig Meter langes Gespann um einen schlecht geparkten Camper herummanövrieren muss.",
             "Mit einem UHF-Funkgerät auf Kanal 40 hörst du, wie Lkw-Fahrer über die Bedingungen weiter vorn sprechen, und das sind auf abgelegenen Highways wirklich nützliche Informationen."
           ],
           "tips": [
             "Nicht auf Lkw-Stellplätzen parken",
             "Die Fahrer haben vorgeschriebene Ruhepausen",
-            "Ein- und Ausfahrtslinien freihalten"
+            "Wege zur Ein- und Ausfahrt freihalten"
           ]
         }
       ],
@@ -6195,16 +6195,16 @@
           "label": "NT: Fahren mit Road Trains"
         },
         {
-          "label": "Main Roads WA: Langstreckenfahren"
+          "label": "Main Roads WA: Fahren auf langen Strecken"
         },
         {
-          "label": "WA: Regeln fürs Ziehen eines Anhängers"
+          "label": "WA: Regeln für Fahrten mit Anhänger"
         }
       ],
       "priceTable": null
     },
     "australia-road-trip-fatigue-wildlife-safety": {
-      "title": "Müdigkeit, Wildtiere und Nachtfahrten auf australischen Roadtrips",
+      "title": "Müdigkeit, Wildtiere, Nachtfahrten: Roadtrip Australien",
       "description": "Erkenne Müdigkeit früh, plane echte Pausen und senke das Risiko von Fahrten in der Dämmerung und auf abgelegenen Straßen.",
       "region": "Australien",
       "imageAlt": "Känguru neben einer ruhigen australischen Straße in der Abenddämmerung",
@@ -6213,8 +6213,8 @@
         {
           "heading": "Müdigkeit erkennen, bevor sie zur Krise wird",
           "body": [
-            "Gähnen, schwere Augen, Abdriften in der Spur, vergessene Kilometer und schwankendes Tempo sind Warnzeichen, anzuhalten. Musik, offene Fenster und Koffein ersetzen keinen Schlaf.",
-            "Plane mindestens alle zwei Stunden eine Pause. Die Empfehlung von Victoria lautet, in 24 Stunden nicht mehr als acht Stunden zu fahren."
+            "Gähnen, schwere Augen, Abdriften in der Spur, vergessene Kilometer und schwankendes Tempo sind Zeichen, dass du anhalten solltest. Musik, offene Fenster und Koffein ersetzen keinen Schlaf.",
+            "Plane mindestens alle zwei Stunden eine Pause. Victoria empfiehlt, in 24 Stunden nicht mehr als acht Stunden zu fahren."
           ],
           "tips": []
         },
@@ -6233,20 +6233,20 @@
         {
           "heading": "Vorbereitung auf eine Panne in abgelegener Gegend",
           "body": [
-            "Nimm zusätzlich Wasser, Essen, eine Spritreserve und ein geeignetes Kommunikationsmittel mit, wo es wenig Infrastruktur gibt. Sag jemandem, welche Route du fährst und wann du ankommen willst.",
-            "Die offiziellen Hinweise von WA für abgelegene Gegenden lauten: Wer liegen bleibt, bleibt beim Fahrzeug. Ein Fahrzeug bietet Schutz, und Retter finden es leichter."
+            "Wo es wenig Versorgung gibt, nimm zusätzlich Wasser, Essen, eine Spritreserve und ein geeignetes Kommunikationsmittel mit. Sag jemandem, welche Route du fährst und wann du ankommen willst.",
+            "Die offiziellen Hinweise von WA für abgelegene Gegenden lauten: Wer liegen bleibt, bleibt beim Fahrzeug. Das Fahrzeug bietet Schutz und ist für Retter leichter zu finden."
           ],
           "tips": []
         },
         {
           "heading": "Warum die Entfernungen hier müde machen",
           "body": [
-            "Das Fahren in Australien bedeutet lange, gerade, eintönige Straßen, auf denen es kaum etwas gibt, auf das man reagieren muss, und das führt viel eher zur Autobahnhypnose als kurvige Strecken. Das Fehlen von Reizen ist selbst die Gefahr.",
+            "In Australien fährst du auf langen, geraden, eintönigen Straßen, auf denen kaum etwas eine Reaktion verlangt. Das führt viel eher zur „Autobahnhypnose“ als kurvige Strecken. Die Gefahr liegt gerade darin, dass es so wenig Reize gibt.",
             "Müdigkeit spielt bei einem erheblichen Teil der Unfälle in ländlichen Regionen eine Rolle, und sie summiert sich über Tage, statt sich über Nacht zurückzusetzen. Nach einer Woche mit langen Fahrtagen bist du selbst nach einer vollen Nacht Schlaf beeinträchtigt.",
             "Plane die Route so, dass kein Tag mehr als etwa vier Stunden Fahrt verlangt, und bau Tage ein, an denen niemand fährt. Die meisten Müdigkeitsprobleme sind Planungsprobleme."
           ],
           "tips": [
-            "Gerade Straßen führen zu Hypnose",
+            "Gerade Straßen wirken hypnotisch",
             "Müdigkeit summiert sich über Tage",
             "Fahrfreie Tage einplanen"
           ]
@@ -6254,22 +6254,22 @@
         {
           "heading": "Wenn man es zu spät merkt",
           "body": [
-            "Gähnen, schwere Augen, Schlenkern in der Spur, eine verpasste Abzweigung und keine Erinnerung an die letzte Strecke sind späte Anzeichen. Wenn du sie bemerkst, ist die Reaktionszeit schon erheblich beeinträchtigt.",
-            "Mach grundsätzlich alle zwei Stunden Halt und nicht erst, wenn du müde bist. Ein Nickerchen von zwanzig Minuten wirkt wirklich. Kaffee, Musik, offene Fenster und Gespräche überdecken die Symptome, während die Beeinträchtigung bleibt.",
+            "Gähnen, schwere Augen, Schlingern in der Spur, eine verpasste Abzweigung und keine Erinnerung an die letzte Strecke sind späte Anzeichen. Wenn du sie bemerkst, ist die Reaktionszeit schon erheblich beeinträchtigt.",
+            "Mach grundsätzlich alle zwei Stunden Halt und nicht erst, wenn du müde bist. Ein Nickerchen von zwanzig Minuten bringt wirklich etwas. Kaffee, Musik, offene Fenster und Gespräche überdecken die Symptome, während die Beeinträchtigung bleibt.",
             "Driver-Reviver-Stopps und Rastplätze gibt es im ganzen Land genau dafür. Nutze sie, statt eine geplante Ankunftszeit für unverrückbar zu halten."
           ],
           "tips": [
             "Grundsätzlich alle zwei Stunden anhalten",
-            "Ein 20-Minuten-Schlaf wirkt wirklich",
+            "Ein Nickerchen von 20 Minuten hilft wirklich",
             "Kaffee überdeckt, er behebt nichts"
           ]
         },
         {
-          "heading": "Tiere und warum du nachts nicht fahren solltest",
+          "heading": "Tiere und der Grund, nachts nicht zu fahren",
           "body": [
             "Kängurus, Wombats, Rinder, Kamele und Emus sind von der Abend- bis zur Morgendämmerung am aktivsten und werden vom Bewuchs am Straßenrand angezogen. Ein Zusammenstoß bei Highway-Tempo macht ein Fahrzeug fahruntüchtig, und in abgelegener Gegend wird das schnell ernst.",
             "Fahr im ländlichen Australien nach Möglichkeit nicht zwischen Abend- und Morgendämmerung. Diese eine Entscheidung nimmt den Großteil des Wildunfallrisikos und einen guten Teil des Müdigkeitsrisikos auf einmal weg.",
-            "Ist ein Tier auf der Straße, bremse geradeaus, statt auszuweichen. Das Ausweichen macht aus einem Zusammenstoß einen Überschlag, und bei einem hohen Fahrzeug ist das Überschlagsrisiko erheblich."
+            "Ist ein Tier auf der Straße, brems geradeaus, statt auszuweichen. Das Ausweichen macht aus einem Zusammenstoß einen Überschlag, und bei einem hohen Fahrzeug ist das Überschlagsrisiko erheblich."
           ],
           "tips": [
             "Nicht zwischen Abend- und Morgendämmerung fahren",
@@ -6280,12 +6280,12 @@
         {
           "heading": "Wenn du ein Tier angefahren hast",
           "body": [
-            "Halte an, sobald es sicher ist, und fahr das Fahrzeug von der Straße. Geh nicht auf ein großes verletztes Tier wie ein Känguru oder einen Wombat zu, denn ein verängstigtes Tier kann mit den Hinterbeinen oder Krallen schwer verletzen.",
-            "Ruf den Wildtier-Rettungsdienst des jeweiligen Bundesstaats an, der aus den meisten Gebieten mit Empfang erreichbar ist. In Beuteltierregionen lohnt es sich nur, in den Beutel eines Weibchens zu schauen, wenn du dafür ausgebildet bist. Melde sonst den Ort und überlass den Rettern den Rest.",
-            "Teilt euch das Fahren, wo ihr könnt, und betrachte die zweite Person am Steuer als echten Teil des Plans und nicht als Reserve, die nie wirklich fährt."
+            "Halte an, sobald es sicher ist, und fahr das Fahrzeug von der Straße. Geh nicht auf ein großes verletztes Tier wie ein Känguru oder einen Wombat zu, denn ein verängstigtes Tier kann dich mit den Hinterbeinen oder Krallen schwer verletzen.",
+            "Ruf den Wildtier-Rettungsdienst des jeweiligen Bundesstaats an, der aus den meisten Gebieten mit Empfang erreichbar ist. In Gegenden mit Beuteltieren solltest du nur dann in den Beutel eines Weibchens schauen, wenn du dafür ausgebildet bist. Melde sonst den Ort und überlass den Rettern den Rest.",
+            "Teilt euch das Fahren, wo es geht, und plant die zweite Person am Steuer als festen Teil ein, nicht als Reserve, die nie wirklich fährt."
           ],
           "tips": [
-            "Verletzten Tieren nicht nähern",
+            "Nicht an verletzte Tiere herangehen",
             "Den Wildtier-Rettungsdienst des Bundesstaats rufen",
             "Den Ort genau melden"
           ]
@@ -6293,8 +6293,8 @@
       ],
       "faq": [
         [
-          "Warum sollte man im australischen Outback nachts nicht fahren?",
-          "Weil dann Kängurus, Rinder und Kamele auf der Straße sind und sich auf Scheinwerfer zu bewegen statt von ihnen weg. Fast jeder erfahrene Outback-Fahrer bleibt deshalb bei den Stunden zwischen Sonnenaufgang und spätem Nachmittag."
+          "Warum sollte man in Australien im Outback nachts nicht fahren?",
+          "Weil dann Kängurus, Rinder und Kamele auf der Straße sind und auf Scheinwerfer zulaufen, statt davon wegzulaufen. Fast jeder erfahrene Outback-Fahrer fährt deshalb nur zwischen Sonnenaufgang und spätem Nachmittag."
         ],
         [
           "Was tun, wenn ein Tier auf die Straße läuft?",
