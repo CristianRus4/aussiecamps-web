@@ -23,11 +23,17 @@ Scratch (not in git): `/tmp/i18n-fr/` holds the helper scripts (`tools/dump.mjs`
     camping-rules NSW/VIC/WA/SA.
   - NZ: grocery-prices-2026, doc-huts, doc-campsite-rules, campervan-road-rules, speed-limits,
     road-trip-fuel-cost-2026, public-transport-costs-2026, towing-caravan.
+  - AU wave 2: public-transport-costs-2026, domestic-flight-costs-2026, camping-rules QLD,
+    grocery-prices-2026, camping-rules ACT, best-time-camping, caravan-park-vs-holiday-park,
+    road-rules-state-differences.
+  - NZ wave 2: travel-cost-2026, biosecurity-camping-gear, eating-out-prices-2026, road-signs,
+    domestic-flight-costs-2026, wof-registration, accommodation-costs-2026, volcanic-safety.
 
 ## In progress
-- Wave 2 (subagents): AU public-transport, domestic-flights, camping-rules QLD, grocery, ACT,
-  best-time, caravan-park-vs-holiday-park, road-rules-state-differences; NZ travel-cost,
-  biosecurity, eating-out, road-signs, domestic-flights, WOF/rego, accommodation-costs, volcanic.
+- Wave 3 (subagents): AU camping-fees-2026, travel-cost-2026, interstate-biosecurity,
+  towing-caravan, fuel-cost-2026, camping-rules TAS, is-free-camping-legal, camping-rules NT;
+  NZ beer-wine-coffee-prices, dogs-camping, cook-strait-ferry, bus-ferry-train-costs, sandflies,
+  overseas-driver-licence, doc-hut-rules-etiquette, river-crossing-safety.
 
 ## Next
 - Remaining guides in Search Console order (`node /tmp/i18n-fr/tools/order.mjs`).
@@ -43,4 +49,4 @@ Scratch (not in git): `/tmp/i18n-fr/` holds the helper scripts (`tools/dump.mjs`
   Nouvelle-Galles du Sud, Australie-Méridionale, Australie-Occidentale, Tasmanie, Territoire du Nord,
   île du Nord, île du Sud. Proposed: move them from `protectedTerms` to per-locale glossary entries
   (or add a per-locale exception to the engine). Units that contain these names keep their current
-  French until decided; their rewrites are held in `/tmp/i18n-fr/held-<catalog>.json` (AU: 22 units so far).
+  French until decided; their rewrites are held in `/tmp/i18n-fr/held-<catalog>.json` (AU: 36 units, NZ: 5 units so far).
