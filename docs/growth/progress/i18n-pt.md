@@ -12,23 +12,41 @@ Engine locale id: `pt` (variety pt-PT). Register: informal (tu), now set in both
 - Guides re-reviewed and rewritten:
   - AU: alcohol-coffee-drink-prices-australia, sleeping-in-car-australia,
     camping-rules-new-south-wales, public-transport-costs-australia-2026,
-    eating-out-australia-prices-2026.
+    eating-out-australia-prices-2026, camping-rules-western-australia,
+    dump-points-australia-guide, camping-rules-victoria, australia-grocery-prices-2026,
+    interstate-biosecurity-road-trip.
   - NZ: new-zealand-grocery-prices-2026, doc-huts-new-zealand-guide,
     public-transport-costs-new-zealand-2026, new-zealand-road-signs-visitors,
     new-zealand-biosecurity-camping-gear, doc-campsite-rules,
     new-zealand-road-trip-fuel-cost-2026, campervan-road-rules-new-zealand,
     eating-out-new-zealand-prices-2026, new-zealand-travel-cost-2026.
 
-## In progress
-- Re-review of the remaining guides in GSC-impression order (pages-3m.tsv), 5 per batch, up to 4
-  Opus subagents writing values files under /tmp/ptwork/out; this thread edits and applies.
-- Working files (rebuildable): /tmp/ptwork/work/<site>-<slug>.json (en + current pt per unit),
-  /tmp/ptwork/BRIEF.md (worker brief), /tmp/ptwork/scripts/check.py (lint: banned terms, numbers,
-  markup, protected terms).
+- Judge round 1 (docs/growth/judge/pt.json, both repos): every failing unit fixed; privacy page
+  realigned to the 7-section English (analytics section, effective 19 October 2026); consent.*
+  translated on both sites. pt now 3/3 pages on both sites.
+
+## Done (2026-10-20, background run)
+- Rebased both branches onto main (A-foundation M2, A-tools-hubs, K-foundation M2).
+- Guide link markup (`<a data-guide>`) restored in every translated guide on both sites (AU 133 units,
+  NZ 86 units); engine placeholder errors are now 0 for pt on both sites. Stamps written (`meta/pt.json`).
+- AU guides polished (place names kept in English, Tasmania not Tasmânia, no "concelho", campervan vs
+  autocaravana per glossary, "sem rede" instead of offline for place details, app labels): camping-rules-tasmania,
+  is-free-camping-legal-australia, bus-train-costs, camping-water-planning, camping-without-phone-signal,
+  campfires, campervan-driving, driving-in-australia-road-rules-visitors, overseas-driver-licence-state-guide,
+  best-camping-app, driving-with-road-trains, fatigue-wildlife, driving-in-australia-overseas-licence,
+  camping-with-dogs, camping-packing-list, and the five app guides (plan trip, filters, collections, place
+  details, widgets: old labels Destacados / Quero ir / Marcadores / Tudo o que guardaste replaced).
+- KiwiCamping `ui.metaDescription` updated for the new English (mentions iPhone); `content:check` green on both.
 
 ## Next
-- Road trips, K legacy pages, `consent`/`article`/`tools` namespaces and `<a data-guide>` markup once
-  the foundation milestones merge to main (wait for the orchestrator's message).
+- AU still to review (not yet polished): first-campervan-trip-australia, road-trip-fuel-planning-australia,
+  camping-weather-safety-australia, responsible-camping-australia, choosing-campsite-australia (old "autocaravana"
+  for campervan, "vila" and "tarifa" may remain; scan with /tmp/ptwork/scripts/check.py).
+- AU new content: 20 road-trip guides (1,070 units) and the `tools` namespace (116 units) are untranslated.
+- NZ: 35 guides untranslated, K legacy pages, `tools` namespace; translated K guides still contain the old terms
+  (autossuficiente, tarifa, vila, "Nova Gales" etc.) and need the same polish pass as AU got.
+- Working files (rebuildable): /tmp/ptwork/work (scripts/build_work.py), /tmp/ptwork/scripts/{check,mkvals,show,links2}.py,
+  overrides in /tmp/ptwork/ov/*.py.
 
 ## Notes for the orchestrator
 - The app's `pt` localisation (`Localizable.xcstrings`) is Brazilian Portuguese with several
