@@ -85,6 +85,10 @@ Sources: [TW-blog] Taiwanese personal blogs; [TW-com] Taiwanese-language commerc
 | Traditional Owners / Country (AU) | 傳統土地擁有者（Traditional Owners）/ 原住民的傳統土地（Country） | Respectful, capitalised English in parentheses on first use. |
 | whenua / tangata whenua (NZ) | 這片土地（毛利語 whenua） | Keep Māori words with a gloss on first use. |
 | hut / backcountry hut | 山屋 / 偏遠山屋 | Taiwan's own mountain word [TW usage]. App says 小屋, which reads as a cabin: use 山屋 except when naming the app filter. |
+| DOC hut categories | 服務型山屋（Serviced）、標準型山屋（Standard）、基本型山屋（Basic）、經典步道山屋（Great Walk huts） | English category in parentheses on first mention, because DOC pages and signs use it. |
+| DOC campsite categories | 服務型營地（Serviced）、景觀型營地（Scenic）、標準型營地（Standard）、基本型營地（Basic）、偏遠營地（Backcountry） | Same pattern. [TW-com roadgenius: 「DOC 服務型露營地」「DOC 基礎型露營地」] |
+| hut ticket | 山屋票（hut ticket） | |
+| bunk | 床位 | 「床位先到先得」. |
 | Great Walk(s) | 經典步道（Great Walks）✱ | No fixed number (NZ now has ten); never 九大步道. |
 | track / walk | 步道 | Named tracks keep the English after the Chinese where established: 胡克谷步道（Hooker Valley Track）. |
 | tramping / hiking | 健行 / 登山健行 | Not 徒步, 行山. |
