@@ -4229,7 +4229,7 @@
         {
           "heading": "Slim betalen als je er eenmaal bent",
           "body": [
-            "Contactloos betalen met je kaart kan bijna overal, ook in kleine cafés op het platteland. Een toeslag van één tot twee procent voor kaartbetaling is wel gebruikelijk, en die zie je pas bij de kassa, niet op de menukaart. Contant geld heb je nog nodig voor honesty boxes (je legt het geld zelf in een kistje), kraampjes langs de weg en sommige afgelegen roadhouses.",
+            "Contactloos betalen met je kaart kan bijna overal, ook in kleine cafés op het platteland. Sinds 1 oktober 2026 mogen bedrijven bovendien geen toeslag meer rekenen op betalingen met eftpos, Mastercard of Visa. Contant geld heb je nog nodig voor honesty boxes (je legt het geld zelf in een kistje), kraampjes langs de weg en sommige afgelegen roadhouses.",
             "Transactiekosten in het buitenland zijn het sluipende lek. Met een reiscreditcard of een bank die ze niet rekent, scheelt dat over een maand een flink bedrag. Bovendien kom je dan niet in de verleiding om bij de betaalautomaat in je eigen valuta af te rekenen (dynamic currency conversion), en daarbij krijg je altijd de slechtere koers.",
             "Houd een kleine noodbuffer volledig los van je reisbudget. Het idee is juist dat je bij een onverwachte uitgave nooit hoeft af te wegen of je die wel kunt betalen."
           ],
@@ -5068,7 +5068,7 @@
         ],
         [
           "Hoe schat je in hoeveel brandstof je nodig hebt voor een roadtrip door Australië?",
-          "Neem de afstand van je route, tel er een vijfde bij op voor omwegen en reken dan met het echte verbruik van je voertuig in plaats van het cijfer uit de brochure. Een beladen camper met tegenwind haalt zijn opgegeven verbruik niet, en tegenwind heb je in Australië genoeg."
+          "Neem de afstand van je route, tel er een vijfde bij op voor omwegen, vermenigvuldig dat met het echte verbruik van je voertuig in liter per 100 km en deel het door 100: dat geeft het aantal liters. Vermenigvuldig dat met de literprijs. Een rit van 1.000 km met 12 l/100 km kost 120 liter. Reken met het echte verbruik, niet met het cijfer uit de brochure: een beladen camper met tegenwind haalt zijn opgegeven verbruik niet."
         ]
       ],
       "sources": [
@@ -5589,7 +5589,7 @@
           "body": [
             "De regels voor mobiele telefoons zijn streng en worden in verschillende staten gehandhaafd met speciale detectiecamera's. Een telefoon aanraken tijdens het rijden, ook als je stilstaat in het verkeer, is strafbaar en levert flinke boetes en strafpunten op.",
             "Handsfree bellen via een houder of Bluetooth is over het algemeen toegestaan voor houders van een volledig rijbewijs, maar voor leerlingen en beginnende bestuurders helemaal verboden. Stel navigatie in voordat je wegrijdt.",
-            "Boetes worden uitgeschreven op naam van de geregistreerde houder, dus een verhuurbedrijf geeft ze met administratiekosten aan je door. Strafpunten gelden niet voor buitenlandse rijbewijzen, maar de boetes zeker wel."
+            "Cameraboetes gaan naar de geregistreerde eigenaar, dus een verhuurbedrijf geeft je naam door als bestuurder en rekent meestal administratiekosten. Houders van een <a data-guide=\"overseas-driver-licence-australia-state-guide\">buitenlands rijbewijs</a> krijgen wel gewoon strafpunten (demerit points), en te veel strafpunten in één staat betekent dat je daar niet meer mag rijden."
           ],
           "tips": [
             "Detectiecamera's zijn wijdverbreid",
@@ -5630,6 +5630,21 @@
         },
         {
           "label": "Alcohol en drugs in NSW"
+        },
+        {
+          "label": "NSW: demerit points"
+        },
+        {
+          "label": "Queensland: rijden met een buitenlands rijbewijs"
+        },
+        {
+          "label": "VicRoads: rijden met een buitenlands rijbewijs"
+        },
+        {
+          "label": "NT: bezoekende bestuurders en verkeersovertredingen"
+        },
+        {
+          "label": "Revenue NSW: een boete op iemand anders overdragen"
         }
       ],
       "priceTable": null
@@ -5799,7 +5814,7 @@
         {
           "heading": "Snelheidsborden en variabele limieten",
           "body": [
-            "<a data-guide=\"australia-road-rules-state-differences\">Snelheidslimieten</a> zijn in kilometers per uur en de standaardlimiet op de open weg verschilt per staat: van 100 in de meeste staten tot 110 op veel snelwegen en 130 op bepaalde stukken in het Northern Territory.",
+            "<a data-guide=\"australia-road-rules-state-differences\">Snelheidslimieten</a> staan in kilometers per uur. Waar geen snelheidsbord geldt, is de standaardlimiet buiten de bebouwde kom 100 km/u in de meeste staten en 110 km/u in Western Australia en het Northern Territory. Sommige snelwegen zijn met 110 km/u aangegeven, en het Northern Territory staat 130 km/u alleen toe op stukken van de Stuart, Barkly, Victoria en Arnhem Highway waar borden dat aangeven.",
             "Variabele informatieborden en elektronische snelheidsborden gaan boven de aangegeven limieten en komen veel voor bij wegwerkzaamheden, tunnels en schoolzones. Limieten bij wegwerkzaamheden gelden ook als er niemand zichtbaar aan het werk is.",
             "Adviessnelheden op gele borden bij bochten zijn geen wettelijke limieten, maar zijn bepaald voor een personenauto bij goede omstandigheden. In een volgeladen camper of met een aanhanger ligt de veilige snelheid nog lager."
           ],
@@ -5858,6 +5873,15 @@
         },
         {
           "label": "Northern Territory: verkeersborden"
+        },
+        {
+          "label": "Main Roads WA: snelheidszones"
+        },
+        {
+          "label": "Northern Territory: snelheidslimieten"
+        },
+        {
+          "label": "SA Driver's Handbook: snelheidslimieten"
         }
       ],
       "priceTable": null
@@ -5974,8 +5998,8 @@
       "priceTable": null
     },
     "towing-caravan-australia-road-rules": {
-      "title": "Caravan trekken in Australië: gewicht, snelheid en regels per staat",
-      "description": "Caravan trekken in Australië: zo zit het met het beladen gewicht, de koppeling, je remafstand en de regels die aan de staatsgrens veranderen.",
+      "title": "Caravan trekken in Australië 2026: snelheid, gewicht, rijbewijs",
+      "description": "Caravan trekken in Australië in 2026: wat je autorijbewijs dekt, de maximumsnelheden in WA en NSW, de kogeldruk en de vier gewichtsgrenzen die je checkt voordat je koppelt.",
       "region": "Australië",
       "imageAlt": "Auto met caravan op een Australische weg",
       "intro": "Veilig een caravan trekken begint bij de echte beladen combinatie, niet bij de brochure met de lege caravan. De limieten van de fabrikant, de kogeldruk, de voorwaarden van je rijbewijs en de regels van de staat moeten allemaal met elkaar kloppen.",
@@ -6039,12 +6063,12 @@
           "body": [
             "De laagste van vier waarden bepaalt wat je mag trekken: de trekcapaciteit van je auto, de maximale belasting van de trekhaak, het maximaal toelaatbare gewicht van de caravan (ATM) en de capaciteit van de trekhaakkogel. Ga je over een van die waarden heen, dan lijden wegligging, remmen en je verzekering eronder.",
             "Weeg de beladen combinatie in plaats van te schatten. Openbare weegbruggen vind je bijna overal en ze zijn goedkoop, en de meeste caravans zijn zwaarder dan hun eigenaren denken.",
-            "Houd ongeveer tien procent van het gewicht op de trekhaakkogel en laad zware spullen laag en boven de as. Een caravan die achterin te zwaar beladen is, is de meest voorkomende oorzaak van slingeren."
+            "Houd ongeveer 5 tot 10 procent van het gewicht van de beladen caravan op de trekhaakkogel, zoals de richtlijn van NSW adviseert, en check de handleidingen van je voertuig en caravan voor hun grenzen. Laad zware spullen laag en boven de as. Een caravan die achterin te zwaar beladen is, is de meest voorkomende oorzaak van slingeren."
           ],
           "tips": [
             "De laagste waarde bepaalt het",
             "Gebruik een openbare weegbrug",
-            "Tien procent op de trekhaakkogel"
+            "Check de kogeldruk"
           ]
         },
         {
@@ -6064,11 +6088,11 @@
       "faq": [
         [
           "Wat is de maximumsnelheid met een caravan in Australië?",
-          "Dat hangt af van de staat. In Western Australia en het Northern Territory geldt voor voertuigen met een aanhanger een lagere grens dan de algemene, terwijl je in de meeste oostelijke staten gewoon de aangegeven maximumsnelheid mag rijden. In de praktijk is de stabiliteit van je combinatie meestal de echte grens."
+          "Dat hangt af van de staat. In Western Australia mag elk voertuig met een aanhanger of caravan maximaal 100 km/u. In NSW geldt die grens van 100 km/u als het toegestane totaalgewicht (GVM) of combinatiegewicht (GCM) van het trekkende voertuig boven 4,5 ton ligt; daaronder geldt de aangegeven maximumsnelheid. Check de regels voor trekken van elke staat voordat je een grens over gaat, en rij naar de stabiliteit van je combinatie en de omstandigheden."
         ],
         [
           "Heb je een speciaal rijbewijs nodig om in Australië een caravan te trekken?",
-          "Nee, met een gewoon autorijbewijs mag je de meeste combinaties tot 4,5 ton totaalgewicht rijden. Daarboven heb je een rijbewijs voor zwaardere voertuigen nodig (light rigid of medium rigid), en ga je over de toegestane trekcapaciteit van je auto heen, dan vervalt je verzekering, welk rijbewijs je ook hebt."
+          "Met een gewoon autorijbewijs mag je een trekkend voertuig besturen tot 4,5 ton toegestaan totaalgewicht (GVM); voor een zwaarder voertuig heb je een light rigid-rijbewijs of hoger nodig. Het rijbewijs verhoogt de trekgrenzen niet: de beladen caravan moet binnen de laagste van de volgende waarden blijven: de trekcapaciteit van het voertuig, de capaciteit van trekhaak en koppeling, de eigen limiet van de caravan en de draagkracht van de banden. In NSW mogen bestuurders met een leerlingenrijbewijs niet trekken, en bestuurders met een P1-rijbewijs alleen aanhangers tot 250 kg leeggewicht."
         ]
       ],
       "sources": [
@@ -6080,6 +6104,9 @@
         },
         {
           "label": "South Australia: een caravan trekken"
+        },
+        {
+          "label": "NSW: rijbewijscategorieën"
         }
       ],
       "priceTable": null
@@ -6404,7 +6431,7 @@
         ],
         [
           "Welke verkeersregels verschillen het meest tussen de Australische staten?",
-          "De maximumsnelheid met een aanhanger of caravan, de minimale afstand bij het inhalen van fietsers, de regels voor onverharde wegen met een huurauto of huurcamper en de tijden van schoolzones. Strafpunten (demerit points) worden wel tussen de staten gedeeld, ook al verschillen de regels waarvoor je ze krijgt."
+          "De maximumsnelheid met een aanhanger of caravan, de minimale afstand bij het inhalen van fietsers, de regels voor onverharde wegen met een huurauto of huurcamper en de tijden van schoolzones. De meeste staten schrijven strafpunten (demerit points) uit een overtreding in een andere staat bij op je eigen rijbewijs, alleen Western Australia doet dat niet."
         ]
       ],
       "sources": [
@@ -6422,6 +6449,18 @@
         },
         {
           "label": "NT: maximumsnelheden"
+        },
+        {
+          "label": "NSW: demerit points"
+        },
+        {
+          "label": "Queensland: demerit points"
+        },
+        {
+          "label": "WA: demerit points"
+        },
+        {
+          "label": "Austroads: rijbewijzen in Australië"
         }
       ],
       "priceTable": null
@@ -7248,7 +7287,7 @@
           "body": [
             "Kata Tjuta, ongeveer vijftig kilometer van Uluru, is misschien wel de indrukwekkendere formatie, en de Valley of the Winds is de beste wandeling van het park. Je loopt in de open zon en de route sluit bij hitte, dus begin bij zonsopgang.",
             "Kings Canyon ligt tussen Uluru en Alice Springs aan de Red Centre Way. De rim walk is een rondwandeling van drie tot vier uur, met een steile klim in het begin en echte afgronden. Voor veel reizigers is het het hoogtepunt van de reis.",
-            "Een parkpas voor een nationaal park dekt Uluru-Kata Tjuta en koop je vooraf. Watarrka, waar Kings Canyon ligt, valt daar los van. Check wat je route nodig heeft voordat je bij een toegangspoort staat."
+            "Voor Uluru-Kata Tjuta heb je een eigen parkpas nodig: per oktober 2026 kost die A$ 38 per volwassene voor 3 dagen of A$ 50 voor een jaar, en onder de 18 is het gratis. Online kopen is het snelst, maar je kunt de pas ook bij het toegangsstation van het park kopen. Watarrka, waar Kings Canyon ligt, valt daar los van. Check dus wat je route nodig heeft voordat je bij een toegangspoort staat."
           ],
           "tips": [
             "Valley of the Winds bij zonsopgang",
@@ -7272,7 +7311,14 @@
         }
       ],
       "faq": [],
-      "sources": [],
+      "sources": [
+        {
+          "label": "Parkpassen voor Uluru-Kata Tjuta"
+        },
+        {
+          "label": "NT Parks Visitor Pass"
+        }
+      ],
       "priceTable": null
     },
     "nullarbor-crossing-camping-guide": {
@@ -7420,12 +7466,12 @@
         {
           "heading": "De Alpine Way en het wegennet",
           "body": [
-            "De Alpine Way tussen Khancoban en Jindabyne is de ruggengraat van deze route. De weg is verhard en het hele jaar open, maar in de winter moet je binnen het nationaal park sneeuwkettingen bij je hebben, ongeacht de omstandigheden.",
+            "De Alpine Way tussen Khancoban en Jindabyne is de ruggengraat van deze route. De weg is verhard en het hele jaar open. Tussen het lange weekend van juni en dat van oktober moeten voertuigen met tweewielaandrijving (2WD) op de Alpine Way tussen Thredbo en Tom Groggin sneeuwkettingen bij zich hebben, en NPWS raadt kettingen ook aan voor 4WD en AWD.",
             "Voor Kosciuszko National Park betaal je toegang per voertuig, in het skiseizoen meer. De pas geldt per voertuig per dag, en er is een jaarpas als je er vaker komt.",
             "De Barry Way naar het zuiden richting <a data-guide=\"camping-rules-victoria\">Victoria</a> en een aantal andere verbindingswegen zijn onverhard, steil en in bepaalde seizoenen afgesloten. Check de status voordat je een oversteek tussen de staten door het park plant."
           ],
           "tips": [
-            "Sneeuwkettingen verplicht in de winter, altijd meenemen",
+            "2WD: in de winter kettingen mee",
             "Er geldt een toegangsprijs voor het park",
             "Verbindingswegen zijn seizoensgebonden afgesloten"
           ]
@@ -7475,7 +7521,7 @@
             "Het Snowy Mountains Scheme (het waterkracht- en irrigatieproject) heeft deze streek gevormd, en het bezoekerscentrum in Cooma en het gebied rond Tumut leggen dat uit. Lake Jindabyne en Lake Eucumbene zijn er allebei het resultaat van en hebben allebei kampeerplekken aan het meer.",
             "Yarrangobilly Caves in het noorden van Kosciuszko heeft een warmwaterpoel van zevenentwintig graden het hele jaar door, een prima stop na een koude nacht op de hoogvlaktes.",
             "Bright en Mount Beauty aan de kant van Victoria verbinden deze route met de High Country, waardoor een langere rondrit door de bergen in beide staten mogelijk is.",
-            "Sneeuwkettingen moeten in de winter binnen Kosciuszko aan boord zijn, ongeacht de voorspelling, en dat wordt gecontroleerd bij de toegangen tot het park."
+            "Tussen het lange weekend van juni en dat van oktober moeten 2WD-voertuigen sneeuwkettingen bij zich hebben op Kosciuszko Road vanaf de parkgrens bij de Thredbo River, op de Alpine Way tussen Thredbo en Tom Groggin en over de volledige lengte van Island Bend/Guthega Road. Voor 4WD en AWD zijn kettingen niet verplicht, maar NPWS raadt aan ze mee te nemen, en elke bestuurder moet ze aanleggen als bordjes in het park of rangers dat zeggen."
           ],
           "tips": [
             "Yarrangobilly heeft een warmwaterpoel",
@@ -7485,7 +7531,17 @@
         }
       ],
       "faq": [],
-      "sources": [],
+      "sources": [
+        {
+          "label": "NPWS: regels voor rijden in de sneeuw"
+        },
+        {
+          "label": "Kosciuszko National Park: bezoekersinformatie"
+        },
+        {
+          "label": "Kosciuszko Alpine Way: bezoekersinformatie over de route"
+        }
+      ],
       "priceTable": null
     },
     "flinders-ranges-camping-guide": {
@@ -7883,33 +7939,52 @@
         {
           "heading": "Eisen aan je voertuig en Litchfield",
           "body": [
-            "Een groot deel van het mooiste gebied van Kakadu, waaronder Jim Jim Falls en Twin Falls, vraagt een 4WD met veel bodemvrijheid en gaat over doorwaadplaatsen. Voertuigen met tweewielaandrijving blijven beperkt tot de verharde wegen, die nog steeds naar Ubirr, Nourlangie en Gunlom lopen.",
+            "Een groot deel van het mooiste gebied van Kakadu, waaronder Jim Jim Falls en Twin Falls, vraagt een 4WD met veel bodemvrijheid en gaat over doorwaadplaatsen. Met een 2WD kom je in het droge seizoen nog wel bij Ubirr en Burrungkuy (Nourlangie). Het toegangsbericht van Kakadu noemt Gunlom Road op dit moment alleen toegankelijk voor 4WD met veel bodemvrijheid, en sommige verhuurders staan 2WD op onverharde wegen niet toe. Check dus het toegangsbericht en je huurvoorwaarden.",
             "Litchfield is aanzienlijk toegankelijker: Florence, Wangi en Tolmer Falls zijn allemaal met een tweewielaandrijving over verharde wegen te bereiken. Voor reizigers zonder 4WD levert Litchfield per dag meer op dan Kakadu.",
             "Check je huurcontract voordat je hier een onverharde weg probeert. De meeste standaardhuurcontracten verbieden ze helemaal, en berging kost in dit gebied veel geld."
           ],
           "tips": [
             "Jim Jim en Twin Falls vragen 4WD",
             "Litchfield kan met 2WD",
-            "De meeste verhuurders verbieden onverharde wegen"
+            "Check de huurvoorwaarden voor onverharde wegen"
           ]
         },
         {
           "heading": "Darwin als uitvalsbasis",
           "body": [
             "Darwin heeft de voorzieningen, supermarkten en verhuurlocaties die je verder nergens hier vindt, plus de Mindil Beach-markten in het droge seizoen en het Museum and Art Gallery, dat Cyclone Tracy en het bombardement van 1942 uitlegt.",
-            "Doe goed boodschappen voordat je een van de parken in gaat, want er is geen supermarkt in Kakadu en de prijzen bij de roadhouses weerspiegelen de afstand. Brandstof is in de stad ook een stuk goedkoper.",
+            "Doe de grote boodschappen in Darwin voordat je een van de parken in gaat. In Kakadu zelf hebben Jabiru een supermarkt en een tankstation, en de winkel van Cooinda verkoopt brandstof en boodschappen. Brandstof is in de stad ook een stuk goedkoper.",
             "Katherine en Nitmiluk Gorge liggen ten zuiden van de route en zijn een aanrader als je de dagen hebt, met boottochten en kanovaren door het kloofsysteem.",
             "De toegang tot de watervallen in Kakadu gaat stap voor stap open naarmate het natte seizoen wegtrekt. Bij een bezoek in mei kunnen dus nog plekken dicht zijn die in juni wel open zijn."
           ],
           "tips": [
             "Doe boodschappen en tank in Darwin",
             "De Mindil-markten lopen in het droge seizoen",
-            "Geen supermarkt in Kakadu"
+            "Jabiru en Cooinda: boodschappen"
           ]
         }
       ],
       "faq": [],
-      "sources": [],
+      "sources": [
+        {
+          "label": "Kakadu: parkpassen"
+        },
+        {
+          "label": "Kakadu: vervoer in het park"
+        },
+        {
+          "label": "Kakadu: toegangs- en waarschuwingsbericht"
+        },
+        {
+          "label": "Kakadu: boodschappen doen"
+        },
+        {
+          "label": "NT Parks: Litchfield National Park"
+        },
+        {
+          "label": "NT Parks Visitor Pass"
+        }
+      ],
       "priceTable": null
     },
     "sydney-south-coast-camping": {
