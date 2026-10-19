@@ -530,16 +530,16 @@
     },
     "campfires-camping-australia": {
       "title": "Normas sobre hogueras para acampar en Australia",
-      "description": "Consulta las prohibiciones de fuego locales, las normas del parque y el tiempo antes de encender una cerilla.",
+      "description": "Comprueba las prohibiciones de fuego locales, las normas del parque y la previsión del tiempo antes de encender una cerilla.",
       "region": "Australia",
-      "imageAlt": "Hoguera legal en un fogón designado",
+      "imageAlt": "Hoguera legal en un fogón habilitado",
       "intro": "El permiso para hacer una hoguera puede cambiar según el distrito, la temporada, el tipo de combustible y el índice de peligro de incendios. Un fogón demuestra que ahí se han hecho hogueras, no que hoy sea legal hacer una.",
       "sections": [
         {
           "heading": "Tres comprobaciones antes de encender",
           "body": [
-            "Lee las normas del camping, consulta a la autoridad de incendios del estado correspondiente y busca avisos locales del parque. Una prohibición total de fuego anula el permiso normal del camping.",
-            "Los hornillos de gas también pueden restringirse en condiciones extremas. Comprueba la norma para cada aparato, no solo para el fuego al aire libre."
+            "Lee las normas del camping, consulta a la autoridad de incendios del estado correspondiente y busca avisos locales del parque. Una prohibición total de fuego (total fire ban) anula el permiso normal del camping.",
+            "Los hornillos de gas también pueden restringirse en condiciones extremas. Comprueba la norma de cada aparato, no solo la de las hogueras."
           ],
           "tips": []
         },
@@ -559,16 +559,16 @@
           "heading": "Apágalo hasta que esté frío",
           "body": [
             "Apágalo con agua, remueve los restos y repite hasta que todo esté lo bastante frío como para tocarlo. La arena puede esconder brasas calientes en lugar de apagarlas.",
-            "No dejes nunca un fuego sin vigilancia, tampoco mientras duermes. Si se levanta viento o algo no te da buena espina, apágalo."
+            "No dejes nunca un fuego sin vigilancia, tampoco mientras duermes. Si sube el viento o ves que las condiciones no son buenas, apágalo."
           ],
           "tips": []
         },
         {
           "heading": "Índices de peligro de incendios y prohibiciones totales",
           "body": [
-            "Australia usa un sistema nacional de índice de peligro de incendios (Fire Danger Rating) con cuatro niveles, de Moderate (moderado) a Catastrophic (catastrófico), que se publica a diario por distritos. Las prohibiciones totales de fuego se declaran aparte y vetan cualquier llama abierta, sea cual sea el índice.",
-            "Un día de prohibición total de fuego, las hogueras y las barbacoas de combustible sólido están prohibidas. Los aparatos de gas suelen estar permitidos con condiciones, como tener una zona despejada y vigilancia constante, pero manda el texto concreto de la prohibición.",
-            "Los índices y las prohibiciones se publican cada tarde para el día siguiente. En verano, consúltalos a diario en lugar de fiarte de la sensación que te da el tiempo, porque la declaración se basa en las condiciones previstas."
+            "Australia usa un sistema nacional, el Fire Danger Rating (índice de peligro de incendios), con cuatro niveles, de Moderate (moderado) a Catastrophic (catastrófico), que se publica a diario por distritos. Las prohibiciones totales de fuego se declaran aparte y prohíben cualquier llama abierta, sea cual sea el índice.",
+            "Los días de prohibición total de fuego quedan prohibidas las hogueras y las barbacoas de combustible sólido. Los aparatos de gas suelen estar permitidos con condiciones, como tener una zona despejada y vigilancia constante, pero manda el texto concreto de la prohibición.",
+            "Los índices y las prohibiciones se publican cada tarde para el día siguiente. En verano, consúltalos a diario en vez de guiarte por cómo está el día, porque la declaración se basa en las condiciones previstas."
           ],
           "tips": [
             "Cuatro niveles, de Moderate a Catastrophic",
@@ -619,7 +619,7 @@
           "heading": "Cocinar cuando se prohíbe el fuego",
           "body": [
             "Los hornillos de gas suelen estar permitidos los días de prohibición total de fuego con condiciones: una zona despejada, alguien vigilando y agua a mano. Revisa el texto concreto de la prohibición, porque las condiciones varían según el estado.",
-            "No cocines nunca dentro de una tienda, bajo un toldo ni en un vehículo sin ventilación. El monóxido de carbono no huele y ya ha matado a campistas, y el riesgo es mayor justo con el frío o la lluvia que invitan a meterse dentro.",
+            "No cocines nunca dentro de una tienda, bajo un toldo ni en un vehículo sin ventilación. El monóxido de carbono no tiene olor, ya ha matado a personas que acampaban, y el riesgo es mayor justo con el frío o la lluvia que invitan a cocinar dentro.",
             "Lleva siempre un hornillo de gas ligero en el vehículo, porque una prohibición total de fuego puede declararse con un día de antelación y así no dependes en absoluto de poder encender fuego.",
             "Los índices de peligro de incendios se publican cada tarde para el día siguiente, así que consultarlos la víspera te da tiempo para cambiar de planes en vez de improvisar."
           ],
@@ -637,12 +637,12 @@
         ],
         [
           "¿Cómo se comprueba si hay prohibición total de fuego?",
-          "En la web del servicio de bomberos del estado en el que estés, el mismo día: el RFS en NSW, la CFA en Victoria, el QFES en Queensland y sus equivalentes en el resto. Los índices de peligro de incendios se fijan cada tarde para el día siguiente."
+          "En la web del servicio de bomberos del estado en el que estés, el mismo día: el RFS (Rural Fire Service) en Nueva Gales del Sur, la CFA (Country Fire Authority, los bomberos rurales) en Victoria, el QFES (el servicio de bomberos y emergencias) en Queensland y sus equivalentes en el resto. Los índices de peligro de incendios se fijan cada tarde para el día siguiente."
         ]
       ],
       "sources": [
         {
-          "label": "Avisos de la Bureau of Meteorology"
+          "label": "Avisos del Bureau of Meteorology"
         }
       ],
       "priceTable": null
@@ -1350,10 +1350,10 @@
       "priceTable": null
     },
     "camping-water-planning": {
-      "title": "Cómo planificar el agua en una acampada remota",
-      "description": "Lleva suficiente para beber, cocinar y afrontar retrasos, y comprueba cada punto de recarga antes de contar con él.",
+      "title": "Cómo planificar el agua para acampar en zonas remotas",
+      "description": "Lleva suficiente agua para beber, cocinar y cubrir retrasos, y comprueba cada punto de recarga antes de fiarte de él.",
       "region": "Australia",
-      "imageAlt": "Bidones de agua preparados para una acampada remota",
+      "imageAlt": "Bidones de agua preparados para acampar en zonas remotas",
       "intro": "Planificar el agua empieza por el tramo más largo entre dos puntos de agua potable confirmados, y luego se añade margen para el calor, las caminatas y un día de retraso.",
       "sections": [
         {
@@ -1386,9 +1386,9 @@
           "tips": []
         },
         {
-          "heading": "Cuánta necesitas de verdad",
+          "heading": "Cuánta agua necesitas de verdad",
           "body": [
-            "Calcula un mínimo de cuatro a cinco litros por persona y día para beber y cocinar con temperaturas suaves, y bastante más con calor. En el verano del outback, lo realista son de siete a diez litros por persona y día.",
+            "Cuenta con un mínimo de 4 a 5 litros por persona y día para beber y cocinar con temperaturas suaves, y bastante más con calor. En el verano del outback, lo realista son entre 7 y 10 litros por persona y día.",
             "Eso es solo para beber y cocinar. El aseo, los platos y cualquier ducha van aparte, y por eso el depósito del vehículo se vacía antes de lo que dicen las cuentas.",
             "Lleva siempre una reserva que no forme parte del agua de uso diario, a ser posible en un bidón aparte. Si el vehículo se avería en una zona remota, el agua deja de ser una comodidad y pasa a ser lo que te mantiene con vida."
           ],
@@ -1401,52 +1401,52 @@
         {
           "heading": "Dónde puedes recargar",
           "body": [
-            "Los pueblos, los parques de caravanas, las oficinas de turismo y muchas áreas de descanso tienen agua potable, pero no todos los grifos son de agua apta para beber y no siempre hay carteles. Si el agua no está tratada o no estás seguro, trátala en lugar de suponer que es buena.",
+            "Los pueblos, los <a data-guide=\"caravan-park-vs-holiday-park\">parques de caravanas (caravan parks)</a>, las oficinas de turismo y muchas áreas de descanso tienen agua potable, pero no todos los grifos dan agua potable y no siempre hay carteles. Si el agua no está tratada o no estás seguro, trátala en vez de dar por hecho que es buena.",
             "El agua de pozo (bore water) es habitual en el interior de Australia y a menudo tiene muchos minerales o sales. Puede ser segura pero desagradable, o directamente no apta para beber, y los carteles suelen indicarlo.",
-            "En las zonas remotas, los depósitos de los campings son de agua de lluvia y su estado varía. Lleva con qué tratar el agua en lugar de confiar en que una única fuente vaya a estar disponible y limpia."
+            "En las zonas remotas, los depósitos de las zonas de acampada son de agua de lluvia y su estado varía. Lleva con qué tratar el agua en lugar de confiar en que una única fuente vaya a estar disponible y limpia."
           ],
           "tips": [
             "No todos los grifos son de agua potable",
             "El agua de pozo a menudo no es apta",
-            "Lleva cómo tratar el agua de los depósitos remotos"
+            "Lleva con qué tratar el agua de los depósitos remotos"
           ]
         },
         {
-          "heading": "Cómo potabilizar el agua sobre el terreno",
+          "heading": "Cómo potabilizar el agua en el campo",
           "body": [
-            "Hervirla durante un minuto es el método más fiable y no exige más equipo que un hornillo. Los filtros certificados contra protozoos y bacterias sirven para la mayoría de las aguas superficiales australianas, y el tratamiento químico funciona, pero tarda y cambia el sabor.",
+            "Hervirla durante un minuto es el método más fiable y no exige más equipo que un hornillo. Los <a data-guide=\"how-to-use-aussiecamps-filters\">filtros</a> aptos para protozoos y bacterias sirven para la mayoría de las aguas superficiales australianas, y el tratamiento químico funciona, pero tarda y cambia el sabor.",
             "El agua superficial en zonas agrícolas puede llevar contaminación química que el filtro no elimina. Donde haya, usa agua de depósito o de la red del pueblo, y en las zonas de cultivo deja el agua de los arroyos como último recurso.",
-            "En el trópico, no cojas agua de ningún curso que pueda tener cocodrilos. En el norte, esto limita más la búsqueda de agua que la propia contaminación."
+            "En el trópico, no tomes agua de ningún curso de agua donde pueda haber cocodrilos. En el norte, esto limita más la búsqueda de agua que la propia contaminación."
           ],
           "tips": [
             "Hervir un minuto es lo más fiable",
-            "Los filtros no eliminan los químicos",
-            "En el norte, los cocodrilos limitan dónde coger agua"
+            "Los filtros no eliminan los productos químicos",
+            "En el norte, los cocodrilos limitan dónde sacar agua"
           ]
         },
         {
           "heading": "Almacenamiento e higiene",
           "body": [
-            "Usa recipientes de calidad alimentaria, mantenlos fuera del sol directo y enjuágalos a menudo. El agua guardada semanas en un vehículo caliente coge sabor y acaba criando microorganismos, sobre todo en un depósito a medio llenar.",
-            "Mantén los bidones y las mangueras del agua de beber físicamente separados de cualquier cosa que se use cerca de un punto de vaciado, y guarda los extremos de las mangueras sin que toquen el suelo. Ese simple hábito evita la mayoría de las enfermedades en un viaje autosuficiente.",
+            "Usa recipientes de calidad alimentaria, mantenlos fuera del sol directo y enjuágalos a menudo. El agua guardada durante semanas en un vehículo caliente acaba con mal sabor y con microorganismos, sobre todo en un depósito a medio llenar.",
+            "Mantén los bidones y las mangueras del agua de beber físicamente separados de cualquier cosa que se use cerca de un <a data-guide=\"dump-points-australia-guide\">punto de vaciado</a>, y guarda los extremos de las mangueras sin que toquen el suelo. Ese único hábito evita la mayoría de las enfermedades en un viaje con un vehículo self-contained (autónomo: váter fijo, depósitos de agua limpia y de aguas grises).",
             "Desinfecta el depósito de vez en cuando con un producto específico, sobre todo antes de un viaje largo o cuando el vehículo ha estado parado. Te lleva una tarde y te ahorra una semana de problemas."
           ],
           "tips": [
-            "Recipientes alimentarios y a la sombra",
+            "Recipientes de uso alimentario, a la sombra",
             "Extremos de la manguera sin tocar el suelo",
             "Desinfecta el depósito antes de un viaje largo"
           ]
         },
         {
-          "heading": "Cómo gastar menos",
+          "heading": "Cómo gastar menos agua",
           "body": [
-            "Fregar en un barreño en vez de con el grifo abierto, enjuagar con un pulverizador y cerrar el agua en la ducha entre mojarte y aclararte alargan mucho la duración del depósito.",
+            "Fregar los platos en una palangana en vez de con el grifo abierto, enjuagar con un pulverizador y cerrar el agua en la ducha entre mojarte y aclararte alargan mucho la duración del depósito.",
             "El depósito de aguas grises suele llenarse antes de que se vacíe el de agua limpia, así que gastar menos alarga los dos a la vez. En un tramo largo y remoto, esa diferencia puede suponer uno o dos días más de autonomía.",
             "Etiqueta los bidones de forma clara y coherente, porque el error que de verdad hace enfermar es llenar con prisas un bidón de agua de beber en una fuente no potable.",
             "Desinfecta el depósito de agua antes de un viaje largo y cuando el vehículo ha estado parado: te lleva una tarde y te ahorra una semana de problemas."
           ],
           "tips": [
-            "Mejor un barreño que el grifo abierto",
+            "Mejor una palangana que el grifo abierto",
             "Las grises se llenan antes de que se acabe la limpia",
             "Pequeños hábitos suman un día de autonomía"
           ]
@@ -1459,7 +1459,7 @@
         ],
         [
           "¿Se puede beber el agua del grifo de los campings en Australia?",
-          "En los pueblos y los parques de caravanas, en general sí. En los parques nacionales y los campings remotos es habitual el agua de depósito y de pozo, a menudo con carteles que indican que no es potable, así que lleva un filtro o hiérvela."
+          "En los pueblos y los parques de caravanas, en general sí. En los parques nacionales y las zonas de acampada remotas es habitual el agua de depósito y de pozo, a menudo con carteles que indican que no es potable, así que lleva un filtro o hiérvela."
         ]
       ],
       "sources": [],
@@ -4170,15 +4170,15 @@
     },
     "bus-train-costs-australia-2026": {
       "title": "Precio de los autobuses y trenes de larga distancia en Australia",
-      "description": "Compara un autocar interestatal, un tren de la red de Queensland y un viaje en tren de lujo sin fingir que son el mismo producto.",
+      "description": "Compara un autobús de larga distancia entre estados, un tren de Queensland y un viaje en tren de lujo sin hacer como si fueran el mismo producto.",
       "region": "Australia",
       "imageAlt": "Tren de larga distancia atravesando Australia",
-      "intro": "El transporte de larga distancia en Australia va desde un autocar nocturno sin lujos hasta una experiencia en tren con todo incluido. El precio, la duración del viaje, dónde duermes y lo que incluye el billete deben compararse en conjunto.",
+      "intro": "El transporte de larga distancia en Australia va desde un autobús nocturno funcional hasta una experiencia en tren con todo incluido. Hay que comparar a la vez el precio, la duración del viaje, dónde duermes y lo que incluye el billete.",
       "sections": [
         {
           "heading": "Transporte frente a experiencia",
           "body": [
-            "Una plaza de autocar y un tren con coche cama y todo incluido no cubren la misma necesidad. Con uno pagas el desplazamiento; el otro puede incluir alojamiento, comidas y excursiones.",
+            "Una plaza de autobús y un tren con coche cama y todo incluido no cubren la misma necesidad. Con uno pagas el desplazamiento; el otro puede incluir alojamiento, comidas y excursiones.",
             "Apunta qué incluye la tarifa antes de compararla con volar, conducir o varias noches de hotel."
           ],
           "tips": []
@@ -4198,30 +4198,30 @@
         {
           "heading": "Cuidado con las tarifas antiguas",
           "body": [
-            "Queensland Rail remite a los viajeros a su información actualizada, mientras que la hoja indexada públicamente solo ofrece una referencia con fecha. No la tomes como una tarifa vigente garantizada.",
+            "<a data-guide=\"camping-rules-queensland\">Queensland</a> Rail remite a los viajeros a su información actualizada, mientras que la hoja de tarifas que se puede encontrar públicamente solo ofrece una referencia con fecha. No la cites como si fuera una tarifa vigente garantizada.",
             "Las huelgas, las obras en la vía y los horarios de temporada pueden alterar el servicio. Confírmalo directamente antes de cerrar reservas fijas que dependan de la hora de llegada."
           ],
           "tips": []
         },
         {
-          "heading": "La red de autocares de larga distancia",
+          "heading": "La red de autobuses de larga distancia",
           "body": [
-            "Greyhound y unos pocos operadores regionales conectan las grandes ciudades y muchos pueblos de la costa este y del centro del país. Si reservas con mucha antelación, son la forma más barata de moverte sin vehículo; cerca de la salida, las tarifas se disparan.",
-            "Los autocares son más lentos que el coche y paran a menudo. Lo que no hacen es llegar a parques nacionales, inicios de senderos ni campings, así que un viaje en autobús lo marca la red y no los sitios a los que te gustaría ir.",
+            "Greyhound y unos pocos operadores regionales conectan las grandes ciudades y muchos pueblos de la costa este y del centro del país. Si reservas con mucha antelación, son la forma más barata de moverte sin vehículo, y las tarifas suben mucho cerca de la salida.",
+            "Los autobuses son más lentos que el coche y paran a menudo. Lo que no hacen es llegar a parques nacionales, inicios de senderos ni campings, así que un viaje en autobús lo marca la red y no los sitios a los que te gustaría ir.",
             "Existen pases hop-on hop-off (sube y baja cuando quieras) para las rutas mochileras de la costa este. Compara el pase con los billetes sueltos que de verdad comprarías y no con el uso máximo posible, porque la mayoría acaba haciendo menos trayectos de los previstos."
           ],
           "tips": [
-            "Reserva el autocar pronto para pagar menos",
-            "Los autocares van a pueblos, no a senderos",
+            "Reserva el autobús pronto para pagar menos",
+            "Los autobuses llegan a pueblos, no a senderos",
             "Compara los pases con tu uso real"
           ]
         },
         {
           "heading": "Los trenes de larga distancia",
           "body": [
-            "En Australia, el tren de larga distancia es sobre todo una experiencia más que un medio de transporte. The Ghan, el Indian Pacific y el Spirit of Queensland incluyen en la tarifa el alojamiento, las comidas y, en algunos casos, excursiones.",
+            "En Australia, el tren de larga distancia es más una experiencia que un medio de transporte. The Ghan, el Indian Pacific y el Spirit of <a data-guide=\"camping-rules-queensland\">Queensland</a> incluyen en la tarifa el alojamiento, las comidas y, en algunos casos, excursiones.",
             "Los precios lo reflejan, y comparar un billete del Ghan con un vuelo es comparar dos compras distintas. Con una pagas el desplazamiento; con la otra, varios días de viaje que ya son las vacaciones en sí.",
-            "También hay servicios regionales normales, sobre todo en New South Wales y Queensland, que son baratos y útiles para llegar a pueblos del interior sin coche."
+            "También hay servicios regionales normales, sobre todo en <a data-guide=\"camping-rules-new-south-wales\">Nueva Gales del Sur</a> y Queensland, que son baratos y útiles para llegar a pueblos fuera de las grandes ciudades sin coche."
           ],
           "tips": [
             "El tren de larga distancia es una experiencia",
@@ -4232,8 +4232,8 @@
         {
           "heading": "Ferris y acceso a las islas",
           "body": [
-            "El Spirit of Tasmania es la única forma de llevar un vehículo a Tasmania y supone un coste fijo considerable que depende del tamaño del vehículo. Los billetes de pasajero a pie son mucho más baratos, por lo que a veces merece la pena calcular lo que costaría alquilar en la isla.",
-            "Kangaroo Island, Fraser Island y las Whitsundays tienen ferris para vehículos o pasajeros, y las tarifas con vehículo son bastante más caras que las de pasajero. En algunas islas, además, el vehículo no hace falta.",
+            "El ferri Spirit of <a data-guide=\"camping-rules-tasmania\">Tasmania</a> es la única forma de llevar un vehículo a Tasmania y supone un coste fijo considerable que depende del tamaño del vehículo. Los billetes de pasajero a pie son mucho más baratos, así que a veces compensa calcular cuánto costaría alquilar un vehículo en la isla.",
+            "<a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">Kangaroo</a> Island, Fraser Island y las Whitsundays tienen ferris para vehículos o pasajeros, y las tarifas con vehículo son bastante más caras que las de pasajero. En algunas islas, además, el vehículo no hace falta.",
             "En temporada alta, reserva con mucha antelación las travesías con vehículo. Estos servicios tienen plazas limitadas y se agotan, y perder un ferri puede costarte días de un itinerario por las islas."
           ],
           "tips": [
@@ -4245,25 +4245,25 @@
         {
           "heading": "Equipaje, comodidad y el dilema del viaje nocturno",
           "body": [
-            "La franquicia de equipaje en los autocares suele ser generosa, pero el material de camping, las tablas de surf y las bicicletas a menudo hay que reservarlos con antelación y pagar un suplemento. Confírmalo antes de presentarte con un bulto voluminoso.",
-            "Un autocar nocturno te ahorra una noche de alojamiento, pero a la mayoría le hace dormir mal. Ten en cuenta que llegarás cansado y probablemente perderás la mañana siguiente, lo que reduce bastante el ahorro real.",
-            "Si la compañía lo permite, reserva también el asiento además del billete, porque los servicios de larga distancia se llenan y los asientos que quedan rara vez son los buenos."
+            "El equipaje permitido en los autobuses suele ser generoso, pero el material de camping, las tablas de surf y las bicicletas a menudo hay que reservarlos con antelación y suponen un suplemento. Confírmalo antes de presentarte con un bulto voluminoso.",
+            "Un autobús nocturno te ahorra una noche de alojamiento, pero a la mayoría de la gente le deja una mala noche de sueño. Ten en cuenta que llegarás con sueño y probablemente pierdas la mañana siguiente, lo que reduce bastante el ahorro real.",
+            "Reserva el asiento además del billete cuando la compañía lo permita, porque los servicios de larga distancia se llenan y los asientos que quedan rara vez son los buenos."
           ],
           "tips": [
             "Los bultos voluminosos se reservan antes",
-            "El autocar nocturno te cuesta la mañana",
-            "Confirma la franquicia de equipaje con antelación"
+            "El autobús nocturno te cuesta la mañana",
+            "Confirma el equipaje permitido con antelación"
           ]
         }
       ],
       "faq": [
         [
           "¿Cuánto cuestan los autobuses de larga distancia en Australia?",
-          "Greyhound y los operadores regionales son la forma más barata de recorrer grandes distancias sin coche, y la guía recoge tarifas con fecha en los corredores principales. Los pases por distancia o por tiempo encajan bien con un recorrido sin prisas por la costa este."
+          "Greyhound y los operadores regionales son la forma más barata de recorrer grandes distancias sin coche, y la guía recoge tarifas con fecha en las rutas principales. Los pases por distancia o por tiempo encajan bien con un recorrido sin prisas por la costa este."
         ],
         [
           "¿Merecen la pena los trenes de larga distancia de Australia?",
-          "Como experiencia, sí; como transporte, no tanto. The Ghan y el Indian Pacific tienen precio de viaje en sí mismo y cuestan mucho más que volar la misma ruta, así que considéralos las vacaciones y no la forma de llegar a ellas."
+          "Como experiencia, no como transporte. The Ghan y el Indian Pacific se venden como viajes en sí mismos y cuestan mucho más que volar la misma ruta, así que tómalos como las vacaciones y no como el medio para llegar a ellas."
         ]
       ],
       "sources": [
@@ -4281,18 +4281,18 @@
         }
       ],
       "priceTable": {
-        "note": "Referencias de los operadores con fecha. La cifra de Queensland Rail procede de la hoja indexada de 2025–26; pide la tarifa vigente de 2026–27 antes de reservar.",
+        "note": "Referencias con fecha de los operadores. La cifra de Queensland Rail sale de la hoja de tarifas de 2025–26 que aparece publicada; pide la tarifa vigente de 2026–27 antes de reservar.",
         "rows": [
           {
-            "label": "Autocar Sídney–Melbourne",
-            "unit": "precio anunciado desde"
+            "label": "Autobús Sídney-Melbourne",
+            "unit": "tarifa anunciada desde"
           },
           {
-            "label": "Tren Cairns–Brisbane",
+            "label": "Tren Cairns-Brisbane",
             "unit": "referencia 2025–26"
           },
           {
-            "label": "The Ghan Adelaida–Darwin",
+            "label": "The Ghan Adelaida-Darwin",
             "unit": "ejemplo de experiencia en 2026"
           }
         ]
@@ -4641,13 +4641,13 @@
       "title": "Conducir una camper en Australia: tamaño, seguridad y límites legales",
       "description": "Comprueba la clase de permiso, las dimensiones del vehículo, los sistemas de retención y las carreteras excluidas antes del primer día largo al volante.",
       "region": "Australia",
-      "imageAlt": "Camper circulando por una autovía australiana",
+      "imageAlt": "Camper circulando por una carretera australiana",
       "intro": "Una camper puede parecer un coche grande hasta que una frenada, el viento lateral o una rama baja dejan claro su tamaño real. Una entrega segura empieza por las dimensiones, el peso en carga, la clase de permiso y las condiciones del alquiler.",
       "sections": [
         {
           "heading": "Conoce el vehículo antes de arrancar",
           "body": [
-            "Apunta la altura, la longitud y la MMA, comprueba qué combustible usa y familiarízate con los retrovisores, los ángulos muertos y los mandos. Un vehículo de más de 4,5 toneladas puede quedar fuera de un permiso de turismo normal.",
+            "Apunta la altura, la longitud y la GVM (masa máxima autorizada), comprueba qué combustible usa y familiarízate con los retrovisores, los ángulos muertos y los mandos. Un vehículo de más de 4,5 toneladas puede quedar fuera de un permiso de conducir de coche normal.",
             "Confirma con la empresa cómo funcionan los neumáticos, el toldo, el techo, el gas y la forma de guardar las cosas en el interior."
           ],
           "tips": []
@@ -4667,33 +4667,33 @@
         {
           "heading": "Conduce pensando en el vehículo cargado",
           "body": [
-            "Deja más distancia de frenado, gira con suavidad y reduce antes de las curvas, la grava, el viento lateral y los arcenes estrechos. Ir al máximo legal puede seguir siendo peligroso.",
-            "Las exclusiones del alquiler, las condiciones del seguro y las normas de tráfico oficiales son requisitos distintos. Tener permiso de uno no anula los demás."
+            "Deja más distancia de frenado, gira con suavidad y reduce antes de las curvas, de la grava, con viento lateral y en carreteras con poco arcén. Ir al máximo legal puede seguir siendo peligroso.",
+            "Las exclusiones del alquiler, las condiciones del seguro y las <a data-guide=\"australia-road-rules-state-differences\">normas de tráfico</a> oficiales son requisitos distintos. Que uno lo permita no anula los demás."
           ],
           "tips": []
         },
         {
           "heading": "Viento, road trains y adelantamientos",
           "body": [
-            "Una camper alta sufre mucho con el viento lateral, y un road train que se cruza contigo provoca un fuerte empujón seguido de una succión. Sujeta bien el volante con las dos manos y no hagas correcciones bruscas.",
-            "Para adelantar con una camper necesitas mucha más carretera despejada que con un coche, y la mayoría de las autovías australianas son de un carril por sentido con pocos carriles de adelantamiento. Si un adelantamiento te parece justo, no lo intentes.",
-            "Cuando se forme cola detrás de ti, usa el siguiente apartadero para vehículos lentos y deja pasar a los demás. Los conductores impacientes provocan accidentes al adelantar, y quitarles esa presión es una cortesía y además más seguro para ti."
+            "Una camper alta sufre mucho con el viento lateral, y un <a data-guide=\"driving-with-road-trains-australia\">road train (camión con varios remolques)</a> que te adelanta o se cruza contigo provoca un fuerte empujón seguido de un tirón. Sujeta bien el volante con las dos manos y no hagas correcciones bruscas.",
+            "Para adelantar con una camper necesitas mucha más carretera despejada que con un coche, y la mayoría de las carreteras australianas tienen un carril por sentido y pocos carriles de adelantamiento. Si un adelantamiento te parece justo, no lo intentes.",
+            "Cuando se forme cola detrás de ti, usa el siguiente apartadero para vehículos lentos y deja pasar a los demás. Los conductores impacientes provocan accidentes al adelantar, y quitarles esa presión es de buena educación y además más seguro para ti."
           ],
           "tips": [
-            "Los road trains empujan y luego succionan",
+            "Un road train empuja y luego tira",
             "Adelantar exige mucho más espacio",
             "Usa los apartaderos para vehículos lentos"
           ]
         },
         {
-          "heading": "Pistas sin asfaltar y lo que permite tu contrato",
+          "heading": "Caminos sin asfaltar y lo que permite tu contrato",
           "body": [
-            "La mayoría de los contratos de alquiler estándar prohíben por completo las carreteras sin asfaltar o enumeran exclusiones concretas, y los daños que se produzcan en ellas no los cubre el seguro. Los vehículos llevan localizador, así que, si circulas por ellas igualmente, la empresa lo sabrá.",
-            "En grava, reduce la velocidad muy por debajo de la que llevarías en asfalto, frena y gira con suavidad y por separado, y deja muchísima distancia con cualquier vehículo que levante polvo. Los daños en el parabrisas son el siniestro más habitual.",
-            "Bajar la presión de los neumáticos en las pistas onduladas mejora la comodidad y reduce los daños, pero hay que volver a inflarlos antes de regresar al asfalto. Lleva un manómetro y un compresor si piensas hacerlo."
+            "La mayoría de los contratos de alquiler estándar prohíben por completo los caminos sin asfaltar o enumeran exclusiones concretas, y el seguro no cubre los daños que se produzcan en ellos. Los vehículos llevan localizador, así que circular por ellos igualmente no pasa desapercibido.",
+            "En grava, reduce la velocidad muy por debajo de la que llevarías en asfalto, frena y gira con suavidad y por separado, y deja muchísima distancia con cualquier vehículo que levante polvo. El parabrisas dañado es el motivo de reclamación más habitual.",
+            "Bajar la presión de los neumáticos en tramos de firme ondulado (corrugations) mejora la comodidad y reduce los daños, pero tienes que volver a inflarlos antes de regresar al asfalto. Lleva un manómetro y un compresor si piensas hacerlo."
           ],
           "tips": [
-            "La mayoría de los alquileres prohíben las pistas sin asfaltar",
+            "La mayoría de los alquileres prohíben los caminos sin asfaltar",
             "Muchísima distancia con quien levante polvo",
             "Vuelve a inflar antes de pisar asfalto"
           ]
@@ -4702,7 +4702,7 @@
           "heading": "Calor, neumáticos y revisiones del vehículo",
           "body": [
             "El calor australiano castiga los neumáticos, y los que van bajos de presión o son viejos revientan a velocidad sobre el asfalto caliente. Comprueba la presión en frío, ajústala al vehículo cargado y revisa la rueda de repuesto antes de un tramo remoto.",
-            "Revisa con regularidad los niveles de refrigerante, aceite y limpiaparabrisas, sobre todo antes de los tramos largos por el outback. Una avería con calor en una zona remota es un problema de seguridad, no un simple contratiempo.",
+            "Revisa con regularidad los niveles de refrigerante, aceite y líquido del limpiaparabrisas, sobre todo antes de los tramos largos por el outback. Una avería con calor en una zona remota es un problema de seguridad, no un simple contratiempo.",
             "Lleva más agua de la que requiere el viaje. Si el vehículo se para en una zona remota, el agua es lo que mantiene la situación bajo control mientras esperas, y siempre debes esperar junto al vehículo."
           ],
           "tips": [
@@ -4719,7 +4719,7 @@
             "Da una vuelta completa al vehículo cada mañana para comprobar los neumáticos, las luces y que no queda nada en el techo ni abierto por debajo."
           ],
           "tips": [
-            "Escribe la altura en el salpicadero",
+            "Escribe la altura junto al volante",
             "La barrera del aparcamiento es el primer aviso",
             "Usa los aparcamientos para vehículos grandes"
           ]
@@ -4728,7 +4728,7 @@
       "faq": [
         [
           "¿Qué hay que saber para conducir una camper en Australia?",
-          "Su altura, su anchura y cómo se comporta con viento lateral, porque las tres cosas importan en carreteras estrechas y cuando se cruza un road train. Además, la mayoría de los contratos de alquiler restringen las carreteras sin asfaltar, lo que deja fuera muchos de los mejores sitios para acampar."
+          "Su altura, su anchura y cómo se comporta con viento lateral, porque las tres cosas importan en carreteras estrechas y cuando se cruza un road train. Además, la mayoría de los contratos de alquiler restringen los caminos sin asfaltar, lo que deja fuera muchos buenos sitios para acampar."
         ],
         [
           "¿Las campers tienen otro límite de velocidad en Australia?",
@@ -4737,13 +4737,13 @@
       ],
       "sources": [
         {
-          "label": "Clases de vehículo para permisos extranjeros en NSW"
+          "label": "Clases de vehículo para permisos extranjeros en Nueva Gales del Sur"
         },
         {
           "label": "Clases de vehículo para permisos extranjeros en Queensland"
         },
         {
-          "label": "Lista de comprobación de seguridad al volante del NT"
+          "label": "Lista de comprobación de seguridad al conducir en el Territorio del Norte"
         }
       ],
       "priceTable": null
