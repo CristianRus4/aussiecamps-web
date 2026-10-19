@@ -35,8 +35,24 @@ Branch `growth/a-tools-hubs`. Edited only by the A-tools-hubs thread.
   - SA: CC BY 3.0 AU, not 4.0.
 - **exclude:** BookEasy.
 
+### M2: tools split (handed off)
+- `/tools/` stays the index under a new title and links each calculator to its own page.
+- Five pages at `/tools/<tool>/` (`app/tools/[tool]/page.tsx`), built from `components/tools/tool-page.tsx`. Each has an H1, the formula, a worked example, assumptions, FAQs (FAQPage), BreadcrumbList, guide links, sources and a `data-cta="tool"` CTA.
+- Locale pages at `/<locale>/tools/<tool>/` (`app/[locale]/tools/[tool]/page.tsx`). Each is English, `lang="en"` and noindex until `tools.common` and `tools.tools.<tool>` are complete (`lib/tools/strings.ts`).
+- Copy lives in the new `tools` namespace (`toolStrings` in `lib/source-strings.ts`) and is emitted into `en.json` under `tools`.
+- `lib/tools/calc.ts` holds one inline `data-static-tools` script per page, which:
+  - formats with `Intl` in the page language;
+  - fires `tool_used` once per tool;
+  - matches the server-rendered default exactly.
+- `lib/routes/tools.ts` provides `toolRoutes()`. The sitemap includes the indexable tool pages.
+
 ## Next
-- **M2:** tools split into an index plus 5 tool pages, with a `tools` namespace in `lib/source-strings.ts` and `lib/routes/tools.ts`.
+- After foundation M2 merges:
+  - rebase;
+  - switch `ExportRoute` to the `lib/routes` type;
+  - register `toolRoutes` in the manifest;
+  - swap `storeUrl()` for `appStoreUrl({placement:"tool"})`;
+  - add `mainData`.
 - **M3:**
   - the Natural Earth outline;
   - hub components and pages;

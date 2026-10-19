@@ -2,6 +2,7 @@ import type { LocaleCode } from "@/lib/locales";
 import { pageRoutes } from "@/lib/routes/pages";
 import { guideRoutes } from "@/lib/routes/guides";
 import { crawlerRoutes } from "@/lib/routes/crawlers";
+import { toolRoutes } from "@/lib/routes/tools";
 
 /**
  * Every URL the site publishes, in one list.
@@ -38,6 +39,7 @@ const features: (() => ExportRoute[])[] = [
   pageRoutes,
   guideRoutes,
   crawlerRoutes,
+  toolRoutes,
 ];
 
 let cache: ExportRoute[] | undefined;
