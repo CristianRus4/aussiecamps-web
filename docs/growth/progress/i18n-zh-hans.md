@@ -4,17 +4,18 @@ Language: Simplified Chinese. Site file `lib/translations/zh-hans.json`, engine 
 Branches: `i18n/a-zh-hans` (aussiecamps-web), `i18n/k-zh-hans` (kiwicamping-web).
 Style guide: `docs/translation-style/zh-hans.md` (identical in both repos).
 
-## Status (2026-10-20)
-- Both sites: every UI string except the testimonials, the consent bar, support, privacy (new
-  analytics version) and terms.
-- Guides: every article currently in `en.json` on both sites (AU 50, NZ 43) once the last three
-  batches land; see the commit log for the order. Each is structurally complete per the
-  `isArticleComplete` rules (checked with /tmp/zhhans/tools/complete.py) and was read by the editor
-  before applying.
-- Not yet in scope because main has not merged them into `en.json`: road trips, the Kiwi legacy
-  `.html` articles, the `article` and `tools` namespaces, `<a data-guide>` link markup and
-  `translations:stamp`. Resume with: `git fetch && git rebase origin/main`, `npm run translations:source`
-  if needed, then the engine packet loop for the zh-Hans catalog.
+## Status (2026-10-20, second session)
+- Both branches were replayed onto origin/main as one squashed commit each (the 14/13-commit rebase
+  conflicted on the generated config and the empty locale skeleton). Old history: branches
+  `backup/i18n-a-zh-hans-pre-rebase` and `backup/i18n-k-zh-hans-pre-rebase`.
+- The dedicated catalog is now `aussiecamps-website-zh-Hans` / `kiwicamping-website-zh-Hans` with locale
+  `zh-hans` and `varieties {"zh-hans": "zh-Hans"}`, so `locales:sync` leaves it alone.
+- AU done: UI, support, privacy, terms, consent bar, 50 guides, `<a data-guide>` markup added to 40
+  guides, `tools` namespace. NZ: markup (84 units) and `tools` (152 units) still to do.
+- Queue AU: guides batch a1 (6 non-road-trip guides), then 20 road trips in r1..r4 (5 each).
+  Queue NZ: 18 non-road-trip guides, 20 road trips, markup, tools.
+- Working files: /tmp/zhhans/work-au-12, /tmp/zhhans/work-nz-12 (b-* sources, v-* values).
+  Apply with /tmp/zhhans/tools/apply.sh au|nz FILE [--real] (locale id is now zh-hans).
 
 ## How the work is done (for a resuming session)
 - Engine: separate zh-Hans catalog per site in `docs/translation.config.json`
