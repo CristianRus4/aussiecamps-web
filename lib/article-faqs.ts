@@ -49,7 +49,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Do you need to book camping in Namadgi National Park?", "Yes. Honeysuckle, Orroral and Mount Clear need bookings made in advance, fees apply and stays are capped at seven consecutive days, although entry to the park itself is free. Woods Reserve is closed until early 2027."],
   ],
   "is-free-camping-legal-australia": [
-    ["Is free camping legal in Australia?", "Yes, where the land manager allows it, and nowhere else. State forests in New South Wales and Victoria, South Australian Crown land, council sites that say so and rest areas that permit an overnight stop are the main legal options; most national park campgrounds charge a fee or need a booking."],
+    ["Is free camping legal in Australia?", "Yes, but only where the land manager allows it, through signs or a standing rule: there is no national right to camp wherever a vehicle can park. Most state forests in New South Wales and Victoria, South Australian Crown land for up to 21 days, council sites that say so and rest areas whose rules allow an overnight stop are the main legal options; most national park campgrounds charge a fee or need a booking."],
     ["Can you camp on the side of the road in Australia?", "Usually not. Roadside stops are limited to rest areas whose rules or signs allow an overnight stop, such as Western Australia's signed 24-hour stops. Queensland lets you stop at a rest area for up to 20 hours unless a sign says otherwise, but says rest areas are not camping sites, and it bans camping on state roads outside a narrow 4pm to 8am fatigue exception."],
   ],
   "campfires-camping-australia": [
@@ -210,7 +210,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
   ],
   "australia-road-trip-fuel-cost-2026": [
     ["How much does fuel cost in Australia?", "The guide gives dated prices per litre for petrol and diesel and works them through real routes. Remote roadhouse prices run far above city prices, sometimes by half again, which is what breaks outback budgets."],
-    ["How do you estimate fuel for an Australian road trip?", "Take the route distance, add a fifth for detours, then divide by your vehicle's real consumption rather than its brochure figure. A loaded van into a headwind will not meet its rated economy, and Australia has a lot of headwind."],
+    ["How do you estimate fuel for an Australian road trip?", "Take the route distance and add a fifth for detours, multiply by your vehicle's real consumption in litres per 100 km and divide by 100 to get litres, then multiply by the price per litre. A 1,000 km drive at 12 L/100 km uses 120 litres. Use real consumption, not the brochure figure: a loaded van into a headwind will not meet its rated economy."],
   ],
   "public-transport-costs-australia-2026": [
     ["Can you travel Australia without a car?", "Between the capitals, yes. Beyond them the network thins fast, and the coastal and outback places most people come for are effectively unreachable without a vehicle or a tour."],
