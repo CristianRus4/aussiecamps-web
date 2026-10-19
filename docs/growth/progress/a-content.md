@@ -31,7 +31,8 @@ Thread: A-content (Kai). Branch `growth/a-content`. Never push. Session 2 took o
 ## In progress (session 2)
 - DONE fact-check batch F1 (reports in /tmp/a-content/factcheck): TAS, ACT, sleeping-in-car, free-camping hub, camping-fees. Fix batch X2 (Opus) applying them.
 - DONE 9438657 fix batch C1: audit-confirmed errors on darwin-kakadu-litchfield-loop, australian-alps-camping-route, adelaide-to-uluru-road-trip, australian-road-signs-visitors-guide, plus towing-caravan flags. Changed claims in /tmp/a-content/factcheck/c1-changes.md. Darwin loop FAQ not added (road-trip guides carry none per lib/article-faqs.ts header); draft FAQ kept in drafts/.
-- Fact-check batch F2 (Opus): c1-changes (-> factcheck/c1-verdicts.md), campfires, dump-points, caravan-park.
+- DONE fact-check batch F2: c1-verdicts.md, campfires, dump-points, caravan-park reports in /tmp/a-content/factcheck. NEXT: one fixer applies F2 + demerit + NSW fire penalties (after X2 commits).
+- Research (Opus, penalty claims): demerit points -> factcheck/demerit-points.md; NSW fire-ban fines -> factcheck/nsw-fire-penalties.md.
 - Next fact-check batch: the 5 cost pages. Then apply all fixes and hand off batch 1.
 
 ## Queue: demerit points (from the Spanish lane, 2026-10-20)
