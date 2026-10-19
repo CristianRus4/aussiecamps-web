@@ -1521,29 +1521,76 @@
       "priceTable": null
     },
     "caravan-park-vs-holiday-park": {
-      "title": "Parque de caravanas, holiday park o camping: cuál elegir",
-      "description": "Elige la combinación adecuada de servicios, precio y ambiente para cada noche.",
+      "title": "Parque de caravanas, holiday park o zona de acampada: cuál elegir",
+      "description": "Parque de caravanas, holiday park o zona de acampada: quién gestiona cada uno, qué servicios ofrece, normas de reserva y tarifas de parques nacionales en 2026, en una tabla comparativa.",
       "region": "Australia",
       "imageAlt": "Parque de caravanas junto a una playa australiana",
-      "intro": "Las etiquetas se solapan, pero la experiencia puede ser muy distinta. Elige el alojamiento según lo que necesite el viaje esa noche, en lugar de empeñarte en un solo tipo para toda la ruta.",
+      "intro": "Un parque de caravanas (caravan park) y un holiday park (camping privado con cabañas y servicios) son prácticamente lo mismo: parques comerciales con parcelas con electricidad, servicios y, normalmente, cabañas, con los holiday parks más inclinados hacia piscinas, parques infantiles e instalaciones familiares. Una zona de acampada de un parque nacional o un bosque estatal cambia esos servicios por el entorno y por una tarifa menor o inexistente. Elige cada noche según lo que necesite el viaje y no uses un solo tipo para toda la ruta.",
       "sections": [
         {
-          "heading": "Parques de caravanas y holiday parks",
+          "heading": "Parque de caravanas o holiday park: qué significan los nombres",
           "body": [
-            "Los parques de caravanas se centran en parcelas con y sin electricidad, servicios y acceso para vehículos. Los holiday parks (parques vacacionales) suelen añadir piscina, zona de juegos, cabañas y un ambiente más de complejo turístico.",
-            "Pregunta por la longitud y el firme de la parcela, la toma eléctrica, la hora de llegada y si los servicios son de temporada."
+            "Los dos nombres se solapan y las empresas los usan sin rigor. Ambos describen un parque comercial con parcelas con y sin electricidad, bloques de servicios y, normalmente, cabañas; holiday park suele indicar más instalaciones familiares, como piscina, parque infantil o actividades, y a menudo más cabañas.",
+            "La diferencia mayor está entre los parques comerciales y las zonas de acampada públicas. Los parques venden servicios, electricidad y comodidad, mientras que las zonas de acampada de los parques nacionales y los bosques venden el lugar y dejan casi todos los servicios de tu cuenta."
           ],
-          "tips": []
+          "tips": [],
+          "table": {
+            "caption": "Comparación entre parque de caravanas, holiday park y zona de acampada",
+            "head": [
+              "Tipo de alojamiento",
+              "Quién lo gestiona",
+              "Qué suele ofrecer",
+              "Reserva",
+              "En AussieCamps"
+            ],
+            "rows": [
+              [
+                "Holiday park",
+                "Empresa comercial",
+                "Parcelas con electricidad, cabañas, servicios, a menudo piscina y parque infantil",
+                "Reserva con antelación; estancias mínimas en temporada alta",
+                "Parques asociados, gratis para consultar y reservar"
+              ],
+              [
+                "Parque de caravanas",
+                "Empresa comercial o ayuntamiento",
+                "Parcelas con y sin electricidad, servicios, lavandería, a menudo cabañas",
+                "Reserva con antelación en temporada alta",
+                "Parques asociados, gratis para consultar y reservar"
+              ],
+              [
+                "Zona de acampada de parque nacional",
+                "Organismo estatal de parques",
+                "Baños en la mayoría de los sitios; agua o duchas en algunos; rara vez electricidad",
+                "Reserva o permiso en la mayoría de los estados",
+                "Requiere el Pase"
+              ],
+              [
+                "Zona de acampada de bosque estatal",
+                "Organismo estatal de bosques",
+                "Servicios básicos o ninguno",
+                "A menudo por orden de llegada; los bosques estatales de Queensland exigen un permiso reservado",
+                "Requiere el Pase"
+              ],
+              [
+                "Área de descanso junto a la carretera",
+                "Autoridad de carreteras",
+                "Aparcamiento, baños en algunas",
+                "Sin reserva; con límites de tiempo",
+                "Requiere el Pase"
+              ]
+            ]
+          }
         },
         {
           "heading": "Campings en plena naturaleza",
           "body": [
-            "Los campings de los parques nacionales y de los bosques cambian servicios por ubicación. Los baños pueden ser básicos, el agua puede no estar tratada o no haberla, y los generadores pueden estar restringidos.",
-            "Comprueba el acceso por carretera y la reserva antes de entrar. Una tarifa más barata puede salir más cara si el sitio no se adapta a tu equipo."
+            "Las zonas de acampada de los parques nacionales y de los bosques ganan en ubicación lo que pierden en servicios. Los baños pueden ser básicos, puede que el agua no esté tratada o que no haya, la electricidad es rara y los generadores suelen estar restringidos.",
+            "También cuestan menos. En 2026, <a data-guide=\"camping-rules-queensland\">Queensland</a> cobra 7,75 AUD por persona y noche, los parques de Australia Occidental de 10 a 20 AUD por adulto, y los sitios reservables de Victoria empiezan en 16 AUD la noche, mientras que acampar en la mayoría de los bosques estatales de Nueva Gales del Sur es gratis. Comprueba el acceso por carretera y la reserva antes de ir."
           ],
           "tips": [
             "¿Necesitas electricidad?",
-            "¿Hay agua potable?",
+            "¿Agua potable?",
             "¿Duchas o lavandería?",
             "¿Longitud del vehículo?"
           ]
@@ -1557,24 +1604,24 @@
           "tips": []
         },
         {
-          "heading": "Qué significan realmente los nombres",
+          "heading": "Fíjate en las características, no en la etiqueta",
           "body": [
-            "En Australia los términos son en gran medida intercambiables y describen el mismo producto: un parque comercial con parcelas con y sin electricidad, bloques de servicios y, normalmente, cabañas. Holiday park suele indicar más instalaciones pensadas para familias.",
-            "Lo que importa son las características, no el nombre: si las parcelas tienen electricidad, si los servicios son modernos, si hay cocina común, lavandería, piscina y punto de vaciado, y qué medidas tienen las parcelas.",
+            "Lo que importa son las características y no el nombre: si las parcelas tienen electricidad, lo modernos que son los servicios y si hay cocina común, lavandería, piscina o <a data-guide=\"dump-points-australia-guide\">punto de vaciado</a>, además de las dimensiones de la parcela para tu vehículo.",
+            "Algunas cadenas de parques venden membresías de pago con descuentos en las tarifas por noche. Calcula si el ahorro cubre la cuota con las noches que de verdad pasarás en los parques de esa cadena antes de comprarla.",
             "Las cadenas y los programas de socios hacen descuentos en la tarifa por noche, y en un viaje largo la cuota de socio suele amortizarse sola. Comprueba primero si el automóvil club de tu país tiene un acuerdo de reciprocidad."
           ],
           "tips": [
-            "Los nombres significan casi lo mismo",
             "Fíjate en las características, no en la etiqueta",
-            "Los descuentos de socio se notan rápido"
+            "Comprueba el tamaño de la parcela para tu vehículo",
+            "Haz la cuenta de la membresía"
           ]
         },
         {
           "heading": "Cuándo merece la pena cada tipo",
           "body": [
             "Merece la pena pagar un parque comercial después de varias noches de acampada gratuita, antes de salir temprano, con mal tiempo o cuando la colada, las duchas calientes, la carga de aparatos y el agua necesitan atención a la vez. Si lo comparas con lo que te soluciona, suele salir a cuenta.",
-            "Los campings de los parques nacionales y las zonas protegidas cuestan menos y te dan el entorno, a cambio de ser autosuficiente y, normalmente, de no tener electricidad. Las zonas de acampada gratuita y las áreas de descanso no cuestan nada y no ofrecen nada.",
-            "La pauta en la que acaban la mayoría de los viajeros de larga duración es dos o tres noches baratas seguidas de una con servicios que lo pone todo al día. Ese equilibrio mantiene a raya tanto el presupuesto como el vehículo."
+            "Las zonas de acampada de los parques nacionales y los bosques cuestan menos y te dan el entorno, a cambio de que te valgas por ti mismo y, normalmente, sin electricidad. Las áreas de descanso no cuestan nada y ofrecen poco más que un sitio donde parar un tiempo limitado.",
+            "Una pauta habitual en los viajes largos es dos o tres noches baratas seguidas de una con servicios que lo pone todo al día. Con ese equilibrio, el presupuesto aguanta y el vehículo sigue a punto."
           ],
           "tips": [
             "Una noche con servicios pone el vehículo al día",
@@ -1585,7 +1632,7 @@
         {
           "heading": "Reservas y temporada alta",
           "body": [
-            "Los parques de la costa se llenan con meses de antelación en vacaciones escolares, Semana Santa y Navidad, imponen estancias mínimas y cobran bastante más. Algunos hacen sorteos o tienen clientes fijos de toda la vida que hacen muy difícil conseguir plaza si es tu primera vez.",
+            "Los parques de la costa en vacaciones escolares, en Semana Santa y en Navidad se agotan con meses de antelación, suelen imponer estancias mínimas y cobran tarifas de temporada alta. Reserva en cuanto tengas fijadas las fechas.",
             "Indica con exactitud la longitud de tu vehículo, porque las parcelas se asignan por tamaño y quedarte corto acaba en una conversación incómoda al llegar. Avisa si necesitas una parcela de paso (drive-through) o si llevas remolque.",
             "Al reservar, pregunta qué pasa si llegas tarde. La mayoría de los parques cierran la recepción por la tarde-noche y dejan un sobre con el código de la barrera, pero necesitas saberlo antes de plantarte delante de una barrera cerrada."
           ],
@@ -1625,15 +1672,31 @@
       ],
       "faq": [
         [
-          "¿Qué diferencia hay entre un parque de caravanas y un camping de un parque nacional?",
-          "Un parque de caravanas es un recinto comercial con parcelas con electricidad, bloques de servicios, lavandería y, normalmente, cabañas, con precio por parcela o por pareja. Un camping de parque nacional está en terreno público, tiene muchos menos servicios, exige un permiso reservado y cuesta mucho menos."
+          "¿Qué diferencia hay entre un parque de caravanas y un holiday park?",
+          "Muy poca en la práctica: ambos son parques comerciales con parcelas con y sin electricidad, servicios y, normalmente, cabañas. Un holiday park suele indicar más instalaciones para familias, como piscina, parque infantil o actividades, y a menudo más cabañas."
         ],
         [
           "¿Cuándo merece la pena pagar un parque de caravanas?",
-          "Cuando necesitas electricidad, una ducha caliente, lavandería y reabastecerte, lo que en un viaje largo viene a ser cada tres o cuatro noches. En los grandes trayectos también son el sitio fiable donde parar cuando las opciones gratuitas están llenas."
+          "Cuando necesitas electricidad, duchas calientes, colada y reabastecerte a la vez, o cuando las opciones gratuitas y baratas de la zona están llenas. Muchos viajeros de largo recorrido reservan una noche con servicios después de dos o tres noches de acampada en el monte."
         ]
       ],
-      "sources": [],
+      "sources": [
+        {
+          "label": "Dónde acampar en los parques de Queensland"
+        },
+        {
+          "label": "Reservas y tarifas de acampada de Queensland Parks"
+        },
+        {
+          "label": "Tarifas de acampada de Explore Parks WA"
+        },
+        {
+          "label": "Tarifas y cargos de Parks Victoria 2026-27"
+        },
+        {
+          "label": "Forestry Corporation of NSW: acampada"
+        }
+      ],
       "priceTable": null
     },
     "dump-points-australia-guide": {
@@ -6067,120 +6130,165 @@
       "priceTable": null
     },
     "camping-rules-victoria": {
-      "title": "Normas de acampada en Victoria",
-      "description": "Reservas, tarifas, carreteras de temporada y restricciones de fuego en todo Victoria.",
+      "title": "Normas de acampada en Victoria 2026: acampada libre, bosques y tarifas",
+      "description": "Acampa gratis en los bosques estatales de Victoria hasta 28 noches, a 20 m del agua. Las zonas reservables de Parks Victoria cuestan la mitad hasta julio de 2027. Normas de fuego de 2026.",
       "region": "Victoria",
       "imageAlt": "Camping en un bosque de Victoria",
-      "intro": "Victoria tiene campings de parques nacionales con reserva, sitios básicos gratuitos y parques comerciales. La página concreta de cada camping es el único sitio fiable para confirmar tarifas y servicios.",
+      "intro": "Sí, se puede acampar gratis en Victoria: en los bosques estatales puedes acampar casi en cualquier sitio hasta 28 noches seguidas si te quedas al menos a 20 metros de los cursos de agua, todas las zonas de acampada de los bosques estatales son gratuitas salvo la Murrindindi Scenic Reserve, y algunas zonas de Parks Victoria no cobran nada y no aceptan reservas. AussieCamps incluye 438 zonas de acampada de Victoria, 350 de ellas en bosques estatales y tierras de la Corona (Crown land) gestionados por el DEECA y 88 gestionadas por Parks Victoria, además de 651 áreas de descanso junto a la carretera y 181 puntos de vaciado públicos.",
       "sections": [
         {
           "heading": "Reservas y condiciones de los campings",
           "body": [
-            "Reserva los sitios de Parks Victoria a través del sistema oficial cuando sea obligatorio. Lleva la matrícula del vehículo y ten la confirmación a mano.",
-            "Algunos campings funcionan por orden de llegada y otros cierran según la temporada. No ocupes una parcela reservada o cerrada solo porque parezca vacía."
+            "Las zonas de acampada reservables de Parks Victoria exigen una reserva hecha con antelación y con la matrícula de tu vehículo. Ya no hace falta imprimir ni mostrar el permiso, pero asegúrate de que la matrícula de tu reserva sea correcta; puedes actualizarla en cualquier momento con «manage booking» en el correo de confirmación.",
+            "Algunas zonas de acampada de parques son gratuitas y no necesitan reserva, como el Warby-Ovens National Park y King Hut, en el Alpine National Park, mientras que otras abren solo en ciertas temporadas: Lake Catani, en Mount Buffalo, está cerrado del 31 de agosto al 30 de octubre de 2026. No ocupes un sitio reservado o cerrado solo porque parezca vacío."
           ],
           "tips": []
         },
         {
           "heading": "Bosques estatales y paradas junto a la carretera",
           "body": [
-            "Acampar en los bosques estatales tiene normas distintas a las de los parques nacionales. Usa los sitios ya establecidos, protege los cursos de agua y comprueba las restricciones locales sobre leña y fuego.",
-            "Las áreas de descanso junto a la carretera son para combatir la fatiga y pueden tener límites de tiempo señalizados. Los ayuntamientos pueden aplicar sus propias normas sobre aparcar de noche."
+            "Los bosques estatales se rigen por normas distintas a las de los parques nacionales. Puedes acampar en cualquier punto de un bosque estatal al menos a 20 metros de un curso de agua durante no más de 28 noches seguidas, pero en las reservas forestales tienes que usar las zonas de acampada que facilite quien gestiona el terreno.",
+            "Las áreas de descanso están pensadas para parar a descansar, no para acampar. Las de las carreteras principales las gestiona Transport Victoria, y los ayuntamientos fijan las normas para pasar la noche en las carreteras locales, así que sigue las señales de cada parada y no pases la noche salvo que una señal lo permita."
           ],
           "tips": [
-            "Averigua quién gestiona el terreno",
-            "Comprueba los cierres de temporada",
-            "Comprueba los límites de longitud del vehículo"
+            "Bosque: a 20 m del agua",
+            "28 noches seguidas como máximo",
+            "Reservas forestales: solo zonas de acampada"
           ]
         },
         {
           "heading": "Fuego y acceso a la zona alpina",
           "body": [
-            "En Victoria, el peligro de incendios puede dispararse muy rápido. Consulta VicEmergency y los avisos de los parques, y no enciendas nunca fuego cuando las restricciones lo prohíban.",
-            "Las carreteras alpinas y forestales cierran por temporada o después de una tormenta. Respeta las barreras y ten una alternativa a menor altitud."
+            "Las condiciones de fuego en Victoria cambian de un día para otro, y en los días de <a data-guide=\"campfires-camping-australia\">prohibición total de fuego</a> los incendios se propagan con más facilidad. Consulta la app VicEmergency y la página de avisos del parque cada mañana en verano, y no enciendas nunca un fuego cuando las restricciones lo prohíban.",
+            "Las carreteras alpinas y forestales cierran en invierno y después de las tormentas. Respeta las puertas cerradas con candado y ten en reserva una zona de acampada de menor altitud por si la alta montaña te hace volver."
           ],
           "tips": []
         },
         {
           "heading": "Parks Victoria y el sistema de reservas",
           "body": [
-            "La acampada en los parques nacionales de Victoria se reserva a través de Parks Victoria, con tarifas que varían según la categoría del sitio. Los sitios costeros más populares de la Great Ocean Road y de Wilsons Promontory se llenan con meses de antelación y se sortean en temporada alta.",
-            "Wilsons Promontory, en concreto, adjudica las parcelas de verano por sorteo y no por orden de reserva, algo que pilla por sorpresa a quien espera reservar con normalidad. Infórmate del proceso con mucho margen antes de tus fechas.",
-            "Muchas parcelas tienen límites de vehículos y de ocupantes indicados en la reserva. Llega con lo que reservaste, porque las parcelas son pequeñas y los guardas lo comprueban en los campings más concurridos."
+            "Las <a data-guide=\"camping-fees-australia-2026\">tarifas de acampada</a> de 131 zonas de acampada reservables de Parks Victoria cuestan la mitad desde el 1 de julio de 2025, y el Gobierno de Victoria lo ha financiado hasta julio de 2027. El anterior programa de acampada gratuita en esas zonas terminó el 30 de junio de 2025, así que siguen haciendo falta reserva y tarifa.",
+            "La temporada alta de Wilsons Promontory se gestiona con aperturas de reservas trimestrales, no con un sorteo. Las reservas de Tidal River del 1 de marzo al 30 de junio de 2027 abrieron el 28 de septiembre de 2026, y en el pico del verano, del 20 de diciembre de 2026 al 24 de enero de 2027, las parcelas exigen una estancia mínima de 7 noches con llegada y salida en domingo. Desde el 1 de julio de 2026, algunas parcelas de la Great Ocean Road se reservan a través de la Great Ocean Road Coast and Parks Authority.",
+            "Ahora una misma reserva puede incluir hasta tres parcelas en la misma zona de acampada. La mayoría de las parcelas incluyen un vehículo en la tarifa y Tidal River admite dos coches por parcela, así que comprueba el límite de tu reserva antes de llevar un segundo coche o un remolque."
           ],
           "tips": [
-            "Wilsons Prom sortea las plazas de verano",
-            "Reserva la costa con meses de antelación",
-            "Se comprueban los límites de ocupación"
+            "Mitad de precio hasta julio de 2027",
+            "Sin sorteo en Wilsons Prom",
+            "Hasta tres parcelas por reserva"
           ]
         },
         {
           "heading": "Bosques estatales y acampada dispersa",
           "body": [
-            "Victoria tiene grandes extensiones de bosque estatal donde se permite la acampada dispersa gratis, siempre sujeta a las restricciones de fuego y a los cierres de carreteras por temporada. Aquí es donde se concentra casi toda la acampada realmente gratuita del estado.",
-            "Acampa en claros que ya existan en vez de abrir otros nuevos, mantén las distancias mínimas indicadas respecto a cursos de agua y carreteras, y llévate toda la basura. No hay servicios.",
-            "Los cierres de temporada en el High Country y otras zonas forestales suelen ir de junio a noviembre, para proteger pistas que se estropean con facilidad cuando están mojadas. Circular por una carretera cerrada conlleva multas importantes."
+            "Los bosques estatales de Victoria tienen más de 300 zonas de acampada, y todas son gratuitas salvo la Murrindindi Scenic Reserve, donde se aplica una pequeña tarifa de permiso. En los sitios informales no hay instalaciones, así que lleva agua, una pala y vuélvete a llevar todas las bolsas de basura.",
+            "Cava los hoyos para el váter con al menos 30 cm de profundidad y a 100 metros de cualquier curso de agua, y vierte el agua de fregar al menos a 50 metros de ríos y arroyos. Construir cualquier cosa permanente o semipermanente requiere permiso.",
+            "Los cierres de carreteras por temporada van de junio a noviembre cada año para proteger pistas que se dañan con facilidad cuando están mojadas. En 2026, la mayoría de los cierres en los parques de Parks Victoria empezaron el 4 o el 11 de junio y se levantaron el 29 de octubre; consulta el mapa de cierres de FFMVic para las carreteras de los bosques estatales, y cuenta con una multa si conduces por una carretera cerrada."
           ],
           "tips": [
-            "Acampar en bosque estatal es gratis",
-            "Usa los claros ya existentes",
+            "Hoyos de váter de 30 cm de profundidad",
+            "Agua de fregar a 50 m de los arroyos",
             "Cierres de temporada de junio a noviembre"
           ]
         },
         {
           "heading": "Restricciones de fuego y periodo de peligro",
           "body": [
-            "El periodo de peligro de incendios que declara Victoria varía según la región y suele abarcar del verano al otoño. Durante ese periodo las hogueras están restringidas, y en los días de prohibición total de fuego se prohíbe cualquier llama abierta, incluidas las barbacoas de combustible sólido.",
-            "El fuego debe hacerse en un hogar bien construido, de no más de un metro por un metro, con tres metros despejados alrededor y alguien vigilándolo en todo momento. Estas condiciones se aplican incluso cuando no hay prohibición.",
-            "En verano, consulta cada mañana el índice de peligro de incendios de la CFA para tu distrito. Un camping en mitad del bosque es de los peores sitios para refugiarse en un mal día, y el consejo habitual es marcharse pronto."
+            "El periodo de peligro de incendios (Fire Danger Period) empieza y termina en fechas distintas en cada área municipal, normalmente antes del verano y hasta abril o mayo. En 2026-27 empezó el 5 de octubre en East Gippsland y Wellington.",
+            "En un bosque estatal, usa un fogón hecho a propósito si puedes, ya sea un fogón del sitio o uno portátil, mantén el fuego por debajo de un metro de ancho con tres metros despejados alrededor y no lo dejes nunca sin vigilancia. Durante el periodo de peligro de incendios, el fuego debe estar en un fogón de piedra, metal u hormigón o en una zanja de al menos 30 cm de profundidad, y en los parques nacionales y estatales solo puedes usar los fogones que facilite el parque.",
+            "En un día de <a data-guide=\"campfires-camping-australia\">prohibición total de fuego</a>, las hogueras y las barbacoas u hornillos de combustible sólido o químico están prohibidos en todos los distritos que cubre la prohibición, y algunas prohibiciones cubren todo el estado. La CFA advierte de que encender fuego uno de esos días puede costar una multa de más de 40.000 AUD, dos años de prisión o ambas cosas."
           ],
           "tips": [
-            "Fuego de un metro, tres metros despejados",
-            "No dejes nunca un fuego sin vigilancia",
-            "Consulta el índice de la CFA cada mañana"
+            "Fogón de menos de un metro de ancho",
+            "Tres metros despejados alrededor",
+            "Prohibición total de fuego: sin hogueras"
           ]
         },
         {
           "heading": "Acampada gratuita y la costa",
           "body": [
-            "Los municipios costeros de la Great Ocean Road y la Mornington Peninsula prohíben casi por completo pernoctar en el vehículo y lo vigilan activamente. Da por hecho que está prohibido salvo que un cartel diga lo contrario.",
-            "En el interior, varios ayuntamientos ofrecen acampada gratuita o barata en los pueblos para atraer viajeros, y los recintos feriales (showgrounds) de Victoria suelen tener parcelas baratas con electricidad y servicios.",
-            "Las áreas de descanso que gestiona la autoridad de carreteras del estado son para hacer pausas contra la fatiga. Echar una cabezada está bien; montar el campamento no, y la diferencia importa allí donde se vigila."
+            "Algunos ayuntamientos costeros son estrictos. El Surf Coast Shire, que abarca Torquay, Anglesea y Lorne, considera una infracción dormir en un vehículo en cualquier punto del municipio, con una multa en el acto de 300 AUD, así que no duermas en tu vehículo en ningún aparcamiento ni calle de allí; reserva un <a data-guide=\"caravan-park-vs-holiday-park\">parque de caravanas</a> o una zona de acampada.",
+            "Algunos ayuntamientos del interior mantienen zonas de acampada gratuitas o baratas, y algunos recintos feriales (showgrounds) aceptan campistas. Consulta la web del ayuntamiento o pregunta en el centro de visitantes por las condiciones actuales.",
+            "Wilsons Promontory prohíbe las mascotas, los drones, los generadores, las <a data-guide=\"campfires-camping-australia\">hogueras</a> y las barbacoas de combustible sólido, y en general no se admiten perros en los parques nacionales de Victoria. Los bosques estatales son la alternativa apta para perros, con los perros con correa o controlados cerca de los campamentos y las instalaciones."
           ],
           "tips": [
-            "Los municipios costeros prohíben y multan",
-            "Los pueblos del interior ofrecen sitios gratis",
-            "Las áreas de descanso son para dormir, no para acampar"
+            "Multa en Surf Coast: 300 AUD",
+            "Algunos pueblos del interior ofrecen sitios gratis",
+            "Lleva los perros a los bosques estatales"
           ]
         },
         {
           "heading": "Particularidades de la acampada alpina y fluvial",
           "body": [
-            "En las zonas alpinas de Victoria, la acampada está restringida por encima de ciertas altitudes para proteger una vegetación frágil, y en los bosques estatales se aplican distancias concretas respecto al agua y a las carreteras.",
-            "Para acampar en riberas de tierras de la Corona tienes que tener en cuenta las riberas con licencia, en algunas de las cuales se puede acampar y en otras no. La guía son los carteles y los mapas de terrenos públicos del estado.",
-            "Parks Victoria publica cada año las fechas de cierre de carreteras por temporada, y consultarlas antes de planear una ruta por el High Country te ahorra un viaje en balde hasta una barrera cerrada.",
-            "Los días de prohibición total de fuego no se permite ningún combustible sólido, así que llevar un hornillo de gas hace que el viaje nunca dependa de que te dejen encender fuego."
+            "En las Bogong High Plains no se permite la acampada dispersa a menos de 200 metros de las carreteras Bogong High Plains o Pretty Valley. La leña escasea en altura, así que Parks Victoria pide a los campistas que usen un hornillo.",
+            "En las orillas de ríos de tierras de la Corona con licencia, que a menudo pasta la granja vecina, solo puedes acampar en zonas designadas, hasta 14 noches, a más de 20 metros del agua y a 200 metros de una casa, y sin perros. En las orillas de tierras de la Corona sin licencia puedes acampar a más de 20 metros del agua y a 200 metros de una casa hasta 28 noches seguidas.",
+            "Parks Victoria publica cada año la lista de cierres de carreteras por temporada, y consultarla antes de planear una ruta por el High Country te ahorra un viaje en balde hasta una barrera cerrada.",
+            "Lleva un hornillo de gas. En un día de <a data-guide=\"campfires-camping-australia\">prohibición total de fuego</a> puedes seguir cocinando con él si es estable, no hay nada inflamable a menos de tres metros, lo vigilas todo el tiempo y tienes a mano al menos 10 litros de agua."
           ],
           "tips": [
-            "La acampada alpina tiene límites de altitud",
-            "Hay distancias mínimas respecto al agua",
-            "Revisa las normas de las riberas de la Corona"
+            "A 200 m de las carreteras de las altiplanicies",
+            "Orillas con licencia: solo sitios designados",
+            "Lleva un hornillo de gas"
           ]
         }
       ],
       "faq": [
         [
           "¿Se puede acampar gratis en Victoria?",
-          "Sí, y con más libertad que en la mayoría de los estados. La acampada dispersa está permitida sin coste en grandes zonas de los bosques estatales de Victoria, y esa es la principal razón por la que el High Country funciona tan bien como destino de acampada."
+          "Sí. Puedes acampar en la mayoría de los bosques estatales de Victoria sin pagar hasta 28 noches seguidas, al menos a 20 metros de los cursos de agua; todas las zonas de acampada de los bosques estatales son gratuitas salvo la Murrindindi Scenic Reserve, y algunas de Parks Victoria, como King Hut y Warby-Ovens, son gratuitas y no necesitan reserva."
         ],
         [
           "¿Hay que reservar las parcelas de los parques nacionales de Victoria?",
-          "Muchas, sí. Parks Victoria gestiona las reservas de sus campings más populares y cobra una tarifa por parcela, y los de la costa y la montaña se llenan en verano y en Semana Santa. Los campings remotos en plena naturaleza suelen funcionar más a menudo por orden de llegada."
+          "Las zonas de acampada reservables sí, y sus tarifas cuestan la mitad desde julio de 2025 y seguirán así hasta julio de 2027. Wilsons Promontory usa aperturas de reservas trimestrales en lugar de un sorteo, y algunos sitios de la Great Ocean Road se reservan ahora a través de la Great Ocean Road Coast and Parks Authority."
         ]
       ],
       "sources": [
         {
           "label": "Información sobre reservas de Parks Victoria"
+        },
+        {
+          "label": "Acampada en Parks Victoria"
+        },
+        {
+          "label": "Acampar en los bosques estatales de Victoria"
+        },
+        {
+          "label": "Hogueras, hornillos y barbacoas en los bosques estatales"
+        },
+        {
+          "label": "Normas de la CFA sobre hogueras"
+        },
+        {
+          "label": "Fechas de restricción de fuego de la CFA"
+        },
+        {
+          "label": "Acampada dispersa en el Alpine National Park"
+        },
+        {
+          "label": "Acampada en el Warby-Ovens National Park"
+        },
+        {
+          "label": "Acampar en orillas de tierras de la Corona con licencia"
+        },
+        {
+          "label": "Perros en los bosques estatales de Victoria"
+        },
+        {
+          "label": "Parques de Parks Victoria aptos para perros"
+        },
+        {
+          "label": "Aparcamiento y acampada en el Surf Coast Shire"
+        },
+        {
+          "label": "Tidal River Campground"
+        },
+        {
+          "label": "Cierres de carreteras por temporada de Parks Victoria 2026"
+        },
+        {
+          "label": "Explore Outdoors: antes de salir"
+        },
+        {
+          "label": "Guía de acceso a orillas de ríos en tierras de la Corona"
         }
       ],
       "priceTable": null
@@ -6523,120 +6631,165 @@
       "priceTable": null
     },
     "camping-rules-western-australia": {
-      "title": "Normas de acampada en Western Australia",
-      "description": "Reservas en parques nacionales, tarifas de entrada y acampada en largas distancias por Western Australia.",
+      "title": "Normas de acampada en Australia Occidental 2026: acampada gratuita y tarifas",
+      "description": "La acampada libre en Australia Occidental son las paradas de descanso señalizadas, hasta 24 horas, o los sitios aprobados. Los camping de parques cuestan de 10 a 20 AUD por adulto y noche. Pases, fuego y permisos en 2026.",
       "region": "Western Australia",
       "imageAlt": "Parcela en un parque nacional de Australia Occidental",
-      "intro": "En Australia Occidental, las normas de acampada varían entre parques nacionales, terrenos municipales, zonas ganaderas y parques privados. Con distancias tan grandes, encontrarte un camping cerrado o lleno es mucho más que una pequeña molestia.",
+      "intro": "Solo en lugares limitados: Australia Occidental (Western Australia) permite acampar fuera de un parque de caravanas o zona de acampada con licencia solo con aprobación, y la principal excepción gratuita es una parada de descanso señalizada para pasar la noche, donde puedes quedarte hasta 24 horas seguidas. En los parques nacionales solo se acampa en zonas de acampada designadas, a 10-20 AUD por adulto y noche. AussieCamps incluye 260 zonas de acampada de parques de Australia Occidental y 238 puntos de vaciado públicos para esas largas distancias.",
       "sections": [
         {
           "heading": "Park Stay WA y tarifas",
           "body": [
-            "Muchas zonas de acampada de los parques nacionales se reservan a través de Park Stay WA. La tarifa de acampada suele cobrarse por persona y por noche, y la entrada al parque puede ir aparte.",
-            "Algunos campings siguen funcionando por orden de llegada. Llega pronto y ten una alternativa legal dentro de tu autonomía de combustible."
+            "Muchas zonas de acampada de parques nacionales se reservan a través de Park Stay WA, hasta con 180 días de antelación. Las tarifas son por persona y noche: 10 AUD por adulto en las zonas sin servicios, 15 AUD con servicios básicos y 20 AUD con servicios adicionales, y los niños de 5 años o menos acampan gratis.",
+            "Las zonas de acampada que no se pueden reservar son por orden de llegada, y normalmente hay sitio fuera de los periodos más concurridos, pero no está garantizado. Las tarifas se pagan igualmente, normalmente en efectivo o con un sobre de autoregistro. Llega pronto y ten una alternativa legal dentro de tu <a data-guide=\"road-trip-fuel-planning-australia\">autonomía de combustible</a>."
           ],
           "tips": []
         },
         {
           "heading": "Acampada junto a la carretera y en zonas remotas",
           "body": [
-            "Usa las zonas señalizadas para pasar la noche y deja libres los apartaderos de vehículos pesados. Los ayuntamientos pueden prohibir acampar fuera de los recintos autorizados, incluidas las playas y los aparcamientos de los pueblos.",
-            "En las carreteras remotas, comprueba el acceso, el permiso de la estancia ganadera (station) y los requisitos de permiso para tierras aborígenes antes de salir de la autopista."
+            "Main Roads WA dice que sus áreas de descanso de 24 horas no están pensadas para acampar, que una estancia no debe superar las 24 horas seguidas y que no se puede pasar la noche en un área de descanso sin una señal que lo permita. Deja libres las plazas para vehículos pesados para los <a data-guide=\"driving-with-road-trains-australia\">road trains</a>.",
+            "Acampar en cualquier otro sitio fuera de un <a data-guide=\"caravan-park-vs-holiday-park\">parque de caravanas</a> o zona de acampada con licencia sin aprobación puede ser una infracción, tanto en terreno público como privado. En terreno privado, el permiso del propietario cubre una estancia de hasta 5 noches; las estancias más largas también necesitan aprobación del gobierno local. Algunos gobiernos locales tienen sus propios sitios designados."
           ],
           "tips": [
-            "Reserva de acampada",
-            "Entrada al parque",
-            "Comprueba carreteras y permisos"
+            "24 horas seguidas como máximo",
+            "Solo donde una señal lo permita",
+            "En otros sitios hace falta aprobación"
           ]
         },
         {
           "heading": "Fuego, agua y distancias",
           "body": [
-            "Lleva agua potable y comprueba si el agua de los grifos del camping es potable. Las restricciones de fuego cambian según el distrito y la temporada.",
-            "No recojas leña en espacios protegidos. Con calor y viento, un fuego legal por la mañana puede volverse peligroso o quedar prohibido por la tarde."
+            "La mayoría de las zonas de acampada de parques no tienen <a data-guide=\"camping-water-planning\">agua potable</a>. Donde hay agua de lluvia o de pozo, el suministro no está garantizado y debes hervirla, tratarla o filtrarla, así que lleva toda el agua que necesites. En los parques nacionales solo se permite hacer fuego en los anillos de fuego que haya, con al menos tres metros despejados alrededor, y las restricciones pueden empezar sin previo aviso.",
+            "Recoger leña, incluso madera muerta, está prohibido en parques nacionales, reservas naturales y parques de conservación. En los bosques estatales solo se permite en zonas de leña designadas en las Perth Hills (con permiso) y en el South West, así que lleva leña o cómprala cerca de donde vayas a quemarla. Muchos parques suspenden las <a data-guide=\"campfires-camping-australia\">hogueras</a> más o menos del 1 de diciembre al 31 de marzo, y algunos no las permiten nunca."
           ],
           "tips": []
         },
         {
           "heading": "La escala cambia la planificación",
           "body": [
-            "Western Australia ocupa un tercio del continente, y las distancias entre parques, pueblos y gasolineras no se parecen a las de ningún otro sitio. Aquí, un viaje de acampada es antes que nada un ejercicio de logística.",
-            "Los campings de Parks and Wildlife se reservan por internet en los sitios populares y funcionan por orden de llegada en muchos de los remotos. Existe un pase de parques que cubre la entrada en vehículo y que compensa a partir de unas pocas visitas.",
-            "Muchos parques del norte cierran en la estación húmeda, más o menos de noviembre a abril, y reabren cuando las carreteras y los vados lo permiten. Consulta la situación actual en lugar de fiarte de la temporada publicada."
+            "Australia Occidental ocupa cerca de un tercio del continente, y las distancias entre parques, pueblos y combustible condicionan cualquier plan de acampada. Una zona de acampada llena o cerrada puede costar un día de conducción.",
+            "La entrada al parque se cobra aparte de la acampada en parques como Karijini y Cape Range: 17 AUD por vehículo estándar, o 10 AUD con descuento. El All Parks Pass cuesta 130 AUD al año (80 AUD con descuento) y los holiday passes empiezan en 30 AUD, así que un pase se amortiza rápido en un recorrido por la costa.",
+            "Las carreteras y zonas de acampada del norte siguen el tiempo y no el calendario. Consulta los avisos de parques del DBCA y el Travel Map de Main Roads WA antes de cada tramo, y pregunta al ayuntamiento (shire) local por las carreteras que gestiona."
           ],
           "tips": [
-            "Reserva por internet los sitios populares del DBCA",
-            "El pase de parques cubre la entrada en vehículo",
-            "Los parques del norte cierran en la estación húmeda"
+            "Entrada a Karijini: 17 AUD por vehículo",
+            "All Parks Pass: 130 AUD al año",
+            "Consulta los avisos antes de cada tramo"
           ]
         },
         {
           "heading": "Acampada gratuita y la norma de las 24 horas",
           "body": [
-            "Muchos ayuntamientos de WA permiten estancias de 24 horas en áreas de descanso designadas y prohíben acampar en el resto. Las normas de cada condado varían muchísimo y, en general, cuanto más remoto es, más relajado.",
-            "Algunas áreas de descanso de la North West Coastal Highway y la Great Northern Highway permiten estancias más largas y son, en la práctica, campings gratuitos. Los carteles indican el límite, y en las zonas más concurridas se hace cumplir.",
-            "Los station stays, en los que las fincas ganaderas abren zonas de acampada a los viajeros, son una opción muy propia de WA y a menudo el único alojamiento en cientos de kilómetros. La mayoría cobran en efectivo y pocos tienen un sistema de reservas fiable."
+            "Fuera de las zonas de acampada de pago, el principal lugar donde el estado te deja pasar la noche sin aprobación es una parada de descanso señalizada para pasar la noche, hasta 24 horas seguidas. Main Roads WA trata ese límite como uno que hay que hacer cumplir, y las normas oficiales no permiten estancias más largas en sitios junto a la carretera.",
+            "Algunos gobiernos locales mantienen zonas de acampada baratas o gratuitas para viajeros, cada una con su propio límite de estancia y condiciones. Pregunta en el ayuntamiento o en el centro de visitantes, porque las normas cambian de un municipio a otro.",
+            "Las estancias en estaciones ganaderas, donde las propiedades pastorales abren zonas de acampada a los viajeros, son una opción propia de Australia Occidental, y algunas son una buena parada en los largos tramos remotos, como Cheela Plains, entre Ningaloo y Karijini. Confirma con la estación el precio, la forma de pago y el acceso por carretera antes de llegar."
           ],
           "tips": [
-            "Los límites de 24 horas son habituales",
-            "Los station stays cubren los huecos",
-            "Lleva efectivo para los station stays"
+            "24 horas en paradas de descanso señalizadas",
+            "Cada municipio fija sus normas",
+            "Confirma con antelación las estancias en estaciones"
           ]
         },
         {
           "heading": "Agua, combustible y comunicación",
           "body": [
-            "Lleva como mínimo de cuatro a cinco litros de agua potable por persona y día, más una buena reserva, y trata la autonomía de combustible como la limitación que define la ruta. Los roadhouses (áreas de servicio del outback) pueden estar cerrados, sin combustible o aceptar solo tarjeta con una conexión poco fiable.",
-            "Hay cobertura móvil cerca de los pueblos y desaparece por completo entre ellos. Un mensajero por satélite o una radiobaliza personal de localización (PLB) es equipo básico para viajar por las zonas remotas de WA, no un extra opcional.",
-            "Cuéntale a alguien tu ruta y cuándo piensas llegar. Si tienes una avería, quédate con el vehículo: te sirve de refugio y es muchísimo más fácil de encontrar que una persona caminando."
+            "Lleva agua potable para varios días extra por persona y trata la <a data-guide=\"road-trip-fuel-planning-australia\">autonomía de combustible</a> como el factor que condiciona la ruta. Los roadhouses pueden estar cerrados, sin combustible o aceptar solo tarjeta cuando se cae la conexión.",
+            "Cerca de los pueblos hay cobertura móvil, pero entre uno y otro desaparece. Un <a data-guide=\"camping-without-phone-signal\">mensajero por satélite</a> o una baliza personal de localización es equipo básico para viajar por las zonas remotas de Australia Occidental, no un extra opcional.",
+            "Cuéntale a alguien tu ruta y cuándo piensas llegar. Si tienes una avería, quédate con el vehículo: te da sombra y refugio, y es mucho más fácil de encontrar para los equipos de rescate que una persona caminando."
           ],
           "tips": [
-            "Cinco litros por persona y día",
+            "Agua para varios días extra",
             "Lleva un mensajero por satélite",
             "Quédate con el vehículo"
           ]
         },
         {
-          "heading": "Calor, ciclones y la estación seca",
+          "heading": "Ningaloo, ciclones y la estación seca",
           "body": [
-            "La estación seca, de mayo a octubre, es cuando el norte funciona. La húmeda trae una humedad extrema, lluvias monzónicas, ciclones entre noviembre y abril y cierres generalizados.",
-            "En el suroeste el patrón se invierte: el invierno es húmedo y fresco, el verano caluroso y seco, y la primavera trae las flores silvestres. Las dos mitades del estado exigen una planificación completamente distinta.",
-            "El calor es el riesgo que más se subestima. En verano, en el interior se superan con frecuencia los cuarenta grados, y averiarse con ese calor sin agua suficiente pone en peligro la vida de verdad."
+            "Las zonas de acampada de la Ningaloo Coast abren las reservas cada mes, el primer martes a las 10:00, hora de Perth, un sistema adoptado en septiembre de 2026 tras ocho meses de prueba. Las estancias se limitan a 14 noches si alguna noche cae en las vacaciones escolares de Australia Occidental y a 28 noches en el resto de los casos.",
+            "El ciclón tropical severo Narelle dañó todas las zonas de acampada de la Ningaloo Coast en 2026. La mayoría de las de Cape Range reabrieron el 27 de abril, pero algunas siguieron cerradas más tiempo, así que consulta el aviso de tu sitio exacto.",
+            "El norte funciona mejor en la estación seca, más o menos de mayo a octubre, y la temporada de ciclones va de noviembre a abril. Las temperaturas del interior en verano pasan con frecuencia de 40 grados, y una avería con ese calor y sin agua pone en peligro la vida."
           ],
           "tips": [
-            "El norte funciona de mayo a octubre",
-            "Ciclones de noviembre a abril",
-            "El calor del interior es un riesgo real"
+            "Ningaloo: primer martes, 10:00",
+            "14 noches en vacaciones escolares",
+            "Ciclones de noviembre a abril"
           ]
         },
         {
-          "heading": "Tierras aborígenes y permisos de acceso",
+          "heading": "Permisos, mascotas y avisos de parques",
           "body": [
-            "Grandes zonas de Western Australia son tierras aborígenes que exigen un permiso de entrada, incluidos tramos de rutas por el Kimberley y el interior. Los permisos se solicitan con antelación al organismo correspondiente.",
-            "Algunas rutas exigen un permiso de tránsito aunque no vayas a parar. Comprueba si la carretera que piensas tomar cruza tierras que lo requieren, porque no se expiden en el límite.",
-            "La agencia de parques de Western Australia publica en internet la disponibilidad y los cierres de los campings, y eso importa, porque con estas distancias un camping cerrado puede costarte un día entero.",
-            "Las distancias entre parques en Western Australia hacen que un camping cerrado pueda costarte un día entero, así que confirma la disponibilidad antes de lanzarte a un trayecto largo."
+            "Entrar en una reserva aborigen de Australia Occidental requiere un permiso emitido a través del Department of Planning, Lands and Heritage, solicitado antes de viajar. Los permisos no se entregan en el límite de la reserva.",
+            "Algunas carreteras necesitan un permiso de tránsito aunque no pares nunca. La Great Central Road, entre Laverton y la frontera del <a data-guide=\"camping-rules-northern-territory\">Territorio del Norte</a>, es el ejemplo más conocido, y el Central Land Council gestiona el lado del Territorio del Norte.",
+            "No se admiten perros ni otras mascotas en muchos parques nacionales, entre ellos Karijini y Cape Range. Planifica paradas aptas para mascotas entre ellos antes de salir.",
+            "El DBCA publica los avisos de parques y Park Stay WA muestra la disponibilidad por internet, lo que importa cuando una zona de acampada cerrada puede costar un día entero. Confirma ambas cosas antes de comprometerte a un trayecto largo."
           ],
           "tips": [
-            "Los permisos se piden antes, no en la entrada",
-            "Los permisos de tránsito cubren el paso",
-            "Revisa la ruta, no solo el destino"
+            "Solicita los permisos antes de viajar",
+            "Para cruzar sin parar, permiso de tránsito",
+            "Sin perros en Karijini ni Cape Range"
           ]
         }
       ],
       "faq": [
         [
           "¿Se puede acampar en cualquier sitio en Western Australia?",
-          "No, aunque las distancias den esa sensación. Los campings de Parks and Wildlife se reservan y se pagan, los station stays son acuerdos privados y acampar junto a la carretera en las áreas de descanso de 24 horas está pensado para descansar, no para quedarse."
+          "No. Acampar fuera de un parque de caravanas o una zona de acampada con licencia requiere aprobación, la acampada en parques nacionales se limita a zonas de acampada designadas, y las paradas de descanso señalizadas para pasar la noche permiten hasta 24 horas seguidas sin aprobación."
         ],
         [
           "¿Los parques nacionales de WA cobran entrada?",
-          "La mayoría de los principales, sí, por vehículo y día, aparte de la tarifa de acampada. El pase de vacaciones (Holiday Park Pass) cubre la entrada durante un mes o más y se amortiza enseguida en un viaje costa arriba."
+          "En algunos sí. Karijini y Cape Range cobran 17 AUD por vehículo estándar, o 10 AUD con descuento, además de las tarifas de acampada de 10 a 20 AUD por adulto y noche. El All Parks Pass cuesta 130 AUD al año y los holiday passes empiezan en 30 AUD."
         ]
       ],
       "sources": [
         {
           "label": "Tarifas de acampada en Explore Parks WA"
+        },
+        {
+          "label": "Dónde y cuándo acampar en los parques de WA"
+        },
+        {
+          "label": "Hogueras, leña y aparatos de cocina"
+        },
+        {
+          "label": "Karijini National Park"
+        },
+        {
+          "label": "Cape Range National Park"
+        },
+        {
+          "label": "Pases de parques del DBCA"
+        },
+        {
+          "label": "Alojamiento temporal y acampada fuera de los parques de caravanas"
+        },
+        {
+          "label": "Viajes largos por carretera según Main Roads WA"
+        },
+        {
+          "label": "DFES: prohibiciones totales de fuego"
+        },
+        {
+          "label": "Permisos para entrar en tierras aborígenes de WA"
+        },
+        {
+          "label": "Guía para reservar una parcela en la Ningaloo Coast"
+        },
+        {
+          "label": "Bureau of Meteorology: ciclones tropicales"
+        },
+        {
+          "label": "Explore Parks WA: servicios de las zonas de acampada"
+        },
+        {
+          "label": "DBCA: recogida de leña"
+        },
+        {
+          "label": "Travel Map de Main Roads WA"
+        },
+        {
+          "label": "Estancias en estaciones ganaderas y granjas de Australia Occidental"
         }
       ],
       "priceTable": null
