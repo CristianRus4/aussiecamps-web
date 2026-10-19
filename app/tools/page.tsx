@@ -9,10 +9,10 @@ import { DriveTimeCalculator } from "@/components/drive-time-calculator";
 import { TankDurationCalculator } from "@/components/tank-duration-calculator";
 import { CampsiteCostCalculator } from "@/components/campsite-cost-calculator";
 import { currencyRates } from "@/lib/currency";
-import { seoLanguageTags } from "@/lib/seo";
+import { alternatesFor } from "@/lib/seo";
 import { mainData } from "@/lib/analytics";
 
-export const metadata: Metadata = { title: "Australia road trip calculators", description: "Convert Australian prices, work out road trip fuel, estimate a realistic driving day, plan water and waste capacity and compare campsite pricing per person or per site.", alternates: { canonical: "/tools/", languages: seoLanguageTags("/tools") } };
+export const metadata: Metadata = { title: "Australia road trip calculators", description: "Convert Australian prices, work out road trip fuel, estimate a realistic driving day, plan water and waste capacity and compare campsite pricing per person or per site.", alternates: { canonical: "/tools/", languages: alternatesFor("tools") } };
 
 export default function ToolsPage() {
   // One inline script drives every calculator. It is marked data-static-tools so the static export
@@ -57,5 +57,5 @@ const a=adults*nights*perPerson,b=nights*perSite;root.querySelector('[data-camp-
       </section>
       <section className="tools-note"><Calculator/><p>These calculators are planning aids, not live booking, fuel-station or foreign-exchange quotes. Tank estimates assume roughly 11 litres of fresh water and 9 litres of grey water per person per day, which varies with showering and cooking. Confirm current prices before purchase.</p></section>
     </section>
-  </main><Footer/><script data-static-tools dangerouslySetInnerHTML={{__html:script}}/></>;
+  </main><Footer pageKey="tools"/><script data-static-tools dangerouslySetInnerHTML={{__html:script}}/></>;
 }

@@ -44,6 +44,8 @@ export default defineConfig(async () => {
   const { cloudflare } = await import("@cloudflare/vite-plugin");
 
   return {
+    // Inlined so the worker sees it: LOCALES_PREVIEW=1 renders draft locales (see lib/locales.ts).
+    define: { "process.env.LOCALES_PREVIEW": JSON.stringify(process.env.LOCALES_PREVIEW ?? "") },
     server: isCodexSeatbeltSandbox
       ? { watch: { useFsEvents: false, usePolling: true } }
       : undefined,

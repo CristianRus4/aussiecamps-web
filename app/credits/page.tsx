@@ -77,6 +77,6 @@ export default function CreditsPage() {
         </div>
       </section>
     </main>
-    <Footer />
+    <Footer pageKey="credits" />
   </>;
 }

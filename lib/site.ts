@@ -8,10 +8,10 @@ export const APP_ID = "6801098680";
 export const APP_STORE_URL = `https://apps.apple.com/app/id${APP_ID}`;
 /** The App Store Connect provider token (`pt`) for campaign links. Empty means store links carry no
  * campaign parameters at all. */
-export const APPLE_PROVIDER_TOKEN = "127436485";
+export const APPLE_PROVIDER_TOKEN: string = "127436485";
 /** The GA4 measurement ID (G-…). Empty means no analytics script, no consent bar and no
  * "Privacy choices" link on any page. */
-export const GA_MEASUREMENT_ID = "G-XL23QF1F3F";
+export const GA_MEASUREMENT_ID: string = "G-XL23QF1F3F";
 /**
  * The final URL for a site path.
  *
@@ -42,6 +42,7 @@ export type ArticleCategory = "Road trips" | "Camping guides" | "Rules & safety"
 export type ArticleTable = { caption: string; head: string[]; rows: string[][] };
 export type ArticleSection = { heading: string; body: string[]; tips?: string[]; table?: ArticleTable };
 export type ArticlePriceTable = {
+  /** ISO date (YYYY-MM-DD) the prices were checked; rendered in the reader's language. */
   asOf: string;
   note: string;
   rows: { label: string; audLow: number; audHigh?: number; unit?: string }[];
@@ -69,6 +70,8 @@ export type Article = {
   faq?: readonly (readonly [string, string])[];
   sources?: { label: string; url: string }[];
   priceTable?: ArticlePriceTable;
+  /** Optional hand-picked related guides (slugs), shown first under the article. See lib/related.ts. */
+  related?: string[];
 };
 
 type ArticleInput = Omit<Article, "image">;

@@ -212,6 +212,9 @@ export const uiStrings = {
 
 export type UiKey = keyof typeof uiStrings;
 export type UiStrings = Record<UiKey, string>;
+/** The testimonial strings (the home page review wall). A locale with `reviews: false` in
+ * lib/locales.json neither shows nor translates them. */
+export const reviewKeys = (Object.keys(uiStrings) as UiKey[]).filter((key) => key.startsWith("review"));
 
 /**
  * The analytics consent bar and the footer link that reopens it.
