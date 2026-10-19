@@ -12,12 +12,18 @@ Engine locale id: `pt` (variety pt-PT). Register: informal (tu), now set in both
 - Guides re-reviewed and rewritten:
   - AU: alcohol-coffee-drink-prices-australia, sleeping-in-car-australia,
     camping-rules-new-south-wales, public-transport-costs-australia-2026,
-    eating-out-australia-prices-2026.
+    eating-out-australia-prices-2026, camping-rules-western-australia,
+    dump-points-australia-guide, camping-rules-victoria, australia-grocery-prices-2026,
+    interstate-biosecurity-road-trip.
   - NZ: new-zealand-grocery-prices-2026, doc-huts-new-zealand-guide,
     public-transport-costs-new-zealand-2026, new-zealand-road-signs-visitors,
     new-zealand-biosecurity-camping-gear, doc-campsite-rules,
     new-zealand-road-trip-fuel-cost-2026, campervan-road-rules-new-zealand,
     eating-out-new-zealand-prices-2026, new-zealand-travel-cost-2026.
+
+- Judge round 1 (docs/growth/judge/pt.json, both repos): every failing unit fixed; privacy page
+  realigned to the 7-section English (analytics section, effective 19 October 2026); consent.*
+  translated on both sites. pt now 3/3 pages on both sites.
 
 ## In progress
 - Re-review of the remaining guides in GSC-impression order (pages-3m.tsv), 5 per batch, up to 4
@@ -27,8 +33,11 @@ Engine locale id: `pt` (variety pt-PT). Register: informal (tu), now set in both
   markup, protected terms).
 
 ## Next
-- Road trips, K legacy pages, `consent`/`article`/`tools` namespaces and `<a data-guide>` markup once
-  the foundation milestones merge to main (wait for the orchestrator's message).
+- Road trips, K legacy pages, `article`/`tools` namespaces and `<a data-guide>` markup once the
+  foundation milestones that add them merge to main.
+- Old app labels (Destacados, Quero ir, Marcadores, salvar, autossuficiente, conselho) remain in the
+  untouched app-guide articles; they are fixed as those batches come up. `ui.review*` testimonials
+  stay as they are by rule, although review1Quote contains "salvar" and "offline".
 
 ## Notes for the orchestrator
 - The app's `pt` localisation (`Localizable.xcstrings`) is Brazilian Portuguese with several
