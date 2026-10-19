@@ -25,19 +25,28 @@ Engine locale id: `pt` (variety pt-PT). Register: informal (tu), now set in both
   realigned to the 7-section English (analytics section, effective 19 October 2026); consent.*
   translated on both sites. pt now 3/3 pages on both sites.
 
-## In progress
-- Re-review of the remaining guides in GSC-impression order (pages-3m.tsv), 5 per batch, up to 4
-  Opus subagents writing values files under /tmp/ptwork/out; this thread edits and applies.
-- Working files (rebuildable): /tmp/ptwork/work/<site>-<slug>.json (en + current pt per unit),
-  /tmp/ptwork/BRIEF.md (worker brief), /tmp/ptwork/scripts/check.py (lint: banned terms, numbers,
-  markup, protected terms).
+## Done (2026-10-20, background run)
+- Rebased both branches onto main (A-foundation M2, A-tools-hubs, K-foundation M2).
+- Guide link markup (`<a data-guide>`) restored in every translated guide on both sites (AU 133 units,
+  NZ 86 units); engine placeholder errors are now 0 for pt on both sites. Stamps written (`meta/pt.json`).
+- AU guides polished (place names kept in English, Tasmania not Tasmânia, no "concelho", campervan vs
+  autocaravana per glossary, "sem rede" instead of offline for place details, app labels): camping-rules-tasmania,
+  is-free-camping-legal-australia, bus-train-costs, camping-water-planning, camping-without-phone-signal,
+  campfires, campervan-driving, driving-in-australia-road-rules-visitors, overseas-driver-licence-state-guide,
+  best-camping-app, driving-with-road-trains, fatigue-wildlife, driving-in-australia-overseas-licence,
+  camping-with-dogs, camping-packing-list, and the five app guides (plan trip, filters, collections, place
+  details, widgets: old labels Destacados / Quero ir / Marcadores / Tudo o que guardaste replaced).
+- KiwiCamping `ui.metaDescription` updated for the new English (mentions iPhone); `content:check` green on both.
 
 ## Next
-- Road trips, K legacy pages, `article`/`tools` namespaces and `<a data-guide>` markup once the
-  foundation milestones that add them merge to main.
-- Old app labels (Destacados, Quero ir, Marcadores, salvar, autossuficiente, conselho) remain in the
-  untouched app-guide articles; they are fixed as those batches come up. `ui.review*` testimonials
-  stay as they are by rule, although review1Quote contains "salvar" and "offline".
+- AU still to review (not yet polished): first-campervan-trip-australia, road-trip-fuel-planning-australia,
+  camping-weather-safety-australia, responsible-camping-australia, choosing-campsite-australia (old "autocaravana"
+  for campervan, "vila" and "tarifa" may remain; scan with /tmp/ptwork/scripts/check.py).
+- AU new content: 20 road-trip guides (1,070 units) and the `tools` namespace (116 units) are untranslated.
+- NZ: 35 guides untranslated, K legacy pages, `tools` namespace; translated K guides still contain the old terms
+  (autossuficiente, tarifa, vila, "Nova Gales" etc.) and need the same polish pass as AU got.
+- Working files (rebuildable): /tmp/ptwork/work (scripts/build_work.py), /tmp/ptwork/scripts/{check,mkvals,show,links2}.py,
+  overrides in /tmp/ptwork/ov/*.py.
 
 ## Notes for the orchestrator
 - The app's `pt` localisation (`Localizable.xcstrings`) is Brazilian Portuguese with several
