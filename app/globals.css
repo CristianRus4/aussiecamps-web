@@ -355,6 +355,37 @@ em { color: inherit; font: inherit; font-style: normal; }
 .tools-reading > div { display: flex; gap: 14px; align-items: flex-start; }
 .tools-reading > div svg { color: var(--fern); }
 .tools-note { grid-column: 1 / -1; padding: 18px; border-top: 1px solid var(--line); display: flex; align-items: center; gap: 12px; color: var(--muted); font-size: 12px; }
+.tool-more { margin-top: 18px; }
+/* A standalone calculator page: the tool sits under the header, then the article-style explanation. */
+.tool-page-widget { max-width: 720px; margin: 0 auto 10px; }
+.tool-formula { margin: 18px 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+.tool-formula code { display: block; padding: 12px 16px; border-left: 4px solid var(--eucalyptus); background: var(--soft); color: var(--ink); font-size: 15px; white-space: normal; }
+.tool-list { margin: 14px 0 0; padding-left: 20px; color: #4f5a49; font-size: 17px; line-height: 1.7; }
+.tool-list li + li { margin-top: 8px; }
+.tool-cta-note { font-size: 13px !important; }
+.tool-siblings a { padding: 6px 0; color: var(--fern); font-weight: 700; }
+/* Data hubs (/camping/, /dump-points/, /rest-areas/): a dot map beside the facts table, then prose and places. */
+.hub-trail { margin: 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 6px; }
+.hub-trail li { white-space: nowrap; }
+.hub-trail li + li::before { content: "/"; margin-right: 6px; opacity: .5; }
+.hub-overview { max-width: 1120px; margin: 0 auto; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 32px; align-items: start; }
+.hub-map { margin: 0; padding: 18px; border: 1px solid var(--line); background: var(--paper); }
+.hub-map svg { width: 100%; height: auto; max-height: 520px; display: block; }
+.hub-map figcaption { margin-top: 10px; color: var(--muted); font-size: 12px; }
+.hub-map-other { fill: var(--cream); stroke: var(--line); stroke-width: 1; }
+.hub-map-state { fill: var(--soft); stroke: var(--fern); stroke-width: 1.5; }
+.hub-map-dots { fill: none; stroke: var(--fern); stroke-linecap: round; opacity: .75; }
+.hub-facts caption { padding: 12px; text-align: left; color: var(--muted); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
+.hub-facts .price-table { width: 100%; }
+.hub-facts .price-table th, .hub-facts .price-table td { white-space: normal; }
+.hub-share { color: var(--muted); }
+.hub-layout { grid-template-columns: minmax(0, 1fr); }
+.hub-layout .article-body { max-width: 900px; }
+.hub-places-table { width: 100%; }
+.hub-places-table th, .hub-places-table td { white-space: normal; text-align: left; vertical-align: top; min-width: 120px; }
+.hub-count { margin-left: auto; margin-right: 12px; color: var(--muted); font-weight: 500; font-size: 13px; }
+.hub-data-note p { color: var(--muted) !important; font-size: 13px !important; }
+@media (max-width: 860px) { .hub-overview { grid-template-columns: 1fr; padding: 0 4px; } }
 .tools-note p { margin: 0; }
 
 @media (max-width: 900px) {
