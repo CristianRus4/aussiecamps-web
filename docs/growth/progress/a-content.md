@@ -1,32 +1,38 @@
 # A-content progress
 
-Thread: A-content (Kai). Branch `growth/a-content`. Never push.
+Thread: A-content (Kai). Branch `growth/a-content`. Never push. Session 2 took over on 2026-10-20 (session 1 retired for context size).
 
 ## Decisions and constraints found
-- A-foundation M1 is on main: a structurally stale translation is now a `content:check` warning (served in English, noindex) instead of a failure, and sections take an optional `table` (`section(heading, body, tips?, table?)`). Every structural change to a translated guide must be listed in the handoff for the i18n threads.
-- App counts come from `lib/data/product-facts.json` (byState.<STATE>.{campgrounds, dumpPoints, restAreas, water}), built from the SHIPPING database `Apps/Camping/Scraper/data/australia_db.sqlite` (release builds open `australia_db`, see `CampingPlacesDatabase.swift:90`), not the legacy `Aussie/Resources/aussie_db.sqlite`. There is no honest free-campground, caravan-park or showground count, so none are published.
-- Page `<title>` gets " | AussieCamps" from the layout template; the article `title` field (also the H1) stays at 60 characters or fewer.
-- Prose links are budgeted at 4 per section (`linkProse` is called per section) and state names auto-link to the state rules pages, so a hub needs one state per paragraph and at most four states per section.
-- Card surcharges on eftpos, Mastercard and Visa are banned from 1 October 2026 (RBA conclusions paper, 31 March 2026). Any page saying card surcharges are common is out of date.
+- A-foundation M1 and M2 are on main (rebased 2026-10-20). A structurally stale translation is a `content:check` warning (served in English, noindex). Sections take an optional `table`. `priceTable.asOf` must be ISO `YYYY-MM-DD` (the expanded-articles `priceTable()` helper takes it as an optional third argument).
+- App counts come from `lib/data/product-facts.json` (byState.<STATE>.{campgrounds, dumpPoints, restAreas, water}). No free-campground, caravan-park or showground count exists, so none is published.
+- Article `title` (also the H1) stays at 60 characters or fewer; the layout appends " | AussieCamps".
+- Prose links: 4 per section via `linkProse`, phrase-driven (lib/internal-links.ts) and guide-only. Linking guides to the new hubs (/camping/<state>/, /dump-points/<state>/, /rest-areas/<state>/) or /tools/ pages needs a code change in internal-links.ts (not done yet; candidate follow-up).
+- Card surcharges on eftpos, Mastercard and Visa are banned from 1 October 2026 (RBA conclusions paper, 31 March 2026).
 - Gold Coast and Byron fine amounts only appear in news coverage, not on official pages: do not publish them.
 
+## Blocker for the orchestrator (found 2026-10-20 after rebasing)
+- `content:check` now has a number-parity gate (scripts/audit-content.mjs `parityProblems`) that compares every structurally complete translated guide with the English. Text-only English edits that change any amount (fees, fares, prices) make live locales fail: 143 problems in each of de, es, fr, it, nl, pt across 9 text-only edited guides (camping-rules-tasmania, -western-australia, -northern-territory, -act, and the five cost pages). No stamps exist yet (lib/translations/meta/ is empty), so nothing marks those units stale. A content thread cannot fix this (locale JSON and audit scripts are off limits). Needed: either the gate skips units whose English changed (stamps), or treats a guide with parity problems as stale (served in English) instead of failing, or the i18n threads re-translate those nine guides before merge.
+- While iterating, use `/tmp/a-content/scripts/cc.sh` (content:check with that one assert downgraded to a warning; temp copy deleted on exit, never committed).
+
 ## Tooling (in /tmp/a-content, not committed)
-- `scripts/apply.mjs` (single-line site.ts articles) and `scripts/apply2.mjs` (expanded-articles blocks) regenerate an article from a JSON draft in `drafts/`; they refuse structural changes unless `--allow-structure`.
-- `scripts/totext.ts` renders a page as numbered text for the fact-checkers; `pages/`, `sources/`, `factcheck/`, `research/` hold inputs and verdicts.
+- `scripts/apply.mjs` (single-line site.ts articles) and `scripts/apply2.mjs` (expanded-articles blocks) regenerate an article from a JSON draft in `drafts/`; they refuse structural changes unless `--allow-structure`. `scripts/get.ts <slug>` dumps the current article.
+- `scripts/totext.ts <slug>` renders a page as numbered text for fact-checkers (`pages/`); `sources/` official source lists; `factcheck/` verdicts; `research/`.
 
 ## Done (committed on the branch, not yet handed off)
-- 8 state camping-rules pages: retitled, intros answer "can I free camp in <state>", rules corrected from official sources, per-state app counts. Text-only so far.
-- 5 cost pages (drinks, eating out, flights, public transport, groceries): retitled with the year and a figure, prices refreshed to October 2026, outdated card-surcharge, Melbourne contactless and Vic half-price wording fixed. Plus the surcharge line on australia-travel-cost-2026.
-- sleeping-in-car-australia and is-free-camping-legal-australia: full structural rewrites with state tables and official sources (uncommitted at time of writing).
+- 8 state camping-rules pages retitled and rewritten. NSW, QLD, VIC, SA: fact-checked, fixes and sources applied.
+- 5 cost pages (drinks, eating out, flights, public transport, groceries) retitled and refreshed; surcharge line on australia-travel-cost-2026.
+- Structural rewrites: sleeping-in-car-australia, is-free-camping-legal-australia, camping-fees-australia-2026, campfires-camping-australia, dump-points-australia-guide (by state); caravan-park-vs-holiday-park strengthened with a table.
+- Rebased onto main 2026-10-20 (1f7ccad: ISO priceTable dates, en.json regenerated).
 
-## In progress
-- Opus xhigh fact-checks: NSW, QLD, VIC, SA rules (running). Queue: TAS, WA, NT, ACT rules; 5 cost pages; sleeping-in-car; free-camping hub.
-- After fact-checks: add official sources to the 8 rules pages (lists in /tmp/a-content/sources), rest-area counts in the intros, then hand off batch 1.
+## In progress (session 2)
+- Fact-check batch F1 (Opus): finish TAS (sections 3+) and ACT (sections 2+), plus sleeping-in-car, free-camping hub, camping-fees.
+- Fix batch X1 (Opus): apply NT and WA verdicts and sources.
+- Next fact-check batch: campfires, dump-points, caravan-park, then the 5 cost pages. Then apply all fixes and hand off batch 1.
 
-## Next (audit queue order, docs/growth/audit/summary.csv)
-- P0: camping-fees-australia-2026, towing-caravan-australia-road-rules, campfires-camping-australia, melbourne-to-adelaide, flinders-ranges, red-centre-way, darwin-kakadu (confirmed fixes), road-trains, overseas licence, victoria-high-country, homepage Street View wording (after foundation's homepage work lands), support.
-- P1: dump-points (with by-state table from product-facts), best-time-camping retitle, east-coast, brisbane-to-cape-trib, road-rules retitle, biosecurity retitle, campervan budget, driving rules, camping-with-dogs.
-- Then best-camping-app comparison, road trips with app campground data (candidates in /tmp/a-content/roads), new pages per keyword-map.csv.
+## Next (audit queue, docs/growth/audit/summary.csv in main)
+- P0 FIX-FACTS not yet done: towing-caravan-australia-road-rules, melbourne-to-adelaide-coastal-route, flinders-ranges-camping-guide, red-centre-way-camping, darwin-kakadu-litchfield-loop, driving-with-road-trains-australia, overseas-driver-licence-australia-state-guide, victoria-high-country-camping, homepage, support, privacy (check ownership of homepage/support/privacy with the orchestrator).
+- P1: best-time-camping retitle (draft in /tmp/a-content/drafts), east-coast, brisbane-to-cape-trib, road-rules retitle, biosecurity retitle, campervan budget, driving rules, camping-with-dogs, driving-in-australia-overseas-licence (merge/canonicalise).
+- Then best-camping-app comparison, road trips with app campground data (/tmp/a-content/roads), new pages per keyword-map.csv.
 
 ## Blockers
-- None. Usage limit hit once (session reset); interrupted subagents were resumed.
+- Number-parity gate (above).
