@@ -2483,25 +2483,93 @@
       "priceTable": null
     },
     "campfires-camping-australia": {
-      "title": "Feux de camp en Australie : les règles à connaître",
-      "description": "Vérifiez les interdictions de feu locales, les règles du parc et la météo avant de craquer une allumette.",
+      "title": "Feux de camp en Australie 2026 : interdictions et amendes par État",
+      "description": "Quand un feu de camp est légal dans chaque État : saisons des feux, Total Fire Bans, réchauds à gaz les jours d’interdiction et amendes. Règles officielles, vérifiées en octobre 2026.",
       "region": "Australie",
       "imageAlt": "Feu de camp autorisé dans un foyer aménagé",
-      "intro": "L’autorisation de faire un feu de camp peut changer selon le district, la saison, le type de combustible et l’indice de danger d’incendie. Un cercle de pierres prouve que des feux ont été faits là, pas qu’un feu y est légal aujourd’hui.",
+      "intro": "Un feu de camp n’est légal que s’il n’y a aucune interdiction de feu pour le district, si le gestionnaire du terrain autorise les feux à cet endroit et si vous respectez les règles de taille et de dégagement. Chaque État a son propre système : NSW, le Victoria, l’Australie-Méridionale, l’Australie-Occidentale, la Tasmanie et l’ACT déclarent des Total Fire Bans (interdictions totales de feu), le Queensland déclare à la place des interdictions de feu locales, et les interdictions de feu du Territoire du Nord durent en général jusqu’à 24 heures.",
       "sections": [
         {
-          "heading": "Trois vérifications avant d’allumer",
+          "heading": "Les règles par État",
           "body": [
-            "Lisez le règlement du camping, consultez l’autorité de lutte contre les incendies de l’État concerné et cherchez les alertes locales des parcs. Une interdiction totale de feu prime sur l’autorisation habituelle du camping.",
-            "Les réchauds à gaz peuvent eux aussi être restreints par conditions extrêmes. Vérifiez la règle pour votre appareil, pas seulement pour les feux à l’air libre."
+            "Le combustible solide est la constante : un jour d’interdiction, les feux de bois, de charbon et de briquettes sont illégaux dans le district concerné, anneaux de feu compris. Ce qui change d’un État à l’autre, c’est la saison des feux, les règles de taille et de dégagement d’un feu légal, et la possibilité d’utiliser encore un réchaud à gaz dans un parc un jour d’interdiction.",
+            "Lisez la ligne de l’État où vous vous trouvez, puis vérifiez le jour même auprès des pompiers. Les organismes des parcs peuvent ajouter leurs propres interdictions et fermetures, qui s’appliquent même si les pompiers n’ont rien déclaré."
           ],
-          "tips": []
+          "tips": [],
+          "table": {
+            "caption": "Règles sur les feux de camp par État, vérifiées en octobre 2026",
+            "head": [
+              "État",
+              "Autorité compétente",
+              "Saison des feux 2026-27",
+              "Réchauds dans les parcs un jour d’interdiction",
+              "Feu de camp légal"
+            ],
+            "rows": [
+              [
+                "Nouvelle-Galles du Sud",
+                "NSW Rural Fire Service",
+                "En général du 1er octobre au 31 mars ; certaines zones commencent plus tôt ou finissent plus tard",
+                "Réchauds à gaz des visiteurs en général interdits dans les parcs nationaux",
+                "Forêts domaniales : moins de 1 m², à 4,5 m des arbres"
+              ],
+              [
+                "Victoria",
+                "CFA",
+                "Fixée par municipalité",
+                "Réchauds à combustible solide et chimique interdits",
+                "Moins de 1 m de large, 3 m dégagés, toujours surveillé"
+              ],
+              [
+                "Queensland",
+                "Queensland Fire Department",
+                "Interdictions de feu locales ; pas de Total Fire Ban",
+                "Réchauds à gaz et à alcool fermés autorisés",
+                "Seulement dans les foyers et anneaux de feu du QPWS"
+              ],
+              [
+                "Australie-Méridionale",
+                "Country Fire Service",
+                "Dès le 15 octobre ou le 1er novembre dans de nombreux districts ; plus tard ailleurs",
+                "Fixé parc par parc ; consultez les restrictions de feu du NPWS pour le parc",
+                "Tranchée de 30 cm, 1 m², 4 m dégagés"
+              ],
+              [
+                "Australie-Occidentale",
+                "DFES et collectivités locales",
+                "Périodes de brûlage fixées par chaque collectivité locale",
+                "Consultez le DBCA et le DFES ; le gaz est restreint les jours d’interdiction",
+                "Anneaux de feu du parc uniquement, 3 m dégagés"
+              ],
+              [
+                "Tasmanie",
+                "Tasmania Fire Service",
+                "Périodes de permis de feu déclarées par zone",
+                "GPL et électrique seulement ; pas de réchauds à combustible liquide",
+                "Moins de 1 m sur 1 m, à 3 m de tout combustible"
+              ],
+              [
+                "Territoire du Nord",
+                "Gouvernement du NT (Bushfires NT)",
+                "Déclarée par district (Top End : du 22 juin au 4 octobre 2026)",
+                "Feux de cuisson sans permis ; les autres feux exigent un permis",
+                "4 m dégagés autour de chaque feu"
+              ],
+              [
+                "ACT",
+                "ACT Emergency Services Agency",
+                "Déclarée par l’ACT Emergency Services Agency",
+                "Barbecues à gaz des parcs éteints",
+                "Foyers aménagés dans quatre zones seulement"
+              ]
+            ]
+          }
         },
         {
           "heading": "Trois vérifications avant d’allumer",
           "body": [
-            "Ramasser du bois est interdit dans de nombreux parcs, car le bois mort sert d’habitat. N’apportez du bois propre et non traité que là où le gestionnaire le permet.",
-            "Utilisez un foyer existant, dégagez les abords comme indiqué et gardez de l’eau à côté de vous. N’allumez jamais sous des branches ni par vent fort."
+            "Consultez l’autorité compétente pour le district, la page d’alertes du parc et le règlement du camping. Au <a data-guide=\"camping-rules-queensland\">Queensland</a>, appelez le 1800 020 440 ou renseignez-vous auprès du bureau local du Rural Fire Service si vous ne savez pas si une interdiction de feu s’applique.",
+            "Les interdictions sont en général déclarées la veille dans l’après-midi, même si le RFS peut encore en déclarer une le jour même : vérifiez le soir puis de nouveau le matin, pour adapter le dîner plutôt que de réagir une fois au camp."
           ],
           "tips": [
             "Autorisation vérifiée",
@@ -2512,18 +2580,20 @@
         {
           "heading": "Bois de chauffage et installation",
           "body": [
-            "Éteignez avec de l’eau, remuez les restes et recommencez jusqu’à ce que tout soit assez froid pour être touché. Le sable peut cacher des braises encore chaudes au lieu de les éteindre.",
-            "Ne laissez jamais un feu sans surveillance, pas même pendant votre sommeil. Si le vent se lève ou si les conditions vous semblent mauvaises, éteignez-le."
+            "Ramasser du bois est interdit dans les parcs nationaux de la plupart des États, car le bois tombé sert d’habitat, et en <a data-guide=\"camping-rules-western-australia\">Australie-Occidentale</a>, l’interdiction couvre les parcs nationaux et les autres réserves de conservation. Apportez du bois propre et non traité, acheté hors du parc, là où les feux sont autorisés.",
+            "Utilisez le foyer fourni, dégagez les abords comme l’exigent les règles et gardez de l’eau à côté de vous, pas dans le véhicule. N’allumez jamais un feu sous des branches ni par vent fort."
           ],
           "tips": [
-            "Apportez votre bois"
+            "Apportez votre bois",
+            "De l’eau à côté du feu",
+            "Pas de feu par vent fort"
           ]
         },
         {
           "heading": "Éteindre jusqu’à refroidissement complet",
           "body": [
-            "L’Australie utilise un système national d’indice de danger d’incendie (Fire Danger Rating) à quatre niveaux, de Moderate à Catastrophic, publié chaque jour par district. Les Total Fire Bans (interdictions totales de feu) sont décrétés à part et proscrivent toute flamme nue, quel que soit l’indice.",
-            "Un jour de Total Fire Ban, feux de camp et barbecues à combustible solide sont interdits. Les appareils au gaz sont généralement permis sous conditions, dont une zone dégagée et une surveillance constante, mais c’est le texte précis de l’interdiction qui fait foi.",
+            "Arrosez le feu avec de l’eau, remuez les cendres et arrosez de nouveau jusqu’à ce que les restes soient froids au toucher. Le sable peut cacher des braises chaudes au lieu de les éteindre.",
+            "Ne laissez jamais un feu sans surveillance, y compris pendant qu’il se consume ou pendant que vous dormez. Si le vent se lève, éteignez-le.",
             "Indices et interdictions sont publiés chaque après-midi pour le lendemain. En été, consultez-les tous les jours plutôt que de vous fier à votre ressenti, car la décision repose sur les conditions prévues."
           ],
           "tips": [
@@ -2533,85 +2603,148 @@
           ]
         },
         {
-          "heading": "Là où le feu est permis",
+          "heading": "Niveaux de danger d’incendie et interdictions de feu",
           "body": [
-            "De nombreux parcs nationaux interdisent les feux de camp en permanence, surtout en zone aride, où le ramassage du bois détruit un habitat qui met des décennies à se former. D’autres ne les autorisent que dans les foyers prévus.",
-            "Ramasser du bois est interdit dans la plupart des parcs nationaux et réserves. Apportez le vôtre, acheté hors de la zone, et sachez que certaines régions limitent aussi le transport de bois pour freiner la propagation des nuisibles.",
-            "Consultez la page du camping concerné plutôt que la règle générale de l’État. En bien des endroits, la règle du gestionnaire est plus stricte que le système de danger d’incendie et s’applique toute l’année."
+            "L’Australian Fire Danger Rating System compte quatre niveaux, Moderate, High, Extreme et Catastrophic, publiés par district. Un Total Fire Ban est déclaré séparément : vérifiez les deux plutôt que de lire le niveau comme une autorisation.",
+            "Un jour d’interdiction, les feux de camp et les barbecues à combustible solide sont illégaux dans le district. C’est sur le gaz que les États diffèrent : les parcs nationaux de NSW interdisent en général les réchauds à gaz des visiteurs, les parcs de l’ACT éteignent les barbecues à gaz, les règles des parcs d’Australie-Méridionale se fixent parc par parc, la Tasmanie autorise les réchauds à GPL et électriques mais pas ceux à combustible liquide, et le <a data-guide=\"camping-rules-queensland\">Queensland</a> autorise les réchauds à gaz et à alcool fermés pendant une interdiction de feu.",
+            "Les parcs ferment aussi les pires jours. Les parcs d’Australie-Méridionale et les forêts de ForestrySA peuvent fermer les jours d’interdiction, et le NPWS peut déclarer sa propre interdiction de feu ou fermer un parc en NSW lorsque le risque est élevé."
           ],
           "tips": [
-            "Beaucoup de parcs interdisent toujours le feu",
-            "Ramassage du bois généralement interdit",
-            "Apportez votre bois"
+            "Quatre niveaux, de Moderate à Catastrophic",
+            "Combustible solide interdit partout les jours d’interdiction",
+            "Les règles sur le gaz varient selon l’État"
+          ]
+        },
+        {
+          "heading": "Là où le feu est autorisé, tout court",
+          "body": [
+            "De nombreux parcs interdisent les feux pendant une partie de l’année ou toute l’année. L’Ikara-Flinders Ranges interdit les feux de bois pendant sa période d’interdiction, de la mi-octobre 2026 à la fin mars 2027, ForestrySA interdit les feux dans ses forêts du 1er novembre au 30 avril, et de nombreux parcs d’Australie-Occidentale interdisent les feux de camp d’environ le 1er décembre au 31 mars.",
+            "Les Fuel Stove Only Areas (zones où seuls les réchauds à combustible sont permis) de la <a data-guide=\"camping-rules-tasmania\">Tasmanie</a> interdisent les feux de camp toute l’année dans une grande partie des zones sauvages, dont Cradle Mountain-Lake St Clair, Freycinet et Mount Field. Dans l’ACT, les feux de camp ne sont permis que dans des foyers aménagés situés dans quatre zones : Namadgi, Tidbinbilla et les zones de loisirs de Cotter et d’Uriarra Crossing.",
+            "C’est finalement la page du camping qui tranche, car la règle d’un gestionnaire est souvent plus stricte que le système de danger d’incendie et s’applique toute l’année."
+          ],
+          "tips": [
+            "Les interdictions saisonnières dans les parcs sont courantes",
+            "Tasmanie : Fuel Stove Only Areas",
+            "La page du camping fait foi"
           ]
         },
         {
           "heading": "Faire et maîtriser un feu autorisé",
           "body": [
-            "Là où c’est permis, utilisez un foyer existant, faites un petit feu, éloignez bien tout ce qui peut brûler et gardez l’eau juste à côté de vous plutôt que dans le véhicule. N’allumez jamais par vent fort ni sous des branches en surplomb.",
-            "Les conditions habituelles fixent une taille maximale du feu, un rayon dégagé de plusieurs mètres et la présence constante d’un adulte. Elles s’appliquent aussi en dehors des Total Fire Bans, et les enfreindre expose à des sanctions.",
-            "Ne laissez jamais un feu sans surveillance, même quand il se consume. La plupart des feux de camp qui s’échappent repartent après que leurs auteurs ont jugé qu’il était presque éteint."
+            "Les règles de taille et de dégagement diffèrent : les forêts domaniales de NSW exigent un feu de moins d’un mètre carré à 4,5 mètres de l’arbre le plus proche, celles du Victoria un feu de moins d’un mètre de large avec trois mètres dégagés, et l’<a data-guide=\"camping-rules-south-australia\">Australie-Méridionale</a> une tranchée de 30 cm de profondeur pendant la saison des feux.",
+            "Le CFA demande qu’un feu de camp soit surveillé en permanence par un adulte éveillé et attentif, à moins de 50 mètres, et seulement quand le vent est inférieur à 10 km/h. Ces conditions font une bonne norme partout en Australie.",
+            "Les feux de camp qui s’échappent démarrent souvent après que ceux qui les ont allumés les ont jugés presque éteints. Considérez le feu comme actif jusqu’à ce qu’il soit froid au toucher."
           ],
           "tips": [
-            "L’eau près de vous, pas dans le véhicule",
-            "Plusieurs mètres dégagés autour",
-            "Jamais sans surveillance"
-          ]
-        },
-        {
-          "heading": "Faire et maîtriser un feu autorisé",
-          "body": [
-            "Un feu est éteint quand il est froid au toucher. Arrosez, remuez les cendres, arrosez encore et continuez jusqu’à pouvoir mettre la main dans les restes. Les braises survivent sous la cendre pendant de longues heures.",
-            "Un feu qui s’échappe entraîne de lourdes sanctions dans tous les États, y compris de fortes amendes et de la prison en cas de négligence avérée. Vous pouvez aussi devoir payer les frais de lutte contre l’incendie, qui atteignent des sommes considérables.",
-            "Si un feu s’échappe, n’essayez pas de le combattre au-delà des premières secondes. Éloignez-vous et appelez immédiatement le 000 (triple zéro) en donnant la position la plus précise possible."
-          ],
-          "tips": [
-            "Éteint signifie froid au toucher",
-            "Les frais de lutte peuvent vous incomber",
-            "Appelez le 000 et éloignez-vous"
+            "Vent inférieur à 10 km/h",
+            "Un adulte à moins de 50 mètres",
+            "Actif jusqu’à ce qu’il soit froid"
           ]
         },
         {
           "heading": "Cuisiner quand le feu est interdit",
           "body": [
-            "Les réchauds à gaz sont généralement permis les jours de Total Fire Ban, sous conditions : une zone dégagée, une personne présente et de l’eau immédiatement accessible. Lisez le texte précis de l’interdiction, car les conditions varient selon l’État.",
-            "Ne cuisinez jamais dans une tente, sous un auvent ou dans un véhicule non ventilé. Le monoxyde de carbone est inodore et a déjà tué des campeurs, et le risque est maximal justement par temps froid ou humide, quand on est tenté de se mettre à l’abri.",
-            "Gardez en permanence un réchaud à gaz léger dans le véhicule : un Total Fire Ban peut être décrété la veille pour le lendemain, et vous ne dépendez plus jamais de la possibilité d’allumer un feu.",
+            "Allumer un feu un jour de Total Fire Ban en NSW vaut une amende immédiate de 2 200 $, ou jusqu’à 5 500 $ et 12 mois de prison devant un tribunal. L’<a data-guide=\"camping-rules-western-australia\">Australie-Occidentale</a> inflige une contravention de 1 000 $, avec jusqu’à 25 000 $ et 12 mois de prison en cas de condamnation.",
+            "Le CFA prévient qu’un feu un jour de Total Fire Ban dans le <a data-guide=\"camping-rules-victoria\">Victoria</a> peut valoir une amende de plus de 40 000 $, deux ans de prison, ou les deux. Dans le Territoire du Nord, allumer un feu à une autre fin que la cuisine sans permis expose à environ 77 000 $ ou cinq ans, et ne pas dégager 4 mètres autour d’un feu à environ 15 000 $ ; les montants sont indexés, consultez donc la page du NT.",
+            "Si un feu s’échappe, ne tentez pas de le combattre au-delà des toutes premières secondes. Éloignez-vous et appelez le 000 (triple zéro) en donnant la position la plus précise possible.",
             "Les indices de danger d’incendie sont publiés chaque après-midi pour le lendemain : les consulter la veille au soir vous laisse le temps de changer vos plans au lieu de réagir dans l’urgence."
           ],
           "tips": [
-            "Gaz en général permis sous conditions",
-            "Jamais de cuisine en espace clos",
-            "Le monoxyde de carbone est inodore"
+            "NSW, jour d’interdiction : 2 200 $ d’amende",
+            "Victoria : plus de 40 000 $ devant un tribunal",
+            "Feu échappé : éloignez-vous et appelez le 000"
           ]
         },
         {
           "heading": "Cuisiner quand le feu est interdit",
           "body": [
-            "",
-            "",
-            ""
+            "Gardez en permanence un réchaud à gaz dans le véhicule, et vérifiez la règle pour les réchauds autant que pour les feux, car certains parcs les interdisent aussi les pires jours.",
+            "Ne cuisinez jamais dans une tente, sous un auvent ou dans un véhicule fermé. L’organisme de sécurité gaz d’<a data-guide=\"camping-rules-western-australia\">Australie-Occidentale</a> avertit que les appareils à gaz portables d’extérieur ne doivent jamais servir à l’intérieur d’une tente, d’un espace semi-fermé, d’une caravane ou d’un camping-car.",
+            "Prévoyez des repas sans flamme pour les jours où une interdiction est annoncée : déjeuners froids, wraps et plats cuisinés la veille permettent de ne pas s’arrêter en route."
           ],
           "tips": [
-            "",
+            "Gardez un réchaud à gaz",
             "Jamais de cuisine en espace clos",
-            ""
+            "Prévoyez des repas froids les jours d’interdiction"
           ]
         }
       ],
       "faq": [
         [
           "Peut-on faire un feu de camp en camping en Australie ?",
-          "Seulement en l’absence d’interdiction de feu et si le gestionnaire du terrain l’autorise. Le service d’incendie de chaque État décrète les Total Fire Bans par district et par jour, et pendant ces jours-là aucun feu à combustible solide n’est légal dans le district, même dans un foyer aménagé."
+          "Oui, quand le district ne fait l’objet d’aucune interdiction de feu et que le camping autorise les feux, avec le foyer fourni et du bois que vous apportez. Pendant un Total Fire Ban, ou une interdiction de feu locale au Queensland, les feux à combustible solide sont illégaux partout dans la zone, anneaux de feu compris."
         ],
         [
-          "Comment savoir si un Total Fire Ban est en vigueur ?",
-          "Sur le site du service d’incendie de l’État où vous vous trouvez, le jour même : RFS en NSW, CFA dans le Victoria, QFES dans le Queensland, et leurs équivalents ailleurs. Les indices de danger d’incendie sont fixés chaque après-midi pour le lendemain."
+          "Peut-on utiliser un réchaud à gaz un jour de Total Fire Ban ?",
+          "Cela dépend de l’État et du terrain. Les parcs nationaux de NSW interdisent en général les réchauds à gaz des visiteurs ces jours-là, les parcs de l’ACT éteignent les barbecues à gaz, la Tasmanie autorise les réchauds à GPL et électriques mais pas ceux à combustible liquide, et le Queensland autorise les réchauds à gaz et à alcool fermés pendant une interdiction de feu. En Australie-Méridionale, consultez les restrictions de feu du parc où vous vous trouvez."
         ]
       ],
       "sources": [
         {
-          "label": "Alertes du Bureau of Meteorology"
+          "label": "Australian Fire Danger Rating System"
+        },
+        {
+          "label": "NSW RFS : règles de l’interdiction totale de feu"
+        },
+        {
+          "label": "NSW RFS : Bush Fire Danger Period"
+        },
+        {
+          "label": "NSW National Parks : interdictions de feu"
+        },
+        {
+          "label": "Forestry Corporation of NSW : interdictions de feux à combustible solide"
+        },
+        {
+          "label": "CFA : règles sur les feux de camp"
+        },
+        {
+          "label": "Feux de camp dans les forêts domaniales du Victoria"
+        },
+        {
+          "label": "Queensland Fire Department : interdictions de feu"
+        },
+        {
+          "label": "Feux de camp dans les parcs du Queensland"
+        },
+        {
+          "label": "CFS d’Australie-Méridionale : dates de la saison de danger d’incendie"
+        },
+        {
+          "label": "CFS d’Australie-Méridionale : ce qui est permis et interdit"
+        },
+        {
+          "label": "DFES : interdictions totales de feu"
+        },
+        {
+          "label": "Parcs de WA : feux de camp et bois"
+        },
+        {
+          "label": "Tasmania Parks : feux de camp et interdictions de feu"
+        },
+        {
+          "label": "NT : interdictions de feu"
+        },
+        {
+          "label": "NT : sécurité des feux de camp"
+        },
+        {
+          "label": "ACT Parks : feux de camp"
+        },
+        {
+          "label": "WA Building and Energy : camper en sécurité avec du gaz"
+        },
+        {
+          "label": "NT : déclaration d’une période de danger d’incendie, juin 2026"
+        },
+        {
+          "label": "Parcs nationaux d’Australie-Méridionale : interdictions et restrictions de feu"
+        },
+        {
+          "label": "ForestrySA : camping"
+        },
+        {
+          "label": "Tasmania Parks : Fuel Stove Only Areas"
         }
       ],
       "priceTable": null
