@@ -3,16 +3,16 @@
   "ui": {
     "languageName": "Português",
     "metaTitle": "AussieCamps: mapa de campismo e planeador de viagens na Austrália",
-    "metaDescription": "Mais de 74.000 parques de campismo, áreas gratuitas, áreas de descanso e pontos de despejo na Austrália. Fichas que abrem sem rede, filtros precisos e um planeador de viagens paragem a paragem, para iPhone.",
+    "metaDescription": "Mais de 74.000 parques de campismo, locais gratuitos, áreas de descanso e pontos de despejo na Austrália, com fichas que abrem sem rede e planeador de viagens.",
     "ogTitle": "AussieCamps: o mapa de campismo e planeador de viagens para a Austrália",
-    "ogDescription": "Mais de 74.000 parques de campismo, áreas gratuitas e paragens úteis, incluídos na app para consultar sem rede. Filtra, guarda e planeia a volta toda.",
-    "metaKeywords": "app de campismo Austrália, campismo gratuito Austrália, parques de campismo Austrália, autocaravana Austrália, campervan Austrália, app de campismo sem rede Austrália, volta à Austrália, pontos de despejo Austrália, áreas de descanso Austrália, planeador de viagens Austrália",
+    "ogDescription": "Mais de 74.000 parques de campismo, locais gratuitos para pernoitar e paragens úteis, incluídos na app para consultar sem rede. Filtra, guarda e planeia a volta toda.",
+    "metaKeywords": "app de campismo Austrália, campismo gratuito Austrália, parques de campismo Austrália, áreas de campismo Austrália, autocaravana Austrália, campervan Austrália, volta à Austrália, pontos de despejo Austrália, áreas de descanso Austrália, planeador de viagens Austrália",
     "metaGuidesTitle": "Guias de campismo e viagens de carro na Austrália",
-    "metaGuidesDescription": "Regras de campismo por estado, campismo gratuito e limites nas áreas de descanso, proibições de fogo, segurança na estrada, melhor época, custos reais e planeamento prático para uma viagem de carro pela Austrália.",
+    "metaGuidesDescription": "Regras de campismo por estado, campismo gratuito, áreas de descanso, proibições de fogo, segurança na estrada, melhor época e custos para viajar pela Austrália.",
     "metaToolsTitle": "Calculadoras para viajar de carro pela Austrália",
     "metaToolsDescription": "Converte preços australianos, calcula o combustível da viagem, estima um dia de condução realista, planeia a água e as águas cinzentas e compara preços de campismo.",
     "metaSupportTitle": "Ajuda e perguntas frequentes",
-    "metaSupportDescription": "Ajuda com os mapas da AussieCamps, as fichas dos locais, os filtros, as coleções, o planeador de viagens, os dados disponíveis sem rede, a conversão de moeda e o acesso premium.",
+    "metaSupportDescription": "Ajuda com mapas, fichas dos locais, filtros, coleções, planeador de viagens, dados disponíveis sem rede, conversão de moeda e acesso premium da AussieCamps.",
     "navFeatures": "Funcionalidades",
     "navGuides": "Guias",
     "navTools": "Calculadoras",
@@ -22,7 +22,7 @@
     "updated": "Atualizado a",
     "commonQuestions": "Perguntas frequentes",
     "altHero": "O mapa da AussieCamps na Austrália, com pins de áreas de campismo, parques de campismo e locais gratuitos ao longo da costa e, por baixo, a lista Explorar com os locais próximos",
-    "altPlaceScreen": "Ficha de uma área de campismo junto à costa na AussieCamps, com o preço, se está aberta, as comodidades e uma ligação para reservar",
+    "altPlaceScreen": "Ficha de uma área de campismo junto à costa na AussieCamps, com o preço, a indicação de aberta ou fechada, as comodidades e uma ligação para reservar",
     "altCollectionsScreen": "O ecrã de coleções da AussieCamps com as listas Quero visitar, Visitados, Pins e Todos os guardados sobre um mapa de satélite",
     "altTripScreen": "Um itinerário na AussieCamps com sete paragens, a distância de condução, as datas e o tempo previsto em cada área de campismo",
     "altExploreScreen": "A lista Explorar da AussieCamps com áreas e parques de campismo e a distância a que ficam da zona visível no mapa",
@@ -70,10 +70,10 @@
     "feature4Title": "Street View antes de virar",
     "feature4Text": "O Street View abre diretamente na ficha do local, onde houver imagens, para veres a entrada, o piso e o que está à volta antes de meteres a carrinha pelo desvio.",
     "feature5Title": "O tempo em cada local",
-    "feature5Text": "As condições atuais e a previsão aparecem na ficha do local e ao lado de cada paragem da viagem, para escolheres entre duas áreas de campismo a olhar para o céu.",
+    "feature5Text": "As condições atuais e a previsão aparecem na ficha do local e ao lado de cada paragem da viagem, para escolheres entre dois sítios para acampar a olhar para o céu.",
     "feature6Title": "Custos na tua moeda",
     "feature6Text": "Estás de visita e os dólares australianos ainda não te dizem nada? Escolhe a tua moeda, define a taxa uma vez e os preços indicados aparecem também num valor que percebes à primeira.",
-    "plannerEyebrow": "O prato principal",
+    "plannerEyebrow": "O coração da app",
     "plannerTitle": "Paragem a paragem. Dia a dia.",
     "plannerText": "Tudo o resto vai dar ao planeador de viagens. Junta locais guardados como paragens e arrasta-os para a ordem em que vais mesmo conduzir. Cada troço mostra a distância, a navegação até à paragem seguinte abre logo, cada paragem tem a sua data, notas de chegada e previsão do tempo, e vais marcando-as como visitadas pelo caminho. As alternativas por perto ficam à mão para os dias em que os planos mudam, a lista do que levar fica ao lado do itinerário e tudo pode sincronizar com o Calendário.",
     "plannerMetric1Title": "Distâncias e navegação",
@@ -88,7 +88,7 @@
     "routesTitle": "Conhece as regras. Sabe quanto custa.",
     "routesText": "Guias práticos sobre regras de campismo, segurança na estrada, a melhor altura para ir e quanto custa mesmo uma viagem pela Austrália.",
     "exploreRoutes": "Explorar os guias",
-    "audiencesEyebrow": "Seja qual for a casa que levas às costas",
+    "audiencesEyebrow": "Seja qual for a casa que levas contigo",
     "audiencesTitle": "Feita para tendas, carrinhas e grandes voltas.",
     "audience1Title": "Mochileiros",
     "audience1Text": "Põe um orçamento apertado e um percurso flexível a jogar a teu favor.",
@@ -121,7 +121,7 @@
     "faq5q": "O que são coleções?",
     "faq5a": "Há dois tipos. As coleções inteligentes (Gosto, Com estrela, Quero visitar, Visitados, Pins e Todos os guardados) enchem-se sozinhas à medida que marcas locais. Além dessas, podes criar coleções tuas, com nome, ícone e notas, para uma região, uma época, um veículo ou uma pré-seleção.",
     "faq6q": "Posso filtrar campismo gratuito ou acesso para caravanas?",
-    "faq6a": "Sim, e combiná-los. Os filtros abrangem categoria, tipo de preço, avaliação mínima, reserva online, estado ou território e grupos detalhados de características de acesso, comodidades, atividades, serviços e filiações, por isso «áreas de campismo gratuitas com casas de banho e água potável em Queensland» é uma só pesquisa.",
+    "faq6a": "Sim, e também podes combiná-los. Os filtros abrangem categoria, tipo de preço, avaliação mínima, reserva online, estado ou território e grupos detalhados de características de acesso, comodidades, atividades, serviços e filiações, por isso «áreas de campismo gratuitas com casas de banho e água potável em Queensland» é uma só pesquisa.",
     "faq7q": "O que tem a ficha de um local?",
     "faq7a": "Fotografias, uma descrição, horários, preços, condições, comodidades e características agrupadas por tipo, avisos em vigor, avaliações, contactos e dados de reserva, o tempo, Street View onde houver imagens, navegação e alternativas por perto.",
     "faq8q": "Que tipos de mapa há?",
@@ -129,7 +129,7 @@
     "faq9q": "Posso ver os preços na minha moeda?",
     "faq9a": "Sim. Escolhe a tua moeda nas definições e define a taxa de câmbio: os preços indicados passam a aparecer nessa moeda ao lado do valor em dólares australianos.",
     "faq10q": "Posso reservar um lugar de campismo pela AussieCamps?",
-    "faq10a": "Abre os dados de reserva de um local para chegares ao respetivo operador e consultar aí a disponibilidade em tempo real, os preços e as condições.",
+    "faq10a": "Abre os dados de reserva de um local para chegares ao operador e confirmares com ele a disponibilidade em tempo real, os preços e as condições.",
     "faq11q": "As regras de campismo são iguais em toda a Austrália?",
     "faq11a": "Não. Mudam de estado para estado e de território para território, e também de município, de parque e de local. Segue sempre a sinalização em vigor, as condições de quem gere o terreno, as restrições ao fogo e os alertas oficiais.",
     "downloadEyebrow": "O próximo sítio está à tua espera",
@@ -275,17 +275,17 @@
         {
           "heading": "Planeador de viagens",
           "paragraphs": [
-            "Cria uma viagem, acrescenta locais e arrasta-os para os ordenar. Cada paragem pode ter a sua data de chegada, notas, meteorologia e marca de visitada, e o planeador mostra a distância de carro troço a troço e no total da viagem.",
+            "Cria uma viagem, acrescenta locais e arrasta-os para os ordenar. Cada paragem pode ter a sua data de chegada, notas, previsão do tempo e marca de visitada, e o planeador mostra a distância de carro troço a troço e no total da viagem.",
             "O cálculo do percurso depende das indicações que o MapKit tiver disponíveis. Se um troço falhar, o planeador mantém as paragens, mas tens de ser tu a confirmar se as estradas estão transitáveis no momento.",
             "Começa pela lista predefinida de essenciais de campismo ou cria as tuas próprias tarefas. O progresso da viagem mantém a lista ao lado do itinerário, e os detalhes do itinerário podem ser sincronizados com o Calendário."
           ]
         },
         {
-          "heading": "Mapas, meteorologia e dados em direto",
+          "heading": "Mapas, previsão do tempo e dados em direto",
           "paragraphs": [
-            "Alterna entre o mapa padrão e uma vista de satélite assente nas imagens flyover da Apple, que se inclina e roda até mostrar o relevo em 3D. O Street View, assente nas imagens Look Around da Apple, abre-se a partir da ficha do local, onde houver cobertura.",
+            "Alterna entre o mapa normal e uma vista de satélite com as imagens Flyover da Apple, que podes inclinar e rodar até veres o relevo em 3D. O Street View, feito com as imagens Look Around da Apple, abre-se a partir da ficha do local, onde houver cobertura.",
             "O tempo atual e a previsão precisam de dados em direto. Antes de ficares sem rede, guarda as previsões essenciais e os avisos oficiais.",
-            "O diretório de locais vem incluído na app, por isso os dados essenciais de cada local continuam disponíveis mesmo onde a rede deixa de ser fiável. Os mapas em direto, o cálculo de percursos, a meteorologia, as fotografias e as páginas externas dos operadores podem precisar de rede."
+            "O diretório de locais vem incluído na app, por isso os dados essenciais de cada local continuam disponíveis mesmo onde a rede deixa de ser fiável. Os mapas em direto, o cálculo de percursos, a previsão do tempo, as fotografias e as páginas externas dos operadores podem precisar de rede."
           ]
         },
         {
@@ -331,23 +331,33 @@
           "heading": "Ligações externas e registos do site",
           "paragraphs": [
             "A ficha de um local pode encaminhar-te para operadores de reserva, sites, perfis nas redes sociais, números de telefone, endereços de email e apps de mapas. Quando decides abri-los, esses serviços recebem informação de acordo com as suas próprias políticas.",
-            "Os prestadores de alojamento web podem tratar registos técnicos de rotina, como o endereço IP, o tipo de navegador e o URL pedido, para fins de entrega de conteúdos, fiabilidade e segurança. A AussieCamps não usa rastreadores publicitários neste site."
+            "Os prestadores de alojamento web podem tratar registos técnicos de rotina, como o endereço IP, o tipo de navegador e o URL pedido, para entregar o site e garantir a sua fiabilidade e segurança."
+          ]
+        },
+        {
+          "heading": "Estatísticas do site",
+          "paragraphs": [
+            "Este site usa o Google Analytics 4 para perceber que páginas são lidas e como os visitantes chegam à app. A Google trata estes dados em nosso nome, como subcontratante. Para quem nos visita a partir do Espaço Económico Europeu, do Reino Unido e da Suíça, o serviço é prestado pela Google Ireland Limited.",
+            "As estatísticas registam as páginas que vês, o tipo de dispositivo e de navegador, uma localização aproximada calculada a partir do teu endereço IP e as ligações para a App Store em que clicas. O Google Analytics 4 não regista nem guarda endereços IP e nunca recebe o teu nome, o teu email nem nada do que guardas na app.",
+            "As estatísticas usam dois cookies próprios (first-party): o _ga e outro cujo nome começa por _ga_ seguido do nosso ID de medição, e ambos duram até 13 meses. No Espaço Económico Europeu, no Reino Unido e na Suíça, só são instalados depois de os aceitares. Até lá, não é guardado nenhum cookie de estatísticas e a Google recebe apenas medições sem cookies, que não levam nenhum identificador. Podes mudar a tua escolha a qualquer momento na ligação Preferências de privacidade, no fundo de cada página.",
+            "Os Google signals e a personalização de anúncios estão desligados, e os dados das estatísticas são apagados ao fim de 14 meses. Este site não usa rastreadores publicitários."
           ]
         },
         {
           "heading": "Conservação e controlo dos dados",
           "paragraphs": [
-            "Podes apagar os registos na própria app e gerir os dados do iCloud na tua conta Apple. Remover a app pode apagar os dados locais, mas as cópias sincronizadas podem manter-se no iCloud até serem apagadas separadamente."
+            "Podes apagar os registos na própria app e gerir os dados do iCloud na tua conta Apple. Remover a app pode apagar os dados locais, mas as cópias sincronizadas podem manter-se no iCloud até serem apagadas à parte."
           ]
         },
         {
           "heading": "Crianças e contacto",
           "paragraphs": [
-            "A AussieCamps é uma ferramenta de viagem de uso geral e não se destina a crianças. Não envies ao apoio dados pessoais de uma criança."
+            "A AussieCamps é uma ferramenta de viagem de uso geral e não se destina a crianças. Não envies ao apoio dados pessoais de uma criança.",
+            "Para questões de privacidade, contacta o apoio da AussieCamps."
           ]
         }
       ],
-      "effective": "Em vigor a partir de 12 de agosto de 2026"
+      "effective": "Em vigor a partir de 19 de outubro de 2026"
     },
     "terms": {
       "title": "Termos de utilização",
@@ -493,7 +503,7 @@
           ],
           "tips": [
             "Redes e palas mudam tudo",
-            "Deitado, o chão plano conta",
+            "Para dormir, o chão tem de estar plano",
             "Virar o carro corrige muitas vezes a inclinação"
           ]
         }
@@ -5738,7 +5748,7 @@
       "intro": "É fácil subestimar as bebidas, porque chegam uma de cada vez. Os intervalos de preços atuais recolhidos pela comunidade mostram a diferença entre comprar numa bottle shop (loja de bebidas alcoólicas), parar num café e pagar uma rodada num pub da cidade.",
       "sections": [
         {
-          "heading": "Loja e bar vendem produtos diferentes",
+          "heading": "Preço de loja e preço de bar não se comparam",
           "body": [
             "No pub, o preço inclui o espaço, o pessoal e o serviço, não só o líquido. Compara o que é comparável e não tomes o preço equivalente na bottle shop pelo de uma bebida servida ao copo.",
             "As happy hours e as promoções são passageiras. Faz o orçamento com os preços normais e trata qualquer desconto como margem."
@@ -6416,5 +6426,13 @@
         ]
       }
     }
+  },
+  "consent": {
+    "label": "Preferências de privacidade",
+    "message": "Podemos usar cookies do Google Analytics para ver que páginas são lidas e que ligações para a App Store são usadas? Nada disto serve para publicidade.",
+    "accept": "Aceitar",
+    "decline": "Recusar",
+    "learnMore": "Política de privacidade",
+    "privacyChoices": "Preferências de privacidade"
   }
 }
