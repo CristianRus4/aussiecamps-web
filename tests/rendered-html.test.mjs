@@ -538,3 +538,56 @@ test("translation stamps find strings whose English changed", async () => {
     stamps.useTranslationsDirectory(new URL("../lib/translations", import.meta.url).pathname);
   }
 });
+
+/** The `<img>` inside the `<figure class="guide-figure">` of one section, or undefined. */
+function figureImage(html, sectionNumber) {
+  const section = html.match(new RegExp(`<section[^>]*id="step-${sectionNumber}"[^>]*>([\\s\\S]*?)</section>`))?.[1] ?? "";
+  return section.match(/<figure class="guide-figure"><img\b[^>]*>/)?.[0];
+}
+const imageAttribute = (tag, name) => tag.match(new RegExp(`\\s${name}="([^"]*)"`, "i"))?.[1];
+
+test("an app guide shows its screenshot figure in English and in every language it is translated into", async () => {
+  const { screenFigures } = await import("../lib/screen-figures.ts");
+  const { localizedArticles } = await import("../lib/localized.ts");
+  const pages = new Map((await exportedPages()).map((page) => [page.route, page.html]));
+  const published = screenFigures.filter((figure) => articles.some((item) => item.slug === figure.slug));
+  assert.ok(published.some((figure) => figure.slug === "best-camping-app-australia"), "the best camping app guide is published with its figure");
+  let translatedPages = 0;
+  for (const figure of published) {
+    const english = pages.get(`/guides/${figure.slug}/`);
+    const tag = figureImage(english, figure.section + 1);
+    assert.ok(tag, `${figure.slug}: section ${figure.section + 1} has the figure`);
+    assert.equal(english.match(/class="guide-figure"/g).length, 1, `${figure.slug}: exactly one figure`);
+    assert.equal(imageAttribute(tag, "src"), figure.src);
+    assert.equal(imageAttribute(tag, "width"), "1600");
+    assert.equal(imageAttribute(tag, "height"), "900");
+    assert.ok(imageAttribute(tag, "srcset").includes(figure.src.replace(/\.webp$/, "-800.webp 800w")), `${figure.slug}: srcset offers the 800px variant`);
+    assert.equal(imageAttribute(tag, "loading"), "lazy");
+    assert.equal(imageAttribute(tag, "decoding"), "async");
+    assert.ok(imageAttribute(tag, "sizes"), `${figure.slug}: sizes is set`);
+    assert.equal(decode(imageAttribute(tag, "alt")), figure.alt);
+    for (const locale of locales.filter((code) => isArticleTranslated(code, figure.slug))) {
+      const heading = localizedArticles(locale).find((item) => item.slug === figure.slug).sections[figure.section].heading;
+      const localized = figureImage(pages.get(`/${locale}/guides/${figure.slug}/`), figure.section + 1);
+      assert.ok(localized, `${locale}/${figure.slug} keeps the figure`);
+      assert.equal(imageAttribute(localized, "src"), figure.src);
+      assert.equal(decode(imageAttribute(localized, "alt")), heading, `${locale}/${figure.slug}: the alt is the translated heading`);
+      assert.notEqual(heading, figure.alt);
+      translatedPages += 1;
+    }
+  }
+  assert.ok(translatedPages > 0, "at least one translated guide carries a figure");
+});
+
+test("screen figures fail the build when they point at nothing", async () => {
+  const { applyScreenFigures } = await import("../lib/screen-figures.ts");
+  const guides = [{ slug: "a-guide", sections: [{ heading: "One", body: ["Text"] }] }];
+  const figure = { slug: "a-guide", section: 0, src: "/images/screens/best-camping-app-australia.webp", alt: "A screenshot" };
+  assert.deepEqual(applyScreenFigures(guides, [figure])[0].sections[0].figure, { src: figure.src, alt: figure.alt });
+  assert.throws(() => applyScreenFigures(guides, [{ ...figure, slug: "no-such-guide" }]), /no guide with slug/);
+  assert.throws(() => applyScreenFigures(guides, [{ ...figure, section: 1 }]), /has no section 1/);
+  assert.throws(() => applyScreenFigures(guides, [{ ...figure, src: "/images/screens/missing.webp" }]), /no image-manifest entry/);
+  // The figure is data for the page, never copy: the translation source and the completeness rule ignore it.
+  const { translationSource } = await import("../lib/translation-source.ts");
+  assert.doesNotMatch(JSON.stringify(translationSource().articles), /images\/screens|"figure"/);
+});
