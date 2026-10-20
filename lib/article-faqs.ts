@@ -192,6 +192,12 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Is WikiCamps still worth it in 2026?", "For many travellers, yes: A$9.99 once per platform buys a community database its website puts at more than 65,000 sites, with no subscription. Version 6 changed some features, so read recent App Store reviews before you buy."],
     ["Does WikiCamps have ads?", "Yes. The App Store lists advertising, and the developer says a small number of ads appear in the reviews, fees and photos sections. It has said it is considering a paid option to remove them."],
   ],
+  "campermate-alternatives": [
+    ["What is better than CamperMate?", "It depends on what you want that CamperMate does not give you. AussieCamps uses park agency and road authority data with every place detail available offline on iPhone, WikiCamps Australia has 1.3 million traveller reviews by its own count for A$9.99 once, and CAMPS lists sites its own team has checked."],
+    ["Is CamperMate free?", "Yes. As of October 2026 it is free to download with no in-app purchases on the Australian App Store. It shows ads and offers bookings and deals from partners."],
+    ["Does CamperMate work offline?", "Partly. You can download maps and key information for use without signal, and version 5.8 added a satellite view that works with those downloaded maps."],
+    ["Is there one app for camping in Australia and New Zealand?", "CamperMate covers both countries in one free app. WikiCamps sells separate apps for each country, and AussieCamps and KiwiCamping are separate iPhone apps for Australia and New Zealand."],
+  ],
 
   // --- Costs & budget -------------------------------------------------------
   "australia-travel-cost-2026": [
