@@ -16,9 +16,22 @@ Style guide: `docs/translation-style/zh-hans.md` (identical in both repos).
 - Working files: /tmp/zhhans/work-au-12, /tmp/zhhans/work-nz-12 (b-* sources, v-* values).
   Apply with /tmp/zhhans/tools/apply.sh au|nz FILE [--real] (locale id is now zh-hans).
 
-## Next
-- Both sites are fully translated. Remaining work only if English changes (re-run audit, re-stamp) or the
-  orchestrator sends units back from judging.
+## Next (catch-up after rebasing on main 38f406c, English changed again)
+AU `npm run check` passes (note: needs `qrcode` in node_modules: `cp -cRn <main>/node_modules/ ./node_modules/`).
+NZ `npm run check` fails until best-nz-camping-apps is retranslated (rewritten in English).
+New English since the last translation, to translate with the whole new article plus the old Chinese as
+reference (`/tmp/zhhans/tools/refpack.py au|nz PREFIX slug...` writes PREFIX.en.json and PREFIX.ref.json;
+drafts go to /tmp/zhhans/work-*-13/v-*.json, then an editor subagent writes p-*.json, patch, lint, apply, stamp):
+- NZ k1: best-nz-camping-apps (rewritten), free-camping-apps-new-zealand, campermate-alternatives (new)
+- NZ k2: best-travel-apps-new-zealand, road-trip-planner-apps-new-zealand, rankers-alternatives (new)
+- AU a1: best-camping-app-australia (rewritten), best-fuel-price-apps-australia, best-free-camping-apps-australia
+- AU a2: wikicamps-alternatives, best-road-trip-planner-apps-australia, campermate-alternatives (new)
+- AU a3: campfires, is-free-camping-legal, sleeping-in-car, camping-fees-2026 (rewritten, 69-77 new units each)
+- AU a4: dump-points, caravan-park-vs-holiday-park, camping-rules-act/nsw/victoria (rewritten)
+- AU a5: camping-rules-wa/tas/sa/nt/qld (rewritten)
+- AU a6: small additions: darwin-kakadu-litchfield, road-rules-visitors, australian-alps, road-rules-state-differences,
+  road-signs, adelaide-to-uluru, towing (a handful of missing units each)
+- Extra rules for translators: /tmp/zhhans/lessons.md. Then re-run `translations:stamp -- --locale zh-hans`.
 
 ## How the work is done (for a resuming session)
 - Engine: separate zh-Hans catalog per site in `docs/translation.config.json`
