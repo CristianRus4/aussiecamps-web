@@ -21,8 +21,11 @@ Branch `release/a-costs`, worktree `~/.t3/worktrees/aussiecamps-web/ava-a-costs`
   (fr nb sv), de caravan-park-vs-holiday-park sections[1].tips[1] and camping-fees-australia-2026 sections[4].tips[2].
 - article-dates.json regenerates unchanged (cost pages already dated 2026-10-20).
 
+- npm run check (2026-10-20): content:check, build, export, seo:audit pass (907 pages, 562 indexable, 537 reciprocal hreflang,
+  109 ranking URLs, 413 baseline URLs). npm test: 35 pass, 1 fail (below). similarity:check and assets:check pass when run separately.
+
 ## Next
-- npm run check, then hand off.
+- Waiting for the orchestrator on the protected test below; everything else is handed off.
 
 ## English source notes for the content lane
 - Drinks page: pub beer is "$7 to $16" in title/description/intro but "$7.15 to $16" in faq[0][1].
@@ -34,4 +37,8 @@ Branch `release/a-costs`, worktree `~/.t3/worktrees/aussiecamps-web/ava-a-costs`
 - Dates: lib/article-dates.json is regenerated after the translation commit; the five cost pages (English and locale dates) are expected to move, nothing else.
 
 ## Blockers
-- None.
+- tests/rendered-html.test.mjs:101 "renders dated multi-currency price tables" (protected, foundation thread only) hardcodes the
+  grocery page's old content: `/Prices checked 12 August 2026/` (the refresh moved priceTable.asOf to 2026-10-19, page renders
+  "Prices checked 19 October 2026") and `/Reserve Bank of Australia exchange rates/` (the refresh replaced that source with CHOICE and
+  ACCC). Caused by growth/a-content-costs itself, not by translations. Needs the foundation thread (or orchestrator) to update both
+  assertions; not changed here.
