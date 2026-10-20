@@ -34,8 +34,11 @@ y3 (sleeping-in-car, dump-points, caravan-park-vs-holiday-park, camping-fees-202
 y4 (the 5 cost pages) and the support page / small units are done; AU content:check passes except the structure-stale
 guides still queued in y5.
 AU y5 (7 guides, 41 units) done: every existing AU guide is now current (content:check passes).
-Still to do: NEW guides (AU 7: wikicamps-alternatives, campermate-alternatives, best-fuel-price-apps-australia,
-best-road-trip-planner-apps-australia, best-free-camping-apps-australia, best-caravan-rv-apps-australia,
+Done: AU new guides best-fuel-price-apps, best-free-camping-apps, wikicamps-alternatives (n1; me/<slug>.py files in
+/tmp/zhhans/work-au-14/me). Note: engine `audit --output` never overwrites, use a fresh file name each time; engine script
+check needs real Chinese text in every cell (not only app names plus 的/、).
+Still to do: NEW guides (AU 4: campermate-alternatives,
+best-road-trip-planner-apps-australia, best-caravan-rv-apps-australia,
 best-apps-working-holiday-australia; NZ 7: rankers-alternatives, campermate-alternatives, road-trip-planner-apps-new-zealand,
 free-camping-apps-new-zealand, best-travel-apps-new-zealand, wikicamps-alternatives, best-campervan-apps-new-zealand).
 Remaining at the end: NEW guides (AU 7, NZ 7), then `translations:stamp -- --locale zh-hans`, `content:check`
