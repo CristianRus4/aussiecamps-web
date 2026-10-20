@@ -210,6 +210,18 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Does Roadtrippers work in Australia?", "Its App Store listing says it is designed for road trips in the USA and Canada only, so it is not a good fit for Australia."],
     ["Can I plan a road trip offline in Australia?", "Partly. Google Maps and Apple Maps can navigate within downloaded areas, AussieCamps keeps place details on the phone with the Pass, and WikiCamps keeps up to three downloaded trips. Live traffic, forecasts and new routes still need signal in most apps."],
   ],
+  "best-caravan-rv-apps-australia": [
+    ["What is the best app for caravanning in Australia?", "It depends on the question you need answered. CAMPS Australia Wide filters sites by set-up, including big rigs, AussieCamps uses official data for dump points, water and rest areas on iPhone, and WikiCamps has more than a million traveller reviews by its own count. Many caravanners pair one of these with a navigation app."],
+    ["Is there an app that shows big rig friendly campsites?", "CAMPS Australia Wide lets you filter by camping set-up, including big rig, and shows big rig access on its dump points. WikiCamps lists site features for vehicle access, recorded by its users. Hipcamp has a rig type filter for its private-land stays. Check the site details before you commit to a narrow track."],
+    ["What is an RV Friendly town?", "A town in the CMCA's RV Friendly program, which offers short-term, low-cost overnight parking of 24 or 48 hours for self-contained recreational vehicles, plus drinking water and a free dump point. CMCA publishes a map of them."],
+    ["Do caravan apps work without phone signal?", "Partly. CAMPS, WikiCamps, CamperMate and CMCA Traveller let you download maps or site data before you go, and AussieCamps keeps place details on the phone. Live maps, routing and weather still need signal in most apps."],
+  ],
+  "best-apps-working-holiday-australia": [
+    ["What apps do I need for a working holiday in Australia?", "Start with the free government apps: myVEVO for your visa conditions, myGov and the ATO app for tax and super, and the Fair Work Ombudsman's Record My Hours for your shifts. Add a job app such as SEEK, Indeed or Jora, and an app for places to stay, such as AussieCamps or Hostelworld."],
+    ["How do I prove my work rights to an employer?", "Use myVEVO, the free Home Affairs app, to see your visa conditions and email them to the employer. Employers can also check your work rights through VEVO online with your permission."],
+    ["How many days of farm work do I need for a second year visa?", "At least 3 months of specified work, a minimum of 88 calendar days, in an eligible industry and postcode for your visa. A third visa needs 6 months, at least 179 calendar days. UK passport holders applying for a 417 on or after 1 July 2024 are exempt."],
+    ["What tax do working holiday makers pay in Australia?", "15% on income up to A$45,000 in 2025-26 and 2026-27, with higher rates above that. Your employer withholds at that rate only if registered with the ATO as an employer of working holiday makers, and must withhold 45% if you give no tax file number."],
+  ],
   "best-free-camping-apps-australia": [
     ["What is the best free camping app in Australia?", "If the app itself must cost nothing, CamperMate is free with no in-app purchases and lists free camps among its places. AussieCamps is free to download but needs the Pass for its official campground and rest area data, and WikiCamps costs A$9.99 once per platform."],
     ["Is there a free app for free camps in Australia?", "Yes. CamperMate is free, and Full Range Camping's directory, including its Free Camps category, is free to browse. Government park and forest agencies also publish their campgrounds for free, though many of those sites charge a camping fee."],
@@ -223,16 +235,16 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Is Australia expensive to travel in?", "Yes, particularly for accommodation, eating out and covering distance. Camping and self-catering are where it stops being expensive, which is why the gap between a camping trip and a hotel trip is unusually wide here."],
   ],
   "australia-grocery-prices-2026": [
-    ["How much do groceries cost in Australia?", "The guide prices a real basket rather than an average, with dated figures per item. Meat and packaged goods are the lines that surprise visitors, and remote and roadhouse prices run far above the city ones."],
-    ["Where is the cheapest place to buy food in Australia?", "The major supermarket chains in towns of any size, and Aldi where there is one. The price gap to a remote roadhouse or a small-town store is large enough that stocking up before a long leg is worth real money."],
+    ["How much do groceries cost in Australia?", "On Numbeo's community-reported national averages for October 2026, milk is $2.45 a litre, bread $3.96 a loaf, eggs $7.19 a dozen and chicken fillets $13.14 a kilo. A solo week of core staples comes to about $85 before pantry items, and remote stores charge more."],
+    ["Where is the cheapest place to buy food in Australia?", "The major supermarket chains in towns of any size, and Aldi where there is one. The price gap to a remote roadhouse or a small-town store can be large, so stocking up before a long leg usually pays."],
   ],
   "eating-out-australia-prices-2026": [
-    ["How much is a meal out in Australia?", "The guide gives dated prices for a café breakfast, a pub meal, a mid-range dinner and takeaway. Pub bistros remain the best value for a full meal, which is why they anchor most road trip budgets."],
-    ["Do you tip in Australia?", "No. Tipping is not expected and staff are paid an award wage that assumes none, though rounding up or leaving something for exceptional service is welcomed. A surcharge on Sundays and public holidays is normal and legal."],
+    ["How much is a meal out in Australia?", "An inexpensive restaurant meal costs about $20 to $45 a person in Sydney and a fast-food combo $15 to $18, on October 2026 community price data. A three-course dinner for two at a mid-range restaurant runs $80 to $200 before drinks."],
+    ["Do you tip in Australia?", "No. Tipping is not expected and restaurant staff are paid award wages, though rounding up or leaving something for exceptional service is welcome. Sunday and public holiday surcharges are normal and legal when the menu shows them."],
   ],
   "alcohol-coffee-drink-prices-australia": [
-    ["How much is a beer in Australia?", "The guide prices a pub schooner, a craft beer, a bottle-shop carton, and wine by the glass and the bottle, all with dated figures. Buying from a bottle shop rather than a bar is the single biggest saving on a long trip."],
-    ["How much does coffee cost in Australia?", "A flat white sits in a fairly narrow band nationwide, with inner-city cafés at the top of it. Australian coffee is genuinely good, which is why this line creeps up on people over a long trip."],
+    ["How much is a beer in Australia?", "A 500 ml draught beer in a Sydney pub costs about $7.15 to $16 on October 2026 community price data, and a 500 ml bottle from a bottle shop about $3.50 to $12 nationally. Buying from a bottle shop rather than a bar is one of the biggest savings on a long trip."],
+    ["How much does coffee cost in Australia?", "A regular cappuccino costs about $4.50 to $8 in Sydney and $4 to $8 nationally on October 2026 community price data, with inner-city cafes often at the top of the range. Two coffees a day for two people becomes a real budget line on a long trip."],
   ],
   "accommodation-costs-australia-2026": [
     ["How much is accommodation in Australia per night?", "It runs from a hostel dorm through a caravan park cabin and a motel to a hotel room, and the guide prices each with dated figures. Coastal Queensland and Sydney over summer sit well above the national picture."],
@@ -247,12 +259,12 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["How do you estimate fuel for an Australian road trip?", "Take the route distance and add a fifth for detours, multiply by your vehicle's real consumption in litres per 100 km and divide by 100 to get litres, then multiply by the price per litre. So a van using 12 litres per 100 km needs about 120 litres for every 1,000 km driven. Use real consumption, not the brochure figure: a loaded van into a headwind will not meet its rated economy."],
   ],
   "public-transport-costs-australia-2026": [
-    ["Can you travel Australia without a car?", "Between the capitals, yes. Beyond them the network thins fast, and the coastal and outback places most people come for are effectively unreachable without a vehicle or a tour."],
-    ["How much does public transport cost in Australian cities?", "The guide gives dated fares for Sydney, Melbourne, Brisbane and Perth. All run tap-on cards with daily and weekly caps, and several now accept a contactless bank card directly, which saves buying a travel card at all."],
+    ["Can you travel Australia without a car?", "Between the capitals, yes. Beyond them the network thins fast, and many of the coastal and outback places most people come for are hard to reach without a vehicle or a tour."],
+    ["How much does public transport cost in Australian cities?", "Queensland charges a flat 50 cents a trip, Perth caps a day at $7 and Sundays are free with a SmartRider or bank card, Melbourne's daily cap is $5.70 until 1 January 2027, and Sydney's adult Opal cap is $19.30 Monday to Thursday and $9.65 Friday to Sunday and on public holidays."],
   ],
   "domestic-flight-costs-australia-2026": [
-    ["How much are domestic flights in Australia?", "The guide gives realistic sale floors and typical fares on the main routes rather than headline prices. On the long legs, such as the east coast to Perth or Darwin, flying is often cheaper than driving once fuel and time are counted."],
-    ["Is it cheaper to fly or drive in Australia?", "For crossing the continent, flying usually wins on both cost and time. For anything under a day's drive, the vehicle wins, especially once a one-way rental drop-off fee is in the comparison."],
+    ["How much are domestic flights in Australia?", "2026 sale fares started at $49 one way for Sydney to Ballina, $105 for Melbourne to Sydney and $245 for Sydney to Perth, but those were limited seats without checked baggage. Outside a sale, and with bags added, expect to pay more."],
+    ["Is it cheaper to fly or drive in Australia?", "For crossing the continent, flying usually wins on time, and often on cost for one or two travellers. For anything under a day's drive the vehicle usually wins, especially once a one-way rental drop-off fee is in the comparison."],
   ],
   "bus-train-costs-australia-2026": [
     ["How much do long-distance buses cost in Australia?", "Greyhound and the regional operators are the cheapest way to cover distance without a car, and the guide gives dated fares on the main corridors. Passes priced by distance or by time suit a slow east coast run."],

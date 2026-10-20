@@ -4,7 +4,7 @@ import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { DownloadCard } from "@/components/download-card";
 import { ArticleCard } from "@/components/article-card";
-import { CoverImage } from "@/components/site-image";
+import { CoverImage, GuideFigure } from "@/components/site-image";
 import { SectionTable } from "@/components/article-table";
 import { SITE_URL, sitePath, type Article } from "@/lib/site";
 import { relatedGuides } from "@/lib/related";
@@ -62,6 +62,7 @@ export function GuideArticle({ item }: { item: Article }) {
               <h2>{part.heading}</h2>
               {/* The only HTML here is the anchor linkProse inserted; the prose itself is escaped. */}
               {linkProse(part.body, item.slug).map((paragraph, position) => <p key={part.body[position]} dangerouslySetInnerHTML={{ __html: paragraph }} />)}
+              {part.figure && <GuideFigure src={part.figure.src} alt={part.figure.alt} />}
               {part.table && <SectionTable table={part.table} />}
               {part.tips && <div className="article-tips"><strong>Keep in mind</strong><ul>{part.tips.map((tip) => <li key={tip}>{tip}</li>)}</ul></div>}
               {part.cta && <DownloadCard compact placement={placement} />}

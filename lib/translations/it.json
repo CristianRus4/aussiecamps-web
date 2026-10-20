@@ -298,8 +298,8 @@
         {
           "heading": "Premium e account",
           "paragraphs": [
-            "La mappa e le schede dei luoghi sono gratuite, insieme a due liste salvate.",
-            "Premium aggiunge liste illimitate, pianificazione del viaggio, filtri avanzati, meteo sui luoghi e itinerari on the road.",
+            "AussieCamps si scarica gratis, e la mappa e la ricerca mostrano tutti i luoghi. Senza il Pass si aprono per intero solo i soggiorni prenotabili e i tour di BookEasy, oltre ad alcune guide.",
+            "Il Pass apre campeggi, aree di sosta, punti di scarico, acqua, bagni e tutte le guide, e sblocca il salvataggio dei luoghi, le collezioni e il pianificatore di viaggio.",
             "Apri la schermata Premium e tocca Ripristina gli acquisti, con l’account Apple usato per l’acquisto originale."
           ]
         }
@@ -3608,119 +3608,295 @@
       "priceTable": null
     },
     "best-camping-app-australia": {
-      "title": "App per il campeggio in Australia: cosa cercare",
-      "description": "Scegli un’app che copra il tuo percorso, spieghi ogni sosta e trasformi i luoghi salvati in un viaggio fattibile.",
+      "title": "Migliori app per il campeggio in Australia 2026: 7 a confronto",
+      "description": "AussieCamps, WikiCamps, CAMPS, CamperMate, Hipcamp, Full Range Camping ed ExplorOz a confronto: prezzo, uso senza campo, fonti dei dati e valutazioni, ottobre 2026.",
       "region": "Australia",
       "imageAlt": "App di campeggio aperta lungo una strada australiana",
-      "intro": "Un’app di campeggio utile deve ridurre l’incertezza prima di imboccare l’uscita giusta e restare chiara quando il percorso cambia.",
+      "intro": "Nel 2026 sono sette le app che fanno quasi tutto il lavoro quando cerchi dove dormire in un viaggio in Australia, e ognuna è brava in cose diverse. AussieCamps la facciamo noi ed è al primo posto: qui sotto trovi il perché e i casi in cui ti conviene un’altra app. Tutti i prezzi e le valutazioni sono stati verificati sull’App Store australiano il 20 ottobre 2026.",
       "sections": [
         {
-          "heading": "Non solo campeggi",
+          "heading": "Il verdetto in breve",
           "body": [
-            "Nei viaggi lunghi servono anche caravan park, alloggi al coperto, aree di sosta, <a data-guide=\"dump-points-australia-guide\">punti di scarico</a>, acqua potabile, carburante e altre soste utili. Una mappa con soli campeggi lascia buchi tra una notte e l’altra.",
-            "Cerca categorie chiare e un modo per concentrarti sulla zona di mappa che stai guardando."
+            "Se viaggi con iPhone e vuoi dati ufficiali su campeggi, aree di sosta e <a data-guide=\"dump-points-australia-guide\">punti di scarico</a> da leggere anche senza campo, più un pianificatore di viaggi che tenga insieme date, distanze e previsioni, la nostra scelta è AussieCamps. Per un database creato dalla community con oltre 65.000 luoghi (cifra dello sviluppatore) e recensioni recenti di altri viaggiatori, WikiCamps Australia è da sempre il favorito, con un solo acquisto da 9,99 A$. Per luoghi controllati di persona da un team editoriale, il riferimento è CAMPS.",
+            "Se usi Android, parti da <a data-guide=\"wikicamps-alternatives\">WikiCamps</a> o da CAMPS, perché AussieCamps funziona solo su iPhone. Se vuoi prenotare una notte in una fattoria o in un vigneto, apri Hipcamp. Chi va in fuoristrada oltre l’asfalto dovrebbe affiancare all’app di campeggio scelta un’app di navigazione topografica come ExplorOz Traveller."
           ],
-          "tips": []
+          "tips": [],
+          "table": {
+            "caption": "Sette app di campeggio australiane a confronto. Prezzi, piattaforme e valutazioni verificati sull’App Store australiano e sui siti degli sviluppatori il 20 ottobre 2026.",
+            "head": [
+              "App",
+              "Prezzo (AUD)",
+              "Piattaforme",
+              "Valutazione sull’App Store (AU)",
+              "Senza campo",
+              "Ideale per"
+            ],
+            "rows": [
+              [
+                "AussieCamps",
+                "Download gratuito; Pass da 2,99 A$",
+                "iPhone",
+                "Valutazioni ancora insufficienti per mostrarle",
+                "Schede dei luoghi salvate sul telefono",
+                "Dati ufficiali e pianificazione del viaggio"
+              ],
+              [
+                "WikiCamps Australia",
+                "9,99 A$ una tantum per piattaforma",
+                "iPhone, iPad, Android",
+                "4,5 (16.663 valutazioni)",
+                "Mappe e fino a tre viaggi",
+                "Il database della community più grande"
+              ],
+              [
+                "CAMPS Australia Wide",
+                "Prova gratuita, poi 14,99 A$ all’anno",
+                "iPhone, iPad, Android",
+                "4,4 (3.476 valutazioni)",
+                "Mappe scaricate e dati dei luoghi con l’accesso a pagamento",
+                "Luoghi controllati di persona"
+              ],
+              [
+                "CamperMate",
+                "Gratis",
+                "iPhone, iPad, Android",
+                "4,4 (1.543 valutazioni)",
+                "Mappe scaricate e informazioni essenziali",
+                "App gratuita per Australia e Nuova Zelanda"
+              ],
+              [
+                "Hipcamp",
+                "Gratis; si paga a ogni prenotazione",
+                "iPhone, Android, web",
+                "4,8 (22.592 valutazioni)",
+                "Viaggi e messaggi in cache",
+                "Prenotare soggiorni su terreni privati"
+              ],
+              [
+                "Full Range Camping",
+                "Gratis; Premium 49,99 A$ all’anno (iscrizioni sospese)",
+                "iPhone, iPad, Android",
+                "4,0 (262 valutazioni)",
+                "Schede senza connessione con Premium",
+                "Sconti per i soci e house sitting"
+              ],
+              [
+                "ExplorOz Traveller",
+                "59,99 A$, più mappe scaricabili da 59,99 A$ all’anno",
+                "iPhone, iPad, Android",
+                "4,3 (1.352 valutazioni)",
+                "Mappa topografica completa dell’Australia dopo l’acquisto",
+                "Piste dell’outback e 4x4"
+              ]
+            ]
+          }
         },
         {
-          "heading": "I dettagli che fanno la differenza",
+          "heading": "1. AussieCamps: ideale per dati ufficiali e pianificazione su iPhone",
           "body": [
-            "Accesso, tariffe, bagni, acqua, corrente, cani, adatto o no al tuo mezzo e informazioni sulla prenotazione contano più di un gran numero di segnaposto.",
-            "Le informazioni sui luoghi che restano consultabili anche senza campo valgono molto, mentre mappe in tempo reale, meteo e navigazione dipendono comunque dalla connessione."
+            "AussieCamps è la nostra app, pensata per chi vuole scegliere dove fermarsi stasera e organizzare il resto del viaggio in un unico posto. Le schede di campeggi, aree di sosta e servizi arrivano da enti statali dei parchi, gestori delle strade e dataset pubblici come il NSW National Parks and Wildlife Service, Parks Victoria, Main Roads WA e la National Public Toilet Map. La versione attuale conta 1.838 campeggi, 5.552 aree di sosta, 1.393 <a data-guide=\"dump-points-australia-guide\">punti di scarico</a>, 3.004 punti di acqua potabile e 1.186 bagni pubblici.",
+            "L’elenco dei luoghi è salvato sul telefono, quindi servizi, tariffe, regole e note sull’accesso restano leggibili anche dopo l’ultima tacca di campo. La mappa, le indicazioni stradali, il meteo e le foto richiedono invece una connessione, e non c’è una mappa da scaricare. Il <a data-guide=\"how-to-plan-trip-aussiecamps\">pianificatore di viaggi</a> mette in ordine le tappe, mostra distanza e tempo di guida di ogni tratta, aggiunge le date di arrivo con le previsioni per ogni tappa e può sincronizzare il viaggio con il tuo calendario.",
+            "Il download è gratuito, e lo sono anche le schede di hotel, motel, B&B, holiday park (campeggi-villaggio con bungalow, piscina e servizi) e tour prenotabili tramite il partner BookEasy. Campeggi, aree di sosta, punti di scarico, acqua, parchi, guide, <a data-guide=\"save-collections-aussiecamps\">collezioni</a> e viaggi richiedono il Pass di AussieCamps, un abbonamento settimanale o un acquisto unico a vita; l’App Store australiano elenca gli acquisti in-app da 2,99 a 9,99 A$.",
+            "Cosa ci piace: dati con una fonte ufficiale dichiarata, schede che restano consultabili <a data-guide=\"camping-without-phone-signal\">senza campo</a> anche se non hai scaricato nessuna regione, e filtri per acqua, bagni, docce, corrente, cani e accesso dei veicoli. Da tenere presente: esiste solo per iPhone, elenca meno luoghi di WikiCamps e non ha recensioni dei viaggiatori, quindi non vedrai il commento della settimana scorsa su una strada d’accesso piena di fango."
           ],
           "tips": [
-            "Schede dei luoghi anche senza campo",
-            "Filtri per l’accesso",
-            "Pianificazione del viaggio",
-            "Link alle fonti"
+            "Ideale per: chi ha l’iPhone e pianifica",
+            "Punto debole: niente Android, niente recensioni",
+            "Prezzo: download gratis, Pass per i dati dei campeggi"
           ]
         },
         {
-          "heading": "Dal segnaposto salvato al percorso",
+          "heading": "2. WikiCamps Australia: ideale per il database della community più grande",
           "body": [
-            "Un’app valida deve organizzare i preferiti, separare i posti ancora in dubbio dai soggiorni prenotati e mettere in ordine le tappe del viaggio con le note.",
-            "Scegli lo strumento che funziona come viaggi tu, non quello con la lista di funzioni promozionali più lunga."
+            "WikiCamps accompagna i viaggi in Australia da più di dieci anni, e il suo punto di forza è la community. Ogni scheda, foto e recensione arriva dagli utenti, e lo sviluppatore dichiara più di 65.000 luoghi, 1,3 milioni di recensioni e 900.000 foto. Con questi numeri trovi commenti recenti sulle condizioni della strada, sulle zanzare o su un rubinetto rotto in un <a data-guide=\"is-free-camping-legal-australia\">campeggio gratuito</a>, cose che nessun dataset ufficiale contiene.",
+            "Costa 9,99 A$ una sola volta, senza abbonamento, ma si paga separatamente su iPhone e Android. Il pianificatore di viaggi stima il <a data-guide=\"australia-road-trip-fuel-cost-2026\">costo del carburante</a> lungo un percorso, e alcuni luoghi si prenotano dall’app. Senza campo, mantiene disponibili le mappe e fino a tre viaggi pianificati.",
+            "Cosa ci piace: la copertura enorme, le recensioni recenti e sincere e un unico prezzo onesto. Da tenere presente: l’accuratezza dipende da quanto gli utenti tengono aggiornate le schede, e senza campo restano disponibili al massimo tre viaggi pianificati."
           ],
-          "tips": []
+          "tips": [
+            "Ideale per: massima copertura e recensioni recenti",
+            "Punto debole: precisione variabile, affidata agli utenti",
+            "Prezzo: 9,99 A$ una tantum per piattaforma"
+          ]
         },
         {
-          "heading": "Il primo test: cosa funziona senza campo",
+          "heading": "3. CAMPS Australia Wide: ideale per luoghi controllati di persona",
           "body": [
-            "L’Australia fa sparire la copertura cellulare più in fretta di quasi ogni altro posto, e proprio dove stai <a data-guide=\"choosing-campsite-australia\">scegliendo dove campeggiare</a>. Un’app che ha bisogno di connessione per mostrare i dettagli di un luogo non serve nella maggior parte del continente.",
-            "Funzionare senza connessione può voler dire cose diverse: alcuni strumenti salvano solo i riquadri della mappa, e ti ritrovi con una mappa senza informazioni. Altri includono l’intero archivio dei luoghi, così categorie, servizi, tariffe e note di accesso restano leggibili <a data-guide=\"camping-without-phone-signal\">senza campo</a>.",
-            "Provala prima di lasciare l’ultimo paese. Metti il telefono in modalità aereo e apri un luogo che non hai mai guardato. Quello che compare è quello che avrai là fuori."
+            "CAMPS è l’app di Camps Australia Wide, il cui team controlla i luoghi dal 1992. Elenca più di 16.000 campeggi che l’azienda dice di verificare di persona, senza schede a pagamento. Le recensioni della community affiancano i dati editoriali, e l’app aggiunge i prezzi dei carburanti aggiornati in diretta, un <a data-guide=\"how-to-plan-trip-aussiecamps\">pianificatore di viaggi</a> e la prenotazione dall’app.",
+            "L’accesso parte con una prova gratuita di 7 giorni e poi costa 14,99 A$ all’anno. Il piano a pagamento permette di scaricare mappe con le informazioni sui luoghi, che restano così disponibili senza campo una volta scaricate.",
+            "Cosa ci piace: un elenco curato da chi visita i luoghi, uno storico lungo e un prezzo annuale basso. Da tenere presente: dopo la prova tutta l’app richiede un abbonamento, l’elenco è più piccolo di quello di <a data-guide=\"wikicamps-alternatives\">WikiCamps</a> e non c’è una versione per computer per pianificare dal portatile."
+          ],
+          "tips": [
+            "Ideale per: chi si fida di dati curati",
+            "Punto debole: abbonamento annuale dopo 7 giorni di prova",
+            "Prezzo: 14,99 A$ all’anno dopo la prova"
+          ]
+        },
+        {
+          "heading": "4. CamperMate: ideale come app gratuita per Australia e Nuova Zelanda",
+          "body": [
+            "<a data-guide=\"campermate-alternatives\">CamperMate</a> copre le due sponde del Mar di Tasman in un’unica app gratuita, adatta a chi fa Australia e Nuova Zelanda nello stesso viaggio. Elenca più di 70.000 punti di interesse, tra cui campeggi gratuiti e a pagamento, holiday park, punti di scarico, bagni e wifi, con recensioni e foto dei viaggiatori.",
+            "Mappe e informazioni essenziali si possono scaricare per usarle senza campo. È disponibile in 27 lingue, un aiuto concreto per i visitatori la cui prima lingua non è l’inglese.",
+            "Cosa ci piace: è gratuita, mette due paesi in un’app sola ed è disponibile in tante lingue. Da tenere presente: mescola il campeggio con i punti di interesse generici, le sue schede sono scritte dalla community senza fonti ufficiali dichiarate, e le offerte di prenotazione e le promozioni stanno accanto alle opzioni gratuite."
+          ],
+          "tips": [
+            "Ideale per: uso gratuito in due paesi",
+            "Punto debole: nessuna fonte ufficiale dichiarata",
+            "Prezzo: gratis"
+          ]
+        },
+        {
+          "heading": "5. Hipcamp: ideale per prenotare soggiorni su terreni privati",
+          "body": [
+            "Hipcamp è una piattaforma di prenotazione più che un cercatore di campeggi. Agricoltori, proprietari di station (i grandi allevamenti dell’outback), vigneti e altri proprietari di terreni propongono le proprie piazzole, tende glamping e posti per roulotte, e tu prenoti e paghi dall’app. È l’app con la valutazione più alta di questa lista, 4,8 stelle su più di 22.000 valutazioni australiane.",
+            "L’app si scarica gratis e ogni soggiorno ha il prezzo deciso dal suo host. Tiene in cache i viaggi prenotati e i messaggi degli host, così li apri anche senza campo, ma senza segnale non puoi cercare nuovi soggiorni.",
+            "Cosa ci piace: posti unici che non trovi negli elenchi pubblici, foto e recensioni chiare e la prenotazione tutta in un’app. Da tenere presente: non è pensata per <a data-guide=\"is-free-camping-legal-australia\">campeggi gratuiti</a>, aree di sosta o punti di scarico, e la maggior parte dei soggiorni va prenotata in anticipo."
+          ],
+          "tips": [
+            "Ideale per: un weekend pianificato in un posto insolito",
+            "Punto debole: niente campeggi gratuiti né soste stradali",
+            "Prezzo: app gratis, paghi ogni host"
+          ]
+        },
+        {
+          "heading": "6. Full Range Camping: ideale per gli sconti per i soci",
+          "body": [
+            "Full Range Camping è il nome attuale di FreeRange Camping, un elenco di più di 11.000 luoghi e attività di campeggio con una grande base di soci. L’app è gratuita e l’abbonamento Premium è indicato a 49,99 A$ all’anno o 99,99 A$ a vita. Il 20 ottobre 2026 il suo sito diceva che gli abbonamenti Premium non erano al momento disponibili mentre il software delle mappe dell’app viene aggiornato, quindi controlla prima di contarci.",
+            "Premium aggiunge l’accesso alle schede senza connessione, sconti per i soci che l’azienda indica fino al 30% in alcuni campeggi e il radar meteo. Lo stesso abbonamento apre le inserzioni di house sitting e di scambio lavoro, che chi viaggia a lungo usa per ridurre i <a data-guide=\"accommodation-costs-australia-2026\">costi di alloggio</a>.",
+            "Cosa ci piace: un abbonamento che può ripagarsi se sfrutti gli sconti, e gli extra pensati per i viaggi lunghi. Da tenere presente: l’accesso senza connessione richiede Premium, e l’app ha molte meno valutazioni sull’App Store rispetto ai leader, 262 al momento della verifica."
+          ],
+          "tips": [
+            "Ideale per: viaggi lunghi con sconti",
+            "Punto debole: l’uso senza campo è a pagamento",
+            "Prezzo: gratis, Premium 49,99 A$ all’anno"
+          ]
+        },
+        {
+          "heading": "7. ExplorOz Traveller: ideale per piste dell’outback e 4x4",
+          "body": [
+            "ExplorOz Traveller è prima di tutto un’app di navigazione e di viaggio, costruita su EOTopo, una mappa topografica di tutta l’Australia con strade con nome, piste 4x4 e sentieri per escursioni e mountain bike. Lo sviluppatore elenca più di 100.000 luoghi, tra cui posti per campeggiare, rifornimenti di carburante e punti acqua, quindi fa anche da cercatore di campeggi quando sei su una pista isolata.",
+            "L’app costa 59,99 A$, e per usarla senza campo serve un’opzione in-app: EOTopo Annual Access a 59,99 A$ all’anno, EOTopo 2026 4-Year Access a 79,99 A$ o Pro Access a 99,99 A$ all’anno, che aggiunge anche tracciamento in diretta, condivisione ed esportazione GPX. Una volta scaricata, tutta la mappa australiana funziona senza segnale, proprio quello che serve per attraversare un deserto.",
+            "Cosa ci piace: una mappa topografica completa del Paese sul telefono e un dettaglio serio sulle piste che la maggior parte delle app non disegna. Da tenere presente: tra le app qui confrontate ha il costo iniziale e quello del primo anno più alti, e offre più di quanto serva alla maggior parte di chi viaggia su strade asfaltate."
+          ],
+          "tips": [
+            "Ideale per: piste isolate e traversate del deserto",
+            "Punto debole: costo del primo anno più alto",
+            "Prezzo: 59,99 A$ più una mappa scaricabile"
+          ]
+        },
+        {
+          "heading": "Come abbiamo scelto e confrontato",
+          "body": [
+            "Siamo partiti dalle app di campeggio e outback australiane più note e abbiamo tenuto quelle che aiutano a scegliere dove dormire o a raggiungere il posto. Ognuna è stata verificata il 20 ottobre 2026 per prezzo sull’App Store australiano, acquisti in-app, valutazione, piattaforme e ultimo aggiornamento, e confrontata con la descrizione che lo sviluppatore dà dei propri dati e del funzionamento senza connessione.",
+            "Abbiamo confrontato cinque cose: da dove arrivano i dati, cosa funziona ancora <a data-guide=\"camping-without-phone-signal\">senza campo</a>, quanto costa in un viaggio tipo, quanto bene trasforma i luoghi salvati in un piano e a chi è davvero destinata. Le valutazioni sono mostrate come pubblicate; un’app nuova come la nostra ne ha troppo poche per mostrarle, ed è bene saperlo.",
+            "AussieCamps si regge sul Pass; le schede gratuite di BookEasy aiutano a tenere gratuito il download. Nessun’altra app di questa lista ha pagato per esserci né ha avuto voce in capitolo su ciò che abbiamo scritto. Se un prezzo o una funzione è cambiato dopo la nostra verifica, scrivici dalla pagina di assistenza e correggeremo."
+          ],
+          "tips": [
+            "Verificato il 20 ottobre 2026",
+            "Le affermazioni degli sviluppatori sono citate come tali",
+            "Nessuna app ha pagato per esserci"
+          ]
+        },
+        {
+          "heading": "Quale app per quale viaggio",
+          "body": [
+            "Quasi tutti finiscono per usare due app: una per trovare i luoghi e una per ciò che la prima non fa, come prenotare un soggiorno in fattoria o navigare su una pista 4x4. La tabella abbina i viaggi più comuni a una prima scelta."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Un punto di partenza in base al tipo di viaggio. Combina le app quando una sola non copre tutto.",
+            "head": [
+              "Il tuo viaggio",
+              "Parti con",
+              "Aggiungi se serve"
+            ],
+            "rows": [
+              [
+                "Road trip con iPhone tra campeggi ufficiali",
+                "AussieCamps",
+                "Hipcamp per un weekend prenotato"
+              ],
+              [
+                "Telefono Android, qualsiasi viaggio",
+                "WikiCamps Australia",
+                "CamperMate"
+              ],
+              [
+                "Campeggio libero con recensioni recenti",
+                "WikiCamps Australia",
+                "AussieCamps per aree di sosta e acqua"
+              ],
+              [
+                "Australia e Nuova Zelanda nello stesso viaggio",
+                "CamperMate",
+                "KiwiCamping per la Nuova Zelanda"
+              ],
+              [
+                "Piste 4x4 isolate",
+                "ExplorOz Traveller",
+                "Un’app di campeggio per le soste notturne"
+              ],
+              [
+                "Viaggio lungo con budget ridotto",
+                "Full Range Camping",
+                "WikiCamps Australia"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Prova qualsiasi app di campeggio prima di farci affidamento",
+          "body": [
+            "Metti il telefono in modalità aereo e apri un luogo che non hai mai guardato. Quello che compare è ciò che avrai là fuori. Alcune app conservano solo i riquadri della mappa già caricati, altre le schede dei luoghi, e alcune non tengono nulla se prima non hai scaricato una regione.",
+            "Ogni app è solo un aiuto alla pianificazione. I <a data-guide=\"campfires-camping-australia\">divieti di fuochi</a>, le chiusure dopo la pioggia e le indicazioni dei ranger cambiano più in fretta di qualsiasi dataset, quindi leggi il cartello all’ingresso e verifica con chi gestisce il terreno prima di sistemarti. Se cartello e app non coincidono, vale il cartello."
           ],
           "tips": [
             "Prova prima in modalità aereo",
-            "Mappa salvata non vuol dire dettagli salvati",
-            "Il campo finisce dove ti serve di più"
-          ]
-        },
-        {
-          "heading": "Regole chiare e come si finanzia l’app",
-          "body": [
-            "Il secondo test è se l’app distingue ciò che per legge è diverso: un campeggio in un parco nazionale con permesso, un’<a data-guide=\"is-free-camping-legal-australia\">area gratuita</a> comunale con limite di permanenza, un’area di sosta solo per riposare e un terreno privato. Confonderli è ciò che porta alle multe.",
-            "Il terzo è come guadagna l’app. Uno strumento finanziato dalle prenotazioni ha un motivo strutturale per mettere in evidenza i campeggi commerciali prenotabili prima di quelli gratuiti: non è disonesto, ma influenza quello che vedi per primo.",
-            "Un abbonamento o una licenza una tantum eliminano questo incentivo. Un’app gratuita senza entrate visibili merita invece qualche domanda su dove finisca il valore."
-          ],
-          "tips": [
-            "Le categorie legali devono essere distinte",
-            "Le app finanziate dalle prenotazioni favoriscono i campeggi a pagamento",
-            "Capisci come si finanzia l’app"
-          ]
-        },
-        {
-          "heading": "Una pianificazione che regge ai cambi di programma",
-          "body": [
-            "Il quarto test è se l’app ti aiuta quando il piano salta, cosa che in un viaggio in Australia succederà. Contano tappe in ordine, alternative salvate, note collegate al posto giusto e la distanza del percorso sempre visibile.",
-            "I segnalibri da soli non sono pianificazione. La differenza si vede quando un campeggio è pieno, una strada è chiusa o il tempo cambia, e devi riorganizzarti senza ricostruire tutto da capo.",
-            "Contano anche i <a data-guide=\"how-to-use-aussiecamps-filters\">filtri</a>, soprattutto per lunghezza del mezzo e accesso, perché l’Australia ha più veicoli grandi, e più strade non adatte a loro, di quasi tutti gli altri paesi."
-          ],
-          "tips": [
-            "I segnalibri non sono pianificazione",
-            "Qui conta poter filtrare per lunghezza del mezzo",
-            "Giudicala da come gestisce un imprevisto"
-          ]
-        },
-        {
-          "heading": "Niente sostituisce il cartello",
-          "body": [
-            "Ogni app è un aiuto per pianificare. Cartelli sul posto, <a data-guide=\"campfires-camping-australia\">divieti di fuochi</a> in vigore, indicazioni dei ranger e regolamenti comunali valgono più di qualsiasi cosa salvata nel telefono, e cambiano più in fretta di quanto si aggiorni qualsiasi archivio.",
-            "Prima di sistemarti per la notte, leggi il cartello all’ingresso. Se non coincide con l’app, ha ragione il cartello. È un’abitudine che non costa nulla ed è ciò che tiene aperte le aree di <a data-guide=\"is-free-camping-legal-australia\">campeggio libero</a>.",
-            "Quasi tutti i viaggiatori finiscono per usare più di un’app, ed è un risultato ragionevole, non un’incapacità di scegliere. Usa ciascuna per quello in cui è davvero brava."
-          ],
-          "tips": [
-            "I cartelli battono qualsiasi app",
-            "I divieti di fuochi cambiano ogni giorno",
+            "I cartelli valgono più di ogni app",
             "Usare due app è normale"
-          ]
-        },
-        {
-          "heading": "Cosa nessuna app può fare",
-          "body": [
-            "Nessuna app può confermare che un campeggio oggi è aperto, che è appena stato dichiarato un <a data-guide=\"campfires-camping-australia\">divieto di fuochi</a> o che una strada ha chiuso dopo la pioggia della notte. Sono cose che cambiano più in fretta di quanto si aggiorni qualsiasi archivio.",
-            "Usa l’app per pianificare e per farti una selezione dei posti in lizza, poi verifica ogni cosa importante con chi gestisce il terreno, l’ente stradale dello stato o il cartello all’ingresso. È questa divisione dei compiti a rendere lo strumento davvero utile.",
-            "Qualunque app tu scelga, mettila alla prova seriamente nella prima settimana, quando hai ancora alternative a portata di mano, invece di scoprirne i limiti in un posto isolato.",
-            "Prova qualsiasi app in modalità aereo prima di fidartene: quello che compare <a data-guide=\"camping-without-phone-signal\">senza campo</a> è esattamente ciò che avrai quando conta."
-          ],
-          "tips": [
-            "Le app non confermano la situazione di oggi",
-            "Verifica di persona le cose importanti",
-            "Pianifica con l’app, conferma alla fonte"
           ]
         }
       ],
       "faq": [
         [
-          "Cosa deve fare davvero un’app di campeggio per l’Australia?",
-          "Funzionare senza campo, avere dati precisi su tariffe e servizi, filtrare in base a una domanda concreta e non a una semplice categoria, ed essere onesta sull’accesso. La copertura della mappa conta poco se i dettagli sono sbagliati o illeggibili dove non c’è campo."
+          "Qual è la migliore app per il campeggio in Australia?",
+          "Dipende dal telefono e da come viaggi. Su iPhone, AussieCamps unisce dati ufficiali su campeggi, aree di sosta e punti di scarico, leggibili anche senza campo, a un pianificatore di viaggi completo. WikiCamps Australia ha un database creato dalla community con più di 65.000 luoghi per un acquisto unico da 9,99 A$, e CAMPS elenca luoghi controllati dal suo team."
         ],
         [
-          "Basta un’app di campeggio per l’Australia?",
-          "Per trovare e pianificare di solito sì. Quasi tutti i viaggiatori tengono comunque le app di prenotazione dei parchi statali per i permessi, perché New South Wales, Queensland, Victoria, South Australia e Western Australia hanno ciascuno il proprio sistema."
+          "WikiCamps è gratis?",
+          "No. A ottobre 2026 WikiCamps Australia costa 9,99 A$ come acquisto unico su ogni piattaforma, senza abbonamento. CamperMate è un’alternativa gratuita."
+        ],
+        [
+          "Quale app per il campeggio funziona senza campo?",
+          "Ognuna conserva cose diverse. AussieCamps salva le schede dei luoghi sul telefono senza bisogno di scaricarle, mentre la mappa, le indicazioni e il meteo richiedono campo. WikiCamps mantiene le mappe e fino a tre viaggi pianificati, CAMPS e CamperMate permettono di scaricare mappe e informazioni sui luoghi, e Full Range Camping conserva le schede senza connessione con Premium."
+        ],
+        [
+          "Esiste un’app gratuita per il campeggio in Australia?",
+          "CamperMate è gratuita, e Hipcamp si scarica gratis con ogni soggiorno pagato al suo host. AussieCamps si scarica gratis e include schede gratuite di hotel, motel e holiday park, ma i suoi dati su campeggi, aree di sosta e punti di scarico richiedono il Pass."
         ]
       ],
-      "sources": [],
+      "sources": [
+        {
+          "label": "WikiCamps Australia: prezzo, copertura e uso senza connessione"
+        },
+        {
+          "label": "Camps Australia Wide: l’app CAMPS"
+        },
+        {
+          "label": "CamperMate: copertura e funzioni"
+        },
+        {
+          "label": "Hipcamp: chi siamo"
+        },
+        {
+          "label": "Full Range Camping: abbonamento e cache senza connessione"
+        },
+        {
+          "label": "Full Range Camping: stato dell’abbonamento Premium"
+        },
+        {
+          "label": "ExplorOz Traveller"
+        }
+      ],
       "priceTable": null
     },
     "australia-travel-cost-2026": {
@@ -3862,11 +4038,11 @@
       }
     },
     "australia-grocery-prices-2026": {
-      "title": "Prezzi della spesa in Australia nel 2026: quanto mettere in conto",
-      "description": "Prezzi della spesa in Australia: fasce attuali per latte, uova, pane, carne, frutta e verdura e un piano pasti settimanale sensato.",
+      "title": "Prezzi della spesa in Australia 2026: latte 2,45 $, uova 7,19 $",
+      "description": "Prezzi di ottobre 2026: latte da 1,60 a 4 $ al litro, una dozzina di uova da 4,48 a 10 $, pollo da 9 a 18 $ al chilo. La spesa base di una settimana per una persona costa circa 85 $.",
       "region": "Australia",
       "imageAlt": "Prodotti freschi e spesa in un mercato australiano",
-      "intro": "Cucinare da te è il modo più semplice per tenere sotto controllo il budget di un lungo viaggio in Australia. Le fasce nazionali qui sotto sono valori di riferimento di giugno 2026 segnalati dagli utenti: servono a farsi un’idea, ma non garantiscono il prezzo che troverai oggi sullo scaffale in ogni quartiere o paese sperduto.",
+      "intro": "I prezzi medi segnalati dagli utenti di Numbeo a ottobre 2026 indicano 2,45 $ per un litro di latte, una pagnotta da 500 g a 3,96 $, una dozzina di uova a 7,19 $ e un chilo di filetti di pollo a 13,14 $. Cucinare da te resta il modo più semplice per tenere sotto controllo il budget di un lungo viaggio, a patto di organizzare la spesa pensando a un frigo piccolo.",
       "sections": [
         {
           "heading": "Cosa mettere nel carrello per un viaggio on the road",
@@ -3891,7 +4067,7 @@
         {
           "heading": "Quanto mettere in conto a settimana",
           "body": [
-            "Chi viaggia da solo, sta attento alle spese e cucina quasi sempre può partire da una fascia indicativa di 80-140 A$ di spesa a settimana, da adattare a dieta, appetito e zona. Carne di qualità, cibi pronti e acquisti nelle zone remote la fanno salire in fretta.",
+            "Con le medie nazionali segnalate dagli utenti di Numbeo a ottobre 2026, una settimana di prodotti di base per una persona costa circa 85 $: 2 litri di latte, due pagnotte, una dozzina di uova, un chilo di pollo, 500 g di manzo, un chilo ciascuno di mele, banane, pomodori, cipolle e riso, 2 kg di patate, 500 g di formaggio e una lattuga. Dispensa, snack e acquisti nelle zone remote vanno aggiunti a parte.",
             "Tieni da parte una quota per caffè, <a data-guide=\"eating-out-australia-prices-2026\">cibo da asporto</a> e pasti in compagnia. Se chiami «spesa» ogni acquisto di cibo, non vedi più le scelte che è più facile cambiare."
           ],
           "tips": []
@@ -3899,13 +4075,13 @@
         {
           "heading": "Le catene di supermercati",
           "body": [
-            "Coles e Woolworths coprono tutto il Paese e Aldi quasi tutte le zone urbane e regionali, con prezzi nettamente più bassi sui prodotti di base. IGA riempie i vuoti nei paesi più piccoli ed è in genere la più cara delle quattro catene.",
+            "Coles e Woolworths sono presenti in tutto il Paese, e Aldi di solito costa meno sui prodotti di base dove ha i negozi (il carrello di CHOICE di giugno 2026 è costato 68,60 $ da Aldi contro 77,53 $ da Woolworths e 78,58 $ da Coles), ma non ha negozi in <a data-guide=\"camping-rules-tasmania\">Tasmania</a> né nel Northern Territory. IGA e altri negozi indipendenti riempiono i vuoti nei paesi più piccoli, spesso a prezzi più alti.",
             "Nelle zone remote spesso l’unica scelta è un roadhouse o il negozio della comunità locale (community store), dove trasporto e bassa rotazione della merce portano i prezzi molto sopra quelli di città. Non è speculazione: sono semplicemente i conti.",
             "Fai la spesa grossa nell’ultimo centro importante prima di una tratta remota e, nei paesi piccoli, compra sul posto quello che vale la pena comprare lì. Contano tutte e due le cose: una per il tuo budget, l’altra per il paese."
           ],
           "tips": [
-            "Aldi è la più economica, dove c’è",
-            "IGA arriva nei paesi piccoli, ma costa di più",
+            "Aldi costa meno dove ha i negozi",
+            "Niente Aldi in Tasmania e nel Northern Territory",
             "Spesa grossa prima delle tratte remote"
           ]
         },
@@ -3925,53 +4101,56 @@
         {
           "heading": "Frutta e verdura di stagione e regole tra gli stati",
           "body": [
-            "Il risparmio vero più grande è comprare sul posto quello che è di stagione. Manghi al nord d’estate, frutta a nocciolo negli stati del sud, bancarelle lungo la strada nelle zone agricole: battono di parecchio i prezzi del supermercato.",
-            "Le bancarelle lungo la strada funzionano spesso con una cassetta per il pagamento (honesty box): si paga sulla fiducia e solo in contanti. Tieni banconote di piccolo taglio, perché spuntano all’improvviso e spesso hanno la frutta e la verdura migliori che troverai.",
-            "Organizza il frigo in base ai confini di quarantena. Se finisci i prodotti freschi prima di entrare nel South Australia, nel Western Australia o in <a data-guide=\"camping-rules-tasmania\">Tasmania</a>, eviti di comprare il cibo due volte."
+            "Comprare sul posto quello che è di stagione è uno dei risparmi più grandi. Manghi al nord d’estate, frutta a nocciolo negli stati del sud, bancarelle lungo la strada nelle zone agricole: battono di parecchio i prezzi del supermercato.",
+            "Molte bancarelle lungo la strada funzionano con una cassetta per il pagamento (honesty box) e accettano solo contanti, anche se alcune ormai prendono le carte. Tieni banconote di piccolo taglio, perché spuntano all’improvviso e spesso hanno la frutta e la verdura migliori che troverai.",
+            "Organizza il frigo in base ai confini di quarantena e alle zone della mosca della frutta. Se finisci i prodotti freschi prima di entrare nel South Australia, nel Western Australia, in <a data-guide=\"camping-rules-tasmania\">Tasmania</a> o nel Northern Territory, o nelle zone della mosca della frutta come Riverland e Sunraysia, eviti di comprare il cibo due volte. Controlla le regole in vigore su interstatequarantine.org.au."
           ],
           "tips": [
-            "Bancarelle lungo la strada: solo contanti",
+            "Porta contanti per le bancarelle",
             "Compra sul posto i prodotti di stagione",
             "Finisci il fresco prima dei confini"
           ]
         },
         {
-          "heading": "Quanto costa la spesa di una settimana",
+          "heading": "Risparmiare alla cassa",
           "body": [
-            "Chi viaggia da solo, sta attento alle spese e cucina quasi sempre può mettere in conto tra 100 e 170 dollari a settimana di spesa, mentre in coppia la cifra a testa scende grazie ai prodotti di base in comune. Esigenze alimentari particolari, carne di qualità e acquisti nelle zone remote la fanno salire in fretta.",
-            "Tieni caffè, <a data-guide=\"eating-out-australia-prices-2026\">cibo da asporto</a> e pasti in compagnia su una voce di budget separata. Se chiami «spesa» ogni acquisto di cibo, non vedi le uscite più facili da ritoccare quando il totale va corretto, e il problema non è quasi mai la spesa al supermercato.",
-            "Se puoi, fai la spesa a fine giornata: in quasi tutti i supermercati i reparti panetteria e gastronomia scontano i prodotti freschi che non arrivano al giorno dopo."
+            "I grandi supermercati devono indicare un prezzo unitario, come il prezzo al chilo o ogni 100 g, accanto al prezzo sullo scaffale. Confronta quella riga e non il prezzo della confezione, perché le confezioni più grandi non sempre costano meno al chilo.",
+            "Molti supermercati scontano a fine giornata i prodotti freschi di panetteria e gastronomia, quindi l’ultima spesa prima della chiusura può essere la più economica.",
+            "Le coppie e i gruppi risparmiano di più a testa, perché un barattolo, un sacchetto o un panetto bastano per due con poco più della spesa per uno. Dividi i prodotti di base, non solo il conto."
           ],
           "tips": [
-            "Circa 100-170 $ a settimana da soli",
-            "In coppia si risparmia sui prodotti di base",
-            "Tieni a parte il cibo da asporto"
+            "Confronta il prezzo unitario",
+            "Fai la spesa tardi per gli sconti",
+            "Dividi i prodotti di base per risparmiare"
           ]
         }
       ],
       "faq": [
         [
           "Quanto costa fare la spesa in Australia?",
-          "La guida dà il prezzo di un carrello reale, non di una media, con la data di rilevazione per ogni prodotto. Le voci che sorprendono di più chi arriva sono la carne e i prodotti confezionati, e nelle zone remote e nei roadhouse i prezzi sono molto più alti che in città."
+          "Con le medie nazionali segnalate dagli utenti di Numbeo a ottobre 2026, il latte costa 2,45 $ al litro, il pane 3,96 $ a pagnotta, le uova 7,19 $ la dozzina e i filetti di pollo 13,14 $ al chilo. Una settimana di prodotti di base per una persona costa circa 85 $ senza la dispensa, e i negozi nelle zone remote fanno pagare di più."
         ],
         [
           "Dove si spende meno per il cibo in Australia?",
-          "Nelle grandi catene di supermercati, in qualsiasi centro di una certa dimensione, e da Aldi dove c’è. La differenza di prezzo rispetto a un roadhouse isolato o al negozio di un paesino è tale che fare scorta prima di una tratta lunga fa risparmiare parecchio."
+          "Nelle grandi catene di supermercati, in qualsiasi centro di una certa dimensione, e da Aldi dove c’è. La differenza di prezzo rispetto a un roadhouse isolato o al negozio di un paesino può essere grande, quindi fare scorta prima di una tratta lunga di solito conviene."
         ]
       ],
       "sources": [
         {
-          "label": "Numbeo: fasce di prezzo in Australia, aggiornate a giugno 2026"
+          "label": "Numbeo: fasce di prezzo in Australia, aggiornate a ottobre 2026"
         },
         {
           "label": "Indicazioni sulla quarantena tra gli stati australiani"
         },
         {
-          "label": "Reserve Bank of Australia: tassi di cambio"
+          "label": "CHOICE: confronto dei prezzi dei supermercati di giugno 2026"
+        },
+        {
+          "label": "ACCC: codice sui prezzi unitari"
         }
       ],
       "priceTable": {
-        "note": "Fasce nazionali segnalate dagli utenti, aggiornate a giugno 2026. Marca, offerte, stagione, città e costi di trasporto verso le zone remote possono cambiare il prezzo sullo scaffale.",
+        "note": "Fasce nazionali segnalate dagli utenti di Numbeo, aggiornate a ottobre 2026. Marca, offerte, stagione, città e costi di trasporto verso le zone remote possono cambiare il prezzo sullo scaffale.",
         "rows": [
           {
             "label": "Latte",
@@ -4005,11 +4184,11 @@
       }
     },
     "alcohol-coffee-drink-prices-australia": {
-      "title": "Prezzi di birra, vino, caffè e altre bevande in Australia",
-      "description": "Quanto costa bere in Australia: prezzi a confronto tra pub, caffetterie e bottle shop, perché le bevande non si mangino in silenzio il budget del viaggio.",
+      "title": "Prezzi di birra e caffè in Australia 2026: al pub da 7 a 16 $",
+      "description": "Una birra al pub costa da 7 a 16 $ e un cappuccino da 4,50 a 8 $ a Sydney (ottobre 2026). Prezzi di birra e vino al bottle shop e come spendere meno per bere.",
       "region": "Australia",
       "imageAlt": "Bevande sul tavolino di una caffetteria australiana",
-      "intro": "Le bevande si sottovalutano facilmente, perché arrivano una alla volta. Le fasce di prezzo attuali segnalate dagli utenti mostrano quanto cambia tra un acquisto al bottle shop (il negozio di alcolici), una sosta in caffetteria e un giro di bevute in un pub di città.",
+      "intro": "Una birra alla spina da 500 ml in un pub di Sydney costa circa da 7 a 16 $ e un cappuccino da 4,50 a 8 $, secondo i prezzi segnalati dagli utenti e aggiornati a ottobre 2026, mentre una bottiglia di birra da 500 ml al bottle shop (il negozio di alcolici) costa circa da 3,50 a 12 $ in tutto il Paese. Un giro dopo l’altro, il conto delle bevande sale.",
       "sections": [
         {
           "heading": "Negozio e locale vendono due prodotti diversi",
@@ -4020,22 +4199,22 @@
           "tips": []
         },
         {
-          "heading": "Alcol e giorni di guida",
+          "heading": "Il vino al bottle shop e al bar",
           "body": [
-            "In un road trip la scelta più sicura è tenere del tutto separati alcol e guida. I limiti legali di tasso alcolemico cambiano in base alla patente e alla categoria del veicolo, e per alcuni conducenti il limite è zero.",
-            "Decidi chi guida e non beve, fermati a dormire o prendi i mezzi. E non usare mai una tabella di conversione per calcolare quanto puoi bere."
+            "Una bottiglia di vino di fascia media da 750 ml costa circa da 12 a 30 $ al bottle shop e basta per circa cinque bicchieri da 150 ml. Ordinato al bicchiere in un bar o in un ristorante, lo stesso vino di solito costa molto di più a porzione: il vino costa meno quando dividi una bottiglia al campeggio.",
+            "Alcuni ristoranti, soprattutto quelli senza licenza per gli alcolici, ti lasciano portare la tua bottiglia (BYO, bring your own) pagando un diritto di tappo: così a cena bevi vino a prezzo da bottle shop. Chiedilo quando prenoti, non al tavolo."
           ],
           "tips": [
-            "Se guidi, non bere",
-            "Controlla le restrizioni locali",
-            "Porta sempre acqua"
+            "Bottiglia di fascia media: da 12 a 30 $",
+            "Circa cinque bicchieri a bottiglia",
+            "Chiedi del BYO quando prenoti"
           ]
         },
         {
           "heading": "Tieni d’occhio la spesa quotidiana che non si nota",
           "body": [
             "Due caffè e due drink al locale ogni giorno, in una settimana, diventano una bella cifra. Scegli le soste che contano davvero invece di comprare per abitudine.",
-            "Tieni l’<a data-guide=\"camping-water-planning\">acqua potabile</a> a portata di mano e riempi le borracce solo dove è permesso. Con il caldo, bere acqua e stare all’ombra fanno parte del piano di sicurezza, non del budget per lo svago."
+            "Tieni l’<a data-guide=\"camping-water-planning\">acqua da bere</a> a portata di mano e riempi le borracce solo ai rubinetti di acqua potabile. Con il caldo, bere e stare all’ombra fanno parte del piano di sicurezza, non del budget per lo svago."
           ],
           "tips": []
         },
@@ -4043,7 +4222,7 @@
           "heading": "Il caffè è una voce di tutti i giorni",
           "body": [
             "In Australia la cultura del caffè è forte e anche nelle cittadine di provincia il livello è davvero alto: proprio per questo diventa una voce di spesa. Due flat white al giorno per due persone si sommano senza che ti sembri mai di aver deciso qualcosa.",
-            "Con una moka o un’AeroPress nel van il caffè del mattino ti costa pochissimo rispetto alla caffetteria, e fermarti a prenderlo fuori diventa una scelta, non un automatismo. La maggior parte di chi lo fa finisce per bere un caffè migliore.",
+            "Con una moka o un’AeroPress nel van il caffè del mattino ti costa una frazione del prezzo della caffetteria, e fermarti a prenderlo fuori diventa una scelta, non un automatismo.",
             "Sui lunghi trasferimenti il caffè dei roadhouse (stazioni di servizio isolate con bar e spesso camere) è, a essere generosi, altalenante. Sulle strade dell’outback fartelo da te di solito costa meno ed è molto più buono."
           ],
           "tips": [
@@ -4055,12 +4234,12 @@
         {
           "heading": "Comprare alcolici in Australia",
           "body": [
-            "Nella maggior parte degli stati gli alcolici non si comprano al supermercato ma nei bottle shop con licenza, spesso attaccati a un supermercato ma gestiti a parte. Gli orari di vendita sono regolati per legge e cambiano da stato a stato.",
-            "In molte comunità e regioni l’alcol è soggetto a restrizioni, soprattutto nel Northern Territory e in parte del <a data-guide=\"camping-rules-queensland\">Queensland</a> e del Western Australia. Portare alcolici in un’area con restrizioni comporta sanzioni pesanti.",
+            "Gli alcolici confezionati si vendono soprattutto nei bottle shop con licenza, spesso accanto a un supermercato ma gestiti a parte, anche se Aldi e alcuni alimentari indipendenti li vendono all’interno del negozio. Gli orari di vendita sono regolati per legge e cambiano da stato a stato.",
+            "In molte comunità e regioni l’alcol è soggetto a restrizioni, soprattutto nel Northern Territory, in parte del <a data-guide=\"camping-rules-queensland\">Queensland</a>, nel Western Australia e nel South Australia. Portare alcolici in un’area con restrizioni comporta sanzioni pesanti.",
             "Informati prima di entrare con alcolici in una zona remota. Le restrizioni sono imposte per legge, valgono per i turisti come per i residenti, e la legge non ammette ignoranza."
           ],
           "tips": [
-            "Al bottle shop, non al supermercato",
+            "Soprattutto bottle shop, qualche supermercato",
             "Sanzioni pesanti nelle zone con restrizioni",
             "Informati prima di entrare nelle zone remote"
           ]
@@ -4068,12 +4247,12 @@
         {
           "heading": "Bere e guidare nella stessa giornata",
           "body": [
-            "Il limite generale è 0,05 (cioè 0,5 g/l) per chi ha la patente definitiva, e zero per chi guida con il foglio rosa, per i neopatentati con patente provvisoria e per molti autisti professionisti. I controlli a campione con l’etilometro sono frequenti, anche sulle strade di campagna e di giorno.",
+            "Il limite generale è 0,05 per chi ha la patente definitiva, zero per chi guida con il foglio rosa e per i neopatentati con patente provvisoria, e zero o 0,02 per molti autisti professionisti a seconda dello stato (0,02 nel New South Wales). I controlli a campione con l’etilometro sono frequenti, anche sulle strade di campagna e di giorno.",
             "In un viaggio on the road l’unico modo sicuro è separare del tutto bere e guidare: dormi dove bevi, fai guidare chi resta sobrio, oppure bevi solo quando il veicolo è parcheggiato per la notte.",
-            "La trappola è guidare la mattina dopo. L’organismo smaltisce più o meno un drink standard all’ora, non di più, quindi dopo una serata pesante puoi essere ancora oltre il limite a mattina inoltrata."
+            "La trappola è guidare la mattina dopo. L’organismo impiega almeno un’ora per smaltire ogni drink standard, spesso di più, e né il caffè né una doccia accelerano il processo, quindi dopo una serata pesante puoi essere ancora oltre il limite a mattina inoltrata."
           ],
           "tips": [
-            "0,05 in generale, zero per molti conducenti",
+            "0,05 in generale, zero per neopatentati e foglio rosa",
             "Controlli frequenti, anche di giorno",
             "La trappola è la mattina dopo"
           ]
@@ -4083,7 +4262,7 @@
           "body": [
             "In quasi tutte le città e i paesi australiani l’acqua del rubinetto è sicura e buona, e comprare acqua in bottiglia è praticamente uno spreco. Porta delle borracce e riempile a qualsiasi rubinetto di acqua potabile, in paese, in campeggio o nei servizi pubblici.",
             "Nelle zone remote e nel bush vale il contrario: l’acqua di pozzo (bore water) può essere molto mineralizzata o non adatta, quella delle cisterne non è trattata e quella di superficie nelle zone agricole può contenere sostanze chimiche. Potabilizza tutta l’acqua che non viene da un acquedotto cittadino segnalato come tale.",
-            "Porta una buona borraccia termica: con il clima australiano l’acqua fresca è la bevanda che vorrai più di tutte, e riempirla non costa niente."
+            "Porta una buona borraccia termica, così hai sempre acqua fresca a portata di mano con il caldo: riempirla non costa niente."
           ],
           "tips": [
             "In città l’acqua del rubinetto è sicura",
@@ -4095,11 +4274,11 @@
       "faq": [
         [
           "Quanto costa una birra in Australia?",
-          "La guida riporta il prezzo di uno schooner al pub (il classico bicchiere di birra alla spina), di una birra artigianale, di un cartone di birre al bottle shop e del vino al bicchiere e in bottiglia, ognuno con la data di rilevazione. In un viaggio lungo, comprare al bottle shop invece che al bar è in assoluto il risparmio più grosso."
+          "Una birra alla spina da 500 ml in un pub di Sydney costa circa da 7,15 a 16 $ secondo i prezzi segnalati dagli utenti a ottobre 2026, e una bottiglia da 500 ml al bottle shop circa da 3,50 a 12 $ in tutto il Paese. In un viaggio lungo, comprare al bottle shop invece che al bar è uno dei risparmi più grossi."
         ],
         [
           "Quanto costa un caffè in Australia?",
-          "Il prezzo di un flat white varia poco da una parte all’altra del Paese, e le caffetterie del centro delle grandi città stanno nella fascia alta. Il caffè australiano è davvero buono, ed è per questo che in un viaggio lungo questa voce cresce senza che te ne accorga."
+          "Un cappuccino normale costa circa da 4,50 a 8 $ a Sydney e da 4 a 8 $ in tutto il Paese secondo i prezzi segnalati dagli utenti a ottobre 2026, con le caffetterie del centro nella fascia alta. Due caffè al giorno in due diventano una vera voce di budget in un viaggio lungo."
         ]
       ],
       "sources": [
@@ -4111,29 +4290,35 @@
         },
         {
           "label": "NSW: indicazioni su alcol e guida"
+        },
+        {
+          "label": "NHMRC: quanto ci mette l’organismo a smaltire l’alcol"
+        },
+        {
+          "label": "Northern Territory: acquistare e consumare alcolici"
         }
       ],
       "priceTable": {
-        "note": "Fasce di prezzo segnalate dagli utenti per l’Australia e per Sydney, aggiornate a giugno 2026. Variano in base alla dimensione della porzione, al locale, alle promozioni e alla zona.",
+        "note": "Fasce di prezzo segnalate dagli utenti per l’Australia e per Sydney, aggiornate a ottobre 2026. Variano in base alla dimensione della porzione, al locale, alle promozioni e alla zona.",
         "rows": [
           {
-            "label": "Cappuccino",
+            "label": "Cappuccino (Sydney)",
             "unit": "una tazza"
           },
           {
-            "label": "Birra alla spina al pub",
+            "label": "Birra alla spina al pub (Sydney)",
             "unit": "un bicchiere"
           },
           {
-            "label": "Vino di fascia media",
+            "label": "Vino di fascia media (media nazionale)",
             "unit": "750 ml, in negozio"
           },
           {
-            "label": "Birra australiana",
+            "label": "Birra australiana equivalente (media nazionale)",
             "unit": "500 ml, in negozio"
           },
           {
-            "label": "Bibita",
+            "label": "Bibita (Sydney)",
             "unit": "330 ml, al locale"
           }
         ]
@@ -4682,16 +4867,16 @@
       }
     },
     "domestic-flight-costs-australia-2026": {
-      "title": "Voli interni in Australia: i prezzi minimi delle promo 2026",
-      "description": "Quanto costano i voli interni australiani: prezzi rilevati su tratte brevi, verso nord e attraverso il continente, e gli extra che separano il prezzo in vetrina dal totale.",
+      "title": "Prezzi dei voli interni in Australia 2026: promo da 49 $",
+      "description": "Promo 2026 di sola andata: da 49 $ Sydney-Ballina, da 105 $ Melbourne-Sydney e da 245 $ Sydney-Perth. Quanto aggiungono bagagli, posti e trasferimenti.",
       "region": "Australia",
       "imageAlt": "Aereo in volo sopra il paesaggio australiano",
-      "intro": "Con le dimensioni dell’Australia l’aereo è allettante, ma il posto più economico pubblicizzato è l’esempio di una promozione legata a date precise, non una tariffa sempre disponibile. I prezzi minimi rilevati nel 2026 mostrano com’è fatto il mercato, prima di aggiungere bagagli, scelta del posto e date di punta.",
+      "intro": "Nel 2026 le tariffe promozionali dei voli interni australiani sono partite da 49 $ di sola andata da Sydney a Ballina, 105 $ da Melbourne a Sydney, 115 $ da Sydney a Cairns e 245 $ da Sydney a Perth nella promo di luglio di Virgin Australia, e Jetstar ha venduto i voli da Melbourne a Uluṟu da 115 $. Erano posti promozionali limitati, quindi prendili come prezzi minimi e calcola il tuo viaggio aggiungendo bagagli e posti.",
       "sections": [
         {
           "heading": "Il prezzo più basso in promo e il totale del viaggio",
           "body": [
-            "Aggiungi bagaglio da stiva, scelta del posto, commissioni di pagamento, trasferimenti da e per l’aeroporto e quanto ti costa raggiungere il mezzo o sostituirlo. Per un viaggio con tanta attrezzatura, un volo economico può rivelarsi la scelta più cara.",
+            "Aggiungi bagaglio da stiva, scelta del posto, eventuali costi di prenotazione o di servizio, trasferimenti da e per l’aeroporto e quanto ti costa raggiungere il mezzo o sostituirlo. Dal 1º ottobre 2026 sono vietati i supplementi sui pagamenti con carte Visa, Mastercard ed eftpos, quindi al momento di pagare non dovrebbe comparire alcun supplemento su quelle carte. Per un viaggio con tanta attrezzatura, un volo economico può comunque rivelarsi la scelta più cara.",
             "Confronta a parità di date e di bagagli, non due prezzi in vetrina."
           ],
           "tips": []
@@ -4711,7 +4896,7 @@
         {
           "heading": "Gli esempi di promo, presi per quello che sono",
           "body": [
-            "La tabella riporta promozioni pubblicate da Virgin Australia e Jetstar. Entrambe avevano posti limitati e condizioni di viaggio precise, quindi non aspettarti di trovare oggi la stessa tariffa.",
+            "La tabella riporta la promo di luglio 2026 di Virgin Australia e la promo di febbraio 2026 di Jetstar per Darwin e Uluṟu. Entrambe le promo sono chiuse ed entrambe avevano posti limitati e condizioni di viaggio precise, quindi non aspettarti di trovare oggi la stessa tariffa.",
             "Cerca le tue date esatte direttamente sui siti delle compagnie e confronta l’importo finale al momento del pagamento prima di cambiare itinerario."
           ],
           "tips": []
@@ -4719,9 +4904,9 @@
         {
           "heading": "Quando conviene volare invece di guidare",
           "body": [
-            "Con le dimensioni dell’Australia, l’aereo è davvero utile sulle tratte lunghe: da Perth alla costa est, da qualsiasi punto verso Darwin, o per la <a data-guide=\"camping-rules-tasmania\">Tasmania</a>. Lì si risparmiano giorni, non ore.",
-            "Raramente ha senso per spostamenti più brevi che si coprono bene con una bella giornata di guida, e non ne ha mai se significa pagare un mezzo fermo dall’altra parte. Calcola il costo dell’intera soluzione, non solo del biglietto.",
-            "Il supplemento per riconsegnare il mezzo in un’altra città può superare il prezzo del volo: controllalo prima di dare per scontato che un piano con volo di sola andata costi meno. A volte le offerte di relocation (riportare un mezzo a noleggio dove serve alla compagnia) rendono il tutto molto più economico, se date e direzione coincidono."
+            "Con le dimensioni dell’Australia, l’aereo è davvero utile sulle tratte lunghe: da Perth alla costa est, dalla costa est a Darwin, o per la <a data-guide=\"camping-rules-tasmania\">Tasmania</a>. Lì si risparmiano giorni, non ore.",
+            "Raramente ha senso per spostamenti più brevi che si coprono bene con una bella giornata di guida, o se significa pagare un mezzo fermo dall’altra parte. Calcola il costo dell’intera soluzione, non solo del biglietto.",
+            "I supplementi per riconsegnare il mezzo a noleggio in un’altra città possono essere così alti da annullare un volo economico: controllali prima di dare per scontato che un piano con volo di sola andata costi meno. Le offerte di relocation (riportare un mezzo a noleggio dove serve alla compagnia) possono ridurre molto il costo, se date e direzione coincidono."
           ],
           "tips": [
             "Sulle tratte lunghissime prendi l’aereo",
@@ -4732,20 +4917,20 @@
         {
           "heading": "Con i bagagli la tariffa economica sparisce",
           "body": [
-            "Le tariffe più basse pubblicizzate comprendono solo il posto: aggiungendo bagaglio da stiva, scelta del posto e un minimo di flessibilità, il prezzo può raddoppiare. Se viaggi con zaino, tenda e attrezzatura da cucina, il bagaglio da stiva non è facoltativo.",
-            "Sulle rotte verso i centri minori gli aerei regionali hanno limiti di peso più stretti dei voli sulle linee principali, e li fanno rispettare. Controlla la tratta specifica invece di dare per scontato che la compagnia applichi le stesse regole ovunque.",
+            "Le tariffe più basse pubblicizzate comprendono solo il posto: aggiungendo bagaglio da stiva, scelta del posto e un minimo di flessibilità, il prezzo può salire parecchio. Se viaggi con zaino, tenda e attrezzatura da cucina, il bagaglio da stiva non è facoltativo.",
+            "Alcuni aerei regionali sulle rotte verso i centri minori hanno limiti di bagaglio più stretti dei voli sulle linee principali. Controlla la tratta specifica invece di dare per scontato che la compagnia applichi le stesse regole ovunque.",
             "Le bombolette di gas da campeggio e alcuni combustibili non si possono proprio portare in aereo, quindi prevedi di comprarli a destinazione."
           ],
           "tips": [
             "Le tariffe economiche non includono il bagaglio",
-            "Gli aerei regionali hanno limiti di peso più stretti",
+            "Alcuni aerei regionali hanno limiti più stretti",
             "Le bombolette di gas non salgono in aereo"
           ]
         },
         {
           "heading": "Quando prenotare e il rischio di cancellazioni",
           "body": [
-            "I voli interni costano meno se prenoti diverse settimane prima, e i prezzi salgono di colpo nelle ultime due settimane. Durante le vacanze scolastiche e intorno a Natale le tariffe sono più alte e gli aerei pieni.",
+            "I voli interni di solito costano meno se prenoti diverse settimane prima e tendono a salire man mano che la partenza si avvicina. Durante le vacanze scolastiche e intorno a Natale le tariffe sono più alte e gli aerei pieni.",
             "Il maltempo della <a data-guide=\"best-time-camping-australia\">stagione delle piogge</a> al nord e la nebbia al sud causano cancellazioni, e sulle rotte regionali con un solo volo al giorno, se salta, quel giorno non hai alternative.",
             "Non incastrare mai un volo interno a ridosso di una partenza internazionale. Una notte nella città da cui parti costa molto meno di un volo intercontinentale perso."
           ],
@@ -4758,7 +4943,7 @@
         {
           "heading": "Gli aeroporti e come arrivarci",
           "body": [
-            "Diverse compagnie low cost usano terminal secondari o aeroporti più lontani dalla città, e il costo e il tempo del trasferimento possono annullare il risparmio sul biglietto. Prima di confrontare i prezzi controlla da quale aeroporto e da quale terminal parte il volo.",
+            "Sulle rotte principali Jetstar e Virgin Australia usano i principali aeroporti cittadini. Alcune rotte usano aeroporti secondari come Avalon, quindi prima di confrontare i prezzi controlla da quale aeroporto e da quale terminal parte il tuo volo, perché il costo e il tempo del trasferimento possono annullare il risparmio sul biglietto.",
             "Gli aeroporti regionali spesso sono piccoli, con pochi banchi di autonoleggio che chiudono fuori dagli orari dei voli. Se ritiri il mezzo in un aeroporto regionale e arrivi di sera, fatti confermare che al banco ci sarà qualcuno.",
             "Prima di prenotare confronta la franchigia bagaglio con l’attrezzatura che porti davvero: quella da campeggio supera quasi sempre quanto è incluso in una tariffa scontata."
           ],
@@ -4772,11 +4957,11 @@
       "faq": [
         [
           "Quanto costano i voli interni in Australia?",
-          "La guida riporta i prezzi minimi delle promozioni e le tariffe tipiche sulle rotte principali, non i prezzi pubblicizzati. Sulle tratte lunghe, come dalla costa est a Perth o a Darwin, volare spesso costa meno che guidare, una volta messi in conto carburante e tempo."
+          "Le tariffe promozionali del 2026 sono partite da 49 $ di sola andata da Sydney a Ballina, 105 $ da Melbourne a Sydney e 245 $ da Sydney a Perth, ma erano posti limitati e senza bagaglio da stiva. Fuori da una promo, e con i bagagli aggiunti, metti in conto di pagare di più."
         ],
         [
           "In Australia conviene volare o guidare?",
-          "Per attraversare il continente di solito vince l’aereo, sia per il costo sia per il tempo. Per tragitti sotto una giornata di guida vince il mezzo, soprattutto se nel confronto entra il supplemento per riconsegnare il noleggio in un’altra città."
+          "Per attraversare il continente di solito vince l’aereo per il tempo, e spesso anche per il costo se si viaggia da soli o in due. Per tragitti sotto una giornata di guida di solito vince il mezzo, soprattutto se nel confronto entra il supplemento per riconsegnare il noleggio in un’altra città."
         ]
       ],
       "sources": [
@@ -4787,34 +4972,34 @@
           "label": "Jetstar: esempi di promozioni per il Northern Territory"
         },
         {
-          "label": "Reserve Bank of Australia: tassi di cambio"
+          "label": "Reserve Bank of Australia: domande frequenti sul divieto di supplementi sulle carte"
         }
       ],
       "priceTable": {
         "note": "Esempi di tariffe promozionali di sola andata del 2026, già scaduti. Mostrano i prezzi minimi rilevati, non tariffe prenotabili oggi.",
         "rows": [
           {
-            "label": "Sydney–Ballina",
+            "label": "Sydney–Ballina (Virgin)",
             "unit": "esempio di promo, sola andata"
           },
           {
-            "label": "Melbourne–Sydney",
+            "label": "Melbourne–Sydney (Virgin)",
             "unit": "esempio di promo, sola andata"
           },
           {
-            "label": "Sydney–Cairns",
+            "label": "Sydney–Cairns (Virgin)",
             "unit": "esempio di promo, sola andata"
           },
           {
-            "label": "Melbourne–Uluṟu",
+            "label": "Melbourne–Uluṟu (Jetstar)",
             "unit": "esempio di promo, sola andata"
           },
           {
-            "label": "Sydney–Darwin",
+            "label": "Sydney–Darwin (Jetstar)",
             "unit": "esempio di promo, sola andata"
           },
           {
-            "label": "Sydney–Perth",
+            "label": "Sydney–Perth (Virgin)",
             "unit": "esempio di promo, sola andata"
           }
         ]
@@ -7118,11 +7303,11 @@
       "priceTable": null
     },
     "eating-out-australia-prices-2026": {
-      "title": "Mangiare fuori in Australia nel 2026: prezzi di pasti, asporto e caffè",
-      "description": "Quanto costano davvero un pasto semplice, il fast food, un caffè e una cena di fascia media in Australia, con tre budget giornalieri per mangiare.",
+      "title": "Mangiare fuori in Australia 2026: pasti economici da 20 a 45 $",
+      "description": "Un pasto economico a Sydney costa da 20 a 45 $, un menu fast food da 15 a 18 $ e una cena per due da 80 a 200 $ (ottobre 2026). Mance e supplementi.",
       "region": "Prezzi di Sydney",
       "imageAlt": "Pasto all’aperto in una caffetteria di una città australiana",
-      "intro": "In città un pasto può essere un pranzo veloce al banco o la voce più pesante del budget della giornata. Sydney è un buon riferimento per la fascia di prezzo alta, mentre la guida di Tourism Australia offre un punto di partenza più generale per mettere in conto i ristoranti.",
+      "intro": "Un pasto in un ristorante economico di Sydney costa circa da 20 a 45 $ a persona, un menu fast food da 15 a 18 $ e una cena di tre portate per due in un ristorante di fascia media da 80 a 200 $, secondo i prezzi segnalati dagli utenti e aggiornati a ottobre 2026. Sono cifre di Sydney; quelle nazionali sono simili (un pasto economico costa da 17 a 45 $), ma i prezzi nelle zone regionali e remote possono variare.",
       "sections": [
         {
           "heading": "Tre modi di mangiare che funzionano",
@@ -7135,7 +7320,7 @@
         {
           "heading": "Fai bene i conti con il menu",
           "body": [
-            "Controlla se ci sono supplementi per il weekend o i giorni festivi e se al momento di pagare compare una commissione sulla carta. Piatti da dividere, contorni e bevande possono far lievitare un piatto principale dall’aria normale ben oltre il prezzo scritto sul menu.",
+            "Prima di ordinare controlla se c’è un supplemento per il weekend o i giorni festivi. Dal 1º ottobre 2026 gli esercenti non possono più applicare supplementi sui pagamenti con eftpos, Mastercard, Visa, American Express o UnionPay, e dal 5 ottobre 2026 sono stati aboliti anche quelli su PayPal, ma i supplementi per weekend e giorni festivi e i costi di prenotazione e di servizio restano. Piatti da dividere, contorni e bevande fanno comunque lievitare un normale piatto principale ben oltre il prezzo scritto sul menu.",
             "Le caffetterie isolate e i paesi piccoli hanno costi di rifornimento e orari diversi. I prezzi di città prendili come un’indicazione, non come una garanzia."
           ],
           "tips": [
@@ -7147,7 +7332,7 @@
         {
           "heading": "Quando mangiare fuori vale la spesa",
           "body": [
-            "Spendi di proposito per i pasti legati al posto, e nei giorni di trasferimento arrangiati con una spesa semplice. Così trovi spazio per pesce e frutti di mare locali, panetterie o prodotti del territorio senza che ogni giornata diventi cara.",
+            "Stabilisci una cifra giornaliera per il cibo e decidi in anticipo quanti pasti fuori ci stanno dentro. Un numero fisso di pasti fuori a settimana è più facile da rispettare che decidere pasto per pasto alla fine di una lunga giornata di guida.",
             "Per qualche giorno annota quanto spendi davvero. Spesso ci si ricorda il prezzo del piatto principale e ci si dimentica di caffè, spuntini e costi di consegna."
           ],
           "tips": []
@@ -7155,20 +7340,20 @@
         {
           "heading": "Dove si spende bene davvero",
           "body": [
-            "La panetteria, il fish and chips e il counter meal del pub (il pasto che ordini al bancone) sono le tre scelte economiche su cui puoi contare in tutto il Paese, e nelle cittadine di provincia la qualità spesso è migliore che in città.",
-            "Il pasto al pub, in particolare, è un’istituzione australiana e nei paesi piccoli è spesso l’unico modo per cenare. Le porzioni sono abbondanti e i prezzi di solito ben più bassi che in un ristorante di città.",
-            "Le caffetterie di solito smettono di servire da mangiare prima di quanto ci si aspetti, e nei paesi piccoli dopo le 20 può non esserci niente di aperto. Se hai con te qualcosa da cucinare, arrivare tardi non vuol dire saltare la cena."
+            "La panetteria, il fish and chips e il counter meal del pub (il pasto che ordini al bancone) sono tre scelte economiche affidabili in tutto il Paese, e nelle cittadine di provincia la qualità spesso è alla pari con quella delle città.",
+            "Il pasto al pub, in particolare, è un’istituzione australiana e nei paesi piccoli è spesso l’unico modo per cenare. Le porzioni sono abbondanti e i prezzi spesso più bassi che in un ristorante di città.",
+            "Le caffetterie di solito smettono di servire da mangiare prima di quanto ci si aspetti, e nei paesi piccoli dopo le 20 circa può non esserci niente di aperto. Se hai con te qualcosa da cucinare, arrivare tardi non vuol dire saltare la cena."
           ],
           "tips": [
             "Il pasto al pub conviene",
-            "In provincia la qualità spesso batte la città",
+            "In provincia si mangia spesso bene come in città",
             "Nei paesi piccoli si chiude presto"
           ]
         },
         {
           "heading": "Supplementi e pagamenti",
           "body": [
-            "I supplementi nei giorni festivi sono legali, frequenti e devono essere dichiarati: di solito si aggirano sul 10-15%. Molti locali applicano un supplemento anche nel weekend, e la commissione sulla carta si aggiunge alla cassa, senza comparire sul menu.",
+            "I supplementi nei giorni festivi e nel weekend sono legali e frequenti, e un caffè o un ristorante deve indicarli sul menu. I supplementi sulle carte eftpos, Mastercard, Visa, American Express e UnionPay sono finiti il 1º ottobre 2026, quindi paghi il prezzo del menu più l’eventuale supplemento per weekend o giorni festivi, costo di prenotazione o di servizio.",
             "In Australia la mancia non è prevista e il personale riceve una paga minima fissata per legge (award wage). Alcuni POS ora ti propongono la mancia, ma è un’abitudine importata da poco, non un’usanza locale.",
             "I contanti si usano sempre meno e molti locali accettano solo carte, ma servono ancora nei roadhouse isolati (stazioni di servizio con bar e spesso camere) e per le cassette per il pagamento sulla fiducia (honesty box). Tieni con te una piccola somma, anche se la userai di rado."
           ],
@@ -7183,7 +7368,7 @@
           "body": [
             "Spendi di proposito per il cibo legato al luogo: pesce e frutti di mare sulla costa, manghi ai tropici quando è stagione, un pranzo in cantina nella Barossa o a Margaret River. Sono questi i pasti che ti ricorderai.",
             "Nei giorni di trasferimento, quando arrivi tardi e riparti presto e il pasto è solo carburante, arrangiati con una spesa semplice. Così ti puoi permettere i pasti buoni senza che ogni giornata diventi cara.",
-            "Nei buoni ristoranti il menu del pranzo offre quasi tutta l’esperienza della cena per molto meno. Se in una città cara vuoi concederti un pasto memorabile, prenotalo a pranzo."
+            "Nei buoni ristoranti il menu del pranzo offre gran parte dell’esperienza della cena spendendo meno. Se in una città cara vuoi concederti un pasto memorabile, prenotalo a pranzo."
           ],
           "tips": [
             "Spendi per il cibo del territorio",
@@ -7195,7 +7380,7 @@
           "heading": "Ordinare e porzioni: cosa aspettarsi",
           "body": [
             "Le porzioni australiane sono abbondanti e di solito un piatto principale basta anche senza contorni. Sul menu «entrée» vuol dire antipasto, non piatto principale (un equivoco in cui cadono regolarmente i nordamericani), e dividere un antipasto è normale.",
-            "Il BYO, cioè portarti da bere, è comune sia nei ristoranti con licenza per gli alcolici sia in quelli senza, di solito pagando un diritto di tappo a bottiglia o a persona. Può abbassare parecchio il conto di una cena fuori, quindi conviene chiederlo quando prenoti.",
+            "Il BYO, cioè portarti da bere, è comune nei ristoranti senza licenza per gli alcolici e in alcuni di quelli con licenza, di solito pagando un diritto di tappo a bottiglia o a persona, quindi chiedilo quando prenoti. Può abbassare parecchio il conto di una cena fuori.",
             "Chiedi alla gente del posto invece di cercare su internet, soprattutto nei paesi piccoli, dove spesso si mangia meglio al circolo delle bocce o in un pub che online non esiste nemmeno."
           ],
           "tips": [
@@ -7208,26 +7393,26 @@
       "faq": [
         [
           "Quanto costa mangiare fuori in Australia?",
-          "La guida riporta i prezzi di una colazione in caffetteria, di un pasto al pub, di una cena di fascia media e del cibo da asporto, ciascuno con la data di rilevazione. Per un pasto completo i bistrot dei pub restano la scelta più conveniente, ed è per questo che fanno da base alla maggior parte dei budget per un road trip."
+          "Un pasto economico al ristorante costa circa da 20 a 45 $ a persona a Sydney e un menu fast food da 15 a 18 $, secondo i prezzi segnalati dagli utenti a ottobre 2026. Una cena di tre portate per due in un ristorante di fascia media costa da 80 a 200 $, bevande escluse."
         ],
         [
           "In Australia si lascia la mancia?",
-          "No. La mancia non è prevista e il personale riceve una paga minima fissata per legge che non conta sulle mance, anche se arrotondare o lasciare qualcosa per un servizio eccezionale è gradito. Un supplemento la domenica e nei giorni festivi è normale e legale."
+          "No. La mancia non è prevista e il personale dei ristoranti riceve i minimi salariali previsti dalla legge (award wages), anche se arrotondare o lasciare qualcosa per un servizio eccezionale è gradito. I supplementi della domenica e dei giorni festivi sono normali e legali quando sono indicati sul menu."
         ]
       ],
       "sources": [
         {
-          "label": "Numbeo: prezzi a Sydney, aggiornati a giugno 2026"
+          "label": "Numbeo: prezzi a Sydney, aggiornati a ottobre 2026"
         },
         {
-          "label": "Tourism Australia: guida al budget"
+          "label": "ACCC: indicazioni sui supplementi"
         },
         {
-          "label": "Reserve Bank of Australia: tassi di cambio"
+          "label": "Reserve Bank of Australia: domande frequenti sul divieto di supplementi sulle carte"
         }
       ],
       "priceTable": {
-        "note": "Fasce di prezzo per Sydney segnalate dagli utenti, aggiornate a giugno 2026. Sul lungomare, nei resort, negli aeroporti, durante gli eventi e con il servizio al tavolo si può spendere di più.",
+        "note": "Fasce di prezzo per Sydney segnalate dagli utenti, aggiornate a ottobre 2026. Sul lungomare, nei resort, negli aeroporti, durante gli eventi e con il servizio al tavolo si può spendere di più.",
         "rows": [
           {
             "label": "Pasto in un ristorante economico",
@@ -7253,11 +7438,11 @@
       }
     },
     "public-transport-costs-australia-2026": {
-      "title": "Trasporti pubblici nelle città australiane: i prezzi del 2026",
-      "description": "Quanto costano i mezzi pubblici a Brisbane, Perth, Melbourne e Sydney, senza confondere il prezzo della singola corsa con il tetto di spesa giornaliero.",
+      "title": "Prezzi dei mezzi pubblici in Australia 2026: da 50 centesimi",
+      "description": "Queensland a 50 centesimi fissi, DayRider di Perth 7 $, tetto giornaliero di Melbourne 5,70 $ fino al 1º gennaio 2027, Sydney 19,30 $ da lunedì a giovedì. E i supplementi per l’aeroporto.",
       "region": "Capitali australiane",
       "imageAlt": "Mezzi pubblici in una città australiana",
-      "intro": "Nelle città australiane le tariffe seguono regole, metodi di pagamento e tetti di spesa diversi. La corsa a prezzo fisso del Queensland, il DayRider di Perth e il tetto giornaliero di Sydney (il massimo che paghi in un giorno) rispondono a domande diverse: confronta quindi l’intera giornata di spostamenti che hai in mente.",
+      "intro": "Il Queensland fa pagare 50 centesimi fissi a corsa, Perth mette un tetto di 7 $ al giorno, il tetto giornaliero a tariffa intera di Melbourne è di 5,70 $ grazie alle tariffe a metà prezzo valide fino al 1º gennaio 2027, e Sydney limita a 19,30 $ al giorno la spesa degli adulti con la Opal, da lunedì a giovedì. Ogni città conta a modo suo: confronta quindi un’intera giornata di spostamenti, non un singolo biglietto.",
       "sections": [
         {
           "heading": "Confronta cose confrontabili",
@@ -7270,7 +7455,7 @@
         {
           "heading": "L’aeroporto spesso si paga a parte",
           "body": [
-            "Le tratte gestite da privati e i supplementi per l’accesso alle stazioni possono restare fuori dalle normali tariffe dei mezzi pubblici. L’Airtrain di Brisbane è escluso dalla tariffa da 50 centesimi del <a data-guide=\"camping-rules-queensland\">Queensland</a>, mentre all’aeroporto di Sydney si paga un supplemento di accesso oltre al biglietto del treno.",
+            "Il treno per l’aeroporto spesso resta fuori dalle tariffe normali. L’Airtrain di Brisbane è escluso dalla tariffa da 50 centesimi del <a data-guide=\"camping-rules-queensland\">Queensland</a>, e le stazioni dell’aeroporto di Sydney aggiungono al biglietto del treno un supplemento di accesso alla stazione, con un suo tetto settimanale.",
             "Calcola a parte il tragitto da e per l’aeroporto prima di decidere se ti conviene il treno, l’autobus, la navetta, il taxi o un’auto con conducente prenotata via app (ride sharing)."
           ],
           "tips": [
@@ -7290,26 +7475,26 @@
         {
           "heading": "Ogni città ha la sua tessera",
           "body": [
-            "In Australia non esiste una tessera dei trasporti valida in tutto il Paese. Sydney usa la Opal, Melbourne la Myki, Brisbane e il sud-est del <a data-guide=\"camping-rules-queensland\">Queensland</a> la go card, Perth la SmartRider e Adelaide la metroCARD; in alcune città, non in tutte, puoi pagare anche con la carta bancaria contactless.",
-            "L’eccezione da tenere a mente è Melbourne: sulla maggior parte delle linee il contactless non è accettato, quindi serve la Myki. Verifica prima di arrivare, invece di dare per scontato che la tua carta funzioni.",
+            "In Australia non esiste una tessera dei trasporti valida in tutto il Paese. Sydney usa la Opal, Melbourne la myki, il sud-est del <a data-guide=\"camping-rules-queensland\">Queensland</a> la go card, Perth la SmartRider e Adelaide la metroCARD, e ormai in molte di queste reti si può pagare anche con la carta bancaria contactless.",
+            "Melbourne accetta le carte Visa e Mastercard contactless su treni, tram e autobus abilitati alla myki, con la diffusione sugli autobus completata entro il 26 luglio 2026. Dal 13 ottobre 2026 anche chi ha una tessera di riduzione può usare la carta bancaria, dopo aver collegato online il proprio diritto alla riduzione, ma chi ha una myki Youth ha comunque bisogno di una myki: controlla le regole in vigore prima di contare sulla carta bancaria.",
             "Quasi tutte le reti hanno tetti di spesa giornalieri e settimanali, che cambiano parecchio i conti appena fai più corse. Prima di scegliere tra un abbonamento e il pagamento a corsa, stima quante corse farai."
           ],
           "tips": [
             "Nessuna tessera valida in tutto il Paese",
-            "A Melbourne serve la Myki",
+            "Melbourne: carta bancaria su treni, tram e bus",
             "Con i tetti di spesa i conti cambiano"
           ]
         },
         {
           "heading": "Collegamenti con l’aeroporto",
           "body": [
-            "A Sydney, alle stazioni dell’aeroporto, si paga un supplemento di accesso oltre al biglietto, e il treno per l’aeroporto costa molto più di una corsa normale. Anche l’Airtrain di Brisbane ha un prezzo a parte, da servizio separato.",
-            "Melbourne, Perth, Adelaide e Darwin hanno collegamenti in autobus o in treno a tariffe più normali. Se siete in tre o più con i bagagli, il ride sharing a volte conviene rispetto ai biglietti singoli.",
-            "Di solito nessuno di questi collegamenti rientra nel normale biglietto giornaliero. Quando confronti le opzioni, calcola a parte il tragitto per l’aeroporto."
+            "Le stazioni dell’aeroporto di Sydney fanno pagare un supplemento di accesso alla stazione di 18,61 $ a corsa per gli adulti, oltre al biglietto del treno, fino a un massimo di 37,75 $ a settimana, quindi il treno per l’aeroporto costa molto più di una corsa normale. L’Airtrain di Brisbane ha un prezzo a parte, da servizio separato.",
+            "I treni della Airport line di Perth viaggiano alle normali tariffe Transperth. Poiché la tariffa è normale, il ride sharing conviene solo a gruppi più numerosi con i bagagli, quindi confronta i due prezzi.",
+            "Il supplemento di accesso alla stazione di Sydney resta fuori dai tetti giornaliero e settimanale della Opal e l’Airtrain di Brisbane resta fuori dalla tariffa da 50 centesimi, mentre la Airport line di Perth rientra nelle normali tariffe Transperth e nel DayRider. Quando confronti le opzioni, calcola a parte il tragitto per l’aeroporto."
           ],
           "tips": [
             "Sydney aggiunge un supplemento per le stazioni",
-            "L’aeroporto si paga a parte",
+            "Treno per l’aeroporto di Sydney e Brisbane a parte",
             "In gruppo il ride sharing può convenire"
           ]
         },
@@ -7329,9 +7514,9 @@
         {
           "heading": "Riduzioni e pass turistici",
           "body": [
-            "Per le tariffe ridotte di solito serve una tessera di riduzione australiana, e le tessere studenti o senior straniere in genere non valgono. Metti in conto la tariffa intera per adulti, a meno che tu non abbia verificato il contrario per quella rete.",
+            "Per le tariffe ridotte di solito serve un diritto alla riduzione rilasciato in Australia, e le tessere studenti o senior straniere in genere non valgono. Metti in conto la tariffa intera per adulti, a meno che tu non abbia verificato il contrario per quella rete.",
             "Alcune città vendono pass turistici che includono trasporti e attrazioni. Prima di comprarne uno, calcola quante corse e quanti ingressi userai davvero: di solito questi pass presuppongono un programma più fitto di quello che tiene la maggior parte dei viaggiatori.",
-            "Se resti in una città più di qualche giorno, il tetto settimanale o un abbonamento di solito conviene più delle tariffe giornaliere, e non devi più pensarci."
+            "A Perth la domenica si viaggia gratis con una SmartRider o con una carta contactless, e in <a data-guide=\"camping-rules-victoria\">Victoria</a> gli under 18 viaggiano gratis con una myki Youth (con le carte bancarie contactless non si può viaggiare con la tariffa Youth). Se resti più di qualche giorno, controlla se la città ha un tetto settimanale (quello di Sydney è di 50 $) prima di pagare giorno per giorno."
           ],
           "tips": [
             "Le tessere di riduzione straniere valgono di rado",
@@ -7343,11 +7528,11 @@
       "faq": [
         [
           "Si può viaggiare in Australia senza auto?",
-          "Tra una capitale e l’altra sì. Fuori dalle città la rete si dirada in fretta, e senza un veicolo o un tour i posti sulla costa e nell’outback che la maggior parte dei viaggiatori viene a vedere sono di fatto irraggiungibili."
+          "Tra una capitale e l’altra sì. Fuori dalle città la rete si dirada in fretta, e molti dei posti sulla costa e nell’outback che la maggior parte dei viaggiatori viene a vedere sono difficili da raggiungere senza un veicolo o un tour."
         ],
         [
           "Quanto costano i trasporti pubblici nelle città australiane?",
-          "La guida riporta le tariffe di Sydney, Melbourne, Brisbane e Perth, con la data di verifica. Tutte usano tessere da validare con tetti di spesa giornalieri e settimanali, e diverse ormai accettano direttamente la carta bancaria contactless, così non devi nemmeno comprare la tessera dei trasporti."
+          "Il Queensland fa pagare 50 centesimi fissi a corsa, Perth mette un tetto di 7 $ al giorno e la domenica è gratis con la SmartRider o con la carta bancaria, il tetto giornaliero di Melbourne è di 5,70 $ fino al 1º gennaio 2027, e il tetto per adulti della Opal a Sydney è di 19,30 $ da lunedì a giovedì e di 9,65 $ da venerdì a domenica e nei giorni festivi."
         ]
       ],
       "sources": [
@@ -7362,25 +7547,34 @@
         },
         {
           "label": "Transport for NSW: tariffe Opal per adulti"
+        },
+        {
+          "label": "Transport for NSW: andare e tornare dall’aeroporto di Sydney"
+        },
+        {
+          "label": "Victorian Government: il tap and go arriva sugli autobus"
+        },
+        {
+          "label": "Victorian Government: tap and go per i passeggeri con riduzione"
         }
       ],
       "priceTable": {
-        "note": "Tariffe di riferimento per adulti, verificate il 12 agosto 2026. Collegamenti aeroportuali, requisiti, riduzioni e metodo di pagamento possono cambiare il risultato.",
+        "note": "Tariffe di riferimento per adulti, verificate il 19 ottobre 2026 sulle pagine tariffe degli operatori. Collegamenti aeroportuali, requisiti, riduzioni e metodo di pagamento possono cambiare il risultato.",
         "rows": [
           {
             "label": "Queensland: corsa Translink",
             "unit": "a corsa"
           },
           {
-            "label": "Perth: tariffa SmartRider Autoload",
-            "unit": "corsa standard"
+            "label": "Perth: tariffa Go Anywhere, SmartRider con Autoload",
+            "unit": "per corsa (valida 3 ore)"
           },
           {
             "label": "Perth: DayRider",
             "unit": "al giorno"
           },
           {
-            "label": "Victoria: tetto temporaneo a tariffa intera",
+            "label": "Victoria: tetto giornaliero a tariffa intera (giorni feriali), fino al 1º gennaio 2027",
             "unit": "al giorno"
           },
           {
@@ -7862,6 +8056,1273 @@
         }
       ],
       "priceTable": null
+    },
+    "wikicamps-alternatives": {
+      "title": "Alternative a WikiCamps 2026: le 6 migliori app per l’Australia",
+      "description": "Sei alternative a WikiCamps Australia a confronto per prezzo, origine dei dati e uso senza campo: app con dati ufficiali, app gratuite e app con luoghi verificati.",
+      "region": "Australia",
+      "imageAlt": "Piazzola nel bush accanto a un fiume nella zona centrale dello stato di Victoria",
+      "intro": "WikiCamps Australia resta una delle app per il campeggio più utili del Paese, quindi l’alternativa giusta dipende da cosa vuoi che faccia in modo diverso. AussieCamps la facciamo noi, ed è per questo che compare per prima; ogni scheda spiega quando conviene un’altra app, o WikiCamps stesso. Prezzi, valutazioni e funzioni sono stati verificati il 20 ottobre 2026.",
+      "sections": [
+        {
+          "heading": "Perché chi viaggia cerca qualcosa oltre WikiCamps",
+          "body": [
+            "WikiCamps si è guadagnato la reputazione con un database creato dalla community che il suo sito indica in più di 65.000 luoghi, con 1,3 milioni di recensioni, per 9,99 A$ una tantum e senza abbonamento. La maggior parte di chi cerca altro non è scontenta di questo modello: vuole qualcosa che l’app non fa.",
+            "Alcuni motivi li documenta lo stesso sviluppatore. La versione 6 ha ricostruito l’app, le versioni precedenti sono state ritirate da marzo 2026 e il centro assistenza dice che le funzioni chiave verranno reintrodotte col tempo. Ora nelle sezioni di recensioni, tariffe e foto compare un piccolo numero di annunci. L’acquisto è legato a un solo store, quindi passare da Android a iPhone significa pagare di nuovo. Per l’uso senza campo bisogna prima scaricare i contenuti principali dell’Australia, e si possono salvare al massimo tre viaggi da consultare senza segnale.",
+            "Altri motivi sono questione di preferenze: voler vedere elenchi presi dagli enti dei parchi anziché dagli utenti, voler luoghi controllati da una redazione, o più semplicemente voler un’app gratuita."
+          ],
+          "tips": [
+            "La versione 6 ha cambiato alcune funzioni",
+            "Ogni piattaforma è un acquisto a parte",
+            "Senza campo serve prima un download"
+          ]
+        },
+        {
+          "heading": "Le alternative in sintesi",
+          "body": [
+            "Ogni riga dice quando l’app è la scelta migliore rispetto a WikiCamps, non quale app sia la migliore in assoluto. WikiCamps è incluso come riferimento."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Alternative a WikiCamps per l’Australia. Prezzi, piattaforme e valutazioni verificati sull’App Store australiano e sui siti degli sviluppatori il 20 ottobre 2026.",
+            "head": [
+              "App",
+              "Prezzo (AUD)",
+              "Origine dei dati",
+              "Senza campo",
+              "Scegli questa invece di WikiCamps se"
+            ],
+            "rows": [
+              [
+                "WikiCamps Australia (riferimento)",
+                "9,99 A$ una tantum per piattaforma",
+                "Utenti: luoghi, foto e recensioni",
+                "Mappe scaricate, luoghi e fino a tre viaggi",
+                "Vuoi un grande bacino di recensioni dei viaggiatori (1,3 milioni, cifra dello sviluppatore)"
+              ],
+              [
+                "AussieCamps",
+                "Download gratuito; Pass da 2,99 a 9,99 A$",
+                "Enti dei parchi statali, gestori delle strade e dataset pubblici sui servizi",
+                "Schede dei luoghi già sul telefono",
+                "Hai un iPhone e vuoi dati ufficiali e un piano di viaggio con le date"
+              ],
+              [
+                "CAMPS Australia Wide",
+                "Prova di 7 giorni, poi 14,99 A$ all’anno",
+                "Team interno dal 1992, più recensioni",
+                "Mappe scaricate e dati dei luoghi",
+                "Vuoi luoghi controllati da chi li visita"
+              ],
+              [
+                "CamperMate",
+                "Gratis",
+                "Recensioni e segnalazioni della community",
+                "Mappe scaricate e informazioni essenziali",
+                "Cerchi un’app gratuita o vai anche in Nuova Zelanda"
+              ],
+              [
+                "Full Range Camping",
+                "Gratis; Premium 49,99 A$ all’anno (iscrizioni sospese)",
+                "Elenco più segnalazioni dei soci",
+                "Schede senza connessione con Premium",
+                "Userai gli sconti nei campeggi o l’house sitting"
+              ],
+              [
+                "Hipcamp",
+                "Gratis; si paga ogni host",
+                "I proprietari dei terreni pubblicano le proprie piazzole",
+                "Viaggi prenotati e messaggi in cache",
+                "Vuoi prenotare un soggiorno in fattoria o su terreno privato"
+              ],
+              [
+                "ExplorOz Traveller",
+                "59,99 A$, più mappa scaricabile da 59,99 A$ all’anno",
+                "Mappe e database dei luoghi propri",
+                "Mappa topografica completa dell’Australia dopo l’acquisto",
+                "Guidi su piste 4x4 isolate"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "1. AussieCamps: l’alternativa con dati ufficiali per iPhone",
+          "body": [
+            "AussieCamps segue la strada opposta a WikiCamps. Invece di elenchi creati dagli utenti, le sue schede arrivano da dataset pubblicati come quelli del NSW National Parks and Wildlife Service, di Parks Victoria, del Queensland Parks and Wildlife Service, di Main Roads WA e della National Public Toilet Map, il che fa al caso di chi preferisce partire da ciò che pubblica chi gestisce il terreno. I dati attuali contano 1.838 campeggi, 5.552 aree di sosta, 1.393 <a data-guide=\"dump-points-australia-guide\">punti di scarico</a> e 3.004 punti di acqua potabile.",
+            "Non c’è nessuna regione da scaricare e non ci sono limiti ai viaggi. L’intero elenco dei luoghi si installa con l’app, quindi le schede di ogni luogo restano leggibili quando sparisce il campo. La mappa, le indicazioni, il meteo e le foto richiedono comunque una connessione, come nella maggior parte delle app. I viaggi contengono tappe in ordine con distanza e tempo di ogni tratta, date di arrivo con le previsioni per ogni tappa, una <a data-guide=\"camping-packing-list-australia\">lista dei bagagli</a> e una sincronizzazione facoltativa con il calendario.",
+            "Il download è gratuito, e lo sono anche hotel, motel, B&B, holiday park (campeggi-villaggio con bungalow, piscina e servizi) e tour proposti da BookEasy, lo stesso partner di prenotazione che usa WikiCamps. Campeggi, aree di sosta, punti di scarico, acqua, parchi, guide, <a data-guide=\"save-collections-aussiecamps\">collezioni</a> e viaggi richiedono il Pass di AussieCamps, in vendita come abbonamento settimanale o come acquisto unico a vita, con acquisti in-app da 2,99 a 9,99 A$ sull’App Store australiano.",
+            "Dove è più debole di WikiCamps: esiste solo per iPhone, ha molti meno luoghi e non ha recensioni dei viaggiatori, quindi perdi i commenti recenti che rendono utile WikiCamps in un <a data-guide=\"is-free-camping-legal-australia\">campeggio gratuito</a>. Molti viaggiatori li tengono entrambi."
+          ],
+          "tips": [
+            "Fonti ufficiali, niente elenchi degli utenti",
+            "Ogni scheda funziona senza campo",
+            "Solo iPhone, niente recensioni dei viaggiatori"
+          ]
+        },
+        {
+          "heading": "2. CAMPS Australia Wide: l’alternativa con luoghi verificati",
+          "body": [
+            "Se il timore con WikiCamps è che chiunque possa aggiungere o modificare una scheda, CAMPS è la risposta più vicina. Camps Australia Wide dice che il suo team controlla i luoghi di persona dal 1992, elenca più di 16.000 campeggi e non accetta schede a pagamento. Le recensioni degli utenti si affiancano a questa base editoriale.",
+            "Il prezzo è la differenza principale. Dopo 7 giorni di prova gratuita, l’app richiede un abbonamento annuale da 14,99 A$, che comprende mappe scaricabili con le informazioni sui luoghi, prezzi dei carburanti in diretta, un <a data-guide=\"how-to-plan-trip-aussiecamps\">pianificatore di viaggi</a> e la prenotazione.",
+            "Sceglila al posto di WikiCamps se per te contano le schede controllate e non ti pesa una quota annuale. Resta su WikiCamps se vuoi il suo grande bacino di recensioni dei viaggiatori o un prezzo una tantum."
+          ],
+          "tips": [
+            "Luoghi controllati dal suo team",
+            "14,99 A$ all’anno dopo la prova",
+            "Niente versione per computer o web"
+          ]
+        },
+        {
+          "heading": "3. CamperMate: l’alternativa gratuita",
+          "body": [
+            "<a data-guide=\"campermate-alternatives\">CamperMate</a> si scarica gratis e sull’App Store australiano non ha acquisti in-app; copre anche la Nuova Zelanda, quindi si presta bene a un viaggio tra Australia e Nuova Zelanda. Come WikiCamps si basa su recensioni, foto e segnalazioni della community, e lo sviluppatore dichiara più di 70.000 punti di interesse.",
+            "Mappe e informazioni essenziali si possono scaricare per usarle senza campo, e l’app è disponibile in 27 lingue. Mostra pubblicità, propone offerte e prenotazioni di campeggio nell’app ed è il partner di viaggio ufficiale dei marchi di camper Apollo, Maui, Britz e Mighty Camper.",
+            "Sceglila al posto di WikiCamps se contano soprattutto il costo o un secondo Paese. Alcune recensioni sull’App Store da maggio ad agosto 2026 segnalavano campeggi che non si caricavano o non comparivano sulla mappa; da allora gli aggiornamenti hanno rifatto la mappa e i dati scaricati, quindi provala sul tuo percorso prima di farci affidamento."
+          ],
+          "tips": [
+            "Gratis, senza acquisti in-app",
+            "Australia e Nuova Zelanda",
+            "Prova prima il caricamento sul tuo percorso"
+          ]
+        },
+        {
+          "heading": "4. Full Range Camping: l’alternativa con abbonamento",
+          "body": [
+            "Prima si chiamava FreeRange Camping: è un elenco di più di 11.000 posti dove campeggiare e attività del settore, costruito attorno a un abbonamento a pagamento. Premium è indicato a 49,99 A$ all’anno o 99,99 A$ a vita e aggiunge le schede senza connessione, il radar meteo e sconti per i soci che l’azienda indica fino al 30% in alcuni campeggi. Il 20 ottobre 2026, quando abbiamo controllato, le nuove iscrizioni a Premium erano sospese e il sito parlava di un aggiornamento delle mappe dell’app.",
+            "L’abbonamento apre anche le inserzioni di house sitting e di scambio lavoro, che interessano a chi viaggia a lungo e vuole ridurre i <a data-guide=\"accommodation-costs-australia-2026\">costi di alloggio</a> nell’arco di mesi più che di settimane.",
+            "Sceglila al posto di WikiCamps se userai davvero gli sconti o l’house sitting. Solo per trovare i luoghi è un elenco più piccolo e con molte meno valutazioni sull’App Store."
+          ],
+          "tips": [
+            "Premium 49,99 A$ all’anno o 99,99 A$ a vita",
+            "Gli sconti possono compensare la quota",
+            "Elenco più piccolo di WikiCamps"
+          ]
+        },
+        {
+          "heading": "5. Hipcamp: l’alternativa per i terreni privati",
+          "body": [
+            "Hipcamp risponde a una domanda diversa da quella di WikiCamps. Invece di mappare tutti i campeggi, lascia che agricoltori, proprietari di station (i grandi allevamenti dell’outback) e altri proprietari di terreni pubblichino piazzole che prenoti e paghi in anticipo, dai posti per la tenda nel bush al glamping fino alle piazzole per roulotte. Ha 4,8 stelle su più di 22.000 valutazioni australiane.",
+            "L’app tiene a disposizione senza connessione i viaggi prenotati e i messaggi con gli host. Non è pensata per i <a data-guide=\"is-free-camping-legal-australia\">campeggi gratuiti</a>, le aree di sosta o i punti di scarico, quindi in un viaggio lungo affianca un’app di campeggio, non la sostituisce.",
+            "Sceglila al posto di WikiCamps per un weekend pianificato in un posto dove altrimenti non potresti campeggiare."
+          ],
+          "tips": [
+            "Prenota in anticipo su terreno privato",
+            "4,8 su più di 22.000 valutazioni",
+            "Non serve a trovare campeggi gratuiti"
+          ]
+        },
+        {
+          "heading": "6. ExplorOz Traveller: l’alternativa per l’outback",
+          "body": [
+            "Per i viaggi in 4x4, ExplorOz Traveller può sostituire sia un’<a data-guide=\"best-camping-app-australia\">app di campeggio</a> sia una cartina di carta. La sua mappa topografica EOTopo copre tutto il Paese con piste e sentieri con nome, e lo sviluppatore elenca più di 100.000 luoghi tra cui campeggi, carburante e acqua.",
+            "L’app costa 59,99 A$ e per usarla senza campo serve un’opzione in-app: EOTopo a 59,99 A$ all’anno, l’edizione 2026 a 79,99 A$ per quattro anni o Pro Access a 99,99 A$ all’anno, con tracciamento in diretta ed esportazione GPX. Una volta che la mappa è sul telefono, funziona senza campo in qualsiasi punto dell’Australia.",
+            "Sceglila al posto di WikiCamps se il tuo percorso lascia l’asfalto per giorni interi. Per i viaggi lungo la costa e sulle strade principali è un’app più completa, e più cara, di quanto ti serva."
+          ],
+          "tips": [
+            "Mappa topografica di tutta l’Australia",
+            "Il primo anno più caro di questa lista",
+            "Pensata per le piste isolate"
+          ]
+        },
+        {
+          "heading": "Quando WikiCamps resta la scelta migliore",
+          "body": [
+            "Se viaggi con Android, AussieCamps non è un’opzione e WikiCamps resta una scelta solida insieme a CAMPS e CamperMate. Se per te contano soprattutto le recensioni recenti di chi c’è stato, per esempio per sapere se un <a data-guide=\"is-free-camping-legal-australia\">campeggio gratuito</a> si allaga o quanto è affollato nelle vacanze scolastiche, le recensioni di WikiCamps, 1,3 milioni secondo lo sviluppatore, offrono una profondità di commenti difficile da eguagliare.",
+            "Anche un solo pagamento da 9,99 A$ per anni di utilizzo è difficile da battere sul costo. Il centro assistenza dello sviluppatore riconosce che molte recensioni recenti riguardano il passaggio all’app ricostruita e gli aggiornamenti continuano ad arrivare, quindi leggi le ultime recensioni sull’App Store prima di decidere."
+          ],
+          "tips": [
+            "Valida su Android",
+            "1,3 milioni di recensioni (cifra dello sviluppatore)",
+            "9,99 A$ una tantum sono un buon affare"
+          ]
+        },
+        {
+          "heading": "Come le abbiamo confrontate",
+          "body": [
+            "Ogni app è stata verificata sull’App Store australiano il 20 ottobre 2026 per prezzo, acquisti in-app, valutazione e ultima versione, e confrontata con le pagine dello sviluppatore per origine dei dati e funzionamento senza connessione. I dati su WikiCamps vengono dal suo sito e dal centro assistenza. Quando citiamo un numero o uno sconto, è la cifra dichiarata dallo sviluppatore.",
+            "AussieCamps la facciamo noi e si regge sul Pass. Nessun’altra app qui ha pagato per essere inclusa. Se qualcosa è cambiato dopo la nostra verifica, scrivici dalla pagina di assistenza e correggeremo."
+          ],
+          "tips": [
+            "Verificato il 20 ottobre 2026",
+            "Cifre degli sviluppatori citate come dichiarazioni",
+            "Le correzioni sono benvenute"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Qual è una buona alternativa a WikiCamps?",
+          "Dipende da cosa vuoi cambiare. AussieCamps usa dati ufficiali degli enti dei parchi e dei gestori delle strade, con le schede di ogni luogo consultabili senza campo su iPhone; CAMPS elenca luoghi controllati dal suo team; CamperMate è gratuita e copre anche la Nuova Zelanda."
+        ],
+        [
+          "Esiste un’alternativa gratuita a WikiCamps?",
+          "CamperMate è gratuita e sull’App Store australiano non ha acquisti in-app. Hipcamp si scarica gratis, ma si paga ogni host per la prenotazione. AussieCamps si scarica gratis, però i suoi dati su campeggi, aree di sosta e punti di scarico richiedono il Pass."
+        ],
+        [
+          "WikiCamps conviene ancora nel 2026?",
+          "Per molti viaggiatori sì: 9,99 A$ una tantum per piattaforma comprano un database della community che il sito indica in più di 65.000 luoghi, senza abbonamento. La versione 6 ha cambiato alcune funzioni, quindi leggi le recensioni recenti sull’App Store prima di comprare."
+        ],
+        [
+          "WikiCamps ha la pubblicità?",
+          "Sì. L’App Store indica la presenza di pubblicità e lo sviluppatore dice che nelle sezioni di recensioni, tariffe e foto compare un piccolo numero di annunci. Ha detto di valutare un’opzione a pagamento per toglierli."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "WikiCamps Australia: prezzo, copertura e uso senza connessione"
+        },
+        {
+          "label": "Assistenza WikiCamps: perché ci sono recensioni negative"
+        },
+        {
+          "label": "Assistenza WikiCamps: la vecchia versione non è più disponibile"
+        },
+        {
+          "label": "Assistenza WikiCamps: scaricare i contenuti per l’uso senza connessione"
+        },
+        {
+          "label": "Assistenza WikiCamps: la pubblicità in WikiCamps"
+        },
+        {
+          "label": "Assistenza WikiCamps: un acquisto per piattaforma"
+        },
+        {
+          "label": "Camps Australia Wide: l’app CAMPS"
+        },
+        {
+          "label": "CamperMate: copertura e funzioni"
+        },
+        {
+          "label": "Full Range Camping: abbonamento e cache senza connessione"
+        },
+        {
+          "label": "Full Range Camping: stato dell’abbonamento Premium"
+        },
+        {
+          "label": "Hipcamp: chi siamo"
+        },
+        {
+          "label": "ExplorOz Traveller"
+        }
+      ],
+      "priceTable": null
+    },
+    "campermate-alternatives": {
+      "title": "Alternative a CamperMate 2026: le 5 migliori app per l’Australia",
+      "description": "Cinque alternative a CamperMate per i viaggi on the road in Australia, a confronto per prezzo, origine delle schede e cosa funziona senza campo.",
+      "region": "Australia",
+      "imageAlt": "Camper da backpacker parcheggiato in una strada sul mare in Australia",
+      "intro": "CamperMate è gratuita, copre Australia e Nuova Zelanda e parla 27 lingue, ed è per questo che tanti viaggiatori in camper la installano per prima. Quando non basta, il sostituto giusto dipende da cosa mancava. AussieCamps la facciamo noi, ed è per questo che apre la lista. Ogni scheda dice quando batte CamperMate e quando no. Tutto quello che leggi qui sotto è stato verificato il 20 ottobre 2026.",
+      "sections": [
+        {
+          "heading": "Cosa fa bene CamperMate e dove si vorrebbe di più",
+          "body": [
+            "CamperMate non costa nulla, sull’App Store australiano non ha acquisti in-app ed elenca più di 70.000 punti di interesse secondo il conteggio dello sviluppatore, dai <a data-guide=\"is-free-camping-legal-australia\">campeggi gratuiti</a> e dagli holiday park (campeggi-villaggio con bungalow, piscina e servizi) ai punti di scarico, ai bagni e al wifi. Mappe e informazioni essenziali si possono salvare per usarle senza campo, e la versione 5.8 ha aggiunto una vista satellite che funziona con le mappe scaricate.",
+            "Le sue schede crescono con le recensioni, le foto e i luoghi segnalati dai viaggiatori, e l’app mostra pubblicità, accetta prenotazioni ed elenca tra i partner aziende di noleggio camper e gruppi di holiday park. Chi cambia app di solito cerca una di quattro cose: elenchi che partano da chi gestisce il terreno anziché dagli altri utenti, luoghi visitati da un redattore, più recensioni di chi c’è stato la settimana scorsa, o un modo per prenotare terreni privati. Alcune recensioni sull’App Store da maggio ad agosto 2026 segnalavano campeggi che non si caricavano; da allora gli aggiornamenti hanno rifatto la mappa e i dati scaricati, quindi controlla le ultime recensioni."
+          ],
+          "tips": [
+            "Gratis, con pubblicità, 27 lingue",
+            "Schede create e aggiornate dai viaggiatori",
+            "Copre Australia e Nuova Zelanda"
+          ]
+        },
+        {
+          "heading": "Alternative a CamperMate a confronto",
+          "body": [
+            "CamperMate è nella prima riga come riferimento. L’ultima colonna è il motivo per cambiare, non un verdetto su quale sia l’app migliore."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Alternative a CamperMate per l’Australia. Prezzi, valutazioni e funzioni per l’uso senza campo verificati sull’App Store australiano e sui siti degli sviluppatori il 20 ottobre 2026.",
+            "head": [
+              "App",
+              "Prezzo (AUD)",
+              "Valutazione sull’App Store (AU)",
+              "Senza campo",
+              "Passa da CamperMate se"
+            ],
+            "rows": [
+              [
+                "CamperMate (riferimento)",
+                "Gratis",
+                "4,4 (1.543 valutazioni)",
+                "Mappe scaricate e informazioni essenziali",
+                "Resta se contano soprattutto la gratuità e i due Paesi"
+              ],
+              [
+                "AussieCamps",
+                "Download gratuito; Pass da 2,99 a 9,99 A$",
+                "Ancora troppo poche valutazioni per un punteggio",
+                "Ogni scheda dei luoghi, senza dover scaricare nulla",
+                "Vuoi i dati degli enti dei parchi e un pianificatore di viaggi completo su iPhone"
+              ],
+              [
+                "WikiCamps Australia",
+                "9,99 A$ una tantum per piattaforma",
+                "4,5 (16.663 valutazioni)",
+                "Mappe, luoghi e fino a tre viaggi dopo il download",
+                "Vuoi molte più recensioni dei viaggiatori"
+              ],
+              [
+                "CAMPS Australia Wide",
+                "Prova di 7 giorni, poi 14,99 A$ all’anno",
+                "4,4 (3.476 valutazioni)",
+                "Mappe scaricate e dati dei luoghi",
+                "Vuoi luoghi controllati di persona"
+              ],
+              [
+                "Hipcamp",
+                "Gratis; si paga ogni host",
+                "4,8 (22.592 valutazioni)",
+                "Viaggi prenotati e messaggi",
+                "Vuoi prenotare una notte su terreno privato"
+              ],
+              [
+                "Full Range Camping",
+                "Gratis; Premium 49,99 A$ all’anno (iscrizioni sospese)",
+                "4,0 (262 valutazioni)",
+                "Schede con Premium",
+                "Vuoi sconti per i soci nei viaggi più lunghi"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "1. AussieCamps: dati degli enti dei parchi e piano di viaggio su iPhone",
+          "body": [
+            "Dove CamperMate cresce con i contributi dei viaggiatori, AussieCamps parte da ciò che pubblicano gli enti che gestiscono i terreni e le strade: campeggi dei parchi nazionali, aree di sosta lungo le strade, <a data-guide=\"dump-points-australia-guide\">punti di scarico</a>, acqua potabile e bagni pubblici da fonti come il NSW National Parks and Wildlife Service, Parks Victoria, il Queensland Parks and Wildlife Service, Main Roads WA e la National Public Toilet Map. I dati attuali contano 1.838 campeggi, 5.552 aree di sosta, 1.393 punti di scarico e 3.004 punti d’acqua.",
+            "Prima del viaggio non c’è niente da scaricare. L’elenco dei luoghi arriva con l’app, quindi aprendo un’area di sosta sulla Nullarbor senza neanche una tacca di campo vedi comunque servizi, tariffe e note sull’accesso. La mappa, le indicazioni, le previsioni e le foto si caricano solo con il segnale. Per organizzare, un viaggio tiene le tappe in ordine con distanza e tempo di guida di ogni tratta, date di arrivo e previsioni per ogni tappa, oltre a checklist e sincronizzazione con il calendario.",
+            "Hotel, motel, B&B, holiday park e tour del partner di prenotazione BookEasy si consultano e si prenotano gratis. Campeggi, aree di sosta, punti di scarico, acqua, parchi, guide, <a data-guide=\"save-collections-aussiecamps\">collezioni</a> e viaggi richiedono il Pass di AussieCamps, un abbonamento settimanale o un acquisto unico a vita; gli acquisti in-app vanno da 2,99 a 9,99 A$ sull’App Store australiano.",
+            "Rispetto a CamperMate rinunci a tre cose: esiste solo per iPhone, non ha recensioni né foto di altri utenti e copre solo l’Australia. Per la tappa in Nuova Zelanda la nostra app gemella KiwiCamping fa lo stesso lavoro, sempre su iPhone."
+          ],
+          "tips": [
+            "Dati degli enti dei parchi e dei gestori delle strade",
+            "Serve il Pass per i dati dei campeggi",
+            "Solo iPhone, solo Australia"
+          ]
+        },
+        {
+          "heading": "2. WikiCamps Australia: più recensioni a prezzo unico",
+          "body": [
+            "<a data-guide=\"wikicamps-alternatives\">WikiCamps</a> funziona sullo stesso principio di CamperMate, quello della community, ma su scala più grande per l’Australia, con più di 65.000 luoghi e 1,3 milioni di recensioni secondo lo sviluppatore. Se lasci CamperMate perché i commenti sui campeggi che ti interessano sono pochi o vecchi, è l’app da provare.",
+            "Costa 9,99 A$ una sola volta, su ogni piattaforma che usi, senza abbonamento. Per l’uso senza campo bisogna prima scaricare i contenuti dell’Australia, e senza segnale restano disponibili fino a tre viaggi pianificati. La versione 6, uscita a fine 2024, ha cambiato diverse funzioni, quindi leggi le recensioni recenti sull’App Store prima di comprare. Per la Nuova Zelanda c’è un’altra app, da acquistare a parte."
+          ],
+          "tips": [
+            "9,99 A$ una tantum, per piattaforma",
+            "Grande base di recensioni sull’Australia",
+            "La Nuova Zelanda è un’app a parte"
+          ]
+        },
+        {
+          "heading": "3. CAMPS Australia Wide: luoghi controllati, piccola quota annuale",
+          "body": [
+            "CAMPS si basa su un’idea diversa da CamperMate: un team che visita e controlla i luoghi dal 1992, più di 16.000 campeggi e l’impegno a non accettare schede a pagamento. Gli utenti aggiungono recensioni su questa base.",
+            "Per 7 giorni di prova è tutto aperto, poi l’app costa 14,99 A$ all’anno. Nel prezzo ci sono mappe scaricabili con i dettagli dei luoghi, prezzi dei carburanti in diretta, pianificazione del viaggio e prenotazione. Funziona su telefoni e tablet, senza versione per computer."
+          ],
+          "tips": [
+            "Luoghi controllati dalla redazione",
+            "14,99 A$ all’anno dopo la prova",
+            "Nessuna scheda a pagamento"
+          ]
+        },
+        {
+          "heading": "4. Hipcamp: per le notti prenotate in anticipo",
+          "body": [
+            "CamperMate ti mostra holiday park e <a data-guide=\"is-free-camping-legal-australia\">campeggi gratuiti</a>; Hipcamp ti mostra terreni privati da prenotare. I proprietari pubblicano piazzole per tende, glamping e posti per roulotte in fattorie, station (i grandi allevamenti dell’outback) e vigneti, e paghi l’host dall’app. La sua valutazione, 4,8 su più di 22.000 valutazioni australiane, è la più alta tra le app confrontate qui.",
+            "I viaggi prenotati e le conversazioni con gli host restano disponibili senza connessione. Non è pensata per campeggi gratuiti, aree di sosta o <a data-guide=\"dump-points-australia-guide\">punti di scarico</a>, quindi in un lungo viaggio in camper affianca un’app di campeggio, non la sostituisce."
+          ],
+          "tips": [
+            "Terreni privati, prenotati in anticipo",
+            "La valutazione più alta tra queste app",
+            "Niente campeggi gratuiti né aree di sosta"
+          ]
+        },
+        {
+          "heading": "5. Full Range Camping: un abbonamento per i viaggi lunghi",
+          "body": [
+            "Full Range Camping, prima chiamata FreeRange Camping, elenca più di 11.000 posti dove campeggiare e attività del settore. L’app è gratuita, e l’abbonamento Premium, indicato a 49,99 A$ all’anno o 99,99 A$ a vita, sblocca le schede senza connessione, il radar meteo e sconti per i soci che secondo l’azienda arrivano al 30% in alcuni campeggi. Il 20 ottobre 2026 il suo sito diceva che gli abbonamenti Premium non erano al momento disponibili mentre il software delle mappe dell’app viene aggiornato, quindi verifica prima che siano di nuovo aperti.",
+            "Include anche inserzioni di house sitting e scambio lavoro, che in un viaggio di mesi possono contare più dell’elenco. Per una vacanza in camper di due settimane, CamperMate o <a data-guide=\"wikicamps-alternatives\">WikiCamps</a> di solito ti danno di più."
+          ],
+          "tips": [
+            "Premium 49,99 A$ all’anno",
+            "Sconti e house sitting",
+            "Elenco più piccolo"
+          ]
+        },
+        {
+          "heading": "Australia e Nuova Zelanda in un solo viaggio",
+          "body": [
+            "Un motivo per restare con CamperMate è che una sola app gratuita copre entrambi i Paesi. Nessuna delle alternative qui copre la Nuova Zelanda nella stessa app: <a data-guide=\"wikicamps-alternatives\">WikiCamps</a> vende un’app separata per la Nuova Zelanda, e la nostra app per la Nuova Zelanda è KiwiCamping.",
+            "Se il viaggio attraversa il Mar di Tasman, ha senso tenere CamperMate per il secondo Paese e usare un’app dedicata per la parte più lunga del viaggio."
+          ],
+          "tips": [
+            "CamperMate copre entrambi i Paesi",
+            "Nessuna alternativa qui copre i due Paesi in una sola app",
+            "Dividi le app per Paese, se serve"
+          ]
+        },
+        {
+          "heading": "Come abbiamo verificato",
+          "body": [
+            "Abbiamo controllato la scheda di ogni app sull’App Store australiano il 20 ottobre 2026 per prezzo, acquisti in-app, valutazione e versione, poi abbiamo letto il sito dello sviluppatore per origine dei dati e funzionamento senza connessione. Proprietà e partner di CamperMate vengono dalle sue pagine di termini e chi siamo, e i temi ricorrenti nelle recensioni dalle più recenti sull’App Store australiano.",
+            "AussieCamps è nostra e si regge sul Pass. Nessuna app ha pagato per comparire qui. Se un dettaglio è cambiato, scrivici dalla pagina di assistenza e lo correggeremo."
+          ],
+          "tips": [
+            "Verificato il 20 ottobre 2026",
+            "Cifre degli sviluppatori citate come dichiarazioni",
+            "Le correzioni sono benvenute"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Cosa c’è di meglio di CamperMate?",
+          "Dipende da ciò che CamperMate non ti dà e che vorresti. AussieCamps usa i dati degli enti dei parchi e dei gestori delle strade, con le schede di ogni luogo consultabili senza campo su iPhone; WikiCamps Australia ha 1,3 milioni di recensioni di viaggiatori, per sua stessa dichiarazione, a 9,99 A$ una tantum; CAMPS elenca luoghi controllati dal suo team."
+        ],
+        [
+          "CamperMate è gratis?",
+          "Sì. A ottobre 2026 si scarica gratis e sull’App Store australiano non ha acquisti in-app. Mostra pubblicità e propone prenotazioni e offerte dei partner."
+        ],
+        [
+          "CamperMate funziona senza campo?",
+          "In parte. Puoi scaricare mappe e informazioni essenziali per usarle senza campo, e la versione 5.8 ha aggiunto una vista satellite che funziona con quelle mappe scaricate."
+        ],
+        [
+          "Esiste un’unica app per il campeggio in Australia e Nuova Zelanda?",
+          "CamperMate copre entrambi i Paesi in un’unica app gratuita. WikiCamps vende app separate per ciascun Paese, e AussieCamps e KiwiCamping sono app separate per iPhone, una per l’Australia e una per la Nuova Zelanda."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "CamperMate: copertura e funzioni"
+        },
+        {
+          "label": "CamperMate: chi siamo e partner"
+        },
+        {
+          "label": "CamperMate: termini e condizioni"
+        },
+        {
+          "label": "WikiCamps Australia: prezzo, copertura e uso senza connessione"
+        },
+        {
+          "label": "Camps Australia Wide: l’app CAMPS"
+        },
+        {
+          "label": "Hipcamp: chi siamo"
+        },
+        {
+          "label": "Full Range Camping: abbonamento e cache senza connessione"
+        },
+        {
+          "label": "Full Range Camping: stato dell’abbonamento Premium"
+        },
+        {
+          "label": "KiwiCamping"
+        }
+      ],
+      "priceTable": null
+    },
+    "best-fuel-price-apps-australia": {
+      "title": "Prezzi del carburante in Australia: le 7 migliori app (2026)",
+      "description": "Petrol Spy, FuelCheck, Servo Saver, FuelWatch e altre app a confronto stato per stato: da dove arrivano i prezzi e quale usare in un road trip tra più stati.",
+      "region": "Australia",
+      "imageAlt": "Sosta per il carburante nel roadhouse di Cadney Homestead, sulla Stuart Highway, nell’outback",
+      "intro": "Ogni stato e il Northern Territory obbligano ormai i distributori a comunicare i prezzi, l’ACT invece no, e ciascuno li pubblica a modo suo: l’app giusta dipende quindi da dove guidi. AussieCamps la facciamo noi e non mostra i prezzi del carburante, per questo non è in classifica. Queste sono le app che useremmo noi, verificate il 20 ottobre 2026.",
+      "sections": [
+        {
+          "heading": "In breve",
+          "body": [
+            "Per un road trip tra più stati, Petrol Spy è l’app di questa lista che riunisce in un’unica mappa i prezzi ufficiali del maggior numero di stati, ed è gratuita. Dentro un singolo stato la fonte più diretta è lo strumento del governo: FuelCheck nel <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> e nell’ACT, FuelCheck TAS in Tasmania, Servo Saver in Victoria, FuelWatch nel Western Australia e MyFuel NT nel Northern Territory.",
+            "Il <a data-guide=\"camping-rules-queensland\">Queensland</a> e il South Australia non hanno un’app ufficiale per i consumatori: i loro sistemi di comunicazione dei prezzi alimentano invece app private, tra cui Petrol Spy. Se sei socio dell’NRMA, con l’app My NRMA hai in più uno sconto al litro nei distributori aderenti, qualunque sia il prezzo che trovi."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "App per i prezzi del carburante nei road trip in Australia. Prezzi, valutazioni e copertura verificati sull’App Store australiano e sui siti dei governi il 20 ottobre 2026.",
+            "head": [
+              "App",
+              "Chi la gestisce",
+              "Prezzo",
+              "Valutazione sull’App Store (AU)",
+              "Copertura",
+              "Ideale per"
+            ],
+            "rows": [
+              [
+                "Petrol Spy",
+                "Privata",
+                "Gratis con pubblicità; Premium 2,89 A$ all’anno",
+                "4,8 (circa 185.000 valutazioni)",
+                "QLD, SA, NSW, WA, TAS, NT; Victoria dalle segnalazioni degli utenti",
+                "Viaggi tra più stati"
+              ],
+              [
+                "FuelCheck",
+                "Governo del NSW",
+                "Gratis",
+                "4,8 (circa 123.000 valutazioni)",
+                "NSW e circa 60 distributori dell’ACT",
+                "Guidare nel NSW"
+              ],
+              [
+                "Servo Saver",
+                "Governo di Victoria",
+                "Gratis, nell’app Service Victoria",
+                "Valutata insieme a Service Victoria",
+                "Victoria",
+                "Guidare in Victoria"
+              ],
+              [
+                "FuelWatch",
+                "Governo del WA",
+                "Gratis, sito web e app ServiceWA",
+                "Nessuna app dedicata",
+                "Western Australia",
+                "Sapere il prezzo di domani nel WA"
+              ],
+              [
+                "FuelCheck TAS",
+                "Governo della Tasmania (basata sul sistema del NSW)",
+                "Gratis",
+                "4,7 (circa 3.500 valutazioni)",
+                "Tasmania",
+                "Guidare in Tasmania"
+              ],
+              [
+                "Fuel Map Australia",
+                "WikiCamps",
+                "Gratis con pubblicità; 2,99 A$ per toglierla",
+                "4,5 (circa 6.900 valutazioni)",
+                "Dati degli utenti, feed ufficiali per WA, NSW e QLD",
+                "Una mappa dei prezzi semplice, con registro dei rifornimenti"
+              ],
+              [
+                "My NRMA",
+                "NRMA",
+                "Gratis; per gli sconti serve essere soci",
+                "4,6 (circa 109.000 valutazioni)",
+                "Sconti nei distributori Ampol aderenti",
+                "Soci NRMA"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "1. Petrol Spy: una mappa per quasi tutto il Paese",
+          "body": [
+            "Petrol Spy mostra i prezzi in tempo reale per il Queensland, il South Australia, il <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a>, il Western Australia, la Tasmania e il Northern Territory, attingendo a feed ufficiali come FuelCheck e FuelWatch e al sistema di comunicazione dei prezzi del Queensland. Ha più valutazioni sull’App Store di qualsiasi altra app di questa lista, circa 185.000 con una media di 4,8, e anche gli utenti segnalano i prezzi.",
+            "La scheda sull’App Store descrive ancora i prezzi di Victoria come inseriti dagli utenti, anche se <a data-guide=\"camping-rules-victoria\">Victoria</a> ha ormai l’obbligo di comunicazione dei prezzi tramite Servo Saver, quindi in Victoria confrontala con l’app ufficiale. I grafici del ciclo dei prezzi per otto capitali ti aiutano a capire se conviene fare il pieno oggi o aspettare. L’app è gratuita con pubblicità; Premium la toglie per 2,89 A$ all’anno o 14,99 A$ una tantum.",
+            "Cosa ci piace: un’app sola per più stati, i grafici del ciclo e tanti utenti che segnalano i prezzi. Da tenere presente: la pubblicità nella versione gratuita e l’ultimo aggiornamento a luglio 2025."
+          ],
+          "tips": [
+            "La migliore se vuoi un’app sola per più stati",
+            "I dati di Victoria sono segnalati dagli utenti",
+            "Gratis, o 2,89 A$ all’anno senza pubblicità"
+          ]
+        },
+        {
+          "heading": "2. FuelCheck: la fonte ufficiale nel New South Wales",
+          "body": [
+            "L’app FuelCheck del governo del NSW elenca più di 2.300 distributori nel <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> e circa 60 nell’ACT, con prezzi caricati dai distributori stessi. È gratuita, senza pubblicità e ha una media di 4,8 su circa 123.000 valutazioni australiane.",
+            "Oltre alla mappa, manda avvisi quando scende il prezzo dei distributori preferiti, trova i più economici lungo un percorso con My Trip e mostra gli andamenti, come il giorno più conveniente del ciclo. Puoi segnalare un prezzo che non corrisponde a quello alla pompa.",
+            "Da tenere presente: si ferma al confine, quindi per un viaggio tra più stati serve una seconda app."
+          ],
+          "tips": [
+            "Solo NSW e ACT",
+            "I distributori più economici lungo un percorso",
+            "Gratis, senza pubblicità"
+          ]
+        },
+        {
+          "heading": "3. Servo Saver: i prezzi ufficiali di Victoria",
+          "body": [
+            "Da quando in <a data-guide=\"camping-rules-victoria\">Victoria</a> è scattato l’obbligo di comunicazione, i distributori devono segnalare le variazioni di prezzo entro 30 minuti e fissare in anticipo il prezzo massimo del giorno dopo, che vale dalle 6 per 24 ore. Servo Saver, dentro l’app gratuita Service Victoria, mostra i prezzi di oggi e dalle 16 anche il tetto di domani, così puoi decidere dove fare il pieno.",
+            "È ufficiale e senza pubblicità. Per chi è di passaggio il problema è che sta dentro un’app governativa più ampia e copre solo Victoria."
+          ],
+          "tips": [
+            "Solo Victoria",
+            "Mostra il prezzo massimo di domani",
+            "Dentro l’app Service Victoria"
+          ]
+        },
+        {
+          "heading": "4. FuelWatch: pianifica in base al prezzo di domani nel Western Australia",
+          "body": [
+            "Il <a data-guide=\"camping-rules-western-australia\">Western Australia</a> ha il sistema più longevo. I distributori comunicano il prezzo di domani entro le 14, viene pubblicato dalle 14:30 ed è fisso per 24 ore dalle 6 del giorno dopo. Conoscere il prezzo di domani serve su una lunga tratta nel WA, dove in una giornata puoi incontrare un solo roadhouse (stazione di servizio isolata con bar e spesso camere).",
+            "FuelWatch si trova sul sito del governo del WA e nell’app ServiceWA, non è un’app a sé."
+          ],
+          "tips": [
+            "Prezzi di domani dalle 14:30",
+            "Fissi per 24 ore",
+            "Sito web e app ServiceWA"
+          ]
+        },
+        {
+          "heading": "5. FuelCheck TAS: la versione della Tasmania",
+          "body": [
+            "La Tasmania usa lo stesso sistema FuelCheck del <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a>, in un’app gratuita a parte che copre più di 200 distributori. I distributori possono anche segnalare quando hanno finito un carburante, un dettaglio che conta sulle strade meno battute dell’isola. Ha una media di 4,7 su circa 3.500 valutazioni australiane."
+          ],
+          "tips": [
+            "Solo Tasmania",
+            "Mostra i carburanti esauriti",
+            "Gratis"
+          ]
+        },
+        {
+          "heading": "6. Fuel Map Australia: una mappa semplice dal team di WikiCamps",
+          "body": [
+            "Fuel Map Australia unisce un database dei distributori creato dagli utenti ai prezzi ufficiali in tempo reale di Western Australia, <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> e Queensland, compresi i prezzi del giorno dopo del WA. Tiene anche un registro dei rifornimenti. È gratuita con pubblicità, oppure 2,99 A$ una tantum per toglierla.",
+            "Da tenere presente: l’ultimo aggiornamento risale a ottobre 2022 e fuori da questi tre stati i prezzi dipendono dagli utenti."
+          ],
+          "tips": [
+            "Prezzi ufficiali per WA, NSW e QLD",
+            "Ultimo aggiornamento nel 2022",
+            "2,99 A$ una tantum per togliere la pubblicità"
+          ]
+        },
+        {
+          "heading": "7. My NRMA: uno sconto più che una mappa dei prezzi",
+          "body": [
+            "My NRMA è un’app per i soci, non uno strumento per confrontare i prezzi. I soci mostrano un codice nei distributori Ampol Foodary aderenti e ottengono 5 centesimi al litro di sconto sul carburante premium e 4 su quello normale. L’NRMA vende lo sconto con My NRMA Rewards, a 5 A$ al mese dopo il primo mese gratuito, quindi calcola se i pieni di un viaggio coprono la quota."
+          ],
+          "tips": [
+            "Solo per i soci",
+            "4-5 centesimi al litro negli Ampol aderenti",
+            "Si abbina a qualsiasi app dei prezzi"
+          ]
+        },
+        {
+          "heading": "Stato per stato: da dove arrivano i prezzi ufficiali",
+          "body": [
+            "Usa questa tabella come guida rapida quando attraversi un confine. L’ACT non ha un sistema suo, ma i suoi distributori compaiono in FuelCheck."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Comunicazione ufficiale dei prezzi del carburante per stato e territorio, verificata il 20 ottobre 2026.",
+            "head": [
+              "Stato o territorio",
+              "Fonte ufficiale",
+              "Dove vedere i prezzi"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "FuelCheck (governo del NSW)",
+                "App o sito di FuelCheck"
+              ],
+              [
+                "ACT",
+                "Nessun sistema dell’ACT; distributori in FuelCheck",
+                "App FuelCheck"
+              ],
+              [
+                "Victoria",
+                "Obbligo di comunicazione dei prezzi (Consumer Affairs Victoria)",
+                "Servo Saver nell’app Service Victoria"
+              ],
+              [
+                "Queensland",
+                "Sistema di comunicazione dei prezzi del carburante (Queensland Treasury)",
+                "App private che ricevono i dati, come Petrol Spy"
+              ],
+              [
+                "South Australia",
+                "Sistema informativo sui prezzi del carburante",
+                "App private registrate, come Petrol Spy"
+              ],
+              [
+                "Western Australia",
+                "FuelWatch (governo del WA)",
+                "Sito di FuelWatch o app ServiceWA"
+              ],
+              [
+                "Tasmania",
+                "FuelCheck TAS",
+                "App FuelCheck TAS"
+              ],
+              [
+                "Northern Territory",
+                "MyFuel NT",
+                "Sito di MyFuel NT"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Il carburante è la spesa più alta che puoi pianificare",
+          "body": [
+            "Nella maggior parte dei road trip i <a data-guide=\"australia-road-trip-fuel-cost-2026\">costi del carburante</a> pesano più dei campeggi, e il litro più conveniente arriva dalla pianificazione delle soste più che da una singola app. Conoscere la distanza di ogni tratta ti dice in quali località devi fare il pieno e dove puoi permetterti di aspettare un prezzo migliore.",
+            "AussieCamps non mostra i prezzi del carburante, ma i viaggi di AussieCamps, che fanno parte del Pass, mostrano distanza e tempo di guida di ogni tratta tra le tappe del tuo viaggio, ed è da questo numero che parte un piano dei rifornimenti. Abbinala a una delle app qui sopra per il prezzo e fai il pieno prima dei lunghi tratti isolati, qualunque sia il prezzo."
+          ],
+          "tips": [
+            "Prima pianifica le tratte, poi il prezzo",
+            "Fai il pieno prima dei tratti isolati",
+            "AussieCamps mostra le distanze delle tratte"
+          ]
+        },
+        {
+          "heading": "Come abbiamo scelto",
+          "body": [
+            "Abbiamo controllato la scheda di ogni app sull’App Store australiano il 20 ottobre 2026 e le regole sulla comunicazione dei prezzi di ogni stato sulla pagina ufficiale del suo governo. Le valutazioni sono arrotondate alle centinaia o alle migliaia. I prezzi che vedi in qualsiasi app sono segnalati dai distributori o dagli utenti e possono essere in ritardo rispetto alla pompa, quindi controlla il prezzo alla pompa prima di fare il pieno."
+          ],
+          "tips": [
+            "Verificato il 20 ottobre 2026",
+            "Regole ufficiali dalle pagine dei governi",
+            "Quello che paghi è il prezzo alla pompa"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Qual è la migliore app per risparmiare sul carburante in Australia?",
+          "Se attraversi i confini tra stati, Petrol Spy mostra in un’unica app gratuita i prezzi ufficiali della maggior parte degli stati. All’interno di un solo stato la fonte più diretta è lo strumento del governo: FuelCheck nel NSW e nell’ACT, Servo Saver in Victoria, FuelWatch nel WA, FuelCheck TAS e MyFuel NT."
+        ],
+        [
+          "Esiste un’app per i prezzi del carburante in Victoria?",
+          "Sì. Servo Saver, dentro l’app gratuita Service Victoria, mostra i prezzi che i distributori devono comunicare entro 30 minuti e, dalle 16, il prezzo massimo del giorno dopo."
+        ],
+        [
+          "Si possono vedere i prezzi della benzina di domani in Australia?",
+          "Nel Western Australia e in Victoria sì. FuelWatch pubblica dalle 14:30 i prezzi del giorno dopo del WA e Servo Saver mostra dalle 16 i prezzi massimi del giorno dopo di Victoria. Entrambi valgono dalle 6 per 24 ore."
+        ],
+        [
+          "Quale app per il carburante conviene usare nel Queensland?",
+          "Il Queensland non ha un’app del governo. Il suo sistema di comunicazione invia i prezzi dei distributori ad app private, e il Queensland Treasury elenca quelle che ricevono i dati, tra cui Petrol Spy, FuelMap, MotorMouth, Pumped e RACQ Fuel and Deals."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Petrol Spy"
+        },
+        {
+          "label": "NSW Government: FuelCheck"
+        },
+        {
+          "label": "Tasmanian Government: FuelCheck TAS"
+        },
+        {
+          "label": "Consumer Affairs Victoria: obbligo di comunicazione dei prezzi del carburante"
+        },
+        {
+          "label": "Victorian Government: Servo Saver"
+        },
+        {
+          "label": "WA Consumer Protection: FuelWatch e prezzi del carburante"
+        },
+        {
+          "label": "WA Government: FuelWatch nell’app ServiceWA"
+        },
+        {
+          "label": "WA Government: regole di FuelWatch"
+        },
+        {
+          "label": "Queensland Treasury: app e siti sui prezzi del carburante"
+        },
+        {
+          "label": "SA Consumer and Business Services: prezzi del carburante"
+        },
+        {
+          "label": "NT Consumer Affairs: MyFuel NT"
+        },
+        {
+          "label": "Tasmanian Government: aggiornamento di FuelCheck TAS, marzo 2026"
+        },
+        {
+          "label": "NRMA: sconti sul carburante per i soci negli Ampol"
+        },
+        {
+          "label": "ACCC: monitoraggio di carburante e benzina"
+        }
+      ],
+      "priceTable": null
+    },
+    "best-road-trip-planner-apps-australia": {
+      "title": "App per pianificare un road trip in Australia 2026: 6 a confronto",
+      "description": "AussieCamps, Google Maps, Apple Maps, Wanderlog, WikiCamps ed ExplorOz a confronto su tappe, distanze, uso senza campo e prezzo per un road trip in Australia.",
+      "region": "Australia",
+      "imageAlt": "Fuoristrada 4x4 sulla Great Central Road, la pista di terra rossa che attraversa l’outback del Western Australia",
+      "intro": "Pianificare un road trip in Australia significa fare due lavori diversi: decidere dove fermarti e dormire, e arrivare da una tappa all’altra. Nessuna app, da sola, eccelle in tutti e due. AussieCamps la facciamo noi ed è la prima di questa lista perché è pensata per il primo lavoro. Ogni app qui sotto è stata verificata il 20 ottobre 2026, con note su quando un’altra è la scelta migliore.",
+      "sections": [
+        {
+          "heading": "Il confronto in breve",
+          "body": [
+            "Le app di navigazione sono eccellenti per la guida e non sono fatte per mostrare dove puoi dormire. Quasi tutti i pianificatori di viaggio sono il contrario. La maggior parte dei viaggiatori ne usa una per tipo, e la tabella mostra dove si colloca ciascuna app."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "App per pianificare un road trip in Australia. Prezzi, limiti e funzioni senza campo verificati sull’App Store australiano e sulle pagine di assistenza degli sviluppatori il 20 ottobre 2026.",
+            "head": [
+              "App",
+              "Prezzo (AUD)",
+              "Tappe per viaggio",
+              "Senza campo",
+              "Navigazione passo passo",
+              "Ideale per"
+            ],
+            "rows": [
+              [
+                "AussieCamps",
+                "Download gratuito; i viaggi richiedono il Pass (da 2,99 A$)",
+                "Nessun limite dichiarato",
+                "Schede dei luoghi sul telefono",
+                "Passa il percorso ad Apple Maps o Google Maps",
+                "Pianificare notti, tappe e date"
+              ],
+              [
+                "Google Maps",
+                "Gratis",
+                "Fino a 9 tappe, destinazione compresa",
+                "Aree scaricate, con navigazione al loro interno",
+                "Sì",
+                "Navigazione e traffico in tempo reale"
+              ],
+              [
+                "Apple Maps",
+                "Gratis, integrata nell’iPhone",
+                "Fino a 14 tappe",
+                "Mappe scaricate con indicazioni stradali",
+                "Sì",
+                "Navigazione su iPhone"
+              ],
+              [
+                "Wanderlog",
+                "Gratis; piani Pro indicati da 50,99 A$ all’anno",
+                "Illimitate, secondo la sua scheda",
+                "Piani di viaggio senza campo con Pro",
+                "No",
+                "Itinerari tra tratti in auto e giorni in città"
+              ],
+              [
+                "WikiCamps Australia",
+                "9,99 A$ una tantum per piattaforma",
+                "Sezioni e luoghi, nessun limite dichiarato",
+                "Fino a tre viaggi scaricati",
+                "No",
+                "Viaggi in campeggio con stima del carburante"
+              ],
+              [
+                "ExplorOz Traveller",
+                "59,99 A$; mappa scaricabile da 59,99 A$ all’anno",
+                "Pianificazione dei percorsi sulle piste",
+                "Mappa topografica completa dell’Australia con EOTopo",
+                "Sì, sulle sue mappe (percorsi calcolati online, poi utilizzabili senza campo)",
+                "Percorsi remoti e 4x4"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "1. AussieCamps: pianifica dove ti fermi e dove dormi",
+          "body": [
+            "AussieCamps considera un viaggio come un elenco di luoghi, non come una linea su una mappa. Aggiungi come tappe campeggi, <a data-guide=\"caravan-park-vs-holiday-park\">caravan park</a>, aree di sosta o qualsiasi luogo salvato, li metti in ordine e vedi distanza e tempo di guida di ogni tratta e dell’intero viaggio. Ogni tappa può avere una data di arrivo e, per le date che rientrano nell’intervallo coperto dalle previsioni, l’app mostra il meteo previsto, il dettaglio che in Australia cambia più spesso i piani.",
+            "Oltre al percorso, l’app tiene una lista delle cose da fare per il viaggio e una <a data-guide=\"camping-packing-list-australia\">lista dei bagagli</a>, note, una foto di copertina e l’avanzamento dei luoghi visitati man mano che prosegui. Un viaggio si può condividere o sincronizzare con il calendario, con tappe e date. Poiché l’elenco dei luoghi è salvato sul telefono, i dettagli di ogni tappa restano leggibili anche senza campo, mentre mappa, indicazioni e previsioni richiedono una connessione. Quando è ora di guidare, le indicazioni si aprono in Apple Maps o Google Maps.",
+            "Il download è gratuito, e lo sono anche hotel, motel, B&B, holiday park (campeggi-villaggio con bungalow, piscina e servizi) e tour prenotabili tramite BookEasy. Viaggi, collezioni e i dati su campeggi, aree di sosta e <a data-guide=\"dump-points-australia-guide\">punti di scarico</a> richiedono il Pass di AussieCamps, venduto come abbonamento settimanale o acquisto unico a vita, con acquisti in-app indicati da 2,99 a 9,99 A$ sull’App Store australiano.",
+            "Scegli altro se ti serve la navigazione passo passo dentro il pianificatore, se hai Android o se il tuo viaggio è fatto soprattutto di città, dove un’app di itinerari generica va meglio."
+          ],
+          "tips": [
+            "Tappe, date e previsioni in un unico piano",
+            "I viaggi richiedono il Pass",
+            "La navigazione passa ad Apple Maps o Google Maps"
+          ]
+        },
+        {
+          "heading": "2. Google Maps: il navigatore che hanno quasi tutti",
+          "body": [
+            "Google Maps è gratuita, copre bene l’Australia e offre traffico in tempo reale e indicazioni passo passo. Per pianificare permette fino a 9 tappe su un percorso, destinazione finale compresa: bastano per una giornata di guida ma non per un giro di due settimane, quindi i viaggi lunghi finiscono divisi in più percorsi o in più elenchi salvati.",
+            "Prima di partire scarica le aree in cui passerai. Le pagine di assistenza di Google dicono che le indicazioni di guida senza connessione funzionano solo se l’intero percorso è dentro un’area scaricata, che le mappe scaricate scadono se non le aggiorni e che il traffico non è disponibile senza connessione."
+          ],
+          "tips": [
+            "Fino a 9 tappe per percorso",
+            "Scarica le aree prima dei tratti isolati",
+            "Il traffico in tempo reale richiede campo"
+          ]
+        },
+        {
+          "heading": "3. Apple Maps: l’app predefinita dell’iPhone, con più tappe",
+          "body": [
+            "Apple Maps è integrata in ogni iPhone e la sua guida di assistenza consente un percorso in auto con più tappe, fino a 14, più di Google Maps per un singolo percorso. Si possono scaricare le mappe e Apple dice che con quelle si hanno le indicazioni di guida passo passo anche senza connessione.",
+            "Apple precisa che le mappe scaricabili non sono disponibili in tutti i Paesi o regioni, quindi scarica un’area di prova prima di fidarti. Come Google Maps, pianifica la guida e non le notti: non ti dice quali aree di sosta permettono di fermarsi per la notte."
+          ],
+          "tips": [
+            "Fino a 14 tappe",
+            "Guida passo passo senza campo dopo il download",
+            "Solo dispositivi Apple"
+          ]
+        },
+        {
+          "heading": "4. Wanderlog: un organizzatore di itinerari per viaggi misti",
+          "body": [
+            "Wanderlog è un pianificatore di viaggi generico, con una valutazione di 4,9 su più di 5.000 valutazioni australiane. La sua scheda sull’App Store dice che puoi aggiungere tappe illimitate gratis e vedere tempi e distanze tra i luoghi, il che va bene per un viaggio che alterna tratti in auto a giorni a Sydney o Melbourne, con i voli in mezzo.",
+            "Il suo centro assistenza, ma non la scheda sullo store, indica l’accesso ai piani di viaggio senza connessione e l’ottimizzazione dei percorsi tra le funzioni Pro. L’App Store australiano elenca diversi prezzi Pro, da 50,99 a 99,99 A$ all’anno e 25,99 A$ al mese, quindi controlla il prezzo che ti viene mostrato. Non ha un elenco dedicato a campeggi e aree di sosta e non ha la navigazione nell’app."
+          ],
+          "tips": [
+            "Pianificazione gratuita con tappe illimitate",
+            "Per l’uso senza campo serve Pro",
+            "Non pensata per le tappe in campeggio"
+          ]
+        },
+        {
+          "heading": "5. WikiCamps Australia: pianificare il viaggio dentro un’app di campeggio",
+          "body": [
+            "<a data-guide=\"wikicamps-alternatives\">WikiCamps</a> include un Trip Planner: crei un viaggio, aggiungi sezioni come regioni o giorni, poi luoghi e note, e trascini una barra di avanzamento mentre viaggi. Se inserisci il consumo del veicolo e un prezzo al litro, stima consumo e costo del carburante tra i luoghi del viaggio.",
+            "Costa 9,99 A$ una tantum per piattaforma e fino a tre viaggi pianificati si possono scaricare per usarli senza campo. Le sue pagine di assistenza non parlano dei tempi di guida per tratta, quindi abbinala a un’app di navigazione per le tempistiche."
+          ],
+          "tips": [
+            "Stima del costo del carburante tra i luoghi",
+            "Tre viaggi senza campo",
+            "9,99 A$ una tantum per piattaforma"
+          ]
+        },
+        {
+          "heading": "6. ExplorOz Traveller: pianificare i percorsi fuori dall’asfalto",
+          "body": [
+            "Per l’outback e i viaggi in 4x4, ExplorOz Traveller pianifica e naviga sulla sua mappa topografica EOTopo, che mostra le strade con nome e le piste 4x4, con note sull’accesso. Con EOTopo scaricata funziona in tutta l’Australia <a data-guide=\"camping-without-phone-signal\">senza campo</a>.",
+            "L’app costa 59,99 A$ e per usarla senza campo serve EOTopo a 59,99 A$ all’anno, l’edizione 2026 a 79,99 A$ per quattro anni oppure Pro Access a 99,99 A$ all’anno. È molto più di quanto serva per un viaggio su strade asfaltate, ma è proprio quello che richiede la traversata del Simpson Desert."
+          ],
+          "tips": [
+            "Naviga sulle piste 4x4",
+            "Mappa topografica scaricata con EOTopo",
+            "Il prezzo d’acquisto più alto della lista (59,99 A$)"
+          ]
+        },
+        {
+          "heading": "Altre app da conoscere",
+          "body": [
+            "TripIt organizza le prenotazioni più che i percorsi: inoltri le email di conferma e crea un itinerario con voli, auto a noleggio e alloggi, consultabile anche senza connessione. Polarsteps pianifica e poi registra il percorso in automatico, adatta a chi vuole un diario del viaggio oltre che un piano.",
+            "Abbiamo lasciato fuori Roadtrippers, un pianificatore molto diffuso in Nord America, perché la sua scheda sull’App Store dice che è pensato solo per i road trip negli USA e in Canada."
+          ],
+          "tips": [
+            "TripIt per le prenotazioni",
+            "Polarsteps per tracciare il viaggio",
+            "Roadtrippers solo per USA e Canada"
+          ]
+        },
+        {
+          "heading": "Come le abbiamo confrontate",
+          "body": [
+            "Prezzo, acquisti in-app, valutazione e limiti di ogni app sono stati verificati sull’App Store australiano e nelle pagine di assistenza dello sviluppatore il 20 ottobre 2026. I limiti di tappe sono quelli pubblicati dagli sviluppatori. Abbiamo guardato ciò che conta in un road trip australiano: quanto sono distanti le tappe, se puoi vedere dove dormire e cosa funziona ancora senza campo.",
+            "La nostra app guadagna con il Pass e nessuna delle altre ha pagato per esserci. Se qualcosa è cambiato, scrivici dalla pagina di assistenza."
+          ],
+          "tips": [
+            "Verificato il 20 ottobre 2026",
+            "Solo limiti pubblicati",
+            "Le correzioni sono benvenute"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Qual è la migliore app per pianificare un road trip in Australia?",
+          "Servono due tipi di app. Un pianificatore come AussieCamps decide tappe, notti e date, con distanza e tempo di guida di ogni tratta, mentre un’app di navigazione come Google Maps o Apple Maps pensa alla guida vera e propria. Per le piste 4x4 isolate, ExplorOz Traveller fa entrambe le cose sulle sue mappe."
+        ],
+        [
+          "Quante tappe si possono aggiungere in Google Maps?",
+          "Fino a 9 tappe su un percorso, destinazione finale compresa, secondo le pagine di assistenza di Google. Apple Maps ne consente fino a 14 su un percorso in auto. I viaggi più lunghi vanno divisi in più percorsi o affidati a un pianificatore dedicato."
+        ],
+        [
+          "Roadtrippers funziona in Australia?",
+          "La sua scheda sull’App Store dice che è pensato solo per i road trip negli USA e in Canada, quindi non è adatto all’Australia."
+        ],
+        [
+          "Si può pianificare un road trip in Australia senza campo?",
+          "In parte. Google Maps e Apple Maps possono navigare dentro le aree scaricate, AussieCamps tiene i dettagli dei luoghi sul telefono con il Pass e WikiCamps conserva fino a tre viaggi scaricati. Traffico in tempo reale, previsioni e nuovi percorsi richiedono comunque campo nella maggior parte delle app."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Google Maps Help: aggiungere più destinazioni"
+        },
+        {
+          "label": "Google Maps Help: scaricare aree e navigare senza connessione"
+        },
+        {
+          "label": "Apple Support: percorsi con più tappe in Maps su iPhone"
+        },
+        {
+          "label": "Apple Support: scaricare le mappe su iPhone per usarle senza connessione"
+        },
+        {
+          "label": "Wanderlog Help: scaricare un piano di viaggio per usarlo senza connessione"
+        },
+        {
+          "label": "WikiCamps Help: Trip Planner"
+        },
+        {
+          "label": "ExplorOz Traveller"
+        },
+        {
+          "label": "TripIt"
+        },
+        {
+          "label": "Polarsteps"
+        }
+      ],
+      "priceTable": null
+    },
+    "best-free-camping-apps-australia": {
+      "title": "App per campeggio libero in Australia 2026: cosa è davvero gratis",
+      "description": "Quali app trovano campeggi gratuiti in Australia, quali non costano nulla e quali fanno pagare i dati: confronto con prezzi verificati a ottobre 2026.",
+      "region": "Australia",
+      "imageAlt": "Tavolo da picnic sotto gli alberi al Firth Park Campground, nella Wombat State Forest, in Victoria",
+      "intro": "«App per il campeggio gratuito» può voler dire due cose: un’app che non costa nulla, oppure un’app che trova posti dove campeggiare non costa nulla. Poche app sono entrambe le cose, e la differenza decide quanto pagherai. AussieCamps la facciamo noi: il download è gratuito, ma i dati sul campeggio si pagano, e l’abbiamo messa comunque al primo posto per i motivi qui sotto. Se non vuoi spendere proprio nulla, parti da CamperMate. I prezzi sono stati verificati il 20 ottobre 2026.",
+      "sections": [
+        {
+          "heading": "Gratis da usare o gratis dove campeggiare: il confronto",
+          "body": [
+            "La tabella separa le due domande. La seconda colonna dice quanto costa l’app; la terza, cosa mostra dei luoghi che non costano nulla."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "App per trovare campeggi gratuiti in Australia. Prezzi delle app verificati sull’App Store australiano e sui siti degli sviluppatori il 20 ottobre 2026.",
+            "head": [
+              "App",
+              "Quanto costa l’app",
+              "Campeggi gratuiti e aree di sosta",
+              "Senza campo",
+              "Ideale per"
+            ],
+            "rows": [
+              [
+                "AussieCamps",
+                "Download gratuito; i dati dei campeggi richiedono il Pass (da 2,99 a 9,99 A$)",
+                "Campeggi, aree di sosta, punti di scarico e acqua da fonti ufficiali, con filtro per costo",
+                "Schede dei luoghi sul telefono",
+                "Dati ufficiali su iPhone"
+              ],
+              [
+                "CamperMate",
+                "Gratis, senza acquisti in-app",
+                "Campeggi gratuiti tra le schede dei viaggiatori e dei partner",
+                "Mappe scaricate e informazioni essenziali",
+                "Non pagare nulla"
+              ],
+              [
+                "Full Range Camping",
+                "Elenco gratuito; Premium indicato a 49,99 A$ all’anno",
+                "Categoria Free Camps nel suo elenco",
+                "Senza connessione solo con Premium",
+                "Sfogliare un elenco gratuito"
+              ],
+              [
+                "WikiCamps Australia",
+                "9,99 A$ una tantum per piattaforma",
+                "Filtro per i campeggi gratuiti e recensioni dei viaggiatori",
+                "Mappe scaricate e fino a tre viaggi",
+                "Recensioni dei viaggiatori sui campeggi gratuiti"
+              ],
+              [
+                "CAMPS Australia Wide",
+                "Prova di 7 giorni, poi 14,99 A$ all’anno",
+                "Luoghi controllati dal suo team",
+                "Mappe scaricate e dati dei luoghi",
+                "Luoghi a basso costo controllati"
+              ],
+              [
+                "App e siti dei parchi governativi",
+                "Gratis",
+                "Campeggi ufficiali di parchi e foreste, spesso a pagamento",
+                "Varia",
+                "Regole e prenotazioni alla fonte"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "1. AussieCamps: dati ufficiali sui campeggi, con il Pass",
+          "body": [
+            "AussieCamps ricava campeggi, aree di sosta, punti di scarico, acqua potabile e bagni dagli enti statali dei parchi, dai gestori delle strade e da dataset pubblici sui servizi, e i luoghi si possono filtrare per costo. Per il <a data-guide=\"is-free-camping-legal-australia\">campeggio libero</a> è un dettaglio importante, perché le regole le decide chi gestisce il terreno: un campeggio, un parco nazionale e un’area di sosta lungo la strada sono cose diverse, e l’app li tiene in categorie separate, con le tariffe di ciascun luogo. I dati attuali contano 1.838 campeggi e 5.552 aree di sosta.",
+            "È al primo posto perché i campeggi gratuiti stanno spesso dove il campo è più debole, e le sue schede dei luoghi sono salvate sul telefono, senza regioni da scaricare. Mappa, indicazioni stradali e meteo richiedono comunque una connessione.",
+            "Per il campeggio non è gratuita. Download, mappa e ricerca sono gratuiti, e lo sono anche hotel, motel, holiday park (campeggi-villaggio con bungalow, piscina e servizi) e tour prenotabili tramite BookEasy, ma campeggi, aree di sosta, <a data-guide=\"dump-points-australia-guide\">punti di scarico</a> e acqua richiedono il Pass di AussieCamps, un abbonamento settimanale o un acquisto unico a vita, con acquisti in-app da 2,99 a 9,99 A$. Esiste solo per iPhone e non ha recensioni dei viaggiatori, su cui chi fa campeggio libero conta spesso per sapere se un posto è ancora aperto."
+          ],
+          "tips": [
+            "Fonti ufficiali, filtro per costo",
+            "Per i dati dei campeggi serve il Pass",
+            "Solo iPhone"
+          ]
+        },
+        {
+          "heading": "2. CamperMate: gratis, senza acquisti in-app",
+          "body": [
+            "CamperMate è gratuita e senza acquisti in-app sull’App Store australiano ed elenca <a data-guide=\"is-free-camping-legal-australia\">campeggi gratuiti</a> insieme a holiday park, punti di scarico e bagni in Australia e in Nuova Zelanda. I viaggiatori aggiungono recensioni e foto e suggeriscono luoghi, accanto alle schede dei partner, e mappe e informazioni essenziali si possono scaricare per usarle senza campo.",
+            "Si regge su pubblicità, prenotazioni e offerte, quindi le opzioni a pagamento compaiono accanto a quelle gratuite. Per chi non vuole spendere nulla in app è una buona prima app da installare."
+          ],
+          "tips": [
+            "Gratis, senza acquisti in-app",
+            "Schede e recensioni della community",
+            "Australia e Nuova Zelanda"
+          ]
+        },
+        {
+          "heading": "3. Full Range Camping: elenco gratuito con la categoria Free Camps",
+          "body": [
+            "Con Full Range Camping, ex FreeRange Camping, l’elenco di posti dove campeggiare e attività del settore si consulta gratis, e c’è una categoria <a data-guide=\"is-free-camping-legal-australia\">Free Camps</a>. L’app usa mappe online, a meno che tu non abbia Premium, che aggiunge la cache senza connessione, il radar meteo e gli sconti per i soci.",
+            "Premium è indicato sull’App Store a 49,99 A$ all’anno o 99,99 A$ a vita, ma quando abbiamo controllato il sito dell’azienda diceva che i nuovi abbonamenti Premium non erano disponibili mentre viene aggiornata la mappa dell’app."
+          ],
+          "tips": [
+            "Consultazione gratuita",
+            "Senza connessione serve Premium",
+            "Iscrizioni Premium sospese al momento della verifica"
+          ]
+        },
+        {
+          "heading": "4. WikiCamps Australia: non è gratis, ma sui campeggi gratuiti trovi tante recensioni",
+          "body": [
+            "WikiCamps costa 9,99 A$ una tantum per piattaforma, quindi non è un’app gratuita. Si merita un posto grazie al filtro per i <a data-guide=\"is-free-camping-legal-australia\">campeggi gratuiti</a> e alle recensioni, 1,3 milioni secondo i suoi stessi dati, che ti dicono se un posto gratuito è tranquillo, affollato o chiuso.",
+            "Per usarla senza connessione bisogna prima scaricare i contenuti principali dell’Australia, e si possono salvare fino a tre viaggi pianificati da usare senza campo."
+          ],
+          "tips": [
+            "9,99 A$ una tantum per piattaforma",
+            "Filtro per i campeggi gratuiti",
+            "Grande base di recensioni"
+          ]
+        },
+        {
+          "heading": "5. CAMPS Australia Wide: a basso costo, luoghi controllati",
+          "body": [
+            "CAMPS elenca più di 16.000 campeggi che, secondo Camps Australia Wide, il suo team ha controllato di persona, senza schede a pagamento. È gratuita per 7 giorni e poi costa 14,99 A$ all’anno; l’azienda ha tolto l’accesso gratuito all’app a dicembre 2024, quindi dopo la prova non esiste una versione gratuita."
+          ],
+          "tips": [
+            "Prova gratuita di 7 giorni",
+            "Poi 14,99 A$ all’anno",
+            "Luoghi controllati di persona"
+          ]
+        },
+        {
+          "heading": "6. Strumenti gratuiti degli enti pubblici che gestiscono i terreni",
+          "body": [
+            "Gli enti che gestiscono i campeggi pubblicano mappe e pagine di prenotazione proprie, da usare gratis. È lì che conviene confermare tariffe, prenotazioni e chiusure, anche se il luogo l’hai trovato con un’app.",
+            "Gratis non vuol dire sempre senza prenotazione. Nel Queensland ogni campeggio in un parco nazionale, in una State Forest (foresta demaniale) o in un’area ricreativa richiede un permesso a pagamento da prenotare prima di arrivare. Quasi tutti i campeggi delle State Forest in Victoria sono gratuiti e non si possono prenotare, e Main Roads WA consente soste fino a 24 ore solo nelle aree di sosta segnalate a questo scopo. La guida su quando il <a data-guide=\"is-free-camping-legal-australia\">campeggio libero</a> è legale spiega le regole stato per stato."
+          ],
+          "tips": [
+            "Controlla chi gestisce il terreno prima di partire",
+            "Gratis non vuol dire sempre senza prenotazione",
+            "Le regole cambiano da stato a stato"
+          ],
+          "table": {
+            "caption": "Informazioni ufficiali sul campeggio per stato, verificate il 20 ottobre 2026.",
+            "head": [
+              "Stato o territorio",
+              "Fonte ufficiale",
+              "Cosa controllare"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "NSW National Parks; Forestry Corporation of NSW",
+                "Tariffa di prenotazione nei parchi; regole per il campeggio nelle State Forest"
+              ],
+              [
+                "Victoria",
+                "Parks Victoria; Explore Outdoors Victoria",
+                "Luoghi dei parchi gratuiti e prenotabili; limiti per il campeggio nelle foreste"
+              ],
+              [
+                "Queensland",
+                "Queensland Parks and Wildlife Service",
+                "Permesso e tariffa per ogni campeggio"
+              ],
+              [
+                "South Australia",
+                "National Parks and Wildlife Service SA",
+                "Prenota le piazzole online; l’ingresso con il veicolo è incluso nella maggior parte delle prenotazioni di campeggio"
+              ],
+              [
+                "Western Australia",
+                "Explore Parks WA (DBCA); Main Roads WA",
+                "Tariffe dei parchi; aree di sosta segnalate per 24 ore"
+              ],
+              [
+                "Tasmania",
+                "Parks and Wildlife Service Tasmania",
+                "Parks pass necessario nei campeggi gratuiti dentro i parchi nazionali"
+              ],
+              [
+                "Northern Territory",
+                "NT Parks",
+                "Prenota e paga online prima di arrivare nella maggior parte dei campeggi dei parchi"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Come abbiamo verificato",
+          "body": [
+            "Prezzi delle app, acquisti in-app e valutazioni sono stati letti sull’App Store australiano il 20 ottobre 2026, mentre le funzioni gratuite e a pagamento sul sito di ciascuno sviluppatore. Le regole dei vari stati vengono dalle pagine governative elencate sotto. Le regole sul <a data-guide=\"is-free-camping-legal-australia\">campeggio libero</a> cambiano, quindi controlla con chi gestisce il terreno e leggi il cartello sul posto prima di fermarti.",
+            "AussieCamps la facciamo noi e facciamo pagare i suoi dati sul campeggio con il Pass. Nessuna delle altre app ha pagato per comparire qui."
+          ],
+          "tips": [
+            "Verificato il 20 ottobre 2026",
+            "Regole tratte da pagine ufficiali",
+            "Fa fede il cartello sul posto"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Qual è la migliore app gratuita per il campeggio in Australia?",
+          "Se l’app stessa non deve costare nulla, CamperMate è gratuita, senza acquisti in-app, e tra i suoi luoghi ci sono campeggi gratuiti. AussieCamps si scarica gratis, ma per i suoi dati ufficiali su campeggi e aree di sosta serve il Pass, mentre WikiCamps costa 9,99 A$ una tantum per piattaforma."
+        ],
+        [
+          "Esiste un’app gratuita per trovare campeggi gratuiti in Australia?",
+          "Sì. CamperMate è gratuita, e l’elenco di Full Range Camping, categoria Free Camps compresa, si consulta gratis. Anche gli enti dei parchi e delle foreste pubblicano gratuitamente i loro campeggi, anche se molti di quei luoghi fanno pagare una tariffa di campeggio."
+        ],
+        [
+          "I campeggi gratuiti richiedono comunque la prenotazione?",
+          "A volte. Il Queensland richiede un permesso a pagamento per ogni campeggio nei suoi parchi e nelle sue foreste, NSW National Parks fa pagare una tariffa di prenotazione anche dove il campeggio è gratuito, e quasi tutti i campeggi delle State Forest in Victoria sono gratuiti e non si possono prenotare. Controlla con chi gestisce il terreno per ogni luogo."
+        ],
+        [
+          "Si può dormire nelle aree di sosta in Australia?",
+          "Solo dove l’ente stradale o un cartello lo consente. Il Queensland lascia fermare i veicoli nelle aree di sosta fino a 20 ore, salvo diversa indicazione sui cartelli, e Main Roads WA consente fino a 24 ore solo nelle aree di sosta segnalate a questo scopo. Leggi il cartello prima di fermarti."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Queensland Parks: prenotazioni e permessi per il campeggio"
+        },
+        {
+          "label": "Explore Outdoors Victoria: campeggio nelle State Forest"
+        },
+        {
+          "label": "Victorian Government: campeggio nelle State Forest"
+        },
+        {
+          "label": "Parks Victoria: campeggio libero in Victoria"
+        },
+        {
+          "label": "NSW National Parks: domande sulle prenotazioni"
+        },
+        {
+          "label": "Forestry Corporation of NSW: campeggio nelle State Forest"
+        },
+        {
+          "label": "Explore Parks WA: tariffe del campeggio"
+        },
+        {
+          "label": "Main Roads WA: politica e linee guida sulle aree di sosta"
+        },
+        {
+          "label": "Parks and Wildlife Service Tasmania: campeggio"
+        },
+        {
+          "label": "NT Government: campeggio nei parchi"
+        },
+        {
+          "label": "National Parks and Wildlife Service SA: domande sulle prenotazioni"
+        },
+        {
+          "label": "Camps Australia Wide: assistenza per l’app"
+        },
+        {
+          "label": "Full Range Camping: stato dell’abbonamento Premium"
+        },
+        {
+          "label": "CamperMate: copertura e funzioni"
+        },
+        {
+          "label": "WikiCamps Australia: prezzo, copertura e uso senza connessione"
+        }
+      ],
+      "priceTable": null
     }
   },
   "consent": {
@@ -7871,5 +9332,201 @@
     "decline": "Rifiuta",
     "learnMore": "Informativa sulla privacy",
     "privacyChoices": "Preferenze sulla privacy"
+  },
+  "tools": {
+    "common": {
+      "home": "Home",
+      "tools": "Calcolatori",
+      "calculator": "Calcolatore",
+      "howItWorks": "Come si calcola",
+      "workedExample": "Esempio svolto",
+      "assumptions": "Ipotesi",
+      "commonQuestions": "Domande frequenti",
+      "readNext": "Guide ai costi e alla pianificazione",
+      "sources": "Fonti",
+      "ctaEyebrow": "Nell’app",
+      "passNote": "AussieCamps si scarica gratis. I soggiorni prenotabili e i tour si consultano gratis; campeggi, aree di sosta, punti di scarico, acqua, bagni e pianificatore di viaggio richiedono il Pass.",
+      "iphoneOnly": "AussieCamps è un’app per iPhone.",
+      "openTool": "Formula, esempio svolto e domande",
+      "allTools": "Tutti i calcolatori per il road trip"
+    },
+    "tools": {
+      "fuel-cost-calculator": {
+        "metaTitle": "Calcolatore costo carburante road trip in Australia",
+        "metaDescription": "Calcola benzina o diesel per un road trip in Australia da distanza, l/100 km e prezzo al litro. Mostra litri, costo totale e costo al km, con la formula e un esempio svolto.",
+        "title": "Calcolatore del costo del carburante per un road trip in Australia",
+        "intro": "Inserisci la distanza, il consumo del mezzo a pieno carico e il prezzo al litro. Ottieni i litri che consumerai, la spesa di carburante e il costo al chilometro, così puoi preventivare l’intero percorso prima del primo pieno.",
+        "formula": [
+          "Litri = distanza (km) × consumo (l/100 km) ÷ 100",
+          "Costo del carburante = litri × prezzo al litro (A$/l)",
+          "Costo al km = costo del carburante ÷ distanza"
+        ],
+        "formulaNote": "Il calcolatore arrotonda i litri a un decimale e gli importi al centesimo. Non aggiunge nient’altro: pedaggi, olio e usura dei pneumatici sono voci a parte nel budget.",
+        "example": [
+          "Un viaggio di 1.000 km con un mezzo che consuma 12 l/100 km, a 2,08 A$ al litro: la media della benzina nelle cinque città più grandi nei dati Fuel Plan del 5 agosto 2026.",
+          "1.000 × 12 ÷ 100 = 120 litri. 120 × 2,08 A$ = 249,60 A$. 249,60 A$ ÷ 1.000 km = circa 0,25 A$ al chilometro.",
+          "Lo stesso viaggio con un mezzo diesel, alla media del diesel di quel giorno di 2,47 A$ al litro, costa 120 × 2,47 A$ = 296,40 A$."
+        ],
+        "assumptions": [
+          "Il consumo è quello a pieno carico. Un camper, un carico sul tetto o una roulotte al traino consumano più del dato da scheda tecnica, quindi se puoi misura il tuo.",
+          "Le medie delle città sono un punto di partenza. I roadhouse (stazioni di servizio isolate con bar e spesso camere) di solito costano di più, quindi alza il prezzo per le tratte nell’outback.",
+          "La distanza è quella dell’intero percorso, comprese le deviazioni verso campeggi, punti panoramici e paesi lontani dalla highway."
+        ],
+        "faq": [
+          [
+            "Come trovo il consumo reale del mio mezzo?",
+            "Fai il pieno, azzera il contachilometri parziale e guida come fai di solito. Al rifornimento successivo dividi i litri aggiunti per i chilometri percorsi e moltiplica per 100. Quello è il tuo consumo in l/100 km a pieno carico, il dato che serve a questo calcolatore."
+          ],
+          [
+            "Come calcolo il costo del carburante al km?",
+            "Dividi i l/100 km per 100 e moltiplica per il prezzo al litro. Con 12 l/100 km e 2,08 A$ al litro fa 0,12 × 2,08, cioè circa 0,25 A$ al chilometro."
+          ],
+          [
+            "Quale prezzo del carburante devo usare?",
+            "Usa il carburante del tuo mezzo e il prezzo più recente che trovi per la zona. Le medie delle cinque città di Fuel Plan al 5 agosto 2026 erano 2,08 A$ al litro per la benzina e 2,47 A$ per il diesel; nelle zone remote aspettati di più."
+          ]
+        ],
+        "ctaTitle": "Pianifica le soste tra un pieno e l’altro.",
+        "ctaText": "AussieCamps mostra sulla mappa {restAreas} aree di sosta e {dumpPoints} punti di scarico in tutta l’Australia e trasforma i luoghi salvati in un percorso a più tappe con le distanze."
+      },
+      "drive-time-calculator": {
+        "metaTitle": "Calcolatore tempo di guida in Australia: giorni di road trip reali",
+        "metaDescription": "Stima quanto dura davvero una giornata di guida in Australia da distanza, tipo di strada e soste. Mostra le velocità medie usate, la formula e un esempio svolto.",
+        "title": "Calcolatore del tempo di guida per road trip in Australia",
+        "intro": "I navigatori indicano il tempo di marcia su strada libera. Questo calcolatore pianifica la giornata di guida che farai davvero: una velocità media per il tipo di strada, più il tempo delle soste per carburante, pasti e pause.",
+        "formula": [
+          "Minuti di guida = distanza (km) ÷ velocità media (km/h) × 60",
+          "Minuti totali = minuti di guida + soste × 20",
+          "Velocità medie: 85 km/h autostrada o lungo rettilineo, 70 km/h strada principale, 60 km/h tortuosa o costiera, 45 km/h stretta, ripida o sterrata"
+        ],
+        "formulaNote": "Le velocità sono medie di pianificazione che tengono conto di centri abitati, lavori in corso, veicoli lenti e corsie di sorpasso. Non sono limiti di velocità.",
+        "example": [
+          "Una giornata di 250 km su una strada costiera tortuosa con tre soste.",
+          "250 ÷ 60 × 60 = 250 minuti di guida. Tre soste aggiungono 3 × 20 = 60 minuti.",
+          "La giornata dura 310 minuti, cioè 5 h 10 min. Su una strada principale a 70 km/h la stessa distanza con le stesse soste richiede 4 h 34 min."
+        ],
+        "assumptions": [
+          "Ogni sosta vale 20 minuti: un rifornimento, un pasto, una pausa bagno o un cambio di guidatore.",
+          "La guida di notte non è prevista. Gli animali selvatici sono più attivi all’alba e al tramonto, quindi cerca di arrivare prima che faccia buio.",
+          "Le strade sterrate cambiano con il meteo e con la stagione. Prima di una tratta su sterrato controlla le condizioni con l’ente stradale dello stato."
+        ],
+        "faq": [
+          [
+            "Perché il risultato è più lungo di quello dell’app di mappe?",
+            "Le app di navigazione stimano il tempo di marcia a velocità vicine ai limiti segnalati. Questo calcolatore tiene conto anche del tipo di strada e del tempo delle soste, ed è lì che di solito una giornata lunga sfora."
+          ],
+          [
+            "Che tipo di strada scelgo per un camper?",
+            "Scegli «strada principale» per la maggior parte delle highway nazionali asfaltate, «tortuosa o costiera» per i percorsi collinari e costieri, e «stretta, ripida o sterrata» per le strade sterrate e i passi di montagna. Un camper pesante o una roulotte in salita vanno ancora più piano."
+          ],
+          [
+            "Il risultato include le soste per carburante e pasti?",
+            "Solo le soste che inserisci. Aggiungine una per ogni rifornimento, pasto o pausa che prevedi: ognuna aggiunge 20 minuti alla giornata."
+          ]
+        ],
+        "ctaTitle": "Scopri dove finisce la giornata prima di iniziarla.",
+        "ctaText": "AussieCamps mostra sulla mappa {campgrounds} campeggi e {restAreas} aree di sosta e costruisce un percorso a più tappe con la distanza in auto tra una tappa e l’altra."
+      },
+      "campsite-cost-calculator": {
+        "metaTitle": "Calcolatore costo campeggio: a persona o a piazzola",
+        "metaDescription": "Confronta una tariffa del campeggio per adulto con una per piazzola, in base al tuo gruppo e alle notti. Mostra la soglia di pareggio, la formula e un esempio svolto in AUD.",
+        "title": "Calcolatore costo campeggio: a persona o a piazzola?",
+        "intro": "Alcuni campeggi fanno pagare ogni adulto a notte, altri applicano un prezzo per tutta la piazzola. Quale conviene dipende da quanti adulti siete, quindi il calcolatore ti dà entrambi i prezzi per lo stesso soggiorno.",
+        "formula": [
+          "Totale con tariffa per adulto = adulti × notti × tariffa per adulto",
+          "Totale con tariffa a piazzola = notti × tariffa per piazzola",
+          "Soglia di pareggio (adulti) = tariffa per piazzola ÷ tariffa per adulto"
+        ],
+        "formulaNote": "Sopra la soglia di pareggio conviene il prezzo a piazzola; sotto conviene quello per adulto.",
+        "example": [
+          "Due adulti per cinque notti, a confronto 20 A$ per adulto a notte e 50 A$ per piazzola a notte.",
+          "Per adulto: 2 × 5 × 20 A$ = 200 A$. A piazzola: 5 × 50 A$ = 250 A$. Con la tariffa per adulto spendi 50 A$ in meno.",
+          "La soglia di pareggio è 50 A$ ÷ 20 A$ = 2,5 adulti, quindi con tre adulti il totale per adulto sale a 300 A$ e vince il prezzo a piazzola."
+        ],
+        "assumptions": [
+          "Bambini e chi ha diritto a riduzioni spesso pagano una tariffa diversa. Inserisci solo gli adulti, oppure usa una tariffa media.",
+          "I costi di prenotazione e d’ingresso al parco sono a parte. Aggiungili alla cifra a piazzola per confrontare a parità di condizioni.",
+          "Il calcolo usa solo i dati che inserisci: controlla la tariffa in vigore sulla pagina ufficiale di prenotazione."
+        ],
+        "faq": [
+          [
+            "Quando conviene la tariffa a piazzola?",
+            "Quando il numero di adulti è maggiore della tariffa a piazzola divisa per la tariffa per adulto. Con 50 A$ a piazzola e 20 A$ per adulto fa 2,5, quindi un gruppo di tre o più persone paga meno a piazzola."
+          ],
+          [
+            "Nei campeggi dei parchi nazionali si paga a persona?",
+            "Molti campeggi dei parchi statali fanno pagare ogni adulto a notte, mentre gli holiday park (campeggi-villaggio con bungalow, piscina e servizi) di solito applicano un prezzo a piazzola. Come si calcola la tariffa lo decide ogni ente gestore, quindi verificalo sulla pagina ufficiale prima di confrontare."
+          ]
+        ],
+        "ctaTitle": "Confronta i campeggi sulla mappa.",
+        "ctaText": "AussieCamps mostra sulla mappa {campgrounds} campeggi con tariffe e servizi dove l’ente gestore li indica, e collega ognuno alla sua pagina ufficiale."
+      },
+      "currency-converter": {
+        "metaTitle": "Convertitore dollaro australiano (AUD) per viaggiatori: tassi RBA",
+        "metaDescription": "Converti i prezzi in dollari australiani da e verso NZD, USD, GBP, EUR, CNY, INR, SGD, JPY e KRW con i tassi di riferimento della Reserve Bank of Australia, ciascuno con la sua data.",
+        "title": "Convertitore di dollari australiani per organizzare il viaggio",
+        "intro": "Converti un prezzo australiano nella valuta in cui ragioni, o viceversa. I tassi sono quelli di riferimento della Reserve Bank of Australia, con una data precisa, così sai esattamente su cosa si basa il numero.",
+        "formula": [
+          "Importo convertito = importo ÷ tasso della valuta di partenza × tasso della valuta di arrivo",
+          "Ogni tasso indica le unità di quella valuta per 1 A$"
+        ],
+        "formulaNote": "Passando per il dollaro australiano tutte le coppie restano coerenti: da NZD a USD si usano gli stessi due tassi delle conversioni con l’AUD.",
+        "example": [
+          "100 A$ al tasso di 1,2033 NZD per dollaro australiano.",
+          "100 ÷ 1 × 1,2033 = 120,33 NZ$.",
+          "Nel verso opposto, 100 NZ$ ÷ 1,2033 × 1 = 83,10 A$."
+        ],
+        "assumptions": [
+          "I tassi di riferimento sono valori medi di mercato, utili per organizzarsi. Banche, circuiti delle carte e cambiavalute aggiungono un loro margine o delle commissioni.",
+          "I tassi cambiano ogni giorno lavorativo. Usa il risultato per valutare un prezzo, non come preventivo."
+        ],
+        "faq": [
+          [
+            "Quali tassi di cambio usa il convertitore?",
+            "I tassi di riferimento della Reserve Bank of Australia, mostrati con la data a cui si riferiscono ed espressi come unità di ogni valuta per un dollaro australiano."
+          ],
+          [
+            "Perché la mia banca addebita un importo diverso?",
+            "Banche e circuiti delle carte usano un tasso proprio e spesso aggiungono un margine o una commissione per operazioni in valuta estera, quindi l’importo addebitato è diverso da una conversione di riferimento."
+          ]
+        ],
+        "ctaTitle": "Vedi le tariffe nella tua valuta.",
+        "ctaText": "AussieCamps mostra le tariffe segnalate accanto all’importo in dollari australiani, nella valuta che scegli, a un tasso di conversione che imposti una volta sola."
+      },
+      "water-tank-calculator": {
+        "metaTitle": "Calcolatore serbatoio acqua camper: giorni in autonomia",
+        "metaDescription": "Trasforma la capacità dei serbatoi delle acque chiare e grigie in giorni in autonomia per il tuo gruppo. Mostra i litri a persona, la formula e un esempio svolto per un viaggio in camper in Australia.",
+        "title": "Calcolatore serbatoio acqua per camper: quanti giorni in autonomia?",
+        "intro": "I litri dei serbatoi diventano utili solo quando li esprimi in giorni. Inserisci la capacità dei serbatoi delle acque chiare e grigie e il numero di persone: il calcolatore mostra quanto dura ogni serbatoio e quale dei due fa da limite.",
+        "formula": [
+          "Giorni di acque chiare = serbatoio acque chiare (l) ÷ (persone × 11 l)",
+          "Giorni di acque grigie = serbatoio acque grigie (l) ÷ (persone × 9 l)",
+          "Giorni in autonomia = il più basso dei due valori"
+        ],
+        "formulaNote": "11 litri di acque chiare e 9 litri di acque grigie a persona al giorno bastano per bere, cucinare e lavare i piatti, se li usi con attenzione. Le docce a bordo consumano molto di più.",
+        "example": [
+          "Un camper con un serbatoio delle acque chiare da 100 l e uno delle acque grigie da 90 l, in viaggio in due.",
+          "Acque chiare: 100 ÷ (2 × 11) = 4,5 giorni. Acque grigie: 90 ÷ (2 × 9) = 5,0 giorni.",
+          "Il serbatoio delle acque chiare si svuota per primo, dopo circa quattro giorni e mezzo, quindi organizzati per fare acqua prima del quinto giorno."
+        ],
+        "assumptions": [
+          "I valori a persona sono medie. Il caldo, cucinare con l’acqua e le docce li fanno salire.",
+          "Le cassette del WC sono un serbatoio a parte e non sono incluse.",
+          "Svuota le acque grigie solo dove è consentito, per esempio in un punto di scarico o in un’area autorizzata."
+        ],
+        "faq": [
+          [
+            "Quanta acqua consuma una persona al giorno in camper?",
+            "Questo calcolatore parte da circa 11 litri di acque chiare a persona al giorno per bere, cucinare e lavare i piatti, e da circa 9 litri di acque grigie. Una doccia al giorno a bordo consuma molto di più, quindi calcolala a parte."
+          ],
+          [
+            "Cosa finisce prima, le acque chiare o le acque grigie?",
+            "Il serbatoio che dà meno giorni. A parità di capacità, più persone o più lavaggi accorciano entrambi; il calcolatore li mostra affiancati, così vedi quale dei due fa da limite."
+          ]
+        ],
+        "ctaTitle": "Trova il prossimo punto acqua e il prossimo punto di scarico.",
+        "ctaText": "AussieCamps mostra sulla mappa {water} punti di rifornimento d’acqua e {dumpPoints} punti di scarico in tutta l’Australia, con i servizi che ciascuno indica."
+      }
+    }
   }
 }
