@@ -27,6 +27,7 @@ b12 south-west-wa-camping-loop, victoria-high-country-camping, kangaroo-island-c
 Skipped (other lane): wikicamps-alternatives, campermate-alternatives, best-fuel-price-apps-australia, best-road-trip-planner-apps-australia, best-free-camping-apps-australia, best-caravan-rv-apps-australia, best-apps-working-holiday-australia.
 
 ## Done
+b08 (red-centre-way-camping, driving-in-australia-overseas-licence, camping-with-dogs-australia, camping-weather-safety-australia, driving-with-road-trains-australia). nb 46/77 after b08 (b07 still to do).
 b06 (sunshine-coast-hinterland-camping, gibb-river-road-camping, campfires-camping-australia, overseas-driver-licence-australia-state-guide, adelaide-to-uluru-road-trip). nb 41/77 after b06.
 b05 (is-free-camping-legal-australia, camping-without-phone-signal, campervan-driving-australia-safety-guide, camping-water-planning, bus-train-costs-australia-2026). nb 36/77 after b05.
 b04 (australia-road-rules-state-differences, camping-fees-australia-2026, australia-travel-cost-2026, australia-road-trip-fuel-cost-2026, camping-rules-tasmania). nb 31/77 after b04.
@@ -34,7 +35,7 @@ b01 (sleeping-in-car-australia, camping-rules-new-south-wales, camping-rules-wes
 b02 (campervan-road-trip-budget-australia, accommodation-costs-australia-2026, camping-rules-south-australia, camping-rules-act, camping-rules-queensland), b03 (australian-road-signs-visitors-guide, caravan-park-vs-holiday-park, towing-caravan-australia-road-rules, camping-rules-northern-territory, melbourne-to-adelaide-coastal-route). nb 26/77 guides complete after b01-b03.
 
 ## Next
-Overnight rule: no subagents. b07 draft was lost to a rate limit (redo myself); b08 draft exists in /tmp/kai-nb-a/batches/b08.nb.json, needs my review then land. Then reviews, apply, continue b06+.
+Overnight rule: no subagents. b07 draft was lost to a rate limit: draft b07 myself (best-camping-app-australia, driving-in-australia-road-rules-visitors, nullarbor-crossing-camping-guide, australian-alps-camping-route, flinders-ranges-camping-guide), then b09-b12. Then reviews, apply, continue b06+.
 
 ## Blockers
 none
