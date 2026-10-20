@@ -27,6 +27,7 @@ b12 south-west-wa-camping-loop, victoria-high-country-camping, kangaroo-island-c
 Skipped (other lane): wikicamps-alternatives, campermate-alternatives, best-fuel-price-apps-australia, best-road-trip-planner-apps-australia, best-free-camping-apps-australia, best-caravan-rv-apps-australia, best-apps-working-holiday-australia.
 
 ## Done
+b09 (australia-road-trip-fatigue-wildlife-safety, how-to-plan-trip-aussiecamps, how-to-use-aussiecamps-filters, save-collections-aussiecamps, aussiecamps-place-details). nb 56/77 after b09.
 b07 (best-camping-app-australia, driving-in-australia-road-rules-visitors, nullarbor-crossing-camping-guide, australian-alps-camping-route, flinders-ranges-camping-guide). nb 51/77 after b07.
 b08 (red-centre-way-camping, driving-in-australia-overseas-licence, camping-with-dogs-australia, camping-weather-safety-australia, driving-with-road-trains-australia). nb 46/77 after b08 (b07 still to do).
 b06 (sunshine-coast-hinterland-camping, gibb-river-road-camping, campfires-camping-australia, overseas-driver-licence-australia-state-guide, adelaide-to-uluru-road-trip). nb 41/77 after b06.
@@ -36,7 +37,7 @@ b01 (sleeping-in-car-australia, camping-rules-new-south-wales, camping-rules-wes
 b02 (campervan-road-trip-budget-australia, accommodation-costs-australia-2026, camping-rules-south-australia, camping-rules-act, camping-rules-queensland), b03 (australian-road-signs-visitors-guide, caravan-park-vs-holiday-park, towing-caravan-australia-road-rules, camping-rules-northern-territory, melbourne-to-adelaide-coastal-route). nb 26/77 guides complete after b01-b03.
 
 ## Next
-Overnight rule: no subagents. Overnight rule: no subagents; I draft and review myself using /tmp/kai-nb-a/parts/<slug>.json (links written as ⟦slug|text⟧, build.py converts), then build.py bNN, checkbatch.py, linkcheck.py, negcheck.py/negscreen.py, fixnames.py, land.sh. Next: b09 (fatigue-wildlife, how-to-plan-trip, how-to-use-filters, save-collections, place-details), then b10-b12. Then reviews, apply, continue b06+.
+Overnight rule: no subagents. Overnight rule: no subagents; I draft and review myself using /tmp/kai-nb-a/parts/<slug>.json (links written as ⟦slug|text⟧, build.py converts), then build.py bNN, checkbatch.py, linkcheck.py, negcheck.py/negscreen.py, fixnames.py, land.sh. Next: b10 (aussiecamps-widgets-guide, camping-packing-list-australia, first-campervan-trip-australia, road-trip-fuel-planning-australia, responsible-camping-australia), then b11, b12. Then reviews, apply, continue b06+.
 
 ## Blockers
 none
