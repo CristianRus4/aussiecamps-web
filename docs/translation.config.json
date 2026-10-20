@@ -11,7 +11,6 @@
         "it",
         "nl",
         "pt",
-        "zh-hans",
         "cs",
         "pl"
       ],
@@ -32,10 +31,6 @@
         {
           "locale": "pt",
           "path": "../lib/translations/pt.json"
-        },
-        {
-          "locale": "zh-hans",
-          "path": "../lib/translations/zh-hans.json"
         },
         {
           "locale": "cs",
@@ -84,8 +79,7 @@
         }
       },
       "varieties": {
-        "pt": "pt-PT",
-        "zh-hans": "zh-Hans"
+        "pt": "pt-PT"
       },
       "register": {
         "de": "informal",
@@ -565,6 +559,57 @@
       },
       "styleGuide": {
         "ja": "Follow docs/translation-style/ja.md: natural です・ます travel-writer Japanese, full-width punctuation, katakana exonyms, no ダンプ and no offline-map claims."
+      }
+    },
+    {
+      "id": "aussiecamps-website-zh-Hans",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "zh-hans"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "zh-hans",
+          "path": "../lib/translations/zh-hans.json"
+        }
+      ],
+      "protectedTerms": [
+        "AussieCamps",
+        "AussieCamping",
+        "AUD"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {
+        "dump point": {
+          "zh-hans": "排污站"
+        },
+        "rest area": {
+          "zh-hans": "休息区"
+        },
+        "holiday park": {
+          "zh-hans": "假日公园"
+        },
+        "caravan park": {
+          "zh-hans": "房车营地"
+        },
+        "New Zealand": {
+          "zh-hans": "新西兰"
+        }
+      },
+      "register": {
+        "zh-hans": "informal"
+      },
+      "styleGuide": {
+        "zh-hans": "Follow docs/translation-style/zh-hans.md: write as a seasoned mainland Chinese self-drive guide writer, address the reader as 你, short topic-first clauses, full-width punctuation, “ ” quotes, no em dashes or 破折号, Simplified characters only, never claim an offline map."
+      },
+      "varieties": {
+        "zh-hans": "zh-Hans"
       }
     }
   ]
