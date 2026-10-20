@@ -11,10 +11,7 @@
         "it",
         "nl",
         "pt",
-        "ja",
-        "ko",
-        "cs",
-        "pl"
+        "cs"
       ],
       "source": "../lib/translations/en.json",
       "targets": [
@@ -35,20 +32,8 @@
           "path": "../lib/translations/pt.json"
         },
         {
-          "locale": "ja",
-          "path": "../lib/translations/ja.json"
-        },
-        {
-          "locale": "ko",
-          "path": "../lib/translations/ko.json"
-        },
-        {
           "locale": "cs",
           "path": "../lib/translations/cs.json"
-        },
-        {
-          "locale": "pl",
-          "path": "../lib/translations/pl.json"
         }
       ],
       "protectedTerms": [
@@ -79,7 +64,8 @@
           "fr": "Australie",
           "it": "Australia",
           "nl": "Australië",
-          "pt": "Austrália"
+          "pt": "Austrália",
+          "cs": "Austrálie"
         },
         "Tasmania": {
           "de": "Tasmanien"
@@ -97,7 +83,8 @@
         "fr": "formal",
         "it": "informal",
         "nl": "informal",
-        "pt": "informal"
+        "pt": "informal",
+        "cs": "formal"
       }
     },
     {
@@ -461,6 +448,117 @@
       }
     },
     {
+      "id": "aussiecamps-website-ko",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "ko"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "ko",
+          "path": "../lib/translations/ko.json"
+        }
+      ],
+      "protectedTerms": [
+        "AussieCamps",
+        "AussieCamping",
+        "AUD"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {
+        "holiday park": {
+          "ko": "홀리데이 파크"
+        },
+        "caravan park": {
+          "ko": "캐러밴 파크"
+        },
+        "national park": {
+          "ko": "국립공원"
+        },
+        "dump point": {
+          "ko": "덤프 포인트"
+        },
+        "working holiday": {
+          "ko": "워킹홀리데이"
+        }
+      },
+      "styleGuide": {
+        "ko": "Follow docs/translation-style/ko.md: 해요체 throughout, native Korean travel-writer voice, standard 띄어쓰기, Hangul exonyms for states and places (뉴사우스웨일스, 퀸즐랜드), never bare 덤프, never 오프라인 지도."
+      }
+    },
+    {
+      "id": "aussiecamps-website-ja",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "ja"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "ja",
+          "path": "../lib/translations/ja.json"
+        }
+      ],
+      "protectedTerms": [
+        "AussieCamps",
+        "AussieCamping",
+        "AUD"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {
+        "Australia": {
+          "ja": "オーストラリア"
+        },
+        "New South Wales": {
+          "ja": "ニューサウスウェールズ"
+        },
+        "Victoria": {
+          "ja": "ビクトリア"
+        },
+        "Queensland": {
+          "ja": "クイーンズランド"
+        },
+        "South Australia": {
+          "ja": "南オーストラリア"
+        },
+        "Western Australia": {
+          "ja": "西オーストラリア"
+        },
+        "Tasmania": {
+          "ja": "タスマニア"
+        },
+        "Northern Territory": {
+          "ja": "ノーザンテリトリー"
+        },
+        "Australian Capital Territory": {
+          "ja": "オーストラリア首都特別地域"
+        },
+        "Tourism Australia": {
+          "ja": "オーストラリア政府観光局"
+        },
+        "Reserve Bank of Australia": {
+          "ja": "オーストラリア準備銀行"
+        }
+      },
+      "register": {
+        "ja": "formal"
+      },
+      "styleGuide": {
+        "ja": "Follow docs/translation-style/ja.md: natural です・ます travel-writer Japanese, full-width punctuation, katakana exonyms, no ダンプ and no offline-map claims."
+      }
+    },
+    {
       "id": "aussiecamps-website-zh-Hans",
       "adapter": "web-json",
       "sourceLocale": "en",
@@ -509,6 +607,81 @@
       },
       "varieties": {
         "zh-hans": "zh-Hans"
+      }
+    },
+    {
+      "id": "aussiecamps-website-pl",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "pl"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "pl",
+          "path": "../lib/translations/pl.json"
+        }
+      ],
+      "protectedTerms": [
+        "AussieCamps",
+        "AussieCamping",
+        "AUD",
+        "Tourism Australia",
+        "Reserve Bank of Australia",
+        "Virgin Australia",
+        "Queensland",
+        "Uluṟu",
+        "Ikara",
+        "Tjoritja",
+        "Kakadu",
+        "Namadgi"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {
+        "Australia": {
+          "pl": "Australia"
+        },
+        "New South Wales": {
+          "pl": "Nowa Południowa Walia"
+        },
+        "Victoria": {
+          "pl": "Wiktoria"
+        },
+        "Queensland": {
+          "pl": "Queensland"
+        },
+        "South Australia": {
+          "pl": "Australia Południowa"
+        },
+        "Western Australia": {
+          "pl": "Australia Zachodnia"
+        },
+        "Tasmania": {
+          "pl": "Tasmania"
+        },
+        "Northern Territory": {
+          "pl": "Terytorium Północne"
+        },
+        "Australian Capital Territory": {
+          "pl": "Australijskie Terytorium Stołeczne"
+        },
+        "Central Australia": {
+          "pl": "Czerwone Centrum"
+        },
+        "K'gari": {
+          "pl": "K’gari"
+        }
+      },
+      "register": {
+        "pl": "informal"
+      },
+      "styleGuide": {
+        "pl": "Follow docs/translation-style/pl.md: native Polish travel-writer voice for readers from Poland, informal ty (singular, lower case, no Pan/Pani), no gendered forms aimed at the reader, Polish state names (Nowa Południowa Walia, Wiktoria, Australia Zachodnia), kemping and nocleg na dziko, no calques, no offline-map claims."
       }
     }
   ]
