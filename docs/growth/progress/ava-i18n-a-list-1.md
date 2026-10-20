@@ -14,10 +14,10 @@ da, nb, sv each have their own (`aussiecamps-website-<code>`).
   `npm run translations:stamp -- --locale <code>`, `npm run content:check`, commit.
 
 ## Done
-(nothing yet)
+- de: all five pages translated, Opus-reviewed, negation-checked, applied and stamped; `content:check` passes (de 75/75 guides).
 
 ## Next
-de, then nl, da, nb, sv.
+nl, da (drafted and reviewed in /tmp/alist1/out, apply next), then nb, sv.
 
 ## Blockers
 None.
