@@ -16,9 +16,16 @@ one language at a time (de and da are the completeness reference). Branch `i18n/
 
 ## Done
 - Setup, brief, lint scripts.
+- es (0b635db) and fr (4b67ce9): 116 units each, drafted (sonnet high), native review (opus medium), negation check, applied, stamped.
+  `npm run check` passed (907 pages); /es/tools/ and /fr/tools/ (hub and five calculators) are `index, follow` and in sitemaps/es.xml, fr.xml.
+- it: drafted and reviewed (`/tmp/tools-i18n/it-values.reviewed.json`), not yet applied.
 
 ## Next
-- es, fr (handoff), it, nl (handoff), pt, nb (handoff), sv (final handoff).
+- Apply it (dry run, apply, stamp, commit), nl (draft was interrupted by a usage limit; resume or redraft), handoff after nl.
+- Then pt, nb (handoff), sv (final handoff).
+
+## Notes
+- The engine rejects a unit whose English holds a protected term (AUD) if the translation drops it: the currency-converter metaTitle must keep "AUD".
 
 ## Blockers
 - None.
