@@ -8471,5 +8471,201 @@
     "decline": "Refuser",
     "learnMore": "Politique de confidentialité",
     "privacyChoices": "Choix de confidentialité"
+  },
+  "tools": {
+    "common": {
+      "home": "Accueil",
+      "tools": "Outils",
+      "calculator": "Calculateur",
+      "howItWorks": "Mode de calcul",
+      "workedExample": "Exemple chiffré",
+      "assumptions": "Hypothèses",
+      "commonQuestions": "Questions fréquentes",
+      "readNext": "Guides des coûts et de la préparation",
+      "sources": "Sources",
+      "ctaEyebrow": "Dans l’app",
+      "passNote": "AussieCamps se télécharge gratuitement. Les séjours et les excursions réservables se consultent gratuitement ; les campings, aires de repos, aires de vidange, points d’eau, toilettes et le planificateur de voyage nécessitent le Pass.",
+      "iphoneOnly": "AussieCamps est une app pour iPhone.",
+      "openTool": "Formule, exemple chiffré et questions",
+      "allTools": "Tous les outils de road trip"
+    },
+    "tools": {
+      "fuel-cost-calculator": {
+        "metaTitle": "Calcul du coût du carburant : road trip en Australie",
+        "metaDescription": "Calculez le budget essence ou diesel d’un road trip en Australie à partir de la distance, des l/100 km et du prix du litre. Litres, coût total et coût au km, avec la formule et un exemple chiffré.",
+        "title": "Calculateur du coût du carburant pour un road trip en Australie",
+        "intro": "Saisissez la distance, la consommation de votre véhicule chargé et le prix du litre. Vous obtenez les litres que le trajet va consommer, la facture de carburant et le coût au kilomètre : de quoi budgéter tout l’itinéraire avant le premier plein.",
+        "formula": [
+          "Litres = distance (km) × consommation (l/100 km) ÷ 100",
+          "Coût du carburant = litres × prix du litre ($ AU/l)",
+          "Coût au km = coût du carburant ÷ distance"
+        ],
+        "formulaNote": "Le calculateur arrondit les litres à une décimale et les montants au centime. Rien d’autre n’est ajouté : péages, huile et usure des pneus sont des postes à part dans un budget.",
+        "example": [
+          "Un trajet de 1 000 km avec un véhicule qui consomme 12 l/100 km, à 2,08 $ AU le litre, soit le prix moyen de l’essence dans les cinq plus grandes villes selon les données Fuel Plan du 5 août 2026.",
+          "1 000 × 12 ÷ 100 = 120 litres. 120 × 2,08 $ AU = 249,60 $ AU. 249,60 $ AU ÷ 1 000 km = environ 0,25 $ AU du kilomètre.",
+          "Avec un véhicule diesel, au prix moyen du gazole ce jour-là (2,47 $ AU le litre), le même trajet coûte 120 × 2,47 $ AU = 296,40 $ AU."
+        ],
+        "assumptions": [
+          "La consommation est celle du véhicule chargé. Un van, une charge sur le toit ou une caravane à l’arrière consomment plus que le chiffre du constructeur : mesurez la vôtre si possible.",
+          "Les moyennes des villes ne sont qu’un point de départ. Les stations-service isolées (roadhouses) facturent généralement plus cher : augmentez le prix pour les étapes dans l’Outback.",
+          "La distance est celle de tout l’itinéraire, y compris les détours vers les campings, les points de vue et les villes en dehors de la route principale."
+        ],
+        "faq": [
+          [
+            "Comment connaître la consommation réelle de mon véhicule ?",
+            "Faites le plein, remettez le compteur journalier à zéro et roulez comme d’habitude. Au plein suivant, divisez les litres ajoutés par les kilomètres parcourus, puis multipliez par 100. C’est votre consommation en l/100 km avec le véhicule chargé, le chiffre dont ce calculateur a besoin."
+          ],
+          [
+            "Comment calculer le coût du carburant au km ?",
+            "Divisez les l/100 km par 100 et multipliez par le prix du litre. À 12 l/100 km et 2,08 $ AU le litre, cela donne 0,12 × 2,08, soit environ 0,25 $ AU du kilomètre."
+          ],
+          [
+            "Quel prix du carburant utiliser ?",
+            "Prenez le carburant de votre véhicule et le prix le plus récent que vous trouverez pour la région. Selon Fuel Plan, les moyennes des cinq villes au 5 août 2026 étaient de 2,08 $ AU le litre pour l’essence et de 2,47 $ AU pour le diesel ; comptez davantage dans les zones isolées."
+          ]
+        ],
+        "ctaTitle": "Planifiez les arrêts entre deux pleins.",
+        "ctaText": "AussieCamps répertorie {restAreas} aires de repos et {dumpPoints} aires de vidange en Australie, et transforme les lieux enregistrés en itinéraire à plusieurs étapes avec les distances."
+      },
+      "drive-time-calculator": {
+        "metaTitle": "Calculateur de temps de trajet en Australie : journées de route",
+        "metaDescription": "Estimez la durée réelle d’une journée de route en Australie à partir de la distance, du type de route et des arrêts. Vitesses moyennes retenues, formule et exemple chiffré.",
+        "title": "Calculateur de temps de trajet pour un road trip en Australie",
+        "intro": "Les applis de cartes annoncent le temps de roulage sur une route dégagée. Ce calculateur planifie la journée que vous passerez réellement au volant : une vitesse moyenne selon le type de route, plus le temps à l’arrêt pour le carburant, les repas et les pauses.",
+        "formula": [
+          "Minutes de conduite = distance (km) ÷ vitesse moyenne (km/h) × 60",
+          "Minutes totales = minutes de conduite + arrêts × 20",
+          "Vitesses moyennes : 85 km/h autoroute ou longue ligne droite, 70 km/h route principale, 60 km/h route sinueuse ou côtière, 45 km/h route étroite, pentue ou en gravier"
+        ],
+        "formulaNote": "Ces vitesses sont des moyennes de planification qui tiennent compte des villes, des travaux, des véhicules lents et des voies de dépassement. Ce ne sont pas des limitations de vitesse.",
+        "example": [
+          "Une journée de 250 km sur une route côtière sinueuse, avec trois arrêts.",
+          "250 ÷ 60 × 60 = 250 minutes de conduite. Trois arrêts ajoutent 3 × 20 = 60 minutes.",
+          "La journée dure 310 minutes, soit 5 h 10 min. Sur une route principale à 70 km/h, la même distance avec les mêmes arrêts prend 4 h 34 min."
+        ],
+        "assumptions": [
+          "Chaque arrêt compte pour 20 minutes : un plein, un repas, une pause toilettes ou un changement de conducteur.",
+          "Le calcul ne prévoit pas de conduite de nuit. La faune est surtout active à l’aube et au crépuscule : prévoyez d’arriver avant la tombée de la nuit.",
+          "L’état des pistes non goudronnées varie avec la météo et la saison. Avant un tronçon en gravier, vérifiez les conditions auprès de l’organisme routier de l’État concerné."
+        ],
+        "faq": [
+          [
+            "Pourquoi le résultat est-il plus long que celui de mon appli de cartes ?",
+            "Les applis de navigation estiment un temps de roulage proche des limitations affichées. Ce calculateur ajoute le profil de la route et le temps passé à l’arrêt : c’est généralement là qu’une longue journée prend du retard."
+          ],
+          [
+            "Quel type de route choisir pour un van ?",
+            "Choisissez « route principale » pour la plupart des routes nationales goudronnées, « sinueuse ou côtière » pour les itinéraires vallonnés et littoraux, et « étroite, pentue ou en gravier » pour les pistes non goudronnées et les cols de montagne. En montée, un van lourd ou une caravane roule encore plus lentement."
+          ],
+          [
+            "Le résultat inclut-il les arrêts carburant et repas ?",
+            "Seulement les arrêts que vous saisissez. Comptez-en un par plein, repas ou pause prévus ; chacun ajoute 20 minutes à la journée."
+          ]
+        ],
+        "ctaTitle": "Sachez où la journée finit avant de la commencer.",
+        "ctaText": "AussieCamps répertorie {campgrounds} campings et {restAreas} aires de repos, et construit un itinéraire à plusieurs étapes avec la distance routière entre les étapes."
+      },
+      "campsite-cost-calculator": {
+        "metaTitle": "Calculateur de tarif de camping : par personne ou par emplacement ?",
+        "metaDescription": "Comparez un tarif de camping facturé par adulte et un tarif par emplacement pour votre groupe et vos nuits. Point d’équilibre, formule et exemple chiffré en AUD.",
+        "title": "Calculateur de tarif de camping : par personne ou par emplacement ?",
+        "intro": "Certains campings facturent par adulte et par nuit, d’autres fixent un prix pour tout l’emplacement. La formule la moins chère dépend du nombre d’adultes de votre groupe : ce calculateur chiffre les deux pour le même séjour.",
+        "formula": [
+          "Total par adulte = adultes × nuits × tarif par adulte",
+          "Total par emplacement = nuits × tarif par emplacement",
+          "Point d’équilibre (nombre d’adultes) = tarif par emplacement ÷ tarif par adulte"
+        ],
+        "formulaNote": "Au-delà du point d’équilibre (en nombre d’adultes), le tarif par emplacement est le moins cher ; en deçà, c’est le tarif par adulte.",
+        "example": [
+          "Deux adultes pour cinq nuits, en comparant 20 $ AU par adulte et par nuit à 50 $ AU par emplacement et par nuit.",
+          "Par adulte : 2 × 5 × 20 $ AU = 200 $ AU. Par emplacement : 5 × 50 $ AU = 250 $ AU. Le tarif par adulte est moins cher de 50 $ AU.",
+          "Le point d’équilibre est de 50 $ AU ÷ 20 $ AU = 2,5 adultes : avec trois adultes, le total par adulte passe à 300 $ AU et le prix par emplacement l’emporte."
+        ],
+        "assumptions": [
+          "Les enfants et les détenteurs de cartes de réduction paient souvent un autre tarif. Ne saisissez que les adultes, ou indiquez un tarif moyen.",
+          "Les frais de réservation et les droits d’entrée du parc sont à part. Ajoutez-les au prix par emplacement pour comparer ce qui est comparable.",
+          "Les chiffres que vous saisissez sont les seules données utilisées ; vérifiez le tarif en vigueur sur la page de réservation officielle."
+        ],
+        "faq": [
+          [
+            "Quand le tarif par emplacement est-il moins cher ?",
+            "Quand le nombre d’adultes dépasse le tarif par emplacement divisé par le tarif par adulte. À 50 $ AU l’emplacement et 20 $ AU par adulte, cela donne 2,5 : un groupe de trois adultes ou plus paie moins avec le tarif par emplacement."
+          ],
+          [
+            "Les campings des parcs nationaux facturent-ils par personne ?",
+            "Dans de nombreux campings de parcs d’État, le tarif se calcule par adulte et par nuit, alors que les holiday parks (campings privés tout équipés) facturent généralement l’emplacement. Chaque gestionnaire de site fixe son mode de tarification : consultez-le sur la page officielle avant de comparer."
+          ]
+        ],
+        "ctaTitle": "Comparez les campings sur la carte.",
+        "ctaText": "AussieCamps répertorie {campgrounds} campings avec les tarifs et les équipements quand le gestionnaire du site les publie, et renvoie chacun vers sa page officielle."
+      },
+      "currency-converter": {
+        "metaTitle": "Convertisseur de dollar australien (AUD) pour voyageurs : taux RBA",
+        "metaDescription": "Convertissez des prix en dollars australiens vers et depuis NZD, USD, GBP, EUR, CNY, INR, SGD, JPY et KRW avec les taux de référence datés de la Reserve Bank of Australia.",
+        "title": "Convertisseur de dollars australiens pour préparer votre voyage",
+        "intro": "Convertissez un prix australien dans la devise dans laquelle vous raisonnez, ou l’inverse. Les taux sont les taux de référence de la Reserve Bank of Australia (la banque centrale du pays), avec leur date : vous savez exactement d’où vient le chiffre.",
+        "formula": [
+          "Montant converti = montant ÷ taux de la devise de départ × taux de la devise d’arrivée",
+          "Chaque taux est le nombre d’unités de cette devise pour 1 $ AU"
+        ],
+        "formulaNote": "Passer par le dollar australien assure la cohérence de toutes les paires : de NZD vers USD, on utilise les deux mêmes taux que pour les conversions depuis l’AUD.",
+        "example": [
+          "100 $ AU à un taux de 1,2033 NZD pour un dollar australien.",
+          "100 ÷ 1 × 1,2033 = 120,33 $ NZ.",
+          "Dans l’autre sens, 100 $ NZ ÷ 1,2033 × 1 = 83,10 $ AU."
+        ],
+        "assumptions": [
+          "Les taux de référence sont des cours moyens du marché, utiles pour planifier. Les banques, les réseaux de cartes et les bureaux de change ajoutent leur propre marge ou leurs frais.",
+          "Les taux bougent chaque jour ouvré. Utilisez le résultat pour évaluer un prix, pas comme un devis."
+        ],
+        "faq": [
+          [
+            "Quels taux de change le convertisseur utilise-t-il ?",
+            "Les taux de référence de la Reserve Bank of Australia, affichés avec la date à laquelle ils s’appliquent et exprimés en unités de chaque devise pour un dollar australien."
+          ],
+          [
+            "Pourquoi ma banque débite-t-elle un autre montant ?",
+            "Les banques et les réseaux de cartes appliquent leur propre taux et ajoutent souvent une marge ou des frais sur les paiements à l’étranger : le montant débité diffère donc d’une conversion au taux de référence."
+          ]
+        ],
+        "ctaTitle": "Consultez les tarifs dans votre devise.",
+        "ctaText": "AussieCamps affiche les tarifs signalés à côté du montant en dollars australiens, dans la devise que vous choisissez, avec un taux de conversion que vous définissez une fois pour toutes."
+      },
+      "water-tank-calculator": {
+        "metaTitle": "Autonomie en eau d’un van : calculateur de réservoir",
+        "metaDescription": "Transformez la taille de vos réservoirs d’eau propre et d’eaux grises en jours d’autonomie pour votre groupe. Litres retenus par personne, formule et exemple chiffré pour un van en Australie.",
+        "title": "Calculateur de réservoir d’eau pour van : combien de jours d’autonomie ?",
+        "intro": "La taille d’un réservoir en litres ne devient utile qu’une fois exprimée en jours. Saisissez la capacité d’eau propre et d’eaux grises ainsi que le nombre de personnes : le calculateur indique combien de temps tient chaque réservoir et lequel fixe votre limite.",
+        "formula": [
+          "Jours d’eau propre = réservoir d’eau propre (l) ÷ (personnes × 11 l)",
+          "Jours d’eaux grises = réservoir d’eaux grises (l) ÷ (personnes × 9 l)",
+          "Jours d’autonomie = le plus petit des deux résultats"
+        ],
+        "formulaNote": "11 litres d’eau propre et 9 litres d’eaux grises par personne et par jour couvrent la boisson, la cuisine et la vaisselle, avec un usage économe. Les douches à bord en consomment beaucoup plus.",
+        "example": [
+          "Un van avec un réservoir d’eau propre de 100 l et un réservoir d’eaux grises de 90 l, pour deux personnes.",
+          "Eau propre : 100 ÷ (2 × 11) = 4,5 jours. Eaux grises : 90 ÷ (2 × 9) = 5,0 jours.",
+          "Le réservoir d’eau propre se vide en premier, au bout de quatre jours et demi environ : prévoyez de refaire le plein d’eau avant le cinquième jour."
+        ],
+        "assumptions": [
+          "Les chiffres par personne sont des moyennes. Le temps chaud, la cuisine à l’eau et les douches les font monter.",
+          "Les cassettes (WC chimique) forment un réservoir à part et ne sont pas incluses.",
+          "Ne videz les eaux grises que là où c’est autorisé, par exemple à une aire de vidange ou sur un site agréé."
+        ],
+        "faq": [
+          [
+            "Combien d’eau une personne consomme-t-elle par jour dans un van ?",
+            "Ce calculateur retient environ 11 litres d’eau propre par personne et par jour pour la boisson, la cuisine et la vaisselle, et environ 9 litres d’eaux grises. Une douche quotidienne à bord en consomme beaucoup plus : prévoyez-la à part."
+          ],
+          [
+            "Quel réservoir atteint sa limite en premier : eau propre ou eaux grises ?",
+            "Le réservoir qui donne le plus petit nombre de jours. À tailles de réservoirs égales, plus de personnes ou plus de lavage raccourcissent les deux ; le calculateur les affiche côte à côte pour que vous sachiez lequel fixe la limite."
+          ]
+        ],
+        "ctaTitle": "Repérez le prochain point d’eau et la prochaine aire de vidange.",
+        "ctaText": "AussieCamps répertorie {water} points de remplissage d’eau et {dumpPoints} aires de vidange en Australie, avec les équipements indiqués pour chacun."
+      }
+    }
   }
 }

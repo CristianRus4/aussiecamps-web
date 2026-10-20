@@ -9321,5 +9321,201 @@
     "decline": "Weigeren",
     "learnMore": "Privacybeleid",
     "privacyChoices": "Privacykeuzes"
+  },
+  "tools": {
+    "common": {
+      "home": "Home",
+      "tools": "Rekenhulpen",
+      "calculator": "Rekenhulp",
+      "howItWorks": "Zo wordt het berekend",
+      "workedExample": "Voorbeeldberekening",
+      "assumptions": "Uitgangspunten",
+      "commonQuestions": "Veelgestelde vragen",
+      "readNext": "Gidsen over kosten en planning",
+      "sources": "Bronnen",
+      "ctaEyebrow": "In de app",
+      "passNote": "AussieCamps is gratis te downloaden. Boekbare verblijven en tours kun je gratis bekijken; voor campings, rustplaatsen, lozingspunten, water, toiletten en de reisplanner heb je de Pass nodig.",
+      "iphoneOnly": "AussieCamps is een iPhone-app.",
+      "openTool": "Formule, voorbeeldberekening en vragen",
+      "allTools": "Alle rekenhulpen voor je roadtrip"
+    },
+    "tools": {
+      "fuel-cost-calculator": {
+        "metaTitle": "Brandstofkosten berekenen: roadtrip Australië",
+        "metaDescription": "Bereken benzine of diesel voor een roadtrip door Australië met afstand, l/100 km en literprijs. Zie liters, totaalkosten en kosten per km, plus formule en voorbeeld.",
+        "title": "Brandstofkosten berekenen voor een roadtrip door Australië",
+        "intro": "Vul de afstand, het verbruik van je voertuig met lading en de prijs per liter in. Je krijgt het aantal liters dat de rit kost, de brandstofrekening en de kosten per kilometer, zodat je de hele route kunt budgetteren voordat je voor het eerst tankt.",
+        "formula": [
+          "Liters = afstand (km) × verbruik (l/100 km) ÷ 100",
+          "Brandstofkosten = liters × prijs per liter (A$/liter)",
+          "Kosten per km = brandstofkosten ÷ afstand"
+        ],
+        "formulaNote": "De rekenhulp rondt liters af op één decimaal en bedragen op de cent. Er wordt verder niets bij opgeteld: tol, olie en bandenslijtage zijn aparte posten in een budget.",
+        "example": [
+          "Een rit van 1.000 km in een voertuig dat 12 l/100 km verbruikt, bij A$ 2,08 per liter: het gemiddelde voor benzine in de vijf grootste steden volgens de Fuel Plan-gegevens van 5 augustus 2026.",
+          "1.000 × 12 ÷ 100 = 120 liter. 120 × A$ 2,08 = A$ 249,60. A$ 249,60 ÷ 1.000 km = ongeveer A$ 0,25 per kilometer.",
+          "Dezelfde rit met een dieselvoertuig, tegen het dieselgemiddelde van die dag van A$ 2,47 per liter, kost 120 × A$ 2,47 = A$ 296,40."
+        ],
+        "assumptions": [
+          "Het verbruik is het cijfer met lading. Met een camper, bagage op het dak of een caravan erachter verbruik je meer dan het cijfer in de brochure, dus meet je eigen verbruik als je kunt.",
+          "Gemiddelden voor steden zijn een beginpunt. Afgelegen roadhouses rekenen meestal meer, dus reken voor etappes door de outback met een hogere prijs.",
+          "De afstand is de hele route, inclusief de omwegen naar campings, uitkijkpunten en dorpen en steden buiten de highway."
+        ],
+        "faq": [
+          [
+            "Hoe vind ik het echte verbruik van mijn voertuig?",
+            "Tank vol, zet de dagteller op nul en rij zoals je normaal rijdt. Deel bij de volgende tankbeurt de bijgetankte liters door de gereden kilometers en vermenigvuldig met 100. Dat is je l/100 km met lading, en dat getal heeft deze rekenhulp nodig."
+          ],
+          [
+            "Hoe bereken ik de brandstofkosten per km?",
+            "Deel het verbruik in l/100 km door 100 en vermenigvuldig met de prijs per liter. Bij 12 l/100 km en A$ 2,08 per liter is dat 0,12 × 2,08, ongeveer A$ 0,25 per kilometer."
+          ],
+          [
+            "Welke brandstofprijs moet ik gebruiken?",
+            "Neem de brandstof die je voertuig nodig heeft en de meest recente prijs die je voor de regio kunt vinden. De gemiddelden van Fuel Plan voor de vijf steden op 5 augustus 2026 waren A$ 2,08 per liter voor benzine en A$ 2,47 voor diesel; reken in afgelegen gebieden op meer."
+          ]
+        ],
+        "ctaTitle": "Plan de stops tussen de tankbeurten.",
+        "ctaText": "AussieCamps zet {restAreas} rustplaatsen (rest areas) en {dumpPoints} lozingspunten (dump points) in heel Australië op de kaart en maakt van opgeslagen plekken een route met meerdere stops en afstanden."
+      },
+      "drive-time-calculator": {
+        "metaTitle": "Rijtijd berekenen Australië: echte dagetappes",
+        "metaDescription": "Schat hoe lang een rijdag in Australië echt duurt, uit afstand, wegtype en stops. Met de gebruikte gemiddelde snelheden, de formule en een voorbeeldberekening.",
+        "title": "Rijtijd berekenen voor een roadtrip door Australië",
+        "intro": "Navigatie-apps geven de rijtijd op een vrije weg. Deze rekenhulp plant de dag zoals je die echt rijdt: een gemiddelde snelheid voor het soort weg, plus de tijd die je stilstaat voor brandstof, eten en pauzes.",
+        "formula": [
+          "Rijminuten = afstand (km) ÷ gemiddelde snelheid (km/u) × 60",
+          "Totaal aantal minuten = rijminuten + stops × 20",
+          "Gemiddelde snelheden: 85 km/u op een snelweg of open, rechte weg, 70 km/u op een hoofdweg, 60 km/u op een bochtige weg of kustweg, 45 km/u op een smalle, steile of onverharde weg"
+        ],
+        "formulaNote": "De snelheden zijn gemiddelden om mee te plannen, met ruimte voor dorpen en steden, wegwerkzaamheden, langzaam verkeer en inhaalstroken. Het zijn geen maximumsnelheden.",
+        "example": [
+          "Een dag van 250 km over een bochtige kustweg met drie stops.",
+          "250 ÷ 60 × 60 = 250 minuten rijden. Voor drie stops komt er 3 × 20 = 60 minuten bij.",
+          "De dag duurt 310 minuten, oftewel 5 uur en 10 minuten. Op een hoofdweg met 70 km/u kost dezelfde afstand met dezelfde stops 4 uur en 34 minuten."
+        ],
+        "assumptions": [
+          "Elke stop telt voor 20 minuten: een tankstop, een maaltijd, een toiletpauze of een chauffeurswissel.",
+          "Met rijden in het donker houdt de rekenhulp geen rekening. Wilde dieren zijn rond zonsopgang en zonsondergang het actiefst, dus plan je aankomst vóór het donker.",
+          "Hoe onverharde wegen erbij liggen, hangt af van het weer en het seizoen. Check de omstandigheden bij de wegenautoriteit van de staat voordat je aan een stuk gravelweg begint."
+        ],
+        "faq": [
+          [
+            "Waarom is de uitkomst langer dan in mijn navigatie-app?",
+            "Navigatie-apps schatten de rijtijd dicht bij de toegestane snelheid. Deze rekenhulp telt het karakter van de weg en de tijd dat je stilstaat erbij, en daar loopt een lange dag meestal uit."
+          ],
+          [
+            "Welk wegtype kies ik voor een camper?",
+            "Kies ‘Hoofdweg (highway)’ voor de meeste verharde national highways, ‘Bochtig of langs de kust’ voor heuvelachtige routes en kustroutes, en ‘Smal, steil of onverhard’ voor onverharde wegen en bergpassen. Een zware camper of een caravan op een helling is nog langzamer."
+          ],
+          [
+            "Telt de uitkomst brandstof- en eetstops mee?",
+            "Alleen de stops die je invult. Tel er één voor elke tankbeurt, maaltijd of pauze die je verwacht; elke stop voegt 20 minuten aan de dag toe."
+          ]
+        ],
+        "ctaTitle": "Weet waar de dag eindigt voordat je eraan begint.",
+        "ctaText": "AussieCamps zet {campgrounds} campings en {restAreas} rustplaatsen (rest areas) op de kaart en maakt een route met meerdere stops en de rijafstand tussen de stops."
+      },
+      "campsite-cost-calculator": {
+        "metaTitle": "Campingkosten berekenen: per persoon of per plek",
+        "metaDescription": "Vergelijk een campingtarief per volwassene met een tarief per plek voor je groep en aantal nachten. Je ziet het omslagpunt in groepsgrootte, de formule en een voorbeeld in AUD.",
+        "title": "Campingkosten berekenen: per persoon of per plek?",
+        "intro": "Sommige campings rekenen per volwassene per nacht, andere rekenen een prijs voor de hele plek. Wat goedkoper is, hangt af van het aantal volwassenen in je groep. Daarom rekent deze rekenhulp beide uit voor hetzelfde verblijf.",
+        "formula": [
+          "Totaal per volwassene = volwassenen × nachten × tarief per volwassene",
+          "Totaal per plek = nachten × tarief per plek",
+          "Omslagpunt groepsgrootte = tarief per plek ÷ tarief per volwassene"
+        ],
+        "formulaNote": "Boven dit omslagpunt in aantal volwassenen is de prijs per plek goedkoper; eronder is de prijs per volwassene goedkoper.",
+        "example": [
+          "Twee volwassenen blijven vijf nachten en vergelijken A$ 20 per volwassene per nacht met A$ 50 per plek per nacht.",
+          "Per volwassene: 2 × 5 × A$ 20 = A$ 200. Per plek: 5 × A$ 50 = A$ 250. Per volwassene is A$ 50 goedkoper.",
+          "Het omslagpunt is A$ 50 ÷ A$ 20 = 2,5 volwassenen. Met drie volwassenen stijgt het totaal per volwassene dus naar A$ 300 en wint de prijs per plek."
+        ],
+        "assumptions": [
+          "Voor kinderen en houders van een kortingspas geldt vaak een ander tarief. Vul alleen volwassenen in of reken met een gemiddeld tarief.",
+          "Reserveringskosten en toegangskosten voor het park komen er apart bij. Tel ze op bij het bedrag per plek als je appels met appels wilt vergelijken.",
+          "De rekenhulp rekent alleen met de bedragen die je invult; check het actuele tarief op de officiële boekingspagina."
+        ],
+        "faq": [
+          [
+            "Wanneer is een tarief per plek goedkoper?",
+            "Als het aantal volwassenen groter is dan het tarief per plek gedeeld door het tarief per volwassene. Bij A$ 50 per plek en A$ 20 per volwassene is dat 2,5, dus een groep van drie of meer betaalt minder per plek."
+          ],
+          [
+            "Rekenen campings in nationale parken per persoon?",
+            "Veel campings in staatsparken rekenen per volwassene per nacht, terwijl holiday parks (uitgebreide campings met huisjes en faciliteiten) meestal per plek rekenen. De beheerder bepaalt waarop het tarief gebaseerd is, dus lees dat op de officiële pagina voordat je vergelijkt."
+          ]
+        ],
+        "ctaTitle": "Vergelijk campings op de kaart.",
+        "ctaText": "AussieCamps zet {campgrounds} campings op de kaart, met tarieven en voorzieningen waar de beheerder die vermeldt, en linkt elke camping naar de officiële pagina."
+      },
+      "currency-converter": {
+        "metaTitle": "AUD omrekenen voor reizigers (RBA-koersen)",
+        "metaDescription": "Reken Australische dollars om naar en van NZD, USD, GBP, EUR, CNY, INR, SGD, JPY en KRW met gedateerde referentiekoersen van de Reserve Bank of Australia.",
+        "title": "Australische dollar omrekenen voor je reisplanning",
+        "intro": "Reken een Australische prijs om naar de valuta waarin je denkt, of andersom. De koersen zijn referentiekoersen van de Reserve Bank of Australia met een vermelde datum, dus je weet precies waarop het getal is gebaseerd.",
+        "formula": [
+          "Omgerekend bedrag = bedrag ÷ koers van de valuta waarvan je omrekent × koers van de valuta waarnaar je omrekent",
+          "Elke koers is het aantal eenheden van die valuta per A$ 1"
+        ],
+        "formulaNote": "Omrekenen via de Australische dollar houdt elk valutapaar consistent: NZD naar USD gebruikt dezelfde twee koersen als de omrekeningen vanuit AUD.",
+        "example": [
+          "A$ 100 tegen een koers van 1,2033 NZD per Australische dollar.",
+          "100 ÷ 1 × 1,2033 = NZ$ 120,33.",
+          "Andersom: NZ$ 100 ÷ 1,2033 × 1 = A$ 83,10."
+        ],
+        "assumptions": [
+          "Referentiekoersen zijn middenkoersen om mee te plannen. Banken, kaartnetwerken en wisselkantoren rekenen hun eigen marge of kosten.",
+          "Koersen veranderen elke werkdag. Gebruik de uitkomst om een prijs te beoordelen, niet als offerte."
+        ],
+        "faq": [
+          [
+            "Welke wisselkoersen gebruikt de rekenhulp?",
+            "Referentiekoersen van de Reserve Bank of Australia, met de datum waarvoor ze gelden, uitgedrukt in eenheden van elke valuta per Australische dollar."
+          ],
+          [
+            "Waarom rekent mijn bank een ander bedrag?",
+            "Banken en kaartnetwerken gebruiken hun eigen koers en rekenen vaak een opslag of kosten voor buitenlandse transacties, dus het afgeschreven bedrag wijkt af van een omrekening met referentiekoersen."
+          ]
+        ],
+        "ctaTitle": "Bekijk tarieven in je eigen valuta.",
+        "ctaText": "AussieCamps toont vermelde tarieven in de valuta die je kiest, naast het bedrag in Australische dollars, tegen een omrekenkoers die je één keer instelt."
+      },
+      "water-tank-calculator": {
+        "metaTitle": "Watertank camper berekenen: dagen off grid",
+        "metaDescription": "Zet de inhoud van je schoonwater- en grijswatertank om in dagen off grid voor je groep. Met de liters per persoon, de formule en een voorbeeld voor een camperreis door Australië.",
+        "title": "Watertank camper berekenen: hoeveel dagen off grid?",
+        "intro": "Tankinhoud in liters wordt pas bruikbaar als je die omzet in dagen. Vul de inhoud van je schoonwater- en grijswatertank in plus het aantal personen. De rekenhulp laat zien hoe lang elke tank meegaat en welke tank je grens bepaalt.",
+        "formula": [
+          "Dagen schoonwater = schoonwatertank (l) ÷ (personen × 11 l)",
+          "Dagen grijswater = grijswatertank (l) ÷ (personen × 9 l)",
+          "Dagen off grid = de laagste van de twee"
+        ],
+        "formulaNote": "11 liter schoon water en 9 liter grijswater per persoon per dag is genoeg voor drinken, koken en afwassen bij zuinig gebruik. Douchen aan boord kost veel meer.",
+        "example": [
+          "Een camper met een schoonwatertank van 100 l en een grijswatertank van 90 l, met twee personen onderweg.",
+          "Schoonwater: 100 ÷ (2 × 11) = 4,5 dagen. Grijswater: 90 ÷ (2 × 9) = 5,0 dagen.",
+          "De schoonwatertank is als eerste leeg, na ongeveer vier en een halve dag, dus plan een bijvulmoment vóór dag vijf."
+        ],
+        "assumptions": [
+          "De cijfers per persoon zijn gemiddelden. Warm weer, koken met water en douchen verhogen ze.",
+          "Cassettetoiletten zijn een aparte tank en zijn niet meegerekend.",
+          "Loos grijswater alleen waar het mag, zoals bij een lozingspunt (dump point) of op een goedgekeurde plek."
+        ],
+        "faq": [
+          [
+            "Hoeveel water gebruikt één persoon per dag in een camper?",
+            "Deze rekenhulp gaat uit van ongeveer 11 liter schoon water per persoon per dag voor drinken, koken en afwassen, en ongeveer 9 liter grijswater. Een dagelijkse douche aan boord kost veel meer, dus reken die apart."
+          ],
+          [
+            "Wat is eerst leeg, schoon water of grijswater?",
+            "De tank met het laagste aantal dagen. Bij dezelfde tankinhoud gaan beide minder lang mee als je met meer mensen bent of meer wast; de rekenhulp zet de twee naast elkaar, zodat je ziet welke tank de grens bepaalt."
+          ]
+        ],
+        "ctaTitle": "Vind het volgende vulpunt en lozingspunt.",
+        "ctaText": "AussieCamps zet {water} waterpunten en {dumpPoints} lozingspunten in heel Australië op de kaart, met de voorzieningen die elk punt vermeldt."
+      }
+    }
   }
 }

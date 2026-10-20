@@ -7693,5 +7693,201 @@
     "decline": "Recusar",
     "learnMore": "Política de privacidade",
     "privacyChoices": "Preferências de privacidade"
+  },
+  "tools": {
+    "common": {
+      "home": "Início",
+      "tools": "Calculadoras",
+      "calculator": "Calculadora",
+      "howItWorks": "Como é calculado",
+      "workedExample": "Exemplo prático",
+      "assumptions": "Pressupostos",
+      "commonQuestions": "Perguntas frequentes",
+      "readNext": "Guias de custos e de planeamento",
+      "sources": "Fontes",
+      "ctaEyebrow": "Na app",
+      "passNote": "A AussieCamps transfere-se gratuitamente. As estadias e os tours que se podem reservar consultam-se sem pagar; os parques de campismo, as áreas de descanso, os pontos de despejo, a água, as casas de banho e o planeador de viagens exigem o Pass.",
+      "iphoneOnly": "A AussieCamps é uma app para iPhone.",
+      "openTool": "Fórmula, exemplo prático e perguntas",
+      "allTools": "Todas as calculadoras de viagem"
+    },
+    "tools": {
+      "fuel-cost-calculator": {
+        "metaTitle": "Calculadora de combustível: custo de uma road trip na Austrália",
+        "metaDescription": "Calcula a gasolina ou o gasóleo de uma road trip na Austrália a partir da distância, dos l/100 km e do preço por litro. Mostra os litros, o custo total e o custo por km, com a fórmula e um exemplo.",
+        "title": "Calculadora de combustível para road trips na Austrália",
+        "intro": "Indica a distância, o consumo do veículo carregado e o preço por litro. Obténs os litros que a viagem vai gastar, a conta do combustível e o custo por quilómetro, para fazeres o orçamento do percurso inteiro antes do primeiro abastecimento.",
+        "formula": [
+          "Litros = distância (km) × consumo (l/100 km) ÷ 100",
+          "Custo do combustível = litros × preço por litro (AUD/l)",
+          "Custo por km = custo do combustível ÷ distância"
+        ],
+        "formulaNote": "A calculadora arredonda os litros a uma casa decimal e o dinheiro ao cêntimo. Não se acrescenta mais nada: portagens, óleo e desgaste dos pneus são rubricas à parte no orçamento.",
+        "example": [
+          "Uma viagem de 1.000 km num veículo que consome 12 l/100 km, com a gasolina a 2,08 AUD por litro, a média da gasolina nas cinco maiores cidades segundo os dados do Fuel Plan de 5 de agosto de 2026.",
+          "1.000 × 12 ÷ 100 = 120 litros. 120 × 2,08 AUD = 249,60 AUD. 249,60 AUD ÷ 1.000 km = cerca de 0,25 AUD por quilómetro.",
+          "A mesma viagem num veículo a gasóleo, com a média do gasóleo desse dia a 2,47 AUD por litro, custa 120 × 2,47 AUD = 296,40 AUD."
+        ],
+        "assumptions": [
+          "O consumo é o do veículo carregado. Uma campervan, uma carga no tejadilho ou uma caravana atrelada gastam mais do que o valor do catálogo, por isso mede o teu, se puderes.",
+          "As médias das cidades são um ponto de partida. Os roadhouses (postos de abastecimento isolados no Outback) costumam cobrar mais, por isso sobe o preço nos troços pelo Outback.",
+          "A distância é a do percurso todo, incluindo os desvios para parques de campismo, miradouros e localidades afastadas da estrada principal."
+        ],
+        "faq": [
+          [
+            "Como descubro o consumo real do meu veículo?",
+            "Enche o depósito, põe o conta-quilómetros parcial a zero e conduz como costumas. No abastecimento seguinte, divide os litros acrescentados pelos quilómetros percorridos e multiplica por 100. Esse é o teu consumo em l/100 km com o veículo carregado, que é o valor de que esta calculadora precisa."
+          ],
+          [
+            "Como calculo o custo do combustível por km?",
+            "Divide os l/100 km por 100 e multiplica pelo preço por litro. Com 12 l/100 km e 2,08 AUD por litro, são 0,12 × 2,08, cerca de 0,25 AUD por quilómetro."
+          ],
+          [
+            "Que preço de combustível devo usar?",
+            "Usa o combustível do teu veículo e o preço mais recente que encontrares para a região. As médias de cinco cidades do Fuel Plan para 5 de agosto de 2026 foram 2,08 AUD por litro de gasolina e 2,47 AUD de gasóleo; conta com mais nas zonas remotas."
+          ]
+        ],
+        "ctaTitle": "Planeia as paragens entre abastecimentos.",
+        "ctaText": "A AussieCamps mapeia {restAreas} áreas de descanso e {dumpPoints} pontos de despejo na Austrália e transforma os locais guardados numa rota com várias paragens e distâncias."
+      },
+      "drive-time-calculator": {
+        "metaTitle": "Calculadora de tempo de condução na Austrália: dias reais",
+        "metaDescription": "Estima quanto dura mesmo um dia de condução na Austrália a partir da distância, do tipo de estrada e das paragens. Mostra as velocidades médias usadas, a fórmula e um exemplo.",
+        "title": "Calculadora de tempo de condução para road trips na Austrália",
+        "intro": "As apps de mapas indicam o tempo em andamento numa estrada livre. Esta calculadora planeia o dia que vais mesmo conduzir: uma velocidade média para o tipo de estrada, mais o tempo parado para abastecer, comer e descansar.",
+        "formula": [
+          "Minutos de condução = distância (km) ÷ velocidade média (km/h) × 60",
+          "Minutos totais = minutos de condução + paragens × 20",
+          "Velocidades médias: 85 km/h autoestrada ou reta aberta, 70 km/h estrada principal, 60 km/h sinuosa ou costeira, 45 km/h estreita, íngreme ou de terra batida"
+        ],
+        "formulaNote": "As velocidades são médias de planeamento que já têm em conta localidades, obras, veículos lentos e vias de ultrapassagem. Não são limites de velocidade.",
+        "example": [
+          "Um dia de 250 km numa estrada costeira sinuosa, com três paragens.",
+          "250 ÷ 60 × 60 = 250 minutos de condução. Três paragens somam 3 × 20 = 60 minutos.",
+          "O dia dura 310 minutos, ou seja, 5 h 10 min. Numa estrada principal a 70 km/h, a mesma distância e as mesmas paragens levam 4 h 34 min."
+        ],
+        "assumptions": [
+          "Cada paragem conta como 20 minutos: abastecer, uma refeição, uma pausa para ir à casa de banho ou uma troca de condutor.",
+          "O cálculo não prevê condução noturna. A vida selvagem está mais ativa ao amanhecer e ao entardecer, por isso tenta chegar antes de escurecer.",
+          "As estradas não asfaltadas variam com o tempo e com a época do ano. Antes de um troço de terra batida, confirma as condições junto da autoridade rodoviária do estado."
+        ],
+        "faq": [
+          [
+            "Porque é que o resultado dá mais tempo do que a minha app de mapas?",
+            "As apps de navegação estimam o tempo em andamento, perto dos limites sinalizados. Esta calculadora acrescenta o traçado da estrada e o tempo que passas parado, que é onde um dia longo costuma passar do previsto."
+          ],
+          [
+            "Que tipo de estrada devo escolher para uma campervan?",
+            "Usa estrada principal para a maioria das estradas nacionais asfaltadas, sinuosa ou costeira para percursos acidentados e costeiros, e estreita, íngreme ou de terra batida para estradas não asfaltadas e passagens de montanha. Uma campervan pesada ou uma caravana a subir é ainda mais lenta."
+          ],
+          [
+            "O resultado inclui as paragens para abastecer e comer?",
+            "Só as paragens que indicares. Acrescenta uma por cada abastecimento, refeição ou pausa que prevejas; cada uma soma 20 minutos ao dia."
+          ]
+        ],
+        "ctaTitle": "Fica a saber onde acaba o dia antes de o começares.",
+        "ctaText": "A AussieCamps mapeia {campgrounds} parques de campismo e {restAreas} áreas de descanso e cria uma rota com várias paragens e a distância de condução entre elas."
+      },
+      "campsite-cost-calculator": {
+        "metaTitle": "Calculadora de preço de campismo: por pessoa ou por lugar",
+        "metaDescription": "Compara um preço de campismo cobrado por adulto com um cobrado por lugar, para o teu grupo e as tuas noites. Mostra o ponto de equilíbrio em número de adultos, a fórmula e um exemplo em AUD.",
+        "title": "Calculadora de preço de campismo: por pessoa ou por lugar?",
+        "intro": "Alguns parques de campismo cobram por adulto e por noite, outros fixam o preço do lugar inteiro. Qual sai mais barato depende de quantos adultos são no grupo, por isso esta calculadora faz as contas às duas opções para a mesma estadia.",
+        "formula": [
+          "Total com preço por adulto = adultos × noites × preço por adulto",
+          "Total com preço por lugar = noites × preço por lugar",
+          "Ponto de equilíbrio (n.º de adultos) = preço por lugar ÷ preço por adulto"
+        ],
+        "formulaNote": "Com mais adultos do que o ponto de equilíbrio, o preço por lugar sai mais barato; com menos, sai mais barato o preço por adulto.",
+        "example": [
+          "Dois adultos durante cinco noites, a comparar 20 AUD por adulto e por noite com 50 AUD por lugar e por noite.",
+          "Por adulto: 2 × 5 × 20 AUD = 200 AUD. Por lugar: 5 × 50 AUD = 250 AUD. Por adulto fica 50 AUD mais barato.",
+          "O ponto de equilíbrio é 50 AUD ÷ 20 AUD = 2,5 adultos, por isso com três adultos o total com preço por adulto sobe para 300 AUD e o preço por lugar passa a compensar."
+        ],
+        "assumptions": [
+          "Muitas vezes, as crianças e quem tem direito a desconto pagam um preço diferente. Indica só os adultos ou ajusta o preço para uma média.",
+          "As taxas de reserva e as taxas de entrada no parque são à parte. Soma-as ao valor por lugar para comparares o que é comparável.",
+          "A calculadora usa apenas os valores que indicares; confirma o preço atual na página oficial de reservas."
+        ],
+        "faq": [
+          [
+            "Quando é que o preço por lugar sai mais barato?",
+            "Quando o número de adultos é maior do que o preço por lugar a dividir pelo preço por adulto. Com 50 AUD por lugar e 20 AUD por adulto, dá 2,5, por isso um grupo de três ou mais paga menos por lugar."
+          ],
+          [
+            "Os parques de campismo dos parques nacionais cobram por pessoa?",
+            "Muitos parques de campismo de parques estaduais cobram por adulto e por noite, enquanto os holiday parks (parques de campismo com bungalows, piscina e mais serviços) costumam fixar o preço do lugar. A forma de cobrança é definida por cada entidade gestora do terreno, por isso confirma-a na página oficial antes de comparar."
+          ]
+        ],
+        "ctaTitle": "Compara parques de campismo no mapa.",
+        "ctaText": "A AussieCamps mapeia {campgrounds} parques de campismo com preços e comodidades sempre que a entidade gestora os indica, e liga cada um à respetiva página oficial."
+      },
+      "currency-converter": {
+        "metaTitle": "Conversor de moeda AUD para viajantes (taxas do RBA)",
+        "metaDescription": "Converte preços em dólares australianos para NZD, USD, GBP, EUR, CNY, INR, SGD, JPY e KRW, e vice-versa, com as taxas de referência do Reserve Bank of Australia, sempre com data.",
+        "title": "Conversor de dólares australianos para planear a viagem",
+        "intro": "Converte um preço australiano para a moeda em que pensas, ou o contrário. As taxas são as taxas de referência do Reserve Bank of Australia (o banco central australiano), com a data indicada, por isso sabes exatamente em que se baseia o valor.",
+        "formula": [
+          "Valor convertido = valor ÷ taxa da moeda de origem × taxa da moeda de destino",
+          "Cada taxa é o número de unidades dessa moeda por 1 AUD"
+        ],
+        "formulaNote": "Converter através do dólar australiano mantém todos os pares coerentes: de NZD para USD usam-se as mesmas duas taxas das conversões de AUD.",
+        "example": [
+          "100 AUD a uma taxa de 1,2033 NZD por dólar australiano.",
+          "100 ÷ 1 × 1,2033 = 120,33 NZD.",
+          "No sentido inverso, 100 NZD ÷ 1,2033 × 1 = 83,10 AUD."
+        ],
+        "assumptions": [
+          "As taxas de referência são valores médios de mercado, para planeamento. Os bancos, as redes de cartões e as casas de câmbio acrescentam a sua margem ou comissões.",
+          "As taxas mudam todos os dias úteis. Usa o resultado para avaliar um preço, não como cotação."
+        ],
+        "faq": [
+          [
+            "Que taxas de câmbio usa o conversor?",
+            "As taxas de referência do Reserve Bank of Australia, apresentadas com a data a que se aplicam e expressas em unidades de cada moeda por dólar australiano."
+          ],
+          [
+            "Porque é que o meu banco cobra um valor diferente?",
+            "Os bancos e as redes de cartões usam a sua própria taxa e muitas vezes acrescentam uma margem ou uma comissão por transação em moeda estrangeira, por isso o valor cobrado é diferente de uma conversão de referência."
+          ]
+        ],
+        "ctaTitle": "Vê os preços na tua moeda.",
+        "ctaText": "A AussieCamps mostra os preços divulgados ao lado do valor em dólares australianos, na moeda que escolheres, a uma taxa de conversão que defines uma só vez."
+      },
+      "water-tank-calculator": {
+        "metaTitle": "Calculadora de água da campervan: dias de autonomia",
+        "metaDescription": "Converte a capacidade dos depósitos de água limpa e de águas cinzentas em dias de autonomia para o teu grupo. Mostra os litros por pessoa usados, a fórmula e um exemplo para uma viagem de campervan na Austrália.",
+        "title": "Calculadora de depósitos de água da campervan: quantos dias de autonomia?",
+        "intro": "Os litros dos depósitos só se tornam úteis quando passam a dias. Indica a capacidade de água limpa e de águas cinzentas e o número de pessoas, e a calculadora mostra quanto dura cada depósito e qual deles define o teu limite.",
+        "formula": [
+          "Dias de água limpa = depósito de água limpa (l) ÷ (pessoas × 11 l)",
+          "Dias de águas cinzentas = depósito de águas cinzentas (l) ÷ (pessoas × 9 l)",
+          "Dias de autonomia = o menor dos dois valores"
+        ],
+        "formulaNote": "11 litros de água limpa e 9 litros de águas cinzentas por pessoa e por dia chegam para beber, cozinhar e lavar a loiça, com um uso cuidadoso. Os duches a bordo gastam muito mais.",
+        "example": [
+          "Uma campervan com um depósito de 100 l de água limpa e outro de 90 l de águas cinzentas, a viajar com duas pessoas.",
+          "Água limpa: 100 ÷ (2 × 11) = 4,5 dias. Águas cinzentas: 90 ÷ (2 × 9) = 5,0 dias.",
+          "O depósito de água limpa esgota-se primeiro, ao fim de cerca de quatro dias e meio, por isso planeia voltar a enchê-lo antes do quinto dia."
+        ],
+        "assumptions": [
+          "Os valores por pessoa são médias. O calor, cozinhar com água e os duches fazem-nos subir.",
+          "As cassetes da sanita são um depósito à parte e não estão incluídas.",
+          "Despeja as águas cinzentas apenas onde for permitido, como num ponto de despejo ou num local autorizado."
+        ],
+        "faq": [
+          [
+            "Quanta água gasta uma pessoa por dia numa campervan?",
+            "Esta calculadora parte de cerca de 11 litros de água limpa por pessoa e por dia para beber, cozinhar e lavar a loiça, e de cerca de 9 litros de águas cinzentas. Um duche diário a bordo gasta muito mais, por isso conta com ele à parte."
+          ],
+          [
+            "O que acaba primeiro, a água limpa ou as águas cinzentas?",
+            "O depósito que der menos dias. Com os mesmos depósitos, mais pessoas ou mais lavagens encurtam os dois; a calculadora mostra-os lado a lado para saberes qual define o limite."
+          ]
+        ],
+        "ctaTitle": "Encontra o próximo ponto de água e o próximo ponto de despejo.",
+        "ctaText": "A AussieCamps mapeia {water} pontos de abastecimento de água e {dumpPoints} pontos de despejo na Austrália, com as comodidades que cada um indica."
+      }
+    }
   }
 }

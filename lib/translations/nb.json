@@ -1740,5 +1740,201 @@
     "decline": "Avslå",
     "learnMore": "Personvernerklæring",
     "privacyChoices": "Personvernvalg"
+  },
+  "tools": {
+    "common": {
+      "home": "Forside",
+      "tools": "Verktøy",
+      "calculator": "Kalkulator",
+      "howItWorks": "Slik regnes det ut",
+      "workedExample": "Regneeksempel",
+      "assumptions": "Forutsetninger",
+      "commonQuestions": "Vanlige spørsmål",
+      "readNext": "Guider om kostnader og planlegging",
+      "sources": "Kilder",
+      "ctaEyebrow": "I appen",
+      "passNote": "AussieCamps er gratis å laste ned. Opphold og turer som kan bestilles, er gratis å utforske; campingplasser, rasteplasser, tømmestasjoner, vann, toaletter og reiseplanleggeren krever Pass.",
+      "iphoneOnly": "AussieCamps er en iPhone-app.",
+      "openTool": "Formel, regneeksempel og spørsmål",
+      "allTools": "Alle roadtrip-verktøy"
+    },
+    "tools": {
+      "fuel-cost-calculator": {
+        "metaTitle": "Drivstoffkalkulator for roadtrip i Australia",
+        "metaDescription": "Regn ut bensin eller diesel til en roadtrip i Australia ut fra distanse, l/100 km og literpris. Viser liter, totalkostnad og kostnad per km, med formel og regneeksempel.",
+        "title": "Drivstoffkalkulator for roadtrip i Australia",
+        "intro": "Legg inn distansen, drivstofforbruket til kjøretøyet med last og prisen per liter. Du får hvor mange liter turen bruker, drivstoffregningen og kostnaden per kilometer, så du kan budsjettere hele ruten før første tanking.",
+        "formula": [
+          "Liter = distanse (km) × drivstofforbruk (l/100 km) ÷ 100",
+          "Drivstoffkostnad = liter × literpris (AUD/l)",
+          "Kostnad per km = drivstoffkostnad ÷ distanse"
+        ],
+        "formulaNote": "Kalkulatoren runder liter til én desimal og penger til nærmeste cent. Ingenting annet legges til: bompenger, olje og dekkslitasje er egne poster i et budsjett.",
+        "example": [
+          "En kjøretur på 1 000 km i et kjøretøy som bruker 12 l/100 km, til 2,08 AUD literen. Det er gjennomsnittsprisen på bensin i de fem største byene i Fuel Plan-data for 5. august 2026.",
+          "1 000 × 12 ÷ 100 = 120 liter. 120 × 2,08 AUD = 249,60 AUD. 249,60 AUD ÷ 1 000 km = omtrent 0,25 AUD per kilometer.",
+          "Samme tur i et dieselkjøretøy, til dagens dieselgjennomsnitt på 2,47 AUD literen, koster 120 × 2,47 AUD = 296,40 AUD."
+        ],
+        "assumptions": [
+          "Drivstofforbruket er tallet med last. En bobil, last på taket eller en campingvogn bak bruker mer enn tallet i brosjyren, så mål det selv hvis du kan.",
+          "Gjennomsnittet for byene er et utgangspunkt. Roadhouses langt fra byene tar vanligvis mer, så sett opp prisen for strekninger i outbacken.",
+          "Distansen er hele ruten, med avstikkere til campingplasser, utsiktspunkter og byer utenfor hovedveien."
+        ],
+        "faq": [
+          [
+            "Hvordan finner jeg det reelle drivstofforbruket?",
+            "Fyll tanken, nullstill tripptelleren og kjør som du pleier. Ved neste tanking deler du antall liter du fylte på med antall kilometer du har kjørt, og ganger med 100. Det er l/100 km for kjøretøyet med last, og det er tallet kalkulatoren trenger."
+          ],
+          [
+            "Hvordan regner jeg ut drivstoffkostnad per km?",
+            "Del l/100 km på 100 og gang med literprisen. Ved 12 l/100 km og 2,08 AUD literen blir det 0,12 × 2,08, omtrent 0,25 AUD per kilometer."
+          ],
+          [
+            "Hvilken drivstoffpris bør jeg bruke?",
+            "Bruk drivstoffet kjøretøyet tar og den nyeste prisen du finner for regionen. Gjennomsnittet for de fem byene i Fuel Plan 5. august 2026 var 2,08 AUD literen for bensin og 2,47 AUD for diesel; regn med mer i avsidesliggende områder."
+          ]
+        ],
+        "ctaTitle": "Planlegg stoppene mellom tankingene.",
+        "ctaText": "AussieCamps viser {restAreas} rasteplasser og {dumpPoints} tømmestasjoner i Australia på kart, og gjør lagrede steder om til en rute med flere stopp og avstander."
+      },
+      "drive-time-calculator": {
+        "metaTitle": "Kjøretidskalkulator for Australia: realistiske kjøredager",
+        "metaDescription": "Anslå hvor lang en kjøredag i Australia egentlig blir, ut fra distanse, veitype og stopp. Viser gjennomsnittsfartene som brukes, formelen og et regneeksempel.",
+        "title": "Kjøretidskalkulator for roadtrip i Australia",
+        "intro": "Kartapper oppgir ren kjøretid på fri vei. Denne kalkulatoren planlegger dagen du faktisk kjører: en gjennomsnittsfart for veitypen, pluss tiden du står stille for drivstoff, mat og pauser.",
+        "formula": [
+          "Kjøreminutter = distanse (km) ÷ gjennomsnittsfart (km/t) × 60",
+          "Totalt antall minutter = kjøreminutter + stopp × 20",
+          "Gjennomsnittsfart: 85 km/t på motorvei eller åpen, rett vei, 70 km/t på hovedvei, 60 km/t på svingete vei eller kystvei, 45 km/t på smal, bratt eller grusvei"
+        ],
+        "formulaNote": "Fartene er gjennomsnitt beregnet for planlegging og tar høyde for byer, veiarbeid, trege kjøretøy og forbikjøringsfelt. De er ikke fartsgrenser.",
+        "example": [
+          "En dag på 250 km på en svingete kystvei med tre stopp.",
+          "250 ÷ 60 × 60 = 250 minutter kjøring. Tre stopp legger til 3 × 20 = 60 minutter.",
+          "Dagen tar 310 minutter, eller 5 t 10 min. På hovedvei med 70 km/t tar samme distanse og samme stopp 4 t 34 min."
+        ],
+        "assumptions": [
+          "Hvert stopp regnes som 20 minutter: et drivstoffstopp, et måltid, en toalettpause eller et førerbytte.",
+          "Nattkjøring er ikke regnet med. Dyrelivet er mest aktivt rundt daggry og skumring, så planlegg å være fremme før det blir mørkt.",
+          "Standarden på uasfalterte veier varierer med vær og årstid. Sjekk forholdene hos veimyndigheten i delstaten før en grusstrekning."
+        ],
+        "faq": [
+          [
+            "Hvorfor blir resultatet lengre enn i kartappen?",
+            "Navigasjonsapper anslår ren kjøretid nær skiltet fartsgrense. Denne kalkulatoren legger til veiens karakter og tiden du står stille, og det er der en lang dag vanligvis sprekker."
+          ],
+          [
+            "Hvilken veitype bør jeg velge for en bobil?",
+            "Bruk hovedvei for de fleste asfalterte nasjonale hovedveier, svingete vei eller kystvei for kuperte ruter og kystruter, og smal, bratt eller grusvei for uasfalterte veier og fjellpass. En tung bobil eller en campingvogn i stigning går enda saktere."
+          ],
+          [
+            "Er drivstoff- og matstopp med i resultatet?",
+            "Bare stoppene du legger inn. Legg til ett for hver tanking, hvert måltid eller hver pause du regner med; hvert stopp legger 20 minutter til dagen."
+          ]
+        ],
+        "ctaTitle": "Vit hvor dagen ender før du legger i vei.",
+        "ctaText": "AussieCamps viser {campgrounds} campingplasser og {restAreas} rasteplasser på kart, og bygger en rute med flere stopp og kjøreavstanden mellom stoppene."
+      },
+      "campsite-cost-calculator": {
+        "metaTitle": "Kalkulator for campingpriser: per person eller per plass",
+        "metaDescription": "Sammenlign en campingavgift per voksen med en avgift per plass for reisefølget og antall netter. Viser balansepunktet, formelen og et regneeksempel i AUD.",
+        "title": "Kalkulator for campingpriser: per person eller per plass?",
+        "intro": "Noen campingplasser tar betalt per voksen per natt, andre tar betalt for hele plassen. Hva som er billigst, avhenger av hvor mange voksne som er med, så kalkulatoren regner ut begge for samme opphold.",
+        "formula": [
+          "Totalt per voksen = voksne × netter × avgift per voksen",
+          "Totalt per plass = netter × avgift per plass",
+          "Balansepunkt (antall voksne) = avgift per plass ÷ avgift per voksen"
+        ],
+        "formulaNote": "Med flere voksne enn balansepunktet er prisen per plass billigst; med færre er prisen per voksen billigst.",
+        "example": [
+          "To voksne i fem netter: 20 AUD per voksen per natt sammenlignet med 50 AUD per plass per natt.",
+          "Per voksen: 2 × 5 × 20 AUD = 200 AUD. Per plass: 5 × 50 AUD = 250 AUD. Prisen per voksen blir 50 AUD billigere.",
+          "Balansepunktet er 50 AUD ÷ 20 AUD = 2,5 voksne, så med tre voksne stiger totalen per voksen til 300 AUD, og prisen per plass vinner."
+        ],
+        "assumptions": [
+          "Barn og personer med rett til redusert pris betaler ofte en annen sats. Legg inn bare voksne, eller juster avgiften til et gjennomsnitt.",
+          "Bestillingsgebyrer og inngangsavgifter til parken regnes separat. Legg dem til tallet for plassen når du skal sammenligne likt med likt.",
+          "Kalkulatoren bruker bare tallene du legger inn; sjekk gjeldende avgift på den offisielle bestillingssiden."
+        ],
+        "faq": [
+          [
+            "Når er en avgift per plass billigere?",
+            "Når antall voksne er større enn avgiften per plass delt på avgiften per voksen. Med 50 AUD per plass og 20 AUD per voksen er det 2,5, så et reisefølge på tre eller flere betaler mindre per plass."
+          ],
+          [
+            "Tar campingplassene i nasjonalparker betalt per person?",
+            "Mange campingplasser i delstatsparker tar betalt per voksen per natt, mens ferieparker vanligvis tar betalt per plass. Hver forvalter bestemmer prisgrunnlaget, så les det på den offisielle siden før du sammenligner."
+          ]
+        ],
+        "ctaTitle": "Sammenlign campingplasser på kartet.",
+        "ctaText": "AussieCamps viser {campgrounds} campingplasser på kart, med avgifter og fasiliteter der forvalteren oppgir dem, og lenker hver av dem til den offisielle siden."
+      },
+      "currency-converter": {
+        "metaTitle": "AUD-valutakalkulator for reisende (RBA-kurser)",
+        "metaDescription": "Regn om priser i australske dollar til og fra NZD, USD, GBP, EUR, CNY, INR, SGD, JPY og KRW med daterte referansekurser fra Reserve Bank of Australia.",
+        "title": "Valutakalkulator for australske dollar når du planlegger turen",
+        "intro": "Regn om en australsk pris til valutaen du tenker i, eller motsatt vei. Kursene er referansekurser fra Reserve Bank of Australia med oppgitt dato, så du vet nøyaktig hva tallet bygger på.",
+        "formula": [
+          "Omregnet beløp = beløp ÷ kursen til valutaen du regner fra × kursen til valutaen du regner til",
+          "Hver kurs er antall enheter av valutaen per 1 AUD"
+        ],
+        "formulaNote": "Omregning via australske dollar gjør at alle valutapar henger sammen: NZD til USD bruker de samme to kursene som AUD-omregningene.",
+        "example": [
+          "100 AUD med en kurs på 1,2033 NZD per australsk dollar.",
+          "100 ÷ 1 × 1,2033 = 120,33 NZD.",
+          "Andre veien: 100 NZD ÷ 1,2033 × 1 = 83,10 AUD."
+        ],
+        "assumptions": [
+          "Referansekurser er midtkurser til planlegging. Banker, kortnettverk og vekslingskontorer legger på egen margin eller egne gebyrer.",
+          "Kursene endres hver virkedag. Bruk resultatet til å vurdere en pris, ikke som et pristilbud."
+        ],
+        "faq": [
+          [
+            "Hvilke valutakurser bruker kalkulatoren?",
+            "Referansekurser fra Reserve Bank of Australia, vist med datoen de gjelder for, oppgitt som enheter av hver valuta per australsk dollar."
+          ],
+          [
+            "Hvorfor trekker banken et annet beløp?",
+            "Banker og kortnettverk bruker egen kurs og legger ofte på en margin eller et gebyr for utenlandske transaksjoner, så beløpet som trekkes, avviker fra en omregning med referansekurs."
+          ]
+        ],
+        "ctaTitle": "Se avgiftene i egen valuta.",
+        "ctaText": "AussieCamps viser oppgitte avgifter ved siden av beløpet i australske dollar, i valutaen du velger, med en omregningskurs du setter én gang."
+      },
+      "water-tank-calculator": {
+        "metaTitle": "Vanntankkalkulator for bobil: dager off grid",
+        "metaDescription": "Gjør størrelsen på ferskvanns- og gråvannstankene om til dager off grid for reisefølget. Viser liter per person som brukes, formelen og et regneeksempel for en bobiltur i Australia.",
+        "title": "Vanntankkalkulator for bobil: hvor mange dager off grid?",
+        "intro": "Tankstørrelser i liter blir først nyttige når de uttrykkes i dager. Legg inn kapasiteten på ferskvanns- og gråvannstanken og antall personer, så viser kalkulatoren hvor lenge hver tank varer og hvilken som setter grensen.",
+        "formula": [
+          "Dager med ferskvann = ferskvannstank (l) ÷ (personer × 11 l)",
+          "Dager med gråvann = gråvannstank (l) ÷ (personer × 9 l)",
+          "Dager off grid = det laveste av de to tallene"
+        ],
+        "formulaNote": "11 liter ferskvann og 9 liter gråvann per person per dag dekker drikking, matlaging og oppvask ved nøysom bruk. Dusj om bord bruker langt mer.",
+        "example": [
+          "En bobil med 100 l ferskvannstank og 90 l gråvannstank, med to personer om bord.",
+          "Ferskvann: 100 ÷ (2 × 11) = 4,5 dager. Gråvann: 90 ÷ (2 × 9) = 5,0 dager.",
+          "Ferskvannstanken går tom først, etter omtrent fire og en halv dag, så planlegg påfyll før dag fem."
+        ],
+        "assumptions": [
+          "Tallene per person er gjennomsnitt. Varmt vær, matlaging med vann og dusjing øker dem.",
+          "Toalettkassetter er en egen tank og er ikke med i beregningen.",
+          "Tøm gråvann bare der det er tillatt, for eksempel på en tømmestasjon eller en godkjent plass."
+        ],
+        "faq": [
+          [
+            "Hvor mye vann bruker én person per dag i en bobil?",
+            "Kalkulatoren regner med omtrent 11 liter ferskvann per person per dag til drikking, matlaging og oppvask, og omtrent 9 liter gråvann. En daglig dusj om bord bruker langt mer, så planlegg for den separat."
+          ],
+          [
+            "Hva går tomt først, ferskvann eller gråvann?",
+            "Den tanken som gir færrest dager. Med samme tankstørrelser gjør flere personer eller mer vask at begge varer kortere; kalkulatoren viser de to side om side, så du ser hvilken som setter grensen."
+          ]
+        ],
+        "ctaTitle": "Finn neste påfyll og tømmestasjon.",
+        "ctaText": "AussieCamps viser {water} vannposter og {dumpPoints} tømmestasjoner i Australia på kart, med fasilitetene hver av dem oppgir."
+      }
+    }
   }
 }
