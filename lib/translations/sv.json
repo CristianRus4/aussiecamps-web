@@ -3,7 +3,7 @@
   "ui": {
     "languageName": "Svenska",
     "metaTitle": "AussieCamps: campingkarta och reseplanerare för Australien",
-    "metaDescription": "Över 74 000 campingplatser, gratisplatser, rastplatser och tömningsstationer i hela Australien. Platsinfo utan täckning, smarta filter och reseplanerare för iPhone.",
+    "metaDescription": "Över 74 000 campingplatser, caravan parks, gratisplatser, rastplatser och tömningsstationer i Australien. Platsinfo utan täckning, smarta filter och reseplanerare stopp för stopp.",
     "ogTitle": "AussieCamps: campingkartan och reseplaneraren för Australien",
     "ogDescription": "Över 74 000 campingplatser, caravan parks, gratisplatser och praktiska stopp, sparade offline i appen. Filtrera, spara och planera hela varvet runt landet.",
     "metaKeywords": "campingapp Australien, fricamping Australien, campingplatser Australien, caravan parks Australien, husbil Australien, Big Lap-app, tömningsstationer Australien, rastplatser Australien, planera roadtrip Australien",
@@ -88,7 +88,7 @@
     "routesTitle": "Koll på reglerna. Koll på kostnaderna.",
     "routesText": "Praktiska guider om campingregler, trafiksäkerhet, rätt säsong och vad en resa i Australien faktiskt kostar.",
     "exploreRoutes": "Utforska guiderna",
-    "audiencesEyebrow": "Vilket hem du än tar med dig",
+    "audiencesEyebrow": "Tält, husbil eller husvagn",
     "audiencesTitle": "För tält, husbilar och varvet runt Australien.",
     "audience1Title": "Backpackers",
     "audience1Text": "Få en snål budget och en flexibel rutt att gå ihop.",
@@ -119,7 +119,7 @@
     "faq5q": "Vad är samlingar?",
     "faq5a": "Det finns två slags. Smarta samlingar (”Gillade”, ”Stjärnmärkt”, ”Vill besöka”, ”Besökta”, ”Pins” och ”Alla sparade”) fylls på av sig själva när du markerar platser. Utöver dem kan du skapa egna samlingar med namn, ikon och anteckningar för en region, en säsong, ett fordon eller ett urval.",
     "faq6q": "Kan jag filtrera fram gratisplatser eller platser som funkar med husvagn?",
-    "faq6a": "Ja, och kombinera dem. Filtren täcker kategori, typ av avgift, lägsta betyg, bokning på nätet, delstat eller territorium och detaljerade grupper för framkomlighet, faciliteter, aktiviteter, service och kedjor eller medlemskap, så ”gratis campingplatser med toalett och dricksvatten i Queensland” blir en enda sökning.",
+    "faq6a": "Ja, och du kan kombinera dem. Filtren täcker kategori, typ av avgift, lägsta betyg, bokning på nätet, delstat eller territorium och detaljerade grupper för framkomlighet, faciliteter, aktiviteter, service och kedjor eller medlemskap, så ”gratis campingplatser med toalett och dricksvatten i Queensland” blir en enda sökning.",
     "faq7q": "Vad finns på en platssida?",
     "faq7a": "Foton, en beskrivning, öppettider, avgifter, villkor, faciliteter och egenskaper sorterade efter typ, aktuella varningar, betyg, kontakt- och bokningsuppgifter, väder, Street View där det finns bilder, vägbeskrivning och alternativ i närheten.",
     "faq8q": "Vilka kartvyer finns det?",
@@ -415,7 +415,7 @@
           "heading": "Ha koll på vad du dricker upp varje dag",
           "body": [
             "Två kaffe och två glas på krogen om dagen blir en rejäl summa på en vecka. Bestäm vilka stopp som är värda pengarna i stället för att köpa av vana.",
-            "Ha alltid dricksvatten nära till hands och fyll på där det är tillåtet. När det är varmt hör vätska och skugga till säkerheten, inte till nöjesbudgeten."
+            "Ha alltid <a data-guide=\"camping-water-planning\">dricksvatten</a> nära till hands och fyll på där det är tillåtet. När det är varmt hör vätska och skugga till säkerheten, inte till nöjesbudgeten."
           ],
           "tips": []
         },
@@ -436,7 +436,7 @@
           "heading": "Så köper du alkohol i Australien",
           "body": [
             "I de flesta delstater köper du inte alkohol i mataffären utan i en bottle shop med tillstånd att sälja. Den ligger ofta vägg i vägg med en stormarknad men är en egen butik. Öppettiderna är reglerade och skiljer sig mellan delstaterna.",
-            "I många samhällen och regioner gäller alkoholrestriktioner, framför allt i Northern Territory och i delar av Queensland och Western Australia. Den som tar med alkohol in i ett sådant område riskerar kännbara straff.",
+            "I många samhällen och regioner gäller alkoholrestriktioner, framför allt i Northern Territory och i delar av <a data-guide=\"camping-rules-queensland\">Queensland</a> och Western Australia. Den som tar med alkohol in i ett sådant område riskerar kännbara straff.",
             "Kolla reglerna innan du åker ut i avlägsna områden med alkohol i bilen. Restriktionerna är lagstadgade och kontrolleras. De gäller besökare lika väl som dem som bor där, och okunskap är ingen ursäkt."
           ],
           "tips": [
@@ -521,7 +521,7 @@
     },
     "sleeping-in-car-australia": {
       "title": "Sova i bilen i Australien: är det lagligt?",
-      "description": "Du får bara sova i bilen där lokala regler för marken, parkeringen och fordonet tillåter det. Så tar du reda på var det är lagligt och tryggt.",
+      "description": "Du får bara sova i bilen där lokala regler för marken, parkeringen och fordonet tillåter det.",
       "region": "Australien",
       "imageAlt": "Husbil parkerad på en plats där det är tillåtet att övernatta",
       "intro": "Bara för att du sover i bilen blir platsen inte laglig. Det är kommunens lokala föreskrifter, skyltarna, parkens regler och markägarens rätt som avgör om du får sova där. Allemansrätten finns inte i Australien: du får bara övernatta där det uttryckligen är tillåtet.",
@@ -537,7 +537,7 @@
         {
           "heading": "Rastplatser",
           "body": [
-            "Rastplatserna längs huvudvägarna (rest areas) och Driver Reviver-stoppen finns för att förare ska kunna vila och slippa köra trötta. På vissa får du vila en begränsad tid över natten, på andra är camping förbjuden eller bara vissa fordon tillåtna.",
+            "Rastplatserna längs huvudvägarna (rest areas) och Driver Reviver-stoppen finns för att förare ska kunna vila och slippa köra <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">trötta</a>. På vissa får du vila en begränsad tid över natten, på andra är camping förbjuden eller bara vissa fordon tillåtna.",
             "Ställ dig inte i lastbilsfickorna, håll nere ljudet och bred inte ut dig med utrustning runt bilen om det inte är tillåtet att campa där."
           ],
           "tips": [
@@ -550,7 +550,7 @@
         {
           "heading": "Säkrare alternativ",
           "body": [
-            "En enkel campingplats, en caravan park, en farm stay på en gård eller ett showground ger tydligare besked om att du får stanna. Ofta finns det också toaletter eller vatten. Kom fram innan det blir mörkt och kolla att du kommer in med ditt fordon.",
+            "En enkel campingplats, en <a data-guide=\"caravan-park-vs-holiday-park\">caravan park</a>, en farm stay på en gård eller ett showground ger tydligare besked om att du får stanna. Ofta finns det också toaletter eller vatten. Kom fram innan det blir mörkt och kolla att du kommer in med ditt fordon.",
             "Sov aldrig i en stängd bil med något igång som förbränner bränsle, som en värmare eller ett campingkök."
           ],
           "tips": []
@@ -571,7 +571,7 @@
         {
           "heading": "Där det oftast går bra",
           "body": [
-            "På anvisade rastplatser längs huvudvägarna får du sova för att inte köra trött, oftast i upp till 24 timmar. Det är det mest pålitliga lagliga alternativet i hela landet. Men rastplatserna är till för vila, inte för att slå läger.",
+            "På anvisade rastplatser längs huvudvägarna får du sova för att inte köra <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">trött</a>, oftast i upp till 24 timmar. Det är det mest pålitliga lagliga alternativet i hela landet. Men rastplatserna är till för vila, inte för att slå läger.",
             "Många småstäder i inlandet har gratis eller billiga ställplatser där kommunen uttryckligen tillåter att du sover i fordonet. Showgrounds och idrottsplatser gör ofta likadant mot en liten avgift.",
             "En del mackar som har öppet 24 timmar låter dig stå kvar över natten, och det gör även vissa roadhouses. Det gäller särskilt längs de långa huvudvägarna. Fråga inne i stället för att ta det för givet, och köp något."
           ],
@@ -653,7 +653,7 @@
         {
           "heading": "Fricamping och camping vid vägen",
           "body": [
-            "Allemansrätten finns inte i Australien: du får bara övernatta där det uttryckligen är tillåtet. En rastplats (rest area) är alltså inte automatiskt en campingplats. Läs skyltarna om parkeringstid och kommunens regler, ställ dig inte i lastbilsfickorna, och fäll inte ut markisen och ställ inte fram möbler där platsen bara är tänkt för en vilopaus.",
+            "Allemansrätten finns inte i Australien: du får bara övernatta där det uttryckligen är tillåtet. En rastplats (rest area) är alltså inte automatiskt en campingplats. Läs skyltarna om parkeringstid och kommunens regler, ställ dig inte i lastbilsfickorna, och fäll inte ut markisen och ställ inte fram möbler där platsen bara är tänkt för en <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">vilopaus</a>.",
             "Kommunala reservat och showgrounds kan kräva lokala tillstånd, ha tidsgränser eller vara stängda. Kolla vad som gäller samma dag."
           ],
           "tips": [
@@ -665,7 +665,7 @@
         {
           "heading": "Brandrisk och varningar från parkerna",
           "body": [
-            "Kolla parkvarningarna i NSW, brandriskklassen och om det råder totalt eldningsförbud (Total Fire Ban) innan du åker. Att det finns en eldstad på platsen betyder inte att du får elda när det är eldningsförbud.",
+            "Kolla parkvarningarna i NSW, brandriskklassen och om det råder totalt <a data-guide=\"campfires-camping-australia\">eldningsförbud</a> (Total Fire Ban) innan du åker. Att det finns en eldstad på platsen betyder inte att du får elda när det är eldningsförbud.",
             "Läget kan ändras snabbt och parker stängas med kort varsel. Ha en laglig reservplats utanför det drabbade området."
           ],
           "tips": []
@@ -687,7 +687,7 @@
           "heading": "Så bokar du NPWS-campingar",
           "body": [
             "Populära campingplatser vid kusten och i bergen blir fullbokade flera månader i förväg inför sommaren, påsken och skolloven, och då finns det sällan något kvar för den som bara dyker upp. Utanför de perioderna går de flesta platser att boka några dagar innan.",
-            "Ett All Parks Pass ger fordonet inträde i de flesta parker i NSW under ett år och betalar sig snabbt om du besöker fler än en handfull. Det täcker inte campingavgifter, och för parkerna Sydney Harbour och Kosciuszko gäller det inte alltid.",
+            "Ett All Parks Pass ger fordonet inträde i de flesta parker i NSW under ett år och betalar sig snabbt om du besöker fler än en handfull. Det täcker inte <a data-guide=\"camping-fees-australia-2026\">campingavgifter</a>, och för parkerna Sydney Harbour och Kosciuszko gäller det inte alltid.",
             "Du bokar per plats, och varje plats har ett angivet maxantal personer och fordon. Att dyka upp med fler personer eller fordon än du har bokat är en vanlig orsak till problem på välbesökta campingplatser."
           ],
           "tips": [
@@ -699,7 +699,7 @@
         {
           "heading": "Eldning och totalt eldningsförbud",
           "body": [
-            "Brandriskperioden (bush fire danger period) i NSW pågår oftast från oktober till mars och varierar mellan kommunerna. Under den perioden behöver du tillstånd för de flesta öppna eldar, och på dagar med totalt eldningsförbud är all öppen eld förbjuden.",
+            "Brandriskperioden (bush fire danger period) i NSW pågår oftast från oktober till mars och varierar mellan kommunerna. Under den perioden behöver du tillstånd för de flesta öppna eldar, och på dagar med <a data-guide=\"campfires-camping-australia\">totalt eldningsförbud</a> är all öppen eld förbjuden.",
             "På dagar med totalt eldningsförbud är grillar som eldas med ved eller kol förbjudna, liksom lägereldar. Utrustning som går på gasol är i regel tillåten på vissa villkor, men läs exakt vad som står i förbudet, för formuleringen ändras.",
             "På många NPWS-campingar är det alltid förbjudet att elda, oavsett säsong. Kolla sidan för just den campingplatsen i stället för att utgå från att delstatens allmänna regler gäller."
           ],
@@ -712,8 +712,8 @@
         {
           "heading": "Fricamping och rastplatser",
           "body": [
-            "Rastplatserna som Transport for NSW ansvarar för finns till för att trötta förare ska kunna vila, och på många får du stanna i upp till 24 timmar. Men de är inga campingplatser, och de är inte tänkta för att du ska fälla ut markisen och ställa fram stolar.",
-            "Riktig fricamping hittar du säkrast i State Forests, på en del Crown land och på platser som kommunen har anvisat. Flera av dem ber om ett litet frivilligt bidrag till orten.",
+            "Rastplatserna som Transport for NSW ansvarar för finns till för att <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">trötta förare</a> ska kunna vila, och på många får du stanna i upp till 24 timmar. Men de är inga campingplatser, och de är inte tänkta för att du ska fälla ut markisen och ställa fram stolar.",
+            "Riktig <a data-guide=\"is-free-camping-legal-australia\">fricamping</a> hittar du säkrast i State Forests, på en del Crown land och på platser som kommunen har anvisat. Flera av dem ber om ett litet frivilligt bidrag till orten.",
             "Kontrollerna varierar, men i kustkommunerna och på populära platser sker de på riktigt. Campar du där det är förbjudet blir det böter, och eftersom de skrivs ut på fordonet skickar hyrfirman dem vidare till dig."
           ],
           "tips": [
@@ -773,7 +773,7 @@
           "heading": "Statliga skogar och rastplatser",
           "body": [
             "I de statliga skogarna (state forests) gäller andra regler än i nationalparkerna. Campa på platser som redan används, var rädd om vattendragen och kolla vad som gäller lokalt för ved och eldning.",
-            "Rastplatserna längs vägarna (rest areas) finns för att trötta förare ska kunna vila, och en skylt kan begränsa hur länge du får stanna. Kommunerna (councils) kan dessutom ha egna regler för att övernatta i bilen och se till att de följs."
+            "Rastplatserna längs vägarna (rest areas) finns för att <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">trötta förare</a> ska kunna vila, och en skylt kan begränsa hur länge du får stanna. Kommunerna (councils) kan dessutom ha egna regler för att övernatta i bilen och se till att de följs."
           ],
           "tips": [
             "Ta reda på vem som förvaltar marken",
@@ -805,7 +805,7 @@
         {
           "heading": "Statliga skogar och vildcamping",
           "body": [
-            "Victoria har stora statliga skogar där du får campa gratis utanför de anvisade campingplatserna, så länge eldningsregler och säsongsstängda vägar inte sätter stopp. Det är här du hittar det mesta av den camping i delstaten som verkligen är gratis.",
+            "Victoria har stora statliga skogar där du får campa gratis utanför de anvisade campingplatserna, så länge eldningsregler och säsongsstängda vägar inte sätter stopp. Det är här det mesta av delstatens riktiga <a data-guide=\"is-free-camping-legal-australia\">fricamping</a> finns.",
             "Slå läger på platser som redan är röjda i stället för att göra nya, håll de angivna minimiavstånden till vattendrag och vägar, och ta med dig allt skräp därifrån. Här finns ingen service alls.",
             "I High Country och i andra skogsområden är många vägar i regel stängda från juni till november, för att skydda skogsvägar som lätt tar skada när de är blöta. Kör du på en stängd väg riskerar du dryga böter."
           ],
@@ -818,7 +818,7 @@
         {
           "heading": "Eldningsregler och brandriskperioden",
           "body": [
-            "Victorias brandriskperiod (Fire Danger Period) utlyses region för region och brukar sträcka sig över den australiska sommaren och en bit in på hösten. Då är lägereldar begränsade, och på dagar med totalt eldningsförbud (Total Fire Ban) är all öppen eld förbjuden, även grillar som eldas med ved eller kol.",
+            "Victorias brandriskperiod (Fire Danger Period) utlyses region för region och brukar sträcka sig över den australiska sommaren och en bit in på hösten. Då är <a data-guide=\"campfires-camping-australia\">lägereldar</a> begränsade, och på dagar med totalt eldningsförbud (Total Fire Ban) är all öppen eld förbjuden, även grillar som eldas med ved eller kol.",
             "Elden ska göras i en ordentligt byggd eldstad, får inte vara större än en gånger en meter och ska ha tre meter fritt runt om. Någon måste alltid vara vid elden. De här villkoren gäller även när det inte är eldningsförbud.",
             "Kolla varje morgon under sommaren vilken brandriskklass CFA, brandförsvaret på Victorias landsbygd, har satt för ditt distrikt. En campingplats inne i skogen är ett av de sämsta ställena att söka skydd på en dag med hög brandrisk, och standardrådet är att ge sig av i god tid."
           ],
@@ -833,7 +833,7 @@
           "body": [
             "Kustkommunerna längs Great Ocean Road och på Mornington Peninsula förbjuder nästan helt att man övernattar i fordon, och de kontrollerar flitigt. Allemansrätten finns inte i Australien, så utgå från att det är förbjudet om inte en skylt säger något annat.",
             "Inåt landet ordnar flera kommuner gratis eller billig camping i sina orter för att locka resenärer. Victorias showgrounds, alltså orternas områden för lantbruksmässor och evenemang, har ofta billiga platser med el och servicehus.",
-            "Rastplatserna som delstatens vägmyndighet sköter är till för att du ska kunna vila när du är trött. Att sova där går bra, men inte att slå läger, och den skillnaden spelar roll där det kontrolleras."
+            "Rastplatserna som delstatens vägmyndighet sköter är till för att du ska kunna vila när du är <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">trött</a>. Att sova där går bra, men inte att slå läger, och den skillnaden spelar roll där det kontrolleras."
           ],
           "tips": [
             "Förbjudet och kontrollerat vid kusten",
@@ -847,7 +847,7 @@
             "I Victorias alpina områden är camping begränsad över vissa höjder för att skydda den känsliga växtligheten. I de statliga skogarna gäller dessutom bestämda avstånd till vatten och vägar.",
             "Vill du campa vid en flod på Crown land behöver du känna till de arrenderade strandremsorna (licensed water frontages): på en del får man campa, på andra inte. Skyltarna och delstatens kartor över allmän mark visar vad som gäller.",
             "Parks Victoria publicerar varje år datumen då vägar stängs för säsongen. Kolla dem innan du planerar en rutt genom High Country, så slipper du köra långt bara för att stå framför en låst bom.",
-            "På dagar med totalt eldningsförbud får du inte elda med ved, kol eller annat fast bränsle alls. Har du med dig ett gaskök hänger resan aldrig på om du får göra upp eld eller inte."
+            "På dagar med <a data-guide=\"campfires-camping-australia\">totalt eldningsförbud</a> får du inte elda med ved, kol eller annat fast bränsle alls. Har du med dig ett gaskök hänger resan aldrig på om du får göra upp eld eller inte."
           ],
           "tips": [
             "Höjdgränser för camping i bergen",
@@ -883,7 +883,7 @@
         {
           "heading": "Tre sätt att äta på resan",
           "body": [
-            "Billigast blir det om du lagar maten själv och bara köper en kaffe eller ett mellanmål. Lägger du till en enkel måltid ute får du en blandad dag, medan en dag med många restaurangbesök kan kosta mer än boendet, och då har du inte ens räknat in dryckerna.",
+            "Billigast blir det om du lagar maten själv och bara köper en kaffe eller ett mellanmål. Lägger du till en enkel måltid ute får du en blandad dag, medan en dag med många restaurangbesök kan kosta mer än <a data-guide=\"accommodation-costs-australia-2026\">boendet</a>, och då har du inte ens räknat in dryckerna.",
             "Frukost och lunch är ofta lättare att hålla nere än middagen. Har du mat med dig slipper du också att en sen ankomst slutar i dyrt letande längs turiststråket."
           ],
           "tips": []
@@ -1018,8 +1018,8 @@
         {
           "heading": "Park Stay WA och avgifter",
           "body": [
-            "Många campingplatser i nationalparkerna bokar du via Park Stay WA. Campingavgiften tas oftast ut per person och natt, och inträdet till parken kan tillkomma.",
-            "På en del campingplatser gäller fortfarande först till kvarn. Kom fram tidigt och se till att ha ett lagligt alternativ som du når på bränslet du har kvar."
+            "Många campingplatser i nationalparkerna bokar du via Park Stay WA. <a data-guide=\"camping-fees-australia-2026\">Campingavgiften</a> tas oftast ut per person och natt, och inträdet till parken kan tillkomma.",
+            "På en del campingplatser gäller fortfarande först till kvarn. Kom fram tidigt och se till att ha ett lagligt alternativ som du når på <a data-guide=\"road-trip-fuel-planning-australia\">bränslet du har kvar</a>."
           ],
           "tips": []
         },
@@ -1038,7 +1038,7 @@
         {
           "heading": "Eld, vatten och avstånd",
           "body": [
-            "Ha med dig dricksvatten och kolla om vattnet ur kranarna på campingplatsen går att dricka. Eldningsreglerna varierar mellan distrikt och årstider.",
+            "Ha med dig <a data-guide=\"camping-water-planning\">dricksvatten</a> och kolla om vattnet ur kranarna på campingplatsen går att dricka. Eldningsreglerna varierar mellan distrikt och årstider.",
             "Samla inte ved i skyddade områden. Värme och vind kan göra att en eld som var tillåten på morgonen är farlig, eller förbjuden, på eftermiddagen."
           ],
           "tips": []
@@ -1047,8 +1047,8 @@
           "heading": "Avstånden styr planeringen",
           "body": [
             "Western Australia täcker en tredjedel av kontinenten, och avstånden mellan parker, orter och mackar saknar motsvarighet. En campingresa här är först och främst en övning i logistik.",
-            "Populära campingplatser som sköts av Parks and Wildlife, Parks and Wildlife, bokar du på nätet, medan många avlägsna går efter först till kvarn. Det finns ett parkpass som täcker inträdet för fordonet, och det lönar sig om du besöker fler än några få parker.",
-            "Många parker i norr stänger under regnperioden (the wet), ungefär november till april, och öppnar igen när vägarna och vadställena är farbara igen. Kolla hur läget är just nu i stället för att lita på den publicerade säsongen."
+            "Populära campingplatser som sköts av Parks and Wildlife bokar du på nätet, medan många avlägsna går efter först till kvarn. Det finns ett parkpass som täcker inträdet för fordonet, och det lönar sig om du besöker fler än några få parker.",
+            "Många parker i norr stänger under <a data-guide=\"best-time-camping-australia\">regnperioden</a> (the wet), ungefär november till april, och öppnar igen när vägarna och vadställena är farbara. Kolla hur läget är just nu i stället för att lita på den publicerade säsongen."
           ],
           "tips": [
             "Boka populära DBCA-platser på nätet",
@@ -1072,8 +1072,8 @@
         {
           "heading": "Vatten, bränsle och kommunikation",
           "body": [
-            "Ha med minst fyra till fem liter dricksvatten per person och dag, plus en rejäl reserv. Låt bilens räckvidd på en tank styra hur du lägger upp rutten. Ett roadhouse kan vara stängt, ha slut på bränsle eller bara ta kort, med en uppkoppling som inte alltid fungerar.",
-            "Mobiltäckning finns nära orterna men försvinner helt mellan dem. En satellitkommunikator eller en personlig nödsändare är standardutrustning när du reser i de avlägsna delarna av WA, inte ett tillval.",
+            "Ha med minst fyra till fem liter dricksvatten per person och dag, plus en rejäl reserv. Låt bilens <a data-guide=\"road-trip-fuel-planning-australia\">räckvidd på en tank</a> styra hur du lägger upp rutten. Ett roadhouse kan vara stängt, ha slut på bränsle eller bara ta kort, med en uppkoppling som inte alltid fungerar.",
+            "Mobiltäckning finns nära orterna men försvinner helt mellan dem. En <a data-guide=\"camping-without-phone-signal\">satellitkommunikator</a> eller en personlig nödsändare är standardutrustning när du reser i de avlägsna delarna av WA, inte ett tillval.",
             "Berätta för någon vilken väg du tar och när du räknar med att vara framme. Går bilen sönder ska du stanna vid den. Den ger skydd och är mycket lättare att hitta än en människa till fots."
           ],
           "tips": [
@@ -1268,7 +1268,7 @@
     },
     "best-time-camping-australia": {
       "title": "Bästa tiden att campa i Australien, region för region",
-      "description": "Det finns ingen perfekt månad för hela Australien. Anpassa rutten efter klimatzonerna: torrperioden i norr, sommaren i söder, svalare månader i inlandet.",
+      "description": "Det finns ingen perfekt månad för hela Australien. Lägg upp rutten efter landets klimatzoner i stället.",
       "region": "Australien",
       "imageAlt": "Australiskt campinglandskap under olika årstider",
       "intro": "I Australien kan det vara kallt, tropiskt, översvämmat, blåsigt och brandsäsong på samma gång. Vilken månad som är bäst beror helt på vart vägen går.",
@@ -1282,10 +1282,10 @@
           "tips": []
         },
         {
-          "heading": "Södern och fjällen",
+          "heading": "Södern och bergen",
           "body": [
             "Vid sydkusten och på <a data-guide=\"camping-rules-tasmania\">Tasmania</a> är dagarna längre på sommaren, men skollov, brandrisk och vind påverkar campingen. Våren och hösten kan vara lugnare, med kallare nätter.",
-            "Vägar och campingplatser i fjällen stänger för säsongen. Snö och kalluftsfronter kan komma även utanför vintern."
+            "Vägar och campingplatser i bergen stänger för säsongen. Snö och kalluftsfronter kan komma även utanför vintern."
           ],
           "tips": [
             "Norr under torrperioden",
@@ -1330,12 +1330,12 @@
         {
           "heading": "Rätt tid region för region",
           "body": [
-            "<a data-guide=\"camping-rules-tasmania\">Tasmania</a> och fjällen är sommarmål, ungefär december till mars, och utanför den perioden kan det snöa. Red Centre är bäst på vintern, med kalla nätter och behagliga dagar.",
+            "<a data-guide=\"camping-rules-tasmania\">Tasmania</a> och de alpina områdena är sommarmål, ungefär december till mars, och utanför den perioden kan det snöa. Red Centre är bäst på vintern, med kalla nätter och behagliga dagar.",
             "Sydvästra <a data-guide=\"camping-rules-western-australia\">Western Australia</a> är som bäst när vildblommorna blommar, från augusti till november, medan nordväst fungerar från maj till oktober. Kimberley och Gibb River Road är bara för torrperioden.",
             "Östkusten fungerar året runt: norrut på vintern och söderut på sommaren. Det tropiska norra <a data-guide=\"camping-rules-queensland\">Queensland</a> följer mönstret i norr och inte kustens."
           ],
           "tips": [
-            "Tasmania och fjällen: sommar",
+            "Tasmania och bergen: sommar",
             "Red Centre: vinter",
             "Kimberley: bara torrperioden"
           ]
@@ -1532,7 +1532,7 @@
       "description": "Prisspann för mjölk, ägg, bröd, kött, frukt och grönsaker i australiska butiker, plus en rimlig veckoplan för maten.",
       "region": "Australien",
       "imageAlt": "Färska matvaror på en marknad i Australien",
-      "intro": "Att laga maten själv är det enklaste sättet att hålla budgeten för en lång resa i Australien under kontroll. Spannen nedan för hela landet är referensvärden från juni 2026, bidragna av användare. De är bra för att få en känsla för nivån, men inget löfte om dagens hyllpris i varje förort eller avlägsen ort.",
+      "intro": "Att laga maten själv är det enklaste sättet att hålla budgeten för en lång resa i Australien under kontroll. Spannen nedan för hela landet är referensvärden från juni 2026 som användare har rapporterat in. De är bra för att få en känsla för nivån, men inget löfte om dagens hyllpris i varje förort eller avlägsen ort.",
       "sections": [
         {
           "heading": "Vad en matkasse för roadtrip behöver",
@@ -1549,7 +1549,7 @@
             "Fyll på innan du kör ut på avlägsna sträckor, men håll dig till reglerna för <a data-guide=\"interstate-biosecurity-road-trip\">biosäkerhet</a> mellan delstaterna som gäller frukt, grönsaker, honung, växter och andra reglerade varor."
           ],
           "tips": [
-            "Jämför jämförpriser",
+            "Kolla jämförpriset",
             "Planera kylens utrymme",
             "Kolla restriktionerna vid gränserna"
           ]
@@ -1566,7 +1566,7 @@
           "heading": "Butikskedjorna",
           "body": [
             "Coles och Woolworths finns över hela landet, och Aldi finns i de flesta städer och regionala områden med märkbart lägre priser på basvaror. IGA fyller luckorna i mindre orter och är oftast den dyraste av de fyra.",
-            "I avlägsna områden är det enda alternativet ofta ett roadhouse eller en lanthandel, där frakt och låg omsättning pressar upp priserna långt över stadsnivå. Det är matematik, inte plundring.",
+            "I avlägsna områden är det enda alternativet ofta ett roadhouse eller en lanthandel, där frakt och låg omsättning pressar upp priserna långt över stadsnivå. Det är ren kalkyl, inte ocker.",
             "Gör storhandlingen i den sista stora orten före en avlägsen sträcka, och köp lokalt i småorterna det som är värt att köpa där. Båda spelar roll: det ena för budgeten, det andra för orten."
           ],
           "tips": [
@@ -1637,7 +1637,7 @@
         }
       ],
       "priceTable": {
-        "note": "Spann för hela landet, bidragna av användare och uppdaterade i juni 2026. Märke, kampanjer, säsong, stad och frakt till glesbygd kan ändra hyllpriset.",
+        "note": "Spann för hela landet, inrapporterade av användare och uppdaterade i juni 2026. Märke, kampanjer, säsong, stad och frakt till glesbygd kan ändra hyllpriset.",
         "rows": [
           {
             "label": "Mjölk",
@@ -1708,7 +1708,7 @@
         {
           "heading": "Fruktflugezonerna är huvudproblemet",
           "body": [
-            "South Australia, Tasmania och delar av Victoria och <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> har zoner som ska hållas fria från fruktflugor. Det är förbjudet att ta med färsk frukt och vissa grönsaker in i dem, behållare för kasserade varor finns vid gränserna och kontrollplatser är i drift.",
+            "South Australia, Tasmania och delar av Victoria och <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> har zoner som ska hållas fria från fruktflugor. Där är det förbjudet att ta med färsk frukt och vissa grönsaker. Vid gränserna finns behållare där du kan slänga varorna, och där görs också kontroller.",
             "Böter utdöms oavsett om du kände till reglerna, och kontroller vid gränsen till South Australia och vid färjeterminalen på Tasmania är rutin. Sökhundar används vid en del övergångar.",
             "Det praktiska är att lägga inköpen runt gränserna: ät upp det du har i kylen före en gräns och fyll på direkt efter. Det kostar ingenting och löser problemet helt."
           ],
@@ -1779,7 +1779,7 @@
         ],
         [
           "Vad händer vid en karantänkontroll i Australien?",
-          "Du lägger antingen de begränsade varorna i behållarna som står framför linjen, eller anmäler dem. Att göra sig av med dem kostar ingenting, men blir du påkommen med dem väntar böter på plats, och kontrollerna vid gränserna till WA och SA är rutin."
+          "Antingen slänger du de begränsade varorna i behållarna som står före gränsen, eller så deklarerar du dem. Att slänga dem kostar ingenting, men blir du påkommen med dem får du böter på plats, och kontrollerna vid gränserna till WA och SA är rutin."
         ]
       ],
       "sources": [
@@ -1799,7 +1799,7 @@
         {
           "heading": "Dag 1: Torquay till Apollo Bay",
           "body": [
-            "Lämna Melbourne tidigt och gör Torquay till första riktiga stopp. Bells Beach, Point Addis och klippvägen kring Aireys Inlet är trevligare att uppleva innan eftermiddagstrafiken byggs upp.",
+            "Lämna Melbourne tidigt och gör Torquay till första riktiga stopp. Bells Beach, Point Addis och klippvägen kring Aireys Inlet är trevligast innan eftermiddagstrafiken tätnar.",
             "Apollo Bay passar bra för första natten. På en holiday park får du duschar, el och enkel proviantering, medan campingplatserna i nationalparken i närheten ger en lugnare bas. Boka sommarhelgerna i god tid."
           ],
           "tips": []
@@ -1828,8 +1828,8 @@
           "heading": "Kör den västerut",
           "body": [
             "Kör du från Melbourne till Warrnambool har du havssidan av vägen, och det spelar roll på en sträcka där nästan alla utsiktsplatser ligger mot kusten. Österut får du korsa trafiken för att komma till varje stopp.",
-            "Vägen är smal, krokig och full av turistbussar, och statistiken över olyckor med utländska förare är dålig. Det finns få tillfällen att köra om och små fickor att stanna i, så räkna med låg medelfart och släpp förbi snabbare trafik.",
-            "Avsätt minst tre dagar. Gör du den på en dag blir det fyra timmars koncentration förbi saker du inte stannade för, och det är den vanligaste ångern på den här rutten."
+            "Vägen är smal, krokig och full av turistbussar, och här sker många olyckor där tillresta förare är inblandade. Det finns få tillfällen att köra om och bara små fickor att stanna i, så räkna med låg medelfart och släpp förbi snabbare trafik.",
+            "Avsätt minst tre dagar. Gör du sträckan på en dag blir det fyra timmars koncentration förbi allt du inte stannade vid, och det är just det folk oftast ångrar på den här rutten."
           ],
           "tips": [
             "Kör västerut för utsiktsplatserna",
@@ -1841,7 +1841,7 @@
           "heading": "Var campingen faktiskt finns",
           "body": [
             "Aire River och Johanna Beach är de främsta billiga alternativen i Great Otway National Park. Båda måste bokas hos Parks <a data-guide=\"camping-rules-victoria\">Victoria</a> och båda blir fulla under sommaren och skollov. Ingen av dem har platser med el.",
-            "Apollo Bay och Port Campbell har de kommersiella campingarna med duschar, tvätt och el, och de är de praktiska återhämtningspunkterna på en tredagarsresa. Boka dem i god tid mellan december och januari.",
+            "Apollo Bay och Port Campbell har de kommersiella campingarna med duschar, tvätt och el, och där är det praktiskt att ladda om under en tredagarsresa. Boka dem i god tid mellan december och januari.",
             "<a data-guide=\"is-free-camping-legal-australia\">Fricamping</a> längs själva vägen finns i praktiken inte och bevakas hårt. Se sträckan som en rutt med bokat boende, inte en du kan improvisera dig fram på. Allemansrätten finns inte i Australien: du får bara övernatta där det uttryckligen är tillåtet."
           ],
           "tips": [
@@ -1858,7 +1858,7 @@
             "Loch Ard Gorge, några minuter längre västerut, är lugnare än Apostles och kanske det bättre stoppet. Berättelsen om skeppsbrottet och tillgången till stranden gör det värt mer än de tio minuter de flesta ger det."
           ],
           "tips": [
-            "Soluppgång slår solnedgång vad gäller folk",
+            "Färre folk i soluppgången",
             "Loch Ard Gorge är lugnare",
             "Boka flygningarna till förmiddagen"
           ]
@@ -1900,12 +1900,12 @@
       "description": "Två veckor med stränder, grönt inland och varma morgnar i norr.",
       "region": "Östkusten",
       "imageAlt": "Tropisk kustväg i Queensland",
-      "intro": "Från Sydney till Cairns är det ungefär 2 500 kilometer före avstickare. Fjorton dagar är snabbt, så välj några längre stopp i stället för att sova i en ny stad varje natt.",
+      "intro": "Från Sydney till Cairns är det ungefär 2 500 kilometer före avstickare. Fjorton dagar är snabbt, så välj några längre stopp i stället för att sova i en ny stad varje natt.",
       "sections": [
         {
           "heading": "Från Sydney till Mid North Coast",
           "body": [
-            "Dela den första etappen vid Myall Lakes eller Port Macquarie. Myall Lakes har stilla vatten och camping i nationalparken, medan Port Macquarie gör mat, tvätt och en plats med el enkelt.",
+            "Dela den första etappen vid Myall Lakes eller Port Macquarie. Myall Lakes har stilla vatten och camping i nationalparken, medan det i Port Macquarie är lätt att handla mat, tvätta och få en plats med el.",
             "Sväng inåt landet mot Dorrigo om regnskogsvandringar betyder mer än ännu en natt vid stranden. Platån är svalare, vägen stiger brant och molnen kan lägga sig snabbt runt bergen."
           ],
           "tips": []
@@ -1925,7 +1925,7 @@
         {
           "heading": "Den långa sträckan till Cairns",
           "body": [
-            "Avståndet mellan Sunshine Coast och Airlie Beach är längre än det ser ut. Dela det vid Agnes Water, Rockhampton eller Cape Hillsborough och ge sedan Airlie Beach en vilodag.",
+            "Avståndet mellan Sunshine Coast och Airlie Beach är längre än det ser ut. Dela det vid Agnes Water, Rockhampton eller Cape Hillsborough och ta sedan en vilodag i Airlie Beach.",
             "Mission Beach är ett lugnare sista stopp före Cairns. Här är klimatet tropiskt, varningarna för kasuarer gäller på riktigt och råden om bad ändras med säsongen. Kolla de lokala skyltarna innan du går i vattnet."
           ],
           "tips": []
@@ -1933,12 +1933,12 @@
         {
           "heading": "Fjorton dagar är knappt för det här avståndet",
           "body": [
-            "Från Sydney till Cairns är det ungefär 2 400 kilometer på den raka vägen genom inlandet, och betydligt mer om du följer kusten ordentligt. Två veckor innebär ett snitt på omkring 200 kilometer om dagen med stopp, och det är bekvämt bara om du låter bli att lägga till avstickare.",
-            "Det vanliga misstaget är att försöka få med Whitsundays, Fraser Island, Daintree och en tur till Great Barrier Reef under samma två veckor. Var och en av dem vill ha minst två dagar, och tillsammans äter de upp hela resan.",
-            "Välj tre höjdpunkter och se resten som körsträckor med ett dopp. Försöker du göra allt blir det en resa där du hela tiden satt i bilen."
+            "Från Sydney till Cairns är det ungefär 2 400 kilometer på den raka vägen genom inlandet, och betydligt mer om du följer kusten ordentligt. Två veckor innebär ett snitt på omkring 200 kilometer om dagen med stopp, och det är bekvämt bara om du låter bli att lägga till avstickare.",
+            "Det vanliga misstaget är att försöka få med Whitsundays, Fraser Island, Daintree och en tur till Stora barriärrevet under samma två veckor. Var och en av dem kräver minst två dagar, och tillsammans äter de upp hela resan.",
+            "Välj tre höjdpunkter och se resten som kördagar med ett dopp. Försöker du hinna allt blir det en resa där du mest sitter i bilen."
           ],
           "tips": [
-            "Cirka 2 400 km på raka vägen",
+            "Cirka 2 400 km på raka vägen",
             "Välj tre höjdpunkter, inte sex",
             "200 km om dagen är en realistisk takt"
           ]
@@ -1947,8 +1947,8 @@
           "heading": "Stoppen som är värda en andra natt",
           "body": [
             "Byron Bay, Noosa, Airlie Beach och Port Douglas är platserna där en enda natt gör att du packar ihop innan du hunnit göra något. Alla har vandringar, stränder och båtturer som kräver en hel dag.",
-            "Däremellan fungerar Coffs Harbour, Hervey Bay, Rockhampton och Townsville som genomfartsstopp för en natt, med service, bränsle och en <a data-guide=\"caravan-park-vs-holiday-park\">caravan park</a>. Det finns ingen anledning att göra dem intressanta.",
-            "Ska du till revet är Cairns och Port Douglas de två avgångspunkterna, och båda behöver en reservdag för vädret. Revturer ställs in så ofta att en bokning på ankomstdagen är ett spel."
+            "Däremellan fungerar Coffs Harbour, Hervey Bay, Rockhampton och Townsville som genomfartsstopp för en natt, med service, bränsle och en <a data-guide=\"caravan-park-vs-holiday-park\">caravan park</a>. Mer än så behöver de inte vara.",
+            "Ska du till revet är Cairns och Port Douglas de två avgångsorterna, och båda behöver en reservdag för vädret. Revturer ställs in så ofta att det är ett lotteri att boka en tur samma dag som du kommer fram."
           ],
           "tips": [
             "Två nätter: Byron, Noosa, Airlie, Port Douglas",
@@ -1974,16 +1974,16 @@
           "body": [
             "Bruce Highway är kustens ryggrad och har mycket lastbilstrafik, vägarbeten och översvämningsavstängningar under <a data-guide=\"best-time-camping-australia\">regnperioden</a>. Den är inte någon naturskön väg på större delen av sträckan, vilket överraskar dem som väntar sig havsutsikt.",
             "Bränsle finns regelbundet längs rutten, till skillnad från större delen av Australien, så det som behöver planeras är tiden, inte räckvidden. Priserna på roadhouses norr om Townsville stiger märkbart.",
-            "Under regnperioden, ungefär från november till april, stängs delar av Bruce av översvämningar och det tropiska norr får kraftigt regn. Torrperioden från maj till oktober är den enkla tiden att köra den här sträckan."
+            "Under regnperioden, ungefär från november till april, stängs delar av Bruce Highway av översvämningar och det tropiska norr får kraftigt regn. Torrperioden, maj till oktober, är den självklara tiden för den här resan."
           ],
           "tips": [
             "Torrperioden är maj till oktober",
             "Bruce Highway svämmar över under regnperioden",
-            "Bränsle är inte begränsningen här"
+            "Bränslet är inget problem här"
           ]
         },
         {
-          "heading": "Avstickare till öar som är värda tiden",
+          "heading": "Öar som är värda en avstickare",
           "body": [
             "K'gari, Whitsundays och Magnetic Island är de tre avstickarna till öar på rutten, och var och en kräver minst två dagar inklusive överfarter. Att lägga till alla tre på två veckor är det som spränger planen.",
             "K'gari kräver fyrhjulsdrift och tillstånd för fordonet, eller en organiserad tur, och där gäller strikta säkerhetsregler kring dingor som måste följas. Välj en ö och gör den ordentligt i stället för att hasta över alla tre.",
@@ -2011,7 +2011,7 @@
         {
           "heading": "Från Perth till Shark Bay",
           "body": [
-            "Använd Cervantes eller Jurien Bay för första natten och besök Pinnacles utanför dygnets hetaste timmar. Fortsätt via Geraldton till Kalbarri och avsätt tid för både klipporna vid kusten och utsiktsplatserna vid ravinerna i inlandet.",
+            "Sov första natten i Cervantes eller Jurien Bay och besök Pinnacles utanför dygnets hetaste timmar. Fortsätt via Geraldton till Kalbarri och avsätt tid för både klipporna vid kusten och utsiktsplatserna vid ravinerna i inlandet.",
             "Shark Bay är en avstickare, inget snabbt stopp vid vägen. Ha Denham eller en <a data-guide=\"caravan-park-vs-holiday-park\">caravan park</a> i närheten som bas i minst två nätter om du vill se Monkey Mia, Shell Beach och Francois Peron-området."
           ],
           "tips": [
@@ -2024,7 +2024,7 @@
           "heading": "Ningaloo och Karijini",
           "body": [
             "Cape Range National Park och Exmouth förtjänar flera nätter. Boka campingplatserna i nationalparken tidigt i torrperioden och bekräfta vad som gäller för vatten, skugga och generatorer. Coral Bay är mindre och ofta fullt.",
-            "Avstickaren inåt landet till Karijini lägger på ordentligt med sträcka. Vägar, värme och tillträdet till ravinerna ändras med förhållandena. Övernatta på en godkänd campingplats och ta med mer vatten än en kustdag skulle ge intryck av."
+            "Avstickaren inåt landet till Karijini lägger på ordentligt med sträcka. Vägar, värme och tillträdet till ravinerna ändras med förhållandena. Övernatta på en godkänd campingplats och ta med mer vatten än du skulle behöva en dag vid kusten."
           ],
           "tips": []
         },
@@ -2032,29 +2032,29 @@
           "heading": "Pilbara till Broome",
           "body": [
             "Dela sista etappen vid Port Hedland eller Eighty Mile Beach i stället för att pressa in en mycket lång dag. Roadhouses kan ha begränsade öppettider, så tanka innan du måste.",
-            "Broome är en lätt plats att stanna upp på en stund. <a data-guide=\"caravan-park-vs-holiday-park\">Caravan parks</a> blir fullbokade under torrperioden, särskilt kring skollov och stora evenemang. Boka innan du lämnar Pilbara."
+            "I Broome är det lätt att bli kvar ett tag. <a data-guide=\"caravan-park-vs-holiday-park\">Caravan parks</a> blir fullbokade under torrperioden, särskilt kring skollov och stora evenemang. Boka innan du lämnar Pilbara."
           ],
           "tips": []
         },
         {
           "heading": "Avstånden styr planeringen",
           "body": [
-            "Från Perth till Broome är det ungefär 2 200 kilometer, orterna ligger långt isär och på långa sträckor är nästa bränsle flera hundra kilometer bort. Det här är resan där planeringen av räckvidd slutar vara teoretisk.",
+            "Från Perth till Broome är det ungefär 2 200 kilometer, orterna ligger långt isär och på långa sträckor är nästa bränsle flera hundra kilometer bort. Det här är resan där planeringen av räckvidd slutar vara teoretisk.",
             "Tio dagar är minimum för att hinna med stopp i Kalbarri, Shark Bay, Coral Bay och Exmouth. Med två veckor kan du lägga till Karijini, som är den bästa enskilda avstickaren på rutten och lägger på omkring 600 kilometer.",
             "Boka boende i Exmouth, Coral Bay och Broome under torrperioden, eftersom de fylls av resenärer från söder som flyr vintern och det saknas reservkapacitet."
           ],
           "tips": [
-            "Ungefär 2 200 km",
+            "Ungefär 2 200 km",
             "Tio dagar minimum, två veckor är bättre",
-            "Torrperioden blir fullbokad i norr"
+            "Fullbokat i norr under torrperioden"
           ]
         },
         {
           "heading": "Ningaloo är skälet att åka",
           "body": [
-            "Ningaloo Reef kommer inom några meter från stranden vid Coral Bay och Turquoise Bay, vilket gör det till det mest lättillgängliga stora revet i landet. Du kan snorkla direkt från sanden utan båt.",
+            "Ningaloo Reef ligger bara några meter från stranden vid Coral Bay och Turquoise Bay, och det gör det till det mest lättillgängliga av landets stora rev. Du kan snorkla direkt från stranden utan båt.",
             "Turerna för att se valhajar går ungefär från mars till juli och simturerna med knölvalar senare under säsongen. Båda blir fullbokade och båda är väderberoende, så avsätt en reservdag och boka tidigt under vistelsen, inte i slutet.",
-            "Vid Turquoise Bay finns en drift snorkel där strömmen bär dig längs revet. Ta dig upp ur vattnet före sandbanken i södra änden, eftersom strömmen fortsätter förbi den och det är riktigt svårt att simma tillbaka mot den."
+            "Vid Turquoise Bay kan du drivsnorkla: strömmen bär dig längs revet. Gå upp ur vattnet före sandbanken i södra änden, eftersom strömmen fortsätter förbi den och det är riktigt svårt att simma tillbaka mot den."
           ],
           "tips": [
             "Snorkla direkt från stranden",
@@ -2079,22 +2079,22 @@
           "heading": "Säsong, värme och regnperioden",
           "body": [
             "Rutten fungerar under torrperioden, ungefär från maj till oktober, när norr är varmt och torrt och vägarna är öppna. <a data-guide=\"best-time-camping-australia\">Regnperioden</a> ger extrem värme, hög luftfuktighet, cykloner och avstängda vägar i hela Pilbara och Kimberley.",
-            "Även under torrperioden är temperaturerna på dagen höga norr om Carnarvon och solen är kraftig. Ta med mycket mer vatten än det känns som att du behöver, börja vandringarna tidigt och se mitten av dagen som tid att vara någonstans med skugga.",
+            "Även under torrperioden är dagstemperaturerna höga norr om Carnarvon och solen är stark. Ta med mycket mer vatten än du tror att du behöver, börja vandringarna tidigt och håll dig i skuggan mitt på dagen.",
             "Cyklonsäsongen pågår ungefär från november till april i nordväst. Reser du då bör du följa varningarna varje dag och veta att en cyklon stänger vägar och orter med kort varsel."
           ],
           "tips": [
             "Torrperioden är maj till oktober",
             "Cykloner november till april",
-            "Vandra tidigt, vila under middagen"
+            "Vandra tidigt, vila mitt på dagen"
           ]
         },
         {
           "heading": "Shark Bay och stoppen emellan",
           "body": [
-            "Shark Bay är ett världsarv med delfinerna vid Monkey Mia, stromatoliterna i Hamelin Pool och Shell Beach, som helt består av snäckskal på flera meters djup. Det är en rejäl avstickare från motorvägen och värd en hel dag.",
+            "Shark Bay är ett världsarv med delfinerna vid Monkey Mia, stromatoliterna i Hamelin Pool och Shell Beach, som helt består av snäckskal på flera meters djup. Det är en rejäl avstickare från huvudvägen och värd en hel dag.",
             "Kalbarri ligger mellan Perth och Shark Bay, med klippor vid kusten och raviner inåt landet, bland annat Nature's Window. Parken stänger leder vid extrem värme, så på sommaren behöver du komma igång tidigt.",
             "Själva Broome förtjänar två nätter för Cable Beach, Staircase to the Moon på rätt datum och pärlfiskets historia på museet.",
-            "Karijini och Ningaloo ligger båda långt från motorvägen, så bestäm vilket du tar med innan du lämnar Perth i stället för att försöka få in båda i ett trångt schema."
+            "Karijini och Ningaloo ligger båda långt från huvudvägen, så bestäm vilket du tar med innan du lämnar Perth i stället för att försöka klämma in båda i ett pressat schema."
           ],
           "tips": [
             "Shark Bay är en avstickare på en hel dag",
@@ -2125,7 +2125,7 @@
         {
           "heading": "Från Whitsundays till de våta tropikerna",
           "body": [
-            "Cape Hillsborough har skog, strand och en lugnare natt före Airlie Beach. Airlie är den praktiska basen för turer till Whitsundays, med mer service och fullbokade holiday parks.",
+            "Cape Hillsborough har skog, strand och en lugnare natt före Airlie Beach. Airlie är den praktiska basen för turer till Whitsundays, med mer service och välbesökta holiday parks.",
             "Mission Beach sänker tempot igen. Läs skyltarna om kasuarer, förvara maten säkert och följ råden om bad som gäller för säsongen. Inåt landet kan Atherton Tablelands vara svalare, med vattenfall, övernattning på gårdar och <a data-guide=\"caravan-park-vs-holiday-park\">caravan parks</a>."
           ],
           "tips": [
@@ -2156,9 +2156,9 @@
           ]
         },
         {
-          "heading": "Krokodilerna är begränsningen häruppe",
+          "heading": "Häruppe är det krokodilerna som sätter gränserna",
           "body": [
-            "Saltvattenkrokodiler finns i alla vattendrag i tropiska norr, även bäckar, mangroveträsk, flodmynningar och själva stränderna. Daintree och kusten vid Cape Tribulation är ett förstklassigt område för dem, och risken är verklig, inte teoretisk.",
+            "Saltvattenkrokodiler finns i alla vattendrag i tropiska norr, även i bäckar, mangroveträsk, flodmynningar och på själva stränderna. Daintree och kusten vid Cape Tribulation är typisk krokodilmark, och risken är verklig, inte teoretisk.",
             "Bada inte i eller vid något vattendrag om det inte är ett anvisat område för säkert bad. Campa inte inom några meter från vattnet, rensa inte fisk vid vattenkanten och stå inte i det grunda för att ta ett foto.",
             "Det säkra badet här finns i de anvisade sötvattenhålen som Mossman Gorge och Emmagen Creek, och även där är skyltarna värda att läsa varje gång, eftersom förhållandena ändras."
           ],
@@ -2173,7 +2173,7 @@
           "body": [
             "Daintree är den äldsta regnskogen på jorden som har överlevt utan avbrott, och spångarna vid Marrdja och Dubuji är det enklaste sättet att se den ordentligt. Tidigt på morgonen är chansen störst att se kasuarer och det är minst folk.",
             "Vid Cape Tribulation möter regnskogen revet, och revturerna går från Cape Trib och Port Douglas. Platserna vid det norra revet är oftast i bättre skick än de närmare Cairns.",
-            "<a data-guide=\"best-time-camping-australia\">Regnperioden</a>, ungefär från november till april, ger kraftigt regn, avstängda vägar och manetsäsong. Torrperioden är den enkla tiden att besöka, och då fungerar vägar och turer pålitligt."
+            "<a data-guide=\"best-time-camping-australia\">Regnperioden</a>, ungefär från november till april, ger kraftigt regn, avstängda vägar och manetsäsong. Torrperioden är den självklara tiden att åka, och då går det att lita på vägar och turer."
           ],
           "tips": [
             "Spångarna är det enkla sättet att ta sig in",
@@ -2184,20 +2184,20 @@
         {
           "heading": "Dela upp körningen från Brisbane",
           "body": [
-            "Från Brisbane till Cape Tribulation är det omkring 1 900 kilometer, och det kräver minst fem körningsdagar för att bli trevligt. Sunshine Coast, Hervey Bay, Airlie Beach och Townsville är de naturliga nattstoppen.",
-            "Bruce Highway har mycket godstrafik och är inte någon naturskön väg på större delen av sträckan. Se den södra halvan som transport och spara tiden till de tropiska delarna i norr, för det är dem du har kommit för.",
+            "Från Brisbane till Cape Tribulation är det omkring 1 900 kilometer, och du behöver minst fem kördagar för att det ska bli trevligt. Sunshine Coast, Hervey Bay, Airlie Beach och Townsville är de naturliga nattstoppen.",
+            "Bruce Highway har mycket godstrafik och är inte någon naturskön väg på större delen av sträckan. Se den södra halvan som en transportsträcka och spara tiden till de tropiska delarna i norr, för det är dem du har kommit för.",
             "Överväg att flyga till Cairns och hyra bil där om tiden är knapp. Då slipper du fyra dagars körning och kommer direkt till den del av rutten som verkligen är speciell."
           ],
           "tips": [
-            "Omkring 1 900 km från Brisbane",
-            "Södra halvan är transport",
-            "Flyg till Cairns sparar fyra dagar"
+            "Omkring 1 900 km från Brisbane",
+            "Södra halvan är en transportsträcka",
+            "Flyget till Cairns sparar fyra dagar"
           ]
         },
         {
           "heading": "Kasuarer och körning i de våta tropikerna",
           "body": [
-            "Södra kasuarer lever i regnskogen mellan Mission Beach och Daintree och blir ofta påkörda. I skyltade kasuarzoner gäller sänkt hastighet, och det menas allvar.",
+            "Hjälmkasuarer lever i regnskogen mellan Mission Beach och Daintree och blir ofta påkörda. I skyltade kasuarzoner gäller sänkt hastighet, och det är allvar.",
             "De är stora, kraftiga fåglar och kan vara farliga om man går fram till dem eller matar dem. Mata aldrig en, håll dig långt tillbaka, och om en kommer mot dig ska du ställa ett träd eller ditt fordon mellan er i stället för att springa.",
             "Mission Beach och Etty Bay söder om Cairns är de andra pålitliga områdena för kasuarer, och vid Etty Bay kommer de särskilt ofta ut på stranden.",
             "Kön till Daintree-färjan kan bli över en timme under högsäsong, så sikta på att korsa mitt på förmiddagen eller sent på eftermiddagen, inte mitt på dagen."
@@ -2231,8 +2231,8 @@
         {
           "heading": "Limestone Coast",
           "body": [
-            "Korsa in i South Australia via Mount Gambier, där kalkstenshål, kratersjöar och <a data-guide=\"caravan-park-vs-holiday-park\">caravan parks</a> med full service gör det enkelt att återhämta sig. Fortsätt till Beachport eller Robe för en natt vid kusten.",
-            "Kolla om stigarna ner till stranden passar ditt fordon och ditt hyresavtal. Lös sand, tidvatten och ändrad tillgång gör lokala råd mer värda än en gammal rapport om leden."
+            "Kör in i South Australia via Mount Gambier, där slukhål, kratersjöar och <a data-guide=\"caravan-park-vs-holiday-park\">caravan parks</a> med full service gör det lätt att vila upp sig. Fortsätt till Beachport eller Robe för en natt vid kusten.",
+            "Kolla om körvägarna ner till och längs stranden passar ditt fordon och ditt hyresavtal. Lös sand, tidvatten och ändrade förhållanden gör lokala råd mer värda än en gammal rapport om vägen."
           ],
           "tips": [
             "Mount Gambier",
@@ -2244,7 +2244,7 @@
           "heading": "Från Coorong till Adelaide",
           "body": [
             "Coorong är långt, blåsigt och glest. Campa bara på anvisade platser, ta med vatten och skydda maten från vilda djur. Reglerna för eld kan vara stränga även när kvällarna känns svala.",
-            "Kör in mot Adelaide via Meningie och nedre Murray, eller ta mer tid kring Fleurieu Peninsula. Avsluta med en plats med el om du behöver tvätta och göra en ordentlig omstart av fordonet."
+            "Kör in mot Adelaide via Meningie och nedre Murray, eller ta mer tid kring Fleurieu Peninsula. Avsluta med en plats med el om du behöver tvätta och ställa i ordning bilen ordentligt."
           ],
           "tips": []
         },
@@ -2252,7 +2252,7 @@
           "heading": "Två rutter, två helt olika resor",
           "body": [
             "Kustrutten via Great Ocean Road och Warrnambool till Mount Gambier är ungefär 900 kilometer och tar minst fyra dagar om du gör den ordentligt. Western Highway genom inlandet är omkring 730 kilometer och går att köra på en lång dag.",
-            "Kustalternativet ger dig Twelve Apostles, Bay of Islands, Cape Bridgewater och Limestone Coast. Inlandsalternativet ger dig Grampians, som är ett seriöst resmål i sig.",
+            "Kustalternativet ger dig Twelve Apostles, Bay of Islands, Cape Bridgewater och Limestone Coast. Inlandsalternativet ger dig Grampians, som är väl värt en resa i sig.",
             "Har du en vecka kan du ta kusten åt ena hållet och Grampians på tillbakavägen. Då får du med båda och slipper köra samma väg två gånger."
           ],
           "tips": [
@@ -2262,11 +2262,11 @@
           ]
         },
         {
-          "heading": "Limestone Coast och kalkstenshålen",
+          "heading": "Limestone Coast och slukhålen",
           "body": [
             "Mount Gambier ligger i kalkstensland, och Blue Lake byter dramatiskt färg från grått till intensivt blått omkring november varje år. Umpherston Sinkhole, en kollapsad grotta som blivit en nedsänkt trädgård, är gratis och riktigt ovanlig.",
             "Grottdykningen i regionen är världskänd och strikt styrd av certifiering. Vid Kilsby Sinkhole och Piccaninnie Ponds går det att snorkla för den som saknar grottdykarbevis, och vattnet är ovanligt klart.",
-            "Robe och Beachport längre norrut är lugnare kustorter med bra camping och mycket färre besökare än på Victoria-sidan av gränsen. De är en enkel sista natt före Adelaide."
+            "Robe och Beachport längre norrut är lugnare kustorter med bra camping och mycket färre besökare än på Victoria-sidan av gränsen. De passar bra för en sista natt före Adelaide."
           ],
           "tips": [
             "Blue Lake blir blå omkring november",
@@ -2277,7 +2277,7 @@
         {
           "heading": "Att korsa gränsen",
           "body": [
-            "South Australia kontrollerar <a data-guide=\"interstate-biosecurity-road-trip\">fruktflugor</a> vid gränsen, och färsk frukt och färska grönsaker får inte tas med in. Behållare för kasserade varor finns vid kontrollen och böter utdöms för förbjudna färskvaror, oavsett om du visste om det.",
+            "South Australia har karantän mot <a data-guide=\"interstate-biosecurity-road-trip\">fruktflugor</a> vid gränsen, och färsk frukt och färska grönsaker får inte tas med in. Vid kontrollen finns behållare där du kan slänga varorna, och har du med dig förbjudna färskvaror blir det böter, oavsett om du kände till reglerna eller inte.",
             "Planera inköpen efter det: köp färskvaror efter gränsen, inte före. Det här drabbar många resenärer som provianterar i <a data-guide=\"camping-rules-victoria\">Victoria</a> kvällen före gränsen.",
             "Det är också en tidsskillnad på en halvtimme mellan Victoria och <a data-guide=\"camping-rules-south-australia\">South Australia</a>, vilket spelar roll för färjebokningar, tider för turer och incheckning på campingplatser."
           ],
@@ -2290,8 +2290,8 @@
         {
           "heading": "Valar, sälar och sydkusten",
           "body": [
-            "Sydliga rätvalar kalvar längs den här kusten ungefär mellan maj och oktober, och vid Logans Beach i Warrnambool finns en särskild utsiktsplattform där de kommer nära land. Portland och Cape Bridgewater i närheten har dessutom kolonier av sälar.",
-            "Cape Bridgewater har en av de största kolonierna av australiska pälssälar på fastlandet, nåbar på en klippvandring. Blåshålen och vandringen till den förstenade skogen i närheten gör det till en halvdag, inte ett snabbt stopp.",
+            "Sydkapare kalvar längs den här kusten ungefär mellan maj och oktober, och vid Logans Beach i Warrnambool finns en särskild utsiktsplattform där de kommer nära land. Portland och Cape Bridgewater i närheten har dessutom sälkolonier.",
+            "Cape Bridgewater har en av fastlandets största kolonier av australiska pälssälar, dit du når på en vandring längs klipporna. Blåshålen och vandringen till den förstenade skogen i närheten gör det till en halvdag, inte ett snabbt stopp.",
             "Tower Hill, en utslocknad vulkan nära Warrnambool, är ett naturreservat med emuer, koalor och <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">kängurur</a> i en ovanligt lättillgänglig miljö. Det är gratis och lugnt tidigt på morgonen."
           ],
           "tips": [
@@ -2306,7 +2306,7 @@
             "Öster om Adelaide sträcker sig Coorong över mer än hundra kilometer lagun bakom ett dynbälte, med camping, fågelliv och nästan ingen alls. Det är ett helt annat landskap än kalkstenskusten.",
             "Murray-mynningen vid Goolwa markerar slutet på Australiens största flodsystem, och dammarna och färjeövergångarna runt den är värda omvägen före sträckan in till Adelaide.",
             "Avsätt tid för Fleurieu Peninsula på vägen in mot Adelaide, där McLaren Vale och kusten vid Victor Harbor gör en enkel sista dag.",
-            "Tillfartsvägar och vandringsleder i Grampians har påverkats av bränder och översvämningar de senaste åren, så bekräfta att just den led du tänker på är öppen innan du bygger en dag kring den."
+            "Tillfartsvägar och vandringsleder i Grampians har drabbats av bränder och översvämningar de senaste åren, så kontrollera att just den led du tänker gå är öppen innan du planerar en hel dag kring den."
           ],
           "tips": [
             "Coorong är lugnt och ovanligt",
