@@ -14,7 +14,6 @@
         "ja",
         "ko",
         "zh-hans",
-        "zh-hant",
         "cs",
         "pl"
       ],
@@ -47,10 +46,6 @@
         {
           "locale": "zh-hans",
           "path": "../lib/translations/zh-hans.json"
-        },
-        {
-          "locale": "zh-hant",
-          "path": "../lib/translations/zh-hant.json"
         },
         {
           "locale": "cs",
@@ -101,8 +96,7 @@
       },
       "varieties": {
         "pt": "pt-PT",
-        "zh-hans": "zh-Hans",
-        "zh-hant": "zh-Hant"
+        "zh-hans": "zh-Hans"
       },
       "register": {
         "de": "informal",
@@ -414,6 +408,64 @@
       },
       "styleGuide": {
         "nb": "Follow docs/translation-style/nb.md: natural Norwegian Bokmål travel-writer voice, informal du, bobil and campingplass vocabulary, Norwegian number and currency format, no offline-map claims."
+      }
+    },
+    {
+      "id": "aussiecamps-website-zh-Hant",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "zh-hant"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "zh-hant",
+          "path": "../lib/translations/zh-hant.json"
+        }
+      ],
+      "protectedTerms": [
+        "AussieCamps",
+        "AussieCamping",
+        "AUD",
+        "Parks Victoria"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {
+        "New South Wales": {
+          "zh-hant": "新南威爾斯"
+        },
+        "Queensland": {
+          "zh-hant": "昆士蘭"
+        },
+        "Victoria": {
+          "zh-hant": "維多利亞"
+        },
+        "South Australia": {
+          "zh-hant": "南澳"
+        },
+        "Western Australia": {
+          "zh-hant": "西澳"
+        },
+        "Tasmania": {
+          "zh-hant": "塔斯馬尼亞"
+        },
+        "Northern Territory": {
+          "zh-hant": "北領地"
+        },
+        "Australian Capital Territory": {
+          "zh-hant": "澳洲首都領地"
+        }
+      },
+      "styleGuide": {
+        "zh-hant": "Follow docs/translation-style/zh-hant.md: native Taiwanese Traditional Chinese travel-writer voice, 你 not 您, Taiwan vocabulary, full-width punctuation, no dashes, no offline-map claims."
+      },
+      "varieties": {
+        "zh-hant": "zh-Hant"
       }
     }
   ]

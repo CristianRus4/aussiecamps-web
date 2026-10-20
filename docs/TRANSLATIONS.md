@@ -6,9 +6,9 @@ whether the home page shows the testimonials (`reviews`). After editing it, run
 `npm run locales:sync`, which regenerates the import barrel (`lib/translations/index.ts`) and the
 engine's targets in `docs/translation.config.json`. `npm run content:check` fails if either is stale.
 
-- **live** locales (de, es, fr, it, nl, pt) are built, exported, in the sitemaps, hreflang and the
+- **live** locales (de, es, fr, it, nl, pt, da, sv, nb, zh-hant) are built, exported, in the sitemaps, hreflang and the
   footer language list. A live locale must translate its whole interface.
-- **draft** locales (ja, ko, zh-hans, zh-hant, da, sv, nb, cs, pl) are not exported at all. Preview
+- **draft** locales (ja, ko, zh-hans, cs, pl) are not exported at all. Preview
   them with `LOCALES_PREVIEW=1 npm run dev`. Only the orchestrator flips a status.
 
 Each locale is served from its own URL prefix (`/de/`, `/zh-hans/`, …) and covers the home page,
