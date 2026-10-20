@@ -22,7 +22,7 @@ glossary gets `Australia → Austrálie`.
 - [x] `consent` namespace (6 per site).
 - [x] Support, privacy (all 7 sections incl. Website analytics) and terms: 63 units per site.
 
-## Status (2026-10-21)
+## Status (2026-10-22)
 
 Both branches merged with origin/main (merge, not rebase) and re-synced by English diff (`en.json` at the
 previous tip vs merged): zero changed units left. `LOCALES_PREVIEW=1 npm run content:check`: cs 0 stale,
@@ -30,17 +30,24 @@ previous tip vs merged): zero changed units left. `LOCALES_PREVIEW=1 npm run con
 Go-live set (UI 220/220 non-testimonial, consent, home, support, privacy with Website analytics, terms) is
 complete on both sites. `cs` stays `draft` in `lib/locales.json` (orchestrator flips it).
 
-Guides done: AussieCamps 17 of 80, KiwiCamping 25 of 89.
+Guides done: AussieCamps 27 of 80, KiwiCamping 35 of 89. Every batch is drafted (sonnet, high), then
+rewritten by an Opus native reviewer (titles, descriptions, headings, FAQs, tables, rule and app-claim units)
+before apply; the reviewer's negation check is recorded in each handoff.
 - AussieCamps: alcohol-coffee-drink-prices, public-transport-costs, eating-out, australia-grocery-prices,
   interstate-biosecurity, campervan-road-trip-budget, accommodation-costs, domestic-flight-costs,
   best-time-camping-australia, brisbane-to-cape-tribulation, great-ocean-road-camping-guide,
   melbourne-to-adelaide-coastal-route, camping-without-phone-signal, bus-train-costs-australia-2026,
-  best-camping-app-australia, campervan-driving-australia-safety-guide, camping-water-planning.
+  best-camping-app-australia, campervan-driving-australia-safety-guide, camping-water-planning,
+  perth-to-broome, east-coast-road-trip-sydney-cairns, sunshine-coast-hinterland, gibb-river-road,
+  overseas-driver-licence-australia-state-guide, nullarbor-crossing, flinders-ranges, red-centre-way,
+  tasmania-camping-loop, sydney-south-coast-camping.
 - KiwiCamping: grocery-prices, doc-huts, public-transport-costs, road-signs, biosecurity-camping-gear,
   doc-campsite-rules, doc-campsites guide, best-nz-camping-apps (redone for the new English), where-to-camp,
   camping-fees, campfire-rules, best-time-camping, self-contained warrant, freedom-camping rules and guide,
   wastewater and rubbish, road-trip fuel cost, travel cost, eating out, beer-wine-coffee prices,
-  campervan-road-rules, speed-limits, holiday-parks, towing-caravan, wof-registration.
+  campervan-road-rules, speed-limits, holiday-parks, towing-caravan, wof-registration, east-cape-road-trip,
+  accommodation-costs, scenic-campsites, overseas-driver-licence, sandflies, volcanic-safety,
+  coromandel-rotorua-road-trip, dogs-camping, domestic-flight-costs, northland-cape-reinga.
 - Dropped from `cs.json` (AussieCamps): camping-rules-new-south-wales, camping-rules-western-australia,
   sleeping-in-car-australia. They were translated before the "do not translate" instruction, then their English
   was rewritten, so they were stale; removing them gives zero stale. Old Czech is in git history
@@ -50,14 +57,13 @@ Guides done: AussieCamps 17 of 80, KiwiCamping 25 of 89.
   Never `translations:invalidate` before apply succeeds (one rejected apply left blank strings; fixed).
 
 ## Next
-- KiwiCamping queue by impressions: east-cape-road-trip, accommodation-costs, scenic-campsites,
-  overseas-driver-licence (18 months for arrivals 1 Nov 2024 to 31 Oct 2026, 12 months from 1 Nov 2026),
-  sandflies, volcanic-safety, coromandel-rotorua, dogs-camping, domestic-flight-costs, then the rest.
-  Inputs for k08 exist at `/tmp/cs-work/k/k08.input.json` (regenerate after merges).
-- AussieCamps queue: gibb-river-road-camping, overseas-driver-licence-australia-state-guide,
-  sunshine-coast-hinterland-camping, nullarbor, flinders-ranges, red-centre-way, then the rest. Still excluded:
-  the 23 pages in the 2026-10-20 do-not-translate list (including all camping-rules-* pages).
-- New English since the last queue: listicles, tools namespace (gated), new road trips.
+- KiwiCamping queue by impressions: new-zealand-camping-packing-list, responsible-camping, arthurs-pass,
+  cook-strait-ferry, kauri-dieback, taranaki-forgotten-world, bus-ferry-train-costs, picton-kaikoura-christchurch,
+  wanaka-haast-pass, alcohol-fatigue-driving, doc-hut-rules-etiquette, river-crossing-safety, then the rest.
+- AussieCamps queue: queensland-outback-way, south-west-wa-camping-loop, victoria-high-country, kangaroo-island,
+  blue-mountains, driving-in-australia-overseas-licence, camping-with-dogs, packing list, first campervan trip,
+  then the rest. Still excluded: the 23 pages in the 2026-10-20 do-not-translate list.
+- `tools` namespace (gated), listicles and new road trips from the current English.
 - Czech plurals (see notes) need a code fix if the owner wants exact forms.
 
 ## Notes for the orchestrator
