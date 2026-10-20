@@ -230,7 +230,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
   ],
   "best-money-saving-travel-apps-australia": [
     ["What apps save money when travelling in Australia?", "Start with the biggest bills. AussieCamps finds free and low-cost campgrounds and shows their reported fees, Petrol Spy and the state fuel apps find cheaper fuel, WiseList compares Coles, Woolworths and ALDI, and Too Good To Go and EatClub cut food costs in the cities."],
-    ["How can I save on fuel on an Australian road trip?", "Check a fuel price app before you fill up: Petrol Spy covers most states, and New South Wales, Victoria, Western Australia, Tasmania and the Northern Territory publish official prices. My 7-Eleven can hold a 7-Eleven price for 7 days, and Flybuys offers 4 cents off a litre at Coles Express and Reddy Express."],
+    ["How can I save on fuel on an Australian road trip?", "Check a fuel price app before you fill up: Petrol Spy covers most states, and New South Wales, Victoria, Western Australia, Tasmania and the Northern Territory run their own official fuel price apps. My 7-Eleven can hold a 7-Eleven price for 7 days, and Flybuys offers 4 cents off a litre at Coles Express and Reddy Express."],
     ["Which app compares supermarket prices in Australia?", "WiseList compares Coles, Woolworths and ALDI prices as you build a shopping list, free with ads. Its paid WiseList+ tier adds splitting a list by store and barcode scan and compare."],
     ["Is there an app for cheap food in Australian cities?", "Too Good To Go sells surprise bags of unsold food from cafes and bakeries from A$6.99, and EatClub offers up to 50% off the bill at restaurants with spare tables."],
   ],

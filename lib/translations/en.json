@@ -7679,7 +7679,7 @@
             "Keep a small emergency fund entirely separate from the trip budget, because the point of it is that you never have to decide whether an unexpected cost is affordable."
           ],
           "tips": [
-            "Card surcharges appear at the till",
+            "No surcharge on eftpos, Mastercard or Visa",
             "Keep cash for honesty boxes",
             "Decline dynamic currency conversion"
           ]
@@ -11993,7 +11993,7 @@
               [
                 "Apple Weather",
                 "Free, built into iPhone",
-                "Not stated for Australia",
+                "Severe weather alerts; Australian source not named",
                 "Already on your phone",
                 "Not advertised",
                 "4.8 (118,616)"
@@ -12078,12 +12078,12 @@
           "heading": "7. Apple Weather: already on your iPhone",
           "body": [
             "Apple Weather is built into every iPhone and rated 4.8 from 118,616 Australian ratings. It gives hourly and 10-day forecasts and a precipitation map without installing anything.",
-            "Apple's WeatherKit attribution page lists no Australian source for <a data-guide=\"camping-weather-safety-australia\">severe weather</a> alerts, so do not rely on it for official warnings."
+            "Apple Weather can show <a data-guide=\"camping-weather-safety-australia\">severe weather</a> alerts, but Apple does not name its Australian source, so use BOM Weather for the Bureau's official warnings."
           ],
           "tips": [
             "Built in",
             "No install needed",
-            "Official warnings not stated"
+            "Use BOM for official warnings"
           ]
         },
         {
@@ -12151,6 +12151,11 @@
                 "Northern Territory",
                 "SecureNT website",
                 "Alerts from the Bureau, emergency services and Road Report NT"
+              ],
+              [
+                "Australian Capital Territory",
+                "ACT Emergency Services Agency website (esa.act.gov.au)",
+                "Incident map and alerts, fire danger ratings, total fire ban information"
               ]
             ]
           }
@@ -12256,7 +12261,7 @@
                 "AussieCamps",
                 "Where you sleep: free and low-cost camps, reported fees",
                 "Free to download, with in-app purchases",
-                "iPhone only",
+                "iPhone only; in-app purchases",
                 "No ratings yet"
               ],
               [
@@ -12342,8 +12347,8 @@
         {
           "heading": "1. AussieCamps: cut what you pay for a bed",
           "body": [
-            "On a long trip, nights add up faster than anything else, and the cheapest bed is often a campground run by a park agency, or a rest area where the sign allows an overnight stop. AussieCamps lists 1,838 campgrounds and 5,552 rest areas from those agencies, and you can filter places by cost, including free and donation sites. Place pages show the prices the source reports, such as a fee per night, per person or per vehicle, so you know what a site costs before you drive in.",
-            "It helps with the second bill too. A trip in AussieCamps shows the distance and drive time between stops, which is what a fuel budget is built on, and it marks 3,004 <a data-guide=\"camping-water-planning\">drinking water</a> points and 1,186 toilets, so you are not buying bottled water or paying for a powered site just to use the facilities.",
+            "On a long trip, nights add up faster than anything else, and the cheapest bed is often a campground run by a park agency, or a rest area where the sign allows an overnight stop. AussieCamps lists 1,838 campgrounds from park agencies and 5,552 rest areas from road authorities, and you can filter places by cost, including free and donation sites. Place pages show the prices the source reports, such as a fee per night, per person or per vehicle, so you know what a site costs before you drive in.",
+            "It helps with the second bill too. A trip in AussieCamps shows the distance and drive time between stops, which is what a fuel budget is built on, and it marks 3,004 water filling points and 1,186 toilets, so you are not buying bottled water or paying for a powered site just to use the facilities.",
             "AussieCamps is free to download, with in-app purchases, and runs only on iPhone. It has no fuel prices or traveller reviews; for those, use the apps below."
           ],
           "tips": [
@@ -12476,7 +12481,7 @@
           "heading": "12. Splitwise: share costs fairly",
           "body": [
             "Travelling with friends, the money leaks out in small shared costs: fuel, groceries, camp fees. Splitwise records who paid what in any currency, works offline and settles up at the end. It is free, with Pro in-app purchases, and rated 4.4 from 3,710 Australian ratings.",
-            "It records what people owe; you settle up in cash, by bank transfer or through one of its payment integrations."
+            "It records what people owe; you settle up in cash or by bank transfer."
           ],
           "tips": [
             "Any currency",
@@ -12516,7 +12521,7 @@
         ],
         [
           "How can I save on fuel on an Australian road trip?",
-          "Check a fuel price app before you fill up: Petrol Spy covers most states, and New South Wales, Victoria, Western Australia, Tasmania and the Northern Territory publish official prices. My 7-Eleven can hold a 7-Eleven price for 7 days, and Flybuys offers 4 cents off a litre at Coles Express and Reddy Express."
+          "Check a fuel price app before you fill up: Petrol Spy covers most states, and New South Wales, Victoria, Western Australia, Tasmania and the Northern Territory run their own official fuel price apps. My 7-Eleven can hold a 7-Eleven price for 7 days, and Flybuys offers 4 cents off a litre at Coles Express and Reddy Express."
         ],
         [
           "Which app compares supermarket prices in Australia?",
@@ -12751,7 +12756,7 @@
         {
           "heading": "When Hipcamp is still the better choice",
           "body": [
-            "For a night on a working farm, a vineyard or a private block of bush, especially a short drive from a city, Hipcamp is the app built for it, and its guest photos and reviews help you see what you are booking. Its March 2026 update also made rig type and 2WD or 4WD access clearer on listings.",
+            "For a night on a working farm, a vineyard or a private block of bush, especially a short drive from a city, Hipcamp is the app built for it, and its guest photos and reviews help you see what you are booking.",
             "Airbnb and Stayz also list rural cabins and farm stays, and Camplify hires out campervans and motorhomes from their owners if you need the vehicle as well as the site. We left out Anycamp, which had not been updated since April 2024 when we checked."
           ],
           "tips": [
@@ -12821,9 +12826,6 @@
         },
         {
           "label": "CamperMate: coverage and features"
-        },
-        {
-          "label": "OVR: Hipcamp adds rig type and access filters (March 2026)"
         }
       ],
       "priceTable": null

@@ -20,7 +20,9 @@ const DOCS = join(ROOT, "docs");
 const OUT = join(ROOT, "lib/image-credits.json");
 
 const cells = (line) => line.split("|").slice(1, -1).map((cell) => cell.trim());
-const link = (markdown) => markdown?.match(/\]\((https?:[^)]+)\)/)?.[1] ?? markdown?.match(/https?:\/\/\S+/)?.[0];
+// Markdown link target, allowing balanced parentheses inside it (Commons file names such as
+// "File:Cape_Range_(Western_Australia).jpg" contain them). Markdown escapes such as "\(" are undone.
+const link = (markdown) => (markdown?.match(/\]\((https?:(?:[^()\s]|\([^()\s]*\))+)\)/)?.[1] ?? markdown?.match(/https?:\/\/\S+/)?.[0])?.replace(/\\([()_*[\]])/g, "$1");
 const plain = (markdown) => (markdown ?? "").replace(/\[([^\]]*)\]\([^)]*\)/g, "$1").replace(/[`*]/g, "").replace(/\\/g, "").trim();
 
 /** Canonical deed URL for a licence named the way Commons names it. */
