@@ -618,6 +618,12 @@
         },
         {
           "label": "Zalecenia NSW dotyczące alkoholu i prowadzenia auta"
+        },
+        {
+          "label": "NHMRC: jak długo organizm usuwa alkohol"
+        },
+        {
+          "label": "Terytorium Północne: kupowanie i picie alkoholu"
         }
       ],
       "priceTable": {
@@ -756,6 +762,15 @@
         },
         {
           "label": "Transport for NSW: normalne bilety Opal dla dorosłych"
+        },
+        {
+          "label": "Transport for NSW: dojazd na lotnisko Sydney Airport i z lotniska"
+        },
+        {
+          "label": "Rząd stanu Wiktoria: płatność zbliżeniowa w autobusach"
+        },
+        {
+          "label": "Rząd stanu Wiktoria: płatność zbliżeniowa dla uprawnionych do ulg"
         }
       ],
       "priceTable": {
@@ -1249,6 +1264,9 @@
         },
         {
           "label": "CHOICE: porównanie cen w supermarketach, czerwiec 2026"
+        },
+        {
+          "label": "ACCC: kodeks cen jednostkowych"
         }
       ],
       "priceTable": {
@@ -1423,6 +1441,616 @@
           }
         ]
       }
+    },
+    "campervan-road-trip-budget-australia": {
+      "title": "Budżet podróży kamperem po Australii",
+      "description": "Zaplanuj budżet na kampera, paliwo, kempingi, jedzenie, opłaty w parkach i rezerwę, która udźwignie zmiany w planie.",
+      "region": "Australia",
+      "imageAlt": "Kamper przy australijskiej drodze wzdłuż wybrzeża",
+      "intro": "Najtańszy nocleg nie daje najtańszej podróży. Zwykle ważniejsze są dystans, spalanie, ubezpieczenie i noce na kempingu z pełnym zapleczem.",
+      "sections": [
+        {
+          "heading": "Stałe koszty kampera",
+          "body": [
+            "Wlicz wynajem lub koszt własnego pojazdu, wykupienie niższego udziału własnego w ubezpieczeniu, dodatkowych kierowców, pościel, krzesła i opłaty za zwrot w innym miejscu. Sprawdź limity kilometrów i zapisy o drogach, po których nie wolno jeździć.",
+            "Jeśli jedziesz własnym pojazdem, zaplanuj w budżecie przeglądy, opony, rejestrację i pomoc drogową na cały czas podróży."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Koszty dzienne",
+          "body": [
+            "Paliwo licz według rzeczywistego spalania obciążonego kampera, a nie danych z folderu. Dodaj kempingi, zakupy spożywcze, pranie, gaz, wstęp do parków i płatne atrakcje.",
+            "Łącz darmowe lub tanie kempingi z nocami na miejscach z prądem, gdzie można wziąć prysznic, naładować sprzęt i zrobić pranie."
+          ],
+          "tips": [
+            "Kamper",
+            "Paliwo",
+            "Kempingi",
+            "Jedzenie",
+            "Opłaty w parkach",
+            "Rezerwa"
+          ]
+        },
+        {
+          "heading": "Zostaw margines na naprawy",
+          "body": [
+            "Odłóż pieniądze na oponę, szybę, holowanie, zmianę terminu promu albo awaryjny nocleg. Nie wydawaj rezerwy na dodatkowe atrakcje w pierwszym tygodniu.",
+            "Wolniejsze tempo podróży zmniejsza zużycie paliwa i zostawia miejsce na dni bez wydatków, które nadal są prawdziwymi wakacjami."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Licz koszt kampera jako całość",
+          "body": [
+            "Porównuj oferty dla tych samych dat, klasy pojazdu, udziału własnego, limitu kilometrów i wyposażenia w cenie. Niska cena wyjściowa z udziałem własnym 5 000 AUD i dziennym limitem kilometrów to inny produkt niż nieco droższa oferta bez tych ograniczeń.",
+            "Potem dolicz to, co wyceniane jest osobno: opłatę za zwrot w innym miejscu, dodatkowych kierowców, zestawy pościeli i kuchenne, transfery z lotniska oraz koszt obniżenia udziału własnego. Przy dwutygodniowym wynajmie takie dopłaty zwykle podnoszą cenę o kilkaset AUD.",
+            "Sprawdź też zasady kaucji. Większość wypożyczalni blokuje na karcie kredytowej dużą kwotę, co zmniejsza limit dostępny na paliwo i kempingi w trakcie podróży."
+          ],
+          "tips": [
+            "Porównuj udział własny, a nie stawkę dzienną",
+            "Opłaty za zwrot w innym miejscu bywają wysokie",
+            "Kaucja blokuje limit na karcie"
+          ]
+        },
+        {
+          "heading": "Paliwo dominuje w budżecie",
+          "body": [
+            "Przy australijskich odległościach paliwo to największy koszt zmienny po samym kamperze. Policz je dokładnie: liczba kilometrów razy zużycie w litrach na 100 km, podzielone przez 100, razy cena za litr, a do tego dodaj 15% na objazdy.",
+            "Kamper, który pali 12 l na 100 km, na trasie 5 000 km zużyje 600 l. Ten rachunek ma znacznie większe znaczenie niż różnica między kempingiem za 20 AUD a kempingiem za 40 AUD.",
+            "Paliwo w odległych roadhouse'ach (stacjach paliw z barem na odludziu) jest wyraźnie droższe i nie da się tego obejść. Na odcinkach przez outback zakładaj wyższą cenę, a nie średnie ceny z miast."
+          ],
+          "tips": [
+            "Dolicz 15% na objazdy",
+            "Paliwo z łatwością przebija koszt kempingu",
+            "Paliwo na odludziu licz drożej"
+          ]
+        },
+        {
+          "heading": "Miks noclegów i schemat, który działa",
+          "body": [
+            "Podróż opartą wyłącznie na <a data-guide=\"is-free-camping-legal-australia\">darmowych kempingach</a> też kosztuje, bo za prysznic, pranie, wodę i punkty zrzutu nieczystości i tak trzeba gdzieś zapłacić. Podróż wyłącznie po caravan parkach (kempingach z miejscami dla przyczep i kamperów) wychodzi kilka razy drożej, a niewiele zyskujesz w noce, gdy przyjeżdżasz późno i wyjeżdżasz wcześnie.",
+            "Sprawdza się schemat: dwie lub trzy tanie albo darmowe noce, a potem jedna noc na kempingu z pełnym zapleczem, która załatwia naraz pranie, wodę, zrzut nieczystości i ładowanie. Jeśli policzyć, ile spraw załatwia, zwykle jest warta swojej ceny.",
+            "Kempingi w parkach narodowych plasują się pośrodku: są tanie, malownicze i zwykle bez prądu. Opłata rezerwacyjna i wjazd samochodem często są liczone osobno, więc sprawdź jedno i drugie."
+          ],
+          "tips": [
+            "Darmowy kemping też kosztuje",
+            "Dwie lub trzy tanie noce, potem jedna płatna",
+            "Wstęp do parku często płaci się osobno"
+          ]
+        },
+        {
+          "heading": "Jak pilnować budżetu",
+          "body": [
+            "Przez pierwsze trzy lub cztery dni zapisuj faktyczne wydatki i porównuj je z planem. Najczęściej rozjeżdżają się jedzenie, kawa i płatne atrakcje, a nie noclegi, i właśnie te pozycje najłatwiej skorygować na początku.",
+            "Miej prawdziwą rezerwę na rzeczy, których nie przewiduje żaden plan: oponę, szybę, usterkę mechaniczną albo dzień złej pogody, przez który trzeba wziąć domek. Budżet bez luzu sprawia, że każdy drobny problem zamienia się w decyzję, czy w ogóle jechać dalej.",
+            "Przekroczenie budżetu o 20% wychwycone w pierwszym tygodniu oznacza kilka obiadów w restauracjach mniej. Odkryte w czwartym tygodniu oznacza rezygnację z tej części wyprawy, na której zależało najbardziej."
+          ],
+          "tips": [
+            "Śledź wydatki w pierwszym tygodniu",
+            "Rozjeżdża się jedzenie i kawa, nie kempingi",
+            "Miej prawdziwą rezerwę"
+          ]
+        },
+        {
+          "heading": "Najwięcej oszczędza podróż poza szczytem sezonu",
+          "body": [
+            "Podróż tuż poza terminem ferii szkolnych i szczytem sezonu obniża jednocześnie ceny wynajmu kampera, noclegów i kempingów, często o jedną trzecią lub więcej.",
+            "Poprawia się też dostępność, więc nie trzeba sztywno rezerwować wszystkiego z wyprzedzeniem. Jeśli możesz elastycznie planować, ten jeden wybór da ci większą oszczędność niż wszystkie pozostałe razem wzięte.",
+            "Wydatki warto zapisywać w prostej wspólnej notatce, a nie w aplikacji, bo chodzi o to, żeby widzieli je wszyscy w kamperze, a nie o dopracowanie narzędzia.",
+            "Podróż poza szczytem sezonu obniża jednocześnie ceny wynajmu kampera, kempingów i noclegów, więc wybór terminu jest wart więcej niż wszystkie inne oszczędności razem wzięte."
+          ],
+          "tips": [
+            "Poza szczytem tanieje wszystko naraz",
+            "Łatwiej też o wolne miejsca",
+            "Oszczędza więcej niż wszystko inne razem"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Ile kosztuje podróż kamperem po Australii?",
+          "Największe pozycje to kamper i paliwo, a kempingi są zwykle najmniejszą. Poradnik rozbija realistyczny dzień na kamper, paliwo, opłaty za kempingi, jedzenie i karnety wstępu do parków, z kwotami w dolarach australijskich i podaną datą."
+        ],
+        [
+          "Jak tanio zorganizować road trip po Australii?",
+          "Wolniej się przemieszczając, bo to zmniejsza zużycie paliwa, które dominuje w budżecie, łącząc darmowe i tanie miejsca prowadzone przez samorządy z okazjonalnym caravan parkiem oraz gotując zamiast jeść na mieście. W Australii drogie jest przede wszystkim pokonywanie dystansu."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
+    "camping-without-phone-signal": {
+      "title": "Kemping bez zasięgu w telefonie",
+      "description": "Przygotuj dane miejsc, rezerwacje, pogodę i kontakty awaryjne, zanim zniknie zasięg.",
+      "region": "Australia",
+      "imageAlt": "Odludny kemping poza zasięgiem sieci komórkowej",
+      "intro": "Brak zasięgu daje spokój tylko wtedy, gdy najważniejsze informacje masz już przy sobie.",
+      "sections": [
+        {
+          "heading": "Zapisz to, co ważne",
+          "body": [
+            "Miej dostępne bez internetu potwierdzenia rezerwacji, kody do bram, dane kempingów, numery alarmowe i notatki o trasie. Tuż przed wyjazdem zrób zrzuty ekranu najważniejszych ostrzeżeń pogodowych i informacji o zamknięciach.",
+            "Podstawowe dane miejsc w AussieCamps są dostępne bez zasięgu, a mapa, wyznaczanie trasy, pogoda i strony internetowe mogą wymagać połączenia."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Wybierz odpowiednią łączność",
+          "body": [
+            "Poza zasięgiem telefon nie jest urządzeniem alarmowym. Na odległych trasach może mieć sens osobisty nadajnik ratunkowy (personal locator beacon, PLB) albo komunikator satelitarny.",
+            "Sprawdź, jak uruchomić wezwanie pomocy i kto dostaje twój meldunek. Baterie do urządzeń wieź w miejscu, gdzie upał ich nie uszkodzi."
+          ],
+          "tips": [
+            "Dane miejsc bez internetu",
+            "Zapisana rezerwacja",
+            "Kontakt awaryjny",
+            "Zapas energii"
+          ]
+        },
+        {
+          "heading": "Zostaw plan podróży",
+          "body": [
+            "Powiedz zaufanej osobie, jaką trasą jedziesz, jakim pojazdem, w ilu osobach, kiedy się odezwiesz i co ma zrobić, jeśli tego nie zrobisz. Uprzedź ją, zanim zmienisz kierunek.",
+            "Nie polegaj na wpisie w mediach społecznościowych ani na udostępnionej mapie, której nikt aktywnie nie śledzi."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Gdzie naprawdę kończy się zasięg",
+          "body": [
+            "Zasięg komórkowy w Australii biegnie wzdłuż głównych dróg i miast, a poza nimi szybko zanika. Duże obszary outbacku, region Kimberley, Nullarbor i długie odcinki wybrzeża między miastami nie mają go wcale.",
+            "Mapy zasięgu upiększają rzeczywistość. Operator może zaznaczać sygnał tam, gdzie wzgórze, dolina albo po prostu odległość sprawiają, że go nie ma, a karty SIM w roamingu często działają gorzej niż lokalne. Telstra ma zwykle najszerszy zasięg na terenach wiejskich.",
+            "Zakładaj brak zasięgu jako regułę, a nie wyjątek. To znaczy: pobierz, wydrukuj i powiedz komuś o swoim planie, zanim opuścisz ostatnie miasto."
+          ],
+          "tips": [
+            "Zasięg biegnie wzdłuż dróg i miast",
+            "Mapy zasięgu są zbyt optymistyczne",
+            "Domyślnie zakładaj brak zasięgu"
+          ]
+        },
+        {
+          "heading": "Łączność satelitarna",
+          "body": [
+            "Osobisty nadajnik ratunkowy (PLB) to jednokierunkowe urządzenie alarmowe, które wzywa ratowników i nie wymaga abonamentu. Komunikator satelitarny dodaje dwustronne wiadomości tekstowe i śledzenie za miesięczną opłatą, a telefon satelitarny pozwala dzwonić.",
+            "Dla większości podróżnych wystarczy wypożyczony PLB, który na jedną podróż kosztuje bardzo mało. Przy długich wyprawach w odludne rejony warto płacić abonament za komunikator satelitarny, bo pozwala się porozumieć bez uruchamiania pełnej akcji ratunkowej.",
+            "Zarejestruj nadajnik przed wyjazdem i noś go przy sobie, a nie zostawiaj w pojeździe. Nadajnik w aucie, które zostało za tobą, nikomu nie pomoże."
+          ],
+          "tips": [
+            "PLB nie wymaga abonamentu",
+            "Zarejestruj nadajnik przed wyjazdem",
+            "Noś go przy sobie, nie w pojeździe"
+          ]
+        },
+        {
+          "heading": "Co zrobić, zanim stracisz zasięg",
+          "body": [
+            "Pobierz mapy całej trasy do użytku bez internetu, nie tylko następnego odcinka, i sprawdź w trybie samolotowym, czy działają, zanim zaczniesz na nich polegać. Rezerwacje, kontakty i wszelkie instrukcje dojazdu zapisz jako zrzuty ekranu.",
+            "Zatankuj, uzupełnij wodę, sprawdź opony i daj komuś znać, jaką trasą jedziesz i kiedy planujesz dotrzeć, ustalając godzinę, po której ma podnieść alarm. To właśnie ta umowa sprawia, że opóźnienie zamieni się w poszukiwania we właściwym momencie.",
+            "Na naprawdę odludne trasy zabierz papierowe mapy. Nie potrzebują baterii, działają wszędzie i dają przegląd całości, jakiego nie zapewni ekran telefonu."
+          ],
+          "tips": [
+            "Sprawdź pobrane mapy w trybie samolotowym",
+            "Ustal z kimś godzinę alarmu",
+            "Na odludne trasy weź papierowe mapy"
+          ]
+        },
+        {
+          "heading": "Zasilanie i co robić, gdy coś pójdzie nie tak",
+          "body": [
+            "Telefon szukający zasięgu szybko się rozładowuje, więc gdy nie ma czego szukać, włącz tryb samolotowy. Zabierz powerbank i sprawną ładowarkę samochodową. Pamiętaj, że zarówno upał, jak i zimno zmniejszają pojemność baterii.",
+            "Jeśli auto się zepsuje, zostań przy nim. To schronienie, widać je z powietrza i z drogi, a próby pójścia pieszo wielokrotnie kończyły się w tym kraju śmiercią. Oszczędzaj wodę, zostań w cieniu i czekaj.",
+            "Jeśli możesz, wystaw widoczny sygnał: podnieś maskę, użyj czegoś jaskrawego i przygotuj się, by zwrócić na siebie uwagę z powietrza. Ratownicy szukają pojazdów, a nie ludzi."
+          ],
+          "tips": [
+            "Tryb samolotowy oszczędza baterię",
+            "Zawsze zostawaj przy pojeździe",
+            "Ratownicy szukają pojazdów"
+          ]
+        },
+        {
+          "heading": "Rozrywka i wygoda",
+          "body": [
+            "Pobierz mapy, muzykę, podcasty i coś do czytania, zanim stracisz zasięg. Długie odcinki przez odludzie i wczesne zachody słońca dają więcej wolnego czasu, niż większość podróżnych się spodziewa, a coś, co działa bez internetu, sprawia, że wieczory są znacznie przyjemniejsze.",
+            "Uprzedź rodzinę i znajomych z góry, że przez określony czas nie będzie z tobą kontaktu. Unikniesz niepotrzebnych zmartwień, a co ważniejsze, gdy naprawdę nie odezwiesz się na czas, alarm zostanie potraktowany poważnie.",
+            "Umów się z kimś w domu na harmonogram meldunków, nawet jedną wiadomość co kilka dni, żeby niewyjaśniona cisza była sygnałem, a nie czymś bez znaczenia.",
+            "Sprawdź pobrane mapy w trybie samolotowym, zanim opuścisz ostatnie miasto, bo jeśli okaże się, że nie pobrały się poprawnie, na odludziu już tego nie naprawisz."
+          ],
+          "tips": [
+            "Pobierz rozrywkę z wyprzedzeniem",
+            "Uprzedź bliskich, że będziesz poza zasięgiem",
+            "Alarm zostanie potraktowany poważnie"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Jaka część Australii ma zasięg sieci komórkowej?",
+          "Niewielki ułamek powierzchni, choć mieszka tam większość ludności. Telstra ma wyraźnie najszerszą sieć na terenach wiejskich, a poza głównymi drogami i miastami trzeba zakładać, że zasięgu nie będzie wcale."
+        ],
+        [
+          "Co zabrać na kemping bez zasięgu?",
+          "Pobrane mapy i dane miejsc, papierową mapę jako zapas, a na naprawdę odludne trasy komunikator satelitarny albo PLB. To właśnie PLB wzywa ratowników i często można go wypożyczyć, zamiast kupować."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
+    "accommodation-costs-australia-2026": {
+      "title": "Ceny noclegów w Australii: hostele, hotele i wygodne pobyty",
+      "description": "Realne przedziały cen od łóżka w dormitorium po butikowy hotel oraz terminy i dodatki, które zmieniają końcową kwotę.",
+      "region": "Australia",
+      "imageAlt": "Nocleg na australijskim wybrzeżu o zachodzie słońca",
+      "intro": "Pokój to często największy stały koszt podróży po Australii. Orientacyjne ceny, które Tourism Australia podaje do planowania podróży, tworzą ogromną skalę: od prostych noclegów we wspólnych salach po resorty klasy premium.",
+      "sections": [
+        {
+          "heading": "Porównuj cenę całego pobytu",
+          "body": [
+            "Niższa cena pokoju może stracić przewagę po doliczeniu parkingu, pościeli, śniadania i opłat rezerwacyjnych albo gdy obiekt leży daleko. Porównuj kwotę końcową dla tej samej liczby osób i nocy.",
+            "Prywatnego pokoju z ceną za osobę i hotelu z ceną za pokój nie da się bezpośrednio porównać, dopóki nie uwzględni się liczby osób."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Terminy szczytu zmieniają wszystko",
+          "body": [
+            "Ferie szkolne, festiwale, wydarzenia sportowe i popyt w porze suchej mogą zwielokrotnić stawki. Letnie weekendy na wybrzeżu i małe miejscowości wypadowe warto sprawdzić odpowiednio wcześnie.",
+            "Tam, gdzie plany naprawdę są niepewne, wybieraj rezerwacje zwrotne, a termin odwołania zapisz przy danym przystanku w planie podróży."
+          ],
+          "tips": [
+            "Porównuj te same daty",
+            "Sprawdź warunki odwołania",
+            "Wlicz parking"
+          ]
+        },
+        {
+          "heading": "Łącz różne rodzaje noclegów",
+          "body": [
+            "Pokój z pełną obsługą po kilku nocach na kempingu może jednym zakupem załatwić pranie, ładowanie sprzętu, pogodę i odpoczynek. Może się to bardziej opłacać niż tania noc na siłę w nieodpowiednim miejscu.",
+            "Na droższe noclegi wydawaj tam, gdzie sam obiekt jest częścią przeżycia, a nie automatycznie na noce przejazdowe."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Do czego naprawdę służy każdy rodzaj noclegu",
+          "body": [
+            "Łóżko w dormitorium hostelu jest najtańsze i daje kuchnię oraz towarzystwo. Domek w <a data-guide=\"caravan-park-vs-holiday-park\">caravan parku</a> (kempingu z miejscami dla przyczep i kamperów) kosztuje więcej niż miejsce na kempingu, a mniej niż motel, i ratuje deszczową albo upalną noc. Motel to w regionach standardowa opcja ze średniej półki.",
+            "Noclegi w pubach w miasteczkach na prowincji to często najbardziej opłacalna opcja w Australii: prosty pokój nad barem i porządny obiad w pubie na dole, za cenę znacznie niższą niż w motelu.",
+            "Station stays (noclegi na stations, czyli ogromnych farmach bydła lub owiec w outbacku) i noclegi na farmach to charakterystyczna opcja na odludziu i często jedyny nocleg w promieniu setek kilometrów. Większość przyjmuje gotówkę, a tylko nieliczne mają pewną rezerwację online."
+          ],
+          "tips": [
+            "Pub na prowincji bywa najbardziej opłacalny",
+            "Domek ratuje upalną lub deszczową noc",
+            "Station stays wypełniają luki na odludziu"
+          ]
+        },
+        {
+          "heading": "Kiedy warto zapłacić za pokój",
+          "body": [
+            "Po kilku nocach na <a data-guide=\"is-free-camping-legal-australia\">darmowym kempingu</a>, przed bardzo wczesnym lotem lub promem, gdy ktoś choruje albo gdy upał naprawdę sprawia, że namiot jest niebezpieczny. W każdym z tych przypadków pokój nie jest luksusem, tylko sposobem, żeby podróż mogła trwać dalej.",
+            "Pokój załatwia też wszystko naraz: pranie, ciepłą wodę, ładowanie, klimatyzację i porządny sen. Jeśli policzyć, ile spraw załatwia, często wychodzi korzystniej, niż sugeruje cena za noc.",
+            "Zaplanuj w budżecie kilka takich nocy z góry, żeby decyzja była prosta, a nie powodem do kłótni. Plan, który zakłada, że każda noc będzie darmowa, nie ma zapasu na dzień, w którym coś pójdzie nie tak."
+          ],
+          "tips": [
+            "W upale namiot bywa niebezpieczny",
+            "Pokój stawia na nogi całą ekipę",
+            "Zaplanuj kilka takich nocy z góry"
+          ]
+        },
+        {
+          "heading": "Szczyt sezonu i terminy rezerwacji",
+          "body": [
+            "Ferie szkolne, Wielkanoc i Boże Narodzenie zapełniają noclegi na wybrzeżu w całym kraju; obowiązuje wtedy minimalna długość pobytu, a ceny są wyraźnie wyższe. W porze suchej na północy to samo dzieje się w Broome, Exmouth, Darwin i Cairns.",
+            "Rezerwuj bezpośrednio, a nie przez platformę, jeśli to możliwe. Często jest taniej i masz z kim porozmawiać o późnym przyjeździe albo o miejscu, na którym zmieści się twój pojazd.",
+            "Przy dłuższych pobytach wiele <a data-guide=\"caravan-park-vs-holiday-park\">caravan parków</a> oferuje stawki tygodniowe, czasem ze znacznym rabatem. Jeśli zatrzymujesz się w jednym miejscu na cztery noce lub dłużej, zapytaj o nie, zamiast rezerwować noc po nocy."
+          ],
+          "tips": [
+            "W porze suchej na północy brakuje miejsc",
+            "Rezerwuj bezpośrednio, jeśli się da",
+            "Pytaj o stawki tygodniowe"
+          ]
+        },
+        {
+          "heading": "Czytaj kwotę końcową, nie stawkę",
+          "body": [
+            "Porównuj kwotę końcową dla swojej ekipy i liczby nocy, z pościelą, parkingiem, opłatami rezerwacyjnymi i informacją, czy śniadanie jest w cenie. Stawka za osobę i stawka za pokój wyglądają podobnie, a z każdą dodatkową osobą mocno się rozjeżdżają.",
+            "Sprawdzaj nie tylko cenę, ale i położenie. Tańsze miejsce dwadzieścia minut za miastem to podwójny koszt paliwa i brak możliwości dojścia pieszo na kolację, a to często właśnie powód, dla którego w ogóle szuka się pokoju.",
+            "Gdy miasto jest drogie, poszukaj miejsca dwadzieścia minut dalej. Ceny noclegów w regionach gwałtownie spadają tuż za centrum turystycznym, a dojazd zwykle nie sprawia kłopotu."
+          ],
+          "tips": [
+            "Porównuj kwoty końcowe, nie ceny z ogłoszeń",
+            "Pościel i parking bywają za dopłatą",
+            "Położenie może kosztować więcej niż stawka"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Ile kosztuje nocleg w Australii za noc?",
+          "Zakres jest szeroki: od łóżka w dormitorium hostelu, przez domek w caravan parku i motel, po pokój hotelowy, a poradnik wycenia każdy z nich kwotami z podaną datą. Wybrzeże Queensland i Sydney latem są wyraźnie powyżej średniej dla całego kraju."
+        ],
+        [
+          "Jak najtaniej przenocować w Australii?",
+          "Zdecydowanie na kempingu: miejsce na kempingu samorządowym albo w parku narodowym kosztuje ułamek ceny łóżka w dormitorium hostelu. Oszczędność jest prawdziwa tylko wtedy, gdy auto i paliwo potrzebne, żeby dojechać na takie miejsca, są już w planie."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Tourism Australia: poradnik o budżecie podróży"
+        },
+        {
+          "label": "Tourism Australia: katalog noclegów"
+        },
+        {
+          "label": "Reserve Bank of Australia: kursy walut"
+        }
+      ],
+      "priceTable": {
+        "note": "Punkty odniesienia Tourism Australia do planowania podróży. To orientacyjne ceny wyjściowe, a nie aktualne oferty na każdy termin.",
+        "rows": [
+          {
+            "label": "Łóżko w dormitorium hostelu",
+            "unit": "za osobę/noc"
+          },
+          {
+            "label": "Prywatny pokój w hostelu",
+            "unit": "za osobę/noc"
+          },
+          {
+            "label": "Hotel last minute",
+            "unit": "za pokój/noc"
+          },
+          {
+            "label": "Hotel butikowy",
+            "unit": "za pokój/noc"
+          },
+          {
+            "label": "Luksusowy resort",
+            "unit": "za pokój/noc"
+          }
+        ]
+      }
+    },
+    "bus-train-costs-australia-2026": {
+      "title": "Ceny dalekobieżnych autobusów i pociągów w Australii",
+      "description": "Porównaj międzystanowy autobus, zwykły pociąg w Queensland i luksusową podróż koleją, bez udawania, że to ten sam produkt.",
+      "region": "Australia",
+      "imageAlt": "Pociąg dalekobieżny jadący przez Australię",
+      "intro": "Transport dalekobieżny w Australii to cała skala: od zwykłego nocnego autobusu po podróż koleją all inclusive. Cenę, czas podróży, sposób spania i to, co jest w cenie, trzeba porównywać łącznie.",
+      "sections": [
+        {
+          "heading": "Transport czy atrakcja",
+          "body": [
+            "Miejsce w autobusie i sypialny pociąg all inclusive nie zaspokajają tej samej potrzeby. W pierwszym przypadku płacisz za sam przejazd, w drugim cena może obejmować nocleg, posiłki i wycieczki.",
+            "Zanim porównasz bilet z lotem, jazdą autem lub kilkoma noclegami w hotelach, spisz, co obejmuje cena."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Czas, sen i przyjazd",
+          "body": [
+            "Nocny kurs może zaoszczędzić nocleg, ale dla kogoś, kto nie potrafi spać na siedząco, oznacza kiepską noc. Liczy się też przyjazd za dnia i dalszy dojazd.",
+            "Sprawdź limity bagażu, zasady przewozu rowerów i desek surfingowych oraz odległość między terminalem a faktycznym celem podróży."
+          ],
+          "tips": [
+            "Sprawdź aktualny rozkład jazdy",
+            "Wlicz dojazd z terminalu",
+            "Sprawdź limity bagażu"
+          ]
+        },
+        {
+          "heading": "Stare cenniki traktuj ostrożnie",
+          "body": [
+            "<a data-guide=\"camping-rules-queensland\">Queensland</a> Rail odsyła podróżnych do aktualnych informacji, a publicznie dostępny cennik to tylko punkt odniesienia z wcześniejszego okresu. Nie traktuj go jako aktualnej, gwarantowanej ceny.",
+            "Strajki, prace torowe i sezonowe rozkłady jazdy mogą wpłynąć na kursowanie pociągów. Zanim zaplanujesz sztywne rezerwacje pod godzinę przyjazdu, potwierdź ją bezpośrednio."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Sieć autobusów dalekobieżnych",
+          "body": [
+            "Greyhound i kilku regionalnych przewoźników łączą największe miasta i wiele miejscowości na wschodnim wybrzeżu oraz przez środek kraju. Zarezerwowane ze sporym wyprzedzeniem są najtańszym sposobem przemieszczania się bez własnego pojazdu, a ceny gwałtownie rosną tuż przed odjazdem.",
+            "Autobusy są wolniejsze niż jazda autem i często się zatrzymują. Nie dojadą natomiast do parków narodowych, początków szlaków ani kempingów, więc podróż autobusami wyznacza sieć połączeń, a nie to, dokąd najchętniej by się pojechało.",
+            "Dla backpackerów na wschodnim wybrzeżu są też karnety hop-on hop-off. Porównaj taki karnet z pojedynczymi przejazdami, które faktycznie zarezerwujesz, a nie z maksymalnym możliwym wykorzystaniem, bo większość osób robi mniej przejazdów, niż zakłada."
+          ],
+          "tips": [
+            "Rezerwuj autobusy wcześnie, by płacić mniej",
+            "Autobusy jeżdżą do miast, nie do początków szlaków",
+            "Porównuj karnety z realnymi przejazdami"
+          ]
+        },
+        {
+          "heading": "Pociągi dalekobieżne",
+          "body": [
+            "Australijska kolej dalekobieżna to w dużej mierze produkt turystyczny, a nie zwykły transport. The Ghan, Indian Pacific i Spirit of <a data-guide=\"camping-rules-queensland\">Queensland</a> mają w cenie nocleg, posiłki, a w niektórych przypadkach także wycieczki.",
+            "Ceny to odzwierciedlają, a porównywanie biletu na The Ghan z lotem to porównywanie dwóch różnych zakupów. W pierwszym przypadku płacisz za sam przejazd, w drugim za kilka dni podróży, która sama w sobie jest wakacjami.",
+            "Są też zwykłe pociągi regionalne, zwłaszcza w <a data-guide=\"camping-rules-new-south-wales\">Nowej Południowej Walii</a> i Queensland, które są tanie i przydatne, gdy chcesz bez samochodu dojechać do miasteczek na prowincji."
+          ],
+          "tips": [
+            "Kolej dalekobieżna to atrakcja",
+            "Cena obejmuje posiłki i nocleg",
+            "Pociągi regionalne są tanie i przydatne"
+          ]
+        },
+        {
+          "heading": "Promy i dojazd na wyspy",
+          "body": [
+            "Spirit of <a data-guide=\"camping-rules-tasmania\">Tasmania</a> to jedyna przeprawa na Tasmanię dla pojazdów i spory koszt stały, zależny od rozmiaru pojazdu. Bilety dla pasażerów bez pojazdu są znacznie tańsze, więc czasem warto sprawdzić, ile kosztuje wynajem pojazdu na wyspie.",
+            "Na wyspy <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">Kangaroo</a> Island i Fraser Island oraz na Whitsundays kursują promy dla pojazdów lub pasażerów, a bilety dla pojazdów są wyraźnie droższe niż dla pasażerów. Na niektórych wyspach samochód i tak nie jest potrzebny.",
+            "W szczycie sezonu rezerwuj przeprawy z pojazdem ze sporym wyprzedzeniem. Te połączenia mają ograniczoną liczbę miejsc i bilety się wyprzedają, a przegapiona przeprawa może kosztować dni w planie podróży po wyspach."
+          ],
+          "tips": [
+            "Pasażerowie bez pojazdu płacą znacznie mniej",
+            "Promy dla pojazdów wyprzedają się w szczycie sezonu",
+            "Na niektórych wyspach samochód jest zbędny"
+          ]
+        },
+        {
+          "heading": "Bagaż, komfort i nocne przejazdy",
+          "body": [
+            "Limity bagażu w autobusach są zwykle hojne, ale sprzęt kempingowy, deski surfingowe i rowery często wymagają wcześniejszej rezerwacji i dopłaty. Potwierdź to, zanim pojawisz się z nietypowo dużym bagażem.",
+            "Nocny autobus oszczędza nocleg, ale dla większości osób oznacza kiepski sen. Weź pod uwagę zmęczenie po przyjeździe i prawdopodobnie stracony następny poranek, co znacznie zmienia realną oszczędność.",
+            "Jeśli przewoźnik pozwala, rezerwuj nie tylko bilet, ale i miejsce, bo połączenia dalekobieżne się zapełniają, a te, które zostają, rzadko są dobre."
+          ],
+          "tips": [
+            "Ponadwymiarowy bagaż wymaga rezerwacji",
+            "Nocny autobus zabiera ci poranek",
+            "Potwierdź limity z wyprzedzeniem"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Ile kosztują dalekobieżne autobusy w Australii?",
+          "Greyhound i regionalni przewoźnicy to najtańszy sposób na pokonywanie dystansów bez auta, a poradnik podaje ceny z datą na głównych trasach. Karnety wyceniane według dystansu albo czasu pasują do spokojnej podróży wschodnim wybrzeżem."
+        ],
+        [
+          "Czy pociągi dalekobieżne w Australii są warte swojej ceny?",
+          "Jako atrakcja, a nie środek transportu. The Ghan i Indian Pacific są wyceniane jako samodzielne podróże i kosztują znacznie więcej niż lot na tej samej trasie, więc traktuj je jak same wakacje, a nie sposób, by do nich dotrzeć."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Greyhound: Sydney–Melbourne"
+        },
+        {
+          "label": "Queensland Rail: informacje dla podróżnych"
+        },
+        {
+          "label": "Queensland Rail: cennik Spirit of Queensland 2025–26"
+        },
+        {
+          "label": "The Ghan: przykładowa cena na 2026 rok"
+        }
+      ],
+      "priceTable": {
+        "note": "Orientacyjne ceny przewoźników z podaną datą. Cena Queensland Rail pochodzi z publicznie dostępnego cennika 2025–26; przed rezerwacją poproś o aktualną cenę na 2026–27.",
+        "rows": [
+          {
+            "label": "Autobus Sydney–Melbourne",
+            "unit": "w ofercie od"
+          },
+          {
+            "label": "Pociąg Cairns–Brisbane",
+            "unit": "cena orientacyjna 2025–26"
+          },
+          {
+            "label": "The Ghan Adelajda–Darwin",
+            "unit": "przykład z 2026 roku, produkt turystyczny"
+          }
+        ]
+      }
+    },
+    "campervan-driving-australia-safety-guide": {
+      "title": "Jazda kamperem po Australii: rozmiar, bezpieczeństwo i ograniczenia prawne",
+      "description": "Sprawdź kategorię prawa jazdy, wymiary pojazdu, zabezpieczenia pasażerów i drogi wyłączone w umowie, zanim ruszysz w pierwszy długi dzień za kierownicą.",
+      "region": "Australia",
+      "imageAlt": "Kamper jadący australijską drogą krajową",
+      "intro": "Kamper może przypominać duży samochód, dopóki hamowanie, boczny wiatr albo niska gałąź nie pokażą jego prawdziwych rozmiarów. Bezpieczny odbiór pojazdu zaczyna się od wymiarów, masy załadowanego kampera, kategorii prawa jazdy i warunków wynajmu.",
+      "sections": [
+        {
+          "heading": "Poznaj pojazd, zanim ruszysz",
+          "body": [
+            "Zapisz wysokość, długość i GVM (Gross Vehicle Mass, czyli dopuszczalną masę całkowitą), sprawdź, jakie paliwo tankujesz, i poznaj lusterka, martwe pola i przełączniki. Na pojazd o masie powyżej 4,5 tony zwykłe prawo jazdy na samochód osobowy może nie wystarczyć.",
+            "Ustal z wypożyczalnią, jak obchodzić się z oponami, markizą, dachem i gazem oraz jak chować rzeczy we wnętrzu."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Każdy jedzie na właściwym siedzeniu",
+          "body": [
+            "Łóżka i część mieszkalna nie są miejscami dla pasażerów podczas jazdy. Każda osoba musi siedzieć na homologowanym siedzeniu i używać wymaganych zabezpieczeń.",
+            "Przed każdą jazdą zabezpiecz luźne przedmioty. Szafka czy butelka stają się niebezpieczne przy nagłym hamowaniu."
+          ],
+          "tips": [
+            "Zapisz wysokość pojazdu",
+            "Zabezpiecz wnętrze",
+            "Używaj właściwych zabezpieczeń"
+          ]
+        },
+        {
+          "heading": "Jedź z myślą o załadowanym pojeździe",
+          "body": [
+            "Zachowuj dłuższy dystans na hamowanie, skręcaj płynnie i zwalniaj przed zakrętami, szutrem, bocznym wiatrem i wąskimi poboczami. Nawet prędkość dozwolona przepisami może być niebezpieczna.",
+            "Wyłączenia w umowie wynajmu, warunki ubezpieczenia i <a data-guide=\"australia-road-rules-state-differences\">przepisy drogowe</a> ustalone przez władze to osobne wymagania. Zgoda wynikająca z jednego nie uchyla pozostałych."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Wiatr, road trainy i wyprzedzanie",
+          "body": [
+            "Wysoki kamper fatalnie znosi boczny wiatr, a mijający <a data-guide=\"driving-with-road-trains-australia\">road train</a> (ciężarówka z kilkoma naczepami) najpierw mocno odpycha, a potem wciąga. Trzymaj kierownicę mocno obiema rękami i nie koryguj toru gwałtownie.",
+            "Wyprzedzanie kamperem wymaga znacznie więcej wolnej drogi niż w samochodzie osobowym, a większość australijskich dróg krajowych ma jeden pas w każdą stronę i niewiele pasów do wyprzedzania. Jeśli manewr wydaje się ryzykowny, nie próbuj wyprzedzać.",
+            "Gdy za tobą robi się kolejka, wjedź na najbliższą zatoczkę dla wolnych pojazdów i przepuść jadących za tobą. Sfrustrowani kierowcy z tyłu powodują wypadki przy wyprzedzaniu, a zdjęcie z nich presji jest nie tylko uprzejme, ale i bezpieczniejsze dla ciebie."
+          ],
+          "tips": [
+            "Road train najpierw odpycha, potem wciąga",
+            "Wyprzedzanie wymaga znacznie więcej miejsca",
+            "Korzystaj z zatoczek dla wolnych pojazdów"
+          ]
+        },
+        {
+          "heading": "Drogi nieutwardzone i na co pozwala umowa",
+          "body": [
+            "Większość standardowych umów wynajmu całkowicie zakazuje jazdy po drogach nieutwardzonych albo wymienia konkretne wyłączenia, a szkody na takich drogach nie są objęte ubezpieczeniem. Wypożyczalnie śledzą pojazdy, więc jazda tamtędy mimo zakazu nie pozostanie twoją prywatną sprawą.",
+            "Na szutrze jedź znacznie wolniej niż po asfalcie, hamuj i skręcaj łagodnie, każde osobno, i zostawiaj bardzo duży odstęp za pojazdem wzbijającym kurz. Uszkodzenie przedniej szyby to najczęstsze zgłoszenie szkody.",
+            "Obniżenie ciśnienia w oponach przy jeździe po tzw. tarce (poprzecznych falach na szutrze) poprawia komfort i zmniejsza ryzyko uszkodzeń, ale przed powrotem na asfalt musisz je dopompować. Jeśli planujesz tak jeździć, zabierz manometr i kompresor."
+          ],
+          "tips": [
+            "Większość umów wynajmu zakazuje dróg nieutwardzonych",
+            "Bardzo duży odstęp za pojazdem wzbijającym kurz",
+            "Dopompuj opony przed powrotem na asfalt"
+          ]
+        },
+        {
+          "heading": "Upał, opony i kontrola pojazdu",
+          "body": [
+            "Australijski upał jest dla opon trudny, a niedopompowane albo stare opony zawodzą przy dużej prędkości na gorącym asfalcie. Sprawdzaj ciśnienie na zimnych oponach, ustaw je dla załadowanego pojazdu i obejrzyj koło zapasowe przed odcinkiem przez odludzie.",
+            "Regularnie sprawdzaj poziom płynu chłodzącego, oleju i płynu do spryskiwaczy, szczególnie przed długimi odcinkami przez outback. Awaria w upale na odludziu to kwestia bezpieczeństwa, a nie tylko niedogodność.",
+            "Wieź więcej wody, niż wymaga podróż. Jeśli pojazd stanie na odludziu, to dzięki wodzie sytuacja pozostaje pod kontrolą, gdy czekasz, a czekać zawsze trzeba przy pojeździe."
+          ],
+          "tips": [
+            "Upał powoduje awarie opon",
+            "Sprawdź koło zapasowe przed odcinkami przez odludzie",
+            "Zawsze czekaj przy pojeździe"
+          ]
+        },
+        {
+          "heading": "Parkowanie i manewrowanie w miastach",
+          "body": [
+            "Ograniczenia wysokości na miejskich parkingach to najczęstsze źródło kosztownych uszkodzeń kamperów, a pierwszym ostrzeżeniem jest zwykle sam szlaban. Zapisz wysokość pojazdu w miejscu widocznym z fotela kierowcy i sprawdzaj każdy wjazd.",
+            "Wiele miast ma parkingi dla dużych pojazdów na obrzeżach albo przy showgroundach (terenach wystawowych i targowych miasteczek). Zostawienie tam kampera i dojście pieszo jest szybsze niż krążenie po centrum w poszukiwaniu miejsca, w którym się zmieści.",
+            "Każdego ranka obejdź pojazd dookoła, sprawdzając opony, światła oraz to, czy na dachu nic nie zostało ani nic nie jest otwarte pod spodem."
+          ],
+          "tips": [
+            "Zapisz wysokość na desce rozdzielczej",
+            "Szlabany na parkingach to pierwsze ostrzeżenie",
+            "Korzystaj z parkingów dla dużych pojazdów"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Co trzeba wiedzieć o prowadzeniu kampera w Australii?",
+          "Jego wysokość, szerokość i zachowanie przy bocznym wietrze, bo wszystkie te trzy rzeczy mają znaczenie na wąskich drogach i gdy mija cię road train. Większość umów wynajmu ogranicza też jazdę po drogach nieutwardzonych, co wyklucza sporo dobrych miejsc na kemping."
+        ],
+        [
+          "Czy kampery mają w Australii inny limit prędkości?",
+          "Poniżej 4,5 tony zwykle nie. Cięższe pojazdy i zestawy z przyczepą mają w niektórych stanach niższe limity, a dla wysokiego pojazdu na wietrze limit to górna granica, a nie prędkość, do której trzeba dążyć."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NSW: klasy pojazdów dla zagranicznego prawa jazdy"
+        },
+        {
+          "label": "Queensland: klasy pojazdów dla zagranicznego prawa jazdy"
+        },
+        {
+          "label": "NT: lista kontrolna bezpieczeństwa jazdy"
+        }
+      ],
+      "priceTable": null
     }
   },
   "consent": {
