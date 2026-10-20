@@ -20,10 +20,10 @@ Order (GSC impressions first, then scheduled listicles in publish order, then th
 ## KiwiCamping gaps at start: 41 guides (listed by gap.py when we get there)
 
 ## Done
-(nothing committed yet)
+- A1 committed 0bd8659 (5 guides, 265 units; Opus review changed 30; rule units re-read; stamped; content:check green).
 
 ## Next
-- A1..A3 drafting in parallel (sonnet high), then Opus review per batch.
+- A2, A3: reviews running; A4 drafting. Then A5 (listicles), then NZ batches K1..K8 (inputs prepared in /tmp/ptgap/k1..k8; K order: GSC top, then scheduled listicles K4, then rest).
 
 ## Blockers
 none
