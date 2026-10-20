@@ -128,3 +128,11 @@ Research notes behind the "best apps" and "alternatives" guides. Each fact carri
 - TripIt (id 311035142): 4.8 from 52,985; Pro A$77.99 a year; bookings organiser.
 - Polarsteps (id 947925763): 4.9 from 11,924; Plus A$44.99 a year; tracker and journal.
 - Sygic GPS Navigation (id 585193266): 4.4 from 6,811; offline turn-by-turn; Premium+ price unverified.
+
+## Road trip planners, more detail (checked 2026-10-20)
+- Apple Maps: "Create a multistop driving route. You can add up to 14 stops along your route" (https://support.apple.com/en-au/guide/iphone/iph837d13d03/ios); offline maps with turn-by-turn driving directions (https://support.apple.com/en-au/guide/iphone/iphcfb5f5bc6/ios, https://support.apple.com/en-us/105084); not available in all countries or regions.
+- Google Maps: "up to 9 stops, which includes the final destination" (https://support.google.com/maps/answer/144339); offline maps expire and can auto-update; offline driving only within the downloaded area; no traffic offline (https://support.google.com/maps/answer/6291838).
+- Wanderlog: AU store lists several Pro plan prices (A$50.99 to A$99.99 a year, A$25.99 a month); store says unlimited stops free with times and distances; help centre: offline trip plans and route optimisation are Pro (https://help.wanderlog.com/hc/en-us/articles/13545182856859).
+- WikiCamps Trip Planner: sections, places, notes, progress bar, fuel use and cost estimate between places; not a logbook (help article 57933120336665). Leg drive time not documented.
+- TripIt: itinerary from forwarded booking emails, offline reservation details, Pro A$77.99 a year, 4.8 from 52,985.
+- Polarsteps: AI itinerary planner and automatic tracking, Plus A$44.99 a year, 4.9 from 11,924, iPhone app.

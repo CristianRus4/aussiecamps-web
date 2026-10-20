@@ -198,6 +198,12 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Does CamperMate work offline?", "Partly. You can download maps and key information for use without signal, and version 5.8 added a satellite view that works with those downloaded maps."],
     ["Is there one app for camping in Australia and New Zealand?", "CamperMate covers both countries in one free app. WikiCamps sells separate apps for each country, and AussieCamps and KiwiCamping are separate iPhone apps for Australia and New Zealand."],
   ],
+  "best-fuel-price-apps-australia": [
+    ["What is the best app for cheap fuel in Australia?", "For travel across state lines, Petrol Spy shows official prices from most states in one free app. Within one state, the government tool is the cleanest source: FuelCheck in NSW and the ACT, Servo Saver in Victoria, FuelWatch in WA, FuelCheck TAS and MyFuel NT."],
+    ["Is there a fuel price app for Victoria?", "Yes. Servo Saver in the free Service Victoria app shows prices that stations must report within 30 minutes, and from 4pm it shows the next day's maximum price."],
+    ["Can you see tomorrow's petrol prices in Australia?", "In Western Australia and Victoria, yes. FuelWatch publishes WA's next-day prices from 2:30pm, and Servo Saver shows Victoria's next-day caps from 4pm. Both apply from 6am for 24 hours."],
+    ["Which fuel app should I use in Queensland?", "Queensland has no government app. Its reporting scheme sends station prices to private apps, and Queensland Treasury lists those that receive the data, including Petrol Spy, FuelMap, MotorMouth, Pumped and RACQ Fuel and Deals."],
+  ],
 
   // --- Costs & budget -------------------------------------------------------
   "australia-travel-cost-2026": [
