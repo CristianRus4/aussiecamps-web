@@ -16,12 +16,12 @@ Out of scope (another lane owns): wikicamps-alternatives, campermate-alternative
 - B10-B11 (road trips): tasmania-camping-loop, darwin-kakadu-litchfield-loop, sydney-south-coast-camping, nullarbor-crossing-camping-guide, queensland-outback-way, south-west-wa-camping-loop, victoria-high-country-camping, red-centre-way-camping, kangaroo-island-camping-guide, blue-mountains-camping-weekend, gibb-river-road-camping
 
 ## Done
-- B1 (4531e7a), B2 (c4b81ce), B3 (d2339af), B4 (9d0ce03), B5 (832d032), B6 (97a12ac), B7 (b7abc8e), B8, B9 (see git log): 45 guides applied, each with draft, review, negation re-read, lint, stamp, content:check. sv complete guides 62/77 (the 7 listicles belong to another lane). B7 was reviewed single-handed (no helpers, overnight rule).
-- Handoff 1 after B3 (npm run check exit 0). Handoff 2 after B6.
+- All 48 in-scope AussieCamps guides are complete in Swedish (batches B1 to B11, commits on branch `i18n/a-sv-2`). sv complete guides 70/77; the 7 not translated are the listicles another lane owns (wikicamps-alternatives, campermate-alternatives, best-fuel-price-apps-australia, best-road-trip-planner-apps-australia, best-free-camping-apps-australia, best-caravan-rv-apps-australia, best-apps-working-holiday-australia).
+- Every batch: draft, native review (Opus medium for B1 to B6; single-handed for B7 to B11 under the overnight one-worker rule), negation re-read against the English, lint, `translations:stamp`, `content:check`, commit.
+- Handoffs: after B3, after B6, then per batch overnight. Final `npm run check` run before the last handoff.
 
 ## Next
-- B10: nullarbor-crossing-camping-guide, queensland-outback-way, south-west-wa-camping-loop, victoria-high-country-camping, red-centre-way-camping
-- B11: kangaroo-island-camping-guide, blue-mountains-camping-weekend, gibb-river-road-camping (last three)
+- Nothing in scope. If the English of any guide changes, `npm run content:check` reports stale sv strings: re-translate those units only.
 
 ## Blockers
 none
