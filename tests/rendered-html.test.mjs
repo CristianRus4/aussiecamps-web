@@ -139,8 +139,8 @@ test("every guide, road trips included, is in the translation source", async () 
 
 test("draft locales are neither routed nor advertised", async () => {
   const drafts = localeCodes.filter((code) => localeEntry(code).status === "draft");
-  // zh-hant went live on 21 October 2026, so the floor dropped from 6 to 5.
-  assert.ok(drafts.length >= 5, "ja, ko, zh-hans, cs and pl are still drafts");
+  // zh-hant went live on 21 October 2026, so the floor dropped from 6 to 5; ko followed the same day, so it is now 4.
+  assert.ok(drafts.length >= 4, "ja, zh-hans, cs and pl are still drafts");
   for (const code of drafts) {
     assert.notEqual((await fetchPage(`/${localeEntry(code).segment}`)).status, 200, `${code} is a draft and must not be served`);
     await assert.rejects(readdir(new URL(`../pages-dist/${localeEntry(code).segment}/`, import.meta.url)), `${code} must not be exported`);

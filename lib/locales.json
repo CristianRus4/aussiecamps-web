@@ -6,7 +6,7 @@
   { "code": "nl", "segment": "nl", "label": "Nederlands", "htmlLang": "nl", "hreflang": ["nl"], "og": "nl_NL", "intl": "nl-NL", "engine": "nl", "script": "latin", "status": "live", "reviews": true },
   { "code": "pt", "segment": "pt", "label": "Português", "htmlLang": "pt-PT", "hreflang": ["pt"], "og": "pt_PT", "intl": "pt-PT", "engine": "pt-PT", "script": "latin", "status": "live", "reviews": true },
   { "code": "ja", "segment": "ja", "label": "日本語", "htmlLang": "ja", "hreflang": ["ja"], "og": "ja_JP", "intl": "ja-JP", "engine": "ja", "script": "cjk", "status": "draft", "reviews": false },
-  { "code": "ko", "segment": "ko", "label": "한국어", "htmlLang": "ko", "hreflang": ["ko"], "og": "ko_KR", "intl": "ko-KR", "engine": "ko", "script": "cjk", "status": "draft", "reviews": false },
+  { "code": "ko", "segment": "ko", "label": "한국어", "htmlLang": "ko", "hreflang": ["ko"], "og": "ko_KR", "intl": "ko-KR", "engine": "ko", "script": "cjk", "status": "live", "reviews": false },
   { "code": "zh-hans", "segment": "zh-hans", "label": "简体中文", "htmlLang": "zh-Hans", "hreflang": ["zh-Hans", "zh-CN", "zh-SG"], "og": "zh_CN", "intl": "zh-CN", "engine": "zh-Hans", "script": "cjk", "status": "draft", "reviews": false },
   { "code": "zh-hant", "segment": "zh-hant", "label": "繁體中文", "htmlLang": "zh-Hant", "hreflang": ["zh-Hant", "zh-TW", "zh-HK"], "og": "zh_TW", "intl": "zh-TW", "engine": "zh-Hant", "script": "cjk", "status": "live", "reviews": false },
   { "code": "da", "segment": "da", "label": "Dansk", "htmlLang": "da", "hreflang": ["da"], "og": "da_DK", "intl": "da-DK", "engine": "da", "script": "latin", "status": "live", "reviews": false },
