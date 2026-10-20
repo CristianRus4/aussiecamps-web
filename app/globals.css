@@ -294,7 +294,7 @@ em { color: inherit; font: inherit; font-style: normal; }
 .editorial-opening h2 { margin-bottom: 24px; font-size: 36px; }
 .editorial-opening blockquote { margin: 38px 0; padding: 12px 0 12px 28px; border-left: 4px solid var(--eucalyptus); color: var(--deep); font-size: clamp(27px, 3.4vw, 42px); font-weight: 720; letter-spacing: -0.015em; line-height: 1.22; }
 /* Screenshot figure (lib/screen-figures.ts): the image carries its own gradient and shadow. */
-.guide-figure { margin: 30px 0 6px; }
+.guide-figure { margin: 28px 0 6px; }
 .guide-figure img { display: block; width: 100%; height: auto; border-radius: 8px; }
 .article-tips { margin-top: 24px; padding: 19px 22px; border-radius: 4px; background: #e7e9e4; }
 .article-tips strong { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
@@ -498,7 +498,7 @@ em { color: inherit; font: inherit; font-style: normal; }
   .article-header > p { font-size: 17px; }
   .article-header > div { flex-direction: column; align-items: center; gap: 5px; }
   .article-hero-image { height: 310px; border-radius: 6px; }
-  .guide-figure { margin: 24px 0 4px; }
+  .guide-figure { margin-top: 22px; }
   .guide-figure img { border-radius: 6px; }
   .article-layout { padding-top: 50px; }
   .article-intro { font-size: 22px; }
