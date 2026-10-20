@@ -20,9 +20,10 @@ Working files: `/tmp/kai-da-a` (AGENT-BRIEF.md, mkbatch.py, qa.py, batches/, out
 ## Done
 - B1 complete (5 guides): dump-points, camping-rules-victoria, -south-australia, -act, -queensland (commit 24e1b6d has ACT/QLD, next commit SA/VIC/dump points).
 - B2 complete (5 guides): road-signs, caravan-park-vs-holiday-park, towing, camping-rules-northern-territory, melbourne-to-adelaide.
+- B3 complete (5 guides): perth-to-broome, east-coast, road-rules-state-differences, camping-fees, travel-cost. Handoff 1 covered B1+B2.
 
 ## Next
-- B3 (perth-to-broome, east-coast, road-rules-state-differences, camping-fees, travel-cost) in review; B4a drafting.
+- B4a (fuel-cost, camping-rules-tasmania, is-free-camping-legal), B4b, B5a drafting.
 
 ## Blockers / notes
 - none
