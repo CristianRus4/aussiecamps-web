@@ -189,6 +189,8 @@ export function localizedArticles(locale: LocaleCode): Article[] {
         body: item!.sections![index].body!,
         tips: section.tips ? item!.sections![index].tips : undefined,
         table: section.table ? item!.sections![index].table as ArticleSection["table"] : undefined,
+        // The screenshot stays; its alt becomes this locale's heading, so no English reaches the page.
+        ...(section.figure && { figure: { src: section.figure.src, alt: item!.sections![index].heading! } }),
       })),
       faq: article.faq?.map((_, index) => item!.faq![index]),
       sources: article.sources?.map((source, index) => ({ ...source, label: item!.sources![index].label! })),

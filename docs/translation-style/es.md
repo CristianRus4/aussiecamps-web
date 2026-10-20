@@ -139,6 +139,83 @@ yomeanimo.com (Argentina/Chile, Working Holiday, «recorrer Australia en van»),
 | sandflies (NZ) | **sandflies** (first use: «las sandflies, unas mosquitas que pican»), then «sandflies» | |
 | biosecurity | **bioseguridad** | |
 | i-SITE | **i-SITE (oficina de turismo)** | |
+| bottle shop | **bottle shop** (la bottle shop), first use: «bottle shop (tienda de bebidas alcohólicas)»; in meta: «tienda de alcohol» | |
+| schooner / pint | «schooner (el vaso de cerveza de barril habitual)» | «caña» is Spain-only |
+| rideshare | «servicio tipo Uber»; «un Uber» in short tips | «VTC» is Spain-only |
+| council reserve | **terrenos municipales (council reserves)** on first use | Not «reservas municipales»: reads as bookings |
+| shire / local government area | **municipio (shire)** | Never «condado» |
+| Crown land | **tierras de la Corona (Crown land)** | |
+| dispersed camping | **acampada dispersa (fuera de zonas delimitadas)** on first use | |
+| sanctuary zone (marine park) | **zona de protección integral (sanctuary zone)** | |
+| state agencies (Transport for NSW, Parks Victoria, DBCA…) | name unchanged, gloss on first use: «Transport for NSW (el organismo de transporte del estado)» | |
+| national park campground (AU) | **zona de acampada** (not «camping»): «las zonas de acampada del NPWS» | |
+| station wagon / sedan | «coche familiar (station wagon)» / «sedán» | «ranchera», «berlina» are Spain-only |
+| BAC 0.05 | keep «0,05» as written; you may add «(0,5 g/l)» | |
+| long glosses (agency names, legal terms) | give the gloss in the first running-text unit (intro or body), not in title, region, tips or table labels | Titles must stay short |
+| road user charges (NZ) | «los road user charges (RUC), una tasa por uso de la carretera…» first use, then «los RUC» | |
+| MBIE / Stats NZ | «el MBIE (Ministry of Business, Innovation and Employment, el ministerio neozelandés de empresa y empleo)», «Stats NZ (el instituto de estadística de Nueva Zelanda)» | |
+| rāhui | «rāhui (vedas temporales que establece la comunidad maorí local)» | |
+| honesty box | «honesty box (una caja donde dejas el pago)» | |
+| warden / ranger | «guarda»; «guardas de los parques (rangers)» | |
+| quiet hours | «horario de silencio» | |
+| Class 1 licence | «el permiso de conducir de coche (Class 1)» | |
+| ferry | «ferri» (RAE) | |
+| tent pegs | «estacas» | «piquetas» is Spain-only |
+| dashboard | «junto al volante» | «salpicadero» Spain-only, «tablero» regional |
+| regional verbs | avoid «coger» (vulgar in AR/MX: use «tomar», «agarrar», «subir a»), «pillar» (use «sorprender»), «bombona» (use «botella de gas») | |
+| station / station stay (WA, NT) | «estación ganadera (station)»; «estancias en estaciones ganaderas (station stays)» | |
+| satellite messenger / PLB | «comunicador por satélite»; «radiobaliza personal de localización (PLB)» | |
+| licensed water frontage | «riberas con licencia (licensed water frontages)» | |
+| BYO / corkage | «BYO, bring your own» on first use; «descorche» | |
+| entree (AU menus) | «entree» is the starter: «la entrada (el entrante)» | |
+| vehicle rego in a booking form | «matrícula del vehículo (rego)» (the plate); «registro del vehículo (rego)» for the registration itself | |
+| cassette | first use «váter químico (de casete)», then «casete» (RAE spelling) | |
+| stormwater drain | «alcantarilla de aguas pluviales» | «sumidero» is Spain-only |
+| park-and-ride | «park-and-ride (un aparcamiento junto a una estación de tren o de autobús)» | «aparcamiento disuasorio» is Spain-only |
+| mountain pass | «paso de montaña» | «puerto» is Spain-only |
+| DOC hut categories | «refugios con servicios (serviced huts)», «estándar (standard huts)», «básicos (basic huts)»; «tickets de refugio (hut tickets)»; Backcountry Hut Pass unchanged | |
+| hut book | «libro de registro del refugio» | |
+| intercity coach | «autobús de larga distancia» | «autocar» Spain, «micro» AR/CL |
+| tag on / off | «validar la tarjeta al subir / al bajar» | |
+| stop-go (roadworks) | «paso alternativo (stop-go)», «la paleta de stop-go» | |
+| chip seal | «chip seal (asfalto de gravilla)» | |
+| treat water | «potabilizar» | |
+| hostel dorm bed | «cama en dormitorio compartido de hostel» | never «albergue» |
+| Tourism Australia | first use «Tourism Australia (el organismo oficial de turismo del país)» | |
+| Phytophthora dieback | «la Phytophthora (dieback)», then «dieback» | |
+| laundry (chore) | «lavar la ropa», «la ropa sucia» | «colada» is Spain-only |
+| deli counter | «mostrador de fiambres y comida preparada» | |
+| one-way fee | «suplemento por devolver en otro sitio» | |
+| bond (rental) | «depósito» | not «fianza» |
+| recovery gear (4x4) | «equipo de rescate para 4x4 (recovery gear)» | |
+| headline rate | «tarifa anunciada» | |
+| shoulder season | «temporada media» | |
+| bakery pie (NZ/AU) | «pie de panadería (un pastel salado relleno, normalmente de carne)» on first use | not «empanada» |
+| card reader / EFTPOS | «lector de tarjetas» | «datáfono» Spain-only |
+| route labels in tables | «Sídney-Ballina» (hyphen between names) | en dash only between numbers |
+| ACT | first use «el ACT (Territorio de la Capital Australiana)»; title «Normas de acampada en el ACT» | |
+| fire/emergency/met agencies | «el Country Fire Service (CFS, los bomberos rurales del estado)», «la CFA (Country Fire Authority, los bomberos rurales de Victoria)», «el Bureau of Meteorology (BoM, el servicio meteorológico nacional)» | |
+| designated area/site | «zona habilitada» | |
+| relocation deal | «oferta de reubicación (relocation deal, en la que llevas un vehículo de alquiler a otra ciudad)» | |
+| baggage allowance | «equipaje permitido» | not «franquicia de equipaje» (clashes with insurance excess) |
+| recreation area (QLD) | «área recreativa (recreation area)» | |
+| «a few dollars» | «unos pocos dólares australianos / neozelandeses» | never bare «dólares» |
+| open road (speed) | «en carretera», «fuera de las zonas urbanas» | never «carretera abierta» |
+| towing combination | «conjunto», first use «un conjunto (coche y caravana)» | |
+| gross laden weight / tow ball download / towbar rating | «peso total con carga» / «carga vertical sobre la bola» / «capacidad de la barra de remolque» | |
+| drive-through site | «parcela en la que se entra y se sale sin maniobrar (drive-through)» | |
+| IDP | «permiso internacional de conducir (IDP)» first use, then «IDP» | |
+| NZTA | «la NZTA (NZ Transport Agency Waka Kotahi, la agencia de transporte de Nueva Zelanda)» in running text; source labels «NZTA: …» | |
+| ACC (NZ) | «la ACC (Accident Compensation Corporation, el sistema público neozelandés de indemnización por accidentes)» | |
+| COF (NZ) | «el Certificate of Fitness (COF, la inspección de los vehículos pesados y de transporte de pasajeros)» | |
+| stickers / labels | «etiqueta» | «pegatina» mostly Spain |
+| licensing agent | «agente autorizado (licensing agent)» | |
+| probationary / graduated licence | «provisional» / «permiso por fases» | |
+| GeoNet / Volcanic Alert Level | «GeoNet (el servicio oficial de vigilancia de volcanes y terremotos)»; «nivel de alerta volcánica (Volcanic Alert Level)»; unrest «agitación volcánica»; lahar «lahares (coladas de barro volcánico)» | |
+| possum (NZ) | «possums (zarigüeyas australianas)» | plain «zarigüeya» is the American opossum |
+| 1080 | «el 1080, un veneno que se lanza desde el aire» | |
+| fare family / trunk route / seat-only fare | «tipos de tarifa» / «ruta principal» / «tarifa solo con asiento» | |
+| shuttle | «empresa de shuttle», «shuttles turísticos» | «lanzadera» Spain-only |
 
 ### App and product names
 
@@ -170,16 +247,17 @@ label is a mistranslation (marked ✗; use the fix).
   «el DOC (Department of Conservation, el organismo público que gestiona los parques y espacios
   protegidos de Nueva Zelanda)», «NPWS (el servicio de parques nacionales de New South Wales)»,
   «Parks Victoria», «Waka Kotahi», «MPI», «Home Affairs», «Immigration New Zealand».
-- Protected place names (the engine rejects anything else): the Australian states and territories
-  **New South Wales, Victoria, Queensland, South Australia, Western Australia, Tasmania, Northern
-  Territory, Australian Capital Territory, Central Australia**, and NZ's **North Island, South
-  Island, Stewart Island, Aotearoa, Aoraki**. Use them with the Spanish article and gender of the
-  Spanish noun: «en New South Wales», «el Northern Territory», «la North Island», «la South
-  Island». Where the page is about that state or island, add the Spanish exonym once in the
-  intro or first mention: «New South Wales (Nueva Gales del Sur)», «Western Australia (Australia
-  Occidental)», «South Australia (Australia Meridional)», «Northern Territory (Territorio del
-  Norte)», «la North Island (Isla Norte)», «la South Island (Isla Sur)». Adjectives are not protected:
-  «los parques de Australia Occidental» is fine where the English says «Western Australian parks».
+- Australian states and territories use the natural Spanish forms (AussieCamps catalog; the es
+  glossary enforces them): **Nueva Gales del Sur, Australia Meridional, Australia Occidental,
+  Territorio del Norte, Territorio de la Capital Australiana**; Queensland, Victoria and Tasmania
+  stay as they are. Central Australia is «el centro de Australia» (the Red Centre
+  where the English says so). On state-rules pages, give the English official name once in parentheses
+  where the reader needs it to match signs or official sites: «Australia Occidental (Western
+  Australia)», «Territorio del Norte (Northern Territory)». Agency and park-service names keep
+  their English form with a short gloss on first use.
+- NZ protected place names (KiwiCamping catalog, until it gets the same treatment): **North Island,
+  South Island, Stewart Island, Aotearoa, Aoraki**; use them with the Spanish article and gender
+  («la North Island (Isla Norte)» on first mention).
 - Other place names stay as on the map and the signs (Great Ocean Road, Cape York, Bay of Islands,
   West Coast, Coromandel, Milford Sound / Piopiotahi). Established Spanish exonyms are fine where
   they exist: **Australia, Nueva Zelanda, Sídney, Tasmania, la Gran Barrera de Coral** («Great
@@ -244,6 +322,21 @@ label is a mistranslation (marked ✗; use the fix).
 | English left in a Spanish sentence when a Spanish term exists («campgrounds», «free camps») | glossary term | Untranslated |
 | «en orden a», «a los efectos de», «procedes a» | plain verbs | Officialese |
 | possessive on every noun («tu coche, tus llaves, tu móvil») | drop where obvious | Calque of English possessives |
+
+### Lessons from the first judge round (2026-10-19)
+
+- In-app list and button names always go in « » inside a sentence: «Me gustó», «Quiero visitar»,
+  «Opciones de privacidad». Refer to the smart lists as «las listas «Me gustó»…» so «solas» agrees.
+- Never put «tiempo real» next to «el tiempo» (weather). Use «en línea» or «online» for live data
+  and «previsión del tiempo» for the forecast.
+- Meta descriptions near 150 characters; drop secondary items before going over.
+- «mejor de como», not «mejor que como». «Crea» (neutral) rather than «Arma» (Latin America) or
+  «Monta» (Spain) for building a route or list.
+- Do not calque playful English: «No mystery maths» is «Sin cuentas raras», not «Sin cuentas
+  misteriosas».
+- «básicos» is not a noun for «essentials»: «imprescindibles».
+- Keep impersonal infinitive lists consistent: «Acampar…, gestionar…, respetar…», not a tú
+  reflexive in the middle («deshacerte»).
 
 ## 6. Before and after (from the current site translations)
 
