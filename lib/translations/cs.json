@@ -137,10 +137,10 @@
     "guidesTitle": "Vydejte se na cestu, která stojí za to.",
     "guidesIntro": "podrobných průvodců ke kempům, pravidlům, místním cenám a praktickému plánování cesty po Austrálii.",
     "guideSingular": "průvodce",
-    "guidePlural": "průvodců",
+    "guidePlural": "few:průvodci|many:průvodce|other:průvodců",
     "readGuide": "Číst průvodce",
     "minuteRead": "min čtení",
-    "places": "místa",
+    "places": "one:místo|few:místa|many:místa|other:míst",
     "backToGuides": "Průvodce",
     "photoCredits": "Autoři fotografií",
     "keepInMind": "Na co myslet",
@@ -230,6 +230,202 @@
     "learnMore": "Zásady ochrany osobních údajů",
     "privacyChoices": "Nastavení soukromí"
   },
+  "tools": {
+    "common": {
+      "home": "Domů",
+      "tools": "Nástroje",
+      "calculator": "Kalkulačka",
+      "howItWorks": "Jak se počítá",
+      "workedExample": "Příklad výpočtu",
+      "assumptions": "Předpoklady",
+      "commonQuestions": "Časté otázky",
+      "readNext": "Průvodci náklady a plánováním",
+      "sources": "Zdroje",
+      "ctaEyebrow": "V aplikaci",
+      "passNote": "AussieCamps se stahuje zdarma. Ubytování a organizované zájezdy (tours), které lze rezervovat, si můžete prohlížet zdarma; kempy, odpočívadla, výlevky, voda, toalety a plánovač cest vyžadují Pass.",
+      "iphoneOnly": "AussieCamps je aplikace pro iPhone.",
+      "openTool": "Vzorec, příklad výpočtu a otázky",
+      "allTools": "Všechny nástroje pro road trip"
+    },
+    "tools": {
+      "fuel-cost-calculator": {
+        "metaTitle": "Kalkulačka nákladů na palivo pro road trip po Austrálii",
+        "metaDescription": "Spočítejte benzin nebo naftu na road trip po Austrálii podle vzdálenosti, spotřeby v l/100 km a ceny za litr. Ukáže litry, celkovou cenu i cenu za km, se vzorcem a příkladem výpočtu.",
+        "title": "Kalkulačka nákladů na palivo pro road trip po Austrálii",
+        "intro": "Zadejte vzdálenost, spotřebu naloženého vozidla a cenu za litr. Dozvíte se, kolik litrů jízda spotřebuje, kolik zaplatíte za palivo a kolik vychází jeden kilometr, takže si celou trasu rozpočítáte ještě před prvním tankováním.",
+        "formula": [
+          "Litry = vzdálenost (km) × spotřeba (l/100 km) ÷ 100",
+          "Cena paliva = litry × cena za litr (AUD/l)",
+          "Cena za km = cena paliva ÷ vzdálenost"
+        ],
+        "formulaNote": "Kalkulačka zaokrouhluje litry na jedno desetinné místo a peníze na centy. Nic dalšího nepřičítá: mýtné, olej a opotřebení pneumatik jsou v rozpočtu samostatné položky.",
+        "example": [
+          "Jízda dlouhá 1 000 km ve vozidle se spotřebou 12 l/100 km při ceně 2,08 AUD za litr, což byla podle dat Fuel Plan 5. srpna 2026 průměrná cena benzinu v pěti největších městech.",
+          "1 000 × 12 ÷ 100 = 120 litrů. 120 × 2,08 AUD = 249,60 AUD. 249,60 AUD ÷ 1 000 km = zhruba 0,25 AUD za kilometr.",
+          "Stejná jízda s naftovým vozidlem při tehdejší průměrné ceně nafty 2,47 AUD za litr stojí 120 × 2,47 AUD = 296,40 AUD."
+        ],
+        "assumptions": [
+          "Spotřeba je hodnota pro naložené vozidlo. Obytná dodávka, náklad na střeše nebo karavan za autem spálí víc, než uvádí prospekt, proto si spotřebu pokud možno změřte sami.",
+          "Průměry z měst jsou jen výchozí bod. Odlehlé roadhousy (čerpací stanice s občerstvením u silnice) bývají dražší, takže pro úseky v outbacku cenu zvyšte.",
+          "Vzdálenost je celá trasa, včetně odboček ke kempům, vyhlídkám a do měst mimo hlavní silnici."
+        ],
+        "faq": [
+          [
+            "Jak zjistím skutečnou spotřebu svého vozidla?",
+            "Natankujte plnou nádrž, vynulujte denní počítadlo kilometrů a jezděte jako obvykle. Při dalším tankování vydělte natankované litry ujetými kilometry a vynásobte stem. To je vaše spotřeba v l/100 km pro naložené vozidlo a právě toto číslo kalkulačka potřebuje."
+          ],
+          [
+            "Jak spočítám cenu paliva na kilometr?",
+            "Spotřebu v l/100 km vydělte stem a vynásobte cenou za litr. Při 12 l/100 km a 2,08 AUD za litr je to 0,12 × 2,08, zhruba 0,25 AUD za kilometr."
+          ],
+          [
+            "Jakou cenu paliva mám použít?",
+            "Použijte palivo, které vaše vozidlo tankuje, a nejnovější cenu, kterou pro danou oblast najdete. Průměry Fuel Plan z pěti měst k 5. srpnu 2026 byly 2,08 AUD za litr benzinu a 2,47 AUD za litr nafty; v odlehlých oblastech počítejte s vyšší cenou."
+          ]
+        ],
+        "ctaTitle": "Naplánujte si zastávky mezi tankováními.",
+        "ctaText": "AussieCamps ukazuje na mapě {restAreas} odpočívadel a {dumpPoints} výlevek (dump points, místa pro vylití WC kazety a šedé vody) po celé Austrálii a z uložených míst sestaví trasu s více zastávkami a vzdálenostmi."
+      },
+      "drive-time-calculator": {
+        "metaTitle": "Kalkulačka doby jízdy po Austrálii: skutečný den na cestě",
+        "metaDescription": "Odhadněte, jak dlouho v Austrálii opravdu trvá den za volantem, podle vzdálenosti, typu silnice a zastávek. Ukáže použité průměrné rychlosti, vzorec a příklad výpočtu.",
+        "title": "Kalkulačka doby jízdy pro road trip po Austrálii",
+        "intro": "Navigace počítá čistý čas jízdy po volné silnici. Tato kalkulačka plánuje den, který skutečně odjezdíte: průměrnou rychlost podle typu silnice plus čas strávený na zastávkách kvůli palivu, jídlu a přestávkám.",
+        "formula": [
+          "Minuty jízdy = vzdálenost (km) ÷ průměrná rychlost (km/h) × 60",
+          "Celkem minut = minuty jízdy + zastávky × 20",
+          "Průměrné rychlosti: 85 km/h dálnice nebo volná rovná silnice, 70 km/h hlavní silnice (highway), 60 km/h klikatá nebo pobřežní silnice, 45 km/h úzká, strmá nebo šotolinová silnice"
+        ],
+        "formulaNote": "Rychlosti jsou plánovací průměry, které počítají s průjezdy městy, opravami silnic, pomalými vozidly a pruhy pro předjíždění. Nejsou to rychlostní limity.",
+        "example": [
+          "Den o 250 km po klikaté pobřežní silnici se třemi zastávkami.",
+          "250 ÷ 60 × 60 = 250 minut jízdy. Tři zastávky přidají 3 × 20 = 60 minut.",
+          "Den zabere 310 minut, tedy 5 h 10 min. Po hlavní silnici rychlostí 70 km/h zabere stejná vzdálenost se stejnými zastávkami 4 h 34 min."
+        ],
+        "assumptions": [
+          "Každá zastávka se počítá jako 20 minut: tankování, jídlo, přestávka na toaletu nebo střídání řidičů.",
+          "S jízdou v noci se nepočítá. Zvířata jsou nejaktivnější za svítání a soumraku, proto se snažte dorazit před setměním.",
+          "Stav nezpevněných silnic se mění s počasím a ročním obdobím. Před úsekem po šotolině si ověřte sjízdnost u silničního úřadu daného státu."
+        ],
+        "faq": [
+          [
+            "Proč mi vychází víc než v navigaci?",
+            "Navigační aplikace odhadují čistý čas jízdy rychlostí blízkou povoleným limitům. Tato kalkulačka přidává charakter silnice a čas strávený na zastávkách, a právě tam se dlouhý den obvykle protáhne."
+          ],
+          [
+            "Jaký typ silnice mám zvolit pro obytnou dodávku?",
+            "Pro většinu zpevněných národních silnic (highways) zvolte hlavní silnici, pro kopcovité a pobřežní trasy klikatou nebo pobřežní silnici a pro nezpevněné silnice a horské průsmyky úzkou, strmou nebo šotolinovou silnici. Těžká obytná dodávka nebo karavan do kopce jedou ještě pomaleji."
+          ],
+          [
+            "Zahrnuje výsledek zastávky na tankování a jídlo?",
+            "Jen zastávky, které zadáte. Přidejte jednu za každé tankování, jídlo nebo přestávku, se kterou počítáte; každá přidá ke dni 20 minut."
+          ]
+        ],
+        "ctaTitle": "Vězte, kde den skončí, ještě než vyrazíte.",
+        "ctaText": "AussieCamps ukazuje na mapě {campgrounds} kempů a {restAreas} odpočívadel a sestaví trasu s více zastávkami a vzdáleností jízdy mezi nimi."
+      },
+      "campsite-cost-calculator": {
+        "metaTitle": "Kalkulačka ceny kempu: za osobu, nebo za místo",
+        "metaDescription": "Porovnejte poplatek za kemp účtovaný za dospělého s poplatkem za místo pro vaši skupinu a počet nocí. Ukáže, při jaké velikosti skupiny se ceny vyrovnají, vzorec a příklad výpočtu v AUD.",
+        "title": "Kalkulačka ceny kempu: za osobu, nebo za místo?",
+        "intro": "Některé kempy účtují za dospělého a noc, jiné za celé místo. Která varianta je levnější, záleží na počtu dospělých ve skupině, a proto kalkulačka spočítá obě pro stejný pobyt.",
+        "formula": [
+          "Celkem za dospělé = dospělí × noci × poplatek za dospělého",
+          "Celkem za místo = noci × poplatek za místo",
+          "Bod zvratu (počet dospělých) = poplatek za místo ÷ poplatek za dospělého"
+        ],
+        "formulaNote": "Když je dospělých víc, než udává bod zvratu, vyjde levněji cena za místo; když je jich méně, vyjde levněji cena za dospělého.",
+        "example": [
+          "Dva dospělí na pět nocí, srovnání 20 AUD za dospělého a noc s 50 AUD za místo a noc.",
+          "Za dospělé: 2 × 5 × 20 AUD = 200 AUD. Za místo: 5 × 50 AUD = 250 AUD. Cena za dospělé je o 50 AUD nižší.",
+          "Bod zvratu je 50 AUD ÷ 20 AUD = 2,5 dospělého, takže se třemi dospělými stoupne cena za dospělé na 300 AUD a výhodnější je cena za místo."
+        ],
+        "assumptions": [
+          "Děti a držitelé slev často platí jinou sazbu. Zadejte jen dospělé, nebo poplatek upravte na průměr.",
+          "Rezervační poplatky a vstupné do parků se platí zvlášť. Při srovnání je přičtěte k ceně za místo, abyste porovnávali srovnatelné.",
+          "Kalkulačka počítá jen s čísly, která zadáte; aktuální poplatek si ověřte na oficiální rezervační stránce."
+        ],
+        "faq": [
+          [
+            "Kdy je poplatek za místo levnější?",
+            "Když je počet dospělých vyšší než poplatek za místo vydělený poplatkem za dospělého. Při 50 AUD za místo a 20 AUD za dospělého je to 2,5, takže skupina tří a více lidí zaplatí méně při ceně za místo."
+          ],
+          [
+            "Účtují kempy v národních parcích za osobu?",
+            "Mnoho kempů ve státních parcích účtuje za dospělého a noc, zatímco holiday parky (komerční kempy s chatkami a zázemím) obvykle účtují za místo. Způsob účtování určuje každý správce území, proto si ho před srovnáním přečtěte na oficiální stránce."
+          ]
+        ],
+        "ctaTitle": "Porovnejte kempy na mapě.",
+        "ctaText": "AussieCamps ukazuje na mapě {campgrounds} kempů s poplatky a vybavením tam, kde je správce území uvádí, a u každého odkazuje na jeho oficiální stránku."
+      },
+      "currency-converter": {
+        "metaTitle": "Převodník AUD pro cestovatele (kurzy RBA)",
+        "metaDescription": "Převeďte ceny v australských dolarech na NZD, USD, GBP, EUR, CNY, INR, SGD, JPY a KRW a zpět podle datovaných referenčních kurzů Reserve Bank of Australia.",
+        "title": "Převodník australského dolaru pro plánování cesty",
+        "intro": "Převeďte australskou cenu na měnu, ve které přemýšlíte, nebo naopak. Kurzy jsou referenční kurzy Reserve Bank of Australia s uvedeným datem, takže přesně víte, z čeho číslo vychází.",
+        "formula": [
+          "Převedená částka = částka ÷ kurz měny, ze které převádíte × kurz měny, na kterou převádíte",
+          "Každý kurz udává počet jednotek dané měny za 1 AUD"
+        ],
+        "formulaNote": "Převod přes australský dolar drží všechny páry v souladu: převod NZD na USD používá stejné dva kurzy jako převody z AUD.",
+        "example": [
+          "100 AUD při kurzu 1,2033 NZD za australský dolar.",
+          "100 ÷ 1 × 1,2033 = 120,33 NZD.",
+          "Opačným směrem: 100 NZD ÷ 1,2033 × 1 = 83,10 AUD."
+        ],
+        "assumptions": [
+          "Referenční kurzy jsou středové hodnoty pro plánování. Banky, karetní společnosti a směnárny si přidávají vlastní marži nebo poplatky.",
+          "Kurzy se mění každý pracovní den. Výsledek použijte k posouzení ceny, ne jako nabídku."
+        ],
+        "faq": [
+          [
+            "Jaké kurzy převodník používá?",
+            "Referenční kurzy Reserve Bank of Australia, uvedené s datem, ke kterému platí, a vyjádřené jako počet jednotek každé měny za jeden australský dolar."
+          ],
+          [
+            "Proč mi banka strhne jinou částku?",
+            "Banky a karetní společnosti používají vlastní kurz a často přidávají marži nebo poplatek za zahraniční transakci, takže stržená částka se od referenčního přepočtu liší."
+          ]
+        ],
+        "ctaTitle": "Poplatky ve vlastní měně.",
+        "ctaText": "AussieCamps zobrazí poplatky uvedené ve zdroji vedle částky v australských dolarech také ve zvolené měně, podle kurzu, který nastavíte jen jednou."
+      },
+      "water-tank-calculator": {
+        "metaTitle": "Kalkulačka nádrží na vodu v obytné dodávce: dny bez přípojek",
+        "metaDescription": "Převeďte objem nádrží na čistou a šedou vodu na počet dní bez přípojek pro vaši skupinu. Ukáže spotřebu na osobu v litrech, vzorec a příklad výpočtu pro cestu obytnou dodávkou po Austrálii.",
+        "title": "Kalkulačka nádrží na vodu v obytné dodávce: kolik dní bez přípojek?",
+        "intro": "Objem nádrží v litrech začne být užitečný, až když ho převedete na dny. Zadejte objem nádrže na čistou a šedou vodu a počet lidí a kalkulačka ukáže, jak dlouho každá nádrž vydrží a která z nich určuje váš limit.",
+        "formula": [
+          "Dny s čistou vodou = nádrž na čistou vodu (l) ÷ (lidé × 11 l)",
+          "Dny se šedou vodou = nádrž na šedou vodu (l) ÷ (lidé × 9 l)",
+          "Dny bez přípojek = nižší z obou hodnot"
+        ],
+        "formulaNote": "11 litrů čisté a 9 litrů šedé vody na osobu a den pokryje pití, vaření a mytí nádobí při šetrném zacházení. Sprchování ve voze spotřebuje mnohem víc.",
+        "example": [
+          "Obytná dodávka s nádrží na čistou vodu 100 l a nádrží na šedou vodu 90 l, cestují dva lidé.",
+          "Čistá voda: 100 ÷ (2 × 11) = 4,5 dne. Šedá voda: 90 ÷ (2 × 9) = 5,0 dne.",
+          "Čistá voda dojde dřív, zhruba po čtyřech a půl dnech, takže doplnění naplánujte před pátým dnem."
+        ],
+        "assumptions": [
+          "Hodnoty na osobu jsou průměry. Horké počasí, vaření s vodou a sprchování je zvyšují.",
+          "Kazeta toalety je samostatná nádrž a není zahrnuta.",
+          "Šedou vodu vypouštějte jen tam, kde je to dovoleno, například na výlevce (dump point) nebo na schváleném místě."
+        ],
+        "faq": [
+          [
+            "Kolik vody spotřebuje jeden člověk za den v obytné dodávce?",
+            "Kalkulačka počítá zhruba s 11 litry čisté vody na osobu a den na pití, vaření a mytí nádobí a zhruba s 9 litry šedé vody. Každodenní sprcha ve voze spotřebuje mnohem víc, takže s ní počítejte zvlášť."
+          ],
+          [
+            "Co dojde dřív, čistá, nebo šedá voda?",
+            "Ta nádrž, která vychází na méně dní. Při stejném objemu nádrží zkracuje obě hodnoty víc lidí nebo víc mytí; kalkulačka ukazuje obě vedle sebe, takže víte, která určuje limit."
+          ]
+        ],
+        "ctaTitle": "Najděte další místo k doplnění vody a výlevku.",
+        "ctaText": "AussieCamps ukazuje na mapě {water} míst k doplnění vody a {dumpPoints} výlevek po celé Austrálii, s vybavením, které je u každého uvedeno."
+      }
+    }
+  },
   "pages": {
     "support": {
       "title": "S čím vám můžeme pomoci?",
@@ -277,7 +473,7 @@
         {
           "heading": "Premium a účet",
           "paragraphs": [
-            "AussieCamps se stahuje zdarma a mapa i vyhledávání ukazují všechna místa. Bez Passu se naplno otevřou jen pobyty a výlety z BookEasy, které se dají rezervovat, a k tomu několik průvodců.",
+            "AussieCamps se stahuje zdarma a mapa i vyhledávání ukazují všechna místa. Bez Passu se naplno otevřou jen ubytování a organizované zájezdy (tours) z nabídky BookEasy, které se dají rezervovat, a k tomu několik průvodců.",
             "Pass otevře kempy, odpočívadla, výlevky, vodu, toalety i všechny průvodce a odemkne ukládání míst, sbírky a plánovač cest.",
             "Otevřete obrazovku Premium a klepněte na Obnovit nákupy. Musíte být přihlášeni ke stejnému Apple účtu, přes který jste nákup původně provedli."
           ]
@@ -548,7 +744,7 @@
           "tips": [
             "Dvě noci: Byron, Noosa, Airlie, Port Douglas",
             "Rezervní den kvůli počasí na útesu",
-            "Průjezdní zastávky stačí obyčejné"
+            "Na průjezdu stačí obyčejný kemp"
           ]
         },
         {
@@ -1220,10 +1416,10 @@
             "Roadhousy podél Eyre Highway nabízejí místa s přípojkou elektřiny i bez ní a mezi nimi jsou odpočívadla zdarma a štěrkoviště, kde se smí přenocovat. Za poplatek v roadhousu získáte sprchu a bezpečí.",
             "Podél Bunda Cliffs leží několik <a data-guide=\"is-free-camping-legal-australia\">free kempů</a> (míst, kde se dá kempovat zdarma) bez jakéhokoli zázemí, zato na mimořádných místech. Jsou vystavené větru, neoplocené a bez vody, takže se hodí jen pro soběstačná vozidla.",
             "Norseman a Ceduna přejezd uzavírají z obou stran a obě místa stojí za pořádnou zastávku: najdete tu služby, palivo a nocleh před dlouhým úsekem nebo po něm.",
-            "Karanténa platí v obou směrech: při vjezdu do státu South Australia se kontroluje kvůli <a data-guide=\"interstate-biosecurity-road-trip\">ovocné mušce</a> a při vjezdu do státu Western Australia je samostatné kontrolní stanoviště, takže podle toho plánujte, co povezete v lednici."
+            "Karanténa platí v obou směrech: při vjezdu do státu South Australia se kontroluje kvůli <a data-guide=\"interstate-biosecurity-road-trip\">vrtuli (fruit fly)</a> a při vjezdu do státu Western Australia je samostatné kontrolní stanoviště, takže podle toho plánujte, co povezete v lednici."
           ],
           "tips": [
-            "V roadhousu se osprchujete",
+            "V roadhousu si koupíte sprchu",
             "Kempy na útesech bez zázemí",
             "Místa vystavená větru, bez oplocení"
           ]
@@ -1686,7 +1882,7 @@
           ]
         },
         {
-          "heading": "Čisté kempingové vybavení",
+          "heading": "Vyčistěte kempingové vybavení",
           "body": [
             "Z bot, stanů, kol i vybavení pro vyprošťování odstraňte půdu, semena a zbytky rostlin. Vodní vybavení před přesunem mezi povodími, kde se to vyžaduje, usušte.",
             "Čisté vybavení také déle vydrží a nezanese do dalšího kempu mravence, plevele ani choroboplodné zárodky."
@@ -1694,16 +1890,16 @@
           "tips": []
         },
         {
-          "heading": "Hlavním problémem jsou zóny ochrany před ovocnými muchami",
+          "heading": "Hlavním problémem jsou zóny ochrany před vrtulí (fruit fly)",
           "body": [
-            "South Australia, Tasmania a části států Victoria a <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> udržují zóny vyloučení ovocných much (fruit fly exclusion zones). Dovážet do nich čerstvé ovoce a některou zeleninu je zakázáno, na hranicích jsou k dispozici koše na likvidaci a fungují kontrolní stanoviště.",
-            "Pokuty se platí bez ohledu na to, zda jste o pravidle věděli, a kontroly na hranici s South Australia a na trajektovém terminálu ve státě Tasmania jsou běžné. Na některých přechodech pracují psi na vyhledávání.",
+            "South Australia, Tasmania a části států Victoria a <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> udržují zóny ochrany před vrtulí (fruit fly exclusion zones). Dovážet do nich čerstvé ovoce a některou zeleninu je zakázáno, na hranicích jsou k dispozici koše na likvidaci a fungují kontrolní stanoviště.",
+            "Pokutu dostanete bez ohledu na to, zda jste o pravidle věděli, a kontroly na hranici se státem South Australia a na trajektovém terminálu ve státě Tasmania jsou běžné. Na některých přechodech pracují služební psi.",
             "Praktický postup je plánovat nákupy podle hranic: před přechodem lednici vyprázdnit a hned po něm zásoby doplnit. Nestojí to nic a problém to odstraní úplně."
           ],
           "tips": [
             "Před hranicí lednici vyprázdněte",
             "Koše jsou na přechodech k dispozici",
-            "Pokuta platí i bez vědomí o pravidle"
+            "Pokutu dostanete, i když o pravidle nevíte"
           ]
         },
         {
@@ -1735,7 +1931,7 @@
         {
           "heading": "Proč na tom záleží",
           "body": [
-            "Australské zemědělství je prosté mnoha škůdců, kteří se vyskytují jinde, a tento stav stojí na vnitřních bariérách stejně jako na mezinárodních. Jediné ohnisko ovocných much může pěstitele v regionu připravit o exportní trhy.",
+            "Australské zemědělství je prosté mnoha škůdců, kteří se vyskytují jinde, a tento stav stojí na vnitřních bariérách stejně jako na mezinárodních. Jediné ohnisko vrtule může pěstitele v regionu připravit o exportní trhy.",
             "U původních ekosystémů jde o podobnou věc. Dieback, myrtle rust (rez myrtovitých) a nálety plevelů trvale změnily velké plochy a většina toho šíření byla způsobená lidmi a dala se předejít.",
             "Dodržování stojí pár minut a trochu plánování nákupů. Berte koše na hranicích jako běžnou součást road tripu, ne jako obtíž."
           ],
@@ -1746,7 +1942,7 @@
           ]
         },
         {
-          "heading": "Jak naplánovat lednici kolem hranic",
+          "heading": "Jak plánovat nákupy do lednice kvůli hranicím",
           "body": [
             "Čerstvé produkty spotřebujte ve dnech před karanténním přechodem a hned po něm je doplňte. Nestojí to nic, vyhnete se dvojímu nákupu a úplně odpadne riziko pokuty.",
             "Vařená a zpracovaná jídla jsou většinou v pořádku, takže jídelníček postavený na konzervách, sušených a uvařených věcech v den přechodu funguje dobře. Aktuální seznam omezených věcí si ověřte, nehádejte, co do něj spadá.",
@@ -1763,7 +1959,7 @@
       "faq": [
         [
           "Smí se přes hranice australských států vozit ovoce a zelenina?",
-          "Často ne. Zóny ochrany před ovocnými muchami a karanténní pravidla mezi státy omezují čerstvé ovoce, zeleninu, med a rostliny a seznam omezených věcí se mění podle směru jízdy a podle zóny."
+          "Často ne. Zóny ochrany před vrtulí (fruit fly) a karanténní pravidla mezi státy omezují čerstvé ovoce, zeleninu, med a rostliny a seznam omezených věcí se mění podle směru jízdy a podle zóny."
         ],
         [
           "Co se děje na australské karanténní kontrole?",
@@ -1927,12 +2123,12 @@
           "heading": "Nechte si rezervu na opravy",
           "body": [
             "Odložte peníze na pneumatiku, čelní sklo, odtah, změněný trajekt nebo nouzové ubytování. Rezervu v prvním týdnu neutrácejte za nepovinné aktivity.",
-            "Pomalejší cestování snižuje spotřebu paliva a vytváří prostor pro dny zdarma, které budou pořád působit jako dovolená."
+            "Pomalejší cestování snižuje spotřebu paliva a dává prostor pro volné dny bez útraty, které budou pořád působit jako dovolená."
           ],
           "tips": []
         },
         {
-          "heading": "Vozidlo ceňte jako celek",
+          "heading": "Cenu vozidla posuzujte jako celek",
           "body": [
             "Nabídky porovnávejte na stejné termíny, kategorii vozidla, spoluúčast, limit kilometrů a zahrnuté vybavení. Nízká cena v nadpisu se spoluúčastí 5 000 AUD a denním limitem kilometrů je jiný produkt než o něco dražší nabídka bez nich.",
             "Pak přičtěte, co se uvádí zvlášť: poplatky za jednosměrné vrácení, další řidiče, balíčky s lůžkovinami a kuchyňským vybavením, transfery z letiště a cenu za snížení spoluúčasti. Za čtrnáct dní to obvykle dá několik set dolarů.",
@@ -1958,7 +2154,7 @@
           ]
         },
         {
-          "heading": "Mix ubytování a skutečný vzorec",
+          "heading": "Jak v praxi kombinovat ubytování",
           "body": [
             "Cesta postavená výhradně na <a data-guide=\"is-free-camping-legal-australia\">kempování zdarma</a> stejně někde zaplatí sprchy, praní, vodu a výlevky. Cesta postavená jen na caravan parcích vyjde několikrát dráž a v nocích, kdy přijedete pozdě a ráno odjíždíte brzy, moc nezíská.",
             "Osvědčí se tento vzorec: dvě nebo tři levné či bezplatné noci a pak jedna noc se zázemím, která najednou vyřeší praní, vodu, odpad a nabíjení. Když ji spočítáte proti práci, kterou nahrazuje, svou cenu si obvykle zaslouží.",
@@ -1971,7 +2167,7 @@
           ]
         },
         {
-          "heading": "Jak udržet rozpočet při zemi",
+          "heading": "Jak udržet rozpočet realistický",
           "body": [
             "První tři nebo čtyři dny sledujte skutečné výdaje a porovnejte je s plánem. Odchylku způsobují skoro vždy jídlo, káva a placené aktivity, ne ubytování, a dají se nejsnáz napravit brzy.",
             "Mějte skutečnou rezervu na věci, které žádný plán nezahrnuje: pneumatiku, čelní sklo, mechanickou závadu, den špatného počasí, který vás zažene do chatky. Rozpočet bez rezervy promění každý malý problém v otázku, jestli pokračovat.",
@@ -2005,7 +2201,7 @@
         ],
         [
           "Jak udržet road trip po Austrálii levný?",
-          "Jezdit pomalu, což snižuje spotřebu paliva, které rozpočet ovládá, střídat bezplatná a levná místa spravovaná obcemi s občasným caravan parkem a vařit místo stravování v restauracích. Drahá je v Austrálii vzdálenost."
+          "Jezdit pomalu, protože palivo tvoří největší část rozpočtu, střídat bezplatná a levná místa spravovaná obcemi s občasným caravan parkem a vařit si místo jídla v restauracích. V Austrálii je drahá hlavně vzdálenost."
         ]
       ],
       "sources": [],
@@ -2331,7 +2527,7 @@
           "body": [
             "AussieCamps je naše vlastní aplikace, určená cestovatelům, kteří chtějí na jednom místě vybrat dnešní zastávku a naplánovat zbytek cesty. Záznamy o kempech, odpočívadlech a zařízeních pocházejí od správ státních parků, silničních úřadů a veřejných datových sad, například NSW National Parks and Wildlife Service, Parks Victoria, Main Roads WA a National Public Toilet Map. Aktuální verze obsahuje 1 838 kempů, 5 552 odpočívadel, 1 393 <a data-guide=\"dump-points-australia-guide\">výlevek</a>, 3 004 míst s pitnou vodou a 1 186 veřejných toalet.",
             "Seznam míst je uložený v telefonu, takže vybavení, poplatky, pravidla a poznámky k příjezdu zůstanou čitelné i ve chvíli, kdy zmizí poslední čárka signálu. Mapové podklady, navigace, počasí a fotky dál potřebují připojení a mapu si bez signálu nezobrazíte. <a data-guide=\"how-to-plan-trip-aussiecamps\">Plánovač cest</a> seřadí zastávky, u každého úseku ukáže vzdálenost a dobu jízdy, ke každé zastávce přidá datum příjezdu s předpovědí počasí a cestu umí synchronizovat s kalendářem.",
-            "Stažení aplikace je zdarma a zdarma jsou i hotely, motely, B&B, holiday parky (komerční kempy s chatkami a zázemím) a výlety, které lze rezervovat přes partnera BookEasy. Kempy, odpočívadla, výlevky, voda, parky, průvodce, <a data-guide=\"save-collections-aussiecamps\">sbírky</a> a cesty vyžadují AussieCamps Pass, tedy týdenní předplatné nebo jednorázový doživotní nákup; australský obchod App Store uvádí nákupy v aplikaci od 2,99 do 9,99 AUD.",
+            "Stažení aplikace je zdarma a zdarma jsou i hotely, motely, B&B, holiday parky (komerční kempy s chatkami a zázemím) a organizované zájezdy (tours), které lze rezervovat přes partnera BookEasy. Kempy, odpočívadla, výlevky, voda, parky, průvodce, <a data-guide=\"save-collections-aussiecamps\">sbírky</a> a plánovač cest vyžadují AussieCamps Pass, tedy týdenní předplatné nebo jednorázový doživotní nákup; australský obchod App Store uvádí nákupy v aplikaci od 2,99 do 9,99 AUD.",
             "Co se nám líbí: data s uvedeným oficiálním zdrojem, údaje, které fungují <a data-guide=\"camping-without-phone-signal\">bez signálu</a>, aniž byste si museli předem stahovat oblasti, a filtry pro vodu, toalety, sprchy, elektřinu, psy a přístupnost pro vozidla. Co zvážit: aplikace je pouze pro iPhone, eviduje méně míst než WikiCamps a nejsou v ní recenze cestovatelů, takže nenajdete komentář z minulého týdne o rozblácené příjezdové cestě."
           ],
           "tips": [
@@ -2600,7 +2796,7 @@
           "body": [
             "Kupovat to, co je zrovna místně v sezoně, patří k největším úsporám. Manga na severu přes léto, peckoviny v jižních státech a stánky u cest v pěstitelských oblastech jsou výrazně levnější než supermarkety.",
             "Řada stánků u cest funguje na principu pokladničky důvěry a bere jen hotovost, i když některé už přijímají karty. Mějte u sebe drobné bankovky, protože stánky se objevují bez varování a často mají nejlepší produkty, jaké najdete.",
-            "Lednici plánujte podle karanténních hranic a zón výskytu ovocné mušky (fruit fly). Když zásoby spotřebujete před vjezdem do států South Australia, Western Australia nebo <a data-guide=\"camping-rules-tasmania\">Tasmania</a>, do teritoria Northern Territory nebo do zón výskytu ovocné mušky, jako jsou Riverland a Sunraysia, nebudete kupovat jídlo dvakrát. Aktuální pravidla najdete na interstatequarantine.org.au."
+            "Lednici plánujte podle karanténních hranic a zón ochrany před vrtulí (fruit fly). Když zásoby spotřebujete před vjezdem do států South Australia, Western Australia nebo <a data-guide=\"camping-rules-tasmania\">Tasmania</a>, do teritoria Northern Territory nebo do zón ochrany před vrtulí, jako jsou Riverland a Sunraysia, nebudete kupovat jídlo dvakrát. Aktuální pravidla najdete na interstatequarantine.org.au."
           ],
           "tips": [
             "Na stánky u cest vezměte hotovost",
@@ -2879,12 +3075,12 @@
         {
           "heading": "Alkohol a den za volantem",
           "body": [
-            "Obecný limit pro držitele plného řidičského průkazu je 0,05, pro řidiče v učení (learner) a začínající řidiče se zkušebním průkazem (provisional) nula a pro řadu profesionálních řidičů nula nebo 0,02 podle státu (v NSW 0,02). Namátkové dechové zkoušky jsou běžné, a to i na venkovských silnicích a přes den.",
+            "Obecný limit pro držitele plného řidičského průkazu je 0,05 (tedy 0,5 promile), pro řidiče v učení (learner) a začínající řidiče se zkušebním průkazem (provisional) nula a pro řadu profesionálních řidičů nula nebo 0,02 (0,2 promile) podle státu (v NSW 0,02). Namátkové dechové zkoušky jsou běžné, a to i na venkovských silnicích a přes den.",
             "Na road tripu je jediný bezpečný přístup úplně oddělit pití od řízení: přespěte tam, kde pijete, nechte řídit někoho, kdo nepije, nebo pijte až ve chvíli, kdy auto stojí zaparkované na noc.",
             "Zrádná bývá jízda ráno po večírku. Tělo odbourává každý standardní nápoj nejméně hodinu, často déle, a ani káva, ani sprcha to nezrychlí, takže po vydatném večeru můžete být nad limitem ještě dlouho do dalšího rána."
           ],
           "tips": [
-            "Obecně 0,05, začátečníci a učící se nula",
+            "Obecně 0,05 (0,5 promile), řidiči v učení a začínající řidiči nula",
             "Namátkové kontroly jsou běžné i ve dne",
             "Zrádná je ranní jízda po pití"
           ]
@@ -2946,7 +3142,7 @@
             "unit": "750 ml v obchodě"
           },
           {
-            "label": "Tuzemské pivo, srovnatelná cena (celostátně)",
+            "label": "Australské pivo, přepočet na 500 ml (celostátně)",
             "unit": "500 ml v obchodě"
           },
           {
@@ -2958,10 +3154,10 @@
     },
     "accommodation-costs-australia-2026": {
       "title": "Ceny ubytování v Austrálii: hostely, hotely i pohodlnější pobyty",
-      "description": "Reálná cenová pásma od lůžka v ložnici hostelu po butikový hotel a také termíny a příplatky, které mění celkovou částku.",
+      "description": "Reálná cenová pásma od lůžka ve společném pokoji hostelu po butikový hotel a také termíny a příplatky, které mění celkovou částku.",
       "region": "Austrálie",
       "imageAlt": "Australské pobřežní ubytování při západu slunce",
-      "intro": "Pokoj bývá největší pevnou položkou australské cesty. Plánovací srovnávací hodnoty Tourism Australia ukazují obrovský žebříček od jednoduchého sdíleného ubytování po luxusní resorty.",
+      "intro": "Pokoj bývá největší pevnou položkou australské cesty. Orientační ceny, které Tourism Australia uvádí pro plánování, ukazují obrovské rozpětí od jednoduchého sdíleného ubytování po luxusní resorty.",
       "sections": [
         {
           "heading": "Porovnávejte celkovou cenu pobytu",
@@ -2994,38 +3190,38 @@
         {
           "heading": "K čemu který typ opravdu je",
           "body": [
-            "Lůžko v ložnici hostelu je nejlevnější postel a za cenu dostanete kuchyň a společnost. Chatka v <a data-guide=\"caravan-park-vs-holiday-park\">caravan parku</a> stojí víc než místo a méně než motel a vyřeší deštivou nebo horkou noc. Motel je standardní střední možnost v regionech.",
+            "Lůžko ve společném pokoji hostelu (dorm) je nejlevnější postel a v ceně máte kuchyň i společnost. Chatka v <a data-guide=\"caravan-park-vs-holiday-park\">caravan parku</a> stojí víc než místo a méně než motel a vyřeší deštivou nebo horkou noc. Motel je v regionech standardní střední možnost.",
             "Ubytování v hospodě (pub) na venkově je v Austrálii často nejlepší poměr ceny a hodnoty: jednoduchý pokoj nad barem a dole dobré jídlo od pultu, a to za cenu hluboko pod motelem.",
             "Pobyty na dobytkářských a běžných farmách jsou svérázná možnost v odlehlých oblastech a často jediné ubytování na stovky kilometrů. Většina bere hotovost a jen málo z nich má spolehlivou online rezervaci."
           ],
           "tips": [
             "Venkovské hospody bývají nejvýhodnější",
             "Chatky vyřeší horkou nebo deštivou noc",
-            "Pobyty na farmách vyplňují odlehlé mezery"
+            "Na odlehlých místech pomůže pobyt na farmě"
           ]
         },
         {
-          "heading": "Kdy je správné zaplatit za pokoj",
+          "heading": "Kdy se vyplatí zaplatit si pokoj",
           "body": [
             "Po několika nocích <a data-guide=\"is-free-camping-legal-australia\">kempování zdarma</a>, před velmi brzkým letem nebo trajektem, když je někdo nemocný, nebo když vedro dělá ze stanu skutečně nebezpečné místo. V každém z těchto případů pokoj udrží cestu v chodu a není luxus.",
-            "Pokoj také najednou vyresetuje všechno: praní, teplou vodu, nabíjení, klimatizaci i pořádný spánek. Když ho spočítáte proti práci, kterou nahrazuje, je často výhodnější, než naznačuje cena za noc.",
+            "Pokoj navíc vyřeší všechno najednou: praní, teplou vodu, nabíjení, klimatizaci i pořádný spánek. Když ho porovnáte s tím, co všechno nahradí, vyjde často výhodněji, než naznačuje cena za noc.",
             "Pár takových nocí si rozpočtěte předem, aby rozhodnutí bylo snadné a ne hádka. Cesty, které počítají s tím, že každá noc bude zdarma, nemají prostor pro den, který se nepovede."
           ],
           "tips": [
             "Vedro může udělat ze stanu nebezpečné místo",
-            "Pokoj vyresetuje celé auto",
+            "Pokoj vyřeší praní, nabíjení i spánek",
             "Pár nocí si rozpočtěte předem"
           ]
         },
         {
-          "heading": "Hlavní sezona a okna pro rezervaci",
+          "heading": "Hlavní sezona a kdy rezervovat",
           "body": [
             "Školní prázdniny, Velikonoce a Vánoce zaplní pobřežní ubytování po celé zemi, s minimální délkou pobytu a výrazně vyššími cenami. Severní období sucha dělá totéž s Broome, Exmouthem, Darwinem a Cairns.",
-            "Rezervujte přímo, ne přes platformu, kde to jde. Bývá to často levnější a máte s kým mluvit o pozdním příjezdu nebo o místě, které pojme vaše vozidlo.",
+            "Kde to jde, rezervujte přímo, a ne přes platformu. Bývá to levnější a máte s kým mluvit o pozdním příjezdu nebo o místě, kam se vaše vozidlo vejde.",
             "Delší pobyty získávají v mnoha <a data-guide=\"caravan-park-vs-holiday-park\">caravan parcích</a> týdenní sazby, někdy s výraznou slevou. Pokud se někde zdržíte čtyři noci nebo víc, zeptejte se a nerezervujte po nocích."
           ],
           "tips": [
-            "Severní období sucha je vyprodané",
+            "Na severu je v období sucha vyprodáno",
             "Rezervujte přímo, kde to jde",
             "Zeptejte se na týdenní sazby"
           ]
@@ -3047,11 +3243,11 @@
       "faq": [
         [
           "Kolik stojí ubytování v Austrálii za noc?",
-          "Rozpětí vede od lůžka v ložnici hostelu přes chatku v caravan parku a motel až po hotelový pokoj a průvodce uvádí u každého datované ceny. Pobřeží Queenslandu a Sydney v létě jsou výrazně nad celostátním obrazem."
+          "Rozpětí vede od lůžka ve společném pokoji hostelu přes chatku v caravan parku a motel až po hotelový pokoj a průvodce uvádí u každého datované ceny. Na pobřeží Queenslandu a v Sydney je ubytování v létě výrazně dražší než celostátní průměr."
         ],
         [
           "Jak se v Austrálii nejlevněji vyspat?",
-          "Kempováním, s velkým odstupem, a místo spravované obcí nebo v národním parku stojí zlomek lůžka v ložnici hostelu. Úspora platí jen tehdy, když vozidlo a palivo k dojezdu na taková místa už jsou součástí plánu."
+          "Jednoznačně kempováním: místo spravované obcí nebo v národním parku stojí zlomek ceny lůžka ve společném pokoji hostelu. Úspora ale platí jen tehdy, když vozidlo a palivo k dojezdu na taková místa už máte v plánu tak jako tak."
         ]
       ],
       "sources": [
@@ -3066,10 +3262,10 @@
         }
       ],
       "priceTable": {
-        "note": "Plánovací srovnávací hodnoty Tourism Australia. Jde o orientační výchozí ceny, ne živé nabídky pro každý termín.",
+        "note": "Orientační ceny pro plánování podle Tourism Australia. Jde o výchozí ceny, ne o aktuální nabídky pro každý termín.",
         "rows": [
           {
-            "label": "Lůžko v ložnici hostelu",
+            "label": "Lůžko ve společném pokoji hostelu",
             "unit": "na osobu a noc"
           },
           {
@@ -3262,7 +3458,7 @@
           "tips": []
         },
         {
-          "heading": "Vzdálenost mění hodnotu",
+          "heading": "Na vzdálenosti záleží, co se vyplatí",
           "body": [
             "Létání může ušetřit dny na cestě přes kontinent, zatímco krátký úsek na východním pobřeží může soutěžit s vlakem, dálkovým autobusem nebo plánem s jednosměrným vozidlem. I čas má rozpočtovou hodnotu.",
             "Poplatky za jednosměrné vrácení vozidla a omezení půjčovny na některých silnicích mohou vážit víc než letenka."
@@ -3282,7 +3478,7 @@
           "tips": []
         },
         {
-          "heading": "Kdy létání poráží řízení",
+          "heading": "Kdy se vyplatí letět místo jízdy autem",
           "body": [
             "Velikost Austrálie dělá z létání skutečně užitečnou možnost na dlouhých úsecích: z Perthu na východní pobřeží, z východního pobřeží do Darwinu nebo do státu <a data-guide=\"camping-rules-tasmania\">Tasmania</a>. Ušetřený čas se tu počítá ve dnech, ne v hodinách.",
             "Na kratší úseky, které se dají dobře ujet autem, se létání vyplatí málokdy, stejně jako když musíte platit za vozidlo, které na druhém konci stojí nevyužité. Spočítejte cenu celého řešení, ne jen letenky.",
@@ -3308,7 +3504,7 @@
           ]
         },
         {
-          "heading": "Okna pro rezervaci a výpadky",
+          "heading": "Kdy rezervovat a co při zrušení letu",
           "body": [
             "Vnitrostátní letenky bývají nejlevnější, když se rezervují několik týdnů předem, a s blížícím se odletem mívají tendenci růst. Školní prázdniny a období kolem Vánoc znamenají vyšší ceny i plná letadla.",
             "Počasí v <a data-guide=\"best-time-camping-australia\">období dešťů</a> na severu i mlha na jihu způsobují rušení letů a u regionálních tras s jedním spojem denně ten den nezbývá žádná možnost nápravy.",
@@ -3498,7 +3694,7 @@
         }
       ],
       "priceTable": {
-        "note": "Datované orientační ceny dopravců. Údaj Queensland Rail pochází z veřejně dohledatelného ceníku 2025–26; před rezervací si vyžádejte aktuální jízdné na období 2026–27.",
+        "note": "Datované orientační ceny dopravců. Údaj Queensland Rail pochází z indexovaného ceníku na období 2025–26; před rezervací si vyžádejte aktuální jízdné na období 2026–27.",
         "rows": [
           {
             "label": "Autobus Sydney–Melbourne",

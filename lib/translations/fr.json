@@ -3484,12 +3484,12 @@
         {
           "heading": "Feux de brousse et indices de danger",
           "body": [
-            "Les indices de danger d’incendie sont publiés chaque jour par district et vont de Moderate à Catastrophic. Les jours classés Catastrophic, la consigne officielle est de partir tôt, et les campings en forêt comptent parmi les pires endroits où se trouver.",
+            "Les indices de danger d’incendie sont publiés chaque jour par district et vont de Moderate à Catastrophic. Les jours classés Catastrophic, la consigne officielle est de quitter les lieux tôt, et les campings en forêt comptent parmi les pires endroits où se trouver.",
             "Partir tôt signifie avant qu’un feu ne se déclare, pas une fois qu’il est visible. Les routes ferment vite, le feu avance plus vite qu’on ne l’imagine, et s’abriter dans un véhicule en pleine brousse est un dernier recours, pas un plan.",
             "Téléchargez l’application de l’agence de lutte contre les incendies de l’État et consultez-la chaque jour en été. Le réseau est irrégulier dans de nombreuses zones de camping : vérifiez quand vous avez du réseau plutôt que de compter le faire plus tard."
           ],
           "tips": [
-            "Partir tôt, c’est avant tout départ de feu",
+            "Quitter les lieux tôt, c’est partir avant tout départ de feu",
             "Les campings en forêt, de piètres abris",
             "Consultez les applis quand vous avez du réseau"
           ]
@@ -3542,7 +3542,7 @@
         ],
         [
           "Que faire si un feu de brousse se déclare près de votre camping ?",
-          "Partir tôt, avant qu’il ne soit proche. Attendre de voir coûte des vies chaque été ici, et un emplacement de camping ne se défend pas. Repérez votre route de sortie, et considérez un jour de Total Fire Ban (interdiction totale de feu) près de la brousse comme un jour à passer ailleurs."
+          "Quitter les lieux tôt, avant que le feu ne soit proche. Attendre de voir coûte des vies chaque été ici, et un emplacement de camping ne se défend pas. Repérez votre route de sortie, et considérez un jour de Total Fire Ban (interdiction totale de feu) près de la brousse comme un jour à passer ailleurs."
         ]
       ],
       "sources": [
@@ -10175,7 +10175,7 @@
       "priceTable": null
     },
     "flinders-ranges-camping-guide": {
-      "title": "Camping dans les Flinders Ranges, en Australie : le guide",
+      "title": "Flinders Ranges : le guide du camping",
       "description": "Chaînes anciennes et plissées, lits de rivières à sec et soirées aux couleurs de feu de camp autour d’Ikara.",
       "region": "Australie-Méridionale",
       "imageAlt": "Ikara-Flinders Ranges au coucher du soleil",
@@ -10281,7 +10281,7 @@
       "priceTable": null
     },
     "red-centre-way-camping": {
-      "title": "Camping sur la Red Centre Way, en Australie : l’itinéraire",
+      "title": "Red Centre Way : l’itinéraire en camping dans le Centre rouge",
       "description": "Points d’eau du désert, parois rouges et longs couchers de soleil entre Alice Springs et Uluṟu.",
       "region": "Outback du Territoire du Nord",
       "imageAlt": "Gorge et route du désert dans le Centre rouge",
@@ -11948,14 +11948,14 @@
         {
           "heading": "Cradle Mountain et le permis de visite",
           "body": [
-            "Un permis de visite des parcs de <a data-guide=\"camping-rules-tasmania\">Tasmanie</a> est obligatoire pour entrer en véhicule dans les parcs nationaux. Si vous en visitez plus de deux, un permis vacances valable huit semaines dans tous les parcs revient bien moins cher que des entrées à la journée.",
+            "Un Parks Pass de <a data-guide=\"camping-rules-tasmania\">Tasmanie</a> est obligatoire pour entrer en véhicule dans les parcs nationaux. Si vous en visitez plus de deux, le Holiday Pass, valable huit semaines dans tous les parcs, revient bien moins cher que des entrées à la journée.",
             "À Cradle Mountain, une navette obligatoire part de l’office de tourisme en journée, et l’accès en véhicule privé est restreint. Calez-vous sur l’horaire des navettes et réservez le permis à l’avance en haute saison.",
-            "Le tour du Dove Lake est le temps fort accessible, en deux heures environ. L’ascension du sommet est une journée sérieuse de six à huit heures, avec des passages exposés où il faut s’aider des mains et une météo qui change vite : ce n’est pas une promenade tranquille."
+            "Le tour du Dove Lake est le temps fort accessible, en deux heures environ. L’ascension du sommet, elle, demande une vraie journée de montagne, de six à huit heures, avec des passages exposés où il faut s’aider des mains et une météo qui change vite : ce n’est pas une promenade tranquille."
           ],
           "tips": [
-            "Achetez le permis vacances des parcs",
+            "Prenez le Holiday Pass des parcs",
             "Navette obligatoire à Cradle Mountain",
-            "L’ascension du sommet est une journée sérieuse"
+            "Le sommet : une vraie journée de montagne"
           ]
         },
         {
@@ -11991,7 +11991,7 @@
       "priceTable": null
     },
     "sydney-south-coast-camping": {
-      "title": "Camping en Australie : de Sydney à la Sapphire Coast",
+      "title": "De Sydney à la Sapphire Coast : guide du camping",
       "description": "Criques calmes, eucalyptus tachetés (spotted gums) et petites villes côtières : la côte sud de la Nouvelle-Galles du Sud en camping, de Sydney à Eden.",
       "region": "Côte sud de la Nouvelle-Galles du Sud",
       "imageAlt": "Plage et forêt de la côte sud de la Nouvelle-Galles du Sud",
@@ -12068,12 +12068,12 @@
           "heading": "Risque d’incendie sur cette côte",
           "body": [
             "La côte sud a été durement touchée par les incendies de 2019-2020 et reste à haut risque en été. Les niveaux de danger d’incendie sont affichés aux entrées des parcs et sur les panneaux au bord des routes, et les <a data-guide=\"campfires-camping-australia\">interdictions totales de feu</a> (Total Fire Ban) sont fréquentes en été.",
-            "Prévoyez quoi faire lors d’une journée de danger catastrophique : cela veut généralement dire partir tôt plutôt que de s’abriter. Les campings situés en zone forestière comptent parmi les pires endroits où se trouver, et les routes ferment vite dès qu’un incendie est en cours.",
+            "Prévoyez quoi faire lors d’une journée de danger catastrophique : cela veut généralement dire quitter les lieux tôt plutôt que de s’abriter. Les campings situés en zone forestière comptent parmi les pires endroits où se trouver, et les routes ferment vite dès qu’un incendie est en cours.",
             "Téléchargez l’app Fires Near Me ou une app équivalente et consultez-la chaque jour en été. Le réseau est irrégulier sur certaines portions de cette côte : vérifiez tant que vous avez du signal plutôt que de compter sur une recherche plus tard."
           ],
           "tips": [
             "Vérifiez chaque jour le niveau de danger d’incendie",
-            "Partez tôt les jours de danger catastrophique",
+            "Quittez les lieux tôt les jours de danger catastrophique",
             "Réseau irrégulier : vérifiez à l’avance"
           ]
         },
@@ -12097,7 +12097,7 @@
       "priceTable": null
     },
     "queensland-outback-way": {
-      "title": "Camping dans l’Outback du Queensland, en Australie : l’itinéraire",
+      "title": "Outback du Queensland : l’itinéraire en camping",
       "description": "Randonnées dans des gorges de grès, villes des routes de bétail et paysages très anciens dans l’ouest du Queensland, de Carnarvon Gorge à Boodjamulla.",
       "region": "Outback du Queensland",
       "imageAlt": "Gorges de l’Outback du Queensland",
@@ -12373,7 +12373,7 @@
           "heading": "Météo alpine et risque d’incendie",
           "body": [
             "La neige tombe sur les hauts plateaux environ de juin à septembre, et peut aussi tomber en dehors de cette période. Même en été, les nuits en montagne sont froides et le temps change vite : emportez des vêtements chauds, quelles que soient les prévisions à Bright.",
-            "L’été fait peser un sérieux risque de feux de brousse sur cette région, et le High Country a brûlé à plusieurs reprises. Consultez chaque jour le niveau de danger d’incendie, sachez qu’un camping en forêt est un mauvais abri, et partez tôt les jours à risque.",
+            "L’été fait peser un sérieux risque de feux de brousse sur cette région, et le High Country a brûlé à plusieurs reprises. Consultez chaque jour le niveau de danger d’incendie, sachez qu’un camping en forêt est un mauvais abri, et quittez les lieux tôt les jours à risque.",
             "Les <a data-guide=\"campfires-camping-australia\">interdictions totales de feu</a> (Total Fire Ban) sont fréquentes tout l’été et interdisent toute flamme nue, y compris les barbecues à combustible solide. Emportez un réchaud à gaz, en général encore autorisé, et vérifiez les conditions précises de l’interdiction."
           ],
           "tips": [
@@ -12415,8 +12415,8 @@
       "priceTable": null
     },
     "kangaroo-island-camping-guide": {
-      "title": "Camping sur Kangaroo Island, en Australie : le guide",
-      "description": "Plages sauvages, routes où l’on prend son temps et soirées au milieu des animaux, passé le ferry de Penneshaw : camper sur Kangaroo Island, en Australie.",
+      "title": "Camping sur Kangaroo Island : le guide",
+      "description": "Plages sauvages, routes où l’on prend son temps et soirées au milieu des animaux, une fois passé le ferry de Penneshaw : le guide du camping sur Kangaroo Island.",
       "region": "Côte de l’Australie-Méridionale",
       "imageAlt": "Côte rocheuse sur Kangaroo Island",
       "intro": "Kangaroo Island est plus grande, et plus longue à parcourir, que ne le prévoient bien des premiers séjours. Avec quatre ou cinq nuits, vous aurez le temps de profiter de l’extrémité ouest, de la côte sud et des plages plus tranquilles du nord.",
@@ -12598,7 +12598,7 @@
           "heading": "Météo et feux de brousse",
           "body": [
             "Il fait régulièrement environ 8 °C de moins dans les montagnes qu’à Sydney, et le froid peut y être vif, avec parfois de la neige en hiver. Des visiteurs arrivent régulièrement trop peu couverts après une matinée chaude sur la côte.",
-            "Le risque de feux de brousse est très élevé en été et la région a brûlé à plusieurs reprises, de façon catastrophique en 2019-2020. Consultez chaque jour le niveau de danger d’incendie et prévoyez de partir tôt plutôt que de vous mettre à l’abri sur place.",
+            "Le risque de feux de brousse est très élevé en été et la région a brûlé à plusieurs reprises, de façon catastrophique en 2019-2020. Consultez chaque jour le niveau de danger d’incendie et prévoyez de quitter les lieux tôt plutôt que de vous mettre à l’abri sur place.",
             "L’hiver est sans doute la meilleure saison ici : air limpide, vues dégagées, températures agréables pour marcher et le Yulefest, quand les villes de montagne servent des dîners de Noël en plein hiver."
           ],
           "tips": [

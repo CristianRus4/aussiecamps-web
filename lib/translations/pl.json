@@ -111,7 +111,7 @@
     "faq1q": "Czym jest AussieCamps?",
     "faq1a": "AussieCamps to aplikacja na iPhone’a do wyszukiwania kempingów i noclegów w całej Australii. Ma wbudowany katalog ponad 74 000 miejsc, więc szczegóły przeczytasz bez zasięgu, a zapisane miejsca zamienisz w road trip z uporządkowaną trasą, datami, notatkami i zadaniami.",
     "faq2q": "Jakie miejsca są w aplikacji?",
-    "faq2a": "Ponad 74 000 miejsc: kempingi, caravan parki, noclegi pod dachem, noclegi na farmach (farm stay i station stay), hostele dla backpackerów, przydrożne miejsca odpoczynku, miejsca piknikowe, punkty zrzutu nieczystości, punkty z wodą pitną, pralnie samoobsługowe, punkty informacji turystycznej, parkingi dla długich pojazdów, atrakcje i inne przydatne przystanki.",
+    "faq2a": "Ponad 74 000 miejsc: kempingi, caravan parki, noclegi pod dachem, noclegi na farmach (farm stay i station stay), hostele dla backpackerów, przydrożne miejsca odpoczynku, miejsca piknikowe, punkty zrzutu nieczystości, punkty z wodą pitną, pralnie samoobsługowe, punkty informacji turystycznej, parkingi dla długich pojazdów, atrakcje i inne przydatne przystanki.",
     "faq3q": "Czy aplikacja działa bez zasięgu?",
     "faq3a": "Katalog miejsc jest wbudowany w aplikację, więc nazwy, kategorie, opisy, opłaty, udogodnienia, godziny otwarcia i warunki pobytu są dostępne także daleko poza zasięgiem sieci. Usługi na żywo, takie jak pogoda, wyznaczanie trasy, Street View, zdjęcia i strony usługodawców, nadal wymagają połączenia.",
     "faq4q": "Czy mogę zaplanować road trip z wieloma przystankami?",
@@ -135,12 +135,12 @@
     "downloadText": "Ponad 74 000 miejsc w Australii dostępnych bez zasięgu, filtry, które wskażą dokładnie to jedno, kolekcje, które porządkują się same, i planer, który mieści całą trasę. AussieCamps na iOS.",
     "guidesEyebrow": "Poradniki o kempingu w Australii",
     "guidesTitle": "Jedź tam, gdzie warto.",
-    "guidesIntro": "Szczegółowe poradniki o kempingach, przepisach, lokalnych kosztach i praktycznym planowaniu podróży po Australii.",
+    "guidesIntro": "szczegółowych poradników o kempingach, przepisach, lokalnych kosztach i praktycznym planowaniu podróży po Australii.",
     "guideSingular": "poradnik",
-    "guidePlural": "poradników",
+    "guidePlural": "few:poradniki|many:poradników|other:poradnika",
     "readGuide": "Czytaj poradnik",
     "minuteRead": "min czytania",
-    "places": "miejsca",
+    "places": "one:miejsce|few:miejsca|many:miejsc|other:miejsca",
     "backToGuides": "Poradniki",
     "photoCredits": "Autorzy zdjęć",
     "keepInMind": "Pamiętaj",
@@ -163,13 +163,13 @@
     "currencyTitle": "Przelicz australijską cenę.",
     "currencyText": "Orientacyjne przeliczenie do planowania podróży według kursów Reserve Bank of Australia. Twój bank lub karta mogą stosować inny kurs i doliczać opłaty.",
     "fuelEyebrow": "Kalkulator paliwa",
-    "fuelTitle": "Ile kosztuje ta trasa.",
+    "fuelTitle": "Ile kosztuje ta trasa?",
     "fuelText": "Wpisz długość całej trasy, spalanie załadowanego auta i spodziewaną cenę za litr. Na odludziu ceny bywają wyższe niż w miastach.",
     "driveEyebrow": "Kalkulator dnia jazdy",
-    "driveTitle": "Ile naprawdę potrwa ten dzień.",
+    "driveTitle": "Ile naprawdę potrwa ten dzień?",
     "driveText": "Aplikacje nawigacyjne podają czas jazdy po idealnej drodze. Tu doliczasz charakter drogi i swoje prawdziwe postoje, bo to przez nie dzień zwykle się wydłuża.",
     "tankEyebrow": "Planer czystej i szarej wody",
-    "tankTitle": "Na ile dni wystarczą zbiorniki.",
+    "tankTitle": "Na ile dni wystarczą zbiorniki?",
     "tankText": "Pojemność w litrach przydaje się dopiero, gdy przeliczysz ją na dni. Zbiornik szarej wody zwykle zapełnia się, zanim skończy się czysta woda, dlatego widać oba wyniki.",
     "campEyebrow": "Porównanie kempingów",
     "campTitle": "Za osobę czy za miejsce?",
@@ -221,6 +221,210 @@
     "tripPlanning": "Planowanie podróży",
     "costsBudget": "Koszty i budżet",
     "appGuides": "Poradniki o aplikacji"
+  },
+  "consent": {
+    "label": "Ustawienia prywatności",
+    "message": "Czy możemy używać plików cookie Google Analytics, żeby sprawdzać, które strony są czytane i które linki do App Store są klikane? Nie wykorzystujemy niczego do reklam.",
+    "accept": "Akceptuj",
+    "decline": "Odrzuć",
+    "learnMore": "Polityka prywatności",
+    "privacyChoices": "Ustawienia prywatności"
+  },
+  "tools": {
+    "common": {
+      "home": "Strona główna",
+      "tools": "Narzędzia",
+      "calculator": "Kalkulator",
+      "howItWorks": "Jak liczy kalkulator",
+      "workedExample": "Przykład obliczeń",
+      "assumptions": "Założenia",
+      "commonQuestions": "Częste pytania",
+      "readNext": "Poradniki o kosztach i planowaniu",
+      "sources": "Źródła",
+      "ctaEyebrow": "W aplikacji",
+      "passNote": "AussieCamps pobierzesz za darmo. Noclegi i wycieczki z rezerwacją przeglądasz bez opłat; kempingi, miejsca odpoczynku, punkty zrzutu nieczystości, punkty poboru wody, toalety i planer podróży wymagają karnetu.",
+      "iphoneOnly": "AussieCamps to aplikacja na iPhone’a.",
+      "openTool": "Wzór, przykład obliczeń i pytania",
+      "allTools": "Wszystkie narzędzia na road trip"
+    },
+    "tools": {
+      "fuel-cost-calculator": {
+        "metaTitle": "Kalkulator kosztów paliwa na road trip po Australii",
+        "metaDescription": "Policz benzynę lub olej napędowy na road trip po Australii na podstawie dystansu, spalania w l/100 km i ceny za litr. Pokazuje litry, koszt całkowity i koszt kilometra, ze wzorem i przykładem obliczeń.",
+        "title": "Kalkulator kosztów paliwa na road trip po Australii",
+        "intro": "Wpisz dystans, spalanie załadowanego auta i cenę za litr. Dowiesz się, ile litrów spalisz na trasie, ile zapłacisz za paliwo i ile kosztuje kilometr, więc zaplanujesz budżet całej trasy jeszcze przed pierwszym tankowaniem.",
+        "formula": [
+          "Litry = dystans (km) × spalanie (l/100 km) ÷ 100",
+          "Koszt paliwa = litry × cena za litr (AUD/l)",
+          "Koszt kilometra = koszt paliwa ÷ dystans"
+        ],
+        "formulaNote": "Kalkulator zaokrągla litry do jednego miejsca po przecinku, a kwoty do centa. Nic więcej nie dolicza: opłaty drogowe, olej i zużycie opon to w budżecie osobne pozycje.",
+        "example": [
+          "Trasa 1 000 km autem, które spala 12 l/100 km, przy cenie 2,08 AUD za litr. To średnia cena benzyny w pięciu największych miastach według danych Fuel Plan z 5 sierpnia 2026.",
+          "1 000 × 12 ÷ 100 = 120 litrów. 120 × 2,08 AUD = 249,60 AUD. 249,60 AUD ÷ 1 000 km = około 0,25 AUD za kilometr.",
+          "Ta sama trasa autem z silnikiem Diesla, przy średniej cenie oleju napędowego z tego dnia, 2,47 AUD za litr, kosztuje 120 × 2,47 AUD = 296,40 AUD."
+        ],
+        "assumptions": [
+          "Spalanie to wartość dla załadowanego auta. Kamper, bagaż na dachu albo przyczepa z tyłu spalają więcej niż liczba z katalogu, więc jeśli możesz, zmierz własne.",
+          "Średnie z miast to tylko punkt wyjścia. Odległe roadhouse’y (przydrożne stacje z barem) zwykle liczą więcej, więc na odcinkach w outbacku podnieś cenę.",
+          "Dystans to cała trasa, razem z objazdami do kempingów, punktów widokowych i miasteczek poza główną drogą."
+        ],
+        "faq": [
+          [
+            "Jak sprawdzić rzeczywiste spalanie mojego auta?",
+            "Zatankuj do pełna, wyzeruj licznik dzienny i jedź jak zwykle. Przy następnym tankowaniu podziel liczbę dolanych litrów przez przejechane kilometry i pomnóż przez 100. To twoje spalanie w l/100 km dla załadowanego auta, czyli liczba, której potrzebuje ten kalkulator."
+          ],
+          [
+            "Jak policzyć koszt paliwa na kilometr?",
+            "Podziel spalanie w l/100 km przez 100 i pomnóż przez cenę za litr. Przy 12 l/100 km i 2,08 AUD za litr to 0,12 × 2,08, czyli około 0,25 AUD za kilometr."
+          ],
+          [
+            "Jaką cenę paliwa przyjąć?",
+            "Przyjmij paliwo, na którym jeździ twoje auto, i najświeższą cenę, jaką znajdziesz dla danego regionu. Średnie Fuel Plan z pięciu miast z 5 sierpnia 2026 wynosiły 2,08 AUD za litr benzyny i 2,47 AUD za litr oleju napędowego; na odludziu licz się z wyższymi cenami."
+          ]
+        ],
+        "ctaTitle": "Zaplanuj postoje między tankowaniami.",
+        "ctaText": "AussieCamps pokazuje na mapie {restAreas} miejsc odpoczynku (rest area) i {dumpPoints} punktów zrzutu nieczystości (dump point) w całej Australii i zamienia zapisane miejsca w trasę z wieloma przystankami i odległościami."
+      },
+      "drive-time-calculator": {
+        "metaTitle": "Kalkulator czasu jazdy po Australii: realny dzień w trasie",
+        "metaDescription": "Oszacuj, ile naprawdę trwa dzień jazdy po Australii, na podstawie dystansu, rodzaju drogi i postojów. Pokazuje przyjęte średnie prędkości, wzór i przykład obliczeń.",
+        "title": "Kalkulator czasu jazdy na road trip po Australii",
+        "intro": "Aplikacje z mapami podają czas samej jazdy po pustej drodze. Ten kalkulator planuje dzień, który naprawdę przejedziesz: średnią prędkość dla danego rodzaju drogi plus czas postojów na tankowanie, jedzenie i przerwy.",
+        "formula": [
+          "Minuty jazdy = dystans (km) ÷ średnia prędkość (km/h) × 60",
+          "Łącznie minut = minuty jazdy + postoje × 20",
+          "Średnie prędkości: 85 km/h autostrada lub otwarta, prosta droga, 70 km/h główna droga (highway), 60 km/h kręta lub nadmorska droga, 45 km/h wąska, stroma lub szutrowa droga"
+        ],
+        "formulaNote": "Te prędkości to średnie do planowania, które uwzględniają miejscowości, roboty drogowe, wolne pojazdy i pasy do wyprzedzania. To nie są ograniczenia prędkości.",
+        "example": [
+          "Dzień jazdy na 250 km krętą nadmorską drogą z trzema postojami.",
+          "250 ÷ 60 × 60 = 250 minut jazdy. Trzy postoje dodają 3 × 20 = 60 minut.",
+          "Dzień zajmuje 310 minut, czyli 5 h 10 min. Główną drogą przy 70 km/h ten sam dystans z tymi samymi postojami zajmuje 4 h 34 min."
+        ],
+        "assumptions": [
+          "Każdy postój liczy się jako 20 minut: tankowanie, posiłek, przerwa na toaletę albo zmiana kierowcy.",
+          "Kalkulator nie zakłada jazdy nocą. Dzikie zwierzęta są najbardziej aktywne o świcie i o zmierzchu, więc staraj się dojechać przed zmrokiem.",
+          "Stan dróg nieutwardzonych zmienia się z pogodą i porą roku. Przed odcinkiem szutrowym sprawdź warunki u stanowego zarządcy dróg."
+        ],
+        "faq": [
+          [
+            "Dlaczego wynik jest dłuższy niż w mojej aplikacji z mapami?",
+            "Aplikacje nawigacyjne szacują czas samej jazdy przy prędkościach bliskich ograniczeniom. Ten kalkulator dodaje charakter drogi i czas postojów, a to przez nie długi dzień zwykle się przeciąga."
+          ],
+          [
+            "Jaki rodzaj drogi wybrać dla kampera?",
+            "Dla większości utwardzonych dróg krajowych wybierz główną drogę, dla tras górzystych i nadmorskich krętą lub nadmorską, a dla dróg nieutwardzonych i przełęczy górskich wąską, stromą lub szutrową. Ciężki kamper albo przyczepa na podjeździe jadą jeszcze wolniej."
+          ],
+          [
+            "Czy wynik obejmuje postoje na tankowanie i posiłki?",
+            "Tylko te postoje, które wpiszesz. Dodaj po jednym na każde tankowanie, posiłek lub przerwę, które przewidujesz; każdy dodaje do dnia 20 minut."
+          ]
+        ],
+        "ctaTitle": "Wiedz, gdzie skończy się dzień, zanim go zaczniesz.",
+        "ctaText": "AussieCamps pokazuje na mapie {campgrounds} kempingów i {restAreas} miejsc odpoczynku i układa trasę z wieloma przystankami, z odległością do przejechania między nimi."
+      },
+      "campsite-cost-calculator": {
+        "metaTitle": "Kalkulator kosztów kempingu: za osobę czy za miejsce",
+        "metaDescription": "Porównaj opłatę za kemping liczoną od dorosłego z opłatą za miejsce dla twojej grupy i liczby nocy. Pokazuje, przy ilu osobach koszty się zrównują, wzór i przykład obliczeń w AUD.",
+        "title": "Kalkulator kosztów kempingu: za osobę czy za miejsce?",
+        "intro": "Niektóre kempingi liczą opłatę od dorosłego za noc, inne wyceniają całe miejsce. To, co wyjdzie taniej, zależy od liczby dorosłych w grupie, dlatego kalkulator wycenia oba warianty dla tego samego pobytu.",
+        "formula": [
+          "Suma za dorosłych = dorośli × noce × opłata za dorosłego",
+          "Suma za miejsce = noce × opłata za miejsce",
+          "Próg opłacalności (liczba dorosłych) = opłata za miejsce ÷ opłata za dorosłego"
+        ],
+        "formulaNote": "Powyżej progu opłacalności taniej wychodzi cena za miejsce, poniżej niego cena za dorosłego.",
+        "example": [
+          "Dwoje dorosłych na pięć nocy, porównanie 20 AUD za dorosłego za noc z 50 AUD za miejsce za noc.",
+          "Za dorosłych: 2 × 5 × 20 AUD = 200 AUD. Za miejsce: 5 × 50 AUD = 250 AUD. Wariant za dorosłych jest tańszy o 50 AUD.",
+          "Próg opłacalności to 50 AUD ÷ 20 AUD = 2,5 dorosłego, więc przy trojgu dorosłych suma za dorosłych rośnie do 300 AUD i wygrywa cena za miejsce."
+        ],
+        "assumptions": [
+          "Dzieci i osoby z ulgami często płacą inną stawkę. Wpisz tylko dorosłych albo przyjmij średnią opłatę.",
+          "Opłaty rezerwacyjne i opłaty za wstęp do parku są osobno. Przy porównaniu dolicz je do ceny za miejsce, żeby porównywać to samo z tym samym.",
+          "Kalkulator liczy tylko na podstawie wpisanych liczb; aktualną opłatę sprawdź na oficjalnej stronie rezerwacji."
+        ],
+        "faq": [
+          [
+            "Kiedy opłata za miejsce jest tańsza?",
+            "Gdy liczba dorosłych jest większa niż opłata za miejsce podzielona przez opłatę za dorosłego. Przy 50 AUD za miejsce i 20 AUD za dorosłego to 2,5, więc grupa trzech lub więcej osób zapłaci mniej przy cenie za miejsce."
+          ],
+          [
+            "Czy kempingi w parkach narodowych liczą opłatę od osoby?",
+            "Wiele kempingów w parkach stanowych liczy opłatę od dorosłego za noc, a holiday parki zwykle wyceniają miejsce. Sposób naliczania ustala każdy zarządca terenu, więc przed porównaniem sprawdź go na oficjalnej stronie."
+          ]
+        ],
+        "ctaTitle": "Porównaj kempingi na mapie.",
+        "ctaText": "AussieCamps pokazuje na mapie {campgrounds} kempingów z opłatami i udogodnieniami tam, gdzie podaje je zarządca terenu, i przy każdym linkuje do jego oficjalnej strony."
+      },
+      "currency-converter": {
+        "metaTitle": "Przelicznik AUD dla podróżnych (kursy RBA)",
+        "metaDescription": "Przeliczaj ceny w dolarach australijskich na NZD, USD, GBP, EUR, CNY, INR, SGD, JPY i KRW i z powrotem według datowanych kursów referencyjnych Reserve Bank of Australia.",
+        "title": "Przelicznik dolara australijskiego do planowania podróży",
+        "intro": "Przelicz australijską cenę na walutę, w której myślisz, albo odwrotnie. Kursy to kursy referencyjne Reserve Bank of Australia z podaną datą, więc dokładnie wiesz, z czego wynika liczba.",
+        "formula": [
+          "Kwota po przeliczeniu = kwota ÷ kurs waluty, z której przeliczasz × kurs waluty, na którą przeliczasz",
+          "Każdy kurs to liczba jednostek danej waluty za 1 AUD"
+        ],
+        "formulaNote": "Przeliczanie przez dolara australijskiego utrzymuje spójność wszystkich par: przeliczenie NZD na USD korzysta z tych samych dwóch kursów co przeliczenia z AUD.",
+        "example": [
+          "100 AUD przy kursie 1,2033 NZD za dolara australijskiego.",
+          "100 ÷ 1 × 1,2033 = 120,33 NZD.",
+          "W drugą stronę: 100 NZD ÷ 1,2033 × 1 = 83,10 AUD."
+        ],
+        "assumptions": [
+          "Kursy referencyjne to średnie kursy rynkowe do planowania. Banki, organizacje kartowe i kantory doliczają własną marżę lub opłaty.",
+          "Kursy zmieniają się w każdy dzień roboczy. Wynik służy do oceny ceny, a nie jako oferta."
+        ],
+        "faq": [
+          [
+            "Z jakich kursów korzysta przelicznik?",
+            "Z kursów referencyjnych Reserve Bank of Australia, podanych z datą, której dotyczą, i wyrażonych jako liczba jednostek każdej waluty za jednego dolara australijskiego."
+          ],
+          [
+            "Dlaczego mój bank pobiera inną kwotę?",
+            "Banki i organizacje kartowe stosują własny kurs i często doliczają marżę lub opłatę za transakcję zagraniczną, więc pobrana kwota różni się od przeliczenia referencyjnego."
+          ]
+        ],
+        "ctaTitle": "Zobacz opłaty we własnej walucie.",
+        "ctaText": "AussieCamps pokazuje opłaty podane przez źródło obok kwoty w dolarach australijskich także w wybranej przez ciebie walucie, według kursu, który ustawiasz raz."
+      },
+      "water-tank-calculator": {
+        "metaTitle": "Kalkulator zbiorników wody w kamperze: dni bez przyłączy",
+        "metaDescription": "Zamień pojemność zbiorników na czystą i szarą wodę na liczbę dni bez przyłączy dla twojej grupy. Pokazuje zużycie w litrach na osobę, wzór i przykład obliczeń dla podróży kamperem po Australii.",
+        "title": "Kalkulator zbiorników wody w kamperze: ile dni bez przyłączy?",
+        "intro": "Pojemność zbiorników w litrach przydaje się dopiero wtedy, gdy przeliczysz ją na dni. Wpisz pojemność zbiorników na czystą i szarą wodę oraz liczbę osób, a kalkulator pokaże, na jak długo wystarczy każdy zbiornik i który z nich wyznacza twój limit.",
+        "formula": [
+          "Dni z czystą wodą = zbiornik czystej wody (l) ÷ (osoby × 11 l)",
+          "Dni z szarą wodą = zbiornik szarej wody (l) ÷ (osoby × 9 l)",
+          "Dni bez przyłączy = mniejsza z tych dwóch wartości"
+        ],
+        "formulaNote": "11 litrów czystej wody i 9 litrów szarej wody na osobę dziennie wystarcza na picie, gotowanie i zmywanie przy oszczędnym zużyciu. Prysznic w kamperze zużywa dużo więcej.",
+        "example": [
+          "Kamper ze zbiornikiem czystej wody 100 l i zbiornikiem szarej wody 90 l, podróżują dwie osoby.",
+          "Czysta woda: 100 ÷ (2 × 11) = 4,5 dnia. Szara woda: 90 ÷ (2 × 9) = 5,0 dnia.",
+          "Czysta woda skończy się pierwsza, po mniej więcej czterech i pół dnia, więc zaplanuj uzupełnienie przed piątym dniem."
+        ],
+        "assumptions": [
+          "Wartości na osobę to średnie. Upał, gotowanie z użyciem wody i prysznice je podnoszą.",
+          "Kasety toaletowe to osobny zbiornik i nie są tu uwzględnione.",
+          "Szarą wodę wylewaj tylko tam, gdzie wolno, na przykład w punkcie zrzutu nieczystości (dump point) albo w wyznaczonym miejscu."
+        ],
+        "faq": [
+          [
+            "Ile wody zużywa jedna osoba dziennie w kamperze?",
+            "Kalkulator zakłada około 11 litrów czystej wody na osobę dziennie na picie, gotowanie i zmywanie oraz około 9 litrów szarej wody. Codzienny prysznic w kamperze zużywa dużo więcej, więc zaplanuj go osobno."
+          ],
+          [
+            "Co skończy się pierwsze: czysta czy szara woda?",
+            "Ten zbiornik, który daje mniejszą liczbę dni. Przy tych samych zbiornikach więcej osób albo więcej zmywania skraca oba wyniki; kalkulator pokazuje je obok siebie, więc wiesz, który wyznacza limit."
+          ]
+        ],
+        "ctaTitle": "Znajdź najbliższy punkt poboru wody i punkt zrzutu.",
+        "ctaText": "AussieCamps pokazuje na mapie {water} punktów poboru wody i {dumpPoints} punktów zrzutu nieczystości w całej Australii, z udogodnieniami podanymi przy każdym z nich."
+      }
+    }
   },
   "pages": {
     "support": {
@@ -575,12 +779,12 @@
         {
           "heading": "Picie alkoholu a prowadzenie auta",
           "body": [
-            "Ogólny limit stężenia alkoholu we krwi wynosi 0,05 dla kierowców z pełnym prawem jazdy, zero dla kierowców uczących się (learner) i z tymczasowym prawem jazdy (provisional), a dla wielu kierowców zawodowych, zależnie od stanu, zero albo 0,02 (w NSW 0,02). Wyrywkowe badania alkomatem (random breath testing) są częste, także na drogach poza miastami i w ciągu dnia.",
+            "Ogólny limit stężenia alkoholu we krwi wynosi 0,05 (czyli 0,5 promila) dla kierowców z pełnym prawem jazdy, zero dla kierowców uczących się (learner) i z tymczasowym prawem jazdy (provisional), a dla wielu kierowców zawodowych, zależnie od stanu, zero albo 0,02 (0,2 promila; w NSW 0,02). Wyrywkowe badania alkomatem (random breath testing) są częste, także na drogach poza miastami i w ciągu dnia.",
             "W podróży samochodem jedyne bezpieczne podejście to całkowicie oddzielić picie od jazdy: nocuj tam, gdzie pijesz, wyznacz kierowcę, który nie pije, albo sięgaj po alkohol dopiero wtedy, gdy auto stoi już na noc.",
             "Jazda następnego ranka zaskakuje wielu kierowców. Organizm potrzebuje co najmniej godziny, żeby usunąć każdą porcję standardową (standard drink), często dłużej, a kawa ani prysznic tego nie przyspieszają, więc po mocno zakrapianym wieczorze możesz mieć przekroczony limit jeszcze długo następnego ranka."
           ],
           "tips": [
-            "Ogólnie 0,05, zero dla uczących się i kierowców provisional",
+            "Limit 0,05, a zero dla kursantów i kierowców z tymczasowym prawem jazdy",
             "Kontrole trzeźwości są częste, także w dzień",
             "Pułapka: jazda następnego ranka"
           ]
@@ -708,7 +912,7 @@
             "Opłata za dostęp do stacji w Sydney nie wlicza się do dziennych i tygodniowych limitów Opal, a Airtrain w Brisbane jest poza taryfą 50 centów, ale linia lotniskowa w Perth jest objęta zwykłymi taryfami Transperth i biletem DayRider. Porównując opcje, licz dojazd z lotniska osobno."
           ],
           "tips": [
-            "W Sydney dochodzi opłata za stację",
+            "W Sydney dochodzi opłata za dostęp do stacji",
             "Pociągi na lotnisko w Sydney i Brisbane mają osobny cennik",
             "W grupie przejazd z aplikacji bywa tańszy"
           ]
@@ -877,7 +1081,7 @@
           ],
           "tips": [
             "Czyść buty między regionami",
-            "Korzystaj ze stacji czyszczenia",
+            "Korzystaj ze stacji czyszczenia w strefach dieback",
             "Drewno kupuj na miejscu"
           ]
         },
@@ -895,7 +1099,7 @@
           ]
         },
         {
-          "heading": "Jak zaplanować lodówkę pod granice",
+          "heading": "Jak planować zapasy w lodówce przed granicami stanów",
           "body": [
             "W dniach przed przejazdem przez granicę kwarantanny wyjedz świeże produkty, a zaraz za nią uzupełnij zapasy. To nic nie kosztuje, pozwala nie kupować jedzenia dwa razy i całkowicie usuwa ryzyko mandatu.",
             "Jedzenie gotowane i przetworzone zwykle nie sprawia problemu, więc w dniu przejazdu dobrze sprawdza się jadłospis z konserw, produktów suszonych i gotowych dań. Sprawdź aktualną listę zakazanych produktów, zamiast zgadywać, co się na niej znajduje.",
@@ -1147,7 +1351,7 @@
       "faq": [
         [
           "Kiedy najlepiej jechać na kemping w Australii?",
-          "To zależy, w której połowie kraju jesteś, a w obu pory są odwrócone. Na północy najlepsza jest pora sucha, mniej więcej od maja do września, a na południu wiosna i jesień, bo latem w głębi lądu bywa za gorąco i grożą pożary, a zimą w górach jest zimno."
+          "To zależy, w której połowie kraju jesteś, bo w każdej z nich dobry sezon wypada w innej części roku. Na północy najlepsza jest pora sucha, mniej więcej od maja do września, a na południu wiosna i jesień, bo latem w głębi lądu bywa za gorąco i grożą pożary, a zimą w górach jest zimno."
         ],
         [
           "Czy w porze deszczowej można biwakować na północy Australii?",
@@ -1158,7 +1362,7 @@
       "priceTable": null
     },
     "australia-grocery-prices-2026": {
-      "title": "Ceny jedzenia w Australii 2026: mleko 2,45, jajka 7,19 AUD",
+      "title": "Ceny jedzenia w Australii 2026: mleko 2,45 AUD, jajka 7,19 AUD",
       "description": "Ceny z października 2026: mleko od 1,60 do 4 AUD za litr, tuzin jajek od 4,48 do 10 AUD, kurczak od 9 do 18 AUD za kilogram. Tydzień podstawowych zakupów dla jednej osoby to około 85 AUD.",
       "region": "Australia",
       "imageAlt": "Świeże jedzenie i produkty spożywcze na australijskim targu",
@@ -3161,13 +3365,5 @@
       "sources": [],
       "priceTable": null
     }
-  },
-  "consent": {
-    "label": "Ustawienia prywatności",
-    "message": "Czy możemy używać plików cookie Google Analytics, żeby sprawdzać, które strony są czytane i które linki do App Store są klikane? Nie wykorzystujemy niczego do reklam.",
-    "accept": "Akceptuj",
-    "decline": "Odrzuć",
-    "learnMore": "Polityka prywatności",
-    "privacyChoices": "Ustawienia prywatności"
   }
 }
