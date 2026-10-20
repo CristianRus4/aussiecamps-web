@@ -32,8 +32,8 @@
     "seeHow": "Se hvordan det virker",
     "statPlaces": "74 000+",
     "statPlacesLabel": "steder i hele Australia",
-    "statOffline": "Offline",
-    "statOfflineLabel": "all stedsinformasjon, uten dekning",
+    "statOffline": "Uten dekning",
+    "statOfflineLabel": "all stedsinformasjon er lagret i appen",
     "statStays": "4 000+",
     "statStaysLabel": "steder å overnatte",
     "trustLine": "Campingplasser, caravanparker og nyttige stopp i hele Australia.",
@@ -103,7 +103,7 @@
     "principle1Text": "Oppslag på stedet, forvalteren og gjeldende beredskapsråd går alltid foran en oppføring i appen.",
     "principle2Title": "Sjekk det som gjelder nå",
     "principle2Text": "Sjekk siste nytt om booking, veier, brannfare og stengninger før du drar.",
-    "principle3Title": "Legg igjen stedet bedre",
+    "principle3Title": "Forlat stedet bedre enn du fant det",
     "principle3Text": "Lovlig camping, omtanke med avfall og respekt for aboriginsk land holder disse stedene åpne.",
     "faqEyebrow": "Rett på sak",
     "faqTitle": "Gode spørsmål. Klare svar.",
@@ -204,7 +204,7 @@
     "theSame": "det samme",
     "perAdultCheaper": "per voksen er billigst",
     "perSiteCheaper": "per plass er billigst",
-    "supportTitle": "Hva kan vi hjelpe med?",
+    "supportTitle": "Hva kan vi hjelpe deg med?",
     "supportIntro": "Svar om å finne steder, lagre favoritter, planlegge turer og bruke AussieCamps på veien.",
     "contact": "Kontakt kundestøtte",
     "privacy": "Personvern",
@@ -224,7 +224,7 @@
   },
   "pages": {
     "support": {
-      "title": "Hva kan vi hjelpe med?",
+      "title": "Hva kan vi hjelpe deg med?",
       "lede": "Klare svar om kart, lagrede steder, reiseplanlegging og veien videre.",
       "sections": [
         {
@@ -440,7 +440,7 @@
         {
           "heading": "Promillegrensen og kjøredagen",
           "body": [
-            "Den generelle grensen er 0,05 for sjåfører med fullt førerkort. For øvelseskjørere, sjåfører med prøveførerkort og mange yrkessjåfører er grensen null. Tilfeldige promillekontroller er vanlige, også på landeveiene og midt på dagen.",
+            "Den generelle grensen er 0,05 % for sjåfører med fullt førerkort. For øvelseskjørere, sjåfører med prøveførerkort og mange yrkessjåfører er grensen null. Tilfeldige promillekontroller er vanlige, også på landeveiene og midt på dagen.",
             "På en roadtrip er det eneste trygge å holde drikking og kjøring helt adskilt: Overnatt der du drikker, avtal hvem som kjører, eller drikk først når bilen står parkert for natten.",
             "Det er morgenen etter som overrasker folk. Kroppen forbrenner omtrent én alkoholenhet i timen, og ikke raskere, så etter en våt kveld kan du fortsatt være over grensen langt utpå formiddagen."
           ],
@@ -512,7 +512,7 @@
       }
     },
     "eating-out-australia-prices-2026": {
-      "title": "Matpriser i Australia 2026: restaurant, takeaway og kaffe",
+      "title": "Spise ute i Australia 2026: restaurant, takeaway og kaffe",
       "description": "Hva en enkel lunsj, fast food, kaffe og en middag på middels dyr restaurant faktisk koster, med tre eksempler på daglig matbudsjett.",
       "region": "Sydney som målestokk",
       "imageAlt": "Måltid på en kafé med uteservering i en australsk by",
@@ -657,7 +657,7 @@
           "heading": "Sammenlign det samme",
           "body": [
             "En pris per tur er ikke et maksimum per dag. Tell turene du regner med å ta, finn ut hvordan bytter fungerer, og bruk så reglene for dagstak som gjelder hos operatøren akkurat nå.",
-            "Bruk betalingsmåten som godtas, riktig. Kontaktløs betaling, forhåndsbetalt saldo og kontanter kan gi ulik pris, og feil ved innsjekk og utsjekk kan fjerne et tak eller gi en ufullstendig tur."
+            "Bruk en betalingsmåte som godtas, og bruk den riktig. Kontaktløs betaling, forhåndsbetalt saldo og kontanter kan gi ulik pris, og feil ved innsjekk og utsjekk kan gjøre at du mister dagstaket eller får registrert en ufullstendig tur."
           ],
           "tips": []
         },
@@ -697,7 +697,7 @@
         {
           "heading": "Flyplassforbindelser",
           "body": [
-            "Sydney tar et stasjonsgebyr oppå togbilletten, og det gjør flyplasstoget mye dyrere enn en vanlig tur. Brisbanes Airtrain har tilsvarende pris som en egen tjeneste.",
+            "Sydney tar et stasjonsgebyr oppå togbilletten, og det gjør flyplasstoget mye dyrere enn en vanlig tur. Brisbanes Airtrain er på samme måte priset som en egen tjeneste.",
             "Melbourne, Perth, Adelaide og Darwin har buss- eller togforbindelser til mer vanlige priser. Er dere tre eller flere med bagasje, kan rideshare av og til konkurrere med enkeltbilletter.",
             "Ingen av disse dekkes vanligvis av et vanlig dagskort. Regn ut flyplassetappen for seg når du sammenligner."
           ],
@@ -710,7 +710,7 @@
         {
           "heading": "Når bilen bør stå",
           "body": [
-            "Det er ubehagelig å kjøre bobil inn i sentrum av Sydney eller Melbourne, parkering er dyrt, og høydebegrensninger tar store kjøretøy hele tiden. Lar du den stå på en <a data-guide=\"caravan-park-vs-holiday-park\">caravanpark</a> og tar transport inn, går det raskere og blir billigere.",
+            "Det er ubehagelig å kjøre bobil inn i sentrum av Sydney eller Melbourne, parkering er dyrt, og høydebegrensninger blir stadig et problem for store kjøretøy. Lar du bobilen stå på en <a data-guide=\"caravan-park-vs-holiday-park\">caravanpark</a> og tar kollektivt inn til sentrum, går det raskere og blir billigere.",
             "Det samme gjelder i de fleste hovedstedene. Bo utenfor sentrum og bruk det lokale nettet de dagene du vil være i byen.",
             "Utenfor hovedstedene og noen få regionale sentre er kollektivtransporten minimal eller fraværende. En tur planlagt rundt busser fungerer mellom byene, men kommer ikke frem til campingplasser eller stiutgangspunkter."
           ],
@@ -737,7 +737,7 @@
       "faq": [
         [
           "Kan du reise i Australia uten bil?",
-          "Mellom hovedstedene, ja. Utenfor dem blir nettet raskt tynt, og kyst- og outbackstedene de fleste kommer for, er i praksis uten tilgang hvis du ikke har kjøretøy eller bestiller tur."
+          "Mellom hovedstedene, ja. Utenfor dem blir nettet raskt tynt, og kyst- og outbackstedene de fleste kommer for, er i praksis utilgjengelige uten eget kjøretøy eller en organisert tur."
         ],
         [
           "Hva koster kollektivtransport i australske byer?",
@@ -1132,7 +1132,7 @@
           "tips": [
             "Bestill plasser hos Parks Victoria på forhånd",
             "Ingen realistisk gratis camping langs veien",
-            "Apollo Bay og Port Campbell for service"
+            "Fasiliteter i Apollo Bay og Port Campbell"
           ]
         },
         {
@@ -1145,13 +1145,13 @@
           "tips": [
             "Soloppgang slår solnedgang når det gjelder folkemengdene",
             "Loch Ard Gorge er roligere",
-            "Bestill flyturer til morgenen"
+            "Bestill helikopterturen om morgenen"
           ]
         },
         {
           "heading": "Otways og dyrelivet",
           "body": [
-            "Svinger du innover i Otways, får du høy, fuktig skog, Hopetoun Falls, Triplet Falls og trekrongangveien Otway Fly, alt i kort kjøreavstand fra kystveien. Det er et helt annet landskap og et godt alternativ når det regner.",
+            "Svinger du innover i Otways, får du høy, fuktig skog, Hopetoun Falls, Triplet Falls og tretoppstien Otway Fly, alt i kort kjøreavstand fra kystveien. Det er et helt annet landskap og et godt alternativ når det regner.",
             "Cape Otway er det sikre stedet å se ville koalaer langs veien gjennom manna gum-trærne, selv om antallet har svingt med hvor friske trærne er. Se etter dem fra bilen i stedet for å gå nær, og mat dem aldri.",
             "Glødeormer dukker opp i området ved Melba Gully etter mørkets frembrudd, og turen er kort og lett. Ta med rødt lys og la øynene venne seg til mørket i stedet for å sveipe lommelykten rundt."
           ],
@@ -1313,7 +1313,7 @@
         {
           "heading": "Nordlige NSW og sørøstlige Queensland",
           "body": [
-            "Byron Bay er populært av en grunn, men <a data-guide=\"caravan-park-vs-holiday-park\">caravanparkene</a> i nærheten fylles tidlig, og trafikken går sakte i feriene. Brunswick Heads, Lennox Head og Tweed kan være en roligere base.",
+            "Byron Bay er populært av god grunn, men <a data-guide=\"caravan-park-vs-holiday-park\">caravanparkene</a> i nærheten fylles tidlig, og trafikken går sakte i feriene. Brunswick Heads, Lennox Head og Tweed kan være en roligere base.",
             "Når du krysser inn i <a data-guide=\"camping-rules-queensland\">Queensland</a>, velger du mellom innlandet bak Gold Coast og kysten. Springbrook National Park gir fossefall og kjøligere netter. K'gari må planlegges for seg, med tidevann, kjøretøytillatelser og kjøring i sand."
           ],
           "tips": [
@@ -1406,7 +1406,7 @@
       "description": "Hvite sanddyner, korallrev, røde juv og den lange, lyse veien nordover.",
       "region": "Western Australia",
       "imageAlt": "Røde klipper og kyst i Western Australia",
-      "intro": "Vestkysten skifter farge når du kjører nordover fra Perth. Kalkstein går over i røde elvejuv, Ningaloo-vann og de lange strekningene i Pilbara før Broome.",
+      "intro": "Vestkysten skifter farge når du kjører nordover fra Perth. Kalkstein går over i røde elvejuv, vannet ved Ningaloo og de lange strekningene i Pilbara før Broome.",
       "sections": [
         {
           "heading": "Fra Perth til Shark Bay",
@@ -1432,7 +1432,7 @@
           "heading": "Pilbara til Broome",
           "body": [
             "Del den siste etappen rundt Port Hedland eller Eighty Mile Beach i stedet for å presse inn en svært lang dag. Roadhouses kan ha begrenset åpningstid, så fyll drivstoff før du trenger det.",
-            "Broome er et lett sted å slutte å flytte seg en stund. <a data-guide=\"caravan-park-vs-holiday-park\">Caravanparkene</a> blir fullbooket i tørketiden, særlig rundt skoleferier og store arrangementer. Bestill før du forlater Pilbara."
+            "I Broome er det lett å bli værende en stund. <a data-guide=\"caravan-park-vs-holiday-park\">Caravanparkene</a> blir fullbooket i tørketiden, særlig rundt skoleferier og store arrangementer. Bestill før du forlater Pilbara."
           ],
           "tips": []
         },
@@ -1446,7 +1446,7 @@
           "tips": [
             "Omtrent 2 200 km",
             "Ti dager er minimum, to uker er bedre",
-            "Tørketiden er fullbooket i nord"
+            "Fullt i nord i tørketiden"
           ]
         },
         {
@@ -1454,12 +1454,12 @@
           "body": [
             "Ningaloo Reef kommer innenfor noen få meter fra stranda ved Coral Bay og Turquoise Bay, og det gjør det til det mest tilgjengelige store revet i landet. Du kan snorkle rett fra sanden uten båt.",
             "Turer for å se hvalhai går omtrent fra mars til juli, og svømmeturer med knølhval senere i sesongen. Begge blir fullbooket og begge er væravhengige, så sett av en ekstra dag og bestill tidlig i oppholdet i stedet for på slutten.",
-            "Turquoise Bay har et driftsnorkling-løp der strømmen bærer deg langs revet. Kom deg ut før sandbanken i sørenden, for strømmen fortsetter forbi den, og det er virkelig tungt å svømme tilbake mot den."
+            "I Turquoise Bay kan du snorkle med strømmen, som bærer deg langs revet. Kom deg ut før sandbanken i sørenden, for strømmen fortsetter forbi den, og det er virkelig tungt å svømme tilbake mot den."
           ],
           "tips": [
             "Snorkle rett fra stranda",
             "Hvalhai omtrent mars til juli",
-            "Gå ut tidlig fra driften i Turquoise Bay"
+            "Kom deg tidlig ut av strømmen i Turquoise Bay"
           ]
         },
         {
@@ -1559,7 +1559,7 @@
           "heading": "Krokodiller er begrensningen her oppe",
           "body": [
             "Saltvannskrokodiller lever i alle vassdrag i det tropiske nord, også bekker, mangroveskog, elvemunninger og selve strendene. Daintree og kysten ved Cape Tribulation er førsteklasses habitat, og risikoen er reell, ikke teoretisk.",
-            "Ikke bad i eller ved noe vassdrag med mindre det er et utpekt trygt badeområde. Ikke camp noen få meter fra vannet, ikke rens fisk ved kanten, og ikke stå i grunt vann for å ta et bilde.",
+            "Ikke bad i eller ved noe vassdrag med mindre det er et utpekt trygt badeområde. Ikke camp innenfor noen få meter fra vannet, ikke rens fisk ved vannkanten, og ikke stå i grunt vann for å ta bilder.",
             "Trygg bading finner du her i de utpekte ferskvannshølene som Mossman Gorge og Emmagen Creek, og selv de har skilting som er verdt å lese hver gang du kommer, fordi forholdene endrer seg."
           ],
           "tips": [
@@ -1585,26 +1585,26 @@
           "heading": "Slik deler du kjøreturen fra Brisbane",
           "body": [
             "Brisbane til Cape Tribulation er rundt 1 900 kilometer og trenger minst fem kjøredager for å bli en fornøyelse. Sunshine Coast, Hervey Bay, Airlie Beach og Townsville er de naturlige overnattingsstoppene.",
-            "Bruce Highway har tung godstrafikk og er ikke en naturskjønn vei på store deler av strekningen. Behandle den sørlige halvdelen som transport, og spar tiden til det tropiske nord, som er det du kom for.",
+            "Bruce Highway har tung godstrafikk og er ikke en naturskjønn vei på store deler av strekningen. Se på den sørlige halvdelen som en transportetappe, og spar tiden til det tropiske nord, som er det du kom for.",
             "Vurder å fly til Cairns og leie bil der hvis tiden er knapp. Det sparer fire dagers kjøring og setter deg rett inn i den delen av ruten som er virkelig særegen."
           ],
           "tips": [
             "Rundt 1 900 km fra Brisbane",
-            "Den sørlige halvdelen er transport",
+            "Den sørlige halvdelen er transportetappe",
             "Å fly til Cairns sparer fire dager"
           ]
         },
         {
           "heading": "Kasuarer og kjøring i de våte tropene",
           "body": [
-            "Sørlige kasuarer lever i regnskogen mellom Mission Beach og Daintree og blir jevnlig påkjørt. Skiltede kasuarsoner krever redusert fart, og det mener de alvorlig.",
+            "Sørlige kasuarer lever i regnskogen mellom Mission Beach og Daintree og blir jevnlig påkjørt. I de skiltede kasuarsonene må du senke farten, og det er ment helt alvorlig.",
             "De er store, kraftige fugler og kan være farlige hvis du nærmer deg eller mater dem. Mat dem aldri, hold god avstand, og hvis en kommer mot deg, sett et tre eller bilen mellom dere i stedet for å løpe.",
             "Mission Beach og Etty Bay sør for Cairns er de andre sikre områdene for kasuar, og særlig på Etty Bay kommer de ned på stranda.",
             "Køen til Daintree-ferjen kan overstige en time i høysesongen, så sikt på å krysse midt på formiddagen eller sent på ettermiddagen i stedet for midt på dagen."
           ],
           "tips": [
             "Sakte i skiltede kasuarsoner",
-            "Aldri mat eller gå nær",
+            "Aldri mat eller gå nær en kasuar",
             "Sett noe mellom dere, ikke løp"
           ]
         }
@@ -1652,13 +1652,13 @@
           "heading": "Fruktfluesonene er hovedproblemet",
           "body": [
             "South Australia, Tasmania og deler av Victoria og <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> har soner som holdes fri for fruktflue. Det er forbudt å ta med fersk frukt og enkelte grønnsaker inn i dem, med avfallsbeholdere ved grensene og kontrollposter i drift.",
-            "Bøter gjelder uansett om du visste om det eller ikke, og kontroller ved grensen til South Australia og i fergeterminalen på Tasmania er rutine. Søkshunder brukes ved enkelte overganger.",
+            "Bøter gjelder uansett om du visste om det eller ikke, og kontroller ved grensen til South Australia og i ferjeterminalen på Tasmania er rutine. Søkshunder brukes ved enkelte overganger.",
             "Den praktiske løsningen er å planlegge handlingen rundt grensene: bruk opp det som er i kjøleskapet før du krysser, og fyll opp igjen rett etterpå. Det koster ingenting og fjerner problemet helt."
           ],
           "tips": [
             "Bruk opp kjøleskapet før en grense",
             "Det finnes beholdere ved overgangene",
-            "Bøter gjelder selv om du ikke visste"
+            "Bøter gjelder selv om du ikke kjente reglene"
           ]
         },
         {
