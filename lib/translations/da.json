@@ -3,7 +3,7 @@
   "ui": {
     "languageName": "Dansk",
     "metaTitle": "AussieCamps: campingkort og roadtrip-planlægger til Australien",
-    "metaDescription": "Over 74.000 campingpladser, caravanparker, gratis pladser, rastepladser og tømmestationer i Australien, også uden dækning. Skarpe filtre og rejseplanlægger til iPhone.",
+    "metaDescription": "Find over 74.000 campingpladser, caravanparker, gratis pladser, rastepladser og tømmestationer i Australien. Stedsoplysninger uden dækning, skarpe filtre og en rejseplanlægger stop for stop til iPhone.",
     "ogTitle": "AussieCamps: campingkortet og roadtrip-planlæggeren til Australien",
     "ogDescription": "Over 74.000 campingpladser, caravanparker, gratis pladser og praktiske stop, der ligger i appen og virker uden dækning. Filtrér, gem og planlæg hele turen rundt.",
     "metaKeywords": "camping app Australien, campingpladser Australien, gratis camping Australien, autocamper Australien, caravanparker Australien, rastepladser Australien, tømmestationer Australien, roadtrip Australien, rundrejse Australien",
@@ -135,7 +135,7 @@
     "downloadText": "Over 74.000 australske steder offline, filtre der er skarpe nok til at finde præcis det rigtige, samlinger der organiserer sig selv og en rejseplanlægger med hele ruten. AussieCamps til iOS.",
     "guidesEyebrow": "Guider til camping i Australien",
     "guidesTitle": "Følg vejen til et godt sted.",
-    "guidesIntro": "grundige guider om campingpladser, regler, lokale priser og praktisk planlægning af turen rundt i Australien.",
+    "guidesIntro": "Grundige guider om campingpladser, regler, lokale priser og praktisk planlægning af turen rundt i Australien.",
     "guideSingular": "guide",
     "guidePlural": "guider",
     "readGuide": "Læs guiden",
@@ -325,7 +325,7 @@
           "heading": "Børn og kontakt",
           "paragraphs": [
             "AussieCamps er et almindeligt rejseværktøj og er ikke rettet mod børn. Send ikke personoplysninger om et barn via support.",
-            "Har du spørgsmål om privatliv, så kontakt AussieCamps' support."
+            "Har du spørgsmål om privatliv, så kontakt supporten hos AussieCamps."
           ]
         }
       ]
@@ -368,8 +368,8 @@
         {
           "heading": "Immaterielle rettigheder og kontakt",
           "paragraphs": [
-            "AussieCamps' varemærke, brugerflade og originale redaktionelle indhold tilhører deres respektive ejer. Stednavne og offentlige fakta forbliver de oprindelige kilders ejendom eller ansvar.",
-            "Spørgsmål kan sendes til AussieCamps' support."
+            "Varemærket AussieCamps, brugerfladen og det originale redaktionelle indhold tilhører deres respektive ejer. Stednavne og offentlige fakta forbliver de oprindelige kilders ejendom eller ansvar.",
+            "Spørgsmål kan sendes til supporten hos AussieCamps."
           ]
         }
       ]
@@ -440,12 +440,12 @@
         {
           "heading": "Promille og køredagen",
           "body": [
-            "Den generelle grænse er 0,05 for bilister med fuldt kørekort og nul for øvelseskørende, bilister med prøvekørekort og mange erhvervschauffører. Tilfældig spritkontrol er almindelig, også på landevejene og midt på dagen.",
+            "Den generelle grænse er 0,05 % alkohol i blodet for bilister med fuldt kørekort og nul for øvelseskørende, bilister med prøvekørekort og mange erhvervschauffører. Tilfældig spritkontrol er almindelig, også på landevejene og midt på dagen.",
             "På en roadtrip er den eneste sikre løsning at holde alkohol og kørsel helt adskilt: Overnat der, hvor du drikker, aftal en chauffør, der ikke drikker, eller drik først, når bilen er parkeret for natten.",
             "Det er kørslen dagen derpå, der overrasker mange. Kroppen forbrænder cirka én standarddrink i timen og ikke hurtigere, så efter en våd aften kan du stadig være over grænsen langt hen på formiddagen."
           ],
           "tips": [
-            "Normalt 0,05, nul for mange bilister",
+            "Normalt 0,05 %, nul for mange bilister",
             "Spritkontrol er almindelig, også om dagen",
             "Dagen derpå er fælden"
           ]
@@ -512,236 +512,410 @@
       }
     },
     "sleeping-in-car-australia": {
-      "title": "Må man sove i bilen i Australien?",
-      "description": "Du må kun sove i bilen i Australien, hvor de lokale regler for området, parkering og køretøjer tillader det. Sådan tjekker du stedet, inden du parkerer.",
+      "title": "Må man sove i bilen i Australien? Regler i hver delstat 2026",
+      "description": "Lovligt nogle steder, bøde andre steder. Regler for rastepladser, kommunale forbud og nationalparker, hvis du sover i bilen i Australien, tjekket oktober 2026.",
       "region": "Australien",
-      "imageAlt": "Autocamper parkeret på en plads, hvor overnatning er tilladt",
-      "intro": "Om du må overnatte et sted, afhænger ikke af, hvad du kører i. Det er kommunens vedtægter, skiltene, parkens regler og ejerens ret på privat grund, der afgør, om du må sove der.",
+      "imageAlt": "Autocamper parkeret på et sted, hvor overnatning er tilladt",
+      "intro": "Ja, det må du, men kun det rigtige sted: det er camping, hvor det er forbudt, der giver bøder, og mange kommuner regner det for camping at sove i en parkeret bil. De lovlige muligheder er bookede campingpladser, statsskove, hvor camping er tilladt, og rastepladser, hvis regler eller skilte tillader et stop over natten, for eksempel Queenslands grænse på 20 timer og Western Australias skiltede stop på 24 timer.",
       "sections": [
         {
-          "heading": "Det er skiltet på stedet, der gælder, ikke internettet",
+          "heading": "Reglerne i hver delstat",
           "body": [
-            "Tjek skiltene for parkeringstider, campingforbud og begrænsninger for køretøjer. I travle turistbyer bliver parkeringspladser ved stranden og boligveje ofte kontrolleret.",
-            "En gammel anmeldelse redder dig ikke fra en bøde. Hold dig til de aktuelle oplysninger fra kommunen eller den ansvarlige myndighed."
+            "Ingen delstat har ét enkelt ja eller nej. Vejmyndighederne fastsætter grænser for rastepladser, kommunerne reglerne for gader, strande og parkeringspladser, og parkmyndighederne bestemmer, hvad der gælder i nationalparkerne. Svaret afhænger derfor af, hvem af de tre der ejer jorden under din bil.",
+            "Kun Queensland og Western Australia har en tidsgrænse for rastepladser, der gælder i hele delstaten, og Northern Territory opregner, hvilke af motorvejenes rastepladser der tillader camping over natten. Alle andre steder er det skiltet på rastepladsen, der gælder, og vejledningen i <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> er blandet: Service NSW skriver, at rastepladser ikke er til camping, mens en planlægningsnote fra juli 2026 siger, at camping på en rasteplads kan være tilladt, medmindre et skilt siger andet."
           ],
-          "tips": []
+          "tips": [],
+          "table": {
+            "caption": "Sovning i bilen delstat for delstat, tjekket oktober 2026",
+            "head": [
+              "Delstat",
+              "Rastepladser langs vejene",
+              "Kommunale gader og parkeringspladser",
+              "Nationalparker",
+              "Rastepladser i AussieCamps"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "Ingen grænse for hele delstaten, følg skiltet",
+                "Kræver kommunens godkendelse eller skiltet tilladelse, og kommunerne håndhæver det",
+                "Kun udpegede campingområder, højst 21 dage",
+                "869"
+              ],
+              [
+                "Victoria",
+                "Ingen grænse for hele delstaten, følg skiltet",
+                "Nogle forbyder det: Surf Coast Shire giver 300 AUD i bøde",
+                "Udpegede pladser, nogle parker tillader camping uden for pladserne",
+                "651"
+              ],
+              [
+                "Queensland",
+                "Op til 20 timer, medmindre andet er skiltet, og ikke til camping",
+                "Mange forbyder det, og Cairns forbyder det på kommunal jord uden for kommunens campingpladser",
+                "Betalt tilladelse til hver campingplads",
+                "1.688"
+              ],
+              [
+                "South Australia",
+                "Ingen grænse for hele delstaten, følg skiltet",
+                "Reglerne er forskellige fra kommune til kommune",
+                "Kun bookede campingpladser",
+                "391"
+              ],
+              [
+                "Western Australia",
+                "Op til 24 sammenhængende timer, kun hvor det er skiltet",
+                "Camping andre steder kræver godkendelse",
+                "Kun udpegede campingpladser",
+                "1.661"
+              ],
+              [
+                "Tasmanien",
+                "Ingen grænse for hele delstaten, følg skiltet",
+                "Nogle kommuner udsteder gratis tilladelser",
+                "Parks Pass plus en udpeget plads",
+                "81"
+              ],
+              [
+                "Northern Territory",
+                "Kun på stop, der er skiltet til camping i 24 timer",
+                "Reglerne er forskellige fra kommune til kommune",
+                "Bookede campingpladser, plus et besøgskort til tilrejsende",
+                "211"
+              ],
+              [
+                "ACT",
+                "Camping i køretøj kun på campingpladser",
+                "Ingen camping på offentlig jord uden tilladelse",
+                "Kun bookede campingpladser",
+                "0"
+              ]
+            ]
+          }
         },
         {
-          "heading": "Rastepladser",
+          "heading": "Må man sove i bilen i en nationalpark?",
           "body": [
-            "Driver Reviver-stop og rastepladserne langs hovedvejene er der for at forebygge træthed bag rattet. Nogle tillader et tidsbegrænset hvil om natten, mens andre forbyder camping eller kun tillader visse typer køretøjer.",
-            "Hold lastbilpladserne fri, dæmp støjen, og stil ikke udstyr ud uden for bilen, medmindre camping er tilladt på stedet."
+            "Kun hvor parken tillader camping, og det betyder næsten altid en udpeget campingplads, der er booket eller godkendt på forhånd. En bil, der står natten over på en dagsplads, et udsigtspunkt eller ved en stistart, er camping uden tilladelse, uanset om nogen har slået telt op.",
+            "<a data-guide=\"camping-rules-queensland\">Queensland</a> tager 7,75 AUD pr. person pr. nat for hver campingplads i parker og skove i 2026, og tilladelsen gælder, uanset om du sover i telt eller i bilen. Parkerne i Northern Territory tager kun imod bookinger online, parkerne i South Australia online eller gennem agenter, og NSW begrænser et ophold i en park til 21 dage.",
+            "Nogle få parker tillader camping uden for de udpegede pladser. Alpine National Park i <a data-guide=\"camping-rules-victoria\">Victoria</a> tillader det i store dele af parken, men Parks Victoria beder campister om at have telt med, og hver park fastsætter selv sine grænser, så læs parkens side først."
           ],
           "tips": [
-            "Et lovligt sted",
-            "Udluftning",
-            "En sikker vej ud",
-            "Lad ikke motoren køre for varmens skyld"
+            "Dagspladser er ikke campingpladser",
+            "Book eller skaf tilladelsen først",
+            "Alpine National Park tillader camping uden for pladserne"
           ]
         },
         {
-          "heading": "Sikrere alternativer",
+          "heading": "Rastepladser og hvad deres grænser betyder",
           "body": [
-            "På en enkel campingplads, en showground (udstillings- og dyrskueplads, der ofte har billige pladser), en caravanpark (kommerciel campingplads med pladser og hytter) eller et farmophold er det tydeligere, at du må overnatte, og der er ofte toiletter eller vand. Kom frem, før det bliver mørkt, og tjek, at der er adgang for dit køretøj.",
-            "Sov aldrig med et brændselsdrevet varmeapparat eller kogeblus tændt inde i en lukket bil."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Lovlig parkering er ikke det samme som lovlig camping",
-          "body": [
-            "En bil kan holde lovligt parkeret og alligevel stå et sted, hvor du ikke må sove i den. Det er den forskel, de fleste bøder handler om, og derfor ender rejsende, der har tjekket parkeringsskiltene, stadig med en bøde.",
-            "Det er kommunernes lokale regler, der bestemmer, og de skifter ved hver kommunegrænse. Nogle kommuner tillader overnatning i køretøjer i udpegede områder, mange forbyder det på alle offentlige steder, og kontrollen er hårdest langs kysten og i turistområderne.",
-            "Læs skiltene for netop den plads, du holder på, ikke for gaden. Tidsbegrænset parkering, zoner, der kræver tilladelse, og forbud mod overnatning er ofte skiltet hver for sig, og de gælder alle på én gang."
+            "<a data-guide=\"camping-rules-queensland\">Queensland</a> lader almindelige biler og fritidskøretøjer holde på en rasteplads i op til 20 timer, medmindre et skilt siger andet, men kalder dem stoppesteder og ikke campingpladser. Rastepladser for tunge køretøjer er kun for lastbilchauffører, og generatorer skal være slukket mellem kl. 19 og kl. 7.",
+            "I Western Australia må du holde i op til 24 sammenhængende timer på rastepladser, der er skiltet til overnatning, og dem siger Main Roads WA ikke er beregnet til camping, og du skal have godkendelse for at overnatte et hvilket som helst andet sted uden for en <a data-guide=\"caravan-park-vs-holiday-park\">caravanpark</a> eller campingplads. Northern Territory opregner sine rastepladser én for én, og kun dem, der er skiltet til camping i 24 timer, tillader det.",
+            "Uanset hvor du stopper, skal du parkere inden for de afmærkede båse, holde lastbilpladserne fri og lade markise, stole og bord blive pakket sammen. En bil med sovende folk i ligner et hvil, mens en opstillet lejr ligner camping."
           ],
           "tips": [
-            "Lovlig parkering giver ikke lov til at sove",
-            "Reglerne skifter ved hver kommunegrænse",
-            "Læs skiltet for netop din plads"
+            "Queensland: højst 20 timer",
+            "WA: 24 timer, hvor det er skiltet",
+            "Hold lastbilbåsene fri"
           ]
         },
         {
-          "heading": "Her er det som regel i orden",
+          "heading": "Kommuner, byer og kysten",
           "body": [
-            "På udpegede rastepladser langs hovedvejene må du sove for at komme af med trætheden, som regel i op til 24 timer, og det er den løsning, der mest sikkert er lovlig i hele landet. Rastepladserne er til hvil, ikke til at pakke campingudstyret ud.",
-            "Mange byer inde i landet har kommunale overnatningspladser, der er gratis eller billige, og hvor det udtrykkeligt er tilladt at sove i køretøjet. Showgrounds og sportsanlæg gør ofte det samme for et mindre gebyr.",
-            "Nogle døgnåbne servicestationer og roadhouses tillader, at du holder der natten over, især på de lange ruter ad hovedvejene. Spørg indenfor i stedet for at gå ud fra det, og køb noget."
+            "De lokale regler er der, hvor de fleste bøder kommer fra. På Victorias kyst betragter Surf Coast Shire det som en overtrædelse at sove i et køretøj hvor som helst i kommunen, med en bøde på 300 AUD på stedet, og Cairns Regional Council forbyder camping langs vejene, på Esplanaden, i parker, på parkeringspladser og på strande.",
+            "Nogle kommuner inde i landet har gratis eller billige områder til rejsende. Northern Midlands Council i <a data-guide=\"camping-rules-tasmania\">Tasmanien</a> udsteder for eksempel gratis tilladelser til ophold på op til 48 timer, men kun til fuldt selvforsynende køretøjer med eget toilet og eget brusebad, og det udelukker de fleste biler.",
+            "Læs skiltet for den præcise bås og ikke kun for gaden. Tidsgrænser, zoner med tilladelse og skilte om forbud mod overnatning sidder ofte side om side, og de gælder alle på én gang."
           ],
           "tips": [
-            "Op til 24 timer på rastepladser",
-            "Byer inde i landet tillader det ofte",
-            "Spørg på roadhouses i stedet for at gætte"
+            "Nogle kystkommuner giver bøder",
+            "Northern Midlands: 48 timer, kun for selvforsynende",
+            "Læs skiltet for den præcise bås"
           ]
         },
         {
           "heading": "Sådan gør du det sikkert",
           "body": [
-            "Vælg et sted med andre biler, lys og en nem vej ud. Parkér med snuden udad, hvis du kan, hold værdigenstande ude af syne, og lås dørene, men sørg for, at du hurtigt kan komme ud.",
-            "Udluftning betyder mere, end de fleste tror. En lukket bil med sovende mennesker bliver hurtigt fugtig og indelukket, og i varme bliver det direkte farligt. Lad vinduerne stå på klem, gerne med insektnet, hvis du har det.",
-            "Lad aldrig motoren køre for at få aircondition, mens du sover. Udstødningsgas kan trænge ind i kabinen, og kulilte er lugtfri og har kostet mennesker livet i præcis den situation."
+            "Vælg et sted med andre køretøjer, lidt lys og en nem vej ud. Parkér med fronten mod udkørslen, hvis du kan, hold værdigenstande uden for syne, og lås dørene, men sørg for, at du har en fri vej ud.",
+            "Ventilation betyder mere, end man skulle tro. En lukket bil med sovende folk i bliver fugtig og indelukket i løbet af få timer, og i varme bliver den farlig, så luk vinduerne lidt op bag insektnet."
           ],
           "tips": [
-            "Parkér med snuden udad, og hold en vej ud fri",
-            "Luft ud, luk ikke bilen tæt",
-            "Lad aldrig motoren gå i tomgang, mens du sover"
+            "Parkér med fronten mod udkørslen",
+            "Luft ud bag insektnet",
+            "Hold værdigenstande uden for syne"
           ]
         },
         {
-          "heading": "Varme, kulde og de praktiske grænser",
+          "heading": "Kulilte, varme og kulde",
           "body": [
-            "En australsk sommer gør det ikke bare ubehageligt, men risikabelt at sove i en bil uden udluftning. I den nordlige del af landet stiger temperaturen i bilen hurtigt og holder sig høj natten igennem, og det er den vigtigste praktiske grund til at lade være.",
-            "Om vinteren falder temperaturen under frysepunktet om natten inde i landet og i bjergene, og en bil isolerer næsten ikke. En ordentlig sovepose, der passer til forholdene, er vigtigere i en bil end i et telt.",
-            "Sover du ofte i bilen, ændrer et sæt solskærme til vinduerne, insektnet og en ordentlig madras det hele. Uden dem går det for en nat, men i en hel uge bliver det elendigt."
+            "Lad aldrig motoren køre for at få varme eller aircondition, mens du sover, og tag aldrig et gasvarmeapparat, kogeblus eller en grill ind i bilen. Gassikkerhedsmyndigheden i <a data-guide=\"camping-rules-western-australia\">Western Australia</a> advarer om, at bærbare gasapparater til udendørs brug aldrig må bruges i et telt, et halvlukket rum, en campingvogn, en autocamper eller indendørs, på grund af risikoen for kulilteforgiftning.",
+            "Sommervarmen er den vigtigste praktiske grænse for at sove i bilen. Kabinen bliver hurtigt varm efter solopgang og holder varmen natten igennem i nord, så kom tidligt i gang om morgenen, eller vælg en plads med strøm og skygge.",
+            "Inde i landet og i bjergene falder temperaturen under frysepunktet om vinteren, og en bil holder kun lidt på varmen. En sovepose, der passer til forholdene, betyder mere i en bil end i et telt."
           ],
           "tips": [
-            "I nord bliver bilen for varm om natten",
-            "Næsten ingen isolering om vinteren",
-            "Net og solskærme gør hele forskellen"
+            "Lad aldrig motoren køre, mens du sover",
+            "Ingen gasapparater inde i bilen",
+            "Vælg en sovepose, der kan klare frost"
           ]
         },
         {
-          "heading": "Sådan gør du bilen klar til en nat",
+          "heading": "Sådan gør du bilen brugbar til en nat",
           "body": [
-            "Solskærme til vinduerne, insektnet og en ordentlig madras gør det at sove i bilen til noget, du kan gøre igen og igen, og ikke en udholdenhedsprøve. Uden dem går det for én nat, men over en uge bliver det en pine.",
-            "Det betyder mere, end man skulle tro, at bilen står vandret. En svag hældning, som du ikke lægger mærke til, når du holder stille, bliver tydelig, så snart du ligger ned. Tit er det nok at vende bilen om.",
-            "På længere ture giver en lille van eller en stationcar med sæderne lagt ned langt mere brugbar plads end en sedan, og det koster kun lidt ekstra at leje.",
-            "Sommervarmen i Australien gør en bil uden udluftning direkte farlig at overnatte i, og det er snarere det end nogen lokal lov, der sætter den praktiske grænse."
+            "Solskærme til vinduerne, insektnet og en ordentlig madras gør én ubehagelig nat til noget, du kan gentage en hel uge. Uden dem går det en enkelt gang og bliver hurtigt slidsomt.",
+            "Et vandret underlag betyder mere, end det lyder af, for en hældning, du ikke mærker, når du holder parkeret, bliver tydelig, når du ligger ned. Ofte er det nok at vende bilen om.",
+            "På en længere tur giver en lille van eller en stationcar med sæderne lagt ned langt mere plads end en sedan."
           ],
           "tips": [
-            "Net og solskærme ændrer alt",
-            "Vandret underlag betyder noget, når du ligger ned",
-            "Tit hjælper det at vende bilen"
+            "Solskærme og net først",
+            "Tjek hældningen, før du går i seng",
+            "En stationcar slår en sedan"
+          ]
+        },
+        {
+          "heading": "Hvor en lovlig nat er lettest",
+          "body": [
+            "Statsskove er den enkleste gratis mulighed i <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> og Victoria, hvor camping generelt er tilladt i op til henholdsvis fire uger og 28 sammenhængende nætter. Skovene i NSW tillader ikke camping på picnicpladser, og i Victoria skal du campere mindst 20 meter fra vandløb.",
+            "South Australia tillader camping på statsjord i op til 21 dage uden godkendelse, mens Western Australia forventer, at du bruger en godkendt <a data-guide=\"caravan-park-vs-holiday-park\">caravanpark</a>, en campingplads eller en skiltet rasteplads, medmindre du har godkendelse.",
+            "Er du i tvivl, koster en enkel campingplads eller en showground ikke meget og fjerner spørgsmålet. Kom frem, før det bliver mørkt, så du kan læse skiltene og tjekke adgangen for dit køretøj."
+          ],
+          "tips": [
+            "Skove: gratis i NSW og Victoria",
+            "Statsjord i SA: 21 dage",
+            "Kom frem, før det bliver mørkt"
           ]
         }
       ],
       "faq": [
         [
           "Er det lovligt at sove i bilen i Australien?",
-          "Det afhænger helt af, hvor bilen holder. Det er ikke i sig selv ulovligt at sove i et køretøj, men det er ulovligt at campere i det, hvor kommunen forbyder det, og det gælder de fleste gader i byerne, parkeringspladser ved stranden og naturområder langs kysten."
+          "Ja, hvor camping er tilladt: bookede campingpladser, statsskove, der tillader camping, og rastepladser, hvis regler eller skilte tillader et stop over natten. Mange kommuner regner det for camping at sove i en parkeret bil og giver bøder på gader, strande og parkeringspladser, for eksempel Surf Coast Shires bøde på 300 AUD på stedet."
         ],
         [
-          "Hvor kan man lovligt sove i bilen om natten?",
-          "På udpegede rastepladser, der tillader overnatning, på campingpladser og caravanparker og i kommuner, hvis regler tillader det. Roadhouses og nogle pubber lader dig holde på parkeringspladsen efter aftale, og det er værd at spørge om i stedet for bare at gå ud fra det."
+          "Må man sove i bilen i en nationalpark?",
+          "Kun hvor parken tillader camping, og det betyder som regel en udpeget campingplads, der er booket på forhånd. En bil, der står natten over på en dagsplads eller ved en stistart, regnes som camping uden tilladelse."
         ]
       ],
-      "sources": [],
+      "sources": [
+        {
+          "label": "Rastepladser i Queensland"
+        },
+        {
+          "label": "Main Roads WA: lange køreture"
+        },
+        {
+          "label": "Camping uden for caravanparker i WA"
+        },
+        {
+          "label": "Rastepladser langs vejene i NT"
+        },
+        {
+          "label": "Service NSW: find rastepladser"
+        },
+        {
+          "label": "Planlægningsnote om caravanparker og campingpladser i NSW, juli 2026"
+        },
+        {
+          "label": "Surf Coast Shire: parkering"
+        },
+        {
+          "label": "Cairns Regional Council: camping"
+        },
+        {
+          "label": "Queensland Parks: booking af camping"
+        },
+        {
+          "label": "Camping uden for pladserne i Alpine National Park"
+        },
+        {
+          "label": "Northern Midlands Council: autocampervenlige byer"
+        },
+        {
+          "label": "WA Building and Energy: sikker camping med gas"
+        },
+        {
+          "label": "NSW National Parks and Wildlife Regulation 2019"
+        },
+        {
+          "label": "Forestry Corporation of NSW: camping"
+        },
+        {
+          "label": "Victorias regering: camping i statsskove"
+        },
+        {
+          "label": "SA Crown land: adgang"
+        },
+        {
+          "label": "Regler for rastepladser i Queensland (generatorer)"
+        },
+        {
+          "label": "NT Parks Visitor Pass"
+        }
+      ],
       "priceTable": null
     },
     "camping-rules-new-south-wales": {
-      "title": "Camping i New South Wales: regler, booking og bålforbud",
-      "description": "Booking, udpegede pladser, camping i baglandet og tjek af brandfare: det skal du vide, før du sover i en nationalpark, statsskov eller på en rasteplads i NSW.",
+      "title": "Campingregler i NSW 2026: gratis camping, statsskove og gebyrer",
+      "description": "Campér gratis i statsskovene i NSW i op til fire uger. De fleste pladser i nationalparkerne skal bookes, 6 AUD også når camping er gratis. Bålforbud og bøder 2026.",
       "region": "New South Wales",
       "imageAlt": "Campingplads i en nationalpark i New South Wales",
-      "intro": "I NSW afhænger reglerne for camping af, hvem der forvalter området. Nationalparker, statsskove (State Forests), kommuner og private campingpladser fastsætter hver deres egne betingelser.",
+      "intro": "Ja, du kan campere gratis i New South Wales: alle statsskove undtagen Cumberland og Strickland tillader gratis camping efter først til mølle-princippet i op til fire uger, og nogle campingpladser i nationalparkerne tager ikke campinggebyr, selvom de fleste af dem stadig tager et bookinggebyr på 6 AUD. AussieCamps viser 372 campingpladser i nationalparker i NSW, 869 rastepladser langs vejene og 347 offentlige tømmestationer.",
       "sections": [
         {
           "heading": "Campingpladser i nationalparkerne",
           "body": [
-            "Hos NSW National Parks skal du booke på forhånd på de angivne campingpladser og til overnatning med tag over hovedet. Hav bekræftelsen ved hånden, og angiv de rigtige oplysninger om gruppen og køretøjet.",
-            "Camping i baglandet (remote camping) er kun tilladt i bestemte områder. Selv hvor du ikke booker en almindelig campingplads, kan det anbefales at udfylde en trip intention form."
+            "Nationalparkerne i NSW har mere end 365 campingpladser, og de fleste af dem, der står på NSW National Parks' hjemmeside, skal bookes, selvom camping er gratis. De gratis pladser tager et bookinggebyr på 6 AUD. Nogle få enkle pladser på listen, for eksempel Tuross River campground i Wadbilliga National Park, kræver ingen booking, og det gør camping på fjerntliggende steder uden for listen heller ikke, men NPWS anbefaler en formular med dine turplaner.",
+            "<a data-guide=\"camping-fees-australia-2026\">Campinggebyrer</a> og entré til parken er to forskellige ting. Der betales entré for køretøjer i 45 af de mere end 890 parker og reservater, for eksempel 8 AUD pr. dag ved Myall Lakes og Murramarang, og en booking dækker kun det antal personer, der er angivet og betalt for: NPWS kan opkræve betaling for ekstra personer eller afvise dem."
           ],
           "tips": []
         },
         {
-          "heading": "Gratis camping og camping langs vejen",
+          "heading": "Gratis camping og camping ved vejene",
           "body": [
-            "En rasteplads er ikke automatisk en campingplads. Læs tidsgrænserne for parkering og kommunens skilte, hold lastbilpladserne fri, og stil ikke markise eller møbler op, hvor stedet kun er tænkt som et hvil for trætte bilister.",
-            "Kommunale arealer (council reserves) og showgrounds kan kræve lokal tilladelse, have tidsbegrænsning eller være lukket. Tjek det samme dag, som du kommer."
+            "De officielle råd om rastepladser er blandede. Service NSW skriver, at rastepladser ikke er til camping, mens planlægningsnoten fra juli 2026 siger, at camping på en rasteplads kan være tilladt, medmindre en kommune eller Transport for NSW har sat et skilt op med forbud mod camping eller overnatning.",
+            "Camping uden for en <a data-guide=\"caravan-park-vs-holiday-park\">caravanpark</a> eller campingplads kræver som regel kommunens godkendelse, medmindre en undtagelse i Local Government Regulation gælder, og kommunerne kan forbyde camping på deres jord med skilte. Bøden for at se bort fra et kommunalt skilt er fastsat i delstatens lovgivning til 110 AUD på stedet, og Crown reserves følger reglerne fra deres forvalter af statsjord."
           ],
           "tips": [
-            "Læs skiltene, når du ankommer",
-            "Hold adgangsvejene fri",
-            "Efterlad intet spildevand"
+            "Læs skiltet på rastepladsen",
+            "Brug bilbåsene og ikke lastbilbåsene",
+            "Camping uden for pladserne kræver kommunens godkendelse"
           ]
         },
         {
-          "heading": "Brandfare og varsler fra parkerne",
+          "heading": "Brand og parkvarsler",
           "body": [
-            "Tjek varslerne fra parkerne i NSW (park alerts), brandfareniveauet og om der er Total Fire Ban (totalt forbud mod åben ild), før du tager af sted. Et bålsted på pladsen gør ikke et bål lovligt, når der er forbud.",
-            "Parker kan lukke med kort varsel, når forholdene kræver det. Hav en lovlig plan B uden for det berørte område."
+            "Tjek brandfareniveauet fra NSW RFS, NPWS' parkvarsler og et eventuelt <a data-guide=\"campfires-camping-australia\">bålforbud</a> i parken, før du tænder noget. NPWS kan udstede et bålforbud i en park eller lukke en park, når brandrisikoen er høj, uafhængigt af et Total Fire Ban.",
+            "I nationalparkerne må du kun tænde bål på de udpegede bålsteder, du må aldrig knække grene eller samle nedfaldent brænde, og du må aldrig lade en generator køre under et bålforbud. Ikke alle parker tillader bål, så tjek, før du tager af sted."
           ],
           "tips": []
         },
         {
-          "heading": "Hvem forvalter det område, du er på?",
+          "heading": "Hvem forvalter den jord, du står på",
           "body": [
-            "I NSW er camping fordelt på områder under National Parks and Wildlife Service (NPWS), statsskove, statsjord (Crown land), kommunale arealer og privat grund. Hver af dem har sit eget bookingsystem, sine egne gebyrer og regler, og grænserne kan ofte ikke ses fra vejen.",
-            "NPWS-campingpladser bookes online, og de fleste opkræver både et campinggebyr og et separat gebyr for at køre ind i parken. Statsskovene er som regel gratis og langt mindre regulerede, og derfor er de det praktiske valg, hvis du vil campere frit uden faste pladser.",
-            "De kommunale arealer varierer enormt fra kommune til kommune. Det, der er tilladt på en rasteplads i én kommune, er forbudt i den næste, og skiltene er det eneste, du kan stole på."
+            "Campingreglerne i NSW afhænger af, hvem der forvalter jorden. National Parks and Wildlife Service driver parkerne, Forestry Corporation of NSW driver statsskovene, kommunerne forvalter deres egen jord, og forvaltere af statsjord tager sig af Crown reserves.",
+            "I en statsskov kan du slå telt op næsten overalt undtagen på veje, i picnic- eller tilladelsesområder, i nåleskovsplantager eller i lukket skov. Pladser kan ikke bookes, opholdet må højst vare fire uger, medmindre et skilt siger mindre, og mange skove har ingen skraldespande, så tag affaldet med hjem.",
+            "I en nationalpark skal du campere i et område, der er afsat til camping, medmindre parken tillader camping på fjerntliggende steder, og i højst 21 dage i træk, medmindre et skilt i parken eller forvaltningsplanen fastsætter en anden grænse. Camping et hvilket som helst andet sted i en park kan give en bøde på højst 30 bødeenheder."
           ],
           "tips": [
-            "NPWS tager betaling for camping plus entré",
-            "Statsskovene er for det meste gratis",
-            "Kommunernes regler skifter ved hver grænse"
+            "Skove: gratis, højst fire uger",
+            "Parker: 21 dage, medmindre skilte siger andet",
+            "Kommunerne afgør, hvor camping er forbudt"
           ]
         },
         {
-          "heading": "Sådan booker du NPWS-campingpladser",
+          "heading": "Sådan booker du NPWS' campingpladser",
           "body": [
-            "Populære campingpladser ved kysten og i bjergene er booket op flere måneder i forvejen om sommeren, i påsken og i skoleferierne, og i de perioder er der sjældent plads, hvis du bare dukker op. Uden for dem kan de fleste pladser bookes et par dage i forvejen.",
-            "Et All Parks Pass dækker entré for bilen i de fleste parker i NSW i et år og har hurtigt tjent sig selv ind, hvis du besøger mere end en håndfuld. Det dækker ikke campinggebyrer og heller ikke i alle tilfælde parkerne ved Sydney Harbour og Kosciuszko.",
-            "Du booker pr. plads med et angivet maksimum for personer og køretøjer. Dukker du op med flere personer eller køretøjer, end der er booket til, er det en almindelig kilde til ballade på travle pladser."
+            "Populære campingpladser ved kysten kan være udsolgt om sommeren og i skoleferierne, så book, så snart dine datoer er faste. Campinggebyret trækkes fuldt ud ved bookingen, plus et bookinggebyr, der ikke refunderes.",
+            "Aflyser du 31 dage eller mere før ankomst, får du 75 % af gebyret tilbage, og aflyser du senere, får du 50 % tilbage. Ingen af refusionerne omfatter bookinggebyret.",
+            "All Parks Pass koster 190 AUD om året og dækker entré for køretøjet i alle 45 parker, der opkræver gebyr, også Kosciuszko, med begrænsninger ved Chowder Bay og fyrtårnsområdet ved Cape Byron, men intet årskort dækker camping. Entré til Kosciuszko er 29 AUD pr. 24 timer fra juni-langweekenden til oktober-langweekenden og 17 AUD i resten af året."
           ],
           "tips": [
-            "Book flere måneder i forvejen til sommer",
-            "All Parks Pass dækker kun entré",
-            "Loftet over antal personer håndhæves"
+            "Book populære sommerpladser tidligt",
+            "All Parks Pass: 190 AUD om året",
+            "Kort dækker aldrig camping"
           ]
         },
         {
           "heading": "Bål og Total Fire Ban",
           "body": [
-            "Brandfaresæsonen for bushbrande (bush fire danger period) i NSW løber normalt fra oktober til marts og varierer fra kommune til kommune. I den periode kræver de fleste former for åben ild en tilladelse, og på dage med Total Fire Ban må der slet ikke være åben ild.",
-            "Grill med fast brændsel og bål er forbudt på dage med Total Fire Ban. Gasapparater er normalt tilladt på visse betingelser, men tjek ordlyden af det konkrete forbud, for den skifter.",
-            "Mange NPWS-campingpladser har permanent bålforbud uanset årstiden. Tjek siden for den enkelte campingplads i stedet for at gå ud fra, at de generelle regler for hele staten gælder."
+            "Den lovbestemte Bush Fire Danger Period løber fra 1. oktober til 31. marts, selvom lokale forhold kan ændre den. I den periode afgør RFS hver eftermiddag, om der skal erklæres <a data-guide=\"campfires-camping-australia\">Total Fire Ban</a> for den følgende dag, og et forbud kan også erklæres samme dag.",
+            "På en dag med Total Fire Ban må du ikke tænde bål i det fri eller bruge en grill med fast brændsel, og hvis du tænder et bål, får du en bøde på stedet på 2.200 AUD, eller op til 5.500 AUD og 12 måneders fængsel, hvis sagen kommer for retten. I nationalparkerne er gæsters egne gas- og elkogeapparater som regel også forbudt, undtagen inde i en campingvogn eller dens tresidede forlæg.",
+            "Statsskovene erklærer også forbud mod ild med fast brændsel, og så må der kun bruges gasapparater, med en maksimal bøde på 2.200 AUD. Når bål i skovene er tilladt, skal de holdes under én kvadratmeter og 4,5 meter fra nærmeste træstamme, stub eller træ, med 2 meter ryddet jord rundt om."
           ],
           "tips": [
-            "Brandfaresæson fra oktober til marts",
-            "Intet fast brændsel på forbudsdage",
-            "Mange campingpladser har altid bålforbud"
+            "Farlig periode 1. oktober til 31. marts",
+            "Bål på forbudsdage: bøde på 2.200 AUD",
+            "Gæsters gasapparater er som regel forbudt i parkerne på forbudsdage"
           ]
         },
         {
           "heading": "Gratis camping og rastepladser",
           "body": [
-            "Rastepladserne under Transport for NSW (vejmyndigheden i New South Wales) er der for at forebygge træthed bag rattet, og mange tillader ophold i op til 24 timer. Men de er ikke campingpladser, og de er ikke beregnet til, at du stiller markise og stole op.",
-            "Rigtig gratis camping finder du mest sikkert i statsskovene, på noget af statsjorden og på pladser, som kommunen har udpeget. Flere af dem beder om et lille bidrag til lokalsamfundet.",
-            "Hvor meget der bliver kontrolleret, varierer, men i kystkommunerne og de populære områder sker det faktisk. Der er bøder for at campere i forbudte områder, og bøden følger køretøjet, så et udlejningsfirma sender den videre til dig."
+            "<a data-guide=\"is-free-camping-legal-australia\">Gratis camping</a> i NSW betyder mest statsskove, plus campingpladser i nationalparkerne uden campinggebyr, hvoraf de fleste stadig tager et bookinggebyr på 6 AUD. Camping er generelt ikke tilladt på picnicpladserne i statsskovene, undtagen på rastepladser, hvor motorveje går gennem en skov.",
+            "Hunde er velkomne i alle statsskove, men skal hele tiden være under kontrol, og Forestry Corporation beder om, at de er i snor. De er ikke tilladt i de fleste nationalparker, selvom nogle regionale parker, for eksempel Murrumbidgee Valley Regional Park, tager imod dem, og mange skove grænser op til nationalparker.",
+            "Kommunerne afgør, hvor camping er forbudt på deres jord, og mange forbyder det på parkeringspladser ved stranden, så tjek skiltene og kommunens regler, før du overnatter."
           ],
           "tips": [
-            "Rastepladser er til hvil, ikke camping",
-            "Statsskovene er den gratis mulighed",
-            "Kystkommunerne kontrollerer flittigt"
+            "Statsskove er den gratis mulighed",
+            "Ingen hunde i de fleste nationalparker",
+            "Tjek skiltene på parkeringspladser ved stranden"
           ]
         },
         {
-          "heading": "Havreservater og adgang til kysten",
+          "heading": "Havparker og adgang til kysten",
           "body": [
-            "Havreservaterne i NSW (marine parks) er inddelt i zoner, og i fredningszonerne (sanctuary zones) er fiskeri og indsamling begrænset. Grænserne er offentliggjort, men ikke skiltet på hver strand, så tjek reglerne, før du fisker nogen steder langs kysten.",
-            "Nogle steder må du køre på stranden med en tilladelse, andre steder er det forbudt. Det er tilladt ved Stockton og på dele af Mid North Coast, og tilladelserne udstedes af den relevante kommune eller parkmyndighed.",
-            "Statsskovene er stadig den mest fleksible mulighed i New South Wales, og skovmyndigheden udgiver kort over, hvor du må campere og køre.",
-            "Et All Parks Pass giver bilen adgang til de fleste parker i NSW i et år og er hurtigt tjent hjem, når du besøger mere end en håndfuld."
+            "Havparkerne i NSW har fredningszoner, hvor fiskeri er forbudt, og zonerne vises på de officielle zonekort og i appen FishSmart NSW, fordi grænserne ikke altid er til at se fra kysten.",
+            "Kørsel på stranden er kun tilladt på nogle strande i NSW, og reglerne varierer: nogle kræver en strandtilladelse fra kommunen, nogle strande i nationalparker kræver et parkkort, og Worimi Conservation Lands nær Port Stephens kræver en egen tilladelse til køretøjer, som årskortene til parkerne ikke dækker.",
+            "Mange campingpladser ved kysten ligger inde i nationalparker, så grænsen på 21 dage, forbuddet mod hunde og NPWS' <a data-guide=\"campfires-camping-australia\">bålforbud</a> gælder, også selvom stranden føles som offentlig jord.",
+            "Tjek NPWS' parkvarsler samme morgen, du rejser, for kystparkerne lukker veje efter storme og campingpladser efter skader fra brand eller oversvømmelse."
           ],
           "tips": [
-            "Zonerne i havreservaterne begrænser fiskeri",
-            "Strandkørsel kræver tilladelse",
-            "Grænserne er offentliggjort, ikke skiltet"
+            "Fredningszoner forbyder fiskeri",
+            "Worimi kræver en tilladelse til køretøjer",
+            "Parkens regler gælder på parkens strande"
           ]
         }
       ],
       "faq": [
         [
-          "Kan man campere gratis i New South Wales?",
-          "Ja, i udpegede områder, og reglerne kommer fra tre sider: Pladserne hos NSW National Parks skal bookes og betales, statsskovene tillader camping uden faste pladser mange steder, og begrænsningerne på rastepladser langs vejene fastsættes af kommunerne og Transport for NSW."
+          "Kan du campere gratis i New South Wales?",
+          "Ja. Alle statsskove i NSW undtagen Cumberland og Strickland tillader gratis camping i op til fire uger, først til mølle. Nogle campingpladser i nationalparkerne har intet campinggebyr, men skal stadig bookes med et bookinggebyr på 6 AUD."
         ],
         [
-          "Skal man booke campingpladser i nationalparkerne i NSW?",
-          "Næsten altid. NSW National Parks har indført booking på langt de fleste af sine campingpladser, også de gratis, og rangerne kontrollerer det faktisk. Parkerne ved kysten bliver booket op flere måneder i forvejen til skoleferierne."
+          "Skal du booke campingpladser i nationalparkerne i NSW?",
+          "Ved de fleste pladser på listen ja, også de gratis, som tager et bookinggebyr på 6 AUD, og populære campingpladser ved kysten kan være udsolgt om sommeren og i skoleferierne. Nogle få enkle pladser på listen, for eksempel Tuross River campground, og camping på fjerntliggende steder uden for listen kræver ingen booking."
         ]
       ],
       "sources": [
         {
           "label": "NSW National Parks: camping og overnatning"
+        },
+        {
+          "label": "NPWS: sikkerhed ved camping"
+        },
+        {
+          "label": "NPWS: parker med gebyr"
+        },
+        {
+          "label": "NPWS: årskort"
+        },
+        {
+          "label": "NPWS: bookingvilkår"
+        },
+        {
+          "label": "NPWS: bålforbud"
+        },
+        {
+          "label": "Forestry Corporation: camping og picnic"
+        },
+        {
+          "label": "Forestry Corporation: forbud mod ild med fast brændsel"
+        },
+        {
+          "label": "NSW RFS: Bush Fire Danger Period"
+        },
+        {
+          "label": "NSW RFS: regler for Total Fire Ban"
+        },
+        {
+          "label": "Service NSW: rastepladser"
+        },
+        {
+          "label": "Planlægningsnote om caravanparker og campingpladser i NSW, juli 2026"
+        },
+        {
+          "label": "National Parks and Wildlife Regulation 2019"
+        },
+        {
+          "label": "Kæledyr i nationalparkerne i NSW"
+        },
+        {
+          "label": "Tuross River campground"
+        },
+        {
+          "label": "Camping i statsskovene i NSW"
+        },
+        {
+          "label": "Local Government Act 1993 (NSW)"
         }
       ],
       "priceTable": null
@@ -932,7 +1106,7 @@
           "body": [
             "Bageren, fish and chips-butikken og pubbens counter meal er de tre sikre billige muligheder i hele landet, og kvaliteten i provinsbyerne er tit bedre end i storbyerne.",
             "Især pubmaden er en australsk institution og ofte det eneste sted at få aftensmad i en lille by. Portionerne er store, og priserne ligger som regel et godt stykke under en restaurant i storbyen.",
-            "Caféerne holder generelt op med at servere mad tidligere, end turister regner med, og i små byer kan alt være lukket efter kl. 20. Har du noget med, du selv kan lave, ender en sen ankomst ikke med, at du må undvære aftensmad."
+            "Caféerne holder generelt op med at servere mad tidligere, end turister regner med, og i små byer kan alt være lukket efter klokken otte om aftenen. Har du noget med, du selv kan lave, ender en sen ankomst ikke med, at du må undvære aftensmad."
           ],
           "tips": [
             "Counter meals på pubben giver meget for pengene",
@@ -943,9 +1117,9 @@
         {
           "heading": "Tillæg og betaling",
           "body": [
-            "Tillæg på helligdage er lovlige og almindelige, og de skal oplyses. De ligger typisk på omkring 10–15 %. Mange steder tager også tillæg i weekenden, og gebyret for kortbetaling lægges på ved kassen i stedet for at stå på menukortet.",
+            "Tillæg på helligdage er lovlige og almindelige, og de skal oplyses. De ligger typisk på omkring ti til femten procent. Mange steder tager også tillæg i weekenden, og gebyret for kortbetaling lægges på ved kassen i stedet for at stå på menukortet.",
             "Man forventer ikke drikkepenge i Australien, og personalet får overenskomstløn (award wage). Nogle betalingsterminaler spørger nu om drikkepenge, men det er en ny import og ikke en lokal skik.",
-            "Kontanter bliver sjældnere, og mange steder tager kun kort, men afsides roadhouses (tankstation med café og ofte overnatning i outbacken) og tillidskasser, hvor du selv lægger pengene, kræver stadig kontanter. Hav et mindre beløb på dig, også selvom du sjældent bruger det."
+            "Kontanter bliver sjældnere, og mange steder tager kun kort, men afsides roadhouses og tillidskasser, hvor du selv lægger pengene, kræver stadig kontanter. Hav et mindre beløb på dig, også selvom du sjældent bruger det."
           ],
           "tips": [
             "Tillæg på helligdage er normalt",
@@ -1028,120 +1202,165 @@
       }
     },
     "camping-rules-western-australia": {
-      "title": "Campingregler i Western Australia: booking og gratis camping",
-      "description": "Sådan fungerer camping i Western Australia: booking i nationalparkerne, entré, gratis rastepladser med 24-timersregel og de lange afstande mellem pladserne.",
+      "title": "Campingregler i Western Australia 2026: gratis pladser og gebyrer",
+      "description": "Gratis camping i WA betyder skiltede rastepladser i op til 24 timer eller godkendte steder. Parkpladser koster 10 til 20 AUD pr. voksen pr. nat. Pas, bål og tilladelser 2026.",
       "region": "Western Australia",
       "imageAlt": "Campingplads i en nationalpark i Western Australia",
-      "intro": "Reglerne for camping i Western Australia er forskellige i nationalparkerne, på kommunal jord, på græsningsarealerne og på private campingpladser. Med de store afstande er en lukket eller fuld campingplads langt mere end en lille gene.",
+      "intro": "Kun få steder: Western Australia lader dig kun campere uden for en godkendt caravanpark eller campingplads med godkendelse, og den vigtigste gratis undtagelse er en skiltet rasteplads til overnatning, hvor du må blive i op til 24 sammenhængende timer. I nationalparkerne må du kun campere på udpegede campingpladser, til 10 til 20 AUD pr. voksen pr. nat. AussieCamps viser 260 campingpladser i parker i Western Australia og 238 offentlige tømmestationer over de lange afstande.",
       "sections": [
         {
           "heading": "Park Stay WA og gebyrer",
           "body": [
-            "Mange campingpladser i nationalparkerne bookes gennem Park Stay WA. Campinggebyret betales som regel pr. person pr. nat, og entréen til parken kan komme oveni.",
-            "Nogle campingpladser kører stadig efter først til mølle-princippet. Kom tidligt, og hav et lovligt alternativ inden for den rækkevidde, du har brændstof til."
+            "Mange campingpladser i nationalparkerne bookes gennem Park Stay WA, op til 180 dage i forvejen. Gebyrerne er pr. person pr. nat: 10 AUD for en voksen på campingpladser uden faciliteter, 15 AUD med enkle faciliteter og 20 AUD med yderligere faciliteter, og børn på 5 år og derunder camper gratis.",
+            "Campingpladser, der ikke kan bookes, er efter først til mølle-princippet, og der er som regel ledige pladser uden for de travleste perioder, men ledige pladser er ikke garanteret. Gebyret skal stadig betales, som regel kontant eller i en kuvert, du selv udfylder. Kom tidligt, og hav et lovligt alternativ inden for din <a data-guide=\"road-trip-fuel-planning-australia\">rækkevidde på en tank</a>."
           ],
           "tips": []
         },
         {
-          "heading": "Overnatning langs vejen og i de afsides egne",
+          "heading": "Camping ved vejene og på fjerntliggende steder",
           "body": [
-            "Brug de skiltede overnatningspladser, og hold pladserne til lastbiler fri. Kommunerne kan forbyde camping uden for godkendte campingpladser, også på strande og byernes parkeringspladser.",
-            "På afsides veje skal du tjekke adgangen, om du har tilladelse fra stationen, og om der kræves tilladelse til at køre ind på aboriginal-områder, før du forlader hovedvejen."
+            "Main Roads WA siger, at de 24-timers rastepladser ikke er beregnet til camping, at et ophold ikke må vare mere end 24 sammenhængende timer, og at ingen overnatning er tilladt på en rasteplads uden et skilt, der tillader det. Hold pladserne til tunge køretøjer fri til <a data-guide=\"driving-with-road-trains-australia\">road trains</a>.",
+            "Camping et hvilket som helst andet sted uden for en godkendt <a data-guide=\"caravan-park-vs-holiday-park\">caravanpark</a> eller campingplads uden godkendelse kan være en overtrædelse, uanset om jorden er offentlig eller privat. På privat jord dækker ejerens tilladelse et ophold på op til 5 nætter, og længere ophold kræver også godkendelse fra den lokale myndighed. Nogle lokale myndigheder driver egne udpegede pladser."
           ],
           "tips": [
-            "Book pladsen",
-            "Entré til parken",
-            "Tjek vej og tilladelser"
+            "Højst 24 sammenhængende timer",
+            "Kun hvor et skilt tillader det",
+            "Alle andre steder kræver godkendelse"
           ]
         },
         {
           "heading": "Bål, vand og afstande",
           "body": [
-            "Hav drikkevand med, og tjek, om vandet fra hanerne på campingpladsen kan drikkes. Brandrestriktionerne varierer fra distrikt til distrikt og med årstiden.",
-            "Saml ikke brænde i beskyttede områder. Varme og vind kan gøre et bål, der var lovligt om morgenen, farligt eller forbudt om eftermiddagen."
+            "De fleste campingpladser i parkerne har intet <a data-guide=\"camping-water-planning\">drikkevand</a>. Hvor der er regnvand eller boret vand, er forsyningen ikke garanteret, og du skal koge, behandle eller filtrere det, så tag alt det vand med, du skal bruge. I nationalparkerne er bål kun tilladt i de bålringe, der er sat op, med mindst tre meter ryddet rundt om, og restriktioner kan træde i kraft uden varsel.",
+            "Det er forbudt at samle brænde, også dødt træ, i nationalparker, naturreservater og beskyttede områder. I statsskov er det kun tilladt i udpegede områder til brænde i Perth Hills (med en tilladelse) og i South West, så tag brænde med, eller køb det i nærheden af stedet, hvor du skal brænde det af. Mange parker forbyder <a data-guide=\"campfires-camping-australia\">bål</a> fra omkring 1. december til 31. marts, og nogle tillader dem aldrig."
           ],
           "tips": []
         },
         {
           "heading": "Størrelsen ændrer planlægningen",
           "body": [
-            "Western Australia dækker en tredjedel af kontinentet, og afstandene mellem parker, byer og brændstof er som intet andet sted. En campingtur her er først og fremmest en øvelse i logistik.",
-            "De populære pladser hos Parks and Wildlife bookes online, mens mange af de afsides kører efter først til mølle. Der findes et parkpas, der dækker bilens entré, og det kan betale sig, hvis du besøger mere end et par parker.",
-            "Mange parker i nord lukker i regntiden, cirka fra november til april, og åbner igen, når veje og vadesteder tillader det. Tjek den aktuelle status i stedet for at stole på den officielle sæson."
+            "Western Australia dækker cirka en tredjedel af kontinentet, og afstandene mellem parker, byer og brændstof præger hver eneste campingplan. En fuld eller lukket campingplads kan koste en dags kørsel.",
+            "Entré til parken betales særskilt fra camping i parker som Karijini og Cape Range: 17 AUD pr. almindeligt køretøj, eller 10 AUD med rabat. All Parks Pass koster 130 AUD om året (80 AUD med rabat), og feriekort starter ved 30 AUD, så et kort tjener sig hurtigt ind på en tur op langs kysten.",
+            "Veje og campingpladser i nord følger vejret og ikke kalenderen. Tjek DBCA's parkvarsler og Main Roads WA Travel Map før hver etape, og spørg den lokale shire om veje, som shiren forvalter."
           ],
           "tips": [
-            "Book populære DBCA-pladser online",
-            "Parkpasset dækker bilens entré",
-            "Parker i nord lukker i regntiden"
+            "Entré til Karijini: 17 AUD pr. køretøj",
+            "All Parks Pass: 130 AUD om året",
+            "Tjek varsler før hver etape"
           ]
         },
         {
           "heading": "Gratis camping og 24-timersreglen",
           "body": [
-            "Mange kommuner i WA tillader ophold på 24 timer på udpegede rastepladser og forbyder camping alle andre steder. Reglerne varierer meget fra shire til shire, og jo mere afsides kommunen ligger, jo mere afslappet er den som regel.",
-            "Nogle rastepladser langs North West Coastal Highway og Great Northern Highway tillader længere ophold og fungerer reelt som gratis campingpladser. Skiltene viser grænsen, og den bliver håndhævet i de mere travle områder.",
-            "Ophold på stationerne (station stays), hvor de store kvæg- og fårefarme åbner campingområder for rejsende, er noget særligt for WA og tit den eneste overnatning i flere hundrede kilometers omkreds. De fleste tager kontanter, og kun få har en booking, du kan stole på."
+            "Uden for de betalte campingpladser er det vigtigste sted, hvor delstaten lader dig overnatte uden godkendelse, en skiltet rasteplads til overnatning, i op til 24 sammenhængende timer. Main Roads WA ser grænsen som noget, der skal håndhæves, og de officielle regler tillader ikke længere ophold på pladser langs vejene.",
+            "Nogle lokale myndigheder driver billige eller gratis campingpladser til rejsende, hver med sin egen grænse for opholdet og egne vilkår. Spørg shiren eller turistkontoret, for reglerne ændrer sig fra den ene shire til den næste.",
+            "Ophold på stationer, hvor græsningsejendomme åbner campingområder for rejsende, er en særlig mulighed i WA, og nogle er et praktisk mellemstop på lange, afsides strækninger, for eksempel Cheela Plains mellem Ningaloo og Karijini. Bekræft pris, betalingsmåde og adgang ad vej med stationen, før du kommer."
           ],
           "tips": [
-            "24-timersgrænser er almindelige",
-            "Stationerne fylder hullerne ud",
-            "Hav kontanter med til stationerne"
+            "24 timer på skiltede rastepladser",
+            "Shirerne fastsætter deres egne regler",
+            "Bekræft ophold på stationer på forhånd"
           ]
         },
         {
           "heading": "Vand, brændstof og kommunikation",
           "body": [
-            "Hav mindst fire til fem liter drikkevand med pr. person pr. dag plus en solid reserve, og lad bilens rækkevidde på en tank styre ruten. Roadhouses (tankstation med café og ofte overnatning i outbacken) kan være lukkede, løbet tør for brændstof eller kun tage kort, og forbindelsen er ikke altid til at stole på.",
-            "Der er mobildækning tæt på byerne, men den forsvinder helt imellem dem. En satellitkommunikator eller en personlig nødpejlesender (PLB) er standardudstyr på ture i det afsides WA, ikke et valgfrit ekstra.",
-            "Fortæl nogen, hvilken rute du kører, og hvornår du regner med at være fremme. Bryder bilen sammen, så bliv ved den: Den giver ly og er langt lettere at finde end en person til fods."
+            "Hav drikkevand med til flere ekstra dage pr. person, og betragt <a data-guide=\"road-trip-fuel-planning-australia\">rækkevidden på en tank</a> som den begrænsning, der former ruten. Roadhouses kan være lukkede, løbet tør for brændstof eller kun tage kort, når forbindelsen falder ud.",
+            "Der er mobildækning nær byerne, og den forsvinder mellem dem. En <a data-guide=\"camping-without-phone-signal\">satellitkommunikator</a> eller en personlig nødsender er standardudstyr på rejser i det afsides WA og ikke et ekstra, du kan vælge fra.",
+            "Fortæl nogen, hvilken rute du kører, og hvornår du forventer at nå frem. Hvis du får motorstop, skal du blive ved køretøjet: det giver skygge og læ og er langt lettere for eftersøgerne at finde end et menneske, der går."
           ],
           "tips": [
-            "Fem liter pr. person pr. dag",
-            "Hav en satellitkommunikator med",
-            "Bliv ved bilen"
+            "Vand til flere ekstra dage",
+            "Tag en satellitkommunikator med",
+            "Bliv ved køretøjet"
           ]
         },
         {
-          "heading": "Varme, cykloner og tørtiden",
+          "heading": "Ningaloo, cykloner og tørtiden",
           "body": [
-            "Tørtiden fra maj til oktober er sæsonen for det nordlige WA. Regntiden bringer ekstrem luftfugtighed, monsunregn, cykloner mellem november og april og lukninger mange steder.",
-            "I sydvest er det omvendt: Vinteren er våd og kølig, sommeren varm og tør, og foråret er tiden for de vilde blomster. De to halvdele af delstaten kræver helt forskellig planlægning.",
-            "Varmen er den undervurderede risiko. Inde i landet ryger temperaturen om sommeren jævnligt over 40 grader, og går bilen i stå i den varme uden nok vand, er det direkte livsfarligt."
+            "Campingpladserne ved Ningaloo Coast åbner for bookinger hver måned, den første tirsdag kl. 10 Perth-tid, et system, der blev indført i september 2026 efter en prøveperiode på otte måneder. Opholdet er begrænset til 14 nætter, hvis nogen af nætterne falder i skoleferien i WA, og ellers til 28 nætter.",
+            "Den voldsomme tropiske cyklon Narelle beskadigede alle campingpladser langs Ningaloo Coast i 2026. De fleste campingpladser i Cape Range åbnede igen den 27. april, men nogle var lukket længere, så tjek varslet for præcis din plads.",
+            "Nord fungerer bedst i tørtiden, cirka fra maj til oktober, og cyklonsæsonen løber fra november til april. Inde i landet går sommertemperaturen jævnligt over 40 grader, og motorstop i den varme uden vand er livsfarligt."
           ],
           "tips": [
-            "Det nordlige WA: maj til oktober",
-            "Cykloner fra november til april",
-            "Varmen inde i landet er en reel risiko"
+            "Ningaloo: første tirsdag, kl. 10",
+            "14 nætter i skoleferien",
+            "Cyklonsæson november til april"
           ]
         },
         {
-          "heading": "Aboriginal-områder og adgangstilladelser",
+          "heading": "Tilladelser, kæledyr og parkvarsler",
           "body": [
-            "Store dele af Western Australia er aboriginal-områder, hvor du skal have en adgangstilladelse, blandt andet strækninger af ruterne gennem Kimberley og det indre af landet. Du søger om tilladelsen på forhånd hos den ansvarlige instans.",
-            "Nogle ruter kræver en transittilladelse, også selvom du ikke gør holdt. Tjek, om den vej, du vil køre, går gennem et område, der kræver en, for den slags tilladelser bliver ikke udstedt ved grænsen.",
-            "Western Australias parkmyndighed lægger oplysninger om ledige pladser og lukkede campingpladser ud på nettet, og det er vigtigt, for med de afstande kan en lukket plads koste en hel dag.",
-            "Afstandene mellem parkerne i Western Australia gør, at en lukket campingplads kan koste en hel dag, så tjek, at der er plads, før du begiver dig ud på en lang køretur."
+            "For at komme ind i et aboriginal-reservat i Western Australia skal du have en tilladelse fra Department of Planning, Lands and Heritage, og du skal søge om den, før du rejser. Tilladelser udleveres ikke ved grænsen.",
+            "Nogle veje kræver en transittilladelse, selvom du aldrig stopper. Great Central Road mellem Laverton og grænsen til <a data-guide=\"camping-rules-northern-territory\">Northern Territory</a> er det bedst kendte eksempel, og Central Land Council tager sig af siden i Northern Territory.",
+            "Hunde og andre kæledyr er ikke tilladt i mange nationalparker, blandt andet Karijini og Cape Range. Planlæg stop med plads til kæledyr mellem dem, før du tager af sted.",
+            "DBCA offentliggør parkvarsler, og Park Stay WA viser ledige pladser online, hvilket betyder noget, når en lukket campingplads kan koste en hel dag. Bekræft begge dele, før du binder dig til en lang køretur."
           ],
           "tips": [
-            "Søg tilladelse på forhånd, ikke ved porten",
-            "Transittilladelsen dækker gennemkørsel",
-            "Tjek ruten, ikke kun målet"
+            "Søg om tilladelser, før du rejser",
+            "Transittilladelser dækker kørsel igennem",
+            "Ingen hunde i Karijini eller Cape Range"
           ]
         }
       ],
       "faq": [
         [
-          "Må man campere hvor som helst i Western Australia?",
-          "Nej, selvom de store afstande kan få det til at føles sådan. Campingpladserne hos Parks and Wildlife skal bookes og betales, ophold på stationerne er private aftaler, og overnatning langs vejen på rastepladserne med 24-timersregel er beregnet til at hvile, ikke til at blive."
+          "Kan du campere hvor som helst i Western Australia?",
+          "Nej. Camping uden for en godkendt caravanpark eller campingplads kræver godkendelse, camping i nationalparkerne er begrænset til udpegede campingpladser, og skiltede rastepladser til overnatning tillader op til 24 sammenhængende timer uden godkendelse."
         ],
         [
-          "Koster det entré i nationalparkerne i WA?",
-          "Det gør de fleste af de store, pr. bil pr. dag og ud over campinggebyret. Et parkpas til ferien (holiday park pass) dækker entréen i en måned eller mere og har hurtigt tjent sig hjem på en tur op langs kysten."
+          "Tager nationalparkerne i WA entré?",
+          "Nogle gør. Karijini og Cape Range tager 17 AUD pr. almindeligt køretøj, eller 10 AUD med rabat, oven i campinggebyret på 10 til 20 AUD pr. voksen pr. nat. All Parks Pass koster 130 AUD om året, og feriekort starter ved 30 AUD."
         ]
       ],
       "sources": [
         {
           "label": "Explore Parks WA: campinggebyrer"
+        },
+        {
+          "label": "Hvor og hvornår du kan campere i parkerne i WA"
+        },
+        {
+          "label": "Bål, brænde og kogeapparater"
+        },
+        {
+          "label": "Karijini National Park"
+        },
+        {
+          "label": "Cape Range National Park"
+        },
+        {
+          "label": "DBCA: parkkort"
+        },
+        {
+          "label": "Midlertidig overnatning og camping uden for caravanparker"
+        },
+        {
+          "label": "Main Roads WA: lange køreture"
+        },
+        {
+          "label": "DFES: Total Fire Ban"
+        },
+        {
+          "label": "Tilladelser til at komme ind på aboriginal-jord i WA"
+        },
+        {
+          "label": "Guide til at booke en campingplads ved Ningaloo Coast"
+        },
+        {
+          "label": "Bureau of Meteorology: tropiske cykloner"
+        },
+        {
+          "label": "Explore Parks WA: faciliteter på campingpladserne"
+        },
+        {
+          "label": "DBCA: indsamling af brænde"
+        },
+        {
+          "label": "Main Roads WA Travel Map"
+        },
+        {
+          "label": "Ophold på stationer og farme i Western Australia"
         }
       ],
       "priceTable": null
@@ -1355,7 +1574,7 @@
           "body": [
             "Jord på støvler, teltpløkke, cykler og biler flytter plantesygdomme og ukrudtsfrø mellem områderne. Phytophthora dieback i <a data-guide=\"camping-rules-western-australia\">Western Australia</a> spredes på den måde og har lagt store områder med naturlig vegetation øde.",
             "Rengør fodtøj og udstyr mellem regionerne, brug rengøringsstationerne ved indgangene til parkerne i områder med dieback, og hold dig til anlagte stier og veje, hvor skiltene beder om det.",
-            "Brænde flytter også skadedyr. Flere regioner begrænser transport af brænde, og det er sikrere at købe lokalt end at køre med en læs over delstatsgrænser."
+            "Brænde flytter også skadedyr. Flere regioner begrænser transport af brænde, og det er sikrere at købe lokalt end at køre med et læs brænde over delstatsgrænserne."
           ],
           "tips": [
             "Rengør støvlerne mellem regionerne",
@@ -1449,7 +1668,7 @@
         {
           "heading": "Prissæt køretøjet som en samlet pakke",
           "body": [
-            "Sammenlign tilbud for de samme datoer, den samme køretøjsklasse, den samme selvrisiko, den samme kilometerkvote og det samme medfølgende udstyr. En lav overskriftspris med en selvrisiko på fem tusind dollar og en daglig kilometergrænse er et andet produkt end et lidt dyrere uden dem.",
+            "Sammenlign tilbud for de samme datoer, den samme køretøjsklasse, den samme selvrisiko, den samme kilometerkvote og det samme medfølgende udstyr. En lav annonceret pris med en selvrisiko på fem tusind dollar og en daglig kilometergrænse er et andet produkt end et lidt dyrere tilbud uden dem.",
             "Læg derefter det til, der oplyses særskilt: envejsgebyrer, ekstra chauffører, sengetøj og køkkenpakker, transfer fra lufthavnen og prisen for at nedsætte selvrisikoen. De løber jævnligt op i flere hundrede dollar på to uger.",
             "Tjek også depositummet. De fleste udlejere reserverer et stort beløb på et kreditkort, og det mindsker det beløb, du har til rådighed til brændstof og campingpladser under turen."
           ],
@@ -1490,7 +1709,7 @@
           "body": [
             "Før regnskab over de faktiske udgifter de første tre eller fire dage, og sammenlign med planen. De poster, der skrider, er næsten altid mad, kaffe og betalte aktiviteter og ikke overnatning, og det er dem, der er nemmest at rette op på tidligt.",
             "Hav en ægte reserve til det, ingen plan tager med: et dæk, en forrude, en mekanisk fejl, en vejrdag, der tvinger dig ind i en hytte. Et budget uden luft gør hvert lille problem til en beslutning om, om du kan fortsætte.",
-            "Opdager du en overskridelse på tyve procent i den første uge, kan du nøjes med at skære et par restaurantbesøg. Opdager du den i fjerde uge, må du aflyse den del af turen, du glædede dig mest til."
+            "Opdager du en overskridelse på tyve procent i den første uge, kan du nøjes med at droppe et par restaurantbesøg. Opdager du den i fjerde uge, må du aflyse den del af turen, du glædede dig mest til."
           ],
           "tips": [
             "Før regnskab fra den første uge",
@@ -1556,7 +1775,7 @@
         {
           "heading": "Veksl mellem overnatningstyper",
           "body": [
-            "Et værelse med fuld service efter flere nætter i telt eller camper kan løse tøjvask, opladning, vejr og hvile i ét køb. Det kan være bedre værdi end at tvinge en uegnet, billig nat igennem.",
+            "Et værelse med fuld service efter flere nætter i telt eller camper kan løse tøjvask, opladning, vejr og hvile i ét køb. Det kan give mere for pengene end at tvinge en uegnet, billig nat igennem.",
             "Gem de dyre overnatninger til steder, hvor selve stedet bidrager til oplevelsen, i stedet for at bruge dem automatisk på nætter, hvor du bare skal videre."
           ],
           "tips": []
@@ -1565,11 +1784,11 @@
           "heading": "Hvad hver type egentlig er til",
           "body": [
             "En seng på sovesal på et hostel er den billigste seng og giver dig køkken og selskab. En hytte på en <a data-guide=\"caravan-park-vs-holiday-park\">caravanpark</a> koster mere end en plads og mindre end et motel og løser en våd eller varm nat. Et motel er den normale mellemløsning uden for byerne.",
-            "Overnatning på en pub i småbyerne er tit den bedste værdi i Australien: et enkelt værelse over baren og et godt counter meal nedenunder til en pris, der ligger et godt stykke under motellernes.",
+            "Overnatning på en pub i småbyerne giver tit mest for pengene i Australien: et enkelt værelse over baren og et godt counter meal nedenunder til en pris, der ligger et godt stykke under motellernes.",
             "Ophold på stationer og farme er en særlig mulighed i de afsidesliggende egne og ofte den eneste overnatning i flere hundrede kilometer. De fleste tager kontanter, og få har pålidelig onlinebooking."
           ],
           "tips": [
-            "Pubber på landet er ofte bedst værdi",
+            "Pubber på landet giver ofte mest for pengene",
             "Hytter løser en varm eller våd nat",
             "Ophold på stationer fylder hullerne i de afsidesliggende egne"
           ]
@@ -1578,7 +1797,7 @@
           "heading": "Hvornår det er rigtigt at betale for et værelse",
           "body": [
             "Efter flere nætter med <a data-guide=\"is-free-camping-legal-australia\">gratis camping</a>, før et meget tidligt fly eller en færge, når nogen er syge, eller når varmen gør et telt direkte usikkert. I alle tilfældene holder værelset turen i gang og er ikke en luksus.",
-            "Et værelse nulstiller også alt på én gang: tøjvask, varmt vand, opladning, aircondition og en ordentlig nats søvn. Regnet op mod de opgaver, det erstatter, er det tit bedre værdi, end natprisen antyder.",
+            "Et værelse nulstiller også alt på én gang: tøjvask, varmt vand, opladning, aircondition og en ordentlig nats søvn. Regnet op mod de opgaver, det erstatter, giver det tit mere for pengene, end natprisen antyder.",
             "Sæt penge af til nogle få af dem på forhånd, så beslutningen bliver nem og ikke en diskussion. På ture, der går ud fra, at hver eneste nat er gratis, er der ikke plads til den dag, hvor noget går galt."
           ],
           "tips": [
@@ -1608,7 +1827,7 @@
             "Hvor en by er dyr, så se tyve minutter uden for. Priserne på overnatning falder kraftigt lige uden for turistcentret, og kørslen er som regel en bagatel."
           ],
           "tips": [
-            "Sammenlign totaler, ikke overskriftspriser",
+            "Sammenlign totaler, ikke annoncerede priser",
             "Sengelinned og parkering koster ofte ekstra",
             "Beliggenheden kan koste mere end prisen"
           ]
@@ -1663,7 +1882,7 @@
     },
     "domestic-flight-costs-australia-2026": {
       "title": "Indenrigsfly i Australien: realistiske udsalgspriser 2026",
-      "description": "Observerede priser på korte ruter, ruter nordpå og ruter tværs over kontinentet, plus de ekstraudgifter, der gør en overskriftspris til en totalpris.",
+      "description": "Observerede priser på korte ruter, ruter nordpå og ruter tværs over kontinentet, plus de ekstraudgifter, der gør den annoncerede pris til en totalpris.",
       "region": "Australien",
       "imageAlt": "Fly over det australske landskab",
       "intro": "Australiens størrelse gør det fristende at flyve, men det billigste annoncerede sæde er et dateret udsalgseksempel og ikke en fast pris. De observerede bundpriser fra 2026 viser, hvordan markedet ser ud, før bagage, sæder og højsæsondatoer er lagt oveni.",
@@ -1672,7 +1891,7 @@
           "heading": "Udsalgspris eller totalpris for turen",
           "body": [
             "Læg indchecket bagage, sædevalg, betalingsgebyrer, transport til og fra lufthavnen og udgiften til at nå frem til eller erstatte køretøjet til. Et billigt fly kan stadig være den dyre løsning på en tur med meget udstyr.",
-            "Sammenlign de samme datoer og den samme bagage frem for to overskriftspriser."
+            "Sammenlign de samme datoer og den samme bagage frem for to annoncerede priser."
           ],
           "tips": []
         },
@@ -1717,7 +1936,7 @@
             "Campinggasflasker og nogle brændstoffer kan slet ikke medbringes, så planlæg at købe dem på rejsemålet i stedet for at transportere dem."
           ],
           "tips": [
-            "Billige billetter udelukker bagage",
+            "Bagage er ikke med i de billige billetter",
             "Regionale fly har strammere grænser",
             "Gasflasker må ikke med i flyet"
           ]
@@ -1752,7 +1971,7 @@
       "faq": [
         [
           "Hvad koster indenrigsfly i Australien?",
-          "Guiden giver realistiske udsalgspriser og typiske priser på de store ruter frem for overskriftspriser. På de lange etaper, for eksempel fra østkysten til Perth eller Darwin, er det ofte billigere at flyve end at køre, når brændstof og tid er regnet med."
+          "Guiden giver realistiske udsalgspriser og typiske priser på de store ruter frem for annoncerede priser. På de lange etaper, for eksempel fra østkysten til Perth eller Darwin, er det ofte billigere at flyve end at køre, når brændstof og tid er regnet med."
         ],
         [
           "Er det billigst at flyve eller køre i Australien?",
@@ -1864,7 +2083,7 @@
         {
           "heading": "Færger og adgang til øerne",
           "body": [
-            "Spirit of <a data-guide=\"camping-rules-tasmania\">Tasmania</a> er den eneste rute for køretøjer til Tasmanien og en betydelig fast udgift, der prissættes efter køretøjets størrelse. Billetter til fodgængere er langt billigere, og det gør det en gang imellem værd at prissætte leje på øen.",
+            "Spirit of <a data-guide=\"camping-rules-tasmania\">Tasmania</a> er den eneste rute for køretøjer til Tasmanien og en betydelig fast udgift, der prissættes efter køretøjets størrelse. Billetter til fodgængere er langt billigere, så en gang imellem kan det betale sig at regne på at leje en bil på øen.",
             "<a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">Kangaroo</a> Island, Fraser Island og Whitsundays har alle færger for køretøjer eller passagerer, og billetterne til køretøjer er betydeligt dyrere end til passagerer. På nogle øer er et køretøj alligevel unødvendigt.",
             "Book overfarter med køretøj i god tid i højsæsonen. Forbindelserne har begrænset kapacitet og bliver udsolgt, og en overfart, du misser, kan koste dage på en ø-rute."
           ],
@@ -1931,119 +2150,295 @@
       }
     },
     "best-camping-app-australia": {
-      "title": "Hvad du skal kigge efter i en campingapp til Australien",
-      "description": "Vælg en app, der dækker ruten, forklarer stedet og gør gemte steder til en tur, der kan bruges.",
+      "title": "De bedste campingapps i Australien 2026: 7 apps sammenlignet",
+      "description": "AussieCamps, WikiCamps, CAMPS, CamperMate, Hipcamp, Full Range Camping og ExplorOz sammenlignet på pris, brug uden dækning, datakilder og anmeldelser, tjekket oktober 2026.",
       "region": "Australien",
-      "imageAlt": "Campingapp åben ved en australsk vej",
-      "intro": "En brugbar campingapp skal mindske usikkerheden før frakørslen og stadig være til at forstå, når ruten ændrer sig.",
+      "imageAlt": "Campingapp åben ved siden af en australsk vej",
+      "intro": "Syv apps klarer det meste af arbejdet med at finde et sted at overnatte på ture i Australien i 2026, og de er gode til hver sit. Vi laver AussieCamps, og den står først. Nedenfor kan du læse hvorfor, og hvornår en anden app passer bedre til dig. Alle priser og vurderinger nedenfor er tjekket i den australske App Store den 20. oktober 2026.",
       "sections": [
         {
-          "heading": "Dækning ud over campingpladser",
+          "heading": "Den korte konklusion",
           "body": [
-            "Lange ture kræver caravanparker, indendørs overnatning, rastepladser, <a data-guide=\"dump-points-australia-guide\">tømmestationer</a>, drikkevand, brændstof og andre nyttige stop. Et kort med kun campingpladser efterlader huller mellem nætterne.",
-            "Se efter tydelige kategorier og en måde at fokusere på det kortudsnit, du kigger på."
+            "Til dig med iPhone, der vil have officielle data om campingpladser, rastepladser og <a data-guide=\"dump-points-australia-guide\">tømmestationer</a>, som kan læses uden dækning, plus en rejseplanlægger, der samler datoer, afstande og vejrudsigter, er AussieCamps vores valg. Til en database bygget af brugerne med mere end 65.000 steder (udviklerens tal) og nylige anmeldelser fra rejsende er WikiCamps Australia den gamle favorit og et enkelt køb til 9,99 AUD. Til steder, som et redaktionsteam har tjekket på stedet, er CAMPS specialisten.",
+            "Brugere af Android bør starte med <a data-guide=\"wikicamps-alternatives\">WikiCamps</a> eller CAMPS, fordi AussieCamps kun findes til iPhone. Vil du booke en nat på en farm eller en vingård, er Hipcamp den, du skal åbne. Bilister, der kører af asfalten, bør supplere deres campingapp med en topografisk navigationsapp som ExplorOz Traveller."
           ],
-          "tips": []
+          "tips": [],
+          "table": {
+            "caption": "Syv australske campingapps sammenlignet. Priser, platforme og vurderinger er tjekket i den australske App Store og på udvikleres hjemmesider den 20. oktober 2026.",
+            "head": [
+              "App",
+              "Pris (AUD)",
+              "Platforme",
+              "Vurdering i App Store (AU)",
+              "Uden dækning",
+              "Bedst til"
+            ],
+            "rows": [
+              [
+                "AussieCamps",
+                "Gratis at hente, Pass fra 2,99 AUD",
+                "iPhone",
+                "For få vurderinger til at vise endnu",
+                "Stedsoplysninger gemt på telefonen",
+                "Officielle data og rejseplanlægning"
+              ],
+              [
+                "WikiCamps Australia",
+                "9,99 AUD én gang pr. platform",
+                "iPhone, iPad, Android",
+                "4,5 (16.663 vurderinger)",
+                "Kort og op til tre ture",
+                "Den største database fra brugerne"
+              ],
+              [
+                "CAMPS Australia Wide",
+                "Gratis prøveperiode, derefter 14,99 AUD om året",
+                "iPhone, iPad, Android",
+                "4,4 (3.476 vurderinger)",
+                "Downloadede kort og stedsdata med betalt adgang",
+                "Steder tjekket på stedet"
+              ],
+              [
+                "CamperMate",
+                "Gratis",
+                "iPhone, iPad, Android",
+                "4,4 (1.543 vurderinger)",
+                "Downloadede kort og vigtige oplysninger",
+                "Gratis app til Australien og New Zealand"
+              ],
+              [
+                "Hipcamp",
+                "Gratis, du betaler pr. booking",
+                "iPhone, Android, web",
+                "4,8 (22.592 vurderinger)",
+                "Gemte ture og beskeder",
+                "Booking af ophold på privat jord"
+              ],
+              [
+                "Full Range Camping",
+                "Gratis, Premium 49,99 AUD om året (tilmelding sat på pause)",
+                "iPhone, iPad, Android",
+                "4,0 (262 vurderinger)",
+                "Opslag uden dækning med Premium",
+                "Medlemsrabatter og house sitting"
+              ],
+              [
+                "ExplorOz Traveller",
+                "59,99 AUD, plus kort til brug uden dækning fra 59,99 AUD om året",
+                "iPhone, iPad, Android",
+                "4,3 (1.352 vurderinger)",
+                "Hele det australske topografiske kort, når det er købt",
+                "Spor i outbacken og ture i 4WD"
+              ]
+            ]
+          }
         },
         {
-          "heading": "Oplysninger, der påvirker beslutningen",
+          "heading": "1. AussieCamps: bedst til officielle data og rejseplanlægning på iPhone",
           "body": [
-            "Adgang, priser, toiletter, vand, strøm, hunde, om stedet passer til køretøjet og bookingoplysninger betyder mere end et stort antal nåle.",
-            "Stedsoplysninger offline er værdifulde, også uden for dækning, mens levende kort, vejr og ruteberegning stadig kræver data."
+            "AussieCamps er vores egen app, bygget til rejsende, der vil vælge aftenens stop og planlægge resten af turen ét sted. Oplysningerne om campingpladser, rastepladser og faciliteter kommer fra delstaternes parkmyndigheder, vejmyndigheder og offentlige datasæt om faciliteter som NSW National Parks and Wildlife Service, Parks Victoria, Main Roads WA og National Public Toilet Map. Den nuværende version har 1.838 campingpladser, 5.552 rastepladser, 1.393 <a data-guide=\"dump-points-australia-guide\">tømmestationer</a>, 3.004 steder med drikkevand og 1.186 offentlige toiletter.",
+            "Stedoversigten ligger gemt på telefonen, så faciliteter, priser, regler og adgangsnoter kan læses, også efter at den sidste streg dækning er væk. Kortfliser, rutevejledning, vejr og fotos kræver stadig forbindelse, og der er intet kort til brug uden dækning. <a data-guide=\"how-to-plan-trip-aussiecamps\">Rejseplanlæggeren</a> sætter stoppene i rækkefølge, viser køreafstand og køretid for hver etape, tilføjer ankomstdatoer med en vejrudsigt for hvert stop og kan synkronisere turen med din kalender.",
+            "Det er gratis at hente appen, og det er hoteller, moteller, B&B, holiday parks og ture, der kan bookes hos samarbejdspartneren BookEasy, også. Campingpladser, rastepladser, tømmestationer, vand, parker, guider, <a data-guide=\"save-collections-aussiecamps\">samlinger</a> og ture kræver AussieCamps Pass, et ugeabonnement eller et engangskøb for livstid. Den australske App Store viser køb i appen fra 2,99 AUD til 9,99 AUD.",
+            "Det kan vi godt lide: data med en navngiven officiel kilde, oplysninger, der virker <a data-guide=\"camping-without-phone-signal\">uden dækning</a>, uden at du først skal downloade regioner, og filtre for vand, toiletter, bad, strøm, hunde og adgang for køretøjer. Det skal du veje: den findes kun til iPhone, den har færre steder end WikiCamps, og der er ingen anmeldelser fra rejsende, så du ser ikke en kommentar fra sidste uge om en mudret adgangsvej."
           ],
           "tips": [
-            "Stedsoplysninger offline",
-            "Adgangsfiltre",
-            "Turplanlægning",
-            "Kildelinks"
+            "Bedst til: iPhone-brugere, der planlægger i forvejen",
+            "Svagt punkt: ingen version til Android, ingen anmeldelser fra brugere",
+            "Pris: gratis at hente, Pass til campingdata"
           ]
         },
         {
-          "heading": "Fra gemt nål til rute",
+          "heading": "2. WikiCamps Australia: bedst til den største database fra brugerne",
           "body": [
-            "En stærk app bør organisere favoritter, holde mulige steder adskilt fra bookede ophold og sætte turens stop i rækkefølge med noter.",
-            "Vælg det produkt, hvis arbejdsgang passer til, hvordan du rejser, ikke det med den længste liste i markedsføringen."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Offline-data er den første test",
-          "body": [
-            "I Australien forsvinder mobildækningen hurtigere end næsten alle andre steder, og det sker netop dér, hvor du <a data-guide=\"choosing-campsite-australia\">vælger campingplads</a>. En app, der skal bruge en forbindelse for at vise oplysninger om et sted, er ikke brugbar på det meste af kontinentet.",
-            "Offline betyder forskellige ting: Nogle værktøjer gemmer kun kortfliser, så du står med et kort og ingen oplysninger. Andre følger med stedoversigten, så kategorier, faciliteter, priser og adgangsnoter kan læses uden <a data-guide=\"camping-without-phone-signal\">dækning</a>.",
-            "Test den, før du forlader den sidste by. Sæt telefonen i flytilstand, og åbn et sted, du ikke har kigget på. Det, der kommer frem, er det, du har derude."
+            "WikiCamps har været en del af australske roadtrips i mere end ti år, og styrken er fællesskabet. Hvert opslag, hvert foto og hver anmeldelse kommer fra brugerne, og udvikleren oplyser mere end 65.000 steder, 1,3 million anmeldelser og 900.000 fotos. Det betyder nye kommentarer om vejforhold, myg eller en ødelagt vandhane på en <a data-guide=\"is-free-camping-legal-australia\">gratis plads</a>, som intet officielt datasæt har.",
+            "Den koster 9,99 AUD én gang, uden abonnement, men du betaler særskilt på iPhone og Android. Rejseplanlæggeren beregner <a data-guide=\"australia-road-trip-fuel-cost-2026\">brændstofudgiften</a> langs en rute, og nogle steder kan du booke i appen. Uden dækning kan du bruge kortene og op til tre planlagte ture.",
+            "Det kan vi godt lide: den enorme dækning, ærlige nye anmeldelser og én fair pris. Det skal du veje: nøjagtigheden afhænger af, at brugerne holder opslagene opdaterede, og grænsen på tre planlagte ture uden dækning."
           ],
           "tips": [
-            "Test offline i flytilstand først",
-            "Gemte kortfliser er ikke gemte oplysninger",
-            "Dækningen stopper, hvor du har mest brug for den"
+            "Bedst til: den bredeste dækning og nye anmeldelser",
+            "Svagt punkt: nøjagtigheden, som brugerne vedligeholder, varierer",
+            "Pris: 9,99 AUD én gang pr. platform"
           ]
         },
         {
-          "heading": "Klarhed om reglerne og hvordan appen finansieres",
+          "heading": "3. CAMPS Australia Wide: bedst til steder tjekket på stedet",
           "body": [
-            "Den anden test er, om appen skelner mellem det, der juridisk er forskelligt: en campingplads i en nationalpark med tilladelse, en kommunal <a data-guide=\"is-free-camping-legal-australia\">gratis plads</a> med tidsbegrænsning, en rasteplads kun til hvil og privat grund. Når de flyder sammen, giver det bøder.",
-            "Den tredje er, hvordan appen tjener penge. Et værktøj, der er finansieret af bookinger, har en strukturel grund til at vise bookbare kommercielle steder før gratis, hvilket ikke er uærligt, men som former, hvad du ser først.",
-            "Et abonnement eller en engangslicens fjerner den tilskyndelse. En gratis app uden synlig indtægt er værd at tænke et øjeblik over, hvor værdien går hen."
+            "CAMPS kommer fra Camps Australia Wide, hvis team har tjekket steder siden 1992. Appen viser mere end 16.000 campingpladser, som firmaet siger er tjekket personligt, uden betalte opslag. Anmeldelser fra brugerne står ved siden af de redaktionelle data, og appen har desuden brændstofpriser i realtid, en <a data-guide=\"how-to-plan-trip-aussiecamps\">rejseplanlægger</a> og booking i appen.",
+            "Adgangen starter med en gratis prøveperiode på 7 dage og koster derefter 14,99 AUD om året. Med den betalte plan kan du downloade kort med stedsoplysninger, så oplysningerne kan bruges uden dækning, når de er hentet.",
+            "Det kan vi godt lide: en redigeret liste fra folk, der besøger stederne, en lang historik og en lav årlig pris. Det skal du veje: hele appen kræver abonnement efter prøveperioden, en mindre liste end <a data-guide=\"wikicamps-alternatives\">WikiCamps</a> og ingen version til computer, hvis du vil planlægge på en bærbar."
           ],
           "tips": [
-            "De juridiske kategorier skal være tydelige",
-            "Apps finansieret af bookinger foretrækker betalte steder",
-            "Vid, hvordan appen finansieres"
+            "Bedst til: rejsende, der stoler på redigerede data",
+            "Svagt punkt: årligt abonnement efter en prøveperiode på 7 dage",
+            "Pris: 14,99 AUD om året efter en prøveperiode"
           ]
         },
         {
-          "heading": "Turplanlægning, der overlever en ændring",
+          "heading": "4. CamperMate: bedste gratis app til Australien og New Zealand",
           "body": [
-            "Den fjerde test er, om appen hjælper, når planen går i stykker, og det gør den på en tur i Australien. Stop i rækkefølge, gemte alternativer, noter knyttet til det rigtige sted og en synlig rutedistance er det, der tæller.",
-            "Bogmærker alene er ikke turplanlægning. Forskellen viser sig, når en campingplads er fuld, en vej er lukket, eller vejret slår om, og du skal omlægge uden at bygge forfra.",
-            "<a data-guide=\"how-to-use-aussiecamps-filters\">Filtre</a> betyder også noget, især længde på køretøjet og adgang, for Australien har flere store køretøjer og flere veje, der ikke passer til dem, end de fleste lande."
+            "<a data-guide=\"campermate-alternatives\">CamperMate</a> dækker begge sider af Tasmanhavet i én gratis app, og det passer til rejsende, der kører både Australien og New Zealand på samme tur. Den viser mere end 70.000 interessepunkter, blandt andet gratis og betalte campingpladser, holiday parks, tømmestationer, toiletter og wifi, med anmeldelser og fotos fra rejsende.",
+            "Kort og vigtige oplysninger kan downloades til brug uden dækning. Appen findes på 27 sprog, en reel hjælp for besøgende, der ikke har engelsk som modersmål.",
+            "Det kan vi godt lide: gratis at bruge, to lande i én app og bred sprogstøtte. Det skal du veje: den blander camping med generelle interessepunkter, opslagene kommer fra brugerne uden navngivne officielle kilder, og bookinger og tilbud står ved siden af de gratis muligheder."
           ],
           "tips": [
-            "Bogmærker er ikke turplanlægning",
-            "Filtrering efter længde på køretøjet betyder noget her",
-            "Bedøm den efter, hvordan den håndterer en ændring"
+            "Bedst til: gratis brug i to lande",
+            "Svagt punkt: ingen navngivne officielle kilder",
+            "Pris: gratis"
           ]
         },
         {
-          "heading": "Intet erstatter skiltet",
+          "heading": "5. Hipcamp: bedst til booking af ophold på privat jord",
           "body": [
-            "Alle apps er et planlægningsredskab. Skilte på stedet, aktuelle <a data-guide=\"campfires-camping-australia\">bålforbud</a>, anvisninger fra rangers og kommunale regler går forud for alt, hvad der ligger gemt på en telefon, og de ændrer sig hurtigere, end noget datasæt opdateres.",
-            "Før du slår dig ned for natten, så læs skiltet ved indgangen. Er det uenigt med appen, vinder skiltet. Den vane koster ingenting og er det, der holder <a data-guide=\"is-free-camping-legal-australia\">gratis camping</a>-områder åbne.",
-            "De fleste rejsende ender med at bruge mere end én app, og det er et fornuftigt resultat og ikke et tegn på, at man ikke kunne vælge. Brug hver til det, den faktisk er god til."
+            "Hipcamp er en bookingplatform og ikke en app til at finde campingpladser. Landmænd, ejere af stationer, vingårde og andre jordejere lægger deres egne campingpladser, glamping-telte og pladser til campingvogne ud, og du booker og betaler i appen. Det er den app på listen, der har de højeste vurderinger, med 4,8 stjerner fra mere end 22.000 australske vurderinger.",
+            "Det er gratis at hente appen, og hvert ophold har den pris, værten har sat. Appen gemmer dine bookede ture og beskeder fra værter, så du kan se dem uden dækning, men du kan ikke søge efter nye ophold uden dækning.",
+            "Det kan vi godt lide: særlige steder, du ikke finder i offentlige oversigter, tydelige fotos og anmeldelser og booking ét sted. Det skal du veje: den er ikke bygget til <a data-guide=\"is-free-camping-legal-australia\">gratis pladser</a>, rastepladser eller tømmestationer, og de fleste ophold skal bookes i forvejen."
           ],
           "tips": [
-            "Skilte går forud for alle apps",
-            "Bålforbud ændrer sig dagligt",
-            "Det er normalt at bruge to apps"
+            "Bedst til: en planlagt weekend et usædvanligt sted",
+            "Svagt punkt: ingen gratis pladser eller stop ved vejene",
+            "Pris: gratis app, du betaler hver vært"
           ]
         },
         {
-          "heading": "Hvad ingen app kan",
+          "heading": "6. Full Range Camping: bedst til medlemsrabatter",
           "body": [
-            "Ingen app bekræfter, at et sted er åbent i dag, at et <a data-guide=\"campfires-camping-australia\">bålforbud</a> lige er udstedt, eller at en vej er lukket efter nattens regn. Det ændrer sig hurtigere, end noget datasæt opdateres.",
-            "Brug appen til at planlægge og lave en kort liste, og kontrollér derefter alt afgørende hos den ansvarlige myndighed, vejmyndigheden i delstaten eller på skiltet ved indgangen. Den arbejdsdeling er det, der gør værktøjet virkelig brugbart.",
-            "Uanset hvilken du vælger, så test den ordentligt i den første uge, mens du stadig nemt kan få fat i alternativer, i stedet for at opdage dens grænser et sted langt væk.",
-            "Test enhver app i flytilstand, før du stoler på den, for det, der kommer frem uden <a data-guide=\"camping-without-phone-signal\">dækning</a>, er netop det, du har, når det gælder."
+            "Full Range Camping er det nuværende navn på FreeRange Camping, en oversigt over mere end 11.000 campingsteder og virksomheder med et stort medlemskab. Appen er gratis, og Premium-medlemskab er opgivet til 49,99 AUD om året eller 99,99 AUD for livstid. Den 20. oktober 2026 stod der på hjemmesiden, at Premium-medlemskaber var utilgængelige i øjeblikket, mens appens kortsoftware opdateres, så tjek, før du planlægger efter den.",
+            "Premium giver adgang til opslagene uden dækning, medlemsrabatter, som firmaet sætter til op til 30 procent på nogle campingpladser, og vejrradar. Samme medlemskab giver adgang til opslag om house sitting og arbejde mod kost og logi, som folk på lange ture bruger til at skære i <a data-guide=\"accommodation-costs-australia-2026\">udgifterne til overnatning</a>.",
+            "Det kan vi godt lide: et medlemskab, der kan betale sig selv, hvis du bruger rabatterne, og ekstra til lange ture. Det skal du veje: adgang uden dækning kræver Premium, og appen har langt færre vurderinger i App Store end de førende, 262 på tidspunktet for vores tjek."
           ],
           "tips": [
-            "Apps kan ikke bekræfte dagens status",
-            "Kontrollér det afgørende direkte",
-            "Planlæg med appen, bekræft hos kilden"
+            "Bedst til: lange ture, der bruger rabatter",
+            "Svagt punkt: brug uden dækning er en betalt funktion",
+            "Pris: gratis, Premium 49,99 AUD om året"
+          ]
+        },
+        {
+          "heading": "7. ExplorOz Traveller: bedst til spor i outbacken og ture i 4WD",
+          "body": [
+            "ExplorOz Traveller er først og fremmest en navigations- og turapp, bygget om EOTopo, et topografisk kort over hele Australien med navngivne veje, spor til 4WD og vandre- og mountainbikestier. Udvikleren oplister mere end 100.000 steder, blandt andet campingpladser, brændstof og vand, så den også kan bruges til at finde campingpladser, når du først er på et afsides spor.",
+            "Appen koster 59,99 AUD, og brug uden dækning kræver et køb i appen: EOTopo Annual Access til 59,99 AUD om året, EOTopo 2026 4-Year Access til 79,99 AUD eller Pro Access til 99,99 AUD om året, som også giver live tracking, deling og eksport af GPX. Når det er hentet, virker hele det australske kort uden dækning, og det er præcis, hvad en ørkentur kræver.",
+            "Det kan vi godt lide: et fuldt topografisk kort over landet på telefonen og seriøse detaljer om spor, som de fleste apps ikke tegner. Det skal du veje: den har den højeste pris at starte med og det første år af alle apps her, og den er mere, end de fleste rejsende på asfalterede veje har brug for."
+          ],
+          "tips": [
+            "Bedst til: afsides spor og ørkenture",
+            "Svagt punkt: den højeste pris for det første år her",
+            "Pris: 59,99 AUD plus et kort til brug uden dækning"
+          ]
+        },
+        {
+          "heading": "Sådan valgte og sammenlignede vi",
+          "body": [
+            "Vi tog udgangspunkt i de bedst kendte australske camping- og outbackapps og beholdt dem, der hjælper dig med at vælge, hvor du skal overnatte, eller hvordan du kommer derhen. Hver app er tjekket den 20. oktober 2026 for pris i den australske App Store, køb i appen, vurdering, platforme og seneste opdatering og op mod udviklerens egen beskrivelse af sine data og af, hvordan den virker uden dækning.",
+            "Vi sammenlignede fem ting: hvor dataene kommer fra, hvad der stadig virker <a data-guide=\"camping-without-phone-signal\">uden dækning</a>, hvad den koster på en typisk tur, hvor godt den gør gemte steder til en plan, og hvem den egentlig er til. Vurderinger vises, som de er offentliggjort. En ny app som vores har for få vurderinger til at vise, og det er godt at vide.",
+            "AussieCamps betales af Pass, og gratis opslag fra BookEasy er med til at holde appen gratis at hente. Ingen anden app på listen har betalt for at komme med eller har haft indflydelse på, hvad vi skrev. Hvis en pris eller en funktion har ændret sig, siden vi tjekkede, så skriv til os på supportsiden, så retter vi det."
+          ],
+          "tips": [
+            "Tjekket den 20. oktober 2026",
+            "Udviklernes påstande gengives som påstande",
+            "Ingen app har betalt for at komme med"
+          ]
+        },
+        {
+          "heading": "Hvilken app passer til hvilken tur",
+          "body": [
+            "De fleste rejsende ender med to apps: én til at finde steder og én til noget, den første ikke kan, for eksempel at booke et ophold på en farm eller navigere på et spor i 4WD. Tabellen sætter almindelige ture sammen med et sted at starte."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Et udgangspunkt efter type tur. Kombinér apps, hvor én ikke dækker det hele.",
+            "head": [
+              "Din tur",
+              "Start med",
+              "Tilføj om nødvendigt"
+            ],
+            "rows": [
+              [
+                "Roadtrip med iPhone på officielle campingpladser",
+                "AussieCamps",
+                "Hipcamp til en booket weekend"
+              ],
+              [
+                "Android-telefon, uanset tur",
+                "WikiCamps Australia",
+                "CamperMate"
+              ],
+              [
+                "Gratis camping med nye anmeldelser",
+                "WikiCamps Australia",
+                "AussieCamps til rastepladser og vand"
+              ],
+              [
+                "Australien og New Zealand på samme tur",
+                "CamperMate",
+                "KiwiCamping til New Zealand"
+              ],
+              [
+                "Afsides spor i 4WD",
+                "ExplorOz Traveller",
+                "En campingapp til stop over natten"
+              ],
+              [
+                "Lang tur med et stramt budget",
+                "Full Range Camping",
+                "WikiCamps Australia"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Test en campingapp, før du stoler på den",
+          "body": [
+            "Sæt telefonen i flytilstand, og åbn et sted, du ikke har kigget på før. Det, der dukker op, er det, du har derude. Nogle apps gemmer kun kortfliser, andre beholder oplysningerne om stederne, og nogle gemmer ingenting, medmindre du først har downloadet en region.",
+            "Alle apps er et hjælpemiddel til planlægning. <a data-guide=\"campfires-camping-australia\">Bålforbud</a>, lukninger efter regn og anvisninger fra rangere ændrer sig hurtigere end noget datasæt, så læs skiltet ved indgangen, og tjek hos den ansvarlige myndighed, før du slår dig ned. Hvis skiltet og appen er uenige, er det skiltet, der gælder."
+          ],
+          "tips": [
+            "Test uden dækning i flytilstand først",
+            "Skilte slår enhver app",
+            "Det er normalt at have to apps"
           ]
         }
       ],
       "faq": [
         [
-          "Hvad skal en campingapp til Australien egentlig kunne?",
-          "Virke uden dækning, have korrekte oplysninger om priser og faciliteter, kunne filtrere efter et reelt spørgsmål og ikke kun en kategori og være ærlig om adgangen. Dækning er ikke meget værd, hvis oplysningerne er forkerte eller ulæselige uden for nettet."
+          "Hvad er den bedste campingapp i Australien?",
+          "Det afhænger af din telefon og din måde at rejse på. På iPhone kombinerer AussieCamps officielle data om campingpladser, rastepladser og tømmestationer, som kan læses uden dækning, med en komplet rejseplanlægger. WikiCamps Australia har en database bygget af brugerne med mere end 65.000 steder for et engangsbeløb på 9,99 AUD, og CAMPS viser steder, som firmaets eget team har tjekket."
         ],
         [
-          "Er én campingapp nok til Australien?",
-          "Til at finde steder og planlægge, som regel. De fleste rejsende beholder stadig delstatsparkernes bookingapps til tilladelser, for NSW, Queensland, Victoria, South Australia og WA har hver deres system."
+          "Er WikiCamps gratis?",
+          "Nej. Fra oktober 2026 koster WikiCamps Australia 9,99 AUD som et engangskøb på hver platform, uden abonnement. CamperMate er et gratis alternativ."
+        ],
+        [
+          "Hvilken campingapp virker uden dækning?",
+          "De gemmer forskellige ting. AussieCamps gemmer stedsoplysninger på telefonen uden et downloadtrin, mens kortfliser, rutevejledning og vejr kræver dækning. WikiCamps gemmer kort og op til tre planlagte ture, CAMPS og CamperMate lader dig downloade kort og stedsoplysninger, og Full Range Camping gemmer opslag til brug uden dækning med Premium."
+        ],
+        [
+          "Findes der en gratis campingapp til Australien?",
+          "CamperMate er gratis, og Hipcamp er gratis at hente, hvor hvert ophold betales til værten. AussieCamps er gratis at hente med gratis opslag om hoteller, moteller og holiday parks, men data om campingpladser, rastepladser og tømmestationer kræver Pass."
         ]
       ],
-      "sources": [],
+      "sources": [
+        {
+          "label": "WikiCamps Australia: pris, dækning og brug uden dækning"
+        },
+        {
+          "label": "Camps Australia Wide: appen CAMPS"
+        },
+        {
+          "label": "CamperMate: dækning og funktioner"
+        },
+        {
+          "label": "Hipcamp: om"
+        },
+        {
+          "label": "Full Range Camping: medlemskab og gemte data"
+        },
+        {
+          "label": "Full Range Camping: status for Premium-medlemskab"
+        },
+        {
+          "label": "ExplorOz Traveller"
+        }
+      ],
       "priceTable": null
     },
     "best-time-camping-australia": {
@@ -2111,7 +2506,7 @@
           "heading": "Regional timing kort fortalt",
           "body": [
             "<a data-guide=\"camping-rules-tasmania\">Tasmanien</a> og bjergområderne er sommerdestinationer, cirka fra december til marts, og der kan komme sne uden for den periode. Det Røde Center er bedst om vinteren, med kolde nætter og behagelige dage.",
-            "Sydvest i <a data-guide=\"camping-rules-western-australia\">Western Australia</a> har højsæson med vilde blomster fra august til november, mens nordvest fungerer fra maj til oktober. Kimberley og Gibb River Road er strengt taget kun tørsæson.",
+            "Sydvest i <a data-guide=\"camping-rules-western-australia\">Western Australia</a> har højsæson med vilde blomster fra august til november, mens nordvest fungerer fra maj til oktober. Kimberley og Gibb River Road er udelukkende en mulighed i tørtiden.",
             "Østkysten kan bruges hele året og forskydes nordpå om vinteren og sydpå om sommeren. <a data-guide=\"camping-rules-queensland\">Queenslands</a> tropiske nord følger mønstret for nord og ikke det for kysten."
           ],
           "tips": [
@@ -2171,7 +2566,7 @@
         {
           "heading": "Fra Brisbane til Capricorn Coast",
           "body": [
-            "Start med Noosa eller Cooloola-kysten, og beslut så, om K'gari passer til dit køretøj og din tidsplan. Øture kræver tilladelser, tidevandsvinduer og blød sand, så de skal aldrig behandles som en spontan sidevej.",
+            "Start med Noosa eller Cooloola-kysten, og beslut så, om K'gari passer til dit køretøj og din tidsplan. En tur til øen kræver tilladelser, tidevandsvinduer og kørsel i blødt sand, så den skal aldrig behandles som en spontan afstikker.",
             "Agnes Water er en behagelig pause før de længere distancer på den centrale kyst. Fyld forsyninger op i de store byer, og lad ikke en sen ankomst ende som <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">natkørsel</a> gennem et område med vilde dyr."
           ],
           "tips": []
@@ -2213,7 +2608,7 @@
           "heading": "Krokodillerne er begrænsningen heroppe",
           "body": [
             "Saltvandskrokodiller lever i alle vandveje i det tropiske nord, også i åer, mangrover, flodmundinger og selve strandene. Kysten ved Daintree og Cape Tribulation er førsteklasses levested, og risikoen er reel og ikke teoretisk.",
-            "Bad ikke i eller ved nogen vandvej, medmindre det er et udpeget sikkert badested. Camper ikke inden for få meter fra vandet, rens ikke fisk ved kanten, og stå ikke ude i det lave vand for at tage et billede.",
+            "Bad ikke i eller ved vandløb, medmindre det er et udpeget sikkert badested. Campér ikke inden for få meter af vandet, rens ikke fisk ved vandkanten, og stil dig ikke ud i det lave vand for at tage et billede.",
             "Det sikre badevand her er de udpegede ferskvandshuller som Mossman Gorge og Emmagen Creek, og selv de har skilte, der er værd at læse hver gang, fordi forholdene ændrer sig."
           ],
           "tips": [
@@ -2227,7 +2622,7 @@
           "body": [
             "Daintree er den ældste regnskov på planeten, der har overlevet uafbrudt, og gangbroerne ved Marrdja og Dubuji er den nemmeste måde at se den ordentligt på. Tidligt om morgenen er chancen for kasuarer størst, og der er færrest mennesker.",
             "Ved Cape Tribulation mødes regnskoven og revet, og revture sejler fra Cape Trib og Port Douglas. De nordlige revområder er generelt i bedre stand end dem tættere på Cairns.",
-            "<a data-guide=\"best-time-camping-australia\">Regntiden</a>, cirka fra november til april, giver kraftig regn, lukkede veje og stinger-sæson. Den tørre sæson er den ligetil tid at besøge og også den, hvor veje og ture kører pålideligt."
+            "<a data-guide=\"best-time-camping-australia\">Regntiden</a>, cirka fra november til april, giver kraftig regn, lukkede veje og sæson for giftige vandmænd. Tørtiden er det oplagte tidspunkt at besøge området, og det er også der, veje og ture kører pålideligt."
           ],
           "tips": [
             "Gangbroerne er den nemme adgang",
@@ -2269,10 +2664,10 @@
     },
     "great-ocean-road-camping-guide": {
       "title": "Camping på Great Ocean Road: en rute på 3 dage",
-      "description": "Surfstrande, skovsving og en sidste solnedgang over Twelve Apostles.",
+      "description": "Surfstrande, sving gennem regnskoven og en sidste solnedgang over Twelve Apostles.",
       "region": "Victorias kyst",
       "imageAlt": "Kysten ved Great Ocean Road i Victoria",
-      "intro": "Tre dage giver Great Ocean Road luft nok til ture til fyrtårne, afstikkere i skoven og en aften ved Sydhavet. Kør vestpå fra Torquay, og tag den sidste nat nær Port Campbell eller Warrnambool.",
+      "intro": "Tre dage giver Great Ocean Road luft nok til ture til fyrtårne, afstikkere i skoven og en aften ved Det Sydlige Ishav. Kør vestpå fra Torquay, og tag den sidste nat nær Port Campbell eller Warrnambool.",
       "sections": [
         {
           "heading": "Dag 1: fra Torquay til Apollo Bay",
@@ -2349,13 +2744,13 @@
             "Glødeorme viser sig i området ved Melba Gully efter mørkets frembrud, og turen er kort og nem. Tag et rødt lys med, og lad øjnene vænne sig til mørket i stedet for at feje med en lommelygte."
           ],
           "tips": [
-            "Otways er mulighed i vådt vejr",
+            "Otways er en god mulighed i vådt vejr",
             "Koalaer langs vejen til Cape Otway",
             "Rødt lys til glødeormene"
           ]
         },
         {
-          "heading": "Længere end Twelve Apostles",
+          "heading": "Videre forbi Twelve Apostles",
           "body": [
             "De fleste vender om ved Apostles, hvilket betyder, at kysten mod vest til Warrnambool gennem Bay of Islands og Bay of Martyrs er roligere og kan hævdes at være lige så god. Den ekstra time er umagen værd.",
             "Warrnambool har selv hvalernes yngleplads ved Logans Beach fra maj til oktober og fungerer som sidste nat, før du vender ind i landet eller fortsætter til <a data-guide=\"camping-rules-south-australia\">South Australia</a>.",
@@ -2442,7 +2837,7 @@
         "metaTitle": "Køretidsberegner til Australien: rigtige dage på roadtrip",
         "metaDescription": "Beregn, hvor lang en køredag i Australien reelt er, ud fra distance, vejtype og stop. Viser gennemsnitsfarterne, formlen og et regneeksempel.",
         "title": "Køretidsberegner til roadtrip i Australien",
-        "intro": "Kortapps opgiver køretiden på en ryddelig vej. Her planlægger du den dag, du faktisk kommer til at køre: en gennemsnitsfart for vejtypen plus den tid, du står stille for at tanke, spise og holde pause.",
+        "intro": "Kortapps opgiver køretiden på en fri vej uden trafik. Her planlægger du den dag, du faktisk kommer til at køre: en gennemsnitsfart for vejtypen plus den tid, du står stille for at tanke, spise og holde pause.",
         "formula": [
           "Køretid i minutter = distance (km) ÷ gennemsnitsfart (km/t) × 60",
           "Samlet tid i minutter = køretid i minutter + stop × 20",
