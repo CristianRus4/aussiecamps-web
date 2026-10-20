@@ -19,19 +19,24 @@ GSC impressions; src/make_batch.py; src/check.py; agent-brief.md for drafting su
 - Open for orchestrator: AU English still says "Street View" in 7 UI strings (KiwiCamping now says Apple Look Around).
 
 ## Guides done (Opus-reviewed)
-- AU (18 of 80): alcohol-coffee-drink-prices, public-transport-costs, eating-out, domestic-flight-costs,
+- AU (23 of 80): alcohol-coffee-drink-prices, public-transport-costs, eating-out, domestic-flight-costs,
   australia-grocery-prices, best-time-camping, interstate-biosecurity-road-trip, camping-water-planning,
   bus-train-costs, accommodation-costs, campervan-road-trip-budget, camping-without-phone-signal,
-  campervan-driving-safety-guide, how-to-use-filters, save-collections, place-details, widgets-guide, how-to-plan-trip.
-- NZ (18 of 89): new-zealand-grocery-prices, doc-huts-guide, public-transport-costs, doc-campsite-rules,
+  campervan-driving-safety-guide, how-to-use-filters, save-collections, place-details, widgets-guide, how-to-plan-trip,
+  great-ocean-road, east-coast-road-trip, perth-to-broome, brisbane-to-cape-tribulation, melbourne-to-adelaide.
+- NZ (23 of 89): new-zealand-grocery-prices, doc-huts-guide, public-transport-costs, doc-campsite-rules,
   campervan-road-rules, speed-limits, towing-caravan, biosecurity-camping-gear, road-trip-fuel-cost, travel-cost,
   eating-out, accommodation-costs, domestic-flight-costs, road-signs, wof-registration, volcanic-safety,
-  beer-wine-coffee-prices, overseas-driver-licence.
+  beer-wine-coffee-prices, overseas-driver-licence, east-cape, northland-cape-reinga, arthurs-pass, dogs-camping,
+  cook-strait-ferry.
+
+## Go-live review
+- Opus native review of the whole go-live set (UI, consent, home, support, privacy incl. Website analytics, terms) done on both
+  sites (37 AU / 27 NZ units reworded, one wrong-country string fixed on NZ). Four guide batches done (stop point of this run).
 
 ## Next
-- Batch 4 (drafting): AU great-ocean-road, east-coast-road-trip, perth-to-broome, brisbane-to-cape-tribulation,
-  melbourne-to-adelaide; NZ east-cape, northland-cape-reinga, arthurs-pass, dogs-camping, cook-strait-ferry.
-- Then `python3 /tmp/pl-i18n/src/queue.py a|k` order (AU 23 excluded pages are skipped), `tools` namespace, new guides from main.
+- `tools` namespace (AU 116, NZ 152 strings), then `python3 /tmp/pl-i18n/src/queue.py a|k` order (AU 23 excluded pages skipped
+  until released), new guides from main, road trips.
 
 ## Blockers and open questions for the orchestrator
 - Plurals: the site prints "{n} {guidePlural}" and "{n} {places}" with a singular/plural switch only. Polish needs
