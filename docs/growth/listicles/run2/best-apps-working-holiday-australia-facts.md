@@ -21,8 +21,8 @@ Lookup pattern for every app below: https://itunes.apple.com/lookup?id=<ID>&coun
 - Listing https://apps.apple.com/au/app/myvevo/id988252820; developer Department of Home Affairs; free, no IAP; rating 4.81 from 4,420 ratings; v3.2.0, updated 2025-11-03 (https://itunes.apple.com/lookup?id=988252820&country=au, checked 2026-10-20)
 - Store text: "check your Australian visa work rights, study rights, travel conditions and expiry date"; can "email your visa details directly from myVEVO to your employer, school or other organisation" (same URL, checked 2026-10-20)
 - WHM use: see the 417/462 work condition (including the 6-month employer limit, 8547) and send the visa details to an employer. First use needs your visa grant number/passport details (store text, truncated; exact fields unverified).
-- Android: unverified; a web search found no Google Play listing for myVEVO (web VEVO check at https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/check-conditions-online is official). Do not claim an Android app.
-- Con: last update was 2025-11; Android app not confirmed, so Android users use the website.
+- Android: yes. myVEVO is on Google Play as au.gov.border.myvevo, published by the Department of Home Affairs, 500K+ downloads, updated 2026-08-20 (https://play.google.com/store/apps/details?id=au.gov.border.myvevo, checked 2026-10-20 in content review). The web VEVO check at https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/check-conditions-online is also official.
+- Con: last iPhone update was 2025-11.
 
 ### Australian Immi App (Home Affairs) - not a WHM tool
 - https://apps.apple.com/au/app/australian-immi-app/id6502375310; only for applicants who received a "Requirement to provide personal identifiers" letter (store text). Not relevant; see Dropped.
@@ -123,6 +123,7 @@ Note: immi.homeaffairs.gov.au pages were fetched with curl (content embedded in 
 
 5. Visa conditions: 6 months with one employer (condition 8547)
 - WHMs usually can work for the same employer for 6 months only; the 6 months runs from the first day of work and includes part-time, casual and voluntary work; it resets when a second WHM visa is granted or a bridging visa takes effect. No permission needed for up to 12 months with the same employer if you work in different locations (no one location over 6 months), or in plant and animal cultivation anywhere in Australia, or in certain industries in northern Australia (fishing and pearling, tree farming and felling, construction, mining; per the search extract of the Home Affairs page, which says older material also listed aged care and disability services, so confirm). Otherwise request permission (online form for condition 8547); grounds include awaiting a visa that allows ongoing full-time work, or work critical to the employer with a supporting letter. (https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-holiday-417/6-month-work-limitation and https://immi.homeaffairs.gov.au/what-we-do/whm-program/specified-work-conditions/WHM-condition-8547-permission-request-form, checked 2026-10-20)
+- Content review (2026-10-20) read the condition 8547 page: you can work for the same employer for "more than 6 months without asking permission" in these cases (not "up to 12 months"), and the exceptions include critical sectors anywhere in Australia: agriculture, food processing, health, aged and disability care, childcare, and tourism and hospitality. The page now uses that wording.
 - No 2026 change to this rule found.
 
 6. myVEVO

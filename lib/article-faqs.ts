@@ -212,7 +212,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
   ],
   "best-caravan-rv-apps-australia": [
     ["What is the best app for caravanning in Australia?", "It depends on the question you need answered. CAMPS Australia Wide filters sites by set-up, including big rigs, AussieCamps uses official data for dump points, water and rest areas on iPhone, and WikiCamps has more than a million traveller reviews by its own count. Many caravanners pair one of these with a navigation app."],
-    ["Is there an app that shows big rig friendly campsites?", "CAMPS Australia Wide lets you filter by camping set-up, including big rig, and shows big rig access on its dump points. Hipcamp has a rig type filter for its private-land stays. Check the site details before you commit to a narrow track."],
+    ["Is there an app that shows big rig friendly campsites?", "CAMPS Australia Wide lets you filter by camping set-up, including big rig, and shows big rig access on its dump points. WikiCamps lists site features for vehicle access, recorded by its users. Hipcamp has a rig type filter for its private-land stays. Check the site details before you commit to a narrow track."],
     ["What is an RV Friendly town?", "A town in the CMCA's RV Friendly program, which offers short-term, low-cost overnight parking of 24 or 48 hours for self-contained recreational vehicles, plus drinking water and a free dump point. CMCA publishes a map of them."],
     ["Do caravan apps work without phone signal?", "Partly. CAMPS, WikiCamps, CamperMate and CMCA Traveller let you download maps or site data before you go, and AussieCamps keeps place details on the phone. Live maps, routing and weather still need signal in most apps."],
   ],
