@@ -31,10 +31,10 @@ KiwiCamping, 26 guides missing in fr (63/89 complete):
 `npm run translations:stamp -- --locale fr`, `npm run content:check`, commit.
 
 ## Done
-(nothing committed yet)
+- AU batch 1 (320 units): melbourne-to-adelaide-coastal-route, sunshine-coast-hinterland-camping, gibb-river-road-camping, nullarbor-crossing-camping-guide, flinders-ranges-camping-guide, red-centre-way-camping. Sonnet draft, Opus native review + negation table, own negation re-read, stamped. AU fr now 68/80.
 
 ## Next
-- AU batch 1: 6 road trips with impressions (drafting).
+- AU batch 2: 5 listicles (drafts in /tmp/ava-frgap/draft-au-b2-*.json, reviews pending), then 7 other road trips, then NZ (26 guides, inputs made with mkinput nz).
 
 ## Blockers
 none
