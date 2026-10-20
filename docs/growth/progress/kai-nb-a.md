@@ -27,6 +27,9 @@ b12 south-west-wa-camping-loop, victoria-high-country-camping, kangaroo-island-c
 Skipped (other lane): wikicamps-alternatives, campermate-alternatives, best-fuel-price-apps-australia, best-road-trip-planner-apps-australia, best-free-camping-apps-australia, best-caravan-rv-apps-australia, best-apps-working-holiday-australia.
 
 ## Done
+b12 (south-west-wa-camping-loop, victoria-high-country-camping, kangaroo-island-camping-guide, blue-mountains-camping-weekend). nb 70/77 after b12: every guide in scope is done; only the 7 listicles owned by another lane remain untranslated.
+b11 (choosing-campsite-australia, tasmania-camping-loop, darwin-kakadu-litchfield-loop, sydney-south-coast-camping, queensland-outback-way). nb 66/77 after b11.
+b10 (aussiecamps-widgets-guide, camping-packing-list-australia, first-campervan-trip-australia, road-trip-fuel-planning-australia, responsible-camping-australia). nb 61/77 after b10.
 b09 (australia-road-trip-fatigue-wildlife-safety, how-to-plan-trip-aussiecamps, how-to-use-aussiecamps-filters, save-collections-aussiecamps, aussiecamps-place-details). nb 56/77 after b09.
 b07 (best-camping-app-australia, driving-in-australia-road-rules-visitors, nullarbor-crossing-camping-guide, australian-alps-camping-route, flinders-ranges-camping-guide). nb 51/77 after b07.
 b08 (red-centre-way-camping, driving-in-australia-overseas-licence, camping-with-dogs-australia, camping-weather-safety-australia, driving-with-road-trains-australia). nb 46/77 after b08 (b07 still to do).
@@ -37,7 +40,10 @@ b01 (sleeping-in-car-australia, camping-rules-new-south-wales, camping-rules-wes
 b02 (campervan-road-trip-budget-australia, accommodation-costs-australia-2026, camping-rules-south-australia, camping-rules-act, camping-rules-queensland), b03 (australian-road-signs-visitors-guide, caravan-park-vs-holiday-park, towing-caravan-australia-road-rules, camping-rules-northern-territory, melbourne-to-adelaide-coastal-route). nb 26/77 guides complete after b01-b03.
 
 ## Next
-Overnight rule: no subagents. Overnight rule: no subagents; I draft and review myself using /tmp/kai-nb-a/parts/<slug>.json (links written as ⟦slug|text⟧, build.py converts), then build.py bNN, checkbatch.py, linkcheck.py, negcheck.py/negscreen.py, fixnames.py, land.sh. Next: b10 (aussiecamps-widgets-guide, camping-packing-list-australia, first-campervan-trip-australia, road-trip-fuel-planning-australia, responsible-camping-australia), then b11, b12. Then reviews, apply, continue b06+.
+Overnight rule: no subagents. Overnight rule: no subagents; I draft and review myself using /tmp/kai-nb-a/parts/<slug>.json (links written as ⟦slug|text⟧, build.py converts), then build.py bNN, checkbatch.py, linkcheck.py, negcheck.py/negscreen.py, fixnames.py, land.sh. Next: nothing in scope. LANE COMPLETE after final check. Then reviews, apply, continue b06+.
 
 ## Blockers
 none
+
+## Final state
+After rebasing on origin/main (orchestrator merged b01-b09 and applied judge fixes), b10-b12 were re-applied from the saved drafts as commits f14c6f7, 86510cb, 4500ab1 (English for those guides unchanged). nb is 75/80 guides complete; the 5 incomplete guides (best-caravan-rv-apps-australia, best-apps-working-holiday-australia, best-weather-apps-camping-australia, best-money-saving-travel-apps-australia, hipcamp-alternatives) are listicles owned by another lane. Every guide in scope is translated. LANE COMPLETE.
