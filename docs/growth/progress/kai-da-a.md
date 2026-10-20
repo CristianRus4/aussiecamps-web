@@ -21,9 +21,11 @@ Working files: `/tmp/kai-da-a` (AGENT-BRIEF.md, mkbatch.py, qa.py, batches/, out
 - B1 complete (5 guides): dump-points, camping-rules-victoria, -south-australia, -act, -queensland (commit 24e1b6d has ACT/QLD, next commit SA/VIC/dump points).
 - B2 complete (5 guides): road-signs, caravan-park-vs-holiday-park, towing, camping-rules-northern-territory, melbourne-to-adelaide.
 - B3 complete (5 guides): perth-to-broome, east-coast, road-rules-state-differences, camping-fees, travel-cost. Handoff 1 covered B1+B2.
+- B4b + B5a applied: camping-without-phone-signal, campervan-driving-safety, water-planning, sunshine-coast, gibb-river-road (41/77 guides).
 
 ## Next
-- B4a (fuel-cost, camping-rules-tasmania, is-free-camping-legal), B4b, B5a drafting.
+- Overnight rule (to 09:00): no subagents; I draft and review myself, one batch at a time.
+- B4a draft exists (/tmp/kai-da-a/out/b04a.json) but its review did not finish (rate limit): review it myself, then apply. Then b05b (campfires, overseas-licence-state-guide: draft partly done), b06a...
 
 ## Blockers / notes
 - none
