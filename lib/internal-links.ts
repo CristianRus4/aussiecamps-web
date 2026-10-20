@@ -1,4 +1,4 @@
-import { articles, sitePath } from "@/lib/site";
+import { allArticles, isScheduled, sitePath } from "@/lib/site";
 
 /**
  * Contextual links inside a guide's own prose.
@@ -69,9 +69,13 @@ const targets: LinkTarget[] = [
   { pattern: /\bthe ACT\b|\bAustralian Capital Territory\b/, slug: "camping-rules-act" },
 ];
 
-const bySlug = new Map(articles.map((article) => [article.slug, article]));
+const bySlug = new Map(allArticles.map((article) => [article.slug, article]));
 
-/** A target only counts if the guide it points at actually exists. */
+/**
+ * A target only counts if the guide it points at actually exists. A scheduled guide counts too, so
+ * the choice of links (and the markup in en.json) does not move on its publish day; until then the
+ * renderers below write its link as plain text.
+ */
 const live = targets.filter((target) => bySlug.has(target.slug));
 
 const escapeHtml = (text: string) =>
@@ -115,7 +119,7 @@ export function linkProse(paragraphs: readonly string[], currentSlug: string, pr
   const spans = selectLinks(paragraphs, currentSlug, budget);
   return paragraphs.map((paragraph, index) => {
     const span = spans[index];
-    if (!span) return escapeHtml(paragraph);
+    if (!span || isScheduled(span.slug)) return escapeHtml(paragraph);
     return escapeHtml(paragraph.slice(0, span.start))
       + `<a href="${hrefFor(span.slug)}">${escapeHtml(paragraph.slice(span.start, span.end))}</a>`
       + escapeHtml(paragraph.slice(span.end));
@@ -147,7 +151,8 @@ export const stripGuideLinks = (text: string) => text.replace(guideMarkup, "$2")
 /**
  * Translated prose as HTML. Everything is escaped; the only markup let back in is
  * `<a data-guide="slug">` naming a guide that exists, rewritten to that guide's URL in `root` (the
- * locale directory, `/de`). Any other tag, or a link to an unknown guide, is reduced to its text.
+ * locale directory, `/de`). Any other tag, or a link to an unknown or not yet published guide, is
+ * reduced to its text.
  */
 export function renderGuideLinks(text: string, root: string): string {
   const clean = (part: string) => escapeHtml(part.replace(/<\/?a\b[^>]*>/g, ""));
@@ -156,7 +161,7 @@ export function renderGuideLinks(text: string, root: string): string {
   for (const match of text.matchAll(guideMarkup)) {
     html += clean(text.slice(last, match.index));
     const inner = clean(match[2]);
-    html += bySlug.has(match[1]) ? `<a href="${sitePath(`${root}/guides/${match[1]}`)}">${inner}</a>` : inner;
+    html += bySlug.has(match[1]) && !isScheduled(match[1]) ? `<a href="${sitePath(`${root}/guides/${match[1]}`)}">${inner}</a>` : inner;
     last = match.index! + match[0].length;
   }
   return html + clean(text.slice(last));
