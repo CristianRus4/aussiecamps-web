@@ -20,8 +20,10 @@ publish order (caravan-rv 10-26, working-holiday 10-27, weather 10-28, money-sav
 
 - AU batch 3 (467 units): best-money-saving-travel-apps-australia, hipcamp-alternatives, tasmania-camping-loop, sydney-south-coast-camping, queensland-outback-way. es 76/80 guides.
 
+- AU batch 4 (247 units): 4 road trips (south-west-wa, victoria-high-country, kangaroo-island, blue-mountains) + 35 repaired link units in 15 guides (LINKFIX). AussieCamps es is now 80/80 guides, engine coverage 100%.
+
 ## Next
-- AU: drafting r4b (south-west-wa, victoria-high-country, kangaroo-island, blue-mountains) and LINKFIX lf (35 units in 15 guides).
+- AU: DONE (80/80). Awaiting final npm run check + handoff 2.
 - K: kb1a (best-nz-camping-apps) drafting; batches kb1b, kb2, kb3 built in /tmp/kai-es-gap/k/batches.
 - Then KiwiCamping: 41 missing guides (2320 units), same pipeline.
 
