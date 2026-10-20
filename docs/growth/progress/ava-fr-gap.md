@@ -31,10 +31,30 @@ KiwiCamping, 26 guides missing in fr (63/89 complete):
 `npm run translations:stamp -- --locale fr`, `npm run content:check`, commit.
 
 ## Done
-- AU batch 1 (320 units): melbourne-to-adelaide-coastal-route, sunshine-coast-hinterland-camping, gibb-river-road-camping, nullarbor-crossing-camping-guide, flinders-ranges-camping-guide, red-centre-way-camping. Sonnet draft, Opus native review + negation table, own negation re-read, stamped. AU fr now 68/80.
+- AU batch 1 (320 units, 6 road trips): melbourne-to-adelaide-coastal-route, sunshine-coast-hinterland-camping, gibb-river-road-camping,
+  nullarbor-crossing-camping-guide, flinders-ranges-camping-guide, red-centre-way-camping.
+- AU batch 2 (5 listicles, 776 units): best-caravan-rv-apps-australia, best-apps-working-holiday-australia, best-money-saving-travel-apps-australia,
+  best-weather-apps-camping-australia, hipcamp-alternatives.
+- Every batch: Sonnet draft, Opus native review with negation table, own negation re-read, typography check, stamped, content:check. AU fr is now 73/80;
+  `npm run check` passed on 2484ba4 (handoff 1).
 
 ## Next
-- AU batch 2: 5 listicles (drafts in /tmp/ava-frgap/draft-au-b2-*.json, reviews pending), then 7 other road trips, then NZ (26 guides, inputs made with mkinput nz).
+- AU batch 3: the 7 other road trips (tasmania-camping-loop, sydney-south-coast-camping, queensland-outback-way, south-west-wa-camping-loop,
+  victoria-high-country-camping, kangaroo-island-camping-guide, blue-mountains-camping-weekend): drafts in progress.
+- Then KiwiCamping (26 guides, inputs made with `mkinput.mjs nz`): draft of best-nz-camping-apps, campfire-rules, where-to-camp, self-contained in progress.
+
+## English-source notes for the orchestrator (translated as written)
+- melbourne-to-adelaide sections[5].body[0]: describes a fixed fruit-fly checkpoint with bins on the coastal SA entry and says fresh produce "cannot be carried in";
+  SA's permanent quarantine stations are on other highways and the rule is for restricted items. Worth a fact check. sections[7].tips[2] says "Free ferry crossings" the body never states.
+- gibb-river-road sections[4].body[0] closes "roughly November to April" vs "closes again around October"; sections[7].body[3] repeats sections[4].body[2] ("Main Roads" vs "Main Roads WA").
+- sunshine-coast sections[7].body[1] "one of only two everglade systems in the world" is an unverified claim.
+- red-centre-way: "visitor pass" (s0) and "Parks and Wildlife pass" (s7) probably name the same NT parks pass; Anangu is written without its underline; Uluru without the diacritic in s3.body[0].
+- nullarbor: lookouts "with barriers" (s2) vs "unfenced" (s6); flinders-ranges: Pichi Richi railway credited to both Quorn and Hawker.
+- best-apps-working-holiday-australia: source label "third Work and Holiday 417 visa" mixes 417 (Working Holiday) and 462 (Work and Holiday); tip "Super refund taxed at 65%" is looser than its paragraph.
+- best-caravan-rv-apps-australia: free bookings list omits hotels (the WHV page includes them); "up to A$50 each" (G'day Rewards) ambiguous.
+- best-money-saving-travel-apps-australia: Splitwise "settles up at the end" (s12.body[0]) contradicts "you settle up yourself" (s12.body[1] and table).
+- best-weather-apps-camping-australia: Weatherzone Pro A$5.99 a month and ad-free A$5.99 a year cost the same, worth rechecking.
+- hipcamp-alternatives: the AussieCamps section never says campground data needs the Pass (translated as written).
 
 ## Blockers
 none
