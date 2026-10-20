@@ -21,17 +21,12 @@ Language: Traditional Chinese, Taiwan first (`zh-hant` file, engine id `zh-Hant`
 - English now carries inline `<a data-guide="slug">anchor</a>` links; 157 existing units (100 AU, 57 NZ) were re-linked and applied. Scripts and packets live in /tmp/zhhant (bin/relink_packet.py, bin/mksrc.py a|k <slug|tools>, bin/apply.sh, bin/audit.sh, bin/complete.py, bin/wrap.py uses locale zh-hant).
 - Engine apply/packet locale id is now `zh-hant`.
 
-## Done since the rebase
-- Applied and handed off (milestone 3, 2026-10-20): reviewed AU/NZ app and safety guides, `tools` namespace on both sites, AU road trips (brisbane, great ocean road, melbourne-adelaide, perth-broome, east coast), NZ best-nz-camping-apps, where-to-camp, east-cape, coromandel-rotorua, northland. AU 47/70 guides, NZ 43/78.
-
-## In progress
-- Reviewing then applying drafts: NZ wanaka-haast, nelson-abel-tasman, banks-peninsula, bay-of-islands, rakiura, three-week, christchurch-tekapo, wellington-wairarapa, north-island-two-week, west-coast, arthurs-pass, taranaki, picton-kaikoura; AU adelaide-uluru, nullarbor, australian-alps, flinders, red-centre, sunshine-coast, gibb-river, best-camping-app, tasmania-loop, darwin-kakadu.
-- Drafting: NZ freedom-camping x2, doc-campsites, camping-fees, self-contained, holiday-parks, wastewater, campfire, queenstown, fiordland, winter-camping, southern-scenic; AU fuel-planning, dogs, responsible-camping, first-campervan, packing-list, sydney-south-coast, qld-outback-way, south-west-wa, victoria-high-country, kangaroo-island, blue-mountains.
-
-## Next
-- Remaining after those: NZ save-places, filters-guide, offline-data-guide, weather-look-around, currency-place-costs, responsible-camping, two-week-itinerary, packing-list, best-time, scenic-campsites, south-island-two-week; AU save-collections, place-details, widgets-guide.
-- Then `npm run translations:stamp -- --locale zh-hant` in both, one `npm run check` each, final handoff.
-- Workflow: /tmp/zhhant/bin/mksrc.py (src from en.json), Opus drafts to /tmp/zhhant/out, separate Opus review writes review-*.json fixes (see /tmp/zhhant/review-brief.md), then bin/apply.sh a|k <slugs>.
+## Status 2026-10-20: ALL UNITS TRANSLATED
+- AU 4383/4383 and NZ 3919/3919 units (UI, support/privacy/terms, consent, tools, all guides including road trips, app how-tos). Testimonials are never translated for this locale (excluded in the zh-Hant catalog).
+- Every guide batch went through a separate native-voice review (Opus) and my negation check before apply. Stamps written (`translations:stamp -- --locale zh-hant`, `lib/translations/meta/zh-hant.json`).
+- Checks: engine audit clean (warnings only: 菜單 is correct Taiwanese for a restaurant menu; 維州/塔州 abbreviations; 在線上 and 刺激活動 are false hits of the mainland-term list), `npm run content:check` exit 0, `npm run check` exit 0 in both repos (after re-cloning node_modules, because main added the `qrcode` dependency).
+- Workflow if English changes: `npm run translations:source`, engine audit lists stale/missing units, /tmp/zhhant/bin/mksrc.py builds a src file, Opus drafts, Opus review, bin/apply.sh, then `translations:stamp`.
+- Left for the orchestrator: flip `zh-hant` from draft to live in lib/locales.json once the independent judges pass.
 
 ## Blockers / notes for the orchestrator
 - More English source issues (translated as written): NZ licence guide says 18 months then 12 months in different sections; Melbourne contactless claim may be dated; NZ road-signs FAQ contradicts section 4 on which arrow is yours; LSZ signs are being phased out; AU fuel guide cites an "Australian Government Fuel Plan" as price source (usually ACCC/AIP); fuel FAQs (AU and NZ) say "divide by consumption"; AU towing FAQ says NT has a lower towing limit and that a car licence covers 4.5 t GCM (it is the vehicle's GVM); Greater Sunraysia lost pest-free status (biosecurity guide); myrtle rust is established in NZ since 2017; InterCity GoTickets may no longer exist; several guides repeat a paragraph in two sections (caravan park, Tasmania, SA, WA, fuel).
@@ -41,3 +36,4 @@ Language: Traditional Chinese, Taiwan first (`zh-hant` file, engine id `zh-Hant`
 - Separate per-locale catalog in the engine config (see above): please confirm.
 - Support page English says "Map and place details are free, together with two saved lists", which may conflict with the Pass boundary in THREADS.md. Translated faithfully; English owner should check.
 - App zh-Hant labels have several mistranslations (針腳 for Pins, 過濾器 for Filters, 訪問過 for Visited, 轉儲點/垃圾站 for dump points/stations, 房車公園, 規劃師, 註解). The site uses natural Taiwan terms instead; listed in the style guide section 3.
+- More English source issues found in the latest batches (translated as written): self-contained "7 June 2025" and blue-warrant "31 December 2027" dates (three NZ guides) need checking against the Plumbers, Gasfitters and Drainlayers Board; DOC campsite guide says four categories but lists three, and the child fee wording; holiday-parks "$45 for two" vs "$28 per person"; Queenstown-Glenorchy 46 km vs 45 km; campfire FAQ vs body on gas stoves; Victoria High Country "Queen's Birthday" (now King's); Melbourne to Adelaide fruit-fly checkpoint wording; Sydney to Cairns 2,500 vs 2,400 km; K'gari vs Fraser Island; stinger season Nov to Apr vs Nov to May; several time-sensitive claims for 2026 (Cathedral Cove access, Roys Peak lambing closure, Te Papa entry fee for visitors, Egmont/Te Papa-Kura-o-Taranaki rename, Gibb River Road stations, Kakadu/Burrungkuy names, QFES rename to Queensland Fire Department, Hazards Near Me NSW). Wrong inline links: Kangaroo Island and Queensland Rail/Spirit of Tasmania anchors point to unrelated guides.
