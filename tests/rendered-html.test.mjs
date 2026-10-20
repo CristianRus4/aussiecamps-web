@@ -58,7 +58,7 @@ test("renders an article with unique travel content and app CTA", async () => {
 test("every guide renders as a long-form article", async () => {
   const sources = await Promise.all(["../lib/site.ts", "../lib/expanded-articles.ts"].map((path) => readFile(new URL(path, import.meta.url), "utf8")));
   const slugs = sources.flatMap((source) => [...source.matchAll(/slug:\s*"([^"]+)"/g)].map((match) => match[1]));
-  assert.equal(slugs.length, 77);
+  assert.equal(slugs.length, 80);
   for (const slug of slugs) {
     const response = await fetchPage(`/guides/${slug}`);
     // A guide whose publishAt is still ahead is not served at all (lib/publish.ts).
@@ -139,7 +139,8 @@ test("every guide, road trips included, is in the translation source", async () 
 
 test("draft locales are neither routed nor advertised", async () => {
   const drafts = localeCodes.filter((code) => localeEntry(code).status === "draft");
-  assert.ok(drafts.length >= 6, "ja, ko, zh-hans, zh-hant, cs and pl are still drafts");
+  // zh-hant went live on 21 October 2026, so the floor dropped from 6 to 5.
+  assert.ok(drafts.length >= 5, "ja, ko, zh-hans, cs and pl are still drafts");
   for (const code of drafts) {
     assert.notEqual((await fetchPage(`/${localeEntry(code).segment}`)).status, 200, `${code} is a draft and must not be served`);
     await assert.rejects(readdir(new URL(`../pages-dist/${localeEntry(code).segment}/`, import.meta.url)), `${code} must not be exported`);
