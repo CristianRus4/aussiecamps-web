@@ -30,7 +30,7 @@ previous tip vs merged): zero changed units left. `LOCALES_PREVIEW=1 npm run con
 Go-live set (UI 220/220 non-testimonial, consent, home, support, privacy with Website analytics, terms) is
 complete on both sites. `cs` stays `draft` in `lib/locales.json` (orchestrator flips it).
 
-Guides done: AussieCamps 37 of 80, KiwiCamping 45 of 89. Queue and per-batch pipeline files live in /tmp/cs-work
+Guides done: AussieCamps 47 of 80, KiwiCamping 55 of 89. Queue and per-batch pipeline files live in /tmp/cs-work
 (queue.py, DRAFT-PROMPT.md, REVIEW-PROMPT.md, doit.sh); recreate from this note if lost: batches of five guides,
 sonnet draft, opus review, apply, stamp, content:check, commit every two batches. Every batch is drafted (sonnet, high), then
 rewritten by an Opus native reviewer (titles, descriptions, headings, FAQs, tables, rule and app-claim units)
