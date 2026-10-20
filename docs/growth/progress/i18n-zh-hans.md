@@ -25,7 +25,16 @@ Packets: `refpack.py au|nz PREFIX slug...` (PREFIX.en.json current English, PREF
 Per batch: draft subagent writes v-<batch>.json + .changed.txt, a separate editor subagent writes p-<batch>.json
 (negation/number check), then patch.py, lint.py --complete, apply.sh --real, commit. Extra rules: /tmp/zhhans/lessons.md.
 Work dirs: /tmp/zhhans/work-nz-14 (z1..z4 whole batches, zu.json unit packet), /tmp/zhhans/work-au-14 (to create).
-Done: (update below as batches land).
+Done so far (2026-10-21): NZ whole z1..z4 and NZ unit-level updates (all 78 existing NZ guides current;
+NZ content:check passes, 0 stale, stamped). AU y1 (camping-rules NSW, Victoria, ACT, WA, Tasmania) done.
+Overnight rule (until 09:00 on 2026-10-21): no subagents; the main session drafts and self-reviews by hand
+with /tmp/zhhans/tools/todo.py (writes PREFIX.todo.json / .auto.json), /tmp/zhhans/work-au-14/me/<slug>.py
+(S slug, V dict of Chinese values) and tools/assemble.py PREFIX OUT mod... (merges reused units + mine).
+Still to do AU: y2 (camping-rules SA/NT/QLD, campfires, is-free-camping-legal), y3 (sleeping-in-car, dump-points,
+caravan-park-vs-holiday-park, camping-fees-2026, best-camping-app-australia), y4 (cost pages: alcohol-coffee, eating-out,
+public-transport, grocery, domestic-flights; mostly small number edits), y5 (road rules state differences, road signs,
+towing, visitor road rules, darwin-kakadu, adelaide-uluru, alps), yu (AU unit packet /tmp/zhhans/work-au-14/yu.json:
+support page, 9 units), then NEW guides AU 7 and NZ 7. NZ best-nz-camping-apps and wastewater tips were pruned with prune.py.
 Remaining at the end: NEW guides (AU 7, NZ 7), then `translations:stamp -- --locale zh-hans`, `content:check`
 (zero stale, zero number-parity errors) and one `npm run check` per repo (needs `qrcode` in node_modules:
 `cp -cRn <main>/node_modules/ ./node_modules/`). NZ check currently fails until best-nz-camping-apps is updated.
