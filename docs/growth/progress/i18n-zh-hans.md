@@ -39,7 +39,9 @@ Done: AU new guides best-fuel-price-apps, best-free-camping-apps, wikicamps-alte
 check needs real Chinese text in every cell (not only app names plus 的/、).
 Also done: AU new guides best-road-trip-planner-apps, best-caravan-rv-apps, campermate-alternatives (n2).
 AU COMPLETE again: 77/77 guides, engine 5923/5923, content:check passes, restamped (--all after review).
-Still to do: NEW guides (AU: none; NZ 7: rankers-alternatives, campermate-alternatives, road-trip-planner-apps-new-zealand,
+NZ new guides done: rankers-alternatives, campermate-alternatives, road-trip-planner-apps-new-zealand (m1, work-nz-15/me).
+Engine script check also flagged table cells like 'iPhone（iOS 26+）' (no Chinese): write e.g. 'iPhone、iPad 和 Android'.
+Still to do: NEW guides (AU: none; NZ 4: wikicamps-alternatives, best-campervan-apps-new-zealand, free-camping-apps-new-zealand, best-travel-apps-new-zealand; NZ 7: rankers-alternatives, campermate-alternatives, road-trip-planner-apps-new-zealand,
 free-camping-apps-new-zealand, best-travel-apps-new-zealand, wikicamps-alternatives, best-campervan-apps-new-zealand).
 Remaining at the end: NEW guides (AU 7, NZ 7), then `translations:stamp -- --locale zh-hans`, `content:check`
 (zero stale, zero number-parity errors) and one `npm run check` per repo (needs `qrcode` in node_modules:
