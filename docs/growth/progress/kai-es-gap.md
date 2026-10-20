@@ -18,8 +18,11 @@ publish order (caravan-rv 10-26, working-holiday 10-27, weather 10-28, money-sav
 
 - AU batch 2 (3 listicles, 468 units): best-caravan-rv-apps-australia, best-apps-working-holiday-australia, best-weather-apps-camping-australia. es 71/80 guides. House term: «el Pase» (style guide), not "Pass".
 
+- AU batch 3 (467 units): best-money-saving-travel-apps-australia, hipcamp-alternatives, tasmania-camping-loop, sydney-south-coast-camping, queensland-outback-way. es 76/80 guides.
+
 ## Next
-- AU: drafting l2b (money-saving), l3a (hipcamp), r4a (tasmania, sydney-south-coast, queensland-outback); then r4b (4 road trips), LINKFIX (lf, 35 units).
+- AU: drafting r4b (south-west-wa, victoria-high-country, kangaroo-island, blue-mountains) and LINKFIX lf (35 units in 15 guides).
+- K: kb1a (best-nz-camping-apps) drafting; batches kb1b, kb2, kb3 built in /tmp/kai-es-gap/k/batches.
 - Then KiwiCamping: 41 missing guides (2320 units), same pipeline.
 
 ## Notes for orchestrator (English source oddities, translated faithfully)
