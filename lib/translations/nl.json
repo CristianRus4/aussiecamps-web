@@ -298,8 +298,8 @@
         {
           "heading": "Premium en account",
           "paragraphs": [
-            "De kaart en de gegevens van plekken zijn gratis, net als twee opgeslagen lijsten.",
-            "Premium voegt daar onbeperkt opgeslagen lijsten, reisplanning, uitgebreide filters, het weer per plek en roadtriproutes aan toe.",
+            "AussieCamps is gratis te downloaden, en de kaart en de zoekfunctie tonen elke plek. Zonder de Pass gaan alleen boekbare verblijven en tours van BookEasy volledig open, plus een paar gidsen.",
+            "De Pass opent campings, rustplaatsen, lozingspunten, water, toiletten en alle gidsen, en ontgrendelt het opslaan van plekken, de collecties en de reisplanner.",
             "Open het Premium-scherm en tik op ‘Aankopen herstellen’. Zorg dat je dan bent ingelogd met het Apple-account waarmee je de oorspronkelijke aankoop hebt gedaan."
           ]
         }
@@ -648,119 +648,295 @@
       "priceTable": null
     },
     "best-camping-app-australia": {
-      "title": "Waar let je op bij een kampeerapp voor Australië?",
-      "description": "Kies een app die je route dekt, de stop uitlegt en van bewaarde plekken een werkbare reis maakt.",
+      "title": "Beste kampeerapps voor Australië in 2026: 7 apps vergeleken",
+      "description": "AussieCamps, WikiCamps, CAMPS, CamperMate, Hipcamp, Full Range Camping en ExplorOz vergeleken op prijs, gebruik zonder bereik, databronnen en beoordelingen. Gecontroleerd in oktober 2026.",
       "region": "Australië",
       "imageAlt": "Kampeerapp geopend langs een Australische weg",
-      "intro": "Een goede kampeerapp moet onzekerheid wegnemen vóór de afslag en begrijpelijk blijven als de route verandert.",
+      "intro": "Wie in 2026 in Australië een slaapplek zoekt, doet dat meestal met een van deze zeven apps, en elke app is goed in iets anders. Wij maken AussieCamps, dus die staat bovenaan. Hieronder lees je waarom, en wanneer een andere app beter bij je past. Alle prijzen en beoordelingen hieronder zijn op 20 oktober 2026 gecontroleerd in de Australische App Store.",
       "sections": [
         {
-          "heading": "Meer dan alleen campings",
+          "heading": "Het korte oordeel",
           "body": [
-            "Lange reizen vragen om caravanparken, overnachtingen met een dak, rustplaatsen, <a data-guide=\"dump-points-australia-guide\">lozingspunten</a>, drinkwater, brandstof en andere handige stops. Een kaart met alleen campings laat gaten tussen de nachten.",
-            "Let op duidelijke categorieën en een manier om je te richten op het huidige kaartgebied."
+            "Reis je met een iPhone en wil je officiële gegevens over campings, rustplaatsen (rest areas) en <a data-guide=\"dump-points-australia-guide\">lozingspunten (dump points)</a> die je zonder bereik kunt lezen, plus een reisplanner die data, afstanden en weersverwachtingen bij elkaar houdt? Dan is AussieCamps onze keuze. Voor een door de community opgebouwde database met meer dan 65.000 plekken (het cijfer van de ontwikkelaar) en recente beoordelingen van reizigers is WikiCamps Australia al jaren de favoriet, voor een eenmalige aankoop van A$ 9,99. Voor plekken die een redactieteam ter plaatse heeft gecontroleerd is CAMPS de specialist.",
+            "Android-gebruikers beginnen het best met <a data-guide=\"wikicamps-alternatives\">WikiCamps</a> of CAMPS, want AussieCamps draait alleen op de iPhone. Wil je een nacht boeken op een boerderij of wijngaard, open dan Hipcamp. Wie met een 4WD voorbij het asfalt wil, voegt aan de gekozen kampeerapp een topografische navigatie-app toe, zoals ExplorOz Traveller."
           ],
-          "tips": []
+          "tips": [],
+          "table": {
+            "caption": "Zeven Australische kampeerapps vergeleken. Prijzen, platforms en beoordelingen gecontroleerd in de Australische App Store en op de sites van de ontwikkelaars op 20 oktober 2026.",
+            "head": [
+              "App",
+              "Prijs (AUD)",
+              "Platforms",
+              "App Store-beoordeling (AU)",
+              "Zonder bereik",
+              "Het best voor"
+            ],
+            "rows": [
+              [
+                "AussieCamps",
+                "Gratis download; Pass vanaf A$ 2,99",
+                "iPhone",
+                "Nog te weinig beoordelingen om te tonen",
+                "Plekgegevens opgeslagen op de telefoon",
+                "Officiële gegevens en reisplanning"
+              ],
+              [
+                "WikiCamps Australia",
+                "A$ 9,99 eenmalig per platform",
+                "iPhone, iPad, Android",
+                "4,5 (16.663 beoordelingen)",
+                "Kaarten en maximaal drie reizen",
+                "Grootste communitydatabase"
+              ],
+              [
+                "CAMPS Australia Wide",
+                "Gratis proefperiode, daarna A$ 14,99 per jaar",
+                "iPhone, iPad, Android",
+                "4,4 (3.476 beoordelingen)",
+                "Gedownloade kaarten en plekgegevens met betaalde toegang",
+                "Plekken ter plaatse gecontroleerd"
+              ],
+              [
+                "CamperMate",
+                "Gratis",
+                "iPhone, iPad, Android",
+                "4,4 (1.543 beoordelingen)",
+                "Gedownloade kaarten en belangrijke info",
+                "Gratis app voor Australië en Nieuw-Zeeland"
+              ],
+              [
+                "Hipcamp",
+                "Gratis; betalen per boeking",
+                "iPhone, Android, web",
+                "4,8 (22.592 beoordelingen)",
+                "Reizen en berichten in de cache",
+                "Verblijven op privéterrein boeken"
+              ],
+              [
+                "Full Range Camping",
+                "Gratis; Premium A$ 49,99 per jaar (aanmelden gepauzeerd)",
+                "iPhone, iPad, Android",
+                "4,0 (262 beoordelingen)",
+                "Plekken zonder bereik met Premium",
+                "Ledenkortingen en house sitting"
+              ],
+              [
+                "ExplorOz Traveller",
+                "A$ 59,99, plus te downloaden kaarten vanaf A$ 59,99 per jaar",
+                "iPhone, iPad, Android",
+                "4,3 (1.352 beoordelingen)",
+                "Volledige topografische kaart van Australië na aankoop",
+                "Outbackroutes en 4WD-tochten"
+              ]
+            ]
+          }
         },
         {
-          "heading": "Details die de beslissing bepalen",
+          "heading": "1. AussieCamps: het best voor officiële gegevens en reisplanning op de iPhone",
           "body": [
-            "Toegang, tarieven, toiletten, water, stroom, honden, geschiktheid voor je voertuig en boekingsinformatie tellen meer dan een groot aantal pins.",
-            "Offline plekinformatie is goud waard buiten bereik, terwijl live kaarten, weer en navigatie nog steeds data nodig hebben."
+            "AussieCamps is onze eigen app, gebouwd voor reizigers die willen kiezen waar ze vanavond blijven en de rest van de reis op één plek willen plannen. De gegevens over campings, rustplaatsen en voorzieningen komen van parkdiensten van de staten, wegbeheerders en openbare datasets zoals de NSW National Parks and Wildlife Service, Parks Victoria, Main Roads WA en de National Public Toilet Map. De huidige versie telt 1.838 campings, 5.552 rustplaatsen, 1.393 <a data-guide=\"dump-points-australia-guide\">lozingspunten</a>, 3.004 drinkwaterpunten en 1.186 openbare toiletten.",
+            "Het plekkenoverzicht staat op de telefoon, dus voorzieningen, tarieven, regels en toegangsinfo blijven leesbaar na het laatste streepje bereik. Kaarttegels, routebeschrijvingen, weer en foto’s hebben nog steeds verbinding nodig, en een kaart om te downloaden is er niet. De <a data-guide=\"how-to-plan-trip-aussiecamps\">reisplanner</a> zet de stops op volgorde, toont de rijafstand en rijtijd per etappe, voegt aankomstdata toe met de weersverwachting per stop en kan de reis synchroniseren met je agenda.",
+            "De download is gratis, en dat geldt ook voor de boekbare hotels, motels, B&B’s, holiday parks (uitgebreide campings met huisjes en faciliteiten) en tours van onze boekingspartner BookEasy. Campings, rustplaatsen, lozingspunten, water, parken, gidsen, <a data-guide=\"save-collections-aussiecamps\">collecties</a> en reizen vragen om de AussieCamps Pass, een wekelijks abonnement of een eenmalige levenslange aankoop; de Australische App Store toont de in-appaankopen van A$ 2,99 tot 9,99.",
+            "Wat we goed vinden: gegevens met een genoemde officiële bron, plekgegevens die <a data-guide=\"camping-without-phone-signal\">zonder bereik</a> werken zonder dat je eerst regio’s hoeft te downloaden, en filters voor water, toiletten, douches, stroom, honden en toegang voor voertuigen. Wat je moet afwegen: de app is er alleen voor de iPhone, vermeldt minder plekken dan WikiCamps en heeft geen reizigersbeoordelingen, dus je ziet niet de opmerking van vorige week over een modderige toegangsweg."
           ],
           "tips": [
-            "Plekgegevens offline",
-            "Filters voor toegang",
-            "Reisvoorbereiding",
-            "Links naar bronnen"
+            "Het best voor: iPhone-gebruikers die vooruit plannen",
+            "Zwak punt: geen Android, geen gebruikersbeoordelingen",
+            "Prijs: gratis download, Pass voor kampeergegevens"
           ]
         },
         {
-          "heading": "Van bewaarde pin naar route",
+          "heading": "2. WikiCamps Australia: het best voor de grootste communitydatabase",
           "body": [
-            "Een sterke app ordent favorieten, houdt misschientjes gescheiden van geboekte overnachtingen en zet de stops van je reis met notities op volgorde.",
-            "Kies het product waarvan de werkwijze past bij hoe jij reist, niet het product met de langste lijst marketingbeloftes."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Offline gegevens zijn de eerste test",
-          "body": [
-            "In Australië verdwijnt mobiel bereik sneller dan bijna waar ook, en precies op de plek waar je <a data-guide=\"choosing-campsite-australia\">een kampeerplek kiest</a>. Een app die verbinding nodig heeft om plekgegevens te tonen, heb je in het grootste deel van het continent niets aan.",
-            "Offline betekent niet overal hetzelfde: sommige tools bewaren alleen kaarttegels, en dan heb je een kaart zonder informatie. Andere hebben het hele plekkenoverzicht aan boord, zodat categorieën, voorzieningen, tarieven en toegangsinformatie <a data-guide=\"camping-without-phone-signal\">zonder bereik</a> leesbaar blijven.",
-            "Test het voordat je de laatste plaats verlaat. Zet je telefoon in vliegtuigmodus en open een plek die je nog niet hebt bekeken. Wat er dan verschijnt, is wat je daarbuiten hebt."
+            "WikiCamps hoort al meer dan tien jaar bij Australische roadtrips, en de kracht ervan is de community. Elke vermelding, foto en beoordeling komt van gebruikers, en de ontwikkelaar noemt meer dan 65.000 plekken, 1,3 miljoen beoordelingen en 900.000 foto’s. Door die omvang vind je recente opmerkingen over de staat van de weg, muggen of een kapotte kraan bij een <a data-guide=\"is-free-camping-legal-australia\">gratis kampeerplek</a>, iets wat geen enkele officiële dataset bevat.",
+            "De app kost eenmalig A$ 9,99, zonder abonnement, maar je betaalt apart op iPhone en Android. De reisplanner schat de <a data-guide=\"australia-road-trip-fuel-cost-2026\">brandstofkosten</a> langs een route, en sommige plekken kun je in de app boeken. Zonder bereik blijven de kaarten en maximaal drie geplande reizen beschikbaar.",
+            "Wat we goed vinden: de enorme dekking, eerlijke recente beoordelingen en één redelijke prijs. Wat je moet afwegen: de nauwkeurigheid hangt ervan af of gebruikers hun vermeldingen actueel houden, en zonder bereik kun je maar drie geplande reizen bewaren."
           ],
           "tips": [
-            "Test offline eerst in vliegtuigmodus",
-            "Bewaarde tegels zijn geen bewaarde gegevens",
-            "Het bereik stopt waar je het het meest nodig hebt"
+            "Het best voor: grootste dekking en recente beoordelingen",
+            "Zwak punt: nauwkeurigheid hangt af van gebruikers",
+            "Prijs: A$ 9,99 eenmalig per platform"
           ]
         },
         {
-          "heading": "Duidelijke regels en hoe de app wordt gefinancierd",
+          "heading": "3. CAMPS Australia Wide: het best voor ter plaatse gecontroleerde plekken",
           "body": [
-            "De tweede test is of de app onderscheid maakt tussen wat juridisch verschilt: een camping in een nationaal park met vergunning, een <a data-guide=\"is-free-camping-legal-australia\">gratis gemeenteplek</a> met een tijdslimiet, een rustplaats alleen om uit te rusten, en particulier terrein. Wie dat door elkaar haalt, krijgt boetes.",
-            "De derde is hoe de app geld verdient. Een tool die wordt gefinancierd met boekingen heeft een structurele reden om boekbare commerciële plekken vóór gratis plekken te tonen. Dat is niet oneerlijk, maar het bepaalt wel wat je het eerst ziet.",
-            "Een abonnement of eenmalige licentie neemt die prikkel weg. Bij een gratis app zonder zichtbare inkomsten is het even nadenken waard waar de waarde naartoe gaat."
+            "CAMPS komt van Camps Australia Wide, waarvan het team al sinds 1992 plekken controleert. De app vermeldt meer dan 16.000 kampeerplekken die volgens het bedrijf persoonlijk zijn gecontroleerd, zonder betaalde vermeldingen. Beoordelingen van de community staan naast de redactionele gegevens, en verder heeft de app actuele brandstofprijzen, een <a data-guide=\"how-to-plan-trip-aussiecamps\">reisplanner</a> en de mogelijkheid om in de app te boeken.",
+            "Je begint met een gratis proefperiode van 7 dagen en betaalt daarna A$ 14,99 per jaar. Met het betaalde abonnement download je kaarten met plekinformatie, zodat de gegevens na het downloaden zonder bereik beschikbaar blijven.",
+            "Wat we goed vinden: een samengestelde lijst van mensen die de plekken bezoeken, een lange staat van dienst en een lage jaarprijs. Wat je moet afwegen: de hele app vraagt na de proefperiode om een abonnement, de lijst is kleiner dan die van <a data-guide=\"wikicamps-alternatives\">WikiCamps</a> en er is geen computerversie om op een laptop te plannen."
           ],
           "tips": [
-            "Juridische categorieën moeten gescheiden zijn",
-            "Apps die van boekingen leven, bevoordelen betaalde plekken",
-            "Weet hoe de app wordt gefinancierd"
+            "Het best voor: reizigers die samengestelde gegevens vertrouwen",
+            "Zwak punt: jaarabonnement na 7 dagen proef",
+            "Prijs: A$ 14,99 per jaar na de proefperiode"
           ]
         },
         {
-          "heading": "Reisplanning die een verandering overleeft",
+          "heading": "4. CamperMate: het best als gratis app voor Australië en Nieuw-Zeeland",
           "body": [
-            "De vierde test is of de app helpt als het plan in duigen valt, en dat gebeurt op een reis door Australië zeker. Waar het om draait: stops op volgorde, bewaarde alternatieven, notities bij de juiste plek en een zichtbare afstand van de route.",
-            "Alleen bladwijzers is geen reisplanning. Het verschil zie je op het moment dat een camping vol is, een weg dicht is of het weer omslaat, en je moet omgooien zonder helemaal opnieuw te beginnen.",
-            "<a data-guide=\"how-to-use-aussiecamps-filters\">Filters</a> tellen ook, vooral voor lengte en toegang, want Australië heeft meer grote voertuigen en meer wegen die daar niet geschikt voor zijn dan de meeste landen."
+            "<a data-guide=\"campermate-alternatives\">CamperMate</a> dekt beide kanten van de Tasmanzee in één gratis app, handig voor reizigers die Australië en Nieuw-Zeeland in dezelfde reis combineren. De app vermeldt meer dan 70.000 interessante punten, waaronder gratis en betaalde kampeerplekken, holiday parks, lozingspunten, toiletten en wifi, met beoordelingen en foto’s van reizigers.",
+            "Kaarten en belangrijke informatie kun je downloaden voor gebruik zonder bereik. De app is beschikbaar in 27 talen, een echte hulp voor bezoekers van wie de eerste taal geen Engels is.",
+            "Wat we goed vinden: gratis te gebruiken, twee landen in één app en veel talen. Wat je moet afwegen: de app mengt kamperen met algemene interessante punten, de vermeldingen komen van de community zonder genoemde officiële bronnen, en boekingen en aanbiedingen staan naast de gratis opties."
           ],
           "tips": [
-            "Bladwijzers zijn geen reisplanning",
-            "Filteren op lengte telt hier",
-            "Beoordeel hoe de app met veranderingen omgaat"
+            "Het best voor: gratis gebruik in twee landen",
+            "Zwak punt: geen genoemde officiële bronnen",
+            "Prijs: gratis"
           ]
         },
         {
-          "heading": "Niets vervangt het bord",
+          "heading": "5. Hipcamp: het best voor verblijven op privéterrein boeken",
           "body": [
-            "Elke app is een hulpmiddel bij het plannen. Borden ter plaatse, actuele <a data-guide=\"campfires-camping-australia\">stookverboden</a>, aanwijzingen van rangers en gemeentelijke verordeningen gaan boven alles wat op een telefoon staat, en ze veranderen sneller dan welke dataset ook wordt bijgewerkt.",
-            "Lees het bord bij de ingang voordat je je voor de nacht installeert. Spreekt het de app tegen, dan wint het bord. Die gewoonte kost niets en houdt <a data-guide=\"is-free-camping-legal-australia\">gratis kampeerterreinen</a> open.",
-            "De meeste reizigers hebben uiteindelijk meer dan één app op zak, en dat is een redelijke uitkomst en geen onvermogen om te kiezen. Gebruik elke app waar hij echt goed in is."
+            "Hipcamp is eerder een boekingsplatform dan een campingzoeker. Boeren, eigenaren van stations (grote veehouderijen in de outback), wijngaarden en andere grondeigenaren bieden hun eigen kampeerplekken, glampingtenten en plekken voor caravans aan, en je boekt en betaalt via de app. Het is de best beoordeelde app van dit lijstje, met 4,8 sterren uit meer dan 22.000 Australische beoordelingen.",
+            "De app is gratis te downloaden en de gastheer bepaalt zelf de prijs van elk verblijf. Je geboekte reizen en berichten van gastheren blijven in de cache bewaard, zodat je ze zonder bereik kunt openen, maar nieuwe verblijven zoeken lukt zonder bereik niet.",
+            "Wat we goed vinden: bijzondere plekken die je niet in openbare gidsen vindt, duidelijke foto’s en beoordelingen en boeken op één plek. Wat je moet afwegen: de app is niet gemaakt voor <a data-guide=\"is-free-camping-legal-australia\">gratis kampeerplekken</a>, rustplaatsen of lozingspunten, en de meeste verblijven moet je vooraf boeken."
           ],
           "tips": [
+            "Het best voor: een gepland weekend op een bijzondere plek",
+            "Zwak punt: geen gratis plekken of rustplaatsen",
+            "Prijs: gratis app, je betaalt elke gastheer"
+          ]
+        },
+        {
+          "heading": "6. Full Range Camping: het best voor ledenkortingen",
+          "body": [
+            "Full Range Camping is de huidige naam van FreeRange Camping, een gids met meer dan 11.000 kampeerplekken en bedrijven en een groot ledenbestand. De app is gratis en het Premium-lidmaatschap staat vermeld voor A$ 49,99 per jaar of A$ 99,99 voor het leven. Op 20 oktober 2026 meldde de website dat Premium-lidmaatschappen momenteel niet beschikbaar waren terwijl de kaartsoftware van de app wordt bijgewerkt, dus check dat voordat je erop rekent.",
+            "Met Premium kun je de vermeldingen ook zonder bereik bekijken, krijg je ledenkortingen die volgens het bedrijf bij sommige campings oplopen tot 30 procent, en heb je een weerradar. Hetzelfde lidmaatschap geeft toegang tot aanbiedingen voor house sitting en werken in ruil voor kost en inwoning, waarmee wie lang onderweg is de <a data-guide=\"accommodation-costs-australia-2026\">verblijfskosten</a> drukt.",
+            "Wat we goed vinden: een lidmaatschap dat zichzelf kan terugverdienen als je de kortingen gebruikt, en extra’s voor lange reizen. Wat je moet afwegen: toegang zonder bereik vraagt om Premium, en de app heeft veel minder App Store-beoordelingen dan de koplopers, 262 op het moment van controleren."
+          ],
+          "tips": [
+            "Het best voor: lange reizen met kortingen",
+            "Zwak punt: zonder bereik alleen met Premium",
+            "Prijs: gratis, Premium A$ 49,99 per jaar"
+          ]
+        },
+        {
+          "heading": "7. ExplorOz Traveller: het best voor outbackroutes en 4WD-tochten",
+          "body": [
+            "ExplorOz Traveller is in de eerste plaats een navigatie- en tourapp, gebouwd rond EOTopo, een topografische kaart van heel Australië met wegnamen, 4WD-tracks en wandel- en mountainbikeroutes. De ontwikkelaar noemt meer dan 100.000 plekken, waaronder kampeerplekken, tankstations en waterpunten, dus de app werkt ook als kampeerzoeker zodra je op een afgelegen track zit.",
+            "De app kost A$ 59,99, en voor gebruik zonder bereik heb je één in-appoptie nodig: EOTopo Annual Access voor A$ 59,99 per jaar, EOTopo 2026 4-Year Access voor A$ 79,99 of Pro Access voor A$ 99,99 per jaar, die ook live tracking, delen en GPX-export toevoegt. Eenmaal gedownload werkt de hele Australische kaart zonder signaal, precies wat een woestijntocht nodig heeft.",
+            "Wat we goed vinden: een volledige topografische kaart van heel Australië op je telefoon en veel detail op tracks die de meeste apps niet tekenen. Wat je moet afwegen: van alle apps hier heeft deze de hoogste aanschafprijs en de hoogste kosten in het eerste jaar, en hij biedt meer dan de meeste reizigers op verharde wegen nodig hebben."
+          ],
+          "tips": [
+            "Het best voor: afgelegen tracks en woestijntochten",
+            "Zwak punt: hoogste kosten in het eerste jaar",
+            "Prijs: A$ 59,99 plus een te downloaden kaart"
+          ]
+        },
+        {
+          "heading": "Zo hebben we gekozen en vergeleken",
+          "body": [
+            "We begonnen bij de bekendste Australische kamp- en outbackapps en hielden de apps over die helpen om te kiezen waar je slaapt of hoe je er komt. Elke app is op 20 oktober 2026 gecontroleerd op prijs in de Australische App Store, in-appaankopen, beoordeling, platforms en laatste update, en getoetst aan de eigen beschrijving van de ontwikkelaar over gegevens en gedrag zonder bereik.",
+            "We vergeleken vijf dingen: waar de gegevens vandaan komen, wat <a data-guide=\"camping-without-phone-signal\">zonder bereik</a> nog werkt, wat de app kost op een gemiddelde reis, hoe goed opgeslagen plekken een plan worden en voor wie hij echt bedoeld is. Beoordelingen tonen we zoals ze zijn gepubliceerd; een nieuwe app als de onze heeft te weinig beoordelingen om te tonen, en dat is goed om te weten.",
+            "AussieCamps verdient zijn geld met de Pass; gratis BookEasy-vermeldingen helpen om de download gratis te houden. Geen enkele andere app in dit lijstje heeft betaald om erin te staan of had inspraak in wat we schreven. Is een prijs of functie veranderd sinds onze controle? Laat het ons weten via de supportpagina, dan corrigeren we het."
+          ],
+          "tips": [
+            "Gecontroleerd op 20 oktober 2026",
+            "Beweringen van ontwikkelaars citeren we als beweringen",
+            "Geen enkele app betaalde om erbij te staan"
+          ]
+        },
+        {
+          "heading": "Welke app past bij welke reis",
+          "body": [
+            "De meeste reizigers hebben uiteindelijk twee apps: één om plekken te vinden en één voor iets wat de eerste niet kan, zoals een verblijf op een boerderij boeken of navigeren op een 4WD-track. De tabel koppelt veelvoorkomende reizen aan een eerste keuze."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Een startpunt per soort reis. Combineer apps als één app niet alles dekt.",
+            "head": [
+              "Jouw reis",
+              "Begin met",
+              "Voeg zo nodig toe"
+            ],
+            "rows": [
+              [
+                "Roadtrip met de iPhone langs officiële campings",
+                "AussieCamps",
+                "Hipcamp voor een geboekt weekend"
+              ],
+              [
+                "Android-telefoon, elke reis",
+                "WikiCamps Australia",
+                "CamperMate"
+              ],
+              [
+                "Gratis kamperen met recente beoordelingen",
+                "WikiCamps Australia",
+                "AussieCamps voor rustplaatsen en water"
+              ],
+              [
+                "Australië en Nieuw-Zeeland in één reis",
+                "CamperMate",
+                "KiwiCamping voor Nieuw-Zeeland"
+              ],
+              [
+                "Afgelegen 4WD-tracks",
+                "ExplorOz Traveller",
+                "Een kampeerapp voor de overnachtingen"
+              ],
+              [
+                "Lange reis met een krap budget",
+                "Full Range Camping",
+                "WikiCamps Australia"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Test elke kampeerapp voordat je erop vertrouwt",
+          "body": [
+            "Zet je telefoon in vliegtuigmodus en open een plek die je nog niet hebt bekeken. Wat er verschijnt, heb je daar ook onderweg. Sommige apps bewaren alleen kaarttegels, andere bewaren plekgegevens, en sommige bewaren niets als je niet eerst een regio hebt gedownload.",
+            "Elke app is een hulpmiddel bij het plannen. <a data-guide=\"campfires-camping-australia\">Stookverboden</a>, afsluitingen na regen en aanwijzingen van rangers veranderen sneller dan welke dataset ook, dus lees het bord bij de ingang en vraag het de beheerder voordat je je installeert. Spreken het bord en de app elkaar tegen, dan geldt het bord."
+          ],
+          "tips": [
+            "Test eerst in vliegtuigmodus",
             "Borden gaan boven elke app",
-            "Stookverboden veranderen dagelijks",
-            "Twee apps bij je hebben is normaal"
-          ]
-        },
-        {
-          "heading": "Wat geen enkele app kan",
-          "body": [
-            "Geen app kan bevestigen dat een plek vandaag open is, dat er net een <a data-guide=\"campfires-camping-australia\">stookverbod</a> is afgekondigd of dat een weg na de regen van vannacht dicht is. Dat verandert sneller dan welke dataset ook wordt bijgewerkt.",
-            "Gebruik de app om te plannen en een shortlist te maken, en controleer alles wat cruciaal is bij de beheerder, de wegenautoriteit van de staat of het bord bij de ingang. Die taakverdeling maakt de tool echt nuttig.",
-            "Welke je ook kiest, test hem in de eerste week grondig, nu je nog makkelijk alternatieven hebt, in plaats van zijn grenzen ergens in de rimboe te ontdekken.",
-            "Test elke app in vliegtuigmodus voordat je erop vertrouwt, want wat er <a data-guide=\"camping-without-phone-signal\">zonder bereik</a> verschijnt, is precies wat je hebt als het erop aankomt."
-          ],
-          "tips": [
-            "Apps kunnen de status van vandaag niet bevestigen",
-            "Controleer cruciale dingen direct",
-            "Plan met de app, bevestig bij de bron"
+            "Twee apps meenemen is normaal"
           ]
         }
       ],
       "faq": [
         [
-          "Wat moet een kampeerapp voor Australië echt kunnen?",
-          "Werken zonder bereik, nauwkeurige gegevens over tarieven en voorzieningen bevatten, filteren op een echte vraag in plaats van alleen op categorie, en eerlijk zijn over de toegang. Dekking telt weinig als de gegevens niet kloppen of buiten bereik onleesbaar zijn."
+          "Wat is de beste kampeerapp van Australië?",
+          "Dat hangt af van je telefoon en hoe je reist. Op de iPhone combineert AussieCamps officiële gegevens over campings, rustplaatsen en lozingspunten die zonder bereik leesbaar blijven met een volledige reisplanner. WikiCamps Australia heeft een door de community opgebouwde database van meer dan 65.000 plekken voor een eenmalige A$ 9,99, en CAMPS vermeldt plekken die het eigen team heeft gecontroleerd."
         ],
         [
-          "Is één kampeerapp genoeg voor Australië?",
-          "Voor vinden en plannen meestal wel. De meeste reizigers houden toch de boekingsapps van de parkdiensten voor vergunningen, want NSW, Queensland, Victoria, South Australia en WA hebben elk hun eigen systeem."
+          "Is WikiCamps gratis?",
+          "Nee. In oktober 2026 kost WikiCamps Australia A$ 9,99 als eenmalige aankoop op elk platform, zonder abonnement. CamperMate is een gratis alternatief."
+        ],
+        [
+          "Welke kampeerapp werkt zonder bereik?",
+          "Ze bewaren elk iets anders. AussieCamps slaat plekgegevens op de telefoon op zonder downloadstap, terwijl kaarttegels, routebeschrijvingen en weer bereik nodig hebben. WikiCamps bewaart de kaarten en maximaal drie geplande reizen, bij CAMPS en CamperMate download je kaarten en plekinformatie, en Full Range Camping bewaart de vermeldingen zonder bereik met Premium."
+        ],
+        [
+          "Is er een gratis kampeerapp voor Australië?",
+          "CamperMate is gratis, en Hipcamp is gratis te downloaden, waarbij je elk verblijf aan de gastheer betaalt. AussieCamps is een gratis download met gratis vermeldingen van hotels, motels en holiday parks, maar de gegevens over campings, rustplaatsen en lozingspunten vragen om de Pass."
         ]
       ],
-      "sources": [],
+      "sources": [
+        {
+          "label": "WikiCamps Australia: prijs, dekking en gebruik zonder bereik"
+        },
+        {
+          "label": "Camps Australia Wide: de CAMPS-app"
+        },
+        {
+          "label": "CamperMate: dekking en functies"
+        },
+        {
+          "label": "Hipcamp: over ons"
+        },
+        {
+          "label": "Full Range Camping: lidmaatschap en caching zonder bereik"
+        },
+        {
+          "label": "Full Range Camping: status van het Premium-lidmaatschap"
+        },
+        {
+          "label": "ExplorOz Traveller"
+        }
+      ],
       "priceTable": null
     },
     "camping-rules-new-south-wales": {
@@ -5198,11 +5374,11 @@
       }
     },
     "australia-grocery-prices-2026": {
-      "title": "Boodschappen in Australië: supermarktprijzen en budget 2026",
-      "description": "Boodschappen in Australië: actuele prijzen (laag tot hoog) van melk, eieren, brood, vlees, groente en fruit, plus een haalbaar weekplan voor je eten.",
+      "title": "Boodschappen in Australië 2026: melk A$ 2,45, eieren A$ 7,19",
+      "description": "Prijzen oktober 2026: melk A$ 1,60 tot 4 per liter, een dozijn eieren A$ 4,48 tot 10, kip A$ 9 tot 18 per kilo. Een week basisboodschappen voor één persoon: zo’n A$ 85.",
       "region": "Australië",
       "imageAlt": "Verse producten en boodschappen op een Australische markt",
-      "intro": "Zelf koken is de eenvoudigste manier om een lang reisbudget in Australië in de hand te houden. De landelijke bedragen hieronder zijn richtprijzen uit juni 2026, aangeleverd door de community. Ze geven een goed idee van het prijsniveau, maar zijn geen garantie voor de schapprijs van vandaag in elke buitenwijk of elk afgelegen plaatsje.",
+      "intro": "Volgens de door gebruikers gemelde gemiddelde prijzen van Numbeo kostte een liter melk in oktober 2026 A$ 2,45, een brood van 500 g A$ 3,96, een dozijn eieren A$ 7,19 en een kilo kipfilet A$ 13,14. Zelf koken blijft de eenvoudigste manier om een lang reisbudget in de hand te houden, zolang je je boodschappen afstemt op een kleine koelkast.",
       "sections": [
         {
           "heading": "Je boodschappenmand voor een roadtrip",
@@ -5227,7 +5403,7 @@
         {
           "heading": "Een realistisch bedrag per week",
           "body": [
-            "Een zuinige soloreiziger die de meeste maaltijden zelf kookt, kan als richtbedrag uitgaan van A$ 80 tot 140 per week aan boodschappen en dat bijstellen voor dieet, eetlust en waar je bent. Duur vlees, kant-en-klaarproducten en inkopen in afgelegen plaatsen drijven het snel op.",
+            "Volgens de landelijke gemiddelden die gebruikers aan Numbeo hebben doorgegeven voor oktober 2026 kost een week basisproducten voor één persoon zo’n A$ 85: 2 liter melk, twee broden, een dozijn eieren, een kilo kip, 500 g rundvlees, van elk een kilo appels, bananen, tomaten, uien en rijst, 2 kg aardappelen, 500 g kaas en een krop sla. Voorraadproducten, snacks en inkopen in afgelegen plaatsen komen daar nog bovenop.",
             "Reserveer een apart bedrag voor koffie, <a data-guide=\"eating-out-australia-prices-2026\">afhaaleten</a> en samen uit eten. Noem je elke etensaankoop boodschappen, dan zie je niet meer welke keuzes je het makkelijkst kunt veranderen."
           ],
           "tips": []
@@ -5235,13 +5411,13 @@
         {
           "heading": "Welke supermarkten je tegenkomt",
           "body": [
-            "Coles en Woolworths vind je in het hele land, en Aldi in de meeste steden en regionale plaatsen, met merkbaar lagere prijzen voor basisproducten. IGA vult de gaten in kleinere plaatsen en is meestal de duurste van de vier.",
+            "Coles en Woolworths vind je in het hele land, en Aldi is voor basisproducten meestal goedkoper waar er een winkel is (het mandje van CHOICE kostte in juni 2026 A$ 68,60 bij Aldi, tegen A$ 77,53 bij Woolworths en A$ 78,58 bij Coles), maar Aldi heeft geen winkels in <a data-guide=\"camping-rules-tasmania\">Tasmania</a> of het Northern Territory. IGA en andere onafhankelijke winkels vullen de gaten in kleinere plaatsen, vaak tegen hogere prijzen.",
             "In afgelegen gebieden heb je vaak alleen een roadhouse of de winkel van de lokale gemeenschap (community store), en daar liggen de prijzen door vrachtkosten en lage omzet ver boven die in de stad. Dat is geen afzetterij, maar een rekensom.",
             "Doe je grote boodschappen in de laatste grote plaats vóór een afgelegen stuk, en koop in kleine plaatsjes wat daar de moeite waard is. Allebei belangrijk: het ene voor je budget, het andere voor het plaatsje."
           ],
           "tips": [
-            "Aldi is het goedkoopst, waar er een is",
-            "IGA in kleine plaatsen: duurder",
+            "Aldi is het goedkoopst waar er een is",
+            "Geen Aldi in Tasmania of het NT",
             "Grote boodschappen vóór een afgelegen stuk"
           ]
         },
@@ -5261,53 +5437,56 @@
         {
           "heading": "Seizoensproducten en regels tussen de staten",
           "body": [
-            "De grootste echte besparing zit in lokaal kopen wat in het seizoen is. Mango’s in het noorden in de zomer, steenvruchten in de zuidelijke staten en kraampjes langs de weg in landbouwstreken zijn allemaal een stuk goedkoper dan de supermarkt.",
-            "Kraampjes langs de weg werken vaak met een honesty box (je legt het geld zelf in een kistje), en je kunt er alleen contant betalen. Neem kleine biljetten mee, want ze duiken onverwacht op en hebben vaak de beste groente en het beste fruit dat je onderweg vindt.",
-            "Stem je koelkast af op de quarantainegrenzen. Eet je verse groente en fruit op voordat je de grens met South Australia, Western Australia of <a data-guide=\"camping-rules-tasmania\">Tasmania</a> passeert, dan hoef je geen eten dubbel te kopen."
+            "Lokaal kopen wat in het seizoen is, scheelt het meest. Mango’s in het noorden in de zomer, steenvruchten in de zuidelijke staten en kraampjes langs de weg in landbouwstreken zijn allemaal flink goedkoper dan de supermarkt.",
+            "Veel kraampjes langs de weg werken met een honesty box (je legt het geld zelf in een kistje) en nemen alleen contant geld aan, al accepteren sommige inmiddels ook kaarten. Neem kleine biljetten mee, want de kraampjes duiken onverwacht op en hebben vaak de beste groente en het beste fruit dat je onderweg vindt.",
+            "Stem je koelkast af op quarantainegrenzen en fruitvliegzones. Eet je verse producten op voordat je South Australia, Western Australia, <a data-guide=\"camping-rules-tasmania\">Tasmania</a> of het Northern Territory binnenrijdt, of voordat je een fruitvliegzone als de Riverland of Sunraysia in gaat. Dan hoef je geen eten dubbel te kopen. Check interstatequarantine.org.au voor de actuele regels."
           ],
           "tips": [
-            "Kraampjes langs de weg: alleen contant",
+            "Neem contant geld mee voor kraampjes langs de weg",
             "Koop lokaal wat in het seizoen is",
             "Eet de koelkast leeg vóór een grens"
           ]
         },
         {
-          "heading": "Een realistisch weekbudget voor boodschappen",
+          "heading": "Besparen bij de kassa",
           "body": [
-            "Reis je alleen, kook je de meeste maaltijden zelf en let je op de kosten, dan kun je rekenen op ongeveer A$ 100 tot 170 per week aan boodschappen. Stellen komen per persoon lager uit, omdat ze de basisproducten delen. Dieetwensen, duur vlees en inkopen in afgelegen plaatsen drijven dat bedrag snel op.",
-            "Zet koffie, <a data-guide=\"eating-out-australia-prices-2026\">afhaaleten</a> en samen uit eten op een aparte regel in je budget. Schrijf je alles wat je aan eten uitgeeft onder boodschappen, dan verdwijnen juist de uitgaven uit beeld waarop je het makkelijkst kunt bijsturen als het totaal te hoog wordt. En het probleem zit bijna nooit in de supermarkt.",
-            "Doe je boodschappen waar het kan aan het eind van de dag. De bakkerij en de deli-afdeling (vleeswaren en kaas) van de meeste supermarkten prijzen dan verse producten af die de volgende dag niet meer goed zijn."
+            "Grote supermarkten moeten naast de schapprijs een eenheidsprijs tonen, zoals de prijs per kilo of per 100 g. Vergelijk die regel in plaats van de prijs van de verpakking, want grotere verpakkingen zijn per kilo niet altijd goedkoper.",
+            "Veel supermarkten verlagen aan het eind van de dag de prijs van verse bakkerij- en deliproducten, dus de laatste boodschappen voor sluitingstijd kunnen de goedkoopste zijn.",
+            "Stellen en groepen besparen per persoon meer, want één pot, zak of blok is voor twee personen nauwelijks duurder dan voor één. Deel dus de basisproducten, niet alleen de rekening."
           ],
           "tips": [
-            "Alleen: zo’n A$ 100–170 per week",
-            "Stellen besparen op gedeelde basisproducten",
-            "Houd afhaaleten apart bij"
+            "Vergelijk de eenheidsprijs",
+            "Koop laat op de dag voor afgeprijsde producten",
+            "Deel basisproducten en bespaar"
           ]
         }
       ],
       "faq": [
         [
           "Wat kosten boodschappen in Australië?",
-          "Vooral vlees en verpakte producten vallen bezoekers duur uit, en in afgelegen plaatsen en bij roadhouses liggen de prijzen ver boven die in de stad. We rekenen hier met een echt boodschappenmandje in plaats van een gemiddelde, met prijzen per product en een peildatum."
+          "Volgens de landelijke gemiddelden die gebruikers aan Numbeo hebben doorgegeven voor oktober 2026 kost melk A$ 2,45 per liter, brood A$ 3,96 per brood, eieren A$ 7,19 per dozijn en kipfilet A$ 13,14 per kilo. Een week basisproducten voor één persoon kost zo’n A$ 85, exclusief voorraadproducten, en in afgelegen winkels betaal je meer."
         ],
         [
           "Waar doe je in Australië het goedkoopst boodschappen?",
-          "Bij de grote supermarktketens in elke plaats van enige omvang, en bij Aldi als die er is. Het prijsverschil met een afgelegen roadhouse of een winkel in een klein plaatsje is zo groot dat inslaan vóór een lang stuk je echt geld bespaart."
+          "Bij de grote supermarktketens in elke plaats van enige omvang, en bij Aldi als die er is. Het prijsverschil met een afgelegen roadhouse of een winkel in een klein plaatsje kan groot zijn, dus inslaan vóór een lange etappe loont meestal."
         ]
       ],
       "sources": [
         {
-          "label": "Numbeo: prijzen in Australië, bijgewerkt juni 2026"
+          "label": "Numbeo: prijzen in Australië, bijgewerkt oktober 2026"
         },
         {
           "label": "Quarantaineregels tussen de Australische staten"
         },
         {
-          "label": "Reserve Bank of Australia: wisselkoersen"
+          "label": "CHOICE: vergelijking van supermarktprijzen, juni 2026"
+        },
+        {
+          "label": "ACCC: Unit Pricing Code (eenheidsprijzen)"
         }
       ],
       "priceTable": {
-        "note": "Landelijke richtprijzen (laag tot hoog) uit de community, bijgewerkt in juni 2026. Merk, aanbiedingen, seizoen, de stad en vrachtkosten naar afgelegen plaatsen kunnen de schapprijs veranderen.",
+        "note": "Landelijke richtprijzen (laag tot hoog) uit de community van Numbeo, bijgewerkt in oktober 2026. Merk, aanbiedingen, seizoen, de stad en vrachtkosten naar afgelegen plaatsen kunnen de schapprijs veranderen.",
         "rows": [
           {
             "label": "Melk",
@@ -5341,11 +5520,11 @@
       }
     },
     "eating-out-australia-prices-2026": {
-      "title": "Uit eten in Australië in 2026: restaurant-, afhaal- en koffieprijzen",
-      "description": "Uit eten in Australië: wat een simpele maaltijd, fastfood, koffie en een diner in de middenklasse echt kosten, plus drie dagbudgetten voor eten.",
+      "title": "Uit eten in Australië 2026: goedkope maaltijden A$ 20–45",
+      "description": "Een goedkope maaltijd kost in Sydney A$ 20 tot 45, een fastfoodmenu A$ 15 tot 18 en een diner voor twee A$ 80 tot 200 (oktober 2026). Fooi en toeslagen.",
       "region": "Sydney als maatstaf",
       "imageAlt": "Maaltijd op een terras in een Australische stad",
-      "intro": "Een maaltijd in de stad kan een snelle lunch aan de toonbank zijn of de grootste post in je dagbudget. Sydney is een handige maatstaf aan de dure kant, en de gids van Tourism Australia is een breder vertrekpunt als je restaurantbezoek wilt inplannen.",
+      "intro": "Een maaltijd in een goedkoop restaurant in Sydney kost volgens prijsgegevens van de community van oktober 2026 ongeveer A$ 20 tot 45 per persoon, een fastfoodmenu A$ 15 tot 18 en een driegangendiner voor twee in een restaurant uit het middensegment A$ 80 tot 200. Dit zijn cijfers voor Sydney. Landelijk liggen ze dichtbij (een goedkope maaltijd kost A$ 17 tot 45), maar in regio’s en afgelegen plaatsen kunnen de prijzen afwijken.",
       "sections": [
         {
           "heading": "Drie haalbare manieren om te eten",
@@ -5358,7 +5537,7 @@
         {
           "heading": "Kijk verder dan de prijs op de kaart",
           "body": [
-            "Check of er in het weekend of op feestdagen een toeslag geldt en of er bij het afrekenen kaartkosten bijkomen. Gerechten om te delen, bijgerechten en drankjes tillen een ogenschijnlijk gewoon hoofdgerecht al snel ver boven de prijs op de kaart.",
+            "Check voor je bestelt of er een weekend- of feestdagtoeslag geldt. Sinds 1 oktober 2026 mogen bedrijven geen toeslag meer rekenen op betalingen met eftpos, Mastercard, Visa, American Express of UnionPay, en ook toeslagen voor PayPal zijn sinds 5 oktober 2026 verdwenen. Weekend- en feestdagtoeslagen, reserveringskosten en servicekosten blijven wel gewoon bestaan. Gerechten om te delen, bijgerechten en drankjes tillen een gewoon hoofdgerecht nog steeds ver boven de prijs op de kaart.",
             "Afgelegen cafés en kleine plaatsjes hebben andere aanvoerkosten en openingstijden. Zie een gepubliceerde prijsrange uit de stad als richtlijn, niet als garantie."
           ],
           "tips": [
@@ -5370,7 +5549,7 @@
         {
           "heading": "Wanneer uit eten de moeite waard is",
           "body": [
-            "Geef bewust geld uit aan maaltijden die bij de bestemming horen, en eet op reisdagen eenvoudig uit de supermarkt. Zo houd je ruimte voor lokale vis en zeevruchten, bakkers of streekproducten, zonder dat elke dag duur wordt.",
+            "Stel een dagbedrag voor eten vast en bedenk vooraf hoeveel gekochte maaltijden daarbij horen. Een vast aantal keren per week uit eten is makkelijker vol te houden dan na een lange rit per maaltijd beslissen.",
             "Houd een paar dagen bij wat je echt uitgeeft. Reizigers onthouden vaak de prijs van het hoofdgerecht, maar vergeten de koffie, snacks en bezorgkosten."
           ],
           "tips": []
@@ -5378,20 +5557,20 @@
         {
           "heading": "Waar je echt waar voor je geld krijgt",
           "body": [
-            "De bakker, de fish-and-chipszaak en de counter meal in de pub (een eenvoudige maaltijd die je aan de bar bestelt) zijn in het hele land de drie betrouwbare goedkope opties, en in regionale plaatsen is de kwaliteit vaak beter dan in de steden.",
-            "Vooral de pubmaaltijd is een Australisch instituut en in een klein plaatsje vaak de enige plek voor avondeten. De porties zijn groot en de prijzen liggen meestal ruim onder die van een restaurant in de stad.",
-            "Cafés stoppen meestal eerder met eten serveren dan je als bezoeker verwacht, en in kleine plaatsjes is na achten soms niets meer open. Heb je iets bij je wat je zelf kunt koken, dan schiet je avondeten er bij een late aankomst niet bij in."
+            "De bakker, de fish-and-chipszaak en de counter meal in de pub (een eenvoudige maaltijd die je aan de bar bestelt) zijn in het hele land drie betrouwbare goedkope opties, en in regionale plaatsen is de kwaliteit vaak net zo goed als in de steden.",
+            "Vooral de pubmaaltijd is een Australisch instituut en in een klein plaatsje vaak de enige plek voor avondeten. De porties zijn groot en de prijzen liggen vaak lager dan in een restaurant in de stad.",
+            "Cafés stoppen meestal eerder met eten serveren dan je als bezoeker verwacht, en in kleine plaatsjes is na een uur of acht soms niets meer open. Heb je iets bij je wat je zelf kunt koken, dan schiet je avondeten er bij een late aankomst niet bij in."
           ],
           "tips": [
             "Counter meals in de pub zijn voordelig",
-            "Op het platteland vaak beter dan in de stad",
+            "Op het platteland vaak even goed als in de stad",
             "Kleine plaatsjes sluiten vroeg"
           ]
         },
         {
           "heading": "Toeslagen en betalen",
           "body": [
-            "Toeslagen op feestdagen zijn legaal en gebruikelijk, maar moeten wel vermeld worden. Meestal gaat het om zo’n tien tot vijftien procent. Veel zaken rekenen ook in het weekend een toeslag, en kaarttoeslagen komen er pas bij de kassa bij: op de menukaart zie je ze niet.",
+            "Toeslagen op feestdagen en in het weekend zijn legaal en gebruikelijk, en een café of restaurant moet ze op de menukaart vermelden. Kaarttoeslagen op eftpos, Mastercard, Visa, American Express en UnionPay zijn op 1 oktober 2026 afgeschaft, dus je betaalt de prijs op de kaart plus eventueel een weekend- of feestdagtoeslag, reserveringskosten of servicekosten.",
             "Fooi wordt in Australië niet verwacht: het personeel krijgt een cao-loon (award wage). Sommige betaalautomaten vragen tegenwoordig om een fooi, maar dat is een recente import en geen Australische gewoonte.",
             "Contant geld wordt steeds zeldzamer en veel zaken nemen alleen kaarten aan, maar bij afgelegen roadhouses (tankstations met eetgelegenheid) en honesty boxes (vertrouwenskassa’s) heb je het nog nodig. Neem een klein bedrag mee, ook als je het zelden gebruikt."
           ],
@@ -5406,7 +5585,7 @@
           "body": [
             "Geef bewust geld uit aan eten dat bij de plek hoort: vis en zeevruchten aan de kust, in het seizoen mango’s in de tropen, een lunch op een wijngoed in de Barossa of Margaret River. Dat zijn de maaltijden die je bijblijven.",
             "Eet op reisdagen eenvoudig uit de supermarkt, als je laat aankomt, vroeg weer vertrekt en eten vooral brandstof is en geen belevenis. Zo kun je de goede maaltijden betalen zonder dat elke dag duur wordt.",
-            "Een lunchmenu in een goed restaurant geeft je het grootste deel van de dinerervaring voor flink minder geld. Wil je in een dure plaats één onvergetelijke maaltijd, reserveer dan voor de lunch."
+            "Een lunchmenu in een goed restaurant geeft je het grootste deel van de dinerervaring voor minder geld. Wil je in een dure plaats één onvergetelijke maaltijd, reserveer dan voor de lunch."
           ],
           "tips": [
             "Besteed geld aan eten uit de streek",
@@ -5418,7 +5597,7 @@
           "heading": "Bestellen en porties",
           "body": [
             "Australische porties zijn royaal, en een hoofdgerecht is meestal genoeg zonder bijgerechten. Een ‘entree’ is hier een voorgerecht en geen hoofdgerecht, wat Noord-Amerikaanse bezoekers regelmatig in verwarring brengt, en een voorgerecht delen is heel normaal.",
-            "Je eigen drank meenemen (BYO, bring your own) is gebruikelijk, zowel bij restaurants met als zonder drankvergunning, meestal tegen kurkengeld per fles of per persoon. Dat scheelt flink op een etentje, dus het loont om er bij het reserveren naar te vragen.",
+            "Je eigen drank meenemen (BYO, bring your own) is gebruikelijk bij restaurants zonder drankvergunning en bij sommige met vergunning, meestal tegen kurkengeld per fles of per persoon, dus check het bij het reserveren. Dat kan een etentje flink goedkoper maken.",
             "Vraag het de locals in plaats van online te zoeken, zeker in kleine plaatsjes: daar vind je de beste maaltijd vaak bij een bowlsclub of in een pub die helemaal niet online te vinden is."
           ],
           "tips": [
@@ -5431,26 +5610,26 @@
       "faq": [
         [
           "Wat kost uit eten in Australië?",
-          "Hieronder staan prijzen met peildatum voor een ontbijt in een café, een pubmaaltijd, een diner in de middenklasse en afhaaleten. Voor een volledige maaltijd blijft een pubbistro het voordeligst, en daarom vormt die de basis van de meeste roadtripbudgetten."
+          "Een goedkope maaltijd in een restaurant kost in Sydney volgens prijsgegevens van de community van oktober 2026 ongeveer A$ 20 tot 45 per persoon en een fastfoodmenu A$ 15 tot 18. Een driegangendiner voor twee in een restaurant uit het middensegment kost A$ 80 tot 200, exclusief drank."
         ],
         [
           "Geef je fooi in Australië?",
-          "Nee. Fooi wordt niet verwacht en het personeel krijgt een cao-loon waarin geen fooi is ingecalculeerd. Afronden of iets extra’s geven voor uitzonderlijke service wordt wel gewaardeerd. Een toeslag op zondag en op feestdagen is normaal en legaal."
+          "Nee. Fooi wordt niet verwacht en het restaurantpersoneel krijgt een cao-loon (award wage), al wordt afronden of iets extra’s geven voor uitzonderlijke service wel gewaardeerd. Toeslagen op zondag en op feestdagen zijn normaal en legaal als ze op de menukaart staan."
         ]
       ],
       "sources": [
         {
-          "label": "Numbeo: prijzen in Sydney, bijgewerkt in juni 2026"
+          "label": "Numbeo: prijzen in Sydney, bijgewerkt oktober 2026"
         },
         {
-          "label": "Tourism Australia: budgetgids"
+          "label": "ACCC: richtlijnen over toeslagen"
         },
         {
-          "label": "Reserve Bank of Australia: wisselkoersen"
+          "label": "Reserve Bank of Australia: veelgestelde vragen over het verbod op kaarttoeslagen"
         }
       ],
       "priceTable": {
-        "note": "Door gebruikers verzamelde prijsranges voor Sydney, bijgewerkt in juni 2026. Aan het water, in resorts, op vliegvelden, bij evenementen en met bediening aan tafel kan het duurder uitvallen.",
+        "note": "Door de community verzamelde prijsranges voor Sydney, bijgewerkt in oktober 2026. Aan het water, in resorts, op vliegvelden, bij evenementen en met bediening aan tafel kan het duurder uitvallen.",
         "rows": [
           {
             "label": "Maaltijd in een goedkoop restaurant",
@@ -5476,11 +5655,11 @@
       }
     },
     "alcohol-coffee-drink-prices-australia": {
-      "title": "Prijzen in Australië: bier, wijn, koffie en andere drankjes",
-      "description": "Prijzen in de pub, de koffiezaak en de bottle shop overzichtelijk vergeleken, zodat drankjes niet ongemerkt je reisbudget opslokken.",
+      "title": "Bier en koffie in Australië 2026: pubbier A$ 7–16",
+      "description": "Een biertje in de pub kost in Sydney A$ 7 tot 16 en een cappuccino A$ 4,50 tot 8 (oktober 2026). Plus prijzen voor bier en wijn in de bottle shop en bespaartips.",
       "region": "Australië",
       "imageAlt": "Drankjes op een tafel in een Australisch café",
-      "intro": "Drankjes onderschat je makkelijk, want je koopt ze één voor één. Actuele, door gebruikers verzamelde prijzen laten zien hoe groot het verschil is tussen een aankoop in de bottle shop (drankwinkel), een stop bij een koffiezaak en een rondje in een pub in de stad.",
+      "intro": "Een tapbier van 500 ml in een pub in Sydney kost volgens prijsgegevens van de community van oktober 2026 ongeveer A$ 7 tot 16 en een cappuccino A$ 4,50 tot 8, terwijl een flesje bier van 500 ml uit de bottle shop (drankwinkel) landelijk ongeveer A$ 3,50 tot 12 kost. Drankjes tellen op, rondje na rondje.",
       "sections": [
         {
           "heading": "Winkelprijs is geen horecaprijs",
@@ -5491,22 +5670,22 @@
           "tips": []
         },
         {
-          "heading": "Alcohol en rijden",
+          "heading": "Wijn in de bottle shop en aan de bar",
           "body": [
-            "Het veiligste plan voor een roadtrip houdt drinken en rijden volledig gescheiden. De wettelijke promillegrens verschilt per soort rijbewijs en voertuigcategorie, en voor sommige bestuurders geldt nul promille.",
-            "Spreek een Bob af die niet drinkt, blijf slapen of neem ander vervoer. Gebruik een omrekentabel nooit om uit te rekenen hoeveel je nog mag drinken."
+            "Een fles wijn van 750 ml uit het middensegment kost in de bottle shop ongeveer A$ 12 tot 30, en daar schenk je ruwweg vijf glazen van 150 ml uit. Per glas besteld in een bar of restaurant kost dezelfde wijn per portie meestal aanzienlijk meer, dus een fles die je op de camping deelt is de goedkoopste manier om wijn te drinken.",
+            "Sommige restaurants, meestal zonder drankvergunning, laten je tegen kurkengeld je eigen fles meenemen. Zo drink je bij het diner wijn voor de prijs van de bottle shop. Vraag er bij het reserveren naar, niet pas aan tafel."
           ],
           "tips": [
-            "Rijd nooit onder invloed",
-            "Check lokale alcoholregels",
-            "Neem water mee"
+            "Fles uit het middensegment: A$ 12–30",
+            "Ongeveer vijf glazen per fles",
+            "Vraag bij het reserveren naar BYO"
           ]
         },
         {
           "heading": "Let op wat je per dag ongemerkt uitgeeft",
           "body": [
             "Twee kopjes koffie en twee drankjes in de horeca per dag: dat loopt per week flink op. Bepaal welke stops je echt iets waard zijn, in plaats van uit gewoonte te kopen.",
-            "Houd <a data-guide=\"camping-water-planning\">drinkwater</a> binnen handbereik en vul alleen bij waar dat mag. Bij hitte horen genoeg drinken en schaduw bij je veiligheidsplan, niet bij je uitgaansbudget."
+            "Houd <a data-guide=\"camping-water-planning\">drinkwater</a> binnen handbereik en vul alleen bij aan kranen met drinkwater. Bij hitte horen genoeg drinken en schaduw bij je veiligheidsplan, niet bij je uitgaansbudget."
           ],
           "tips": []
         },
@@ -5514,7 +5693,7 @@
           "heading": "Koffie is een vaste dagelijkse post",
           "body": [
             "Australië heeft een sterke koffiecultuur, en ook in plaatsen buiten de grote steden is de koffie echt goed. Juist daardoor wordt het een post in je budget. Twee flat whites per dag voor twee personen: dat tikt flink aan, zonder dat het ooit als een bewuste keuze voelt.",
-            "Met een percolator of AeroPress in de camper zet je je ochtendkoffie voor een fractie van de prijs, en wordt de stop bij een koffiezaak iets wat je bewust kiest in plaats van een automatisme. De meeste mensen die dit doen, drinken uiteindelijk betere koffie.",
+            "Met een percolator of AeroPress in de camper zet je je ochtendkoffie voor een fractie van wat je in een koffiezaak betaalt, en wordt de stop bij een koffiezaak iets wat je bewust kiest in plaats van een automatisme.",
             "Koffie bij een roadhouse (tankstation met wegrestaurant) is op lange ritten op zijn best wisselend. Op outbackroutes is zelf zetten meestal goedkoper én een stuk lekkerder."
           ],
           "tips": [
@@ -5526,12 +5705,12 @@
         {
           "heading": "Alcohol kopen in Australië",
           "body": [
-            "In de meeste staten koop je alcohol niet in de supermarkt, maar in een bottle shop met vergunning. Die zit vaak vast aan een supermarkt, maar is een aparte winkel. De openingstijden zijn wettelijk geregeld en verschillen per staat.",
-            "In veel gemeenschappen en regio’s gelden beperkingen voor alcohol, vooral in het Northern Territory en in delen van <a data-guide=\"camping-rules-queensland\">Queensland</a> en Western Australia. Wie alcohol meeneemt naar een gebied met zo’n beperking, riskeert zware straffen.",
+            "Alcohol in verpakking wordt vooral verkocht in bottle shops met vergunning, vaak naast een supermarkt maar als aparte winkel, al verkopen Aldi en sommige onafhankelijke supermarkten het ook in de winkel zelf. De openingstijden zijn wettelijk geregeld en verschillen per staat.",
+            "In veel gemeenschappen en regio’s gelden beperkingen voor alcohol, vooral in het Northern Territory, delen van <a data-guide=\"camping-rules-queensland\">Queensland</a>, Western Australia en South Australia. Wie alcohol meeneemt naar een gebied met zo’n beperking, riskeert zware straffen.",
             "Zoek het uit voordat je met alcohol naar afgelegen gebieden rijdt. Er wordt echt op gehandhaafd, de regels gelden net zo goed voor bezoekers als voor bewoners, en ‘ik wist het niet’ is geen excuus."
           ],
           "tips": [
-            "Bottle shop, niet de supermarkt",
+            "Vooral bottle shops, soms supermarkten",
             "Zware straffen in gebieden met beperkingen",
             "Check het voordat je afgelegen gebieden in rijdt"
           ]
@@ -5539,12 +5718,12 @@
         {
           "heading": "Drinken op dagen dat je rijdt",
           "body": [
-            "De algemene grens is 0,05 (0,5 promille) voor wie een volledig rijbewijs heeft, en nul voor leerling-bestuurders, beginners met een voorlopig rijbewijs en veel beroepschauffeurs. Willekeurige blaastests komen veel voor, ook op landwegen en overdag.",
+            "De algemene grens is 0,05 (0,5 promille) voor wie een volledig rijbewijs heeft, nul voor leerling-bestuurders en beginners met een voorlopig rijbewijs, en nul of 0,02 voor veel beroepschauffeurs, afhankelijk van de staat (0,02 in NSW). Willekeurige blaastests komen veel voor, ook op landwegen en overdag.",
             "Op een roadtrip is er maar één veilige aanpak: drinken en rijden helemaal gescheiden houden. Blijf slapen waar je drinkt, spreek een Bob af, of drink pas als je voertuig voor de nacht geparkeerd staat.",
-            "Op de ochtend erna gaan veel mensen de mist in. Je lichaam breekt ongeveer één standaardglas per uur af en niet sneller, dus na een zware avond kun je tot ver in de volgende ochtend nog boven de limiet zitten."
+            "Op de ochtend erna gaan veel mensen de mist in. Je lichaam heeft voor elk standaardglas minstens een uur nodig, vaak langer, en koffie of een douche versnelt dat niet, dus na een zware avond kun je tot ver in de volgende ochtend nog boven de limiet zitten."
           ],
           "tips": [
-            "Algemeen 0,05, voor veel bestuurders nul",
+            "Algemeen 0,05, nul voor leerlingen en beginners",
             "Veel willekeurige controles, ook overdag",
             "De ochtend erna is de valkuil"
           ]
@@ -5554,7 +5733,7 @@
           "body": [
             "In bijna alle plaatsen en steden in Australië is het kraanwater veilig en goed, dus flessenwater kopen is bijna pure verspilling. Neem navulbare flessen mee en vul ze bij elke drinkwaterkraan in een dorp of stad, op een camping of bij openbare voorzieningen.",
             "In afgelegen gebieden en in de bush is het precies andersom: water uit een boorput (bore water) kan veel mineralen bevatten of ongeschikt zijn, tankwater is niet gezuiverd en oppervlaktewater in landbouwgebieden kan chemisch vervuild zijn. Zuiver alles wat niet duidelijk is aangegeven als drinkwater uit het leidingnet van een plaats.",
-            "Neem een goede geïsoleerde drinkfles mee, want in het Australische klimaat is koud water wat je echt het vaakst wilt drinken, en bijvullen kost niets."
+            "Neem een goede geïsoleerde drinkfles mee, zodat je bij hitte altijd koud water bij de hand hebt, en bijvullen kost niets."
           ],
           "tips": [
             "Kraanwater in dorpen en steden is veilig",
@@ -5566,11 +5745,11 @@
       "faq": [
         [
           "Wat kost een biertje in Australië?",
-          "Hieronder staan prijzen met peildatum voor een schooner (het gangbare glas tapbier) in de pub, een speciaalbier, een carton (een doos bier) uit de bottle shop en wijn per glas en per fles. Op een lange reis bespaar je het meest door in de bottle shop te kopen in plaats van aan de bar."
+          "Een tapbier van 500 ml in een pub in Sydney kost volgens prijsgegevens van de community van oktober 2026 ongeveer A$ 7,15 tot 16, en een flesje van 500 ml uit de bottle shop landelijk ongeveer A$ 3,50 tot 12. In de bottle shop kopen in plaats van aan de bar is een van de grootste besparingen op een lange reis."
         ],
         [
           "Wat kost koffie in Australië?",
-          "Een flat white kost in heel Australië ongeveer hetzelfde, al zijn cafés in de binnensteden het duurst. Australische koffie is echt goed, en daarom loopt deze post op een lange reis ongemerkt op."
+          "Een gewone cappuccino kost volgens prijsgegevens van de community van oktober 2026 ongeveer A$ 4,50 tot 8 in Sydney en A$ 4 tot 8 landelijk, waarbij cafés in de binnenstad vaak aan de bovenkant zitten. Twee koffies per dag voor twee personen worden op een lange reis een serieuze budgetpost."
         ]
       ],
       "sources": [
@@ -5582,29 +5761,35 @@
         },
         {
           "label": "NSW-richtlijnen over alcohol en rijden"
+        },
+        {
+          "label": "NHMRC: hoe lang het duurt voordat alcohol is afgebroken"
+        },
+        {
+          "label": "Northern Territory: alcohol kopen en drinken"
         }
       ],
       "priceTable": {
-        "note": "Prijsindicaties voor Australië en Sydney, aangeleverd door gebruikers en bijgewerkt in juni 2026. Portiegrootte, zaak, aanbiedingen en locatie verschillen.",
+        "note": "Prijsindicaties van de community voor Australië en Sydney, bijgewerkt in oktober 2026. Portiegrootte, zaak, aanbiedingen en locatie verschillen.",
         "rows": [
           {
-            "label": "Cappuccino",
+            "label": "Cappuccino (Sydney)",
             "unit": "één kopje"
           },
           {
-            "label": "Tapbier in de pub",
+            "label": "Tapbier in de pub (Sydney)",
             "unit": "één glas"
           },
           {
-            "label": "Wijn uit het middensegment",
+            "label": "Wijn uit het middensegment (landelijk)",
             "unit": "750 ml, winkelprijs"
           },
           {
-            "label": "Binnenlands bier",
+            "label": "Binnenlands bier (landelijk)",
             "unit": "500 ml, winkelprijs"
           },
           {
-            "label": "Frisdrank",
+            "label": "Frisdrank (Sydney)",
             "unit": "330 ml, horecaprijs"
           }
         ]
@@ -6153,11 +6338,11 @@
       }
     },
     "public-transport-costs-australia-2026": {
-      "title": "Openbaar vervoer in Australië: kosten per stad in 2026",
-      "description": "Openbaar vervoer in Australië: vergelijk de tarieven in Brisbane, Perth, Melbourne en Sydney zonder ritprijzen te verwarren met dagmaxima.",
+      "title": "Openbaar vervoer in Australië 2026: tarieven vanaf 50 cent",
+      "description": "Queensland rekent vast 50 cent per rit, Perth max. A$ 7 per dag (DayRider), Melbourne A$ 5,70 per dag tot 1 januari 2027 en Sydney A$ 19,30 (ma–do). Plus vliegveldtoeslagen.",
       "region": "Hoofdsteden",
       "imageAlt": "Openbaar vervoer in een Australische stad",
-      "intro": "Elke Australische stad heeft eigen tariefregels, betaalmethoden en maximumbedragen. Een vaste ritprijs in Queensland, een DayRider in Perth en het dagmaximum in Sydney zeggen elk iets anders, dus reken met de hele dag die je wilt reizen.",
+      "intro": "In Queensland betaal je een vast tarief van 50 cent per rit, in Perth is een dag gemaximeerd op A$ 7, in Melbourne is het dagmaximum voor het volle tarief A$ 5,70 zolang de halveprijstarieven lopen tot 1 januari 2027, en in Sydney geldt voor volwassenen met Opal van maandag tot en met donderdag een maximum van A$ 19,30 per dag. Elke stad rekent anders, dus vergelijk een hele reisdag in plaats van één kaartje.",
       "sections": [
         {
           "heading": "Vergelijk appels met appels",
@@ -6170,7 +6355,7 @@
         {
           "heading": "Het vliegveld valt vaak buiten het tarief",
           "body": [
-            "Particuliere diensten en toeslagen voor toegang tot het station vallen soms buiten de gewone ov-tarieven. De Airtrain in Brisbane valt niet onder het tarief van 50 cent in <a data-guide=\"camping-rules-queensland\">Queensland</a>, en op Sydney Airport betaal je bovenop de treinprijs een stationstoeslag.",
+            "De trein naar het vliegveld valt vaak buiten de gewone tarieven. De Airtrain in Brisbane valt niet onder het tarief van 50 cent in <a data-guide=\"camping-rules-queensland\">Queensland</a>, en op de vliegveldstations van Sydney betaal je bovenop de treinprijs een stationstoeslag, met een eigen weekmaximum.",
             "Reken de rit van en naar het vliegveld apart uit voordat je kiest tussen trein, bus, shuttle, taxi of een ritdienst (rideshare)."
           ],
           "tips": [
@@ -6190,26 +6375,26 @@
         {
           "heading": "Elke stad heeft een eigen ov-kaart",
           "body": [
-            "Australië heeft geen landelijke ov-kaart. Sydney werkt met Opal, Melbourne met Myki, Brisbane en het zuidoosten van <a data-guide=\"camping-rules-queensland\">Queensland</a> met de go card, Perth met SmartRider en Adelaide met metroCARD. In sommige steden kun je ook contactloos met je bankpas betalen, maar niet overal.",
-            "Melbourne is de grote uitzondering: daar kun je op de meeste lijnen niet contactloos betalen, dus heb je een Myki nodig. Zoek het uit voordat je aankomt en ga er niet zomaar van uit dat je bankpas werkt.",
+            "Australië heeft geen landelijke ov-kaart. Sydney werkt met Opal, Melbourne met myki, het zuidoosten van <a data-guide=\"camping-rules-queensland\">Queensland</a> met de go card, Perth met SmartRider en Adelaide met metroCARD. Op veel van deze netwerken kun je inmiddels ook contactloos met je bankpas betalen.",
+            "In Melbourne kun je in treinen, trams en bussen met myki-apparatuur contactloos betalen met Visa en Mastercard. De uitrol bij de bussen was op 26 juli 2026 afgerond. Sinds 13 oktober 2026 kunnen ook houders van een kortingspas met hun bankpas inchecken, zodra ze hun kortingsrecht online hebben gekoppeld. Wie een Youth myki heeft, heeft wel nog steeds een myki nodig, dus check de actuele regels voordat je op een bankpas vertrouwt.",
             "De meeste systemen hebben een maximumbedrag per dag en per week, en dat verandert de rekensom flink zodra je meerdere ritten maakt. Schat in hoeveel ritten je gaat maken voordat je kiest tussen een pas en betalen per rit."
           ],
           "tips": [
             "Geen landelijke ov-kaart",
-            "In Melbourne heb je een Myki nodig",
+            "Melbourne: bankpas in trein, tram en bus",
             "Dag- en weekmaxima veranderen de rekensom"
           ]
         },
         {
           "heading": "Van en naar het vliegveld",
           "body": [
-            "In Sydney betaal je bovenop de treinprijs een stationstoeslag, waardoor de trein naar het vliegveld flink duurder is dan een gewone rit. De Airtrain in Brisbane is ook een aparte dienst met een eigen prijs.",
-            "In Melbourne, Perth, Adelaide en Darwin rijden bussen of treinen naar het vliegveld tegen normalere tarieven. Met drie of meer personen en bagage is een ritdienst soms niet duurder dan losse kaartjes.",
-            "Een gewone dagkaart dekt deze verbindingen meestal niet. Reken de rit naar het vliegveld dus apart als je opties vergelijkt."
+            "Op de vliegveldstations van Sydney betaal je bovenop de treinprijs een stationstoeslag van A$ 18,61 per rit voor een volwassene, met een maximum van A$ 37,75 per week. De trein naar het vliegveld kost daardoor veel meer dan een gewone rit. De Airtrain in Brisbane heeft als aparte dienst een eigen prijs.",
+            "De treinen van de Airport Line in Perth rijden tegen de gewone Transperth-tarieven. Omdat je gewoon het normale tarief betaalt, is een rit via een taxi-app alleen voor grotere groepen met bagage concurrerend, dus reken beide door.",
+            "De stationstoeslag in Sydney valt buiten de dag- en weekmaxima van Opal en de Airtrain in Brisbane valt buiten het tarief van 50 cent, maar de Airport Line in Perth valt wel onder de gewone Transperth-tarieven en de DayRider. Reken de rit naar het vliegveld dus apart als je opties vergelijkt."
           ],
           "tips": [
             "Sydney rekent een stationstoeslag",
-            "Vliegveldverbindingen reken je apart",
+            "Vliegveldtrein in Sydney en Brisbane: aparte prijs",
             "Met een groep is een ritdienst soms goedkoper"
           ]
         },
@@ -6229,9 +6414,9 @@
         {
           "heading": "Kortingen en passen voor bezoekers",
           "body": [
-            "Voor kortingstarieven heb je meestal een Australische kortingskaart nodig, en buitenlandse studenten- of seniorenpassen worden doorgaans niet geaccepteerd. Reken met het volle tarief voor volwassenen, tenzij je voor dat specifieke netwerk zeker weet dat het anders zit.",
+            "Voor kortingstarieven heb je meestal een in Australië uitgegeven kortingspas nodig, en buitenlandse studenten- of seniorenpassen worden doorgaans niet geaccepteerd. Reken met het volle tarief voor volwassenen, tenzij je voor dat specifieke netwerk zeker weet dat het anders zit.",
             "Sommige steden verkopen bezoekerspassen voor vervoer plus attracties. Reken voordat je er een koopt uit hoeveel ritten en toegangen je echt gebruikt, want zulke passen gaan meestal uit van een voller programma dan de meeste reizigers hebben.",
-            "Blijf je meer dan een paar dagen in een stad, dan ben je met een weekmaximum of weekpas meestal goedkoper uit dan met dagtarieven, en hoef je er niet meer over na te denken."
+            "In Perth reis je op zondag gratis met een SmartRider of een contactloze pas, en kinderen en jongeren onder de 18 reizen in <a data-guide=\"camping-rules-victoria\">Victoria</a> gratis met een Youth myki (met een contactloze bankpas kun je niet op een Youth-tarief reizen). Blijf je meer dan een paar dagen, check dan of de stad een weekmaximum heeft (in Sydney is dat A$ 50) voordat je per dag betaalt."
           ],
           "tips": [
             "Buitenlandse kortingspassen werken zelden",
@@ -6243,11 +6428,11 @@
       "faq": [
         [
           "Kun je zonder auto door Australië reizen?",
-          "Tussen de hoofdsteden wel. Daarbuiten wordt het netwerk snel dunner, en de plekken aan de kust en in de outback waarvoor de meeste mensen komen, zijn zonder eigen vervoer of georganiseerde tour vrijwel onbereikbaar."
+          "Tussen de hoofdsteden wel. Daarbuiten wordt het netwerk snel dunner, en veel van de plekken aan de kust en in de outback waarvoor de meeste mensen komen, zijn zonder eigen vervoer of georganiseerde tour moeilijk bereikbaar."
         ],
         [
           "Wat kost het openbaar vervoer in Australische steden?",
-          "Hieronder vind je tarieven met peildatum voor Sydney, Melbourne, Brisbane en Perth. Overal check je in en uit met een ov-kaart met dag- en weekmaxima, en in een aantal steden kun je inmiddels direct met je contactloze bankpas betalen, zodat je helemaal geen ov-kaart hoeft te kopen."
+          "In Queensland betaal je een vast tarief van 50 cent per rit, in Perth is een dag gemaximeerd op A$ 7 en reis je op zondag gratis met een SmartRider of bankpas, in Melbourne is het dagmaximum tot 1 januari 2027 A$ 5,70, en in Sydney is het Opal-maximum voor volwassenen A$ 19,30 van maandag tot en met donderdag en A$ 9,65 van vrijdag tot en met zondag en op feestdagen."
         ]
       ],
       "sources": [
@@ -6262,25 +6447,34 @@
         },
         {
           "label": "Transport for NSW: Opal-tarieven voor volwassenen"
+        },
+        {
+          "label": "Transport for NSW: van en naar Sydney Airport"
+        },
+        {
+          "label": "Victorian Government: tap and go wordt uitgerold in bussen"
+        },
+        {
+          "label": "Victorian Government: tap and go voor reizigers met korting"
         }
       ],
       "priceTable": {
-        "note": "Richtprijzen voor volwassenen, gecontroleerd op 12 augustus 2026. Vliegveldverbindingen, voorwaarden, kortingen en betaalmethode kunnen het bedrag veranderen.",
+        "note": "Richtprijzen voor volwassenen, op 19 oktober 2026 gecontroleerd op de tariefpagina’s van de vervoerders. Vliegveldverbindingen, voorwaarden, kortingen en betaalmethode kunnen het bedrag veranderen.",
         "rows": [
           {
             "label": "Rit met Translink in Queensland",
             "unit": "per rit"
           },
           {
-            "label": "Perth, SmartRider met Autoload",
-            "unit": "gewone rit"
+            "label": "Perth, Go Anywhere-tarief, SmartRider met Autoload",
+            "unit": "per rit (3 uur geldig)"
           },
           {
             "label": "Perth, DayRider",
             "unit": "per dag"
           },
           {
-            "label": "Victoria, tijdelijk dagmaximum (vol tarief)",
+            "label": "Victoria, dagmaximum vol tarief (doordeweeks), tot 1 januari 2027",
             "unit": "per dag"
           },
           {
@@ -6299,16 +6493,16 @@
       }
     },
     "domestic-flight-costs-australia-2026": {
-      "title": "Binnenlandse vluchten in Australië: realistische prijzen 2026",
-      "description": "Binnenlandse vluchten in Australië: waargenomen tarieven voor korte routes, naar het noorden en over het continent, plus de extra’s bovenop de vanafprijs.",
+      "title": "Binnenlandse vluchten Australië 2026: actieprijzen vanaf A$ 49",
+      "description": "Actietarieven 2026, enkele reis: A$ 49 Sydney–Ballina, A$ 105 Melbourne–Sydney, A$ 245 Sydney–Perth. Wat bagage, stoelen en transfers erbij kosten.",
       "region": "Australië",
       "imageAlt": "Vliegtuig boven het Australische landschap",
-      "intro": "Australië is zo groot dat vliegen aantrekkelijk is, maar de goedkoopste geadverteerde stoel is een actieprijs uit een bepaalde periode, geen vast tarief. De laagste prijzen die we in 2026 zagen, laten zien hoe de markt in elkaar zit, nog vóór bagage, stoelkeuze en piekdata.",
+      "intro": "Actietarieven voor binnenlandse vluchten in Australië begonnen in 2026 bij A$ 49 enkele reis voor Sydney–Ballina, A$ 105 voor Melbourne–Sydney, A$ 115 voor Sydney–Cairns en A$ 245 voor Sydney–Perth in de julieactie van Virgin Australia, en Jetstar verkocht Melbourne–Uluru vanaf A$ 115. Dat waren beperkte actiestoelen, zie ze dus als ondergrens en reken je eigen reis door met bagage en stoelen erbij.",
       "sections": [
         {
           "heading": "Actieprijs tegenover je totale reiskosten",
           "body": [
-            "Tel er ruimbagage, stoelkeuze, betaalkosten en vervoer van en naar het vliegveld bij op, en wat het kost om bij je voertuig te komen of een ander te regelen. Reis je met veel spullen, dan kan een goedkope vlucht toch de dure optie zijn.",
+            "Tel ruimbagage, stoelkeuze, reserverings- en servicekosten, vervoer van en naar het vliegveld en de kosten om bij je voertuig te komen of een ander te regelen erbij op. Kaarttoeslagen op Visa, Mastercard en eftpos zijn sinds 1 oktober 2026 verboden, dus bij het afrekenen hoort voor die kaarten geen toeslag meer te staan. Een goedkope vlucht kan bij een reis met veel spullen toch de dure optie zijn.",
             "Vergelijk dezelfde data met dezelfde bagage, niet twee vanafprijzen."
           ],
           "tips": []
@@ -6328,7 +6522,7 @@
         {
           "heading": "Lees actieprijzen voor wat ze zijn",
           "body": [
-            "De tabel toont gepubliceerde acties van Virgin Australia en Jetstar. Bij allebei waren er maar beperkt stoelen en golden er reisvoorwaarden, dus reken er niet op dat je vandaag hetzelfde tarief vindt.",
+            "De tabel toont de julieactie van Virgin Australia uit 2026 en de Jetstar-actie van februari 2026 naar Darwin en Uluru. Beide acties zijn afgelopen en hadden beperkte stoelen en reisvoorwaarden, dus reken er niet op dat je vandaag hetzelfde tarief vindt.",
             "Zoek je exacte data op bij de maatschappijen zelf en vergelijk het volledige bedrag bij het afrekenen voordat je je route omgooit."
           ],
           "tips": []
@@ -6336,9 +6530,9 @@
         {
           "heading": "Wanneer vliegen beter is dan rijden",
           "body": [
-            "Door de enorme afstanden in Australië is vliegen echt handig op de lange stukken: van Perth naar de oostkust, van waar dan ook naar Darwin, of naar <a data-guide=\"camping-rules-tasmania\">Tasmania</a>. Daar scheelt het dagen, geen uren.",
-            "Voor kortere stukken die je prima kunt rijden, loont het zelden. En het loont nooit als je intussen betaalt voor een voertuig dat aan de andere kant stilstaat. Reken het hele plaatje door, niet alleen het ticket.",
-            "Een one-way-toeslag kan hoger zijn dan de vliegprijs, dus check die voordat je aanneemt dat een enkele vlucht goedkoper uitkomt. Soms maakt een relocation deal (je brengt een huurvoertuig voor de verhuurder naar een andere vestiging) het juist veel goedkoper, als je data en rijrichting passen."
+            "Door de enorme afstanden in Australië is vliegen echt handig op de lange stukken: van Perth naar de oostkust, van de oostkust naar Darwin, of naar <a data-guide=\"camping-rules-tasmania\">Tasmania</a>. Daar scheelt het dagen, geen uren.",
+            "Voor kortere stukken die je prima kunt rijden, loont vliegen zelden, en ook niet als je intussen betaalt voor een voertuig dat aan de andere kant stilstaat. Reken het hele plaatje door, niet alleen het ticket.",
+            "Een one-way-toeslag voor je huurvoertuig kan zo hoog zijn dat hij een goedkoop vliegticket tenietdoet, dus check die voordat je aanneemt dat één kant op vliegen goedkoper uitkomt. Een relocation deal (je brengt een huurvoertuig voor de verhuurder naar een andere vestiging) kan de kosten sterk drukken, als je data en rijrichting passen."
           ],
           "tips": [
             "Vlieg de heel lange stukken",
@@ -6349,20 +6543,20 @@
         {
           "heading": "De bagage maakt het goedkope ticket duur",
           "body": [
-            "De laagste geadverteerde tarieven zijn alleen voor een stoel. Met ruimbagage, stoelkeuze en een beetje flexibiliteit erbij kan de prijs verdubbelen. Reis je met rugzakken, een tent en kookspullen, dan kun je niet zonder ruimbagage.",
-            "Op routes naar kleinere plaatsen vliegen regionale toestellen met strengere gewichtslimieten dan op de grote hoofdroutes, en daar wordt echt op gelet. Check het per route en ga niet uit van één standaard per maatschappij.",
+            "De laagste geadverteerde tarieven gelden alleen voor een stoel, en met ruimbagage, stoelkeuze en een beetje flexibiliteit erbij kan de prijs flink stijgen. Reis je met rugzakken, een tent en kookspullen, dan kun je niet zonder ruimbagage.",
+            "Sommige regionale toestellen op routes naar kleinere plaatsen hebben strengere bagagelimieten dan de hoofdroutes. Check het per route en ga niet uit van één standaard per maatschappij.",
             "Gasbusjes en gasflessen voor het kamperen en sommige brandstoffen mogen helemaal niet mee in het vliegtuig, dus koop ze op je bestemming in plaats van ze mee te nemen."
           ],
           "tips": [
             "Bij goedkope tarieven zit geen bagage in",
-            "Regionale toestellen hebben strengere limieten",
+            "Sommige regionale toestellen hebben strengere limieten",
             "Gasbusjes mogen niet mee"
           ]
         },
         {
           "heading": "Wanneer je boekt en wat er mis kan gaan",
           "body": [
-            "Binnenlandse vluchten zijn het goedkoopst als je een paar weken van tevoren boekt, en in de laatste twee weken stijgen de prijzen flink. In de schoolvakanties en rond de kerstdagen betaal je meer en zitten de toestellen vol.",
+            "Binnenlandse vluchten zijn meestal het goedkoopst als je een paar weken van tevoren boekt, en de prijzen stijgen vaak naarmate de vertrekdatum dichterbij komt. In de schoolvakanties en rond de kerstdagen zijn de tarieven hoger en zitten de toestellen vol.",
             "Het weer in het <a data-guide=\"best-time-camping-australia\">regenseizoen</a> in het noorden en mist in het zuiden leiden allebei tot annuleringen. Op regionale routes met maar één vlucht per dag heb je die dag dan geen alternatief meer.",
             "Plan een binnenlandse vlucht nooit krap vóór een internationale vlucht. Een nacht in de stad waar je vertrekt is veel goedkoper dan een gemiste langeafstandsvlucht."
           ],
@@ -6375,7 +6569,7 @@
         {
           "heading": "Vliegvelden en hoe je er komt",
           "body": [
-            "Een aantal prijsvechters vliegt vanaf een andere terminal of een vliegveld verder van de stad, en de tijd en kosten om daar te komen kunnen je voordeel op het ticket tenietdoen. Check welke terminal en welk vliegveld bij je tarief horen voordat je prijzen vergelijkt.",
+            "Op de hoofdroutes gebruiken Jetstar en Virgin Australia de grote luchthavens in de stad. Op een paar routes vliegen ze vanaf een secundair vliegveld zoals Avalon, dus check welk vliegveld en welke terminal bij je tarief horen voordat je prijzen vergelijkt, want de kosten en tijd van de transfer kunnen je voordeel op het ticket tenietdoen.",
             "Regionale vliegvelden zijn vaak klein, met een paar verhuurbalies die buiten de vluchttijden dicht zijn. Haal je na een avondvlucht een voertuig op bij een regionaal vliegveld, laat dan bevestigen dat er iemand achter de balie zit.",
             "Leg de bagagetoelage vóór het boeken naast de spullen die je echt meeneemt, want kampeerspullen gaan vaak ruim over wat er bij een budgettarief in zit."
           ],
@@ -6389,11 +6583,11 @@
       "faq": [
         [
           "Wat kosten binnenlandse vluchten in Australië?",
-          "Hieronder vind je realistische laagste actieprijzen en gangbare tarieven op de hoofdroutes, geen vanafprijzen. Op de lange stukken, zoals van de oostkust naar Perth of Darwin, is vliegen vaak goedkoper dan rijden als je brandstof en tijd meerekent."
+          "Actietarieven in 2026 begonnen bij A$ 49 enkele reis voor Sydney–Ballina, A$ 105 voor Melbourne–Sydney en A$ 245 voor Sydney–Perth, maar dat waren beperkte stoelen zonder ruimbagage. Buiten een actie en met bagage erbij betaal je meer."
         ],
         [
           "Is vliegen of rijden in Australië goedkoper?",
-          "Voor een oversteek van het continent wint vliegen meestal, zowel in kosten als in tijd. Voor alles wat minder dan een dag rijden is, wint je eigen voertuig, zeker als je een one-way-toeslag voor je huurvoertuig meerekent."
+          "Voor een oversteek van het continent wint vliegen meestal op tijd, en vaak ook op kosten voor een of twee reizigers. Voor alles wat minder dan een dag rijden is, wint je eigen voertuig meestal, zeker als je een one-way-toeslag voor je huurvoertuig meerekent."
         ]
       ],
       "sources": [
@@ -6404,34 +6598,34 @@
           "label": "Jetstar: actieprijzen Northern Territory"
         },
         {
-          "label": "Reserve Bank of Australia: wisselkoersen"
+          "label": "Reserve Bank of Australia: veelgestelde vragen over het verbod op kaarttoeslagen"
         }
       ],
       "priceTable": {
         "note": "Verlopen actieprijzen voor enkele vluchten uit 2026. Ze laten zien hoe laag de prijzen zijn geweest, het zijn geen actuele prijzen die je nu kunt boeken.",
         "rows": [
           {
-            "label": "Sydney–Ballina",
+            "label": "Sydney–Ballina (Virgin)",
             "unit": "actieprijs, enkele reis"
           },
           {
-            "label": "Melbourne–Sydney",
+            "label": "Melbourne–Sydney (Virgin)",
             "unit": "actieprijs, enkele reis"
           },
           {
-            "label": "Sydney–Cairns",
+            "label": "Sydney–Cairns (Virgin)",
             "unit": "actieprijs, enkele reis"
           },
           {
-            "label": "Melbourne–Uluṟu",
+            "label": "Melbourne–Uluṟu (Jetstar)",
             "unit": "actieprijs, enkele reis"
           },
           {
-            "label": "Sydney–Darwin",
+            "label": "Sydney–Darwin (Jetstar)",
             "unit": "actieprijs, enkele reis"
           },
           {
-            "label": "Sydney–Perth",
+            "label": "Sydney–Perth (Virgin)",
             "unit": "actieprijs, enkele reis"
           }
         ]
@@ -9136,6 +9330,1273 @@
       "faq": [],
       "sources": [],
       "priceTable": null
+    },
+    "best-free-camping-apps-australia": {
+      "title": "Gratis kamperen in Australië: beste apps van 2026 en wat echt gratis is",
+      "description": "Welke apps gratis kampeerplekken in Australië vinden, welke niets kosten en welke geld vragen voor de gegevens, vergeleken met prijzen gecontroleerd in oktober 2026.",
+      "region": "Australië",
+      "imageAlt": "Picknicktafel onder de bomen op Firth Park Campground in Wombat State Forest, Victoria",
+      "intro": "Een gratis kampeerapp kan twee dingen betekenen: een app die niets kost, of een app die plekken vindt waar kamperen niets kost. Weinig apps zijn allebei, en dat verschil bepaalt wat je betaalt. Wij maken AussieCamps, die gratis te downloaden is maar geld vraagt voor de kampeergegevens, en we hebben de app toch als eerste gezet, om de redenen hieronder. Wil je helemaal niets betalen, begin dan met CamperMate. Prijzen zijn gecontroleerd op 20 oktober 2026.",
+      "sections": [
+        {
+          "heading": "Gratis app of gratis kamperen: de vergelijking",
+          "body": [
+            "De tabel houdt de twee vragen uit elkaar. De tweede kolom zegt wat de app kost, de derde wat hij laat zien over plekken die niets kosten."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Apps om gratis kampeerplekken in Australië te vinden. Prijzen van de apps gecontroleerd in de Australische App Store en op de sites van de ontwikkelaars op 20 oktober 2026.",
+            "head": [
+              "App",
+              "Wat de app kost",
+              "Gratis kampeerplekken en rustplaatsen",
+              "Zonder bereik",
+              "Het best voor"
+            ],
+            "rows": [
+              [
+                "AussieCamps",
+                "Gratis download; voor kampeergegevens heb je de Pass nodig (A$ 2,99–9,99)",
+                "Campings, rustplaatsen, lozingspunten en water uit officiële bronnen, met een kostenfilter",
+                "Plekgegevens op de telefoon",
+                "Officiële gegevens op de iPhone"
+              ],
+              [
+                "CamperMate",
+                "Gratis, geen in-appaankopen",
+                "Gratis kampeerplekken tussen vermeldingen van reizigers en partners",
+                "Gedownloade kaarten en belangrijke info",
+                "Niets betalen"
+              ],
+              [
+                "Full Range Camping",
+                "Gratis gids; Premium vermeld voor A$ 49,99 per jaar",
+                "Een categorie Free Camps in de gids",
+                "Zonder bereik alleen met Premium",
+                "Een gratis gids doorbladeren"
+              ],
+              [
+                "WikiCamps Australia",
+                "A$ 9,99 eenmalig per platform",
+                "Filter voor gratis kampeerplekken en reizigersbeoordelingen",
+                "Gedownloade kaarten en maximaal drie reizen",
+                "Reizigersbeoordelingen van gratis kampeerplekken"
+              ],
+              [
+                "CAMPS Australia Wide",
+                "7 dagen proef, daarna A$ 14,99 per jaar",
+                "Plekken gecontroleerd door het eigen team",
+                "Gedownloade kaarten en plekgegevens",
+                "Gecontroleerde, goedkope plekken"
+              ],
+              [
+                "Parkapps en -sites van de overheid",
+                "Gratis",
+                "Officiële campings in parken en bossen, vaak met kosten",
+                "Verschilt",
+                "Regels en reserveringen bij de bron"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "1. AussieCamps: officiële kampeergegevens, met de Pass",
+          "body": [
+            "AussieCamps haalt zijn campings, rustplaatsen (rest areas), lozingspunten (dump points), drinkwater en toiletten uit gegevens van parkdiensten van de staten, wegbeheerders en openbare datasets over voorzieningen, en je kunt plekken filteren op kosten. Dat is belangrijk voor <a data-guide=\"is-free-camping-legal-australia\">gratis kamperen</a>, want de regels liggen bij de beheerder, en een camping, een nationaal park en een rustplaats zijn echt verschillende dingen. De app houdt campings, nationale parken en rustplaatsen langs de weg als aparte categorieën, met de tarieven van elke plek erbij. De huidige gegevens bevatten 1.838 campings en 5.552 rustplaatsen.",
+            "De app staat hier eerst omdat gratis kampeerplekken vaak liggen waar het bereik het zwakst is, en de plekgegevens op je telefoon staan zonder dat je een regio hoeft te downloaden. De kaart, routebeschrijvingen en het weer hebben wel verbinding nodig.",
+            "Om te kamperen is de app niet gratis. De download, de kaart en het zoeken zijn gratis, net als de boekbare hotels, motels, holiday parks en tours van BookEasy, maar voor campings, rustplaatsen, <a data-guide=\"dump-points-australia-guide\">lozingspunten</a> en water heb je de AussieCamps Pass nodig, een wekelijks abonnement of een eenmalige levenslange aankoop met in-appaankopen van A$ 2,99 tot 9,99. De app is er alleen voor de iPhone en heeft geen reizigersbeoordelingen, terwijl gratis kampeerders daar vaak op vertrouwen om te horen of een plek nog open is."
+          ],
+          "tips": [
+            "Officiële bronnen, filter op kosten",
+            "Pass nodig voor kampeergegevens",
+            "Alleen iPhone"
+          ]
+        },
+        {
+          "heading": "2. CamperMate: gratis, zonder in-appaankopen",
+          "body": [
+            "CamperMate is gratis en heeft geen in-appaankopen in de Australische App Store. De app vermeldt <a data-guide=\"is-free-camping-legal-australia\">gratis kampeerplekken</a> naast holiday parks, lozingspunten en toiletten in Australië en Nieuw-Zeeland. Reizigers voegen beoordelingen en foto’s toe en stellen plekken voor, naast de vermeldingen van partners, en kaarten en belangrijke informatie kun je downloaden voor gebruik zonder bereik.",
+            "De app verdient zijn geld met reclame, boekingen en aanbiedingen, dus betaalde opties staan naast gratis opties. Wil je niets aan apps uitgeven, dan is dit een goede eerste app om te installeren."
+          ],
+          "tips": [
+            "Gratis, geen in-appaankopen",
+            "Vermeldingen en beoordelingen van de community",
+            "Australië en Nieuw-Zeeland"
+          ]
+        },
+        {
+          "heading": "3. Full Range Camping: een gratis gids met een categorie Free Camps",
+          "body": [
+            "Bij Full Range Camping, voorheen FreeRange Camping, kun je de gids met kampeerplekken en bedrijven gratis bekijken, en er is een categorie <a data-guide=\"is-free-camping-legal-australia\">Free Camps</a>. De app gebruikt online kaarten, tenzij je Premium hebt. Daarmee kun je gegevens opslaan voor gebruik zonder bereik en krijg je een weerradar en ledenkortingen.",
+            "Premium staat in de App Store voor A$ 49,99 per jaar of A$ 99,99 voor het leven, maar toen wij keken, meldde de website van het bedrijf dat nieuwe Premium-lidmaatschappen niet beschikbaar waren zolang de kaartfunctie van de app wordt bijgewerkt."
+          ],
+          "tips": [
+            "Gratis te bekijken",
+            "Zonder bereik alleen met Premium",
+            "Premium-aanmelding stond stil toen we keken"
+          ]
+        },
+        {
+          "heading": "4. WikiCamps Australia: niet gratis, maar de gratis kampeerplekken zijn goed beoordeeld",
+          "body": [
+            "WikiCamps kost eenmalig A$ 9,99 per platform, dus het is geen gratis app. De app staat hier vanwege het filter voor <a data-guide=\"is-free-camping-legal-australia\">gratis kampeerplekken</a> en de beoordelingen, volgens eigen telling 1,3 miljoen, die je vertellen of een gratis plek rustig, druk of gesloten is.",
+            "Voor gebruik zonder bereik moet je eerst de hoofdinhoud voor Australië downloaden, en je kunt maximaal drie geplande reizen bewaren voor gebruik zonder bereik."
+          ],
+          "tips": [
+            "A$ 9,99 eenmalig per platform",
+            "Filter voor gratis kampeerplekken",
+            "Veel beoordelingen"
+          ]
+        },
+        {
+          "heading": "5. CAMPS Australia Wide: lage kosten, gecontroleerde plekken",
+          "body": [
+            "CAMPS vermeldt meer dan 16.000 kampeerplekken die het team van Camps Australia Wide volgens het bedrijf ter plaatse heeft gecontroleerd, zonder betaalde vermeldingen. De app is 7 dagen gratis en kost daarna A$ 14,99 per jaar; het bedrijf heeft de gratis toegang tot de app in december 2024 stopgezet, dus na de proefperiode is er geen gratis variant."
+          ],
+          "tips": [
+            "7 dagen gratis proef",
+            "Daarna A$ 14,99 per jaar",
+            "Plekken ter plaatse gecontroleerd"
+          ]
+        },
+        {
+          "heading": "6. Gratis overheidstools van de beheerders",
+          "body": [
+            "De diensten die campings beheren, publiceren hun eigen kaarten en reserveringspagina’s, die je gratis kunt gebruiken. Daar check je tarieven, reserveringen en afsluitingen, ook als je de plek via een app hebt gevonden.",
+            "Gratis betekent niet altijd zonder reservering. In Queensland moet je voor elke kampeerplek in een nationaal park, State Forest of recreatiegebied vóór aankomst een betaalde vergunning boeken. Bijna alle campings in de State Forests van Victoria zijn gratis en kun je niet reserveren, en Main Roads WA staat verblijf tot 24 uur alleen toe op zijn rustplaatsen waar dat met een bord is aangegeven. In de gids over de vraag of <a data-guide=\"is-free-camping-legal-australia\">gratis kamperen</a> legaal is, lees je per staat hoe het zit."
+          ],
+          "tips": [
+            "Check vooraf bij de beheerder",
+            "Gratis betekent niet altijd zonder reservering",
+            "De regels verschillen per staat"
+          ],
+          "table": {
+            "caption": "Officiële kampeerinformatie per staat, gecontroleerd op 20 oktober 2026.",
+            "head": [
+              "Staat of territorium",
+              "Officiële bron",
+              "Wat je moet checken"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "NSW National Parks; Forestry Corporation of NSW",
+                "Reserveringskosten in parken; kampeerregels in State Forests"
+              ],
+              [
+                "Victoria",
+                "Parks Victoria; Explore Outdoors Victoria",
+                "Gratis en boekbare plekken in parken; beperkingen voor kamperen in bossen"
+              ],
+              [
+                "Queensland",
+                "Queensland Parks and Wildlife Service",
+                "Vergunning en tarief voor elke kampeerplek"
+              ],
+              [
+                "South Australia",
+                "National Parks and Wildlife Service SA",
+                "Boek kampeerplekken online; toegang voor het voertuig is bij de meeste kampeerreserveringen inbegrepen"
+              ],
+              [
+                "Western Australia",
+                "Explore Parks WA (DBCA); Main Roads WA",
+                "Parktarieven; rustplaatsen met bord voor 24 uur"
+              ],
+              [
+                "Tasmania",
+                "Parks and Wildlife Service Tasmania",
+                "Parkpas nodig bij gratis kampeerplekken in nationale parken"
+              ],
+              [
+                "Northern Territory",
+                "NT Parks",
+                "Boek en betaal online vóór aankomst bij de meeste campings in parken"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Zo hebben we gecontroleerd",
+          "body": [
+            "Prijzen van apps, in-appaankopen en beoordelingen hebben we op 20 oktober 2026 in de Australische App Store bekeken, en de gratis en betaalde functies op de site van elke ontwikkelaar. De regels per staat komen van de overheidspagina’s hieronder. Regels voor <a data-guide=\"is-free-camping-legal-australia\">gratis kamperen</a> veranderen, dus check de beheerder en het bord bij de plek voordat je er blijft staan.",
+            "Wij maken AussieCamps en vragen via de Pass geld voor de kampeergegevens. Geen van de andere apps heeft betaald om hier te staan."
+          ],
+          "tips": [
+            "Gecontroleerd op 20 oktober 2026",
+            "Regels van officiële pagina’s",
+            "Het bord bij de plek gaat voor"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Wat is de beste gratis kampeerapp in Australië?",
+          "Moet de app zelf niets kosten, dan is er CamperMate: gratis, zonder in-appaankopen, en met ook gratis kampeerplekken in het aanbod. AussieCamps is gratis te downloaden, maar voor de officiële gegevens over campings en rustplaatsen heb je de Pass nodig, en WikiCamps kost eenmalig A$ 9,99 per platform."
+        ],
+        [
+          "Is er een gratis app voor gratis kampeerplekken in Australië?",
+          "Ja. CamperMate is gratis, en de gids van Full Range Camping, met de categorie Free Camps, is gratis te bekijken. Ook de parkdiensten en bosbeheerders van de overheid publiceren hun campings gratis, al vragen veel van die plekken wel een kampeertarief."
+        ],
+        [
+          "Moet je gratis kampeerplekken ook reserveren?",
+          "Soms. Queensland vraagt een betaalde vergunning voor elke kampeerplek in zijn parken en bossen, NSW National Parks rekent reserveringskosten, ook waar kamperen gratis is, en bijna alle campings in de State Forests van Victoria zijn gratis en kun je niet reserveren. Check per plek de beheerder."
+        ],
+        [
+          "Mag je overnachten op rustplaatsen in Australië?",
+          "Alleen waar de wegbeheerder of een bord dat toestaat. Queensland laat voertuigen tot 20 uur stoppen op rustplaatsen, tenzij een bord iets anders zegt, en Main Roads WA staat tot 24 uur alleen toe op rustplaatsen waar dat met een bord is aangegeven. Lees het bord voordat je er blijft staan."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Queensland Parks: reserveringen en vergunningen voor kamperen"
+        },
+        {
+          "label": "Explore Outdoors Victoria: kamperen in State Forests"
+        },
+        {
+          "label": "Overheid van Victoria: kamperen in State Forests"
+        },
+        {
+          "label": "Parks Victoria: gratis kamperen in Victoria"
+        },
+        {
+          "label": "NSW National Parks: vragen over reserveren"
+        },
+        {
+          "label": "Forestry Corporation of NSW: kamperen in State Forests"
+        },
+        {
+          "label": "Explore Parks WA: kampeertarieven"
+        },
+        {
+          "label": "Main Roads WA: beleid en richtlijnen voor rustplaatsen"
+        },
+        {
+          "label": "Parks and Wildlife Service Tasmania: kamperen"
+        },
+        {
+          "label": "NT Government: kamperen in parken"
+        },
+        {
+          "label": "National Parks and Wildlife Service SA: vragen over reserveren"
+        },
+        {
+          "label": "Camps Australia Wide: ondersteuning voor de app"
+        },
+        {
+          "label": "Full Range Camping: status van het Premium-lidmaatschap"
+        },
+        {
+          "label": "CamperMate: dekking en functies"
+        },
+        {
+          "label": "WikiCamps Australia: prijs, dekking en gebruik zonder bereik"
+        }
+      ],
+      "priceTable": null
+    },
+    "best-fuel-price-apps-australia": {
+      "title": "Brandstofprijzen in Australië: 7 apps vergeleken voor je roadtrip (2026)",
+      "description": "Petrol Spy, FuelCheck, Servo Saver, FuelWatch en meer per staat vergeleken: waar elke app zijn prijzen vandaan haalt en welke je gebruikt op een roadtrip door meerdere staten.",
+      "region": "Australië",
+      "imageAlt": "Roadhouse-tankstop in de outback bij Cadney Homestead aan de Stuart Highway",
+      "intro": "Alle staten en het Northern Territory verplichten tankstations nu om hun prijzen te melden, alleen de ACT niet, en elk publiceert ze op een eigen manier. Welke brandstofapp je nodig hebt, hangt dus af van waar je rijdt. Wij maken AussieCamps, en die app toont geen brandstofprijzen, dus hij staat niet in deze ranglijst. Dit zijn de apps die we zelf zouden gebruiken, gecontroleerd op 20 oktober 2026.",
+      "sections": [
+        {
+          "heading": "Het korte antwoord",
+          "body": [
+            "Voor een roadtrip door meerdere staten is Petrol Spy van de apps hier degene die officiële prijzen uit de meeste staten op één kaart samenbrengt, en hij is gratis. Binnen één staat haal je de prijzen het zuiverst rechtstreeks bij de overheid: FuelCheck in <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> en de ACT, FuelCheck TAS in Tasmania, Servo Saver in Victoria, FuelWatch in Western Australia en MyFuel NT in het Northern Territory.",
+            "<a data-guide=\"camping-rules-queensland\">Queensland</a> en South Australia hebben geen officiële app voor consumenten; hun meldsystemen leveren de prijzen in plaats daarvan aan commerciële apps, waaronder Petrol Spy. Ben je lid van de NRMA, dan geeft de app My NRMA bij deelnemende tankstations een korting per liter bovenop de prijs die je vindt."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Apps voor brandstofprijzen voor roadtrips door Australië. Prijzen, beoordelingen en dekking gecontroleerd in de Australische App Store en op overheidssites op 20 oktober 2026.",
+            "head": [
+              "App",
+              "Aanbieder",
+              "Prijs",
+              "App Store-beoordeling (AU)",
+              "Dekking",
+              "Het best voor"
+            ],
+            "rows": [
+              [
+                "Petrol Spy",
+                "Commercieel",
+                "Gratis met advertenties; Premium A$ 2,89 per jaar",
+                "4,8 (ongeveer 185.000 beoordelingen)",
+                "QLD, SA, NSW, WA, TAS, NT; Victoria op basis van meldingen van gebruikers",
+                "Reizen door meerdere staten"
+              ],
+              [
+                "FuelCheck",
+                "Overheid van NSW",
+                "Gratis",
+                "4,8 (ongeveer 123.000 beoordelingen)",
+                "NSW en ongeveer 60 tankstations in de ACT",
+                "Rijden in NSW"
+              ],
+              [
+                "Servo Saver",
+                "Overheid van Victoria",
+                "Gratis, in de Service Victoria-app",
+                "Beoordeeld als onderdeel van Service Victoria",
+                "Victoria",
+                "Rijden in Victoria"
+              ],
+              [
+                "FuelWatch",
+                "Overheid van WA",
+                "Gratis, website en ServiceWA-app",
+                "Geen aparte app",
+                "Western Australia",
+                "De prijs van morgen kennen in WA"
+              ],
+              [
+                "FuelCheck TAS",
+                "Overheid van Tasmania (gebouwd op het systeem van NSW)",
+                "Gratis",
+                "4,7 (ongeveer 3.500 beoordelingen)",
+                "Tasmania",
+                "Rijden in Tasmania"
+              ],
+              [
+                "Fuel Map Australia",
+                "WikiCamps",
+                "Gratis met advertenties; advertenties weghalen A$ 2,99",
+                "4,5 (ongeveer 6.900 beoordelingen)",
+                "Door gebruikers aangeleverd, officiële feeds voor WA, NSW en QLD",
+                "Een eenvoudige prijskaart met een brandstoflogboek"
+              ],
+              [
+                "My NRMA",
+                "NRMA",
+                "Gratis; lidmaatschap nodig voor kortingen",
+                "4,6 (ongeveer 109.000 beoordelingen)",
+                "Kortingen bij deelnemende Ampol-tankstations",
+                "NRMA-leden"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "1. Petrol Spy: één kaart voor het grootste deel van het land",
+          "body": [
+            "Petrol Spy toont actuele prijzen voor Queensland, South Australia, <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a>, Western Australia, Tasmania en het Northern Territory, op basis van officiële feeds zoals FuelCheck en FuelWatch en van het meldsysteem van Queensland. De app heeft meer beoordelingen in de App Store dan alle andere apps hier, ongeveer 185.000 met gemiddeld 4,8, en ook gebruikers melden prijzen.",
+            "In de App Store-beschrijving heten de prijzen in Victoria nog altijd door gebruikers ingestuurd, ook al geldt in <a data-guide=\"camping-rules-victoria\">Victoria</a> nu een meldplicht via Servo Saver, dus vergelijk de app daar met de officiële app. Met grafieken van de prijscyclus in acht hoofdsteden zie je of je beter vandaag kunt tanken of nog even kunt wachten. De app is gratis met advertenties; Premium haalt ze weg voor A$ 2,89 per jaar of eenmalig A$ 14,99.",
+            "Wat we goed vinden: één app over staatsgrenzen heen, cyclusgrafieken en veel gebruikers die prijzen melden. Wat je moet afwegen: reclame in de gratis versie, en de laatste update was in juli 2025."
+          ],
+          "tips": [
+            "Beste losse app voor reizen door meerdere staten",
+            "Gegevens voor Victoria komen van gebruikers",
+            "Gratis, of A$ 2,89 per jaar zonder advertenties"
+          ]
+        },
+        {
+          "heading": "2. FuelCheck: de officiële bron in New South Wales",
+          "body": [
+            "De FuelCheck-app van de overheid van NSW vermeldt meer dan 2.300 tankstations in <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> en ongeveer 60 in de ACT, met prijzen die de tankstations zelf doorgeven. De app is gratis, bevat geen advertenties en scoort 4,8 op basis van ongeveer 123.000 Australische beoordelingen.",
+            "Naast de kaart stuurt de app een melding als de prijs bij je favoriete tankstations daalt, zoekt hij met My Trip de goedkoopste tankstations langs een route en toont hij trends, zoals de goedkoopste dag van de cyclus. Klopt een prijs niet met wat de pomp aangeeft, dan kun je dat melden.",
+            "Wat je moet afwegen: de app houdt op bij de staatsgrens, dus voor een reis door meerdere staten heb je een tweede app nodig."
+          ],
+          "tips": [
+            "Alleen NSW en de ACT",
+            "Goedkoopste tankstations langs een route",
+            "Gratis, geen advertenties"
+          ]
+        },
+        {
+          "heading": "3. Servo Saver: de officiële prijzen van Victoria",
+          "body": [
+            "Sinds in <a data-guide=\"camping-rules-victoria\">Victoria</a> de meldplicht geldt, moeten tankstations prijswijzigingen binnen 30 minuten melden en de maximumprijs voor de volgende dag vooraf vastleggen; die geldt vanaf 6.00 uur, 24 uur lang. Servo Saver, in de gratis Service Victoria-app, toont de prijzen van vandaag en vanaf 16.00 uur ook het maximum voor morgen, zodat je kunt bepalen waar je tankt.",
+            "De app is reclamevrij en officieel. Het nadeel voor bezoekers: hij zit in een bredere overheidsapp en dekt alleen Victoria."
+          ],
+          "tips": [
+            "Alleen Victoria",
+            "Toont de maximumprijs van morgen",
+            "In de Service Victoria-app"
+          ]
+        },
+        {
+          "heading": "4. FuelWatch: plan rond de prijs van morgen in Western Australia",
+          "body": [
+            "<a data-guide=\"camping-rules-western-australia\">Western Australia</a> heeft het systeem dat het langst bestaat. Tankstations geven de prijs voor morgen uiterlijk om 14.00 uur door, vanaf 14.30 uur wordt die gepubliceerd en vanaf 6.00 uur de volgende dag ligt hij 24 uur vast. De prijs van morgen kennen is handig op een lange etappe in WA, waar je op een dag misschien maar één roadhouse passeert.",
+            "FuelWatch draait op de website van de overheid van WA en in de ServiceWA-app, niet als eigen app."
+          ],
+          "tips": [
+            "Prijzen van morgen vanaf 14.30 uur",
+            "24 uur lang vast",
+            "Website en ServiceWA-app"
+          ]
+        },
+        {
+          "heading": "5. FuelCheck TAS: de versie van Tasmania",
+          "body": [
+            "Tasmania gebruikt hetzelfde FuelCheck-systeem als <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a>, in een aparte gratis app met meer dan 200 tankstations. Tankstations kunnen ook melden dat een brandstofsoort op is, en dat is belangrijk op de rustigere wegen van het eiland. De app scoort 4,7 op basis van ongeveer 3.500 Australische beoordelingen."
+          ],
+          "tips": [
+            "Alleen Tasmania",
+            "Meldt wanneer brandstof op is",
+            "Gratis"
+          ]
+        },
+        {
+          "heading": "6. Fuel Map Australia: een eenvoudige kaart van het WikiCamps-team",
+          "body": [
+            "Fuel Map Australia combineert een database van tankstations die gebruikers aanvullen met officiële actuele prijzen voor Western Australia, <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> en Queensland, inclusief de prijzen voor de volgende dag in WA. Je kunt er ook een brandstoflogboek in bijhouden. De app is gratis met advertenties, of eenmalig A$ 2,99 om ze weg te halen.",
+            "Wat je moet afwegen: de laatste update was in oktober 2022, en buiten die drie staten hangen de prijzen van gebruikers af."
+          ],
+          "tips": [
+            "Officiële prijzen in WA, NSW en QLD",
+            "Laatst bijgewerkt in 2022",
+            "Eenmalig A$ 2,99 om advertenties weg te halen"
+          ]
+        },
+        {
+          "heading": "7. My NRMA: een korting in plaats van een prijskaart",
+          "body": [
+            "My NRMA is een lidmaatschapsapp, geen prijsvergelijker. Leden laten bij deelnemende Ampol Foodary-tankstations een code zien voor 5 cent per liter korting op premium brandstof en 4 cent op gewone brandstof. De NRMA verkoopt de korting via My NRMA Rewards, voor A$ 5 per maand na een gratis eerste maand, dus reken uit of je tankbeurten tijdens je reis dat bedrag terugverdienen."
+          ],
+          "tips": [
+            "Alleen voor leden",
+            "4 tot 5 cent per liter bij deelnemende Ampol-stations",
+            "Te combineren met elke prijsapp"
+          ]
+        },
+        {
+          "heading": "Per staat: waar officiële prijzen vandaan komen",
+          "body": [
+            "Gebruik dit als snelle gids als je een grens oversteekt. De ACT heeft geen eigen systeem, maar de tankstations staan wel in FuelCheck."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Officiële melding van brandstofprijzen per staat en territorium, gecontroleerd op 20 oktober 2026.",
+            "head": [
+              "Staat of territorium",
+              "Officiële bron",
+              "Zo zie je de prijzen"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "FuelCheck (overheid van NSW)",
+                "FuelCheck-app of website"
+              ],
+              [
+                "ACT",
+                "Geen eigen systeem in de ACT; tankstations staan in FuelCheck",
+                "FuelCheck-app"
+              ],
+              [
+                "Victoria",
+                "Verplichte melding (Consumer Affairs Victoria)",
+                "Servo Saver in de Service Victoria-app"
+              ],
+              [
+                "Queensland",
+                "Meldsysteem voor brandstofprijzen (Queensland Treasury)",
+                "Commerciële apps die de gegevens ontvangen, zoals Petrol Spy"
+              ],
+              [
+                "South Australia",
+                "Informatiesysteem voor brandstofprijzen",
+                "Geregistreerde commerciële apps, zoals Petrol Spy"
+              ],
+              [
+                "Western Australia",
+                "FuelWatch (overheid van WA)",
+                "FuelWatch-website of ServiceWA-app"
+              ],
+              [
+                "Tasmania",
+                "FuelCheck TAS",
+                "FuelCheck TAS-app"
+              ],
+              [
+                "Northern Territory",
+                "MyFuel NT",
+                "MyFuel NT-website"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Brandstof is de grootste kostenpost die je kunt plannen",
+          "body": [
+            "Op de meeste roadtrips kost <a data-guide=\"australia-road-trip-fuel-cost-2026\">brandstof</a> meer dan de kampeerplekken, en de goedkoopste liter krijg je door je stops te plannen, niet door één bepaalde app. Als je de afstand van elke etappe kent, weet je in welke plaatsen je moet tanken en waar je rustig kunt wachten op een lagere prijs.",
+            "AussieCamps toont geen brandstofprijzen, maar reizen in AussieCamps, onderdeel van de Pass, tonen de rijafstand en rijtijd voor elke etappe tussen de stops van je reis, en met dat getal begint een tankplan. Combineer het met een van de apps hierboven voor de prijs, en tank altijd vol voordat je aan een lang afgelegen stuk begint, wat de prijs ook is."
+          ],
+          "tips": [
+            "Plan eerst de etappes, dan de prijs",
+            "Tank vol vóór afgelegen stukken",
+            "AussieCamps toont afstanden per etappe"
+          ]
+        },
+        {
+          "heading": "Zo hebben we gekozen",
+          "body": [
+            "We hebben de vermelding van elke app in de Australische App Store op 20 oktober 2026 gecontroleerd, en de meldregels van elke staat op de officiële overheidspagina. Aantallen beoordelingen zijn afgerond op honderdtallen of duizendtallen. De prijzen in elke app komen van tankstations of gebruikers en kunnen achterlopen op de pomp, dus kijk op de pomp voordat je tankt."
+          ],
+          "tips": [
+            "Gecontroleerd op 20 oktober 2026",
+            "Officiële regels van overheidspagina’s",
+            "De prijs op de pomp is wat je betaalt"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Wat is de beste app om goedkoop te tanken in Australië?",
+          "Voor reizen door meerdere staten toont Petrol Spy in één gratis app officiële prijzen uit de meeste staten. Binnen één staat haal je de prijzen het zuiverst rechtstreeks bij de overheid: FuelCheck in NSW en de ACT, Servo Saver in Victoria, FuelWatch in WA, FuelCheck TAS en MyFuel NT."
+        ],
+        [
+          "Is er een app voor brandstofprijzen in Victoria?",
+          "Ja. Servo Saver in de gratis Service Victoria-app toont prijzen die tankstations binnen 30 minuten moeten melden, en vanaf 16.00 uur zie je er ook de maximumprijs voor de volgende dag."
+        ],
+        [
+          "Kun je de benzineprijzen van morgen in Australië zien?",
+          "In Western Australia en Victoria wel. FuelWatch publiceert vanaf 14.30 uur de prijzen voor de volgende dag in WA, en Servo Saver toont vanaf 16.00 uur de maximumprijzen voor de volgende dag in Victoria. Beide gelden vanaf 6.00 uur, 24 uur lang."
+        ],
+        [
+          "Welke brandstofapp gebruik ik in Queensland?",
+          "Queensland heeft geen app van de overheid. Het meldsysteem stuurt de prijzen van tankstations naar commerciële apps, en Queensland Treasury noemt de apps die de gegevens ontvangen, waaronder Petrol Spy, FuelMap, MotorMouth, Pumped en RACQ Fuel and Deals."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Petrol Spy"
+        },
+        {
+          "label": "Overheid van NSW: FuelCheck"
+        },
+        {
+          "label": "Overheid van Tasmania: FuelCheck TAS"
+        },
+        {
+          "label": "Consumer Affairs Victoria: verplichte melding van brandstofprijzen"
+        },
+        {
+          "label": "Overheid van Victoria: Servo Saver"
+        },
+        {
+          "label": "WA Consumer Protection: FuelWatch en brandstofprijzen"
+        },
+        {
+          "label": "Overheid van WA: FuelWatch in de ServiceWA-app"
+        },
+        {
+          "label": "Overheid van WA: regels van FuelWatch"
+        },
+        {
+          "label": "Queensland Treasury: apps en websites voor brandstofprijzen"
+        },
+        {
+          "label": "SA Consumer and Business Services: brandstofprijzen"
+        },
+        {
+          "label": "NT Consumer Affairs: MyFuel NT"
+        },
+        {
+          "label": "Overheid van Tasmania: update van FuelCheck TAS, maart 2026"
+        },
+        {
+          "label": "NRMA: ledenkortingen op brandstof bij Ampol"
+        },
+        {
+          "label": "ACCC: toezicht op brandstof en benzine"
+        }
+      ],
+      "priceTable": null
+    },
+    "best-road-trip-planner-apps-australia": {
+      "title": "Roadtrip plannen in Australië: 6 beste apps vergeleken (2026)",
+      "description": "AussieCamps, Google Maps, Apple Maps, Wanderlog, WikiCamps en ExplorOz vergeleken op stops, afstanden, gebruik zonder bereik en prijs voor een roadtrip door Australië.",
+      "region": "Australië",
+      "imageAlt": "4WD op de Great Central Road met rode aarde door de outback van Western Australia",
+      "intro": "Een roadtrip door Australië plannen bestaat uit twee klussen: bepalen waar je stopt en slaapt, en van de ene stop naar de volgende komen. Geen enkele app is in allebei het best. Wij maken AussieCamps, en die staat hier eerst omdat hij voor de eerste klus is gemaakt. Elke app hieronder is gecontroleerd op 20 oktober 2026, met erbij wanneer een andere app de betere keuze is.",
+      "sections": [
+        {
+          "heading": "Snelle vergelijking",
+          "body": [
+            "Navigatie-apps zijn uitstekend voor de rit zelf, maar niet gemaakt om te laten zien waar je kunt overnachten. Bij de meeste reisplanners is het precies andersom. De meeste reizigers gebruiken van elk soort één app, en in de tabel zie je waar elke app staat."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Roadtripplanner-apps voor Australië. Prijzen, limieten en functies voor gebruik zonder bereik gecontroleerd in de Australische App Store en op de helppagina’s van de ontwikkelaars op 20 oktober 2026.",
+            "head": [
+              "App",
+              "Prijs (AUD)",
+              "Stops per reis",
+              "Zonder bereik",
+              "Stapsgewijze navigatie",
+              "Het best voor"
+            ],
+            "rows": [
+              [
+                "AussieCamps",
+                "Gratis download; voor reizen heb je de Pass nodig (vanaf A$ 2,99)",
+                "Geen limiet vermeld",
+                "Plekgegevens op de telefoon",
+                "Stuurt door naar Apple Maps of Google Maps",
+                "Nachten, stops en datums plannen"
+              ],
+              [
+                "Google Maps",
+                "Gratis",
+                "Maximaal 9 stops inclusief de bestemming",
+                "Gedownloade gebieden; navigeren alleen binnen die gebieden",
+                "Ja",
+                "Navigatie en actuele verkeersinfo"
+              ],
+              [
+                "Apple Maps",
+                "Gratis, ingebouwd in de iPhone",
+                "Maximaal 14 stops",
+                "Gedownloade kaarten met routebeschrijving",
+                "Ja",
+                "Navigatie op de iPhone"
+              ],
+              [
+                "Wanderlog",
+                "Gratis; Pro-abonnementen vanaf A$ 50,99 per jaar",
+                "Onbeperkt, volgens de vermelding",
+                "Reisplannen zonder bereik met Pro",
+                "Nee",
+                "Reisschema’s die ritten en stadsdagen combineren"
+              ],
+              [
+                "WikiCamps Australia",
+                "A$ 9,99 eenmalig per platform",
+                "Secties en plekken, geen limiet vermeld",
+                "Maximaal drie gedownloade reizen",
+                "Nee",
+                "Kampeerreizen met een brandstofschatting"
+              ],
+              [
+                "ExplorOz Traveller",
+                "A$ 59,99, kaart om te downloaden vanaf A$ 59,99 per jaar",
+                "Routeplanning op tracks",
+                "Volledige topografische kaart van Australië met EOTopo-toegang",
+                "Ja, op de eigen kaarten (routes online berekend, daarna bruikbaar zonder bereik)",
+                "Afgelegen en 4WD-routes"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "1. AussieCamps: plan waar je stopt en slaapt",
+          "body": [
+            "AussieCamps ziet een reis als een lijst met plekken, niet als een lijn op een kaart. Je voegt campings, <a data-guide=\"caravan-park-vs-holiday-park\">caravanparken</a>, rustplaatsen (rest areas) of andere opgeslagen plekken toe als stop, zet ze op volgorde en ziet de rijafstand en rijtijd per etappe en voor de hele reis. Elke stop kan een aankomstdatum krijgen, en voor aankomstdatums binnen de termijn van de weersverwachting toont de app de verwachting. Juist dat detail gooit in Australië het vaakst plannen om.",
+            "Rond de route houdt de app een reischecklist en <a data-guide=\"camping-packing-list-australia\">paklijst</a> bij, plus notities, een omslagfoto en je voortgang langs bezochte plekken. Een reis kun je delen of met je agenda synchroniseren, met stops en datums. Omdat de plekkengids op de telefoon staat, blijven de gegevens van elke stop leesbaar zonder bereik, terwijl de kaart, routebeschrijvingen en weersverwachtingen verbinding nodig hebben. Ga je rijden, dan openen de routebeschrijvingen in Apple Maps of Google Maps.",
+            "De download is gratis, net als de boekbare hotels, motels, B&B’s, holiday parks en tours van BookEasy. Voor reizen, collecties en de gegevens over campings, rustplaatsen en <a data-guide=\"dump-points-australia-guide\">lozingspunten (dump points)</a> heb je de AussieCamps Pass nodig, een wekelijks abonnement of een eenmalige levenslange aankoop, met in-appaankopen van A$ 2,99 tot 9,99 in de Australische App Store.",
+            "Kies iets anders als je stapsgewijze navigatie in de planner zelf nodig hebt, als je een Android-telefoon hebt, of als je reis vooral uit steden bestaat, waar een algemene reisschema-app beter past."
+          ],
+          "tips": [
+            "Stops, datums en weersverwachting in één plan",
+            "Voor reizen heb je de Pass nodig",
+            "Navigatie via Apple Maps of Google Maps"
+          ]
+        },
+        {
+          "heading": "2. Google Maps: de navigatie-app die de meeste mensen al hebben",
+          "body": [
+            "Google Maps is gratis, dekt Australië goed en geeft actuele verkeersinfo en stapsgewijze routebeschrijvingen. Bij het plannen kun je maximaal 9 stops op een route zetten, de eindbestemming meegeteld. Dat is genoeg voor een dag rijden, maar niet voor een rondrit van twee weken, dus een lange reis moet je opknippen in meerdere routes of opgeslagen lijsten.",
+            "Download de gebieden waar je doorheen rijdt voordat je vertrekt. Volgens de helppagina’s van Google werken routebeschrijvingen zonder verbinding alleen als de hele route binnen een gedownload gebied ligt, verlopen gedownloade kaarten als je ze niet bijwerkt en is verkeersinfo zonder verbinding niet beschikbaar."
+          ],
+          "tips": [
+            "Maximaal 9 stops per route",
+            "Download gebieden vóór afgelegen etappes",
+            "Actuele verkeersinfo alleen met bereik"
+          ]
+        },
+        {
+          "heading": "3. Apple Maps: de standaard op de iPhone, met meer stops",
+          "body": [
+            "Apple Maps zit in elke iPhone en volgens de ondersteuningsgids kun je een autoroute met meerdere stops plannen met maximaal 14 stops, meer dan Google Maps voor één route. Je kunt kaarten downloaden, en Apple zegt dat die stapsgewijze rijinstructies zonder verbinding ondersteunen.",
+            "Volgens Apple zijn gedownloade kaarten niet in elk land of elke regio beschikbaar, dus download eerst een testgebied voordat je erop rekent. Net als Google Maps plant Apple Maps de rit en niet de nachten: de app vertelt je niet op welke rustplaatsen je mag overnachten."
+          ],
+          "tips": [
+            "Maximaal 14 stops",
+            "Stapsgewijze navigatie zonder bereik na download",
+            "Alleen Apple-apparaten"
+          ]
+        },
+        {
+          "heading": "4. Wanderlog: een reisschema-app voor gemengde reizen",
+          "body": [
+            "Wanderlog is een algemene reisplanner met een score van 4,9 op basis van meer dan 5.000 Australische beoordelingen. Volgens de vermelding in de App Store kun je gratis onbeperkt stops toevoegen en tijden en afstanden tussen plekken zien, wat past bij een reis die ritten combineert met dagen in Sydney of Melbourne en vluchten daartussen.",
+            "Het helpcentrum, maar niet de vermelding in de store, noemt toegang tot reisplannen zonder bereik en routeoptimalisatie als Pro-functies. De Australische App Store vermeldt meerdere Pro-prijzen, van A$ 50,99 tot A$ 99,99 per jaar en A$ 25,99 per maand, dus kijk welke prijs jij te zien krijgt. De app heeft geen aparte gids voor campings of rustplaatsen en geen navigatie in de app."
+          ],
+          "tips": [
+            "Gratis plannen met onbeperkt veel stops",
+            "Zonder bereik alleen met Pro",
+            "Niet gemaakt voor kampeerstops"
+          ]
+        },
+        {
+          "heading": "5. WikiCamps Australia: reisplanning in een kampeerapp",
+          "body": [
+            "<a data-guide=\"wikicamps-alternatives\">WikiCamps</a> heeft een Trip Planner: je maakt een reis, voegt secties toe zoals regio’s of dagen, daarna plekken en notities, en sleept een voortgangsbalk mee terwijl je reist. Vul het brandstofverbruik van je voertuig en een prijs per liter in, dan schat de app het brandstofverbruik en de kosten tussen de plekken in je reis.",
+            "De app kost eenmalig A$ 9,99 per platform, en je kunt maximaal drie geplande reizen downloaden voor gebruik zonder bereik. De helppagina’s noemen geen rijtijden per etappe, dus combineer de app met een navigatie-app voor de tijden."
+          ],
+          "tips": [
+            "Schat brandstofkosten tussen plekken",
+            "Drie reizen zonder bereik",
+            "A$ 9,99 eenmalig per platform"
+          ]
+        },
+        {
+          "heading": "6. ExplorOz Traveller: routeplanning van het asfalt af",
+          "body": [
+            "Voor outback- en 4WD-reizen plant en navigeert ExplorOz Traveller op de eigen topografische kaart EOTopo, met wegen en 4WD-tracks bij naam en notities over de toegang tot tracks. Heb je EOTopo-toegang gedownload, dan werkt de app in heel Australië <a data-guide=\"camping-without-phone-signal\">zonder bereik</a>.",
+            "De app kost A$ 59,99, en voor gebruik zonder bereik heb je EOTopo nodig voor A$ 59,99 per jaar, de editie 2026 voor A$ 79,99 voor vier jaar, of Pro Access voor A$ 99,99 per jaar. Dat is veel meer dan je nodig hebt voor een reis over verharde wegen, en precies wat een tocht door de Simpson Desert vraagt."
+          ],
+          "tips": [
+            "Navigeert op 4WD-tracks",
+            "Topokaart zonder bereik met EOTopo-toegang",
+            "Hoogste aanschafprijs hier (A$ 59,99)"
+          ]
+        },
+        {
+          "heading": "Ook goed om te weten",
+          "body": [
+            "TripIt ordent boekingen in plaats van routes: stuur je bevestigingsmails door en de app maakt een reisschema met vluchten, huurauto’s en accommodatie, ook beschikbaar zonder bereik. Polarsteps plant je route en legt hem daarna automatisch vast, handig voor reizigers die een verslag van de reis net zo belangrijk vinden als een plan.",
+            "Roadtrippers, een populaire planner in Noord-Amerika, hebben we weggelaten omdat de vermelding in de App Store zegt dat de app alleen is ontworpen voor roadtrips in de Verenigde Staten en Canada."
+          ],
+          "tips": [
+            "TripIt voor boekingen",
+            "Polarsteps om je route vast te leggen",
+            "Roadtrippers alleen voor de VS en Canada"
+          ]
+        },
+        {
+          "heading": "Zo hebben we vergeleken",
+          "body": [
+            "Van elke app hebben we op 20 oktober 2026 de prijs, in-appaankopen, beoordeling en limieten gecontroleerd in de Australische App Store en op de eigen helppagina’s van de ontwikkelaar. Voor het maximale aantal stops gaan we uit van wat de ontwikkelaars zelf publiceren. We keken naar wat telt op een roadtrip door Australië: hoe ver de stops uit elkaar liggen, of je kunt zien waar je kunt slapen en wat nog werkt zonder bereik.",
+            "Onze eigen app verdient zijn geld met de Pass, en geen van de andere apps heeft betaald voor een plek hier. Laat het ons weten via de supportpagina als er iets is veranderd."
+          ],
+          "tips": [
+            "Gecontroleerd op 20 oktober 2026",
+            "Alleen gepubliceerde limieten",
+            "Correcties zijn welkom"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Wat is de beste app om een roadtrip in Australië te plannen?",
+          "Gebruik twee soorten apps. Met een planner zoals AussieCamps bepaal je de stops, nachten en datums, met afstand en rijtijd per etappe, en een navigatie-app zoals Google Maps of Apple Maps regelt het rijden zelf. Voor afgelegen 4WD-tracks doet ExplorOz Traveller allebei, op de eigen kaarten."
+        ],
+        [
+          "Hoeveel stops kun je toevoegen in Google Maps?",
+          "Maximaal 9 stops op één route, de eindbestemming meegeteld, volgens de helppagina’s van Google. Apple Maps staat maximaal 14 stops op een autoroute toe. Langere reizen moet je verdelen over meerdere routes of in een speciale reisplanner zetten."
+        ],
+        [
+          "Werkt Roadtrippers in Australië?",
+          "Volgens de vermelding in de App Store is de app alleen ontworpen voor roadtrips in de Verenigde Staten en Canada, dus hij past niet goed bij Australië."
+        ],
+        [
+          "Kan ik een roadtrip in Australië plannen zonder bereik?",
+          "Gedeeltelijk. Google Maps en Apple Maps kunnen navigeren binnen gedownloade gebieden, AussieCamps bewaart met de Pass de plekgegevens op je telefoon, en WikiCamps bewaart maximaal drie gedownloade reizen. Actuele verkeersinfo, weersverwachtingen en nieuwe routes hebben in de meeste apps nog steeds bereik nodig."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Google Maps Help: meerdere bestemmingen toevoegen"
+        },
+        {
+          "label": "Google Maps Help: gebieden downloaden en zonder verbinding navigeren"
+        },
+        {
+          "label": "Apple Support: routes met meerdere stops in Apple Maps op de iPhone"
+        },
+        {
+          "label": "Apple Support: kaarten downloaden op de iPhone voor gebruik zonder verbinding"
+        },
+        {
+          "label": "Wanderlog Help: een reisplan downloaden voor toegang zonder verbinding"
+        },
+        {
+          "label": "WikiCamps-helpcentrum: Trip Planner"
+        },
+        {
+          "label": "ExplorOz Traveller"
+        },
+        {
+          "label": "TripIt"
+        },
+        {
+          "label": "Polarsteps"
+        }
+      ],
+      "priceTable": null
+    },
+    "campermate-alternatives": {
+      "title": "5 beste alternatieven voor CamperMate in Australië (2026)",
+      "description": "Vijf alternatieven voor CamperMate voor roadtrips door Australië, vergeleken op prijs, waar de vermeldingen vandaan komen en wat nog werkt zonder bereik.",
+      "region": "Australië",
+      "imageAlt": "Backpackercamper geparkeerd in een kuststraat in Australië",
+      "intro": "CamperMate is gratis, dekt Australië en Nieuw-Zeeland en is beschikbaar in 27 talen, en daarom installeren zoveel camperreizigers die app als eerste. Schiet hij tekort, dan hangt de beste vervanger af van wat je miste. Wij maken AussieCamps, en daarom staat die bovenaan dit lijstje. Bij elke app lees je wanneer hij CamperMate verslaat en wanneer niet. Alles hieronder hebben we gecontroleerd op 20 oktober 2026.",
+      "sections": [
+        {
+          "heading": "Wat CamperMate goed doet, en waar mensen meer willen",
+          "body": [
+            "CamperMate kost niets, heeft geen in-appaankopen in de Australische App Store en vermeldt volgens de ontwikkelaar meer dan 70.000 interessante plekken, van <a data-guide=\"is-free-camping-legal-australia\">gratis kampeerplekken</a> en holiday parks tot lozingspunten, toiletten en wifi. Je kunt kaarten en belangrijke informatie bewaren voor gebruik zonder bereik, en versie 5.8 voegde een satellietweergave toe die werkt met gedownloade kaarten.",
+            "De vermeldingen groeien door beoordelingen, foto’s en voorgestelde plekken van reizigers. De app toont advertenties, neemt boekingen aan en noemt camperverhuurders en ketens van holiday parks onder zijn partners. Wie overstapt, wil meestal een van vier dingen: vermeldingen die uitgaan van de beheerder in plaats van van andere gebruikers, plekken die een redacteur heeft bezocht, meer beoordelingen van mensen die er vorige week nog stonden, of een manier om privéterrein te boeken. In sommige App Store-beoordelingen van mei tot augustus 2026 meldden gebruikers dat kampeerplekken niet laadden; updates hebben sindsdien de kaart en de gegevens voor gebruik zonder bereik vernieuwd, dus check de nieuwste beoordelingen."
+          ],
+          "tips": [
+            "Gratis, met advertenties, 27 talen",
+            "Vermeldingen gemaakt en bijgehouden door reizigers",
+            "Dekt Australië en Nieuw-Zeeland"
+          ]
+        },
+        {
+          "heading": "Alternatieven voor CamperMate vergeleken",
+          "body": [
+            "CamperMate staat ter vergelijking in de eerste rij. De laatste kolom geeft de reden om over te stappen, geen oordeel over welke app de beste is."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Alternatieven voor CamperMate in Australië. Prijzen, beoordelingen en functies voor gebruik zonder bereik gecontroleerd in de Australische App Store en op de sites van de ontwikkelaars op 20 oktober 2026.",
+            "head": [
+              "App",
+              "Prijs (AUD)",
+              "App Store-beoordeling (AU)",
+              "Zonder bereik",
+              "Stap over van CamperMate als"
+            ],
+            "rows": [
+              [
+                "CamperMate (ter vergelijking)",
+                "Gratis",
+                "4,4 (1.543 beoordelingen)",
+                "Gedownloade kaarten en belangrijke info",
+                "Blijf erbij als gratis en twee landen in één app voor jou het belangrijkst zijn"
+              ],
+              [
+                "AussieCamps",
+                "Gratis download; Pass A$ 2,99–9,99",
+                "Nog te weinig beoordelingen om te tonen",
+                "Alle plekgegevens, geen downloadstap",
+                "je gegevens van parkdiensten en een volledige reisplanner op de iPhone wilt"
+              ],
+              [
+                "WikiCamps Australia",
+                "A$ 9,99 eenmalig per platform",
+                "4,5 (16.663 beoordelingen)",
+                "Kaarten, plekken en maximaal drie reizen na het downloaden",
+                "je veel meer reizigersbeoordelingen wilt"
+              ],
+              [
+                "CAMPS Australia Wide",
+                "7 dagen proef, daarna A$ 14,99 per jaar",
+                "4,4 (3.476 beoordelingen)",
+                "Gedownloade kaarten en plekgegevens",
+                "je plekken wilt die ter plaatse zijn gecontroleerd"
+              ],
+              [
+                "Hipcamp",
+                "Gratis; je betaalt elke gastheer",
+                "4,8 (22.592 beoordelingen)",
+                "Geboekte reizen en berichten",
+                "je een nacht op privéterrein wilt boeken"
+              ],
+              [
+                "Full Range Camping",
+                "Gratis; Premium A$ 49,99 per jaar (aanmelden gepauzeerd)",
+                "4,0 (262 beoordelingen)",
+                "Vermeldingen met Premium",
+                "je ledenkortingen wilt op langere reizen"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "1. AussieCamps: gegevens van parkdiensten en een reisplan op de iPhone",
+          "body": [
+            "Waar CamperMate groeit door bijdragen van reizigers, begint AussieCamps bij wat beheerders en wegbeheerders publiceren: campings in nationale parken, rustplaatsen (rest areas) langs de weg, <a data-guide=\"dump-points-australia-guide\">lozingspunten (dump points)</a>, drinkwater en openbare toiletten uit bronnen als de NSW National Parks and Wildlife Service, Parks Victoria, de Queensland Parks and Wildlife Service, Main Roads WA en de National Public Toilet Map. In de huidige gegevens zijn dat 1.838 campings, 5.552 rustplaatsen, 1.393 lozingspunten en 3.004 waterpunten.",
+            "Je hoeft niets te downloaden voor je vertrek. De plekkengids zit in de app, dus als je op de Nullarbor zonder een streepje bereik een rustplaats opent, zie je nog steeds de voorzieningen, tarieven en toegangsinfo. De kaart zelf, routebeschrijvingen, de weersverwachting en foto’s laden alleen met bereik. Voor de planning zet je in een reis de stops op volgorde, met afstanden en rijtijden per etappe, aankomstdatums en de weersverwachting per stop, plus checklists en agendasynchronisatie.",
+            "Hotels, motels, B&B’s, holiday parks en tours van boekingspartner BookEasy kun je gratis bekijken en boeken. Campings, rustplaatsen, lozingspunten, water, parken, gidsen, <a data-guide=\"save-collections-aussiecamps\">collecties</a> en reizen zitten achter de AussieCamps Pass, een wekelijks abonnement of een eenmalige levenslange aankoop; de in-appaankopen lopen in de Australische App Store van A$ 2,99 tot 9,99.",
+            "Vergeleken met CamperMate lever je drie dingen in: de app is er alleen voor de iPhone, er zijn geen reizigersbeoordelingen of foto’s van andere gebruikers, en hij dekt alleen Australië. Voor een etappe door Nieuw-Zeeland doet onze zusterapp KiwiCamping daar hetzelfde, ook op de iPhone."
+          ],
+          "tips": [
+            "Gegevens van parkdiensten en wegbeheerders",
+            "Pass nodig voor kampeergegevens",
+            "Alleen iPhone, alleen Australië"
+          ]
+        },
+        {
+          "heading": "2. WikiCamps Australia: meer beoordelingen voor een eenmalige prijs",
+          "body": [
+            "<a data-guide=\"wikicamps-alternatives\">WikiCamps</a> werkt volgens hetzelfde communityprincipe als CamperMate, maar op grotere schaal voor Australië, met volgens de ontwikkelaar meer dan 65.000 plekken en 1,3 miljoen beoordelingen. Stap je over omdat er bij de plekken waar het jou om gaat maar weinig of alleen oude opmerkingen staan, probeer dan deze app.",
+            "De app kost eenmalig A$ 9,99, op elk platform dat je gebruikt, zonder abonnement. Voor gebruik zonder bereik download je eerst de inhoud voor Australië, en je kunt maximaal drie geplande reizen bewaren voor gebruik zonder bereik. Versie 6, eind 2024 uitgebracht, veranderde meerdere functies, dus lees recente App Store-beoordelingen voordat je koopt. Voor Nieuw-Zeeland is er een aparte app, die je apart koopt."
+          ],
+          "tips": [
+            "A$ 9,99 eenmalig, per platform",
+            "Veel Australische beoordelingen",
+            "Nieuw-Zeeland is een aparte app"
+          ]
+        },
+        {
+          "heading": "3. CAMPS Australia Wide: gecontroleerde plekken, klein jaarbedrag",
+          "body": [
+            "CAMPS is op een ander idee gebouwd dan CamperMate: een team dat sinds 1992 plekken bezoekt en controleert, meer dan 16.000 kampeerplekken, en de belofte dat er geen betaalde vermeldingen in staan. Gebruikers voegen daar beoordelingen aan toe.",
+            "Tijdens een proefperiode van 7 dagen kun je alles gebruiken, daarna kost de app A$ 14,99 per jaar. Daarvoor krijg je kaarten met plekdetails die je kunt downloaden voor gebruik zonder bereik, actuele brandstofprijzen, reisplanning en boekingen. De app draait op telefoons en tablets, er is geen laptopversie."
+          ],
+          "tips": [
+            "Redactioneel gecontroleerde plekken",
+            "A$ 14,99 per jaar na de proefperiode",
+            "Geen betaalde vermeldingen"
+          ]
+        },
+        {
+          "heading": "4. Hipcamp: voor nachten die je vooraf boekt",
+          "body": [
+            "CamperMate toont je holiday parks en <a data-guide=\"is-free-camping-legal-australia\">gratis kampeerplekken</a>; Hipcamp toont je privéterrein dat je kunt boeken. Grondeigenaren bieden tentplekken, glamping en plekken voor caravans aan op boerderijen, stations (grote veebedrijven) en wijngaarden, en je betaalt de host via de app. Met 4,8 sterren op basis van meer dan 22.000 Australische beoordelingen heeft Hipcamp de hoogste score van alle apps in deze vergelijking.",
+            "Geboekte reizen en gesprekken met gastheren blijven zonder bereik beschikbaar. De app is niet gemaakt voor gratis kampeerplekken, rustplaatsen of <a data-guide=\"dump-points-australia-guide\">lozingspunten</a>, dus op een lange camperreis is hij een aanvulling op een kampeerapp en geen vervanger."
+          ],
+          "tips": [
+            "Privéterrein, vooraf geboekt",
+            "Hoogste beoordeling van de apps hier",
+            "Geen gratis plekken of stops langs de weg"
+          ]
+        },
+        {
+          "heading": "5. Full Range Camping: een lidmaatschap voor lange reizen",
+          "body": [
+            "Full Range Camping, voorheen FreeRange Camping, vermeldt meer dan 11.000 kampeerplekken en bedrijven. De app is gratis. Het Premium-lidmaatschap, vermeld voor A$ 49,99 per jaar of A$ 99,99 voor het leven, geeft je vermeldingen voor gebruik zonder bereik, een weerradar en ledenkortingen die volgens het bedrijf bij sommige campings oplopen tot 30 procent. Op 20 oktober 2026 meldde de website dat Premium-lidmaatschappen op dat moment niet beschikbaar waren zolang de kaartsoftware van de app werd bijgewerkt, dus check eerst of je weer lid kunt worden.",
+            "Het lidmaatschap bevat ook aanbiedingen voor house sitting en work exchange, en die kunnen op een reis van maanden zwaarder wegen dan de gids zelf. Voor een camperreis van twee weken dekken CamperMate of <a data-guide=\"wikicamps-alternatives\">WikiCamps</a> meestal meer."
+          ],
+          "tips": [
+            "Premium A$ 49,99 per jaar",
+            "Kortingen en house sitting",
+            "Kleinere gids"
+          ]
+        },
+        {
+          "heading": "Australië en Nieuw-Zeeland in één reis",
+          "body": [
+            "Een reden om bij CamperMate te blijven is dat één gratis app beide landen dekt. Geen van de alternatieven hier dekt Nieuw-Zeeland in dezelfde app: <a data-guide=\"wikicamps-alternatives\">WikiCamps</a> verkoopt een aparte app voor Nieuw-Zeeland, en onze Nieuw-Zeelandse app is KiwiCamping.",
+            "Combineer je Australië met Nieuw-Zeeland, dan is dit een verstandige verdeling: houd CamperMate voor het tweede land en gebruik voor het langere deel een app die speciaal voor dat land is gemaakt."
+          ],
+          "tips": [
+            "CamperMate dekt beide landen",
+            "Geen alternatief hier dekt beide landen in één app",
+            "Verdeel de apps zo nodig per land"
+          ]
+        },
+        {
+          "heading": "Zo hebben we gecontroleerd",
+          "body": [
+            "We hebben de vermelding van elke app in de Australische App Store op 20 oktober 2026 gecontroleerd op prijs, in-appaankopen, beoordeling en versie, en daarna op de site van de ontwikkelaar gelezen waar de gegevens vandaan komen en wat er zonder bereik werkt. Wie eigenaar is van CamperMate en wie de partners zijn, komt uit de voorwaarden en de pagina ‘over ons’, en de terugkerende thema’s in beoordelingen komen uit de meest recente Australische App Store-beoordelingen.",
+            "AussieCamps is van ons en verdient zijn geld met de Pass. Geen enkele app heeft betaald om hier te staan. Is er iets veranderd, laat het ons weten via de supportpagina, dan passen we het aan."
+          ],
+          "tips": [
+            "Gecontroleerd op 20 oktober 2026",
+            "Cijfers van ontwikkelaars vermelden we als hun eigen claim",
+            "Correcties zijn welkom"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Wat is beter dan CamperMate?",
+          "Dat hangt af van wat je bij CamperMate mist. AussieCamps gebruikt gegevens van parkdiensten en wegbeheerders en op de iPhone zijn alle plekgegevens ook zonder bereik beschikbaar, WikiCamps Australia heeft volgens eigen telling 1,3 miljoen reizigersbeoordelingen voor eenmalig A$ 9,99, en CAMPS vermeldt plekken die het eigen team heeft gecontroleerd."
+        ],
+        [
+          "Is CamperMate gratis?",
+          "Ja. Op dit moment (oktober 2026) is de app gratis te downloaden en heeft hij geen in-appaankopen in de Australische App Store. Hij toont advertenties en biedt boekingen en aanbiedingen van partners."
+        ],
+        [
+          "Werkt CamperMate zonder bereik?",
+          "Gedeeltelijk. Je kunt kaarten en belangrijke informatie downloaden voor gebruik zonder bereik, en versie 5.8 voegde een satellietbeeld toe dat met die gedownloade kaarten werkt."
+        ],
+        [
+          "Is er één app voor kamperen in Australië en Nieuw-Zeeland?",
+          "CamperMate dekt beide landen in één gratis app. WikiCamps verkoopt aparte apps voor elk land, en AussieCamps en KiwiCamping zijn aparte iPhone-apps voor Australië en Nieuw-Zeeland."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "CamperMate: dekking en functies"
+        },
+        {
+          "label": "CamperMate: over ons en partners"
+        },
+        {
+          "label": "CamperMate: algemene voorwaarden"
+        },
+        {
+          "label": "WikiCamps Australia: prijs, dekking en gebruik zonder bereik"
+        },
+        {
+          "label": "Camps Australia Wide: de CAMPS-app"
+        },
+        {
+          "label": "Hipcamp: over ons"
+        },
+        {
+          "label": "Full Range Camping: lidmaatschap en gegevens opslaan voor gebruik zonder bereik"
+        },
+        {
+          "label": "Full Range Camping: status van het Premium-lidmaatschap"
+        },
+        {
+          "label": "KiwiCamping"
+        }
+      ],
+      "priceTable": null
+    },
+    "wikicamps-alternatives": {
+      "title": "6 beste alternatieven voor WikiCamps in Australië (2026)",
+      "description": "Zes alternatieven voor WikiCamps Australia vergeleken op prijs, gegevensbronnen en wat zonder bereik werkt, van apps met officiële gegevens tot gratis en samengestelde apps.",
+      "region": "Australië",
+      "imageAlt": "Kampeerplek in de bush langs een rivier in het midden van Victoria",
+      "intro": "WikiCamps Australia is nog altijd een van de handigste kampeerapps van het land, dus welk alternatief bij je past, hangt af van wat je anders wilt. Wij maken AussieCamps. Daarom staat die app als eerste, en bij elke app lees je wanneer een andere app, of WikiCamps zelf, de betere keuze is. Prijzen, beoordelingen en functies hebben we gecontroleerd op 20 oktober 2026.",
+      "sections": [
+        {
+          "heading": "Waarom reizigers verder kijken dan WikiCamps",
+          "body": [
+            "WikiCamps dankt zijn reputatie aan een communitydatabase die volgens de eigen website meer dan 65.000 plekken telt, met 1,3 miljoen beoordelingen, voor eenmalig A$ 9,99 en zonder abonnement. De meeste mensen die iets anders zoeken, zijn niet ontevreden over dat model; ze willen iets wat de app niet doet.",
+            "Een deel van de redenen noemt de ontwikkelaar zelf. Met versie 6 is de app opnieuw opgebouwd, oudere versies zijn sinds maart 2026 buiten gebruik, en volgens het helpcentrum komen belangrijke functies na verloop van tijd terug. In de onderdelen met beoordelingen, tarieven en foto’s staan nu een paar advertenties. De aankoop is aan één store gekoppeld, dus wie van Android naar iPhone overstapt, betaalt opnieuw. Wil je de app zonder bereik gebruiken, dan download je eerst de hoofdinhoud voor Australië, en je kunt maximaal drie reizen bewaren voor gebruik zonder bereik.",
+            "Andere redenen zijn een kwestie van smaak: je wilt vermeldingen die van parkdiensten komen in plaats van van gebruikers, plekken die een redactieteam heeft gecontroleerd, of gewoon een gratis app."
+          ],
+          "tips": [
+            "Versie 6 veranderde een aantal functies",
+            "Elk platform is een aparte aankoop",
+            "Zonder bereik? Eerst downloaden"
+          ]
+        },
+        {
+          "heading": "De alternatieven in één oogopslag",
+          "body": [
+            "Elke rij zegt wanneer de app een betere keuze is dan WikiCamps, niet welke app over de hele linie beter is. WikiCamps staat er ter vergelijking bij."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Alternatieven voor WikiCamps in Australië. Prijzen, platforms en beoordelingen gecontroleerd in de Australische App Store en op de sites van de ontwikkelaars op 20 oktober 2026.",
+            "head": [
+              "App",
+              "Prijs (AUD)",
+              "Waar de gegevens vandaan komen",
+              "Zonder bereik",
+              "Kies deze boven WikiCamps als"
+            ],
+            "rows": [
+              [
+                "WikiCamps Australia (ter vergelijking)",
+                "A$ 9,99 eenmalig per platform",
+                "Gebruikers: vermeldingen, foto’s en beoordelingen",
+                "Gedownloade kaarten, plekken en maximaal drie reizen",
+                "je een grote verzameling reizigersbeoordelingen wilt (1,3 miljoen, cijfer van de ontwikkelaar)"
+              ],
+              [
+                "AussieCamps",
+                "Gratis download; Pass A$ 2,99–9,99",
+                "Parkdiensten van de staten, wegbeheerders en openbare datasets over voorzieningen",
+                "Plekgegevens staan al op de telefoon",
+                "je een iPhone hebt en officiële gegevens en een reisplan met datums wilt"
+              ],
+              [
+                "CAMPS Australia Wide",
+                "7 dagen proef, daarna A$ 14,99 per jaar",
+                "Eigen team sinds 1992, plus beoordelingen",
+                "Gedownloade kaarten en plekgegevens",
+                "je plekken wilt die zijn gecontroleerd door mensen die er komen"
+              ],
+              [
+                "CamperMate",
+                "Gratis",
+                "Beoordelingen en suggesties van de community",
+                "Gedownloade kaarten en belangrijke info",
+                "je een gratis app wilt of ook Nieuw-Zeeland bezoekt"
+              ],
+              [
+                "Full Range Camping",
+                "Gratis; Premium A$ 49,99 per jaar (aanmelden gepauzeerd)",
+                "Gids plus suggesties van leden",
+                "Vermeldingen zonder bereik met Premium",
+                "je kortingen op campings of house sitting gaat gebruiken"
+              ],
+              [
+                "Hipcamp",
+                "Gratis; je betaalt elke gastheer",
+                "Grondeigenaren zetten hun eigen plekken online",
+                "Geboekte reizen en berichten blijven opgeslagen",
+                "je een boerderij of verblijf op privéterrein wilt boeken"
+              ],
+              [
+                "ExplorOz Traveller",
+                "A$ 59,99, kaart om te downloaden vanaf A$ 59,99 per jaar",
+                "Eigen kaarten en plekkendatabase",
+                "Volledige topografische kaart van Australië na aankoop",
+                "je afgelegen 4WD-tracks rijdt"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "1. AussieCamps: het alternatief met officiële gegevens voor de iPhone",
+          "body": [
+            "AussieCamps pakt het precies andersom aan dan WikiCamps. In plaats van vermeldingen van gebruikers komen de gegevens uit gepubliceerde datasets, zoals die van de NSW National Parks and Wildlife Service, Parks Victoria, de Queensland Parks and Wildlife Service, Main Roads WA en de National Public Toilet Map. Dat past bij reizigers die liever uitgaan van wat de beheerder zelf publiceert. De huidige gegevens omvatten 1.838 campings, 5.552 rustplaatsen (rest areas), 1.393 <a data-guide=\"dump-points-australia-guide\">lozingspunten (dump points)</a> en 3.004 drinkwaterpunten.",
+            "Je hoeft geen regio te downloaden en er is geen limiet op het aantal reizen. De hele plekkengids wordt met de app geïnstalleerd, dus de gegevens van elke plek blijven leesbaar als het bereik wegvalt. Kaarttegels, routebeschrijvingen, weer en foto’s hebben wel verbinding nodig, zoals in de meeste apps. In een reis zet je stops op volgorde, met afstand en rijtijd per etappe, aankomstdatums met de weersverwachting per stop, een <a data-guide=\"camping-packing-list-australia\">paklijst</a> en, als je wilt, synchronisatie met je agenda.",
+            "De download is gratis, net als de hotels, motels, B&B’s, holiday parks en tours van BookEasy, dezelfde boekingspartner die WikiCamps gebruikt. Voor campings, rustplaatsen, lozingspunten, water, parken, gidsen, <a data-guide=\"save-collections-aussiecamps\">collecties</a> en reizen heb je de AussieCamps Pass nodig, een wekelijks abonnement of een eenmalige levenslange aankoop, met in-appaankopen van A$ 2,99 tot 9,99 in de Australische App Store.",
+            "Waar AussieCamps het aflegt tegen WikiCamps: de app is er alleen voor de iPhone, heeft veel minder plekken en geen reizigersbeoordelingen, dus je mist de recente opmerkingen die WikiCamps zo bruikbaar maken bij een <a data-guide=\"is-free-camping-legal-australia\">gratis kampeerplek</a>. Veel reizigers gebruiken ze allebei."
+          ],
+          "tips": [
+            "Officiële bronnen, geen gebruikersvermeldingen",
+            "Alle plekgegevens werken zonder bereik",
+            "Alleen iPhone, geen reizigersbeoordelingen"
+          ]
+        },
+        {
+          "heading": "2. CAMPS Australia Wide: het samengestelde alternatief",
+          "body": [
+            "Stoort het je bij WikiCamps vooral dat iedereen een vermelding kan toevoegen of aanpassen, dan komt CAMPS daar het meest aan tegemoet. Volgens Camps Australia Wide controleert het eigen team sinds 1992 plekken ter plaatse, staan er meer dan 16.000 kampeerplekken in en neemt het bedrijf geen betaalde vermeldingen aan. Beoordelingen van gebruikers komen bovenop die redactionele basis.",
+            "Het grootste verschil is de prijs. Na een gratis proefperiode van 7 dagen heb je een jaarabonnement van A$ 14,99 nodig. Daarin zitten kaarten met plekinformatie die je zonder bereik kunt gebruiken, actuele brandstofprijzen, een <a data-guide=\"how-to-plan-trip-aussiecamps\">reisplanner</a> en boekingen.",
+            "Kies CAMPS boven WikiCamps als je gecontroleerde vermeldingen belangrijk vindt en een jaarlijks bedrag geen bezwaar is. Blijf bij WikiCamps als je de grote verzameling reizigersbeoordelingen wilt of liever één keer betaalt."
+          ],
+          "tips": [
+            "Plekken gecontroleerd door het eigen team",
+            "A$ 14,99 per jaar na de proefperiode",
+            "Geen laptop- of webversie"
+          ]
+        },
+        {
+          "heading": "3. CamperMate: het gratis alternatief",
+          "body": [
+            "<a data-guide=\"campermate-alternatives\">CamperMate</a> is gratis te downloaden, heeft geen in-appaankopen in de Australische App Store en dekt ook Nieuw-Zeeland. Daarmee is het een logische keuze als je Australië en Nieuw-Zeeland in één reis combineert. Net als WikiCamps draait de app op beoordelingen, foto’s en plekken die de community aandraagt, en volgens de ontwikkelaar staan er meer dan 70.000 interessante plekken in.",
+            "Kaarten en belangrijke informatie kun je downloaden voor gebruik zonder bereik, en de app is beschikbaar in 27 talen. Er staat reclame in, je kunt in de app kampeeraanbiedingen vinden en boeken, en CamperMate is de officiële reispartner van de camperbedrijven Apollo, Maui, Britz en Mighty Camper.",
+            "Kies CamperMate boven WikiCamps als de kosten of een tweede land het zwaarst wegen. In sommige App Store-beoordelingen van mei tot augustus 2026 meldden gebruikers dat kampeerplekken niet laadden of niet op de kaart verschenen; updates hebben sindsdien de kaart en de gegevens voor gebruik zonder bereik vernieuwd, dus test de app op je route voordat je erop vertrouwt."
+          ],
+          "tips": [
+            "Gratis, geen in-appaankopen",
+            "Australië en Nieuw-Zeeland",
+            "Test eerst of het laadt op je route"
+          ]
+        },
+        {
+          "heading": "4. Full Range Camping: het alternatief met lidmaatschap",
+          "body": [
+            "Deze gids heette eerder FreeRange Camping. Er staan meer dan 11.000 kampeerplekken en bedrijven in, en alles draait om een betaald lidmaatschap. Premium kost volgens de vermelding A$ 49,99 per jaar of A$ 99,99 voor het leven en voegt vermeldingen voor gebruik zonder bereik toe, een weerradar en ledenkortingen die volgens het bedrijf bij sommige campings oplopen tot 30 procent. Toen we op 20 oktober 2026 keken, lagen nieuwe aanmeldingen voor Premium stil; de website noemde een update van de kaartfunctie van de app als reden.",
+            "Het lidmaatschap geeft ook toegang tot aanbiedingen voor house sitting en werken in ruil voor kost en inwoning. Dat is interessant voor wie lang onderweg is en de <a data-guide=\"accommodation-costs-australia-2026\">verblijfskosten</a> over maanden in plaats van weken wil drukken.",
+            "Kies deze app boven WikiCamps als je de kortingen of het house sitting echt gaat gebruiken. Alleen om plekken te vinden is het een kleinere gids met veel minder beoordelingen in de App Store."
+          ],
+          "tips": [
+            "Premium A$ 49,99 per jaar of A$ 99,99 voor het leven",
+            "Kortingen kunnen de kosten goedmaken",
+            "Kleinere gids dan WikiCamps"
+          ]
+        },
+        {
+          "heading": "5. Hipcamp: het alternatief voor privéterrein",
+          "body": [
+            "Hipcamp beantwoordt een andere vraag dan WikiCamps. De app brengt niet elke kampeerplek in kaart, maar laat boeren, eigenaren van stations (grote veebedrijven) en andere grondeigenaren plekken aanbieden die je vooraf boekt en betaalt, van tentplekken in de bush tot glamping en plekken voor caravans. De app scoort 4,8 sterren op basis van meer dan 22.000 Australische beoordelingen.",
+            "Je geboekte reizen en berichten met gastheren blijven in de app beschikbaar zonder bereik. Hipcamp is niet gemaakt voor <a data-guide=\"is-free-camping-legal-australia\">gratis kampeerplekken</a>, rustplaatsen of lozingspunten, dus op een lange reis is het een aanvulling op een kampeerapp en geen vervanger.",
+            "Kies Hipcamp boven WikiCamps voor een gepland weekend op een plek waar je anders niet zou kunnen kamperen."
+          ],
+          "tips": [
+            "Boek privéterrein vooraf",
+            "4,8 bij meer dan 22.000 beoordelingen",
+            "Niet om gratis plekken te zoeken"
+          ]
+        },
+        {
+          "heading": "6. ExplorOz Traveller: het alternatief voor de outback",
+          "body": [
+            "Voor 4WD-tochten kan ExplorOz Traveller zowel een <a data-guide=\"best-camping-app-australia\">kampeerapp</a> als een papieren kaart vervangen. De topografische kaart EOTopo dekt het hele land, met de namen van tracks en paden, en de ontwikkelaar noemt meer dan 100.000 plekken, waaronder kampeerplekken, tankstations en water.",
+            "De app kost A$ 59,99, en voor gebruik zonder bereik heb je één in-appoptie nodig: EOTopo voor A$ 59,99 per jaar, de editie 2026 voor A$ 79,99 voor vier jaar, of Pro Access voor A$ 99,99 per jaar met live tracking en GPX-export. Staat de kaart eenmaal op je telefoon, dan werkt hij overal in Australië zonder bereik.",
+            "Kies deze app boven WikiCamps als je route dagenlang van het asfalt af gaat. Voor kust- en snelwegroutes is het meer app, en meer geld, dan je nodig hebt."
+          ],
+          "tips": [
+            "Topografische kaart van heel Australië",
+            "Duurste eerste jaar van dit lijstje",
+            "Gemaakt voor afgelegen tracks"
+          ]
+        },
+        {
+          "heading": "Wanneer WikiCamps toch de betere keuze is",
+          "body": [
+            "Heb je een Android-telefoon, dan is AussieCamps geen optie en blijft WikiCamps een sterke keuze, naast CAMPS en CamperMate. Gaat het je vooral om recente ervaringen uit de eerste hand, bijvoorbeeld of een <a data-guide=\"is-free-camping-legal-australia\">gratis kampeerplek</a> onder water loopt of hoe druk het er in de schoolvakanties is, dan bieden de 1,3 miljoen beoordelingen die WikiCamps meldt een hoeveelheid commentaar die moeilijk te evenaren is.",
+            "Eén keer A$ 9,99 voor jarenlang gebruik is ook qua kosten moeilijk te verslaan. Het helpcentrum van de ontwikkelaar erkent dat veel recente beoordelingen te maken hebben met de overstap naar de opnieuw opgebouwde app, en er komen nog steeds updates, dus lees de nieuwste App Store-beoordelingen voordat je beslist."
+          ],
+          "tips": [
+            "Sterk op Android",
+            "1,3 miljoen beoordelingen (cijfer van de ontwikkelaar)",
+            "Eenmalig A$ 9,99 is een goede prijs"
+          ]
+        },
+        {
+          "heading": "Zo hebben we vergeleken",
+          "body": [
+            "Elke app hebben we op 20 oktober 2026 in de Australische App Store gecontroleerd op prijs, in-appaankopen, beoordeling en laatste versie, en naast de eigen pagina’s van de ontwikkelaar gelegd voor gegevensbronnen en gebruik zonder bereik. De gegevens over WikiCamps komen van de website en het helpcentrum. Noemen we een aantal of een korting, dan is dat het cijfer van de ontwikkelaar zelf.",
+            "Wij maken AussieCamps, en die app verdient zijn geld met de Pass. Geen enkele andere app hier heeft betaald om erin te staan. Is er sinds onze controle iets veranderd, laat het ons weten via de supportpagina, dan corrigeren we het."
+          ],
+          "tips": [
+            "Gecontroleerd op 20 oktober 2026",
+            "Cijfers van ontwikkelaars vermelden we als hun eigen claim",
+            "Correcties zijn welkom"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Wat is een goed alternatief voor WikiCamps?",
+          "Dat hangt af van wat je wilt veranderen. AussieCamps gebruikt officiële gegevens van parkdiensten en wegbeheerders en op de iPhone zijn alle plekgegevens ook zonder bereik beschikbaar, CAMPS vermeldt plekken die het eigen team heeft gecontroleerd, en CamperMate is gratis en dekt ook Nieuw-Zeeland."
+        ],
+        [
+          "Is er een gratis alternatief voor WikiCamps?",
+          "CamperMate is gratis en heeft geen in-appaankopen in de Australische App Store. Hipcamp is gratis te downloaden, maar voor een boeking betaal je elke gastheer. AussieCamps is een gratis download, al vragen de gegevens over campings, rustplaatsen en lozingspunten wel om de Pass."
+        ],
+        [
+          "Is WikiCamps in 2026 nog de moeite waard?",
+          "Voor veel reizigers wel: voor eenmalig A$ 9,99 per platform krijg je een communitydatabase die volgens de eigen website meer dan 65.000 plekken telt, zonder abonnement. Versie 6 veranderde een aantal functies, dus lees recente App Store-beoordelingen voordat je koopt."
+        ],
+        [
+          "Heeft WikiCamps advertenties?",
+          "Ja. De App Store meldt reclame, en volgens de ontwikkelaar staan er een paar advertenties in de onderdelen met beoordelingen, tarieven en foto’s. Het bedrijf heeft gezegd dat het een betaalde optie overweegt om ze weg te halen."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "WikiCamps Australia: prijs, dekking en gebruik zonder bereik"
+        },
+        {
+          "label": "WikiCamps-helpcentrum: waarom er negatieve beoordelingen zijn"
+        },
+        {
+          "label": "WikiCamps-helpcentrum: oude versie niet meer beschikbaar"
+        },
+        {
+          "label": "WikiCamps-helpcentrum: content downloaden voor gebruik zonder bereik"
+        },
+        {
+          "label": "WikiCamps-helpcentrum: advertenties in WikiCamps"
+        },
+        {
+          "label": "WikiCamps-helpcentrum: één aankoop per platform"
+        },
+        {
+          "label": "Camps Australia Wide: de CAMPS-app"
+        },
+        {
+          "label": "CamperMate: dekking en functies"
+        },
+        {
+          "label": "Full Range Camping: lidmaatschap en gegevens opslaan voor gebruik zonder bereik"
+        },
+        {
+          "label": "Full Range Camping: status van het Premium-lidmaatschap"
+        },
+        {
+          "label": "Hipcamp: over ons"
+        },
+        {
+          "label": "ExplorOz Traveller"
+        }
+      ],
+      "priceTable": null
     }
   },
   "consent": {
@@ -9145,5 +10606,201 @@
     "decline": "Weigeren",
     "learnMore": "Privacybeleid",
     "privacyChoices": "Privacykeuzes"
+  },
+  "tools": {
+    "common": {
+      "home": "Home",
+      "tools": "Rekenhulpen",
+      "calculator": "Rekenhulp",
+      "howItWorks": "Zo wordt het berekend",
+      "workedExample": "Voorbeeldberekening",
+      "assumptions": "Uitgangspunten",
+      "commonQuestions": "Veelgestelde vragen",
+      "readNext": "Gidsen over kosten en planning",
+      "sources": "Bronnen",
+      "ctaEyebrow": "In de app",
+      "passNote": "AussieCamps is gratis te downloaden. Boekbare verblijven en tours kun je gratis bekijken; voor campings, rustplaatsen, lozingspunten, water, toiletten en de reisplanner heb je de Pass nodig.",
+      "iphoneOnly": "AussieCamps is een iPhone-app.",
+      "openTool": "Formule, voorbeeldberekening en vragen",
+      "allTools": "Alle rekenhulpen voor je roadtrip"
+    },
+    "tools": {
+      "fuel-cost-calculator": {
+        "metaTitle": "Brandstofkosten berekenen: roadtrip Australië",
+        "metaDescription": "Bereken benzine of diesel voor een roadtrip door Australië met afstand, l/100 km en literprijs. Zie liters, totaalkosten en kosten per km, plus formule en voorbeeld.",
+        "title": "Brandstofkosten berekenen voor een roadtrip door Australië",
+        "intro": "Vul de afstand, het verbruik van je voertuig met lading en de prijs per liter in. Je krijgt het aantal liters dat de rit kost, de brandstofrekening en de kosten per kilometer, zodat je de hele route kunt budgetteren voordat je voor het eerst tankt.",
+        "formula": [
+          "Liters = afstand (km) × verbruik (l/100 km) ÷ 100",
+          "Brandstofkosten = liters × prijs per liter (A$/liter)",
+          "Kosten per km = brandstofkosten ÷ afstand"
+        ],
+        "formulaNote": "De rekenhulp rondt liters af op één decimaal en bedragen op de cent. Er wordt verder niets bij opgeteld: tol, olie en bandenslijtage zijn aparte posten in een budget.",
+        "example": [
+          "Een rit van 1.000 km in een voertuig dat 12 l/100 km verbruikt, bij A$ 2,08 per liter: het gemiddelde voor benzine in de vijf grootste steden volgens de Fuel Plan-gegevens van 5 augustus 2026.",
+          "1.000 × 12 ÷ 100 = 120 liter. 120 × A$ 2,08 = A$ 249,60. A$ 249,60 ÷ 1.000 km = ongeveer A$ 0,25 per kilometer.",
+          "Dezelfde rit met een dieselvoertuig, tegen het dieselgemiddelde van die dag van A$ 2,47 per liter, kost 120 × A$ 2,47 = A$ 296,40."
+        ],
+        "assumptions": [
+          "Het verbruik is het cijfer met lading. Met een camper, bagage op het dak of een caravan erachter verbruik je meer dan het cijfer in de brochure, dus meet je eigen verbruik als je kunt.",
+          "Gemiddelden voor steden zijn een beginpunt. Afgelegen roadhouses rekenen meestal meer, dus reken voor etappes door de outback met een hogere prijs.",
+          "De afstand is de hele route, inclusief de omwegen naar campings, uitkijkpunten en plaatsjes die niet aan de highway liggen."
+        ],
+        "faq": [
+          [
+            "Hoe vind ik het echte verbruik van mijn voertuig?",
+            "Tank vol, zet de dagteller op nul en rij zoals je normaal rijdt. Deel bij de volgende tankbeurt de bijgetankte liters door de gereden kilometers en vermenigvuldig met 100. Dat is je l/100 km met lading, en dat getal heeft deze rekenhulp nodig."
+          ],
+          [
+            "Hoe bereken ik de brandstofkosten per km?",
+            "Deel het verbruik in l/100 km door 100 en vermenigvuldig met de prijs per liter. Bij 12 l/100 km en A$ 2,08 per liter is dat 0,12 × 2,08, ongeveer A$ 0,25 per kilometer."
+          ],
+          [
+            "Welke brandstofprijs moet ik gebruiken?",
+            "Neem de brandstof die je voertuig nodig heeft en de meest recente prijs die je voor de regio kunt vinden. De gemiddelden van Fuel Plan voor de vijf steden op 5 augustus 2026 waren A$ 2,08 per liter voor benzine en A$ 2,47 voor diesel; reken in afgelegen gebieden op meer."
+          ]
+        ],
+        "ctaTitle": "Plan de stops tussen de tankbeurten.",
+        "ctaText": "AussieCamps zet {restAreas} rustplaatsen (rest areas) en {dumpPoints} lozingspunten (dump points) in heel Australië op de kaart en maakt van opgeslagen plekken een route met meerdere stops en afstanden."
+      },
+      "drive-time-calculator": {
+        "metaTitle": "Rijtijd berekenen Australië: echte dagetappes",
+        "metaDescription": "Schat hoe lang een rijdag in Australië echt duurt, uit afstand, wegtype en stops. Met de gebruikte gemiddelde snelheden, de formule en een voorbeeldberekening.",
+        "title": "Rijtijd berekenen voor een roadtrip door Australië",
+        "intro": "Navigatie-apps geven de rijtijd op een vrije weg. Deze rekenhulp plant de dag zoals je die echt rijdt: een gemiddelde snelheid voor het soort weg, plus de tijd die je stilstaat voor brandstof, eten en pauzes.",
+        "formula": [
+          "Rijminuten = afstand (km) ÷ gemiddelde snelheid (km/u) × 60",
+          "Totaal aantal minuten = rijminuten + stops × 20",
+          "Gemiddelde snelheden: 85 km/u op een snelweg of open, rechte weg, 70 km/u op een hoofdweg, 60 km/u op een bochtige weg of kustweg, 45 km/u op een smalle, steile of onverharde weg"
+        ],
+        "formulaNote": "De snelheden zijn gemiddelden om mee te plannen, met ruimte voor dorpen en steden, wegwerkzaamheden, langzaam verkeer en inhaalstroken. Het zijn geen maximumsnelheden.",
+        "example": [
+          "Een dag van 250 km over een bochtige kustweg met drie stops.",
+          "250 ÷ 60 × 60 = 250 minuten rijden. Voor drie stops komt er 3 × 20 = 60 minuten bij.",
+          "De dag duurt 310 minuten, oftewel 5 uur en 10 minuten. Op een hoofdweg met 70 km/u kost dezelfde afstand met dezelfde stops 4 uur en 34 minuten."
+        ],
+        "assumptions": [
+          "Elke stop telt voor 20 minuten: een tankstop, een maaltijd, een toiletpauze of een chauffeurswissel.",
+          "Met rijden in het donker houdt de rekenhulp geen rekening. Wilde dieren zijn rond zonsopgang en zonsondergang het actiefst, dus plan je aankomst vóór het donker.",
+          "Hoe onverharde wegen erbij liggen, hangt af van het weer en het seizoen. Check de omstandigheden bij de wegenautoriteit van de staat voordat je aan een stuk gravelweg begint."
+        ],
+        "faq": [
+          [
+            "Waarom is de uitkomst langer dan in mijn navigatie-app?",
+            "Navigatie-apps schatten de rijtijd dicht bij de toegestane snelheid. Deze rekenhulp telt het karakter van de weg en de tijd dat je stilstaat erbij, en daar loopt een lange dag meestal uit."
+          ],
+          [
+            "Welk wegtype kies ik voor een camper?",
+            "Kies ‘Hoofdweg (highway)’ voor de meeste verharde national highways, ‘Bochtig of langs de kust’ voor heuvelachtige routes en kustroutes, en ‘Smal, steil of onverhard’ voor onverharde wegen en bergpassen. Een zware camper of een caravan op een helling is nog langzamer."
+          ],
+          [
+            "Telt de uitkomst brandstof- en eetstops mee?",
+            "Alleen de stops die je invult. Tel er één voor elke tankbeurt, maaltijd of pauze die je verwacht; elke stop voegt 20 minuten aan de dag toe."
+          ]
+        ],
+        "ctaTitle": "Weet al vóór vertrek waar je de dag eindigt.",
+        "ctaText": "AussieCamps zet {campgrounds} campings en {restAreas} rustplaatsen (rest areas) op de kaart en maakt een route met meerdere stops en de rijafstand tussen de stops."
+      },
+      "campsite-cost-calculator": {
+        "metaTitle": "Campingkosten berekenen: per persoon of per plek",
+        "metaDescription": "Vergelijk een campingtarief per volwassene met een tarief per plek voor je groep en aantal nachten. Je ziet het omslagpunt in groepsgrootte, de formule en een voorbeeld in AUD.",
+        "title": "Campingkosten berekenen: per persoon of per plek?",
+        "intro": "Sommige campings rekenen per volwassene per nacht, andere rekenen een prijs voor de hele plek. Wat goedkoper is, hangt af van het aantal volwassenen in je groep. Daarom rekent deze rekenhulp beide uit voor hetzelfde verblijf.",
+        "formula": [
+          "Totaal per volwassene = volwassenen × nachten × tarief per volwassene",
+          "Totaal per plek = nachten × tarief per plek",
+          "Omslagpunt groepsgrootte = tarief per plek ÷ tarief per volwassene"
+        ],
+        "formulaNote": "Boven dit omslagpunt in aantal volwassenen is de prijs per plek goedkoper; eronder is de prijs per volwassene goedkoper.",
+        "example": [
+          "Twee volwassenen blijven vijf nachten en vergelijken A$ 20 per volwassene per nacht met A$ 50 per plek per nacht.",
+          "Per volwassene: 2 × 5 × A$ 20 = A$ 200. Per plek: 5 × A$ 50 = A$ 250. Per volwassene is A$ 50 goedkoper.",
+          "Het omslagpunt is A$ 50 ÷ A$ 20 = 2,5 volwassenen. Met drie volwassenen stijgt het totaal per volwassene dus naar A$ 300 en wint de prijs per plek."
+        ],
+        "assumptions": [
+          "Voor kinderen en houders van een kortingspas geldt vaak een ander tarief. Vul alleen volwassenen in of reken met een gemiddeld tarief.",
+          "Reserveringskosten en toegangskosten voor het park komen er apart bij. Tel ze op bij het bedrag per plek als je appels met appels wilt vergelijken.",
+          "De rekenhulp rekent alleen met de bedragen die je invult; check het actuele tarief op de officiële boekingspagina."
+        ],
+        "faq": [
+          [
+            "Wanneer is een tarief per plek goedkoper?",
+            "Als het aantal volwassenen groter is dan het tarief per plek gedeeld door het tarief per volwassene. Bij A$ 50 per plek en A$ 20 per volwassene is dat 2,5, dus een groep van drie of meer betaalt minder per plek."
+          ],
+          [
+            "Rekenen campings in nationale parken per persoon?",
+            "Veel campings in staatsparken rekenen per volwassene per nacht, terwijl holiday parks (uitgebreide campings met huisjes en faciliteiten) meestal per plek rekenen. De beheerder bepaalt waarop het tarief gebaseerd is, dus lees dat op de officiële pagina voordat je vergelijkt."
+          ]
+        ],
+        "ctaTitle": "Vergelijk campings op de kaart.",
+        "ctaText": "AussieCamps zet {campgrounds} campings op de kaart, met tarieven en voorzieningen waar de beheerder die vermeldt, en linkt elke camping naar de officiële pagina."
+      },
+      "currency-converter": {
+        "metaTitle": "AUD omrekenen voor reizigers (RBA-koersen)",
+        "metaDescription": "Reken Australische dollars om naar en van NZD, USD, GBP, EUR, CNY, INR, SGD, JPY en KRW met gedateerde referentiekoersen van de Reserve Bank of Australia.",
+        "title": "Australische dollar omrekenen voor je reisplanning",
+        "intro": "Reken een Australische prijs om naar de valuta waarin je denkt, of andersom. De koersen zijn referentiekoersen van de Reserve Bank of Australia met een vermelde datum, dus je weet precies waarop het getal is gebaseerd.",
+        "formula": [
+          "Omgerekend bedrag = bedrag ÷ koers van de valuta waarvan je omrekent × koers van de valuta waarnaar je omrekent",
+          "Elke koers is het aantal eenheden van die valuta per A$ 1"
+        ],
+        "formulaNote": "Omrekenen via de Australische dollar houdt elk valutapaar consistent: NZD naar USD gebruikt dezelfde twee koersen als de omrekeningen vanuit AUD.",
+        "example": [
+          "A$ 100 tegen een koers van 1,2033 NZD per Australische dollar.",
+          "100 ÷ 1 × 1,2033 = NZ$ 120,33.",
+          "Andersom: NZ$ 100 ÷ 1,2033 × 1 = A$ 83,10."
+        ],
+        "assumptions": [
+          "Referentiekoersen zijn middenkoersen om mee te plannen. Banken, kaartnetwerken en wisselkantoren rekenen hun eigen marge of kosten.",
+          "Koersen veranderen elke werkdag. Gebruik de uitkomst om een prijs te beoordelen, niet als offerte."
+        ],
+        "faq": [
+          [
+            "Welke wisselkoersen gebruikt de rekenhulp?",
+            "Referentiekoersen van de Reserve Bank of Australia, met de datum waarvoor ze gelden, uitgedrukt in eenheden van elke valuta per Australische dollar."
+          ],
+          [
+            "Waarom rekent mijn bank een ander bedrag?",
+            "Banken en kaartnetwerken gebruiken hun eigen koers en rekenen vaak een opslag of kosten voor buitenlandse transacties, dus het afgeschreven bedrag wijkt af van een omrekening met referentiekoersen."
+          ]
+        ],
+        "ctaTitle": "Bekijk tarieven in je eigen valuta.",
+        "ctaText": "AussieCamps toont vermelde tarieven in de valuta die je kiest, naast het bedrag in Australische dollars, tegen een omrekenkoers die je één keer instelt."
+      },
+      "water-tank-calculator": {
+        "metaTitle": "Watertank camper berekenen: dagen off grid",
+        "metaDescription": "Zet de inhoud van je schoonwater- en grijswatertank om in dagen off grid voor je groep. Met de liters per persoon, de formule en een voorbeeld voor een camperreis door Australië.",
+        "title": "Watertank camper berekenen: hoeveel dagen off grid?",
+        "intro": "Tankinhoud in liters wordt pas bruikbaar als je die omzet in dagen. Vul de inhoud van je schoonwater- en grijswatertank in plus het aantal personen. De rekenhulp laat zien hoe lang elke tank meegaat en welke tank je grens bepaalt.",
+        "formula": [
+          "Dagen schoonwater = schoonwatertank (l) ÷ (personen × 11 l)",
+          "Dagen grijswater = grijswatertank (l) ÷ (personen × 9 l)",
+          "Dagen off grid = de laagste van de twee"
+        ],
+        "formulaNote": "11 liter schoon water en 9 liter grijswater per persoon per dag is genoeg voor drinken, koken en afwassen bij zuinig gebruik. Douchen aan boord kost veel meer.",
+        "example": [
+          "Een camper met een schoonwatertank van 100 l en een grijswatertank van 90 l, met twee personen onderweg.",
+          "Schoonwater: 100 ÷ (2 × 11) = 4,5 dagen. Grijswater: 90 ÷ (2 × 9) = 5,0 dagen.",
+          "De schoonwatertank is als eerste leeg, na ongeveer vier en een halve dag, dus plan een bijvulmoment vóór dag vijf."
+        ],
+        "assumptions": [
+          "De cijfers per persoon zijn gemiddelden. Warm weer, koken met water en douchen verhogen ze.",
+          "Cassettetoiletten zijn een aparte tank en zijn niet meegerekend.",
+          "Loos grijswater alleen waar het mag, zoals bij een lozingspunt (dump point) of op een goedgekeurde plek."
+        ],
+        "faq": [
+          [
+            "Hoeveel water gebruikt één persoon per dag in een camper?",
+            "Deze rekenhulp gaat uit van ongeveer 11 liter schoon water per persoon per dag voor drinken, koken en afwassen, en ongeveer 9 liter grijswater. Een dagelijkse douche aan boord kost veel meer, dus reken die apart."
+          ],
+          [
+            "Wat is eerst leeg, schoon water of grijswater?",
+            "De tank met het laagste aantal dagen. Bij dezelfde tankinhoud gaan beide minder lang mee als je met meer mensen bent of meer wast; de rekenhulp zet de twee naast elkaar, zodat je ziet welke tank de grens bepaalt."
+          ]
+        ],
+        "ctaTitle": "Vind het volgende vulpunt en lozingspunt.",
+        "ctaText": "AussieCamps zet {water} waterpunten en {dumpPoints} lozingspunten in heel Australië op de kaart, met de voorzieningen die elk punt vermeldt."
+      }
+    }
   }
 }
