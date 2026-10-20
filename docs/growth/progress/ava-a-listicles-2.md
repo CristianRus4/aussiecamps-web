@@ -8,7 +8,7 @@ Branch `growth/a-listicles-2` (worktree `~/.t3/worktrees/aussiecamps-web/ava-a-l
 |---|---|---|---|
 | 1 | `best-caravan-rv-apps-australia` | 2026-10-26 | merged to main with content review fixes |
 | 2 | `best-apps-working-holiday-australia` | 2026-10-27 | merged to main with content review fixes; hero replaced on main (banana plantation, 81d2bfc) |
-| 3 | `best-weather-apps-camping-australia` | 2026-10-28 | drafted in /tmp/ava-l2/p3.ts; needs hero, figure, FAQ, review |
+| 3 | `best-weather-apps-camping-australia` | 2026-10-28 | committed 72e6d79 (self-reviewed; needs Opus or orchestrator final review) |
 | 4 | `best-money-saving-travel-apps-australia` | 2026-10-29 | store data + partial feature research |
 | 5 | `hipcamp-alternatives` (Hipcamp chosen: see facts file) | 2026-10-30 | store data only |
 
@@ -21,6 +21,7 @@ Each page: facts file in `docs/growth/listicles/run2/`, hero from Wikimedia Comm
 - Screens used by run 1: cape-le-grand top, flinders-ranges top, adelaide-to-uluru map, perth-to-broome map, lucky-bay top, karijini top.
 
 ## Done
+- Page 3 (weather) committed 72e6d79: hero Storm over Kata Tjuta (CC BY-SA 4.0), figure Blue Mountains weather, FAQ, schedule row. npm run check: all pass except the protected count test (78 vs 77); similarity and assets pass.
 - Setup and research plan.
 - Facts files for all five pages started in `docs/growth/listicles/run2/` (caravan, WHM and weather complete).
 - Heroes and screen figures for pages 1-2 committed (f1cf057). Screens chosen: p1 cape-hillsborough-np_middle, p2 rac-cable-beach-hp_top; planned p3 blue-mountains-np_middle (weather), p4 coffin-bay-np_middle (reported prices).
@@ -31,8 +32,7 @@ Each page: facts file in `docs/growth/listicles/run2/`, hero from Wikimedia Comm
 - ATO and Fair Work pages block automated fetches (403/timeouts): their facts rest on official-page search extracts.
 
 ## Next
-- Page 3: hero from Commons (search myself), screen figure blue-mountains-np_middle, FAQ, insert /tmp/ava-l2/p3.ts, self-review, commit.
 - Page 4: finish research myself, draft, commit. Page 5: research Hipcamp, draft, commit.
 
 ## Blockers
-- `tests/rendered-html.test.mjs:61` asserts exactly 75 guides; it must become 80 once all five pages land (protected file: orchestrator or foundation).
+- `tests/rendered-html.test.mjs:61` asserts exactly 77 guides on main; page 3 makes 78, and it must reach 80 once all five pages land (protected file: orchestrator or foundation).
