@@ -27,10 +27,10 @@ b12 south-west-wa-camping-loop, victoria-high-country-camping, kangaroo-island-c
 Skipped (other lane): wikicamps-alternatives, campermate-alternatives, best-fuel-price-apps-australia, best-road-trip-planner-apps-australia, best-free-camping-apps-australia, best-caravan-rv-apps-australia, best-apps-working-holiday-australia.
 
 ## Done
-(none yet)
+b02 (campervan-road-trip-budget-australia, accommodation-costs-australia-2026, camping-rules-south-australia, camping-rules-act, camping-rules-queensland), b03 (australian-road-signs-visitors-guide, caravan-park-vs-holiday-park, towing-caravan-australia-road-rules, camping-rules-northern-territory, melbourne-to-adelaide-coastal-route). nb 21/77 guides complete.
 
 ## Next
-b01 drafting.
+b01 in native review; b04, b05 drafting. Then reviews, apply, continue b06+.
 
 ## Blockers
 none
