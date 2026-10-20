@@ -97,3 +97,34 @@ Research notes behind the "best apps" and "alternatives" guides. Each fact carri
 
 ### StayFree Vanlife Camping AU NZ
 - https://apps.apple.com/au/app/stayfree-vanlife-camping-au-nz/id1439159740, StayFree GmbH. Free; Premium A$5.99 a month, A$14.99 for 3 months, A$29.99 a year. 3.9 from 36 AU ratings. v4.7.0, 2026-08-12. User-contributed; no offline claim. Not used yet (thin Australian evidence).
+
+## Fuel price apps, checked 2026-10-20
+
+- Petrol Spy (id 826254811): free with ads; Premium One Year A$2.89, Lifetime A$14.99. 4.8 from ~184.9K AU ratings. v6.0.7, 2025-07-23. Listing: real-time maps for QLD, SA, NSW, WA, TAS, NT incl. FuelCheck and FuelWatch; Victoria "user submitted prices"; price cycle graphs for 8 capitals; best-time-to-buy alerts. On Queensland Treasury's list of data recipients.
+- Fuel Map Australia (id 999638192, WikiCamps): free, remove ads A$2.99; 4.5 from ~6.9K; last update 2022-10-23; crowd-sourced plus government data for WA, NSW, QLD; WA tomorrow prices; fuel log.
+- NSW FuelCheck (id 1266569551, NSW Department of Customer Service): free, no IAP; 4.8 from ~122.9K; v10.3.0, 2026-03-02; "over 2300 service stations in NSW and 60 in ACT"; alerts, My Trip (cheapest on route), Trends.
+- FuelCheck TAS (id 1524416815): free; 4.7 from ~3.5K; v10.3.0, 2026-06-30; 200+ stations; outage listings since March 2026 (premier.tas.gov.au, March 2026).
+- FuelWatch WA: next-day price submitted by 2pm, fixed for 24 hours from 6am, published from 2:30pm; website and ServiceWA app (wa.gov.au media statement 2026-04-30).
+- Victoria Servo Saver: in the Service Victoria app since 15 Oct 2025, ad-free; mandatory reporting within 30 minutes; next-day maximum price published by 4pm, applies from 6am for 24 hours (consumer.vic.gov.au mandatory fuel price reporting; premier.vic.gov.au).
+- Queensland: no official app; Treasury lists apps receiving scheme data (treasury.qld.gov.au fuel price apps page, updated 16 July 2026), incl. Petrol Spy, FuelMap, MotorMouth, Pumped, RACQ Fuel and Deals, Fuel Snoop.
+- SA: retailers update within 30 minutes; sa.gov.au/fuel-pricing lists approved apps (page not fetched).
+- NT: MyFuel NT government web app, mandatory since 1 Nov 2017 (consumeraffairs.nt.gov.au/myfuel-nt).
+- My NRMA (id 343747162): 4.6 from ~108.8K; members 5c/L premium and 4c/L regular off at participating Ampol Foodary (mynrma.com.au/ampol).
+- My 7-Eleven (id 1032594453): 4.8 from ~269.6K; Fuel Price Lock terms dated Feb 2024: up to 150L, max 25c/L, 7 days, cheapest of up to 5 stores within 250 km (7eleven.com.au/fuel-price-lock-terms). Current status unverified.
+- ACCC fuel monitoring: https://www.accc.gov.au/by-industry/petrol-and-fuel/fuel-and-petrol-monitoring
+- AussieCamps shows no fuel prices; not ranked on fuel pages.
+- Full Range Camping update: https://www.fullrangecamping.com.au/premium said "Premium Memberships Currently Unavailable ... whilst we update the Android and IOS versions of the FRC App's Mapping Software" (checked 2026-10-20). App Store still lists the IAP prices.
+
+## Free camping and trip planner apps, checked 2026-10-20
+- CAMPS: no free tier after the 7-day trial; "From December 2024 free app users will need to upgrade to the new Yearly $14.99/year plan" (https://campsaustraliawide.com/help-centre/app-support/). Guidebook owners get a year free.
+- WikiCamps: no free trial or free version found.
+- Full Range Camping: directory free to browse with a "Free Camps" category (site); Premium adds offline caching, radar, collections, discounts.
+- NSW National Parks app (id 1213696400): free, 4.6 from 2,746. Free-camp listing unverified.
+- Parks Victoria: no app; https://www.parks.vic.gov.au/where-to-stay/camping/free-camping-in-victoria.
+- Anycamp (id 1343507387): 4.7 from 7,097, last updated 2024-04-08.
+- Google Maps (id 585027354): free, 4.6 from 501,723; "up to 9 stops, which includes the final destination" (https://support.google.com/maps/answer/144339); offline maps (https://support.google.com/maps/answer/6291838).
+- Apple Maps (id 915056765): 2.7 from 2,592 AU ratings; add stops and download offline maps (https://support.apple.com/en-au/guide/iphone/iph3ab27ee8b/ios).
+- Wanderlog (id 1476732439): free, 4.9 from 5,312; Pro IAP; store copy claims unlimited stops and route optimisation free. AU Pro price unverified.
+- TripIt (id 311035142): 4.8 from 52,985; Pro A$77.99 a year; bookings organiser.
+- Polarsteps (id 947925763): 4.9 from 11,924; Plus A$44.99 a year; tracker and journal.
+- Sygic GPS Navigation (id 585193266): 4.4 from 6,811; offline turn-by-turn; Premium+ price unverified.
