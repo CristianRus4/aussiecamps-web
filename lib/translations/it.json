@@ -8047,5 +8047,201 @@
     "decline": "Rifiuta",
     "learnMore": "Informativa sulla privacy",
     "privacyChoices": "Preferenze sulla privacy"
+  },
+  "tools": {
+    "common": {
+      "home": "Home",
+      "tools": "Calcolatori",
+      "calculator": "Calcolatore",
+      "howItWorks": "Come si calcola",
+      "workedExample": "Esempio svolto",
+      "assumptions": "Ipotesi",
+      "commonQuestions": "Domande frequenti",
+      "readNext": "Guide ai costi e alla pianificazione",
+      "sources": "Fonti",
+      "ctaEyebrow": "Nell’app",
+      "passNote": "AussieCamps si scarica gratis. I soggiorni prenotabili e i tour si consultano gratis; campeggi, aree di sosta, punti di scarico, acqua, bagni e pianificatore di viaggio richiedono il Pass.",
+      "iphoneOnly": "AussieCamps è un’app per iPhone.",
+      "openTool": "Formula, esempio svolto e domande",
+      "allTools": "Tutti i calcolatori per il road trip"
+    },
+    "tools": {
+      "fuel-cost-calculator": {
+        "metaTitle": "Calcolatore costo carburante road trip in Australia",
+        "metaDescription": "Calcola benzina o diesel per un road trip in Australia da distanza, l/100 km e prezzo al litro. Mostra litri, costo totale e costo al km, con la formula e un esempio svolto.",
+        "title": "Calcolatore del costo del carburante per un road trip in Australia",
+        "intro": "Inserisci la distanza, il consumo del mezzo a pieno carico e il prezzo al litro. Ottieni i litri che consumerai, la spesa di carburante e il costo al chilometro, così puoi preventivare l’intero percorso prima del primo pieno.",
+        "formula": [
+          "Litri = distanza (km) × consumo (l/100 km) ÷ 100",
+          "Costo del carburante = litri × prezzo al litro (A$/l)",
+          "Costo al km = costo del carburante ÷ distanza"
+        ],
+        "formulaNote": "Il calcolatore arrotonda i litri a un decimale e gli importi al centesimo. Non aggiunge nient’altro: pedaggi, olio e usura dei pneumatici sono voci a parte nel budget.",
+        "example": [
+          "Un viaggio di 1.000 km con un mezzo che consuma 12 l/100 km, a 2,08 A$ al litro: la media della benzina nelle cinque città più grandi nei dati Fuel Plan del 5 agosto 2026.",
+          "1.000 × 12 ÷ 100 = 120 litri. 120 × 2,08 A$ = 249,60 A$. 249,60 A$ ÷ 1.000 km = circa 0,25 A$ al chilometro.",
+          "Lo stesso viaggio con un mezzo diesel, alla media del diesel di quel giorno di 2,47 A$ al litro, costa 120 × 2,47 A$ = 296,40 A$."
+        ],
+        "assumptions": [
+          "Il consumo è quello a pieno carico. Un camper, un carico sul tetto o una roulotte al traino consumano più del dato da scheda tecnica, quindi se puoi misura il tuo.",
+          "Le medie delle città sono un punto di partenza. I roadhouse (stazioni di servizio isolate con bar e spesso camere) di solito costano di più, quindi alza il prezzo per le tratte nell’outback.",
+          "La distanza è quella dell’intero percorso, comprese le deviazioni verso campeggi, punti panoramici e paesi lontani dalla highway."
+        ],
+        "faq": [
+          [
+            "Come trovo il consumo reale del mio mezzo?",
+            "Fai il pieno, azzera il contachilometri parziale e guida come fai di solito. Al rifornimento successivo dividi i litri aggiunti per i chilometri percorsi e moltiplica per 100. Quello è il tuo consumo in l/100 km a pieno carico, il dato che serve a questo calcolatore."
+          ],
+          [
+            "Come calcolo il costo del carburante al km?",
+            "Dividi i l/100 km per 100 e moltiplica per il prezzo al litro. Con 12 l/100 km e 2,08 A$ al litro fa 0,12 × 2,08, cioè circa 0,25 A$ al chilometro."
+          ],
+          [
+            "Quale prezzo del carburante devo usare?",
+            "Usa il carburante del tuo mezzo e il prezzo più recente che trovi per la zona. Le medie delle cinque città di Fuel Plan al 5 agosto 2026 erano 2,08 A$ al litro per la benzina e 2,47 A$ per il diesel; nelle zone remote aspettati di più."
+          ]
+        ],
+        "ctaTitle": "Pianifica le soste tra un pieno e l’altro.",
+        "ctaText": "AussieCamps mostra sulla mappa {restAreas} aree di sosta e {dumpPoints} punti di scarico in tutta l’Australia e trasforma i luoghi salvati in un percorso a più tappe con le distanze."
+      },
+      "drive-time-calculator": {
+        "metaTitle": "Calcolatore tempo di guida in Australia: giorni di road trip reali",
+        "metaDescription": "Stima quanto dura davvero una giornata di guida in Australia da distanza, tipo di strada e soste. Mostra le velocità medie usate, la formula e un esempio svolto.",
+        "title": "Calcolatore del tempo di guida per road trip in Australia",
+        "intro": "I navigatori indicano il tempo di marcia su strada libera. Questo calcolatore pianifica la giornata di guida che farai davvero: una velocità media per il tipo di strada, più il tempo delle soste per carburante, pasti e pause.",
+        "formula": [
+          "Minuti di guida = distanza (km) ÷ velocità media (km/h) × 60",
+          "Minuti totali = minuti di guida + soste × 20",
+          "Velocità medie: 85 km/h autostrada o lungo rettilineo, 70 km/h strada principale, 60 km/h tortuosa o costiera, 45 km/h stretta, ripida o sterrata"
+        ],
+        "formulaNote": "Le velocità sono medie di pianificazione che tengono conto di centri abitati, lavori in corso, veicoli lenti e corsie di sorpasso. Non sono limiti di velocità.",
+        "example": [
+          "Una giornata di 250 km su una strada costiera tortuosa con tre soste.",
+          "250 ÷ 60 × 60 = 250 minuti di guida. Tre soste aggiungono 3 × 20 = 60 minuti.",
+          "La giornata dura 310 minuti, cioè 5 h 10 min. Su una strada principale a 70 km/h la stessa distanza con le stesse soste richiede 4 h 34 min."
+        ],
+        "assumptions": [
+          "Ogni sosta vale 20 minuti: un rifornimento, un pasto, una pausa bagno o un cambio di guidatore.",
+          "La guida di notte non è prevista. Gli animali selvatici sono più attivi all’alba e al tramonto, quindi cerca di arrivare prima che faccia buio.",
+          "Le strade sterrate cambiano con il meteo e con la stagione. Prima di una tratta su sterrato controlla le condizioni con l’ente stradale dello stato."
+        ],
+        "faq": [
+          [
+            "Perché il risultato è più lungo di quello dell’app di mappe?",
+            "Le app di navigazione stimano il tempo di marcia a velocità vicine ai limiti segnalati. Questo calcolatore tiene conto anche del tipo di strada e del tempo delle soste, ed è lì che di solito una giornata lunga sfora."
+          ],
+          [
+            "Che tipo di strada scelgo per un camper?",
+            "Scegli «strada principale» per la maggior parte delle highway nazionali asfaltate, «tortuosa o costiera» per i percorsi collinari e costieri, e «stretta, ripida o sterrata» per le strade sterrate e i passi di montagna. Un camper pesante o una roulotte in salita vanno ancora più piano."
+          ],
+          [
+            "Il risultato include le soste per carburante e pasti?",
+            "Solo le soste che inserisci. Aggiungine una per ogni rifornimento, pasto o pausa che prevedi: ognuna aggiunge 20 minuti alla giornata."
+          ]
+        ],
+        "ctaTitle": "Scopri dove finisce la giornata prima di iniziarla.",
+        "ctaText": "AussieCamps mostra sulla mappa {campgrounds} campeggi e {restAreas} aree di sosta e costruisce un percorso a più tappe con la distanza in auto tra una tappa e l’altra."
+      },
+      "campsite-cost-calculator": {
+        "metaTitle": "Calcolatore costo campeggio: a persona o a piazzola",
+        "metaDescription": "Confronta una tariffa del campeggio per adulto con una per piazzola, in base al tuo gruppo e alle notti. Mostra la soglia di pareggio, la formula e un esempio svolto in AUD.",
+        "title": "Calcolatore costo campeggio: a persona o a piazzola?",
+        "intro": "Alcuni campeggi fanno pagare ogni adulto a notte, altri applicano un prezzo per tutta la piazzola. Quale conviene dipende da quanti adulti siete, quindi il calcolatore ti dà entrambi i prezzi per lo stesso soggiorno.",
+        "formula": [
+          "Totale con tariffa per adulto = adulti × notti × tariffa per adulto",
+          "Totale con tariffa a piazzola = notti × tariffa per piazzola",
+          "Soglia di pareggio (adulti) = tariffa per piazzola ÷ tariffa per adulto"
+        ],
+        "formulaNote": "Sopra la soglia di pareggio conviene il prezzo a piazzola; sotto conviene quello per adulto.",
+        "example": [
+          "Due adulti per cinque notti, a confronto 20 A$ per adulto a notte e 50 A$ per piazzola a notte.",
+          "Per adulto: 2 × 5 × 20 A$ = 200 A$. A piazzola: 5 × 50 A$ = 250 A$. Con la tariffa per adulto spendi 50 A$ in meno.",
+          "La soglia di pareggio è 50 A$ ÷ 20 A$ = 2,5 adulti, quindi con tre adulti il totale per adulto sale a 300 A$ e vince il prezzo a piazzola."
+        ],
+        "assumptions": [
+          "Bambini e chi ha diritto a riduzioni spesso pagano una tariffa diversa. Inserisci solo gli adulti, oppure usa una tariffa media.",
+          "I costi di prenotazione e d’ingresso al parco sono a parte. Aggiungili alla cifra a piazzola per confrontare a parità di condizioni.",
+          "Il calcolo usa solo i dati che inserisci: controlla la tariffa in vigore sulla pagina ufficiale di prenotazione."
+        ],
+        "faq": [
+          [
+            "Quando conviene la tariffa a piazzola?",
+            "Quando il numero di adulti è maggiore della tariffa a piazzola divisa per la tariffa per adulto. Con 50 A$ a piazzola e 20 A$ per adulto fa 2,5, quindi un gruppo di tre o più persone paga meno a piazzola."
+          ],
+          [
+            "Nei campeggi dei parchi nazionali si paga a persona?",
+            "Molti campeggi dei parchi statali fanno pagare ogni adulto a notte, mentre gli holiday park (campeggi-villaggio con bungalow, piscina e servizi) di solito applicano un prezzo a piazzola. Come si calcola la tariffa lo decide ogni ente gestore, quindi verificalo sulla pagina ufficiale prima di confrontare."
+          ]
+        ],
+        "ctaTitle": "Confronta i campeggi sulla mappa.",
+        "ctaText": "AussieCamps mostra sulla mappa {campgrounds} campeggi con tariffe e servizi dove l’ente gestore li indica, e collega ognuno alla sua pagina ufficiale."
+      },
+      "currency-converter": {
+        "metaTitle": "Convertitore dollaro australiano (AUD) per viaggiatori: tassi RBA",
+        "metaDescription": "Converti i prezzi in dollari australiani da e verso NZD, USD, GBP, EUR, CNY, INR, SGD, JPY e KRW con i tassi di riferimento della Reserve Bank of Australia, ciascuno con la sua data.",
+        "title": "Convertitore di dollari australiani per organizzare il viaggio",
+        "intro": "Converti un prezzo australiano nella valuta in cui ragioni, o viceversa. I tassi sono quelli di riferimento della Reserve Bank of Australia, con una data precisa, così sai esattamente su cosa si basa il numero.",
+        "formula": [
+          "Importo convertito = importo ÷ tasso della valuta di partenza × tasso della valuta di arrivo",
+          "Ogni tasso indica le unità di quella valuta per 1 A$"
+        ],
+        "formulaNote": "Passando per il dollaro australiano tutte le coppie restano coerenti: da NZD a USD si usano gli stessi due tassi delle conversioni con l’AUD.",
+        "example": [
+          "100 A$ al tasso di 1,2033 NZD per dollaro australiano.",
+          "100 ÷ 1 × 1,2033 = 120,33 NZ$.",
+          "Nel verso opposto, 100 NZ$ ÷ 1,2033 × 1 = 83,10 A$."
+        ],
+        "assumptions": [
+          "I tassi di riferimento sono valori medi di mercato, utili per organizzarsi. Banche, circuiti delle carte e cambiavalute aggiungono un loro margine o delle commissioni.",
+          "I tassi cambiano ogni giorno lavorativo. Usa il risultato per valutare un prezzo, non come preventivo."
+        ],
+        "faq": [
+          [
+            "Quali tassi di cambio usa il convertitore?",
+            "I tassi di riferimento della Reserve Bank of Australia, mostrati con la data a cui si riferiscono ed espressi come unità di ogni valuta per un dollaro australiano."
+          ],
+          [
+            "Perché la mia banca addebita un importo diverso?",
+            "Banche e circuiti delle carte usano un tasso proprio e spesso aggiungono un margine o una commissione per operazioni in valuta estera, quindi l’importo addebitato è diverso da una conversione di riferimento."
+          ]
+        ],
+        "ctaTitle": "Vedi le tariffe nella tua valuta.",
+        "ctaText": "AussieCamps mostra le tariffe segnalate accanto all’importo in dollari australiani, nella valuta che scegli, a un tasso di conversione che imposti una volta sola."
+      },
+      "water-tank-calculator": {
+        "metaTitle": "Calcolatore serbatoio acqua camper: giorni in autonomia",
+        "metaDescription": "Trasforma la capacità dei serbatoi delle acque chiare e grigie in giorni in autonomia per il tuo gruppo. Mostra i litri a persona, la formula e un esempio svolto per un viaggio in camper in Australia.",
+        "title": "Calcolatore serbatoio acqua per camper: quanti giorni in autonomia?",
+        "intro": "I litri dei serbatoi diventano utili solo quando li esprimi in giorni. Inserisci la capacità dei serbatoi delle acque chiare e grigie e il numero di persone: il calcolatore mostra quanto dura ogni serbatoio e quale dei due fa da limite.",
+        "formula": [
+          "Giorni di acque chiare = serbatoio acque chiare (l) ÷ (persone × 11 l)",
+          "Giorni di acque grigie = serbatoio acque grigie (l) ÷ (persone × 9 l)",
+          "Giorni in autonomia = il più basso dei due valori"
+        ],
+        "formulaNote": "11 litri di acque chiare e 9 litri di acque grigie a persona al giorno bastano per bere, cucinare e lavare i piatti, se li usi con attenzione. Le docce a bordo consumano molto di più.",
+        "example": [
+          "Un camper con un serbatoio delle acque chiare da 100 l e uno delle acque grigie da 90 l, in viaggio in due.",
+          "Acque chiare: 100 ÷ (2 × 11) = 4,5 giorni. Acque grigie: 90 ÷ (2 × 9) = 5,0 giorni.",
+          "Il serbatoio delle acque chiare si svuota per primo, dopo circa quattro giorni e mezzo, quindi organizzati per fare acqua prima del quinto giorno."
+        ],
+        "assumptions": [
+          "I valori a persona sono medie. Il caldo, cucinare con l’acqua e le docce li fanno salire.",
+          "Le cassette del WC sono un serbatoio a parte e non sono incluse.",
+          "Svuota le acque grigie solo dove è consentito, per esempio in un punto di scarico o in un’area autorizzata."
+        ],
+        "faq": [
+          [
+            "Quanta acqua consuma una persona al giorno in camper?",
+            "Questo calcolatore parte da circa 11 litri di acque chiare a persona al giorno per bere, cucinare e lavare i piatti, e da circa 9 litri di acque grigie. Una doccia al giorno a bordo consuma molto di più, quindi calcolala a parte."
+          ],
+          [
+            "Cosa finisce prima, le acque chiare o le acque grigie?",
+            "Il serbatoio che dà meno giorni. A parità di capacità, più persone o più lavaggi accorciano entrambi; il calcolatore li mostra affiancati, così vedi quale dei due fa da limite."
+          ]
+        ],
+        "ctaTitle": "Trova il prossimo punto acqua e il prossimo punto di scarico.",
+        "ctaText": "AussieCamps mostra sulla mappa {water} punti di rifornimento d’acqua e {dumpPoints} punti di scarico in tutta l’Australia, con i servizi che ciascuno indica."
+      }
+    }
   }
 }
