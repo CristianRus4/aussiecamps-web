@@ -204,6 +204,12 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Can you see tomorrow's petrol prices in Australia?", "In Western Australia and Victoria, yes. FuelWatch publishes WA's next-day prices from 2:30pm, and Servo Saver shows Victoria's next-day caps from 4pm. Both apply from 6am for 24 hours."],
     ["Which fuel app should I use in Queensland?", "Queensland has no government app. Its reporting scheme sends station prices to private apps, and Queensland Treasury lists those that receive the data, including Petrol Spy, FuelMap, MotorMouth, Pumped and RACQ Fuel and Deals."],
   ],
+  "best-road-trip-planner-apps-australia": [
+    ["What is the best app to plan a road trip in Australia?", "Use two kinds of app. A planner such as AussieCamps decides the stops, nights and dates, with distance and drive time for each leg, and a navigation app such as Google Maps or Apple Maps handles the drive itself. For remote 4WD tracks, ExplorOz Traveller does both on its own maps."],
+    ["How many stops can you add in Google Maps?", "Up to 9 stops on one route, counting the final destination, according to Google's help pages. Apple Maps allows up to 14 stops on a driving route. Longer trips need splitting into several routes or a dedicated trip planner."],
+    ["Does Roadtrippers work in Australia?", "Its App Store listing says it is designed for road trips in the USA and Canada only, so it is not a good fit for Australia."],
+    ["Can I plan a road trip offline in Australia?", "Partly. Google Maps and Apple Maps can navigate within downloaded areas, AussieCamps keeps place details on the phone with the Pass, and WikiCamps keeps up to three downloaded trips. Live traffic, forecasts and new routes still need signal in most apps."],
+  ],
 
   // --- Costs & budget -------------------------------------------------------
   "australia-travel-cost-2026": [
