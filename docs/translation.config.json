@@ -249,36 +249,22 @@
       }
     },
     {
-<<<<<<< HEAD
       "id": "aussiecamps-website-sv",
       "adapter": "web-json",
       "sourceLocale": "en",
       "locales": [
         "sv"
-=======
-      "id": "aussiecamps-website-zh-Hans",
-      "adapter": "web-json",
-      "sourceLocale": "en",
-      "locales": [
-        "zh-hans"
->>>>>>> 113c47d (Replay zh-hans work onto main: dedicated catalog, style guide, translations)
       ],
       "source": "../lib/translations/en.json",
       "targets": [
         {
-<<<<<<< HEAD
           "locale": "sv",
           "path": "../lib/translations/sv.json"
-=======
-          "locale": "zh-hans",
-          "path": "../lib/translations/zh-hans.json"
->>>>>>> 113c47d (Replay zh-hans work onto main: dedicated catalog, style guide, translations)
         }
       ],
       "protectedTerms": [
         "AussieCamps",
         "AussieCamping",
-<<<<<<< HEAD
         "AUD",
         "Tourism Australia",
         "Reserve Bank of Australia",
@@ -294,9 +280,6 @@
         "Central Australia",
         "BookEasy",
         "App Store"
-=======
-        "AUD"
->>>>>>> 113c47d (Replay zh-hans work onto main: dedicated catalog, style guide, translations)
       ],
       "untranslatedKeys": [
         "ui.review*",
@@ -304,7 +287,6 @@
         "ui.reviewsTitle"
       ],
       "glossary": {
-<<<<<<< HEAD
         "Australia": {
           "sv": "Australien"
         }
@@ -424,7 +406,33 @@
       },
       "styleGuide": {
         "nb": "Follow docs/translation-style/nb.md: natural Norwegian Bokmål travel-writer voice, informal du, bobil and campingplass vocabulary, Norwegian number and currency format, no offline-map claims."
-=======
+      }
+    },
+    {
+      "id": "aussiecamps-website-zh-Hans",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "zh-hans"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "zh-hans",
+          "path": "../lib/translations/zh-hans.json"
+        }
+      ],
+      "protectedTerms": [
+        "AussieCamps",
+        "AussieCamping",
+        "AUD"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {
         "dump point": {
           "zh-hans": "排污站"
         },
@@ -449,7 +457,6 @@
       },
       "varieties": {
         "zh-hans": "zh-Hans"
->>>>>>> 113c47d (Replay zh-hans work onto main: dedicated catalog, style guide, translations)
       }
     }
   ]
