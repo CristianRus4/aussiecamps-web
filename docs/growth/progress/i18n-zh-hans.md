@@ -33,9 +33,11 @@ with /tmp/zhhans/tools/todo.py (writes PREFIX.todo.json / .auto.json), /tmp/zhha
 y3 (sleeping-in-car, dump-points, caravan-park-vs-holiday-park, camping-fees-2026, best-camping-app-australia) done.
 y4 (the 5 cost pages) and the support page / small units are done; AU content:check passes except the structure-stale
 guides still queued in y5.
-Still to do AU: y5 (road rules state differences, road signs,
-towing, visitor road rules, darwin-kakadu, adelaide-uluru, alps), yu (AU unit packet /tmp/zhhans/work-au-14/yu.json:
-support page, 9 units), then NEW guides AU 7 and NZ 7. NZ best-nz-camping-apps and wastewater tips were pruned with prune.py.
+AU y5 (7 guides, 41 units) done: every existing AU guide is now current (content:check passes).
+Still to do: NEW guides (AU 7: wikicamps-alternatives, campermate-alternatives, best-fuel-price-apps-australia,
+best-road-trip-planner-apps-australia, best-free-camping-apps-australia, best-caravan-rv-apps-australia,
+best-apps-working-holiday-australia; NZ 7: rankers-alternatives, campermate-alternatives, road-trip-planner-apps-new-zealand,
+free-camping-apps-new-zealand, best-travel-apps-new-zealand, wikicamps-alternatives, best-campervan-apps-new-zealand).
 Remaining at the end: NEW guides (AU 7, NZ 7), then `translations:stamp -- --locale zh-hans`, `content:check`
 (zero stale, zero number-parity errors) and one `npm run check` per repo (needs `qrcode` in node_modules:
 `cp -cRn <main>/node_modules/ ./node_modules/`). NZ check currently fails until best-nz-camping-apps is updated.
