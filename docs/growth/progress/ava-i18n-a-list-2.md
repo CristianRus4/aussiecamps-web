@@ -16,10 +16,11 @@ best-road-trip-planner-apps-australia, best-free-camping-apps-australia (652 uni
 
 ## Order and status
 - [x] fr: committed 0c477e6 (652 units, Opus review + negation table done, stamped, content:check and npm run check pass)
-- [ ] es: Sonnet drafting in 3 chunks (/tmp/ava-al2/vals-es-{A,B,C}.json), then Opus review
-- [ ] it
+- [x] es: committed (652 units, Opus review + negation table done, lane keys stamped in new meta/es.json via /tmp/ava-al2/stamp-keys.mjs, content:check passes)
+- [ ] it: Sonnet drafting in 3 chunks (/tmp/ava-al2/vals-it-{A,B,C}.json), then Opus review
 - [ ] pt
 
 ## Blockers / notes
 - es and it have no stamp file yet (meta/es.json, meta/it.json absent); after applying, stamp only this lane's keys so the other es/it guides are not silently accepted.
 - English source notes for the orchestrator: campermate-alternatives sections[0].body[0] says "downloaded offline maps" (competitor feature; translations say downloaded maps); free-camping sections[1].body[0] "those places are different things" is vague; the "Pass A$2.99 to A$9.99" figure is the in-app purchase range.
+- es English-source notes: free-camping BookEasy free list omits B&Bs while the other pages include them; water count reads "drinking water points" on wikicamps and "water points" on campermate; "free to browse and book" for BookEasy stays is ambiguous.
