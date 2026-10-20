@@ -1,35 +1,30 @@
 # i18n-pl progress (Polish, both sites)
 
-Thread: i18n-pl (Max account). Branches: `i18n/a-pl` (aussiecamps-web), `i18n/k-pl` (kiwicamping-web).
+Thread: i18n-pl (main account). Branches: `i18n/a-pl` (aussiecamps-web), `i18n/k-pl` (kiwicamping-web).
 Worktrees: `~/.t3/worktrees/aussiecamps-web/i18n-a-pl`, `~/.t3/worktrees/kiwicamping-web/i18n-k-pl`.
 Style guide: `docs/translation-style/pl.md` (identical in both repos). Register: ty (informal), as in the app.
-Working files (packets, values, sources): `/tmp/pl-i18n`.
+Working files (packets, batches, values, scripts): `/tmp/pl-i18n` (src/queue.py <a|k> lists remaining guides by
+GSC impressions; src/make_batch.py; src/check.py; agent-brief.md for drafting subagents).
 
-## Done
-- Style guide and glossary (research: ASO pl keywords, app xcstrings, Polish AU/NZ travel blogs; GSC had no
-  Polish queries yet).
-- `pl` added to `docs/translation.config.json` (locales, targets, register informal, AU glossary "Australia").
-- `lib/translations/pl.json` created in both repos.
-- Milestone 1: UI (226 strings per site; testimonials review*, reviewsEyebrow, reviewsTitle deliberately left
-  out), `consent` namespace, support, privacy (7 sections incl. Website analytics) and terms on both sites.
+## Status (2026-10-20)
+- Rebased onto origin/main (M2) in both repos; `locales:sync` and `translations:source` run; Polish-only catalog
+  (`<site>-website-pl`) kept in `docs/translation.config.json` so state/island names are Polish exonyms.
+- GO-LIVE SET COMPLETE on both sites: UI 220/220 (testimonials exempt, pl has `reviews: false`), consent bar,
+  home, support, privacy (7 sections incl. Website analytics), terms. `LOCALES_PREVIEW=1 npm run content:check` passes.
+- Not yet translated: `tools` namespace (AU 116 strings, NZ 152) and road trips beyond those queued below.
 
-## In progress
-- Guides by search value (pages-3m.tsv), interleaving both sites.
+## Guides done
+- AU: alcohol-coffee-drink-prices-australia, public-transport-costs-australia-2026, eating-out-australia-prices-2026.
+- NZ: new-zealand-grocery-prices-2026, doc-huts-new-zealand-guide, public-transport-costs-new-zealand-2026.
 
 ## Next
-- After the foundation milestones reach main: rebase, road trips, KiwiCamping legacy articles, `article` and
-  `tools` namespaces, `<a data-guide>` markup, `translations:stamp`.
+- Batch 1 (in progress): AU domestic-flight-costs, grocery-prices, best-time-camping, interstate-biosecurity,
+  camping-water-planning; NZ doc-campsite-rules, campervan-road-rules, speed-limits, towing-caravan, biosecurity-gear.
+- Then continue per `python3 /tmp/pl-i18n/src/queue.py a|k` order. AU rule/cost pages listed as excluded in the
+  run brief (23 pages, paired English rewrite) are skipped until released.
+- Opus native review per batch, then `tools` namespace and legacy articles.
 
 ## Blockers and open questions for the orchestrator
-- Polish is not wired into the site code yet (`lib/localized.ts` localeCodes, routes). Foundation/orchestrator
-  needs to register `pl` (draft) so content:check and the build see it.
-- Testimonial keys are left empty, so `isTranslated` (every UI key filled) will keep pl unpublished until the
-  gate skips review* keys for new locales.
-- Plurals: the site prints "{n} {guidePlural}" and "{n} {places}" with only a singular/plural switch. Polish
-  needs three forms (1 poradnik, 2–4 poradniki, 5+ poradników). Chosen: guidePlural "poradników" (fits 9 of
-  the 10 category counts; AU "Rules & safety" = 22 should be "poradniki"), places AU "miejsca" (most AU guides
-  list 3–4 places), NZ "miejsc" (most list 5+). Proper fix: Intl.PluralRules with few/many strings.
-- Protected terms force English state/island names where Polish uses exonyms (Nowa Południowa Walia, Wiktoria,
-  Australia Zachodnia, na Tasmanii; Wyspa Północna/Południowa). Applied text uses "w stanie Victoria",
-  "w Nowej Południowej Walii (New South Wales)", "na Wyspie Południowej (South Island)" patterns. Proposal in
-  the style guide §6: per-locale glossary renderings instead of protectedTerms.
+- Plurals: the site prints "{n} {guidePlural}" and "{n} {places}" with a singular/plural switch only. Polish needs
+  three forms. Chosen: guidePlural "poradników", places AU "miejsca", NZ "miejsc". Proper fix: Intl.PluralRules.
+- Flip pl from draft to live in `lib/locales.json` (orchestrator) once the judged batches pass.

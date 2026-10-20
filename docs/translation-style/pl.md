@@ -242,23 +242,15 @@ mistranslation (listed with the replacement; reported for the app).
   Canberze, w Adelajdzie, w Auckland, w Christchurch, w Queenstown. Where a name does not decline
   naturally, put a generic noun before it: "na trasie Great Ocean Road", "w okolicach Byron Bay",
   "w regionie Kimberley".
-- **States, territories and NZ islands (engine constraint, see section 6).** Polish writers use
-  exonyms (Nowa Południowa Walia, Wiktoria, Australia Zachodnia, Australia Południowa, Terytorium
-  Północne, Terytorium Stołeczne Australii, Wyspa Północna, Wyspa Południowa, Wyspa Stewart) and
-  decline Tasmania ("na Tasmanii"). The engine currently requires the English names verbatim, as
-  often as the English uses them, in every unit. Until that changes, write them so they read
-  naturally:
-  - apposition in the nominative after a generic noun: "w stanie Victoria", "w stanie New South
-    Wales", "w stanie Western Australia", "w stanie South Australia", "na wyspie Tasmania", "w stanie
-    Tasmania";
-  - Polish exonym with the English name in brackets, once per unit, where the exonym matters for the
-    reader or the title: "w Nowej Południowej Walii (New South Wales)", "na Terytorium Północnym
-    (Northern Territory)", "na Wyspie Południowej (South Island)", "na Wyspie Północnej (North
-    Island)", "na Wyspie Stewart (Stewart Island)";
-  - **Queensland** is used in Polish as is; "w Queensland" and "w Queenslandzie" are both correct;
-  - the name as the grammatical subject: "Tasmania ma najsurowsze…" only if the English says so;
-  - abbreviations (NSW, VIC, QLD, WA, SA, NT, ACT, TAS) only where the English uses them.
-  Never decline a protected name into a form that drops its letters ("Tasmanii", "Victorii").
+- **States, territories and NZ islands.** The Polish-only catalog (`<site>-website-pl` in
+  `docs/translation.config.json`) renders them with Polish names, so write and decline them the way a
+  Polish travel writer does: Nowa Południowa Walia, Wiktoria, Australia Południowa, Australia
+  Zachodnia, Terytorium Północne, Australijskie Terytorium Stołeczne, Czerwone Centrum (Central
+  Australia), Tasmania (na Tasmanii), Wyspa Północna, Wyspa Południowa, Wyspa Stewart. No English name
+  in brackets, no "w stanie Victoria" pattern. **Queensland** stays as is ("w Queensland" or "w
+  Queenslandzie"). If the engine rejects an inflected form because the glossary term has to appear,
+  use the nominative with a generic noun ("w stanie Wiktoria", "na wyspie Tasmania").
+  Abbreviations (NSW, VIC, QLD, WA, SA, NT, ACT, TAS) only where the English uses them.
 - **Gender of borrowed nouns:** ten kemping, ten caravan park, ten holiday park, ten kamper, ten van,
   ten karnet, ta aplikacja, to schronisko, ten Great Walk, ten szlak, ten freedom camping, ten punkt
   zrzutu, ta stacja zrzutu, ten roadhouse, ten road train, ten WOF, ten DOC (avoid declining it).
@@ -325,20 +317,11 @@ Zelandia", "znaki drogowe Nowa Zelandia", "jazda po lewej stronie", "ceny w Nowe
 | Każde miejsce otwiera się ze szczegółem, który decyduje | Karta miejsca od razu pokazuje to, co przesądza o wyborze |
 | Bez względu na to, jak niesiesz dom (However you carry home) | Namiot, van czy przyczepa |
 
-## 6. Engine limitation (pending orchestrator decision)
+## 6. Engine setup
 
-Polish travel writing uses **Nowa Południowa Walia**, **Wiktoria**, **Australia Zachodnia**,
-**Australia Południowa**, **Terytorium Północne**, **Terytorium Stołeczne Australii**, **Australia
-Środkowa** and declines **Tasmania** ("na Tasmanii"); for New Zealand it uses **Wyspa Północna**,
-**Wyspa Południowa** and **Wyspa Stewart** (juliaandsam.com headers "Nowa Południowa Walia
-(Sydney)", "Wiktoria (Melbourne)", "Terytorium Północne (Darwin, Uluru)"; patrycjagalinska.pl
-"Wyspa Południowa"). The engine protects the English names and Polish inflection only allows endings
-after the full term, so "na Tasmanii" and "w Victorii" are rejected. Applied values follow the
-patterns in section 3 so they still read naturally. Proposed fix: move these names from
-`protectedTerms` to per-locale `glossary` renderings (pl: Nowa Południowa Walia, Wiktoria,
-Queensland, Australia Południowa, Australia Zachodnia, Tasmania, Terytorium Północne, Terytorium
-Stołeczne Australii, Australia Środkowa; Wyspa Północna, Wyspa Południowa, Wyspa Stewart). Once that
-lands, the bracketed English names can be dropped in a review pass.
+Polish has its own catalog in each repo, so the state and island names are glossary renderings
+(section 3) and not protected English terms. Everything else in `protectedTerms` (brands, agencies,
+Aboriginal and Māori names, AUD/NZD) stays verbatim.
 
 ## 7. Before and after (from the app's current Polish strings)
 
