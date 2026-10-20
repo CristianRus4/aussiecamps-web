@@ -6,7 +6,7 @@ import { APP_STORE_URL, APPLE_PROVIDER_TOKEN, GA_MEASUREMENT_ID } from "../lib/s
 import { CAMPAIGN_TOKEN_MAX, campaignTokenPattern, ctaPlacements, smartBannerContent } from "../lib/app-store.ts";
 import { analyticsBootstrap, consentRegions, CONSENT_STORAGE_KEY } from "../lib/analytics.ts";
 import { isArticleComplete, isArticleTranslated, isTranslated } from "../lib/localized.ts";
-import { articles, categories, isScheduled } from "../lib/site.ts";
+import { allArticles, articles, categories, isScheduled } from "../lib/site.ts";
 import { liveLocales, localeCodes, localeEntry } from "../lib/locales.ts";
 
 /** Live locales, from lib/locales.json: the only list of languages anywhere in the code. */
@@ -58,7 +58,7 @@ test("renders an article with unique travel content and app CTA", async () => {
 test("every guide renders as a long-form article", async () => {
   const sources = await Promise.all(["../lib/site.ts", "../lib/expanded-articles.ts"].map((path) => readFile(new URL(path, import.meta.url), "utf8")));
   const slugs = sources.flatMap((source) => [...source.matchAll(/slug:\s*"([^"]+)"/g)].map((match) => match[1]));
-  assert.equal(slugs.length, 70);
+  assert.equal(slugs.length, 75);
   for (const slug of slugs) {
     const response = await fetchPage(`/guides/${slug}`);
     // A guide whose publishAt is still ahead is not served at all (lib/publish.ts).
@@ -131,13 +131,14 @@ test("publishes every guide in every locale", async () => {
 
 test("every guide, road trips included, is in the translation source", async () => {
   const source = JSON.parse(await readFile(new URL("../lib/translations/en.json", import.meta.url), "utf8"));
-  assert.deepEqual(Object.keys(source.articles).sort(), articles.map((article) => article.slug).sort());
+  // Scheduled guides are translated ahead of their publish day, so the source holds every written guide.
+  assert.deepEqual(Object.keys(source.articles).sort(), allArticles.map((article) => article.slug).sort());
   assert.ok(source.articles["perth-to-broome-road-trip"], "road trips are translatable");
 });
 
 test("draft locales are neither routed nor advertised", async () => {
   const drafts = localeCodes.filter((code) => localeEntry(code).status === "draft");
-  assert.ok(drafts.length >= 9, "ja, ko, zh-hans, zh-hant, da, sv, nb, cs and pl start as drafts");
+  assert.ok(drafts.length >= 8, "ja, ko, zh-hans, zh-hant, da, nb, cs and pl are still drafts");
   for (const code of drafts) {
     assert.notEqual((await fetchPage(`/${localeEntry(code).segment}`)).status, 200, `${code} is a draft and must not be served`);
     await assert.rejects(readdir(new URL(`../pages-dist/${localeEntry(code).segment}/`, import.meta.url)), `${code} must not be exported`);
