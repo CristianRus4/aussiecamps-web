@@ -8,16 +8,12 @@
       "sourceLocale": "en",
       "locales": [
         "de",
-        "es",
         "it",
         "nl",
         "pt",
         "ja",
         "ko",
         "zh-hans",
-        "da",
-        "sv",
-        "nb",
         "cs",
         "pl"
       ],
@@ -26,10 +22,6 @@
         {
           "locale": "de",
           "path": "../lib/translations/de.json"
-        },
-        {
-          "locale": "es",
-          "path": "../lib/translations/es.json"
         },
         {
           "locale": "it",
@@ -56,18 +48,6 @@
           "path": "../lib/translations/zh-hans.json"
         },
         {
-          "locale": "da",
-          "path": "../lib/translations/da.json"
-        },
-        {
-          "locale": "sv",
-          "path": "../lib/translations/sv.json"
-        },
-        {
-          "locale": "nb",
-          "path": "../lib/translations/nb.json"
-        },
-        {
           "locale": "cs",
           "path": "../lib/translations/cs.json"
         },
@@ -88,10 +68,8 @@
         "Queensland",
         "South Australia",
         "Western Australia",
-        "Tasmania",
         "Northern Territory",
         "Australian Capital Territory",
-        "Central Australia",
         "Uluṟu",
         "K'gari",
         "Ikara",
@@ -107,6 +85,12 @@
           "it": "Australia",
           "nl": "Australië",
           "pt": "Austrália"
+        },
+        "Tasmania": {
+          "de": "Tasmanien"
+        },
+        "Central Australia": {
+          "de": "Zentralaustralien"
         }
       },
       "varieties": {
@@ -120,6 +104,75 @@
         "it": "informal",
         "nl": "informal",
         "pt": "informal"
+      }
+    },
+    {
+      "id": "aussiecamps-website-es",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "es"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "es",
+          "path": "../lib/translations/es.json"
+        }
+      ],
+      "protectedTerms": [
+        "AussieCamps",
+        "AussieCamping",
+        "AUD",
+        "Tourism Australia",
+        "Reserve Bank of Australia",
+        "Virgin Australia",
+        "Uluṟu",
+        "K'gari",
+        "Ikara",
+        "Tjoritja",
+        "Kakadu",
+        "Namadgi"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {
+        "Australia": {
+          "es": "Australia"
+        },
+        "New South Wales": {
+          "es": "Nueva Gales del Sur"
+        },
+        "Victoria": {
+          "es": "Victoria"
+        },
+        "Queensland": {
+          "es": "Queensland"
+        },
+        "South Australia": {
+          "es": "Australia Meridional"
+        },
+        "Western Australia": {
+          "es": "Australia Occidental"
+        },
+        "Tasmania": {
+          "es": "Tasmania"
+        },
+        "Northern Territory": {
+          "es": "Territorio del Norte"
+        },
+        "Australian Capital Territory": {
+          "es": "Territorio de la Capital Australiana"
+        }
+      },
+      "register": {
+        "es": "informal"
+      },
+      "styleGuide": {
+        "es": "Follow docs/translation-style/es.md: natural tú travel-writer Spanish for Spain and Latin America, « » quotes, Spanish state names with the English official name in parentheses where signs need it, no calques, no offline-map claims."
       }
     },
     {
@@ -193,6 +246,166 @@
       },
       "styleGuide": {
         "fr": "Follow docs/translation-style/fr.md: native French travel-writer voice for France, Belgium, Switzerland and Canada, formal vous, French typography (non-breaking spaces before : ; ? !, « » quotes), French state names, no calques, no offline-map claims."
+      }
+    },
+    {
+      "id": "aussiecamps-website-sv",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "sv"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "sv",
+          "path": "../lib/translations/sv.json"
+        }
+      ],
+      "protectedTerms": [
+        "AussieCamps",
+        "AussieCamping",
+        "AUD",
+        "Tourism Australia",
+        "Reserve Bank of Australia",
+        "Virgin Australia",
+        "New South Wales",
+        "Victoria",
+        "Queensland",
+        "South Australia",
+        "Western Australia",
+        "Tasmania",
+        "Northern Territory",
+        "Australian Capital Territory",
+        "Central Australia",
+        "BookEasy",
+        "App Store"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {
+        "Australia": {
+          "sv": "Australien"
+        }
+      },
+      "register": {
+        "sv": "informal"
+      },
+      "styleGuide": {
+        "sv": "Follow docs/translation-style/sv.md: a Swedish travel writer's voice, informal du, husbil/campingplats/tömningsstation vocabulary, Swedish number format (74 000, 2,08) and amounts as 35 AUD / 35 NZD, no offline-map claims."
+      }
+    },
+    {
+      "id": "aussiecamps-website-da",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "da"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "da",
+          "path": "../lib/translations/da.json"
+        }
+      ],
+      "protectedTerms": [
+        "AussieCamps",
+        "AussieCamping",
+        "AUD",
+        "Tourism Australia",
+        "Reserve Bank of Australia",
+        "Virgin Australia",
+        "New South Wales",
+        "Victoria",
+        "Queensland",
+        "South Australia",
+        "Western Australia",
+        "Northern Territory",
+        "Australian Capital Territory",
+        "Uluṟu",
+        "K'gari",
+        "Ikara",
+        "Tjoritja",
+        "Kakadu",
+        "Namadgi"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {
+        "Australia": {
+          "da": "Australien"
+        },
+        "Tasmania": {
+          "da": "Tasmanien"
+        },
+        "Central Australia": {
+          "da": "Centralaustralien"
+        }
+      },
+      "register": {
+        "da": "informal"
+      },
+      "styleGuide": {
+        "da": "Follow docs/translation-style/da.md: native Danish travel-writer voice for Denmark, informal du, Danish number format (74.000, 2,08) and punctuation, autocamper/campingplads/tømmestation vocabulary, no calques, no offline-map claims."
+      }
+    },
+    {
+      "id": "aussiecamps-website-nb",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "nb"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "nb",
+          "path": "../lib/translations/nb.json"
+        }
+      ],
+      "protectedTerms": [
+        "AussieCamps",
+        "AussieCamping",
+        "AUD",
+        "Tourism Australia",
+        "Reserve Bank of Australia",
+        "Virgin Australia",
+        "New South Wales",
+        "Victoria",
+        "Queensland",
+        "South Australia",
+        "Western Australia",
+        "Tasmania",
+        "Northern Territory",
+        "Australian Capital Territory",
+        "Central Australia",
+        "Uluṟu",
+        "K'gari",
+        "Ikara",
+        "Tjoritja",
+        "Kakadu",
+        "Namadgi",
+        "BookEasy",
+        "App Store"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {},
+      "register": {
+        "nb": "informal"
+      },
+      "styleGuide": {
+        "nb": "Follow docs/translation-style/nb.md: natural Norwegian Bokmål travel-writer voice, informal du, bobil and campingplass vocabulary, Norwegian number and currency format, no offline-map claims."
       }
     },
     {

@@ -23,7 +23,8 @@ import { exportRoutes } from "../lib/routes.ts";
 import { englishLocale, htmlLang, locales } from "../lib/locales.ts";
 
 const root = resolve(import.meta.dirname, "..");
-const dist = resolve(root, "pages-dist");
+// PAGES_DIST audits an export written elsewhere (see scripts/export-github-pages.mjs).
+const dist = resolve(root, process.env.PAGES_DIST ?? "pages-dist");
 if (!existsSync(dist)) {
   console.error("pages-dist is missing: run `npm run build:pages` first.");
   process.exit(1);

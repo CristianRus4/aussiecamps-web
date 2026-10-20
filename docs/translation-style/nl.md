@@ -17,7 +17,7 @@ The reader is Dutch or Flemish, plans a camper trip, road trip or working holida
 
 ## 2. Glossary
 
-Sources: S = Search Console queries in Dutch (KiwiCamping, 3 months to 19 Oct 2026), A = App Store nl-NL keywords (2026-10-14 live check), U = app UI label (Localizable.xcstrings, nl), W = Dutch web usage (ANWB kampeerinformatie Australië/Nieuw-Zeeland, NKC "Australië met de camper", NKC "Hoe werkt een sanistation", Nieuw-Zeeland.nl "Praktische informatie camper huren", Australie.nl "3 tips voor wildkamperen in Tasmanië").
+Sources: S = Search Console queries in Dutch (KiwiCamping and AussieCamps, 3 months to 19 Oct 2026; AussieCamps Dutch queries: "melbourne naar adelaide camper", "camperverhuur tarieven australië", "wat kost (een) camper huren (in) australië"), A = App Store nl-NL keywords (2026-10-14 live check), U = app UI label (Localizable.xcstrings, nl), W = Dutch web usage (ANWB kampeerinformatie Australië/Nieuw-Zeeland, NKC "Australië met de camper", NKC "Hoe werkt een sanistation", Nieuw-Zeeland.nl "Praktische informatie camper huren", Australie.nl "3 tips voor wildkamperen in Tasmanië").
 
 | English | Dutch | Notes / source |
 |---|---|---|

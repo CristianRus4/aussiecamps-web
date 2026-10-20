@@ -19,7 +19,7 @@ import { defaultOutputs, toolScript } from "@/lib/tools/calc";
 import { toolCopy } from "@/lib/tools/strings";
 import { fillCounts, toolEyebrow, toolGuides, toolPageKey, toolPath, toolSources } from "@/lib/tools/pages";
 
-export const calculators: Record<ToolKey, (props: { ui?: UiStrings; output: string; children?: React.ReactNode }) => React.ReactNode> = {
+export const calculators: Record<ToolKey, (props: { ui?: UiStrings; output: string; children?: React.ReactNode; locale?: LocaleCode | "en" }) => React.ReactNode> = {
   "fuel-cost-calculator": FuelCalculator,
   "drive-time-calculator": DriveTimeCalculator,
   "campsite-cost-calculator": CampsiteCostCalculator,
@@ -72,7 +72,7 @@ export function ToolPage({ tool, locale }: { tool: ToolKey; locale: "en" | Local
           <h1>{copy.title}</h1>
           <p>{copy.intro}</p>
         </header>
-        <div className="tool-page-widget"><Widget ui={ui} output={defaultOutputs(numberLocale, ui)[tool]} /></div>
+        <div className="tool-page-widget"><Widget ui={ui} locale={native ? locale : "en"} output={defaultOutputs(numberLocale, ui)[tool]} /></div>
         <div className="article-layout">
           <div className="article-body">
             <section id="how-its-calculated">
