@@ -48,3 +48,16 @@ export function ScreenshotImage({ src, alt, sizes, priority = false, className =
 export function CoverImage({ src, alt, sizes, priority = false, className = "" }: ImageProps) {
   return <img className={`cover-image ${className}`.trim()} alt={alt} sizes={sizes} {...sourceAttributes(src, priority)} />;
 }
+
+/**
+ * A guide section's screenshot figure (lib/screen-figures.ts): the pre-rendered 16:9 image, no
+ * caption and no link. `sizes` follows the article column: 665px of text column on desktop, the
+ * viewport less the page, layout and section gutters below the 900px and 600px breakpoints.
+ */
+export function GuideFigure({ figure }: { figure: { src: string; alt: string } }) {
+  return (
+    <figure className="guide-figure">
+      <img alt={figure.alt} sizes="(max-width: 600px) calc(100vw - 94px), (max-width: 900px) calc(100vw - 149px), 665px" {...sourceAttributes(figure.src, false)} />
+    </figure>
+  );
+}
