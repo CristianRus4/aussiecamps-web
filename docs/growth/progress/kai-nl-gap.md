@@ -9,10 +9,11 @@ Working files in `/tmp/kai-nl-gap` (AGENT-BRIEF.md, REVIEW-BRIEF.md, mkbatch.py,
 - KiwiCamping nl 48/89 guides. 41 missing, in GSC-impression order: east-cape-road-trip, coromandel-rotorua-road-trip, northland-cape-reinga-camping-route, arthurs-pass-camping-route, taranaki-forgotten-world-highway, picton-kaikoura-christchurch-route, wanaka-haast-pass-route, nelson-abel-tasman-golden-bay, banks-peninsula-camping-weekend, bay-of-islands-camping-week, rakiura-stewart-island-camping-guide, new-zealand-three-week-campervan-route, christchurch-tekapo-aoraki-road-trip, then 0-impression: 8 more road trips, scheduled listicles and legacy guides (see packet).
 
 ## Done
-(nothing yet)
+- AU: best-caravan-rv-apps-australia, best-apps-working-holiday-australia (b4831a9); queensland-outback-way, south-west-wa-camping-loop, victoria-high-country-camping, kangaroo-island-camping-guide, blue-mountains-camping-weekend (1d03e06). AU nl 77/80.
 
 ## Next
-- AU batch 1 (5 listicles) and batch 2 (5 road trips): draft (sonnet high) -> native review (opus medium) -> apply -> stamp -> content:check -> commit.
+- AU: best-weather-apps-camping-australia, best-money-saving-travel-apps-australia, hipcamp-alternatives (drafted, in review).
+- NZ batches (in /tmp/kai-nl-gap/batches): k1 east-cape, coromandel-rotorua, northland, arthurs-pass, taranaki; k2 picton-kaikoura, wanaka-haast, nelson, banks-peninsula, bay-of-islands; k3 rakiura, three-week route, christchurch-tekapo, wikicamps-alternatives, best-campervan-apps; k4 weather, fuel-price, working-holiday, money-saving apps; then remaining road trips, legacy guides.
 
 ## Blockers / notes
 - none
