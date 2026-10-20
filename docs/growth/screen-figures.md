@@ -19,6 +19,9 @@ followed by that section's heading. Source screenshots are in `~/Marketing/Campi
 | best-free-camping-apps-australia | 1 (1. AussieCamps: official camping data, with the Pass) | aussiecamps_place-detail_lucky-bay_top.png | AussieCamps on iPhone: the Lucky Bay Campground page with its amenities and features |
 | best-caravan-rv-apps-australia | 1 (1. AussieCamps: official data for the stops a caravan needs) | aussiecamps_place-detail_cape-hillsborough-np_middle.png | AussieCamps on iPhone: the Cape Hillsborough National Park amenities, with Caravan Sites listed under Vehicles and RVs |
 | best-apps-working-holiday-australia | 1 (1. AussieCamps: where to stay between jobs) | aussiecamps_place-detail_rac-cable-beach-hp_top.png | AussieCamps on iPhone: the RAC Cable Beach Holiday Park page in Broome, with its Book now button |
+| best-weather-apps-camping-australia | 8 (AussieCamps: the forecast for each campsite) | aussiecamps_place-detail_blue-mountains-np_middle.png | AussieCamps on iPhone: the Blue Mountains National Park page with photos and a 7-day forecast from Apple Weather |
+| best-money-saving-travel-apps-australia | 1 (1. AussieCamps: cut what you pay for a bed) | aussiecamps_place-detail_coffin-bay-np_middle.png | AussieCamps on iPhone: the Coffin Bay National Park page with its features and reported prices per night and per vehicle |
+| hipcamp-alternatives | 2 (1. AussieCamps: public campgrounds and farm stays in one app) | aussiecamps_place-detail_cape-conran_top.png | AussieCamps on iPhone: the Cape Conran Coastal Park page in Victoria with its description and amenities |
 | best-camping-app-australia | 1 (1. AussieCamps: best for official data and trip planning on iPhone) | aussiecamps_place-detail_karijini-np_top.png | AussieCamps on iPhone: the Karijini National Park page with its amenities and features |
 
 `best-fuel-price-apps-australia` is the one exception to "the section whose heading names AussieCamps":
