@@ -16,13 +16,13 @@ one language at a time (de and da are the completeness reference). Branch `i18n/
 
 ## Done
 - Setup, brief, lint scripts.
-- es (0b635db), fr (4b67ce9), it (09005ca), nl (ea29616): 116 units each, drafted (sonnet high), native review (opus medium),
-  negation check, applied, stamped. `npm run check` passed twice (907 pages, 582 indexable); /<es|fr|it|nl>/tools/ (hub and five
-  calculators) are `index, follow` and listed in sitemaps/<code>.xml.
-- pt: drafted (`/tmp/tools-i18n/pt-values.json`), review running. nb: draft running.
+- es (0b635db), fr (4b67ce9), it (09005ca), nl (ea29616), pt (8de685e), nb (68babd6), sv (06f4d60): 116 units each, drafted
+  (sonnet high), native review (opus medium), negation check, applied, stamped (0 stale, 0 unstamped).
+  `npm run check` passed three times; /<code>/tools/ (hub and five calculators) are `index, follow` and in sitemaps/<code>.xml
+  for all seven locales.
 
 ## Next
-- pt, nb (apply, stamp, commit), handoff after nb. Then sv and the final handoff.
+- Lane complete after the final handoff.
 
 ## Notes
 - The engine rejects a unit whose English holds a protected term (AUD) if the translation drops it: the currency-converter metaTitle must keep "AUD".
