@@ -26,6 +26,7 @@ KiwiCamping: 41 guides with no Italian (2322 units) plus 2 guides with a protect
 | B5 | kangaroo-island-camping-guide, blue-mountains-camping-weekend | done (1a3c3b1) |
 
 ## Done
+- KiwiCamping Handoff 3 (branch i18n/k-it-gap): K0, K2, K1 committed (ec63c9c tip), `npm run check` green. Italian 58/89 guides.
 - AussieCamps COMPLETE: Italian 80/80 guides (B3a/B3b/B3c/B5 added after Handoff 1), `npm run check` green (Handoff 2, branch i18n/a-it-gap).
 - B1, B2, B4 (15 road-trip guides) applied, stamped, `npm run check` green (Handoff 1). AussieCamps Italian: 73/80 guides.
 
@@ -37,11 +38,12 @@ KiwiCamping: 41 guides with no Italian (2322 units) plus 2 guides with a protect
 ## Batches KiwiCamping (GSC impressions, then listicles in publish order, then the rest)
 | Batch | Guides | State |
 |---|---|---|
-| K1 | best-nz-camping-apps, where-to-camp-in-new-zealand, east-cape-road-trip, coromandel-rotorua-road-trip, northland-cape-reinga-camping-route | drafting |
-| K2 | arthurs-pass-camping-route, taranaki-forgotten-world-highway, picton-kaikoura-christchurch-route, wanaka-haast-pass-route, nelson-abel-tasman-golden-bay | drafting |
-| K3 | banks-peninsula-camping-weekend, bay-of-islands-camping-week, rakiura-stewart-island-camping-guide, new-zealand-three-week-campervan-route, christchurch-tekapo-aoraki-road-trip | queued |
-| K4 | wikicamps-alternatives, best-campervan-apps-new-zealand | queued |
-| K5 | best-weather-apps-new-zealand, fuel-price-apps-new-zealand | queued |
+| K0 | protected-term fixes (doc-campsite-rules, travel-cost title) + 'datato' wording | done (73c6c8c, k-it-gap) |
+| K1 | best-nz-camping-apps, where-to-camp-in-new-zealand, east-cape-road-trip, coromandel-rotorua-road-trip, northland-cape-reinga-camping-route | done (ec63c9c, k-it-gap) |
+| K2 | arthurs-pass-camping-route, taranaki-forgotten-world-highway, picton-kaikoura-christchurch-route, wanaka-haast-pass-route, nelson-abel-tasman-golden-bay | done (f77280b, k-it-gap) |
+| K3 | banks-peninsula-camping-weekend, bay-of-islands-camping-week, rakiura-stewart-island-camping-guide, new-zealand-three-week-campervan-route, christchurch-tekapo-aoraki-road-trip | review |
+| K4 | wikicamps-alternatives, best-campervan-apps-new-zealand | drafting |
+| K5 | best-weather-apps-new-zealand, fuel-price-apps-new-zealand | drafting |
 | K6 | working-holiday-apps-new-zealand, money-saving-travel-apps-new-zealand | queued |
 | K7 | doc-campsites-new-zealand-guide, self-contained-campervan-green-warrant, camping-fees-new-zealand-2026, freedom-camping-rules-new-zealand, freedom-camping-new-zealand-guide | queued |
 | K8 | scenic-campsites-new-zealand, holiday-parks-new-zealand-guide, new-zealand-camping-packing-list, camping-wastewater-rubbish-new-zealand, responsible-camping-new-zealand | queued |
