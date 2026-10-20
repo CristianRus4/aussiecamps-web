@@ -41,7 +41,8 @@ Also done: AU new guides best-road-trip-planner-apps, best-caravan-rv-apps, camp
 AU after the third merge of main: 80/80 (three further new guides hipcamp-alternatives, best-weather-apps, best-money-saving-travel-apps translated, work-au-16/me). Earlier: 77/77 guides, engine 5923/5923, content:check passes, restamped (--all after review).
 NZ new guides done: rankers-alternatives, campermate-alternatives, road-trip-planner-apps-new-zealand (m1, work-nz-15/me).
 Engine script check also flagged table cells like 'iPhone（iOS 26+）' (no Chinese): write e.g. 'iPhone、iPad 和 Android'.
-Still to do: NEW guides (AU: none; NZ 2: best-campervan-apps-new-zealand, best-travel-apps-new-zealand (free-camping-apps and wikicamps-alternatives done in m2); NZ 7: rankers-alternatives, campermate-alternatives, road-trip-planner-apps-new-zealand,
+NZ after the third merge: the 4 further new guides (working-holiday, money-saving, fuel-price, weather apps NZ) done with Opus draft + native review (work-nz-17). Native reviews of the night-written listicles: AU l1 done (197 units fixed), l2, l3 and NZ l1/l2 queued (packets in /tmp/zhhans/work-rev).
+Still to do (older note, superseded): NEW guides (AU: none; NZ 2: best-campervan-apps-new-zealand, best-travel-apps-new-zealand (free-camping-apps and wikicamps-alternatives done in m2); NZ 7: rankers-alternatives, campermate-alternatives, road-trip-planner-apps-new-zealand,
 free-camping-apps-new-zealand, best-travel-apps-new-zealand, wikicamps-alternatives, best-campervan-apps-new-zealand).
 Remaining at the end: NEW guides (AU 7, NZ 7), then `translations:stamp -- --locale zh-hans`, `content:check`
 (zero stale, zero number-parity errors) and one `npm run check` per repo (needs `qrcode` in node_modules:
