@@ -32,10 +32,10 @@ Working files: `/tmp/kai-da-a` (AGENT-BRIEF.md, mkbatch.py, qa.py, batches/, out
 - B9a applied: camping-with-dogs, packing-list, first-campervan-trip (65/77).
 - B9 complete: + road-trip-fuel-planning, choosing-campsite (67/77).
 - B10a applied: tasmania-camping-loop, darwin-kakadu-litchfield-loop, sydney-south-coast-camping, queensland-outback-way (71/77).
+- B10b applied: south-west-wa, victoria-high-country, kangaroo-island, blue-mountains (75/77). ALL assigned guides done; the only guides left in English are the 2 listicles owned by another lane (best-apps-working-holiday-australia, best-caravan-rv-apps-australia).
 
 ## Next
-- Overnight rule (to 09:00): no subagents; I draft and review myself, one batch at a time.
-- Now drafting myself (no helpers): b10 road-trip loops (8) (batches in /tmp/kai-da-a/batches; rebuild from packet if /tmp gone).
+- Nothing. Lane complete; wait for orchestrator merge.
 
 ## Blockers / notes
 - none
