@@ -2875,5 +2875,201 @@
         ]
       }
     }
+  },
+  "tools": {
+    "common": {
+      "home": "Start",
+      "tools": "Verktyg",
+      "calculator": "Räknare",
+      "howItWorks": "Så räknar vi",
+      "workedExample": "Räkneexempel",
+      "assumptions": "Antaganden",
+      "commonQuestions": "Vanliga frågor",
+      "readNext": "Guider om kostnader och planering",
+      "sources": "Källor",
+      "ctaEyebrow": "I appen",
+      "passNote": "AussieCamps är gratis att ladda ner. Bokningsbara boenden och turer kan du bläddra bland gratis. Campingplatser, rastplatser, tömningsstationer, vatten, toaletter och reseplaneraren kräver Pass.",
+      "iphoneOnly": "AussieCamps är en app för iPhone.",
+      "openTool": "Formel, räkneexempel och vanliga frågor",
+      "allTools": "Alla verktyg för roadtrippen"
+    },
+    "tools": {
+      "fuel-cost-calculator": {
+        "metaTitle": "Räkna ut bränslekostnaden för en roadtrip i Australien",
+        "metaDescription": "Räkna ut bensin eller diesel för en roadtrip i Australien utifrån sträcka, l/100 km och literpris. Visar liter, total kostnad och kostnad per km, med formel och räkneexempel.",
+        "title": "Räkna ut bränslekostnaden för din roadtrip i Australien",
+        "intro": "Fyll i sträckan, fordonets förbrukning med last och literpriset. Då ser du hur många liter resan drar, vad bränslet kostar och kostnaden per kilometer, så att du kan budgetera hela rutten innan du tankar första gången.",
+        "formula": [
+          "Liter = sträcka (km) × förbrukning (l/100 km) ÷ 100",
+          "Bränslekostnad = liter × literpris (AUD/l)",
+          "Kostnad per km = bränslekostnad ÷ sträcka"
+        ],
+        "formulaNote": "Räknaren avrundar liter till en decimal och pengar till närmaste cent. Inget annat läggs till: vägtullar, olja och däckslitage är egna poster i en budget.",
+        "example": [
+          "En resa på 1 000 km i ett fordon som drar 12 l/100 km, med 2,08 AUD per liter. Det är genomsnittet för bensin i de fem största städerna enligt Fuel Plan-data för 5 augusti 2026.",
+          "1 000 × 12 ÷ 100 = 120 liter. 120 × 2,08 AUD = 249,60 AUD. 249,60 AUD ÷ 1 000 km = ca 0,25 AUD per kilometer.",
+          "Samma resa med ett dieselfordon, till samma dags dieselsnitt på 2,47 AUD per liter, kostar 120 × 2,47 AUD = 296,40 AUD."
+        ],
+        "assumptions": [
+          "Förbrukningen avser fordonet med last. En campervan, taklast eller en husvagn på kroken drar mer än broschyrens siffra, så mät din egen om du kan.",
+          "Stadssnitten är en utgångspunkt. Roadhouses långt ute tar oftast mer betalt, så räkna med ett högre pris på sträckor i outbacken.",
+          "Sträckan är hela rutten, inklusive avstickare till campingplatser, utsiktsplatser och orter vid sidan av huvudvägen."
+        ],
+        "faq": [
+          [
+            "Hur tar jag reda på fordonets verkliga förbrukning?",
+            "Tanka fullt, nollställ trippmätaren och kör som vanligt. Vid nästa tankning delar du de liter du fyllde på med antalet körda kilometer och multiplicerar med 100. Det är din förbrukning i l/100 km med last, och det är siffran räknaren behöver."
+          ],
+          [
+            "Hur räknar jag ut bränslekostnaden per km?",
+            "Dela l/100 km med 100 och multiplicera med literpriset. Vid 12 l/100 km och 2,08 AUD per liter blir det 0,12 × 2,08, alltså ca 0,25 AUD per kilometer."
+          ],
+          [
+            "Vilket bränslepris ska jag använda?",
+            "Ta det bränsle ditt fordon går på och det senaste priset du hittar för området. Enligt Fuel Plans genomsnitt för fem städer den 5 augusti 2026 kostade bensin 2,08 AUD per liter och diesel 2,47 AUD. Räkna med mer i avlägsna områden."
+          ]
+        ],
+        "ctaTitle": "Planera stoppen mellan tankningarna.",
+        "ctaText": "AussieCamps visar {restAreas} rastplatser och {dumpPoints} tömningsstationer (dump points) i Australien på kartan och gör sparade platser till en rutt med flera stopp och avstånd."
+      },
+      "drive-time-calculator": {
+        "metaTitle": "Körtidsräknare för Australien: så lång blir kördagen",
+        "metaDescription": "Uppskatta hur lång en kördag i Australien egentligen blir utifrån sträcka, vägtyp och stopp. Visar medelhastigheterna, formeln och ett räkneexempel.",
+        "title": "Körtidsräknare för roadtrip i Australien",
+        "intro": "Kartappar visar körtiden på en fri väg. Den här räknaren planerar kördagen som den faktiskt blir: en medelhastighet för vägtypen plus tiden du står still för tankning, mat och pauser.",
+        "formula": [
+          "Körminuter = sträcka (km) ÷ medelhastighet (km/h) × 60",
+          "Minuter totalt = körminuter + stopp × 20",
+          "Medelhastigheter: 85 km/h motorväg eller öppen, rak väg, 70 km/h huvudväg, 60 km/h slingrig väg eller kustväg, 45 km/h smal, brant eller grusig väg"
+        ],
+        "formulaNote": "Hastigheterna är medelvärden för planering som räknar in orter, vägarbeten, långsamma fordon och omkörningsfält. De är inte hastighetsgränser.",
+        "example": [
+          "En kördag på 250 km på en slingrig kustväg med tre stopp.",
+          "250 ÷ 60 × 60 = 250 minuters körning. Tre stopp ger 3 × 20 = 60 minuter extra.",
+          "Dagen tar 310 minuter, alltså 5 h 10 min. På en huvudväg med 70 km/h tar samma sträcka och samma stopp 4 h 34 min."
+        ],
+        "assumptions": [
+          "Varje stopp räknas som 20 minuter: en tankning, en måltid, en toalettpaus eller ett förarbyte.",
+          "Nattkörning är inte inplanerad. Djurlivet är som mest aktivt kring gryning och skymning, så sikta på att vara framme före mörkret.",
+          "Oasfalterade vägar varierar med väder och årstid. Kolla läget hos delstatens vägmyndighet innan du ger dig ut på grusväg."
+        ],
+        "faq": [
+          [
+            "Varför blir resultatet längre än i kartappen?",
+            "Navigationsappar räknar med körtid nära de skyltade hastigheterna. Den här räknaren lägger till vägens karaktär och tiden du står still, och det är oftast där en lång kördag drar ut på tiden."
+          ],
+          [
+            "Vilken vägtyp ska jag välja för en campervan?",
+            "Välj huvudväg för de flesta asfalterade riksvägar, slingrig väg eller kustväg för kuperade vägar och kustvägar, och smal, brant eller grusig väg för oasfalterade vägar och bergspass. En tung campervan eller en husvagn i en uppförsbacke går ännu långsammare."
+          ],
+          [
+            "Ingår tankning och måltider i resultatet?",
+            "Bara de stopp du anger. Lägg till ett för varje tankning, måltid eller paus du räknar med. Varje stopp lägger till 20 minuter på dagen."
+          ]
+        ],
+        "ctaTitle": "Ha koll på var dagen slutar innan du kör i väg.",
+        "ctaText": "AussieCamps visar {campgrounds} campingplatser och {restAreas} rastplatser på kartan och lägger upp en rutt med flera stopp och körsträckan mellan stoppen."
+      },
+      "campsite-cost-calculator": {
+        "metaTitle": "Räkna ut campingkostnaden: per person eller per plats?",
+        "metaDescription": "Jämför en campingavgift per vuxen med en avgift per plats för ditt sällskap och dina nätter. Visar brytpunkten, formeln och ett räkneexempel i AUD.",
+        "title": "Campingkostnad: per person eller per plats?",
+        "intro": "Vissa campingplatser tar betalt per vuxen och natt, andra sätter pris på hela platsen. Vilket som blir billigare beror på hur många vuxna ni är, så den här räknaren räknar ut priset för båda för samma vistelse.",
+        "formula": [
+          "Totalt per vuxen = vuxna × nätter × avgift per vuxen",
+          "Totalt per plats = nätter × avgift per plats",
+          "Sällskapsstorlek vid brytpunkten = avgift per plats ÷ avgift per vuxen"
+        ],
+        "formulaNote": "Är ni fler vuxna än brytpunkten är priset per plats billigare. Är ni färre är priset per vuxen billigare.",
+        "example": [
+          "Två vuxna stannar fem nätter, och vi jämför 20 AUD per vuxen och natt med 50 AUD per plats och natt.",
+          "Per vuxen: 2 × 5 × 20 AUD = 200 AUD. Per plats: 5 × 50 AUD = 250 AUD. Priset per vuxen blir 50 AUD billigare.",
+          "Brytpunkten är 50 AUD ÷ 20 AUD = 2,5 vuxna, så med tre vuxna blir priset per vuxen totalt 300 AUD, och då vinner priset per plats."
+        ],
+        "assumptions": [
+          "Barn och rabattberättigade betalar ofta en annan avgift. Ange bara vuxna, eller justera avgiften till ett snitt.",
+          "Bokningsavgifter och inträde till parken tillkommer separat. Lägg till dem på platspriset så att du jämför på samma villkor.",
+          "De siffror du anger är det enda som räknas in. Kolla aktuell avgift på den officiella bokningssidan."
+        ],
+        "faq": [
+          [
+            "När är en platsavgift billigare?",
+            "När antalet vuxna är större än platsavgiften delad med avgiften per vuxen. Vid 50 AUD per plats och 20 AUD per vuxen är det 2,5, så ett sällskap på tre eller fler betalar mindre per plats."
+          ],
+          [
+            "Tar campingplatser i nationalparker betalt per person?",
+            "Många campingplatser i delstatsparker tar betalt per vuxen och natt, medan holiday parks oftast prissätter en plats. Avgiftsgrunden bestäms av varje markförvaltare, så läs den på den officiella sidan innan du jämför."
+          ]
+        ],
+        "ctaTitle": "Jämför campingplatser på kartan.",
+        "ctaText": "AussieCamps visar {campgrounds} campingplatser på kartan, med avgifter och faciliteter där markförvaltaren anger dem, och länkar varje plats till sin officiella sida."
+      },
+      "currency-converter": {
+        "metaTitle": "Valutaomräknare AUD för resenärer (RBA-kurser)",
+        "metaDescription": "Räkna om australiska dollar till och från NZD, USD, GBP, EUR, CNY, INR, SGD, JPY och KRW med daterade referenskurser från Reserve Bank of Australia.",
+        "title": "Valutaomräknare för australiska dollar inför resan",
+        "intro": "Räkna om ett australiskt pris till den valuta du tänker i, eller tvärtom. Kurserna är referenskurser från Reserve Bank of Australia med angivet datum, så du vet exakt vad siffran bygger på.",
+        "formula": [
+          "Omräknat belopp = belopp ÷ kursen för valutan du räknar från × kursen för valutan du räknar till",
+          "Varje kurs är antalet enheter av valutan per 1 AUD"
+        ],
+        "formulaNote": "Omräkning via australiska dollar håller alla valutapar konsekventa: NZD till USD använder samma två kurser som AUD-omräkningarna.",
+        "example": [
+          "100 AUD med kursen 1,2033 NZD per australisk dollar.",
+          "100 ÷ 1 × 1,2033 = 120,33 NZD.",
+          "Åt andra hållet: 100 NZD ÷ 1,2033 × 1 = 83,10 AUD."
+        ],
+        "assumptions": [
+          "Referenskurserna är mellankurser för planering. Banker, kortbolag och växlingskontor lägger på egen marginal eller egna avgifter.",
+          "Kurserna ändras varje bankdag. Använd resultatet för att bedöma ett pris, inte som en offert."
+        ],
+        "faq": [
+          [
+            "Vilka växelkurser använder omräknaren?",
+            "Referenskurser från Reserve Bank of Australia, visade med det datum de gäller för och uttryckta som enheter av varje valuta per australisk dollar."
+          ],
+          [
+            "Varför tar min bank ut ett annat belopp?",
+            "Banker och kortbolag använder sin egen kurs och lägger ofta på en marginal eller en avgift för utlandsköp, så det debiterade beloppet skiljer sig från en omräkning med referenskurs."
+          ]
+        ],
+        "ctaTitle": "Se avgifterna i din egen valuta.",
+        "ctaText": "AussieCamps visar rapporterade avgifter bredvid beloppet i australiska dollar, i den valuta du väljer, med en växelkurs som du ställer in en gång."
+      },
+      "water-tank-calculator": {
+        "metaTitle": "Vattentankräknare för husbil: dagar off grid",
+        "metaDescription": "Räkna om färsk- och gråvattentankens storlek till dagar off grid för ditt sällskap. Visar liter per person, formeln och ett räkneexempel för en husbilsresa i Australien.",
+        "title": "Vattentankräknare för husbil: hur många dagar off grid?",
+        "intro": "Tankvolymer i liter blir användbara först när de räknas om till dagar. Fyll i kapaciteten för färsk- och gråvattentanken och antalet personer, så visar räknaren hur länge varje tank räcker och vilken som sätter gränsen.",
+        "formula": [
+          "Dagar med färskvatten = färskvattentank (l) ÷ (personer × 11 l)",
+          "Dagar med gråvatten = gråvattentank (l) ÷ (personer × 9 l)",
+          "Dagar off grid = det lägre av de två"
+        ],
+        "formulaNote": "11 liter färskvatten och 9 liter gråvatten per person och dag räcker till dryck, matlagning och disk vid sparsam användning. Duschar ombord drar betydligt mer.",
+        "example": [
+          "En husbil med 100 l färskvattentank och 90 l gråvattentank, med två personer ombord.",
+          "Färskvatten: 100 ÷ (2 × 11) = 4,5 dagar. Gråvatten: 90 ÷ (2 × 9) = 5,0 dagar.",
+          "Färskvattentanken tar slut först, efter ca fyra och en halv dag, så planera en påfyllning före dag fem."
+        ],
+        "assumptions": [
+          "Siffrorna per person är medelvärden. Varmt väder, matlagning med vatten och duschar ökar dem.",
+          "Toalettkassetter är en separat tank och ingår inte.",
+          "Töm gråvatten bara där det är tillåtet, till exempel på en tömningsstation (dump point) eller en godkänd plats."
+        ],
+        "faq": [
+          [
+            "Hur mycket vatten använder en person per dag i en husbil?",
+            "Räknaren utgår från ca 11 liter färskvatten per person och dag till dryck, matlagning och disk, och ca 9 liter gråvatten. En daglig dusch ombord drar betydligt mer, så planera för den separat."
+          ],
+          [
+            "Vad tar slut först, färskvatten eller gråvatten?",
+            "Den tank som ger det lägre antalet dagar. Med samma tankstorlekar kortar fler personer eller mer disk och tvätt båda. Räknaren visar de två sida vid sida så att du ser vilken som sätter gränsen."
+          ]
+        ],
+        "ctaTitle": "Hitta nästa vattenpåfyllning och tömningsstation.",
+        "ctaText": "AussieCamps visar {water} platser för vattenpåfyllning och {dumpPoints} tömningsstationer i Australien på kartan, med de faciliteter var och en anger."
+      }
+    }
   }
 }
