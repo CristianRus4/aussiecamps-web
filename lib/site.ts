@@ -36,7 +36,7 @@ export const SUPPORT_MAILTO = `mailto:${SUPPORT_EMAIL}?subject=AussieCamps%20web
 import { expandedArticles } from "@/lib/expanded-articles";
 import { articleFaqs } from "@/lib/article-faqs";
 import { assertPublishAt, isPublished, scheduleFixture } from "@/lib/publish";
-import { withScreenFigures } from "@/lib/screen-figures";
+import { applyScreenFigures } from "@/lib/screen-figures";
 
 export type ArticleCategory = "Road trips" | "Camping guides" | "Rules & safety" | "Trip planning" | "Costs & budget" | "App guides";
 /** A small data table inside a section. Plain-text cells; every row has exactly `head.length` cells,
@@ -371,7 +371,7 @@ const writtenArticles: Article[] = [
   // After the list, not in it: scripts/build-article-dates.mjs dates the last guide by the text up to "\n]".
   .concat(scheduleFixture<Article>() ?? []);
 // Screenshot figures go on after the list too, so the article literals stay untouched (lib/screen-figures.ts).
-export const allArticles: Article[] = withScreenFigures(writtenArticles);
+export const allArticles: Article[] = applyScreenFigures(writtenArticles);
 for (const item of allArticles) assertPublishAt(item.slug, item.publishAt);
 
 /** The guides this build publishes: every guide whose publishAt, if it has one, has come (lib/publish.ts). */

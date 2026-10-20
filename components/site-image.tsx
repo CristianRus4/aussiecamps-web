@@ -54,10 +54,10 @@ export function CoverImage({ src, alt, sizes, priority = false, className = "" }
  * caption and no link. `sizes` follows the article column: 665px of text column on desktop, the
  * viewport less the page, layout and section gutters below the 900px and 600px breakpoints.
  */
-export function GuideFigure({ figure }: { figure: { src: string; alt: string } }) {
+export function GuideFigure({ src, alt }: { src: string; alt: string }) {
   return (
     <figure className="guide-figure">
-      <img alt={figure.alt} sizes="(max-width: 600px) calc(100vw - 94px), (max-width: 900px) calc(100vw - 149px), 665px" {...sourceAttributes(figure.src, false)} />
+      <img alt={alt} sizes="(max-width: 600px) calc(100vw - 94px), (max-width: 900px) calc(100vw - 149px), 665px" {...sourceAttributes(src, false)} />
     </figure>
   );
 }

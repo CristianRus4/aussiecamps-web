@@ -7,7 +7,7 @@ import type { Article, ArticleSection } from "@/lib/site";
  * iPhone screenshot, made by scripts/make-screen-figure.sh) in public/images/screens/.
  *
  * Kept apart from the article literals so the English text and the translation source stay as they
- * are: `allArticles` in lib/site.ts runs `withScreenFigures`, which sets `figure` on the matching
+ * are: `allArticles` in lib/site.ts runs `applyScreenFigures`, which sets `figure` on the matching
  * section. `section` is the zero-based index into the guide's `sections`. Figures never enter
  * lib/translations/en.json; a translated page uses that locale's section heading as the alt
  * (lib/localized.ts). docs/growth/screen-figures.md lists them and how to add one.
@@ -30,7 +30,7 @@ const images = manifest as Record<string, unknown>;
  * unknown slug, a section index out of range, a figure with no image-manifest entry, or two figures
  * for one section.
  */
-export function withScreenFigures<T extends Pick<Article, "slug" | "sections">>(articles: T[], figures: ScreenFigure[] = screenFigures): T[] {
+export function applyScreenFigures<T extends Pick<Article, "slug" | "sections">>(articles: T[], figures: ScreenFigure[] = screenFigures): T[] {
   const bySlug = new Map<string, ScreenFigure[]>();
   for (const figure of figures) {
     const article = articles.find((item) => item.slug === figure.slug);
