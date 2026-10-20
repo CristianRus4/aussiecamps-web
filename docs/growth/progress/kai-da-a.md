@@ -22,10 +22,11 @@ Working files: `/tmp/kai-da-a` (AGENT-BRIEF.md, mkbatch.py, qa.py, batches/, out
 - B2 complete (5 guides): road-signs, caravan-park-vs-holiday-park, towing, camping-rules-northern-territory, melbourne-to-adelaide.
 - B3 complete (5 guides): perth-to-broome, east-coast, road-rules-state-differences, camping-fees, travel-cost. Handoff 1 covered B1+B2.
 - B4b + B5a applied: camping-without-phone-signal, campervan-driving-safety, water-planning, sunshine-coast, gibb-river-road (41/77 guides).
+- B4a applied (self-reviewed): fuel-cost, camping-rules-tasmania, is-free-camping-legal (44/77).
 
 ## Next
 - Overnight rule (to 09:00): no subagents; I draft and review myself, one batch at a time.
-- B4a draft exists (/tmp/kai-da-a/out/b04a.json) but its review did not finish (rate limit): review it myself, then apply. Then b05b (campfires, overseas-licence-state-guide: draft partly done), b06a...
+- b05b (campfires, overseas-licence-state-guide): draft exists in /tmp/kai-da-a/out/b05b.json (unreviewed): self-review, apply. Then b06a, b06b, b07..b10 (batches in /tmp/kai-da-a/batches; rebuild from packet if /tmp gone).
 
 ## Blockers / notes
 - none
