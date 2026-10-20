@@ -43,9 +43,12 @@ export type ArticleCategory = "Road trips" | "Camping guides" | "Rules & safety"
  * and the first cell of each row is its label. Translated like the prose around it. */
 export type ArticleTable = { caption: string; head: string[]; rows: string[][] };
 /** `cta` puts a store button under the section: comparison guides set it on the entry for AussieCamps.
- * `figure` is a screenshot of the app shown after the body; it is never written here but set from
- * lib/screen-figures.ts, and never translated (a translated page uses its own heading as the alt). */
-export type ArticleSection = { heading: string; body: string[]; tips?: string[]; table?: ArticleTable; cta?: boolean; figure?: { src: string; alt: string } };
+ * `figure` is a screenshot of the app shown after the body. Never set it in an article literal: it
+ * comes from lib/screen-figures.ts, and it is not translated text (a translated page uses its own
+ * section heading as the alt). */
+export type ArticleSection = { heading: string; body: string[]; tips?: string[]; table?: ArticleTable; cta?: boolean; figure?: ArticleFigure };
+/** A pre-rendered 1600x900 screenshot figure; `src` must have a lib/image-manifest.json entry. */
+export type ArticleFigure = { src: string; alt: string };
 export type ArticlePriceTable = {
   /** ISO date (YYYY-MM-DD) the prices were checked; rendered in the reader's language. */
   asOf: string;

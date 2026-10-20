@@ -546,6 +546,21 @@ function figureImage(html, sectionNumber) {
 }
 const imageAttribute = (tag, name) => tag.match(new RegExp(`\\s${name}="([^"]*)"`, "i"))?.[1];
 
+test("each screenshot figure sits in the section that names AussieCamps, one figure per guide", async () => {
+  const { screenFigures } = await import("../lib/screen-figures.ts");
+  // The documented exception (docs/growth/screen-figures.md): no heading of the fuel guide names the app,
+  // so its figure sits in "Fuel is the biggest cost you can plan", whose body names AussieCamps trips.
+  const namedInBody = new Set(["best-fuel-price-apps-australia"]);
+  for (const figure of screenFigures) {
+    const article = allArticles.find((item) => item.slug === figure.slug);
+    const part = article.sections[figure.section];
+    if (namedInBody.has(figure.slug)) assert.match(part.body.join(" "), /AussieCamps/, `${figure.slug}: section ${figure.section} must name AussieCamps`);
+    else assert.match(part.heading, /AussieCamps/, `${figure.slug}: section ${figure.section} must be the AussieCamps entry`);
+    assert.deepEqual(article.sections.flatMap((section, index) => (section.figure ? [index] : [])), [figure.section], `${figure.slug}: exactly one figure`);
+    assert.deepEqual(part.figure, { src: figure.src, alt: figure.alt });
+  }
+});
+
 test("an app guide shows its screenshot figure in English and in every language it is translated into", async () => {
   const { screenFigures } = await import("../lib/screen-figures.ts");
   const { localizedArticles } = await import("../lib/localized.ts");
@@ -553,6 +568,7 @@ test("an app guide shows its screenshot figure in English and in every language 
   const published = screenFigures.filter((figure) => articles.some((item) => item.slug === figure.slug));
   assert.ok(published.some((figure) => figure.slug === "best-camping-app-australia"), "the best camping app guide is published with its figure");
   let translatedPages = 0;
+  let fallbackPages = 0;
   for (const figure of published) {
     const english = pages.get(`/guides/${figure.slug}/`);
     const tag = figureImage(english, figure.section + 1);
@@ -566,27 +582,45 @@ test("an app guide shows its screenshot figure in English and in every language 
     assert.equal(imageAttribute(tag, "decoding"), "async");
     assert.ok(imageAttribute(tag, "sizes"), `${figure.slug}: sizes is set`);
     assert.equal(decode(imageAttribute(tag, "alt")), figure.alt);
-    for (const locale of locales.filter((code) => isArticleTranslated(code, figure.slug))) {
-      const heading = localizedArticles(locale).find((item) => item.slug === figure.slug).sections[figure.section].heading;
-      const localized = figureImage(pages.get(`/${locale}/guides/${figure.slug}/`), figure.section + 1);
+    for (const locale of locales) {
+      const page = pages.get(`/${locale}/guides/${figure.slug}/`);
+      assert.ok(page, `/${locale}/guides/${figure.slug}/ is exported`);
+      assert.equal(page.match(/class="guide-figure"/g)?.length, 1, `${locale}/${figure.slug}: exactly one figure`);
+      const localized = figureImage(page, figure.section + 1);
       assert.ok(localized, `${locale}/${figure.slug} keeps the figure`);
       assert.equal(imageAttribute(localized, "src"), figure.src);
-      assert.equal(decode(imageAttribute(localized, "alt")), heading, `${locale}/${figure.slug}: the alt is the translated heading`);
-      assert.notEqual(heading, figure.alt);
-      translatedPages += 1;
+      assert.ok(imageAttribute(localized, "srcset").includes(figure.src.replace(/\.webp$/, "-800.webp 800w")), `${locale}/${figure.slug}: srcset offers the 800px variant`);
+      if (isArticleTranslated(locale, figure.slug)) {
+        // A translated page carries no English alt: the figure is described by the translated heading.
+        const heading = localizedArticles(locale).find((item) => item.slug === figure.slug).sections[figure.section].heading;
+        assert.equal(decode(imageAttribute(localized, "alt")), heading, `${locale}/${figure.slug}: the alt is the translated heading`);
+        assert.notEqual(heading, figure.alt);
+        translatedPages += 1;
+      } else {
+        // An untranslated locale falls back to the English guide, as before, and keeps the English alt.
+        assert.equal(decode(imageAttribute(localized, "alt")), figure.alt, `${locale}/${figure.slug} is the English fallback and keeps the English alt`);
+        fallbackPages += 1;
+      }
     }
   }
   assert.ok(translatedPages > 0, "at least one translated guide carries a figure");
+  assert.ok(translatedPages + fallbackPages === published.length * locales.length, "every live locale page of a figure guide was checked");
 });
 
 test("screen figures fail the build when they point at nothing", async () => {
   const { applyScreenFigures } = await import("../lib/screen-figures.ts");
-  const guides = [{ slug: "a-guide", sections: [{ heading: "One", body: ["Text"] }] }];
+  const guides = [{ slug: "a-guide", sections: [{ heading: "One", body: ["Text"] }, { heading: "Two", body: ["Text"] }] }];
   const figure = { slug: "a-guide", section: 0, src: "/images/screens/best-camping-app-australia.webp", alt: "A screenshot" };
   assert.deepEqual(applyScreenFigures(guides, [figure])[0].sections[0].figure, { src: figure.src, alt: figure.alt });
-  assert.throws(() => applyScreenFigures(guides, [{ ...figure, slug: "no-such-guide" }]), /no guide with slug/);
-  assert.throws(() => applyScreenFigures(guides, [{ ...figure, section: 1 }]), /has no section 1/);
-  assert.throws(() => applyScreenFigures(guides, [{ ...figure, src: "/images/screens/missing.webp" }]), /no image-manifest entry/);
+  assert.equal(applyScreenFigures(guides, [figure])[0].sections[1].figure, undefined);
+  assert.throws(() => applyScreenFigures(guides, [figure, figure]), /^Error: screen-figures: section 0 of "a-guide" has two figures/);
+  assert.throws(() => applyScreenFigures(guides, [figure, { ...figure, section: 1 }]), /^Error: screen-figures: "a-guide" is listed twice/);
+  assert.throws(() => applyScreenFigures(guides, [{ ...figure, slug: "no-such-guide" }]), /^Error: screen-figures: unknown guide slug "no-such-guide"/);
+  assert.throws(() => applyScreenFigures(guides, [{ ...figure, section: 2 }]), /^Error: screen-figures: section 2 is out of range for "a-guide"/);
+  assert.throws(() => applyScreenFigures(guides, [{ ...figure, section: -1 }]), /^Error: screen-figures: section -1 is out of range/);
+  assert.throws(() => applyScreenFigures(guides, [{ ...figure, section: 0.5 }]), /^Error: screen-figures: section 0.5 is out of range/);
+  assert.throws(() => applyScreenFigures(guides, [{ ...figure, src: "/images/screens/missing.webp" }]), /^Error: screen-figures: no image-manifest entry/);
+  assert.throws(() => applyScreenFigures(guides, [{ ...figure, alt: " " }]), /^Error: screen-figures: "a-guide" needs alt text/);
   // The figure is data for the page, never copy: the translation source and the completeness rule ignore it.
   const { translationSource } = await import("../lib/translation-source.ts");
   assert.doesNotMatch(JSON.stringify(translationSource().articles), /images\/screens|"figure"/);
