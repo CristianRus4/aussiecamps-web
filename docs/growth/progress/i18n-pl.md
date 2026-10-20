@@ -6,23 +6,32 @@ Style guide: `docs/translation-style/pl.md` (identical in both repos). Register:
 Working files (packets, batches, values, scripts): `/tmp/pl-i18n` (src/queue.py <a|k> lists remaining guides by
 GSC impressions; src/make_batch.py; src/check.py; agent-brief.md for drafting subagents).
 
-## Status (2026-10-20)
-- Rebased onto origin/main (M2) in both repos; `locales:sync` and `translations:source` run; Polish-only catalog
-  (`<site>-website-pl`) kept in `docs/translation.config.json` so state/island names are Polish exonyms.
+## Status (2026-10-21)
+- Merged origin/main twice (latest 2026-10-21) in both repos; `locales:sync` and `translations:source` run; stale units found by
+  English diff (old en.json vs merged) and re-translated; `translations:stamp` run. Polish-only catalog
+  (`<site>-website-pl`) kept in `docs/translation.config.json` (Polish state/island names).
 - GO-LIVE SET COMPLETE on both sites: UI 220/220 (testimonials exempt, pl has `reviews: false`), consent bar,
-  home, support, privacy (7 sections incl. Website analytics), terms. `LOCALES_PREVIEW=1 npm run content:check` passes.
-- Not yet translated: `tools` namespace (AU 116 strings, NZ 152) and road trips beyond those queued below.
+  home, support, privacy (7 sections incl. Website analytics), terms. `LOCALES_PREVIEW=1 npm run content:check`:
+  zero stale, no number-parity errors for pl.
+- Not yet translated: `tools` namespace (AU 116 strings, NZ 152), most guides and road trips.
+- Every guide batch: Sonnet draft -> Opus native review (found fact slips in about 40% of units) -> merge ->
+  engine dry-run -> apply -> stamp -> content:check. Editor decisions: /tmp/pl-i18n/lessons.md and lessons2.md.
+- Open for orchestrator: AU English still says "Street View" in 7 UI strings (KiwiCamping now says Apple Look Around).
 
-## Guides done
-- AU: alcohol-coffee-drink-prices-australia, public-transport-costs-australia-2026, eating-out-australia-prices-2026.
-- NZ: new-zealand-grocery-prices-2026, doc-huts-new-zealand-guide, public-transport-costs-new-zealand-2026.
+## Guides done (Opus-reviewed)
+- AU (18 of 80): alcohol-coffee-drink-prices, public-transport-costs, eating-out, domestic-flight-costs,
+  australia-grocery-prices, best-time-camping, interstate-biosecurity-road-trip, camping-water-planning,
+  bus-train-costs, accommodation-costs, campervan-road-trip-budget, camping-without-phone-signal,
+  campervan-driving-safety-guide, how-to-use-filters, save-collections, place-details, widgets-guide, how-to-plan-trip.
+- NZ (18 of 89): new-zealand-grocery-prices, doc-huts-guide, public-transport-costs, doc-campsite-rules,
+  campervan-road-rules, speed-limits, towing-caravan, biosecurity-camping-gear, road-trip-fuel-cost, travel-cost,
+  eating-out, accommodation-costs, domestic-flight-costs, road-signs, wof-registration, volcanic-safety,
+  beer-wine-coffee-prices, overseas-driver-licence.
 
 ## Next
-- Batch 1 (in progress): AU domestic-flight-costs, grocery-prices, best-time-camping, interstate-biosecurity,
-  camping-water-planning; NZ doc-campsite-rules, campervan-road-rules, speed-limits, towing-caravan, biosecurity-gear.
-- Then continue per `python3 /tmp/pl-i18n/src/queue.py a|k` order. AU rule/cost pages listed as excluded in the
-  run brief (23 pages, paired English rewrite) are skipped until released.
-- Opus native review per batch, then `tools` namespace and legacy articles.
+- Batch 4 (drafting): AU great-ocean-road, east-coast-road-trip, perth-to-broome, brisbane-to-cape-tribulation,
+  melbourne-to-adelaide; NZ east-cape, northland-cape-reinga, arthurs-pass, dogs-camping, cook-strait-ferry.
+- Then `python3 /tmp/pl-i18n/src/queue.py a|k` order (AU 23 excluded pages are skipped), `tools` namespace, new guides from main.
 
 ## Blockers and open questions for the orchestrator
 - Plurals: the site prints "{n} {guidePlural}" and "{n} {places}" with a singular/plural switch only. Polish needs
