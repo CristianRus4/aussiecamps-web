@@ -210,6 +210,12 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Does Roadtrippers work in Australia?", "Its App Store listing says it is designed for road trips in the USA and Canada only, so it is not a good fit for Australia."],
     ["Can I plan a road trip offline in Australia?", "Partly. Google Maps and Apple Maps can navigate within downloaded areas, AussieCamps keeps place details on the phone with the Pass, and WikiCamps keeps up to three downloaded trips. Live traffic, forecasts and new routes still need signal in most apps."],
   ],
+  "best-caravan-rv-apps-australia": [
+    ["What is the best app for caravanning in Australia?", "It depends on the question you need answered. CAMPS Australia Wide filters sites by set-up, including big rigs, AussieCamps uses official data for dump points, water and rest areas on iPhone, and WikiCamps has more than a million traveller reviews by its own count. Many caravanners pair one of these with a navigation app."],
+    ["Is there an app that shows big rig friendly campsites?", "CAMPS Australia Wide lets you filter by camping set-up, including big rig, and shows big rig access on its dump points. Hipcamp has a rig type filter for its private-land stays. Check the site details before you commit to a narrow track."],
+    ["What is an RV Friendly town?", "A town in the CMCA's RV Friendly program, which offers short-term, low-cost overnight parking of 24 or 48 hours for self-contained recreational vehicles, plus drinking water and a free dump point. CMCA publishes a map of them."],
+    ["Do caravan apps work without phone signal?", "Partly. CAMPS, WikiCamps, CamperMate and CMCA Traveller let you download maps or site data before you go, and AussieCamps keeps place details on the phone. Live maps, routing and weather still need signal in most apps."],
+  ],
   "best-free-camping-apps-australia": [
     ["What is the best free camping app in Australia?", "If the app itself must cost nothing, CamperMate is free with no in-app purchases and lists free camps among its places. AussieCamps is free to download but needs the Pass for its official campground and rest area data, and WikiCamps costs A$9.99 once per platform."],
     ["Is there a free app for free camps in Australia?", "Yes. CamperMate is free, and Full Range Camping's directory, including its Free Camps category, is free to browse. Government park and forest agencies also publish their campgrounds for free, though many of those sites charge a camping fee."],

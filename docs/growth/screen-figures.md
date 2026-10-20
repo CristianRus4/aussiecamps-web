@@ -17,6 +17,7 @@ followed by that section's heading. Source screenshots are in `~/Marketing/Campi
 | best-fuel-price-apps-australia | 9 (Fuel is the biggest cost you can plan) | aussiecamps_guides_adelaide-to-uluru_map.png | AussieCamps on iPhone: the Adelaide to Uluru road trip on the map, with the weather along the route |
 | best-road-trip-planner-apps-australia | 1 (1. AussieCamps: plan where you will stop and sleep) | aussiecamps_guides_perth-to-broome_map.png | AussieCamps on iPhone: the Perth to Broome road trip on the map, with the forecast along the way |
 | best-free-camping-apps-australia | 1 (1. AussieCamps: official camping data, with the Pass) | aussiecamps_place-detail_lucky-bay_top.png | AussieCamps on iPhone: the Lucky Bay Campground page with its amenities and features |
+| best-caravan-rv-apps-australia | 1 (1. AussieCamps: official data for the stops a caravan needs) | aussiecamps_place-detail_cape-hillsborough-np_middle.png | AussieCamps on iPhone: the Cape Hillsborough National Park amenities, with Caravan Sites listed under Vehicles and RVs |
 | best-camping-app-australia | 1 (1. AussieCamps: best for official data and trip planning on iPhone) | aussiecamps_place-detail_karijini-np_top.png | AussieCamps on iPhone: the Karijini National Park page with its amenities and features |
 
 `best-fuel-price-apps-australia` is the one exception to "the section whose heading names AussieCamps":

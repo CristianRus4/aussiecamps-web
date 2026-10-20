@@ -20,6 +20,7 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "best-fuel-price-apps-australia", section: 9, src: "/images/screens/best-fuel-price-apps-australia.webp", alt: "AussieCamps on iPhone: the Adelaide to Uluru road trip on the map, with the weather along the route" },
   { slug: "best-road-trip-planner-apps-australia", section: 1, src: "/images/screens/best-road-trip-planner-apps-australia.webp", alt: "AussieCamps on iPhone: the Perth to Broome road trip on the map, with the forecast along the way" },
   { slug: "best-free-camping-apps-australia", section: 1, src: "/images/screens/best-free-camping-apps-australia.webp", alt: "AussieCamps on iPhone: the Lucky Bay Campground page with its amenities and features" },
+  { slug: "best-caravan-rv-apps-australia", section: 1, src: "/images/screens/best-caravan-rv-apps-australia.webp", alt: "AussieCamps on iPhone: the Cape Hillsborough National Park amenities, with Caravan Sites listed under Vehicles and RVs" },
   { slug: "best-camping-app-australia", section: 1, src: "/images/screens/best-camping-app-australia.webp", alt: "AussieCamps on iPhone: the Karijini National Park page with its amenities and features" },
 ];
 
