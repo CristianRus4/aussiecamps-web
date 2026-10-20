@@ -16,8 +16,10 @@ publish order (caravan-rv 10-26, working-holiday 10-27, weather 10-28, money-sav
 ## Done
 - AU batch 1 (10 road trips, 532 units, drafted sonnet, reviewed opus, negation-checked): brisbane-to-cape-tribulation, great-ocean-road, melbourne-to-adelaide, perth-to-broome, east-coast, sunshine-coast, gibb-river, nullarbor, flinders-ranges, red-centre-way. es 68/80 guides.
 
+- AU batch 2 (3 listicles, 468 units): best-caravan-rv-apps-australia, best-apps-working-holiday-australia, best-weather-apps-camping-australia. es 71/80 guides. House term: «el Pase» (style guide), not "Pass".
+
 ## Next
-- AU: listicles best-caravan-rv, best-apps-working-holiday, best-weather-apps (drafting l1a, l1b, l2a), then money-saving, hipcamp, 7 remaining road trips (r4a, r4b), LINKFIX (lf, 35 units).
+- AU: drafting l2b (money-saving), l3a (hipcamp), r4a (tasmania, sydney-south-coast, queensland-outback); then r4b (4 road trips), LINKFIX (lf, 35 units).
 - Then KiwiCamping: 41 missing guides (2320 units), same pipeline.
 
 ## Notes for orchestrator (English source oddities, translated faithfully)
@@ -26,6 +28,8 @@ publish order (caravan-rv 10-26, working-holiday 10-27, weather 10-28, money-sav
 - east-coast-road-trip-sydney-cairns: 2,500 km (intro) vs 2,400 km (section 3); "Fraser Island" vs "K'gari" both used.
 - red-centre-way-camping: "Uluru" without the macron in sections[3].body[0]; gibb-river: road-status advice repeated twice.
 - flinders-ranges tip omits Parachilna, which the body lists as a fuel stop.
+
+- best-apps-working-holiday-australia sources[2] says "third Work and Holiday 417 visa" (417 is Working Holiday, 462 is Work and Holiday). best-weather-apps: Weatherzone Pro A$5.99/month and ad-free A$5.99/year same figure. Style guide gaps: super/specified work/award/tax file number have no glossary entry.
 
 ## Blockers
 none
