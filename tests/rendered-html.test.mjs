@@ -138,7 +138,7 @@ test("every guide, road trips included, is in the translation source", async () 
 
 test("draft locales are neither routed nor advertised", async () => {
   const drafts = localeCodes.filter((code) => localeEntry(code).status === "draft");
-  assert.ok(drafts.length >= 8, "ja, ko, zh-hans, zh-hant, da, nb, cs and pl are still drafts");
+  assert.ok(drafts.length >= 6, "ja, ko, zh-hans, zh-hant, cs and pl are still drafts");
   for (const code of drafts) {
     assert.notEqual((await fetchPage(`/${localeEntry(code).segment}`)).status, 200, `${code} is a draft and must not be served`);
     await assert.rejects(readdir(new URL(`../pages-dist/${localeEntry(code).segment}/`, import.meta.url)), `${code} must not be exported`);
