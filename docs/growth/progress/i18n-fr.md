@@ -95,3 +95,11 @@ Scratch (not in git): `/tmp/i18n-fr/` holds the helper scripts (`tools/dump.mjs`
   the clean one. Same issue the es lane reported (sync should skip locales that own a catalog).
 - English fact issue (NZ overseas-driver-licence): section 0 says 18 months, reducing to 12 from
   1 November 2026, while section 3 and the FAQ say 12 months flat. French follows the English.
+
+## Paired release sync, A-content batch 1 (2026-10-20, branch i18n/a-fr-b1)
+- Branch `i18n/a-fr-b1` cut from `release/a-content-b1`, then `i18n/a-fr` merged in (brings the fr catalog, style guide
+  and all earlier French work; the release branch predates them). All 23 pages translated from the new English (about
+  1,000 units), removed units trimmed, three road trips (adelaide-to-uluru, australian-alps, darwin-kakadu) translated
+  in full because fr had none of them. fr stamped. `content:check` lists no fr page as incomplete; the engine audit has
+  no errors on these pages (warnings only: proper names that contain Tasmania, agency names equal to the source).
+- Do not edit these 23 pages on `i18n/a-fr` until the paired release merges.

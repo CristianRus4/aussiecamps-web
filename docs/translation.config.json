@@ -8,7 +8,6 @@
       "sourceLocale": "en",
       "locales": [
         "de",
-        "es",
         "it",
         "nl",
         "pt",
@@ -26,10 +25,6 @@
         {
           "locale": "de",
           "path": "../lib/translations/de.json"
-        },
-        {
-          "locale": "es",
-          "path": "../lib/translations/es.json"
         },
         {
           "locale": "it",
@@ -88,10 +83,8 @@
         "Queensland",
         "South Australia",
         "Western Australia",
-        "Tasmania",
         "Northern Territory",
         "Australian Capital Territory",
-        "Central Australia",
         "Uluṟu",
         "K'gari",
         "Ikara",
@@ -107,6 +100,12 @@
           "it": "Australia",
           "nl": "Australië",
           "pt": "Austrália"
+        },
+        "Tasmania": {
+          "de": "Tasmanien"
+        },
+        "Central Australia": {
+          "de": "Zentralaustralien"
         }
       },
       "varieties": {
@@ -121,6 +120,75 @@
         "it": "informal",
         "nl": "informal",
         "pt": "informal"
+      }
+    },
+    {
+      "id": "aussiecamps-website-es",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "es"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "es",
+          "path": "../lib/translations/es.json"
+        }
+      ],
+      "protectedTerms": [
+        "AussieCamps",
+        "AussieCamping",
+        "AUD",
+        "Tourism Australia",
+        "Reserve Bank of Australia",
+        "Virgin Australia",
+        "Uluṟu",
+        "K'gari",
+        "Ikara",
+        "Tjoritja",
+        "Kakadu",
+        "Namadgi"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {
+        "Australia": {
+          "es": "Australia"
+        },
+        "New South Wales": {
+          "es": "Nueva Gales del Sur"
+        },
+        "Victoria": {
+          "es": "Victoria"
+        },
+        "Queensland": {
+          "es": "Queensland"
+        },
+        "South Australia": {
+          "es": "Australia Meridional"
+        },
+        "Western Australia": {
+          "es": "Australia Occidental"
+        },
+        "Tasmania": {
+          "es": "Tasmania"
+        },
+        "Northern Territory": {
+          "es": "Territorio del Norte"
+        },
+        "Australian Capital Territory": {
+          "es": "Territorio de la Capital Australiana"
+        }
+      },
+      "register": {
+        "es": "informal"
+      },
+      "styleGuide": {
+        "es": "Follow docs/translation-style/es.md: natural tú travel-writer Spanish for Spain and Latin America, « » quotes, Spanish state names with the English official name in parentheses where signs need it, no calques, no offline-map claims."
       }
     },
     {
