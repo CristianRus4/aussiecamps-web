@@ -31,6 +31,7 @@ Working files: `/tmp/kai-da-a` (AGENT-BRIEF.md, mkbatch.py, qa.py, batches/, out
 - B8 applied: app guides (how-to-plan-trip, filters, save-collections, place-details, widgets) (62/77).
 - B9a applied: camping-with-dogs, packing-list, first-campervan-trip (65/77).
 - B9 complete: + road-trip-fuel-planning, choosing-campsite (67/77).
+- B10a applied: tasmania-camping-loop, darwin-kakadu-litchfield-loop, sydney-south-coast-camping, queensland-outback-way (71/77).
 
 ## Next
 - Overnight rule (to 09:00): no subagents; I draft and review myself, one batch at a time.
