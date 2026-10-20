@@ -210,6 +210,12 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Does Roadtrippers work in Australia?", "Its App Store listing says it is designed for road trips in the USA and Canada only, so it is not a good fit for Australia."],
     ["Can I plan a road trip offline in Australia?", "Partly. Google Maps and Apple Maps can navigate within downloaded areas, AussieCamps keeps place details on the phone with the Pass, and WikiCamps keeps up to three downloaded trips. Live traffic, forecasts and new routes still need signal in most apps."],
   ],
+  "best-free-camping-apps-australia": [
+    ["What is the best free camping app in Australia?", "If the app itself must cost nothing, CamperMate is free with no in-app purchases and lists free camps among its places. AussieCamps is free to download but needs the Pass for its official campground and rest area data, and WikiCamps costs A$9.99 once per platform."],
+    ["Is there a free app for free camps in Australia?", "Yes. CamperMate is free, and Full Range Camping's directory, including its Free Camps category, is free to browse. Government park and forest agencies also publish their campgrounds for free, though many of those sites charge a camping fee."],
+    ["Do free campsites still need booking?", "Sometimes. Queensland needs a paid permit for every camp in its parks and forests, NSW National Parks charges a booking fee even where camping is free, and almost all Victorian state forest campgrounds are free and cannot be booked. Check the land manager for each site."],
+    ["Can you sleep at rest areas in Australia?", "Only where the road authority or sign allows it. Queensland lets vehicles stop at rest areas for up to 20 hours unless signed otherwise, and Main Roads WA allows up to 24 hours only at rest areas signed for it. Read the sign before you stay."],
+  ],
 
   // --- Costs & budget -------------------------------------------------------
   "australia-travel-cost-2026": [

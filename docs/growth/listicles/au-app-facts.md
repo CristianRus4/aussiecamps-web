@@ -136,3 +136,13 @@ Research notes behind the "best apps" and "alternatives" guides. Each fact carri
 - WikiCamps Trip Planner: sections, places, notes, progress bar, fuel use and cost estimate between places; not a logbook (help article 57933120336665). Leg drive time not documented.
 - TripIt: itinerary from forwarded booking emails, offline reservation details, Pro A$77.99 a year, 4.8 from 52,985.
 - Polarsteps: AI itinerary planner and automatic tracking, Plus A$44.99 a year, 4.9 from 11,924, iPhone app.
+
+## Official free camping sources, checked 2026-10-20 (many agency pages block automated fetches; marked items are from official-page search excerpts)
+- QLD: QPWS permit needed for every camp in parks, forests and recreation areas, booked before arrival; from 1 July 2026 A$7.75 per person or A$31 per family per night (https://parks.qld.gov.au/camping/bookings, fee PDF https://parks.des.qld.gov.au/__data/assets/pdf_file/0035/158498/camping-fees.pdf). Rest areas: up to 20 hours unless signed, "not camping sites or an accommodation option" (https://www.qld.gov.au/transport/safety/holiday-travel/stops/rest).
+- VIC: state forest campgrounds free and not bookable (Murrindindi Scenic Reserve small permit fee); dispersed camping 20 m from waterways, up to 28 nights (https://www.vic.gov.au/camping). Parks Victoria free and bookable sites; half-price fees until July 2027 (https://www.parks.vic.gov.au/where-to-stay/camping/free-camping-in-victoria). More to Explore app and maps (https://www.ffm.vic.gov.au/visiting-state-forests/more-to-explore-apps-and-maps).
+- NSW: camping free in most state forests, first come first served, four-week maximum (Forestry Corporation page, excerpt: https://www.forestrycorporation.com.au/visit/virtual-visitor-centre/camping-in-nsw-state-forests). NPWS: some campgrounds have no camping fee but online bookings carry a booking fee (https://www.nationalparks.nsw.gov.au/campground-accommodation-booking-faqs). NSW National Parks app: free, 225+ parks, locate campgrounds, Book Now; no fee info in its description.
+- WA: DBCA fees A$10/15/20 per adult per night, park entry separate (https://exploreparks.dbca.wa.gov.au/camping-fees). Main Roads WA: signed 24-hour rest areas allow up to 24 consecutive hours; Travel Map rest-area filter (https://www.mainroads.wa.gov.au/travelmap/).
+- TAS: parks pass needed even where camping is free; free sites incl. Cockle Creek, Bay of Fires (https://parks.tas.gov.au/camping).
+- NT: park camping booked and paid online before arrival (https://nt.gov.au/parks/camping).
+- SA: campsites and vehicle entry booked online before arrival (https://www.parks.sa.gov.au/book-and-pay/frequently-asked-questions).
+- No official national free-camp app or dataset found.
