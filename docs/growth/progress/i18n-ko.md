@@ -23,3 +23,11 @@ Thread: i18n-ko. Language: Korean (`ko`, engine locale `ko`). Branches: `i18n/a-
 ## Notes for the orchestrator
 - English source issues seen (not changed, English is not ours): AU `ui.metaKeywords` contains "offline camping map Australia" and NZ has "offline camping map NZ" (Korean uses 오프라인 캠핑 앱 instead); AU `pages.support.sections[5].paragraphs[0]` says "Map and place details are free", which conflicts with the Pass boundary.
 - The site's locale wiring (lib/locales.json) does not list ko yet; ko.json is ignored by `content:check` until foundation registers it.
+
+## 2026-10-20 (later): merge of origin/main + stale-unit re-sync (orchestrator note)
+- Both branches merged origin/main and regenerated (locales:sync, translations:source). Base state before this re-sync: every guide translated (AU 70/70, NZ 78/78), tools done, stamps written.
+- Stale units are found by diffing the English at the pre-merge point against the merged en.json (not by stamps): /tmp/ko-work/{au,nz}-src.pre-merge.json vs {au,nz}-src.json; delta lists in /tmp/ko-work/{au,nz}-delta.json; plans in /tmp/ko-work/upd/plans.json; brief /tmp/ko-work/BRIEF-UPD.md.
+- AU: 812 changed + 1570 new units (21 guides to re-sync in FULL mode, 9 small updates, 7 wholly new guides: wikicamps-alternatives, campermate-alternatives, best-fuel-price-apps-australia, best-road-trip-planner-apps-australia, best-free-camping-apps-australia, best-caravan-rv-apps-australia, best-apps-working-holiday-australia).
+- NZ: 501 changed + 971 new units (14 FULL, 51 small, 7 wholly new guides: rankers-alternatives, campermate-alternatives, road-trip-planner-apps-new-zealand, free-camping-apps-new-zealand, best-travel-apps-new-zealand, wikicamps-alternatives, best-campervan-apps-new-zealand).
+- After each applied batch the "extra" ko units for shrunk arrays must be pruned; finally run translations:stamp --locale ko, content:check (zero stale, zero number-parity errors), commit.
+- Environment note: the cloned node_modules in the AU worktree lacks the `qrcode` package that main now needs for `npm run check` (copy it from the main checkout node_modules if a build is needed).
