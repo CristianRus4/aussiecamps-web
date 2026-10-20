@@ -17,9 +17,10 @@ da, nb, sv each have their own (`aussiecamps-website-<code>`).
 - de: all five pages translated, Opus-reviewed, negation-checked, applied and stamped; `content:check` passes (de 75/75 guides).
 - nl: same five pages translated, Opus-reviewed, negation-checked, applied, stamped (nl 70/75 guides).
 - da: same five pages translated, Opus-reviewed, negation-checked, applied, stamped.
+- nb: same five pages translated, self-reviewed side by side with the English and negation-checked (overnight rule: no subagents), applied, stamped.
 
 ## Next
-nb and sv (drafted in parallel, review next).
+sv (drafted; self-review, apply, stamp next).
 
 ## Blockers
 None.
