@@ -1,5 +1,7 @@
 /**
  * Two questions per guide, in the words people search them, answered in two or three sentences.
+ * Comparison guides ("best apps", "alternatives") carry up to four, drawn from searches that name
+ * the competing apps.
  *
  * These are the guide's own questions, not the homepage's: a site that answers "what is
  * AussieCamps?" in twelve FAQPage blocks is competing with itself, so nothing here repeats a
@@ -179,8 +181,40 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Do widgets work without reception?", "The parts drawn from the bundled place data do. Anything live, such as weather, updates when there is a connection and shows the last value it had until then."],
   ],
   "best-camping-app-australia": [
-    ["What should a camping app for Australia actually do?", "Work with no reception, carry accurate fee and amenity data, filter to a real question rather than a category, and be honest about access. Coverage counts for little if the details are wrong or unreadable off-grid."],
-    ["Is one camping app enough for Australia?", "For finding and planning, usually. Most travellers still keep the state parks booking apps for permits, since NSW, Queensland, Victoria, South Australia and WA each run their own system."],
+    ["What is the best camping app in Australia?", "It depends on your phone and how you travel. On iPhone, AussieCamps pairs official campground, rest area and dump point data that stays readable without signal with a full trip planner. WikiCamps Australia has a community-built database of more than 65,000 sites for a one-off A$9.99, and CAMPS lists sites its own team has checked."],
+    ["Is WikiCamps free?", "No. As of October 2026, WikiCamps Australia costs A$9.99 as a one-off purchase on each platform, with no subscription. CamperMate is a free alternative."],
+    ["Which camping app works without phone signal?", "They keep different things. AussieCamps stores place details on the phone with no download step, while map tiles, directions and weather need signal. WikiCamps keeps maps and up to three planned trips, CAMPS and CamperMate let you download maps and site information, and Full Range Camping keeps listings offline with Premium."],
+    ["Is there a free camping app for Australia?", "CamperMate is free, and Hipcamp is free to download with each stay paid to its host. AussieCamps is a free download with free hotel, motel and holiday park listings, but its campground, rest area and dump point data needs the Pass."],
+  ],
+  "wikicamps-alternatives": [
+    ["What is a good alternative to WikiCamps?", "It depends on what you want to change. AussieCamps uses official park and road authority data with every place detail available offline on iPhone, CAMPS lists sites its own team has checked, and CamperMate is free and also covers New Zealand."],
+    ["Is there a free alternative to WikiCamps?", "CamperMate is free with no in-app purchases on the Australian App Store. Hipcamp is free to download, but you pay each host for a booking. AussieCamps is a free download, though its campground, rest area and dump point data needs the Pass."],
+    ["Is WikiCamps still worth it in 2026?", "For many travellers, yes: A$9.99 once per platform buys a community database its website puts at more than 65,000 sites, with no subscription. Version 6 changed some features, so read recent App Store reviews before you buy."],
+    ["Does WikiCamps have ads?", "Yes. The App Store lists advertising, and the developer says a small number of ads appear in the reviews, fees and photos sections. It has said it is considering a paid option to remove them."],
+  ],
+  "campermate-alternatives": [
+    ["What is better than CamperMate?", "It depends on what you want that CamperMate does not give you. AussieCamps uses park agency and road authority data with every place detail available offline on iPhone, WikiCamps Australia has 1.3 million traveller reviews by its own count for A$9.99 once, and CAMPS lists sites its own team has checked."],
+    ["Is CamperMate free?", "Yes. As of October 2026 it is free to download with no in-app purchases on the Australian App Store. It shows ads and offers bookings and deals from partners."],
+    ["Does CamperMate work offline?", "Partly. You can download maps and key information for use without signal, and version 5.8 added a satellite view that works with those downloaded maps."],
+    ["Is there one app for camping in Australia and New Zealand?", "CamperMate covers both countries in one free app. WikiCamps sells separate apps for each country, and AussieCamps and KiwiCamping are separate iPhone apps for Australia and New Zealand."],
+  ],
+  "best-fuel-price-apps-australia": [
+    ["What is the best app for cheap fuel in Australia?", "For travel across state lines, Petrol Spy shows official prices from most states in one free app. Within one state, the government tool is the cleanest source: FuelCheck in NSW and the ACT, Servo Saver in Victoria, FuelWatch in WA, FuelCheck TAS and MyFuel NT."],
+    ["Is there a fuel price app for Victoria?", "Yes. Servo Saver in the free Service Victoria app shows prices that stations must report within 30 minutes, and from 4pm it shows the next day's maximum price."],
+    ["Can you see tomorrow's petrol prices in Australia?", "In Western Australia and Victoria, yes. FuelWatch publishes WA's next-day prices from 2:30pm, and Servo Saver shows Victoria's next-day caps from 4pm. Both apply from 6am for 24 hours."],
+    ["Which fuel app should I use in Queensland?", "Queensland has no government app. Its reporting scheme sends station prices to private apps, and Queensland Treasury lists those that receive the data, including Petrol Spy, FuelMap, MotorMouth, Pumped and RACQ Fuel and Deals."],
+  ],
+  "best-road-trip-planner-apps-australia": [
+    ["What is the best app to plan a road trip in Australia?", "Use two kinds of app. A planner such as AussieCamps decides the stops, nights and dates, with distance and drive time for each leg, and a navigation app such as Google Maps or Apple Maps handles the drive itself. For remote 4WD tracks, ExplorOz Traveller does both on its own maps."],
+    ["How many stops can you add in Google Maps?", "Up to 9 stops on one route, counting the final destination, according to Google's help pages. Apple Maps allows up to 14 stops on a driving route. Longer trips need splitting into several routes or a dedicated trip planner."],
+    ["Does Roadtrippers work in Australia?", "Its App Store listing says it is designed for road trips in the USA and Canada only, so it is not a good fit for Australia."],
+    ["Can I plan a road trip offline in Australia?", "Partly. Google Maps and Apple Maps can navigate within downloaded areas, AussieCamps keeps place details on the phone with the Pass, and WikiCamps keeps up to three downloaded trips. Live traffic, forecasts and new routes still need signal in most apps."],
+  ],
+  "best-free-camping-apps-australia": [
+    ["What is the best free camping app in Australia?", "If the app itself must cost nothing, CamperMate is free with no in-app purchases and lists free camps among its places. AussieCamps is free to download but needs the Pass for its official campground and rest area data, and WikiCamps costs A$9.99 once per platform."],
+    ["Is there a free app for free camps in Australia?", "Yes. CamperMate is free, and Full Range Camping's directory, including its Free Camps category, is free to browse. Government park and forest agencies also publish their campgrounds for free, though many of those sites charge a camping fee."],
+    ["Do free campsites still need booking?", "Sometimes. Queensland needs a paid permit for every camp in its parks and forests, NSW National Parks charges a booking fee even where camping is free, and almost all Victorian state forest campgrounds are free and cannot be booked. Check the land manager for each site."],
+    ["Can you sleep at rest areas in Australia?", "Only where the road authority or sign allows it. Queensland lets vehicles stop at rest areas for up to 20 hours unless signed otherwise, and Main Roads WA allows up to 24 hours only at rest areas signed for it. Read the sign before you stay."],
   ],
 
   // --- Costs & budget -------------------------------------------------------

@@ -29,3 +29,8 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 
 | Date | Slug | Status |
 |---|---|---|
+| 2026-10-21 | wikicamps-alternatives | scheduled |
+| 2026-10-22 | campermate-alternatives | scheduled |
+| 2026-10-23 | best-fuel-price-apps-australia | scheduled |
+| 2026-10-24 | best-road-trip-planner-apps-australia | scheduled |
+| 2026-10-25 | best-free-camping-apps-australia | scheduled |
