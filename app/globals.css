@@ -438,7 +438,8 @@ em { color: inherit; font: inherit; font-style: normal; }
   .download-section { grid-template-columns: 1fr; }
   .download-image { min-height: 620px; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
-  .article-layout { grid-template-columns: 1fr; padding-inline: 15px; }
+  /* minmax(0, …), as on desktop: a bare 1fr lets a wide table stretch the column past a phone screen. */
+  .article-layout { grid-template-columns: minmax(0, 1fr); padding-inline: 15px; }
   .article-layout aside { display: none; }
   .article-hero-image { height: 450px; }
   .support-group { grid-template-columns: 1fr; }
