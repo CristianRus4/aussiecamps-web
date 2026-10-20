@@ -15,9 +15,11 @@ da, nb, sv each have their own (`aussiecamps-website-<code>`).
 
 ## Done
 - de: all five pages translated, Opus-reviewed, negation-checked, applied and stamped; `content:check` passes (de 75/75 guides).
+- nl: same five pages translated, Opus-reviewed, negation-checked, applied, stamped (nl 70/75 guides).
+- da: drafted and Opus-reviewed in /tmp/alist1/out/da, not yet applied.
 
 ## Next
-nl, da (drafted and reviewed in /tmp/alist1/out, apply next), then nb, sv.
+da (apply next), then nb, sv (drafting).
 
 ## Blockers
 None.
