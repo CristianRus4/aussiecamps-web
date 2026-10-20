@@ -1,4 +1,5 @@
 import manifest from "@/lib/image-manifest.json";
+import type { ArticleFigure } from "@/lib/site";
 
 type ManifestEntry = { width: number; height: number; variants: { path: string; width: number }[] };
 const images = manifest as Record<string, ManifestEntry>;
@@ -47,4 +48,25 @@ export function ScreenshotImage({ src, alt, sizes, priority = false, className =
 /** A photo that fills and crops to its container, as `background-size: cover` did. */
 export function CoverImage({ src, alt, sizes, priority = false, className = "" }: ImageProps) {
   return <img className={`cover-image ${className}`.trim()} alt={alt} sizes={sizes} {...sourceAttributes(src, priority)} />;
+}
+
+/**
+ * The width of a guide section's prose column, measured headless (app/globals.css): 665px on wide
+ * screens (the 720px column less the 55px section indent); from 901px to 1162px the 720px column
+ * shrinks with the viewport, less the 32px page gutters, the 300px aside, the 78px gap and the
+ * indent; at 900px and below the aside goes, leaving the viewport less the page gutters, the 15px
+ * layout padding and the indent (34px of indent and 15px gutters at 600px and below).
+ */
+const guideFigureSizes = "(max-width: 600px) calc(100vw - 94px), (max-width: 900px) calc(100vw - 149px), (max-width: 1162px) calc(100vw - 497px), 665px";
+
+/**
+ * A screenshot figure inside a guide section (lib/screen-figures.ts): a pre-rendered 1600x900 image
+ * that already carries its gradient and shadow, so it is shown whole, lazily, with no caption or link.
+ */
+export function GuideFigure({ src, alt }: ArticleFigure) {
+  return (
+    <figure className="guide-figure">
+      <img alt={alt} sizes={guideFigureSizes} {...sourceAttributes(src, false)} />
+    </figure>
+  );
 }

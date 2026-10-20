@@ -36,13 +36,19 @@ export const SUPPORT_MAILTO = `mailto:${SUPPORT_EMAIL}?subject=AussieCamps%20web
 import { expandedArticles } from "@/lib/expanded-articles";
 import { articleFaqs } from "@/lib/article-faqs";
 import { assertPublishAt, isPublished, scheduleFixture } from "@/lib/publish";
+import { applyScreenFigures } from "@/lib/screen-figures";
 
 export type ArticleCategory = "Road trips" | "Camping guides" | "Rules & safety" | "Trip planning" | "Costs & budget" | "App guides";
 /** A small data table inside a section. Plain-text cells; every row has exactly `head.length` cells,
  * and the first cell of each row is its label. Translated like the prose around it. */
 export type ArticleTable = { caption: string; head: string[]; rows: string[][] };
-/** `cta` puts a store button under the section: comparison guides set it on the entry for AussieCamps. */
-export type ArticleSection = { heading: string; body: string[]; tips?: string[]; table?: ArticleTable; cta?: boolean };
+/** `cta` puts a store button under the section: comparison guides set it on the entry for AussieCamps.
+ * `figure` is a screenshot of the app shown after the body. Never set it in an article literal: it
+ * comes from lib/screen-figures.ts, and it is not translated text (a translated page uses its own
+ * section heading as the alt). */
+export type ArticleSection = { heading: string; body: string[]; tips?: string[]; table?: ArticleTable; cta?: boolean; figure?: ArticleFigure };
+/** A pre-rendered 1600x900 screenshot figure; `src` must have a lib/image-manifest.json entry. */
+export type ArticleFigure = { src: string; alt: string };
 export type ArticlePriceTable = {
   /** ISO date (YYYY-MM-DD) the prices were checked; rendered in the reader's language. */
   asOf: string;
@@ -106,7 +112,7 @@ const section = (heading: string, body: string[], tips?: string[], table?: Artic
  * Every guide written, published or scheduled. Only the translation source, the content audits and
  * link selection read this; everything a reader or crawler sees reads `articles`.
  */
-export const allArticles: Article[] = [
+const writtenArticles: Article[] = [
   article({
     slug: "great-ocean-road-camping-guide", title: "Great Ocean Road camping guide: a 3-day route", description: "Surf beaches, rainforest bends and a final sunset over the Twelve Apostles.", category: "Road trips", region: "Victoria Coast", readTime: 9,
     places: ["Torquay", "Aireys Inlet", "Apollo Bay Holiday Park", "Aire River East Campground", "Johanna Beach Campground", "Port Campbell", "Warrnambool"], imageAlt: "Great Ocean Road coast in Victoria", intro: "Three days gives the Great Ocean Road enough breathing room for lighthouse walks, forest detours and an evening beside the Southern Ocean. Drive west from Torquay and keep the final night near Port Campbell or Warrnambool.",
@@ -367,6 +373,8 @@ export const allArticles: Article[] = [
 ].map((article) => (articleFaqs[article.slug] ? { ...article, faq: articleFaqs[article.slug] } : article))
   // After the list, not in it: scripts/build-article-dates.mjs dates the last guide by the text up to "\n]".
   .concat(scheduleFixture<Article>() ?? []);
+// Screenshot figures go on after the list too, so the article literals stay untouched (lib/screen-figures.ts).
+export const allArticles: Article[] = applyScreenFigures(writtenArticles);
 for (const item of allArticles) assertPublishAt(item.slug, item.publishAt);
 
 /** The guides this build publishes: every guide whose publishAt, if it has one, has come (lib/publish.ts). */
