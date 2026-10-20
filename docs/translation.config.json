@@ -8,7 +8,6 @@
       "sourceLocale": "en",
       "locales": [
         "de",
-        "fr",
         "it",
         "nl",
         "pt",
@@ -27,10 +26,6 @@
         {
           "locale": "de",
           "path": "../lib/translations/de.json"
-        },
-        {
-          "locale": "fr",
-          "path": "../lib/translations/fr.json"
         },
         {
           "locale": "it",
@@ -195,6 +190,79 @@
       },
       "styleGuide": {
         "es": "Follow docs/translation-style/es.md: natural tú travel-writer Spanish for Spain and Latin America, « » quotes, Spanish state names with the English official name in parentheses where signs need it, no calques, no offline-map claims."
+      }
+    },
+    {
+      "id": "aussiecamps-website-fr",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "fr"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "fr",
+          "path": "../lib/translations/fr.json"
+        }
+      ],
+      "protectedTerms": [
+        "AussieCamps",
+        "AussieCamping",
+        "AUD",
+        "Tourism Australia",
+        "Reserve Bank of Australia",
+        "Virgin Australia",
+        "Victoria",
+        "Queensland",
+        "Uluṟu",
+        "Ikara",
+        "Tjoritja",
+        "Kakadu",
+        "Namadgi"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {
+        "New South Wales": {
+          "fr": "Nouvelle-Galles du Sud"
+        },
+        "Victoria": {
+          "fr": "Victoria"
+        },
+        "Queensland": {
+          "fr": "Queensland"
+        },
+        "South Australia": {
+          "fr": "Australie-Méridionale"
+        },
+        "Western Australia": {
+          "fr": "Australie-Occidentale"
+        },
+        "Tasmania": {
+          "fr": "Tasmanie"
+        },
+        "Northern Territory": {
+          "fr": "Territoire du Nord"
+        },
+        "Australian Capital Territory": {
+          "fr": "Territoire de la capitale australienne"
+        },
+        "Central Australia": {
+          "fr": "Centre rouge"
+        },
+        "K'gari": {
+          "fr": "K’gari"
+        }
+      },
+      "register": {
+        "fr": "formal"
+      },
+      "styleGuide": {
+        "fr": "Follow docs/translation-style/fr.md: native French travel-writer voice for France, Belgium, Switzerland and Canada, formal vous, French typography (non-breaking spaces before : ; ? !, « » quotes), French state names, no calques, no offline-map claims."
       }
     }
   ]

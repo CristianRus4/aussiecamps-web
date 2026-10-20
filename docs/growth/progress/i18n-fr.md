@@ -14,27 +14,92 @@ Scratch (not in git): `/tmp/i18n-fr/` holds the helper scripts (`tools/dump.mjs`
 - Style guide `docs/translation-style/fr.md` (identical in both repos).
 - AU and NZ: every UI string rewritten (testimonial keys `review*`, `reviewsEyebrow`,
   `reviewsTitle` left unchanged), support, privacy and terms pages rewritten.
-- Typography normalised on everything rewritten (U+00A0 before `: ; ? !`, inside « », in numbers
-  and before units/symbols; typographic apostrophes).
+- Batch 1 merged to main. Judge findings (`docs/growth/judge/fr.json`) all fixed; privacy
+  "Website analytics" section and `consent.*` translated; effective date 19 October 2026.
+- Whole-file typography pass (U+00A0 before `: ; ? !`, inside « », in numbers and before
+  units/symbols; typographic apostrophes; no double spaces).
+- Guides rewritten (Search Console order):
+  - AU: alcohol-coffee-drink-prices, sleeping-in-car, eating-out-prices-2026, dump-points,
+    camping-rules NSW/VIC/WA/SA.
+  - NZ: grocery-prices-2026, doc-huts, doc-campsite-rules, campervan-road-rules, speed-limits,
+    road-trip-fuel-cost-2026, public-transport-costs-2026, towing-caravan.
+  - AU wave 2: public-transport-costs-2026, domestic-flight-costs-2026, camping-rules QLD,
+    grocery-prices-2026, camping-rules ACT, best-time-camping, caravan-park-vs-holiday-park,
+    road-rules-state-differences.
+  - NZ wave 2: travel-cost-2026, biosecurity-camping-gear, eating-out-prices-2026, road-signs,
+    domestic-flight-costs-2026, wof-registration, accommodation-costs-2026, volcanic-safety.
 
-## In progress
-- Guides, in Search Console impression order (`pages-3m.tsv`), rewritten by subagents and edited
-  here before apply. Wave 1: AU alcohol/coffee prices, sleeping in a car, eating out prices, dump
-  points, camping rules NSW/VIC/WA/SA; NZ grocery prices, DOC huts, DOC campsite rules, campervan
-  road rules, speed limits, fuel cost, public transport costs, towing.
+## Done (continued, 2026-10-20 run)
+- AU rebased onto main (A-foundation M2 + A-tools-hubs); `locales:sync` and `translations:source` run.
+- **French-only catalogs** (as the es/ja lanes did): `aussiecamps-website-fr` (AU) and
+  `kiwicamping-website-fr` (NZ) in `docs/translation.config.json`. They drop the English state/island
+  names from `protectedTerms`, map them to French in the glossary (Nouvelle-Galles du Sud,
+  Australie-Méridionale, Australie-Occidentale, Tasmanie, Territoire du Nord, Territoire de la capitale
+  australienne, Centre rouge; île du Nord, île du Sud, île Stewart) and skip the testimonial keys.
+  **Values files must say `"catalog": "aussiecamps-website-fr"` / `"kiwicamping-website-fr"`.** The
+  "Australia" glossary entry is omitted on purpose: the engine matches it inside
+  `data-guide="australia-…"` slugs and raises false errors. All held units (36 AU, 5 NZ) applied.
+- AU: 137 units got their `<a data-guide>` link markup back (English source gained links); wave 3
+  applied (camping-fees, travel-cost, interstate-biosecurity, towing, fuel-cost, TAS, is-free-camping,
+  NT). AU guides rewritten so far: 24 of 50 existing.
+- AU road trips translated (new): great-ocean-road, east-coast-sydney-cairns, perth-to-broome,
+  brisbane-to-cape-tribulation (4 of 20).
+- NZ wave 3 polished: beer-wine-coffee, dogs, cook-strait, bus-ferry-train, sandflies,
+  overseas-driver-licence, doc-hut-rules, river-crossing (24 NZ guides rewritten so far).
+- `translations:stamp -- --locale fr` run on AU (3445 stamps). NZ not yet stamped.
+- Engine audit, fr-only catalog: AU has only `missing` (road trips 16 x 53, `tools` 116) plus 5
+  source-equal warnings (brand/agency names); NZ has 6 glossary hits in not-yet-rewritten guides
+  fixed, only 4 source-equal warnings left.
+
+## Run of 2026-10-20 (evening, background agent)
+- Both branches rebased onto origin/main (AU 90ec2bb with the locales:sync change, NZ 6838b88 K-foundation M2).
+  NZ config conflict resolved by keeping the `kiwicamping-website-fr` catalog; `locales:sync` now leaves
+  `fr` out of the shared catalog in both repos (committed). SHAs changed after the rebase.
+- NZ: 86 `<a data-guide>` link units restored (all existing guides), `ui.metaDescription` now names iPhone
+  (new brand-parity check in audit-content).
+- NZ: 5 core guides translated for the first time (they were not in fr.json at all): freedom-camping-new-zealand-guide,
+  freedom-camping-rules-new-zealand, doc-campsites-new-zealand-guide, holiday-parks-new-zealand-guide,
+  camping-fees-new-zealand-2026.
+- Scan for old-voice markers (parcs pour caravanes, English state names, hors ligne, "définitivement"): NZ is clean.
+  AU still has "parc(s) pour caravanes" in camping-with-dogs-australia, camping-water-planning,
+  campervan-road-trip-budget-australia, accommodation-costs-australia-2026 (faq units) and
+  "Tasmania" in bus-train-costs-australia-2026.
+- NZ: 10 road trips translated (east-cape, northland-cape-reinga, arthurs-pass, taranaki-forgotten-world, coromandel-rotorua,
+  picton-kaikoura-christchurch, wanaka-haast-pass, banks-peninsula, bay-of-islands, christchurch-tekapo-aoraki). NZ stamped (2973 stamps).
+  fr is at 58/78 guides on NZ. Remaining NZ missing: 10 road trips (nelson-abel-tasman-golden-bay, rakiura-stewart-island-camping-guide,
+  new-zealand-three-week-campervan-route, wellington-wairarapa-camping-loop, north-island-two-week-road-trip, west-coast-south-island-road-trip,
+  queenstown-glenorchy-camping, southern-scenic-route-camping, fiordland-camping-road-trip, south-island-two-week-road-trip) and 10 core guides
+  (best-nz-camping-apps, where-to-camp-in-new-zealand, responsible-camping, two-week-camper-itinerary, self-contained-campervan-green-warrant,
+  camping-wastewater-rubbish, campfire-rules, new-zealand-camping-packing-list, best-time-camping, scenic-campsites).
+- Judge fixes applied on both branches (24 units + same-pattern units: crique to ruisseau, comté to municipalité, K’gari typographic apostrophe
+  with a glossary entry in `aussiecamps-website-fr` instead of a protected term, un véhicule à deux roues motrices, consent text asked directly).
+  `tools/normalize.mjs` no longer reverts K’gari.
+- Engine audit: the two `register` hits on NZ road trips are false positives (Māori "Te Paki", "Te Puia" read as informal "te").
+- Still not done: AU 16 road trips, AU `tools` (116 units), ~26 AU guides in the first-pass voice; first task next run: paired-release sync
+  (/Users/cristian/Developer/Webs/.growth-lanes/a-content-b1-sync.md).
 
 ## Next
-- Remaining guides (AU 34, NZ 35), same order.
-- After A-foundation M1/M2 and K-foundation merge to main: rebase, translate the `consent`
-  namespace, the new privacy section, guide tables, road trips, KiwiCamping legacy pages and the
-  `<a data-guide>` markup; run `npm run translations:stamp -- --locale fr` and
-  `npx tsx scripts/audit-content.mjs --strict --locale fr`.
+- AU: remaining 16 road trips (melbourne-to-adelaide, tasmania-camping-loop, darwin-kakadu, ...), the
+  `tools` namespace (116 units, gated), then rewrite the ~26 old guides still in the first-pass voice
+  (order: `node /tmp/i18n-fr/tools/order.mjs`; look for "parcs pour caravanes", English state names).
+- NZ: rebase `i18n/k-fr` onto origin/main once `git -C /Users/cristian/Developer/Webs/kiwicamping-web
+  log origin/main --oneline -3` shows the growth/k-foundation merge (not yet merged on 2026-10-20),
+  then `npm run locales:sync`, `npm run translations:source`, translate the new units (road trips,
+  tools, `<a data-guide>` markup, legacy pages), stamp. Expect a config conflict (both catalogs added
+  here): keep the `kiwicamping-website-fr` catalog.
+- Rewrite the remaining NZ guides still in the first-pass voice.
 
 ## Blockers / decisions needed
-- **State and island names.** `protectedTerms` forces the English New South Wales, South Australia,
-  Western Australia, Tasmania, Northern Territory, Australian Capital Territory, Central Australia
-  (AU) and North Island, South Island, Stewart Island (NZ) into French prose. Natural French uses
-  Nouvelle-Galles du Sud, Australie-Méridionale, Australie-Occidentale, Tasmanie, Territoire du Nord,
-  île du Nord, île du Sud. Proposed: move them from `protectedTerms` to per-locale glossary entries
-  (or add a per-locale exception to the engine). Units that contain these names keep their current
-  French until decided; their rewrites are held in `/tmp/i18n-fr/held-*.json`.
+- `scripts/sync-locales.mjs` rewrites catalog 0 to target every locale, so the main catalog also
+  audits `fr` and reports the English-state-name protected-term errors there; the fr-only catalog is
+  the clean one. Same issue the es lane reported (sync should skip locales that own a catalog).
+- English fact issue (NZ overseas-driver-licence): section 0 says 18 months, reducing to 12 from
+  1 November 2026, while section 3 and the FAQ say 12 months flat. French follows the English.
+
+## Paired release sync, A-content batch 1 (2026-10-20, branch i18n/a-fr-b1)
+- Branch `i18n/a-fr-b1` cut from `release/a-content-b1`, then `i18n/a-fr` merged in (brings the fr catalog, style guide
+  and all earlier French work; the release branch predates them). All 23 pages translated from the new English (about
+  1,000 units), removed units trimmed, three road trips (adelaide-to-uluru, australian-alps, darwin-kakadu) translated
+  in full because fr had none of them. fr stamped. `content:check` lists no fr page as incomplete; the engine audit has
+  no errors on these pages (warnings only: proper names that contain Tasmania, agency names equal to the source).
+- Do not edit these 23 pages on `i18n/a-fr` until the paired release merges.
