@@ -10,12 +10,15 @@ Style guide: `docs/translation-style/zh-hans.md` (identical in both repos).
   `backup/i18n-a-zh-hans-pre-rebase` and `backup/i18n-k-zh-hans-pre-rebase`.
 - The dedicated catalog is now `aussiecamps-website-zh-Hans` / `kiwicamping-website-zh-Hans` with locale
   `zh-hans` and `varieties {"zh-hans": "zh-Hans"}`, so `locales:sync` leaves it alone.
-- AU done: UI, support, privacy, terms, consent bar, 50 guides, `<a data-guide>` markup added to 40
-  guides, `tools` namespace. NZ: markup (84 units) and `tools` (152 units) still to do.
+- NZ COMPLETE (engine 3919/3919, 78/78 guides, stamped). Each batch was drafted by one Opus subagent and
+  edited by another (negation/number check) before apply.
 - AU COMPLETE (engine 4383/4383, 70/70 guides, stamped with translations:stamp, meta/zh-hans.json committed). Each drafted batch was edited by a separate reviewer subagent (negation/number check) before apply.
-  Queue NZ: 18 non-road-trip guides, 20 road trips, markup, tools.
 - Working files: /tmp/zhhans/work-au-12, /tmp/zhhans/work-nz-12 (b-* sources, v-* values).
   Apply with /tmp/zhhans/tools/apply.sh au|nz FILE [--real] (locale id is now zh-hans).
+
+## Next
+- Both sites are fully translated. Remaining work only if English changes (re-run audit, re-stamp) or the
+  orchestrator sends units back from judging.
 
 ## How the work is done (for a resuming session)
 - Engine: separate zh-Hans catalog per site in `docs/translation.config.json`
@@ -65,3 +68,20 @@ Style guide: `docs/translation-style/zh-hans.md` (identical in both repos).
 - NZ overseas licence: section 0 says 18 months until 1 Nov 2026 then 12; sections 3, 7 and FAQ say 12 months with no mention of the change.
 - NZ public transport FAQ 2 vs section 0 (AT HOP cap is weekly).
 - Several "How much…" FAQs give no figure ("The guide prices…").
+
+## English source issues found in the second session (translated faithfully)
+- NZ best-nz-camping-apps: says the free tier lets you "find places on the map", with lists, details, planning and
+  advanced filters behind the Pass; this does not match the THREADS.md Pass boundary.
+- NZ holiday-parks guide section 0: "a $45 site for two and a $28-per-person rate are the same price for a couple"
+  (2 x $28 = $56).
+- NZ where-to-camp: "four land types" vs FAQ "broadly five"; basic DOC sites "can be free or a few dollars" vs "are free".
+- NZ freedom-camping-rules: self-containment "transition is now complete" but blue warrants stay valid to 31 Dec 2027.
+- NZ best-time-camping: FAQ vs body disagree on the best months and the shoulder season.
+- NZ Glenorchy road trip: 46 km in the intro, 45 km in section 3; Whakatipu vs Wakatipu spellings.
+- NZ two-week itinerary: "driving the Lindis at dawn" on the Catlins to Queenstown day (not on that route).
+- NZ severe weather FAQ: "exhausted alpine passes" (probably "exposed").
+- AU Sydney to Cairns: 2,500 km in the intro vs 2,400 km direct in section 3; Melbourne to Adelaide: 900 km to Mount
+  Gambier compared with 730 km to Adelaide; the last tip says "free ferry crossings" which the body never says.
+- AU fuel planning: "refuel when the next stop would use too much of the reserve" vs "top up whenever above half a tank".
+- AU Kangaroo Island: "2020 fires" heading vs "2019 to 2020" body; four or five nights vs three days minimum.
+- AU Gibb River Road: spare-tyre tip "where recommended" vs body "standard rather than optional".
