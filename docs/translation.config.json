@@ -11,7 +11,6 @@
         "it",
         "nl",
         "pt",
-        "ja",
         "zh-hans",
         "cs",
         "pl"
@@ -33,10 +32,6 @@
         {
           "locale": "pt",
           "path": "../lib/translations/pt.json"
-        },
-        {
-          "locale": "ja",
-          "path": "../lib/translations/ja.json"
         },
         {
           "locale": "zh-hans",
@@ -504,6 +499,72 @@
       },
       "styleGuide": {
         "ko": "Follow docs/translation-style/ko.md: 해요체 throughout, native Korean travel-writer voice, standard 띄어쓰기, Hangul exonyms for states and places (뉴사우스웨일스, 퀸즐랜드), never bare 덤프, never 오프라인 지도."
+      }
+    },
+    {
+      "id": "aussiecamps-website-ja",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "ja"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "ja",
+          "path": "../lib/translations/ja.json"
+        }
+      ],
+      "protectedTerms": [
+        "AussieCamps",
+        "AussieCamping",
+        "AUD"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {
+        "Australia": {
+          "ja": "オーストラリア"
+        },
+        "New South Wales": {
+          "ja": "ニューサウスウェールズ"
+        },
+        "Victoria": {
+          "ja": "ビクトリア"
+        },
+        "Queensland": {
+          "ja": "クイーンズランド"
+        },
+        "South Australia": {
+          "ja": "南オーストラリア"
+        },
+        "Western Australia": {
+          "ja": "西オーストラリア"
+        },
+        "Tasmania": {
+          "ja": "タスマニア"
+        },
+        "Northern Territory": {
+          "ja": "ノーザンテリトリー"
+        },
+        "Australian Capital Territory": {
+          "ja": "オーストラリア首都特別地域"
+        },
+        "Tourism Australia": {
+          "ja": "オーストラリア政府観光局"
+        },
+        "Reserve Bank of Australia": {
+          "ja": "オーストラリア準備銀行"
+        }
+      },
+      "register": {
+        "ja": "formal"
+      },
+      "styleGuide": {
+        "ja": "Follow docs/translation-style/ja.md: natural です・ます travel-writer Japanese, full-width punctuation, katakana exonyms, no ダンプ and no offline-map claims."
       }
     }
   ]
