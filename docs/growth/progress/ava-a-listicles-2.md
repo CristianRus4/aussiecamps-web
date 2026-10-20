@@ -10,7 +10,7 @@ Branch `growth/a-listicles-2` (worktree `~/.t3/worktrees/aussiecamps-web/ava-a-l
 | 2 | `best-apps-working-holiday-australia` | 2026-10-27 | merged to main with content review fixes; hero replaced on main (banana plantation, 81d2bfc) |
 | 3 | `best-weather-apps-camping-australia` | 2026-10-28 | committed 72e6d79 (self-reviewed; needs Opus or orchestrator final review) |
 | 4 | `best-money-saving-travel-apps-australia` | 2026-10-29 | committed 7b185cd (self-reviewed; needs final review) |
-| 5 | `hipcamp-alternatives` (Hipcamp chosen: see facts file) | 2026-10-30 | store data only |
+| 5 | `hipcamp-alternatives` (Hipcamp chosen: see facts file) | 2026-10-30 | committed 975793c (self-reviewed; needs final review) |
 
 Each page: facts file in `docs/growth/listicles/run2/`, hero from Wikimedia Commons (1600x900 plus 800 variant, credited in `docs/image-sources-planning-app.md`), screen figure in `lib/screen-figures.ts`, FAQ in `lib/article-faqs.ts`, row in `docs/growth/publish-schedule.md`.
 
@@ -21,6 +21,7 @@ Each page: facts file in `docs/growth/listicles/run2/`, hero from Wikimedia Comm
 - Screens used by run 1: cape-le-grand top, flinders-ranges top, adelaide-to-uluru map, perth-to-broome map, lucky-bay top, karijini top.
 
 ## Done
+- Page 5 (Hipcamp alternatives) committed 975793c: hero Tidal River campground (CC BY-SA 4.0, badge softened), figure Cape Conran Coastal Park, FAQ, schedule row. Check: all pass except the protected count test (80 vs 77). All five pages are done.
 - Page 4 (money-saving) committed 7b185cd: hero South Lefroy Bay (CC BY-SA 3.0 DE), figure Coffin Bay reported prices, FAQ, schedule row. Check: all pass except the protected count test (79 vs 77).
 - Page 5 hero candidate found: 00_2214_Nitmiluk_National_Park.jpg (W. Bulach, CC BY-SA 4.0; it shows Nitmiluk Gorge Caravan Park inside the park, so word the alt accordingly) or Campground_at_Tidal_River.jpg.
 - Page 3 (weather) committed 72e6d79: hero Storm over Kata Tjuta (CC BY-SA 4.0), figure Blue Mountains weather, FAQ, schedule row. npm run check: all pass except the protected count test (78 vs 77); similarity and assets pass.
@@ -34,7 +35,7 @@ Each page: facts file in `docs/growth/listicles/run2/`, hero from Wikimedia Comm
 - ATO and Fair Work pages block automated fetches (403/timeouts): their facts rest on official-page search extracts.
 
 ## Next
-- Page 5: research Hipcamp (fees, model) and alternatives myself, draft, commit.
+- Lane complete. Remaining: orchestrator final review of pages 3-5 (no Opus pass overnight), and the guide-count test bump to 80.
 
 ## Blockers
-- `tests/rendered-html.test.mjs:61` asserts exactly 77 guides on main; the branch now has 79, and it must reach 80 once all five pages land (protected file: orchestrator or foundation).
+- `tests/rendered-html.test.mjs:61` asserts exactly 77 guides on main; the branch now has 80 (final) once all five pages land (protected file: orchestrator or foundation).
