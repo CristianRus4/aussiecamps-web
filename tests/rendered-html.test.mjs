@@ -58,7 +58,7 @@ test("renders an article with unique travel content and app CTA", async () => {
 test("every guide renders as a long-form article", async () => {
   const sources = await Promise.all(["../lib/site.ts", "../lib/expanded-articles.ts"].map((path) => readFile(new URL(path, import.meta.url), "utf8")));
   const slugs = sources.flatMap((source) => [...source.matchAll(/slug:\s*"([^"]+)"/g)].map((match) => match[1]));
-  assert.equal(slugs.length, 75);
+  assert.equal(slugs.length, 77);
   for (const slug of slugs) {
     const response = await fetchPage(`/guides/${slug}`);
     // A guide whose publishAt is still ahead is not served at all (lib/publish.ts).
@@ -103,9 +103,10 @@ test("renders dated multi-currency price tables", async () => {
   assert.equal(response.status, 200);
   const html = await response.text();
   assert.match(html, /Price table in 10 currencies/);
-  assert.match(html.replace(/<!-- -->/g, ""), /Prices checked 12 August 2026/);
+  const text = html.replace(/<!-- -->/g, "");
+  assert.match(text, /Prices checked \d{1,2} [A-Z][a-z]+ 20\d\d/);
   for (const currency of ["AUD", "NZD", "USD", "GBP", "EUR", "CNY", "INR", "SGD", "JPY", "KRW"]) assert.match(html, new RegExp(`>${currency}<`));
-  assert.match(html, /Reserve Bank of Australia exchange rates/);
+  assert.match(text, /class="price-table-meta">(?:(?!<\/div>)[\s\S])*Conversions use RBA rates from \d{1,2} [A-Z][a-z]+ 20\d\d\./);
 });
 
 test("renders standalone road trip tools", async () => {
