@@ -3,6 +3,10 @@ name: Deploy GitHub Pages
 on:
   push:
     branches: [main]
+  # Drip publishing: a daily build at 07:15 NZDT (18:15 UTC; 06:15 in NZST) publishes every guide whose
+  # publishAt has come (lib/publish.ts). Scheduled runs always build the latest commit on main.
+  schedule:
+    - cron: "15 18 * * *"
   workflow_dispatch:
 
 permissions:
@@ -28,6 +32,8 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      # One publish day for the whole job, so the build, export and tests agree even across midnight.
+      - run: echo "BUILD_DATE=$(TZ=Pacific/Auckland date +%F)" >> "$GITHUB_ENV"
       # The whole gate, building once: content audit, build, static export, tests over the export,
       # similarity and asset checks. Any failure stops the job, so nothing is uploaded or deployed.
       # No PAGES_BASE_PATH: aussiecamps.app is a custom domain, so the site is served from the root.

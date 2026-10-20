@@ -8,7 +8,8 @@ import { exportRoutes } from "../lib/routes.ts";
 import { htmlLang } from "../lib/locales.ts";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
-const output = resolve(root, "pages-dist");
+// PAGES_DIST writes the export elsewhere; tests/publish-schedule.test.mjs exports a second copy with it.
+const output = resolve(root, process.env.PAGES_DIST ?? "pages-dist");
 // aussiecamps.app is a custom domain, so the site is served from the root. Only set
 // PAGES_BASE_PATH when deploying to a project-page subpath instead.
 const defaultLang = "en-AU";

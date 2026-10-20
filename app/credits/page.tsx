@@ -5,7 +5,7 @@ import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import credits from "@/lib/image-credits.json";
 import dataMeta from "@/lib/data/hubs.meta.json";
-import { articles, sitePath } from "@/lib/site";
+import { articles, isScheduled, sitePath } from "@/lib/site";
 import { mainData } from "@/lib/analytics";
 
 type Credit = { slug: string; subject: string; creator: string; licence: string; licenceUrl?: string; sourceUrl?: string };
@@ -30,7 +30,8 @@ const titleBySlug = new Map(articles.map((article) => [article.slug, article.tit
 const formatDate = (iso: string) => new Date(`${iso}T00:00:00Z`).toLocaleDateString("en-AU", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
 
 export default function CreditsPage() {
-  const rows = credits as Credit[];
+  // A scheduled guide's photograph is credited from the day the guide is published.
+  const rows = (credits as Credit[]).filter((row) => !isScheduled(row.slug));
   // Every source the app data export publishes facts from, with the attribution its terms ask for.
   const dataSources = (dataMeta.sources as DataSource[]).filter((source) => source.rows > 0);
   return <>
