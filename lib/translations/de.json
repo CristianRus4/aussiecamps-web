@@ -656,119 +656,295 @@
       "priceTable": null
     },
     "best-camping-app-australia": {
-      "title": "Worauf es bei einer Camping-App für Australien ankommt",
-      "description": "Wähl eine App, die deine Route abdeckt, den Stopp erklärt und aus gespeicherten Orten eine machbare Reise macht.",
+      "title": "Beste Camping-Apps für Australien 2026: 7 Apps im Vergleich",
+      "description": "AussieCamps, WikiCamps, CAMPS, CamperMate, Hipcamp, Full Range Camping und ExplorOz im Vergleich: Preis, Nutzung ohne Netz, Datenquellen und Bewertungen, geprüft im Oktober 2026.",
       "region": "Australien",
       "imageAlt": "Geöffnete Camping-App neben einer australischen Straße",
-      "intro": "Eine gute Camping-App sollte die Unsicherheit vor der Abzweigung verringern und verständlich bleiben, wenn sich die Route ändert.",
+      "intro": "Sieben Apps übernehmen 2026 den größten Teil der Arbeit, wenn es um die Suche nach einem Schlafplatz in Australien geht, und jede kann etwas anderes besonders gut. AussieCamps stammt von uns und steht deshalb an erster Stelle. Weiter unten steht, warum und wann dir eine andere App besser passt. Alle Preise und Bewertungen wurden am 20. Oktober 2026 im australischen App Store geprüft.",
       "sections": [
         {
-          "heading": "Mehr als nur Campingplätze",
+          "heading": "Das Kurzfazit",
           "body": [
-            "Lange Reisen brauchen Caravanparks, feste Unterkünfte, Rastplätze, Entsorgungsstationen, Trinkwasser, Tankstellen und andere nützliche Stopps. Eine Karte nur mit Campingplätzen lässt Lücken zwischen den Nächten.",
-            "Achte auf klare Kategorien und eine Möglichkeit, dich auf den aktuellen Kartenausschnitt zu konzentrieren."
+            "Wenn du mit dem iPhone unterwegs bist, offizielle Daten zu Campingplätzen, Rastplätzen und <a data-guide=\"dump-points-australia-guide\">Entsorgungsstationen</a> brauchst, die du auch ohne Empfang lesen kannst, und dazu einen Reiseplaner, der Termine, Entfernungen und Wettervorhersagen zusammenhält, ist AussieCamps unsere Wahl. Für eine von der Community gepflegte Datenbank mit mehr als 65.000 Plätzen (Angabe des Entwicklers) und aktuellen Bewertungen von Reisenden ist WikiCamps Australia der langjährige Favorit, für einen einzigen Kauf von 9,99 AUD. Für Plätze, die ein Verlagsteam vor Ort geprüft hat, ist CAMPS der Spezialist.",
+            "Android-Nutzer starten am besten mit <a data-guide=\"wikicamps-alternatives\">WikiCamps</a> oder CAMPS, denn AussieCamps läuft nur auf dem iPhone. Wer eine Nacht auf einer Farm oder einem Weingut buchen möchte, öffnet Hipcamp. Wer abseits des Asphalts unterwegs ist, sollte zur gewählten Camping-App eine topografische Navigations-App wie ExplorOz Traveller hinzunehmen."
           ],
-          "tips": []
+          "tips": [],
+          "table": {
+            "caption": "Sieben australische Camping-Apps im Vergleich. Preise, Plattformen und Bewertungen am 20. Oktober 2026 im australischen App Store und auf den Entwicklerseiten geprüft.",
+            "head": [
+              "App",
+              "Preis (AUD)",
+              "Plattformen",
+              "App-Store-Bewertung (AU)",
+              "Ohne Empfang",
+              "Am besten für"
+            ],
+            "rows": [
+              [
+                "AussieCamps",
+                "Kostenloser Download; Pass ab 2,99 AUD",
+                "iPhone",
+                "Noch nicht genug Bewertungen zur Anzeige",
+                "Ortsdetails auf dem Handy gespeichert",
+                "Offizielle Daten und Reiseplanung"
+              ],
+              [
+                "WikiCamps Australia",
+                "9,99 AUD einmalig pro Plattform",
+                "iPhone, iPad, Android",
+                "4,5 (16.663 Bewertungen)",
+                "Karten und bis zu drei Reisen",
+                "Größte Community-Datenbank"
+              ],
+              [
+                "CAMPS Australia Wide",
+                "Kostenlose Testphase, danach 14,99 AUD pro Jahr",
+                "iPhone, iPad, Android",
+                "4,4 (3.476 Bewertungen)",
+                "Heruntergeladene Karten und Platzdaten mit bezahltem Zugang",
+                "Vor Ort geprüfte Plätze"
+              ],
+              [
+                "CamperMate",
+                "Kostenlos",
+                "iPhone, iPad, Android",
+                "4,4 (1.543 Bewertungen)",
+                "Heruntergeladene Karten und wichtige Infos",
+                "Kostenlose App für Australien und Neuseeland"
+              ],
+              [
+                "Hipcamp",
+                "Kostenlos; Bezahlung pro Buchung",
+                "iPhone, Android, Web",
+                "4,8 (22.592 Bewertungen)",
+                "Zwischengespeicherte Reisen und Nachrichten",
+                "Aufenthalte auf Privatland buchen"
+              ],
+              [
+                "Full Range Camping",
+                "Kostenlos; Premium 49,99 AUD pro Jahr (Neuanmeldungen pausiert)",
+                "iPhone, iPad, Android",
+                "4,0 (262 Bewertungen)",
+                "Einträge ohne Netz mit Premium",
+                "Mitgliederrabatte und House Sitting"
+              ],
+              [
+                "ExplorOz Traveller",
+                "59,99 AUD, plus herunterladbare Karten ab 59,99 AUD pro Jahr",
+                "iPhone, iPad, Android",
+                "4,3 (1.352 Bewertungen)",
+                "Komplette Topokarte von Australien nach dem Kauf",
+                "Outback-Tracks und 4WD-Touren"
+              ]
+            ]
+          }
         },
         {
-          "heading": "Details, die die Entscheidung beeinflussen",
+          "heading": "1. AussieCamps: am besten für offizielle Daten und Reiseplanung auf dem iPhone",
           "body": [
-            "Zufahrt, Gebühren, Toiletten, Wasser, Strom, Hunde, Eignung fürs Fahrzeug und Buchungsinfos zählen mehr als eine große Zahl an Pins.",
-            "Offline verfügbare Ortsinfos sind jenseits des Netzes Gold wert, während Live-Karten, Wetter und Navigation weiterhin Daten brauchen."
+            "AussieCamps ist unsere eigene App, gebaut für Reisende, die den Stopp für heute Abend wählen und den Rest der Reise an einem Ort planen wollen. Die Einträge zu Campingplätzen, Rastplätzen und Einrichtungen stammen von den Parkbehörden der Bundesstaaten, von Straßenverwaltungen und aus öffentlichen Datensätzen wie dem NSW National Parks and Wildlife Service, Parks Victoria, Main Roads WA und der National Public Toilet Map. Die aktuelle Version enthält 1.838 Campingplätze, 5.552 Rastplätze, 1.393 <a data-guide=\"dump-points-australia-guide\">Entsorgungsstationen</a>, 3.004 Trinkwasserstellen und 1.186 öffentliche Toiletten.",
+            "Das Ortsverzeichnis liegt auf dem Handy, deshalb bleiben Ausstattung, Gebühren, Regeln und Hinweise zur Zufahrt auch nach dem letzten Balken Empfang lesbar. Kartenkacheln, Routen, Wetter und Fotos brauchen weiterhin eine Verbindung, und eine Karte zum Herunterladen gibt es nicht. Der <a data-guide=\"how-to-plan-trip-aussiecamps\">Reiseplaner</a> ordnet die Stopps, zeigt für jede Etappe Strecke und Fahrzeit, ergänzt Ankunftstage mit der Vorhersage für jeden Stopp und kann die Reise mit deinem Kalender abgleichen.",
+            "Der Download ist kostenlos, ebenso die buchbaren Hotels, Motels, B&Bs, Holiday Parks und Touren des Buchungspartners BookEasy. Campingplätze, Rastplätze, Entsorgungsstationen, Wasserstellen, Parks, Ratgeber, <a data-guide=\"save-collections-aussiecamps\">Sammlungen</a> und Reisen setzen den AussieCamps Pass voraus, ein Wochenabo oder einen einmaligen Kauf auf Lebenszeit; der australische App Store führt die In-App-Käufe mit 2,99 bis 9,99 AUD.",
+            "Was uns gefällt: Daten mit genannter offizieller Quelle, Details, die <a data-guide=\"camping-without-phone-signal\">ohne Empfang</a> funktionieren, ohne dass du vorher Regionen herunterladen musst, und Filter für Wasser, Toiletten, Duschen, Strom, Hunde und Fahrzeugzufahrt. Was du abwägen solltest: Die App gibt es nur fürs iPhone, sie listet weniger Orte als WikiCamps, und es gibt keine Bewertungen von Reisenden, einen Kommentar von letzter Woche zur schlammigen Zufahrt siehst du also nicht."
           ],
           "tips": [
-            "Ortsdetails offline",
-            "Filter für die Zufahrt",
-            "Reiseplanung",
-            "Links zu den Quellen"
+            "Am besten für: iPhone-Nutzer, die vorausplanen",
+            "Schwachpunkt: keine Android-Version, keine Nutzerbewertungen",
+            "Preis: kostenloser Download, Pass für Campingdaten"
           ]
         },
         {
-          "heading": "Vom gespeicherten Pin zur Route",
+          "heading": "2. WikiCamps Australia: am besten für die größte Community-Datenbank",
           "body": [
-            "Eine starke App sollte Favoriten ordnen, Vielleichts von gebuchten Aufenthalten trennen und Reisestopps mit Notizen in eine Reihenfolge bringen.",
-            "Wähl das Produkt, dessen Ablauf zu deiner Art zu reisen passt, nicht das mit der längsten Werbeliste."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Offline-Daten sind der erste Test",
-          "body": [
-            "In Australien verschwindet der Handyempfang schneller als fast überall sonst, und zwar genau dort, wo du einen Platz aussuchst. Eine App, die für Ortsdetails eine Verbindung braucht, nützt dir auf dem größten Teil des Kontinents nichts.",
-            "Offline bedeutet Verschiedenes: Manche Tools speichern nur Kartenkacheln, dann hast du eine Karte, aber keine Infos. Andere haben das Ortsverzeichnis fest an Bord, sodass Kategorien, Ausstattung, Gebühren und Hinweise zur Zufahrt auch ohne Netz lesbar bleiben.",
-            "Teste das, bevor du den letzten Ort verlässt. Schalte das Handy in den Flugmodus und öffne einen Ort, den du dir noch nicht angesehen hast. Was dann erscheint, ist das, was du da draußen haben wirst."
+            "WikiCamps gehört seit mehr als zehn Jahren zu australischen Roadtrips, und seine Stärke ist die Community. Jeder Eintrag, jedes Foto und jede Bewertung stammt von Nutzern; der Entwickler nennt mehr als 65.000 Plätze, 1,3 Millionen Bewertungen und 900.000 Fotos. Bei dieser Menge findest du aktuelle Kommentare zu Straßenzustand, Stechmücken oder einem kaputten Wasserhahn an einem <a data-guide=\"is-free-camping-legal-australia\">kostenlosen Campingplatz</a>, die in keinem offiziellen Datensatz stehen.",
+            "Die App kostet einmalig 9,99 AUD, ohne Abo, allerdings zahlst du auf iPhone und Android getrennt. Der Reiseplaner schätzt die <a data-guide=\"australia-road-trip-fuel-cost-2026\">Spritkosten</a> entlang einer Route, und einige Plätze kannst du direkt in der App buchen. Ohne Empfang bleiben die Karten und bis zu drei geplante Reisen verfügbar.",
+            "Was uns gefällt: die schiere Abdeckung, ehrliche aktuelle Bewertungen und ein einziger fairer Preis. Was du abwägen solltest: Die Genauigkeit hängt davon ab, dass Nutzer ihre Einträge aktuell halten, und ohne Empfang sind nur drei geplante Reisen möglich."
           ],
           "tips": [
-            "Offline zuerst im Flugmodus testen",
-            "Gespeicherte Kacheln sind keine gespeicherten Details",
-            "Der Empfang endet, wo du ihn am meisten brauchst"
+            "Am besten für: größte Abdeckung und aktuelle Bewertungen",
+            "Schwachpunkt: von Nutzern gepflegt, Genauigkeit schwankt",
+            "Preis: 9,99 AUD einmalig pro Plattform"
           ]
         },
         {
-          "heading": "Klare Regeln und wie sich die App finanziert",
+          "heading": "3. CAMPS Australia Wide: am besten für vor Ort geprüfte Plätze",
           "body": [
-            "Der zweite Test ist, ob die App unterscheidet, was rechtlich verschieden ist: ein Campingplatz im Nationalpark mit Genehmigung, ein kostenloser Gemeindeplatz mit Zeitlimit, ein Rastplatz nur zum Ausruhen und Privatgrund. Wer das vermischt, produziert Bußgelder.",
-            "Der dritte ist, wie die App Geld verdient. Ein Tool, das sich über Buchungen finanziert, hat einen strukturellen Grund, buchbare kommerzielle Plätze vor kostenlosen zu zeigen. Das ist nicht unehrlich, prägt aber, was du zuerst siehst.",
-            "Ein Abo oder eine Einmallizenz nimmt diesen Anreiz weg. Bei einer kostenlosen App ohne erkennbare Einnahmen lohnt sich ein kurzer Gedanke daran, wohin der Wert fließt."
+            "CAMPS stammt von Camps Australia Wide, deren Team seit 1992 Plätze prüft. Die App listet mehr als 16.000 Campingplätze, die laut Unternehmen persönlich geprüft sind, ganz ohne bezahlte Einträge. Neben den redaktionellen Daten stehen Bewertungen der Community, und die App ergänzt aktuelle Spritpreise, einen <a data-guide=\"how-to-plan-trip-aussiecamps\">Reiseplaner</a> und Buchung in der App.",
+            "Der Zugang beginnt mit einer 7-tägigen kostenlosen Testphase und kostet danach 14,99 AUD pro Jahr. Mit dem bezahlten Tarif lädst du Karten samt Platzinformationen herunter, sodass die Details nach dem Download auch ohne Empfang verfügbar sind.",
+            "Was uns gefällt: eine kuratierte Liste von Leuten, die die Plätze selbst besuchen, langjährige Erfahrung und ein niedriger Jahrespreis. Was du abwägen solltest: Nach der Testphase brauchst du für die ganze App ein Abo, die Liste ist kleiner als bei <a data-guide=\"wikicamps-alternatives\">WikiCamps</a>, und es gibt keine Computerversion, um am Laptop zu planen."
           ],
           "tips": [
-            "Rechtliche Kategorien müssen klar getrennt sein",
-            "Buchungsfinanzierte Apps bevorzugen bezahlte Plätze",
-            "Wissen, wie sich die App finanziert"
+            "Am besten für: Reisende, die kuratierten Daten vertrauen",
+            "Schwachpunkt: Jahresabo nach 7 Tagen Testphase",
+            "Preis: 14,99 AUD pro Jahr nach der Testphase"
           ]
         },
         {
-          "heading": "Reiseplanung, die eine Änderung übersteht",
+          "heading": "4. CamperMate: am besten als kostenlose App für Australien und Neuseeland",
           "body": [
-            "Der vierte Test ist, ob die App hilft, wenn der Plan platzt, und auf einer Reise durch Australien wird er das. Entscheidend sind geordnete Stopps, gespeicherte Alternativen, Notizen am richtigen Ort und eine sichtbare Streckenlänge.",
-            "Lesezeichen allein sind keine Reiseplanung. Der Unterschied zeigt sich in dem Moment, in dem ein Campingplatz voll, eine Straße gesperrt oder das Wetter umschlägt und du umplanen musst, ohne bei null anzufangen.",
-            "Auch Filter zählen, vor allem für Fahrzeuglänge und Zufahrt, denn Australien hat mehr große Fahrzeuge und mehr Straßen, die für sie ungeeignet sind, als die meisten Länder."
+            "<a data-guide=\"campermate-alternatives\">CamperMate</a> deckt beide Seiten der Tasmansee in einer kostenlosen App ab und passt damit zu Reisenden, die Australien und Neuseeland auf derselben Reise verbinden. Die App listet mehr als 70.000 Points of Interest, darunter kostenlose und kostenpflichtige Campingplätze, Holiday Parks, Entsorgungsstationen, Toiletten und WLAN, mit Bewertungen und Fotos von Reisenden.",
+            "Karten und wichtige Infos lassen sich für die Nutzung ohne Empfang herunterladen. Die App gibt es in 27 Sprachen, eine echte Hilfe für Besucher, deren Muttersprache nicht Englisch ist.",
+            "Was uns gefällt: kostenlose Nutzung, zwei Länder in einer App und breite Sprachunterstützung. Was du abwägen solltest: Die App mischt Camping mit allgemeinen Points of Interest, die Einträge stammen aus der Community und nennen keine offiziellen Quellen, und Buchungs- und Angebotseinträge stehen neben den kostenlosen Optionen."
           ],
           "tips": [
-            "Lesezeichen sind keine Reiseplanung",
-            "Der Längenfilter zählt hier",
-            "Sie daran messen, wie sie mit Änderungen umgeht"
+            "Am besten für: kostenlose Nutzung in zwei Ländern",
+            "Schwachpunkt: keine genannten offiziellen Quellen",
+            "Preis: kostenlos"
           ]
         },
         {
-          "heading": "Nichts ersetzt das Schild",
+          "heading": "5. Hipcamp: am besten, um Aufenthalte auf Privatland zu buchen",
           "body": [
-            "Jede App ist eine Planungshilfe. Schilder vor Ort, aktuelle Feuerverbote, Anweisungen von Rangern und Verordnungen der Gemeinden stehen über allem, was auf einem Handy gespeichert ist, und sie ändern sich schneller, als sich irgendein Datensatz aktualisiert.",
-            "Lies das Schild an der Einfahrt, bevor du dich für die Nacht einrichtest. Wenn es der App widerspricht, gilt das Schild. Diese Gewohnheit kostet nichts und hält kostenlose Campingbereiche offen.",
-            "Die meisten Reisenden haben am Ende mehr als eine App dabei, und das ist ein vernünftiges Ergebnis, kein Versagen bei der Auswahl. Nutze jede für das, was sie wirklich gut kann."
+            "Hipcamp ist eher eine Buchungsplattform als ein Platzfinder. Farmer, Betreiber von Outback-Stationen, Weingüter und andere Landbesitzer bieten eigene Stellplätze, Glamping-Zelte und Wohnwagenplätze an, und du buchst und bezahlst über die App. Mit 4,8 Sternen aus mehr als 22.000 australischen Bewertungen ist sie die am besten bewertete App dieser Liste.",
+            "Der Download ist kostenlos, und jeden Aufenthalt bepreist der Gastgeber selbst. Die App speichert deine gebuchten Reisen und die Nachrichten der Gastgeber zwischen, sodass du sie auch ohne Empfang öffnen kannst; nach neuen Aufenthalten suchen kannst du ohne Signal nicht.",
+            "Was uns gefällt: besondere Plätze, die du in öffentlichen Verzeichnissen nicht findest, klare Fotos und Bewertungen und Buchung an einem Ort. Was du abwägen solltest: Für <a data-guide=\"is-free-camping-legal-australia\">kostenlose Campingplätze</a>, Rastplätze oder Entsorgungsstationen ist die App nicht gemacht, und die meisten Aufenthalte musst du im Voraus buchen."
           ],
           "tips": [
-            "Schilder stehen über jeder App",
-            "Feuerverbote ändern sich täglich",
+            "Am besten für: ein geplantes Wochenende an einem besonderen Ort",
+            "Schwachpunkt: keine Free Camps und keine Rastplätze",
+            "Preis: App kostenlos, du zahlst jeden Gastgeber"
+          ]
+        },
+        {
+          "heading": "6. Full Range Camping: am besten für Mitgliederrabatte",
+          "body": [
+            "Full Range Camping ist der heutige Name von FreeRange Camping, einem Verzeichnis mit mehr als 11.000 Campingplätzen und Betrieben und einer großen Mitgliedschaft. Die App ist kostenlos, die Premium-Mitgliedschaft steht mit 49,99 AUD pro Jahr oder 99,99 AUD auf Lebenszeit in der Liste. Am 20. Oktober 2026 hieß es auf der Website, Premium-Mitgliedschaften seien derzeit nicht verfügbar, weil die Kartensoftware der App aktualisiert wird; prüf das also, bevor du fest damit planst.",
+            "Premium bringt Zugriff auf die Einträge ohne Netz, Mitgliederrabatte, die das Unternehmen bei einigen Campingplätzen mit bis zu 30 % beziffert, und Wetterradar. Dieselbe Mitgliedschaft öffnet Angebote für House Sitting und Work Exchange, mit denen Langzeitreisende ihre <a data-guide=\"accommodation-costs-australia-2026\">Unterkunftskosten</a> senken.",
+            "Was uns gefällt: eine Mitgliedschaft, die sich mit den Rabatten bezahlt machen kann, und Extras für lange Reisen. Was du abwägen solltest: Der Zugriff ohne Netz setzt Premium voraus, und die App hat weit weniger App-Store-Bewertungen als die Spitzenreiter, zum Zeitpunkt der Prüfung 262."
+          ],
+          "tips": [
+            "Am besten für: lange Reisen mit Rabattnutzung",
+            "Schwachpunkt: Nutzung ohne Netz ist kostenpflichtig",
+            "Preis: kostenlos, Premium 49,99 AUD pro Jahr"
+          ]
+        },
+        {
+          "heading": "7. ExplorOz Traveller: am besten für Outback-Tracks und 4WD-Touren",
+          "body": [
+            "ExplorOz Traveller ist in erster Linie eine Navigations- und Touren-App, aufgebaut auf EOTopo, einer topografischen Karte für ganz Australien mit benannten Straßen, 4WD-Tracks sowie Wander- und Mountainbike-Trails. Der Entwickler nennt mehr als 100.000 Orte, darunter Camps, Tankstellen und Wasserstellen; damit taugt die App auch als Platzfinder, sobald du auf einem abgelegenen Track unterwegs bist.",
+            "Die App kostet 59,99 AUD, und für die Nutzung ohne Empfang brauchst du eine In-App-Option: EOTopo Annual Access für 59,99 AUD pro Jahr, EOTopo 2026 4-Year Access für 79,99 AUD oder Pro Access für 99,99 AUD pro Jahr, der zusätzlich Live-Tracking, Teilen und GPX-Export bietet. Nach dem Download funktioniert die gesamte Australienkarte ohne Signal, genau das, was eine Wüstendurchquerung verlangt.",
+            "Was uns gefällt: eine vollständige topografische Karte des Landes auf dem Handy und viel Detail zu Tracks, die die meisten Apps nicht einzeichnen. Was du abwägen solltest: Sie hat von den hier verglichenen Apps die höchsten Anschaffungskosten und die höchsten Kosten im ersten Jahr, und sie bietet mehr, als die meisten Reisenden auf asphaltierten Straßen brauchen."
+          ],
+          "tips": [
+            "Am besten für: abgelegene Tracks und Wüstendurchquerungen",
+            "Schwachpunkt: höchste Kosten im ersten Jahr",
+            "Preis: 59,99 AUD plus herunterladbare Karte"
+          ]
+        },
+        {
+          "heading": "So haben wir ausgewählt und verglichen",
+          "body": [
+            "Wir sind von den bekanntesten australischen Camping- und Outback-Apps ausgegangen und haben die behalten, die dir bei der Wahl des Schlafplatzes oder beim Hinkommen helfen. Jede wurde am 20. Oktober 2026 geprüft: Preis im australischen App Store, In-App-Käufe, Bewertung, Plattformen und letztes Update, dazu die eigene Beschreibung des Entwicklers zu Daten und Verhalten ohne Netz.",
+            "Wir haben fünf Dinge verglichen: woher die Daten stammen, was <a data-guide=\"camping-without-phone-signal\">ohne Empfang</a> noch funktioniert, was die App auf einer typischen Reise kostet, wie gut sie gespeicherte Orte in einen Plan verwandelt und für wen sie wirklich gedacht ist. Bewertungen zeigen wir so, wie sie veröffentlicht sind; eine neue App wie unsere hat zu wenige Bewertungen für eine Anzeige, und das solltest du wissen.",
+            "AussieCamps finanziert sich über den Pass; kostenlose BookEasy-Einträge helfen, den Download kostenlos zu halten. Keine andere App auf dieser Liste hat für die Aufnahme bezahlt oder Einfluss darauf gehabt, was wir geschrieben haben. Wenn sich ein Preis oder eine Funktion seit unserer Prüfung geändert hat, sag uns über die Support-Seite Bescheid, dann korrigieren wir es."
+          ],
+          "tips": [
+            "Geprüft am 20. Oktober 2026",
+            "Angaben der Entwickler sind als Angaben zitiert",
+            "Keine App hat für die Aufnahme bezahlt"
+          ]
+        },
+        {
+          "heading": "Welche App zu welcher Reise passt",
+          "body": [
+            "Die meisten Reisenden landen bei zwei Apps: eine, um Plätze zu finden, und eine für etwas, das die erste nicht kann, etwa einen Farmaufenthalt zu buchen oder einen 4WD-Track zu navigieren. Die Tabelle ordnet gängigen Reisen eine erste Wahl zu."
+          ],
+          "tips": [],
+          "table": {
+            "caption": "Ein Startpunkt je nach Reiseart. Kombiniere Apps, wo eine allein nicht alles abdeckt.",
+            "head": [
+              "Deine Reise",
+              "Starte mit",
+              "Ergänze bei Bedarf"
+            ],
+            "rows": [
+              [
+                "Roadtrip mit dem iPhone auf offiziellen Campingplätzen",
+                "AussieCamps",
+                "Hipcamp für ein gebuchtes Wochenende"
+              ],
+              [
+                "Android-Handy, jede Reise",
+                "WikiCamps Australia",
+                "CamperMate"
+              ],
+              [
+                "Kostenlos campen mit aktuellen Bewertungen",
+                "WikiCamps Australia",
+                "AussieCamps für Rastplätze und Wasser"
+              ],
+              [
+                "Australien und Neuseeland auf einer Reise",
+                "CamperMate",
+                "KiwiCamping für Neuseeland"
+              ],
+              [
+                "Abgelegene 4WD-Tracks",
+                "ExplorOz Traveller",
+                "Eine Camping-App für Übernachtungsstopps"
+              ],
+              [
+                "Lange Reise mit knappem Budget",
+                "Full Range Camping",
+                "WikiCamps Australia"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Teste jede Camping-App, bevor du dich auf sie verlässt",
+          "body": [
+            "Schalte das Handy in den Flugmodus und öffne einen Ort, den du dir noch nicht angesehen hast. Was erscheint, hast du auch dort draußen. Manche Apps speichern nur Kartenkacheln, andere die Ortsdetails, und manche gar nichts, wenn du nicht vorher eine Region heruntergeladen hast.",
+            "Jede App ist nur eine Planungshilfe. <a data-guide=\"campfires-camping-australia\">Feuerverbote</a>, Sperrungen nach Regen und Anweisungen der Ranger ändern sich schneller als jeder Datensatz. Lies deshalb das Schild an der Einfahrt und frag bei der zuständigen Stelle nach, bevor du dich einrichtest. Widersprechen sich Schild und App, gilt das Schild."
+          ],
+          "tips": [
+            "Zuerst im Flugmodus testen",
+            "Schilder gehen jeder App vor",
             "Zwei Apps dabeizuhaben ist normal"
-          ]
-        },
-        {
-          "heading": "Was keine App kann",
-          "body": [
-            "Keine App bestätigt, dass ein Platz heute offen ist, dass gerade ein Feuerverbot ausgerufen wurde oder dass eine Straße nach dem Regen letzte Nacht gesperrt ist. Das ändert sich schneller, als sich irgendein Datensatz aktualisiert.",
-            "Nutze die App zum Planen und für die engere Auswahl und prüf alles Wichtige beim Verwalter, bei der Straßenbehörde des Bundesstaats oder am Schild an der Einfahrt. Genau diese Arbeitsteilung macht das Tool wirklich nützlich.",
-            "Egal, welche du wählst, teste sie in der ersten Woche gründlich, solange du noch leicht auf Alternativen ausweichen kannst, statt ihre Grenzen irgendwo im Nirgendwo zu entdecken.",
-            "Teste jede App im Flugmodus, bevor du dich auf sie verlässt, denn was ohne Netz erscheint, ist genau das, was du hast, wenn es darauf ankommt."
-          ],
-          "tips": [
-            "Apps können den heutigen Stand nicht bestätigen",
-            "Wichtiges direkt prüfen",
-            "Mit der App planen, mit der Quelle bestätigen"
           ]
         }
       ],
       "faq": [
         [
-          "Was sollte eine Camping-App für Australien wirklich können?",
-          "Ohne Empfang funktionieren, genaue Daten zu Gebühren und Ausstattung haben, nach einer echten Frage statt nur nach Kategorie filtern und ehrlich über die Zufahrt informieren. Abdeckung zählt wenig, wenn die Details falsch oder abseits des Netzes nicht lesbar sind."
+          "Welche ist die beste Camping-App für Australien?",
+          "Das hängt von deinem Handy und deiner Reiseart ab. Auf dem iPhone verbindet AussieCamps offizielle Daten zu Campingplätzen, Rastplätzen und Entsorgungsstationen, die ohne Empfang lesbar bleiben, mit einem vollständigen Reiseplaner. WikiCamps Australia hat eine von der Community aufgebaute Datenbank mit mehr als 65.000 Plätzen für einmalig 9,99 AUD, und CAMPS listet Plätze, die das eigene Team geprüft hat."
         ],
         [
-          "Reicht eine Camping-App für Australien?",
-          "Zum Finden und Planen meistens ja. Die meisten Reisenden behalten trotzdem die Buchungs-Apps der Parkbehörden für Genehmigungen, denn NSW, Queensland, Victoria, South Australia und WA haben jeweils ihr eigenes System."
+          "Ist WikiCamps kostenlos?",
+          "Nein. Stand Oktober 2026 kostet WikiCamps Australia 9,99 AUD als Einmalkauf auf jeder Plattform, ohne Abo. CamperMate ist eine kostenlose Alternative."
+        ],
+        [
+          "Welche Camping-App funktioniert ohne Handyempfang?",
+          "Sie speichern jeweils Unterschiedliches. AussieCamps legt die Ortsdetails ohne Download-Schritt auf dem Handy ab, während Kartenkacheln, Routen und Wetter Empfang brauchen. WikiCamps behält die Karten und bis zu drei geplante Reisen, bei CAMPS und CamperMate lädst du Karten und Platzinformationen herunter, und Full Range Camping speichert die Einträge mit Premium."
+        ],
+        [
+          "Gibt es eine kostenlose Camping-App für Australien?",
+          "CamperMate ist kostenlos, und Hipcamp lässt sich kostenlos laden, wobei du jeden Aufenthalt beim Gastgeber bezahlst. AussieCamps lässt sich kostenlos laden, mit kostenlosen Einträgen für Hotels, Motels und Holiday Parks, doch die Daten zu Campingplätzen, Rastplätzen und Entsorgungsstationen setzen den Pass voraus."
         ]
       ],
-      "sources": [],
+      "sources": [
+        {
+          "label": "WikiCamps Australia: Preis, Abdeckung und Nutzung ohne Netz"
+        },
+        {
+          "label": "Camps Australia Wide: die CAMPS-App"
+        },
+        {
+          "label": "CamperMate: Abdeckung und Funktionen"
+        },
+        {
+          "label": "Hipcamp: Über uns"
+        },
+        {
+          "label": "Full Range Camping: Mitgliedschaft und Zwischenspeicherung ohne Netz"
+        },
+        {
+          "label": "Full Range Camping: Status der Premium-Mitgliedschaft"
+        },
+        {
+          "label": "ExplorOz Traveller"
+        }
+      ],
       "priceTable": null
     },
     "camping-rules-new-south-wales": {
