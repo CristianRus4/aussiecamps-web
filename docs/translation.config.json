@@ -15,7 +15,6 @@
         "ko",
         "zh-hans",
         "zh-hant",
-        "nb",
         "cs",
         "pl"
       ],
@@ -52,10 +51,6 @@
         {
           "locale": "zh-hant",
           "path": "../lib/translations/zh-hant.json"
-        },
-        {
-          "locale": "nb",
-          "path": "../lib/translations/nb.json"
         },
         {
           "locale": "cs",
@@ -365,6 +360,58 @@
       },
       "styleGuide": {
         "da": "Follow docs/translation-style/da.md: native Danish travel-writer voice for Denmark, informal du, Danish number format (74.000, 2,08) and punctuation, autocamper/campingplads/tømmestation vocabulary, no calques, no offline-map claims."
+      }
+    },
+    {
+      "id": "aussiecamps-website-nb",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "nb"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "nb",
+          "path": "../lib/translations/nb.json"
+        }
+      ],
+      "protectedTerms": [
+        "AussieCamps",
+        "AussieCamping",
+        "AUD",
+        "Tourism Australia",
+        "Reserve Bank of Australia",
+        "Virgin Australia",
+        "New South Wales",
+        "Victoria",
+        "Queensland",
+        "South Australia",
+        "Western Australia",
+        "Tasmania",
+        "Northern Territory",
+        "Australian Capital Territory",
+        "Central Australia",
+        "Uluṟu",
+        "K'gari",
+        "Ikara",
+        "Tjoritja",
+        "Kakadu",
+        "Namadgi",
+        "BookEasy",
+        "App Store"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {},
+      "register": {
+        "nb": "informal"
+      },
+      "styleGuide": {
+        "nb": "Follow docs/translation-style/nb.md: natural Norwegian Bokmål travel-writer voice, informal du, bobil and campingplass vocabulary, Norwegian number and currency format, no offline-map claims."
       }
     }
   ]
