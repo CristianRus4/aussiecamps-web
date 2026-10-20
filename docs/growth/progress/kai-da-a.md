@@ -18,10 +18,11 @@ Working files: `/tmp/kai-da-a` (AGENT-BRIEF.md, mkbatch.py, qa.py, batches/, out
 - B10 road-trip loops (8 guides)
 
 ## Done
-- (nothing committed yet)
+- B1 complete (5 guides): dump-points, camping-rules-victoria, -south-australia, -act, -queensland (commit 24e1b6d has ACT/QLD, next commit SA/VIC/dump points).
+- B2 partial: road-signs, caravan-park-vs-holiday-park, towing done (24e1b6d).
 
 ## Next
-- B1 drafting (running), then native review, apply, stamp, content:check, commit.
+- B2b (camping-rules-northern-territory, melbourne-to-adelaide) drafting; B3a/B3b drafting.
 
 ## Blockers / notes
 - none
