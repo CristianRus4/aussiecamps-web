@@ -78,3 +78,22 @@ Research notes behind the "best apps" and "alternatives" guides. Each fact carri
 ### Park4Night
 - https://apps.apple.com/au/app/park4night/id430946556. Free; park4night+ A$2.99 a month or A$14.99 a year (offline mode). App Store AU 4.8 from 82 ratings. v7.3.8, 2026-08-03.
 - "Over 370,000 places listed worldwide"; no Australian coverage figure from the developer. Not used for Australia.
+
+## Alternatives research, checked 2026-10-20
+
+### WikiCamps Australia, more detail
+- One-off A$9.99 per platform; purchases cannot move between iOS and Android (https://support.wikicamps.co/hc/en-gb/articles/57872100733593). Family Sharing on iOS. No in-app purchases on the AU listing. No PC or web version: "Version 6 is currently only available on iOS and Android" (help article 57934122622873).
+- Ads: App Store "Contains Advertising"; developer added a small number of ad placements in reviews, fees and photos, and is considering a paid option to remove them (help article 57935411954201).
+- Offline: download the main "Australia" content first; maps, sites, reviews, ratings and fees; "a maximum of three trips for offline use"; offline distances are straight-line (help articles 57933988363289, 57934042716185; App Store release notes). Known issue: app can stall with no internet unless offline mode was set up first (help article 57934367805081).
+- Version 6 rebuild: older versions retired from March 2026; developer says it will "reintroduce key features over time" (help articles 57935317938329, 57935249462425). Recent AU reviews (Aug to Oct 2026) mention removed filters (4x4), filters resetting and logouts; a minority are positive.
+- Booking via "Book Now" handled by BookEasy (Book Australia) (help article 57872655090969). Trip Planner with fuel budget (help article 57933120336665).
+- Sister apps: WikiCamps NZ (bought separately), Fuel Map Australia.
+
+### CamperMate, more detail
+- Free, no in-app purchases on the AU listing; App Store lists advertising. Owned and operated by Outdoria Pty Ltd (https://campermate.com/en/page/terms-and-conditions). Started in NZ in 2006 (https://campermate.com/en/page/about-us).
+- Offline: "Download maps and access crucial info without an internet connection... no expiration"; v5.8 satellite view works offline (App Store).
+- 27 languages; bookings, deals, vehicle hire partners (Apollo, Maui, Britz, Mighty Camper, Camplify), holiday park partners (about page). Community reviews, photos, suggested places.
+- Recent AU reviews (Dec 2025 to Aug 2026) mention campsites failing to load in some regions and support delays; some 5-star reviews after updates.
+
+### StayFree Vanlife Camping AU NZ
+- https://apps.apple.com/au/app/stayfree-vanlife-camping-au-nz/id1439159740, StayFree GmbH. Free; Premium A$5.99 a month, A$14.99 for 3 months, A$29.99 a year. 3.9 from 36 AU ratings. v4.7.0, 2026-08-12. User-contributed; no offline claim. Not used yet (thin Australian evidence).

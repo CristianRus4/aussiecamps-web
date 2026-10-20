@@ -54,6 +54,7 @@ const targets: LinkTarget[] = [
   { pattern: /\bdomestic flights?\b/i, slug: "domestic-flight-costs-australia-2026" },
   { pattern: /\bGreyhound\b|\blong-distance (?:bus|train)\b|\bIndian Pacific\b|\bGhan\b/i, slug: "bus-train-costs-australia-2026" },
   { pattern: /\bcamping apps?\b/i, slug: "best-camping-app-australia" },
+  { pattern: /\bWikiCamps\b/, slug: "wikicamps-alternatives" },
   { pattern: /\bfilters\b/i, slug: "how-to-use-aussiecamps-filters" },
   { pattern: /\bcollections\b/i, slug: "save-collections-aussiecamps" },
   { pattern: /\btrip planner\b/i, slug: "how-to-plan-trip-aussiecamps" },

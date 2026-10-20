@@ -186,6 +186,12 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Which camping app works without phone signal?", "They keep different things. AussieCamps stores place details on the phone with no download step, while map tiles, directions and weather need signal. WikiCamps keeps maps and up to three planned trips, CAMPS and CamperMate let you download maps and site information, and Full Range Camping keeps listings offline with Premium."],
     ["Is there a free camping app for Australia?", "CamperMate is free, and Hipcamp is free to download with each stay paid to its host. AussieCamps is a free download with free hotel, motel and holiday park listings, but its campground, rest area and dump point data needs the Pass."],
   ],
+  "wikicamps-alternatives": [
+    ["What is a good alternative to WikiCamps?", "It depends on what you want to change. AussieCamps uses official park and road authority data with every place detail available offline on iPhone, CAMPS lists sites its own team has checked, and CamperMate is free and also covers New Zealand."],
+    ["Is there a free alternative to WikiCamps?", "CamperMate is free with no in-app purchases on the Australian App Store. Hipcamp is free to download, but you pay each host for a booking. AussieCamps is a free download, though its campground, rest area and dump point data needs the Pass."],
+    ["Is WikiCamps still worth it in 2026?", "For many travellers, yes: A$9.99 once per platform buys a community database its website puts at more than 65,000 sites, with no subscription. Version 6 changed some features, so read recent App Store reviews before you buy."],
+    ["Does WikiCamps have ads?", "Yes. The App Store lists advertising, and the developer says a small number of ads appear in the reviews, fees and photos sections. It has said it is considering a paid option to remove them."],
+  ],
 
   // --- Costs & budget -------------------------------------------------------
   "australia-travel-cost-2026": [
