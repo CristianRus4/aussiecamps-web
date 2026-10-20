@@ -15,10 +15,11 @@ best-road-trip-planner-apps-australia, best-free-camping-apps-australia (652 uni
   `npm run translations:stamp -- --locale <code>`, `npm run content:check`.
 
 ## Order and status
-- [ ] fr: drafting
-- [ ] es
+- [x] fr: committed 0c477e6 (652 units, Opus review + negation table done, stamped, content:check and npm run check pass)
+- [ ] es: Sonnet drafting in 3 chunks (/tmp/ava-al2/vals-es-{A,B,C}.json), then Opus review
 - [ ] it
 - [ ] pt
 
 ## Blockers / notes
-- none yet
+- es and it have no stamp file yet (meta/es.json, meta/it.json absent); after applying, stamp only this lane's keys so the other es/it guides are not silently accepted.
+- English source notes for the orchestrator: campermate-alternatives sections[0].body[0] says "downloaded offline maps" (competitor feature; translations say downloaded maps); free-camping sections[1].body[0] "those places are different things" is vague; the "Pass A$2.99 to A$9.99" figure is the in-app purchase range.
