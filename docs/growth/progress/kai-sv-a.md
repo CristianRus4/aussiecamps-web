@@ -16,10 +16,10 @@ Out of scope (another lane owns): wikicamps-alternatives, campermate-alternative
 - B10-B11 (road trips): tasmania-camping-loop, darwin-kakadu-litchfield-loop, sydney-south-coast-camping, nullarbor-crossing-camping-guide, queensland-outback-way, south-west-wa-camping-loop, victoria-high-country-camping, red-centre-way-camping, kangaroo-island-camping-guide, blue-mountains-camping-weekend, gibb-river-road-camping
 
 ## Done
-(nothing yet)
+- B1 (4531e7a), B2 (c4b81ce), B3 (next commit): 15 guides applied; sv guides complete 32/77 (7 listicles belong to another lane).
 
 ## Next
-B1-B3 drafting (sonnet high) then native review (opus medium), apply, lint, stamp, content:check, commit.
+B4 (drafted), B5, B6 drafting; review (opus medium) then negation re-read, apply, stamp, content:check, commit.
 
 ## Blockers
 none
