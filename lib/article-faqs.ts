@@ -1,5 +1,7 @@
 /**
  * Two questions per guide, in the words people search them, answered in two or three sentences.
+ * Comparison guides ("best apps", "alternatives") carry up to four, drawn from searches that name
+ * the competing apps.
  *
  * These are the guide's own questions, not the homepage's: a site that answers "what is
  * AussieCamps?" in twelve FAQPage blocks is competing with itself, so nothing here repeats a
@@ -179,8 +181,10 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Do widgets work without reception?", "The parts drawn from the bundled place data do. Anything live, such as weather, updates when there is a connection and shows the last value it had until then."],
   ],
   "best-camping-app-australia": [
-    ["What should a camping app for Australia actually do?", "Work with no reception, carry accurate fee and amenity data, filter to a real question rather than a category, and be honest about access. Coverage counts for little if the details are wrong or unreadable off-grid."],
-    ["Is one camping app enough for Australia?", "For finding and planning, usually. Most travellers still keep the state parks booking apps for permits, since NSW, Queensland, Victoria, South Australia and WA each run their own system."],
+    ["What is the best camping app in Australia?", "It depends on your phone and how you travel. On iPhone, AussieCamps pairs official campground, rest area and dump point data that stays readable without signal with a full trip planner. WikiCamps Australia has a community-built database of more than 65,000 sites for a one-off A$9.99, and CAMPS lists sites its own team has checked."],
+    ["Is WikiCamps free?", "No. As of October 2026, WikiCamps Australia costs A$9.99 as a one-off purchase on each platform, with no subscription. CamperMate is a free alternative."],
+    ["Which camping app works without phone signal?", "They keep different things. AussieCamps stores place details on the phone with no download step, while map tiles, directions and weather need signal. WikiCamps keeps maps and up to three planned trips, CAMPS and CamperMate let you download maps and site information, and Full Range Camping keeps listings offline with Premium."],
+    ["Is there a free camping app for Australia?", "CamperMate is free, and Hipcamp is free to download with each stay paid to its host. AussieCamps is a free download with free hotel, motel and holiday park listings, but its campground, rest area and dump point data needs the Pass."],
   ],
 
   // --- Costs & budget -------------------------------------------------------

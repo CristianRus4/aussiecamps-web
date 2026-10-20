@@ -15,8 +15,9 @@ import { APP_ID, APP_STORE_URL, APPLE_PROVIDER_TOKEN } from "@/lib/site";
  *   tool  tool pages                           hub    data hubs
  *   sb    Smart App Banner (affiliate-data)    qr     QR code
  *   dl    the /download/ redirect page         llms   /llms.txt
+ *   listicle  "best apps" and "alternatives" comparison guides (their in-article and end CTAs)
  */
-export const ctaPlacements = ["hdr", "hero", "card", "stick", "foot", "inl", "tool", "hub", "sb", "qr", "dl", "llms"] as const;
+export const ctaPlacements = ["hdr", "hero", "card", "stick", "foot", "inl", "tool", "hub", "sb", "qr", "dl", "llms", "listicle"] as const;
 export type CtaPlacement = (typeof ctaPlacements)[number];
 
 /** Apple truncates longer campaign tokens, which would merge distinct placements in the report. */
