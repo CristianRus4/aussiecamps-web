@@ -230,7 +230,8 @@ mistranslation (listed here with the replacement).
 ## 4. Search terms to lead with
 
 Australia: "Campen in Australien", "Camping Australien", "Campingplätze Australien", "Wohnmobil
-Australien", "Camper Australien", "kostenlos campen", "Freistehen", "Rastplätze", "Roadtrip
+Australien", "Camper Australien", "Camper mieten Australien Kosten" and "Australien mit Camper" (both
+seen in AussieCamps Search Console), "kostenlos campen", "Freistehen", "Rastplätze", "Roadtrip
 Australien", "Work and Travel Australien", "im Auto schlafen", "Autofahren in Australien",
 "Verkehrsregeln", "Spritpreise", "Reisekosten Australien 2026", "Lebensmittelpreise".
 
