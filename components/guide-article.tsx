@@ -4,7 +4,7 @@ import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { DownloadCard } from "@/components/download-card";
 import { ArticleCard } from "@/components/article-card";
-import { CoverImage } from "@/components/site-image";
+import { CoverImage, GuideFigure } from "@/components/site-image";
 import { SectionTable } from "@/components/article-table";
 import { SITE_URL, sitePath, type Article } from "@/lib/site";
 import { relatedGuides } from "@/lib/related";
@@ -20,6 +20,7 @@ export function GuideArticle({ item }: { item: Article }) {
   const schema = articleSchema(item, `${SITE_URL}${sitePath(`/guides/${item.slug}`)}`);
   // A date Google can see on the page, matching the one in the Article schema.
   const dates = articleDates(item.slug);
+  const placement = item.listicle ? "listicle" : "card";
 
   return <>
     <Header />
@@ -61,8 +62,10 @@ export function GuideArticle({ item }: { item: Article }) {
               <h2>{part.heading}</h2>
               {/* The only HTML here is the anchor linkProse inserted; the prose itself is escaped. */}
               {linkProse(part.body, item.slug).map((paragraph, position) => <p key={part.body[position]} dangerouslySetInnerHTML={{ __html: paragraph }} />)}
+              {part.figure && <GuideFigure src={part.figure.src} alt={part.figure.alt} />}
               {part.table && <SectionTable table={part.table} />}
               {part.tips && <div className="article-tips"><strong>Keep in mind</strong><ul>{part.tips.map((tip) => <li key={tip}>{tip}</li>)}</ul></div>}
+              {part.cta && <DownloadCard compact placement={placement} />}
             </section>)}
             {item.places.length > 0 && <section>
               <span className="section-count">MAP</span>
@@ -81,11 +84,11 @@ export function GuideArticle({ item }: { item: Article }) {
             </section>}
             <div className="article-end-cta">
               <div><p className="eyebrow">Take it on the road</p><h2>Save the stops. Plan the whole trip.</h2><p>Build an ordered route from saved places, calculate the distance and keep dates, notes and to-dos attached.</p></div>
-              <DownloadCard compact />
+              <DownloadCard compact placement={placement} />
             </div>
           </div>
           <aside>
-            <div className="article-side-card"><p className="eyebrow">Plan it in AussieCamps</p><h3>Save the places. Build the route.</h3><p>Order the stops, see the distance and keep notes and to-dos with the trip.</p><DownloadCard compact /></div>
+            <div className="article-side-card"><p className="eyebrow">Plan it in AussieCamps</p><h3>Save the places. Build the route.</h3><p>Order the stops, see the distance and keep notes and to-dos with the trip.</p><DownloadCard compact placement={placement} /></div>
             <nav className="on-this-page" aria-label="Page contents"><strong>On this page</strong>{item.sections.map((part) => <span key={part.heading}>{part.heading}</span>)}</nav>
           </aside>
         </div>

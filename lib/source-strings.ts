@@ -268,8 +268,8 @@ export const staticPages: Record<StaticPageKind, StaticPage> = {
         "Open a place's booking or contact details to check availability, price and terms with the provider. Prices in the app are reported figures, not live quotes.",
       ] },
       { heading: "Premium and account", paragraphs: [
-        "Map and place details are free, together with two saved lists.",
-        "Premium adds unlimited saved lists, trip planning, advanced filters, place weather and road trip routes.",
+        "AussieCamps is free to download, and the map and search show every place. Without the Pass, only bookable stays and tours from BookEasy open in full, along with a few guides.",
+        "The Pass opens campgrounds, rest areas, dump points, water, toilets and every guide, and unlocks saving places, collections and the trip planner.",
         "Open the Premium screen and use Restore Purchases while signed into the Apple account used for the original transaction.",
       ] },
     ],

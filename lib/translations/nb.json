@@ -1,6 +1,1958 @@
 {
   "locale": "nb",
-  "ui": {},
-  "pages": {},
-  "articles": {}
+  "ui": {
+    "languageName": "Norsk",
+    "metaTitle": "AussieCamps: campingkart og reiseplanlegger for Australia",
+    "metaDescription": "Over 74 000 campingplasser, caravanparker, gratisplasser, rasteplasser og tømmestasjoner i Australia. Stedsinfo uten dekning, skarpe filtre og en reiseplanlegger stopp for stopp på iPhone.",
+    "ogTitle": "AussieCamps: campingkartet og reiseplanleggeren for Australia",
+    "ogDescription": "Over 74 000 campingplasser, caravanparker, gratisplasser og nyttige stopp, lagret i appen og tilgjengelige uten dekning. Filtrer, lagre og planlegg hele runden.",
+    "metaKeywords": "campingapp Australia, camping i Australia, gratis camping Australia, fricamping Australia, campingplasser Australia, caravanparker Australia, bobil Australia, tømmestasjoner Australia, rasteplasser Australia, reiseplanlegger Australia, roadtrip Australia",
+    "metaGuidesTitle": "Guider til camping og roadtrip i Australia",
+    "metaGuidesDescription": "Campingregler for hver delstat, gratis camping og regler for rasteplasser, bålforbud, trafikksikkerhet, beste reisetid, hva det faktisk koster og praktisk planlegging av en roadtrip i Australia.",
+    "metaToolsTitle": "Kalkulatorer for roadtrip i Australia",
+    "metaToolsDescription": "Regn om australske priser, beregn drivstoff for turen, anslå en realistisk kjøredag, planlegg vann- og spillvannskapasitet og sammenlign priser på campingplasser.",
+    "metaSupportTitle": "Hjelp og vanlige spørsmål",
+    "metaSupportDescription": "Hjelp med kart, stedsinformasjon, filtre, samlinger, reiseplanleggeren, data uten dekning, valutaomregning og premiumtilgang i AussieCamps.",
+    "navFeatures": "Funksjoner",
+    "navGuides": "Guider",
+    "navTools": "Verktøy",
+    "navSupport": "Hjelp",
+    "download": "Last ned appen",
+    "downloadShort": "Last ned",
+    "updated": "Oppdatert",
+    "commonQuestions": "Vanlige spørsmål",
+    "altHero": "AussieCamps-kartet over Australia, med pinner for campingplasser, caravanparker og gratisplasser langs kysten og Utforsk-listen med steder i nærheten nederst",
+    "altPlaceScreen": "En stedsside i AussieCamps for en campingplass ved kysten, med pris, åpningsstatus, fasiliteter og bookinglenke",
+    "altCollectionsScreen": "Samlingssiden i AussieCamps med listene «Ønsker å besøke», «Besøkte», «Pinner» og «Alle lagret» over et satellittkart",
+    "altTripScreen": "En reiserute i AussieCamps med sju stopp, kjøreavstand, datoer og været ved hver campingplass",
+    "altExploreScreen": "Utforsk-listen i AussieCamps med campingplasser og caravanparker og avstanden til dem fra kartutsnittet",
+    "heroKicker": "Den beste campingappen for Australia",
+    "heroTitle": "Australia er stort, planen kan være enkel",
+    "heroText": "Over 74 000 steder i hele Australia, lagret i appen så de åpner selv uten dekning. Filtrer deg frem til akkurat det du trenger, lagre det og gjør kortlisten om til en roadtrip med rute, avstand, datoer, notater og gjøremål.",
+    "seeHow": "Se hvordan det virker",
+    "statPlaces": "74 000+",
+    "statPlacesLabel": "steder i hele Australia",
+    "statOffline": "Uten dekning",
+    "statOfflineLabel": "all stedsinformasjon er lagret i appen",
+    "statStays": "4 000+",
+    "statStaysLabel": "steder å overnatte",
+    "trustLine": "Campingplasser, caravanparker og nyttige stopp i hele Australia.",
+    "trustCampsites": "Campingplasser",
+    "trustCaravanParks": "Caravanparker",
+    "trustNationalParks": "Nasjonalparker",
+    "trustRestAreas": "Rasteplasser",
+    "trustUsefulStops": "Nyttige stopp",
+    "trustExperiences": "Opplevelser",
+    "processEyebrow": "Fra idé til landevei",
+    "processTitle": "Finn en plass. Lag turen.",
+    "processText": "Filtrer deg frem til kveldens plass, lagre morgendagens muligheter i samlinger og hold rute, avstand, datoer, notater og gjøremål samlet i én tur.",
+    "findTitle": "Finn akkurat det rette stedet",
+    "findText": "Søk blant over 74 000 steder, se hva som ligger i nærheten, eller legg på filtre til bare de gratis plassene med toalett og vann i ditt hjørne av kartet står igjen.",
+    "saveTitle": "Lagre det i en samling",
+    "saveText": "Lik, stjernemerk eller merk et sted som besøkt, så oppdaterer de smarte samlingene seg selv. Lag egne lister med navn for en region, en sesong eller en kortliste.",
+    "planTitle": "Gjør det om til en tur",
+    "planText": "Sett stoppene i rekkefølge, se avstanden mellom dem, legg til datoer og notater, sjekk været ved hvert stopp, få veibeskrivelse og kryss dem av underveis.",
+    "featuresEyebrow": "Hele verktøykassen",
+    "featuresTitle": "Finn det. Lagre det. Planlegg hele veien videre.",
+    "featuresText": "Utforsk steder, sammenlign detaljene, organiser favorittene og lag en tur som er like nyttig på veien som ved kjøkkenbordet.",
+    "featureMainEyebrow": "Kjenn stedet før du kommer dit",
+    "featureMainTitle": "Stedssiden viser med en gang det som avgjør valget.",
+    "featureMainText": "Bilder, en ordentlig beskrivelse, åpningstider, priser, vilkår, fasiliteter og egenskaper sortert etter type, aktuelle varsler, vurderinger, kontakt- og bookinginfo, været og Street View, så du ser innkjørselen fra veien.",
+    "featureList1": "Bilder, åpningstider, priser, vilkår og fasiliteter",
+    "featureList2": "Street View, vær og veibeskrivelse innebygd",
+    "featureList3": "Lagret i appen, åpner uten dekning",
+    "feature1Title": "Smarte samlinger og egne lister",
+    "feature1Text": "«Likte», «Stjernemerket», «Ønsker å besøke» og «Besøkte» fyller seg selv når du merker steder. Lag i tillegg egne samlinger for en region, en sesong eller kortlisten dere fortsatt krangler om.",
+    "feature2Title": "Filtre som svarer på et ekte spørsmål",
+    "feature2Text": "Be om gratis plasser med toalett og drikkevann rundt Gold Coast, og snevre inn videre etter kategori, pris, vurdering, nettbooking, delstat og detaljerte egenskaper for adkomst, fasiliteter, aktiviteter og tjenester.",
+    "feature3Title": "Standardkart, satellitt og 3D",
+    "feature3Text": "Bytt mellom standardkartet og satellittbilder du kan vippe og rotere til ekte terreng. Når du zoomer ut, samles pinnene i grupper med et tall. Zoomer du inn, deler de seg opp igjen.",
+    "feature4Title": "Street View før du svinger av",
+    "feature4Text": "Street View åpnes rett fra stedssiden der det finnes bilder, så du ser innkjørselen, veidekket og omgivelsene før du svinger av med bobilen.",
+    "feature5Title": "Vær for hvert sted",
+    "feature5Text": "Været nå og prognosen står på stedssiden og ved hvert stopp på turen, så du kan ta værmeldingen med i vurderingen når du skal velge mellom to plasser.",
+    "feature6Title": "Priser i din egen valuta",
+    "feature6Text": "På besøk og ikke vant med australske dollar? Velg valuta og angi kursen én gang, så ser du rapporterte priser også i en valuta du har følelsen for.",
+    "plannerEyebrow": "Hovedattraksjonen",
+    "plannerTitle": "Stopp for stopp. Dag for dag.",
+    "plannerText": "Alt annet i appen leder inn i reiseplanleggeren. Legg til lagrede steder som stopp og dra dem i den rekkefølgen du faktisk skal kjøre. Hver etappe viser avstanden, veibeskrivelsen til neste stopp er ett trykk unna, hvert stopp har egen dato, ankomstnotater og vær, og du krysser dem av som besøkt underveis. Alternativer i nærheten følger med for dagene som ikke går etter planen, pakkelisten ligger ved siden av reiseruten, og alt kan synkroniseres med Kalender.",
+    "plannerMetric1Title": "Avstand og veibeskrivelse",
+    "plannerMetric1Text": "etappe for etappe og for hele turen",
+    "plannerMetric2Title": "Datoer og notater",
+    "plannerMetric2Text": "knyttet til hvert stopp",
+    "plannerMetric3Title": "Besøkt og gjøremål",
+    "plannerMetric3Text": "fremdrift du kan se",
+    "plannerMetric4Title": "Vær for hvert stopp",
+    "plannerMetric4Text": "ved siden av reiseruten",
+    "routesEyebrow": "Guider verdt å lese først",
+    "routesTitle": "Kjenn reglene. Kjenn prisene.",
+    "routesText": "Praktiske guider om campingregler, trafikksikkerhet, beste reisetid og hva en tur i Australia faktisk koster.",
+    "exploreRoutes": "Se guidene",
+    "audiencesEyebrow": "Uansett hva du sover i",
+    "audiencesTitle": "Laget for telt, bobiler og lange runder.",
+    "audience1Title": "Backpackere",
+    "audience1Text": "Få et stramt budsjett og en fleksibel rute til å gå opp.",
+    "audience2Title": "Bobiler",
+    "audience2Text": "Finn fasilitetene, adkomsten og overnattingsstedene du trenger.",
+    "audience3Title": "Campingvogner og store bobiler",
+    "audience3Text": "Filtrer på plass, tjenester og praktisk info om adkomst.",
+    "audience4Title": "Helgecampere",
+    "audience4Text": "Ha favorittene i nærheten klare når fredagen kommer.",
+    "principlesTitle": "Nyttig først. Alltid ærlig.",
+    "principle1Title": "Skiltet slår skjermen",
+    "principle1Text": "Oppslag på stedet, forvalteren og gjeldende beredskapsråd går alltid foran en oppføring i appen.",
+    "principle2Title": "Sjekk det som gjelder nå",
+    "principle2Text": "Sjekk siste nytt om booking, veier, brannfare og stengninger før du drar.",
+    "principle3Title": "Forlat stedet bedre enn du fant det",
+    "principle3Text": "Lovlig camping, omtanke med avfall og respekt for aboriginsk land holder disse stedene åpne.",
+    "faqEyebrow": "Rett på sak",
+    "faqTitle": "Gode spørsmål. Klare svar.",
+    "faqIntro": "Ærlige svar om å reise med AussieCamps.",
+    "faq1q": "Hva er AussieCamps?",
+    "faq1a": "AussieCamps er en iPhone-app for å finne steder å campe og overnatte i hele Australia. Den har en katalog med over 74 000 steder lagret i appen, så informasjonen kan leses også uten dekning, og den gjør stedene du lagrer om til en roadtrip med rute i rekkefølge, datoer, notater og gjøremål.",
+    "faq2q": "Hvilke steder er med?",
+    "faq2a": "Over 74 000 steder: campingplasser, caravanparker, overnatting under tak, gårdsopphold og overnatting på outbackgårder, backpackerhosteller, rasteplasser langs veien, dagsområder, tømmestasjoner, drikkevann, vaskerier, turistinformasjon, parkering for lange kjøretøy, opplevelser og andre nyttige stopp.",
+    "faq3q": "Virker appen uten dekning?",
+    "faq3a": "Stedskatalogen følger med appen, så navn, kategorier, beskrivelser, priser, fasiliteter, åpningstider og vilkår kan leses langt utenfor dekning. Direktetjenester som vær, ruteplanlegging, Street View, bilder og tilbydernes nettsider trenger fortsatt nett.",
+    "faq4q": "Kan jeg planlegge en roadtrip med flere stopp?",
+    "faq4a": "Ja, det er appens viktigste funksjon. Legg til steder som stopp, dra dem i rekkefølge, gi hvert stopp en dato og ankomstnotater, se kjøreavstanden for hver etappe og for hele turen, åpne veibeskrivelsen til neste stopp, sjekk været ved hvert av dem, kryss av stopp som besøkt og ha pakkelisten ved siden av reiseruten. Detaljene i reiseruten kan synkroniseres med Kalender.",
+    "faq5q": "Hva er samlinger?",
+    "faq5a": "Det finnes to typer. Smarte samlinger («Likte», «Stjernemerket», «Ønsker å besøke», «Besøkte», «Pinner» og «Alle lagret») fyller seg selv når du merker steder. I tillegg kan du lage egne samlinger med navn, ikon og notater for en region, en sesong, et kjøretøy eller en kortliste.",
+    "faq6q": "Kan jeg filtrere på gratis plasser eller adkomst for campingvogn?",
+    "faq6a": "Ja, og på kombinasjoner av dem. Filtrene dekker kategori, pristype, laveste vurdering, nettbooking, delstat eller territorium og detaljerte grupper av egenskaper for adkomst, fasiliteter, aktiviteter, tjenester og tilknytning, så «gratis plasser med toalett og drikkevann i Queensland» er ett enkelt søk.",
+    "faq7q": "Hva står på stedssiden?",
+    "faq7a": "Bilder, en beskrivelse, åpningstider, priser, vilkår, fasiliteter og egenskaper sortert etter type, aktuelle varsler, vurderinger, kontakt- og bookinginfo, vær, Street View der det finnes bilder, veibeskrivelse og alternativer i nærheten.",
+    "faq8q": "Hvilke kartvisninger finnes?",
+    "faq8a": "Et standardkart og en satellittvisning bygget på Apples flyover-bilder, som du kan vippe og rotere for ekte 3D-terreng. Street View bygger på bildene fra Apples «Se deg rundt» og viser gatebildet rett fra stedssiden.",
+    "faq9q": "Kan jeg se prisene i min egen valuta?",
+    "faq9a": "Ja. Velg valuta i innstillingene og angi omregningskursen, så vises rapporterte priser i den valutaen ved siden av beløpet i australske dollar.",
+    "faq10q": "Kan jeg bestille en campingplass i AussieCamps?",
+    "faq10a": "Åpne bookinginfoen for stedet, så kommer du til tilbyderen og kan sjekke ledige plasser, priser og vilkår i sanntid.",
+    "faq11q": "Er campingreglene like i hele Australia?",
+    "faq11a": "Nei. Reglene varierer mellom delstater, territorier, kommuner, parker og den enkelte plassen. Følg alltid gjeldende skilting, forvalterens vilkår, brannrestriksjoner og offisielle varsler.",
+    "downloadEyebrow": "Neste plass venter der ute",
+    "downloadTitle": "Finn det. Lagre det. Planlegg veien videre.",
+    "downloadText": "Over 74 000 australske steder som virker uten dekning, filtre skarpe nok til å finne akkurat det rette, samlinger som ordner seg selv og en reiseplanlegger som holder hele ruten. AussieCamps for iOS.",
+    "guidesEyebrow": "Campingguider for Australia",
+    "guidesTitle": "Følg veien til et godt sted.",
+    "guidesIntro": "Grundige guider om campingplasser, regler, lokale priser og praktisk reiseplanlegging i hele Australia.",
+    "guideSingular": "guide",
+    "guidePlural": "guider",
+    "readGuide": "Les guiden",
+    "minuteRead": "min lesetid",
+    "places": "steder",
+    "backToGuides": "Guider",
+    "photoCredits": "Bildekreditering",
+    "keepInMind": "Verdt å huske",
+    "placesAlong": "Steder underveis",
+    "checkBefore": "Sjekk før du drar",
+    "checkText": "Regler og forhold endrer seg. Sjekk den offisielle kilden og siden for akkurat din park eller campingplass på nytt før du drar.",
+    "priceTitle": "Pristabell i 10 valutaer",
+    "pricesChecked": "Priser sjekket",
+    "conversionsUse": "Omregningene bruker RBA-kurser fra",
+    "item": "Vare",
+    "currencyDisclaimer": "Valutatallene er mekaniske omregninger av referanseprisen i AUD, ikke kurser for kort eller kontanter. Banker og betalingstjenester bruker egne kurser og gebyrer.",
+    "related": "Les også",
+    "takeRoad": "Ta den med på tur",
+    "savePlanTitle": "Lagre stoppene. Planlegg hele turen.",
+    "savePlanText": "Lag en rute i rekkefølge fra lagrede steder, regn ut avstanden og ha datoer, notater og gjøremål knyttet til turen.",
+    "toolsEyebrow": "Nyttige tall",
+    "toolsTitle": "Roadtrip-verktøy. Ingen mystisk matte.",
+    "toolsIntro": "Raske kalkulatorer for australske priser, avstander og kapasitet. Alle forutsetninger er synlige, så du kan bytte dem ut med tallene som passer ruten din.",
+    "currencyEyebrow": "Valutakalkulator",
+    "currencyTitle": "Regn om en australsk pris.",
+    "currencyText": "Veiledende omregning for reiseplanlegging, med kurser fra Reserve Bank of Australia. Banken eller kortet ditt kan bruke en annen kurs og legge på gebyrer.",
+    "fuelEyebrow": "Drivstoffkalkulator",
+    "fuelTitle": "Hva koster kjøringen?",
+    "fuelText": "Legg inn hele lengden på ruten, kjøretøyets forbruk med full last og forventet literpris. Langt ute på landet kan prisene ligge over referanseprisene i byene.",
+    "driveEyebrow": "Kjøredagsberegner",
+    "driveTitle": "Hvor lang tid dagen faktisk tar.",
+    "driveText": "Navigasjonsapper oppgir kjøretiden på en ideell vei. Her legges veitypen og de faktiske stoppene dine til, og det er der en dag som regel sprekker.",
+    "tankEyebrow": "Planlegger for vann og spillvann",
+    "tankTitle": "Hvor mange dager du kan stå fritt.",
+    "tankText": "Kapasitet i liter blir først nyttig når den regnes om til dager. Gråvannstanken blir som regel full før ferskvannstanken er tom, så begge vises.",
+    "campEyebrow": "Sammenlign campingpriser",
+    "campTitle": "Per person eller per plass?",
+    "campText": "En campingplass i en nasjonalpark tar som regel betalt per voksen, og en feriepark tar som regel betalt per plass. Hva som er billigst, snur med antall personer, og det overrasker mange familier.",
+    "amount": "Beløp",
+    "from": "Fra",
+    "to": "Til",
+    "labelDistance": "Avstand (km)",
+    "labelConsumption": "Forbruk (l/100 km)",
+    "labelFuelPrice": "Drivstoffpris (AUD/l)",
+    "labelRoadType": "Veitype",
+    "roadMotorway": "Motorvei eller lang rettstrekning",
+    "roadHighway": "Hovedvei",
+    "roadWinding": "Svingete eller langs kysten",
+    "roadNarrow": "Smal, bratt eller grus",
+    "labelStops": "Stopp",
+    "labelFresh": "Ferskvann (l)",
+    "labelGrey": "Gråvann (l)",
+    "labelPeople": "Personer",
+    "labelAdults": "Voksne",
+    "labelNights": "Netter",
+    "labelPerAdult": "Per voksen (AUD)",
+    "labelPerSite": "Per plass (AUD)",
+    "toolsReadingTitle": "Lag budsjettet ut fra oppdaterte referansepriser.",
+    "toolsReadingText": "Verktøyene regner ut nøyaktig det du legger inn. Kostnadsguidene våre forklarer hvor startverdiene kommer fra, når de ble sjekket og hva som kan endre sluttprisen.",
+    "toolsReadingLink": "Se kostnadsguidene",
+    "calculatorNote": "Kalkulatorene er planleggingshjelp, ikke sanntidspriser fra booking, bensinstasjoner eller valutamarkedet. Tankberegningene regner med omtrent 11 liter ferskvann og 9 liter gråvann per person per døgn, noe som varierer med dusjing og matlaging. Sjekk gjeldende priser før du kjøper.",
+    "enterValidValues": "Legg inn gyldige verdier",
+    "enterValidAmount": "Legg inn et gyldig beløp",
+    "daysFresh": "dager ferskvann",
+    "daysGrey": "dager gråvann",
+    "theSame": "det samme",
+    "perAdultCheaper": "per voksen er billigst",
+    "perSiteCheaper": "per plass er billigst",
+    "supportTitle": "Hva kan vi hjelpe deg med?",
+    "supportIntro": "Svar om å finne steder, lagre favoritter, planlegge turer og bruke AussieCamps på veien.",
+    "contact": "Kontakt kundestøtte",
+    "privacy": "Personvern",
+    "terms": "Vilkår",
+    "explore": "Utforsk",
+    "help": "Hjelp",
+    "getApp": "Last ned appen",
+    "travelGuides": "Reiseguider",
+    "footerText": "Finn over 74 000 australske steder som virker uten dekning, lagre dem som betyr noe, og lag komplette roadtrips med rute, avstand, datoer, notater og gjøremål.",
+    "footerLine": "Laget for den lange veien rundt Australia.",
+    "rulesSafety": "Regler og sikkerhet",
+    "roadTrips": "Roadtrips",
+    "campingGuides": "Campingguider",
+    "tripPlanning": "Reiseplanlegging",
+    "costsBudget": "Kostnader og budsjett",
+    "appGuides": "Appguider"
+  },
+  "pages": {
+    "support": {
+      "title": "Hva kan vi hjelpe deg med?",
+      "lede": "Klare svar om kart, lagrede steder, reiseplanlegging og veien videre.",
+      "sections": [
+        {
+          "heading": "Finne steder",
+          "paragraphs": [
+            "Bruk Utforsk til å søke på stedsnavn, adresse eller beskrivelse. Flytt kartet og velg å søke i området du ser, så samles treffene rundt kartutsnittet.",
+            "Filtrer på kategori, pris, vurdering, nettbooking, delstat og detaljerte grupper av egenskaper for adkomst, fasiliteter, aktiviteter og tjenester. Bruk bare filtrene som betyr noe, så gode alternativer fortsatt er synlige.",
+            "Fasiliteter, priser, adkomst og drift kan endre seg. Følg gjeldende skilting og forvalteren på stedet, og send oss gjerne en rettelse så katalogen blir bedre."
+          ]
+        },
+        {
+          "heading": "Lagrede steder",
+          "paragraphs": [
+            "«Likte», «Besøkte», «Ønsker å besøke» og «Stjernemerket» oppdateres automatisk når du merker steder. «Pinner» og «Alle lagret» gir deg andre raske oversikter.",
+            "Lag samlinger med navn, ikon og notater, og legg til hvilket som helst sted. Bruk dem for en region, en sesong, et kjøretøy eller en kortliste.",
+            "Appen støtter privat iCloud-synkronisering av lagrede markeringer, samlinger og turdata når iCloud er tilgjengelig og slått på."
+          ]
+        },
+        {
+          "heading": "Reiseplanleggeren",
+          "paragraphs": [
+            "Opprett en tur, legg til steder og dra dem i rekkefølge. Hvert stopp kan ha egen ankomstdato, notater, vær og besøkt-status, og planleggeren viser kjøreavstanden for hver etappe og for hele turen.",
+            "Ruteberegningen er avhengig av at MapKit kan gi veibeskrivelse. Planleggeren beholder stoppene selv om en etappe ikke lar seg beregne, men du må selv sjekke at veien er farbar.",
+            "Start med en ferdig liste over det viktigste campingutstyret, eller lag dine egne gjøremål. Turens fremdrift holder listen ved siden av reiseruten, og detaljene i reiseruten kan synkroniseres med Kalender."
+          ]
+        },
+        {
+          "heading": "Kart, vær og direktedata",
+          "paragraphs": [
+            "Bytt mellom standardkartet og en satellittvisning bygget på Apples flyover-bilder, som kan vippes og roteres til 3D-terreng. Street View bygger på bildene fra Apples «Se deg rundt» og åpnes fra stedssiden der det finnes bilder.",
+            "Været nå og prognosen krever nettilgang. Lagre viktige prognoser og offisielle farevarsler før du kjører ut av dekning.",
+            "Stedskatalogen følger med appen, så den viktigste stedsinformasjonen er tilgjengelig også der dekningen er dårlig. Direktekart, ruteplanlegging, vær, bilder og eksterne tilbyderes nettsider kan kreve dekning."
+          ]
+        },
+        {
+          "heading": "Priser og valuta",
+          "paragraphs": [
+            "Velg valuta i innstillingene og angi omregningskursen. Rapporterte priser vises da i den valutaen ved siden av beløpet i australske dollar, noe som hjelper når du er på besøk og ikke har følelsen for AUD.",
+            "Åpne booking- eller kontaktinformasjonen for et sted for å sjekke ledighet, pris og vilkår hos tilbyderen. Prisene i appen er rapporterte tall, ikke priser i sanntid."
+          ]
+        },
+        {
+          "heading": "Premium og konto",
+          "paragraphs": [
+            "AussieCamps er gratis å laste ned, og kartet og søket viser alle steder. Uten Pass får du bare full tilgang til opphold og turer fra BookEasy som kan bestilles, og til noen få guider.",
+            "Pass åpner campingplasser, rasteplasser, tømmestasjoner, vann, toaletter og alle guider, og gir tilgang til å lagre steder, til samlinger og til reiseplanleggeren.",
+            "Åpne Premium-skjermen og trykk på «Gjenopprett kjøp» mens du er logget inn med Apple-kontoen som ble brukt til det opprinnelige kjøpet."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "effective": "Gjelder fra 19. oktober 2026",
+      "title": "Personvernerklæring",
+      "lede": "AussieCamps hjelper deg å planlegge turen uten å gjøre reisen din om til en reklameprofil.",
+      "sections": [
+        {
+          "heading": "Informasjon som lagres på enheten din",
+          "paragraphs": [
+            "Lagrede steder, hvilke samlinger de hører til, turer, notater, punkter på sjekklister og innstillinger lagres slik at appen fungerer. Posisjonen din kan brukes til å vise hvor du er og steder i nærheten, etter at du har gitt tillatelse."
+          ]
+        },
+        {
+          "heading": "iCloud",
+          "paragraphs": [
+            "Når iCloud er tilgjengelig og slått på, kan appen bruke din private iCloud-database til å synkronisere lagrede markeringer, samlinger og appdata mellom enhetene dine. Apple leverer selve tjenesten og har egne vilkår for den."
+          ]
+        },
+        {
+          "heading": "Direktetjenester fra Apple",
+          "paragraphs": [
+            "Kartvisning, veibeskrivelse, «Se deg rundt», vær, kalenderintegrasjon og widgeter kan bruke rammeverk fra Apple. Forespørsler og databehandling for disse tjenestene reguleres av Apple. Appen får bare tilgang til kalenderen etter at du har gitt tillatelse, og bruker den til å legge inn informasjon fra reiseruten når du ber om det."
+          ]
+        },
+        {
+          "heading": "Eksterne lenker og logger på nettstedet",
+          "paragraphs": [
+            "Stedsinformasjonen kan åpne bookingtjenester, nettsider, profiler i sosiale medier, telefonnumre, e-postadresser og kartapper. Når du velger å åpne dem, mottar disse tjenestene informasjon etter sine egne retningslinjer.",
+            "Leverandørene som drifter nettstedet, kan behandle vanlige tekniske logger, som IP-adresse, nettlesertype og forespurt URL, for levering, stabilitet og sikkerhet."
+          ]
+        },
+        {
+          "heading": "Analyse av nettstedet",
+          "paragraphs": [
+            "Dette nettstedet bruker Google Analytics 4 for å forstå hvilke sider som leses og hvordan besøkende finner appen. Google behandler disse dataene på våre vegne som vår databehandler. For besøkende i EØS, Storbritannia og Sveits leveres tjenesten av Google Ireland Limited.",
+            "Analyseverktøyet registrerer hvilke sider du ser på, enhets- og nettlesertype, en omtrentlig plassering utledet fra IP-adressen din og hvilke App Store-lenker du klikker på. Google Analytics 4 logger eller lagrer ikke IP-adresser, og får aldri navnet ditt, e-postadressen din eller noe av det du lagrer i appen.",
+            "Analyseverktøyet bruker to førstepartskapsler: _ga og én med et navn som begynner med _ga_ etterfulgt av måle-ID-en vår. Begge varer i opptil 13 måneder. I EØS, Storbritannia og Sveits settes de først etter at du har godtatt dem. Inntil da lagres ingen analysekapsler, og Google mottar bare målinger uten informasjonskapsler og uten identifikator. Du kan når som helst endre valget ditt med lenken «Personvernvalg» nederst på hver side.",
+            "Google-signaler og annonsetilpasning er slått av, og analysedata slettes etter 14 måneder. Nettstedet bruker ingen sporingsverktøy for reklame."
+          ]
+        },
+        {
+          "heading": "Lagring og kontroll",
+          "paragraphs": [
+            "Du kan slette appdata i appen og administrere iCloud-data via Apple-kontoen din. Hvis du fjerner appen, kan lokale data bli slettet, mens synkroniserte kopier kan ligge igjen i iCloud til de slettes for seg."
+          ]
+        },
+        {
+          "heading": "Barn og kontakt",
+          "paragraphs": [
+            "AussieCamps er et generelt reiseverktøy og er ikke rettet mot barn. Ikke send personopplysninger om barn via kundestøtte.",
+            "Har du spørsmål om personvern, kan du kontakte kundestøtten for AussieCamps."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "effective": "Gjelder fra 12. august 2026",
+      "title": "Bruksvilkår",
+      "lede": "AussieCamps er et hjelpemiddel for planlegging. Appen erstatter ikke offisielle skilt, forvalterens anvisninger, farevarsler, trafikkinformasjon eller ditt eget ansvar for å reise innenfor det du mestrer.",
+      "sections": [
+        {
+          "heading": "Reiseinformasjon endrer seg",
+          "paragraphs": [
+            "Steder, priser, adkomst, fasiliteter, mobildekning, vær, brannforhold, veier og bookingordninger kan endres uten varsel. Kontroller viktige detaljer med ansvarlig myndighet eller tilbyder før du reiser, og igjen like før avreise."
+          ]
+        },
+        {
+          "heading": "Ingen garanti for booking eller adkomst",
+          "paragraphs": [
+            "At et sted er oppført, garanterer ikke at det er åpent, lovlig for ditt oppsett, tilgjengelig med ditt kjøretøy eller ledig. Eksterne lenker til booking og kontakt er lagt inn for å gjøre det enklere for deg. Avtaler inngås mellom deg og den eksterne tilbyderen."
+          ]
+        },
+        {
+          "heading": "Sikkerhet og lovlig bruk",
+          "paragraphs": [
+            "Du må følge skilt, tillatelser, stengninger, brannrestriksjoner, trafikkregler og anvisninger fra rangere, de tradisjonelle eierne (Traditional Owners), nødetater og forvaltere. Ikke bruk appen mens du kjører."
+          ]
+        },
+        {
+          "heading": "Brukerdata",
+          "paragraphs": [
+            "Du er selv ansvarlig for notater, reiseplaner og annen informasjon du lagrer. Ha egne kopier av tillatelser, bestillinger og sikkerhetskritiske planer der tap av tilgang kan sette turen i fare."
+          ]
+        },
+        {
+          "heading": "Kjøp",
+          "paragraphs": [
+            "Alle kjøp i appen behandles av Apple og er underlagt vilkårene som vises ved kjøpet. Funksjoner, pakker og priser kan endres der det er tillatt. Bruk Apples kjøpsverktøy for fakturering, oppsigelse og refusjon."
+          ]
+        },
+        {
+          "heading": "Immaterielle rettigheter og kontakt",
+          "paragraphs": [
+            "Merkevaren, grensesnittet og det originale redaksjonelle innholdet i AussieCamps tilhører rettighetshaveren. Stedsnavn og offentlige fakta forblir de opprinnelige kildenes eiendom eller ansvar.",
+            "Spørsmål kan sendes til kundestøtten for AussieCamps."
+          ]
+        }
+      ]
+    }
+  },
+  "articles": {
+    "alcohol-coffee-drink-prices-australia": {
+      "title": "Øl- og kaffepriser i Australia 2026: fatøl på pub 7–16 AUD",
+      "description": "En fatøl på pub koster 7–16 AUD og en cappuccino 4,50–8 AUD i Sydney (oktober 2026). Priser på øl og vin fra bottle shop, og slik holder du drikkeutgiftene nede.",
+      "region": "Australia",
+      "imageAlt": "Kaffe og drikke fra en australsk kafé på et bord",
+      "intro": "En fatøl på 500 ml på en pub i Sydney koster omtrent 7 til 16 AUD og en cappuccino 4,50 til 8 AUD, ifølge brukerpriser oppdatert i oktober 2026, mens en flaske øl på 500 ml fra en bottle shop koster omtrent 3,50 til 12 AUD på landsbasis. Drikke blir fort dyrt, én runde om gangen.",
+      "sections": [
+        {
+          "heading": "Butikkpris og pris på utested er to forskjellige ting",
+          "body": [
+            "På puben betaler du for lokalet, personalet og serveringen, ikke bare for det som er i glasset. Sammenlign like ting med like, og ikke oppgi prisen i en bottle shop som prisen på en skjenket drink.",
+            "Happy hour og tilbud varer ikke. Legg budsjettet etter de vanlige prisene, og se på rabatter som en buffer."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Vin fra bottle shop og i baren",
+          "body": [
+            "En flaske vin i mellomklassen på 750 ml koster omtrent 12 til 30 AUD i en bottle shop og gir rundt fem glass på 150 ml. Bestiller du den samme vinen på glass i en bar eller på en restaurant, koster den som regel langt mer per glass, så vinen er billigst når dere deler en flaske på campingplassen.",
+            "Noen restauranter, mest de uten skjenkebevilling, lar deg ta med egen flaske mot korkepenger, så du får middagsvin til bottle shop-pris. Spør om det når du bestiller bord, ikke først ved bordet."
+          ],
+          "tips": [
+            "Flaske i mellomklassen: 12–30 AUD",
+            "Rundt fem glass per flaske",
+            "Spør om BYO når du bestiller bord"
+          ]
+        },
+        {
+          "heading": "Hold styr på de små daglige utgiftene",
+          "body": [
+            "To kaffe og to drinker ute hver dag blir fort en stor sum i uken. Bestem deg for hvilke stopp som er verdt det, i stedet for å kjøpe av vane.",
+            "Ha <a data-guide=\"camping-water-planning\">drikkevann</a> lett tilgjengelig, og fyll bare på fra kraner med drikkevann. I varmen hører vann og skygge hjemme i sikkerhetsplanen, ikke i fornøyelsesbudsjettet."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Kaffen er en daglig utgiftspost",
+          "body": [
+            "Australia har en sterk kaffekultur, og selv i mindre byer ute i distriktene er kaffen virkelig god. Nettopp derfor blir den en egen post i budsjettet. To flat white om dagen for to personer blir mye penger, uten at det noen gang føles som et valg.",
+            "Med en mokkakanne eller en AeroPress i bobilen får du morgenkaffen for en brøkdel av kaféprisen, og kafébesøket blir noe du velger, ikke noe du gjør på autopilot.",
+            "Kaffen på et roadhouse holder i beste fall svært varierende kvalitet på de lange strekningene. På rutene i outbacken er det som regel både billigere og mye bedre å lage den selv."
+          ],
+          "tips": [
+            "To kopper om dagen blir fort mye",
+            "Lag morgenkaffen selv",
+            "Roadhouse-kaffe er så som så"
+          ]
+        },
+        {
+          "heading": "Slik kjøper du alkohol i Australia",
+          "body": [
+            "Alkohol til å ta med hjem selges for det meste i bottle shops med salgsbevilling, ofte vegg i vegg med et supermarked, men drevet for seg. Aldi og noen uavhengige dagligvarebutikker selger det likevel i selve butikken. Åpningstidene er regulert og varierer fra delstat til delstat.",
+            "Mange lokalsamfunn og regioner har alkoholrestriksjoner, særlig i Northern Territory, deler av <a data-guide=\"camping-rules-queensland\">Queensland</a>, Western Australia og South Australia. Tar du med alkohol inn i et område med restriksjoner, risikerer du strenge straffer.",
+            "Sjekk reglene før du kjører inn i avsidesliggende områder med alkohol i bilen. Restriksjonene håndheves etter loven og gjelder turister like mye som fastboende, og det hjelper ikke å si at du ikke visste om dem."
+          ],
+          "tips": [
+            "For det meste bottle shops, noen supermarkeder",
+            "Strenge straffer i områder med restriksjoner",
+            "Sjekk før du kjører inn i avsidesliggende strøk"
+          ]
+        },
+        {
+          "heading": "Promillegrensen og kjøredagen",
+          "body": [
+            "Den generelle grensen er 0,05 prosent for sjåfører med fullt førerkort, null for øvelseskjørere og sjåfører med prøveførerkort, og null eller 0,02 prosent for mange yrkessjåfører, avhengig av delstaten (0,02 i NSW). Tilfeldige promillekontroller er vanlige, også på landeveiene og midt på dagen.",
+            "På en roadtrip er det eneste trygge å holde drikking og kjøring helt adskilt: Overnatt der du drikker, avtal hvem som kjører, eller drikk først når bilen står parkert for natten.",
+            "Det er morgenen etter som overrasker folk. Kroppen trenger minst en time for å bryte ned hver alkoholenhet, ofte lenger, og verken kaffe eller en dusj får det til å gå raskere, så etter en våt kveld kan du fortsatt være over grensen langt utpå formiddagen."
+          ],
+          "tips": [
+            "0,05 % som hovedregel, null med øvelses- og prøveførerkort",
+            "Promillekontroller er vanlige, også på dagtid",
+            "Morgenen etter er fellen"
+          ]
+        },
+        {
+          "heading": "Vannet er det viktigste å få til",
+          "body": [
+            "Vann fra springen er trygt og godt i nesten alle australske byer og tettsteder, så flaskevann er nesten bare bortkastede penger. Ha med flasker du kan fylle på, og fyll fra en hvilken som helst kran med drikkevann i byen, på campingplassen eller i offentlige anlegg.",
+            "Langt fra folk og ute i bushen er det motsatt: Borevann kan være mineralrikt eller uegnet, tankvann er ubehandlet, og overflatevann i jordbruksområder kan inneholde kjemiske rester. Rens alt vann som ikke er merket drikkevann fra vannverket i en by.",
+            "Ha med en god termoflaske, så du alltid har kaldt vann for hånden i varmen. Det koster ingenting å fylle på."
+          ],
+          "tips": [
+            "Vann fra springen i byene er trygt",
+            "Borevann er ofte uegnet",
+            "Rens tankvann og overflatevann"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hva koster en øl i Australia?",
+          "En fatøl på 500 ml på en pub i Sydney koster omtrent 7,15 til 16 AUD ifølge brukerpriser fra oktober 2026, og en flaske på 500 ml fra en bottle shop omtrent 3,50 til 12 AUD på landsbasis. Å kjøpe i en bottle shop i stedet for i baren er en av de største besparelsene på en lang tur."
+        ],
+        [
+          "Hva koster en kaffe i Australia?",
+          "En vanlig cappuccino koster omtrent 4,50 til 8 AUD i Sydney og 4 til 8 AUD på landsbasis ifølge brukerpriser fra oktober 2026, og kafeer i sentrum ligger ofte øverst i spennet. To kaffer om dagen for to personer blir en reell utgiftspost på en lang tur."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Numbeo: drikkepriser i Sydney"
+        },
+        {
+          "label": "Numbeo: butikkpriser i Australia"
+        },
+        {
+          "label": "NSW Government: alkohol og bilkjøring"
+        },
+        {
+          "label": "NHMRC: hvor lang tid det tar å bryte ned alkohol"
+        },
+        {
+          "label": "Northern Territory: kjøp og drikking av alkohol"
+        }
+      ],
+      "priceTable": {
+        "note": "Prisspenn for Australia og Sydney innrapportert av brukere, oppdatert oktober 2026. Porsjonsstørrelse, utested, tilbud og sted varierer.",
+        "rows": [
+          {
+            "label": "Cappuccino (Sydney)",
+            "unit": "én kopp"
+          },
+          {
+            "label": "Fatøl på pub (Sydney)",
+            "unit": "ett glass"
+          },
+          {
+            "label": "Vin i mellomklassen (hele landet)",
+            "unit": "750 ml i butikk"
+          },
+          {
+            "label": "Tilsvarende australsk øl (hele landet)",
+            "unit": "tilsvarende 500 ml i butikk"
+          },
+          {
+            "label": "Brus (Sydney)",
+            "unit": "330 ml på utested"
+          }
+        ]
+      }
+    },
+    "eating-out-australia-prices-2026": {
+      "title": "Restaurantpriser i Australia 2026: rimelig måltid 20–45 AUD",
+      "description": "Et rimelig restaurantmåltid koster 20–45 AUD i Sydney, en fastfoodmeny 15–18 AUD og middag for to 80–200 AUD (oktober 2026). Tips og tilleggsgebyrer.",
+      "region": "Sydney som målestokk",
+      "imageAlt": "Måltid på en kafé med uteservering i en australsk by",
+      "intro": "Et måltid på en rimelig restaurant i Sydney koster omtrent 20 til 45 AUD per person, en fastfoodmeny 15 til 18 AUD og en middag med tre retter for to på en middels dyr restaurant 80 til 200 AUD, ifølge brukerpriser oppdatert i oktober 2026. Dette er tall fra Sydney. Landsgjennomsnittet ligger tett opptil (et rimelig måltid koster 17 til 45 AUD), men prisene i regionene og langt fra byene kan avvike.",
+      "sections": [
+        {
+          "heading": "Tre måter å spise på",
+          "body": [
+            "Lager du mat selv og kjøper bare én kaffe eller en matbit, blir dagssummen lavest. En blandet dag legger til ett enkelt måltid ute, mens en dag med mange restaurantbesøk kan koste mer enn <a data-guide=\"accommodation-costs-australia-2026\">overnattingen</a>, før du har bestilt noe å drikke.",
+            "Frokost og lunsj er ofte lettere å styre enn middag. Har du mat med deg, blir ikke en sen ankomst til en dyr jakt på mat i turistgata."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Les menyen og regningen ordentlig",
+          "body": [
+            "Sjekk om det gjelder helge- eller helligdagstillegg før du bestiller. Siden 1. oktober 2026 kan ikke virksomheter lenger ta tilleggsgebyr på betaling med eftpos, Mastercard, Visa, American Express eller UnionPay, og tilleggsgebyr for PayPal opphørte 5. oktober 2026, men helge- og helligdagstillegg, bestillingsgebyrer og servicegebyrer er ikke berørt. Delte retter, tilbehør og drikke presser fortsatt en vanlig hovedrett langt over prisen på menyen.",
+            "Kafeer langt fra byene og i småbyer har andre innkjøpskostnader og åpningstider. Se på et oppgitt prisintervall for byene som en målestokk, ikke som noe du har krav på."
+          ],
+          "tips": [
+            "Sjekk tilleggsgebyrer",
+            "Ha et reservemåltid",
+            "Budsjetter drikke for seg"
+          ]
+        },
+        {
+          "heading": "Når det lønner seg å spise ute",
+          "body": [
+            "Sett et fast beløp per dag til mat, og bestem på forhånd hvor mange kjøpte måltider det dekker. Et fast antall måltider ute i uken er lettere å holde seg til enn å avgjøre fra måltid til måltid etter en lang kjøredag.",
+            "Før regnskap over hva du faktisk bruker i noen dager. Mange husker prisen på hovedretten, men glemmer kaffe, snacks og leveringsgebyrer."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Der du får mest for pengene",
+          "body": [
+            "Bakeriet, fish and chips-butikken og måltidet i pubens bar er tre trygge, rimelige valg i hele landet, og kvaliteten i regionale byer er ofte like god som i storbyene.",
+            "Pubmåltider er nærmest en australsk institusjon, og ofte det eneste middagstilbudet i en liten by. Porsjonene er store, og prisene er ofte lavere enn på en restaurant i byen.",
+            "Kafeer slutter å servere mat tidligere enn mange besøkende venter, og i småbyer kan det være stengt overalt etter rundt kl. 20. Har du noe du kan lage selv, slipper du å gå glipp av middagen når du kommer sent."
+          ],
+          "tips": [
+            "Måltider i pubens bar gir mye for pengene",
+            "Kvaliteten utenfor byene er ofte like god",
+            "Småbyer stenger tidlig"
+          ]
+        },
+        {
+          "heading": "Tilleggsgebyrer og betaling",
+          "body": [
+            "Tillegg på helligdager og i helgene er lovlige og vanlige, og en kafé eller restaurant må vise dem på menyen. Kortgebyr på eftpos, Mastercard, Visa, American Express og UnionPay opphørte 1. oktober 2026, så du betaler menyprisen pluss eventuelt helge- eller helligdagstillegg, bestillingsgebyr eller servicegebyr.",
+            "Tips er ikke forventet i Australia, og de ansatte får tarifflønn. Noen betalingsterminaler spør nå om tips, men det er en nylig import, ikke en lokal skikk.",
+            "Kontanter blir stadig sjeldnere, og mange steder tar bare kort, men avsidesliggende roadhouses og tillitskasser trenger fortsatt kontanter. Ha litt med deg selv om du sjelden bruker det."
+          ],
+          "tips": [
+            "Tillegg på helligdager er normalt",
+            "Tips er ikke forventet",
+            "Ha litt kontanter til avsidesliggende steder"
+          ]
+        },
+        {
+          "heading": "Spis godt uten å spise ute hele tiden",
+          "body": [
+            "Bruk penger med vilje på mat som hører til stedet: sjømat ved kysten, mango i tropene når det er sesong, en vingårdslunsj i Barossa eller Margaret River. Det er disse måltidene folk husker.",
+            "Lag enkel mat fra dagligvarebutikken på dager du flytter deg, når du kommer sent og drar tidlig og et måltid er drivstoff og ikke en opplevelse. Med det mønsteret får du de gode måltidene uten at hver dag blir dyr.",
+            "Lunsjmenyer på gode restauranter gir det meste av middagsopplevelsen for mindre penger. Vil du ha ett minneverdig måltid i en dyr by, bestill bord til lunsj."
+          ],
+          "tips": [
+            "Bruk penger på mat som hører til regionen",
+            "Dagligvarer på flyttedager",
+            "Lunsjmenyen slår middagsprisene"
+          ]
+        },
+        {
+          "heading": "Bestilling og forventninger til porsjoner",
+          "body": [
+            "Porsjonene i Australia er store, og en hovedrett holder som regel uten tilbehør. «Entrée» betyr forrett, ikke hovedrett, noe som forvirrer mange utenlandske besøkende, særlig nordamerikanere, og det er helt vanlig å dele en forrett.",
+            "Å ta med egen alkohol (BYO) er vanlig på restauranter uten skjenkebevilling og noen med bevilling, vanligvis mot korkepenger per flaske eller per person, så sjekk når du bestiller bord. Det kan kutte kostnaden for et måltid ute betydelig.",
+            "Spør lokale i stedet for å søke på nett, særlig i småbyer, der det beste måltidet ofte serveres i en bowlsklubb eller en pub som ikke finnes på nett i det hele tatt."
+          ],
+          "tips": [
+            "«Entrée» betyr forrett her",
+            "BYO med korkepenger er vanlig",
+            "Porsjonene er store"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hva koster et måltid ute i Australia?",
+          "Et rimelig restaurantmåltid koster omtrent 20 til 45 AUD per person i Sydney og en fastfoodmeny 15 til 18 AUD, ifølge brukerpriser fra oktober 2026. En middag med tre retter for to på en middels dyr restaurant koster 80 til 200 AUD før drikke."
+        ],
+        [
+          "Gir man tips i Australia?",
+          "Nei. Tips er ikke forventet, og de ansatte på restauranter får tarifflønn, men det settes pris på at du runder opp eller gir litt for særlig god service. Tillegg på søndager og helligdager er normale og lovlige når menyen viser dem."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Numbeo: priser i Sydney, oppdatert oktober 2026"
+        },
+        {
+          "label": "ACCC: veiledning om tilleggsgebyr"
+        },
+        {
+          "label": "Reserve Bank of Australia: spørsmål og svar om forbudet mot kortgebyr"
+        }
+      ],
+      "priceTable": {
+        "note": "Intervaller fra brukerbidrag for Sydney, oppdatert oktober 2026. Havnepromenader, feriesteder, flyplasser, arrangementer og bordservering kan koste mer.",
+        "rows": [
+          {
+            "label": "Enkelt restaurantmåltid",
+            "unit": "per person"
+          },
+          {
+            "label": "Fast food-meny",
+            "unit": "per person"
+          },
+          {
+            "label": "Cappuccino",
+            "unit": "én kopp"
+          },
+          {
+            "label": "Brus",
+            "unit": "330 ml"
+          },
+          {
+            "label": "Måltid på middels dyr restaurant for to",
+            "unit": "tre retter"
+          }
+        ]
+      }
+    },
+    "public-transport-costs-australia-2026": {
+      "title": "Kollektivtransport i Australia 2026: billettpriser fra 50 cent",
+      "description": "Queensland: fast pris på 50 cent. Perth: DayRider 7 AUD. Melbourne: dagstak 5,70 AUD til 1. januar 2027. Sydney: 19,30 AUD man–tor. Pluss flyplassavgifter.",
+      "region": "Delstatshovedstedene",
+      "imageAlt": "Kollektivtransport i en australsk by",
+      "intro": "Queensland tar en fast pris på 50 cent per tur, Perth har et dagstak på 7 AUD, Melbournes dagstak for full pris er 5,70 AUD med halvprisbillettene som gjelder til 1. januar 2027, og Sydney setter taket for voksne med Opal til 19,30 AUD om dagen fra mandag til torsdag. Hver by regner på sin egen måte, så sammenlign en hel reisedag i stedet for én billett.",
+      "sections": [
+        {
+          "heading": "Sammenlign det samme",
+          "body": [
+            "En pris per tur er ikke et maksimum per dag. Tell turene du regner med å ta, finn ut hvordan bytter fungerer, og bruk så reglene for dagstak som gjelder hos operatøren akkurat nå.",
+            "Bruk en betalingsmåte som godtas, og bruk den riktig. Kontaktløs betaling, forhåndsbetalt saldo og kontanter kan gi ulik pris, og feil ved innsjekk og utsjekk kan gjøre at du mister dagstaket eller får registrert en ufullstendig tur."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Flyplassreisen har ofte egen pris",
+          "body": [
+            "Flyplasstog ligger ofte utenfor vanlige billettpriser. Brisbanes Airtrain er holdt utenfor billettprisen på 50 cent i <a data-guide=\"camping-rules-queensland\">Queensland</a>, og Sydneys flyplasstasjoner legger et stasjonsgebyr oppå togbilletten, med eget ukestak.",
+            "Regn ut flyplassetappen for seg før du bestemmer om tog, buss, skyttelbuss, taxi eller rideshare passer best."
+          ],
+          "tips": [
+            "Sjekk unntak for flyplassene",
+            "Sjekk inn og ut riktig",
+            "Bekreft perioder med midlertidige priser"
+          ]
+        },
+        {
+          "heading": "Bruk kollektivtransport for å slippe å kjøre i byen",
+          "body": [
+            "Parkering, bompenger og uvant trafikk kan gjøre kollektivtransport verdifull selv når flere deler en bil. Sammenlign hele kostnaden for kjøretøyet, ikke bare togbilletten.",
+            "La bobilen eller campingvogna stå på en lovlig base når det går, og bruk bytransporten i de tettbygde sentrumsområdene."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Hver by har sitt eget kort",
+          "body": [
+            "Australia har ikke noe nasjonalt reisekort. Sydney bruker Opal, Melbourne myki, det sørøstlige <a data-guide=\"camping-rules-queensland\">Queensland</a> go card, Perth SmartRider og Adelaide metroCARD, og kontaktløse bankkort fungerer nå i mange av disse nettverkene.",
+            "Melbourne godtar kontaktløse Visa- og Mastercard-kort på tog, trikk og busser med myki, og utrullingen på bussene var ferdig innen 26. juli 2026. Siden 13. oktober 2026 kan også reisende med rabatt bruke bankkort når de har registrert rabattrettigheten sin på nett, men unge med Youth myki trenger fortsatt et myki-kort, så sjekk gjeldende regler før du regner med bankkort.",
+            "De fleste systemene har dags- og ukestak, og de endrer regnestykket mye så snart du tar flere turer. Regn ut hvor mange turer du venter å ta før du velger mellom pass og betaling per tur."
+          ],
+          "tips": [
+            "Ikke noe nasjonalt reisekort",
+            "Melbourne: bankkort på tog, trikk og buss",
+            "Takene endrer regnestykket"
+          ]
+        },
+        {
+          "heading": "Flyplassforbindelser",
+          "body": [
+            "Sydneys flyplasstasjoner tar et stasjonsgebyr på 18,61 AUD per voksentur oppå togbilletten, med et tak på 37,75 AUD i uken, så flyplasstoget koster langt mer enn en vanlig tur. Brisbanes Airtrain er priset som en egen tjeneste.",
+            "Togene på Perths Airport-linje går til vanlige Transperth-priser. Siden det er en vanlig billettpris, kan rideshare bare konkurrere når dere er en større gruppe med bagasje, så regn på begge deler.",
+            "Sydneys stasjonsgebyr ligger utenfor Opals dags- og ukestak, og Brisbanes Airtrain ligger utenfor prisen på 50 cent, men Perths Airport-linje dekkes av vanlige Transperth-priser og DayRider. Regn ut flyplassetappen for seg når du sammenligner."
+          ],
+          "tips": [
+            "Sydney legger på et stasjonsgebyr",
+            "Flyplasstog i Sydney og Brisbane har egen pris",
+            "Rideshare kan slå billettene for grupper"
+          ]
+        },
+        {
+          "heading": "Når bilen bør stå",
+          "body": [
+            "Det er ubehagelig å kjøre bobil inn i sentrum av Sydney eller Melbourne, parkering er dyrt, og høydebegrensninger blir stadig et problem for store kjøretøy. Lar du bobilen stå på en <a data-guide=\"caravan-park-vs-holiday-park\">caravanpark</a> og tar kollektivt inn til sentrum, går det raskere og blir billigere.",
+            "Det samme gjelder i de fleste hovedstedene. Bo utenfor sentrum og bruk det lokale nettet de dagene du vil være i byen.",
+            "Utenfor hovedstedene og noen få regionale sentre er kollektivtransporten minimal eller fraværende. En tur planlagt rundt busser fungerer mellom byene, men kommer ikke frem til campingplasser eller stiutgangspunkter."
+          ],
+          "tips": [
+            "Høydebegrensninger tar bobiler i parkeringshus i byene",
+            "Bo utenfor, reis inn",
+            "Kollektivtransport på landsbygda finnes knapt"
+          ]
+        },
+        {
+          "heading": "Rabatter og turistpass",
+          "body": [
+            "Rabattert pris krever vanligvis en rabattrettighet utstedt i Australia, og utenlandske student- eller seniorkort godtas som regel ikke. Budsjetter med full voksenpris med mindre du har bekreftet noe annet for det aktuelle nettet.",
+            "Noen byer selger turistpass som samler transport og severdigheter. Regn ut hvor mange turer og inngangsbilletter du faktisk kommer til å bruke før du kjøper, for slike pass forutsetter som regel en travlere reiserute enn de fleste holder.",
+            "I Perth er det gratis å reise på søndager med SmartRider eller et kontaktløst kort, og barn og unge under 18 reiser gratis i <a data-guide=\"camping-rules-victoria\">Victoria</a> med Youth myki (kontaktløse bankkort kan ikke brukes til Youth-reiser). Blir du mer enn noen få dager i en by, bør du sjekke om byen har et ukestak (Sydneys er 50 AUD) før du betaler dag for dag."
+          ],
+          "tips": [
+            "Utenlandske rabattkort virker sjelden",
+            "Turistpass forutsetter en travel reise",
+            "Regn ut før du kjøper"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kan du reise i Australia uten bil?",
+          "Mellom hovedstedene, ja. Utenfor dem blir nettet raskt tynt, og mange av kyst- og outbackstedene de fleste kommer for, er vanskelige å nå uten eget kjøretøy eller en organisert tur."
+        ],
+        [
+          "Hva koster kollektivtransport i australske byer?",
+          "Queensland tar en fast pris på 50 cent per tur, Perth har et dagstak på 7 AUD og gratis søndager med SmartRider eller bankkort, Melbournes dagstak er 5,70 AUD til 1. januar 2027, og Sydneys Opal-tak for voksne er 19,30 AUD fra mandag til torsdag og 9,65 AUD fra fredag til søndag og på helligdager."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Queensland: billetter til 50 cent"
+        },
+        {
+          "label": "Transperth: billettpriser"
+        },
+        {
+          "label": "Transport Victoria: midlertidige halvprisbilletter"
+        },
+        {
+          "label": "Transport for NSW: Opal-priser for voksne"
+        },
+        {
+          "label": "Transport for NSW: til og fra Sydney Airport"
+        },
+        {
+          "label": "Victorian Government: tap and go utvides til buss"
+        },
+        {
+          "label": "Victorian Government: tap and go for rabattreisende"
+        }
+      ],
+      "priceTable": {
+        "note": "Referansepriser for voksne, kontrollert 19. oktober 2026 mot operatørenes prissider. Flyplasstjenester, rettigheter, rabatter og betalingsmåter kan endre resultatet.",
+        "rows": [
+          {
+            "label": "Reise med Translink i Queensland",
+            "unit": "per reise"
+          },
+          {
+            "label": "Perth, Go Anywhere-billett, SmartRider med autopåfyll",
+            "unit": "per reise (gyldig i 3 timer)"
+          },
+          {
+            "label": "Perth DayRider",
+            "unit": "per dag"
+          },
+          {
+            "label": "Victoria, dagstak for full pris (hverdager), til 1. jan. 2027",
+            "unit": "per dag"
+          },
+          {
+            "label": "Sydney, tak mandag–torsdag",
+            "unit": "per dag"
+          },
+          {
+            "label": "Sydney, tak fredag, helg og helligdag",
+            "unit": "per dag"
+          },
+          {
+            "label": "Sydney, ukestak",
+            "unit": "per uke"
+          }
+        ]
+      }
+    },
+    "domestic-flight-costs-australia-2026": {
+      "title": "Innenriksfly i Australia 2026: tilbudspriser fra 49 AUD",
+      "description": "Tilbudspriser i 2026: 49 AUD for Sydney–Ballina, 105 AUD for Melbourne–Sydney og 245 AUD for Sydney–Perth, én vei. Hva bagasje, seter og transport legger på.",
+      "region": "Australia",
+      "imageAlt": "Fly over det australske landskapet",
+      "intro": "Tilbudsprisene på innenriksfly i Australia startet i 2026 på 49 AUD én vei for Sydney–Ballina, 105 AUD for Melbourne–Sydney, 115 AUD for Sydney–Cairns og 245 AUD for Sydney–Perth i julisalget hos Virgin Australia, og Jetstar solgte Melbourne–Uluru fra 115 AUD. Det var et begrenset antall tilbudsseter, så se på dem som bunnpriser, og regn ut prisen for din egen tur med bagasje og seter lagt til.",
+      "sections": [
+        {
+          "heading": "Tilbudspris mot totalsum",
+          "body": [
+            "Legg til innsjekket bagasje, setevalg, bestillings- eller servicegebyrer, transport til og fra flyplassen og det det koster å komme seg til bilen eller erstatte den. Kortgebyrer på Visa, Mastercard og eftpos har vært forbudt siden 1. oktober 2026, så et slikt gebyr bør ikke dukke opp ved betaling med de kortene. Et billig fly kan likevel være det dyreste alternativet på en tur med mye utstyr.",
+            "Sammenlign like datoer og lik bagasje, ikke to overskriftspriser."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Avstanden avgjør hva som lønner seg",
+          "body": [
+            "Å fly kan spare flere dager på tvers av kontinentet, mens en kort etappe langs østkysten kan konkurrere med tog, ekspressbuss eller en enveisplan med bil. Tid har også en verdi i budsjettet.",
+            "Enveisgebyr for kjøretøy og leiebiler med forbud mot enkelte veier kan bety mer enn selve billetten."
+          ],
+          "tips": [
+            "Regn med bagasjeprisen",
+            "Ta med transport til og fra flyplassen",
+            "Sjekk enveisgebyr for kjøretøy"
+          ]
+        },
+        {
+          "heading": "Bruk tilbudseksemplene ærlig",
+          "body": [
+            "Tabellen viser julisalget hos Virgin Australia i 2026 og salget hos Jetstar til Darwin og Uluru i februar 2026. Begge salgene er avsluttet, og begge hadde begrenset antall seter og reisevilkår, så ingen bør vente å få samme pris i dag.",
+            "Søk på de nøyaktige datoene direkte hos flyselskapene, og sammenlign hele beløpet i kassen før du endrer ruten."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Når det lønner seg å fly i stedet for å kjøre",
+          "body": [
+            "Avstandene i Australia gjør at det er svært nyttig å fly på de lange etappene: fra Perth til østkysten, fra østkysten til Darwin, eller til <a data-guide=\"camping-rules-tasmania\">Tasmania</a>. Der sparer du dager, ikke timer.",
+            "Det gir sjelden mening for kortere hopp som en god biltur dekker fint, eller hvis du må betale for en bil som står ubrukt i den andre enden. Regn ut hele opplegget, ikke bare billetten.",
+            "Gebyret for å levere leiebilen et annet sted enn der du hentet den, kan være høyt nok til å spise opp en billig flybillett, så sjekk det før du antar at det er billigere å fly én vei. Relocation-tilbud kan kutte kostnaden kraftig hvis datoer og retning passer."
+          ],
+          "tips": [
+            "Fly de aller lengste etappene",
+            "Regn med dagene bilen står ubrukt",
+            "Enveisgebyr kan overstige flyprisen"
+          ]
+        },
+        {
+          "heading": "Bagasjen er der lavprisen forsvinner",
+          "body": [
+            "De laveste annonserte prisene gjelder bare setet, og innsjekket bagasje, setevalg og fleksibilitet kan øke prisen betydelig. For campere med sekk, telt og kokeutstyr er innsjekket bagasje ikke valgfritt.",
+            "Noen regionale fly på ruter til mindre byer har strengere bagasjegrenser enn hovedrutene. Sjekk den enkelte ruten i stedet for å anta at alle flyselskaper har samme standard.",
+            "Gassbeholdere til camping og enkelte typer drivstoff kan ikke fraktes i det hele tatt, så planlegg å kjøpe dem på destinasjonen i stedet for å ta dem med."
+          ],
+          "tips": [
+            "Billige billetter inkluderer ikke bagasje",
+            "Noen regionale fly har strengere grenser",
+            "Gassflasker kan ikke fraktes med fly"
+          ]
+        },
+        {
+          "heading": "Bestillingsvindu og forsinkelser",
+          "body": [
+            "Innenriksbilletter er vanligvis billigst når de bestilles flere uker i forveien, og har en tendens til å stige når avreisen nærmer seg. I skoleferiene og rundt jul er både prisene høyere og flyene fulle.",
+            "Været i <a data-guide=\"best-time-camping-australia\">regntiden</a> i nord og tåke i sør gir begge innstilte avganger, og på regionale ruter med bare én avgang om dagen finnes det ingen måte å ta det igjen samme dag.",
+            "Ikke planlegg stram tilkobling mellom et innenriksfly og en internasjonal avgang. En natt i avgangsbyen er langt billigere enn å gå glipp av langdistanseflyet."
+          ],
+          "tips": [
+            "Bestill flere uker i forveien",
+            "Ruter med én avgang om dagen har ingen reserve",
+            "Legg inn en buffernatt før utenlandsfly"
+          ]
+        },
+        {
+          "heading": "Flyplasser og veien dit",
+          "body": [
+            "På hovedrutene bruker Jetstar og Virgin Australia hovedflyplassene i byene. Noen få ruter bruker sekundære flyplasser som Avalon, så sjekk hvilken flyplass og terminal billetten din bruker før du sammenligner priser, for transportkostnaden og tiden kan spise opp prisforskjellen.",
+            "Regionale flyplasser er ofte små, med få utleiedisker som stenger utenfor flytidene. Skal du hente et kjøretøy på en regional flyplass ved ankomst på kvelden, bør du bekrefte at skranken er bemannet.",
+            "Sjekk bagasjegrensene mot utstyret du faktisk har før du bestiller, for campingutstyr overskrider som regel det en rabattbillett inkluderer."
+          ],
+          "tips": [
+            "Sjekk terminalen før du sammenligner",
+            "Utleieskranker på regionale flyplasser stenger tidlig",
+            "Transportkostnaden kan spise opp besparelsen"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hva koster innenriksfly i Australia?",
+          "Tilbudsprisene i 2026 startet på 49 AUD én vei for Sydney–Ballina, 105 AUD for Melbourne–Sydney og 245 AUD for Sydney–Perth, men det var et begrenset antall seter uten innsjekket bagasje. Utenfor et salg, og med bagasje lagt til, må du regne med å betale mer."
+        ],
+        [
+          "Er det billigere å fly eller kjøre i Australia?",
+          "Skal du på tvers av kontinentet, vinner flyet som regel på tid, og ofte også på pris for én eller to reisende. For alt under en dags kjøring vinner bilen som regel, særlig når du regner med gebyret for å levere leiebilen et annet sted."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Virgin Australia: tilbudseksempler juli 2026"
+        },
+        {
+          "label": "Jetstar: tilbudseksempler til Northern Territory"
+        },
+        {
+          "label": "Reserve Bank of Australia: spørsmål og svar om forbudet mot kortgebyr"
+        }
+      ],
+      "priceTable": {
+        "note": "Utløpte kampanjeeksempler for enveisbilletter i 2026. De viser observerte bunnpriser, ikke tilbud du kan bestille nå.",
+        "rows": [
+          {
+            "label": "Sydney–Ballina (Virgin)",
+            "unit": "tilbudseksempel, én vei"
+          },
+          {
+            "label": "Melbourne–Sydney (Virgin)",
+            "unit": "tilbudseksempel, én vei"
+          },
+          {
+            "label": "Sydney–Cairns (Virgin)",
+            "unit": "tilbudseksempel, én vei"
+          },
+          {
+            "label": "Melbourne–Uluṟu (Jetstar)",
+            "unit": "tilbudseksempel, én vei"
+          },
+          {
+            "label": "Sydney–Darwin (Jetstar)",
+            "unit": "tilbudseksempel, én vei"
+          },
+          {
+            "label": "Sydney–Perth (Virgin)",
+            "unit": "tilbudseksempel, én vei"
+          }
+        ]
+      }
+    },
+    "australia-grocery-prices-2026": {
+      "title": "Matpriser i Australia 2026: melk 2,45 AUD, egg 7,19 AUD",
+      "description": "Priser i oktober 2026: melk 1,60–4 AUD per liter, et dusin egg 4,48–10 AUD, kylling 9–18 AUD per kilo. En uke med basisvarer for én koster omtrent 85 AUD.",
+      "region": "Australia",
+      "imageAlt": "Ferske matvarer og dagligvarer på et marked i Australia",
+      "intro": "Ifølge gjennomsnittspriser rapportert av brukerne på Numbeo i oktober 2026 koster en liter melk 2,45 AUD, et brød på 500 g 3,96 AUD, et dusin egg 7,19 AUD og en kilo kyllingfilet 13,14 AUD. Å lage maten selv er fortsatt den enkleste måten å holde kontroll på et langt reisebudsjett, så sant handlekurven er planlagt etter et lite kjøleskap.",
+      "sections": [
+        {
+          "heading": "Hva en roadtrip-handlekurv trenger",
+          "body": [
+            "Bygg på frokost, matpakker og to–tre middager som deler ingredienser. Havregryn, brød, egg, ris eller pasta, grønnsaker og et fleksibelt proteinvalg tar mindre plass enn en ny oppskrift hver kveld.",
+            "Kjøp små mengder når kjølingen er dårlig. En billig storpakning blir dyr hvis varme, smeltet is eller en lang kjøredag gjør maten utrygg."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Bypriser og priser langt fra byene",
+          "body": [
+            "Store supermarkeder gir mer konkurranse og flere tilbud. Butikker langt fra byene og roadhouses har ofte færre størrelser til høyere priser, fordi transport og omsetning er annerledes.",
+            "Fyll opp før avsidesliggende etapper, men respekter reglene mellom delstatene om <a data-guide=\"interstate-biosecurity-road-trip\">biosikkerhet</a> for frukt, grønnsaker, honning, planter og andre regulerte varer."
+          ],
+          "tips": [
+            "Sammenlign enhetspriser",
+            "Planlegg kjøleskapkapasiteten",
+            "Sjekk begrensninger ved grensene"
+          ]
+        },
+        {
+          "heading": "Et realistisk ukebeløp",
+          "body": [
+            "Med Numbeos landsgjennomsnitt rapportert av brukerne for oktober 2026 kommer en uke med basisvarer for én person på omtrent 85 AUD: 2 liter melk, to brød, et dusin egg, en kilo kylling, 500 g storfekjøtt, en kilo hver av epler, bananer, tomater, løk og ris, 2 kg poteter, 500 g ost og et salathode. Tørrvarer, snacks og innkjøp langt fra byene kommer i tillegg.",
+            "Sett av et eget beløp til kaffe, <a data-guide=\"eating-out-australia-prices-2026\">takeaway</a> og felles måltider. Kaller du alt du kjøper av mat for dagligvarer, skjuler du de valgene som er lettest å endre."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Butikklandskapet",
+          "body": [
+            "Coles og Woolworths har butikker i hele landet, og Aldi er vanligvis billigere på basisvarer der den finnes (CHOICE-kurven fra juni 2026 kom på 68,60 AUD hos Aldi mot 77,53 AUD hos Woolworths og 78,58 AUD hos Coles), men den har ingen butikker i <a data-guide=\"camping-rules-tasmania\">Tasmania</a> eller Northern Territory. IGA og andre uavhengige butikker fyller hullene i mindre byer, ofte til høyere priser.",
+            "I avsidesliggende områder er det ofte bare et roadhouse eller en lokal butikk som finnes, og frakt og lav omsetning presser prisene godt over bynivå. Det er regnestykket, ikke grådighet.",
+            "Gjør storhandelen i det siste store tettstedet før en avsidesliggende etappe, og kjøp lokalt i små byer det som er verdt å kjøpe der. Begge deler teller: det ene for budsjettet, det andre for byen."
+          ],
+          "tips": [
+            "Aldi er billigst der den finnes",
+            "Ingen Aldi i Tasmania eller NT",
+            "Storhandel før avsidesliggende etapper"
+          ]
+        },
+        {
+          "heading": "Handle for et lite kjøleskap i varmen",
+          "body": [
+            "Kjøleskapene i bobiler er små og mister effekt i den australske varmen, særlig de som går på bilbatteriet. Kjøp til to–tre dager i stedet for en uke, og oppbevar rått kjøtt tett nederst.",
+            "Bygg måltidene rundt et felles sett med ingredienser, så én handel dekker hele perioden. Hermetisk fisk, egg, hard ost, havregryn, ris, pasta og rotgrønnsaker tåler begrenset kjøling og dekker mange middager.",
+            "En rabattert storpakning er ingen besparelse hvis halvparten er utrygg innen dag tre. I tropene er dette et praktisk hensyn hver dag, ikke et teoretisk."
+          ],
+          "tips": [
+            "Kjøp for tre dager, ikke sju",
+            "Varme gir dårligere kjøleeffekt",
+            "Oppbevar rått kjøtt tett og lavt"
+          ]
+        },
+        {
+          "heading": "Sesongvarer og regler mellom delstatene",
+          "body": [
+            "Å kjøpe det som er i sesong lokalt er en av de største besparelsene. Mango i nord om sommeren, steinfrukt i de sørlige delstatene og salgsboder langs veien i dyrkingsområdene underbyr supermarkedene betydelig.",
+            "Mange salgsboder langs veien kjører på tillit, med en kasse der du legger pengene selv, og tar bare kontanter, men noen tar nå også kort. Ha små sedler, for de dukker opp uten forvarsel og har ofte de beste råvarene du finner.",
+            "Planlegg kjøleskapet etter karantenegrensene og fruktfluesonene. Bruker du opp ferske varer før du krysser inn i South Australia, Western Australia, <a data-guide=\"camping-rules-tasmania\">Tasmania</a> eller Northern Territory, eller inn i fruktfluesoner som Riverland og Sunraysia, slipper du å kjøpe mat to ganger. Sjekk interstatequarantine.org.au for gjeldende regler."
+          ],
+          "tips": [
+            "Ha kontanter til salgsboder langs veien",
+            "Kjøp det som er i sesong lokalt",
+            "Tøm kjøleskapet før grensene"
+          ]
+        },
+        {
+          "heading": "Spar ved kassen",
+          "body": [
+            "Store supermarkeder må vise en enhetspris, for eksempel pris per kilo eller per 100 g, ved siden av hylleprisen. Sammenlign den linjen i stedet for pakkeprisen, for større pakker er ikke alltid billigere per kilo.",
+            "Mange supermarkeder setter ned prisen på ferske bakeri- og delikatesseprodukter sent på dagen, så den siste handleturen før stengetid kan være den billigste.",
+            "Par og grupper sparer mer per person, for én krukke, pose eller blokk dekker to for lite mer enn den dekker én. Del basisvarene, ikke bare regningen."
+          ],
+          "tips": [
+            "Sammenlign enhetsprisen",
+            "Handle sent når prisene settes ned",
+            "Del basisvarer og spar"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hva koster dagligvarer i Australia?",
+          "Ifølge Numbeos landsgjennomsnitt rapportert av brukerne for oktober 2026 koster en liter melk 2,45 AUD, et brød 3,96 AUD, et dusin egg 7,19 AUD og en kilo kyllingfilet 13,14 AUD. En uke med basisvarer for én person kommer på omtrent 85 AUD før tørrvarer, og butikker langt fra byene tar mer."
+        ],
+        [
+          "Hvor er det billigst å kjøpe mat i Australia?",
+          "I de store supermarkedkjedene i byer av enhver størrelse, og hos Aldi der det finnes en. Prisforskjellen til et avsidesliggende roadhouse eller en butikk i en liten by kan være stor, så det lønner seg vanligvis å fylle opp før en lang etappe."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Numbeo: prisintervaller for Australia, oppdatert oktober 2026"
+        },
+        {
+          "label": "Veiledning om karantene mellom delstatene i Australia"
+        },
+        {
+          "label": "CHOICE: prissammenligning av supermarkeder, juni 2026"
+        },
+        {
+          "label": "ACCC: regler for enhetspriser"
+        }
+      ],
+      "priceTable": {
+        "note": "Landsdekkende intervaller rapportert av brukerne på Numbeo, oppdatert oktober 2026. Merke, tilbud, sesong, by og frakt til avsidesliggende steder kan endre hylleprisen.",
+        "rows": [
+          {
+            "label": "Melk",
+            "unit": "1 liter"
+          },
+          {
+            "label": "Brød",
+            "unit": "500 g brød"
+          },
+          {
+            "label": "Egg",
+            "unit": "12"
+          },
+          {
+            "label": "Kyllingfilet",
+            "unit": "1 kg"
+          },
+          {
+            "label": "Storfekjøtt",
+            "unit": "1 kg"
+          },
+          {
+            "label": "Epler",
+            "unit": "1 kg"
+          },
+          {
+            "label": "Tomater",
+            "unit": "1 kg"
+          }
+        ]
+      }
+    },
+    "great-ocean-road-camping-guide": {
+      "title": "Camping langs Great Ocean Road: rute på tre dager",
+      "description": "Surfestrender, svinger gjennom regnskog og en siste solnedgang over Twelve Apostles. Slik kjører og camper du langs Great Ocean Road på tre dager.",
+      "region": "Kysten i Victoria",
+      "imageAlt": "Kysten langs Great Ocean Road i Victoria",
+      "intro": "Med tre dager får Great Ocean Road nok luft til fyrturer, avstikkere i skogen og en kveld ved Southern Ocean. Kjør vestover fra Torquay, og ta siste natt nær Port Campbell eller Warrnambool.",
+      "sections": [
+        {
+          "heading": "Dag 1: Torquay til Apollo Bay",
+          "body": [
+            "Dra tidlig fra Melbourne og gjør Torquay til det første ordentlige stoppet. Bells Beach, Point Addis og kystveien på klippene rundt Aireys Inlet er best før ettermiddagstrafikken bygger seg opp.",
+            "Apollo Bay passer godt til første natt. En feriepark gir dusj, strøm og enkel påfylling av matvarer, mens campingplasser i nasjonalparken i nærheten er en roligere base. Bestill helgene om sommeren i god tid."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Dag 2: Cape Otway og skogen",
+          "body": [
+            "Sving inn i Great Otway National Park for høy skog, fossefall og kysten ved Cape Otway. Aire River East og Aire River West er nyttige baser når adkomstforholdene passer bilen din. Johanna Beach er utsatt for vær og vind, men minneverdig i stabilt vær.",
+            "Regn med dårlig dekning utenfor byene. Ha med vann, sjekk brannrestriksjonene, og ikke regn med å komme sent til en liten campingplass. Vinden ved kysten kan få en mild værmelding til å kjennes mye kaldere etter solnedgang."
+          ],
+          "tips": [
+            "Aire River East Campground",
+            "Johanna Beach Campground",
+            "Apollo Bay Holiday Park"
+          ]
+        },
+        {
+          "heading": "Dag 3: Port Campbell og klippene i vest",
+          "body": [
+            "Kom til Twelve Apostles tidlig, og fortsett til Loch Ard Gorge og de roligere utsiktspunktene forbi Port Campbell. Landskapet blir bedre når du setter av tid til å gå i stedet for å samle utsiktspunkter gjennom frontruta.",
+            "Avslutt i Port Campbell, eller fortsett til Warrnambool, der du har større utvalg av <a data-guide=\"caravan-park-vs-holiday-park\">caravanparker</a>, dagligvarer og drivstoff. Skal du tilbake til Melbourne, er hovedveien gjennom innlandet raskere enn å kjøre kysten tilbake."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Kjør den vestover",
+          "body": [
+            "Kjører du fra Melbourne mot Warrnambool, er du på havsiden av veien, og det har mye å si på en rute der nesten alle utsiktspunktene ligger mot kysten. Østover må du krysse trafikken for å komme til hvert stopp.",
+            "Veien er smal, svingete og full av turbusser, og den har dårlig ulykkesstatistikk for besøkende sjåfører. Det er få muligheter til å kjøre forbi, og avkjøringsplassene er små, så regn med lav snittfart og slipp raskere trafikk forbi.",
+            "Sett av minst tre dager. På én dag blir det fire timer med konsentrasjon forbi ting du ikke stoppet for, og det er den vanligste angeren på denne ruten."
+          ],
+          "tips": [
+            "Kjør vestover for utsiktspunktene",
+            "Minst tre dager",
+            "Turbusser og få steder å kjøre forbi"
+          ]
+        },
+        {
+          "heading": "Der campingen faktisk er",
+          "body": [
+            "Aire River og Johanna Beach er de beste rimelige alternativene i Great Otway National Park. Begge må bestilles via Parks <a data-guide=\"camping-rules-victoria\">Victoria</a>, og begge fylles opp om sommeren og i skoleferiene. Ingen av dem har plasser med strøm.",
+            "Apollo Bay og Port Campbell har de kommersielle parkene med dusj, vaskeri og strøm, og de er de praktiske hvilepunktene på en tredagers tur. Bestill i god tid mellom desember og januar.",
+            "<a data-guide=\"is-free-camping-legal-australia\">Gratis camping</a> langs selve veien finnes i praksis ikke, og den blir strengt kontrollert. Se på korridoren som en rute med bestilt overnatting, ikke en du kan improvisere deg gjennom."
+          ],
+          "tips": [
+            "Bestill plasser hos Parks Victoria på forhånd",
+            "Ingen realistisk gratis camping langs veien",
+            "Fasiliteter i Apollo Bay og Port Campbell"
+          ]
+        },
+        {
+          "heading": "Tidspunkt for Twelve Apostles",
+          "body": [
+            "Solnedgang er det klassiske tidspunktet, og også da parkeringsplassen er fullest, med turbusser som kommer i grupper. Soloppgang gir tilsvarende lys med en brøkdel av menneskene, og turen ned til Gibson Steps er mye hyggeligere tidlig.",
+            "Helikopterturene går fra området ved besøkssenteret og gir den eneste utsikten som viser hele formasjonen av steinstabler. De er væravhengige og bør bestilles til morgenen, så en avlysning kan flyttes.",
+            "Loch Ard Gorge, noen minutter lenger vest, er roligere enn Apostles og kan hevdes å være det bedre stoppet. Historien om skipsvraket og adkomsten til stranda gjør stedet verdt mer enn de ti minuttene de fleste gir det."
+          ],
+          "tips": [
+            "Soloppgang slår solnedgang når det gjelder folkemengdene",
+            "Loch Ard Gorge er roligere",
+            "Bestill helikopterturen om morgenen"
+          ]
+        },
+        {
+          "heading": "Otways og dyrelivet",
+          "body": [
+            "Svinger du innover i Otways, får du høy, fuktig skog, Hopetoun Falls, Triplet Falls og tretoppstien Otway Fly, alt i kort kjøreavstand fra kystveien. Det er et helt annet landskap og et godt alternativ når det regner.",
+            "Cape Otway er det sikre stedet å se ville koalaer langs veien gjennom manna gum-trærne, selv om antallet har svingt med hvor friske trærne er. Se etter dem fra bilen i stedet for å gå nær, og mat dem aldri.",
+            "Glødeormer dukker opp i området ved Melba Gully etter mørkets frembrudd, og turen er kort og lett. Ta med rødt lys og la øynene venne seg til mørket i stedet for å sveipe lommelykten rundt."
+          ],
+          "tips": [
+            "Otways er alternativet når det regner",
+            "Koalaer langs veien til Cape Otway",
+            "Rødt lys for glødeormene"
+          ]
+        },
+        {
+          "heading": "Forbi Twelve Apostles",
+          "body": [
+            "Det meste av trafikken snur ved Apostles, så kysten vestover til Warrnambool gjennom Bay of Islands og Bay of Martyrs er roligere og kan hevdes å være like god. Den ekstra timen er verdt det.",
+            "Warrnambool har selv hvalenes kalvingsområde ved Logans Beach mellom mai og oktober, og passer som siste natt før du tar av innover i landet eller fortsetter til <a data-guide=\"camping-rules-south-australia\">South Australia</a>.",
+            "Port Fairy i vest er en bevart fiskerby med god camping og langt færre besøkende enn østdelen av ruten, noe som gjør det til en rolig siste natt.",
+            "Sjekk nettsiden til Parks <a data-guide=\"camping-rules-victoria\">Victoria</a> for aktuell status på campingplassene før du forlater Melbourne, siden stormskader og arbeid etter brann stenger enkeltplasser med kort varsel langs denne kysten."
+          ],
+          "tips": [
+            "Trafikken tynnes ut vest for Apostles",
+            "Bay of Islands er roligere",
+            "Hval ved Warrnambool fra mai til oktober"
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [],
+      "priceTable": null
+    },
+    "best-time-camping-australia": {
+      "title": "Beste reisetid for camping i Australia",
+      "description": "Tilpass ruten til Australias klimasoner i stedet for å lete etter én perfekt måned for hele landet.",
+      "region": "Australia",
+      "imageAlt": "Australsk campinglandskap gjennom årstidene",
+      "intro": "Australia kan være kaldt, tropisk, oversvømt, blåsig og i brannsesong samtidig. Beste måned avhenger av hvor veien går.",
+      "sections": [
+        {
+          "heading": "Det tropiske nord",
+          "body": [
+            "Top End, Kimberley og det tropiske <a data-guide=\"camping-rules-queensland\">Queensland</a> er som regel enklest i tørketiden, omtrent fra mai til oktober. Populære campingplasser fylles opp, og nettene kan fortsatt være varme.",
+            "Regntiden gir luftfuktighet, tordenvær, flom og stengte veier. Enkelte steder blir utilgjengelige."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Sør og fjellområdene",
+          "body": [
+            "Kystene i sør og <a data-guide=\"camping-rules-tasmania\">Tasmania</a> har lengre dager om sommeren, men skoleferier, brannfare og vind påvirker campingplassene. Vår og høst kan være roligere, med kaldere netter.",
+            "Veier og campingplasser i fjellet stenger for sesongen. Snø eller kuldefronter kan komme utenom vinteren."
+          ],
+          "tips": [
+            "Nord i tørketiden",
+            "Kystene i mellomsesongen",
+            "Sjekk at veiene er åpne"
+          ]
+        },
+        {
+          "heading": "Ørken og outback",
+          "body": [
+            "Kjør Red Centre, Nullarbor og fjellkjedene i innlandet i de kjøligere månedene der det er mulig. Sommervarmen kan gjøre det utrygt å gå og gjøre kjøretøyproblemer mer alvorlige.",
+            "Sjekk klimaet på ruten over tid, og bruk så gjeldende værmeldinger og varsler like før avreise."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Landet har to motsatte sesonger",
+          "body": [
+            "Det nordlige Australia fungerer i tørketiden fra mai til oktober og er vanskelig i regntiden fra november til april. Det sørlige Australia fungerer om våren, sommeren og høsten, og er kaldt og vått om vinteren.",
+            "Denne omvendingen er det mest nyttige enkeltfaktum for planleggingen. En vintertur betyr å dra nordover, en sommertur betyr å dra sørover eller opp i høylandet. Prøver du å gjøre begge deler i én sesong, får du det verste fra begge.",
+            "Mellomsesongene, omtrent april–mai og september–oktober, er tiden da størstedelen av landet er behagelig samtidig. De er de beste vinduene for en lang kryssing."
+          ],
+          "tips": [
+            "Nord er tørt fra mai til oktober",
+            "Sør passer fra vår til høst",
+            "Mellomsesongene passer for lange turer"
+          ]
+        },
+        {
+          "heading": "Skoleferier og trengselen",
+          "body": [
+            "Skoleferiene i Australia ligger rundt jul og januar, ved påsketider og i to ukers blokker i april, juli og september eller oktober, litt forskjøvet mellom delstatene. Campingplasser ved kysten blir helt fulle i disse periodene.",
+            "Juliferien faller sammen med høysesongen i tørketiden i nord, og derfor er Broome, Exmouth, Cairns og Darwin travlest og dyrest da. Du må bestille flere måneder i forveien.",
+            "Reiser du rett etter en ferieblokk, får du godt vær med en brøkdel av menneskene og lavere priser. Det er den enkleste måten å gjøre en tur bedre på."
+          ],
+          "tips": [
+            "Ferieblokkene er forskjøvet mellom delstatene",
+            "Juli er toppsesong i nord",
+            "Reis rett etter en ferieblokk"
+          ]
+        },
+        {
+          "heading": "Reisetid per region i korte trekk",
+          "body": [
+            "<a data-guide=\"camping-rules-tasmania\">Tasmania</a> og fjellområdene er sommerdestinasjoner, omtrent fra desember til mars, med mulighet for snø utenom det. Red Centre er best om vinteren, med kalde netter og behagelige dager.",
+            "Sørvest i <a data-guide=\"camping-rules-western-australia\">Western Australia</a> har høysesong med villblomstene fra august til november, mens nordvest fungerer fra mai til oktober. Kimberley og Gibb River Road er strengt tatt bare tørketid.",
+            "Østkysten kan brukes hele året, og du flytter deg nordover om vinteren og sørover om sommeren. Det tropiske nord i <a data-guide=\"camping-rules-queensland\">Queensland</a> følger mønsteret for nord, ikke kystmønsteret."
+          ],
+          "tips": [
+            "Tasmania og fjellområdene: sommer",
+            "Red Centre: vinter",
+            "Kimberley: bare tørketid"
+          ]
+        },
+        {
+          "heading": "Sykloner, brann og flom",
+          "body": [
+            "Syklonsesongen varer fra november til april langs nordkysten og kan stenge veier og byer med få dagers varsel. Følg med på varslene hver dag hvis du reiser i den perioden.",
+            "Buskbrannsesongen er på topp om sommeren i sør og øst og i tørketiden i nord. Brannfarenivået publiseres daglig og bør styre hvor du camper, i stedet for at du sjekker det i etterkant.",
+            "Flom følger regntiden i nord og kraftige stormer i sør. Begge stenger veier i flere dager, og begge er grunner til å ha fleksibilitet i stedet for en fast plan i de sesongene."
+          ],
+          "tips": [
+            "Sykloner fra november til april",
+            "Brannsesongene er ulike i nord og sør",
+            "Hold planen fleksibel i regnmånedene"
+          ]
+        },
+        {
+          "heading": "Planlegg en lang rundtur etter årstidene",
+          "body": [
+            "Den klassiske store runden går mot klokka: nordover om vinteren og sørover igjen om sommeren, slik at du holder deg i behagelig vær nesten hele året.",
+            "Den retningen passer også med tørketiden i nord og unngår syklonsesongen i Kimberley. Reiser du motsatt vei, havner du i tropene i regntiden, og det er den vanlige planleggingsfeilen.",
+            "Helligdager varierer mellom delstatene, og flere gjelder bare enkelte regioner, så sjekk kalenderen for delstatene på ruten i stedet for å anta et landsomfattende mønster.",
+            "Skoleferiedatoene er forskjøvet mellom delstatene, så en uke som er rolig i én delstat, kan være høysesong rett over grensen."
+          ],
+          "tips": [
+            "Mot klokka følger været",
+            "Nordover om vinteren, sørover om sommeren",
+            "Med klokka havner du i tropene i regntiden"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Når er beste tid å campe i Australia?",
+          "Det kommer an på hvilken halvdel du er i, og de er motsatte. Nord har tørketid, omtrent fra mai til september, mens sør har vår og høst, med en sommer som er for varm og brannutsatt i innlandet og en vinter som er kald i høylandet."
+        ],
+        [
+          "Kan du campe i det nordlige Australia i regntiden?",
+          "For det meste ikke. Fra november til april har Top End og Kimberley stengte veier, stengte campingplasser, ekstrem luftfuktighet og sykloner, og mange uasfalterte veier er ufremkommelige i flere måneder."
+        ]
+      ],
+      "sources": [],
+      "priceTable": null
+    },
+    "east-coast-road-trip-sydney-cairns": {
+      "title": "Sydney til Cairns: roadtrip med camping på 14 dager",
+      "description": "To uker med strandcamping, grønt innland og varme morgener i nord.",
+      "region": "Østkysten",
+      "imageAlt": "Tropisk kystvei på østkysten i Queensland",
+      "intro": "Sydney til Cairns er omtrent 2 500 kilometer før avstikkere. Fjorten dager er raskt, så velg noen få lange stopp i stedet for å sove i en ny by hver natt.",
+      "sections": [
+        {
+          "heading": "Fra Sydney til Mid North Coast",
+          "body": [
+            "Del den første kjøredagen rundt Myall Lakes eller Port Macquarie. Myall Lakes gir stille vann og camping i nasjonalpark, mens Port Macquarie gjør mat, klesvask og en plass med strøm enkelt.",
+            "Sving inn i landet mot Dorrigo hvis regnskogsturer betyr mer enn enda en strandnatt. Platået er kjøligere, veien stiger bratt, og skyer kan legge seg raskt rundt åsene."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Nordlige NSW og sørøstlige Queensland",
+          "body": [
+            "Byron Bay er populært av god grunn, men <a data-guide=\"caravan-park-vs-holiday-park\">caravanparkene</a> i nærheten fylles tidlig, og trafikken går sakte i feriene. Brunswick Heads, Lennox Head og Tweed kan være en roligere base.",
+            "Når du krysser inn i <a data-guide=\"camping-rules-queensland\">Queensland</a>, velger du mellom innlandet bak Gold Coast og kysten. Springbrook National Park gir fossefall og kjøligere netter. K'gari må planlegges for seg, med tidevann, kjøretøytillatelser og kjøring i sand."
+          ],
+          "tips": [
+            "Sjekk datoene for skoleferiene",
+            "Bekreft reglene for kjøretøy på K'gari",
+            "Ikke kjør trøtt etter en strandedag"
+          ]
+        },
+        {
+          "heading": "Den lange etappen til Cairns",
+          "body": [
+            "Avstanden mellom Sunshine Coast og Airlie Beach er større enn den ser ut. Del den rundt Agnes Water, Rockhampton eller Cape Hillsborough, og gi så Airlie Beach en hviledag.",
+            "Mission Beach er et rolig siste stopp før Cairns. Nå er klimaet tropisk, varslene om kasuar betyr noe, og rådene om bading endrer seg med årstiden. Sjekk skiltene på stedet før du går ut i noe vann."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Fjorten dager er knapt for denne avstanden",
+          "body": [
+            "Sydney til Cairns er omtrent 2 400 kilometer på den direkte ruten gjennom innlandet, og mye mer hvis du følger kysten ordentlig. To uker betyr et snitt på rundt 200 kilometer om dagen med stopp, noe som bare er behagelig hvis du lar være å legge til avstikkere.",
+            "Den vanlige feilen er å prøve å få med Whitsundays, Fraser Island, Daintree og en tur til Great Barrier Reef i samme tomukersperiode. Hver av dem trenger minst to dager, og til sammen spiser de opp hele turen.",
+            "Velg tre høydepunkter og behandle resten som kjøredager med en svømmetur. Prøver du å gjøre alt, ender du med en tur der du hele tiden satt i bilen."
+          ],
+          "tips": [
+            "Rundt 2 400 km direkte",
+            "Velg tre høydepunkter, ikke seks",
+            "200 km om dagen er realistisk tempo"
+          ]
+        },
+        {
+          "heading": "Stoppene som fortjener en natt til",
+          "body": [
+            "Byron Bay, Noosa, Airlie Beach og Port Douglas er stedene der én natt gjør at du pakker sammen før du har rukket å gjøre noe. Alle har turer, strender og båtturer som trenger en hel dag.",
+            "Mellom dem fungerer Coffs Harbour, Hervey Bay, Rockhampton og Townsville som stopp for én natt på gjennomreise, med service, drivstoff og en <a data-guide=\"caravan-park-vs-holiday-park\">caravanpark</a>. Det er ikke nødvendig å gjøre dem interessante.",
+            "Skal du til revet, er Cairns og Port Douglas de to avreisestedene, og begge trenger en ekstra dag for vær. Revturer blir avlyst ofte nok til at en bestilling samme dag som du kommer, er et sjansespill."
+          ],
+          "tips": [
+            "To netter: Byron, Noosa, Airlie, Port Douglas",
+            "Ekstra dag for været ved revet",
+            "Gjennomreisebyene trenger ikke noe spesielt"
+          ]
+        },
+        {
+          "heading": "Maneter, krokodiller og bading",
+          "body": [
+            "Nord for omtrent Gladstone gjør giftige maneter (marine stingers) det utrygt å bade i havet uten beskyttelse, omtrent fra november til mai. Nett mot maneter og heldekkende drakter er den vanlige forholdsregelen, og skiltingen er til å stole på, så følg den i stedet for å dømme ut fra hvor rolig vannet ser ut.",
+            "Saltvannskrokodiller finnes i vassdrag fra omtrent Rockhampton og nordover, også i elver, bekker og på strender som ser helt harmløse ut. Bad aldri, rens aldri fisk og camp aldri ved vannkanten i krokodilleland, og følg alle varselskilt.",
+            "De trygge badealternativene i nord er strender med badevakter innenfor manetnett, ferskvannsbasseng der skiltene bekrefter at det er trygt, og de mange badelagunene i byene. Cairns og Airlie Beach har begge utmerkede, gratis offentlige lagunebad av akkurat den grunnen."
+          ],
+          "tips": [
+            "Manetsesongen er omtrent november til mai",
+            "Krokodiller fra Rockhampton og nordover",
+            "Lagunebadene i byene er det trygge badestedet"
+          ]
+        },
+        {
+          "heading": "Drivstoff, avstander og alternativet gjennom innlandet",
+          "body": [
+            "Bruce Highway er ryggraden langs kysten og har tung lastebiltrafikk, veiarbeid og flomstengninger i <a data-guide=\"best-time-camping-australia\">regntiden</a>. Den er ikke noen naturskjønn vei på store deler av strekningen, noe som overrasker folk som venter havutsikt.",
+            "Det er jevnlig tilgang på drivstoff langs denne ruten, i motsetning til det meste av Australia, så utfordringen er tid, ikke rekkevidde. Prisene på roadhouses nord for Townsville stiger merkbart.",
+            "I regntiden, omtrent fra november til april, stenger deler av Bruce Highway på grunn av flom, og det tropiske nord får kraftig regn. Tørketiden fra mai til oktober er den enkle tiden å kjøre denne turen."
+          ],
+          "tips": [
+            "Tørketiden er mai til oktober",
+            "Bruce Highway flommer i regntiden",
+            "Drivstoff er ikke begrensningen her"
+          ]
+        },
+        {
+          "heading": "Øyer det er verdt å bruke tid på",
+          "body": [
+            "K'gari, Whitsundays og Magnetic Island er de tre øyaavstikkerne på denne ruten, og hver trenger minst to dager med overfarter. Å legge til alle tre i en tomukersperiode er det som sprenger planen.",
+            "K'gari krever firehjulstrekk og kjøretøytillatelse, eller en tur, og har strenge sikkerhetsregler for dingoer som må følges. Velg én øy og gjør den ordentlig i stedet for å jage gjennom alle tre.",
+            "Uansett hvilke øyer du velger, bestill båtturen tidlig i oppholdet i den byen, så en avlysning på grunn av vær kan flyttes i stedet for å gå tapt helt.",
+            "Syklonsesongen i det tropiske nord varer fra november til april, og et lavtrykk kan stenge Bruce Highway og stoppe revturer i flere dager i strekk."
+          ],
+          "tips": [
+            "Hver øy trenger minst to dager",
+            "K'gari krever 4WD og tillatelse",
+            "Velg én, ikke tre"
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [],
+      "priceTable": null
+    },
+    "perth-to-broome-road-trip": {
+      "title": "Perth til Broome: roadtrip med camping",
+      "description": "Hvite sanddyner, korallrev, røde juv og den lange, lyse veien nordover.",
+      "region": "Western Australia",
+      "imageAlt": "Røde klipper og kyst i Western Australia",
+      "intro": "Vestkysten skifter farge når du kjører nordover fra Perth. Kalkstein går over i røde elvejuv, vannet ved Ningaloo og de lange strekningene i Pilbara før Broome.",
+      "sections": [
+        {
+          "heading": "Fra Perth til Shark Bay",
+          "body": [
+            "Bruk Cervantes eller Jurien Bay til første natt, og besøk Pinnacles utenom den varmeste delen av dagen. Fortsett gjennom Geraldton til Kalbarri, og sett av tid til både klippene ved kysten og utsiktspunktene ved juvene i innlandet.",
+            "Shark Bay er en avstikker, ikke et raskt stopp ved veien. Ta base rundt Denham eller en <a data-guide=\"caravan-park-vs-holiday-park\">caravanpark</a> i nærheten i minst to netter hvis du vil se Monkey Mia, Shell Beach og Francois Peron-området."
+          ],
+          "tips": [
+            "Cervantes",
+            "Kalbarri National Park",
+            "Denham"
+          ]
+        },
+        {
+          "heading": "Ningaloo og Karijini",
+          "body": [
+            "Cape Range National Park og Exmouth fortjener flere netter. Bestill campingplassene i nasjonalparken tidlig i tørketiden, og bekreft vilkårene for vann, skygge og aggregat. Coral Bay er mindre og ofte travelt.",
+            "Avstikkeren inn i landet til Karijini legger til betydelig avstand. Veier, varme og adkomst til juvene endrer seg med forholdene. Overnatt på en godkjent campingplass og ha med mer vann enn en dag ved kysten skulle tilsi."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Pilbara til Broome",
+          "body": [
+            "Del den siste etappen rundt Port Hedland eller Eighty Mile Beach i stedet for å presse inn en svært lang dag. Roadhouses kan ha begrenset åpningstid, så fyll drivstoff før du trenger det.",
+            "I Broome er det lett å bli værende en stund. <a data-guide=\"caravan-park-vs-holiday-park\">Caravanparkene</a> blir fullbooket i tørketiden, særlig rundt skoleferier og store arrangementer. Bestill før du forlater Pilbara."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Avstandene endrer planleggingen",
+          "body": [
+            "Perth til Broome er omtrent 2 200 kilometer, og byene ligger langt fra hverandre, med lange strekninger der neste drivstoff er flere hundre kilometer unna. Dette er turen der planlegging av rekkevidde slutter å være teoretisk.",
+            "Ti dager er minimum for å få med stopp i Kalbarri, Shark Bay, Coral Bay og Exmouth. To uker lar deg legge til Karijini, som er den beste enkeltavstikkeren på ruten og legger til omtrent 600 kilometer.",
+            "Bestill overnatting i Exmouth, Coral Bay og Broome i tørketiden, for de fylles av reisende fra sør som rømmer vinteren, og det finnes ingen ekstra kapasitet."
+          ],
+          "tips": [
+            "Omtrent 2 200 km",
+            "Ti dager er minimum, to uker er bedre",
+            "Fullt i nord i tørketiden"
+          ]
+        },
+        {
+          "heading": "Ningaloo er grunnen til å reise",
+          "body": [
+            "Ningaloo Reef kommer innenfor noen få meter fra stranda ved Coral Bay og Turquoise Bay, og det gjør det til det mest tilgjengelige store revet i landet. Du kan snorkle rett fra sanden uten båt.",
+            "Turer for å se hvalhai går omtrent fra mars til juli, og svømmeturer med knølhval senere i sesongen. Begge blir fullbooket og begge er væravhengige, så sett av en ekstra dag og bestill tidlig i oppholdet i stedet for på slutten.",
+            "I Turquoise Bay kan du snorkle med strømmen, som bærer deg langs revet. Kom deg ut før sandbanken i sørenden, for strømmen fortsetter forbi den, og det er virkelig tungt å svømme tilbake mot den."
+          ],
+          "tips": [
+            "Snorkle rett fra stranda",
+            "Hvalhai omtrent mars til juli",
+            "Kom deg tidlig ut av strømmen i Turquoise Bay"
+          ]
+        },
+        {
+          "heading": "Karijini og juvene",
+          "body": [
+            "Karijini National Park ligger inne i landet fra kysten og har det beste juvlandskapet i <a data-guide=\"camping-rules-western-australia\">Western Australia</a>, med Dales Gorge, Hancock Gorge og Weano som alle byr på bading i dype kulper. Parken er avsidesliggende, og veiene dit har uasfalterte strekninger.",
+            "Turene gjennom juvene er gradert, og noen er virkelig krevende, med klatring, kaldt vann og trange rom. Folk har dødd i disse juvene, og lynflom etter regn er den spesifikke faren. Gå ikke inn i et juv hvis det er meldt regn et sted oppstrøms.",
+            "Det er ikke drivstoff inne i parken, og nærmeste service er i Tom Price eller Auski. Kom med full tank, rikelig med vann og nok mat, for campingplassene er enkle og det finnes ingen butikk."
+          ],
+          "tips": [
+            "Ingen drivstoff inne i Karijini",
+            "Juvene får lynflom etter regn",
+            "Noen turer er virkelig krevende"
+          ]
+        },
+        {
+          "heading": "Sesong, varme og regntid",
+          "body": [
+            "Denne ruten fungerer i tørketiden, omtrent fra mai til oktober, når nord er varmt og tørt og veiene er åpne. <a data-guide=\"best-time-camping-australia\">Regntiden</a> gir ekstrem varme, luftfuktighet, sykloner og stengte veier over hele Pilbara og Kimberley.",
+            "Selv i tørketiden er dagstemperaturene nord for Carnarvon høye, og sola er sterk. Ha med mye mer vann enn det føles nødvendig, start turene tidlig, og bruk midt på dagen til å være et sted i skygge.",
+            "Syklonsesongen varer omtrent fra november til april i nordvest. Reiser du i den perioden, følg med på varslene hver dag, og vit at en syklon stenger veier og byer med lite varsel."
+          ],
+          "tips": [
+            "Tørketiden er mai til oktober",
+            "Sykloner fra november til april",
+            "Gå tidlig, hvil midt på dagen"
+          ]
+        },
+        {
+          "heading": "Shark Bay og stoppene imellom",
+          "body": [
+            "Shark Bay er et verdensarvområde med delfinene i Monkey Mia, stromatolittene i Hamelin Pool og Shell Beach, som består helt av skjell, flere meter dypt. Det er en betydelig avstikker fra hovedveien og verdt en hel dag.",
+            "Kalbarri ligger mellom Perth og Shark Bay, med klipper ved kysten og juv i innlandet, blant annet Nature's Window. Parken stenger stier i ekstrem varme, så sommerbesøk krever tidlig start.",
+            "Broome selv fortjener to netter for Cable Beach, Staircase to the Moon på de riktige datoene og perlehistorien på museet.",
+            "Karijini og Ningaloo ligger begge langt fra hovedveien, så bestem hvilken du tar med før du forlater Perth, i stedet for å prøve å få plass til begge i en stram plan."
+          ],
+          "tips": [
+            "Shark Bay er en avstikker på en hel dag",
+            "Kalbarri stenger stier i varmen",
+            "Stromatolittene er verdt å se"
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [],
+      "priceTable": null
+    },
+    "brisbane-to-cape-tribulation": {
+      "title": "Fra Brisbane til Cape Tribulation: campingrute",
+      "description": "Strandbyer går over i revøyer og regnskog når kysten blir tropisk.",
+      "region": "Kysten i Queensland",
+      "imageAlt": "Vei gjennom regnskog nær Cape Tribulation",
+      "intro": "Nord for Brisbane skifter årstidene raskere enn landskapet. Sett av minst to uker, og legg de lengste kjøredagene bort fra stedene der du helst vil bade, gå tur eller bare sitte i ro.",
+      "sections": [
+        {
+          "heading": "Fra Brisbane til Capricorn Coast",
+          "body": [
+            "Start med Noosa eller Cooloola-kysten, og bestem så om K'gari passer med bilen og planen din. Reise til øya innebærer tillatelser, tidevannsvinduer og løs sand, så det bør aldri behandles som en spontan avstikker.",
+            "Agnes Water er en behagelig pause før de lengre avstandene langs sentralkysten. Fyll opp i de store byene, og unngå at en sen avslutning ender i <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">nattkjøring</a> gjennom dyrerikt land."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Whitsundays til de våte tropene",
+          "body": [
+            "Cape Hillsborough har skog, strand og en roligere natt før Airlie Beach. Airlie er den praktiske basen for turer til Whitsundays, med mer service og travle ferieparker.",
+            "Mission Beach setter ned tempoet igjen. Les skiltene om kasuar, sikre maten og følg rådene om bading etter årstiden. Inne i landet kan Atherton Tablelands være kjøligere og gir fossefall, gårdsopphold og <a data-guide=\"caravan-park-vs-holiday-park\">caravanparker</a>."
+          ],
+          "tips": [
+            "Cape Hillsborough",
+            "Airlie Beach",
+            "Mission Beach"
+          ]
+        },
+        {
+          "heading": "Daintree og Cape Tribulation",
+          "body": [
+            "Kryss Daintree River med nok drivstoff og dagslys. Mobildekningen kan være ujevn, veiene kan være påvirket av kraftig regn, og store kjøretøy må sjekke adkomsten nøye.",
+            "Velg en lovlig campingplass eller en <a data-guide=\"caravan-park-vs-holiday-park\">caravanpark</a>, og hold maten sikret. Sjekk varslene om krokodiller, og anta aldri at en strand eller en bekk er trygg å bade i fordi andre mennesker er i nærheten av vannet."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Der Daintree endrer reglene",
+          "body": [
+            "Nord for Daintree River blir veien smalere, brattere og delvis uasfaltert etter Cape Tribulation. Bloomfield Track til Cooktown er kun for firehjulstrekk, forbudt i de fleste leiebiler og ufremkommelig etter regn.",
+            "Ferjen over Daintree River er den eneste kryssingen og går til faste tider, med kø i høysesongen. Sjekk åpningstidene før du planlegger en sen retur, for hvis du står på feil side etter siste ferje, betyr det en svært lang omvei.",
+            "Overnatting nord for elven er begrenset og blir fullbooket. Det finnes ikke noe supermarked, og drivstoff er dyrt, så fyll opp i Mossman eller Port Douglas før du krysser."
+          ],
+          "tips": [
+            "Ferjen har faste tider og kø",
+            "Fyll opp før du krysser elven",
+            "Bloomfield Track er kun for 4WD"
+          ]
+        },
+        {
+          "heading": "Krokodiller er begrensningen her oppe",
+          "body": [
+            "Saltvannskrokodiller lever i alle vassdrag i det tropiske nord, også bekker, mangroveskog, elvemunninger og selve strendene. Daintree og kysten ved Cape Tribulation er førsteklasses habitat, og risikoen er reell, ikke teoretisk.",
+            "Ikke bad i eller ved noe vassdrag med mindre det er et utpekt trygt badeområde. Ikke camp innenfor noen få meter fra vannet, ikke rens fisk ved vannkanten, og ikke stå i grunt vann for å ta bilder.",
+            "Trygg bading finner du her i de utpekte ferskvannshølene som Mossman Gorge og Emmagen Creek, og selv de har skilting som er verdt å lese hver gang du kommer, fordi forholdene endrer seg."
+          ],
+          "tips": [
+            "Regn med krokodiller i alle vassdrag",
+            "Ingen bading utenfor utpekte steder",
+            "Les skiltene hver gang"
+          ]
+        },
+        {
+          "heading": "Regnskog, rev og regntid",
+          "body": [
+            "Daintree er den eldste regnskogen på planeten som har overlevd uten avbrudd, og gangbroene ved Marrdja og Dubuji er den enkleste måten å se den ordentlig på. Tidlig om morgenen har du størst sjanse til å se kasuarer og færrest folk rundt deg.",
+            "Cape Tribulation er stedet der regnskogen møter revet, og revturer går fra Cape Trib og Port Douglas. De nordlige revstedene er som regel i bedre stand enn de nærmere Cairns.",
+            "<a data-guide=\"best-time-camping-australia\">Regntiden</a>, omtrent fra november til april, gir kraftig regn, stengte veier og manetsesong. Tørketiden er den enkle tiden å besøke, og også da veiene og turene går pålitelig."
+          ],
+          "tips": [
+            "Gangbroene er den enkle adkomsten",
+            "Kasuarene er mest aktive tidlig",
+            "Tørketiden er mai til oktober"
+          ]
+        },
+        {
+          "heading": "Slik deler du kjøreturen fra Brisbane",
+          "body": [
+            "Brisbane til Cape Tribulation er rundt 1 900 kilometer og trenger minst fem kjøredager for å bli en fornøyelse. Sunshine Coast, Hervey Bay, Airlie Beach og Townsville er de naturlige overnattingsstoppene.",
+            "Bruce Highway har tung godstrafikk og er ikke en naturskjønn vei på store deler av strekningen. Se på den sørlige halvdelen som en transportetappe, og spar tiden til det tropiske nord, som er det du kom for.",
+            "Vurder å fly til Cairns og leie bil der hvis tiden er knapp. Det sparer fire dagers kjøring og setter deg rett inn i den delen av ruten som er virkelig særegen."
+          ],
+          "tips": [
+            "Rundt 1 900 km fra Brisbane",
+            "Den sørlige halvdelen er transportetappe",
+            "Å fly til Cairns sparer fire dager"
+          ]
+        },
+        {
+          "heading": "Kasuarer og kjøring i de våte tropene",
+          "body": [
+            "Sørlige kasuarer lever i regnskogen mellom Mission Beach og Daintree og blir jevnlig påkjørt. I de skiltede kasuarsonene må du senke farten, og det er ment helt alvorlig.",
+            "De er store, kraftige fugler og kan være farlige hvis du nærmer deg eller mater dem. Mat dem aldri, hold god avstand, og hvis en kommer mot deg, sett et tre eller bilen mellom dere i stedet for å løpe.",
+            "Mission Beach og Etty Bay sør for Cairns er de andre sikre områdene for kasuar, og særlig på Etty Bay kommer de ned på stranda.",
+            "Køen til Daintree-ferjen kan overstige en time i høysesongen, så sikt på å krysse midt på formiddagen eller sent på ettermiddagen i stedet for midt på dagen."
+          ],
+          "tips": [
+            "Sakte i skiltede kasuarsoner",
+            "Aldri mat eller gå nær en kasuar",
+            "Sett noe mellom dere, ikke løp"
+          ]
+        }
+      ],
+      "faq": [],
+      "sources": [],
+      "priceTable": null
+    },
+    "interstate-biosecurity-road-trip": {
+      "title": "Karantene mellom delstatene i Australia: frukt og utstyr",
+      "description": "Frukt, grønnsaker, honning, planter, jord og campingutstyr kan være begrenset ved delstatsgrensene.",
+      "region": "Australia",
+      "imageAlt": "Skilt for karantenekontroll mellom delstater i Australia",
+      "intro": "Australia har karantenesoner innenfor landet. Har du feil frukt eller grønt eller skittent utstyr med deg, kan det spre skadedyr og gi deg en bot på stedet.",
+      "sections": [
+        {
+          "heading": "Sjekk før du handler",
+          "body": [
+            "Reglene varierer etter produkt, opprinnelse og bestemmelsessted. Sjekk den offisielle reiseinformasjonen før du krysser en delstatsgrense eller grensen til en karantenesone.",
+            "Fersk frukt, grønnsaker, honning, planter og jord er vanlige problemer. Begrensningene kan gjelde selv om varen er kjøpt i et australsk supermarked."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Bruk karantenebeholderne",
+          "body": [
+            "Spis tillatte varer før grensen, eller legg begrensede varer i en karantenebeholder. Ikke gjem mat i bilen og ikke legg den igjen langs veien.",
+            "Ta vare på kvitteringer og emballasje når de offisielle rådene sier at et kommersielt behandlet produkt er tillatt."
+          ],
+          "tips": [
+            "Sjekk neste grense",
+            "Skill ut frukt og grønt",
+            "Rengjør utstyret"
+          ]
+        },
+        {
+          "heading": "Rengjør campingutstyr",
+          "body": [
+            "Fjern jord, frø og plantemateriale fra sko, telt, sykler og utstyr for berging. Tørk vannutstyr før du flytter deg mellom vassdrag der det kreves.",
+            "Rent utstyr varer også lenger og gjør at du slipper å ta med maur, ugress og sykdomsfremkallere til neste campingplass."
+          ],
+          "tips": []
+        },
+        {
+          "heading": "Fruktfluesonene er hovedproblemet",
+          "body": [
+            "South Australia, Tasmania og deler av Victoria og <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> har soner som holdes fri for fruktflue. Det er forbudt å ta med fersk frukt og enkelte grønnsaker inn i dem, med avfallsbeholdere ved grensene og kontrollposter i drift.",
+            "Bøter gjelder uansett om du visste om det eller ikke, og kontroller ved grensen til South Australia og i ferjeterminalen på Tasmania er rutine. Søkshunder brukes ved enkelte overganger.",
+            "Den praktiske løsningen er å planlegge handlingen rundt grensene: bruk opp det som er i kjøleskapet før du krysser, og fyll opp igjen rett etterpå. Det koster ingenting og fjerner problemet helt."
+          ],
+          "tips": [
+            "Bruk opp kjøleskapet før en grense",
+            "Det finnes beholdere ved overgangene",
+            "Bøter gjelder selv om du ikke kjente reglene"
+          ]
+        },
+        {
+          "heading": "Tasmania og Western Australia",
+          "body": [
+            "<a data-guide=\"camping-rules-tasmania\">Tasmania</a> begrenser fersk frukt og grønt, planter, jord, honning og brukt utstyr for birøkt ved ankomst med ferje eller fly. Reglene beskytter en øy som er fri for flere skadedyr fra fastlandet, og de håndheves i terminalen.",
+            "<a data-guide=\"camping-rules-western-australia\">Western Australia</a> har karantenekontroller på de østlige innfartsveiene, blant annet Eyre Highway, og begrenser frukt, grønnsaker, honning, planter og jord. Det tar reisende som handlet inn før de krysset Nullarbor.",
+            "Begge delstatene publiserer gjeldende lister over begrensede varer, og de endres med utbrudd. Sjekk før du reiser i stedet for å stole på det som gjaldt på en tidligere tur."
+          ],
+          "tips": [
+            "Tasmania kontrollerer i ferjeterminalen",
+            "WA har kontroller på Eyre Highway",
+            "Listene endres med utbrudd"
+          ]
+        },
+        {
+          "heading": "Jord, utstyr og ugress",
+          "body": [
+            "Jord på sko, teltplugger, sykler og kjøretøy flytter plantesykdommer og ugressfrø mellom regioner. Phytophthora dieback i <a data-guide=\"camping-rules-western-australia\">Western Australia</a> spres på denne måten og har ødelagt store områder med naturlig vegetasjon.",
+            "Rengjør fottøy og utstyr mellom regionene, bruk rengjøringsstasjonene ved parkinngangene i områder med dieback, og hold deg på opparbeidede stier og veier der skiltingen ber om det.",
+            "Ved flytter også skadedyr. Flere regioner begrenser flytting av ved, og det tryggeste er å kjøpe lokalt i stedet for å ha med en last over delstatsgrensene."
+          ],
+          "tips": [
+            "Rengjør skoene mellom regioner",
+            "Bruk rengjøringsstasjonene for dieback",
+            "Kjøp ved lokalt"
+          ]
+        },
+        {
+          "heading": "Hvorfor det betyr noe",
+          "body": [
+            "Australias landbruksnæringer er fri for mange skadedyr som finnes andre steder, og den statusen avhenger av interne barrierer like mye som av internasjonale. Ett enkelt utbrudd av fruktflue kan koste en regions bønder eksportmarkedene deres.",
+            "For naturlige økosystemer er innsatsen den samme. Dieback, myrterust og innvandring av ugress har varig endret store områder, og det meste av den spredningen skjedde med menneskers hjelp og kunne vært unngått.",
+            "Å følge reglene koster noen minutter og litt planlegging rundt handlingen. Se på beholderne ved en grense som en vanlig del av en roadtrip, ikke en ulempe."
+          ],
+          "tips": [
+            "Ett utbrudd kan stenge eksportmarkeder",
+            "Mesteparten av spredningen skjer med menneskers hjelp",
+            "Planlegg handlingen rundt grensene"
+          ]
+        },
+        {
+          "heading": "Planlegg kjøleskapet rundt grensene",
+          "body": [
+            "Bruk opp fersk frukt og grønt i dagene før en karantenegrense, og fyll opp igjen rett etterpå. Det koster ingenting, gjør at du slipper å kjøpe mat to ganger og fjerner risikoen for bot helt.",
+            "Kokt og bearbeidet mat er som regel greit, så en meny bygget på hermetikk, tørrvarer og ferdiglaget mat på en grensedag fungerer godt. Sjekk gjeldende liste over begrensede varer i stedet for å gjette hva som teller.",
+            "Karantenebeholderne ved grensene er der nettopp for at du skal kunne følge reglene uten straff, og å bruke en blir behandlet helt annerledes enn å bli tatt med uoppgitte varer.",
+            "Listene over begrensede varer endres med utbrudd, så sjekk gjeldende status i stedet for å stole på det som gjaldt på en tidligere tur."
+          ],
+          "tips": [
+            "Bruk opp kjøleskapet før du krysser",
+            "Kokt og bearbeidet mat er som regel greit",
+            "Sjekk gjeldende liste over begrensede varer"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kan du ta med frukt og grønnsaker over delstatsgrensene i Australia?",
+          "Ofte ikke. Soner uten fruktflue og karanteneregler mellom delstatene begrenser fersk frukt, grønnsaker, honning og planter, og listen over begrensede varer endres etter reiseretning og sone."
+        ],
+        [
+          "Hva skjer ved en karantenekontroll i Australia?",
+          "Du kan enten legge de begrensede varene i avfallsbeholderne før linjen, eller oppgi dem. Å kaste dem koster ingenting, mens å bli tatt med dem gir en bot på stedet, og kontroller ved grensene til WA og SA er rutine."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Australian Government: reise innenlands i Australia"
+        }
+      ],
+      "priceTable": null
+    }
+  },
+  "consent": {
+    "label": "Personvernvalg",
+    "message": "Kan vi bruke informasjonskapsler fra Google Analytics for å se hvilke sider som leses og hvilke App Store-lenker som brukes? Ingenting brukes til reklame.",
+    "accept": "Godta",
+    "decline": "Avslå",
+    "learnMore": "Personvernerklæring",
+    "privacyChoices": "Personvernvalg"
+  },
+  "tools": {
+    "common": {
+      "home": "Forside",
+      "tools": "Verktøy",
+      "calculator": "Kalkulator",
+      "howItWorks": "Slik regnes det ut",
+      "workedExample": "Regneeksempel",
+      "assumptions": "Forutsetninger",
+      "commonQuestions": "Vanlige spørsmål",
+      "readNext": "Guider om kostnader og planlegging",
+      "sources": "Kilder",
+      "ctaEyebrow": "I appen",
+      "passNote": "AussieCamps er gratis å laste ned. Opphold og turer som kan bestilles, er gratis å utforske; campingplasser, rasteplasser, tømmestasjoner, vann, toaletter og reiseplanleggeren krever Pass.",
+      "iphoneOnly": "AussieCamps er en iPhone-app.",
+      "openTool": "Formel, regneeksempel og spørsmål",
+      "allTools": "Alle roadtrip-verktøy"
+    },
+    "tools": {
+      "fuel-cost-calculator": {
+        "metaTitle": "Drivstoffkalkulator for roadtrip i Australia",
+        "metaDescription": "Regn ut bensin eller diesel til en roadtrip i Australia ut fra distanse, l/100 km og literpris. Viser liter, totalkostnad og kostnad per km, med formel og regneeksempel.",
+        "title": "Drivstoffkalkulator for roadtrip i Australia",
+        "intro": "Legg inn distansen, drivstofforbruket til kjøretøyet med last og prisen per liter. Du får hvor mange liter turen bruker, drivstoffregningen og kostnaden per kilometer, så du kan budsjettere hele ruten før første tanking.",
+        "formula": [
+          "Liter = distanse (km) × drivstofforbruk (l/100 km) ÷ 100",
+          "Drivstoffkostnad = liter × literpris (AUD/l)",
+          "Kostnad per km = drivstoffkostnad ÷ distanse"
+        ],
+        "formulaNote": "Kalkulatoren runder liter til én desimal og penger til nærmeste cent. Ingenting annet legges til: bompenger, olje og dekkslitasje er egne poster i et budsjett.",
+        "example": [
+          "En kjøretur på 1 000 km i et kjøretøy som bruker 12 l/100 km, til 2,08 AUD literen. Det er gjennomsnittsprisen på bensin i de fem største byene i Fuel Plan-data for 5. august 2026.",
+          "1 000 × 12 ÷ 100 = 120 liter. 120 × 2,08 AUD = 249,60 AUD. 249,60 AUD ÷ 1 000 km = omtrent 0,25 AUD per kilometer.",
+          "Samme tur i et dieselkjøretøy, til dagens dieselgjennomsnitt på 2,47 AUD literen, koster 120 × 2,47 AUD = 296,40 AUD."
+        ],
+        "assumptions": [
+          "Drivstofforbruket er tallet med last. En bobil, last på taket eller en campingvogn bak bruker mer enn tallet i brosjyren, så mål det selv hvis du kan.",
+          "Gjennomsnittet for byene er et utgangspunkt. Roadhouses langt fra byene tar vanligvis mer, så sett opp prisen for strekninger i outbacken.",
+          "Distansen er hele ruten, med avstikkere til campingplasser, utsiktspunkter og byer utenfor hovedveien."
+        ],
+        "faq": [
+          [
+            "Hvordan finner jeg det reelle drivstofforbruket?",
+            "Fyll tanken, nullstill tripptelleren og kjør som du pleier. Ved neste tanking deler du antall liter du fylte på med antall kilometer du har kjørt, og ganger med 100. Det er l/100 km for kjøretøyet med last, og det er tallet kalkulatoren trenger."
+          ],
+          [
+            "Hvordan regner jeg ut drivstoffkostnad per km?",
+            "Del l/100 km på 100 og gang med literprisen. Ved 12 l/100 km og 2,08 AUD literen blir det 0,12 × 2,08, omtrent 0,25 AUD per kilometer."
+          ],
+          [
+            "Hvilken drivstoffpris bør jeg bruke?",
+            "Bruk drivstoffet kjøretøyet tar og den nyeste prisen du finner for regionen. Gjennomsnittet for de fem byene i Fuel Plan 5. august 2026 var 2,08 AUD literen for bensin og 2,47 AUD for diesel; regn med mer i avsidesliggende områder."
+          ]
+        ],
+        "ctaTitle": "Planlegg stoppene mellom tankingene.",
+        "ctaText": "AussieCamps viser {restAreas} rasteplasser og {dumpPoints} tømmestasjoner i Australia på kart, og gjør lagrede steder om til en rute med flere stopp og avstander."
+      },
+      "drive-time-calculator": {
+        "metaTitle": "Kjøretidskalkulator for Australia: realistiske kjøredager",
+        "metaDescription": "Anslå hvor lang en kjøredag i Australia egentlig blir, ut fra distanse, veitype og stopp. Viser gjennomsnittsfartene som brukes, formelen og et regneeksempel.",
+        "title": "Kjøretidskalkulator for roadtrip i Australia",
+        "intro": "Kartapper oppgir ren kjøretid på fri vei. Denne kalkulatoren planlegger dagen du faktisk kjører: en gjennomsnittsfart for veitypen, pluss tiden du står stille for drivstoff, mat og pauser.",
+        "formula": [
+          "Kjøreminutter = distanse (km) ÷ gjennomsnittsfart (km/t) × 60",
+          "Totalt antall minutter = kjøreminutter + stopp × 20",
+          "Gjennomsnittsfart: 85 km/t på motorvei eller åpen, rett vei, 70 km/t på hovedvei, 60 km/t på svingete vei eller kystvei, 45 km/t på smal, bratt eller grusvei"
+        ],
+        "formulaNote": "Fartene er gjennomsnitt beregnet for planlegging og tar høyde for byer, veiarbeid, trege kjøretøy og forbikjøringsfelt. De er ikke fartsgrenser.",
+        "example": [
+          "En dag på 250 km på en svingete kystvei med tre stopp.",
+          "250 ÷ 60 × 60 = 250 minutter kjøring. Tre stopp legger til 3 × 20 = 60 minutter.",
+          "Dagen tar 310 minutter, eller 5 t 10 min. På hovedvei med 70 km/t tar samme distanse og samme stopp 4 t 34 min."
+        ],
+        "assumptions": [
+          "Hvert stopp regnes som 20 minutter: et drivstoffstopp, et måltid, en toalettpause eller et førerbytte.",
+          "Nattkjøring er ikke regnet med. Dyrelivet er mest aktivt rundt daggry og skumring, så planlegg å være fremme før det blir mørkt.",
+          "Standarden på uasfalterte veier varierer med vær og årstid. Sjekk forholdene hos veimyndigheten i delstaten før en grusstrekning."
+        ],
+        "faq": [
+          [
+            "Hvorfor blir resultatet lengre enn i kartappen?",
+            "Navigasjonsapper anslår ren kjøretid nær skiltet fartsgrense. Denne kalkulatoren legger til veiens karakter og tiden du står stille, og det er der en lang dag vanligvis sprekker."
+          ],
+          [
+            "Hvilken veitype bør jeg velge for en bobil?",
+            "Bruk hovedvei for de fleste asfalterte nasjonale hovedveier, svingete vei eller kystvei for kuperte ruter og kystruter, og smal, bratt eller grusvei for uasfalterte veier og fjellpass. En tung bobil eller en campingvogn i stigning går enda saktere."
+          ],
+          [
+            "Er drivstoff- og matstopp med i resultatet?",
+            "Bare stoppene du legger inn. Legg til ett for hver tanking, hvert måltid eller hver pause du regner med; hvert stopp legger 20 minutter til dagen."
+          ]
+        ],
+        "ctaTitle": "Vit hvor dagen ender før du legger i vei.",
+        "ctaText": "AussieCamps viser {campgrounds} campingplasser og {restAreas} rasteplasser på kart, og bygger en rute med flere stopp og kjøreavstanden mellom stoppene."
+      },
+      "campsite-cost-calculator": {
+        "metaTitle": "Kalkulator for campingpriser: per person eller per plass",
+        "metaDescription": "Sammenlign en campingavgift per voksen med en avgift per plass for reisefølget og antall netter. Viser balansepunktet, formelen og et regneeksempel i AUD.",
+        "title": "Kalkulator for campingpriser: per person eller per plass?",
+        "intro": "Noen campingplasser tar betalt per voksen per natt, andre tar betalt for hele plassen. Hva som er billigst, avhenger av hvor mange voksne som er med, så kalkulatoren regner ut begge for samme opphold.",
+        "formula": [
+          "Totalt per voksen = voksne × netter × avgift per voksen",
+          "Totalt per plass = netter × avgift per plass",
+          "Balansepunkt (antall voksne) = avgift per plass ÷ avgift per voksen"
+        ],
+        "formulaNote": "Med flere voksne enn balansepunktet er prisen per plass billigst; med færre er prisen per voksen billigst.",
+        "example": [
+          "To voksne i fem netter: 20 AUD per voksen per natt sammenlignet med 50 AUD per plass per natt.",
+          "Per voksen: 2 × 5 × 20 AUD = 200 AUD. Per plass: 5 × 50 AUD = 250 AUD. Prisen per voksen blir 50 AUD billigere.",
+          "Balansepunktet er 50 AUD ÷ 20 AUD = 2,5 voksne, så med tre voksne stiger totalen per voksen til 300 AUD, og prisen per plass vinner."
+        ],
+        "assumptions": [
+          "Barn og personer med rett til redusert pris betaler ofte en annen sats. Legg inn bare voksne, eller juster avgiften til et gjennomsnitt.",
+          "Bestillingsgebyrer og inngangsavgifter til parken regnes separat. Legg dem til tallet for plassen når du skal sammenligne likt med likt.",
+          "Kalkulatoren bruker bare tallene du legger inn; sjekk gjeldende avgift på den offisielle bestillingssiden."
+        ],
+        "faq": [
+          [
+            "Når er en avgift per plass billigere?",
+            "Når antall voksne er større enn avgiften per plass delt på avgiften per voksen. Med 50 AUD per plass og 20 AUD per voksen er det 2,5, så et reisefølge på tre eller flere betaler mindre per plass."
+          ],
+          [
+            "Tar campingplassene i nasjonalparker betalt per person?",
+            "Mange campingplasser i delstatsparker tar betalt per voksen per natt, mens ferieparker vanligvis tar betalt per plass. Hver forvalter bestemmer prisgrunnlaget, så les det på den offisielle siden før du sammenligner."
+          ]
+        ],
+        "ctaTitle": "Sammenlign campingplasser på kartet.",
+        "ctaText": "AussieCamps viser {campgrounds} campingplasser på kart, med avgifter og fasiliteter der forvalteren oppgir dem, og lenker hver av dem til den offisielle siden."
+      },
+      "currency-converter": {
+        "metaTitle": "AUD-valutakalkulator for reisende (RBA-kurser)",
+        "metaDescription": "Regn om priser i australske dollar til og fra NZD, USD, GBP, EUR, CNY, INR, SGD, JPY og KRW med daterte referansekurser fra Reserve Bank of Australia.",
+        "title": "Valutakalkulator for australske dollar når du planlegger turen",
+        "intro": "Regn om en australsk pris til valutaen du tenker i, eller motsatt vei. Kursene er referansekurser fra Reserve Bank of Australia med oppgitt dato, så du vet nøyaktig hva tallet bygger på.",
+        "formula": [
+          "Omregnet beløp = beløp ÷ kursen til valutaen du regner fra × kursen til valutaen du regner til",
+          "Hver kurs er antall enheter av valutaen per 1 AUD"
+        ],
+        "formulaNote": "Omregning via australske dollar gjør at alle valutapar henger sammen: NZD til USD bruker de samme to kursene som AUD-omregningene.",
+        "example": [
+          "100 AUD med en kurs på 1,2033 NZD per australsk dollar.",
+          "100 ÷ 1 × 1,2033 = 120,33 NZD.",
+          "Andre veien: 100 NZD ÷ 1,2033 × 1 = 83,10 AUD."
+        ],
+        "assumptions": [
+          "Referansekurser er midtkurser til planlegging. Banker, kortnettverk og vekslingskontorer legger på egen margin eller egne gebyrer.",
+          "Kursene endres hver virkedag. Bruk resultatet til å vurdere en pris, ikke som et pristilbud."
+        ],
+        "faq": [
+          [
+            "Hvilke valutakurser bruker kalkulatoren?",
+            "Referansekurser fra Reserve Bank of Australia, vist med datoen de gjelder for, oppgitt som enheter av hver valuta per australsk dollar."
+          ],
+          [
+            "Hvorfor trekker banken et annet beløp?",
+            "Banker og kortnettverk bruker egen kurs og legger ofte på en margin eller et gebyr for utenlandske transaksjoner, så beløpet som trekkes, avviker fra en omregning med referansekurs."
+          ]
+        ],
+        "ctaTitle": "Se avgiftene i egen valuta.",
+        "ctaText": "AussieCamps viser oppgitte avgifter i valutaen du velger, ved siden av beløpet i australske dollar, med en omregningskurs du setter én gang."
+      },
+      "water-tank-calculator": {
+        "metaTitle": "Vanntankkalkulator for bobil: dager off grid",
+        "metaDescription": "Gjør størrelsen på ferskvanns- og gråvannstankene om til dager off grid for reisefølget. Viser liter per person som brukes, formelen og et regneeksempel for en bobiltur i Australia.",
+        "title": "Vanntankkalkulator for bobil: hvor mange dager off grid?",
+        "intro": "Tankstørrelser i liter blir først nyttige når de uttrykkes i dager. Legg inn kapasiteten på ferskvanns- og gråvannstanken og antall personer, så viser kalkulatoren hvor lenge hver tank varer og hvilken som setter grensen.",
+        "formula": [
+          "Dager med ferskvann = ferskvannstank (l) ÷ (personer × 11 l)",
+          "Dager med gråvann = gråvannstank (l) ÷ (personer × 9 l)",
+          "Dager off grid = det laveste av de to tallene"
+        ],
+        "formulaNote": "11 liter ferskvann og 9 liter gråvann per person per dag dekker drikking, matlaging og oppvask ved nøysom bruk. Dusj om bord bruker langt mer.",
+        "example": [
+          "En bobil med 100 l ferskvannstank og 90 l gråvannstank, med to personer om bord.",
+          "Ferskvann: 100 ÷ (2 × 11) = 4,5 dager. Gråvann: 90 ÷ (2 × 9) = 5,0 dager.",
+          "Ferskvannstanken går tom først, etter omtrent fire og en halv dag, så planlegg påfyll før dag fem."
+        ],
+        "assumptions": [
+          "Tallene per person er gjennomsnitt. Varmt vær, matlaging med vann og dusjing øker dem.",
+          "Toalettkassetter er en egen tank og er ikke med i beregningen.",
+          "Tøm gråvann bare der det er tillatt, for eksempel på en tømmestasjon eller en godkjent plass."
+        ],
+        "faq": [
+          [
+            "Hvor mye vann bruker én person per dag i en bobil?",
+            "Kalkulatoren regner med omtrent 11 liter ferskvann per person per dag til drikking, matlaging og oppvask, og omtrent 9 liter gråvann. En daglig dusj om bord bruker langt mer, så planlegg for den separat."
+          ],
+          [
+            "Hva går tomt først, ferskvann eller gråvann?",
+            "Den tanken som gir færrest dager. Med samme tankstørrelser gjør flere personer eller mer vask at begge varer kortere; kalkulatoren viser de to side om side, så du ser hvilken som setter grensen."
+          ]
+        ],
+        "ctaTitle": "Finn neste påfyll og tømmestasjon.",
+        "ctaText": "AussieCamps viser {water} vannposter og {dumpPoints} tømmestasjoner i Australia på kart, med fasilitetene hver av dem oppgir."
+      }
+    }
+  }
 }

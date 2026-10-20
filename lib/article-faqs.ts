@@ -1,5 +1,7 @@
 /**
  * Two questions per guide, in the words people search them, answered in two or three sentences.
+ * Comparison guides ("best apps", "alternatives") carry up to four, drawn from searches that name
+ * the competing apps.
  *
  * These are the guide's own questions, not the homepage's: a site that answers "what is
  * AussieCamps?" in twelve FAQPage blocks is competing with itself, so nothing here repeats a
@@ -17,48 +19,48 @@
 export const articleFaqs: Record<string, readonly (readonly [string, string])[]> = {
   // --- Rules & safety, state by state ---------------------------------------
   "camping-rules-new-south-wales": [
-    ["Can you free camp in New South Wales?", "In designated areas, yes, and the rules come from three directions: NSW National Parks sites are booked and paid for, state forests allow dispersed camping in many areas, and roadside rest area limits are set by councils and Transport for NSW."],
-    ["Do you need to book NSW national park campsites?", "Almost always. NSW National Parks moved to booking for the great majority of its campgrounds, including free ones, and rangers do check. Coastal parks over school holidays go months ahead."],
+    ["Can you free camp in New South Wales?", "Yes. Every NSW state forest except Cumberland and Strickland allows free camping for up to four weeks, first come first served. Some national park campgrounds have no camping fee but still need a booking with a $6 booking fee."],
+    ["Do you need to book NSW national park campsites?", "For most listed campgrounds, yes, including free ones, which charge a $6 booking fee, and popular coastal campgrounds can book out over summer and school holidays. A few basic listed sites, such as Tuross River campground, and remote camping at unlisted sites need no booking."],
   ],
   "camping-rules-queensland": [
-    ["Do you need a permit to camp in Queensland national parks?", "Yes. Queensland requires a camping permit booked in advance for every national park campsite, tagged to your vehicle, and it must be displayed. Fines apply for camping without one."],
-    ["Where can you free camp in Queensland?", "Mostly in council-run rest areas and showgrounds, many of which are free or a few dollars for self-contained vehicles. Many outback shire councils actively welcome overnight stays, and the coastal councils are far more restrictive."],
+    ["Do you need a permit to camp in Queensland national parks?", "Yes. Every camp in a Queensland national park, state forest or recreation area needs a permit booked and paid for before you arrive, $7.75 per person or $31 per family a night in 2026, and the tag or permit details must be displayed at camp."],
+    ["Where can you free camp in Queensland?", "Not in parks or forests, which all charge. Free camping means council campgrounds that allow it. Roadside rest areas let you stop for up to 20 hours unless a sign says otherwise, but the state says they are not camping sites, and many coastal councils, including Cairns, ban camping on council land."],
   ],
   "camping-rules-victoria": [
-    ["Can you camp for free in Victoria?", "Yes, more freely than in most states. Dispersed camping is permitted across large areas of Victoria's state forests at no charge, which is the main reason the High Country works as a camping destination."],
-    ["Do Victorian national park campsites need booking?", "Many do. Parks Victoria takes bookings for its popular campgrounds and charges a site fee, and the coastal and alpine ones fill over summer and Easter. Remote bush campgrounds are more often first-come."],
+    ["Can you camp for free in Victoria?", "Yes. You can camp in most of Victoria's state forests at no charge for up to 28 consecutive nights, at least 20 metres from waterways, every state forest campground is free except Murrindindi Scenic Reserve, and some Parks Victoria campgrounds such as King Hut and Warby-Ovens are free with no booking."],
+    ["Do Victorian national park campsites need booking?", "Bookable campgrounds do, and their camping fees have been half price since July 2025 and stay that way until July 2027. Wilsons Promontory uses quarterly booking releases rather than a ballot, and some Great Ocean Road sites are now booked through the Great Ocean Road Coast and Parks Authority."],
   ],
   "camping-rules-tasmania": [
-    ["Do you need a parks pass to camp in Tasmania?", "You need a Tasmanian Parks Pass to enter a national park, and a separate camping fee applies at most park campgrounds. For a trip of more than a few days the holiday pass is cheaper than daily entry."],
-    ["Can you free camp in Tasmania?", "In designated council sites, yes, and Tasmania has a good network of free and low-cost council camping areas. Camping outside them, particularly on reserves and beaches, is generally prohibited and enforced."],
+    ["Do you need a parks pass to camp in Tasmania?", "Yes, inside a national park. The pass covers entry and most park campgrounds charge a fee on top. The holiday pass, $98.35 per vehicle for up to two months, beats daily passes from the third day, and council campgrounds outside parks need no pass."],
+    ["Can you free camp in Tasmania?", "Yes, at council sites that allow it, at free park campgrounds such as Huon and Teds Beach in Southwest National Park, and on most Sustainable Timber Tasmania land unless signs say otherwise. On reserved land you cannot camp within 500 metres of a road outside a designated camping area."],
   ],
   "camping-rules-south-australia": [
-    ["Do you need a permit to camp in South Australian parks?", "Yes. National Parks and Wildlife Service SA requires a booked camping permit for park campgrounds, made online or through the app, and vehicle entry fees apply at some parks on top."],
-    ["Where can you camp for free in South Australia?", "In council rest areas and reserves that permit it, and along parts of the outback tracks. The Flinders Ranges has both booked park sites and private station camping, which are governed by completely different rules."],
+    ["Do you need a permit to camp in South Australian parks?", "Yes, almost everywhere. National park campsites are booked and paid for before you arrive, online or through a booking agent, and the booking usually covers vehicle entry to that park. The Simpson Desert parks use the 12-month Desert Parks Pass instead, which is also compulsory east of Dalhousie Springs in Witjira."],
+    ["Can you park a campervan anywhere in South Australia?", "No. You can camp on Crown land for up to 21 days without approval, at council sites and rest areas where signs allow an overnight stop, and at booked park campsites. Some councils ban or limit overnight stays, so read the sign at the exact spot."],
   ],
   "camping-rules-western-australia": [
-    ["Can you camp anywhere in Western Australia?", "No, and the distances make it feel like you could. Parks and Wildlife campgrounds are booked and paid for, station stays are private arrangements, and roadside camping in the 24-hour rest areas is intended for rest rather than a stay."],
-    ["Do WA national parks charge an entry fee?", "Most of the major ones do, per vehicle per day, separate from the camping fee. A holiday park pass covers entry for a month or more and pays for itself quickly on a trip up the coast."],
+    ["Can you camp anywhere in Western Australia?", "No. Camping outside a licensed caravan park or camping ground needs approval, national park camping is limited to designated campgrounds, and signed overnight rest stops allow up to 24 consecutive hours without approval."],
+    ["Do WA national parks charge an entry fee?", "Some do. Karijini and Cape Range charge $17 per standard vehicle, or $10 with a concession, on top of camping fees of $10 to $20 per adult a night. The All Parks Pass costs $130 a year and holiday passes start at $30."],
   ],
   "camping-rules-northern-territory": [
-    ["Do you need a permit to camp in the Northern Territory?", "For NT parks, a booked campsite covers you. Crossing Aboriginal land is different: a transit or entry permit is required for many roads and communities, and it must be arranged before you leave, not on arrival."],
-    ["When is camping in the Northern Territory not possible?", "Through the wet season in the Top End, roughly November to April, when unsealed roads and many Kakadu and Litchfield campgrounds close and rivers become impassable. The dry season is the camping season for good reason."],
+    ["Do you need a permit to camp in the Northern Territory?", "In NT parks you book and pay for a campsite online and, as a visitor, also hold an NT Parks Visitor Pass. Camping outside a designated campground needs its own permit, and entering Aboriginal land needs a land council permit arranged before you go."],
+    ["When is camping in the Northern Territory not possible?", "Many Top End campgrounds and unsealed roads close during the wet and run-off, roughly November to April, and parks can close at short notice for flooding or fire. Garig Gunak Barlu opens only in the dry season, and Kakadu's Jim Jim and Twin Falls area is closed for all of 2026."],
   ],
   "camping-rules-act": [
-    ["Can you camp in the ACT?", "In a small number of designated campgrounds in Namadgi National Park and the Murrumbidgee River Corridor, most of which are booked through the ACT Parks system. There is very little dispersed or free camping."],
-    ["Where do people camp near Canberra?", "Mostly just over the border, in NSW state forests and Kosciuszko National Park, which is where the volume of campsites actually is. The ACT itself works better as a resupply stop than a camping destination."],
+    ["Can you free camp in the ACT?", "No. Vehicle-based camping is allowed only at established campgrounds, all of which need a booking and charge a fee, and camping on other public land without a permit can bring up to 20 penalty units. Bushwalkers may camp in remote parts of Namadgi."],
+    ["Do you need to book camping in Namadgi National Park?", "Yes. Honeysuckle, Orroral and Mount Clear need bookings made in advance, fees apply and stays are capped at seven consecutive days, although entry to the park itself is free. Woods Reserve is closed until early 2027."],
   ],
   "is-free-camping-legal-australia": [
-    ["Is free camping legal in Australia?", "In designated areas, yes, and nowhere else. There is no national rule: what is permitted is set by the state, the land manager and the local council, so a rest area can be a legal overnight stop in one shire and a fine in the next."],
-    ["How long can you stay in a roadside rest area?", "It depends on the sign, and the range runs from a few hours to 72 hours. Rest areas exist for driver fatigue rather than as free campgrounds, and the ones intended for overnight stays say so."],
+    ["Is free camping legal in Australia?", "Yes, but only where the land manager allows it, through signs or a standing rule: there is no national right to camp wherever a vehicle can park. Most state forests in New South Wales and Victoria, South Australian Crown land for up to 21 days, council sites that say so and rest areas whose rules allow an overnight stop are the main legal options; most national park campgrounds charge a fee or need a booking."],
+    ["Can you camp on the side of the road in Australia?", "Usually not. Roadside stops are limited to rest areas whose rules or signs allow an overnight stop, such as Western Australia's signed 24-hour stops. Queensland lets you stop at a rest area for up to 20 hours unless a sign says otherwise, but says rest areas are not camping sites, and it bans camping on state roads outside a narrow 4pm to 8am fatigue exception."],
   ],
   "campfires-camping-australia": [
-    ["Can you have a campfire while camping in Australia?", "Only when there is no fire ban and the land manager allows it. Each state's fire service declares total fire bans by district and by day, and during one no solid-fuel fire is legal anywhere in that district, including in a fire ring."],
-    ["How do you check for a total fire ban?", "On the fire service website for the state you are in, on the day: RFS in NSW, CFA in Victoria, QFES in Queensland, and their equivalents elsewhere. Fire danger ratings are set each afternoon for the following day."],
+    ["Can you have a campfire while camping in Australia?", "Yes, when there is no fire ban for the district and the campground allows fires, using the fireplace provided and wood you bring in. During a Total Fire Ban, or a local fire ban in Queensland, solid-fuel fires are illegal everywhere in that area, fire rings included."],
+    ["Can you use a gas stove on a total fire ban day?", "It depends on the state and the land. NSW national parks generally ban visitor-owned gas cookers on those days, ACT parks switch off gas barbecues, Tasmania allows LPG and electric stoves but not liquid-fuel ones, and Queensland allows contained gas and spirit stoves during a fire ban. In South Australia, check the park fire restrictions for the park you are in."],
   ],
   "sleeping-in-car-australia": [
-    ["Is it legal to sleep in your car in Australia?", "It depends entirely on where the car is parked. Sleeping in a vehicle is not itself an offence, but camping in a vehicle where a council prohibits it is, and that covers most urban streets, beach car parks and coastal reserves."],
-    ["Where can you legally sleep in your car overnight?", "In designated rest areas that permit overnight stays, at campgrounds and caravan parks, and in council areas whose bylaws allow it. Roadhouses and some pub car parks allow it by arrangement, which is worth asking about rather than assuming."],
+    ["Is it legal to sleep in your car in Australia?", "Yes, where camping is allowed: booked campgrounds, state forests that permit camping, and rest areas whose rules or signs allow an overnight stop. Many councils count sleeping in a parked car as camping and fine it on streets, beaches and car parks, such as Surf Coast Shire's $300 on-the-spot fine."],
+    ["Can you sleep in your car in a national park?", "Only where the park allows camping, which usually means a designated campground booked in advance. A car left overnight at a day-use area or trailhead counts as camping without permission."],
   ],
   "driving-in-australia-overseas-licence": [
     ["Can you drive in Australia on an overseas licence?", "Yes, as a visitor, provided the licence is current and covers the class of vehicle. The rules are set per state, and each has its own time limit and its own point at which a visitor becomes a resident who must convert."],
@@ -89,8 +91,8 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Do campervans have a different speed limit in Australia?", "Under 4.5 tonnes, generally no. Heavier vehicles and anything towing face lower limits in some states, and the limit is a maximum rather than a target for a high-sided vehicle in wind."],
   ],
   "towing-caravan-australia-road-rules": [
-    ["What is the speed limit for towing a caravan in Australia?", "It depends on the state. Western Australia and the Northern Territory hold towing vehicles to a lower limit than the general one, while most eastern states apply the normal posted limit. The rig's own stability is usually the real constraint."],
-    ["Do you need a special licence to tow a caravan in Australia?", "A standard car licence covers most combinations up to 4.5 tonnes gross combination mass. Beyond that a light rigid or medium rigid licence is required, and exceeding your vehicle's rated tow capacity voids insurance regardless of licence."],
+    ["What is the speed limit for towing a caravan in Australia?", "It depends on the state. Western Australia caps any vehicle towing a trailer or caravan at 100 km/h. In NSW the 100 km/h cap applies when the towing vehicle's GVM or GCM is over 4.5 tonnes; below that the posted limit applies. Check each state's towing rules before crossing a border, and drive to the rig's stability and the conditions."],
+    ["Do you need a special licence to tow a caravan in Australia?", "A standard car licence covers a tow vehicle of up to 4.5 tonnes gross vehicle mass (GVM); a heavier vehicle needs a light rigid licence or higher. The licence does not raise towing limits: the loaded caravan must stay within the lowest of the vehicle's towing capacity, the towbar and coupling rating, the caravan's own rating and the tyres' load rating. In NSW, learners cannot tow and P1 drivers may only tow trailers up to 250 kg unladen."],
   ],
   "driving-with-road-trains-australia": [
     ["How do you safely overtake a road train?", "With a very long clear stretch and a firm decision. A road train can run to 53.5 metres, so overtaking takes far more road than a truck, and pulling back in early is what causes the crashes. If in doubt, do not."],
@@ -102,7 +104,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
   ],
   "australia-road-rules-state-differences": [
     ["Do Australian road rules change between states?", "Yes, more than visitors expect. Speed limits, towing limits, mobile phone penalties, keep-left rules and the treatment of overseas licences are all set by each state and territory, and they apply from the moment you cross the border."],
-    ["Which rules differ most across Australian states?", "Towing speed limits, the minimum passing distance for cyclists, the rules for driving on unsealed roads in a rental, and school zone times. Demerit points are shared between states even though the rules that earn them are not."],
+    ["Which rules differ most across Australian states?", "Towing speed limits, the minimum passing distance for cyclists, the rules for driving on unsealed roads in a rental, and school zone times. Most states record demerit points from an interstate offence on your home licence, although Western Australia does not."],
   ],
 
   // --- Camping guides -------------------------------------------------------
@@ -111,12 +113,12 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Why are dogs banned in Australian national parks?", "Because of the risk to native wildlife, and because 1080 baiting for foxes and wild dogs is used in and around many parks. A baited dog dies quickly, and the baits are not always signed as clearly as you would hope."],
   ],
   "caravan-park-vs-holiday-park": [
-    ["What is the difference between a caravan park and a national park campground?", "A caravan park is a commercial site with powered sites, amenities blocks, laundry and usually cabins, priced per site or per couple. A national park campground is public land with far fewer facilities, a booked permit and a much lower fee."],
-    ["When is a caravan park worth the money?", "When you need power, a hot shower, laundry and a resupply, which on a long trip is roughly every third or fourth night. On the big drives they also matter as the reliable place to stop when the free options are full."],
+    ["What is the difference between a caravan park and a holiday park?", "Very little in practice: both are commercial parks with powered and unpowered sites, amenities and usually cabins. Holiday park usually signals more family facilities such as a pool, playground or activities, and often more cabins."],
+    ["When is a caravan park worth the money?", "When you need power, hot showers, laundry and a resupply at once, or when the free and low-cost options nearby are full. Many long-trip travellers book one serviced night after two or three nights of bush camping."],
   ],
   "dump-points-australia-guide": [
-    ["Where can you empty a caravan toilet in Australia?", "At a public dump point, most of which are run by councils and sit at showgrounds, sports grounds and roadhouses, and at caravan parks. Emptying anywhere else, including a public toilet, is illegal and heavily fined."],
-    ["Can you empty grey water on the ground in Australia?", "It depends where you are, and increasingly not. Some remote council areas still permit dispersed grey water, while most populated and coastal areas require it to go to a dump point, and national parks prohibit it outright."],
+    ["Where can you empty a caravan toilet in Australia?", "At a dump point. Public ones sit at showgrounds, rest areas, visitor centres and roadhouses and are listed on the National Public Toilet Map, and many caravan parks have their own. Never use a drain or the ground, and use a toilet only where it is signed for cassette disposal."],
+    ["Can you empty grey water on the ground in Australia?", "Not as a rule. Grey water goes into a dump point or wherever the campground directs, and where there are no facilities the Victorian state forest standard is to tip washing-up water at least 50 metres from waterways."],
   ],
   "camping-water-planning": [
     ["How much water do you need for remote camping in Australia?", "Plan on at least five litres per person per day for drinking and cooking, more in heat, and carry a reserve on top for a breakdown. On outback tracks the standard advice is enough water to sit still for several days."],
@@ -179,8 +181,52 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Do widgets work without reception?", "The parts drawn from the bundled place data do. Anything live, such as weather, updates when there is a connection and shows the last value it had until then."],
   ],
   "best-camping-app-australia": [
-    ["What should a camping app for Australia actually do?", "Work with no reception, carry accurate fee and amenity data, filter to a real question rather than a category, and be honest about access. Coverage counts for little if the details are wrong or unreadable off-grid."],
-    ["Is one camping app enough for Australia?", "For finding and planning, usually. Most travellers still keep the state parks booking apps for permits, since NSW, Queensland, Victoria, South Australia and WA each run their own system."],
+    ["What is the best camping app in Australia?", "It depends on your phone and how you travel. On iPhone, AussieCamps pairs official campground, rest area and dump point data that stays readable without signal with a full trip planner. WikiCamps Australia has a community-built database of more than 65,000 sites for a one-off A$9.99, and CAMPS lists sites its own team has checked."],
+    ["Is WikiCamps free?", "No. As of October 2026, WikiCamps Australia costs A$9.99 as a one-off purchase on each platform, with no subscription. CamperMate is a free alternative."],
+    ["Which camping app works without phone signal?", "They keep different things. AussieCamps stores place details on the phone with no download step, while map tiles, directions and weather need signal. WikiCamps keeps maps and up to three planned trips, CAMPS and CamperMate let you download maps and site information, and Full Range Camping keeps listings offline with Premium."],
+    ["Is there a free camping app for Australia?", "CamperMate is free, and Hipcamp is free to download with each stay paid to its host. AussieCamps is a free download with free hotel, motel and holiday park listings, but its campground, rest area and dump point data needs the Pass."],
+  ],
+  "wikicamps-alternatives": [
+    ["What is a good alternative to WikiCamps?", "It depends on what you want to change. AussieCamps uses official park and road authority data with every place detail available offline on iPhone, CAMPS lists sites its own team has checked, and CamperMate is free and also covers New Zealand."],
+    ["Is there a free alternative to WikiCamps?", "CamperMate is free with no in-app purchases on the Australian App Store. Hipcamp is free to download, but you pay each host for a booking. AussieCamps is a free download, though its campground, rest area and dump point data needs the Pass."],
+    ["Is WikiCamps still worth it in 2026?", "For many travellers, yes: A$9.99 once per platform buys a community database its website puts at more than 65,000 sites, with no subscription. Version 6 changed some features, so read recent App Store reviews before you buy."],
+    ["Does WikiCamps have ads?", "Yes. The App Store lists advertising, and the developer says a small number of ads appear in the reviews, fees and photos sections. It has said it is considering a paid option to remove them."],
+  ],
+  "campermate-alternatives": [
+    ["What is better than CamperMate?", "It depends on what you want that CamperMate does not give you. AussieCamps uses park agency and road authority data with every place detail available offline on iPhone, WikiCamps Australia has 1.3 million traveller reviews by its own count for A$9.99 once, and CAMPS lists sites its own team has checked."],
+    ["Is CamperMate free?", "Yes. As of October 2026 it is free to download with no in-app purchases on the Australian App Store. It shows ads and offers bookings and deals from partners."],
+    ["Does CamperMate work offline?", "Partly. You can download maps and key information for use without signal, and version 5.8 added a satellite view that works with those downloaded maps."],
+    ["Is there one app for camping in Australia and New Zealand?", "CamperMate covers both countries in one free app. WikiCamps sells separate apps for each country, and AussieCamps and KiwiCamping are separate iPhone apps for Australia and New Zealand."],
+  ],
+  "best-fuel-price-apps-australia": [
+    ["What is the best app for cheap fuel in Australia?", "For travel across state lines, Petrol Spy shows official prices from most states in one free app. Within one state, the government tool is the cleanest source: FuelCheck in NSW and the ACT, Servo Saver in Victoria, FuelWatch in WA, FuelCheck TAS and MyFuel NT."],
+    ["Is there a fuel price app for Victoria?", "Yes. Servo Saver in the free Service Victoria app shows prices that stations must report within 30 minutes, and from 4pm it shows the next day's maximum price."],
+    ["Can you see tomorrow's petrol prices in Australia?", "In Western Australia and Victoria, yes. FuelWatch publishes WA's next-day prices from 2:30pm, and Servo Saver shows Victoria's next-day caps from 4pm. Both apply from 6am for 24 hours."],
+    ["Which fuel app should I use in Queensland?", "Queensland has no government app. Its reporting scheme sends station prices to private apps, and Queensland Treasury lists those that receive the data, including Petrol Spy, FuelMap, MotorMouth, Pumped and RACQ Fuel and Deals."],
+  ],
+  "best-road-trip-planner-apps-australia": [
+    ["What is the best app to plan a road trip in Australia?", "Use two kinds of app. A planner such as AussieCamps decides the stops, nights and dates, with distance and drive time for each leg, and a navigation app such as Google Maps or Apple Maps handles the drive itself. For remote 4WD tracks, ExplorOz Traveller does both on its own maps."],
+    ["How many stops can you add in Google Maps?", "Up to 9 stops on one route, counting the final destination, according to Google's help pages. Apple Maps allows up to 14 stops on a driving route. Longer trips need splitting into several routes or a dedicated trip planner."],
+    ["Does Roadtrippers work in Australia?", "Its App Store listing says it is designed for road trips in the USA and Canada only, so it is not a good fit for Australia."],
+    ["Can I plan a road trip offline in Australia?", "Partly. Google Maps and Apple Maps can navigate within downloaded areas, AussieCamps keeps place details on the phone with the Pass, and WikiCamps keeps up to three downloaded trips. Live traffic, forecasts and new routes still need signal in most apps."],
+  ],
+  "best-caravan-rv-apps-australia": [
+    ["What is the best app for caravanning in Australia?", "It depends on the question you need answered. CAMPS Australia Wide filters sites by set-up, including big rigs, AussieCamps uses official data for dump points, water and rest areas on iPhone, and WikiCamps has more than a million traveller reviews by its own count. Many caravanners pair one of these with a navigation app."],
+    ["Is there an app that shows big rig friendly campsites?", "CAMPS Australia Wide lets you filter by camping set-up, including big rig, and shows big rig access on its dump points. WikiCamps lists site features for vehicle access, recorded by its users. Hipcamp has a rig type filter for its private-land stays. Check the site details before you commit to a narrow track."],
+    ["What is an RV Friendly town?", "A town in the CMCA's RV Friendly program, which offers short-term, low-cost overnight parking of 24 or 48 hours for self-contained recreational vehicles, plus drinking water and a free dump point. CMCA publishes a map of them."],
+    ["Do caravan apps work without phone signal?", "Partly. CAMPS, WikiCamps, CamperMate and CMCA Traveller let you download maps or site data before you go, and AussieCamps keeps place details on the phone. Live maps, routing and weather still need signal in most apps."],
+  ],
+  "best-apps-working-holiday-australia": [
+    ["What apps do I need for a working holiday in Australia?", "Start with the free government apps: myVEVO for your visa conditions, myGov and the ATO app for tax and super, and the Fair Work Ombudsman's Record My Hours for your shifts. Add a job app such as SEEK, Indeed or Jora, and an app for places to stay, such as AussieCamps or Hostelworld."],
+    ["How do I prove my work rights to an employer?", "Use myVEVO, the free Home Affairs app, to see your visa conditions and email them to the employer. Employers can also check your work rights through VEVO online with your permission."],
+    ["How many days of farm work do I need for a second year visa?", "At least 3 months of specified work, a minimum of 88 calendar days, in an eligible industry and postcode for your visa. A third visa needs 6 months, at least 179 calendar days. UK passport holders applying for a 417 on or after 1 July 2024 are exempt."],
+    ["What tax do working holiday makers pay in Australia?", "15% on income up to A$45,000 in 2025-26 and 2026-27, with higher rates above that. Your employer withholds at that rate only if registered with the ATO as an employer of working holiday makers, and must withhold 45% if you give no tax file number."],
+  ],
+  "best-free-camping-apps-australia": [
+    ["What is the best free camping app in Australia?", "If the app itself must cost nothing, CamperMate is free with no in-app purchases and lists free camps among its places. AussieCamps is free to download but needs the Pass for its official campground and rest area data, and WikiCamps costs A$9.99 once per platform."],
+    ["Is there a free app for free camps in Australia?", "Yes. CamperMate is free, and Full Range Camping's directory, including its Free Camps category, is free to browse. Government park and forest agencies also publish their campgrounds for free, though many of those sites charge a camping fee."],
+    ["Do free campsites still need booking?", "Sometimes. Queensland needs a paid permit for every camp in its parks and forests, NSW National Parks charges a booking fee even where camping is free, and almost all Victorian state forest campgrounds are free and cannot be booked. Check the land manager for each site."],
+    ["Can you sleep at rest areas in Australia?", "Only where the road authority or sign allows it. Queensland lets vehicles stop at rest areas for up to 20 hours unless signed otherwise, and Main Roads WA allows up to 24 hours only at rest areas signed for it. Read the sign before you stay."],
   ],
 
   // --- Costs & budget -------------------------------------------------------
@@ -189,36 +235,36 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Is Australia expensive to travel in?", "Yes, particularly for accommodation, eating out and covering distance. Camping and self-catering are where it stops being expensive, which is why the gap between a camping trip and a hotel trip is unusually wide here."],
   ],
   "australia-grocery-prices-2026": [
-    ["How much do groceries cost in Australia?", "The guide prices a real basket rather than an average, with dated figures per item. Meat and packaged goods are the lines that surprise visitors, and remote and roadhouse prices run far above the city ones."],
-    ["Where is the cheapest place to buy food in Australia?", "The major supermarket chains in towns of any size, and Aldi where there is one. The price gap to a remote roadhouse or a small-town store is large enough that stocking up before a long leg is worth real money."],
+    ["How much do groceries cost in Australia?", "On Numbeo's community-reported national averages for October 2026, milk is $2.45 a litre, bread $3.96 a loaf, eggs $7.19 a dozen and chicken fillets $13.14 a kilo. A solo week of core staples comes to about $85 before pantry items, and remote stores charge more."],
+    ["Where is the cheapest place to buy food in Australia?", "The major supermarket chains in towns of any size, and Aldi where there is one. The price gap to a remote roadhouse or a small-town store can be large, so stocking up before a long leg usually pays."],
   ],
   "eating-out-australia-prices-2026": [
-    ["How much is a meal out in Australia?", "The guide gives dated prices for a café breakfast, a pub meal, a mid-range dinner and takeaway. Pub bistros remain the best value for a full meal, which is why they anchor most road trip budgets."],
-    ["Do you tip in Australia?", "No. Tipping is not expected and staff are paid an award wage that assumes none, though rounding up or leaving something for exceptional service is welcomed. A surcharge on Sundays and public holidays is normal and legal."],
+    ["How much is a meal out in Australia?", "An inexpensive restaurant meal costs about $20 to $45 a person in Sydney and a fast-food combo $15 to $18, on October 2026 community price data. A three-course dinner for two at a mid-range restaurant runs $80 to $200 before drinks."],
+    ["Do you tip in Australia?", "No. Tipping is not expected and restaurant staff are paid award wages, though rounding up or leaving something for exceptional service is welcome. Sunday and public holiday surcharges are normal and legal when the menu shows them."],
   ],
   "alcohol-coffee-drink-prices-australia": [
-    ["How much is a beer in Australia?", "The guide prices a pub schooner, a craft beer, a bottle-shop carton, and wine by the glass and the bottle, all with dated figures. Buying from a bottle shop rather than a bar is the single biggest saving on a long trip."],
-    ["How much does coffee cost in Australia?", "A flat white sits in a fairly narrow band nationwide, with inner-city cafés at the top of it. Australian coffee is genuinely good, which is why this line creeps up on people over a long trip."],
+    ["How much is a beer in Australia?", "A 500 ml draught beer in a Sydney pub costs about $7.15 to $16 on October 2026 community price data, and a 500 ml bottle from a bottle shop about $3.50 to $12 nationally. Buying from a bottle shop rather than a bar is one of the biggest savings on a long trip."],
+    ["How much does coffee cost in Australia?", "A regular cappuccino costs about $4.50 to $8 in Sydney and $4 to $8 nationally on October 2026 community price data, with inner-city cafes often at the top of the range. Two coffees a day for two people becomes a real budget line on a long trip."],
   ],
   "accommodation-costs-australia-2026": [
     ["How much is accommodation in Australia per night?", "It runs from a hostel dorm through a caravan park cabin and a motel to a hotel room, and the guide prices each with dated figures. Coastal Queensland and Sydney over summer sit well above the national picture."],
     ["What is the cheapest way to sleep in Australia?", "Camping, by a wide margin, and a council or national park site costs a fraction of a hostel dorm. The saving holds only if the vehicle and fuel to reach those sites are already part of the plan."],
   ],
   "camping-fees-australia-2026": [
-    ["How much does camping cost per night in Australia?", "From free at many council rest areas and showgrounds, through a modest per-person fee at national park campgrounds, to a caravan park site at many times that. The guide prices each tier with dated figures."],
-    ["Do you pay park entry on top of camping fees?", "In some states, yes. Western Australia, Tasmania and parts of the Northern Territory charge vehicle entry separately from the camping fee, and a multi-day or holiday pass is usually cheaper than paying daily."],
+    ["How much does camping cost per night in Australia?", "In national parks, from nothing to more than $40 a night at the busiest serviced sites in 2026: Queensland charges $7.75 per person, WA and the NT $10 to $20 per adult, Victoria's half-price bookable campgrounds start at $16 a site, and some NSW campgrounds charge only a $6 booking fee. Commercial holiday parks set their own prices."],
+    ["Do you pay park entry on top of camping fees?", "In some states. Tasmania requires a Parks Pass for every national park, WA charges $17 a vehicle at parks such as Karijini, 45 NSW parks charge vehicle entry, and NT visitors need a Parks Visitor Pass. South Australia waives entry with most campground bookings, and Queensland has no general park entry fee, but driving on K'gari and the other sand islands needs a paid vehicle access permit."],
   ],
   "australia-road-trip-fuel-cost-2026": [
     ["How much does fuel cost in Australia?", "The guide gives dated prices per litre for petrol and diesel and works them through real routes. Remote roadhouse prices run far above city prices, sometimes by half again, which is what breaks outback budgets."],
-    ["How do you estimate fuel for an Australian road trip?", "Take the route distance, add a fifth for detours, then divide by your vehicle's real consumption rather than its brochure figure. A loaded van into a headwind will not meet its rated economy, and Australia has a lot of headwind."],
+    ["How do you estimate fuel for an Australian road trip?", "Take the route distance and add a fifth for detours, multiply by your vehicle's real consumption in litres per 100 km and divide by 100 to get litres, then multiply by the price per litre. So a van using 12 litres per 100 km needs about 120 litres for every 1,000 km driven. Use real consumption, not the brochure figure: a loaded van into a headwind will not meet its rated economy."],
   ],
   "public-transport-costs-australia-2026": [
-    ["Can you travel Australia without a car?", "Between the capitals, yes. Beyond them the network thins fast, and the coastal and outback places most people come for are effectively unreachable without a vehicle or a tour."],
-    ["How much does public transport cost in Australian cities?", "The guide gives dated fares for Sydney, Melbourne, Brisbane and Perth. All run tap-on cards with daily and weekly caps, and several now accept a contactless bank card directly, which saves buying a travel card at all."],
+    ["Can you travel Australia without a car?", "Between the capitals, yes. Beyond them the network thins fast, and many of the coastal and outback places most people come for are hard to reach without a vehicle or a tour."],
+    ["How much does public transport cost in Australian cities?", "Queensland charges a flat 50 cents a trip, Perth caps a day at $7 and Sundays are free with a SmartRider or bank card, Melbourne's daily cap is $5.70 until 1 January 2027, and Sydney's adult Opal cap is $19.30 Monday to Thursday and $9.65 Friday to Sunday and on public holidays."],
   ],
   "domestic-flight-costs-australia-2026": [
-    ["How much are domestic flights in Australia?", "The guide gives realistic sale floors and typical fares on the main routes rather than headline prices. On the long legs, such as the east coast to Perth or Darwin, flying is often cheaper than driving once fuel and time are counted."],
-    ["Is it cheaper to fly or drive in Australia?", "For crossing the continent, flying usually wins on both cost and time. For anything under a day's drive, the vehicle wins, especially once a one-way rental drop-off fee is in the comparison."],
+    ["How much are domestic flights in Australia?", "2026 sale fares started at $49 one way for Sydney to Ballina, $105 for Melbourne to Sydney and $245 for Sydney to Perth, but those were limited seats without checked baggage. Outside a sale, and with bags added, expect to pay more."],
+    ["Is it cheaper to fly or drive in Australia?", "For crossing the continent, flying usually wins on time, and often on cost for one or two travellers. For anything under a day's drive the vehicle usually wins, especially once a one-way rental drop-off fee is in the comparison."],
   ],
   "bus-train-costs-australia-2026": [
     ["How much do long-distance buses cost in Australia?", "Greyhound and the regional operators are the cheapest way to cover distance without a car, and the guide gives dated fares on the main corridors. Passes priced by distance or by time suit a slow east coast run."],

@@ -29,7 +29,8 @@ const onlyLocale = args.includes("--locale") ? args[args.indexOf("--locale") + 1
 const { localeCodes, fullyTranslatedSlugs, isStaticPageTranslated, isTranslated, translationProgress } = await import("../lib/localized.ts");
 const { localeEntry } = await import("../lib/locales.ts");
 const { reviewKeys } = await import("../lib/source-strings.ts");
-const { articles } = await import("../lib/site.ts");
+// Scheduled guides included: one with a bad date must fail now, not on the morning it publishes.
+const { allArticles: articles } = await import("../lib/site.ts");
 const { translationSourceText } = await import("../lib/translation-source.ts");
 const { leaves, staleSummary } = await import("./translations-stamp.mjs");
 assert.ok(!onlyLocale || localeCodes.includes(onlyLocale), `Unknown locale: ${onlyLocale}`);
