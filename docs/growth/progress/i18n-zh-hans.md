@@ -38,7 +38,7 @@ Done: AU new guides best-fuel-price-apps, best-free-camping-apps, wikicamps-alte
 /tmp/zhhans/work-au-14/me). Note: engine `audit --output` never overwrites, use a fresh file name each time; engine script
 check needs real Chinese text in every cell (not only app names plus 的/、).
 Also done: AU new guides best-road-trip-planner-apps, best-caravan-rv-apps, campermate-alternatives (n2).
-AU COMPLETE again: 77/77 guides, engine 5923/5923, content:check passes, restamped (--all after review).
+AU after the third merge of main: 80/80 (three further new guides hipcamp-alternatives, best-weather-apps, best-money-saving-travel-apps translated, work-au-16/me). Earlier: 77/77 guides, engine 5923/5923, content:check passes, restamped (--all after review).
 NZ new guides done: rankers-alternatives, campermate-alternatives, road-trip-planner-apps-new-zealand (m1, work-nz-15/me).
 Engine script check also flagged table cells like 'iPhone（iOS 26+）' (no Chinese): write e.g. 'iPhone、iPad 和 Android'.
 Still to do: NEW guides (AU: none; NZ 2: best-campervan-apps-new-zealand, best-travel-apps-new-zealand (free-camping-apps and wikicamps-alternatives done in m2); NZ 7: rankers-alternatives, campermate-alternatives, road-trip-planner-apps-new-zealand,
