@@ -767,6 +767,20 @@
       }
     ]
   },
+  "/images/articles/hipcamp-alternatives.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/articles/hipcamp-alternatives-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/articles/hipcamp-alternatives.webp",
+        "width": 1600
+      }
+    ]
+  },
   "/images/articles/how-to-plan-trip-aussiecamps.webp": {
     "width": 1600,
     "height": 900,
@@ -1317,6 +1331,20 @@
       },
       {
         "path": "/images/screens/campermate-alternatives.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/screens/hipcamp-alternatives.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/images/screens/hipcamp-alternatives-800.webp",
+        "width": 800
+      },
+      {
+        "path": "/images/screens/hipcamp-alternatives.webp",
         "width": 1600
       }
     ]

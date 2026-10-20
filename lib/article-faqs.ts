@@ -234,6 +234,12 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Which app compares supermarket prices in Australia?", "WiseList compares Coles, Woolworths and ALDI prices as you build a shopping list, free with ads. Its paid WiseList+ tier adds splitting a list by store and barcode scan and compare."],
     ["Is there an app for cheap food in Australian cities?", "Too Good To Go sells surprise bags of unsold food from cafes and bakeries from A$6.99, and EatClub offers up to 50% off the bill at restaurants with spare tables."],
   ],
+  "hipcamp-alternatives": [
+    ["What is like Hipcamp in Australia?", "For bookable stays, AussieCamps lists farm and station stays and holiday parks from BookEasy, and G'day Parks books its own holiday parks. For public camping, AussieCamps, WikiCamps, CAMPS and CamperMate cover national park campgrounds and free camps, and each state's park agency takes bookings directly."],
+    ["How do I book a national park campsite in Australia?", "Through the park agency for that state or territory, such as NSW National Parks, Parks Victoria or Queensland Parks and Wildlife Service. In Queensland, every camp in a national park, state forest or recreation area needs a permit booked before you arrive."],
+    ["Is there a free alternative to Hipcamp?", "CamperMate is free with no in-app purchases and lists free camps and holiday parks. Many state forest and some national park campgrounds charge nothing to camp, though some still need booking, so check the land manager first."],
+    ["Where else can I find farm stays in Australia?", "AussieCamps lists bookable farm and station stays from BookEasy, and Airbnb and Stayz list rural cabins and farm stays too. Hipcamp remains the app built specifically around private-land camping."],
+  ],
   "best-free-camping-apps-australia": [
     ["What is the best free camping app in Australia?", "If the app itself must cost nothing, CamperMate is free with no in-app purchases and lists free camps among its places. AussieCamps is free to download but needs the Pass for its official campground and rest area data, and WikiCamps costs A$9.99 once per platform."],
     ["Is there a free app for free camps in Australia?", "Yes. CamperMate is free, and Full Range Camping's directory, including its Free Camps category, is free to browse. Government park and forest agencies also publish their campgrounds for free, though many of those sites charge a camping fee."],
