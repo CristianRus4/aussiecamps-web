@@ -26,7 +26,7 @@ Thread i18n-ja: Japanese for both sites. Branches `i18n/a-ja` (aussiecamps-web, 
 - Overnight rule (until 09:00 on 2026-10-21): one worker only, no subagents; drafting by the main session in small batches.
 - Done in second pass: A ua1 (working-holiday and fuel-price app guides), drink prices, eating out, grocery, public transport, domestic flights, Darwin/Kakadu, road signs, towing, alps, driving rules, state differences, biosecurity, support page (Pass boundary corrected), and all small stale units. K uk1 (camping apps, travel apps).
 - Drafts lost when a limit hit: ua2 (best-free-camping, wikicamps-alternatives, campermate-alternatives) and uk2 (best-campervan, road-trip-planner, wikicamps-alternatives) were not written; packets still in /tmp/ja-work/src/upd/.
-- Next A: all camping-rules-*, caravan-park-vs-holiday-park, dump-points done. Then ua2..ua5 (big new guides), camping-fees, sleeping-in-car, campfires, is-free-camping-legal, best-camping-app. Next K: uk2..uk5.
+- Next A: all camping-rules-*, caravan-park-vs-holiday-park, dump-points, sleeping-in-car done. Then ua2..ua5 (big new guides), camping-fees, campfires, is-free-camping-legal, best-camping-app. Next K: uk2..uk5.
 - After all units: trim ja `extra` units (arrays longer than English), `translations:stamp -- --locale ja`, content:check zero stale, `npm run check`.
 
 ## Guide order (pages-3m.tsv impressions)
