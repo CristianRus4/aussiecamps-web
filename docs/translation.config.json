@@ -12,7 +12,6 @@
         "nl",
         "pt",
         "ja",
-        "ko",
         "zh-hans",
         "cs",
         "pl"
@@ -38,10 +37,6 @@
         {
           "locale": "ja",
           "path": "../lib/translations/ja.json"
-        },
-        {
-          "locale": "ko",
-          "path": "../lib/translations/ko.json"
         },
         {
           "locale": "zh-hans",
@@ -464,6 +459,51 @@
       },
       "varieties": {
         "zh-hant": "zh-Hant"
+      }
+    },
+    {
+      "id": "aussiecamps-website-ko",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "ko"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "ko",
+          "path": "../lib/translations/ko.json"
+        }
+      ],
+      "protectedTerms": [
+        "AussieCamps",
+        "AussieCamping",
+        "AUD"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {
+        "holiday park": {
+          "ko": "홀리데이 파크"
+        },
+        "caravan park": {
+          "ko": "캐러밴 파크"
+        },
+        "national park": {
+          "ko": "국립공원"
+        },
+        "dump point": {
+          "ko": "덤프 포인트"
+        },
+        "working holiday": {
+          "ko": "워킹홀리데이"
+        }
+      },
+      "styleGuide": {
+        "ko": "Follow docs/translation-style/ko.md: 해요체 throughout, native Korean travel-writer voice, standard 띄어쓰기, Hangul exonyms for states and places (뉴사우스웨일스, 퀸즐랜드), never bare 덤프, never 오프라인 지도."
       }
     }
   ]
