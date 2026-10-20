@@ -30,8 +30,9 @@ NZ content:check passes, 0 stale, stamped). AU y1 (camping-rules NSW, Victoria, 
 Overnight rule (until 09:00 on 2026-10-21): no subagents; the main session drafts and self-reviews by hand
 with /tmp/zhhans/tools/todo.py (writes PREFIX.todo.json / .auto.json), /tmp/zhhans/work-au-14/me/<slug>.py
 (S slug, V dict of Chinese values) and tools/assemble.py PREFIX OUT mod... (merges reused units + mine).
-y3a (sleeping-in-car, dump-points, caravan-park-vs-holiday-park) done.
-Still to do AU: y3b (camping-fees-2026, best-camping-app-australia; /tmp/zhhans/work-au-14/y3.todo.json), y4 (cost pages: alcohol-coffee, eating-out,
+y3 (sleeping-in-car, dump-points, caravan-park-vs-holiday-park, camping-fees-2026, best-camping-app-australia) done.
+AU content:check now fails only on the stale cost pages (eating-out etc.: amounts) and the support page (AussieCamps count); both are queued.
+Still to do AU: y4 (cost pages: alcohol-coffee, eating-out,
 public-transport, grocery, domestic-flights; mostly small number edits), y5 (road rules state differences, road signs,
 towing, visitor road rules, darwin-kakadu, adelaide-uluru, alps), yu (AU unit packet /tmp/zhhans/work-au-14/yu.json:
 support page, 9 units), then NEW guides AU 7 and NZ 7. NZ best-nz-camping-apps and wastewater tips were pruned with prune.py.
