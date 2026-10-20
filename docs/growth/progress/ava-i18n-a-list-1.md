@@ -17,9 +17,11 @@ da, nb, sv each have their own (`aussiecamps-website-<code>`).
 - de: all five pages translated, Opus-reviewed, negation-checked, applied and stamped; `content:check` passes (de 75/75 guides).
 - nl: same five pages translated, Opus-reviewed, negation-checked, applied, stamped (nl 70/75 guides).
 - da: same five pages translated, Opus-reviewed, negation-checked, applied, stamped.
+- sv: same five pages translated by a Sonnet drafter, self-reviewed side by side (overnight rule: no subagents): removed added glosses and an added Allemansrätten sentence, fixed a mojibake label and a lowercase sentence start; negation-checked, applied, stamped.
+- nb: same five pages translated, self-reviewed side by side with the English and negation-checked (overnight rule: no subagents), applied, stamped.
 
 ## Next
-nb and sv (drafted in parallel, review next).
+All five languages done. Waiting for the orchestrator's review; optional Opus final review of nb and sv (self-reviewed only).
 
 ## Blockers
 None.
