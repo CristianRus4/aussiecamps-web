@@ -37,3 +37,4 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-10-26 | best-caravan-rv-apps-australia | scheduled |
 | 2026-10-27 | best-apps-working-holiday-australia | scheduled |
 | 2026-10-28 | best-weather-apps-camping-australia | scheduled |
+| 2026-10-29 | best-money-saving-travel-apps-australia | scheduled |
