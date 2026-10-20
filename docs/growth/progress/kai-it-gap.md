@@ -17,18 +17,19 @@ KiwiCamping: 41 guides with no Italian (2322 units) plus 2 guides with a protect
 ## Batches AussieCamps (GSC impressions first, then listicles in publish order, then the rest)
 | Batch | Guides | State |
 |---|---|---|
-| B1 | brisbane-to-cape-tribulation, great-ocean-road-camping-guide, melbourne-to-adelaide-coastal-route, perth-to-broome-road-trip, east-coast-road-trip-sydney-cairns | drafting |
-| B2 | sunshine-coast-hinterland-camping, gibb-river-road-camping, nullarbor-crossing-camping-guide, flinders-ranges-camping-guide, red-centre-way-camping | drafting |
-| B3a/b/c | listicles: caravan-rv + working-holiday; weather + money-saving; hipcamp-alternatives | queued |
-| B4 | tasmania-camping-loop, sydney-south-coast-camping, queensland-outback-way, south-west-wa-camping-loop, victoria-high-country-camping | drafting |
-| B5 | kangaroo-island-camping-guide, blue-mountains-camping-weekend | queued |
+| B1 | brisbane-to-cape-tribulation, great-ocean-road-camping-guide, melbourne-to-adelaide-coastal-route, perth-to-broome-road-trip, east-coast-road-trip-sydney-cairns | done (77cc272) |
+| B2 | sunshine-coast-hinterland-camping, gibb-river-road-camping, nullarbor-crossing-camping-guide, flinders-ranges-camping-guide, red-centre-way-camping | done (3c2dddf) |
+| B3a | listicles caravan-rv + working-holiday | review |
+| B3b | listicles weather + money-saving | drafting |
+| B3c | hipcamp-alternatives | queued |
+| B4 | tasmania-camping-loop, sydney-south-coast-camping, queensland-outback-way, south-west-wa-camping-loop, victoria-high-country-camping | done (1d513ec) |
+| B5 | kangaroo-island-camping-guide, blue-mountains-camping-weekend | drafting |
 
 ## Done
-- nothing committed yet
+- B1, B2, B4 (15 road-trip guides) applied, stamped, `npm run check` green (Handoff 1). AussieCamps Italian: 73/80 guides.
 
 ## Next
-- review B1/B2/B4 drafts (opus, medium), apply, stamp, content:check, commit
-- then B3 listicles, B5, then KiwiCamping
+- B3a/B3b/B3c listicles, B5 (finishes AussieCamps), then KiwiCamping (41 guides + 2 protected-term fixes; order in this file once started)
 
 ## Blockers / notes
 - none
