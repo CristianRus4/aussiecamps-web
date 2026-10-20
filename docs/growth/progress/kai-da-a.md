@@ -27,10 +27,11 @@ Working files: `/tmp/kai-da-a` (AGENT-BRIEF.md, mkbatch.py, qa.py, batches/, out
 - B6a applied (own draft, self-reviewed): adelaide-to-uluru, driving-road-rules-visitors, nullarbor (49/77).
 - B6 complete: + australian-alps, flinders-ranges (51/77). Handoff 2 covers B3 to B6.
 - B7a applied: red-centre-way, driving-overseas-licence, weather-safety (54/77).
+- B7b applied: road-trains, fatigue-wildlife-safety, responsible-camping (57/77).
 
 ## Next
 - Overnight rule (to 09:00): no subagents; I draft and review myself, one batch at a time.
-- Now drafting myself (no helpers): b07b (road-trains, fatigue-wildlife, responsible-camping), b08..b10 (batches in /tmp/kai-da-a/batches; rebuild from packet if /tmp gone).
+- Now drafting myself (no helpers): b08 app guides (plan-trip, filters, collections, place-details, widgets), b09 camping (dogs, packing, first-campervan, fuel-planning, choosing-campsite), b10 road-trip loops (8) (batches in /tmp/kai-da-a/batches; rebuild from packet if /tmp gone).
 
 ## Blockers / notes
 - none
