@@ -28,3 +28,8 @@ Order (GSC impressions first, then scheduled listicles in publish order, then th
 
 ## Blockers
 none
+
+## Status 2026-10-21 (late)
+- AussieCamps DONE: pt 80/80 guides (A1 to A5). Rebased on origin/main, `npm run check` green. Commits: 922fc4e, 3f300e2, 97212a7, a732112, bf242c1 (+ progress commits).
+- KiwiCamping (branch i18n/k-pt-gap): K1 f69b307, K2 ed05dc8 committed (pt 58/89). K3 drafting, K4 (6 scheduled listicles) drafting; K5..K8 inputs ready in /tmp/ptgap/k5..k8.
+- Decisions: weather apps = "app de meteorologia"; descriptions kept to English facts (some under 150 chars); Māori spelling as in English source; brand names not added where the English uses a pronoun (engine count check).
