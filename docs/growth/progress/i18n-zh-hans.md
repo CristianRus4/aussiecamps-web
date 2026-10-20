@@ -16,37 +16,17 @@ Style guide: `docs/translation-style/zh-hans.md` (identical in both repos).
 - Working files: /tmp/zhhans/work-au-12, /tmp/zhhans/work-nz-12 (b-* sources, v-* values).
   Apply with /tmp/zhhans/tools/apply.sh au|nz FILE [--real] (locale id is now zh-hans).
 
-## Next (orchestrator go-live note, 2026-10-20 evening)
-Both branches have origin/main merged. Stale units are found by diffing English (NOT stamps):
-`python3 /tmp/zhhans/tools/stale.py au|nz` writes /tmp/zhhans/stale-<repo>.json and base-<repo>.json
-(English each unit was translated from: old merge-base, or the 9cc735f/e6c3de2 commit for units done in
-this session); `plan.py` splits articles into WHOLE (>=8 stale units or structure changed), NEW (no zh), UNIT.
-Packets: `refpack.py au|nz PREFIX slug...` (PREFIX.en.json current English, PREFIX.ref.json {key:{en_old,zh}}).
-Per batch: draft subagent writes v-<batch>.json + .changed.txt, a separate editor subagent writes p-<batch>.json
-(negation/number check), then patch.py, lint.py --complete, apply.sh --real, commit. Extra rules: /tmp/zhhans/lessons.md.
-Work dirs: /tmp/zhhans/work-nz-14 (z1..z4 whole batches, zu.json unit packet), /tmp/zhhans/work-au-14 (to create).
-Done so far (2026-10-21): NZ whole z1..z4 and NZ unit-level updates (all 78 existing NZ guides current;
-NZ content:check passes, 0 stale, stamped). AU y1 (camping-rules NSW, Victoria, ACT, WA, Tasmania) and y2 (camping-rules SA/NT/QLD, campfires, is-free-camping-legal) done.
-Overnight rule (until 09:00 on 2026-10-21): no subagents; the main session drafts and self-reviews by hand
-with /tmp/zhhans/tools/todo.py (writes PREFIX.todo.json / .auto.json), /tmp/zhhans/work-au-14/me/<slug>.py
-(S slug, V dict of Chinese values) and tools/assemble.py PREFIX OUT mod... (merges reused units + mine).
-y3 (sleeping-in-car, dump-points, caravan-park-vs-holiday-park, camping-fees-2026, best-camping-app-australia) done.
-y4 (the 5 cost pages) and the support page / small units are done; AU content:check passes except the structure-stale
-guides still queued in y5.
-AU y5 (7 guides, 41 units) done: every existing AU guide is now current (content:check passes).
-Done: AU new guides best-fuel-price-apps, best-free-camping-apps, wikicamps-alternatives (n1; me/<slug>.py files in
-/tmp/zhhans/work-au-14/me). Note: engine `audit --output` never overwrites, use a fresh file name each time; engine script
-check needs real Chinese text in every cell (not only app names plus 的/、).
-Also done: AU new guides best-road-trip-planner-apps, best-caravan-rv-apps, campermate-alternatives (n2).
-AU after the third merge of main: 80/80 (three further new guides hipcamp-alternatives, best-weather-apps, best-money-saving-travel-apps translated, work-au-16/me). Earlier: 77/77 guides, engine 5923/5923, content:check passes, restamped (--all after review).
-NZ new guides done: rankers-alternatives, campermate-alternatives, road-trip-planner-apps-new-zealand (m1, work-nz-15/me).
-Engine script check also flagged table cells like 'iPhone（iOS 26+）' (no Chinese): write e.g. 'iPhone、iPad 和 Android'.
-NZ after the third merge: the 4 further new guides (working-holiday, money-saving, fuel-price, weather apps NZ) done with Opus draft + native review (work-nz-17). Native reviews of the night-written listicles: AU l1 done (197 units fixed), l2, l3 and NZ l1/l2 queued (packets in /tmp/zhhans/work-rev).
-Still to do (older note, superseded): NEW guides (AU: none; NZ 2: best-campervan-apps-new-zealand, best-travel-apps-new-zealand (free-camping-apps and wikicamps-alternatives done in m2); NZ 7: rankers-alternatives, campermate-alternatives, road-trip-planner-apps-new-zealand,
-free-camping-apps-new-zealand, best-travel-apps-new-zealand, wikicamps-alternatives, best-campervan-apps-new-zealand).
-Remaining at the end: NEW guides (AU 7, NZ 7), then `translations:stamp -- --locale zh-hans`, `content:check`
-(zero stale, zero number-parity errors) and one `npm run check` per repo (needs `qrcode` in node_modules:
-`cp -cRn <main>/node_modules/ ./node_modules/`). NZ check currently fails until best-nz-camping-apps is updated.
+## Final state (2026-10-21)
+- AU (aussiecamps-web): 80/80 guides, 220/220 UI, 3/3 pages; NZ (kiwicamping-web): 89/89 guides, 222/222 UI, 3/3 pages.
+  Both branches have origin/main merged (zh-hans is live on main); engine audit has no errors (only source-equal and
+  glossary warnings), `content:check` shows 0 stale and 0 unstamped, `npm run check` passes in both repos.
+- Every drafted batch after the first session was reviewed by a separate native-review subagent (accuracy, voice, terms).
+- Merge note: main carried the orchestrator's "Apply native-judge fixes" on the same units; in 45 AU units both sides
+  had edited, the judge fixes were kept. Dates follow the style guide (2026年10月20日, no spaces); tools/datefix.py.
+- Decisions the owner may want: 优点 / 不足 phrasing in listicles; 停靠点 (not 站) for stops; 调运 for relocations;
+  the English source issues listed below are translated as written.
+- If English changes again: re-run `npm run translations:source`, find stale units with `translations:stamp -- --locale zh-hans`
+  (shows stale count; `npx tsx /tmp/zhhans/tools/stalelist.mjs` lists keys), re-translate them, then stamp.
 
 ## How the work is done (for a resuming session)
 - Engine: separate zh-Hans catalog per site in `docs/translation.config.json`
