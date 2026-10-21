@@ -43,3 +43,9 @@ Translated and natively reviewed: australia-road-trip-fatigue-wildlife-safety, w
 - Editor note: the English guides say "we make AussieCamps"; the Polish names the AussieCamps team/app instead of using "my".
 - Editor note: the English fatigue guide repeats fatigue/wildlife sections (sections 1-3 and 4-6 overlap) and its last paragraph in the animal-strike section does not fit; translated as written.
 - "swerve" is rendered "odbijać kierownicą" (steer sharply), not "skręcać", so "never swerve" stays unambiguous.
+
+## Batch 8 (AussieCamps, Polish) - AussieCamps now 80/80
+Translated and natively reviewed: best-free-camping-apps-australia, best-caravan-rv-apps-australia, best-apps-working-holiday-australia, best-weather-apps-camping-australia, best-money-saving-travel-apps-australia, hipcamp-alternatives.
+- Editor note: English says "we/us/our" about AussieCamps; Polish names the AussieCamps team.
+- Editor note: the English guides use "working holiday" generically for visas 417 and 462; pl.md prefers "Work and Holiday" only for 462, so the generic term was kept lowercase.
+- Editor note: in the English money-saving guide, "Our comparison of fuel price apps" has no link.
