@@ -16,11 +16,14 @@ worktree `~/.t3/worktrees/kiwicamping-web/ava-zh-hant-list`). Never pushed; the 
 AussieCamps: wikicamps-alternatives, campermate-alternatives, best-fuel-price-apps-australia,
 best-road-trip-planner-apps-australia, best-free-camping-apps-australia, best-caravan-rv-apps-australia,
 best-apps-working-holiday-australia, best-weather-apps-camping-australia, best-money-saving-travel-apps-australia,
-hipcamp-alternatives: none done yet.
+hipcamp-alternatives.
+Done (committed, reviewed, negation-checked, stamped): campermate-alternatives, wikicamps-alternatives, best-fuel-price-apps-australia.
+In progress: drafts of best-road-trip-planner-apps-australia, best-free-camping-apps-australia, best-caravan-rv-apps-australia.
 KiwiCamping: rankers-alternatives, campermate-alternatives, road-trip-planner-apps-new-zealand,
 free-camping-apps-new-zealand, best-travel-apps-new-zealand, wikicamps-alternatives, best-campervan-apps-new-zealand,
 best-weather-apps-new-zealand, fuel-price-apps-new-zealand, working-holiday-apps-new-zealand,
 money-saving-travel-apps-new-zealand: none done yet.
 
 ## Blockers / notes
-None.
+Flagship best-camping-app-australia (zh-hant) still uses 我們 for the company in its closing line (found by reviewers); not touched here, orchestrator may want a pass.
+Owner disclosure wording across pages: 本文作者開發的 App; corrections line ends 「AussieCamps 會更正」.
