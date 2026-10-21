@@ -22,7 +22,7 @@ glossary gets `Australia → Austrálie`.
 - [x] `consent` namespace (6 per site).
 - [x] Support, privacy (all 7 sections incl. Website analytics) and terms: 63 units per site.
 
-## Status (2026-10-22)
+## Status (2026-10-23)
 
 Both branches merged with origin/main (merge, not rebase) and re-synced by English diff (`en.json` at the
 previous tip vs merged): zero changed units left. `LOCALES_PREVIEW=1 npm run content:check`: cs 0 stale,
@@ -30,7 +30,9 @@ previous tip vs merged): zero changed units left. `LOCALES_PREVIEW=1 npm run con
 Go-live set (UI 220/220 non-testimonial, consent, home, support, privacy with Website analytics, terms) is
 complete on both sites. `cs` stays `draft` in `lib/locales.json` (orchestrator flips it).
 
-Guides done: AussieCamps 27 of 80, KiwiCamping 35 of 89. Every batch is drafted (sonnet, high), then
+Guides done: AussieCamps 47 of 80, KiwiCamping 55 of 89. Queue and per-batch pipeline files live in /tmp/cs-work
+(queue.py, DRAFT-PROMPT.md, REVIEW-PROMPT.md, doit.sh); recreate from this note if lost: batches of five guides,
+sonnet draft, opus review, apply, stamp, content:check, commit every two batches. Every batch is drafted (sonnet, high), then
 rewritten by an Opus native reviewer (titles, descriptions, headings, FAQs, tables, rule and app-claim units)
 before apply; the reviewer's negation check is recorded in each handoff.
 - AussieCamps: alcohol-coffee-drink-prices, public-transport-costs, eating-out, australia-grocery-prices,
@@ -40,14 +42,18 @@ before apply; the reviewer's negation check is recorded in each handoff.
   best-camping-app-australia, campervan-driving-australia-safety-guide, camping-water-planning,
   perth-to-broome, east-coast-road-trip-sydney-cairns, sunshine-coast-hinterland, gibb-river-road,
   overseas-driver-licence-australia-state-guide, nullarbor-crossing, flinders-ranges, red-centre-way,
-  tasmania-camping-loop, sydney-south-coast-camping.
+  tasmania-camping-loop, sydney-south-coast-camping, queensland-outback-way, south-west-wa-camping-loop,
+  victoria-high-country, kangaroo-island, blue-mountains, driving-in-australia-overseas-licence,
+  camping-with-dogs, camping-packing-list, first-campervan-trip, road-trip-fuel-planning.
 - KiwiCamping: grocery-prices, doc-huts, public-transport-costs, road-signs, biosecurity-camping-gear,
   doc-campsite-rules, doc-campsites guide, best-nz-camping-apps (redone for the new English), where-to-camp,
   camping-fees, campfire-rules, best-time-camping, self-contained warrant, freedom-camping rules and guide,
   wastewater and rubbish, road-trip fuel cost, travel cost, eating out, beer-wine-coffee prices,
   campervan-road-rules, speed-limits, holiday-parks, towing-caravan, wof-registration, east-cape-road-trip,
   accommodation-costs, scenic-campsites, overseas-driver-licence, sandflies, volcanic-safety,
-  coromandel-rotorua-road-trip, dogs-camping, domestic-flight-costs, northland-cape-reinga.
+  coromandel-rotorua-road-trip, dogs-camping, domestic-flight-costs, northland-cape-reinga, packing-list,
+  responsible-camping, arthurs-pass, cook-strait-ferry, kauri-dieback, taranaki-forgotten-world, bus-ferry-train-costs,
+  picton-kaikoura-christchurch, wanaka-haast-pass, alcohol-fatigue-driving.
 - Dropped from `cs.json` (AussieCamps): camping-rules-new-south-wales, camping-rules-western-australia,
   sleeping-in-car-australia. They were translated before the "do not translate" instruction, then their English
   was rewritten, so they were stale; removing them gives zero stale. Old Czech is in git history
