@@ -37,3 +37,9 @@ Prices follow docs/translation-style/pl.md (`N AUD`, nbsp thousands, decimal com
   driving-with-road-trains-australia.
 - Review fixes: "unsecured awnings" kept as the English warning (draft had turned it into an instruction), roadhouses out of fuel (not goods),
   night temperature below zero, gendered address removed.
+
+## Batch 7 (AussieCamps, Polish)
+Translated and natively reviewed: australia-road-trip-fatigue-wildlife-safety, wikicamps-alternatives, campermate-alternatives, best-fuel-price-apps-australia, best-road-trip-planner-apps-australia.
+- Editor note: the English guides say "we make AussieCamps"; the Polish names the AussieCamps team/app instead of using "my".
+- Editor note: the English fatigue guide repeats fatigue/wildlife sections (sections 1-3 and 4-6 overlap) and its last paragraph in the animal-strike section does not fit; translated as written.
+- "swerve" is rendered "odbijać kierownicą" (steer sharply), not "skręcać", so "never swerve" stays unambiguous.
