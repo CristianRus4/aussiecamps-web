@@ -15,3 +15,10 @@ Prices follow docs/translation-style/pl.md (`N AUD`, nbsp thousands, decimal com
 ## Batch 2 (5 guides)
 - australian-alps-camping-route, flinders-ranges-camping-guide, red-centre-way-camping, tasmania-camping-loop, darwin-kakadu-litchfield-loop.
 - Review fixes: "many" vs "most" closed, "crowds not fully arrived", Tasmania shuttle is mandatory, crocodile heading widened to every water decision.
+
+## Batch 3 (5 guides)
+- overseas-driver-licence-australia-state-guide, adelaide-to-uluru-road-trip, best-camping-app-australia, driving-in-australia-road-rules-visitors,
+  nullarbor-crossing-camping-guide.
+- Review fixes: hands-free use is wider than calls, "every occupant" includes the driver, whales vs "walenie", no "we" in the app comparison.
+- Note for the editor: the English licence FAQ ("for the length of your stay in most states") clashes with the guide body (6-month visitor period in
+  NSW and Victoria; residency can come from visa type or employment). Translated faithfully.
