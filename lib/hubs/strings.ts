@@ -186,8 +186,8 @@ const clockTimes = (text: string) => text
   .replace(/\b(\d{1,2})(?:[:.]00)?\s*pm\b/gi, (_, hour: string) => String((Number(hour) % 12) + 12))
   .replace(/\b(\d{1,2})(?:[:.]00)?\s*am\b/gi, "$1")
   .replace(/\b(\d{1,2})[:.]00\b/g, "$1");
-/** Every number in a paragraph, separators dropped, in order: "4,046.5" and "4.046,5" are both 40465. */
-export const proseNumbers = (text: string, clock = false) => ((clock ? clockTimes(text) : text).match(/\d+(?:[.,   ]\d{3}(?!\d))*(?:[.,]\d+)?/g) ?? []).map((number) => number.replace(/\D/g, "")).sort().join(" ");
+/** Every number in a paragraph ("4x4" counts as "4WD"), separators dropped, in order: "4,046.5" and "4.046,5" are both 40465. */
+export const proseNumbers = (text: string, clock = false) => ((clock ? clockTimes(text) : text).replace(/\b4\s*[x×]\s*4\b/gi, "4WD").match(/\d+(?:[.,   ]\d{3}(?!\d))*(?:[.,]\d+)?/g) ?? []).map((number) => number.replace(/\D/g, "")).sort().join(" ");
 
 function isProseComplete(english: string[] | undefined, translated: unknown) {
   if (!english?.length) return true;
