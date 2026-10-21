@@ -17888,6 +17888,628 @@
         }
       ],
       "priceTable": null
+    },
+    "sydney-to-adelaide-drive": {
+      "title": "Sydney to Adelaide Drive 2026: Sturt Highway, Barrier Highway, Stops and Campsites",
+      "description": "Sydney to Adelaide is about 1,457 km and 18 hours on the Sturt Highway, or about 1,625 km via Melbourne. Routes compared, overnight stops, fruit fly rules, fuel gaps and dump points.",
+      "region": "New South Wales, Victoria and South Australia",
+      "imageAlt": "The Murrumbidgee River at Balranald, New South Wales, with red gums leaning over the water",
+      "intro": "Sydney to Adelaide is about 1,457 km and 18 hours of driving by the inland Sturt Highway, through Wagga Wagga, Hay, Balranald, Mildura and Renmark, by OSRM routing. The other options are the Hume Highway via Melbourne, about 1,625 km, and the remote Barrier Highway through Cobar and Broken Hill, which is a longer outback drive.",
+      "sections": [
+        {
+          "heading": "Sydney to Adelaide routes compared",
+          "body": [
+            "The inland route follows the Hume Highway from Sydney to Tarcutta, then the Sturt Highway through Wagga Wagga, Narrandera, Hay, Balranald, Mildura, Renmark and Waikerie to Gawler and Adelaide. Wikipedia says the Sturt Highway runs 947 km from Tarcutta to Gawler, about 596 km in <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a>, 117 km in Victoria and 234 km in South Australia, and that most of it is single carriageway. The second option is the Hume Highway to Melbourne, then the Melbourne to Adelaide road, which the coastal route guide covers. The third is the Barrier Highway, which leaves the Mitchell Highway at Nyngan and runs through Cobar, Wilcannia, Broken Hill and Yunta to Burra.",
+            "All distances and times are from OSRM routing on OpenStreetMap data, computed on 21 October 2026, for a car with no stops. The OSRM Barrier Highway total of about 1,797 km looks inflated on the Nyngan to Cobar leg, so it is not used here. Wikipedia gives the Barrier Highway as 1,012 km from Nyngan to Giles Corner in <a data-guide=\"camping-rules-south-australia\">South Australia</a>."
+          ],
+          "tips": [
+            "Sturt: shortest, single carriageway",
+            "Via Melbourne: dual carriageway most of the way",
+            "Barrier: remote, long fuel legs"
+          ],
+          "table": {
+            "caption": "Sydney to Adelaide by road, OSRM routing computed 21 October 2026. The Barrier Highway total is not shown because the OSRM figure was unreliable.",
+            "head": [
+              "Route",
+              "Distance",
+              "Drive time",
+              "Road",
+              "Best for"
+            ],
+            "rows": [
+              [
+                "Hume and Sturt Highways via Hay and Mildura",
+                "About 1,457 km",
+                "About 17 h 58 min",
+                "Hume dual carriageway, then mostly single carriageway",
+                "The shortest drive, river towns and the Riverland"
+              ],
+              [
+                "Hume Highway via Melbourne",
+                "About 1,625 km",
+                "About 20 h 26 min",
+                "Dual carriageway to Melbourne, then the Melbourne to Adelaide road",
+                "A Melbourne night, then the coast"
+              ],
+              [
+                "Barrier Highway via Cobar and Broken Hill",
+                "About 1,012 km on the Barrier Highway alone, Nyngan to Giles Corner",
+                "Not shown",
+                "Remote, sparsely settled, fully sealed since 1972",
+                "Outback drivers who want Broken Hill"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Sydney to Adelaide on the Sturt Highway in four days",
+          "body": [
+            "By OSRM routing, a four-day split is Sydney to Wagga Wagga about 457 km (5 h 33 min), Wagga Wagga to Hay about 308 km (3 h 54 min), Hay to Mildura about 292 km (3 h 31 min) and Mildura to Adelaide about 401 km (4 h 56 min). Along the way, Goulburn is about 194 km from Sydney, Gundagai about 181 km further, Narrandera about 106 km after Wagga Wagga, Balranald about 132 km after Hay and Renmark about 141 km after Mildura.",
+            "The Hume Highway part is dual carriageway and 110 km/h, and the Sturt Highway beyond Wagga Wagga is where the quieter, single carriageway driving starts."
+          ],
+          "tips": [
+            "Wagga Wagga about 457 km",
+            "Hay about 765 km",
+            "Mildura about 1,057 km"
+          ]
+        },
+        {
+          "heading": "Where to stop on the Sturt Highway",
+          "body": [
+            "Wagga Wagga has BIG4 Wagga Wagga Holiday Park. Narrandera has Sandy Beach campground at Cudgel in the AussieCamps data, and Narrandera Visitors Centre rest area for a break. Hay <a data-guide=\"caravan-park-vs-holiday-park\">Caravan Park</a> is on the Sturt Highway about 1 km east of the Sturt and Cobb Highway junction, and Hay Shire's directory also lists Hay Plains Holiday Park on Nailor Street and Hay Showground Caravan and Camping Ground on Showground Road. Balranald Lions Park is a rest area with toilets, shelter, picnic tables and barbecues in the AussieCamps data.",
+            "At the Victorian border, Discovery Parks Mildura Buronga Riverside is at 71A Caravan Park Road, Buronga, and has cabins, powered and unpowered sites and a <a data-guide=\"dump-points-australia-guide\">dump point</a>. In the Riverland, Discovery Parks Renmark Riverfront is at 1 Patey Drive, Renmark. The AussieCamps data lists Loch Luna, Kaiser Strip and Moorook campgrounds nearby. Check availability with each park. Rest areas are for a break: New South Wales advice conflicts, and South Australia and Victoria have no statewide limit in the sources checked, so read the sign and the rest area guide."
+          ],
+          "tips": [
+            "Hay: three parks to choose from",
+            "Mildura: Buronga on the NSW side",
+            "Riverland campgrounds in the data"
+          ]
+        },
+        {
+          "heading": "The Barrier Highway option",
+          "body": [
+            "For the remote route, Rita's Outback Guide gives leg distances of Nyngan to Cobar 132 km, Cobar to Wilcannia 261 km, Wilcannia to Broken Hill 198 km, Broken Hill to Yunta 195 km and Yunta to Burra 159 km. Sydney to Dubbo is about 398 km and Dubbo to Nyngan about 165 km by OSRM. Cobar Caravan Park is at 101 Marshall Street in Cobar and Broken Hill Tourist Park has cabins, powered sites and a <a data-guide=\"dump-points-australia-guide\">dump point</a>, listed by the operator.",
+            "Wikipedia describes the area as remote and very sparsely settled. NSW National Parks says outback NSW has extreme temperatures, reaching up to 50 degrees Celsius in some places, with autumn and spring the best times for long drives, and says to stay with your vehicle if it breaks down. The <a data-guide=\"driving-with-road-trains-australia\">road trains</a> guide covers road train etiquette."
+          ],
+          "tips": [
+            "Cobar to Wilcannia 261 km",
+            "Wilcannia to Broken Hill 198 km",
+            "Stay with the vehicle if it breaks down"
+          ]
+        },
+        {
+          "heading": "Fuel and services",
+          "body": [
+            "On the Barrier Highway, Rita's Outback Guide describes Emmdale Roadhouse as the only place to get fuel between Cobar and Wilcannia, and Little Topar Roadhouse as the only place for fuel, drinks and food between Wilcannia and Broken Hill. Opening hours and whether Little Topar is currently trading could not be confirmed, so ring ahead. Nyngan, Cobar and Wilcannia are towns with fuel, and Yunta has two fuel stations according to the same guide. NSW National Parks says Mutawintji National Park, a side trip from Broken Hill, has no fuel or food.",
+            "On the Sturt Highway the longest town-to-town legs are Narrandera to Hay at about 202 km and Balranald to Mildura at about 160 km by OSRM. Fuel at smaller towns such as Darlington Point, Carrathool, Oxley and Euston could not be confirmed, so fill up at Wagga Wagga, Narrandera, Hay, Balranald and Mildura. The <a data-guide=\"road-trip-fuel-planning-australia\">fuel planning</a> guide shows how to budget the distance."
+          ],
+          "tips": [
+            "Barrier: fuel before Cobar and Wilcannia",
+            "Sturt: fill up in Narrandera, Hay and Balranald",
+            "Ring ahead for roadhouse hours"
+          ]
+        },
+        {
+          "heading": "Road conditions, tolls and heat",
+          "body": [
+            "Check Live Traffic NSW (livetraffic.com), VicTraffic and, in <a data-guide=\"camping-rules-south-australia\">South Australia</a>, the DIT outback road closures page (1300 361 033). The SA page says closed outback areas are restricted to residents, landowners, accredited media and relief services and not to try to travel through affected areas. A Riverina story reported the Sturt Highway west of Hay closing to light vehicles when the Murrumbidgee spilled over it, but it is undated, so check flood status before leaving.",
+            "Sydney's M5 and M7 are tolled and meet the Hume at Prestons. Linkt says that without an account you can buy a pass within 5 days of your first trip on Sydney or <a data-guide=\"camping-rules-queensland\">Queensland</a> toll roads, and that unpaid trips bring a notice and an admin fee to the registered owner. Transport for NSW warns drivers in heatwaves to allow extra time because high temperatures often cause more breakdowns."
+          ],
+          "tips": [
+            "Live Traffic NSW and DIT outback closures",
+            "Check flood status near Hay",
+            "Heat breaks vehicles down"
+          ]
+        },
+        {
+          "heading": "Border rules: South Australia's fruit fly zone",
+          "body": [
+            "South Australia is the border to plan for. PIRSA says there are permanent restrictions on bringing host produce into South Australia and the Riverland Pest Free Area, as well as restrictions within declared <a data-guide=\"interstate-biosecurity-road-trip\">fruit fly</a> outbreak areas. Quarantine bins are available at key entry points into South Australia and the Riverland, and it says travellers carrying restricted items should eat them beforehand or dispose of them in the bins. PIRSA also says it puts random roadblocks in place with quarantine officers checking vehicles for fresh fruit and vegetables, and that travellers found carrying restricted items may face a fine. The fine rose on 1 July 2026, so check the current amount on the PIRSA site.",
+            "Restricted produce can move if it is canned, cooked, dried, frozen, grated or pureed. The Interstate Quarantine site says for the Riverland not to take fresh, unprocessed fruit or fruiting vegetables. Outbreak areas and end dates change, so use the PIRSA outbreak map and the Fruit Fly Hotline on 1300 666 010. In <a data-guide=\"camping-rules-victoria\">Victoria</a>, Agriculture Victoria says the Greater Sunraysia Pest Free Area regulation lapsed in July 2024 and Mediterranean fruit fly restrictions still apply statewide. The interstate biosecurity guide has the full picture."
+          ],
+          "tips": [
+            "Eat or bin fresh fruit and vegetables before South Australia",
+            "Canned, cooked, dried, frozen: allowed",
+            "Fruit Fly Hotline: 1300 666 010"
+          ]
+        },
+        {
+          "heading": "Dump points and the clock changes",
+          "body": [
+            "The AussieCamps data lists <a data-guide=\"dump-points-australia-guide\">dump points</a> on the Sturt route at Ampol Foodary Pheasants Nest Southbound (no washout tap listed), Uranquinty Rest Area (no washout tap listed), Lions Park in Darlington Point (washout tap listed) and Greenock Centenary Park in South Australia (washout tap listed). On the Barrier route it lists Farrell Flat Dump Point in South Australia (washout tap listed), and the operators of Discovery Parks Mildura Buronga Riverside and Broken Hill Tourist Park also list dump points. That is not every dump point, so check the dump points guide.",
+            "Daylight saving began on Sunday 4 October 2026 in <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a>, Victoria, South Australia, Tasmania and the ACT, and ends on Sunday 4 April 2027. South Australia is on central time, so it is half an hour behind Victoria and New South Wales while daylight saving runs, and your clock goes back 30 minutes when you cross near Renmark. Broken Hill is in New South Wales but keeps Australian Central time."
+          ],
+          "tips": [
+            "Washout tap listed at Darlington Point and Greenock",
+            "SA is 30 minutes behind Victoria until 4 April 2027"
+          ]
+        },
+        {
+          "heading": "Plan the Sydney to Adelaide drive in AussieCamps",
+          "body": [
+            "Add the overnight stops to a trip in AussieCamps and it lists them in order with the distance and drive time of each leg, and the forecast for the day you plan to arrive. AussieCamps lists 1,838 campgrounds, 5,552 rest areas and 1,393 <a data-guide=\"dump-points-australia-guide\">dump points</a> from park agencies, road authorities and public datasets, and a place page shows the facilities those sources publish. Save a collection of stops for the Sturt Highway and another for the Barrier Highway to compare them.",
+            "Stored place details, saved places and guides work with <a data-guide=\"camping-without-phone-signal\">no signal</a>. Map tiles, routing, weather and photos need a connection, so open the trip before the long legs between Wagga Wagga and Mildura. AussieCamps runs on iPhone only, and it is free to download, with in-app purchases."
+          ],
+          "tips": [
+            "Save a collection per route",
+            "Leg times and a forecast per stop",
+            "Open the trip before the long legs"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "How far is it to drive from Sydney to Adelaide?",
+          "About 1,457 km and 18 hours by the inland Sturt Highway route, or about 1,625 km and 20 hours by way of Melbourne, by OSRM routing on OpenStreetMap data. Plan three or four days."
+        ],
+        [
+          "Which is the shortest road from Sydney to Adelaide?",
+          "Wikipedia calls the Sturt Highway, reached by the Hume Highway to Tarcutta, the shortest, highest-standard route between the two cities. It runs 947 km from Tarcutta to Gawler through Narrandera, Hay, Balranald, Mildura and Renmark, and most of it is single carriageway."
+        ],
+        [
+          "Can I bring fruit into South Australia?",
+          "Not fresh fruit and fruiting vegetables in most cases. PIRSA says there are permanent restrictions on bringing host produce into South Australia and the Riverland Pest Free Area, and quarantine bins and random roadblocks operate at entry points. Produce that is canned, cooked, dried, frozen, grated or pureed can move, so eat or bin fresh produce before you cross."
+        ],
+        [
+          "Is Broken Hill on a different time to Sydney?",
+          "Yes. Broken Hill is in New South Wales but uses Australian Central time, so it is half an hour behind Sydney while daylight saving runs. On the Sturt Highway route, South Australia is also half an hour behind Victoria and New South Wales until daylight saving ends on 4 April 2027."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "OSRM routing on OpenStreetMap data (Sydney to Adelaide, computed 21 October 2026)"
+        },
+        {
+          "label": "Wikipedia: Sturt Highway"
+        },
+        {
+          "label": "Wikipedia: Barrier Highway"
+        },
+        {
+          "label": "Rita's Outback Guide: Barrier Highway"
+        },
+        {
+          "label": "NSW National Parks: outback safety"
+        },
+        {
+          "label": "PIRSA: South Australian fruit fly"
+        },
+        {
+          "label": "Interstate Quarantine: quarantine zones"
+        },
+        {
+          "label": "Agriculture Victoria: regulatory changes in the Greater Sunraysia region"
+        },
+        {
+          "label": "SA Department for Infrastructure and Transport: outback road closures"
+        },
+        {
+          "label": "Linkt: travelling interstate"
+        },
+        {
+          "label": "NSW Government: daylight saving in NSW"
+        },
+        {
+          "label": "Live Traffic NSW"
+        },
+        {
+          "label": "Hay Shire Council: caravan parks"
+        }
+      ],
+      "priceTable": null
+    },
+    "melbourne-to-canberra-drive": {
+      "title": "Melbourne to Canberra Drive 2026: Hume Highway, Alpine and Monaro Routes",
+      "description": "Melbourne to Canberra is about 680 km and 8.5 hours on the Hume and Barton Highways. Routes compared with the alpine and Monaro options, stops, campgrounds, snow chains and dump points.",
+      "region": "Victoria, New South Wales and the ACT",
+      "imageAlt": "The dual carriageway Hume Highway between Gundagai and Goulburn, with traffic on both carriageways and green hills behind",
+      "intro": "Melbourne to Canberra is about 680 km and 8 h 35 min of driving on the Hume Highway to Yass and the Barton Highway into Canberra, by OSRM routing. The two alternatives, over the Snowy Mountains or along the Monaro Highway from the south coast, add roughly 70 to 170 km and are for drivers who want the mountains or the coast.",
+      "sections": [
+        {
+          "heading": "Melbourne to Canberra routes compared",
+          "body": [
+            "The standard route is the Hume Highway through Seymour, Euroa, Benalla, Wangaratta, Albury, Holbrook, Gundagai and Yass, then the Barton Highway (A25) into the ACT. Wikipedia says the Hume Highway has been dual carriageway for its full length since 7 August 2013, with a 110 km/h limit, and the Barton Highway runs 52 km from Yass to Lyneham, with only about 6 km of its <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> section dual carriageway.",
+            "The alpine route leaves the Hume at Albury, follows the Murray Valley Highway to Corryong, crosses the Snowy Mountains on the Alpine Way from Khancoban to Jindabyne, then runs through Cooma and along the Monaro Highway to Canberra. The Monaro route follows the Princes Highway from Melbourne to Cann River, then the Monaro Highway through Bombala and Cooma. Distances and times are from OSRM routing on OpenStreetMap data, computed on 21 October 2026, for a car with no stops. The alpine total is derived from OSRM legs plus the length of the Alpine Way in Wikipedia, so it is not a routed figure."
+          ],
+          "tips": [
+            "Hume: fastest, dual carriageway to Yass",
+            "Alpine: steep, narrow, closed sections in winter",
+            "Monaro: the coast road, then the tablelands"
+          ],
+          "table": {
+            "caption": "Melbourne to Canberra by road, OSRM routing computed 21 October 2026 (alpine total derived).",
+            "head": [
+              "Route",
+              "Distance",
+              "Drive time",
+              "Road",
+              "Best for"
+            ],
+            "rows": [
+              [
+                "Hume Highway then Barton Highway",
+                "About 680 km",
+                "About 8 h 35 min",
+                "Dual carriageway to Yass, then mostly single carriageway",
+                "The fastest drive, in a day or with an Albury night"
+              ],
+              [
+                "Alpine route via Corryong, Khancoban, Jindabyne and Cooma",
+                "About 753 km (derived)",
+                "Not routed",
+                "Steep, narrow and winding Alpine Way",
+                "Mountain scenery, not for large caravans"
+              ],
+              [
+                "Princes Highway to Cann River, then the Monaro Highway",
+                "About 747 km",
+                "About 10 h 35 min",
+                "Mostly single carriageway",
+                "A south-east coast and tablelands drive"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "The Hume route in one or two days",
+          "body": [
+            "By OSRM routing, Melbourne to Albury is about 315 km (3 h 53 min) and Albury to Canberra about 353 km (4 h 23 min), through Holbrook about 63 km, Gundagai about 115 km further, Yass about 107 km after that and Canberra about 68 km on. If you split the drive, Albury is the usual night. BIG4 Albury Tourist Park is on Wagga Road in Lavington, Albury Central Tourist Park is on North Street and Discovery Parks Lake Hume is about 15 minutes away. Confirm availability with the park.",
+            "Further on, Gundagai Cabins and Tourist Park is at 1 Nangus Road and VisitNSW describes it as suiting a stopover on the Hume Highway. Yass <a data-guide=\"caravan-park-vs-holiday-park\">Caravan Park</a> is about five minutes off the Hume on the northern side of Yass, with cabins, camping and drive-through caravan sites. The AussieCamps data lists Victorian Hume rest areas at Mangalore, Avenel, Benalla, Winton, Glenrowan, Wangaratta South and Chiltern, with toilets, picnic tables, barbecues and a heavy vehicle area, and mostly drinking water. It lists none for the New South Wales section here, which is a gap in the data. Treat rest areas as a place for a break: Victoria has no statewide overnight limit in the sources checked, and councils can ban overnight stays."
+          ],
+          "tips": [
+            "Albury about 315 km",
+            "Gundagai about 493 km",
+            "Yass about 600 km"
+          ]
+        },
+        {
+          "heading": "Camping in the ACT",
+          "body": [
+            "ACT Parks says bookings are essential at Cotter Campground, which takes general camping, camper-trailers and small vans, with water, hot showers and barbecues and no dogs. Honeysuckle Campground also needs a booking and takes up to four campervans or camper-trailers, and fees apply. Mount Clear Campground in Namadgi National Park is a remote, basic campground that ACT Parks says is unsuitable for campervans and caravans, and its site lists closures for maintenance, <a data-guide=\"campfires-camping-australia\">fire bans</a> and access problems. The AussieCamps data lists all four: Cotter, Honeysuckle, Mount Clear and Northern Border Campground. Fees were not confirmed, so check the ACT Parks page.",
+            "The camping rules guide for <a data-guide=\"camping-rules-act\">the ACT</a> covers the rules, and the Namadgi Visitor Centre on (02) 6237 5307 can help with current access."
+          ],
+          "tips": [
+            "Cotter and Honeysuckle need a booking",
+            "Mount Clear: not for caravans",
+            "Check ACT Parks for closures"
+          ]
+        },
+        {
+          "heading": "The alpine and Monaro options",
+          "body": [
+            "On the alpine route, NPWS describes the Alpine Way between Khancoban and Thredbo as steep, narrow and winding, with rockfalls after rain, and not recommended for large caravans. By OSRM, Corryong is about 128 km beyond Albury (1 h 49 min), Khancoban about 29 km on, Jindabyne about 107 km further on the Alpine Way, then Cooma about 61 km and Canberra about 113 km. NPWS says the road from Khancoban to Cabramurra, and many minor roads in Kosciuszko National Park, are closed in winter, and roads can close in extreme weather.",
+            "NSW says all 2WD vehicles must carry chains between the June long weekend and the October long weekend on Kosciuszko Road, the Alpine Way between Thredbo and Tom Groggin and Island Bend and Guthega Road, and recommends them on the Snowy Mountains Highway. The 2026 period has ended and starts again in June 2027. The Monaro Highway is 285.1 km from Cann River to Canberra, with Cooma about 111.6 km from Canberra, and the Australian Alps and <a data-guide=\"camping-rules-victoria\">Victoria</a> high country guides cover the mountain camping in more detail."
+          ],
+          "tips": [
+            "Alpine Way: steep and narrow",
+            "Chains: June to October long weekends",
+            "Monaro Highway: Cann River to Canberra 285 km"
+          ]
+        },
+        {
+          "heading": "Fuel and services",
+          "body": [
+            "The sources checked give no fuel gap on any of these routes, and no figure should be taken from the OSRM legs, which only show the distance between the towns used as waypoints. The longest of those on the Hume is Melbourne to Euroa at about 159 km. Fill up in the larger towns, such as Seymour, Benalla, Wangaratta, Albury, Gundagai and Yass. On the alpine route, Khancoban to Jindabyne is about 107 km of national park road and fuel at Thredbo could not be confirmed, so fill up at Corryong or Jindabyne. The road trip fuel guide shows how to budget the distance."
+          ],
+          "tips": [
+            "Fill up in the larger Hume towns",
+            "Alpine: top up at Corryong or Jindabyne"
+          ]
+        },
+        {
+          "heading": "Road conditions, tolls and speed",
+          "body": [
+            "Check VicTraffic and Live Traffic NSW (livetraffic.com, 132 701). NPWS tells drivers to use Live Traffic NSW for conditions in Kosciuszko National Park. The Hume Highway is 110 km/h for its full length according to Wikipedia, and it is not described as tolled.",
+            "In Melbourne, Linkt says its Visitor's Pass covers CityLink, EastLink and the West Gate Tunnel for up to 30 days, and covers CityLink trips made up to 5 days ago and EastLink trips made up to 3 days ago. Whether your start in Melbourne uses a toll road depends on your route to the Hume, so check before you leave."
+          ],
+          "tips": [
+            "VicTraffic and Live Traffic NSW",
+            "Linkt Visitor's Pass covers Melbourne tolls"
+          ]
+        },
+        {
+          "heading": "Border rules and the clock",
+          "body": [
+            "The Interstate Quarantine site lists no <a data-guide=\"interstate-biosecurity-road-trip\">fruit fly</a> restrictions for New South Wales or Victoria, and groups the ACT with New South Wales without separate zones. That is not proof that nothing applies, and no ACT government source on carrying fruit turned up in the sources checked. Agriculture Victoria says Greater Sunraysia regulation lapsed in July 2024 and Mediterranean fruit fly restrictions still apply statewide, so check Agriculture Victoria on 136 186. The same Interstate Quarantine site says that at some stage when travelling in Australia you are likely to be inspected or asked to surrender produce in an amnesty bin.",
+            "Victoria, <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> and the ACT all observe daylight saving, which began on Sunday 4 October 2026 and ends on Sunday 4 April 2027, so the clock does not change on any route."
+          ],
+          "tips": [
+            "No fruit fly zone listed for NSW or Victoria",
+            "Mediterranean fruit fly: Victoria, statewide",
+            "No clock change"
+          ]
+        },
+        {
+          "heading": "Dump points on the way",
+          "body": [
+            "The AussieCamps data lists <a data-guide=\"dump-points-australia-guide\">dump points</a> on the Hume at Memorial Park in Wandong, Airport and RV Dump Point in Benalla and Warreena Park in Wangaratta, each with a washout tap listed, and Oxley Recreation Reserve with none listed. In Canberra it lists Epic, Exhibition Park Campground in Lyneham. On the alpine route it lists Corryong Saleyards with a washout tap listed, and on the Monaro route Bruthen Lions Park with a washout tap and Brodribb River Murrungower Rest Area without. It lists none on the New South Wales Hume between Chiltern and Yass, which is only the data's coverage, so check the dump points guide."
+          ],
+          "tips": [
+            "Wandong, Benalla and Wangaratta list a washout tap",
+            "No NSW Hume dump point in the data"
+          ]
+        },
+        {
+          "heading": "Plan the Melbourne to Canberra drive in AussieCamps",
+          "body": [
+            "Plan it as a trip in AussieCamps: add the stops in order, Albury, Gundagai and a Canberra campground, and it shows the distance and drive time of each leg with a forecast for the day you plan to arrive. AussieCamps lists 1,838 campgrounds, 5,552 rest areas and 1,393 <a data-guide=\"dump-points-australia-guide\">dump points</a> from park agencies, road authorities and public datasets, including the ACT Parks and Kosciuszko campgrounds above, and a place page shows the facilities those sources publish.",
+            "Stored place details, saved places and guides work with <a data-guide=\"camping-without-phone-signal\">no signal</a>. Map tiles, routing, weather and photos need a connection, which matters on the alpine route, so open the trip before you leave Corryong. AussieCamps runs on iPhone only, and it is free to download, with in-app purchases."
+          ],
+          "tips": [
+            "Add each overnight stop in order",
+            "Forecast per arrival day",
+            "Open the trip before the mountains"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "How long does it take to drive from Melbourne to Canberra?",
+          "About 680 km and 8 h 35 min of driving on the Hume Highway and Barton Highway, by OSRM routing on OpenStreetMap data. Most drivers do it in a long day, and Albury is the usual place to break it into two."
+        ],
+        [
+          "Is the Hume Highway all dual carriageway?",
+          "Wikipedia says yes, since the Holbrook bypass opened on 7 August 2013, with a limit of 110 km/h. The last 52 km into Canberra on the Barton Highway from Yass is different: it is mostly single carriageway, with only about 6 km of its NSW section dual carriageway."
+        ],
+        [
+          "Do I need snow chains between Melbourne and Canberra?",
+          "Not on the Hume or Barton Highways. On the alpine alternative through Kosciuszko National Park, NSW says all 2WD vehicles must carry chains between the June long weekend and the October long weekend on roads such as the Alpine Way between Thredbo and Tom Groggin. That period has ended for 2026 and starts again in June 2027."
+        ],
+        [
+          "Is there a fruit fly checkpoint between Victoria and New South Wales on this drive?",
+          "The sources checked show none. The Interstate Quarantine site lists no fruit fly restrictions for New South Wales or Victoria, and Agriculture Victoria says Greater Sunraysia regulation lapsed in July 2024, but Mediterranean fruit fly restrictions still apply statewide in Victoria, so check Agriculture Victoria on 136 186."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "OSRM routing on OpenStreetMap data (Melbourne to Canberra, computed 21 October 2026)"
+        },
+        {
+          "label": "Wikipedia: Hume Highway"
+        },
+        {
+          "label": "Wikipedia: Barton Highway"
+        },
+        {
+          "label": "Wikipedia: Alpine Way"
+        },
+        {
+          "label": "Wikipedia: Monaro Highway"
+        },
+        {
+          "label": "NSW National Parks: snow driving"
+        },
+        {
+          "label": "NSW Government: driving in snow"
+        },
+        {
+          "label": "NSW National Parks: Khancoban area visitor info"
+        },
+        {
+          "label": "ACT Parks: Cotter Campground"
+        },
+        {
+          "label": "VisitNSW: Yass Caravan Park"
+        },
+        {
+          "label": "Linkt: Visitor's Pass"
+        },
+        {
+          "label": "Interstate Quarantine: quarantine zones"
+        },
+        {
+          "label": "Agriculture Victoria: regulatory changes in the Greater Sunraysia region"
+        },
+        {
+          "label": "NSW Government: daylight saving in NSW"
+        },
+        {
+          "label": "Live Traffic NSW"
+        }
+      ],
+      "priceTable": null
+    },
+    "brisbane-to-byron-bay-drive": {
+      "title": "Brisbane to Byron Bay Drive 2026: Pacific Motorway or the Gold Coast Hinterland",
+      "description": "Brisbane to Byron Bay is about 170 km and 2.5 hours on the Pacific Motorway, or 237 km via Springbrook and Murwillumbah. Routes compared with stops, fire ant rules, the border clock change and camping.",
+      "region": "Queensland and New South Wales",
+      "imageAlt": "Aerial view of Cape Byron and its lighthouse, with surf along the coast and the green headland rising from the sea",
+      "intro": "Brisbane to Byron Bay is about 165 to 175 km and roughly two and a half hours on the Pacific Motorway through the Gold Coast and Tweed Heads. Take the hinterland route through Mount Tamborine, Springbrook and Murwillumbah, about 237 km and four hours, if you want waterfalls and rainforest on the way.",
+      "sections": [
+        {
+          "heading": "Brisbane to Byron Bay routes compared",
+          "body": [
+            "The direct route is the Pacific Motorway (M1) south to the Gold Coast, Tweed Heads and Byron Bay. By OSRM routing, Brisbane to the Gold Coast is about 76 km, then about 30 km to Tweed Heads and about 66 km to Byron Bay. Travel guides built on Google Maps put it at about 166 km and 1 h 52 min from the Brisbane CBD, so use about 165 to 175 km.",
+            "The hinterland route climbs through Mount Tamborine and Springbrook National Park and comes down to Murwillumbah in the Tweed Valley. The inland route follows the Mount Lindesay Highway through Beaudesert and Rathdowney, then the Summerland Way through Kyogle and Lismore. Distances and times are from OSRM routing on OpenStreetMap data, computed on 21 October 2026, for a car with no stops. No distance figure was sourced for the Gold Coast Highway coast road."
+          ],
+          "tips": [
+            "Motorway: fastest, about two and a half hours",
+            "Hinterland: waterfalls and rainforest, winding roads",
+            "Inland: quiet, with a closed shortcut to avoid"
+          ],
+          "table": {
+            "caption": "Brisbane to Byron Bay by road, OSRM routing computed 21 October 2026.",
+            "head": [
+              "Route",
+              "Distance",
+              "Drive time",
+              "Road",
+              "Best for"
+            ],
+            "rows": [
+              [
+                "Pacific Motorway (M1) via the Gold Coast and Tweed Heads",
+                "About 173 km",
+                "About 2 h 27 min",
+                "Motorway",
+                "A direct drive or a day trip"
+              ],
+              [
+                "Hinterland via Mount Tamborine, Springbrook and Murwillumbah",
+                "About 237 km",
+                "About 4 h 10 min",
+                "Winding mountain and valley roads",
+                "Rainforest walks and waterfalls"
+              ],
+              [
+                "Inland via Beaudesert, Rathdowney, Kyogle and Lismore",
+                "About 339 km",
+                "About 5 h 58 min",
+                "Mount Lindesay Highway and Summerland Way",
+                "A quiet drive away from the coast"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "The hinterland route in two days",
+          "body": [
+            "By OSRM routing, the legs are Brisbane to Mount Tamborine about 72 km (1 h 6 min), Tamborine to Springbrook about 55 km (1 h 11 min), Springbrook to Murwillumbah about 59 km (1 h 3 min) and Murwillumbah to Byron Bay about 51 km (48 min). A trail guide describes the road to Lamington's Green Mountains as sealed but narrow, winding and with many blind corners, so allow extra time and avoid towing a long caravan on it.",
+            "In the Tweed Valley, Greenhills <a data-guide=\"caravan-park-vs-holiday-park\">Caravan Park</a> is at 488 Tweed Valley Way in South Murwillumbah and Mt Warning Rainforest Park is at 153 Mt Warning Road. At Byron Bay, Reflections Byron Bay Holiday Park is at 1 Lighthouse Road, with powered and unpowered sites and cabins. Its operator says no individual fires or firepits are permitted, and one camping guide notes that the park books out months ahead for Easter and Bluesfest. Check availability and rules with the park."
+          ],
+          "tips": [
+            "Tamborine about 72 km",
+            "Springbrook about 127 km",
+            "Murwillumbah about 186 km"
+          ]
+        },
+        {
+          "heading": "National park camping near the route",
+          "body": [
+            "QPWS says you must book campsites in advance at The Settlement camping area in Springbrook National Park. At Lamington National Park, O'Reilly's Campground at Green Mountains is privately managed, there is another privately managed campground beside Binna Burra, and remote bush camps need a permit booked online ahead for weekends and school or public holidays. QPWS lists parts of Lamington closed for cyclone damage until 31 December 2026 and says camping permits for closed areas are suspended, and remote bush camps close from 1 December to 31 January each year for regeneration, so check the current QPWS alert before you plan around any of them.",
+            "At Mount Barney, QPWS says camping areas can only be reached on foot, with no facilities, and a camping permit is needed, booked online 6 to 8 weeks ahead for public holidays and 3 to 6 weeks ahead the rest of the year. The AussieCamps data lists the Mount Barney bush camps near the Boonah Border Gate and the Lamington camps at Illinbah, Darlington, Echo Point and others, which are walk-in or rough-road bush camps rather than drive-up campgrounds. The <a data-guide=\"camping-rules-queensland\">Queensland</a> camping rules guide covers permits."
+          ],
+          "tips": [
+            "Springbrook: book ahead",
+            "Lamington: check the QPWS closure alert",
+            "Mount Barney camps are walk-in"
+          ]
+        },
+        {
+          "heading": "Fuel, tolls and road conditions",
+          "body": [
+            "Both the motorway and hinterland routes pass through towns throughout, so no fuel gap turned up in the sources checked. A fuel gap between Rathdowney and Kyogle on the inland route could not be sourced, so fill up before you leave Rathdowney. The road trip fuel guide shows how to budget the distance.",
+            "Check QLDTraffic (13 19 40) and Live Traffic NSW (132 701). Gold Coast hinterland roads including the Gold Coast-Springbrook Road and Beechmont Road have closed after landslips, and Kyogle Council says Lions Road, the shortcut from Rathdowney to Wiangaree, remained closed from Murphy Standfield Bridge to the border in an April 2026 works update, with another notice saying it is open to light traffic only and not for caravans. QPWS says the main access roads to Mount Barney National Park can flood after storms and prolonged periods of rain.",
+            "Linkt's list of <a data-guide=\"camping-rules-queensland\">Queensland</a> toll roads names the Gateway Motorway, Logan Motorway, Clem7, Go Between Bridge, Legacy Way, AirportlinkM7 and Toowoomba Bypass, and the Pacific Motorway is not on it. Linkt says without an account you can buy a pass within 5 days of your first trip, while the Queensland Government says a toll may be paid up to 3 days after, so pay within 3 days to be safe. NSW tolls on this stretch were not researched."
+          ],
+          "tips": [
+            "Avoid Lions Road with a caravan",
+            "Pay Queensland tolls within 3 days",
+            "Check QLDTraffic and Live Traffic NSW"
+          ]
+        },
+        {
+          "heading": "Fire ants and the Queensland and New South Wales border",
+          "body": [
+            "The border rule that matters is red imported fire ant control. Queensland updated its <a data-guide=\"interstate-biosecurity-road-trip\">biosecurity</a> zones from 15 April 2026 in six council areas including Logan, the Gold Coast and Scenic Rim, and lists carriers such as baled hay or straw, manure, mulch, potted plants, quarry and mining materials, soil and turf. NSW DPIRD's emergency order covers three zones: a Queensland infested area, a NSW infested area near Tweed Heads South, and NSW movement control areas within 5 km of the Murwillumbah and Wardell infestations. NSW has said moving soil, mulch, turf and hay out of its Piggabeen and Cobaki border area may require a Record of Movement Declaration and a Plant Health Certificate. Ring NSW DPIRD on 1800 680 244 or Biosecurity Queensland on 13 22 68, and check current boundaries.",
+            "No source checked says ordinary cars, caravans, camping gear or firewood are controlled, so do not take that as a clearance, and ask if you carry any of the listed materials. The Interstate Quarantine site also says that the whole of Queensland is a biosecurity zone for bananas, grape plants, mangoes and sugarcane, and not to take any plants, soil or items that have been in contact with these plants into Queensland. It lists no fruit fly restrictions for <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a>."
+          ],
+          "tips": [
+            "Fire ants: soil, mulch, turf, hay, manure",
+            "Ring NSW DPIRD: 1800 680 244",
+            "Queensland: no banana plants, grape plants, mangoes or sugarcane items"
+          ]
+        },
+        {
+          "heading": "The clock change and Mount Warning",
+          "body": [
+            "From Sunday 4 October 2026 to Sunday 4 April 2027, <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> is on daylight saving and Queensland is not, so the clock goes forward one hour when you cross at Tweed Heads and Coolangatta, and check-in times at Byron Bay run an hour ahead of Brisbane.",
+            "Mount Warning (Wollumbin) is reached from Murwillumbah. NPWS local alerts say the summit track and summit have been closed until further notice since 30 June 2023, while the Korrumbyn Creek picnic area, the Lyrebird walking track and visitor facilities at Breakfast Creek stay open, and penalties apply. The alert text itself did not load, so check with the Byron NPWS office on 02 6639 8300."
+          ],
+          "tips": [
+            "Clocks go forward an hour into NSW",
+            "Wollumbin summit: closed since 30 June 2023",
+            "Byron NPWS: 02 6639 8300"
+          ]
+        },
+        {
+          "heading": "Dump points",
+          "body": [
+            "The AussieCamps data lists no <a data-guide=\"dump-points-australia-guide\">dump points</a> within 12 km of any of the three routes, which is the data's coverage and not a statement that none exist. Beaudesert Caravan and Tourist Park, at 57 to 63 Albert Street, lists a dump point on its tourism listing, and the dump points guide has the rest."
+          ],
+          "tips": [
+            "Check Beaudesert Caravan and Tourist Park for a dump point"
+          ]
+        },
+        {
+          "heading": "Plan the Brisbane to Byron Bay drive in AussieCamps",
+          "body": [
+            "Plan it as a trip in AussieCamps: add the stops, from a Springbrook or Lamington camp to a Byron Bay park, in order and it shows the distance and drive time of each leg, with a forecast for the day you plan to arrive. AussieCamps lists 1,838 campgrounds, 5,552 rest areas and 1,393 <a data-guide=\"dump-points-australia-guide\">dump points</a> from park agencies, road authorities and public datasets, and a place page shows the facilities those sources publish.",
+            "Stored place details, saved places and guides work with <a data-guide=\"camping-without-phone-signal\">no signal</a>. Map tiles, routing, weather and photos need a connection, so open the trip before you climb into the hinterland. AussieCamps runs on iPhone only, and it is free to download, with in-app purchases."
+          ],
+          "tips": [
+            "Add each stop in order",
+            "Forecast per arrival day",
+            "Open the trip before the hinterland"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "How far is it from Brisbane to Byron Bay?",
+          "About 165 to 175 km and roughly two and a half hours on the Pacific Motorway (M1) through the Gold Coast and Tweed Heads, by OSRM routing on OpenStreetMap data. The Gold Coast hinterland route is about 237 km and 4 hours, and the inland route via Beaudesert and Kyogle about 339 km and 6 hours."
+        ],
+        [
+          "Is there a time difference between Queensland and Byron Bay?",
+          "Yes, from 4 October 2026 to 4 April 2027. New South Wales runs daylight saving in that period and Queensland does not, so the New South Wales side of the border is one hour ahead and clocks go forward an hour at Tweed Heads."
+        ],
+        [
+          "Can I take soil, mulch or turf from Queensland into New South Wales?",
+          "Not without checking. Red imported fire ant rules cover carriers such as soil, mulch, turf, manure and baled hay moving out of the infested areas, and NSW says moving soil, mulch, turf and hay out of its border zone may need a Record of Movement Declaration and a Plant Health Certificate. Ring NSW DPIRD on 1800 680 244 or Biosecurity Queensland on 13 22 68."
+        ],
+        [
+          "Can I climb Mount Warning (Wollumbin) on the way?",
+          "NPWS local alerts say the summit track and summit have been closed until further notice since 30 June 2023, while the Korrumbyn Creek picnic area and the Lyrebird walking track stay open. The alert text itself did not load when checked, so confirm with the NSW National Parks Byron office on 02 6639 8300 before you go."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "OSRM routing on OpenStreetMap data (Brisbane to Byron Bay, computed 21 October 2026)"
+        },
+        {
+          "label": "Wikipedia: Mount Lindesay Highway"
+        },
+        {
+          "label": "QPWS: park alert for Lamington National Park"
+        },
+        {
+          "label": "QPWS: Lamington National Park camping"
+        },
+        {
+          "label": "Linkt: Queensland toll roads"
+        },
+        {
+          "label": "Linkt: travelling interstate"
+        },
+        {
+          "label": "Queensland Government: paying tolls"
+        },
+        {
+          "label": "NSW Government: remain vigilant for signs of fire ants (8 March 2024)"
+        },
+        {
+          "label": "FINIA: red imported fire ant biosecurity zone changes (10 May 2026)"
+        },
+        {
+          "label": "Queensland interstate plant quarantine zone map"
+        },
+        {
+          "label": "Interstate Quarantine: quarantine zones"
+        },
+        {
+          "label": "NSW Government: daylight saving in NSW"
+        },
+        {
+          "label": "Reflections Holiday Parks: Byron Bay"
+        },
+        {
+          "label": "QLDTraffic"
+        },
+        {
+          "label": "Live Traffic NSW"
+        }
+      ],
+      "priceTable": null
     }
   }
 }
