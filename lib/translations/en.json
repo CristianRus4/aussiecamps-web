@@ -19414,13 +19414,15 @@
           ]
         },
         {
-          "heading": "Fuel and services",
+          "heading": "Fuel, services and dump points",
           "body": [
-            "No road authority or operator source checked gives a fuel gap on this route, so no figure should be taken from the OSRM legs, which only show distance between the towns used as waypoints. The longest of those is Tailem Bend to Keith at about 130 km, and Melbourne to Ballarat is about 114 km. Fill up in the larger towns, such as Murray Bridge, Keith, Bordertown, Nhill, Horsham, Stawell, Ararat and Ballarat, rather than waiting for the last town before a long stretch. The road trip fuel guide shows how to budget the distance."
+            "No road authority or operator source checked gives a fuel gap on this route, so no figure should be taken from the OSRM legs, which only show distance between the towns used as waypoints. The longest of those is Tailem Bend to Keith at about 130 km, and Melbourne to Ballarat is about 114 km. Fill up in the larger towns, such as Murray Bridge, Keith, Bordertown, Nhill, Horsham, Stawell, Ararat and Ballarat, rather than waiting for the last town before a long stretch. The road trip fuel guide shows how to budget the distance.",
+            "The AussieCamps data lists <a data-guide=\"dump-points-australia-guide\">dump points</a> at Mount Barker Recreation Grounds and Callington Oval, each with a washout tap, and at Coonalpyn Caravan Park with none listed. In Victoria it lists Scallan Street Car Park in Stawell and Green Hill Lake Camping in Ararat, each with a washout tap. Horsham Riverside Caravan Park lists its own dump point. That is only the data's coverage, so check the dump points guide for the rest."
           ],
           "tips": [
             "Fill up at Keith, Nhill, Horsham and Stawell",
-            "Do not wait for the last town"
+            "Do not wait for the last town",
+            "Mount Barker, Callington, Stawell and Ararat list a washout tap"
           ]
         },
         {
@@ -19445,16 +19447,6 @@
             "Eat fresh fruit before you cross",
             "Victoria: a request, not a stated ban",
             "Stricter into South Australia"
-          ]
-        },
-        {
-          "heading": "Dump points on the way",
-          "body": [
-            "The AussieCamps data lists <a data-guide=\"dump-points-australia-guide\">dump points</a> at Mount Barker Recreation Grounds and Callington Oval, each with a washout tap, and at Coonalpyn Caravan Park with none listed. In Victoria it lists Scallan Street Car Park in Stawell and Green Hill Lake Camping in Ararat, each with a washout tap. Horsham Riverside Caravan Park lists its own dump point. That is only the data's coverage, so check the dump points guide for the rest."
-          ],
-          "tips": [
-            "Mount Barker, Callington, Stawell and Ararat list a washout tap",
-            "Coonalpyn: no washout tap listed"
           ]
         },
         {
@@ -19611,15 +19603,17 @@
           ]
         },
         {
-          "heading": "Fatigue, wildlife and rest stops",
+          "heading": "Fatigue, rest stops and dump points",
           "body": [
             "<a data-guide=\"camping-rules-queensland\">Queensland</a> guidance in police and Transport and Main Roads statements is to take a break every two hours at a rest area or Driver Reviver site. The same extracts say to stop if you are drowsy, find it hard to keep your head up or cannot remember the last few minutes of driving. Some Driver Reviver sites are being handed to local councils or closed while staying open as rest areas, so use QLDTraffic, which lists rest areas and heavy vehicle rest areas, rather than a site list from an old guide.",
-            "The AussieCamps data lists one rest area in the corridor, Babinda rest area north of Innisfail, with toilets, <a data-guide=\"camping-water-planning\">drinking water</a>, a shelter and picnic tables. That is a gap in the data, not a count of rest areas on the Bruce. The road trip fatigue and wildlife guide covers dusk and dawn driving, and the guide on overnight stays covers whether you can sleep at a rest area."
+            "The AussieCamps data lists one rest area in the corridor, Babinda rest area north of Innisfail, with toilets, <a data-guide=\"camping-water-planning\">drinking water</a>, a shelter and picnic tables. That is a gap in the data, not a count of rest areas on the Bruce. The road trip fatigue and wildlife guide covers dusk and dawn driving, and the guide on overnight stays covers whether you can sleep at a rest area.",
+            "The AussieCamps data lists <a data-guide=\"dump-points-australia-guide\">dump points</a> at Wyllie Park in Petrie, Alf Larson Lions Park in Miriam Vale, the Tourist Information Centre in Curtis Park at Allenstown near Rockhampton, Cedric Archer Park in Gracemere, Railway Square in Sarina, Bluewater Park at Bluewater and the Hinchinbrook Visitor Information Centre in Ingham. Wyllie Park, Curtis Park, Cedric Archer Park and Bluewater Park list a washout tap. That is only the data's coverage, and QLDTraffic also has a dump point layer, so check the dump points guide and the map before a long leg."
           ],
           "tips": [
             "Break every two hours",
             "Stop if you are drowsy",
-            "Use QLDTraffic for rest areas"
+            "Use QLDTraffic for rest areas",
+            "Dump points: Petrie, Rockhampton and Bluewater list a washout tap"
           ]
         },
         {
@@ -19655,16 +19649,6 @@
             "Zones change monthly",
             "Soil, mulch, hay, turf, potted plants: carriers",
             "Check the map for your suburb"
-          ]
-        },
-        {
-          "heading": "Dump points on the way",
-          "body": [
-            "The AussieCamps data lists <a data-guide=\"dump-points-australia-guide\">dump points</a> at Wyllie Park in Petrie, Alf Larson Lions Park in Miriam Vale, the Tourist Information Centre in Curtis Park at Allenstown near Rockhampton, Cedric Archer Park in Gracemere, Railway Square in Sarina, Bluewater Park at Bluewater and the Hinchinbrook Visitor Information Centre in Ingham. Wyllie Park, Curtis Park, Cedric Archer Park and Bluewater Park list a washout tap. That is only the data's coverage, and QLDTraffic also has a dump point layer, so check the dump points guide and the map before a long leg."
-          ],
-          "tips": [
-            "Petrie, Rockhampton and Bluewater list a washout tap",
-            "QLDTraffic has a dump point layer"
           ]
         },
         {
@@ -19734,6 +19718,191 @@
         },
         {
           "label": "FINIA: red imported fire ants biosecurity zone changes (10 May 2026)"
+        }
+      ],
+      "priceTable": null
+    },
+    "sydney-to-canberra-drive": {
+      "title": "Sydney to Canberra Drive 2026: Hume and Federal Highway Route, Tolls, Stops and Camping",
+      "description": "Sydney to Canberra is about 294 km and 3.5 hours on the Hume and Federal Highways. Tolls for visitors, Goulburn and Lake George, fuel, rest areas, ACT camping and the Kings Highway option.",
+      "region": "New South Wales and the ACT",
+      "imageAlt": "The Federal Highway curving above the green Lake George basin in New South Wales, with a few cars on the road and low cloud over the hills",
+      "intro": "Sydney to Canberra is about 294 km and 3 h 34 min of driving on the Hume Highway to Goulburn and the Federal Highway into the ACT, by OSRM routing. It is a day trip rather than a two-day drive, and the choices that matter are how you pay Sydney tolls as a visitor, where you stop at Goulburn and whether you book an ACT campground before you leave.",
+      "sections": [
+        {
+          "heading": "Sydney to Canberra routes compared",
+          "body": [
+            "The standard route leaves Sydney by the M5 or M7, which Wikipedia says meet at Prestons where the Hume Highway (M31) begins, and follows the Hume through Campbelltown, Mittagong, Marulan and Goulburn. Wikipedia describes the Prestons to Berrima motorway as dual carriageway, the Hume as generally dual outside urban areas, and the limit on its full length as 110 km/h. At Yarra, south-east of Goulburn, the Federal Highway (M23) takes over for the 72.7 km to Canberra.",
+            "The coastal alternative follows the coast through Wollongong, Nowra and Batemans Bay, then the Kings Highway over Clyde Mountain through Braidwood and Bungendore to Canberra. Wikipedia gives the Kings Highway as 139 km from Batemans Bay to Canberra and says a 40 km section over the Great Dividing Range, including Clyde Mountain, recorded about 22% of the road's crashes. This guide found no road authority page that publishes it as a Sydney to Canberra route, and the Southern Highlands and <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">Kangaroo</a> Valley roads are the same, so it compares only these two. Distances and times are from OSRM routing on OpenStreetMap data, computed on 21 October 2026, for a car with no stops."
+          ],
+          "tips": [
+            "Hume and Federal: the quick route",
+            "Kings Highway: about 130 km longer",
+            "Clyde Mountain is the steep section"
+          ],
+          "table": {
+            "caption": "Sydney to Canberra by road, OSRM routing computed 21 October 2026.",
+            "head": [
+              "Route",
+              "Distance",
+              "Drive time",
+              "Road",
+              "Best for"
+            ],
+            "rows": [
+              [
+                "Hume Highway then Federal Highway via Goulburn",
+                "About 294 km",
+                "About 3 h 34 min",
+                "Dual carriageway for most of the way",
+                "The quickest drive, in a morning or afternoon"
+              ],
+              [
+                "Coast, then Kings Highway via Batemans Bay, Braidwood and Bungendore",
+                "About 426 km",
+                "About 6 h 31 min",
+                "Coast road, then a mountain climb at Clyde Mountain",
+                "A full day with coast and tableland towns"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Goulburn, Lake George and the stops between",
+          "body": [
+            "By OSRM routing, Sydney to Goulburn is about 194 km (2 h 22 min) and Goulburn to Canberra about 100 km (1 h 17 min). Wikipedia says Goulburn is about 195 km south-west of Sydney and 90 km north-east of Canberra, and that the 1992 Hume bypass removed about 23,000 cars a day from the city. Its landmark is the Big Merino, which Wikipedia calls the world's largest concrete sheep. South Goulburn <a data-guide=\"caravan-park-vs-holiday-park\">Caravan Park</a>, at 149 Hume Street, is listed by Visit NSW with large drive-through caravan sites with power and water, unpowered tent sites and cabins. Confirm availability with the park.",
+            "Lake George lies beside the Federal Highway, which runs along its western shore. Wikipedia says it is about 25 km long and 10 km wide, averages about 1 m deep, dried completely in November 2002 and stayed dry until 2010, and was full again in December 2021, so what you see depends on recent rain. It describes no formal lookout, so use a rest area for a break rather than stopping on the shoulder."
+          ],
+          "tips": [
+            "Goulburn about 194 km from Sydney",
+            "Lake George: the water level changes",
+            "Check the park before you book"
+          ]
+        },
+        {
+          "heading": "Tolls: how a visitor pays in Sydney",
+          "body": [
+            "The NSW Government says that if you travel on a toll road without an active toll account or pass, you have 72 hours to pay or create a toll account, and otherwise a Toll Payment Demand is issued that adds a video matching fee. Service NSW says visitors can use the eMU Casual Pass, listed for visiting NSW or up to 30 days of NSW toll road use, and that you can open an account or buy a pass up to 72 hours after you travel on a toll road.",
+            "The NSW Government lists E-Toll for the Sydney Harbour Bridge and Sydney Harbour Tunnel, and Linkt for the Cross City Tunnel, Eastern Distributor, Hills M2, Lane Cove Tunnel, M5 South-West Motorway, NorthConnex, WestConnex and Westlink M7, each payable online or by phone. Which of these your drive meets depends on where you start in Sydney, so check your route before you leave. Wikipedia does not describe tolls on the Hume Highway or Federal Highway."
+          ],
+          "tips": [
+            "72 hours to pay or open an account",
+            "eMU Casual Pass covers up to 30 days",
+            "E-Toll for the Harbour Bridge and Tunnel, Linkt for the rest"
+          ]
+        },
+        {
+          "heading": "Fuel, rest areas and dump points",
+          "body": [
+            "No source checked gives a fuel gap on this route, and the longest OSRM leg between the towns used as waypoints is Campbelltown to Mittagong at about 63 km. The Australian National University tells visitors there are plenty of 24/7 food and fuel stops on the highway. The road trip fuel guide shows how to budget the distance.",
+            "The AussieCamps data lists free rest areas at Appin Park in the Wollondilly area, with toilets, a shelter, picnic tables, barbecues, a heavy vehicle area and a playground, and the Anderson VC Rest Area in the Yass Valley area, with toilets, a shelter, picnic tables and barbecues. Treat them as places for a break: the guide on overnight stays and the camping rules guide for New South Wales cover sleeping in a vehicle. The data lists a <a data-guide=\"dump-points-australia-guide\">dump point</a> at the Ampol Foodary at Pheasants Nest, southbound, with toilets and showers listed and no washout tap listed, and at Epic, Exhibition Park Campground in Lyneham. That is only the data's coverage, so check the dump points guide for the rest."
+          ],
+          "tips": [
+            "Plenty of 24/7 fuel, says ANU",
+            "Rest areas: for a break",
+            "Dump points: Pheasants Nest and Lyneham"
+          ]
+        },
+        {
+          "heading": "Road conditions, speed and the clock",
+          "body": [
+            "Check Live Traffic NSW (livetraffic.com) before you leave. No official page opened for this guide described snow, fog or fire closures on this route, so none are described here. Wikipedia says the Federal Highway is a continuous 110 km/h northbound in NSW, a southbound section near Yarra and Rowes Lagoon is 100 km/h with many lower advisory signs, and in <a data-guide=\"camping-rules-act\">the ACT</a> the limit falls to 100, 80 and then 70 km/h on the way into the city.",
+            "The Interstate Quarantine site lists no <a data-guide=\"interstate-biosecurity-road-trip\">fruit fly</a> restrictions for New South Wales, and groups the ACT with New South Wales without separate zones. That is not proof that nothing applies, and no ACT government source on carrying fruit was found, so no border checkpoint is described here. New South Wales and the ACT both observe daylight saving, which began on Sunday 4 October 2026 and ends on Sunday 4 April 2027, so the clock does not change."
+          ],
+          "tips": [
+            "Live Traffic NSW",
+            "Limits fall as you enter the ACT",
+            "No clock change"
+          ]
+        },
+        {
+          "heading": "Camping in the ACT",
+          "body": [
+            "ACT Parks says, in a search extract of its pages, that bookings are essential at Cotter Campground, which takes general camping, camper-trailers and small vans, with water, hot showers and barbecues and no dogs. Honeysuckle Campground also needs a booking and takes up to four campervans or camper-trailers, and fees apply. Mount Clear Campground in Namadgi National Park is remote and basic, and ACT Parks says it is unsuitable for campervans and caravans. The AussieCamps data lists all four ACT Parks campgrounds, with Northern Border Campground, and fees were not confirmed, so check <a data-guide=\"camping-rules-act\">the ACT</a> Parks page.",
+            "Closer to Goulburn, NPWS says Bungonia campground has caravan, camper trailer and beside-vehicle sites, toilets, showers and <a data-guide=\"camping-water-planning\">drinking water</a>, and park entry of $8 a vehicle a day that is not included in the camping fee. It is always open but may close at times for high fire danger or park operations, so call the park before you drive there. The camping rules guide for the ACT covers the rules."
+          ],
+          "tips": [
+            "Cotter and Honeysuckle need a booking",
+            "Bungonia: entry fee on top of camping",
+            "Check the closure notice"
+          ]
+        },
+        {
+          "heading": "Plan the Sydney to Canberra drive in AussieCamps",
+          "body": [
+            "Plan it as a trip in AussieCamps: add the stops in order, Goulburn, a break at Lake George and a Canberra campground, and it shows the distance and drive time of each leg with a forecast for the day you plan to arrive. AussieCamps lists 1,838 campgrounds, 5,552 rest areas and 1,393 <a data-guide=\"dump-points-australia-guide\">dump points</a> from park agencies, road authorities and public datasets, including the ACT Parks and NPWS campgrounds above, and a place page shows the photos, weather and facilities those sources publish.",
+            "Stored place details, saved places and guides work with <a data-guide=\"camping-without-phone-signal\">no signal</a>. Map tiles, routing, weather and photos need a connection, so open the trip before you leave Sydney. AussieCamps runs on iPhone only, and it is free to download, with in-app purchases. The Melbourne to Canberra guide covers the southern side."
+          ],
+          "tips": [
+            "Add each stop in order",
+            "Forecast per arrival day",
+            "Open the trip before you leave Sydney"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "How long does it take to drive from Sydney to Canberra?",
+          "About 294 km and 3 h 34 min of driving on the Hume Highway and Federal Highway, by OSRM routing on OpenStreetMap data. The Australian National University tells visitors the drive takes about three hours on the Hume. Most drivers do it in a morning or an afternoon, with a stop at Goulburn."
+        ],
+        [
+          "Are there tolls between Sydney and Canberra?",
+          "Wikipedia says the M5 and M7, which meet where the Hume Highway starts at Prestons, are tolled, and does not describe tolls on the Hume Highway or Federal Highway themselves. The NSW Government says that if you use a toll road without an account or pass you have 72 hours to pay or create a toll account, and Service NSW suggests the eMU Casual Pass for visitors, which covers up to 30 days."
+        ],
+        [
+          "Is the Federal Highway dual carriageway?",
+          "Wikipedia says the whole 72.7 km route has two lanes in each direction, with the last dual section completed in 2000. It gives a continuous 110 km/h northbound in NSW, a 100 km/h southbound section near Yarra and Rowes Lagoon, and 100, 80 and then 70 km/h in the ACT as you near the city."
+        ],
+        [
+          "Can I take the coast road from Sydney to Canberra?",
+          "Yes, by the Kings Highway from Batemans Bay through Braidwood and Bungendore. By OSRM routing it is about 426 km and 6 h 31 min, so about 130 km longer than the Hume. No road authority page was found that publishes it as a Sydney to Canberra route, so treat it as a day of scenery rather than a shortcut."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "OSRM routing on OpenStreetMap data (Sydney to Canberra, computed 21 October 2026)"
+        },
+        {
+          "label": "Wikipedia: Hume Highway"
+        },
+        {
+          "label": "Wikipedia: Federal Highway (Australia)"
+        },
+        {
+          "label": "Wikipedia: Kings Highway (Australia)"
+        },
+        {
+          "label": "Wikipedia: Goulburn"
+        },
+        {
+          "label": "Wikipedia: Lake George, New South Wales"
+        },
+        {
+          "label": "NSW Government: paying a toll or toll notice"
+        },
+        {
+          "label": "Service NSW: pay a toll notice"
+        },
+        {
+          "label": "Australian National University: travelling to Canberra"
+        },
+        {
+          "label": "Live Traffic NSW"
+        },
+        {
+          "label": "VisitNSW: South Goulburn Caravan Park"
+        },
+        {
+          "label": "NSW National Parks: Bungonia campground"
+        },
+        {
+          "label": "ACT Parks: Cotter Campground"
+        },
+        {
+          "label": "Interstate Quarantine: quarantine zones"
+        },
+        {
+          "label": "NSW Government: daylight saving in NSW"
         }
       ],
       "priceTable": null

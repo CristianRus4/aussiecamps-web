@@ -78,3 +78,4 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-12-06 | brisbane-to-cairns-drive | scheduled |
 | 2026-12-08 | perth-to-albany-drive | scheduled |
 | 2026-12-09 | perth-to-margaret-river-drive | scheduled |
+| 2026-12-07 | sydney-to-canberra-drive | scheduled |

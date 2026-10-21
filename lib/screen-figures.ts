@@ -65,6 +65,7 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "brisbane-to-cairns-drive", section: 7, src: "/images/screens/brisbane-to-cairns-drive.webp", alt: "AussieCamps on iPhone: the Cape Hillsborough National Park place page in Queensland, with activities, facilities, rules, caravan sites and photos" },
   { slug: "perth-to-albany-drive", section: 7, src: "/images/screens/perth-to-albany-drive.webp", alt: "AussieCamps on iPhone: the Cape Le Grand National Park place page in Western Australia, with a notes field, a 7-day weather forecast and Lucky Bay under useful places nearby" },
   { slug: "perth-to-margaret-river-drive", section: 7, src: "/images/screens/perth-to-margaret-river-drive.webp", alt: "AussieCamps on iPhone: a Western Australia road trip guide with a trip summary card, an orange route line and place markers on the map, and a 7-day weather forecast" },
+  { slug: "sydney-to-canberra-drive", section: 6, src: "/images/screens/sydney-to-canberra-drive.webp", alt: "AussieCamps on iPhone: the Jervis Bay National Park place page in New South Wales, with photos, a notes field, a 7-day weather forecast and useful places nearby" },
 ];
 
 const images = manifest as Record<string, unknown>;

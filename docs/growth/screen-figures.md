@@ -62,6 +62,7 @@ followed by that section's heading. Source screenshots are in `~/Marketing/Campi
 | brisbane-to-cairns-drive | 7 (Plan the Brisbane to Cairns drive in AussieCamps) | aussiecamps_place-detail_cape-hillsborough-np_middle.png | AussieCamps on iPhone: the Cape Hillsborough National Park place page in Queensland, with activities, facilities, rules, caravan sites and photos |
 | perth-to-albany-drive | 7 (Plan the Perth to Albany drive in AussieCamps) | aussiecamps_place-detail_cape-le-grand-np_lower.png | AussieCamps on iPhone: the Cape Le Grand National Park place page in Western Australia, with a notes field, a 7-day weather forecast and Lucky Bay under useful places nearby |
 | perth-to-margaret-river-drive | 7 (Plan the Perth to Margaret River drive in AussieCamps) | aussiecamps_guides_perth-to-broome_map.png | AussieCamps on iPhone: a Western Australia road trip guide with a trip summary card, an orange route line and place markers on the map, and a 7-day weather forecast |
+| sydney-to-canberra-drive | 6 (Plan the Sydney to Canberra drive in AussieCamps) | aussiecamps_place-detail_jervis-bay-np_middle.png | AussieCamps on iPhone: the Jervis Bay National Park place page in New South Wales, with photos, a notes field, a 7-day weather forecast and useful places nearby |
 
 `best-fuel-price-apps-australia` is the one exception to "the section whose heading names AussieCamps":
 no heading of that guide names the app, so its figure sits in "Fuel is the biggest cost you can plan", whose
