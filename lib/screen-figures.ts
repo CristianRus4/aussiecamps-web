@@ -25,6 +25,7 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "best-weather-apps-camping-australia", section: 8, src: "/images/screens/best-weather-apps-camping-australia.webp", alt: "AussieCamps on iPhone: the Blue Mountains National Park page with photos and a 7-day forecast from Apple Weather" },
   { slug: "best-money-saving-travel-apps-australia", section: 1, src: "/images/screens/best-money-saving-travel-apps-australia.webp", alt: "AussieCamps on iPhone: the Coffin Bay National Park page with its features and reported prices per night and per vehicle" },
   { slug: "hipcamp-alternatives", section: 2, src: "/images/screens/hipcamp-alternatives.webp", alt: "AussieCamps on iPhone: the Mount Buffalo National Park page in Victoria with its description and amenities" },
+  { slug: "camps-australia-wide-alternatives", section: 2, src: "/images/screens/camps-australia-wide-alternatives.webp", alt: "AussieCamps on iPhone: the Ikara-Flinders Ranges National Park page with its amenities and features, including Camping and Caravan Sites, and its reported prices" },
   { slug: "best-camping-app-australia", section: 1, src: "/images/screens/best-camping-app-australia.webp", alt: "AussieCamps on iPhone: the Karijini National Park page with its amenities and features" },
 ];
 

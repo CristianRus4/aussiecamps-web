@@ -234,6 +234,12 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Which app compares supermarket prices in Australia?", "WiseList compares Coles, Woolworths and ALDI prices as you build a shopping list, free with ads. Its paid WiseList+ tier adds splitting a list by store and barcode scan and compare."],
     ["Is there an app for cheap food in Australian cities?", "Too Good To Go sells surprise bags of unsold food from cafes and bakeries from A$6.99, and EatClub offers up to 50% off the bill at restaurants with spare tables."],
   ],
+  "camps-australia-wide-alternatives": [
+    ["What is the best alternative to CAMPS Australia Wide?", "It depends on what you want from the app. WikiCamps has the largest catalogue of traveller reviews for A$9.99 once per platform, CamperMate is free with offline maps, and AussieCamps gives you park agency data and a trip plan on iPhone."],
+    ["Is there a free alternative to CAMPS?", "CamperMate is free with no in-app purchases. Full Range Camping's directory is free to browse, though offline access is a Premium feature, and the NSW National Parks app is free for NSW parks."],
+    ["How much does the CAMPS app cost?", "It is free to download and free for the first 7 days, then A$14.99 a year. You need a payment method to start the trial, so cancel before it ends if you do not want to be charged."],
+    ["Does CAMPS work without phone signal?", "Yes, once you have downloaded a state's maps over Wi-Fi. The app switches to offline mode when you leave coverage, but the map files need updating by hand to stay current."],
+  ],
   "hipcamp-alternatives": [
     ["What is like Hipcamp in Australia?", "For bookable stays, AussieCamps lists farm and station stays and holiday parks from BookEasy, and G'day Parks books its own holiday parks. For public camping, AussieCamps, WikiCamps, CAMPS and CamperMate cover national park campgrounds and free camps, and each state's park agency takes bookings directly."],
     ["How do I book a national park campsite in Australia?", "Through the park agency for that state or territory, such as NSW National Parks, Parks Victoria or Queensland Parks and Wildlife Service. In Queensland, every camp in a national park, state forest or recreation area needs a permit booked before you arrive."],
