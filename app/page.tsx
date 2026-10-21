@@ -9,6 +9,7 @@ import { ArticleCard } from "@/components/article-card";
 import { ScreenshotImage } from "@/components/site-image";
 import { Button } from "@/components/ui/button";
 import { articles } from "@/lib/site";
+import { summerGuideSlugs } from "@/lib/summer";
 import { appStoreUrl } from "@/lib/app-store";
 import { mainData } from "@/lib/analytics";
 import { alternatesFor, homeSchema } from "@/lib/seo";
@@ -55,6 +56,7 @@ const reviews = [
 ];
 
 export default function Home() {
+  const summerGuides = summerGuideSlugs.flatMap((slug) => articles.find((a) => a.slug === slug) ?? []);
   const schema = homeSchema(metadata.description!, faqs as [string, string][]);
   return <>
     <Header />
@@ -111,6 +113,11 @@ export default function Home() {
         <div className="guide-preview-head"><div><p className="eyebrow">Routes worth taking slowly</p><h2>Take the coast.<br/><em>Cross the red dirt.</em></h2></div><div><p>Choose a direction, save the camps that fit and turn the strongest stops into a route of your own.</p><Link href="/guides/" className="text-link">Explore road trips <ArrowRight/></Link></div></div>
         <div className="article-grid guide-preview-grid">{articles.filter(a=>a.category==="Road trips").slice(0,5).map((a,i)=><ArticleCard article={a} priority={i===0} key={a.slug}/>)}</div>
       </section>
+
+      {summerGuides.length > 0 && <section className="section guide-preview">
+        <div className="guide-preview-head"><div><p className="eyebrow">Summer 2026-27</p><h2>Planning for summer and Christmas?</h2></div><div><p>Booking windows, fire rules and the wet season, ahead of the holidays.</p></div></div>
+        <div className="article-grid guide-preview-grid">{summerGuides.map(a=><ArticleCard article={a} key={a.slug}/>)}</div>
+      </section>}
 
       <section className="section audiences"><div className="audience-copy"><p className="eyebrow">However you carry home</p><h2>Made for tents,<br/>vans and <em>big laps.</em></h2></div><div className="audience-grid">{[["Backpackers","Make a tight budget and flexible route work together.",Binoculars],["Campervans","Find the facilities, access and overnight mix you need.",Caravan],["Caravans & big rigs","Filter for space, services and practical access notes.",Navigation],["Weekend campers","Keep nearby favourites ready when Friday arrives.",TentTree]].map(([t,d,I])=>{const Icon=I as typeof TentTree;return <article key={t as string}><Icon/><h3>{t as string}</h3><p>{d as string}</p></article>})}</div></section>
 
