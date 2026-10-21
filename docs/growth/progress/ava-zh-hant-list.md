@@ -18,8 +18,9 @@ best-road-trip-planner-apps-australia, best-free-camping-apps-australia, best-ca
 best-apps-working-holiday-australia, best-weather-apps-camping-australia, best-money-saving-travel-apps-australia,
 hipcamp-alternatives.
 Done (committed, reviewed, negation-checked, stamped): campermate-alternatives, wikicamps-alternatives, best-fuel-price-apps-australia,
-best-free-camping-apps-australia, best-road-trip-planner-apps-australia, best-caravan-rv-apps-australia.
-In progress: drafts of best-apps-working-holiday-australia, best-weather-apps-camping-australia, best-money-saving-travel-apps-australia; then hipcamp-alternatives.
+best-free-camping-apps-australia, best-road-trip-planner-apps-australia, best-caravan-rv-apps-australia,
+best-apps-working-holiday-australia, best-weather-apps-camping-australia, best-money-saving-travel-apps-australia (9 of 10 AU done).
+In progress: hipcamp-alternatives (AU, in review); KiwiCamping rankers-alternatives (in review), campermate-alternatives (drafting).
 KiwiCamping: rankers-alternatives, campermate-alternatives, road-trip-planner-apps-new-zealand,
 free-camping-apps-new-zealand, best-travel-apps-new-zealand, wikicamps-alternatives, best-campervan-apps-new-zealand,
 best-weather-apps-new-zealand, fuel-price-apps-new-zealand, working-holiday-apps-new-zealand,
@@ -30,4 +31,4 @@ Merged origin/main into both worktrees, ran locales:sync + translations:source (
 
 ## Blockers / notes
 Flagship best-camping-app-australia (zh-hant) still uses 我們 for the company in its closing line (found by reviewers); not touched here, orchestrator may want a pass.
-Owner disclosure wording across pages: 本文作者開發的 App; corrections line ends 「AussieCamps 會更正」.
+Owner disclosure: use 本文作者開發的 App, never 本站團隊. Owner disclosure wording across pages: 本文作者開發的 App; corrections line ends 「AussieCamps 會更正」.
