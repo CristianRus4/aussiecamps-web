@@ -40,6 +40,8 @@ followed by that section's heading. Source screenshots are in `~/Marketing/Campi
 | can-i-take-a-campervan-or-caravan-on-the-spirit-of-tasmania | 8 (Plan the Tasmanian leg in AussieCamps) | aussiecamps_place-detail_mount-field-np_top.png | AussieCamps on iPhone: the Mount Field National Park page in Tasmania, with Accessible Toilet, Picnic Tables, Toilets and Visitor Centre among its amenities |
 | can-i-camp-on-private-land-or-a-farm-in-australia | 7 (Find the alternatives in AussieCamps) | aussiecamps_place-detail_grampians-np_top.png | AussieCamps on iPhone: the Grampians (Gariwerd) National Park page in Victoria, with its description and an Amenities and features list showing a Lookout |
 | can-i-take-alcohol-into-restricted-areas-on-an-outback-road-trip | 7 (Plan your route in AussieCamps) | aussiecamps_guides_adelaide-to-uluru_top.png | AussieCamps on iPhone: the Adelaide to Uluru outback camping route guide, with a trip length of 10 to 12 days, what to plan around and what to book ahead |
+| christmas-summer-camping-australia-2026-27 | 7 (Using AussieCamps over summer) | aussiecamps_place-detail_big4-rainbow-beach-hp_top.png | AussieCamps on iPhone: the BIG4 Rainbow Beach Holiday Park page in Queensland with its address, hours and Book now button |
+| wet-season-camping-top-end-northern-wa | 8 (Using AussieCamps in the wet) | aussiecamps_place-detail_litchfield-np_middle.png | AussieCamps on iPhone: the Litchfield National Park page in the Northern Territory with its photos and a 7-day forecast from Apple Weather |
 
 `best-fuel-price-apps-australia` is the one exception to "the section whose heading names AussieCamps":
 no heading of that guide names the app, so its figure sits in "Fuel is the biggest cost you can plan", whose

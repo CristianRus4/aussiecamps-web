@@ -58,7 +58,7 @@ test("renders an article with unique travel content and app CTA", async () => {
 test("every guide renders as a long-form article", async () => {
   const sources = await Promise.all(["../lib/site.ts", "../lib/expanded-articles.ts"].map((path) => readFile(new URL(path, import.meta.url), "utf8")));
   const slugs = sources.flatMap((source) => [...source.matchAll(/slug:\s*"([^"]+)"/g)].map((match) => match[1]));
-  assert.equal(slugs.length, 85);
+  assert.equal(slugs.length, 87);
   for (const slug of slugs) {
     const response = await fetchPage(`/guides/${slug}`);
     // A guide whose publishAt is still ahead is not served at all (lib/publish.ts).

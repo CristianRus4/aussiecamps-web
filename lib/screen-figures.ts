@@ -43,6 +43,8 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "can-i-take-a-campervan-or-caravan-on-the-spirit-of-tasmania", section: 8, src: "/images/screens/can-i-take-a-campervan-or-caravan-on-the-spirit-of-tasmania.webp", alt: "AussieCamps on iPhone: the Mount Field National Park page in Tasmania, with Accessible Toilet, Picnic Tables, Toilets and Visitor Centre among its amenities" },
   { slug: "can-i-camp-on-private-land-or-a-farm-in-australia", section: 7, src: "/images/screens/can-i-camp-on-private-land-or-a-farm-in-australia.webp", alt: "AussieCamps on iPhone: the Grampians (Gariwerd) National Park page in Victoria, with its description and an Amenities and features list showing a Lookout" },
   { slug: "can-i-take-alcohol-into-restricted-areas-on-an-outback-road-trip", section: 7, src: "/images/screens/can-i-take-alcohol-into-restricted-areas-on-an-outback-road-trip.webp", alt: "AussieCamps on iPhone: the Adelaide to Uluru outback camping route guide, with a trip length of 10 to 12 days, what to plan around and what to book ahead" },
+  { slug: "wet-season-camping-top-end-northern-wa", section: 8, src: "/images/screens/wet-season-camping-top-end-northern-wa.webp", alt: "AussieCamps on iPhone: the Litchfield National Park page in the Northern Territory with its photos and a 7-day forecast from Apple Weather" },
+  { slug: "christmas-summer-camping-australia-2026-27", section: 7, src: "/images/screens/christmas-summer-camping-australia-2026-27.webp", alt: "AussieCamps on iPhone: the BIG4 Rainbow Beach Holiday Park page in Queensland with its address, hours and Book now button" },
 ];
 
 const images = manifest as Record<string, unknown>;
