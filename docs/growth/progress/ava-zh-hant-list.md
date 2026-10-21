@@ -25,6 +25,9 @@ free-camping-apps-new-zealand, best-travel-apps-new-zealand, wikicamps-alternati
 best-weather-apps-new-zealand, fuel-price-apps-new-zealand, working-holiday-apps-new-zealand,
 money-saving-travel-apps-new-zealand: none done yet.
 
+## Resume 2026-10-21 (second session)
+Merged origin/main into both worktrees, ran locales:sync + translations:source (clean). Regenerated inputs in /tmp/ava-zh. Drafting best-apps-working-holiday, best-weather, best-money-saving (AU) in parallel; hipcamp then KiwiCamping (11, progress file to be created in the K worktree).
+
 ## Blockers / notes
 Flagship best-camping-app-australia (zh-hant) still uses 我們 for the company in its closing line (found by reviewers); not touched here, orchestrator may want a pass.
 Owner disclosure wording across pages: 本文作者開發的 App; corrections line ends 「AussieCamps 會更正」.
