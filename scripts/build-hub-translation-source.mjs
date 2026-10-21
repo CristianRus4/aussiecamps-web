@@ -31,8 +31,9 @@ export function hubConfigText() {
     for (const place of hub.places) for (const name of [place.name, place.park, place.locality]) if (name) names.add(name);
   }
   for (const source of meta.sources) names.add(source.short);
-  // Only names the copy actually uses, longest first so the engine protects "Coorong National Park" whole.
-  const terms = [...names].filter((name) => name.length > 2 && sourceText.includes(name)).sort((a, b) => b.length - a.length || a.localeCompare(b));
+  // Only multi-word names the copy actually uses ("Coorong National Park", not "Coonabarabran", which the
+  // model leaves alone anyway), longest first so the engine protects each one whole.
+  const terms = [...names].filter((name) => /\s/.test(name.trim()) && sourceText.includes(name)).sort((a, b) => b.length - a.length || a.localeCompare(b));
   const catalogs = shared.catalogs.map((catalog) => {
     const { untranslatedKeys, targets, source, id, protectedTerms = [], ...rest } = catalog;
     return {
