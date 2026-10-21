@@ -1,0 +1,310 @@
+{
+  "common": {
+    "home": "Home",
+    "factsCaption": "What the data lists for {where}",
+    "readingTitle": "Reading the numbers",
+    "placesAll": "The {count} {many}",
+    "placesSome": "{shown} of the {count} {many}",
+    "placesSample": "These are the {shown} with the most detail in the data.",
+    "placesNote": "Facilities are what each source lists; a facility not listed may still exist, and conditions change. Check the official page before you go.",
+    "colPlace": "Place",
+    "colParkOrLocality": "Park or locality",
+    "colLocality": "Locality",
+    "colFees": "Fees",
+    "colFacilities": "Facilities listed",
+    "colOfficial": "Official page",
+    "notListed": "Not listed",
+    "noneListed": "None listed",
+    "officialLink": "Official page",
+    "parksTitle": "Parks in {state} with their own page",
+    "parkItem": "{name} ({count} campgrounds)",
+    "beforeTitle": "Before you go",
+    "beforeText": "Rules, fees and closures change. Read the state rules and the land manager’s page for your exact stop.",
+    "officialParkPage": "{name}: official park page",
+    "ctaEyebrow": "In the app",
+    "ctaNote": "Campgrounds, rest areas, dump points, water and the trip planner are part of the AussieCamps Pass. Bookable stays and tours are free to browse and book. AussieCamps is an iPhone app.",
+    "download": "Download app",
+    "downloadLabel": "Download AussieCamps for iOS",
+    "dataNote": "Data as of {date}, from the AussieCamps app. Facts only: no descriptions or photos from these sources are reproduced.",
+    "allSources": "All data sources",
+    "mapLabel": "{count} {many} in {where}, one dot each.",
+    "summary": "{count} {many} in {where}{shares}. Names, localities, fees and facilities, with official links. Data as of {date}.",
+    "byState": "By state",
+    "unlinked": "The app also lists {list}. Those states are not covered in depth here yet; the app has every place.",
+    "unlinkedItem": "{count} in {state}",
+    "parksWithPage": "Parks with their own page",
+    "indexDataNote": "Data as of {date}, from the AussieCamps app. Facts only, with the official page linked wherever the source gives one.",
+    "dataSources": "Data sources",
+    "australia": "Australia",
+    "campgroundCount": "{count} campgrounds",
+    "sourceFact": "From {source}"
+  },
+  "sections": {
+    "camping": {
+      "label": "Camping",
+      "one": "campground",
+      "many": "campgrounds",
+      "indexTitle": "Camping in Australia by State: Campgrounds, Facilities and Fees",
+      "indexDescription": "Campgrounds from the state park agencies, state by state and park by park: what each lists for toilets, water, showers, fires and fees, with links to the official pages.",
+      "h1": "Camping in Australia, state by state",
+      "intro": "Each page below covers the campgrounds the AussieCamps app lists in one state or park, drawn from the land managers’ own pages: how many there are, what facilities and fees they list, and a link to the official page for every place named.",
+      "hubName": "Camping in {state}",
+      "title": "Camping in {state}: {count} Campgrounds",
+      "ctaTitle": "All {count} campgrounds in {where}, on one map.",
+      "ctaText": "AussieCamps carries every campground on this page with its facilities, fees and official link, alongside rest areas, dump points and water, and builds a multi-stop trip from the places you save."
+    },
+    "dump-points": {
+      "label": "Dump points",
+      "one": "dump point",
+      "many": "dump points",
+      "indexTitle": "Dump Points in Australia by State: Locations and Facilities",
+      "indexDescription": "Public dump points for toilet cassettes and waste tanks, state by state: which towns have them, which list a washout tap or drinking water, and where to check the details.",
+      "h1": "Dump points in Australia, state by state",
+      "intro": "Each page below covers the public dump points the AussieCamps app lists in one state, from the National Public Toilet Map: how many there are, the towns with the most, and which list a washout tap, drinking water or toilets.",
+      "hubName": "Dump points in {state}",
+      "title": "Dump Points in {state}: {count} Locations",
+      "ctaTitle": "Every dump point in {where}, on the map with your route.",
+      "ctaText": "AussieCamps carries all {count} dump points listed here with their facilities, plus water filling points and rest areas, so the next empty-and-refill stop is on the route you are already driving."
+    },
+    "rest-areas": {
+      "label": "Rest areas",
+      "one": "rest area",
+      "many": "rest areas",
+      "indexTitle": "Rest Areas in Australia by State: Roadside Stops and Facilities",
+      "indexDescription": "Roadside rest areas from the national dataset, state by state: the highways with the most stops and which list toilets, drinking water, shelter or room for trucks.",
+      "h1": "Rest areas in Australia, state by state",
+      "intro": "Each page below covers the roadside rest areas in the national formal rest areas dataset for one state: the roads with the most stops and which list toilets, drinking water, shelter, barbecues or a heavy vehicle area.",
+      "hubName": "Rest areas in {state}",
+      "title": "Rest Areas in {state}: {count} Roadside Stops",
+      "ctaTitle": "All {count} rest areas in {where}, along your route.",
+      "ctaText": "AussieCamps carries the rest areas on this page with the facilities each one lists, alongside campgrounds, dump points and water, and shows them on the road you are planning."
+    }
+  },
+  "shares": {
+    "campingToilets": "{share}% list toilets",
+    "drinkingWater": "{share}% drinking water",
+    "showers": "{share}% showers",
+    "washout": "{share}% list a washout tap",
+    "toilets": "{share}% toilets",
+    "heavyVehicle": "{share}% a heavy vehicle area"
+  },
+  "facts": {
+    "accessible-parking-listed": "Accessible parking listed",
+    "accessible-toilet-listed": "Accessible toilet listed",
+    "barbecues-listed": "Barbecues listed",
+    "boat-ramp-listed": "Boat ramp listed",
+    "camper-trailer-sites-listed": "Camper trailer sites listed",
+    "campfires-listed-as-allowed": "Campfires listed as allowed",
+    "campgrounds-in-the-app": "Campgrounds in the app",
+    "camping-fee-listed": "Camping fee listed",
+    "caravan-sites-listed": "Caravan sites listed",
+    "drinking-water-listed": "Drinking water listed",
+    "dump-point-listed": "Dump point listed",
+    "dump-points-in-the-app": "Dump points in the app",
+    "flush-toilets-listed": "Flush toilets listed",
+    "generators-listed-as-allowed": "Generators listed as allowed",
+    "heavy-vehicle-area-listed": "Heavy vehicle area listed",
+    "listed-as-free-to-use": "Listed as free to use",
+    "listed-as-no-dogs": "Listed as no dogs",
+    "localities-named": "Localities named",
+    "locality-with-the-most-campgrounds": "Locality with the most campgrounds",
+    "locality-with-the-most-dump-points": "Locality with the most dump points",
+    "more-from-the-state-road-agency-over-250-m-from-a-national-record": "More from the state road agency (over 250 m from a national record)",
+    "no-camping-fee-listed-booking-fee-only": "No camping fee listed (booking fee only)",
+    "online-booking-page-listed": "Online booking page listed",
+    "park-entry-fee-listed": "Park entry fee listed",
+    "park-with-the-most-campgrounds": "Park with the most campgrounds",
+    "parks-and-reserves-with-a-campground": "Parks and reserves with a campground",
+    "phone-reception-listed": "Phone reception listed",
+    "picnic-tables-listed": "Picnic tables listed",
+    "playground-listed": "Playground listed",
+    "rest-areas-in-the-national-dataset": "Rest areas in the national dataset",
+    "rest-areas-with-a-dump-point": "Rest areas with a dump point",
+    "road-with-the-most-rest-areas": "Road with the most rest areas",
+    "sealed-surface-listed": "Sealed surface listed",
+    "sharps-disposal-listed": "Sharps disposal listed",
+    "shelter-listed": "Shelter listed",
+    "showers-listed": "Showers listed",
+    "tent-beside-car-listed": "Tent beside car listed",
+    "toilets-listed": "Toilets listed",
+    "towns-and-localities-with-a-dump-point": "Towns and localities with a dump point",
+    "washout-tap-listed": "Washout tap listed",
+    "water-filling-points-in-the-app": "Water filling points in the app"
+  },
+  "facilities": {
+    "accessible-parking": "Accessible parking",
+    "accessible-toilet": "Accessible toilet",
+    "barbecues": "Barbecues",
+    "boat-ramp": "Boat ramp",
+    "camper-trailer-sites": "Camper trailer sites",
+    "campfires-allowed": "Campfires allowed",
+    "caravan-sites": "Caravan sites",
+    "drinking-water": "Drinking water",
+    "dump-point": "Dump point",
+    "flush-toilets": "Flush toilets",
+    "generators-allowed": "Generators allowed",
+    "heavy-vehicle-area": "Heavy vehicle area",
+    "no-dogs": "No dogs",
+    "non-flush-toilets": "Non-flush toilets",
+    "phone-reception": "Phone reception",
+    "picnic-tables": "Picnic tables",
+    "playground": "Playground",
+    "sharps-disposal": "Sharps disposal",
+    "shelter": "Shelter",
+    "showers": "Showers",
+    "tent-beside-car": "Tent beside car",
+    "toilets": "Toilets",
+    "washout-tap": "Washout tap"
+  },
+  "fees": {
+    "camping-fee": "Camping fee",
+    "free": "Free",
+    "park-entry-fee": "Park entry fee"
+  },
+  "prose": {
+    "camping/new-south-wales": [
+      "New South Wales has 372 campgrounds in the app, every one of them from NSW NPWS, spread across 137 parks and reserves. That is a broad spread rather than a few big clusters. Myall Lakes National Park leads with 21, then the counts drop quickly: Murray Valley National Park has 16, and Murray Valley Regional Park and Warrumbungle National Park have 11 each. Between them, the two Murray Valley parks hold more campgrounds than Myall Lakes does, which the single-park ranking hides.",
+      "The facility flags are uneven. Toilets are listed at 76% of campgrounds and flush toilets at 74%, so some kind of toilet is the norm, and barbecues are listed at 62%. Drinking water is the outlier: the source lists it at only 27 campgrounds, or 7%, with showers at 15%. A missing flag is not proof that a tap is missing, but it is a good reason to carry your own water until the official page for a campground says otherwise. Phone reception is listed at 78% of sites, which is worth confirming on the official page before you rely on it.",
+      "Towing is where the data is thinnest. Caravan sites are listed at just 5 campgrounds and camper trailer sites at 2, and a boat ramp at 33. Those low counts say more about what the source records than about what fits on the ground, so check each campground’s official page for site sizes and access before committing a van to a long drive.",
+      "On fees, 121 campgrounds (33%) carry a park entry fee in this record, and 40 (11%) show no camping fee with a booking fee only. The remainder have neither label here, which does not make them free. The list below leans toward the best-equipped sites, such as Sandon River and Illaroo in Yuraygir National Park and Woody Head in Bundjalung National Park, so use the map for the wider picture and follow each official NSW NPWS link for current fees, closures and bookings."
+    ],
+    "camping/new-south-wales/myall-lakes-national-park": [
+      "Myall Lakes National Park has 21 campgrounds in the app, all from NSW NPWS, and they cluster around seven localities named in the data. Mungo Brush has the most with 8: Johnsons Beach, Banksia Green, Dees Corner, Mungo Brush, The Wells, White Tree Bay, Boomeri and Brambles Green. Bombah Point has Korsmans Landing, Rivermouth and Mackaway Bay, Boolambayte has Freshwater, Two Mile Sands and Joes Cove, and Violet Hill, Yagon, Bungwahl and Hawks Nest account for the rest. Sunnyside campground has no locality in the record.",
+      "Toilets are listed at 16 campgrounds (76%), and all 16 of them list flush toilets. Barbecues are listed at 17 (81%). Phone reception is listed at 20 of the 21 (95%); the exception is Sunnyside campground, which has no facilities listed at all. Toilets are not listed at Two Mile Sands, Brambles Green, Joes Cove or Mackaway Bay, so check the official page and pack accordingly if you pick one of those.",
+      "A boat ramp is listed at 8 campgrounds (38%): Bungarie Bay, Freshwater, Johnsons Beach, Korsmans Landing, Violet Hill, Mungo Brush, Neranie and Two Mile Sands. No drinking water or showers are flagged anywhere in this park's record, which is a gap worth planning around: carry the water you need rather than counting on a tap.",
+      "Every campground lists the park entry fee (21 of 21) and an online booking page on the NSW NPWS site, so book ahead and budget for the entry fee as well as the campsite. The record has no camping fee summary for these sites; current prices, closures and fire rules are on each official campground page. For the statewide rules on where and how you may camp, see the Camping rules in New South Wales guide."
+    ],
+    "camping/northern-territory": [
+      "The Northern Territory has 102 campgrounds in the app, all from NT Parks and Wildlife, across 27 parks and reserves. Judbarra/ Gregory National Park has the most with 17, then Limmen National Park with 14, Tjoritja / West MacDonnell National Park with 11, Litchfield National Park with 10 and Nitmiluk National Park with 8. Finke Gorge, Iytwelepenty / Davenport Ranges and Trephina Gorge each have 4, and smaller reserves such as Chambers Pillar Historical Reserve and Channel Point Coastal Reserve make up the rest.",
+      "Fees and bookings are what this source records most consistently. A camping fee is listed for 101 of the 102 campgrounds (99%), and all 102 list an online booking page in the Territory's park bookings system. Expect to pay and book ahead almost anywhere on this page, including the canoe campgrounds along the gorges of Nitmiluk National Park (4th, 6th and 9th Gorge, plus 8th Gorge Campground) and the three Central Valley campgrounds in Litchfield National Park.",
+      "What the source does not give is facility detail. Not one of the 102 campgrounds has a toilet, drinking water, shower or caravan flag in this record, so the facilities column below shows nothing for any of them. That is a gap in the data, not a description of the sites: a missing flag means the source did not record the facility, not that the site lacks it. The names carry a few hints, such as the overflow campgrounds at Butterfly Falls and Didi Baba in Limmen National Park, or Chambers Pillar Bush Campground beside Chambers Pillar Campground, but the official park page is the only reliable guide to what is there and whether the track in is open.",
+      "Between parks, the app also lists 23 dump points, 211 rest areas from the national dataset and 57 water filling points in the Northern Territory, so you can plan where to empty, refill and stop on the way to the next campground. For the rules on where you may camp, read the Camping rules in the Northern Territory guide before you go."
+    ],
+    "camping/queensland": [
+      "All 517 Queensland campgrounds in the app come from QPWS, and they are spread over 154 parks and reserves. A few parks stand well above the rest. K'gari, Great Sandy National Park has 35, Rinyirru (Lakefield) National Park (CYPAL) has 25 and the Cooloola Recreation Area, Great Sandy National Park has 24. Together, the two Great Sandy entries hold far more campgrounds than any other park. Mount Barney National Park follows with 20, then Girraween and Oyala Thumotang (CYPAL) with 14 each.",
+      "Water is the standout in this state’s data. Drinking water is listed at 413 campgrounds, or 80%, and toilets at 62%, but flush toilets at only 21% and showers at 26%. Phone reception is listed at just 5 sites and barbecues at 10. Those two low counts reflect what QPWS records, so do not count on either facility until the official page confirms it.",
+      "The access flags help with choosing a site for your rig. Camper trailer sites and tent-beside-car sites are each listed at 46%, while caravan sites are listed at 62 campgrounds (12%). Campfires are listed as allowed at 53% and generators at 30%. These are the source’s general listings, not a guarantee for the day you arrive, so read the official page for current conditions before lighting a fire or starting a generator.",
+      "Only 6 campgrounds (1%) have a camping fee in this record. Do not read the rest as free camping; the fee field is simply blank for most of them, and fees and bookings should be checked site by site with QPWS. The places below begin with well-equipped entries such as Broadwater in Abergowrie State Forest, Eurimbula Creek, Carnarvon Gorge and the Inskip Peninsula Recreation Area camps, and the Camping rules in Queensland guide covers what applies across the state."
+    ],
+    "camping/queensland/cooloola-recreation-area-great-sandy-national-park": [
+      "The Cooloola Recreation Area, Great Sandy National Park has 24 campgrounds in the app from QPWS, which places it third in Queensland by campground count. The entries split into three groups: the numbered Teewah Beach camping area zones, the Upper Noosa River camp sites, and a handful of named areas such as Freshwater, Poverty Point (Cooloola), Harrys, Fig Tree Point, Neebs Waterhole and Wandi Waterhole. Toilets are listed at 96% of campgrounds, drinking water at 79% and showers at 58%.",
+      "The Teewah Beach zones run from 1 to 7, and each lists toilets, drinking water, showers, camper trailer and tent-beside-car sites, with campfires and generators listed as allowed. Zones 2, 4, 5 and 7 are the ones with caravan sites listed; together with Freshwater (trailer site), they account for all 5 caravan listings in the park. If you are towing a caravan, start with those entries and confirm on the official page.",
+      "The Upper Noosa River camp sites are identified by number, from camp site 1 up to camp site 15 among those shown. They mostly list toilets, drinking water and a boat ramp, and none of them list camper trailer or tent-beside-car sites. A boat ramp is listed at 11 campgrounds (46%), all of them river camp sites apart from Harrys (river access) and Fig Tree Point. Harrys appears twice, once for river access and once for vehicle access, with different facilities listed for each.",
+      "Only one campground has a camping fee listed (4%), the Freshwater (tent site) camping area, and blank fees elsewhere are no sign of free camping. Wandi Waterhole has no facilities listed at all, which means the source recorded none, not that nothing is there. Before you go, check fees, bookings, closures and access for your chosen site on its QPWS page."
+    ],
+    "camping/queensland/kgari-great-sandy-national-park": [
+      "K'gari, Great Sandy National Park has 35 campgrounds in the app, all from QPWS, and it heads the Queensland ranking by campground count. The entries shown below fall into two kinds. Nine are numbered beach camping zones, each grouping several named spots, such as Govi and Wongai in zone 1 or Maheno and Wahba in zone 5. The rest are set camping areas such as Dundubara, Waddy Point, Central Station and the creek sites at Bowarrady, Coongul and Coolooloi.",
+      "Several areas appear twice, once as a tent site and once as a trailer site: Dundubara, Waddy Point Top, Waddy Point beachfront and Central Station all do. Pick the entry that matches your setup, because the facilities listed differ between the pair. Dundubara’s tent entry lists drinking water, for example, while its trailer entry does not. All 4 entries with a camping fee listed (11%) are tent-site entries, so a blank fee on the trailer version is no evidence that it costs nothing.",
+      "Toilets are listed at 89% of campgrounds and showers at 66%, but drinking water at only 40%, which is the gap worth planning around. Camper trailer sites and tent-beside-car sites are each listed at 80%. Campfires and generators are each listed as allowed at 63% of sites, which is a general listing rather than permission for a particular day. In the list, Cornwells, Eli, One Tree, Wongai and Wathumba carry “(fenced)” in their names; the data says nothing more, so read the official page for what that means for your stay.",
+      "Fees, bookings and closures for each beach zone and camping area sit with QPWS and can change, so open the official link for the exact area before you travel rather than relying on a neighbouring entry."
+    ],
+    "camping/queensland/rinyirru-lakefield-national-park-cypal": [
+      "Rinyirru (Lakefield) National Park (CYPAL) has 25 campgrounds in the app, all from QPWS, and it ranks second in Queensland by campground count. Every one of them appears in the list below, so this page shows the park’s full set rather than a selection.",
+      "The names point to water. There are waterholes such as Dingo, Hanushs, Melaleuca, Midway, Old Faithful, Mick Fienn and Six Mile, crossings at Hann, Kalpowar and Saltwater, lagoons at Twelve Mile and Horseshoe, Sweetwater Lake, and river sites on the Annie and Bizant rivers. A boat ramp is listed at 4 campgrounds (16%): Orange Plain, Annie River, Bizant River and Brown Creek.",
+      "Some flags here are near universal. Campfires and generators are listed as allowed at 100% of campgrounds, tent-beside-car sites at 96% and camper trailer sites at 92%. Drinking water is listed at 96%, and Seven Mile is the one entry where the source does not list it; since this is a listing rather than a guarantee, confirm what is provided before you rely on it. Toilets are listed at 68%, flush toilets at 40% and showers at 64%. Annie River, Bizant River, Brown Creek, Basin Hole, Horseshoe Lagoon, Kennedy Bend, Seven Mile and Six Mile Waterhole have no toilets listed, which is a reason to check rather than proof there are none.",
+      "This record has no fee summary for any of the park’s campgrounds, so the list cannot tell you what a night costs or whether a site must be booked. Use the official link for each campground to check fees, bookings and closures before setting off, and read the Camping rules in Queensland guide for the statewide rules."
+    ],
+    "camping/south-australia": [
+      "South Australia has 115 campgrounds in the app, all from SA DEW, spread across 40 parks and reserves. Coorong National Park has the most with 11, followed by Ikara-Flinders Ranges National Park with 9, Innamincka Regional Reserve and Ngarkat Conservation Park with 7 each, and Canunda, Dhilba Guuranda-Innes and Gawler Ranges national parks with 6 each. Coffin Bay National Park and Little Dip Conservation Park have 5 each and Deep Creek National Park has 4, so the list below is a sample of a wide spread rather than a few big clusters.",
+      "Facility flags are thin in this source. Toilets are listed at only 10 campgrounds (9%): six in Innamincka Regional Reserve (Cullyamurra Waterhole, Kings Site, Minkie Waterhole, Policemans, Queerbidie and Ski Beach), two in Vulkathunha-Gammon Ranges National Park (Italowie Gap and Weetootla Gorge), plus Dalhousie Springs in Witjira National Park and Geltwood Beach in Canunda National Park. One campground lists a boat ramp (Morgan Campground in Morgan Conservation Park) and one is listed as no dogs (Ippinitchie Campground, Wirrabara). No drinking water, showers or caravan sites are flagged anywhere, which says more about what the source records than about the sites themselves.",
+      "Bookings are where this source is strongest. An online booking page is listed for 101 of the 115 campgrounds (88%), on the park booking pages of the state agency. The record has no fee summary for these campgrounds, which is not the same as camping being free: fees, permits and bookings are set park by park, so check the booking page for the stop you want. Some names carry access notes worth taking literally, such as Arcoona Campground (4WD or high clearance 2WD) and Black Springs Campground (4WD) in Coffin Bay National Park.",
+      "The app also carries 199 dump points, 391 rest areas from the national dataset and 140 water filling points in South Australia, so you can plan where to empty, refill and rest between parks. For the statewide rules on where you may camp, read the Camping rules in South Australia guide."
+    ],
+    "camping/tasmania": [
+      "Tasmania is a small dataset: 27 campgrounds from Tasmania PWS, across 14 parks and reserves. No single park dominates. Maria Island National Park has the most with 4 entries, Southwest National Park has 3, Mount Field and Tasman national parks have 2 each, the rest have one apiece, and a few entries have no park attached at all. With a total this small, the list below covers nearly the whole dataset rather than a sample of it.",
+      "Several entries are broader than one campground. Richardsons Beach, Honeymoon Bay and Ranger Creek camping is a single entry, as is Peggs Beach and Black River camping. Other entries describe walking or hut stays rather than drive-in sites, such as Encampment Cove Walk, Huon campground walk, the Walls of Jerusalem overnight walker camping, Mount Field Government Huts and Cradle Mountain Waldheim Cabins. Open the official page for each to see what kind of stay it actually covers.",
+      "Toilets are listed at 26 of the 27 entries (96%), the highest share of any facility here. Showers are listed at 44% and drinking water at 37%, while only one entry lists flush toilets and one lists caravan sites (Mayfield Bay). A boat ramp is listed at 11 entries (41%), including Mount Field camping and Huon campground walk, so confirm that flag on the official page before you tow a boat anywhere.",
+      "A camping fee is listed for 11 entries (41%), among them Fortescue Bay, Mount Field, Narawntapu, Lime Bay, South Bruny and Darlington on Maria Island. The other entries have no fee summary in this record, which is not the same as being free. Current fees, bookings and closures are set by the Tasmania Parks and Wildlife Service, so go to its page for each site, and see the Camping rules in Tasmania guide for the statewide rules."
+    ],
+    "camping/victoria": [
+      "Victoria’s 438 campgrounds come from two agencies: 350 from DEECA and 88 from Parks Victoria. Only 35 parks and reserves are named as holding a campground, so most of the campgrounds in this data are not tied to a named park at all. The park ranking is shallow as a result. Lower Glenelg National Park leads with 12 and Grampians National Park follows with 11; Croajingolong and Wilsons Promontory national parks have 6 each, and every other park in the top ten has 3.",
+      "Read the facility figures as a record of what the sources list, which is not the same as what is on the ground. Toilets are listed at 69 campgrounds (16%), drinking water at 36 (8%), showers at 13 (3%) and phone reception at only 4. With so few flags set, an empty facilities line tells you the source recorded nothing, not that the site has nothing. Plan to be self-sufficient for water, then confirm the details on the official page.",
+      "This hub carries no fee summary for campgrounds in Victoria, so nothing here tells you which sites charge or take bookings. Dogs are listed as not allowed at 3 campgrounds, including Lake Catani in Mount Buffalo National Park and the Buchan Caves Campground in Buchan Caves Reserve. Elsewhere, a blank dog field says nothing either way, so anyone travelling with a dog should look up each campground with Parks Victoria or DEECA before leaving home.",
+      "The named places below favour campgrounds with more facilities listed, and Lower Glenelg National Park features heavily: Hutchessons, McLennans Punt, Wilson Hall, Forest South, Red Gum Landing, Wild Dog Bend and Battersby all sit there, and four of them have a boat ramp listed. Buandik and Smiths Mill in the Grampians, and Big Hill and Hammonds in Great Otway National Park, are other well-listed starting points. Because so much of the state’s data sits outside named parks, the map is the better guide to coverage than the list."
+    ],
+    "camping/western-australia": [
+      "Western Australia has 260 campgrounds in the app, all from DBCA, across 52 parks and reserves. The biggest cluster is Warroora Coast, Nyinggulu Coastal Reserves with 17, well ahead of Dirk Hartog Island National Park on 9. Cape Range National Park and Lane Poole Reserve have 6 each, and D'Entrecasteaux, Francois Peron and Nyinggulara National Park (ex-Ningaloo) have 5 each. Some park names are given exactly as the source holds them, including one marked as a reserve name to be confirmed and Edel Land National Park, marked as proposed, so treat those names as provisional.",
+      "Two flags carry real weight in this state’s record. A camping fee is listed at 117 campgrounds (45%), and 106 (41%) are listed as no dogs. Neither covers every site: a campground without a fee flag may still charge, and one without a no-dogs flag is not confirmed as dog friendly. If you travel with a dog, check each campground on the DBCA page before setting out.",
+      "Toilets are the most common listed facility, at 221 campgrounds or 85%. Drinking water is listed at 39%, showers at 4% and flush toilets at only 6 sites, so the typical campground here has a toilet and little else on record. Campfires are listed as allowed at a single campground, and caravan sites at one as well. Treat those tiny numbers as gaps in the listing to confirm with DBCA, not as rules.",
+      "The places below start with the better-equipped entries, such as Bandilngan Windjana Gorge, Dulundi Silent Grove, Lucky Bay, Le Grand Beach and the Perth Hills Discovery Centre, all with showers and drinking water listed. Many entries in the list have no park attached in this data, so use the dot map and the official link to place them. Fee summaries say only “Camping fee”; amounts, bookings and closures are on the DBCA pages."
+    ],
+    "dump-points/new-south-wales": [
+      "New South Wales has 347 public dump points in the app, and they are spread across 266 towns and localities. That ratio says more than the total does: most towns with a dump point have just one. Temora has the most, with four, and Armidale, Bourke, Coleambally and Coonabarabran have three each. So you will find dump points in plenty of towns, but rarely a choice of them in the same place, and it pays to note your next one before you leave the last.",
+      "Every entry here comes from the National Public Toilet Map, and its facility flags hold the useful detail. A washout tap is listed at 56 sites (16%) and drinking water at 54 (16%). They are separate things. A washout tap is for rinsing a toilet cassette, so do not treat it as a drinking supply, even at a site that lists both. Toilets are listed at 110 sites, an accessible toilet at 80, accessible parking at 40, sharps disposal at 33 and showers at 29. A missing flag only means the source does not list that facility. It is not proof the site lacks it.",
+      "Dump points sit in all sorts of places. The list below includes showgrounds at Bathurst, Gunnedah and Milton, caravan parks such as Diamond Waters at Dunbogan and Soldiers Point Big4, the Maitland Visitor Information Centre, the Lions Club Rest Area at Gunnedah and an Ampol Foodary at Pheasants Nest. Where a dump point sits inside a caravan park or showground, open its linked page and check current access before you drive in.",
+      "On cost, 334 of the 347 (96%) are listed as free to use. For filling up, the app also holds 1006 water filling points in New South Wales, far more than the dump points, so fresh water is usually easier to find than a place to empty. Toilet cassettes and black or grey tanks belong in a dump point and should never be emptied anywhere else."
+    ],
+    "dump-points/northern-territory": [
+      "The Northern Territory has 23 dump points in the app, and every one of them is in the list below, so this page is the full set rather than a sample. They cover 20 towns and localities. Batchelor, Katherine and Yulara are the only places with two each; everywhere else has one. A small total like this rewards planning ahead: look up the following dump point on your route while you are still at this one.",
+      "The record is thin on facilities. Most entries have no facility flags at all, including Alice Springs Dump Point, Jabiru Dump Point, Nhulunbuy Dump Point, Borroloola Dump Point and Mataranka Dump Point. That does not mean those sites have nothing; the National Public Toilet Map simply does not list anything for them. Where flags exist, a washout tap is listed at 4 sites (17%), toilets at 7 (30%), an accessible toilet at 4, drinking water and showers at 2 each, and accessible parking at 1.",
+      "Water filling points are easier to find than dump points: the app holds 57 of them in the territory. Olive Pink Botanic Gardens at Inarlenge and Barkly Homestead at Tablelands are the two dump points that list drinking water. The Ayers Rock Resort Dump Point and Caravan Dump Point at Katherine list a washout tap, which is for rinsing a cassette and is not drinking water.",
+      "All 23 are listed as free to use. Several sit at roadhouses, resorts or venues, such as Victoria River Roadhouse at Gregory, Caltex Kings Canyon Resort at Petermann and the Darwin Greyhound Club Dump Point at Winnellie. Venues like these can change their arrangements, so confirm on the source page before counting on one. Toilet cassettes and black or grey tanks should only ever be emptied at a dump point."
+    ],
+    "dump-points/queensland": [
+      "Bedourie and Birdsville jointly hold the top spot in Queensland, each with four dump points. Barcaldine, Biloela and Bowen come next with three. Across the state the app has 324 dump points in 243 towns and localities, which means a typical town with a dump point has only one, and the places with several are the exception.",
+      "The list below shows how varied the hosts are. Hell's Gate Roadhouse at Nicholson and Lakeland Downs Roadhouse at Lakeland sit alongside town parks such as Wyllie Park at Petrie, Coronation Park at Wondai and Lions Park at Kingaroy. A few entries are on islands or inside national parks: Lions Boulevarde Park on Russell Island, Freshwater in Great Sandy National Park at Cooloola Cove, Dundubara Camping Area on Fraser Island, the Fraser Venture Ferry Landing and Ben Ewa camping area at Cowan Cowan. Those take more planning than a roadside stop, so check each linked page first. Dundubara has no fee summary in the record at all.",
+      "On facilities, the National Public Toilet Map lists a washout tap at 42 sites (13%) and drinking water at just 22 (7%). Toilets are listed at 77, an accessible toilet at 54, accessible parking at 37, sharps disposal at 28 and showers at 27. These are the flags the source records, so a site without a flag may still have the facility; you simply cannot count on it from this data. Use the washout tap only for rinsing the cassette.",
+      "Of the 324, 313 are listed as free to use (97%). With drinking water so rarely listed at dump points, the 670 water filling points the app holds in Queensland are worth looking up separately when you plan a fill. At any stop the practice is the same: cassette contents and black or grey tank waste go into a dump point, never anywhere else."
+    ],
+    "dump-points/south-australia": [
+      "In South Australia the app holds fewer water filling points than dump points: 140 against 199, so leaving a town with full tanks makes more sense than counting on a refill at your next stop. Drinking water is listed at 30 dump points (15%), which helps, but that still leaves most without it in the record.",
+      "The dump points are spread across 154 towns and localities. Cleve, Mannum and Tantanoola have three each, and Balhannah and Beachport two. Beachport shows up twice in the list below, at the Surf Beach and at the Visitor Information Centre, while Cleve’s entries include the Cleve RV Park. Most other towns have a single site.",
+      "The National Public Toilet Map lists a washout tap at 38 sites (19%), useful for rinsing a cassette but not a source of drinking water. Toilets are listed at 51 sites, an accessible toilet at 33, accessible parking at 21, showers at 13 and sharps disposal at 10. Some entries combine a dump point with a full stop: Iron Knob Campground, Naracoorte Showgrounds and the Wetlands at Pinnaroo each list both a washout tap and drinking water. Kimba Recreation Reserve Free Camping Area lists drinking water and showers. Facilities without a flag may still exist on site; the source just does not record them.",
+      "The hosts range widely, from Coffin Bay Boat Ramp and Barrage Road 1 at Goolwa South to Farrell Flat Dump Point and the Visitors Information Centre at McLaren Vale. Of the 199, 189 are listed as free to use (95%). Open the linked page for current access before relying on any one of them, and keep cassette and black or grey tank waste for dump points only."
+    ],
+    "dump-points/tasmania": [
+      "All 80 dump points in Tasmania are listed as free to use, and they are spread over 65 towns and localities. Pontville and Sheffield each have three, and Bakers Beach, Bicheno and Geeveston two. Pontville’s entries include Brighton Showground, and Sheffield Recreation Ground appears in the list below.",
+      "The National Public Toilet Map records fewer facilities here than you might hope. A washout tap is listed at 14 sites (18%) and drinking water at just 7 (9%). Toilets are listed at 24, an accessible toilet at 18, accessible parking at 16 (20%), showers at 6 and sharps disposal at 3. Some entries list very little: Arthurs Lake and Burtons Factory Site at Cygnet list only toilets, and Batchelor St in Queenstown and Morrisby Street in Rosebery list a washout tap and accessible parking. That reflects what the source records, not necessarily what is on the ground.",
+      "Water is the thing to plan around. The app holds 73 water filling points across Tasmania, fewer than the 80 dump points, and drinking water is rarely listed at the dump points themselves. South Burnie Beach, Westbury Recreation Ground, the Caravan Park at New Norfolk and Duck Park at Swansea are among the few that list it. A washout tap is for rinsing a cassette and is not a substitute.",
+      "Many hosts in the list below are community spaces: recreation grounds, ovals, a community hall at Coles Bay, the George Town Visitor Information Centre and foreshores such as Franklin. Macquarie Heads Camping Ground at Strahan and Tatlows Beach at Stanley are among the coastal entries. Each entry links to its National Public Toilet Map page, which is the place to confirm details before a visit. Toilet cassettes and black or grey tanks are emptied at dump points like these and never anywhere else."
+    ],
+    "dump-points/victoria": [
+      "Washout taps are the standout in Victoria’s data. The National Public Toilet Map lists one at 40 of the state’s 181 dump points (22%), while drinking water is listed at only 14 (8%). In practice, you are more likely to find somewhere to rinse a cassette than somewhere to top up your drinking tank at the same stop. Keep those two taps apart in your head: the washout tap is for cleaning the cassette, not for filling bottles.",
+      "The 181 dump points cover 144 towns and localities, so most towns that have one have a single site. Ararat, Donald, Stawell and Warrnambool share the highest count with three each, and Boort follows with two. Daylesford appears twice in the list below, once at Victoria Park Oval and once at Jubilee Lake Caravan Park, and Ararat’s entries include Green Hill Lake Camping.",
+      "Facility flags beyond the taps are patchy. Toilets are listed at 57 sites, an accessible toilet at 42 and accessible parking at 17, with showers and sharps disposal at 12 each. Only one entry in the list below, Chirnside Park Kimberly Reserve Oval, carries all of these flags at once, and Swan Hill Tourist Information Bay misses only showers. If a flag is missing, the source has not listed it, which is different from the site not having it.",
+      "Of the 181, 173 are listed as free to use (96%). The app also counts 630 water filling points across Victoria, which helps given how rarely drinking water is listed at the dump points themselves. Several entries, such as the Airport and RV Dump Point at Benalla, Corryong Saleyards and the Foreshore Reserve at Port Albert, are worth checking on their linked page for current access. Cassette and black or grey tank waste goes into a dump point and nowhere else."
+    ],
+    "dump-points/western-australia": [
+      "Toilets are listed at 99 of Western Australia’s 238 dump points, a 42% share, and an accessible toilet at 85 (36%). Those are high shares for this data, and they make many of these stops useful as a full break rather than a quick empty. Kulin has all seven flags counted on this page, from washout tap to sharps disposal, and Bindoon Oval, Collie Visitor Centre and Dwellingup Visitor Centre each list six.",
+      "Kalgoorlie and Northampton have the most dump points, four each, followed by Marble Bar, Minilya and Narrogin with three. In total the 238 sites cover 190 towns and localities. Kalgoorlie’s entries include CY O'Connor Men's Shed and the Goldfields Art Centre, and the Goldfields Oasis Recreation Centre is listed at Kanowna. The list also takes in stops such as Murchison Settlement, Kirkalocka Station at Daggar Hills, Laverton Car Park and the Norseman Dog Park.",
+      "The app also counts 32 rest areas in Western Australia with a dump point, and 390 water filling points. Drinking water is listed at only 32 dump points (13%) and a washout tap at 36 (15%). A washout tap is there for rinsing a cassette, so fill drinking tanks from a listed drinking water tap or a water filling point instead. Accessible parking is listed at 36 sites, showers at 23 and sharps disposal at 17. Facilities the source does not flag may still be there, but the data cannot confirm them.",
+      "Of the 238, 234 are listed as free to use (98%). Munglinup is one entry with no fee summary in the record, so check its linked page. Cassette and black or grey tank waste should only go into a dump point, never anywhere else."
+    ],
+    "rest-areas/new-south-wales": [
+      "The line in this facts table that matters most is the heavy vehicle one: all 855 rest areas New South Wales has in the national dataset are listed with a heavy vehicle area. These bays serve road freight as much as holiday traffic, so park where light vehicles are meant to go, keep a caravan clear of the truck lanes and expect trucks coming and going at any hour. Transport for NSW adds 14 more records, each over 250 m from a national entry, so they are separate stops rather than repeats.",
+      "Roads show where the stops cluster. The Newell Highway has 93, well ahead of the Hume Highway with 59, followed by the Sturt Highway (46), the Pacific Highway (43) and the Barrier Highway (42). On the Newell that density lets you plan short legs between breaks. On roads outside the top five, check the dot map for spacing before you commit to a long stretch.",
+      "Picnic tables are the facility the source lists most often, at 509 sites or 60 per cent. Toilets are listed at 390 (46 per cent) and accessible toilets at 213. Shelter is listed at only 126 and barbecues at 157. This state’s facts table has no drinking water line at all, so carry what you need rather than counting on a tap. The places below lean towards the better-equipped entries, and many list a playground (85 statewide), which makes Appin Park, Balranald Lions Park or Macksville Lions Park handy breaks with children. Names ending in Northbound, Southbound or Westbound, such as the paired Mundoonan Rest Area entries, tell you which direction of travel each one is named for.",
+      "The locality shown for each place is often a council area, such as Bega Valley or Greater Hume Shire, which tells you whose rules to look up. Every NSW record is listed as free to use, but free to stop is not the same as free to camp. The dataset says nothing about overnight stays and the rules vary from site to site, so read the signs when you pull in, check Transport for NSW or the local council, and see the camping-rules guide for New South Wales linked on this page before planning to sleep at any of these bays."
+    ],
+    "rest-areas/northern-territory": [
+      "In the Northern Territory one road shapes the list. The Stuart Highway carries 85 of the 211 rest areas in the national dataset, about two in five. Then come the Victoria Highway (21) and the Carpentaria Highway (20), with the Arnhem Highway and the Barkly Highway on 14 each. There is no locality field for these records, so the place name and the dot on the map are what you have to go on.",
+      "Drinking water is listed at 52 sites (25 per cent), more often than toilets, which are listed at 21 (10 per cent). Shelter is listed at 44, picnic tables at 48 and barbecues at 41, so roughly one stop in five lists each of those. Carry enough water for the gaps regardless, since a listing in the dataset cannot tell you whether a tank holds water on the day you arrive.",
+      "The top of the list below is the group of stops that list toilets, drinking water, shelter, picnic tables and barbecues together, including Attack Creek, Newcastle Waters, Prowse Gap, Finke River and the stop named NT/SA Border. Next come entries such as 41 Mile Bore, Connors Well and Central Mt Stuart, which list water, shelter, tables and barbecues without a toilet listed. Those are worth noting on long days when you want shade and a table more than anything else.",
+      "Sharing with heavy vehicles is the norm here: a heavy vehicle area is listed at 149 sites, or 71 per cent. A sealed surface is listed at 109 (52 per cent), so about half the stops have a seal on record. The dataset is silent on whether you can stay the night. Overnight rules vary, so read the signs at each stop, check the state road agency or council rules, and see the camping-rules guide for the Northern Territory linked on this page."
+    ],
+    "rest-areas/queensland": [
+      "Queensland’s count is two lists side by side. The national dataset holds 1,197 rest areas, and Queensland TMR adds 491 more that sit over 250 m from any national record, so treat those as separate stops rather than repeats. This page has no road ranking in its facts table, which leaves the dot map and the 362 named localities as your main way to find stops along a route.",
+      "The facility shares sit unusually close together. Shelter is listed at 563 sites (47 per cent), drinking water at 522 (44 per cent) and toilets at 511 (43 per cent), with picnic tables the most common at 673, or 56 per cent. Here a roof over the table is listed about as often as a toilet, which helps on long days of driving. Phone reception is listed at only 2 sites. That tells you the source rarely records it, not that coverage is missing, so check your provider’s coverage before relying on a signal.",
+      "The stops at the top of the list below have the fullest listing, each showing toilets, drinking water, shelter, picnic tables, a heavy vehicle area and an accessible toilet. A few towns appear more than once: Barcaldine has five entries, and Boulia and Ilfracombe two each, so use the map to pick the one on your road. Entries in the same group, from Longreach, Tambo and Kynuna to Bedourie and Goondiwindi, show how widely the well-equipped stops are spread across the state.",
+      "A heavy vehicle area is listed at 548 records, or 46 per cent, so at close to half the stops you share the parking with trucks. Accessible toilets are listed at 186. On staying the night, the dataset is silent. Overnight rules vary from place to place, so read the signs on site, look up the rules from Queensland TMR or the local council, and use the camping-rules guide for Queensland linked on this page."
+    ],
+    "rest-areas/tasmania": [
+      "Tasmania’s list is short: 81 rest areas in the national dataset, across 59 named localities. The Midland Highway has the most with 16, followed by the Bass Highway (14) and the Lyell Highway (12), with the Tasman Highway (5) and the Huon Highway (4) well behind. If your route runs along one of the first three, you will pass about half of the state’s mapped stops.",
+      "Facilities are thinly listed. Toilets appear at only 5 sites, picnic tables at 6 and barbecues at 3, each under a tenth of the total. That may say as much about what the source records as about what is on the ground, but for planning you should treat most of these as simple pull-offs and look for toilets in towns.",
+      "Only a handful of places stand out at the top of the list below. Parramatta Creek Rest Area at Sassafras and St Peters Pass at Oatlands list toilets, picnic tables and barbecues; Conara lists picnic tables and barbecues; Fossey River Rest Area at Guildford and Hellyer Gorge Rest Area at Parrawe list toilets and picnic tables. Further down, most entries list only a heavy vehicle area, and names such as Campbell Town Weighbridge, Hayes Weighbridge and Howth Weighbridge are a reminder that many of these bays serve trucks first. Paramatta Creek rest area also appears as its own entry, so check the map before assuming two names mean two places.",
+      "A heavy vehicle area is listed at 36 sites, 44 per cent, which means sharing the bay with trucks. Before you plan a night at any of them, know that the dataset records nothing about overnight stays. Rules vary by site, so check the signs, the state road agency or the council, and the camping-rules guide for Tasmania linked on this page."
+    ],
+    "rest-areas/victoria": [
+      "Victoria’s 651 national rest areas are spread over 428 named localities, a fine grain that makes the locality column the quickest way to match a stop to a town on your route. The Murray Valley Highway leads with 38, but the next four sit close behind: Princes Highway West with 35, Princes Highway East with 34, the Western Freeway with 33 and the Calder Highway with 29. No single road dominates the count.",
+      "The facilities profile here is unusual. Barbecues are listed at 333 sites (51 per cent) and drinking water at 325 (50 per cent), both well ahead of toilets at 184 (28 per cent). Picnic tables lead at 391, or 60 per cent. In practice many stops are set up for a lunch break with water listed, but do not assume a toilet is there unless the place entry lists one. Accessible toilets are listed at 86 sites.",
+      "The places below are the entries with the most listed facilities, and most carry the full set of toilets, drinking water, picnic tables, barbecues, a heavy vehicle area and an accessible toilet. Glenrowan Rest Area, Pink Lake Rest Area under Dimboola, Lawloit Rest Area under Nhill and Coach Road Rest Area under Avenel are good examples. Some names repeat, such as Bungaree rest area and Benalla rest area, because the source holds separate records at nearby points. Check the dot on the map to see which one you are heading for.",
+      "A heavy vehicle area is listed at 290 stops, 45 per cent of the total. At those you share the space with trucks, so keep clear of the area set aside for them and leave room for long vehicles to pull out. The data has nothing to say about overnight stays. Rules differ by site and by whoever manages it, so read the signs on arrival, check with the state road agency or the local council, and open the camping-rules guide for Victoria linked on this page."
+    ],
+    "rest-areas/western-australia": [
+      "Western Australia holds 1,650 rest areas in the national dataset, plus 11 more from Main Roads WA that sit over 250 m from a national record. The Great Northern Highway alone accounts for 254 and the North West Coastal Highway for 159, so those two roads carry a large share of the state’s stops. After them come the Great Eastern Highway (91), the South Western Highway (73) and the Albany Highway (72).",
+      "For most WA stops the source lists little beyond the bay itself. Toilets are listed at 128 sites (8 per cent), picnic tables at 146 (9 per cent) and shelter at 220 (13 per cent). The more useful number for many drivers is the sealed surface, listed at 690 sites or 42 per cent. Where a seal is not listed, check the place before taking a long caravan off the bitumen, and plan toilet and water stops around towns rather than these bays.",
+      "The places below are the stops with the most listed facilities, and many add a dump point, which the source lists at only 32 sites statewide. Beasly Creek, House Creek, Robe River and Yannarie River (all under Ashburton), Edagee, Lyndon River and Yalabia (under Carnarvon) and Galena North and Galena South (under Northampton) each list toilets, shelter, picnic tables, an accessible toilet and a dump point. Accessible toilets are listed at 60 sites in all, so these few are worth marking on your route.",
+      "A heavy vehicle area is listed at 222 sites, 13 per cent, but a missing listing does not mean trucks stay away, and any bay beside a freight route may be shared. As for sleeping over, the data does not cover it at all. Rules vary between sites and managers, so read the signage, check Main Roads WA or the shire, and open the camping-rules guide for Western Australia linked on this page."
+    ]
+  }
+}

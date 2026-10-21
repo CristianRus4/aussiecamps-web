@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import meta from "../data/hubs.meta.json";
 import { SITE_URL, sitePath } from "../site";
+import { alternatesFor } from "../seo";
 import { builtHubs, hubData, hubProse, hubVerdicts, indexableHubs, type Hub, type HubKind } from "./gate";
 
 /**
@@ -43,7 +44,7 @@ export const hubById = new Map(hubData.hubs.map((hub) => [hub.id, hub]));
 export const isIndexable = (hub: Hub) => hubVerdicts.get(hub.id)!.indexable;
 export const sectionPath = (section: HubSection) => sitePath(`/${section}`);
 export const hubPath = (hub: Hub) => sitePath(hub.path);
-/** Manifest page keys; English only for now, so each key has one edition. */
+/** Manifest page keys, shared by every language edition of a hub (see lib/hubs/localized.ts). */
 export const hubPageKey = (hub: Hub) => `hubs/${hub.id}`;
 export const sectionPageKey = (section: HubSection) => `hubs/${section}`;
 
@@ -101,7 +102,8 @@ export function hubMetadata(hub: Hub): Metadata {
   return {
     title,
     description,
-    alternates: { canonical: hubPath(hub) },
+    // hreflang only once a second edition is indexable (the translated hubs are behind a switch).
+    alternates: { canonical: hubPath(hub), languages: indexable ? alternatesFor(hubPageKey(hub)) : undefined },
     openGraph: { type: "website", siteName: "AussieCamps", locale: "en_AU", title, description, url: `${SITE_URL}${hubPath(hub)}`, images: [{ url: "/images/aussie-og.webp", alt: "AussieCamps" }] },
     robots: { index: indexable, follow: true, googleBot: { index: indexable, follow: true, "max-image-preview": "large", "max-snippet": -1 } },
   };
@@ -113,7 +115,7 @@ export function sectionMetadata(section: HubSection): Metadata {
   return {
     title: copy.indexTitle,
     description: copy.indexDescription,
-    alternates: { canonical: sectionPath(section) },
+    alternates: { canonical: sectionPath(section), languages: indexable ? alternatesFor(sectionPageKey(section)) : undefined },
     openGraph: { type: "website", siteName: "AussieCamps", locale: "en_AU", title: copy.indexTitle, description: copy.indexDescription, url: `${SITE_URL}${sectionPath(section)}`, images: [{ url: "/images/aussie-og.webp", alt: "AussieCamps" }] },
     robots: { index: indexable, follow: true, googleBot: { index: indexable, follow: true, "max-image-preview": "large", "max-snippet": -1 } },
   };
