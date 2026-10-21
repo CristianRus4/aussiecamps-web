@@ -13,7 +13,7 @@ export default article({
   description: "Yes, on Aboriginal land off public roads. Permits cover roads like the Great Central Road, and camping is allowed only at named sites. Rules by state, 2026.",
   category: "Rules & safety", region: "Australia",
   places: ["Great Central Road", "Mereenie Loop", "Anne Beadell Highway", "Cape York", "Kakadu"],
-  imageAlt: "Placeholder: a 4WD on a red dirt road through Aboriginal land in Central Australia",
+  imageAlt: "A red dirt road running through desert scrub towards Kata Tjuta on Tjukaruru Road in the Northern Territory",
   intro: "Yes, for Aboriginal land off public roads: it is private land, and you need a permit from the land council or Aboriginal body to enter it, travel its roads such as the Great Central Road, or stay overnight. Passing through a community on a public road needs no permit to reach its public areas such as the store, and where camping is allowed on Aboriginal land it is at designated sites that the permit or park names.",
   related: ["responsible-camping-australia", "camping-rules-northern-territory", "camping-rules-western-australia", "red-centre-way-camping"],
   sections: [

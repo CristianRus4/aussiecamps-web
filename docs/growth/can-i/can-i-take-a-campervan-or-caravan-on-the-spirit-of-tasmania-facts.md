@@ -35,3 +35,25 @@ Checked 2026-10-21. Page answer: Yes, if you declare exact length and height, ke
 - The fare page's campervan height bands (under 2 m, over 2.1 m) leave 2.0 to 2.1 m undefined; not used on the page.
 - Existing guide tasmania-camping-loop says fares are set by vehicle length and height; TT-Line says height does not change the price. Not edited.
 - Third-party blogs give a 9 kg gas limit; the official policy gives 25 kg (50 L water capacity) as the caravan allowance and 9 kg for open trailers (the extract also shows "9 kg (25 L)").
+
+## FACT-CHECK 2026-10-21
+
+Independent re-check against the official pages (opened again 2026-10-21): TT-Line dangerous goods, fare structure, measure-your-vehicle, preparing-for-sailing, sailing schedule, caravanning tips, Spirit Quay Devonport, media release of 15 September 2026, vehicle booking PDF (text extracted); Biosecurity Tasmania Spirit of Tasmania, food and traveller's guide index pages.
+
+Verified: about 40 claims (gas 25 kg / 50 L, AS2468/9/70, 10-year inspection, HAZARD tag, propane on appliance not permitted, diesel-only 50 L jerry cans; length and height inclusions; 0.01 to 7.00 m band plus per extra metre; no extra charge for height; contact centre 1800 634 906, Mon to Sat 10am to 6pm, email; 10 to 11 months advice; forward and return booking; caravan off limits; no vehicle-deck access at sea; hydatid within 14 days; cabins include bedding, linen, towels; check-in 1.5 to 2.5 hours before and closes 45 minutes before; 31 October 2026 inaugural sailings, Spirit IV from Geelong and V from Devonport; bookings opened 16 September; more than 3 times caravan capacity; pet cabins for up to two pets; fresh fruit and veg list; cooked/canned/dried allowed; honey restricted; Geelong questions, Notice to Stop, Devonport inspectors, random checks; officer makes final decision; penalties may apply; AussieCamps Tasmania 27 campgrounds and 80 dump points).
+
+Corrected (before -> after):
+- Kennel "$22 each way" -> removed. Neither the fare page ("use Find a Fare"), the pets page nor preparing-for-sailing shows a price; a search extract was the only source. Replaced with "the price is shown when you book"; tip now "No pet visits at sea". Kennels "on ventilated decks" -> "in a ventilated area" (fare page: dedicated, ventilated area on Deck 7 on the new ships).
+- "TT-Line says it opens bookings about 11 months ahead" -> "Its 2026 release says bookings can be made up to 12 months ahead" (release of 15 September 2026; the 2023 PDF says about 11 months). What-to-do-instead now cites the 10 to 11 months advice instead.
+- "You get a Notice to Stop at Geelong" / "A vehicle gets a Notice to Stop sticker" -> "may be given" / "may get" (Biosecurity Tasmania: "may be placed"); inspectors page wording "make yourself known ... for a second inspection".
+- "Declare if unsure" (table cell and tip) -> "If in doubt, leave it at home" / "Leave risk items at home" (Biosecurity Tasmania says leave risk items at home; it does not use "declare").
+- "new Spirit Quay terminal at East Devonport" -> "at Devonport, which TT-Line expected to be operational by late 2026" (the Spirit Quay page gives no suburb and says operational by late 2026).
+- Length: "6.0 metres as the maximum for its standard vehicle category" -> maximum total length 6.0 m is shown for standard vehicles and for campervans/motorhomes, while "vehicles towing caravans or camper trailers and motorhomes/campervans with or without towed unit" are priced 0.01 to 7.00 m plus per extra metre. Wording now says so.
+
+Removed: kennel price; "East Devonport" for Spirit Quay; "declare" wording.
+
+Official-source disagreements:
+- Fare page lists 6.0 m maximum for campervans/motorhomes but a 0.01 to 7.00 m band for motorhomes with or without a towed unit: https://www.spiritoftasmania.com.au/sailing-fares/booking-information . Page tells readers to phone the contact centre.
+- Booking lead time: PDF "approximately 11 months" (https://www.spiritoftasmania.com.au/wp-content/uploads/2024/12/vechicle-booking-information_june-2023.pdf) versus release "up to 12 months" (https://www.spiritoftasmania.com.au/media-releases/spirit-of-tasmania-adds-new-accommodation-and-capacity-ahead-of-inaugural-sailings/). Both now stated.
+- Kennels: preparing-for-sailing page says "ventilated decks"; fare page says Deck 7 ventilated area on the new ships.
+- Not confirmed: whether the 31 October sailings are still on (search extracts through early to mid October say on target; a trial schedule of 24 to 30 October was reported).

@@ -13,7 +13,7 @@ export default article({
   description: "It depends, and often no. Most Queensland and NSW parks ban generators unless a sign allows them, with set hours in WA and Tasmania. Rules by state, 2026.",
   category: "Rules & safety", region: "Australia",
   places: ["National parks", "State forests", "Rest areas", "Holiday parks"],
-  imageAlt: "Placeholder: a small quiet generator beside a campsite at an Australian campground",
+  imageAlt: "Caravans and tents under trees and palms at the Eighty Mile Beach caravan park on the north-west coast of Western Australia",
   intro: "It depends, and in most parks the answer is no: Queensland says generators are not permitted in most parks and forests, and NSW generally does not permit them unless a sign or the park manager allows it. Where they are allowed it is campground by campground, within set hours, so read the sign or the park's own page before you bring one.",
   related: ["responsible-camping-australia", "campfires-camping-australia", "caravan-park-vs-holiday-park", "camping-rules-queensland"],
   sections: [

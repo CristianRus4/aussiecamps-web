@@ -13,7 +13,7 @@ export default article({
   description: "It depends on the sign and the state. Queensland allows 20 hours unless signed, WA 24 hours only where signed. Rest area time limits by road authority, 2026.",
   category: "Rules & safety", region: "Australia",
   places: ["Highway rest areas", "Heavy vehicle rest areas", "Roadside stops", "Caravan parks"],
-  imageAlt: "Placeholder: a campervan parked in a signed highway rest area at dusk",
+  imageAlt: "A roadside rest area on the New England Highway at Bolivia, New South Wales, with toilet blocks, bins and a rock outcrop behind the gum trees",
   intro: "It depends on the road authority and the sign: Queensland allows up to 20 hours at a rest area unless a sign says otherwise, and Western Australia allows up to 24 consecutive hours only at rest areas signed for overnight stops. Elsewhere the sign and the local council decide, and Queensland, Western Australia and NSW all say rest areas are not for camping.",
   related: ["sleeping-in-car-australia", "is-free-camping-legal-australia", "towing-caravan-australia-road-rules", "camping-rules-western-australia"],
   sections: [

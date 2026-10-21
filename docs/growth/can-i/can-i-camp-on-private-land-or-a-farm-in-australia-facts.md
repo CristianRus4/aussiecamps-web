@@ -28,3 +28,20 @@ Checked 2026-10-21. Page answer: Yes, with the owner's permission; hosts may als
 ## CONFLICTS
 
 - None with existing guides found. The NSW farm stay exemption elsewhere (a council page, not opened) adds RU1 or RU4 zoning and a farmland rating test; the NSW Planning page does not mention zones, so the page does not state them.
+
+## FACT-CHECK 2026-10-21
+
+Re-opened: NSW practice note PDF (text extracted, full text), NSW agritourism page, City of Kwinana page, WA Government media statement, Mount Alexander Shire page, Consumer Affairs Victoria page, Legal Aid Queensland page. Search extracts only (unchanged): NSW Inclosed Lands Protection Act (legislation.nsw.gov.au 403), NSW RFS Total Fire Ban rules (403), WA regulations text (version at 1 September 2024; search extract of reg 11(1)(a) and (aa) agrees with the earlier PDF read).
+
+Verified: about 24 claims (NSW two caravans/campervans/tents, 2 days at a time, 60 days in 12 months, landowner's permission; NSW s 68 LG Act, SEPP consent, s 626 offence, s 9.34 order; primitive camping grounds water, toilet, refuse and average two sites per hectare; temporary camping grounds; 15 ha, 20 people, 21 days, 6 m tents; WA 5 nights in 28 days, written approval beyond that, 24 months, Kwinana owner-approval wording, regular camping becomes caravan park; Queensland trespass one year imprisonment, police discretion, houses/yards/business premises only; CAV park registration; 1,838 campgrounds and 745 national parks).
+
+Corrected (before -> after):
+- Victoria row: "requires a permit to camp on land without a dwelling that is not an approved camping ground" (omitted the council's own change) -> adds that a Local Law 13 change lets people camp in caravans or tiny homes on wheels without a permit, conditions not listed on the page. "A park that takes campers can need caravan park registration" -> "A park must be registered as a caravan park with the council" (CAV wording).
+- NSW farm stay: "without planning or building approval, with tents 6 metres from buildings and vans" -> "if requirements including tents 6 metres from buildings and vans are met" (page says "certain requirements, including"); FAQ adds "with other requirements to meet".
+- WA row: "written approval from the local government, for up to 24 months" -> "from the local government (up to 24 months) or the Minister" (reg 11(1)(aa)).
+- "More than one caravan on the property needs special approval" -> attributed: "The WA Government says special approval is still required for more than one caravan on a single lot" (media statement wording).
+- Fire: "the exception for gas cookers has conditions" -> "gas barbecues" (RFS wording is gas barbecue; no cooker exemption confirmed).
+
+Removed: none outright.
+
+Official-source disagreements: none found. Notes: the NSW exemption is from council approval under the Local Government Act only (practice note), and the practice note says nothing about development consent for the two-caravan case; the page does not claim it. The Kwinana page says more than one caravan makes the site a caravan park needing development and building approvals, while the WA Government statement says "special approval"; page uses the WA Government wording. Mount Alexander page links a news item on Local Law 13 but gives no conditions.
