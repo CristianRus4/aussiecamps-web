@@ -4,8 +4,8 @@ Lane: seasonal pages (Linear CNTXT-873). Branches `growth/a-seasonal` (aussiecam
 
 | # | Site | Slug | publishAt | Status |
 |---|---|---|---|---|
-| 1 | AU | `christmas-summer-camping-australia-2026-27` | 2026-10-31 | research running |
-| 2 | AU | `wet-season-camping-top-end-northern-wa` | 2026-11-01 | research running |
+| 1 | AU | `christmas-summer-camping-australia-2026-27` | 2026-10-31 | committed, opus fact-check applied |
+| 2 | AU | `wet-season-camping-top-end-northern-wa` | 2026-11-01 | committed, opus fact-check applied |
 | 3 | NZ | `christmas-summer-camping-new-zealand-2026-27` | 2026-11-02 | not started |
 | 4 | NZ | `new-years-eve-summer-event-camping-new-zealand` | 2026-11-03 | not started |
 
@@ -18,3 +18,7 @@ Lane: seasonal pages (Linear CNTXT-873). Branches `growth/a-seasonal` (aussiecam
 
 ## Next
 - Collect facts, draft pages, fact-check with opus medium, schedule, changelog, checks.
+
+## Done (AU)
+- Both AU pages committed with facts files and fact-check reports in docs/growth/seasonal/. 13 existing guides link to them (English only, one sentence each; every sentence differs because the similarity audit rejects shared skeletons). `npm run check`: all pass except tests/rendered-html.test.mjs guide count (main expects 80, branch has 82; protected file, orchestrator bumps it).
+- Open facts still resting on search extracts (Queensland Parks and NT Government block automated reads): Queensland K'gari 14-day forward booking limit, NT stinger season, NT booking window. The page says so or hedges.
