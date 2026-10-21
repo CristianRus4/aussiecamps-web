@@ -37,6 +37,7 @@
 - **Property:** sc-domain:aussiecamps.app.
 - **Sitemap:** https://aussiecamps.app/sitemap.xml was submitted or resubmitted on 2026-10-19. Before that, the sitemap was either never submitted (aussiecamps) or last read on 20 Nov 2025 (campingapp).
 - **Baselines:** `docs/growth/gsc/2026-10-19/`.
+- **2026-10-21 (all 15 locales live):** sitemap index resubmitted (436 URLs discovered); locale sitemaps Success (ja 82, ko 82, zh-hans 82, zh-hant 81, cs 58, pl 45, da 82, sv 82, nb 82). Validate fix started for "Excluded by 'noindex' tag" (116 pages); pages report: 482 indexed, 227 not indexed. Indexing requested for /guides/wikicamps-alternatives/; the quota stopped the rest (carried to 22 Oct). Bing: sitemap resubmitted (326 URLs processing), 10 URLs submitted.
 
 ## Naver Search Advisor (Korean search)
 - Ownership verified for https://aussiecamps.app on 2026-10-21 with the HTML meta tag (`naver-site-verification` in the root layout's `metadata.other`; keep it).
