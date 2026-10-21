@@ -26,6 +26,7 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "best-money-saving-travel-apps-australia", section: 1, src: "/images/screens/best-money-saving-travel-apps-australia.webp", alt: "AussieCamps on iPhone: the Coffin Bay National Park page with its features and reported prices per night and per vehicle" },
   { slug: "hipcamp-alternatives", section: 2, src: "/images/screens/hipcamp-alternatives.webp", alt: "AussieCamps on iPhone: the Mount Buffalo National Park page in Victoria with its description and amenities" },
   { slug: "best-camping-app-australia", section: 1, src: "/images/screens/best-camping-app-australia.webp", alt: "AussieCamps on iPhone: the Karijini National Park page with its amenities and features" },
+  { slug: "wet-season-camping-top-end-northern-wa", section: 8, src: "/images/screens/wet-season-camping-top-end-northern-wa.webp", alt: "AussieCamps on iPhone: the Litchfield National Park page in the Northern Territory with its photos and a 7-day forecast from Apple Weather" },
 ];
 
 const images = manifest as Record<string, unknown>;
