@@ -53,6 +53,8 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "brisbane-to-byron-bay-drive", section: 7, src: "/images/screens/brisbane-to-byron-bay-drive.webp", alt: "AussieCamps on iPhone: the Walgun Cape Byron State Conservation Area page in New South Wales, with its description of the lighthouse and walking tracks, its Lighthouse Road address and its reported prices" },
   { slug: "darwin-to-alice-springs-drive", section: 8, src: "/images/screens/darwin-to-alice-springs-drive.webp", alt: "AussieCamps on iPhone: the Darwin, Kakadu and Litchfield camping loop on the map around Darwin, with the 7-day weather forecast below it" },
   { slug: "cairns-to-darwin-drive", section: 7, src: "/images/screens/cairns-to-darwin-drive.webp", alt: "AussieCamps on iPhone: the Darwin, Kakadu and Litchfield camping loop road trip guide, with its trip length of 7 days, the dry season to plan around and the park pass to book ahead" },
+  { slug: "perth-to-exmouth-drive", section: 7, src: "/images/screens/perth-to-exmouth-drive.webp", alt: "AussieCamps on iPhone: the Perth to Broome camping road trip guide, with its trip length of 14 to 21 days, the fuel range between towns to plan around and the Save all mentioned places button" },
+  { slug: "broome-to-darwin-drive", section: 7, src: "/images/screens/broome-to-darwin-drive.webp", alt: "AussieCamps on iPhone: the Karijini National Park place page in Western Australia, with a notes field, a 7-day weather forecast and the useful places nearby" },
 ];
 
 const images = manifest as Record<string, unknown>;
