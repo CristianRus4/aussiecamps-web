@@ -231,6 +231,17 @@ export const consentStrings = {
   learnMore: "Privacy policy",
   privacyChoices: "Privacy choices",
 } as const;
+/**
+ * The home page's "Summer 2026-27" block. Its own namespace for the same reason as the consent bar:
+ * each string falls back to English on its own, so a language is never unpublished for lacking it.
+ */
+export const summerStrings = {
+  eyebrow: "Summer 2026-27",
+  title: "Planning for summer and Christmas?",
+  text: "Booking windows, fire rules and the wet season, ahead of the holidays.",
+} as const;
+export type SummerKey = keyof typeof summerStrings;
+export type SummerStrings = Record<SummerKey, string>;
 export type ConsentKey = keyof typeof consentStrings;
 export type ConsentStrings = Record<ConsentKey, string>;
 
