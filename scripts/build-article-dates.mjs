@@ -37,9 +37,12 @@ const contentDir = join(ROOT, "lib/content");
 // One module per "Can I...?" page (lib/can-i/<slug>.ts); helpers.ts has no slug, so it dates nothing.
 const canIDir = join(ROOT, "lib/can-i");
 const canIFiles = existsSync(canIDir) ? readdirSync(canIDir).filter((name) => name.endsWith(".ts")).map((name) => `lib/can-i/${name}`) : [];
+// One module per drive guide (lib/drives/<slug>.ts), the same way.
+const driveDir = join(ROOT, "lib/drives");
+const driveFiles = existsSync(driveDir) ? readdirSync(driveDir).filter((name) => name.endsWith(".ts")).map((name) => `lib/drives/${name}`) : [];
 const files = (existsSync(contentDir)
   ? readdirSync(contentDir).filter((name) => name.endsWith(".ts")).map((name) => `lib/content/${name}`)
-  : ["lib/expanded-articles.ts", "lib/site.ts"]).concat(canIFiles);
+  : ["lib/expanded-articles.ts", "lib/site.ts"]).concat(canIFiles, driveFiles);
 
 /**
  * Every article's source, keyed by slug: from its own `slug: "…"` to the start of the next one, or
