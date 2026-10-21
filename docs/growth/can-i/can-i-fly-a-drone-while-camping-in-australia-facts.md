@@ -25,3 +25,28 @@ All checked 2026-10-21. "Opened" = fetched in full. "Search extract" = the offic
 ## CONFLICTS
 - DBCA's own licences-and-permits page (search extract) says flying over national parks needs DBCA permission, while the DBCA Drones in parks page (opened) says recreational use needs no approval. The page follows the Drones in parks page and says to contact the district office before each flight.
 - camping-rules-queensland and camping-rules-victoria (drones banned in Queensland camping areas; Wilsons Promontory bans drones) are consistent with the sources found.
+
+## FACT-CHECK 2026-10-21
+
+Independent re-check of every claim in the page (about 55 claims: CASA rules, 10 table rows, 4 FAQ answers, section text, app claims).
+
+### Verified
+- Opened in full (official text): NSW NPWS drones in parks (approval to launch, land or fly; exclusion areas; may refuse or add conditions; alerts override approval; Kosciuszko not permitted), Parks Victoria safety tips (not allowed; may be fined; wildlife and visitors), SA NPWS drones and aircraft (offence over national parks, conservation parks, game reserves, recreation parks, regional reserves; permits only for research and commercial filming), WA DBCA drones in parks (no approval for recreational; conditions; district office before each flight; Swan Canning permit), Tasmania PWS (not permitted on reserved land incl. national parks; exceptions commercial/event filming and research; wildlife, visitors, privacy, safety reasons), Kakadu permits (prohibited; no recreational permits; NT permits not valid), Uluru permits (no-drone park; exceptional circumstances after CLC consultation).
+- Search extract only (official page blocked: casa.gov.au timed out for fetch and curl; parks.qld.gov.au, parks.act.gov.au, nt.gov.au return 403): CASA rules (no licence/accreditation, registration over 250 g paused, 120 m, 30 m, populous area examples, daylight, line of sight, one drone, 5.5 km airport over 250 g), Queensland (drones prohibited in all camping areas in protected areas, recreation areas and forests; store in container in vehicle or vessel; restriction areas signed; Lake McKenzie alert confirms restriction-area offence), ACT (all Nature Conservation Act 2014 reserves prohibited), NT (recreational permit depends on park; free; 12 months; some sites limited; NT permit not for Kakadu/Uluru).
+- AussieCamps claims: 1,838 campgrounds and 745 national parks match lib/data/product-facts.json; place details readable offline, iPhone only, facilities/fees/rules/access notes on place pages match docs/growth/listicles/au-app-facts.md. No pricing, no legal/fire status, no offline map claim.
+
+### Corrected
+- NSW table cell "none in Kosciuszko" (ambiguous, could read as no approval needed) -> "not permitted in Kosciuszko" (https://www.environment.nsw.gov.au/topics/parks-reserves-and-protected-areas/park-policies/drones-in-parks).
+- SA table cell "national parks and most reserves" -> lists the five reserve types the official page names (https://www.parks.sa.gov.au/permits-and-licences/drones-and-aircraft).
+- NT table cell and NT paragraph "some prohibit drones" -> "some sites have flying limits" (official extract names site limits, e.g. Finke Gorge lookout, Litchfield falls areas; a park-wide prohibition was not confirmed) (https://nt.gov.au/parks/permits-for-parks/permits-to-use-aircraft-and-drones-in-parks).
+- NT "an NT permit must come before you arrive" -> "any NT permit has to be in hand before you fly".
+- App claim "land manager's facilities, fees and rules as the park agency publishes them" -> "facilities, fees, rules and access notes drawn from park agencies, road authorities and public datasets" (au-app-facts.md data sources); tip "Rules from the land manager" -> "Notes on each place page".
+
+### Removed as unverifiable
+- "the Parks ACT Namadgi page says drones are not permitted there" (Namadgi page not opened; replaced by "reserves, which include Namadgi", following the ACT all-reserves rule).
+
+### Open disagreements and uncertainties
+- Queensland: one QPWS regulations page (https://parks.qld.gov.au/management/regulations) was described in a search extract as presenting the camping-area drone ban as a proposal, while https://parks.qld.gov.au/camping/legal-requirements and https://parks.qld.gov.au/before-you-visit/visit-with-care/drone-safety present it as in force. The page follows the in-force pages; escalate to confirm.
+- WA: https://exploreparks.dbca.wa.gov.au/drones-parks (opened, no approval needed) versus DBCA licences-and-permits page extract (flying over national parks needs permission). Unchanged from the CONFLICTS above.
+- CASA: an April 2026 CASA consultation (PP 2609US) proposes changes to flying near people for 250 g or less drones; no evidence it is in force, so the 30 m rule stands.
+- Dollar amounts and fines: none stated on the page.
