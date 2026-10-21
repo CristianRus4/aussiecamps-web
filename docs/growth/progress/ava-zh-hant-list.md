@@ -29,6 +29,11 @@ money-saving-travel-apps-new-zealand: none done yet.
 ## Resume 2026-10-21 (second session)
 Merged origin/main into both worktrees, ran locales:sync + translations:source (clean). Regenerated inputs in /tmp/ava-zh. Drafting best-apps-working-holiday, best-weather, best-money-saving (AU) in parallel; hipcamp then KiwiCamping (11, progress file to be created in the K worktree).
 
+## LANE COMPLETE 2026-10-21
+All 10 AU and all 11 NZ listicles translated, reviewed, negation-checked, stamped; zh-hant now 80/80 AU guides and 89/89 NZ guides.
+
 ## Blockers / notes
 Flagship best-camping-app-australia (zh-hant) still uses 我們 for the company in its closing line (found by reviewers); not touched here, orchestrator may want a pass.
 Owner disclosure: use 本文作者開發的 App, never 本站團隊. Owner disclosure wording across pages: 本文作者開發的 App; corrections line ends 「AussieCamps 會更正」.
+
+Flagship best-nz-camping-apps (zh-hant) also still uses 我們 in its disclosure (found by reviewers); not touched here.
