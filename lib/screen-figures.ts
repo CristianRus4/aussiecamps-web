@@ -27,6 +27,7 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "hipcamp-alternatives", section: 2, src: "/images/screens/hipcamp-alternatives.webp", alt: "AussieCamps on iPhone: the Mount Buffalo National Park page in Victoria with its description and amenities" },
   { slug: "camps-australia-wide-alternatives", section: 2, src: "/images/screens/camps-australia-wide-alternatives.webp", alt: "AussieCamps on iPhone: the Ikara-Flinders Ranges National Park page with its amenities and features, including Camping and Caravan Sites, and its reported prices" },
   { slug: "best-apps-lap-of-australia", section: 2, src: "/images/screens/best-apps-lap-of-australia.webp", alt: "AussieCamps on iPhone: the Guides list with the Tasmania camping loop, the Darwin, Kakadu and Litchfield camping loop and the Adelaide to Uluru outback route" },
+  { slug: "best-dump-point-toilet-apps-australia", section: 2, src: "/images/screens/best-dump-point-toilet-apps-australia.webp", alt: "AussieCamps on iPhone: the Mount Field National Park page in Tasmania with its facilities, including Picnic Tables, Toilets and a Visitor Centre" },
   { slug: "best-camping-app-australia", section: 1, src: "/images/screens/best-camping-app-australia.webp", alt: "AussieCamps on iPhone: the Karijini National Park page with its amenities and features" },
 ];
 

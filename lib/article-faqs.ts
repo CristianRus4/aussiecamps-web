@@ -246,6 +246,12 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Do I need offline maps for a lap of Australia?", "Yes for the remote sections. Tourism Australia says Nullarbor services are often 150 to 200 km apart, and phone coverage can end well before them. Download maps in Google Maps, CAMPS or ExplorOz before you leave coverage."],
     ["Is there an app that plans the whole Big Lap?", "No single app plans every part. AussieCamps builds a trip of ordered stops with driving distance and time for each leg and forecasts for your arrival dates, and Google Maps limits a route to 9 stops, so a full lap is split into several routes."],
   ],
+  "best-dump-point-toilet-apps-australia": [
+    ["What is the best app for finding dump points in Australia?", "For one dedicated app, Caravan Helper is a A$4.99 dump point finder with community checks. Camping apps such as AussieCamps, WikiCamps and CAMPS list dump points beside campgrounds, and the National Public Toilet Map is the free official source."],
+    ["Is there a free app for public toilets in Australia?", "Yes. The National Public Toilet Map app is free, is run with the Australian Government's data and covers more than 23,000 facilities, with accessibility detail, opening hours and sharps disposal."],
+    ["Do dump points cost money in Australia?", "It varies. Many council dump points are free, and some park-run ones charge a small fee. Check the fee and whether a key is needed in the app or on the council page before you arrive."],
+    ["Do dump point apps work offline?", "Some do. WikiCamps has an Offline Mode, CAMPS has downloadable offline maps, CamperMate lets you download maps, and AussieCamps keeps place details on the phone while its map and directions need signal. Convenience and Caravan Helper do not state their offline behaviour."],
+  ],
   "hipcamp-alternatives": [
     ["What is like Hipcamp in Australia?", "For bookable stays, AussieCamps lists farm and station stays and holiday parks from BookEasy, and G'day Parks books its own holiday parks. For public camping, AussieCamps, WikiCamps, CAMPS and CamperMate cover national park campgrounds and free camps, and each state's park agency takes bookings directly."],
     ["How do I book a national park campsite in Australia?", "Through the park agency for that state or territory, such as NSW National Parks, Parks Victoria or Queensland Parks and Wildlife Service. In Queensland, every camp in a national park, state forest or recreation area needs a permit booked before you arrive."],

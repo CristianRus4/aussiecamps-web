@@ -41,3 +41,4 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-10-30 | hipcamp-alternatives | scheduled |
 | 2026-11-02 | camps-australia-wide-alternatives | scheduled |
 | 2026-11-03 | best-apps-lap-of-australia | scheduled |
+| 2026-11-04 | best-dump-point-toilet-apps-australia | scheduled |
