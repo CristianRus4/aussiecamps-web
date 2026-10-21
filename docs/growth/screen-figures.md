@@ -23,6 +23,7 @@ followed by that section's heading. Source screenshots are in `~/Marketing/Campi
 | best-money-saving-travel-apps-australia | 1 (1. AussieCamps: cut what you pay for a bed) | aussiecamps_place-detail_coffin-bay-np_middle.png | AussieCamps on iPhone: the Coffin Bay National Park page with its features and reported prices per night and per vehicle |
 | hipcamp-alternatives | 2 (1. AussieCamps: public campgrounds and farm stays in one app) | aussiecamps_place-detail_mount-buffalo-np_top.png | AussieCamps on iPhone: the Mount Buffalo National Park page in Victoria with its description and amenities |
 | best-camping-app-australia | 1 (1. AussieCamps: best for official data and trip planning on iPhone) | aussiecamps_place-detail_karijini-np_top.png | AussieCamps on iPhone: the Karijini National Park page with its amenities and features |
+| christmas-summer-camping-australia-2026-27 | 7 (Using AussieCamps over summer) | aussiecamps_place-detail_big4-rainbow-beach-hp_top.png | AussieCamps on iPhone: the BIG4 Rainbow Beach Holiday Park page in Queensland with its address, hours and Book now button |
 | wet-season-camping-top-end-northern-wa | 8 (Using AussieCamps in the wet) | aussiecamps_place-detail_litchfield-np_middle.png | AussieCamps on iPhone: the Litchfield National Park page in the Northern Territory with its photos and a 7-day forecast from Apple Weather |
 
 `best-fuel-price-apps-australia` is the one exception to "the section whose heading names AussieCamps":
