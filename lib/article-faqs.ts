@@ -261,7 +261,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
   "exploroz-alternatives": [
     ["What is the best alternative to ExplorOz?", "For offline topographic maps, Hema 4WD Maps and Newtracs are the closest, and CAMPS and WikiCamps add offline camp data. AussieCamps is not an offline map, but it keeps rest area, dump point and water details readable on the phone."],
     ["How much does ExplorOz cost?", "ExplorOz Traveller costs A$59.99. Full offline EOTopo maps are in-app purchases: Pro Access at A$99.99 a year, EOTopo Annual Access at A$59.99 a year, or a 4-year edition at A$79.99 once."],
-    ["Is there a free alternative to ExplorOz?", "Newtracs is free to download with a paid Premium tier, and Google Maps, Apple Maps and Organic Maps are free with offline areas. None of them grades 4WD tracks the way ExplorOz does."],
+    ["Is there a free alternative to ExplorOz?", "Newtracs is free to download with a paid Premium tier and shows track difficulty ratings. Google Maps, Apple Maps and Organic Maps are free with offline areas, and are best kept as a backup in remote country."],
     ["Which apps work without phone signal in the outback?", "ExplorOz, Hema 4WD Maps, Newtracs, CAMPS and WikiCamps all have offline modes or downloadable maps. AussieCamps keeps place details on the phone, but its map, directions and weather need signal."],
   ],
   "hipcamp-alternatives": [
