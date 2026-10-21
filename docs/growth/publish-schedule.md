@@ -74,3 +74,7 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-12-02 | working-holiday-road-trip-budget-australia-2026 | scheduled |
 | 2026-12-03 | campervan-vs-caravan-australia | scheduled |
 | 2026-12-04 | powered-vs-unpowered-sites-australia | scheduled |
+| 2026-12-05 | adelaide-to-melbourne-drive | scheduled |
+| 2026-12-06 | brisbane-to-cairns-drive | scheduled |
+| 2026-12-08 | perth-to-albany-drive | scheduled |
+| 2026-12-09 | perth-to-margaret-river-drive | scheduled |

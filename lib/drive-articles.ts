@@ -9,13 +9,17 @@ import page7, { faq as faq7 } from "@/lib/drives/darwin-to-alice-springs-drive";
 import page8, { faq as faq8 } from "@/lib/drives/cairns-to-darwin-drive";
 import page9, { faq as faq9 } from "@/lib/drives/perth-to-exmouth-drive";
 import page10, { faq as faq10 } from "@/lib/drives/broome-to-darwin-drive";
+import page11, { faq as faq11 } from "@/lib/drives/adelaide-to-melbourne-drive";
+import page12, { faq as faq12 } from "@/lib/drives/brisbane-to-cairns-drive";
+import page14, { faq as faq14 } from "@/lib/drives/perth-to-albany-drive";
+import page15, { faq as faq15 } from "@/lib/drives/perth-to-margaret-river-drive";
 
 /**
  * City-to-city drive guides. Each page lives in lib/drives/<slug>.ts and exports its article (default)
  * and its FAQ. They are listed here in publish order; lib/site.ts spreads `driveArticles` into the
  * written guides and attaches `driveFaqs` by slug.
  */
-export const driveArticles: Article[] = [page1, page2, page3, page4, page5, page6, page7, page8, page9, page10];
+export const driveArticles: Article[] = [page1, page2, page3, page4, page5, page6, page7, page8, page9, page10, page11, page12, page14, page15];
 export const driveFaqs: Record<string, readonly (readonly [string, string])[]> = {
   [page1.slug]: faq1,
   [page2.slug]: faq2,
@@ -27,4 +31,8 @@ export const driveFaqs: Record<string, readonly (readonly [string, string])[]> =
   [page8.slug]: faq8,
   [page9.slug]: faq9,
   [page10.slug]: faq10,
+  [page11.slug]: faq11,
+  [page12.slug]: faq12,
+  [page14.slug]: faq14,
+  [page15.slug]: faq15,
 };

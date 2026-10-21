@@ -61,6 +61,10 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "working-holiday-road-trip-budget-australia-2026", section: 7, src: "/images/screens/working-holiday-road-trip-budget-australia-2026.webp", alt: "AussieCamps on iPhone: the Discovery Parks Byron Bay holiday park page in New South Wales, with its address, a Paid label and a Book now button" },
   { slug: "campervan-vs-caravan-australia", section: 6, src: "/images/screens/campervan-vs-caravan-australia.webp", alt: "AussieCamps on iPhone: part of the Seal Bay page in South Australia, with Barbecue Facilities and a Vehicles and RVs section listing Car Park, above its photos and weather" },
   { slug: "powered-vs-unpowered-sites-australia", section: 6, src: "/images/screens/powered-vs-unpowered-sites-australia.webp", alt: "AussieCamps on iPhone: the BIG4 Whitsunday Islands Holiday Park page in Queensland, with its address, opening hours, a Paid label, a Book now button and its description" },
+  { slug: "adelaide-to-melbourne-drive", section: 7, src: "/images/screens/adelaide-to-melbourne-drive.webp", alt: "AussieCamps on iPhone: the Grampians National Park place page in Victoria, with photos, a notes field and a 7-day weather forecast" },
+  { slug: "brisbane-to-cairns-drive", section: 7, src: "/images/screens/brisbane-to-cairns-drive.webp", alt: "AussieCamps on iPhone: the Cape Hillsborough National Park place page in Queensland, with activities, facilities, rules, caravan sites and photos" },
+  { slug: "perth-to-albany-drive", section: 7, src: "/images/screens/perth-to-albany-drive.webp", alt: "AussieCamps on iPhone: the Cape Le Grand National Park place page in Western Australia, with a notes field, a 7-day weather forecast and Lucky Bay under useful places nearby" },
+  { slug: "perth-to-margaret-river-drive", section: 7, src: "/images/screens/perth-to-margaret-river-drive.webp", alt: "AussieCamps on iPhone: a Western Australia road trip guide with a trip summary card, an orange route line and place markers on the map, and a 7-day weather forecast" },
 ];
 
 const images = manifest as Record<string, unknown>;
