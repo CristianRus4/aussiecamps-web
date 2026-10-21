@@ -16,7 +16,7 @@ Skipped topics: best travel apps for Australia (cannibalises road-trip/money/wor
 
 ## Done
 - All five AU pages written, heroes and screen figures done, content:check passes.
-- Sonnet fact-check agents run over the pages (results folded in below once back).
+- Sonnet fact-check agents run; all findings fixed (commits 489eacc and the following one).
 
 ## Next
 - Fold in fact-check fixes, npm run check, hand off AussieCamps.
