@@ -252,6 +252,12 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Do dump points cost money in Australia?", "It varies. Many council dump points are free, and some park-run ones charge a small fee. Check the fee and whether a key is needed in the app or on the council page before you arrive."],
     ["Do dump point apps work offline?", "Some do. WikiCamps has an Offline Mode, CAMPS has downloadable offline maps, CamperMate lets you download maps, and AussieCamps keeps place details on the phone while its map and directions need signal. Convenience and Caravan Helper do not state their offline behaviour."],
   ],
+  "best-national-park-apps-australia": [
+    ["Is there an app for Australian national parks?", "There is no single national park app. NSW has an official app covering more than 225 parks, Parks Australia has apps for Uluru and Kakadu, and AussieCamps, CAMPS and AllTrails cover parks across the country."],
+    ["Is there a national park pass for all of Australia?", "No. Each state and territory sets its own entry fees and passes, and Uluru-Kata Tjuta and Kakadu have their own Parks Australia passes, each valid only for that park."],
+    ["Do national park apps work offline?", "Some do. The NSW National Parks app lets you download a park before you go, the Uluru and Kakadu apps let you download their content, and CAMPS has offline maps. AussieCamps keeps place details on the phone while its map, weather and photos need signal."],
+    ["How do I check if a national park is closed?", "Check the park agency, such as NSW National Parks, the VicEmergency website and app for Victoria, or Queensland's park alerts page. Apps can show where a park is, but the agency is the source for closures."],
+  ],
   "hipcamp-alternatives": [
     ["What is like Hipcamp in Australia?", "For bookable stays, AussieCamps lists farm and station stays and holiday parks from BookEasy, and G'day Parks books its own holiday parks. For public camping, AussieCamps, WikiCamps, CAMPS and CamperMate cover national park campgrounds and free camps, and each state's park agency takes bookings directly."],
     ["How do I book a national park campsite in Australia?", "Through the park agency for that state or territory, such as NSW National Parks, Parks Victoria or Queensland Parks and Wildlife Service. In Queensland, every camp in a national park, state forest or recreation area needs a permit booked before you arrive."],
