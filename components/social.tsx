@@ -14,7 +14,7 @@ export function SocialScript() {
  * menu in the top-right corner, where both apps put "Open in browser".
  */
 export function SocialOverlay() {
-  return <div className="social-overlay" data-social-overlay hidden role="dialog" aria-modal="true" aria-labelledby="social-overlay-title">
+  return <div className="social-overlay" lang="en" data-social-overlay hidden role="dialog" aria-modal="true" aria-labelledby="social-overlay-title">
     <div className="social-overlay-arrow" aria-hidden="true">
       <svg viewBox="0 0 64 64" width="64" height="64"><path d="M12 54 C 22 30, 34 18, 52 12" fill="none" stroke="currentColor" strokeWidth="4" strokeLinecap="round" /><path d="M38 9 L 53 11 L 49 26" fill="none" stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" /></svg>
     </div>
