@@ -31,3 +31,9 @@ Prices follow docs/translation-style/pl.md (`N AUD`, nbsp thousands, decimal com
 - blue-mountains-camping-weekend, driving-in-australia-overseas-licence, camping-with-dogs-australia, camping-packing-list-australia, first-campervan-trip-australia.
 - Review fixes: a non-stretch tow strap named for the snatch strap, "up to twelve" restored, an IDP sentence that added a fact removed, the
   dog-in-a-car national-park rule made logical with "never" kept, Compulsory Third Party kept separate from Polish OC.
+
+## Batch 6 (5 guides)
+- road-trip-fuel-planning-australia, camping-weather-safety-australia, responsible-camping-australia, choosing-campsite-australia,
+  driving-with-road-trains-australia.
+- Review fixes: "unsecured awnings" kept as the English warning (draft had turned it into an instruction), roadhouses out of fuel (not goods),
+  night temperature below zero, gendered address removed.
