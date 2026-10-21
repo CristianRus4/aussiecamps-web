@@ -19,8 +19,8 @@ best-apps-working-holiday-australia, best-weather-apps-camping-australia, best-m
 hipcamp-alternatives.
 Done (committed, reviewed, negation-checked, stamped): campermate-alternatives, wikicamps-alternatives, best-fuel-price-apps-australia,
 best-free-camping-apps-australia, best-road-trip-planner-apps-australia, best-caravan-rv-apps-australia,
-best-apps-working-holiday-australia, best-weather-apps-camping-australia, best-money-saving-travel-apps-australia (9 of 10 AU done).
-In progress: hipcamp-alternatives (AU, in review); KiwiCamping rankers-alternatives (in review), campermate-alternatives (drafting).
+best-apps-working-holiday-australia, best-weather-apps-camping-australia, best-money-saving-travel-apps-australia, hipcamp-alternatives: ALL 10 AU DONE (hipcamp commit 8f9c1ae).
+KiwiCamping progress is tracked in the K worktree progress file.
 KiwiCamping: rankers-alternatives, campermate-alternatives, road-trip-planner-apps-new-zealand,
 free-camping-apps-new-zealand, best-travel-apps-new-zealand, wikicamps-alternatives, best-campervan-apps-new-zealand,
 best-weather-apps-new-zealand, fuel-price-apps-new-zealand, working-holiday-apps-new-zealand,
