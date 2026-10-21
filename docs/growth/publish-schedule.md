@@ -58,3 +58,13 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-11-16 | can-i-take-a-campervan-or-caravan-on-the-spirit-of-tasmania | scheduled |
 | 2026-11-17 | can-i-camp-on-private-land-or-a-farm-in-australia | scheduled |
 | 2026-11-18 | can-i-take-alcohol-into-restricted-areas-on-an-outback-road-trip | scheduled |
+| 2026-11-19 | sydney-to-melbourne-drive | scheduled |
+| 2026-11-20 | brisbane-to-sydney-drive | scheduled |
+| 2026-11-21 | melbourne-to-brisbane-drive | scheduled |
+| 2026-11-22 | sydney-to-adelaide-drive | scheduled |
+| 2026-11-23 | melbourne-to-canberra-drive | scheduled |
+| 2026-11-24 | brisbane-to-byron-bay-drive | scheduled |
+| 2026-11-25 | darwin-to-alice-springs-drive | scheduled |
+| 2026-11-26 | cairns-to-darwin-drive | scheduled |
+| 2026-11-27 | perth-to-exmouth-drive | scheduled |
+| 2026-11-28 | broome-to-darwin-drive | scheduled |
