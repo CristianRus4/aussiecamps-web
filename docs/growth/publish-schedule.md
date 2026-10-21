@@ -39,3 +39,14 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-10-28 | best-weather-apps-camping-australia | scheduled |
 | 2026-10-29 | best-money-saving-travel-apps-australia | scheduled |
 | 2026-10-30 | hipcamp-alternatives | scheduled |
+| 2026-11-07 | can-i-camp-on-the-beach-in-australia | scheduled |
+| 2026-11-08 | can-i-drive-on-the-beach-in-australia | scheduled |
+| 2026-11-09 | can-i-camp-in-a-national-park-without-booking-in-australia | scheduled |
+| 2026-11-10 | can-i-collect-firewood-while-camping-in-australia | scheduled |
+| 2026-11-11 | can-i-fly-a-drone-while-camping-in-australia | scheduled |
+| 2026-11-12 | can-i-fish-without-a-licence-while-camping-in-australia | scheduled |
+| 2026-11-13 | can-i-use-a-generator-at-a-campsite-in-australia | scheduled |
+| 2026-11-14 | can-i-stay-overnight-at-a-rest-area-in-australia | scheduled |
+| 2026-11-15 | can-i-camp-on-aboriginal-land-without-a-permit | scheduled |
+| 2026-11-16 | can-i-take-a-campervan-or-caravan-on-the-spirit-of-tasmania | scheduled |
+| 2026-11-17 | can-i-camp-on-private-land-or-a-farm-in-australia | scheduled |
