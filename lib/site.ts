@@ -34,6 +34,7 @@ export const SUPPORT_EMAIL = "support@cntxtlabs.co";
 export const SUPPORT_MAILTO = `mailto:${SUPPORT_EMAIL}?subject=AussieCamps%20web%20contact`;
 
 import { expandedArticles } from "@/lib/expanded-articles";
+import { canIArticles, canIFaqs } from "@/lib/can-i-articles";
 import { articleFaqs } from "@/lib/article-faqs";
 import { assertPublishAt, isPublished, scheduleFixture } from "@/lib/publish";
 import { applyScreenFigures } from "@/lib/screen-figures";
@@ -369,8 +370,9 @@ const writtenArticles: Article[] = [
       { label:"ExplorOz Traveller", url:"https://www.exploroz.com/traveller" },
     ] }),
   ...expandedArticles,
+  ...canIArticles,
 // Each guide gets its own two-question FAQ attached by slug (see lib/article-faqs.ts).
-].map((article) => (articleFaqs[article.slug] ? { ...article, faq: articleFaqs[article.slug] } : article))
+].map((article) => { const faq = articleFaqs[article.slug] ?? canIFaqs[article.slug]; return faq ? { ...article, faq } : article; })
   // After the list, not in it: scripts/build-article-dates.mjs dates the last guide by the text up to "\n]".
   .concat(scheduleFixture<Article>() ?? []);
 // Screenshot figures go on after the list too, so the article literals stay untouched (lib/screen-figures.ts).
