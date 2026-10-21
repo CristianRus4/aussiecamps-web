@@ -1,0 +1,55 @@
+import { article, section } from "@/lib/can-i/helpers";
+
+export const faq = [
+  ["Can I just turn up at a national park campground in Australia?", "Only at campgrounds that take no bookings, such as Binn Beach, Gunnai Beach and Pearl Point at Cape Conran in Victoria, or Tuross River in NSW. In Queensland, South Australia and the Northern Territory you book and pay first, and many other campgrounds in NSW, Victoria and WA are bookable."],
+  ["Do I need to book camping in a Queensland national park?", "Yes. Queensland says you must book and pay for a camping permit before you arrive at a camping area, and the permit is emailed to you. Display the tag at your site."],
+  ["Is there free camping in a national park with no booking?", "Rarely. The Bay of Fires campgrounds in Tasmania are free and need no booking, but a valid parks pass is required to enter Tasmania's national parks. Many NSW campgrounds with no camping fee still charge a $6 booking fee and need a booking."],
+  ["Do I need a parks pass as well as a camping booking?", "Often. Tasmania needs a valid parks pass to enter its national parks, non-residents need an NT Parks Visitor Pass to reserve a campsite, and NSW park entry fees apply at many campgrounds. In South Australia a park pass does not cover camping."],
+] as const;
+
+export default article({
+  slug: "can-i-camp-in-a-national-park-without-booking-in-australia", publishAt: "2026-11-09",
+  title: "Can I Camp in a National Park Without Booking? 2026 Rules",
+  description: "Sometimes, but not in Queensland, South Australia or the NT, where you book before you arrive. Which national park campgrounds need no booking, by state, 2026.",
+  category: "Rules & safety", region: "Australia",
+  places: ["Cape Conran", "Wadbilliga National Park", "Bay of Fires", "Namadgi National Park"],
+  imageAlt: "Placeholder: a tent at a small national park campground with no booking sign",
+  intro: "Sometimes, but not everywhere: in Queensland, South Australia and the Northern Territory you must book and pay before you arrive, while New South Wales, Victoria, Western Australia and Tasmania each have campgrounds that take no bookings. The deciding rule is the campground's own page, which says whether it is bookable, first come, first served or a self-registration site.",
+  related: ["camping-fees-australia-2026", "is-free-camping-legal-australia", "camping-rules-queensland", "choosing-campsite-australia"],
+  sections: [
+    section("The short answer by state", ["Booking rules differ by state and by campground, so check the campground's own page on the agency's website instead of relying on a general rule. Fees are covered in the camping fees guide, so this page sticks to booking."], ["Check the campground's own page", "Book first in Qld, SA and NT", "Checked 2026-10-21"], {
+      caption: "Booking national park camping by state and territory, checked 21 October 2026.",
+      head: ["State or territory", "Do you need to book?", "No-booking options", "Source"],
+      rows: [
+        ["Queensland", "Yes: a camping permit booked and paid before you arrive", "None found in parks and forests", "Queensland Government"],
+        ["New South Wales", "At many campgrounds, even where camping is free", "Some campgrounds such as Tuross River, and remote camping at unlisted sites", "NSW National Parks"],
+        ["Victoria", "At bookable campgrounds only", "Non-bookable, first-come campgrounds such as Cape Conran's beach camps", "Parks Victoria"],
+        ["South Australia", "Yes: camping is booked and paid online before arrival", "None found; a park pass does not cover camping", "NPWS South Australia"],
+        ["Western Australia", "At the most popular campgrounds", "Other campgrounds are paid at the park or by self-registration", "Explore Parks WA"],
+        ["Tasmania", "At some campgrounds; a parks pass is needed to enter", "Free campgrounds such as the Bay of Fires take no bookings", "Parks and Wildlife Service Tasmania"],
+        ["Northern Territory", "Yes: campsites are booked through the NT Parks Booking System", "None found", "NT Parks Booking System"],
+        ["ACT", "Yes at the Namadgi campgrounds", "None found for vehicle camping", "Parks ACT"],
+      ],
+    }),
+    section("Queensland, South Australia, the Northern Territory and the ACT: book first", ["Queensland says you must book and pay for a camping permit before you arrive at a camping area, usually online, with the permit emailed to you. The tag must be displayed at your site.", "South Australia's national parks run on online booking: its guide says signage in the parks emphasises that online bookings are required for camping, and the vehicle entry fee is waived with most campground bookings. A park pass skips the entry booking but does not cover your campsite. If you are collecting a hire car, enter HIRECAR in the registration field and update it after pickup.", "In the Northern Territory, non-residents need a Visitor Pass to reserve a campsite, and residents must still book and pay for camping. In the ACT, Parks ACT says bookings are essential at the Namadgi campgrounds Honeysuckle, Orroral and Mount Clear."], ["Qld: permit before arrival", "SA: park pass does not cover camping", "NT: pass needed to reserve"]),
+    section("New South Wales: most campgrounds are booked, a few are not", ["NSW National Parks has more than 350 campgrounds, and many are booked online. Some campgrounds with no camping fee still need one: Brou Lake charges no camping fee but a $6 booking fee applies, and the booking limit is eight people or two sites online.", "A few basic campgrounds take no bookings, such as Tuross River in Wadbilliga National Park. NPWS also says you do not need a booking for remote camping, meaning campgrounds not listed on its website, but it highly recommends filling in a trip intention form before you arrive."], ["Free sites can still carry a $6 fee", "Tuross River: no booking", "Remote camping: trip intention form"]),
+    section("Victoria: the most first-come campgrounds", ["Parks Victoria says you need to book popular bookable campsites in advance, especially in busy holiday periods, and to check each park page to see which campsites need booking.", "Plenty of Victorian campgrounds take no bookings. At Cape Conran Coastal Park, Binn Beach, Gunnai Beach and Pearl Point are first come, first served, and Banksia Bluff is the bookable choice there. Camping is permitted only at your designated site, and a site may be occupied only by the party that made the booking."], ["Check each park page", "Cape Conran: three non-bookable camps", "Use only the site you booked"]),
+    section("Western Australia and Tasmania: mixed systems", ["Explore Parks WA says online bookings are available for some of the most popular campgrounds, with card payment at booking. At other campgrounds the payment instructions are displayed at the park entry or campground, and you pay park staff or a campground host, or use a self-registration envelope. Mitchell Falls Campground is non-bookable and uses envelopes.", "In Tasmania, a valid parks pass is required to enter national parks. The Bay of Fires campgrounds are free, need no booking and have a four-week maximum stay. At Freycinet, Parks and Wildlife Service Tasmania has paused new bookings for stays from 3 November 2026 while the Parks Online Booking System starts, and for stays from that date cancellations less than five days from arrival are not refunded."], ["WA: check the payment sign", "Bay of Fires: no booking", "Tasmania: new booking system"]),
+    section("What to do instead if you cannot book", ["Pick a non-bookable campground as your first choice and a bookable one as your backup. In Victoria that means Cape Conran's beach camps, in NSW Tuross River, and in Tasmania the Bay of Fires. Arrive in daylight, because first-come campgrounds can fill and some have a stay limit.", "If a bookable campground is full, check the same park's page for a non-bookable camp nearby. For a fully remote trip in NSW, unlisted campgrounds need no booking, but fill in the NPWS trip intention form."], ["Non-bookable first, bookable backup", "Check nearby camps", "Arrive in daylight"]),
+    { ...section("Check this rule at the place in AussieCamps", ["AussieCamps place pages carry each national park campground's facilities, fees and rules as the park agency publishes them, so you can read the land manager's own notes on booking before you go. The app lists 1,838 campgrounds and 745 national parks, and you can save places into a collection or a trip. Place details are stored on the phone and stay readable without signal, while map tiles, routing, weather and photos need reception. AussieCamps runs on iPhone only.", "It does not replace the official rule. Confirm with the park agency whether a campground needs booking, and keep your booking confirmation on your phone."], ["iPhone only", "Booking notes from the park agency", "Confirm with the land manager"]), cta: true },
+  ],
+  sources: [
+    { label: "Queensland Government: camping bookings", url: "https://www.qld.gov.au/recreation/activities/camping/bookings" },
+    { label: "NSW National Parks: camping safety and remote camping", url: "https://www.nationalparks.nsw.gov.au/safety/camping-safety" },
+    { label: "NSW National Parks: Tuross River campground", url: "https://www.nationalparks.nsw.gov.au/camping-and-accommodation/campgrounds/tuross-river-campground" },
+    { label: "NSW National Parks: Brou Lake campground", url: "https://www.nationalparks.nsw.gov.au/camping-and-accommodation/campgrounds/brou-lake-campground" },
+    { label: "Parks Victoria: camping in Victoria", url: "https://www.parks.vic.gov.au/where-to-stay/camping/free-camping-in-victoria" },
+    { label: "Parks Victoria: camping in Cape Conran Coastal Park", url: "https://www.parks.vic.gov.au/places-to-see/parks/cape-conran-coastal-park/where-to-stay/camping-in-cape-conran-coastal-park" },
+    { label: "NPWS South Australia: book and pay FAQs", url: "https://www.parks.sa.gov.au/book-and-pay/frequently-asked-questions" },
+    { label: "Explore Parks WA: camping fees and how to pay", url: "https://exploreparks.dbca.wa.gov.au/camping-fees" },
+    { label: "Parks and Wildlife Service Tasmania: Bay of Fires camping", url: "https://parks.tas.gov.au/explore-our-parks/bay-of-fires-conservation-area/bay-of-fires-camping" },
+    { label: "Parks and Wildlife Service Tasmania: Freycinet campsites", url: "https://parks.tas.gov.au/explore-our-parks/freycinet-national-park/richardsons-beach-honeymoon-bay-and-ranger-creek-camping" },
+    { label: "NT Parks Booking System: passes and camping", url: "https://parkbookings.nt.gov.au/Web/Passes/AdvancePasses.aspx" },
+    { label: "Parks ACT: Honeysuckle campground, Namadgi National Park", url: "https://www.parks.act.gov.au/find-a-nature-park/namadgi-national-park/honeysuckle-campground" },
+  ],
+});
