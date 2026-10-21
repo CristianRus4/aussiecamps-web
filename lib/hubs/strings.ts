@@ -181,8 +181,13 @@ const matches = (english: string, translated: unknown) => filled(translated) && 
 const allMatch = (english: Record<string, string>, translated: Record<string, unknown> | undefined) =>
   !!translated && Object.entries(english).every(([key, value]) => matches(value, translated[key]));
 
+/** "5 pm" and "17 Uhr", "9:00" and "9" are the same time, so a translation may use its own clock. */
+const clockTimes = (text: string) => text
+  .replace(/\b(\d{1,2})(?:[:.]00)?\s*pm\b/gi, (_, hour: string) => String((Number(hour) % 12) + 12))
+  .replace(/\b(\d{1,2})(?:[:.]00)?\s*am\b/gi, "$1")
+  .replace(/\b(\d{1,2})[:.]00\b/g, "$1");
 /** Every number in a paragraph, separators dropped, in order: "4,046.5" and "4.046,5" are both 40465. */
-export const proseNumbers = (text: string) => (text.match(/\d+(?:[.,   ]\d{3}(?!\d))*(?:[.,]\d+)?/g) ?? []).map((number) => number.replace(/\D/g, "")).sort().join(" ");
+export const proseNumbers = (text: string) => (clockTimes(text).match(/\d+(?:[.,   ]\d{3}(?!\d))*(?:[.,]\d+)?/g) ?? []).map((number) => number.replace(/\D/g, "")).sort().join(" ");
 
 function isProseComplete(english: string[] | undefined, translated: unknown) {
   if (!english?.length) return true;
