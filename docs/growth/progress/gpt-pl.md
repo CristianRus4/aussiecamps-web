@@ -11,3 +11,7 @@ Prices follow docs/translation-style/pl.md (`N AUD`, nbsp thousands, decimal com
   australia-road-trip-fuel-cost-2026, australian-road-signs-visitors-guide, towing-caravan-australia-road-rules.
 - Fixes found in review: "stacja" (petrol station) used for cattle stations, a wrong table-column meaning, one weakened "up to", currency format.
 - Note for the editor: the English travel-cost FAQ promises "ten currencies" and "routes worked through" that the body does not show.
+
+## Batch 2 (5 guides)
+- australian-alps-camping-route, flinders-ranges-camping-guide, red-centre-way-camping, tasmania-camping-loop, darwin-kakadu-litchfield-loop.
+- Review fixes: "many" vs "most" closed, "crowds not fully arrived", Tasmania shuttle is mandatory, crocodile heading widened to every water decision.
