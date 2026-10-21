@@ -29,6 +29,7 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "best-apps-lap-of-australia", section: 2, src: "/images/screens/best-apps-lap-of-australia.webp", alt: "AussieCamps on iPhone: the Guides list with the Tasmania camping loop, the Darwin, Kakadu and Litchfield camping loop and the Adelaide to Uluru outback route" },
   { slug: "best-dump-point-toilet-apps-australia", section: 2, src: "/images/screens/best-dump-point-toilet-apps-australia.webp", alt: "AussieCamps on iPhone: the Mount Field National Park page in Tasmania with its facilities, including Picnic Tables, Toilets and a Visitor Centre" },
   { slug: "best-national-park-apps-australia", section: 2, src: "/images/screens/best-national-park-apps-australia.webp", alt: "AussieCamps on iPhone: the Grampians (Gariwerd) National Park page in Victoria with its description and amenities, including an accessible toilet and a lookout" },
+  { slug: "exploroz-alternatives", section: 2, src: "/images/screens/exploroz-alternatives.webp", alt: "AussieCamps on iPhone: the Mungo National Park page in New South Wales with its description and amenities" },
   { slug: "best-camping-app-australia", section: 1, src: "/images/screens/best-camping-app-australia.webp", alt: "AussieCamps on iPhone: the Karijini National Park page with its amenities and features" },
 ];
 

@@ -258,6 +258,12 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Do national park apps work offline?", "Some do. The NSW National Parks app lets you download a park before you go, the Uluru and Kakadu apps let you download their content, and CAMPS has offline maps. AussieCamps keeps place details on the phone while its map, weather and photos need signal."],
     ["How do I check if a national park is closed?", "Check the park agency, such as NSW National Parks, the VicEmergency website and app for Victoria, or Queensland's park alerts page. Apps can show where a park is, but the agency is the source for closures."],
   ],
+  "exploroz-alternatives": [
+    ["What is the best alternative to ExplorOz?", "For offline topographic maps, Hema 4WD Maps and Newtracs are the closest, and CAMPS and WikiCamps add offline camp data. AussieCamps is not an offline map, but it keeps rest area, dump point and water details readable on the phone."],
+    ["How much does ExplorOz cost?", "ExplorOz Traveller costs A$59.99. Full offline EOTopo maps are in-app purchases: Pro Access at A$99.99 a year, EOTopo Annual Access at A$59.99 a year, or a 4-year edition at A$79.99 once."],
+    ["Is there a free alternative to ExplorOz?", "Newtracs is free to download with a paid Premium tier, and Google Maps, Apple Maps and Organic Maps are free with offline areas. None of them grades 4WD tracks the way ExplorOz does."],
+    ["Which apps work without phone signal in the outback?", "ExplorOz, Hema 4WD Maps, Newtracs, CAMPS and WikiCamps all have offline modes or downloadable maps. AussieCamps keeps place details on the phone, but its map, directions and weather need signal."],
+  ],
   "hipcamp-alternatives": [
     ["What is like Hipcamp in Australia?", "For bookable stays, AussieCamps lists farm and station stays and holiday parks from BookEasy, and G'day Parks books its own holiday parks. For public camping, AussieCamps, WikiCamps, CAMPS and CamperMate cover national park campgrounds and free camps, and each state's park agency takes bookings directly."],
     ["How do I book a national park campsite in Australia?", "Through the park agency for that state or territory, such as NSW National Parks, Parks Victoria or Queensland Parks and Wildlife Service. In Queensland, every camp in a national park, state forest or recreation area needs a permit booked before you arrive."],
