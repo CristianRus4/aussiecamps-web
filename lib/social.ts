@@ -13,6 +13,11 @@ import locales from "@/lib/locales.json";
  * - TikTok's in-app browser (it blocks App Store links), on a home page or with a tag: a full-screen overlay
  *   pointing at the ••• menu ("Open in browser"), with a Download button as a backup.
  * - In every in-app case the tag is written into the address first, so "Open in browser" carries it.
+ * - An in-app browser the script does not recognise (an iPhone WebView whose user agent lacks "Safari/",
+ *   which Safari, Chrome, Firefox and Edge on iOS all send) is treated as the platform its tag names, so a
+ *   tagged TikTok link shows the overlay even when TikTok's user agent carries no TikTok token. A tiktok.com
+ *   referrer also counts as TikTok.
+ * - `&debug=1` shows what the browser reports (user agent, referrer, decision) and suppresses redirects.
  * - Safari or Chrome with a tag (the visitor tapped "Open in browser"): remove the tag from the address,
  *   then replace the page with the App Store, once per browser session. A reload or a restored tab then
  *   shows the site instead of sending the visitor back to the store.
@@ -46,9 +51,12 @@ export function socialScript(stores: Record<SocialPlatform, string> = socialStor
   return `(function(){try{
 var n=navigator,ua=n.userAgent||"",l=location,d=document,w=window,S=${JSON.stringify(stores)},H=new RegExp(${JSON.stringify(home)});
 if(/bot|crawl|spider|slurp|Applebot|bingbot|Lighthouse|HeadlessChrome|PageSpeed/i.test(ua))return;
-if(!(/iPhone|iPad|iPod/.test(ua)||(n.platform==="MacIntel"&&n.maxTouchPoints>1)))return;
-var app=/Instagram|Barcelona/.test(ua)?"ig":/musical_ly|TikTok|BytedanceWebview|ByteLocale|trill_/i.test(ua)?"tt":/FBAN|FBAV|FB_IAB|FBIOS|MessengerForiOS/.test(ua)?"fb":"";
+var ios=/iPhone|iPad|iPod/.test(ua)||(n.platform==="MacIntel"&&n.maxTouchPoints>1),ref=d.referrer||"",debug=/[?&]debug=1(?:&|$)/.test(l.search);
 var m=/[?&]s=(ig|tt|fb)(?:&|$)/.exec(l.search),tag=m?m[1]:"";
+var webview=ios&&!/Safari\\//.test(ua);
+var app=/Instagram|Barcelona/.test(ua)?"ig":(/musical_ly|TikTok|BytedanceWebview|ByteLocale|trill_/i.test(ua)||/tiktok\\.com/i.test(ref))?"tt":/FBAN|FBAV|FB_IAB|FBIOS|MessengerForiOS/.test(ua)?"fb":(webview&&tag)?tag:"";
+if(debug){var dbg=function(){var b=d.createElement("pre");b.setAttribute("style","position:fixed;left:8px;right:8px;bottom:8px;z-index:2000;margin:0;padding:10px;background:#fff;color:#000;font:12px/1.4 monospace;white-space:pre-wrap;border:2px solid #c00");b.textContent="UA: "+ua+"\\nreferrer: "+ref+"\\nios "+ios+", in-app "+webview+", app "+(app||"-")+", tag "+(tag||"-");d.body.appendChild(b)};if(d.readyState==="loading")d.addEventListener("DOMContentLoaded",dbg);else dbg()}
+if(!ios)return;
 if(!tag&&!(app&&H.test(l.pathname)))return;
 var key=app||tag,store=S[key],away=false;
 var seen=function(){try{return w.sessionStorage.getItem("acSocial")==="1"}catch(e){return false}};
@@ -59,9 +67,9 @@ var leave=function(){away=true};
 d.addEventListener("visibilitychange",function(){if(d.hidden)away=true});w.addEventListener("pagehide",leave);w.addEventListener("blur",leave);
 var show=function(){if(away)return;var o=d.querySelector("[data-social-overlay]");if(!o||!o.hidden)return;o.hidden=false;o.setAttribute("data-platform",key);var b=o.querySelector("[data-social-store]");if(b){b.href=store;b.setAttribute("data-cta",key)}var c=o.querySelector("[data-social-close]");if(c)c.onclick=function(){o.hidden=true;d.documentElement.style.overflow=""};d.documentElement.style.overflow="hidden";try{if(w.acTrack)w.acTrack("social_open",{platform:key,action:"overlay"})}catch(e){}};
 var later=function(){if(d.readyState==="loading")d.addEventListener("DOMContentLoaded",show);else show()};
-if(!app){setAddress(false);if(seen())return;mark();l.replace(store);return}
+if(!app){if(debug)return;setAddress(false);if(seen())return;mark();l.replace(store);return}
 setAddress(true);
-if(app==="tt"||seen()){later();return}
+if(app==="tt"||seen()||debug){later();return}
 mark();l.replace(store);setTimeout(later,1500);
 }catch(e){}})();`;
 }

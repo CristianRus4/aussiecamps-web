@@ -19,6 +19,9 @@ const UA = {
   googlebot: "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.6723.69 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
   applebot: "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1 (Applebot/0.1; +http://www.apple.com/go/applebot)",
   bingbotMobile: "Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)",
+  // An in-app browser that does not name itself, as TikTok's did on the owner's iPhone: a plain WKWebView
+  // user agent, which never carries "Safari/".
+  plainWebView: "Mozilla/5.0 (iPhone; CPU iPhone OS 18_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",
 };
 
 const stores = socialStoreUrls();
@@ -29,14 +32,15 @@ const script = socialScript(stores);
  * sessionStorage (share one object across calls to model a second visit); `hideFirst` makes the page go
  * to the background before the 1.5 s fallback fires, as it does when the App Store opens.
  */
-function visit(ua, path, { session = {}, hideFirst = false } = {}) {
+function visit(ua, path, { session = {}, hideFirst = false, referrer = "" } = {}) {
   const [pathname, search = ""] = path.split("?");
-  const result = { replaced: undefined, address: undefined, overlay: false, storeButton: undefined, cta: undefined, events: [] };
+  const result = { replaced: undefined, address: undefined, overlay: false, storeButton: undefined, cta: undefined, events: [], debug: undefined };
   const button = { href: "#", setAttribute: (name, value) => { if (name === "data-cta") result.cta = value; } };
   const overlay = { hidden: true, setAttribute() {}, querySelector: (sel) => (sel === "[data-social-store]" ? button : { onclick: null }) };
   const location = { pathname, search: search ? `?${search}` : "", hash: "", replace: (url) => { result.replaced = url; } };
   const listeners = {};
-  const document = { readyState: "complete", hidden: false, documentElement: { style: {} }, addEventListener: (type, fn) => { (listeners[type] ??= []).push(fn); }, querySelector: () => overlay };
+  const document = { readyState: "complete", hidden: false, referrer, documentElement: { style: {} }, addEventListener: (type, fn) => { (listeners[type] ??= []).push(fn); }, querySelector: () => overlay,
+    createElement: () => ({ setAttribute() {}, textContent: "" }), body: { appendChild: (el) => { result.debug = el.textContent; } } };
   const timers = [];
   const window = {
     acTrack: (name, params) => result.events.push(`${name}:${params.platform}:${params.action}`),
@@ -51,6 +55,11 @@ function visit(ua, path, { session = {}, hideFirst = false } = {}) {
   result.storeButton = button.href === "#" ? undefined : button.href;
   return result;
 }
+
+test("the shipped script is valid JavaScript (a syntax error would fail silently in the browser)", () => {
+  const body = script.replace("(function(){try{", "(function(){{").replace("}catch(e){}})();", "}})();");
+  assert.doesNotThrow(() => new Function(body));
+});
 
 test("every social route has its own App Store campaign token", () => {
   for (const platform of ["ig", "tt", "fb"]) assert.match(stores[platform], new RegExp(`[?&]ct=w_${platform}_en(&|$)`));
@@ -122,6 +131,27 @@ test("Safari and Chrome on iPhone go to the App Store once, only with a bio tag,
     const r = visit(UA.safariIos, path);
     assert.deepEqual([r.replaced, r.address, r.overlay], [undefined, undefined, false], path);
   }
+});
+
+test("an in-app browser that does not name itself shows the overlay for a tagged link instead of a blank page", () => {
+  const r = visit(UA.plainWebView, "/?s=tt");
+  assert.equal(r.replaced, undefined, "no App Store redirect, which TikTok blocks and leaves blank");
+  assert.ok(r.overlay);
+  assert.equal(r.storeButton, stores.tt);
+  assert.equal(r.address, "/?s=tt");
+  const plain = visit(UA.plainWebView, "/");
+  assert.deepEqual([plain.replaced, plain.overlay], [undefined, false], "an untagged visit from an unknown app stays the normal site");
+  const fromTikTok = visit(UA.plainWebView, "/", { referrer: "https://www.tiktok.com/" });
+  assert.ok(fromTikTok.overlay, "a tiktok.com referrer counts as TikTok");
+});
+
+test("debug=1 reports what the browser sends and never redirects", () => {
+  const r = visit(UA.safariIos, "/?s=tt&debug=1");
+  assert.equal(r.replaced, undefined);
+  assert.match(r.debug, /UA: Mozilla/);
+  assert.match(r.debug, /tag tt/);
+  const t = visit(UA.plainWebView, "/?s=tt&debug=1");
+  assert.match(t.debug, /in-app true, app tt/);
 });
 
 test("guides opened from social without a tag stay normal pages", () => {
