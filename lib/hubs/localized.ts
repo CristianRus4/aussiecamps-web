@@ -15,13 +15,12 @@ import { fill, hubStrings, isHubCommonComplete, isHubTranslated, summaryShares, 
  * /<locale>/rest-areas/…) is still built and exported, so it can be previewed, but it is noindex, out
  * of every sitemap, out of hreflang and out of the language switcher, whatever its translation state.
  *
- * The owner decided the translated hubs go live only once Search Console shows the English hubs being
- * indexed (docs/growth/hubs/indexing-check.md). Only the owner says when; then set this to true. A
- * localised hub is then indexable only when its English page is, its locale is live and published,
+ * The owner put the translated hubs live on 22 Oct 2026; setting this back to false takes them all
+ * out of search at once. A localised hub is indexable only when its English page is, its locale is live and published,
  * and its translation is complete (lib/hubs/strings.ts). Hreflang pairs only indexable editions, so it
  * stays reciprocal.
  */
-export const LOCALIZED_HUBS_LIVE = false;
+export const LOCALIZED_HUBS_LIVE = true;
 
 /** Localised hubs: every routed locale, for every hub whose English page is indexable. */
 export const localizedHubs = translatableHubs;
