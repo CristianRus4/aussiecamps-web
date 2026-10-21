@@ -20,6 +20,9 @@ import { allArticles, isScheduled, sitePath } from "@/lib/site";
 type LinkTarget = { pattern: RegExp; slug: string };
 
 const targets: LinkTarget[] = [
+  // Seasonal guides first: their anchor phrases are specific, so they win a paragraph over the broader topics below.
+  { pattern: /\bcamping over Christmas\b/i, slug: "christmas-summer-camping-australia-2026-27" },
+  { pattern: /\bwet season camping\b/i, slug: "wet-season-camping-top-end-northern-wa" },
   { pattern: /\bfree camping\b|\bfree camps?\b/i, slug: "is-free-camping-legal-australia" },
   { pattern: /\bdump points?\b/i, slug: "dump-points-australia-guide" },
   { pattern: /\bcaravan parks?\b/i, slug: "caravan-park-vs-holiday-park" },
