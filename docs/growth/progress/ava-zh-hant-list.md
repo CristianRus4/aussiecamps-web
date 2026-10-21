@@ -17,8 +17,9 @@ AussieCamps: wikicamps-alternatives, campermate-alternatives, best-fuel-price-ap
 best-road-trip-planner-apps-australia, best-free-camping-apps-australia, best-caravan-rv-apps-australia,
 best-apps-working-holiday-australia, best-weather-apps-camping-australia, best-money-saving-travel-apps-australia,
 hipcamp-alternatives.
-Done (committed, reviewed, negation-checked, stamped): campermate-alternatives, wikicamps-alternatives, best-fuel-price-apps-australia.
-In progress: drafts of best-road-trip-planner-apps-australia, best-free-camping-apps-australia, best-caravan-rv-apps-australia.
+Done (committed, reviewed, negation-checked, stamped): campermate-alternatives, wikicamps-alternatives, best-fuel-price-apps-australia,
+best-free-camping-apps-australia, best-road-trip-planner-apps-australia, best-caravan-rv-apps-australia.
+In progress: drafts of best-apps-working-holiday-australia, best-weather-apps-camping-australia, best-money-saving-travel-apps-australia; then hipcamp-alternatives.
 KiwiCamping: rankers-alternatives, campermate-alternatives, road-trip-planner-apps-new-zealand,
 free-camping-apps-new-zealand, best-travel-apps-new-zealand, wikicamps-alternatives, best-campervan-apps-new-zealand,
 best-weather-apps-new-zealand, fuel-price-apps-new-zealand, working-holiday-apps-new-zealand,
