@@ -12,7 +12,7 @@
     "build:pages": "npm run build && npm run export",
     "export": "tsx scripts/export-github-pages.mjs",
     "start": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext start",
-    "test": "tsx --test tests/rendered-html.test.mjs tests/publish-schedule.test.mjs",
+    "test": "tsx --test tests/rendered-html.test.mjs tests/publish-schedule.test.mjs tests/social-links.test.mjs",
     "check": "npm run content:check && npm run build && npm run export && npm run seo:audit && npm test && npm run similarity:check && npm run assets:check",
     "content:check": "node scripts/sync-locales.mjs --check && tsx scripts/audit-content.mjs && tsx scripts/audit-hubs.mjs",
     "data:export": "node --no-warnings scripts/export-app-data.mjs",

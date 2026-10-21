@@ -16,15 +16,18 @@
   - `page_view` carries `content_group`, `page_kind`, `site_locale`, `guide_slug` and `guide_category`.
   - `app_store_click` fires on every App Store link. Parameters: `placement` (from `data-cta`), `campaign_token` (`ct`), `link_url`, plus the page context. **This is the download-intent event: mark it as a key event in GA4 once it first appears (Admin, Events).**
   - `tool_used` fires from the calculators via `window.acTrack`.
-- **To do in GA4 once events arrive:**
-  - Register event-scoped custom dimensions `placement`, `site_locale`, `page_kind`, `guide_slug`, `guide_category`, `campaign_token` and `tool`.
-  - Mark `app_store_click` as a key event.
+- **GA4 admin (done 2026-10-21, Linear CNTXT-869):**
+  - Event-scoped custom dimensions: `placement` (CTA placement), `site_locale` (Site locale), `page_kind` (Page kind), `guide_slug` (Guide slug), `guide_category` (Guide category), `campaign_token` (App Store campaign token), `tool` (Calculator). Values fill in 24 to 48 hours after creation; before that they read "(not set)".
+  - Google signals off; event and user data retention 14 months.
+  - Exploration "Download clicks by page and placement": rows Page path and screen class plus CTA placement, columns Site locale, value Event count, filter event name exactly `app_store_click`.
+  - **Still open:** mark `app_store_click` as a key event once it appears under Admin, Events, Recent events (it fired in Realtime on 2026-10-21; the list lags up to 24 hours). Do not create a custom event as a workaround.
+- **Social links:** `social_open` (parameters `platform` ig, tt or fb, `action` overlay) fires when the open-in-browser overlay shows. Redirects to the App Store leave before GA4 loads, so App Store Connect Campaigns (`w_ig_en`, `w_tt_en`, `w_fb_en`) is the source of truth for social downloads. See docs/growth/social-links.md.
 
 ## App Store campaign links
 - **Provider token:** pt=127436485 (Cntxt Limited). App ID: 6801098680.
 - **Link format:** `https://apps.apple.com/app/id6801098680?pt=127436485&ct=w_<placement>_<locale>&mt=8`, built by `appStoreUrl()` in `lib/app-store.ts`.
 - **Token limit:** App Store Connect allows campaign tokens up to 30 characters.
-- **Placements:** hdr, hero, card, stick, foot, inl, tool, hub, sb (smart banner), qr, dl (/download page), llms. Locale is `en` or the locale segment.
+- **Placements:** hdr, hero, card, stick, foot, inl, tool, hub, sb (smart banner), qr, dl (/download page), llms, listicle (comparison guides), ig, tt and fb (social bio links, always `_en`). Locale is `en` or the locale segment.
 - **Where to read it:**
   - App Store Connect: Apps, then AussieCamps, Analytics, Acquisition, Campaigns. Downloads per `ct`, with a 24 to 48 hour lag. Campaigns with fewer than 5 users are hidden.
   - Acquisition, then Sources, shows Web Referrer per domain.
@@ -34,6 +37,11 @@
 - **Property:** sc-domain:aussiecamps.app.
 - **Sitemap:** https://aussiecamps.app/sitemap.xml was submitted or resubmitted on 2026-10-19. Before that, the sitemap was either never submitted (aussiecamps) or last read on 20 Nov 2025 (campingapp).
 - **Baselines:** `docs/growth/gsc/2026-10-19/`.
+- **2026-10-21 (all 15 locales live):** sitemap index resubmitted (436 URLs discovered); locale sitemaps Success (ja 82, ko 82, zh-hans 82, zh-hant 81, cs 58, pl 45, da 82, sv 82, nb 82). Validate fix started for "Excluded by 'noindex' tag" (116 pages); pages report: 482 indexed, 227 not indexed. Indexing requested for /guides/wikicamps-alternatives/; the quota stopped the rest (carried to 22 Oct). Bing: sitemap resubmitted (326 URLs processing), 10 URLs submitted.
+
+## Naver Search Advisor (Korean search)
+- Ownership verified for https://aussiecamps.app on 2026-10-21 with the HTML meta tag (`naver-site-verification` in the root layout's `metadata.other`; keep it).
+- Sitemaps submitted 2026-10-21: /sitemap.xml and /sitemaps/ko.xml. Page collection requested for https://aussiecamps.app/ko/.
 
 ## Weekly loop
 Each week:

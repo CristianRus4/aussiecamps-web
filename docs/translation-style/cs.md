@@ -158,6 +158,7 @@ section), not in the title or meta description. Glosses go in parentheses, short
 |---|---|---|
 | road trip | **road trip** (road tripu, road tripy), or „cesta autem“, „cesta obytným autem“ | ASO AU „roadtrip“; Web: travelbible „12denní road trip“. Write „road trip“ as two words |
 | trip (the app object and in general) | **cesta** | App's „výlet“ ✗ for a multi-week trip; quote app buttons exactly when naming them („Nový výlet“, „Přidat k výletu“) |
+| tours (BookEasy/BookIt, free) | **organizované zájezdy (tours)** | Judge rule: never the same word as for the Pass-only trips. Never „výlet/výlety“ for tours, and never „zájezd“ for trips (Pass) |
 | trip planner | **plánovač cest** | ASO KiwiCamping subtitle „Plánovač cest po NZ“ |
 | itinerary | **itinerář**, „plán cesty“ | ASO, App ✓ |
 | stop (on a trip) | **zastávka** | |
