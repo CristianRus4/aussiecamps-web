@@ -29,3 +29,31 @@ All opened 2026-10-21. Several official sites (ffm.vic.gov.au, forestrycorporati
 - camping-rules-northern-territory says to gather firewood outside parks "from fallen branches only"; not confirmed officially here.
 - camping-rules-new-south-wales says never collect fallen timber in national parks; NPWS policy page allows some backcountry on-site collection where no sign prohibits it. Not a hard conflict, but the guide's "never" is stronger than the policy.
 - camping-rules-act says collecting timber in a park is prohibited; ACT page extract only says bring your own firewood.
+
+## FACT-CHECK 2026-10-21
+
+Independent re-check, 2026-10-21. About 40 distinct claims checked.
+
+Verified by opening the official page (WebFetch): Parks Victoria using-firewood (no collection in national/conservation parks, nature and bushland reserves, Pyrenees RP; six regional parks with designated areas until 1 July 2029; bring your own; "not all firewood sold in Victoria is sourced legally"); vic.gov.au collecting-firewood (seasons 1 Mar to 30 Jun and 1 Sep to 30 Nov, 2 m3 per person per day, 16 m3 per household per financial year, ground wood only, no sale, closures at short notice); NSW NPWS firewood policy (taking wood out prohibited; backcountry collection allowed in any park category except where a plan of management or sign prohibits it; bringing wood in must be strictly controlled); NSW NPWS considerate-camping ("Bring your own wood or use wood provided", do not use fallen timber); SA parks campfires page; DBCA firewood page (Perth Hills permit valid for one visit, South West no permit, 1 tonne per 60 days 1 Jun to 30 Sep, 1 tonne per occasion 1 Oct to 31 May, no removal from PSHB quarantine area, buy it where you burn it); Tas PWS campfires page (no firewood cutting/collection in national parks and reserves; Fuel Stove Only areas all year; LPG allowed on Total Fire Ban days, liquid fuel stoves not); Sustainable Timber Tasmania (permit, designated areas, ground wood only, 30 m3 a year); Qld business.qld.gov.au products-sale (firewood listed among forest products sold by short-term permit or one-off sale under the Forestry Act 1959); Biosecurity Tasmania Spirit of Tasmania page (firewood checked at Devonport, may be seized, leave at home if in doubt, penalties may apply).
+
+Verified by search extract only (official page returned 403): Forestry Corporation NSW firewood (authorisation, fallen timber only, some forests not offered); QPWS legal-requirements and camp-fires pages (extract: all timber within the area is protected and cannot be collected; fireplaces, fire rings or existing fire locations only; the exact phrase "Firewood must not be collected" was not seen in the extract, the substance was); ACT Parks campfires (bring own or buy at Namadgi Visitor Centre).
+
+AussieCamps section checked against docs/growth/listicles/au-app-facts.md and lib/data/product-facts.json: 1,838 campgrounds and 745 national parks confirmed; iPhone only confirmed; place details readable offline, live maps, directions and forecasts need a connection confirmed.
+
+### Corrected
+- NSW "Illegal to collect" / "NSW says collecting in national parks is illegal" (table, FAQ 1, section paragraph, intro, description) -> NSW NPWS policy (https://www.environment.nsw.gov.au/topics/parks-reserves-and-protected-areas/park-policies/firewood) allows backcountry on-site collection in any park category except where a plan or sign prohibits it, so the flat "illegal" was too strong. Now: table "Prohibited at campgrounds and wherever a sign or plan says so; taking wood out of a park is prohibited"; intro and description say NSW allows it only in some backcountry; FAQ and section say NSW asks campers to bring their own wood and not use fallen timber (https://www.nationalparks.nsw.gov.au/conservation-and-heritage/care-for-parks/considerate-camping). The "illegal" wording rested on NPWS news search extracts and regional news repeating NPWS warnings (2022 to 2023), not the current policy page.
+- Intro and description no longer list NSW among the agencies that flatly ban collecting.
+- Queensland state forest cell and section: "sold by permit" -> "short-term permit or one-off sale" (business.qld.gov.au page).
+- "Not all roadside firewood is legally sourced" -> "not all firewood on sale in Victoria is legally sourced" (Parks Victoria page does not single out roadside stalls).
+- FAQ 3 "Take as little as you can" -> "Leave it at home if in doubt" (Biosecurity Tasmania wording; the page does not say firewood is banned).
+- FAQ 4 and fire-ban section: "No fire" -> "No campfire"; "forests and parks add seasonal solid fuel bans" -> "parks add seasonal campfire bans" (Tas PWS: seasonal campfire bans ended 1 April 2026).
+- AussieCamps section: removed "fees" from what place pages carry (brief: no pricing claims); "map, weather and photos need reception" -> "live maps, directions and forecasts need reception" (app facts: previously viewed imagery is cached).
+
+### Removed as unverifiable
+- "NSW State forests and Tasmanian parks still allow gas under a seasonal solid fuel ban, but not every Total Fire Ban day" (no official page opened; replaced with the Tas PWS statement that LPG cookers are allowed on a Total Fire Ban day but liquid fuel stoves are not).
+
+### Open points
+- NSW: NPWS policy page (above) permits backcountry collection; NPWS campground pages and news releases say collecting is prohibited (campground page extracts: Wombeyan Caves, Gap Creek, Diamond Head). Both are official NPWS; page now reflects both. Escalate if a flat "no" is wanted.
+- Victoria: 2026 autumn season started later (1 April) in the Murray Goldfields District and was limited to specified Local Government Areas in Central Victoria (search extract of local news, not official page). The page says areas can close at short notice and does not list local restrictions; consider adding "check the FFMVic map for your area".
+- WA permit fees still conflict between DBCA pages ($7.70 summer / $15.40 winter on the firewood page opened today, other page $11 / $22); left off the page.
+- ffm.vic.gov.au, forestrycorporation.com.au, parks.qld.gov.au and parks.act.gov.au blocked automated fetches.

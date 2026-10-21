@@ -32,3 +32,26 @@ All pages opened 2026-10-21. These return HTTP 403 to automated fetches (WebFetc
 - QPWS pages disagree between sources on K'gari inland speed (30 km/h on QPWS pages, 35 km/h on a tour operator page); 30 km/h used.
 - Worimi page says both "more than 19 km" and "over 22 km" of beach; not quoted.
 - camping-rules-new-south-wales says "some national park beaches need a park pass"; the Worimi pages say annual park passes are not valid there, consistent with what is on this page.
+
+## FACT-CHECK 2026-10-21
+
+Claims verified: about 70 (rules, speeds, dates, dollar amounts, app claims).
+- Opened and read directly: Worimi Conservation Lands beach-driving page, MidCoast Council page, Parks Victoria media release (28 March 2022), SA DEW beach driving page, SA Coastal Driving Code PDF (read with pdftotext: 40 km/h default, 25 km/h passing pedestrians, registered vehicles, licensed drivers, high tides, tyre pressure, gauge/compressor/recovery gear, rescue costly), Shire of Broome Cable Beach ramp page (15 km/h; 1-30 Nov 8pm to 6am and days with high tides over nine metres; 1 Dec to 28 Feb closed; ramp closed until mid to late 2026; $200 not quoted), Tasmania PWS Arthur-Pieman pass page, Explore Parks WA four wheel driving page.
+- App claims checked against docs/growth/listicles/au-app-facts.md and lib/data/product-facts.json: 1,838 campgrounds, 745 national parks, vehicle access filter, place details stored on phone, iPhone only. All supported.
+- Search extract only (official page returned 403): all Queensland QPWS claims (K'gari permit, copy on request, high-clearance 4WD with low range, 80 km/h beach and 30 km/h inland, low tide advice, SUV/AWD not suitable in sand parks, Queensland road rules apply, tyre pressure) and the Sixt line. Cooloola vehicle access permit rests on the QPWS "Legal requirements" extract. Sixt: the 2019-era magazine article is old; the Sixt Australia rental information terms page (https://car-rental.sixt.com/php/terms/view?language=en_US&liso=AU&rtar=000&style=&tlang=en_US&view=IP) lists driving on beaches as off road and excluded, which supports the claim.
+
+Claims corrected (before -> after):
+- Intro and description "usually with a vehicle access permit and a 4WD" -> "often" (SA and Cable Beach do not state a permit).
+- Intro "Victoria's beaches are closed to private vehicles" -> "prohibits private vehicles on beaches except where an exemption applies" (https://www.parks.vic.gov.au/media-releases/2022/03/28/04/37/fishers-prosecuted-for-driving-on-beaches).
+- Worimi "frontal dune or vegetation, which protects Aboriginal cultural sites" -> frontal dune, grass or vegetation; separately, do not drive over shell accumulations, which may damage cultural sites. The page says the dune protects the park from storm flooding; cultural sites relate to shell accumulations and dune areas outside the recreation vehicle area (https://worimiconservationlands.com/beach-driving/).
+- Queensland table row "high-clearance 4WD" for all of Qld -> "K'gari needs a high-clearance 4WD" (4WD wording confirmed only for K'gari on this page).
+- QPWS tide advice "driving around low tide, within two hours either side" -> "planning beach driving around low tide"; the two hours either side of high tide to avoid is kept. The "two hours either side of low tide" was not confirmed.
+- Cable Beach "road-registered vehicles between the high and low water marks north of the ramp, not above the high water mark or into the dunes" -> replaced with what the Shire page states (15 km/h, stay off soft sand, avoid driving on the beach at night). The old rule came from a Shire page now 404; the Yawuru parks visitor guide extract mentions road registration and staying below the high tide mark, but the guide was not opened. Table cell changed to "Cable Beach: 15 km/h, with turtle season closures".
+- Turtle season "limited to essential and approved vehicles at night and at the highest tides" -> "closed to all but essential and approved vehicles from 8pm to 6am and on days when high tides exceed nine metres" (https://www.broome.wa.gov.au/Shire-Services/Roads-and-Parking/Cable-Beach-Vehicle-Ramp).
+- "as you must on Victorian beaches" -> "as the rule requires on Victorian beaches, where private vehicles are prohibited except under an exemption".
+
+Claims removed because unverifiable: the Cable Beach water-mark and dune sentence (above), the "within two hours either side" of low tide.
+
+Disagreements between official sources: none found on this page. Note the Worimi page itself states both 19 km and 22 km (not quoted). The Worimi speed rules (40 km/h, 20 km/h within 100 m) differ from MidCoast's (15 km/h); the page quotes only MidCoast's for MidCoast, which is correct.
+
+Negation check redone: "not valid", "not suitable", "prohibited", "do not drive or park", "only", "no" statements match the sources above.

@@ -28,3 +28,20 @@ All pages opened 2026-10-21. These return HTTP 403 to automated fetches (WebFetc
 
 ## CONFLICTS
 - None with an official source. camping-rules-queensland says K'gari, Bribie and Cooloola vehicle permits can be booked together; an extract agrees but it was not re-opened. The K'gari booking window shows as 12 months on one extract and 6 months on another, so no window is quoted.
+
+## FACT-CHECK 2026-10-21
+Verified (about 45 claims). Read in full via WebFetch: NSW Diamond Head page (75 sites, beachside, park entry fees payable at booking, off-the-ground braziers only), Worimi Conservation Lands page (Ganyamalbaa only, no overnight vehicles on beach, bookings essential, beach vehicle permits not included), Parks Victoria Cape Conran (Binn Beach, Gunnai Beach, Pearl Point non-bookable; fireplaces only), SA beach-driving page (Wauraltee ban, $315 fine plus $102 levy, bush campground from $20, council permit), SA Coffin Bay (fees before arrival, Black Springs eight sites within 50 m of beach), Explore Parks WA Nyinggulu (designated campgrounds only; Narelle damage), Tas Parks Bay of Fires (free, no bookings, four weeks), NT parks booking passes page. AussieCamps claims checked against au-app-facts.md and product-facts.json (1,838 campgrounds, 745 national parks, iPhone only, place details readable offline, maps/routing/weather/photos need signal, collections and trips): all supported.
+
+Search extract only (official page returned 403): Qld K'gari permit rules, Teewah Beach rules, Captain Billy Landing rules and 21-night limit, NT 50 m from water's edge and swimming advice (https://becrocwise.nt.gov.au/crocodiles-and-me, https://nt.gov.au/emergency/community-safety/crocodile-safety-be-crocwise/how-to-stay-safe).
+
+Corrected:
+- Cape Conran: "Banksia Bluff ... is the bookable campground" -> adds that Parks Victoria says it is temporarily closed, reopening expected before summer 2026/27 (https://www.parks.vic.gov.au/places-to-see/parks/cape-conran-coastal-park/where-to-stay/camping-in-cape-conran-coastal-park).
+- WA Ningaloo: "lists the campgrounds as bookable" / "booking at the campgrounds listed as bookable" -> "points to Park Stay WA for bookings" (the DBCA page does not say bookable; it links to Park Stay) (https://exploreparks.dbca.wa.gov.au/park/nyinggulu-ningaloo-coastal-reserves). FAQ now says booked through Park Stay WA.
+- Qld: "booked and paid before arrival" / "booked before you arrive" -> "bought before you set up camp" (official wording on K'gari page).
+- NT swimming: "unless a sign says the swimming area is open" -> "swim only in signposted designated swimming areas, not at Top End beaches" (NT Government wording; "open sign" came from an extract only).
+- SA Coffin Bay: "six designated campgrounds" removed; the page text says six but its list shows seven.
+- Intro and short-answer paragraph: removed unverified blanket claims ("banned in every place checked", "none allows it everywhere").
+
+Removed as unverifiable: the blanket "none allows it everywhere" claim; the "open sign" detail.
+
+Disagreements: Coffin Bay page text says six campgrounds, its own list shows seven (https://www.parks.sa.gov.au/parks/coffin-bay-national-park). K'gari booking window 12 vs 6 months on different Qld pages (not quoted). No other conflicts.

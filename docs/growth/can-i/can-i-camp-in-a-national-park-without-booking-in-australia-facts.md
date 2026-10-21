@@ -33,3 +33,24 @@ All pages opened 2026-10-21. These return HTTP 403 to automated fetches (WebFetc
 - camping-rules-new-south-wales says "A few basic listed sites, such as Tuross River ... need no booking"; confirmed.
 - camping-rules-victoria says King Hut is free with no booking; not re-confirmed (page 404).
 - camping-fees-australia-2026 says Tasmania moves to the Parks Online Booking System on 3 November 2026; confirmed on the Freycinet page.
+
+## FACT-CHECK 2026-10-21
+
+Verified: about 40 claims. Opened directly (WebFetch, 2026-10-21): qld.gov.au bookings; NSW camping-safety, Tuross River, Brou Lake, camping-in-national-parks, booking FAQs; Parks Victoria free-camping page and Cape Conran page; SA book-and-pay FAQs; Explore Parks WA camping fees; PWS Tasmania Bay of Fires camping, Bay of Fires conservation area, Freycinet, camping page; NT parkbookings pass page. App claims checked against docs/growth/listicles/au-app-facts.md and lib/data/product-facts.json (1,838 campgrounds, 745 national parks, iPhone only, place details readable offline).
+
+Corrected:
+- Victoria heading "the most first-come campgrounds" -> "some campgrounds are first come" (superlative not stated by Parks Victoria).
+- Cape Conran "Banksia Bluff is the bookable choice there" -> added that the park page says it is closed for essential works, reopening expected before summer 2026/27 (https://www.parks.vic.gov.au/places-to-see/parks/cape-conran-coastal-park/where-to-stay/camping-in-cape-conran-coastal-park).
+- Bay of Fires: FAQ implied a parks pass applies to the free Bay of Fires camps. PWS says the area is a conservation area, not a national park, and only the northern end (Ansons River mouth to Eddystone Point) is in Mount William National Park, which needs a pass; the campgrounds page does not state a pass rule (https://parks.tas.gov.au/explore-our-parks/bay-of-fires-conservation-area). Page now says exactly that.
+- FAQ "Rarely" (free national park camping with no booking) -> "Sometimes" (generalisation not supported); Brou Lake named as the $6 example.
+- FAQ "NSW park entry fees apply at many campgrounds" -> "park entry fees are separate from camping fees where they apply" (https://www.nationalparks.nsw.gov.au/campground-accommodation-booking-faqs).
+- SA park pass: added that the Desert Parks Pass is the exception (it includes camping in some parks); "skips the vehicle entry booking" confirmed.
+- NT: "non-residents need a Visitor Pass to reserve" -> "you must have a pass to reserve (NT residents do not need the Visitor Pass but still book and pay)".
+- WA table "At the most popular campgrounds" -> "At some of the most popular campgrounds"; NSW "many are booked online" -> "you book many of them online"; Tasmania table row now names Freycinet as a bookable example.
+- AussieCamps section: removed "land manager's own notes on booking" and the tip "Booking notes from the park agency" (app facts do not support booking notes); now "facilities, fees and rules, drawn from state park agencies".
+
+Removed as unverifiable: the booking-notes claim above only.
+
+Rests on search extracts (pages returned 403): ACT Honeysuckle, Mount Clear and Orroral "bookings essential" (parks.act.gov.au; Orroral also reported closed from flood access issues and online booking outage notices, undated, not used); NT "booked and paid online before arrival" (nt.gov.au/park-bookings and nt.gov.au/parks/camping). Table cells "None found" for Qld, SA, NT, ACT are search results, not guarantees.
+
+Official sources disagreeing: none found.
