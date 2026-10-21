@@ -34,9 +34,12 @@ const git = (...args) => execFileSync("git", args, { cwd: ROOT, encoding: "utf8"
 const day = (iso) => iso.slice(0, 10);
 
 const contentDir = join(ROOT, "lib/content");
-const files = existsSync(contentDir)
+// One module per "Can I...?" page (lib/can-i/<slug>.ts); helpers.ts has no slug, so it dates nothing.
+const canIDir = join(ROOT, "lib/can-i");
+const canIFiles = existsSync(canIDir) ? readdirSync(canIDir).filter((name) => name.endsWith(".ts")).map((name) => `lib/can-i/${name}`) : [];
+const files = (existsSync(contentDir)
   ? readdirSync(contentDir).filter((name) => name.endsWith(".ts")).map((name) => `lib/content/${name}`)
-  : ["lib/expanded-articles.ts", "lib/site.ts"];
+  : ["lib/expanded-articles.ts", "lib/site.ts"]).concat(canIFiles);
 
 /**
  * Every article's source, keyed by slug: from its own `slug: "…"` to the start of the next one, or
