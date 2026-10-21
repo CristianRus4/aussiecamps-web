@@ -22,3 +22,7 @@ Prices follow docs/translation-style/pl.md (`N AUD`, nbsp thousands, decimal com
 - Review fixes: hands-free use is wider than calls, "every occupant" includes the driver, whales vs "walenie", no "we" in the app comparison.
 - Note for the editor: the English licence FAQ ("for the length of your stay in most states") clashes with the guide body (6-month visitor period in
   NSW and Victoria; residency can come from visa type or employment). Translated faithfully.
+
+## Batch 4 (5 guides)
+- sydney-south-coast-camping, queensland-outback-way, south-west-wa-camping-loop, victoria-high-country-camping, kangaroo-island-camping-guide.
+- Review fixes: "much of it free" not "most", "belongs on the sand", state (not national) road authority, Polish species names, tours vs trips word rule held.
