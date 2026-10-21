@@ -26,3 +26,8 @@ Prices follow docs/translation-style/pl.md (`N AUD`, nbsp thousands, decimal com
 ## Batch 4 (5 guides)
 - sydney-south-coast-camping, queensland-outback-way, south-west-wa-camping-loop, victoria-high-country-camping, kangaroo-island-camping-guide.
 - Review fixes: "much of it free" not "most", "belongs on the sand", state (not national) road authority, Polish species names, tours vs trips word rule held.
+
+## Batch 5 (5 guides)
+- blue-mountains-camping-weekend, driving-in-australia-overseas-licence, camping-with-dogs-australia, camping-packing-list-australia, first-campervan-trip-australia.
+- Review fixes: a non-stretch tow strap named for the snatch strap, "up to twelve" restored, an IDP sentence that added a fact removed, the
+  dog-in-a-car national-park rule made logical with "never" kept, Compulsory Third Party kept separate from Polish OC.
