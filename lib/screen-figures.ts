@@ -51,6 +51,8 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "sydney-to-adelaide-drive", section: 8, src: "/images/screens/sydney-to-adelaide-drive.webp", alt: "AussieCamps on iPhone: the Collections screen with the Want to visit, Visited, Pins and All saved lists and saved collections for the Brisbane to Cape Tribulation, Perth to Broome and Blue Mountains road trips" },
   { slug: "melbourne-to-canberra-drive", section: 8, src: "/images/screens/melbourne-to-canberra-drive.webp", alt: "AussieCamps on iPhone: the Blue Mountains camping weekend road trip guide, with its trip length of 2 nights, what to plan around and what to book ahead" },
   { slug: "brisbane-to-byron-bay-drive", section: 7, src: "/images/screens/brisbane-to-byron-bay-drive.webp", alt: "AussieCamps on iPhone: the Walgun Cape Byron State Conservation Area page in New South Wales, with its description of the lighthouse and walking tracks, its Lighthouse Road address and its reported prices" },
+  { slug: "darwin-to-alice-springs-drive", section: 8, src: "/images/screens/darwin-to-alice-springs-drive.webp", alt: "AussieCamps on iPhone: the Darwin, Kakadu and Litchfield camping loop on the map around Darwin, with the 7-day weather forecast below it" },
+  { slug: "cairns-to-darwin-drive", section: 7, src: "/images/screens/cairns-to-darwin-drive.webp", alt: "AussieCamps on iPhone: the Darwin, Kakadu and Litchfield camping loop road trip guide, with its trip length of 7 days, the dry season to plan around and the park pass to book ahead" },
 ];
 
 const images = manifest as Record<string, unknown>;
