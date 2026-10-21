@@ -1,0 +1,40 @@
+# Sydney to Canberra drive: facts (slug sydney-to-canberra-drive)
+
+Researched 2026-10-21. OSRM = "OSRM routing on OpenStreetMap data, computed 21 October 2026" (car, no stops, no caravan, CBD to CBD). Transport for NSW project pages, ACT Parks and Live Traffic NSW body text returned 403 or no body to scripts: wording is a search extract where marked. Link, do not repeat: melbourne-to-canberra-drive, camping-rules-act, camping-rules-new-south-wales, sydney-to-melbourne-drive, blue-mountains-camping-weekend, sydney-south-coast-camping, can-i-stay-overnight-at-a-rest-area-in-australia, road-trip-fuel-planning-australia, dump-points-australia-guide, interstate-biosecurity-road-trip.
+
+## 1. Route options
+- A. Hume Highway (M31 from Prestons) to Goulburn, Federal Highway (M23) to Canberra. OSRM direct 294 km, 3h34 (Sydney to Goulburn 194 km 2h22; Goulburn to Canberra 100 km 1h17). With waypoints via Campbelltown, Marulan, Goulburn: 306 km, 4h01 (the waypoint route is a detour, do not use). Wikipedia (Goulburn): about 195 km from Sydney, 90 km from Canberra. ANU (anu.edu.au, fetched): "The drive will take you about three hours, give or take, on the Hume."
+  - Hume Highway (Wikipedia): M31 from Prestons where the M5 and M7 meet, "Both of these routes are tolled"; Prestons to Berrima dual carriageway, "generally dual-carriageway" outside urban areas; "The speed limit on the full length of the highway is 110 km/h"; Marulan bypass 1986, Mittagong bypass August 1992, Goulburn bypass 5 December 1992 (removed about 23,000 cars a day from the city).
+  - Federal Highway (Wikipedia): 72.7 km from the Hume Highway interchange near Yarra, southeast of Goulburn, to Canberra; passes Wollogorang, Collector and Sutton; skirts the western side of the Lake George basin; "The entire route has two lanes in each direction" (final dual section 2000). Speed NSW northbound a continuous 110 km/h; a southbound section near Yarra and Rowes Lagoon 100 km/h with many lower advisory signs; ACT 100 km/h to Antill Street, 80 km/h to Flemington Road, 70 km/h to the Barton Highway end. Route M23 in NSW. No wildlife info in the article.
+- B. Kings Highway coastal alternative: OSRM via Wollongong, Nowra, Batemans Bay, Braidwood, Bungendore: 426 km, 6h31 (Sydney to Wollongong 84 km; Nowra 73; Batemans Bay 118; Braidwood 61; Bungendore 49; Canberra 41). Wikipedia (Kings Highway): 139 km Batemans Bay to Canberra via Nelligen, Braidwood, Bungendore, Queanbeyan, B52, climbs Clyde Mountain; a 40 km section over the Great Dividing Range including the mountain recorded about 22% of crashes. No authority page was found that publishes this as a Sydney to Canberra route; present it only as a Wikipedia and OSRM comparison.
+- Southern Highlands (Old Hume Highway through Mittagong, Bowral, Moss Vale) and Kangaroo Valley: no authority found. NOT CONFIRMED. Leave out as a route. Kangaroo Valley crossing to Goulburn not confirmed.
+
+## 2. Stops
+- Goulburn: Big Merino "world's largest concrete sheep" (Wikipedia); 24,565 people at the 2021 census; elevation figures conflict (do not quote); snow "occasionally falls but is rarely significant" (Wikipedia). South Goulburn Caravan Park, 149 Hume Street, Goulburn (Visit NSW page, fetched): large drive-through caravan sites with power and water, unpowered tent sites, cabins with ensuites, pet-friendly; the page does not mention a dump point.
+- Bungonia campground (NPWS, fetched): park entry $8 per vehicle per day, paid at ticket machines, entry not included in camping fees; booking online or 1300 072 757 (7am to 7pm daily); 71 campsites including caravan, camper trailer and beside-vehicle sites, some unpowered; toilets, showers, drinking water, barbecues under shelter; "30 minute drive to Goulburn"; always open but may close for high fire danger or park operations, call (02) 4887 8270 (Fitzroy Falls Visitor Centre, 9am to 4pm); remote, arrive prepared; check-in 2pm, check-out 10am.
+- Data campgrounds (AussieCamps): Gambells Rest, Bundanoon AU00163 (park entry fee, caravan sites, showers, drinking water); Bungonia AU00082; ACT: Northern Border Campground AU20841.
+- Lake George (Wikipedia): about 25 km long and 10 km wide, endorheic, average depth about 1 m, dried completely in November 2002 and stayed dry until 2010, filled 2016, full again December 2021; the Federal Highway runs along its western shore; water once reached the road edge late 1980s to mid 1990s. No formal lookout described; wind farm, winery mentioned.
+- ACT camping (ACT Parks, search extract; page 403): Cotter Campground "Bookings are essential. Book online for general camping, camper-trailers and small vans"; water, hot showers, barbecues; no dogs. Honeysuckle: bookings essential, general camping and up to four campervans or camper-trailers, fees apply. Mount Clear (Namadgi): remote, unsuitable for campervans and caravans. Fees NOT CONFIRMED. Namadgi Visitor Centre (02) 6237 5307. Data: Cotter AU20838, Honeysuckle AU20839, Mount Clear AU20840, Northern Border AU20841.
+
+## 3. Fuel and rest areas
+- No fuel gap source: NOT CONFIRMED. ANU: "There are plenty of 24/7 food and fuel joints on the highway for a pit stop." OSRM legs between towns max 63 km (Campbelltown to Mittagong) on the Hume.
+- Rest areas in data (free): Appin Park, Wollondilly AU09915 (toilets, shelter, picnic tables, barbecues, heavy vehicle area, accessible toilet, playground; 6 km off the route line); Anderson VC Rest Area, Yass Valley AU10110 (toilets, shelter, picnic tables, barbecues, heavy vehicle area, accessible toilet). Zebra sculptures at a highway "Driver Reviver" stop near Lake George (Wikipedia Lake George): not named. Breaks, not beds.
+
+## 4. Tolls (Sydney)
+- NSW Government (nsw.gov.au paying a toll page, fetched): "If you travel on a toll road without an active toll account or pass, you have 72 hours to pay or create a toll account." Otherwise a Toll Payment Demand with the toll plus a video matching fee. Pay: Sydney Harbour Bridge and Tunnel via E-Toll (13 18 65 or 1300 883 114); Cross City Tunnel, Eastern Distributor, Hills M2, Lane Cove Tunnel, M5 South-West Motorway, NorthConnex, WestConnex and Westlink M7 via Linkt (13 33 31, Linkt toll notice site).
+- Service NSW (fetched): visitors can use "Visiting NSW or up to 30 days NSW toll road use" (eMU Casual Pass); you can open an account or buy a pass "up to 72 hours after you travel on a toll road"; E-Toll handles Harbour Bridge and Tunnel, Linkt all other toll roads.
+- Wikipedia: M5 and M7 tolled; Hume Highway itself not described as tolled; Federal Highway: no tolls described. Which tolls you meet depends on your route out of Sydney: NOT CONFIRMED by name.
+
+## 5. Conditions, border, clock
+- Live Traffic NSW https://www.livetraffic.com (200, page title only); 132 701 appears in Transport for NSW closure reports and on the finished Melbourne to Canberra page. No official page was opened on snow, fog or fire closures on this route: leave out. Search extracts of local news (undated) mention snow, ice and fog near Goulburn and a grass fire closure on the Federal Highway, none official: leave out. Roadworks: Transport for NSW "Hume Highway traffic impacts" page returned 403: NOT CONFIRMED.
+- Interstate Quarantine: NSW "No fruit fly restrictions are listed"; the ACT is grouped with NSW without separate zones; no ACT source on fruit found. No border checkpoint on this route.
+- Daylight saving: NSW and the ACT both observe it, began Sunday 4 October 2026, ends Sunday 4 April 2027; no clock change.
+
+## 6. Dump points (data coverage)
+Ampol Foodary Pheasants Nest Southbound AU18921 (free, toilets, showers; no washout tap listed); Epic (Exhibition Park Campground), Lyneham AU18268. Nothing in the data between Pheasants Nest and Canberra (gap, not proof).
+
+## 7. Hero
+File:Lake George - panoramio (2).jpg, Maksym Kozlenko, CC BY-SA 3.0, 2700x1800, page 200. Federal Highway curving above the green Lake George basin, a few distant cars. Used.
+
+## NOT CONFIRMED (left out)
+Fuel gaps and stations; Southern Highlands and Kangaroo Valley routes; snow, fog and fire closures; Hume roadworks; ACT camping fees; ACT fruit rules.
