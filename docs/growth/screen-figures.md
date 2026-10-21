@@ -42,6 +42,7 @@ followed by that section's heading. Source screenshots are in `~/Marketing/Campi
 | can-i-take-alcohol-into-restricted-areas-on-an-outback-road-trip | 7 (Plan your route in AussieCamps) | aussiecamps_guides_adelaide-to-uluru_top.png | AussieCamps on iPhone: the Adelaide to Uluru outback camping route guide, with a trip length of 10 to 12 days, what to plan around and what to book ahead |
 | christmas-summer-camping-australia-2026-27 | 7 (Using AussieCamps over summer) | aussiecamps_place-detail_big4-rainbow-beach-hp_top.png | AussieCamps on iPhone: the BIG4 Rainbow Beach Holiday Park page in Queensland with its address, hours and Book now button |
 | wet-season-camping-top-end-northern-wa | 8 (Using AussieCamps in the wet) | aussiecamps_place-detail_litchfield-np_middle.png | AussieCamps on iPhone: the Litchfield National Park page in the Northern Territory with its photos and a 7-day forecast from Apple Weather |
+| sydney-to-melbourne-drive | 8 (Plan the Sydney to Melbourne drive in AussieCamps) | aussiecamps_guides_blue-mountains-weekend_map.png | AussieCamps on iPhone: the Blue Mountains camping weekend road trip on the map, with the route, dump points and the weather forecast along it |
 
 `best-fuel-price-apps-australia` is the one exception to "the section whose heading names AussieCamps":
 no heading of that guide names the app, so its figure sits in "Fuel is the biggest cost you can plan", whose

@@ -45,6 +45,7 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "can-i-take-alcohol-into-restricted-areas-on-an-outback-road-trip", section: 7, src: "/images/screens/can-i-take-alcohol-into-restricted-areas-on-an-outback-road-trip.webp", alt: "AussieCamps on iPhone: the Adelaide to Uluru outback camping route guide, with a trip length of 10 to 12 days, what to plan around and what to book ahead" },
   { slug: "wet-season-camping-top-end-northern-wa", section: 8, src: "/images/screens/wet-season-camping-top-end-northern-wa.webp", alt: "AussieCamps on iPhone: the Litchfield National Park page in the Northern Territory with its photos and a 7-day forecast from Apple Weather" },
   { slug: "christmas-summer-camping-australia-2026-27", section: 7, src: "/images/screens/christmas-summer-camping-australia-2026-27.webp", alt: "AussieCamps on iPhone: the BIG4 Rainbow Beach Holiday Park page in Queensland with its address, hours and Book now button" },
+  { slug: "sydney-to-melbourne-drive", section: 8, src: "/images/screens/sydney-to-melbourne-drive.webp", alt: "AussieCamps on iPhone: the Blue Mountains camping weekend road trip on the map, with the route, dump points and the weather forecast along it" },
 ];
 
 const images = manifest as Record<string, unknown>;

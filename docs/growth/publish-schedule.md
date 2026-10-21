@@ -58,3 +58,4 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-11-16 | can-i-take-a-campervan-or-caravan-on-the-spirit-of-tasmania | scheduled |
 | 2026-11-17 | can-i-camp-on-private-land-or-a-farm-in-australia | scheduled |
 | 2026-11-18 | can-i-take-alcohol-into-restricted-areas-on-an-outback-road-trip | scheduled |
+| 2026-11-19 | sydney-to-melbourne-drive | scheduled |
