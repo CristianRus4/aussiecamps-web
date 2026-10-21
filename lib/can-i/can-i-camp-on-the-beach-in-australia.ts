@@ -13,7 +13,7 @@ export default article({
   description: "Only where the land manager allows it, usually a booked or permitted beach campground. Beach camping rules for Qld, NSW, Vic, SA, WA, Tas and NT, 2026.",
   category: "Rules & safety", region: "Australia",
   places: ["K'gari", "Bay of Fires", "Cape Conran", "Ningaloo Coast"],
-  imageAlt: "Placeholder: a tent pitched behind the dunes at an Australian beach campground",
+  imageAlt: "A camp chair on a timber platform at the Johanna Beach hikers' campsite on Victoria's Great Ocean Walk, looking down over the beach and surf",
   intro: "It depends on the land manager: you can camp on a beach only in a campground or zone they have set aside, and that usually needs a booking or a permit first. At the places checked for this page, camping outside those areas is not allowed, and some beaches ban overnight camping outright.",
   related: ["is-free-camping-legal-australia", "camping-rules-queensland", "camping-rules-new-south-wales", "camping-fees-australia-2026"],
   sections: [

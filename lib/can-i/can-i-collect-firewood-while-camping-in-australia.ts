@@ -13,7 +13,7 @@ export default article({
   description: "Mostly no. Parks in Victoria, Queensland, SA, WA and Tasmania ban collecting firewood, and NSW allows it only in some backcountry. Some state forests allow it.",
   category: "Rules & safety", region: "Australia",
   places: ["National parks", "State forests", "Campgrounds", "Roadside stalls"],
-  imageAlt: "Placeholder: stacked firewood beside a campfire at an Australian campground",
+  imageAlt: "A stack of split firewood logs in a woodpile in Hobart, Tasmania",
   intro: "No, not in a national park: the park agencies in Victoria, Queensland, South Australia, Western Australia and Tasmania ban collecting firewood there, and NSW allows it only in some remote backcountry areas, so you bring your own wood or cook on gas. Collecting is only allowed in designated areas of some state forests, usually with a permit, set seasons or volume limits.",
   related: ["campfires-camping-australia", "responsible-camping-australia", "interstate-biosecurity-road-trip", "camping-rules-victoria"],
   sections: [

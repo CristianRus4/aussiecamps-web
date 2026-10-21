@@ -13,7 +13,7 @@ export default article({
   description: "Sometimes, but not in Queensland, South Australia or the NT, where you book before you arrive. Which national park campgrounds need no booking, by state, 2026.",
   category: "Rules & safety", region: "Australia",
   places: ["Cape Conran", "Wadbilliga National Park", "Bay of Fires", "Namadgi National Park"],
-  imageAlt: "Placeholder: a tent at a small national park campground with no booking sign",
+  imageAlt: "A white tent pitched among ferns and eucalypts at the Sealers Cove campsite in Wilsons Promontory National Park, Victoria",
   intro: "Sometimes, but not everywhere: in Queensland, South Australia and the Northern Territory you must book and pay before you arrive, while New South Wales, Victoria, Western Australia and Tasmania each have campgrounds that take no bookings. The deciding rule is the campground's own page, which says whether it is bookable, first come, first served or a self-registration site.",
   related: ["camping-fees-australia-2026", "is-free-camping-legal-australia", "camping-rules-queensland", "choosing-campsite-australia"],
   sections: [

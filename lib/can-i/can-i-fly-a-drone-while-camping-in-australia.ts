@@ -13,7 +13,7 @@ export default article({
   description: "Usually not. CASA allows flying for fun, but most park agencies ban drones or need approval, and Queensland bans them in camping areas. Rules by state, 2026.",
   category: "Rules & safety", region: "Australia",
   places: ["National parks", "Campgrounds", "Kakadu", "Uluru-Kata Tjuta"],
-  imageAlt: "Placeholder: a drone in flight above an Australian coastline",
+  imageAlt: "A camera drone hovering against a clear sky at Lamberts Beach Lookout, Slade Point, Queensland",
   intro: "It depends, but in a national park or park campground the answer is usually no. CASA lets you fly a drone for fun, and then the land manager decides: Victoria, Tasmania, the ACT, Kakadu and Uluru-Kata Tjuta do not allow recreational flying, NSW needs approval, and Queensland bans drones in all its camping areas.",
   related: ["camping-rules-queensland", "camping-rules-victoria", "responsible-camping-australia", "camping-rules-new-south-wales"],
   sections: [

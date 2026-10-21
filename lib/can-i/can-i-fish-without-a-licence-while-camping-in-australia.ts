@@ -13,7 +13,7 @@ export default article({
   description: "It depends on the state. NSW, Victoria, Tasmania (inland) and WA (boat, freshwater) need a licence; Queensland, SA, NT and the ACT do not. Fees checked 2026.",
   category: "Rules & safety", region: "Australia",
   places: ["Rivers and lakes", "Stocked dams", "Beaches", "Marine parks"],
-  imageAlt: "Placeholder: an angler fishing from a riverbank beside an Australian campsite",
+  imageAlt: "Fishing rods in holders on the Palm Cove fishing jetty near Cairns, Queensland, with a tackle box and bucket beside the rail",
   intro: "It depends on the state: NSW and Victoria require a licence or fee for recreational fishing, Tasmania for inland angling, and WA for specific activities, while Queensland, South Australia, the Northern Territory and the ACT have no general licence. Everywhere, bag and size limits apply, and fishing is banned in marine park sanctuary zones.",
   related: ["camping-rules-new-south-wales", "camping-rules-queensland", "camping-rules-northern-territory", "responsible-camping-australia"],
   sections: [
