@@ -38,6 +38,10 @@
 - **Sitemap:** https://aussiecamps.app/sitemap.xml was submitted or resubmitted on 2026-10-19. Before that, the sitemap was either never submitted (aussiecamps) or last read on 20 Nov 2025 (campingapp).
 - **Baselines:** `docs/growth/gsc/2026-10-19/`.
 
+## Naver Search Advisor (Korean search)
+- Ownership verified for https://aussiecamps.app on 2026-10-21 with the HTML meta tag (`naver-site-verification` in the root layout's `metadata.other`; keep it).
+- Sitemaps submitted 2026-10-21: /sitemap.xml and /sitemaps/ko.xml. Page collection requested for https://aussiecamps.app/ko/.
+
 ## Weekly loop
 Each week:
 1. Pull GSC pages and queries, GA4 `app_store_click` by placement, locale and page, and App Store Connect campaigns and web referrer.
