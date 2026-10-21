@@ -66,6 +66,8 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "perth-to-albany-drive", section: 7, src: "/images/screens/perth-to-albany-drive.webp", alt: "AussieCamps on iPhone: the Cape Le Grand National Park place page in Western Australia, with a notes field, a 7-day weather forecast and Lucky Bay under useful places nearby" },
   { slug: "perth-to-margaret-river-drive", section: 7, src: "/images/screens/perth-to-margaret-river-drive.webp", alt: "AussieCamps on iPhone: a Western Australia road trip guide with a trip summary card, an orange route line and place markers on the map, and a 7-day weather forecast" },
   { slug: "sydney-to-canberra-drive", section: 6, src: "/images/screens/sydney-to-canberra-drive.webp", alt: "AussieCamps on iPhone: the Jervis Bay National Park place page in New South Wales, with photos, a notes field, a 7-day weather forecast and useful places nearby" },
+  { slug: "melbourne-to-mildura-drive", section: 6, src: "/images/screens/melbourne-to-mildura-drive.webp", alt: "AussieCamps on iPhone: the Mungo National Park place page in New South Wales, with a visitor centre facility, photos, a notes field and a weather forecast" },
+  { slug: "townsville-to-mount-isa-drive", section: 6, src: "/images/screens/townsville-to-mount-isa-drive.webp", alt: "AussieCamps on iPhone: the Cape Hillsborough National Park place page in Queensland, with a camping photo, a park description and amenities and features including a lookout, walking tracks and camping" },
 ];
 
 const images = manifest as Record<string, unknown>;
