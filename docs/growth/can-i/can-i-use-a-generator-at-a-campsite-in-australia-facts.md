@@ -28,3 +28,21 @@ Opened 2026-10-21. Pages marked "search extract" returned HTTP 403 (Cloudflare o
 ## CONFLICTS
 - A Discover Tasmania tourism listing says Lime Bay generators must be off at 10pm; the PWS page says 9pm. Page uses 9pm.
 - responsible-camping-australia says to "follow quiet hours" without detail; no conflict. sleeping-in-car-australia says Queensland rest area generators "must stay off between 7pm and 7am": matches s10B(e) for general vehicle rest areas.
+
+## FACT-CHECK 2026-10-21
+Independent re-check against the official pages (opened again 2026-10-21; some only reachable with a Safari user agent).
+
+Verified (about 60 claims, all dollar/hour/kVA/dB/metre figures and all never/not/only/must statements): NSW policy and NPWS page (generally not permitted, sign or park manager consent, one generator, closer to own camp, curfews, local fire ban, vehicle engines count, medical certificate, signed prohibition for a period); Queensland qld.gov.au (page last updated 21 April 2026: not permitted in most parks, 2.0 kVA, 65 dB at 7 m unless otherwise specified, park pages set hours, fire precautions incl. manufacturer's guidelines and being present, never on local fire ban days, medical 2.0 kVA with certificate, solar/inverter/charge-while-driving); Queensland State-controlled Roads Regulation 2017 s10B(e) (7pm to 7am at general vehicle rest area) and s10F(1)(c) (no generator while camping on a state-controlled road), 20 penalty units; Explore Parks WA (usually 8am to 9pm, 3 m clear, total fire ban, separate generator and quiet areas, exemption via contact us page, no powered campsites); Vic gov camping (updated 15 August 2025) and Warby-Ovens (3 m cleared on Total Fire Ban day); Wilsons Promontory and Jimmy Creek "No generators"; SA camping essentials, Onkaparinga, Kati Thanda-Lake Eyre (daylight hours); Tasmania Lime Bay (9pm), Peggs Beach and Black River (10am to 8pm), Narawntapu, Cockle Creek (over the bridge); Kakadu Mardugal One and Maguk.
+
+Corrected (before -> after):
+- NSW table row: "and noise curfews apply" -> "and any noise curfew in the campground applies" (NPWS says only some parks have curfews).
+- Victoria state forests: "require a spark arrestor ... 1.5 m ... extinguisher" -> "state forest page says to fit a spark arrestor ... keep 1.5 m ... have water or a stored-pressure extinguisher" (vic.gov.au says a generator is allowed "if it's safe to do so" and lists these as safety steps, not a regulation).
+- Hours section: "Queensland sets a noise limit rather than a clock" -> "as well as park-by-park hours" (Queensland also says park pages set hours of use).
+
+Removed because unverifiable: nothing removed. Still resting on search extracts only (nt.gov.au and parks.act.gov.au return 403 to every fetcher): NT rule "not permitted unless authorised or signed" and Litchfield/Nitmiluk "no generators"; Keep River Goorrandalng 7.30am to 8.30pm (extended web search of the official NT Keep River fact sheet and park page returned this window; third-party sites only show the 8.30pm end); ACT Mount Clear "Motorised generator use prohibited" (search extract of the Parks ACT page; Parks ACT Namadgi guide also reported as saying no generators at campgrounds).
+
+Notes: Kakadu campground URLs now 301 to kakadu.gov.au (parksaustralia.gov.au/kakadu/... still resolves). The Qld park-level 2.0 kVA/65 dB wording is "appropriate in our camp sites, unless otherwise specified", the page paraphrase is fine.
+
+App claims: 1,838 campgrounds and 745 national parks match lib/data/product-facts.json totals; filters include power, offline/online split, iPhone only all match au-app-facts.md. No permit, alert or rule status is claimed beyond "land manager's facilities and rules".
+
+Official sources that disagree: none on a rule. (Discover Tasmania 10pm vs PWS 9pm for Lime Bay remains; the page uses the PWS 9pm.)

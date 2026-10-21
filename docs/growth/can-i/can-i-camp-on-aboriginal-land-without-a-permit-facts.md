@@ -27,3 +27,29 @@ Opened 2026-10-21 unless noted. Several land council and NT pages are undated or
 - camping-rules-northern-territory: NLC fine "$18,200" matches the NLC page top block but the NLC page elsewhere states $11,100; no action. Guide says Mereenie Tour Pass is "free from the CLC"; CLC also lists small fees at other outlets (page states both).
 - red-centre-way-camping says the Mereenie permit is "inexpensive and available from visitor centres"; the CLC says it is free from CLC reception and a small fee elsewhere.
 - camping-rules-western-australia says Entering an Aboriginal reserve needs a permit "issued through the Department of Planning, Lands and Heritage"; true, but the Great Central Road needs a second permit from the Ngaanyatjarra Council for its section (not mentioned in that guide's excerpt).
+
+## FACT-CHECK 2026-10-21
+Independent re-check (opened again 2026-10-21; all pages loaded).
+
+Verified (about 70 claims): CLC permits page (freehold more than half; transit roads Tjukaruru, Gary Junction, Sandy Blight, Glen Helen to Papunya; Tjukaruru camping only at Kaltukatjara; Mereenie Tour Pass free from CLC reception and small fee at Tourism Central Australia, Ntaria Store, Glen Helen Resort, Kings Canyon Resort; no camping on Mereenie Loop; entry permits incl. Simpson Desert tracks, at least a week; transit permits and simple permits free; group on one application; alcohol; photography; Tanami Road not listed); NLC permits page (written permit; not Crown or public land; up to 10 days; most permits no charge, TO access and camping fees at some locations; entry only unless camping etc. written in; recreation sites with rules on numbers and stay; stopping only in certain locations on transit routes; 50 PU Commonwealth, 8 PU NT, insurance; tour operators need a work permit; closures); WA Government (ALT over 8 per cent; transit permit NT border to Laverton on Great Central Road; free; per vehicle; weekdays 8.30am to 5pm AWST; several weeks ahead but not more than 30 days; generally no more than three days; community charges and Visitor's Pass); Ngaanyatjarra Council (3 days and 2 nights; automatic-approval roads; no permits for Anne Beadell, Gary Junction, Neale Junction, Kiwirrkurra; abandoned Gunbarrel not open; no communities); Shire of Ngaanyatjarraku (two to three weeks; TOs can refuse; patrolled and fined); Explore Parks WA Mitchell River (Uunguu Visitor Pass online before arrival; camping fees apply); APY (no transit permits for tourists; 10 to 14 days; apply 30 days before); Mamungari (permit from Maralinga Tjarutja, 4 to 6 weeks; Woomera Prohibited Area permit for Anne Beadell; free entry; fees apply for bush camping); Cape York Tourism Guide Dec 2023 ("To camp on Aboriginal land you must contact the Land Trust or local Council for permission"); Parks Australia Kakadu (7-day pass, campgrounds in all seven regions, permit to camp outside designated sites) and Uluru (no camping inside the park; Ayers Rock Resort and Curtin Springs).
+
+Corrected (before -> after):
+- Intro: "Public roads need no Aboriginal land permit" -> "Passing through a community on a public road needs no permit to reach its public areas such as the store" (the old wording clashed with the Great Central Road, a through road that WA requires a transit permit for).
+- "Why a permit is needed": "Travellers on public roads do not need one" -> "Travellers who stay on public roads in the CLC region do not need one".
+- NLC timing (FAQ 4, "How to get one" and NT Top End table row): "up to 10 days" now also notes the NLC recreation FAQ says "at least 10 days may be required" (NLC's own pages differ).
+- CLC transit permits "self-issued online" -> "(the Mereenie Tour Pass is the exception)" (CLC: the Mereenie transit permit is not available online).
+- Mamungari: "vehicle entry is free" -> "entry is free" (SA parks says "Free entry").
+- Added the NLC's one stated exception: on the Cox Peninsula the Kenbi Open Area Declaration Map shows areas with restricted access and camping without a permit (NLC transit permit FAQ).
+
+Removed because unverifiable: nothing removed.
+
+Notes and open points:
+- NLC page shows conflicting penalty dollar values for the same units ($18,200 / $1,512 in one block, $11,100 / $1,264 in another), so only penalty units are quoted. CLC fine ($2,100 as at 2020) is not quoted.
+- NLC page says recreation applications are "temporarily unavailable online" (undated, with a downloadable pack for special circumstances). Not stated on the page; check before relying on online recreation permits.
+- The CLC and NLC pages still carry COVID-era wording (vaccination certificate, access restrictions); not used.
+- Cape York guidance rests on a December 2023 guide, not a current agency page (qld.gov.au and parks.qld.gov.au return 403).
+- NT park campgrounds "bookable" rests on au-app-facts.md (nt.gov.au/parks/camping, 403 to fetchers).
+
+App claims: 745 national parks and 1,838 campgrounds match product-facts.json totals; the page says the app does not show permit status, consistent with au-app-facts.md. No other app claim made.
+
+Official sources that disagree: NLC https://www.nlc.org.au/permits (permits "up to 10 days" at the top and in the transit FAQ versus "at least 10 days may be required" in the recreation FAQ on the same page). The CLC https://www.clc.org.au/permits/ and NLC pages give different processing times for different permit types, not a conflict.
