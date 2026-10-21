@@ -4,6 +4,7 @@ import "./globals.css";
 import { SITE_URL } from "@/lib/site";
 import { smartBannerContent } from "@/lib/app-store";
 import { AnalyticsScript } from "@/components/analytics";
+import { SocialOverlay, SocialScript } from "@/components/social";
 import { alternatesFor, ogAlternates } from "@/lib/seo";
 
 const sans = DM_Sans({ variable: "--font-sans", subsets: ["latin"], display: "swap" });
@@ -70,5 +71,6 @@ const headerScroll = `(function(){var h=document.querySelector(".site-header");i
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   // Analytics comes first in <body> so the Consent Mode defaults are set before anything else runs.
-  return <html lang="en-AU"><body className={sans.variable}><AnalyticsScript />{children}<script data-static-tools dangerouslySetInnerHTML={{ __html: headerScroll }} /></body></html>;
+  // The social script follows at once, so a social-link redirect happens before the page paints.
+  return <html lang="en-AU"><body className={sans.variable}><AnalyticsScript /><SocialScript />{children}<SocialOverlay /><script data-static-tools dangerouslySetInnerHTML={{ __html: headerScroll }} /></body></html>;
 }
