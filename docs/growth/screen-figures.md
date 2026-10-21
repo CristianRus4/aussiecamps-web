@@ -23,6 +23,7 @@ followed by that section's heading. Source screenshots are in `~/Marketing/Campi
 | best-money-saving-travel-apps-australia | 1 (1. AussieCamps: cut what you pay for a bed) | aussiecamps_place-detail_coffin-bay-np_middle.png | AussieCamps on iPhone: the Coffin Bay National Park page with its features and reported prices per night and per vehicle |
 | hipcamp-alternatives | 2 (1. AussieCamps: public campgrounds and farm stays in one app) | aussiecamps_place-detail_mount-buffalo-np_top.png | AussieCamps on iPhone: the Mount Buffalo National Park page in Victoria with its description and amenities |
 | camps-australia-wide-alternatives | 2 (1. AussieCamps: official data and a trip plan on iPhone) | aussiecamps_place-detail_flinders-ranges-np_middle.png | AussieCamps on iPhone: the Ikara-Flinders Ranges National Park page with its amenities and features, including Camping and Caravan Sites, and its reported prices |
+| best-apps-lap-of-australia | 2 (1. AussieCamps: where to stop, and a plan for the whole lap) | aussiecamps_guides_road-trips_list-2.png | AussieCamps on iPhone: the Guides list with the Tasmania camping loop, the Darwin, Kakadu and Litchfield camping loop and the Adelaide to Uluru outback route |
 | best-camping-app-australia | 1 (1. AussieCamps: best for official data and trip planning on iPhone) | aussiecamps_place-detail_karijini-np_top.png | AussieCamps on iPhone: the Karijini National Park page with its amenities and features |
 
 `best-fuel-price-apps-australia` is the one exception to "the section whose heading names AussieCamps":

@@ -240,6 +240,12 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["How much does the CAMPS app cost?", "It is free to download and free for the first 7 days, then A$14.99 a year. You need a payment method to start the trial, so cancel before it ends if you do not want to be charged."],
     ["Does CAMPS work without phone signal?", "Yes, once you have downloaded a state's maps over Wi-Fi. The app switches to offline mode when you leave coverage, but the map files need updating by hand to stay current."],
   ],
+  "best-apps-lap-of-australia": [
+    ["What apps do I need for a lap of Australia?", "Most travellers combine a camp and stop directory such as AussieCamps, WikiCamps or CAMPS, an offline map for remote stretches, a fuel app, BOM Weather for warnings and Google or Apple Maps for navigation."],
+    ["Which app is best for finding free camps on a Big Lap?", "WikiCamps has the largest community catalogue of free and low-cost camps for A$9.99 once per platform, and CAMPS lists sites its team has checked for A$14.99 a year after a 7-day trial."],
+    ["Do I need offline maps for a lap of Australia?", "Yes for the remote sections. Tourism Australia says Nullarbor services are often 150 to 200 km apart, and phone coverage can end well before them. Download maps in Google Maps, CAMPS or ExplorOz before you leave coverage."],
+    ["Is there an app that plans the whole Big Lap?", "No single app plans every part. AussieCamps builds a trip of ordered stops with driving distance and time for each leg and forecasts for your arrival dates, and Google Maps limits a route to 9 stops, so a full lap is split into several routes."],
+  ],
   "hipcamp-alternatives": [
     ["What is like Hipcamp in Australia?", "For bookable stays, AussieCamps lists farm and station stays and holiday parks from BookEasy, and G'day Parks books its own holiday parks. For public camping, AussieCamps, WikiCamps, CAMPS and CamperMate cover national park campgrounds and free camps, and each state's park agency takes bookings directly."],
     ["How do I book a national park campsite in Australia?", "Through the park agency for that state or territory, such as NSW National Parks, Parks Victoria or Queensland Parks and Wildlife Service. In Queensland, every camp in a national park, state forest or recreation area needs a permit booked before you arrive."],
