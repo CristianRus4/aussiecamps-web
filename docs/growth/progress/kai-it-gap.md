@@ -26,11 +26,13 @@ KiwiCamping: 41 guides with no Italian (2322 units) plus 2 guides with a protect
 | B5 | kangaroo-island-camping-guide, blue-mountains-camping-weekend | done (1a3c3b1) |
 
 ## Done
+- LANE COMPLETE (2026-10-21): Italian 80/80 guides on AussieCamps and 89/89 on KiwiCamping; engine audit `it` 100% on KiwiCamping. `npm run check` green on both branches.
 - KiwiCamping Handoffs 3-5 (branch i18n/k-it-gap): K0, K1, K2, K3, K4, K5, K6 committed, `npm run check` green at K4. Italian 69/89 guides.
 - AussieCamps COMPLETE: Italian 80/80 guides (B3a/B3b/B3c/B5 added after Handoff 1), `npm run check` green (Handoff 2, branch i18n/a-it-gap).
 - B1, B2, B4 (15 road-trip guides) applied, stamped, `npm run check` green (Handoff 1). AussieCamps Italian: 73/80 guides.
 
 ## Next
+- Nothing. Wait for orchestrator merge. (KiwiCamping tip: i18n/k-it-gap, rebased onto dd72fbe; meta/it.json restamped after resolving a stamp-file conflict with the judge-fix commit.)
 - KiwiCamping (branch i18n/k-it-gap, worktree kiwicamping-web/kai-it-gap): batches K1..K10 below, plus two protected-term fixes
   (doc-campsite-rules sections[6].body[0] needs 'DOC'; new-zealand-travel-cost-2026 title needs 'NZD').
 - B3a/B3b/B3c listicles, B5 (finishes AussieCamps), then KiwiCamping (41 guides + 2 protected-term fixes; order in this file once started)
@@ -45,10 +47,10 @@ KiwiCamping: 41 guides with no Italian (2322 units) plus 2 guides with a protect
 | K4 | wikicamps-alternatives, best-campervan-apps-new-zealand | done (fbb2ab3 pre-rebase, k-it-gap) |
 | K5 | best-weather-apps-new-zealand, fuel-price-apps-new-zealand | done (a1dcdb6, k-it-gap) |
 | K6 | working-holiday-apps-new-zealand, money-saving-travel-apps-new-zealand | done (d8f8997, k-it-gap) |
-| K7 | doc-campsites-new-zealand-guide, self-contained-campervan-green-warrant, camping-fees-new-zealand-2026, freedom-camping-rules-new-zealand, freedom-camping-new-zealand-guide | drafting |
-| K8 | scenic-campsites-new-zealand, holiday-parks-new-zealand-guide, new-zealand-camping-packing-list, camping-wastewater-rubbish-new-zealand, responsible-camping-new-zealand | drafting |
-| K9 | best-time-camping-new-zealand, campfire-rules-new-zealand, two-week-camper-itinerary-new-zealand, wellington-wairarapa-camping-loop, north-island-two-week-road-trip | drafting |
-| K10 | west-coast-south-island-road-trip, queenstown-glenorchy-camping, southern-scenic-route-camping, fiordland-camping-road-trip, south-island-two-week-road-trip | queued |
+| K7 | doc-campsites-new-zealand-guide, self-contained-campervan-green-warrant, camping-fees-new-zealand-2026, freedom-camping-rules-new-zealand, freedom-camping-new-zealand-guide | done (k-it-gap) |
+| K8 | scenic-campsites-new-zealand, holiday-parks-new-zealand-guide, new-zealand-camping-packing-list, camping-wastewater-rubbish-new-zealand, responsible-camping-new-zealand | done (k-it-gap) |
+| K9 | best-time-camping-new-zealand, campfire-rules-new-zealand, two-week-camper-itinerary-new-zealand, wellington-wairarapa-camping-loop, north-island-two-week-road-trip | done (k-it-gap) |
+| K10 | west-coast-south-island-road-trip, queenstown-glenorchy-camping, southern-scenic-route-camping, fiordland-camping-road-trip, south-island-two-week-road-trip | done (k-it-gap) |
 (KiwiCamping progress is also recorded here; no progress file is added on i18n/k-it-gap.)
 
 ## Blockers / notes
