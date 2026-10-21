@@ -182,7 +182,7 @@ const allMatch = (english: Record<string, string>, translated: Record<string, un
   !!translated && Object.entries(english).every(([key, value]) => matches(value, translated[key]));
 
 /** Every number in a paragraph, separators dropped, in order: "4,046.5" and "4.046,5" are both 40465. */
-export const proseNumbers = (text: string) => (text.match(/\d(?:[\d.,\s  ]*\d)?/g) ?? []).map((number) => number.replace(/\D/g, "")).sort().join(" ");
+export const proseNumbers = (text: string) => (text.match(/\d+(?:[.,   ]\d{3}(?!\d))*(?:[.,]\d+)?/g) ?? []).map((number) => number.replace(/\D/g, "")).sort().join(" ");
 
 function isProseComplete(english: string[] | undefined, translated: unknown) {
   if (!english?.length) return true;
