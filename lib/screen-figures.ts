@@ -45,6 +45,8 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "can-i-take-alcohol-into-restricted-areas-on-an-outback-road-trip", section: 7, src: "/images/screens/can-i-take-alcohol-into-restricted-areas-on-an-outback-road-trip.webp", alt: "AussieCamps on iPhone: the Adelaide to Uluru outback camping route guide, with a trip length of 10 to 12 days, what to plan around and what to book ahead" },
   { slug: "wet-season-camping-top-end-northern-wa", section: 8, src: "/images/screens/wet-season-camping-top-end-northern-wa.webp", alt: "AussieCamps on iPhone: the Litchfield National Park page in the Northern Territory with its photos and a 7-day forecast from Apple Weather" },
   { slug: "christmas-summer-camping-australia-2026-27", section: 7, src: "/images/screens/christmas-summer-camping-australia-2026-27.webp", alt: "AussieCamps on iPhone: the BIG4 Rainbow Beach Holiday Park page in Queensland with its address, hours and Book now button" },
+  { slug: "campervan-hire-cost-australia-2026", section: 7, src: "/images/screens/campervan-hire-cost-australia-2026.webp", alt: "AussieCamps on iPhone: the Brisbane to Cape Tribulation camping route saved as a collection, with 24 places, 9 places to stay and a furthest distance between places of 1,175 km" },
+  { slug: "buying-a-campervan-australia-working-holiday", section: 7, src: "/images/screens/buying-a-campervan-australia-working-holiday.webp", alt: "AussieCamps on iPhone: the Collections screen with Liked, Starred, Want to visit, Visited, Pins and All saved, and saved camping road trip guides underneath" },
 ];
 
 const images = manifest as Record<string, unknown>;
