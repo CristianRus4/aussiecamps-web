@@ -53,14 +53,14 @@ Existing guides to link, not re-research: australian-alps-camping-route, victori
 
 ## 3. Fuel and services
 - No road-authority or operator source found for a longest gap on any of the three routes. NOT CONFIRMED.
-- Route A has towns every 60 to 115 km in OSRM legs (Euroa 159 km from Melbourne is the longest first leg; Holbrook to Gundagai 115 km).
+- Route A OSRM legs between the waypoint towns are 63 to 159 km (Melbourne to Euroa 159 km is the longest). That says nothing about where fuel is sold.
 - Route B: Khancoban to Jindabyne is about 107 km of national park road; fuel at Thredbo NOT CONFIRMED.
 - Planning: road-trip-fuel-planning-australia.
 
 ## 4. Road conditions and seasonal closures
 - Live sources: VicTraffic (URL not opened); Live Traffic NSW, https://www.livetraffic.com (200); ACT roads: not researched. NPWS tells drivers to use Live Traffic for conditions (132 701). [6]
 - Snow chains (NSW Government and NPWS): "all 2WD vehicles" must carry chains "between the June long weekend and the October long weekend" on Kosciuszko Road from the park boundary at Thredbo River to Perisher Valley, Alpine Way between Thredbo and Tom Groggin, and Island Bend/Guthega Road. Recommended, not mandatory: Alpine Way between Jindabyne and Thredbo, and the Snowy Mountains Highway. 4WD/AWD: "do not require chains under National Parks regulations" but carrying is recommended. Vehicles with snow tyres must still carry chains. [5][14]
-- The Wikipedia Alpine Way page links the October date to Labour Day. NSW Labour Day 2026 is Monday 5 October (derived from the NSW daylight saving start on Sunday 4 October); the rule has ended for 2026 and returns at the June long weekend 2027. [2][4]
+- The Wikipedia Alpine Way page links the October date to Labour Day. NSW Labour Day 2026 is Monday 5 October (derived from the NSW daylight saving start on Sunday 4 October); the rule has ended for 2026 and returns at the June long weekend 2027. [4][18]
 - NPWS: "The road from Khancoban to Cabramurra and many of Kosciuszko National Park's minor roads are closed in winter." "Roads can close in extreme weather because of rain, wind and sub-zero temperatures." No closure dates given. [5]
 - Kings Highway (Canberra to Batemans Bay): no source found; not on any route here. NOT CONFIRMED.
 - Tolls, Melbourne: Linkt Visitor's Pass covers CityLink, EastLink and the West Gate Tunnel; valid up to 30 days; plate and card; opening fee $3.50 online ($5.00 phone) plus a video matching fee by road; covers CityLink trips up to 5 days ago and EastLink trips up to 3 days ago; after more than 5 days an account can cover CityLink trips up to 9 days back. [15] Wikipedia's Hume Highway page describes no tolls on the Hume itself (it names only the Sydney M5 and M7). Whether your Melbourne start needs CityLink depends on the route to the Hume: NOT CONFIRMED.

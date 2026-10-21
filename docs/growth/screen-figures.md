@@ -45,6 +45,7 @@ followed by that section's heading. Source screenshots are in `~/Marketing/Campi
 | sydney-to-melbourne-drive | 8 (Plan the Sydney to Melbourne drive in AussieCamps) | aussiecamps_guides_blue-mountains-weekend_map.png | AussieCamps on iPhone: the Blue Mountains camping weekend road trip on the map, with the route, dump points and the weather forecast along it |
 | brisbane-to-sydney-drive | 7 (Plan the Brisbane to Sydney drive in AussieCamps) | aussiecamps_guides_brisbane-cape-tribulation_map.png | AussieCamps on iPhone: the Brisbane to Cape Tribulation camping route on the map, with the weather forecast below it |
 | melbourne-to-brisbane-drive | 7 (Plan the Melbourne to Brisbane drive in AussieCamps) | aussiecamps_collections_brisbane-cape-tribulation_top.png | AussieCamps on iPhone: a saved Brisbane to Cape Tribulation road trip collection showing 24 places, the furthest distance between places of 1,175 km, 9 places to stay and 15 other places |
+| sydney-to-adelaide-drive | 8 (Plan the Sydney to Adelaide drive in AussieCamps) | aussiecamps_collections_my-collections_list-2.png | AussieCamps on iPhone: the Collections screen with the Want to visit, Visited, Pins and All saved lists and saved collections for the Brisbane to Cape Tribulation, Perth to Broome and Blue Mountains road trips |
 
 `best-fuel-price-apps-australia` is the one exception to "the section whose heading names AussieCamps":
 no heading of that guide names the app, so its figure sits in "Fuel is the biggest cost you can plan", whose

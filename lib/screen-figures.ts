@@ -48,6 +48,7 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "sydney-to-melbourne-drive", section: 8, src: "/images/screens/sydney-to-melbourne-drive.webp", alt: "AussieCamps on iPhone: the Blue Mountains camping weekend road trip on the map, with the route, dump points and the weather forecast along it" },
   { slug: "brisbane-to-sydney-drive", section: 7, src: "/images/screens/brisbane-to-sydney-drive.webp", alt: "AussieCamps on iPhone: the Brisbane to Cape Tribulation camping route on the map, with the weather forecast below it" },
   { slug: "melbourne-to-brisbane-drive", section: 7, src: "/images/screens/melbourne-to-brisbane-drive.webp", alt: "AussieCamps on iPhone: a saved Brisbane to Cape Tribulation road trip collection showing 24 places, the furthest distance between places of 1,175 km, 9 places to stay and 15 other places" },
+  { slug: "sydney-to-adelaide-drive", section: 8, src: "/images/screens/sydney-to-adelaide-drive.webp", alt: "AussieCamps on iPhone: the Collections screen with the Want to visit, Visited, Pins and All saved lists and saved collections for the Brisbane to Cape Tribulation, Perth to Broome and Blue Mountains road trips" },
 ];
 
 const images = manifest as Record<string, unknown>;
