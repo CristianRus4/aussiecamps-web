@@ -4,7 +4,7 @@ import { SITE_URL, sitePath } from "@/lib/site";
 import { LocalizedArticle, LocalizedGuides, LocalizedHome, LocalizedInformationPage, LocalizedTools } from "@/components/localized-site";
 import { getTranslation, isLocale, localizedArticles } from "@/lib/localized";
 import { localeEntry, localeRoot } from "@/lib/locales";
-import { alternatesFor, ogAlternates, ogLocale } from "@/lib/seo";
+import { alternatesFor, articleOgImage, homeOgImage, ogAlternates, ogLocale } from "@/lib/seo";
 import { smartBannerContent } from "@/lib/app-store";
 import { exportRoutes, routeAt, type RouteKind } from "@/lib/routes";
 import type { StaticPageKind } from "@/lib/source-strings";
@@ -47,7 +47,7 @@ export async function generateMetadata({params}:{params:Promise<{locale:string;p
     :section==="support"?ui.metaSupportDescription
     :ui.metaDescription;
   const url=`${SITE_URL}${route.path}`;
-  const image=article?article.image:"/images/aussie-og.webp";
+  const image={...(article?articleOgImage(article.slug):homeOgImage),alt:article?article.imageAlt:"AussieCamps"};
   // An English fallback (an unfinished guide or legal page, or a draft locale being previewed) still
   // builds and renders, but must not compete with the English site, and a noindexed page is never
   // offered as an alternate.
@@ -66,7 +66,7 @@ export async function generateMetadata({params}:{params:Promise<{locale:string;p
       title:article?article.title:ui.ogTitle,
       description:article?article.description:ui.ogDescription,
       url,
-      images:[{url:image,alt:article?article.imageAlt:"AussieCamps"}],
+      images:[image],
     },
     twitter:{card:"summary_large_image",title:article?article.title:ui.ogTitle,description:article?article.description:ui.ogDescription,images:[image]},
     robots:{index:indexable,follow:true,googleBot:{index:indexable,follow:true,"max-image-preview":"large","max-snippet":-1}},

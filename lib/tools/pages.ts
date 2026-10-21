@@ -3,7 +3,7 @@ import productFacts from "../data/product-facts.json";
 import { SITE_URL, sitePath } from "../site";
 import { isTranslated, routedLocales, type LocaleCode } from "../localized";
 import { localeRoot } from "../locales";
-import { alternatesFor, ogLocale } from "../seo";
+import { alternatesFor, homeOgImage, ogLocale } from "../seo";
 import { smartBannerContent } from "../app-store";
 import { toolKeys, toolStrings, uiStrings, type ToolKey, type UiKey } from "../source-strings";
 import { isToolTranslated, toolCopy } from "./strings";
@@ -53,7 +53,7 @@ export function toolMetadata(tool: ToolKey, locale: "en" | LocaleCode): Metadata
     alternates: { canonical: path, languages: indexable ? alternatesFor(toolPageKey(tool)) : undefined },
     openGraph: {
       type: "website", siteName: "AussieCamps", locale: ogLocale(locale),
-      title: copy.metaTitle, description: copy.metaDescription, url: `${SITE_URL}${path}`, images: [{ url: "/images/aussie-og.webp", alt: "AussieCamps" }],
+      title: copy.metaTitle, description: copy.metaDescription, url: `${SITE_URL}${path}`, images: [{ ...homeOgImage, alt: "AussieCamps" }],
     },
     robots: { index: indexable, follow: true, googleBot: { index: indexable, follow: true, "max-image-preview": "large", "max-snippet": -1 } },
     // The root layout's banner carries the English campaign; a localised page reports its own.

@@ -7,6 +7,14 @@ export const defaultHreflang = englishLocale.hreflang[0];
 export const defaultOgLocale = englishLocale.og;
 /** The Open Graph locale of a language edition. */
 export const ogLocale = (code: LocaleCode | "en") => (code === "en" ? englishLocale.og : localeEntry(code).og);
+/**
+ * The link-preview image of every page that is not a guide. PNG, not WebP: X, Facebook, WhatsApp and
+ * iMessage often show an empty card for a WebP og:image.
+ */
+export const homeOgImage = { url: `${SITE_URL}/images/aussiecamps-og.png`, width: 1200, height: 630, type: "image/png" };
+/** A guide's link-preview image: the JPG copy scripts/build-og-images.mjs makes of its WebP hero. */
+export const articleOgImage = (slug: string) => ({ url: `${SITE_URL}/images/og/${slug}.jpg`, width: 1200, height: 630, type: "image/jpeg" });
+
 /** Open Graph alternates for a page: every other live language. */
 export const ogAlternates = (code: LocaleCode | "en") => [englishLocale.og, ...liveLocales.map((other) => localeEntry(other).og)].filter((og) => og !== ogLocale(code));
 
@@ -36,7 +44,7 @@ export function alternatesFor(pageKey: string): Record<string, string> | undefin
 
 export { APP_ID };
 const LOGO = `${SITE_URL}/images/aussiecamps-app-icon.png`;
-const SCREENSHOT = `${SITE_URL}/images/aussie-og.webp`;
+const SCREENSHOT = homeOgImage.url;
 
 const organization = {
   "@type": "Organization",

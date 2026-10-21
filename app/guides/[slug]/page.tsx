@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { GuideArticle } from "@/components/guide-article";
 import { SITE_URL, getArticle, sitePath } from "@/lib/site";
-import { alternatesFor } from "@/lib/seo";
+import { alternatesFor, articleOgImage } from "@/lib/seo";
 import { exportRoutes } from "@/lib/routes";
 import { guidePageKey } from "@/lib/routes/guides";
 
@@ -25,9 +25,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       title: item.title,
       description: item.description,
       url: `${SITE_URL}${sitePath(`/guides/${item.slug}`)}`,
-      images: [{ url: item.image, alt: item.imageAlt }],
+      images: [{ ...articleOgImage(item.slug), alt: item.imageAlt }],
     },
-    twitter: { card: "summary_large_image", title: item.title, description: item.description, images: [item.image] },
+    twitter: { card: "summary_large_image", title: item.title, description: item.description, images: [{ ...articleOgImage(item.slug), alt: item.imageAlt }] },
   };
 }
 

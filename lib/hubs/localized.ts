@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SITE_URL, sitePath } from "../site";
 import { intlLocale, liveLocales, localeRoot, routedLocales, type LocaleCode } from "../locales";
 import { isTranslated } from "../localized";
-import { alternatesFor, ogLocale } from "../seo";
+import { alternatesFor, homeOgImage, ogLocale } from "../seo";
 import { smartBannerContent } from "../app-store";
 import { hubData, hubVerdicts, type Hub } from "./gate";
 import { hubPageKey, hubSections, isSectionIndexable, sectionOf, sectionPageKey, type HubSection } from "./pages";
@@ -80,7 +80,7 @@ export function localizedHubMetadata(hub: Hub, locale: LocaleCode): Metadata {
   return {
     title, description,
     alternates: { canonical: path, languages: indexable ? alternatesFor(hubPageKey(hub)) : undefined },
-    openGraph: { type: "website", siteName: "AussieCamps", locale: ogLocale(locale), title, description, url: `${SITE_URL}${path}`, images: [{ url: "/images/aussie-og.webp", alt: "AussieCamps" }] },
+    openGraph: { type: "website", siteName: "AussieCamps", locale: ogLocale(locale), title, description, url: `${SITE_URL}${path}`, images: [{ ...homeOgImage, alt: "AussieCamps" }] },
     robots: robots(indexable),
     other: { "apple-itunes-app": smartBannerContent(locale) },
   };
@@ -94,7 +94,7 @@ export function localizedSectionMetadata(section: HubSection, locale: LocaleCode
   return {
     title: copy.indexTitle, description: copy.indexDescription,
     alternates: { canonical: path, languages: indexable ? alternatesFor(sectionPageKey(section)) : undefined },
-    openGraph: { type: "website", siteName: "AussieCamps", locale: ogLocale(locale), title: copy.indexTitle, description: copy.indexDescription, url: `${SITE_URL}${path}`, images: [{ url: "/images/aussie-og.webp", alt: "AussieCamps" }] },
+    openGraph: { type: "website", siteName: "AussieCamps", locale: ogLocale(locale), title: copy.indexTitle, description: copy.indexDescription, url: `${SITE_URL}${path}`, images: [{ ...homeOgImage, alt: "AussieCamps" }] },
     robots: robots(indexable),
     other: { "apple-itunes-app": smartBannerContent(locale) },
   };

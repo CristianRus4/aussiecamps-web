@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import meta from "../data/hubs.meta.json";
 import { SITE_URL, sitePath } from "../site";
-import { alternatesFor } from "../seo";
+import { alternatesFor, homeOgImage } from "../seo";
 import { builtHubs, hubData, hubProse, hubVerdicts, indexableHubs, type Hub, type HubKind } from "./gate";
 
 /**
@@ -104,7 +104,7 @@ export function hubMetadata(hub: Hub): Metadata {
     description,
     // hreflang only once a second edition is indexable (the translated hubs are behind a switch).
     alternates: { canonical: hubPath(hub), languages: indexable ? alternatesFor(hubPageKey(hub)) : undefined },
-    openGraph: { type: "website", siteName: "AussieCamps", locale: "en_AU", title, description, url: `${SITE_URL}${hubPath(hub)}`, images: [{ url: "/images/aussie-og.webp", alt: "AussieCamps" }] },
+    openGraph: { type: "website", siteName: "AussieCamps", locale: "en_AU", title, description, url: `${SITE_URL}${hubPath(hub)}`, images: [{ ...homeOgImage, alt: "AussieCamps" }] },
     robots: { index: indexable, follow: true, googleBot: { index: indexable, follow: true, "max-image-preview": "large", "max-snippet": -1 } },
   };
 }
@@ -116,7 +116,7 @@ export function sectionMetadata(section: HubSection): Metadata {
     title: copy.indexTitle,
     description: copy.indexDescription,
     alternates: { canonical: sectionPath(section), languages: indexable ? alternatesFor(sectionPageKey(section)) : undefined },
-    openGraph: { type: "website", siteName: "AussieCamps", locale: "en_AU", title: copy.indexTitle, description: copy.indexDescription, url: `${SITE_URL}${sectionPath(section)}`, images: [{ url: "/images/aussie-og.webp", alt: "AussieCamps" }] },
+    openGraph: { type: "website", siteName: "AussieCamps", locale: "en_AU", title: copy.indexTitle, description: copy.indexDescription, url: `${SITE_URL}${sectionPath(section)}`, images: [{ ...homeOgImage, alt: "AussieCamps" }] },
     robots: { index: indexable, follow: true, googleBot: { index: indexable, follow: true, "max-image-preview": "large", "max-snippet": -1 } },
   };
 }
