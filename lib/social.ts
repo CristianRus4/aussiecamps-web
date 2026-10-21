@@ -10,8 +10,9 @@ import locales from "@/lib/locales.json";
  *
  * - Instagram, Threads or Facebook/Messenger in-app browser, on a home page or with a tag: replace the page
  *   with the App Store. If the page is still visible 1.5 s later (the store did not open), show the overlay.
- * - TikTok's in-app browser (it blocks App Store links), on a home page or with a tag: a full-screen overlay
- *   pointing at the ••• menu ("Open in browser"), with a Download button as a backup.
+ * - TikTok's in-app browser (it blocks App Store redirects), on a home page or with a tag: a full-screen overlay
+ *   with the app icon, a Download on the App Store button and "Continue to the website". If TikTok blocks the
+ *   button too, ••• → "Open in browser" still reaches the store through the Safari route below.
  * - In every in-app case the tag is written into the address first, so "Open in browser" carries it.
  * - An in-app browser the script does not recognise (an iPhone WebView whose user agent lacks "Safari/",
  *   which Safari, Chrome, Firefox and Edge on iOS all send) is treated as the platform its tag names, so a
