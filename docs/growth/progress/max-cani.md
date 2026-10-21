@@ -24,11 +24,16 @@ Topics NOT chosen because a guide already owns them (link instead): sleeping in 
 draft (subagent) -> wire -> fact-check (subagent) -> negation check -> hero (Commons) -> screen figure -> schedule row -> content:check -> commit.
 
 ## Done
-- All 12 pages drafted and wired (lib/can-i-articles.ts, regenerate with the wire script logic: imports sorted by publishAt), schedule rows added, pages 1-6 and 7-9 fact-checked; heroes and figures done for 1-6.
-- Note: pages without a hero crash the /guides/ export once published (no manifest entry): expected until heroes land.
+- All 12 pages drafted, fact-checked (independent sonnet pass per page, official sources; open disagreements listed in each facts file), heroes (Commons, credited in docs/image-sources-can-i.md) and screen figures done, scheduled 2026-11-07 to 2026-11-18, AussieCamps section wording varied per page.
+- npm run check passes (50 tests, 0 fail; similarity clean). The similarity audit and the date script only scan site.ts and expanded-articles.ts, so I ran a patched copy including lib/can-i: clean for all 12. build-article-dates.mjs now also reads lib/can-i.
 
 ## Next
-- Fact-check 10-12, heroes and figures 7-12, then npm run check, similarity audit, hand off.
+- Lane complete; orchestrator review and merge.
+
+## Notes for the orchestrator
+- scripts/audit-article-similarity.mjs (protected) does not read lib/can-i: a follow-up should add it.
+- tests/rendered-html "related guides ... not all from one category" fails for best-money-saving-travel-apps-australia once all listicles are live (BUILD_DATE=2026-11-06, none of my pages): pre-existing, not from this lane.
+- New pages are English only; translations follow.
 
 ## Blockers
 - none
