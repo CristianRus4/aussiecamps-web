@@ -36,6 +36,7 @@ export const SUPPORT_MAILTO = `mailto:${SUPPORT_EMAIL}?subject=AussieCamps%20web
 import { expandedArticles } from "@/lib/expanded-articles";
 import { canIArticles, canIFaqs } from "@/lib/can-i-articles";
 import { driveArticles, driveFaqs } from "@/lib/drive-articles";
+import { costsArticles, costsFaqs } from "@/lib/costs-articles";
 import { articleFaqs } from "@/lib/article-faqs";
 import { assertPublishAt, isPublished, scheduleFixture } from "@/lib/publish";
 import { applyScreenFigures } from "@/lib/screen-figures";
@@ -373,8 +374,9 @@ const writtenArticles: Article[] = [
   ...expandedArticles,
   ...canIArticles,
   ...driveArticles,
+  ...costsArticles,
 // Each guide gets its own two-question FAQ attached by slug (see lib/article-faqs.ts).
-].map((article) => { const faq = articleFaqs[article.slug] ?? canIFaqs[article.slug] ?? driveFaqs[article.slug]; return faq ? { ...article, faq } : article; })
+].map((article) => { const faq = articleFaqs[article.slug] ?? canIFaqs[article.slug] ?? driveFaqs[article.slug] ?? costsFaqs[article.slug]; return faq ? { ...article, faq } : article; })
   // After the list, not in it: scripts/build-article-dates.mjs dates the last guide by the text up to "\n]".
   .concat(scheduleFixture<Article>() ?? []);
 // Screenshot figures go on after the list too, so the article literals stay untouched (lib/screen-figures.ts).

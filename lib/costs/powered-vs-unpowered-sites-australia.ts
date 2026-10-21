@@ -1,0 +1,47 @@
+import { article, section } from "@/lib/can-i/helpers";
+
+export const faq = [
+  ["What is the difference between a powered and an unpowered site in Australia?", "A powered site has a mains power outlet and an unpowered site does not. Discovery Parks lists power on its powered sites, with water and sullage on some, and describes its unpowered sites as suitable for tents, campervans and small motorhomes with access to the park's amenities blocks, dump point and laundry."],
+  ["How much more does a powered site cost than an unpowered one?", "It varies by park. Exhibition Park in Canberra publishes $40 powered and $35 unpowered a night until 1 November 2026, then $45 and $40, a $5 gap. The big holiday park chains show prices only after you enter dates, so compare quotes for the same park and dates."],
+  ["How many amps is a powered caravan site in Australia?", "It depends on the park. Discovery Parks Jindabyne lists 15 amp power on one of its powered sites, and the pages checked for other parks did not state an amp rating. Check the site's own page or ask the park, and use the lead and adaptor it asks for."],
+  ["Can I use a generator on an unpowered site?", "Often not. Queensland says generators are not permitted in most parks and forests, and New South Wales generally does not permit them unless a sign or the park manager allows it. Rules are set campground by campground, so read the sign or the park's page before you pack one."],
+] as const;
+
+export default article({
+  slug: "powered-vs-unpowered-sites-australia", publishAt: "2026-12-04",
+  title: "Powered vs Unpowered Sites in Australia: Cost and Which to Book",
+  description: "A powered site adds mains power, such as 15 amp at Discovery Jindabyne, and unpowered sites suit tents and campervans. One tariff shows a $5 gap. Which to book.",
+  category: "Camping guides", region: "Australia",
+  places: ["Holiday parks", "Showgrounds", "National parks", "Caravan parks"],
+  imageAlt: "Caravans and motorhomes parked on red ground at the Eighty Mile Beach caravan park on the north-west coast of Western Australia",
+  intro: "A powered site has a mains power outlet and an unpowered site does not, and the price gap can be small: Exhibition Park in Canberra charges $5 a night more for power. Book powered when you need the power for a fridge, charging or heat, and unpowered when a battery or solar covers you or the site is in a national park. The pages below were read on 21 October 2026, and each park sets its own site types.",
+  related: ["caravan-park-vs-holiday-park", "camping-fees-australia-2026", "can-i-use-a-generator-at-a-campsite-in-australia", "campervan-vs-caravan-australia"],
+  sections: [
+    section("Powered and unpowered at a glance", ["A powered site is a pad with a mains outlet, and some also have water and a sullage point. An unpowered site is a pad or patch of ground with no outlet. Parks describe both in their own words, so read the site page rather than the label.", "Examples from Discovery Parks and one showground show how the two compare."], ["Powered adds a mains outlet", "Unpowered adds no outlet", "Read the individual site page"], {
+      caption: "Powered and unpowered sites as park pages describe them, read 21 October 2026.",
+      head: ["Point", "Powered site", "Unpowered site"],
+      rows: [
+        ["What the park lists", "Discovery Parks Jindabyne: 15 amp power, water supply and sullage, for a van up to 25 ft including drawbar", "Discovery Parks Cradle Mountain: a gravel pad about 16 feet long, suitable for tents, campervans and small motorhomes"],
+        ["Facilities", "At Discovery Cradle Mountain every site has access to the amenities blocks, a dump point and coin-operated laundries", "Same access to the amenities blocks, dump point and laundries"],
+        ["Price example", "Exhibition Park, Canberra: $40 a night until 1 November 2026, then $45", "Exhibition Park, Canberra: $35 a night until 1 November 2026, then $40"],
+        ["Who it suits, per the park", "Britz says powered sites suit suitably wired motorhomes and campervans", "BIG4 says unpowered sites suit caravans, motorhomes, rooftop tents and camper trailers"],
+      ],
+    }),
+    section("What a powered site gives you", ["Power is the main addition. Discovery Parks' Jindabyne powered site lists 15 amp power, a water supply and a sullage point, and says the site suits a van up to 25 ft total length including the drawbar. Not every powered site lists water or sullage, and the pages for other parks gave no amp rating, so check the site page.", "To use the power you need a lead that fits the park's outlet and a van with a mains inlet. Britz says powered sites suit suitably wired motorhomes and campervans, so ask the hire company or the seller whether your van has an inlet and a lead."], ["Check the amp rating", "Pack the lead and adaptor the park asks for", "Not all powered sites have water"]),
+    section("What an unpowered site gives you", ["Discovery's Cradle Mountain unpowered sites are gravel pads of about 16 feet, suitable for tents, campervans and small motorhomes, and every site has access to the amenities blocks, dump point and coin-operated laundries. BIG4 says unpowered sites suit caravans, motorhomes, rooftop tents and camper trailers.", "Size varies, and one Discovery unpowered gravel site is described as too small to set up a tent or an awning, so check the size before you book."], ["Check the pad size", "Amenities are usually shared", "Awnings may not fit"]),
+    section("What the price gap looks like", ["Exhibition Park in Canberra publishes $40 powered and $35 unpowered a night until 1 November 2026, then $45 and $40 from that date. That is a $5 gap, or $35 more for a week of powered nights. It is one showground, not an average of parks, and the big chains show prices only after you enter dates, so compare quotes for the same park and dates.", "The camping fees guide covers the per-person and per-site fees for national park campgrounds, which are separate from holiday park site fees."], ["One showground: $5 gap", "Compare quotes for the same dates", "National park fees are separate"]),
+    section("When powered is worth paying for", ["Power helps most when the fridge is under strain in the heat, when you need to charge devices or run a laptop for work, and when you want a fan or heater without draining the battery. The grocery guide explains why a small campervan fridge loses efficiency in Australian heat.", "On a long stay, such as a farm placement near a holiday park, a powered site is usually worth the small gap. On a night when you arrive late and leave early, unpowered is enough."], ["Hot weather strains the fridge", "Charging and remote work need power", "Short stops need less"]),
+    section("Camping unpowered: batteries, solar and generators", ["On an unpowered site you rely on the van's battery, solar or a portable power station. Work out the power you use by listing each device and its hours of use, then size the battery and solar to match, with a margin for cloudy days.", "A generator is not the easy fix. Queensland says generators are not permitted in most parks and forests, and New South Wales generally does not permit them unless a sign or the park manager allows it, so the generator guide sets out the rules by state."], ["List each device and its hours", "Add a margin for cloud", "Check generator rules first"]),
+    { ...section("Check the site type in AussieCamps", ["AussieCamps lists 1,838 campgrounds and 745 national parks from the state park agencies, plus 5,552 rest areas from road authorities, with each place's facilities, fees and rules as the agency publishes them, and you can filter by cost, including free sites. Holiday parks and motels listed by BookEasy show their address, hours and a Book now button.", "AussieCamps does not show powered or unpowered site availability, so confirm the site type, amp rating and price with the park before you book. Place details work offline; map tiles, routing, weather and photos need signal."], ["Filter by cost", "Confirm site type with the park", "Save the park to your trip"]), cta: true },
+  ],
+  sources: [
+    { label: "Discovery Parks Jindabyne: powered site, 25 ft", url: "https://www.discoveryholidayparks.com.au/caravan-parks/new-south-wales/snowy-mountains/jindabyne/powered-paved-site-25ft" },
+    { label: "Discovery Parks Cradle Mountain: unpowered site", url: "https://www.discoveryholidayparks.com.au/caravan-parks/tasmania/north-west/cradle-mountain/unpowered-site" },
+    { label: "Exhibition Park in Canberra: camping rates and reservations", url: "https://exhibitionparkincanberra.com.au/camping/rates-reservations/" },
+    { label: "BIG4: unpowered sites", url: "https://assets.big4.com.au/caravan-parks/sa/barossa/barossa-tourist-park/accommodation/unpowered-sites" },
+    { label: "Britz: holiday parks", url: "https://britz.com/au/en/get-planning/where-to-stay/holiday-parks" },
+    { label: "Discovery Parks Cradle Mountain: unpowered gravel site, 14 feet", url: "https://www.discoveryholidayparks.com.au/caravan-parks/tasmania/north-west/cradle-mountain/unpowered-gravel-site-14-feet" },
+    { label: "Queensland Government: generator use in parks and forests", url: "https://www.qld.gov.au/recreation/activities/camping/generators" },
+    { label: "NSW National Parks: generators when camping", url: "https://www.nationalparks.nsw.gov.au/conservation-and-heritage/care-for-parks/considerate-camping/camping-generators" },
+  ],
+});

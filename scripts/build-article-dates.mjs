@@ -40,9 +40,12 @@ const canIFiles = existsSync(canIDir) ? readdirSync(canIDir).filter((name) => na
 // One module per drive guide (lib/drives/<slug>.ts), the same way.
 const driveDir = join(ROOT, "lib/drives");
 const driveFiles = existsSync(driveDir) ? readdirSync(driveDir).filter((name) => name.endsWith(".ts")).map((name) => `lib/drives/${name}`) : [];
+// One module per cost, working-holiday or comparison page (lib/costs/<slug>.ts), the same way.
+const costsDir = join(ROOT, "lib/costs");
+const costsFiles = existsSync(costsDir) ? readdirSync(costsDir).filter((name) => name.endsWith(".ts")).map((name) => `lib/costs/${name}`) : [];
 const files = (existsSync(contentDir)
   ? readdirSync(contentDir).filter((name) => name.endsWith(".ts")).map((name) => `lib/content/${name}`)
-  : ["lib/expanded-articles.ts", "lib/site.ts"]).concat(canIFiles, driveFiles);
+  : ["lib/expanded-articles.ts", "lib/site.ts"]).concat(canIFiles, driveFiles, costsFiles);
 
 /**
  * Every article's source, keyed by slug: from its own `slug: "…"` to the start of the next one, or

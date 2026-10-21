@@ -1,0 +1,12 @@
+# Hire, buying, selling, budget and comparison guide image sources
+
+All images below are downloaded copies of real photographs. They were resized and centre-cropped to 1600 × 900, converted to WebP, and stripped of embedded metadata for the website. The resulting derivative files should retain the source license and attribution shown here.
+
+| Article slug | Photograph subject | Creator | Source page | License | License URL |
+| --- | --- | --- | --- | --- | --- |
+| `campervan-hire-cost-australia-2026` | A four-wheel-drive camper with a pop-top roof parked at a bush campsite in the northern Flinders Ranges, South Australia | Ian Cochrane | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gammon_DSC03058_SA_(38291588462).jpg) | CC BY 2.0 | https://creativecommons.org/licenses/by/2.0/ |
+| `buying-a-campervan-australia-working-holiday` | A sealed stretch of the Eyre Highway west of Nullarbor Roadhouse, South Australia, with a warning sign for camels, wombats and kangaroos | Chuq | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Eyre_Highway,_South_Australia_(near_Nullarbor_Roadhouse)_01.jpg) | CC BY-SA 4.0 | https://creativecommons.org/licenses/by-sa/4.0/ |
+| `selling-a-campervan-australia-before-you-leave` | The entrance to Howqua Valley caravan park at Howqua, Victoria, under tall gum trees | Mattinbgn | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Howqua_Valley_Caravan_Park.JPG) | CC BY 3.0 | https://creativecommons.org/licenses/by/3.0/ |
+| `working-holiday-road-trip-budget-australia-2026` | The roadhouse and fuel pumps at Nullarbor, South Australia, with a tanker truck and parked vehicles | Bahnfrend | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Nullarbor_Roadhouse,_2017_(02).jpg) | CC BY-SA 4.0 | https://creativecommons.org/licenses/by-sa/4.0/ |
+| `campervan-vs-caravan-australia` | A four-wheel drive towing a caravan along the Eyre Highway at Eucla Pass, Western Australia | Bahnfrend | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Eucla_Pass,_2017_(07).jpg) | CC BY-SA 4.0 | https://creativecommons.org/licenses/by-sa/4.0/ |
+| `powered-vs-unpowered-sites-australia` | Caravans and motorhomes parked on red ground at the Eighty Mile Beach caravan park on the north-west coast of Western Australia | Linear77 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Eighty_mile_beach_caravan_park.jpg) | CC BY 3.0 | https://creativecommons.org/licenses/by/3.0/ |

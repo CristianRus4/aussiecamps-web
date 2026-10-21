@@ -68,3 +68,9 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-11-26 | cairns-to-darwin-drive | scheduled |
 | 2026-11-27 | perth-to-exmouth-drive | scheduled |
 | 2026-11-28 | broome-to-darwin-drive | scheduled |
+| 2026-11-29 | campervan-hire-cost-australia-2026 | scheduled |
+| 2026-11-30 | buying-a-campervan-australia-working-holiday | scheduled |
+| 2026-12-01 | selling-a-campervan-australia-before-you-leave | scheduled |
+| 2026-12-02 | working-holiday-road-trip-budget-australia-2026 | scheduled |
+| 2026-12-03 | campervan-vs-caravan-australia | scheduled |
+| 2026-12-04 | powered-vs-unpowered-sites-australia | scheduled |
