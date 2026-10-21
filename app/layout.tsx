@@ -54,7 +54,7 @@ export const metadata: Metadata = {
   },
   manifest: "/site.webmanifest",
   // The Smart App Banner. Localised pages override it with their own campaign token.
-  other: { "apple-itunes-app": smartBannerContent("en") },
+  other: { "apple-itunes-app": smartBannerContent("en"), "naver-site-verification": "c4d4fefe1bb92e0b5958a29adab9412e909dfd2d" },
 };
 
 export const viewport: Viewport = {
