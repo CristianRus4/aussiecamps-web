@@ -234,6 +234,36 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Which app compares supermarket prices in Australia?", "WiseList compares Coles, Woolworths and ALDI prices as you build a shopping list, free with ads. Its paid WiseList+ tier adds splitting a list by store and barcode scan and compare."],
     ["Is there an app for cheap food in Australian cities?", "Too Good To Go sells surprise bags of unsold food from cafes and bakeries from A$6.99, and EatClub offers up to 50% off the bill at restaurants with spare tables."],
   ],
+  "camps-australia-wide-alternatives": [
+    ["What is the best alternative to CAMPS Australia Wide?", "It depends on what you want from the app. WikiCamps has the largest catalogue of traveller reviews for A$9.99 once per platform, CamperMate is free with offline maps, and AussieCamps gives you park agency data and a trip plan on iPhone."],
+    ["Is there a free alternative to CAMPS?", "CamperMate is free with no in-app purchases. Full Range Camping's directory is free to browse, though offline access is a Premium feature, and the NSW National Parks app is free for NSW parks."],
+    ["How much does the CAMPS app cost?", "It is free to download and free for the first 7 days, then A$14.99 a year. You need a payment method to start the trial, so cancel before it ends if you do not want to be charged."],
+    ["Does CAMPS work without phone signal?", "Yes, once you have downloaded a state's maps over Wi-Fi. The app switches to offline mode when you leave coverage, but the map files need updating by hand to stay current."],
+  ],
+  "best-apps-lap-of-australia": [
+    ["What apps do I need for a lap of Australia?", "Most travellers combine a camp and stop directory such as AussieCamps, WikiCamps or CAMPS, an offline map for remote stretches, a fuel app, BOM Weather for warnings and Google or Apple Maps for navigation."],
+    ["Which app is best for finding free camps on a Big Lap?", "WikiCamps has the largest community catalogue of free and low-cost camps for A$9.99 once per platform, and CAMPS lists sites its team has checked for A$14.99 a year after a 7-day trial."],
+    ["Do I need offline maps for a lap of Australia?", "Yes for the remote sections. Tourism Australia says Nullarbor services are often 150 to 200 km apart, so download maps in Google Maps, CAMPS or ExplorOz while you still have coverage."],
+    ["Is there an app that plans the whole Big Lap?", "No single app plans every part. AussieCamps builds a trip of ordered stops with driving distance and time for each leg and forecasts for your arrival dates, and Google Maps limits a route to 9 stops, so a full lap is split into several routes."],
+  ],
+  "best-dump-point-toilet-apps-australia": [
+    ["What is the best app for finding dump points in Australia?", "For one dedicated app, Caravan Helper is a A$4.99 dump point finder with community checks. Camping apps such as AussieCamps, WikiCamps and CAMPS list dump points beside campgrounds, and the National Public Toilet Map is the free official source."],
+    ["Is there a free app for public toilets in Australia?", "Yes. The National Public Toilet Map app is free, is run with the Australian Government's data and covers more than 23,000 facilities, with accessibility detail, opening hours and sharps disposal."],
+    ["Do dump points cost money in Australia?", "It varies. Many council dump points are free, and some park-run ones charge a small fee. Check the fee and whether a key is needed in the app or on the council page before you arrive."],
+    ["Do dump point apps work offline?", "Some do. WikiCamps has an Offline Mode, CAMPS has downloadable offline maps, CamperMate lets you download maps, and AussieCamps keeps place details on the phone while its map and directions need signal. Convenience and Caravan Helper do not state their offline behaviour."],
+  ],
+  "best-national-park-apps-australia": [
+    ["Is there an app for Australian national parks?", "There is no single national park app. NSW has an official app covering more than 225 parks, Parks Australia has apps for Uluru and Kakadu, and AussieCamps, CAMPS and AllTrails cover parks across the country."],
+    ["Is there a national park pass for all of Australia?", "No. Each state and territory sets its own entry fees and passes, and Uluru-Kata Tjuta and Kakadu have their own Parks Australia passes, each valid only for that park."],
+    ["Do national park apps work offline?", "Some do. The NSW National Parks app lets you download a park before you go, the Uluru and Kakadu apps let you download their content, and CAMPS has offline maps. AussieCamps keeps place details on the phone while its map, weather and photos need signal."],
+    ["How do I check if a national park is closed?", "Check the park agency, such as NSW National Parks, the VicEmergency website and app for Victoria, or Queensland's park alerts page. Apps can show where a park is, but the agency is the source for closures."],
+  ],
+  "exploroz-alternatives": [
+    ["What is the best alternative to ExplorOz?", "For offline topographic maps, Hema 4WD Maps and Newtracs are the closest, and CAMPS and WikiCamps add offline camp data. AussieCamps is not an offline map, but it keeps rest area, dump point and water details readable on the phone."],
+    ["How much does ExplorOz cost?", "ExplorOz Traveller costs A$59.99. Full offline EOTopo maps are in-app purchases: Pro Access at A$99.99 a year, EOTopo Annual Access at A$59.99 a year, or a 4-year edition at A$79.99 once."],
+    ["Is there a free alternative to ExplorOz?", "Newtracs is free to download with a paid Premium tier and shows track difficulty ratings. Google Maps, Apple Maps and Organic Maps are free with offline areas, and are best kept as a backup in remote country."],
+    ["Which apps work without phone signal in the outback?", "ExplorOz, Hema 4WD Maps, Newtracs, CAMPS and WikiCamps all have offline modes or downloadable maps. AussieCamps keeps place details on the phone, but its map, directions and weather need signal."],
+  ],
   "hipcamp-alternatives": [
     ["What is like Hipcamp in Australia?", "For bookable stays, AussieCamps lists farm and station stays and holiday parks from BookEasy, and G'day Parks books its own holiday parks. For public camping, AussieCamps, WikiCamps, CAMPS and CamperMate cover national park campgrounds and free camps, and each state's park agency takes bookings directly."],
     ["How do I book a national park campsite in Australia?", "Through the park agency for that state or territory, such as NSW National Parks, Parks Victoria or Queensland Parks and Wildlife Service. In Queensland, every camp in a national park, state forest or recreation area needs a permit booked before you arrive."],
