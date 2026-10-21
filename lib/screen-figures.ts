@@ -68,6 +68,9 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "sydney-to-canberra-drive", section: 6, src: "/images/screens/sydney-to-canberra-drive.webp", alt: "AussieCamps on iPhone: the Jervis Bay National Park place page in New South Wales, with photos, a notes field, a 7-day weather forecast and useful places nearby" },
   { slug: "melbourne-to-mildura-drive", section: 6, src: "/images/screens/melbourne-to-mildura-drive.webp", alt: "AussieCamps on iPhone: the Mungo National Park place page in New South Wales, with a visitor centre facility, photos, a notes field and a weather forecast" },
   { slug: "townsville-to-mount-isa-drive", section: 6, src: "/images/screens/townsville-to-mount-isa-drive.webp", alt: "AussieCamps on iPhone: the Cape Hillsborough National Park place page in Queensland, with a camping photo, a park description and amenities and features including a lookout, walking tracks and camping" },
+  { slug: "hobart-to-launceston-drive", section: 7, src: "/images/screens/hobart-to-launceston-drive.webp", alt: "AussieCamps on iPhone: the Mount Field National Park place page in Tasmania, with photos of a snow-dusted mountain above a lake, a notes field and a 7-day weather forecast" },
+  { slug: "alice-springs-to-uluru-drive", section: 7, src: "/images/screens/alice-springs-to-uluru-drive.webp", alt: "AussieCamps on iPhone: the Adelaide to Uluru guide with a route map of saved places including dump points at Coober Pedy and Port Augusta, and a 7-day weather forecast" },
+  { slug: "adelaide-to-port-lincoln-drive", section: 6, src: "/images/screens/adelaide-to-port-lincoln-drive.webp", alt: "AussieCamps on iPhone: the Coffin Bay National Park place page in South Australia, with amenities and features such as camping, toilets, campfires allowed, a boat ramp and caravan sites, and a reported prices panel" },
 ];
 
 const images = manifest as Record<string, unknown>;
