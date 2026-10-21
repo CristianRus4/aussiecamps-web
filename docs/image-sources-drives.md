@@ -5,3 +5,5 @@ All images below are downloaded copies of real photographs. They were resized an
 | Article slug | Photograph subject | Creator | Source page | License | License URL |
 | --- | --- | --- | --- | --- | --- |
 | `sydney-to-melbourne-drive` | The Hume Freeway bypass at Albury, New South Wales, facing south | Thennicke | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hume_Freeway_at_Albury_2.JPG) | CC BY-SA 4.0 | https://creativecommons.org/licenses/by-sa/4.0/ |
+| `brisbane-to-sydney-drive` | The dual carriageway Pacific Highway near Wootton on the New South Wales mid north coast, seen from a bridge | Rob Freijs | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pacific_Highway_from_Wattley_Hill_Road_-_panoramio.jpg) | CC BY-SA 3.0 | https://creativecommons.org/licenses/by-sa/3.0/ |
+| `melbourne-to-brisbane-drive` | A northbound view of the Newell Highway between Finley and Jerilderie, New South Wales, with eucalypts either side of the road | Perpetual-yearning | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Newell_Highway_north_of_Finley.jpg) | CC BY 4.0 | https://creativecommons.org/licenses/by/4.0/ |

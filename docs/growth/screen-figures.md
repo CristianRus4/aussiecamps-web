@@ -43,6 +43,8 @@ followed by that section's heading. Source screenshots are in `~/Marketing/Campi
 | christmas-summer-camping-australia-2026-27 | 7 (Using AussieCamps over summer) | aussiecamps_place-detail_big4-rainbow-beach-hp_top.png | AussieCamps on iPhone: the BIG4 Rainbow Beach Holiday Park page in Queensland with its address, hours and Book now button |
 | wet-season-camping-top-end-northern-wa | 8 (Using AussieCamps in the wet) | aussiecamps_place-detail_litchfield-np_middle.png | AussieCamps on iPhone: the Litchfield National Park page in the Northern Territory with its photos and a 7-day forecast from Apple Weather |
 | sydney-to-melbourne-drive | 8 (Plan the Sydney to Melbourne drive in AussieCamps) | aussiecamps_guides_blue-mountains-weekend_map.png | AussieCamps on iPhone: the Blue Mountains camping weekend road trip on the map, with the route, dump points and the weather forecast along it |
+| brisbane-to-sydney-drive | 7 (Plan the Brisbane to Sydney drive in AussieCamps) | aussiecamps_guides_brisbane-cape-tribulation_map.png | AussieCamps on iPhone: the Brisbane to Cape Tribulation camping route on the map, with the weather forecast below it |
+| melbourne-to-brisbane-drive | 7 (Plan the Melbourne to Brisbane drive in AussieCamps) | aussiecamps_collections_brisbane-cape-tribulation_top.png | AussieCamps on iPhone: a saved Brisbane to Cape Tribulation road trip collection showing 24 places, the furthest distance between places of 1,175 km, 9 places to stay and 15 other places |
 
 `best-fuel-price-apps-australia` is the one exception to "the section whose heading names AussieCamps":
 no heading of that guide names the app, so its figure sits in "Fuel is the biggest cost you can plan", whose
