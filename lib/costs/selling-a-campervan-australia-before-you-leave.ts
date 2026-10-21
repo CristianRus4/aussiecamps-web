@@ -1,0 +1,56 @@
+import { article, section } from "@/lib/can-i/helpers";
+
+export const faq = [
+  ["Do I need a roadworthy certificate to sell a campervan in Australia?", "In Queensland, yes: the seller must give the buyer a current safety certificate unless the sale is to a dealer or the vehicle is exempt. VicRoads says a Victorian private seller supplies a roadworthy certificate issued no more than 30 days before the sale, unless exempt. Check your own state's authority before you list the van."],
+  ["How long do I have to tell the road authority I sold my van?", "New South Wales says to submit a notice of disposal immediately after the sale. Western Australia requires the seller to notify within 7 days, and Victoria, South Australia and the Northern Territory give 14 days. Do it on the day of the sale, because until the transfer is finished the seller can be liable for tolls and fines."],
+  ["Can I sell my campervan to a buyer in another state?", "Yes, but the paperwork changes. Western Australia says to return the plates and sell the vehicle as unlicensed to an interstate buyer, and South Australia needs a paper notice of disposal when the buyer is not from the state. Ask the authority in the state where the van is registered."],
+  ["When is the best time to sell a van before leaving Australia?", "Travellers Autobarn, which buys and sells backpacker vans, says the quietest months in Sydney, Perth and Melbourne are April to July, and that Darwin and Cairns are slow from December to June. It advises leaving enough time to sell and keeping at least 3 months of registration on the van."],
+] as const;
+
+export default article({
+  slug: "selling-a-campervan-australia-before-you-leave", publishAt: "2026-12-01",
+  title: "Selling a Campervan in Australia Before You Leave: Steps by State",
+  description: "Tell the road authority about the sale at once: NSW says immediately, WA within 7 days. Queensland sellers must also supply a safety certificate. Steps by state.",
+  category: "Costs & budget", region: "Australia",
+  places: ["New South Wales", "Victoria", "Queensland", "Western Australia", "South Australia", "Tasmania", "Northern Territory"],
+  imageAlt: "The entrance to Howqua Valley caravan park at Howqua, Victoria, under tall gum trees",
+  intro: "To sell a campervan before you leave Australia, give the buyer the paperwork your state requires and tell the road authority about the sale straight away. New South Wales says to submit a notice of disposal immediately after the sale, Western Australia requires the seller to notify within 7 days, and a Queensland seller must supply a safety certificate. The pages below were read on 21 October 2026, and each state's authority has the final word.",
+  related: ["buying-a-campervan-australia-working-holiday", "campervan-hire-cost-australia-2026", "working-holiday-road-trip-budget-australia-2026", "campervan-driving-australia-safety-guide"],
+  sections: [
+    section("What the seller does, state by state", ["The table lists what each authority says the seller must do, and the certificate that goes with a private sale. States where the authority's page left out a step are marked, so ask them before you list the van.", "Whichever state you are in, keep the receipt and a copy of the notice, because they are your proof of the date the van left your name."], ["Notify on the day of sale", "Keep the receipt and a copy of the notice", "Ask the authority about gaps"], {
+      caption: "Seller steps from each road authority's pages, read 21 October 2026.",
+      head: ["State or territory", "Tell the authority", "Certificate and plates"],
+      rows: [
+        ["New South Wales", "Submit a notice of disposal immediately after the sale; the buyer has 14 days to transfer", "Special plates can be kept or sold with the van; remove tags and permits, delete the number from your toll account, and CTP transfers to the buyer automatically"],
+        ["Victoria", "Report the sale within 14 days with a notice of disposal in myVicRoads", "A roadworthy certificate issued no more than 30 days before a private sale, unless exempt"],
+        ["Queensland", "Complete the transfer form and keep Part B until the transfer is done; the seller pays no transfer fee", "A current safety certificate, $102.70 for a vehicle up to 4,500 kg from 1 July 2026, and a gas certificate under 3 months old if there are gas fittings"],
+        ["Western Australia", "Notify within 7 days through DoTDirect or the seller copy of the MR9 form", "Give the buyer the red copy and the licence paper; return the plates before the sale for a refund of the licence period"],
+        ["South Australia", "Lodge a notice of disposal within 14 days; a paper notice if the buyer is interstate", "Ask Service SA about any certificate"],
+        ["Tasmania", "Notice of disposal within 7 days", "Ask Transport Tasmania about any certificate"],
+        ["Northern Territory", "Notice of disposal, form R06, within 14 days", "Ask the Motor Vehicle Registry about any certificate"],
+        ["ACT", "Ask Access Canberra for the seller's steps", "Ask Access Canberra"],
+      ],
+    }),
+    section("Safety certificates in Queensland and Victoria", ["Queensland's seller must give the buyer a current safety certificate or certificate of inspection, and the buyer lodges it with the transfer. The certificate is valid for 2 months or 2,000 km on a private sale and 3 months or 1,000 km on a dealer sale, and it is not needed when you sell to a dealer. A vehicle with gas fittings needs a gas certificate under 3 months old, and caravans and motorhomes are not exempt.", "In Victoria a private seller supplies a roadworthy certificate issued no more than 30 days before the sale, and a vehicle that is not registered can be sold without one. Because a certificate can find faults that cost money, book the inspection early enough to fix them before you advertise."], ["Book the inspection early", "Selling to a dealer needs no Queensland certificate", "Gas fittings need their own certificate"]),
+    section("Cancel the registration or sell with it", ["If you sell the van with its registration, the buyer pays the transfer fee and duty, and you tell the authority the date the van left your name. Queensland's page says the seller can stay accountable for the buyer's offences until the transfer is finalised, so a late notice keeps you exposed.", "If you cancel instead, Queensland refunds the unused registration and the compulsory third party premium, deducts a $22.00 fee and requires the plates to be surrendered. New South Wales cancellation needs the form and plates at a Service NSW centre, and it deducts a cancellation fee. Western Australia says no refund is possible once the vehicle is relicensed in another state."], ["A refund needs the plates back", "Cancelling and selling are separate routes", "Check refund fees in your state"]),
+    section("Clear the finance and prove the sale", ["A buyer should run a PPSR search, which costs $2 online and shows whether a finance company has a security interest in the van. The ACCC says a private seller must guarantee clear title and that nothing undisclosed is owing, so clear any loan before the sale.", "Keep a signed receipt with the buyer's name, the price, the date and the vehicle identification number. In New South Wales also delete the registration from your toll account and update your comprehensive insurance, because the green slip moves to the buyer."], ["Clear finance before selling", "Receipt with date and VIN", "Update toll and insurance accounts"]),
+    section("Where backpackers sell and how long it takes", ["Travellers Autobarn's selling advice says fellow backpackers are the best buyers and that Gumtree works but needs frequent relisting. It adds that a sale at 60% to 80% of what you paid is pretty good, that keeping at least 3 months of registration on the van helps, and that Sydney, Perth and Melbourne are quietest from April to July, with Darwin and Cairns slow from December to June.", "Those are a van dealer's views, not official rules, and no price or timing is guaranteed. If you bought from a company with a guaranteed buy-back, Travellers Autobarn's page sets the return at 40% of the purchase price up to 6 months and 30% up to 12 months, with the figure agreed in writing, so work out whether the buy-back beats a private sale before you list."], ["Backpackers buy from backpackers", "Relist often", "Weigh a buy-back against a private sale"]),
+    { ...section("Plan the last trip in AussieCamps", ["AussieCamps cannot list or sell your van. It can help you finish the trip near the city where you plan to sell, because a trip holds ordered stops, dates, notes and route distance, and marks visited progress as you go.", "It lists 1,838 campgrounds and 745 national parks from the state park agencies, plus 5,552 rest areas from road authorities, with each place's facilities, fees and rules as the agency publishes them. Place details work offline; map tiles, routing, weather and photos need signal."], ["Finish near the city where you sell", "Track visited stops", "Route distance for the last leg"]), cta: true },
+  ],
+  sources: [
+    { label: "Service NSW: submit a notice of disposal for a vehicle", url: "https://www.service.nsw.gov.au/transaction/submit-a-notice-of-disposal-for-a-vehicle" },
+    { label: "Service NSW: cancel vehicle registration within NSW", url: "https://www.service.nsw.gov.au/transaction/cancel-vehicle-registration-within-nsw" },
+    { label: "VicRoads: selling a vehicle", url: "https://www.vicroads.vic.gov.au/buy-sell-transfer/selling-car/selling-vehicle" },
+    { label: "Queensland Government: transfer vehicle registration", url: "https://www.qld.gov.au/transport/registration/transfer/rego" },
+    { label: "Queensland Government: safety certificates", url: "https://www.qld.gov.au/transport/registration/safety-certificate" },
+    { label: "Queensland Government: cancel registration", url: "https://www.qld.gov.au/transport/registration/cancel" },
+    { label: "WA Department of Transport: sell a vehicle", url: "https://transport.wa.gov.au/licensing/vehicle/buy-sell-transfer/sell" },
+    { label: "SA Government: lodge a disposal notice", url: "https://www.sa.gov.au/topics/driving-and-transport/registration/vehicle-registration/transfers/lodge-disposal-notice" },
+    { label: "Service Tasmania: dispose of a vehicle registration", url: "https://www.service.tas.gov.au/services/transport/vehicle-registration/dispose-of-a-vehicle-registration/" },
+    { label: "NT Government: former owner responsibilities", url: "https://nt.gov.au/driving/rego/existing-nt-registration/buying-selling-a-used-vehicle-registration/former-owner-responsibilities-seller" },
+    { label: "PPSR: do a used car or vehicle search", url: "https://www.ppsr.gov.au/carcheck" },
+    { label: "ACCC: new and second-hand cars", url: "https://www.accc.gov.au/consumers/specific-products-and-activities/new-and-second-hand-cars" },
+    { label: "Travellers Autobarn: how to sell your car in Australia", url: "https://www.travellers-autobarn.com.au/blog/how-to-sell-your-car-in-australia" },
+    { label: "Travellers Autobarn: guaranteed buy-back", url: "https://www.travellers-autobarn.com.au/backpacker-van-and-car-sales/guaranteed-buyback" },
+  ],
+});
