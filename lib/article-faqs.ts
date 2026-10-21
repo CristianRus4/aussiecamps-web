@@ -243,7 +243,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
   "best-apps-lap-of-australia": [
     ["What apps do I need for a lap of Australia?", "Most travellers combine a camp and stop directory such as AussieCamps, WikiCamps or CAMPS, an offline map for remote stretches, a fuel app, BOM Weather for warnings and Google or Apple Maps for navigation."],
     ["Which app is best for finding free camps on a Big Lap?", "WikiCamps has the largest community catalogue of free and low-cost camps for A$9.99 once per platform, and CAMPS lists sites its team has checked for A$14.99 a year after a 7-day trial."],
-    ["Do I need offline maps for a lap of Australia?", "Yes for the remote sections. Tourism Australia says Nullarbor services are often 150 to 200 km apart, and phone coverage can end well before them. Download maps in Google Maps, CAMPS or ExplorOz before you leave coverage."],
+    ["Do I need offline maps for a lap of Australia?", "Yes for the remote sections. Tourism Australia says Nullarbor services are often 150 to 200 km apart, so download maps in Google Maps, CAMPS or ExplorOz while you still have coverage."],
     ["Is there an app that plans the whole Big Lap?", "No single app plans every part. AussieCamps builds a trip of ordered stops with driving distance and time for each leg and forecasts for your arrival dates, and Google Maps limits a route to 9 stops, so a full lap is split into several routes."],
   ],
   "best-dump-point-toilet-apps-australia": [
