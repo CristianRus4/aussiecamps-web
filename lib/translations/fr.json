@@ -20494,7 +20494,7 @@
         {
           "heading": "Ce qu'un emplacement sans électricité vous offre",
           "body": [
-            "",
+            "Les emplacements sans électricité de Discovery à Cradle Mountain sont des plateformes de gravier d'environ 16 pieds, adaptées aux tentes, aux campervans et aux petits camping-cars, et chaque emplacement donne accès aux blocs sanitaires, à la <a data-guide=\"dump-points-australia-guide\">station de vidange</a> et aux laveries à pièces. BIG4 indique que les emplacements sans électricité conviennent aux caravanes, aux camping-cars, aux tentes de toit et aux remorques-tentes.",
             "La taille varie, et un emplacement non équipé en gravier de type Discovery est décrit comme trop petit pour installer une tente ou un auvent, vérifiez donc la taille avant de réserver."
           ],
           "tips": [
@@ -20594,6 +20594,1226 @@
         },
         {
           "label": "Parcs nationaux de la Nouvelle-Galles du Sud : générateurs en camping"
+        }
+      ],
+      "priceTable": null
+    },
+    "brisbane-to-cairns-drive": {
+      "title": "Conduite de Brisbane à Cairns en 2026 : tronçons de la Bruce Highway, saison des inondations, fatigue et carburant",
+      "description": "De Brisbane à Cairns, il y a environ 1 700 km et 22 heures sur la Bruce Highway. Les étapes quotidiennes, la variante intérieure, les fermetures pendant la saison des pluies, les règles concernant les fourmis de feu, les aires de repos et les aires de vidange.",
+      "region": "Queensland",
+      "imageAlt": "La Bruce Highway en direction de Tully dans le nord du Queensland, avec de la vapeur s'échappant de la sucrerie et des nuages bas au-dessus des collines",
+      "intro": "De Brisbane à Cairns, il y a environ 1 700 km et 22 heures de conduite sur la Bruce Highway, selon le routage OSRM, ce qui représente cinq tronçons de 300 à 400 km pour environ cinq heures par jour. La seule alternative intérieure quitte la Bruce à Rockhampton et ajoute environ 245 km, et la saison des cyclones et des inondations de novembre à avril est plus importante que l'itinéraire.",
+      "sections": [
+        {
+          "heading": "Comparaison des itinéraires de Brisbane à Cairns",
+          "body": [
+            "La Bruce Highway est l'itinéraire que presque tout le monde emprunte. Wikipédia indique qu'elle mesure environ 1 679 km, entièrement sur route goudronnée, à double voie de Brisbane à Curra, où le contournement de Gympie a ouvert le 15 octobre 2024, et majoritairement à deux voies au nord de là. La limite est de 110 km/h de Caboolture à Curra, généralement de 100 km/h entre Maryborough et Rockhampton, et plus basse à travers des villes telles que Childers, Gin Gin et Miriam Vale. Elle traverse Gympie, Bundaberg, Gladstone, Rockhampton, Mackay, Bowen, Townsville, Ingham et Innisfail jusqu'à Cairns.",
+            "La variante intérieure quitte le Bruce à Rockhampton, prend la Capricorn Highway jusqu'à Emerald, la Gregory Highway jusqu'à Clermont et la Gregory Developmental Road jusqu'à Charters Towers, puis la Flinders Highway jusqu'à Townsville et le Bruce jusqu'à Cairns. Wikipédia indique que la route Gregory est empruntée par de nombreux <a data-guide=\"driving-with-road-trains-australia\">road trains</a>, et aucune des sources consultées ne précise quelle partie est asphaltée, donc ce guide ne la qualifie pas de route rapide. Le routage OSRM sur les données OpenStreetMap a fourni les distances et les temps ici, calculés le 21 octobre 2026 pour une voiture qui ne s'arrête pas."
+          ],
+          "tips": [
+            "Bruce Highway : entièrement pavée",
+            "Variante intérieure : environ 245 km plus longue",
+            "Intérieur : trains routiers, vérifiez les conditions"
+          ],
+          "table": {
+            "caption": "Brisbane à Cairns par la route, routage OSRM calculé le 21 octobre 2026.",
+            "head": [
+              "Itinéraire",
+              "Distance",
+              "Temps de conduite",
+              "Route",
+              "Meilleur pour"
+            ],
+            "rows": [
+              [
+                "Bruce Highway sur toute la distance",
+                "Environ 1 693 km (Wikipédia : environ 1 679 km)",
+                "Environ 21 h 57 min",
+                "Route asphaltée, double jusqu'à Curra, majoritairement deux voies au nord",
+                "Le road trip standard, en cinq jours"
+              ],
+              [
+                "Bruce à Rockhampton, puis Emerald, Clermont et Charters Towers à Townsville, puis le Bruce",
+                "Environ 1 938 km",
+                "Environ 26 h 4 min",
+                "Capricorn et Gregory Highways, puis la Gregory Developmental Road",
+                "Les conducteurs qui souhaitent faire un détour à l'intérieur des terres et ont une journée de libre"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Cinq étapes quotidiennes",
+          "body": [
+            "Selon le routage OSRM, cinq étapes permettent d'atteindre environ cinq heures de conduite chaque jour. De Brisbane à Bundaberg, il y a environ 362 km (4 h 42 min), de Bundaberg à Rockhampton environ 294 km (4 h 1 min), de Rockhampton à Mackay environ 335 km (4 h 16 min), de Mackay à Townsville environ 396 km (5 h 17 min) et de Townsville à Cairns environ 347 km (4 h 45 min). Le plus long de ces trajets, de Mackay à Townsville, passe par Proserpine et Bowen.",
+            "Les campings et les sites d'intérêt de cette route figurent déjà dans les guides Brisbane à Cape Tribulation et Sydney à Cairns, ce guide ne les répète donc pas. Les données d'AussieCamps répertorient les campings des parcs et de la faune de <a data-guide=\"camping-rules-queensland\">Queensland</a> proches de l'itinéraire à Wongi Waterholes près de Maryborough, Alligator Creek à Mount Elliot près de Townsville, Big Crystal Creek dans la section de Mount Spec et Jourama Falls près d'Ingham. Les frais ne figurent pas dans les données, veuillez consulter le guide des règles de camping pour le Queensland et réserver auprès de l'agence du parc."
+          ],
+          "tips": [
+            "Bundaberg à environ 362 km",
+            "Rockhampton environ 656 km",
+            "Mackay environ 991 km",
+            "Townsville à environ 1 387 km"
+          ]
+        },
+        {
+          "heading": "Saison des pluies, inondations et cyclones",
+          "body": [
+            "Préparez-vous : <a data-guide=\"camping-rules-queensland\">Queensland</a> indique que la saison des cyclones de l'État s'étend officiellement du 1er novembre au 30 avril, et que des cyclones peuvent survenir à d'autres moments. Un document sur les fermetures de routes du Queensland, tel qu'indiqué dans un extrait de recherche, précise que pendant la saison des pluies, de novembre à avril, des zones à travers le Queensland peuvent connaître des inondations et des glissements de terrain. Wikipédia indique que la Bruce Highway est sujette à des inondations fréquentes à plusieurs endroits, et que les plaines de Goorganga au sud de Proserpine peuvent être fermées pendant plusieurs jours.",
+            "Transport et routes principales, dans un extrait de page de projet, indique que les inondations ferment la Bruce Highway à un ou plusieurs endroits sur les 16 km entre Ingham et Innisfail environ tous les deux ans pendant la <a data-guide=\"best-time-camping-australia\">saison des pluies</a>, souvent plus d'une fois, et que le Gairloch floodway ferme généralement en premier. Aucune source vérifiée ne montre de fermeture pour aujourd'hui, veuillez consulter QLDTraffic et ne pas traverser les eaux de crue. Si vos dates tombent entre novembre et avril, prévoyez une journée supplémentaire dans votre itinéraire."
+          ],
+          "tips": [
+            "Saison des cyclones : du 1er novembre au 30 avril",
+            "Inondations d'Ingham à Innisfail pendant la plupart des saisons humides",
+            "Prévoir une journée supplémentaire"
+          ]
+        },
+        {
+          "heading": "Fatigue, aires de repos et aires de vidange",
+          "body": [
+            "<a data-guide=\"camping-rules-queensland\">Queensland</a> Les directives de la police et des services de Transport et Main Roads indiquent de faire une pause toutes les deux heures dans une aire de repos ou un site Driver Reviver. Les mêmes extraits indiquent de s'arrêter si vous ressentez de la somnolence, si vous avez du mal à garder la tête levée ou si vous ne pouvez pas vous souvenir des dernières minutes de conduite. Certains sites Driver Reviver sont remis aux conseils locaux ou fermés tout en restant ouverts en tant qu'aires de repos, veuillez donc utiliser QLDTraffic, qui répertorie les aires de repos et les aires de repos pour les poids lourds, plutôt qu'une liste de sites provenant d'un ancien guide.",
+            "Les données d'AussieCamps répertorient une aire de repos dans le corridor, l'aire de repos de Babinda au nord d'Innisfail, avec des toilettes, de l'<a data-guide=\"camping-water-planning\">eau potable</a>, un abri et des tables de pique-nique. C'est une lacune dans les données, et non un décompte des aires de repos sur la Bruce. Le guide sur la fatigue des road trips et la faune couvre la conduite à l'aube et au crépuscule, et le guide sur les nuitées couvre si vous pouvez dormir dans une aire de repos.",
+            "Les données d'AussieCamps répertorient des <a data-guide=\"dump-points-australia-guide\">aires de vidange</a> à Wyllie Park à Petrie, Alf Larson Lions Park à Miriam Vale, le Centre d'information touristique à Curtis Park à Allenstown près de Rockhampton, Cedric Archer Park à Gracemere, Railway Square à Sarina, Bluewater Park à Bluewater et le Centre d'information des visiteurs de Hinchinbrook à Ingham. Wyllie Park, Curtis Park, Cedric Archer Park et Bluewater Park répertorient une fontaine à vidange. C'est uniquement la couverture des données, et QLDTraffic dispose également d'une couche d'aires de vidange, vérifiez donc le guide des aires de vidange et la carte avant un long trajet."
+          ],
+          "tips": [
+            "Faire une pause toutes les deux heures",
+            "Arrêtez-vous si vous êtes somnolent",
+            "Utilisez QLDTraffic pour les aires de repos",
+            "Les aires de vidange de Petrie, Rockhampton et Bluewater indiquent un robinet hors service"
+          ]
+        },
+        {
+          "heading": "Carburant et services",
+          "body": [
+            "Aucune source d'autorité routière ou d'opérateur ne vérifie l'existence d'une rupture de carburant sur la Bruce Highway, donc aucun chiffre ne doit être pris des tronçons OSRM, qui ne montrent que la distance entre les villes utilisées comme points de passage. Le plus long de ceux-ci est Rockhampton à Mackay à environ 335 km, et il traverse des villes, donc faites le plein dans les centres plus importants tels que Gympie, Bundaberg, Gladstone, Rockhampton, Mackay, Proserpine, Townsville et Ingham plutôt que de vous retrouver à court. Sur la variante intérieure, Clermont à Charters Towers est d'environ 391 km sans point de passage intermédiaire, ce qui n'est qu'une distance et non une rupture de carburant confirmée, donc faites le plein à Clermont. Utilisez le guide de carburant pour road trip pour budgétiser le carburant pour cette distance."
+          ],
+          "tips": [
+            "Faites le plein dans les villes plus grandes",
+            "Intérieur : faites le plein à Clermont",
+            "Ne manquez pas de faire le plein entre les centres"
+          ]
+        },
+        {
+          "heading": "Conditions de la route, QLDTraffic et péages",
+          "body": [
+            "QLDTraffic, de Transport and Main Roads, affiche les alertes de circulation concernant les accidents, les dangers, les inondations et les travaux, les caméras d'inondation, les aires de repos, les <a data-guide=\"dump-points-australia-guide\">aires de vidange</a>, les restrictions pour camions et le radar des pluies de la BOM. Un extrait du gouvernement du Queensland donne le numéro de téléphone 13 19 40. Vérifiez-le chaque matin, et à nouveau à midi pendant la saison des pluies.",
+            "Les sources consultées ne décrivent pas de péage sur la Bruce Highway au nord de Brisbane. Si votre itinéraire hors de Brisbane utilise une route à péage de Brisbane, cela dépend de votre point de départ, vérifiez donc l'opérateur avant de partir."
+          ],
+          "tips": [
+            "QLDTraffic : alert et caméras d'inondation",
+            "13 19 40 pour les informations routières",
+            "Vérifiez chaque matin"
+          ]
+        },
+        {
+          "heading": "Fourmis de feu en quittant Brisbane",
+          "body": [
+            "Les zones de <a data-guide=\"interstate-biosecurity-road-trip\">biosecurity</a> des fourmis de feu du Queensland ont été mises à jour à partir du 15 avril 2026 et couvrent des parties des zones de conseil de Logan, Gold Coast, Moreton Bay, Lockyer Valley, Scenic Rim et Sunshine Coast. Le Biosecurity Regulation 2016 établit des procédures pour le déplacement ou le stockage des porteurs de fourmis de feu à l'intérieur des zones, et un permis d'instrument de biosecurity est nécessaire si vous ne pouvez pas les respecter. Un résumé des zones énumère la paille ou le foin en balles, le fumier, le paillis, les plantes en pot, les matériaux de carrière et miniers, le sol et la pelouse comme porteurs, et indique que les fourmis peuvent voyager dans des équipements ou des matériaux qui ont été en contact avec le sol ou stockés à l'extérieur.",
+            "Les extraits de recherche ne mentionnent pas les caravanes, les vans ou l'équipement de camping, et les pages de fireants.org.au bloquent les scripts, de sorte que ce guide ne peut pas indiquer comment les règles s'appliquent à ceux-ci. Les zones sont révisées chaque mois, veuillez donc consulter la carte des zones et les règles de circulation sur fireants.org.au pour la banlieue depuis laquelle vous partez."
+          ],
+          "tips": [
+            "Les zones changent chaque mois",
+            "Terre, paillis, foin, gazon, plantes en pot : transporteurs",
+            "Vérifiez la carte pour votre banlieue"
+          ]
+        },
+        {
+          "heading": "Plan le road trip de Brisbane à Cairns dans AussieCamps",
+          "body": [
+            "Planifiez-le comme un voyage dans AussieCamps : ajoutez les cinq arrêts de nuit dans l'ordre, et cela affichera la distance et le temps de trajet de chaque étape avec une prévision pour le jour de votre arrivée. AussieCamps répertorie 1 838 campings, 5 552 aires de repos et 1 393 <a data-guide=\"dump-points-australia-guide\">aires de vidange</a> provenant d'agences de parcs, d'autorités routières et de jeux de données publics, et une page de lieu présente les installations, les règles et les emplacements pour camping-car que ces sources publient, comme sur la page du parc national de Cape Hillsborough près de Mackay.",
+            "Même avec <a data-guide=\"camping-without-phone-signal\">pas de signal</a>, les détails, les lieux enregistrés et les guides restent ouverts sur le téléphone. Les tuiles de carte, le routage, la météo et les photos nécessitent une connexion, donc ouvrez le road trip avant de quitter la ville. AussieCamps est une application iPhone, gratuite à télécharger, avec des achats intégrés."
+          ],
+          "tips": [
+            "Ajouter chaque arrêt nocturne dans l'ordre",
+            "Prévisions par jour d'arrivée",
+            "Ouvrir le voyage avant une longue étape"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Combien de temps faut-il pour conduire de Brisbane à Cairns ?",
+          "Environ 1 700 km et 22 heures de conduite sur la Bruce Highway, selon le routage OSRM sur les données OpenStreetMap (1 693 km et 21 h 57 min en ligne directe). Wikipédia indique que la Bruce Highway fait environ 1 679 km. Cinq étapes d'environ 300 à 400 km permettent de limiter la conduite à environ cinq heures par jour."
+        ],
+        [
+          "Existe-t-il un itinéraire intérieur de Brisbane à Cairns ?",
+          "Seule une variante. Vous pouvez quitter le Bruce à Rockhampton, prendre la Capricorn Highway jusqu'à Emerald, puis la Gregory Highway et la Gregory Developmental Road à travers Clermont jusqu'à Charters Towers et la Flinders Highway jusqu'à Townsville. Selon OSRM, il s'agit d'environ 1 938 km, soit environ 245 km de plus que le Bruce, et Wikipédia indique que la route Gregory est empruntée par de nombreux road trains."
+        ],
+        [
+          "Quand la Bruce Highway est-elle la plus susceptible d'être inondée ?",
+          "La saison des cyclones du Queensland s'étend officiellement du 1er novembre au 30 avril, et un document de fermeture de route du Queensland indique que la saison des pluies se déroule de novembre à avril. Wikipédia indique que le Bruce est sujet à des inondations fréquentes, et un extrait de Transport and Main Roads précise que les 16 km entre Ingham et Innisfail sont fermés pendant la plupart des saisons humides. Vérifiez QLDTraffic avant chaque étape."
+        ],
+        [
+          "Y a-t-il des règles concernant les fourmis de feu lorsque vous quittez Brisbane ?",
+          "Les zones de biosécurité contre les fourmis de feu du Queensland couvrent des parties des zones de conseil de Logan, Gold Coast, Moreton Bay, Lockyer Valley, Scenic Rim et Sunshine Coast. Les règles contrôlent le déplacement de matériaux tels que la terre, le paillis, le foin, le fumier, les plantes en pot, le gazon et les matériaux de carrière hors des zones. Les sources consultées ne mentionnent pas les caravanes ou l'équipement de camping, veuillez donc consulter fireants.org.au avant de partir."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Calcul d'itinéraire OSRM sur les données OpenStreetMap (Brisbane à Cairns, calculé le 21 octobre 2026)"
+        },
+        {
+          "label": "Wikipédia : Bruce Highway"
+        },
+        {
+          "label": "Wikipédia : Capricorn Highway"
+        },
+        {
+          "label": "Wikipédia : Gregory Developmental Road"
+        },
+        {
+          "label": "QLDTraffic"
+        },
+        {
+          "label": "Préparez-vous dans le Queensland : cyclone et onde de tempête"
+        },
+        {
+          "label": "Bureau of Meteorology : Surveillance de la saison des cyclones tropicaux australiens"
+        },
+        {
+          "label": "Transport et routes principales : Bruce Highway (Ingham à Innisfail), Gairloch Floodway"
+        },
+        {
+          "label": "Gouvernement du Queensland : Sites Driver Reviver en cours de modification"
+        },
+        {
+          "label": "Programme des fourmis de feu du Queensland : déplacement de matériaux"
+        },
+        {
+          "label": "Données ouvertes du gouvernement du Queensland : zones de biosécurité des fourmis de feu"
+        },
+        {
+          "label": "FINIA : changements de zone de biosécurité pour les fourmis rouges importées (10 mai 2026)"
+        }
+      ],
+      "priceTable": null
+    },
+    "adelaide-to-melbourne-drive": {
+      "title": "Conduite d'Adélaïde à Melbourne en 2026 : Itinéraire intérieur, option côtière, règles frontalières et arrêts",
+      "description": "De l'Adélaïde à Melbourne, il y a environ 730 km et 9 heures sur les Dukes et Western Highways. Comparaison des itinéraires intérieurs et côtiers, avec des arrêts, des aires de repos, les règles sur les fruits, les travaux sur la route et les aires de vidange.",
+      "region": "Australie-Méridionale et Victoria",
+      "imageAlt": "L'A8 Dukes Highway au nord de Ki Ki en Australie-Méridionale, avec des broussailles de mallee, des pâturages verdoyants et des nuages au-dessus de la route",
+      "intro": "De l'Adélaïde à Melbourne, il y a environ 730 km et 9 h 10 min à 9 h 45 min de conduite sur la route intérieure, selon le routage OSRM : la Dukes Highway jusqu'à la frontière, puis la Western Highway à travers Horsham et Ballarat. La plupart des conducteurs divisent le trajet avec une nuit à Horsham ou Nhill, et l'alternative côtière par Mount Gambier est d'environ 874 km et 11 h 20 min de conduite avant tout détour.",
+      "sections": [
+        {
+          "heading": "Comparaison des itinéraires d'Adélaïde à Melbourne",
+          "body": [
+            "L'itinéraire intérieur quitte Adélaïde par le South Eastern Freeway, emprunte la Princes Highway à travers le Murray à Murray Bridge jusqu'à Tailem Bend, puis suit la Dukes Highway (A8) à travers Coonalpyn, Tintinara, Keith et Bordertown. Wikipédia décrit la Dukes Highway comme étant de 190 km de Tailem Bend à la frontière, majoritairement à une voie dans chaque sens avec 36 voies de dépassement. Elle devient la Western Highway à la frontière de Victoria, qui traverse Kaniva, Nhill, Horsham, Stawell, Ararat et Ballarat jusqu'à Melbourne.",
+            "L'itinéraire côtier suit la Princes Highway à travers Mount Gambier, Warrnambool et Geelong, et la Great Ocean Road ajoute un détour supplémentaire entre Warrnambool et Torquay. Ce guide ne répète pas cet itinéraire : le guide de la route côtière de Melbourne à Adelaide couvre la Limestone Coast, le Coorong et le camping. Chaque distance et temps de trajet ci-dessous provient du routage OSRM sur les données OpenStreetMap, exécuté le 21 octobre 2026 pour une voiture roulant en ligne droite."
+          ],
+          "tips": [
+            "Intérieur : le plus rapide et le plus direct",
+            "Côtière : environ 150 km plus long et plus lent",
+            "Great Ocean Road : un détour, pas un raccourci"
+          ],
+          "table": {
+            "caption": "Adélaïde à Melbourne par la route, routage OSRM calculé le 21 octobre 2026.",
+            "head": [
+              "Itinéraire",
+              "Distance",
+              "Temps de conduite",
+              "Route",
+              "Meilleur pour"
+            ],
+            "rows": [
+              [
+                "Dukes Highway et Western Highway via Bordertown, Horsham et Ballarat",
+                "Environ 730 km (726 km en ligne, 739 km via les villes)",
+                "Environ 9 h 10 min à 9 h 45 min",
+                "Principalement une voie unique jusqu'à proximité de Buangor, puis une voie double jusqu'à Melbourne",
+                "Le trajet le plus rapide, en une longue journée ou avec une nuit à Horsham"
+              ],
+              [
+                "Princes Highway via Mount Gambier, Warrnambool et Geelong",
+                "À peu près 874 km",
+                "Environ 11 h 20 min",
+                "Principalement à voie unique",
+                "Une conduite plus lente le long de la Limestone Coast"
+              ],
+              [
+                "Princes Highway puis la Great Ocean Road via Port Campbell, Apollo Bay et Torquay",
+                "À peu près 971 km",
+                "Environ 13 h 10 min",
+                "Route côtière sinueuse par endroits",
+                "Les Douze Apôtres, avec deux jours ou plus"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "L'itinéraire intérieur en un ou deux jours",
+          "body": [
+            "Selon le routage OSRM, d'Adélaïde à Murray Bridge, il y a environ 76 km (1 h 2 min), Tailem Bend à environ 24 km plus loin, Keith à environ 130 km après cela et Bordertown à environ 46 km. De l'autre côté de la frontière, il y a environ 44 km jusqu'à Kaniva, 39 km jusqu'à Nhill, 75 km jusqu'à Horsham, 67 km jusqu'à Stawell, 31 km jusqu'à Ararat, 94 km jusqu'à Ballarat et 114 km jusqu'à Melbourne. D'Adélaïde à Horsham, cela fait environ 434 km (5 h 36 min), c'est pourquoi Horsham est l'arrêt nocturne habituel.",
+            "Le Horsham Riverside Caravan Park, situé au 190 Firebrace Street, est répertorié par Visit Wimmera Mallee avec une <a data-guide=\"dump-points-australia-guide\">aire de vidange</a>, des emplacements en libre accès, une cuisine de camping et une laverie. Le Nhill Holiday Park, situé au 93 Victoria Street sur la Western Highway, est géré par le Hindmarsh Shire Council avec des emplacements avec électricité, sans électricité et avec salle de bain privative réservables en ligne. Veuillez confirmer la disponibilité auprès de chaque parc. Les données d'AussieCamps répertorient des aires de repos gratuites en Victoria à Serviceton, Lawloit près de Nhill, Pink Lake près de Dimboola, Green Lake, Golton, Deep Lead et Bungaree, chacune disposant de toilettes, d'eau potable, de tables de pique-nique et de barbecues. Il n'en répertorie aucun en Australie-Méridionale sur cette route, ce qui constitue une lacune dans les données. Considérez les aires de repos comme un lieu pour faire une pause et consultez les guides sur les nuitées et les règles de camping avant de vous y installer."
+          ],
+          "tips": [
+            "Horsham à environ 434 km",
+            "Nhill à environ 359 km",
+            "Ballarat à environ 625 km"
+          ]
+        },
+        {
+          "heading": "Travaux sur la Western Highway et limitations de vitesse",
+          "body": [
+            "La page Victorian Big Build, telle qu'elle apparaît dans les extraits de recherche de ses pages et dans un communiqué gouvernemental de mai 2026, indique que les 55 km de Ballarat à Buangor sont terminés et dupliqués. Elle précise que le tronçon Buangor à Ararat, d'environ 12 km, commencera sa construction avant la fin de 2026, avec l'achèvement de tous les travaux prévu pour le milieu de 2029 sous réserve des approbations, et que le tronçon Ararat à Stawell est au stade de la planification initiale. Le Stawell Times a rapporté en mars 2026 qu'aucune date d'achèvement n'était confirmée pour le tronçon à l'ouest de Buangor.",
+            "Les mêmes sources indiquent que des mesures de sécurité provisoires, incluant une réduction des <a data-guide=\"australia-road-rules-state-differences\">limites de vitesse</a> et une signalisation améliorée, sont en vigueur entre Buangor et Ararat. Les extraits ne précisent pas les limites, par conséquent ce guide ne cite aucun chiffre : suivez les panneaux. Wikipédia indique que la Western Highway est la deuxième autoroute nationale la plus fréquentée en Australie pour le fret, avec plus de 4 000 véhicules de fret par jour à Anthony's Cutting, donc prévoyez des camions sur les sections à voie unique. Le South Eastern Freeway en sortant d'Adélaïde a sa propre règle : Wikipédia indique que les véhicules avec cinq essieux ou plus doivent rester à gauche et ralentir à 60 km/h entre le Crafers Interchange et l'ancienne maison de péage."
+          ],
+          "tips": [
+            "Ballarat à Buangor : complet",
+            "Buangor à Ararat : travaux prévus avant la fin de 2026",
+            "Respectez les limites affichées près de Buangor"
+          ]
+        },
+        {
+          "heading": "Camping et excursions hors de l'autoroute",
+          "body": [
+            "Le parc d'État de Mount Buangor est situé sur la Western Highway à Buangor, et les données d'AussieCamps répertorient ses zones de camping de Ferntree, Bailes et Middle Creek de Parks Victoria, avec des toilettes et de l'<a data-guide=\"camping-water-planning\">eau potable</a> à chaque endroit. Plus à l'ouest, les données répertorient les campings du parc national des Grampians à Stapylton, Coppermine et Troopers Creek, ainsi que la zone de camping d'Ackle Bend dans le parc national de Little Desert. Les frais ne figurent pas dans les données, veuillez donc vérifier auprès de Parks Victoria avant de réserver.",
+            "Les Grampians et le Little Desert sont des détours de longueurs différentes par rapport à l'autoroute, ils conviennent donc à un deuxième jour plutôt qu'à une course rapide. Si vous souhaitez un voyage plus long avec la côte d'un côté et les Grampians de l'autre, le guide de l'itinéraire côtier de Melbourne à Adélaïde présente la comparaison."
+          ],
+          "tips": [
+            "Mont Buangor : sur l'autoroute",
+            "Grampians et Little Desert : planifier un détour",
+            "Veuillez consulter Parks Victoria pour les frais"
+          ]
+        },
+        {
+          "heading": "Carburant, services et aires de vidange",
+          "body": [
+            "Aucune source d'autorité routière ou d'opérateur ne vérifie l'écart de carburant sur cet itinéraire, donc aucun chiffre ne doit être pris des tronçons OSRM, qui ne montrent que la distance entre les villes utilisées comme points de passage. Le plus long de ces tronçons est de Tailem Bend à Keith à environ 130 km, et Melbourne à Ballarat est d'environ 114 km. Faites le plein dans les villes plus importantes, telles que Murray Bridge, Keith, Bordertown, Nhill, Horsham, Stawell, Ararat et Ballarat, plutôt que d'attendre la dernière ville avant un long tronçon. Calculez votre budget carburant pour la distance totale avec le guide de carburant pour road trip.",
+            "Les données d'AussieCamps répertorient des <a data-guide=\"dump-points-australia-guide\">aires de vidange</a> au Mount Barker Recreation Grounds et à Callington Oval, chacune disposant d'un robinet de vidange, et au Coonalpyn Caravan Park sans qu'il y en ait listé. En Victoria, il répertorie le Scallan Street Car Park à Stawell et le Green Hill Lake Camping à Ararat, chacun disposant d'un robinet de vidange. Le Horsham Riverside Caravan Park répertorie sa propre aire de vidange. Ce n'est que la couverture des données, veuillez donc consulter le guide des aires de vidange pour le reste."
+          ],
+          "tips": [
+            "Faites le plein à Keith, Nhill, Horsham et Stawell",
+            "Ne pas attendre la dernière ville",
+            "Mount Barker, Callington, Stawell et Ararat signal un robin bouché"
+          ]
+        },
+        {
+          "heading": "Conditions de la route, péages et l'horloge",
+          "body": [
+            "Veuillez consulter Traffic SA pour la section de l'Australie-Méridionale et VicTraffic pour <a data-guide=\"camping-rules-victoria\">Victoria</a>. VicEmergency diffuse les avertissements de feu et les incidents d'urgence, et une page de tourisme pour la Great Ocean Road indique que la fermeture la plus fréquente est due aux chutes de pierres entre Lorne et Apollo Bay après de fortes pluies, veuillez donc vérifier avant de prendre la côte.",
+            "À Melbourne, Linkt indique que son Visitor's Pass couvre CityLink et EastLink pour une durée maximale de 30 jours, avec des frais d'ouverture de 3,50 $ en ligne ou de 5,00 $ par téléphone, et couvre les trajets en CityLink effectués jusqu'à 5 jours auparavant ainsi que les trajets en EastLink effectués jusqu'à 3 jours auparavant. Que votre itinéraire vers Melbourne utilise une route à péage dépend de votre destination, vérifiez donc avant de partir. <a data-guide=\"camping-rules-south-australia\">Australie-Méridionale</a> et Victoria observent tous deux l'heure d'été, qui a commencé le dimanche 4 octobre 2026 et se termine le dimanche 4 avril 2027. L'Australie-Méridionale est en retard de 30 minutes par rapport à Victoria toute l'année, veuillez donc avancer votre montre d'une demi-heure à la frontière."
+          ],
+          "tips": [
+            "Trafic SA et VicTraffic",
+            "Le Linkt Visitor's Pass couvre les péages de Melbourne",
+            "La Victoria est en avance de 30 minutes"
+          ]
+        },
+        {
+          "heading": "Fruits et légumes à la frontière",
+          "body": [
+            "Aucune des sources consultées ne décrit de point de contrôle de <a data-guide=\"interstate-biosecurity-road-trip\">mouche des fruits</a> du côté de Victoria. Agriculture Victoria demande aux personnes voyageant de l'Australie-Méridionale et de l'Australie-Occidentale vers Victoria de ne pas apporter de fruits ou de légumes fruitiers, afin d'empêcher la mouche des fruits méditerranéenne d'entrer dans l'État, qui est exempt de celle-ci. Il s'agit d'une demande, issue d'un extrait de recherche de sa page qui bloque les scripts, veuillez donc consulter Agriculture Victoria au 136 186. Le site de quarantaine inter-États ne répertorie aucune zone de mouches des fruits pour Victoria et indique que les panneaux sur les routes principales indiquent lorsque vous entrez dans une Zone d'Exclusion de Phylloxéra. Il précise également que des stations de quarantaine et des bacs de traitement des fruits sont placés dans toute l'Australie-Méridionale et que des stations de quarantaine mobiles peuvent opérer n'importe où dans l'État à tout moment.",
+            "Les règles plus strictes s'appliquent dans l'autre sens. Le guide de la route côtière de Melbourne à Adélaïde et le guide de biosécurité inter-États les couvrent, et PIRSA indique que pour les voyageurs en provenance de <a data-guide=\"camping-rules-victoria\">Victoria</a>, les fruits frais ne sont pas autorisés en Australie-Méridionale, tandis que les fruits et légumes transformés, séchés, conservés, cuits, congelés et en conserve sont autorisés. Les règles de Riverland sont distinctes et ne concernent pas cette route."
+          ],
+          "tips": [
+            "Mange des fruits frais avant de traverser",
+            "Victoria : une demande, pas une interdiction déclarée",
+            "Plus strict en Australie-Méridionale"
+          ]
+        },
+        {
+          "heading": "Plan le road trip de Adelaide à Melbourne dans AussieCamps",
+          "body": [
+            "Planifiez-le comme un voyage dans AussieCamps : ajoutez les arrêts dans l'ordre, Keith ou Nhill, Horsham et un camping à Mount Buangor ou dans les Grampians, et cela affichera la distance et le temps de trajet de chaque étape avec une prévision pour le jour de votre arrivée. AussieCamps répertorie 1 838 campings, 5 552 aires de repos et 1 393 <a data-guide=\"dump-points-australia-guide\">aires de vidange</a> provenant d'agences de parcs, d'autorités routières et de jeux de données publics, y compris les campings de Parks Victoria mentionnés ci-dessus, et une page de lieu affiche les installations publiées par ces sources.",
+            "Les détails des lieux, les lieux enregistrés et les Guides restent lisibles même sans <a data-guide=\"camping-without-phone-signal\">signal</a>. Les tuiles de carte, le routage, la météo et les photos nécessitent une connexion, ouvrez donc le road trip avant de quitter Tailem Bend. L'application est uniquement disponible pour iPhone et gratuite à télécharger, avec des achats intégrés."
+          ],
+          "tips": [
+            "Ajouter chaque arrêt nocturne dans l'ordre",
+            "Prévisions par jour d'arrivée",
+            "Ouvrez le voyage avant les longs tronçons"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Combien de temps faut-il pour conduire d'Adélaïde à Melbourne ?",
+          "Environ 730 km et 9 h 10 min à 9 h 45 min de conduite sur la Dukes Highway et la Western Highway, selon le routage OSRM sur les données OpenStreetMap, en fonction des points de passage utilisés. La plupart des conducteurs le divisent avec une nuit à Horsham ou Nhill, car une journée de conduite plus le carburant et les arrêts est longue."
+        ],
+        [
+          "Le trajet de Adélaïde à Melbourne se fait-il sur une seule autoroute ?",
+          "Presque. L'A8 s'étend de Tailem Bend sous le nom de Dukes Highway, devient la Western Highway à la frontière, puis rejoint le Western Freeway à Buangor pour la voie à double sens en direction de Melbourne. Wikipédia décrit la Dukes Highway comme étant majoritairement à une voie dans chaque sens, et la Western Highway comme une voie simple de la frontière jusqu'à juste à l'ouest de Buangor."
+        ],
+        [
+          "Puis-je emmener des fruits de l'Australie-Méridionale vers Victoria ?",
+          "Agriculture Victoria, dans un extrait de recherche de sa page sur la mouche méditerranéenne, demande aux personnes voyageant de l'Australie-Méridionale et de l'Australie-Occidentale vers Victoria de ne pas apporter de fruits ou de légumes fruitiers, afin d'empêcher la mouche méditerranéenne d'entrer. Il s'agit d'une demande. Le site de quarantaine inter-États ne liste aucune zone de mouche des fruits pour Victoria. Mangez ou laissez derrière vous les fruits frais et les légumes fruitiers avant de traverser, et consultez Agriculture Victoria au 136 186."
+        ],
+        [
+          "L'autoroute Western Highway est-elle en cours de modernisation ?",
+          "La page Victorian Big Build indique que le tronçon Ballarat à Buangor est terminé, que Buangor à Ararat devrait commencer les travaux avant la fin de 2026 avec l'achèvement de tous les travaux prévu pour le milieu de 2029, et que le tronçon Ararat à Stawell est en phase de planification initiale. Des limitations de vitesse réduites ont été installées entre Buangor et Ararat à titre de mesure provisoire, veuillez donc surveiller les panneaux."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Calcul d'itinéraire OSRM sur les données OpenStreetMap (Adélaïde à Melbourne, calculé le 21 octobre 2026)"
+        },
+        {
+          "label": "Wikipédia : Dukes Highway"
+        },
+        {
+          "label": "Wikipédia : Western Highway (Victoria)"
+        },
+        {
+          "label": "Wikipédia : South Eastern Freeway"
+        },
+        {
+          "label": "Le grand chantier de Victoria : modernisation de l'autoroute Western Highway"
+        },
+        {
+          "label": "Premier de Victoria : les travaux de l'amélioration de la Western Highway commenceront cette année"
+        },
+        {
+          "label": "Agriculture Victoria : mouche des fruits méditerranéens"
+        },
+        {
+          "label": "PIRSA : voyager vers l'Australie-Méridionale depuis un autre État"
+        },
+        {
+          "label": "Quarantaine inter-États : zones de quarantaine"
+        },
+        {
+          "label": "Conseil du Shire de Hindmarsh : Nhill Holiday Park"
+        },
+        {
+          "label": "Visiter le Wimmera Mallee : Horsham Riverside Caravan Park"
+        },
+        {
+          "label": "Great Ocean Road : conditions de conduite"
+        },
+        {
+          "label": "VicEmergency"
+        },
+        {
+          "label": "Trafic SA"
+        },
+        {
+          "label": "Lien : Visitor's Pass (Melbourne)"
+        },
+        {
+          "label": "Gouvernement australien : fuseaux horaires et heure d'été"
+        }
+      ],
+      "priceTable": null
+    },
+    "sydney-to-canberra-drive": {
+      "title": "Sydney à Canberra en road trip 2026 : itinéraire par l'autoroute Hume et la Federal Highway, péages, arrêts et camping",
+      "description": "De Sydney à Canberra, il y a environ 294 km et 3,5 heures sur les autoroutes Hume et Federal. Péages pour les visiteurs, Goulburn et Lake George, carburant, aires de repos, camping dans l'ACT et l'option Kings Highway.",
+      "region": "Nouvelle-Galles du Sud et l'ACT",
+      "imageAlt": "L'autoroute fédérale courbant au-dessus du bassin vert de Lake George en Nouvelle-Galles du Sud, avec quelques voitures sur la route et des nuages bas au-dessus des collines",
+      "intro": "De Sydney à Canberra, il y a environ 294 km et 3 h 34 min de route sur l'Hume Highway jusqu'à Goulburn et sur la Federal Highway jusqu'à l'ACT, selon le routage OSRM. C'est une excursion d'une journée plutôt qu'un trajet de deux jours, et les choix qui comptent sont la manière dont vous payez les péages de Sydney en tant que visiteur, où vous vous arrêtez à Goulburn et si vous réservez un camping de l'ACT avant de partir.",
+      "sections": [
+        {
+          "heading": "Comparaison des itinéraires de Sydney à Canberra",
+          "body": [
+            "L'itinéraire standard quitte Sydney par la M5 ou la M7, qui se rejoignent à Prestons où commence l'autoroute Hume (M31), et suit l'Hume à travers Campbelltown, Mittagong, Marulan et Goulburn. Wikipédia décrit l'autoroute de Prestons à Berrima comme une voie à double sens, l'Hume comme généralement à double sens en dehors des zones urbaines, et la limite sur toute sa longueur à 110 km/h. À Yarra, au sud-est de Goulburn, l'autoroute fédérale (M23) prend le relais pour les 72,7 km jusqu'à Canberra.",
+            "L'alternative côtière suit la côte à travers Wollongong, Nowra et Batemans Bay, puis la Kings Highway sur la montagne de Clyde à travers Braidwood et Bungendore jusqu'à Canberra. Wikipédia indique que la Kings Highway mesure 139 km de Batemans Bay à Canberra et que 40 km de cette section sur la Great Dividing Range, y compris la montagne de Clyde, ont enregistré environ 22 % des accidents de la route. Ce guide n'a trouvé aucune page d'autorité routière qui la publie comme un itinéraire de Sydney à Canberra, et les routes des Southern Highlands et de la <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">Kangaroo</a> Valley sont les mêmes, il ne compare donc que ces deux. Les chiffres sont les résultats d'OSRM sur les données d'OpenStreetMap du 21 octobre 2026, calculés pour une voiture sans aucun arrêt."
+          ],
+          "tips": [
+            "Hume et Federal : le chemin rapide",
+            "Kings Highway : environ 130 km plus long",
+            "Clyde Mountain est la section raide"
+          ],
+          "table": {
+            "caption": "De Sydney à Canberra par la route, routage OSRM calculé le 21 octobre 2026.",
+            "head": [
+              "Itinéraire",
+              "Distance",
+              "Temps de conduite",
+              "Route",
+              "Meilleur pour"
+            ],
+            "rows": [
+              [
+                "Hume Highway puis Federal Highway via Goulburn",
+                "Environ 294 km",
+                "Environ 3 h 34 min",
+                "Voie à double sens sur la majeure partie du trajet",
+                "Le trajet le plus rapide, le matin ou l'après-midi"
+              ],
+              [
+                "Côte, puis Kings Highway via Batemans Bay, Braidwood et Bungendore",
+                "Environ 426 km",
+                "Environ 6 h 31 min",
+                "Route côtière, puis une ascension en montagne à Clyde Mountain",
+                "Une journée complète entre les villes côtières et les villes de la tableland"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Goulburn, Lake George et les arrêts entre les deux",
+          "body": [
+            "Selon le routage OSRM, Sydney à Goulburn représente environ 194 km (2 h 22 min) et Goulburn à Canberra environ 100 km (1 h 17 min). Wikipédia indique que Goulburn se situe à environ 195 km au sud-ouest de Sydney et à 90 km au nord-est de Canberra, et que le contournement de Hume de 1992 a retiré environ 23 000 voitures par jour de la ville. Son monument emblématique est le Big Merino, que Wikipédia qualifie de plus gros mouton en béton du monde. Le <a data-guide=\"caravan-park-vs-holiday-park\">Caravan Park</a> de South Goulburn, situé au 149 Hume Street, est répertorié par Visit NSW avec de grands emplacements pour caravanes avec accès à l'électricité et à l'eau, des emplacements pour tentes sans électricité et des bungalows. Veuillez confirmer la disponibilité auprès du parc.",
+            "Le lac George est situé à côté de la Federal Highway, qui longe sa rive ouest. Wikipédia indique qu'il mesure environ 25 km de long et 10 km de large, avec une profondeur moyenne d'environ 1 m, qu'il s'est complètement asséché en novembre 2002 et est resté sec jusqu'en 2010, avant d'être à nouveau plein en décembre 2021, donc ce que vous voyez dépend des précipitations récentes. Il ne décrit aucun point de vue officiel, veuillez donc utiliser une aire de repos pour faire une pause plutôt que de vous arrêter sur l'accotement."
+          ],
+          "tips": [
+            "Goulburn à environ 194 km de Sydney",
+            "Lac George : le niveau de l'eau change",
+            "Vérifiez le parc avant de réserver"
+          ]
+        },
+        {
+          "heading": "Péages : comment un visiteur paie à Sydney",
+          "body": [
+            "Le gouvernement de la Nouvelle-Galles du Sud indique que si vous empruntez une route à péage sans compte ou badge de péage actif, vous disposez de 72 heures pour payer ou créer un compte de péage, sinon une Demande de Paiement de Péage est émise, ce qui ajoute des frais de correspondance vidéo. Service NSW indique que les visiteurs peuvent utiliser le eMU Casual Pass, prévu pour visiter la Nouvelle-Galles du Sud ou pour une utilisation sur les routes à péage de la Nouvelle-Galles du Sud allant jusqu'à 30 jours, et que vous pouvez ouvrir un compte ou acheter un badge jusqu'à 72 heures après avoir emprunté une route à péage.",
+            "Le gouvernement de la Nouvelle-Galles du Sud énumère l'E-Toll pour le Sydney Harbour Bridge et le Sydney Harbour Tunnel, et Linkt pour le Cross City Tunnel, Eastern Distributor, Hills M2, Lane Cove Tunnel, M5 South-West Motorway, NorthConnex, WestConnex et Westlink M7, chacun payable en ligne ou par téléphone. Lequel de ces péages votre trajet rencontre dépend de votre point de départ à Sydney, vérifiez donc votre itinéraire avant de partir. Wikipédia ne décrit pas les péages sur l'Hume Highway ou la Federal Highway."
+          ],
+          "tips": [
+            "72 heures pour payer ou ouvrir un compte",
+            "Le eMU Casual Pass couvre jusqu'à 30 jours",
+            "E-Toll pour le Harbour Bridge et le Tunnel, Linkt pour le reste"
+          ]
+        },
+        {
+          "heading": "Carburant, aires de repos et aires de vidange",
+          "body": [
+            "",
+            "Les données d'AussieCamps répertorient des aires de repos gratuites à Appin Park dans la région de Wollondilly, avec des toilettes, un abri, des tables de pique-nique, des barbecues, une zone pour véhicules lourds et une aire de jeux, ainsi qu'à l'aire de repos Anderson VC dans la région de la vallée de Yass, avec des toilettes, un abri, des tables de pique-nique et des barbecues. Considérez-les comme des lieux pour faire une pause : le guide sur les nuitées et le guide des règles de camping pour la Nouvelle-Galles du Sud couvrent le fait de dormir dans un véhicule. Les données répertorient une <a data-guide=\"dump-points-australia-guide\">aire de vidange</a> à l'Ampol Foodary à Pheasants Nest, en direction du sud, avec des toilettes et des douches répertoriées et aucun robinet de vidange répertorié, et à Epic, Exhibition Park Campground à Lyneham. La liste ne montre que ce que les données couvrent, et le guide des aires de vidange explique où chercher ailleurs."
+          ],
+          "tips": [
+            "",
+            "Aires de repos : pour une pause",
+            "Aires de vidange : Pheasants Nest et Lyneham"
+          ]
+        },
+        {
+          "heading": "Conditions de la route, vitesse et l'horloge",
+          "body": [
+            "Vérifiez le trafic en direct de la NSW (livetraffic.com) avant de partir. Aucune page officielle n'a été ouverte pour ce guide décrivant des fermetures dues à la neige, au brouillard ou aux incendies sur cet itinéraire, donc aucune n'est décrite ici. Wikipédia indique que l'autoroute fédérale est une route continue de 110 km/h en direction du nord en NSW, une section en direction du sud près de Yarra et de Rowes Lagoon est limitée à 100 km/h avec de nombreux panneaux d'avertissement inférieurs, et dans <a data-guide=\"camping-rules-act\">l'ACT</a>, la limite tombe à 100, 80 puis 70 km/h en direction de la ville.",
+            "Le site de quarantaine inter-États ne mentionne aucune restriction concernant les <a data-guide=\"interstate-biosecurity-road-trip\">moucher des fruits</a> pour la Nouvelle-Galles du Sud, et regroupe l'ACT avec la Nouvelle-Galles du Sud sans zones distinctes. Cela ne prouve pas que rien ne s'applique, et aucune source gouvernementale de l'ACT sur le transport de fruits n'a été trouvée, donc aucun poste de contrôle frontalier n'est décrit ici. La Nouvelle-Galles du Sud et l'ACT observent tous deux l'heure d'été, qui commence le dimanche 4 octobre 2026 et se termine le dimanche 4 avril 2027, donc l'horloge ne change pas."
+          ],
+          "tips": [
+            "Trafic en direct NSW",
+            "Les limites diminuent lorsque vous pénétrez dans l'ACT",
+            "Pas de changement d'horloge"
+          ]
+        },
+        {
+          "heading": "Camping dans l'ACT",
+          "body": [
+            "ACT Parks indique, dans un extrait de recherche de ses pages, que les réservations sont essentielles au Cotter Campground, qui accepte le camping général, les camping-cars et les petits vans, avec eau, douches chaudes et barbecues, et sans chiens. Une réservation est également nécessaire au Honeysuckle Campground, qui accepte jusqu'à quatre camping-cars ou caravanes et facture des frais. Le Mount Clear Campground dans le parc national de Namadgi est isolé et basique, et ACT Parks indique qu'il n'est pas adapté aux camping-cars et aux caravanes. Les données d'AussieCamps répertorient les quatre campings d'ACT Parks, avec le Northern Border Campground, et les frais n'ont pas été confirmés, veuillez donc consulter la page <a data-guide=\"camping-rules-act\">d'ACT</a> Parks.",
+            "Plus proche de Goulburn, le NPWS indique que le camping de Bungonia dispose de sites pour caravanes, camping-cars et à côté du véhicule, de toilettes, de douches et d'<a data-guide=\"camping-water-planning\">eau potable</a>, ainsi que d'une entrée au parc de 8 $ par véhicule par jour qui n'est pas incluse dans les frais de camping. Il est toujours ouvert mais peut fermer par moments en cas de danger élevé d'incendie ou d'opérations du parc, veuillez donc appeler le parc avant de vous y rendre. Le guide des règles de camping pour l'ACT couvre les règles."
+          ],
+          "tips": [
+            "Cotter and Honeysuckle ont besoin d'une réservation",
+            "Bungonia : droit d'entrée en supplément du camping",
+            "Veuillez vérifier l'avis de fermeture"
+          ]
+        },
+        {
+          "heading": "Plan le trajet Sydney-Canberra dans AussieCamps",
+          "body": [
+            "Planifiez-le comme un voyage dans AussieCamps : ajoutez les étapes dans l'ordre, Goulburn, une pause à Lake George et un camping à Canberra, et cela affichera la distance et le temps de trajet de chaque étape avec une prévision pour le jour de votre arrivée. AussieCamps répertorie 1 838 campings, 5 552 aires de repos et 1 393 <a data-guide=\"dump-points-australia-guide\">aires de vidange</a> provenant des agences des parcs, des autorités routières et des ensembles de données publics, y compris les campings d'ACT Parks et du NPWS mentionnés ci-dessus, et une page de lieu affiche les photos, la météo et les installations publiées par ces sources.",
+            "Les lieux enregistrés, les détails des lieux et les Guides continuent de fonctionner lorsque le signal est perdu. Comme les tuiles de carte, le routage, la météo et les photos nécessitent une connexion, ouvrez le road trip tant que vous êtes encore dans la couverture de Sydney. Il fonctionne sur iPhone et est gratuit à télécharger, avec des achats intégrés. Le Guide Melbourne-Canberra couvre le côté sud."
+          ],
+          "tips": [
+            "Ajouter chaque arrêt dans l'ordre",
+            "Prévisions par jour d'arrivée",
+            "Ouvrez le voyage avant de quitter Sydney"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Combien de temps faut-il pour conduire de Sydney à Canberra ?",
+          "Le routage OSRM sur les données OpenStreetMap donne 294 km et 3 h 34 min via la Hume Highway et la Federal Highway. L'Australian National University indique aux visiteurs que le trajet dure environ trois heures sur la Hume. La plupart des conducteurs le font le matin ou l'après-midi, avec un arrêt à Goulburn."
+        ],
+        [
+          "Y a-t-il des péages entre Sydney et Canberra ?",
+          "Wikipedia indique que les M5 et M7, qui se rejoignent là où commence l'Hume Highway à Prestons, sont payantes, et ne décrit pas les péages sur l'Hume Highway ou l'autoroute fédérale elles-mêmes. Le gouvernement de la Nouvelle-Galles du Sud indique que si vous utilisez une route à péage sans compte ni badge, vous disposez de 72 heures pour payer ou créer un compte de péage, et Service NSW suggère le eMU Casual Pass pour les visiteurs, qui couvre jusqu'à 30 jours."
+        ],
+        [
+          "La Federal Highway est-elle une voie à double sens ?",
+          "Wikipedia indique que l'intégralité du parcours de 72,7 km comporte deux voies dans chaque direction, la dernière section à double voie ayant été achevée en 2000. Elle prévoit une vitesse continue de 110 km/h en direction du nord en Nouvelle-Galles du Sud, une section de 100 km/h en direction du sud près de Yarra et de Rowes Lagoon, ainsi que 100, 80 puis 70 km/h dans le Territoire de la capitale de l'Australie à l'approche de la ville."
+        ],
+        [
+          "Puis-je prendre la route côtière de Sydney à Canberra ?",
+          "Oui, par la Kings Highway de Batemans Bay à travers Braidwood et Bungendore. Selon le routage OSRM, il s'agit d'environ 426 km et 6 h 31 min, soit environ 130 km de plus que la Hume. Aucune page d'autorité routière n'a été trouvée qui la publie comme un itinéraire de Sydney à Canberra, veuillez donc la considérer comme une journée de paysages plutôt qu'un raccourci."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Calcul d'itinéraire OSRM sur les données OpenStreetMap (Sydney à Canberra, calculé le 21 octobre 2026)"
+        },
+        {
+          "label": "Wikipédia : Hume Highway"
+        },
+        {
+          "label": "Wikipédia : Autoroute fédérale (Australie)"
+        },
+        {
+          "label": "Wikipédia : Kings Highway (Australie)"
+        },
+        {
+          "label": "Wikipédia : Goulburn"
+        },
+        {
+          "label": "Wikipédia : Lake George, Nouvelle-Galles du Sud"
+        },
+        {
+          "label": "Gouvernement de la NSW : payer un péage ou une notification de péage"
+        },
+        {
+          "label": "Service NSW : payer un avis de péage"
+        },
+        {
+          "label": "Université nationale d'Australie : voyage à Canberra"
+        },
+        {
+          "label": "Trafic en direct NSW"
+        },
+        {
+          "label": "VisitNSW : Caravan Park de South Goulburn"
+        },
+        {
+          "label": "Parcs nationaux de la Nouvelle-Galles du Sud : camping de Bungonia"
+        },
+        {
+          "label": "ACT Parks : Camping de Cotter"
+        },
+        {
+          "label": "Quarantaine inter-États : zones de quarantaine"
+        },
+        {
+          "label": "Gouvernement de la NSW : heure d'été en NSW"
+        }
+      ],
+      "priceTable": null
+    },
+    "perth-to-albany-drive": {
+      "title": "Perth à Albany : Road trip 2026 : Albany Highway, South Western Highway, Carburant et Arrêts",
+      "description": "De Perth à Albany, il y a environ 410 km et moins de cinq heures par l'Albany Highway, ou environ 540 km via Manjimup et Denmark. Options d'itinéraire, aires de repos, carburant, frais d'entrée pour le Stirling Range et Porongurup, aires de vidange et règles concernant les mouches des fruits.",
+      "region": "Australie-Occidentale",
+      "imageAlt": "L'Albany Highway longeant vers Mount Barker, avec des pâturages sur la gauche et une colline boisée avec un pylône radio au loin",
+      "intro": "De Perth à Albany, il y a environ 410 km, soit 408 km et 4 h 43 min selon Main Roads WA et 426 km et 5 h 25 min selon l'itinéraire OSRM, via l'Albany Highway. C'est une longue journée de route, et passer la nuit à Kojonup ou à Mount Barker rend le voyage plus confortable. L'autoroute South Western à travers Manjimup et Denmark fait environ 540 km et convient à un voyage plus lent.",
+      "sections": [
+        {
+          "heading": "Comparaison des itinéraires de Perth à Albany",
+          "body": [
+            "Il existe deux choix réels. L'Albany Highway (State Route 30) est la route directe traversant Armadale, Williams, Kojonup, Cranbrook et Mount Barker. Wikipédia la décrit comme une voie à deux voies en une seule voie, asphaltée, en dehors de Perth, avec des voies de dépassement dans certaines zones vallonnées. La South Western Highway longe le sud en passant par Pinjarra, Harvey, Donnybrook et Manjimup, puis se dirige vers Walpole, où elle continue sous le nom de South Coast Highway à travers Denmark. Wikipédia indique que la section au sud de Bunbury est peu peuplée et fortement boisée, en particulier à partir de Manjimup.",
+            "Une troisième option relie les deux. La Muirs Highway s'étend sur 161 km entre Mount Barker et Manjimup, selon Wikipédia, comme une voie à voie unique à travers les forêts de karri et de jarrah, avec Rocky Gully comme seul village. Wikipédia la qualifie principalement de route de fret pour les camions de bois de plantation et les longs véhicules inter-États. Conduire le long de l'Albany Highway et revenir par la Muirs Highway et Donnybrook représente environ 508 km d'Albany à Perth selon OSRM. Les chiffres de Main Roads WA proviennent de son guide des aires de repos de 2015, qui indique qu'il peut devenir obsolète."
+          ],
+          "tips": [
+            "L'Albany Highway est l'itinéraire direct",
+            "L'autoroute South Western ajoute environ 130 km",
+            "La Muirs Highway relie les deux"
+          ],
+          "table": {
+            "caption": "De Perth à Albany par la route. Les chiffres de Main Roads WA proviennent de son guide des aires de repos de 2015 ; le routage OSRM sur les données OpenStreetMap, calculé le 21 octobre 2026, voiture, sans arrêt.",
+            "head": [
+              "Itinéraire",
+              "Routes principales de l'Australie-Ouest",
+              "OSRM",
+              "Route",
+              "Meilleur pour"
+            ],
+            "rows": [
+              [
+                "Albany Highway via Armadale, Williams, Kojonup et Mount Barker",
+                "408 km, 4 h 43 min",
+                "426 km, 5 h 25 min",
+                "Route asphaltée à voie unique en dehors de Perth",
+                "La conduite directe, en un ou deux jours"
+              ],
+              [
+                "Autoroute Sud-Ouest via Bunbury ou Pinjarra, Manjimup, Walpole et Denmark",
+                "Environ 536 km (Perth à Bunbury 172 km plus Bunbury à Albany 364 km, 4 h 40 min)",
+                "553 km, 7 h 34 min via Pinjarra et Harvey",
+                "Route asphaltée, à travers la forêt depuis Manjimup",
+                "Un voyage lent à travers le pays de Karri et la Nouvelle-Zélande"
+              ],
+              [
+                "Albany Highway à Mount Barker, Muirs Highway à Manjimup",
+                "Muirs Highway 161 km (Wikipedia)",
+                "Mount Barker à Manjimup 163 km, 2 h 04 min",
+                "Voie à voie unique à travers la forêt, gros camions de bois",
+                "Aller dans un sens et revenir dans l'autre"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Albany Highway, étape par étape",
+          "body": [
+            "Le guide des distances de Main Roads WA indique Armadale à 30 km, Williams à 160,5 km, Kojonup à 256 km, Mount Barker à 359 km et Albany à 408 km. Cela fait 95 km de Williams à Kojonup et environ 103 km de Kojonup à Mount Barker. Selon OSRM, les trajets sont Perth à Armadale 37 km (35 min), Armadale à Williams 131 km (1 h 34 min), Williams à Kojonup 95 km (1 h 09 min), Kojonup à Cranbrook 70 km (51 min), Cranbrook à Mount Barker 41 km (32 min) et Mount Barker à Albany 51 km (42 min).",
+            "Wikipedia indique que la route comporte de nombreux feux de signalisation dans les banlieues sud-est de Perth, où elle s'étend sur quatre à six voies pendant environ 15 km. Entre les villes, c'est une route à deux voies, et Wikipedia indique que Williams, Kojonup et Mount Barker sont à environ 100 km de distance. L'Albany Ring Road a ouvert le 19 mai 2024 et dévie les véhicules lourds autour de la ville, selon la page de projet du gouvernement de l'État, qui indique qu'un pont à Menang Drive et Chester Pass Road devrait être achevé en 2026, donc prévoyez des travaux près d'Albany."
+          ],
+          "tips": [
+            "Armadale à Williams : 131 km",
+            "Williams à Kojonup : 95 km",
+            "Mount Barker à Albany : 51 km"
+          ]
+        },
+        {
+          "heading": "Carburant, aires de repos et où s'arrêter",
+          "body": [
+            "Wikipedia répertorie des roadhouses sur l'Albany Highway à North Bannister, Crossman et Arthur River. La disponibilité du carburant et les heures d'ouverture de chacun n'ont pas pu être confirmées, vous devriez donc faire le plein à Armadale ou Williams et à nouveau à Kojonup. Main Roads WA conseille de prévoir de la nourriture, de l'eau et du carburant supplémentaires en cas d'urgence ou de panne, surtout lorsque les aires de repos sont limitées. Le guide <a data-guide=\"road-trip-fuel-planning-australia\">plan de carburant</a> explique comment budgétiser l'autonomie.",
+            "Le guide de Main Roads WA de 2015 indique les aires de repos à Glen Eagle Forest, Williams Lion, Martup Pool, Crapella, Tunney et Orup Creek. Il précise que les aires de repos 24 heures ne sont pas destinées au camping et que le stationnement ne doit pas excéder 24 heures consécutives. Elles sont destinées à une pause, vous devez donc utiliser un <a data-guide=\"caravan-park-vs-holiday-park\">caravan park</a> ou le séjour RV de Kojonup pour passer la nuit. Le guide des aires de repos et le guide des règles d'Australie-Occidentale couvrent les règles.",
+            "À Kojonup, le site visiteur du Shire décrit un séjour en van au coin de l'Albany Highway et de Gordon Street, à côté du Giant Wool Wagon. Il coûte 5,00 $ par nuit, avec un séjour continu maximum de 3 nuits, et vous avez besoin d'un permis du Kojonup Visitors Centre. Il est indiqué que vous devez être autonome et que les générateurs ne sont pas autorisés. À Mount Barker, le Shire de Plantagenet répertorie le Mount Barker Caravan Park à 31720 Albany Highway et le Porongurup Range Tourist Park à 7 Box Hill Road. À Albany, le BIG4 Emu Beach Holiday Park indique sur son site qu'il dispose d'une zone pour caravanes et camping. Veuillez appeler dans chaque cas, car les tarifs et la disponibilité n'ont pas pu être confirmés."
+          ],
+          "tips": [
+            "Carburant à Armadale, Williams et Kojonup",
+            "Les aires de repos sont uniquement pour une pause",
+            "Séjour à Kojonup RV : 5 $ par nuit, 3 nuits"
+          ]
+        },
+        {
+          "heading": "Conditions de la route et faune au crépuscule",
+          "body": [
+            "Veuillez consulter la carte de voyage de Main Roads WA ou appeler le 138 138 avant de partir. Aucun chantier actuel sur l'Albany Highway n'a pu être confirmé pour ce guide, donc la carte de voyage est l'endroit où chercher les fermetures et les travaux le jour même. Le guide de Main Roads WA indique que de nombreuses routes rurales majeures ne sont pas clôturées, il n'y a donc pas de barrières pour empêcher les animaux sauvages ou pastoraux de traverser. Il est conseillé d'être vigilant face aux animaux sur la route, en particulier à l'aube et au crépuscule, et de ralentir et de klaxonner si vous en rencontrez un.",
+            "La page des grandes routes de WA pour les longs trajets ajoute que si des animaux sont sur la route, vous devez être prêt à vous arrêter brusquement et à éviter de dévier. Il est indiqué de dépasser les <a data-guide=\"driving-with-road-trains-australia\">train routiers</a> uniquement lorsque vous avez une longue portion droite devant vous qui est complètement dégagée, et de changer de conducteur toutes les deux heures. Si vous quittez Perth tard, prévoyez la dernière portion jusqu'à Albany afin qu'elle ne tombe pas au crépuscule ou à l'aube. Le guide des trains routiers couvre le dépassement."
+          ],
+          "tips": [
+            "Carte de voyage ou 138 138",
+            "Animaux au crépuscule et à l'aube",
+            "Change de conducteur toutes les deux heures"
+          ]
+        },
+        {
+          "heading": "Excursions au Stirling Range et à Porongurup",
+          "body": [
+            "Les deux parcs sont situés près de l'Albany Highway, et le DBCA indique le même droit d'entrée pour chacun : 17,00 $ pour un véhicule standard de 12 occupants ou moins, 10,00 $ pour les personnes bénéficiant d'une réduction, 10,00 $ pour une moto, et 8,00 $ par personne (3,50 $ pour les personnes bénéficiant d'une réduction) pour un grand véhicule. Un laissez-passer de parc valide couvre les frais, et le DBCA précise que les chiens ou autres animaux de compagnie ne sont pas autorisés dans l'un ou l'autre parc. Le Shire de Plantagenet indique que Porongurup se trouve à environ 20 km à l'est de Mount Barker, et l'OSRM indique 28 km et 30 minutes de Mount Barker à Castle Rock. Le DBCA décrit le Castle Rock Trail comme un aller-retour de 4,7 km, qui monte de 670 m jusqu'au sommet sur le Granite Skywalk.",
+            "DBCA indique que Bluff Knoll dans le Stirling Range se situe à 4,5 heures au sud de Perth et à 1,5 heure d'Albany. La randonnée est de 6,8 km aller-retour, de niveau 4, jusqu'à 1 098 m, sur un sentier raide avec de nombreux escaliers, et DBCA avertit des changements rapides et imprévisibles de la météo. Il déconseille d'entrer dans la brousse ou d'utiliser les sentiers pédestres les jours de danger extrême d'incendie. Moingup Spring Campground se trouve dans le AussieCamps les données, et DBCA indique que les réservations sont essentielles, <a data-guide=\"camping-water-planning\">eau potable</a> n'est pas fourni et les chiens ne sont pas autorisés. Des frais de camping et des frais d'entrée au parc s'appliquent, et les réservations se font via ParkStay. Selon OSRM, il est à 77 km de Cranbrook et à 97 km d'Albany. Dans Albany même, le parc national de Torndirrup a les mêmes frais, et DBCA avertit d'un record notoire d'accidents et de décès dus à des personnes emportées par le rivage. Consultez alerts.dbca.wa.gov.au avant de partir, et consultez la boucle de camping du Sud-Ouest de la WA pour le reste d'Albany."
+          ],
+          "tips": [
+            "Même frais de véhicule de 17 $ dans les deux parcs",
+            "Pas de chiens dans l'un des deux parcs",
+            "Le temps à Bluff Knoll change rapidement"
+          ]
+        },
+        {
+          "heading": "Règles concernant les fruits et l'Australie-Occidentale",
+          "body": [
+            "",
+            "L'avis couvre également les fruits entrant ou traversant la zone : ils doivent voyager dans des conditions sécurisées, telles que des emballages entièrement fermés ou des véhicules exempt de fentes de plus de 1,6 mm. La page de DPIRD ne s'adresse pas directement aux voyageurs, veuillez donc appeler son service d'information sur les nuisibles et les maladies au (08) 9368 3080 si vous n'êtes pas sûr. DPIRD indique que Medfly est présent dans tout l'Australien de Esperance à Carnarvon, et aucune règle Medfly pour les voyageurs sur cet itinéraire n'a pu être confirmée. Le guide de biosécurité inter-États couvre les règles aux frontières des États."
+          ],
+          "tips": [
+            "Vérifiez DPIRD avant de quitter Perth",
+            "Avis valable jusqu'au 31 mars 2027",
+            "Fruits traités uniquement en dehors de la zone"
+          ]
+        },
+        {
+          "heading": "Les aires de vidange et les données d'AussieCamps",
+          "body": [
+            "Le Shire de Plantagenet indique qu'une <a data-guide=\"dump-points-australia-guide\">aire de vidange</a> et de l'eau potable sont disponibles au Mount Barker Visitor Centre sur l'Albany Highway, et le site visiteur de Kojonup indique que les deux se trouvent à la Railway Station Reserve. Main Roads WA précise que les eaux noires ne peuvent être évacuées que dans les aires de repos affichant le panneau d'aire de vidange des effluents, ou au point de vidange de la ville la plus proche. Les données d'AussieCamps ne répertorient aucun camping, aire de vidange ou aire de repos dans un rayon de 12 km de l'Albany Highway, ce qui reflète sa couverture et non ce qui se trouve sur la route, veuillez donc utiliser les pages du Shire ci-dessus.",
+            "Sur la South Western Highway, les données répertorient des aires de vidange gratuites avec un robinet de vidange à Snells Park à Harvey et sur la Boyanup-Picton Road à Dardanup. Il répertorie également des campings à Shannon, et Banksia Camp et Black Point près de Walpole, alors vérifiez les règles de réservation et les installations auprès de DBCA avant de vous y fier. Le guide des aires de vidange explique comment les utiliser."
+          ],
+          "tips": [
+            "Le Centre des visiteurs de Mount Barker dispose d'une aire de vidange",
+            "Kojonup : Réserve de la gare ferroviaire",
+            "La couverture des données n'est pas présente à chaque aire de vidange"
+          ]
+        },
+        {
+          "heading": "Plan le road trip Perth à Albany dans AussieCamps",
+          "body": [
+            "Planifiez-le comme un voyage dans AussieCamps : ajoutez Kojonup, Mount Barker et Albany comme nuits et cela affichera la distance et le temps de trajet de chaque étape, avec une prévision pour le jour de votre arrivée. AussieCamps répertorie 1 838 campings, 5 552 aires de repos et 1 393 <a data-guide=\"dump-points-australia-guide\">aires de vidange</a> provenant des agences des parcs, des autorités routières et des ensembles de données publics, et chaque page de lieu affiche les installations publiées par ces sources, avec un champ de notes personnel.",
+            "Les détails des lieux, les lieux enregistrés et les Guides se chargent sans réception. Les tuiles de carte, le routage, la météo et les photos nécessitent une connexion, ouvrez donc le road trip dans une zone de réception avant les longs tronçons entre Williams et Kojonup. L'application iPhone est gratuite à télécharger, avec des achats intégrés."
+          ],
+          "tips": [
+            "Ajouter chaque nuit dans l'ordre",
+            "Prévisions pour chaque jour d'arrivée",
+            "Ouvrez le voyage avant les longues jambes"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Quelle est la distance entre Perth et Albany ?",
+          "Main Roads WA indique 408 km et 4 h 43 min via Albany Highway, dans son guide des aires de repos de 2015. Le routage OSRM sur les données OpenStreetMap donne 426 km et 5 h 25 min, de centre à centre. La plupart des gens le font en une journée, ou le divisent avec une nuit à Kojonup ou Mount Barker."
+        ],
+        [
+          "L'Albany Highway ou la South Western Highway est-elle meilleure ?",
+          "L'Albany Highway est l'itinéraire direct et est environ 130 km plus court. Main Roads WA indique Bunbury à Albany via la South Western Highway sur 364 km et 4 h 40 min, et Perth à Bunbury sur 172 km, ce qui fait un total d'environ 536 km. Cet itinéraire convient davantage à un voyage à travers Manjimup, Walpole et Denmark qu'au trajet le plus rapide."
+        ],
+        [
+          "Dois-je payer pour entrer dans le Stirling Range et Porongurup ?",
+          "Oui. Le DBCA indique 17,00 $ pour un véhicule standard (12 occupants ou moins) et 10,00 $ de réduction dans les deux parcs, et précise qu'un laissez-passer de parc valide couvre les frais. Le DBCA indique également qu'aucun chien ni autre animal de compagnie n'est autorisé dans l'un ou l'autre parc."
+        ],
+        [
+          "Puis-je emporter des fruits de Perth ?",
+          ""
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Calcul d'itinéraire OSRM sur les données OpenStreetMap (Perth à Albany, calculé le 21 octobre 2026)"
+        },
+        {
+          "label": "Main Roads WA : aires de repos et commodités, Perth à Albany (2015)"
+        },
+        {
+          "label": "Main Roads WA : aires de repos et commodités, Bunbury à Albany (2015)"
+        },
+        {
+          "label": "Main Roads WA : aires de repos et commodités, Perth à Augusta (2015)"
+        },
+        {
+          "label": "Routes principales de l'Australie-Ouest : conduite régionale et longue distance"
+        },
+        {
+          "label": "Main Roads WA : Carte de voyage"
+        },
+        {
+          "label": "Albany Ring Road, Building for Tomorrow (Gouvernement de l'Australie-Ouest)"
+        },
+        {
+          "label": "DBCA Explore Parks WA : Parc national de Stirling Range"
+        },
+        {
+          "label": "DBCA Explore Parks WA : Parc national de Porongurup"
+        },
+        {
+          "label": "DBCA Explore Parks WA : Parc national de Torndirrup"
+        },
+        {
+          "label": "Shire de Plantagenet : informations pour les visiteurs et attractions"
+        },
+        {
+          "label": "Site visiteur de Kojonup : Séjour en véhicule récréatif"
+        },
+        {
+          "label": "BIG4 Emu Beach Holiday Park : caravane et camping"
+        },
+        {
+          "label": "DPIRD : mouche des fruits du Queensland (zone de quarantaine de South Perth)"
+        },
+        {
+          "label": "DPIRD : Avis de zone de quarantaine tel que modifié, septembre 2026"
+        },
+        {
+          "label": "DPIRD : mouche des fruits méditerranéens"
+        },
+        {
+          "label": "Wikipédia : Albany Highway"
+        },
+        {
+          "label": "Wikipédia : South Western Highway"
+        },
+        {
+          "label": "Wikipédia : Muir Highway"
+        }
+      ],
+      "priceTable": null
+    },
+    "perth-to-margaret-river-drive": {
+      "title": "Route de Perth à Margaret River 2026 : Itinéraire, Carburant, Grottes et Réservations de Parcs",
+      "description": "De Perth à Margaret River, il y a environ 275 à 290 km et quatre heures par la Forrest Highway et la Bussell Highway. Options d'itinéraire, Caves Road, entrée gratuite à Leeuwin-Naturaliste, réservations de camping, aires de vidange et règles concernant les mouches des fruits.",
+      "region": "Australie-Occidentale",
+      "imageAlt": "Une côte rocheuse avec une péninsule herbeuse et une lande basse sous un ciel pâle du soir, au nord de Sugarloaf Rock dans le parc national Leeuwin-Naturaliste",
+      "intro": "De Perth à Margaret River, il y a environ 275 à 290 km, soit 273 km selon Main Roads WA et 287 km et 3 h 55 min selon le routage OSRM, via Kwinana Freeway, Forrest Highway et Bussell Highway. C'est une journée de route qui passe par Mandurah, Bunbury et Busselton, avec Caves Road comme fin plus lente et pittoresque.",
+      "sections": [
+        {
+          "heading": "Comparaison des itinéraires de Perth à Margaret River",
+          "body": [
+            "L'itinéraire standard est la Kwinana Freeway jusqu'à Mandurah, la Forrest Highway jusqu'à Bunbury, puis la Bussell Highway à travers Capel et Busselton jusqu'à Margaret River. Wikipédia indique que la Kwinana Freeway fait 72 km, une autoroute à accès contrôlé limitée à 110 km/h à son extrémité sud, et que la Forrest Highway fait 95,67 km avec deux voies dans chaque sens, une bande médiane et une limite de 110 km/h. Main Roads WA indique que la Wilman Wadandi Highway, une route à quatre voies de 27 km qui a ouvert en décembre 2024, relie la Forrest Highway à la Bussell Highway et permet d'économiser 11 à 18 minutes selon la destination et la circulation. Main Roads indique également que la duplication de la Bussell Highway est terminée, avec toutes les quatre voies ouvertes à la circulation le 17 avril 2025.",
+            "L'alternative est la South Western Highway à travers Pinjarra, Harvey et Donnybrook, puis en direction de Busselton. Selon OSRM, il s'agit de 297 km et 4 h 05 min jusqu'à Busselton, contre 237 km sur l'itinéraire principal, ce qui ajoute environ 60 km. La Vasse Highway est réelle, mais elle ne raccourcit pas le voyage. Wikipédia la décrit comme une route de 151 km de Busselton à travers Nannup et Pemberton, dans les forêts de jarrah et de karri, ce qui convient davantage à un voyage vers Pemberton qu'à la route vers Margaret River. La boucle de camping du Sud-Ouest de l'Australie couvre cette région."
+          ],
+          "tips": [
+            "Itinéraire principal : environ 273 à 287 km",
+            "L'autoroute South Western ajoute environ 60 km",
+            "La Vasse Highway mène à Nannup et Pemberton"
+          ],
+          "table": {
+            "caption": "De Perth à Margaret River par la route. Les chiffres de Main Roads WA proviennent de son guide des aires de repos de 2015 ; le routage OSRM sur les données OpenStreetMap, calculé le 21 octobre 2026, voiture, sans arrêt.",
+            "head": [
+              "Itinéraire",
+              "Distance",
+              "Temps de conduite",
+              "Route",
+              "Meilleur pour"
+            ],
+            "rows": [
+              [
+                "Kwinana Freeway, Forrest Highway, Bussell Highway",
+                "273 km (Routes principales WA), 287 km (OSRM)",
+                "3 h 55 min (OSRM)",
+                "Freeway, Forrest Highway (deux voies dans chaque sens), puis Bussell Highway",
+                "Le trajet direct d'une journée"
+              ],
+              [
+                "Autoroute South Western via Donnybrook, puis Busselton",
+                "297 km jusqu'à Busselton (OSRM), contre 237 km sur l'itinéraire principal",
+                "4 h 05 min jusqu'à Busselton (OSRM)",
+                "Paved, à travers Pinjarra, Harvey et Donnybrook",
+                "Arrêter à Harvey ou Donnybrook"
+              ],
+              [
+                "Itinéraire principal avec Caves Road depuis Busselton",
+                "À environ 88 km de Busselton, contre 50 km en ligne (OSRM)",
+                "Environ 1 h 30 min, contre 43 min (OSRM)",
+                "Étroit et sinueux dans la plupart des parties, selon Wikipédia",
+                "Un détour côtier et en grotte"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Le trajet étape par étape",
+          "body": [
+            "Selon OSRM, les trajets sont Perth à Mandurah 72 km (57 min), Mandurah à Bunbury 111 km (1 h 26 min), Bunbury à Busselton 54 km (46 min) et Busselton à Margaret River 50 km (44 min). Le guide des distances de Main Roads WA indique Bunbury à 172 km, Busselton à 224 km et Margaret River à 273 km, donc Bunbury à Busselton est d'environ 52 km et Busselton à Margaret River 49 km.",
+            "Main Roads WA indique que ses chiffres de 2015 peuvent être périmés. Il précise également que certains travaux de finition étaient toujours en cours sur la Wilman Wadandi Highway entre Paris Road et Bussell Highway jusqu'à la fin août 2026, avec une réduction de vitesse à 80 km/h et des fermetures de voies. Cette date est passée, mais veuillez consulter la Travel Map pour connaître les travaux du jour."
+          ],
+          "tips": [
+            "Perth à Bunbury : 172 km",
+            "Bunbury à Busselton : environ 52 km",
+            "Busselton à Margaret River : 49 km"
+          ]
+        },
+        {
+          "heading": "Carburant et aires de repos",
+          "body": [
+            "Ce parcours traverse des villes tout au long du trajet, donc le carburant n'est pas un problème de planification comme c'est le cas plus au nord. Wikipédia indique que deux stations-service ont ouvert sur la Forrest Highway à la fin de 2017, à environ 5 km au sud de Greenlands Road, mais la disponibilité du carburant et les heures d'ouverture n'ont pas pu être confirmées. Faites le plein à Mandurah, Bunbury ou Busselton, et à nouveau avant de quitter Margaret River pour la côte de Caves Road. Le guide <a data-guide=\"road-trip-fuel-planning-australia\">planification du carburant</a> couvre l'autonomie pour les longs trajets.",
+            "Le guide de Main Roads WA de 2015 indique des aires de repos nommées Settlers, Myalup et Rotary Park sur l'itinéraire, avec d'autres non nommées le long de la Bussell Highway. Il précise que les aires de repos de 24 heures ne sont pas destinées au camping, et que le stationnement ne doit pas excéder 24 heures consécutives, il faut donc les considérer comme un lieu pour une pause et réserver un camping ou un <a data-guide=\"caravan-park-vs-holiday-park\">caravan park</a> pour la nuit. Pour connaître l'intégralité des règles, veuillez lire le guide des aires de repos et le guide des règles de camping d'Australie-Occidentale."
+          ],
+          "tips": [
+            "Carburant à Mandurah, Bunbury, Busselton",
+            "Les aires de repos sont uniquement pour une pause",
+            "Faites le plein avant la côte de Caves Road"
+          ]
+        },
+        {
+          "heading": "Conditions de la route et faune",
+          "body": [
+            "Avant de partir, ouvrez la carte de voyage Main Roads WA ou appelez le 138 138. Main Roads WA indique que de nombreuses grandes routes rurales ne sont pas clôturées, sans barrières pour empêcher les animaux sauvages ou de pâturage de traverser, et il est conseillé d'être vigilant face aux animaux sur la route, en particulier à l'aube et au crépuscule. Il est conseillé de ralentir si vous rencontrez un animal, et d'être prêt à vous arrêter brusquement sans dévier. Le guide <a data-guide=\"driving-with-road-trains-australia\">road trains</a> couvre le dépassement.",
+            "Aucune source officielle concernant la circulation pendant les vacances scolaires sur cet itinéraire n'a pu être trouvée pour ce guide, elle n'est donc pas évaluée ici. Caves Road est étroite et sinueuse sur la majeure partie de son parcours, selon Wikipédia, et OSRM indique environ 88 km et 1 h 30 min de Busselton à Margaret River par là, contre 50 km et 43 minutes sur Bussell Highway. Prévoyez du temps supplémentaire et évitez la route à l'aube et au crépuscule lorsque les animaux sont actifs."
+          ],
+          "tips": [
+            "Carte de voyage ou 138 138",
+            "Animaux au crépuscule et à l'aube",
+            "Caves Road prend environ deux fois plus de temps"
+          ]
+        },
+        {
+          "heading": "Frais et réservations du parc national Leeuwin-Naturaliste",
+          "body": [
+            "DBCA indique que l'entrée du parc national Leeuwin-Naturaliste est gratuite, et qu'aucun chien ni autre animal de compagnie n'est autorisé dans le parc. Des frais d'entrée s'appliquent pour les grottes : DBCA répertorie les grottes Mammoth, Lake, Jewel et Ngilgi, et renvoie à la page de l'exploitant de la grotte pour les horaires d'ouverture et les prix. DBCA situe la grotte Mammoth à 11 km au sud de Margaret River le long de Caves Road, et l'entrée de la grotte Jewel à environ 45 km au sud de Margaret River via Bussell Highway et Caves Road. La grotte Lake et la grotte Jewel proposent des visites guidées d'une heure, et la grotte Mammoth dispose d'une visite audio en libre.",
+            "DBCA répertorie quatre campings réservables dans le parc : Conto, Point Road, Boranup et Jarrahdene. Chaque page indique que les réservations sont essentielles, et que Boranup, Point Road et Jarrahdene peuvent être réservés jusqu'à 180 jours à l'avance, pour un seul camping. Des frais de camping par personne s'appliquent et sont payés par Mastercard ou VISA lors de la réservation. DBCA indique que l'<a data-guide=\"camping-water-planning\">eau potable</a> n'est pas fournie, que les toilettes sont des latrines à fosse sans chasse d'eau, que les chiens ne sont pas autorisés et que les générateurs ne sont pas permis à Boranup, Point Road ou Jarrahdene. Boranup ne dispose que de sept campings, adaptés aux tentes et aux petits vans uniquement. Sa page précise également que de décembre à avril, il peut faire extrêmement chaud et que le risque d'incendie de brousse peut être très élevé. Hamelin Bay Holiday Park est exploité à titre privé, selon DBCA. Le guide camping par camping se trouve dans la boucle de camping du Sud-Ouest de l'Australie-Occidentale."
+          ],
+          "tips": [
+            "L'entrée du parc est gratuite, les grottes sont payantes",
+            "Les réservations de camping sont essentielles",
+            "Pas d'eau potable aux campings DBCA"
+          ]
+        },
+        {
+          "heading": "Règles concernant les fruits et l'Australie-Occidentale",
+          "body": [
+            "",
+            "DPIRD indique que la zone principale d'infestation de Medfly s'étend de Perth à Bunbury, Bridgetown, Donnybrook et Manjimup, mais aucune règle Medfly pour les voyageurs sur cet itinéraire n'a pu être confirmée. Le service d'information sur les nuisibles et les maladies de DPIRD est joignable au (08) 9368 3080. Le non-respect de cet avis pourrait entraîner une amende, selon DPIRD. Le guide Perth à Albany comporte le même avis de l'autre côté, et le guide de biosécurité inter-États couvre les frontières des États."
+          ],
+          "tips": [
+            "Vérifiez DPIRD avant de quitter Perth",
+            "Avis valable jusqu'au 31 mars 2027",
+            "Fruits traités uniquement en dehors de la zone"
+          ]
+        },
+        {
+          "heading": "Aires de vidange",
+          "body": [
+            "Les conseils publient des <a data-guide=\"dump-points-australia-guide\">aires de vidange</a> le long du chemin. Le Shire de Capel en liste une sur Buchanan Road, à Capel Drive, avec un cadenas et un code d'accès sur sa page, et demande que seul les eaux usées y soient déversées. La ville de Busselton en liste une à Churchill Park, à l'angle de Brown Street et d'Adelaide Street, également verrouillée, et sa page de tourisme indique que la plupart des campings de la ville fournissent des aires de vidange pour les visiteurs. Le Shire d'Augusta Margaret River indique que son aire de vidange de Margaret River, à l'extrémité ouest de Gloucester Park à côté du Recreation Centre, et son aire de vidange de Cowaramup, sur Hall Road, sont opérationnelles toute l'année et gratuites.",
+            "Les données d'AussieCamps répertorient les aires de vidange gratuites avec un robinet de vidange à Snells Park à Harvey et sur la route Boyanup-Picton à Dardanup, ce qui reflète sa couverture et non toutes les aires de vidange. DBCA indique que Jarrahdene Campground dispose d'une aire de vidange avec toile chimique et conseille de ne pas vider les déchets des toilettes portables dans les toilettes du camping. Les eaux noires doivent être acheminées uniquement vers une aire de repos avec le panneau d'aire de vidange des effluents ou vers le site de vidange de la ville la plus proche, selon Main Roads WA. Le guide des aires de vidange en contient davantage."
+          ],
+          "tips": [
+            "Capel, Busselton, Margaret River, Cowaramup",
+            "L'aire de vidange de Margaret River est gratuite",
+            "La couverture des données n'est pas présente à chaque aire de vidange"
+          ]
+        },
+        {
+          "heading": "Plan le trajet Perth à Margaret River dans AussieCamps",
+          "body": [
+            "Planifiez-le comme un voyage dans AussieCamps : ajoutez les étapes dans l'ordre et l'application affiche la distance et le temps de trajet de chaque étape, avec une prévision pour le jour de votre arrivée. L'application contient 1 838 campings, 5 552 aires de repos et 1 393 <a data-guide=\"dump-points-australia-guide\">aires de vidange</a> provenant des agences des parcs, des autorités routières et de jeux de données publics, et une page de lieu dispose d'un champ de notes pour vos propres remarques à côté des installations publiées.",
+            "Même dans une zone sans réseau, les détails des lieux enregistrés, les lieux sauvegardés et les Guides s'ouvrent. Les tuiles de carte, le routage, la météo et les photos nécessitent une connexion, donc ouvrez le road trip dans la zone de couverture avant la côte de Caves Road. Sur iPhone, le téléchargement est gratuit, avec des achats intégrés."
+          ],
+          "tips": [
+            "Ajouter chaque arrêt dans l'ordre",
+            "Prévisions pour chaque jour d'arrivée",
+            "Ouvrez le voyage avant la côte"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Quelle est la distance entre Perth et Margaret River ?",
+          "Le guide des aires de repos de Main Roads WA de 2015 situe Margaret River à 273 km de Perth sur la Forrest Highway et la Bussell Highway. Selon OSRM sur les données OpenStreetMap, le trajet est de 287 km et 3 h 55 min entre les centres-villes. C'est un trajet facile d'une journée sans nécessité de nuit."
+        ],
+        [
+          "Y a-t-il des frais d'entrée pour le parc national Leeuwin-Naturaliste ?",
+          "Non. DBCA n'indique aucun droit d'entrée pour le parc, bien qu'il n'autorise pas les chiens ni autres animaux dans le parc. Les grottes sont différentes : DBCA indique que des frais d'entrée s'appliquent aux grottes Mammoth, Lake, Jewel et Ngilgi, et renvoie vers l'exploitant de la grotte pour les horaires d'ouverture et les prix."
+        ],
+        [
+          "Avez-vous besoin de réserver un camping dans le parc ?",
+          "Oui. DBCA répertorie Conto, Point Road, Boranup et Jarrahdene comme des campings réservables, et chaque page indique que les réservations sont essentielles. Boranup, Point Road et Jarrahdene peuvent être réservés jusqu'à 180 jours à l'avance, pour un seul camping, et DBCA indique que l'eau potable n'est fournie à aucun d'entre eux."
+        ],
+        [
+          "Puis-je emporter des fruits de Perth ?",
+          "Veuillez vérifier d'abord DPIRD. Un avis de quarantaine contre les mouches des fruits du Queensland couvre actuellement South Perth, et DPIRD indique que les fruits hôtes ne peuvent pas être déplacés hors de cette zone sans traitement ; veuillez lire l'avis pour connaître la date de fin. Le reste du trajet ne comporte pas de frontière d'État."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Calcul d'itinéraire OSRM sur les données OpenStreetMap (Perth à Margaret River, calculé le 21 octobre 2026)"
+        },
+        {
+          "label": "Main Roads WA : aires de repos et commodités, Perth à Augusta (2015)"
+        },
+        {
+          "label": "Routes principales de l'Australie-Ouest : conduite régionale et longue distance"
+        },
+        {
+          "label": "Main Roads WA : Carte de voyage"
+        },
+        {
+          "label": "Main Roads WA : Wilman Wadandi Highway (Bunbury Outer Ring Road)"
+        },
+        {
+          "label": "Main Roads WA : Doublement de la Bussell Highway"
+        },
+        {
+          "label": "DBCA Explore Parks WA : Parc national Leeuwin-Naturaliste"
+        },
+        {
+          "label": "DBCA Explore Parks WA : Mammoth Cave"
+        },
+        {
+          "label": "DBCA Explore Parks WA : Jewel Cave"
+        },
+        {
+          "label": "DBCA Explore Parks WA : Camping de Boranup"
+        },
+        {
+          "label": "DBCA Explore Parks WA : Camping Jarrahdene"
+        },
+        {
+          "label": "Shire of Capel : aire de vidange pour caravanes et camping-cars"
+        },
+        {
+          "label": "Ville de Busselton : aires de vidange"
+        },
+        {
+          "label": "Shire of Augusta Margaret River : installations publiques et stationnement"
+        },
+        {
+          "label": "DPIRD : mouche des fruits du Queensland (zone de quarantaine de South Perth)"
+        },
+        {
+          "label": "DPIRD : Avis de zone de quarantaine tel que modifié, septembre 2026"
+        },
+        {
+          "label": "DPIRD : mouche des fruits méditerranéens"
+        },
+        {
+          "label": "Wikipédia : Forrest Highway"
+        },
+        {
+          "label": "Wikipédia : Kwinana Freeway"
+        },
+        {
+          "label": "Wikipédia : Caves Road (Australie-Occidentale)"
+        },
+        {
+          "label": "Wikipédia : Vasse Highway"
+        }
+      ],
+      "priceTable": null
+    },
+    "hobart-to-launceston-drive": {
+      "title": "Conduite de Hobart à Launceston en 2026 : Midland Highway, travaux, arrêts et biosécurité",
+      "description": "De Hobart à Launceston, il y a environ 200 km et moins de trois heures sur la Midland Highway. Villes, aires de repos, arrêts gratuits, aires de vidange, travaux sur la Midland Highway à Campbell Town, faune au crépuscule et les règles de fruits et légumes de Tasmanie.",
+      "region": "Tasmanie",
+      "imageAlt": "Les arches de grès du Ross Bridge au-dessus de la rivière Macquarie dans les Midlands de Tasmanie, sous un ciel bleu",
+      "intro": "De Hobart à Launceston, le trajet est d'environ 200 km par la Midland Highway, soit 181 km selon les chiffres de Wikipédia et 201 km et 2 h 41 min selon le routage OSRM, de centre à centre. C'est une promenade facile d'une demi-journée à travers Kempton, Oatlands, Ross et Campbell Town, donc la plupart des gens le font en une seule fois. Les alternatives de la côte est ajoutent 70 à 150 km.",
+      "sections": [
+        {
+          "heading": "Comparaison des itinéraires de Hobart à Launceston",
+          "body": [
+            "L'autoroute Midland Highway (National Highway 1, signalée A1) est la route directe. Wikipédia la décrit comme étant principalement à deux voies, une dans chaque direction, avec des options de dépassement et des intersections au niveau du sol, et avec de petites portions de voies séparées à ses extrémités de Hobart et Launceston. Elle est également appelée Midlands Highway, et dans les années 2000, elle portait l'appellation The Heritage Highway.",
+            "Deux options plus longues restent. La Lake Leake Highway (B34) rejoint la Midland Highway près de Campbell Town, selon Wikipédia, et la relie à Swansea sur la côte est. L'Esk Highway (A4) fait 82 km et rejoint la Midland Highway à Conara Junction, juste au nord de Campbell Town. Wikipédia indique qu'elle passe par Avoca, Fingal et St Marys, puis monte le col sinueux de St Marys Pass de 6 km pour rejoindre la Tasman Highway près de Falmouth. Les conditions sur les deux routes n'ont pas pu être confirmées pour ce guide, veuillez donc vérifier la météo avant de les emprunter."
+          ],
+          "tips": [
+            "L'autoroute Midland est l'itinéraire direct",
+            "La Lake Leake Highway y rejoint près de Campbell Town",
+            "L'Esk Highway se joint à elle à Conara Junction"
+          ],
+          "table": {
+            "caption": "Trois itinéraires entre Hobart et Launceston. Les temps et les distances ont été calculés par OSRM sur les données OpenStreetMap le 21 octobre 2026 pour une voiture roulant en ligne droite ; le chiffre de 181 km est celui de Wikipédia.",
+            "head": [
+              "Itinéraire",
+              "Distance et temps",
+              "Route",
+              "Meilleur pour"
+            ],
+            "rows": [
+              [
+                "Midland Highway via Kempton, Oatlands, Ross, Campbell Town et Epping Forest",
+                "201 km, 2 h 41 min selon OSRM (181 km sur Wikipédia)",
+                "Principalement deux voies, avec des sections de dépassement",
+                "La conduite directe"
+              ],
+              [
+                "Autoroute Tasman jusqu'à Swansea, puis route Lake Leake jusqu'à Campbell Town et l'autoroute Midland",
+                "272 km, 3 h 38 min par OSRM",
+                "Routes principales et routes rurales ; conditions non confirmées",
+                "Un aperçu de la côte Est en direction du Nord"
+              ],
+              [
+                "Swansea, Bicheno, St Marys and Esk Highway vers Conara, puis la Midland Highway",
+                "353 km, 4 h 53 min par OSRM",
+                "Comprend le col de St Marys",
+                "Un road trip lent sur la côte Est ; voir la boucle de Tasmanie pour le reste"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "L'autoroute Midland, ville par ville",
+          "body": [
+            "Selon OSRM, les étapes sont Hobart à Kempton 49 km (42 min), Kempton à Oatlands 35 km (26 min), Oatlands à Ross 37 km (28 min), Ross à Campbell Town 12 km (11 min), Campbell Town à Epping Forest 23 km (18 min) et Epping Forest à Launceston 46 km (34 min). Oatlands, Ross et Campbell Town sont tous sur l'autoroute, donc cela fonctionne comme un road trip avec de courts arrêts plutôt qu'un long intervalle.",
+            "Ross dispose d'un pont en pierre au-dessus de la rivière Macquarie, qui est la photo en haut de ce guide. Ross <a data-guide=\"caravan-park-vs-holiday-park\">Caravan Park</a> et l'arrêt à Campbell Town ci-dessous sont répertoriés par le Northern Midlands Council, et Kempton et Oatlands par le Southern Midlands Council. La boucle de camping de Tasmanie couvre le reste de l'île, donc ce guide reste sur la route Hobart à Launceston."
+          ],
+          "tips": [
+            "Hobart à Kempton : 49 km",
+            "Oatlands à Ross : 37 km",
+            "Ross à Campbell Town : 12 km"
+          ]
+        },
+        {
+          "heading": "Travaux sur la route et conditions hivernales",
+          "body": [
+            "",
+            "Un extrait de la publication du gouvernement de Tasmanie daté du 5 septembre 2026 indique que la dernière étape de 10 km, de Campbell Town North à Conara, a obtenu ses approbations environnementales. Il est mentionné qu'un contrat de construction était attendu dans les semaines à venir, avec des travaux débutant à la fin de 2026 et se poursuivant jusqu'à la fin de 2028. Cette étape prévoit un élargissement, des accotements asphaltés, des voies de dépassement dans les deux sens et des barrières de sécurité flexibles. Les pages de State Growth et du Premier ont bloqué les scripts pour ces projets, les détails proviennent donc des extraits. Respectez les limites signalées pendant les travaux, car les limites actuelles sur l'autoroute n'ont pas pu être confirmées.",
+            "Le temps froid est un facteur réel dans les Midlands. Le Tasmanian Road Safety Advisory Council avertit de la glace noire et de la mousse sur la route, en particulier dans les zones ombragées, et indique que le brouillard, la neige et la glace peuvent être rencontrés dans certaines zones. Il conseille de consulter les prévisions météorologiques avant de partir. Une déclaration du Department of State Growth concernant la glace ou la neige sur la Midland Highway n'a pu être confirmée. La page des alertes communautaires de la police de <a data-guide=\"camping-rules-tasmania\">Tasmanie</a> est l'endroit où il oriente les automobilistes pour les conditions routières et les fermetures."
+          ],
+          "tips": [
+            "Vérifier si cela fonctionne à Campbell Town",
+            "Verglas sur les zones ombragées",
+            "Alert communautaire de la police concernant les fermetures"
+          ]
+        },
+        {
+          "heading": "Règles de conduite, faune et carburant",
+          "body": [
+            "Le Tasmanian Road Safety Advisory Council énonce les limites par défaut à 50 km/h dans les zones urbaines, 100 km/h sur les routes rurales et 80 km/h sur les routes en gravier, sauf signalisation contraire. Il est conseillé de toujours rouler à gauche et de s'arrêter dans un endroit sûr pour laisser passer les autres véhicules. Il précise également qu'un trajet de 150 km peut prendre 2 heures, et de ne pas planifier plus de 300 km par jour et de faire des pauses fréquentes.",
+            "Les mêmes pages indiquent de ralentir et de faire attention aux animaux sur la route, en particulier à l'aube et au crépuscule. Pour un départ tardif de Hobart, essayez de quitter la portion des Midlands avant la tombée de la nuit. Les stations-service et leurs horaires d'ouverture le long de l'autoroute n'ont pas pu être confirmés, commencez donc avec le réservoir plein à Hobart ou à Launceston et faites le plein dans une ville avant que le réservoir ne soit presque vide. Le guide <a data-guide=\"road-trip-fuel-planning-australia\">plan de carburant</a> contient les totaux de distance."
+          ],
+          "tips": [
+            "Vitesse par défaut de 100 km/h sur les routes rurales",
+            "Méfiez-vous des animaux à l'aube et au crépuscule",
+            "Faire le plein dans une ville"
+          ]
+        },
+        {
+          "heading": "Où s'arrêter et dormir",
+          "body": [
+            "AussieCamps ne répertorie aucun camping à moins de 12 km de l'itinéraire, les options pour passer la nuit provenant donc des conseils locaux. Le Southern Midlands Council répertorie l'arrêt Kempton Roadside Stopover près de Station Park : gratuit avec une suggestion de don, maximum 48 heures, pour les véhicules autonomes uniquement. À Oatlands, il répertorie l'arrêt Lakeside Stopover à l'écart de High Street sur l'Esplanade, gratuit avec une suggestion de don et un maximum de 72 heures. Ross <a data-guide=\"caravan-park-vs-holiday-park\">Caravan Park</a> apparaît sur le calendrier 2023/24 des parcs caravanes du Northern Midlands Council, avec des frais fixés par le locataire, veuillez donc appeler le parc pour connaître les tarifs et la disponibilité.",
+            "À Campbell Town, le Northern Midlands Council décrit une zone gratuite de 48 heures pour les caravanes autonomes et les camping-cars dans le Blackburn Park Reserve, sur le côté sud-est du Red Bridge. Un permis est requis, gratuit pour une durée maximale de 48 heures, via le formulaire en ligne du conseil ou au (03) 6397 7303 pendant les heures d'ouverture. La douche, le lavage, l'utilisation des toilettes, la cuisine et le sommeil doivent tous être effectués à l'intérieur du véhicule. Le conseil indique que les eaux usées liquides ne doivent pas être déversées au sol, près des arbres ou dans la rivière, sous peine d'une amende pouvant atteindre 205 $ par unité, et il précise qu'il n'est pas possible de réserver une place.",
+            "Les aires de repos dans les données AussieCamps sont St Peters Pass près d'Oatlands (toilettes, tables de pique-nique, barbecues), l'aire de repos du pont-pesée de Campbell Town (une zone pour véhicules lourds) et Conara (tables de pique-nique, barbecues). Utilisez-les pour vous étirer. Si un séjour y est autorisé est une question distincte, répondue dans le guide des aires de repos pour la nuit et le guide des règles de camping de <a data-guide=\"camping-rules-tasmania\">Tasmanie</a>."
+          ],
+          "tips": [
+            "Kempton : 48 heures, autonome",
+            "Oatlands : 72 heures",
+            "Campbell Town : permis, 48 heures"
+          ]
+        },
+        {
+          "heading": "Aires de vidange sur la Midland Highway",
+          "body": [
+            "",
+            "À Campbell Town, la page Northern Midlands ne répertorie aucun aire de vidange, mais une annonce Spirit of <a data-guide=\"camping-rules-tasmania\">Tasmanie</a>, valable jusqu'au 6 octobre 2027, indique un emplacement gratuit à King Street Oval avec eau potable et eau pour rinçage. Demandez au conseil si vous n'êtes pas sûr. Le seul que les données d'AussieCamps contiennent sur ce corridor est Brighton Showground à Pontville, gratuit avec toilettes, à environ 29 km de Hobart, donc une lacune dans les données n'est pas la preuve d'une lacune sur la route. Le guide des aires de vidange montre comment en utiliser une."
+          ],
+          "tips": [
+            "Oatlands : Williams Street",
+            "Kempton : toilettes à cassette uniquement",
+            "Brighton Showground, Pontville"
+          ]
+        },
+        {
+          "heading": "Règles concernant les fruits et légumes de Tasmanie",
+          "body": [
+            "La Tasmanie a ses propres règles de <a data-guide=\"interstate-biosecurity-road-trip\">biosecurity</a>, elles sont donc importantes pour toute personne arrivant du continent. La page nourriture de Biosecurity Tasmanie énumère les articles suivants comme non autorisés : fruits et légumes frais, y compris les pommes de terre, les herbes fraîches, l'ail, le gingembre et l'oignon. Elle indique que les aliments cuits, rôtis, congelés à sec, en conserve, conservés, séchés commercialement, lyophilisés et déshydratés à la maison après cuisson sont autorisés. La page précise que les aliments végétaux frais et transformés doivent être déclarés à l'arrivée et inspectés. Pour le Spirit of Tasmanie, il est indiqué que vous pouvez apporter de la nourriture à manger à bord, mais vous devez la jeter dans les poubelles ou au point d'inspection de Biosecurity en quittant le terminal.",
+            "La page ne prévoit pas de règle distincte pour les arrivées depuis le continent australien, et elle ne couvre pas le déplacement de produits à l'intérieur de <a data-guide=\"camping-rules-tasmania\">Tasmanie</a>, donc rien concernant le trajet Hobart-Launceston ne peut être confirmé. Vous pouvez appeler Biosecurity Tasmanie au 1300 368 550. Le guide de biosécurité inter-États couvre d'autres frontières."
+          ],
+          "tips": [
+            "Les fruits et légumes frais ne sont pas autorisés",
+            "Déclaration à l'arrivée",
+            "Appelez le 1300 368 550 si vous n'êtes pas sûr"
+          ]
+        },
+        {
+          "heading": "Plan le trajet Hobart à Launceston dans AussieCamps",
+          "body": [
+            "Construisez le trajet comme un road trip dans AussieCamps. Ajoutez Oatlands, Campbell Town et Launceston comme étapes, et chaque tronçon affiche sa distance et son temps de trajet, ainsi qu'une prévision pour le jour où vous prévoyez d'arriver. L'application contient 1 838 campings, 5 552 aires de repos et 1 393 <a data-guide=\"dump-points-australia-guide\">points de vidange</a> provenant d'agences de parc, d'autorités routières et de jeux de données publics, et une page de lieu répertorie les installations publiées par ces sources, avec un champ de notes pour vos propres remarques.",
+            "Vous pouvez lire les détails des lieux enregistrés, ouvrir les lieux sauvegardés et utiliser les Guides lorsqu'il n'y a <a data-guide=\"camping-without-phone-signal\">pas de signal</a>. Les tuiles de carte, le routage, la météo et les photos nécessitent une connexion, donc chargez-les avant le tronçon des Midlands. L'application est uniquement pour iPhone, gratuite à télécharger, avec des achats intégrés."
+          ],
+          "tips": [
+            "Ajouter chaque arrêt dans l'ordre",
+            "Prévisions pour chaque jour d'arrivée",
+            "Enregistrez les lieux avant de partir"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Quelle est la distance entre Hobart et Launceston ?",
+          "Environ 180 à 200 km, selon qui mesure. Wikipédia indique que la Midland Highway fait 181 km, tandis qu'OSRM, un moteur de routage basé sur les données d'OpenStreetMap, a retourné 201 km et 2 h 41 min entre les centres des deux villes le 21 octobre 2026. Prévoyez une demi-journée si vous souhaitez traverser le Ross Bridge ou visiter Oatlands."
+        ],
+        [
+          "Y a-t-il une route plus rapide que la Midland Highway ?",
+          "Aucun résultat n'est apparu dans cette recherche. Les détours par Swansea et la Lake Leake Highway ou via Bicheno et l'Esk Highway font 272 km et 353 km selon OSRM, ils sont donc destinés aux visites sur la côte est."
+        ],
+        [
+          "Quants de fruits et légumes sont interdits en Tasmanie ?",
+          "La page alimentaire de Biosecurity Tasmanie nomme les fruits et légumes frais, avec des pommes de terre, des herbes fraîches, de l'ail, du gingembre et des oignons comme exemples. Les articles qui sont cuits, rôtis, congelés à sec, en conserve, conservés ou séchés commercialement figurent sur sa liste autorisée, et les produits végétaux doivent être déclarés à l'arrivée."
+        ],
+        [
+          "La faune rend-elle la conduite de nuit risquée sur cette route ?",
+          "Le Tasmanian Road Safety Advisory Council nomme les animaux sur la route comme un danger, surtout à l'aube et au crépuscule, et mentionne les animaux morts sur la route la nuit et tôt le matin. Son conseil est de ralentir et de limiter les trajets quotidiens à 300 km au maximum."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Calcul d'itinéraire OSRM sur les données OpenStreetMap (Hobart à Launceston, calculé le 21 octobre 2026)"
+        },
+        {
+          "label": "Wikipédia : Midland Highway (Tasmanie)"
+        },
+        {
+          "label": "Wikipédia : Esk Highway"
+        },
+        {
+          "label": "Conseil de sécurité routière de Tasmanie : nouveau en Tasmanie"
+        },
+        {
+          "label": "Conseil de sécurité routière de Tasmanie : touristes internationaux"
+        },
+        {
+          "label": ""
+        },
+        {
+          "label": "Gouvernement de Tasmanie : la dernière étape des améliorations de la Midland Highway approuvée pour se poursuivre (5 septembre 2026)"
+        },
+        {
+          "label": "Gouvernement australien : les principales améliorations de sécurité commencent à l'intersection de Campbell Town"
+        },
+        {
+          "label": "Police de Tasmanie : Alertés communautaires"
+        },
+        {
+          "label": "Biosécurité Tasmanie : aliments que vous pouvez et ne pouvez pas apporter en Tasmanie"
+        },
+        {
+          "label": "Southern Midlands Council : installations de halte et aires de vidange"
+        },
+        {
+          "label": "Northern Midlands Council : villes adaptées aux camping-cars"
+        },
+        {
+          "label": "Northern Midlands Council : parcs de caravanes et terrains de camping 2023/2024"
+        },
+        {
+          "label": "Esprit de Tasmanie : aire de vidange pour van, Campbell Town"
         }
       ],
       "priceTable": null
