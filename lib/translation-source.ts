@@ -1,4 +1,4 @@
-import { consentStrings, staticPages, toolStrings, uiStrings } from "@/lib/source-strings";
+import { consentStrings, staticPages, summerStrings, toolStrings, uiStrings } from "@/lib/source-strings";
 import { translatableArticles } from "@/lib/localized";
 import { markGuideLinks } from "@/lib/internal-links";
 import type { Article } from "@/lib/site";
@@ -26,6 +26,7 @@ export function translationSource() {
     ui: uiStrings,
     // Its own namespace: these never gate publishing (see consentStrings in lib/source-strings.ts).
     consent: consentStrings,
+    summer: summerStrings,
     // The calculator pages' own namespace (lib/tools/strings.ts). Optional per locale: a tool whose
     // strings are not complete stays English and noindex, and never gates anything else.
     tools: { common: toolStrings.common, tools: toolStrings.tools },

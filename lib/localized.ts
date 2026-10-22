@@ -1,6 +1,6 @@
 import { translationFiles } from "./translations/index";
 import { liveLocales, localeCodes, localeEntry, localeScript, routedLocaleForSegment, routedLocales, type LocaleCode } from "./locales";
-import { consentStrings, reviewKeys, staticPages, uiStrings, type ConsentKey, type ConsentStrings, type StaticPage, type StaticPageKind, type UiStrings } from "./source-strings";
+import { consentStrings, reviewKeys, staticPages, summerStrings, uiStrings, type ConsentKey, type ConsentStrings, type SummerKey, type SummerStrings, type StaticPage, type StaticPageKind, type UiStrings } from "./source-strings";
 import { allArticles, articles, categories, type Article, type ArticleCategory, type ArticleSection } from "./site";
 
 export { liveLocales, localeCodes, routedLocales, type LocaleCode };
@@ -31,6 +31,7 @@ type TranslationFile = {
   locale?: string;
   ui?: Partial<Record<keyof UiStrings, string>>;
   consent?: Partial<Record<ConsentKey, string>>;
+  summer?: Partial<Record<SummerKey, string>>;
   articles?: Record<string, TranslatedArticle>;
   pages?: Partial<Record<StaticPageKind, StaticPage>>;
 };
@@ -146,6 +147,12 @@ export function translationProgress(locale: LocaleCode) {
 export function getTranslation(locale: LocaleCode): UiStrings {
   const overrides = files[locale].ui ?? {};
   return Object.fromEntries(Object.entries(uiStrings).map(([key, english]) => [key, overrides[key as keyof UiStrings] || english])) as UiStrings;
+}
+
+/** The home page's summer block strings; each falls back to English on its own. */
+export function getSummerStrings(locale: LocaleCode): SummerStrings {
+  const overrides = files[locale].summer ?? {};
+  return Object.fromEntries(Object.entries(summerStrings).map(([key, english]) => [key, overrides[key as SummerKey] || english])) as SummerStrings;
 }
 
 /**

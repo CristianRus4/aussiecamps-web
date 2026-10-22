@@ -13,6 +13,9 @@
  * 5. Description check: hubs.prose-check.json must match the current hubs.json and lib/hubs/prose.json.
  *    The exporter writes it after comparing every hub string over 80 characters with every source
  *    description; changing the prose means re-running `npm run data:export` where the app repo is.
+ * 6. Translated hubs: lib/translations/hubs/en.json and docs/translation.hubs.config.json are current
+ *    (`npm run hubs:source`), every registry locale has a hubs file, and the report says how many
+ *    localised hubs each locale has complete and whether the switch in lib/hubs/localized.ts is on.
  */
 import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
@@ -135,3 +138,16 @@ for (const { verdict } of built.filter(({ verdict }) => !verdict.indexable)) {
 }
 console.log(`Hub audit passed: data as of ${dataAsOf}, ${meta.sources.filter((source) => source.inHubs).length} published sources, BookEasy excluded.`);
 console.log(`Hubs: ${hubs.length} candidates, ${built.length} built, ${indexable.length} indexable, ${built.length - indexable.length} noindex${Object.keys(reasonCounts).length ? ` (${Object.entries(reasonCounts).map(([reason, n]) => `${n} × ${reason}`).join("; ")})` : ""}.`);
+
+// 6. Translated hubs ----------------------------------------------------------------------------------
+const { hubSourceText, isHubTranslated, isHubCommonComplete, translatableHubs } = await import("../lib/hubs/strings.ts");
+const { hubConfigText } = await import("./build-hub-translation-source.mjs");
+const { hubTranslationFiles } = await import("../lib/translations/hubs/index.ts");
+assert.equal(read("lib/translations/hubs/en.json"), hubSourceText(), "lib/translations/hubs/en.json is stale: run npm run hubs:source");
+assert.equal(read("docs/translation.hubs.config.json"), hubConfigText(), "docs/translation.hubs.config.json is stale: run npm run hubs:source");
+const registry = json("lib/locales.json").map((entry) => entry.code);
+for (const code of registry) assert.ok(hubTranslationFiles[code], `lib/translations/hubs/index.ts is missing ${code}`);
+const live = /export const LOCALIZED_HUBS_LIVE = (true|false);/.exec(read("lib/hubs/localized.ts"))?.[1];
+assert.ok(live, "lib/hubs/localized.ts must declare LOCALIZED_HUBS_LIVE as true or false");
+const complete = registry.map((code) => `${code} ${isHubCommonComplete(code) ? translatableHubs.filter((hub) => isHubTranslated(code, hub)).length : 0}`);
+console.log(`Translated hubs: switch ${live === "true" ? "ON" : "OFF (all localised hubs noindex, out of the sitemaps)"}; complete of ${translatableHubs.length}: ${complete.join(", ")}.`);

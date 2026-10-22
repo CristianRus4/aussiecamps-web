@@ -24,6 +24,7 @@
     "images:credits": "node scripts/build-image-credits.mjs",
     "articles:dates": "node scripts/build-article-dates.mjs",
     "translations:source": "tsx scripts/build-translation-source.mjs",
+    "hubs:source": "tsx scripts/build-hub-translation-source.mjs",
     "assets:check": "node scripts/check-assets.mjs",
     "smoke:live": "tsx scripts/smoke-live.mjs",
     "similarity:check": "node scripts/audit-article-similarity.mjs",

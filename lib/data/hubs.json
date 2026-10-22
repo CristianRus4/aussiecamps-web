@@ -8,6 +8,8 @@
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 57, "value": 4},
         {"dimension": "facilities", "key": "with:drinking_water", "label": "Drinking water listed", "share": 14, "value": 1},
         {"dimension": "facilities", "key": "with:showers", "label": "Showers listed", "share": 14, "value": 1},
+        {"dimension": "related", "key": "dumpPoints", "label": "Dump points in the app", "value": 1},
+        {"dimension": "related", "key": "waterPoints", "label": "Water filling points in the app", "value": 38},
         {"dimension": "sources", "key": "source:act-parks", "label": "From ACT Parks", "value": 7}
       ],
       "id": "camping/act",
@@ -48,8 +50,12 @@
         {"dimension": "access", "key": "with:caravan_sites", "label": "Caravan sites listed", "share": 1, "value": 5},
         {"dimension": "access", "key": "with:camper_trailer_sites", "label": "Camper trailer sites listed", "share": 1, "value": 2},
         {"dimension": "access", "key": "with:boat_ramp", "label": "Boat ramp listed", "share": 9, "value": 33},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 97, "value": 359},
         {"dimension": "fees", "key": "fees:none", "label": "No camping fee listed (booking fee only)", "share": 11, "value": 40},
         {"dimension": "fees", "key": "fees:entry", "label": "Park entry fee listed", "share": 33, "value": 121},
+        {"dimension": "related", "key": "dumpPoints", "label": "Dump points in the app", "value": 347},
+        {"dimension": "related", "key": "restAreas", "label": "Rest areas in the national dataset", "value": 855},
+        {"dimension": "related", "key": "waterPoints", "label": "Water filling points in the app", "value": 1006},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 372}
       ],
       "id": "camping/new-south-wales",
@@ -109,10 +115,12 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 4},
         {"dimension": "geography", "key": "localities", "label": "Localities named", "value": 3},
+        {"dimension": "geography", "key": "topLocality", "label": "Locality with the most campgrounds", "value": "Paling Yards (2)"},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 100, "value": 4},
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 100, "value": 4},
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 75, "value": 3},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 100, "value": 4},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 4},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 4}
       ],
       "id": "camping/new-south-wales/abercrombie-river-national-park",
@@ -140,11 +148,13 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 6},
         {"dimension": "geography", "key": "localities", "label": "Localities named", "value": 4},
+        {"dimension": "geography", "key": "topLocality", "label": "Locality with the most campgrounds", "value": "Barrington Tops (3)"},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 100, "value": 6},
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 100, "value": 6},
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 83, "value": 5},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 100, "value": 6},
         {"dimension": "access", "key": "with:camper_trailer_sites", "label": "Camper trailer sites listed", "share": 17, "value": 1},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 6},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 6}
       ],
       "id": "camping/new-south-wales/barrington-tops-national-park",
@@ -178,6 +188,7 @@
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 100, "value": 3},
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 100, "value": 3},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 100, "value": 3},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 3},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 3}
       ],
       "id": "camping/new-south-wales/barrington-tops-state-conservation-area",
@@ -209,6 +220,7 @@
         {"dimension": "facilities", "key": "with:drinking_water", "label": "Drinking water listed", "share": 33, "value": 1},
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 67, "value": 2},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 100, "value": 3},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 3},
         {"dimension": "fees", "key": "fees:entry", "label": "Park entry fee listed", "share": 100, "value": 3},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 3}
       ],
@@ -236,9 +248,11 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 4},
         {"dimension": "geography", "key": "localities", "label": "Localities named", "value": 1},
+        {"dimension": "geography", "key": "topLocality", "label": "Locality with the most campgrounds", "value": "Uriarra (4)"},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 100, "value": 4},
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 75, "value": 3},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 100, "value": 4},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 4},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 4}
       ],
       "id": "camping/new-south-wales/brindabella-national-park",
@@ -266,6 +280,7 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 3},
         {"dimension": "geography", "key": "localities", "label": "Localities named", "value": 2},
+        {"dimension": "geography", "key": "topLocality", "label": "Locality with the most campgrounds", "value": "Woody Head (2)"},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 100, "value": 3},
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 100, "value": 3},
         {"dimension": "facilities", "key": "with:drinking_water", "label": "Drinking water listed", "share": 67, "value": 2},
@@ -273,6 +288,7 @@
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 100, "value": 3},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 100, "value": 3},
         {"dimension": "access", "key": "with:boat_ramp", "label": "Boat ramp listed", "share": 67, "value": 2},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 3},
         {"dimension": "fees", "key": "fees:entry", "label": "Park entry fee listed", "share": 100, "value": 3},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 3}
       ],
@@ -300,10 +316,12 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 3},
         {"dimension": "geography", "key": "localities", "label": "Localities named", "value": 1},
+        {"dimension": "geography", "key": "topLocality", "label": "Locality with the most campgrounds", "value": "Coolah (3)"},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 100, "value": 3},
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 100, "value": 3},
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 100, "value": 3},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 100, "value": 3},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 3},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 3}
       ],
       "id": "camping/new-south-wales/coolah-tops-national-park",
@@ -330,12 +348,14 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 4},
         {"dimension": "geography", "key": "localities", "label": "Localities named", "value": 3},
+        {"dimension": "geography", "key": "topLocality", "label": "Locality with the most campgrounds", "value": "Crowdy Bay National Park (2)"},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 100, "value": 4},
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 100, "value": 4},
         {"dimension": "facilities", "key": "with:showers", "label": "Showers listed", "share": 75, "value": 3},
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 50, "value": 2},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 75, "value": 3},
         {"dimension": "access", "key": "with:caravan_sites", "label": "Caravan sites listed", "share": 25, "value": 1},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 4},
         {"dimension": "fees", "key": "fees:entry", "label": "Park entry fee listed", "share": 100, "value": 4},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 4}
       ],
@@ -368,6 +388,7 @@
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 50, "value": 3},
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 50, "value": 3},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 50, "value": 3},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 6},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 6}
       ],
       "id": "camping/new-south-wales/deua-national-park",
@@ -397,12 +418,14 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 3},
         {"dimension": "geography", "key": "localities", "label": "Localities named", "value": 2},
+        {"dimension": "geography", "key": "topLocality", "label": "Locality with the most campgrounds", "value": "Gibraltar Range (2)"},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 100, "value": 3},
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 100, "value": 3},
         {"dimension": "facilities", "key": "with:drinking_water", "label": "Drinking water listed", "share": 33, "value": 1},
         {"dimension": "facilities", "key": "with:showers", "label": "Showers listed", "share": 67, "value": 2},
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 100, "value": 3},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 100, "value": 3},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 3},
         {"dimension": "fees", "key": "fees:entry", "label": "Park entry fee listed", "share": 100, "value": 3},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 3}
       ],
@@ -430,10 +453,12 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 3},
         {"dimension": "geography", "key": "localities", "label": "Localities named", "value": 2},
+        {"dimension": "geography", "key": "topLocality", "label": "Locality with the most campgrounds", "value": "Green Cape (2)"},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 100, "value": 3},
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 100, "value": 3},
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 67, "value": 2},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 100, "value": 3},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 3},
         {"dimension": "fees", "key": "fees:entry", "label": "Park entry fee listed", "share": 100, "value": 3},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 3}
       ],
@@ -461,10 +486,12 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 10},
         {"dimension": "geography", "key": "localities", "label": "Localities named", "value": 4},
+        {"dimension": "geography", "key": "topLocality", "label": "Locality with the most campgrounds", "value": "Long Plain (3)"},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 60, "value": 6},
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 60, "value": 6},
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 50, "value": 5},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 60, "value": 6},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 10},
         {"dimension": "fees", "key": "fees:none", "label": "No camping fee listed (booking fee only)", "share": 60, "value": 6},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 10}
       ],
@@ -499,10 +526,12 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 3},
         {"dimension": "geography", "key": "localities", "label": "Localities named", "value": 1},
+        {"dimension": "geography", "key": "topLocality", "label": "Locality with the most campgrounds", "value": "Blue Mountains National Park (2)"},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 67, "value": 2},
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 67, "value": 2},
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 67, "value": 2},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 67, "value": 2},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 67, "value": 2},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 3}
       ],
       "id": "camping/new-south-wales/katoomba-area",
@@ -529,10 +558,12 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 8},
         {"dimension": "geography", "key": "localities", "label": "Localities named", "value": 3},
+        {"dimension": "geography", "key": "topLocality", "label": "Locality with the most campgrounds", "value": "Geehi (3)"},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 38, "value": 3},
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 38, "value": 3},
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 38, "value": 3},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 38, "value": 3},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 8},
         {"dimension": "fees", "key": "fees:none", "label": "No camping fee listed (booking fee only)", "share": 50, "value": 4},
         {"dimension": "fees", "key": "fees:entry", "label": "Park entry fee listed", "share": 100, "value": 8},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 8}
@@ -566,10 +597,12 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 6},
         {"dimension": "geography", "key": "localities", "label": "Localities named", "value": 1},
+        {"dimension": "geography", "key": "topLocality", "label": "Locality with the most campgrounds", "value": "Kosciuszko National Park (4)"},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 67, "value": 4},
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 67, "value": 4},
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 67, "value": 4},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 67, "value": 4},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 6},
         {"dimension": "fees", "key": "fees:none", "label": "No camping fee listed (booking fee only)", "share": 67, "value": 4},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 6}
       ],
@@ -605,6 +638,7 @@
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 100, "value": 3},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 100, "value": 3},
         {"dimension": "access", "key": "with:boat_ramp", "label": "Boat ramp listed", "share": 33, "value": 1},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 3},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 3}
       ],
       "id": "camping/new-south-wales/marramarra-national-park",
@@ -631,9 +665,11 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 3},
         {"dimension": "geography", "key": "localities", "label": "Localities named", "value": 1},
+        {"dimension": "geography", "key": "topLocality", "label": "Locality with the most campgrounds", "value": "Termeil (3)"},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 100, "value": 3},
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 100, "value": 3},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 100, "value": 3},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 3},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 3}
       ],
       "id": "camping/new-south-wales/meroo-national-park",
@@ -660,10 +696,12 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 4},
         {"dimension": "geography", "key": "localities", "label": "Localities named", "value": 3},
+        {"dimension": "geography", "key": "topLocality", "label": "Locality with the most campgrounds", "value": "Wapengo (2)"},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 100, "value": 4},
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 100, "value": 4},
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 75, "value": 3},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 100, "value": 4},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 4},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 4}
       ],
       "id": "camping/new-south-wales/mimosa-rocks-national-park",
@@ -691,6 +729,7 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 7},
         {"dimension": "geography", "key": "localities", "label": "Localities named", "value": 6},
+        {"dimension": "geography", "key": "topLocality", "label": "Locality with the most campgrounds", "value": "Tallong (2)"},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 100, "value": 7},
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 86, "value": 6},
         {"dimension": "facilities", "key": "with:drinking_water", "label": "Drinking water listed", "share": 14, "value": 1},
@@ -699,6 +738,7 @@
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 100, "value": 7},
         {"dimension": "access", "key": "with:caravan_sites", "label": "Caravan sites listed", "share": 14, "value": 1},
         {"dimension": "access", "key": "with:boat_ramp", "label": "Boat ramp listed", "share": 29, "value": 2},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 7},
         {"dimension": "fees", "key": "fees:none", "label": "No camping fee listed (booking fee only)", "share": 86, "value": 6},
         {"dimension": "fees", "key": "fees:entry", "label": "Park entry fee listed", "share": 100, "value": 7},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 7}
@@ -737,6 +777,7 @@
         {"dimension": "facilities", "key": "with:showers", "label": "Showers listed", "share": 60, "value": 3},
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 60, "value": 3},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 80, "value": 4},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 5},
         {"dimension": "fees", "key": "fees:none", "label": "No camping fee listed (booking fee only)", "share": 20, "value": 1},
         {"dimension": "fees", "key": "fees:entry", "label": "Park entry fee listed", "share": 100, "value": 5},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 5}
@@ -767,11 +808,13 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 16},
         {"dimension": "geography", "key": "localities", "label": "Localities named", "value": 9},
+        {"dimension": "geography", "key": "topLocality", "label": "Locality with the most campgrounds", "value": "Tocumwal (3)"},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 13, "value": 2},
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 13, "value": 2},
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 6, "value": 1},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 19, "value": 3},
         {"dimension": "access", "key": "with:boat_ramp", "label": "Boat ramp listed", "share": 6, "value": 1},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 94, "value": 15},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 16}
       ],
       "id": "camping/new-south-wales/murray-valley-national-park",
@@ -815,6 +858,7 @@
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 9, "value": 1},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 36, "value": 4},
         {"dimension": "access", "key": "with:boat_ramp", "label": "Boat ramp listed", "share": 9, "value": 1},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 11},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 11}
       ],
       "id": "camping/new-south-wales/murray-valley-regional-park",
@@ -849,10 +893,12 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 9},
         {"dimension": "geography", "key": "localities", "label": "Localities named", "value": 5},
+        {"dimension": "geography", "key": "topLocality", "label": "Locality with the most campgrounds", "value": "Darlington Point (3)"},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 11, "value": 1},
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 11, "value": 1},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 11, "value": 1},
         {"dimension": "access", "key": "with:boat_ramp", "label": "Boat ramp listed", "share": 11, "value": 1},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 9},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 9}
       ],
       "id": "camping/new-south-wales/murrumbidgee-valley-national-park",
@@ -885,11 +931,13 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 4},
         {"dimension": "geography", "key": "localities", "label": "Localities named", "value": 2},
+        {"dimension": "geography", "key": "topLocality", "label": "Locality with the most campgrounds", "value": "Darlington Point (2)"},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 25, "value": 1},
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 25, "value": 1},
         {"dimension": "facilities", "key": "with:showers", "label": "Showers listed", "share": 25, "value": 1},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 50, "value": 2},
         {"dimension": "access", "key": "with:boat_ramp", "label": "Boat ramp listed", "share": 25, "value": 1},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 75, "value": 3},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 4}
       ],
       "id": "camping/new-south-wales/murrumbidgee-valley-regional-park",
@@ -917,11 +965,13 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 21},
         {"dimension": "geography", "key": "localities", "label": "Localities named", "value": 7},
+        {"dimension": "geography", "key": "topLocality", "label": "Locality with the most campgrounds", "value": "Mungo Brush (8)"},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 76, "value": 16},
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 76, "value": 16},
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 81, "value": 17},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 95, "value": 20},
         {"dimension": "access", "key": "with:boat_ramp", "label": "Boat ramp listed", "share": 38, "value": 8},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 21},
         {"dimension": "fees", "key": "fees:entry", "label": "Park entry fee listed", "share": 100, "value": 21},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 21}
       ],
@@ -967,11 +1017,13 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 3},
         {"dimension": "geography", "key": "localities", "label": "Localities named", "value": 2},
+        {"dimension": "geography", "key": "topLocality", "label": "Locality with the most campgrounds", "value": "Wild Cattle Creek (2)"},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 100, "value": 3},
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 100, "value": 3},
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 100, "value": 3},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 100, "value": 3},
         {"dimension": "access", "key": "with:boat_ramp", "label": "Boat ramp listed", "share": 33, "value": 1},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 3},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 3}
       ],
       "id": "camping/new-south-wales/nymboi-binderay-national-park",
@@ -998,11 +1050,13 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 9},
         {"dimension": "geography", "key": "localities", "label": "Localities named", "value": 5},
+        {"dimension": "geography", "key": "topLocality", "label": "Locality with the most campgrounds", "value": "Walcha (4)"},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 100, "value": 9},
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 100, "value": 9},
         {"dimension": "facilities", "key": "with:showers", "label": "Showers listed", "share": 33, "value": 3},
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 100, "value": 9},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 100, "value": 9},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 9},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 9}
       ],
       "id": "camping/new-south-wales/oxley-wild-rivers-national-park",
@@ -1035,10 +1089,12 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 6},
         {"dimension": "geography", "key": "localities", "label": "Localities named", "value": 1},
+        {"dimension": "geography", "key": "topLocality", "label": "Locality with the most campgrounds", "value": "Kosciuszko National Park (4)"},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 67, "value": 4},
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 50, "value": 3},
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 33, "value": 2},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 50, "value": 3},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 6},
         {"dimension": "fees", "key": "fees:none", "label": "No camping fee listed (booking fee only)", "share": 33, "value": 2},
         {"dimension": "fees", "key": "fees:entry", "label": "Park entry fee listed", "share": 100, "value": 6},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 6}
@@ -1075,6 +1131,7 @@
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 100, "value": 3},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 100, "value": 3},
         {"dimension": "access", "key": "with:caravan_sites", "label": "Caravan sites listed", "share": 33, "value": 1},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 3},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 3}
       ],
       "id": "camping/new-south-wales/south-east-forest-national-park",
@@ -1106,6 +1163,7 @@
         {"dimension": "facilities", "key": "with:drinking_water", "label": "Drinking water listed", "share": 25, "value": 1},
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 50, "value": 2},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 50, "value": 2},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 75, "value": 3},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 4}
       ],
       "id": "camping/new-south-wales/southern-blue-mountains-area",
@@ -1133,10 +1191,12 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 4},
         {"dimension": "geography", "key": "localities", "label": "Localities named", "value": 1},
+        {"dimension": "geography", "key": "topLocality", "label": "Locality with the most campgrounds", "value": "Tibooburra (4)"},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 100, "value": 4},
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 100, "value": 4},
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 100, "value": 4},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 100, "value": 4},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 4},
         {"dimension": "fees", "key": "fees:entry", "label": "Park entry fee listed", "share": 100, "value": 4},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 4}
       ],
@@ -1165,10 +1225,12 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 4},
         {"dimension": "geography", "key": "localities", "label": "Localities named", "value": 1},
+        {"dimension": "geography", "key": "topLocality", "label": "Locality with the most campgrounds", "value": "Kosciuszko National Park (4)"},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 100, "value": 4},
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 100, "value": 4},
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 100, "value": 4},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 100, "value": 4},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 4},
         {"dimension": "fees", "key": "fees:none", "label": "No camping fee listed (booking fee only)", "share": 100, "value": 4},
         {"dimension": "fees", "key": "fees:entry", "label": "Park entry fee listed", "share": 100, "value": 4},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 4}
@@ -1203,6 +1265,7 @@
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 67, "value": 4},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 67, "value": 4},
         {"dimension": "access", "key": "with:boat_ramp", "label": "Boat ramp listed", "share": 33, "value": 2},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 6},
         {"dimension": "fees", "key": "fees:none", "label": "No camping fee listed (booking fee only)", "share": 67, "value": 4},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 6}
       ],
@@ -1237,6 +1300,7 @@
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 33, "value": 1},
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 67, "value": 2},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 67, "value": 2},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 3},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 3}
       ],
       "id": "camping/new-south-wales/turon-national-park",
@@ -1267,6 +1331,7 @@
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 25, "value": 1},
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 25, "value": 1},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 25, "value": 1},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 50, "value": 2},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 4}
       ],
       "id": "camping/new-south-wales/wadbilliga-national-park",
@@ -1294,11 +1359,13 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 11},
         {"dimension": "geography", "key": "localities", "label": "Localities named", "value": 2},
+        {"dimension": "geography", "key": "topLocality", "label": "Locality with the most campgrounds", "value": "Tonderburine (8)"},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 55, "value": 6},
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 55, "value": 6},
         {"dimension": "facilities", "key": "with:showers", "label": "Showers listed", "share": 9, "value": 1},
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 27, "value": 3},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 100, "value": 11},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 11},
         {"dimension": "fees", "key": "fees:none", "label": "No camping fee listed (booking fee only)", "share": 55, "value": 6},
         {"dimension": "fees", "key": "fees:entry", "label": "Park entry fee listed", "share": 100, "value": 11},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 11}
@@ -1335,10 +1402,12 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 3},
         {"dimension": "geography", "key": "localities", "label": "Localities named", "value": 2},
+        {"dimension": "geography", "key": "topLocality", "label": "Locality with the most campgrounds", "value": "Forbes River (2)"},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 100, "value": 3},
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 100, "value": 3},
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 100, "value": 3},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 100, "value": 3},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 3},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 3}
       ],
       "id": "camping/new-south-wales/werrikimbe-national-park",
@@ -1370,6 +1439,7 @@
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 86, "value": 6},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 86, "value": 6},
         {"dimension": "access", "key": "with:boat_ramp", "label": "Boat ramp listed", "share": 14, "value": 1},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 7},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 7}
       ],
       "id": "camping/new-south-wales/wollemi-national-park",
@@ -1404,6 +1474,7 @@
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 100, "value": 3},
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 100, "value": 3},
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 100, "value": 3},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 3},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 3}
       ],
       "id": "camping/new-south-wales/yengo-national-park",
@@ -1430,6 +1501,7 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 9},
         {"dimension": "geography", "key": "localities", "label": "Localities named", "value": 5},
+        {"dimension": "geography", "key": "topLocality", "label": "Locality with the most campgrounds", "value": "Minnie Water (3)"},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 89, "value": 8},
         {"dimension": "facilities", "key": "with:flush_toilets", "label": "Flush toilets listed", "share": 89, "value": 8},
         {"dimension": "facilities", "key": "with:drinking_water", "label": "Drinking water listed", "share": 33, "value": 3},
@@ -1438,6 +1510,7 @@
         {"dimension": "facilities", "key": "with:phone_reception", "label": "Phone reception listed", "share": 100, "value": 9},
         {"dimension": "access", "key": "with:caravan_sites", "label": "Caravan sites listed", "share": 11, "value": 1},
         {"dimension": "access", "key": "with:boat_ramp", "label": "Boat ramp listed", "share": 11, "value": 1},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 9},
         {"dimension": "fees", "key": "fees:none", "label": "No camping fee listed (booking fee only)", "share": 11, "value": 1},
         {"dimension": "fees", "key": "fees:entry", "label": "Park entry fee listed", "share": 89, "value": 8},
         {"dimension": "sources", "key": "source:nsw-npws", "label": "From NSW NPWS", "value": 9}
@@ -1473,7 +1546,11 @@
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 102},
         {"dimension": "geography", "key": "parks", "label": "Parks and reserves with a campground", "value": 27},
         {"dimension": "geography", "key": "largestPark", "label": "Park with the most campgrounds", "value": "Judbarra/ Gregory National Park (17)"},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 102},
         {"dimension": "fees", "key": "fees:camping", "label": "Camping fee listed", "share": 99, "value": 101},
+        {"dimension": "related", "key": "dumpPoints", "label": "Dump points in the app", "value": 23},
+        {"dimension": "related", "key": "restAreas", "label": "Rest areas in the national dataset", "value": 211},
+        {"dimension": "related", "key": "waterPoints", "label": "Water filling points in the app", "value": 57},
         {"dimension": "sources", "key": "source:nt-parks", "label": "From NT Parks and Wildlife", "value": 102}
       ],
       "id": "camping/northern-territory",
@@ -1532,6 +1609,7 @@
       "dots": [[133.22,-14.95]],
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 3},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 3},
         {"dimension": "fees", "key": "fees:camping", "label": "Camping fee listed", "share": 100, "value": 3},
         {"dimension": "sources", "key": "source:nt-parks", "label": "From NT Parks and Wildlife", "value": 3}
       ],
@@ -1558,6 +1636,7 @@
       "dots": [[132.75,-24.06],[132.86,-24.14],[132.87,-24.16]],
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 4},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 4},
         {"dimension": "fees", "key": "fees:camping", "label": "Camping fee listed", "share": 100, "value": 4},
         {"dimension": "sources", "key": "source:nt-parks", "label": "From NT Parks and Wildlife", "value": 4}
       ],
@@ -1585,6 +1664,7 @@
       "dots": [[134.78,-20.64],[135.19,-20.75],[135.19,-20.76],[135.19,-20.77]],
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 4},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 4},
         {"dimension": "fees", "key": "fees:camping", "label": "Camping fee listed", "share": 100, "value": 4},
         {"dimension": "sources", "key": "source:nt-parks", "label": "From NT Parks and Wildlife", "value": 4}
       ],
@@ -1612,6 +1692,7 @@
       "dots": [[130.1,-16.45],[130.13,-16.72],[130.2,-15.89],[130.2,-17.16],[130.23,-16.85],[130.28,-16.63],[130.3,-15.97],[130.34,-16.09],[130.38,-16.05],[130.4,-15.61],[130.42,-16.11],[130.42,-16.24],[130.46,-16.44],[130.61,-16.87],[130.73,-16.03],[131.28,-15.59],[131.3,-15.47]],
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 17},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 17},
         {"dimension": "fees", "key": "fees:camping", "label": "Camping fee listed", "share": 100, "value": 17},
         {"dimension": "sources", "key": "source:nt-parks", "label": "From NT Parks and Wildlife", "value": 17}
       ],
@@ -1652,6 +1733,7 @@
       "dots": [[134.69,-14.75],[134.79,-14.76],[134.8,-14.77],[134.81,-14.77],[134.84,-14.77],[135.22,-15.03],[135.22,-15.04],[135.41,-15.48],[135.46,-15.63],[135.46,-15.81]],
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 14},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 14},
         {"dimension": "fees", "key": "fees:camping", "label": "Camping fee listed", "share": 100, "value": 14},
         {"dimension": "sources", "key": "source:nt-parks", "label": "From NT Parks and Wildlife", "value": 14}
       ],
@@ -1689,6 +1771,7 @@
       "dots": [[130.68,-13.16],[130.7,-13.09],[130.74,-13.25],[130.78,-13.4],[130.79,-13.09],[130.79,-13.1],[130.82,-13.26],[130.84,-13.23],[130.84,-13.24],[130.86,-13.49]],
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 10},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 10},
         {"dimension": "fees", "key": "fees:camping", "label": "Camping fee listed", "share": 100, "value": 10},
         {"dimension": "sources", "key": "source:nt-parks", "label": "From NT Parks and Wildlife", "value": 10}
       ],
@@ -1722,6 +1805,7 @@
       "dots": [[132.19,-14.18],[132.21,-14.19],[132.47,-14.33],[132.48,-14.32],[132.49,-14.31],[132.5,-14.31],[132.51,-14.32],[132.52,-14.31]],
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 8},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 8},
         {"dimension": "fees", "key": "fees:camping", "label": "Camping fee listed", "share": 100, "value": 8},
         {"dimension": "sources", "key": "source:nt-parks", "label": "From NT Parks and Wildlife", "value": 8}
       ],
@@ -1753,6 +1837,7 @@
       "dots": [[132.51,-23.58],[132.51,-23.59],[132.67,-23.67],[132.73,-23.63],[132.75,-23.61],[132.81,-23.65],[132.83,-23.65],[132.92,-23.75],[133.07,-23.78],[133.34,-23.73],[133.37,-23.8]],
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 11},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 11},
         {"dimension": "fees", "key": "fees:camping", "label": "Camping fee listed", "share": 100, "value": 11},
         {"dimension": "sources", "key": "source:nt-parks", "label": "From NT Parks and Wildlife", "value": 11}
       ],
@@ -1787,6 +1872,7 @@
       "dots": [[134.36,-23.54],[134.39,-23.52],[134.4,-23.52]],
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 4},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 4},
         {"dimension": "fees", "key": "fees:camping", "label": "Camping fee listed", "share": 100, "value": 4},
         {"dimension": "sources", "key": "source:nt-parks", "label": "From NT Parks and Wildlife", "value": 4}
       ],
@@ -1829,6 +1915,9 @@
         {"dimension": "rules", "key": "with:campfires_permitted", "label": "Campfires listed as allowed", "share": 53, "value": 276},
         {"dimension": "rules", "key": "with:generators_allowed", "label": "Generators listed as allowed", "share": 30, "value": 156},
         {"dimension": "fees", "key": "fees:camping", "label": "Camping fee listed", "share": 1, "value": 6},
+        {"dimension": "related", "key": "dumpPoints", "label": "Dump points in the app", "value": 324},
+        {"dimension": "related", "key": "restAreas", "label": "Rest areas in the national dataset", "value": 1197},
+        {"dimension": "related", "key": "waterPoints", "label": "Water filling points in the app", "value": 670},
         {"dimension": "sources", "key": "source:qpws", "label": "From QPWS", "value": 517}
       ],
       "id": "camping/queensland",
@@ -3789,7 +3878,11 @@
         {"dimension": "geography", "key": "largestPark", "label": "Park with the most campgrounds", "value": "Coorong National Park (11)"},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 9, "value": 10},
         {"dimension": "access", "key": "with:boat_ramp", "label": "Boat ramp listed", "share": 1, "value": 1},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 88, "value": 101},
         {"dimension": "rules", "key": "with:no_dogs", "label": "Listed as no dogs", "share": 1, "value": 1},
+        {"dimension": "related", "key": "dumpPoints", "label": "Dump points in the app", "value": 199},
+        {"dimension": "related", "key": "restAreas", "label": "Rest areas in the national dataset", "value": 391},
+        {"dimension": "related", "key": "waterPoints", "label": "Water filling points in the app", "value": 140},
         {"dimension": "sources", "key": "source:sa-dew", "label": "From SA DEW", "value": 115}
       ],
       "id": "camping/south-australia",
@@ -3849,6 +3942,7 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 6},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 17, "value": 1},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 6},
         {"dimension": "sources", "key": "source:sa-dew", "label": "From SA DEW", "value": 6}
       ],
       "id": "camping/south-australia/canunda-national-park",
@@ -3877,6 +3971,7 @@
       "dots": [[135.21,-34.44],[135.22,-34.5],[135.31,-34.57],[135.36,-34.64],[135.45,-34.65]],
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 5},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 5},
         {"dimension": "sources", "key": "source:sa-dew", "label": "From SA DEW", "value": 5}
       ],
       "id": "camping/south-australia/coffin-bay-national-park",
@@ -3904,6 +3999,7 @@
       "dots": [[139.08,-35.62],[139.16,-35.69],[139.4,-35.88],[139.64,-36.14],[139.65,-36.15],[139.66,-36.2],[139.76,-36.39]],
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 11},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 11},
         {"dimension": "sources", "key": "source:sa-dew", "label": "From SA DEW", "value": 11}
       ],
       "id": "camping/south-australia/coorong-national-park",
@@ -3937,6 +4033,7 @@
       "dots": [[138.17,-35.65],[138.22,-35.65],[138.25,-35.6],[138.26,-35.64]],
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 4},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 4},
         {"dimension": "sources", "key": "source:sa-dew", "label": "From SA DEW", "value": 4}
       ],
       "id": "camping/south-australia/deep-creek-national-park",
@@ -3963,6 +4060,7 @@
       "dots": [[136.84,-35.24],[136.85,-35.23],[136.87,-35.2],[136.92,-35.16],[136.94,-35.27],[136.96,-35.26]],
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 6},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 6},
         {"dimension": "sources", "key": "source:sa-dew", "label": "From SA DEW", "value": 6}
       ],
       "id": "camping/south-australia/dhilba-guuranda-innes-national-park",
@@ -3991,6 +4089,7 @@
       "dots": [[136.55,-35.89],[136.64,-35.75],[136.66,-35.95],[136.74,-35.95]],
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 4},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 4},
         {"dimension": "sources", "key": "source:sa-dew", "label": "From SA DEW", "value": 4}
       ],
       "id": "camping/south-australia/flinders-chase-national-park-and-ravine-des-casoars-wilderness",
@@ -4017,6 +4116,7 @@
       "dots": [[132.34,-32.01],[132.34,-32.02],[132.42,-31.99]],
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 3},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 3},
         {"dimension": "sources", "key": "source:sa-dew", "label": "From SA DEW", "value": 3}
       ],
       "id": "camping/south-australia/fowlers-bay-conservation-park",
@@ -4042,6 +4142,7 @@
       "dots": [[135.47,-32.79]],
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 6},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 6},
         {"dimension": "sources", "key": "source:sa-dew", "label": "From SA DEW", "value": 6}
       ],
       "id": "camping/south-australia/gawler-ranges-national-park",
@@ -4070,6 +4171,7 @@
       "dots": [[138.55,-31.34],[138.56,-31.41],[138.58,-31.28],[138.58,-31.33],[138.58,-31.36],[138.59,-31.29],[138.62,-31.33],[138.66,-31.33],[138.71,-31.36]],
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 9},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 9},
         {"dimension": "sources", "key": "source:sa-dew", "label": "From SA DEW", "value": 9}
       ],
       "id": "camping/south-australia/ikara-flinders-ranges-national-park",
@@ -4102,6 +4204,7 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 7},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 86, "value": 6},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 7},
         {"dimension": "sources", "key": "source:sa-dew", "label": "From SA DEW", "value": 7}
       ],
       "id": "camping/south-australia/innamincka-regional-reserve",
@@ -4131,6 +4234,7 @@
       "dots": [[139.76,-37.19],[139.77,-37.19],[139.8,-37.25],[139.82,-37.26]],
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 5},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 5},
         {"dimension": "sources", "key": "source:sa-dew", "label": "From SA DEW", "value": 5}
       ],
       "id": "camping/south-australia/little-dip-conservation-park",
@@ -4158,6 +4262,7 @@
       "dots": [[140.38,-34.2],[140.38,-34.22]],
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 3},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 3},
         {"dimension": "sources", "key": "source:sa-dew", "label": "From SA DEW", "value": 3}
       ],
       "id": "camping/south-australia/loch-luna-and-moorook-game-reserves",
@@ -4183,6 +4288,7 @@
       "dots": [[140.29,-35.93],[140.33,-35.68],[140.34,-35.92],[140.4,-35.61],[140.8,-35.74]],
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 7},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 7},
         {"dimension": "sources", "key": "source:sa-dew", "label": "From SA DEW", "value": 7}
       ],
       "id": "camping/south-australia/ngarkat-conservation-park",
@@ -4212,6 +4318,7 @@
       "dots": [[138.81,-34.69],[138.84,-34.69]],
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 3},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 3},
         {"dimension": "sources", "key": "source:sa-dew", "label": "From SA DEW", "value": 3}
       ],
       "id": "camping/south-australia/para-wirra-conservation-park",
@@ -4238,6 +4345,7 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 4},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 50, "value": 2},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 4},
         {"dimension": "sources", "key": "source:sa-dew", "label": "From SA DEW", "value": 4}
       ],
       "id": "camping/south-australia/vulkathunha-gammon-ranges-national-park",
@@ -4264,6 +4372,7 @@
       "dots": [[138.4,-35.62]],
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 3},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 3},
         {"dimension": "sources", "key": "source:sa-dew", "label": "From SA DEW", "value": 3}
       ],
       "id": "camping/south-australia/wild-south-coast-way-on-the-heysen-trail",
@@ -4298,6 +4407,9 @@
         {"dimension": "access", "key": "with:caravan_sites", "label": "Caravan sites listed", "share": 4, "value": 1},
         {"dimension": "access", "key": "with:boat_ramp", "label": "Boat ramp listed", "share": 41, "value": 11},
         {"dimension": "fees", "key": "fees:camping", "label": "Camping fee listed", "share": 41, "value": 11},
+        {"dimension": "related", "key": "dumpPoints", "label": "Dump points in the app", "value": 80},
+        {"dimension": "related", "key": "restAreas", "label": "Rest areas in the national dataset", "value": 81},
+        {"dimension": "related", "key": "waterPoints", "label": "Water filling points in the app", "value": 73},
         {"dimension": "sources", "key": "source:tas-pws", "label": "From Tasmania PWS", "value": 27}
       ],
       "id": "camping/tasmania",
@@ -4425,6 +4537,9 @@
         {"dimension": "access", "key": "with:caravan_sites", "label": "Caravan sites listed", "share": 1, "value": 3},
         {"dimension": "access", "key": "with:boat_ramp", "label": "Boat ramp listed", "share": 3, "value": 14},
         {"dimension": "rules", "key": "with:no_dogs", "label": "Listed as no dogs", "share": 1, "value": 3},
+        {"dimension": "related", "key": "dumpPoints", "label": "Dump points in the app", "value": 181},
+        {"dimension": "related", "key": "restAreas", "label": "Rest areas in the national dataset", "value": 651},
+        {"dimension": "related", "key": "waterPoints", "label": "Water filling points in the app", "value": 630},
         {"dimension": "sources", "key": "source:vic-deeca", "label": "From DEECA", "value": 350},
         {"dimension": "sources", "key": "source:parks-victoria", "label": "From Parks Victoria", "value": 88}
       ],
@@ -4826,9 +4941,13 @@
         {"dimension": "facilities", "key": "with:barbecue_facilities", "label": "Barbecues listed", "share": 1, "value": 2},
         {"dimension": "access", "key": "with:caravan_sites", "label": "Caravan sites listed", "share": 0, "value": 1},
         {"dimension": "access", "key": "with:boat_ramp", "label": "Boat ramp listed", "share": 1, "value": 2},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 65, "value": 168},
         {"dimension": "rules", "key": "with:campfires_permitted", "label": "Campfires listed as allowed", "share": 0, "value": 1},
         {"dimension": "rules", "key": "with:no_dogs", "label": "Listed as no dogs", "share": 41, "value": 106},
         {"dimension": "fees", "key": "fees:camping", "label": "Camping fee listed", "share": 45, "value": 117},
+        {"dimension": "related", "key": "dumpPoints", "label": "Dump points in the app", "value": 238},
+        {"dimension": "related", "key": "restAreas", "label": "Rest areas in the national dataset", "value": 1650},
+        {"dimension": "related", "key": "waterPoints", "label": "Water filling points in the app", "value": 390},
         {"dimension": "sources", "key": "source:wa-dbca", "label": "From DBCA", "value": 260}
       ],
       "id": "camping/western-australia",
@@ -4888,6 +5007,7 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 3},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 100, "value": 3},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 3},
         {"dimension": "sources", "key": "source:wa-dbca", "label": "From DBCA", "value": 3}
       ],
       "id": "camping/western-australia/cape-arid-national-park",
@@ -4914,6 +5034,7 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 6},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 100, "value": 6},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 6},
         {"dimension": "sources", "key": "source:wa-dbca", "label": "From DBCA", "value": 6}
       ],
       "id": "camping/western-australia/cape-range-national-park",
@@ -4943,6 +5064,7 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 5},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 100, "value": 5},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 5},
         {"dimension": "sources", "key": "source:wa-dbca", "label": "From DBCA", "value": 5}
       ],
       "id": "camping/western-australia/dentrecasteaux-national-park",
@@ -4970,6 +5092,7 @@
       "dots": [[112.93,-25.53],[112.94,-25.51],[112.97,-25.78],[112.99,-25.5],[113.02,-25.51],[113.02,-25.58],[113.07,-25.72],[113.08,-25.78],[113.17,-25.95]],
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 9},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 9},
         {"dimension": "sources", "key": "source:wa-dbca", "label": "From DBCA", "value": 9}
       ],
       "id": "camping/western-australia/dirk-hartog-island-national-park",
@@ -5002,6 +5125,7 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 3},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 67, "value": 2},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 3},
         {"dimension": "sources", "key": "source:wa-dbca", "label": "From DBCA", "value": 3}
       ],
       "id": "camping/western-australia/edel-land-national-park-proposed",
@@ -5028,6 +5152,7 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 5},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 80, "value": 4},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 5},
         {"dimension": "sources", "key": "source:wa-dbca", "label": "From DBCA", "value": 5}
       ],
       "id": "camping/western-australia/francois-peron-national-park",
@@ -5056,6 +5181,7 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 3},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 100, "value": 3},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 3},
         {"dimension": "sources", "key": "source:wa-dbca", "label": "From DBCA", "value": 3}
       ],
       "id": "camping/western-australia/karijini-national-park",
@@ -5082,6 +5208,7 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 6},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 100, "value": 6},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 6},
         {"dimension": "sources", "key": "source:wa-dbca", "label": "From DBCA", "value": 6}
       ],
       "id": "camping/western-australia/lane-poole-reserve",
@@ -5111,6 +5238,7 @@
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 3},
         {"dimension": "facilities", "key": "with:toilets", "label": "Toilets listed", "share": 100, "value": 3},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 3},
         {"dimension": "sources", "key": "source:wa-dbca", "label": "From DBCA", "value": 3}
       ],
       "id": "camping/western-australia/logue-brook-dam",
@@ -5136,6 +5264,7 @@
       "dots": [[113.68,-22.54],[113.7,-22.54],[113.71,-22.71],[113.72,-22.5],[113.72,-22.51]],
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 5},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 5},
         {"dimension": "sources", "key": "source:wa-dbca", "label": "From DBCA", "value": 5}
       ],
       "id": "camping/western-australia/nyinggulara-national-park-ex-ningaloo",
@@ -5163,6 +5292,7 @@
       "dots": [[113.58,-26.08],[113.62,-26.11],[113.69,-26.19],[113.69,-26.21]],
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 4},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 4},
         {"dimension": "sources", "key": "source:wa-dbca", "label": "From DBCA", "value": 4}
       ],
       "id": "camping/western-australia/south-peron-reserve-name-to-be-confirmed",
@@ -5189,6 +5319,7 @@
       "dots": [[113.41,-24.4],[113.46,-24.03],[113.5,-23.88],[113.53,-23.82],[113.64,-23.62],[113.74,-23.54],[113.77,-23.51],[113.78,-23.46],[113.79,-23.27],[113.79,-23.28],[113.79,-23.33],[113.79,-23.42],[113.79,-23.44],[113.79,-23.48],[113.8,-23.32],[113.83,-22.98]],
       "facts": [
         {"dimension": "count", "key": "campgrounds", "label": "Campgrounds in the app", "value": 17},
+        {"dimension": "access", "key": "booking", "label": "Online booking page listed", "share": 100, "value": 17},
         {"dimension": "sources", "key": "source:wa-dbca", "label": "From DBCA", "value": 17}
       ],
       "id": "camping/western-australia/warroora-coast-nyinggulu-coastal-reserves",

@@ -305,7 +305,7 @@ async function run() {
   const types = new Map(db.prepare("SELECT Id, Name, PluralName FROM SiteType").all().map((row) => [row.Id, row]));
   const allowed = new Set(Object.entries(SOURCES).filter(([, source]) => source.licence !== "exclude").map(([operator]) => operator));
   const rawSites = db.prepare(`SELECT Id, SiteName, SiteTypeId, State, Locality, Address, Latitude, Longitude, Website, SourceUrl,
-    ParkId, ParentName, Operator, FeeCategory FROM Site ORDER BY Id`).all();
+    Booking, ParkId, ParentName, Operator, FeeCategory FROM Site ORDER BY Id`).all();
 
   const junkName = /404|can.?t be found|not be found|page not found/i;
   const sites = rawSites.filter((site) => allowed.has(site.Operator)
@@ -473,6 +473,8 @@ async function run() {
     for (const site of list) counts.set(site.Operator, (counts.get(site.Operator) ?? 0) + 1);
     return [...counts].sort(([a, x], [b, y]) => y - x || byText(a, b)).map(([operator, n]) => fact("sources", `source:${SOURCES[operator].key}`, `From ${SOURCES[operator].short}`, n));
   };
+  // An online booking page the agency lists (a gov.au link), not a booking requirement.
+  const bookingFact = (list) => fact("access", "booking", "Online booking page listed", count(list, (site) => !!officialPage(site.Booking)), list.length);
   const facilityFacts = (list, codes, dimension) => codes.map((code) => fact(dimension, `with:${code}`, factLabel(code), flagged(list, code), list.length));
   const score = (place) => place.facilities.length * 4 + (place.url ? 3 : 0) + (place.locality || place.park ? 2 : 0) + (place.fee ? 1 : 0);
   const pick = (places) => places.filter((place) => !PLACEHOLDER_NAME.test(place.name))
@@ -511,10 +513,15 @@ async function run() {
         fact("geography", "largestPark", "Park with the most campgrounds", parkGroups[0] ? `${parkGroups[0].name} (${parkGroups[0].count})` : null),
         ...facilityFacts(list, ["toilets", "flush_toilets", "drinking_water", "showers", "barbecue_facilities", "phone_reception"], "facilities"),
         ...facilityFacts(list, ["caravan_sites", "camper_trailer_sites", "tent_beside_car", "boat_ramp"], "access"),
+        bookingFact(list),
         ...facilityFacts(list, ["campfires_permitted", "generators_allowed", "no_dogs"], "rules"),
         fact("fees", "fees:camping", "Camping fee listed", count(feeList, (fee) => fee.startsWith("Camping fee")), list.length),
         fact("fees", "fees:none", "No camping fee listed (booking fee only)", count(feeList, (fee) => fee.startsWith("No camping fee")), list.length),
         fact("fees", "fees:entry", "Park entry fee listed", count(feeList, (fee) => /park entry fee/i.test(fee)), list.length),
+        // The same state's other stops a camper plans around, each with its own hub.
+        fact("related", "dumpPoints", "Dump points in the app", count(sites, (site) => site.State === state.code && site.SiteTypeId === "public_dump_point")),
+        fact("related", "restAreas", "Rest areas in the national dataset", count(radar, (site) => site.State === state.code)),
+        fact("related", "waterPoints", "Water filling points in the app", count(sites, (site) => site.State === state.code && site.SiteTypeId === "water_facility")),
         ...sourceFacts(list),
       ],
     }, list);
@@ -538,14 +545,17 @@ async function run() {
     for (let suffix = 2; usedSlugs.has(`${state.slug}/${slug}`); suffix += 1) slug = `${slugify(park.name)}-${suffix}`;
     usedSlugs.add(`${state.slug}/${slug}`);
     const feeList = list.map((site) => feeSummary(site) ?? "");
+    const localities = top(list, (site) => cleanName(site.Locality), 1).filter((locality) => locality.count > 1);
     addHub({
       id: `camping/${state.slug}/${slug}`, kind: "camping-park", parent: `camping/${state.slug}`, path: `/camping/${state.slug}/${slug}/`,
       state: state.code, stateName: state.name, name: park.name, rulesGuide: state.rules, officialUrl: park.url ?? null, topParks: [],
       facts: [
         fact("count", "campgrounds", "Campgrounds in the app", list.length),
         fact("geography", "localities", "Localities named", new Set(list.map((site) => cleanName(site.Locality)).filter(Boolean)).size),
+        fact("geography", "topLocality", "Locality with the most campgrounds", localities[0] ? `${localities[0].name} (${localities[0].count})` : null),
         ...facilityFacts(list, ["toilets", "flush_toilets", "drinking_water", "showers", "barbecue_facilities", "phone_reception"], "facilities"),
         ...facilityFacts(list, ["caravan_sites", "camper_trailer_sites", "tent_beside_car", "boat_ramp"], "access"),
+        bookingFact(list),
         ...facilityFacts(list, ["campfires_permitted", "generators_allowed", "no_dogs"], "rules"),
         fact("fees", "fees:camping", "Camping fee listed", count(feeList, (fee) => fee.startsWith("Camping fee")), list.length),
         fact("fees", "fees:none", "No camping fee listed (booking fee only)", count(feeList, (fee) => fee.startsWith("No camping fee")), list.length),
