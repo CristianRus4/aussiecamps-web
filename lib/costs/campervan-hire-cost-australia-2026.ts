@@ -40,7 +40,7 @@ export default article({
         ["One-way fee, for example Sydney to Cairns", "$200", "$200"],
         ["Extra driver", "$4 a day", "$56"],
         ["RV Essentials Kit", "$155", "$155"],
-        ["Add-ons before daily rate, fuel and campsites", "", "$1,349"],
+        ["Add-ons before daily rate, fuel and campsites", "–", "$1,349"],
       ],
     }),
     section("Licence, age and road rules that change the price", ["Apollo and Maui hire standard campers to drivers aged 21 or over with a full licence and need the physical licence, not a photocopy. If it is not in English they need an accredited English translation or an International Driving Permit, or they cannot release the van. Travellers Autobarn accepts a valid international driving licence or a full licence from your country of residence and says a translation may be required.", "The roads you may drive on affect your cover. The group FAQ says 2WD campers cannot be driven on unsealed roads, apart from well-maintained access roads under 12 km to a recognised campground or major attraction, and beaches are not permitted. Wicked Campers says 2WD campers can only drive 10 km on unsealed roads and that beaches and off-road tracks are not permitted. Travellers Autobarn says the hirer is liable for damage caused by driving on unsealed roads or on a beach."], ["Carry your physical licence", "Check the unsealed-road limit before a detour", "State licence rules differ"]),
