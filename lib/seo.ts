@@ -11,7 +11,7 @@ export const ogLocale = (code: LocaleCode | "en") => (code === "en" ? englishLoc
  * The link-preview image of every page that is not a guide. PNG, not WebP: X, Facebook, WhatsApp and
  * iMessage often show an empty card for a WebP og:image.
  */
-export const homeOgImage = { url: `${SITE_URL}/images/aussiecamps-og.png`, width: 1200, height: 630, type: "image/png" };
+export const homeOgImage = { url: `${SITE_URL}/images/aussiecamps-og-v2.png`, width: 1200, height: 630, type: "image/png" };
 /** A guide's link-preview image: the JPG copy scripts/build-og-images.mjs makes of its WebP hero. */
 export const articleOgImage = (slug: string) => ({ url: `${SITE_URL}/images/og/${slug}.jpg`, width: 1200, height: 630, type: "image/jpeg" });
 
