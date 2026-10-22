@@ -17731,7 +17731,7 @@
                 "Autoroute Barrier via Cobar et Broken Hill",
                 "Environ 1 012 km sur la Barrier Highway seule, de Nyngan à Giles Corner",
                 "Non montré",
-                "",
+                "Isolée, peu peuplée, entièrement bitumée depuis 1972",
                 "Conducteurs de l'Outback qui veulent Broken Hill"
               ]
             ]
@@ -17890,6 +17890,1233 @@
         },
         {
           "label": "Hay Shire Council : campings"
+        }
+      ],
+      "priceTable": null
+    },
+    "melbourne-to-canberra-drive": {
+      "title": "Melbourne à Canberra en road trip 2026 : routes de l'Hume Highway, de l'Alpine et du Monaro",
+      "description": "De Melbourne à Canberra, le trajet est d'environ 680 km et dure 8,5 heures sur les autoroutes Hume et Barton. Comparaison des itinéraires avec les options alpines et Monaro, les arrêts, les campings, les chaînes à neige et les aires de vidange.",
+      "region": "Victoria, Nouvelle-Galles du Sud et l'ACT",
+      "imageAlt": "La voie rapide Hume Highway entre Gundagai et Goulburn, avec du trafic sur les deux voies et des collines verdoyantes en arrière-plan",
+      "intro": "De Melbourne à Canberra, le trajet est d'environ 680 km et dure 8 h 35 min de conduite sur l'Hume Highway jusqu'à Yass et la Barton Highway jusqu'à Canberra, selon le routage OSRM. Les deux alternatives, par les Snowy Mountains ou le long de la Monaro Highway depuis la côte sud, ajoutent environ 70 à 170 km et s'adressent aux conducteurs qui souhaitent voir les montagnes ou la côte.",
+      "sections": [
+        {
+          "heading": "Comparaison des itinéraires de Melbourne à Canberra",
+          "body": [
+            "L'itinéraire standard est l'Hume Highway à travers Seymour, Euroa, Benalla, Wangaratta, Albury, Holbrook, Gundagai et Yass, puis la Barton Highway (A25) vers l'ACT. Wikipédia indique que l'Hume Highway est une voie à double sens sur toute sa longueur depuis le 7 août 2013, avec une limite de 110 km/h, et que la Barton Highway s'étend sur 52 km de Yass à Lyneham, avec seulement environ 6 km de sa section en <a data-guide=\"camping-rules-new-south-wales\">Nouvelle-Galles du Sud</a> en voie à double sens.",
+            "La route alpine quitte le Hume à Albury, suit la Murray Valley Highway jusqu'à Corryong, traverse les Snowy Mountains par l'Alpine Way de Khancoban à Jindabyne, puis traverse Cooma et longe la Monaro Highway jusqu'à Canberra. La route Monaro suit la Princes Highway de Melbourne à Cann River, puis la Monaro Highway à travers Bombala et Cooma. Les distances et les temps proviennent du routage OSRM sur les données OpenStreetMap, calculés le 21 octobre 2026, pour une voiture sans arrêt. Le total de la route alpine est dérivé des tronçons OSRM plus la longueur de l'Alpine Way sur Wikipédia, il ne s'agit donc pas d'une donnée routée."
+          ],
+          "tips": [
+            "Hume : autoroute la plus rapide vers Yass",
+            "Alpin : sections raides, étroites, fermées en hiver",
+            "Monaro : la route côtière, puis les tablelands"
+          ],
+          "table": {
+            "caption": "Melbourne à Canberra par la route, routage OSRM calculé le 21 octobre 2026 (total alpin dérivé).",
+            "head": [
+              "Itinéraire",
+              "Distance",
+              "Temps de conduite",
+              "Route",
+              "Meilleur pour"
+            ],
+            "rows": [
+              [
+                "Hume Highway puis Barton Highway",
+                "Environ 680 km",
+                "Environ 8 h 35 min",
+                "Voie à double sens jusqu'à Yass, puis principalement voie à sens unique",
+                "Le trajet le plus rapide, en une journée ou avec une nuit à Albury"
+              ],
+              [
+                "Itinéraire alpin via Corryong, Khancoban, Jindabyne et Cooma",
+                "Environ 753 km (calculé)",
+                "Non acheminé",
+                "Chemin alpin raide, étroit et sinueux",
+                "Paysages de montagne, pas pour les grandes caravanes"
+              ],
+              [
+                "Princes Highway à Cann River, puis Monaro Highway",
+                "Environ 747 km",
+                "Environ 10 h 35 min",
+                "Principalement à voie unique",
+                "Un road trip sur la côte sud-est et les plateaux"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "L'itinéraire de Hume en un ou deux jours",
+          "body": [
+            "Selon le routage OSRM, Melbourne à Albury représente environ 315 km (3 h 53 min) et Albury à Canberra environ 353 km (4 h 23 min), en passant par Holbrook à environ 63 km, Gundagai à environ 115 km plus loin, Yass à environ 107 km après cela et Canberra à environ 68 km. Si vous divisez le trajet, Albury est l'endroit habituel pour passer la nuit. BIG4 Albury Tourist Park se trouve sur Wagga Road à Lavington, Albury Central Tourist Park est sur North Street et Discovery Parks Lake Hume est à environ 15 minutes. Veuillez confirmer la disponibilité auprès du parc.",
+            "Plus loin, Gundagai Cabins and Tourist Park se trouve au 1 Nangus Road et VisitNSW le décrit comme convenant pour une halte sur l'autoroute Hume. Yass <a data-guide=\"caravan-park-vs-holiday-park\">Caravan Park</a> est à environ cinq minutes de l'autoroute Hume du côté nord de Yass, avec des bungalows, des emplacements de camping et des emplacements pour caravanes en travers. Les données d'AussieCamps répertorient les aires de repos de l'autoroute Hume en Victoria à Mangalore, Avenel, Benalla, Winton, Glenrowan, Wangaratta South et Chiltern, avec des toilettes, des tables de pique-nique, des barbecues et une zone pour les véhicules lourds, et principalement de l'eau potable. Il n'en répertorie aucune pour la section de Nouvelle-Galles du Sud ici, ce qui constitue une lacune dans les données. Considérez les aires de repos comme un lieu pour faire une pause : la Victoria n'a pas de limite d'hébergement nocturne à l'échelle de l'État dans les sources consultées, et les conseils locaux peuvent interdire les nuitées."
+          ],
+          "tips": [
+            "Albury à environ 315 km",
+            "Gundagai à environ 493 km",
+            "Oui, environ 600 km"
+          ]
+        },
+        {
+          "heading": "Camping dans l'ACT",
+          "body": [
+            "ACT Parks indique que les réservations sont essentielles au Cotter Campground, qui accepte le camping général, les caravanes et les petits vans, avec eau, douches chaudes et barbecues, et sans chiens. Honeysuckle Campground nécessite également une réservation et accepte jusqu'à quatre vans ou caravanes, des frais s'appliquant. Mount Clear Campground dans le parc national de Namadgi est un camping isolé et basique que ACT Parks indique ne pas être adapté aux vans et aux caravanes, et son site répertorie des fermetures pour maintenance, <a data-guide=\"campfires-camping-australia\">interdictions de feu</a> et des problèmes d'accès. Les données d'AussieCamps répertorient les quatre : Cotter, Honeysuckle, Mount Clear et Northern Border Campground. Les frais n'ont pas été confirmés, veuillez consulter la page d'ACT Parks.",
+            "Le guide des règles de camping pour <a data-guide=\"camping-rules-act\">l'ACT</a> couvre les règles, et le Namadgi Visitor Centre au (02) 6237 5307 peut vous aider concernant l'accès actuel."
+          ],
+          "tips": [
+            "Cotter and Honeysuckle ont besoin d'une réservation",
+            "Mount Clear : pas pour les caravanes",
+            "Vérifiez ACT Parks pour les fermetures"
+          ]
+        },
+        {
+          "heading": "Les options alpines et Monaro",
+          "body": [
+            "Sur la route alpine, le NPWS décrit l'Alpine Way entre Khancoban et Thredbo comme raide, étroit et sinueux, avec des chutes de pierres après la pluie, et non recommandé pour les grandes caravanes. Selon l'OSR M, Corryong se situe à environ 128 km au-delà d'Albury (1 h 49 min), Khancoban à environ 29 km plus loin, Jindabyne à environ 107 km plus loin sur l'Alpine Way, puis Cooma à environ 61 km et Canberra à environ 113 km. Le NPWS indique que la route de Khancoban à Cabramurra, ainsi que de nombreuses petites routes dans le parc national de Kosciuszko, sont fermées en hiver, et que les routes peuvent se fermer en cas de temps extrême.",
+            "La Nouvelle-Galles du Sud stipule que tous les véhicules 2WD doivent transporter des chaînes entre le long week-end de juin et le long week-end d'octobre sur la route de Kosciuszko, l'Alpine Way entre Thredbo et Tom Groggin, et la route Island Bend et Guthega, et les recommande sur l'autoroute des Snowy Mountains. La période 2026 est terminée et recommence en juin 2027. L'autoroute Monaro s'étend sur 285,1 km de Cann River à Canberra, avec Cooma à environ 111,6 km de Canberra, et les guides sur les Alpes australiennes et <a data-guide=\"camping-rules-victoria\">Victoria</a> couvrent le camping en montagne plus en détail."
+          ],
+          "tips": [
+            "Alpine Way : raide et étroit",
+            "Chaînes : longs week-ends de juin à octobre",
+            "Monaro Highway : Cann River à Canberra 285 km"
+          ]
+        },
+        {
+          "heading": "Carburant et services",
+          "body": [
+            "Les sources consultées ne donnent aucun écart de carburant sur ces itinéraires, et aucune donnée ne doit être tirée des tronçons OSRM, qui ne montrent que la distance entre les villes utilisées comme points de passage. Le plus long de ceux sur le Hume est Melbourne à Euroa à environ 159 km. Faites le plein dans les villes plus importantes, telles que Seymour, Benalla, Wangaratta, Albury, Gundagai et Yass. Sur l'itinéraire alpin, Khancoban à Jindabyne représente environ 107 km de route dans un parc national et le carburant à Thredbo n'a pas pu être confirmé, donc faites le plein à Corryong ou à Jindabyne. Le guide de carburant pour le road trip montre comment budgétiser la distance."
+          ],
+          "tips": [
+            "Faites le plein dans les villes plus grandes de Hume",
+            "Alpine : faire le plein à Corryong ou Jindabyne"
+          ]
+        },
+        {
+          "heading": "Conditions de la route, péages et vitesse",
+          "body": [
+            "Vérifiez VicTraffic et Live Traffic NSW (livetraffic.com, 132 701). Le NPWS conseille aux conducteurs d'utiliser Live Traffic NSW pour les conditions dans le parc national de Kosciuszko. L'autoroute Hume est limitée à 110 km/h sur toute sa longueur selon Wikipédia, et il n'est pas mentionné qu'elle est payante.",
+            "À Melbourne, Linkt indique que son Visitor's Pass couvre CityLink, EastLink et le West Gate Tunnel pour une durée maximale de 30 jours, et couvre les trajets en CityLink effectués jusqu'à 5 jours auparavant ainsi que les trajets en EastLink effectués jusqu'à 3 jours auparavant. Que votre départ de Melbourne utilise une route à péage dépend de votre itinéraire vers le Hume, vérifiez donc avant de partir."
+          ],
+          "tips": [
+            "VicTraffic et Live Traffic NSW",
+            "Le Linkt Visitor's Pass couvre les péages de Melbourne"
+          ]
+        },
+        {
+          "heading": "Règles frontalières et l'horloge",
+          "body": [
+            "Le site de quarantaine inter-États ne mentionne aucune restriction concernant les <a data-guide=\"interstate-biosecurity-road-trip\">moucher des fruits</a> pour la Nouvelle-Galles du Sud ou Victoria, et regroupe l'ACT avec la Nouvelle-Galles du Sud sans zones distinctes. Cela ne prouve pas que rien ne s'applique, et aucune source gouvernementale de l'ACT concernant le transport de fruits n'a été trouvée parmi les sources consultées. Agriculture Victoria indique que la réglementation de Greater Sunraysia a expiré en juillet 2024 et que les restrictions concernant la mouche des fruits méditerranéenne s'appliquent toujours dans tout l'État, veuillez donc consulter Agriculture Victoria au 136 186. Le même site de quarantaine inter-États indique qu'à un moment donné lors de vos déplacements en Australie, vous risquez d'être inspecté ou de devoir remettre des produits dans un bac d'amnistie.",
+            "Victoria, <a data-guide=\"camping-rules-new-south-wales\">Nouvelle-Galles du Sud</a> et l'ACT observent le changement d'heure, qui a commencé le dimanche 4 octobre 2026 et se termine le dimanche 4 avril 2027, donc l'horloge ne change sur aucun itinéraire."
+          ],
+          "tips": [
+            "Aucune zone de mouches des fruits répertoriée pour la Nouvelle-Galles du Sud ou Victoria",
+            "Mouches des fruits méditerranéennes : Victoria, à l'échelle de l'État",
+            "Pas de changement d'horloge"
+          ]
+        },
+        {
+          "heading": "Aires de vidange sur le chemin",
+          "body": [
+            "Les données d'AussieCamps répertorient des <a data-guide=\"dump-points-australia-guide\">aires de vidange</a> sur l'Hume à Memorial Park à Wandong, Airport et RV Dump Point à Benalla et Warreena Park à Wangaratta, chacune avec un robinet de vidange répertorié, et Oxley Recreation Reserve sans aucun. À Canberra, il répertorie Epic, Exhibition Park Campground à Lyneham. Sur la route alpine, il répertorie Corryong Saleyards avec un robinet de vidange répertorié, et sur la route du Monaro, Bruthen Lions Park avec un robinet de vidange et Brodribb River Murrungower Rest Area sans. Il n'en répertorie aucun sur l'Hume de Nouvelle-Galles du Sud entre Chiltern et Yass, ce qui est uniquement la couverture des données, veuillez donc consulter le guide des aires de vidange."
+          ],
+          "tips": [
+            "Wandong, Benalla et Wangaratta répertorient un robinet hors service",
+            "Aucun point de vidange de la Hume en Nouvelle-Galles du Sud dans les données"
+          ]
+        },
+        {
+          "heading": "Plan le trajet Melbourne-Canberra dans AussieCamps",
+          "body": [
+            "Planifiez-le comme un voyage dans AussieCamps : ajoutez les arrêts dans l'ordre, Albury, Gundagai et un camping de Canberra, et cela affichera la distance et le temps de trajet de chaque étape avec une prévision pour le jour de votre arrivée. AussieCamps répertorie 1 838 campings, 5 552 aires de repos et 1 393 <a data-guide=\"dump-points-australia-guide\">aires de vidange</a> provenant des agences des parcs, des autorités routières et des ensembles de données publics, y compris les campings des parcs ACT et Kosciuszko mentionnés ci-dessus, et une page de lieu affiche les installations publiées par ces sources.",
+            "Les détails des lieux enregistrés, les lieux sauvegardés et les Guides fonctionnent sans <a data-guide=\"camping-without-phone-signal\">signal</a>. Les tuiles de carte, le routage, la météo et les photos nécessitent une connexion, ce qui est important sur la route alpine, ouvrez donc le voyage avant de quitter Corryong. AussieCamps fonctionne uniquement sur iPhone et est gratuit à télécharger, avec des achats intégrés."
+          ],
+          "tips": [
+            "Ajouter chaque arrêt nocturne dans l'ordre",
+            "Prévisions par jour d'arrivée",
+            "Ouvrez le voyage avant les montagnes"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Combien de temps faut-il pour conduire de Melbourne à Canberra ?",
+          "Environ 680 km et 8 h 35 min de conduite sur l'Hume Highway et la Barton Highway, selon le routage OSRM sur les données d'OpenStreetMap. La plupart des conducteurs le font en une longue journée, et Albury est l'endroit habituel pour le diviser en deux."
+        ],
+        [
+          "L'autoroute Hume est-elle entièrement à double voie ?",
+          "Wikipedia indique oui, depuis l'ouverture du contournement de Holbrook le 7 août 2013, avec une limite de 110 km/h. Les 52 derniers km en direction de Canberra sur la Barton Highway depuis Yass sont différents : c'est principalement une voie simple, avec seulement environ 6 km de sa section en Nouvelle-Galles du Sud en double voie."
+        ],
+        [
+          "Avez-vous besoin de chaînes à neige entre Melbourne et Canberra ?",
+          "Pas sur les autoroutes Hume ou Barton. Le parc national de Kosciuszko, en Nouvelle-Galles du Sud, indique que tous les véhicules 2WD doivent emporter des chaînes entre le long week-end de juin et le long week-end d'octobre sur des routes telles que l'Alpine Way entre Thredbo et Tom Groggin. Cette période est terminée pour 2026 et recommence en juin 2027."
+        ],
+        [
+          "Y a-t-il un poste de contrôle des mouches des fruits entre Victoria et Nouvelle-Galles du Sud sur ce trajet ?",
+          "Les sources consultées n'en montrent aucune. Le site de quarantaine inter-États ne liste aucune restriction de mouches des fruits pour la Nouvelle-Galles du Sud ou Victoria, et Agriculture Victoria indique que la réglementation de Greater Sunraysia a expiré en juillet 2024, mais que les restrictions concernant la mouche des fruits méditerranéenne s'appliquent toujours dans tout l'État de Victoria, veuillez donc consulter Agriculture Victoria au 136 186."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Calcul d'itinéraire OSRM sur les données OpenStreetMap (Melbourne à Canberra, calcul effectué le 21 octobre 2026)"
+        },
+        {
+          "label": "Wikipédia : Hume Highway"
+        },
+        {
+          "label": "Wikipédia : Barton Highway"
+        },
+        {
+          "label": "Wikipédia : Alpine Way"
+        },
+        {
+          "label": "Wikipédia : Monaro Highway"
+        },
+        {
+          "label": "Parcs nationaux de la Nouvelle-Galles du Sud : conduite sur neige"
+        },
+        {
+          "label": "Gouvernement de la Nouvelle-Galles du Sud : conduire dans la neige"
+        },
+        {
+          "label": "Parcs nationaux de la Nouvelle-Galles du Sud : informations pour les visiteurs de la région de Khancoban"
+        },
+        {
+          "label": "ACT Parks : Camping de Cotter"
+        },
+        {
+          "label": "VisitNSW : Caravan Park de Yass"
+        },
+        {
+          "label": "Lien : Passe de visite"
+        },
+        {
+          "label": "Quarantaine inter-États : zones de quarantaine"
+        },
+        {
+          "label": "Agriculture Victoria : changements réglementaires dans la région de Greater Sunraysia"
+        },
+        {
+          "label": "Gouvernement de la NSW : heure d'été en NSW"
+        },
+        {
+          "label": "Trafic en direct NSW"
+        }
+      ],
+      "priceTable": null
+    },
+    "brisbane-to-byron-bay-drive": {
+      "title": "Conduite de Brisbane à Byron Bay en 2026 : Pacific Motorway ou le Hinterland de la Gold Coast",
+      "description": "De Brisbane à Byron Bay, le trajet est d'environ 170 km et 2,5 heures sur la Pacific Motorway, ou 237 km via Springbrook et Murwillumbah. Comparaison des itinéraires avec les arrêts, les règles concernant les fourmis de feu, le changement d'heure à la frontière et le camping.",
+      "region": "Queensland et Nouvelle-Galles du Sud",
+      "imageAlt": "Vue aérienne du Cap Byron et de son phare, avec des vagues le long de la côte et le promontoire verdoyant s'élevant de la mer",
+      "intro": "De Brisbane à Byron Bay, il y a environ 165 à 175 km et environ deux heures et demie sur la Pacific Motorway à travers la Gold Coast et Tweed Heads. Prenez la route de l'arrière-pays par Mount Tamborine, Springbrook et Murwillumbah, environ 237 km et quatre heures, si vous souhaitez des cascades et une forêt tropicale en chemin.",
+      "sections": [
+        {
+          "heading": "Comparaison des itinéraires de Brisbane à Byron Bay",
+          "body": [
+            "L'itinéraire direct est la Pacific Motorway (M1) vers le sud jusqu'à la Gold Coast, Tweed Heads et Byron Bay. Selon le routage OSRM, Brisbane à la Gold Coast représente environ 76 km, puis environ 30 km jusqu'à Tweed Heads et environ 66 km jusqu'à Byron Bay. Les guides de voyage basés sur Google Maps indiquent environ 166 km et 1 h 52 min depuis le centre de Brisbane, utilisez donc environ 165 à 175 km.",
+            "La route de l'arrière-pays monte à travers le mont Tamborine et le parc national de Springbrook pour descendre à Murwillumbah dans la vallée du Tweed. La route intérieure suit l'autoroute Mount Lindesay à travers Beaudesert et Rathdowney, puis la Summerland Way à travers Kyogle et Lismore. Les distances et les temps sont basés sur le routage OSRM à partir des données OpenStreetMap, calculés le 21 octobre 2026, pour une voiture sans arrêt. Aucune donnée de distance n'a été trouvée pour la route côtière de la Gold Coast Highway."
+          ],
+          "tips": [
+            "Autoroute : le plus rapide, environ deux heures et demie",
+            "Hinterland : cascades et forêt tropicale, routes sinueuses",
+            "Intérieur : calme, avec un raccourci fermé à éviter"
+          ],
+          "table": {
+            "caption": "De Brisbane à Byron Bay par la route, routage OSRM calculé le 21 octobre 2026.",
+            "head": [
+              "Itinéraire",
+              "Distance",
+              "Temps de conduite",
+              "Route",
+              "Meilleur pour"
+            ],
+            "rows": [
+              [
+                "Autoroute Pacifique (M1) via la Gold Coast et Tweed Heads",
+                "Environ 173 km",
+                "Environ 2 h 27 min",
+                "Autoroute",
+                "Un trajet direct ou une excursion d'une journée"
+              ],
+              [
+                "Hinterland via Mount Tamborine, Springbrook et Murwillumbah",
+                "Environ 237 km",
+                "Environ 4 h 10 min",
+                "Routes sinueuses de montagne et de vallée",
+                "Promenades en forêt tropicale et cascades"
+              ],
+              [
+                "À l'intérieur via Beaudesert, Rathdowney, Kyogle et Lismore",
+                "Environ 339 km",
+                "Environ 5 h 58 min",
+                "Autoroute Mount Lindesay et Summerland Way",
+                "Une promenade tranquille loin de la côte"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "L'itinéraire de l'arrière-pays en deux jours",
+          "body": [
+            "Selon le routage OSRM, les étapes sont Brisbane à Mount Tamborine environ 72 km (1 h 6 min), Tamborine à Springbrook environ 55 km (1 h 11 min), Springbrook à Murwillumbah environ 59 km (1 h 3 min) et Murwillumbah à Byron Bay environ 51 km (48 min). Un guide de sentiers décrit la route vers les Green Mountains de Lamington comme asphaltée mais étroite, sinueuse et avec de nombreux virages sans visibilité, prévoyez donc du temps supplémentaire et évitez d'y tracter une longue caravane.",
+            "Dans la Tweed Valley, Greenhills <a data-guide=\"caravan-park-vs-holiday-park\">Caravan Park</a> se trouve au 488 Tweed Valley Way à South Murwillumbah et le Mt Warning Rainforest Park est au 153 Mt Warning Road. À Byron Bay, Reflections Byron Bay Holiday Park est au 1 Lighthouse Road, avec des emplacements avec électricité et sans électricité ainsi que des bungalows. Son exploitant indique qu'aucun feu individuel ou foyer n'est autorisé, et un guide de camping note que le parc est complet des mois à l'avance pour Pâques et Bluesfest. Vérifiez la disponibilité et les règles auprès du parc."
+          ],
+          "tips": [
+            "Tamborine à environ 72 km",
+            "Springbrook environ 127 km",
+            "Murwillumbah à environ 186 km"
+          ]
+        },
+        {
+          "heading": "Camping dans un parc national près de l'itinéraire",
+          "body": [
+            "QPWS indique que vous devez réserver les emplacements de camping à l'avance dans la zone de camping The Settlement au parc national de Springbrook. Au parc national de Lamington, le camping d'O'Reilly's à Green Mountains est géré par des particuliers, il existe un autre camping géré par des particuliers à côté de Binna Burra, et les camps isolés nécessitent un permis réservé en ligne à l'avance pour les week-ends et les vacances scolaires ou les jours fériés. QPWS répertorie des parties de Lamington fermées en raison des dégâts causés par le cyclone jusqu'au 31 décembre 2026 et indique que les permis de camping pour les zones fermées sont suspendus, et que les camps isolés ferment du 1er décembre au 31 janvier chaque année pour régénération, vérifiez donc l'alerte QPWS actuelle avant de planifier votre séjour dans l'un d'entre eux.",
+            "À Mount Barney, QPWS indique que les zones de camping ne sont accessibles qu'à pied, sans installations, et qu'un permis de camping est nécessaire, à réserver en ligne 6 à 8 semaines à l'avance pour les jours fériés et 3 à 6 semaines à l'avance le reste de l'année. Les données d'AussieCamps répertorient les campings sauvages de Mount Barney près de la Boonah Border Gate et les campings de Lamington à Illinbah, Darlington, Echo Point et d'autres, qui sont des campings sauvages accessibles à pied ou par des chemins accidentés plutôt que des campings accessibles en voiture. Le guide des règles de camping du <a data-guide=\"camping-rules-queensland\">Queensland</a> couvre les permis."
+          ],
+          "tips": [
+            "Springbrook : réservez à l'avance",
+            "Lamington : vérifiez l'alerte de fermeture de QPWS",
+            "Les campings de Mount Barney sont accessibles sans réservation préalable"
+          ]
+        },
+        {
+          "heading": "Carburant, péages et état des routes",
+          "body": [
+            "Les itinéraires autoroutiers et de l'arrière-pays traversent des villes tout au long du parcours, donc aucun manque de carburant n'a été relevé dans les sources consultées. Un manque de carburant entre Rathdowney et Kyogle sur l'itinéraire intérieur n'a pas pu être localisé, veuillez donc faire le plein avant de quitter Rathdowney. Le guide de carburant pour road trip montre comment budgétiser la distance.",
+            "Veuillez consulter QLDTraffic (13 19 40) et Live Traffic NSW (132 701). Les routes de l'arrière-pays de Gold Coast, y compris la Gold Coast-Springbrook Road et la Beechmont Road, sont fermées suite à des glissements de terrain, et le Kyogle Council indique que Lions Road, le raccourci de Rathdowney à Wiangaree, est resté fermé de Murphy Standfield Bridge à la frontière lors d'une mise à jour des travaux d'avril 2026, tandis qu'un autre avis indique qu'il est ouvert uniquement au trafic léger et non aux caravanes. QPWS signale que les routes d'accès principales au parc national de Mount Barney peuvent être inondées après des tempêtes et des périodes de pluie prolongées.",
+            "La liste de Linkt des routes à péage du <a data-guide=\"camping-rules-queensland\">Queensland</a> mentionne la Gateway Motorway, la Logan Motorway, Clem7, le Go Between Bridge, Legacy Way, AirportlinkM7 et le Toowoomba Bypass, et la Pacific Motorway n'y figure pas. Linkt indique qu'sans compte, vous pouvez acheter un pass dans les 5 jours suivant votre premier voyage, tandis que le gouvernement du Queensland indique qu'un péage peut être payé jusqu'à 3 jours après, donc payez dans les 3 jours pour être sûr. Les péages de la Nouvelle-Galles du Sud sur ce tronçon n'ont pas été recherchés."
+          ],
+          "tips": [
+            "Évitez Lions Road avec une caravane",
+            "Payez les péages du Queensland dans les 3 jours",
+            "Vérifiez QLDTraffic et Live Traffic NSW"
+          ]
+        },
+        {
+          "heading": "Fourmis de feu et la frontière entre le Queensland et la Nouvelle-Galles du Sud",
+          "body": [
+            "La règle frontalière qui est importante concerne le contrôle des fourmis rouges importées. Le Queensland a mis à jour ses zones <a data-guide=\"interstate-biosecurity-road-trip\">biosecurity</a> à partir du 15 avril 2026 dans six zones municipales, dont Logan, la Gold Coast et Scenic Rim, et énumère les transporteurs tels que le foin ou la paille en balles, le fumier, le paillis, les plantes en pot, les matériaux de carrière et miniers, le sol et la pelouse. L'ordre d'urgence du DPIRD du NSW couvre trois zones : une zone infestée du Queensland, une zone infestée du NSW près de Tweed Heads South et des zones de contrôle des mouvements du NSW à moins de 5 km des infestations de Murwillumbah et Wardell. Le NSW a indiqué que le déplacement de sol, de paillis, de pelouse et de foin hors de sa zone frontalière de Piggabeen et Cobaki pourrait nécessiter une Déclaration de Mouvement et un Certificat de Santé des Plantes. Appelez le DPIRD du NSW au 1800 680 244 ou Biosecurity Queensland au 13 22 68, et vérifiez les limites actuelles.",
+            "Aucune source ne confirme que les voitures ordinaires, les caravanes, l'équipement de camping ou le bois de chauffage sont contrôlés, ne prenez donc pas cela comme une autorisation, et demandez si vous transportez l'un des matériaux énumérés. Le site de quarantaine inter-États indique également que l'ensemble du Queensland est une zone de biosécurité pour les bananes, les vignes, les mangues et la canne à sucre, et qu'il ne faut emporter aucune plante, terre ou article ayant été en contact avec ces plantes vers le Queensland. Il n'y a aucune restriction de mouches des fruits pour <a data-guide=\"camping-rules-new-south-wales\">Nouvelle-Galles du Sud</a>."
+          ],
+          "tips": [
+            "Fourmis de feu : sol, paillis, gazon, foin, fumier",
+            "Appeler DPIRD de la Nouvelle-Galles du Sud : 1800 680 244",
+            "Queensland : pas de bananiers, de vignes, de mangues ou de canne à sucre"
+          ]
+        },
+        {
+          "heading": "Le changement d'heure et Mount Warning",
+          "body": [
+            "Du dimanche 4 octobre 2026 au dimanche 4 avril 2027, la <a data-guide=\"camping-rules-new-south-wales\">Nouvelle-Galles du Sud</a> est en heure d'été et le Queensland ne l'est pas, donc l'horloge avance d'une heure lorsque vous traversez Tweed Heads et Coolangatta, et les heures d'enregistrement à Byron Bay sont en avance d'une heure par rapport à Brisbane.",
+            "Le Mount Warning (Wollumbin) est accessible depuis Murwillumbah. Les alertes locales du NPWS indiquent que le sentier du sommet et le sommet sont fermés jusqu'à nouvel ordre depuis le 30 juin 2023, tandis que la zone de pique-nique de Korrumbyn Creek, le sentier de promenade Lyrebird et les installations des visiteurs à Breakfast Creek restent ouverts, et des amendes sont appliquées. Le texte de l'alerte n'a pas chargé, veuillez donc contacter le bureau du NPWS de Byron au 02 6639 8300."
+          ],
+          "tips": [
+            "Les horloges avancent d'une heure dans le NSW",
+            "Wollumbin summit : fermé depuis le 30 juin 2023",
+            "Parc national de Byron NPWS : 02 6639 8300"
+          ]
+        },
+        {
+          "heading": "Aires de vidange",
+          "body": [
+            "Les données d'AussieCamps ne répertorient aucun <a data-guide=\"dump-points-australia-guide\">aire de vidange</a> dans un rayon de 12 km de l'une des trois routes, ce qui correspond à la couverture des données et non à une affirmation qu'il n'en existe aucun. Le Beaudesert Caravan and Tourist Park, situé au 57 à 63 Albert Street, indique une aire de vidange sur sa fiche touristique, et le guide des aires de vidange contient le reste."
+          ],
+          "tips": [
+            "Veuillez vérifier le parc de caravanes et touristique de Beaudesert pour une aire de vidange"
+          ]
+        },
+        {
+          "heading": "Plan le trajet Brisbane à Byron Bay dans AussieCamps",
+          "body": [
+            "Planifiez-le comme un voyage dans AussieCamps : ajoutez les étapes, d'un camping à Springbrook ou Lamington à un parc de Byron Bay, dans l'ordre, et cela affichera la distance et le temps de trajet de chaque étape, avec une prévision pour le jour de votre arrivée. AussieCamps répertorie 1 838 campings, 5 552 aires de repos et 1 393 <a data-guide=\"dump-points-australia-guide\">aires de vidange</a> provenant des agences de parc, des autorités routières et des ensembles de données publics, et une page de lieu montre les installations publiées par ces sources.",
+            "Les détails des lieux enregistrés, les lieux sauvegardés et les Guides fonctionnent sans <a data-guide=\"camping-without-phone-signal\">signal</a>. Les tuiles de carte, le routage, la météo et les photos nécessitent une connexion, ouvrez donc le road trip avant de vous aventurer dans l'arrière-pays. AussieCamps fonctionne uniquement sur iPhone et est gratuit à télécharger, avec des achats intégrés."
+          ],
+          "tips": [
+            "Ajouter chaque arrêt dans l'ordre",
+            "Prévisions par jour d'arrivée",
+            "Ouvrir le voyage avant l'arrière-pays"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Quelle est la distance entre Brisbane et Byron Bay ?",
+          "Environ 165 à 175 km et environ deux heures et demie sur la Pacific Motorway (M1) à travers la Gold Coast et Tweed Heads, selon le routage OSRM sur les données OpenStreetMap. L'itinéraire de la Gold Coast hinterland est d'environ 237 km et 4 heures, et l'itinéraire intérieur via Beaudesert et Kyogle est d'environ 339 km et 6 heures."
+        ],
+        [
+          "Il n'y a pas de décalage horaire entre le Queensland et Byron Bay.",
+          "Oui, du 4 octobre 2026 au 4 avril 2027. La Nouvelle-Galles du Sud applique l'heure d'été pendant cette période et le Queensland non, donc le côté Nouvelle-Galles du Sud de la frontière est une heure en avance et les horloges avancent d'une heure à Tweed Heads."
+        ],
+        [
+          "Puis-je emporter de la terre, du paillis ou de la pelouse du Queensland vers la Nouvelle-Galles du Sud ?",
+          "Pas sans vérifier. Les règles concernant la fourmi rouge importée couvrent les transporteurs tels que le sol, le paillis, la pelouse, le fumier et le foin en balles sortant des zones infestées, et la Nouvelle-Galles du Sud indique que le déplacement de sol, de paillis, de pelouse et de foin hors de sa zone frontalière peut nécessiter une Déclaration de Mouvement et un Certificat de Santé des Plantes. Appelez le DPIRD de la Nouvelle-Galles du Sud au 1800 680 244 ou la Biosecurity Queensland au 13 22 68."
+        ],
+        [
+          "Puis-je gravir le Mount Warning (Wollumbin) en chemin ?",
+          "Les alertes locales du NPWS indiquent que le sentier du sommet et le sommet sont fermés jusqu'à nouvel ordre depuis le 30 juin 2023, tandis que la zone de pique-nique de Korrumbyn Creek et le sentier de promenade Lyrebird restent ouverts. Le texte de l'alerte lui-même n'a pas chargé lors de la vérification, veuillez donc confirmer auprès du bureau des parcs nationaux de la NSW au 02 6639 8300 avant de partir."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Calcul d'itinéraire OSRM sur les données OpenStreetMap (Brisbane à Byron Bay, calculé le 21 octobre 2026)"
+        },
+        {
+          "label": "Wikipédia : Route de Mount Lindesay"
+        },
+        {
+          "label": "QPWS : alerte de parc pour le parc national de Lamington"
+        },
+        {
+          "label": "QPWS : Camping dans le parc national de Lamington"
+        },
+        {
+          "label": "Lien : routes à péage du Queensland"
+        },
+        {
+          "label": "Lien : voyager entre États"
+        },
+        {
+          "label": "Gouvernement du Queensland : paiement des péages"
+        },
+        {
+          "label": "Gouvernement de la Nouvelle-Galles du Sud : restez vigilants face aux signes de fourmis de feu (8 mars 2024)"
+        },
+        {
+          "label": "FINIA : changements de zone de biosécurité pour les fourmis rouges importées (10 mai 2026)"
+        },
+        {
+          "label": "Carte de la zone de quarantaine végétale inter-États du Queensland"
+        },
+        {
+          "label": "Quarantaine inter-États : zones de quarantaine"
+        },
+        {
+          "label": "Gouvernement de la NSW : heure d'été en NSW"
+        },
+        {
+          "label": "Holiday Parks Reflections : Byron Bay"
+        },
+        {
+          "label": "QLDTraffic"
+        },
+        {
+          "label": "Trafic en direct NSW"
+        }
+      ],
+      "priceTable": null
+    },
+    "darwin-to-alice-springs-drive": {
+      "title": "Conduite de Darwin à Alice Springs en 2026 : arrêts sur la Stuart Highway, carburant et quarantaine",
+      "description": "De Darwin à Alice Springs, il y a environ 1 500 km et 16 heures sur la Stuart Highway. Arrêts jour par jour, aires de repos, conseils sur le carburant, fermetures pendant la saison des pluies, limites de vitesse, règles de quarantaine des fruits et aires de vidange.",
+      "region": "Territoire du Nord",
+      "imageAlt": "Un bloc de granit fendu à la réserve de conservation de Karlu Karlu (Devils Marbles) dans le Territoire du Nord, avec d'autres blocs orangés derrière lui",
+      "intro": "De Darwin à Alice Springs, il y a environ 1 500 km, soit 1 525 km et 16 h 26 min de route selon le routage OSRM, et il y a une seule route : la Stuart Highway à travers Katherine, Daly Waters, Tennant Creek et Karlu Karlu. Prévoyez quatre jours, consultez le Road Report NT avant chaque étape et lisez les règles concernant les fruits, car des restrictions sur les produits s'appliquent sur ce trajet.",
+      "sections": [
+        {
+          "heading": "Une route : la Stuart Highway",
+          "body": [
+            "Il n'existe qu'une seule route goudronnée réaliste entre Darwin et Alice Springs, la Stuart Highway, que Tourism NT appelle l'Explorers Way. Elle traverse Adelaide River, Pine Creek, Katherine, Mataranka, Daly Waters, Elliott, Tennant Creek, Karlu Karlu (Devils Marbles), Barrow Creek et Ti Tree. Wikipédia indique 1 499 km de Darwin à Alice Springs, et le routage OSRM sur les données d'OpenStreetMap, calculé le 21 octobre 2026 pour une voiture sans arrêt, donne 1 525 km, donc environ 1 500 km est le chiffre sûr.",
+            "Les détours sont Kakadu, Nitmiluk (Katherine Gorge) à Katherine et Litchfield, que couvre la boucle Darwin, Kakadu et Litchfield. Après Alice Springs, le Red Centre Way et le road trip Adelaide à Uluru couvrent ce qui suit."
+          ],
+          "tips": [
+            "Environ 1 500 km, une seule route",
+            "Détours : Kakadu, Nitmiluk, Litchfield",
+            "Prochain : Centre Rouge"
+          ],
+          "table": {
+            "caption": "De Darwin à Alice Springs sur la Stuart Highway, routage OSRM calculé le 21 octobre 2026, avec les distances des tronçons de Tourism NT là où elles existent.",
+            "head": [
+              "Jambe",
+              "Distance",
+              "Temps de conduite"
+            ],
+            "rows": [
+              [
+                "Darwin à Adelaide River",
+                "Environ 112 km",
+                "Environ 1 h 20 min"
+              ],
+              [
+                "Adelaide River à Katherine",
+                "Environ 204 km",
+                "Environ 2 h 9 min"
+              ],
+              [
+                "Katherine à Mataranka",
+                "Environ 106 km",
+                "Environ 1 h 7 min"
+              ],
+              [
+                "Mataranka à Daly Waters",
+                "Environ 168 km",
+                "Environ 1 h 43 min"
+              ],
+              [
+                "Daly Waters à Elliott",
+                "Environ 155 km",
+                "Environ 1 h 40 min"
+              ],
+              [
+                "Elliott à Tennant Creek",
+                "Environ 254 km",
+                "Environ 2 h 34 min"
+              ],
+              [
+                "Tennant Creek à Karlu Karlu",
+                "Environ 104 km",
+                "Environ 1 h 3 min"
+              ],
+              [
+                "Karlu Karlu à Barrow Creek",
+                "Environ 140 km",
+                "Environ 1 h 57 min"
+              ],
+              [
+                "Barrow Creek à Alice Springs",
+                "Environ 282 km",
+                "Environ 2 h 50 min"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Quatre jours sur la Stuart Highway",
+          "body": [
+            "Selon OSRM, une division sur quatre jours est Darwin à Katherine environ 316 km (3 h 29 min), Katherine à Daly Waters environ 274 km (2 h 50 min), Daly Waters à Tennant Creek environ 409 km (4 h 14 min) et Tennant Creek à Alice Springs environ 526 km (5 h 50 min, via Karlu Karlu). Les itinéraires de Tourism NT donnent Katherine à Darwin comme 316 km, Mataranka à Katherine 106 km, Daly Waters à Mataranka 167 km et Alice Springs à Tennant Creek 510 km, ce qui est conforme à OSRM avec quelques kilomètres.",
+            "Katherine est la base de Nitmiluk. À Mataranka, NT Parks indique que la piscine thermale du parc national d'Elsey maintient une température constante de 34 degrés toute l'année et qu'un laissez-passer NT Parks est nécessaire, à acheter avant d'arriver, les résidents de NT étant exemptés. À Daly Waters, Tourism NT décrit le Daly Waters Historic Pub comme un lieu pour manger, boire et séjourner, avec camping, emplacements avec électricité, tentes safari et bungalows. Les <a data-guide=\"caravan-park-vs-holiday-park\">caravan parks</a> nommés à Katherine, Mataranka et Tennant Creek n'ont pas pu être confirmés, veuillez donc réserver à l'avance par téléphone."
+          ],
+          "tips": [
+            "Katherine à environ 316 km",
+            "Daly Waters à environ 590 km",
+            "Tennant Creek à environ 1 000 km"
+          ]
+        },
+        {
+          "heading": "Karlu Karlu (Marbles du Diable)",
+          "body": [
+            "Tourism NT indique que l'accès à Karlu Karlu, à environ 96 km au sud de Tennant Creek, nécessite un laissez-passer pour les visiteurs de NT Parks, qui est un laissez-passer distinct des laissez-passages de Kakadu et d'Uluru-Kata Tjuta. Il est indiqué que vous devez réserver en ligne et payer des frais pour camper, et que vous ne pourrez pas payer sur place. Tourism NT décrit une zone de camping sauvage avec des foyers. Les frais n'ont pas été confirmés, veuillez donc vérifier le site de réservation avant de partir.",
+            "Wauchope, à environ 9 km au sud de Karlu Karlu, dispose de carburant et de fournitures limitées, selon une fiche d'information du gouvernement du NT. Wycliffe Well se situe à 130 km au sud de Tennant Creek et à 380 km au nord d'Alice Springs."
+          ],
+          "tips": [
+            "Le laissez-passer des parcs de NT est requis",
+            "Camping : réservez en ligne d'abord",
+            "Wauchope : carburant et fournitures limitées"
+          ]
+        },
+        {
+          "heading": "Aires de repos sur la Stuart Highway",
+          "body": [
+            "Les données d'AussieCamps répertorient des aires de repos le long de la route que vous pouvez utiliser pour une pause : Bridge Creek, King River et Warloch Ponds avec des toilettes, <a data-guide=\"camping-water-planning\">eau potable</a>, un abri, des tables de pique-nique et des barbecues, Newcastle Waters et Attack Creek avec les mêmes équipements, Taylor Creek et Prowse Gap avec des toilettes, et Dingo Hill, Bonney Well, Central Mount Stuart et Connors Well sans toile listées.",
+            "La politique du <a data-guide=\"camping-rules-northern-territory\">Territoire du Nord</a> stipule que les usagers de la route ne peuvent séjourner dans aucun aire de repos plus de 24 heures, et le Territoire énumère les arrêts autorisant le camping de nuit de 24 heures et marque certains comme camping non autorisé. La liste n'a pas pu être ouverte pour ce guide, veuillez donc lire le panneau à l'arrêt et consulter la liste du NT. Le guide des aires de repos contient les règles."
+          ],
+          "tips": [
+            "Lisez le panneau à chaque arrêt",
+            "24 heures au maximum dans une aire de repos",
+            "Bridge Creek km 147, King River km 365"
+          ]
+        },
+        {
+          "heading": "Carburant et services",
+          "body": [
+            "Tourism NT indique que lorsque vous voyagez dans les régions éloignées du Territoire, vous devriez utiliser un véhicule doté d'un réservoir à carburant de grande capacité et prendre du carburant supplémentaire, et que les stations-service éloignées ont des horaires d'ouverture restreints. Wikipédia indique que le carburant et d'autres commodités sont généralement disponibles tous les 200 km sur la Stuart Highway. Aucun tableau officiel de station-service à station-service n'était disponible, donc aucun écart le plus long n'est nommé ici : faites le plein à chaque station-service que vous croisez et demandez à la dernière station-service où se trouve la suivante.",
+            "Le carrefour de la Barkly Highway à Threeways Roadhouse se situe à environ 25 km au nord de Tennant Creek. Le guide de <a data-guide=\"road-trip-fuel-planning-australia\">plan de carburant</a> montre comment budgétiser la distance."
+          ],
+          "tips": [
+            "Faites le plein dans chaque roadhouse",
+            "Les horaires sont restreints aux stations isolées",
+            "Threeways se trouve à 25 km au nord de Tennant Creek"
+          ]
+        },
+        {
+          "heading": "Conditions de la route, limitations de vitesse et trains routiers",
+          "body": [
+            "Le Road Report NT (roadreport.nt.gov.au ou 1800 246 199) est la source en direct. Tourism NT indique que certaines routes peuvent être fermées en raison des inondations d'octobre à avril, que vous ne devez pas rouler sur les routes fermées et que de lourdes amendes peuvent s'appliquer. Une étude des inondations du gouvernement du NT a révélé que la Stuart Highway a été fermée 100 fois entre octobre 2005 et mars 2024, pour environ 35 heures en moyenne. Le guide de la <a data-guide=\"best-time-camping-australia\">saison des pluies</a> couvre les cyclones, les crocodiles et les tempêtes.",
+            "Les réglementations du NT indiquent que la limite en dehors des zones bâties est de 110 km/h, mais que 130 km/h s'applique là où les panneaux de limitation de vitesse l'indiquent, et le gouvernement du NT indique que certaines sections des autoroutes Barkly, Stuart, <a data-guide=\"camping-rules-victoria\">Victoria</a> et Arnhem ont une vitesse maximale de 130 km/h comme indiqué. Des caméras de vitesse sont utilisées dans tout le Territoire. De nombreuses routes ne sont pas clôturées, et Tourism NT indique que les animaux apparaissent particulièrement à l'aube, au crépuscule et la nuit et de ne pas dévier pour les éviter.",
+            "Le gouvernement du NT indique que les <a data-guide=\"driving-with-road-trains-australia\">train routiers</a> peuvent faire plus de 50 m de long avec jusqu'à trois remorques, que le dépassement peut prendre jusqu'à 2,5 km à 100 km/h et qu'il faut au moins 1 km de route dégagée devant. Le guide des trains routiers couvre le reste."
+          ],
+          "tips": [
+            "Rapport routier NT : 1800 246 199",
+            "Le panneau fixe la limite, 110 ou 130 km/h",
+            "Ne déviez pas pour les animaux"
+          ]
+        },
+        {
+          "heading": "Règles concernant les fruits et les légumes",
+          "body": [
+            "La quarantaine s'applique sur ce trajet. Le site de quarantaine inter-États, citant le <a data-guide=\"camping-rules-northern-territory\">Territoire du Nord</a>, indique que les produits suivants ne doivent pas être transportés vers le sud le long de la Stuart Highway au-delà de la ville d'Adelaide : haricots, poivron, piment, concombre, aubergine, melons, mangue et plantes de mangue (sauf traitement contre le thrips des feuilles), gombo, citrouille, blette, courge, tomate et courgette. L'objectif est d'empêcher la propagation des thrips des melons.",
+            "Le même site indique que la Zone d'Exclusion aux <a data-guide=\"interstate-biosecurity-road-trip\">Mouches des fruits</a> du Ti Tree s'étend de Tennant Creek à Alice Springs, et qu'il ne faut pas emmener de fruits, y compris les poivrons, les piments, les tomates, les aubergines, les concombres, les courgettes et les citrouilles, dans cette zone. Le gouvernement du Territoire du Nord indique que si vous vous rendez au Ti Tree, au nord d'Alice Springs, vous devez éliminer tout fruit que vous auriez apporté d'un autre État, et des bacs de quarantaine se trouvent à l'aéroport et à la gare d'Alice Springs. Aucun point de contrôle inter-états n'a été trouvé dans les sources consultées. Le guide de biosécurité inter-états couvre les règles plus générales."
+          ],
+          "tips": [
+            "Ne transportez pas les produits listés au sud de la rivière Adelaide",
+            "Pas de fruits dans la zone Tennant Creek à Alice Springs",
+            "Mange-le ou jette-le"
+          ]
+        },
+        {
+          "heading": "Aires de vidange, horloges et crocodiles",
+          "body": [
+            "Les données d'AussieCamps répertorient des <a data-guide=\"dump-points-australia-guide\">aires de vidange</a> au Darwin Greyhound Club à Winnellie, Coomalie Creek RV Park, Adelaide River, Pine Creek, deux à Katherine, King River et Mataranka, et à Alice Springs à l'Alice Springs Dump Point, Olive Pink Botanic Gardens et au Showground. Il n'en répertorie aucun entre Mataranka et Alice Springs, ce qui correspond à la couverture des données et non à une affirmation qu'il n'en existe pas, veuillez donc consulter le guide des aires de vidange.",
+            "Le <a data-guide=\"camping-rules-northern-territory\">Territoire du Nord</a> n'utilise pas l'heure d'été, selon le gouvernement australien, il n'y a donc pas de changement d'horaire lors de ce trajet. Les conseils du gouvernement du NT, Be Crocwise, préconisent de nager que là où un panneau indique une zone de baignade, de camper à au moins 50 m du bord de l'eau, et son tableau répertorie Mataranka thermal pool et Bitter Springs comme ouverts toute l'année, sauf en cas d'inondations extrêmes."
+          ],
+          "tips": [
+            "Points de vidange jusqu'à Mataranka, puis aucun n'est répertorié",
+            "Pas d'heure d'été dans le NT",
+            "Campez à 50 m du bord de l'eau"
+          ]
+        },
+        {
+          "heading": "Plan le trajet Darwin à Alice Springs dans AussieCamps",
+          "body": [
+            "Planifiez les quatre jours comme un road trip dans AussieCamps : ajoutez chaque nuit dans l'ordre et cela affichera la distance et le temps de trajet entre elles, ainsi qu'une prévision pour le jour de votre arrivée. AussieCamps répertorie 1 838 campings, 5 552 aires de repos et 1 393 <a data-guide=\"dump-points-australia-guide\">aires de vidange</a> provenant des agences des parcs, des autorités routières et des ensembles de données publics, et les aires de repos de la Stuart Highway ci-dessus indiquent leurs toilettes, leur eau potable et leur abri.",
+            "Les détails des lieux enregistrés, les lieux sauvegardés et les Guides fonctionnent sans <a data-guide=\"camping-without-phone-signal\">signal</a>. Les tuiles de carte, le routage, la météo et les photos nécessitent une connexion, et la couverture est faible entre les villes, ouvrez donc le road trip lorsque vous êtes en zone de réception. AussieCamps fonctionne uniquement sur iPhone et est gratuit à télécharger, avec des achats intégrés."
+          ],
+          "tips": [
+            "Ajouter chaque nuit dans l'ordre",
+            "Prévisions pour chaque jour d'arrivée",
+            "Ouvrir le voyage dans la couverture"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Quelle est la distance entre Darwin et Alice Springs ?",
+          "Environ 1 500 km, soit 1 525 km et 16 h 26 min de conduite selon le routage OSRM sur les données d'OpenStreetMap, le tout sur la Stuart Highway. La plupart des gens mettent quatre jours, avec des nuitées à Katherine, Daly Waters et Tennant Creek."
+        ],
+        [
+          "Quelle est la limite de vitesse sur la Stuart Highway ?",
+          "Tourism NT indique que la limite sur les routes ouvertes est de 110 km/h, sauf indication contraire, et que certaines autoroutes autorisent jusqu'à 130 km/h. Les réglementations de NT stipulent que 130 km/h s'applique là où les panneaux de limitation de vitesse l'indiquent, donc le panneau décide."
+        ],
+        [
+          "Puis-je emmener des fruits et des légumes de Darwin à Alice Springs ?",
+          "Pas tous. Le site de quarantaine inter-États répertorie des produits tels que des haricots, des poivrons, des piments, des concombres, des aubergines, des melons, des mangues, des citrouilles, des tomates et des courgettes qui ne doivent pas être transportés vers le sud le long de la Stuart Highway au-delà de l'Adelaide River, et indique de ne pas emmener de fruits dans la zone d'exclusion des mouches des fruits de Ti Tree, qui s'étend de Tennant Creek à Alice Springs."
+        ],
+        [
+          "La Stuart Highway est-elle inondée pendant la saison des pluies ?",
+          "Oui. Tourism NT indique que certaines routes peuvent être fermées en raison des inondations de novembre à avril, et une étude du gouvernement du NT a révélé que la Stuart Highway a été fermée 100 fois entre octobre 2005 et mars 2024, pour environ 35 heures en moyenne. Vérifiez Road Report NT ou le 1800 246 199 chaque jour."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Calcul d'itinéraire OSRM sur les données OpenStreetMap (Darwin à Alice Springs, calcul effectué le 21 octobre 2026)"
+        },
+        {
+          "label": "Tourisme NT : informations sur la sécurité routière"
+        },
+        {
+          "label": "Tourisme NT : Explorers Way"
+        },
+        {
+          "label": "Tourisme NT : Le chemin des explorateurs en 14 jours"
+        },
+        {
+          "label": "Tourism NT : Réserve de conservation Karlu Karlu (Devils Marbles)"
+        },
+        {
+          "label": "Rapport routier NT"
+        },
+        {
+          "label": "Quarantaine inter-États : zones de quarantaine"
+        },
+        {
+          "label": "Gouvernement du Territoire du Nord : plantes et quarantaine"
+        },
+        {
+          "label": "Gouvernement du Territoire du Nord : aires de repos sur les routes dans le NT"
+        },
+        {
+          "label": "Gouvernement du Territoire du Nord : Soyez malin"
+        },
+        {
+          "label": "Gouvernement australien : fuseaux horaires et heure d'été"
+        },
+        {
+          "label": "Wikipédia : Stuart Highway"
+        }
+      ],
+      "priceTable": null
+    },
+    "cairns-to-darwin-drive": {
+      "title": "Cairns à Darwin : Savannah Way ou la route goudronnée de Barkly en 2026",
+      "description": "De Cairns à Darwin, le trajet est d'environ 2 900 km par la route asphaltée de Barkly ou d'environ 2 400 à 2 500 km sur la partie non asphaltée de la Savannah Way. Comparaison des itinéraires, des ruptures de carburant, des fermetures pendant la saison des pluies, des règles frontalières et des aires de vidange.",
+      "region": "Queensland et Territoire du Nord",
+      "imageAlt": "Monticules de termites cathédrales à côté d'une clôture le long de la Burke Developmental Road près de Stokes dans le Gulf Country du Queensland",
+      "intro": "De Cairns à Darwin, le trajet par la route goudronnée via Townsville, Cloncurry, Mount Isa, Camooweal et les autoroutes Barkly et Stuart est d'environ 2 900 km, selon le routage OSRM. Le Savannah Way à travers le Gulf Country est plus court, environ 2 400 à 2 500 km en ligne droite, mais une partie est non goudronnée et les fermetures pendant la saison des pluies peuvent le couper de décembre à mars.",
+      "sections": [
+        {
+          "heading": "Comparaison des itinéraires de Cairns à Darwin",
+          "body": [
+            "Le trajet principal est entièrement sur des routes goudronnées. Il suit la Bruce Highway jusqu'à Townsville, la Flinders Highway à travers Charters Towers et Cloncurry, la Barkly Highway à travers Mount Isa, Camooweal et Barkly Homestead jusqu'à Threeways, et la Stuart Highway vers le nord à travers Daly Waters et Katherine. Wikipédia décrit la Barkly Highway comme la seule route goudronnée entre <a data-guide=\"camping-rules-queensland\">Queensland</a> et le Territoire du Nord. Une variante s'enfonce à l'intérieur des terres par Mareeba, Georgetown, Croydon et Normanton, puis la Burke Developmental Road jusqu'à Cloncurry.",
+            "Le Savannah Way traverse Georgetown, Croydon, Normanton, Burketown, Hells Gate Roadhouse et Borroloola jusqu'à la Stuart Highway ou la route de Roper Bar. L'organisme de tourisme indique qu'il utilise des routes goudronnées et non goudronnées, avec des routes goudronnées à partir de Borroloola, et qu'un 4WD est nécessaire. Son chiffre de 3 530,7 km concerne un tour plus long de 17 jours incluant Karumba, Boodjamulla et Kakadu, il n'est donc pas comparable au chiffre direct ci-dessous. Tous les autres chiffres proviennent du routage OSRM sur les données OpenStreetMap, calculés le 21 octobre 2026, pour une voiture sans arrêt. Les temps OSRM sur les routes non goudronnées sont peu fiables, aucun n'est donc indiqué pour le Savannah Way."
+          ],
+          "tips": [
+            "Itinéraire principal : entièrement sur routes goudronnées, tout véhicule",
+            "Savannah Way : partiellement non revêtue, 4WD conseillé",
+            "Ne faites pas confiance aux temps de trajet sur les chemins de gravier"
+          ],
+          "table": {
+            "caption": "De Cairns à Darwin par la route, routage OSRM calculé le 21 octobre 2026. Aucun temps n'est indiqué pour la Savannah Way non revêtue.",
+            "head": [
+              "Itinéraire",
+              "Distance",
+              "Temps de conduite",
+              "Route",
+              "Meilleur pour"
+            ],
+            "rows": [
+              [
+                "Bruce, Flinders, Barkly et Stuart Highways via Mount Isa",
+                "Environ 2 911 km",
+                "Environ 33 h 16 min",
+                "Goud partout",
+                "Tout véhicule, caravanes, une première traversée de l'Outback"
+              ],
+              [
+                "Variante du Gulf intérieur via Georgetown, Normanton et Cloncurry",
+                "Environ 2 870 km",
+                "Environ 32 h 40 min",
+                "Routes du Gulf puis Burke Developmental Road, statut de revêtement non confirmé",
+                "Un détour par le Gulf Country avant Mount Isa"
+              ],
+              [
+                "Savannah Way via Normanton, Burketown et Borroloola",
+                "Environ 2 400 à 2 500 km en ligne directe",
+                "Non montré",
+                "Routes pavées et non pavées, 4WD conseillé",
+                "Conduct de conduite expérimentée dans l'Outback pendant la saison sèche"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "L'itinéraire principal en six jours",
+          "body": [
+            "Selon le routage OSRM, une division sur six jours est de Cairns à Charters Towers environ 483 km, Charters Towers à Cloncurry environ 649 km, Cloncurry à Camooweal environ 312 km, Camooweal à Tennant Creek environ 472 km, Tennant Creek à Katherine environ 682 km et Katherine à Darwin environ 315 km. Les étapes sont Cairns à Townsville environ 347 km (4 h 43 min), Townsville à Charters Towers environ 136 km (1 h 41 min), Charters Towers à Cloncurry environ 649 km (7 h 55 min), Cloncurry à Mount Isa environ 121 km (1 h 34 min), Mount Isa à Camooweal environ 191 km (2 h 16 min), Camooweal à Barkly Homestead environ 250 km (2 h 27 min), Barkly Homestead à Tennant Creek environ 222 km (2 h 11 min), Tennant Creek à Daly Waters environ 406 km (4 h 5 min) et Daly Waters à Katherine environ 276 km (2 h 55 min).",
+            "Tourism NT indique que Katherine à Darwin représente 316 km et Tennant Creek à Daly Waters environ 400 km. Threeways Roadhouse est l'endroit où la Barkly rencontre la Stuart Highway, à environ 25 km au nord de Tennant Creek. Le guide de conduite de Darwin à Alice Springs couvre la Stuart Highway au nord de Threeways, et les guides de la côte est couvrent Cairns et Townsville."
+          ],
+          "tips": [
+            "Charters Towers à environ 483 km",
+            "Cloncurry à environ 1 132 km",
+            "Tennant Creek à environ 1 916 km"
+          ]
+        },
+        {
+          "heading": "Où s'arrêter et où faire une pause",
+          "body": [
+            "Les données d'AussieCamps répertorient des campings dans des parcs nationaux près de l'itinéraire principal à Jourama Falls, Big Crystal Creek à Mount Spec, Alligator Creek à Mount Elliot, Broadwater et Scraggy Point, et ne répertorient rien entre Charters Towers et Katherine. Côté Gulf, il répertorie Kauri Creek, Downfall Creek et Platypus dans les Tablelands, ainsi que Cannabullen Creek et Koolmoon Creek. À Karumba, le Carpentaria Shire Council indique que le stationnement de nuit n'est pas autorisé sur les bords de route et sur d'autres terrains publics dans un rayon de 5 km de Normanton et Karumba, et il exploite un site de <a data-guide=\"is-free-camping-legal-australia\">camping gratuit</a> saisonnier sur la rivière Norman à Normanton avec des permis limités. Les annonces mentionnent Karumba Point Tourist Park, Gulf Country Caravan Park et Karumba Lodge Caravan Park, veuillez donc réserver à l'avance par téléphone.",
+            "Les aires de repos dans les données AussieCamps pour une pause incluent Babinda, Georgetown et Croydon dans <a data-guide=\"camping-rules-queensland\">Queensland</a>, ainsi que Avon Downs, 41 Mile Bore, Attack Creek et Newcastle Waters dans le Territoire du Nord. Le Queensland autorise jusqu'à 20 heures dans une aire de repos, sauf indication contraire sur un panneau, et les aires de repos pour véhicules lourds sont réservées aux véhicules lourds uniquement. Le Territoire du Nord stipule un maximum de 24 heures dans une seule aire de repos. Lisez le panneau et le guide des aires de repos."
+          ],
+          "tips": [
+            "Rien dans les données de l'application entre Charters Towers et Katherine",
+            "Pas de camping sur le bord de la route dans un rayon de 5 km autour de Normanton et Karumba",
+            "Réservez les parcs de Karumba à l'avance"
+          ]
+        },
+        {
+          "heading": "Trous de carburant",
+          "body": [
+            "Le site Savannah Way indique de planifier vos arrêts pour le carburant avec des centaines de kilomètres entre les aires de service, et Tourism NT conseille d'utiliser un véhicule avec un réservoir à carburant de grande capacité et de prendre du carburant supplémentaire dans les parties isolées du Territoire. Les lacunes les mieux documentées sont de Roper Bar à Cape Crawford, où Tourism NT indique qu'il n'y a pas d'aires de service pour 338 km, et de Hells Gate Roadhouse à Borroloola sur environ 317 km, un chiffre provenant des données d'AussieCamps et d'un guide Savannah Way. De Borroloola à Roper Bar, il y a 377 km supplémentaires sans carburant sur la route non revêtue, selon le même guide.",
+            "Sur la route de Barkly, Camooweal à Barkly Homestead représente environ 260 km et Barkly Homestead à Tennant Creek environ 220 km, avec la Homestead comme arrêt intermédiaire. Barkly Homestead a connu un incendie de cuisine et une fermeture par le passé, veuillez donc vérifier si elle est ouverte. Le carburant à Normanton, Burketown, Borroloola, Hughenden, Richmond et Julia Creek n'a pas pu être confirmé, veuillez donc demander à chaque arrêt pour le suivant. Le guide <a data-guide=\"road-trip-fuel-planning-australia\">plan de carburant</a> montre comment budgétiser la distance."
+          ],
+          "tips": [
+            "Hells Gate à Borroloola : environ 317 km",
+            "Roper Bar à Cape Crawford : 338 km, sans carburant",
+            "Veuillez vérifier si Barkly Homestead est ouvert"
+          ]
+        },
+        {
+          "heading": "Fermetures pendant la saison des pluies et conditions des routes",
+          "body": [
+            "Vérifiez QLDTraffic et Road Report NT (roadreport.nt.gov.au ou 1800 246 199) chaque jour. Le Savannah Way indique que des sections de l'itinéraire sont fermées pendant la <a data-guide=\"best-time-camping-australia\">saison des pluies</a>, de décembre à mars, que l'accès en avril et mai dépend de l'amélioration des précipitations, et que mai à octobre est la meilleure période. Tourism NT indique que certaines routes du Territoire peuvent être fermées en raison des inondations de novembre à avril. En mars 2026, QLDTraffic et le Carpentaria Shire ont signalé que la Gulf Developmental Road entre Normanton et la limite du Croydon Shire était fermée à tout le trafic en raison d'inondations prolongées, donc les fermetures dues aux inondations sont un risque réel. Aucune fermeture actuelle n'a été trouvée pour le 21 octobre 2026. Le guide de la saison des pluies couvre les cyclones et les crocodiles.",
+            "Dans le Territoire du Nord, la limite hors des zones bâties est de 110 km/h, avec 130 km/h là où les panneaux l'indiquent. Tourism NT indique que les véhicules à quatre roues motrices sont les mieux adaptés aux chemins de terre et que les conditions non revêtues peuvent changer rapidement par temps humide ou avec de nombreux <a data-guide=\"driving-with-road-trains-australia\">road trains</a> et camions de bétail. Le gouvernement du NT indique que les road trains peuvent faire plus de 50 m de long et que le dépassement peut prendre jusqu'à 2,5 km à 100 km/h. Le guide des road trains couvre l'étiquette, et le guide de l'Outback Way du Queensland couvre davantage l'outback du Queensland."
+          ],
+          "tips": [
+            "QLDTraffic et Rapport routier NT : 1800 246 199",
+            "Savannah Way : le meilleur mois de mai à octobre",
+            "La route goudronnée est le choix sûr"
+          ]
+        },
+        {
+          "heading": "Règles frontalières et changement d'heure",
+          "body": [
+            "Aucun point de contrôle n'a été signalé dans les sources vérifiées aux deux postes frontaliers, mais les règles s'appliquent. Le site de quarantaine inter-États indique que l'intégralité du Queensland est une zone <a data-guide=\"interstate-biosecurity-road-trip\">biosecurity</a> pour les bananes, les vignes, les mangues et la canne à sucre, et qu'il ne faut emporter aucune plante, terre ou article ayant été en contact avec ces plantes vers le Queensland. Il énumère également des zones autour de Cairns, y compris une zone restreinte pour les thrips de melon dans le Nord du Queensland couvrant les zones intérieures et au sud de Cooktown, Cairns et Innisfail jusqu'à Bowen, et une zone affectée par la tache foliaire de Cercospora dans le Mareeba Shire. Ce que le conducteur pourrait emporter hors de ces zones n'a pas pu être confirmé, veuillez donc appeler Queensland DAF au 13 25 23.",
+            "En entrant dans le Territoire du Nord, les restrictions du gouvernement du NT couvrent les fruits et légumes ainsi que les plantes qui les produisent, les semences et les céréales, la terre, le compost et le terreau, les emballages de plantes et les équipements agricoles ou de terrassement, et il est indiqué que les bananes non certifiées provenant du Nord du <a data-guide=\"camping-rules-queensland\">Queensland</a> ne sont pas autorisées dans le Territoire. Si vous n'êtes pas sûr, consultez les règles de quarantaine inter-États ou contactez la Biosecurité des plantes du NT. Le Territoire du Nord est sur l'heure centrale et le Queensland sur l'heure de l'Est, et aucun des deux n'utilise l'heure d'été, donc les horloges reculent d'une demi-heure à la frontière. Le guide de biosecurité inter-États couvre les règles plus générales."
+          ],
+          "tips": [
+            "Queensland DAF : 13 25 23",
+            "Pas de bananes non certifiées du Nord du Queensland vers le NT",
+            "Les horloges reculent de 30 minutes à la frontière"
+          ]
+        },
+        {
+          "heading": "Parcs nationaux, crocodiles et aires de vidange",
+          "body": [
+            "Boodjamulla (Lawn Hill) nécessite un permis de camping et les parcs de <a data-guide=\"camping-rules-queensland\">Queensland</a> indiquent qu'il faut réserver à l'avance de mars à octobre, avec un accès depuis Gregory Downs sur une route non revêtue pour 100 km. Le parc national de Limmen nécessite un laissez-passer visiteur des parcs de NT acheté avant votre arrivée, les résidents du NT étant exemptés, et tous les campings doivent être réservés en ligne avant votre visite. Des crocodiles estuariens sont présents dans tout le golfe de Carpentaria, et le Queensland indique qu'il est possible que des crocodiles soient présents dans n'importe quel plan d'eau au nord de Gladstone. Le gouvernement du NT indique de nager que là où un panneau de zone de baignade est affiché et de camper à au moins 50 m du bord de l'eau.",
+            "Les données d'AussieCamps répertorient des <a data-guide=\"dump-points-australia-guide\">aires de vidange</a> sur l'itinéraire principal à Ingham, Bluewater, Cloncurry, Barkly Homestead, Mataranka, Katherine, Pine Creek, Adelaide River et Darwin, ainsi que sur la Savannah Way à Hells Gate Roadhouse et Borroloola. Il n'en liste aucune entre Townsville et Cloncurry ou entre Mount Isa et Barkly Homestead, ce qui représente la seule couverture des données. Le shire de Carpentaria répertorie des aires de vidange municipales à Normanton et Karumba. Le guide des aires de vidange en contient davantage."
+          ],
+          "tips": [
+            "Boodjamulla : réservez à l'avance de mars à octobre",
+            "Limmen : Passe visiteur des parcs du NT",
+            "Campez à 50 m du bord de l'eau"
+          ]
+        },
+        {
+          "heading": "Plan le road trip de Cairns à Darwin dans AussieCamps",
+          "body": [
+            "Planifiez-le comme un voyage dans AussieCamps : ajoutez les nuits dans l'ordre et cela affichera la distance et le temps de trajet de chaque étape, avec une prévision pour le jour de votre arrivée. AussieCamps répertorie 1 838 campings, 5 552 aires de repos et 1 393 <a data-guide=\"dump-points-australia-guide\">aires de vidange</a> provenant d'agences de parcs, d'autorités routières et de jeux de données publics, et les aires de repos et les aires de vidange ci-dessus indiquent les installations que ces sources publient.",
+            "Les détails des lieux enregistrés, les lieux sauvegardés et les Guides fonctionnent sans <a data-guide=\"camping-without-phone-signal\">signal</a>. Les tuiles de carte, le routage, la météo et les photos nécessitent une connexion, et il y a de longues distances sans couverture sur les deux itinéraires, ouvrez donc le voyage dans la zone de réception avant chaque long tronçon. AussieCamps fonctionne uniquement sur iPhone et est gratuit à télécharger, avec des achats intégrés."
+          ],
+          "tips": [
+            "Ajouter chaque nuit dans l'ordre",
+            "Prévisions pour chaque jour d'arrivée",
+            "Ouvrez le voyage avant les longues jambes"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Quelle est la distance à parcourir en voiture de Cairns à Darwin ?",
+          "Environ 2 900 km par la route principale asphaltée à travers Townsville, Cloncurry, Mount Isa et les autoroutes Barkly et Stuart, selon le routage OSRM sur les données OpenStreetMap. Le Savannah Way direct est d'environ 2 400 à 2 500 km, mais une partie est non asphaltée et convient à un 4WD."
+        ],
+        [
+          "La Savannah Way est-elle une route goudronnée ?",
+          "Partiellement. L'organisme de tourisme Savannah Way indique que l'itinéraire utilise des routes goudronnées et non goudronnées, avec des routes goudronnées à partir de Borroloola, et qu'un 4WD est nécessaire. Un guide pour visiteurs de 2019 décrit les routes de Normanton à Burketown et au-delà comme étant largement non goudronnées, vérifiez donc chaque section avant de partir."
+        ],
+        [
+          "Puis-je conduire de Cairns à Darwin pendant la saison des pluies ?",
+          "Pas fiable sur les routes du Golfe. Le Savannah Way indique que certaines sections sont fermées pendant la saison des pluies, de décembre à mars, et que l'accès en avril et mai dépend de l'amélioration des précipitations, la meilleure période étant de mai à octobre. Tourism NT indique que certaines routes peuvent être fermées par inondation de novembre à avril."
+        ],
+        [
+          "Y a-t-il un changement d'heure entre le Queensland et le Territoire du Nord ?",
+          "Oui. Le Territoire du Nord est sur l'heure centrale et le Queensland sur l'heure de l'Est, et aucun des deux n'utilise l'heure d'été, donc le Territoire est en retard d'une demi-heure par rapport au Queensland toute l'année et votre horloge recule d'une demi-heure à la frontière."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Calcul d'itinéraire OSRM sur les données OpenStreetMap (Cairns à Darwin, calculé le 21 octobre 2026)"
+        },
+        {
+          "label": "Savannah Way : de Cairns à Darwin via la Savannah Way"
+        },
+        {
+          "label": "Tourisme NT : informations sur la sécurité routière"
+        },
+        {
+          "label": "Tourisme NT : Parc national de Limmen"
+        },
+        {
+          "label": "Rapport routier NT"
+        },
+        {
+          "label": "QLDTraffic"
+        },
+        {
+          "label": "Quarantaine inter-États : zones de quarantaine"
+        },
+        {
+          "label": "Gouvernement du Territoire du Nord : plantes et quarantaine"
+        },
+        {
+          "label": "Gouvernement du Territoire du Nord : Soyez malin"
+        },
+        {
+          "label": "Gouvernement du Queensland : gestion des crocodiles"
+        },
+        {
+          "label": "Conseil du Shire de Carpentaria : camping"
+        },
+        {
+          "label": "Parcs du Queensland : Parc national de Boodjamulla (Lawn Hill)"
+        },
+        {
+          "label": "Gouvernement australien : fuseaux horaires et heure d'été"
+        },
+        {
+          "label": "Wikipédia : Barkly Highway"
+        }
+      ],
+      "priceTable": null
+    },
+    "perth-to-exmouth-drive": {
+      "title": "Perth à Exmouth en road trip 2026 : Itinéraire, Gaps de carburant, Arrêts et campings de Ningaloo",
+      "description": "De Perth à Exmouth, il y a environ 1 260 à 1 280 km et 15 heures de conduite, généralement sur trois jours. Options d'itinéraire, le tronçon de 475 km de Geraldton à Carnarvon, récupération après un cyclone, règles concernant les fruits, camping et aires de vidange de Ningaloo.",
+      "region": "Australie-Occidentale",
+      "imageAlt": "Une plage de la côte sablonneuse de Ningaloo au coucher du soleil, avec un récif bas au large et des dunes avec une végétation basse derrière",
+      "intro": "De Perth à Exmouth, il y a environ 1 260 à 1 280 km, soit 1 256 km et 14 h 54 min selon le routage OSRM, le tout en Australie-Occidentale. L'itinéraire habituel est la Brand Highway jusqu'à Geraldton, puis la North West Coastal Highway jusqu'à Carnarvon et la Minilya to Exmouth Road, et cela représente un trajet de trois jours.",
+      "sections": [
+        {
+          "heading": "Comparaison des itinéraires de Perth à Exmouth",
+          "body": [
+            "L'itinéraire principal suit la Brand Highway vers le nord de Perth à Geraldton, puis la North West Coastal Highway jusqu'au dénouement de Minilya, puis Minilya à Exmouth Road. Wikipédia décrit la North West Coastal Highway comme une route à double sens à deux voies et revêtue, majoritairement signalée à 110 km/h, avec 50, 60 ou 70 km/h dans les zones bâties. Un détour par Kalbarri part de Geraldton en passant par Northampton jusqu'à Kalbarri et rejoint l'autoroute près de la jonction avec l'Overlander Roadhouse. Une option intérieure longe la Great Northern Highway en passant par Bindoon et Dalwallinu jusqu'à Geraldton, et le guide des aires de repos de Main Roads WA dispose d'une carte séparée pour cet itinéraire.",
+            "Toutes les données figurant ici proviennent du routage OSRM sur les données OpenStreetMap, calculé le 21 octobre 2026, pour une voiture sans arrêt et sans caravane. Aucune autorité routière ne publie de distance totale Perth à Exmouth, veuillez donc les considérer comme un guide. Main Roads WA indique Geraldton à Carnarvon comme 475 km, et par OSRM, le détour par Kalbarri est de 401 km de Geraldton au carrefour Overlander, contre 279 km en ligne droite, soit environ 120 km de plus."
+          ],
+          "tips": [
+            "Itinéraire principal : route goudronnée, tout véhicule",
+            "Détour de Kalbarri : environ 120 km supplémentaires",
+            "Prendre en compte les vitesses des caravanes"
+          ],
+          "table": {
+            "caption": "De Perth à Exmouth par la route, routage OSRM calculé le 21 octobre 2026. Voiture, sans arrêt.",
+            "head": [
+              "Itinéraire",
+              "Distance",
+              "Temps de conduite",
+              "Route",
+              "Meilleur pour"
+            ],
+            "rows": [
+              [
+                "Marque Highway, North West Coastal Highway et Minilya to Exmouth Road",
+                "Environ 1 256 km",
+                "Environ 14 h 54 min",
+                "Route à chaussées séparées en une seule voie",
+                "Le road trip standard de trois jours, caravanes comprises"
+              ],
+              [
+                "Même itinéraire avec le détour par Kalbarri",
+                "Environ 1 378 km",
+                "Environ 16 h 23 min",
+                "Piste asphaltée, avec une sortie de l'autoroute à Northampton",
+                "Un arrêt à la gorge de Kalbarri en allant vers le nord"
+              ],
+              [
+                "Grande route du Nord jusqu'à Geraldton, puis au nord comme ci-dessus",
+                "Perth à Geraldton environ 548 km, 7 h 46 min",
+                "Non indiqué pour le voyage complet",
+                "Piste asphaltée, à travers Bindoon et Dalwallinu",
+                "Passage côtier entre Perth et Geraldton"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Le road trip en trois jours",
+          "body": [
+            "Un itinéraire en trois jours : Perth à Geraldton, environ 417 km et 5 h 3 min, Geraldton à Carnarvon, 475 km par Main Roads WA, et Carnarvon à Exmouth, environ 364 km et 4 h 14 min. Les étapes par OSRM sont Perth à Jurien Bay 218 km (2 h 42 min), Jurien Bay à Geraldton 199 km (2 h 21 min), Geraldton au carrefour Overlander 279 km (3 h 18 min), Overlander à Carnarvon 197 km (2 h 16 min), Carnarvon à Minilya 140 km (1 h 39 min), Minilya à Coral Bay 98 km (1 h 9 min) et Coral Bay à Exmouth 152 km (1 h 47 min).",
+            "Un voyage plus long ajoute une nuit à Jurien Bay ou Cervantes le premier jour, et une nuit à Coral Bay le troisième jour. La route Minilya à Exmouth quitte l'autoroute à environ 7 km au nord de Minilya Roadhouse, selon Wikipédia. Le guide de road trip Perth à Broome couvre la côte au nord de Carnarvon, donc ce guide reste avec Exmouth."
+          ],
+          "tips": [
+            "Geraldton : environ 417 km",
+            "Carnarvon : 475 km plus loin",
+            "Exmouth : à environ 364 km de plus"
+          ]
+        },
+        {
+          "heading": "Où s'arrêter et où faire une pause",
+          "body": [
+            "Aucun <a data-guide=\"caravan-park-vs-holiday-park\">caravan park</a> à Geraldton, Carnarvon ou Jurien Bay ne peut être confirmé sur une page d'opérateur pour ce guide, donc aucun n'est nommé : utilisez les centres de visiteurs locaux et appelez à l'avance. La Côte de Corail d'Australie indique que Coral Bay Peoples Park et Ningaloo Coral Bay (Bayview) sont ouverts, et un blog de camping indique que Coral Bay ne dispose que de deux caravan parks qui sont complets, vérifiez donc la disponibilité. À Exmouth, la même page répertorie RAC Exmouth Cape Holiday Park comme partiellement ouvert et Exmouth Escape Resort, Ningaloo Lodge Exmouth, Sal Salis Ningaloo Reef et Camp Easy Ningaloo comme ouverts.",
+            "Les données d'AussieCamps répertorient des campings sur la côte de Ningaloo, situés à 7 à 10 km du parcours à Warroora : Sandy Point (Nyinggulu), Stans Camp overflow camping, The Ridge et 14 Mile, avec Bruboodjoo à environ 8 km du parcours plus au nord. DBCA indique que les sites 12 à 28 de 14 Mile sont fermés et que l'ensemble du camping sera fermé à partir du 1er janvier 2027 pour des travaux de récupération après cyclone. Les aires de repos mentionnées dans les données pour une pause incluent Nilgen près de Gingin, Galena Nord et Sud près de Northampton, Nerren Nerren, ainsi que Edagee et Yalabia près de Carnarvon. Main Roads WA indique que ses aires de repos 24 heures ne sont pas destinées au camping et que l'arrêt ne doit pas excéder 24 heures consécutives. Le guide des aires de repos et le guide des règles d'<a data-guide=\"camping-rules-western-australia\">Australie-Occidentale</a> couvrent ce point."
+          ],
+          "tips": [
+            "Appelez à l'avance pour les parcs de Geraldton et Carnarvon",
+            "Les aires de repos sont pour une pause",
+            "14 Mile ferme le 1er janvier 2027"
+          ]
+        },
+        {
+          "heading": "Trous de carburant",
+          "body": [
+            "Le tronçon le plus long sans ville est de Geraldton à Carnarvon, 475 km via Main Roads WA. Wikipédia indique que les seules localités sur ce tronçon, à part Northampton, sont quatre aires de repos : Binnu, Billabong, Overlander et Wooramel. La disponibilité du carburant et les heures d'ouverture de chaque aire de repos n'ont pas pu être confirmées, veuillez donc faire le plein à Geraldton et demander à Billabong et Overlander quelle est la prochaine étape.",
+            "Au nord de Carnarvon, Minilya Roadhouse est le seul relais avant la déviation d'Exmouth, à environ 140 km de Carnarvon selon OSRM. Le carburant à Coral Bay n'a pas pu être confirmé, et Exmouth est à 152 km de là. Main Roads WA conseille d'emporter du carburant supplémentaire sur les longues distances ainsi que suffisamment de nourriture et d'eau pour deux à trois jours au-delà de votre temps de voyage prévu, et il note que les arrêts peuvent être limités. Le guide <a data-guide=\"road-trip-fuel-planning-australia\">planification du carburant</a> montre comment budgétiser la distance, et le canal UHF 40 est le canal des usagers de la route sur cet itinéraire dans le guide des aires de repos de Main Roads WA de 2015."
+          ],
+          "tips": [
+            "Geraldton à Carnarvon : 475 km",
+            "Minilya est le seul roadhouse avant la sortie",
+            "Emportez de la nourriture et de l'eau pour 2 à 3 jours supplémentaires"
+          ]
+        },
+        {
+          "heading": "Conditions routières, cyclones et reprise",
+          "body": [
+            "Vérifiez la carte de voyage de Main Roads WA ou appelez le 138 138 avant chaque étape. Main Roads WA indique que la <a data-guide=\"best-time-camping-australia\">saison des pluies</a> dans le nord de WA s'étend généralement de novembre à avril, et la saison des cyclones tropicaux du Bureau of Meteorology s'étend du 1er novembre au 30 avril. Le cyclone tropical sévère Narelle a frappé la côte du Gascoyne le 27 mars 2026. Main Roads WA a annoncé le 8 avril 2026 avoir levé les restrictions routières vers Exmouth, et la Coral Coast d'Australie indique que l'autoroute côtière du Nord-Ouest a rouvert depuis le sud jusqu'à Carnarvon le 31 mars.",
+            "Le Shire d'Exmouth indique que la ville est rouverte aux visiteurs, que les options d'hébergement restent limitées car la reprise et la reconstruction se poursuivent, et que les visiteurs doivent confirmer auprès de leur hébergeur avant leur arrivée. Il signale également que Horizon Power a prévu des coupures d'électricité dans toute la ville. Un site de camping d'urgence du Shire a ouvert le 29 avril 2026 pour les campeurs autonomes, selon Coral Coast d'Australie. Le numéro de téléphone du Shire est le (08) 9949 3000. Main Roads WA avertit que de nombreuses grandes routes rurales ne sont pas clôturées et de faire attention aux animaux à l'aube et au crépuscule, et de ne dépasser les <a data-guide=\"driving-with-road-trains-australia\">train routiers</a> que sur une longue portion droite complètement dégagée. Le guide des train routiers couvre l'étiquette."
+          ],
+          "tips": [
+            "Carte de voyage Main Roads WA ou 138 138",
+            "La saison des cyclones : du 1er novembre au 30 avril",
+            "Confirmez votre hébergement avant votre arrivée"
+          ]
+        },
+        {
+          "heading": "Règles concernant les fruits et la demande de Carnarvon",
+          "body": [
+            "De Perth à Exmouth se trouve entièrement en <a data-guide=\"camping-rules-western-australia\">Australie-Occidentale</a>, il n'y a donc pas de frontière d'État ni de poste de contrôle inter-États sur ce trajet. La page du Shire de Carnarvon indique que Medfly est présent dans toutes les parties de l'Australie-Occidentale à l'exception de la zone d'irrigation de la rivière Ord. Elle demande aux visiteurs venant d'ailleurs dans l'État de ne pas apporter de fruits ou de légumes : soit de les manger, soit de se débarrasser de vos fruits avant d'arriver à Carnarvon, ou mieux encore, d'en acheter au fur et à mesure. Elle indique de mettre tout fruit dans un sac et d'utiliser les poubelles jaunes dans les places de stationnement à l'extérieur de la ville. La page mentionne qu'il n'y a ni poste de contrôle routier ni restriction formelle, il s'agit donc d'une demande du Shire.",
+            "Aucun avis actuel concernant les <a data-guide=\"interstate-biosecurity-road-trip\">moucher des fruits</a> à Perth ou ordre formel de mouvement de Gascoyne pour les voyageurs ne peut être confirmé, veuillez donc vérifier auprès de DPIRD (dpird.wa.gov.au) avant de partir. Le guide de biosécurité inter-États couvre les règles applicables lorsque vous traversez une frontière d'État."
+          ],
+          "tips": [
+            "Le Shire de Carnarvon demande : pas de fruits",
+            "Utilisez les poubelles jaunes à l'extérieur de la ville",
+            "Vérifiez DPIRD avant de quitter Perth"
+          ]
+        },
+        {
+          "heading": "Cape Range, Ningaloo camping et aires de vidange",
+          "body": [
+            "",
+            "ParkStay indique que les campings du parc national de Nyinggulara à Janes Bay, North Lefroy, Point Billie, South Lefroy et Winderabandi sont fermés jusqu'à nouvel ordre. Le passage de Yardie Creek vers Boat Harbour et One K nécessite une marée basse, selon les informations de ParkStay, et une note de la DBCA datée du 21 avril 2026 a donné le 1er août comme date de réouverture estimée pour Boat Harbour et One K, veuillez donc vérifier l'état actuel. Concernant les <a data-guide=\"dump-points-australia-guide\">aires de vidange</a>, les données d'AussieCamps répertorient Cadiz Street à Cervantes et Hampton Gardens à Northampton, tous deux gratuits, ainsi que des aires de repos à Nilgen, Galena, Nerren Nerren, Edagee et Yalabia. Main Roads WA indique que les eaux noires ne peuvent être évacuées que dans les aires de repos affichant le panneau d'aire de vidange ou dans l'aire de vidange de la ville la plus proche. Le guide des aires de vidange contient plus d'informations."
+          ],
+          "tips": [
+            "Réservez les sites de Ningaloo sur ParkStay",
+            "Les réservations ouvrent à 10 h AWST, le premier mardi",
+            "Pas de chiens à Cape Range"
+          ]
+        },
+        {
+          "heading": "Plan le trajet Perth à Exmouth dans AussieCamps",
+          "body": [
+            "Planifiez-le comme un voyage dans AussieCamps : ajoutez les nuits dans l'ordre et cela affichera la distance et le temps de trajet de chaque étape, avec une prévision pour le jour de votre arrivée. AussieCamps répertorie 1 838 campings, 5 552 aires de repos et 1 393 <a data-guide=\"dump-points-australia-guide\">aires de vidange</a> provenant d'agences de parcs, d'autorités routières et de jeux de données publics, et les aires de repos et les aires de vidange ci-dessus indiquent les installations que ces sources publient.",
+            "Les détails des lieux enregistrés, les lieux sauvegardés et les Guides fonctionnent sans <a data-guide=\"camping-without-phone-signal\">signal</a>. Les tuiles de carte, le routage, la météo et les photos nécessitent une connexion, et les longs tronçons au nord de Geraldton ont peu de couverture, ouvrez donc le voyage dans la zone de réception avant chaque étape. AussieCamps fonctionne uniquement sur iPhone et est gratuit à télécharger, avec des achats intégrés."
+          ],
+          "tips": [
+            "Ajouter chaque nuit dans l'ordre",
+            "Prévisions pour chaque jour d'arrivée",
+            "Ouvrez le voyage avant les longues jambes"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Quelle est la distance entre Perth et Exmouth ?",
+          "Environ 1 260 à 1 280 km, soit 1 256 km et 14 h 54 min de route selon le routage OSRM sur les données OpenStreetMap via Jurien Bay, Geraldton, Carnarvon et la Minilya jusqu'à la route d'Exmouth. La plupart des gens mettent trois jours, avec des nuitées à Geraldton et Carnarvon."
+        ],
+        [
+          "Y a-t-il une longue étendue sans villes ?",
+          "Main Roads WA indique 475 km entre Geraldton et Carnarvon, et Wikipédia précise que, à l'exception de Northampton, situé à 50 km, les seules localités sur ce tronçon sont quatre roadhouses. Faites le plein à Geraldton et vérifiez si chaque roadhouse est ouvert."
+        ],
+        [
+          "Puis-je emmener des fruits à Carnarvon ?",
+          "Le Shire de Carnarvon vous demande de ne pas le faire. Sa page indique de manger ou de jeter vos fruits avant votre arrivée, ou d'en acheter au fur et à mesure, et d'utiliser les poubelles jaunes dans les places de stationnement à l'extérieur de la ville. Il décrit cela comme une demande et mentionne qu'il n'y a aucun contrôle routier."
+        ],
+        [
+          "Les campings de Ningaloo sont ouverts après le cyclone Narelle ?",
+          "Certain(e)s ne le sont pas. La DBCA indique que tous les campings de la côte de Ningaloo ont été touchés par le cyclone tropical sévère Narelle en 2026, et ParkStay montre que les campings du parc national de Nyinggulara sont fermés jusqu'à nouvel ordre. Vérifiez ParkStay avant de réserver."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Calcul d'itinéraire OSRM sur les données OpenStreetMap (Perth à Exmouth, calcul effectué le 21 octobre 2026)"
+        },
+        {
+          "label": "Main Roads WA : aires de repos et commodités, Geraldton à Port Hedland (2015)"
+        },
+        {
+          "label": "Routes principales de l'Australie-Ouest : conduite régionale et longue distance"
+        },
+        {
+          "label": "Main Roads WA : Carte de voyage"
+        },
+        {
+          "label": "La côte de corail d'Australie : mises à jour de voyage à Ningaloo"
+        },
+        {
+          "label": "Shire of Exmouth : visiter Exmouth après le cyclone Narelle"
+        },
+        {
+          "label": "Shire of Carnarvon : mouche des fruits méditerranéens"
+        },
+        {
+          "label": "DBCA : guide pour réserver un camping dans la zone du patrimoine mondial de la côte de Ningaloo"
+        },
+        {
+          "label": "Explorer les parcs de WA : Parc national de Cape Range"
+        },
+        {
+          "label": "DPIRD : Biosécurité de l'Australie-Occidentale"
+        },
+        {
+          "label": "Wikipédia : North West Coastal Highway"
+        }
+      ],
+      "priceTable": null
+    },
+    "broome-to-darwin-drive": {
+      "title": "Conduite de Broome à Darwin 2026 : Route du Kimberley, ruptures de carburant, arrêts et règles frontalières",
+      "description": "De Broome à Darwin représente environ 1 880 km et 21 heures sur des autoroutes goudronnées, ce qui prend généralement cinq jours. Les ruptures de ravitaillement en carburant, les arrêts à Kununurra et à Katherine, les fermetures pendant la saison des pluies, le poste de contrôle de la frontière WA/NT et les aires de vidange.",
+      "region": "Australie-Occidentale et Territoire du Nord",
+      "imageAlt": "Un boab géant à l'intérieur d'une clôture basse à une aire de repos sur la Great Northern Highway dans le Kimberley, avec de la terre rouge devant lui",
+      "intro": "De Broome à Darwin représente environ 1 880 km, soit 1 874 km et 20 h 54 min selon le routage OSRM, et la totalité du trajet est sur des routes goudronnées sur les Great Northern, Victoria et Stuart Highways. Un trajet de cinq jours permet de passer la nuit à Fitzroy Crossing, Halls Creek, Kununurra et Katherine, et le tronçon vers Darwin représente les 314 km restants.",
+      "sections": [
+        {
+          "heading": "Comparaison des itinéraires de Broome à Darwin",
+          "body": [
+            "Il existe une seule route goudronnée traversante. La Great Northern Highway s'étend de Broome à Fitzroy Crossing et Halls Creek jusqu'à la jonction avec la Highway <a data-guide=\"camping-rules-victoria\">Victoria</a>, qui traverse la frontière entre le WA et le NT et se dirige vers Katherine. La Stuart Highway se dirige ensuite vers le nord jusqu'à Darwin. Visit Kununurra indique que Kununurra se trouve à 46 km le long de la Highway Victoria à partir de cette jonction, donc la ville est un détour par rapport à la ligne, et le chiffre OSRM ci-dessous est acheminé à travers elle.",
+            "La Gibb River Road, de Derby à Kununurra, est une alternative non revêtue nécessitant un 4WD que Main Roads WA répertorie sur sa propre carte des aires de repos. Ce n'est pas un raccourci pour les caravanes, et aucune distance n'est prise ici. Le guide de la Gibb River Road la couvre. Sandfire Roadhouse se trouve du côté Perth à Broome, il ne s'agit donc pas d'un arrêt sur ce trajet. Tous les chiffres proviennent du routage OSRM sur les données OpenStreetMap, calculés le 21 octobre 2026, pour une voiture sans arrêt. Aucune autorité routière ne publie un total Broome à Darwin."
+          ],
+          "tips": [
+            "Tout est sur des routes goudronnées sur l'itinéraire principal",
+            "Gibb River Road : non revêtue, 4WD",
+            "Kununurra est un détour de 46 km"
+          ],
+          "table": {
+            "caption": "De Broome à Darwin par la route, routage OSRM calculé le 21 octobre 2026. Voiture, sans arrêt.",
+            "head": [
+              "Itinéraire",
+              "Distance",
+              "Temps de conduite",
+              "Route",
+              "Meilleur pour"
+            ],
+            "rows": [
+              [
+                "Great Northern, Victoria et Stuart Highways via Kununurra",
+                "Environ 1 874 km",
+                "Environ 20 h 54 min",
+                "Goud partout",
+                "Tout véhicule, caravanes, une première traversée du Kimberley"
+              ],
+              [
+                "Route de la Gibb River entre Derby et Kununurra",
+                "Non pris",
+                "Non montré",
+                "Piste non revêtue, 4WD conseillé",
+                "Un road trip dans le Kimberley pendant la saison sèche, couvert par son propre guide"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Le road trip en cinq jours",
+          "body": [
+            "Selon le routage OSRM, les étapes sont Broome à Fitzroy Crossing 398 km (4 h 38 min), Fitzroy Crossing à Halls Creek 290 km (3 h 25 min), Halls Creek à Kununurra 358 km (4 h 12 min), Kununurra à Timber Creek 228 km (2 h 22 min), Timber Creek à Katherine 285 km (2 h 50 min) et Katherine à Darwin 314 km (3 h 25 min). Le guide des aires de repos de Main Roads WA de 2015 indique que Fitzroy Crossing à Halls Creek est de 289 km et Halls Creek à Kununurra est de 359 km, ce qui correspond au routage OSRM dans un kilomètre.",
+            "Un itinéraire de cinq jours est Broome à Fitzroy Crossing, Fitzroy Crossing à Halls Creek, Halls Creek à Kununurra, Kununurra à Katherine via Timber Creek (environ 513 km, 5 h 12 min), puis Katherine à Darwin. Les deux étapes du milieu peuvent être combinées en une longue journée de 648 km, environ 7 h 37 min. Le guide Darwin à Alice Springs couvre la Stuart Highway au sud de Katherine, et le guide Darwin, Kakadu et Litchfield couvre la région autour de la fin du trajet."
+          ],
+          "tips": [
+            "Fitzroy Crossing : 398 km",
+            "Kununurra : 1 046 km de Broome",
+            "Darwin : environ 1 874 km"
+          ]
+        },
+        {
+          "heading": "Où s'arrêter et où faire une pause",
+          "body": [
+            "À Kununurra, Hidden Valley Kununurra <a data-guide=\"caravan-park-vs-holiday-park\">Caravan Park</a> est situé à côté du parc national de Mirima, selon son exploitant, Summerstar Tourist Parks. À Timber Creek, les annuaires touristiques mentionnent le Timber Creek Hotel and Caravan Park et le WIRIB Tourism Park. Aucun parc nommé à Fitzroy Crossing, Halls Creek ou Katherine n'a pu être confirmé sur une page d'exploitants pour ce guide, veuillez donc appeler à l'avance et utiliser les centres de visiteurs. Doon Doon Roadhouse et Warmun (Turkey Creek) sont des aires de repos avec camping entre Halls Creek et Kununurra, selon les extraits de recherche des annuaires touristiques. Warmun est à environ 160 km de Halls Creek.",
+            "Les données d'AussieCamps répertorient trois campings du parc national de Gregory dans le Territoire du Nord, chacun avec des frais de camping : Big Horse Creek, à environ 0,3 km de la route, Sullivan Creek, à environ 0,1 km de la route, et Gumil, à environ 5 km de la route. Ce sont des campings de parc national, pas des parcs de caravanes. Les aires de repos dans les données pour une pause sont Cockburn en <a data-guide=\"camping-rules-western-australia\">Australie-Occidentale</a>, et Saddle Creek, Mathison Creek et Bridge Creek dans le Territoire du Nord. Main Roads WA indique que ses aires de repos 24 heures ne sont pas destinées au camping. Le Territoire du Nord stipule qu'il ne faut pas rester plus de 24 heures dans une même aire de repos. Le guide des aires de repos contient les règles par État."
+          ],
+          "tips": [
+            "Parcs : appelez à l'avance à Fitzroy, Halls Creek, Katherine",
+            "Les campings Gregory ont des frais de camping",
+            "Les aires de repos sont pour une pause"
+          ]
+        },
+        {
+          "heading": "Trous de carburant",
+          "body": [
+            "Le Nord-Ouest de l'Australie indique que les stations-service se trouvent à Broome, Roebuck Roadhouse, Willare Bridge, Fitzroy Crossing, Halls Creek, Warmun, Wyndham et Kununurra, et que la plus grande distance entre les stations-service sur la Great Northern Highway est de 295 km entre Fitzroy Crossing et Halls Creek. Main Roads WA indique que cette portion est de 289 km. Halls Creek à Kununurra est de 359 km, avec Warmun entre les deux. Il n'a pas été possible de confirmer si Doon Doon vend du carburant aujourd'hui.",
+            "À l'est de Kununurra, il y a 228 km jusqu'à Timber Creek et 91 km supplémentaires jusqu'à Victoria River Roadhouse, selon OSRM, et Katherine est à 195 km au-delà. Une fiche touristique qualifie Victoria River Roadhouse de principal point de ravitaillement en carburant, nourriture et boissons, mais le carburant à Timber Creek et à Victoria River Roadhouse n'a pas pu être confirmé sur la page d'un opérateur, alors faites le plein à Kununurra et demandez à nouveau aux deux endroits. Main Roads WA conseille d'emporter du carburant supplémentaire sur les longs trajets ainsi que suffisamment de nourriture et d'eau pour deux à trois jours au-delà de votre temps de voyage prévu. Le guide <a data-guide=\"road-trip-fuel-planning-australia\">planification du carburant</a> montre comment budgétiser la distance."
+          ],
+          "tips": [
+            "Fitzroy à Halls Creek : 289 à 295 km",
+            "Faire le plein à Kununurra",
+            "Emportez de la nourriture et de l'eau pour 2 à 3 jours supplémentaires"
+          ]
+        },
+        {
+          "heading": "Saison des pluies, conditions de la route et limitations de vitesse",
+          "body": [
+            "Veuillez consulter la carte des routes principales de WA (travelmap.mainroads.wa.gov.au, 138 138) et le rapport routier de NT (roadreport.nt.gov.au) avant chaque jour, comme le recommande Visit Kununurra. Main Roads WA indique que la <a data-guide=\"best-time-camping-australia\">saison des pluies</a> dans le nord de WA se déroule généralement de novembre à avril. Wikipédia indique que la traversée de la rivière Victoria près de Timber Creek est sujette aux inondations de novembre à avril, que les eaux d'inondation peuvent couper la liaison pendant des jours ou des semaines, et qu'un pont de remplacement achevé en mai 2008 est 7 m plus haut mais que des inondations d'une ampleur d'environ une fois tous les vingt ans peuvent toujours le déborder. Les mises à jour des inondations de Main Roads WA décrivent l'ouverture du nouveau pont de la rivière Fitzroy fin 2023, après que l'original ait été gravement endommagé au début de 2023. Aucune fermeture actuelle n'a été confirmée pour le 21 octobre 2026. Le guide de la saison des pluies couvre les cyclones et les crocodiles.",
+            "Dans le Territoire du Nord, la vitesse par défaut est de 110 km/h, sauf indication contraire d'un panneau, et certaines sections signalées des autoroutes Stuart et Victoria autorisent 130 km/h, c'est donc le panneau qui décide. Main Roads WA indique qu'il faut dépasser les <a data-guide=\"driving-with-road-trains-australia\">train routiers</a> uniquement sur une longue portion droite complètement dégagée, et ne pas couper leur passage. De nombreuses grandes routes rurales en Australie-Occident sont non clôturées, surveillez donc les animaux à l'aube et au crépuscule. Le guide des trains routiers couvre l'étiquette."
+          ],
+          "tips": [
+            "Carte de voyage et rapport routier NT",
+            "Saison des pluies de novembre à avril",
+            "La rivière Victoria peut déborder"
+          ]
+        },
+        {
+          "heading": "Règles frontalières et changement d'heure",
+          "body": [
+            "",
+            "Le Territoire du Nord est sur l'heure centrale et <a data-guide=\"camping-rules-western-australia\">Australie-Occidentale</a> sur l'heure de l'Ouest. Aucune des deux n'utilise l'heure d'été, donc le Territoire du Nord est en avance de 1,5 heure sur l'Australie-Occidentale toute l'année."
+          ],
+          "tips": [
+            "Aucun point de contrôle en quittant l'Australie-Occidentale",
+            "Point de contrôle à l'entrée de WA : 08 9168 7354",
+            "Le NT est en avance de 1,5 heure sur le WA"
+          ]
+        },
+        {
+          "heading": "Parcs, lac Argyle et aires de vidange",
+          "body": [
+            "Nitmiluk (Katherine Gorge) se trouve à environ 30 km de Katherine, et l'entrée nécessite un NT Parks Pass, les résidents du Territoire du Nord étant exemptés. Le camping y est réservé et payant à l'avance. Lake Argyle Resort et <a data-guide=\"caravan-park-vs-holiday-park\">Caravan Park</a> se trouvent au bout d'une route goudronnée, à environ 35 km de l'autoroute, et les sources touristiques indiquent que le dénouement se situe à environ 35 km à l'est de Kununurra. Purnululu (les Bungle Bungles) est accessible par le Spring Creek Track de 53 km qui part de la Great Northern Highway, réservé aux véhicules 4WD de grande garde au sol et uniquement pendant la saison sèche, veuillez donc consulter DBCA pour les dates d'ouverture. Le guide de la Gibb River Road couvre les itinéraires 4WD du Kimberley.",
+            "Pour les <a data-guide=\"dump-points-australia-guide\">aires de vidange</a>, les données d'AussieCamps répertorient l'aire de repos de Cockburn en Australie-Occidentale, et dans le Territoire du Nord, le Victoria River Roadhouse, l'aire de repos de Mathison à Delamere, qui répertorie un robinet de vidange, Limestone Creek près de Manbulloo, deux dans Katherine, Pine Creek, Adelaide River et le parc de camping-car de Coomalie Creek, puis le Batchelor et le Darwin Greyhound Club à Winnellie. C'est la couverture des données, pas chaque aire de vidange. Le guide des aires de vidange en contient davantage."
+          ],
+          "tips": [
+            "Nitmiluk : Passe des parcs du NT",
+            "Purnululu : 4WD, vérifiez les dates",
+            "Les aires de vidange sont la couverture des données"
+          ]
+        },
+        {
+          "heading": "Plan le road trip de Broome à Darwin dans AussieCamps",
+          "body": [
+            "Planifiez-le comme un voyage dans AussieCamps : ajoutez les nuits dans l'ordre et cela affichera la distance et le temps de trajet de chaque étape, avec une prévision pour le jour de votre arrivée. AussieCamps répertorie 1 838 campings, 5 552 aires de repos et 1 393 <a data-guide=\"dump-points-australia-guide\">aires de vidange</a> provenant d'agences de parcs, d'autorités routières et de jeux de données publics, et les aires de repos et les aires de vidange ci-dessus indiquent les installations que ces sources publient.",
+            "Chaque page de lieu dispose d'une prévision météorologique et des lieux à proximité. Les détails des lieux enregistrés, les lieux sauvegardés et les Guides fonctionnent sans <a data-guide=\"camping-without-phone-signal\">signal</a>. Les tuiles de carte, le routage, la météo et les photos nécessitent une connexion, et le Kimberley comporte de longs tronçons sans couverture, ouvrez donc le voyage dans la zone de réception avant chaque étape. AussieCamps fonctionne uniquement sur iPhone et est gratuit à télécharger, avec des achats intégrés."
+          ],
+          "tips": [
+            "Ajouter chaque nuit dans l'ordre",
+            "Prévisions pour chaque jour d'arrivée",
+            "Ouvrez le voyage avant les longues jambes"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Quelle est la distance entre Broome et Darwin ?",
+          "Environ 1 880 km, soit 1 874 km et 20 h 54 min de conduite selon le routage OSRM sur les données OpenStreetMap via Fitzroy Crossing, Halls Creek, Kununurra, Timber Creek et Katherine. La plupart des gens mettent cinq jours."
+        ],
+        [
+          "Quel est le plus long intervalle entre les stations-service ?",
+          "Le Nord-Ouest de l'Australie indique que la plus grande distance entre les stations-service sur la Great Northern Highway est de 295 km entre Fitzroy Crossing et Halls Creek. Main Roads WA indique que ce tronçon est de 289 km. Demandez également à Timber Creek et à Victoria River Roadhouse où se trouve la prochaine station-service."
+        ],
+        [
+          "Y a-t-il un poste de quarantaine sur la route vers Darwin ?",
+          "Ne quittant pas l'Australie-Occidentale. La visite de Kununurra indique qu'il n'y a pas de poste frontal lors du départ de WA pour entrer dans le Territoire du Nord. Le poste de contrôle routier WA/NT ouvert 24 heures sur la Victoria Highway vérifie le trafic entrant dans le WA, il est donc important lors du retour."
+        ],
+        [
+          "Puis-je conduire de Broome à Darwin pendant la saison des pluies ?",
+          "Les routes peuvent être fermées. Main Roads WA indique que la saison des pluies dans le nord de WA se déroule généralement de novembre à avril, et Wikipédia indique que le passage de la rivière Victoria près de Timber Creek peut être coupé pendant des jours ou des semaines par les inondations. Consultez la Travel Map et le Road Report NT."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Calcul d'itinéraire OSRM sur les données OpenStreetMap (Broome à Darwin, calculé le 21 octobre 2026)"
+        },
+        {
+          "label": "Main Roads WA : aires de repos et commodités, Port Hedland à Kununurra (2015)"
+        },
+        {
+          "label": "Routes principales de l'Australie-Ouest : conduite régionale et longue distance"
+        },
+        {
+          "label": "Main Roads WA : Carte de voyage"
+        },
+        {
+          "label": "Rapport routier NT"
+        },
+        {
+          "label": "DPIRD : postes de contrôle de la frontière de WA"
+        },
+        {
+          "label": "DPIRD : que pouvez-vous apporter en Australie-Occidentale"
+        },
+        {
+          "label": "Visiter Kununurra : biosécurité"
+        },
+        {
+          "label": "Visiter Kununurra : comment s'y rendre"
+        },
+        {
+          "label": "Nord-Ouest de l'Australie : stations-service"
+        },
+        {
+          "label": "Shire of Carnarvon : mouche des fruits méditerranéens"
+        },
+        {
+          "label": "Gouvernement australien : fuseaux horaires et heure d'été"
+        },
+        {
+          "label": "Wikipédia : Victoria Highway"
         }
       ],
       "priceTable": null
