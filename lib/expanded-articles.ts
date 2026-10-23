@@ -723,8 +723,8 @@ export const expandedArticles: Article[] = [
       { label: "WikiCamps Australia: price, coverage and bookings", url: "https://www.wikicamps.com.au/" },
       { label: "CamperMate: coverage and features", url: "https://campermate.com/" },
       { label: "Full Range Camping: Premium membership", url: "https://www.fullrangecamping.com.au/premium" },
-      { label: "NSW National Parks: the official app (App Store)", url: "https://apps.apple.com/au/app/id1213696400" },
-      { label: "Hipcamp: the app (App Store)", url: "https://apps.apple.com/au/app/hipcamp-camping-caravans/id1440066037" },
+      { label: "NSW National Parks: the official app", url: "https://www.nationalparks.nsw.gov.au/app" },
+      { label: "Hipcamp: the app", url: "https://www.hipcamp.com/en-AU/about" },
     ]
   }),
   article({
@@ -871,12 +871,12 @@ export const expandedArticles: Article[] = [
       { label: "ExplorOz: Membership", url: "https://www.exploroz.com/membership" },
       { label: "Hema Maps: app comparison", url: "https://hemamaps.com/pages/hema-apps-comparison" },
       { label: "Hema Maps: HX-1 and Hema Cloud retirement", url: "https://kb.hemamaps.com/hx1-hema-cloud-due-to-retire" },
-      { label: "Newtracs: the app (App Store)", url: "https://apps.apple.com/au/app/newtracs/id1456718442" },
+      { label: "Newtracs: the app", url: "https://newtracs.com/" },
       { label: "Camps Australia Wide: offline maps and sites", url: "https://www.campsaustraliawide.com/help-centre/how-do-i-get-offline-maps-sites/" },
       { label: "WikiCamps Australia: price, coverage and bookings", url: "https://www.wikicamps.com.au/" },
       { label: "Google Maps Help: download offline maps", url: "https://support.google.com/maps/answer/6291838" },
       { label: "Apple Support: offline maps on iPhone", url: "https://support.apple.com/en-au/guide/iphone/iphcfb5f5bc6/ios" },
-      { label: "Organic Maps (App Store)", url: "https://apps.apple.com/au/app/organic-maps-offline-maps/id1567437057" },
+      { label: "Organic Maps", url: "https://organicmaps.app/" },
     ]
   }),
   article({
