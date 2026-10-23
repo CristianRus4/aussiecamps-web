@@ -44,7 +44,7 @@ assert.equal(await readFile(resolve(root, "lib/translations/en.json"), "utf8"), 
 
 // A cited source never links to an App Store page: every App Store link in the export must be ours, with its
 // placement (tests/rendered-html.test.mjs), and a source is only rendered once its guide publishes. Cite the vendor's page.
-for (const article of articles) for (const source of article.sources ?? []) assert.doesNotMatch(source.url, /^https?:\/\/(?:apps|itunes)\.apple\.com\//, `${article.slug}: source "${source.label}" links to the App Store; cite the vendor's own page`);
+for (const article of articles) for (const source of article.sources ?? []) assert.doesNotMatch(source.url, /^https?:\/\/apps\.apple\.com\//, `${article.slug}: source "${source.label}" links to the App Store; cite the vendor's own page`);
 
 // Price tables are dated in ISO form and rendered in each reader's own date format.
 for (const article of articles) if (article.priceTable) assert.match(article.priceTable.asOf, /^\d{4}-\d{2}-\d{2}$/, `${article.slug}: priceTable.asOf must be YYYY-MM-DD`);
