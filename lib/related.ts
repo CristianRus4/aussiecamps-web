@@ -40,8 +40,9 @@ export function relatedGuides(item: Article, count = 3, pool: readonly Article[]
   const picks = [...curated, ...ranked].slice(0, count);
   if (picks.length && picks.every((pick) => pick.category === item.category)) {
     const outside = ranked.find((candidate) => candidate.category !== item.category);
-    const replaceable = picks.findLastIndex((pick) => !curated.includes(pick));
-    if (outside && replaceable >= 0) picks[replaceable] = outside;
+    // Prefer replacing a ranked pick; when all three are curated, the rule still wins over the last one.
+    const slot = picks.findLastIndex((pick) => !curated.includes(pick));
+    if (outside) picks[slot >= 0 ? slot : picks.length - 1] = outside;
   }
   return picks;
 }
