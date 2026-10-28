@@ -11,13 +11,16 @@ import page9, { faq as faq9 } from "@/lib/can-i/can-i-camp-on-aboriginal-land-wi
 import page10, { faq as faq10 } from "@/lib/can-i/can-i-take-a-campervan-or-caravan-on-the-spirit-of-tasmania";
 import page11, { faq as faq11 } from "@/lib/can-i/can-i-camp-on-private-land-or-a-farm-in-australia";
 import page12, { faq as faq12 } from "@/lib/can-i/can-i-take-alcohol-into-restricted-areas-on-an-outback-road-trip";
+import page13, { faq as faq13 } from "@/lib/can-i/can-i-camp-in-a-state-forest-in-australia";
+import page14, { faq as faq14 } from "@/lib/can-i/can-i-sleep-in-a-campervan-in-the-city-in-australia";
+import page15, { faq as faq15 } from "@/lib/can-i/can-i-drive-a-2wd-hire-campervan-on-4wd-roads-in-australia";
 
 /**
  * "Can I...?" answer pages. Each page lives in lib/can-i/<slug>.ts and exports its article (default)
  * and its FAQ. They are listed here in publish order; lib/site.ts spreads `canIArticles` into the
  * written guides and attaches `canIFaqs` by slug.
  */
-export const canIArticles: Article[] = [page1, page2, page3, page4, page5, page6, page7, page8, page9, page10, page11, page12];
+export const canIArticles: Article[] = [page1, page2, page3, page4, page5, page6, page7, page8, page9, page10, page11, page12, page13, page14, page15];
 export const canIFaqs: Record<string, readonly (readonly [string, string])[]> = {
   [page1.slug]: faq1,
   [page2.slug]: faq2,
@@ -31,4 +34,7 @@ export const canIFaqs: Record<string, readonly (readonly [string, string])[]> = 
   [page10.slug]: faq10,
   [page11.slug]: faq11,
   [page12.slug]: faq12,
+  [page13.slug]: faq13,
+  [page14.slug]: faq14,
+  [page15.slug]: faq15,
 };

@@ -330,4 +330,16 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
     ["Can I use a camp stove on a total fire ban day?", "It depends on the state and the fuel. Solid-fuel and liquid-fuel stoves are banned on total fire ban days in New South Wales, Victoria, Western Australia and Tasmania. In NSW national parks visitor-owned gas and electric cookers are generally prohibited too, except inside a caravan or its enclosed annexe. Victoria and Western Australia allow gas barbecues that meet set conditions, Tasmania allows electric and LPG cookers (but not at Freycinet), Queensland allows gas and spirit stoves that are contained and attended, and South Australia bans all fires and most barbecues, including gas, in parks. Check the state fire agency on the day."],
     ["What can I do if every campground is booked out?", "Keep checking the agency's booking system, because Parks Victoria says a cancelled site goes back online straight away for someone else to book. Victorian state forests allow camping at least 20 metres from waterways for up to 28 consecutive nights, a bookable holiday park or motel is another option, and rest areas are for resting unless a sign allows overnight stays: Queensland allows up to 20 hours, and Western Australia allows 24 hours at the 63 rest areas that permit it."],
   ],
+  "freerange-camping-alternatives": [
+    ["What is the best alternative to FreeRange Camping?", "For official park data and trip planning on iPhone, AussieCamps. For the largest bank of traveller reviews, WikiCamps, and for checked budget camps, CAMPS Australia Wide. CamperMate is the free option."],
+    ["Is FreeRange Camping free?", "The app is free to download with free online maps. Offline listings, weather on listings and radar are part of the Premium Club, which is sold as an annual or lifetime membership, and its site pages did not show a price."],
+    ["Which camping app works without phone signal?", "FreeRange Camping offers offline caching with the Premium Club, WikiCamps has an Offline Mode, and CAMPS downloads maps by state. AussieCamps keeps place details on the phone but needs signal for map tiles, routing and weather."],
+    ["Is there a free camping app for Australia?", "CamperMate is free to download, and FreeRange Camping and AussieCamps are free to download with optional purchases. Hipcamp is free to download but you pay for each booking."],
+  ],
+  "roadtrippers-alternatives": [
+    ["Does Roadtrippers work in Australia?", "Its own pages show United States examples and do not list the countries covered, so test an Australian route on the free plan before paying. For Australian camps, rest areas and dump points, an Australian app is the safer base."],
+    ["What is the best Roadtrippers alternative for Australia?", "AussieCamps plans the stops and nights, and Google Maps or Apple Maps handle the driving. Wanderlog suits a trip that mixes cities and drives."],
+    ["Is there a free road trip planner for Australia?", "Google Maps and Apple Maps are free, and Wanderlog is free to plan with, though offline plans need Pro. AussieCamps is free to download with in-app purchases."],
+    ["How many stops can I add to a route?", "Google Maps allows nine including the destination and Apple Maps allows fourteen. AussieCamps and Wanderlog state no limit on stops in a trip."],
+  ],
 };

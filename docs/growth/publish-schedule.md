@@ -84,3 +84,10 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-12-12 | adelaide-to-port-lincoln-drive | scheduled |
 | 2026-12-13 | melbourne-to-mildura-drive | scheduled |
 | 2026-12-14 | townsville-to-mount-isa-drive | scheduled |
+| 2026-12-15 | freerange-camping-alternatives | scheduled |
+| 2026-12-16 | roadtrippers-alternatives | scheduled |
+| 2026-12-17 | can-i-camp-in-a-state-forest-in-australia | scheduled |
+| 2026-12-18 | can-i-sleep-in-a-campervan-in-the-city-in-australia | scheduled |
+| 2026-12-19 | can-i-drive-a-2wd-hire-campervan-on-4wd-roads-in-australia | scheduled |
+| 2026-12-20 | holiday-park-prices-australia-2026 | scheduled |
+| 2026-12-21 | first-two-weeks-working-holiday-australia | scheduled |
