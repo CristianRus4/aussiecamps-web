@@ -332,7 +332,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
   ],
   "freerange-camping-alternatives": [
     ["What is the best alternative to FreeRange Camping?", "For official park data and trip planning on iPhone, AussieCamps. For the largest bank of traveller reviews, WikiCamps, and for checked budget camps, CAMPS Australia Wide. CamperMate is the free option."],
-    ["Is FreeRange Camping free?", "The app is free to download with free online maps. Offline listings, weather on listings and radar are part of the Premium Club, which is sold as an annual or lifetime membership, and its site pages did not show a price."],
+    ["Is FreeRange Camping free?", "Downloading it costs nothing and the online maps are free. Offline listings, weather on listings and radar sit behind the Premium Club, an annual or lifetime membership whose price was not on the pages read."],
     ["Which camping app works without phone signal?", "FreeRange Camping offers offline caching with the Premium Club, WikiCamps has an Offline Mode, and CAMPS downloads maps by state. AussieCamps keeps place details on the phone but needs signal for map tiles, routing and weather."],
     ["Is there a free camping app for Australia?", "CamperMate is free to download, and FreeRange Camping and AussieCamps are free to download with optional purchases. Hipcamp is free to download but you pay for each booking."],
   ],
