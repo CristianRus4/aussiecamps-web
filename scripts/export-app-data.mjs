@@ -1,7 +1,7 @@
 /**
  * One-way, read-only export of the AussieCamps app data into lib/data/.
  *
- *   npm run data:export            (CAMPING_APP_DATA defaults to /Users/cristian/Developer/Apps/Camping)
+ *   npm run data:export            (CAMPING_APP_DATA defaults to /Users/cristian/Developer/Apps/AppStore/Camping)
  *
  * What it reads: the database the release app ships, `Scraper/data/australia_db.sqlite` (see
  * Aussie/AussieCamping/CampingPlacesDatabase.swift in the app repo). `Aussie/Resources/aussie_db.sqlite`
@@ -32,7 +32,7 @@ import { DatabaseSync } from "node:sqlite";
 
 const repo = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const dataDir = resolve(repo, "lib/data");
-const appRepo = resolve(process.env.CAMPING_APP_DATA ?? "/Users/cristian/Developer/Apps/Camping");
+const appRepo = resolve(process.env.CAMPING_APP_DATA ?? "/Users/cristian/Developer/Apps/AppStore/Camping");
 const sourceRelative = "Scraper/data/australia_db.sqlite";
 const sourcePath = resolve(appRepo, sourceRelative);
 const prosePath = resolve(repo, "lib/hubs/prose.json");

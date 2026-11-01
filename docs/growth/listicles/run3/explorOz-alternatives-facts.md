@@ -63,7 +63,7 @@ AussieCamps has NO offline map. Map tiles, routing, weather and photos need sign
 - App repo: Aussie/AussieCamping/Guides/RoadTripGuidesData.swift, Packages/CampingKit/.../Planner/TripRouteBuilder.swift.
 
 ## Search demand
-/Users/cristian/Developer/Apps/Camping/docs/aso/aussiecamps/ has no popularity data for "exploroz", "eotopo", "hema" or "outback navigation app" (unverified; not in the keyword-discovery set). Known: AU "outback camping" popularity 5 (AussieCamps ranks 5), "camping app" 24, "wikicamps australia" 66 (research/2026-10-15-full-examination/demand-and-product-page.md, 2026-10-14). Treat demand for this page as unmeasured.
+/Users/cristian/Developer/Apps/AppStore/Camping/docs/aso/aussiecamps/ has no popularity data for "exploroz", "eotopo", "hema" or "outback navigation app" (unverified; not in the keyword-discovery set). Known: AU "outback camping" popularity 5 (AussieCamps ranks 5), "camping app" 24, "wikicamps australia" 66 (research/2026-10-15-full-examination/demand-and-product-page.md, 2026-10-14). Treat demand for this page as unmeasured.
 
 ## Related guides (existing slugs)
 camping-without-phone-signal, best-caravan-rv-apps-australia, best-road-trip-planner-apps-australia, gibb-river-road-camping, nullarbor-crossing-camping-guide, queensland-outback-way, red-centre-way-camping, flinders-ranges-camping-guide, adelaide-to-uluru-road-trip, driving-with-road-trains-australia, camping-water-planning, dump-points-australia-guide.

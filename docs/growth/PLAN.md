@@ -14,7 +14,7 @@ The owner wants a big push:
 - add strong new content;
 - measure downloads end to end.
 
-This session orchestrates. T3 Code threads in the Kai, Ava and Max accounts do the work. The app repo `/Users/cristian/Developer/Apps/Camping` is read-only reference: it is never edited and never worktree'd.
+This session orchestrates. T3 Code threads in the Kai, Ava and Max accounts do the work. The app repo `/Users/cristian/Developer/Apps/AppStore/Camping` is read-only reference: it is never edited and never worktree'd.
 
 ## Owner decisions (2026-10-19)
 - **Analytics:** GA4 plus App Store Connect campaign links. No PostHog.

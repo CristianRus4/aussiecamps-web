@@ -32,7 +32,7 @@ Read this before starting any thread task in the growth push. The plan itself is
 |---|---|---|
 | `/Users/cristian/Developer/Webs/aussiecamps-web` | AussieCamps site (https://aussiecamps.app), app id 6801098680 | read/write |
 | `/Users/cristian/Developer/Webs/kiwicamping-web` | KiwiCamping site (https://campingapp.nz), app id 6746952595 | read/write |
-| `/Users/cristian/Developer/Apps/Camping` | App repo | **Read-only.** Never edit, commit, build in or worktree it. Opening its SQLite file directly can create `-wal`/`-shm` files inside it; copy the file to a temp dir first. |
+| `/Users/cristian/Developer/Apps/AppStore/Camping` | App repo | **Read-only.** Never edit, commit, build in or worktree it. Opening its SQLite file directly can create `-wal`/`-shm` files inside it; copy the file to a temp dir first. |
 | `/Users/cristian/Developer/Tools/translation-engine` | Provider-free translation engine (`docs/translation.config.json` in each site) | read-only tool |
 
 ## Ownership (avoids merge conflicts between threads)

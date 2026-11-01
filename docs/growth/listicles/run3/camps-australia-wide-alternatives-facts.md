@@ -67,7 +67,7 @@ Write only: "free to download, with in-app purchases". Do not name the Pass tier
 - Repo: lib/data/product-facts.json, lib/data/hubs.meta.json, au-app-facts.md, run2 sheets; app repo Guides/*.swift, Planner/*.swift.
 
 ## Search demand
-Source: /Users/cristian/Developer/Apps/Camping/docs/aso/aussiecamps/research/2026-10-15-full-examination/demand-and-product-page.md (Astro popularity, AU, 2026-10-14). camps australia wide / "camps app": no popularity data in the ASO files (unverified; not in the keyword-discovery set). Related: "wikicamps australia" 66, "campermate" 58, "wikicamps" 49, "camping app" 24. AussieCamps has no AU rating yet, so do not claim a rank.
+Source: /Users/cristian/Developer/Apps/AppStore/Camping/docs/aso/aussiecamps/research/2026-10-15-full-examination/demand-and-product-page.md (Astro popularity, AU, 2026-10-14). camps australia wide / "camps app": no popularity data in the ASO files (unverified; not in the keyword-discovery set). Related: "wikicamps australia" 66, "campermate" 58, "wikicamps" 49, "camping app" 24. AussieCamps has no AU rating yet, so do not claim a rank.
 
 ## Related guides (existing slugs)
 best-camping-app-australia, wikicamps-alternatives, campermate-alternatives, hipcamp-alternatives, best-free-camping-apps-australia, best-caravan-rv-apps-australia, how-to-use-aussiecamps-filters, camping-without-phone-signal, dump-points-australia-guide, camping-fees-australia-2026.

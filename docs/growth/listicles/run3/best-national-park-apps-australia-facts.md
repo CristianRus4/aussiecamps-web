@@ -67,7 +67,7 @@ Absence is "none found in AU App Store search on 2026-10-21", not proof none exi
 camping-fees-australia-2026: Qld A$7.75 per person; WA A$17 a vehicle; 45 NSW parks charge vehicle entry; NT visitors need a Parks Visitor Pass; Tasmania needs a Parks Pass for every national park; SA waives vehicle entry with most campground bookings; no national pass.
 
 ## Search demand
-Source: /Users/cristian/Developer/Apps/Camping/docs/aso/aussiecamps/.
+Source: /Users/cristian/Developer/Apps/AppStore/Camping/docs/aso/aussiecamps/.
 - keyword-discovery-2026-09-11 candidates: "australia national parks", "national parks australia", "national park camping australia"; popularity not collected.
 - Astro 2026-10-14 (research/2026-10-15-full-examination/demand-and-product-page.md): "national park camping australia" popularity 5 (no measurable demand), our rank 21 in NZ and 50 in US; "australia national parks" popularity 5, rank 35 in SG; not in the AU top-50 list. App Store demand for this topic is unmeasured or small.
 - Search Console, 3 months to 2026-10-19: "can you sleep in your car in a national park" 5 impressions, position 19.8. No national park app queries in the export.
