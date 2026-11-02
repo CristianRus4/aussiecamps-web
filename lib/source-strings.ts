@@ -341,8 +341,15 @@ export const staticPages: Record<StaticPageKind, StaticPage> = {
  */
 export const toolKeys = ["fuel-cost-calculator", "drive-time-calculator", "campsite-cost-calculator", "currency-converter", "water-tank-calculator"] as const;
 export type ToolKey = (typeof toolKeys)[number];
+/**
+ * A reference table on a tool page. Only the words are translated: `rows` holds the row labels, and
+ * every figure comes from lib/tools/tables.ts, so all languages show the same numbers.
+ */
+export type ToolTableCopy = { heading: string; caption: string; head: string[]; rows: string[]; note: string };
+/** `answer` is the short direct answer shown above the calculator; `tables` follow the calculator. */
 export type ToolCopy = {
   metaTitle: string; metaDescription: string; title: string; intro: string;
+  answer?: string[]; tables?: ToolTableCopy[];
   formula: string[]; formulaNote: string; example: string[]; assumptions: string[];
   faq: [string, string][]; ctaTitle: string; ctaText: string;
 };
@@ -386,10 +393,25 @@ export const toolStrings = {
       ctaText: "AussieCamps maps {restAreas} rest areas and {dumpPoints} dump points across Australia and turns saved places into a multi-stop route with distances.",
     },
     "drive-time-calculator": {
-      metaTitle: "Driving Time Calculator Australia: Real Road Trip Days",
-      metaDescription: "Estimate how long an Australian driving day really takes from distance, road type and stops. Shows the average speeds used, the formula and a worked example.",
+      metaTitle: "Driving Time Calculator Australia: Travel Times by Car",
+      metaDescription: "How long does it take to drive? Work out travel time by car from distance, road type and stops, with driving times and distances between Australian cities.",
       title: "Driving time calculator for Australian road trips",
       intro: "Maps apps quote moving time on a clear road. This calculator plans the day you will actually drive: an average speed for the kind of road, plus the time spent stopped for fuel, food and breaks.",
+      answer: [
+        "To work out travelling time by car, divide the distance by a realistic average speed and add your breaks. In Australia, plan on about 85 km/h on motorways, 70 km/h on main highways and 60 km/h on winding roads, and stop for 15 minutes every two hours, as the Queensland, Western Australian and Tasmanian road safety agencies advise.",
+        "Sydney to Melbourne is 865 km: about 10 h 15 min at the wheel on the Hume Highway, or 11 h 30 min with breaks, so most people drive it over two days.",
+      ],
+      tables: [{
+        heading: "Driving times and distances between Australian cities",
+        caption: "Road distance and time at the wheel between city centres, with a 15-minute break for every two hours of driving.",
+        head: ["Route", "Distance", "Driving time", "With breaks", "Days at 8 h a day"],
+        rows: [
+          "Sydney to Newcastle", "Brisbane to Byron Bay", "Hobart to Launceston", "Sydney to Canberra", "Alice Springs to Uluru (Yulara)",
+          "Melbourne to Canberra", "Melbourne to Adelaide", "Sydney to Melbourne", "Sydney to Brisbane", "Sydney to Adelaide",
+          "Darwin to Alice Springs", "Melbourne to Brisbane (Newell Highway)", "Brisbane to Cairns", "Perth to Broome", "Adelaide to Perth (Nullarbor)",
+        ],
+        note: "Distances and driving times are OSRM routing on OpenStreetMap data, checked on 3 November 2026, with no traffic, roadworks or stops. The breaks follow the advice to stop for 15 minutes every two hours from the Queensland Government, the Road Safety Commission of Western Australia and Tasmania's Road Safety Advisory Council. The Queensland Government also advises never driving more than 10 hours in one day.",
+      }],
       formula: ["Driving minutes = distance (km) ÷ average speed (km/h) × 60", "Total minutes = driving minutes + stops × 20", "Average speeds: 85 km/h motorway or open straight, 70 km/h main highway, 60 km/h winding or coastal, 45 km/h narrow, steep or gravel"],
       formulaNote: "The speeds are planning averages that allow for towns, roadworks, slow vehicles and overtaking lanes. They are not speed limits.",
       example: [
@@ -406,6 +428,9 @@ export const toolStrings = {
         ["Why is the result longer than my maps app?", "Navigation apps estimate moving time close to the posted limits. This calculator adds the road character and the time you spend stopped, which is where a long day usually runs over."],
         ["Which road type should I choose for a campervan?", "Use main highway for most sealed national highways, winding or coastal for hilly and coastal routes, and narrow, steep or gravel for unsealed roads and mountain passes. A heavy campervan or a caravan on a climb is slower again."],
         ["Does the result include fuel and meal stops?", "Only the stops you enter. Add one for each refuel, meal or break you expect; each one adds 20 minutes to the day."],
+        ["How long does it take to drive from Sydney to Melbourne?", "About 10 h 15 min of driving for the 865 km on the Hume Highway, by OSRM routing, or about 11 h 30 min with a 15-minute break every two hours. Most people split it over two days, with a night in one of the Hume Highway towns."],
+        ["How far can you drive in a day in Australia?", "The Queensland Government advises a break of at least 15 minutes every 2 hours and never driving more than 10 hours in a single day. At this calculator's 70 km/h main highway average, 8 hours at the wheel covers about 560 km, which still leaves time to arrive before dusk."],
+        ["What are the driving times and distances in NSW?", "Sydney to Newcastle is 162 km, about 2 h 15 min of driving, and Sydney to Canberra is 286 km, about 3 h 30 min, by OSRM routing. Check Live Traffic NSW for closures and roadworks before you go."],
       ],
       ctaTitle: "Know where the day ends before you start it.",
       ctaText: "AussieCamps maps {campgrounds} campgrounds and {restAreas} rest areas, and builds a multi-stop route with the driving distance between stops.",

@@ -32,7 +32,7 @@ export const toolSelector: Record<ToolKey, string> = {
   "water-tank-calculator": "[data-tank-tool]",
 };
 
-function formatters(htmlLang: string) {
+export function formatters(htmlLang: string) {
   const fixed = (digits: number) => new Intl.NumberFormat(htmlLang, { minimumFractionDigits: digits, maximumFractionDigits: digits });
   // Australian English writes A$ so a visitor from another dollar country is never left guessing.
   const aud = (value: number) => (htmlLang === "en-AU" ? `A$${fixed(2).format(value)}` : new Intl.NumberFormat(htmlLang, { style: "currency", currency: "AUD" }).format(value));

@@ -473,6 +473,41 @@
         "metaDescription": "Stima quanto dura davvero una giornata di guida in Australia da distanza, tipo di strada e soste. Mostra le velocità medie usate, la formula e un esempio svolto.",
         "title": "Calcolatore del tempo di guida per road trip in Australia",
         "intro": "I navigatori indicano il tempo di marcia su strada libera. Questo calcolatore pianifica la giornata di guida che farai davvero: una velocità media per il tipo di strada, più il tempo delle soste per carburante, pasti e pause.",
+        "answer": [
+          "Per calcolare il tempo di viaggio in auto, dividi la distanza per una velocità media realistica e aggiungi le pause. In Australia conta circa 85 km/h in autostrada, 70 km/h sulle strade principali e 60 km/h sulle strade tortuose, e fermati 15 minuti ogni due ore, come raccomandano gli enti per la sicurezza stradale del Queensland, del Western Australia e della Tasmania.",
+          "Da Sydney a Melbourne ci sono 865 km: circa 10 h 15 min di guida sulla Hume Highway, o 11 h 30 min con le pause, quindi quasi tutti la fanno in due giorni."
+        ],
+        "tables": [
+          {
+            "heading": "Tempi di guida e distanze tra le città australiane",
+            "caption": "Distanza su strada e tempo al volante tra i centri città, con una pausa di 15 minuti ogni due ore di guida.",
+            "head": [
+              "Percorso",
+              "Distanza",
+              "Tempo di guida",
+              "Con le pause",
+              "Giorni a 8 h al giorno"
+            ],
+            "rows": [
+              "Sydney – Newcastle",
+              "Brisbane – Byron Bay",
+              "Hobart – Launceston",
+              "Sydney – Canberra",
+              "Alice Springs – Uluru (Yulara)",
+              "Melbourne – Canberra",
+              "Melbourne – Adelaide",
+              "Sydney – Melbourne",
+              "Sydney – Brisbane",
+              "Sydney – Adelaide",
+              "Darwin – Alice Springs",
+              "Melbourne – Brisbane (Newell Highway)",
+              "Brisbane – Cairns",
+              "Perth – Broome",
+              "Adelaide – Perth (Nullarbor)"
+            ],
+            "note": "Distanze e tempi di guida vengono dal calcolo del percorso di OSRM su dati OpenStreetMap, verificati il 3 novembre 2026, senza traffico, lavori o soste. Le pause seguono il consiglio di fermarsi 15 minuti ogni due ore del governo del Queensland, della Road Safety Commission del Western Australia e del Road Safety Advisory Council della Tasmania. Il governo del Queensland consiglia anche di non guidare mai più di 10 ore in un giorno."
+          }
+        ],
         "formula": [
           "Minuti di guida = distanza (km) ÷ velocità media (km/h) × 60",
           "Minuti totali = minuti di guida + soste × 20",
@@ -501,6 +536,18 @@
           [
             "Il risultato include le soste per carburante e pasti?",
             "Solo le soste che inserisci. Aggiungine una per ogni rifornimento, pasto o pausa che prevedi: ognuna aggiunge 20 minuti alla giornata."
+          ],
+          [
+            "Quanto ci vuole in auto da Sydney a Melbourne?",
+            "Circa 10 h 15 min di guida per gli 865 km della Hume Highway, secondo il calcolo del percorso di OSRM, o circa 11 h 30 min con una pausa di 15 minuti ogni due ore. Quasi tutti dividono il viaggio in due giorni, con una notte in una delle cittadine lungo la Hume Highway."
+          ],
+          [
+            "Quanti chilometri si possono fare in un giorno in Australia?",
+            "Il governo del Queensland consiglia una pausa di almeno 15 minuti ogni 2 ore e di non guidare mai più di 10 ore in un giorno. Alla media di 70 km/h che questo calcolatore usa per le strade principali, 8 ore al volante coprono circa 560 km e lasciano il tempo di arrivare prima del tramonto."
+          ],
+          [
+            "Quali sono i tempi di guida e le distanze nel Nuovo Galles del Sud?",
+            "Da Sydney a Newcastle ci sono 162 km, circa 2 h 15 min di guida, e da Sydney a Canberra 286 km, circa 3 h 30 min, secondo il calcolo del percorso di OSRM. Prima di partire controlla su Live Traffic NSW chiusure e lavori."
           ]
         ],
         "ctaTitle": "Scopri dove finisce la giornata prima di iniziarla.",

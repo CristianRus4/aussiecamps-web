@@ -291,6 +291,41 @@
         "metaDescription": "Odhadněte, jak dlouho v Austrálii opravdu trvá den za volantem, podle vzdálenosti, typu silnice a zastávek. Ukáže použité průměrné rychlosti, vzorec a příklad výpočtu.",
         "title": "Kalkulačka doby jízdy pro road trip po Austrálii",
         "intro": "Navigace počítá čistý čas jízdy po volné silnici. Tato kalkulačka plánuje den, který skutečně odjezdíte: průměrnou rychlost podle typu silnice plus čas strávený na zastávkách kvůli palivu, jídlu a přestávkám.",
+        "answer": [
+          "Dobu jízdy autem spočítáte tak, že vzdálenost vydělíte reálnou průměrnou rychlostí a přičtete přestávky. V Austrálii počítejte zhruba s 85 km/h na dálnicích, 70 km/h na hlavních silnicích a 60 km/h na klikatých silnicích a každé dvě hodiny zastavte na 15 minut, jak doporučují queenslandské, západoaustralské a tasmánské úřady pro bezpečnost silničního provozu.",
+          "Ze Sydney do Melbourne je to 865 km: asi 10 h 15 min za volantem po Hume Highway, nebo 11 h 30 min s přestávkami, takže většina lidí jede dva dny."
+        ],
+        "tables": [
+          {
+            "heading": "Doba jízdy a vzdálenosti mezi australskými městy",
+            "caption": "Silniční vzdálenost a čas za volantem mezi centry měst, s 15minutovou přestávkou na každé dvě hodiny jízdy.",
+            "head": [
+              "Trasa",
+              "Vzdálenost",
+              "Doba jízdy",
+              "S přestávkami",
+              "Dny při 8 h denně"
+            ],
+            "rows": [
+              "Sydney – Newcastle",
+              "Brisbane – Byron Bay",
+              "Hobart – Launceston",
+              "Sydney – Canberra",
+              "Alice Springs – Uluru (Yulara)",
+              "Melbourne – Canberra",
+              "Melbourne – Adelaide",
+              "Sydney – Melbourne",
+              "Sydney – Brisbane",
+              "Sydney – Adelaide",
+              "Darwin – Alice Springs",
+              "Melbourne – Brisbane (Newell Highway)",
+              "Brisbane – Cairns",
+              "Perth – Broome",
+              "Adelaide – Perth (Nullarbor)"
+            ],
+            "note": "Vzdálenosti a doby jízdy pocházejí z plánování tras OSRM nad daty OpenStreetMap, ověřeno 3. listopadu 2026, bez provozu, prací na silnici a zastávek. Přestávky odpovídají doporučení zastavit každé dvě hodiny na 15 minut, které vydávají vláda Queenslandu, Road Safety Commission státu Western Australia a tasmánská Road Safety Advisory Council. Vláda Queenslandu také radí nikdy neřídit více než 10 hodin za jeden den."
+          }
+        ],
         "formula": [
           "Minuty jízdy = vzdálenost (km) ÷ průměrná rychlost (km/h) × 60",
           "Celkem minut = minuty jízdy + zastávky × 20",
@@ -319,6 +354,18 @@
           [
             "Zahrnuje výsledek zastávky na tankování a jídlo?",
             "Jen zastávky, které zadáte. Přidejte jednu za každé tankování, jídlo nebo přestávku, se kterou počítáte; každá přidá ke dni 20 minut."
+          ],
+          [
+            "Jak dlouho trvá cesta autem ze Sydney do Melbourne?",
+            "Asi 10 h 15 min jízdy na 865 km po Hume Highway podle plánování tras OSRM, nebo asi 11 h 30 min s 15minutovou přestávkou každé dvě hodiny. Většina lidí si cestu rozdělí na dva dny a přespí v některém z městeček u Hume Highway."
+          ],
+          [
+            "Jak daleko se dá v Austrálii ujet za den?",
+            "Vláda Queenslandu radí dělat každé 2 hodiny přestávku nejméně 15 minut a nikdy neřídit více než 10 hodin za jeden den. Při průměru 70 km/h, se kterým tato kalkulačka počítá pro hlavní silnice, ujedete za 8 hodin za volantem asi 560 km a stále dorazíte před soumrakem."
+          ],
+          [
+            "Jaké jsou doby jízdy a vzdálenosti v NSW?",
+            "Ze Sydney do Newcastlu je to 162 km, asi 2 h 15 min jízdy, a ze Sydney do Canberry 286 km, asi 3 h 30 min, podle plánování tras OSRM. Před cestou se podívejte na Live Traffic NSW kvůli uzavírkám a pracím na silnici."
           ]
         ],
         "ctaTitle": "Vězte, kde den skončí, ještě než vyrazíte.",

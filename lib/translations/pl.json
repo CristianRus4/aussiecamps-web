@@ -291,6 +291,41 @@
         "metaDescription": "Oszacuj, ile naprawdę trwa dzień jazdy po Australii, na podstawie dystansu, rodzaju drogi i postojów. Pokazuje przyjęte średnie prędkości, wzór i przykład obliczeń.",
         "title": "Kalkulator czasu jazdy na road trip po Australii",
         "intro": "Aplikacje z mapami podają czas samej jazdy po pustej drodze. Ten kalkulator planuje dzień, który naprawdę przejedziesz: średnią prędkość dla danego rodzaju drogi plus czas postojów na tankowanie, jedzenie i przerwy.",
+        "answer": [
+          "Czas przejazdu samochodem obliczysz, dzieląc odległość przez realną średnią prędkość i doliczając przerwy. W Australii licz na około 85 km/h na autostradach, 70 km/h na głównych drogach i 60 km/h na krętych drogach, a co dwie godziny zatrzymuj się na 15 minut, tak jak zalecają instytucje bezpieczeństwa ruchu drogowego Queenslandu, Australii Zachodniej i Tasmanii.",
+          "Z Sydney do Melbourne jest 865 km: około 10 h 15 min za kierownicą Hume Highway albo 11 h 30 min z przerwami, więc większość osób jedzie dwa dni."
+        ],
+        "tables": [
+          {
+            "heading": "Czas jazdy i odległości między miastami Australii",
+            "caption": "Odległość drogowa i czas za kierownicą między centrami miast, z 15-minutową przerwą na każde dwie godziny jazdy.",
+            "head": [
+              "Trasa",
+              "Odległość",
+              "Czas jazdy",
+              "Z przerwami",
+              "Dni przy 8 h dziennie"
+            ],
+            "rows": [
+              "Sydney – Newcastle",
+              "Brisbane – Byron Bay",
+              "Hobart – Launceston",
+              "Sydney – Canberra",
+              "Alice Springs – Uluru (Yulara)",
+              "Melbourne – Canberra",
+              "Melbourne – Adelaide",
+              "Sydney – Melbourne",
+              "Sydney – Brisbane",
+              "Sydney – Adelaide",
+              "Darwin – Alice Springs",
+              "Melbourne – Brisbane (Newell Highway)",
+              "Brisbane – Cairns",
+              "Perth – Broome",
+              "Adelaide – Perth (Nullarbor)"
+            ],
+            "note": "Odległości i czasy jazdy pochodzą z wyznaczania tras OSRM na danych OpenStreetMap, sprawdzone 3 listopada 2026 roku, bez korków, robót drogowych i postojów. Przerwy odpowiadają zaleceniu, by co dwie godziny zatrzymać się na 15 minut, które podają rząd Queenslandu, Road Safety Commission Australii Zachodniej i Road Safety Advisory Council Tasmanii. Rząd Queenslandu radzi też, by nigdy nie prowadzić dłużej niż 10 godzin w ciągu jednego dnia."
+          }
+        ],
         "formula": [
           "Minuty jazdy = dystans (km) ÷ średnia prędkość (km/h) × 60",
           "Łącznie minut = minuty jazdy + postoje × 20",
@@ -319,6 +354,18 @@
           [
             "Czy wynik obejmuje postoje na tankowanie i posiłki?",
             "Tylko te postoje, które wpiszesz. Dodaj po jednym na każde tankowanie, posiłek lub przerwę, które przewidujesz; każdy dodaje do dnia 20 minut."
+          ],
+          [
+            "Ile jedzie się samochodem z Sydney do Melbourne?",
+            "Około 10 h 15 min jazdy na 865 km Hume Highway według wyznaczania tras OSRM albo około 11 h 30 min z 15-minutową przerwą co dwie godziny. Większość osób dzieli trasę na dwa dni i nocuje w jednym z miasteczek przy Hume Highway."
+          ],
+          [
+            "Ile kilometrów można przejechać w Australii w jeden dzień?",
+            "Rząd Queenslandu zaleca przerwę co najmniej 15 minut co 2 godziny i nigdy więcej niż 10 godzin jazdy w ciągu jednego dnia. Przy średniej 70 km/h, którą ten kalkulator przyjmuje dla głównych dróg, w 8 godzin za kierownicą przejedziesz około 560 km i nadal dotrzesz na miejsce przed zmierzchem."
+          ],
+          [
+            "Jakie są czasy jazdy i odległości w Nowej Południowej Walii?",
+            "Z Sydney do Newcastle jest 162 km, około 2 h 15 min jazdy, a z Sydney do Canberry 286 km, około 3 h 30 min, według wyznaczania tras OSRM. Przed wyjazdem sprawdź w Live Traffic NSW zamknięcia dróg i roboty drogowe."
           ]
         ],
         "ctaTitle": "Wiedz, gdzie skończy się dzień, zanim go zaczniesz.",

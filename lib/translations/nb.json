@@ -23611,6 +23611,41 @@
         "metaDescription": "Anslå hvor lang en kjøredag i Australia egentlig blir, ut fra distanse, veitype og stopp. Viser gjennomsnittsfartene som brukes, formelen og et regneeksempel.",
         "title": "Kjøretidskalkulator for roadtrip i Australia",
         "intro": "Kartapper oppgir ren kjøretid på fri vei. Denne kalkulatoren planlegger dagen du faktisk kjører: en gjennomsnittsfart for veitypen, pluss tiden du står stille for drivstoff, mat og pauser.",
+        "answer": [
+          "Kjøretiden med bil regner du ut ved å dele avstanden på en realistisk gjennomsnittsfart og legge til pausene. I Australia kan du regne med rundt 85 km/t på motorvei, 70 km/t på hovedveier og 60 km/t på svingete veier, og du bør stoppe 15 minutter annenhver time, slik trafikksikkerhetsmyndighetene i Queensland, Western Australia og Tasmania anbefaler.",
+          "Sydney til Melbourne er 865 km: rundt 10 t 15 min bak rattet på Hume Highway, eller 11 t 30 min med pauser. De fleste kjører derfor strekningen over to dager."
+        ],
+        "tables": [
+          {
+            "heading": "Kjøretider og avstander mellom australske byer",
+            "caption": "Avstand langs veien og tid bak rattet mellom sentrum i byene, med 15 minutters pause for hver andre time med kjøring.",
+            "head": [
+              "Strekning",
+              "Avstand",
+              "Kjøretid",
+              "Med pauser",
+              "Dager med 8 t per dag"
+            ],
+            "rows": [
+              "Sydney – Newcastle",
+              "Brisbane – Byron Bay",
+              "Hobart – Launceston",
+              "Sydney – Canberra",
+              "Alice Springs – Uluru (Yulara)",
+              "Melbourne – Canberra",
+              "Melbourne – Adelaide",
+              "Sydney – Melbourne",
+              "Sydney – Brisbane",
+              "Sydney – Adelaide",
+              "Darwin – Alice Springs",
+              "Melbourne – Brisbane (Newell Highway)",
+              "Brisbane – Cairns",
+              "Perth – Broome",
+              "Adelaide – Perth (Nullarbor)"
+            ],
+            "note": "Avstander og kjøretider kommer fra ruteberegningen til OSRM på OpenStreetMap-data, sjekket 3. november 2026, uten trafikk, veiarbeid eller stopp. Pausene følger rådet om å stoppe 15 minutter annenhver time fra myndighetene i Queensland, Road Safety Commission i Western Australia og Road Safety Advisory Council i Tasmania. Myndighetene i Queensland råder også til aldri å kjøre mer enn 10 timer på én dag."
+          }
+        ],
         "formula": [
           "Kjøreminutter = distanse (km) ÷ gjennomsnittsfart (km/t) × 60",
           "Totalt antall minutter = kjøreminutter + stopp × 20",
@@ -23639,6 +23674,18 @@
           [
             "Er drivstoff- og matstopp med i resultatet?",
             "Bare stoppene du legger inn. Legg til ett for hver tanking, hvert måltid eller hver pause du regner med; hvert stopp legger 20 minutter til dagen."
+          ],
+          [
+            "Hvor lang tid tar det å kjøre fra Sydney til Melbourne?",
+            "Rundt 10 t 15 min kjøring for de 865 km på Hume Highway, ifølge ruteberegningen til OSRM, eller rundt 11 t 30 min med 15 minutters pause annenhver time. De fleste deler turen over to dager og overnatter i en av byene langs Hume Highway."
+          ],
+          [
+            "Hvor langt kan man kjøre på én dag i Australia?",
+            "Myndighetene i Queensland råder til en pause på minst 15 minutter hver 2. time og til aldri å kjøre mer enn 10 timer på én dag. Med kalkulatorens gjennomsnitt på 70 km/t for hovedveier rekker du rundt 560 km på 8 timer bak rattet og er likevel fremme før skumringen."
+          ],
+          [
+            "Hva er kjøretidene og avstandene i New South Wales?",
+            "Sydney til Newcastle er 162 km, rundt 2 t 15 min kjøring, og Sydney til Canberra er 286 km, rundt 3 t 30 min, ifølge ruteberegningen til OSRM. Sjekk Live Traffic NSW for stengte veier og veiarbeid før du kjører."
           ]
         ],
         "ctaTitle": "Vit hvor dagen ender før du legger i vei.",

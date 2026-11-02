@@ -363,6 +363,14 @@ em { color: inherit; font: inherit; font-style: normal; }
 .tool-more { margin-top: 18px; }
 /* A standalone calculator page: the tool sits under the header, then the article-style explanation. */
 .tool-page-widget { max-width: 720px; margin: 0 auto 10px; }
+.article-header > .tool-answer { max-width: 800px; margin: 28px auto 0; padding: 18px 22px; border-left: 4px solid var(--eucalyptus); background: var(--soft); display: block; text-align: left; }
+.tool-answer p { margin: 0; color: var(--ink); font-size: 17px; line-height: 1.6; }
+.tool-answer p + p { margin-top: 10px; }
+.price-table th[scope="row"] a { color: var(--fern); font-weight: 700; }
+/* Tool reference tables sit in the article column, so they wrap the route label instead of scrolling. */
+.tool-table th, .tool-table td { min-width: 0; padding: 10px 8px; }
+.tool-table th:first-child { min-width: 0; white-space: normal; }
+.tool-table thead th { white-space: normal; vertical-align: bottom; }
 .tool-formula { margin: 18px 0; padding: 0; list-style: none; display: grid; gap: 8px; }
 .tool-formula code { display: block; padding: 12px 16px; border-left: 4px solid var(--eucalyptus); background: var(--soft); color: var(--ink); font-size: 15px; white-space: normal; }
 .tool-list { margin: 14px 0 0; padding-left: 20px; color: #4f5a49; font-size: 17px; line-height: 1.7; }

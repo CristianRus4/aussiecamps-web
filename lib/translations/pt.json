@@ -23640,6 +23640,41 @@
         "metaDescription": "Estima quanto dura mesmo um dia de condução na Austrália a partir da distância, do tipo de estrada e das paragens. Mostra as velocidades médias usadas, a fórmula e um exemplo.",
         "title": "Calculadora de tempo de condução para road trips na Austrália",
         "intro": "As apps de mapas indicam o tempo em andamento numa estrada livre. Esta calculadora planeia o dia que vais mesmo conduzir: uma velocidade média para o tipo de estrada, mais o tempo parado para abastecer, comer e descansar.",
+        "answer": [
+          "Para calcular o tempo de viagem de carro, divide a distância por uma velocidade média realista e soma as pausas. Na Austrália, conta com cerca de 85 km/h em autoestrada, 70 km/h nas estradas principais e 60 km/h nas estradas com curvas, e para 15 minutos de duas em duas horas, como recomendam as entidades de segurança rodoviária de Queensland, do Western Australia e da Tasmania.",
+          "De Sydney a Melbourne são 865 km: cerca de 10 h 15 min ao volante pela Hume Highway, ou 11 h 30 min com pausas, por isso a maioria das pessoas faz a viagem em dois dias."
+        ],
+        "tables": [
+          {
+            "heading": "Tempos de condução e distâncias entre cidades australianas",
+            "caption": "Distância por estrada e tempo ao volante entre centros das cidades, com uma pausa de 15 minutos por cada duas horas de condução.",
+            "head": [
+              "Percurso",
+              "Distância",
+              "Tempo ao volante",
+              "Com pausas",
+              "Dias a 8 h por dia"
+            ],
+            "rows": [
+              "Sydney – Newcastle",
+              "Brisbane – Byron Bay",
+              "Hobart – Launceston",
+              "Sydney – Canberra",
+              "Alice Springs – Uluru (Yulara)",
+              "Melbourne – Canberra",
+              "Melbourne – Adelaide",
+              "Sydney – Melbourne",
+              "Sydney – Brisbane",
+              "Sydney – Adelaide",
+              "Darwin – Alice Springs",
+              "Melbourne – Brisbane (Newell Highway)",
+              "Brisbane – Cairns",
+              "Perth – Broome",
+              "Adelaide – Perth (Nullarbor)"
+            ],
+            "note": "As distâncias e os tempos vêm do cálculo de rotas do OSRM com dados do OpenStreetMap, consultado a 3 de novembro de 2026, sem trânsito, obras nem paragens. As pausas seguem o conselho de parar 15 minutos de duas em duas horas do Governo de Queensland, da Road Safety Commission do Western Australia e do Road Safety Advisory Council da Tasmania. O Governo de Queensland aconselha também a nunca conduzir mais de 10 horas no mesmo dia."
+          }
+        ],
         "formula": [
           "Minutos de condução = distância (km) ÷ velocidade média (km/h) × 60",
           "Minutos totais = minutos de condução + paragens × 20",
@@ -23668,6 +23703,18 @@
           [
             "O resultado inclui as paragens para abastecer e comer?",
             "Só as paragens que indicares. Acrescenta uma por cada abastecimento, refeição ou pausa que prevejas; cada uma soma 20 minutos ao dia."
+          ],
+          [
+            "Quanto tempo demora a viagem de carro de Sydney a Melbourne?",
+            "Cerca de 10 h 15 min de condução para os 865 km da Hume Highway, segundo o cálculo de rotas do OSRM, ou cerca de 11 h 30 min com uma pausa de 15 minutos de duas em duas horas. A maioria divide a viagem em dois dias e dorme numa das localidades da Hume Highway."
+          ],
+          [
+            "Quantos quilómetros se podem fazer num dia na Austrália?",
+            "O Governo de Queensland aconselha uma pausa de pelo menos 15 minutos de 2 em 2 horas e nunca conduzir mais de 10 horas no mesmo dia. À média de 70 km/h que esta calculadora usa para estradas principais, 8 horas ao volante dão para cerca de 560 km e ainda chegas antes do anoitecer."
+          ],
+          [
+            "Quais são os tempos de condução e as distâncias em Nova Gales do Sul?",
+            "De Sydney a Newcastle são 162 km, cerca de 2 h 15 min de condução, e de Sydney a Canberra 286 km, cerca de 3 h 30 min, segundo o cálculo de rotas do OSRM. Antes de partir, consulta o Live Traffic NSW para ver cortes de estrada e obras."
           ]
         ],
         "ctaTitle": "Fica a saber onde acaba o dia antes de o começares.",

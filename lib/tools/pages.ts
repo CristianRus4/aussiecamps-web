@@ -11,7 +11,7 @@ import { isToolTranslated, toolCopy } from "./strings";
 /** The guides each tool page sends readers to (and which should link back to it). */
 export const toolGuides: Record<ToolKey, string[]> = {
   "fuel-cost-calculator": ["australia-road-trip-fuel-cost-2026", "road-trip-fuel-planning-australia", "campervan-road-trip-budget-australia"],
-  "drive-time-calculator": ["australia-road-trip-fatigue-wildlife-safety", "road-trip-fuel-planning-australia", "driving-in-australia-road-rules-visitors"],
+  "drive-time-calculator": ["australia-road-trip-fatigue-wildlife-safety", "east-coast-road-trip-sydney-cairns", "nullarbor-crossing-camping-guide", "perth-to-broome-road-trip", "road-trip-fuel-planning-australia", "driving-in-australia-road-rules-visitors"],
   "campsite-cost-calculator": ["camping-fees-australia-2026", "accommodation-costs-australia-2026", "campervan-road-trip-budget-australia"],
   "currency-converter": ["australia-travel-cost-2026", "australia-grocery-prices-2026", "eating-out-australia-prices-2026"],
   "water-tank-calculator": ["camping-water-planning", "dump-points-australia-guide", "campervan-road-trip-budget-australia"],
@@ -20,6 +20,13 @@ export const toolGuides: Record<ToolKey, string[]> = {
 /** Official sources behind a tool's default figures. */
 export const toolSources: Partial<Record<ToolKey, { label: string; url: string }[]>> = {
   "fuel-cost-calculator": [{ label: "Australian Government Fuel Plan statistics", url: "https://fuelplan.gov.au/fuel-statistics" }],
+  "drive-time-calculator": [
+    { label: "OSRM route service on OpenStreetMap data", url: "https://project-osrm.org/" },
+    { label: "Queensland Government: driving tired", url: "https://www.qld.gov.au/transport/safety/road-safety/driving-safely/driving-tired" },
+    { label: "Road Safety Commission of Western Australia: fatigue", url: "https://www.wa.gov.au/organisation/road-safety-commission/fatigue" },
+    { label: "Road Safety Advisory Council Tasmania: driving tired", url: "https://rsac.tas.gov.au/driving-tired/" },
+    { label: "Live Traffic NSW", url: "https://www.livetraffic.com/" },
+  ],
   "currency-converter": [{ label: "Reserve Bank of Australia exchange rates", url: "https://www.rba.gov.au/statistics/frequency/exchange-rates.html" }],
 };
 

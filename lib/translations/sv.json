@@ -23611,6 +23611,41 @@
         "metaDescription": "Uppskatta hur lång en kördag i Australien egentligen blir utifrån sträcka, vägtyp och stopp. Visar medelhastigheterna, formeln och ett räkneexempel.",
         "title": "Körtidsräknare för roadtrip i Australien",
         "intro": "Kartappar visar körtiden på en fri väg. Den här räknaren planerar kördagen som den faktiskt blir: en medelhastighet för vägtypen plus tiden du står still för tankning, mat och pauser.",
+        "answer": [
+          "Restiden med bil räknar du ut genom att dela sträckan med en realistisk medelhastighet och lägga till dina pauser. I Australien kan du räkna med ungefär 85 km/h på motorvägar, 70 km/h på huvudvägar och 60 km/h på slingriga vägar, och du bör stanna 15 minuter varannan timme, som trafiksäkerhetsmyndigheterna i Queensland, Western Australia och Tasmanien rekommenderar.",
+          "Sydney till Melbourne är 865 km: ungefär 10 h 15 min bakom ratten på Hume Highway, eller 11 h 30 min med pauser. De flesta kör därför sträckan på två dagar."
+        ],
+        "tables": [
+          {
+            "heading": "Körtider och avstånd mellan australiska städer",
+            "caption": "Avstånd på väg och tid bakom ratten mellan stadskärnorna, med 15 minuters paus för varannan timmes körning.",
+            "head": [
+              "Sträcka",
+              "Avstånd",
+              "Körtid",
+              "Med pauser",
+              "Dagar med 8 h per dag"
+            ],
+            "rows": [
+              "Sydney – Newcastle",
+              "Brisbane – Byron Bay",
+              "Hobart – Launceston",
+              "Sydney – Canberra",
+              "Alice Springs – Uluru (Yulara)",
+              "Melbourne – Canberra",
+              "Melbourne – Adelaide",
+              "Sydney – Melbourne",
+              "Sydney – Brisbane",
+              "Sydney – Adelaide",
+              "Darwin – Alice Springs",
+              "Melbourne – Brisbane (Newell Highway)",
+              "Brisbane – Cairns",
+              "Perth – Broome",
+              "Adelaide – Perth (Nullarbor)"
+            ],
+            "note": "Avstånd och körtider kommer från OSRM:s ruttberäkning på OpenStreetMap-data, kontrollerad den 3 november 2026, utan trafik, vägarbeten eller stopp. Pauserna följer rådet att stanna 15 minuter varannan timme från Queenslands regering, Road Safety Commission i Western Australia och Road Safety Advisory Council i Tasmanien. Queenslands regering avråder också från att någonsin köra mer än 10 timmar på en dag."
+          }
+        ],
         "formula": [
           "Körminuter = sträcka (km) ÷ medelhastighet (km/h) × 60",
           "Minuter totalt = körminuter + stopp × 20",
@@ -23639,6 +23674,18 @@
           [
             "Ingår tankning och måltider i resultatet?",
             "Bara de stopp du anger. Lägg till ett för varje tankning, måltid eller paus du räknar med. Varje stopp lägger till 20 minuter på dagen."
+          ],
+          [
+            "Hur lång tid tar det att köra från Sydney till Melbourne?",
+            "Ungefär 10 h 15 min körning för de 865 km på Hume Highway enligt OSRM:s ruttberäkning, eller ungefär 11 h 30 min med 15 minuters paus varannan timme. De flesta delar upp resan på två dagar och övernattar i någon av orterna längs Hume Highway."
+          ],
+          [
+            "Hur långt kan man köra på en dag i Australien?",
+            "Queenslands regering råder dig att ta en paus på minst 15 minuter var 2:a timme och att aldrig köra mer än 10 timmar på en dag. Med räknarens medelhastighet på 70 km/h för huvudvägar hinner du ungefär 560 km på 8 timmar bakom ratten och är ändå framme före skymningen."
+          ],
+          [
+            "Vilka är körtiderna och avstånden i New South Wales?",
+            "Sydney till Newcastle är 162 km, ungefär 2 h 15 min körning, och Sydney till Canberra 286 km, ungefär 3 h 30 min, enligt OSRM:s ruttberäkning. Kolla Live Traffic NSW efter avstängningar och vägarbeten innan du åker."
           ]
         ],
         "ctaTitle": "Ha koll på var dagen slutar innan du kör i väg.",

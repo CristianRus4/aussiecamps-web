@@ -23611,6 +23611,41 @@
         "metaDescription": "Beregn, hvor lang en køredag i Australien reelt er, ud fra distance, vejtype og stop. Viser gennemsnitsfarterne, formlen og et regneeksempel.",
         "title": "Køretidsberegner til roadtrip i Australien",
         "intro": "Kortapps opgiver køretiden på en fri vej uden trafik. Her planlægger du den dag, du faktisk kommer til at køre: en gennemsnitsfart for vejtypen plus den tid, du står stille for at tanke, spise og holde pause.",
+        "answer": [
+          "Køretiden i bil regner du ud ved at dele afstanden med en realistisk gennemsnitsfart og lægge dine pauser til. I Australien kan du regne med omkring 85 km/t på motorveje, 70 km/t på hovedveje og 60 km/t på snoede veje, og du bør holde 15 minutters pause hver anden time, som færdselssikkerhedsmyndighederne i Queensland, Western Australia og Tasmanien anbefaler.",
+          "Sydney til Melbourne er 865 km: cirka 10 t 15 min bag rattet ad Hume Highway, eller 11 t 30 min med pauser. De fleste kører derfor strækningen over to dage."
+        ],
+        "tables": [
+          {
+            "heading": "Køretider og afstande mellem australske byer",
+            "caption": "Afstand ad vejen og tid bag rattet mellem bycentrene, med 15 minutters pause for hver anden times kørsel.",
+            "head": [
+              "Rute",
+              "Afstand",
+              "Køretid",
+              "Med pauser",
+              "Dage ved 8 t om dagen"
+            ],
+            "rows": [
+              "Sydney – Newcastle",
+              "Brisbane – Byron Bay",
+              "Hobart – Launceston",
+              "Sydney – Canberra",
+              "Alice Springs – Uluru (Yulara)",
+              "Melbourne – Canberra",
+              "Melbourne – Adelaide",
+              "Sydney – Melbourne",
+              "Sydney – Brisbane",
+              "Sydney – Adelaide",
+              "Darwin – Alice Springs",
+              "Melbourne – Brisbane (Newell Highway)",
+              "Brisbane – Cairns",
+              "Perth – Broome",
+              "Adelaide – Perth (Nullarbor)"
+            ],
+            "note": "Afstande og køretider kommer fra OSRM's ruteberegning på OpenStreetMap-data, tjekket den 3. november 2026, uden trafik, vejarbejde eller stop. Pauserne følger rådet om at holde 15 minutters pause hver anden time fra Queenslands regering, Road Safety Commission i Western Australia og Road Safety Advisory Council i Tasmanien. Queenslands regering råder også til aldrig at køre mere end 10 timer på én dag."
+          }
+        ],
         "formula": [
           "Køretid i minutter = distance (km) ÷ gennemsnitsfart (km/t) × 60",
           "Samlet tid i minutter = køretid i minutter + stop × 20",
@@ -23639,6 +23674,18 @@
           [
             "Er tankning og spisepauser med i resultatet?",
             "Kun de stop, du selv taster ind. Læg et til for hver tankning, hvert måltid eller hver pause, du regner med; hvert stop lægger 20 minutter til dagen."
+          ],
+          [
+            "Hvor lang tid tager det at køre fra Sydney til Melbourne?",
+            "Cirka 10 t 15 min kørsel for de 865 km ad Hume Highway ifølge OSRM's ruteberegning, eller cirka 11 t 30 min med 15 minutters pause hver anden time. De fleste deler turen over to dage og overnatter i en af byerne langs Hume Highway."
+          ],
+          [
+            "Hvor langt kan man køre på én dag i Australien?",
+            "Queenslands regering råder til en pause på mindst 15 minutter hver 2. time og til aldrig at køre mere end 10 timer på én dag. Med beregnerens gennemsnit på 70 km/t for hovedveje når du cirka 560 km på 8 timer bag rattet og er stadig fremme før skumringen."
+          ],
+          [
+            "Hvad er køretider og afstande i New South Wales?",
+            "Sydney til Newcastle er 162 km, cirka 2 t 15 min kørsel, og Sydney til Canberra er 286 km, cirka 3 t 30 min, ifølge OSRM's ruteberegning. Tjek Live Traffic NSW for lukkede veje og vejarbejde, før du kører."
           ]
         ],
         "ctaTitle": "Vid, hvor dagen ender, før du går i gang med den.",

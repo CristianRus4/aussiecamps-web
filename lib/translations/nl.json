@@ -473,6 +473,41 @@
         "metaDescription": "Schat hoe lang een rijdag in Australië echt duurt, uit afstand, wegtype en stops. Met de gebruikte gemiddelde snelheden, de formule en een voorbeeldberekening.",
         "title": "Rijtijd berekenen voor een roadtrip door Australië",
         "intro": "Navigatie-apps geven de rijtijd op een vrije weg. Deze rekenhulp plant de dag zoals je die echt rijdt: een gemiddelde snelheid voor het soort weg, plus de tijd die je stilstaat voor brandstof, eten en pauzes.",
+        "answer": [
+          "Reistijd met de auto bereken je door de afstand te delen door een realistische gemiddelde snelheid en je pauzes erbij op te tellen. Reken in Australië op ongeveer 85 km/u op snelwegen, 70 km/u op hoofdwegen en 60 km/u op bochtige wegen, en stop elke twee uur 15 minuten, zoals de verkeersveiligheidsinstanties van Queensland, Western Australia en Tasmanië adviseren.",
+          "Sydney–Melbourne is 865 km: ongeveer 10 uur en 15 minuten rijden over de Hume Highway, of 11 uur en 30 minuten met pauzes. De meeste mensen doen er daarom twee dagen over."
+        ],
+        "tables": [
+          {
+            "heading": "Rijtijden en afstanden tussen Australische steden",
+            "caption": "Afstand over de weg en rijtijd tussen de stadscentra, met 15 minuten pauze per twee uur rijden.",
+            "head": [
+              "Route",
+              "Afstand",
+              "Rijtijd",
+              "Met pauzes",
+              "Dagen bij 8 uur per dag"
+            ],
+            "rows": [
+              "Sydney – Newcastle",
+              "Brisbane – Byron Bay",
+              "Hobart – Launceston",
+              "Sydney – Canberra",
+              "Alice Springs – Uluru (Yulara)",
+              "Melbourne – Canberra",
+              "Melbourne – Adelaide",
+              "Sydney – Melbourne",
+              "Sydney – Brisbane",
+              "Sydney – Adelaide",
+              "Darwin – Alice Springs",
+              "Melbourne – Brisbane (Newell Highway)",
+              "Brisbane – Cairns",
+              "Perth – Broome",
+              "Adelaide – Perth (Nullarbor)"
+            ],
+            "note": "Afstanden en rijtijden komen uit de routeplanning van OSRM op OpenStreetMap-gegevens, gecontroleerd op 3 november 2026, zonder verkeer, wegwerkzaamheden of stops. De pauzes volgen het advies van de regering van Queensland, de Road Safety Commission van Western Australia en de Road Safety Advisory Council van Tasmanië om elke twee uur 15 minuten te stoppen. De regering van Queensland raadt ook aan nooit meer dan 10 uur op één dag te rijden."
+          }
+        ],
         "formula": [
           "Rijminuten = afstand (km) ÷ gemiddelde snelheid (km/u) × 60",
           "Totaal aantal minuten = rijminuten + stops × 20",
@@ -501,6 +536,18 @@
           [
             "Telt de uitkomst brandstof- en eetstops mee?",
             "Alleen de stops die je invult. Tel er één voor elke tankbeurt, maaltijd of pauze die je verwacht; elke stop voegt 20 minuten aan de dag toe."
+          ],
+          [
+            "Hoe lang rijd je van Sydney naar Melbourne?",
+            "Ongeveer 10 uur en 15 minuten rijden voor de 865 km over de Hume Highway, volgens de routeplanning van OSRM, of ongeveer 11 uur en 30 minuten met elke twee uur 15 minuten pauze. De meeste mensen verdelen de rit over twee dagen en overnachten in een van de plaatsen langs de Hume Highway."
+          ],
+          [
+            "Hoe ver kun je in Australië op één dag rijden?",
+            "De regering van Queensland adviseert om elke 2 uur minstens 15 minuten pauze te nemen en nooit meer dan 10 uur op één dag te rijden. Met het gemiddelde van 70 km/u dat deze calculator voor hoofdwegen gebruikt, kom je in 8 uur achter het stuur ongeveer 560 km ver en ben je nog voor de schemering op je bestemming."
+          ],
+          [
+            "Wat zijn de rijtijden en afstanden in New South Wales?",
+            "Sydney–Newcastle is 162 km, ongeveer 2 uur en 15 minuten rijden, en Sydney–Canberra 286 km, ongeveer 3 uur en 30 minuten, volgens de routeplanning van OSRM. Kijk voor vertrek op Live Traffic NSW voor afsluitingen en wegwerkzaamheden."
           ]
         ],
         "ctaTitle": "Weet al vóór vertrek waar je de dag eindigt.",
