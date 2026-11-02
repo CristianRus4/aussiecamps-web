@@ -50,8 +50,8 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-11-08 | can-i-drive-on-the-beach-in-australia | scheduled |
 | 2026-11-09 | can-i-camp-in-a-national-park-without-booking-in-australia | scheduled |
 | 2026-11-10 | can-i-collect-firewood-while-camping-in-australia | scheduled |
-| 2026-11-11 | can-i-fly-a-drone-while-camping-in-australia | scheduled |
-| 2026-11-12 | can-i-fish-without-a-licence-while-camping-in-australia | scheduled |
+| 2026-11-11 | bushfire-safety-camping-australia | scheduled |
+| 2026-11-12 | school-holidays-australia-2027 | scheduled |
 | 2026-11-13 | can-i-use-a-generator-at-a-campsite-in-australia | scheduled |
 | 2026-11-14 | can-i-stay-overnight-at-a-rest-area-in-australia | scheduled |
 | 2026-11-15 | can-i-camp-on-aboriginal-land-without-a-permit | scheduled |
@@ -91,3 +91,7 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-12-19 | can-i-drive-a-2wd-hire-campervan-on-4wd-roads-in-australia | scheduled |
 | 2026-12-20 | holiday-park-prices-australia-2026 | scheduled |
 | 2026-12-21 | first-two-weeks-working-holiday-australia | scheduled |
+| 2026-12-22 | can-i-fly-a-drone-while-camping-in-australia | scheduled |
+| 2026-12-23 | can-i-fish-without-a-licence-while-camping-in-australia | scheduled |
+| 2026-12-24 | petrol-diesel-prices-australia-2026 | scheduled |
+| 2026-12-25 | toll-roads-australia-hire-car-campervan | scheduled |
