@@ -37,7 +37,11 @@
     "dataSources": "Data sources",
     "australia": "Australia",
     "campgroundCount": "{count} campgrounds",
-    "sourceFact": "From {source}"
+    "sourceFact": "From {source}",
+    "notesTitle": "Season and permits in {where}",
+    "notesSources": "Official sources",
+    "guidesTitle": "Guides for {where}",
+    "neighboursTitle": "Neighbouring states"
   },
   "sections": {
     "camping": {
@@ -160,6 +164,24 @@
     "camping-fee": "Camping fee",
     "free": "Free",
     "park-entry-fee": "Park entry fee"
+  },
+  "notes": {
+    "nsw-season": "The NSW Bush Fire Danger Period runs from 1 October to 31 March, and on a Total Fire Ban day no fire may be lit in the open. Popular coastal campgrounds book out over summer and the school holidays.",
+    "nsw-permits": "Most campgrounds on the NSW National Parks website need a booking, even the free ones, and 45 parks charge a separate daily vehicle entry fee. Camping in state forests is free and cannot be booked.",
+    "vic-season": "The Fire Danger Period is set council by council, usually from spring until April or May; in 2026-27 it began on 5 October in East Gippsland and Wellington. Seasonal road closures in parks and forests run from June to November.",
+    "vic-permits": "Bookable Parks Victoria campgrounds must be booked in advance with your vehicle registration, at half the usual fee until July 2027. State forest campgrounds are free, except Murrindindi Scenic Reserve.",
+    "qld-season": "Queensland declares local fire bans by council area instead of Total Fire Bans, and they cover parks and forests. Check park alerts and Bureau of Meteorology warnings before each leg.",
+    "qld-permits": "Every camp in a Queensland national park, state forest or recreation area needs a permit booked and paid before you arrive, up to 12 months ahead. Driving on K'gari, Bribie Island, Mulgumpin, Minjerribah or at Cooloola also needs a vehicle access permit.",
+    "nt-season": "The dry season runs from May to September, when park campgrounds are busiest. The build-up and the wet, from October to April, bring storms and road closures, and Central Australia can pass 40 degrees in those months.",
+    "nt-permits": "Campsites in NT parks are booked and paid online before you arrive, and visitors from outside the Territory need an NT Parks Visitor Pass for most parks. Kakadu and Uluru-Kata Tjuta sell their own passes through Parks Australia.",
+    "wa-season": "The north is best in the dry season, roughly May to October, and the cyclone season runs from November to April. Many parks stop campfires from about 1 December to 31 March.",
+    "wa-permits": "Many national park campgrounds are booked through Park Stay WA up to 180 days ahead, and parks such as Karijini and Cape Range charge vehicle entry on top of camping. Ningaloo Coast bookings open each month, on the first Tuesday.",
+    "sa-season": "The Fire Danger Season is set by district: in 2026-27 it starts on 15 October in the Flinders, Eastern Eyre, West Coast and pastoral districts and on 1 November in the South East, Murraylands and Riverland, and runs into April. Munga-Thirri-Simpson Desert closes from 1 December to 15 March.",
+    "sa-permits": "Almost every national park campsite must be booked before you arrive, up to 12 months ahead, and a booking usually covers vehicle entry to that park. The Desert Parks Pass covers entry and camping in the far north.",
+    "tas-season": "Fuel Stove Only Areas ban campfires all year across much of the wilderness, including Cradle Mountain-Lake St Clair, Freycinet and Mount Field, and alpine weather can turn cold in any season. On a Total Fire Ban day all outdoor fires are banned in parks.",
+    "tas-permits": "A parks pass is needed to enter any Tasmanian national park, and campground fees come on top. Parks and Wildlife Service moved to a new booking system on 3 November 2026, so check when your campground takes bookings.",
+    "act-season": "The ACT bushfire season runs from 1 October to 31 March. On a Total Fire Ban day there are no fires in the open, and public gas barbecues are switched off.",
+    "act-permits": "There is no free camping in the ACT: every campground must be booked in advance and charges a fee. Entry to Namadgi National Park is free."
   },
   "prose": {
     "camping/new-south-wales": [

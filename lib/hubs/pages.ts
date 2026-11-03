@@ -3,6 +3,7 @@ import meta from "../data/hubs.meta.json";
 import { SITE_URL, sitePath } from "../site";
 import { alternatesFor, homeOgImage } from "../seo";
 import { builtHubs, hubData, hubProse, hubVerdicts, indexableHubs, type Hub, type HubKind } from "./gate";
+import { neighbours } from "./regions";
 
 /**
  * Page-level facts about the hubs: their sections, titles, breadcrumbs and the routes they publish.
@@ -88,6 +89,15 @@ export function hubBreadcrumbs(hub: Hub): { name: string; path: string }[] {
 export const childHubs = (hub: Hub) => indexableHubs.filter((other) => other.parent === hub.id);
 /** The same state's other indexable hub types (camping, dump points, rest areas). */
 export const relatedHubs = (hub: Hub) => indexableHubs.filter((other) => other.state === hub.state && other.parent === null && other.id !== hub.id && sectionOf(other.kind) !== sectionOf(hub.kind));
+/**
+ * The same kind of hub next door: for a state hub, the indexable hubs of that section in the states
+ * that share its border; for a park, the other indexable parks of its state.
+ */
+export function neighbourHubs(hub: Hub): Hub[] {
+  if (hub.kind === "camping-park") return indexableHubs.filter((other) => other.parent === hub.parent && other.id !== hub.id);
+  const states = neighbours[hub.state] ?? [];
+  return indexableHubs.filter((other) => other.kind === hub.kind && states.includes(other.state));
+}
 export const sectionHubs = (section: HubSection) => indexableHubs.filter((hub) => sectionOf(hub.kind) === section && hub.parent === null);
 export const isSectionIndexable = (section: HubSection) => sectionHubs(section).length > 0;
 export const proseFor = (hub: Hub) => hubProse[hub.id] ?? [];

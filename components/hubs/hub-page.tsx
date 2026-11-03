@@ -9,8 +9,9 @@ import { appStoreUrl } from "@/lib/app-store";
 import { SITE_URL, getArticle, sitePath } from "@/lib/site";
 import { hubData, type Hub } from "@/lib/hubs/gate";
 import {
-  childHubs, formatDataDate, hubAttributions, hubBreadcrumbs, hubPageKey, hubPath, hubSummary, proseFor, relatedHubs, sectionCopy, sectionOf,
+  childHubs, formatDataDate, hubAttributions, hubBreadcrumbs, hubPageKey, hubPath, hubSummary, neighbourHubs, proseFor, relatedHubs, sectionCopy, sectionOf,
 } from "@/lib/hubs/pages";
+import { hubGuides, stateNotes } from "@/lib/hubs/regions";
 
 const number = (value: number) => new Intl.NumberFormat("en-AU").format(value);
 
@@ -44,6 +45,9 @@ export function HubPage({ hub }: { hub: Hub }) {
   const rules = getArticle(hub.rulesGuide);
   const children = childHubs(hub);
   const related = relatedHubs(hub);
+  const notes = stateNotes[hub.state];
+  const guides = hubGuides(hub.state, section, hub.rulesGuide).flatMap((slug) => getArticle(slug) ?? []);
+  const nearby = neighbourHubs(hub);
   const crumbs = hubBreadcrumbs(hub);
   const showLinks = hub.places.some((place) => place.url);
   const cta = ctaCopy[section](hub.placeCount, where);
@@ -120,6 +124,20 @@ export function HubPage({ hub }: { hub: Hub }) {
             {children.length > 0 && <section className="sources">
               <h2>Parks in {hub.stateName} with their own page</h2>
               <ul>{children.map((child) => <li key={child.id}><Link href={hubPath(child)}>{child.name} ({number(child.placeCount)} campgrounds)<ArrowRight /></Link></li>)}</ul>
+            </section>}
+            {notes && <section className="sources hub-notes">
+              <h2>Season and permits in {hub.stateName}</h2>
+              <p>{notes.season}</p>
+              <p>{notes.permits}</p>
+              <p>Official sources: {notes.sources.map((source, index) => <span key={source.url}>{index > 0 && ", "}<a href={source.url} rel="noopener">{source.name}</a></span>)}</p>
+            </section>}
+            {guides.length > 0 && <section className="sources">
+              <h2>Guides for {hub.stateName}</h2>
+              <ul>{guides.map((guide) => <li key={guide.slug}><Link href={sitePath(`/guides/${guide.slug}`)} data-guide={guide.slug}>{guide.title}<ArrowRight /></Link></li>)}</ul>
+            </section>}
+            {nearby.length > 0 && <section className="sources">
+              <h2>{hub.kind === "camping-park" ? `Parks in ${hub.stateName} with their own page` : "Neighbouring states"}</h2>
+              <ul>{nearby.map((other) => <li key={other.id}><Link href={hubPath(other)}>{hub.kind === "camping-park" ? `${other.name} (${number(other.placeCount)} campgrounds)` : other.name}<ArrowRight /></Link></li>)}</ul>
             </section>}
             <section className="sources">
               <h2>Before you go</h2>

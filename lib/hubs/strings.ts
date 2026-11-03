@@ -1,5 +1,6 @@
 import { hubTranslationFiles } from "../translations/hubs/index";
 import { hubData, hubProse, hubVerdicts, type Hub } from "./gate";
+import { noteKeys, noteSource } from "./regions";
 
 /**
  * The `hubs` translation namespace, with English fallback.
@@ -62,6 +63,10 @@ const common = {
   australia: "Australia",
   campgroundCount: "{count} campgrounds",
   sourceFact: "From {source}",
+  notesTitle: "Season and permits in {where}",
+  notesSources: "Official sources",
+  guidesTitle: "Guides for {where}",
+  neighboursTitle: "Neighbouring states",
 };
 
 type SectionStrings = {
@@ -148,6 +153,7 @@ export type HubStrings = {
   facts: Record<string, string>;
   facilities: Record<string, string>;
   fees: Record<string, string>;
+  notes: Record<string, string>;
   prose: Record<string, string[]>;
 };
 
@@ -159,6 +165,7 @@ export function hubSource(): HubStrings {
     sections,
     shares,
     ...labelsOf(translatableHubs),
+    notes: noteSource(),
     prose: Object.fromEntries(translatableHubs.filter((hub) => hubProse[hub.id]?.length).map((hub) => [hub.id, hubProse[hub.id]])),
   };
 }
@@ -168,8 +175,9 @@ export const hubSourceText = () => `${JSON.stringify(hubSource(), null, 2)}\n`;
 // Completeness
 
 type Partialish<T> = { [K in keyof T]?: T[K] extends string ? string : T[K] extends Record<string, unknown> ? Partialish<T[K]> : T[K] };
-type HubTranslation = Partialish<Omit<HubStrings, "prose" | "shares" | "facts" | "facilities" | "fees">> & {
-  shares?: Record<string, string>; facts?: Record<string, string>; facilities?: Record<string, string>; fees?: Record<string, string>; prose?: Record<string, string[]>;
+type HubTranslation = Partialish<Omit<HubStrings, "prose" | "shares" | "facts" | "facilities" | "fees" | "notes">> & {
+  shares?: Record<string, string>; facts?: Record<string, string>; facilities?: Record<string, string>; fees?: Record<string, string>;
+  notes?: Record<string, string>; prose?: Record<string, string[]>;
 };
 const files = hubTranslationFiles as unknown as Record<string, HubTranslation>;
 const source = hubSource();
@@ -196,6 +204,21 @@ function isProseComplete(english: string[] | undefined, translated: unknown) {
     && [false, true].some((clock) => proseNumbers(paragraph, clock) === proseNumbers(translated[index], clock)));
 }
 
+/**
+ * A state note carries dates and counts, so every English number must survive translation. Extra
+ * numbers are allowed: Japanese, Korean and Chinese write months as numbers ("10月1日").
+ */
+function isNoteComplete(english: string, translated: unknown) {
+  if (!filled(translated)) return false;
+  const have = proseNumbers(translated).split(" ");
+  return proseNumbers(english).split(" ").filter(Boolean).every((number) => {
+    const index = have.indexOf(number);
+    if (index === -1) return false;
+    have.splice(index, 1);
+    return true;
+  });
+}
+
 /** The shared strings every localised hub page and index uses. */
 export function isHubCommonComplete(locale: string) {
   const file = files[locale];
@@ -203,13 +226,15 @@ export function isHubCommonComplete(locale: string) {
     && (Object.keys(source.sections) as (keyof typeof sections)[]).every((key) => allMatch(source.sections[key], file.sections?.[key]));
 }
 
-/** True when this hub's page can render whole in the locale: shared strings, its own labels, its own prose. */
+/** True when this hub's page can render whole in the locale: shared strings, its own labels, its state's notes, its own prose. */
 export function isHubTranslated(locale: string, hub: Hub) {
   if (locale === "en") return true;
   const file = files[locale];
   if (!file || !isHubCommonComplete(locale)) return false;
   const own = labelsOf([hub]);
+  const notes = noteKeys(hub.state).filter((key) => source.notes[key]);
   return allMatch(own.facts, file.facts) && allMatch(own.facilities, file.facilities) && allMatch(own.fees, file.fees)
+    && notes.every((key) => isNoteComplete(source.notes[key], file.notes?.[key]))
     && isProseComplete(source.prose[hub.id] ?? hubProse[hub.id], file.prose?.[hub.id]);
 }
 
