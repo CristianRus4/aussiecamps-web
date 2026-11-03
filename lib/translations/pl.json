@@ -306,9 +306,9 @@
         ],
         "formulaNote": "Kalkulator zaokrągla litry do jednego miejsca po przecinku, a kwoty do centa. Nic więcej nie dolicza: opłaty drogowe, olej i zużycie opon to w budżecie osobne pozycje.",
         "example": [
-          "Trasa 1 000 km autem, które spala 12 l/100 km, przy cenie 2,08 AUD za litr. To średnia cena benzyny w pięciu największych miastach według danych Fuel Plan z 5 sierpnia 2026.",
-          "1 000 × 12 ÷ 100 = 120 litrów. 120 × 2,08 AUD = 249,60 AUD. 249,60 AUD ÷ 1 000 km = około 0,25 AUD za kilometr.",
-          "Ta sama trasa autem z silnikiem Diesla, przy średniej cenie oleju napędowego z tego dnia, 2,47 AUD za litr, kosztuje 120 × 2,47 AUD = 296,40 AUD."
+          "Trasa 1 000 km autem, które spala 12 l/100 km, przy cenie 2,33 AUD za litr. To średnia cena benzyny w pięciu największych miastach według Australian Institute of Petroleum w tygodniu do 1 listopada 2026 roku.",
+          "1 000 × 12 ÷ 100 = 120 litrów. 120 × 2,33 AUD = 279,60 AUD. 279,60 AUD ÷ 1 000 km = około 0,28 AUD za kilometr.",
+          "Ta sama trasa autem z silnikiem Diesla, przy średniej cenie oleju napędowego z tego tygodnia, 2,77 AUD za litr, kosztuje 120 × 2,77 AUD = 332,40 AUD."
         ],
         "assumptions": [
           "Spalanie to wartość dla załadowanego auta. Kamper, bagaż na dachu albo przyczepa z tyłu spalają więcej niż liczba z katalogu, więc jeśli możesz, zmierz własne.",
@@ -322,7 +322,7 @@
           ],
           [
             "Jak policzyć koszt paliwa na kilometr?",
-            "Podziel spalanie w l/100 km przez 100 i pomnóż przez cenę za litr. Przy 12 l/100 km i 2,08 AUD za litr to 0,12 × 2,08, czyli około 0,25 AUD za kilometr."
+            "Podziel spalanie w l/100 km przez 100 i pomnóż przez cenę za litr. Przy 12 l/100 km i 2,33 AUD za litr to 0,12 × 2,33, czyli około 0,28 AUD za kilometr."
           ],
           [
             "Jaką cenę paliwa przyjąć?",
@@ -526,6 +526,13 @@
         "ctaText": "AussieCamps pokazuje na mapie {water} punktów poboru wody i {dumpPoints} punktów zrzutu nieczystości w całej Australii, z udogodnieniami podanymi przy każdym z nich."
       }
     }
+  },
+  "answerCta": {
+    "drive-time-calculator": "Zaplanuj całą trasę w AussieCamps: planer podróży pokazuje odległość i czas jazdy każdego odcinka oraz miejsca odpoczynku i kempingi po drodze.",
+    "fuel-cost-calculator": "Zaplanuj tankowania w AussieCamps: planer pokazuje odległość każdego odcinka, a mapa miejsca odpoczynku i punkty zrzutu nieczystości po drodze.",
+    "alcohol-coffee-drink-prices-australia": "Oszczędzaj na podstawach: AussieCamps pokazuje na mapie punkty z wodą pitną oraz opłaty i udogodnienia każdego kempingu, zanim dojedziesz.",
+    "best-camping-app-australia": "Wypróbuj AussieCamps na iPhonie: oficjalne dane o kempingach, miejscach odpoczynku i punktach zrzutu, dostępne także bez zasięgu, i planer podróży przystanek po przystanku.",
+    "drive-guide": "Zaplanuj tę trasę jako podróż w AussieCamps: każdy nocleg pokazuje odległość i czas jazdy od poprzedniego oraz prognozę pogody na dzień przyjazdu."
   },
   "pages": {
     "support": {
@@ -8089,15 +8096,15 @@
     },
     "alcohol-coffee-drink-prices-australia": {
       "title": "Ceny piwa i kawy w Australii 2026: piwo w pubie 7–16 AUD",
-      "description": "Piwo w pubie kosztuje w Sydney od 7 do 16 AUD, a cappuccino od 4,50 do 8 AUD (październik 2026). Ceny piwa i wina z bottle shopu oraz sposoby na tańsze napoje.",
+      "description": "Piwo w pubie kosztuje w Sydney od 7 do 16 AUD, a cappuccino od 4,50 do 8 AUD (październik 2026). Na standardową porcję piwo w pubie to 4–9 AUD, a wino z bottle shopu 1,60–4 AUD.",
       "region": "Australia",
       "imageAlt": "Napoje z australijskiej kawiarni na stoliku",
-      "intro": "Piwo z beczki 500 ml w pubie w Sydney kosztuje od około 7 do 16 AUD, a cappuccino od 4,50 do 8 AUD (dane cenowe od użytkowników, aktualizacja: październik 2026), natomiast butelka piwa 500 ml z bottle shopu (sklepu monopolowego) w całym kraju to od około 3,50 do 12 AUD. Wydatki na napoje rosną kolejka po kolejce.",
+      "intro": "Piwo z beczki 500 ml w pubie w Sydney kosztuje od około 7 do 16 AUD, a cappuccino od 4,50 do 8 AUD (dane cenowe od użytkowników, aktualizacja: październik 2026), natomiast butelka piwa 500 ml z bottle shopu (sklepu monopolowego) w całym kraju to od około 3,50 do 12 AUD. Na standardową porcję alkoholu wychodzi około 4–9 AUD w pubie, 2–7 AUD za piwo z bottle shopu i 1,60–4 AUD za butelkę wina ze średniej półki, więc najtaniej pije się to, co zabierasz na kemping.",
       "sections": [
         {
           "heading": "Cena w sklepie i cena w lokalu to dwie różne rzeczy",
           "body": [
-            "Cena w pubie obejmuje lokal, personel i obsługę, a nie tylko to, co w szklance. Porównuj rzeczy porównywalne i nie przedstawiaj ceny odpowiednika z bottle shopu jako ceny napoju nalanego w lokalu.",
+            "Cena w pubie obejmuje lokal, personel i obsługę, a nie tylko to, co w szklance. Porównuj rzeczy porównywalne i nie przedstawiaj ceny odpowiednika z bottle shopu jako ceny napoju nalanego w lokalu. Uczciwe porównanie dają standardowe porcje: Healthy WA przyjmuje, że standardowa porcja to 10 gramów alkoholu, tyle co w 285 ml zwykłego piwa lub 100 ml wina, więc piwo 500 ml to około 1,75 porcji, a butelka wina 750 ml około 7,5.",
             "Happy hours i promocje są chwilowe. Planuj budżet na podstawie zwykłych cen, a każdą zniżkę traktuj jako zapas."
           ],
           "tips": []
@@ -8200,6 +8207,9 @@
         },
         {
           "label": "Terytorium Północne: kupowanie i picie alkoholu"
+        },
+        {
+          "label": "Healthy WA: czym jest standardowa porcja alkoholu"
         }
       ],
       "priceTable": {
@@ -8637,10 +8647,10 @@
     },
     "australia-road-trip-fuel-cost-2026": {
       "title": "Ceny paliwa w Australii 2026: ile kosztuje road trip",
-      "description": "Policz koszt benzyny lub diesla z dystansu i spalania: aktualne oficjalne średnie ceny z miast plus zapas na droższe paliwo na odludnych trasach.",
+      "description": "Policz koszt benzyny lub diesla z dystansu i spalania: aktualne średnie ceny z miast plus zapas na droższe paliwo na odludnych trasach.",
       "region": "Australia",
       "imageAlt": "Tankowanie podczas road tripu po Australii",
-      "intro": "Na paliwie kilometry zamieniają się w pieniądze. Według oficjalnych danych Fuel Plan z 5 sierpnia 2026 średnia w pięciu największych miastach wynosiła 2,08 AUD za litr benzyny i 2,47 AUD za litr oleju napędowego. Na odludziu ceny mogą być znacznie wyższe.",
+      "intro": "Na paliwie kilometry zamieniają się w pieniądze. W tygodniu do 1 listopada 2026 roku średnia w pięciu największych miastach według Australian Institute of Petroleum wynosiła 2,33 AUD za litr benzyny i 2,77 AUD za litr oleju napędowego. Na odludziu ceny mogą być znacznie wyższe.",
       "sections": [
         {
           "heading": "Jak to policzyć",
@@ -8653,7 +8663,7 @@
         {
           "heading": "Średnia miejska nie jest ceną na odludziu",
           "body": [
-            "Oficjalna średnia miejska to przejrzysty punkt wyjścia. Roadhouse'y na odludziu (stacje paliw z barem) mają inne koszty i są zbyt ważne, żeby je omijać tylko po to, by złapać niższą cenę gdzieś dalej.",
+            "Średnia miejska to przejrzysty punkt wyjścia. Roadhouse'y na odludziu (stacje paliw z barem) mają inne koszty i są zbyt ważne, żeby je omijać tylko po to, by złapać niższą cenę gdzieś dalej.",
             "Tankuj z zapasem, wiedz, gdzie jest następna pewna stacja, i wpisz postoje na tankowanie w plan podróży."
           ],
           "tips": [
@@ -8735,7 +8745,7 @@
       ],
       "sources": [
         {
-          "label": "Statystyki Fuel Plan rządu Australii (Australian Government)"
+          "label": "Australian Institute of Petroleum: tygodniowe ceny benzyny i oleju napędowego"
         },
         {
           "label": "ACCC: cotygodniowy monitoring cen paliw"
@@ -8745,7 +8755,7 @@
         }
       ],
       "priceTable": {
-        "note": "Wyliczenia na podstawie średnich Fuel Plan z 5 sierpnia 2026 dla pięciu największych miast: benzyna 2,08 AUD/l i olej napędowy 2,47 AUD/l.",
+        "note": "Wyliczenia na podstawie średnich Australian Institute of Petroleum dla pięciu największych miast w tygodniu do 1 listopada 2026 roku: benzyna 2,33 AUD/l i olej napędowy 2,77 AUD/l.",
         "rows": [
           {
             "label": "Benzyna",
@@ -18440,24 +18450,24 @@
     },
     "brisbane-to-sydney-drive": {
       "title": "Z Brisbane do Sydney samochodem 2026: Pacific Highway czy New England, postoje i kempingi",
-      "description": "Z Brisbane do Sydney jest ok. 975 km i 13 godzin jazdy Pacific Highway albo New England Highway. Porównanie tras, noclegi, przepisy o mrówkach ogniowych, opłaty i punkty zrzutu.",
+      "description": "Z Brisbane do Sydney jest ok. 907 km i 11 godzin jazdy Pacific Highway albo 970 km i 13 godzin New England Highway. Porównanie tras, noclegi, przepisy o mrówkach ogniowych, opłaty i punkty zrzutu.",
       "region": "Queensland i Nowa Południowa Walia",
       "imageAlt": "Dwujezdniowa Pacific Highway koło Wootton na środkowym północnym wybrzeżu Nowej Południowej Walii, widok z mostu",
-      "intro": "Z Brisbane do Sydney jest ok. 975 km każdą z dwóch dróg: według OSRM bez postojów to mniej więcej 12 godz. 47 min Pacific Motorway i Pacific Highway wzdłuż wybrzeża albo mniej więcej 13 godz. 24 min New England Highway w głębi lądu. Droga przy wybrzeżu ma cztery pasy na całej długości, ta w głębi lądu jest spokojniejsza, a każdą z nich bez trudu pokonasz w dwa lub trzy dni.",
+      "intro": "Z Brisbane do Sydney jest ok. 907 km Pacific Motorway i Pacific Highway wzdłuż wybrzeża albo ok. 970 km New England Highway w głębi lądu: według OSRM bez postojów to mniej więcej 10 godz. 52 min albo 13 godz. 8 min. Droga przy wybrzeżu ma cztery pasy na całej długości, ta w głębi lądu jest spokojniejsza, a każdą z nich bez trudu pokonasz w dwa lub trzy dni.",
       "sections": [
         {
           "heading": "Trasy z Brisbane do Sydney: porównanie",
           "body": [
             "Trasa przy wybrzeżu to Pacific Motorway z Brisbane, a potem Pacific Highway przez Tweed Heads, Ballina, Grafton, Coffs Harbour, Port Macquarie, Taree i Newcastle. Według wykazu inwestycji rządu Australii cała Pacific Highway, 657 km między Hexham a granicą <a data-guide=\"camping-rules-queensland\">Queensland</a>, jest otwarta jako droga dwujezdniowa o czterech pasach od 17 grudnia 2020. Trasa w głębi lądu prowadzi Cunningham Highway do Warwick, a potem New England Highway przez Tenterfield, Glen Innes, Armidale, Tamworth i Singleton.",
-            "Odległości i czasy pochodzą z wyznaczania tras OSRM na danych OpenStreetMap, obliczonych 21 października 2026, dla samochodu osobowego od centrum do centrum, bez postojów. Jazda z przyczepą oraz postoje na paliwo i posiłki dodadzą czas. Trzecia opcja zostaje na Pacific Highway, ale zjeżdża przez Forster i Bulahdelah koło Myall Lakes, co dodaje ok. 31 km i 35 minut."
+            "Odległości i czasy pochodzą z wyznaczania tras OSRM na danych OpenStreetMap, obliczonych 3 listopada 2026, dla samochodu osobowego od centrum do centrum, bez postojów. Jazda z przyczepą oraz postoje na paliwo i posiłki dodadzą czas. Trzecia opcja zostaje na Pacific Highway, ale zjeżdża przez Forster i Bulahdelah koło Myall Lakes, co dodaje ok. 33 km i 45 minut."
           ],
           "tips": [
             "Wybrzeże: cztery pasy, większy ruch, więcej miast",
             "W głębi lądu: głównie jedna jezdnia z pasami do wyprzedzania",
-            "Objazd przez Forster dodaje ok. 31 km"
+            "Objazd przez Forster dodaje ok. 33 km"
           ],
           "table": {
-            "caption": "Z Brisbane do Sydney samochodem, trasy wyznaczone w OSRM 21 października 2026.",
+            "caption": "Z Brisbane do Sydney samochodem, trasy wyznaczone w OSRM 3 listopada 2026.",
             "head": [
               "Trasa",
               "Dystans",
@@ -18468,22 +18478,22 @@
             "rows": [
               [
                 "Pacific Motorway i Pacific Highway",
-                "Ok. 978 km",
-                "Ok. 12 godz. 47 min",
+                "Ok. 907 km",
+                "Ok. 10 godz. 52 min",
                 "Droga dwujezdniowa o czterech pasach, 110 km/h na odcinkach o standardzie autostrady",
                 "Plaże, miasteczka i łatwy dostęp do usług"
               ],
               [
                 "New England Highway przez Warwick",
-                "Ok. 973 km",
-                "Ok. 13 godz. 24 min",
+                "Ok. 970 km",
+                "Ok. 13 godz. 8 min",
                 "Głównie jedna jezdnia z pasami do wyprzedzania",
                 "Spokojniejsze drogi, chłodniejsze wyżyny, region winiarski"
               ],
               [
                 "Pacific Highway przez Forster",
-                "Ok. 31 km i 35 min więcej niż trasą bezpośrednią",
-                "Dodaje ok. 35 min między Taree a Newcastle",
+                "Ok. 33 km i 45 min więcej niż trasą bezpośrednią",
+                "Dodaje ok. 45 min między Taree a Newcastle",
                 "Pacific Highway z objazdem przez jeziora",
                 "Nocleg nad Myall Lakes"
               ]
@@ -18493,12 +18503,12 @@
         {
           "heading": "Trasa przy wybrzeżu w trzy dni",
           "body": [
-            "Podział na trzy dni według OSRM wygląda tak: Brisbane–Coffs Harbour ok. 410 km, Coffs Harbour–Newcastle ok. 406 km i Newcastle–Sydney ok. 161 km. Poszczególne odcinki to Brisbane–Tweed Heads ok. 102 km (1 godz. 20 min), Tweed Heads–Ballina ok. 87 km (1 godz. 7 min), Ballina–Grafton ok. 136 km (1 godz. 44 min), Grafton–Coffs Harbour ok. 85 km (1 godz. 7 min), Coffs Harbour–Port Macquarie ok. 154 km (1 godz. 55 min), Port Macquarie–Taree ok. 80 km (1 godz. 4 min), Taree–Newcastle ok. 172 km (2 godz. 14 min) i Newcastle–Sydney ok. 161 km (2 godz. 12 min).",
-            "Na pierwszy nocleg dobrze nadają się Banana Coast <a data-guide=\"caravan-park-vs-holiday-park\">Caravan Park</a> i Reflections Coffs Harbour Holiday Park, oba przy Pacific Highway w Coffs Harbour. Dostępność i ceny sprawdź w parku. Drugim naturalnym miejscem na przerwę jest Port Macquarie, ok. 564 km od Brisbane. W danych AussieCamps są kempingi Diamond Head, Indian Head i Kylies Beach w Parku Narodowym Crowdy Bay koło Port Macquarie oraz Mungo Brush, Bombah Point i inne kempingi nad Myall Lakes koło Bulahdelah. Wszystkie to kempingi w parkach narodowych, przy których podana jest opłata za wstęp do parku."
+            "Podział na trzy dni według OSRM wygląda tak: Brisbane–Coffs Harbour ok. 383 km, Coffs Harbour–Newcastle ok. 385 km i Newcastle–Sydney ok. 161 km. Wjazd do centrum każdego miasta dokłada kilometry, więc te odcinki w sumie dają więcej niż przejazd bez zjeżdżania z trasy. Poszczególne odcinki to Brisbane–Tweed Heads ok. 102 km (1 godz. 20 min), Tweed Heads–Ballina ok. 87 km (1 godz. 7 min), Ballina–Grafton ok. 136 km (1 godz. 44 min), Grafton–Coffs Harbour ok. 85 km (1 godz. 7 min), Coffs Harbour–Port Macquarie ok. 154 km (1 godz. 55 min), Port Macquarie–Taree ok. 80 km (1 godz. 4 min), Taree–Newcastle ok. 172 km (2 godz. 14 min) i Newcastle–Sydney ok. 161 km (2 godz. 12 min).",
+            "Na pierwszy nocleg dobrze nadają się Banana Coast <a data-guide=\"caravan-park-vs-holiday-park\">Caravan Park</a> i Reflections Coffs Harbour Holiday Park, oba przy Pacific Highway w Coffs Harbour. Dostępność i ceny sprawdź w parku. Drugim naturalnym miejscem na przerwę jest Port Macquarie, ok. 537 km od Brisbane. W danych AussieCamps są kempingi Diamond Head, Indian Head i Kylies Beach w Parku Narodowym Crowdy Bay koło Port Macquarie oraz Mungo Brush, Bombah Point i inne kempingi nad Myall Lakes koło Bulahdelah. Wszystkie to kempingi w parkach narodowych, przy których podana jest opłata za wstęp do parku."
           ],
           "tips": [
-            "Coffs Harbour ok. 410 km od Brisbane",
-            "Port Macquarie ok. 564 km",
+            "Coffs Harbour ok. 383 km od Brisbane",
+            "Port Macquarie ok. 537 km",
             "Kempingi w parkach narodowych mają opłatę za wstęp do parku"
           ]
         },
@@ -18576,7 +18586,7 @@
       "faq": [
         [
           "Ile trwa jazda z Brisbane do Sydney?",
-          "Według OSRM bez postojów ok. 12 godz. 47 min Pacific Motorway i Pacific Highway, czyli ok. 978 km, albo ok. 13 godz. 24 min New England Highway, czyli ok. 973 km. Większość osób dzieli tę trasę na dwa lub trzy dni."
+          "Według OSRM bez postojów ok. 10 godz. 52 min Pacific Motorway i Pacific Highway, czyli ok. 907 km, albo ok. 13 godz. 8 min New England Highway, czyli ok. 970 km. Większość osób dzieli tę trasę na dwa lub trzy dni."
         ],
         [
           "Czy Pacific Highway między Brisbane a Sydney ma cztery pasy na całej długości?",
@@ -18593,7 +18603,7 @@
       ],
       "sources": [
         {
-          "label": "OSRM, wyznaczanie tras na danych OpenStreetMap (Brisbane–Sydney, obliczone 21 października 2026)"
+          "label": "OSRM, wyznaczanie tras na danych OpenStreetMap (Brisbane–Sydney, obliczone 3 listopada 2026)"
         },
         {
           "label": "Australian Government: Pacific Highway upgrade, Hexham to the Queensland border"
@@ -18833,16 +18843,16 @@
     },
     "sydney-to-adelaide-drive": {
       "title": "Z Sydney do Adelajdy 2026: Sturt Highway, Barrier Highway, postoje i kempingi",
-      "description": "Z Sydney do Adelajdy jest około 1 457 km i 18 godzin jazdy Sturt Highway albo około 1 625 km przez Melbourne. Porównanie tras, noclegi po drodze, przepisy o muszce owocowej, odcinki bez paliwa i punkty zrzutu.",
+      "description": "Z Sydney do Adelajdy jest około 1 412 km i 17 godzin jazdy Sturt Highway albo około 1 591 km przez Melbourne. Porównanie tras, noclegi po drodze, przepisy o muszce owocowej, odcinki bez paliwa i punkty zrzutu.",
       "region": "Nowa Południowa Walia, Wiktoria i Australia Południowa",
       "imageAlt": "Rzeka Murrumbidgee w Balranald w Nowej Południowej Walii, z eukaliptusami pochylonymi nad wodą",
-      "intro": "Z Sydney do Adelajdy jest około 1 457 km i 18 godzin jazdy przez interior Sturt Highway, przez Wagga Wagga, Hay, Balranald, Mildura i Renmark, według wyliczeń OSRM. Pozostałe opcje to Hume Highway przez Melbourne, około 1 625 km, oraz odludna Barrier Highway przez Cobar i Broken Hill, czyli dłuższa jazda przez outback.",
+      "intro": "Z Sydney do Adelajdy jest około 1 412 km i 17 godzin jazdy przez interior Sturt Highway, przez Wagga Wagga, Hay, Balranald, Mildura i Renmark, według wyliczeń OSRM. Pozostałe opcje to Hume Highway przez Melbourne, około 1 591 km, oraz odludna Barrier Highway przez Cobar i Broken Hill, czyli dłuższa jazda przez outback.",
       "sections": [
         {
           "heading": "Trasy z Sydney do Adelajdy w porównaniu",
           "body": [
             "Trasa przez interior prowadzi Hume Highway z Sydney do Tarcutta, a dalej Sturt Highway przez Wagga Wagga, Narrandera, Hay, Balranald, Mildura, Renmark i Waikerie do Gawler i Adelajdy. Według Wikipedii Sturt Highway ma 947 km od Tarcutta do Gawler: około 596 km w <a data-guide=\"camping-rules-new-south-wales\">Nowej Południowej Walii</a>, 117 km w Wiktorii i 234 km w Australii Południowej, a większość to droga jednojezdniowa. Druga opcja to Hume Highway do Melbourne, a potem droga z Melbourne do Adelajdy, którą opisuje poradnik o trasie wzdłuż wybrzeża. Trzecia to Barrier Highway, która odchodzi od Mitchell Highway w Nyngan i prowadzi przez Cobar, Wilcannia, Broken Hill i Yunta do Burra.",
-            "Wszystkie odległości i czasy pochodzą z wyliczeń OSRM na danych OpenStreetMap, obliczonych 21 października 2026 dla samochodu osobowego bez postojów. Łączna długość Barrier Highway według OSRM, około 1 797 km, wygląda na zawyżoną na odcinku Nyngan–Cobar, więc nie jest tu używana. Wikipedia podaje, że Barrier Highway ma 1 012 km od Nyngan do Giles Corner w <a data-guide=\"camping-rules-south-australia\">Australii Południowej</a>."
+            "Wszystkie odległości i czasy pochodzą z wyliczeń OSRM na danych OpenStreetMap, obliczonych 3 listopada 2026 dla samochodu osobowego bez postojów. Według tych wyliczeń trasa przez Barrier Highway ma około 1 673 km. Wikipedia podaje, że Barrier Highway ma 1 012 km od Nyngan do Giles Corner w <a data-guide=\"camping-rules-south-australia\">Australii Południowej</a>."
           ],
           "tips": [
             "Sturt: najkrócej, droga jednojezdniowa",
@@ -18850,7 +18860,7 @@
             "Barrier: odludzie, długie odcinki bez paliwa"
           ],
           "table": {
-            "caption": "Z Sydney do Adelajdy samochodem, wyliczenia OSRM z 21 października 2026. Łącznej długości Barrier Highway nie podano, bo wynik OSRM był niewiarygodny.",
+            "caption": "Z Sydney do Adelajdy samochodem, wyliczenia OSRM z 3 listopada 2026.",
             "head": [
               "Trasa",
               "Odległość",
@@ -18861,22 +18871,22 @@
             "rows": [
               [
                 "Hume Highway i Sturt Highway przez Hay i Mildura",
-                "Około 1 457 km",
-                "Około 17 h 58 min",
+                "Około 1 412 km",
+                "Około 17 h 18 min",
                 "Hume dwujezdniowa, dalej głównie jednojezdniowa",
                 "Najkrótsza jazda, miasteczka nad rzekami i Riverland"
               ],
               [
                 "Hume Highway przez Melbourne",
-                "Około 1 625 km",
-                "Około 20 h 26 min",
+                "Około 1 591 km",
+                "Około 19 h 28 min",
                 "Droga dwujezdniowa do Melbourne, dalej droga z Melbourne do Adelajdy",
                 "Noc w Melbourne, a potem wybrzeże"
               ],
               [
                 "Barrier Highway przez Cobar i Broken Hill",
-                "Około 1 012 km samą Barrier Highway, od Nyngan do Giles Corner",
-                "Brak danych",
+                "Około 1 673 km",
+                "Około 21 h 18 min",
                 "Odludna, rzadko zaludniona, w całości asfaltowa od 1972 roku",
                 "Kierowcy lubiący outback, którzy chcą zobaczyć Broken Hill"
               ]
@@ -18886,13 +18896,13 @@
         {
           "heading": "Z Sydney do Adelajdy Sturt Highway w cztery dni",
           "body": [
-            "Według OSRM podział na cztery dni wygląda tak: z Sydney do Wagga Wagga około 457 km (5 h 33 min), z Wagga Wagga do Hay około 308 km (3 h 54 min), z Hay do Mildura około 292 km (3 h 31 min) i z Mildura do Adelajdy około 401 km (4 h 56 min). Po drodze Goulburn leży około 194 km od Sydney, Gundagai około 181 km dalej, Narrandera około 106 km za Wagga Wagga, Balranald około 132 km za Hay, a Renmark około 141 km za Mildura.",
+            "Według OSRM podział na cztery dni wygląda tak: z Sydney do Wagga Wagga około 455 km (5 h 29 min), z Wagga Wagga do Hay około 269 km (3 h 19 min), z Hay do Mildura około 292 km (3 h 32 min) i z Mildura do Adelajdy około 397 km (4 h 57 min). Po drodze Goulburn leży około 194 km od Sydney, Gundagai około 181 km dalej, Narrandera około 97 km za Wagga Wagga, Balranald około 135 km za Hay, a Renmark około 143 km za Mildura.",
             "Odcinek Hume Highway to droga dwujezdniowa z limitem 110 km/h, a za Wagga Wagga na Sturt Highway zaczyna się spokojniejsza jazda drogą jednojezdniową."
           ],
           "tips": [
-            "Wagga Wagga około 457 km",
-            "Hay około 765 km",
-            "Mildura około 1 057 km"
+            "Wagga Wagga około 455 km",
+            "Hay około 724 km",
+            "Mildura około 1 016 km"
           ]
         },
         {
@@ -18923,7 +18933,7 @@
           "heading": "Paliwo i usługi",
           "body": [
             "Na Barrier Highway Rita's Outback Guide opisuje Emmdale Roadhouse jako jedyne miejsce z paliwem między Cobar a Wilcannia, a Little Topar Roadhouse jako jedyne miejsce z paliwem, napojami i jedzeniem między Wilcannia a Broken Hill. Nie udało się potwierdzić godzin otwarcia ani tego, czy Little Topar obecnie działa, więc zadzwoń wcześniej. Nyngan, Cobar i Wilcannia to miasteczka ze stacjami paliw, a według tego samego przewodnika w Yunta są dwie stacje. NSW National Parks podaje, że w Parku Narodowym Mutawintji, na wycieczkę z Broken Hill, nie ma ani paliwa, ani jedzenia.",
-            "Na Sturt Highway najdłuższe odcinki między miasteczkami to Narrandera–Hay, około 202 km, i Balranald–Mildura, około 160 km według OSRM. Nie udało się potwierdzić paliwa w mniejszych miejscowościach, takich jak Darlington Point, Carrathool, Oxley i Euston, więc tankuj w Wagga Wagga, Narrandera, Hay, Balranald i Mildura. Poradnik o <a data-guide=\"road-trip-fuel-planning-australia\">planowaniu paliwa</a> pokazuje, jak rozplanować dystans."
+            "Na Sturt Highway najdłuższe odcinki między miasteczkami to Narrandera–Hay, około 175 km, i Balranald–Mildura, około 159 km według OSRM. Nie udało się potwierdzić paliwa w mniejszych miejscowościach, takich jak Darlington Point, Carrathool, Oxley i Euston, więc tankuj w Wagga Wagga, Narrandera, Hay, Balranald i Mildura. Poradnik o <a data-guide=\"road-trip-fuel-planning-australia\">planowaniu paliwa</a> pokazuje, jak rozplanować dystans."
           ],
           "tips": [
             "Barrier: paliwo przed Cobar i Wilcannia",
@@ -18982,7 +18992,7 @@
       "faq": [
         [
           "Ile jest z Sydney do Adelajdy samochodem?",
-          "Około 1 457 km i 18 godzin jazdy przez interior Sturt Highway albo około 1 625 km i 20 godzin przez Melbourne, według wyliczeń OSRM na danych OpenStreetMap. Zaplanuj trzy lub cztery dni."
+          "Około 1 412 km i 17 godz. 18 min jazdy przez interior Sturt Highway albo około 1 591 km i 19 godz. 28 min przez Melbourne, według wyliczeń OSRM na danych OpenStreetMap. Zaplanuj trzy lub cztery dni."
         ],
         [
           "Która droga z Sydney do Adelajdy jest najkrótsza?",
@@ -18999,7 +19009,7 @@
       ],
       "sources": [
         {
-          "label": "OSRM routing na danych OpenStreetMap (Sydney–Adelajda, obliczone 21 października 2026)"
+          "label": "OSRM routing na danych OpenStreetMap (Sydney–Adelajda, obliczone 3 listopada 2026)"
         },
         {
           "label": "Wikipedia: Sturt Highway"
@@ -19042,16 +19052,16 @@
     },
     "melbourne-to-canberra-drive": {
       "title": "Z Melbourne do Canberry 2026: Hume Highway, trasa alpejska i Monaro",
-      "description": "Z Melbourne do Canberry jest około 680 km i 8,5 godziny jazdy Hume Highway i Barton Highway. Porównanie tras, w tym alpejskiej i przez Monaro, postoje, kempingi, łańcuchy śnieżne i punkty zrzutu.",
+      "description": "Z Melbourne do Canberry jest około 650 km i 8 godzin jazdy Hume Highway i Barton Highway. Porównanie tras, w tym alpejskiej i przez Monaro, postoje, kempingi, łańcuchy śnieżne i punkty zrzutu.",
       "region": "Wiktoria, Nowa Południowa Walia i ACT",
       "imageAlt": "Dwujezdniowa Hume Highway między Gundagai a Goulburn, z ruchem na obu jezdniach i zielonymi wzgórzami w tle",
-      "intro": "Z Melbourne do Canberry jest około 680 km i 8 h 35 min jazdy Hume Highway do Yass i Barton Highway do Canberry, według wyliczeń OSRM. Dwie alternatywy, przez Góry Śnieżne (Snowy Mountains) albo Monaro Highway od południowego wybrzeża, wydłużają trasę o mniej więcej 70 do 170 km i są dla tych, którzy chcą zobaczyć góry lub wybrzeże.",
+      "intro": "Z Melbourne do Canberry jest około 652 km i 7 h 53 min jazdy Hume Highway do Yass i Barton Highway do Canberry, według wyliczeń OSRM. Dwie alternatywy, przez Góry Śnieżne (Snowy Mountains) albo Monaro Highway od południowego wybrzeża, wydłużają trasę o mniej więcej 80 do 100 km i są dla tych, którzy chcą zobaczyć góry lub wybrzeże.",
       "sections": [
         {
           "heading": "Trasy z Melbourne do Canberry w porównaniu",
           "body": [
             "Standardowa trasa prowadzi Hume Highway przez Seymour, Euroa, Benalla, Wangaratta, Albury, Holbrook, Gundagai i Yass, a potem Barton Highway (A25) do ACT. Według Wikipedii Hume Highway jest drogą dwujezdniową na całej długości od 7 sierpnia 2013, z limitem 110 km/h, a Barton Highway ma 52 km od Yass do Lyneham, z czego tylko około 6 km w odcinku w <a data-guide=\"camping-rules-new-south-wales\">Nowej Południowej Walii</a> jest dwujezdniowe.",
-            "Trasa alpejska odchodzi od Hume w Albury, prowadzi Murray Valley Highway do Corryong, przecina Góry Śnieżne drogą Alpine Way z Khancoban do Jindabyne, a potem biegnie przez Cooma i Monaro Highway do Canberry. Trasa przez Monaro prowadzi Princes Highway z Melbourne do Cann River, a potem Monaro Highway przez Bombala i Cooma. Odległości i czasy pochodzą z wyliczeń OSRM na danych OpenStreetMap, obliczonych 21 października 2026 dla samochodu osobowego bez postojów. Łączną długość trasy alpejskiej wyprowadzono z odcinków OSRM i długości Alpine Way z Wikipedii, więc nie jest to wynik wyznaczenia trasy."
+            "Trasa alpejska odchodzi od Hume w Albury, prowadzi Murray Valley Highway do Corryong, przecina Góry Śnieżne drogą Alpine Way z Khancoban do Jindabyne, a potem biegnie przez Cooma i Monaro Highway do Canberry. Trasa przez Monaro prowadzi Princes Highway z Melbourne do Cann River, a potem Monaro Highway przez Bombala i Cooma. Odległości i czasy pochodzą z wyliczeń OSRM na danych OpenStreetMap, obliczonych 3 listopada 2026 dla samochodu osobowego bez postojów. Łączną długość trasy alpejskiej wyprowadzono z odcinków OSRM i długości Alpine Way z Wikipedii, więc nie jest to wynik wyznaczenia trasy."
           ],
           "tips": [
             "Hume: najszybciej, droga dwujezdniowa do Yass",
@@ -19059,7 +19069,7 @@
             "Monaro: droga wzdłuż wybrzeża, a potem płaskowyż"
           ],
           "table": {
-            "caption": "Z Melbourne do Canberry samochodem, wyliczenia OSRM z 21 października 2026 (łączna długość trasy alpejskiej wyprowadzona).",
+            "caption": "Z Melbourne do Canberry samochodem, wyliczenia OSRM z 3 listopada 2026 (łączna długość trasy alpejskiej wyprowadzona).",
             "head": [
               "Trasa",
               "Odległość",
@@ -19070,8 +19080,8 @@
             "rows": [
               [
                 "Hume Highway, a potem Barton Highway",
-                "Około 680 km",
-                "Około 8 h 35 min",
+                "Około 652 km",
+                "Około 7 h 53 min",
                 "Droga dwujezdniowa do Yass, dalej głównie jednojezdniowa",
                 "Najszybsza jazda, w jeden dzień albo z noclegiem w Albury"
               ],
@@ -19084,8 +19094,8 @@
               ],
               [
                 "Princes Highway do Cann River, a potem Monaro Highway",
-                "Około 747 km",
-                "Około 10 h 35 min",
+                "Około 735 km",
+                "Około 9 h 46 min",
                 "Głównie droga jednojezdniowa",
                 "Jazda południowo-wschodnim wybrzeżem i płaskowyżem"
               ]
@@ -19095,13 +19105,13 @@
         {
           "heading": "Trasa przez Hume w jeden lub dwa dni",
           "body": [
-            "Według OSRM z Melbourne do Albury jest około 315 km (3 h 53 min), a z Albury do Canberry około 353 km (4 h 23 min), przez Holbrook około 63 km, Gundagai około 115 km dalej, Yass około 107 km za nim i Canberrę około 68 km dalej. Jeśli dzielisz jazdę na dwa dni, zwykle nocuje się w Albury. BIG4 Albury Tourist Park leży przy Wagga Road w Lavington, Albury Central Tourist Park przy North Street, a Discovery Parks Lake Hume jest około 15 minut stąd. Dostępność potwierdź w parku.",
+            "Według OSRM z Melbourne do Albury jest około 317 km (3 h 53 min), a z Albury do Canberry około 339 km (4 h 6 min), przez Holbrook około 62 km, Gundagai około 118 km dalej, Yass około 101 km za nim i Canberrę około 60 km dalej. Jeśli dzielisz jazdę na dwa dni, zwykle nocuje się w Albury. BIG4 Albury Tourist Park leży przy Wagga Road w Lavington, Albury Central Tourist Park przy North Street, a Discovery Parks Lake Hume jest około 15 minut stąd. Dostępność potwierdź w parku.",
             "Dalej Gundagai Cabins and Tourist Park jest pod adresem 1 Nangus Road, a VisitNSW opisuje go jako dobry na postój na Hume Highway. <a data-guide=\"caravan-park-vs-holiday-park\">Caravan park</a> w Yass jest około pięć minut od Hume po północnej stronie miasta, z domkami, polem kempingowym i miejscami przelotowymi dla przyczep. Dane AussieCamps wymieniają wiktoriańskie miejsca odpoczynku (rest area) przy Hume w Mangalore, Avenel, Benalla, Winton, Glenrowan, Wangaratta South i Chiltern, z toaletami, stołami piknikowymi, grillami i miejscem dla pojazdów ciężkich, a w większości także z wodą pitną. Dla odcinka w Nowej Południowej Walii nie wymieniają żadnego, co jest luką w danych. Miejsca odpoczynku traktuj jako miejsce na przerwę: Wiktoria nie ma ogólnostanowego limitu noclegów w sprawdzonych źródłach, a władze lokalne mogą zakazać nocowania."
           ],
           "tips": [
-            "Albury około 315 km",
-            "Gundagai około 493 km",
-            "Yass około 600 km"
+            "Albury około 317 km",
+            "Gundagai około 492 km",
+            "Yass około 592 km"
           ]
         },
         {
@@ -19187,7 +19197,7 @@
       "faq": [
         [
           "Ile trwa jazda z Melbourne do Canberry?",
-          "Około 680 km i 8 h 35 min jazdy Hume Highway i Barton Highway, według wyliczeń OSRM na danych OpenStreetMap. Większość kierowców pokonuje tę trasę w jeden długi dzień, a Albury to zwykłe miejsce, by podzielić ją na dwa."
+          "Około 652 km i 7 h 53 min jazdy Hume Highway i Barton Highway, według wyliczeń OSRM na danych OpenStreetMap. Większość kierowców pokonuje tę trasę w jeden długi dzień, a Albury to zwykłe miejsce, by podzielić ją na dwa."
         ],
         [
           "Czy Hume Highway jest w całości dwujezdniowa?",
@@ -19204,7 +19214,7 @@
       ],
       "sources": [
         {
-          "label": "OSRM routing na danych OpenStreetMap (Melbourne–Canberra, obliczone 21 października 2026)"
+          "label": "OSRM routing na danych OpenStreetMap (Melbourne–Canberra, obliczone 3 listopada 2026)"
         },
         {
           "label": "Wikipedia: Hume Highway"
@@ -19455,15 +19465,15 @@
     },
     "darwin-to-alice-springs-drive": {
       "title": "Z Darwin do Alice Springs 2026: Stuart Highway, postoje, paliwo i kontrola owoców",
-      "description": "Z Darwin do Alice Springs jest około 1 500 km i 16 godzin jazdy Stuart Highway. Postoje dzień po dniu, miejsca odpoczynku, paliwo, zamknięcia w porze deszczowej, limity prędkości, zakaz wwozu owoców i punkty zrzutu.",
+      "description": "Z Darwin do Alice Springs jest około 1 500 km i 15 godzin jazdy Stuart Highway. Postoje dzień po dniu, miejsca odpoczynku, paliwo, zamknięcia w porze deszczowej, limity prędkości, zakaz wwozu owoców i punkty zrzutu.",
       "region": "Terytorium Północne",
       "imageAlt": "Pęknięty granitowy głaz w rezerwacie Karlu Karlu (Devils Marbles) na Terytorium Północnym, a za nim kolejne pomarańczowe głazy",
-      "intro": "Z Darwin do Alice Springs jest około 1 500 km, a według wyznaczania trasy OSRM 1 525 km i 16 h 26 min jazdy. Prowadzi tędy jedna droga: Stuart Highway przez Katherine, Daly Waters, Tennant Creek i Karlu Karlu. Zaplanuj cztery dni, przed każdym odcinkiem sprawdź Road Report NT i przeczytaj zasady dotyczące owoców, bo na tej trasie obowiązują ograniczenia w przewozie świeżych produktów.",
+      "intro": "Z Darwin do Alice Springs jest około 1 500 km, a według wyznaczania trasy OSRM 1 492 km i 15 h 12 min jazdy. Prowadzi tędy jedna droga: Stuart Highway przez Katherine, Daly Waters, Tennant Creek i Karlu Karlu. Zaplanuj cztery dni, przed każdym odcinkiem sprawdź Road Report NT i przeczytaj zasady dotyczące owoców, bo na tej trasie obowiązują ograniczenia w przewozie świeżych produktów.",
       "sections": [
         {
           "heading": "Jedna droga: Stuart Highway",
           "body": [
-            "Między Darwin a Alice Springs jest tylko jedna realna asfaltowa trasa, czyli Stuart Highway, którą Tourism NT nazywa Explorers Way. Prowadzi przez Adelaide River, Pine Creek, Katherine, Mataranka, Daly Waters, Elliott, Tennant Creek, Karlu Karlu (Devils Marbles), Barrow Creek i Ti Tree. Wikipedia podaje 1 499 km z Darwin do Alice Springs, a wyznaczanie trasy OSRM na danych OpenStreetMap, obliczone 21 października 2026 dla samochodu bez postojów, daje 1 525 km, więc bezpiecznie przyjąć około 1 500 km.",
+            "Między Darwin a Alice Springs jest tylko jedna realna asfaltowa trasa, czyli Stuart Highway, którą Tourism NT nazywa Explorers Way. Prowadzi przez Adelaide River, Pine Creek, Katherine, Mataranka, Daly Waters, Elliott, Tennant Creek, Karlu Karlu (Devils Marbles), Barrow Creek i Ti Tree. Wikipedia podaje 1 499 km z Darwin do Alice Springs, a wyznaczanie trasy OSRM na danych OpenStreetMap, obliczone 3 listopada 2026 dla samochodu bez postojów, daje 1 492 km, więc bezpiecznie przyjąć około 1 500 km.",
             "Objazdy to Kakadu, Nitmiluk (Katherine Gorge) w Katherine oraz Litchfield, które obejmuje trasa Darwin, Kakadu i Litchfield. Za Alice Springs dalszą drogę opisują Red Centre Way i road trip z Adelaidy do Uluru."
           ],
           "tips": [
@@ -19472,7 +19482,7 @@
             "Dalej: Czerwone Centrum"
           ],
           "table": {
-            "caption": "Z Darwin do Alice Springs Stuart Highway, wyznaczanie trasy OSRM obliczone 21 października 2026, z odległościami odcinków według Tourism NT tam, gdzie są dostępne.",
+            "caption": "Z Darwin do Alice Springs Stuart Highway, wyznaczanie trasy OSRM obliczone 3 listopada 2026, z odległościami odcinków według Tourism NT tam, gdzie są dostępne.",
             "head": [
               "Odcinek",
               "Odległość",
@@ -19482,12 +19492,12 @@
               [
                 "Z Darwin do Adelaide River",
                 "Około 112 km",
-                "Około 1 h 20 min"
+                "Około 1 h 21 min"
               ],
               [
                 "Z Adelaide River do Katherine",
-                "Około 204 km",
-                "Około 2 h 9 min"
+                "Około 203 km",
+                "Około 2 h 5 min"
               ],
               [
                 "Z Katherine do Mataranka",
@@ -19497,17 +19507,17 @@
               [
                 "Z Mataranka do Daly Waters",
                 "Około 168 km",
-                "Około 1 h 43 min"
+                "Około 1 h 42 min"
               ],
               [
                 "Z Daly Waters do Elliott",
-                "Około 155 km",
-                "Około 1 h 40 min"
+                "Około 152 km",
+                "Około 1 h 31 min"
               ],
               [
                 "Z Elliott do Tennant Creek",
                 "Około 254 km",
-                "Około 2 h 34 min"
+                "Około 2 h 32 min"
               ],
               [
                 "Z Tennant Creek do Karlu Karlu",
@@ -19516,13 +19526,13 @@
               ],
               [
                 "Z Karlu Karlu do Barrow Creek",
-                "Około 140 km",
-                "Około 1 h 57 min"
+                "Około 120 km",
+                "Około 1 h 10 min"
               ],
               [
                 "Z Barrow Creek do Alice Springs",
                 "Około 282 km",
-                "Około 2 h 50 min"
+                "Około 2 h 51 min"
               ]
             ]
           }
@@ -19530,13 +19540,13 @@
         {
           "heading": "Cztery dni na Stuart Highway",
           "body": [
-            "Według OSRM podział na cztery dni wygląda tak: z Darwin do Katherine około 316 km (3 h 29 min), z Katherine do Daly Waters około 274 km (2 h 50 min), z Daly Waters do Tennant Creek około 409 km (4 h 14 min) i z Tennant Creek do Alice Springs około 526 km (5 h 50 min, przez Karlu Karlu). W planach podróży Tourism NT odległość z Katherine do Darwin wynosi 316 km, z Mataranka do Katherine 106 km, z Daly Waters do Mataranka 167 km, a z Alice Springs do Tennant Creek 510 km, co z OSRM zgadza się z dokładnością do kilku kilometrów.",
+            "Według OSRM podział na cztery dni wygląda tak: z Darwin do Katherine około 315 km (3 h 26 min), z Katherine do Daly Waters około 273 km (2 h 48 min), z Daly Waters do Tennant Creek około 405 km (4 h 4 min) i z Tennant Creek do Alice Springs około 506 km (5 h 3 min, przez Karlu Karlu). W planach podróży Tourism NT odległość z Katherine do Darwin wynosi 315 km, z Mataranka do Katherine 106 km, z Daly Waters do Mataranka 167 km, a z Alice Springs do Tennant Creek 510 km, co z OSRM zgadza się z dokładnością do kilku kilometrów.",
             "Katherine to baza wypadowa do Nitmiluk. W Mataranka według NT Parks basen termalny w Elsey National Park ma przez cały rok stałe 34 stopnie, a wstęp wymaga NT Parks Visitor Pass, który trzeba kupić przed przyjazdem (mieszkańcy NT są z tego zwolnieni). W Daly Waters Tourism NT opisuje Daly Waters Historic Pub jako miejsce, gdzie można zjeść, napić się i przenocować, z kempingiem, miejscami z prądem, namiotami safari i domkami. Nie udało się potwierdzić nazw <a data-guide=\"caravan-park-vs-holiday-park\">caravan parków</a> w Katherine, Mataranka i Tennant Creek, więc zarezerwuj miejsce z wyprzedzeniem telefonicznie."
           ],
           "tips": [
             "Katherine około 316 km",
-            "Daly Waters około 590 km",
-            "Tennant Creek około 1 000 km"
+            "Daly Waters około 588 km",
+            "Tennant Creek około 993 km"
           ]
         },
         {
@@ -19628,7 +19638,7 @@
       "faq": [
         [
           "Ile jest z Darwin do Alice Springs?",
-          "Około 1 500 km, czyli według wyznaczania trasy OSRM na danych OpenStreetMap 1 525 km i 16 h 26 min jazdy, cały czas Stuart Highway. Większość osób jedzie cztery dni, z noclegami w Katherine, Daly Waters i Tennant Creek."
+          "Około 1 500 km, czyli według wyznaczania trasy OSRM na danych OpenStreetMap 1 492 km i 15 h 12 min jazdy, cały czas Stuart Highway. Większość osób jedzie cztery dni, z noclegami w Katherine, Daly Waters i Tennant Creek."
         ],
         [
           "Jaki jest limit prędkości na Stuart Highway?",
@@ -19645,7 +19655,7 @@
       ],
       "sources": [
         {
-          "label": "Wyznaczanie trasy OSRM na danych OpenStreetMap (Darwin do Alice Springs, obliczone 21 października 2026)"
+          "label": "Wyznaczanie trasy OSRM na danych OpenStreetMap (Darwin do Alice Springs, obliczone 3 listopada 2026)"
         },
         {
           "label": "Tourism NT: informacje o bezpieczeństwie na drodze"
@@ -23016,7 +23026,7 @@
         {
           "heading": "Paliwo: pozycja, która zmienia się najbardziej",
           "body": [
-            "Strona rządowego Fuel Plan pokazywała 14 października 2026 średnie ceny detaliczne w pięciu największych miastach: około 2,41 AUD za litr benzyny i 2,80 AUD za diesla. Cotygodniowy raport NRMA dla Sydney z 19 października pokazywał zwykłą benzynę bezołowiową (regular unleaded) po 239,8 centa i diesla po 280,1 centa. Przykłady w poradniku o <a data-guide=\"australia-road-trip-fuel-cost-2026\">kosztach paliwa</a> opierają się na wzorcu z 5 sierpnia 2026, więc przy porównywaniu używaj tu podanych dat.",
+            "Strona rządowego Fuel Plan pokazywała 14 października 2026 średnie ceny detaliczne w pięciu największych miastach: około 2,41 AUD za litr benzyny i 2,80 AUD za diesla. Cotygodniowy raport NRMA dla Sydney z 19 października pokazywał zwykłą benzynę bezołowiową (regular unleaded) po 239,8 centa i diesla po 280,1 centa. Przykłady w poradniku o <a data-guide=\"australia-road-trip-fuel-cost-2026\">kosztach paliwa</a> opierają się na średnich Australian Institute of Petroleum z tygodnia do 1 listopada 2026, więc przy porównywaniu używaj tu podanych dat.",
             "Większe znaczenie ma dystans niż cena. Połowa kilometrów to połowa rachunku, a roadhousy na odludziu liczą więcej niż miejskie średnie."
           ],
           "tips": [

@@ -116,7 +116,7 @@ test("renders standalone road trip tools", async () => {
   assert.match(html, /Currency converter/);
   assert.match(html, /Fuel calculator/);
   assert.match(html, /data-static-tools/);
-  assert.match(html, /120\.0 L · A\$249\.60/);
+  assert.match(html, /120\.0 L · A\$279\.60/);
 });
 
 test("publishes every guide in every locale", async () => {

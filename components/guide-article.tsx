@@ -3,6 +3,9 @@ import { ArrowLeft, ArrowRight, CalendarDays, Clock, MapPin } from "lucide-react
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { DownloadCard } from "@/components/download-card";
+import { AnswerCta } from "@/components/answer-cta";
+import { guideAnswerCta } from "@/lib/answer-cta";
+import { uiStrings } from "@/lib/source-strings";
 import { ArticleCard } from "@/components/article-card";
 import { CoverImage, GuideFigure } from "@/components/site-image";
 import { SectionTable } from "@/components/article-table";
@@ -21,6 +24,7 @@ export function GuideArticle({ item }: { item: Article }) {
   // A date Google can see on the page, matching the one in the Article schema.
   const dates = articleDates(item.slug);
   const placement = item.listicle ? "listicle" : "card";
+  const answerCta = guideAnswerCta(item.slug, "en", true);
 
   return <>
     <Header />
@@ -44,6 +48,7 @@ export function GuideArticle({ item }: { item: Article }) {
         <div className="article-layout">
           <div className="article-body">
             <p className="article-intro">{item.intro}</p>
+            {answerCta && <AnswerCta text={answerCta} label={uiStrings.download} locale="en" />}
             {item.priceTable && <section className="article-price-section">
               <span className="section-count">AUD</span>
               <h2>Price table in 10 currencies</h2>

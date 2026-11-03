@@ -27,7 +27,7 @@
 - **Provider token:** pt=127436485 (Cntxt Limited). App ID: 6801098680.
 - **Link format:** `https://apps.apple.com/app/id6801098680?pt=127436485&ct=w_<placement>_<locale>&mt=8`, built by `appStoreUrl()` in `lib/app-store.ts`.
 - **Token limit:** App Store Connect allows campaign tokens up to 30 characters.
-- **Placements:** hdr, hero, card, stick, foot, inl, tool, hub, sb (smart banner), qr, dl (/download page), llms, listicle (comparison guides), ig, tt and fb (social bio links, always `_en`). Locale is `en` or the locale segment.
+- **Placements:** hdr, hero, card, stick, foot, inl, tool, hub, sb (smart banner), qr, dl (/download page), llms, listicle (comparison guides), ans (the download line under a page's opening answer, from 2026-11-03), ig, tt and fb (social bio links, always `_en`). Locale is `en` or the locale segment.
 - **Where to read it:**
   - App Store Connect: Apps, then AussieCamps, Analytics, Acquisition, Campaigns. Downloads per `ct`, with a 24 to 48 hour lag. Campaigns with fewer than 5 users are hidden.
   - Acquisition, then Sources, shows Web Referrer per domain.

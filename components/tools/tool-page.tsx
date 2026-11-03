@@ -19,6 +19,8 @@ import { defaultOutputs, toolScript } from "@/lib/tools/calc";
 import { toolCopy } from "@/lib/tools/strings";
 import { fillCounts, toolEyebrow, toolGuides, toolPageKey, toolPath, toolSources } from "@/lib/tools/pages";
 import { toolTables } from "@/lib/tools/tables";
+import { AnswerCta } from "@/components/answer-cta";
+import { toolAnswerCta } from "@/lib/answer-cta";
 
 export const calculators: Record<ToolKey, (props: { ui?: UiStrings; output: string; children?: React.ReactNode; locale?: LocaleCode | "en" }) => React.ReactNode> = {
   "fuel-cost-calculator": FuelCalculator,
@@ -47,6 +49,7 @@ export function ToolPage({ tool, locale }: { tool: ToolKey; locale: "en" | Local
   const guideList = native ? localizedArticles(locale as LocaleCode) : articles;
   const guides = toolGuides[tool].map((slug) => guideList.find((article) => article.slug === slug)).filter((article) => !!article);
   const sources = toolSources[tool] ?? [];
+  const answerCta = toolAnswerCta(tool, locale, native);
   const tables = (copy.tables ?? []).map((table, index) => {
     const rows = toolTables[tool]?.[index] ?? [];
     if (rows.length !== table.rows.length) throw new Error(`${tool}: table ${index} has ${table.rows.length} labels and ${rows.length} rows of figures`);
@@ -80,6 +83,7 @@ export function ToolPage({ tool, locale }: { tool: ToolKey; locale: "en" | Local
           <h1>{copy.title}</h1>
           <p>{copy.intro}</p>
           {copy.answer && <div className="tool-answer">{copy.answer.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div>}
+          {answerCta && <AnswerCta text={answerCta} label={ui.download} locale={locale} />}
         </header>
         <div className="tool-page-widget"><Widget ui={ui} locale={native ? locale : "en"} output={defaultOutputs(numberLocale, ui)[tool]} /></div>
         <div className="article-layout">

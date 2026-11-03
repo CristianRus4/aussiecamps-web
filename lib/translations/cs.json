@@ -6,7 +6,7 @@
     "metaDescription": "Přes 74 000 kempů, caravan parků, free kempů, odpočívadel a výlevek po celé Austrálii. Údaje o místech offline, přesné filtry a plánovač cesty po zastávkách. Pro iPhone.",
     "ogTitle": "AussieCamps: mapa kempů a plánovač road tripu po Austrálii",
     "ogDescription": "Přes 74 000 kempů, caravan parků, free kempů a užitečných zastávek, všechno uložené offline. Filtrujte, ukládejte a naplánujte si celou cestu kolem Austrálie.",
-    "metaKeywords": "aplikace na kempování Austrálie, kempování zdarma Austrálie, kempy Austrálie, caravan parky Austrálie, free kempy Austrálie, kempy Austrálie offline, obytným autem po Austrálii, výlevky Austrálie, odpočívadla Austrálie, plánovač road tripu Austrálie",
+    "metaKeywords": "aplikace na kempování Austrálie, kempování zdarma Austrálie, kempy Austrálie, caravan parky Austrálie, free kempy Austrálie, obytným autem po Austrálii, výlevky Austrálie, odpočívadla Austrálie, plánovač road tripu Austrálie",
     "metaGuidesTitle": "Kempování a road trip po Austrálii: praktické rady",
     "metaGuidesDescription": "Pravidla kempování podle států, kempování zdarma a limity na odpočívadlech, zákazy ohně, bezpečnost na silnici, kdy jet, skutečné náklady a praktické plánování road tripu po Austrálii.",
     "metaToolsTitle": "Kalkulačky pro road trip po Austrálii",
@@ -306,9 +306,9 @@
         ],
         "formulaNote": "Kalkulačka zaokrouhluje litry na jedno desetinné místo a peníze na centy. Nic dalšího nepřičítá: mýtné, olej a opotřebení pneumatik jsou v rozpočtu samostatné položky.",
         "example": [
-          "Jízda dlouhá 1 000 km ve vozidle se spotřebou 12 l/100 km při ceně 2,08 AUD za litr, což byla podle dat Fuel Plan 5. srpna 2026 průměrná cena benzinu v pěti největších městech.",
-          "1 000 × 12 ÷ 100 = 120 litrů. 120 × 2,08 AUD = 249,60 AUD. 249,60 AUD ÷ 1 000 km = zhruba 0,25 AUD za kilometr.",
-          "Stejná jízda s naftovým vozidlem při tehdejší průměrné ceně nafty 2,47 AUD za litr stojí 120 × 2,47 AUD = 296,40 AUD."
+          "Jízda dlouhá 1 000 km ve vozidle se spotřebou 12 l/100 km při ceně 2,33 AUD za litr, což byla podle Australian Institute of Petroleum v týdnu do 1. listopadu 2026 průměrná cena benzinu v pěti největších městech.",
+          "1 000 × 12 ÷ 100 = 120 litrů. 120 × 2,33 AUD = 279,60 AUD. 279,60 AUD ÷ 1 000 km = zhruba 0,28 AUD za kilometr.",
+          "Stejná jízda s naftovým vozidlem při průměrné ceně nafty ze stejného týdne 2,77 AUD za litr stojí 120 × 2,77 AUD = 332,40 AUD."
         ],
         "assumptions": [
           "Spotřeba je hodnota pro naložené vozidlo. Obytná dodávka, náklad na střeše nebo karavan za autem spálí víc, než uvádí prospekt, proto si spotřebu pokud možno změřte sami.",
@@ -322,7 +322,7 @@
           ],
           [
             "Jak spočítám cenu paliva na kilometr?",
-            "Spotřebu v l/100 km vydělte stem a vynásobte cenou za litr. Při 12 l/100 km a 2,08 AUD za litr je to 0,12 × 2,08, zhruba 0,25 AUD za kilometr."
+            "Spotřebu v l/100 km vydělte stem a vynásobte cenou za litr. Při 12 l/100 km a 2,33 AUD za litr je to 0,12 × 2,33, zhruba 0,28 AUD za kilometr."
           ],
           [
             "Jakou cenu paliva mám použít?",
@@ -526,6 +526,13 @@
         "ctaText": "AussieCamps ukazuje na mapě {water} míst k doplnění vody a {dumpPoints} výlevek po celé Austrálii, s vybavením, které je u každého uvedeno."
       }
     }
+  },
+  "answerCta": {
+    "drive-time-calculator": "Naplánujte celou trasu v AussieCamps: plánovač cesty ukazuje vzdálenost a dobu jízdy každého úseku a odpočívadla a kempy po cestě.",
+    "fuel-cost-calculator": "Naplánujte tankování v AussieCamps: plánovač ukazuje vzdálenost každého úseku a mapa odpočívadla a výlevky po cestě.",
+    "alcohol-coffee-drink-prices-australia": "Ušetřete na základních věcech: AussieCamps ukazuje na mapě místa s pitnou vodou a poplatky a vybavení každého kempu ještě před příjezdem.",
+    "best-camping-app-australia": "Vyzkoušejte AussieCamps na iPhonu: oficiální údaje o kempech, odpočívadlech a výlevkách, které zůstanou čitelné i bez signálu, a plánovač cesty zastávku po zastávce.",
+    "drive-guide": "Naplánujte tuto jízdu jako cestu v AussieCamps: každá zastávka na noc ukazuje vzdálenost a dobu jízdy od předchozí a předpověď počasí na den příjezdu."
   },
   "pages": {
     "support": {
@@ -8090,15 +8097,15 @@
     },
     "alcohol-coffee-drink-prices-australia": {
       "title": "Ceny piva a kávy v Austrálii 2026: pivo v pubu 7 až 16 AUD",
-      "description": "Pivo v pubu stojí v Sydney 7 až 16 AUD a cappuccino 4,50 až 8 AUD (říjen 2026). Ceny piva a vína z obchodů s alkoholem a jak ušetřit na pití.",
+      "description": "Pivo v pubu stojí v Sydney 7 až 16 AUD a cappuccino 4,50 až 8 AUD (říjen 2026). Na standardní nápoj vychází pivo v pubu na 4 až 9 AUD a víno z bottle shopu na 1,60 až 4 AUD.",
       "region": "Austrálie",
       "imageAlt": "Nápoje z australské kavárny na stole",
-      "intro": "Točené pivo 500 ml stojí v pubu v Sydney zhruba 7 až 16 AUD a cappuccino 4,50 až 8 AUD, podle cen od uživatelů aktualizovaných v říjnu 2026, zatímco lahev piva 500 ml z obchodu s alkoholem (bottle shop) vyjde celostátně zhruba na 3,50 až 12 AUD. Útrata za pití se sčítá kolo po kole.",
+      "intro": "Točené pivo 500 ml stojí v pubu v Sydney zhruba 7 až 16 AUD a cappuccino 4,50 až 8 AUD, podle cen od uživatelů aktualizovaných v říjnu 2026, zatímco lahev piva 500 ml z obchodu s alkoholem (bottle shop) vyjde celostátně zhruba na 3,50 až 12 AUD. Na standardní nápoj to v pubu vychází zhruba na 4 až 9 AUD, u piva z bottle shopu na 2 až 7 AUD a u lahve vína střední třídy na 1,60 až 4 AUD, takže nejlevnější je to, co si odvezete do kempu.",
       "sections": [
         {
           "heading": "Cena v obchodě a cena v podniku jsou dvě různé věci",
           "body": [
-            "V ceně pití v pubu neplatíte jen samotný nápoj, ale i podnik, personál a obsluhu. Srovnávejte proto srovnatelné a nezaměňujte cenu stejného množství z obchodu s alkoholem s cenou natočeného nápoje.",
+            "V ceně pití v pubu neplatíte jen samotný nápoj, ale i podnik, personál a obsluhu. Srovnávejte proto srovnatelné a nezaměňujte cenu stejného množství z obchodu s alkoholem s cenou natočeného nápoje. Férové srovnání umožní standardní nápoje: Healthy WA počítá jeden standardní nápoj jako 10 gramů alkoholu, tolik je v 285 ml plnohodnotného piva nebo 100 ml vína, takže pivo 500 ml odpovídá asi 1,75 standardního nápoje a lahev vína 750 ml asi 7,5.",
             "Happy hour a akční nabídky trvají jen chvíli. Rozpočet postavte na běžných cenách a každou slevu berte jako rezervu navíc."
           ],
           "tips": []
@@ -8201,6 +8208,9 @@
         },
         {
           "label": "Northern Territory: nákup a konzumace alkoholu"
+        },
+        {
+          "label": "Healthy WA: co je standardní nápoj"
         }
       ],
       "priceTable": {
@@ -8638,10 +8648,10 @@
     },
     "australia-road-trip-fuel-cost-2026": {
       "title": "Kolik stojí palivo na road tripu po Austrálii v roce 2026",
-      "description": "Spočítejte si benzín nebo naftu podle vzdálenosti a spotřeby, s aktuálními oficiálními cenami ve městech a rezervou na odlehlé silnice.",
+      "description": "Spočítejte cenu benzinu nebo nafty ze vzdálenosti a spotřeby, s aktuálními průměrnými cenami ve městech a rezervou na odlehlé silnice.",
       "region": "Austrálie",
       "imageAlt": "Doplňování paliva do vozidla na australském road tripu",
-      "intro": "Palivo je položka, u které se kilometry mění v peníze. Podle oficiálních dat Fuel Plan z 5. srpna 2026 vychází průměr pěti největších měst na 2,08 AUD za litr benzínu a 2,47 AUD za litr nafty, v odlehlých oblastech ale mohou být ceny výrazně vyšší.",
+      "intro": "U paliva se z kilometrů stávají peníze. V týdnu do 1. listopadu 2026 byl podle Australian Institute of Petroleum průměr v pěti největších městech 2,33 AUD za litr benzinu a 2,77 AUD za litr nafty, zatímco v odlehlých oblastech mohou být ceny výrazně vyšší.",
       "sections": [
         {
           "heading": "Výpočet",
@@ -8654,7 +8664,7 @@
         {
           "heading": "Průměry z velkých měst nejsou ceny v odlehlých místech",
           "body": [
-            "Oficiální průměr z měst je srozumitelný výchozí bod. Odlehlé roadhousy (benzinky s občerstvením) mají jiné náklady a jsou příliš důležité na to, abyste je vynechali jen kvůli nižší ceně o kus dál.",
+            "Průměr měst je srozumitelný výchozí bod. Odlehlé roadhousy (benzinky s občerstvením) mají jiné náklady a jsou příliš důležité na to, abyste je vynechali jen kvůli nižší ceně o kus dál.",
             "Tankujte raději dřív než pozdě, mějte přehled, kde je další spolehlivá čerpací stanice, a zastávky na tankování zahrňte do plánu cesty."
           ],
           "tips": [
@@ -8736,7 +8746,7 @@
       ],
       "sources": [
         {
-          "label": "Fuel Plan australské vlády: statistiky"
+          "label": "Australian Institute of Petroleum: týdenní ceny benzinu a nafty"
         },
         {
           "label": "ACCC: týdenní sledování cen paliva"
@@ -8746,7 +8756,7 @@
         }
       ],
       "priceTable": {
-        "note": "Vypočteno z průměrů pěti největších měst podle Fuel Plan z 5. srpna 2026: benzín 2,08 AUD/l a nafta 2,47 AUD/l.",
+        "note": "Vypočteno z průměrů Australian Institute of Petroleum pro pět největších měst za týden do 1. listopadu 2026: benzin 2,33 AUD/l a nafta 2,77 AUD/l.",
         "rows": [
           {
             "label": "Benzín",
@@ -18441,24 +18451,24 @@
     },
     "brisbane-to-sydney-drive": {
       "title": "Cesta z Brisbane do Sydney 2026: Pacific Highway nebo New England, zastávky a kempy",
-      "description": "Z Brisbane do Sydney je to asi 975 km a 13 hodin po Pacific Highway i po New England Highway. Porovnání tras, místa na přenocování, pravidla o ohnivých mravencích (fire ants), mýtné a výlevky (dump points).",
+      "description": "Z Brisbane do Sydney je to asi 907 km a 11 hodin po Pacific Highway, nebo 970 km a 13 hodin po New England Highway. Porovnání tras, místa na přenocování, pravidla o ohnivých mravencích (fire ants), mýtné a výlevky (dump points).",
       "region": "Queensland a New South Wales (Nový Jižní Wales)",
       "imageAlt": "Pacific Highway se dvěma oddělenými jízdními pásy u Wootton na středním severním pobřeží státu New South Wales, pohled z mostu",
-      "intro": "Z Brisbane do Sydney je to po obou silnicích asi 975 km: zhruba 12 h 47 min po Pacific Motorway a Pacific Highway podél pobřeží a zhruba 13 h 24 min po New England Highway ve vnitrozemí, podle navigace OSRM bez zastávek. Pobřežní silnice má po celé délce čtyři pruhy, vnitrozemská je klidnější a obě se dají pohodově zvládnout za dva nebo tři dny.",
+      "intro": "Z Brisbane do Sydney je to asi 907 km a zhruba 10 h 52 min po Pacific Motorway a Pacific Highway podél pobřeží, nebo asi 970 km a zhruba 13 h 8 min po New England Highway ve vnitrozemí, podle navigace OSRM bez zastávek. Pobřežní silnice má po celé délce čtyři pruhy, vnitrozemská je klidnější a obě se dají pohodově zvládnout za dva nebo tři dny.",
       "sections": [
         {
           "heading": "Porovnání tras z Brisbane do Sydney",
           "body": [
             "Pobřežní trasa vede z Brisbane po Pacific Motorway a dál po Pacific Highway přes Tweed Heads, Ballina, Grafton, Coffs Harbour, Port Macquarie, Taree a Newcastle. Podle výpisu australské vlády o infrastruktuře je celých 657 km Pacific Highway mezi Hexhamem a hranicí <a data-guide=\"camping-rules-queensland\">Queenslandu</a> otevřeno jako čtyřpruhová silnice s oddělenými jízdními pásy od 17. prosince 2020. Vnitrozemská trasa vede po Cunningham Highway do Warwicku, poté po New England Highway přes Tenterfield, Glen Innes, Armidale, Tamworth a Singleton.",
-            "Vzdálenosti a časy pocházejí z navigace OSRM nad daty OpenStreetMap, vypočtené 21. října 2026 pro osobní auto od centra města k centru města bez zastávek. S tažným vozidlem a zastávkami na palivo a jídlo to trvá déle. Třetí varianta zůstává na Pacific Highway, ale zajíždí přes Forster a Bulahdelah poblíž Myall Lakes, což přidá asi 31 km a 35 minut."
+            "Vzdálenosti a časy pocházejí z navigace OSRM nad daty OpenStreetMap, vypočtené 3. listopadu 2026 pro osobní auto od centra města k centru města bez zastávek. S tažným vozidlem a zastávkami na palivo a jídlo to trvá déle. Třetí varianta zůstává na Pacific Highway, ale zajíždí přes Forster a Bulahdelah poblíž Myall Lakes, což přidá asi 33 km a 45 minut."
           ],
           "tips": [
             "Pobřeží: čtyři pruhy, rušnější, víc měst",
             "Vnitrozemí: většinou bez dělicího pásu, s předjížděcími pruhy",
-            "Objížďka přes Forster přidá asi 31 km"
+            "Objížďka přes Forster přidá asi 33 km"
           ],
           "table": {
-            "caption": "Z Brisbane do Sydney po silnici, trasy OSRM vypočtené 21. října 2026.",
+            "caption": "Z Brisbane do Sydney po silnici, trasy OSRM vypočtené 3. listopadu 2026.",
             "head": [
               "Trasa",
               "Vzdálenost",
@@ -18469,22 +18479,22 @@
             "rows": [
               [
                 "Pacific Motorway a Pacific Highway",
-                "Asi 978 km",
-                "Asi 12 h 47 min",
+                "Asi 907 km",
+                "Asi 10 h 52 min",
                 "Čtyřpruhová silnice s oddělenými jízdními pásy, 110 km/h na úsecích v dálničním standardu",
                 "Pláže, města a snadné služby"
               ],
               [
                 "New England Highway přes Warwick",
-                "Asi 973 km",
-                "Asi 13 h 24 min",
+                "Asi 970 km",
+                "Asi 13 h 8 min",
                 "Většinou silnice bez dělicího pásu s předjížděcími pruhy",
                 "Klidnější silnice, chladnější vysočina, vinařská oblast"
               ],
               [
                 "Pacific Highway přes Forster",
-                "Asi o 31 km a 35 min víc než přímo",
-                "Přidá asi 35 min mezi Taree a Newcastle",
+                "Asi o 33 km a 45 min víc než přímo",
+                "Přidá asi 45 min mezi Taree a Newcastle",
                 "Pacific Highway s objížďkou k jezerům",
                 "Noc u Myall Lakes"
               ]
@@ -18494,12 +18504,12 @@
         {
           "heading": "Pobřežní trasa za tři dny",
           "body": [
-            "Třídenní rozdělení podle OSRM je z Brisbane do Coffs Harbour asi 410 km, z Coffs Harbour do Newcastle asi 406 km a z Newcastle do Sydney asi 161 km. Jednotlivé úseky: z Brisbane do Tweed Heads asi 102 km (1 h 20 min), z Tweed Heads do Ballina asi 87 km (1 h 7 min), z Ballina do Grafton asi 136 km (1 h 44 min), z Grafton do Coffs Harbour asi 85 km (1 h 7 min), z Coffs Harbour do Port Macquarie asi 154 km (1 h 55 min), z Port Macquarie do Taree asi 80 km (1 h 4 min), z Taree do Newcastle asi 172 km (2 h 14 min) a z Newcastle do Sydney asi 161 km (2 h 12 min).",
-            "Na první noc jsou v Coffs Harbour přímo na Pacific Highway Banana Coast <a data-guide=\"caravan-park-vs-holiday-park\">Caravan Park</a> i Reflections Coffs Harbour Holiday Park. Dostupnost a ceny ověřte přímo v kempu. Port Macquarie je další přirozená zastávka, asi 564 km od Brisbane. Data AussieCamps uvádějí kempy Diamond Head, Indian Head a Kylies Beach v národním parku Crowdy Bay poblíž Port Macquarie a Mungo Brush, Bombah Point a další kempy u Myall Lakes poblíž Bulahdelah, všechno jsou to kempy v národních parcích s uvedeným poplatkem za vstup do parku."
+            "Třídenní rozdělení podle OSRM je z Brisbane do Coffs Harbour asi 383 km, z Coffs Harbour do Newcastle asi 385 km a z Newcastle do Sydney asi 161 km. Zajížďka do centra každého města přidává kilometry, takže tyto úseky dají dohromady víc než průjezd po hlavní trase. Jednotlivé úseky: z Brisbane do Tweed Heads asi 102 km (1 h 20 min), z Tweed Heads do Ballina asi 87 km (1 h 7 min), z Ballina do Grafton asi 136 km (1 h 44 min), z Grafton do Coffs Harbour asi 85 km (1 h 7 min), z Coffs Harbour do Port Macquarie asi 154 km (1 h 55 min), z Port Macquarie do Taree asi 80 km (1 h 4 min), z Taree do Newcastle asi 172 km (2 h 14 min) a z Newcastle do Sydney asi 161 km (2 h 12 min).",
+            "Na první noc jsou v Coffs Harbour přímo na Pacific Highway Banana Coast <a data-guide=\"caravan-park-vs-holiday-park\">Caravan Park</a> i Reflections Coffs Harbour Holiday Park. Dostupnost a ceny ověřte přímo v kempu. Port Macquarie je další přirozená zastávka, asi 537 km od Brisbane. Data AussieCamps uvádějí kempy Diamond Head, Indian Head a Kylies Beach v národním parku Crowdy Bay poblíž Port Macquarie a Mungo Brush, Bombah Point a další kempy u Myall Lakes poblíž Bulahdelah, všechno jsou to kempy v národních parcích s uvedeným poplatkem za vstup do parku."
           ],
           "tips": [
-            "Coffs Harbour asi 410 km od Brisbane",
-            "Port Macquarie asi 564 km",
+            "Coffs Harbour asi 383 km od Brisbane",
+            "Port Macquarie asi 537 km",
             "Kempy v národních parcích: poplatek za vstup"
           ]
         },
@@ -18577,7 +18587,7 @@
       "faq": [
         [
           "Jak dlouho trvá cesta autem z Brisbane do Sydney?",
-          "Asi 12 h 47 min po Pacific Motorway a Pacific Highway, asi 978 km, nebo asi 13 h 24 min po New England Highway, asi 973 km, podle OSRM bez zastávek. Většina lidí si cestu rozdělí na dva nebo tři dny."
+          "Asi 10 h 52 min po Pacific Motorway a Pacific Highway, asi 907 km, nebo asi 13 h 8 min po New England Highway, asi 970 km, podle OSRM bez zastávek. Většina lidí si cestu rozdělí na dva nebo tři dny."
         ],
         [
           "Má Pacific Highway mezi Brisbane a Sydney po celé délce čtyři pruhy?",
@@ -18594,7 +18604,7 @@
       ],
       "sources": [
         {
-          "label": "OSRM routing nad daty OpenStreetMap (z Brisbane do Sydney, vypočteno 21. října 2026)"
+          "label": "OSRM routing nad daty OpenStreetMap (z Brisbane do Sydney, vypočteno 3. listopadu 2026)"
         },
         {
           "label": "Australian Government: modernizace Pacific Highway od Hexhamu k hranici Queenslandu"
@@ -18834,16 +18844,16 @@
     },
     "sydney-to-adelaide-drive": {
       "title": "Ze Sydney do Adelaide autem 2026: Sturt Highway, Barrier Highway, zastávky a kempy",
-      "description": "Ze Sydney do Adelaide je to po Sturt Highway asi 1 457 km a 18 hodin, přes Melbourne asi 1 625 km. Porovnání tras, místa na přespání, pravidla pro octomilku, úseky bez paliva a výlevky.",
+      "description": "Ze Sydney do Adelaide je to po Sturt Highway asi 1 412 km a 17 hodin, přes Melbourne asi 1 591 km. Porovnání tras, místa na přespání, pravidla pro octomilku, úseky bez paliva a výlevky.",
       "region": "New South Wales, Victoria a South Australia",
       "imageAlt": "Řeka Murrumbidgee u Balranaldu v New South Wales, s červenými eukalypty nakloněnými nad vodou",
-      "intro": "Ze Sydney do Adelaide je to vnitrozemskou Sturt Highway přes Wagga Wagga, Hay, Balranald, Mildura a Renmark asi 1 457 km a 18 hodin jízdy podle trasování OSRM. Další možnosti jsou Hume Highway přes Melbourne, asi 1 625 km, a odlehlá Barrier Highway přes Cobar a Broken Hill, což je delší jízda outbackem.",
+      "intro": "Ze Sydney do Adelaide je to vnitrozemskou Sturt Highway přes Wagga Wagga, Hay, Balranald, Mildura a Renmark asi 1 412 km a 17 hodin jízdy podle trasování OSRM. Další možnosti jsou Hume Highway přes Melbourne, asi 1 591 km, a odlehlá Barrier Highway přes Cobar a Broken Hill, což je delší jízda outbackem.",
       "sections": [
         {
           "heading": "Trasy ze Sydney do Adelaide v porovnání",
           "body": [
             "Vnitrozemská trasa vede ze Sydney po Hume Highway do Tarcutty a odtud po Sturt Highway přes Wagga Wagga, Narrandera, Hay, Balranald, Mildura, Renmark a Waikerie do Gawler a Adelaide. Podle Wikipedie měří Sturt Highway 947 km od Tarcutty do Gawler, z toho asi 596 km v <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> (Nový Jižní Wales), 117 km ve státě Victoria a 234 km v South Australia, a většina z ní je silnice s jedním jízdním pásem v každém směru. Druhou možností je Hume Highway do Melbourne a dál silnice z Melbourne do Adelaide, kterou popisuje průvodce pobřežní trasou. Třetí je Barrier Highway, která odbočuje od Mitchell Highway u Nyngan a vede přes Cobar, Wilcannia, Broken Hill a Yuntu do Burry.",
-            "Všechny vzdálenosti a časy pocházejí z trasování OSRM na datech OpenStreetMap, vypočtených 21. října 2026, pro osobní auto bez zastávek. Celkový údaj OSRM pro Barrier Highway, asi 1 797 km, vypadá na úseku Nyngan až Cobar nadsazený, proto ho zde nepoužíváme. Wikipedie uvádí Barrier Highway jako 1 012 km od Nyngan do Giles Corner v <a data-guide=\"camping-rules-south-australia\">South Australia</a>."
+            "Všechny vzdálenosti a časy pocházejí z trasování OSRM na datech OpenStreetMap, vypočtených 3. listopadu 2026, pro osobní auto bez zastávek. Podle tohoto trasování měří trasa po Barrier Highway asi 1 673 km. Wikipedie uvádí Barrier Highway jako 1 012 km od Nyngan do Giles Corner v <a data-guide=\"camping-rules-south-australia\">South Australia</a>."
           ],
           "tips": [
             "Sturt: nejkratší, jeden jízdní pás",
@@ -18851,7 +18861,7 @@
             "Barrier: odlehlá, dlouhé úseky bez paliva"
           ],
           "table": {
-            "caption": "Ze Sydney do Adelaide po silnici, trasování OSRM vypočtené 21. října 2026. Celkový údaj pro Barrier Highway neuvádíme, protože údaj OSRM nebyl spolehlivý.",
+            "caption": "Ze Sydney do Adelaide po silnici, trasování OSRM vypočtené 3. listopadu 2026.",
             "head": [
               "Trasa",
               "Vzdálenost",
@@ -18862,22 +18872,22 @@
             "rows": [
               [
                 "Hume a Sturt Highway přes Hay a Mildura",
-                "Asi 1 457 km",
-                "Asi 17 h 58 min",
+                "Asi 1 412 km",
+                "Asi 17 h 18 min",
                 "Hume s oddělenými jízdními pásy, pak většinou jeden jízdní pás",
                 "Nejkratší cesta, městečka u řeky a oblast Riverland"
               ],
               [
                 "Hume Highway přes Melbourne",
-                "Asi 1 625 km",
-                "Asi 20 h 26 min",
+                "Asi 1 591 km",
+                "Asi 19 h 28 min",
                 "Oddělené jízdní pásy do Melbourne, pak silnice z Melbourne do Adelaide",
                 "Noc v Melbourne a pak pobřeží"
               ],
               [
                 "Barrier Highway přes Cobar a Broken Hill",
-                "Asi 1 012 km jen po Barrier Highway, od Nyngan do Giles Corner",
-                "Neuvedeno",
+                "Asi 1 673 km",
+                "Asi 21 h 18 min",
                 "Odlehlá, řídce osídlená, od roku 1972 zcela zpevněná",
                 "Řidiči do outbacku, kteří chtějí vidět Broken Hill"
               ]
@@ -18887,13 +18897,13 @@
         {
           "heading": "Ze Sydney do Adelaide po Sturt Highway na čtyři dny",
           "body": [
-            "Podle trasování OSRM vychází rozdělení na čtyři dny takto: Sydney až Wagga Wagga asi 457 km (5 h 33 min), Wagga Wagga až Hay asi 308 km (3 h 54 min), Hay až Mildura asi 292 km (3 h 31 min) a Mildura až Adelaide asi 401 km (4 h 56 min). Cestou je Goulburn asi 194 km od Sydney, Gundagai o dalších asi 181 km dál, Narrandera asi 106 km za Wagga Wagga, Balranald asi 132 km za Hay a Renmark asi 141 km za Mildura.",
+            "Podle trasování OSRM vychází rozdělení na čtyři dny takto: Sydney až Wagga Wagga asi 455 km (5 h 29 min), Wagga Wagga až Hay asi 269 km (3 h 19 min), Hay až Mildura asi 292 km (3 h 32 min) a Mildura až Adelaide asi 397 km (4 h 57 min). Cestou je Goulburn asi 194 km od Sydney, Gundagai o dalších asi 181 km dál, Narrandera asi 97 km za Wagga Wagga, Balranald asi 135 km za Hay a Renmark asi 143 km za Mildura.",
             "Část po Hume Highway má oddělené jízdní pásy a limit 110 km/h, a teprve na Sturt Highway za Wagga Wagga začíná klidnější jízda po silnici s jedním jízdním pásem."
           ],
           "tips": [
-            "Wagga Wagga asi 457 km",
-            "Hay asi 765 km",
-            "Mildura asi 1 057 km"
+            "Wagga Wagga asi 455 km",
+            "Hay asi 724 km",
+            "Mildura asi 1 016 km"
           ]
         },
         {
@@ -18924,7 +18934,7 @@
           "heading": "Palivo a služby",
           "body": [
             "Na Barrier Highway podle Rita's Outback Guide poskytuje palivo mezi Cobar a Wilcannia jen Emmdale Roadhouse (odlehlá benzinka s občerstvením) a mezi Wilcannia a Broken Hill jen Little Topar Roadhouse, kde je i pití a jídlo. Otevírací dobu a to, zda Little Topar teď vůbec funguje, se potvrdit nepodařilo, proto zavolejte předem. Nyngan, Cobar a Wilcannia jsou města s palivem a Yunta má podle stejného průvodce dvě čerpací stanice. NSW National Parks uvádí, že v Národním parku Mutawintji, na výletě z Broken Hill, není palivo ani jídlo.",
-            "Na Sturt Highway jsou nejdelší úseky mezi městy podle OSRM Narrandera až Hay asi 202 km a Balranald až Mildura asi 160 km. Palivo v menších městech, jako jsou Darlington Point, Carrathool, Oxley a Euston, se potvrdit nepodařilo, proto tankujte ve Wagga Wagga, Narrandeře, Hay, Balranaldu a Mildura. Jak vzdálenost rozpočítat, ukazuje průvodce <a data-guide=\"road-trip-fuel-planning-australia\">plánováním paliva</a>."
+            "Na Sturt Highway jsou nejdelší úseky mezi městy podle OSRM Narrandera až Hay asi 175 km a Balranald až Mildura asi 159 km. Palivo v menších městech, jako jsou Darlington Point, Carrathool, Oxley a Euston, se potvrdit nepodařilo, proto tankujte ve Wagga Wagga, Narrandeře, Hay, Balranaldu a Mildura. Jak vzdálenost rozpočítat, ukazuje průvodce <a data-guide=\"road-trip-fuel-planning-australia\">plánováním paliva</a>."
           ],
           "tips": [
             "Barrier: palivo před Cobar a Wilcannia",
@@ -18983,7 +18993,7 @@
       "faq": [
         [
           "Kolik kilometrů je ze Sydney do Adelaide autem?",
-          "Asi 1 457 km a 18 hodin po vnitrozemské Sturt Highway, nebo asi 1 625 km a 20 hodin přes Melbourne, podle trasování OSRM na datech OpenStreetMap. Počítejte se třemi nebo čtyřmi dny."
+          "Asi 1 412 km a 17 h 18 min po vnitrozemské Sturt Highway, nebo asi 1 591 km a 19 h 28 min přes Melbourne, podle trasování OSRM na datech OpenStreetMap. Počítejte se třemi nebo čtyřmi dny."
         ],
         [
           "Která silnice je nejkratší ze Sydney do Adelaide?",
@@ -19000,7 +19010,7 @@
       ],
       "sources": [
         {
-          "label": "Trasování OSRM na datech OpenStreetMap (ze Sydney do Adelaide, vypočteno 21. října 2026)"
+          "label": "Trasování OSRM na datech OpenStreetMap (ze Sydney do Adelaide, vypočteno 3. listopadu 2026)"
         },
         {
           "label": "Wikipedia: Sturt Highway"
@@ -19043,16 +19053,16 @@
     },
     "melbourne-to-canberra-drive": {
       "title": "Z Melbourne do Canberry autem 2026: Hume Highway, horská a Monaro trasa",
-      "description": "Z Melbourne do Canberry je to po Hume a Barton Highway asi 680 km a 8,5 hodiny. Porovnání tras včetně horské a Monaro varianty, zastávky, kempy, sněhové řetězy a výlevky.",
+      "description": "Z Melbourne do Canberry je to po Hume a Barton Highway asi 650 km a 8 hodin. Porovnání tras včetně horské a Monaro varianty, zastávky, kempy, sněhové řetězy a výlevky.",
       "region": "Victoria, New South Wales a ACT",
       "imageAlt": "Hume Highway s oddělenými jízdními pásy mezi Gundagai a Goulburn, provoz v obou směrech a zelené kopce v pozadí",
-      "intro": "Z Melbourne do Canberry je to po Hume Highway do Yass a po Barton Highway do Canberry asi 680 km a 8 h 35 min jízdy podle trasování OSRM. Dvě alternativy, přes Snowy Mountains nebo po Monaro Highway od jižního pobřeží, přidají zhruba 70 až 170 km a jsou pro řidiče, kteří chtějí hory nebo pobřeží.",
+      "intro": "Z Melbourne do Canberry je to po Hume Highway do Yass a po Barton Highway do Canberry asi 652 km a 7 h 53 min jízdy podle trasování OSRM. Dvě alternativy, přes Snowy Mountains nebo po Monaro Highway od jižního pobřeží, přidají zhruba 80 až 100 km a jsou pro řidiče, kteří chtějí hory nebo pobřeží.",
       "sections": [
         {
           "heading": "Trasy z Melbourne do Canberry v porovnání",
           "body": [
             "Standardní trasa vede po Hume Highway přes Seymour, Euroa, Benalla, Wangaratta, Albury, Holbrook, Gundagai a Yass a pak po Barton Highway (A25) do ACT. Podle Wikipedie má Hume Highway od 7. srpna 2013 po celé délce oddělené jízdní pásy a limit 110 km/h a Barton Highway měří 52 km od Yass po Lyneham, přičemž jen asi 6 km jejího úseku v <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> (Nový Jižní Wales) má oddělené jízdní pásy.",
-            "Horská trasa odbočuje z Hume u Albury, vede po Murray Valley Highway do Corryong, přes Snowy Mountains pokračuje po Alpine Way z Khancoban do Jindabyne a pak přes Cooma a po Monaro Highway do Canberry. Trasa Monaro vede po Princes Highway z Melbourne do Cann River a pak po Monaro Highway přes Bombala a Cooma. Vzdálenosti a časy pocházejí z trasování OSRM na datech OpenStreetMap, vypočtených 21. října 2026, pro osobní auto bez zastávek. Celkový údaj pro horskou trasu je odvozen z úseků OSRM a délky Alpine Way z Wikipedie, takže nejde o trasovaný údaj."
+            "Horská trasa odbočuje z Hume u Albury, vede po Murray Valley Highway do Corryong, přes Snowy Mountains pokračuje po Alpine Way z Khancoban do Jindabyne a pak přes Cooma a po Monaro Highway do Canberry. Trasa Monaro vede po Princes Highway z Melbourne do Cann River a pak po Monaro Highway přes Bombala a Cooma. Vzdálenosti a časy pocházejí z trasování OSRM na datech OpenStreetMap, vypočtených 3. listopadu 2026, pro osobní auto bez zastávek. Celkový údaj pro horskou trasu je odvozen z úseků OSRM a délky Alpine Way z Wikipedie, takže nejde o trasovaný údaj."
           ],
           "tips": [
             "Hume: nejrychlejší, oddělené pásy až do Yass",
@@ -19060,7 +19070,7 @@
             "Monaro: pobřežní silnice a pak vysočina"
           ],
           "table": {
-            "caption": "Z Melbourne do Canberry po silnici, trasování OSRM vypočtené 21. října 2026 (celkový údaj pro horskou trasu odvozen).",
+            "caption": "Z Melbourne do Canberry po silnici, trasování OSRM vypočtené 3. listopadu 2026 (celkový údaj pro horskou trasu odvozen).",
             "head": [
               "Trasa",
               "Vzdálenost",
@@ -19071,8 +19081,8 @@
             "rows": [
               [
                 "Hume Highway a pak Barton Highway",
-                "Asi 680 km",
-                "Asi 8 h 35 min",
+                "Asi 652 km",
+                "Asi 7 h 53 min",
                 "Oddělené jízdní pásy do Yass, pak většinou jeden jízdní pás",
                 "Nejrychlejší cesta, za jeden den nebo s nocí v Albury"
               ],
@@ -19085,8 +19095,8 @@
               ],
               [
                 "Princes Highway do Cann River a pak Monaro Highway",
-                "Asi 747 km",
-                "Asi 10 h 35 min",
+                "Asi 735 km",
+                "Asi 9 h 46 min",
                 "Většinou jeden jízdní pás",
                 "Cesta po jihovýchodním pobřeží a vysočinou"
               ]
@@ -19096,13 +19106,13 @@
         {
           "heading": "Trasa po Hume za jeden nebo dva dny",
           "body": [
-            "Podle trasování OSRM je z Melbourne do Albury asi 315 km (3 h 53 min) a z Albury do Canberry asi 353 km (4 h 23 min), přes Holbrook asi 63 km, Gundagai o dalších asi 115 km, Yass o dalších asi 107 km a Canberra o dalších asi 68 km. Pokud cestu rozdělíte, obvyklým místem na noc je Albury. BIG4 Albury Tourist Park leží na Wagga Road v Lavingtonu, Albury Central Tourist Park na North Street a Discovery Parks Lake Hume je asi 15 minut odtud. Dostupnost si potvrďte přímo v kempu.",
+            "Podle trasování OSRM je z Melbourne do Albury asi 317 km (3 h 53 min) a z Albury do Canberry asi 339 km (4 h 6 min), přes Holbrook asi 62 km, Gundagai o dalších asi 118 km, Yass o dalších asi 101 km a Canberra o dalších asi 60 km. Pokud cestu rozdělíte, obvyklým místem na noc je Albury. BIG4 Albury Tourist Park leží na Wagga Road v Lavingtonu, Albury Central Tourist Park na North Street a Discovery Parks Lake Hume je asi 15 minut odtud. Dostupnost si potvrďte přímo v kempu.",
             "Dál po trase je Gundagai Cabins and Tourist Park na adrese 1 Nangus Road a VisitNSW ho popisuje jako vhodný pro zastávku na přespání na Hume Highway. Yass <a data-guide=\"caravan-park-vs-holiday-park\">Caravan Park</a> je asi pět minut od Hume na severní straně Yass, s chatkami, kempováním a průjezdnými místy pro karavany. Data AussieCamps uvádějí odpočívadla na Hume ve státě Victoria v Mangalore, Avenel, Benalla, Winton, Glenrowan, Wangaratta South a Chiltern, s toaletami, piknikovými stoly, grily a úsekem pro těžká vozidla a většinou s pitnou vodou. Pro úsek v New South Wales žádná neuvádějí, což je mezera v datech. Berte odpočívadla jako místo na přestávku: ve státě Victoria se v prověřených zdrojích žádný celostátní limit pobytu přes noc nenašel a obce mohou přespání zakázat."
           ],
           "tips": [
-            "Albury asi 315 km",
-            "Gundagai asi 493 km",
-            "Yass asi 600 km"
+            "Albury asi 317 km",
+            "Gundagai asi 492 km",
+            "Yass asi 592 km"
           ]
         },
         {
@@ -19188,7 +19198,7 @@
       "faq": [
         [
           "Jak dlouho trvá cesta autem z Melbourne do Canberry?",
-          "Asi 680 km a 8 h 35 min jízdy po Hume Highway a Barton Highway, podle trasování OSRM na datech OpenStreetMap. Většina řidičů to zvládne za jeden dlouhý den a Albury je obvyklé místo, kde se cesta rozdělí na dva dny."
+          "Asi 652 km a 7 h 53 min jízdy po Hume Highway a Barton Highway, podle trasování OSRM na datech OpenStreetMap. Většina řidičů to zvládne za jeden dlouhý den a Albury je obvyklé místo, kde se cesta rozdělí na dva dny."
         ],
         [
           "Má celá Hume Highway oddělené jízdní pásy?",
@@ -19205,7 +19215,7 @@
       ],
       "sources": [
         {
-          "label": "Trasování OSRM na datech OpenStreetMap (z Melbourne do Canberry, vypočteno 21. října 2026)"
+          "label": "Trasování OSRM na datech OpenStreetMap (z Melbourne do Canberry, vypočteno 3. listopadu 2026)"
         },
         {
           "label": "Wikipedia: Hume Highway"
@@ -19456,15 +19466,15 @@
     },
     "darwin-to-alice-springs-drive": {
       "title": "Z Darwinu do Alice Springs autem 2026: zastávky na Stuart Highway, palivo a karanténa",
-      "description": "Z Darwinu do Alice Springs je to po Stuart Highway asi 1 500 km a 16 hodin. Zastávky den po dni, odpočívadla, palivo, uzavírky v období dešťů, rychlostní limity, pravidla pro ovoce a výlevky.",
+      "description": "Z Darwinu do Alice Springs je to po Stuart Highway asi 1 500 km a 15 hodin. Zastávky den po dni, odpočívadla, palivo, uzavírky v období dešťů, rychlostní limity, pravidla pro ovoce a výlevky.",
       "region": "Northern Territory",
       "imageAlt": "Rozpůlený žulový balvan v rezervaci Karlu Karlu (Devils Marbles) v Northern Territory, za ním další oranžové balvany",
-      "intro": "Z Darwinu do Alice Springs je to asi 1 500 km, podle trasování OSRM 1 525 km a 16 h 26 min jízdy, a vede tam jediná silnice: Stuart Highway přes Katherine, Daly Waters, Tennant Creek a Karlu Karlu. Počítejte se čtyřmi dny, před každým úsekem se podívejte na Road Report NT a přečtěte si pravidla pro ovoce, protože na této trase platí omezení pro čerstvé produkty.",
+      "intro": "Z Darwinu do Alice Springs je to asi 1 500 km, podle trasování OSRM 1 492 km a 15 h 12 min jízdy, a vede tam jediná silnice: Stuart Highway přes Katherine, Daly Waters, Tennant Creek a Karlu Karlu. Počítejte se čtyřmi dny, před každým úsekem se podívejte na Road Report NT a přečtěte si pravidla pro ovoce, protože na této trase platí omezení pro čerstvé produkty.",
       "sections": [
         {
           "heading": "Jedna silnice: Stuart Highway",
           "body": [
-            "Mezi Darwinem a Alice Springs vede jediná reálná zpevněná trasa, Stuart Highway, kterou Tourism NT nazývá Explorers Way. Vede přes Adelaide River, Pine Creek, Katherine, Mataranka, Daly Waters, Elliott, Tennant Creek, Karlu Karlu (Devils Marbles), Barrow Creek a Ti Tree. Wikipedie uvádí z Darwinu do Alice Springs 1 499 km a trasování OSRM na datech OpenStreetMap, vypočtené 21. října 2026 pro osobní auto bez zastávek, dává 1 525 km, takže bezpečný údaj je asi 1 500 km.",
+            "Mezi Darwinem a Alice Springs vede jediná reálná zpevněná trasa, Stuart Highway, kterou Tourism NT nazývá Explorers Way. Vede přes Adelaide River, Pine Creek, Katherine, Mataranka, Daly Waters, Elliott, Tennant Creek, Karlu Karlu (Devils Marbles), Barrow Creek a Ti Tree. Wikipedie uvádí z Darwinu do Alice Springs 1 499 km a trasování OSRM na datech OpenStreetMap, vypočtené 3. listopadu 2026 pro osobní auto bez zastávek, dává 1 492 km, takže bezpečný údaj je asi 1 500 km.",
             "Odbočit se dá do Kakadu, do Nitmiluk (Katherine Gorge) u Katherine a do Litchfield, které popisuje okruh Darwin, Kakadu a Litchfield. Za Alice Springs navazují Red Centre Way a road trip z Adelaide do Uluru."
           ],
           "tips": [
@@ -19473,7 +19483,7 @@
             "Dál: Red Centre"
           ],
           "table": {
-            "caption": "Z Darwinu do Alice Springs po Stuart Highway, trasování OSRM vypočtené 21. října 2026, s vzdálenostmi úseků od Tourism NT tam, kde existují.",
+            "caption": "Z Darwinu do Alice Springs po Stuart Highway, trasování OSRM vypočtené 3. listopadu 2026, s vzdálenostmi úseků od Tourism NT tam, kde existují.",
             "head": [
               "Úsek",
               "Vzdálenost",
@@ -19483,12 +19493,12 @@
               [
                 "Z Darwinu do Adelaide River",
                 "Asi 112 km",
-                "Asi 1 h 20 min"
+                "Asi 1 h 21 min"
               ],
               [
                 "Z Adelaide River do Katherine",
-                "Asi 204 km",
-                "Asi 2 h 9 min"
+                "Asi 203 km",
+                "Asi 2 h 5 min"
               ],
               [
                 "Z Katherine do Mataranka",
@@ -19498,17 +19508,17 @@
               [
                 "Z Mataranka do Daly Waters",
                 "Asi 168 km",
-                "Asi 1 h 43 min"
+                "Asi 1 h 42 min"
               ],
               [
                 "Z Daly Waters do Elliott",
-                "Asi 155 km",
-                "Asi 1 h 40 min"
+                "Asi 152 km",
+                "Asi 1 h 31 min"
               ],
               [
                 "Z Elliott do Tennant Creek",
                 "Asi 254 km",
-                "Asi 2 h 34 min"
+                "Asi 2 h 32 min"
               ],
               [
                 "Z Tennant Creek do Karlu Karlu",
@@ -19517,13 +19527,13 @@
               ],
               [
                 "Z Karlu Karlu do Barrow Creek",
-                "Asi 140 km",
-                "Asi 1 h 57 min"
+                "Asi 120 km",
+                "Asi 1 h 10 min"
               ],
               [
                 "Z Barrow Creek do Alice Springs",
                 "Asi 282 km",
-                "Asi 2 h 50 min"
+                "Asi 2 h 51 min"
               ]
             ]
           }
@@ -19531,13 +19541,13 @@
         {
           "heading": "Čtyři dny po Stuart Highway",
           "body": [
-            "Podle OSRM vypadá čtyřdenní rozdělení takto: z Darwinu do Katherine asi 316 km (3 h 29 min), z Katherine do Daly Waters asi 274 km (2 h 50 min), z Daly Waters do Tennant Creek asi 409 km (4 h 14 min) a z Tennant Creek do Alice Springs asi 526 km (5 h 50 min, přes Karlu Karlu). Itineráře Tourism NT uvádějí z Katherine do Darwinu 316 km, z Mataranka do Katherine 106 km, z Daly Waters do Mataranka 167 km a z Alice Springs do Tennant Creek 510 km, což se s OSRM shoduje na několik kilometrů.",
+            "Podle OSRM vypadá čtyřdenní rozdělení takto: z Darwinu do Katherine asi 315 km (3 h 26 min), z Katherine do Daly Waters asi 273 km (2 h 48 min), z Daly Waters do Tennant Creek asi 405 km (4 h 4 min) a z Tennant Creek do Alice Springs asi 506 km (5 h 3 min, přes Karlu Karlu). Itineráře Tourism NT uvádějí z Katherine do Darwinu 315 km, z Mataranka do Katherine 106 km, z Daly Waters do Mataranka 167 km a z Alice Springs do Tennant Creek 510 km, což se s OSRM shoduje na několik kilometrů.",
             "Katherine je výchozím bodem pro Nitmiluk. V Mataranka podle NT Parks termální bazén v Národním parku Elsey drží po celý rok stálých 34 °C a je nutný NT Parks Visitor Pass, který se kupuje předem, přičemž obyvatelé NT jsou od poplatku osvobozeni. V Daly Waters Tourism NT popisuje Daly Waters Historic Pub jako místo, kde se dá najíst, napít i přespat, s kempováním, místy s přípojkou elektřiny, safari stany a chatkami. Konkrétní <a data-guide=\"caravan-park-vs-holiday-park\">caravan parky</a> v Katherine, Mataranka a Tennant Creek se potvrdit nepodařilo, proto si místo zarezervujte předem telefonicky."
           ],
           "tips": [
             "Katherine asi 316 km",
-            "Daly Waters asi 590 km",
-            "Tennant Creek asi 1 000 km"
+            "Daly Waters asi 588 km",
+            "Tennant Creek asi 993 km"
           ]
         },
         {
@@ -19629,7 +19639,7 @@
       "faq": [
         [
           "Jak daleko je to z Darwinu do Alice Springs?",
-          "Asi 1 500 km, což podle trasování OSRM na datech OpenStreetMap znamená 1 525 km a 16 h 26 min jízdy, a to celé po Stuart Highway. Většina lidí si vezme čtyři dny s nocemi v Katherine, Daly Waters a Tennant Creek."
+          "Asi 1 500 km, což podle trasování OSRM na datech OpenStreetMap znamená 1 492 km a 15 h 12 min jízdy, a to celé po Stuart Highway. Většina lidí si vezme čtyři dny s nocemi v Katherine, Daly Waters a Tennant Creek."
         ],
         [
           "Jaký je rychlostní limit na Stuart Highway?",
@@ -19646,7 +19656,7 @@
       ],
       "sources": [
         {
-          "label": "Trasování OSRM na datech OpenStreetMap (z Darwinu do Alice Springs, vypočteno 21. října 2026)"
+          "label": "Trasování OSRM na datech OpenStreetMap (z Darwinu do Alice Springs, vypočteno 3. listopadu 2026)"
         },
         {
           "label": "Tourism NT: informace o bezpečnosti na silnicích"
@@ -23017,7 +23027,7 @@
         {
           "heading": "Palivo: položka, která se mění nejvíc",
           "body": [
-            "Stránka vládního Fuel Plan ukazovala 14. října 2026 průměrné maloobchodní ceny v pěti největších městech zhruba 2,41 AUD za litr benzínu a 2,80 AUD za naftu. Týdenní zpráva NRMA pro Sydney z 19. října uváděla běžný bezolovnatý benzín za 239,8 centu a naftu za 280,1 centu. Příklady v přehledu <a data-guide=\"australia-road-trip-fuel-cost-2026\">nákladů na palivo</a> vycházejí z hodnot z 5. srpna 2026, proto při srovnávání používejte datované údaje odsud.",
+            "Stránka vládního Fuel Plan ukazovala 14. října 2026 průměrné maloobchodní ceny v pěti největších městech zhruba 2,41 AUD za litr benzínu a 2,80 AUD za naftu. Týdenní zpráva NRMA pro Sydney z 19. října uváděla běžný bezolovnatý benzín za 239,8 centu a naftu za 280,1 centu. Příklady v přehledu <a data-guide=\"australia-road-trip-fuel-cost-2026\">nákladů na palivo</a> vycházejí z průměrů Australian Institute of Petroleum za týden do 1. listopadu 2026, proto při srovnávání používejte datované údaje odsud.",
             "Víc než cena záleží na vzdálenosti. Když ujedete poloviční počet kilometrů, zaplatíte za palivo polovinu, a odlehlé roadhousy (odlehlé benzinky s občerstvením) berou víc než městský průměr."
           ],
           "tips": [

@@ -488,9 +488,9 @@
         ],
         "formulaNote": "De rekenhulp rondt liters af op één decimaal en bedragen op de cent. Er wordt verder niets bij opgeteld: tol, olie en bandenslijtage zijn aparte posten in een budget.",
         "example": [
-          "Een rit van 1.000 km in een voertuig dat 12 l/100 km verbruikt, bij A$ 2,08 per liter: het gemiddelde voor benzine in de vijf grootste steden volgens de Fuel Plan-gegevens van 5 augustus 2026.",
-          "1.000 × 12 ÷ 100 = 120 liter. 120 × A$ 2,08 = A$ 249,60. A$ 249,60 ÷ 1.000 km = ongeveer A$ 0,25 per kilometer.",
-          "Dezelfde rit met een dieselvoertuig, tegen het dieselgemiddelde van die dag van A$ 2,47 per liter, kost 120 × A$ 2,47 = A$ 296,40."
+          "Een rit van 1.000 km in een voertuig dat 12 l/100 km verbruikt, bij A$ 2,33 per liter: het gemiddelde voor benzine in de vijf grootste steden volgens het Australian Institute of Petroleum in de week tot en met 1 november 2026.",
+          "1.000 × 12 ÷ 100 = 120 liter. 120 × A$ 2,33 = A$ 279,60. A$ 279,60 ÷ 1.000 km = ongeveer A$ 0,28 per kilometer.",
+          "Dezelfde rit met een dieselvoertuig, tegen het dieselgemiddelde van die week van A$ 2,77 per liter, kost 120 × A$ 2,77 = A$ 332,40."
         ],
         "assumptions": [
           "Het verbruik is het cijfer met lading. Met een camper, bagage op het dak of een caravan erachter verbruik je meer dan het cijfer in de brochure, dus meet je eigen verbruik als je kunt.",
@@ -504,7 +504,7 @@
           ],
           [
             "Hoe bereken ik de brandstofkosten per km?",
-            "Deel het verbruik in l/100 km door 100 en vermenigvuldig met de prijs per liter. Bij 12 l/100 km en A$ 2,08 per liter is dat 0,12 × 2,08, ongeveer A$ 0,25 per kilometer."
+            "Deel het verbruik in l/100 km door 100 en vermenigvuldig met de prijs per liter. Bij 12 l/100 km en A$ 2,33 per liter is dat 0,12 × 2,33, ongeveer A$ 0,28 per kilometer."
           ],
           [
             "Welke brandstofprijs moet ik gebruiken?",
@@ -708,6 +708,13 @@
         "ctaText": "AussieCamps zet {water} waterpunten en {dumpPoints} lozingspunten in heel Australië op de kaart, met de voorzieningen die elk punt vermeldt."
       }
     }
+  },
+  "answerCta": {
+    "drive-time-calculator": "Plan de hele route in AussieCamps: de reisplanner toont de afstand en rijtijd van elke etappe, met rustplaatsen en campings onderweg.",
+    "fuel-cost-calculator": "Plan de tankstops in AussieCamps: de reisplanner toont de afstand van elke etappe, en de kaart toont rustplaatsen en lozingspunten onderweg.",
+    "alcohol-coffee-drink-prices-australia": "Bespaar op de basis: AussieCamps toont drinkwaterpunten op de kaart en laat de tarieven en voorzieningen van elke camping zien voordat je aankomt.",
+    "best-camping-app-australia": "Probeer AussieCamps op je iPhone: officiële gegevens over campings, rustplaatsen en lozingspunten die ook zonder bereik leesbaar blijven, en een reisplanner stop voor stop.",
+    "drive-guide": "Plan deze rit als reis in AussieCamps: elke overnachtingsstop toont de afstand en rijtijd vanaf de vorige en de weersverwachting voor je aankomstdag."
   },
   "articles": {
     "great-ocean-road-camping-guide": {
@@ -8119,15 +8126,15 @@
     },
     "alcohol-coffee-drink-prices-australia": {
       "title": "Bier en koffie in Australië 2026: pubbier A$ 7–16",
-      "description": "Een biertje in de pub kost in Sydney A$ 7 tot 16 en een cappuccino A$ 4,50 tot 8 (oktober 2026). Plus prijzen voor bier en wijn in de bottle shop en bespaartips.",
+      "description": "Een biertje in de pub kost in Sydney A$ 7 tot 16 en een cappuccino A$ 4,50 tot 8 (oktober 2026). Per standaardglas kost pubbier A$ 4 tot 9 en wijn uit de bottle shop A$ 1,60 tot 4.",
       "region": "Australië",
       "imageAlt": "Drankjes op een tafel in een Australisch café",
-      "intro": "Een tapbier van 500 ml in een pub in Sydney kost volgens prijsgegevens van de community van oktober 2026 ongeveer A$ 7 tot 16 en een cappuccino A$ 4,50 tot 8, terwijl een flesje bier van 500 ml uit de bottle shop (drankwinkel) landelijk ongeveer A$ 3,50 tot 12 kost. Drankjes tellen op, rondje na rondje.",
+      "intro": "Een tapbier van 500 ml in een pub in Sydney kost volgens prijsgegevens van de community van oktober 2026 ongeveer A$ 7 tot 16 en een cappuccino A$ 4,50 tot 8, terwijl een flesje bier van 500 ml uit de bottle shop (drankwinkel) landelijk ongeveer A$ 3,50 tot 12 kost. Per standaardglas is dat ongeveer A$ 4 tot 9 in de pub, A$ 2 tot 7 voor bier uit de bottle shop en A$ 1,60 tot 4 voor een fles wijn uit de middenklasse, dus wat je meeneemt naar de camping is het voordeligst.",
       "sections": [
         {
           "heading": "Winkelprijs is geen horecaprijs",
           "body": [
-            "In de pub betaal je voor de zaak, het personeel en de bediening, niet alleen voor wat er in je glas zit. Vergelijk appels met appels: een prijs uit de bottle shop is niet de prijs van een getapt of ingeschonken drankje.",
+            "In de pub betaal je voor de zaak, het personeel en de bediening, niet alleen voor wat er in je glas zit. Vergelijk appels met appels: een prijs uit de bottle shop is niet de prijs van een getapt of ingeschonken drankje. Met standaardglazen vergelijk je eerlijk: Healthy WA rekent voor één standaardglas 10 gram alcohol, zoveel als in 285 ml gewoon bier of 100 ml wijn zit, dus een bier van 500 ml is ongeveer 1,75 standaardglas en een fles wijn van 750 ml ongeveer 7,5.",
             "Happy hours en aanbiedingen zijn tijdelijk. Ga voor je budget uit van de normale prijzen en zie een korting als extra speling."
           ],
           "tips": []
@@ -8230,6 +8237,9 @@
         },
         {
           "label": "Northern Territory: alcohol kopen en drinken"
+        },
+        {
+          "label": "Healthy WA: wat is een standaardglas"
         }
       ],
       "priceTable": {
@@ -8667,10 +8677,10 @@
     },
     "australia-road-trip-fuel-cost-2026": {
       "title": "Brandstofkosten voor een roadtrip door Australië in 2026",
-      "description": "Bereken je benzine- of dieselkosten voor een roadtrip door Australië uit afstand en verbruik, met officiële stadsprijzen en een marge voor afgelegen wegen.",
+      "description": "Bereken benzine of diesel uit afstand en verbruik, met de actuele gemiddelde prijzen in de steden en een marge voor afgelegen wegen.",
       "region": "Australië",
       "imageAlt": "Tanken tijdens een roadtrip door Australië",
-      "intro": "Aan de pomp wordt afstand geld. Volgens de officiële cijfers van het Fuel Plan van de Australische overheid lag de gemiddelde pompprijs in de vijf grootste steden op 5 augustus 2026 op A$ 2,08 per liter benzine en A$ 2,47 per liter diesel. In afgelegen gebieden kan dat flink hoger liggen.",
+      "intro": "Bij brandstof wordt afstand geld. In de week tot en met 1 november 2026 lag het gemiddelde in de vijf grootste steden volgens het Australian Institute of Petroleum op A$ 2,33 per liter benzine en A$ 2,77 per liter diesel. In afgelegen gebieden kunnen de prijzen flink hoger liggen.",
       "sections": [
         {
           "heading": "Zo reken je het uit",
@@ -8683,7 +8693,7 @@
         {
           "heading": "Een stadsgemiddelde is geen prijs voor afgelegen gebieden",
           "body": [
-            "De officiële richtprijs uit de steden is een helder vertrekpunt. Afgelegen roadhouses (tankstations met winkel en eetgelegenheid) werken met heel andere kosten, en ze zijn te belangrijk om over te slaan alleen omdat je verderop goedkoper hoopt te tanken.",
+            "Het stadsgemiddelde is een transparant vertrekpunt. Afgelegen roadhouses (tankstations met winkel en eetgelegenheid) werken met heel andere kosten, en ze zijn te belangrijk om over te slaan alleen omdat je verderop goedkoper hoopt te tanken.",
             "Tank ruim op tijd, weet waar het volgende betrouwbare tankstation is en neem je tankstops op in je reisplan."
           ],
           "tips": [
@@ -8765,7 +8775,7 @@
       ],
       "sources": [
         {
-          "label": "Australian Government: brandstofstatistieken van het Fuel Plan"
+          "label": "Australian Institute of Petroleum: wekelijkse benzine- en dieselprijzen"
         },
         {
           "label": "ACCC: wekelijkse monitoring van brandstofprijzen"
@@ -8775,7 +8785,7 @@
         }
       ],
       "priceTable": {
-        "note": "Berekend met de gemiddelden van de vijf grootste steden volgens het Fuel Plan op 5 augustus 2026: A$ 2,08 per liter benzine en A$ 2,47 per liter diesel.",
+        "note": "Berekend met de gemiddelden van de vijf grootste steden van het Australian Institute of Petroleum voor de week tot en met 1 november 2026: benzine A$ 2,33/l en diesel A$ 2,77/l.",
         "rows": [
           {
             "label": "Benzine",
@@ -18470,24 +18480,24 @@
     },
     "brisbane-to-sydney-drive": {
       "title": "Brisbane naar Sydney Rijden 2026: Pacific Highway of New England, Stops en Campings",
-      "description": "Van Brisbane naar Sydney zijn ongeveer 975 km en 13 uur met de Pacific Highway of de New England Highway. Routes vergeleken, overnachtingen, regels voor vuurkevers, tol en lozingspunten.",
+      "description": "Van Brisbane naar Sydney is ongeveer 907 km en 11 uur over de Pacific Highway, of 970 km en 13 uur over de New England Highway. Routes vergeleken, overnachtingen, regels voor vuurkevers, tol en lozingspunten.",
       "region": "Queensland en New South Wales",
       "imageAlt": "De dubbelbaan Pacific Highway bij Wootton aan de middennoorkust van New South Wales, gezien vanaf een brug",
-      "intro": "Van Brisbane naar Sydney zijn ongeveer 975 km over de weg: ongeveer 12 uur 47 min op de Pacific Motorway en Pacific Highway langs de kust, en ongeveer 13 uur 24 min op de New England Highway landinwaarts, via OSRM-route zonder stops. De kustweg heeft vier rijstroken de hele weg, de weg landinwaarts is rustiger, en beide zijn een makkelijke rit van twee of drie dagen.",
+      "intro": "Van Brisbane naar Sydney is ongeveer 907 km en ongeveer 10 uur 52 min over de Pacific Motorway en Pacific Highway langs de kust, of ongeveer 970 km en ongeveer 13 uur 8 min over de New England Highway landinwaarts, via OSRM-route zonder stops. De kustweg heeft vier rijstroken de hele weg, de weg landinwaarts is rustiger, en beide zijn een makkelijke rit van twee of drie dagen.",
       "sections": [
         {
           "heading": "Brisbane naar Sydney routes vergeleken",
           "body": [
             "De kustroute is de Pacific Motorway uit Brisbane, dan de Pacific Highway via Tweed Heads, Ballina, Grafton, Coffs Harbour, Port Macquarie, Taree en Newcastle. Een infrastructuurlijst van de Australische overheid zegt dat de volledige 657 km van de Pacific Highway tussen Hexham en de <a data-guide=\"camping-rules-queensland\">Queensland</a> grens al sinds 17 december 2020 open is als een vierbaans gescheiden weg. De binnenlandroute volgt de Cunningham Highway naar Warwick, dan de New England Highway via Tenterfield, Glen Innes, Armidale, Tamworth en Singleton.",
-            "De afstanden en tijden zijn afgeleid van OSRM-routing op OpenStreetMap-gegevens, berekend op 21 oktober 2026, voor een auto van stadscentrum naar stadscentrum zonder stops. Trekken, brandstof- en maaltijdsstops voegen meer toe. Een derde optie blijft op de Pacific Highway maar maakt een omweg via Forster en Bulahdelah bij de Myall Lakes, wat ongeveer 31 km en 35 minuten extra kost."
+            "De afstanden en tijden zijn afgeleid van OSRM-routing op OpenStreetMap-gegevens, berekend op 3 november 2026, voor een auto van stadscentrum naar stadscentrum zonder stops. Trekken, brandstof- en maaltijdsstops voegen meer toe. Een derde optie blijft op de Pacific Highway maar maakt een omweg via Forster en Bulahdelah bij de Myall Lakes, wat ongeveer 33 km en 45 minuten extra kost."
           ],
           "tips": [
             "Kust: vier rijstroken, drukker, meer steden",
             "Binnenland: voornamelijk enkelbandig met inhaalstroken",
-            "De omweg via Forster voegt ongeveer 31 km toe"
+            "De omweg via Forster voegt ongeveer 33 km toe"
           ],
           "table": {
-            "caption": "Brisbane naar Sydney per weg, OSRM routing berekend 21 oktober 2026.",
+            "caption": "Brisbane naar Sydney per weg, OSRM routing berekend 3 november 2026.",
             "head": [
               "Route",
               "Afstand",
@@ -18498,22 +18508,22 @@
             "rows": [
               [
                 "Pacific Motorway en Pacific Highway",
-                "ongeveer 978 km",
-                "ongeveer 12 u 47 min",
+                "ongeveer 907 km",
+                "ongeveer 10 u 52 min",
                 "vierbaans gescheiden weg, 110 km/u op snelweg-stand secties",
                 "Stranden, steden en makkelijke voorzieningen"
               ],
               [
                 "New England Highway via Warwick",
-                "ongeveer 973 km",
-                "ongeveer 13 u 24 min",
+                "ongeveer 970 km",
+                "ongeveer 13 u 8 min",
                 "Voornamelijk enkelbandig met inhaalstroken",
                 "Rustigere wegen, koelere hooglanden, wijnstreek"
               ],
               [
                 "Pacific Highway via Forster",
-                "ongeveer 31 km en 35 min meer dan rechtstreeks",
-                "Voeg ongeveer 35 min toe tussen Taree en Newcastle",
+                "ongeveer 33 km en 45 min meer dan rechtstreeks",
+                "Voeg ongeveer 45 min toe tussen Taree en Newcastle",
                 "Pacific Highway met een afslag naar de meren",
                 "Een nacht bij Myall Lakes"
               ]
@@ -18523,12 +18533,12 @@
         {
           "heading": "De kustroute in drie dagen",
           "body": [
-            "Een driedaagse splitsing volgens OSRM-routeplanning is Brisbane naar Coffs Harbour ongeveer 410 km, Coffs Harbour naar Newcastle ongeveer 406 km en Newcastle naar Sydney ongeveer 161 km. De etappes zijn Brisbane naar Tweed Heads ongeveer 102 km (1 uur 20 min), Tweed Heads naar Ballina ongeveer 87 km (1 uur 7 min), Ballina naar Grafton ongeveer 136 km (1 uur 44 min), Grafton naar Coffs Harbour ongeveer 85 km (1 uur 7 min), Coffs Harbour naar Port Macquarie ongeveer 154 km (1 uur 55 min), Port Macquarie naar Taree ongeveer 80 km (1 uur 4 min), Taree naar Newcastle ongeveer 172 km (2 uur 14 min) en Newcastle naar Sydney ongeveer 161 km (2 uur 12 min).",
-            "Voor nacht één liggen Banana Coast <a data-guide=\"caravan-park-vs-holiday-park\">Caravan Park</a> en Reflections Coffs Harbour Holiday Park beide op de Pacific Highway in Coffs Harbour. Controleer de beschikbaarheid en prijzen bij het park. Port Macquarie is de andere natuurlijke stop, ongeveer 564 km van Brisbane. De AussieCamps data vermeldt de campings Diamond Head, Indian Head en Kylies Beach in Crowdy Bay National Park, nabij Port Macquarie, en Mungo Brush, Bombah Point en andere campings bij Myall Lakes nabij Bulahdelah, allemaal campings in een nationaal park met een vermelde parktoegangsprijs."
+            "Een driedaagse splitsing volgens OSRM-routeplanning is Brisbane naar Coffs Harbour ongeveer 383 km, Coffs Harbour naar Newcastle ongeveer 385 km en Newcastle naar Sydney ongeveer 161 km. Elk stadscentrum in rijden kost extra kilometers, dus samen zijn deze etappes langer dan de doorgaande route. De etappes zijn Brisbane naar Tweed Heads ongeveer 102 km (1 uur 20 min), Tweed Heads naar Ballina ongeveer 87 km (1 uur 7 min), Ballina naar Grafton ongeveer 136 km (1 uur 44 min), Grafton naar Coffs Harbour ongeveer 85 km (1 uur 7 min), Coffs Harbour naar Port Macquarie ongeveer 154 km (1 uur 55 min), Port Macquarie naar Taree ongeveer 80 km (1 uur 4 min), Taree naar Newcastle ongeveer 172 km (2 uur 14 min) en Newcastle naar Sydney ongeveer 161 km (2 uur 12 min).",
+            "Voor nacht één liggen Banana Coast <a data-guide=\"caravan-park-vs-holiday-park\">Caravan Park</a> en Reflections Coffs Harbour Holiday Park beide op de Pacific Highway in Coffs Harbour. Controleer de beschikbaarheid en prijzen bij het park. Port Macquarie is de andere natuurlijke stop, ongeveer 537 km van Brisbane. De AussieCamps data vermeldt de campings Diamond Head, Indian Head en Kylies Beach in Crowdy Bay National Park, nabij Port Macquarie, en Mungo Brush, Bombah Point en andere campings bij Myall Lakes nabij Bulahdelah, allemaal campings in een nationaal park met een vermelde parktoegangsprijs."
           ],
           "tips": [
-            "Coffs Harbour ongeveer 410 km van Brisbane",
-            "Port Macquarie ongeveer 564 km",
+            "Coffs Harbour ongeveer 383 km van Brisbane",
+            "Port Macquarie ongeveer 537 km",
             "Lijst van campings in nationaal park een parktoegangsprijs"
           ]
         },
@@ -18606,7 +18616,7 @@
       "faq": [
         [
           "Hoe lang duurt het om van Brisbane naar Sydney te rijden?",
-          "ongeveer 12 uur 47 min op de Pacific Motorway en Pacific Highway, ongeveer 978 km, of ongeveer 13 uur 24 min op de New England Highway, ongeveer 973 km, via OSRM-route zonder stops. De meeste mensen verdelen het over twee of drie dagen."
+          "ongeveer 10 uur 52 min op de Pacific Motorway en Pacific Highway, ongeveer 907 km, of ongeveer 13 uur 8 min op de New England Highway, ongeveer 970 km, via OSRM-route zonder stops. De meeste mensen verdelen het over twee of drie dagen."
         ],
         [
           "Is de Pacific Highway tussen Brisbane en Sydney volledig vierbaans?",
@@ -18623,7 +18633,7 @@
       ],
       "sources": [
         {
-          "label": "OSRM-route op OpenStreetMap-data (Brisbane naar Sydney, berekend 21 oktober 2026)"
+          "label": "OSRM-route op OpenStreetMap-data (Brisbane naar Sydney, berekend 3 november 2026)"
         },
         {
           "label": "Australische overheid: Pacific Highway upgrade, Hexham tot de grens met Queensland"
@@ -18863,16 +18873,16 @@
     },
     "sydney-to-adelaide-drive": {
       "title": "Sydney naar Adelaide Rijden 2026: Sturt Highway, Barrier Highway, Stops en Campings",
-      "description": "Van Sydney naar Adelaide zijn ongeveer 1.457 km en 18 uur via de Sturt Highway, of ongeveer 1.625 km via Melbourne. Routes vergeleken, overnachtingen, fruitvliegregels, brandstofgaten en lozingspunten.",
+      "description": "Van Sydney naar Adelaide zijn ongeveer 1.412 km en 17 uur via de Sturt Highway, of ongeveer 1.591 km via Melbourne. Routes vergeleken, overnachtingen, fruitvliegregels, brandstofgaten en lozingspunten.",
       "region": "New South Wales, Victoria en South Australia",
       "imageAlt": "De Murrumbidgee River bij Balranald, New South Wales, met rode eukalyptusbomen die over het water leunen",
-      "intro": "Van Sydney naar Adelaide zijn ongeveer 1.457 km en 18 uur rijden via de binnenlandse Sturt Highway, door Wagga Wagga, Hay, Balranald, Mildura en Renmark, via OSRM-route. De andere opties zijn de Hume Highway via Melbourne, ongeveer 1.625 km, en de afgelegen Barrier Highway door Cobar en Broken Hill, wat een langere outback-rit is.",
+      "intro": "Van Sydney naar Adelaide zijn ongeveer 1.412 km en 17 uur rijden via de binnenlandse Sturt Highway, door Wagga Wagga, Hay, Balranald, Mildura en Renmark, via OSRM-route. De andere opties zijn de Hume Highway via Melbourne, ongeveer 1.591 km, en de afgelegen Barrier Highway door Cobar en Broken Hill, wat een langere outback-rit is.",
       "sections": [
         {
           "heading": "Routes van Sydney naar Adelaide vergeleken",
           "body": [
             "De binnenlandroute volgt de Hume Highway van Sydney naar Tarcutta, dan de Sturt Highway via Wagga Wagga, Narrandera, Hay, Balranald, Mildura, Renmark en Waikerie naar Gawler en Adelaide. Wikipedia zegt dat de Sturt Highway 947 km loopt van Tarcutta naar Gawler, ongeveer 596 km in <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a>, 117 km in Victoria en 234 km in South Australia, en dat het grootste deel een enkel rijstrookweg is. De tweede optie is de Hume Highway naar Melbourne, dan de weg van Melbourne naar Adelaide, wat de kustroute gids behandelt. De derde is de Barrier Highway, die de Mitchell Highway bij Nyngan verlaat en door Cobar, Wilcannia, Broken Hill en Yunta loopt naar Burra.",
-            "Alle afstanden en tijden zijn afgeleid van OSRM-routing op OpenStreetMap-gegevens, berekend op 21 oktober 2026, voor een auto zonder stops. De OSRM Barrier Highway totaal van ongeveer 1.797 km lijkt opgeblazen op het traject Nyngan naar Cobar, dus deze wordt hier niet gebruikt. Wikipedia geeft de Barrier Highway aan als 1.012 km van Nyngan naar Giles Corner in <a data-guide=\"camping-rules-south-australia\">South Australia</a>."
+            "Alle afstanden en tijden zijn afgeleid van OSRM-routing op OpenStreetMap-gegevens, berekend op 3 november 2026, voor een auto zonder stops. Volgens die routing is de route over de Barrier Highway ongeveer 1.673 km. Wikipedia geeft de Barrier Highway aan als 1.012 km van Nyngan naar Giles Corner in <a data-guide=\"camping-rules-south-australia\">South Australia</a>."
           ],
           "tips": [
             "Sturt: kortste, enkelbandig",
@@ -18880,7 +18890,7 @@
             "Barrière: afgelegen, lange brandstofafstanden"
           ],
           "table": {
-            "caption": "Sydney naar Adelaide met de weg, OSRM-route berekend 21 oktober 2026. De Barrier Highway totaal wordt niet getoond omdat de OSRM-cijfers onbetrouwbaar waren.",
+            "caption": "Sydney naar Adelaide met de weg, OSRM-route berekend 3 november 2026.",
             "head": [
               "Route",
               "Afstand",
@@ -18891,22 +18901,22 @@
             "rows": [
               [
                 "Hume en Sturt Highways via Hay en Mildura",
-                "ongeveer 1.457 km",
-                "ongeveer 17 uur 58 minuten",
+                "ongeveer 1.412 km",
+                "ongeveer 17 uur 18 minuten",
                 "Hume dubbelbaan, daarna voornamelijk enkelband",
                 "De kortste rit, rivierstadjes en de Riverland"
               ],
               [
                 "Hume Highway via Melbourne",
-                "ongeveer 1.625 km",
-                "ongeveer 20 u 26 min",
+                "ongeveer 1.591 km",
+                "ongeveer 19 u 28 min",
                 "Dubbelbaan naar Melbourne, dan de weg van Melbourne naar Adelaide",
                 "Een Melbourne nacht, dan de kust"
               ],
               [
                 "Barrier Highway via Cobar en Broken Hill",
-                "ongeveer 1.012 km op de Barrier Highway alleen, Nyngan naar Giles Corner",
-                "Niet getoond",
+                "ongeveer 1.673 km",
+                "ongeveer 21 uur 18 minuten",
                 "Ver weg, dunbevolkt, volledig geasfalteerd sinds 1972",
                 "Outback-rijders die Broken Hill willen"
               ]
@@ -18916,13 +18926,13 @@
         {
           "heading": "Sydney naar Adelaide op de Sturt Highway in vier dagen",
           "body": [
-            "Volgens OSRM-routeplanning is een vierdaagse splitsing Sydney naar Wagga Wagga ongeveer 457 km (5 uur 33 min), Wagga Wagga naar Hay ongeveer 308 km (3 uur 54 min), Hay naar Mildura ongeveer 292 km (3 uur 31 min) en Mildura naar Adelaide ongeveer 401 km (4 uur 56 min). Onderweg ligt Goulburn ongeveer 194 km van Sydney, Gundagai ongeveer 181 km verder, Narrandera ongeveer 106 km na Wagga Wagga, Balranald ongeveer 132 km na Hay en Renmark ongeveer 141 km na Mildura.",
+            "Volgens OSRM-routeplanning is een vierdaagse splitsing Sydney naar Wagga Wagga ongeveer 455 km (5 uur 29 min), Wagga Wagga naar Hay ongeveer 269 km (3 uur 19 min), Hay naar Mildura ongeveer 292 km (3 uur 32 min) en Mildura naar Adelaide ongeveer 397 km (4 uur 57 min). Onderweg ligt Goulburn ongeveer 194 km van Sydney, Gundagai ongeveer 181 km verder, Narrandera ongeveer 97 km na Wagga Wagga, Balranald ongeveer 135 km na Hay en Renmark ongeveer 143 km na Mildura.",
             "Het deel van de Hume Highway is een dubbeldekker en 110 km/u, en de Sturt Highway voorbij Wagga Wagga is waar het rustigere, enkelbandige rijgedeelte begint."
           ],
           "tips": [
-            "Wagga Wagga ongeveer 457 km",
-            "ongeveer 765 km",
-            "Mildura ongeveer 1.057 km"
+            "Wagga Wagga ongeveer 455 km",
+            "ongeveer 724 km",
+            "Mildura ongeveer 1.016 km"
           ]
         },
         {
@@ -18953,7 +18963,7 @@
           "heading": "Brandstof en diensten",
           "body": [
             "Op de Barrier Highway beschrijft Rita's Outback Guide Emmdale Roadhouse als de enige plek om tussen Cobar en Wilcannia brandstof te krijgen, en Little Topar Roadhouse als de enige plek voor brandstof, drank en eten tussen Wilcannia en Broken Hill. Openingstijden en of Little Topar momenteel open is, konden niet worden bevestigd, dus bel van tevoren. Nyngan, Cobar en Wilcannia zijn steden met brandstof, en Yunta heeft volgens dezelfde gids twee brandstofstations. NSW National Parks zegt dat Mutawintji National Park, een uitstapje van Broken Hill, geen brandstof of voedsel heeft.",
-            "Op de Sturt Highway zijn de langste trajecten tussen steden Narrandera naar Hay met ongeveer 202 km en Balranald naar Mildura met ongeveer 160 km volgens OSRM. Brandstof in kleinere steden zoals Darlington Point, Carrathool, Oxley en Euston kon niet worden bevestigd, dus tank in Wagga Wagga, Narrandera, Hay, Balranald en Mildura. De <a data-guide=\"road-trip-fuel-planning-australia\">brandstofplanning</a> gids laat zien hoe je de afstand kunt budgetteren."
+            "Op de Sturt Highway zijn de langste trajecten tussen steden Narrandera naar Hay met ongeveer 175 km en Balranald naar Mildura met ongeveer 159 km volgens OSRM. Brandstof in kleinere steden zoals Darlington Point, Carrathool, Oxley en Euston kon niet worden bevestigd, dus tank in Wagga Wagga, Narrandera, Hay, Balranald en Mildura. De <a data-guide=\"road-trip-fuel-planning-australia\">brandstofplanning</a> gids laat zien hoe je de afstand kunt budgetteren."
           ],
           "tips": [
             "Barrière: brandstof vóór Cobar en Wilcannia",
@@ -19012,7 +19022,7 @@
       "faq": [
         [
           "Hoe ver is het om te rijden van Sydney naar Adelaide?",
-          "Ongeveer 1.457 km en 18 uur via de binnenlandse Sturt Highway route, of ongeveer 1.625 km en 20 uur via Melbourne, volgens OSRM-routing op OpenStreetMap-gegevens. Plan drie of vier dagen."
+          "Ongeveer 1.412 km en 17 uur 18 min via de binnenlandse Sturt Highway route, of ongeveer 1.591 km en 19 uur 28 min via Melbourne, volgens OSRM-routing op OpenStreetMap-gegevens. Plan drie of vier dagen."
         ],
         [
           "Wat is de kortste weg van Sydney naar Adelaide?",
@@ -19029,7 +19039,7 @@
       ],
       "sources": [
         {
-          "label": "OSRM-route op OpenStreetMap-data (Sydney naar Adelaide, berekend 21 oktober 2026)"
+          "label": "OSRM-route op OpenStreetMap-data (Sydney naar Adelaide, berekend 3 november 2026)"
         },
         {
           "label": "Wikipedia: Sturt Highway"
@@ -19072,16 +19082,16 @@
     },
     "melbourne-to-canberra-drive": {
       "title": "Route Melbourne naar Canberra 2026: Hume, Alpine of Monaro",
-      "description": "Van Melbourne naar Canberra is ongeveer 680 km en 8,5 uur via de Hume en Barton Highway. Routes vergeleken met de alpine- en Monaro-opties, stops, campings, sneeuwkettingen en lozingspunten.",
+      "description": "Van Melbourne naar Canberra is ongeveer 650 km en 8 uur via de Hume en Barton Highway. Routes vergeleken met de alpine- en Monaro-opties, stops, campings, sneeuwkettingen en lozingspunten.",
       "region": "Victoria, New South Wales en de ACT",
       "imageAlt": "De Hume Highway met gescheiden rijbanen tussen Gundagai en Goulburn, met verkeer op beide rijbanen en groene heuvels op de achtergrond",
-      "intro": "Van Melbourne naar Canberra rij je ongeveer 680 km en 8 uur en 35 minuten, volgens OSRM-routering: over de Hume Highway tot Yass en daarna over de Barton Highway naar Canberra. De twee alternatieven, door de Snowy Mountains of over de Monaro Highway vanaf de zuidkust, zijn zo'n 70 tot 170 km langer en zijn bedoeld voor wie de bergen of de kust wil zien.",
+      "intro": "Van Melbourne naar Canberra rij je ongeveer 652 km en 7 uur en 53 minuten, volgens OSRM-routering: over de Hume Highway tot Yass en daarna over de Barton Highway naar Canberra. De twee alternatieven, door de Snowy Mountains of over de Monaro Highway vanaf de zuidkust, zijn zo'n 80 tot 100 km langer en zijn bedoeld voor wie de bergen of de kust wil zien.",
       "sections": [
         {
           "heading": "De routes van Melbourne naar Canberra vergeleken",
           "body": [
             "De standaardroute loopt over de Hume Highway via Seymour, Euroa, Benalla, Wangaratta, Albury, Holbrook, Gundagai en Yass, en daarna over de Barton Highway (A25) naar de ACT. Volgens Wikipedia heeft de Hume Highway sinds 7 augustus 2013 over de hele lengte gescheiden rijbanen, met een maximumsnelheid van 110 km/u. De Barton Highway is 52 km lang, van Yass tot Lyneham, en slechts zo'n 6 km daarvan in <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> heeft gescheiden rijbanen.",
-            "De alpine route verlaat de Hume bij Albury, volgt de Murray Valley Highway naar Corryong, steekt de Snowy Mountains over via de Alpine Way van Khancoban naar Jindabyne en loopt dan via Cooma en de Monaro Highway naar Canberra. De Monaro-route volgt de Princes Highway van Melbourne naar Cann River en daarna de Monaro Highway via Bombala en Cooma. Afstanden en tijden komen uit OSRM-routering op OpenStreetMap-data, berekend op 21 oktober 2026, voor een auto zonder stops. Het totaal van de alpine route is afgeleid uit OSRM-etappes plus de lengte van de Alpine Way volgens Wikipedia, dus het is geen berekend cijfer."
+            "De alpine route verlaat de Hume bij Albury, volgt de Murray Valley Highway naar Corryong, steekt de Snowy Mountains over via de Alpine Way van Khancoban naar Jindabyne en loopt dan via Cooma en de Monaro Highway naar Canberra. De Monaro-route volgt de Princes Highway van Melbourne naar Cann River en daarna de Monaro Highway via Bombala en Cooma. Afstanden en tijden komen uit OSRM-routering op OpenStreetMap-data, berekend op 3 november 2026, voor een auto zonder stops. Het totaal van de alpine route is afgeleid uit OSRM-etappes plus de lengte van de Alpine Way volgens Wikipedia, dus het is geen berekend cijfer."
           ],
           "tips": [
             "Hume: het snelst, gescheiden rijbanen tot Yass",
@@ -19089,7 +19099,7 @@
             "Monaro: eerst de kustweg, dan het hoogland"
           ],
           "table": {
-            "caption": "Melbourne naar Canberra over de weg, OSRM-routering berekend op 21 oktober 2026 (totaal alpine route afgeleid).",
+            "caption": "Melbourne naar Canberra over de weg, OSRM-routering berekend op 3 november 2026 (totaal alpine route afgeleid).",
             "head": [
               "Route",
               "Afstand",
@@ -19100,8 +19110,8 @@
             "rows": [
               [
                 "Hume Highway en daarna Barton Highway",
-                "Ongeveer 680 km",
-                "Ongeveer 8 uur 35 min",
+                "Ongeveer 652 km",
+                "Ongeveer 7 uur 53 min",
                 "Gescheiden rijbanen tot Yass, daarna vooral één rijbaan per richting",
                 "De snelste rit, in één dag of met een overnachting in Albury"
               ],
@@ -19114,8 +19124,8 @@
               ],
               [
                 "Princes Highway tot Cann River, daarna de Monaro Highway",
-                "Ongeveer 747 km",
-                "Ongeveer 10 uur 35 min",
+                "Ongeveer 735 km",
+                "Ongeveer 9 uur 46 min",
                 "Vooral één rijbaan per richting",
                 "Een rit langs de zuidoostkust en door het hoogland"
               ]
@@ -19125,13 +19135,13 @@
         {
           "heading": "De Hume-route in één of twee dagen",
           "body": [
-            "Volgens OSRM-routering is het van Melbourne naar Albury ongeveer 315 km (3 uur en 53 minuten) en van Albury naar Canberra ongeveer 353 km (4 uur en 23 minuten). Onderweg kom je door Holbrook, ongeveer 63 km verder, Gundagai, nog zo'n 115 km, Yass, daarna ongeveer 107 km, en Canberra, nog ongeveer 68 km. Als je de rit splitst, is Albury de gebruikelijke overnachtingsplek. BIG4 Albury Tourist Park ligt aan Wagga Road in Lavington, Albury Central Tourist Park aan North Street en Discovery Parks Lake Hume ligt ongeveer 15 minuten verderop. Vraag bij het park na of er plek is.",
+            "Volgens OSRM-routering is het van Melbourne naar Albury ongeveer 317 km (3 uur en 53 minuten) en van Albury naar Canberra ongeveer 339 km (4 uur en 6 minuten). Onderweg kom je door Holbrook, ongeveer 62 km verder, Gundagai, nog zo'n 118 km, Yass, daarna ongeveer 101 km, en Canberra, nog ongeveer 60 km. Als je de rit splitst, is Albury de gebruikelijke overnachtingsplek. BIG4 Albury Tourist Park ligt aan Wagga Road in Lavington, Albury Central Tourist Park aan North Street en Discovery Parks Lake Hume ligt ongeveer 15 minuten verderop. Vraag bij het park na of er plek is.",
             "Verderop ligt Gundagai Cabins and Tourist Park aan 1 Nangus Road. VisitNSW noemt het geschikt voor een tussenstop aan de Hume Highway. Yass <a data-guide=\"caravan-park-vs-holiday-park\">Caravan Park</a> ligt ongeveer vijf minuten van de Hume, aan de noordkant van Yass, met huisjes, kampeerplekken en doorrijplekken voor caravans. De AussieCamps-gegevens noemen in Victoria rustplaatsen (rest areas) langs de Hume bij Mangalore, Avenel, Benalla, Winton, Glenrowan, Wangaratta South en Chiltern, met toiletten, picknicktafels, barbecues en een plek voor zware voertuigen, en meestal met drinkwater. Voor het deel in New South Wales staat hier geen enkele rustplaats in de gegevens, en dat is een leemte in de data. Zie rustplaatsen als plek voor een pauze: in de geraadpleegde bronnen staat voor Victoria geen limiet voor overnachten voor de hele staat, maar gemeenten kunnen overnachten verbieden."
           ],
           "tips": [
-            "Albury ongeveer 315 km",
-            "Gundagai ongeveer 493 km",
-            "Yass ongeveer 600 km"
+            "Albury ongeveer 317 km",
+            "Gundagai ongeveer 492 km",
+            "Yass ongeveer 592 km"
           ]
         },
         {
@@ -19217,7 +19227,7 @@
       "faq": [
         [
           "Hoelang duurt de rit van Melbourne naar Canberra?",
-          "Ongeveer 680 km en 8 uur en 35 minuten rijden over de Hume Highway en Barton Highway, volgens OSRM-routering op OpenStreetMap-data. De meeste automobilisten doen het in één lange dag, en Albury is de gebruikelijke plek om de rit in tweeën te knippen."
+          "Ongeveer 652 km en 7 uur en 53 minuten rijden over de Hume Highway en Barton Highway, volgens OSRM-routering op OpenStreetMap-data. De meeste automobilisten doen het in één lange dag, en Albury is de gebruikelijke plek om de rit in tweeën te knippen."
         ],
         [
           "Heeft de Hume Highway overal gescheiden rijbanen?",
@@ -19234,7 +19244,7 @@
       ],
       "sources": [
         {
-          "label": "OSRM-routering op OpenStreetMap-data (Melbourne naar Canberra, berekend op 21 oktober 2026)"
+          "label": "OSRM-routering op OpenStreetMap-data (Melbourne naar Canberra, berekend op 3 november 2026)"
         },
         {
           "label": "Wikipedia: Hume Highway"
@@ -19485,15 +19495,15 @@
     },
     "darwin-to-alice-springs-drive": {
       "title": "Darwin naar Alice Springs rijden 2026: stops, tanken en quarantaine",
-      "description": "Darwin naar Alice Springs is zo’n 1.500 km en 16 uur rijden over de Stuart Highway. Stops per dag, rustplaatsen, brandstof, afsluitingen in het regenseizoen, maximumsnelheden, fruitregels en lozingspunten.",
+      "description": "Darwin naar Alice Springs is zo’n 1.500 km en 15 uur rijden over de Stuart Highway. Stops per dag, rustplaatsen, brandstof, afsluitingen in het regenseizoen, maximumsnelheden, fruitregels en lozingspunten.",
       "region": "Northern Territory",
       "imageAlt": "Een gespleten granieten rotsblok in het Karlu Karlu (Devils Marbles) Conservation Reserve in het Northern Territory, met oranje rotsblokken erachter",
-      "intro": "Van Darwin naar Alice Springs is het ongeveer 1.500 km, of 1.525 km en 16 u 26 min rijden volgens OSRM-routing, en je volgt maar één weg: de Stuart Highway via Katherine, Daly Waters, Tennant Creek en Karlu Karlu. Reken op vier dagen, check voor elke etappe Road Report NT en lees de fruitregels, want op deze route gelden beperkingen voor verse producten.",
+      "intro": "Van Darwin naar Alice Springs is het ongeveer 1.500 km, of 1.492 km en 15 u 12 min rijden volgens OSRM-routing, en je volgt maar één weg: de Stuart Highway via Katherine, Daly Waters, Tennant Creek en Karlu Karlu. Reken op vier dagen, check voor elke etappe Road Report NT en lees de fruitregels, want op deze route gelden beperkingen voor verse producten.",
       "sections": [
         {
           "heading": "Eén weg: de Stuart Highway",
           "body": [
-            "Er is maar één realistische verharde route tussen Darwin en Alice Springs: de Stuart Highway, die Tourism NT de Explorers Way noemt. Hij loopt langs Adelaide River, Pine Creek, Katherine, Mataranka, Daly Waters, Elliott, Tennant Creek, Karlu Karlu (Devils Marbles), Barrow Creek en Ti Tree. Wikipedia noemt 1.499 km van Darwin naar Alice Springs, en OSRM-routing op basis van OpenStreetMap-data, berekend op 21 oktober 2026 voor een auto zonder tussenstops, komt uit op 1.525 km. Met ongeveer 1.500 km zit je dus altijd goed.",
+            "Er is maar één realistische verharde route tussen Darwin en Alice Springs: de Stuart Highway, die Tourism NT de Explorers Way noemt. Hij loopt langs Adelaide River, Pine Creek, Katherine, Mataranka, Daly Waters, Elliott, Tennant Creek, Karlu Karlu (Devils Marbles), Barrow Creek en Ti Tree. Wikipedia noemt 1.499 km van Darwin naar Alice Springs, en OSRM-routing op basis van OpenStreetMap-data, berekend op 3 november 2026 voor een auto zonder tussenstops, komt uit op 1.492 km. Met ongeveer 1.500 km zit je dus altijd goed.",
             "De omwegen zijn Kakadu, Nitmiluk (Katherine Gorge) bij Katherine en Litchfield, die de rondrit Darwin, Kakadu en Litchfield behandelt. Na Alice Springs lees je in de Red Centre Way en de roadtrip van Adelaide naar Uluru hoe het verdergaat."
           ],
           "tips": [
@@ -19502,7 +19512,7 @@
             "Daarna: Red Centre"
           ],
           "table": {
-            "caption": "Darwin naar Alice Springs over de Stuart Highway, OSRM-routing berekend op 21 oktober 2026, met etappeafstanden van Tourism NT waar die bestaan.",
+            "caption": "Darwin naar Alice Springs over de Stuart Highway, OSRM-routing berekend op 3 november 2026, met etappeafstanden van Tourism NT waar die bestaan.",
             "head": [
               "Etappe",
               "Afstand",
@@ -19512,12 +19522,12 @@
               [
                 "Darwin naar Adelaide River",
                 "Ongeveer 112 km",
-                "Ongeveer 1 u 20 min"
+                "Ongeveer 1 u 21 min"
               ],
               [
                 "Adelaide River naar Katherine",
-                "Ongeveer 204 km",
-                "Ongeveer 2 u 9 min"
+                "Ongeveer 203 km",
+                "Ongeveer 2 u 5 min"
               ],
               [
                 "Katherine naar Mataranka",
@@ -19527,17 +19537,17 @@
               [
                 "Mataranka naar Daly Waters",
                 "Ongeveer 168 km",
-                "Ongeveer 1 u 43 min"
+                "Ongeveer 1 u 42 min"
               ],
               [
                 "Daly Waters naar Elliott",
-                "Ongeveer 155 km",
-                "Ongeveer 1 u 40 min"
+                "Ongeveer 152 km",
+                "Ongeveer 1 u 31 min"
               ],
               [
                 "Elliott naar Tennant Creek",
                 "Ongeveer 254 km",
-                "Ongeveer 2 u 34 min"
+                "Ongeveer 2 u 32 min"
               ],
               [
                 "Tennant Creek naar Karlu Karlu",
@@ -19546,13 +19556,13 @@
               ],
               [
                 "Karlu Karlu naar Barrow Creek",
-                "Ongeveer 140 km",
-                "Ongeveer 1 u 57 min"
+                "Ongeveer 120 km",
+                "Ongeveer 1 u 10 min"
               ],
               [
                 "Barrow Creek naar Alice Springs",
                 "Ongeveer 282 km",
-                "Ongeveer 2 u 50 min"
+                "Ongeveer 2 u 51 min"
               ]
             ]
           }
@@ -19560,13 +19570,13 @@
         {
           "heading": "Vier dagen over de Stuart Highway",
           "body": [
-            "Volgens OSRM ziet een indeling in vier dagen er zo uit: Darwin naar Katherine ongeveer 316 km (3 u 29 min), Katherine naar Daly Waters ongeveer 274 km (2 u 50 min), Daly Waters naar Tennant Creek ongeveer 409 km (4 u 14 min) en Tennant Creek naar Alice Springs ongeveer 526 km (5 u 50 min, via Karlu Karlu). In de reisschema’s van Tourism NT is Katherine naar Darwin 316 km, Mataranka naar Katherine 106 km, Daly Waters naar Mataranka 167 km en Alice Springs naar Tennant Creek 510 km. Dat komt binnen een paar kilometer overeen met OSRM.",
+            "Volgens OSRM ziet een indeling in vier dagen er zo uit: Darwin naar Katherine ongeveer 315 km (3 u 26 min), Katherine naar Daly Waters ongeveer 273 km (2 u 48 min), Daly Waters naar Tennant Creek ongeveer 405 km (4 u 4 min) en Tennant Creek naar Alice Springs ongeveer 506 km (5 u 3 min, via Karlu Karlu). In de reisschema’s van Tourism NT is Katherine naar Darwin 315 km, Mataranka naar Katherine 106 km, Daly Waters naar Mataranka 167 km en Alice Springs naar Tennant Creek 510 km. Dat komt binnen een paar kilometer overeen met OSRM.",
             "Katherine is de uitvalsbasis voor Nitmiluk. Bij Mataranka houdt het thermale zwembad in het Elsey National Park volgens NT Parks het hele jaar een constante 34 graden, en heb je een NT Parks Visitor Pass nodig die je vóór aankomst koopt; inwoners van het Northern Territory zijn vrijgesteld. Bij Daly Waters beschrijft Tourism NT de Daly Waters Historic Pub als een plek om te eten, te drinken en te overnachten, met kampeerplekken, plekken met stroom, safaritenten en huisjes. Welke <a data-guide=\"caravan-park-vs-holiday-park\">caravanparken</a> er in Katherine, Mataranka en Tennant Creek zijn, kon niet worden bevestigd, dus reserveer vooraf telefonisch."
           ],
           "tips": [
             "Katherine ongeveer 316 km",
-            "Daly Waters ongeveer 590 km",
-            "Tennant Creek ongeveer 1.000 km"
+            "Daly Waters ongeveer 588 km",
+            "Tennant Creek ongeveer 993 km"
           ]
         },
         {
@@ -19658,7 +19668,7 @@
       "faq": [
         [
           "Hoe ver is het van Darwin naar Alice Springs?",
-          "Ongeveer 1.500 km, dat is 1.525 km en 16 u 26 min rijden volgens OSRM-routing op basis van OpenStreetMap-data, helemaal over de Stuart Highway. De meeste mensen doen er vier dagen over, met overnachtingen in Katherine, Daly Waters en Tennant Creek."
+          "Ongeveer 1.500 km, dat is 1.492 km en 15 u 12 min rijden volgens OSRM-routing op basis van OpenStreetMap-data, helemaal over de Stuart Highway. De meeste mensen doen er vier dagen over, met overnachtingen in Katherine, Daly Waters en Tennant Creek."
         ],
         [
           "Wat is de maximumsnelheid op de Stuart Highway?",
@@ -19675,7 +19685,7 @@
       ],
       "sources": [
         {
-          "label": "OSRM-routing op basis van OpenStreetMap-data (Darwin naar Alice Springs, berekend op 21 oktober 2026)"
+          "label": "OSRM-routing op basis van OpenStreetMap-data (Darwin naar Alice Springs, berekend op 3 november 2026)"
         },
         {
           "label": "Tourism NT: informatie over verkeersveiligheid"
@@ -23046,7 +23056,7 @@
         {
           "heading": "Brandstof: de post die het meest schommelt",
           "body": [
-            "Op de Fuel Plan-pagina van de overheid stonden op 14 oktober 2026 gemiddelde adviesprijzen in de vijf grootste steden van ongeveer A$ 2,41 per liter voor benzine en A$ 2,80 voor diesel. Het weekrapport van NRMA voor Sydney gaf op 19 oktober 239,8 cent voor gewone benzine en 280,1 cent voor diesel. De voorbeelden in de gids over <a data-guide=\"australia-road-trip-fuel-cost-2026\">brandstofkosten</a> gebruiken de peildatum van 5 augustus 2026, dus gebruik hier de gedateerde cijfers om te vergelijken.",
+            "Op de Fuel Plan-pagina van de overheid stonden op 14 oktober 2026 gemiddelde adviesprijzen in de vijf grootste steden van ongeveer A$ 2,41 per liter voor benzine en A$ 2,80 voor diesel. Het weekrapport van NRMA voor Sydney gaf op 19 oktober 239,8 cent voor gewone benzine en 280,1 cent voor diesel. De voorbeelden in de gids over <a data-guide=\"australia-road-trip-fuel-cost-2026\">brandstofkosten</a> gebruiken de gemiddelden van het Australian Institute of Petroleum voor de week tot en met 1 november 2026, dus gebruik hier de gedateerde cijfers om te vergelijken.",
             "Afstand weegt zwaarder dan de prijs. Halveer je de kilometers, dan halveert je rekening, en afgelegen roadhouses rekenen meer dan het gemiddelde in de steden."
           ],
           "tips": [
