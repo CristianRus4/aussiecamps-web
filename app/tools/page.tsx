@@ -25,8 +25,8 @@ export default function ToolsPage() {
   return <><Header/><main {...mainData({ kind: "tools" })}>
     <section className="page-hero tools-hero">
       <p className="eyebrow">Useful numbers</p>
-      <h1>Road trip tools.<br/>No mystery maths.</h1>
-      <p>Quick planning calculators for Australian prices, distances and capacity. Every assumption stays visible so you can replace it with the number that fits your route.</p>
+      <h1>Road trip calculators<br/>for Australia.</h1>
+      <p>Work out the <Link href={toolPath("fuel-cost-calculator", "en")}>fuel cost</Link> and <Link href={toolPath("drive-time-calculator", "en")}>driving time</Link> of a route, compare <Link href={toolPath("campsite-cost-calculator", "en")}>campsite fees</Link>, <Link href={toolPath("currency-converter", "en")}>convert Australian dollars</Link> and see how many days your <Link href={toolPath("water-tank-calculator", "en")}>campervan water tanks</Link> last. Every assumption stays visible so you can replace it with the number that fits your route.</p>
     </section>
     <section className="tools-shell">
       {indexOrder.map((tool) => {

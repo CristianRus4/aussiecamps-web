@@ -23,6 +23,16 @@ function isCopyComplete(english: ToolCopy, translated: Partial<ToolCopy> | undef
   const scalars: (keyof ToolCopy)[] = ["metaTitle", "metaDescription", "title", "intro", "formulaNote", "ctaTitle", "ctaText"];
   if (!scalars.every((key) => filled(translated[key]))) return false;
   if (!sameList(english.formula, translated.formula) || !sameList(english.example, translated.example) || !sameList(english.assumptions, translated.assumptions)) return false;
+  if (english.answer && !sameList(english.answer, translated.answer)) return false;
+  if (english.tables) {
+    const tables = translated.tables;
+    if (!Array.isArray(tables) || tables.length !== english.tables.length) return false;
+    const tablesComplete = english.tables.every((table, index) => {
+      const other = tables[index];
+      return !!other && filled(other.heading) && filled(other.caption) && filled(other.note) && sameList(table.head, other.head) && sameList(table.rows, other.rows);
+    });
+    if (!tablesComplete) return false;
+  }
   // Placeholders must survive translation, or the page would print a literal {dumpPoints}.
   const placeholders = (text: string) => (text.match(/\{[a-zA-Z]+\}/g) ?? []).sort().join();
   if (placeholders(english.ctaText) !== placeholders(translated.ctaText ?? "")) return false;

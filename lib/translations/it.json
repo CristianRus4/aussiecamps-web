@@ -435,6 +435,52 @@
         "metaDescription": "Calcola benzina o diesel per un road trip in Australia da distanza, l/100 km e prezzo al litro. Mostra litri, costo totale e costo al km, con la formula e un esempio svolto.",
         "title": "Calcolatore del costo del carburante per un road trip in Australia",
         "intro": "Inserisci la distanza, il consumo del mezzo a pieno carico e il prezzo al litro. Ottieni i litri che consumerai, la spesa di carburante e il costo al chilometro, così puoi preventivare l’intero percorso prima del primo pieno.",
+        "answer": [
+          "Il costo del carburante di un viaggio è distanza × litri per 100 km ÷ 100 × prezzo al litro. Nella settimana fino al 1° novembre 2026 la benzina costava in media 2,33 A$ al litro e il diesel 2,77 A$ nelle cinque capitali più grandi, secondo l’Australian Institute of Petroleum.",
+          "A questi prezzi un’auto che consuma 8 l/100 km costa circa 18,66 A$ ogni 100 km a benzina, e un 4x4 che traina una roulotte a 18 l/100 km circa 49,82 A$ ogni 100 km a diesel."
+        ],
+        "tables": [
+          {
+            "heading": "Prezzi del carburante nelle capitali",
+            "caption": "Prezzo medio alla pompa al litro nella settimana fino al 1° novembre 2026.",
+            "head": [
+              "Città",
+              "Benzina senza piombo",
+              "Diesel"
+            ],
+            "rows": [
+              "Sydney",
+              "Melbourne",
+              "Brisbane",
+              "Adelaide",
+              "Perth",
+              "Canberra",
+              "Hobart",
+              "Darwin",
+              "Cinque città più grandi",
+              "Media regionale, tutti gli stati",
+              "Northern Territory, zone regionali"
+            ],
+            "note": "Medie settimanali dei Weekly Petrol and Diesel Prices Reports dell’Australian Institute of Petroleum per la settimana fino al 1° novembre 2026, su dati di prezzo MotorMouth. Le cinque città più grandi sono Sydney, Melbourne, Brisbane, Adelaide e Perth. I prezzi cambiano ogni settimana e da un distributore all’altro, e i roadhouse isolati possono chiedere molto più della media regionale."
+          },
+          {
+            "heading": "Costo del carburante ogni 100 km per veicolo",
+            "caption": "Consumo indicativo di un veicolo carico, ai prezzi medi delle cinque città qui sopra.",
+            "head": [
+              "Veicolo",
+              "Consumo",
+              "Ogni 100 km",
+              "Al km"
+            ],
+            "rows": [
+              "Auto (benzina)",
+              "Camper (diesel)",
+              "4x4 (diesel)",
+              "4x4 con roulotte (diesel)"
+            ],
+            "note": "I consumi sono stime per pianificare viaggi su strada a pieno carico, non dati del costruttore. Vento, salite, velocità, carico sul tetto e aria condizionata li cambiano, quindi usa il tuo consumo misurato se ce l’hai."
+          }
+        ],
         "formula": [
           "Litri = distanza (km) × consumo (l/100 km) ÷ 100",
           "Costo del carburante = litri × prezzo al litro (A$/l)",
@@ -462,7 +508,15 @@
           ],
           [
             "Quale prezzo del carburante devo usare?",
-            "Usa il carburante del tuo mezzo e il prezzo più recente che trovi per la zona. Le medie delle cinque città di Fuel Plan al 5 agosto 2026 erano 2,08 A$ al litro per la benzina e 2,47 A$ per il diesel; nelle zone remote aspettati di più."
+            "Usa il carburante del tuo mezzo e il prezzo più recente che trovi per la zona. Nella settimana fino al 1° novembre 2026 l’Australian Institute of Petroleum indicava medie di 2,33 A$ al litro per la benzina e 2,77 A$ per il diesel nelle cinque città, e medie regionali di 2,42 A$ e 2,82 A$; nei roadhouse isolati aspettati di più."
+          ],
+          [
+            "Quanto costa il carburante al km in Australia?",
+            "Circa 0,19 A$ al chilometro per un’auto a benzina che consuma 8 l/100 km e 0,33 A$ per un camper diesel che consuma 12 l/100 km, ai prezzi medi delle cinque città nella settimana fino al 1° novembre 2026. Per il tuo dato, moltiplica i l/100 km per il prezzo al litro e dividi per 100."
+          ],
+          [
+            "Quanto costa il carburante da Sydney a Melbourne?",
+            "Circa 161 A$ con un’auto a benzina che consuma 8 l/100 km: 865 km × 8 ÷ 100 = 69,2 litri alla media delle cinque città di 2,33 A$ al litro. Un camper diesel a 12 l/100 km consuma 103,8 litri, circa 287 A$ a 2,77 A$."
           ]
         ],
         "ctaTitle": "Pianifica le soste tra un pieno e l’altro.",
@@ -473,6 +527,41 @@
         "metaDescription": "Stima quanto dura davvero una giornata di guida in Australia da distanza, tipo di strada e soste. Mostra le velocità medie usate, la formula e un esempio svolto.",
         "title": "Calcolatore del tempo di guida per road trip in Australia",
         "intro": "I navigatori indicano il tempo di marcia su strada libera. Questo calcolatore pianifica la giornata di guida che farai davvero: una velocità media per il tipo di strada, più il tempo delle soste per carburante, pasti e pause.",
+        "answer": [
+          "Per calcolare il tempo di viaggio in auto, dividi la distanza per una velocità media realistica e aggiungi le pause. In Australia conta circa 85 km/h in autostrada, 70 km/h sulle strade principali e 60 km/h sulle strade tortuose, e fermati 15 minuti ogni due ore, come raccomandano gli enti per la sicurezza stradale del Queensland, del Western Australia e della Tasmania.",
+          "Da Sydney a Melbourne ci sono 865 km: circa 10 h 15 min di guida sulla Hume Highway, o 11 h 30 min con le pause, quindi quasi tutti la fanno in due giorni."
+        ],
+        "tables": [
+          {
+            "heading": "Tempi di guida e distanze tra le città australiane",
+            "caption": "Distanza su strada e tempo al volante tra i centri città, con una pausa di 15 minuti ogni due ore di guida.",
+            "head": [
+              "Percorso",
+              "Distanza",
+              "Tempo di guida",
+              "Con le pause",
+              "Giorni a 8 h al giorno"
+            ],
+            "rows": [
+              "Sydney – Newcastle",
+              "Brisbane – Byron Bay",
+              "Hobart – Launceston",
+              "Sydney – Canberra",
+              "Alice Springs – Uluru (Yulara)",
+              "Melbourne – Canberra",
+              "Melbourne – Adelaide",
+              "Sydney – Melbourne",
+              "Sydney – Brisbane",
+              "Sydney – Adelaide",
+              "Darwin – Alice Springs",
+              "Melbourne – Brisbane (Newell Highway)",
+              "Brisbane – Cairns",
+              "Perth – Broome",
+              "Adelaide – Perth (Nullarbor)"
+            ],
+            "note": "Distanze e tempi di guida vengono dal calcolo del percorso di OSRM su dati OpenStreetMap, verificati il 3 novembre 2026, senza traffico, lavori o soste. Le pause seguono il consiglio di fermarsi 15 minuti ogni due ore del governo del Queensland, della Road Safety Commission del Western Australia e del Road Safety Advisory Council della Tasmania. Il governo del Queensland consiglia anche di non guidare mai più di 10 ore in un giorno."
+          }
+        ],
         "formula": [
           "Minuti di guida = distanza (km) ÷ velocità media (km/h) × 60",
           "Minuti totali = minuti di guida + soste × 20",
@@ -501,6 +590,18 @@
           [
             "Il risultato include le soste per carburante e pasti?",
             "Solo le soste che inserisci. Aggiungine una per ogni rifornimento, pasto o pausa che prevedi: ognuna aggiunge 20 minuti alla giornata."
+          ],
+          [
+            "Quanto ci vuole in auto da Sydney a Melbourne?",
+            "Circa 10 h 15 min di guida per gli 865 km della Hume Highway, secondo il calcolo del percorso di OSRM, o circa 11 h 30 min con una pausa di 15 minuti ogni due ore. Quasi tutti dividono il viaggio in due giorni, con una notte in una delle cittadine lungo la Hume Highway."
+          ],
+          [
+            "Quanti chilometri si possono fare in un giorno in Australia?",
+            "Il governo del Queensland consiglia una pausa di almeno 15 minuti ogni 2 ore e di non guidare mai più di 10 ore in un giorno. Alla media di 70 km/h che questo calcolatore usa per le strade principali, 8 ore al volante coprono circa 560 km e lasciano il tempo di arrivare prima del tramonto."
+          ],
+          [
+            "Quali sono i tempi di guida e le distanze nel Nuovo Galles del Sud?",
+            "Da Sydney a Newcastle ci sono 162 km, circa 2 h 15 min di guida, e da Sydney a Canberra 286 km, circa 3 h 30 min, secondo il calcolo del percorso di OSRM. Prima di partire controlla su Live Traffic NSW chiusure e lavori."
           ]
         ],
         "ctaTitle": "Scopri dove finisce la giornata prima di iniziarla.",

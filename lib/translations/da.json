@@ -23573,6 +23573,52 @@
         "metaDescription": "Beregn, hvor meget benzin eller diesel en roadtrip i Australien kræver, ud fra distance, l/100 km og pris pr. liter. Viser liter, samlet pris og pris pr. km med formel og regneeksempel.",
         "title": "Brændstofberegner til din roadtrip i Australien",
         "intro": "Tast distancen, køretøjets forbrug med fuld last og prisen pr. liter ind. Du får de liter, turen kommer til at æde, brændstofregningen og prisen pr. kilometer, så hele ruten kan budgetteres, før du fylder første gang.",
+        "answer": [
+          "Brændstofprisen for en tur er afstanden × liter pr. 100 km ÷ 100 × literprisen. I ugen frem til 1. november 2026 kostede benzin i gennemsnit 2,33 AUD pr. liter og diesel 2,77 AUD i de fem største hovedstæder ifølge Australian Institute of Petroleum.",
+          "Med de priser koster en bil, der bruger 8 l/100 km, cirka 18,66 AUD pr. 100 km på benzin, og en 4x4 med campingvogn på 18 l/100 km cirka 49,82 AUD pr. 100 km på diesel."
+        ],
+        "tables": [
+          {
+            "heading": "Brændstofpriser i hovedstæderne",
+            "caption": "Gennemsnitlig literpris ved standeren i ugen frem til 1. november 2026.",
+            "head": [
+              "By",
+              "Blyfri benzin",
+              "Diesel"
+            ],
+            "rows": [
+              "Sydney",
+              "Melbourne",
+              "Brisbane",
+              "Adelaide",
+              "Perth",
+              "Canberra",
+              "Hobart",
+              "Darwin",
+              "De fem største byer",
+              "Regionalt gennemsnit, alle delstater",
+              "Northern Territory uden for byerne"
+            ],
+            "note": "Ugegennemsnit fra Australian Institute of Petroleums Weekly Petrol and Diesel Prices Reports for ugen frem til 1. november 2026, baseret på prisdata fra MotorMouth. De fem største byer er Sydney, Melbourne, Brisbane, Adelaide og Perth. Priserne ændrer sig hver uge og fra tank til tank, og afsidesliggende roadhouses kan tage langt mere end det regionale gennemsnit."
+          },
+          {
+            "heading": "Brændstofpris pr. 100 km efter køretøj",
+            "caption": "Forbrug til planlægning for et lastet køretøj, regnet med gennemsnitspriserne for de fem byer ovenfor.",
+            "head": [
+              "Køretøj",
+              "Forbrug",
+              "Pr. 100 km",
+              "Pr. km"
+            ],
+            "rows": [
+              "Bil (benzin)",
+              "Autocamper (diesel)",
+              "4x4 (diesel)",
+              "4x4 med campingvogn (diesel)"
+            ],
+            "note": "Forbrugstallene er planlægningsværdier for landevejskørsel med last, ikke fabrikantens tal. Vind, bakker, fart, tagbagage og aircondition ændrer dem, så brug dit eget målte forbrug, hvis du har det."
+          }
+        ],
         "formula": [
           "Liter = distance (km) × forbrug (l/100 km) ÷ 100",
           "Brændstofudgift = liter × pris pr. liter (AUD/l)",
@@ -23600,7 +23646,15 @@
           ],
           [
             "Hvilken brændstofpris skal jeg bruge?",
-            "Brug den brændstoftype, køretøjet kører på, og den nyeste pris, du kan finde for området. Fuel Plans gennemsnit for de fem byer var den 5. august 2026 på 2,08 AUD pr. liter for benzin og 2,47 AUD for diesel; regn med mere i afsidesliggende egne."
+            "Brug den brændstoftype, køretøjet kører på, og den nyeste pris, du kan finde for området. I ugen frem til 1. november 2026 lå gennemsnittet for de fem byer ifølge Australian Institute of Petroleum på 2,33 AUD pr. liter for benzin og 2,77 AUD for diesel, og de regionale gennemsnit på 2,42 AUD og 2,82 AUD; regn med mere ved afsidesliggende roadhouses."
+          ],
+          [
+            "Hvad koster brændstof pr. km i Australien?",
+            "Cirka 0,19 AUD pr. kilometer for en benzinbil, der bruger 8 l/100 km, og 0,33 AUD for en dieselautocamper, der bruger 12 l/100 km, med gennemsnitspriserne for de fem byer i ugen frem til 1. november 2026. Dit eget tal får du ved at gange l/100 km med literprisen og dele med 100."
+          ],
+          [
+            "Hvad koster brændstoffet fra Sydney til Melbourne?",
+            "Cirka 161 AUD i en benzinbil, der bruger 8 l/100 km: 865 km × 8 ÷ 100 = 69,2 liter til gennemsnitsprisen for de fem byer på 2,33 AUD pr. liter. En dieselautocamper på 12 l/100 km bruger 103,8 liter, cirka 287 AUD ved 2,77 AUD."
           ]
         ],
         "ctaTitle": "Planlæg stoppene mellem tankningerne.",
@@ -23611,6 +23665,41 @@
         "metaDescription": "Beregn, hvor lang en køredag i Australien reelt er, ud fra distance, vejtype og stop. Viser gennemsnitsfarterne, formlen og et regneeksempel.",
         "title": "Køretidsberegner til roadtrip i Australien",
         "intro": "Kortapps opgiver køretiden på en fri vej uden trafik. Her planlægger du den dag, du faktisk kommer til at køre: en gennemsnitsfart for vejtypen plus den tid, du står stille for at tanke, spise og holde pause.",
+        "answer": [
+          "Køretiden i bil regner du ud ved at dele afstanden med en realistisk gennemsnitsfart og lægge dine pauser til. I Australien kan du regne med omkring 85 km/t på motorveje, 70 km/t på hovedveje og 60 km/t på snoede veje, og du bør holde 15 minutters pause hver anden time, som færdselssikkerhedsmyndighederne i Queensland, Western Australia og Tasmanien anbefaler.",
+          "Sydney til Melbourne er 865 km: cirka 10 t 15 min bag rattet ad Hume Highway, eller 11 t 30 min med pauser. De fleste kører derfor strækningen over to dage."
+        ],
+        "tables": [
+          {
+            "heading": "Køretider og afstande mellem australske byer",
+            "caption": "Afstand ad vejen og tid bag rattet mellem bycentrene, med 15 minutters pause for hver anden times kørsel.",
+            "head": [
+              "Rute",
+              "Afstand",
+              "Køretid",
+              "Med pauser",
+              "Dage ved 8 t om dagen"
+            ],
+            "rows": [
+              "Sydney – Newcastle",
+              "Brisbane – Byron Bay",
+              "Hobart – Launceston",
+              "Sydney – Canberra",
+              "Alice Springs – Uluru (Yulara)",
+              "Melbourne – Canberra",
+              "Melbourne – Adelaide",
+              "Sydney – Melbourne",
+              "Sydney – Brisbane",
+              "Sydney – Adelaide",
+              "Darwin – Alice Springs",
+              "Melbourne – Brisbane (Newell Highway)",
+              "Brisbane – Cairns",
+              "Perth – Broome",
+              "Adelaide – Perth (Nullarbor)"
+            ],
+            "note": "Afstande og køretider kommer fra OSRM's ruteberegning på OpenStreetMap-data, tjekket den 3. november 2026, uden trafik, vejarbejde eller stop. Pauserne følger rådet om at holde 15 minutters pause hver anden time fra Queenslands regering, Road Safety Commission i Western Australia og Road Safety Advisory Council i Tasmanien. Queenslands regering råder også til aldrig at køre mere end 10 timer på én dag."
+          }
+        ],
         "formula": [
           "Køretid i minutter = distance (km) ÷ gennemsnitsfart (km/t) × 60",
           "Samlet tid i minutter = køretid i minutter + stop × 20",
@@ -23639,6 +23728,18 @@
           [
             "Er tankning og spisepauser med i resultatet?",
             "Kun de stop, du selv taster ind. Læg et til for hver tankning, hvert måltid eller hver pause, du regner med; hvert stop lægger 20 minutter til dagen."
+          ],
+          [
+            "Hvor lang tid tager det at køre fra Sydney til Melbourne?",
+            "Cirka 10 t 15 min kørsel for de 865 km ad Hume Highway ifølge OSRM's ruteberegning, eller cirka 11 t 30 min med 15 minutters pause hver anden time. De fleste deler turen over to dage og overnatter i en af byerne langs Hume Highway."
+          ],
+          [
+            "Hvor langt kan man køre på én dag i Australien?",
+            "Queenslands regering råder til en pause på mindst 15 minutter hver 2. time og til aldrig at køre mere end 10 timer på én dag. Med beregnerens gennemsnit på 70 km/t for hovedveje når du cirka 560 km på 8 timer bag rattet og er stadig fremme før skumringen."
+          ],
+          [
+            "Hvad er køretider og afstande i New South Wales?",
+            "Sydney til Newcastle er 162 km, cirka 2 t 15 min kørsel, og Sydney til Canberra er 286 km, cirka 3 t 30 min, ifølge OSRM's ruteberegning. Tjek Live Traffic NSW for lukkede veje og vejarbejde, før du kører."
           ]
         ],
         "ctaTitle": "Vid, hvor dagen ender, før du går i gang med den.",

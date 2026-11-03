@@ -283,10 +283,56 @@
     },
     "tools": {
       "fuel-cost-calculator": {
-        "metaTitle": "Road Trip Fuel Cost Calculator Australia",
-        "metaDescription": "Work out petrol or diesel for an Australian road trip from distance, L/100 km and price per litre. Shows litres, total cost and cost per km, with the formula and a worked example.",
+        "metaTitle": "Fuel Cost Calculator Australia: Petrol and Diesel per km",
+        "metaDescription": "Work out a trip’s fuel cost and cost per km, with November 2026 petrol and diesel prices by capital city and typical fuel use for a car, campervan and 4WD.",
         "title": "Road trip fuel cost calculator for Australia",
         "intro": "Enter the distance, your vehicle’s loaded fuel use and the price per litre. You get the litres the drive will burn, the fuel bill and the cost per kilometre, so the whole route can be budgeted before the first fill.",
+        "answer": [
+          "A trip’s fuel cost is the distance × litres per 100 km ÷ 100 × the price per litre. In the week to 1 November 2026, petrol averaged A$2.33 a litre and diesel A$2.77 across the five largest capital cities, according to the Australian Institute of Petroleum.",
+          "At those prices a car using 8 L/100 km costs about A$18.66 per 100 km on petrol, and a 4WD towing a caravan at 18 L/100 km about A$49.82 per 100 km on diesel."
+        ],
+        "tables": [
+          {
+            "heading": "Fuel prices by capital city",
+            "caption": "Average retail price per litre in the week to 1 November 2026.",
+            "head": [
+              "City",
+              "Unleaded petrol",
+              "Diesel"
+            ],
+            "rows": [
+              "Sydney",
+              "Melbourne",
+              "Brisbane",
+              "Adelaide",
+              "Perth",
+              "Canberra",
+              "Hobart",
+              "Darwin",
+              "Five largest cities",
+              "Regional average, all states",
+              "Regional Northern Territory"
+            ],
+            "note": "Weekly averages from the Australian Institute of Petroleum’s Weekly Petrol and Diesel Prices Reports for the week ending 1 November 2026, based on MotorMouth retail data. The five largest cities are Sydney, Melbourne, Brisbane, Adelaide and Perth. Prices change every week and differ between stations, and remote roadhouses can charge well above the regional average."
+          },
+          {
+            "heading": "Fuel cost per 100 km by vehicle",
+            "caption": "Planning fuel use for a loaded vehicle, priced at the five-city averages above.",
+            "head": [
+              "Vehicle",
+              "Fuel use",
+              "Per 100 km",
+              "Per km"
+            ],
+            "rows": [
+              "Car (petrol)",
+              "Campervan (diesel)",
+              "4WD (diesel)",
+              "4WD towing a caravan (diesel)"
+            ],
+            "note": "The fuel use figures are planning estimates for highway driving with a load, not manufacturer ratings. Wind, hills, speed, roof loads and air conditioning change them, so use your own measured figure when you have one."
+          }
+        ],
         "formula": [
           "Litres = distance (km) × fuel use (L/100 km) ÷ 100",
           "Fuel cost = litres × price per litre (A$/L)",
@@ -314,17 +360,60 @@
           ],
           [
             "Which fuel price should I use?",
-            "Use the fuel your vehicle takes and the most recent price you can find for the region. Fuel Plan’s five-city averages for 5 August 2026 were A$2.08 a litre for petrol and A$2.47 for diesel; expect more in remote areas."
+            "Use the fuel your vehicle takes and the latest price you can find for the region. In the week to 1 November 2026 the Australian Institute of Petroleum put the five-city averages at A$2.33 a litre for petrol and A$2.77 for diesel, and the regional averages at A$2.42 and A$2.82; expect more at remote roadhouses."
+          ],
+          [
+            "How much does fuel cost per km in Australia?",
+            "About A$0.19 a kilometre for a petrol car using 8 L/100 km and A$0.33 for a diesel campervan using 12 L/100 km, at the five-city averages for the week to 1 November 2026. For your own figure, multiply L/100 km by the price per litre and divide by 100."
+          ],
+          [
+            "How much does fuel cost from Sydney to Melbourne?",
+            "About A$161 in a petrol car using 8 L/100 km: 865 km × 8 ÷ 100 = 69.2 litres at the five-city average of A$2.33 a litre. A diesel campervan at 12 L/100 km burns 103.8 litres, about A$287 at A$2.77."
           ]
         ],
         "ctaTitle": "Plan the stops between fill-ups.",
         "ctaText": "AussieCamps maps {restAreas} rest areas and {dumpPoints} dump points across Australia and turns saved places into a multi-stop route with distances."
       },
       "drive-time-calculator": {
-        "metaTitle": "Driving Time Calculator Australia: Real Road Trip Days",
-        "metaDescription": "Estimate how long an Australian driving day really takes from distance, road type and stops. Shows the average speeds used, the formula and a worked example.",
+        "metaTitle": "Driving Time Calculator Australia: Travel Times by Car",
+        "metaDescription": "How long does it take to drive? Work out travel time by car from distance, road type and stops, with driving times and distances between Australian cities.",
         "title": "Driving time calculator for Australian road trips",
         "intro": "Maps apps quote moving time on a clear road. This calculator plans the day you will actually drive: an average speed for the kind of road, plus the time spent stopped for fuel, food and breaks.",
+        "answer": [
+          "To work out travelling time by car, divide the distance by a realistic average speed and add your breaks. In Australia, plan on about 85 km/h on motorways, 70 km/h on main highways and 60 km/h on winding roads, and stop for 15 minutes every two hours, as the Queensland, Western Australian and Tasmanian road safety agencies advise.",
+          "Sydney to Melbourne is 865 km: about 10 h 15 min at the wheel on the Hume Highway, or 11 h 30 min with breaks, so most people drive it over two days."
+        ],
+        "tables": [
+          {
+            "heading": "Driving times and distances between Australian cities",
+            "caption": "Road distance and time at the wheel between city centres, with a 15-minute break for every two hours of driving.",
+            "head": [
+              "Route",
+              "Distance",
+              "Driving time",
+              "With breaks",
+              "Days at 8 h a day"
+            ],
+            "rows": [
+              "Sydney to Newcastle",
+              "Brisbane to Byron Bay",
+              "Hobart to Launceston",
+              "Sydney to Canberra",
+              "Alice Springs to Uluru (Yulara)",
+              "Melbourne to Canberra",
+              "Melbourne to Adelaide",
+              "Sydney to Melbourne",
+              "Sydney to Brisbane",
+              "Sydney to Adelaide",
+              "Darwin to Alice Springs",
+              "Melbourne to Brisbane (Newell Highway)",
+              "Brisbane to Cairns",
+              "Perth to Broome",
+              "Adelaide to Perth (Nullarbor)"
+            ],
+            "note": "Distances and driving times are OSRM routing on OpenStreetMap data, checked on 3 November 2026, with no traffic, roadworks or stops. The breaks follow the advice to stop for 15 minutes every two hours from the Queensland Government, the Road Safety Commission of Western Australia and Tasmania's Road Safety Advisory Council. The Queensland Government also advises never driving more than 10 hours in one day."
+          }
+        ],
         "formula": [
           "Driving minutes = distance (km) ÷ average speed (km/h) × 60",
           "Total minutes = driving minutes + stops × 20",
@@ -353,6 +442,18 @@
           [
             "Does the result include fuel and meal stops?",
             "Only the stops you enter. Add one for each refuel, meal or break you expect; each one adds 20 minutes to the day."
+          ],
+          [
+            "How long does it take to drive from Sydney to Melbourne?",
+            "About 10 h 15 min of driving for the 865 km on the Hume Highway, by OSRM routing, or about 11 h 30 min with a 15-minute break every two hours. Most people split it over two days, with a night in one of the Hume Highway towns."
+          ],
+          [
+            "How far can you drive in a day in Australia?",
+            "The Queensland Government advises a break of at least 15 minutes every 2 hours and never driving more than 10 hours in a single day. At this calculator's 70 km/h main highway average, 8 hours at the wheel covers about 560 km, which still leaves time to arrive before dusk."
+          ],
+          [
+            "What are the driving times and distances in NSW?",
+            "Sydney to Newcastle is 162 km, about 2 h 15 min of driving, and Sydney to Canberra is 286 km, about 3 h 30 min, by OSRM routing. Check Live Traffic NSW for closures and roadworks before you go."
           ]
         ],
         "ctaTitle": "Know where the day ends before you start it.",

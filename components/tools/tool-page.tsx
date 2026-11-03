@@ -18,6 +18,7 @@ import { toolKeys, uiStrings, type ToolKey, type UiStrings } from "@/lib/source-
 import { defaultOutputs, toolScript } from "@/lib/tools/calc";
 import { toolCopy } from "@/lib/tools/strings";
 import { fillCounts, toolEyebrow, toolGuides, toolPageKey, toolPath, toolSources } from "@/lib/tools/pages";
+import { toolTables } from "@/lib/tools/tables";
 
 export const calculators: Record<ToolKey, (props: { ui?: UiStrings; output: string; children?: React.ReactNode; locale?: LocaleCode | "en" }) => React.ReactNode> = {
   "fuel-cost-calculator": FuelCalculator,
@@ -46,6 +47,13 @@ export function ToolPage({ tool, locale }: { tool: ToolKey; locale: "en" | Local
   const guideList = native ? localizedArticles(locale as LocaleCode) : articles;
   const guides = toolGuides[tool].map((slug) => guideList.find((article) => article.slug === slug)).filter((article) => !!article);
   const sources = toolSources[tool] ?? [];
+  const tables = (copy.tables ?? []).map((table, index) => {
+    const rows = toolTables[tool]?.[index] ?? [];
+    if (rows.length !== table.rows.length) throw new Error(`${tool}: table ${index} has ${table.rows.length} labels and ${rows.length} rows of figures`);
+    return { ...table, rows: rows.map((row, position) => ({ label: table.rows[position], guide: row.guide && guideList.some((article) => article.slug === row.guide) ? row.guide : undefined, cells: row.cells(numberLocale) })) };
+  });
+  // Sections are numbered in order: the tables come first, then the explanation.
+  const count = (index: number) => String(index + 1).padStart(2, "0");
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -71,23 +79,39 @@ export function ToolPage({ tool, locale }: { tool: ToolKey; locale: "en" | Local
           <p className="eyebrow">{ui[toolEyebrow[tool]]}</p>
           <h1>{copy.title}</h1>
           <p>{copy.intro}</p>
+          {copy.answer && <div className="tool-answer">{copy.answer.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div>}
         </header>
         <div className="tool-page-widget"><Widget ui={ui} locale={native ? locale : "en"} output={defaultOutputs(numberLocale, ui)[tool]} /></div>
         <div className="article-layout">
           <div className="article-body">
+            {tables.map((table, index) => <section key={table.heading} id={`table-${index + 1}`}>
+              <span className="section-count">{count(index)}</span>
+              <h2>{table.heading}</h2>
+              <div className="price-table-wrap">
+                <table className="price-table article-table tool-table">
+                  <caption>{table.caption}</caption>
+                  <thead><tr>{table.head.map((cell) => <th scope="col" key={cell}>{cell}</th>)}</tr></thead>
+                  <tbody>{table.rows.map((row) => <tr key={row.label}>
+                    <th scope="row">{row.guide ? <a href={sitePath(`${prefix}/guides/${row.guide}`)} data-guide={row.guide}>{row.label}</a> : row.label}</th>
+                    {row.cells.map((cell, position) => <td key={position}>{cell}</td>)}
+                  </tr>)}</tbody>
+                </table>
+              </div>
+              <p className="price-table-disclaimer">{table.note}</p>
+            </section>)}
             <section id="how-its-calculated">
-              <span className="section-count">01</span>
+              <span className="section-count">{count(tables.length)}</span>
               <h2>{common.howItWorks}</h2>
               <ul className="tool-formula">{copy.formula.map((line) => <li key={line}><code>{line}</code></li>)}</ul>
               <p>{copy.formulaNote}</p>
             </section>
             <section id="worked-example">
-              <span className="section-count">02</span>
+              <span className="section-count">{count(tables.length + 1)}</span>
               <h2>{common.workedExample}</h2>
               {copy.example.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
             </section>
             <section id="assumptions">
-              <span className="section-count">03</span>
+              <span className="section-count">{count(tables.length + 2)}</span>
               <h2>{common.assumptions}</h2>
               <ul className="tool-list">{copy.assumptions.map((item) => <li key={item}>{item}</li>)}</ul>
             </section>
