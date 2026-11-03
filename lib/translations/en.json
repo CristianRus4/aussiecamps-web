@@ -6,7 +6,7 @@
     "metaDescription": "Find 74,000+ campgrounds, caravan parks, free camps, rest areas and dump points across Australia. Offline place details, sharp filters and a stop-by-stop road trip planner for iPhone.",
     "ogTitle": "AussieCamps: the camping map and road trip planner for Australia",
     "ogDescription": "74,000+ campgrounds, caravan parks, free camps and useful stops, bundled offline. Filter, save and plan the whole lap.",
-    "metaKeywords": "camping app Australia, free camping Australia, campgrounds Australia, caravan parks Australia, offline camping map Australia, big lap app, dump points Australia, rest areas Australia, road trip planner Australia",
+    "metaKeywords": "camping app Australia, free camping Australia, campgrounds Australia, caravan parks Australia, big lap app, dump points Australia, rest areas Australia, road trip planner Australia",
     "metaGuidesTitle": "Australian camping and road trip guides",
     "metaGuidesDescription": "Camping rules by state, free camping and rest area limits, fire bans, road safety, seasonal timing, real costs and practical planning for an Australian road trip.",
     "metaToolsTitle": "Australia road trip calculators",
@@ -8682,10 +8682,10 @@
     },
     "australia-road-trip-fuel-cost-2026": {
       "title": "Australian road-trip fuel costs in 2026",
-      "description": "Calculate petrol or diesel from distance and consumption, using current official city benchmarks and a remote-road margin.",
+      "description": "Calculate petrol or diesel from distance and consumption, using current city price averages and a remote-road margin.",
       "region": "Australia",
       "imageAlt": "Vehicle refuelling during an Australian road trip",
-      "intro": "Fuel is where distance becomes money. Official Fuel Plan data for 5 August 2026 put the five-largest-city average at A$2.08 per litre for petrol and A$2.47 for diesel, while remote prices can be materially higher.",
+      "intro": "Fuel is where distance becomes money. In the week ending 1 November 2026 the Australian Institute of Petroleum put the five-largest-city average at A$2.33 per litre for petrol and A$2.77 for diesel, while remote prices can be materially higher.",
       "sections": [
         {
           "heading": "The calculation",
@@ -8698,7 +8698,7 @@
         {
           "heading": "Capital averages are not remote quotes",
           "body": [
-            "The official city benchmark is a transparent starting point. Remote roadhouses carry different costs and are too important to skip merely to chase a lower price farther ahead.",
+            "The city average is a transparent starting point. Remote roadhouses carry different costs and are too important to skip merely to chase a lower price farther ahead.",
             "Fill conservatively, know the next dependable service and keep fuel stops inside the trip plan."
           ],
           "tips": [
@@ -8780,7 +8780,7 @@
       ],
       "sources": [
         {
-          "label": "Australian Government Fuel Plan statistics"
+          "label": "Australian Institute of Petroleum: weekly petrol and diesel prices"
         },
         {
           "label": "ACCC weekly fuel monitoring"
@@ -8790,7 +8790,7 @@
         }
       ],
       "priceTable": {
-        "note": "Calculated from Fuel Plan’s 5 August 2026 five-largest-city averages: A$2.08/L petrol and A$2.47/L diesel.",
+        "note": "Calculated from the Australian Institute of Petroleum five-largest-city averages for the week ending 1 November 2026: A$2.33/L petrol and A$2.77/L diesel.",
         "rows": [
           {
             "label": "Petrol",
@@ -19087,16 +19087,16 @@
     },
     "melbourne-to-canberra-drive": {
       "title": "Melbourne to Canberra Drive 2026: Hume Highway, Alpine and Monaro Routes",
-      "description": "Melbourne to Canberra is about 680 km and 8.5 hours on the Hume and Barton Highways. Routes compared with the alpine and Monaro options, stops, campgrounds, snow chains and dump points.",
+      "description": "Melbourne to Canberra is about 650 km and 8 hours on the Hume and Barton Highways. Routes compared with the alpine and Monaro options, stops, campgrounds, snow chains and dump points.",
       "region": "Victoria, New South Wales and the ACT",
       "imageAlt": "The dual carriageway Hume Highway between Gundagai and Goulburn, with traffic on both carriageways and green hills behind",
-      "intro": "Melbourne to Canberra is about 680 km and 8 h 35 min of driving on the Hume Highway to Yass and the Barton Highway into Canberra, by OSRM routing. The two alternatives, over the Snowy Mountains or along the Monaro Highway from the south coast, add roughly 70 to 170 km and are for drivers who want the mountains or the coast.",
+      "intro": "Melbourne to Canberra is about 652 km and 7 h 53 min of driving on the Hume Highway to Yass and the Barton Highway into Canberra, by OSRM routing. The two alternatives, over the Snowy Mountains or along the Monaro Highway from the south coast, add roughly 80 to 100 km and are for drivers who want the mountains or the coast.",
       "sections": [
         {
           "heading": "Melbourne to Canberra routes compared",
           "body": [
             "The standard route is the Hume Highway through Seymour, Euroa, Benalla, Wangaratta, Albury, Holbrook, Gundagai and Yass, then the Barton Highway (A25) into the ACT. Wikipedia says the Hume Highway has been dual carriageway for its full length since 7 August 2013, with a 110 km/h limit, and the Barton Highway runs 52 km from Yass to Lyneham, with only about 6 km of its <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> section dual carriageway.",
-            "The alpine route leaves the Hume at Albury, follows the Murray Valley Highway to Corryong, crosses the Snowy Mountains on the Alpine Way from Khancoban to Jindabyne, then runs through Cooma and along the Monaro Highway to Canberra. The Monaro route follows the Princes Highway from Melbourne to Cann River, then the Monaro Highway through Bombala and Cooma. Distances and times are from OSRM routing on OpenStreetMap data, computed on 21 October 2026, for a car with no stops. The alpine total is derived from OSRM legs plus the length of the Alpine Way in Wikipedia, so it is not a routed figure."
+            "The alpine route leaves the Hume at Albury, follows the Murray Valley Highway to Corryong, crosses the Snowy Mountains on the Alpine Way from Khancoban to Jindabyne, then runs through Cooma and along the Monaro Highway to Canberra. The Monaro route follows the Princes Highway from Melbourne to Cann River, then the Monaro Highway through Bombala and Cooma. Distances and times are from OSRM routing on OpenStreetMap data, checked on 3 November 2026, for a car with no stops. The alpine total is derived from OSRM legs plus the length of the Alpine Way in Wikipedia, so it is not a routed figure."
           ],
           "tips": [
             "Hume: fastest, dual carriageway to Yass",
@@ -19104,7 +19104,7 @@
             "Monaro: the coast road, then the tablelands"
           ],
           "table": {
-            "caption": "Melbourne to Canberra by road, OSRM routing computed 21 October 2026 (alpine total derived).",
+            "caption": "Melbourne to Canberra by road, OSRM routing checked 3 November 2026 (alpine total derived).",
             "head": [
               "Route",
               "Distance",
@@ -19115,8 +19115,8 @@
             "rows": [
               [
                 "Hume Highway then Barton Highway",
-                "About 680 km",
-                "About 8 h 35 min",
+                "About 652 km",
+                "About 7 h 53 min",
                 "Dual carriageway to Yass, then mostly single carriageway",
                 "The fastest drive, in a day or with an Albury night"
               ],
@@ -19129,8 +19129,8 @@
               ],
               [
                 "Princes Highway to Cann River, then the Monaro Highway",
-                "About 747 km",
-                "About 10 h 35 min",
+                "About 735 km",
+                "About 9 h 46 min",
                 "Mostly single carriageway",
                 "A south-east coast and tablelands drive"
               ]
@@ -19140,13 +19140,13 @@
         {
           "heading": "The Hume route in one or two days",
           "body": [
-            "By OSRM routing, Melbourne to Albury is about 315 km (3 h 53 min) and Albury to Canberra about 353 km (4 h 23 min), through Holbrook about 63 km, Gundagai about 115 km further, Yass about 107 km after that and Canberra about 68 km on. If you split the drive, Albury is the usual night. BIG4 Albury Tourist Park is on Wagga Road in Lavington, Albury Central Tourist Park is on North Street and Discovery Parks Lake Hume is about 15 minutes away. Confirm availability with the park.",
+            "By OSRM routing, Melbourne to Albury is about 317 km (3 h 53 min) and Albury to Canberra about 339 km (4 h 6 min), through Holbrook about 62 km, Gundagai about 118 km further, Yass about 101 km after that and Canberra about 60 km on. If you split the drive, Albury is the usual night. BIG4 Albury Tourist Park is on Wagga Road in Lavington, Albury Central Tourist Park is on North Street and Discovery Parks Lake Hume is about 15 minutes away. Confirm availability with the park.",
             "Further on, Gundagai Cabins and Tourist Park is at 1 Nangus Road and VisitNSW describes it as suiting a stopover on the Hume Highway. Yass <a data-guide=\"caravan-park-vs-holiday-park\">Caravan Park</a> is about five minutes off the Hume on the northern side of Yass, with cabins, camping and drive-through caravan sites. The AussieCamps data lists Victorian Hume rest areas at Mangalore, Avenel, Benalla, Winton, Glenrowan, Wangaratta South and Chiltern, with toilets, picnic tables, barbecues and a heavy vehicle area, and mostly drinking water. It lists none for the New South Wales section here, which is a gap in the data. Treat rest areas as a place for a break: Victoria has no statewide overnight limit in the sources checked, and councils can ban overnight stays."
           ],
           "tips": [
-            "Albury about 315 km",
-            "Gundagai about 493 km",
-            "Yass about 600 km"
+            "Albury about 317 km",
+            "Gundagai about 492 km",
+            "Yass about 592 km"
           ]
         },
         {
@@ -19232,7 +19232,7 @@
       "faq": [
         [
           "How long does it take to drive from Melbourne to Canberra?",
-          "About 680 km and 8 h 35 min of driving on the Hume Highway and Barton Highway, by OSRM routing on OpenStreetMap data. Most drivers do it in a long day, and Albury is the usual place to break it into two."
+          "About 652 km and 7 h 53 min of driving on the Hume Highway and Barton Highway, by OSRM routing on OpenStreetMap data. Most drivers do it in a long day, and Albury is the usual place to break it into two."
         ],
         [
           "Is the Hume Highway all dual carriageway?",
@@ -19249,7 +19249,7 @@
       ],
       "sources": [
         {
-          "label": "OSRM routing on OpenStreetMap data (Melbourne to Canberra, computed 21 October 2026)"
+          "label": "OSRM routing on OpenStreetMap data (Melbourne to Canberra, checked 3 November 2026)"
         },
         {
           "label": "Wikipedia: Hume Highway"
@@ -19500,15 +19500,15 @@
     },
     "darwin-to-alice-springs-drive": {
       "title": "Darwin to Alice Springs Drive 2026: Stuart Highway Stops, Fuel and Quarantine",
-      "description": "Darwin to Alice Springs is about 1,500 km and 16 hours on the Stuart Highway. Day-by-day stops, rest areas, fuel advice, wet season closures, speed limits, fruit quarantine rules and dump points.",
+      "description": "Darwin to Alice Springs is about 1,500 km and 15 hours on the Stuart Highway. Day-by-day stops, rest areas, fuel advice, wet season closures, speed limits, fruit quarantine rules and dump points.",
       "region": "Northern Territory",
       "imageAlt": "A split granite boulder at Karlu Karlu (Devils Marbles) Conservation Reserve in the Northern Territory, with other orange boulders behind it",
-      "intro": "Darwin to Alice Springs is about 1,500 km, or 1,525 km and 16 h 26 min of driving by OSRM routing, and it is one road: the Stuart Highway through Katherine, Daly Waters, Tennant Creek and Karlu Karlu. Plan four days, check Road Report NT before each leg, and read the fruit rules, because produce restrictions apply on this drive.",
+      "intro": "Darwin to Alice Springs is about 1,500 km, or 1,492 km and 15 h 12 min of driving by OSRM routing, and it is one road: the Stuart Highway through Katherine, Daly Waters, Tennant Creek and Karlu Karlu. Plan four days, check Road Report NT before each leg, and read the fruit rules, because produce restrictions apply on this drive.",
       "sections": [
         {
           "heading": "One road: the Stuart Highway",
           "body": [
-            "There is only one realistic sealed route between Darwin and Alice Springs, the Stuart Highway, which Tourism NT calls the Explorers Way. It runs through Adelaide River, Pine Creek, Katherine, Mataranka, Daly Waters, Elliott, Tennant Creek, Karlu Karlu (Devils Marbles), Barrow Creek and Ti Tree. Wikipedia gives 1,499 km from Darwin to Alice Springs, and OSRM routing on OpenStreetMap data, computed on 21 October 2026 for a car with no stops, gives 1,525 km, so about 1,500 km is the safe figure.",
+            "There is only one realistic sealed route between Darwin and Alice Springs, the Stuart Highway, which Tourism NT calls the Explorers Way. It runs through Adelaide River, Pine Creek, Katherine, Mataranka, Daly Waters, Elliott, Tennant Creek, Karlu Karlu (Devils Marbles), Barrow Creek and Ti Tree. Wikipedia gives 1,499 km from Darwin to Alice Springs, and OSRM routing on OpenStreetMap data, checked on 3 November 2026 for a car with no stops, gives 1,492 km, so about 1,500 km is the safe figure.",
             "The detours are Kakadu, Nitmiluk (Katherine Gorge) at Katherine and Litchfield, which the Darwin, Kakadu and Litchfield loop covers. After Alice Springs, the Red Centre Way and the Adelaide to Uluru road trip cover what comes next."
           ],
           "tips": [
@@ -19517,7 +19517,7 @@
             "Next: Red Centre"
           ],
           "table": {
-            "caption": "Darwin to Alice Springs on the Stuart Highway, OSRM routing computed 21 October 2026, with Tourism NT leg distances where they exist.",
+            "caption": "Darwin to Alice Springs on the Stuart Highway, OSRM routing checked 3 November 2026, with Tourism NT leg distances where they exist.",
             "head": [
               "Leg",
               "Distance",
@@ -19527,12 +19527,12 @@
               [
                 "Darwin to Adelaide River",
                 "About 112 km",
-                "About 1 h 20 min"
+                "About 1 h 21 min"
               ],
               [
                 "Adelaide River to Katherine",
-                "About 204 km",
-                "About 2 h 9 min"
+                "About 203 km",
+                "About 2 h 5 min"
               ],
               [
                 "Katherine to Mataranka",
@@ -19542,17 +19542,17 @@
               [
                 "Mataranka to Daly Waters",
                 "About 168 km",
-                "About 1 h 43 min"
+                "About 1 h 42 min"
               ],
               [
                 "Daly Waters to Elliott",
-                "About 155 km",
-                "About 1 h 40 min"
+                "About 152 km",
+                "About 1 h 31 min"
               ],
               [
                 "Elliott to Tennant Creek",
                 "About 254 km",
-                "About 2 h 34 min"
+                "About 2 h 32 min"
               ],
               [
                 "Tennant Creek to Karlu Karlu",
@@ -19561,13 +19561,13 @@
               ],
               [
                 "Karlu Karlu to Barrow Creek",
-                "About 140 km",
-                "About 1 h 57 min"
+                "About 120 km",
+                "About 1 h 10 min"
               ],
               [
                 "Barrow Creek to Alice Springs",
                 "About 282 km",
-                "About 2 h 50 min"
+                "About 2 h 51 min"
               ]
             ]
           }
@@ -19575,13 +19575,13 @@
         {
           "heading": "Four days on the Stuart Highway",
           "body": [
-            "By OSRM, a four-day split is Darwin to Katherine about 316 km (3 h 29 min), Katherine to Daly Waters about 274 km (2 h 50 min), Daly Waters to Tennant Creek about 409 km (4 h 14 min) and Tennant Creek to Alice Springs about 526 km (5 h 50 min, via Karlu Karlu). Tourism NT's itineraries give Katherine to Darwin as 316 km, Mataranka to Katherine 106 km, Daly Waters to Mataranka 167 km and Alice Springs to Tennant Creek 510 km, which agree with OSRM within a few kilometres.",
+            "By OSRM, a four-day split is Darwin to Katherine about 315 km (3 h 26 min), Katherine to Daly Waters about 273 km (2 h 48 min), Daly Waters to Tennant Creek about 405 km (4 h 4 min) and Tennant Creek to Alice Springs about 506 km (5 h 3 min, via Karlu Karlu). Tourism NT's itineraries give Katherine to Darwin as 316 km, Mataranka to Katherine 106 km, Daly Waters to Mataranka 167 km and Alice Springs to Tennant Creek 510 km, which agree with OSRM within a few kilometres.",
             "Katherine is the base for Nitmiluk. At Mataranka, NT Parks says the thermal pool in Elsey National Park holds a steady 34 degrees all year and that an NT Parks Visitor Pass is needed, bought before arriving, with NT residents exempt. At Daly Waters, Tourism NT describes the Daly Waters Historic Pub as a place to eat, drink and stay, with camping, powered sites, safari tents and cabins. Named <a data-guide=\"caravan-park-vs-holiday-park\">caravan parks</a> at Katherine, Mataranka and Tennant Creek could not be confirmed, so book ahead by phone."
           ],
           "tips": [
             "Katherine about 316 km",
-            "Daly Waters about 590 km",
-            "Tennant Creek about 1,000 km"
+            "Daly Waters about 588 km",
+            "Tennant Creek about 993 km"
           ]
         },
         {
@@ -19673,7 +19673,7 @@
       "faq": [
         [
           "How far is it from Darwin to Alice Springs?",
-          "About 1,500 km, which is 1,525 km and 16 h 26 min of driving by OSRM routing on OpenStreetMap data, all on the Stuart Highway. Most people take four days, with nights at Katherine, Daly Waters and Tennant Creek."
+          "About 1,500 km, which is 1,492 km and 15 h 12 min of driving by OSRM routing on OpenStreetMap data, all on the Stuart Highway. Most people take four days, with nights at Katherine, Daly Waters and Tennant Creek."
         ],
         [
           "What is the speed limit on the Stuart Highway?",
@@ -19690,7 +19690,7 @@
       ],
       "sources": [
         {
-          "label": "OSRM routing on OpenStreetMap data (Darwin to Alice Springs, computed 21 October 2026)"
+          "label": "OSRM routing on OpenStreetMap data (Darwin to Alice Springs, checked 3 November 2026)"
         },
         {
           "label": "Tourism NT: road safety information"
@@ -23061,7 +23061,7 @@
         {
           "heading": "Fuel: the line that moves most",
           "body": [
-            "The government's Fuel Plan page showed average retail prices in the five largest cities on 14 October 2026 of about $2.41 a litre for petrol and $2.80 for diesel. NRMA's weekly report for Sydney on 19 October showed regular unleaded at 239.8 cents and diesel at 280.1 cents. The <a data-guide=\"australia-road-trip-fuel-cost-2026\">fuel cost</a> guide's examples use the 5 August 2026 benchmark, so use the dated figures here when you compare.",
+            "The government's Fuel Plan page showed average retail prices in the five largest cities on 14 October 2026 of about $2.41 a litre for petrol and $2.80 for diesel. NRMA's weekly report for Sydney on 19 October showed regular unleaded at 239.8 cents and diesel at 280.1 cents. The <a data-guide=\"australia-road-trip-fuel-cost-2026\">fuel cost</a> guide's examples use the Australian Institute of Petroleum averages for the week ending 1 November 2026, so use the dated figures here when you compare.",
             "Distance matters more than price. Halving the kilometres halves the bill, and remote roadhouses charge more than the city averages."
           ],
           "tips": [

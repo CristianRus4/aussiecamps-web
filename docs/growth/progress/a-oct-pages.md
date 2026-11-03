@@ -23,8 +23,17 @@ Lane brief: `/Users/cristian/Developer/Webs/.growth-lanes/oct-review/brief-a-pag
 
 - Download line under the opening answer (`ans` placement, `w_ans_<locale>`) on the drive and fuel calculators, the alcohol and coffee guide, the best camping apps guide and the two corrected drive guides, in all 15 locales. Strings live in the `answerCta` namespace; pages map to them in `lib/answer-cta.ts`.
 
-## Next
-- Remaining price guides, state rules guides and sleeping in car: already open with the headline price or a direct yes/no answer since 19 Oct; left alone while scored. See notes.
+- Darwin to Alice Springs and Melbourne to Canberra drive guides corrected from OSRM (3 Nov 2026), English and 15 locales.
+- Fuel cost guide moved to the AIP figures (week ending 1 Nov 2026) in all locales; the working holiday budget guide's cross-reference follows.
+- `offline camping map Australia` removed from the ui keywords, and the matching offline item from the es, fr, it, cs and ko keyword lists.
+
+## Final summary (lane done, 2026-11-03)
+- Calculators: the drive time and fuel pages answer the question first, with city drive-time and fuel price tables, more FAQs and sources; the fuel default is the AIP price. `/tools/` is the road trip calculators hub.
+- Facts: four scheduled drive guides and the fuel cost guide now match OSRM and AIP figures checked on 3 Nov 2026.
+- Pages: alcohol and coffee (cost per standard drink), best camping apps and home titles; links to the two apps guides from 15 guides and the tools.
+- Downloads: a tracked `w_ans_<locale>` line under the opening answer on six pages.
+- Every change is in the changelog; locales are complete; indexable counts never dropped (en 123, 122 per locale).
+- Left on purpose: the other price guides, the state rules guides and sleeping in car, which are under +14/+28 day scoring; Portuguese and Swedish English source labels on other drive guides.
 
 ## Notes for the orchestrator
 - The fuel calculator still defaults to A$2.08 a litre (Fuel Plan, 5 August 2026) because `tests/rendered-html.test.mjs` hard-codes `120.0 L · A$249.60` on /tools/. Current prices are about A$2.33. Updating the default needs the test changed by its owner.

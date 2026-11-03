@@ -27,7 +27,7 @@ export default article({
         ["Powered site every night at the $45 showground tariff", "$315", "$289", "$170", "$774"],
       ],
     }),
-    section("Fuel: the line that moves most", ["The government's Fuel Plan page showed average retail prices in the five largest cities on 14 October 2026 of about $2.41 a litre for petrol and $2.80 for diesel. NRMA's weekly report for Sydney on 19 October showed regular unleaded at 239.8 cents and diesel at 280.1 cents. The fuel cost guide's examples use the 5 August 2026 benchmark, so use the dated figures here when you compare.", "Distance matters more than price. Halving the kilometres halves the bill, and remote roadhouses charge more than the city averages."], ["Petrol about $2.41, diesel about $2.80", "Halve the kilometres, halve the fuel", "Remote fuel costs more"], {
+    section("Fuel: the line that moves most", ["The government's Fuel Plan page showed average retail prices in the five largest cities on 14 October 2026 of about $2.41 a litre for petrol and $2.80 for diesel. NRMA's weekly report for Sydney on 19 October showed regular unleaded at 239.8 cents and diesel at 280.1 cents. The fuel cost guide's examples use the Australian Institute of Petroleum averages for the week ending 1 November 2026, so use the dated figures here when you compare.", "Distance matters more than price. Halving the kilometres halves the bill, and remote roadhouses charge more than the city averages."], ["Petrol about $2.41, diesel about $2.80", "Halve the kilometres, halve the fuel", "Remote fuel costs more"], {
       caption: "Weekly fuel at 12 L/100 km using the Fuel Plan averages for 14 October 2026.",
       head: ["Kilometres in a week", "Litres", "Petrol at $2.41", "Diesel at $2.80"],
       rows: [

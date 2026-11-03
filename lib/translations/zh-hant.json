@@ -8336,10 +8336,10 @@
     },
     "australia-road-trip-fuel-cost-2026": {
       "title": "澳洲自駕油錢 2026：油價與整趟油費怎麼算",
-      "description": "用路線距離和油耗算出汽油或柴油的花費，以官方公布的最新城市平均油價為基準，再替偏遠路段多留一筆預算，內陸的油價可能高出不少。",
+      "description": "用距離和油耗算出汽油或柴油費用，以目前的城市平均油價為基準，再替偏遠路段留點餘裕。",
       "region": "澳洲",
       "imageAlt": "澳洲自駕途中在加油站加油的車子",
-      "intro": "開了多遠，最後都會變成油錢。根據澳洲政府燃料計畫（Fuel Plan）的官方數據，2026 年 8 月 5 日五大城市的平均油價，汽油每公升 A$2.08、柴油每公升 A$2.47，偏遠地區則可能貴上不少。",
+      "intro": "油錢就是距離變成鈔票的地方。根據 Australian Institute of Petroleum，截至 2026 年 11 月 1 日一週的五大城市平均油價為汽油每公升 A$2.33、柴油 A$2.77，偏遠地區可能貴上不少。",
       "sections": [
         {
           "heading": "怎麼算",
@@ -8352,7 +8352,7 @@
         {
           "heading": "首府平均價不等於偏遠地區的價格",
           "body": [
-            "官方的城市參考價是透明的起點。偏遠地區的公路休息站（roadhouse）成本結構不同，而且太重要了，別只為了前面可能比較便宜就跳過不加。",
+            "城市平均油價是清楚透明的起點。偏遠地區的公路休息站（roadhouse）成本結構不同，而且太重要了，別只為了前面可能比較便宜就跳過不加。",
             "加油寧可保守一點，知道下一個靠得住的加油點在哪裡，也把加油站排進行程規劃裡。"
           ],
           "tips": [
@@ -8434,7 +8434,7 @@
       ],
       "sources": [
         {
-          "label": "Australian Government Fuel Plan：油價統計"
+          "label": "Australian Institute of Petroleum：每週汽油與柴油價格"
         },
         {
           "label": "ACCC：每週油價監測"
@@ -8444,7 +8444,7 @@
         }
       ],
       "priceTable": {
-        "note": "依 Fuel Plan 2026 年 8 月 5 日五大城市平均油價計算：汽油 A$2.08/L，柴油 A$2.47/L。",
+        "note": "依 Australian Institute of Petroleum 截至 2026 年 11 月 1 日一週的五大城市平均價計算：汽油 A$2.33/公升，柴油 A$2.77/公升。",
         "rows": [
           {
             "label": "汽油",
@@ -18741,16 +18741,16 @@
     },
     "melbourne-to-canberra-drive": {
       "title": "墨爾本到坎培拉自駕 2026：Hume Highway、高山路線與 Monaro 路線",
-      "description": "墨爾本到坎培拉走 Hume Highway 和 Barton Highway 約 680 公里、8.5 小時。比較高山與 Monaro 路線，並整理停靠點、營地、雪鏈和排污站。",
+      "description": "墨爾本到坎培拉走 Hume Highway 和 Barton Highway 約 650 公里、8 小時。比較高山與 Monaro 路線，並整理停靠點、營地、雪鏈和排污站。",
       "region": "維多利亞、新南威爾斯與澳洲首都領地",
       "imageAlt": "Gundagai 與 Goulburn 之間的 Hume Highway，雙向分隔道路上兩側都有車流，後方是綠色山丘",
-      "intro": "墨爾本到坎培拉先走 Hume Highway 到 Yass，再接 Barton Highway 進坎培拉，依 OSRM 路線規劃約 680 公里、開車 8 小時 35 分。另外兩條路線，一條翻過雪山山脈（Snowy Mountains），一條從南海岸沿著 Monaro Highway 上來，大約多 70 至 170 公里，適合想看山景或海岸的人。",
+      "intro": "墨爾本到坎培拉先走 Hume Highway 到 Yass，再接 Barton Highway 進坎培拉，依 OSRM 路線規劃約 652 公里、開車 7 小時 53 分。另外兩條路線，一條翻過雪山山脈（Snowy Mountains），一條從南海岸沿著 Monaro Highway 上來，大約多 80 至 100 公里，適合想看山景或海岸的人。",
       "sections": [
         {
           "heading": "墨爾本到坎培拉的路線比較",
           "body": [
             "標準路線是走 Hume Highway，經過 Seymour、Euroa、Benalla、Wangaratta、Albury、Holbrook、Gundagai 和 Yass，再接 Barton Highway（A25）進入澳洲首都領地。根據 Wikipedia，Hume Highway 自 2013 年 8 月 7 日起全線都是雙向分隔道路，速限 110 公里/小時，Barton Highway 從 Yass 到 Lyneham 全長 52 公里，而在<a data-guide=\"camping-rules-new-south-wales\">新南威爾斯</a>的路段，只有約 6 公里是雙向分隔道路。",
-            "高山路線在 Albury 離開 Hume，沿 Murray Valley Highway 到 Corryong，再走 Alpine Way 從 Khancoban 翻過雪山山脈到 Jindabyne，接著經過 Cooma，沿 Monaro Highway 開到坎培拉。Monaro 路線則是從墨爾本沿 Princes Highway 到 Cann River，再走 Monaro Highway，經過 Bombala 和 Cooma。距離和時間都來自 OSRM 依 OpenStreetMap 資料在 2026 年 10 月 21 日算出的結果，以小客車不停靠為準。高山路線的總長是用 OSRM 各段加上 Wikipedia 記載的 Alpine Way 長度推算出來的，不是直接規劃的數字。"
+            "高山路線在 Albury 離開 Hume，沿 Murray Valley Highway 到 Corryong，再走 Alpine Way 從 Khancoban 翻過雪山山脈到 Jindabyne，接著經過 Cooma，沿 Monaro Highway 開到坎培拉。Monaro 路線則是從墨爾本沿 Princes Highway 到 Cann River，再走 Monaro Highway，經過 Bombala 和 Cooma。距離和時間都來自 OSRM 依 OpenStreetMap 資料在 2026 年 11 月 3 日算出的結果，以小客車不停靠為準。高山路線的總長是用 OSRM 各段加上 Wikipedia 記載的 Alpine Way 長度推算出來的，不是直接規劃的數字。"
           ],
           "tips": [
             "Hume：最快，到 Yass 都是雙向分隔",
@@ -18758,7 +18758,7 @@
             "Monaro：先走海岸，再上高原"
           ],
           "table": {
-            "caption": "墨爾本到坎培拉的公路路線，OSRM 路線規劃於 2026 年 10 月 21 日計算（高山路線總長為推算）。",
+            "caption": "墨爾本到坎培拉的公路路線，OSRM 路線規劃於 2026 年 11 月 3 日計算（高山路線總長為推算）。",
             "head": [
               "路線",
               "距離",
@@ -18769,8 +18769,8 @@
             "rows": [
               [
                 "Hume Highway 接 Barton Highway",
-                "約 680 公里",
-                "約 8 小時 35 分",
+                "約 652 公里",
+                "約 7 小時 53 分",
                 "到 Yass 是雙向分隔道路，之後大多是單線雙向",
                 "想開最快的路線，一天趕完或在 Albury 住一晚的人"
               ],
@@ -18783,8 +18783,8 @@
               ],
               [
                 "Princes Highway 到 Cann River，再接 Monaro Highway",
-                "約 747 公里",
-                "約 10 小時 35 分",
+                "約 735 公里",
+                "約 9 小時 46 分",
                 "大多是單線雙向",
                 "想走東南海岸和高原的人"
               ]
@@ -18794,13 +18794,13 @@
         {
           "heading": "Hume 路線：一天或兩天開完",
           "body": [
-            "依 OSRM 路線規劃，墨爾本到 Albury 約 315 公里（3 小時 53 分），Albury 到坎培拉約 353 公里（4 小時 23 分），途中 Holbrook 約 63 公里，往前 Gundagai 約 115 公里，再過去 Yass 約 107 公里，接著到坎培拉約 68 公里。如果分兩天開，通常會在 Albury 過夜。BIG4 Albury Tourist Park 在 Lavington 的 Wagga Road，Albury Central Tourist Park 在 North Street，Discovery Parks Lake Hume 則大約 15 分鐘車程。有沒有空位要向營地確認。",
+            "依 OSRM 路線規劃，墨爾本到 Albury 約 317 公里（3 小時 53 分），Albury 到坎培拉約 339 公里（4 小時 6 分），途中 Holbrook 約 62 公里，往前 Gundagai 約 118 公里，再過去 Yass 約 101 公里，接著到坎培拉約 60 公里。如果分兩天開，通常會在 Albury 過夜。BIG4 Albury Tourist Park 在 Lavington 的 Wagga Road，Albury Central Tourist Park 在 North Street，Discovery Parks Lake Hume 則大約 15 分鐘車程。有沒有空位要向營地確認。",
             "再往前，Gundagai Cabins and Tourist Park 位於 1 Nangus Road，VisitNSW 形容它適合在 Hume Highway 上中途停留。Yass <a data-guide=\"caravan-park-vs-holiday-park\">Caravan Park</a> 離 Hume 約五分鐘車程，在 Yass 北側，有小木屋、露營區和可以直接開進開出的露營車營位。AussieCamps 的資料列出維多利亞境內 Hume 沿線的休息區，包括 Mangalore、Avenel、Benalla、Winton、Glenrowan、Wangaratta South 和 Chiltern，設施有廁所、野餐桌、烤肉爐和大型車輛停車區，大多還有飲用水。新南威爾斯路段在這裡沒有列出任何一處，這是資料的缺口。休息區請當作休息的地方：在查過的資料裡，維多利亞沒有全州統一的過夜上限，地方政府也可能禁止過夜。"
           ],
           "tips": [
-            "Albury 約 315 公里",
-            "Gundagai 約 493 公里",
-            "Yass 約 600 公里"
+            "Albury 約 317 公里",
+            "Gundagai 約 492 公里",
+            "Yass 約 592 公里"
           ]
         },
         {
@@ -18886,7 +18886,7 @@
       "faq": [
         [
           "墨爾本開車到坎培拉要多久？",
-          "依 OSRM 以 OpenStreetMap 資料規劃，走 Hume Highway 和 Barton Highway 約 680 公里、開車 8 小時 35 分。大多數人一天開完，想分兩天的話，通常在 Albury 休息。"
+          "依 OSRM 以 OpenStreetMap 資料規劃，走 Hume Highway 和 Barton Highway 約 652 公里、開車 7 小時 53 分。大多數人一天開完，想分兩天的話，通常在 Albury 休息。"
         ],
         [
           "Hume Highway 全線都是雙向分隔道路嗎？",
@@ -18903,7 +18903,7 @@
       ],
       "sources": [
         {
-          "label": "OSRM 路線規劃，使用 OpenStreetMap 資料（墨爾本到坎培拉，2026 年 10 月 21 日計算）"
+          "label": "OSRM 路線規劃，使用 OpenStreetMap 資料（墨爾本到坎培拉，2026 年 11 月 3 日計算）"
         },
         {
           "label": "Wikipedia：Hume Highway"
@@ -19154,15 +19154,15 @@
     },
     "darwin-to-alice-springs-drive": {
       "title": "2026 達爾文到愛麗絲泉自駕：史都華公路停靠點、加油與檢疫",
-      "description": "達爾文到愛麗絲泉走史都華公路，全程約 1,500 公里、開車約 16 小時。內有每日停靠點、休息區、加油建議、雨季封路、速限、水果檢疫規定與排污站。",
+      "description": "達爾文到愛麗絲泉走史都華公路，全程約 1,500 公里、開車約 15 小時。內有每日停靠點、休息區、加油建議、雨季封路、速限、水果檢疫規定與排污站。",
       "region": "北領地",
       "imageAlt": "北領地 Karlu Karlu（Devils Marbles）保護區裡一顆裂成兩半的花崗岩巨石，後方還有其他橘色圓石",
-      "intro": "達爾文到愛麗絲泉約 1,500 公里，依 OSRM 路線計算是 1,525 公里、純開車 16 小時 26 分鐘，而且只有一條路：經過凱瑟琳、戴利沃特斯、坦南特克里克和 Karlu Karlu 的史都華公路。行程抓四天，每一段出發前先查 Road Report NT，也要看清楚水果規定，因為這趟路上有農產品限制。",
+      "intro": "達爾文到愛麗絲泉約 1,500 公里，依 OSRM 路線計算是 1,492 公里、純開車 15 小時 12 分鐘，而且只有一條路：經過凱瑟琳、戴利沃特斯、坦南特克里克和 Karlu Karlu 的史都華公路。行程抓四天，每一段出發前先查 Road Report NT，也要看清楚水果規定，因為這趟路上有農產品限制。",
       "sections": [
         {
           "heading": "只有一條路：史都華公路",
           "body": [
-            "達爾文和愛麗絲泉之間，實際可走的柏油路只有史都華公路（Stuart Highway），北領地旅遊局稱它為 Explorers Way。沿途會經過阿德雷德河、派恩克里克、凱瑟琳、馬塔蘭卡、戴利沃特斯、艾略特、坦南特克里克、Karlu Karlu（Devils Marbles）、巴羅克里克和提特里。維基百科寫達爾文到愛麗絲泉是 1,499 公里；OSRM 以 OpenStreetMap 資料在 2026 年 10 月 21 日替一輛不停靠的轎車計算，結果是 1,525 公里，所以抓約 1,500 公里最保險。",
+            "達爾文和愛麗絲泉之間，實際可走的柏油路只有史都華公路（Stuart Highway），北領地旅遊局稱它為 Explorers Way。沿途會經過阿德雷德河、派恩克里克、凱瑟琳、馬塔蘭卡、戴利沃特斯、艾略特、坦南特克里克、Karlu Karlu（Devils Marbles）、巴羅克里克和提特里。維基百科寫達爾文到愛麗絲泉是 1,499 公里；OSRM 以 OpenStreetMap 資料在 2026 年 11 月 3 日替一輛不停靠的轎車計算，結果是 1,492 公里，所以抓約 1,500 公里最保險。",
             "繞路的選擇有卡卡度、凱瑟琳的 Nitmiluk（Katherine Gorge）和利奇菲爾德，這些在達爾文、卡卡度與利奇菲爾德環線的文章裡都有介紹。過了愛麗絲泉之後，可以接著看紅土中心之路和阿德雷德到烏魯魯的自駕行程。"
           ],
           "tips": [
@@ -19171,7 +19171,7 @@
             "下一站：紅土中心"
           ],
           "table": {
-            "caption": "史都華公路上的達爾文到愛麗絲泉路段，OSRM 路線於 2026 年 10 月 21 日計算，有北領地旅遊局路段距離的地方一併參考。",
+            "caption": "史都華公路上的達爾文到愛麗絲泉路段，OSRM 路線於 2026 年 11 月 3 日計算，有北領地旅遊局路段距離的地方一併參考。",
             "head": [
               "路段",
               "距離",
@@ -19181,12 +19181,12 @@
               [
                 "達爾文到阿德雷德河",
                 "約 112 公里",
-                "約 1 小時 20 分鐘"
+                "約 1 小時 21 分鐘"
               ],
               [
                 "阿德雷德河到凱瑟琳",
-                "約 204 公里",
-                "約 2 小時 9 分鐘"
+                "約 203 公里",
+                "約 2 小時 5 分鐘"
               ],
               [
                 "凱瑟琳到馬塔蘭卡",
@@ -19196,17 +19196,17 @@
               [
                 "馬塔蘭卡到戴利沃特斯",
                 "約 168 公里",
-                "約 1 小時 43 分鐘"
+                "約 1 小時 42 分鐘"
               ],
               [
                 "戴利沃特斯到艾略特",
-                "約 155 公里",
-                "約 1 小時 40 分鐘"
+                "約 152 公里",
+                "約 1 小時 31 分鐘"
               ],
               [
                 "艾略特到坦南特克里克",
                 "約 254 公里",
-                "約 2 小時 34 分鐘"
+                "約 2 小時 32 分鐘"
               ],
               [
                 "坦南特克里克到 Karlu Karlu",
@@ -19215,13 +19215,13 @@
               ],
               [
                 "Karlu Karlu 到巴羅克里克",
-                "約 140 公里",
-                "約 1 小時 57 分鐘"
+                "約 120 公里",
+                "約 1 小時 10 分鐘"
               ],
               [
                 "巴羅克里克到愛麗絲泉",
                 "約 282 公里",
-                "約 2 小時 50 分鐘"
+                "約 2 小時 51 分鐘"
               ]
             ]
           }
@@ -19229,13 +19229,13 @@
         {
           "heading": "史都華公路四天行程",
           "body": [
-            "依 OSRM 計算，四天的切法是：達爾文到凱瑟琳約 316 公里（3 小時 29 分鐘），凱瑟琳到戴利沃特斯約 274 公里（2 小時 50 分鐘），戴利沃特斯到坦南特克里克約 409 公里（4 小時 14 分鐘），坦南特克里克到愛麗絲泉約 526 公里（5 小時 50 分鐘，途經 Karlu Karlu）。北領地旅遊局的行程寫凱瑟琳到達爾文是 316 公里、馬塔蘭卡到凱瑟琳 106 公里、戴利沃特斯到馬塔蘭卡 167 公里、愛麗絲泉到坦南特克里克 510 公里，和 OSRM 的數字只差幾公里。",
+            "依 OSRM 計算，四天的切法是：達爾文到凱瑟琳約 315 公里（3 小時 26 分鐘），凱瑟琳到戴利沃特斯約 273 公里（2 小時 48 分鐘），戴利沃特斯到坦南特克里克約 405 公里（4 小時 4 分鐘），坦南特克里克到愛麗絲泉約 506 公里（5 小時 3 分鐘，途經 Karlu Karlu）。北領地旅遊局的行程寫凱瑟琳到達爾文是 315 公里、馬塔蘭卡到凱瑟琳 106 公里、戴利沃特斯到馬塔蘭卡 167 公里、愛麗絲泉到坦南特克里克 510 公里，和 OSRM 的數字只差幾公里。",
             "凱瑟琳是前往 Nitmiluk 的基地。在馬塔蘭卡，北領地公園管理處（NT Parks）表示埃爾西國家公園的溫泉池全年保持 34 度，而且需要 NT Parks Visitor Pass，要在抵達前先買好，北領地居民免購。在戴利沃特斯，北領地旅遊局形容 Daly Waters Historic Pub 是可以吃喝、也能住宿的地方，有露營、有電營位、野營帳篷和小木屋。凱瑟琳、馬塔蘭卡和坦南特克里克的<a data-guide=\"caravan-park-vs-holiday-park\">露營車營地</a>無法確認名稱，所以請先打電話訂位。"
           ],
           "tips": [
             "凱瑟琳約 316 公里",
-            "戴利沃特斯約 590 公里",
-            "坦南特克里克約 1,000 公里"
+            "戴利沃特斯約 588 公里",
+            "坦南特克里克約 993 公里"
           ]
         },
         {
@@ -19327,7 +19327,7 @@
       "faq": [
         [
           "達爾文到愛麗絲泉有多遠？",
-          "約 1,500 公里，依 OSRM 以 OpenStreetMap 資料計算是 1,525 公里、純開車 16 小時 26 分鐘，全程都在史都華公路上。多數人會分四天走，晚上住凱瑟琳、戴利沃特斯和坦南特克里克。"
+          "約 1,500 公里，依 OSRM 以 OpenStreetMap 資料計算是 1,492 公里、純開車 15 小時 12 分鐘，全程都在史都華公路上。多數人會分四天走，晚上住凱瑟琳、戴利沃特斯和坦南特克里克。"
         ],
         [
           "史都華公路的速限是多少？",
@@ -19344,7 +19344,7 @@
       ],
       "sources": [
         {
-          "label": "OSRM 路線規劃，使用 OpenStreetMap 資料（達爾文到愛麗絲泉，2026 年 10 月 21 日計算）"
+          "label": "OSRM 路線規劃，使用 OpenStreetMap 資料（達爾文到愛麗絲泉，2026 年 11 月 3 日計算）"
         },
         {
           "label": "Tourism NT：道路安全資訊"
@@ -22715,7 +22715,7 @@
         {
           "heading": "油錢：變動最大的一項",
           "body": [
-            "政府的 Fuel Plan 網頁顯示，2026 年 10 月 14 日五大城市的平均零售價，汽油約每公升 $2.41 澳幣，柴油約 $2.80 澳幣。NRMA 在 10 月 19 日發布的雪梨每週報告，則顯示一般無鉛汽油 239.8 分、柴油 280.1 分。<a data-guide=\"australia-road-trip-fuel-cost-2026\">油錢</a>指南的範例用的是 2026 年 8 月 5 日的基準價，所以比較時，請用這裡標了日期的數字。",
+            "政府的 Fuel Plan 網頁顯示，2026 年 10 月 14 日五大城市的平均零售價，汽油約每公升 $2.41 澳幣，柴油約 $2.80 澳幣。NRMA 在 10 月 19 日發布的雪梨每週報告，則顯示一般無鉛汽油 239.8 分、柴油 280.1 分。<a data-guide=\"australia-road-trip-fuel-cost-2026\">油錢</a>指南的範例用的是 Australian Institute of Petroleum 截至 2026 年 11 月 1 日一週的平均價，所以比較時，請用這裡標了日期的數字。",
             "距離比油價更重要。里程減半，油錢就減半，而偏遠的公路休息站收費比城市平均價更高。"
           ],
           "tips": [

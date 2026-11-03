@@ -8647,10 +8647,10 @@
     },
     "australia-road-trip-fuel-cost-2026": {
       "title": "Ceny paliwa w Australii 2026: ile kosztuje road trip",
-      "description": "Policz koszt benzyny lub diesla z dystansu i spalania: aktualne oficjalne średnie ceny z miast plus zapas na droższe paliwo na odludnych trasach.",
+      "description": "Policz koszt benzyny lub diesla z dystansu i spalania: aktualne średnie ceny z miast plus zapas na droższe paliwo na odludnych trasach.",
       "region": "Australia",
       "imageAlt": "Tankowanie podczas road tripu po Australii",
-      "intro": "Na paliwie kilometry zamieniają się w pieniądze. Według oficjalnych danych Fuel Plan z 5 sierpnia 2026 średnia w pięciu największych miastach wynosiła 2,08 AUD za litr benzyny i 2,47 AUD za litr oleju napędowego. Na odludziu ceny mogą być znacznie wyższe.",
+      "intro": "Na paliwie kilometry zamieniają się w pieniądze. W tygodniu do 1 listopada 2026 roku średnia w pięciu największych miastach według Australian Institute of Petroleum wynosiła 2,33 AUD za litr benzyny i 2,77 AUD za litr oleju napędowego. Na odludziu ceny mogą być znacznie wyższe.",
       "sections": [
         {
           "heading": "Jak to policzyć",
@@ -8663,7 +8663,7 @@
         {
           "heading": "Średnia miejska nie jest ceną na odludziu",
           "body": [
-            "Oficjalna średnia miejska to przejrzysty punkt wyjścia. Roadhouse'y na odludziu (stacje paliw z barem) mają inne koszty i są zbyt ważne, żeby je omijać tylko po to, by złapać niższą cenę gdzieś dalej.",
+            "Średnia miejska to przejrzysty punkt wyjścia. Roadhouse'y na odludziu (stacje paliw z barem) mają inne koszty i są zbyt ważne, żeby je omijać tylko po to, by złapać niższą cenę gdzieś dalej.",
             "Tankuj z zapasem, wiedz, gdzie jest następna pewna stacja, i wpisz postoje na tankowanie w plan podróży."
           ],
           "tips": [
@@ -8745,7 +8745,7 @@
       ],
       "sources": [
         {
-          "label": "Statystyki Fuel Plan rządu Australii (Australian Government)"
+          "label": "Australian Institute of Petroleum: tygodniowe ceny benzyny i oleju napędowego"
         },
         {
           "label": "ACCC: cotygodniowy monitoring cen paliw"
@@ -8755,7 +8755,7 @@
         }
       ],
       "priceTable": {
-        "note": "Wyliczenia na podstawie średnich Fuel Plan z 5 sierpnia 2026 dla pięciu największych miast: benzyna 2,08 AUD/l i olej napędowy 2,47 AUD/l.",
+        "note": "Wyliczenia na podstawie średnich Australian Institute of Petroleum dla pięciu największych miast w tygodniu do 1 listopada 2026 roku: benzyna 2,33 AUD/l i olej napędowy 2,77 AUD/l.",
         "rows": [
           {
             "label": "Benzyna",
@@ -19052,16 +19052,16 @@
     },
     "melbourne-to-canberra-drive": {
       "title": "Z Melbourne do Canberry 2026: Hume Highway, trasa alpejska i Monaro",
-      "description": "Z Melbourne do Canberry jest około 680 km i 8,5 godziny jazdy Hume Highway i Barton Highway. Porównanie tras, w tym alpejskiej i przez Monaro, postoje, kempingi, łańcuchy śnieżne i punkty zrzutu.",
+      "description": "Z Melbourne do Canberry jest około 650 km i 8 godzin jazdy Hume Highway i Barton Highway. Porównanie tras, w tym alpejskiej i przez Monaro, postoje, kempingi, łańcuchy śnieżne i punkty zrzutu.",
       "region": "Wiktoria, Nowa Południowa Walia i ACT",
       "imageAlt": "Dwujezdniowa Hume Highway między Gundagai a Goulburn, z ruchem na obu jezdniach i zielonymi wzgórzami w tle",
-      "intro": "Z Melbourne do Canberry jest około 680 km i 8 h 35 min jazdy Hume Highway do Yass i Barton Highway do Canberry, według wyliczeń OSRM. Dwie alternatywy, przez Góry Śnieżne (Snowy Mountains) albo Monaro Highway od południowego wybrzeża, wydłużają trasę o mniej więcej 70 do 170 km i są dla tych, którzy chcą zobaczyć góry lub wybrzeże.",
+      "intro": "Z Melbourne do Canberry jest około 652 km i 7 h 53 min jazdy Hume Highway do Yass i Barton Highway do Canberry, według wyliczeń OSRM. Dwie alternatywy, przez Góry Śnieżne (Snowy Mountains) albo Monaro Highway od południowego wybrzeża, wydłużają trasę o mniej więcej 80 do 100 km i są dla tych, którzy chcą zobaczyć góry lub wybrzeże.",
       "sections": [
         {
           "heading": "Trasy z Melbourne do Canberry w porównaniu",
           "body": [
             "Standardowa trasa prowadzi Hume Highway przez Seymour, Euroa, Benalla, Wangaratta, Albury, Holbrook, Gundagai i Yass, a potem Barton Highway (A25) do ACT. Według Wikipedii Hume Highway jest drogą dwujezdniową na całej długości od 7 sierpnia 2013, z limitem 110 km/h, a Barton Highway ma 52 km od Yass do Lyneham, z czego tylko około 6 km w odcinku w <a data-guide=\"camping-rules-new-south-wales\">Nowej Południowej Walii</a> jest dwujezdniowe.",
-            "Trasa alpejska odchodzi od Hume w Albury, prowadzi Murray Valley Highway do Corryong, przecina Góry Śnieżne drogą Alpine Way z Khancoban do Jindabyne, a potem biegnie przez Cooma i Monaro Highway do Canberry. Trasa przez Monaro prowadzi Princes Highway z Melbourne do Cann River, a potem Monaro Highway przez Bombala i Cooma. Odległości i czasy pochodzą z wyliczeń OSRM na danych OpenStreetMap, obliczonych 21 października 2026 dla samochodu osobowego bez postojów. Łączną długość trasy alpejskiej wyprowadzono z odcinków OSRM i długości Alpine Way z Wikipedii, więc nie jest to wynik wyznaczenia trasy."
+            "Trasa alpejska odchodzi od Hume w Albury, prowadzi Murray Valley Highway do Corryong, przecina Góry Śnieżne drogą Alpine Way z Khancoban do Jindabyne, a potem biegnie przez Cooma i Monaro Highway do Canberry. Trasa przez Monaro prowadzi Princes Highway z Melbourne do Cann River, a potem Monaro Highway przez Bombala i Cooma. Odległości i czasy pochodzą z wyliczeń OSRM na danych OpenStreetMap, obliczonych 3 listopada 2026 dla samochodu osobowego bez postojów. Łączną długość trasy alpejskiej wyprowadzono z odcinków OSRM i długości Alpine Way z Wikipedii, więc nie jest to wynik wyznaczenia trasy."
           ],
           "tips": [
             "Hume: najszybciej, droga dwujezdniowa do Yass",
@@ -19069,7 +19069,7 @@
             "Monaro: droga wzdłuż wybrzeża, a potem płaskowyż"
           ],
           "table": {
-            "caption": "Z Melbourne do Canberry samochodem, wyliczenia OSRM z 21 października 2026 (łączna długość trasy alpejskiej wyprowadzona).",
+            "caption": "Z Melbourne do Canberry samochodem, wyliczenia OSRM z 3 listopada 2026 (łączna długość trasy alpejskiej wyprowadzona).",
             "head": [
               "Trasa",
               "Odległość",
@@ -19080,8 +19080,8 @@
             "rows": [
               [
                 "Hume Highway, a potem Barton Highway",
-                "Około 680 km",
-                "Około 8 h 35 min",
+                "Około 652 km",
+                "Około 7 h 53 min",
                 "Droga dwujezdniowa do Yass, dalej głównie jednojezdniowa",
                 "Najszybsza jazda, w jeden dzień albo z noclegiem w Albury"
               ],
@@ -19094,8 +19094,8 @@
               ],
               [
                 "Princes Highway do Cann River, a potem Monaro Highway",
-                "Około 747 km",
-                "Około 10 h 35 min",
+                "Około 735 km",
+                "Około 9 h 46 min",
                 "Głównie droga jednojezdniowa",
                 "Jazda południowo-wschodnim wybrzeżem i płaskowyżem"
               ]
@@ -19105,13 +19105,13 @@
         {
           "heading": "Trasa przez Hume w jeden lub dwa dni",
           "body": [
-            "Według OSRM z Melbourne do Albury jest około 315 km (3 h 53 min), a z Albury do Canberry około 353 km (4 h 23 min), przez Holbrook około 63 km, Gundagai około 115 km dalej, Yass około 107 km za nim i Canberrę około 68 km dalej. Jeśli dzielisz jazdę na dwa dni, zwykle nocuje się w Albury. BIG4 Albury Tourist Park leży przy Wagga Road w Lavington, Albury Central Tourist Park przy North Street, a Discovery Parks Lake Hume jest około 15 minut stąd. Dostępność potwierdź w parku.",
+            "Według OSRM z Melbourne do Albury jest około 317 km (3 h 53 min), a z Albury do Canberry około 339 km (4 h 6 min), przez Holbrook około 62 km, Gundagai około 118 km dalej, Yass około 101 km za nim i Canberrę około 60 km dalej. Jeśli dzielisz jazdę na dwa dni, zwykle nocuje się w Albury. BIG4 Albury Tourist Park leży przy Wagga Road w Lavington, Albury Central Tourist Park przy North Street, a Discovery Parks Lake Hume jest około 15 minut stąd. Dostępność potwierdź w parku.",
             "Dalej Gundagai Cabins and Tourist Park jest pod adresem 1 Nangus Road, a VisitNSW opisuje go jako dobry na postój na Hume Highway. <a data-guide=\"caravan-park-vs-holiday-park\">Caravan park</a> w Yass jest około pięć minut od Hume po północnej stronie miasta, z domkami, polem kempingowym i miejscami przelotowymi dla przyczep. Dane AussieCamps wymieniają wiktoriańskie miejsca odpoczynku (rest area) przy Hume w Mangalore, Avenel, Benalla, Winton, Glenrowan, Wangaratta South i Chiltern, z toaletami, stołami piknikowymi, grillami i miejscem dla pojazdów ciężkich, a w większości także z wodą pitną. Dla odcinka w Nowej Południowej Walii nie wymieniają żadnego, co jest luką w danych. Miejsca odpoczynku traktuj jako miejsce na przerwę: Wiktoria nie ma ogólnostanowego limitu noclegów w sprawdzonych źródłach, a władze lokalne mogą zakazać nocowania."
           ],
           "tips": [
-            "Albury około 315 km",
-            "Gundagai około 493 km",
-            "Yass około 600 km"
+            "Albury około 317 km",
+            "Gundagai około 492 km",
+            "Yass około 592 km"
           ]
         },
         {
@@ -19197,7 +19197,7 @@
       "faq": [
         [
           "Ile trwa jazda z Melbourne do Canberry?",
-          "Około 680 km i 8 h 35 min jazdy Hume Highway i Barton Highway, według wyliczeń OSRM na danych OpenStreetMap. Większość kierowców pokonuje tę trasę w jeden długi dzień, a Albury to zwykłe miejsce, by podzielić ją na dwa."
+          "Około 652 km i 7 h 53 min jazdy Hume Highway i Barton Highway, według wyliczeń OSRM na danych OpenStreetMap. Większość kierowców pokonuje tę trasę w jeden długi dzień, a Albury to zwykłe miejsce, by podzielić ją na dwa."
         ],
         [
           "Czy Hume Highway jest w całości dwujezdniowa?",
@@ -19214,7 +19214,7 @@
       ],
       "sources": [
         {
-          "label": "OSRM routing na danych OpenStreetMap (Melbourne–Canberra, obliczone 21 października 2026)"
+          "label": "OSRM routing na danych OpenStreetMap (Melbourne–Canberra, obliczone 3 listopada 2026)"
         },
         {
           "label": "Wikipedia: Hume Highway"
@@ -19465,15 +19465,15 @@
     },
     "darwin-to-alice-springs-drive": {
       "title": "Z Darwin do Alice Springs 2026: Stuart Highway, postoje, paliwo i kontrola owoców",
-      "description": "Z Darwin do Alice Springs jest około 1 500 km i 16 godzin jazdy Stuart Highway. Postoje dzień po dniu, miejsca odpoczynku, paliwo, zamknięcia w porze deszczowej, limity prędkości, zakaz wwozu owoców i punkty zrzutu.",
+      "description": "Z Darwin do Alice Springs jest około 1 500 km i 15 godzin jazdy Stuart Highway. Postoje dzień po dniu, miejsca odpoczynku, paliwo, zamknięcia w porze deszczowej, limity prędkości, zakaz wwozu owoców i punkty zrzutu.",
       "region": "Terytorium Północne",
       "imageAlt": "Pęknięty granitowy głaz w rezerwacie Karlu Karlu (Devils Marbles) na Terytorium Północnym, a za nim kolejne pomarańczowe głazy",
-      "intro": "Z Darwin do Alice Springs jest około 1 500 km, a według wyznaczania trasy OSRM 1 525 km i 16 h 26 min jazdy. Prowadzi tędy jedna droga: Stuart Highway przez Katherine, Daly Waters, Tennant Creek i Karlu Karlu. Zaplanuj cztery dni, przed każdym odcinkiem sprawdź Road Report NT i przeczytaj zasady dotyczące owoców, bo na tej trasie obowiązują ograniczenia w przewozie świeżych produktów.",
+      "intro": "Z Darwin do Alice Springs jest około 1 500 km, a według wyznaczania trasy OSRM 1 492 km i 15 h 12 min jazdy. Prowadzi tędy jedna droga: Stuart Highway przez Katherine, Daly Waters, Tennant Creek i Karlu Karlu. Zaplanuj cztery dni, przed każdym odcinkiem sprawdź Road Report NT i przeczytaj zasady dotyczące owoców, bo na tej trasie obowiązują ograniczenia w przewozie świeżych produktów.",
       "sections": [
         {
           "heading": "Jedna droga: Stuart Highway",
           "body": [
-            "Między Darwin a Alice Springs jest tylko jedna realna asfaltowa trasa, czyli Stuart Highway, którą Tourism NT nazywa Explorers Way. Prowadzi przez Adelaide River, Pine Creek, Katherine, Mataranka, Daly Waters, Elliott, Tennant Creek, Karlu Karlu (Devils Marbles), Barrow Creek i Ti Tree. Wikipedia podaje 1 499 km z Darwin do Alice Springs, a wyznaczanie trasy OSRM na danych OpenStreetMap, obliczone 21 października 2026 dla samochodu bez postojów, daje 1 525 km, więc bezpiecznie przyjąć około 1 500 km.",
+            "Między Darwin a Alice Springs jest tylko jedna realna asfaltowa trasa, czyli Stuart Highway, którą Tourism NT nazywa Explorers Way. Prowadzi przez Adelaide River, Pine Creek, Katherine, Mataranka, Daly Waters, Elliott, Tennant Creek, Karlu Karlu (Devils Marbles), Barrow Creek i Ti Tree. Wikipedia podaje 1 499 km z Darwin do Alice Springs, a wyznaczanie trasy OSRM na danych OpenStreetMap, obliczone 3 listopada 2026 dla samochodu bez postojów, daje 1 492 km, więc bezpiecznie przyjąć około 1 500 km.",
             "Objazdy to Kakadu, Nitmiluk (Katherine Gorge) w Katherine oraz Litchfield, które obejmuje trasa Darwin, Kakadu i Litchfield. Za Alice Springs dalszą drogę opisują Red Centre Way i road trip z Adelaidy do Uluru."
           ],
           "tips": [
@@ -19482,7 +19482,7 @@
             "Dalej: Czerwone Centrum"
           ],
           "table": {
-            "caption": "Z Darwin do Alice Springs Stuart Highway, wyznaczanie trasy OSRM obliczone 21 października 2026, z odległościami odcinków według Tourism NT tam, gdzie są dostępne.",
+            "caption": "Z Darwin do Alice Springs Stuart Highway, wyznaczanie trasy OSRM obliczone 3 listopada 2026, z odległościami odcinków według Tourism NT tam, gdzie są dostępne.",
             "head": [
               "Odcinek",
               "Odległość",
@@ -19492,12 +19492,12 @@
               [
                 "Z Darwin do Adelaide River",
                 "Około 112 km",
-                "Około 1 h 20 min"
+                "Około 1 h 21 min"
               ],
               [
                 "Z Adelaide River do Katherine",
-                "Około 204 km",
-                "Około 2 h 9 min"
+                "Około 203 km",
+                "Około 2 h 5 min"
               ],
               [
                 "Z Katherine do Mataranka",
@@ -19507,17 +19507,17 @@
               [
                 "Z Mataranka do Daly Waters",
                 "Około 168 km",
-                "Około 1 h 43 min"
+                "Około 1 h 42 min"
               ],
               [
                 "Z Daly Waters do Elliott",
-                "Około 155 km",
-                "Około 1 h 40 min"
+                "Około 152 km",
+                "Około 1 h 31 min"
               ],
               [
                 "Z Elliott do Tennant Creek",
                 "Około 254 km",
-                "Około 2 h 34 min"
+                "Około 2 h 32 min"
               ],
               [
                 "Z Tennant Creek do Karlu Karlu",
@@ -19526,13 +19526,13 @@
               ],
               [
                 "Z Karlu Karlu do Barrow Creek",
-                "Około 140 km",
-                "Około 1 h 57 min"
+                "Około 120 km",
+                "Około 1 h 10 min"
               ],
               [
                 "Z Barrow Creek do Alice Springs",
                 "Około 282 km",
-                "Około 2 h 50 min"
+                "Około 2 h 51 min"
               ]
             ]
           }
@@ -19540,13 +19540,13 @@
         {
           "heading": "Cztery dni na Stuart Highway",
           "body": [
-            "Według OSRM podział na cztery dni wygląda tak: z Darwin do Katherine około 316 km (3 h 29 min), z Katherine do Daly Waters około 274 km (2 h 50 min), z Daly Waters do Tennant Creek około 409 km (4 h 14 min) i z Tennant Creek do Alice Springs około 526 km (5 h 50 min, przez Karlu Karlu). W planach podróży Tourism NT odległość z Katherine do Darwin wynosi 316 km, z Mataranka do Katherine 106 km, z Daly Waters do Mataranka 167 km, a z Alice Springs do Tennant Creek 510 km, co z OSRM zgadza się z dokładnością do kilku kilometrów.",
+            "Według OSRM podział na cztery dni wygląda tak: z Darwin do Katherine około 315 km (3 h 26 min), z Katherine do Daly Waters około 273 km (2 h 48 min), z Daly Waters do Tennant Creek około 405 km (4 h 4 min) i z Tennant Creek do Alice Springs około 506 km (5 h 3 min, przez Karlu Karlu). W planach podróży Tourism NT odległość z Katherine do Darwin wynosi 315 km, z Mataranka do Katherine 106 km, z Daly Waters do Mataranka 167 km, a z Alice Springs do Tennant Creek 510 km, co z OSRM zgadza się z dokładnością do kilku kilometrów.",
             "Katherine to baza wypadowa do Nitmiluk. W Mataranka według NT Parks basen termalny w Elsey National Park ma przez cały rok stałe 34 stopnie, a wstęp wymaga NT Parks Visitor Pass, który trzeba kupić przed przyjazdem (mieszkańcy NT są z tego zwolnieni). W Daly Waters Tourism NT opisuje Daly Waters Historic Pub jako miejsce, gdzie można zjeść, napić się i przenocować, z kempingiem, miejscami z prądem, namiotami safari i domkami. Nie udało się potwierdzić nazw <a data-guide=\"caravan-park-vs-holiday-park\">caravan parków</a> w Katherine, Mataranka i Tennant Creek, więc zarezerwuj miejsce z wyprzedzeniem telefonicznie."
           ],
           "tips": [
             "Katherine około 316 km",
-            "Daly Waters około 590 km",
-            "Tennant Creek około 1 000 km"
+            "Daly Waters około 588 km",
+            "Tennant Creek około 993 km"
           ]
         },
         {
@@ -19638,7 +19638,7 @@
       "faq": [
         [
           "Ile jest z Darwin do Alice Springs?",
-          "Około 1 500 km, czyli według wyznaczania trasy OSRM na danych OpenStreetMap 1 525 km i 16 h 26 min jazdy, cały czas Stuart Highway. Większość osób jedzie cztery dni, z noclegami w Katherine, Daly Waters i Tennant Creek."
+          "Około 1 500 km, czyli według wyznaczania trasy OSRM na danych OpenStreetMap 1 492 km i 15 h 12 min jazdy, cały czas Stuart Highway. Większość osób jedzie cztery dni, z noclegami w Katherine, Daly Waters i Tennant Creek."
         ],
         [
           "Jaki jest limit prędkości na Stuart Highway?",
@@ -19655,7 +19655,7 @@
       ],
       "sources": [
         {
-          "label": "Wyznaczanie trasy OSRM na danych OpenStreetMap (Darwin do Alice Springs, obliczone 21 października 2026)"
+          "label": "Wyznaczanie trasy OSRM na danych OpenStreetMap (Darwin do Alice Springs, obliczone 3 listopada 2026)"
         },
         {
           "label": "Tourism NT: informacje o bezpieczeństwie na drodze"
@@ -23026,7 +23026,7 @@
         {
           "heading": "Paliwo: pozycja, która zmienia się najbardziej",
           "body": [
-            "Strona rządowego Fuel Plan pokazywała 14 października 2026 średnie ceny detaliczne w pięciu największych miastach: około 2,41 AUD za litr benzyny i 2,80 AUD za diesla. Cotygodniowy raport NRMA dla Sydney z 19 października pokazywał zwykłą benzynę bezołowiową (regular unleaded) po 239,8 centa i diesla po 280,1 centa. Przykłady w poradniku o <a data-guide=\"australia-road-trip-fuel-cost-2026\">kosztach paliwa</a> opierają się na wzorcu z 5 sierpnia 2026, więc przy porównywaniu używaj tu podanych dat.",
+            "Strona rządowego Fuel Plan pokazywała 14 października 2026 średnie ceny detaliczne w pięciu największych miastach: około 2,41 AUD za litr benzyny i 2,80 AUD za diesla. Cotygodniowy raport NRMA dla Sydney z 19 października pokazywał zwykłą benzynę bezołowiową (regular unleaded) po 239,8 centa i diesla po 280,1 centa. Przykłady w poradniku o <a data-guide=\"australia-road-trip-fuel-cost-2026\">kosztach paliwa</a> opierają się na średnich Australian Institute of Petroleum z tygodnia do 1 listopada 2026, więc przy porównywaniu używaj tu podanych dat.",
             "Większe znaczenie ma dystans niż cena. Połowa kilometrów to połowa rachunku, a roadhousy na odludziu liczą więcej niż miejskie średnie."
           ],
           "tips": [

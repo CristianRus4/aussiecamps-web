@@ -15,7 +15,7 @@ export const uiStrings = {
   metaDescription: "Find 74,000+ campgrounds, caravan parks, free camps, rest areas and dump points across Australia. Offline place details, sharp filters and a stop-by-stop road trip planner for iPhone.",
   ogTitle: "AussieCamps: the camping map and road trip planner for Australia",
   ogDescription: "74,000+ campgrounds, caravan parks, free camps and useful stops, bundled offline. Filter, save and plan the whole lap.",
-  metaKeywords: "camping app Australia, free camping Australia, campgrounds Australia, caravan parks Australia, offline camping map Australia, big lap app, dump points Australia, rest areas Australia, road trip planner Australia",
+  metaKeywords: "camping app Australia, free camping Australia, campgrounds Australia, caravan parks Australia, big lap app, dump points Australia, rest areas Australia, road trip planner Australia",
   metaGuidesTitle: "Australian camping and road trip guides",
   metaGuidesDescription: "Camping rules by state, free camping and rest area limits, fire bans, road safety, seasonal timing, real costs and practical planning for an Australian road trip.",
   metaToolsTitle: "Australia road trip calculators",

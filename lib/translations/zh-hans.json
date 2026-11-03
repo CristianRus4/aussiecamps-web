@@ -8332,10 +8332,10 @@
     },
     "australia-road-trip-fuel-cost-2026": {
       "title": "2026 澳洲自驾油费：油价和油钱怎么算",
-      "description": "按里程和油耗算汽油或柴油要花多少钱，参考官方最新的城市基准油价，再给偏远路段留出余量。",
+      "description": "用距离和油耗算出汽油或柴油费用，以当前城市平均油价为基础，再为偏远路段留出余量。",
       "region": "澳洲",
       "imageAlt": "澳洲自驾途中给车加油",
-      "intro": "开多远，最后都要落到油钱上。官方 Fuel Plan 数据显示，2026年8月5日澳洲五大城市的平均油价为汽油每升 A$2.08、柴油每升 A$2.47，偏远地区的油价可能明显更高。",
+      "intro": "油费是距离变成钱的地方。据 Australian Institute of Petroleum 数据，截至 2026 年 11 月 1 日的一周，五大城市平均油价为汽油每升 2.33 澳元、柴油每升 2.77 澳元，偏远地区可能贵得多。",
       "sections": [
         {
           "heading": "油费怎么算",
@@ -8348,7 +8348,7 @@
         {
           "heading": "首府均价不等于偏远油价",
           "body": [
-            "官方的城市基准价公开透明，适合当计算起点。偏远地区的公路驿站（roadhouse）经营成本不同，而且太重要了，别只为了前面可能便宜点就过站不加。",
+            "城市平均油价是一个清楚透明的起点。偏远地区的公路驿站（roadhouse）经营成本不同，而且太重要了，别只为了前面可能便宜点就过站不加。",
             "加油宁多勿少，心里要清楚下一个靠得住的加油点在哪，加油站点也要排进行程计划。"
           ],
           "tips": [
@@ -8430,7 +8430,7 @@
       ],
       "sources": [
         {
-          "label": "澳大利亚政府 Fuel Plan 统计数据"
+          "label": "Australian Institute of Petroleum：每周汽油和柴油价格"
         },
         {
           "label": "澳大利亚竞争与消费者委员会（ACCC）：每周油价监测"
@@ -8440,7 +8440,7 @@
         }
       ],
       "priceTable": {
-        "note": "按 Fuel Plan 公布的 2026年8月5日五大城市均价计算：汽油 A$2.08/L，柴油 A$2.47/L。",
+        "note": "按 Australian Institute of Petroleum 截至 2026 年 11 月 1 日一周的五大城市均价计算：汽油 A$2.33/升，柴油 A$2.77/升。",
         "rows": [
           {
             "label": "汽油",
@@ -18737,16 +18737,16 @@
     },
     "melbourne-to-canberra-drive": {
       "title": "墨尔本到堪培拉自驾 2026：Hume Highway、高山与 Monaro 路线",
-      "description": "墨尔本到堪培拉走 Hume Highway 和 Barton Highway 约 680 公里、8.5 小时。对比高山和 Monaro 路线，并列出中途停留、营地、防滑链和排污站。",
+      "description": "墨尔本到堪培拉走 Hume Highway 和 Barton Highway 约 650 公里、8 小时。对比高山和 Monaro 路线，并列出中途停留、营地、防滑链和排污站。",
       "region": "维多利亚州、新南威尔士州和首都领地",
       "imageAlt": "Gundagai 和 Goulburn 之间的双向分隔 Hume Highway，两侧车道都有车，背后是绿色山丘",
-      "intro": "墨尔本到堪培拉，按 OSRM 路线算，走 Hume Highway 到 Yass，再走 Barton Highway 进堪培拉，约 680 公里、开 8 小时 35 分钟。另外两条路，一条翻越 Snowy Mountains，一条从南海岸走 Monaro Highway，各多约 70 至 170 公里，适合想看山或想看海岸的人。",
+      "intro": "墨尔本到堪培拉，按 OSRM 路线算，走 Hume Highway 到 Yass，再走 Barton Highway 进堪培拉，约 652 公里、开 7 小时 53 分钟。另外两条路，一条翻越 Snowy Mountains，一条从南海岸走 Monaro Highway，各多约 80 至 100 公里，适合想看山或想看海岸的人。",
       "sections": [
         {
           "heading": "墨尔本到堪培拉路线对比",
           "body": [
             "标准路线是走 Hume Highway，经过 Seymour、Euroa、Benalla、Wangaratta、Albury、Holbrook、Gundagai 和 Yass，再转 Barton Highway（A25）进首都领地。据 Wikipedia，Hume Highway 自 2013年8月7日起全程都是双向分隔公路，限速 110 公里/小时；Barton Highway 从 Yass 到 Lyneham 全长 52 公里，其<a data-guide=\"camping-rules-new-south-wales\">新南威尔士州</a>路段只有约 6 公里是双向分隔公路。",
-            "高山路线在 Albury 离开 Hume，沿 Murray Valley Highway 到 Corryong，再走 Alpine Way 从 Khancoban 翻过 Snowy Mountains 到 Jindabyne，然后经 Cooma，沿 Monaro Highway 到堪培拉。Monaro 路线则是从墨尔本走 Princes Highway 到 Cann River，再走 Monaro Highway，经过 Bombala 和 Cooma。距离和时间来自基于 OpenStreetMap 数据的 OSRM 路线计算，计算日期为 2026年10月21日，按小汽车、中途不停车算。高山路线的总数是用 OSRM 分段加上 Wikipedia 给出的 Alpine Way 长度推算的，不是路线计算的结果。"
+            "高山路线在 Albury 离开 Hume，沿 Murray Valley Highway 到 Corryong，再走 Alpine Way 从 Khancoban 翻过 Snowy Mountains 到 Jindabyne，然后经 Cooma，沿 Monaro Highway 到堪培拉。Monaro 路线则是从墨尔本走 Princes Highway 到 Cann River，再走 Monaro Highway，经过 Bombala 和 Cooma。距离和时间来自基于 OpenStreetMap 数据的 OSRM 路线计算，计算日期为 2026年11月3日，按小汽车、中途不停车算。高山路线的总数是用 OSRM 分段加上 Wikipedia 给出的 Alpine Way 长度推算的，不是路线计算的结果。"
           ],
           "tips": [
             "Hume：最快，到 Yass 为双向分隔公路",
@@ -18754,7 +18754,7 @@
             "Monaro：先走海岸，再上高原"
           ],
           "table": {
-            "caption": "墨尔本到堪培拉的公路路线，OSRM 路线计算于 2026年10月21日（高山路线总数为推算）。",
+            "caption": "墨尔本到堪培拉的公路路线，OSRM 路线计算于 2026年11月3日（高山路线总数为推算）。",
             "head": [
               "路线",
               "距离",
@@ -18765,8 +18765,8 @@
             "rows": [
               [
                 "Hume Highway，再接 Barton Highway",
-                "约 680 公里",
-                "约 8 小时 35 分钟",
+                "约 652 公里",
+                "约 7 小时 53 分钟",
                 "到 Yass 为双向分隔公路，之后多为单幅路",
                 "最快，一天开完，或在 Albury 住一晚"
               ],
@@ -18779,8 +18779,8 @@
               ],
               [
                 "Princes Highway 到 Cann River，再走 Monaro Highway",
-                "约 747 公里",
-                "约 10 小时 35 分钟",
+                "约 735 公里",
+                "约 9 小时 46 分钟",
                 "多为单幅路",
                 "东南海岸加高原自驾"
               ]
@@ -18790,13 +18790,13 @@
         {
           "heading": "Hume 路线：一天或两天",
           "body": [
-            "按 OSRM 路线算，墨尔本到 Albury 约 315 公里（3 小时 53 分钟），Albury 到堪培拉约 353 公里（4 小时 23 分钟），途中经过 Holbrook 约 63 公里，再走约 115 公里是 Gundagai，再约 107 公里是 Yass，最后约 68 公里到堪培拉。想分两天开的话，Albury 是常见的过夜点。BIG4 Albury Tourist Park 在 Lavington 的 Wagga Road，Albury Central Tourist Park 在 North Street，Discovery Parks Lake Hume 开车约 15 分钟。能不能订到位，要向营地确认。",
+            "按 OSRM 路线算，墨尔本到 Albury 约 317 公里（3 小时 53 分钟），Albury 到堪培拉约 339 公里（4 小时 6 分钟），途中经过 Holbrook 约 62 公里，再走约 118 公里是 Gundagai，再约 101 公里是 Yass，最后约 60 公里到堪培拉。想分两天开的话，Albury 是常见的过夜点。BIG4 Albury Tourist Park 在 Lavington 的 Wagga Road，Albury Central Tourist Park 在 North Street，Discovery Parks Lake Hume 开车约 15 分钟。能不能订到位，要向营地确认。",
             "再往前，Gundagai Cabins and Tourist Park 在 1 Nangus Road，VisitNSW 说它适合在 Hume Highway 上中途歇一晚。Yass <a data-guide=\"caravan-park-vs-holiday-park\">房车营地</a>离 Hume 约五分钟车程，在 Yass 北侧，有小木屋、露营位和可直进直出的房车营位。AussieCamps 数据里，维州一侧的 Hume 休息区有 Mangalore、Avenel、Benalla、Winton、Glenrowan、Wangaratta South 和 Chiltern，有厕所、野餐桌、烧烤架和重型车辆区，大多还有饮用水。新南威尔士州路段这里一个都没有列，这是数据的缺口。休息区只当歇脚的地方：所查资料里维州没有全州统一的过夜限制，但地方政府可以禁止过夜。"
           ],
           "tips": [
-            "Albury 约 315 公里",
-            "Gundagai 约 493 公里",
-            "Yass 约 600 公里"
+            "Albury 约 317 公里",
+            "Gundagai 约 492 公里",
+            "Yass 约 592 公里"
           ]
         },
         {
@@ -18882,7 +18882,7 @@
       "faq": [
         [
           "墨尔本到堪培拉开车要多久？",
-          "按基于 OpenStreetMap 数据的 OSRM 路线算，走 Hume Highway 和 Barton Highway 约 680 公里、开 8 小时 35 分钟。多数司机一天长途开完，想分成两天的话，Albury 是常见的中途落脚点。"
+          "按基于 OpenStreetMap 数据的 OSRM 路线算，走 Hume Highway 和 Barton Highway 约 652 公里、开 7 小时 53 分钟。多数司机一天长途开完，想分成两天的话，Albury 是常见的中途落脚点。"
         ],
         [
           "Hume Highway 全程都是双向分隔公路吗？",
@@ -18899,7 +18899,7 @@
       ],
       "sources": [
         {
-          "label": "OSRM 路线计算，基于 OpenStreetMap 数据（墨尔本到堪培拉，计算于 2026年10月21日）"
+          "label": "OSRM 路线计算，基于 OpenStreetMap 数据（墨尔本到堪培拉，计算于 2026年11月3日）"
         },
         {
           "label": "Wikipedia：Hume Highway"
@@ -19150,15 +19150,15 @@
     },
     "darwin-to-alice-springs-drive": {
       "title": "达尔文到爱丽丝泉自驾 2026：斯图尔特公路沿途停靠、加油与检疫",
-      "description": "达尔文到爱丽丝泉走斯图尔特公路，约 1,500 公里，开车 16 小时。分日行程、休息区、加油建议、雨季封路、限速、水果检疫规定和排污站。",
+      "description": "达尔文到爱丽丝泉走斯图尔特公路，约 1,500 公里，开车 15 小时。分日行程、休息区、加油建议、雨季封路、限速、水果检疫规定和排污站。",
       "region": "北领地",
       "imageAlt": "北领地 Karlu Karlu（Devils Marbles）保护区里一块裂开的花岗岩巨石，身后是其他橙色巨石",
-      "intro": "达尔文到爱丽丝泉约 1,500 公里，按 OSRM 路线计算是 1,525 公里、驾驶 16 小时 26 分钟，全程只有一条路：斯图尔特公路，沿途经过 Katherine、Daly Waters、Tennant Creek 和 Karlu Karlu。行程按四天安排，每段出发前先查 Road Report NT，还要看一下水果规定，因为这条路上有农产品限运。",
+      "intro": "达尔文到爱丽丝泉约 1,500 公里，按 OSRM 路线计算是 1,492 公里、驾驶 15 小时 12 分钟，全程只有一条路：斯图尔特公路，沿途经过 Katherine、Daly Waters、Tennant Creek 和 Karlu Karlu。行程按四天安排，每段出发前先查 Road Report NT，还要看一下水果规定，因为这条路上有农产品限运。",
       "sections": [
         {
           "heading": "只有一条路：斯图尔特公路",
           "body": [
-            "达尔文和爱丽丝泉之间，实际可走的铺装公路只有斯图尔特公路，北领地旅游局称之为 Explorers Way。路线依次经过 Adelaide River、Pine Creek、Katherine、Mataranka、Daly Waters、Elliott、Tennant Creek、Karlu Karlu（Devils Marbles）、Barrow Creek 和 Ti Tree。维基百科给出达尔文到爱丽丝泉的距离是 1,499 公里；2026年10月21日，用基于 OpenStreetMap 数据的 OSRM 路线为一辆不停车的小汽车计算，结果是 1,525 公里，所以说约 1,500 公里最稳妥。",
+            "达尔文和爱丽丝泉之间，实际可走的铺装公路只有斯图尔特公路，北领地旅游局称之为 Explorers Way。路线依次经过 Adelaide River、Pine Creek、Katherine、Mataranka、Daly Waters、Elliott、Tennant Creek、Karlu Karlu（Devils Marbles）、Barrow Creek 和 Ti Tree。维基百科给出达尔文到爱丽丝泉的距离是 1,499 公里；2026年11月3日，用基于 OpenStreetMap 数据的 OSRM 路线为一辆不停车的小汽车计算，结果是 1,492 公里，所以说约 1,500 公里最稳妥。",
             "沿途可以绕去的地方有卡卡杜（Kakadu）、Katherine 的 Nitmiluk（Katherine Gorge）和 Litchfield，这几处在达尔文、卡卡杜和 Litchfield 环线里都有介绍。过了爱丽丝泉，接下来的路线看红土中心之路和阿德莱德到乌鲁鲁的自驾攻略。"
           ],
           "tips": [
@@ -19167,7 +19167,7 @@
             "下一站：红土中心"
           ],
           "table": {
-            "caption": "达尔文到爱丽丝泉的斯图尔特公路路段，OSRM 路线于2026年10月21日计算，有北领地旅游局路段距离的地方一并列出。",
+            "caption": "达尔文到爱丽丝泉的斯图尔特公路路段，OSRM 路线于2026年11月3日计算，有北领地旅游局路段距离的地方一并列出。",
             "head": [
               "路段",
               "距离",
@@ -19177,12 +19177,12 @@
               [
                 "达尔文到 Adelaide River",
                 "约 112 公里",
-                "约 1 小时 20 分钟"
+                "约 1 小时 21 分钟"
               ],
               [
                 "Adelaide River 到 Katherine",
-                "约 204 公里",
-                "约 2 小时 9 分钟"
+                "约 203 公里",
+                "约 2 小时 5 分钟"
               ],
               [
                 "Katherine 到 Mataranka",
@@ -19192,17 +19192,17 @@
               [
                 "Mataranka 到 Daly Waters",
                 "约 168 公里",
-                "约 1 小时 43 分钟"
+                "约 1 小时 42 分钟"
               ],
               [
                 "Daly Waters 到 Elliott",
-                "约 155 公里",
-                "约 1 小时 40 分钟"
+                "约 152 公里",
+                "约 1 小时 31 分钟"
               ],
               [
                 "Elliott 到 Tennant Creek",
                 "约 254 公里",
-                "约 2 小时 34 分钟"
+                "约 2 小时 32 分钟"
               ],
               [
                 "Tennant Creek 到 Karlu Karlu",
@@ -19211,13 +19211,13 @@
               ],
               [
                 "Karlu Karlu 到 Barrow Creek",
-                "约 140 公里",
-                "约 1 小时 57 分钟"
+                "约 120 公里",
+                "约 1 小时 10 分钟"
               ],
               [
                 "Barrow Creek 到爱丽丝泉",
                 "约 282 公里",
-                "约 2 小时 50 分钟"
+                "约 2 小时 51 分钟"
               ]
             ]
           }
@@ -19225,13 +19225,13 @@
         {
           "heading": "斯图尔特公路四日行程",
           "body": [
-            "按 OSRM 计算，四天可以这样分：达尔文到 Katherine 约 316 公里（3 小时 29 分钟），Katherine 到 Daly Waters 约 274 公里（2 小时 50 分钟），Daly Waters 到 Tennant Creek 约 409 公里（4 小时 14 分钟），Tennant Creek 到爱丽丝泉约 526 公里（5 小时 50 分钟，途经 Karlu Karlu）。北领地旅游局的行程里，Katherine 到达尔文是 316 公里，Mataranka 到 Katherine 是 106 公里，Daly Waters 到 Mataranka 是 167 公里，爱丽丝泉到 Tennant Creek 是 510 公里，和 OSRM 的结果只差几公里。",
+            "按 OSRM 计算，四天可以这样分：达尔文到 Katherine 约 315 公里（3 小时 26 分钟），Katherine 到 Daly Waters 约 273 公里（2 小时 48 分钟），Daly Waters 到 Tennant Creek 约 405 公里（4 小时 4 分钟），Tennant Creek 到爱丽丝泉约 506 公里（5 小时 3 分钟，途经 Karlu Karlu）。北领地旅游局的行程里，Katherine 到达尔文是 315 公里，Mataranka 到 Katherine 是 106 公里，Daly Waters 到 Mataranka 是 167 公里，爱丽丝泉到 Tennant Creek 是 510 公里，和 OSRM 的结果只差几公里。",
             "Katherine 是去 Nitmiluk 的落脚点。到了 Mataranka，据北领地公园管理局（NT Parks）介绍，Elsey National Park 里的温泉池全年保持 34 度恒温，需要 NT Parks Visitor Pass，要在抵达前买好，北领地居民免办。到了 Daly Waters，北领地旅游局把 Daly Waters Historic Pub 描述为可以吃饭、喝酒、住宿的地方，有露营位、有电营位、帐篷屋和小木屋。Katherine、Mataranka 和 Tennant Creek 这几处具体的<a data-guide=\"caravan-park-vs-holiday-park\">房车营地</a>无法核实，所以请提前打电话预订。"
           ],
           "tips": [
             "Katherine 约 316 公里",
-            "Daly Waters 约 590 公里",
-            "Tennant Creek 约 1,000 公里"
+            "Daly Waters 约 588 公里",
+            "Tennant Creek 约 993 公里"
           ]
         },
         {
@@ -19323,7 +19323,7 @@
       "faq": [
         [
           "达尔文到爱丽丝泉有多远？",
-          "约 1,500 公里，按基于 OpenStreetMap 数据的 OSRM 路线计算是 1,525 公里、驾驶 16 小时 26 分钟，全程都在斯图尔特公路上。大多数人走四天，夜宿 Katherine、Daly Waters 和 Tennant Creek。"
+          "约 1,500 公里，按基于 OpenStreetMap 数据的 OSRM 路线计算是 1,492 公里、驾驶 15 小时 12 分钟，全程都在斯图尔特公路上。大多数人走四天，夜宿 Katherine、Daly Waters 和 Tennant Creek。"
         ],
         [
           "斯图尔特公路的限速是多少？",
@@ -19340,7 +19340,7 @@
       ],
       "sources": [
         {
-          "label": "基于 OpenStreetMap 数据的 OSRM 路线（达尔文到爱丽丝泉，2026年10月21日计算）"
+          "label": "基于 OpenStreetMap 数据的 OSRM 路线（达尔文到爱丽丝泉，2026年11月3日计算）"
         },
         {
           "label": "北领地旅游局：道路安全信息"
@@ -22711,7 +22711,7 @@
         {
           "heading": "油费：变动最大的一项",
           "body": [
-            "政府 Fuel Plan 页面显示，2026年10月14日五大城市的平均零售价，汽油约每升 $2.41，柴油 $2.80。NRMA 10月19日发布的悉尼周报显示，普通无铅汽油是 239.8 分，柴油是 280.1 分。<a data-guide=\"australia-road-trip-fuel-cost-2026\">油费</a>指南里的例子用的是2026年8月5日的基准价，所以对比时请以这里标明日期的数字为准。",
+            "政府 Fuel Plan 页面显示，2026年10月14日五大城市的平均零售价，汽油约每升 $2.41，柴油 $2.80。NRMA 10月19日发布的悉尼周报显示，普通无铅汽油是 239.8 分，柴油是 280.1 分。<a data-guide=\"australia-road-trip-fuel-cost-2026\">油费</a>指南里的例子用的是Australian Institute of Petroleum 截至 2026 年 11 月 1 日一周的均价，所以对比时请以这里标明日期的数字为准。",
             "里程比油价更关键。里程减半，油费就减半，而偏远地区的公路驿站比城市平均价贵。"
           ],
           "tips": [

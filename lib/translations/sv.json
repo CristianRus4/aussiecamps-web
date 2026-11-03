@@ -8344,10 +8344,10 @@
     },
     "australia-road-trip-fuel-cost-2026": {
       "title": "Bränslekostnader för roadtrip i Australien 2026",
-      "description": "Bränslekostnad i Australien: räkna ut bensin eller diesel från sträcka och förbrukning, med aktuella officiella stadspriser och marginal för avlägsna vägar.",
+      "description": "Räkna ut bensin eller diesel utifrån sträcka och förbrukning, med aktuella snittpriser i städerna och en marginal för avlägsna vägar.",
       "region": "Australien",
       "imageAlt": "Fordon som tankas under en roadtrip i Australien",
-      "intro": "Det är med bränslet som avstånd blir pengar. Enligt officiella data från Fuel Plan för 5 augusti 2026 låg genomsnittet för de fem största städerna på 2,08 AUD per liter för bensin och 2,47 AUD för diesel, medan priserna på avlägsna platser kan vara betydligt högre.",
+      "intro": "Det är vid pumpen som avstånd blir pengar. Veckan fram till 1 november 2026 låg snittet i de fem största städerna enligt Australian Institute of Petroleum på 2,33 AUD litern för bensin och 2,77 AUD för diesel, medan priserna i avlägsna områden kan vara betydligt högre.",
       "sections": [
         {
           "heading": "Beräkningen",
@@ -8360,7 +8360,7 @@
         {
           "heading": "Storstädernas snittpriser är inte priser på avlägsna platser",
           "body": [
-            "Det officiella riktvärdet för städerna är en tydlig utgångspunkt. Avlägsna roadhouses (mackar med café och ofta övernattning ute i outbacken) har andra kostnader och är för viktiga för att hoppa över bara för att jaga ett lägre pris längre fram.",
+            "Städernas snitt är en tydlig utgångspunkt. Avlägsna roadhouses (mackar med café och ofta övernattning ute i outbacken) har andra kostnader och är för viktiga för att hoppa över bara för att jaga ett lägre pris längre fram.",
             "Tanka i god tid, ta reda på var nästa pålitliga mack finns och ha med tankstoppen i resplanen."
           ],
           "tips": [
@@ -8442,7 +8442,7 @@
       ],
       "sources": [
         {
-          "label": "Australian Government: statistik från Fuel Plan"
+          "label": "Australian Institute of Petroleum: veckopriser på bensin och diesel"
         },
         {
           "label": "ACCC: veckovis övervakning av bränslepriser"
@@ -8452,7 +8452,7 @@
         }
       ],
       "priceTable": {
-        "note": "Beräknat på Fuel Plans genomsnitt för de fem största städerna den 5 augusti 2026: 2,08 AUD/l bensin och 2,47 AUD/l diesel.",
+        "note": "Beräknat från Australian Institute of Petroleums snitt för de fem största städerna veckan fram till 1 november 2026: bensin 2,33 AUD/l och diesel 2,77 AUD/l.",
         "rows": [
           {
             "label": "Bensin",
@@ -18749,16 +18749,16 @@
     },
     "melbourne-to-canberra-drive": {
       "title": "Melbourne till Canberra 2026: Hume Highway, alpina rutten och Monaro",
-      "description": "Melbourne till Canberra är ca 680 km och 8,5 timmar på Hume och Barton Highway. Rutterna jämförda med alpina och Monaro-alternativen, stopp, campingplatser, snökedjor och tömningsstationer.",
+      "description": "Melbourne till Canberra är ca 650 km och 8 timmar på Hume och Barton Highway. Rutterna jämförda med alpina och Monaro-alternativen, stopp, campingplatser, snökedjor och tömningsstationer.",
       "region": "Victoria, New South Wales och ACT",
       "imageAlt": "Hume Highway med mittbarriär mellan Gundagai och Goulburn, med trafik i båda riktningarna och gröna kullar bakom",
-      "intro": "Melbourne till Canberra är ca 680 km och 8 tim 35 min körning på Hume Highway till Yass och Barton Highway in till Canberra, enligt OSRM:s ruttberäkning. De två alternativen, över Snowy Mountains eller längs Monaro Highway från sydkusten, tillför ungefär 70 till 170 km och är till för dig som vill se bergen eller kusten.",
+      "intro": "Melbourne till Canberra är ca 652 km och 7 tim 53 min körning på Hume Highway till Yass och Barton Highway in till Canberra, enligt OSRM:s ruttberäkning. De två alternativen, över Snowy Mountains eller längs Monaro Highway från sydkusten, tillför ungefär 80 till 100 km och är till för dig som vill se bergen eller kusten.",
       "sections": [
         {
           "heading": "Rutterna från Melbourne till Canberra jämförda",
           "body": [
             "Standardrutten går på Hume Highway via Seymour, Euroa, Benalla, Wangaratta, Albury, Holbrook, Gundagai och Yass, och sedan på Barton Highway (A25) in i ACT. Enligt Wikipedia har Hume Highway varit motorväg med mittbarriär hela vägen sedan 7 augusti 2013, med hastighetsgräns 110 km/h, och Barton Highway är 52 km lång mellan Yass och Lyneham, där bara ca 6 km av sträckan i <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> har mittbarriär.",
-            "Den alpina rutten lämnar Hume vid Albury, följer Murray Valley Highway till Corryong, korsar Snowy Mountains på Alpine Way från Khancoban till Jindabyne och går sedan via Cooma och längs Monaro Highway till Canberra. Monaro-rutten följer Princes Highway från Melbourne till Cann River och sedan Monaro Highway via Bombala och Cooma. Avstånd och tider kommer från OSRM:s ruttberäkning på OpenStreetMap-data, beräknad den 21 oktober 2026 för en bil utan stopp. Totalsumman för den alpina rutten är härledd ur OSRM:s delsträckor plus Alpine Ways längd enligt Wikipedia, så det är inte en beräknad ruttsiffra."
+            "Den alpina rutten lämnar Hume vid Albury, följer Murray Valley Highway till Corryong, korsar Snowy Mountains på Alpine Way från Khancoban till Jindabyne och går sedan via Cooma och längs Monaro Highway till Canberra. Monaro-rutten följer Princes Highway från Melbourne till Cann River och sedan Monaro Highway via Bombala och Cooma. Avstånd och tider kommer från OSRM:s ruttberäkning på OpenStreetMap-data, beräknad den 3 november 2026 för en bil utan stopp. Totalsumman för den alpina rutten är härledd ur OSRM:s delsträckor plus Alpine Ways längd enligt Wikipedia, så det är inte en beräknad ruttsiffra."
           ],
           "tips": [
             "Hume: snabbast, motorväg till Yass",
@@ -18766,7 +18766,7 @@
             "Monaro: kustvägen, sedan högplatåerna"
           ],
           "table": {
-            "caption": "Melbourne till Canberra på väg, OSRM:s ruttberäkning gjord den 21 oktober 2026 (totalsumman för den alpina rutten är härledd).",
+            "caption": "Melbourne till Canberra på väg, OSRM:s ruttberäkning gjord den 3 november 2026 (totalsumman för den alpina rutten är härledd).",
             "head": [
               "Rutt",
               "Avstånd",
@@ -18777,8 +18777,8 @@
             "rows": [
               [
                 "Hume Highway och sedan Barton Highway",
-                "Ca 680 km",
-                "Ca 8 tim 35 min",
+                "Ca 652 km",
+                "Ca 7 tim 53 min",
                 "Motorväg till Yass, sedan mest väg utan mittbarriär",
                 "Den snabbaste körningen, på en dag eller med en natt i Albury"
               ],
@@ -18791,8 +18791,8 @@
               ],
               [
                 "Princes Highway till Cann River och sedan Monaro Highway",
-                "Ca 747 km",
-                "Ca 10 tim 35 min",
+                "Ca 735 km",
+                "Ca 9 tim 46 min",
                 "Mest väg utan mittbarriär",
                 "En körning längs sydöstra kusten och över högplatåerna"
               ]
@@ -18802,13 +18802,13 @@
         {
           "heading": "Hume-rutten på en eller två dagar",
           "body": [
-            "Enligt OSRM:s ruttberäkning är Melbourne till Albury ca 315 km (3 tim 53 min) och Albury till Canberra ca 353 km (4 tim 23 min), via Holbrook ca 63 km, Gundagai ca 115 km längre fram, Yass ca 107 km efter det och Canberra ca 68 km vidare. Om du delar upp körningen är Albury den vanliga övernattningsorten. BIG4 Albury Tourist Park ligger på Wagga Road i Lavington, Albury Central Tourist Park på North Street och Discovery Parks Lake Hume ca 15 minuter bort. Kolla tillgången med parken.",
+            "Enligt OSRM:s ruttberäkning är Melbourne till Albury ca 317 km (3 tim 53 min) och Albury till Canberra ca 339 km (4 tim 6 min), via Holbrook ca 62 km, Gundagai ca 118 km längre fram, Yass ca 101 km efter det och Canberra ca 60 km vidare. Om du delar upp körningen är Albury den vanliga övernattningsorten. BIG4 Albury Tourist Park ligger på Wagga Road i Lavington, Albury Central Tourist Park på North Street och Discovery Parks Lake Hume ca 15 minuter bort. Kolla tillgången med parken.",
             "Längre fram ligger Gundagai Cabins and Tourist Park på 1 Nangus Road, och VisitNSW beskriver den som lämplig för ett stopp på Hume Highway. Yass <a data-guide=\"caravan-park-vs-holiday-park\">Caravan Park</a> ligger ca fem minuter från Hume på norra sidan av Yass, med stugor, tältplatser och genomfartsplatser för husvagn. AussieCamps-data upptar rastplatser på Hume i Victoria vid Mangalore, Avenel, Benalla, Winton, Glenrowan, Wangaratta South och Chiltern, med toaletter, picknickbord, grillplatser och en yta för tunga fordon, och för det mesta dricksvatten. Inga rastplatser finns angivna för sträckan i New South Wales, vilket är en lucka i datan. Se rastplatser som en plats för en paus: Victoria har ingen delstatsövergripande gräns för övernattning i de källor som granskats, och kommunerna kan förbjuda övernattning."
           ],
           "tips": [
-            "Albury ca 315 km",
-            "Gundagai ca 493 km",
-            "Yass ca 600 km"
+            "Albury ca 317 km",
+            "Gundagai ca 492 km",
+            "Yass ca 592 km"
           ]
         },
         {
@@ -18894,7 +18894,7 @@
       "faq": [
         [
           "Hur lång tid tar det att köra från Melbourne till Canberra?",
-          "Ca 680 km och 8 tim 35 min körning på Hume Highway och Barton Highway, enligt OSRM:s ruttberäkning på OpenStreetMap-data. De flesta kör det på en lång dag, och Albury är den vanliga platsen att dela upp resan på."
+          "Ca 652 km och 7 tim 53 min körning på Hume Highway och Barton Highway, enligt OSRM:s ruttberäkning på OpenStreetMap-data. De flesta kör det på en lång dag, och Albury är den vanliga platsen att dela upp resan på."
         ],
         [
           "Är hela Hume Highway motorväg med mittbarriär?",
@@ -18911,7 +18911,7 @@
       ],
       "sources": [
         {
-          "label": "OSRM routing on OpenStreetMap data (Melbourne to Canberra, computed 21 October 2026)"
+          "label": "OSRM routing on OpenStreetMap data (Melbourne to Canberra, checked 3 November 2026)"
         },
         {
           "label": "Wikipedia: Hume Highway"
@@ -19162,15 +19162,15 @@
     },
     "darwin-to-alice-springs-drive": {
       "title": "Darwin till Alice Springs 2026: Stuart Highway, bränsle, karantän",
-      "description": "Darwin till Alice Springs är ca 1 500 km och 16 timmar på Stuart Highway. Etapper dag för dag, rastplatser, bränsle, avstängningar under regnperioden, hastighetsgränser, fruktregler och tömningsstationer.",
+      "description": "Darwin till Alice Springs är ca 1 500 km och 15 timmar på Stuart Highway. Etapper dag för dag, rastplatser, bränsle, avstängningar under regnperioden, hastighetsgränser, fruktregler och tömningsstationer.",
       "region": "Northern Territory",
       "imageAlt": "En kluven granitblock vid Karlu Karlu (Devils Marbles) Conservation Reserve i Northern Territory, med andra orangea block bakom",
-      "intro": "Darwin till Alice Springs är ca 1 500 km, eller 1 525 km och 16 h 26 min bakom ratten enligt OSRM, och det finns bara en väg: Stuart Highway via Katherine, Daly Waters, Tennant Creek och Karlu Karlu. Räkna med fyra dagar, kolla Road Report NT före varje etapp och läs reglerna för frukt, för på den här sträckan gäller restriktioner för grönsaker och frukt.",
+      "intro": "Darwin till Alice Springs är ca 1 500 km, eller 1 492 km och 15 h 12 min bakom ratten enligt OSRM, och det finns bara en väg: Stuart Highway via Katherine, Daly Waters, Tennant Creek och Karlu Karlu. Räkna med fyra dagar, kolla Road Report NT före varje etapp och läs reglerna för frukt, för på den här sträckan gäller restriktioner för grönsaker och frukt.",
       "sections": [
         {
           "heading": "En enda väg: Stuart Highway",
           "body": [
-            "Det finns bara en rimlig asfalterad väg mellan Darwin och Alice Springs: Stuart Highway, som Tourism NT kallar Explorers Way. Den går genom Adelaide River, Pine Creek, Katherine, Mataranka, Daly Waters, Elliott, Tennant Creek, Karlu Karlu (Devils Marbles), Barrow Creek och Ti Tree. Wikipedia anger 1 499 km från Darwin till Alice Springs, och OSRM, som räknar på OpenStreetMap-data och som beräknades den 21 oktober 2026 för en bil utan stopp, ger 1 525 km. Ca 1 500 km är alltså en säker siffra.",
+            "Det finns bara en rimlig asfalterad väg mellan Darwin och Alice Springs: Stuart Highway, som Tourism NT kallar Explorers Way. Den går genom Adelaide River, Pine Creek, Katherine, Mataranka, Daly Waters, Elliott, Tennant Creek, Karlu Karlu (Devils Marbles), Barrow Creek och Ti Tree. Wikipedia anger 1 499 km från Darwin till Alice Springs, och OSRM, som räknar på OpenStreetMap-data och som beräknades den 3 november 2026 för en bil utan stopp, ger 1 492 km. Ca 1 500 km är alltså en säker siffra.",
             "Avstickarna är Kakadu, Nitmiluk (Katherine Gorge) vid Katherine och Litchfield, som rundturen Darwin, Kakadu och Litchfield tar upp. Efter Alice Springs fortsätter Red Centre Way och roadtripen Adelaide till Uluru."
           ],
           "tips": [
@@ -19179,7 +19179,7 @@
             "Nästa etapp: Red Centre"
           ],
           "table": {
-            "caption": "Darwin till Alice Springs på Stuart Highway, OSRM-beräkning gjord den 21 oktober 2026, med Tourism NT:s etappavstånd där sådana finns.",
+            "caption": "Darwin till Alice Springs på Stuart Highway, OSRM-beräkning gjord den 3 november 2026, med Tourism NT:s etappavstånd där sådana finns.",
             "head": [
               "Etapp",
               "Avstånd",
@@ -19189,12 +19189,12 @@
               [
                 "Darwin till Adelaide River",
                 "Ca 112 km",
-                "Ca 1 h 20 min"
+                "Ca 1 h 21 min"
               ],
               [
                 "Adelaide River till Katherine",
-                "Ca 204 km",
-                "Ca 2 h 9 min"
+                "Ca 203 km",
+                "Ca 2 h 5 min"
               ],
               [
                 "Katherine till Mataranka",
@@ -19204,17 +19204,17 @@
               [
                 "Mataranka till Daly Waters",
                 "Ca 168 km",
-                "Ca 1 h 43 min"
+                "Ca 1 h 42 min"
               ],
               [
                 "Daly Waters till Elliott",
-                "Ca 155 km",
-                "Ca 1 h 40 min"
+                "Ca 152 km",
+                "Ca 1 h 31 min"
               ],
               [
                 "Elliott till Tennant Creek",
                 "Ca 254 km",
-                "Ca 2 h 34 min"
+                "Ca 2 h 32 min"
               ],
               [
                 "Tennant Creek till Karlu Karlu",
@@ -19223,13 +19223,13 @@
               ],
               [
                 "Karlu Karlu till Barrow Creek",
-                "Ca 140 km",
-                "Ca 1 h 57 min"
+                "Ca 120 km",
+                "Ca 1 h 10 min"
               ],
               [
                 "Barrow Creek till Alice Springs",
                 "Ca 282 km",
-                "Ca 2 h 50 min"
+                "Ca 2 h 51 min"
               ]
             ]
           }
@@ -19237,13 +19237,13 @@
         {
           "heading": "Fyra dagar på Stuart Highway",
           "body": [
-            "Enligt OSRM blir en uppdelning på fyra dagar så här: Darwin till Katherine ca 316 km (3 h 29 min), Katherine till Daly Waters ca 274 km (2 h 50 min), Daly Waters till Tennant Creek ca 409 km (4 h 14 min) och Tennant Creek till Alice Springs ca 526 km (5 h 50 min, via Karlu Karlu). Tourism NT:s resförslag anger 316 km från Katherine till Darwin, 106 km från Mataranka till Katherine, 167 km från Daly Waters till Mataranka och 510 km från Alice Springs till Tennant Creek, vilket stämmer med OSRM inom några kilometer.",
+            "Enligt OSRM blir en uppdelning på fyra dagar så här: Darwin till Katherine ca 315 km (3 h 26 min), Katherine till Daly Waters ca 273 km (2 h 48 min), Daly Waters till Tennant Creek ca 405 km (4 h 4 min) och Tennant Creek till Alice Springs ca 506 km (5 h 3 min, via Karlu Karlu). Tourism NT:s resförslag anger 315 km från Katherine till Darwin, 106 km från Mataranka till Katherine, 167 km från Daly Waters till Mataranka och 510 km från Alice Springs till Tennant Creek, vilket stämmer med OSRM inom några kilometer.",
             "Katherine är basen för Nitmiluk. I Mataranka säger NT Parks att den termiska poolen i Elsey National Park håller en jämn temperatur på 34 grader året runt och att du behöver ett NT Parks Visitor Pass, som köps före ankomst. Bofasta i NT är undantagna. I Daly Waters beskriver Tourism NT Daly Waters Historic Pub som ett ställe där du kan äta, dricka och övernatta, med camping, elplatser, safaritält och stugor. Namngivna <a data-guide=\"caravan-park-vs-holiday-park\">caravan parks</a> i Katherine, Mataranka och Tennant Creek gick inte att bekräfta, så boka i förväg per telefon."
           ],
           "tips": [
             "Katherine ca 316 km",
-            "Daly Waters ca 590 km",
-            "Tennant Creek ca 1 000 km"
+            "Daly Waters ca 588 km",
+            "Tennant Creek ca 993 km"
           ]
         },
         {
@@ -19335,7 +19335,7 @@
       "faq": [
         [
           "Hur långt är det från Darwin till Alice Springs?",
-          "Ca 1 500 km, alltså 1 525 km och 16 h 26 min bakom ratten enligt OSRM och OpenStreetMap-data, hela vägen på Stuart Highway. De flesta tar fyra dagar, med övernattning i Katherine, Daly Waters och Tennant Creek."
+          "Ca 1 500 km, alltså 1 492 km och 15 h 12 min bakom ratten enligt OSRM och OpenStreetMap-data, hela vägen på Stuart Highway. De flesta tar fyra dagar, med övernattning i Katherine, Daly Waters och Tennant Creek."
         ],
         [
           "Vilken hastighetsgräns gäller på Stuart Highway?",
@@ -19352,7 +19352,7 @@
       ],
       "sources": [
         {
-          "label": "OSRM-beräkning på OpenStreetMap-data (Darwin till Alice Springs, beräknad 21 oktober 2026)"
+          "label": "OSRM-beräkning på OpenStreetMap-data (Darwin till Alice Springs, beräknad 3 november 2026)"
         },
         {
           "label": "Tourism NT: trafiksäkerhetsinformation"
@@ -22723,7 +22723,7 @@
         {
           "heading": "Bränsle: posten som varierar mest",
           "body": [
-            "Regeringens sida Fuel Plan visade den 14 oktober 2026 genomsnittliga detaljhandelspriser i de fem största städerna på ungefär 2,41 AUD per liter för bensin och 2,80 AUD för diesel. NRMA:s veckorapport för Sydney den 19 oktober visade vanlig blyfri på 239,8 cent och diesel på 280,1 cent. Exemplen i guiden om <a data-guide=\"australia-road-trip-fuel-cost-2026\">bränslekostnader</a> bygger på referenspriset från 5 augusti 2026, så använd de daterade siffrorna här när du jämför.",
+            "Regeringens sida Fuel Plan visade den 14 oktober 2026 genomsnittliga detaljhandelspriser i de fem största städerna på ungefär 2,41 AUD per liter för bensin och 2,80 AUD för diesel. NRMA:s veckorapport för Sydney den 19 oktober visade vanlig blyfri på 239,8 cent och diesel på 280,1 cent. Exemplen i guiden om <a data-guide=\"australia-road-trip-fuel-cost-2026\">bränslekostnader</a> bygger på Australian Institute of Petroleums snitt för veckan fram till 1 november 2026, så använd de daterade siffrorna här när du jämför.",
             "Sträckan betyder mer än priset. Halverar du kilometrarna halveras notan, och avlägsna roadhouses tar mer än stadsgenomsnittet."
           ],
           "tips": [
