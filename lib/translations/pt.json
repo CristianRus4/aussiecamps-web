@@ -23602,6 +23602,52 @@
         "metaDescription": "Calcula a gasolina ou o gasóleo de uma road trip na Austrália com a distância, os l/100 km e o preço por litro: litros, custo total, custo por km e fórmula.",
         "title": "Calculadora de combustível para road trips na Austrália",
         "intro": "Indica a distância, o consumo do veículo carregado e o preço por litro. Obténs os litros que a viagem vai gastar, a conta do combustível e o custo por quilómetro, para fazeres o orçamento do percurso inteiro antes do primeiro abastecimento.",
+        "answer": [
+          "O custo de combustível de uma viagem é a distância × litros aos 100 km ÷ 100 × o preço por litro. Na semana até 1 de novembro de 2026, a gasolina custou em média 2,33 AUD o litro e o gasóleo 2,77 AUD nas cinco maiores capitais, segundo o Australian Institute of Petroleum.",
+          "A esses preços, um carro que gasta 8 l/100 km custa cerca de 18,66 AUD aos 100 km a gasolina, e um 4x4 a rebocar uma caravana a 18 l/100 km cerca de 49,82 AUD aos 100 km a gasóleo."
+        ],
+        "tables": [
+          {
+            "heading": "Preços dos combustíveis por capital",
+            "caption": "Preço médio por litro na bomba na semana até 1 de novembro de 2026.",
+            "head": [
+              "Cidade",
+              "Gasolina sem chumbo",
+              "Gasóleo"
+            ],
+            "rows": [
+              "Sydney",
+              "Melbourne",
+              "Brisbane",
+              "Adelaide",
+              "Perth",
+              "Canberra",
+              "Hobart",
+              "Darwin",
+              "Cinco maiores cidades",
+              "Média regional, todos os estados",
+              "Northern Territory, zonas regionais"
+            ],
+            "note": "Médias semanais dos Weekly Petrol and Diesel Prices Reports do Australian Institute of Petroleum para a semana até 1 de novembro de 2026, com dados de preços da MotorMouth. As cinco maiores cidades são Sydney, Melbourne, Brisbane, Adelaide e Perth. Os preços mudam todas as semanas e de bomba para bomba, e os roadhouses remotos podem cobrar bem acima da média regional."
+          },
+          {
+            "heading": "Custo de combustível aos 100 km por veículo",
+            "caption": "Consumo de referência de um veículo carregado, aos preços médios das cinco cidades acima.",
+            "head": [
+              "Veículo",
+              "Consumo",
+              "Aos 100 km",
+              "Por km"
+            ],
+            "rows": [
+              "Carro (gasolina)",
+              "Autocaravana (gasóleo)",
+              "4x4 (gasóleo)",
+              "4x4 com caravana (gasóleo)"
+            ],
+            "note": "Os consumos são estimativas para planear viagens em estrada com carga, não valores do fabricante. O vento, as subidas, a velocidade, a carga no tejadilho e o ar condicionado alteram-nos, por isso usa o teu consumo medido se o tiveres."
+          }
+        ],
         "formula": [
           "Litros = distância (km) × consumo (l/100 km) ÷ 100",
           "Custo do combustível = litros × preço por litro (AUD/l)",
@@ -23629,7 +23675,15 @@
           ],
           [
             "Que preço de combustível devo usar?",
-            "Usa o combustível do teu veículo e o preço mais recente que encontrares para a região. As médias de cinco cidades do Fuel Plan para 5 de agosto de 2026 foram 2,08 AUD por litro de gasolina e 2,47 AUD de gasóleo; conta com mais nas zonas remotas."
+            "Usa o combustível do teu veículo e o preço mais recente que encontrares para a região. Na semana até 1 de novembro de 2026, o Australian Institute of Petroleum indicava médias de 2,33 AUD por litro de gasolina e 2,77 AUD de gasóleo nas cinco cidades, e médias regionais de 2,42 AUD e 2,82 AUD; conta com mais nos roadhouses remotos."
+          ],
+          [
+            "Quanto custa o combustível por km na Austrália?",
+            "Cerca de 0,19 AUD por quilómetro num carro a gasolina que gasta 8 l/100 km e 0,33 AUD numa autocaravana a gasóleo que gasta 12 l/100 km, às médias das cinco cidades na semana até 1 de novembro de 2026. Para o teu próprio valor, multiplica os l/100 km pelo preço por litro e divide por 100."
+          ],
+          [
+            "Quanto custa o combustível de Sydney a Melbourne?",
+            "Cerca de 161 AUD num carro a gasolina que gasta 8 l/100 km: 865 km × 8 ÷ 100 = 69,2 litros à média das cinco cidades de 2,33 AUD por litro. Uma autocaravana a gasóleo a 12 l/100 km gasta 103,8 litros, cerca de 287 AUD a 2,77 AUD."
           ]
         ],
         "ctaTitle": "Planeia as paragens entre abastecimentos.",

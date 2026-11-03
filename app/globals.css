@@ -234,6 +234,7 @@ em { color: inherit; font: inherit; font-style: normal; }
 .page-hero { min-height: 560px; padding: 175px 32px 95px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
 .page-hero h1 { max-width: 1050px; }
 .page-hero > p:last-of-type { max-width: 670px; color: var(--muted); font-size: 19px; }
+.tools-hero p a { color: var(--fern); font-weight: 650; }
 .support-hero > a { margin-top: 24px; }
 .guide-benefits { margin-top: 25px; display: flex; gap: 20px; }
 .guide-benefits span { display: flex; align-items: center; gap: 7px; font-size: 12px; font-weight: 750; }

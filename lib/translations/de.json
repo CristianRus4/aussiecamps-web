@@ -23602,6 +23602,52 @@
         "metaDescription": "Berechne Benzin oder Diesel für deinen Roadtrip in Australien aus Strecke, Verbrauch in l/100 km und Literpreis. Mit Litern, Gesamtkosten, Kosten pro km, Formel und Rechenbeispiel.",
         "title": "Spritkostenrechner für Roadtrips in Australien",
         "intro": "Gib die Strecke, den Verbrauch deines beladenen Fahrzeugs und den Literpreis ein. Du siehst, wie viele Liter die Fahrt braucht, was der Sprit kostet und was ein Kilometer kostet. So kannst du die Kosten der ganzen Route einplanen, bevor du zum ersten Mal tankst.",
+        "answer": [
+          "Die Spritkosten einer Fahrt sind Strecke × Liter pro 100 km ÷ 100 × Preis pro Liter. In der Woche bis zum 1. November 2026 kostete Benzin in den fünf größten Hauptstädten laut Australian Institute of Petroleum im Schnitt 2,33 AUD pro Liter und Diesel 2,77 AUD.",
+          "Bei diesen Preisen kostet ein Auto mit 8 l/100 km etwa 18,66 AUD pro 100 km mit Benzin und ein Allradfahrzeug mit Wohnwagen bei 18 l/100 km etwa 49,82 AUD pro 100 km mit Diesel."
+        ],
+        "tables": [
+          {
+            "heading": "Spritpreise nach Hauptstadt",
+            "caption": "Durchschnittlicher Literpreis an der Zapfsäule in der Woche bis zum 1. November 2026.",
+            "head": [
+              "Stadt",
+              "Benzin (bleifrei)",
+              "Diesel"
+            ],
+            "rows": [
+              "Sydney",
+              "Melbourne",
+              "Brisbane",
+              "Adelaide",
+              "Perth",
+              "Canberra",
+              "Hobart",
+              "Darwin",
+              "Fünf größte Städte",
+              "Regionaler Schnitt, alle Bundesstaaten",
+              "Regional, Northern Territory"
+            ],
+            "note": "Wochendurchschnitte aus den Weekly Petrol and Diesel Prices Reports des Australian Institute of Petroleum für die Woche bis zum 1. November 2026, auf Basis von Preisdaten von MotorMouth. Die fünf größten Städte sind Sydney, Melbourne, Brisbane, Adelaide und Perth. Die Preise ändern sich jede Woche und von Tankstelle zu Tankstelle, und abgelegene Roadhouses verlangen oft deutlich mehr als der regionale Schnitt."
+          },
+          {
+            "heading": "Spritkosten pro 100 km nach Fahrzeug",
+            "caption": "Verbrauch eines beladenen Fahrzeugs zur Planung, gerechnet mit den Durchschnittspreisen der fünf Städte oben.",
+            "head": [
+              "Fahrzeug",
+              "Verbrauch",
+              "Pro 100 km",
+              "Pro km"
+            ],
+            "rows": [
+              "Auto (Benzin)",
+              "Campervan (Diesel)",
+              "Allradfahrzeug (Diesel)",
+              "Allradfahrzeug mit Wohnwagen (Diesel)"
+            ],
+            "note": "Die Verbrauchswerte sind Planungswerte für Highway-Fahrten mit Gepäck, keine Herstellerangaben. Wind, Steigungen, Tempo, Dachlast und Klimaanlage verändern sie, also nimm deinen eigenen gemessenen Wert, wenn du einen hast."
+          }
+        ],
         "formula": [
           "Liter = Strecke (km) × Verbrauch (l/100 km) ÷ 100",
           "Spritkosten = Liter × Literpreis (AUD/l)",
@@ -23629,7 +23675,15 @@
           ],
           [
             "Welchen Spritpreis sollte ich ansetzen?",
-            "Nimm die Kraftstoffsorte, die dein Fahrzeug tankt, und den aktuellsten Preis, den du für die Region findest. Laut Fuel Plan lag der Durchschnitt der fünf Städte am 5. August 2026 bei 2,08 AUD pro Liter für Benzin und 2,47 AUD für Diesel; in abgelegenen Gegenden musst du mit mehr rechnen."
+            "Nimm die Kraftstoffsorte, die dein Fahrzeug tankt, und den aktuellsten Preis, den du für die Region findest. In der Woche bis zum 1. November 2026 lagen die Durchschnitte der fünf Städte laut Australian Institute of Petroleum bei 2,33 AUD pro Liter für Benzin und 2,77 AUD für Diesel, die regionalen Durchschnitte bei 2,42 AUD und 2,82 AUD; an abgelegenen Roadhouses musst du mit mehr rechnen."
+          ],
+          [
+            "Was kostet Sprit pro Kilometer in Australien?",
+            "Etwa 0,19 AUD pro Kilometer für ein Benzinauto mit 8 l/100 km und 0,33 AUD für einen Diesel-Campervan mit 12 l/100 km, bei den Durchschnittspreisen der fünf Städte in der Woche bis zum 1. November 2026. Für deinen eigenen Wert multiplizierst du l/100 km mit dem Literpreis und teilst durch 100."
+          ],
+          [
+            "Was kostet der Sprit von Sydney nach Melbourne?",
+            "Etwa 161 AUD mit einem Benzinauto bei 8 l/100 km: 865 km × 8 ÷ 100 = 69,2 Liter zum Fünf-Städte-Durchschnitt von 2,33 AUD pro Liter. Ein Diesel-Campervan mit 12 l/100 km verbraucht 103,8 Liter, also etwa 287 AUD bei 2,77 AUD."
           ]
         ],
         "ctaTitle": "Plan die Stopps zwischen zwei Tankfüllungen.",

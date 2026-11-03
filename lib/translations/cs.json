@@ -253,6 +253,52 @@
         "metaDescription": "Spočítejte benzin nebo naftu na road trip po Austrálii podle vzdálenosti, spotřeby v l/100 km a ceny za litr. Ukáže litry, celkovou cenu i cenu za km, se vzorcem a příkladem výpočtu.",
         "title": "Kalkulačka nákladů na palivo pro road trip po Austrálii",
         "intro": "Zadejte vzdálenost, spotřebu naloženého vozidla a cenu za litr. Dozvíte se, kolik litrů jízda spotřebuje, kolik zaplatíte za palivo a kolik vychází jeden kilometr, takže si celou trasu rozpočítáte ještě před prvním tankováním.",
+        "answer": [
+          "Náklady na palivo pro cestu jsou vzdálenost × litry na 100 km ÷ 100 × cena za litr. V týdnu do 1. listopadu 2026 stál benzin v pěti největších hlavních městech států v průměru 2,33 AUD za litr a nafta 2,77 AUD, podle Australian Institute of Petroleum.",
+          "Při těchto cenách stojí auto se spotřebou 8 l/100 km asi 18,66 AUD na 100 km na benzin a auto 4x4 s karavanem při 18 l/100 km asi 49,82 AUD na 100 km na naftu."
+        ],
+        "tables": [
+          {
+            "heading": "Ceny paliva v hlavních městech",
+            "caption": "Průměrná cena za litr u pumpy v týdnu do 1. listopadu 2026.",
+            "head": [
+              "Město",
+              "Bezolovnatý benzin",
+              "Nafta"
+            ],
+            "rows": [
+              "Sydney",
+              "Melbourne",
+              "Brisbane",
+              "Adelaide",
+              "Perth",
+              "Canberra",
+              "Hobart",
+              "Darwin",
+              "Pět největších měst",
+              "Regionální průměr, všechny státy",
+              "Northern Territory mimo města"
+            ],
+            "note": "Týdenní průměry z Weekly Petrol and Diesel Prices Reports Australian Institute of Petroleum za týden do 1. listopadu 2026, z cenových dat MotorMouth. Pět největších měst jsou Sydney, Melbourne, Brisbane, Adelaide a Perth. Ceny se mění každý týden a liší se mezi pumpami a odlehlé roadhouse mohou účtovat výrazně víc než regionální průměr."
+          },
+          {
+            "heading": "Náklady na palivo na 100 km podle vozidla",
+            "caption": "Orientační spotřeba naloženého vozidla, počítaná s průměrnými cenami pěti měst výše.",
+            "head": [
+              "Vozidlo",
+              "Spotřeba",
+              "Na 100 km",
+              "Na km"
+            ],
+            "rows": [
+              "Osobní auto (benzin)",
+              "Campervan (nafta)",
+              "Auto 4x4 (nafta)",
+              "Auto 4x4 s karavanem (nafta)"
+            ],
+            "note": "Hodnoty spotřeby jsou odhady pro plánování jízdy po silnici s nákladem, ne údaje výrobce. Vítr, stoupání, rychlost, náklad na střeše a klimatizace je mění, takže pokud znáte svou naměřenou spotřebu, použijte ji."
+          }
+        ],
         "formula": [
           "Litry = vzdálenost (km) × spotřeba (l/100 km) ÷ 100",
           "Cena paliva = litry × cena za litr (AUD/l)",
@@ -280,7 +326,15 @@
           ],
           [
             "Jakou cenu paliva mám použít?",
-            "Použijte palivo, které vaše vozidlo tankuje, a nejnovější cenu, kterou pro danou oblast najdete. Průměry Fuel Plan z pěti měst k 5. srpnu 2026 byly 2,08 AUD za litr benzinu a 2,47 AUD za litr nafty; v odlehlých oblastech počítejte s vyšší cenou."
+            "Použijte palivo, které vaše vozidlo tankuje, a nejnovější cenu, kterou pro danou oblast najdete. V týdnu do 1. listopadu 2026 uváděl Australian Institute of Petroleum průměry pěti měst 2,33 AUD za litr benzinu a 2,77 AUD za litr nafty a regionální průměry 2,42 AUD a 2,82 AUD; u odlehlých roadhouse počítejte s vyšší cenou."
+          ],
+          [
+            "Kolik stojí palivo na kilometr v Austrálii?",
+            "Asi 0,19 AUD za kilometr u benzinového auta se spotřebou 8 l/100 km a 0,33 AUD u naftového campervanu se spotřebou 12 l/100 km, při průměrných cenách pěti měst v týdnu do 1. listopadu 2026. Vlastní hodnotu získáte, když l/100 km vynásobíte cenou za litr a vydělíte 100."
+          ],
+          [
+            "Kolik stojí palivo ze Sydney do Melbourne?",
+            "Asi 161 AUD v benzinovém autě se spotřebou 8 l/100 km: 865 km × 8 ÷ 100 = 69,2 litru při průměru pěti měst 2,33 AUD za litr. Naftový campervan při 12 l/100 km spálí 103,8 litru, asi 287 AUD při 2,77 AUD."
           ]
         ],
         "ctaTitle": "Naplánujte si zastávky mezi tankováními.",

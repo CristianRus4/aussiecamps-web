@@ -1,4 +1,5 @@
 import type { ToolKey } from "../source-strings";
+import { formatters } from "./calc";
 
 /**
  * The figures behind the reference tables on the tool pages. The words (heading, column heads, row
@@ -36,6 +37,30 @@ const drives: [number, number, string | undefined][] = [
   [2608, 1824, "nullarbor-crossing-camping-guide"],
 ];
 
+/**
+ * Australian Institute of Petroleum weekly averages for the week ending 2026-11-01, in cents per
+ * litre: [unleaded petrol, diesel]. Five largest cities = the unweighted average of Sydney,
+ * Melbourne, Brisbane, Adelaide and Perth.
+ */
+const fuelPrices: [number, number][] = [
+  [236.4, 278.2], [236.4, 279.2], [237.3, 281.5], [227.9, 275.6], [228.5, 269.7],
+  [246.6, 288.4], [245.6, 282.7], [245.4, 286.1], [233.3, 276.8], [241.7, 281.6], [287.3, 322.9],
+];
+const [fiveCityPetrol, fiveCityDiesel] = fuelPrices[8].map((cents) => cents / 100);
+/** Planning fuel use for a loaded vehicle, L/100 km, and whether it burns diesel. */
+const vehicles: [number, boolean][] = [[8, false], [12, true], [13, true], [18, true]];
+
+const fuelTables: ToolTableRow[][] = [
+  fuelPrices.map(([petrol, diesel]) => ({ cells: (intl) => [formatters(intl).aud(petrol / 100), formatters(intl).aud(diesel / 100)] })),
+  vehicles.map(([use, diesel]) => ({
+    cells: (intl) => {
+      const { aud, fixed } = formatters(intl);
+      const per100 = use * (diesel ? fiveCityDiesel : fiveCityPetrol);
+      return [`${fixed(0).format(use)} L/100 km`, aud(per100), aud(per100 / 100)];
+    },
+  })),
+];
+
 export const toolTables: Partial<Record<ToolKey, ToolTableRow[][]>> = {
   "drive-time-calculator": [drives.map(([km, minutes, guide]) => ({
     guide,
@@ -46,4 +71,5 @@ export const toolTables: Partial<Record<ToolKey, ToolTableRow[][]>> = {
       new Intl.NumberFormat(intl).format(Math.ceil(minutes / 480)),
     ],
   }))],
+  "fuel-cost-calculator": fuelTables,
 };

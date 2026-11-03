@@ -23602,6 +23602,52 @@
         "metaDescription": "Calcula la gasolina o el diésel de un road trip por Australia con la distancia, los l/100 km y el precio por litro. Muestra litros, coste total y coste por km, con la fórmula y un ejemplo resuelto.",
         "title": "Calculadora de combustible para road trips por Australia",
         "intro": "Introduce la distancia, el consumo de tu vehículo cargado y el precio por litro. Obtienes los litros que gastará el trayecto, lo que costará el combustible y el coste por kilómetro, así que puedes presupuestar toda la ruta antes del primer repostaje.",
+        "answer": [
+          "El coste en combustible de un viaje es la distancia × litros a los 100 km ÷ 100 × el precio por litro. En la semana hasta el 1 de noviembre de 2026, la gasolina costó de media 2,33 AUD el litro y el diésel 2,77 AUD en las cinco mayores capitales, según el Australian Institute of Petroleum.",
+          "A esos precios, un coche que gasta 8 l/100 km cuesta unos 18,66 AUD cada 100 km con gasolina, y un 4x4 remolcando una caravana a 18 l/100 km unos 49,82 AUD cada 100 km con diésel."
+        ],
+        "tables": [
+          {
+            "heading": "Precios del combustible por capital",
+            "caption": "Precio medio por litro en surtidor en la semana hasta el 1 de noviembre de 2026.",
+            "head": [
+              "Ciudad",
+              "Gasolina sin plomo",
+              "Diésel"
+            ],
+            "rows": [
+              "Sydney",
+              "Melbourne",
+              "Brisbane",
+              "Adelaida",
+              "Perth",
+              "Canberra",
+              "Hobart",
+              "Darwin",
+              "Cinco mayores ciudades",
+              "Media regional, todos los estados",
+              "Territorio del Norte, zonas regionales"
+            ],
+            "note": "Medias semanales de los Weekly Petrol and Diesel Prices Reports del Australian Institute of Petroleum para la semana hasta el 1 de noviembre de 2026, con datos de precios de MotorMouth. Las cinco mayores ciudades son Sydney, Melbourne, Brisbane, Adelaida y Perth. Los precios cambian cada semana y de una gasolinera a otra, y los roadhouses remotos pueden cobrar bastante más que la media regional."
+          },
+          {
+            "heading": "Coste del combustible cada 100 km por vehículo",
+            "caption": "Consumo orientativo de un vehículo cargado, calculado con las medias de las cinco ciudades de arriba.",
+            "head": [
+              "Vehículo",
+              "Consumo",
+              "Cada 100 km",
+              "Por km"
+            ],
+            "rows": [
+              "Coche (gasolina)",
+              "Camper (diésel)",
+              "4x4 (diésel)",
+              "4x4 con caravana (diésel)"
+            ],
+            "note": "Los consumos son estimaciones para planificar viajes por carretera con carga, no cifras del fabricante. El viento, las cuestas, la velocidad, la carga en el techo y el aire acondicionado los cambian, así que usa tu propio consumo medido si lo tienes."
+          }
+        ],
         "formula": [
           "Litros = distancia (km) × consumo (l/100 km) ÷ 100",
           "Coste del combustible = litros × precio por litro (AUD/l)",
@@ -23629,7 +23675,15 @@
           ],
           [
             "¿Qué precio del combustible debo usar?",
-            "Elige el combustible de tu vehículo y el precio más reciente que encuentres para la región. Las medias de Fuel Plan de las cinco ciudades el 5 de agosto de 2026 fueron de 2,08 AUD el litro de gasolina y 2,47 AUD el de diésel; en zonas remotas, espera pagar más."
+            "Elige el combustible de tu vehículo y el precio más reciente que encuentres para la región. En la semana hasta el 1 de noviembre de 2026, el Australian Institute of Petroleum situó las medias de las cinco ciudades en 2,33 AUD el litro de gasolina y 2,77 AUD el de diésel, y las medias regionales en 2,42 AUD y 2,82 AUD; en los roadhouses remotos, espera pagar más."
+          ],
+          [
+            "¿Cuánto cuesta el combustible por km en Australia?",
+            "Unos 0,19 AUD por kilómetro en un coche de gasolina que gasta 8 l/100 km y 0,33 AUD en una camper diésel que gasta 12 l/100 km, con las medias de las cinco ciudades de la semana hasta el 1 de noviembre de 2026. Para tu propia cifra, multiplica los l/100 km por el precio por litro y divide entre 100."
+          ],
+          [
+            "¿Cuánto cuesta el combustible de Sydney a Melbourne?",
+            "Unos 161 AUD en un coche de gasolina que gasta 8 l/100 km: 865 km × 8 ÷ 100 = 69,2 litros a la media de las cinco ciudades de 2,33 AUD el litro. Una camper diésel a 12 l/100 km gasta 103,8 litros, unos 287 AUD a 2,77 AUD."
           ]
         ],
         "ctaTitle": "Planifica las paradas entre repostajes.",

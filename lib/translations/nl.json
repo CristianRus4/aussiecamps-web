@@ -435,6 +435,52 @@
         "metaDescription": "Bereken benzine of diesel voor een roadtrip door Australië met afstand, l/100 km en literprijs. Zie liters, totaalkosten en kosten per km, plus formule en voorbeeld.",
         "title": "Brandstofkosten berekenen voor een roadtrip door Australië",
         "intro": "Vul de afstand, het verbruik van je voertuig met lading en de prijs per liter in. Je krijgt het aantal liters dat de rit kost, de brandstofrekening en de kosten per kilometer, zodat je de hele route kunt budgetteren voordat je voor het eerst tankt.",
+        "answer": [
+          "De brandstofkosten van een rit zijn de afstand × liters per 100 km ÷ 100 × de literprijs. In de week tot en met 1 november 2026 kostte benzine in de vijf grootste hoofdsteden gemiddeld A$ 2,33 per liter en diesel A$ 2,77, volgens het Australian Institute of Petroleum.",
+          "Tegen die prijzen kost een auto die 8 l/100 km verbruikt ongeveer A$ 18,66 per 100 km op benzine, en een 4x4 met caravan op 18 l/100 km ongeveer A$ 49,82 per 100 km op diesel."
+        ],
+        "tables": [
+          {
+            "heading": "Brandstofprijzen per hoofdstad",
+            "caption": "Gemiddelde pompprijs per liter in de week tot en met 1 november 2026.",
+            "head": [
+              "Stad",
+              "Loodvrije benzine",
+              "Diesel"
+            ],
+            "rows": [
+              "Sydney",
+              "Melbourne",
+              "Brisbane",
+              "Adelaide",
+              "Perth",
+              "Canberra",
+              "Hobart",
+              "Darwin",
+              "Vijf grootste steden",
+              "Regionaal gemiddelde, alle staten",
+              "Regionaal Northern Territory"
+            ],
+            "note": "Weekgemiddelden uit de Weekly Petrol and Diesel Prices Reports van het Australian Institute of Petroleum voor de week tot en met 1 november 2026, op basis van prijsgegevens van MotorMouth. De vijf grootste steden zijn Sydney, Melbourne, Brisbane, Adelaide en Perth. Prijzen veranderen elke week en verschillen per tankstation, en afgelegen roadhouses vragen vaak flink meer dan het regionale gemiddelde."
+          },
+          {
+            "heading": "Brandstofkosten per 100 km per voertuig",
+            "caption": "Planningsverbruik voor een beladen voertuig, gerekend met de gemiddelden van de vijf steden hierboven.",
+            "head": [
+              "Voertuig",
+              "Verbruik",
+              "Per 100 km",
+              "Per km"
+            ],
+            "rows": [
+              "Auto (benzine)",
+              "Camper (diesel)",
+              "4x4 (diesel)",
+              "4x4 met caravan (diesel)"
+            ],
+            "note": "De verbruikscijfers zijn schattingen voor snelwegritten met bagage, geen fabrieksopgaven. Wind, hellingen, snelheid, dakbagage en airco veranderen ze, dus gebruik je eigen gemeten verbruik als je dat hebt."
+          }
+        ],
         "formula": [
           "Liters = afstand (km) × verbruik (l/100 km) ÷ 100",
           "Brandstofkosten = liters × prijs per liter (A$/liter)",
@@ -462,7 +508,15 @@
           ],
           [
             "Welke brandstofprijs moet ik gebruiken?",
-            "Neem de brandstof die je voertuig nodig heeft en de meest recente prijs die je voor de regio kunt vinden. De gemiddelden van Fuel Plan voor de vijf steden op 5 augustus 2026 waren A$ 2,08 per liter voor benzine en A$ 2,47 voor diesel; reken in afgelegen gebieden op meer."
+            "Neem de brandstof die je voertuig nodig heeft en de meest recente prijs die je voor de regio kunt vinden. In de week tot en met 1 november 2026 lagen de gemiddelden van de vijf steden volgens het Australian Institute of Petroleum op A$ 2,33 per liter voor benzine en A$ 2,77 voor diesel, en de regionale gemiddelden op A$ 2,42 en A$ 2,82; reken bij afgelegen roadhouses op meer."
+          ],
+          [
+            "Wat kost brandstof per km in Australië?",
+            "Ongeveer A$ 0,19 per kilometer voor een benzineauto die 8 l/100 km verbruikt en A$ 0,33 voor een dieselcamper die 12 l/100 km verbruikt, bij de gemiddelden van de vijf steden in de week tot en met 1 november 2026. Voor je eigen cijfer vermenigvuldig je l/100 km met de literprijs en deel je door 100."
+          ],
+          [
+            "Wat kost de brandstof van Sydney naar Melbourne?",
+            "Ongeveer A$ 161 met een benzineauto die 8 l/100 km verbruikt: 865 km × 8 ÷ 100 = 69,2 liter tegen het gemiddelde van de vijf steden van A$ 2,33 per liter. Een dieselcamper op 12 l/100 km verbruikt 103,8 liter, ongeveer A$ 287 tegen A$ 2,77."
           ]
         ],
         "ctaTitle": "Plan de stops tussen de tankbeurten.",

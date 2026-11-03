@@ -23573,6 +23573,52 @@
         "metaDescription": "Regn ut bensin eller diesel til en roadtrip i Australia ut fra distanse, l/100 km og literpris. Viser liter, totalkostnad og kostnad per km, med formel og regneeksempel.",
         "title": "Drivstoffkalkulator for roadtrip i Australia",
         "intro": "Legg inn distansen, drivstofforbruket til kjøretøyet med last og prisen per liter. Du får hvor mange liter turen bruker, drivstoffregningen og kostnaden per kilometer, så du kan budsjettere hele ruten før første tanking.",
+        "answer": [
+          "Drivstoffkostnaden for en tur er avstanden × liter per 100 km ÷ 100 × literprisen. I uken til og med 1. november 2026 kostet bensin i snitt 2,33 AUD literen og diesel 2,77 AUD i de fem største hovedstedene, ifølge Australian Institute of Petroleum.",
+          "Med de prisene koster en bil som bruker 8 l/100 km rundt 18,66 AUD per 100 km på bensin, og en firehjulstrekker med campingvogn på 18 l/100 km rundt 49,82 AUD per 100 km på diesel."
+        ],
+        "tables": [
+          {
+            "heading": "Drivstoffpriser i hovedstedene",
+            "caption": "Gjennomsnittlig literpris på pumpen i uken til og med 1. november 2026.",
+            "head": [
+              "By",
+              "Blyfri bensin",
+              "Diesel"
+            ],
+            "rows": [
+              "Sydney",
+              "Melbourne",
+              "Brisbane",
+              "Adelaide",
+              "Perth",
+              "Canberra",
+              "Hobart",
+              "Darwin",
+              "De fem største byene",
+              "Regionalt snitt, alle delstater",
+              "Northern Territory utenfor byene"
+            ],
+            "note": "Ukesnitt fra Australian Institute of Petroleums Weekly Petrol and Diesel Prices Reports for uken til og med 1. november 2026, basert på prisdata fra MotorMouth. De fem største byene er Sydney, Melbourne, Brisbane, Adelaide og Perth. Prisene endrer seg hver uke og fra stasjon til stasjon, og avsidesliggende roadhouses kan ta langt mer enn det regionale snittet."
+          },
+          {
+            "heading": "Drivstoffkostnad per 100 km etter kjøretøy",
+            "caption": "Forbruk til planlegging for et lastet kjøretøy, regnet med snittprisene for de fem byene over.",
+            "head": [
+              "Kjøretøy",
+              "Forbruk",
+              "Per 100 km",
+              "Per km"
+            ],
+            "rows": [
+              "Bil (bensin)",
+              "Campervan (diesel)",
+              "Firehjulstrekker (diesel)",
+              "Firehjulstrekker med campingvogn (diesel)"
+            ],
+            "note": "Forbrukstallene er planleggingsverdier for landeveiskjøring med last, ikke produsentens tall. Vind, bakker, fart, takboks og klimaanlegg endrer dem, så bruk ditt eget målte forbruk hvis du har det."
+          }
+        ],
         "formula": [
           "Liter = distanse (km) × drivstofforbruk (l/100 km) ÷ 100",
           "Drivstoffkostnad = liter × literpris (AUD/l)",
@@ -23600,7 +23646,15 @@
           ],
           [
             "Hvilken drivstoffpris bør jeg bruke?",
-            "Bruk drivstoffet kjøretøyet tar og den nyeste prisen du finner for regionen. Gjennomsnittet for de fem byene i Fuel Plan 5. august 2026 var 2,08 AUD literen for bensin og 2,47 AUD for diesel; regn med mer i avsidesliggende områder."
+            "Bruk drivstoffet kjøretøyet tar og den nyeste prisen du finner for regionen. I uken til og med 1. november 2026 lå snittet for de fem byene ifølge Australian Institute of Petroleum på 2,33 AUD literen for bensin og 2,77 AUD for diesel, og de regionale snittene på 2,42 AUD og 2,82 AUD; regn med mer ved avsidesliggende roadhouses."
+          ],
+          [
+            "Hva koster drivstoff per km i Australia?",
+            "Rundt 0,19 AUD per kilometer for en bensinbil som bruker 8 l/100 km og 0,33 AUD for en dieselcampervan som bruker 12 l/100 km, med snittprisene for de fem byene i uken til og med 1. november 2026. Ditt eget tall får du ved å gange l/100 km med literprisen og dele på 100."
+          ],
+          [
+            "Hva koster drivstoffet fra Sydney til Melbourne?",
+            "Rundt 161 AUD i en bensinbil som bruker 8 l/100 km: 865 km × 8 ÷ 100 = 69,2 liter til snittet for de fem byene på 2,33 AUD literen. En dieselcampervan på 12 l/100 km bruker 103,8 liter, rundt 287 AUD med 2,77 AUD."
           ]
         ],
         "ctaTitle": "Planlegg stoppene mellom tankingene.",

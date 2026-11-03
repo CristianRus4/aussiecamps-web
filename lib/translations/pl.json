@@ -253,6 +253,52 @@
         "metaDescription": "Policz benzynę lub olej napędowy na road trip po Australii na podstawie dystansu, spalania w l/100 km i ceny za litr. Pokazuje litry, koszt całkowity i koszt kilometra, ze wzorem i przykładem obliczeń.",
         "title": "Kalkulator kosztów paliwa na road trip po Australii",
         "intro": "Wpisz dystans, spalanie załadowanego auta i cenę za litr. Dowiesz się, ile litrów spalisz na trasie, ile zapłacisz za paliwo i ile kosztuje kilometr, więc zaplanujesz budżet całej trasy jeszcze przed pierwszym tankowaniem.",
+        "answer": [
+          "Koszt paliwa na trasę to odległość × litry na 100 km ÷ 100 × cena za litr. W tygodniu do 1 listopada 2026 roku benzyna kosztowała średnio 2,33 AUD za litr, a olej napędowy 2,77 AUD w pięciu największych stolicach stanów, według Australian Institute of Petroleum.",
+          "Przy tych cenach auto spalające 8 l/100 km kosztuje około 18,66 AUD na 100 km na benzynie, a terenówka z przyczepą kempingową przy 18 l/100 km około 49,82 AUD na 100 km na oleju napędowym."
+        ],
+        "tables": [
+          {
+            "heading": "Ceny paliwa w stolicach stanów",
+            "caption": "Średnia cena litra na stacji w tygodniu do 1 listopada 2026 roku.",
+            "head": [
+              "Miasto",
+              "Benzyna bezołowiowa",
+              "Olej napędowy"
+            ],
+            "rows": [
+              "Sydney",
+              "Melbourne",
+              "Brisbane",
+              "Adelaide",
+              "Perth",
+              "Canberra",
+              "Hobart",
+              "Darwin",
+              "Pięć największych miast",
+              "Średnia regionalna, wszystkie stany",
+              "Terytorium Północne poza miastami"
+            ],
+            "note": "Średnie tygodniowe z raportów Weekly Petrol and Diesel Prices Reports Australian Institute of Petroleum za tydzień do 1 listopada 2026 roku, na podstawie danych cenowych MotorMouth. Pięć największych miast to Sydney, Melbourne, Brisbane, Adelaide i Perth. Ceny zmieniają się co tydzień i różnią się między stacjami, a odludne roadhouse'y potrafią brać znacznie więcej niż średnia regionalna."
+          },
+          {
+            "heading": "Koszt paliwa na 100 km według pojazdu",
+            "caption": "Orientacyjne spalanie załadowanego pojazdu, liczone po średnich cenach z pięciu miast powyżej.",
+            "head": [
+              "Pojazd",
+              "Spalanie",
+              "Na 100 km",
+              "Na km"
+            ],
+            "rows": [
+              "Samochód osobowy (benzyna)",
+              "Kamper (olej napędowy)",
+              "Terenówka 4x4 (olej napędowy)",
+              "Terenówka 4x4 z przyczepą kempingową (olej napędowy)"
+            ],
+            "note": "Wartości spalania to szacunki do planowania jazdy po autostradach i drogach krajowych z bagażem, a nie dane producenta. Wiatr, podjazdy, prędkość, bagaż na dachu i klimatyzacja je zmieniają, więc jeśli znasz swoje zmierzone spalanie, użyj go."
+          }
+        ],
         "formula": [
           "Litry = dystans (km) × spalanie (l/100 km) ÷ 100",
           "Koszt paliwa = litry × cena za litr (AUD/l)",
@@ -280,7 +326,15 @@
           ],
           [
             "Jaką cenę paliwa przyjąć?",
-            "Przyjmij paliwo, na którym jeździ twoje auto, i najświeższą cenę, jaką znajdziesz dla danego regionu. Średnie Fuel Plan z pięciu miast z 5 sierpnia 2026 wynosiły 2,08 AUD za litr benzyny i 2,47 AUD za litr oleju napędowego; na odludziu licz się z wyższymi cenami."
+            "Przyjmij paliwo, na którym jeździ twoje auto, i najświeższą cenę, jaką znajdziesz dla danego regionu. W tygodniu do 1 listopada 2026 roku Australian Institute of Petroleum podawał średnie z pięciu miast: 2,33 AUD za litr benzyny i 2,77 AUD za litr oleju napędowego, a średnie regionalne: 2,42 AUD i 2,82 AUD; w odludnych roadhouse'ach licz się z wyższymi cenami."
+          ],
+          [
+            "Ile kosztuje paliwo na kilometr w Australii?",
+            "Około 0,19 AUD za kilometr w aucie na benzynę spalającym 8 l/100 km i 0,33 AUD w kamperze z dieslem spalającym 12 l/100 km, po średnich cenach z pięciu miast w tygodniu do 1 listopada 2026 roku. Własny wynik policzysz, mnożąc l/100 km przez cenę litra i dzieląc przez 100."
+          ],
+          [
+            "Ile kosztuje paliwo z Sydney do Melbourne?",
+            "Około 161 AUD w aucie na benzynę spalającym 8 l/100 km: 865 km × 8 ÷ 100 = 69,2 litra po średniej z pięciu miast 2,33 AUD za litr. Kamper z dieslem przy 12 l/100 km spali 103,8 litra, czyli około 287 AUD przy 2,77 AUD."
           ]
         ],
         "ctaTitle": "Zaplanuj postoje między tankowaniami.",

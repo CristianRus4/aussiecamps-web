@@ -435,6 +435,52 @@
         "metaDescription": "Calculez le budget essence ou diesel d’un road trip en Australie à partir de la distance, des l/100 km et du prix du litre. Litres, coût total et coût au km, avec la formule et un exemple chiffré.",
         "title": "Calculateur du coût du carburant pour un road trip en Australie",
         "intro": "Saisissez la distance, la consommation de votre véhicule chargé et le prix du litre. Vous obtenez les litres que le trajet va consommer, la facture de carburant et le coût au kilomètre : de quoi budgéter tout l’itinéraire avant le premier plein.",
+        "answer": [
+          "Le coût en carburant d’un trajet, c’est la distance × les litres aux 100 km ÷ 100 × le prix au litre. Sur la semaine se terminant le 1er novembre 2026, l’essence coûtait en moyenne 2,33 $ AU le litre et le diesel 2,77 $ AU dans les cinq plus grandes capitales, selon l’Australian Institute of Petroleum.",
+          "À ces prix, une voiture qui consomme 8 l/100 km coûte environ 18,66 $ AU aux 100 km en essence, et un 4x4 qui tracte une caravane à 18 l/100 km environ 49,82 $ AU aux 100 km en diesel."
+        ],
+        "tables": [
+          {
+            "heading": "Prix du carburant par capitale",
+            "caption": "Prix moyen à la pompe par litre, semaine se terminant le 1er novembre 2026.",
+            "head": [
+              "Ville",
+              "Essence sans plomb",
+              "Diesel"
+            ],
+            "rows": [
+              "Sydney",
+              "Melbourne",
+              "Brisbane",
+              "Adélaïde",
+              "Perth",
+              "Canberra",
+              "Hobart",
+              "Darwin",
+              "Cinq plus grandes villes",
+              "Moyenne régionale, tous les États",
+              "Territoire du Nord hors Darwin"
+            ],
+            "note": "Moyennes hebdomadaires des Weekly Petrol and Diesel Prices Reports de l’Australian Institute of Petroleum pour la semaine se terminant le 1er novembre 2026, à partir des relevés de prix de MotorMouth. Les cinq plus grandes villes sont Sydney, Melbourne, Brisbane, Adélaïde et Perth. Les prix changent chaque semaine et d’une station à l’autre, et les roadhouses isolés peuvent facturer bien plus que la moyenne régionale."
+          },
+          {
+            "heading": "Coût du carburant aux 100 km selon le véhicule",
+            "caption": "Consommation de planification pour un véhicule chargé, au prix moyen des cinq villes ci-dessus.",
+            "head": [
+              "Véhicule",
+              "Consommation",
+              "Aux 100 km",
+              "Au km"
+            ],
+            "rows": [
+              "Voiture (essence)",
+              "Camper (diesel)",
+              "4x4 (diesel)",
+              "4x4 avec caravane (diesel)"
+            ],
+            "note": "Les consommations sont des estimations pour planifier un trajet sur route avec chargement, pas des chiffres constructeur. Le vent, les côtes, la vitesse, le chargement sur le toit et la climatisation les font varier ; utilisez votre propre consommation mesurée si vous la connaissez."
+          }
+        ],
         "formula": [
           "Litres = distance (km) × consommation (l/100 km) ÷ 100",
           "Coût du carburant = litres × prix du litre ($ AU/l)",
@@ -462,7 +508,15 @@
           ],
           [
             "Quel prix du carburant utiliser ?",
-            "Prenez le carburant de votre véhicule et le prix le plus récent que vous trouverez pour la région. Selon Fuel Plan, les moyennes des cinq villes au 5 août 2026 étaient de 2,08 $ AU le litre pour l’essence et de 2,47 $ AU pour le diesel ; comptez davantage dans les zones isolées."
+            "Prenez le carburant de votre véhicule et le prix le plus récent que vous trouverez pour la région. Sur la semaine se terminant le 1er novembre 2026, l’Australian Institute of Petroleum donnait des moyennes de 2,33 $ AU le litre pour l’essence et de 2,77 $ AU pour le diesel dans les cinq villes, et de 2,42 $ AU et 2,82 $ AU en région ; comptez davantage dans les roadhouses isolés."
+          ],
+          [
+            "Combien coûte le carburant au kilomètre en Australie ?",
+            "Environ 0,19 $ AU le kilomètre pour une voiture essence à 8 l/100 km et 0,33 $ AU pour un camper diesel à 12 l/100 km, aux prix moyens des cinq villes sur la semaine se terminant le 1er novembre 2026. Pour votre propre chiffre, multipliez les l/100 km par le prix au litre et divisez par 100."
+          ],
+          [
+            "Combien coûte le carburant de Sydney à Melbourne ?",
+            "Environ 161 $ AU dans une voiture essence à 8 l/100 km : 865 km × 8 ÷ 100 = 69,2 litres au prix moyen des cinq villes de 2,33 $ AU le litre. Un camper diesel à 12 l/100 km consomme 103,8 litres, soit environ 287 $ AU à 2,77 $ AU."
           ]
         ],
         "ctaTitle": "Planifiez les arrêts entre deux pleins.",
