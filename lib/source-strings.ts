@@ -528,3 +528,18 @@ export const toolStrings = {
   } satisfies Record<ToolKey, ToolCopy>,
 };
 export type ToolStrings = typeof toolStrings;
+
+/**
+ * The `answerCta` namespace: one download line placed right under a page's opening answer, naming the
+ * feature that solves the reader's problem (lib/answer-cta.ts maps pages to keys). Optional per
+ * locale and never gating: a translated page shows the line only in its own language, and leaves it
+ * out until it is translated, so no page mixes two languages.
+ */
+export const answerCtaStrings = {
+  "drive-time-calculator": "Plan the whole route in AussieCamps: the trip planner shows the distance and drive time for every leg, with rest areas and campgrounds along the way.",
+  "fuel-cost-calculator": "Plan the fill-ups in AussieCamps: the trip planner shows the distance of every leg, and the map has rest areas and dump points along the way.",
+  "alcohol-coffee-drink-prices-australia": "Spend less on the basics: AussieCamps maps drinking water points and shows each campground’s fees and facilities before you arrive.",
+  "best-camping-app-australia": "Try AussieCamps on iPhone: official campground, rest area and dump point details that stay readable with no signal, and a stop-by-stop trip planner.",
+  "drive-guide": "Build this drive as a trip in AussieCamps: each overnight stop shows the distance and drive time from the last one and a forecast for your arrival day.",
+};
+export type AnswerCtaKey = keyof typeof answerCtaStrings;

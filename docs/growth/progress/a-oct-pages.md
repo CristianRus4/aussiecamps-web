@@ -21,6 +21,8 @@ Lane brief: `/Users/cristian/Developer/Webs/.growth-lanes/oct-review/brief-a-pag
 - Best camping apps guide: title and description (English). Prices and ratings rechecked, unchanged.
 - Home: title and description (English); offline camping map meta keyword removed.
 
+- Download line under the opening answer (`ans` placement, `w_ans_<locale>`) on the drive and fuel calculators, the alcohol and coffee guide, the best camping apps guide and the two corrected drive guides, in all 15 locales. Strings live in the `answerCta` namespace; pages map to them in `lib/answer-cta.ts`.
+
 ## Next
 - Remaining price guides, state rules guides and sleeping in car: already open with the headline price or a direct yes/no answer since 19 Oct; left alone while scored. See notes.
 

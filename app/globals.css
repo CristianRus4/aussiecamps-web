@@ -368,6 +368,12 @@ em { color: inherit; font: inherit; font-style: normal; }
 .tool-answer p { margin: 0; color: var(--ink); font-size: 17px; line-height: 1.6; }
 .tool-answer p + p { margin-top: 10px; }
 .price-table th[scope="row"] a { color: var(--fern); font-weight: 700; }
+/* The download line under a page's opening answer: one sentence and the store button, side by side. */
+.answer-cta { margin: 22px 0 6px; padding: 16px 18px; border: 1px solid var(--line); background: var(--paper); display: flex; align-items: center; justify-content: space-between; gap: 18px; }
+.answer-cta p { margin: 0 !important; color: var(--ink); font-size: 16px !important; line-height: 1.55; }
+.answer-cta .store-button { flex-shrink: 0; }
+.article-header > .answer-cta { max-width: 800px; margin: 14px auto 0; color: inherit; font-size: inherit; text-align: left; }
+@media (max-width: 640px) { .answer-cta, .article-header > .answer-cta { flex-direction: column; align-items: flex-start; } }
 /* Tool reference tables sit in the article column, so they wrap the route label instead of scrolling. */
 .tool-table th, .tool-table td { min-width: 0; padding: 10px 8px; }
 .tool-table th:first-child { min-width: 0; white-space: normal; }
