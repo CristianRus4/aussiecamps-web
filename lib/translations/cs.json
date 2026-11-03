@@ -23845,6 +23845,265 @@
         }
       ],
       "priceTable": null
+    },
+    "bushfire-safety-camping-australia": {
+      "title": "Požární bezpečnost pro kempující v Austrálii 2026-27: stupně, varování a aplikace",
+      "description": "Co každý stupeň požárního nebezpečí znamená pro kemp, tři úrovně varování, aplikace s varováními v každém státě a kdy odjet. Ověřeno v listopadu 2026.",
+      "region": "Austrálie",
+      "imageAlt": "Silniční tabule se stupněm požárního nebezpečí v New South Wales s nápisem Your fire risk today is a poli Moderate, High, Extreme a Catastrophic",
+      "intro": "V období požárů kontrolujte každé ráno dvě věci: stupeň požárního nebezpečí ve svém okrese a varování poblíž kempu. V den Extreme zvažte, zda zůstávat v buši nebo v travnatém terénu; v den Catastrophic odjeďte večer předtím nebo brzy ráno, protože parky se mohou zavřít a pomoc k vám nemusí dorazit. Varování přicházejí z aplikace nebo webu vašeho státu, ne z celostátní, proto si před jízdou do buše nainstalujte tu správnou aplikaci. Stránky každé hasičské služby jsme četli 3. listopadu 2026.",
+      "sections": [
+        {
+          "heading": "Stupně požárního nebezpečí: co který znamená v kempu",
+          "body": [
+            "Australian Fire Danger Rating System používá v každém státě stejné čtyři stupně, takže tabule před městečkem a předpověď v aplikaci znamenají totéž. Stupeň je předpověď, jak by se choval požár, kdyby ten den vznikl, ne znamení, že něco hoří.",
+            "V den Moderate nebo High zůstává většina kempů otevřená, ale vězte, jak se dostanete pryč. Od stupně Extreme zní oficiální zpráva jednat hned a <a data-guide=\"camping-rules-northern-territory\">Northern Territory</a> dodává, že by cestující měli znovu zvážit cesty oblastmi s rizikem požárů buše. Catastrophic znamená odjet."
+          ],
+          "tips": [
+            "Stejné čtyři stupně v každém státě",
+            "Stupeň je předpověď, ne požár",
+            "Catastrophic znamená odjet"
+          ],
+          "table": {
+            "caption": "Stupně požárního nebezpečí a oficiální zpráva ke každému, s tím, co znamenají pro kempujícího. Přečteno 3. listopadu 2026.",
+            "head": [
+              "Stupeň",
+              "Oficiální zpráva",
+              "Pro kempujícího"
+            ],
+            "rows": [
+              [
+                "Moderate",
+                "Plan and prepare",
+                "Zjistěte si výjezdy z kempu a kde je nejbližší město"
+              ],
+              [
+                "High",
+                "Prepare to act",
+                "Kontrolujte varování ráno a večer a mějte auto sbalené a s plnou nádrží"
+              ],
+              [
+                "Extreme",
+                "Take action now to protect your life and property",
+                "Zvažte, zda zůstávat v buši nebo v travnatém terénu; přesuňte se do města nebo k moři"
+              ],
+              [
+                "Catastrophic",
+                "For your survival, leave bush fire risk areas",
+                "Odjeďte večer předtím nebo brzy ráno; parky se mohou zavřít"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Výhled na sezonu 2026-27",
+          "body": [
+            "Seasonal Bushfire Outlook organizace AFAC na jaro 2026, naposledy aktualizovaný 19. srpna 2026, ukazuje zvýšený potenciál požárů na severu a jihovýchodě <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a>, na jihovýchodě Queenslandu, na severovýchodě Tasmánie, ve velké části Northern Territory a v částech Victorie, South Australia a Western Australia. Příčinou jsou suché půdy, podprůměrné srážky a velké množství hořlavého materiálu.",
+            "AFAC každý rok vydává letní výhled, obvykle koncem listopadu. Přečtěte si ho, než si zarezervujete lednový výlet do lesnatých oblastí, a počítejte s tím, že <a data-guide=\"campfires-camping-australia\">úplné zákazy ohně</a> a uzavírky parků budou v označených oblastech pravděpodobnější."
+          ],
+          "tips": [
+            "Jaro 2026: vyšší riziko v částech každého státu",
+            "Letní výhled následuje koncem listopadu",
+            "Zkontrolujte ho před rezervací míst v lesích"
+          ]
+        },
+        {
+          "heading": "Úrovně varování: Advice, Watch and Act, Emergency Warning",
+          "body": [
+            "Když hoří, hasičská služba vydá varování na jedné ze tří úrovní, každé s pokynem jako „Leave now“ nebo „Shelter now“. Úrovně lze přeskočit: rychlý požár může začít rovnou na Watch and Act nebo Emergency Warning bez předchozího Advice.",
+            "Hasičská služba na <a data-guide=\"camping-rules-tasmania\">Tasmánii</a> používá stejně jako každý stát Australian Warning System. Přečtěte si pokyn ve varování a řiďte se jím okamžitě: když stojí, že je pozdě odjet, nezkoušejte ujet zakouřenou oblastí."
+          ],
+          "tips": [
+            "Varování mohou přeskočit úroveň",
+            "Řiďte se pokynem ve varování",
+            "Pozdě odjet znamená ukrýt se"
+          ],
+          "table": {
+            "caption": "Úrovně Australian Warning System pro požáry buše podle Tasmania Fire Service. Přečteno 3. listopadu 2026.",
+            "head": [
+              "Úroveň",
+              "Barva",
+              "Co znamená",
+              "Typické kroky"
+            ],
+            "rows": [
+              [
+                "Advice",
+                "Žlutá",
+                "Vznikl požár; žádné bezprostřední nebezpečí",
+                "Zůstaňte informováni, vyhněte se oblasti"
+              ],
+              [
+                "Watch and Act",
+                "Oranžová",
+                "Podmínky se mění a hrozba je vyšší",
+                "Připravte se na odjezd, nebo odjeďte hned, pokud nejste připraveni"
+              ],
+              [
+                "Emergency Warning",
+                "Červená",
+                "Můžete být v nebezpečí a musíte jednat hned",
+                "Odjeďte okamžitě, nebo se hned ukryjte, pokud je pozdě odjet"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Varovné aplikace a weby podle států",
+          "body": [
+            "Celostátní aplikace pro požáry buše neexistuje. Nainstalujte si aplikaci každého státu, v němž budete kempovat, a nastavte sledovanou zónu na kemp, protože aplikace vás varuje před místy, která zvolíte, nejen před místem, kde se nacházíte.",
+            "Telefony dostávají také vládní upozornění. AusAlert, celostátní systém, který rozesílá varování do telefonů přes cell broadcast, uvádí, že to zahrnuje návštěvníky oblasti i lidi v roamingu, pokud je zařízení kompatibilní. Berte to jako zálohu: v údolí <a data-guide=\"camping-without-phone-signal\">bez signálu</a> nedorazí nic, proto zkontrolujte aplikaci, než ztratíte pokrytí, a vezměte si rádio AM nebo FM kvůli nouzovému vysílání ABC."
+          ],
+          "tips": [
+            "Jedna aplikace na stát",
+            "Nastavte sledovanou zónu na kemp",
+            "Rádio funguje, když mobil ne"
+          ],
+          "table": {
+            "caption": "Kde jednotlivé státy a teritoria zveřejňují varování před požáry buše. Přečteno 3. listopadu 2026.",
+            "head": [
+              "Stát nebo teritorium",
+              "Varování",
+              "Hasičská služba"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "Aplikace Hazards Near Me NSW",
+                "NSW Rural Fire Service"
+              ],
+              [
+                "Victoria",
+                "Aplikace a web VicEmergency",
+                "CFA a Fire Rescue Victoria"
+              ],
+              [
+                "Queensland",
+                "Mapa aktuálních událostí na fire.qld.gov.au",
+                "Queensland Fire Department"
+              ],
+              [
+                "South Australia",
+                "Aplikace Alert SA",
+                "Country Fire Service"
+              ],
+              [
+                "Western Australia",
+                "Aplikace a web Emergency WA",
+                "Department of Fire and Emergency Services"
+              ],
+              [
+                "Tasmánie",
+                "Web TasALERT",
+                "Tasmania Fire Service"
+              ],
+              [
+                "Australian Capital Territory",
+                "Web ESA, stránka Fires Near Me",
+                "ACT Emergency Services Agency"
+              ],
+              [
+                "Northern Territory",
+                "Web SecureNT",
+                "NT Fire and Rescue Service a Bushfires NT"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Kdy se parky zavírají",
+          "body": [
+            "<a data-guide=\"camping-rules-victoria\">Victoria</a> zavírá parky a lesy v dny Catastrophic. Parks Victoria uvádí, že při předpovězeném stupni požárního nebezpečí Catastrophic spolu s DEECA zavírá parky a lesy, včetně státních lesů a národních parků, kvůli bezpečnosti veřejnosti. Pokud už tam jste, odjeďte večer předtím nebo brzy ráno a nečekejte na tabuli ani osobní varování, které nemusí přijít. Dne 9. ledna 2026 byly rezervace kempů dotčené uzavírkou zrušeny a vráceny.",
+            "Jiné státy zavírají parky oblast po oblasti podle podmínek a uzavírka může zahrnovat kempy, piknikové plochy i pěší stezky. Každá správa parků uvádí uzavírky a <a data-guide=\"campfires-camping-australia\">zákazy ohně</a> na stránce s upozorněními parku, proto ji zkontrolujte ráno v den příjezdu, ne jen při rezervaci."
+          ],
+          "tips": [
+            "Victoria zavírá parky v dny Catastrophic",
+            "Uzavírky nemusí být označené",
+            "Zkontrolujte upozornění parku téhož rána"
+          ]
+        },
+        {
+          "heading": "Pokud vznikne požár poblíž kempu",
+          "body": [
+            "Odjeďte brzy, dokud oheň není blízko. Silnice u požáru se rychle uzavírají, kouř snižuje dohlednost na pár metrů a kemp v lese je jedním z nejhorších míst, když dorazí fronta ohně. Jeďte směrem k městu nebo k otevřenému terénu, nikdy ke kouři, a zavolejte na Triple Zero (000), pokud uvidíte požár, o který se nikdo nestará.",
+            "Pokud odjet nemůžete, jděte na místo poslední záchrany. V <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> jsou to Neighbourhood Safer Places, které NSW Rural Fire Service popisuje jako místo poslední záchrany, které nezaručuje vaši bezpečnost; jiné státy mají podobné seznamy. Najděte nejbližší hned po příjezdu, ne až když přijde varování."
+          ],
+          "tips": [
+            "Odjeďte dřív, než bude oheň blízko",
+            "Volejte 000, pokud hoří bez dozoru",
+            "Zjistěte si nejbližší místo poslední záchrany"
+          ]
+        },
+        {
+          "heading": "Plánujte období požárů v AussieCamps",
+          "body": [
+            "AussieCamps spojuje kempy, odpočívadla a holiday parky na jedné mapě, takže když se lesní kemp zavře kvůli požárnímu dni, najdete ubytování v nejbližším městě nebo u moře a uložíte si ho do cesty. Podrobnosti o místech jsou uložené v telefonu, takže si vybavení kempu přečtete i bez signálu.",
+            "Mapa, trasy a počasí potřebují připojení, proto je i aplikaci s varováními svého státu zkontrolujte, než vyjedete z pokrytí. AussieCamps běží na iPhonu."
+          ],
+          "tips": [
+            "Rychle najděte ubytování ve městě nebo u moře",
+            "Podrobnosti uložené pro případ bez signálu",
+            "Zkontrolujte varování, než ztratíte pokrytí"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Co mají kempující dělat v den se stupněm požárního nebezpečí Catastrophic?",
+          "Opusťte oblasti s rizikem požárů buše den předtím nebo brzy ráno téhož dne. Celostátní zpráva pro Catastrophic zní „For your survival, leave bush fire risk areas“ a ve Victorii Parks Victoria a DEECA zavírají parky a státní lesy ve dny předpovězené jako Catastrophic a rezervace kempů ruší a vracejí."
+        ],
+        [
+          "Která aplikace ukazuje varování před požáry buše v Austrálii?",
+          "Každý stát má svou: Hazards Near Me NSW, VicEmergency, Emergency WA, Alert SA a TasALERT. Queensland zveřejňuje varování na mapě aktuálních událostí Queensland Fire Department, ACT na webu ESA a Northern Territory na SecureNT. Nastavte sledovanou zónu pro místo, kde kempujete, ne jen pro domov."
+        ],
+        [
+          "Jaký je rozdíl mezi stupněm požárního nebezpečí a varováním?",
+          "Stupeň požárního nebezpečí je předpověď, jak nebezpečný by byl požár, kdyby vznikl, od Moderate po Catastrophic. Varování se týká požáru, který hoří: Advice, Watch and Act nebo Emergency Warning. V den Catastrophic nemusí hořet vůbec nic a varování Advice může přijít v den Moderate."
+        ],
+        [
+          "Dostane zahraniční telefon nouzová upozornění v Austrálii?",
+          "Web AusAlert uvádí, že upozornění dostanou návštěvníci oblasti i lidé v roamingu, pokud je zařízení kompatibilní. Nespoléhejte jen na to: nainstalujte aplikaci s varováními státu a kontrolujte ji každé ráno, dokud jste v požárních oblastech."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "AFAC: Seasonal Bushfire Outlook, jaro 2026"
+        },
+        {
+          "label": "Tasmania Fire Service: vysvětlení Australian Warning System"
+        },
+        {
+          "label": "CFA: o stupních požárního nebezpečí"
+        },
+        {
+          "label": "SecureNT: stupně požárního nebezpečí"
+        },
+        {
+          "label": "Parks Victoria: uzavírky parků při předpovědi Catastrophic"
+        },
+        {
+          "label": "Parks Victoria: velké uzavírky parků, pátek 9. ledna 2026"
+        },
+        {
+          "label": "NSW Government: Hazards Near Me NSW"
+        },
+        {
+          "label": "NSW Rural Fire Service: Neighbourhood Safer Places"
+        },
+        {
+          "label": "Queensland Government: sledujte varování před požáry buše"
+        },
+        {
+          "label": "ACT Emergency Services Agency: Fires Near Me"
+        },
+        {
+          "label": "TasALERT: poznejte svá varování"
+        },
+        {
+          "label": "AusAlert: co je AusAlert"
+        }
+      ],
+      "priceTable": null
     }
   }
 }

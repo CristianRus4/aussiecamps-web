@@ -23844,6 +23844,265 @@
         }
       ],
       "priceTable": null
+    },
+    "bushfire-safety-camping-australia": {
+      "title": "Bezpieczeństwo pożarowe dla kamperów w Australii 2026-27: stopnie, ostrzeżenia i aplikacje",
+      "description": "Co każdy stopień zagrożenia pożarowego znaczy na kempingu, trzy poziomy ostrzeżeń, aplikacja z ostrzeżeniami w każdym stanie i kiedy wyjechać. Sprawdzone w listopadzie 2026.",
+      "region": "Australia",
+      "imageAlt": "Przydrożna tablica ze stopniem zagrożenia pożarowego w New South Wales z napisem Your fire risk today is i polami Moderate, High, Extreme i Catastrophic",
+      "intro": "W sezonie pożarowym sprawdzaj każdego ranka dwie rzeczy: stopień zagrożenia pożarowego w swoim okręgu i ostrzeżenia w pobliżu kempingu. W dzień Extreme zastanów się, czy zostawać w buszu lub na terenach trawiastych; w dzień Catastrophic wyjedź poprzedniego wieczoru albo wcześnie rano, bo parki mogą się zamknąć, a pomoc może do ciebie nie dotrzeć. Ostrzeżenia pochodzą z aplikacji lub strony twojego stanu, nie z krajowej, więc zainstaluj właściwą aplikację, zanim wjedziesz w busz. Strony każdej straży pożarnej przeczytaliśmy 3 listopada 2026.",
+      "sections": [
+        {
+          "heading": "Stopnie zagrożenia pożarowego: co znaczą na kempingu",
+          "body": [
+            "Australian Fire Danger Rating System używa w każdym stanie tych samych czterech stopni, więc tablica przed miasteczkiem i prognoza w aplikacji znaczą to samo. Stopień to prognoza tego, jak zachowałby się pożar, gdyby wybuchł tego dnia, a nie znak, że coś się pali.",
+            "W dzień Moderate lub High większość kempingów pozostaje otwarta, ale wiedz, jak się stamtąd wydostać. Od Extreme oficjalny komunikat brzmi: działaj teraz, a <a data-guide=\"camping-rules-northern-territory\">Terytorium Północne</a> dodaje, że podróżni powinni ponownie rozważyć jazdę przez obszary zagrożone pożarami buszu. Catastrophic oznacza: wyjedź."
+          ],
+          "tips": [
+            "Te same cztery stopnie w każdym stanie",
+            "Stopień to prognoza, nie pożar",
+            "Catastrophic oznacza: wyjedź"
+          ],
+          "table": {
+            "caption": "Stopnie zagrożenia pożarowego i oficjalny komunikat dla każdego, z tym, co znaczą dla kampera. Odczytano 3 listopada 2026.",
+            "head": [
+              "Stopień",
+              "Oficjalny komunikat",
+              "Dla kampera"
+            ],
+            "rows": [
+              [
+                "Moderate",
+                "Plan and prepare",
+                "Poznaj wyjazdy z kempingu i sprawdź, gdzie jest najbliższe miasto"
+              ],
+              [
+                "High",
+                "Prepare to act",
+                "Sprawdzaj ostrzeżenia rano i wieczorem, trzymaj auto spakowane i z pełnym bakiem"
+              ],
+              [
+                "Extreme",
+                "Take action now to protect your life and property",
+                "Zastanów się, czy zostawać w buszu lub na trawiastym terenie; przenieś się do miasta lub nad morze"
+              ],
+              [
+                "Catastrophic",
+                "For your survival, leave bush fire risk areas",
+                "Wyjedź poprzedniego wieczoru lub wcześnie rano; parki mogą się zamknąć"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Prognoza na sezon 2026-27",
+          "body": [
+            "Seasonal Bushfire Outlook organizacji AFAC na wiosnę 2026, ostatnio zaktualizowany 19 sierpnia 2026, wskazuje podwyższone ryzyko pożarów w północnej i południowo-wschodniej części <a data-guide=\"camping-rules-new-south-wales\">Nowej Południowej Walii</a>, na południowym wschodzie Queenslandu, w północno-wschodniej Tasmanii, na dużych obszarach Terytorium Północnego oraz w częściach Victorii, South Australia i Western Australia. Przyczyną są suche gleby, opady poniżej średniej i duże ilości materiału palnego.",
+            "AFAC co roku publikuje prognozę na lato, zwykle pod koniec listopada. Przeczytaj ją, zanim zarezerwujesz styczniową podróż w tereny leśne, i licz się z tym, że <a data-guide=\"campfires-camping-australia\">zakazy używania ognia</a> i zamknięcia parków będą bardziej prawdopodobne w zaznaczonych obszarach."
+          ],
+          "tips": [
+            "Wiosna 2026: wyższe ryzyko w częściach każdego stanu",
+            "Prognoza na lato ukazuje się pod koniec listopada",
+            "Sprawdź ją przed rezerwacją miejsc w lesie"
+          ]
+        },
+        {
+          "heading": "Poziomy ostrzeżeń: Advice, Watch and Act, Emergency Warning",
+          "body": [
+            "Gdy pożar się pali, straż pożarna wydaje ostrzeżenie na jednym z trzech poziomów, każde z zaleceniem, takim jak „Leave now” lub „Shelter now”. Poziomy można pominąć: szybki pożar może zacząć się od Watch and Act albo Emergency Warning bez wcześniejszego Advice.",
+            "Straż pożarna <a data-guide=\"camping-rules-tasmania\">Tasmanii</a>, tak jak w każdym stanie, korzysta z Australian Warning System. Przeczytaj zalecenie w ostrzeżeniu i zastosuj je od razu: gdy jest w nim napisane, że na wyjazd jest za późno, nie próbuj wyjeżdżać przez dym."
+          ],
+          "tips": [
+            "Ostrzeżenia mogą pominąć poziom",
+            "Postępuj według zalecenia w ostrzeżeniu",
+            "Za późno na wyjazd oznacza schronienie"
+          ],
+          "table": {
+            "caption": "Poziomy Australian Warning System dla pożarów buszu według Tasmania Fire Service. Odczytano 3 listopada 2026.",
+            "head": [
+              "Poziom",
+              "Kolor",
+              "Co znaczy",
+              "Typowe działania"
+            ],
+            "rows": [
+              [
+                "Advice",
+                "Żółty",
+                "Wybuchł pożar; brak bezpośredniego zagrożenia",
+                "Bądź na bieżąco, omijaj okolicę"
+              ],
+              [
+                "Watch and Act",
+                "Pomarańczowy",
+                "Warunki się zmieniają, a zagrożenie rośnie",
+                "Przygotuj się do wyjazdu albo wyjedź od razu, jeśli nie jesteś przygotowany"
+              ],
+              [
+                "Emergency Warning",
+                "Czerwony",
+                "Możesz być w niebezpieczeństwie i musisz działać teraz",
+                "Wyjedź natychmiast albo schroń się, jeśli na wyjazd jest za późno"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Aplikacje i strony z ostrzeżeniami w każdym stanie",
+          "body": [
+            "Nie ma jednej krajowej aplikacji o pożarach buszu. Zainstaluj aplikację każdego stanu, w którym będziesz biwakować, i ustaw strefę obserwacji na kempingu, bo aplikacja ostrzega o miejscach, które wybierzesz, a nie tylko o twojej lokalizacji.",
+            "Telefony dostają też alerty od rządu. AusAlert, krajowy system wysyłający ostrzeżenia na telefony przez cell broadcast, podaje, że obejmuje to także odwiedzających dany obszar i osoby w roamingu, jeśli urządzenie jest zgodne. Traktuj to jako zabezpieczenie: w dolinie <a data-guide=\"camping-without-phone-signal\">bez zasięgu</a> nic nie dotrze, więc sprawdź aplikację, zanim stracisz zasięg, i weź radio AM lub FM do audycji kryzysowych ABC."
+          ],
+          "tips": [
+            "Jedna aplikacja na stan",
+            "Ustaw strefę obserwacji na kempingu",
+            "Radio działa, gdy telefon nie"
+          ],
+          "table": {
+            "caption": "Gdzie każdy stan i terytorium publikuje ostrzeżenia o pożarach buszu. Odczytano 3 listopada 2026.",
+            "head": [
+              "Stan lub terytorium",
+              "Ostrzeżenia",
+              "Straż pożarna"
+            ],
+            "rows": [
+              [
+                "Nowa Południowa Walia",
+                "Aplikacja Hazards Near Me NSW",
+                "NSW Rural Fire Service"
+              ],
+              [
+                "Victoria",
+                "Aplikacja i strona VicEmergency",
+                "CFA i Fire Rescue Victoria"
+              ],
+              [
+                "Queensland",
+                "Mapa bieżących zdarzeń na fire.qld.gov.au",
+                "Queensland Fire Department"
+              ],
+              [
+                "South Australia",
+                "Aplikacja Alert SA",
+                "Country Fire Service"
+              ],
+              [
+                "Western Australia",
+                "Aplikacja i strona Emergency WA",
+                "Department of Fire and Emergency Services"
+              ],
+              [
+                "Tasmania",
+                "Strona TasALERT",
+                "Tasmania Fire Service"
+              ],
+              [
+                "Australian Capital Territory",
+                "Strona ESA, podstrona Fires Near Me",
+                "ACT Emergency Services Agency"
+              ],
+              [
+                "Terytorium Północne",
+                "Strona SecureNT",
+                "NT Fire and Rescue Service i Bushfires NT"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Kiedy parki się zamykają",
+          "body": [
+            "<a data-guide=\"camping-rules-victoria\">Victoria</a> zamyka parki i lasy w dni Catastrophic. Parks Victoria podaje, że przy prognozowanym stopniu zagrożenia pożarowego Catastrophic razem z DEECA zamyka parki i lasy, w tym lasy państwowe i parki narodowe, dla bezpieczeństwa publicznego. Jeśli już tam jesteś, wyjedź poprzedniego wieczoru lub wcześnie rano i nie czekaj na tablicę ani osobiste ostrzeżenie, które może nie nadejść. 9 stycznia 2026 rezerwacje kempingowe objęte zamknięciem zostały anulowane, a pieniądze zwrócone.",
+            "Inne stany zamykają parki obszar po obszarze, zależnie od warunków, a zamknięcie może obejmować kempingi, miejsca piknikowe i szlaki piesze. Każdy zarząd parków podaje zamknięcia i <a data-guide=\"campfires-camping-australia\">zakazy używania ognia</a> na stronie z komunikatami parku, więc sprawdź ją rano w dniu przyjazdu, nie tylko przy rezerwacji."
+          ],
+          "tips": [
+            "Victoria zamyka parki w dni Catastrophic",
+            "Zamknięcia nie zawsze są oznaczone",
+            "Sprawdź komunikaty parku tego samego ranka"
+          ]
+        },
+        {
+          "heading": "Gdy pożar wybuchnie w pobliżu kempingu",
+          "body": [
+            "Wyjedź wcześnie, zanim ogień się zbliży. Drogi w pobliżu pożaru zamykają się szybko, dym ogranicza widoczność do kilku metrów, a kemping w lesie to jedno z najgorszych miejsc, gdy nadejdzie front ognia. Jedź w stronę miasta lub otwartego terenu, nigdy w stronę dymu, i zadzwoń pod Triple Zero (000), jeśli zobaczysz pożar bez nadzoru.",
+            "Jeśli nie możesz wyjechać, idź do miejsca ostatniej szansy. W <a data-guide=\"camping-rules-new-south-wales\">Nowej Południowej Walii</a> są to Neighbourhood Safer Places, które NSW Rural Fire Service opisuje jako miejsce ostatniej szansy, niegwarantujące twojego bezpieczeństwa; inne stany mają podobne listy. Znajdź najbliższe po przyjeździe, a nie wtedy, gdy nadejdzie ostrzeżenie."
+          ],
+          "tips": [
+            "Wyjedź, zanim ogień będzie blisko",
+            "Zadzwoń pod 000 w sprawie pożaru bez nadzoru",
+            "Znaj najbliższe miejsce ostatniej szansy"
+          ]
+        },
+        {
+          "heading": "Planuj sezon pożarowy w AussieCamps",
+          "body": [
+            "AussieCamps zbiera kempingi, miejsca odpoczynku i holiday parki na jednej mapie, więc gdy kemping w lesie zamyka się z powodu dnia pożarowego, znajdziesz nocleg w najbliższym mieście lub nad morzem i zapiszesz go w podróży. Szczegóły miejsc są zapisane w telefonie, więc możesz przeczytać udogodnienia kempingu nawet bez zasięgu.",
+            "Mapa, trasy i pogoda wymagają połączenia, więc sprawdź je oraz aplikację z ostrzeżeniami swojego stanu, zanim wyjedziesz poza zasięg. AussieCamps działa na iPhonie."
+          ],
+          "tips": [
+            "Szybko znajdź nocleg w mieście lub nad morzem",
+            "Szczegóły zapisane na wypadek braku zasięgu",
+            "Sprawdź ostrzeżenia, zanim stracisz zasięg"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Co powinni zrobić kamperzy w dzień ze stopniem zagrożenia pożarowego Catastrophic?",
+          "Opuść obszary zagrożone pożarami buszu poprzedniego dnia lub wcześnie rano tego dnia. Krajowy komunikat dla Catastrophic brzmi „For your survival, leave bush fire risk areas”, a w Victorii Parks Victoria i DEECA zamykają parki i lasy państwowe w dni prognozowane jako Catastrophic, anulując rezerwacje kempingowe i zwracając pieniądze."
+        ],
+        [
+          "Jaka aplikacja pokazuje ostrzeżenia o pożarach buszu w Australii?",
+          "Każdy stan ma własną: Hazards Near Me NSW, VicEmergency, Emergency WA, Alert SA i TasALERT. Queensland publikuje ostrzeżenia na mapie bieżących zdarzeń Queensland Fire Department, ACT na stronie ESA, a Terytorium Północne na SecureNT. Ustaw strefę obserwacji dla miejsca, w którym biwakujesz, a nie tylko dla domu."
+        ],
+        [
+          "Czym się różni stopień zagrożenia pożarowego od ostrzeżenia?",
+          "Stopień zagrożenia pożarowego to prognoza tego, jak groźny byłby pożar, gdyby wybuchł, od Moderate do Catastrophic. Ostrzeżenie dotyczy pożaru, który się pali: Advice, Watch and Act lub Emergency Warning. W dzień Catastrophic może nie być żadnego pożaru, a ostrzeżenie Advice może pojawić się w dzień Moderate."
+        ],
+        [
+          "Czy zagraniczny telefon dostanie alerty alarmowe w Australii?",
+          "Strona AusAlert podaje, że alerty docierają do odwiedzających dany obszar i osób w roamingu, o ile urządzenie jest zgodne. Nie polegaj tylko na tym: zainstaluj aplikację z ostrzeżeniami stanu i sprawdzaj ją każdego ranka, gdy jesteś na terenach zagrożonych pożarami."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "AFAC: Seasonal Bushfire Outlook, wiosna 2026"
+        },
+        {
+          "label": "Tasmania Fire Service: Australian Warning System wyjaśniony"
+        },
+        {
+          "label": "CFA: o stopniach zagrożenia pożarowego"
+        },
+        {
+          "label": "SecureNT: stopnie zagrożenia pożarowego"
+        },
+        {
+          "label": "Parks Victoria: zamknięcia parków przy prognozie Catastrophic"
+        },
+        {
+          "label": "Parks Victoria: duże zamknięcia parków, piątek 9 stycznia 2026"
+        },
+        {
+          "label": "NSW Government: Hazards Near Me NSW"
+        },
+        {
+          "label": "NSW Rural Fire Service: Neighbourhood Safer Places"
+        },
+        {
+          "label": "Queensland Government: śledź ostrzeżenia o pożarach buszu"
+        },
+        {
+          "label": "ACT Emergency Services Agency: Fires Near Me"
+        },
+        {
+          "label": "TasALERT: poznaj swoje ostrzeżenia"
+        },
+        {
+          "label": "AusAlert: czym jest AusAlert"
+        }
+      ],
+      "priceTable": null
     }
   }
 }

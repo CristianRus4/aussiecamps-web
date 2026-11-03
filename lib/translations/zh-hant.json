@@ -23540,6 +23540,265 @@
         }
       ],
       "priceTable": null
+    },
+    "bushfire-safety-camping-australia": {
+      "title": "澳洲露營森林大火安全 2026-27：等級、警報與應用程式",
+      "description": "每個火災危險等級對營地代表什麼、三級警報、各州的警報應用程式，以及何時該離開。2026年11月查證。",
+      "region": "澳洲",
+      "imageAlt": "新南威爾斯路邊的火災危險等級告示牌，寫著 Your fire risk today is，分成 Moderate、High、Extreme 與 Catastrophic 幾段",
+      "intro": "火災季節，每天早上確認兩件事：你所在地區的火災危險等級，以及營地附近的警報。Extreme 當天，請重新考慮是否繼續待在灌木或草地一帶；Catastrophic 當天，最好前一晚或清晨就離開，因為公園可能關閉，救援也可能趕不到。警報來自各州的應用程式或網站，而不是全國統一的應用程式，所以進入灌木地帶之前，先裝好對應州的應用程式。我們在 2026年11月3日 查閱了各消防機構的頁面。",
+      "sections": [
+        {
+          "heading": "火災危險等級：每一級對營地代表什麼",
+          "body": [
+            "Australian Fire Danger Rating System 在每個州都使用相同的四個等級，所以小鎮入口的告示牌和應用程式裡的預報意思一樣。等級是預測當天一旦起火會如何蔓延，並不代表現在有火在燒。",
+            "Moderate 或 High 的日子，大多數營地照常開放，但要知道怎麼離開。從 Extreme 起，官方的訊息是立即行動，<a data-guide=\"camping-rules-northern-territory\">北領地</a>還提醒旅客重新考慮穿越森林大火風險地區的行程。Catastrophic 代表離開。"
+          ],
+          "tips": [
+            "每個州都是相同的四個等級",
+            "等級是預報，不是火災",
+            "Catastrophic 就是離開"
+          ],
+          "table": {
+            "caption": "各火災危險等級的官方訊息，以及對露營者的意義。2026年11月3日查閱。",
+            "head": [
+              "等級",
+              "官方訊息",
+              "對露營者"
+            ],
+            "rows": [
+              [
+                "Moderate",
+                "Plan and prepare",
+                "了解營地的出口，以及最近的城鎮在哪裡"
+              ],
+              [
+                "High",
+                "Prepare to act",
+                "早晚查看警報，車上裝好行李並加滿油"
+              ],
+              [
+                "Extreme",
+                "Take action now to protect your life and property",
+                "重新考慮是否留在灌木或草地，轉移到城鎮或海邊"
+              ],
+              [
+                "Catastrophic",
+                "For your survival, leave bush fire risk areas",
+                "前一晚或清晨離開，公園可能關閉"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "2026-27 年展望",
+          "body": [
+            "AFAC 2026年春季的 Seasonal Bushfire Outlook（2026年8月19日最後更新）顯示，<a data-guide=\"camping-rules-new-south-wales\">新南威爾斯</a>北部和東南部、昆士蘭東南部、塔斯馬尼亞東北部、北領地大部分地區，以及維多利亞、南澳和西澳的部分地區，起火的可能性升高。背後的原因是土壤乾燥、降雨低於平均，以及可燃物很多。",
+            "AFAC 每年都會發布夏季展望，通常在11月下旬。在確定1月前往森林地區的行程之前先看一遍，並預期在它標出的地區，<a data-guide=\"campfires-camping-australia\">全面禁火令</a>和公園關閉更有可能出現。"
+          ],
+          "tips": [
+            "2026年春季：各州部分地區風險較高",
+            "夏季展望會在11月下旬發布",
+            "預訂森林營位前先查看"
+          ]
+        },
+        {
+          "heading": "警報等級：Advice、Watch and Act、Emergency Warning",
+          "body": [
+            "有火災時，消防機構會發出三個等級之一的警報，每一級都附有行動指示，例如「Leave now」或「Shelter now」。等級可能被跳過：蔓延很快的火災可以不經 Advice，直接從 Watch and Act 或 Emergency Warning 開始。",
+            "<a data-guide=\"camping-rules-tasmania\">塔斯馬尼亞</a>消防局和各州一樣，使用 Australian Warning System。讀懂警報裡的行動指示並立刻照做：如果寫明已經來不及離開，就不要試圖開車穿過濃煙衝出去。"
+          ],
+          "tips": [
+            "警報可能跳過一個等級",
+            "照警報裡的行動指示去做",
+            "來不及離開就就地避難"
+          ],
+          "table": {
+            "caption": "Australian Warning System 的森林大火警報等級，來自 Tasmania Fire Service。2026年11月3日查閱。",
+            "head": [
+              "等級",
+              "顏色",
+              "意思",
+              "常見行動"
+            ],
+            "rows": [
+              [
+                "Advice",
+                "黃色",
+                "已經起火，暫無迫切危險",
+                "保持關注，避開該區域"
+              ],
+              [
+                "Watch and Act",
+                "橙色",
+                "情況在變化，威脅升高",
+                "準備離開；如果沒準備好，立刻離開"
+              ],
+              [
+                "Emergency Warning",
+                "紅色",
+                "你可能身處危險，必須立即行動",
+                "立刻離開；如果已來不及，立即就地避難"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "各州的警報應用程式與網站",
+          "body": [
+            "澳洲沒有全國統一的森林大火應用程式。為每個要露營的州裝上對應的應用程式，並在營地設定一個關注區域，因為應用程式會提醒你選定的地點，而不只是你所在的位置。",
+            "手機也會收到政府的緊急通知。全國系統 AusAlert 透過基地台廣播把警報傳到手機，並表示在裝置相容的情況下，這也包括造訪該地區的旅客和漫遊中的人。把它當作備援：在<a data-guide=\"camping-without-phone-signal\">沒有訊號</a>的山谷裡什麼都收不到，所以在失去訊號之前先看應用程式，並帶上一台 AM 或 FM 收音機，收聽 ABC 的緊急廣播。"
+          ],
+          "tips": [
+            "每個州一個應用程式",
+            "在營地設定關注區域",
+            "手機沒訊號時收音機還能用"
+          ],
+          "table": {
+            "caption": "各州和領地發布森林大火警報的地方。2026年11月3日查閱。",
+            "head": [
+              "州或領地",
+              "警報",
+              "消防機構"
+            ],
+            "rows": [
+              [
+                "新南威爾斯",
+                "Hazards Near Me NSW 應用程式",
+                "NSW Rural Fire Service"
+              ],
+              [
+                "維多利亞州",
+                "VicEmergency 應用程式與網站",
+                "CFA 與 Fire Rescue Victoria"
+              ],
+              [
+                "昆士蘭",
+                "fire.qld.gov.au 上的即時事件地圖",
+                "Queensland Fire Department"
+              ],
+              [
+                "南澳",
+                "Alert SA 應用程式",
+                "Country Fire Service"
+              ],
+              [
+                "西澳",
+                "Emergency WA 應用程式與網站",
+                "Department of Fire and Emergency Services"
+              ],
+              [
+                "塔斯馬尼亞",
+                "TasALERT 網站",
+                "Tasmania Fire Service"
+              ],
+              [
+                "澳洲首都領地",
+                "ESA 網站的 Fires Near Me 頁面",
+                "ACT Emergency Services Agency"
+              ],
+              [
+                "北領地",
+                "SecureNT 網站",
+                "NT Fire and Rescue Service 與 Bushfires NT"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "公園何時關閉",
+          "body": [
+            "<a data-guide=\"camping-rules-victoria\">維多利亞州</a>會在 Catastrophic 的日子關閉公園和森林。Parks Victoria 表示，預報火災危險等級為 Catastrophic 時，為了公共安全，它會和 DEECA 一起關閉公園和森林，包括州有林和國家公園。如果你已經在裡面，請在前一晚或清晨離開，不要等告示牌或個人警報，它們可能不會來。2026年1月9日，受關閉影響的露營預訂已被取消並退款。",
+            "其他州會依情況逐區關閉公園，關閉範圍可能包括營地、野餐區和步道。各公園管理機構會在公園的公告頁面列出關閉資訊和<a data-guide=\"campfires-camping-australia\">禁火令</a>，所以請在你打算抵達的當天早上查看，不要只在預訂時看一次。"
+          ],
+          "tips": [
+            "維多利亞州在 Catastrophic 的日子關閉公園",
+            "關閉不一定有路牌提示",
+            "當天早上查看公園公告"
+          ]
+        },
+        {
+          "heading": "如果營地附近起火",
+          "body": [
+            "要早走，趁火還沒靠近。火場附近的道路很快會封閉，濃煙會把能見度壓到幾公尺，而林中的營地是火鋒到來時最糟的地方之一。朝城鎮或開闊地帶開，絕不要朝煙的方向開；如果看到無人處理的火，請撥打 Triple Zero（000）。",
+            "如果無法離開，就去最後避難場所。在<a data-guide=\"camping-rules-new-south-wales\">新南威爾斯</a>，這指的是 Neighbourhood Safer Places，NSW Rural Fire Service 稱它是不保證你安全的最後避難場所；其他州也有類似的名單。抵達時就找出最近的一個，不要等警報來了才找。"
+          ],
+          "tips": [
+            "火靠近之前就離開",
+            "無人看管的火請撥打 000",
+            "了解最近的最後避難場所"
+          ]
+        },
+        {
+          "heading": "在 AussieCamps 裡規劃火災季節",
+          "body": [
+            "AussieCamps 把營地、休息區和度假公園放在同一張地圖上，所以當林中營地因火災危險日關閉時，你可以在最近的城鎮或海邊找到住處，並儲存到你的行程裡。地點詳情儲存在手機上，沒有訊號時也能看到營地的設施。",
+            "地圖、路線和天氣需要連線，所以在開出訊號涵蓋範圍之前，先查看它們和所在州的警報應用程式。AussieCamps 可在 iPhone 上使用。"
+          ],
+          "tips": [
+            "快速找到城鎮或海邊的住處",
+            "詳情已儲存，沒訊號也能看",
+            "失去訊號前先查看警報"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "火災危險等級為 Catastrophic 的日子，露營者該怎麼做？",
+          "在前一天或當天清晨離開森林大火風險地區。Catastrophic 的全國性訊息是「For your survival, leave bush fire risk areas」，在維多利亞州，Parks Victoria 和 DEECA 會在預報為 Catastrophic 的日子關閉公園和州有林，並取消露營預訂和退款。"
+        ],
+        [
+          "在澳洲，哪個應用程式能看到森林大火警報？",
+          "每個州各有自己的：Hazards Near Me NSW、VicEmergency、Emergency WA、Alert SA 和 TasALERT。昆士蘭把警報發布在 Queensland Fire Department 的即時事件地圖上，首都領地發布在 ESA 網站上，北領地發布在 SecureNT 上。為你露營的地點設定關注區域，不要只為家裡設定。"
+        ],
+        [
+          "火災危險等級和警報有什麼差別？",
+          "火災危險等級是預測一旦起火會有多危險，從 Moderate 到 Catastrophic。警報針對的是正在燃燒的火災：Advice、Watch and Act 或 Emergency Warning。Catastrophic 的日子可能完全沒有火，Moderate 的日子也可能出現 Advice 警報。"
+        ],
+        [
+          "海外手機在澳洲能收到緊急通知嗎？",
+          "AusAlert 網站表示，只要裝置相容，造訪該地區的旅客和漫遊中的人都能收到通知。不要只靠它：裝好所在州的警報應用程式，在火災地區期間每天早上都查看。"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "AFAC：Seasonal Bushfire Outlook，2026年春季"
+        },
+        {
+          "label": "Tasmania Fire Service：Australian Warning System 詳解"
+        },
+        {
+          "label": "CFA：關於火災危險等級"
+        },
+        {
+          "label": "SecureNT：火災危險等級"
+        },
+        {
+          "label": "Parks Victoria：預報 Catastrophic 時的公園關閉"
+        },
+        {
+          "label": "Parks Victoria：大範圍公園關閉，2026年1月9日星期五"
+        },
+        {
+          "label": "NSW Government：Hazards Near Me NSW"
+        },
+        {
+          "label": "NSW Rural Fire Service：Neighbourhood Safer Places"
+        },
+        {
+          "label": "Queensland Government：關注森林大火警報"
+        },
+        {
+          "label": "ACT Emergency Services Agency：Fires Near Me"
+        },
+        {
+          "label": "TasALERT：了解你的警報"
+        },
+        {
+          "label": "AusAlert：什麼是 AusAlert"
+        }
+      ],
+      "priceTable": null
     }
   },
   "consent": {

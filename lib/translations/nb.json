@@ -23540,6 +23540,265 @@
         }
       ],
       "priceTable": null
+    },
+    "bushfire-safety-camping-australia": {
+      "title": "Brannsikkerhet for campere i Australia 2026-27: nivåer, varsler og apper",
+      "description": "Hva hvert brannfarenivå betyr på en campingplass, de tre varslingsnivåene, varslingsappen i hver delstat og når du bør dra. Sjekket i november 2026.",
+      "region": "Australia",
+      "imageAlt": "Et brannfareskilt langs veien i New South Wales med teksten Your fire risk today is og feltene Moderate, High, Extreme og Catastrophic",
+      "intro": "Sjekk to ting hver morgen i brannsesongen: brannfarenivået for distriktet ditt og eventuelle varsler nær campingplassen. På en Extreme-dag bør du vurdere å ikke bli i bush eller gressmark; på en Catastrophic-dag drar du kvelden før eller tidlig om morgenen, for parker kan stenge og hjelp når deg kanskje ikke. Varsler kommer fra delstatens app eller nettsted, ikke fra et nasjonalt, så installer riktig app før du kjører inn i bushen. Vi leste hver brannvesen-side 3. november 2026.",
+      "sections": [
+        {
+          "heading": "Brannfarenivåer: hva hvert nivå betyr på en campingplass",
+          "body": [
+            "Australian Fire Danger Rating System bruker de samme fire nivåene i alle delstater, så skiltet utenfor en småby og prognosen i en app betyr det samme. Nivået er en prognose for hvordan en brann ville oppføre seg hvis den startet den dagen, ikke et tegn på at det brenner.",
+            "På en Moderate- eller High-dag holder de fleste campingplasser åpent, men vit hvordan du kommer deg ut. Fra Extreme er den offisielle beskjeden å handle nå, og <a data-guide=\"camping-rules-northern-territory\">Northern Territory</a> legger til at reisende bør revurdere reiser gjennom områder med fare for buskbrann. Catastrophic betyr: dra."
+          ],
+          "tips": [
+            "De samme fire nivåene i alle delstater",
+            "Et nivå er en prognose, ikke en brann",
+            "Catastrophic betyr: dra"
+          ],
+          "table": {
+            "caption": "Brannfarenivåer og den offisielle beskjeden for hvert, med hva det betyr for en camper. Lest 3. november 2026.",
+            "head": [
+              "Nivå",
+              "Offisiell beskjed",
+              "For en camper"
+            ],
+            "rows": [
+              [
+                "Moderate",
+                "Plan and prepare",
+                "Kjenn utkjørslene fra campingplassen og hvor nærmeste by ligger"
+              ],
+              [
+                "High",
+                "Prepare to act",
+                "Sjekk varsler morgen og kveld, og hold bilen pakket og fulltanket"
+              ],
+              [
+                "Extreme",
+                "Take action now to protect your life and property",
+                "Vurder å ikke bli i bush eller gressmark; flytt til en by eller kysten"
+              ],
+              [
+                "Catastrophic",
+                "For your survival, leave bush fire risk areas",
+                "Dra kvelden før eller tidlig om morgenen; parker kan stenge"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Utsiktene for 2026-27",
+          "body": [
+            "AFACs Seasonal Bushfire Outlook for våren 2026, sist oppdatert 19. august 2026, viser økt brannpotensial i nordlige og sørøstlige <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a>, sørøstlige Queensland, nordøstlige Tasmania, store deler av Northern Territory og deler av Victoria, South Australia og Western Australia. Bak ligger tørr jord, mindre regn enn normalt og mye brennbart materiale.",
+            "AFAC publiserer hvert år en sommerprognose, vanligvis i slutten av november. Les den før du låser en januarreise til skogområder, og regn med at <a data-guide=\"campfires-camping-australia\">totalforbud mot åpen ild</a> og parkstengninger er mer sannsynlige i områdene den markerer."
+          ],
+          "tips": [
+            "Våren 2026: høyere risiko i deler av alle delstater",
+            "En sommerprognose følger i slutten av november",
+            "Sjekk den før du booker plasser i skogområder"
+          ]
+        },
+        {
+          "heading": "Varslingsnivåer: Advice, Watch and Act, Emergency Warning",
+          "body": [
+            "Når en brann pågår, utsteder brannvesenet et varsel på ett av tre nivåer, hver med en handling som “Leave now” eller “Shelter now”. Nivåer kan hoppes over: en rask brann kan starte på Watch and Act eller Emergency Warning uten en Advice først.",
+            "Brannvesenet i <a data-guide=\"camping-rules-tasmania\">Tasmania</a> bruker, som alle delstater, Australian Warning System. Les handlingen i varselet og følg den med en gang: når det står at det er for sent å dra, må du ikke prøve å kjøre ut gjennom røyk."
+          ],
+          "tips": [
+            "Varsler kan hoppe over et nivå",
+            "Følg handlingen i varselet",
+            "For sent å dra betyr søk ly"
+          ],
+          "table": {
+            "caption": "Nivåer i Australian Warning System for buskbranner, fra Tasmania Fire Service. Lest 3. november 2026.",
+            "head": [
+              "Nivå",
+              "Farge",
+              "Hva det betyr",
+              "Typiske handlinger"
+            ],
+            "rows": [
+              [
+                "Advice",
+                "Gul",
+                "En brann har startet; ingen umiddelbar fare",
+                "Hold deg orientert, unngå området"
+              ],
+              [
+                "Watch and Act",
+                "Oransje",
+                "Forholdene endrer seg og trusselen er høyere",
+                "Gjør deg klar til å dra, eller dra nå hvis du ikke er forberedt"
+              ],
+              [
+                "Emergency Warning",
+                "Rød",
+                "Du kan være i fare og må handle nå",
+                "Dra umiddelbart, eller søk ly nå hvis det er for sent å dra"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Varslingsapper og nettsteder per delstat",
+          "body": [
+            "Det finnes ingen nasjonal app for buskbranner. Installer appen for hver delstat du skal campe i, og sett opp en overvåkingssone ved campingplassen, for appen varsler deg om stedene du velger, ikke bare om hvor du er.",
+            "Telefoner får også varsler fra myndighetene. AusAlert, det nasjonale systemet som sender varsler til telefoner via cell broadcast, sier at dette gjelder besøkende i et område og folk som roamer, hvis enheten er kompatibel. Se på det som en reserve: i en dal <a data-guide=\"camping-without-phone-signal\">uten dekning</a> kommer ingenting frem. Sjekk derfor appen før du mister dekning, og ta med en AM- eller FM-radio for ABCs nødsendinger."
+          ],
+          "tips": [
+            "Én app per delstat",
+            "Sett opp en overvåkingssone ved campingplassen",
+            "Radio virker når mobilen ikke gjør det"
+          ],
+          "table": {
+            "caption": "Hvor hver delstat og hvert territorium publiserer buskbrannvarsler. Lest 3. november 2026.",
+            "head": [
+              "Delstat eller territorium",
+              "Varsler",
+              "Brannvesen"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "Appen Hazards Near Me NSW",
+                "NSW Rural Fire Service"
+              ],
+              [
+                "Victoria",
+                "Appen og nettstedet VicEmergency",
+                "CFA og Fire Rescue Victoria"
+              ],
+              [
+                "Queensland",
+                "Kart over pågående hendelser på fire.qld.gov.au",
+                "Queensland Fire Department"
+              ],
+              [
+                "South Australia",
+                "Appen Alert SA",
+                "Country Fire Service"
+              ],
+              [
+                "Western Australia",
+                "Appen og nettstedet Emergency WA",
+                "Department of Fire and Emergency Services"
+              ],
+              [
+                "Tasmania",
+                "Nettstedet TasALERT",
+                "Tasmania Fire Service"
+              ],
+              [
+                "Australian Capital Territory",
+                "ESAs nettsted, siden Fires Near Me",
+                "ACT Emergency Services Agency"
+              ],
+              [
+                "Northern Territory",
+                "Nettstedet SecureNT",
+                "NT Fire and Rescue Service og Bushfires NT"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Når parker stenger",
+          "body": [
+            "<a data-guide=\"camping-rules-victoria\">Victoria</a> stenger parker og skoger på Catastrophic-dager. Parks Victoria sier at de ved et varslet brannfarenivå Catastrophic stenger parker og skoger sammen med DEECA, inkludert statsskoger og nasjonalparker, av hensyn til allmenn sikkerhet. Hvis du allerede er der, drar du kvelden før eller tidlig om morgenen, og venter ikke på et skilt eller et personlig varsel, som kanskje ikke kommer. 9. januar 2026 ble campingbookingene berørt av stengingen kansellert og refundert.",
+            "Andre delstater stenger parker område for område etter forholdene, og en stenging kan gjelde campingplasser, piknikområder og turstier. Hver parkmyndighet lister stenginger og <a data-guide=\"campfires-camping-australia\">totalforbud mot åpen ild</a> på parkens varslingsside, så sjekk den morgenen du skal ankomme, ikke bare når du booker."
+          ],
+          "tips": [
+            "Victoria stenger parker på Catastrophic-dager",
+            "Stenginger er ikke alltid skiltet",
+            "Sjekk parkens varsler samme morgen"
+          ]
+        },
+        {
+          "heading": "Hvis det starter en brann nær campingplassen din",
+          "body": [
+            "Dra tidlig, før ilden er nær. Veier nær en brann stenges raskt, røyk kutter sikten til noen få meter, og en campingplass i skogen er et av de verste stedene når brannfronten kommer. Kjør mot en by eller åpent terreng, aldri mot røyken, og ring Triple Zero (000) hvis du ser en brann ingen tar seg av.",
+            "Hvis du ikke kan dra, gå til et sted som siste utvei. I <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> er det Neighbourhood Safer Places, som NSW Rural Fire Service beskriver som et sted som siste utvei som ikke garanterer sikkerheten din; andre delstater har lignende lister. Finn det nærmeste når du ankommer, ikke når varselet kommer."
+          ],
+          "tips": [
+            "Dra før ilden er nær",
+            "Ring 000 ved en brann uten tilsyn",
+            "Kjenn det nærmeste stedet som siste utvei"
+          ]
+        },
+        {
+          "heading": "Planlegg etter brannsesongen i AussieCamps",
+          "body": [
+            "AussieCamps samler campingplasser, rasteplasser og holiday parks på ett kart, så når en campingplass i skogen stenger på en brannfaredag, kan du finne et overnattingssted i nærmeste by eller ved kysten og lagre det i turen din. Stedsdetaljer lagres på telefonen, så du kan fortsatt lese fasilitetene på en campingplass uten dekning.",
+            "Kart, ruter og vær trenger en tilkobling, så sjekk dem og delstatens varslingsapp før du kjører ut av dekning. AussieCamps kjører på iPhone."
+          ],
+          "tips": [
+            "Finn raskt overnatting i en by eller ved kysten",
+            "Detaljer lagret for når det ikke er dekning",
+            "Sjekk varsler før du mister dekning"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hva bør campere gjøre på en dag med brannfarenivå Catastrophic?",
+          "Forlat områder med fare for buskbrann dagen før eller tidlig samme morgen. Den nasjonale beskjeden for Catastrophic er “For your survival, leave bush fire risk areas”, og i Victoria stenger Parks Victoria og DEECA parker og statsskoger på dager varslet som Catastrophic, og kansellerer og refunderer campingbookingene."
+        ],
+        [
+          "Hvilken app viser buskbrannvarsler i Australia?",
+          "Hver delstat har sin egen: Hazards Near Me NSW, VicEmergency, Emergency WA, Alert SA og TasALERT. Queensland publiserer varsler på Queensland Fire Departments kart over pågående hendelser, ACT på ESAs nettsted og Northern Territory på SecureNT. Sett opp en overvåkingssone for stedet du camper, ikke bare for hjemmet."
+        ],
+        [
+          "Hva er forskjellen mellom et brannfarenivå og et varsel?",
+          "Et brannfarenivå er en prognose for hvor farlig en brann ville vært hvis en startet, fra Moderate til Catastrophic. Et varsel gjelder en brann som brenner: Advice, Watch and Act eller Emergency Warning. En Catastrophic-dag kan være helt uten brann, og et Advice-varsel kan komme på en Moderate-dag."
+        ],
+        [
+          "Får en utenlandsk telefon nødvarsler i Australia?",
+          "AusAlerts nettsted sier at varsler når besøkende i området og folk som roamer, så lenge enheten er kompatibel. Ikke stol bare på det: installer delstatens varslingsapp og sjekk den hver morgen mens du er i brannområder."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "AFAC: Seasonal Bushfire Outlook, våren 2026"
+        },
+        {
+          "label": "Tasmania Fire Service: Australian Warning System forklart"
+        },
+        {
+          "label": "CFA: om brannfarenivåer"
+        },
+        {
+          "label": "SecureNT: brannfarenivåer"
+        },
+        {
+          "label": "Parks Victoria: parkstenginger ved varslet Catastrophic"
+        },
+        {
+          "label": "Parks Victoria: store parkstenginger, fredag 9. januar 2026"
+        },
+        {
+          "label": "NSW Government: Hazards Near Me NSW"
+        },
+        {
+          "label": "NSW Rural Fire Service: Neighbourhood Safer Places"
+        },
+        {
+          "label": "Queensland Government: følg med på buskbrannvarsler"
+        },
+        {
+          "label": "ACT Emergency Services Agency: Fires Near Me"
+        },
+        {
+          "label": "TasALERT: kjenn varslene dine"
+        },
+        {
+          "label": "AusAlert: hva er AusAlert"
+        }
+      ],
+      "priceTable": null
     }
   },
   "consent": {
