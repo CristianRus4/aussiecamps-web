@@ -9,7 +9,8 @@ import { SITE_URL, sitePath } from "@/lib/site";
 import { htmlLang, localeRoot, type LocaleCode } from "@/lib/locales";
 import { localizedArticles } from "@/lib/localized";
 import { hubData, type Hub } from "@/lib/hubs/gate";
-import { hubAttributions, hubById, hubPageKey, indexableParksOf, sectionHubs, sectionOf, sectionPageKey, type HubSection } from "@/lib/hubs/pages";
+import { hubAttributions, hubById, hubPageKey, indexableParksOf, neighbourHubs, sectionHubs, sectionOf, sectionPageKey, type HubSection } from "@/lib/hubs/pages";
+import { hubGuides, noteKeys, stateNotes } from "@/lib/hubs/regions";
 import { factLabel, fill, labelKey } from "@/lib/hubs/strings";
 import {
   localizedHubName, localizedHubPath, localizedHubs, localizedHubSummary, localizedHubView, localizedSectionPath,
@@ -35,9 +36,15 @@ export function LocalizedHubPage({ hub, locale }: { hub: Hub; locale: LocaleCode
   const where = hub.kind === "camping-park" ? hub.name : hub.stateName;
   const prose = t.prose[hub.id] ?? [];
   const rules = localizedArticles(locale).find((article) => article.slug === hub.rulesGuide);
+
   const children = localizedHubs.filter((other) => other.parent === hub.id);
   const related = localizedHubs.filter((other) => other.state === hub.state && other.parent === null && other.id !== hub.id && sectionOf(other.kind) !== section);
   const parent = hub.parent ? hubById.get(hub.parent) : undefined;
+  const notes = stateNotes[hub.state];
+  const [seasonKey, permitsKey] = noteKeys(hub.state);
+  const articles = localizedArticles(locale);
+  const guides = hubGuides(hub.state, section, hub.rulesGuide).flatMap((slug) => articles.find((article) => article.slug === slug) ?? []);
+  const nearby = neighbourHubs(hub).filter((other) => hasPage.has(other.id));
   const crumbs = [
     { name: t.common.home, path: sitePath(prefix || "/") },
     { name: copy.label, path: localizedSectionPath(section, locale) },
@@ -120,6 +127,20 @@ export function LocalizedHubPage({ hub, locale }: { hub: Hub; locale: LocaleCode
             {children.length > 0 && <section className="sources">
               <h2>{fill(t.common.parksTitle, { state: hub.stateName })}</h2>
               <ul>{children.map((child) => <li key={child.id}><Link href={localizedHubPath(child, locale)}>{fill(t.common.parkItem, { name: child.name, count: number(child.placeCount) })}<ArrowRight /></Link></li>)}</ul>
+            </section>}
+            {notes && <section className="sources hub-notes">
+              <h2>{fill(t.common.notesTitle, { where: hub.stateName })}</h2>
+              <p>{t.notes[seasonKey]}</p>
+              <p>{t.notes[permitsKey]}</p>
+              <p>{t.common.notesSources}: {notes.sources.map((source, index) => <span key={source.url}>{index > 0 && ", "}<a href={source.url} rel="noopener">{source.name}</a></span>)}</p>
+            </section>}
+            {guides.length > 0 && <section className="sources">
+              <h2>{fill(t.common.guidesTitle, { where: hub.stateName })}</h2>
+              <ul>{guides.map((guide) => <li key={guide.slug}><Link href={sitePath(`${prefix}/guides/${guide.slug}`)} data-guide={guide.slug}>{guide.title}<ArrowRight /></Link></li>)}</ul>
+            </section>}
+            {nearby.length > 0 && <section className="sources">
+              <h2>{hub.kind === "camping-park" ? fill(t.common.parksTitle, { state: hub.stateName }) : t.common.neighboursTitle}</h2>
+              <ul>{nearby.map((other) => <li key={other.id}><Link href={localizedHubPath(other, locale)}>{hub.kind === "camping-park" ? fill(t.common.parkItem, { name: other.name, count: number(other.placeCount) }) : localizedHubName(other, t)}<ArrowRight /></Link></li>)}</ul>
             </section>}
             <section className="sources">
               <h2>{t.common.beforeTitle}</h2>

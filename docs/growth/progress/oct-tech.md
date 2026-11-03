@@ -41,8 +41,29 @@ So the "drop" is English traffic moving back to the English URL, not a regressio
 
 **Extensionless NZ legacy URLs** (`/freedom-camping-rules-nz`, `/self-contained-vehicles-nz`). GitHub Pages serves the `.html` file at the extensionless address with a 200, and that copy already carries the `.html` canonical. Nothing on the site links the extensionless form, so its impressions come from Google's own history and outside links. Without redirects the only levers are the canonical, the sitemap and internal links, and all three already point at `.html`. Google lists the `.html` as "Discovered, not indexed", so it has not crawled it yet. The orchestrator should request indexing for both `.html` URLs.
 
+## 3. Thin data hubs: done
+
+The indexable hubs on both sites already carried counts by place type, facility shares, notable places in hand-written prose (at least 250 words, gated) and a named list with official links. What they lacked was guidance beyond the data table and links out to the rest of the site. Every hub template now adds three sections, in English and all 15 locales.
+
+**AussieCamps** (`lib/hubs/regions.ts`): state and park camping hubs, dump point hubs and rest area hubs.
+- **Season and permits in <state>.** Two sentences per state: the fire season and the booking or pass rules. Each restates a rule already fact-checked in that state's camping rules guide, with the agency pages linked (NPWS and RFS, Parks Victoria and CFA, QPWS and QFD, NT Parks and Parks Australia, DBCA, NPWS SA and CFS, PWS Tasmania, ACT Parks and ESA). No prices, so nothing goes stale with a fee change.
+- **Guides for <state>.** Up to four of the state's road trips and drives, then two guides for the hub type (camping fees and best time; dump points and water; sleeping in a car and fatigue). Scheduled drive guides join on their publish day. The rules guide stays under "Before you go".
+- **Neighbouring states.** The same hub type in states that share a border, indexable only. A park hub lists the state's other park hubs instead.
+
+**KiwiCamping** (`lib/hub-regions.ts`): campsite, hut and freedom camping hubs.
+- **Bookings and fire season** (freedom camping: vehicle rules and fire season). Two notes per hub type, checked against DOC's booking and paying pages: bookable campsites need a booking even with a Campsite Pass; basic huts are free and non-bookable huts are first come, first served, paid with a pass or tickets bought beforehand; Great Walk huts and campsites are booked for a season whose dates differ by track; green warrant vehicles; council land rules; checkitsalright. I left out per-region notes: Great Walks season dates differ by track, and a wrong date on 18 regions would cost more than it gains. The new Great Walk guides cover the dates.
+- **Guides for <region or district>.** Road trips, drives, the Great Walk guides and the council freedom camping guides as they publish, then the guides for the hub type.
+- **Nearby regions or districts.** Same hub type: bordering DOC regions (Wellington and Marlborough linked across Cook Strait), or the other districts of a freedom camping hub's DOC operations region. Indexable hubs only.
+
+**Translations.** AU: 4 headings and 16 state notes; NZ: 4 headings and 9 notes; all 15 locales, in each style guide's register, with agency and programme names kept in English. A translated AU hub needs its state's notes, and every English number must appear in the translation; extra numbers are allowed because Japanese, Korean and Chinese write months as numbers. NZ notes carry no numbers. All 24 AU and 32 NZ translated hubs stay complete in every locale.
+
+**Noindex choices.** The existing gates already do this, and I kept them as they are:
+- AU (68): the ACT camping hub (7 campgrounds), the South Australia rest area hub, and 66 park hubs below 20 places or without 250 words of prose.
+- NZ (20): camping in Auckland, Bay of Plenty, Hawke's Bay, Southland, Waikato and Wairarapa; huts in Bay of Plenty, Northland, Taranaki and Waikato; freedom camping in Bay of Islands, Buller, Geraldine, Golden Bay, Kauri Coast, Motueka, Murihiku, Nelson Lakes, North Canterbury and Sounds.
+- All of them are built for visitors, noindex, follow, and out of the sitemap, hreflang and every listing.
+
 ## Next
-3. Thin data hubs.
+4. Structured data.
 4. Structured data.
 5. IndexNow.
 
