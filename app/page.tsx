@@ -15,8 +15,8 @@ import { mainData } from "@/lib/analytics";
 import { alternatesFor, homeSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: { absolute: "AussieCamps: Australia Camping Map & Road Trip Planner" },
-  description: "Find 74,000+ campgrounds, caravan parks, free camps, rest areas and dump points across Australia. Offline place details, sharp filters and a stop-by-stop road trip planner for iPhone.",
+  title: { absolute: "AussieCamps: Camping App for Australia, Map and Trip Planner" },
+  description: "The camping app for Australia: find 74,000+ campgrounds, caravan parks, free camps, rest areas and dump points, with offline place details and a road trip planner for iPhone.",
   alternates: { canonical: "/", languages: alternatesFor("home") },
 };
 

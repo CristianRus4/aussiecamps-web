@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   applicationName: "AussieCamps",
   keywords: [
     "camping app Australia", "free camping Australia", "campgrounds Australia", "caravan parks Australia",
-    "camps Australia app", "offline camping map Australia", "big lap app", "caravan app Australia",
+    "camps Australia app", "big lap app", "caravan app Australia",
     "dump points Australia", "rest areas Australia", "road trip planner Australia", "best camping app Australia",
     "campsites near me Australia", "Queensland free camping", "Western Australia camping",
   ],
