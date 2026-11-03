@@ -23,3 +23,7 @@ Dropped: total fire bans by state with penalties (owned by `campfires-camping-au
 - Baseline before changes (BUILD_DATE 2026-11-03): 122 indexable per locale, 123 en.
 - Next: Kiwi posts on `growth/k-oct-posts`.
 - Not done: screen figures for the four pages (optional; no app screenshots at hand).
+
+## Round 2 (2026-11-03)
+- Merged to main as 9b1fe4c.
+- Inbound links added through `related` only (no translated text changes): campfires-camping-australia and camping-weather-safety-australia -> bushfire; christmas-summer-camping-australia-2026-27 -> school holidays; australia-road-trip-fuel-cost-2026 and best-fuel-price-apps-australia -> fuel prices; campervan-hire-cost-australia-2026 -> tolls. Each shows once the new guide is live.
