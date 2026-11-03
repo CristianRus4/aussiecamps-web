@@ -1,5 +1,6 @@
 import { currencyRates } from "../currency";
 import type { ToolKey } from "../source-strings";
+import { fuelBenchmark } from "./fuel-prices";
 
 /**
  * The five calculators: the server-rendered first result and the inline script that updates it. `intl` is the page’s Intl locale (en-AU for English).
@@ -16,7 +17,7 @@ export type ToolUi = {
 };
 
 export const toolDefaults = {
-  "fuel-cost-calculator": { distance: 1000, consumption: 12, price: 2.08 },
+  "fuel-cost-calculator": { distance: 1000, consumption: 12, price: fuelBenchmark.petrol },
   "drive-time-calculator": { distance: 250, speed: 60, stops: 3 },
   "campsite-cost-calculator": { adults: 2, nights: 5, perPerson: 20, perSite: 50 },
   "currency-converter": { amount: 100, from: "AUD", to: "NZD" },

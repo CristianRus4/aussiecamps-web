@@ -23655,9 +23655,9 @@
         ],
         "formulaNote": "La calculadora redondea los litros a un decimal y los importes al centavo. No se añade nada más: los peajes, el aceite y el desgaste de los neumáticos van como partidas aparte del presupuesto.",
         "example": [
-          "Un trayecto de 1.000 km en un vehículo que consume 12 l/100 km con la gasolina a 2,08 AUD el litro, la media de las cinco ciudades más grandes según los datos de Fuel Plan del 5 de agosto de 2026.",
-          "1.000 × 12 ÷ 100 = 120 litros. 120 × 2,08 AUD = 249,60 AUD. 249,60 AUD ÷ 1.000 km = unos 0,25 AUD por kilómetro.",
-          "El mismo trayecto en un vehículo diésel, con la media del diésel de ese día de 2,47 AUD el litro, cuesta 120 × 2,47 AUD = 296,40 AUD."
+          "Un trayecto de 1.000 km en un vehículo que consume 12 l/100 km con la gasolina a 2,33 AUD el litro, la media de las cinco ciudades más grandes según el Australian Institute of Petroleum en la semana hasta el 1 de noviembre de 2026.",
+          "1.000 × 12 ÷ 100 = 120 litros. 120 × 2,33 AUD = 279,60 AUD. 279,60 AUD ÷ 1.000 km = unos 0,28 AUD por kilómetro.",
+          "El mismo trayecto en un vehículo diésel, con la media del diésel de esa semana de 2,77 AUD el litro, cuesta 120 × 2,77 AUD = 332,40 AUD."
         ],
         "assumptions": [
           "El consumo es el del vehículo cargado. Una camper, una carga en el techo o una caravana enganchada consumen más de lo que dice el folleto, así que mide tu consumo real si puedes.",
@@ -23671,7 +23671,7 @@
           ],
           [
             "¿Cómo calculo el coste del combustible por kilómetro?",
-            "Divide los l/100 km entre 100 y multiplica por el precio por litro. Con 12 l/100 km y 2,08 AUD el litro son 0,12 × 2,08, unos 0,25 AUD por kilómetro."
+            "Divide los l/100 km entre 100 y multiplica por el precio por litro. Con 12 l/100 km y 2,33 AUD el litro son 0,12 × 2,33, unos 0,28 AUD por kilómetro."
           ],
           [
             "¿Qué precio del combustible debo usar?",

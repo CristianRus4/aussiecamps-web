@@ -23626,9 +23626,9 @@
         ],
         "formulaNote": "Räknaren avrundar liter till en decimal och pengar till närmaste cent. Inget annat läggs till: vägtullar, olja och däckslitage är egna poster i en budget.",
         "example": [
-          "En resa på 1 000 km i ett fordon som drar 12 l/100 km, med 2,08 AUD per liter. Det är genomsnittet för bensin i de fem största städerna enligt Fuel Plan-data för 5 augusti 2026.",
-          "1 000 × 12 ÷ 100 = 120 liter. 120 × 2,08 AUD = 249,60 AUD. 249,60 AUD ÷ 1 000 km = ca 0,25 AUD per kilometer.",
-          "Samma resa med ett dieselfordon, till samma dags dieselsnitt på 2,47 AUD per liter, kostar 120 × 2,47 AUD = 296,40 AUD."
+          "En resa på 1 000 km i ett fordon som drar 12 l/100 km, med 2,33 AUD per liter. Det är genomsnittet för bensin i de fem största städerna enligt Australian Institute of Petroleum veckan fram till 1 november 2026.",
+          "1 000 × 12 ÷ 100 = 120 liter. 120 × 2,33 AUD = 279,60 AUD. 279,60 AUD ÷ 1 000 km = ca 0,28 AUD per kilometer.",
+          "Samma resa med ett dieselfordon, till samma veckas dieselsnitt på 2,77 AUD per liter, kostar 120 × 2,77 AUD = 332,40 AUD."
         ],
         "assumptions": [
           "Förbrukningen avser fordonet med last. En campervan, taklast eller en husvagn på kroken drar mer än broschyrens siffra, så mät din egen om du kan.",
@@ -23642,7 +23642,7 @@
           ],
           [
             "Hur räknar jag ut bränslekostnaden per km?",
-            "Dela l/100 km med 100 och multiplicera med literpriset. Vid 12 l/100 km och 2,08 AUD per liter blir det 0,12 × 2,08, alltså ca 0,25 AUD per kilometer."
+            "Dela l/100 km med 100 och multiplicera med literpriset. Vid 12 l/100 km och 2,33 AUD per liter blir det 0,12 × 2,33, alltså ca 0,28 AUD per kilometer."
           ],
           [
             "Vilket bränslepris ska jag använda?",

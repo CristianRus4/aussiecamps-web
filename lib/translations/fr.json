@@ -488,9 +488,9 @@
         ],
         "formulaNote": "Le calculateur arrondit les litres à une décimale et les montants au centime. Rien d’autre n’est ajouté : péages, huile et usure des pneus sont des postes à part dans un budget.",
         "example": [
-          "Un trajet de 1 000 km avec un véhicule qui consomme 12 l/100 km, à 2,08 $ AU le litre, soit le prix moyen de l’essence dans les cinq plus grandes villes selon les données Fuel Plan du 5 août 2026.",
-          "1 000 × 12 ÷ 100 = 120 litres. 120 × 2,08 $ AU = 249,60 $ AU. 249,60 $ AU ÷ 1 000 km = environ 0,25 $ AU du kilomètre.",
-          "Avec un véhicule diesel, au prix moyen du gazole ce jour-là (2,47 $ AU le litre), le même trajet coûte 120 × 2,47 $ AU = 296,40 $ AU."
+          "Un trajet de 1 000 km avec un véhicule qui consomme 12 l/100 km, à 2,33 $ AU le litre, soit le prix moyen de l’essence dans les cinq plus grandes villes selon l’Australian Institute of Petroleum, semaine se terminant le 1er novembre 2026.",
+          "1 000 × 12 ÷ 100 = 120 litres. 120 × 2,33 $ AU = 279,60 $ AU. 279,60 $ AU ÷ 1 000 km = environ 0,28 $ AU du kilomètre.",
+          "Avec un véhicule diesel, au prix moyen du gazole la même semaine (2,77 $ AU le litre), le même trajet coûte 120 × 2,77 $ AU = 332,40 $ AU."
         ],
         "assumptions": [
           "La consommation est celle du véhicule chargé. Un van, une charge sur le toit ou une caravane à l’arrière consomment plus que le chiffre du constructeur : mesurez la vôtre si possible.",
@@ -504,7 +504,7 @@
           ],
           [
             "Comment calculer le coût du carburant au km ?",
-            "Divisez les l/100 km par 100 et multipliez par le prix du litre. À 12 l/100 km et 2,08 $ AU le litre, cela donne 0,12 × 2,08, soit environ 0,25 $ AU du kilomètre."
+            "Divisez les l/100 km par 100 et multipliez par le prix du litre. À 12 l/100 km et 2,33 $ AU le litre, cela donne 0,12 × 2,33, soit environ 0,28 $ AU du kilomètre."
           ],
           [
             "Quel prix du carburant utiliser ?",

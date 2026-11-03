@@ -306,9 +306,9 @@
         ],
         "formulaNote": "Kalkulačka zaokrouhluje litry na jedno desetinné místo a peníze na centy. Nic dalšího nepřičítá: mýtné, olej a opotřebení pneumatik jsou v rozpočtu samostatné položky.",
         "example": [
-          "Jízda dlouhá 1 000 km ve vozidle se spotřebou 12 l/100 km při ceně 2,08 AUD za litr, což byla podle dat Fuel Plan 5. srpna 2026 průměrná cena benzinu v pěti největších městech.",
-          "1 000 × 12 ÷ 100 = 120 litrů. 120 × 2,08 AUD = 249,60 AUD. 249,60 AUD ÷ 1 000 km = zhruba 0,25 AUD za kilometr.",
-          "Stejná jízda s naftovým vozidlem při tehdejší průměrné ceně nafty 2,47 AUD za litr stojí 120 × 2,47 AUD = 296,40 AUD."
+          "Jízda dlouhá 1 000 km ve vozidle se spotřebou 12 l/100 km při ceně 2,33 AUD za litr, což byla podle Australian Institute of Petroleum v týdnu do 1. listopadu 2026 průměrná cena benzinu v pěti největších městech.",
+          "1 000 × 12 ÷ 100 = 120 litrů. 120 × 2,33 AUD = 279,60 AUD. 279,60 AUD ÷ 1 000 km = zhruba 0,28 AUD za kilometr.",
+          "Stejná jízda s naftovým vozidlem při průměrné ceně nafty ze stejného týdne 2,77 AUD za litr stojí 120 × 2,77 AUD = 332,40 AUD."
         ],
         "assumptions": [
           "Spotřeba je hodnota pro naložené vozidlo. Obytná dodávka, náklad na střeše nebo karavan za autem spálí víc, než uvádí prospekt, proto si spotřebu pokud možno změřte sami.",
@@ -322,7 +322,7 @@
           ],
           [
             "Jak spočítám cenu paliva na kilometr?",
-            "Spotřebu v l/100 km vydělte stem a vynásobte cenou za litr. Při 12 l/100 km a 2,08 AUD za litr je to 0,12 × 2,08, zhruba 0,25 AUD za kilometr."
+            "Spotřebu v l/100 km vydělte stem a vynásobte cenou za litr. Při 12 l/100 km a 2,33 AUD za litr je to 0,12 × 2,33, zhruba 0,28 AUD za kilometr."
           ],
           [
             "Jakou cenu paliva mám použít?",

@@ -488,9 +488,9 @@
         ],
         "formulaNote": "De rekenhulp rondt liters af op één decimaal en bedragen op de cent. Er wordt verder niets bij opgeteld: tol, olie en bandenslijtage zijn aparte posten in een budget.",
         "example": [
-          "Een rit van 1.000 km in een voertuig dat 12 l/100 km verbruikt, bij A$ 2,08 per liter: het gemiddelde voor benzine in de vijf grootste steden volgens de Fuel Plan-gegevens van 5 augustus 2026.",
-          "1.000 × 12 ÷ 100 = 120 liter. 120 × A$ 2,08 = A$ 249,60. A$ 249,60 ÷ 1.000 km = ongeveer A$ 0,25 per kilometer.",
-          "Dezelfde rit met een dieselvoertuig, tegen het dieselgemiddelde van die dag van A$ 2,47 per liter, kost 120 × A$ 2,47 = A$ 296,40."
+          "Een rit van 1.000 km in een voertuig dat 12 l/100 km verbruikt, bij A$ 2,33 per liter: het gemiddelde voor benzine in de vijf grootste steden volgens het Australian Institute of Petroleum in de week tot en met 1 november 2026.",
+          "1.000 × 12 ÷ 100 = 120 liter. 120 × A$ 2,33 = A$ 279,60. A$ 279,60 ÷ 1.000 km = ongeveer A$ 0,28 per kilometer.",
+          "Dezelfde rit met een dieselvoertuig, tegen het dieselgemiddelde van die week van A$ 2,77 per liter, kost 120 × A$ 2,77 = A$ 332,40."
         ],
         "assumptions": [
           "Het verbruik is het cijfer met lading. Met een camper, bagage op het dak of een caravan erachter verbruik je meer dan het cijfer in de brochure, dus meet je eigen verbruik als je kunt.",
@@ -504,7 +504,7 @@
           ],
           [
             "Hoe bereken ik de brandstofkosten per km?",
-            "Deel het verbruik in l/100 km door 100 en vermenigvuldig met de prijs per liter. Bij 12 l/100 km en A$ 2,08 per liter is dat 0,12 × 2,08, ongeveer A$ 0,25 per kilometer."
+            "Deel het verbruik in l/100 km door 100 en vermenigvuldig met de prijs per liter. Bij 12 l/100 km en A$ 2,33 per liter is dat 0,12 × 2,33, ongeveer A$ 0,28 per kilometer."
           ],
           [
             "Welke brandstofprijs moet ik gebruiken?",

@@ -488,9 +488,9 @@
         ],
         "formulaNote": "Il calcolatore arrotonda i litri a un decimale e gli importi al centesimo. Non aggiunge nient’altro: pedaggi, olio e usura dei pneumatici sono voci a parte nel budget.",
         "example": [
-          "Un viaggio di 1.000 km con un mezzo che consuma 12 l/100 km, a 2,08 A$ al litro: la media della benzina nelle cinque città più grandi nei dati Fuel Plan del 5 agosto 2026.",
-          "1.000 × 12 ÷ 100 = 120 litri. 120 × 2,08 A$ = 249,60 A$. 249,60 A$ ÷ 1.000 km = circa 0,25 A$ al chilometro.",
-          "Lo stesso viaggio con un mezzo diesel, alla media del diesel di quel giorno di 2,47 A$ al litro, costa 120 × 2,47 A$ = 296,40 A$."
+          "Un viaggio di 1.000 km con un mezzo che consuma 12 l/100 km, a 2,33 A$ al litro: la media della benzina nelle cinque città più grandi secondo l’Australian Institute of Petroleum nella settimana fino al 1° novembre 2026.",
+          "1.000 × 12 ÷ 100 = 120 litri. 120 × 2,33 A$ = 279,60 A$. 279,60 A$ ÷ 1.000 km = circa 0,28 A$ al chilometro.",
+          "Lo stesso viaggio con un mezzo diesel, alla media del diesel di quella settimana di 2,77 A$ al litro, costa 120 × 2,77 A$ = 332,40 A$."
         ],
         "assumptions": [
           "Il consumo è quello a pieno carico. Un camper, un carico sul tetto o una roulotte al traino consumano più del dato da scheda tecnica, quindi se puoi misura il tuo.",
@@ -504,7 +504,7 @@
           ],
           [
             "Come calcolo il costo del carburante al km?",
-            "Dividi i l/100 km per 100 e moltiplica per il prezzo al litro. Con 12 l/100 km e 2,08 A$ al litro fa 0,12 × 2,08, cioè circa 0,25 A$ al chilometro."
+            "Dividi i l/100 km per 100 e moltiplica per il prezzo al litro. Con 12 l/100 km e 2,33 A$ al litro fa 0,12 × 2,33, cioè circa 0,28 A$ al chilometro."
           ],
           [
             "Quale prezzo del carburante devo usare?",

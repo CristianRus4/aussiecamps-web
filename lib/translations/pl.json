@@ -306,9 +306,9 @@
         ],
         "formulaNote": "Kalkulator zaokrągla litry do jednego miejsca po przecinku, a kwoty do centa. Nic więcej nie dolicza: opłaty drogowe, olej i zużycie opon to w budżecie osobne pozycje.",
         "example": [
-          "Trasa 1 000 km autem, które spala 12 l/100 km, przy cenie 2,08 AUD za litr. To średnia cena benzyny w pięciu największych miastach według danych Fuel Plan z 5 sierpnia 2026.",
-          "1 000 × 12 ÷ 100 = 120 litrów. 120 × 2,08 AUD = 249,60 AUD. 249,60 AUD ÷ 1 000 km = około 0,25 AUD za kilometr.",
-          "Ta sama trasa autem z silnikiem Diesla, przy średniej cenie oleju napędowego z tego dnia, 2,47 AUD za litr, kosztuje 120 × 2,47 AUD = 296,40 AUD."
+          "Trasa 1 000 km autem, które spala 12 l/100 km, przy cenie 2,33 AUD za litr. To średnia cena benzyny w pięciu największych miastach według Australian Institute of Petroleum w tygodniu do 1 listopada 2026 roku.",
+          "1 000 × 12 ÷ 100 = 120 litrów. 120 × 2,33 AUD = 279,60 AUD. 279,60 AUD ÷ 1 000 km = około 0,28 AUD za kilometr.",
+          "Ta sama trasa autem z silnikiem Diesla, przy średniej cenie oleju napędowego z tego tygodnia, 2,77 AUD za litr, kosztuje 120 × 2,77 AUD = 332,40 AUD."
         ],
         "assumptions": [
           "Spalanie to wartość dla załadowanego auta. Kamper, bagaż na dachu albo przyczepa z tyłu spalają więcej niż liczba z katalogu, więc jeśli możesz, zmierz własne.",
@@ -322,7 +322,7 @@
           ],
           [
             "Jak policzyć koszt paliwa na kilometr?",
-            "Podziel spalanie w l/100 km przez 100 i pomnóż przez cenę za litr. Przy 12 l/100 km i 2,08 AUD za litr to 0,12 × 2,08, czyli około 0,25 AUD za kilometr."
+            "Podziel spalanie w l/100 km przez 100 i pomnóż przez cenę za litr. Przy 12 l/100 km i 2,33 AUD za litr to 0,12 × 2,33, czyli około 0,28 AUD za kilometr."
           ],
           [
             "Jaką cenę paliwa przyjąć?",

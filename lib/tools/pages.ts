@@ -22,7 +22,6 @@ export const toolSources: Partial<Record<ToolKey, { label: string; url: string }
   "fuel-cost-calculator": [
     { label: "Australian Institute of Petroleum: weekly petrol prices report", url: "https://aip.com.au/pricing/weekly-petrol-prices-report-week-ending-1-november-2026/" },
     { label: "Australian Institute of Petroleum: weekly diesel prices report", url: "https://aip.com.au/pricing/weekly-diesel-prices-report-week-ending-1-november-2026/" },
-    { label: "Australian Government Fuel Plan statistics", url: "https://fuelplan.gov.au/fuel-statistics" },
   ],
   "drive-time-calculator": [
     { label: "OSRM route service on OpenStreetMap data", url: "https://project-osrm.org/" },

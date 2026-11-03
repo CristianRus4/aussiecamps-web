@@ -23655,9 +23655,9 @@
         ],
         "formulaNote": "Der Rechner rundet Liter auf eine Nachkommastelle und Beträge auf den Cent. Sonst kommt nichts dazu: Maut, Öl und Reifenverschleiß sind eigene Posten im Budget.",
         "example": [
-          "Eine Fahrt über 1.000 km mit einem Fahrzeug, das 12 l/100 km verbraucht, bei 2,08 AUD pro Liter. Das war laut Fuel Plan am 5. August 2026 der Durchschnittspreis für Benzin in den fünf größten Städten.",
-          "1.000 × 12 ÷ 100 = 120 Liter. 120 × 2,08 AUD = 249,60 AUD. 249,60 AUD ÷ 1.000 km = rund 0,25 AUD pro Kilometer.",
-          "Dieselbe Fahrt mit einem Diesel kostet beim Durchschnittspreis für Diesel vom selben Tag, 2,47 AUD pro Liter, 120 × 2,47 AUD = 296,40 AUD."
+          "Eine Fahrt über 1.000 km mit einem Fahrzeug, das 12 l/100 km verbraucht, bei 2,33 AUD pro Liter. Das war laut Australian Institute of Petroleum in der Woche bis zum 1. November 2026 der Durchschnittspreis für Benzin in den fünf größten Städten.",
+          "1.000 × 12 ÷ 100 = 120 Liter. 120 × 2,33 AUD = 279,60 AUD. 279,60 AUD ÷ 1.000 km = rund 0,28 AUD pro Kilometer.",
+          "Dieselbe Fahrt mit einem Diesel kostet beim Durchschnittspreis für Diesel aus derselben Woche, 2,77 AUD pro Liter, 120 × 2,77 AUD = 332,40 AUD."
         ],
         "assumptions": [
           "Gemeint ist der Verbrauch mit Beladung. Ein Campervan, eine Dachlast oder ein Wohnwagen am Haken verbraucht mehr, als im Prospekt steht, also miss deinen eigenen Wert, wenn du kannst.",
@@ -23671,7 +23671,7 @@
           ],
           [
             "Wie berechnet man die Spritkosten pro Kilometer?",
-            "Teil den Verbrauch in l/100 km durch 100 und nimm ihn mal den Literpreis. Bei 12 l/100 km und 2,08 AUD pro Liter sind das 0,12 × 2,08, also rund 0,25 AUD pro Kilometer."
+            "Teil den Verbrauch in l/100 km durch 100 und nimm ihn mal den Literpreis. Bei 12 l/100 km und 2,33 AUD pro Liter sind das 0,12 × 2,33, also rund 0,28 AUD pro Kilometer."
           ],
           [
             "Welchen Spritpreis sollte ich ansetzen?",

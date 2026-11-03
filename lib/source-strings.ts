@@ -392,9 +392,9 @@ export const toolStrings = {
       formula: ["Litres = distance (km) × fuel use (L/100 km) ÷ 100", "Fuel cost = litres × price per litre (A$/L)", "Cost per km = fuel cost ÷ distance"],
       formulaNote: "The calculator rounds litres to one decimal place and money to the cent. Nothing else is added: tolls, oil and tyre wear are separate lines in a budget.",
       example: [
-        "A 1,000 km drive in a vehicle using 12 L/100 km at A$2.08 a litre, the petrol average across the five largest cities in Fuel Plan data for 5 August 2026.",
-        "1,000 × 12 ÷ 100 = 120 litres. 120 × A$2.08 = A$249.60. A$249.60 ÷ 1,000 km = about A$0.25 a kilometre.",
-        "The same drive in a diesel vehicle at that day’s diesel average of A$2.47 a litre costs 120 × A$2.47 = A$296.40.",
+        "A 1,000 km drive in a vehicle using 12 L/100 km at A$2.33 a litre, the petrol average across the five largest cities in Australian Institute of Petroleum figures for the week ending 1 November 2026.",
+        "1,000 × 12 ÷ 100 = 120 litres. 120 × A$2.33 = A$279.60. A$279.60 ÷ 1,000 km = about A$0.28 a kilometre.",
+        "The same drive in a diesel vehicle at that week’s diesel average of A$2.77 a litre costs 120 × A$2.77 = A$332.40.",
       ],
       assumptions: [
         "Fuel use is the loaded figure. A campervan, a roof load or a caravan on the back burns more than the brochure number, so measure your own if you can.",
@@ -403,7 +403,7 @@ export const toolStrings = {
       ],
       faq: [
         ["How do I find my vehicle’s real fuel use?", "Fill the tank, reset the trip meter and drive as you normally would. At the next fill, divide the litres added by the kilometres driven and multiply by 100. That is your L/100 km for the vehicle as loaded, which is the number this calculator needs."],
-        ["How do I work out fuel cost per km?", "Divide L/100 km by 100 and multiply by the price per litre. At 12 L/100 km and A$2.08 a litre that is 0.12 × 2.08, about A$0.25 a kilometre."],
+        ["How do I work out fuel cost per km?", "Divide L/100 km by 100 and multiply by the price per litre. At 12 L/100 km and A$2.33 a litre that is 0.12 × 2.33, about A$0.28 a kilometre."],
         ["Which fuel price should I use?", "Use the fuel your vehicle takes and the latest price you can find for the region. In the week to 1 November 2026 the Australian Institute of Petroleum put the five-city averages at A$2.33 a litre for petrol and A$2.77 for diesel, and the regional averages at A$2.42 and A$2.82; expect more at remote roadhouses."],
         ["How much does fuel cost per km in Australia?", "About A$0.19 a kilometre for a petrol car using 8 L/100 km and A$0.33 for a diesel campervan using 12 L/100 km, at the five-city averages for the week to 1 November 2026. For your own figure, multiply L/100 km by the price per litre and divide by 100."],
         ["How much does fuel cost from Sydney to Melbourne?", "About A$161 in a petrol car using 8 L/100 km: 865 km × 8 ÷ 100 = 69.2 litres at the five-city average of A$2.33 a litre. A diesel campervan at 12 L/100 km burns 103.8 litres, about A$287 at A$2.77."],
