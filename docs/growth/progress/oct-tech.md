@@ -24,8 +24,24 @@ So the "drop" is English traffic moving back to the English URL, not a regressio
 
 **Scan of every live locale guide.** AU: 1,260 locale guide routes (84 live guides x 15 locales), all complete and indexable. NZ: 1,365 (91 x 15), all complete and indexable. No live guide serves an English fallback on either site, so there are no October impressions to list. Both sites report 0 stale strings in every locale.
 
+## 2. URL hygiene: done
+
+**How I checked.** I built and exported both sites and scanned every exported HTML, XML and text file for site URLs in links, canonical and hreflang tags, `og:` meta, JSON-LD and sitemap `<loc>`s. A URL fails if it has no trailing slash and no `.html`, points at a redirect stub, or points at nothing.
+
+**What was wrong, and the fix (both sites):**
+- `llms.txt` linked every section (AU: every guide too) without its trailing slash, so crawlers reading it discovered URLs that 301. It now builds every link with `sitePath`. AU: 89 URLs, NZ: 5.
+- The Organization, WebSite and MobileApplication `url`, and the home `og:url`, named the bare host (`https://aussiecamps.app`); they now use the canonical `https://aussiecamps.app/` (shared file `lib/seo.ts`, a one-word change in three places, and `app/layout.tsx`).
+- After the fix the scan finds 0 problems. Every internal link, hreflang alternate, canonical, JSON-LD URL and sitemap entry was already in canonical form, and NZ already links the legacy pages as `.html` everywhere.
+
+**Sitemap lastmod.** Not all real before:
+- `/guides/` (every locale) said 27 Aug although guides publish daily. It now follows the newest live guide.
+- Home and `/tools/` said 27 Aug; the five calculators had no lastmod. They now take the day their source files last changed in git.
+- Hubs said 9 Sep (AU) and 11 Aug (NZ), dates from before the hubs existed. They now take the later of the app data date and the hub source date.
+- These dates come from the existing dates script (`npm run articles:dates`, run before every build), which now also writes `lib/page-dates.json`. That file is generated: regenerate it, never edit it.
+
+**Extensionless NZ legacy URLs** (`/freedom-camping-rules-nz`, `/self-contained-vehicles-nz`). GitHub Pages serves the `.html` file at the extensionless address with a 200, and that copy already carries the `.html` canonical. Nothing on the site links the extensionless form, so its impressions come from Google's own history and outside links. Without redirects the only levers are the canonical, the sitemap and internal links, and all three already point at `.html`. Google lists the `.html` as "Discovered, not indexed", so it has not crawled it yet. The orchestrator should request indexing for both `.html` URLs.
+
 ## Next
-2. URL hygiene on both sites (slash-less and extensionless variants, sitemap lastmod).
 3. Thin data hubs.
 4. Structured data.
 5. IndexNow.
