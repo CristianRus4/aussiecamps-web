@@ -78,10 +78,39 @@ The indexable hubs on both sites already carried counts by place type, facility 
 
   Both sites pass on every page. `Article` `dateModified` and `BreadcrumbList` were already valid; the validator now keeps them that way.
 
-## Next
-5. IndexNow.
-4. Structured data.
-5. IndexNow.
+## 5. IndexNow: done
+
+- **Key files:** `public/a96c887f9422e1341ae7e180b3273e4e.txt` (AussieCamps) and `public/907711e112cf45f859451bc3085a2368.txt` (KiwiCamping). The export serves each at the site root.
+- **Script:** `scripts/indexnow.mjs`, run with `npm run indexnow --`.
+  - `--due YYYY-MM-DD` submits every guide whose `publishAt` is that day, in English and every locale where it is indexable. It reads the route manifest pinned to that day.
+  - Or pass URLs or paths. Only this site's host is accepted.
+  - `--dry-run` prints the request instead of sending it.
+  - It refuses to send while the key file is not live, and it rejects impossible dates.
+  - Tested in dry runs: a publish day gives 16 URLs on each site (English plus 15 locales). The first live submission can only happen after this branch deploys.
+- **Docs:** the routine is in `docs/growth/MEASUREMENT.md` under "IndexNow".
+- **Daily command, after the publish deploy is live** (needs `node_modules` in the checkout you run it from; the main checkouts have none since the folder move, so run `npm ci` there once):
+  ```
+  cd ~/Developer/Webs/aussiecamps-web && npm run indexnow -- --due "$(TZ=Pacific/Auckland date +%F)"
+  cd ~/Developer/Webs/kiwicamping-web && npm run indexnow -- --due "$(TZ=Pacific/Auckland date +%F)"
+  ```
+  The date is the New Zealand day, the same day the 07:15 NZDT build publishes for. A day with no scheduled guide prints "nothing to submit" and exits cleanly.
+
+## Final summary (lane done, 2026-11-03)
+
+1. **Translated pages that lost traffic:** none fell back to English. The September impressions were English queries landing on English text served at locale URLs, before translations existed (13 Oct). Nothing to restore, and no live locale guide serves a fallback on either site.
+2. **URL hygiene:** `llms.txt` and the bare-host structured data URLs fixed; sitemap `lastmod` now real. Every internal link, hreflang, canonical, JSON-LD URL and sitemap entry is in canonical form.
+3. **Thin hubs:** season and permit notes, guides and neighbour links on every hub template, in 16 languages; the existing gates still noindex the thin hubs.
+4. **Structured data:** brand `alternateName`, the app on app listicles, HowTo only on real how-to guides, and a validator in `npm run check`.
+5. **IndexNow:** key files, script and docs on both sites.
+
+Indexable pages per locale never dropped: AussieCamps en 123 and 122 per locale, KiwiCamping en 138 and 137 per locale, from start to finish.
+
+**URLs to resubmit** (Search Console for the first three, IndexNow or Bing for all):
+- Both sitemaps: https://aussiecamps.app/sitemap.xml and https://campingapp.nz/sitemap.xml.
+- KiwiCamping legacy canonicals: https://campingapp.nz/freedom-camping-rules-nz.html and https://campingapp.nz/self-contained-vehicles-nz.html.
+- KiwiCamping hubs Google has not indexed, starting with https://campingapp.nz/camping/west-coast/, https://campingapp.nz/huts/canterbury/ and https://campingapp.nz/freedom-camping/; then every indexable /camping/, /huts/ and /freedom-camping/ hub.
+- AussieCamps hubs: the 24 English URLs in `docs/growth/hubs/indexing-check.md`, then their translations.
+- Home pages and app listicles on both sites (structured data changed).
 
 ## Blockers
 None.

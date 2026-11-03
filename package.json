@@ -18,6 +18,7 @@
     "data:export": "node --no-warnings scripts/export-app-data.mjs",
     "seo:audit": "tsx scripts/audit-seo.mjs",
     "schema:check": "node scripts/check-structured-data.mjs",
+    "indexnow": "tsx scripts/indexnow.mjs",
     "locales:sync": "node scripts/sync-locales.mjs",
     "translations:stamp": "tsx scripts/translations-stamp.mjs",
     "translations:invalidate": "tsx scripts/translations-stamp.mjs --invalidate",

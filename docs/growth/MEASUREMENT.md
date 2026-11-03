@@ -43,6 +43,16 @@
 - Ownership verified for https://aussiecamps.app on 2026-10-21 with the HTML meta tag (`naver-site-verification` in the root layout's `metadata.other`; keep it).
 - Sitemaps submitted 2026-10-21: /sitemap.xml and /sitemaps/ko.xml. Page collection requested for https://aussiecamps.app/ko/.
 
+## IndexNow (Bing, Yandex, Seznam, Naver)
+IndexNow tells Bing, Yandex, Seznam (Czech) and Naver (Korean) the moment a URL changes, so they crawl it that day. Google does not use it.
+- **Key file:** `public/a96c887f9422e1341ae7e180b3273e4e.txt`, served at https://aussiecamps.app/a96c887f9422e1341ae7e180b3273e4e.txt. It holds only the key. Do not rename or delete it: engines check it on every submission.
+- **Script:** `scripts/indexnow.mjs`, run through `npm run indexnow --`. It reads the host from `CNAME` and the key from that file.
+  - `npm run indexnow -- --due YYYY-MM-DD` submits every guide whose `publishAt` is that day, in English and in every locale where it is indexable.
+  - `npm run indexnow -- /guides/x/ /de/guides/x/` submits the URLs or paths you give it (this host only).
+  - Add `--dry-run` to print the request instead of sending it.
+- **When:** after the deploy is live, never before. The orchestrator runs `--due <today>` after each daily publish, and a URL list after any other change worth recrawling. The script stops if the key file is not live yet.
+- **Answers:** 200 or 202 mean accepted. 403 means the key file does not match; 422 means a URL is not on this host. Bing Webmaster Tools shows IndexNow submissions under URL Submission.
+
 ## Weekly loop
 Each week:
 1. Pull GSC pages and queries, GA4 `app_store_click` by placement, locale and page, and App Store Connect campaigns and web referrer.
