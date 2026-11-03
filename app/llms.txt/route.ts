@@ -1,4 +1,4 @@
-import { articles, categories, SITE_URL, SUPPORT_EMAIL } from "@/lib/site";
+import { articles, categories, SITE_URL, SUPPORT_EMAIL, sitePath } from "@/lib/site";
 import { appStoreUrl } from "@/lib/app-store";
 import { liveLocales, localeEntry } from "@/lib/locales";
 
@@ -17,7 +17,7 @@ export function GET() {
 > turning the ones you save into a road trip. It bundles a directory of 74,000+ places so the details
 > stay readable with no mobile reception.
 
-- **Website:** ${SITE_URL}
+- **Website:** ${SITE_URL}/
 - **Download (App Store, free):** ${appStoreUrl({ placement: "llms" })}
 - **Platform:** iOS (iPhone). No Android or web version.
 - **Coverage:** Australia, every state and territory.
@@ -73,11 +73,11 @@ figure, for visitors not fluent in AUD.
 ## Site structure
 
 - [Home](${SITE_URL}/)
-- [Guides](${SITE_URL}/guides) — ${articles.length} long-form guides
-- [Road trip tools](${SITE_URL}/tools) — currency, fuel, driving day, water and waste, campsite cost
-- [Support and FAQ](${SITE_URL}/support)
-- [Privacy](${SITE_URL}/privacy)
-- [Terms](${SITE_URL}/terms)
+- [Guides](${SITE_URL}${sitePath("/guides")}) — ${articles.length} long-form guides
+- [Road trip tools](${SITE_URL}${sitePath("/tools")}) — currency, fuel, driving day, water and waste, campsite cost
+- [Support and FAQ](${SITE_URL}${sitePath("/support")})
+- [Privacy](${SITE_URL}${sitePath("/privacy")})
+- [Terms](${SITE_URL}${sitePath("/terms")})
 
 ## Languages
 
@@ -91,7 +91,7 @@ ${liveLocales.map((code) => `- ${localeEntry(code).label} (${localeEntry(code).h
 ${categories.map((category) => {
   const group = articles.filter((item) => item.category === category);
   if (!group.length) return "";
-  return `### ${category}\n\n${group.map((item) => `- [${item.title}](${SITE_URL}${`/guides/${item.slug}`}) — ${item.description}`).join("\n")}`;
+  return `### ${category}\n\n${group.map((item) => `- [${item.title}](${SITE_URL}${sitePath(`/guides/${item.slug}`)}) — ${item.description}`).join("\n")}`;
 }).filter(Boolean).join("\n\n")}
 `;
   return new Response(md, { headers: { "content-type": "text/markdown; charset=utf-8", "cache-control": "public, max-age=3600" } });

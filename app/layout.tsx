@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     title: "AussieCamps: the camping map and road trip planner for Australia",
     description:
       "74,000+ campgrounds, caravan parks, free camps and useful stops, bundled offline. Filter, save and plan the whole lap.",
-    url: SITE_URL,
+    url: `${SITE_URL}/`,
     images: [{ ...homeOgImage, alt: "AussieCamps, the camping and road trip app for Australia" }],
   },
   twitter: {

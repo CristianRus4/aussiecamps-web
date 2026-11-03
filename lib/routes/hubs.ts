@@ -3,6 +3,8 @@ import { hubPageKey, hubPath, hubSections, isIndexable, isSectionIndexable, sect
 import { isLocalizedHubIndexable, isLocalizedSectionIndexable, localizedHubPath, localizedHubs, localizedSectionPath } from "@/lib/hubs/localized";
 import { routedLocales } from "@/lib/locales";
 import type { ExportRoute } from "@/lib/routes";
+import { laterDate } from "@/lib/publish";
+import pageDates from "@/lib/page-dates.json";
 
 /**
  * The data hubs, for the route manifest (lib/routes.ts): one index per hub type, then every built
@@ -12,7 +14,8 @@ import type { ExportRoute } from "@/lib/routes";
  * is on and its translation is complete.
  */
 export function hubRoutes(): ExportRoute[] {
-  const lastmod = hubData.dataAsOf;
+  // The later of the app data and the hub templates and prose: a hub cannot change before it exists.
+  const lastmod = laterDate(hubData.dataAsOf, pageDates.hubs);
   return [
     ...hubSections.map((section) => ({ path: sectionPath(section), locale: "en" as const, kind: "hub" as const, indexable: isSectionIndexable(section), pageKey: sectionPageKey(section), lastmod })),
     ...builtHubs.map((hub) => ({ path: hubPath(hub), locale: "en" as const, kind: "hub" as const, indexable: isIndexable(hub), pageKey: hubPageKey(hub), lastmod })),

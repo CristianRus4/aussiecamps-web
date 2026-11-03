@@ -50,7 +50,7 @@ const organization = {
   "@type": "Organization",
   "@id": `${SITE_URL}/#organization`,
   name: "AussieCamps",
-  url: SITE_URL,
+  url: `${SITE_URL}/`,
   logo: { "@type": "ImageObject", url: LOGO },
 };
 
@@ -58,7 +58,7 @@ const website = {
   "@type": "WebSite",
   "@id": `${SITE_URL}/#website`,
   name: "AussieCamps",
-  url: SITE_URL,
+  url: `${SITE_URL}/`,
   publisher: { "@id": `${SITE_URL}/#organization` },
   inLanguage: [englishLocale.htmlLang, ...liveLocales.map(htmlLang)],
 };
@@ -77,7 +77,7 @@ const application = {
   operatingSystem: "iOS",
   applicationCategory: "TravelApplication",
   applicationSubCategory: "Camping and road trip planner",
-  url: SITE_URL,
+  url: `${SITE_URL}/`,
   installUrl: APP_STORE_URL,
   downloadUrl: APP_STORE_URL,
   screenshot: SCREENSHOT,
