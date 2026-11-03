@@ -62,8 +62,24 @@ The indexable hubs on both sites already carried counts by place type, facility 
 - NZ (20): camping in Auckland, Bay of Plenty, Hawke's Bay, Southland, Waikato and Wairarapa; huts in Bay of Plenty, Northland, Taranaki and Waikato; freedom camping in Bay of Islands, Buller, Geraldine, Golden Bay, Kauri Coast, Motueka, Murihiku, Nelson Lakes, North Canterbury and Sounds.
 - All of them are built for visitors, noindex, follow, and out of the sitemap, hreflang and every listing.
 
+## 4. Structured data: done
+
+- **Brand names.** `Organization` and `WebSite` carry `alternateName` "Aussie Camps" and "Kiwi Camping", the two-word spellings people search with (REVIEW.md finding 4: "kiwi camping" ranks 8.5 on the home page).
+- **The app on app listicles.** Every "best ... apps", "... apps ..." and "... alternatives" guide, in every locale, now includes the same `MobileApplication` node as the home page (`@id` `/#app`), and its `Article` `mentions` it. No rating, review or price beyond the free offer. Live today: 13 on AU, 12 on NZ (the legacy best-nz-camping-apps.html included); scheduled ones get it on their publish day.
+- **HowTo only where the sections are steps.** Listicles were emitting a `HowTo` built from their sections, which are not steps. Only the real how-to app guides keep it: AU 5, NZ 6.
+- **Validator.** `scripts/check-structured-data.mjs` (`npm run schema:check`, now part of `npm run check` on both sites) reads every exported page's JSON-LD and fails on:
+  - a block that does not parse, or one @id describing two different nodes;
+  - a missing required field on Organization, WebSite, the app, Article, BreadcrumbList or FAQPage;
+  - a headline over 110 characters;
+  - a date that is not ISO, dateModified before datePublished, or a date in the future;
+  - breadcrumbs out of order, or not ending at the page's canonical;
+  - a site URL not in canonical form;
+  - any `aggregateRating` or `review` on the app.
+
+  Both sites pass on every page. `Article` `dateModified` and `BreadcrumbList` were already valid; the validator now keeps them that way.
+
 ## Next
-4. Structured data.
+5. IndexNow.
 4. Structured data.
 5. IndexNow.
 
