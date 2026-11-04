@@ -23,7 +23,9 @@ const root = new URL("..", import.meta.url).pathname;
 const dist = process.argv[2] ?? join(root, "pages-dist");
 const host = readFileSync(join(root, "CNAME"), "utf8").trim();
 const site = `https://${host}`;
-const today = new Date().toISOString().slice(0, 10);
+// The publish day, as lib/publish.ts defines it: BUILD_DATE when set, otherwise today in Pacific/Auckland.
+// UTC would put a guide published this New Zealand morning a day in the future.
+const today = process.env.BUILD_DATE || new Intl.DateTimeFormat("en-CA", { timeZone: "Pacific/Auckland" }).format(new Date());
 
 if (!existsSync(dist)) { console.error(`No export at ${dist}: run npm run build && npm run export first.`); process.exit(1); }
 
