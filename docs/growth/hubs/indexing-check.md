@@ -58,3 +58,4 @@ These are lifted over the quality gate on this branch. Check them a week after t
 
 | Date | Indexed | Not indexed (reason) | Impressions (7 days) | Notes |
 |---|---|---|---|---|
+| 2026-11-06 | 27 of 27 | None | Not checked | URL Inspection of every hub in the sitemap (the 24 above plus myall-lakes-national-park, northern-territory and south-australia). All indexed, so no requests were needed. |
