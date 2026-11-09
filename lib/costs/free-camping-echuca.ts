@@ -13,7 +13,7 @@ export default article({
   description: "Where to camp near Echuca and Moama: river camps on public land on both banks, caravan parks, the rules on fires and flooding, and what to see on the Murray.",
   category: "Camping guides", region: "Victoria",
   places: ["Echuca", "Moama", "Barmah", "Gunbower", "Murray River"],
-  imageAlt: "SUBJECT_PLACEHOLDER",
+  imageAlt: "The Calder Highway curving past scrub and a vineyard at Merbein near Mildura under a clear blue sky",
   intro: "Echuca is a classic Murray River stop, with paddle steamers, a historic port and a lot of river. You cannot camp in the town, but the forests and reserves on both banks have riverside camps for free or a low fee, and it is easy to base yourself in a caravan park and head out for the nights you want to be in the bush. Check the fire rules, the river level and the stay limit, and bring your own water.",
   related: ["camping-rules-victoria", "melbourne-to-mildura-drive", "is-free-camping-legal-australia", "campfires-camping-australia", "camping-weather-safety-australia"],
   sections: [
