@@ -21,6 +21,12 @@ import page19 from "@/lib/costs/australia-three-week-campervan-route";
 import page20, { faq as faq20 } from "@/lib/costs/cyclone-flood-season-camping-australia";
 import wikicampsNotWorking, { faq as wikicampsNotWorkingFaq } from "@/lib/costs/wikicamps-not-working";
 import campingDangerous, { faq as campingDangerousFaq } from "@/lib/costs/is-camping-in-australia-dangerous";
+import freeNsw, { faq as faqFreeNsw } from "@/lib/costs/free-camping-new-south-wales";
+import freeVic, { faq as faq_freeVic } from "@/lib/costs/free-camping-victoria";
+import freeQld, { faq as faq_freeQld } from "@/lib/costs/free-camping-queensland";
+import freeWa, { faq as faq_freeWa } from "@/lib/costs/free-camping-western-australia";
+import freeTas, { faq as faq_freeTas } from "@/lib/costs/free-camping-tasmania";
+import freeSa, { faq as faq_freeSa } from "@/lib/costs/free-camping-south-australia";
 
 /**
  * Campervan hire, buying, selling, budget, comparison, price, season-planning, road-rule, safety and
@@ -29,7 +35,7 @@ import campingDangerous, { faq as campingDangerousFaq } from "@/lib/costs/is-cam
  * order they were written; lib/site.ts spreads `costsArticles` into the written guides and attaches
  * `costsFaqs` by slug.
  */
-export const costsArticles: Article[] = [page1, page2, page3, page4, page5, page6, page7, page8, page9, page10, page11, page12, page13, page14, page15, page16, page17, page18, page19, page20, wikicampsNotWorking, campingDangerous];
+export const costsArticles: Article[] = [page1, page2, page3, page4, page5, page6, page7, page8, page9, page10, page11, page12, page13, page14, page15, page16, page17, page18, page19, page20, wikicampsNotWorking, campingDangerous, freeNsw, freeVic, freeQld, freeWa, freeTas, freeSa];
 export const costsFaqs: Record<string, readonly (readonly [string, string])[]> = {
   [page1.slug]: faq1,
   [page2.slug]: faq2,
@@ -52,4 +58,10 @@ export const costsFaqs: Record<string, readonly (readonly [string, string])[]> =
   [page20.slug]: faq20,
   [wikicampsNotWorking.slug]: wikicampsNotWorkingFaq,
   [campingDangerous.slug]: campingDangerousFaq,
+  [freeNsw.slug]: faqFreeNsw,
+  [freeVic.slug]: faq_freeVic,
+  [freeQld.slug]: faq_freeQld,
+  [freeWa.slug]: faq_freeWa,
+  [freeTas.slug]: faq_freeTas,
+  [freeSa.slug]: faq_freeSa,
 };

@@ -97,13 +97,13 @@ export const neighbours: Record<string, string[]> = {
  * on its publish day (only `articles`, the live guides, are read).
  */
 const stateGuides: Record<string, string[]> = {
-  NSW: ["blue-mountains-camping-weekend", "australia-three-week-campervan-route", "sydney-south-coast-camping", "australian-alps-camping-route", "east-coast-road-trip-sydney-cairns", "sydney-to-canberra-drive", "sydney-to-melbourne-drive", "brisbane-to-sydney-drive"],
-  VIC: ["great-ocean-road-camping-guide", "australia-three-week-campervan-route", "victoria-high-country-camping", "melbourne-to-adelaide-coastal-route", "australian-alps-camping-route", "melbourne-to-mildura-drive", "sydney-to-melbourne-drive"],
-  QLD: ["brisbane-to-cape-tribulation", "cyclone-flood-season-camping-australia", "sunshine-coast-hinterland-camping", "queensland-outback-way", "brisbane-to-cairns-drive", "townsville-to-mount-isa-drive", "brisbane-to-byron-bay-drive"],
+  NSW: ["free-camping-new-south-wales", "blue-mountains-camping-weekend", "australia-three-week-campervan-route", "sydney-south-coast-camping", "australian-alps-camping-route", "east-coast-road-trip-sydney-cairns", "sydney-to-canberra-drive", "sydney-to-melbourne-drive", "brisbane-to-sydney-drive"],
+  VIC: ["free-camping-victoria", "great-ocean-road-camping-guide", "australia-three-week-campervan-route", "victoria-high-country-camping", "melbourne-to-adelaide-coastal-route", "australian-alps-camping-route", "melbourne-to-mildura-drive", "sydney-to-melbourne-drive"],
+  QLD: ["free-camping-queensland", "brisbane-to-cape-tribulation", "cyclone-flood-season-camping-australia", "sunshine-coast-hinterland-camping", "queensland-outback-way", "brisbane-to-cairns-drive", "townsville-to-mount-isa-drive", "brisbane-to-byron-bay-drive"],
   NT: ["darwin-kakadu-litchfield-loop", "red-centre-way-camping", "wet-season-camping-top-end-northern-wa", "cyclone-flood-season-camping-australia", "darwin-to-alice-springs-drive", "alice-springs-to-uluru-drive", "cairns-to-darwin-drive"],
-  WA: ["perth-to-broome-road-trip", "south-west-wa-camping-loop", "gibb-river-road-camping", "wet-season-camping-top-end-northern-wa", "perth-to-exmouth-drive", "broome-to-darwin-drive"],
-  SA: ["flinders-ranges-camping-guide", "australia-three-week-campervan-route", "kangaroo-island-camping-guide", "adelaide-to-uluru-road-trip", "nullarbor-crossing-camping-guide", "adelaide-to-port-lincoln-drive", "adelaide-to-melbourne-drive"],
-  TAS: ["tasmania-camping-loop", "hobart-to-launceston-drive", "can-i-take-a-campervan-or-caravan-on-the-spirit-of-tasmania"],
+  WA: ["free-camping-western-australia", "perth-to-broome-road-trip", "south-west-wa-camping-loop", "gibb-river-road-camping", "wet-season-camping-top-end-northern-wa", "perth-to-exmouth-drive", "broome-to-darwin-drive"],
+  SA: ["free-camping-south-australia", "flinders-ranges-camping-guide", "australia-three-week-campervan-route", "kangaroo-island-camping-guide", "adelaide-to-uluru-road-trip", "nullarbor-crossing-camping-guide", "adelaide-to-port-lincoln-drive", "adelaide-to-melbourne-drive"],
+  TAS: ["free-camping-tasmania", "tasmania-camping-loop", "hobart-to-launceston-drive", "can-i-take-a-campervan-or-caravan-on-the-spirit-of-tasmania"],
   ACT: ["australian-alps-camping-route", "sydney-to-canberra-drive", "melbourne-to-canberra-drive"],
 };
 /** Guides every hub of a kind links to, after the state's own. */
