@@ -25,7 +25,7 @@ export default article({
   ],
   sources: [
     { label: "Tourism Australia: road trips", url: "https://www.australia.com/en/things-to-do/road-trips.html" },
-    { label: "Tourism New Zealand: campervan and motorhome travel", url: "https://www.newzealand.com/int/campervan-and-motorhome-travel/" },
+    { label: "Department of Conservation: camping in New Zealand", url: "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/" },
     { label: "Wikipedia: Campervan", url: "https://en.wikipedia.org/wiki/Campervan" },
   ],
 });
