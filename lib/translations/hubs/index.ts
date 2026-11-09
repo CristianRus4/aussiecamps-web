@@ -4,10 +4,12 @@
  */
 import de from "./de.json";
 import es from "./es.json";
+import es419 from "./es-419.json";
 import fr from "./fr.json";
 import it from "./it.json";
 import nl from "./nl.json";
 import pt from "./pt.json";
+import ptBr from "./pt-br.json";
 import ja from "./ja.json";
 import ko from "./ko.json";
 import zhHans from "./zh-hans.json";
@@ -28,4 +30,4 @@ import el from "./el.json";
 import sk from "./sk.json";
 import sl from "./sl.json";
 
-export const hubTranslationFiles: Record<string, unknown> = { de: de, es: es, fr: fr, it: it, nl: nl, pt: pt, ja: ja, ko: ko, "zh-hans": zhHans, "zh-hant": zhHant, da: da, sv: sv, nb: nb, cs: cs, pl: pl, id: id, ms: ms, vi: vi, th: th, tr: tr, fi: fi, hu: hu, el: el, sk: sk, sl: sl };
+export const hubTranslationFiles: Record<string, unknown> = { de: de, es: es, "es-419": es419, fr: fr, it: it, nl: nl, pt: pt, "pt-br": ptBr, ja: ja, ko: ko, "zh-hans": zhHans, "zh-hant": zhHant, da: da, sv: sv, nb: nb, cs: cs, pl: pl, id: id, ms: ms, vi: vi, th: th, tr: tr, fi: fi, hu: hu, el: el, sk: sk, sl: sl };
