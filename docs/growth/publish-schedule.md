@@ -9,7 +9,8 @@ plain text.
 
 ## Rules
 
-- At most one new guide per day on this site.
+- At most one new guide per day on this site. Exception: the eight KiwiCamping gap guides of 9 November 2026
+  were set to publish on merge, so the existing queue did not move.
 - `publishAt` is only for new guides. Never set it on a guide that is already live: the SEO audit fails,
   because every live URL must stay (see `docs/growth/url-baseline.txt`).
 - Translations go live with their English guide or after it. A translation merged early waits for the
@@ -49,6 +50,14 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-11-07 | can-i-camp-on-the-beach-in-australia | scheduled |
 | 2026-11-08 | can-i-drive-on-the-beach-in-australia | scheduled |
 | 2026-11-09 | can-i-camp-in-a-national-park-without-booking-in-australia | scheduled |
+| 2026-11-09 | australia-biosecurity-camping-gear | publish on merge |
+| 2026-11-09 | mosquitoes-march-flies-camping-australia | publish on merge |
+| 2026-11-09 | speed-limits-australia-visitors | publish on merge |
+| 2026-11-09 | left-side-driving-australia | publish on merge |
+| 2026-11-09 | drink-driving-limits-australia-visitors | publish on merge |
+| 2026-11-09 | best-travel-apps-australia | publish on merge |
+| 2026-11-09 | australia-three-week-campervan-route | publish on merge |
+| 2026-11-09 | cyclone-flood-season-camping-australia | publish on merge |
 | 2026-11-10 | can-i-collect-firewood-while-camping-in-australia | scheduled |
 | 2026-11-11 | bushfire-safety-camping-australia | scheduled |
 | 2026-11-12 | school-holidays-australia-2027 | scheduled |

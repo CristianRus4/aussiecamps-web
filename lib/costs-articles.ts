@@ -11,14 +11,23 @@ import page9, { faq as faq9 } from "@/lib/costs/bushfire-safety-camping-australi
 import page10, { faq as faq10 } from "@/lib/costs/school-holidays-australia-2027";
 import page11, { faq as faq11 } from "@/lib/costs/petrol-diesel-prices-australia-2026";
 import page12, { faq as faq12 } from "@/lib/costs/toll-roads-australia-hire-car-campervan";
+import page13, { faq as faq13 } from "@/lib/costs/australia-biosecurity-camping-gear";
+import page14, { faq as faq14 } from "@/lib/costs/mosquitoes-march-flies-camping-australia";
+import page15, { faq as faq15 } from "@/lib/costs/speed-limits-australia-visitors";
+import page16, { faq as faq16 } from "@/lib/costs/left-side-driving-australia";
+import page17, { faq as faq17 } from "@/lib/costs/drink-driving-limits-australia-visitors";
+import page18, { faq as faq18 } from "@/lib/costs/best-travel-apps-australia";
+import page19 from "@/lib/costs/australia-three-week-campervan-route";
+import page20, { faq as faq20 } from "@/lib/costs/cyclone-flood-season-camping-australia";
 
 /**
- * Campervan hire, buying, selling, budget, comparison, price and season-planning guides. Each page lives
+ * Campervan hire, buying, selling, budget, comparison, price, season-planning, road-rule, safety and
+ * visitor guides. A road trip itinerary exports no FAQ. Each page lives
  * in lib/costs/<slug>.ts and exports its article (default) and its FAQ. They are listed here in the
  * order they were written; lib/site.ts spreads `costsArticles` into the written guides and attaches
  * `costsFaqs` by slug.
  */
-export const costsArticles: Article[] = [page1, page2, page3, page4, page5, page6, page7, page8, page9, page10, page11, page12];
+export const costsArticles: Article[] = [page1, page2, page3, page4, page5, page6, page7, page8, page9, page10, page11, page12, page13, page14, page15, page16, page17, page18, page19, page20];
 export const costsFaqs: Record<string, readonly (readonly [string, string])[]> = {
   [page1.slug]: faq1,
   [page2.slug]: faq2,
@@ -32,4 +41,11 @@ export const costsFaqs: Record<string, readonly (readonly [string, string])[]> =
   [page10.slug]: faq10,
   [page11.slug]: faq11,
   [page12.slug]: faq12,
+  [page13.slug]: faq13,
+  [page14.slug]: faq14,
+  [page15.slug]: faq15,
+  [page16.slug]: faq16,
+  [page17.slug]: faq17,
+  [page18.slug]: faq18,
+  [page20.slug]: faq20,
 };
