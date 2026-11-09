@@ -97,6 +97,7 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-11-10 | kgari-fraser-island-camping-permits | publish on merge |
 | 2026-11-10 | dampier-peninsula-cape-leveque-camping | publish on merge |
 | 2026-11-10 | purnululu-bungle-bungles-camping | publish on merge |
+| 2026-11-10 | oodnadatta-track-camping-guide | publish on merge |
 | 2026-11-10 | can-i-collect-firewood-while-camping-in-australia | scheduled |
 | 2026-11-11 | bushfire-safety-camping-australia | scheduled |
 | 2026-11-12 | school-holidays-australia-2027 | scheduled |
