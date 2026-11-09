@@ -13,7 +13,7 @@ export default article({
   description: "How to camp on the Dampier Peninsula north of Broome: community camps at Cape Leveque, Middle Lagoon and Gumbanan, permits, road conditions, the dry season and respectful visiting.",
   category: "Camping guides", region: "Western Australia",
   places: ["Broome", "Cape Leveque", "Middle Lagoon", "Beagle Bay", "Lombadina"],
-  imageAlt: "SUBJECT_PLACEHOLDER",
+  imageAlt: "A giant boab tree inside a low fence at a rest area on the Great Northern Highway in the Kimberley, with red dirt in front of it",
   intro: "The Dampier Peninsula, north of Broome, has some of the most beautiful camping in the Kimberley, with red cliffs, white sand and turquoise water. It is also Aboriginal land, and the camps are run by the communities that own it. There is no free camping, but the camps are cheap by resort standards and the money goes back to the community. Go in the dry season, book ahead, and travel with respect.",
   related: ["perth-to-broome-road-trip", "gibb-river-road-camping", "can-i-camp-on-aboriginal-land-without-a-permit", "can-i-take-alcohol-into-restricted-areas-on-an-outback-road-trip", "wet-season-camping-top-end-northern-wa"],
   sections: [

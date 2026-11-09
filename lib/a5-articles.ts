@@ -11,9 +11,10 @@ import g_free_camping_savannah_way, { faq as faq_g_free_camping_savannah_way } f
 import g_free_camping_queensland_outback, { faq as faq_g_free_camping_queensland_outback } from "@/lib/costs/free-camping-queensland-outback";
 import g_camping_near_uluru, { faq as faq_g_camping_near_uluru } from "@/lib/costs/camping-near-uluru";
 import g_kgari_fraser_island_camping_permits, { faq as faq_g_kgari_fraser_island_camping_permits } from "@/lib/costs/kgari-fraser-island-camping-permits";
+import g_dampier_peninsula_cape_leveque_camping, { faq as faq_g_dampier_peninsula_cape_leveque_camping } from "@/lib/costs/dampier-peninsula-cape-leveque-camping";
 
 /** Guides added by the A5 growth lane (free camping and permits in small towns and outback places). Each lives in lib/costs/<slug>.ts. */
-export const a5Articles: Article[] = [g_free_camping_broken_hill, g_free_camping_coober_pedy, g_free_camping_longreach, g_free_camping_echuca, g_free_camping_jervis_bay, g_free_camping_batemans_bay, g_free_camping_margaret_river, g_free_camping_exmouth, g_free_camping_savannah_way, g_free_camping_queensland_outback, g_camping_near_uluru, g_kgari_fraser_island_camping_permits];
+export const a5Articles: Article[] = [g_free_camping_broken_hill, g_free_camping_coober_pedy, g_free_camping_longreach, g_free_camping_echuca, g_free_camping_jervis_bay, g_free_camping_batemans_bay, g_free_camping_margaret_river, g_free_camping_exmouth, g_free_camping_savannah_way, g_free_camping_queensland_outback, g_camping_near_uluru, g_kgari_fraser_island_camping_permits, g_dampier_peninsula_cape_leveque_camping];
 export const a5Faqs: Record<string, readonly (readonly [string, string])[]> = {
   [g_free_camping_broken_hill.slug]: faq_g_free_camping_broken_hill,
   [g_free_camping_coober_pedy.slug]: faq_g_free_camping_coober_pedy,
@@ -27,4 +28,5 @@ export const a5Faqs: Record<string, readonly (readonly [string, string])[]> = {
   [g_free_camping_queensland_outback.slug]: faq_g_free_camping_queensland_outback,
   [g_camping_near_uluru.slug]: faq_g_camping_near_uluru,
   [g_kgari_fraser_island_camping_permits.slug]: faq_g_kgari_fraser_island_camping_permits,
+  [g_dampier_peninsula_cape_leveque_camping.slug]: faq_g_dampier_peninsula_cape_leveque_camping,
 };
