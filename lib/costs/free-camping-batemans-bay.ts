@@ -13,7 +13,7 @@ export default article({
   description: "Where to camp near Batemans Bay: why the town is off limits, Murramarang campgrounds, inland state forests, holiday parks and rest areas on the Princes and Kings highways.",
   category: "Camping guides", region: "New South Wales",
   places: ["Batemans Bay", "Murramarang National Park", "Pebbly Beach", "Mogo", "Kings Highway"],
-  imageAlt: "SUBJECT_PLACEHOLDER",
+  imageAlt: "The Federal Highway curving above the green Lake George basin in New South Wales, with a few cars on the road and low cloud over the hills",
   intro: "Batemans Bay is where Canberra meets the coast, and it fills on every long weekend. The town and its beaches do not allow free camping, but the country around it does better: beachside national park campgrounds to the north, state forests inland and rest areas along the highways. Book the coast in advance, use the forests for a cheaper night, and keep the highway stops for a night in the vehicle.",
   related: ["camping-rules-new-south-wales", "sydney-south-coast-camping", "is-free-camping-legal-australia", "can-i-camp-in-a-state-forest-in-australia", "can-i-stay-overnight-at-a-rest-area-in-australia"],
   sections: [
