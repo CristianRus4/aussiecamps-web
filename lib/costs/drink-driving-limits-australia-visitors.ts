@@ -1,0 +1,50 @@
+import { article, section } from "@/lib/can-i/helpers";
+
+export const faq = [
+  ["What is the drink driving limit in Australia for tourists?", "A blood or breath alcohol concentration under 0.05 if you hold a full licence from home, in every state and territory. If your licence is a learner or provisional one, the limit is zero. Bus, taxi and some heavy vehicle drivers have a zero or 0.02 limit."],
+  ["Can police breath test you without a reason in Australia?", "Yes. Police in every state run random breath testing: they can stop any driver at any time and ask for a breath sample, and they can also test any driver involved in a crash. Random roadside drug testing works the same way. Refusing a test is an offence, usually with a heavier penalty than being over the limit."],
+] as const;
+
+export default article({
+  slug: "drink-driving-limits-australia-visitors", publishAt: "2026-11-09",
+  title: "Drink Driving Limit in Australia for Visitors 2026: 0.05, Zero and Breath Tests",
+  description: "Australia's drink driving limit is under 0.05 on a full licence and zero on a learner or provisional one, in every state. How random breath tests work and the morning after.",
+  category: "Rules & safety", region: "Australia",
+  places: ["Random breath testing", "Hire cars", "New South Wales", "Western Australia"],
+  imageAlt: "NSW Police highway patrol officers stopping cars at a random breath testing site on Travers Street in Wagga Wagga",
+  intro: "In every Australian state and territory, a driver on a full licence must keep their blood or breath alcohol concentration (BAC) under 0.05, and a learner or provisional driver must keep it at zero. Visitors on a full licence from home use the 0.05 limit; the NSW and Northern Territory governments say so in as many words. Police can stop and breath test any driver at any time, without a reason, and Tourism Australia notes that random breath and drug testing happens on roadsides across the country. The safe plan is to keep drinking and driving apart entirely, including the morning after. We read each state's road safety page on 9 November 2026.",
+  related: ["australia-road-trip-fatigue-wildlife-safety", "driving-in-australia-road-rules-visitors", "can-i-take-alcohol-into-restricted-areas-on-an-outback-road-trip", "speed-limits-australia-visitors"],
+  sections: [
+    section("The limits by licence and state", ["The general limit is the same everywhere: under 0.05, which means less than 50 mg of alcohol in every 100 ml of blood. Every state sets a zero limit for learner and provisional drivers, and most add zero or 0.02 limits for drivers of buses, taxis and heavy vehicles. Western Australia goes further, with a zero limit for every novice driver in their first two years on a licence.", "If you are visiting on a full licence from your own country, the NSW Government lists you under the 0.05 limit, and the Northern Territory lists fully licensed drivers from interstate and overseas the same way. Queensland applies the zero limit to drivers whose overseas licence is the equivalent of a learner, provisional or probationary one."], ["Full licence: under 0.05", "L or P plates: zero", "Bus, taxi, truck: lower still"], {
+      caption: "Legal alcohol limits for drivers by state, from each road safety authority, read 9 November 2026. BAC is grams of alcohol per 100 ml of blood.",
+      head: ["State", "Full licence, including visitors", "Learner and provisional", "Lower limits for others"],
+      rows: [
+        ["New South Wales", "Under 0.05", "Zero", "Heavy vehicles over 13.9 t: under 0.02"],
+        ["Victoria", "Under 0.05", "Zero", "Bus and taxi drivers: zero"],
+        ["Queensland", "Under 0.05", "Zero, also for overseas equivalents", "Bus and taxi drivers: zero"],
+        ["South Australia", "Under 0.05", "Zero", "Bus, taxi, heavy vehicle and dangerous goods drivers: zero"],
+        ["Western Australia", "Under 0.05", "Zero for all novice drivers", "Bus and taxi drivers carrying passengers: zero"],
+        ["Tasmania", "Under 0.05", "Zero", "Some repeat offenders: zero"],
+        ["Northern Territory", "Under 0.05", "Zero", "Bus, taxi, heavy vehicle over 15 t: zero"],
+        ["Australian Capital Territory", "Under 0.05", "Zero", "Probationary licence holders: zero"],
+      ],
+    }),
+    section("Random breath testing and drug testing", ["Random breath testing, which Australians call RBT, means police can stop any driver at any time and test their breath, with no suspicion needed. The NSW Government says police can ask you to speak or blow into a breath-testing device and can test any driver involved in a crash. Victoria Police also run larger testing stations, often called booze buses, where you must stop when directed.", "Police can also stop drivers at random to test saliva for illegal drugs, with a stick wiped down the tongue. Victoria says refusing a breath test is generally treated more seriously than being over the limit, so stop, wait and follow the officer's directions. A site can sit on a country road on a Sunday morning as easily as outside a city pub on a Friday night."], ["Any driver, any time", "Saliva tests for drugs too", "Never refuse a test"]),
+    section("What a drink adds up to", ["There is no reliable way to count drinks to a BAC. Weight, food, sex, tiredness and the strength of the pour all change it, and Australian beers, wines and pub measures vary widely. Victoria says coin-operated and personal breath testers can be used as a guide but can be inaccurate and cannot be used as evidence.", "Victoria's road safety advice puts the risk plainly: at a BAC of 0.05, your risk of a crash is about double the risk at zero. The only reliable plan is to choose who drives before anyone drinks, and for that person not to drink at all."], ["No drink count is safe", "Personal testers can be wrong", "Choose a driver who doesn't drink"]),
+    section("The morning after", ["Alcohol leaves the body slowly, and sleep does not speed it up. Victoria warns that if you drank a lot the night before, you are still likely to be over the legal limit the next day, and that learner, probationary and professional drivers on a zero limit should rethink driving at all.", "On a road trip, the morning after a campground barbecue is when this catches people, because the first leg starts early. Plan a late start or a short first leg after a big night, and let a driver who did not drink take the wheel."], ["Still over in the morning", "Sleep does not sober you up", "Late start after a big night"]),
+    section("Alcohol and fatigue together", ["Alcohol and tiredness each slow your reactions, and together they compound. Both are worst on the first day of a trip, after a long flight, and on a long day's drive to a campground where a cold drink is waiting at the end.", "Fatigue is the larger everyday risk on Australian highways, so plan days of four hours or less behind the wheel and stop every two hours. Some outback and Aboriginal communities also restrict carrying alcohol at all, with signs on the roads into them, so check the rules for the area before you stock the fridge."], ["Tired plus a drink is worse", "Keep driving days short", "Check alcohol-restricted areas"]),
+    section("Penalties, licences and hire cars", ["Penalties rise with the reading. In Western Australia, a first offence between 0.05 and 0.08 can be settled with an infringement notice, but a second offence goes to court, with a fine of up to $2,000, at least six months' disqualification and possibly an alcohol interlock. Higher readings bring immediate licence suspension in every state, and a high-range offence is a criminal matter.", "A suspension stops you driving in that state whatever licence you hold, and a conviction can affect a visa. Hire agreements also set their own rules for a driver over the legal limit, so read yours before you collect the vehicle."], ["Fines rise with the reading", "Suspension on the spot for higher readings", "Read the hire agreement"]),
+    { ...section("Plan the drive around the night in AussieCamps", ["The easiest way to keep drinking and driving apart is to stay where you eat. AussieCamps lists campgrounds and holiday parks close to towns, wineries and pubs, with the facilities the park agencies publish, and bookable holiday parks and motels you can reserve in the app.", "Add the next morning's leg to a trip and AussieCamps shows its distance and time, so you can see whether a late start still gets you there in daylight. Place details stay readable with no signal; the map, directions and weather need a connection. AussieCamps runs on iPhone."], ["Stay where you eat", "See tomorrow's leg time", "iPhone only"]), cta: true },
+  ],
+  sources: [
+    { label: "NSW Government: alcohol limits, drugs and medicines", url: "https://www.nsw.gov.au/driving-boating-and-transport/roads-safety-and-rules/safe-driving/alcohol-and-drugs" },
+    { label: "Transport Victoria: alcohol and driving laws", url: "https://transport.vic.gov.au/road-and-active-transport/road-rules-and-safety/alcohol-drugs-and-driving/alcohol-and-driving-laws" },
+    { label: "Queensland Government: alcohol limits", url: "https://www.qld.gov.au/transport/safety/road-safety/drink-driving/blood-alcohol" },
+    { label: "My Licence SA: alcohol", url: "https://mylicence.sa.gov.au/roadrules/the-drivers-handbook/alcohol" },
+    { label: "Road Safety Commission WA: drink driving", url: "https://www.rsc.wa.gov.au/Your-Safety/Behaviours/Drink-Driving" },
+    { label: "Department of State Growth Tasmania: getting your car licence", url: "https://www.transport.tas.gov.au/licensing/getting_your_car_licence/?a=254300" },
+    { label: "NT Government: alcohol, drugs and driving", url: "https://nt.gov.au/driving/safety/alcohol-drugs-and-driving" },
+    { label: "Access Canberra: probationary licences", url: "https://www.accesscanberra.act.gov.au/driving-transport-and-parking/licences/probationary-licences" },
+    { label: "Tourism Australia: driving in Australia", url: "https://www.australia.com/en/facts-and-planning/getting-around/driving-in-australia.html" },
+  ],
+});
