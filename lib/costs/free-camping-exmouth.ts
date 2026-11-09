@@ -13,7 +13,7 @@ export default article({
   description: "Where to camp near Exmouth and Ningaloo: why free camping is banned, Cape Range National Park campgrounds, station stays near Coral Bay, caravan parks and the best time to go.",
   category: "Camping guides", region: "Western Australia",
   places: ["Exmouth", "Cape Range National Park", "Ningaloo Reef", "Coral Bay", "Yardie Creek"],
-  imageAlt: "SUBJECT_PLACEHOLDER",
+  imageAlt: "A sandy Ningaloo coast beach at sunset, with a low reef offshore and dunes with low scrub behind",
   intro: "Exmouth and the Ningaloo coast are some of the best camping in Western Australia, and there is no free camping to be had. Rangers patrol the town and the coast, and the Cape Range campgrounds and the stations to the south are booked and paid. The trade is a reef you can snorkel from the beach. Book early, go outside school holidays, and find your free nights on the long drive from Perth.",
   related: ["perth-to-exmouth-drive", "camping-rules-western-australia", "is-free-camping-legal-australia", "camping-fees-australia-2026", "camping-weather-safety-australia"],
   sections: [

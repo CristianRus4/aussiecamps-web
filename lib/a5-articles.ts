@@ -6,9 +6,10 @@ import g_free_camping_echuca, { faq as faq_g_free_camping_echuca } from "@/lib/c
 import g_free_camping_jervis_bay, { faq as faq_g_free_camping_jervis_bay } from "@/lib/costs/free-camping-jervis-bay";
 import g_free_camping_batemans_bay, { faq as faq_g_free_camping_batemans_bay } from "@/lib/costs/free-camping-batemans-bay";
 import g_free_camping_margaret_river, { faq as faq_g_free_camping_margaret_river } from "@/lib/costs/free-camping-margaret-river";
+import g_free_camping_exmouth, { faq as faq_g_free_camping_exmouth } from "@/lib/costs/free-camping-exmouth";
 
 /** Guides added by the A5 growth lane (free camping and permits in small towns and outback places). Each lives in lib/costs/<slug>.ts. */
-export const a5Articles: Article[] = [g_free_camping_broken_hill, g_free_camping_coober_pedy, g_free_camping_longreach, g_free_camping_echuca, g_free_camping_jervis_bay, g_free_camping_batemans_bay, g_free_camping_margaret_river];
+export const a5Articles: Article[] = [g_free_camping_broken_hill, g_free_camping_coober_pedy, g_free_camping_longreach, g_free_camping_echuca, g_free_camping_jervis_bay, g_free_camping_batemans_bay, g_free_camping_margaret_river, g_free_camping_exmouth];
 export const a5Faqs: Record<string, readonly (readonly [string, string])[]> = {
   [g_free_camping_broken_hill.slug]: faq_g_free_camping_broken_hill,
   [g_free_camping_coober_pedy.slug]: faq_g_free_camping_coober_pedy,
@@ -17,4 +18,5 @@ export const a5Faqs: Record<string, readonly (readonly [string, string])[]> = {
   [g_free_camping_jervis_bay.slug]: faq_g_free_camping_jervis_bay,
   [g_free_camping_batemans_bay.slug]: faq_g_free_camping_batemans_bay,
   [g_free_camping_margaret_river.slug]: faq_g_free_camping_margaret_river,
+  [g_free_camping_exmouth.slug]: faq_g_free_camping_exmouth,
 };
