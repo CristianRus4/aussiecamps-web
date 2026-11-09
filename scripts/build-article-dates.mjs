@@ -102,7 +102,9 @@ for (const { code } of registry) {
   for (const [slug, translation] of Object.entries(current)) {
     if (!dates[slug]) continue;
     const committed = seen.get(slug);
-    const date = committed && committed.digest === digest(translation) ? committed.date : today;
+    const stamped = committed && committed.digest === digest(translation) ? committed.date : today;
+    // A translation cannot have been modified before the guide it translates was published.
+    const date = stamped < dates[slug].published ? dates[slug].published : stamped;
     dates[slug].locales = { ...dates[slug].locales, [code]: date };
     datedTranslations += 1;
   }
