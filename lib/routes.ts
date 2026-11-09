@@ -1,4 +1,5 @@
-import type { LocaleCode } from "@/lib/locales";
+import { localeRoot, type LocaleCode } from "@/lib/locales";
+import { sitePath } from "@/lib/site";
 import { pageRoutes } from "@/lib/routes/pages";
 import { guideRoutes } from "@/lib/routes/guides";
 import { crawlerRoutes } from "@/lib/routes/crawlers";
@@ -20,6 +21,10 @@ import { hubRoutes } from "@/lib/routes/hubs";
  * - `pageKey`: the same page in every language shares one key (`guide:<slug>`), which is how hreflang
  *   finds a page's translations.
  * - `lastmod`: YYYY-MM-DD for the sitemap, when known.
+ *
+ * A locale publishes its home, its guide and tool indexes, the calculators and the data hubs always,
+ * and a guide, support or legal page only once it has a translation of it. Its pages reach everything
+ * else through `localizedHref`, which sends the reader to the English page.
  *
  * A feature adds its pages by exporting `function <feature>Routes(): ExportRoute[]` from
  * lib/routes/<feature>.ts and listing it in `features` below.
@@ -74,4 +79,18 @@ export function routeAt(path: string): ExportRoute | undefined {
 export function routesFor(pageKey: string): ExportRoute[] {
   exportRoutes();
   return byKey!.get(pageKey) ?? [];
+}
+
+/**
+ * The link, from a page in `locale`, to the page whose English path is `path` (`/guides/x/`,
+ * `/privacy/#website-analytics`): this locale's edition when the site publishes one, otherwise the
+ * English page. A locale exports only the pages it has translated, so an untranslated guide is linked
+ * in English rather than as a copy under the locale's directory.
+ */
+export function localizedHref(locale: LocaleCode | "en", path: string): string {
+  const english = sitePath(path);
+  if (locale === "en") return english;
+  const [base, hash] = english.split("#");
+  const localized = sitePath(`${localeRoot(locale)}${base}`);
+  return routeAt(localized) ? `${localized}${hash ? `#${hash}` : ""}` : english;
 }

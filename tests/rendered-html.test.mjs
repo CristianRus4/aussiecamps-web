@@ -5,7 +5,7 @@ import { readFile, readdir } from "node:fs/promises";
 import { APP_STORE_URL, APPLE_PROVIDER_TOKEN, GA_MEASUREMENT_ID } from "../lib/site.ts";
 import { CAMPAIGN_TOKEN_MAX, campaignTokenPattern, ctaPlacements, smartBannerContent } from "../lib/app-store.ts";
 import { analyticsBootstrap, consentRegions, CONSENT_STORAGE_KEY } from "../lib/analytics.ts";
-import { isArticleComplete, isArticleTranslated, isTranslated } from "../lib/localized.ts";
+import { hasArticleTranslation, hasStaticPageTranslation, isArticleComplete, isArticleTranslated, isTranslated } from "../lib/localized.ts";
 import { allArticles, articles, categories, isScheduled } from "../lib/site.ts";
 import { liveLocales, localeCodes, localeEntry } from "../lib/locales.ts";
 
@@ -119,14 +119,33 @@ test("renders standalone road trip tools", async () => {
   assert.match(html, /120\.0 L · A\$279\.60/);
 });
 
-test("publishes every guide in every locale", async () => {
-  // Every guide is available in all six languages. Ones a locale has not translated are served
-  // whole in English, road trips included, so no localised URL is ever missing.
+test("a locale publishes its core pages, and a guide or legal page only once it has a translation", async () => {
+  // Home and the indexes always exist. A guide, support or legal page the locale never translated has
+  // no URL there (an English copy per locale once made the export too big to deploy); a stale
+  // translation keeps its URL and falls back to English.
   for (const locale of locales) {
-    for (const route of ["", "/guides", "/tools", "/support", "/privacy", "/terms",
-                         "/guides/australia-grocery-prices-2026", "/guides/perth-to-broome-road-trip"]) {
-      assert.equal((await fetchPage(`/${locale}${route}`)).status, 200, `${locale}${route}`);
+    for (const route of ["", "/guides", "/tools"]) assert.equal((await fetchPage(`/${locale}${route}`)).status, 200, `${locale}${route}`);
+    for (const kind of ["support", "privacy", "terms"]) {
+      assert.equal((await fetchPage(`/${locale}/${kind}`)).status, hasStaticPageTranslation(locale, kind) ? 200 : 404, `${locale}/${kind}`);
     }
+    for (const slug of ["australia-grocery-prices-2026", "perth-to-broome-road-trip"]) {
+      assert.equal((await fetchPage(`/${locale}/guides/${slug}`)).status, hasArticleTranslation(locale, slug) ? 200 : 404, `${locale}/guides/${slug}`);
+    }
+  }
+});
+
+test("a locale links to the English page of anything it has not translated", async () => {
+  const pairs = locales.flatMap((locale) => articles.filter((article) => !hasArticleTranslation(locale, article.slug)).map((article) => [locale, article.slug]));
+  const legal = locales.flatMap((locale) => ["privacy", "terms"].filter((kind) => !hasStaticPageTranslation(locale, kind)).map((kind) => [locale, kind]));
+  for (const [locale, slug] of pairs.slice(0, 5)) {
+    const index = await (await fetchPage(`/${locale}/guides`)).text();
+    assert.ok(index.includes(`href="/guides/${slug}/"`), `${locale} guide index links ${slug} in English`);
+    assert.ok(!index.includes(`href="/${locale}/guides/${slug}/"`), `${locale} guide index links no missing ${locale} copy of ${slug}`);
+  }
+  for (const [locale, kind] of legal.slice(0, 3)) {
+    const home = await (await fetchPage(`/${locale}`)).text();
+    assert.ok(home.includes(`href="/${kind}/"`), `${locale} footer links the English ${kind} page`);
+    assert.ok(!home.includes(`href="/${locale}/${kind}/"`), `${locale} footer links no missing ${locale} ${kind} page`);
   }
 });
 
@@ -165,8 +184,8 @@ test("never serves a half-translated guide", async () => {
   const prose = [source.intro, ...source.sections.flatMap((section) => [section.heading, ...section.body])].map((text) => text.replace(/<a data-guide="[^"]+">|<\/a>/g, ""));
   assert.ok(prose.length >= 5);
   for (const locale of locales) {
-    // A stale translation is served in English too, so only a complete one is skipped here.
-    if (isArticleTranslated(locale, slug)) continue;
+    // A stale translation is served in English, so only a complete one, or none (no page), is skipped.
+    if (isArticleTranslated(locale, slug) || !hasArticleTranslation(locale, slug)) continue;
     // The localised article template has no sidebar, so match against the whole page.
     const body = decode(await (await fetchPage(`/${locale}/guides/${slug}`)).text());
     for (const text of prose) assert.ok(body.includes(text), `${locale}/${slug} is missing English prose it should be falling back to`);
@@ -184,6 +203,7 @@ test("a published locale translates the whole interface", async () => {
     const html = await (await fetchPage(`/${locale}`)).text();
     assert.match(html, published ? /name="robots" content="index/ : /name="robots" content="noindex/, `${locale} robots meta must match its translation state`);
     if (published) for (const phrase of englishStrings) assert.ok(!html.includes(phrase), `${locale} leaked English chrome: ${phrase}`);
+    if (!hasArticleTranslation(locale, "australia-grocery-prices-2026")) continue;
     const guide = await (await fetchPage(`/${locale}/guides/australia-grocery-prices-2026`)).text();
     // A guide is indexable once its translation is complete and the locale is live (docs/TRANSLATIONS.md).
     const translatedGuide = isArticleTranslated(locale, "australia-grocery-prices-2026") && published;
@@ -494,11 +514,11 @@ test("guide links survive translation as data-guide markup", async () => {
   // English renders exactly as before: marking the links and rendering the markup at the site root
   // gives the same HTML as linking the plain prose.
   for (const article of articles) for (const section of article.sections) {
-    assert.deepEqual(markGuideLinks(section.body, article.slug).map((text) => renderGuideLinks(text, "")), linkProse(section.body, article.slug), `${article.slug}: ${section.heading}`);
+    assert.deepEqual(markGuideLinks(section.body, article.slug).map((text) => renderGuideLinks(text, "en")), linkProse(section.body, article.slug), `${article.slug}: ${section.heading}`);
   }
-  assert.equal(renderGuideLinks('Mit <a data-guide="dump-points-australia-guide">Entsorgungsstationen</a> & mehr', "/de"), 'Mit <a href="/de/guides/dump-points-australia-guide/">Entsorgungsstationen</a> &amp; mehr');
-  assert.equal(renderGuideLinks('<a data-guide="no-such-guide">kein Ziel</a>', "/de"), "kein Ziel", "an unknown slug keeps its words and loses the link");
-  assert.equal(renderGuideLinks('<a href="https://evil.example">x</a><script>alert(1)</script>', "/de"), "x&lt;script&gt;alert(1)&lt;/script&gt;", "nothing else is admitted");
+  assert.equal(renderGuideLinks('Mit <a data-guide="dump-points-australia-guide">Entsorgungsstationen</a> & mehr', "de"), 'Mit <a href="/de/guides/dump-points-australia-guide/">Entsorgungsstationen</a> &amp; mehr');
+  assert.equal(renderGuideLinks('<a data-guide="no-such-guide">kein Ziel</a>', "de"), "kein Ziel", "an unknown slug keeps its words and loses the link");
+  assert.equal(renderGuideLinks('<a href="https://evil.example">x</a><script>alert(1)</script>', "de"), "x&lt;script&gt;alert(1)&lt;/script&gt;", "nothing else is admitted");
 });
 
 test("related guides are relevant, stable and not all from one category", async () => {
@@ -586,6 +606,12 @@ test("an app guide shows its screenshot figure in English and in every language 
     assert.equal(decode(imageAttribute(tag, "alt")), figure.alt);
     for (const locale of locales) {
       const page = pages.get(`/${locale}/guides/${figure.slug}/`);
+      if (!hasArticleTranslation(locale, figure.slug)) {
+        // Never translated: no page in this locale, whose links go to the English guide checked above.
+        assert.ok(!page, `/${locale}/guides/${figure.slug}/ is not exported without a translation`);
+        fallbackPages += 1;
+        continue;
+      }
       assert.ok(page, `/${locale}/guides/${figure.slug}/ is exported`);
       assert.equal(page.match(/class="guide-figure"/g)?.length, 1, `${locale}/${figure.slug}: exactly one figure`);
       const localized = figureImage(page, figure.section + 1);
@@ -599,7 +625,7 @@ test("an app guide shows its screenshot figure in English and in every language 
         assert.notEqual(heading, figure.alt);
         translatedPages += 1;
       } else {
-        // An untranslated locale falls back to the English guide, as before, and keeps the English alt.
+        // A stale translation falls back to the English guide and keeps the English alt.
         assert.equal(decode(imageAttribute(localized, "alt")), figure.alt, `${locale}/${figure.slug} is the English fallback and keeps the English alt`);
         fallbackPages += 1;
       }

@@ -1,4 +1,6 @@
-import { allArticles, isScheduled, sitePath } from "@/lib/site";
+import { allArticles, isScheduled } from "@/lib/site";
+import type { LocaleCode } from "@/lib/locales";
+import { localizedHref } from "@/lib/routes";
 
 /**
  * Contextual links inside a guide's own prose.
@@ -113,14 +115,14 @@ export function selectLinks(paragraphs: readonly string[], currentSlug: string, 
 }
 
 /**
- * Returns each paragraph as HTML, with at most one contextual link added per paragraph.
+ * Returns each paragraph as HTML, with at most one contextual link added per paragraph, to the guide in
+ * `locale` when that locale publishes it and to the English guide otherwise.
  *
  * The text is escaped and the anchor inserted around the escaped phrase, so article prose can never
  * inject markup: the only HTML in the result is the anchor this function wrote.
  */
-export function linkProse(paragraphs: readonly string[], currentSlug: string, prefix = "", budget = 4): string[] {
-  const root = prefix.replace(/\/$/, "");
-  const hrefFor = (slug: string) => (root ? `${root}/guides/${slug}/` : sitePath(`/guides/${slug}`));
+export function linkProse(paragraphs: readonly string[], currentSlug: string, locale: LocaleCode | "en" = "en", budget = 4): string[] {
+  const hrefFor = (slug: string) => localizedHref(locale, `/guides/${slug}`);
   const spans = selectLinks(paragraphs, currentSlug, budget);
   return paragraphs.map((paragraph, index) => {
     const span = spans[index];
@@ -136,7 +138,7 @@ export function linkProse(paragraphs: readonly string[], currentSlug: string, pr
  *
  * scripts/build-translation-source.mjs writes guide bodies into en.json this way. A translator keeps
  * the tag and its slug and moves it onto the natural phrase in their language; `renderGuideLinks`
- * turns it back into a link to that language's edition of the guide.
+ * turns it back into a link to that language's edition of the guide, or the English one.
  */
 export function markGuideLinks(paragraphs: readonly string[], currentSlug: string, budget = 4): string[] {
   const spans = selectLinks(paragraphs, currentSlug, budget);
@@ -155,18 +157,18 @@ export const stripGuideLinks = (text: string) => text.replace(guideMarkup, "$2")
 
 /**
  * Translated prose as HTML. Everything is escaped; the only markup let back in is
- * `<a data-guide="slug">` naming a guide that exists, rewritten to that guide's URL in `root` (the
- * locale directory, `/de`). Any other tag, or a link to an unknown or not yet published guide, is
- * reduced to its text.
+ * `<a data-guide="slug">` naming a guide that exists, rewritten to that guide's URL in `locale`, or to
+ * the English guide when the locale has not translated it. Any other tag, or a link to an unknown or
+ * not yet published guide, is reduced to its text.
  */
-export function renderGuideLinks(text: string, root: string): string {
+export function renderGuideLinks(text: string, locale: LocaleCode | "en"): string {
   const clean = (part: string) => escapeHtml(part.replace(/<\/?a\b[^>]*>/g, ""));
   let html = "";
   let last = 0;
   for (const match of text.matchAll(guideMarkup)) {
     html += clean(text.slice(last, match.index));
     const inner = clean(match[2]);
-    html += bySlug.has(match[1]) && !isScheduled(match[1]) ? `<a href="${sitePath(`${root}/guides/${match[1]}`)}">${inner}</a>` : inner;
+    html += bySlug.has(match[1]) && !isScheduled(match[1]) ? `<a href="${localizedHref(locale, `/guides/${match[1]}`)}">${inner}</a>` : inner;
     last = match.index! + match[0].length;
   }
   return html + clean(text.slice(last));

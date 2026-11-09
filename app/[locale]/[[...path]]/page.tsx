@@ -15,8 +15,8 @@ export const dynamicParams = false;
 const handled: RouteKind[] = ["home", "guides", "guide", "tools", "support", "privacy", "terms"];
 
 export function generateStaticParams() {
-  // Every routed locale publishes every page; ones it has not finished translating are served whole
-  // in English and noindexed (see lib/routes/), so no localised URL is ever missing.
+  // A locale publishes its home, guide and tool indexes, and each guide, support or legal page it has a
+  // translation of (lib/routes/). Its links to anything else go to the English page.
   return exportRoutes()
     .filter((route) => route.locale !== "en" && handled.includes(route.kind))
     .map((route) => {

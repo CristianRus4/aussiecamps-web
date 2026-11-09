@@ -19,6 +19,7 @@ import { defaultOutputs, toolScript } from "@/lib/tools/calc";
 import { toolCopy } from "@/lib/tools/strings";
 import { fillCounts, toolEyebrow, toolGuides, toolPageKey, toolPath, toolSources } from "@/lib/tools/pages";
 import { toolTables } from "@/lib/tools/tables";
+import { localizedHref } from "@/lib/routes";
 import { AnswerCta } from "@/components/answer-cta";
 import { toolAnswerCta } from "@/lib/answer-cta";
 
@@ -96,7 +97,7 @@ export function ToolPage({ tool, locale }: { tool: ToolKey; locale: "en" | Local
                   <caption>{table.caption}</caption>
                   <thead><tr>{table.head.map((cell) => <th scope="col" key={cell}>{cell}</th>)}</tr></thead>
                   <tbody>{table.rows.map((row) => <tr key={row.label}>
-                    <th scope="row">{row.guide ? <a href={sitePath(`${prefix}/guides/${row.guide}`)} data-guide={row.guide}>{row.label}</a> : row.label}</th>
+                    <th scope="row">{row.guide ? <a href={localizedHref(locale, `/guides/${row.guide}`)} data-guide={row.guide}>{row.label}</a> : row.label}</th>
                     {row.cells.map((cell, position) => <td key={position}>{cell}</td>)}
                   </tr>)}</tbody>
                 </table>
@@ -121,7 +122,7 @@ export function ToolPage({ tool, locale }: { tool: ToolKey; locale: "en" | Local
             </section>
             {guides.length > 0 && <section className="sources">
               <h2>{common.readNext}</h2>
-              <ul>{guides.map((article) => <li key={article.slug}><a href={sitePath(`${prefix}/guides/${article.slug}`)} data-guide={article.slug}>{article.title}<ArrowRight /></a></li>)}</ul>
+              <ul>{guides.map((article) => <li key={article.slug}><a href={localizedHref(locale, `/guides/${article.slug}`)} data-guide={article.slug}>{article.title}<ArrowRight /></a></li>)}</ul>
             </section>}
             {sources.length > 0 && <section className="sources">
               <h2>{common.sources}</h2>

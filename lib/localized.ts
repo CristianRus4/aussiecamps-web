@@ -126,6 +126,15 @@ export function isArticleTranslated(locale: LocaleCode, slug: string) {
   return !!article && isArticleComplete(article, files[locale].articles?.[slug]);
 }
 
+/**
+ * Whether a locale has started translating a guide (or a support or legal page): it then publishes
+ * that page, indexable once the translation is complete. A translation that went stale when the
+ * English grew keeps its URL, served in English and noindexed until updated. A page the locale never
+ * translated has no URL in it; links go to the English page (lib/routes.ts).
+ */
+export const hasArticleTranslation = (locale: LocaleCode, slug: string) => !!files[locale].articles?.[slug];
+export const hasStaticPageTranslation = (locale: LocaleCode, kind: StaticPageKind) => !!files[locale].pages?.[kind];
+
 /** A localised support, privacy or terms page is indexable only when its translation is complete. */
 export function isStaticPageTranslated(locale: LocaleCode, kind: StaticPageKind) {
   return isPageComplete(kind, files[locale].pages?.[kind]);

@@ -12,6 +12,7 @@ import { hubData, type Hub } from "@/lib/hubs/gate";
 import { hubAttributions, hubById, hubPageKey, indexableParksOf, neighbourHubs, sectionHubs, sectionOf, sectionPageKey, type HubSection } from "@/lib/hubs/pages";
 import { hubGuides, noteKeys, stateNotes } from "@/lib/hubs/regions";
 import { factLabel, fill, labelKey } from "@/lib/hubs/strings";
+import { localizedHref } from "@/lib/routes";
 import {
   localizedHubName, localizedHubPath, localizedHubs, localizedHubSummary, localizedHubView, localizedSectionPath,
 } from "@/lib/hubs/localized";
@@ -136,7 +137,7 @@ export function LocalizedHubPage({ hub, locale }: { hub: Hub; locale: LocaleCode
             </section>}
             {guides.length > 0 && <section className="sources">
               <h2>{fill(t.common.guidesTitle, { where: hub.stateName })}</h2>
-              <ul>{guides.map((guide) => <li key={guide.slug}><Link href={sitePath(`${prefix}/guides/${guide.slug}`)} data-guide={guide.slug}>{guide.title}<ArrowRight /></Link></li>)}</ul>
+              <ul>{guides.map((guide) => <li key={guide.slug}><Link href={localizedHref(locale, `/guides/${guide.slug}`)} data-guide={guide.slug}>{guide.title}<ArrowRight /></Link></li>)}</ul>
             </section>}
             {nearby.length > 0 && <section className="sources">
               <h2>{hub.kind === "camping-park" ? fill(t.common.parksTitle, { state: hub.stateName }) : t.common.neighboursTitle}</h2>
@@ -146,7 +147,7 @@ export function LocalizedHubPage({ hub, locale }: { hub: Hub; locale: LocaleCode
               <h2>{t.common.beforeTitle}</h2>
               <p>{t.common.beforeText}</p>
               <ul>
-                {rules && <li><Link href={sitePath(`${prefix}/guides/${rules.slug}`)} data-guide={rules.slug}>{rules.title}<ArrowRight /></Link></li>}
+                {rules && <li><Link href={localizedHref(locale, `/guides/${rules.slug}`)} data-guide={rules.slug}>{rules.title}<ArrowRight /></Link></li>}
                 {hub.officialUrl && <li><a href={hub.officialUrl}>{fill(t.common.officialParkPage, { name: hub.name })}<ArrowRight /></a></li>}
                 {related.map((other) => <li key={other.id}><Link href={localizedHubPath(other, locale)}>{localizedHubName(other, t)}<ArrowRight /></Link></li>)}
               </ul>

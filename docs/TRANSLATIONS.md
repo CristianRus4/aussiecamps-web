@@ -11,8 +11,9 @@ engine's targets in `docs/translation.config.json`. `npm run content:check` fail
 - **draft** locales (ja, zh-hans, cs, pl) are not exported at all. Preview
   them with `LOCALES_PREVIEW=1 npm run dev`. Only the orchestrator flips a status.
 
-Each locale is served from its own URL prefix (`/de/`, `/zh-hans/`, …) and covers the home page,
-`/guides/`, every guide, `/tools/`, `/support/`, `/privacy/` and `/terms/`.
+Each locale is served from its own URL prefix (`/de/`, `/zh-hans/`, …): the home page, `/guides/`,
+`/tools/`, the calculators and the data hubs always, and each guide, `/support/`, `/privacy/` and
+`/terms/` once the locale file has a translation of it (see below).
 
 ## What gets translated
 
@@ -33,7 +34,8 @@ Guide paragraphs in `en.json` carry the site's contextual links as markup:
 `… mixing <a data-guide="is-free-camping-legal-australia">free camps</a> and …`. Keep the tag and
 its slug exactly and put it around the natural phrase in your language. The site turns it into a link
 to that guide in your language; everything else in the string is escaped. A translation without the
-markup still renders, with the English link choice applied to it.
+markup still renders, with the English link choice applied to it. A link to a guide your language
+has not translated yet goes to the English guide.
 
 ## The workflow
 
@@ -65,10 +67,14 @@ So a translation counts only when it is **complete and structurally identical** 
 translates: same number of sections, same number of paragraphs and tips in each, every one filled
 in. Anything short of that is treated as absent:
 
-- an incomplete guide is served **whole, in English**, at its localised URL for visitors, but is
-  marked `noindex` and kept out of `sitemap.xml` until translated. Every guide is available in
-  every language; the ones not yet translated simply read in English
-- an incomplete support/privacy/terms page renders in English
+- a guide the locale file has no translation of has **no page** in that language. The language's
+  guide index, related guides and in-text links still list it, and link to the English guide. The
+  same goes for support, privacy and terms. (Until November 2026 every guide was exported in every
+  language as an English copy; the 10 newer locales made that thousands of pages, enough to time
+  out the GitHub Pages deploy)
+- a guide whose translation is incomplete or stale keeps its localised URL but is served **whole,
+  in English**, marked `noindex` and kept out of `sitemap.xml` until updated; an incomplete
+  support/privacy/terms page likewise renders in English
 - a locale with an incomplete UI is not published at all (see below)
 
 You can still deliver in stages — finish the UI, then guides one at a time. Just finish whatever you
@@ -79,7 +85,8 @@ contains a guide the site cannot render, and tells you which one.
 
 If an English guide gains a section, a paragraph, a source or a table, its existing translations
 become structurally stale and the page falls back to English (noindex, out of the sitemap) until
-they are updated. That is deliberate: it is exactly the failure above, caught before a reader sees
+they are updated. Its URL stays, because the locale file still has an entry for it: deleting that
+entry would take the page down, and GitHub Pages cannot redirect. That is deliberate: it is exactly the failure above, caught before a reader sees
 it.
 
 Content and translation work happen in parallel, so a stale translation does not fail
@@ -138,9 +145,10 @@ hero above an English FAQ, which is the same defect as a half-translated guide.
 Each page then has its own gate: a guide needs a complete article translation, and support, privacy
 and terms a complete page translation, before that localised page gets an `index` robots tag, a
 sitemap entry (`/sitemaps/<segment>.xml`, dated by the translation's own last commit) and a place in
-the page's hreflang set. Until then it still builds and renders, wholly in English, marked `noindex`,
-out of the sitemaps and out of hreflang, and the footer language list links to that language's home
-instead. Every one of these decisions comes from the route manifest (`lib/routes.ts`), and
+the page's hreflang set. A page the locale has not translated at all is not exported, and links to
+it from that language go to the English page. One whose translation is incomplete or stale still
+builds and renders, wholly in English, marked `noindex`, out of the sitemaps and out of hreflang. In
+both cases the footer language list links to that language's home instead. Every one of these decisions comes from the route manifest (`lib/routes.ts`), and
 `npm run seo:audit` checks the exported pages against it.
 
 `npm run check` prints the progress of every locale:

@@ -1,6 +1,6 @@
 import type { ExportRoute, RouteKind } from "@/lib/routes";
 import { localeRoot, routedLocales } from "@/lib/locales";
-import { isStaticPageTranslated, isTranslated } from "@/lib/localized";
+import { hasStaticPageTranslation, isStaticPageTranslated, isTranslated } from "@/lib/localized";
 import type { StaticPageKind } from "@/lib/source-strings";
 import { articles, sitePath } from "@/lib/site";
 import { articleDates } from "@/lib/article-dates";
@@ -24,7 +24,7 @@ const pages: { suffix: string; kind: RouteKind }[] = [
   { suffix: "/credits", kind: "credits" },
 ];
 
-/** Home, the guide and tool indexes, support, the legal pages and credits, in every routed language. */
+/** Home, the guide and tool indexes, support, the legal pages and credits; credits in English only. */
 export function pageRoutes(): ExportRoute[] {
   // The guide index changes whenever a guide is published or rewritten; home and /tools/ when the
   // files that render them do (scripts/build-article-dates.mjs).
@@ -37,12 +37,17 @@ export function pageRoutes(): ExportRoute[] {
   };
   const lastmod = (kind: RouteKind) => dates[kind] ?? SITE_CHANGED;
   const english = pages.map(({ suffix, kind }) => ({ path: sitePath(suffix || "/"), locale: "en" as const, kind, indexable: true, pageKey: kind, lastmod: lastmod(kind) }));
-  const localized = routedLocales.flatMap((locale) => pages.filter(({ kind }) => !englishOnly.includes(kind)).map(({ suffix, kind }) => {
-    const staticKind = ["support", "privacy", "terms"].includes(kind) ? kind as StaticPageKind : undefined;
-    // A page is indexed only when the locale's interface is complete and, for support and the legal
-    // pages, the page itself is translated. Otherwise it still builds, in English, noindex.
-    const indexable = isTranslated(locale) && (!staticKind || isStaticPageTranslated(locale, staticKind));
-    return { path: sitePath(`${localeRoot(locale)}${suffix}`), locale, kind, indexable, pageKey: kind, lastmod: lastmod(kind) };
-  }));
+  const staticKind = (kind: RouteKind) => (["support", "privacy", "terms"].includes(kind) ? kind as StaticPageKind : undefined);
+  // Support and the legal pages exist in a locale once it has a translation of them (until then its
+  // links go to the English page), and are indexed once that translation is complete. Every page
+  // needs the locale's interface complete to be indexed.
+  const localized = routedLocales.flatMap((locale) => pages
+    .filter(({ kind }) => !englishOnly.includes(kind))
+    .filter(({ kind }) => !staticKind(kind) || hasStaticPageTranslation(locale, staticKind(kind)!))
+    .map(({ suffix, kind }) => {
+      const page = staticKind(kind);
+      const indexable = isTranslated(locale) && (!page || isStaticPageTranslated(locale, page));
+      return { path: sitePath(`${localeRoot(locale)}${suffix}`), locale, kind, indexable, pageKey: kind, lastmod: lastmod(kind) };
+    }));
   return [...english, ...localized];
 }

@@ -47,7 +47,7 @@ async function exportFor(day) {
 }
 
 function renderLink(day) {
-  const code = `import("./lib/internal-links.ts").then((m) => process.stdout.write(m.renderGuideLinks('Read <a data-guide="${SLUG}">the new guide</a> first.', "/de")))`;
+  const code = `import("./lib/internal-links.ts").then((m) => process.stdout.write(m.renderGuideLinks('Read <a data-guide="${SLUG}">the new guide</a> first.', "de")))`;
   const result = spawnSync(tsx, ["-e", code], { cwd: root, encoding: "utf8", env: { ...process.env, SCHEDULE_FIXTURE: fixture, BUILD_DATE: day } });
   assert.equal(result.status, 0, result.stderr);
   return result.stdout;
@@ -92,9 +92,10 @@ test("on its publishAt day the guide is a normal, indexable page", async () => {
     assert.match(await site.read("guides/index.html"), new RegExp(`href="/guides/${SLUG}/"`), "listed on the guides index");
     const related = (await site.read(`guides/${HOST}/index.html`)).match(/<section class="related-section">[\s\S]*?<\/section>/)?.[0] ?? "";
     assert.match(related, new RegExp(`href="/guides/${SLUG}/"`), `in the related guides of ${HOST}`);
-    // Untranslated, so each locale serves it in English and noindex, like any new guide.
-    assert.match(await site.read(`de/guides/${SLUG}/index.html`), /<meta name="robots" content="noindex, follow"\/>/, "the untranslated German edition is noindex");
-    assert.equal(renderLink(PUBLISH_AT), `Read <a href="/de/guides/${SLUG}/">the new guide</a> first.`);
+    // Untranslated, so no locale has a page for it: German pages link to the English guide.
+    await assert.rejects(site.read(`de/guides/${SLUG}/index.html`), "no German copy of an untranslated guide");
+    assert.match(await site.read("de/guides/index.html"), new RegExp(`href="/guides/${SLUG}/"`), "the German guide index links the English guide");
+    assert.equal(renderLink(PUBLISH_AT), `Read <a href="/guides/${SLUG}/">the new guide</a> first.`);
   } finally {
     await rm(site.dir, { recursive: true, force: true });
   }

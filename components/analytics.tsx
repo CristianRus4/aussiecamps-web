@@ -1,6 +1,6 @@
 import { analyticsBootstrap, analyticsEnabled } from "@/lib/analytics";
 import { getConsentStrings, type LocaleCode } from "@/lib/localized";
-import { sitePath } from "@/lib/site";
+import { localizedHref } from "@/lib/routes";
 
 /**
  * The one analytics script per page (see lib/analytics.ts). `data-static-keep` is what tells the
@@ -19,7 +19,7 @@ export function AnalyticsScript() {
 export function ConsentBar({ locale = "en" }: { locale?: LocaleCode | "en" }) {
   if (!analyticsEnabled) return null;
   const copy = getConsentStrings(locale);
-  const privacy = `${sitePath(locale === "en" ? "/privacy" : `/${locale}/privacy`)}#website-analytics`;
+  const privacy = localizedHref(locale, "/privacy#website-analytics");
   return <div className="consent-bar" data-consent-bar hidden role="region" aria-label={copy.label}>
     <p>{copy.message} <a href={privacy}>{copy.learnMore}</a></p>
     <div className="consent-actions">
@@ -33,5 +33,5 @@ export function ConsentBar({ locale = "en" }: { locale?: LocaleCode | "en" }) {
 export function PrivacyChoicesLink({ locale = "en" }: { locale?: LocaleCode | "en" }) {
   if (!analyticsEnabled) return null;
   const copy = getConsentStrings(locale);
-  return <a href={`${sitePath(locale === "en" ? "/privacy" : `/${locale}/privacy`)}#website-analytics`} data-consent-open>{copy.privacyChoices}</a>;
+  return <a href={localizedHref(locale, "/privacy#website-analytics")} data-consent-open>{copy.privacyChoices}</a>;
 }
