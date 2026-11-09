@@ -10,9 +10,10 @@ import g_free_camping_near_canberra, { faq as faq_g_free_camping_near_canberra }
 import g_powered_campsites_australia_by_state, { faq as faq_g_powered_campsites_australia_by_state } from "@/lib/costs/powered-campsites-australia-by-state";
 import g_esperance_camping_guide, { faq as faq_g_esperance_camping_guide } from "@/lib/costs/esperance-camping-guide";
 import g_karijini_national_park_camping, { faq as faq_g_karijini_national_park_camping } from "@/lib/costs/karijini-national-park-camping";
+import g_kalbarri_coral_coast_camping, { faq as faq_g_kalbarri_coral_coast_camping } from "@/lib/costs/kalbarri-coral-coast-camping";
 
 /** Guides added by the A4 growth lane (free camping near cities, powered sites, regional WA and gear). Each lives in lib/costs/<slug>.ts. */
-export const a4Articles: Article[] = [g_free_camping_near_sydney, g_free_camping_near_melbourne, g_free_camping_near_brisbane, g_free_camping_near_perth, g_free_camping_near_adelaide, g_free_camping_near_cairns, g_free_camping_near_darwin, g_free_camping_near_canberra, g_powered_campsites_australia_by_state, g_esperance_camping_guide, g_karijini_national_park_camping];
+export const a4Articles: Article[] = [g_free_camping_near_sydney, g_free_camping_near_melbourne, g_free_camping_near_brisbane, g_free_camping_near_perth, g_free_camping_near_adelaide, g_free_camping_near_cairns, g_free_camping_near_darwin, g_free_camping_near_canberra, g_powered_campsites_australia_by_state, g_esperance_camping_guide, g_karijini_national_park_camping, g_kalbarri_coral_coast_camping];
 export const a4Faqs: Record<string, readonly (readonly [string, string])[]> = {
   [g_free_camping_near_sydney.slug]: faq_g_free_camping_near_sydney,
   [g_free_camping_near_melbourne.slug]: faq_g_free_camping_near_melbourne,
@@ -25,4 +26,5 @@ export const a4Faqs: Record<string, readonly (readonly [string, string])[]> = {
   [g_powered_campsites_australia_by_state.slug]: faq_g_powered_campsites_australia_by_state,
   [g_esperance_camping_guide.slug]: faq_g_esperance_camping_guide,
   [g_karijini_national_park_camping.slug]: faq_g_karijini_national_park_camping,
+  [g_kalbarri_coral_coast_camping.slug]: faq_g_kalbarri_coral_coast_camping,
 };
