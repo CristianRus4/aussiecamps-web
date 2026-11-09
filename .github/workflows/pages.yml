@@ -53,6 +53,3 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          # The export is large; the default 10-minute wait for GitHub's file sync times out.
-          timeout: 1800000
