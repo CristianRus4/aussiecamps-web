@@ -7,11 +7,9 @@
       "sourceLocale": "en",
       "locales": [
         "de",
-        "es-419",
         "it",
         "nl",
         "pt",
-        "pt-br",
         "cs",
         "id",
         "ms",
@@ -42,8 +40,7 @@
         }
       },
       "varieties": {
-        "pt": "pt-PT",
-        "pt-br": "pt-BR"
+        "pt": "pt-PT"
       },
       "register": {
         "de": "informal",
@@ -62,10 +59,6 @@
           "path": "../lib/translations/hubs/de.json"
         },
         {
-          "locale": "es-419",
-          "path": "../lib/translations/hubs/es-419.json"
-        },
-        {
           "locale": "it",
           "path": "../lib/translations/hubs/it.json"
         },
@@ -76,10 +69,6 @@
         {
           "locale": "pt",
           "path": "../lib/translations/hubs/pt.json"
-        },
-        {
-          "locale": "pt-br",
-          "path": "../lib/translations/hubs/pt-br.json"
         },
         {
           "locale": "cs",

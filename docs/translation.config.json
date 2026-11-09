@@ -8,11 +8,9 @@
       "sourceLocale": "en",
       "locales": [
         "de",
-        "es-419",
         "it",
         "nl",
         "pt",
-        "pt-br",
         "cs",
         "id",
         "ms",
@@ -32,10 +30,6 @@
           "path": "../lib/translations/de.json"
         },
         {
-          "locale": "es-419",
-          "path": "../lib/translations/es-419.json"
-        },
-        {
           "locale": "it",
           "path": "../lib/translations/it.json"
         },
@@ -46,10 +40,6 @@
         {
           "locale": "pt",
           "path": "../lib/translations/pt.json"
-        },
-        {
-          "locale": "pt-br",
-          "path": "../lib/translations/pt-br.json"
         },
         {
           "locale": "cs",
@@ -135,8 +125,7 @@
         }
       },
       "varieties": {
-        "pt": "pt-PT",
-        "pt-br": "pt-BR"
+        "pt": "pt-PT"
       },
       "register": {
         "de": "informal",

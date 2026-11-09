@@ -93,7 +93,7 @@ else passed.push(robots.url);
 
 const listed = (await sitemapUrls()).map(pathOf);
 const englishGuide = listed.find((path) => /^\/guides\/[^/]+\/$/.test(path));
-const localeGuide = listed.find((path) => /^\/[a-z]{2}(?:-[a-z0-9]+)?\/guides\/[^/]+\/$/.test(path));
+const localeGuide = listed.find((path) => /^\/[a-z]{2}(?:-[a-z]+)?\/guides\/[^/]+\/$/.test(path));
 if (!englishGuide) fail(`${base}/sitemap.xml`, "lists no English guide");
 if (!localeGuide) fail(`${base}/sitemap.xml`, "lists no localised guide");
 for (const path of ["/", englishGuide, localeGuide].filter(Boolean)) await checkPage(path, { indexable: true });

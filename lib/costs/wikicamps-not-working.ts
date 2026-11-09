@@ -10,7 +10,7 @@ export const faq = [
 
 export default article({
   slug: "wikicamps-not-working", publishAt: "2026-11-09",
-  title: "WikiCamps Not Working? Try AussieCamps, the Camping App With No Sign-In (2026)",
+  title: "WikiCamps Not Working in Australia? Here's What You Can Do (2026)",
   description: "WikiCamps asking you to sign in, forcing an update or playing up since the new version? Why travellers switch to AussieCamps and how to move your trip over.",
   category: "App guides", region: "Australia",
   places: ["Sign-in", "Forced updates", "Trip planner", "Switching apps"],

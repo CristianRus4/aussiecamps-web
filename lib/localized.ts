@@ -55,13 +55,16 @@ export const isLocale = (value: string): value is LocaleCode => routedLocaleForS
  */
 const filled = (value: unknown): value is string => typeof value === "string" && value.trim().length > 0;
 
-/** A section table translates completely or not at all: same shape, every cell filled. */
+/** A cell is translated when it is filled, or when the English cell is deliberately empty (a corner header). */
+const cellDone = (english: string | undefined, value: unknown) => filled(value) || (english !== undefined && !english.trim() && value === "");
+
+/** A section table translates completely or not at all: same shape, every cell filled that is filled in English. */
 function isTableComplete(english: ArticleSection["table"], translated: TranslatedSection["table"]): boolean {
   if (!english) return true;
   if (!translated || !filled(translated.caption)) return false;
-  if (translated.head?.length !== english.head.length || !translated.head.every(filled)) return false;
+  if (translated.head?.length !== english.head.length || !translated.head.every((cell, index) => cellDone(english.head[index], cell))) return false;
   if (translated.rows?.length !== english.rows.length) return false;
-  return english.rows.every((row, index) => translated.rows![index]?.length === row.length && translated.rows![index].every(filled));
+  return english.rows.every((row, index) => translated.rows![index]?.length === row.length && translated.rows![index].every((cell, column) => cellDone(row[column], cell)));
 }
 
 export function isArticleComplete(article: Article, item: TranslatedArticle | undefined): boolean {
