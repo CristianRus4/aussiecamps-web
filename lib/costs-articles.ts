@@ -27,6 +27,14 @@ import freeQld, { faq as faq_freeQld } from "@/lib/costs/free-camping-queensland
 import freeWa, { faq as faq_freeWa } from "@/lib/costs/free-camping-western-australia";
 import freeTas, { faq as faq_freeTas } from "@/lib/costs/free-camping-tasmania";
 import freeSa, { faq as faq_freeSa } from "@/lib/costs/free-camping-south-australia";
+import wave3_1, { faq as wave3_1Faq } from "@/lib/costs/big-lap-of-australia-guide";
+import wave3_2, { faq as wave3_2Faq } from "@/lib/costs/hipcamp-in-australia";
+import wave3_3, { faq as wave3_3Faq } from "@/lib/costs/campervan-relocations-australia";
+import wave3_4, { faq as wave3_4Faq } from "@/lib/costs/australia-or-new-zealand-campervan-first";
+import wave3_5, { faq as wave3_5Faq } from "@/lib/costs/regional-work-working-holiday-visa-camping-australia";
+import wave3_6, { faq as wave3_6Faq } from "@/lib/costs/wikicamps-vs-camps-australia-wide-vs-campermate";
+import wave3_7, { faq as wave3_7Faq } from "@/lib/costs/easter-long-weekend-camping-australia-2027";
+import wave3_8, { faq as wave3_8Faq } from "@/lib/costs/australian-winter-camping-whales-snow-warm-camps";
 
 /**
  * Campervan hire, buying, selling, budget, comparison, price, season-planning, road-rule, safety and
@@ -35,7 +43,7 @@ import freeSa, { faq as faq_freeSa } from "@/lib/costs/free-camping-south-austra
  * order they were written; lib/site.ts spreads `costsArticles` into the written guides and attaches
  * `costsFaqs` by slug.
  */
-export const costsArticles: Article[] = [page1, page2, page3, page4, page5, page6, page7, page8, page9, page10, page11, page12, page13, page14, page15, page16, page17, page18, page19, page20, wikicampsNotWorking, campingDangerous, freeNsw, freeVic, freeQld, freeWa, freeTas, freeSa];
+export const costsArticles: Article[] = [page1, page2, page3, page4, page5, page6, page7, page8, page9, page10, page11, page12, page13, page14, page15, page16, page17, page18, page19, page20, wikicampsNotWorking, campingDangerous, freeNsw, freeVic, freeQld, freeWa, freeTas, freeSa, wave3_1, wave3_2, wave3_3, wave3_4, wave3_5, wave3_6, wave3_7, wave3_8];
 export const costsFaqs: Record<string, readonly (readonly [string, string])[]> = {
   [page1.slug]: faq1,
   [page2.slug]: faq2,
@@ -64,4 +72,12 @@ export const costsFaqs: Record<string, readonly (readonly [string, string])[]> =
   [freeWa.slug]: faq_freeWa,
   [freeTas.slug]: faq_freeTas,
   [freeSa.slug]: faq_freeSa,
+  [wave3_1.slug]: wave3_1Faq,
+  [wave3_2.slug]: wave3_2Faq,
+  [wave3_3.slug]: wave3_3Faq,
+  [wave3_4.slug]: wave3_4Faq,
+  [wave3_5.slug]: wave3_5Faq,
+  [wave3_6.slug]: wave3_6Faq,
+  [wave3_7.slug]: wave3_7Faq,
+  [wave3_8.slug]: wave3_8Faq,
 };
