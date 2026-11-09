@@ -89,7 +89,7 @@ export const noteSource = () => Object.fromEntries(Object.entries(stateNotes).fl
 /** States that share a land border, for links to the same kind of hub next door. Tasmania has none. */
 export const neighbours: Record<string, string[]> = {
   NSW: ["QLD", "VIC", "SA", "ACT"], VIC: ["NSW", "SA"], QLD: ["NSW", "NT", "SA"], SA: ["WA", "NT", "QLD", "NSW", "VIC"],
-  WA: ["NT", "SA"], NT: ["WA", "SA", "QLD"], TAS: [], ACT: ["NSW"],
+  WA: ["NT", "SA", "melbourne-to-perth-drive"], NT: ["WA", "SA", "QLD"], TAS: [], ACT: ["NSW"],
 };
 
 /**
@@ -98,11 +98,11 @@ export const neighbours: Record<string, string[]> = {
  */
 const stateGuides: Record<string, string[]> = {
   NSW: ["blue-mountains-camping-weekend", "sydney-south-coast-camping", "australian-alps-camping-route", "east-coast-road-trip-sydney-cairns", "sydney-to-canberra-drive", "sydney-to-melbourne-drive", "brisbane-to-sydney-drive"],
-  VIC: ["great-ocean-road-camping-guide", "victoria-high-country-camping", "melbourne-to-adelaide-coastal-route", "australian-alps-camping-route", "melbourne-to-mildura-drive", "sydney-to-melbourne-drive"],
+  VIC: ["great-ocean-road-camping-guide", "victoria-high-country-camping", "melbourne-to-adelaide-coastal-route", "australian-alps-camping-route", "melbourne-to-mildura-drive", "sydney-to-melbourne-drive", "melbourne-to-perth-drive"],
   QLD: ["brisbane-to-cape-tribulation", "sunshine-coast-hinterland-camping", "queensland-outback-way", "brisbane-to-cairns-drive", "townsville-to-mount-isa-drive", "brisbane-to-byron-bay-drive"],
   NT: ["darwin-kakadu-litchfield-loop", "red-centre-way-camping", "wet-season-camping-top-end-northern-wa", "darwin-to-alice-springs-drive", "alice-springs-to-uluru-drive", "cairns-to-darwin-drive"],
   WA: ["perth-to-broome-road-trip", "south-west-wa-camping-loop", "gibb-river-road-camping", "wet-season-camping-top-end-northern-wa", "perth-to-exmouth-drive", "broome-to-darwin-drive"],
-  SA: ["flinders-ranges-camping-guide", "kangaroo-island-camping-guide", "adelaide-to-uluru-road-trip", "nullarbor-crossing-camping-guide", "adelaide-to-port-lincoln-drive", "adelaide-to-melbourne-drive"],
+  SA: ["flinders-ranges-camping-guide", "kangaroo-island-camping-guide", "adelaide-to-uluru-road-trip", "nullarbor-crossing-camping-guide", "adelaide-to-port-lincoln-drive", "adelaide-to-melbourne-drive", "melbourne-to-perth-drive"],
   TAS: ["tasmania-camping-loop", "hobart-to-launceston-drive", "can-i-take-a-campervan-or-caravan-on-the-spirit-of-tasmania"],
   ACT: ["australian-alps-camping-route", "sydney-to-canberra-drive", "melbourne-to-canberra-drive"],
 };
