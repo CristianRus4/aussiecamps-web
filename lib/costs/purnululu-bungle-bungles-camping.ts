@@ -13,7 +13,7 @@ export default article({
   description: "How to camp at Purnululu National Park: Walardi and Kurrajong campgrounds, the 53 kilometre 4WD track, bookings, the season, the main walks and how to plan the Kimberley drive.",
   category: "Camping guides", region: "Western Australia",
   places: ["Purnululu National Park", "Bungle Bungles", "Kununurra", "Halls Creek", "Piccaninny Gorge"],
-  imageAlt: "SUBJECT_PLACEHOLDER",
+  imageAlt: "Bell Gorge waterfall, West Kimberley",
   intro: "Purnululu National Park, home of the Bungle Bungles, is one of the most remarkable places in Western Australia. The striped beehive domes only became widely known in the 1980s, and the park is World Heritage listed. It is also a serious trip: a 53 kilometre 4WD track, a short season and campgrounds that sell out. Book early, bring everything you need and give yourself at least two nights.",
   related: ["gibb-river-road-camping", "wet-season-camping-top-end-northern-wa", "broome-to-darwin-drive", "camping-rules-western-australia", "can-i-drive-a-2wd-hire-campervan-on-4wd-roads-in-australia"],
   sections: [
