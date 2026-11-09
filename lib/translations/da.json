@@ -24351,6 +24351,520 @@
         }
       ],
       "priceTable": null
+    },
+    "speed-limits-australia-visitors": {
+      "title": "Fartgrænser i Australien 2026: standardgrænser pr. stat for besøgende",
+      "description": "Australiens fartgrænser for besøgende: 50 km/t i byer, 100 eller 110 km/t på åben vej, 130 km/t på dele af fire NT-motorveje, plus skolezoner, fotokasser og bøder i en lejebil.",
+      "region": "Australien",
+      "imageAlt": "Et skilt med fartgrænsen 130 km/t ved en landevej i Northern Territory med tørt græs og buskads bagved",
+      "intro": "Hvor der ikke er skilte, er Australiens standardfartgrænse 50 km/t i bebygget område og 100 km/t uden for. Western Australia og Northern Territory sætter standarden på åben vej til 110 km/t, og Northern Territorys standard i bebygget område er 60 km/t, medmindre en by skilter lavere. Skilte går forud for alle standardgrænser, skolezoner falder til 40 km/t eller mindre på bestemte tidspunkter, og fotokasser er almindelige, herunder strækningsmålere, der tager tid på dig mellem to punkter. I en lejebil går bøden til udlejningsfirmaet, som sender den videre til dig. Vi læste hver stats vejmyndigheds side den 9. november 2026.",
+      "sections": [
+        {
+          "heading": "Standardgrænser pr. stat",
+          "body": [
+            "En standardgrænse gælder på en vej uden fartskilt eller efter et skilt, der ophæver <a data-guide=\"australia-road-rules-state-differences\">fartgrænsen</a>. I New South Wales er et bebygget område et sted med gadelys og bygninger langs vejen med mindre end 100 m imellem sig, og de fleste stater bruger samme idé. Tabellen viser hver standardgrænse sammen med de grænser, der gælder for elever (learners) og førere på prøvetid (provisional), hvor en stat offentliggør dem.",
+            "Besøgende med et gyldigt <a data-guide=\"overseas-driver-licence-australia-state-guide\">udenlandsk kørekort</a> følger de samme grænser som lokale bilister. De lavere grænser for elever og førere på prøvetid gælder for bilister med lokale L- eller P-plader."
+          ],
+          "tips": [
+            "50 km/t i byen som standard",
+            "100 km/t uden for, 110 i WA og NT",
+            "Et skilt går altid forud"
+          ],
+          "table": {
+            "caption": "Standardfartgrænser, hvor der ikke er skiltet. Fra hver stats og hvert territoriums vejmyndighed, læst den 9. november 2026.",
+            "head": [
+              "Stat",
+              "Bebygget område",
+              "Uden for bebygget område",
+              "Bemærk også"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "50 km/t",
+                "100 km/t",
+                "Elever og P1-førere 90 km/t, P2-førere 100 km/t"
+              ],
+              [
+                "Victoria",
+                "50 km/t",
+                "100 km/t",
+                "Nogle motorveje er skiltet til 110 km/t"
+              ],
+              [
+                "Queensland",
+                "50 km/t",
+                "100 km/t",
+                "Nogle få veje med højere standard er skiltet til 110 km/t"
+              ],
+              [
+                "South Australia",
+                "50 km/t",
+                "100 km/t",
+                "Elever og førere på prøvetid må ikke bruge strækninger med 110 km/t"
+              ],
+              [
+                "Western Australia",
+                "50 km/t",
+                "110 km/t",
+                "WA skilter sine maksimumgrænser på nogle veje ind i staten"
+              ],
+              [
+                "Tasmania",
+                "50 km/t",
+                "100 km/t på asfalt, 80 km/t på grus",
+                "Grusveje er 80 km/t, medmindre andet er skiltet"
+              ],
+              [
+                "Northern Territory",
+                "60 km/t eller lavere, hvor en by fastsætter det",
+                "110 km/t",
+                "130 km/t på skiltede dele af fire motorveje; elever 80, prøvetid 100"
+              ],
+              [
+                "Australian Capital Territory",
+                "50 km/t",
+                "100 km/t",
+                "Skilte fastsætter grænsen på de fleste veje"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Hvor 130 km/t er lovligt, og hvor det ikke er",
+          "body": [
+            "Northern Territory er det eneste sted i Australien med fartgrænser på 130 km/t. NT Government oplyser, at nogle strækninger af Barkly, Stuart, <a data-guide=\"camping-rules-victoria\">Victoria</a> og Arnhem highways har en maksimumgrænse på 130 km/t, vist på skilte, mens tunge køretøjer holdes til 100 km/t. Alle andre steder er den højeste skiltede grænse 110 km/t.",
+            "Et skilt med 130 er et maksimum under gode forhold, ikke et mål. I en lejet campervan, i skumringen eller med <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">kænguruer</a> og kvæg langs vejen levner 130 km/t ingen tid til at bremse. Lejeaftaler kan have deres egne regler for afsides veje, så læs din, før du kører en lang strækning i Territory."
+          ],
+          "tips": [
+            "130 km/t kun i NT",
+            "Fire motorveje, kun skiltede strækninger",
+            "Ikke et mål i en campervan"
+          ]
+        },
+        {
+          "heading": "Skolezoner og andre lave grænser",
+          "body": [
+            "Alle stater sætter farten ned omkring skoler på skoledage, med tidspunkterne på skiltet. <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> bruger 40 km/t, markerer zoner med blinkende lys og zigzaglinjer malet på vejen og bøder overtrædelser i en skolezone hårdere. Victoria bruger 30, 40 eller 60 km/t afhængigt af vejen, med tidsbestemte zoner fra kl. 8 til 9.30 og 14.30 til 16 på hverdage i skoleterminen, men ikke på helligdage.",
+            "<a data-guide=\"camping-rules-south-australia\">South Australia</a> er undtagelsen, du skal huske: Bilister skal sætte farten ned til 25 km/t i en skolezone, hver gang der er børn til stede, og når de passerer en skolebus, der er stoppet for at tage børn op eller sætte dem af. Northern Territory bruger 40 km/t på de viste tidspunkter. Delte zoner er 10 km/t i New South Wales, og du giver vigepligt til gående."
+          ],
+          "tips": [
+            "Læs tidspunkterne på skiltet",
+            "SA: 25 km/t, når der er børn",
+            "Delte zoner: 10 km/t"
+          ]
+        },
+        {
+          "heading": "Fotokasser, også strækningsmålere",
+          "body": [
+            "Regn med faste kameraer, mobile kameraer i parkerede biler og varevogne og kameraer i lyskryds, der også tjekker farten. Transport for NSW oplyser, at alle stater på fastlandet og ACT undtagen <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> bruger strækningsmålere både til biler og tunge køretøjer og tager tid på dig mellem to punkter på en motorvej. New South Wales har brugt dem på lastbiler siden 2010, og efter et forsøg på to regionale motorveje holder de dem tændt for biler på de strækninger.",
+            "Et kamera stopper dig ikke, så du hører først om det, når brevet kommer. New South Wales oplyser, at elever og P1-førere mister kørekortet ved enhver fartovertrædelse, og de fleste stater tilføjer prikker oven i bøden. Flere stater, blandt dem New South Wales, bruger dobbelte prikker i ferieperioder."
+          ],
+          "tips": [
+            "Strækningsmålere i de fleste stater",
+            "Breve kommer med posten",
+            "Dobbelte prikker i ferier"
+          ]
+        },
+        {
+          "heading": "Bøder i en lejebil eller campervan",
+          "body": [
+            "En fotokassebøde går til køretøjets registrerede ejer. I en lejebil eller campervan er det udlejningsfirmaet, som udpeger dig som fører. Tourism Australia oplyser, at bøden sendes til dit udlejningsfirma, og at den, hvis du ikke betaler, kan blive trukket på dit kreditkort eller din sikkerhedsdepositum.",
+            "De fleste firmaer lægger et administrationsgebyr oven i for hver sag, så ét kamera kan koste mere end selve bøden. Behold lejeaftalen, til depositummet er tilbage, og tjek kortudtoget i nogle uger efter, du har afleveret bilen."
+          ],
+          "tips": [
+            "Bøden følger køretøjet",
+            "Regn med et administrationsgebyr",
+            "Hold øje med dit kort efter turen"
+          ]
+        },
+        {
+          "heading": "Kør under fartgrænsen",
+          "body": [
+            "<a data-guide=\"camping-rules-queensland\">Queenslands</a> tommelfingerregel gælder alle steder: En skiltet grænse er maksimum under gode forhold, og regn, mørke eller en fare kalder på mindre. Det samme gælder grus, som Tasmania begrænser til 80 km/t som standard, og en høj campervan i sidevind.",
+            "Hvis du <a data-guide=\"towing-caravan-australia-road-rules\">trækker en campingvogn</a>, kan der gælde lavere køretøjsgrænser oven i den skiltede, og de varierer fra stat til stat. Sæt farten ned ved vejarbejde, udrykningskøretøjer med blinkende lys og dyr på vejen, og kør ind til siden, så trafikken kan komme forbi, når der bygger sig en kø op bag dig."
+          ],
+          "tips": [
+            "Skilte er et maksimum",
+            "Langsommere på grus og i vind",
+            "Lad køer komme forbi"
+          ]
+        },
+        {
+          "heading": "Planlæg kortere etaper i AussieCamps",
+          "body": [
+            "<a data-guide=\"australia-road-rules-state-differences\">Fartgrænser</a> betyder mindre, når dagen er kort. Føj dine stop til en rejse i AussieCamps, så viser den køreafstand og køretid for hver etape og hele turen, så du kan se, hvor en dag bliver for lang, og lægge en rasteplads eller campingplads ind imellem.",
+            "AussieCamps viser 5.552 rastepladser og 1.838 campingpladser fra vejmyndigheder og parkmyndigheder. Stedoplysninger kan læses <a data-guide=\"camping-without-phone-signal\">uden signal</a>, mens kort, rutevejledning og vejr kræver forbindelse. AussieCamps kører på iPhone."
+          ],
+          "tips": [
+            "Etapetider, før du kører",
+            "Rastepladser mellem byerne",
+            "Kun iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hvad er fartgrænsen på australske motorveje?",
+          "Det, skiltet siger, normalt 100 eller 110 km/t. Hvor der ikke er skilte, er standarden uden for bebygget område 100 km/t i de fleste stater og 110 km/t i Western Australia og Northern Territory. Dele af Stuart, Barkly, Victoria og Arnhem highways i Northern Territory er skiltet til 130 km/t."
+        ],
+        [
+          "Rammer fartbøder turister i lejebiler?",
+          "Ja. Fotokassebøder går til den registrerede ejer, som er udlejningsfirmaet. Tourism Australia oplyser, at firmaet sender bøden videre, og hvis du ikke betaler, kan beløbet blive trukket på dit kreditkort eller din sikkerhedsdepositum, normalt med firmaets eget gebyr oveni."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NSW Government: fartgrænser"
+        },
+        {
+          "label": "NSW Government: fartovertrædelser og sanktioner"
+        },
+        {
+          "label": "Transport for NSW: strækningsmålere"
+        },
+        {
+          "label": "Transport Victoria: fartgrænser"
+        },
+        {
+          "label": "Transport Victoria: skolezoner"
+        },
+        {
+          "label": "Queensland Government: fartgrænser"
+        },
+        {
+          "label": "My Licence SA: fartgrænser i Driver's Handbook"
+        },
+        {
+          "label": "My Licence SA: fartgrænser på 25 km/t"
+        },
+        {
+          "label": "Main Roads WA: fartzoner og standardgrænser"
+        },
+        {
+          "label": "Department of State Growth Tasmania: fartgrænser"
+        },
+        {
+          "label": "NT Government: fartgrænser"
+        },
+        {
+          "label": "ACT Policing: fartgrænser"
+        },
+        {
+          "label": "Tourism Australia: kørsel i Australien"
+        }
+      ],
+      "priceTable": null
+    },
+    "left-side-driving-australia": {
+      "title": "Venstrekørsel i Australien: en guide til din første dag",
+      "description": "Australien kører i venstre side. Hvor højrevanerne kommer snigende tilbage, hvordan rundkørsler, overhaling og Melbournes hook turns fungerer, og hvordan du stiller en lejebil ind, før du kører af sted.",
+      "region": "Australien",
+      "imageAlt": "Et gult og hvidt Keep Left-skilt på engelsk, tysk, fransk og kinesisk ved Indian Ocean Drive i Western Australia",
+      "intro": "Australien kører i venstre side, og føreren sidder i højre side af bilen. Tourism Australias tommelfingerregel er at holde førersædet tæt på vejens midte, blive i venstre vognbane, medmindre du overhaler, og give vigepligt til højre i rundkørsler. De fleste besøgende klarer den åbne landevej fint. Fejlene sker, når man kører ud fra en parkeringsplads, efter et tankstop på en øde motorvej eller ved den første rundkørsel. Lej en automatgearbil, hvis du kan, stil bilen ind, før du kører, og hold den første dag kort. Vi har læst hver officiel side den 9. november 2026.",
+      "sections": [
+        {
+          "heading": "Stil bilen ind, før du kører",
+          "body": [
+            "Tourism Australia anbefaler at leje en bil med automatgear, hvis du ikke er vant til at køre i venstre side, så du slipper for at skifte gear med venstre hånd. Den advarer også om, at blinklys- og vinduesviskerarmene kan sidde på den modsatte side af rattet i forhold til din bil derhjemme, mens bremse og speeder altid sidder samme sted.",
+            "Før du forlader udlejningsstedet, skal du justere sædet og alle tre spejle, parre din telefon og starte navigationen, for i Australien er det ulovligt at holde i telefonen, mens du kører, også når du holder for rødt. Kør derefter en tur rundt på parkeringspladsen. Regn med at tænde viskerne, når du ville blinke, den første dag eller to. Det er harmløst, og det fortager sig."
+          ],
+          "tips": [
+            "Automatgear fjerner én opgave",
+            "Viskere og blinklys kan være byttet om",
+            "Sæt telefonen op, før du kører"
+          ]
+        },
+        {
+          "heading": "Hvor højrevanerne kommer tilbage",
+          "body": [
+            "På en travl vej viser de andre biler dig, hvor du skal være. Risikoen opstår, når der ingen er: når du kører ud fra en parkeringsplads eller indkørsel, kommer ud på en tom motorvej efter en rasteplads eller drejer i et stille T-kryds. I de øjeblikke falder hjernen tilbage på det, den kender, og man ender i højre side.",
+            "Sig et kort tjek højt hver gang du sætter i gang eller drejer: fører ved midterlinjen. Ved højresving krydser du modkørende bane og ender i den fjerneste bane, og ved venstresving holder du tæt ind mod kantstenen. En passager, der læser skiltene og siger keep left ved hvert sving, hjælper mere end nogen app."
+          ],
+          "tips": [
+            "Tomme veje er fælden",
+            "Fører ved midterlinjen",
+            "Venstresving tæt, højresving bredt"
+          ]
+        },
+        {
+          "heading": "Rundkørsler",
+          "body": [
+            "Rundkørsler i Australien går med uret. NSW Government siger, at du skal sætte farten ned eller stoppe for at give vigepligt til alle køretøjer, der allerede er i rundkørslen, altså trafik fra højre samt køretøjer, der er kørt ind fra venstre eller lige overfor dig.",
+            "Blink, når du skal dreje i en rundkørsel, og bliv ved med at blinke under svinget. Når du kører ud, blinker du til venstre, hvis det er praktisk, og holder op med at blinke, når du er ude. I rundkørsler med flere vognbaner skal du følge pilene på vejen eller skiltene: til venstresving bruger du den venstre bane, medmindre pilene tillader en anden."
+          ],
+          "tips": [
+            "Med uret, vigepligt til højre",
+            "Blink til venstre, når du kører ud",
+            "Følg pilene i vognbanerne"
+          ]
+        },
+        {
+          "heading": "Vognbaner og overhaling",
+          "body": [
+            "Hold dig i venstre vognbane, medmindre du overhaler, og overhal altid i højre side. Tourism Australia forklarer midterlinjerne: en enkelt, stiplet hvid linje betyder, at du kan overhale, når det er sikkert, og hvor der er to linjer, må du kun overhale, når den linje, der er tættest på dig, er stiplet. Hvor der står et Keep Left Unless Overtaking-skilt, er det en overtrædelse at ligge i højre bane.",
+            "På landeveje skal du vente på en skiltet overhalingsbane i stedet for at trække ud på en kort lige strækning. <a data-guide=\"driving-with-road-trains-australia\">Road trains</a> kan være over 50 m lange og tager langt længere tid at overhale, end de ser ud til, så det sikreste er ofte at blive bag dem, til vejen åbner sig."
+          ],
+          "tips": [
+            "Overhal kun i højre side",
+            "To linjer: overhal kun, hvis din side er stiplet",
+            "Vent på en overhalingsbane"
+          ]
+        },
+        {
+          "heading": "Byens særheder: hook turns, sporvogne og parkering",
+          "body": [
+            "Det centrale Melbourne bruger hook turns ved skiltede kryds, så biler, der drejer til højre, holder sig fri af sporvognene midt på vejen. Du drejer til højre fra venstre bane: kør helt ud til venstre i krydset med højre blinklys tændt, vent til lyset i den gade, du skal ind i, bliver grønt, og gennemfør så svinget. Skiltet lyder Right Turn From Left Only.",
+            "I Melbourne og Adelaide deler sporvognene vejen med bilerne, og du skal stoppe bag en sporvogn, der holder for at tage passagerer på, medmindre der er en sikkerhedszone. Tourism Australia minder også besøgende om at parkere i vejens venstre side, for det er ulovligt at parkere med fronten mod modkørende trafik, og om at læse tidsbegrænsninger som 2P, som betyder to timer."
+          ],
+          "tips": [
+            "Hook turns: højre fra venstre bane",
+            "Stop bag en holdende sporvogn",
+            "Parker i samme retning som trafikken"
+          ]
+        },
+        {
+          "heading": "Hold den første dag kort",
+          "body": [
+            "En lang flyvetur, en ny bil og den modsatte side af vejen lægger sig sammen. Hent bilen om morgenen efter en nats søvn, og gør den første dags tur kort, helst til en campingplads eller en holiday park inden for to timer fra lufthavnen. Tourism Australia fraråder at køre i mørke i outbacken og på landet, fordi <a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">kænguruer</a> og andre dyr er svære at se i mørket.",
+            "Træthed gør de gamle vaner stærkere, så hold en pause mindst hver anden time, og skift chauffør, hvis I kan. Efter nogle dage i venstre side oplever de fleste besøgende, at vanen sætter sig. De øjeblikke, hvor du skal være på vagt, er de stille."
+          ],
+          "tips": [
+            "Hent bilen efter en nats søvn",
+            "Første tur under to timer",
+            "Ingen landevejskørsel i mørke"
+          ]
+        },
+        {
+          "heading": "Planlæg en kort første etape i AussieCamps",
+          "body": [
+            "AussieCamps viser campingpladser, holiday parks og rastepladser omkring alle større lufthavne med de faciliteter og adgangsoplysninger, som parkmyndighederne udgiver, så du kan finde en første nat tæt på udlejningsstedet. Føj stedet til en rejse, så viser AussieCamps køreafstand og køretid, før du kører af sted.",
+            "Når du er klar, sender AussieCamps ruten videre til Apple Maps eller Google Maps, så vejledningen sving for sving fortæller dig, hvilken vognbane du skal være i. Stedoplysninger kan læses <a data-guide=\"camping-without-phone-signal\">uden signal</a>, mens kort, rutevejledning og vejr kræver forbindelse. AussieCamps kører på iPhone."
+          ],
+          "tips": [
+            "En første nat tæt på udlejningsstedet",
+            "Rutevejledning i Apple Maps eller Google Maps",
+            "Kun iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hvilken side af vejen kører man på i Australien?",
+          "Venstre. Føreren sidder i højre side af bilen og bør holde sig tæt på midterlinjen. Du overhaler i højre side, kører med uret rundt i rundkørsler og giver vigepligt til trafik, der allerede er i rundkørslen."
+        ],
+        [
+          "Hvad er en hook turn i Melbourne?",
+          "Et højresving, der foretages fra venstre bane, og som bruges ved skiltede kryds i det centrale Melbourne, så bilerne holder sig fri af sporvognene midt på vejen. Du kører helt ud til venstre i krydset med højre blinklys tændt, venter til lyset i den gade, du skal ind i, bliver grønt, og drejer så."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Tourism Australia: kørsel i Australien"
+        },
+        {
+          "label": "NSW Government: rundkørsler"
+        },
+        {
+          "label": "NSW Government: hastighedsgrænser og delte zoner"
+        },
+        {
+          "label": "Wikipedia: hook turn"
+        }
+      ],
+      "priceTable": null
+    },
+    "drink-driving-limits-australia-visitors": {
+      "title": "Promillegrænse i Australien for besøgende 2026: 0,05, nul og alkoholtest",
+      "description": "Australiens promillegrænse er under 0,05 med fuldt kørekort og nul med elev- eller prøvekørekort, i alle stater. Sådan fungerer tilfældige alkoholtests, og hvordan morgenen efter er.",
+      "region": "Australien",
+      "imageAlt": "Betjente fra NSW Polices motorvejspatrulje stopper biler ved et sted for tilfældige alkoholtests på Travers Street i Wagga Wagga",
+      "intro": "I alle australske stater og territorier skal en fører med fuldt kørekort holde sin alkoholkoncentration i blod eller udåndingsluft (BAC) under 0,05, og en fører med elev- eller prøvekørekort skal holde den på nul. Besøgende med fuldt kørekort hjemmefra følger 0,05-grænsen; det siger NSW's og Northern Territorys regeringer i klar tekst. Politiet kan stoppe og alkoholteste enhver bilist når som helst uden grund, og Tourism Australia bemærker, at tilfældige alkohol- og narkotest foregår ved vejkanter over hele landet. Den sikre plan er at holde drikkeri og kørsel helt adskilt, også morgenen efter. Vi læste hver stats side om trafiksikkerhed den 9. november 2026.",
+      "sections": [
+        {
+          "heading": "Grænserne efter kørekort og stat",
+          "body": [
+            "Den generelle grænse er den samme overalt: under 0,05, hvilket betyder mindre end 50 mg alkohol pr. 100 ml blod. Alle stater sætter en nulgrænse for elever og førere på prøvetid, og de fleste tilføjer nul- eller 0,02-grænser for førere af busser, taxaer og tunge køretøjer. <a data-guide=\"camping-rules-western-australia\">Western Australia</a> går videre med en nulgrænse for alle nybegyndere i deres første to år med kørekort.",
+            "Hvis du besøger landet med et fuldt kørekort fra dit eget land, placerer NSW's regering dig under 0,05-grænsen, og Northern Territory opfører fuldt licenserede førere fra andre stater og udlandet på samme måde. Queensland anvender nulgrænsen på førere, hvis <a data-guide=\"overseas-driver-licence-australia-state-guide\">udenlandske kørekort</a> svarer til et elev-, prøve- eller probationskørekort."
+          ],
+          "tips": [
+            "Fuldt kørekort: under 0,05",
+            "L- eller P-plader: nul",
+            "Bus, taxa, lastbil: endnu lavere"
+          ],
+          "table": {
+            "caption": "Lovlige alkoholgrænser for bilister pr. stat, fra hver stats trafiksikkerhedsmyndighed, læst den 9. november 2026. BAC er gram alkohol pr. 100 ml blod.",
+            "head": [
+              "Stat",
+              "Fuldt kørekort, også besøgende",
+              "Elev og prøvetid",
+              "Lavere grænser for andre"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "Under 0,05",
+                "Nul",
+                "Tunge køretøjer over 13,9 t: under 0,02"
+              ],
+              [
+                "Victoria",
+                "Under 0,05",
+                "Nul",
+                "Bus- og taxachauffører: nul"
+              ],
+              [
+                "Queensland",
+                "Under 0,05",
+                "Nul, også for udenlandske tilsvarende",
+                "Bus- og taxachauffører: nul"
+              ],
+              [
+                "South Australia",
+                "Under 0,05",
+                "Nul",
+                "Chauffører af bus, taxa, tunge køretøjer og farligt gods: nul"
+              ],
+              [
+                "Western Australia",
+                "Under 0,05",
+                "Nul for alle nybegyndere",
+                "Bus- og taxachauffører med passagerer: nul"
+              ],
+              [
+                "Tasmania",
+                "Under 0,05",
+                "Nul",
+                "Nogle gengangere: nul"
+              ],
+              [
+                "Northern Territory",
+                "Under 0,05",
+                "Nul",
+                "Bus, taxa, tunge køretøjer over 15 t: nul"
+              ],
+              [
+                "Australian Capital Territory",
+                "Under 0,05",
+                "Nul",
+                "Indehavere af probationskørekort: nul"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Tilfældige alkoholtests og narkotest",
+          "body": [
+            "Tilfældig alkoholtest, som australierne kalder RBT, betyder, at politiet kan stoppe enhver bilist når som helst og teste åndedrættet uden at have mistanke. NSW's regering siger, at politiet kan bede dig tale eller blæse i et alkometer og kan teste enhver fører, der er involveret i en ulykke. <a data-guide=\"camping-rules-victoria\">Victoria</a> Police driver også større teststationer, ofte kaldt booze buses, hvor du skal stoppe, når du får besked.",
+            "Politiet kan også stoppe bilister tilfældigt for at teste spyt for ulovlige stoffer med en pind, der stryges hen over tungen. Victoria siger, at det generelt behandles mere alvorligt at nægte en alkotest end at være over grænsen, så stop, vent og følg betjentens anvisninger. Et teststed kan lige så let ligge på en landevej en søndag morgen som uden for en bypub en fredag aften."
+          ],
+          "tips": [
+            "Enhver bilist, når som helst",
+            "Spytprøver for stoffer også",
+            "Nægt aldrig en test"
+          ]
+        },
+        {
+          "heading": "Hvad en drink løber op i",
+          "body": [
+            "Der findes ingen pålidelig måde at regne drinks om til en BAC. Vægt, mad, køn, træthed og styrken af det, der skænkes, ændrer alt sammen resultatet, og australsk øl, vin og pubmål varierer meget. <a data-guide=\"camping-rules-victoria\">Victoria</a> siger, at møntbetjente og private alkometre kan bruges som vejledning, men kan være unøjagtige og ikke kan bruges som bevis.",
+            "Victorias trafiksikkerhedsråd sætter risikoen enkelt op: Ved en BAC på 0,05 er din risiko for en ulykke omkring dobbelt så stor som ved nul. Den eneste pålidelige plan er at vælge, hvem der kører, før nogen drikker, og at den person slet ikke drikker."
+          ],
+          "tips": [
+            "Intet antal drinks er sikkert",
+            "Private alkometre kan tage fejl",
+            "Vælg en fører, der ikke drikker"
+          ]
+        },
+        {
+          "heading": "Morgenen efter",
+          "body": [
+            "Alkohol forlader kroppen langsomt, og søvn gør det ikke hurtigere. <a data-guide=\"camping-rules-victoria\">Victoria</a> advarer om, at hvis du drak meget aftenen før, er du stadig sandsynligvis over den lovlige grænse næste dag, og at elever, probationsførere og professionelle chauffører på en nulgrænse bør overveje slet ikke at køre.",
+            "På en roadtrip er det morgenen efter en grillaften på campingpladsen, der får folk til at gå i fælden, fordi første etape starter tidligt. Planlæg en sen start eller en kort første etape efter en stor aften, og lad en fører, der ikke har drukket, tage rattet."
+          ],
+          "tips": [
+            "Stadig over om morgenen",
+            "Søvn gør dig ikke ædru",
+            "Sen start efter en stor aften"
+          ]
+        },
+        {
+          "heading": "Alkohol og træthed sammen",
+          "body": [
+            "Alkohol og træthed gør hver for sig dine reaktioner langsommere, og sammen forstærker de hinanden. Begge dele er værst den første dag på en tur, efter en lang flyvetur og på en lang dags kørsel til en campingplads, hvor en kold drink venter til sidst.",
+            "<a data-guide=\"australia-road-trip-fatigue-wildlife-safety\">Træthed</a> er den største hverdagsrisiko på australske motorveje, så planlæg dage på fire timer eller mindre bag rattet, og hold pause hver anden time. Nogle outback- og aboriginal-samfund begrænser også det at medbringe alkohol overhovedet, med skilte på vejene ind til dem, så tjek reglerne for området, før du fylder køleskabet."
+          ],
+          "tips": [
+            "Træt plus en drink er værre",
+            "Hold kørselsdagene korte",
+            "Tjek områder med alkoholbegrænsning"
+          ]
+        },
+        {
+          "heading": "Straffe, kørekort og lejebiler",
+          "body": [
+            "Straffene stiger med målingen. I <a data-guide=\"camping-rules-western-australia\">Western Australia</a> kan en første overtrædelse mellem 0,05 og 0,08 afgøres med en overtrædelsesmeddelelse, men en anden overtrædelse går for retten, med en bøde på op til $2.000, mindst seks måneders frakendelse og muligvis en alkolås. Højere målinger giver øjeblikkelig inddragelse af kørekortet i alle stater, og en høj måling er en strafferetlig sag.",
+            "En inddragelse forhindrer dig i at køre i den pågældende stat, uanset hvilket kørekort du har, og en dom kan få betydning for et visum. Lejeaftaler har også deres egne regler for en fører over den lovlige grænse, så læs din, før du henter køretøjet."
+          ],
+          "tips": [
+            "Bøder stiger med målingen",
+            "Inddragelse på stedet ved højere målinger",
+            "Læs lejeaftalen"
+          ]
+        },
+        {
+          "heading": "Planlæg kørslen efter aftenen i AussieCamps",
+          "body": [
+            "Den nemmeste måde at holde drikkeri og kørsel adskilt på er at overnatte, hvor du spiser. AussieCamps viser campingpladser og holiday parks tæt på byer, vingårde og pubber med de faciliteter, som parkmyndighederne udgiver, samt holiday parks og moteller, du kan booke i appen.",
+            "Føj næste morgens etape til en rejse, så viser AussieCamps afstand og tid, så du kan se, om en sen start stadig får dig frem i dagslys. Stedoplysninger kan læses <a data-guide=\"camping-without-phone-signal\">uden signal</a>, mens kort, rutevejledning og vejr kræver forbindelse. AussieCamps kører på iPhone."
+          ],
+          "tips": [
+            "Overnat, hvor du spiser",
+            "Se morgendagens etapetid",
+            "Kun iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hvad er promillegrænsen i Australien for turister?",
+          "En alkoholkoncentration i blod eller udåndingsluft under 0,05, hvis du har et fuldt kørekort hjemmefra, i alle stater og territorier. Hvis dit kørekort er et elev- eller prøvekørekort, er grænsen nul. Chauffører af bus, taxa og nogle tunge køretøjer har en nul- eller 0,02-grænse."
+        ],
+        [
+          "Kan politiet alkoholteste dig uden grund i Australien?",
+          "Ja. Politiet i alle stater udfører tilfældige alkoholtests: De kan stoppe enhver bilist når som helst og bede om en åndeprøve, og de kan også teste enhver fører, der er involveret i en ulykke. Tilfældige narkotest ved vejkanten fungerer på samme måde. At nægte en test er en lovovertrædelse, normalt med en hårdere straf end at være over grænsen."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NSW Government: alkoholgrænser, stoffer og medicin"
+        },
+        {
+          "label": "Transport Victoria: love om alkohol og kørsel"
+        },
+        {
+          "label": "Queensland Government: alkoholgrænser"
+        },
+        {
+          "label": "My Licence SA: alkohol"
+        },
+        {
+          "label": "Road Safety Commission WA: spritkørsel"
+        },
+        {
+          "label": "Department of State Growth Tasmania: at få bilkørekort"
+        },
+        {
+          "label": "NT Government: alkohol, stoffer og kørsel"
+        },
+        {
+          "label": "Access Canberra: probationskørekort"
+        },
+        {
+          "label": "Tourism Australia: kørsel i Australien"
+        }
+      ],
+      "priceTable": null
     }
   },
   "consent": {
