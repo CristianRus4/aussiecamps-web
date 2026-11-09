@@ -11,7 +11,7 @@ export default article({
   slug: "free-camping-near-shepparton-goulburn-valley",
   title: "Free Camping Near Shepparton and the Goulburn Valley",
   description: "Where to camp for free or cheaply around Shepparton and the Goulburn Valley: river camps, state forests, small-town reserves, the rules to check and a fallback when they are full.",
-  category: "Free camping", region: "Victoria",
+  category: "Camping guides", region: "Victoria",
   places: ["Shepparton", "Nagambie", "Murchison", "Seymour", "Barmah", "Cobram"],
   imageAlt: "Tents on a sandy river beach at sunrise, Hattah-Kulkyne National Park, Victoria",
   intro: "Shepparton sits in the middle of Victoria's Goulburn Valley, the fruit and dairy country between Melbourne and the Murray. The city has a council caravan park, but the cheaper and more scenic camps are out on the rivers and in the forests: the Goulburn at Nagambie, Murchison and Seymour, and the Murray and its forests to the north. Below are where to look, the rules to check and a paid fallback when the free camps are full.",
