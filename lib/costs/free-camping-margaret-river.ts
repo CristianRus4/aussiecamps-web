@@ -13,7 +13,7 @@ export default article({
   description: "Where to camp near Margaret River: why free camping is not allowed in town, national park campgrounds at Conto and Boranup, holiday parks, forest camps and how to book for summer.",
   category: "Camping guides", region: "Western Australia",
   places: ["Margaret River", "Leeuwin-Naturaliste National Park", "Prevelly", "Augusta", "Boranup"],
-  imageAlt: "SUBJECT_PLACEHOLDER",
+  imageAlt: "A rocky coast with a grassy headland and low heath under a pale evening sky, north of Sugarloaf Rock in Leeuwin-Naturaliste National Park",
   intro: "Margaret River is one of the most popular holiday spots in Western Australia, and one of the hardest places to camp for free. The Shire and park rangers sign against it, and the camps that are open are booked weeks ahead in summer. The honest advice is to book a Leeuwin-Naturaliste campground or a holiday park, spend days on the beaches and in the wineries, and find a cheap or free night further inland on your way through the South West.",
   related: ["perth-to-margaret-river-drive", "south-west-wa-camping-loop", "camping-rules-western-australia", "is-free-camping-legal-australia", "camping-fees-australia-2026"],
   sections: [
