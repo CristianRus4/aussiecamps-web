@@ -25,6 +25,5 @@ export default article({
   ],
   sources: [
     { label: "Wikipedia: Hipcamp", url: "https://en.wikipedia.org/wiki/Hipcamp" },
-    { label: "Wikipedia: Camping in Australia", url: "https://en.wikipedia.org/wiki/Camping_in_Australia" },
   ],
 });
