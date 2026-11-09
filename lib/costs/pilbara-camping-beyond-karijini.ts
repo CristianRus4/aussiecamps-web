@@ -13,7 +13,7 @@ export default article({
   description: "Where to camp in the Pilbara beyond Karijini: Millstream Chichester National Park, Cape Keraudren, Port Hedland, Karratha, Marble Bar, roadhouses, the season and cyclone risk.",
   category: "Camping guides", region: "Western Australia",
   places: ["Millstream Chichester National Park", "Cape Keraudren", "Karratha", "Port Hedland", "Marble Bar"],
-  imageAlt: "Dales Gorge, Karijini National Park",
+  imageAlt: "Caravans and tents under trees and palms at the Eighty Mile Beach caravan park on the north-west coast of Western Australia",
   intro: "The Pilbara is more than Karijini. Millstream Chichester National Park has spring-fed pools in red country, Cape Keraudren is a wild coastal camp, and towns such as Karratha, Port Hedland and Marble Bar make useful bases between long, empty stretches of highway. It is hot, remote and busy with mining traffic, so go between May and September, book where you can and plan fuel and water at every stop.",
   related: ["karijini-national-park-camping", "perth-to-broome-road-trip", "cyclone-flood-season-camping-australia", "driving-with-road-trains-australia", "camping-rules-western-australia"],
   sections: [
