@@ -88,7 +88,7 @@ export const noteSource = () => Object.fromEntries(Object.entries(stateNotes).fl
 
 /** States that share a land border, for links to the same kind of hub next door. Tasmania has none. */
 export const neighbours: Record<string, string[]> = {
-  NSW: ["QLD", "VIC", "SA", "ACT", "brisbane-to-adelaide-drive", "sydney-to-byron-bay-drive", "sydney-to-gold-coast-drive", "brisbane-to-coffs-harbour-drive"], VIC: ["NSW", "SA"], QLD: ["NSW", "NT", "SA"], SA: ["WA", "NT", "QLD", "NSW", "VIC"],
+  NSW: ["QLD", "VIC", "SA", "ACT", "brisbane-to-adelaide-drive", "sydney-to-byron-bay-drive", "sydney-to-gold-coast-drive", "brisbane-to-coffs-harbour-drive", "sydney-to-dubbo-drive"], VIC: ["NSW", "SA"], QLD: ["NSW", "NT", "SA"], SA: ["WA", "NT", "QLD", "NSW", "VIC"],
   WA: ["NT", "SA", "melbourne-to-perth-drive", "perth-to-darwin-drive", "perth-to-esperance-drive"], NT: ["WA", "SA", "QLD"], TAS: [], ACT: ["NSW"],
 };
 
