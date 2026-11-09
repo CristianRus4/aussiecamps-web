@@ -17,5 +17,15 @@ import sv from "./sv.json";
 import nb from "./nb.json";
 import cs from "./cs.json";
 import pl from "./pl.json";
+import id from "./id.json";
+import ms from "./ms.json";
+import vi from "./vi.json";
+import th from "./th.json";
+import tr from "./tr.json";
+import fi from "./fi.json";
+import hu from "./hu.json";
+import el from "./el.json";
+import sk from "./sk.json";
+import sl from "./sl.json";
 
-export const hubTranslationFiles: Record<string, unknown> = { de: de, es: es, fr: fr, it: it, nl: nl, pt: pt, ja: ja, ko: ko, "zh-hans": zhHans, "zh-hant": zhHant, da: da, sv: sv, nb: nb, cs: cs, pl: pl };
+export const hubTranslationFiles: Record<string, unknown> = { de: de, es: es, fr: fr, it: it, nl: nl, pt: pt, ja: ja, ko: ko, "zh-hans": zhHans, "zh-hant": zhHant, da: da, sv: sv, nb: nb, cs: cs, pl: pl, id: id, ms: ms, vi: vi, th: th, tr: tr, fi: fi, hu: hu, el: el, sk: sk, sl: sl };

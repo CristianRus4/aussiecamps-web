@@ -11,7 +11,17 @@
         "it",
         "nl",
         "pt",
-        "cs"
+        "cs",
+        "id",
+        "ms",
+        "vi",
+        "th",
+        "tr",
+        "fi",
+        "hu",
+        "el",
+        "sk",
+        "sl"
       ],
       "source": "../lib/translations/en.json",
       "targets": [
@@ -34,6 +44,46 @@
         {
           "locale": "cs",
           "path": "../lib/translations/cs.json"
+        },
+        {
+          "locale": "id",
+          "path": "../lib/translations/id.json"
+        },
+        {
+          "locale": "ms",
+          "path": "../lib/translations/ms.json"
+        },
+        {
+          "locale": "vi",
+          "path": "../lib/translations/vi.json"
+        },
+        {
+          "locale": "th",
+          "path": "../lib/translations/th.json"
+        },
+        {
+          "locale": "tr",
+          "path": "../lib/translations/tr.json"
+        },
+        {
+          "locale": "fi",
+          "path": "../lib/translations/fi.json"
+        },
+        {
+          "locale": "hu",
+          "path": "../lib/translations/hu.json"
+        },
+        {
+          "locale": "el",
+          "path": "../lib/translations/el.json"
+        },
+        {
+          "locale": "sk",
+          "path": "../lib/translations/sk.json"
+        },
+        {
+          "locale": "sl",
+          "path": "../lib/translations/sl.json"
         }
       ],
       "protectedTerms": [

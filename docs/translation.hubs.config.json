@@ -10,7 +10,17 @@
         "it",
         "nl",
         "pt",
-        "cs"
+        "cs",
+        "id",
+        "ms",
+        "vi",
+        "th",
+        "tr",
+        "fi",
+        "hu",
+        "el",
+        "sk",
+        "sl"
       ],
       "glossary": {
         "Australia": {
@@ -63,6 +73,46 @@
         {
           "locale": "cs",
           "path": "../lib/translations/hubs/cs.json"
+        },
+        {
+          "locale": "id",
+          "path": "../lib/translations/hubs/id.json"
+        },
+        {
+          "locale": "ms",
+          "path": "../lib/translations/hubs/ms.json"
+        },
+        {
+          "locale": "vi",
+          "path": "../lib/translations/hubs/vi.json"
+        },
+        {
+          "locale": "th",
+          "path": "../lib/translations/hubs/th.json"
+        },
+        {
+          "locale": "tr",
+          "path": "../lib/translations/hubs/tr.json"
+        },
+        {
+          "locale": "fi",
+          "path": "../lib/translations/hubs/fi.json"
+        },
+        {
+          "locale": "hu",
+          "path": "../lib/translations/hubs/hu.json"
+        },
+        {
+          "locale": "el",
+          "path": "../lib/translations/hubs/el.json"
+        },
+        {
+          "locale": "sk",
+          "path": "../lib/translations/hubs/sk.json"
+        },
+        {
+          "locale": "sl",
+          "path": "../lib/translations/hubs/sl.json"
         }
       ],
       "protectedTerms": [
