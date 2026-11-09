@@ -54,6 +54,7 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-11-09 | free-camping-queensland | publish on merge |
 | 2026-11-09 | free-camping-western-australia | publish on merge |
 | 2026-11-09 | free-camping-tasmania | publish on merge |
+| 2026-11-09 | free-camping-south-australia | publish on merge |
 | 2026-11-10 | can-i-collect-firewood-while-camping-in-australia | scheduled |
 | 2026-11-11 | bushfire-safety-camping-australia | scheduled |
 | 2026-11-12 | school-holidays-australia-2027 | scheduled |

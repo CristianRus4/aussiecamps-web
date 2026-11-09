@@ -102,7 +102,7 @@ const stateGuides: Record<string, string[]> = {
   QLD: ["free-camping-queensland", "brisbane-to-cape-tribulation", "sunshine-coast-hinterland-camping", "queensland-outback-way", "brisbane-to-cairns-drive", "townsville-to-mount-isa-drive", "brisbane-to-byron-bay-drive"],
   NT: ["darwin-kakadu-litchfield-loop", "red-centre-way-camping", "wet-season-camping-top-end-northern-wa", "darwin-to-alice-springs-drive", "alice-springs-to-uluru-drive", "cairns-to-darwin-drive"],
   WA: ["perth-to-broome-road-trip", "south-west-wa-camping-loop", "gibb-river-road-camping", "wet-season-camping-top-end-northern-wa", "perth-to-exmouth-drive", "broome-to-darwin-drive"],
-  SA: ["flinders-ranges-camping-guide", "kangaroo-island-camping-guide", "adelaide-to-uluru-road-trip", "nullarbor-crossing-camping-guide", "adelaide-to-port-lincoln-drive", "adelaide-to-melbourne-drive"],
+  SA: ["free-camping-south-australia", "flinders-ranges-camping-guide", "kangaroo-island-camping-guide", "adelaide-to-uluru-road-trip", "nullarbor-crossing-camping-guide", "adelaide-to-port-lincoln-drive", "adelaide-to-melbourne-drive"],
   TAS: ["free-camping-tasmania", "tasmania-camping-loop", "hobart-to-launceston-drive", "can-i-take-a-campervan-or-caravan-on-the-spirit-of-tasmania"],
   ACT: ["australian-alps-camping-route", "sydney-to-canberra-drive", "melbourne-to-canberra-drive"],
 };
