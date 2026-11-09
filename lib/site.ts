@@ -39,6 +39,7 @@ import { driveArticles, driveFaqs } from "@/lib/drive-articles";
 import { costsArticles, costsFaqs } from "@/lib/costs-articles";
 import { a4Articles, a4Faqs } from "@/lib/a4-articles";
 import { a5Articles, a5Faqs } from "@/lib/a5-articles";
+import { a6Articles, a6Faqs } from "@/lib/a6-articles";
 import { articleFaqs } from "@/lib/article-faqs";
 import { assertPublishAt, isPublished, scheduleFixture } from "@/lib/publish";
 import { applyScreenFigures } from "@/lib/screen-figures";
@@ -372,8 +373,9 @@ const writtenArticles: Article[] = [
   ...costsArticles,
   ...a4Articles,
   ...a5Articles,
+  ...a6Articles,
 // Each guide gets its own two-question FAQ attached by slug (see lib/article-faqs.ts).
-].map((article) => { const faq = articleFaqs[article.slug] ?? canIFaqs[article.slug] ?? driveFaqs[article.slug] ?? costsFaqs[article.slug] ?? a4Faqs[article.slug] ?? a5Faqs[article.slug]; return faq ? { ...article, faq } : article; })
+].map((article) => { const faq = articleFaqs[article.slug] ?? canIFaqs[article.slug] ?? driveFaqs[article.slug] ?? costsFaqs[article.slug] ?? a4Faqs[article.slug] ?? a5Faqs[article.slug] ?? a6Faqs[article.slug]; return faq ? { ...article, faq } : article; })
   // After the list, not in it: scripts/build-article-dates.mjs dates the last guide by the text up to "\n]".
   .concat(scheduleFixture<Article>() ?? []);
 // Screenshot figures go on after the list too, so the article literals stay untouched (lib/screen-figures.ts).
