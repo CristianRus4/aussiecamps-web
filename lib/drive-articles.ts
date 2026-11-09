@@ -20,13 +20,23 @@ import page17, { faq as faq17 } from "@/lib/drives/alice-springs-to-uluru-drive"
 import page18, { faq as faq18 } from "@/lib/drives/adelaide-to-port-lincoln-drive";
 import page19, { faq as faq19 } from "@/lib/drives/melbourne-to-mildura-drive";
 import page20, { faq as faq20 } from "@/lib/drives/townsville-to-mount-isa-drive";
+import page21, { faq as faq21 } from "@/lib/drives/melbourne-to-perth-drive";
+import page22, { faq as faq22 } from "@/lib/drives/perth-to-darwin-drive";
+import page23, { faq as faq23 } from "@/lib/drives/brisbane-to-darwin-drive";
+import page24, { faq as faq24 } from "@/lib/drives/brisbane-to-adelaide-drive";
+import page25, { faq as faq25 } from "@/lib/drives/brisbane-to-airlie-beach-drive";
+import page26, { faq as faq26 } from "@/lib/drives/sydney-to-byron-bay-drive";
+import page27, { faq as faq27 } from "@/lib/drives/sydney-to-gold-coast-drive";
+import page28, { faq as faq28 } from "@/lib/drives/perth-to-esperance-drive";
+import page29, { faq as faq29 } from "@/lib/drives/brisbane-to-coffs-harbour-drive";
+import page30, { faq as faq30 } from "@/lib/drives/sydney-to-dubbo-drive";
 
 /**
  * City-to-city drive guides. Each page lives in lib/drives/<slug>.ts and exports its article (default)
  * and its FAQ. They are listed here in publish order; lib/site.ts spreads `driveArticles` into the
  * written guides and attaches `driveFaqs` by slug.
  */
-export const driveArticles: Article[] = [page1, page2, page3, page4, page5, page6, page7, page8, page9, page10, page11, page12, page13, page14, page15, page16, page17, page18, page19, page20];
+export const driveArticles: Article[] = [page1, page2, page3, page4, page5, page6, page7, page8, page9, page10, page11, page12, page13, page14, page15, page16, page17, page18, page19, page20, page21, page22, page23, page24, page25, page26, page27, page28, page29, page30];
 export const driveFaqs: Record<string, readonly (readonly [string, string])[]> = {
   [page1.slug]: faq1,
   [page2.slug]: faq2,
@@ -48,4 +58,14 @@ export const driveFaqs: Record<string, readonly (readonly [string, string])[]> =
   [page18.slug]: faq18,
   [page19.slug]: faq19,
   [page20.slug]: faq20,
+  [page21.slug]: faq21,
+  [page22.slug]: faq22,
+  [page23.slug]: faq23,
+  [page24.slug]: faq24,
+  [page25.slug]: faq25,
+  [page26.slug]: faq26,
+  [page27.slug]: faq27,
+  [page28.slug]: faq28,
+  [page29.slug]: faq29,
+  [page30.slug]: faq30,
 };
