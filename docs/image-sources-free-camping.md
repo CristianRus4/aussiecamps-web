@@ -5,3 +5,4 @@ All images below are downloaded copies of real photographs. They were resized an
 | Article slug | Photograph subject | Creator | Source page | License | License URL |
 | --- | --- | --- | --- | --- | --- |
 | `free-camping-new-south-wales` | Tall pine trees against a blue sky at The Pines picnic and camping area in the Watagans, New South Wales | Llyndan | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:An_autumn_day_in_the_Watagans%E2%80%99_Pines_Picnic_area.jpg) | CC BY-SA 4.0 | https://creativecommons.org/licenses/by-sa/4.0/ |
+| `free-camping-victoria` | Stone chimneys and a fenced clearing at Balt Camp, an old forest settlement site in Wombat State Forest, Victoria | 1geel0ng1 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Balt_Camp.jpg) | CC BY 4.0 | https://creativecommons.org/licenses/by/4.0/ |
