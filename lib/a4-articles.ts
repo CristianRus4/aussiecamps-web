@@ -8,9 +8,10 @@ import g_free_camping_near_cairns, { faq as faq_g_free_camping_near_cairns } fro
 import g_free_camping_near_darwin, { faq as faq_g_free_camping_near_darwin } from "@/lib/costs/free-camping-near-darwin";
 import g_free_camping_near_canberra, { faq as faq_g_free_camping_near_canberra } from "@/lib/costs/free-camping-near-canberra";
 import g_powered_campsites_australia_by_state, { faq as faq_g_powered_campsites_australia_by_state } from "@/lib/costs/powered-campsites-australia-by-state";
+import g_esperance_camping_guide, { faq as faq_g_esperance_camping_guide } from "@/lib/costs/esperance-camping-guide";
 
 /** Guides added by the A4 growth lane (free camping near cities, powered sites, regional WA and gear). Each lives in lib/costs/<slug>.ts. */
-export const a4Articles: Article[] = [g_free_camping_near_sydney, g_free_camping_near_melbourne, g_free_camping_near_brisbane, g_free_camping_near_perth, g_free_camping_near_adelaide, g_free_camping_near_cairns, g_free_camping_near_darwin, g_free_camping_near_canberra, g_powered_campsites_australia_by_state];
+export const a4Articles: Article[] = [g_free_camping_near_sydney, g_free_camping_near_melbourne, g_free_camping_near_brisbane, g_free_camping_near_perth, g_free_camping_near_adelaide, g_free_camping_near_cairns, g_free_camping_near_darwin, g_free_camping_near_canberra, g_powered_campsites_australia_by_state, g_esperance_camping_guide];
 export const a4Faqs: Record<string, readonly (readonly [string, string])[]> = {
   [g_free_camping_near_sydney.slug]: faq_g_free_camping_near_sydney,
   [g_free_camping_near_melbourne.slug]: faq_g_free_camping_near_melbourne,
@@ -21,4 +22,5 @@ export const a4Faqs: Record<string, readonly (readonly [string, string])[]> = {
   [g_free_camping_near_darwin.slug]: faq_g_free_camping_near_darwin,
   [g_free_camping_near_canberra.slug]: faq_g_free_camping_near_canberra,
   [g_powered_campsites_australia_by_state.slug]: faq_g_powered_campsites_australia_by_state,
+  [g_esperance_camping_guide.slug]: faq_g_esperance_camping_guide,
 };
