@@ -11,9 +11,10 @@ import g_powered_campsites_australia_by_state, { faq as faq_g_powered_campsites_
 import g_esperance_camping_guide, { faq as faq_g_esperance_camping_guide } from "@/lib/costs/esperance-camping-guide";
 import g_karijini_national_park_camping, { faq as faq_g_karijini_national_park_camping } from "@/lib/costs/karijini-national-park-camping";
 import g_kalbarri_coral_coast_camping, { faq as faq_g_kalbarri_coral_coast_camping } from "@/lib/costs/kalbarri-coral-coast-camping";
+import g_byron_noosa_gold_coast_campervan_rules, { faq as faq_g_byron_noosa_gold_coast_campervan_rules } from "@/lib/costs/byron-noosa-gold-coast-campervan-rules";
 
 /** Guides added by the A4 growth lane (free camping near cities, powered sites, regional WA and gear). Each lives in lib/costs/<slug>.ts. */
-export const a4Articles: Article[] = [g_free_camping_near_sydney, g_free_camping_near_melbourne, g_free_camping_near_brisbane, g_free_camping_near_perth, g_free_camping_near_adelaide, g_free_camping_near_cairns, g_free_camping_near_darwin, g_free_camping_near_canberra, g_powered_campsites_australia_by_state, g_esperance_camping_guide, g_karijini_national_park_camping, g_kalbarri_coral_coast_camping];
+export const a4Articles: Article[] = [g_free_camping_near_sydney, g_free_camping_near_melbourne, g_free_camping_near_brisbane, g_free_camping_near_perth, g_free_camping_near_adelaide, g_free_camping_near_cairns, g_free_camping_near_darwin, g_free_camping_near_canberra, g_powered_campsites_australia_by_state, g_esperance_camping_guide, g_karijini_national_park_camping, g_kalbarri_coral_coast_camping, g_byron_noosa_gold_coast_campervan_rules];
 export const a4Faqs: Record<string, readonly (readonly [string, string])[]> = {
   [g_free_camping_near_sydney.slug]: faq_g_free_camping_near_sydney,
   [g_free_camping_near_melbourne.slug]: faq_g_free_camping_near_melbourne,
@@ -27,4 +28,5 @@ export const a4Faqs: Record<string, readonly (readonly [string, string])[]> = {
   [g_esperance_camping_guide.slug]: faq_g_esperance_camping_guide,
   [g_karijini_national_park_camping.slug]: faq_g_karijini_national_park_camping,
   [g_kalbarri_coral_coast_camping.slug]: faq_g_kalbarri_coral_coast_camping,
+  [g_byron_noosa_gold_coast_campervan_rules.slug]: faq_g_byron_noosa_gold_coast_campervan_rules,
 };
