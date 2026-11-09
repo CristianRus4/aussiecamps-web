@@ -13,7 +13,7 @@ export default article({
   description: "Where to camp in and around Longreach: council and river camps, showgrounds and caravan parks, free rest areas, what to see and how to plan the outback loop.",
   category: "Camping guides", region: "Queensland",
   places: ["Longreach", "Winton", "Barcaldine", "Thomson River", "Stockman's Hall of Fame"],
-  imageAlt: "SUBJECT_PLACEHOLDER",
+  imageAlt: "Carnarvon Creek in Carnarvon Gorge",
   intro: "Longreach is the capital of outback Queensland and the best base for the Stockman's Hall of Fame, the Qantas Founders Museum and the Thomson River. It is not a classic free camping town, but cheap and free stays are close: council camps, showgrounds, pub camps and rest areas along the highways. Plan one or two nights in town for the museums and the sunset cruise, then drive on to Winton or Barcaldine with water and fuel in hand.",
   related: ["queensland-outback-way", "camping-rules-queensland", "townsville-to-mount-isa-drive", "is-free-camping-legal-australia", "camping-water-planning"],
   sections: [
