@@ -89,7 +89,7 @@ export const noteSource = () => Object.fromEntries(Object.entries(stateNotes).fl
 /** States that share a land border, for links to the same kind of hub next door. Tasmania has none. */
 export const neighbours: Record<string, string[]> = {
   NSW: ["QLD", "VIC", "SA", "ACT"], VIC: ["NSW", "SA"], QLD: ["NSW", "NT", "SA"], SA: ["WA", "NT", "QLD", "NSW", "VIC"],
-  WA: ["NT", "SA"], NT: ["WA", "SA", "QLD"], TAS: [], ACT: ["NSW"],
+  WA: ["free-camping-western-australia", "NT", "SA"], NT: ["WA", "SA", "QLD"], TAS: [], ACT: ["NSW"],
 };
 
 /**

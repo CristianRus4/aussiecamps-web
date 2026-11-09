@@ -14,6 +14,7 @@ import page12, { faq as faq12 } from "@/lib/costs/toll-roads-australia-hire-car-
 import freeNsw, { faq as faqFreeNsw } from "@/lib/costs/free-camping-new-south-wales";
 import freeVic, { faq as faq_freeVic } from "@/lib/costs/free-camping-victoria";
 import freeQld, { faq as faq_freeQld } from "@/lib/costs/free-camping-queensland";
+import freeWa, { faq as faq_freeWa } from "@/lib/costs/free-camping-western-australia";
 
 /**
  * Campervan hire, buying, selling, budget, comparison, price and season-planning guides. Each page lives
@@ -21,7 +22,7 @@ import freeQld, { faq as faq_freeQld } from "@/lib/costs/free-camping-queensland
  * order they were written; lib/site.ts spreads `costsArticles` into the written guides and attaches
  * `costsFaqs` by slug.
  */
-export const costsArticles: Article[] = [page1, page2, page3, page4, page5, page6, page7, page8, page9, page10, page11, page12, freeNsw, freeVic, freeQld];
+export const costsArticles: Article[] = [page1, page2, page3, page4, page5, page6, page7, page8, page9, page10, page11, page12, freeNsw, freeVic, freeQld, freeWa];
 export const costsFaqs: Record<string, readonly (readonly [string, string])[]> = {
   [page1.slug]: faq1,
   [page2.slug]: faq2,
@@ -38,4 +39,5 @@ export const costsFaqs: Record<string, readonly (readonly [string, string])[]> =
   [freeNsw.slug]: faqFreeNsw,
   [freeVic.slug]: faq_freeVic,
   [freeQld.slug]: faq_freeQld,
+  [freeWa.slug]: faq_freeWa,
 };
