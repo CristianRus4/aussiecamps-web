@@ -10,7 +10,7 @@ export function TankDurationCalculator({ ui = uiStrings, output, children }: { u
       <label><span>{ui.labelGrey}</span><input data-tank-grey inputMode="decimal" defaultValue="90" /></label>
       <label><span>{ui.labelPeople}</span><input data-tank-people inputMode="numeric" defaultValue="2" /></label>
     </div>
-    <output className="tool-output" data-tank-output>{output}</output>
+    <output className="tool-output" dir="auto" data-tank-output>{output}</output>
     {children}
   </section>;
 }

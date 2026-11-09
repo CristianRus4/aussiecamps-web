@@ -13,7 +13,7 @@ export function FuelCalculator({ ui = uiStrings, output, children }: { ui?: UiSt
       <label><span>{ui.labelConsumption}</span><input data-fuel-consumption inputMode="decimal" defaultValue={String(fuel.consumption)} /></label>
       <label><span>{ui.labelFuelPrice}</span><input data-fuel-price inputMode="decimal" defaultValue={String(fuel.price)} /></label>
     </div>
-    <output className="tool-output" data-fuel-output>{output}</output>
+    <output className="tool-output" dir="auto" data-fuel-output>{output}</output>
     {children}
   </section>;
 }

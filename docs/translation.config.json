@@ -744,6 +744,95 @@
       "styleGuide": {
         "pl": "Follow docs/translation-style/pl.md: native Polish travel-writer voice for readers from Poland, informal ty (singular, lower case, no Pan/Pani), no gendered forms aimed at the reader, Polish state names (Nowa Południowa Walia, Wiktoria, Australia Zachodnia), kemping and nocleg na dziko, no calques, no offline-map claims."
       }
+    },
+    {
+      "id": "aussiecamps-website-he",
+      "adapter": "web-json",
+      "sourceLocale": "en",
+      "locales": [
+        "he"
+      ],
+      "source": "../lib/translations/en.json",
+      "targets": [
+        {
+          "locale": "he",
+          "path": "../lib/translations/he.json"
+        }
+      ],
+      "protectedTerms": [
+        "AussieCamps",
+        "AussieCamping",
+        "AUD",
+        "App Store",
+        "Street View"
+      ],
+      "untranslatedKeys": [
+        "ui.review*",
+        "ui.reviewsEyebrow",
+        "ui.reviewsTitle"
+      ],
+      "glossary": {
+        "Australia": {
+          "he": "אוסטרליה"
+        },
+        "New South Wales": {
+          "he": "ניו סאות' ויילס"
+        },
+        "Victoria": {
+          "he": "ויקטוריה"
+        },
+        "Queensland": {
+          "he": "קווינסלנד"
+        },
+        "South Australia": {
+          "he": "דרום אוסטרליה"
+        },
+        "Western Australia": {
+          "he": "מערב אוסטרליה"
+        },
+        "Tasmania": {
+          "he": "טסמניה"
+        },
+        "Northern Territory": {
+          "he": "הטריטוריה הצפונית"
+        },
+        "Australian Capital Territory": {
+          "he": "טריטוריית הבירה האוסטרלית"
+        },
+        "Reserve Bank of Australia": {
+          "he": "הבנק המרכזי של אוסטרליה"
+        },
+        "campground": {
+          "he": "חניון קמפינג"
+        },
+        "caravan park": {
+          "he": "פארק קרוואנים"
+        },
+        "free camp": {
+          "he": "חניון לילה חינמי"
+        },
+        "rest area": {
+          "he": "חניון מנוחה"
+        },
+        "dump point": {
+          "he": "נקודת ריקון"
+        },
+        "campervan": {
+          "he": "קמפרוואן"
+        },
+        "caravan": {
+          "he": "קרוואן נגרר"
+        },
+        "trip planner": {
+          "he": "מתכנן הטיול"
+        },
+        "collections": {
+          "he": "אוספים"
+        }
+      },
+      "styleGuide": {
+        "he": "Follow docs/translation-style/he.md: plain modern Israeli Hebrew, plural imperative for the reader (הורידו, בדקו), Hebrew place names transliterated, numbers and units as written, no em dashes."
+      }
     }
   ]
 }

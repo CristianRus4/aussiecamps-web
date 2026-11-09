@@ -9,7 +9,8 @@ import { localeCodes, type LocaleCode } from "./translations/index";
  * - `htmlLang` is the <html lang> of that locale's pages; `hreflang` lists every tag its pages are
  *   advertised under (Simplified Chinese serves zh-Hans, zh-CN and zh-SG from one URL).
  * - `og` is the Open Graph locale, `intl` the Intl locale for dates and money, `engine` the
- *   translation engine's variety, `script` latin or cjk (typography, reading time).
+ *   translation engine's variety, `script` latin or cjk (typography, reading time). Text direction
+ *   is not a field: `textDirection` derives it from the language.
  * - `status`: `live` locales are built, exported, listed in the sitemap, hreflang and language
  *   switcher. `draft` locales are none of those; set LOCALES_PREVIEW=1 to render them in dev.
  * - `reviews`: whether the home page shows the traveller testimonials. Testimonials are never
@@ -61,5 +62,16 @@ export const localeRoot = (code: LocaleCode | "en") => (code === "en" ? "" : `/$
 export const intlLocale = (code: LocaleCode | "en") => (code === "en" ? englishLocale.intl : localeEntry(code).intl);
 export const htmlLang = (code: LocaleCode | "en") => (code === "en" ? englishLocale.htmlLang : localeEntry(code).htmlLang);
 export const localeScript = (code: LocaleCode | "en"): LocaleScript => (code === "en" ? "latin" : localeEntry(code).script);
+/**
+ * Languages written right to left. A locale's direction follows its language, so adding Arabic or
+ * Persian to the registry needs no extra field: its pages get dir="rtl" on <html> and the stylesheet's
+ * logical properties and mirrored arrows do the rest.
+ */
+const rtlLanguages = new Set(["ar", "ckb", "dv", "fa", "he", "ps", "sd", "ug", "ur", "yi"]);
+export type TextDirection = "ltr" | "rtl";
+/** English served on a localised page while its translation is missing: tagged as English, and left
+ * to right even inside a right-to-left edition. Spread onto the element that holds the English. */
+export const englishFallback = { lang: "en", dir: "ltr" } as const;
+export const textDirection = (code: LocaleCode | "en"): TextDirection => (rtlLanguages.has(htmlLang(code).split("-")[0].toLowerCase()) ? "rtl" : "ltr");
 /** The full stop after a date that ends a sentence: none in CJK, where the date closes the line as written. */
 export const dateSentenceEnd = (code: LocaleCode | "en") => (localeScript(code) === "cjk" ? "" : ".");

@@ -26,10 +26,11 @@ import hu from "./hu.json";
 import el from "./el.json";
 import sk from "./sk.json";
 import sl from "./sl.json";
+import he from "./he.json";
 
 /** Every locale in the registry, live or draft, in registry order. */
-export const localeCodes = ["de", "es", "es-419", "fr", "it", "nl", "pt", "pt-br", "ja", "ko", "zh-hans", "zh-hant", "da", "sv", "nb", "cs", "pl", "id", "ms", "vi", "th", "tr", "fi", "hu", "el", "sk", "sl"] as const;
+export const localeCodes = ["de", "es", "es-419", "fr", "it", "nl", "pt", "pt-br", "ja", "ko", "zh-hans", "zh-hant", "da", "sv", "nb", "cs", "pl", "id", "ms", "vi", "th", "tr", "fi", "hu", "el", "sk", "sl", "he"] as const;
 export type LocaleCode = (typeof localeCodes)[number];
 
 /** The raw translation file for each locale. lib/localized.ts decides what is complete enough to use. */
-export const translationFiles: Record<LocaleCode, unknown> = { de: de, es: es, "es-419": es419, fr: fr, it: it, nl: nl, pt: pt, "pt-br": ptBr, ja: ja, ko: ko, "zh-hans": zhHans, "zh-hant": zhHant, da: da, sv: sv, nb: nb, cs: cs, pl: pl, id: id, ms: ms, vi: vi, th: th, tr: tr, fi: fi, hu: hu, el: el, sk: sk, sl: sl };
+export const translationFiles: Record<LocaleCode, unknown> = { de: de, es: es, "es-419": es419, fr: fr, it: it, nl: nl, pt: pt, "pt-br": ptBr, ja: ja, ko: ko, "zh-hans": zhHans, "zh-hant": zhHant, da: da, sv: sv, nb: nb, cs: cs, pl: pl, id: id, ms: ms, vi: vi, th: th, tr: tr, fi: fi, hu: hu, el: el, sk: sk, sl: sl, he: he };

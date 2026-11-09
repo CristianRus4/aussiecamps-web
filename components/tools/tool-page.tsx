@@ -13,7 +13,7 @@ import { SITE_URL, articles, sitePath } from "@/lib/site";
 import { appStoreUrl } from "@/lib/app-store";
 import { mainData } from "@/lib/analytics";
 import { getTranslation, localizedArticles, type LocaleCode } from "@/lib/localized";
-import { htmlLang, intlLocale, localeRoot } from "@/lib/locales";
+import { englishFallback, htmlLang, intlLocale, localeRoot } from "@/lib/locales";
 import { toolKeys, uiStrings, type ToolKey, type UiStrings } from "@/lib/source-strings";
 import { defaultOutputs, toolScript } from "@/lib/tools/calc";
 import { toolCopy } from "@/lib/tools/strings";
@@ -73,7 +73,7 @@ export function ToolPage({ tool, locale }: { tool: ToolKey; locale: "en" | Local
 
   return <>
     {locale === "en" ? <Header /> : <LocalizedHeader locale={locale} />}
-    <main {...mainData({ kind: "tool", locale, slug: tool })} lang={locale !== "en" && !native ? "en" : undefined}>
+    <main {...mainData({ kind: "tool", locale, slug: tool })} {...(locale !== "en" && !native ? englishFallback : {})}>
       <article className="article-page tool-page">
         <nav className="article-breadcrumb" aria-label="Breadcrumb">
           <Link href={sitePath(`${prefix}/tools`)}><ArrowLeft />{common.tools}</Link>

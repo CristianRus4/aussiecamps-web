@@ -5,7 +5,7 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 import { APP_STORE_URL } from "../lib/site.ts";
 import { appStoreUrl } from "../lib/app-store.ts";
 import { exportRoutes } from "../lib/routes.ts";
-import { htmlLang } from "../lib/locales.ts";
+import { htmlLang, textDirection } from "../lib/locales.ts";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 // PAGES_DIST writes the export elsewhere; tests/publish-schedule.test.mjs exports a second copy with it.
@@ -37,10 +37,12 @@ const env = { ASSETS: { fetch: async () => new Response("Not found", { status: 4
 const ctx = { waitUntil() {}, passThroughOnException() {} };
 
 // The root layout renders a single <html> element for every route, so localised pages inherited
-// `lang="en-AU"`. Each route knows its own locale, so the tag is set from the registry here.
+// `lang="en-AU"`. Each route knows its own locale, so the tag (and dir="rtl" for right-to-left
+// languages) is set from the registry here.
 function prepareHtml(html, route) {
+  const dir = textDirection(route.locale) === "rtl" ? ' dir="rtl"' : "";
   return html
-    .replace(/<html lang="[^"]*"/i, `<html lang="${htmlLang(route.locale)}"`)
+    .replace(/<html lang="[^"]*"/i, `<html lang="${htmlLang(route.locale)}"${dir}`)
     .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, (script) => {
       const openingTag = script.slice(0, script.indexOf(">") + 1);
       // Structured data, the calculators (data-static-tools) and the analytics bootstrap

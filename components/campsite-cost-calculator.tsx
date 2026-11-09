@@ -11,7 +11,7 @@ export function CampsiteCostCalculator({ ui = uiStrings, output, children }: { u
       <label><span>{ui.labelPerAdult}</span><input data-camp-per-person inputMode="decimal" defaultValue="20" /></label>
       <label><span>{ui.labelPerSite}</span><input data-camp-per-site inputMode="decimal" defaultValue="50" /></label>
     </div>
-    <output className="tool-output" data-camp-output>{output}</output>
+    <output className="tool-output" dir="auto" data-camp-output>{output}</output>
     {children}
   </section>;
 }

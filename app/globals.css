@@ -51,14 +51,14 @@ em { color: inherit; font: inherit; font-style: normal; }
 .brand-link { display: flex; }
 .brand { display: inline-flex; align-items: center; gap: 10px; font-size: 20px; font-weight: 800; letter-spacing: -0.02em; }
 .brand-mark { width: 36px; height: 36px; border-radius: 7px; background: transparent url(/images/aussiecamps-app-icon.png) center / contain no-repeat; }
-.desktop-nav { display: flex; gap: 30px; margin-left: auto; }
+.desktop-nav { display: flex; gap: 30px; margin-inline-start: auto; }
 .desktop-nav a { color: #414a3b; font-size: 14px; font-weight: 700; }
 .desktop-nav a:hover { color: var(--fern); }
 .mobile-download { display: none; }
-.mobile-menu { display: none; margin-left: auto; position: relative; }
+.mobile-menu { display: none; margin-inline-start: auto; position: relative; }
 .mobile-menu summary { cursor: pointer; display: grid; list-style: none; place-items: center; }
 .mobile-menu summary::-webkit-details-marker { display: none; }
-.mobile-menu nav { position: absolute; right: 0; top: 42px; width: 230px; padding: 14px; border: 1px solid var(--line); border-radius: 7px; background: var(--paper); box-shadow: var(--shadow); display: grid; }
+.mobile-menu nav { position: absolute; inset-inline-end: 0; top: 42px; width: 230px; padding: 14px; border: 1px solid var(--line); border-radius: 7px; background: var(--paper); box-shadow: var(--shadow); display: grid; }
 .mobile-menu nav a { padding: 10px; font-weight: 700; }
 
 .eyebrow, .kicker { display: flex; align-items: center; gap: 7px; color: var(--fern); font-size: 11px; font-weight: 850; letter-spacing: 0.14em; text-transform: uppercase; }
@@ -71,7 +71,7 @@ em { color: inherit; font: inherit; font-style: normal; }
 .hero-copy > p { max-width: 580px; color: #56604f; font-size: 20px; line-height: 1.5; }
 .hero-actions { margin-top: 30px; display: flex; align-items: flex-end; gap: 12px; }
 .hero-proof { margin-top: 52px; display: flex; gap: 30px; }
-.hero-proof span { padding-left: 13px; border-left: 1px solid var(--line); display: flex; flex-direction: column; }
+.hero-proof span { padding-inline-start: 13px; border-inline-start: 1px solid var(--line); display: flex; flex-direction: column; }
 .hero-proof strong { font-size: 22px; }
 .hero-proof small { color: var(--muted); font-size: 11px; }
 .hero-visual { min-height: 620px; display: grid; place-items: center; }
@@ -145,7 +145,7 @@ em { color: inherit; font: inherit; font-style: normal; }
 /* The card's darkening gradient used to ride on the background shorthand; with a real <img> it
    becomes its own layer, sitting above the photo and below the category badge. */
 .article-image::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 35%, rgba(16,26,13,.45)); }
-.article-image > span { position: absolute; z-index: 2; top: 14px; left: 14px; padding: 5px 8px; border-radius: 3px; background: rgba(255,255,255,0.94); color: #172012; font-size: 9px; font-weight: 850; letter-spacing: 0.08em; text-transform: uppercase; }
+.article-image > span { position: absolute; z-index: 2; top: 14px; inset-inline-start: 14px; padding: 5px 8px; border-radius: 3px; background: rgba(255,255,255,0.94); color: #172012; font-size: 9px; font-weight: 850; letter-spacing: 0.08em; text-transform: uppercase; }
 .article-card-copy { padding: 22px; }
 .article-card-copy .eyebrow { font-size: 9px; }
 .article-card h3 { margin: 10px 0; font-size: 21px; letter-spacing: -0.015em; line-height: 1.24; }
@@ -190,7 +190,7 @@ em { color: inherit; font: inherit; font-style: normal; }
 .faq-list summary, .support-group summary { padding: 21px 4px; cursor: pointer; display: flex; justify-content: space-between; gap: 15px; list-style: none; font-size: 17px; font-weight: 750; }
 .faq-list summary::-webkit-details-marker, .support-group summary::-webkit-details-marker { display: none; }
 .faq-list details[open] summary span, .support-group details[open] summary span { transform: rotate(45deg); }
-.faq-list details p, .support-group details p { margin: 0; padding: 0 35px 22px 4px; color: var(--muted); }
+.faq-list details p, .support-group details p { margin: 0; padding-block: 0 22px; padding-inline: 4px 35px; color: var(--muted); }
 
 .download-section { min-height: 690px; background: var(--deep); color: white; display: grid; grid-template-columns: 1.1fr 0.9fr; align-items: center; overflow: hidden; }
 .download-section, .article-side-card { --store-button-bg: #f2f3ef; --store-button-fg: #10140e; --store-button-hover: #a6bd68; }
@@ -249,7 +249,7 @@ em { color: inherit; font: inherit; font-style: normal; }
 .category-section .article-card-featured h3 { font-size: 21px; }
 
 .article-page { padding: 125px 32px 0; }
-.article-breadcrumb, .article-header, .article-layout, .article-hero-image { max-width: 1120px; margin-left: auto; margin-right: auto; }
+.article-breadcrumb, .article-header, .article-layout, .article-hero-image { max-width: 1120px; margin-inline: auto; }
 .article-breadcrumb { padding: 15px 0; border-bottom: 1px solid var(--line); color: var(--muted); display: flex; justify-content: space-between; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
 .article-breadcrumb a { display: flex; align-items: center; gap: 7px; }
 .article-breadcrumb svg { width: 14px; }
@@ -267,25 +267,25 @@ em { color: inherit; font: inherit; font-style: normal; }
 .article-faq summary::-webkit-details-marker { display: none; }
 .article-faq summary span { color: var(--muted); font-size: 20px; font-weight: 400; }
 .article-faq details[open] summary span { transform: rotate(45deg); }
-.article-faq details p { margin: 0; padding: 0 35px 20px 4px; color: var(--muted); }
-.article-photo-credit { position: absolute; z-index: 2; right: 12px; bottom: 10px; margin: 0; }
+.article-faq details p { margin: 0; padding-block: 0 20px; padding-inline: 4px 35px; color: var(--muted); }
+.article-photo-credit { position: absolute; z-index: 2; inset-inline-end: 12px; bottom: 10px; margin: 0; }
 .article-photo-credit a { padding: 0; border: 0; background: transparent; color: rgba(0,0,0,0.3); font-size: 10px; font-weight: 700; line-height: 1; text-decoration: none; }
 .article-layout { padding: 75px 0 120px; display: grid; grid-template-columns: minmax(0, 720px) 300px; gap: 78px; }
 .article-intro { color: #34412d; font-size: 25px; line-height: 1.45; }
-.article-body section { padding: 30px 0 30px 55px; border-top: 1px solid var(--line); position: relative; }
-.section-count { position: absolute; top: 38px; left: 0; color: var(--fern); font-size: 11px; }
+.article-body section { padding-block: 30px; padding-inline: 55px 0; border-top: 1px solid var(--line); position: relative; }
+.section-count { position: absolute; top: 38px; inset-inline-start: 0; color: var(--fern); font-size: 11px; }
 .article-body h2 { font-size: 30px; letter-spacing: -0.015em; line-height: 1.22; }
 .article-body p { color: #4f5a49; font-size: 17px; line-height: 1.78; }
 .article-body p + p { margin-top: 1.35em; }
-.article-price-section { padding-left: 0 !important; }
+.article-price-section { padding-inline-start: 0 !important; }
 .article-price-section > .section-count { display: none; }
 .price-table-meta { margin: 22px 0 12px; padding: 13px 0; border-block: 1px solid var(--line); display: flex; justify-content: space-between; gap: 20px; color: var(--muted); font-size: 11px; }
 .price-table-meta strong { color: var(--ink); }
 .price-table-wrap { width: 100%; overflow-x: auto; border: 1px solid var(--line); }
 .price-table { width: max-content; min-width: 100%; border-collapse: collapse; background: var(--paper); font-size: 11px; }
-.price-table th, .price-table td { min-width: 100px; padding: 12px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); text-align: right; white-space: nowrap; }
-.price-table th:first-child { position: sticky; left: 0; z-index: 1; min-width: 215px; background: var(--paper); text-align: left; }
-.article-table caption { padding: 12px 14px; color: var(--muted); font-size: 13px; text-align: left; caption-side: top; }
+.price-table th, .price-table td { min-width: 100px; padding: 12px; border-inline-end: 1px solid var(--line); border-bottom: 1px solid var(--line); text-align: end; white-space: nowrap; }
+.price-table th:first-child { position: sticky; inset-inline-start: 0; z-index: 1; min-width: 215px; background: var(--paper); text-align: start; }
+.article-table caption { padding: 12px 14px; color: var(--muted); font-size: 13px; text-align: start; caption-side: top; }
 .price-table thead th { background: var(--soft); color: var(--muted); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
 .price-table thead th:first-child { z-index: 2; background: var(--soft); }
 .price-table tbody th strong, .price-table tbody th span { display: block; }
@@ -293,7 +293,7 @@ em { color: inherit; font: inherit; font-style: normal; }
 .price-table-disclaimer { margin-top: 12px; color: var(--muted) !important; font-size: 12px !important; }
 .article-body .editorial-opening { padding: 18px 0 36px; border-top: 0; }
 .editorial-opening h2 { margin-bottom: 24px; font-size: 36px; }
-.editorial-opening blockquote { margin: 38px 0; padding: 12px 0 12px 28px; border-left: 4px solid var(--eucalyptus); color: var(--deep); font-size: clamp(27px, 3.4vw, 42px); font-weight: 720; letter-spacing: -0.015em; line-height: 1.22; }
+.editorial-opening blockquote { margin: 38px 0; padding-block: 12px; padding-inline: 28px 0; border-inline-start: 4px solid var(--eucalyptus); color: var(--deep); font-size: clamp(27px, 3.4vw, 42px); font-weight: 720; letter-spacing: -0.015em; line-height: 1.22; }
 /* A screenshot figure inside a guide section (lib/screen-figures.ts). The image carries its own
    gradient and shadow, so it only needs room around it. Corners match the hero image, which the
    global `border-radius: 0 !important` reset keeps square on both sites. */
@@ -301,7 +301,7 @@ em { color: inherit; font: inherit; font-style: normal; }
 .guide-figure img { display: block; width: 100%; height: auto; }
 .article-tips { margin-top: 24px; padding: 19px 22px; border-radius: 4px; background: #e7e9e4; }
 .article-tips strong { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
-.article-tips ul { margin: 9px 0 0; padding-left: 18px; }
+.article-tips ul { margin: 9px 0 0; padding-inline-start: 18px; }
 .place-chips { display: flex; flex-wrap: wrap; gap: 8px; }
 .place-chips span { padding: 8px 11px; border-radius: 3px; background: #e7e9e4; display: flex; align-items: center; gap: 5px; font-size: 11px; font-weight: 700; }
 .place-chips svg { width: 13px; }
@@ -352,7 +352,7 @@ em { color: inherit; font: inherit; font-style: normal; }
 .converter-grid { margin: 26px 0; display: grid; gap: 12px; }
 .converter-grid label { display: grid; gap: 5px; color: var(--muted); font-size: 11px; font-weight: 700; }
 .converter-grid input, .converter-grid select { width: 100%; height: 44px; padding: 0 12px; border: 1px solid var(--line); background: var(--cream); color: var(--ink); font: inherit; }
-.tool-output { min-height: 72px; padding: 18px; border-left: 4px solid var(--eucalyptus); background: var(--soft); display: flex; align-items: center; color: var(--ink); font-size: 26px; font-weight: 750; }
+.tool-output { min-height: 72px; padding: 18px; border-inline-start: 4px solid var(--eucalyptus); background: var(--soft); display: flex; align-items: center; color: var(--ink); font-size: 26px; font-weight: 750; }
 /* Five tool cards in a two-column grid leave one alone on the last row, so the campsite
    comparison spans the full width and lays its four inputs out side by side. */
 .tool-card:nth-child(5) { grid-column: 1 / -1; }
@@ -364,7 +364,7 @@ em { color: inherit; font: inherit; font-style: normal; }
 .tool-more { margin-top: 18px; }
 /* A standalone calculator page: the tool sits under the header, then the article-style explanation. */
 .tool-page-widget { max-width: 720px; margin: 0 auto 10px; }
-.article-header > .tool-answer { max-width: 800px; margin: 28px auto 0; padding: 18px 22px; border-left: 4px solid var(--eucalyptus); background: var(--soft); display: block; text-align: left; }
+.article-header > .tool-answer { max-width: 800px; margin: 28px auto 0; padding: 18px 22px; border-inline-start: 4px solid var(--eucalyptus); background: var(--soft); display: block; text-align: start; }
 .tool-answer p { margin: 0; color: var(--ink); font-size: 17px; line-height: 1.6; }
 .tool-answer p + p { margin-top: 10px; }
 .price-table th[scope="row"] a { color: var(--fern); font-weight: 700; }
@@ -372,22 +372,22 @@ em { color: inherit; font: inherit; font-style: normal; }
 .answer-cta { margin: 22px 0 6px; padding: 16px 18px; border: 1px solid var(--line); background: var(--paper); display: flex; align-items: center; justify-content: space-between; gap: 18px; }
 .answer-cta p { margin: 0 !important; color: var(--ink); font-size: 16px !important; line-height: 1.55; }
 .answer-cta .store-button { flex-shrink: 0; }
-.article-header > .answer-cta { max-width: 800px; margin: 14px auto 0; color: inherit; font-size: inherit; text-align: left; }
+.article-header > .answer-cta { max-width: 800px; margin: 14px auto 0; color: inherit; font-size: inherit; text-align: start; }
 @media (max-width: 640px) { .answer-cta, .article-header > .answer-cta { flex-direction: column; align-items: flex-start; } }
 /* Tool reference tables sit in the article column, so they wrap the route label instead of scrolling. */
 .tool-table th, .tool-table td { min-width: 0; padding: 10px 8px; }
 .tool-table th:first-child { min-width: 0; white-space: normal; }
 .tool-table thead th { white-space: normal; vertical-align: bottom; }
 .tool-formula { margin: 18px 0; padding: 0; list-style: none; display: grid; gap: 8px; }
-.tool-formula code { display: block; padding: 12px 16px; border-left: 4px solid var(--eucalyptus); background: var(--soft); color: var(--ink); font-size: 15px; white-space: normal; }
-.tool-list { margin: 14px 0 0; padding-left: 20px; color: #4f5a49; font-size: 17px; line-height: 1.7; }
+.tool-formula code { display: block; padding: 12px 16px; border-inline-start: 4px solid var(--eucalyptus); background: var(--soft); color: var(--ink); font-size: 15px; white-space: normal; }
+.tool-list { margin: 14px 0 0; padding-inline-start: 20px; color: #4f5a49; font-size: 17px; line-height: 1.7; }
 .tool-list li + li { margin-top: 8px; }
 .tool-cta-note { font-size: 13px !important; }
 .tool-siblings a { padding: 6px 0; color: var(--fern); font-weight: 700; }
 /* Data hubs (/camping/, /dump-points/, /rest-areas/): a dot map beside the facts table, then prose and places. */
 .hub-trail { margin: 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 6px; }
 .hub-trail li { white-space: nowrap; }
-.hub-trail li + li::before { content: "/"; margin-right: 6px; opacity: .5; }
+.hub-trail li + li::before { content: "/"; margin-inline-end: 6px; opacity: .5; }
 .hub-overview { max-width: 1120px; margin: 0 auto; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 32px; align-items: start; }
 .hub-map { margin: 0; padding: 18px; border: 1px solid var(--line); background: var(--paper); }
 .hub-map svg { width: 100%; height: auto; max-height: 520px; display: block; }
@@ -395,15 +395,15 @@ em { color: inherit; font: inherit; font-style: normal; }
 .hub-map-other { fill: var(--cream); stroke: var(--line); stroke-width: 1; }
 .hub-map-state { fill: var(--soft); stroke: var(--fern); stroke-width: 1.5; }
 .hub-map-dots { fill: none; stroke: var(--fern); stroke-linecap: round; opacity: .75; }
-.hub-facts caption { padding: 12px; text-align: left; color: var(--muted); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
+.hub-facts caption { padding: 12px; text-align: start; color: var(--muted); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
 .hub-facts .price-table { width: 100%; }
 .hub-facts .price-table th, .hub-facts .price-table td { white-space: normal; }
 .hub-share { color: var(--muted); }
 .hub-layout { grid-template-columns: minmax(0, 1fr); }
 .hub-layout .article-body { max-width: 900px; }
 .hub-places-table { width: 100%; }
-.hub-places-table th, .hub-places-table td { white-space: normal; text-align: left; vertical-align: top; min-width: 120px; }
-.hub-count { margin-left: auto; margin-right: 12px; color: var(--muted); font-weight: 500; font-size: 13px; }
+.hub-places-table th, .hub-places-table td { white-space: normal; text-align: start; vertical-align: top; min-width: 120px; }
+.hub-count { margin-inline: auto 12px; color: var(--muted); font-weight: 500; font-size: 13px; }
 .hub-data-note p { color: var(--muted) !important; font-size: 13px !important; }
 @media (max-width: 860px) { .hub-overview { grid-template-columns: 1fr; padding: 0 4px; } }
 .tools-note p { margin: 0; }
@@ -412,8 +412,8 @@ em { color: inherit; font: inherit; font-style: normal; }
   .desktop-nav, .desktop-download { display: none; }
   /* The download button stays reachable on mobile, sitting beside the menu rather than
      floating over the page. */
-  .mobile-download { display: inline-flex; margin-left: auto; }
-  .mobile-menu { display: block; margin-left: 12px; }
+  .mobile-download { display: inline-flex; margin-inline-start: auto; }
+  .mobile-menu { display: block; margin-inline-start: 12px; }
   .hero { min-height: auto; padding: 120px 22px 60px; }
   .hero-grid { grid-template-columns: 1fr; gap: 0; text-align: center; }
   .hero-copy { display: contents; }
@@ -426,7 +426,7 @@ em { color: inherit; font: inherit; font-style: normal; }
   .hero-proof { order: 6; }
   .hero-actions .download-card { display: none; }
   .hero-proof { flex-wrap: nowrap; gap: 10px; width: 100%; max-width: 430px; margin-inline: auto; }
-  .hero-proof span { flex: 1 1 0; min-width: 0; padding-left: 10px; text-align: left; }
+  .hero-proof span { flex: 1 1 0; min-width: 0; padding-inline-start: 10px; text-align: start; }
   .hero-proof strong { font-size: 16px; }
   .hero-proof small { font-size: 9.5px; line-height: 1.3; }
   .hero-visual { min-height: 580px; }
@@ -519,7 +519,7 @@ em { color: inherit; font: inherit; font-style: normal; }
   .guide-figure { margin-top: 22px; }
   .article-layout { padding-top: 50px; }
   .article-intro { font-size: 22px; }
-  .article-body section { padding-left: 34px; }
+  .article-body section { padding-inline-start: 34px; }
   .article-body h2 { font-size: 27px; }
   .article-end-cta { align-items: flex-start; flex-direction: column; }
   .article-end-cta .download-card, .article-end-cta .store-button { width: 100%; }
@@ -613,6 +613,14 @@ em { color: inherit; font: inherit; font-style: normal; }
 :lang(ja) :is(h1, h2, h3, h4, strong, b), :lang(ko) :is(h1, h2, h3, h4, strong, b), :lang(zh-Hans) :is(h1, h2, h3, h4, strong, b), :lang(zh-Hant) :is(h1, h2, h3, h4, strong, b) { font-weight: 700; line-height: 1.3; }
 :lang(ko) { word-break: keep-all; overflow-wrap: anywhere; }
 :lang(ja), :lang(zh-Hans), :lang(zh-Hant) { line-break: strict; }
+
+/* Right-to-left editions (he). Layout uses logical properties throughout, so it mirrors by itself;
+   arrows that point along the reading direction are flipped to match. Hebrew has no case and is
+   harmed by Latin display tracking, so those are reset. DM Sans has no Hebrew glyphs: system
+   Hebrew faces follow it, as the CJK editions do. */
+:is(.lucide-arrow-right, .lucide-arrow-left, .lucide-arrow-up-right):dir(rtl) { transform: scaleX(-1); }
+:lang(he) { --sans: var(--font-sans), "Arial Hebrew", Arial, "Noto Sans Hebrew", sans-serif; font-family: var(--sans); }
+:lang(he) * { letter-spacing: 0 !important; text-transform: none !important; }
 
 /* Social-link overlay (components/social.tsx): shown only by the social script in TikTok's in-app browser,
    or as a fallback in Instagram's. The app icon, the App Store button and a link on to the website. */

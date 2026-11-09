@@ -13,7 +13,7 @@ export function CurrencyConverter({ ui = uiStrings, output, children, locale = "
       <label><span>{ui.from}</span><select data-currency-from defaultValue="AUD">{displayCurrencies.map((currency) => <option value={currency} key={currency}>{currency}</option>)}</select></label>
       <label><span>{ui.to}</span><select data-currency-to defaultValue="NZD">{displayCurrencies.map((currency) => <option value={currency} key={currency}>{currency}</option>)}</select></label>
     </div>
-    <output className="tool-output" data-currency-output>{output}</output>
+    <output className="tool-output" dir="auto" data-currency-output>{output}</output>
     {children}
   </section>;
 }

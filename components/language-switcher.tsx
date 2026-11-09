@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { localeEntry, localeRoot, type LocaleCode } from "@/lib/locales";
+import { localeEntry, localeRoot, textDirection, type LocaleCode } from "@/lib/locales";
 import { publishedLocales } from "@/lib/localized";
 import { routesFor } from "@/lib/routes";
 import { sitePath } from "@/lib/site";
@@ -15,6 +15,6 @@ export function LanguageSwitcher({ pageKey, current }: { pageKey: string; curren
   const target = (locale: LocaleCode | "en") => editions.find((route) => route.locale === locale && route.indexable)?.path ?? sitePath(localeRoot(locale) || "/");
   return <nav className="language-nav" aria-label="Languages">
     <Link href={target("en")} hrefLang="en-AU" aria-current={current === "en" ? "page" : undefined}>English</Link>
-    {publishedLocales.map((code) => <Link href={target(code)} hrefLang={localeEntry(code).htmlLang} lang={localeEntry(code).htmlLang} aria-current={code === current ? "page" : undefined} key={code}>{localeEntry(code).label}</Link>)}
+    {publishedLocales.map((code) => <Link href={target(code)} hrefLang={localeEntry(code).htmlLang} lang={localeEntry(code).htmlLang} dir={textDirection(code)} aria-current={code === current ? "page" : undefined} key={code}>{localeEntry(code).label}</Link>)}
   </nav>;
 }
