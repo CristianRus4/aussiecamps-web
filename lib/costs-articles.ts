@@ -17,6 +17,7 @@ import page15, { faq as faq15 } from "@/lib/costs/campervan-relocations-australi
 import page16, { faq as faq16 } from "@/lib/costs/australia-or-new-zealand-campervan-first";
 import page17, { faq as faq17 } from "@/lib/costs/regional-work-working-holiday-visa-camping-australia";
 import page18, { faq as faq18 } from "@/lib/costs/wikicamps-vs-camps-australia-wide-vs-campermate";
+import page19, { faq as faq19 } from "@/lib/costs/easter-long-weekend-camping-australia-2027";
 
 /**
  * Campervan hire, buying, selling, budget, comparison, price and season-planning guides. Each page lives
@@ -24,7 +25,7 @@ import page18, { faq as faq18 } from "@/lib/costs/wikicamps-vs-camps-australia-w
  * order they were written; lib/site.ts spreads `costsArticles` into the written guides and attaches
  * `costsFaqs` by slug.
  */
-export const costsArticles: Article[] = [page1, page2, page3, page4, page5, page6, page7, page8, page9, page10, page11, page12, page13, page14, page15, page16, page17, page18];
+export const costsArticles: Article[] = [page1, page2, page3, page4, page5, page6, page7, page8, page9, page10, page11, page12, page13, page14, page15, page16, page17, page18, page19];
 export const costsFaqs: Record<string, readonly (readonly [string, string])[]> = {
   [page1.slug]: faq1,
   [page2.slug]: faq2,
@@ -44,4 +45,5 @@ export const costsFaqs: Record<string, readonly (readonly [string, string])[]> =
   [page16.slug]: faq16,
   [page17.slug]: faq17,
   [page18.slug]: faq18,
+  [page19.slug]: faq19,
 };
