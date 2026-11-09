@@ -13,7 +13,7 @@ export default article({
   description: "Where to camp near Uluru: Ayers Rock Campground at Yulara, roadhouse camps on the Lasseter Highway, why there is no camping in the park and how to plan sunrise and sunset.",
   category: "Camping guides", region: "Northern Territory",
   places: ["Uluru", "Kata Tjuta", "Yulara", "Curtin Springs", "Erldunda"],
-  imageAlt: "SUBJECT_PLACEHOLDER",
+  imageAlt: "A straight sealed stretch of the Lasseter Highway running through red-soil scrub in central Australia, with two 100 km/h signs",
   intro: "Uluru is the one place where you cannot camp for free and rarely want to. Camping inside Uluru-Kata Tjuta National Park is not allowed, the only camp in the area is at Yulara, and everything else is a roadhouse an hour or more down the highway. Book your night at Ayers Rock Campground well ahead in the dry season, buy a park pass, and plan the days around sunrise and sunset, the base walk and Kata Tjuta.",
   related: ["alice-springs-to-uluru-drive", "adelaide-to-uluru-road-trip", "red-centre-way-camping", "can-i-camp-on-aboriginal-land-without-a-permit", "camping-rules-northern-territory"],
   sections: [

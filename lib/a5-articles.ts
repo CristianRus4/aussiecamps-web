@@ -9,9 +9,10 @@ import g_free_camping_margaret_river, { faq as faq_g_free_camping_margaret_river
 import g_free_camping_exmouth, { faq as faq_g_free_camping_exmouth } from "@/lib/costs/free-camping-exmouth";
 import g_free_camping_savannah_way, { faq as faq_g_free_camping_savannah_way } from "@/lib/costs/free-camping-savannah-way";
 import g_free_camping_queensland_outback, { faq as faq_g_free_camping_queensland_outback } from "@/lib/costs/free-camping-queensland-outback";
+import g_camping_near_uluru, { faq as faq_g_camping_near_uluru } from "@/lib/costs/camping-near-uluru";
 
 /** Guides added by the A5 growth lane (free camping and permits in small towns and outback places). Each lives in lib/costs/<slug>.ts. */
-export const a5Articles: Article[] = [g_free_camping_broken_hill, g_free_camping_coober_pedy, g_free_camping_longreach, g_free_camping_echuca, g_free_camping_jervis_bay, g_free_camping_batemans_bay, g_free_camping_margaret_river, g_free_camping_exmouth, g_free_camping_savannah_way, g_free_camping_queensland_outback];
+export const a5Articles: Article[] = [g_free_camping_broken_hill, g_free_camping_coober_pedy, g_free_camping_longreach, g_free_camping_echuca, g_free_camping_jervis_bay, g_free_camping_batemans_bay, g_free_camping_margaret_river, g_free_camping_exmouth, g_free_camping_savannah_way, g_free_camping_queensland_outback, g_camping_near_uluru];
 export const a5Faqs: Record<string, readonly (readonly [string, string])[]> = {
   [g_free_camping_broken_hill.slug]: faq_g_free_camping_broken_hill,
   [g_free_camping_coober_pedy.slug]: faq_g_free_camping_coober_pedy,
@@ -23,4 +24,5 @@ export const a5Faqs: Record<string, readonly (readonly [string, string])[]> = {
   [g_free_camping_exmouth.slug]: faq_g_free_camping_exmouth,
   [g_free_camping_savannah_way.slug]: faq_g_free_camping_savannah_way,
   [g_free_camping_queensland_outback.slug]: faq_g_free_camping_queensland_outback,
+  [g_camping_near_uluru.slug]: faq_g_camping_near_uluru,
 };
