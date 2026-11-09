@@ -13,7 +13,7 @@ export default article({
   description: "How free and cheap camping works in outback Queensland: council camps, showgrounds, highway rest areas and station stays, what the signs mean and how to plan fuel and water.",
   category: "Camping guides", region: "Queensland",
   places: ["Charleville", "Longreach", "Winton", "Cloncurry", "Mount Isa"],
-  imageAlt: "SUBJECT_PLACEHOLDER",
+  imageAlt: "A cattle road train driving past a blue and yellow monument on a street in Hughenden, Queensland, on the Flinders Highway",
   intro: "Outback Queensland is one of the friendliest regions in Australia for free and cheap camping. Towns that would like you to stop run council camps, showgrounds and riverside reserves, and the highways have rest areas for one night. The skill is in reading the sign, because each council sets its own limit and some camps ask for a donation or a small fee. Carry water and fuel, travel in the dry season, and spend a night in town to support the pub and the museum.",
   related: ["queensland-outback-way", "camping-rules-queensland", "townsville-to-mount-isa-drive", "is-free-camping-legal-australia", "driving-with-road-trains-australia"],
   sections: [
