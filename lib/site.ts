@@ -363,13 +363,6 @@ const writtenArticles: Article[] = [
       section("Test any camping app before you rely on it",["Put the phone in flight mode and open a place you have not looked at before. Whatever appears is what you will have out there. Some apps cache map tiles only, others keep place details, and some keep nothing unless you downloaded a region first.","Every app is a planning aid. Fire bans, closures after rain and ranger directions change faster than any dataset, so read the sign at the entrance and check the land manager before settling in. If the sign and the app disagree, the sign wins."],["Test offline in flight mode first","Signs override every app","Carrying two apps is normal"]),
     ],
     sources:[
-      { label:"WikiCamps Australia: price, coverage and offline mode", url:"https://www.wikicamps.com.au/" },
-      { label:"Camps Australia Wide: the CAMPS app", url:"https://www.campsaustraliawide.com/app/" },
-      { label:"CamperMate: coverage and features", url:"https://campermate.com/" },
-      { label:"Hipcamp: about", url:"https://www.hipcamp.com/en-AU/about" },
-      { label:"Full Range Camping: membership and offline caching", url:"https://www.fullrangecamping.com.au/" },
-      { label:"Full Range Camping: Premium membership status", url:"https://www.fullrangecamping.com.au/premium" },
-      { label:"ExplorOz Traveller", url:"https://www.exploroz.com/traveller" },
     ] }),
   ...expandedArticles,
   ...canIArticles,

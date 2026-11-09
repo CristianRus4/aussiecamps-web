@@ -282,18 +282,6 @@ export const expandedArticles: Article[] = [
       section("How we compared them", ["Each app was checked on the Australian App Store on 20 October 2026 for price, in-app purchases, rating and latest version, and against the developer's own pages for data sources and offline behaviour. WikiCamps details come from its website and help centre. Where we quote a count or a discount, it is the developer's own figure.", "We make AussieCamps and it is paid for by the Pass. No other app here paid to be included. If something has changed since we checked, tell us through the support page and we will correct it."], ["Checked on 20 October 2026", "Developer figures quoted as claims", "Corrections welcome"]),
     ],
     sources: [
-      { label: "WikiCamps Australia: price, coverage and offline mode", url: "https://www.wikicamps.com.au/" },
-      { label: "WikiCamps help: why there are negative reviews", url: "https://support.wikicamps.co/hc/en-gb/articles/57935317938329-Why-are-there-negative-reviews-about-WikiCamps" },
-      { label: "WikiCamps help: old version no longer available", url: "https://support.wikicamps.co/hc/en-gb/articles/57935249462425-Can-I-go-back-to-using-the-old-version-of-the-app" },
-      { label: "WikiCamps help: downloading offline content", url: "https://support.wikicamps.co/hc/en-gb/articles/57934042716185-How-do-I-download-offline-content" },
-      { label: "WikiCamps help: ads in WikiCamps", url: "https://support.wikicamps.co/hc/en-gb/articles/57935411954201-Ads-in-WikiCamps" },
-      { label: "WikiCamps help: one purchase per platform", url: "https://support.wikicamps.co/hc/en-gb/articles/57872100733593-Why-can-t-I-use-one-purchase-across-multiple-platforms" },
-      { label: "Camps Australia Wide: the CAMPS app", url: "https://www.campsaustraliawide.com/app/" },
-      { label: "CamperMate: coverage and features", url: "https://campermate.com/" },
-      { label: "Full Range Camping: membership and offline caching", url: "https://www.fullrangecamping.com.au/" },
-      { label: "Full Range Camping: Premium membership status", url: "https://www.fullrangecamping.com.au/premium" },
-      { label: "Hipcamp: about", url: "https://www.hipcamp.com/en-AU/about" },
-      { label: "ExplorOz Traveller", url: "https://www.exploroz.com/traveller" },
     ]
   }),
   article({
@@ -319,14 +307,6 @@ export const expandedArticles: Article[] = [
       section("How we checked", ["We checked each app's Australian App Store listing on 20 October 2026 for price, in-app purchases, rating and version, then read the developer's own site for data sources and offline behaviour. CamperMate's ownership and partners come from its terms and about pages, and review themes come from its most recent Australian App Store reviews.", "AussieCamps is ours and is paid for by the Pass. No app paid to appear here. If a detail has changed, tell us through the support page and we will fix it."], ["Checked on 20 October 2026", "Developer figures quoted as claims", "Corrections welcome"]),
     ],
     sources: [
-      { label: "CamperMate: coverage and features", url: "https://campermate.com/" },
-      { label: "CamperMate: about us and partners", url: "https://campermate.com/en/page/about-us" },
-      { label: "CamperMate: terms and conditions", url: "https://campermate.com/en/page/terms-and-conditions" },
-      { label: "WikiCamps Australia: price, coverage and offline mode", url: "https://www.wikicamps.com.au/" },
-      { label: "Camps Australia Wide: the CAMPS app", url: "https://www.campsaustraliawide.com/app/" },
-      { label: "Hipcamp: about", url: "https://www.hipcamp.com/en-AU/about" },
-      { label: "Full Range Camping: membership and offline caching", url: "https://www.fullrangecamping.com.au/" },
-      { label: "Full Range Camping: Premium membership status", url: "https://www.fullrangecamping.com.au/premium" },
       { label: "KiwiCamping", url: "https://campingapp.nz/" },
     ]
   }),
@@ -409,8 +389,6 @@ export const expandedArticles: Article[] = [
       { label: "Apple Support: multistop routes in Maps on iPhone", url: "https://support.apple.com/en-au/guide/iphone/iph837d13d03/ios" },
       { label: "Apple Support: download offline maps on iPhone", url: "https://support.apple.com/en-au/guide/iphone/iphcfb5f5bc6/ios" },
       { label: "Wanderlog Help: download a trip plan for offline access", url: "https://help.wanderlog.com/hc/en-us/articles/13545182856859-Download-trip-plan-for-offline-access" },
-      { label: "WikiCamps Help: Trip Planner", url: "https://support.wikicamps.co/hc/en-gb/articles/57933120336665-What-is-Trip-Planner-and-how-do-I-use-it" },
-      { label: "ExplorOz Traveller", url: "https://www.exploroz.com/traveller" },
       { label: "TripIt", url: "https://www.tripit.com/" },
       { label: "Polarsteps", url: "https://www.polarsteps.com/" },
     ]
@@ -456,10 +434,6 @@ export const expandedArticles: Article[] = [
       { label: "Parks and Wildlife Service Tasmania: camping", url: "https://parks.tas.gov.au/camping" },
       { label: "NT Government: camping in parks", url: "https://nt.gov.au/parks/camping" },
       { label: "National Parks and Wildlife Service SA: booking questions", url: "https://www.parks.sa.gov.au/book-and-pay/frequently-asked-questions" },
-      { label: "Camps Australia Wide: app support", url: "https://campsaustraliawide.com/help-centre/app-support/" },
-      { label: "Full Range Camping: Premium membership status", url: "https://www.fullrangecamping.com.au/premium" },
-      { label: "CamperMate: coverage and features", url: "https://campermate.com/" },
-      { label: "WikiCamps Australia: price, coverage and offline mode", url: "https://www.wikicamps.com.au/" },
     ]
   }),
   article({
@@ -488,16 +462,9 @@ export const expandedArticles: Article[] = [
       section("How we compared them", ["Each app's price, in-app purchases, rating and version were checked on the Australian App Store on 20 October 2026, and features and offline behaviour on each developer's own pages. We looked at what a caravan or motorhome needs: whether a site suits the rig, where to empty and refill, and what still works out of signal. Where a developer does not document a feature, we have said so rather than guessed.", "AussieCamps is our own app, and its camping data is sold through the Pass. No other developer paid to be in this comparison. If a price or feature has changed since then, let us know on the support page."], ["Checked on 20 October 2026", "Documented features only", "Corrections welcome"]),
     ],
     sources: [
-      { label: "Camps Australia Wide: the CAMPS app", url: "https://www.campsaustraliawide.com/app/" },
-      { label: "Camps Australia Wide: Rig Ready towing weight checker", url: "https://rigready.campsaustraliawide.com" },
-      { label: "WikiCamps Australia: price, coverage and offline mode", url: "https://www.wikicamps.com.au/" },
-      { label: "CMCA Traveller", url: "https://traveller.cmca.au" },
       { label: "CMCA: RV Friendly Town program", url: "https://gov.cmca.au/content/rv-friendly-town-program" },
       { label: "CMCA: membership registration and prices", url: "https://members.cmca.au/public/registration" },
-      { label: "CamperMate: coverage and features", url: "https://campermate.com/" },
-      { label: "OVR: Hipcamp adds rig type and access filters (March 2026)", url: "https://www.ovrmag.com/news/hipcamp-adds-car-camping-and-rooftop-tent-filters/946.article" },
       { label: "G'day Parks: G'day Rewards", url: "https://gdayparks.com.au/articles/enhance-your-getaway-with-gday-rewards" },
-      { label: "ExplorOz Traveller", url: "https://www.exploroz.com/traveller" },
       { label: "NSW Government: towing a trailer or caravan", url: "https://www.nsw.gov.au/driving-boating-and-transport/driving-nsw/roads-safety-and-rules/vehicle-safety-and-compliance/towing-a-caravan" },
     ]
   }),
@@ -687,9 +654,6 @@ export const expandedArticles: Article[] = [
       { label: "Explore Parks WA: camping fees", url: "https://exploreparks.dbca.wa.gov.au/camping-fees" },
       { label: "Parks and Wildlife Service Tasmania: camping", url: "https://parks.tas.gov.au/camping" },
       { label: "NT Government: how to use the parks booking system", url: "https://nt.gov.au/parks/camping/how-to-use-parks-booking-system" },
-      { label: "WikiCamps Australia: price, coverage and bookings", url: "https://www.wikicamps.com.au/" },
-      { label: "Camps Australia Wide: the CAMPS app", url: "https://www.campsaustraliawide.com/app/" },
-      { label: "CamperMate: coverage and features", url: "https://campermate.com/" },
     ]
   }),
   article({
@@ -716,15 +680,7 @@ export const expandedArticles: Article[] = [
       section("How we compared them", ["We checked each app's price, in-app purchases, rating, version and features on the Australian App Store and the developer's own pages on 21 October 2026, and we compared them against what a CAMPS user usually asks for: the cost, the data source, offline use and trip planning.", "We make AussieCamps and put it first for that reason; no other developer here paid to be included. Report anything that has gone out of date on the support page and we will update it."], ["Checked on 21 October 2026", "Developer pages and App Store", "No paid placements"]),
     ],
     sources: [
-      { label: "Camps Australia Wide: the CAMPS app", url: "https://www.campsaustraliawide.com/app/" },
-      { label: "Camps Australia Wide: app support and subscriptions", url: "https://campsaustraliawide.com/help-centre/app-support/" },
-      { label: "Camps Australia Wide: how to use filters", url: "https://www.campsaustraliawide.com/help-centre/how-do-i-use-filters/" },
-      { label: "Camps Australia Wide: offline maps and sites", url: "https://www.campsaustraliawide.com/help-centre/how-do-i-get-offline-maps-sites/" },
-      { label: "WikiCamps Australia: price, coverage and bookings", url: "https://www.wikicamps.com.au/" },
-      { label: "CamperMate: coverage and features", url: "https://campermate.com/" },
-      { label: "Full Range Camping: Premium membership", url: "https://www.fullrangecamping.com.au/premium" },
       { label: "NSW National Parks: the official app", url: "https://www.nationalparks.nsw.gov.au/app" },
-      { label: "Hipcamp: the app", url: "https://www.hipcamp.com/en-AU/about" },
     ]
   }),
   article({
@@ -762,9 +718,6 @@ export const expandedArticles: Article[] = [
       { label: "Google Maps Help: download offline maps", url: "https://support.google.com/maps/answer/6291838" },
       { label: "Google Maps Help: add stops to a route", url: "https://support.google.com/maps/answer/144339" },
       { label: "Apple Support: Maps routes on iPhone", url: "https://support.apple.com/en-au/guide/iphone/iph837d13d03/ios" },
-      { label: "WikiCamps Australia: price, coverage and bookings", url: "https://www.wikicamps.com.au/" },
-      { label: "Camps Australia Wide: the CAMPS app", url: "https://www.campsaustraliawide.com/app/" },
-      { label: "ExplorOz: the Traveller app", url: "https://www.exploroz.com/" },
     ]
   }),
   article({
@@ -800,9 +753,6 @@ export const expandedArticles: Article[] = [
       { label: "Shire of Toodyay: caravan dump point", url: "https://www.toodyay.wa.gov.au/visit-toodyay/visitor-information/amenities-and-services/caravan-dump-point.aspx" },
       { label: "Singleton Council: caravan parks", url: "https://www.singleton.nsw.gov.au/Experience/Visit/Adventure-and-Camping/Caravan-Parks" },
       { label: "RV Daily: dump points", url: "https://rvdaily.com.au/dump-points/" },
-      { label: "WikiCamps Australia: price, coverage and bookings", url: "https://www.wikicamps.com.au/" },
-      { label: "Camps Australia Wide: the CAMPS app", url: "https://www.campsaustraliawide.com/app/" },
-      { label: "CamperMate: coverage and features", url: "https://campermate.com/" },
     ]
   }),
   article({
@@ -839,7 +789,6 @@ export const expandedArticles: Article[] = [
       { label: "Parks Victoria: park closures and warnings", url: "https://www.parks.vic.gov.au/news/2026/01/13/03/43/Fire-affected-parks-remain-closed-as-others-reopen" },
       { label: "Queensland Parks: park alerts", url: "https://parks.desi.qld.gov.au/park-alerts" },
       { label: "Forest Fire Management Victoria: More to Explore", url: "https://www.ffm.vic.gov.au/visiting-state-forests/more-to-explore-apps-and-maps" },
-      { label: "Camps Australia Wide: the CAMPS app", url: "https://www.campsaustraliawide.com/app/" },
     ]
   }),
   article({
@@ -866,14 +815,6 @@ export const expandedArticles: Article[] = [
       section("How we compared them", ["We checked each app's price, in-app purchases, rating, version and features on the Australian App Store and the developers' own pages on 21 October 2026, judging them on what an ExplorOz user needs: offline maps, tracks and stops.", "We make AussieCamps and list it first as the stop planner, not as a map; no other developer here paid to be included. If an app has changed its price or its maps, tell us on the support page and we will recheck."], ["Checked on 21 October 2026", "Judged on offline needs", "No paid placements"]),
     ],
     sources: [
-      { label: "ExplorOz: the Traveller app", url: "https://www.exploroz.com/traveller" },
-      { label: "ExplorOz: EOTopo maps", url: "https://www.exploroz.com/eotopo" },
-      { label: "ExplorOz: Membership", url: "https://www.exploroz.com/membership" },
-      { label: "Hema Maps: app comparison", url: "https://hemamaps.com/pages/hema-apps-comparison" },
-      { label: "Hema Maps: HX-1 and Hema Cloud retirement", url: "https://kb.hemamaps.com/hx1-hema-cloud-due-to-retire" },
-      { label: "Newtracs: the app", url: "https://newtracs.com/" },
-      { label: "Camps Australia Wide: offline maps and sites", url: "https://www.campsaustraliawide.com/help-centre/how-do-i-get-offline-maps-sites/" },
-      { label: "WikiCamps Australia: price, coverage and bookings", url: "https://www.wikicamps.com.au/" },
       { label: "Google Maps Help: download offline maps", url: "https://support.google.com/maps/answer/6291838" },
       { label: "Apple Support: offline maps on iPhone", url: "https://support.apple.com/en-au/guide/iphone/iphcfb5f5bc6/ios" },
       { label: "Organic Maps", url: "https://organicmaps.app/" },
@@ -1040,12 +981,6 @@ export const expandedArticles: Article[] = [
       section("How the apps were compared", ["Each price, feature and coverage claim was read on the developer's own page on 28 October 2026, and none of the developers paid to be included. The apps were judged on what a FreeRange Camping user usually wants instead: a clear price, listings someone has checked, official data or a booking.", "AussieCamps is made by the team behind this site and opens the list for that reason. If a price or feature has changed, flag it through the support page."], ["Developer pages read 28 October 2026", "Judged on what FreeRange users want", "No paid placements"]),
     ],
     sources: [
-      { label: "FreeRange Camping: the app and Premium Club", url: "https://www.fullrangecamping.com.au/" },
-      { label: "WikiCamps Australia: price, coverage and bookings", url: "https://www.wikicamps.com.au/" },
-      { label: "Camps Australia Wide: the CAMPS app", url: "https://www.campsaustraliawide.com/app/" },
-      { label: "Camps Australia Wide: offline maps and sites", url: "https://www.campsaustraliawide.com/help-centre/how-do-i-get-offline-maps-sites/" },
-      { label: "CamperMate: coverage and features", url: "https://campermate.com/" },
-      { label: "Hipcamp: how booking works", url: "https://www.hipcamp.com/" },
     ]
   }),
   article({
@@ -1076,7 +1011,6 @@ export const expandedArticles: Article[] = [
       { label: "Apple Support: multistop routes in Maps on iPhone", url: "https://support.apple.com/en-au/guide/iphone/iph837d13d03/ios" },
       { label: "Apple Support: download offline maps on iPhone", url: "https://support.apple.com/en-au/guide/iphone/iphcfb5f5bc6/ios" },
       { label: "Wanderlog Help: download a trip plan for offline access", url: "https://help.wanderlog.com/hc/en-us/articles/13545182856859-Download-trip-plan-for-offline-access" },
-      { label: "WikiCamps Help: Trip Planner", url: "https://support.wikicamps.co/hc/en-gb/articles/57933120336665-What-is-Trip-Planner-and-how-do-I-use-it" },
     ]
   }),
 ];

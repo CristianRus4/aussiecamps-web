@@ -2222,29 +2222,7 @@
           "CamperMate on ilmainen, ja Hipcampin lataus on ilmainen, jolloin jokainen majoitus maksetaan sen isännälle. AussieCamps on ilmainen lataus ilmaisilla hotelli-, motelli- ja matkailualuelistauksilla, mutta sen leirintäalueiden, levähdysalueiden ja jätevedenpurkupisteiden tiedot vaativat Passin."
         ]
       ],
-      "sources": [
-        {
-          "label": "WikiCamps Australia: hinta, kattavuus ja offline-tila"
-        },
-        {
-          "label": "Camps Australia Wide: CAMPS-sovellus"
-        },
-        {
-          "label": "CamperMate: kattavuus ja ominaisuudet"
-        },
-        {
-          "label": "Hipcamp: tietoa"
-        },
-        {
-          "label": "Full Range Camping: jäsenyys ja offline-välimuisti"
-        },
-        {
-          "label": "Full Range Camping: Premium-jäsenyyden tila"
-        },
-        {
-          "label": "ExplorOz Traveller"
-        }
-      ],
+      "sources": [],
       "priceTable": null
     },
     "australia-travel-cost-2026": {
@@ -4050,44 +4028,7 @@
           "On. App Store listaa mainonnan, ja kehittäjä sanoo pienen määrän mainoksia näkyvän arvostelu-, maksu- ja kuvaosioissa. Se on kertonut harkitsevansa maksullista vaihtoehtoa niiden poistamiseksi."
         ]
       ],
-      "sources": [
-        {
-          "label": "WikiCamps Australia: hinta, kattavuus ja offline-tila"
-        },
-        {
-          "label": "WikiCamps-ohje: miksi negatiivisia arvosteluja on"
-        },
-        {
-          "label": "WikiCamps-ohje: vanha versio ei enää saatavilla"
-        },
-        {
-          "label": "WikiCamps-ohje: offline-sisällön lataaminen"
-        },
-        {
-          "label": "WikiCamps-ohje: mainokset WikiCampsissa"
-        },
-        {
-          "label": "WikiCamps-ohje: yksi osto alustaa kohden"
-        },
-        {
-          "label": "Camps Australia Wide: CAMPS-sovellus"
-        },
-        {
-          "label": "CamperMate: kattavuus ja ominaisuudet"
-        },
-        {
-          "label": "Full Range Camping: jäsenyys ja offline-välimuisti"
-        },
-        {
-          "label": "Full Range Camping: Premium-jäsenyyden tila"
-        },
-        {
-          "label": "Hipcamp: tietoa"
-        },
-        {
-          "label": "ExplorOz Traveller"
-        }
-      ],
+      "sources": [],
       "priceTable": null
     },
     "best-fuel-price-apps-australia": {
@@ -4612,12 +4553,6 @@
           "label": "Wanderlog-ohje: lataa reissusuunnitelma offline-käyttöön"
         },
         {
-          "label": "WikiCamps-ohje: Trip Planner"
-        },
-        {
-          "label": "ExplorOz Traveller"
-        },
-        {
           "label": "TripIt"
         },
         {
@@ -4875,18 +4810,6 @@
         },
         {
           "label": "National Parks and Wildlife Service SA: varauskysymykset"
-        },
-        {
-          "label": "Camps Australia Wide: sovelluksen tuki"
-        },
-        {
-          "label": "Full Range Camping: Premium-jäsenyyden tila"
-        },
-        {
-          "label": "CamperMate: kattavuus ja ominaisuudet"
-        },
-        {
-          "label": "WikiCamps Australia: hinta, kattavuus ja offline-tila"
         }
       ],
       "priceTable": null
@@ -5145,15 +5068,6 @@
         },
         {
           "label": "NT:n hallitus: miten käyttää puistojen varausjärjestelmää"
-        },
-        {
-          "label": "WikiCamps Australia: hinta, kattavuus ja varaukset"
-        },
-        {
-          "label": "Camps Australia Wide: CAMPS-sovellus"
-        },
-        {
-          "label": "CamperMate: kattavuus ja ominaisuudet"
         }
       ],
       "priceTable": null
@@ -5974,256 +5888,6 @@
         },
         {
           "label": "Tourism Australia: ajaminen Australiassa"
-        }
-      ],
-      "priceTable": null
-    },
-    "wikicamps-not-working": {
-      "title": "WikiCamps ei toimi? Korjaukset kirjautumiseen, pakotettuihin päivityksiin ja offline-tilaan (2026)",
-      "description": "WikiCampsin oman ohjekeskuksen korjaukset kirjautumissilmukoihin, maaliskuun 2026 pakotettuun päivitykseen, vanhaan versioon, puuttuvaan PC-sovellukseen ja päivityksen jälkeisiin ongelmiin.",
-      "region": "Australia",
-      "imageAlt": "Teltat pystytettynä avoimelle maalle leirissä Victorian outbackilla auringonlaskussa",
-      "intro": "Jos WikiCamps ei toimi, päivitä se App Storesta tai Google Playsta, tarkista, että puhelimessasi on iOS 26 tai Android 15 tai uudempi, käynnistä puhelin uudelleen ja kirjaudu sisään samalla sähköpostilla kuin aiemmin. Nämä neljä vaihetta korjaavat useimmat ongelmat, joita ihmisillä on ollut siitä lähtien, kun vanha sovellus poistettiin käytöstä maaliskuussa 2026 ja kaikki siirtyivät uudistettuun Versioon 6. Alla ovat WikiCampsin oman ohjekeskuksen korjaukset kuhunkin ongelmaan, se mitä et voi muuttaa, kuten vanha versio ja PC-sovellus, ja mitä tehdä, jos haluat mieluummin vaihtaa. Luimme ohjekeskuksen 9. marraskuuta 2026.",
-      "sections": [
-        {
-          "heading": "Nopeat korjaukset yleisimpiin ongelmiin",
-          "body": [
-            "<a data-guide=\"wikicamps-alternatives\">WikiCampsin</a> ohjekeskus antaa useimpiin vikoihin saman lyhyen listan: hae uusin päivitys sovelluskaupasta, käynnistä puhelin uudelleen, kokeile mobiilidataa Wi-Fin sijaan, sammuta mahdollinen VPN, salli WikiCampsin käyttää sijaintiasi ja poista sitten sovellus ja asenna se uudelleen. Jos mikään näistä ei auta, tukiosoite on support@wikicamps.co.",
-            "Tarkista ensin puhelimesi. 3. marraskuuta 2026 WikiCamps kertoi tukevansa iOS 26:ta ja Android 15:tä ja uudempia. Sovellus voi yhä asentua vanhemmille puhelimille, mutta WikiCamps sanoo, ettei se voi luvata, että kaikki ominaisuudet toimivat niillä, eikä auttaa niiden vioissa. iPhonessa katso kohdasta Asetukset, Yleiset, Ohjelmistopäivitys."
-          ],
-          "tips": [
-            "Päivitä sovellus ensin",
-            "iOS 26 tai Android 15 ja uudemmat",
-            "Uudelleenasennus viimeisenä keinona"
-          ],
-          "table": {
-            "caption": "Yleiset WikiCamps-ongelmat ja korjaus, jonka sen ohjekeskus antaa. Luettu 9. marraskuuta 2026.",
-            "head": [
-              "Ongelma",
-              "Todennäköinen syy",
-              "Mitä kokeilla"
-            ],
-            "rows": [
-              [
-                "Sovellus ei aukea tai päivitysnäyttö estää sen",
-                "Versio on yli kaksi julkaisua jäljessä",
-                "Päivitä App Storesta tai Google Playsta"
-              ],
-              [
-                "Pyytää jatkuvasti kirjautumaan",
-                "Puhelin tyhjentää sovelluksen tallennetun istunnon",
-                "Salli taustatoiminta; poista puhdistussovellukset"
-              ],
-              [
-                "Ei vahvistuskoodia",
-                "Sähköposti suodatettu tai viivästynyt",
-                "Tarkista roskaposti ja odota 10–15 minuuttia"
-              ],
-              [
-                "Matkat tai suosikit puuttuvat",
-                "Kirjauduttu eri tilille",
-                "Kirjaudu alkuperäisellä sähköpostilla ja anna synkronoida"
-              ],
-              [
-                "”Could not retrieve data”",
-                "Yhteys, VPN tai käyttöoikeudet",
-                "Mobiilidata, VPN pois, sijainti päälle, asenna uudelleen"
-              ],
-              [
-                "Ei käynnisty ilman kenttää",
-                "Offline-tila oli pois päältä, kun menetit kentän",
-                "Lataa sisältö ja laita offline-tila päälle ennen kuin poistut kuuluvuusalueelta"
-              ],
-              [
-                "Paikkoja puuttuu kartalta",
-                "Suodattimet, zoomaus tai tulosrajoitus",
-                "Poista suodattimet ja zoomaa lähemmäs"
-              ]
-            ]
-          }
-        },
-        {
-          "heading": "Miksi WikiCamps pyytää kirjautumaan tai luomaan tilin",
-          "body": [
-            "Versio 6 on rakennettu <a data-guide=\"wikicamps-alternatives\">WikiCamps</a>-tilin ympärille. Ohjekeskuksen mukaan tili antaa matkojesi, suosikkiesi, arvostelujesi ja tallennettujen suodattimiesi synkronoitua ja varmuuskopioitua, joten ne säilyvät uudessa puhelimessa tai uudelleenasennuksessa. Nykyistä sovellusta ei voi käyttää ilman tiliä.",
-            "Jos sinua pyydetään kirjautumaan yhä uudelleen, WikiCampsin mukaan syy on yleensä puhelin, ei sovellus. Akun optimointi, taustasovellusten rajoitukset, sovellustietojen automaattinen tyhjennys ja kolmansien osapuolten puhdistussovellukset voivat pyyhkiä tallennetun istunnon. Salli WikiCampsin toimia taustalla ja säilyttää tietonsa.",
-            "Vahvistuskoodit tulevat Microsoftin kirjautumispalvelusta WikiCampsin puolesta osoitteesta msonlineservicesteam@microsoftonline.com, aiheena esimerkiksi ”WikiCamps account email verification code”. Tarkista roskaposti ja odota jopa 15 minuuttia; WikiCampsin tiimi ei voi lähettää koodia käsin. Jos unohdit salasanasi, napauta kirjautumissivulla ”Forgot your password?”."
-          ],
-          "tips": [
-            "Versiossa 6 tili vaaditaan",
-            "Toistuva kirjautuminen on yleensä puhelimen asetus",
-            "Koodit tulevat Microsoftilta"
-          ]
-        },
-        {
-          "heading": "Android sanoo, ettet ole maksanut",
-          "body": [
-            "Jos Androidin sovellus näyttää ostonäytön ostettuasi sen, ohjekeskuksen mukaan se tarkistaa ostoksesi tilisi kautta, joten uusi tili tai eri tili kuin vanhassa sovelluksessa ei välttämättä näe sitä. Päivitä, käynnistä uudelleen, sammuta VPN ja kokeile uudelleenasennusta.",
-            "Jos se pyytää yhä maksamaan, lähetä tuelle Google Playn ostotodiste. Napauta Play Kaupassa profiilikuvaketta, valitse Maksut ja tilaukset (tai Budjetti ja historia), etsi <a data-guide=\"wikicamps-alternatives\">WikiCamps</a>-osto, napauta Näytä tiedot ja ota kuvakaappaus tilausnumerosta."
-          ],
-          "tips": [
-            "Osto tarkistetaan tilisi kautta",
-            "Käytä vanhan sovelluksen tiliä",
-            "Lähetä Play Kaupan tilausnumero"
-          ]
-        },
-        {
-          "heading": "Maaliskuun 2026 pakotettu päivitys",
-          "body": [
-            "Maaliskuusta 2026 alkaen sovellus estää versiot, joita ei enää tueta. Jos versiosi on yli kaksi julkaisua jäljessä, sovellus pyytää päivittämään sovelluskaupasta ennen kuin voit jatkaa sen käyttöä. Ohjekeskuksen versiohistoria merkitsee, mitä versioita yhä tuetaan; tuetulla versiolla voit lykätä päivitystä.",
-            "Matkailijoille koukku on ajoitus: päivitys tarvitsee kunnollisen yhteyden, ja esto ilmestyy kun avaat sovelluksen. Päivitä kaupungissa ennen syrjäistä osuutta ja tee se uudelleen ennen jokaista pitkää matkaa, älä leirissä, jossa on yksi kenttäviiva."
-          ],
-          "tips": [
-            "Kaksi julkaisua jäljessä tarkoittaa, että päivitä ensin",
-            "Versiohistoria listaa tuetut versiot",
-            "Päivitä ennen kuin poistut kuuluvuusalueelta"
-          ]
-        },
-        {
-          "heading": "Voiko WikiCampsin vanhaan versioon palata?",
-          "body": [
-            "Ei. Ohjekeskuksen mukaan vanhempia versioita ei enää tueta eikä niihin pääse maaliskuusta 2026 alkaen. Yritys uudisti sovelluksen, koska vanha pyöri alustalla, joka sen mukaan ei ollut riittävän vakaa tai skaalautuva kehittämisen jatkamiseen, ja se sanoo palauttavansa keskeisiä ominaisuuksia uuteen versioon ajan myötä.",
-            "Ei ole asetusta tai vanhaa latausta, joka palauttaisi Version 5. Jos pidit jostakin vanhan sovelluksen asiasta, ohjekeskus pyytää kertomaan siitä tuelle, ja sen versiohistoria näyttää, mitä on tähän mennessä palannut."
-          ],
-          "tips": [
-            "Vanhat versiot päättyivät maaliskuussa 2026",
-            "Ominaisuudet palaavat ajan myötä",
-            "Kerro tuelle, mitä kaipaat"
-          ]
-        },
-        {
-          "heading": "Onko WikiCampsista PC-versiota?",
-          "body": [
-            "Ei. Windows-sovellus, Versio 5, lopetettiin muiden vanhojen versioiden mukana. Versio 6 on saatavilla vain iOS:lle ja Androidille, puhelimille ja tableteille, eikä suunnitteluun selaimessa ole verkkoversiota.",
-            "<a data-guide=\"wikicamps-alternatives\">WikiCamps</a> sanoo tehneensä ratkaisun, koska useimmat matkailijat käyttävät sitä puhelimella ja erillisen PC-sovelluksen ylläpito hidastaisi työtä karttojen, matkojen ja offline-käytön parissa. Jos suunnittelit matkoja kannettavalla, tabletti on lähin korvike. Voit käyttää yhtä tiliä iPhonessa ja iPadissa, mutta ohjekeskuksen mukaan siirtyminen Androidin ja iOS:n välillä vaatii uuden oston."
-          ],
-          "tips": [
-            "Windows-sovellus on lopetettu",
-            "Vain puhelimet ja tabletit",
-            "Yksi osto alustaa kohti"
-          ]
-        },
-        {
-          "heading": "Päivityksen jälkeiset ongelmat ja niiden korjaus",
-          "body": [
-            "Puuttuvat matkat tai suosikit johtuvat yleensä tilisekaannuksesta. Ohjekeskuksen mukaan useimmat tapaukset johtuvat kirjautumisesta eri tilille kuin ensin käytetty, joten kirjaudu alkuperäisellä sähköpostillasi, varmista että sinulla on internet synkronointia varten ja päivitä sovellus. Uloskirjautuminen ei poista matkoja, jotka on jo synkronoitu.",
-            "<a data-guide=\"camping-without-phone-signal\">Ei kenttää</a> on toinen iso ongelma. Lataa pääasiallinen offline-sisältö ja laita offline-tila päälle valikosta ennen kuin menetät kuuluvuuden. WikiCamps listaa tunnetun ongelman, jossa ilman yhteyttä Tutki-sivu voi jumiutua ennen kuin pääset valikkoon laittamaan offline-tilan päälle, ja sanoo korjauksen olevan tulossa. Offline-tila on toistaiseksi vain katseluun: et voi lisätä paikkoja tai luoda ja muokata matkoja ennen kuin olet taas verkossa.",
-            "Jos kartalta näyttää puuttuvan paikkoja, sammuta aktiivinen suodatin ja zoomaa lähemmäs. Ohjekeskuksen mukaan kartta voi näyttää kerrallaan vain rajoitetun määrän tuloksia, ja jotkin listaukset on piilotettu moderaattoreiden tarkistaessa niitä."
-          ],
-          "tips": [
-            "Väärä tili selittää useimmat puuttuvat matkat",
-            "Laita offline-tila päälle ennen kuin menetät kentän",
-            "Poista suodattimet, jos paikat katoavat"
-          ]
-        },
-        {
-          "heading": "Kuka omistaa WikiCampsin?",
-          "body": [
-            "<a data-guide=\"wikicamps-alternatives\">WikiCampsin</a> tekee WikiCamps Pty Ltd (ACN 169 556 165), yhtiö, joka mainitaan sen ehdoissa ja App Store -listauksessa. Sen tietosuojakäytännön mukaan päämaja on Australiassa. Sama yhtiö julkaisee WikiCampsin Uudelle-Seelannille, Isolle-Britannialle, Yhdysvalloille ja Kanadalle, kukin myytynä erillisenä sovelluksena.",
-            "Book Now -painikkeella tehdyt varaukset hoitaa sen varauskumppani BookEasy (Book Australia), joten varauksen muutokset ja hyvitykset menevät heille, ei WikiCampsille. Itse sovelluksen osalta ota yhteyttä osoitteeseen support@wikicamps.co. AussieCamps on erillinen sovellus eri yhtiöltä."
-          ],
-          "tips": [
-            "WikiCamps Pty Ltd, australialainen yhtiö",
-            "Varaukset kulkevat BookEasyn kautta",
-            "Ei yhteyttä AussieCampsiin"
-          ]
-        },
-        {
-          "heading": "Jos haluat mieluummin vaihtaa: AussieCamps",
-          "body": [
-            "Jos yllä olevat korjaukset eivät saa sinua takaisin tielle tai tili- ja päivitysmuutokset eivät sovi sinulle, AussieCamps on erilainen leirintäsovellus iPhonelle. Sen leirintäalueet, levähdyspaikat, <a data-guide=\"dump-points-australia-guide\">tyhjennyspisteet</a> ja juomavesipisteet tulevat siitä, mitä puistoviranomaiset, tieviranomaiset ja julkiset tietoaineistot julkaisevat, ei käyttäjien listauksista, ja se näyttää yli 74 000 australialaista paikkaa yhdellä kartalla.",
-            "Voit tallentaa paikkoja kokoelmiin, rakentaa matkan, jossa on pysähdykset järjestyksessä, päivämäärät ja matka jokaiselle etapille, sekä pitää <a data-guide=\"camping-packing-list-australia\">pakkauslistaa</a>. Paikkatiedot tallennetaan puhelimeen, joten voit lukea leirin palvelut vielä ilman kenttää; kartta, reitit ja sää tarvitsevat yhteyden.",
-            "Ole selvillä siitä, mistä luovut. AussieCamps toimii vain iPhonella, siinä on vähemmän paikkoja kuin <a data-guide=\"wikicamps-alternatives\">WikiCampsissa</a> eikä matkailijoiden arvosteluja, joten monet pitävät molempia. WikiCamps-vaihtoehtojen oppaamme vertailee kuutta vaihtoehtoa, Android-vaihtoehdot mukaan lukien. Jos matkasi on Uudessa-Seelannissa, KiwiCamping on sovelluksemme sinne."
-          ],
-          "tips": [
-            "Viralliset tiedot, ei käyttäjien listauksia",
-            "Matkat, kokoelmat ja paikkatiedot",
-            "Vain iPhone, ei matkailijoiden arvosteluja"
-          ]
-        }
-      ],
-      "faq": [
-        [
-          "Miksi WikiCamps ei toimi?",
-          "Useimmat ongelmat uudistetun Version 6 jälkeen johtuvat vanhentuneesta sovelluksesta, tukemattomasta puhelimesta, eri kirjautumistilistä tai internetin puuttumisesta offline-tilan ollessa pois päältä. WikiCampsin ohjekeskus ehdottaa päivittämistä sovelluskaupasta, puhelimen uudelleenkäynnistystä, vaihtamista Wi-Fistä mobiilidataan, VPN:n sammuttamista, sijaintioikeuden sallimista ja viimeisenä keinona uudelleenasennusta."
-        ],
-        [
-          "Miksi WikiCamps pyytää minua kirjautumaan yhä uudelleen?",
-          "WikiCamps käyttää nyt tilejä matkojen, suosikkien, arvostelujen ja tallennettujen suodattimien synkronointiin laitteiden välillä. Jos se kysyy yhä uudelleen, ohjekeskuksen mukaan syy on yleensä puhelin, ei sovellus: akun optimointi, taustarajoitukset tai puhdistussovellukset tyhjentävät tallennetun istunnon. Salli WikiCampsin toimia taustalla ja säilyttää tietonsa."
-        ],
-        [
-          "Voinko palata WikiCampsin vanhaan versioon?",
-          "Ei. WikiCamps kertoo, ettei vanhempia versioita enää tueta eikä niihin pääse maaliskuusta 2026 alkaen, koska vanhaa sovellusta ei voinut ylläpitää. Se sanoo palauttavansa keskeisiä ominaisuuksia uuteen versioon ajan myötä."
-        ],
-        [
-          "Onko WikiCampsista PC-versiota?",
-          "Ei. Windows-versio (Versio 5) lopetettiin, ja Versio 6 toimii vain iOS- ja Android-puhelimilla ja -tableteilla. Suunnitteluun isommalla näytöllä WikiCamps neuvoo tablettia."
-        ],
-        [
-          "Kuka omistaa WikiCampsin?",
-          "WikiCampsin tekee WikiCamps Pty Ltd (ACN 169 556 165), australialainen yhtiö, jonka päämaja tietosuojakäytännön mukaan on Australiassa. Se julkaisee myös Uuden-Seelannin, Ison-Britannian, Yhdysvaltojen ja Kanadan painokset. Sillä ei ole yhteyttä AussieCampsiin."
-        ]
-      ],
-      "sources": [
-        {
-          "label": "WikiCampsin ohje: mitä tehdä, jos WikiCamps ei toimi oikein"
-        },
-        {
-          "label": "WikiCampsin ohje: virhe ”Could not retrieve data”"
-        },
-        {
-          "label": "WikiCampsin ohje: pakotetut päivitykset maaliskuusta 2026"
-        },
-        {
-          "label": "WikiCampsin ohje: versiopäivitysten historia"
-        },
-        {
-          "label": "WikiCampsin ohje: voinko palata vanhaan versioon?"
-        },
-        {
-          "label": "WikiCampsin ohje: miksi PC-versiota ei ole"
-        },
-        {
-          "label": "WikiCampsin ohje: miksi tarvitsen nyt tilin?"
-        },
-        {
-          "label": "WikiCampsin ohje: miksi minua pyydetään kirjautumaan?"
-        },
-        {
-          "label": "WikiCampsin ohje: en voi kirjautua"
-        },
-        {
-          "label": "WikiCampsin ohje: Androidin ostonäyttö maksun jälkeen"
-        },
-        {
-          "label": "WikiCampsin ohje: puuttuvat matkat tai suosikit"
-        },
-        {
-          "label": "WikiCampsin ohje: sovellus ei käynnisty ilman internetiä"
-        },
-        {
-          "label": "WikiCampsin ohje: miten offline-tila otetaan käyttöön"
-        },
-        {
-          "label": "WikiCampsin ohje: kartalta puuttuvat paikat"
-        },
-        {
-          "label": "WikiCampsin ohje: yksi osto alustaa kohti"
-        },
-        {
-          "label": "WikiCampsin ohje: miksi Book Australia hoitaa varaukset"
-        },
-        {
-          "label": "WikiCamps: käyttöehdot"
-        },
-        {
-          "label": "WikiCamps: tietosuojakäytäntö"
-        },
-        {
-          "label": "WikiCamps Australia: ominaisuudet ja hinta"
-        },
-        {
-          "label": "KiwiCamping"
         }
       ],
       "priceTable": null
