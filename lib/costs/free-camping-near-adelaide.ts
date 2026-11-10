@@ -15,7 +15,7 @@ export default article({
   places: ["River Murray", "Yorke Peninsula", "Fleurieu Peninsula", "Adelaide Hills", "Barossa"],
   imageAlt: "Hahndorf Caravan Park, South Australia",
   intro: "Adelaide is a good city to camp near. South Australia lets you camp on unallocated Crown land for up to 21 days without approval, long stretches of the River Murray have free riverside camps, and councils on the Yorke and Fleurieu peninsulas run free or low-cost sites. In Adelaide, the Adelaide Hills and the Barossa the rules are stricter, so use a holiday park for the city and keep the free nights for the country.",
-  related: ["camping-rules-south-australia", "flinders-ranges-camping-guide", "kangaroo-island-camping-guide", "adelaide-to-melbourne-drive", "caravan-park-vs-holiday-park"],
+  related: ["camping-rules-south-australia", "fleurieu-peninsula-camping", "flinders-ranges-camping-guide", "kangaroo-island-camping-guide", "adelaide-to-melbourne-drive", "caravan-park-vs-holiday-park"],
   sections: [
     section("Crown land and the 21-day rule", ["South Australia's unallocated Crown land is open to campers for up to 21 days without approval. Keep vehicles on established tracks, collect no firewood and leave the land as you found it. A fence, a gate or a sign usually means it is not Crown land.", "In Adelaide and its hills, camping in parks, on beaches and on streets is banned, and misuse of the Crown land rule can bring an expiation of $315."], ["Up to 21 days on Crown land", "Stay on tracks, no firewood", "Not in the city"], {
       caption: "Where you can stay near Adelaide, how far it is, and the main limit.",
