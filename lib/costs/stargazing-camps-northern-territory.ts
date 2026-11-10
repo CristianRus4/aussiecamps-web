@@ -1,0 +1,32 @@
+import { article, section } from "@/lib/can-i/helpers";
+
+export const faq = [
+  ["Where is the best stargazing in the Northern Territory?", "Anywhere away from town lights in the dry season. Popular camps include Karlu Karlu (Devils Marbles), the West MacDonnell Ranges, Kings Canyon, Henbury Meteorites and the campgrounds around Uluru, and the Top End's Litchfield and Kakadu on clear nights."],
+  ["When is the best time to see the Milky Way in the Northern Territory?", "The dry season, from about April to October, has the clearest skies, with the Milky Way high overhead in the middle of the night from roughly May to August. Pick a few nights around the new moon, when the sky is darkest."],
+  ["How cold does it get at night in the Red Centre?", "Winter nights are often close to freezing, and sometimes below, even after a warm day. Pack a warm sleeping bag, a beanie and layers, and a hot drink for the long wait outside."],
+  ["Do I need a telescope or special gear?", "No. A dark site, a few minutes for your eyes to adjust and a red light will show the Milky Way, planets and a lot of stars. A star map app helps name what you see, and a tripod helps if you want photos."],
+] as const;
+
+export default article({
+  slug: "stargazing-camps-northern-territory",
+  title: "Best Stargazing Camps in the Northern Territory",
+  description: "Where to camp under the darkest skies in the Northern Territory: Karlu Karlu, the West MacDonnell Ranges, Kings Canyon, Henbury Meteorites, Uluru and the Top End, with the best season and how to prepare.",
+  category: "Trip planning", region: "Northern Territory",
+  places: ["Karlu Karlu", "West MacDonnell Ranges", "Kings Canyon", "Henbury Meteorites", "Uluru", "Litchfield"],
+  imageAlt: "A split granite boulder at Karlu Karlu (Devils Marbles) Conservation Reserve in the Northern Territory, with other orange boulders behind it",
+  intro: "The Northern Territory has some of the darkest skies you can reach in a campervan. Towns are far apart, the air in the dry season is clear and the Milky Way can cast a faint shadow on a moonless night. Below are the camps that work best for stargazing, from the Red Centre to the Top End, when to go and how to keep warm while you look.",
+  related: ["camping-rules-northern-territory", "red-centre-way-camping", "darwin-to-alice-springs-drive", "alice-springs-to-uluru-drive", "darwin-kakadu-litchfield-loop", "camping-weather-safety-australia"],
+  sections: [
+    section("Why the Northern Territory", ["Most of the Territory has no light pollution to speak of. The towns are small, the roads are long and a campground an hour from Alice Springs or Katherine can have a sky that most Australians never see from home. In the dry season the air is clear and dry, and the stars reach the horizon.", "The Red Centre is the best bet, with its flat horizon and low humidity, and the Top End has good skies too once the wet season has gone."], ["Little light pollution", "Dry, clear air from April to October", "Flat horizon in the Red Centre"]),
+    section("Karlu Karlu, Henbury and the Stuart Highway", ["Karlu Karlu (Devils Marbles) is a conservation reserve of round granite boulders beside the Stuart Highway, with a basic campground and a wide sky. It is a natural stop on the Darwin to Alice Springs drive, and the boulders make good foreground shapes for photos. Henbury Meteorites Conservation Reserve, south of Alice Springs, has a camping area beside a group of small craters made by an ancient meteorite.", "Both are small, basic camps, so carry your own water and check the fees and facilities before you go. The Darwin to Alice Springs drive guide covers the road."], ["Basic camp at Karlu Karlu", "Henbury meteorite craters", "Carry your own water"]),
+    section("The West MacDonnell Ranges and Kings Canyon", ["The West MacDonnell Ranges, west of Alice Springs, have campgrounds at waterholes and gorges such as Ellery Creek Big Hole, Ormiston Gorge and Redbank Gorge. The rock walls block the light of other camps, so the sky is dark overhead, and you can walk out from camp after dinner.", "Kings Canyon, in Watarrka National Park, has camping close by, and the Red Centre Way guide covers the loop between Alice Springs, Kings Canyon and Uluru."], ["Gorges and waterholes", "Walk out from camp", "Kings Canyon on the Red Centre Way"]),
+    section("Uluru and the Top End", ["The camps around Uluru are the most convenient place to see the stars at the Rock, and campers can book a campsite at the resort area, which has other services. Free camping is not allowed in the national park, so check the rules.", "In the Top End, Litchfield and Kakadu have good dark skies from May to September once the wet season has passed. Camps there are closer to the water and the trees, so the sky is narrower than in the Red Centre."], ["Resort camping at Uluru", "No free camping in the park", "Top End: May to September"]),
+    section("When to go and what to pack", ["The best season is the dry season, from April to October, and the best nights are in the week around the new moon. A full moon washes out the Milky Way, so check the moon phase before you book.", "Winter nights in the Red Centre are close to freezing, so bring a warm sleeping bag, a beanie, gloves and a folding chair. Use a red torch so your eyes stay adjusted, and a star map app to name what you see."], ["Choose a new moon week", "Warm layers and a chair", "Use a red light"]),
+    { ...section("Plan the trip in AussieCamps", ["AussieCamps lists 1,838 campgrounds and 745 national parks from the state park agencies, plus rest areas, with each place's facilities and fees as the agency publishes them. Look at the camps along the Stuart Highway and in the West MacDonnell Ranges, save the ones you like and build the trip as ordered stops with the distance and drive time for each leg.", "The iPhone app is free to download, with in-app purchases."], ["Save camps along the highway", "Build the trip as stops", "Free to download"]), cta: true },
+  ],
+  sources: [
+    { label: "Parks and Wildlife Commission of the Northern Territory: parks and reserves", url: "https://nt.gov.au/leisure/parks-reserves" },
+    { label: "Tourism NT: Red Centre", url: "https://northernterritory.com/" },
+    { label: "Wikipedia: Karlu Karlu / Devils Marbles", url: "https://en.wikipedia.org/wiki/Karlu_Karlu_/_Devils_Marbles_Conservation_Reserve" },
+  ],
+});
