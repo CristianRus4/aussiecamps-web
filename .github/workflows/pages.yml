@@ -53,3 +53,7 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+        # The export is several thousand files across 28 languages; Pages can take longer than the
+        # action's 10-minute default to sync them, which cancels a deployment that would succeed.
+        with:
+          timeout: 1800000
