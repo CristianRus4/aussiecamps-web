@@ -46,6 +46,18 @@ assert.equal(await readFile(resolve(root, "lib/translations/en.json"), "utf8"), 
 // placement (tests/rendered-html.test.mjs), and a source is only rendered once its guide publishes. Cite the vendor's page.
 for (const article of articles) for (const source of article.sources ?? []) assert.doesNotMatch(source.url, /^https?:\/\/apps\.apple\.com\//, `${article.slug}: source "${source.label}" links to the App Store; cite the vendor's own page`);
 
+/**
+ * The app sentence at the end of a guide's first paragraph (lib/intro-cta.ts). Every key is a guide,
+ * and every English and translated sentence is exactly one <a>…</a> around its linked words with no
+ * other markup, so the renderer never drops a link or prints a tag. Translations are optional.
+ */
+const { introCtaStrings } = await import("../lib/source-strings.ts");
+const { splitIntroCta } = await import("../lib/intro-cta.ts");
+for (const [slug, text] of Object.entries(introCtaStrings)) {
+  assert.ok(articles.some((article) => article.slug === slug), `introCta.${slug} is not a guide on this site`);
+  assert.ok(splitIntroCta(text), `introCta.${slug} must hold exactly one <a>…</a> and no other markup`);
+}
+
 // Price tables are dated in ISO form and rendered in each reader's own date format.
 for (const article of articles) if (article.priceTable) assert.match(article.priceTable.asOf, /^\d{4}-\d{2}-\d{2}$/, `${article.slug}: priceTable.asOf must be YYYY-MM-DD`);
 
@@ -117,6 +129,10 @@ for (const locale of localeCodes) {
   const parity = parityProblems(file, new Set(fullyTranslatedSlugs(locale)), new Set(["support", "privacy", "terms"].filter((kind) => isStaticPageTranslated(locale, kind))));
   assert.deepEqual(parity, [], `${locale} changes amounts or the product name:\n- ${parity.join("\n- ")}`);
   const complete = new Set(fullyTranslatedSlugs(locale));
+  for (const [slug, text] of Object.entries(file.introCta ?? {})) {
+    assert.ok(slug in introCtaStrings, `${locale} translates introCta.${slug}, which has no English sentence`);
+    assert.ok(!text.trim() || splitIntroCta(text), `${locale} introCta.${slug} must hold exactly one <a>…</a> and no other markup`);
+  }
   for (const slug of Object.keys(file.articles)) {
     assert.ok(slugs.includes(slug), `${locale} translates ${slug}, which is not an article on this site`);
     if (complete.has(slug)) continue;

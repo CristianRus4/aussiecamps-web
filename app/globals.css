@@ -272,6 +272,7 @@ em { color: inherit; font: inherit; font-style: normal; }
 .article-photo-credit a { padding: 0; border: 0; background: transparent; color: rgba(0,0,0,0.3); font-size: 10px; font-weight: 700; line-height: 1; text-decoration: none; }
 .article-layout { padding: 75px 0 120px; display: grid; grid-template-columns: minmax(0, 720px) 300px; gap: 78px; }
 .article-intro { color: #34412d; font-size: 25px; line-height: 1.45; }
+.article-intro .intro-cta { color: var(--fern); font-weight: 650; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
 .article-body section { padding-block: 30px; padding-inline: 55px 0; border-top: 1px solid var(--line); position: relative; }
 .section-count { position: absolute; top: 38px; inset-inline-start: 0; color: var(--fern); font-size: 11px; }
 .article-body h2 { font-size: 30px; letter-spacing: -0.015em; line-height: 1.22; }

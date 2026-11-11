@@ -5,6 +5,8 @@ import { Footer } from "@/components/footer";
 import { DownloadCard } from "@/components/download-card";
 import { AnswerCta } from "@/components/answer-cta";
 import { guideAnswerCta } from "@/lib/answer-cta";
+import { IntroCta } from "@/components/intro-cta";
+import { guideIntroCta } from "@/lib/intro-cta";
 import { uiStrings } from "@/lib/source-strings";
 import { ArticleCard } from "@/components/article-card";
 import { CoverImage, GuideFigure } from "@/components/site-image";
@@ -25,6 +27,7 @@ export function GuideArticle({ item }: { item: Article }) {
   const dates = articleDates(item.slug);
   const placement = item.listicle ? "listicle" : "card";
   const answerCta = guideAnswerCta(item.slug, "en", true);
+  const introCta = guideIntroCta(item.slug, "en", true);
 
   return <>
     <Header />
@@ -47,7 +50,7 @@ export function GuideArticle({ item }: { item: Article }) {
         </figure>
         <div className="article-layout">
           <div className="article-body">
-            <p className="article-intro">{item.intro}</p>
+            <p className="article-intro">{item.intro}<IntroCta text={introCta} locale="en" /></p>
             {answerCta && <AnswerCta text={answerCta} label={uiStrings.download} locale="en" />}
             {item.priceTable && <section className="article-price-section">
               <span className="section-count">AUD</span>

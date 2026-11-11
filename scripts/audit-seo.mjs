@@ -14,13 +14,16 @@
  * - <html lang> matches lib/locales.json (en-AU for English);
  * - every URL in docs/growth/ranking-urls.txt (clicks or 20+ impressions) is exported and
  *   self-canonical, and every URL in docs/growth/url-baseline.txt is still exported. GitHub Pages
- *   cannot redirect, so a dropped URL is a 404.
+ *   cannot redirect, so a dropped URL is a 404;
+ * - every indexable page carries exactly one Smart App Banner (`apple-itunes-app`) with this app's id
+ *   and its own locale's `sb` campaign, so no page a search visitor lands on lacks the iPhone banner.
  */
 import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { resolve } from "node:path";
 import { SITE_URL } from "../lib/site.ts";
 import { exportRoutes } from "../lib/routes.ts";
 import { englishLocale, htmlLang, locales } from "../lib/locales.ts";
+import { smartBannerContent } from "../lib/app-store.ts";
 
 const root = resolve(import.meta.dirname, "..");
 // PAGES_DIST audits an export written elsewhere (see scripts/export-github-pages.mjs).
@@ -49,8 +52,9 @@ for (const name of readdirSync(dist, { recursive: true }).filter((file) => file.
   const robots = attribute(head.match(/<meta name="robots"[^>]*>/)?.[0] ?? "", "content") ?? "";
   const alternates = new Map([...head.matchAll(/<link rel="alternate" hrefLang="([^"]+)" href="([^"]+)"\s*\/?>/gi)].map((match) => [match[1], match[2]]));
   const lang = html.match(/<html lang="([^"]*)"/)?.[1];
+  const banners = [...head.matchAll(/<meta name="apple-itunes-app" content="([^"]*)"/g)].map((match) => match[1].replace(/&amp;/g, "&"));
   const url = urlFor(name);
-  pages.set(url, { name, url, canonical, robots, alternates, lang, indexable: robots.startsWith("index") && canonical === url });
+  pages.set(url, { name, url, canonical, robots, alternates, lang, banners, indexable: robots.startsWith("index") && canonical === url });
 }
 
 const langBySegment = new Map(locales.map((entry) => [entry.segment, entry.htmlLang]));
@@ -103,6 +107,15 @@ const indexable = new Set([...pages.values()].filter((page) => page.indexable).m
 for (const url of listed) if (!indexable.has(url)) fail(`sitemap lists ${url}, which is not an indexable exported page`);
 for (const url of indexable) if (!listed.has(url)) fail(`${url} is indexable but missing from the sitemaps`);
 
+// Every indexable page shows the Smart App Banner with its own locale's campaign.
+const segments = new Set(locales.map((entry) => entry.segment));
+for (const page of pages.values()) {
+  if (!page.indexable) continue;
+  const segment = new URL(page.url).pathname.split("/")[1];
+  const expected = smartBannerContent(segments.has(segment) ? segment : "en");
+  if (page.banners.length !== 1 || page.banners[0] !== expected) fail(`${page.url}: Smart App Banner is ${JSON.stringify(page.banners)}, expected ["${expected}"]`);
+}
+
 // URLs that must never disappear.
 const urlList = (file) => (existsSync(resolve(root, file)) ? readFileSync(resolve(root, file), "utf8").split("\n").map((line) => line.trim()).filter((line) => line.startsWith(SITE_URL)) : []);
 const ranking = urlList("docs/growth/ranking-urls.txt");
@@ -121,4 +134,4 @@ if (failures.size) {
   process.exit(1);
 }
 const withAlternates = [...pages.values()].filter((page) => page.alternates.size).length;
-console.log(`SEO audit passed: ${pages.size} pages, ${indexable.size} indexable and in the sitemaps, ${withAlternates} with reciprocal hreflang, ${ranking.length} ranking URLs and ${baseline.length} baseline URLs still served.`);
+console.log(`SEO audit passed: ${pages.size} pages, ${indexable.size} indexable, in the sitemaps and showing the Smart App Banner, ${withAlternates} with reciprocal hreflang, ${ranking.length} ranking URLs and ${baseline.length} baseline URLs still served.`);

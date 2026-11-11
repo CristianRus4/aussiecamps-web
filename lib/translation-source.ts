@@ -1,4 +1,4 @@
-import { answerCtaStrings, consentStrings, staticPages, summerStrings, toolStrings, uiStrings } from "@/lib/source-strings";
+import { answerCtaStrings, consentStrings, introCtaStrings, staticPages, summerStrings, toolStrings, uiStrings } from "@/lib/source-strings";
 import { translatableArticles } from "@/lib/localized";
 import { markGuideLinks } from "@/lib/internal-links";
 import type { Article } from "@/lib/site";
@@ -32,6 +32,9 @@ export function translationSource() {
     tools: { common: toolStrings.common, tools: toolStrings.tools },
     // The download line under a page's opening answer (lib/answer-cta.ts). Optional per locale.
     answerCta: answerCtaStrings,
+    // The app sentence at the end of a guide's first paragraph (lib/intro-cta.ts). Optional per
+    // locale; keep the <a>…</a> around the linked words.
+    introCta: introCtaStrings,
     // `id` is a fixed anchor, not copy, so translators never see it.
     pages: Object.fromEntries(Object.entries(staticPages).map(([kind, page]) => [kind, { ...page, sections: page.sections.map((section) => ({ heading: section.heading, paragraphs: section.paragraphs })) }])),
     articles: Object.fromEntries(translatableArticles.map((article) => [article.slug, forTranslation(article)])),

@@ -8,6 +8,8 @@ import { analyticsBootstrap, consentRegions, CONSENT_STORAGE_KEY } from "../lib/
 import { hasArticleTranslation, hasStaticPageTranslation, isArticleComplete, isArticleTranslated, isTranslated } from "../lib/localized.ts";
 import { allArticles, articles, categories, isScheduled } from "../lib/site.ts";
 import { liveLocales, localeCodes, localeEntry } from "../lib/locales.ts";
+import { introCtaStrings } from "../lib/source-strings.ts";
+import { guideIntroCta, splitIntroCta } from "../lib/intro-cta.ts";
 
 /** Live locales, from lib/locales.json: the only list of languages anywhere in the code. */
 const locales = liveLocales;
@@ -274,6 +276,25 @@ test("every App Store link carries its placement and, once configured, its campa
     }
   }
   assert.ok(links > 2000, `only ${links} store links found in the export`);
+});
+
+test("the top guides end their first paragraph with the app sentence and its intro link", async () => {
+  const unescapeText = (value) => value.replace(/&#x27;|&#39;/g, "'").replace(/&quot;/g, '"').replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&");
+  let english = 0;
+  for (const { name, html, route, locale } of await exportedPages()) {
+    const slug = route.match(/^\/(?:[a-z0-9-]+\/)?guides\/([^/]+)\/$/)?.[1];
+    if (!slug || !(slug in introCtaStrings)) continue;
+    const intro = html.match(/<p class="article-intro">([\s\S]*?)<\/p>/)?.[1] ?? "";
+    const links = [...intro.matchAll(/<a\b[^>]*>([^<]*)<\/a>/g)];
+    const expected = guideIntroCta(slug, locale, locale !== "en" && isArticleTranslated(locale, slug));
+    if (!expected) { assert.equal(links.length, 0, `${name} shows an intro link with no sentence for its language`); continue; }
+    assert.equal(links.length, 1, `${name} has ${links.length} links in its first paragraph`);
+    assert.equal(attribute(links[0][0], "data-cta"), "intro", `${name} intro link placement`);
+    assert.equal(attribute(links[0][0], "class"), "intro-cta", `${name} intro link class`);
+    assert.equal(unescapeText(links[0][1]), splitIntroCta(expected).link, `${name} intro link text`);
+    if (locale === "en") english += 1;
+  }
+  assert.equal(english, Object.keys(introCtaStrings).length, "every English guide with a sentence shows it");
 });
 
 test("the app schema keeps a clean install URL", async () => {

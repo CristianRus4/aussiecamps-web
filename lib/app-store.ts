@@ -17,9 +17,10 @@ import { APP_ID, APP_STORE_URL, APPLE_PROVIDER_TOKEN } from "@/lib/site";
  *   dl    the /download/ redirect page         llms   /llms.txt
  *   listicle  "best apps" and "alternatives" comparison guides (their in-article and end CTAs)
  *   ans   the download line right under a page's opening answer (lib/answer-cta.ts)
+ *   intro the app sentence at the end of a guide's first paragraph (lib/intro-cta.ts)
  *   ig, tt, fb  social bio links opened from Instagram, TikTok or Facebook (lib/social.ts)
  */
-export const ctaPlacements = ["hdr", "hero", "card", "stick", "foot", "inl", "tool", "hub", "sb", "qr", "dl", "llms", "listicle", "ans", "ig", "tt", "fb"] as const;
+export const ctaPlacements = ["hdr", "hero", "card", "stick", "foot", "inl", "tool", "hub", "sb", "qr", "dl", "llms", "listicle", "ans", "intro", "ig", "tt", "fb"] as const;
 export type CtaPlacement = (typeof ctaPlacements)[number];
 
 /** Apple truncates longer campaign tokens, which would merge distinct placements in the report. */

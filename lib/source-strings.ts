@@ -543,3 +543,34 @@ export const answerCtaStrings = {
   "drive-guide": "Build this drive as a trip in AussieCamps: each overnight stop shows the distance and drive time from the last one and a forecast for your arrival day.",
 };
 export type AnswerCtaKey = keyof typeof answerCtaStrings;
+
+/**
+ * The `introCta` namespace: one sentence at the end of a guide's first paragraph saying what the app
+ * does for that guide's reader, keyed by guide slug and rendered by components/intro-cta.tsx. The
+ * words between <a> and </a> become the App Store link (placement `intro`); nothing else may be
+ * markup. Like `answerCta` it is optional per locale and never gates a guide: a translated guide
+ * without its sentence simply leaves it out.
+ */
+export const introCtaStrings = {
+  "alcohol-coffee-drink-prices-australia": "To keep the nights cheap as well, the <a>AussieCamps app</a> maps free camping areas and filters campgrounds by fee type across Australia.",
+  "sleeping-in-car-australia": "To find a place where an overnight stop is allowed, the <a>AussieCamps app</a> maps rest areas, free camps and campgrounds across Australia, each with its fees, conditions and current alerts.",
+  "australia-grocery-prices-2026": "To pair cheap groceries with cheap nights, the <a>AussieCamps app</a> filters campgrounds by fee type and amenities, so free camping areas with toilets and drinking water are a single search.",
+  "eating-out-australia-prices-2026": "If eating out is stretching the budget, the <a>AussieCamps app</a> shows what each campground charges before you arrive, in your own currency alongside the Australian dollar figure.",
+  "australian-road-signs-visitors-guide": "To keep driving days short while the signs are still new, the <a>AussieCamps app</a> shows the distance of every leg of your trip and the rest areas and campgrounds along the way.",
+  "australia-travel-cost-2026": "To see what your nights will cost, the <a>AussieCamps app</a> shows the reported fees of campgrounds, caravan parks and free camps across Australia, and plans the route stop by stop.",
+  "driving-with-road-trains-australia": "To break long outback stretches into safe stages, the <a>AussieCamps app</a> maps the rest areas on your route and shows the distance of every leg between your stops.",
+  "public-transport-costs-australia-2026": "If you are heading beyond the city, the <a>AussieCamps app</a> maps campgrounds, caravan parks and backpacker hostels across Australia, with fees and opening hours on every place.",
+  "melbourne-to-adelaide-coastal-route": "To make the route your own, save the campgrounds as stops in the <a>AussieCamps app</a>, which keeps them in order with the distance of every leg and the weather at each stop.",
+  "driving-in-australia-road-rules-visitors": "To keep each driving day short while you adjust, the <a>AussieCamps app</a> plans your trip stop by stop with the distance of every leg, and maps the rest areas along the way.",
+  "best-camping-app-australia": "To try it yourself, <a>get AussieCamps for iPhone</a> and search campgrounds, caravan parks, rest areas and dump points with filters, then plan the trip stop by stop.",
+  "camping-rules-tasmania": "In the <a>AussieCamps app</a> each of those places opens with its fees, conditions and current alerts, and filters narrow the map to free camping areas.",
+  "overseas-driver-licence-australia-state-guide": "Once you are cleared to drive, the <a>AussieCamps app</a> helps plan the road trip itself, with campgrounds and rest areas on one map and the distance of every leg between your stops.",
+  "camping-rules-western-australia": "In the <a>AussieCamps app</a> each one shows its fees, conditions and current alerts, and rest areas are mapped too for the long gaps between towns.",
+  "camping-fees-australia-2026": "To compare before you book, the <a>AussieCamps app</a> shows each campground's reported fee, filters by fee type and opens the booking details where a site takes bookings.",
+  "australia-road-rules-state-differences": "When a trip crosses several states, the <a>AussieCamps app</a> keeps the route in order stop by stop, with the distance of each leg and a note on each stop for the rules that change at the next border.",
+  "best-fuel-price-apps-australia": "What it does do is plan the drive: the <a>AussieCamps app</a> shows the distance of every leg between your stops, so you can work out where to fill up.",
+  "wikicamps-alternatives": "If you want to try ours, the <a>AussieCamps app</a> combines a map of campgrounds, rest areas and dump points with detailed filters and a stop-by-stop trip planner.",
+  "best-road-trip-planner-apps-australia": "In the <a>AussieCamps app</a> you save campgrounds as stops, drag them into order and see the distance, date and weather for each one.",
+  "campfires-camping-australia": "Before you light one, the <a>AussieCamps app</a> shows each campground's conditions, current alerts and weather, so you can check the site and the day together.",
+} satisfies Record<string, string>;
+export type IntroCtaSlug = keyof typeof introCtaStrings;
