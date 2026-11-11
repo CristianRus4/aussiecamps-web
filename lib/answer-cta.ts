@@ -1,13 +1,7 @@
 import { translationFiles } from "./translations/index";
 import { answerCtaStrings, type AnswerCtaKey } from "./source-strings";
 
-/** The pages that carry a download line under their opening answer. Drive guides share one line. */
-const guideKeys: Record<string, AnswerCtaKey> = {
-  "alcohol-coffee-drink-prices-australia": "alcohol-coffee-drink-prices-australia",
-  "best-camping-app-australia": "best-camping-app-australia",
-  "brisbane-to-sydney-drive": "drive-guide",
-  "sydney-to-adelaide-drive": "drive-guide",
-};
+/** The tools that carry a download line under their opening answer. Guides use the intro sentence instead (lib/intro-cta.ts). */
 const toolKeys: Record<string, AnswerCtaKey> = {
   "drive-time-calculator": "drive-time-calculator",
   "fuel-cost-calculator": "fuel-cost-calculator",
@@ -26,5 +20,4 @@ function line(key: AnswerCtaKey | undefined, locale: string, translatedBody: boo
   return files[locale]?.answerCta?.[key]?.trim() || undefined;
 }
 
-export const guideAnswerCta = (slug: string, locale: string, translatedBody: boolean) => line(guideKeys[slug], locale, translatedBody);
 export const toolAnswerCta = (tool: string, locale: string, translatedBody: boolean) => line(toolKeys[tool], locale, translatedBody);

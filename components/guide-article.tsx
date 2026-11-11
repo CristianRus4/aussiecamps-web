@@ -3,8 +3,7 @@ import { ArrowLeft, ArrowRight, CalendarDays, Clock, MapPin } from "lucide-react
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { DownloadCard } from "@/components/download-card";
-import { AnswerCta } from "@/components/answer-cta";
-import { guideAnswerCta } from "@/lib/answer-cta";
+import { GuideEndCta, GuideSideCard } from "@/components/guide-cta";
 import { IntroCta } from "@/components/intro-cta";
 import { guideIntroCta } from "@/lib/intro-cta";
 import { uiStrings } from "@/lib/source-strings";
@@ -26,7 +25,6 @@ export function GuideArticle({ item }: { item: Article }) {
   // A date Google can see on the page, matching the one in the Article schema.
   const dates = articleDates(item.slug);
   const placement = item.listicle ? "listicle" : "card";
-  const answerCta = guideAnswerCta(item.slug, "en", true);
   const introCta = guideIntroCta(item.slug, "en", true);
 
   return <>
@@ -51,7 +49,6 @@ export function GuideArticle({ item }: { item: Article }) {
         <div className="article-layout">
           <div className="article-body">
             <p className="article-intro">{item.intro}<IntroCta text={introCta} locale="en" /></p>
-            {answerCta && <AnswerCta text={answerCta} label={uiStrings.download} locale="en" />}
             {item.priceTable && <section className="article-price-section">
               <span className="section-count">AUD</span>
               <h2>Price table in 10 currencies</h2>
@@ -90,13 +87,10 @@ export function GuideArticle({ item }: { item: Article }) {
               <h2>Common questions</h2>
               {item.faq.map(([question, answer]) => <details key={question}><summary>{question}<span>+</span></summary><p>{answer}</p></details>)}
             </section>}
-            <div className="article-end-cta">
-              <div><p className="eyebrow">Take it on the road</p><h2>Save the stops. Plan the whole trip.</h2><p>Build an ordered route from saved places, calculate the distance and keep dates, notes and to-dos attached.</p></div>
-              <DownloadCard compact placement={placement} />
-            </div>
+            <GuideEndCta locale="en" placement={placement} label={uiStrings.download} eyebrow={uiStrings.takeRoad} title={uiStrings.savePlanTitle} text={uiStrings.savePlanText} />
           </div>
           <aside>
-            <div className="article-side-card"><p className="eyebrow">Plan it in AussieCamps</p><h3>Save the places. Build the route.</h3><p>Order the stops, see the distance and keep notes and to-dos with the trip.</p><DownloadCard compact placement={placement} /></div>
+            <GuideSideCard locale="en" placement={placement} label={uiStrings.download} eyebrow={uiStrings.downloadEyebrow} title={uiStrings.downloadTitle} />
             <nav className="on-this-page" aria-label="Page contents"><strong>On this page</strong>{item.sections.map((part) => <span key={part.heading}>{part.heading}</span>)}</nav>
           </aside>
         </div>
