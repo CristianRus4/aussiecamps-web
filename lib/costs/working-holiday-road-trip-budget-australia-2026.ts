@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "working-holiday-road-trip-budget-australia-2026", publishAt: "2026-12-02",
+  slug: "working-holiday-road-trip-budget-australia-2026", publishAt: "2026-11-11",
   title: "Working Holiday Road Trip Budget in Australia 2026: Cost Per Week",
   description: "Two people in a campervan spend about $475 to $775 a week on fuel, food and camping, with fuel $289 at 1,000 km. Costs by camping style, October 2026.",
   category: "Costs & budget", region: "Australia",

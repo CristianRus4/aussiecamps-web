@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "broome-to-darwin-drive", publishAt: "2026-11-28",
+  slug: "broome-to-darwin-drive", publishAt: "2026-11-11",
   title: "Broome to Darwin Drive 2026: Kimberley Route, Fuel Gaps, Stops and Border Rules",
   description: "Broome to Darwin is about 1,880 km and 21 hours on sealed highways, usually five days. Fuel gaps, Kununurra and Katherine stops, wet season closures, the WA/NT border checkpoint and dump points.",
   category: "Road trips", region: "Western Australia and Northern Territory",

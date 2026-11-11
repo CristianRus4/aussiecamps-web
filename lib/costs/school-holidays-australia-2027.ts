@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "school-holidays-australia-2027", publishAt: "2026-11-12",
+  slug: "school-holidays-australia-2027", publishAt: "2026-11-11",
   title: "School Holidays 2027 in Australia by State: Dates and Camping Peaks",
   description: "2027 school holiday dates for every state, the long weekends, and when campgrounds book out: Easter in late March, autumn, winter, spring and summer.",
   category: "Trip planning", region: "Australia",

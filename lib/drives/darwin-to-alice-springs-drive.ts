@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "darwin-to-alice-springs-drive", publishAt: "2026-11-25",
+  slug: "darwin-to-alice-springs-drive", publishAt: "2026-11-11",
   title: "Darwin to Alice Springs Drive 2026: Stuart Highway Stops, Fuel and Quarantine",
   description: "Darwin to Alice Springs is about 1,500 km and 15 hours on the Stuart Highway. Day-by-day stops, rest areas, fuel advice, wet season closures, speed limits, fruit quarantine rules and dump points.",
   category: "Road trips", region: "Northern Territory",

@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "can-i-take-a-campervan-or-caravan-on-the-spirit-of-tasmania", publishAt: "2026-11-16",
+  slug: "can-i-take-a-campervan-or-caravan-on-the-spirit-of-tasmania", publishAt: "2026-11-11",
   title: "Can I Take a Caravan or Campervan on the Spirit of Tasmania?",
   description: "Yes. The Spirit of Tasmania takes caravans and campervans if you book the exact length and height, switch off gas and clear biosecurity. Rules checked 2026.",
   category: "Rules & safety", region: "Tasmania",

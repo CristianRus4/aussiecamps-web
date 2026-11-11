@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "buying-a-campervan-australia-working-holiday", publishAt: "2026-11-30",
+  slug: "buying-a-campervan-australia-working-holiday", publishAt: "2026-11-11",
   title: "Buying a Campervan in Australia on a Working Holiday: Rules 2026",
   description: "A visitor can buy and register a van, but the states differ. Queensland wants a Queensland garage address and a seller's safety certificate. 14 days to transfer.",
   category: "Costs & budget", region: "Australia",

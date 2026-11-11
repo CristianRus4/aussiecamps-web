@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "powered-vs-unpowered-sites-australia", publishAt: "2026-12-04",
+  slug: "powered-vs-unpowered-sites-australia", publishAt: "2026-11-11",
   title: "Powered vs Unpowered Sites in Australia: Cost and Which to Book",
   description: "A powered site adds mains power, such as 15 amp at Discovery Jindabyne, and unpowered sites suit tents and campervans. One tariff shows a $5 gap. Which to book.",
   category: "Camping guides", region: "Australia",

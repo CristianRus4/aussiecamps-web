@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "toll-roads-australia-hire-car-campervan", publishAt: "2026-12-25",
+  slug: "toll-roads-australia-hire-car-campervan", publishAt: "2026-11-11",
   title: "Toll Roads in Australia 2026: How Visitors Pay in a Hire Car or Campervan",
   description: "Sydney, Melbourne and Brisbane have toll roads. How to pay without an e-tag, the days you have after a trip, Linkt passes and what hire companies charge per toll.",
   category: "Costs & budget", region: "Australia",

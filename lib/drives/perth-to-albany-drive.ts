@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "perth-to-albany-drive", publishAt: "2026-12-08",
+  slug: "perth-to-albany-drive", publishAt: "2026-11-11",
   title: "Perth to Albany Drive 2026: Albany Highway, South Western Highway, Fuel and Stops",
   description: "Perth to Albany is about 410 km and under five hours by Albany Highway, or about 540 km through Manjimup and Denmark. Route options, rest areas, fuel, Stirling Range and Porongurup entry fees, dump points and fruit fly rules.",
   category: "Road trips", region: "Western Australia",

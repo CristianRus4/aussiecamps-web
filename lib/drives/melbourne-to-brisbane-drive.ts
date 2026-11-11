@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "melbourne-to-brisbane-drive", publishAt: "2026-11-21",
+  slug: "melbourne-to-brisbane-drive", publishAt: "2026-11-11",
   title: "Melbourne to Brisbane Drive 2026: Inland Newell Highway, Stops and Campsites",
   description: "Melbourne to Brisbane is about 1,675 km and 22 hours on the inland Newell Highway, or about 1,785 km via the Hume and Pacific Highway. Routes, overnight stops, fuel, floods, border rules and dump points.",
   category: "Road trips", region: "Victoria, New South Wales and Queensland",

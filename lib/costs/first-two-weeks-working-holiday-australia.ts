@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "first-two-weeks-working-holiday-australia", publishAt: "2026-12-21",
+  slug: "first-two-weeks-working-holiday-australia", publishAt: "2026-11-11",
   title: "Your First Two Weeks on a Working Holiday in Australia: Tax File Number, Bank, Phone and First Trip",
   description: "Apply for your tax file number, open a bank account, get a phone number and a transport card in week one, then plan a first road trip. A working holiday checklist for 2026.",
   category: "Trip planning", region: "Australia",

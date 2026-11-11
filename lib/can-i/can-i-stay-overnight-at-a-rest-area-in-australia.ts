@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "can-i-stay-overnight-at-a-rest-area-in-australia", publishAt: "2026-11-14",
+  slug: "can-i-stay-overnight-at-a-rest-area-in-australia", publishAt: "2026-11-11",
   title: "Can I Stay Overnight at a Rest Area in Australia? 2026",
   description: "It depends on the sign and the state. Queensland allows 20 hours unless signed, WA 24 hours only where signed. Rest area time limits by road authority, 2026.",
   category: "Rules & safety", region: "Australia",

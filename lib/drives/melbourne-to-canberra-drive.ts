@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "melbourne-to-canberra-drive", publishAt: "2026-11-23",
+  slug: "melbourne-to-canberra-drive", publishAt: "2026-11-11",
   title: "Melbourne to Canberra Drive 2026: Hume Highway, Alpine and Monaro Routes",
   description: "Melbourne to Canberra is about 650 km and 8 hours on the Hume and Barton Highways. Routes compared with the alpine and Monaro options, stops, campgrounds, snow chains and dump points.",
   category: "Road trips", region: "Victoria, New South Wales and the ACT",

@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "can-i-camp-on-aboriginal-land-without-a-permit", publishAt: "2026-11-15",
+  slug: "can-i-camp-on-aboriginal-land-without-a-permit", publishAt: "2026-11-11",
   title: "Do I Need a Permit to Camp on Aboriginal Land in Australia?",
   description: "Yes, on Aboriginal land off public roads. Permits cover roads like the Great Central Road, and camping is allowed only at named sites. Rules by state, 2026.",
   category: "Rules & safety", region: "Australia",

@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "can-i-use-a-generator-at-a-campsite-in-australia", publishAt: "2026-11-13",
+  slug: "can-i-use-a-generator-at-a-campsite-in-australia", publishAt: "2026-11-11",
   title: "Can I Use a Generator Camping in Australia? Rules by State",
   description: "It depends, and often no. Most Queensland and NSW parks ban generators unless a sign allows them, with set hours in WA and Tasmania. Rules by state, 2026.",
   category: "Rules & safety", region: "Australia",

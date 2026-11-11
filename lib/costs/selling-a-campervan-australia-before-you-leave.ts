@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "selling-a-campervan-australia-before-you-leave", publishAt: "2026-12-01",
+  slug: "selling-a-campervan-australia-before-you-leave", publishAt: "2026-11-11",
   title: "Selling a Campervan in Australia Before You Leave: Steps by State",
   description: "Tell the road authority about the sale at once: NSW says immediately, WA within 7 days. Queensland sellers must also supply a safety certificate. Steps by state.",
   category: "Costs & budget", region: "Australia",

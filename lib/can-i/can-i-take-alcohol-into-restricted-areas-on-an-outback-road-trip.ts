@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "can-i-take-alcohol-into-restricted-areas-on-an-outback-road-trip", publishAt: "2026-11-18",
+  slug: "can-i-take-alcohol-into-restricted-areas-on-an-outback-road-trip", publishAt: "2026-11-11",
   title: "Can I Take Alcohol Into Remote Communities in Australia?",
   description: "Sometimes. Some remote communities allow none, others set a carriage limit, and breaches mean seizure and fines. Queensland, NT and WA rules, checked 2026.",
   category: "Rules & safety", region: "Australia",

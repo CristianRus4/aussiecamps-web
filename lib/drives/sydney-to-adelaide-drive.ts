@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "sydney-to-adelaide-drive", publishAt: "2026-11-22",
+  slug: "sydney-to-adelaide-drive", publishAt: "2026-11-11",
   title: "Sydney to Adelaide Drive 2026: Sturt Highway, Barrier Highway, Stops and Campsites",
   description: "Sydney to Adelaide is about 1,412 km and 17 hours on the Sturt Highway, or about 1,591 km via Melbourne. Routes compared, overnight stops, fruit fly rules, fuel gaps and dump points.",
   category: "Road trips", region: "New South Wales, Victoria and South Australia",

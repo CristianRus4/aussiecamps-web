@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "cairns-to-darwin-drive", publishAt: "2026-11-26",
+  slug: "cairns-to-darwin-drive", publishAt: "2026-11-11",
   title: "Cairns to Darwin Drive 2026: Savannah Way or the Sealed Barkly Route",
   description: "Cairns to Darwin is about 2,900 km by the sealed Barkly route or about 2,400 to 2,500 km on the part-unsealed Savannah Way. Routes compared, fuel gaps, wet season closures, border rules and dump points.",
   category: "Road trips", region: "Queensland and Northern Territory",

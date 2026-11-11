@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "campervan-hire-cost-australia-2026", publishAt: "2026-11-29",
+  slug: "campervan-hire-cost-australia-2026", publishAt: "2026-11-11",
   title: "Campervan Hire Cost in Australia 2026: Fees, Excess and Bond",
   description: "Hire companies show daily rates only after you enter dates. Published costs: cover from $30 to $95 a day, one-way fees of $200 to $300, bonds of $500 to $8,000.",
   category: "Costs & budget", region: "Australia",

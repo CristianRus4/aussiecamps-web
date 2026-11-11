@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "adelaide-to-melbourne-drive", publishAt: "2026-12-05",
+  slug: "adelaide-to-melbourne-drive", publishAt: "2026-11-11",
   title: "Adelaide to Melbourne Drive 2026: Inland Route, Coastal Option, Border Rules and Stops",
   description: "Adelaide to Melbourne is about 730 km and 9 hours on the Dukes and Western Highways. Inland and coastal routes compared, with stops, rest areas, fruit rules, roadworks and dump points.",
   category: "Road trips", region: "South Australia and Victoria",

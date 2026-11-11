@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "brisbane-to-sydney-drive", publishAt: "2026-11-20",
+  slug: "brisbane-to-sydney-drive", publishAt: "2026-11-11",
   title: "Brisbane to Sydney Drive 2026: Pacific Highway or New England, Stops and Campsites",
   description: "Brisbane to Sydney is about 907 km and 11 hours on the Pacific Highway, or 970 km and 13 hours on the New England Highway. Routes compared, overnight stops, fire ant rules, tolls and dump points.",
   category: "Road trips", region: "Queensland and New South Wales",

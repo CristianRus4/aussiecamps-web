@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "adelaide-to-port-lincoln-drive", publishAt: "2026-12-12",
+  slug: "adelaide-to-port-lincoln-drive", publishAt: "2026-11-11",
   title: "Adelaide to Port Lincoln Drive 2026: Augusta and Lincoln Highways, Stops, Parks and Fruit Fly",
   description: "Adelaide to Port Lincoln is about 650 km and eight hours by the Augusta, Eyre and Lincoln Highways via Port Augusta, Whyalla, Cowell and Tumby Bay. Legs, fuel, caravan parks, dump points, Lincoln and Coffin Bay park fees and fruit fly rules.",
   category: "Road trips", region: "South Australia",

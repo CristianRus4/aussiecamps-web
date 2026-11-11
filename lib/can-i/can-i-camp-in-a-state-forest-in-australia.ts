@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "can-i-camp-in-a-state-forest-in-australia", publishAt: "2026-12-17",
+  slug: "can-i-camp-in-a-state-forest-in-australia", publishAt: "2026-11-11",
   title: "Can I Camp in a State Forest in Australia? Free and Paid by State 2026",
   description: "Yes, in most states. State forests are free in NSW, Victoria and Tasmania, paid in Queensland and booked in South Australia. Rules by state, 2026.",
   category: "Rules & safety", region: "Australia",

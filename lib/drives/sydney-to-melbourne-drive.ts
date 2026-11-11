@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "sydney-to-melbourne-drive", publishAt: "2026-11-19",
+  slug: "sydney-to-melbourne-drive", publishAt: "2026-11-11",
   title: "Sydney to Melbourne Drive 2026: Route Options, Stops and Campsites",
   description: "Sydney to Melbourne is about 870 to 900 km and 11 hours on the Hume Highway, or about 1,040 km on the Princes Highway coast. Routes compared, with overnight stops, tolls, rest areas and dump points.",
   category: "Road trips", region: "New South Wales and Victoria",

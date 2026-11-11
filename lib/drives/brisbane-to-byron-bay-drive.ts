@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "brisbane-to-byron-bay-drive", publishAt: "2026-11-24",
+  slug: "brisbane-to-byron-bay-drive", publishAt: "2026-11-11",
   title: "Brisbane to Byron Bay Drive 2026: Pacific Motorway or the Gold Coast Hinterland",
   description: "Brisbane to Byron Bay is about 170 km and 2.5 hours on the Pacific Motorway, or 237 km via Springbrook and Murwillumbah. Routes compared with stops, fire ant rules, the border clock change and camping.",
   category: "Road trips", region: "Queensland and New South Wales",

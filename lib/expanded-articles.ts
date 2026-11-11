@@ -960,7 +960,7 @@ export const expandedArticles: Article[] = [
     ]
   }),
   article({
-    slug: "freerange-camping-alternatives", listicle: true, publishAt: "2026-12-15", title: "5 Best FreeRange Camping Alternatives in 2026", description: "Alternatives to the FreeRange Camping app in 2026: AussieCamps, WikiCamps, CAMPS, CamperMate and Hipcamp, compared on price, coverage and use without signal.", category: "App guides", region: "Australia", readTime: 8,
+    slug: "freerange-camping-alternatives", listicle: true, publishAt: "2026-11-11", title: "5 Best FreeRange Camping Alternatives in 2026", description: "Alternatives to the FreeRange Camping app in 2026: AussieCamps, WikiCamps, CAMPS, CamperMate and Hipcamp, compared on price, coverage and use without signal.", category: "App guides", region: "Australia", readTime: 8,
     places: ["Free camps", "National parks", "Caravan parks", "Farm stays"], imageAlt: "Tents, a camper trailer and solar panels at a bush campsite among casuarinas on the Queensland coast", intro: "FreeRange Camping is a directory of more than 11,000 camping spots and local businesses across Australia, with a free app and an optional Premium Club. People look past it when they want an app with a one-off price, checked listings, official park data or places to book. AussieCamps is made by the team behind this site, so it opens the list, and each entry says where another app does the job better. Prices and features were read on the developers' own pages on 28 October 2026.",
     related: ["best-camping-app-australia", "wikicamps-alternatives", "best-free-camping-apps-australia", "camping-fees-australia-2026"],
     sections: [
@@ -984,7 +984,7 @@ export const expandedArticles: Article[] = [
     ]
   }),
   article({
-    slug: "roadtrippers-alternatives", listicle: true, publishAt: "2026-12-16", title: "5 Best Roadtrippers Alternatives for Australia in 2026", description: "Alternatives to Roadtrippers for an Australian road trip in 2026: AussieCamps, Google Maps, Apple Maps, Wanderlog and WikiCamps, compared on stops, price and use without signal.", category: "App guides", region: "Australia", readTime: 8,
+    slug: "roadtrippers-alternatives", listicle: true, publishAt: "2026-11-11", title: "5 Best Roadtrippers Alternatives for Australia in 2026", description: "Alternatives to Roadtrippers for an Australian road trip in 2026: AussieCamps, Google Maps, Apple Maps, Wanderlog and WikiCamps, compared on stops, price and use without signal.", category: "App guides", region: "Australia", readTime: 8,
     places: ["Stuart Highway", "Pacific Highway", "Great Ocean Road", "Nullarbor"], imageAlt: "The Stuart Highway south of Erldunda in the Northern Territory, with a road sign listing Erldunda, Alice Springs and Darwin", intro: "Roadtrippers builds a trip around attractions and stops, with an Autopilot that suggests an itinerary. Its own pages show examples from the United States and do not list the countries it covers, so Australians look for a planner that knows Australian roads, camps and rest areas. AussieCamps is made by the team behind this site and goes first, with the apps that do the planning and the driving after it. Prices and limits were read on 28 October 2026.",
     related: ["best-road-trip-planner-apps-australia", "how-to-plan-trip-aussiecamps", "best-apps-lap-of-australia", "road-trip-fuel-planning-australia"],
     sections: [

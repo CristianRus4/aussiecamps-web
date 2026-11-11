@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "sydney-to-canberra-drive", publishAt: "2026-12-07",
+  slug: "sydney-to-canberra-drive", publishAt: "2026-11-11",
   title: "Sydney to Canberra Drive 2026: Hume and Federal Highway Route, Tolls, Stops and Camping",
   description: "Sydney to Canberra is about 294 km and 3.5 hours on the Hume and Federal Highways. Tolls for visitors, Goulburn and Lake George, fuel, rest areas, ACT camping and the Kings Highway option.",
   category: "Road trips", region: "New South Wales and the ACT",

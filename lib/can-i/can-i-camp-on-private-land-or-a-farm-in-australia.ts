@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "can-i-camp-on-private-land-or-a-farm-in-australia", publishAt: "2026-11-17",
+  slug: "can-i-camp-on-private-land-or-a-farm-in-australia", publishAt: "2026-11-11",
   title: "Can I Camp on Private Land or a Farm in Australia? 2026 Rules",
   description: "Yes, with the owner's permission, or it is trespass. Hosts may also need council approval. NSW, WA and Victoria rules, fire bans and tips, checked 2026.",
   category: "Rules & safety", region: "Australia",

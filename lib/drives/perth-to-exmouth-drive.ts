@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "perth-to-exmouth-drive", publishAt: "2026-11-27",
+  slug: "perth-to-exmouth-drive", publishAt: "2026-11-11",
   title: "Perth to Exmouth Drive 2026: Route, Fuel Gaps, Stops and Ningaloo Campsites",
   description: "Perth to Exmouth is about 1,260 to 1,280 km and 15 hours of driving, usually over three days. Route options, the 475 km Geraldton to Carnarvon stretch, cyclone recovery, fruit rules, Ningaloo camping and dump points.",
   category: "Road trips", region: "Western Australia",

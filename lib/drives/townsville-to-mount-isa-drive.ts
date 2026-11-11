@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "townsville-to-mount-isa-drive", publishAt: "2026-12-14",
+  slug: "townsville-to-mount-isa-drive", publishAt: "2026-11-11",
   title: "Townsville to Mount Isa Drive 2026: Flinders Highway Route, Flood Closures, Fuel and Free Camps",
   description: "Townsville to Mount Isa is about 905 km and 11 hours on the Flinders and Barkly Highways. Legs, wet season flood closures, QLDTraffic, fuel, road trains, Julia Creek and Porcupine Gorge camping.",
   category: "Road trips", region: "Queensland",
