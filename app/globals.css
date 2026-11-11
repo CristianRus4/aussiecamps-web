@@ -323,12 +323,13 @@ em { color: inherit; font: inherit; font-style: normal; }
 .article-end-cta h2, .article-body .article-end-cta h2 { margin: 7px 0; font-size: 28px; color: white; }
 .article-end-cta p, .article-body .article-end-cta p { margin-bottom: 0; color: #b8c2b2; }
 .article-end-cta .store-button { min-width: 205px; }
-.end-cta-actions { flex-shrink: 0; display: flex; flex-direction: column; align-items: center; gap: 14px; }
-/* The download QR code in the guide boxes: only where a reader is at a desktop and scans with a phone. */
+.store-qr { position: relative; flex-shrink: 0; }
+/* The download QR code in the guide boxes: shown above the store button while a desktop pointer hovers it. */
 .guide-qr { display: none; }
-.article-side-card .guide-qr { width: 150px; height: 150px; margin: 18px 0 14px; }
-.article-end-cta .guide-qr { width: 150px; height: 150px; }
-@media (hover: hover) and (pointer: fine) and (min-width: 901px) { .guide-qr { display: block; } }
+@media (hover: hover) and (pointer: fine) {
+  .store-qr .guide-qr { position: absolute; bottom: calc(100% + 12px); left: 50%; z-index: 5; width: 168px; height: 168px; transform: translateX(-50%); box-shadow: 0 10px 28px rgba(0,0,0,.28); }
+  .store-qr .store-button:hover + .guide-qr, .store-qr .store-button:focus-visible + .guide-qr { display: block; }
+}
 .related-section { padding: 95px max(32px, calc((100% - 1120px) / 2)); background: #e7e8e4; }
 .related-section h2 { font-size: 44px; letter-spacing: -0.02em; }
 
@@ -530,7 +531,7 @@ em { color: inherit; font: inherit; font-style: normal; }
   .article-body section { padding-inline-start: 34px; }
   .article-body h2 { font-size: 27px; }
   .article-end-cta { align-items: flex-start; flex-direction: column; }
-  .article-end-cta .download-card, .article-end-cta .store-button, .end-cta-actions { width: 100%; }
+  .article-end-cta .download-card, .article-end-cta .store-button, .store-qr { width: 100%; }
   .related-section { padding: 70px 18px; }
   .support-shell { padding: 55px 18px 85px; }
   .contact-panel { grid-template-columns: 1fr; padding: 28px; }
