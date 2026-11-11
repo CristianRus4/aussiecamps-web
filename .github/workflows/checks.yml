@@ -1,0 +1,25 @@
+name: Full checks
+# Runs the whole test suite after every push to main. It never blocks the deploy (pages.yml has its
+# own fast gate); a failure here shows up as a red run to fix in the next push.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+concurrency:
+  group: checks
+  cancel-in-progress: true
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: echo "BUILD_DATE=$(TZ=Pacific/Auckland date +%F)" >> "$GITHUB_ENV"
+      - run: npm run check
+        env:
+          NODE_OPTIONS: --max-old-space-size=6144

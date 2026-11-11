@@ -32,7 +32,8 @@
     "smoke:live": "tsx scripts/smoke-live.mjs",
     "similarity:check": "node scripts/audit-article-similarity.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern pages-dist --ignore-pattern .next",
-    "db:generate": "drizzle-kit generate"
+    "db:generate": "drizzle-kit generate",
+    "deploy:gate": "npm run content:check && npm run build && npm run export"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.3.3",
