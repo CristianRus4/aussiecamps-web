@@ -36,3 +36,17 @@ export function GuideEndCta({ eyebrow, title, text, ...copy }: Copy & { eyebrow:
     <StoreWithQr {...copy} reuse />
   </div>;
 }
+
+/**
+ * The one download box inside a guide's text, in the end box's style but smaller: at the section the
+ * guide marks with `cta`, otherwise after its second section. Its text sits in <div>s, not <p>s, so the
+ * similarity audit never reads it as prose.
+ */
+export function GuideMidCta({ eyebrow, title, ...copy }: Copy & { eyebrow: string; title: string }) {
+  return <div className="article-mid-cta"><div><div className="eyebrow">{eyebrow}</div><div className="article-mid-cta-title">{title}</div></div><StoreWithQr {...copy} reuse /></div>;
+}
+
+export const midSection = (sections: readonly { cta?: boolean }[]) => {
+  const marked = sections.findIndex((part) => part.cta);
+  return marked >= 0 ? marked : Math.min(1, sections.length - 1);
+};

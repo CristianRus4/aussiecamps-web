@@ -68,6 +68,8 @@ for (const route of routes) {
   // The end-of-article download CTA is shared site furniture, not article prose.
   const body = full
     .replace(/<div class="article-end-cta">[\s\S]*$/, "")
+    // So is the one download box inside the text (components/guide-cta.tsx).
+    .replace(/<div class="article-mid-cta">[\s\S]*?<use href="#guide-qr"><\/use><\/svg><\/div><\/div><\/div>/g, "")
     // Fixed legal/currency disclaimers are shared furniture too.
     .replace(/<p class="price-table-disclaimer">[\s\S]*?<\/p>/g, "")
     .replace(/<section class="sources">[\s\S]*?<\/section>/g, "");

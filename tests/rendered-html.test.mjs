@@ -318,7 +318,7 @@ test("each page has one Smart App Banner with its own campaign", async () => {
   }
 });
 
-test("every guide, in every language, has the side box and the dark end box with the QR code on hover, and no box inside the text", async () => {
+test("every guide, in every language, has the side box and the dark end box with the QR code on hover, and one standard box inside the text", async () => {
   let guides = 0;
   for (const { name, html } of await exportedPages()) {
     if (!/data-page-kind="guide"/.test(html)) continue;
@@ -327,7 +327,8 @@ test("every guide, in every language, has the side box and the dark end box with
     assert.match(html, /<div class="article-end-cta">[\s\S]*?<div class="store-qr">/, `${name} end box`);
     assert.equal((html.match(/<path id="guide-qr"/g) ?? []).length, 1, `${name} draws the QR code once`);
     assert.match(html, /<use href="#guide-qr"/, `${name} end box reuses the QR code`);
-    assert.doesNotMatch(html, /class="answer-cta"/, `${name} has no download box inside the text`);
+    assert.doesNotMatch(html, /class="answer-cta"/, `${name} has no white download box inside the text`);
+    assert.equal((html.match(/class="article-mid-cta"/g) ?? []).length, 1, `${name} has one download box inside the text`);
   }
   assert.ok(guides > 1000, `expected guides in every language, found ${guides}`);
 });

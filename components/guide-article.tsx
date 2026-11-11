@@ -2,8 +2,7 @@ import Link from "next/link";
 import { ArrowLeft, ArrowRight, CalendarDays, Clock, MapPin } from "lucide-react";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
-import { DownloadCard } from "@/components/download-card";
-import { GuideEndCta, GuideSideCard } from "@/components/guide-cta";
+import { GuideEndCta, GuideMidCta, GuideSideCard, midSection } from "@/components/guide-cta";
 import { IntroCta } from "@/components/intro-cta";
 import { guideIntroCta } from "@/lib/intro-cta";
 import { uiStrings } from "@/lib/source-strings";
@@ -25,6 +24,7 @@ export function GuideArticle({ item }: { item: Article }) {
   // A date Google can see on the page, matching the one in the Article schema.
   const dates = articleDates(item.slug);
   const placement = item.listicle ? "listicle" : "card";
+  const midIndex = midSection(item.sections);
   const introCta = guideIntroCta(item.slug, "en", true);
 
   return <>
@@ -70,7 +70,7 @@ export function GuideArticle({ item }: { item: Article }) {
               {part.figure && <GuideFigure src={part.figure.src} alt={part.figure.alt} />}
               {part.table && <SectionTable table={part.table} />}
               {part.tips && <div className="article-tips"><strong>Keep in mind</strong><ul>{part.tips.map((tip) => <li key={tip}>{tip}</li>)}</ul></div>}
-              {part.cta && <DownloadCard compact placement={placement} />}
+              {index === midIndex && <GuideMidCta locale="en" placement={placement} label={uiStrings.download} eyebrow={uiStrings.heroKicker} title={uiStrings.processTitle} />}
             </section>)}
             {item.places.length > 0 && <section>
               <span className="section-count">MAP</span>
