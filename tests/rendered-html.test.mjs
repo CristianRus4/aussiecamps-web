@@ -51,7 +51,7 @@ test("renders an article with unique travel content and app CTA", async () => {
   assert.ok((body.match(/<p[ >]/g) ?? []).length >= 5, "Guide must render substantial prose");
   // Every heading must carry its own prose rather than pushing it into one undifferentiated blob.
   for (const section of body.matchAll(/<section[^>]*>([\s\S]*?)<\/section>/g)) {
-    if (!/<h2/.test(section[1]) || /place-chips|price-table|sources/.test(section[1])) continue;
+    if (!/<h2/.test(section[1]) || /place-chips|pl-cards|price-table|sources/.test(section[1])) continue;
     assert.match(section[1], /<p[ >]/, "every heading needs prose under it");
   }
   assert.match(html, /Save the stops\. Plan the whole trip\./);
@@ -74,7 +74,7 @@ test("every guide renders as a long-form article", async () => {
     const body = html.match(/<div class="article-body">([\s\S]*?)<\/div>\s*<aside/)?.[1] ?? "";
     assert.ok((body.match(/<p[ >]/g) ?? []).length >= 5, `${slug} must render substantial prose`);
     for (const section of body.matchAll(/<section[^>]*>([\s\S]*?)<\/section>/g)) {
-      if (!/<h2/.test(section[1]) || /place-chips|price-table|sources/.test(section[1])) continue;
+      if (!/<h2/.test(section[1]) || /place-chips|pl-cards|price-table|sources/.test(section[1])) continue;
       assert.match(section[1], /<p[ >]/, `${slug} has a heading with no prose under it`);
     }
     // The generated editorial blob duplicated section prose and described the article to itself.
@@ -568,6 +568,31 @@ test("related guides are relevant, stable and not all from one category", async 
     assert.ok(related.some((item) => item.category !== article.category), `${article.slug} offers only its own category`);
     assert.deepEqual(relatedGuides(article).map((item) => item.slug), related.map((item) => item.slug), "deterministic");
   }
+});
+
+test("every English place page links three to six guides, and a guide about one state shows five of its places", async () => {
+  let placePages = 0;
+  let cardGuides = 0;
+  for (const { name, locale, html } of await exportedPages()) {
+    if (locale !== "en") continue;
+    if (/data-page-kind="place"/.test(html)) {
+      placePages += 1;
+      const list = html.match(/<section class="pl-block pl-links"><h2>Guides for [^<]+<\/h2><ul>([\s\S]*?)<\/ul>/);
+      assert.ok(list, `${name} links no guides`);
+      const links = [...list[1].matchAll(/<a href="([^"]+)"/g)].map((match) => match[1]);
+      assert.ok(links.length >= 3 && links.length <= 6, `${name} links ${links.length} guides`);
+      assert.ok(links.every((href) => href.startsWith("/guides/")), `${name} guide links leave the guides`);
+    }
+    if (/data-page-kind="guide"/.test(html) && html.includes('class="article-places"')) {
+      cardGuides += 1;
+      const block = html.slice(html.indexOf('class="article-places"'), html.indexOf('class="article-end-cta"'));
+      assert.ok(html.indexOf('class="article-places"') < html.indexOf('class="article-end-cta"'), `${name} places sit before the end box`);
+      assert.equal((block.match(/<li><a href="\/places\//g) ?? []).length, 5, `${name} shows five places`);
+      assert.match(block, /Explore all places in /, `${name} links its state's places`);
+    }
+  }
+  assert.ok(placePages > 1000, `expected the place pages, found ${placePages}`);
+  assert.ok(cardGuides > 50, `expected place cards on the state guides, found ${cardGuides}`);
 });
 
 test("translation stamps find strings whose English changed", async () => {

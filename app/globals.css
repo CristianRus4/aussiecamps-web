@@ -755,6 +755,9 @@ em { color: inherit; font: inherit; font-style: normal; }
 .pl-cards strong { display: -webkit-box; overflow: hidden; font-size: 13px; line-height: 1.25; -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
 .pl-cards-more { --store-button-bg: var(--deep); --store-button-fg: white; --store-button-hover: var(--fern); margin-top: 16px; padding-inline: 20px; }
 .pl-cards-more svg { width: 17px; height: 17px; }
+/* Inside a guide the row is narrower, so the cards stand upright to keep two lines of name. */
+.article-places h2 { margin-bottom: 18px; }
+.article-places .pl-cards img { aspect-ratio: 3 / 4; }
 .pl-search input { width: 100%; height: 58px; padding: 0 20px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); font-size: 18px; }
 .pl-search input:focus { outline: 2px solid var(--eucalyptus); outline-offset: 1px; }
 .pl-results { margin-top: 16px; }

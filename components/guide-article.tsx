@@ -12,6 +12,9 @@ import { CoverImage, GuideFigure } from "@/components/site-image";
 import { SectionTable } from "@/components/article-table";
 import { SITE_URL, sitePath, type Article } from "@/lib/site";
 import { relatedGuides } from "@/lib/related";
+import { guidePlaces } from "@/lib/place-guides";
+import { placeStatePath } from "@/lib/places";
+import { PlaceCards } from "@/components/places/place-cards";
 import { articleSchema } from "@/lib/seo";
 import { articleDates, formatArticleDate } from "@/lib/article-dates";
 import { linkProse } from "@/lib/internal-links";
@@ -21,6 +24,7 @@ import { displayCurrencies, exchangeRateDate, formatAudRange } from "@/lib/curre
 
 export function GuideArticle({ item }: { item: Article }) {
   const related = relatedGuides(item);
+  const placeRow = guidePlaces(item);
   const schema = articleSchema(item, `${SITE_URL}${sitePath(`/guides/${item.slug}`)}`);
   // A date Google can see on the page, matching the one in the Article schema.
   const dates = articleDates(item.slug);
@@ -88,6 +92,10 @@ export function GuideArticle({ item }: { item: Article }) {
               <span className="section-count">FAQ</span>
               <h2>Common questions</h2>
               {item.faq.map(([question, answer]) => <details key={question}><summary>{question}<span>+</span></summary><p>{answer}</p></details>)}
+            </section>}
+            {placeRow && <section className="article-places">
+              <h2>Places to camp in {placeRow.state.name}</h2>
+              <PlaceCards places={placeRow.places} more={{ href: placeStatePath(placeRow.state), label: `Explore all places in ${placeRow.state.name}` }} />
             </section>}
             <GuideEndCta locale="en" placement={placement} label={uiStrings.download} eyebrow={uiStrings.takeRoad} title={uiStrings.savePlanTitle} text={uiStrings.savePlanText} />
           </div>

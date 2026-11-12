@@ -16,6 +16,7 @@ import { hubGuides, stateNotes } from "@/lib/hubs/regions";
 import { stateIntros } from "@/lib/hubs/state-intros";
 import { placePath, places, placeStatePath } from "@/lib/places";
 import { PlaceCards } from "@/components/places/place-cards";
+import { hubLocalGuides } from "@/lib/place-guides";
 
 const norm = (value: string) => value.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 
@@ -32,7 +33,9 @@ export function HubPage({ hub }: { hub: Hub }) {
   const children = childHubs(hub);
   const related = relatedHubs(hub);
   const notes = stateNotes[hub.state];
-  const guides = hubGuides(hub.state, section, hub.rulesGuide).flatMap((slug) => getArticle(slug) ?? []);
+  // A park hub leads with the guides about that park, then the state's.
+  const local = hub.kind === "camping-park" ? hubLocalGuides(hub.places) : [];
+  const guides = [...new Set([...local, ...hubGuides(hub.state, section, hub.rulesGuide)])].filter((slug) => slug !== hub.rulesGuide).slice(0, 6).flatMap((slug) => getArticle(slug) ?? []);
   const nearby = neighbourHubs(hub);
   const crumbs = hubBreadcrumbs(hub);
   // The places with their own page: every place in the state for a state hub, the park's campgrounds for
