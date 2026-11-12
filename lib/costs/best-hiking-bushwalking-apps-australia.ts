@@ -1,0 +1,47 @@
+import { article, section } from "@/lib/can-i/helpers";
+
+export const faq = [
+  ["What is the best app for bushwalking in Australia?", "It depends on the walk. AllTrails suits day walks, ExplorOz Traveller suits remote tracks, the park agency's own page is the source for closures and bookings, and Emergency+ is worth installing for any walk away from town."],
+  ["Do I need a booking for multi-day walks in Australia?", "For the best known ones, yes. The Overland Track in Tasmania has a booking and pass for its season, and the Larapinta and Jatbula trails in the Northern Territory need campsites booked and paid online before you go."],
+  ["Will walking apps work without phone signal?", "Only if you download the maps first. Some apps lock map downloads behind a paid plan, so download the walk at home on wi-fi and carry a paper map or a personal locator beacon on remote tracks."],
+  ["How do I call for help on a walk with no signal?", "Triple zero (000) needs a mobile network, but a phone will try any available network if your own has none, and 112 does the same. A personal locator beacon works with no network at all."],
+] as const;
+
+export default article({
+  slug: "best-hiking-bushwalking-apps-australia",
+  listicle: true,
+  title: "Best Hiking and Bushwalking Apps for Australia in 2026: 6 for Trails, Safety and Camps",
+  description: "AllTrails, ExplorOz Traveller, the NSW National Parks app, Emergency+, the Bureau of Meteorology and AussieCamps compared for day walks, multi-day walks and remote tracks.",
+  category: "App guides", region: "Australia",
+  places: ["Overland Track", "Larapinta Trail", "Blue Mountains", "Grampians", "Kosciuszko"],
+  imageAlt: "Tussock grassland and ranges seen from the Overland Track, Tasmania",
+  intro: "A hiking app in Australia has to do more than show a track. Most walks leave phone signal behind, the weather can turn quickly, and the best multi-day walks need a booking months ahead. No one app does all of it, so most walkers carry a trail app, a weather source and a safety app. We make AussieCamps, which is a camping directory and not a trail app, so it appears for the camp at either end of the walk, and each section says what fits when. Features and prices were read on the apps' own pages in November 2026.",
+  related: ["best-national-park-apps-australia", "best-weather-apps-camping-australia", "camping-without-phone-signal", "camping-weather-safety-australia", "best-campsite-booking-apps-australia", "exploroz-alternatives"],
+  sections: [
+    section("Quick comparison", ["The apps split three ways: trail maps and route finding, safety and weather, and finding where to sleep before or after the walk."], undefined, { caption: "Hiking and bushwalking apps for Australia, from each developer's own pages, November 2026.", head: ["App", "Cost", "Best for", "Watch out for"], rows: [
+      ["AllTrails", "Free base plan; paid plan adds map downloads", "Finding day walks with trail maps", "Offline maps are a paid feature"],
+      ["ExplorOz Traveller", "A$59.99 upfront; topo map access sold in-app", "Remote tracks and outback maps", "Topo maps for use without signal are purchased in-app"],
+      ["NSW National Parks app", "Free", "Park information and campground bookings in New South Wales", "New South Wales parks only"],
+      ["Emergency+", "Free", "Giving 000 your exact location", "Needs a mobile network to make the call"],
+      ["BOM Weather", "Free", "Forecasts, radar and warnings", "Check it before you lose signal"],
+      ["AussieCamps", "Free download; in-app purchases", "The campground before or after a walk", "Not a trail map app"],
+    ] }),
+    section("1. AllTrails: day walks and trail maps", ["AllTrails is the most widely used trail app for finding walks near you, with trail maps, distance and elevation, and filters for difficulty and length. The free plan covers browsing and following a trail, and a paid plan adds downloadable maps for use without signal, so download the walk at home before you leave.", "Trail information is partly contributed by users. For closures, track conditions and fire bans, check the park agency's page for the day you walk, because a map does not know a track has been closed."], ["Good for choosing day walks", "Map downloads need a paid plan", "Check closures with the park agency"]),
+    section("2. ExplorOz Traveller: remote tracks and topo maps", ["ExplorOz Traveller suits walkers and drivers who go beyond the popular trails. It lists more than 100,000 places across Australia and has named roads, tracks and trails on topographic maps. It costs A$59.99 upfront, and the EOTopo maps that work without signal are purchased in the app, from A$59.99 a year or A$79.99 for a four-year edition.", "That is a serious outlay for a few day walks and good value for someone crossing the outback. Our ExplorOz alternatives guide compares it with cheaper apps."], ["Topographic maps of remote tracks", "A$59.99 upfront, maps extra", "Best for outback and long trips"]),
+    section("3. NSW National Parks app: one state, done properly", ["The free NSW National Parks app covers more than 225 parks, helps you locate campgrounds and lets you book from the app. It is the official source for New South Wales park alerts, so check it before the Blue Mountains, Kosciuszko or the South Coast, where closures after fire or storm are common.", "Other states have no equivalent app. Parks Victoria, for example, has a website only, so check the agency's page for the park before you go."], ["Official New South Wales park information", "Book campgrounds in the app", "No equivalent in most states"]),
+    section("4. Emergency+: your location for 000", ["Emergency+ is a free app, built with the emergency services, that uses your phone's GPS to show your coordinates so you can read them to a call taker. It also lets you choose a street address or a what3words address, and lists the SES and Police Assistance Line numbers.", "It does not replace a way to call. You still need a mobile network to make the 000 call, and on a remote track a personal locator beacon or satellite messenger is the safer backup. Install it before you go and open it once so it is ready."], ["Free, built with emergency services", "Shows your exact location", "Still needs a network to call"]),
+    section("5. BOM Weather: forecasts and warnings", ["The Bureau of Meteorology app gives forecasts, radar and warnings for your location, and it is the official source for severe weather. Check it the evening before and the morning of a walk, and again if the sky changes. Our weather apps guide compares it with six others.", "Alpine and gorge walks can change fast. If a warning is issued, turn around: the track will still be there another day."], ["Official forecasts and warnings", "Check the evening before and the morning of", "Turn back if a warning is issued"]),
+    { ...section("6. AussieCamps: the camp at either end", ["AussieCamps lists 1,838 campgrounds and 745 national parks, with each place's facilities, fees and rules as the state agency publishes them, and you can filter by cost, water, toilets and dogs. It is useful for the night before a walk or the base for day walks. It does not show trail maps, so pair it with one of the apps above.", "It runs on iPhone and is free to download, with in-app purchases."], ["Find the camp near the trailhead", "Not a trail map app", "iPhone only"]), cta: true },
+    section("Booking the big walks", ["The best-known multi-day walks are booked, not turned up to. The Overland Track in Tasmania has a booking system with a pass for its season, and bookings for the 2026-27 season opened on 7 July 2026, when the peak December to March period sold out by 2pm. In the Northern Territory, the Larapinta Trail and Jatbula Trail campsites are booked and paid online before you go, and fires are not allowed on the Larapinta Trail.", "Book the permit and the campsites before you buy the flights, and carry the confirmation where you can read it without signal."], ["Overland Track sells out within hours", "NT trails booked online first", "Confirmations offline"]),
+    section("A short safety checklist", ["Tell someone your route and when you expect to be back, and carry more water than the distance suggests. Download the map and the weather before you lose signal, take a paper map for remote walks and consider a personal locator beacon.", "Turn back if the weather, the light or your energy says so. Most rescues start with a walker who kept going."], ["Leave your route with someone", "Download maps at home", "Carry a locator beacon on remote tracks"]),
+  ],
+  sources: [
+    { label: "AllTrails", url: "https://www.alltrails.com/" },
+    { label: "ExplorOz Traveller", url: "https://www.exploroz.com/" },
+    { label: "NSW National Parks", url: "https://www.nationalparks.nsw.gov.au/" },
+    { label: "Queensland Government: Emergency+ app", url: "https://www.qld.gov.au/emergency/community/news/features/emergencyplus_app" },
+    { label: "Bureau of Meteorology", url: "https://www.bom.gov.au/" },
+    { label: "Parks and Wildlife Service Tasmania: Overland Track booking information", url: "https://parks.tas.gov.au/explore-our-parks/cradle-mountain/overland-track/overland-track-booking-information" },
+    { label: "Northern Territory Government: Larapinta Trail", url: "https://nt.gov.au/parks/find-a-park/tjoritja-west-macdonnell-national-park/larapinta-trail/about-larapinta-trail" },
+  ],
+});
