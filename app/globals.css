@@ -724,7 +724,7 @@ em { color: inherit; font: inherit; font-style: normal; }
 .pl-search-field input::-webkit-search-cancel-button { display: none; -webkit-appearance: none; }
 .pl-map { width: 100%; height: clamp(300px, 38vw, 460px); margin: 26px 0 0; background: #eeefec; border: 1px solid var(--line); overflow: hidden; }
 .pl-map-small { height: clamp(240px, 30vw, 320px); margin: 14px 0 16px; }
-.pl-map + .pl-search { margin-top: 24px; }
+.pl-map ~ .pl-search { margin-top: 24px; }
 .pl-map .maplibregl-ctrl-attrib { font-size: 10px; }
 .pl-block { margin-top: 44px; }
 .pl-block h2 { margin: 0 0 14px; font-size: 26px; letter-spacing: -0.015em; }
