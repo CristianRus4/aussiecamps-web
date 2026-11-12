@@ -51,14 +51,15 @@ export const placeStatePath = (state: { slug: string }) => sitePath(`/places/${s
 export const placePath = (place: Place) => sitePath(`/places/${place.stateSlug}/${place.slug}`);
 export const placeById = new Map(places.map((place) => [`${place.stateSlug}/${place.slug}`, place]));
 
-const km = (a: Place, b: Place) => {
+/** Great-circle distance between two places, in kilometres. */
+export const distanceKm = (a: Pick<Place, "lat" | "lng">, b: Pick<Place, "lat" | "lng">) => {
   const rad = Math.PI / 180, dLat = (b.lat - a.lat) * rad, dLng = (b.lng - a.lng) * rad;
   const h = Math.sin(dLat / 2) ** 2 + Math.cos(a.lat * rad) * Math.cos(b.lat * rad) * Math.sin(dLng / 2) ** 2;
   return 12742 * Math.asin(Math.sqrt(h));
 };
 /** The closest other pages, within 150 km, nearest first. */
 export function nearbyPlaces(place: Place, count = 6) {
-  return places.filter((other) => other !== place).map((other) => ({ place: other, km: km(place, other) }))
+  return places.filter((other) => other !== place).map((other) => ({ place: other, km: distanceKm(place, other) }))
     .filter((entry) => entry.km <= 150).sort((a, b) => a.km - b.km).slice(0, count);
 }
 

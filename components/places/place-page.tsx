@@ -9,8 +9,10 @@ import { SITE_URL } from "@/lib/site";
 import { uiStrings } from "@/lib/source-strings";
 import { feeLabel, nearbyPlaces, parkHubPath, photoUrl, placePath, placesPath, placeStatePath, stateHubPath, typeLabels, type Place } from "@/lib/places";
 import { placeQuestions, placeSummary } from "@/lib/places-copy";
+import { placeGuides, rulesGuideFor } from "@/lib/place-guides";
+import { LinkList } from "@/components/places/listing";
 import { appStoreUrl } from "@/lib/app-store";
-import { articles } from "@/lib/site";
+import { articles, getArticle, sitePath } from "@/lib/site";
 
 /**
  * One place page. Every part that has more in the app (description, facilities, fees) shows a little
@@ -38,8 +40,6 @@ function MapsButton({ place }: { place: Place }) {
   const apple = `https://maps.apple.com/?ll=${place.lat},${place.lng}&q=${encodeURIComponent(place.name)}`;
   return <a className="store-button pl-maps" href={google} data-apple-maps={apple} rel="nofollow noopener" target="_blank"><MapPin aria-hidden="true" /><span>Open in Maps</span></a>;
 }
-/** The state's camping rules guide, linked from every place in that state. */
-const rulesSlug: Record<string, string> = { ACT: "act", NSW: "new-south-wales", NT: "northern-territory", QLD: "queensland", SA: "south-australia", TAS: "tasmania", VIC: "victoria", WA: "western-australia" };
 const mapsScript = `(function(){if(/iPhone|iPad|iPod/.test(navigator.userAgent)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1)){document.querySelectorAll("[data-apple-maps]").forEach(function(a){a.href=a.getAttribute("data-apple-maps");});}})();`;
 
 export function PlacePage({ place }: { place: Place }) {
@@ -52,7 +52,8 @@ export function PlacePage({ place }: { place: Place }) {
   const fee = feeLabel(place.fee);
   const summary = placeSummary(place);
   const questions = placeQuestions(place);
-  const rulesGuide = articles.find((article) => article.slug === `camping-rules-${rulesSlug[place.state] ?? ""}`);
+  const rulesGuide = articles.find((article) => article.slug === rulesGuideFor(place.state));
+  const guides = placeGuides(place).flatMap((slug) => getArticle(slug) ?? []);
   const shown = place.photos.length >= 5 ? 5 : place.photos.length >= 3 ? 3 : place.photos.length;
   const morePhotos = place.photoCount - shown;
 
@@ -130,6 +131,7 @@ export function PlacePage({ place }: { place: Place }) {
                   <span><strong>{other.name}</strong><small>{typeLabels[other.type].one} · {km < 1 ? "under 1" : Math.round(km)} km</small></span>
                 </Link></li>)}</ul>
               </section>}
+              <LinkList title={`Guides for ${place.stateName}`} links={guides.map((guide) => ({ href: sitePath(`/guides/${guide.slug}`), label: guide.title }))} />
               {questions.length > 0 && <section className="pl-faq">
                 <h2>Questions about {place.name}</h2>
                 {questions.map((entry) => <details key={entry.question}><summary>{entry.question}<span aria-hidden="true">+</span></summary><p>{entry.answer}</p></details>)}

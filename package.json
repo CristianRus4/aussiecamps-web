@@ -31,6 +31,7 @@
     "hubs:source": "tsx scripts/build-hub-translation-source.mjs",
     "assets:check": "node scripts/check-assets.mjs",
     "smoke:live": "tsx scripts/smoke-live.mjs",
+    "links:report": "tsx scripts/report-guide-links.ts",
     "similarity:check": "node scripts/audit-article-similarity.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern pages-dist --ignore-pattern .next",
     "db:generate": "drizzle-kit generate",
