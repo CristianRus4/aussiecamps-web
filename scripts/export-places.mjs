@@ -117,6 +117,24 @@ const km = (a, b) => {
 };
 
 /**
+ * Whether a booking link still opens the park's booking page: BookEasy sends links of operators it no
+ * longer lists to its own sales page, and such a park gets no Book now button. Cached like the photos.
+ */
+async function bookable(url) {
+  const key = `booking:${url}`;
+  if (key in probes) return probes[key] === 1;
+  let ok = 0;
+  try {
+    const response = await fetch(url, { headers: { "user-agent": "Mozilla/5.0 (Macintosh) camping-site-builder" }, signal: AbortSignal.timeout(25000) });
+    ok = response.ok && !/solutions-for|\/operators\/?$/.test(response.url) ? 1 : 0;
+  } catch {
+    ok = 0;
+  }
+  probes[key] = ok;
+  return ok === 1;
+}
+
+/**
  * Whether a photo still loads, and how wide it is, from its first 64 KB: pages load photos straight
  * from their source, like the app, so a dead link would show as a broken image. Answers are cached
  * between runs in a gitignored file.
@@ -235,7 +253,7 @@ try {
       road: roadOf(entry.route?.road), vehicle: vehicleOf(entry.route?.vehicle), weather: weatherOf(entry.route?.weather),
       photos: files.map((photo) => photo.url), heroWidth: files[0].width, photoCount: entry.urls.length,
       credit: entry.credit,
-      booking: holidayPark ? site.Booking : null,
+      booking: holidayPark && await bookable(site.Booking) ? site.Booking : null,
       checkIn: clock(entry.live?.CheckIn), checkOut: clock(entry.live?.CheckOut), stars: entry.live?.StarRating || null,
     };
   });
