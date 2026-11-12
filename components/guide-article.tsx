@@ -1,8 +1,9 @@
+import { Fragment } from "react";
 import Link from "next/link";
 import { ArrowLeft, ArrowRight, CalendarDays, Clock, MapPin } from "lucide-react";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
-import { GuideEndCta, GuideMidCta, GuideSideCard, midSection } from "@/components/guide-cta";
+import { GuideEndCta, GuideMidCta, GuideSideCard, midAfter } from "@/components/guide-cta";
 import { IntroCta } from "@/components/intro-cta";
 import { guideIntroCta } from "@/lib/intro-cta";
 import { uiStrings } from "@/lib/source-strings";
@@ -24,7 +25,6 @@ export function GuideArticle({ item }: { item: Article }) {
   // A date Google can see on the page, matching the one in the Article schema.
   const dates = articleDates(item.slug);
   const placement = item.listicle ? "listicle" : "card";
-  const midIndex = midSection(item.sections);
   const introCta = guideIntroCta(item.slug, "en", true);
 
   return <>
@@ -66,11 +66,13 @@ export function GuideArticle({ item }: { item: Article }) {
               <span className="section-count">{String(index + 1).padStart(2, "0")}</span>
               <h2>{part.heading}</h2>
               {/* The only HTML here is the anchor linkProse inserted; the prose itself is escaped. */}
-              {linkProse(part.body, item.slug).map((paragraph, position) => <p key={part.body[position]} dangerouslySetInnerHTML={{ __html: paragraph }} />)}
+              {linkProse(part.body, item.slug).map((paragraph, position) => <Fragment key={part.body[position]}>
+                <p dangerouslySetInnerHTML={{ __html: paragraph }} />
+                {index === 0 && position === midAfter(part.body.length) && <GuideMidCta locale="en" placement={placement} label={uiStrings.download} eyebrow={uiStrings.heroKicker} title={uiStrings.processTitle} />}
+              </Fragment>)}
               {part.figure && <GuideFigure src={part.figure.src} alt={part.figure.alt} />}
               {part.table && <SectionTable table={part.table} />}
               {part.tips && <div className="article-tips"><strong>Keep in mind</strong><ul>{part.tips.map((tip) => <li key={tip}>{tip}</li>)}</ul></div>}
-              {index === midIndex && <GuideMidCta locale="en" placement={placement} label={uiStrings.download} eyebrow={uiStrings.heroKicker} title={uiStrings.processTitle} />}
             </section>)}
             {item.places.length > 0 && <section>
               <span className="section-count">MAP</span>

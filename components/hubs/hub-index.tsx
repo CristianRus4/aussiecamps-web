@@ -1,9 +1,9 @@
 import { GuideEndCta } from "@/components/guide-cta";
+import { PlaceMap } from "@/components/places/place-map";
 import { Crumbs, LinkList } from "@/components/places/listing";
 import { uiStrings } from "@/lib/source-strings";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
-import { HubMap } from "@/components/hubs/hub-map";
 import { mainData } from "@/lib/analytics";
 import { SITE_URL, sitePath } from "@/lib/site";
 import { hubPath, indexableParksOf, sectionCopy, sectionHubs, sectionPageKey, type HubSection } from "@/lib/hubs/pages";
@@ -31,7 +31,7 @@ export function HubIndex({ section }: { section: HubSection }) {
       <div className="pl-wrap pl-index">
         <Crumbs trail={[{ name: "Home", path: "/" }, { name: copy.label, path: sitePath(`/${section}`) }]} />
         <header className="pl-header"><h1>{copy.h1}</h1></header>
-        <HubMap state="AU" dots={hubs.flatMap((hub) => hub.dots)} label={copy.h1} />
+        <PlaceMap points={hubs.flatMap((hub) => hub.dots)} label={copy.h1} precision={1} />
         <LinkList title="By state" links={hubs.map((hub) => ({ href: hubPath(hub), label: hub.stateName }))} />
         <LinkList title="Parks with their own page" links={parks.map((hub) => ({ href: hubPath(hub), label: hub.name }))} />
         <GuideEndCta reuse={false} locale="en" placement="hub" label={uiStrings.download} eyebrow={uiStrings.takeRoad} title={uiStrings.savePlanTitle} text={uiStrings.savePlanText} />

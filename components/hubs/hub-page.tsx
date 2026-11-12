@@ -1,11 +1,11 @@
 import Link from "next/link";
+import { PlaceMap } from "@/components/places/place-map";
 import { ArrowRight } from "lucide-react";
 import { Header } from "@/components/header";
 import { GuideEndCta } from "@/components/guide-cta";
 import { Crumbs, LinkList } from "@/components/places/listing";
 import { uiStrings } from "@/lib/source-strings";
 import { Footer } from "@/components/footer";
-import { HubMap } from "@/components/hubs/hub-map";
 import { mainData } from "@/lib/analytics";
 import { SITE_URL, getArticle, sitePath } from "@/lib/site";
 import { hubData, type Hub } from "@/lib/hubs/gate";
@@ -71,7 +71,7 @@ export function HubPage({ hub }: { hub: Hub }) {
           {intro && <p className="pl-intro">{intro}</p>}
           {parkPage && <p className="pl-more"><Link href={placePath(parkPage)}>More about {parkPage.name}<ArrowRight aria-hidden="true" /></Link></p>}
         </header>
-        <HubMap state={hub.state} dots={hub.dots} label={hub.name} />
+        <PlaceMap points={hub.dots} label={hub.name} />
         {listed.length > 0 && <section className="pl-block">
           <h2>Places to camp in {where}</h2>
           <PlaceCards places={listed.slice(0, 5)} more={{ href: placeStatePath({ slug: hub.id.split("/")[1] }), label: `Explore all places in ${hub.stateName}` }} />

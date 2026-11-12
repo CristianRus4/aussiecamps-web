@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { PlaceMap } from "@/components/places/place-map";
 import { Images, MapPin, Star, StarHalf } from "lucide-react";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
@@ -119,6 +120,7 @@ export function PlacePage({ place }: { place: Place }) {
               <section>
                 <h2>Location</h2>
                 <p>{place.locality && `${place.locality}, `}{place.park && (parkHub ? <><Link href={parkHub}>{place.park}</Link>, </> : `${place.park}, `)}{stateHub ? <Link href={stateHub}>{place.stateName}</Link> : place.stateName}</p>
+                <PlaceMap points={nearby.map(({ place: other }) => [other.lng, other.lat] as [number, number])} focus={[place.lng, place.lat]} label={`${place.name} on the map`} precision={3} small />
                 <MapsButton place={place} />
               </section>
               {nearby.length > 0 && <section>

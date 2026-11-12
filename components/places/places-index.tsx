@@ -1,41 +1,27 @@
 import Link from "next/link";
-import { ArrowRight, SlidersHorizontal, Star } from "lucide-react";
+import { PlaceMap } from "@/components/places/place-map";
+import { ArrowRight, Star } from "lucide-react";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { GuideEndCta } from "@/components/guide-cta";
 import { Crumbs, LinkList } from "@/components/places/listing";
 import { mainData } from "@/lib/analytics";
-import { HubMap } from "@/components/hubs/hub-map";
 import { builtHubs } from "@/lib/hubs/gate";
 import { hubGuides } from "@/lib/hubs/regions";
 import { stateIntros } from "@/lib/hubs/state-intros";
 import { SITE_URL, getArticle, sitePath } from "@/lib/site";
 import { uiStrings } from "@/lib/source-strings";
-import { feeLabel, photoUrl, placePath, places, placesPath, placeStatePath, placeStates, placeTypes, stateHubPath, typeLabels, type Place, type PlaceState } from "@/lib/places";
+import { feeLabel, photoUrl, placePath, places, placesPath, placeStatePath, placeStates, placeTypes, typeLabels, type Place, type PlaceState } from "@/lib/places";
 
 const where = (place: Place) => place.park ?? place.locality ?? place.stateName;
 
-/**
- * The search box. Its filter button, inside the box at the trailing edge, shows the type buttons; the
- * page script filters the search results (directory) or the rows (state page) by text and `data-type`.
- */
+/** The search box; the page script filters the search results (directory) or the rows (state page). */
 function SearchBox({ placeholder, results = false }: { placeholder: string; results?: boolean }) {
   return <div className="pl-search">
     <div className="pl-search-field">
       <input id="pl-q" type="search" placeholder={placeholder} aria-label="Search places" autoComplete="off" />
-      <button type="button" className="pl-filter-toggle" aria-label="Filter by type" aria-expanded="false" aria-controls="pl-types"><SlidersHorizontal aria-hidden="true" /></button>
     </div>
-    <div id="pl-types" hidden><TypeFilter /></div>
     {results && <ul id="pl-results" className="pl-rows pl-results" hidden />}
-  </div>;
-}
-const toggleScript = `document.querySelectorAll(".pl-filter-toggle").forEach(function(b){b.addEventListener("mousedown",function(e){e.preventDefault();});b.addEventListener("click",function(){var p=document.getElementById(b.getAttribute("aria-controls")),open=b.getAttribute("aria-expanded")!=="true";b.setAttribute("aria-expanded",String(open));p.hidden=!open;});});`;
-
-/** The type buttons; the page script filters the rows (or the search results) by `data-type`. */
-function TypeFilter() {
-  return <div className="pl-types" role="group" aria-label="Type of place">
-    <button type="button" data-pl-type="" aria-pressed="true">All</button>
-    {placeTypes.map((type) => <button type="button" key={type} data-pl-type={type} aria-pressed="false">{typeLabels[type].many}</button>)}
   </div>;
 }
 
@@ -45,18 +31,18 @@ function TypeFilter() {
  * analytics and structured data.
  */
 function searchScript(index: [string, string, string, string, string, string][]) {
-  return `(function(){var d=${JSON.stringify(index)},q=document.getElementById("pl-q"),o=document.getElementById("pl-results"),t="",L=${JSON.stringify(Object.fromEntries(placeTypes.map((type) => [type, typeLabels[type].one])))};
+  return `(function(){var d=${JSON.stringify(index)},q=document.getElementById("pl-q"),o=document.getElementById("pl-results"),L=${JSON.stringify(Object.fromEntries(placeTypes.map((type) => [type, typeLabels[type].one])))};
 function n(s){return s.normalize("NFD").replace(/[\\u0300-\\u036f]/g,"").toLowerCase();}
-function r(){var v=n(q.value.trim());o.innerHTML="";if(!v&&!t){o.hidden=true;return;}var m=d.filter(function(p){return(!t||p[3]===t)&&(!v||n(p[0]+" "+p[4]+" "+p[2]).indexOf(v)>-1);});
+function r(){var v=n(q.value.trim());o.innerHTML="";if(!v){o.hidden=true;return;}var m=d.filter(function(p){return n(p[0]+" "+p[4]+" "+p[2]).indexOf(v)>-1;});
 o.hidden=false;if(!m.length){var e=document.createElement("li");e.className="pl-empty";e.textContent="No places match.";o.appendChild(e);return;}
 m.slice(0,100).forEach(function(p){var l=document.createElement("li"),a=document.createElement("a"),g=document.createElement("img"),s=document.createElement("strong"),i=document.createElement("small");a.href=p[1];g.src=p[5];g.alt="";g.loading="lazy";g.decoding="async";g.referrerPolicy="no-referrer";s.textContent=p[0];i.textContent=[L[p[3]],p[4],p[2]].filter(Boolean).join(" · ");var w=document.createElement("span");w.appendChild(s);w.appendChild(i);a.appendChild(g);a.appendChild(w);l.appendChild(a);o.appendChild(l);});}
-q.addEventListener("input",r);document.querySelectorAll("[data-pl-type]").forEach(function(b){b.addEventListener("click",function(){t=b.getAttribute("data-pl-type");document.querySelectorAll("[data-pl-type]").forEach(function(x){x.setAttribute("aria-pressed",String(x===b));});r();});});})();`;
+q.addEventListener("input",r);})();`;
 }
 
-/** A state page's search and type filter: hides the rows that do not match. */
-const filterScript = `(function(){var q=document.getElementById("pl-q"),t="";function n(s){return s.normalize("NFD").replace(/[\\u0300-\\u036f]/g,"").toLowerCase();}
-function r(){var v=n(q.value.trim());document.querySelectorAll(".pl-az li[data-type]").forEach(function(row){row.hidden=(!!t&&row.getAttribute("data-type")!==t)||(!!v&&n(row.textContent).indexOf(v)<0);});}
-q.addEventListener("input",r);document.querySelectorAll("[data-pl-type]").forEach(function(b){b.addEventListener("click",function(){t=b.getAttribute("data-pl-type");document.querySelectorAll("[data-pl-type]").forEach(function(x){x.setAttribute("aria-pressed",String(x===b));});r();});});})();`;
+/** A state page's search: hides the rows that do not match. */
+const filterScript = `(function(){var q=document.getElementById("pl-q");function n(s){return s.normalize("NFD").replace(/[\\u0300-\\u036f]/g,"").toLowerCase();}
+function r(){var v=n(q.value.trim());document.querySelectorAll(".pl-az li[data-type]").forEach(function(row){row.hidden=!!v&&n(row.textContent).indexOf(v)<0;});}
+q.addEventListener("input",r);})();`;
 
 export function PlacesDirectory() {
   const url = `${SITE_URL}${placesPath()}`;
@@ -76,6 +62,7 @@ export function PlacesDirectory() {
         <header className="pl-header">
           <h1>Campgrounds, holiday parks and national parks across Australia</h1>
         </header>
+        <PlaceMap points={places.map((place) => [place.lng, place.lat] as [number, number])} label="Places to camp" precision={1} />
         <SearchBox placeholder="Search by name, park or town" results />
         <section className="pl-states">
           <h2>By state</h2>
@@ -86,13 +73,12 @@ export function PlacesDirectory() {
     </main>
     <Footer pageKey="places" />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-    <script data-static-tools dangerouslySetInnerHTML={{ __html: searchScript(index) + toggleScript }} />
+    <script data-static-tools dangerouslySetInnerHTML={{ __html: searchScript(index) }} />
   </>;
 }
 
 export function PlacesState({ state }: { state: PlaceState }) {
   const url = `${SITE_URL}${placeStatePath(state)}`;
-  const hub = stateHubPath(state);
   const sorted = [...state.places].sort((a, b) => a.name.localeCompare(b.name));
   const stateHub = builtHubs.find((candidate) => candidate.id === `camping/${state.slug}`);
   const guides = stateHub ? hubGuides(stateHub.state, "camping", stateHub.rulesGuide).flatMap((slug) => getArticle(slug) ?? []) : [];
@@ -112,7 +98,7 @@ export function PlacesState({ state }: { state: PlaceState }) {
           <h1>Places to camp in {state.name}</h1>
           {stateIntros[state.code] && <p className="pl-intro">{stateIntros[state.code]}</p>}
         </header>
-        <HubMap state={state.code} dots={state.places.map((place) => [place.lng, place.lat] as [number, number])} label={`Places to camp in ${state.name}`} />
+        <PlaceMap points={state.places.map((place) => [place.lng, place.lat] as [number, number])} label={`Places to camp in ${state.name}`} />
         <SearchBox placeholder={`Search places in ${state.name}`} />
         <ul className="pl-rows pl-az">{sorted.map((place) => <li key={place.id} data-type={place.type}><Link href={placePath(place)}>
           <img src={photoUrl(place.photos[1] ?? place.photos[0])} alt="" loading="lazy" decoding="async" referrerPolicy="no-referrer" />
@@ -125,6 +111,6 @@ export function PlacesState({ state }: { state: PlaceState }) {
     </main>
     <Footer pageKey={`places:${state.slug}`} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-    <script data-static-tools dangerouslySetInnerHTML={{ __html: filterScript + toggleScript }} />
+    <script data-static-tools dangerouslySetInnerHTML={{ __html: filterScript }} />
   </>;
 }

@@ -1,9 +1,9 @@
 import { LocalizedFooter, LocalizedHeader } from "@/components/localized-site";
+import { PlaceMap } from "@/components/places/place-map";
 import { places } from "@/lib/places";
 import { PlaceCards } from "@/components/places/place-cards";
 import { GuideEndCta } from "@/components/guide-cta";
 import { Crumbs, LinkList } from "@/components/places/listing";
-import { HubMap } from "@/components/hubs/hub-map";
 import { mainData } from "@/lib/analytics";
 import { SITE_URL, sitePath } from "@/lib/site";
 import { englishFallback, htmlLang, localeRoot, type LocaleCode } from "@/lib/locales";
@@ -84,7 +84,7 @@ export function LocalizedHubPage({ hub, locale }: { hub: Hub; locale: LocaleCode
       <div className="pl-wrap pl-index">
         <Crumbs trail={crumbs} />
         <header className="pl-header"><h1>{name}</h1></header>
-        <HubMap state={hub.state} dots={hub.dots} label={name} />
+        <PlaceMap points={hub.dots} label={name} />
         {cards.length > 0 && <section className="pl-block">
           <h2>{many.charAt(0).toUpperCase()}{many.slice(1)}</h2>
           <PlaceCards places={cards} />
@@ -134,7 +134,7 @@ export function LocalizedHubIndex({ section, locale }: { section: HubSection; lo
       <div className="pl-wrap pl-index">
         <Crumbs trail={[{ name: t.common.home, path: sitePath(prefix || "/") }, { name: copy.label, path: localizedSectionPath(section, locale) }]} />
         <header className="pl-header"><h1>{copy.h1}</h1></header>
-        <HubMap state="AU" dots={hubs.flatMap((hub) => hub.dots)} label={copy.h1} />
+        <PlaceMap points={hubs.flatMap((hub) => hub.dots)} label={copy.h1} precision={1} />
         <LinkList title={t.common.byState} links={hubs.map((hub) => ({ href: localizedHubPath(hub, locale), label: localizedHubName(hub, t) }))} />
         <LinkList title={t.common.parksWithPage} links={parks.map((hub) => ({ href: localizedHubPath(hub, locale), label: hub.name }))} />
         <GuideEndCta reuse={false} locale={locale} placement="hub" label={ui.download} eyebrow={ui.takeRoad} title={ui.savePlanTitle} text={ui.savePlanText} />
