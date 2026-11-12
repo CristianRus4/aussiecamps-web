@@ -138,7 +138,6 @@ export function ToolPage({ tool, locale }: { tool: ToolKey; locale: "en" | Local
                 <p className="eyebrow">{common.ctaEyebrow}</p>
                 <h2>{copy.ctaTitle}</h2>
                 <p>{fillCounts(copy.ctaText, numberLocale)}</p>
-                <p className="tool-cta-note">{common.passNote} {common.iphoneOnly}</p>
               </div>
               <div className="download-card download-card-compact">
                 <a className="store-button" href={appStoreUrl({ placement: "tool", locale })} data-cta="tool" aria-label={`${ui.download}: AussieCamps`}><FaApple aria-hidden="true" /><span>{ui.download}</span></a>

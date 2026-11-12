@@ -49,7 +49,6 @@ export function HubIndex({ section }: { section: HubSection }) {
               <h2>Parks with their own page</h2>
               <ul>{parks.map((hub) => <li key={hub.id}><Link href={hubPath(hub)}>{hub.name}<span className="hub-count">{number(hub.placeCount)} campgrounds</span><ArrowRight /></Link></li>)}</ul>
             </section>}
-            <section className="hub-data-note"><p>Data as of {formatDataDate()}, from the AussieCamps app. Facts only, with the official page linked wherever the source gives one. <Link href="/credits/#data-sources">Data sources</Link>.</p></section>
           </div>
         </div>
       </article>

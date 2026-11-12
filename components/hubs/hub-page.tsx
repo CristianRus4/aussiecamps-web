@@ -13,11 +13,11 @@ import {
 } from "@/lib/hubs/pages";
 import { hubGuides, stateNotes } from "@/lib/hubs/regions";
 import { stateIntros } from "@/lib/hubs/state-intros";
-import { photoUrl, placePath, places, placeStatePath, typeLabels } from "@/lib/places";
+import { placePath, places, placeStatePath } from "@/lib/places";
+import { PlaceCards } from "@/components/places/place-cards";
 
 const number = (value: number) => new Intl.NumberFormat("en-AU").format(value);
 const norm = (value: string) => value.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
-const LISTED = 24;
 const plainIntro: Record<Hub["kind"], (where: string, state: string) => string> = {
   "camping-state": (where) => `Campgrounds, holiday parks and national parks in ${where}.`,
   "camping-park": (where, state) => `Campgrounds in ${where}, ${state}.`,
@@ -105,16 +105,9 @@ export function HubPage({ hub }: { hub: Hub }) {
         </div>
         <div className="article-layout hub-layout">
           <div className="article-body">
-            {listed.length > 0 ? <section className="hub-places">
+            {listed.length > 0 && <section className="hub-places">
               <h2>Places to camp in {where}</h2>
-              <ul className="pl-rows">{listed.slice(0, LISTED).map((place) => <li key={place.id}><Link href={placePath(place)}>
-                <img src={photoUrl(place.photos[1] ?? place.photos[0])} alt="" loading="lazy" decoding="async" referrerPolicy="no-referrer" />
-                <span><strong>{place.name}</strong><small>{typeLabels[place.type].one}{place.park && hub.kind !== "camping-park" ? ` · ${place.park}` : place.locality ? ` · ${place.locality}` : ""}</small></span>
-              </Link></li>)}</ul>
-              {hub.kind === "camping-state" && listed.length > LISTED && <p className="hub-more"><Link href={placeStatePath({ slug: hub.id.split("/")[1] })}>All {listed.length.toLocaleString("en-AU")} places in {hub.stateName}<ArrowRight /></Link></p>}
-            </section> : hub.places.length > 0 && <section className="hub-places">
-              <h2>{copy.many.charAt(0).toUpperCase()}{copy.many.slice(1)} in {where}</h2>
-              <ul className="pl-rows pl-rows-plain">{hub.places.map((place) => <li key={place.id}><span><strong>{place.name}</strong>{(place.locality ?? place.park) && <small>{place.locality ?? place.park}</small>}</span></li>)}</ul>
+              <PlaceCards places={listed.slice(0, 5)} more={{ href: placeStatePath({ slug: hub.id.split("/")[1] }), label: `Explore all places in ${hub.stateName}` }} />
             </section>}
             {children.length > 0 && <section className="sources">
               <h2>Parks in {hub.stateName} with their own page</h2>
@@ -148,15 +141,11 @@ export function HubPage({ hub }: { hub: Hub }) {
                 <p className="eyebrow">In the app</p>
                 <h2>{cta.title}</h2>
                 <p>{cta.text}</p>
-                <p className="tool-cta-note">Campgrounds, rest areas, dump points, water and the trip planner are part of the AussieCamps Pass. Bookable stays and tours are free to browse and book. AussieCamps is an iPhone app.</p>
               </div>
               <div className="download-card download-card-compact">
                 <a className="store-button" href={appStoreUrl({ placement: "hub", locale: "en" })} data-cta="hub" aria-label="Download AussieCamps for iOS"><FaApple aria-hidden="true" /><span>Download app</span></a>
               </div>
             </div>
-            <section className="hub-data-note">
-              <p><MapPin size={13} /> From the AussieCamps app, as of {formatDataDate()}. {attributions.map((source) => source.attribution).join(" ")} <Link href="/credits/#data-sources">All data sources</Link>.</p>
-            </section>
           </div>
         </div>
       </article>

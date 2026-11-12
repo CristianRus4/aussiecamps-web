@@ -2,7 +2,8 @@ import Link from "next/link";
 import { ArrowLeft, ArrowRight, MapPin } from "lucide-react";
 import { FaApple } from "react-icons/fa6";
 import { LocalizedFooter, LocalizedHeader } from "@/components/localized-site";
-import { placePath, places } from "@/lib/places";
+import { places } from "@/lib/places";
+import { PlaceCards } from "@/components/places/place-cards";
 import { HubMap } from "@/components/hubs/hub-map";
 import { mainData } from "@/lib/analytics";
 import { appStoreUrl } from "@/lib/app-store";
@@ -27,8 +28,8 @@ const hasPage = new Set(localizedHubs.map((hub) => hub.id));
  * the translation is not complete for this hub, the whole body is English and the page is noindex.
  * Place, park, agency and state names are data and stay as the source writes them.
  */
-/** The place page for a hub place, when the directory has one (place pages are in English). */
-const placeFor = (name: string, state: string) => places.find((place) => place.state === state && place.name === name);
+/** Five of the hub's places that have a page in the directory (place pages are in English). */
+const cardsFor = (names: string[], state: string) => places.filter((place) => place.state === state && names.includes(place.name)).sort((a, b) => b.photoCount - a.photoCount).slice(0, 5);
 
 export function LocalizedHubPage({ hub, locale }: { hub: Hub; locale: LocaleCode }) {
   const view = localizedHubView(locale, hub);
@@ -56,6 +57,7 @@ export function LocalizedHubPage({ hub, locale }: { hub: Hub; locale: LocaleCode
     { name: hub.kind === "camping-park" ? hub.name : hub.stateName, path: localizedHubPath(hub, locale) },
   ];
   const summary = localizedHubSummary(hub, view);
+  const cards = cardsFor(hub.places.map((place) => place.name), hub.state);
   const pageLang = translated ? htmlLang(locale) : htmlLang("en");
   const schema = {
     "@context": "https://schema.org",
@@ -95,9 +97,9 @@ export function LocalizedHubPage({ hub, locale }: { hub: Hub; locale: LocaleCode
         </div>
         <div className="article-layout hub-layout">
           <div className="article-body">
-            {hub.places.length > 0 && <section className="hub-places">
+            {cards.length > 0 && <section className="hub-places">
               <h2>{many.charAt(0).toUpperCase()}{many.slice(1)}</h2>
-              <ul className="pl-rows pl-rows-plain">{hub.places.map((place) => { const page = placeFor(place.name, hub.state); const label = <span><strong>{place.name}</strong>{(place.park ?? place.locality) && <small>{hub.kind === "camping-park" ? place.locality : place.park ?? place.locality}</small>}</span>; return <li key={place.id}>{page ? <Link href={placePath(page)}>{label}</Link> : label}</li>; })}</ul>
+              <PlaceCards places={cards} />
             </section>}
             {children.length > 0 && <section className="sources">
               <h2>{fill(t.common.parksTitle, { state: hub.stateName })}</h2>
@@ -131,15 +133,11 @@ export function LocalizedHubPage({ hub, locale }: { hub: Hub; locale: LocaleCode
                 <p className="eyebrow">{t.common.ctaEyebrow}</p>
                 <h2>{fill(copy.ctaTitle, { count: number(hub.placeCount), where })}</h2>
                 <p>{fill(copy.ctaText, { count: number(hub.placeCount) })}</p>
-                <p className="tool-cta-note">{t.common.ctaNote}</p>
               </div>
               <div className="download-card download-card-compact">
                 <a className="store-button" href={appStoreUrl({ placement: "hub", locale })} data-cta="hub" aria-label={t.common.downloadLabel}><FaApple aria-hidden="true" /><span>{t.common.download}</span></a>
               </div>
             </div>
-            <section className="hub-data-note">
-              <p><MapPin size={13} /> {fill(t.common.dataNote, { date: view.date })} {hubAttributions(hub).map((source) => source.attribution).join(" ")} <Link href="/credits/#data-sources">{t.common.allSources}</Link>.</p>
-            </section>
           </div>
         </div>
       </article>
@@ -188,7 +186,6 @@ export function LocalizedHubIndex({ section, locale }: { section: HubSection; lo
               <h2>{t.common.parksWithPage}</h2>
               <ul>{parks.map((hub) => <li key={hub.id}><Link href={localizedHubPath(hub, locale)}>{hub.name}<span className="hub-count">{fill(t.common.campgroundCount, { count: number(hub.placeCount) })}</span><ArrowRight /></Link></li>)}</ul>
             </section>}
-            <section className="hub-data-note"><p>{fill(t.common.indexDataNote, { date: view.date })} <Link href="/credits/#data-sources">{t.common.dataSources}</Link>.</p></section>
           </div>
         </div>
       </article>

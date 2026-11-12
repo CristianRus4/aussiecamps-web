@@ -133,7 +133,8 @@ export function PlacePage({ place }: { place: Place }) {
                 {questions.map((entry) => <details key={entry.question}><summary>{entry.question}<span aria-hidden="true">+</span></summary><p>{entry.answer}</p></details>)}
                 {rulesGuide && <p className="pl-rules">Read the <Link href={`/guides/${rulesGuide.slug}/`}>camping rules for {place.stateName}</Link> before you go.</p>}
               </section>}
-              <p className="pl-credit">Photos and description: {place.credit}.</p>
+              {/* The licence of these sources requires the credit; other sources and the booking feed get none. */}
+              {/CC BY/.test(place.credit) && <p className="pl-credit">© {place.credit}</p>}
               <GuideEndCta locale="en" placement="place" label={uiStrings.download} eyebrow={uiStrings.takeRoad} title={uiStrings.savePlanTitle} text={uiStrings.savePlanText} />
             </div>
             <aside><GuideSideCard locale="en" placement="place" label={uiStrings.download} eyebrow={uiStrings.downloadEyebrow} title={uiStrings.downloadTitle} /></aside>

@@ -1,15 +1,35 @@
 import Link from "next/link";
-import { ArrowRight, Star } from "lucide-react";
+import { ArrowRight, SlidersHorizontal, Star } from "lucide-react";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { GuideEndCta } from "@/components/guide-cta";
 import { mainData } from "@/lib/analytics";
-import { SITE_URL } from "@/lib/site";
+import { HubMap } from "@/components/hubs/hub-map";
+import { builtHubs } from "@/lib/hubs/gate";
+import { hubGuides } from "@/lib/hubs/regions";
+import { stateIntros } from "@/lib/hubs/state-intros";
+import { SITE_URL, getArticle, sitePath } from "@/lib/site";
 import { uiStrings } from "@/lib/source-strings";
 import { feeLabel, photoUrl, placePath, places, placesPath, placeStatePath, placeStates, placeTypes, stateHubPath, typeLabels, type Place, type PlaceState } from "@/lib/places";
 
 const where = (place: Place) => place.park ?? place.locality ?? place.stateName;
 const letterOf = (name: string) => { const first = name.normalize("NFD").replace(/\p{M}/gu, "").charAt(0).toUpperCase(); return /[A-Z]/.test(first) ? first : "#"; };
+
+/**
+ * The search box. Its filter button, inside the box at the trailing edge, shows the type buttons; the
+ * page script filters the search results (directory) or the rows (state page) by text and `data-type`.
+ */
+function SearchBox({ placeholder, results = false }: { placeholder: string; results?: boolean }) {
+  return <div className="pl-search">
+    <div className="pl-search-field">
+      <input id="pl-q" type="search" placeholder={placeholder} aria-label="Search places" autoComplete="off" />
+      <button type="button" className="pl-filter-toggle" aria-label="Filter by type" aria-expanded="false" aria-controls="pl-types"><SlidersHorizontal aria-hidden="true" /></button>
+    </div>
+    <div id="pl-types" hidden><TypeFilter /></div>
+    {results && <ul id="pl-results" className="pl-rows pl-results" hidden />}
+  </div>;
+}
+const toggleScript = `document.querySelectorAll(".pl-filter-toggle").forEach(function(b){b.addEventListener("click",function(){var p=document.getElementById(b.getAttribute("aria-controls")),open=b.getAttribute("aria-expanded")!=="true";b.setAttribute("aria-expanded",String(open));p.hidden=!open;});});`;
 
 /** The type buttons; the page script filters the rows (or the search results) by `data-type`. */
 function TypeFilter() {
@@ -33,10 +53,11 @@ m.slice(0,100).forEach(function(p){var l=document.createElement("li"),a=document
 q.addEventListener("input",r);document.querySelectorAll("[data-pl-type]").forEach(function(b){b.addEventListener("click",function(){t=b.getAttribute("data-pl-type");document.querySelectorAll("[data-pl-type]").forEach(function(x){x.setAttribute("aria-pressed",String(x===b));});r();});});})();`;
 }
 
-/** A state page's type filter: hides the rows of other types, and any letter left empty. */
-const filterScript = `(function(){var b=document.querySelectorAll("[data-pl-type]");b.forEach(function(x){x.addEventListener("click",function(){var t=x.getAttribute("data-pl-type");b.forEach(function(y){y.setAttribute("aria-pressed",String(y===x));});
-document.querySelectorAll(".pl-az li[data-type]").forEach(function(r){r.hidden=!!t&&r.getAttribute("data-type")!==t;});
-document.querySelectorAll(".pl-az section").forEach(function(s){s.hidden=!s.querySelector("li[data-type]:not([hidden])");});});});})();`;
+/** A state page's search and type filter: hides the rows that do not match, and any letter left empty. */
+const filterScript = `(function(){var q=document.getElementById("pl-q"),t="";function n(s){return s.normalize("NFD").replace(/[\\u0300-\\u036f]/g,"").toLowerCase();}
+function r(){var v=n(q.value.trim());document.querySelectorAll(".pl-az li[data-type]").forEach(function(row){row.hidden=(!!t&&row.getAttribute("data-type")!==t)||(!!v&&n(row.textContent).indexOf(v)<0);});
+document.querySelectorAll(".pl-az section").forEach(function(s){s.hidden=!s.querySelector("li[data-type]:not([hidden])");});}
+q.addEventListener("input",r);document.querySelectorAll("[data-pl-type]").forEach(function(b){b.addEventListener("click",function(){t=b.getAttribute("data-pl-type");document.querySelectorAll("[data-pl-type]").forEach(function(x){x.setAttribute("aria-pressed",String(x===b));});r();});});})();`;
 
 export function PlacesDirectory() {
   const url = `${SITE_URL}${placesPath()}`;
@@ -56,11 +77,7 @@ export function PlacesDirectory() {
           <p className="eyebrow">Places</p>
           <h1>Campgrounds, holiday parks and national parks across Australia</h1>
         </header>
-        <div className="pl-search">
-          <input id="pl-q" type="search" placeholder="Search by name, park or town" aria-label="Search places" autoComplete="off" />
-          <TypeFilter />
-          <ul id="pl-results" className="pl-rows pl-results" hidden />
-        </div>
+        <SearchBox placeholder="Search by name, park or town" results />
         <section className="pl-states">
           <h2>By state</h2>
           <ul>{placeStates.map((state) => <li key={state.slug}><Link href={placeStatePath(state)}><span>{state.name}</span><ArrowRight aria-hidden="true" /></Link></li>)}</ul>
@@ -70,7 +87,7 @@ export function PlacesDirectory() {
     </main>
     <Footer pageKey="places" />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-    <script data-static-tools dangerouslySetInnerHTML={{ __html: searchScript(index) }} />
+    <script data-static-tools dangerouslySetInnerHTML={{ __html: searchScript(index) + toggleScript }} />
   </>;
 }
 
@@ -79,6 +96,8 @@ export function PlacesState({ state }: { state: PlaceState }) {
   const hub = stateHubPath(state);
   const sorted = [...state.places].sort((a, b) => a.name.localeCompare(b.name));
   const letters = [...new Set(sorted.map((place) => letterOf(place.name)))];
+  const stateHub = builtHubs.find((candidate) => candidate.id === `camping/${state.slug}`);
+  const guides = stateHub ? hubGuides(stateHub.state, "camping", stateHub.rulesGuide).flatMap((slug) => getArticle(slug) ?? []) : [];
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -92,10 +111,11 @@ export function PlacesState({ state }: { state: PlaceState }) {
       <div className="pl-wrap pl-index">
         <nav className="pl-crumbs" aria-label="Breadcrumb"><Link href={placesPath()}>Places</Link>{hub && <><span aria-hidden="true">/</span><Link href={hub}>Camping in {state.name}</Link></>}</nav>
         <header className="pl-header">
-          <p className="eyebrow">Places · {state.name}</p>
-          <h1>Campgrounds, holiday parks and national parks in {state.name}</h1>
+          <h1>Places to camp in {state.name}</h1>
+          {stateIntros[state.code] && <p className="pl-intro">{stateIntros[state.code]}</p>}
         </header>
-        <TypeFilter />
+        <HubMap state={state.code} dots={state.places.map((place) => [place.lng, place.lat] as [number, number])} label={`Places to camp in ${state.name}`} />
+        <SearchBox placeholder={`Search places in ${state.name}`} />
         <nav className="pl-letters" aria-label="Jump to a letter">{letters.map((letter) => <a key={letter} href={`#${letter === "#" ? "other" : letter}`}>{letter}</a>)}</nav>
         <div className="pl-az">{letters.map((letter) => <section key={letter} id={letter === "#" ? "other" : letter}>
           <h2>{letter}</h2>
@@ -105,11 +125,15 @@ export function PlacesState({ state }: { state: PlaceState }) {
             {place.stars ? <em className="pl-row-tag"><Star aria-hidden="true" />{place.stars}</em> : feeLabel(place.fee) ? <em className="pl-row-tag">{feeLabel(place.fee)}</em> : null}
           </Link></li>)}</ul>
         </section>)}</div>
+        {guides.length > 0 && <section className="pl-guides">
+          <h2>Guides for {state.name}</h2>
+          <ul>{guides.map((guide) => <li key={guide.slug}><Link href={sitePath(`/guides/${guide.slug}`)}>{guide.title}<ArrowRight aria-hidden="true" /></Link></li>)}</ul>
+        </section>}
         <GuideEndCta reuse={false} locale="en" placement="place" label={uiStrings.download} eyebrow={uiStrings.takeRoad} title={`Every place in ${state.name}, on one map`} text="Filters, photos, fees and a trip planner for the whole route." />
       </div>
     </main>
     <Footer pageKey={`places:${state.slug}`} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-    <script data-static-tools dangerouslySetInnerHTML={{ __html: filterScript }} />
+    <script data-static-tools dangerouslySetInnerHTML={{ __html: filterScript + toggleScript }} />
   </>;
 }
