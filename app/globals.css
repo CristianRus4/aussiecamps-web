@@ -720,7 +720,6 @@ em { color: inherit; font: inherit; font-style: normal; }
 .pl-index { padding-bottom: 100px; }
 .pl-search { max-width: 760px; margin-bottom: 18px; }
 .pl-search-field { position: relative; }
-.pl-search-field input { padding-inline-end: 58px; }
 .pl-search-field input::-webkit-search-cancel-button { display: none; -webkit-appearance: none; }
 .pl-map { width: 100%; height: clamp(300px, 38vw, 460px); margin: 26px 0 0; background: #eeefec; border: 1px solid var(--line); overflow: hidden; }
 .pl-map-small { height: clamp(240px, 30vw, 320px); margin: 14px 0 16px; }
