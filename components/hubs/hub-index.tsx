@@ -1,13 +1,12 @@
-import Link from "next/link";
-import { ArrowLeft, ArrowRight } from "lucide-react";
+import { GuideEndCta } from "@/components/guide-cta";
+import { Crumbs, LinkList } from "@/components/places/listing";
+import { uiStrings } from "@/lib/source-strings";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
+import { HubMap } from "@/components/hubs/hub-map";
 import { mainData } from "@/lib/analytics";
 import { SITE_URL, sitePath } from "@/lib/site";
-import { hubData } from "@/lib/hubs/gate";
-import { formatDataDate, hubPath, indexableParksOf, sectionCopy, sectionHubs, sectionPageKey, type HubSection } from "@/lib/hubs/pages";
-
-const number = (value: number) => new Intl.NumberFormat("en-AU").format(value);
+import { hubPath, indexableParksOf, sectionCopy, sectionHubs, sectionPageKey, type HubSection } from "@/lib/hubs/pages";
 
 /**
  * The index for one hub type (/camping/, /dump-points/, /rest-areas/): the crawlable top of the
@@ -17,8 +16,6 @@ const number = (value: number) => new Intl.NumberFormat("en-AU").format(value);
 export function HubIndex({ section }: { section: HubSection }) {
   const copy = sectionCopy[section];
   const hubs = sectionHubs(section);
-  const linked = new Set(hubs.map((hub) => hub.id));
-  const unlinked = hubData.hubs.filter((hub) => hub.parent === null && hub.id.startsWith(`${section}/`) && !linked.has(hub.id) && hub.placeCount > 0);
   const parks = section === "camping" ? indexableParksOf() : [];
   const url = `${SITE_URL}${sitePath(`/${section}`)}`;
   const schema = {
@@ -31,27 +28,14 @@ export function HubIndex({ section }: { section: HubSection }) {
   return <>
     <Header />
     <main {...mainData({ kind: "hub", slug: section })}>
-      <article className="article-page hub-page">
-        <nav className="article-breadcrumb" aria-label="Breadcrumb"><Link href="/"><ArrowLeft />Home</Link><span>{copy.label}</span></nav>
-        <header className="article-header">
-          <p className="eyebrow">{copy.label} · Australia</p>
-          <h1>{copy.h1}</h1>
-          <p>{copy.intro}</p>
-        </header>
-        <div className="article-layout hub-layout">
-          <div className="article-body">
-            <section className="sources">
-              <h2>By state</h2>
-              <ul>{hubs.map((hub) => <li key={hub.id}><Link href={hubPath(hub)}>{hub.name}<span className="hub-count">{number(hub.placeCount)} {copy.many}</span><ArrowRight /></Link></li>)}</ul>
-              {unlinked.length > 0 && <p>The app also lists {unlinked.map((hub) => `${number(hub.placeCount)} in ${hub.stateName}`).join(", ")}. Those states are not covered in depth here yet; the app has every place.</p>}
-            </section>
-            {parks.length > 0 && <section className="sources">
-              <h2>Parks with their own page</h2>
-              <ul>{parks.map((hub) => <li key={hub.id}><Link href={hubPath(hub)}>{hub.name}<span className="hub-count">{number(hub.placeCount)} campgrounds</span><ArrowRight /></Link></li>)}</ul>
-            </section>}
-          </div>
-        </div>
-      </article>
+      <div className="pl-wrap pl-index">
+        <Crumbs trail={[{ name: "Home", path: "/" }, { name: copy.label, path: sitePath(`/${section}`) }]} />
+        <header className="pl-header"><h1>{copy.h1}</h1></header>
+        <HubMap state="AU" dots={hubs.flatMap((hub) => hub.dots)} label={copy.h1} />
+        <LinkList title="By state" links={hubs.map((hub) => ({ href: hubPath(hub), label: hub.stateName }))} />
+        <LinkList title="Parks with their own page" links={parks.map((hub) => ({ href: hubPath(hub), label: hub.name }))} />
+        <GuideEndCta reuse={false} locale="en" placement="hub" label={uiStrings.download} eyebrow={uiStrings.takeRoad} title={uiStrings.savePlanTitle} text={uiStrings.savePlanText} />
+      </div>
     </main>
     <Footer pageKey={sectionPageKey(section)} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, "\\u003c") }} />

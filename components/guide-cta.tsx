@@ -2,7 +2,7 @@ import { FaApple } from "react-icons/fa6";
 import { appStoreUrl, type CtaPlacement } from "@/lib/app-store";
 import { qrSvg } from "@/lib/qr";
 
-type Placement = Extract<CtaPlacement, "card" | "listicle" | "place">;
+type Placement = Extract<CtaPlacement, "card" | "listicle" | "place" | "hub">;
 type Copy = { locale: string; placement: Placement; label: string };
 
 /**

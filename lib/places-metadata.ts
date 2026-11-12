@@ -10,7 +10,6 @@ const og = (title: string, description: string, path: string, image?: string) =>
   type: "website" as const, siteName: "AussieCamps", locale: "en_AU", title, description, url: `${SITE_URL}${path}`,
   images: [image ? { url: image.startsWith("http") ? image : `${SITE_URL}${image}`, alt: title } : { ...homeOgImage, alt: "AussieCamps" }],
 });
-const clip = (text: string, limit = 155) => text.length <= limit ? text : `${text.slice(0, text.lastIndexOf(" ", limit - 1))}…`;
 
 export function placeMetadata(place: Place): Metadata {
   const type = typeLabels[place.type].one.toLowerCase();
@@ -27,7 +26,7 @@ export function placeMetadata(place: Place): Metadata {
 
 export function placeStateMetadata(state: PlaceState): Metadata {
   const title = `Campgrounds, holiday parks and national parks in ${state.name}`;
-  const description = `${state.places.length} places to camp and stay in ${state.name}, with photos, facilities, fees and holiday parks you can book.`;
+  const description = `Campgrounds, holiday parks and national parks in ${state.name}, with photos, facilities, fees and holiday parks you can book.`;
   return { title, description, alternates: { canonical: placeStatePath(state) }, openGraph: og(title, description, placeStatePath(state)), robots };
 }
 

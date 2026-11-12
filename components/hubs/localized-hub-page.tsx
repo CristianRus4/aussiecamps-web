@@ -1,17 +1,15 @@
-import Link from "next/link";
-import { ArrowLeft, ArrowRight, MapPin } from "lucide-react";
-import { FaApple } from "react-icons/fa6";
 import { LocalizedFooter, LocalizedHeader } from "@/components/localized-site";
 import { places } from "@/lib/places";
 import { PlaceCards } from "@/components/places/place-cards";
+import { GuideEndCta } from "@/components/guide-cta";
+import { Crumbs, LinkList } from "@/components/places/listing";
 import { HubMap } from "@/components/hubs/hub-map";
 import { mainData } from "@/lib/analytics";
-import { appStoreUrl } from "@/lib/app-store";
 import { SITE_URL, sitePath } from "@/lib/site";
 import { englishFallback, htmlLang, localeRoot, type LocaleCode } from "@/lib/locales";
-import { localizedArticles } from "@/lib/localized";
+import { getTranslation, localizedArticles } from "@/lib/localized";
 import { hubData, type Hub } from "@/lib/hubs/gate";
-import { hubAttributions, hubById, hubPageKey, indexableParksOf, neighbourHubs, sectionHubs, sectionOf, sectionPageKey, type HubSection } from "@/lib/hubs/pages";
+import { hubById, hubPageKey, indexableParksOf, neighbourHubs, sectionHubs, sectionOf, sectionPageKey, type HubSection } from "@/lib/hubs/pages";
 import { hubGuides, noteKeys, stateNotes } from "@/lib/hubs/regions";
 import { fill } from "@/lib/hubs/strings";
 import { localizedHref } from "@/lib/routes";
@@ -33,13 +31,12 @@ const cardsFor = (names: string[], state: string) => places.filter((place) => pl
 
 export function LocalizedHubPage({ hub, locale }: { hub: Hub; locale: LocaleCode }) {
   const view = localizedHubView(locale, hub);
-  const { strings: t, translated, number } = view;
+  const { strings: t, translated } = view;
   const section = sectionOf(hub.kind);
   const copy = t.sections[section];
   const prefix = localeRoot(locale);
   const url = `${SITE_URL}${localizedHubPath(hub, locale)}`;
   const name = localizedHubName(hub, t);
-  const where = hub.kind === "camping-park" ? hub.name : hub.stateName;
   const rules = localizedArticles(locale).find((article) => article.slug === hub.rulesGuide);
 
   const children = localizedHubs.filter((other) => other.parent === hub.id);
@@ -80,67 +77,34 @@ export function LocalizedHubPage({ hub, locale }: { hub: Hub; locale: LocaleCode
   };
   const many = hub.placeCount === 1 ? copy.one : copy.many;
 
+  const ui = getTranslation(locale);
   return <>
     <LocalizedHeader locale={locale} />
     <main {...mainData({ kind: "hub", locale, slug: hub.id })} {...(translated ? {} : englishFallback)}>
-      <article className="article-page hub-page">
-        <nav className="article-breadcrumb" aria-label="Breadcrumb">
-          <Link href={crumbs[crumbs.length - 2].path}><ArrowLeft />{crumbs[crumbs.length - 2].name}</Link>
-          <ol className="hub-trail">{crumbs.map((crumb, index) => <li key={crumb.path}>{index === crumbs.length - 1 ? <span aria-current="page">{crumb.name}</span> : <Link href={crumb.path}>{crumb.name}</Link>}</li>)}</ol>
-        </nav>
-        <header className="article-header">
-          <p className="eyebrow">{copy.label} · {hub.stateName}</p>
-          <h1>{name}</h1>
-        </header>
-        <div className="hub-overview">
-          <HubMap state={hub.state} dots={hub.dots} label={name} />
-        </div>
-        <div className="article-layout hub-layout">
-          <div className="article-body">
-            {cards.length > 0 && <section className="hub-places">
-              <h2>{many.charAt(0).toUpperCase()}{many.slice(1)}</h2>
-              <PlaceCards places={cards} />
-            </section>}
-            {children.length > 0 && <section className="sources">
-              <h2>{fill(t.common.parksTitle, { state: hub.stateName })}</h2>
-              <ul>{children.map((child) => <li key={child.id}><Link href={localizedHubPath(child, locale)}>{fill(t.common.parkItem, { name: child.name, count: number(child.placeCount) })}<ArrowRight /></Link></li>)}</ul>
-            </section>}
-            {notes && <section className="sources hub-notes">
-              <h2>{fill(t.common.notesTitle, { where: hub.stateName })}</h2>
-              <p>{t.notes[seasonKey]}</p>
-              <p>{t.notes[permitsKey]}</p>
-              <p>{t.common.notesSources}: {notes.sources.map((source, index) => <span key={source.url}>{index > 0 && ", "}<a href={source.url} rel="noopener">{source.name}</a></span>)}</p>
-            </section>}
-            {guides.length > 0 && <section className="sources">
-              <h2>{fill(t.common.guidesTitle, { where: hub.stateName })}</h2>
-              <ul>{guides.map((guide) => <li key={guide.slug}><Link href={localizedHref(locale, `/guides/${guide.slug}`)} data-guide={guide.slug}>{guide.title}<ArrowRight /></Link></li>)}</ul>
-            </section>}
-            {nearby.length > 0 && <section className="sources">
-              <h2>{hub.kind === "camping-park" ? fill(t.common.parksTitle, { state: hub.stateName }) : t.common.neighboursTitle}</h2>
-              <ul>{nearby.map((other) => <li key={other.id}><Link href={localizedHubPath(other, locale)}>{hub.kind === "camping-park" ? fill(t.common.parkItem, { name: other.name, count: number(other.placeCount) }) : localizedHubName(other, t)}<ArrowRight /></Link></li>)}</ul>
-            </section>}
-            <section className="sources">
-              <h2>{t.common.beforeTitle}</h2>
-              <p>{t.common.beforeText}</p>
-              <ul>
-                {rules && <li><Link href={localizedHref(locale, `/guides/${rules.slug}`)} data-guide={rules.slug}>{rules.title}<ArrowRight /></Link></li>}
-                {hub.officialUrl && <li><a href={hub.officialUrl}>{fill(t.common.officialParkPage, { name: hub.name })}<ArrowRight /></a></li>}
-                {related.map((other) => <li key={other.id}><Link href={localizedHubPath(other, locale)}>{localizedHubName(other, t)}<ArrowRight /></Link></li>)}
-              </ul>
-            </section>
-            <div className="article-end-cta hub-cta">
-              <div>
-                <p className="eyebrow">{t.common.ctaEyebrow}</p>
-                <h2>{fill(copy.ctaTitle, { count: number(hub.placeCount), where })}</h2>
-                <p>{fill(copy.ctaText, { count: number(hub.placeCount) })}</p>
-              </div>
-              <div className="download-card download-card-compact">
-                <a className="store-button" href={appStoreUrl({ placement: "hub", locale })} data-cta="hub" aria-label={t.common.downloadLabel}><FaApple aria-hidden="true" /><span>{t.common.download}</span></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </article>
+      <div className="pl-wrap pl-index">
+        <Crumbs trail={crumbs} />
+        <header className="pl-header"><h1>{name}</h1></header>
+        <HubMap state={hub.state} dots={hub.dots} label={name} />
+        {cards.length > 0 && <section className="pl-block">
+          <h2>{many.charAt(0).toUpperCase()}{many.slice(1)}</h2>
+          <PlaceCards places={cards} />
+        </section>}
+        <LinkList title={fill(t.common.parksTitle, { state: hub.stateName })} links={children.map((child) => ({ href: localizedHubPath(child, locale), label: child.name }))} />
+        {notes && <section className="pl-block pl-notes">
+          <h2>{fill(t.common.notesTitle, { where: hub.stateName })}</h2>
+          <p>{t.notes[seasonKey]}</p>
+          <p>{t.notes[permitsKey]}</p>
+          <p>{t.common.notesSources}: {notes.sources.map((source, index) => <span key={source.url}>{index > 0 && ", "}<a href={source.url} rel="noopener">{source.name}</a></span>)}</p>
+        </section>}
+        <LinkList title={fill(t.common.guidesTitle, { where: hub.stateName })} links={guides.map((guide) => ({ href: localizedHref(locale, `/guides/${guide.slug}`), label: guide.title }))} />
+        <LinkList title={hub.kind === "camping-park" ? fill(t.common.parksTitle, { state: hub.stateName }) : t.common.neighboursTitle} links={nearby.map((other) => ({ href: localizedHubPath(other, locale), label: hub.kind === "camping-park" ? other.name : localizedHubName(other, t) }))} />
+        <LinkList title={t.common.beforeTitle} links={[
+          ...(rules ? [{ href: localizedHref(locale, `/guides/${rules.slug}`), label: rules.title }] : []),
+          ...(hub.officialUrl ? [{ href: hub.officialUrl, label: fill(t.common.officialParkPage, { name: hub.name }), external: true }] : []),
+          ...related.map((other) => ({ href: localizedHubPath(other, locale), label: localizedHubName(other, t) })),
+        ]} />
+        <GuideEndCta reuse={false} locale={locale} placement="hub" label={ui.download} eyebrow={ui.takeRoad} title={ui.savePlanTitle} text={ui.savePlanText} />
+      </div>
     </main>
     <LocalizedFooter locale={locale} pageKey={hubPageKey(hub)} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, "\\u003c") }} />
@@ -150,11 +114,9 @@ export function LocalizedHubPage({ hub, locale }: { hub: Hub; locale: LocaleCode
 /** The index for one hub type in another language: the same lists as components/hubs/hub-index.tsx. */
 export function LocalizedHubIndex({ section, locale }: { section: HubSection; locale: LocaleCode }) {
   const view = localizedHubView(locale);
-  const { strings: t, translated, number } = view;
+  const { strings: t, translated } = view;
   const copy = t.sections[section];
   const hubs = sectionHubs(section);
-  const linked = new Set(hubs.map((hub) => hub.id));
-  const unlinked = hubData.hubs.filter((hub) => hub.parent === null && hub.id.startsWith(`${section}/`) && !linked.has(hub.id) && hub.placeCount > 0);
   const parks = section === "camping" ? indexableParksOf() : [];
   const prefix = localeRoot(locale);
   const url = `${SITE_URL}${localizedSectionPath(section, locale)}`;
@@ -165,30 +127,18 @@ export function LocalizedHubIndex({ section, locale }: { section: HubSection; lo
       { "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: t.common.home, item: `${SITE_URL}${sitePath(prefix || "/")}` }, { "@type": "ListItem", position: 2, name: copy.label, item: url }] },
     ],
   };
+  const ui = getTranslation(locale);
   return <>
     <LocalizedHeader locale={locale} />
     <main {...mainData({ kind: "hub", locale, slug: section })} {...(translated ? {} : englishFallback)}>
-      <article className="article-page hub-page">
-        <nav className="article-breadcrumb" aria-label="Breadcrumb"><Link href={sitePath(prefix || "/")}><ArrowLeft />{t.common.home}</Link><span>{copy.label}</span></nav>
-        <header className="article-header">
-          <p className="eyebrow">{copy.label} · {t.common.australia}</p>
-          <h1>{copy.h1}</h1>
-          <p>{copy.intro}</p>
-        </header>
-        <div className="article-layout hub-layout">
-          <div className="article-body">
-            <section className="sources">
-              <h2>{t.common.byState}</h2>
-              <ul>{hubs.map((hub) => <li key={hub.id}><Link href={localizedHubPath(hub, locale)}>{localizedHubName(hub, t)}<span className="hub-count">{number(hub.placeCount)} {copy.many}</span><ArrowRight /></Link></li>)}</ul>
-              {unlinked.length > 0 && <p>{fill(t.common.unlinked, { list: unlinked.map((hub) => fill(t.common.unlinkedItem, { count: number(hub.placeCount), state: hub.stateName })).join(", ") })}</p>}
-            </section>
-            {parks.length > 0 && <section className="sources">
-              <h2>{t.common.parksWithPage}</h2>
-              <ul>{parks.map((hub) => <li key={hub.id}><Link href={localizedHubPath(hub, locale)}>{hub.name}<span className="hub-count">{fill(t.common.campgroundCount, { count: number(hub.placeCount) })}</span><ArrowRight /></Link></li>)}</ul>
-            </section>}
-          </div>
-        </div>
-      </article>
+      <div className="pl-wrap pl-index">
+        <Crumbs trail={[{ name: t.common.home, path: sitePath(prefix || "/") }, { name: copy.label, path: localizedSectionPath(section, locale) }]} />
+        <header className="pl-header"><h1>{copy.h1}</h1></header>
+        <HubMap state="AU" dots={hubs.flatMap((hub) => hub.dots)} label={copy.h1} />
+        <LinkList title={t.common.byState} links={hubs.map((hub) => ({ href: localizedHubPath(hub, locale), label: localizedHubName(hub, t) }))} />
+        <LinkList title={t.common.parksWithPage} links={parks.map((hub) => ({ href: localizedHubPath(hub, locale), label: hub.name }))} />
+        <GuideEndCta reuse={false} locale={locale} placement="hub" label={ui.download} eyebrow={ui.takeRoad} title={ui.savePlanTitle} text={ui.savePlanText} />
+      </div>
     </main>
     <LocalizedFooter locale={locale} pageKey={sectionPageKey(section)} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, "\\u003c") }} />

@@ -3,6 +3,7 @@ import { ArrowRight, SlidersHorizontal, Star } from "lucide-react";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { GuideEndCta } from "@/components/guide-cta";
+import { Crumbs, LinkList } from "@/components/places/listing";
 import { mainData } from "@/lib/analytics";
 import { HubMap } from "@/components/hubs/hub-map";
 import { builtHubs } from "@/lib/hubs/gate";
@@ -13,7 +14,6 @@ import { uiStrings } from "@/lib/source-strings";
 import { feeLabel, photoUrl, placePath, places, placesPath, placeStatePath, placeStates, placeTypes, stateHubPath, typeLabels, type Place, type PlaceState } from "@/lib/places";
 
 const where = (place: Place) => place.park ?? place.locality ?? place.stateName;
-const letterOf = (name: string) => { const first = name.normalize("NFD").replace(/\p{M}/gu, "").charAt(0).toUpperCase(); return /[A-Z]/.test(first) ? first : "#"; };
 
 /**
  * The search box. Its filter button, inside the box at the trailing edge, shows the type buttons; the
@@ -29,7 +29,7 @@ function SearchBox({ placeholder, results = false }: { placeholder: string; resu
     {results && <ul id="pl-results" className="pl-rows pl-results" hidden />}
   </div>;
 }
-const toggleScript = `document.querySelectorAll(".pl-filter-toggle").forEach(function(b){b.addEventListener("click",function(){var p=document.getElementById(b.getAttribute("aria-controls")),open=b.getAttribute("aria-expanded")!=="true";b.setAttribute("aria-expanded",String(open));p.hidden=!open;});});`;
+const toggleScript = `document.querySelectorAll(".pl-filter-toggle").forEach(function(b){b.addEventListener("mousedown",function(e){e.preventDefault();});b.addEventListener("click",function(){var p=document.getElementById(b.getAttribute("aria-controls")),open=b.getAttribute("aria-expanded")!=="true";b.setAttribute("aria-expanded",String(open));p.hidden=!open;});});`;
 
 /** The type buttons; the page script filters the rows (or the search results) by `data-type`. */
 function TypeFilter() {
@@ -53,10 +53,9 @@ m.slice(0,100).forEach(function(p){var l=document.createElement("li"),a=document
 q.addEventListener("input",r);document.querySelectorAll("[data-pl-type]").forEach(function(b){b.addEventListener("click",function(){t=b.getAttribute("data-pl-type");document.querySelectorAll("[data-pl-type]").forEach(function(x){x.setAttribute("aria-pressed",String(x===b));});r();});});})();`;
 }
 
-/** A state page's search and type filter: hides the rows that do not match, and any letter left empty. */
+/** A state page's search and type filter: hides the rows that do not match. */
 const filterScript = `(function(){var q=document.getElementById("pl-q"),t="";function n(s){return s.normalize("NFD").replace(/[\\u0300-\\u036f]/g,"").toLowerCase();}
-function r(){var v=n(q.value.trim());document.querySelectorAll(".pl-az li[data-type]").forEach(function(row){row.hidden=(!!t&&row.getAttribute("data-type")!==t)||(!!v&&n(row.textContent).indexOf(v)<0);});
-document.querySelectorAll(".pl-az section").forEach(function(s){s.hidden=!s.querySelector("li[data-type]:not([hidden])");});}
+function r(){var v=n(q.value.trim());document.querySelectorAll(".pl-az li[data-type]").forEach(function(row){row.hidden=(!!t&&row.getAttribute("data-type")!==t)||(!!v&&n(row.textContent).indexOf(v)<0);});}
 q.addEventListener("input",r);document.querySelectorAll("[data-pl-type]").forEach(function(b){b.addEventListener("click",function(){t=b.getAttribute("data-pl-type");document.querySelectorAll("[data-pl-type]").forEach(function(x){x.setAttribute("aria-pressed",String(x===b));});r();});});})();`;
 
 export function PlacesDirectory() {
@@ -73,8 +72,8 @@ export function PlacesDirectory() {
     <Header />
     <main {...mainData({ kind: "places" })}>
       <div className="pl-wrap pl-index">
+        <Crumbs trail={[{ name: "Home", path: "/" }, { name: "Places", path: placesPath() }]} />
         <header className="pl-header">
-          <p className="eyebrow">Places</p>
           <h1>Campgrounds, holiday parks and national parks across Australia</h1>
         </header>
         <SearchBox placeholder="Search by name, park or town" results />
@@ -82,7 +81,7 @@ export function PlacesDirectory() {
           <h2>By state</h2>
           <ul>{placeStates.map((state) => <li key={state.slug}><Link href={placeStatePath(state)}><span>{state.name}</span><ArrowRight aria-hidden="true" /></Link></li>)}</ul>
         </section>
-        <GuideEndCta reuse={false} locale="en" placement="place" label={uiStrings.download} eyebrow={uiStrings.takeRoad} title="Every place, on one map" text="AussieCamps maps more than 74,000 places across Australia, with filters, photos, fees and a trip planner." />
+        <GuideEndCta reuse={false} locale="en" placement="place" label={uiStrings.download} eyebrow={uiStrings.takeRoad} title={uiStrings.savePlanTitle} text={uiStrings.savePlanText} />
       </div>
     </main>
     <Footer pageKey="places" />
@@ -95,7 +94,6 @@ export function PlacesState({ state }: { state: PlaceState }) {
   const url = `${SITE_URL}${placeStatePath(state)}`;
   const hub = stateHubPath(state);
   const sorted = [...state.places].sort((a, b) => a.name.localeCompare(b.name));
-  const letters = [...new Set(sorted.map((place) => letterOf(place.name)))];
   const stateHub = builtHubs.find((candidate) => candidate.id === `camping/${state.slug}`);
   const guides = stateHub ? hubGuides(stateHub.state, "camping", stateHub.rulesGuide).flatMap((slug) => getArticle(slug) ?? []) : [];
   const schema = {
@@ -109,27 +107,20 @@ export function PlacesState({ state }: { state: PlaceState }) {
     <Header />
     <main {...mainData({ kind: "places", slug: state.slug })}>
       <div className="pl-wrap pl-index">
-        <nav className="pl-crumbs" aria-label="Breadcrumb"><Link href={placesPath()}>Places</Link>{hub && <><span aria-hidden="true">/</span><Link href={hub}>Camping in {state.name}</Link></>}</nav>
+        <Crumbs trail={[{ name: "Home", path: "/" }, { name: "Places", path: placesPath() }, { name: state.name, path: placeStatePath(state) }]} />
         <header className="pl-header">
           <h1>Places to camp in {state.name}</h1>
           {stateIntros[state.code] && <p className="pl-intro">{stateIntros[state.code]}</p>}
         </header>
         <HubMap state={state.code} dots={state.places.map((place) => [place.lng, place.lat] as [number, number])} label={`Places to camp in ${state.name}`} />
         <SearchBox placeholder={`Search places in ${state.name}`} />
-        <nav className="pl-letters" aria-label="Jump to a letter">{letters.map((letter) => <a key={letter} href={`#${letter === "#" ? "other" : letter}`}>{letter}</a>)}</nav>
-        <div className="pl-az">{letters.map((letter) => <section key={letter} id={letter === "#" ? "other" : letter}>
-          <h2>{letter}</h2>
-          <ul className="pl-rows">{sorted.filter((place) => letterOf(place.name) === letter).map((place) => <li key={place.id} data-type={place.type}><Link href={placePath(place)}>
-            <img src={photoUrl(place.photos[1] ?? place.photos[0])} alt="" loading="lazy" decoding="async" referrerPolicy="no-referrer" />
-            <span><strong>{place.name}</strong><small>{typeLabels[place.type].one} · {where(place)}</small></span>
-            {place.stars ? <em className="pl-row-tag"><Star aria-hidden="true" />{place.stars}</em> : feeLabel(place.fee) ? <em className="pl-row-tag">{feeLabel(place.fee)}</em> : null}
-          </Link></li>)}</ul>
-        </section>)}</div>
-        {guides.length > 0 && <section className="pl-guides">
-          <h2>Guides for {state.name}</h2>
-          <ul>{guides.map((guide) => <li key={guide.slug}><Link href={sitePath(`/guides/${guide.slug}`)}>{guide.title}<ArrowRight aria-hidden="true" /></Link></li>)}</ul>
-        </section>}
-        <GuideEndCta reuse={false} locale="en" placement="place" label={uiStrings.download} eyebrow={uiStrings.takeRoad} title={`Every place in ${state.name}, on one map`} text="Filters, photos, fees and a trip planner for the whole route." />
+        <ul className="pl-rows pl-az">{sorted.map((place) => <li key={place.id} data-type={place.type}><Link href={placePath(place)}>
+          <img src={photoUrl(place.photos[1] ?? place.photos[0])} alt="" loading="lazy" decoding="async" referrerPolicy="no-referrer" />
+          <span><strong>{place.name}</strong><small>{typeLabels[place.type].one} · {where(place)}</small></span>
+          {place.stars ? <em className="pl-row-tag"><Star aria-hidden="true" />{place.stars}</em> : feeLabel(place.fee) ? <em className="pl-row-tag">{feeLabel(place.fee)}</em> : null}
+        </Link></li>)}</ul>
+        <LinkList title={`Guides for ${state.name}`} links={guides.map((guide) => ({ href: sitePath(`/guides/${guide.slug}`), label: guide.title }))} />
+        <GuideEndCta reuse={false} locale="en" placement="place" label={uiStrings.download} eyebrow={uiStrings.takeRoad} title={uiStrings.savePlanTitle} text={uiStrings.savePlanText} />
       </div>
     </main>
     <Footer pageKey={`places:${state.slug}`} />

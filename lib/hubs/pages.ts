@@ -4,6 +4,7 @@ import { SITE_URL, sitePath } from "../site";
 import { alternatesFor, homeOgImage } from "../seo";
 import { builtHubs, hubData, hubProse, hubVerdicts, indexableHubs, type Hub, type HubKind } from "./gate";
 import { neighbours } from "./regions";
+import { stateIntros } from "./state-intros";
 
 /**
  * Page-level facts about the hubs: their sections, titles, breadcrumbs and the routes they publish.
@@ -64,18 +65,12 @@ export function hubTitle(hub: Hub): string {
 }
 
 /** A plain sentence of the hub's own numbers, for the meta description and the page lede. */
+/** The page's description for search results and structured data: plain words, no counts or dates. */
 export function hubSummary(hub: Hub): string {
-  const fact = (key: string) => hub.facts.find((item) => item.key === key);
-  const shared = (key: string, words: string) => { const item = fact(key); return item?.share ? `${item.share}% ${words}` : null; };
-  const section = sectionCopy[sectionOf(hub.kind)];
-  const where = hub.kind === "camping-park" ? hub.name : hub.stateName;
-  const parts = hub.kind === "rest-areas-state"
-    ? [shared("with:toilets", "list toilets"), shared("with:drinking_water", "drinking water"), shared("with:heavy_vehicle_area", "a heavy vehicle area")]
-    : hub.kind === "dump-points-state"
-      ? [shared("with:dump_point_washout", "list a washout tap"), shared("with:drinking_water", "drinking water"), shared("with:toilets", "toilets")]
-      : [shared("with:toilets", "list toilets"), shared("with:drinking_water", "drinking water"), shared("with:showers", "showers")];
-  const listed = parts.filter(Boolean);
-  return `${count(hub.placeCount)} ${hub.placeCount === 1 ? section.one : section.many} in ${where}${listed.length ? `: ${listed.join(", ")}` : ""}. Names, localities, fees and facilities, with official links. Data as of ${formatDataDate()}.`;
+  const clip = (text: string) => (text.length <= 155 ? text : `${text.slice(0, text.lastIndexOf(" ", 154))}…`);
+  if (hub.kind === "camping-state" && stateIntros[hub.state]) return clip(stateIntros[hub.state]);
+  if (hub.kind === "camping-park") return clip(`Camping in ${hub.name}, ${hub.stateName}: its campgrounds with photos, facilities and fees, the season, permits and guides for the trip.`);
+  return clip(`Camping in ${hub.stateName}: campgrounds, holiday parks and national parks, with the season, permits and guides for the trip.`);
 }
 
 export function hubBreadcrumbs(hub: Hub): { name: string; path: string }[] {

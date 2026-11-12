@@ -9,7 +9,10 @@ const data = outline as unknown as Outline;
  * borders read correctly. No tiles, no script and no third-party request.
  */
 export function HubMap({ state, dots, label }: { state: string; dots: [number, number][]; label: string }) {
-  const [minLng, minLat, maxLng, maxLat] = data.bounds[state];
+  // "AU" draws the whole country, every state highlighted, for the index pages.
+  const all = state === "AU";
+  const boxes = Object.values(data.bounds);
+  const [minLng, minLat, maxLng, maxLat] = all ? [Math.min(...boxes.map((b) => b[0])), Math.min(...boxes.map((b) => b[1])), Math.max(...boxes.map((b) => b[2])), Math.max(...boxes.map((b) => b[3]))] : data.bounds[state];
   const padLng = (maxLng - minLng) * 0.06;
   const padLat = (maxLat - minLat) * 0.06;
   const west = minLng - padLng;
@@ -25,8 +28,8 @@ export function HubMap({ state, dots, label }: { state: string; dots: [number, n
   const radius = Math.max(4, Math.min(9, 900 / Math.sqrt(dots.length + 40)));
   return <figure className="hub-map">
     <svg viewBox={`0 0 ${width} ${height}`} role="img" aria-label={label} preserveAspectRatio="xMidYMid meet">
-      {Object.entries(data.states).filter(([code]) => code !== state).map(([code, rings]) => <path key={code} d={path(rings)} className="hub-map-other" />)}
-      <path d={path(data.states[state])} className="hub-map-state" />
+      {Object.entries(data.states).filter(([code]) => all || code !== state).map(([code, rings]) => <path key={code} d={path(rings)} className={all ? "hub-map-state" : "hub-map-other"} />)}
+      {!all && <path d={path(data.states[state])} className="hub-map-state" />}
       <path d={dotPath} className="hub-map-dots" strokeWidth={radius} />
     </svg>
     <figcaption>{label}</figcaption>
