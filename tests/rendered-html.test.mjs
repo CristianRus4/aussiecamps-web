@@ -10,6 +10,7 @@ import { allArticles, articles, categories, isScheduled } from "../lib/site.ts";
 import { liveLocales, localeCodes, localeEntry } from "../lib/locales.ts";
 import { introCtaStrings } from "../lib/source-strings.ts";
 import { guideIntroCta, splitIntroCta } from "../lib/intro-cta.ts";
+import { retiredHubRedirects } from "../lib/hubs/retired.ts";
 
 /** Live locales, from lib/locales.json: the only list of languages anywhere in the code. */
 const locales = liveLocales;
@@ -490,7 +491,7 @@ test("no locale list is hardcoded outside the registry", async () => {
 test("the route manifest and the export are the same set of pages", async () => {
   const { exportRoutes } = await import("../lib/routes.ts");
   const manifest = new Set(exportRoutes().map((route) => route.path));
-  const exported = new Set((await exportedPages()).map((page) => page.route).filter((route) => !["/404.html", "/download/"].includes(route)));
+  const exported = new Set((await exportedPages()).map((page) => page.route).filter((route) => !["/404.html", "/download/", ...retiredHubRedirects().map((entry) => entry.from)].includes(route)));
   for (const path of manifest) if (!/\.(xml|txt)$/.test(path)) assert.ok(exported.has(path), `${path} is in the manifest but was not exported`);
   for (const path of exported) assert.ok(manifest.has(path), `${path} was exported but is not in the manifest`);
   for (const path of ["/robots.txt", "/sitemap.xml", "/llms.txt", "/sitemaps/en.xml"]) await readFile(new URL(`../pages-dist${path}`, import.meta.url));

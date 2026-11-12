@@ -9,11 +9,21 @@ import { appStoreUrl } from "@/lib/app-store";
 import { SITE_URL, getArticle, sitePath } from "@/lib/site";
 import { hubData, type Hub } from "@/lib/hubs/gate";
 import {
-  childHubs, formatDataDate, hubAttributions, hubBreadcrumbs, hubPageKey, hubPath, hubSummary, neighbourHubs, proseFor, relatedHubs, sectionCopy, sectionOf,
+  childHubs, formatDataDate, hubAttributions, hubBreadcrumbs, hubPageKey, hubPath, hubSummary, neighbourHubs, relatedHubs, sectionCopy, sectionOf,
 } from "@/lib/hubs/pages";
 import { hubGuides, stateNotes } from "@/lib/hubs/regions";
+import { stateIntros } from "@/lib/hubs/state-intros";
+import { photoUrl, placePath, places, placeStatePath, typeLabels } from "@/lib/places";
 
 const number = (value: number) => new Intl.NumberFormat("en-AU").format(value);
+const norm = (value: string) => value.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+const LISTED = 24;
+const plainIntro: Record<Hub["kind"], (where: string, state: string) => string> = {
+  "camping-state": (where) => `Campgrounds, holiday parks and national parks in ${where}.`,
+  "camping-park": (where, state) => `Campgrounds in ${where}, ${state}.`,
+  "dump-points-state": (where) => `Dump points across ${where}, on one map.`,
+  "rest-areas-state": (where) => `Rest areas across ${where}, on one map.`,
+};
 
 /** What the Pass covers, said plainly per hub type. Never promises free access to Pass data. */
 const ctaCopy = {
@@ -41,7 +51,6 @@ export function HubPage({ hub }: { hub: Hub }) {
   const copy = sectionCopy[section];
   const url = `${SITE_URL}${hubPath(hub)}`;
   const where = hub.kind === "camping-park" ? hub.name : hub.name.replace(/^(Camping|Dump points|Rest areas) in /, "");
-  const prose = proseFor(hub);
   const rules = getArticle(hub.rulesGuide);
   const children = childHubs(hub);
   const related = relatedHubs(hub);
@@ -49,9 +58,14 @@ export function HubPage({ hub }: { hub: Hub }) {
   const guides = hubGuides(hub.state, section, hub.rulesGuide).flatMap((slug) => getArticle(slug) ?? []);
   const nearby = neighbourHubs(hub);
   const crumbs = hubBreadcrumbs(hub);
-  const showLinks = hub.places.some((place) => place.url);
   const cta = ctaCopy[section](hub.placeCount, where);
   const attributions = hubAttributions(hub);
+  // The places with their own page: every place in the state for a state hub, the park's campgrounds for
+  // a park hub. The page shows a map, a few plain sentences and these places; no counts or shares.
+  const statePlaces = places.filter((place) => place.state === hub.state);
+  const parkPage = hub.kind === "camping-park" ? statePlaces.find((place) => place.type !== "campground" && place.type !== "holiday_park" && norm(place.name) === norm(hub.name)) : undefined;
+  const listed = section !== "camping" ? [] : hub.kind === "camping-park" ? statePlaces.filter((place) => place.park && norm(place.park) === norm(hub.name)) : [...statePlaces].sort((a, b) => b.photoCount - a.photoCount || a.name.localeCompare(b.name));
+  const intro = hub.kind === "camping-state" ? stateIntros[hub.state] : parkPage?.description ?? plainIntro[hub.kind](where, hub.stateName);
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -83,47 +97,28 @@ export function HubPage({ hub }: { hub: Hub }) {
         <header className="article-header">
           <p className="eyebrow">{copy.label} · {hub.stateName}</p>
           <h1>{hub.name}</h1>
-          <p>{hubSummary(hub)}</p>
+          <p>{intro}</p>
+          {parkPage && <p className="hub-more"><Link href={placePath(parkPage)}>More about {parkPage.name}<ArrowRight /></Link></p>}
         </header>
         <div className="hub-overview">
-          <HubMap state={hub.state} dots={hub.dots} label={`${number(hub.placeCount)} ${hub.placeCount === 1 ? copy.one : copy.many} in ${where}, one dot each.`} />
-          <div className="price-table-wrap hub-facts">
-            <table className="price-table">
-              <caption>What the data lists for {where}</caption>
-              <tbody>{hub.facts.map((fact) => <tr key={fact.key}>
-                <th scope="row">{fact.label}</th>
-                <td>{typeof fact.value === "number" ? number(fact.value) : fact.value}{fact.share !== undefined && <span className="hub-share"> ({fact.share}%)</span>}</td>
-              </tr>)}</tbody>
-            </table>
-          </div>
+          <HubMap state={hub.state} dots={hub.dots} label={`${copy.many.charAt(0).toUpperCase()}${copy.many.slice(1)} in ${where}`} />
         </div>
         <div className="article-layout hub-layout">
           <div className="article-body">
-            {prose.length > 0 && <section className="hub-prose">
-              <span className="section-count">01</span>
-              <h2>Reading the numbers</h2>
-              {prose.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+            {listed.length > 0 ? <section className="hub-places">
+              <h2>Places to camp in {where}</h2>
+              <ul className="pl-rows">{listed.slice(0, LISTED).map((place) => <li key={place.id}><Link href={placePath(place)}>
+                <img src={photoUrl(place.photos[1] ?? place.photos[0])} alt="" loading="lazy" decoding="async" referrerPolicy="no-referrer" />
+                <span><strong>{place.name}</strong><small>{typeLabels[place.type].one}{place.park && hub.kind !== "camping-park" ? ` · ${place.park}` : place.locality ? ` · ${place.locality}` : ""}</small></span>
+              </Link></li>)}</ul>
+              {hub.kind === "camping-state" && listed.length > LISTED && <p className="hub-more"><Link href={placeStatePath({ slug: hub.id.split("/")[1] })}>All {listed.length.toLocaleString("en-AU")} places in {hub.stateName}<ArrowRight /></Link></p>}
+            </section> : hub.places.length > 0 && <section className="hub-places">
+              <h2>{copy.many.charAt(0).toUpperCase()}{copy.many.slice(1)} in {where}</h2>
+              <ul className="pl-rows pl-rows-plain">{hub.places.map((place) => <li key={place.id}><span><strong>{place.name}</strong>{(place.locality ?? place.park) && <small>{place.locality ?? place.park}</small>}</span></li>)}</ul>
             </section>}
-            <section className="hub-places">
-              <span className="section-count">{prose.length ? "02" : "01"}</span>
-              <h2>{hub.places.length < hub.placeCount ? `${hub.places.length} of the ${number(hub.placeCount)} ${copy.many}` : `The ${number(hub.placeCount)} ${copy.many}`}</h2>
-              <p>{hub.places.length < hub.placeCount ? `These are the ${hub.places.length} with the most detail in the data. ` : ""}Facilities are what each source lists; a facility not listed may still exist, and conditions change. Check the official page before you go.</p>
-              <div className="price-table-wrap">
-                <table className="price-table hub-places-table">
-                  <thead><tr><th scope="col">Place</th><th scope="col">{hub.kind.startsWith("camping") ? "Park or locality" : "Locality"}</th><th scope="col">Fees</th><th scope="col">Facilities listed</th>{showLinks && <th scope="col">Official page</th>}</tr></thead>
-                  <tbody>{hub.places.map((place) => <tr key={place.id}>
-                    <th scope="row">{place.name}</th>
-                    <td>{(hub.kind === "camping-park" ? place.locality : place.park ?? place.locality) ?? ""}</td>
-                    <td>{place.fee ?? "Not listed"}</td>
-                    <td>{place.facilities.length ? place.facilities.join(", ") : "None listed"}</td>
-                    {showLinks && <td>{place.url ? <a href={place.url} rel="noopener">Official page</a> : ""}</td>}
-                  </tr>)}</tbody>
-                </table>
-              </div>
-            </section>
             {children.length > 0 && <section className="sources">
               <h2>Parks in {hub.stateName} with their own page</h2>
-              <ul>{children.map((child) => <li key={child.id}><Link href={hubPath(child)}>{child.name} ({number(child.placeCount)} campgrounds)<ArrowRight /></Link></li>)}</ul>
+              <ul>{children.map((child) => <li key={child.id}><Link href={hubPath(child)}>{child.name}<ArrowRight /></Link></li>)}</ul>
             </section>}
             {notes && <section className="sources hub-notes">
               <h2>Season and permits in {hub.stateName}</h2>
@@ -137,7 +132,7 @@ export function HubPage({ hub }: { hub: Hub }) {
             </section>}
             {nearby.length > 0 && <section className="sources">
               <h2>{hub.kind === "camping-park" ? `Parks in ${hub.stateName} with their own page` : "Neighbouring states"}</h2>
-              <ul>{nearby.map((other) => <li key={other.id}><Link href={hubPath(other)}>{hub.kind === "camping-park" ? `${other.name} (${number(other.placeCount)} campgrounds)` : other.name}<ArrowRight /></Link></li>)}</ul>
+              <ul>{nearby.map((other) => <li key={other.id}><Link href={hubPath(other)}>{other.name}<ArrowRight /></Link></li>)}</ul>
             </section>}
             <section className="sources">
               <h2>Before you go</h2>
@@ -160,7 +155,7 @@ export function HubPage({ hub }: { hub: Hub }) {
               </div>
             </div>
             <section className="hub-data-note">
-              <p><MapPin size={13} /> Data as of {formatDataDate()}, from the AussieCamps app. Facts only: no descriptions or photos from these sources are reproduced. {attributions.map((source) => source.attribution).join(" ")} <Link href="/credits/#data-sources">All data sources</Link>.</p>
+              <p><MapPin size={13} /> From the AussieCamps app, as of {formatDataDate()}. {attributions.map((source) => source.attribution).join(" ")} <Link href="/credits/#data-sources">All data sources</Link>.</p>
             </section>
           </div>
         </div>

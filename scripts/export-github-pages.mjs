@@ -2,9 +2,10 @@ import assert from "node:assert/strict";
 import { access, cp, mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
-import { APP_STORE_URL } from "../lib/site.ts";
+import { APP_STORE_URL, SITE_URL } from "../lib/site.ts";
 import { appStoreUrl } from "../lib/app-store.ts";
 import { exportRoutes } from "../lib/routes.ts";
+import { retiredHubRedirects } from "../lib/hubs/retired.ts";
 import { htmlLang, textDirection } from "../lib/locales.ts";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
@@ -102,6 +103,25 @@ await writeFile(resolve(output, "download/index.html"), `<!doctype html>
 <body><p>Opening the App Store. <a href="${downloadUrl}" data-cta="dl">Continue to ${siteName} on the App Store</a>.</p></body>
 </html>
 `);
+
+// Retired hubs (lib/hubs/retired.ts): their URLs were live, so each still answers, sending the reader
+// on to the state's camping hub; noindex, with a canonical to the new page.
+if (!only) for (const { from, to, locale } of retiredHubRedirects()) {
+  const target = `${SITE_URL}${to}`;
+  await mkdir(resolve(output, from.slice(1)), { recursive: true });
+  await writeFile(resolve(output, from.slice(1), "index.html"), `<!doctype html>
+<html lang="${htmlLang(locale)}" dir="${textDirection(locale)}">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, follow">
+<meta http-equiv="refresh" content="0; url=${to}">
+<link rel="canonical" href="${target}">
+<title>${siteName}</title>
+</head>
+<body><p><a href="${to}">Continue to ${siteName}</a>.</p></body>
+</html>
+`);
+}
 
 await writeFile(resolve(output, ".nojekyll"), "");
 // GitHub Pages uses this file for unknown paths. Keep it a real 404 page rather than copying the

@@ -1,5 +1,5 @@
 import { hubTranslationFiles } from "../translations/hubs/index";
-import { hubData, hubProse, hubVerdicts, type Hub } from "./gate";
+import { hubData, hubProse, hubVerdicts, type Hub, publishedKind } from "./gate";
 import { noteKeys, noteSource } from "./regions";
 
 /**
@@ -129,7 +129,7 @@ export const summaryShares: Record<keyof typeof sections, { fact: string; key: s
 };
 
 /** Hubs whose English page is indexable: the only ones a translator is asked for. */
-export const translatableHubs = hubData.hubs.filter((hub) => hubVerdicts.get(hub.id)!.indexable);
+export const translatableHubs = hubData.hubs.filter((hub) => publishedKind(hub.kind) && hubVerdicts.get(hub.id)!.indexable);
 
 const labelsOf = (hubs: Hub[]) => {
   const facts: Record<string, string> = {};
