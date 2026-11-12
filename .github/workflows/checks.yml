@@ -23,3 +23,5 @@ jobs:
       - run: npm run check
         env:
           NODE_OPTIONS: --max-old-space-size=6144
+          # Decrypts the place pages' data (scripts/decrypt-places.mjs); this repository is public.
+          PLACES_KEY: ${{ secrets.PLACES_KEY }}

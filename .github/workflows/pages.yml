@@ -39,6 +39,8 @@ jobs:
       - run: npm run deploy:gate
         env:
           NODE_OPTIONS: --max-old-space-size=6144
+          # Decrypts the place pages' data (scripts/decrypt-places.mjs); this repository is public.
+          PLACES_KEY: ${{ secrets.PLACES_KEY }}
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

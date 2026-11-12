@@ -12,7 +12,7 @@ export function Header() {
         <Link href="/" className="brand-link"><BrandMark /></Link>
         <nav className="desktop-nav" aria-label="Main navigation">
           <Link href="/#features">Features</Link>
-          <Link href="/guides/">Guides</Link>
+          <Link href="/places/">Places</Link><Link href="/guides/">Guides</Link>
           <Link href="/tools/">Tools</Link>
           <Link href="/support/">Support</Link>
         </nav>
@@ -22,7 +22,7 @@ export function Header() {
           <summary aria-label="Open menu"><Menu size={22} /></summary>
           <nav aria-label="Mobile navigation">
             <Link href="/#features">Features</Link>
-            <Link href="/guides/">Guides</Link>
+            <Link href="/places/">Places</Link><Link href="/guides/">Guides</Link>
             <Link href="/tools/">Tools</Link>
             <Link href="/support/">Support</Link>
             <a href={store} data-cta="hdr">Download app</a>

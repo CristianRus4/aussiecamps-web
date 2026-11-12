@@ -5,6 +5,7 @@ import { guideRoutes } from "@/lib/routes/guides";
 import { crawlerRoutes } from "@/lib/routes/crawlers";
 import { toolRoutes } from "@/lib/routes/tools";
 import { hubRoutes } from "@/lib/routes/hubs";
+import { placeRoutes } from "@/lib/routes/places";
 
 /**
  * Every URL the site publishes, in one list.
@@ -31,7 +32,7 @@ import { hubRoutes } from "@/lib/routes/hubs";
  */
 export type RouteKind =
   | "home" | "guides" | "guide" | "tools" | "support" | "privacy" | "terms" | "credits"
-  | "tool" | "hub" | "crawler";
+  | "tool" | "hub" | "place" | "places" | "crawler";
 export type ExportRoute = {
   path: string;
   locale: "en" | LocaleCode;
@@ -47,6 +48,7 @@ const features: (() => ExportRoute[])[] = [
   crawlerRoutes,
   toolRoutes,
   hubRoutes,
+  placeRoutes,
 ];
 
 let cache: ExportRoute[] | undefined;

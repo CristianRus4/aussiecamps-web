@@ -334,7 +334,7 @@ test("every guide, in every language, has the side box and the dark end box with
 });
 
 test("every page labels its <main> for analytics", async () => {
-  const kinds = ["home", "guide", "guides", "tools", "support", "legal", "hub", "tool"];
+  const kinds = ["home", "guide", "guides", "tools", "support", "legal", "hub", "tool", "place", "places"];
   for (const { name, html, locale, route } of await exportedPages()) {
     if (!hasMain(html) || name === "404.html") continue;
     const main = html.match(/<main\b[^>]*>/)[0];

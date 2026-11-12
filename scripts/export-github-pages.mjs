@@ -18,7 +18,9 @@ const basePath = (process.env.PAGES_BASE_PATH ?? "").replace(/\/$/, "");
 // Every published URL comes from the route manifest (lib/routes.ts), the same list the sitemaps,
 // hreflang and generateStaticParams use. A route whose path ends in a file name is written as that
 // file; every other route is a directory with an index.html.
-const routes = exportRoutes();
+// PAGES_ONLY=/places,/ exports just the routes under those prefixes, for a quick local preview.
+const only = process.env.PAGES_ONLY?.split(",").filter(Boolean);
+const routes = exportRoutes().filter((route) => !only || only.some((prefix) => prefix === "/" ? route.path === "/" : route.path.startsWith(prefix)));
 const isFile = (path) => /\.[a-z0-9]+$/i.test(path);
 const htmlRoutes = routes.filter((route) => !isFile(route.path) || route.path.endsWith(".html"));
 const textRoutes = routes.filter((route) => isFile(route.path) && !route.path.endsWith(".html"));
@@ -136,7 +138,7 @@ function localTarget(reference) {
 for (const [route, html] of exportedHtml) {
   for (const match of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
     const target = localTarget(match[1]);
-    if (target) await access(target).catch(() => assert.fail(`${route} links to missing ${match[1]}`));
+    if (target && !only) await access(target).catch(() => assert.fail(`${route} links to missing ${match[1]}`));
   }
 }
 
