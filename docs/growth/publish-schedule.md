@@ -246,3 +246,12 @@ To preview a site as it will be on a given day: `BUILD_DATE=2026-11-05 npm run b
 | 2026-11-25 | wikicamps-vs-camps-australia-wide-vs-campermate | index |
 | 2026-11-25 | easter-long-weekend-camping-australia-2027 | index |
 | 2026-11-25 | australian-winter-camping-whales-snow-warm-camps | index |
+| 2026-11-25 | best-campsite-booking-apps-australia | index |
+| 2026-11-26 | two-week-australia-trip-cost | index |
+| 2026-11-26 | wet-weather-camping-australia | index |
+| 2026-11-26 | river-crossing-floodway-safety-australia | index |
+| 2026-11-26 | wildlife-encounters-campervan-australia | index |
+| 2026-11-26 | wine-regions-campervan-australia | index |
+| 2026-11-26 | campervan-vs-car-and-tent-australia | index |
+| 2026-11-26 | best-hiking-bushwalking-apps-australia | index |
+| 2026-11-26 | snow-chains-winter-driving-australia | index |

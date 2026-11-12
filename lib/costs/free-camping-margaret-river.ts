@@ -15,7 +15,7 @@ export default article({
   places: ["Margaret River", "Leeuwin-Naturaliste National Park", "Prevelly", "Augusta", "Boranup"],
   imageAlt: "A rocky coast with a grassy headland and low heath under a pale evening sky, north of Sugarloaf Rock in Leeuwin-Naturaliste National Park",
   intro: "Margaret River is one of the most popular holiday spots in Western Australia, and one of the hardest places to camp for free. The Shire and park rangers sign against it, and the camps that are open are booked weeks ahead in summer. The honest advice is to book a Leeuwin-Naturaliste campground or a holiday park, spend days on the beaches and in the wineries, and find a cheap or free night further inland on your way through the South West.",
-  related: ["perth-to-margaret-river-drive", "south-west-wa-camping-loop", "camping-rules-western-australia", "is-free-camping-legal-australia", "camping-fees-australia-2026"],
+  related: ["perth-to-margaret-river-drive", "south-west-wa-camping-loop", "camping-rules-western-australia", "is-free-camping-legal-australia", "camping-fees-australia-2026", "wine-regions-campervan-australia"],
   sections: [
     section("Why it is hard to camp free here", ["The Shire of Augusta Margaret River has strict rules, and rangers patrol the beaches, car parks and roadsides, especially in summer. The region has a lot of visitors and not many places to put them, so freedom camping is not allowed and fines are common.", "The rest areas are for drivers to rest, not to sleep overnight in the popular parts of the region. Look for the sign, and if in doubt, go to a paid camp."], ["No freedom camping", "Rangers patrol in summer", "Fines are common"], {
       caption: "Where to stay around Margaret River.",
