@@ -573,6 +573,7 @@ export const introCtaStrings = {
   "wikicamps-trip-planner-alternative": "To try a different planner, the <a>AussieCamps app</a> turns campgrounds and rest areas into an ordered trip with a date, a note and the distance of every leg.",
   "does-wikicamps-work-offline": "For your next trip out of range, the <a>AussieCamps app</a> keeps every campground, rest area and dump point detail on your phone, with no account to sign in to.",
   "moving-from-wikicamps": "To make the move quickly, the <a>AussieCamps app</a> opens straight to the map with no account, and your saved places and trips sync through your own iCloud.",
+  "share-camping-trip-aussiecamps": "To plan as a pair, the <a>AussieCamps app</a> sends your whole trip as a readable itinerary, with every stop, date, distance and forecast.",
   "best-road-trip-planner-apps-australia": "In the <a>AussieCamps app</a> you save campgrounds as stops, drag them into order and see the distance, date and weather for each one.",
   "campfires-camping-australia": "Before you light one, the <a>AussieCamps app</a> shows each campground's conditions, current alerts and weather, so you can check the site and the day together.",
 } satisfies Record<string, string>;
