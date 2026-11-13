@@ -79,6 +79,7 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "holiday-park-prices-australia-2026", section: 5, src: "/images/screens/holiday-park-prices-australia-2026.webp", alt: "AussieCamps on iPhone: the BIG4 Rainbow Beach Holiday Park page in Queensland with its address, opening hours, a Paid label and a Book now button" },
   { slug: "wikicamps-trip-planner-alternative", section: 1, src: "/images/screens/wikicamps-trip-planner-alternative.webp", alt: "AussieCamps on iPhone: the Perth to Broome road trip on the map, with the forecast along the way" },
   { slug: "does-wikicamps-work-offline", section: 3, src: "/images/screens/does-wikicamps-work-offline.webp", alt: "AussieCamps on iPhone: the Mount Buffalo National Park page in Victoria with its description and amenities" },
+  { slug: "moving-from-wikicamps", section: 2, src: "/images/screens/moving-from-wikicamps.webp", alt: "AussieCamps on iPhone: the Collections screen with Liked, Starred, Want to visit, Visited, Pins and All saved, and saved camping road trip guides underneath" },
   { slug: "first-two-weeks-working-holiday-australia", section: 6, src: "/images/screens/first-two-weeks-working-holiday-australia.webp", alt: "AussieCamps on iPhone: the RAC Cable Beach Holiday Park page in Broome, Western Australia, with its address, opening hours, a Paid label and a Book now button" },
 ];
 

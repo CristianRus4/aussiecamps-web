@@ -589,6 +589,7 @@
     "wikicamps-alternatives": "If you want to try ours, the <a>AussieCamps app</a> combines a map of campgrounds, rest areas and dump points with detailed filters and a stop-by-stop trip planner.",
     "wikicamps-trip-planner-alternative": "To try a different planner, the <a>AussieCamps app</a> turns campgrounds and rest areas into an ordered trip with a date, a note and the distance of every leg.",
     "does-wikicamps-work-offline": "For your next trip out of range, the <a>AussieCamps app</a> keeps every campground, rest area and dump point detail on your phone, with no account to sign in to.",
+    "moving-from-wikicamps": "To make the move quickly, the <a>AussieCamps app</a> opens straight to the map with no account, and your saved places and trips sync through your own iCloud.",
     "best-road-trip-planner-apps-australia": "In the <a>AussieCamps app</a> you save campgrounds as stops, drag them into order and see the distance, date and weather for each one.",
     "campfires-camping-australia": "Before you light one, the <a>AussieCamps app</a> shows each campground's conditions, current alerts and weather, so you can check the site and the day together."
   },
@@ -39545,6 +39546,177 @@
         },
         {
           "label": "Explore Parks WA remote travel"
+        }
+      ],
+      "priceTable": null
+    },
+    "moving-from-wikicamps": {
+      "title": "Switch From WikiCamps to AussieCamps: Move Saved Places and Trips",
+      "description": "A step-by-step switch from WikiCamps: rebuild your favourites, want-to-visit list, collections and trips in AussieCamps, with no account to set up.",
+      "region": "Australia",
+      "imageAlt": "Two dome tents pitched on grassy bush ground among gum trees near Mansfield, Victoria",
+      "intro": "To switch from WikiCamps to AussieCamps, you rebuild your saved places and trips by hand: there is no import, but there is also no account to create, and for a typical list of favourites plus one trip the whole move takes about 15 minutes. We make AussieCamps. This guide maps each kind of WikiCamps list onto its home in AussieCamps, rebuilds a trip in driving order, and deals honestly with the spots our directory does not have, as of November 2026.",
+      "sections": [
+        {
+          "heading": "Why people switch from WikiCamps",
+          "body": [
+            "The two biggest themes in recent Australian App Store reviews of <a data-guide=\"wikicamps-alternatives\">WikiCamps</a> are the rebuilt app being harder to use, in about 68 of the latest 150, and signing in, in about 39. One April 2026 reviewer, forced onto the new version, said they could no longer recognise what they had looked at for years because the icons all looked the same. Others describe being logged out and needing internet to get back in.",
+            "Saved places are part of it too. Reviews from November and December 2024, when the rebuilt app arrived, said liked places and notes had not come across, and WikiCamps' own help centre acknowledges that favourites are now harder to find. Other reviewers object to ads in an app they paid for.",
+            "AussieCamps answers those points directly. You never create an account with it, which means no password, no emailed code and no being logged out at a campsite. It opens straight to the map: set a filter, tap a place for its details, add it to a trip. It shows no ads, and it is independent, not owned by a holiday park group, with <a data-guide=\"is-free-camping-legal-australia\">free camps</a>, rest areas and national parks shown next to paid parks."
+          ],
+          "tips": [
+            "Sign-in and logouts top the complaints",
+            "Some favourites did not migrate",
+            "No account and no ads in AussieCamps"
+          ]
+        },
+        {
+          "heading": "Before you start: capture your WikiCamps lists",
+          "body": [
+            "There is no import into AussieCamps, so the first job is to get your lists out of your head and somewhere you can read them. Open <a data-guide=\"wikicamps-alternatives\">WikiCamps</a> while it still loads and screenshot each list, or jot the place names in your phone's Notes app. Include the town or park beside each name, because several campgrounds share a name across states.",
+            "Do it in order of urgency. The trip you leave on next comes first, with its booked nights and booking numbers. Your shortlist for the next few months is second. The long wish list can wait for a quiet evening, and you may find half of it no longer appeals."
+          ],
+          "tips": [
+            "Screenshot or list each one",
+            "Note the town beside each name",
+            "Next trip first, wish list last"
+          ]
+        },
+        {
+          "heading": "Where each WikiCamps list goes in AussieCamps",
+          "body": [
+            "AussieCamps has four smart <a data-guide=\"save-collections-aussiecamps\">collections</a> that fill themselves as you mark places: Liked, Starred, Want to visit and Visited. Search for a place by name, open it, and tap the mark you want. You never file anything by hand, and a place can carry more than one mark, so a campground can be both Visited and Liked.",
+            "Any place can also hold a private note, which is where your old site notes belong: which bay is flattest, where the tap is, which gate to use after dark."
+          ],
+          "tips": [
+            "Search, open, mark",
+            "Smart collections fill themselves",
+            "Old site notes become private notes"
+          ],
+          "table": {
+            "caption": "Where a WikiCamps user's saved places and plans live in AussieCamps, November 2026.",
+            "head": [
+              "What you kept in WikiCamps",
+              "Where it goes in AussieCamps"
+            ],
+            "rows": [
+              [
+                "Liked or favourite places",
+                "Liked, with your top few also Starred"
+              ],
+              [
+                "Places you want to visit",
+                "Want to visit"
+              ],
+              [
+                "Places you have stayed",
+                "Visited"
+              ],
+              [
+                "Your own lists",
+                "Named collections with an icon, colour, cover photo and notes"
+              ],
+              [
+                "Notes on a site",
+                "A private note on the place"
+              ],
+              [
+                "Trips",
+                "Trips with ordered stops, arrival dates and stop notes"
+              ],
+              [
+                "A spot with no listing",
+                "A saved pin under Collections > Pins"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Turn your own lists into named collections",
+          "body": [
+            "For lists you built yourself, such as a state, a season or a shortlist for one long weekend, make a named collection. Give it an icon and colour you will recognise at a glance, a cover photo, and a line of notes on why it exists, then add places to it from their detail pages.",
+            "This is also the moment to fill gaps. The filters find replacements for listings you lost or never had: Cost set to Free shows free campgrounds, rest areas and other free stops, and features such as Toilets, <a data-guide=\"camping-water-planning\">Drinking Water</a>, Showers, Caravan Sites, Tent Sites, Dogs Allowed or No Dogs narrow it down. Choose several and a place must have all of them. There is no 4WD filter, so read the vehicle access the agency gives on each place."
+          ],
+          "tips": [
+            "A collection per state or season",
+            "Free under Cost fills the gaps",
+            "Every chosen feature must match"
+          ]
+        },
+        {
+          "heading": "Rebuild your next trip in driving order",
+          "body": [
+            "Create a new trip, give it a name and its start and end dates, and add your booked nights before anything else, because those cannot move. Then add the stops between them from the map or from search and drag everything into the order you will drive.",
+            "Copy each booking number, site number or check-in time into that stop's note, and set its arrival date. As the stops go in, AussieCamps shows the distance and drive time of each leg, which is a quick way to spot a day that has quietly become nine hours. Turn on calendar sync if you want the dates beside the rest of your diary."
+          ],
+          "tips": [
+            "Booked nights in first",
+            "Booking numbers into stop notes",
+            "Watch for an overlong leg"
+          ]
+        },
+        {
+          "heading": "Spots you cannot find in AussieCamps",
+          "body": [
+            "AussieCamps lists 18,687 places from park agencies and road authorities: campgrounds, national parks, rest areas, dump points and drinking water points. A private block, a station stay, a farm gate or a community-only <a data-guide=\"is-free-camping-legal-australia\">free camp</a> you found in WikiCamps may not be there, and it is better to know that now than at dusk.",
+            "For a spot like that, press and hold on the map to drop a pin, then save it. Saved pins live under <a data-guide=\"save-collections-aussiecamps\">Collections</a> > Pins, where you can open directions to them in your maps app or share them. A pin cannot be a trip stop, so add the nearest listed place to the trip instead and write the pin's name in that stop's note, so the plan still shows where you will really sleep."
+          ],
+          "tips": [
+            "Official sources, not every spot",
+            "Save the missing spot as a pin",
+            "Note the pin on the nearest stop"
+          ]
+        },
+        {
+          "heading": "Set up your second iPhone",
+          "body": [
+            "If you and your partner share an Apple Account across two iPhones, or you carry a second phone, sign in to that Apple Account with iCloud turned on and AussieCamps syncs your saved places, <a data-guide=\"save-collections-aussiecamps\">collections</a>, pins and trips through iCloud. There is no AussieCamps username, password or verification code in that process.",
+            "Two people on different Apple Accounts do not share one live list. Either of you can send the other a trip as a readable itinerary, or send a single place with a Maps link. AussieCamps runs on iPhone only, so an Android phone or a laptop cannot join in."
+          ],
+          "tips": [
+            "Same Apple Account, same data",
+            "No AussieCamps login anywhere",
+            "Different accounts share by message"
+          ]
+        },
+        {
+          "heading": "Make the switch today",
+          "body": [
+            "AussieCamps is free to download, with in-app purchases. Install it, open it to the map, and move your next trip across first; the rest of your lists can follow over a few evenings.",
+            "Rules on the ground outrank any app. Follow the sign at the site, the land manager, and current <a data-guide=\"campfires-camping-australia\">fire bans</a> and closures wherever you stop."
+          ],
+          "tips": [
+            "Free to download",
+            "Next trip first",
+            "Signs and closures come first"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Can I export my WikiCamps favourites?",
+          "AussieCamps cannot read an export from WikiCamps or any file, so the move is by hand. Write down or screenshot your favourites, then search each one in AussieCamps and mark it Liked or Want to visit. A list of 30 places takes about ten minutes."
+        ],
+        [
+          "Can I import WikiCamps trips into another app?",
+          "Not into AussieCamps. There is no import, so you rebuild the trip: add the booked nights first, then the stops between them, and drag them into driving order. Each stop then shows the distance and drive time from the one before."
+        ],
+        [
+          "How do I move my camping trip to a new app?",
+          "List the stops and dates from your current app while it still opens, install the new app, then add the stops in order and copy across booking numbers as notes. In AussieCamps there is no account to create first, so you can start straight away."
+        ],
+        [
+          "Will my saved places sync to my other iPhone?",
+          "Yes, if both iPhones use the same Apple Account with iCloud turned on. Your saved places, collections, pins and trips sync privately through iCloud. There is no AussieCamps account or password involved."
+        ],
+        [
+          "What if a WikiCamps site isn't in AussieCamps?",
+          "AussieCamps lists official campgrounds, rest areas, dump points, water points and parks, so some private or community spots are missing. Drop a pin on the spot and save it under Pins, then add the nearest listed place to your trip and note the pin there."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Apple Support: iCloud"
         }
       ],
       "priceTable": null
