@@ -19,9 +19,10 @@ import { APP_ID, APP_STORE_URL, APPLE_PROVIDER_TOKEN } from "@/lib/site";
  *   ans   the download line right under a page's opening answer (lib/answer-cta.ts)
  *   intro the app sentence at the end of a guide's first paragraph (lib/intro-cta.ts)
  *   place the store button on a place page (lib/places.ts)
+ *   trip  the store button on a trip shared from the app (/trip/)
  *   ig, tt, fb  social bio links opened from Instagram, TikTok or Facebook (lib/social.ts)
  */
-export const ctaPlacements = ["hdr", "hero", "card", "stick", "foot", "inl", "tool", "hub", "sb", "qr", "dl", "llms", "listicle", "ans", "intro", "place", "ig", "tt", "fb"] as const;
+export const ctaPlacements = ["hdr", "hero", "card", "stick", "foot", "inl", "tool", "hub", "sb", "qr", "dl", "llms", "listicle", "ans", "intro", "place", "trip", "ig", "tt", "fb"] as const;
 export type CtaPlacement = (typeof ctaPlacements)[number];
 
 /** Apple truncates longer campaign tokens, which would merge distinct placements in the report. */
@@ -45,9 +46,13 @@ export function appStoreUrl({ placement, locale = "en" }: { placement: CtaPlacem
   return `${APP_STORE_URL}?pt=${encodeURIComponent(APPLE_PROVIDER_TOKEN)}&ct=${ct}&mt=8`;
 }
 
-/** The `apple-itunes-app` meta content for the Smart App Banner Safari shows on iPhone. */
-export function smartBannerContent(locale = "en"): string {
+/**
+ * The `apple-itunes-app` meta content for the Smart App Banner Safari shows on iPhone. Place pages pass
+ * their absolute URL as `appArgument`, so the app opens that place from the banner, even after install.
+ */
+export function smartBannerContent(locale = "en", appArgument?: string): string {
   const base = `app-id=${APP_ID}`;
-  if (!APPLE_PROVIDER_TOKEN) return base;
-  return `${base}, affiliate-data=pt=${encodeURIComponent(APPLE_PROVIDER_TOKEN)}&ct=${campaignToken("sb", locale)}`;
+  const argument = appArgument ? `, app-argument=${appArgument}` : "";
+  if (!APPLE_PROVIDER_TOKEN) return `${base}${argument}`;
+  return `${base}, affiliate-data=pt=${encodeURIComponent(APPLE_PROVIDER_TOKEN)}&ct=${campaignToken("sb", locale)}${argument}`;
 }

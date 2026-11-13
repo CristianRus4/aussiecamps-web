@@ -16,7 +16,8 @@
  *   self-canonical, and every URL in docs/growth/url-baseline.txt is still exported. GitHub Pages
  *   cannot redirect, so a dropped URL is a 404;
  * - every indexable page carries exactly one Smart App Banner (`apple-itunes-app`) with this app's id
- *   and its own locale's `sb` campaign, so no page a search visitor lands on lacks the iPhone banner.
+ *   and its own locale's `sb` campaign, so no page a search visitor lands on lacks the iPhone banner;
+ *   a place page's banner also hands the app its own URL (`app-argument`).
  */
 import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { resolve } from "node:path";
@@ -109,10 +110,11 @@ for (const url of indexable) if (!listed.has(url)) fail(`${url} is indexable but
 
 // Every indexable page shows the Smart App Banner with its own locale's campaign.
 const segments = new Set(locales.map((entry) => entry.segment));
+const placeUrls = new Set(exportRoutes().filter((route) => route.kind === "place").map((route) => `${SITE_URL}${route.path}`));
 for (const page of pages.values()) {
   if (!page.indexable) continue;
   const segment = new URL(page.url).pathname.split("/")[1];
-  const expected = smartBannerContent(segments.has(segment) ? segment : "en");
+  const expected = smartBannerContent(segments.has(segment) ? segment : "en", placeUrls.has(page.url) ? page.url : undefined);
   if (page.banners.length !== 1 || page.banners[0] !== expected) fail(`${page.url}: Smart App Banner is ${JSON.stringify(page.banners)}, expected ["${expected}"]`);
 }
 

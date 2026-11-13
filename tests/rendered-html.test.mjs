@@ -311,11 +311,12 @@ test("the app schema keeps a clean install URL", async () => {
   }
 });
 
-test("each page has one Smart App Banner with its own campaign", async () => {
-  for (const { name, html, locale } of await exportedPages()) {
+test("each page has one Smart App Banner with its own campaign, and a place page hands the app its URL", async () => {
+  for (const { name, html, locale, route } of await exportedPages()) {
     if (!hasMain(html) || name === "404.html") continue;
     const banners = [...html.matchAll(/<meta name="apple-itunes-app" content="([^"]*)"/g)].map((match) => unescapeAttribute(match[1]));
-    assert.deepEqual(banners, [smartBannerContent(locale)], `${name} smart app banner`);
+    const place = /data-page-kind="place"/.test(html) ? `https://aussiecamps.app${route}` : undefined;
+    assert.deepEqual(banners, [smartBannerContent(locale, place)], `${name} smart app banner`);
   }
 });
 
@@ -335,7 +336,7 @@ test("every guide, in every language, has the side box and the dark end box with
 });
 
 test("every page labels its <main> for analytics", async () => {
-  const kinds = ["home", "guide", "guides", "tools", "support", "legal", "hub", "tool", "place", "places"];
+  const kinds = ["home", "guide", "guides", "tools", "support", "legal", "hub", "tool", "place", "places", "trip"];
   for (const { name, html, locale, route } of await exportedPages()) {
     if (!hasMain(html) || name === "404.html") continue;
     const main = html.match(/<main\b[^>]*>/)[0];
