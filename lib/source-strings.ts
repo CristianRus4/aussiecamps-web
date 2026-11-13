@@ -571,6 +571,7 @@ export const introCtaStrings = {
   "best-fuel-price-apps-australia": "What it does do is plan the drive: the <a>AussieCamps app</a> shows the distance of every leg between your stops, so you can work out where to fill up.",
   "wikicamps-alternatives": "If you want to try ours, the <a>AussieCamps app</a> combines a map of campgrounds, rest areas and dump points with detailed filters and a stop-by-stop trip planner.",
   "is-wikicamps-free": "To try the option with no account, <a>get AussieCamps for iPhone</a>: it is free to download and opens straight to a map of campgrounds, rest areas and dump points.",
+  "is-wikicamps-worth-it": "If sign-ins or ads are the problem, <a>try AussieCamps for iPhone</a>: no account, no ads, and it opens straight to a map of campgrounds, rest areas and dump points.",
   "best-road-trip-planner-apps-australia": "In the <a>AussieCamps app</a> you save campgrounds as stops, drag them into order and see the distance, date and weather for each one.",
   "campfires-camping-australia": "Before you light one, the <a>AussieCamps app</a> shows each campground's conditions, current alerts and weather, so you can check the site and the day together.",
 } satisfies Record<string, string>;
