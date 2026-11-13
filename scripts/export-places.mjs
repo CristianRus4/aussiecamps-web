@@ -10,6 +10,8 @@
  *   lib/data/places.json           the plain copy the build reads. Gitignored: this repo is public, so the
  *                                  readable data never leaves this Mac or CI (scripts/decrypt-places.mjs).
  *   lib/data/places.photos.json    gitignored cache of which photo links load, and how wide they are.
+ *   place-pages.json               the app's place id to its page path, at PLACE_PAGES_OUT when set
+ *                                  (scripts/place-links.mjs; `npm run places:links` writes it alone).
  *
  * Pages load up to three photos per place straight from their source, as the app does (Cristian, 12 Nov
  * 2026), checked here so a dead link never reaches a page; the widest comes first.
@@ -31,6 +33,7 @@ import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { DatabaseSync } from "node:sqlite";
 import sharp from "sharp";
+import { placePagesOut, writePlacePages } from "./place-links.mjs";
 
 const repo = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const appRepo = resolve(process.env.CAMPING_APP_DATA ?? "/Users/cristian/Developer/Apps/AppStore/Camping");
@@ -268,6 +271,8 @@ try {
   if (key) writeFileSync(encryptedPath, `${encrypt(data, key)}\n`);
   else console.warn("No PLACES_KEY in the environment or the keychain: wrote the plain copy only, not lib/data/places.json.enc.");
   const count = (type) => places.filter((place) => place.type === type).length;
+  const linksOut = placePagesOut();
+  if (linksOut) console.log(`Wrote ${writePlacePages(places, linksOut)} place pages to ${linksOut}.`);
   console.log(`Exported ${places.length} places (${TYPES.map((type) => `${count(type)} ${type.replace("_", " ")}`).join(", ")}) with ${published.size} photos.`);
 } finally {
   rmSync(temp, { recursive: true, force: true });

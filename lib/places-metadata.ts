@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { SITE_URL } from "@/lib/site";
+import { smartBannerContent } from "@/lib/app-store";
 import { homeOgImage } from "@/lib/seo";
 import { photoUrl, placePath, placesPath, placeStatePath, typeLabels, type Place, type PlaceState } from "@/lib/places";
 import { placeDescription } from "@/lib/places-copy";
@@ -21,7 +22,9 @@ export function placeMetadata(place: Place): Metadata {
     : `${place.name}: camping, photos and things to do`;
   const description = placeDescription(place);
   void type;
-  return { title, description, alternates: { canonical: placePath(place) }, openGraph: og(title, description, placePath(place), place.photos[0] && photoUrl(place.photos[0])), robots };
+  // The banner hands the app this page's URL, which it opens as the place (Universal Links).
+  const other = { "apple-itunes-app": smartBannerContent("en", `${SITE_URL}${placePath(place)}`) };
+  return { title, description, alternates: { canonical: placePath(place) }, openGraph: og(title, description, placePath(place), place.photos[0] && photoUrl(place.photos[0])), robots, other };
 }
 
 export function placeStateMetadata(state: PlaceState): Metadata {

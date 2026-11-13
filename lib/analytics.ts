@@ -36,7 +36,7 @@ export const consentRegions = [
 export const CONSENT_STORAGE_KEY = "ac_consent";
 
 /** The kinds of page the site has, as `data-page-kind` on <main> and `page_kind` in GA4. */
-export type PageKind = "home" | "guide" | "guides" | "tools" | "support" | "legal" | "hub" | "tool" | "place" | "places";
+export type PageKind = "home" | "guide" | "guides" | "tools" | "support" | "legal" | "hub" | "tool" | "place" | "places" | "trip";
 
 /**
  * The attributes every page puts on its <main>, read by the analytics script for page-level
