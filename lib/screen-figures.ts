@@ -77,6 +77,7 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "can-i-sleep-in-a-campervan-in-the-city-in-australia", section: 5, src: "/images/screens/can-i-sleep-in-a-campervan-in-the-city-in-australia.webp", alt: "AussieCamps on iPhone: the Collections screen with Liked, Starred, Want to visit and Visited lists and saved road trip collections" },
   { slug: "can-i-drive-a-2wd-hire-campervan-on-4wd-roads-in-australia", section: 5, src: "/images/screens/can-i-drive-a-2wd-hire-campervan-on-4wd-roads-in-australia.webp", alt: "AussieCamps on iPhone: the Litchfield National Park page in the Northern Territory, with a description that mentions 4WD tracks, and showers and toilets listed" },
   { slug: "holiday-park-prices-australia-2026", section: 5, src: "/images/screens/holiday-park-prices-australia-2026.webp", alt: "AussieCamps on iPhone: the BIG4 Rainbow Beach Holiday Park page in Queensland with its address, opening hours, a Paid label and a Book now button" },
+  { slug: "wikicamps-trip-planner-alternative", section: 1, src: "/images/screens/wikicamps-trip-planner-alternative.webp", alt: "AussieCamps on iPhone: the Perth to Broome road trip on the map, with the forecast along the way" },
   { slug: "first-two-weeks-working-holiday-australia", section: 6, src: "/images/screens/first-two-weeks-working-holiday-australia.webp", alt: "AussieCamps on iPhone: the RAC Cable Beach Holiday Park page in Broome, Western Australia, with its address, opening hours, a Paid label and a Book now button" },
 ];
 

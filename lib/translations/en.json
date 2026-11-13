@@ -587,6 +587,7 @@
     "australia-road-rules-state-differences": "When a trip crosses several states, the <a>AussieCamps app</a> keeps the route in order stop by stop, with the distance of each leg and a note on each stop for the rules that change at the next border.",
     "best-fuel-price-apps-australia": "What it does do is plan the drive: the <a>AussieCamps app</a> shows the distance of every leg between your stops, so you can work out where to fill up.",
     "wikicamps-alternatives": "If you want to try ours, the <a>AussieCamps app</a> combines a map of campgrounds, rest areas and dump points with detailed filters and a stop-by-stop trip planner.",
+    "wikicamps-trip-planner-alternative": "To try a different planner, the <a>AussieCamps app</a> turns campgrounds and rest areas into an ordered trip with a date, a note and the distance of every leg.",
     "best-road-trip-planner-apps-australia": "In the <a>AussieCamps app</a> you save campgrounds as stops, drag them into order and see the distance, date and weather for each one.",
     "campfires-camping-australia": "Before you light one, the <a>AussieCamps app</a> shows each campground's conditions, current alerts and weather, so you can check the site and the day together."
   },
@@ -39191,6 +39192,186 @@
         },
         {
           "label": "Bureau of Meteorology: warnings"
+        }
+      ],
+      "priceTable": null
+    },
+    "wikicamps-trip-planner-alternative": {
+      "title": "WikiCamps Trip Planner Alternative: Plan a Road Trip in AussieCamps",
+      "description": "Used WikiCamps' trip planner? How AussieCamps plans a camping road trip: ordered stops, distance per leg, arrival dates, weather and a packing list.",
+      "region": "Australia",
+      "imageAlt": "A four-wheel drive towing a caravan beside the Bunda Cliffs on the Nullarbor coast",
+      "intro": "If the WikiCamps trip planner no longer fits the way you plan, AussieCamps is an iPhone camping app whose planner turns campgrounds, rest areas and dump points into an ordered road trip, with an arrival date, a note, the weather and the distance of every leg. We make AussieCamps. Below is what WikiCamps planner users say they miss, how each planning job works in AussieCamps, what the planner does once you are driving, and the gaps it still has, all as of November 2026.",
+      "sections": [
+        {
+          "heading": "What WikiCamps trip planner users say they miss",
+          "body": [
+            "<a data-guide=\"wikicamps-alternatives\">WikiCamps</a> rebuilt its app as version 6, which reached Australian users in September 2024, and some long-time users have not warmed to the new planner. A one-star App Store review from 5 October 2026 called it “Barely functional as a trip planner”. A March 2026 reviewer said moving a stop to a new date took several taps, and a July 2026 reviewer said planning had become very awkward since the Windows version went.",
+            "There is also a limit WikiCamps states itself: its website says Offline Mode gives you maps and up to three of your planned trips without phone signal. If you keep a big lap plus a few side trips on the go, that means choosing which ones travel with you. Since version 6 a WikiCamps account is required too, and sign-in is one of the most common complaints: a January 2026 reviewer wrote that “Every week you have to login again which requires internet”, which is no help with a trip open at a campsite out of range. AussieCamps has no account, so there is nothing to sign in to and no code to wait for.",
+            "In fairness, WikiCamps is still working on the planner. Its 2026 updates added copying places between trips in March and shared trip links that open inside the app in October. These are reviewer opinions and the developer's own notes, not a verdict, and plenty of people still plan there happily. This guide is for the ones who would rather plan somewhere else."
+          ],
+          "tips": [
+            "Reviewers call the rebuilt planner clunky",
+            "Offline Mode keeps up to three trips",
+            "2026 updates fixed some of it"
+          ]
+        },
+        {
+          "heading": "Task by task: your planning jobs in AussieCamps",
+          "body": [
+            "An AussieCamps trip has a name, an icon and colour, a cover photo, a short description, start and end dates, its own notes and a packing list. Every stop is a place from the app's directory, which holds 18,687 campgrounds, national parks, rest areas, <a data-guide=\"dump-points-australia-guide\">dump points</a> and drinking water points from park agencies and road authorities. That means each stop already carries its fees, facilities and conditions before you add a word.",
+            "There are few steps between opening the app and having a plan. AussieCamps opens straight to the map, with no sign-in screen in the way; set a filter, tap a place to read its details, and add it to a trip. To build the route, keep adding places from the map or from search, then drag the stops into the order you will drive. Each stop takes its own arrival date and note. The planner draws the driving route with Apple Maps routing and shows the distance and drive time between each pair of stops, and Recalculate route redraws it after you reshuffle the order.",
+            "The table maps the jobs people did in their old <a data-guide=\"how-to-plan-trip-aussiecamps\">trip planner</a> to the place they live in AussieCamps."
+          ],
+          "tips": [
+            "Stops come from 18,687 listed places",
+            "Distance and drive time for every leg",
+            "A date and a note on each stop"
+          ],
+          "table": {
+            "caption": "Common road trip planning jobs and how they work in AussieCamps, November 2026.",
+            "head": [
+              "Planning job",
+              "How it works in AussieCamps"
+            ],
+            "rows": [
+              [
+                "Add a stop",
+                "Open a campground, rest area or other listed place from the map or search and add it to the trip"
+              ],
+              [
+                "Change the order",
+                "Drag stops into a new order, then recalculate the route"
+              ],
+              [
+                "Set dates",
+                "Give the trip start and end dates and each stop an arrival date"
+              ],
+              [
+                "Keep booking details",
+                "Write a note on the stop, such as a site number, a gate code or a check-in time"
+              ],
+              [
+                "Spot a long day",
+                "Read the distance and drive time shown for each leg"
+              ],
+              [
+                "Navigate",
+                "Open directions to the next stop in Apple Maps or Google Maps, whichever you set"
+              ],
+              [
+                "Pack",
+                "Tick items off the trip's own packing list"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Finding the stops worth adding",
+          "body": [
+            "A planner is only as good as the places you put in it, so the filters do a lot of the work. The Cost filter splits places into Free and Paid, which puts free campgrounds, rest areas and other free stops on the map beside the paid parks. Features narrow it further: Toilets, Drinking Water, Showers, Caravan Sites, Camper Trailer Sites, Tent Sites, Heavy Vehicle Area, Sealed Surface or <a data-guide=\"campfires-camping-australia\">Campfires</a> Allowed, among others.",
+            "Pick several features and a place has to have every one of them, so Free plus Toilets plus Caravan Sites shows only free stops with toilets that take a van. Travelling with a dog, add Dogs Allowed, or No Dogs if you would rather avoid them. You can also filter by state, online booking and minimum rating. There is no 4WD filter; each place's details show the vehicle access its agency publishes, so check that before you add a stop."
+          ],
+          "tips": [
+            "Free and Paid under Cost",
+            "Several features must all match",
+            "Dogs Allowed and No Dogs filters"
+          ]
+        },
+        {
+          "heading": "On the road: what the planner does once you leave",
+          "body": [
+            "Set the trip to In progress when you pull out of the driveway and it becomes the plan you travel with. Tick each stop off as visited when you leave it, and use the directions button to hand the next leg to Apple Maps or Google Maps.",
+            "Plans change at the campground gate, so each stop has Worth a stop nearby suggestions: other listed places close by that you can fall back on when a site is full or the day runs long. The weather forecast for the stops ahead sits in the trip too, which helps decide whether to push on before a front or wait it out.",
+            "Out of range, the map background, route lines, forecasts and photos stop loading, because they come over the network. The place details at each stop, including fees, facilities and conditions, are stored on the phone and stay readable out of range, along with your trip, its stops and notes. Check the next few forecasts and open the next leg's directions before you lose coverage."
+          ],
+          "tips": [
+            "Tick stops off as you go",
+            "Nearby fallbacks for a full campground",
+            "Check forecasts while you have signal"
+          ]
+        },
+        {
+          "heading": "Keep the trip in your calendar or send it to someone",
+          "body": [
+            "Each trip has a Sync to calendar switch. Turn it on and AussieCamps writes the route, arrival dates, distances, weather and <a data-guide=\"camping-packing-list-australia\">packing list</a> into a calendar named after the app, so the plan sits beside your flights, ferry and work shifts. The switch needs the trip's start and end dates first.",
+            "To send the plan, Share trip produces a plain-text itinerary through Messages, WhatsApp, email or any app on your share sheet. It lists the trip name and dates, the number of places, the total distance and drive time, every stop with its arrival time, the distance to the next stop and the weather, and finally the packing list. The person you send it to does not need the app, and it is a one-off copy rather than a trip you both edit."
+          ],
+          "tips": [
+            "Calendar sync needs start and end dates",
+            "Share a readable itinerary as text",
+            "No shared trip you both edit"
+          ]
+        },
+        {
+          "heading": "What the AussieCamps planner does not do yet",
+          "body": [
+            "There is no home or start point. A trip runs from its first stop to its last, so the distance from your house to the first campground is not counted; tap directions to the first stop and your maps app routes you from wherever you are. A pin dropped on the map can be saved, shared and opened in Maps, but it cannot be added as a stop.",
+            "There is no <a data-guide=\"australia-road-trip-fuel-cost-2026\">fuel cost</a> tool in the app. The leg distances give you the numbers, and the free fuel cost calculator and drive time calculator on aussiecamps.app turn them into dollars and driving days.",
+            "There is no import or export file, such as GPX, and AussieCamps runs on iPhone only, with no Android, iPad or computer version. If you plan on a laptop or travel with an Android phone, that is a real limit worth knowing before you switch."
+          ],
+          "tips": [
+            "No home or start point yet",
+            "Fuel costs on the website tools",
+            "iPhone only, no GPX files"
+          ]
+        },
+        {
+          "heading": "WikiCamps or AussieCamps for planning your trip",
+          "body": [
+            "Choose <a data-guide=\"wikicamps-alternatives\">WikiCamps</a> if you need Android, if you lean on its traveller reviews for each site, or if you want the map itself to work offline from a download. Those are real strengths, and AussieCamps does not match them. Know too that its Android listing says it contains ads, and some App Store reviewers object to seeing them in an app they paid for.",
+            "Choose AussieCamps if you plan on an iPhone and want stops built from official campground, rest area and dump point data, a date, note and forecast on every stop, the distance and drive time of every leg, no account to sign in to and no ads anywhere in the app. It is independent, not owned by a holiday park group, and it shows <a data-guide=\"is-free-camping-legal-australia\">free camps</a>, rest areas and national parks next to paid parks. Some travellers keep both for a while; the planner is the quickest part to try, because a trip of a dozen stops takes minutes to build."
+          ],
+          "tips": [
+            "Android or reviews: WikiCamps",
+            "Official data, no ads: AussieCamps",
+            "Trying both costs little"
+          ]
+        },
+        {
+          "heading": "Plan your next road trip in AussieCamps",
+          "body": [
+            "AussieCamps is free to download, with in-app purchases, shows no ads and opens straight to the map with no account to make. Add the nights you have already booked first, fill the gaps with campgrounds and rest areas, and read the leg distances before you commit to a long day.",
+            "Whatever the app says, the sign at the site, the land manager and current fire or road closure advice come first. Check them on the day."
+          ],
+          "tips": [
+            "Free to download, no account",
+            "Booked nights first, gaps second",
+            "Signs and closures come first"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "What is the best trip planner app for camping in Australia?",
+          "It depends on the trip and the phone. On iPhone, AussieCamps builds a road trip from listed campgrounds, rest areas and dump points, with a date, a note, the weather and the distance of each leg. For a long remote route, pair it with a navigation app that keeps maps offline."
+        ],
+        [
+          "Can I export my WikiCamps trip?",
+          "AussieCamps cannot import a trip from WikiCamps or from a file, so the quickest move is to rebuild it. Note your stops in order, then add each one to a new AussieCamps trip. A trip of ten or so stops usually takes a few minutes."
+        ],
+        [
+          "How do I plan a caravan trip on my phone?",
+          "Start with the nights you have booked, then add the stops between them in driving order. Check the distance and drive time of each leg so no day is too long with a van behind you, and use each stop's details to confirm caravan access and fees before you commit."
+        ],
+        [
+          "Does AussieCamps show distance between stops?",
+          "Yes. Every leg shows its distance and drive time, worked out with Apple Maps routing, and the shared itinerary adds the total for the whole trip. Routing needs a phone signal; the place details at each stop do not."
+        ],
+        [
+          "Can I add my home as the start of a trip in AussieCamps?",
+          "Not yet. A trip runs between places in the app's directory, so there is no home or start point, and a dropped pin cannot become a stop. When you open directions to the first stop, Apple Maps or Google Maps routes you from wherever you are."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Apple Support: Maps routes on iPhone"
+        },
+        {
+          "label": "Apple Support: download offline maps on iPhone"
+        },
+        {
+          "label": "Main Roads WA: long-distance driving"
         }
       ],
       "priceTable": null
