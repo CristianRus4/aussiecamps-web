@@ -59,6 +59,12 @@ const targets: LinkTarget[] = [
   { pattern: /\bdomestic flights?\b/i, slug: "domestic-flight-costs-australia-2026" },
   { pattern: /\bGreyhound\b|\blong-distance (?:bus|train)\b|\bIndian Pacific\b|\bGhan\b/i, slug: "bus-train-costs-australia-2026" },
   { pattern: /\bcamping apps?\b/i, slug: "best-camping-app-australia" },
+  // WikiCamps switcher guides: specific phrases, ahead of the generic WikiCamps link.
+  { pattern: /\bWikiCamps vs AussieCamps\b/, slug: "wikicamps-vs-aussiecamps" },
+  { pattern: /\bWikiCamps price\b/, slug: "is-wikicamps-free" },
+  { pattern: /\bwhether WikiCamps is (?:still )?worth\b/i, slug: "is-wikicamps-worth-it" },
+  { pattern: /\bWikiCamps on (?:a|your) (?:laptop|PC|computer)\b/, slug: "wikicamps-for-pc" },
+  { pattern: /\bWikiCamps (?:login|sign-in)\b/, slug: "wikicamps-login-account" },
   { pattern: /\bWikiCamps\b/, slug: "wikicamps-alternatives" },
   { pattern: /\bCamperMate\b/, slug: "campermate-alternatives" },
   { pattern: /\bfilters\b/i, slug: "how-to-use-aussiecamps-filters" },
