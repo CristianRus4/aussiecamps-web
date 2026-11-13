@@ -576,6 +576,10 @@ export const introCtaStrings = {
   "moving-from-wikicamps": "To make the move quickly, the <a>AussieCamps app</a> opens straight to the map with no account, and your saved places and trips sync through your own iCloud.",
   "share-camping-trip-aussiecamps": "To plan as a pair, the <a>AussieCamps app</a> sends your whole trip as a readable itinerary, with every stop, date, distance and forecast.",
   "free-camps-missing-wikicamps": "To find free nights from official sources, the <a>AussieCamps app</a> maps free campgrounds, rest areas, water and dump points, with a Free option under its Cost filter.",
+  "is-wikicamps-worth-it": "If sign-ins or ads are the problem, <a>try AussieCamps for iPhone</a>: no account, no ads, and it opens straight to a map of campgrounds, rest areas and dump points.",
+  "wikicamps-vs-aussiecamps": "To compare for yourself, <a>get AussieCamps for iPhone</a>; it is free to download and asks for no account before you search.",
+  "wikicamps-for-pc": "For the trip itself, the <a>AussieCamps app</a> builds your stops on iPhone with the distance of every leg, and there is nothing to sign into.",
+  "wikicamps-login-account": "If you would rather have no login at all, <a>get AussieCamps for iPhone</a>: no account, no email code, and your saved places sync through your own iCloud.",
   "best-road-trip-planner-apps-australia": "In the <a>AussieCamps app</a> you save campgrounds as stops, drag them into order and see the distance, date and weather for each one.",
   "campfires-camping-australia": "Before you light one, the <a>AussieCamps app</a> shows each campground's conditions, current alerts and weather, so you can check the site and the day together.",
 } satisfies Record<string, string>;

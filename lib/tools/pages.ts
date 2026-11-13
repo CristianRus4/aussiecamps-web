@@ -12,6 +12,8 @@ import { isToolTranslated, toolCopy } from "./strings";
 export const toolGuides: Record<ToolKey, string[]> = {
   "fuel-cost-calculator": ["australia-road-trip-fuel-cost-2026", "road-trip-fuel-planning-australia", "best-fuel-price-apps-australia", "campervan-road-trip-budget-australia", "wikicamps-trip-planner-alternative"],
   "drive-time-calculator": ["australia-road-trip-fatigue-wildlife-safety", "east-coast-road-trip-sydney-cairns", "nullarbor-crossing-camping-guide", "perth-to-broome-road-trip", "best-road-trip-planner-apps-australia", "road-trip-fuel-planning-australia", "driving-in-australia-road-rules-visitors", "wikicamps-trip-planner-alternative"],
+  "fuel-cost-calculator": ["australia-road-trip-fuel-cost-2026", "road-trip-fuel-planning-australia", "best-fuel-price-apps-australia", "campervan-road-trip-budget-australia"],
+  "drive-time-calculator": ["australia-road-trip-fatigue-wildlife-safety", "east-coast-road-trip-sydney-cairns", "nullarbor-crossing-camping-guide", "perth-to-broome-road-trip", "best-road-trip-planner-apps-australia", "road-trip-fuel-planning-australia", "driving-in-australia-road-rules-visitors", "wikicamps-for-pc"],
   "campsite-cost-calculator": ["camping-fees-australia-2026", "best-camping-app-australia", "accommodation-costs-australia-2026", "campervan-road-trip-budget-australia"],
   "currency-converter": ["australia-travel-cost-2026", "australia-grocery-prices-2026", "eating-out-australia-prices-2026"],
   "water-tank-calculator": ["camping-water-planning", "dump-points-australia-guide", "best-camping-app-australia", "campervan-road-trip-budget-australia"],
