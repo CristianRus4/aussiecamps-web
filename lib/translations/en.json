@@ -591,6 +591,7 @@
     "is-wikicamps-worth-it": "If sign-ins or ads are the problem, <a>try AussieCamps for iPhone</a>: no account, no ads, and it opens straight to a map of campgrounds, rest areas and dump points.",
     "wikicamps-vs-aussiecamps": "To compare for yourself, <a>get AussieCamps for iPhone</a>; it is free to download and asks for no account before you search.",
     "wikicamps-for-pc": "For the trip itself, the <a>AussieCamps app</a> builds your stops on iPhone with the distance of every leg, and there is nothing to sign into.",
+    "wikicamps-login-account": "If you would rather have no login at all, <a>get AussieCamps for iPhone</a>: no account, no email code, and your saved places sync through your own iCloud.",
     "best-road-trip-planner-apps-australia": "In the <a>AussieCamps app</a> you save campgrounds as stops, drag them into order and see the distance, date and weather for each one.",
     "campfires-camping-australia": "Before you light one, the <a>AussieCamps app</a> shows each campground's conditions, current alerts and weather, so you can check the site and the day together."
   },
@@ -39895,6 +39896,112 @@
           "label": "Microsoft Q&A: WikiCamps Australia and the Microsoft Store"
         }
       ],
+      "priceTable": null
+    },
+    "wikicamps-login-account": {
+      "title": "Why Does WikiCamps Need a Login Now? A Camping App With None",
+      "description": "Since version 6, WikiCamps needs an account and an email code. Why it changed, what travellers report, and how AussieCamps works with no login at all.",
+      "region": "Australia",
+      "imageAlt": "Remote Anne Beadell Highway west of Emu",
+      "intro": "The WikiCamps login came with version 6: since the rebuilt app arrived in Australia in September 2024, WikiCamps needs an account, and you sign in with a code sent to your email. For campers the trouble is rarely the account itself; it is being asked to sign in again at a camp with no signal. We make AussieCamps, an iPhone camping app with no login at all. We don't offer WikiCamps fixes; below is what changed, what travellers report, and how a camping app works without an account.",
+      "sections": [
+        {
+          "heading": "What changed: an account since version 6",
+          "body": [
+            "Before the rebuild, <a data-guide=\"wikicamps-alternatives\">WikiCamps</a> was something you bought and opened. Version 6, released in Australia in September 2024 and in New Zealand in August 2025, added a required WikiCamps account, and your purchase and saved places are tied to it. WikiCamps says the same account can sign in on several devices.",
+            "Signing in uses a verification code sent by email. WikiCamps' help centre, which now has a whole section on login and syncing issues, says the codes come from a Microsoft authentication service, can take 10 to 15 minutes to arrive, and cannot be generated or sent by hand by its team."
+          ],
+          "tips": [
+            "Account required since September 2024",
+            "Sign-in by emailed code",
+            "Codes can take 10 to 15 minutes"
+          ]
+        },
+        {
+          "heading": "What travellers report",
+          "body": [
+            "Sign-in is the second most common theme in recent reviews, after the redesign. About 39 of the 150 most recent Australian App Store reviews mention logging in, being logged out or codes. \"Every week you have to login again which requires internet\", one reviewer wrote on 22 January 2026. Another, on 27 December 2025, said no verification code arrived at all, and on 14 July 2025 a camper found the app opening to the sign-in page wherever the internet was sketchy.",
+            "ProductReview.com.au carries the same complaints, from a login that rejects an email address after sending a code to an app that keeps logging out. <a data-guide=\"wikicamps-alternatives\">WikiCamps</a> has responded with updates: a November 2025 release fixed a sign-out problem, and later releases improved offline start-up. The complaint has not disappeared, though; a four-star review on 1 October 2026 still pleaded with WikiCamps to stop logging people out."
+          ],
+          "tips": [
+            "About 39 of 150 recent reviews",
+            "Logouts, missing codes, sign-in screens",
+            "A fix in November 2025, complaints since"
+          ]
+        },
+        {
+          "heading": "Why a sign-in matters more when you camp",
+          "body": [
+            "Most apps can ask you to sign in again and nobody minds, because you are on wifi at home. A <a data-guide=\"best-camping-app-australia\">camping app</a> gets used in the places where that is hardest: national park campgrounds, river camps and outback rest areas that sit well beyond the reach of the mobile network.",
+            "So the question to ask of any camping app is simple: what does it need from the internet before it will show you anything? An app that wants a fresh sign-in, or a code from your inbox, can lock you out exactly when you need to check a site's rules or find the next <a data-guide=\"dump-points-australia-guide\">dump point</a>. That is the reason we built AussieCamps with no account to lose in the first place."
+          ],
+          "tips": [
+            "Camping apps are used out of range",
+            "Ask what it needs online to open",
+            "No account means nothing to lose"
+          ]
+        },
+        {
+          "heading": "AussieCamps: no account, no code, no logouts",
+          "body": [
+            "AussieCamps has no login of any kind. There is no sign-up, no password, no email code and no session that can expire, so there is nothing to be logged out of at a campsite. It is free to download, with in-app purchases that go through your Apple Account, and it shows no ads.",
+            "Opening it takes one step: you land on the map. From there you filter, tap a place for its fees, facilities and conditions, and add it to a trip. Filters use plain names, such as Free under Cost, Toilets, <a data-guide=\"camping-water-planning\">Drinking Water</a>, Caravan Sites, Dogs Allowed and No Dogs, and every feature you choose has to match.",
+            "The place directory, 18,687 places from park agencies, road authorities and public datasets, is installed with the app, so place details open with no signal and no sign-in. The map tiles, directions, weather and photos still need a connection. AussieCamps is independent and shows <a data-guide=\"is-free-camping-legal-australia\">free camps</a>, rest areas and national parks next to paid parks."
+          ],
+          "tips": [
+            "No login, no password, no code",
+            "Opens straight to the map",
+            "No ads, free to download"
+          ]
+        },
+        {
+          "heading": "What syncs, and what doesn't",
+          "body": [
+            "Your library lives in your private iCloud. With iCloud turned on, liked, starred, visited and want-to-visit places, notes, <a data-guide=\"save-collections-aussiecamps\">collections</a>, pins and trips sync between every iPhone signed in to the same Apple Account, with nothing to set up inside the app.",
+            "Sync stops at your own devices. A partner on their own Apple Account does not see your trips update, and there is no shared login to hand over. What you can do is send them the trip as a written itinerary, with stops, dates, distances and weather, or send single places as links that open in Maps."
+          ],
+          "tips": [
+            "Private iCloud, your own devices",
+            "No shared login or shared trips",
+            "Send the itinerary instead"
+          ]
+        },
+        {
+          "heading": "Is no account the right trade-off?",
+          "body": [
+            "An account does buy <a data-guide=\"wikicamps-alternatives\">WikiCamps</a> users something: their data follows the account to any device they sign in on, including Android, and shared trip links now open inside the app. AussieCamps cannot do those things, because it has no account and runs only on iPhone.",
+            "If you travel on iPhone and the sign-ins are what wear you down, an app with no login removes the problem at its root rather than patching it. Our <a data-guide=\"wikicamps-vs-aussiecamps\">WikiCamps vs AussieCamps</a> comparison sets out the other differences, from ads and filters to what works without signal."
+          ],
+          "tips": [
+            "Accounts help across platforms",
+            "AussieCamps is iPhone only",
+            "No login removes the sign-in problem"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Why does WikiCamps need an account?",
+          "The account arrived with version 6, the rebuilt app released in Australia in September 2024. Your purchase and saved data are tied to it, and WikiCamps says the same account can sign in on several devices."
+        ],
+        [
+          "Why does WikiCamps keep logging me out?",
+          "Being signed out is one of the most reported problems since version 6, raised in about 39 of the 150 most recent Australian App Store reviews. WikiCamps released a sign-out fix in November 2025, but reviewers still mentioned it in October 2026."
+        ],
+        [
+          "Is there a camping app without a login?",
+          "Yes. AussieCamps for iPhone has no account at all. It opens straight to the map, and your saved places and trips sync through your private iCloud."
+        ],
+        [
+          "Do I need to sign up for AussieCamps?",
+          "No. There is no sign-up, email or password. Download it and the map opens; any in-app purchase goes through your Apple Account."
+        ],
+        [
+          "How does AussieCamps sync between my devices?",
+          "Through iCloud. With iCloud on and the same Apple Account on each iPhone, your saved places, collections, pins and trips stay in step by themselves. Nothing syncs to another person's account."
+        ]
+      ],
+      "sources": [],
       "priceTable": null
     }
   }
