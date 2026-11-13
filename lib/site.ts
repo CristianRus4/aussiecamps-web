@@ -388,12 +388,10 @@ const writtenArticles: Article[] = [
   ...a10Articles,
   ...a11Articles,
   ...a12Articles,
+  ...wikiA1Articles,
   ...wikiA2Articles,
 // Each guide gets its own two-question FAQ attached by slug (see lib/article-faqs.ts).
-].map((article) => { const faq = articleFaqs[article.slug] ?? canIFaqs[article.slug] ?? driveFaqs[article.slug] ?? costsFaqs[article.slug] ?? a4Faqs[article.slug] ?? a5Faqs[article.slug] ?? a6Faqs[article.slug] ?? a7Faqs[article.slug] ?? a8Faqs[article.slug] ?? a9Faqs[article.slug] ?? a10Faqs[article.slug] ?? a11Faqs[article.slug] ?? a12Faqs[article.slug] ?? wikiA2Faqs[article.slug]; return faq ? { ...article, faq } : article; })
-  ...wikiA1Articles,
-// Each guide gets its own two-question FAQ attached by slug (see lib/article-faqs.ts).
-].map((article) => { const faq = articleFaqs[article.slug] ?? canIFaqs[article.slug] ?? driveFaqs[article.slug] ?? costsFaqs[article.slug] ?? a4Faqs[article.slug] ?? a5Faqs[article.slug] ?? a6Faqs[article.slug] ?? a7Faqs[article.slug] ?? a8Faqs[article.slug] ?? a9Faqs[article.slug] ?? a10Faqs[article.slug] ?? a11Faqs[article.slug] ?? a12Faqs[article.slug] ?? wikiA1Faqs[article.slug]; return faq ? { ...article, faq } : article; })
+].map((article) => { const faq = articleFaqs[article.slug] ?? canIFaqs[article.slug] ?? driveFaqs[article.slug] ?? costsFaqs[article.slug] ?? a4Faqs[article.slug] ?? a5Faqs[article.slug] ?? a6Faqs[article.slug] ?? a7Faqs[article.slug] ?? a8Faqs[article.slug] ?? a9Faqs[article.slug] ?? a10Faqs[article.slug] ?? a11Faqs[article.slug] ?? a12Faqs[article.slug] ?? wikiA1Faqs[article.slug] ?? wikiA2Faqs[article.slug]; return faq ? { ...article, faq } : article; })
   // After the list, not in it: scripts/build-article-dates.mjs dates the last guide by the text up to "\n]".
   .concat(scheduleFixture<Article>() ?? []);
 // Screenshot figures go on after the list too, so the article literals stay untouched (lib/screen-figures.ts).
