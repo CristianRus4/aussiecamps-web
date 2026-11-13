@@ -46,6 +46,7 @@ import { a9Articles, a9Faqs } from "@/lib/a9-articles";
 import { a10Articles, a10Faqs } from "@/lib/a10-articles";
 import { a11Articles, a11Faqs } from "@/lib/a11-articles";
 import { a12Articles, a12Faqs } from "@/lib/a12-articles";
+import { wikiA1Articles, wikiA1Faqs } from "@/lib/wiki-a1-articles";
 import { articleFaqs } from "@/lib/article-faqs";
 import { assertPublishAt, isPublished, scheduleFixture } from "@/lib/publish";
 import { applyScreenFigures } from "@/lib/screen-figures";
@@ -386,8 +387,9 @@ const writtenArticles: Article[] = [
   ...a10Articles,
   ...a11Articles,
   ...a12Articles,
+  ...wikiA1Articles,
 // Each guide gets its own two-question FAQ attached by slug (see lib/article-faqs.ts).
-].map((article) => { const faq = articleFaqs[article.slug] ?? canIFaqs[article.slug] ?? driveFaqs[article.slug] ?? costsFaqs[article.slug] ?? a4Faqs[article.slug] ?? a5Faqs[article.slug] ?? a6Faqs[article.slug] ?? a7Faqs[article.slug] ?? a8Faqs[article.slug] ?? a9Faqs[article.slug] ?? a10Faqs[article.slug] ?? a11Faqs[article.slug] ?? a12Faqs[article.slug]; return faq ? { ...article, faq } : article; })
+].map((article) => { const faq = articleFaqs[article.slug] ?? canIFaqs[article.slug] ?? driveFaqs[article.slug] ?? costsFaqs[article.slug] ?? a4Faqs[article.slug] ?? a5Faqs[article.slug] ?? a6Faqs[article.slug] ?? a7Faqs[article.slug] ?? a8Faqs[article.slug] ?? a9Faqs[article.slug] ?? a10Faqs[article.slug] ?? a11Faqs[article.slug] ?? a12Faqs[article.slug] ?? wikiA1Faqs[article.slug]; return faq ? { ...article, faq } : article; })
   // After the list, not in it: scripts/build-article-dates.mjs dates the last guide by the text up to "\n]".
   .concat(scheduleFixture<Article>() ?? []);
 // Screenshot figures go on after the list too, so the article literals stay untouched (lib/screen-figures.ts).
