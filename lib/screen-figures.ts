@@ -81,6 +81,7 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "does-wikicamps-work-offline", section: 3, src: "/images/screens/does-wikicamps-work-offline.webp", alt: "AussieCamps on iPhone: the Mount Buffalo National Park page in Victoria with its description and amenities" },
   { slug: "moving-from-wikicamps", section: 2, src: "/images/screens/moving-from-wikicamps.webp", alt: "AussieCamps on iPhone: the Collections screen with Liked, Starred, Want to visit, Visited, Pins and All saved, and saved camping road trip guides underneath" },
   { slug: "share-camping-trip-aussiecamps", section: 0, src: "/images/screens/share-camping-trip-aussiecamps.webp", alt: "AussieCamps on iPhone: the Blue Mountains camping weekend road trip on the map, with the route, dump points and the weather forecast along it" },
+  { slug: "free-camps-missing-wikicamps", section: 2, src: "/images/screens/free-camps-missing-wikicamps.webp", alt: "AussieCamps on iPhone: the Lucky Bay Campground page with its amenities and features" },
   { slug: "first-two-weeks-working-holiday-australia", section: 6, src: "/images/screens/first-two-weeks-working-holiday-australia.webp", alt: "AussieCamps on iPhone: the RAC Cable Beach Holiday Park page in Broome, Western Australia, with its address, opening hours, a Paid label and a Book now button" },
 ];
 

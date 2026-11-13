@@ -591,6 +591,7 @@
     "does-wikicamps-work-offline": "For your next trip out of range, the <a>AussieCamps app</a> keeps every campground, rest area and dump point detail on your phone, with no account to sign in to.",
     "moving-from-wikicamps": "To make the move quickly, the <a>AussieCamps app</a> opens straight to the map with no account, and your saved places and trips sync through your own iCloud.",
     "share-camping-trip-aussiecamps": "To plan as a pair, the <a>AussieCamps app</a> sends your whole trip as a readable itinerary, with every stop, date, distance and forecast.",
+    "free-camps-missing-wikicamps": "To find free nights from official sources, the <a>AussieCamps app</a> maps free campgrounds, rest areas, water and dump points, with a Free option under its Cost filter.",
     "best-road-trip-planner-apps-australia": "In the <a>AussieCamps app</a> you save campgrounds as stops, drag them into order and see the distance, date and weather for each one.",
     "campfires-camping-australia": "Before you light one, the <a>AussieCamps app</a> shows each campground's conditions, current alerts and weather, so you can check the site and the day together."
   },
@@ -39864,6 +39865,180 @@
       "sources": [
         {
           "label": "Apple Support: iCloud"
+        }
+      ],
+      "priceTable": null
+    },
+    "free-camps-missing-wikicamps": {
+      "title": "Free Camps Missing From WikiCamps? Find Them in Official Data",
+      "description": "Some travellers say free camps vanished from WikiCamps. How to find free campgrounds, rest areas, water and dump points from official sources in AussieCamps.",
+      "region": "Australia",
+      "imageAlt": "A roadside rest area with toilet blocks under eucalypts on the New England Highway in New South Wales",
+      "intro": "Some travellers say free camps have gone missing from WikiCamps since its rebuilt app, while WikiCamps says it does not remove them, and as of November 2026 there is no independent evidence either way. Whatever the answer, free campgrounds, rest areas and the water and dump points around them are published by the agencies that run them. AussieCamps, which we make, lists them from park agencies and road authorities, and choosing Free under its Cost filter puts them on the map. Here is what each side says, where free camping data comes from, and how to find a free night in AussieCamps.",
+      "sections": [
+        {
+          "heading": "What travellers report, and what WikiCamps says",
+          "body": [
+            "Missing <a data-guide=\"is-free-camping-legal-australia\">free camps</a> are a recurring theme in recent Australian App Store reviews of WikiCamps, raised in about 11 of the latest 150. A December 2025 reviewer wrote that “Lots of free camps have been removed and paid camps added”, and others since mid-2025 say the same about spots they used to find.",
+            "<a data-guide=\"wikicamps-alternatives\">WikiCamps</a> disagrees. In replies to reviews it has said sites are not removed because paid options are nearby. For context, WikiCamps has been owned by G'day Group, the company behind Discovery Parks and G'day Parks, since 2022, and recent updates added park bookings and G'day prices.",
+            "We could not find any independent check of the claim, so this guide does not take a side. Reviewers' memories of a listing can be wrong, community listings get merged or closed for ordinary reasons, and an app's search can hide what it still holds. What you can do is go to the sources that publish free places in the first place."
+          ],
+          "tips": [
+            "About 11 of 150 reviews raise it",
+            "WikiCamps says sites are not removed",
+            "No independent evidence either way"
+          ]
+        },
+        {
+          "heading": "Where free camping data comes from",
+          "body": [
+            "Free nights in Australia come from four kinds of source. Park agencies publish their national park and state forest campgrounds, some free and many with a modest fee. Road authorities such as Transport for NSW, <a data-guide=\"camping-rules-queensland\">Queensland</a>'s Department of Transport and Main Roads and Main Roads WA publish their rest areas. Councils set their own rules for free or donation camping, often for self-contained vehicles. Community apps gather spots travellers have found, including informal ones no agency lists.",
+            "That is why lists differ. Community listings are broad and quick to add a new spot, but can be slow to drop one that has closed. Agency lists are narrower and slower to grow, but the land manager wrote them. Comparing two apps' <a data-guide=\"is-free-camping-legal-australia\">free camps</a> is often comparing two different kinds of list, not one app hiding places."
+          ],
+          "tips": [
+            "Agencies, road authorities, councils, community",
+            "Community lists are broader",
+            "Official lists come from the land manager"
+          ]
+        },
+        {
+          "heading": "Finding free nights in AussieCamps",
+          "body": [
+            "AussieCamps opens on the map. Tap the <a data-guide=\"how-to-use-aussiecamps-filters\">filters</a>, choose Free under Cost, and the map shows free campgrounds, rest areas and other free stops from its official sources, beside the paid parks you have not filtered out. AussieCamps is independent, not owned by a holiday park group, so free places and national parks sit next to paid parks on the same map.",
+            "Then add only the features you cannot do without. Toilets, Drinking Water, Showers, Tent Sites, Caravan Sites, Camper Trailer Sites, <a data-guide=\"campfires-camping-australia\">Campfires</a> Allowed, Dogs Allowed or No Dogs: choose several and a place must have every one. Tap a result for its fees, conditions, facilities and current alerts, and check the vehicle access the agency gives, because there is no 4WD filter. The app itself is free to download, with in-app purchases, and shows no ads."
+          ],
+          "tips": [
+            "Free under Cost, in one tap",
+            "Every chosen feature must match",
+            "Read each place's conditions"
+          ],
+          "table": {
+            "caption": "Places AussieCamps lists from park agencies, road authorities and public datasets, data as of 9 September 2026.",
+            "head": [
+              "Kind of place",
+              "How many",
+              "Of which"
+            ],
+            "rows": [
+              [
+                "Campgrounds",
+                "1,838",
+                "588 with drinking water, 223 with showers"
+              ],
+              [
+                "Rest areas",
+                "5,552",
+                "1,246 with toilets"
+              ],
+              [
+                "Dump points",
+                "1,393",
+                "230 with a washout"
+              ],
+              [
+                "Drinking water points",
+                "3,004",
+                "Taps and filling points"
+              ],
+              [
+                "Public toilets",
+                "1,186",
+                "From the National Public Toilet Map"
+              ],
+              [
+                "National parks",
+                "745",
+                "Park pages with their rules"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "The support stops around a free night",
+          "body": [
+            "A run of free nights is only as long as your water and your waste tanks allow. Plan the stops around them before the campsites: a drinking water point every couple of days, a <a data-guide=\"dump-points-australia-guide\">dump point</a> before you head into a stretch of bush camps, and toilets if your vehicle has none.",
+            "AussieCamps keeps those three on the same map as the camps, so you can save a water point and a dump point on the way in and add them to the trip with the nights themselves. The aussiecamps.app website also has rest area and dump point pages by state for planning on a bigger screen."
+          ],
+          "tips": [
+            "Water every couple of days",
+            "Empty before a run of bush camps",
+            "Save the stops with the nights"
+          ]
+        },
+        {
+          "heading": "Rules before you stop for free",
+          "body": [
+            "Free does not mean anything goes. Rest area rules change between states and even between sites: some allow an overnight stay, some limit how many hours you can stop, and some ban camping outright. Councils may require a self-contained vehicle, and many national park campgrounds need booking, free ones included.",
+            "Whatever an app shows, what is posted at the entrance and in the managing agency's latest notices is what counts, so read both before you unhitch. Leave the spot as clean as you found it so it stays open for the next traveller."
+          ],
+          "tips": [
+            "Each state sets its own rules",
+            "Some councils require self-contained",
+            "The sign has the final word"
+          ]
+        },
+        {
+          "heading": "What official data does not cover",
+          "body": [
+            "AussieCamps does not list every free spot in the country. A riverbank a local told you about, a station that lets travellers stop, or an informal clearing known only to a community app may not be there. If you have one of those, drop a pin on the map and save it under <a data-guide=\"save-collections-aussiecamps\">Collections</a> > Pins, where you can open directions to it later.",
+            "If informal spots and fellow travellers' reviews are the heart of how you camp, a community app still has a place on your phone. Many travellers use one for those and AussieCamps for the official campgrounds, rest areas, water and <a data-guide=\"dump-points-australia-guide\">dump points</a>."
+          ],
+          "tips": [
+            "Not every informal spot is listed",
+            "Save your own finds as pins",
+            "Some travellers keep both"
+          ]
+        },
+        {
+          "heading": "Find your next free night in AussieCamps",
+          "body": [
+            "Install AussieCamps, open the map where you will be tonight, choose Free under Cost and add Toilets if you need them. There is no account to create first, so you are looking at free stops within a minute.",
+            "Whichever app you use, confirm the rules on the sign and with the land manager, and check <a data-guide=\"campfires-camping-australia\">fire bans</a> and closures on the day."
+          ],
+          "tips": [
+            "No account, straight to the map",
+            "Free under Cost, then Toilets",
+            "Confirm rules on the day"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Did WikiCamps remove free camps?",
+          "Some reviewers believe so. WikiCamps has replied to such reviews that it does not remove sites because paid options are nearby. As of November 2026 we found no independent evidence either way."
+        ],
+        [
+          "What is the best app for free camping in Australia?",
+          "It depends on the spots you want. For official free campgrounds, rest areas, dump points and water on iPhone, AussieCamps lists them from park agencies and road authorities, with a Free option under its Cost filter. Community apps add informal spots that official lists leave out."
+        ],
+        [
+          "How do I find free campsites near me?",
+          "In AussieCamps, move the map to where you are, open the filters and choose Free under Cost. Add Toilets or Drinking Water if you need them, then tap each result to read its conditions before you go."
+        ],
+        [
+          "Can you camp at rest areas in Australia?",
+          "Sometimes. Each state and road authority sets its own rules, and the sign at the rest area has the final word: some allow an overnight stop, some limit how many hours you stay, and some ban camping. Check before you set up."
+        ],
+        [
+          "Where can I find dump points and water on a trip?",
+          "AussieCamps lists 1,393 dump points, 230 of them with a washout, and 3,004 drinking water points from public sources. Filter the map along your route and save the ones before a run of free camps."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Service NSW: find rest areas in NSW"
+        },
+        {
+          "label": "Queensland Government: rest areas"
+        },
+        {
+          "label": "Main Roads WA: policy and guidelines for rest areas on main roads and highways"
+        },
+        {
+          "label": "NT Government: roadside rest areas policy"
+        },
+        {
+          "label": "National Public Toilet Map: about the map"
         }
       ],
       "priceTable": null
