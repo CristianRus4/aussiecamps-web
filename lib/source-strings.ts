@@ -570,7 +570,7 @@ export const introCtaStrings = {
   "australia-road-rules-state-differences": "When a trip crosses several states, the <a>AussieCamps app</a> keeps the route in order stop by stop, with the distance of each leg and a note on each stop for the rules that change at the next border.",
   "best-fuel-price-apps-australia": "What it does do is plan the drive: the <a>AussieCamps app</a> shows the distance of every leg between your stops, so you can work out where to fill up.",
   "wikicamps-alternatives": "If you want to try ours, the <a>AussieCamps app</a> combines a map of campgrounds, rest areas and dump points with detailed filters and a stop-by-stop trip planner.",
-  "wikicamps-trip-planner-alternative": "To try a different planner, the <a>AussieCamps app</a> turns campgrounds and rest areas into an ordered trip with a date, a note and the distance of every leg.",
+  "wikicamps-trip-planner-alternative": "To try a different planner, the <a>AussieCamps app</a> plans your trip from Home to any address, with the distance and drive time of every leg.",
   "does-wikicamps-work-offline": "For your next trip out of range, the <a>AussieCamps app</a> keeps every campground, rest area and dump point detail on your phone, with no account to sign in to.",
   "is-wikicamps-free": "To try the option with no account, <a>get AussieCamps for iPhone</a>: it is free to download and opens straight to a map of campgrounds, rest areas and dump points.",
   "moving-from-wikicamps": "To make the move quickly, the <a>AussieCamps app</a> opens straight to the map with no account, and your saved places and trips sync through your own iCloud.",
@@ -580,6 +580,8 @@ export const introCtaStrings = {
   "wikicamps-vs-aussiecamps": "To compare for yourself, <a>get AussieCamps for iPhone</a>; it is free to download and asks for no account before you search.",
   "wikicamps-for-pc": "For the trip itself, the <a>AussieCamps app</a> builds your stops on iPhone with the distance of every leg, and there is nothing to sign into.",
   "wikicamps-login-account": "If you would rather have no login at all, <a>get AussieCamps for iPhone</a>: no account, no email code, and your saved places sync through your own iCloud.",
+  "share-camping-trip-aussiecamps": "To plan as a pair, the <a>AussieCamps app</a> lets you both edit the same trip live through iCloud, with no account to set up.",
+  "free-camps-missing-wikicamps": "To find free stops from official sources, the <a>AussieCamps app</a> maps free rest areas, water points, dump points and toilets with one Free filter.",
   "best-road-trip-planner-apps-australia": "In the <a>AussieCamps app</a> you save campgrounds as stops, drag them into order and see the distance, date and weather for each one.",
   "campfires-camping-australia": "Before you light one, the <a>AussieCamps app</a> shows each campground's conditions, current alerts and weather, so you can check the site and the day together.",
 } satisfies Record<string, string>;
