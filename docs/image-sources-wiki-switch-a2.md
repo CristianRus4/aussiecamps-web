@@ -5,3 +5,4 @@ Each hero below reuses a photograph already on the site, copied to the guide's o
 | Article slug | Photograph subject | Creator | Source page | License | License URL |
 | --- | --- | --- | --- | --- | --- |
 | `wikicamps-trip-planner-alternative` | Toyota Land Cruiser Prado towing a Jayco caravan at Bunda Cliffs | Bahnfrend | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Toyota_Land_Cruiser_Prado_%2B_Jayco_Starcraft,_Bunda_Cliffs,_2017_%2801%29.jpg) | CC BY-SA 4.0 | https://creativecommons.org/licenses/by-sa/4.0/ |
+| `does-wikicamps-work-offline` | Tjukaruru Road, a red dirt road through desert scrub with Kata Tjuta on the horizon, east of Docker River in the Northern Territory | Statiopontis | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tjukaruru_Road.jpeg) | CC BY-SA 4.0 | https://creativecommons.org/licenses/by-sa/4.0/ |
