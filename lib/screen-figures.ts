@@ -19,6 +19,7 @@ export const screenFigures: readonly ScreenFigure[] = [
   { slug: "is-wikicamps-free", section: 4, src: "/images/screens/best-free-camping-apps-australia.webp", alt: "AussieCamps on iPhone: the Lucky Bay Campground page with its amenities and features" },
   { slug: "is-wikicamps-worth-it", section: 6, src: "/images/screens/best-camping-app-australia.webp", alt: "AussieCamps on iPhone: the Karijini National Park page with its amenities and features" },
   { slug: "wikicamps-vs-aussiecamps", section: 5, src: "/images/screens/best-road-trip-planner-apps-australia.webp", alt: "AussieCamps on iPhone: the Perth to Broome road trip on the map, with the forecast along the way" },
+  { slug: "wikicamps-for-pc", section: 4, src: "/images/screens/best-fuel-price-apps-australia.webp", alt: "AussieCamps on iPhone: the Adelaide to Uluru road trip on the map, with the weather along the route" },
   { slug: "campermate-alternatives", section: 2, src: "/images/screens/campermate-alternatives.webp", alt: "AussieCamps on iPhone: the Ikara-Flinders Ranges National Park page with its park details" },
   { slug: "best-fuel-price-apps-australia", section: 9, src: "/images/screens/best-fuel-price-apps-australia.webp", alt: "AussieCamps on iPhone: the Adelaide to Uluru road trip on the map, with the weather along the route" },
   { slug: "best-road-trip-planner-apps-australia", section: 1, src: "/images/screens/best-road-trip-planner-apps-australia.webp", alt: "AussieCamps on iPhone: the Perth to Broome road trip on the map, with the forecast along the way" },
