@@ -35,3 +35,17 @@ stays DNS only (GitHub redirects it). The Worker runs on the route `aussiecamps.
 
 Rollback: remove the route in places-worker/wrangler.jsonc and deploy (the extra pages then 404,
 everything else is unaffected), or set the `A` records back to DNS only.
+
+## Moving to R2 (no file limit)
+
+Workers static assets allow 20,000 files on the free plan. The Worker and its upload script are ready for
+R2 (free: 10 GB, no file limit); it only needs R2 enabled on the account (Cristian: Cloudflare dashboard ›
+R2 Object Storage › enable). Then:
+
+1. `npx wrangler r2 bucket create aussiecamps-places`
+2. places-worker/wrangler.jsonc: replace `"assets": {…}` with
+   `"r2_buckets": [{ "binding": "PLACES", "bucket_name": "aussiecamps-places" }]` (keep the route).
+3. pages.yml, the Cloudflare step: set `PLACES_R2: "1"` in its env and run
+   `node scripts/sync-places-r2.mjs aussiecamps-places worker-dist` before `npx wrangler deploy`. The sync uploads
+   only pages whose MD5 changed and deletes removed ones.
+4. Test on workers.dev, then live; the static-assets copy goes with the deploy that drops `"assets"`.

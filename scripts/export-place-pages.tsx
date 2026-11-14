@@ -136,10 +136,11 @@ if (process.argv[1] && resolve(process.argv[1]) === resolve(import.meta.filename
   {
     const dir = resolve(root, process.argv[outIndex + 1]);
     rmSync(dir, { recursive: true, force: true });
-    // Until the pages move to R2 (no file limit), any beyond the Worker's 20,000 files go into the GitHub
-    // Pages export instead, the places without coordinates first; the Worker passes those paths through.
-    const overflow = new Set([...stubs].sort((a, b) => Number(Number.isFinite(a.lat)) - Number(Number.isFinite(b.lat)) || a.id.localeCompare(b.id))
+    // Until the pages move to R2 (no file limit; PLACES_R2=1), any beyond the Worker's 20,000 files go into
+    // the GitHub Pages export instead, the places without coordinates first; the Worker passes those through.
+    const overflow = process.env.PLACES_R2 ? new Set() : new Set([...stubs].sort((a, b) => Number(Number.isFinite(a.lat)) - Number(Number.isFinite(b.lat)) || a.id.localeCompare(b.id))
       .slice(0, Math.max(0, stubs.length + 1 - WORKER_FILE_LIMIT)));
+    if (process.env.PLACES_R2) console.log("PLACES_R2: every page goes to R2, no file limit.");
     let bytes = 0;
     for (const place of stubs) {
       assert.ok(!existsSync(fileFor(placePath(place))), `${placePath(place)} already has a full page`);
@@ -152,7 +153,7 @@ if (process.argv[1] && resolve(process.argv[1]) === resolve(import.meta.filename
     // GitHub Pages' caching, for the same pages served from the Worker.
     writeFileSync(resolve(dir, "_headers"), "/places/*\n  Cache-Control: public, max-age=600\n");
     const files = stubs.length - overflow.size + 1;
-    assert.ok(files <= WORKER_FILE_LIMIT, `${files} files is over the Workers free plan's ${WORKER_FILE_LIMIT} per version`);
+    assert.ok(process.env.PLACES_R2 || files <= WORKER_FILE_LIMIT, `${files} files is over the Workers free plan's ${WORKER_FILE_LIMIT} per version`);
     console.log(`Wrote ${stubs.length - overflow.size} place pages without a listing to ${process.argv[outIndex + 1]} (${files} files: ${WORKER_FILE_LIMIT - files} left under the free plan's ${WORKER_FILE_LIMIT})${overflow.size ? ` and ${overflow.size} into the Pages export` : ""}, ${(bytes / 1048576).toFixed(0)} MB in all.`);
   }
 }
