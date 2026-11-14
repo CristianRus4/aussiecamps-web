@@ -154,6 +154,7 @@ if (process.argv[1] && resolve(process.argv[1]) === resolve(import.meta.filename
     writeFileSync(resolve(dir, "_headers"), "/places/*\n  Cache-Control: public, max-age=600\n");
     const files = stubs.length - overflow.size + 1;
     assert.ok(process.env.PLACES_R2 || files <= WORKER_FILE_LIMIT, `${files} files is over the Workers free plan's ${WORKER_FILE_LIMIT} per version`);
-    console.log(`Wrote ${stubs.length - overflow.size} place pages without a listing to ${process.argv[outIndex + 1]} (${files} files: ${WORKER_FILE_LIMIT - files} left under the free plan's ${WORKER_FILE_LIMIT})${overflow.size ? ` and ${overflow.size} into the Pages export` : ""}, ${(bytes / 1048576).toFixed(0)} MB in all.`);
+    const room = process.env.PLACES_R2 ? "for R2" : `${files} files: ${WORKER_FILE_LIMIT - files} left under the free plan's ${WORKER_FILE_LIMIT}`;
+    console.log(`Wrote ${stubs.length - overflow.size} place pages without a listing to ${process.argv[outIndex + 1]} (${room})${overflow.size ? ` and ${overflow.size} into the Pages export` : ""}, ${(bytes / 1048576).toFixed(0)} MB in all.`);
   }
 }

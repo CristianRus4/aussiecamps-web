@@ -51,3 +51,4 @@ tsconfig.tsbuildinfo
 # The Cloudflare Worker's place pages (npm run places:worker), never part of the Pages export
 /worker-dist
 /places-worker/.wrangler
+/r2-dist
