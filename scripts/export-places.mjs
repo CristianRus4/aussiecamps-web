@@ -23,8 +23,9 @@
  * credit. Pages show part of the description and amenities and send readers to the app for the rest, so
  * the export keeps only that part: the full text and amenity lists never enter the data.
  *
- * Every place the app lists (every row of the app's database with coordinates) gets a page, so the app
- * can share any of them as a link that opens in the app (Cristian, 14 Nov 2026):
+ * Every place the app lists (every row of the database the app ships, Aussie/Resources/australia_db.sqlite,
+ * with or without coordinates: the app opens any place by id) gets a page, so the app can share any of them
+ * as a link that opens in the app (Cristian, 14 Nov 2026):
  *   - a full page (the React template, indexed) for an open campground, park, reserve, walking track,
  *     marine park or historic site from a parks agency with a photo that loads and a description of 80
  *     characters or more, and for a live holiday park on our BookEasy agent link;
@@ -50,7 +51,8 @@ import { placePagesOut, writePlacePages } from "./place-links.mjs";
 
 const repo = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const appRepo = resolve(process.env.CAMPING_APP_DATA ?? "/Users/cristian/Developer/Apps/AppStore/Camping");
-const sourcePath = resolve(appRepo, "Scraper/data/australia_db.sqlite");
+/** The database the app ships (Aussie/Resources, in the AussieCamping target), so every place it lists has a page. */
+const sourcePath = resolve(appRepo, "Aussie/Resources/australia_db.sqlite");
 const plainPath = resolve(repo, "lib/data/places.json");
 const encryptedPath = resolve(repo, "lib/data/places.json.enc");
 const probePath = resolve(repo, "lib/data/places.photos.json");
@@ -80,6 +82,8 @@ const STATES = {
   VIC: { slug: "victoria", name: "Victoria" }, WA: { slug: "western-australia", name: "Western Australia" },
   NI: { slug: "norfolk-island", name: "Norfolk Island" },
 };
+/** For a place with no state, no coordinates and no locality the database can place. */
+const NOWHERE = { slug: "australia", name: "Australia" };
 
 /** The credit line under each page's photos and description: short, with the licence where there is one. */
 const CREDITS = {
@@ -218,9 +222,10 @@ try {
   // Every place the app lists: every type and status, as long as it has coordinates.
   const sites = db.prepare(`SELECT s.Id, s.SiteName, s.SiteTypeId, s.SiteStatusId, s.State, s.Locality, s.Latitude, s.Longitude, s.Description,
       s.Operator, s.FeeCategory, s.ParkId, s.ParentName, s.PetsAllowed, s.NumberOfSites, s.Booking, s.BookingRequired, s.MaxVehicleLength
-    FROM Site s WHERE s.Latitude IS NOT NULL AND s.Longitude IS NOT NULL ORDER BY s.Id`).all();
+    FROM Site s ORDER BY s.Id`).all();
   const typeNames = new Map(db.prepare("SELECT Id, Name FROM SiteType").all().map((type) => [type.Id, type.Name]));
-  const photos = db.prepare("SELECT coalesce(UrlHiRes, Url) AS url FROM SitePhoto WHERE SiteId = ? ORDER BY IsPrimary DESC, Position, Id");
+  // The photos the app shows, in its order (CampingPlacesDatabase.swift).
+  const photos = db.prepare("SELECT Url AS url FROM Photo WHERE SiteId = ? ORDER BY IsHero DESC, SortOrder, Id");
   const amenities = db.prepare(`SELECT f.Name AS name FROM SiteFeature sf JOIN Feature f ON f.Id = sf.FeatureId JOIN FeatureGroup g ON g.Id = f.FeatureGroupId
     WHERE sf.SiteId = ? AND coalesce(f.Excluded, 0) = 0 ORDER BY g.SequenceNumber, f.Name`);
   const parks = new Map(db.prepare("SELECT Id, Name FROM Park").all().map((park) => [park.Id, park.Name]));
@@ -228,12 +233,19 @@ try {
   const activities = db.prepare("SELECT DISTINCT a.Name AS name FROM SiteActivity sa JOIN Activity a ON a.Id = sa.ActivityId WHERE sa.SiteId = ? ORDER BY a.Name");
   const access = db.prepare("SELECT RoadQuality AS road, VehicleAccess AS vehicle, WeatherRestrictions AS weather FROM SiteAccess WHERE SiteId = ?");
 
-  // A place with no state (or one outside the eight) takes the state of its nearest neighbour that has one.
-  const located = sites.filter((site) => STATES[site.State]);
-  const stateOf = (site) => STATES[site.State] ?? STATES[located.reduce((best, other) => {
-    const distance = km({ lat: site.Latitude, lng: site.Longitude }, { lat: other.Latitude, lng: other.Longitude });
-    return distance < best.distance ? { site: other, distance } : best;
-  }, { site: undefined, distance: Infinity }).site.State];
+  // A place with no state (or one outside the eight) takes the state of its nearest neighbour that has one;
+  // without coordinates, the state other places in its locality have.
+  const hasPoint = (site) => site.Latitude !== null && site.Longitude !== null;
+  const located = sites.filter((site) => STATES[site.State] && hasPoint(site));
+  const localityStates = new Map();
+  for (const site of sites) if (STATES[site.State] && site.Locality) localityStates.set(site.Locality.toLowerCase(), localityStates.get(site.Locality.toLowerCase()) ?? site.State);
+  const stateOf = (site) => STATES[site.State]
+    ?? (hasPoint(site) ? STATES[located.reduce((best, other) => {
+      const distance = km({ lat: site.Latitude, lng: site.Longitude }, { lat: other.Latitude, lng: other.Longitude });
+      return distance < best.distance ? { site: other, distance } : best;
+    }, { site: undefined, distance: Infinity }).site.State] : undefined)
+    ?? STATES[localityStates.get((site.Locality ?? "").toLowerCase())]
+    ?? NOWHERE;
 
   const candidates = [];
   const rest = [];
@@ -248,7 +260,8 @@ try {
     const route = access.get(site.Id);
     const entry = { site, state, credit, description, urls, list, route, live };
     // The camping places can have a full page; holiday parks only as a live listing on our BookEasy agent link.
-    const camping = TYPES.includes(site.SiteTypeId) && site.SiteStatusId === 1 && credit && STATES[site.State]
+    // A full page needs coordinates (its map); a place without them gets the same page, without the map.
+    const camping = TYPES.includes(site.SiteTypeId) && site.SiteStatusId === 1 && credit && STATES[site.State] && hasPoint(site)
       && (!holidayPark || (live?.Active === 1 && BOOKEASY_AGENT.test(site.Booking ?? "") && urls.length > 0 && description.length >= MIN_DESCRIPTION));
     if (!camping) { rest.push(entry); continue; }
     const doing = activities.all(site.Id).map((row) => row.name.trim()).filter(Boolean);
@@ -303,7 +316,7 @@ try {
       id: site.Id, slug, type: site.SiteTypeId, name: clean(site.SiteName), state: site.State, stateSlug: state.slug, stateName: state.name,
       park: site.SiteTypeId === "campground" ? (parks.get(site.ParkId) ?? clean(site.ParentName)) || null : null,
       locality: clean(site.Locality) || null,
-      lat: Number(site.Latitude.toFixed(4)), lng: Number(site.Longitude.toFixed(4)),
+      lat: hasPoint(site) ? Number(site.Latitude.toFixed(4)) : null, lng: hasPoint(site) ? Number(site.Longitude.toFixed(4)) : null,
       description: text.text, descriptionMore: text.more,
       amenities: holidayPark ? entry.list : entry.list.slice(0, SHOWN_AMENITIES), amenityCount: entry.list.length,
       fee: site.FeeCategory ?? null, pets: site.PetsAllowed ?? null, sites: site.NumberOfSites ?? null,
@@ -335,7 +348,7 @@ try {
       name: clean(site.SiteName) || typeNames.get(site.SiteTypeId) || "Place", state: site.State ?? null, stateSlug: state.slug, stateName: state.name,
       park: site.SiteTypeId === "campground" ? (parks.get(site.ParkId) ?? clean(site.ParentName)) || null : null,
       locality: clean(site.Locality) || null,
-      lat: Number(site.Latitude.toFixed(4)), lng: Number(site.Longitude.toFixed(4)),
+      lat: hasPoint(site) ? Number(site.Latitude.toFixed(4)) : null, lng: hasPoint(site) ? Number(site.Longitude.toFixed(4)) : null,
       description: text.text, descriptionMore: text.more,
       amenities: entry.list.slice(0, holidayPark || live ? 40 : SHOWN_AMENITIES), amenityCount: entry.list.length,
       fee: site.FeeCategory || null, pets: site.PetsAllowed ?? null, sites: site.NumberOfSites ?? null,

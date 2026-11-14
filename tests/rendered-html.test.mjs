@@ -727,20 +727,17 @@ test("screen figures fail the build when they point at nothing", async () => {
   assert.doesNotMatch(JSON.stringify(translationSource().articles), /images\/screens|"figure"/);
 });
 
-test("the places without a listing are published from the same template, noindex, or not at all", async () => {
+test("any place without a listing that is in the Pages export is the same template, noindex", async () => {
   await exportedPages();
-  const { places } = JSON.parse(await readFile(new URL("../lib/data/place-stubs.json", import.meta.url), "utf8"));
-  const written = stubCache;
-  // scripts/export-place-pages.tsx writes all of them or, when the site would pass its size budget, none.
-  assert.ok(written.length === 0 || written.length === places.length, `${written.length} of ${places.length} written`);
-  if (!written.length) return;
+  // Most are on the Cloudflare Worker (scripts/export-place-pages.tsx --out); any beyond its file limit are here.
   const listed = (await Promise.all((await readdir(new URL("sitemaps/", dist))).map((file) => readFile(new URL(`sitemaps/${file}`, dist), "utf8")))).join("");
-  for (const page of written) {
+  for (const page of stubCache) {
+    const html = page.html;
     const url = `https://aussiecamps.app${page.route}`;
-    assert.match(page.html, /<main class="[^"]*" data-page-kind="place"|<main data-page-kind="place"/, `${page.route} is not the place template`);
-    assert.match(page.html, /<meta name="robots" content="noindex, follow"\/>/, `${page.route} must be noindex`);
-    assert.ok(page.html.includes(`<link rel="canonical" href="${url}"/>`), `${page.route} canonical`);
-    assert.ok(page.html.includes(`app-argument=${url}"`), `${page.route} banner app-argument`);
+    assert.match(html, /data-page-kind="place"/, `${page.route} is not the place template`);
+    assert.match(html, /<meta name="robots" content="noindex, follow"\/>/, `${page.route} must be noindex`);
+    assert.ok(html.includes(`<link rel="canonical" href="${url}"/>`), `${page.route} canonical`);
+    assert.ok(html.includes(`app-argument=${url}"`), `${page.route} banner app-argument`);
     assert.ok(!listed.includes(url), `${page.route} is in a sitemap`);
   }
 });

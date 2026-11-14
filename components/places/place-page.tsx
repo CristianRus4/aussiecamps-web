@@ -58,6 +58,8 @@ export function PlacePage({ place }: { place: Place }) {
   const guides = placeGuides(place).flatMap((slug) => getArticle(slug) ?? []);
   const shown = place.photos.length >= 5 ? 5 : place.photos.length >= 3 ? 3 : place.photos.length;
   const camping = isCampingType(place.type);
+  // A few places have no coordinates (the app still opens them by id): their page has no map.
+  const located = Number.isFinite(place.lat) && Number.isFinite(place.lng);
   const morePhotos = place.photoCount - shown;
 
   const schema = {
@@ -68,7 +70,7 @@ export function PlacePage({ place }: { place: Place }) {
         "@id": `${url}#place`, name: place.name, url, description: summary.join(" "),
         image: place.photos.map(photoUrl),
         address: { "@type": "PostalAddress", ...(place.locality ? { addressLocality: place.locality } : {}), addressRegion: place.stateName, addressCountry: "AU" },
-        geo: { "@type": "GeoCoordinates", latitude: place.lat, longitude: place.lng },
+        ...(located ? { geo: { "@type": "GeoCoordinates", latitude: place.lat, longitude: place.lng } } : {}),
         ...(place.park ? { containedInPlace: { "@type": "Park", name: place.park } } : {}),
         ...(place.amenities.length ? { amenityFeature: place.amenities.map((name) => ({ "@type": "LocationFeatureSpecification", name, value: true })) } : {}),
         ...(place.pets === 1 || place.pets === 0 ? { petsAllowed: place.pets === 1 } : {}),
@@ -125,7 +127,7 @@ export function PlacePage({ place }: { place: Place }) {
               <section>
                 <h2>Location</h2>
                 <p>{place.locality && `${place.locality}, `}{place.park && (parkHub ? <><Link href={parkHub}>{place.park}</Link>, </> : `${place.park}, `)}{stateHub ? <Link href={stateHub}>{place.stateName}</Link> : place.stateName}</p>
-                <PlaceMap points={nearby.map(({ place: other }) => [other.lng, other.lat] as [number, number])} labels={nearby.map(({ place: other }) => mapLabel(other))} focus={[place.lng, place.lat]} label={`${place.name} on the map`} precision={3} small><MapsButton place={place} /></PlaceMap>
+                {located && <PlaceMap points={nearby.map(({ place: other }) => [other.lng, other.lat] as [number, number])} labels={nearby.map(({ place: other }) => mapLabel(other))} focus={[place.lng, place.lat]} label={`${place.name} on the map`} precision={3} small><MapsButton place={place} /></PlaceMap>}
               </section>
               {nearby.length > 0 && <section>
                 <h2>Nearby</h2>
