@@ -78,7 +78,8 @@ for (const route of routes) {
   // Every section heading must have prose beneath it, not just a tips box.
   for (const section of body.matchAll(/<section[^>]*>([\s\S]*?)<\/section>/g)) {
     const inner = section[1];
-    if (!/<h2/.test(inner) || /place-chips|price-table|sources/.test(inner)) continue;
+    // The "Places to camp in …" cards (components/places/place-cards.tsx) are a list of places, not prose.
+    if (!/<h2/.test(inner) || /place-chips|price-table|sources|pl-cards-block/.test(inner)) continue;
     assert.match(inner, /<p[ >]/, `${route} has a heading with no prose under it`);
   }
   articles.push({ route, paragraphs });
