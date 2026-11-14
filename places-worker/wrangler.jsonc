@@ -14,7 +14,7 @@
     // Worker, which passes it through to GitHub Pages.
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "none"
-  }
-  // The route aussiecamps.app/places/* is added at cutover, once the domain's DNS records are proxied
-  // (docs/places-cloudflare.md).
+  },
+  // Runs on aussiecamps.app/places/* (the domain's DNS records are proxied through Cloudflare).
+  "routes": [{ "pattern": "aussiecamps.app/places/*", "zone_name": "aussiecamps.app" }]
 }
