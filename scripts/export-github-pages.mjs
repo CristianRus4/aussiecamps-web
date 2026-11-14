@@ -58,12 +58,23 @@ function prepareHtml(html, route) {
     .replace(/url\(\/(?!\/)/g, `url(${basePath}/`);
 }
 
+// /trip/ and /place/ carry what they show in the URL's hash, which the server never sees. The Smart App
+// Banner's app-argument must be the whole URL, hash included, so the app opens that trip or place after an
+// install: a script right after the banner meta, in <head>, sets it before the page renders.
+const bannerHash = `<script data-static-tools>(function(){var m=document.querySelector('meta[name="apple-itunes-app"]');if(m&&location.hash)m.setAttribute("content",m.getAttribute("content").replace(/app-argument=([^,#]*)[^,]*$/,function(_,url){return "app-argument="+url+location.hash;}));})();</script>`;
+const withBannerHash = (html, route) => {
+  if (route.kind !== "trip" && route.kind !== "place-link") return html;
+  const banner = html.match(/<meta name="apple-itunes-app"[^>]*>/);
+  assert.ok(banner && /app-argument=/.test(banner[0]), `${route.path} has no Smart App Banner with an app-argument`);
+  return html.replace(banner[0], `${banner[0]}${bannerHash}`);
+};
+
 for (const route of htmlRoutes) {
   const response = await worker.fetch(new Request(`https://pages.local${requestPath(route.path)}`, { headers: { accept: "text/html" } }), env, ctx);
   assert.equal(response.status, 200, `Could not export ${route.path}`);
   const target = targetFor(route.path);
   await mkdir(dirname(target), { recursive: true });
-  await writeFile(target, prepareHtml(await response.text(), route));
+  await writeFile(target, withBannerHash(prepareHtml(await response.text(), route), route));
 }
 
 for (const route of textRoutes) {
@@ -140,13 +151,6 @@ await writeFile(resolve(output, "404.html"), `<!doctype html>
 // Without CNAME in the artifact GitHub Pages drops the aussiecamps.app custom domain on deploy.
 if (!basePath) await cp(resolve(root, "CNAME"), resolve(output, "CNAME"));
 
-const exportedHtml = [];
-for (const route of htmlRoutes) {
-  const html = await readFile(targetFor(route.path), "utf8");
-  assert.doesNotMatch(html, /self\.__VINEXT|__VINEXT_RSC/, `${route.path} contains runtime navigation code`);
-  if (basePath) assert.doesNotMatch(html, new RegExp(`(?:href|src)="/(?!/|${basePath.slice(1)}(?:/|"))`), `${route.path} contains a root-dependent internal URL`);
-  exportedHtml.push([route.path, html]);
-}
 
 function localTarget(reference) {
   const clean = reference.split("#")[0].split("?")[0];
@@ -155,10 +159,18 @@ function localTarget(reference) {
   return /\.[a-z0-9]+$/i.test(local) ? resolve(output, local) : resolve(output, local, "index.html");
 }
 
-for (const [route, html] of exportedHtml) {
+// One page at a time: holding every exported page in memory at once ran the export out of heap.
+const checked = new Set();
+for (const route of htmlRoutes) {
+  const html = await readFile(targetFor(route.path), "utf8");
+  assert.doesNotMatch(html, /self\.__VINEXT|__VINEXT_RSC/, `${route.path} contains runtime navigation code`);
+  if (basePath) assert.doesNotMatch(html, new RegExp(`(?:href|src)="/(?!/|${basePath.slice(1)}(?:/|"))`), `${route.path} contains a root-dependent internal URL`);
+  if (only) continue;
   for (const match of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
     const target = localTarget(match[1]);
-    if (target && !only) await access(target).catch(() => assert.fail(`${route} links to missing ${match[1]}`));
+    if (!target || checked.has(target)) continue;
+    await access(target).catch(() => assert.fail(`${route.path} links to missing ${match[1]}`));
+    checked.add(target);
   }
 }
 

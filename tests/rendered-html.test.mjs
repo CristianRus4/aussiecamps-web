@@ -222,16 +222,21 @@ test("a published locale translates the whole interface", async () => {
 
 const dist = new URL("../pages-dist/", import.meta.url);
 let exportedCache;
+let stubCache;
 async function exportedPages() {
   if (exportedCache) return exportedCache;
   const names = (await readdir(dist, { recursive: true })).filter((name) => name.endsWith(".html")).sort();
   assert.ok(names.length > 500, `pages-dist holds ${names.length} HTML files; run \`npm run build:pages\` first`);
-  exportedCache = await Promise.all(names.map(async (name) => {
+  const all = await Promise.all(names.map(async (name) => {
     const html = await readFile(new URL(name, dist), "utf8");
     const route = `/${name.replace(/(^|\/)index\.html$/, "$1")}`;
     const locale = locales.find((code) => route.startsWith(`/${code}/`)) ?? "en";
     return { name, route, locale, html };
   }));
+  // The small place pages (scripts/build-place-stubs.mjs) are plain HTML outside the React build: they
+  // have their own test below, and every other test reads the React pages only.
+  exportedCache = all.filter((page) => !page.html.includes('data-page-kind="place-stub"'));
+  stubCache = all.filter((page) => page.html.includes('data-page-kind="place-stub"'));
   return exportedCache;
 }
 const attribute = (tag, name) => tag.match(new RegExp(`\\s${name}="([^"]*)"`))?.[1];
@@ -315,7 +320,7 @@ test("each page has one Smart App Banner with its own campaign, and a place page
   for (const { name, html, locale, route } of await exportedPages()) {
     if (!hasMain(html) || name === "404.html") continue;
     const banners = [...html.matchAll(/<meta name="apple-itunes-app" content="([^"]*)"/g)].map((match) => unescapeAttribute(match[1]));
-    const place = /data-page-kind="place"/.test(html) ? `https://aussiecamps.app${route}` : undefined;
+    const place = /data-page-kind="(?:place|trip|place-link)"/.test(html) ? `https://aussiecamps.app${route}` : undefined;
     assert.deepEqual(banners, [smartBannerContent(locale, place)], `${name} smart app banner`);
   }
 });
@@ -336,7 +341,7 @@ test("every guide, in every language, has the side box and the dark end box with
 });
 
 test("every page labels its <main> for analytics", async () => {
-  const kinds = ["home", "guide", "guides", "tools", "support", "legal", "hub", "tool", "place", "places", "trip"];
+  const kinds = ["home", "guide", "guides", "tools", "support", "legal", "hub", "tool", "place", "places", "trip", "place-link"];
   for (const { name, html, locale, route } of await exportedPages()) {
     if (!hasMain(html) || name === "404.html") continue;
     const main = html.match(/<main\b[^>]*>/)[0];
@@ -715,4 +720,28 @@ test("screen figures fail the build when they point at nothing", async () => {
   // The figure is data for the page, never copy: the translation source and the completeness rule ignore it.
   const { translationSource } = await import("../lib/translation-source.ts");
   assert.doesNotMatch(JSON.stringify(translationSource().articles), /images\/screens|"figure"/);
+});
+
+test("every place the app lists without a full page has a small, noindex page that opens it in the app", async () => {
+  await exportedPages();
+  const { places } = JSON.parse(await readFile(new URL("../lib/data/place-stubs.json", import.meta.url), "utf8"));
+  const pages = new Map(stubCache.map((page) => [page.route, page]));
+  assert.equal(pages.size, places.length, "one small page per place in lib/data/place-stubs.json");
+  const sitemaps = (await readdir(new URL("sitemaps/", dist))).map((file) => new URL(`sitemaps/${file}`, dist));
+  const listed = (await Promise.all(sitemaps.map((file) => readFile(file, "utf8")))).join("");
+  for (const place of places) {
+    const route = `/places/${place.stateSlug}/${place.slug}/`;
+    const page = pages.get(route);
+    assert.ok(page, `${route} was not written`);
+    const url = `https://aussiecamps.app${route}`;
+    assert.match(page.html, /<meta name="robots" content="noindex, follow">/, `${route} must be noindex`);
+    assert.ok(page.html.includes(`<link rel="canonical" href="${url}">`), `${route} canonical`);
+    assert.ok(page.html.includes(`app-argument=${url}"`), `${route} banner app-argument`);
+    assert.ok(page.html.includes(`data-open-app="aussiecamps://places/${place.stateSlug}/${place.slug}/"`), `${route} Open in app`);
+    assert.ok(!listed.includes(url), `${route} is in a sitemap`);
+    assert.ok(page.html.length < 16000, `${route} is ${page.html.length} bytes`);
+    for (const [, href] of page.html.matchAll(/<a\b[^>]*href="(https:[^"]+)"/g)) {
+      assert.match(href, /^https:\/\/(apps\.apple\.com\/|maps\.apple\.com\/|book\.bookeasy\.com\/agent\/cntxt-limited-australia-camping\/)/, `${route} links to ${href}`);
+    }
+  }
 });

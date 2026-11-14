@@ -45,4 +45,5 @@ tsconfig.tsbuildinfo
 
 # Place pages: the plain data stays on this Mac and in CI (scripts/export-places.mjs)
 /lib/data/places.json
+/lib/data/place-stubs.json
 /lib/data/places.photos.json

@@ -1,9 +1,11 @@
 import { FaApple } from "react-icons/fa6";
 import { appStoreUrl, type CtaPlacement } from "@/lib/app-store";
 import { qrSvg } from "@/lib/qr";
+import { OPEN_APP_LABEL } from "@/lib/open-app";
 
-type Placement = Extract<CtaPlacement, "card" | "listicle" | "place" | "hub" | "trip">;
-type Copy = { locale: string; placement: Placement; label: string };
+type Placement = Extract<CtaPlacement, "card" | "listicle" | "place" | "hub" | "trip" | "shared">;
+/** `openApp` (a page's app link, lib/open-app.ts) turns the store button into "Open in app". */
+type Copy = { locale: string; placement: Placement; label: string; openApp?: string };
 
 /**
  * The download boxes every guide carries in every language: one beside the article that stays in view
@@ -17,15 +19,15 @@ function QrCode({ locale, reuse }: { locale: string; reuse: boolean }) {
   return <svg className="qr-morph-code" viewBox={viewBox} focusable="false" shapeRendering="crispEdges">{reuse ? <use href={`#${QR_ID}`} /> : <path id={QR_ID} d={path} />}</svg>;
 }
 
-function StoreButton({ locale, placement, label }: Copy) {
-  return <a className="store-button" href={appStoreUrl({ placement, locale })} data-cta={placement}><FaApple aria-hidden="true" /><span>{label}</span></a>;
+function StoreButton({ locale, placement, label, openApp }: Copy) {
+  return <a className="store-button" href={appStoreUrl({ placement, locale })} data-cta={placement} data-open-app={openApp}><FaApple aria-hidden="true" /><span>{openApp ? OPEN_APP_LABEL : label}</span></a>;
 }
 
 /** The store button; on a desktop, hovering it morphs it into the QR code with the label kept below. */
 export function StoreWithQr({ reuse = false, ...copy }: Copy & { reuse?: boolean }) {
   return <div className="store-qr">
     <StoreButton {...copy} />
-    <div className="qr-morph" aria-hidden="true"><QrCode locale={copy.locale} reuse={reuse} /><span className="qr-morph-label"><FaApple />{copy.label}</span></div>
+    <div className="qr-morph" aria-hidden="true"><QrCode locale={copy.locale} reuse={reuse} /><span className="qr-morph-label"><FaApple />{copy.openApp ? OPEN_APP_LABEL : copy.label}</span></div>
   </div>;
 }
 

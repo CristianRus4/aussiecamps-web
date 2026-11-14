@@ -9,7 +9,8 @@ import { sitePath } from "@/lib/site";
  * is public) and is decrypted before the build by scripts/decrypt-places.mjs; without the key the site
  * builds with no place pages. Server components only: nothing here may reach a client bundle.
  */
-export type PlaceType = "campground" | "holiday_park" | "national_park" | "state_park" | "regional_park" | "recreation_area" | "conservation_area";
+export type PlaceType = "campground" | "holiday_park" | "national_park" | "state_park" | "regional_park" | "recreation_area" | "conservation_area"
+  | "nature_reserve" | "wildlife_reserve" | "scenic_reserve" | "marine_park" | "aboriginal_area" | "historic_site" | "walking_track";
 export type Place = {
   id: string; slug: string; type: PlaceType; name: string;
   state: string; stateSlug: string; stateName: string;
@@ -24,6 +25,8 @@ export type Place = {
   weather: "all-weather" | "dry-only" | "4wd-when-wet" | "snow-chains" | null;
   photos: string[]; heroWidth: number; photoCount: number; credit: string;
   booking: string | null; checkIn: string | null; checkOut: string | null; stars: number | null;
+  /** Other app ids of the same place (a second source's record); they share this page. */
+  aliases?: string[];
 };
 
 const file = placesFile as unknown as { exportedAt: string | null; places: Place[] };
@@ -38,6 +41,13 @@ export const typeLabels: Record<PlaceType, { one: string; many: string }> = {
   regional_park: { one: "Regional park", many: "Regional parks" },
   recreation_area: { one: "Recreation area", many: "Recreation areas" },
   conservation_area: { one: "Conservation area", many: "Conservation areas" },
+  nature_reserve: { one: "Nature reserve", many: "Nature reserves" },
+  wildlife_reserve: { one: "Wildlife reserve", many: "Wildlife reserves" },
+  scenic_reserve: { one: "Scenic reserve", many: "Scenic reserves" },
+  marine_park: { one: "Marine park", many: "Marine parks" },
+  aboriginal_area: { one: "Aboriginal area", many: "Aboriginal areas" },
+  historic_site: { one: "Historic site", many: "Historic sites" },
+  walking_track: { one: "Walking track", many: "Walking tracks" },
 };
 export const placeTypes = (Object.keys(typeLabels) as PlaceType[]).filter((type) => places.some((place) => place.type === type));
 

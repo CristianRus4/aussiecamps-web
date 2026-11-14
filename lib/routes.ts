@@ -33,7 +33,7 @@ import { tripRoutes } from "@/lib/routes/trip";
  */
 export type RouteKind =
   | "home" | "guides" | "guide" | "tools" | "support" | "privacy" | "terms" | "credits"
-  | "tool" | "hub" | "place" | "places" | "trip" | "crawler";
+  | "tool" | "hub" | "place" | "places" | "trip" | "place-link" | "crawler";
 export type ExportRoute = {
   path: string;
   locale: "en" | LocaleCode;

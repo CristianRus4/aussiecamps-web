@@ -723,6 +723,11 @@ em { color: inherit; font: inherit; font-style: normal; }
 .trip-cta { margin-bottom: 30px; display: flex; }
 .trip-cta .store-qr { width: 240px; }
 .trip-cta .store-button, .trip-cta .qr-morph { --store-button-bg: var(--deep); --store-button-fg: white; --store-button-hover: var(--fern); }
+.place-actions { flex-wrap: wrap; gap: 12px; }
+.place-secondary { --store-button-bg: var(--soft); --store-button-fg: var(--ink); --store-button-hover: var(--line); min-width: 150px; }
+.place-secondary[hidden] { display: none; }
+.place-photo { margin-bottom: 26px; }
+.place-photo img { width: 100%; max-height: 460px; display: block; object-fit: cover; background: var(--soft); }
 .trip-status { margin: 0; padding: 18px 0; color: var(--muted); font-size: 17px; }
 .trip-status:empty { display: none; }
 .trip-stops { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }

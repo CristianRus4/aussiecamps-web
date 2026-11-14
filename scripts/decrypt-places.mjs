@@ -1,6 +1,6 @@
 /**
- * Writes lib/data/places.json, the plain place data the build reads, from the committed
- * lib/data/places.json.enc (scripts/export-places.mjs). Runs before every build.
+ * Writes lib/data/places.json and lib/data/place-stubs.json, the plain place data the build reads, from
+ * the committed .enc copies (scripts/export-places.mjs). Runs before every build.
  *
  * The key is PLACES_KEY in the environment (a GitHub Actions secret in CI) or the macOS keychain item
  * "camping-places-key", account "aussiecamps-web". A plain copy newer than the encrypted one (a fresh
@@ -12,6 +12,7 @@ import { execFileSync } from "node:child_process";
 import { existsSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { gunzipSync } from "node:zlib";
 
 const repo = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const plainPath = resolve(repo, "lib/data/places.json");
@@ -25,23 +26,30 @@ function key() {
   return Buffer.from(value, "base64");
 }
 
-if (existsSync(plainPath) && (!existsSync(encryptedPath) || statSync(plainPath).mtimeMs >= statSync(encryptedPath).mtimeMs)) {
-  console.log("Place data: using the local export.");
-} else if (!existsSync(encryptedPath)) {
-  writeFileSync(plainPath, `${JSON.stringify({ exportedAt: null, places: [] })}\n`);
-  console.log("Place data: none exported yet, building without place pages.");
-} else {
-  const secret = key();
-  if (!secret) {
-    if (process.env.CI) throw new Error("PLACES_KEY is not set: the place pages cannot be built. Add the repository secret.");
+/** Decrypts one pair (gunzipping when the export gzipped it); `label` names it in the log. */
+function decrypt(plainPath, encryptedPath, label) {
+  if (existsSync(plainPath) && (!existsSync(encryptedPath) || statSync(plainPath).mtimeMs >= statSync(encryptedPath).mtimeMs)) {
+    console.log(`${label}: using the local export.`);
+  } else if (!existsSync(encryptedPath)) {
     writeFileSync(plainPath, `${JSON.stringify({ exportedAt: null, places: [] })}\n`);
-    console.warn("Place data: no PLACES_KEY in the environment or the keychain, building without place pages.");
+    console.log(`${label}: none exported yet, building without them.`);
   } else {
-    const { iv, tag, data } = JSON.parse(readFileSync(encryptedPath, "utf8"));
-    const decipher = createDecipheriv("aes-256-gcm", secret, Buffer.from(iv, "base64"));
-    decipher.setAuthTag(Buffer.from(tag, "base64"));
-    const text = Buffer.concat([decipher.update(Buffer.from(data, "base64")), decipher.final()]).toString("utf8");
-    writeFileSync(plainPath, `${text}\n`);
-    console.log(`Place data: decrypted ${JSON.parse(text).places.length} places.`);
+    const secret = key();
+    if (!secret) {
+      if (process.env.CI) throw new Error("PLACES_KEY is not set: the place pages cannot be built. Add the repository secret.");
+      writeFileSync(plainPath, `${JSON.stringify({ exportedAt: null, places: [] })}\n`);
+      console.warn(`${label}: no PLACES_KEY in the environment or the keychain, building without them.`);
+    } else {
+      const { iv, tag, data, gzip } = JSON.parse(readFileSync(encryptedPath, "utf8"));
+      const decipher = createDecipheriv("aes-256-gcm", secret, Buffer.from(iv, "base64"));
+      decipher.setAuthTag(Buffer.from(tag, "base64"));
+      const bytes = Buffer.concat([decipher.update(Buffer.from(data, "base64")), decipher.final()]);
+      const text = (gzip ? gunzipSync(bytes) : bytes).toString("utf8");
+      writeFileSync(plainPath, `${text}\n`);
+      console.log(`${label}: decrypted ${JSON.parse(text).places.length} places.`);
+    }
   }
 }
+
+decrypt(plainPath, encryptedPath, "Place data");
+decrypt(resolve(repo, "lib/data/place-stubs.json"), resolve(repo, "lib/data/place-stubs.json.enc"), "Small place pages");
