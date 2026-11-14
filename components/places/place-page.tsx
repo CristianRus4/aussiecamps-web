@@ -12,6 +12,7 @@ import { placeQuestions, placeSummary } from "@/lib/places-copy";
 import { placeGuides, rulesGuideFor } from "@/lib/place-guides";
 import { LinkList } from "@/components/places/listing";
 import { appStoreUrl } from "@/lib/app-store";
+import { appLink, openAppScript } from "@/lib/open-app";
 import { articles, getArticle, sitePath } from "@/lib/site";
 
 /**
@@ -19,10 +20,10 @@ import { articles, getArticle, sitePath } from "@/lib/site";
  * and fades out; the description ends on the page's one store button, so the rest is one tap away in
  * AussieCamps. Holiday parks lead with the booking banner on our BookEasy agent link.
  */
-function Faded({ children, cta = false }: { children: React.ReactNode; cta?: boolean }) {
+function Faded({ children, openApp }: { children: React.ReactNode; openApp?: string }) {
   return <div className="pl-fade">
     <div className="pl-fade-body">{children}</div>
-    {cta && <div className="pl-fade-cta"><StoreWithQr locale="en" placement="place" label={uiStrings.download} reuse /></div>}
+    {openApp && <div className="pl-fade-cta"><StoreWithQr locale="en" placement="place" label={uiStrings.download} openApp={openApp} reuse /></div>}
   </div>;
 }
 
@@ -46,6 +47,7 @@ export function PlacePage({ place }: { place: Place }) {
   const type = typeLabels[place.type];
   const where = place.park ?? place.locality ?? place.stateName;
   const url = `${SITE_URL}${placePath(place)}`;
+  const openApp = appLink(placePath(place));
   const nearby = nearbyPlaces(place);
   const parkHub = parkHubPath(place);
   const stateHub = stateHubPath({ slug: place.stateSlug });
@@ -61,7 +63,7 @@ export function PlacePage({ place }: { place: Place }) {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": place.type === "campground" || place.type === "holiday_park" ? "Campground" : "Park",
+        "@type": place.type === "campground" || place.type === "holiday_park" ? "Campground" : place.type === "walking_track" || place.type === "historic_site" ? "TouristAttraction" : "Park",
         "@id": `${url}#place`, name: place.name, url, description: summary.join(" "),
         image: place.photos.map(photoUrl),
         address: { "@type": "PostalAddress", ...(place.locality ? { addressLocality: place.locality } : {}), addressRegion: place.stateName, addressCountry: "AU" },
@@ -82,7 +84,7 @@ export function PlacePage({ place }: { place: Place }) {
   };
 
   return <>
-    <Header />
+    <Header openApp={openApp} />
     <main {...mainData({ kind: "place", slug: `${place.stateSlug}/${place.slug}`, category: type.one })}>
       <article className="pl-page">
         <div className="pl-wrap">
@@ -93,7 +95,7 @@ export function PlacePage({ place }: { place: Place }) {
           </header>
           <div className={`pl-gallery pl-gallery-${shown}`}>
             {place.photos.slice(0, shown).map((file, index) => <img key={file} src={photoUrl(file)} alt={index === 0 ? `${place.name}, ${typeLabels[place.type].one.toLowerCase()} in ${place.stateName}` : `${place.name}, photo ${index + 1}`} loading={index === 0 ? "eager" : "lazy"} fetchPriority={index === 0 ? "high" : undefined} decoding="async" referrerPolicy="no-referrer" />)}
-            {morePhotos > 0 && shown > 1 && <a className="pl-more-photos" href={appStoreUrl({ placement: "place" })} data-cta="place"><Images aria-hidden="true" />+{morePhotos} photos in the app</a>}
+            {morePhotos > 0 && shown > 1 && <a className="pl-more-photos" href={appStoreUrl({ placement: "place" })} data-cta="place" data-open-app={openApp}><Images aria-hidden="true" />+{morePhotos} photos in the app</a>}
           </div>
           <div className="pl-layout">
             <div className="pl-main">
@@ -104,7 +106,7 @@ export function PlacePage({ place }: { place: Place }) {
               <section>
                 <h2>About {place.name}</h2>
                 <p className="pl-summary">{summary.join(" ")}</p>
-                <Faded cta><p>{place.description}</p></Faded>
+                <Faded openApp={openApp}><p>{place.description}</p></Faded>
               </section>
               {place.amenities.length > 0 && <section>
                 <h2>Facilities</h2>
@@ -139,15 +141,16 @@ export function PlacePage({ place }: { place: Place }) {
               </section>}
               {/* The licence of these sources requires the credit; other sources and the booking feed get none. */}
               {/CC BY/.test(place.credit) && <p className="pl-credit">© {place.credit}</p>}
-              <GuideEndCta locale="en" placement="place" label={uiStrings.download} eyebrow={uiStrings.takeRoad} title={uiStrings.savePlanTitle} text={uiStrings.savePlanText} />
+              <GuideEndCta locale="en" placement="place" label={uiStrings.download} openApp={openApp} eyebrow={uiStrings.takeRoad} title={uiStrings.savePlanTitle} text={uiStrings.savePlanText} />
             </div>
-            <aside><GuideSideCard locale="en" placement="place" label={uiStrings.download} eyebrow={uiStrings.downloadEyebrow} title={uiStrings.downloadTitle} /></aside>
+            <aside><GuideSideCard locale="en" placement="place" label={uiStrings.download} openApp={openApp} eyebrow={uiStrings.downloadEyebrow} title={uiStrings.downloadTitle} /></aside>
           </div>
         </div>
       </article>
     </main>
-    <Footer pageKey={`place:${place.stateSlug}/${place.slug}`} />
+    <Footer pageKey={`place:${place.stateSlug}/${place.slug}`} openApp={openApp} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
     <script data-static-tools dangerouslySetInnerHTML={{ __html: mapsScript }} />
+    <script data-static-tools dangerouslySetInnerHTML={{ __html: openAppScript }} />
   </>;
 }

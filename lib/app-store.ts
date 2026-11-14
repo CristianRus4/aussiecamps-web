@@ -20,9 +20,10 @@ import { APP_ID, APP_STORE_URL, APPLE_PROVIDER_TOKEN } from "@/lib/site";
  *   intro the app sentence at the end of a guide's first paragraph (lib/intro-cta.ts)
  *   place the store button on a place page (lib/places.ts)
  *   trip  the store button on a trip shared from the app (/trip/)
+ *   shared  the store button on a place shared from the app (/place/)
  *   ig, tt, fb  social bio links opened from Instagram, TikTok or Facebook (lib/social.ts)
  */
-export const ctaPlacements = ["hdr", "hero", "card", "stick", "foot", "inl", "tool", "hub", "sb", "qr", "dl", "llms", "listicle", "ans", "intro", "place", "trip", "ig", "tt", "fb"] as const;
+export const ctaPlacements = ["hdr", "hero", "card", "stick", "foot", "inl", "tool", "hub", "sb", "qr", "dl", "llms", "listicle", "ans", "intro", "place", "trip", "shared", "ig", "tt", "fb"] as const;
 export type CtaPlacement = (typeof ctaPlacements)[number];
 
 /** Apple truncates longer campaign tokens, which would merge distinct placements in the report. */

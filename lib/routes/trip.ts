@@ -1,6 +1,12 @@
 import type { ExportRoute } from "@/lib/routes";
 
-/** /trip/, the page that shows a trip shared from the app (app/trip/page.tsx): noindex, English only. */
+/**
+ * /trip/ and /place/, the pages that show a trip or a place shared from the app (app/trip/page.tsx,
+ * app/place/page.tsx): noindex, English only.
+ */
 export function tripRoutes(): ExportRoute[] {
-  return [{ path: "/trip/", locale: "en", kind: "trip", indexable: false, pageKey: "trip" }];
+  return [
+    { path: "/trip/", locale: "en", kind: "trip", indexable: false, pageKey: "trip" },
+    { path: "/place/", locale: "en", kind: "place-link", indexable: false, pageKey: "place-link" },
+  ];
 }

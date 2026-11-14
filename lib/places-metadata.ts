@@ -19,6 +19,9 @@ export function placeMetadata(place: Place): Metadata {
   // you book, and camping plus things to do for a national, state or regional park.
   const title = place.type === "holiday_park" ? `${place.name}: photos, facilities and booking`
     : place.type === "campground" ? `${place.name} camping: photos, facilities and fees${where && !place.name.includes(where) && place.name.length + where.length < 30 ? ` (${where})` : ""}`
+    : place.type === "walking_track" ? `${place.name}: walk, photos and what to know`
+    : place.type === "historic_site" ? `${place.name}: history, photos and visiting`
+    : place.type === "marine_park" ? `${place.name}: photos, camping and things to do on the water`
     : `${place.name}: camping, photos and things to do`;
   const description = placeDescription(place);
   void type;

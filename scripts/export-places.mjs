@@ -10,7 +10,9 @@
  *   lib/data/places.json           the plain copy the build reads. Gitignored: this repo is public, so the
  *                                  readable data never leaves this Mac or CI (scripts/decrypt-places.mjs).
  *   lib/data/places.photos.json    gitignored cache of which photo links load, and how wide they are.
- *   place-pages.json               the app's place id to its page path, at PLACE_PAGES_OUT when set
+ *   lib/data/place-stubs.json(.enc)  the same pair for the small pages (scripts/build-place-stubs.mjs),
+ *                                  gzipped before it is encrypted.
+ *   place-pages.json               every app place id to its page path, into the app's bundle
  *                                  (scripts/place-links.mjs; `npm run places:links` writes it alone).
  *
  * Pages load up to three photos per place straight from their source, as the app does (Cristian, 12 Nov
@@ -21,9 +23,19 @@
  * credit. Pages show part of the description and amenities and send readers to the app for the rest, so
  * the export keeps only that part: the full text and amenity lists never enter the data.
  *
- * A place gets a page when it has at least one photo we can fetch and a description of 80 characters
- * or more. Like scripts/export-app-data.mjs, the database is copied to a temporary directory and only the
- * copy is opened, read-only.
+ * Every place the app lists (every row of the app's database with coordinates) gets a page, so the app
+ * can share any of them as a link that opens in the app (Cristian, 14 Nov 2026):
+ *   - a full page (the React template, indexed) for an open campground, park, reserve, walking track,
+ *     marine park or historic site from a parks agency with a photo that loads and a description of 80
+ *     characters or more, and for a live holiday park on our BookEasy agent link;
+ *   - a small plain page (scripts/build-place-stubs.mjs: noindex, out of the sitemaps) for everything
+ *     else: rest areas, dump points, water, toilets, stays, tours, activities, closed places and thin pages.
+ * A place keeps the URL it had in the last export, and a place that had a full page always keeps one.
+ *
+ * The same place can come from two sources: only the richer record gets a page, and the other record's id
+ * is kept in its `aliases`, so place-pages.json sends both ids to the one page. Like
+ * scripts/export-app-data.mjs, the database is copied to a temporary directory and only the copy is
+ * opened, read-only.
  */
 import { createCipheriv, randomBytes } from "node:crypto";
 import { execFileSync } from "node:child_process";
@@ -32,6 +44,7 @@ import { tmpdir } from "node:os";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { DatabaseSync } from "node:sqlite";
+import { gzipSync } from "node:zlib";
 import sharp from "sharp";
 import { placePagesOut, writePlacePages } from "./place-links.mjs";
 
@@ -42,8 +55,17 @@ const plainPath = resolve(repo, "lib/data/places.json");
 const encryptedPath = resolve(repo, "lib/data/places.json.enc");
 const probePath = resolve(repo, "lib/data/places.photos.json");
 const probes = existsSync(probePath) ? JSON.parse(readFileSync(probePath, "utf8")) : {};
+const stubsPath = resolve(repo, "lib/data/place-stubs.json");
+const stubsEncryptedPath = resolve(repo, "lib/data/place-stubs.json.enc");
+/** Each place's page in the last export (`<state>/<slug>` by id), so a place keeps its URL. */
+const pathsIn = (file) => new Map(existsSync(file) ? JSON.parse(readFileSync(file, "utf8")).places.map((place) => [place.id, `${place.stateSlug}/${place.slug}`]) : []);
+const previous = pathsIn(plainPath);
+const previousSmall = pathsIn(stubsPath);
 
-const TYPES = ["campground", "holiday_park", "national_park", "state_park", "regional_park", "recreation_area", "conservation_area"];
+const TYPES = ["campground", "holiday_park", "national_park", "state_park", "regional_park", "recreation_area", "conservation_area",
+  "nature_reserve", "wildlife_reserve", "scenic_reserve", "marine_park", "aboriginal_area", "historic_site", "walking_track"];
+/** Holiday parks on our BookEasy agent link: the only booking links a page carries. */
+const BOOKEASY_AGENT = /^https:\/\/book\.bookeasy\.com\/agent\/cntxt-limited-australia-camping\//;
 const PHOTOS = 5;
 const EXCERPT = 300;
 const SHOWN_AMENITIES = 6;
@@ -56,6 +78,7 @@ const STATES = {
   NT: { slug: "northern-territory", name: "Northern Territory" }, QLD: { slug: "queensland", name: "Queensland" },
   SA: { slug: "south-australia", name: "South Australia" }, TAS: { slug: "tasmania", name: "Tasmania" },
   VIC: { slug: "victoria", name: "Victoria" }, WA: { slug: "western-australia", name: "Western Australia" },
+  NI: { slug: "norfolk-island", name: "Norfolk Island" },
 };
 
 /** The credit line under each page's photos and description: short, with the licence where there is one. */
@@ -85,6 +108,14 @@ export function placesKey(account = "aussiecamps-web") {
   return key;
 }
 
+/** Like encrypt(), of the gzipped text: the small pages' data is several megabytes of repetitive JSON. */
+export function encryptGzip(text, key) {
+  const iv = randomBytes(12);
+  const cipher = createCipheriv("aes-256-gcm", key, iv);
+  const data = Buffer.concat([cipher.update(gzipSync(text, { level: 9 })), cipher.final()]);
+  return JSON.stringify({ v: 1, gzip: true, iv: iv.toString("base64"), tag: cipher.getAuthTag().toString("base64"), data: data.toString("base64") });
+}
+
 export function encrypt(text, key) {
   const iv = randomBytes(12);
   const cipher = createCipheriv("aes-256-gcm", key, iv);
@@ -93,6 +124,7 @@ export function encrypt(text, key) {
 }
 
 const slugify = (value) => value.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase().replace(/&/g, " and ").replace(/['’]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const feeOf = (value) => value === "Free" ? "Free" : value === "Paid" ? "Fees apply" : null;
 const clean = (value) => (value ?? "").replace(/<[^>]+>/g, " ").replace(/&nbsp;/g, " ").replace(/&amp;/g, "&").replace(/\s+/g, " ").trim();
 /** The first sentences that fit, never cut mid-sentence when a sentence ends in reach. */
 function excerpt(text, limit) {
@@ -184,10 +216,11 @@ const temp = mkdtempSync(join(tmpdir(), "aussie-places-"));
 try {
   copyFileSync(sourcePath, join(temp, "db.sqlite"));
   const db = new DatabaseSync(join(temp, "db.sqlite"), { readOnly: true });
-  const sites = db.prepare(`SELECT s.Id, s.SiteName, s.SiteTypeId, s.State, s.Locality, s.Latitude, s.Longitude, s.Description,
+  // Every place the app lists: every type and status, as long as it has coordinates.
+  const sites = db.prepare(`SELECT s.Id, s.SiteName, s.SiteTypeId, s.SiteStatusId, s.State, s.Locality, s.Latitude, s.Longitude, s.Description,
       s.Operator, s.FeeCategory, s.ParkId, s.ParentName, s.PetsAllowed, s.NumberOfSites, s.Booking, s.BookingRequired, s.MaxVehicleLength
-    FROM Site s WHERE s.SiteTypeId IN (${TYPES.map(() => "?").join(", ")}) AND s.SiteStatusId = 1
-      AND s.Latitude IS NOT NULL AND s.Longitude IS NOT NULL ORDER BY s.Id`).all(...TYPES);
+    FROM Site s WHERE s.Latitude IS NOT NULL AND s.Longitude IS NOT NULL ORDER BY s.Id`).all();
+  const typeNames = new Map(db.prepare("SELECT Id, Name FROM SiteType").all().map((type) => [type.Id, type.Name]));
   const photos = db.prepare("SELECT coalesce(UrlHiRes, Url) AS url FROM SitePhoto WHERE SiteId = ? ORDER BY IsPrimary DESC, Position, Id");
   const amenities = db.prepare(`SELECT f.Name AS name FROM SiteFeature sf JOIN Feature f ON f.Id = sf.FeatureId JOIN FeatureGroup g ON g.Id = f.FeatureGroupId
     WHERE sf.SiteId = ? AND coalesce(f.Excluded, 0) = 0 ORDER BY g.SequenceNumber, f.Name`);
@@ -196,51 +229,76 @@ try {
   const activities = db.prepare("SELECT DISTINCT a.Name AS name FROM SiteActivity sa JOIN Activity a ON a.Id = sa.ActivityId WHERE sa.SiteId = ? ORDER BY a.Name");
   const access = db.prepare("SELECT RoadQuality AS road, VehicleAccess AS vehicle, WeatherRestrictions AS weather FROM SiteAccess WHERE SiteId = ?");
 
+  // A place with no state (or one outside the eight) takes the state of its nearest neighbour that has one.
+  const located = sites.filter((site) => STATES[site.State]);
+  const stateOf = (site) => STATES[site.State] ?? STATES[located.reduce((best, other) => {
+    const distance = km({ lat: site.Latitude, lng: site.Longitude }, { lat: other.Latitude, lng: other.Longitude });
+    return distance < best.distance ? { site: other, distance } : best;
+  }, { site: undefined, distance: Infinity }).site.State];
+
   const candidates = [];
+  const rest = [];
   for (const site of sites) {
-    const state = STATES[site.State];
+    const state = stateOf(site);
     const credit = CREDITS[site.Operator];
-    if (!state || !credit) continue;
     const description = clean(site.Description);
     const urls = photos.all(site.Id).map((row) => row.url).filter((url) => /^https:\/\//.test(url));
     const holidayPark = site.SiteTypeId === "holiday_park";
-    const live = holidayPark ? operator.get(site.Id) : undefined;
-    if (holidayPark && (!live || live.Active !== 1 || !/^https:\/\/book\.bookeasy\.com\/agent\/cntxt-limited-australia-camping\//.test(site.Booking ?? ""))) continue;
-    if (urls.length === 0 || description.length < MIN_DESCRIPTION) continue;
+    const live = site.Operator === "BookEasy" ? operator.get(site.Id) : undefined;
     const list = [...new Set(amenities.all(site.Id).map((row) => row.name.trim()))];
-    const doing = activities.all(site.Id).map((row) => row.name.trim()).filter(Boolean);
     const route = access.get(site.Id);
-    candidates.push({ site, state, credit, description, urls, list, doing, route, live, score: Math.min(description.length, 1200) + urls.length * 60 + list.length * 15 });
+    const entry = { site, state, credit, description, urls, list, route, live };
+    // The camping places can have a full page; holiday parks only as a live listing on our BookEasy agent link.
+    const camping = TYPES.includes(site.SiteTypeId) && site.SiteStatusId === 1 && credit && STATES[site.State]
+      && (!holidayPark || (live?.Active === 1 && BOOKEASY_AGENT.test(site.Booking ?? "") && urls.length > 0 && description.length >= MIN_DESCRIPTION));
+    if (!camping) { rest.push(entry); continue; }
+    const doing = activities.all(site.Id).map((row) => row.name.trim()).filter(Boolean);
+    candidates.push({ ...entry, doing, hadPage: previous.has(site.Id), score: Math.min(description.length, 1200) + urls.length * 60 + list.length * 15 });
   }
   db.close();
 
-  // The same place can come from two sources: keep the richer record of one name within 3 km.
-  candidates.sort((a, b) => b.score - a.score);
+  // The same place can come from two sources: keep the richer record of one name within 3 km (a place
+  // that already has a page always wins), and send the other record's id to its page.
+  candidates.sort((a, b) => Number(b.hadPage) - Number(a.hadPage) || b.score - a.score);
   const kept = [];
   for (const candidate of candidates) {
     const point = { lat: candidate.site.Latitude, lng: candidate.site.Longitude };
     const name = slugify(candidate.site.SiteName).replace(/-(campground|camping-area|camp|campsite)s?$/, "");
-    if (kept.some((other) => other.site.SiteTypeId === candidate.site.SiteTypeId && other.name === name && km(other.point, point) < 3)) continue;
-    kept.push({ ...candidate, name, point });
+    const twin = kept.find((other) => other.site.SiteTypeId === candidate.site.SiteTypeId && other.name === name && km(other.point, point) < 3);
+    if (twin) { twin.aliases.push(candidate.site.Id); continue; }
+    kept.push({ ...candidate, name, point, aliases: [] });
   }
 
-  // Slugs are unique within a state: a repeated name takes its locality, then its id.
+  // A full page needs a photo that loads and a real description; the rest get a small page.
+  let done = 0;
+  const probed = await pool(kept, async (entry) => {
+    entry.files = await photosFor(entry.urls);
+    if (++done % 500 === 0) console.log(`  ${done} of ${kept.length} places checked`);
+    return entry;
+  });
+  const full = probed.filter((entry) => entry.files.length > 0 && entry.description.length >= MIN_DESCRIPTION);
+  const small = [...probed.filter((entry) => !full.includes(entry)), ...rest.map((entry) => ({ ...entry, aliases: [] }))];
+
+  // Slugs are unique within a state: a repeated name takes its locality, then its id. A place keeps the
+  // slug it had in the last export, so no URL ever changes; full pages pick first.
   const used = new Set();
-  for (const entry of kept) {
+  const keep = (entry) => {
+    const path = previous.get(entry.site.Id) ?? previousSmall.get(entry.site.Id);
+    if (path && path.startsWith(`${entry.state.slug}/`) && !used.has(path)) { used.add(path); entry.slug = path.slice(entry.state.slug.length + 1); }
+  };
+  const assign = (entry) => {
+    if (entry.slug) return;
     const { site, state } = entry;
-    let slug = slugify(site.SiteName);
-    if (used.has(`${state.slug}/${slug}`)) slug = `${slug}-${slugify(site.Locality ?? site.Id)}`;
+    let slug = slugify(site.SiteName) || "place";
+    if (used.has(`${state.slug}/${slug}`)) slug = `${slug}-${slugify(site.Locality ?? site.Id) || site.Id.toLowerCase()}`;
     if (used.has(`${state.slug}/${slug}`)) slug = `${slug}-${site.Id.toLowerCase()}`;
     used.add(`${state.slug}/${slug}`);
     entry.slug = slug;
-  }
+  };
+  full.forEach(keep); small.forEach(keep); full.forEach(assign); small.forEach(assign);
 
-  let done = 0;
-  const built = await pool(kept, async (entry) => {
-    const { site, state, slug } = entry;
-    const files = await photosFor(entry.urls);
-    if (++done % 250 === 0) console.log(`  ${done} of ${kept.length} places`);
-    if (files.length === 0) return undefined;
+  const built = await pool(full, async (entry) => {
+    const { site, state, slug, files } = entry;
     const holidayPark = site.SiteTypeId === "holiday_park";
     const text = holidayPark ? excerpt(entry.description, 1600) : excerpt(entry.description, EXCERPT);
     return {
@@ -258,22 +316,46 @@ try {
       credit: entry.credit,
       booking: holidayPark && await bookable(site.Booking) ? site.Booking : null,
       checkIn: clock(entry.live?.CheckIn), checkOut: clock(entry.live?.CheckOut), stars: entry.live?.StarRating || null,
+      ...(entry.aliases.length ? { aliases: entry.aliases } : {}),
     };
   });
-  const places = built.filter(Boolean);
+  const places = built;
   writeFileSync(probePath, `${JSON.stringify(probes)}\n`);
   const published = new Set(places.flatMap((place) => place.photos));
 
+  // The small pages (scripts/build-place-stubs.mjs): facts only, except that a parks agency's or
+  // BookEasy's place also shows its first photo and a short excerpt, like the full pages.
+  const stubs = small.map((entry) => {
+    const { site, state, credit, live } = entry;
+    const text = credit ? excerpt(entry.description, EXCERPT) : { text: "", more: false };
+    return {
+      id: site.Id, slug: entry.slug, type: site.SiteTypeId, typeName: typeNames.get(site.SiteTypeId) ?? "Place", name: clean(site.SiteName) || typeNames.get(site.SiteTypeId) || "Place",
+      stateSlug: state.slug, stateName: state.name, locality: clean(site.Locality) || null, closed: site.SiteStatusId === 0,
+      lat: Number(site.Latitude.toFixed(4)), lng: Number(site.Longitude.toFixed(4)),
+      description: text.text || null, photo: credit ? (entry.urls[0] ?? null) : null,
+      fee: feeOf(site.FeeCategory), pets: site.PetsAllowed ?? null, sites: site.NumberOfSites ?? null, maxVehicleLength: site.MaxVehicleLength || null,
+      amenities: entry.list.slice(0, 10), road: roadOf(entry.route?.road), vehicle: vehicleOf(entry.route?.vehicle),
+      booking: BOOKEASY_AGENT.test(site.Booking ?? "") && live?.Active === 1 ? site.Booking : null,
+      checkIn: clock(live?.CheckIn), checkOut: clock(live?.CheckOut),
+      credit: credit ?? site.Operator ?? null,
+      ...(entry.aliases.length ? { aliases: entry.aliases } : {}),
+    };
+  }).sort((a, b) => a.id.localeCompare(b.id));
+
   places.sort((a, b) => a.stateSlug.localeCompare(b.stateSlug) || a.name.localeCompare(b.name));
-  const data = JSON.stringify({ exportedAt: new Date().toISOString().slice(0, 10), places }, null, 1);
+  const exportedAt = new Date().toISOString().slice(0, 10);
+  const data = JSON.stringify({ exportedAt, places }, null, 1);
+  const stubData = JSON.stringify({ exportedAt, places: stubs });
   writeFileSync(plainPath, `${data}\n`);
+  writeFileSync(stubsPath, `${stubData}\n`);
   const key = placesKey();
-  if (key) writeFileSync(encryptedPath, `${encrypt(data, key)}\n`);
-  else console.warn("No PLACES_KEY in the environment or the keychain: wrote the plain copy only, not lib/data/places.json.enc.");
-  const count = (type) => places.filter((place) => place.type === type).length;
-  const linksOut = placePagesOut();
-  if (linksOut) console.log(`Wrote ${writePlacePages(places, linksOut)} place pages to ${linksOut}.`);
-  console.log(`Exported ${places.length} places (${TYPES.map((type) => `${count(type)} ${type.replace("_", " ")}`).join(", ")}) with ${published.size} photos.`);
+  if (key) {
+    writeFileSync(encryptedPath, `${encrypt(data, key)}\n`);
+    writeFileSync(stubsEncryptedPath, `${encryptGzip(stubData, key)}\n`);
+  } else console.warn("No PLACES_KEY in the environment or the keychain: wrote the plain copies only, not the .enc files.");
+  const count = (list, type) => list.filter((place) => place.type === type).length;
+  console.log(`Wrote ${writePlacePages(places, stubs, placePagesOut())} place ids to ${placePagesOut()}.`);
+  console.log(`Exported ${places.length} full pages (${TYPES.map((type) => `${count(places, type)} ${type.replaceAll("_", " ")}`).filter((line) => !line.startsWith("0 ")).join(", ")}) with ${published.size} photos, and ${stubs.length} small pages (${[...typeNames.keys()].map((type) => `${count(stubs, type)} ${type.replaceAll("_", " ")}`).filter((line) => !line.startsWith("0 ")).join(", ")}).`);
 } finally {
   rmSync(temp, { recursive: true, force: true });
 }
