@@ -11,7 +11,8 @@ import locales from "@/lib/locales.json";
  * - Instagram, Threads or Facebook/Messenger in-app browser, on a home page or with a tag: replace the page
  *   with the App Store. If the page is still visible 1.5 s later (the store did not open), show the overlay.
  * - TikTok's in-app browser (it blocks App Store redirects), on a home page or with a tag: a full-screen overlay
- *   with the app icon, a Download on the App Store button and "Continue to the website". If TikTok blocks the
+ *   with the app icon, a Download on the App Store button and "Continue to the website" (on place pages,
+ *   /place/ and /trip/, which people who have the app open, the button says "Open in the App Store"). If TikTok blocks the
  *   button too, ••• → "Open in browser" still reaches the store through the Safari route below.
  * - In every in-app case the tag is written into the address first, so "Open in browser" carries it.
  * - An in-app browser the script does not recognise (an iPhone WebView whose user agent lacks "Safari/",
@@ -66,7 +67,7 @@ var address=function(add){var q=l.search.replace(/^\\?/,"").split("&"),k=[];for(
 var setAddress=function(add){try{w.history.replaceState(w.history.state,"",address(add))}catch(e){}};
 var leave=function(){away=true};
 d.addEventListener("visibilitychange",function(){if(d.hidden)away=true});w.addEventListener("pagehide",leave);w.addEventListener("blur",leave);
-var show=function(){if(away)return;var o=d.querySelector("[data-social-overlay]");if(!o||!o.hidden)return;o.hidden=false;o.setAttribute("data-platform",key);var b=o.querySelector("[data-social-store]");if(b){b.href=store;b.setAttribute("data-cta",key)}var c=o.querySelector("[data-social-close]");if(c)c.onclick=function(){o.hidden=true;d.documentElement.style.overflow=""};d.documentElement.style.overflow="hidden";try{if(w.acTrack)w.acTrack("social_open",{platform:key,action:"overlay"})}catch(e){}};
+var show=function(){if(away)return;var o=d.querySelector("[data-social-overlay]");if(!o||!o.hidden)return;o.hidden=false;o.setAttribute("data-platform",key);var b=o.querySelector("[data-social-store]");if(b){b.href=store;b.setAttribute("data-cta",key)}var pm=d.querySelector("main[data-page-kind]"),pk=pm&&pm.getAttribute?pm.getAttribute("data-page-kind"):"";if(/^(?:place|trip|place-link)$/.test(pk||"")){var bt=b&&b.querySelector?b.querySelector("span"):null;if(bt)bt.textContent="Open in the App Store";o.setAttribute("aria-label","Open AussieCamps in the App Store")}var c=o.querySelector("[data-social-close]");if(c)c.onclick=function(){o.hidden=true;d.documentElement.style.overflow=""};d.documentElement.style.overflow="hidden";try{if(w.acTrack)w.acTrack("social_open",{platform:key,action:"overlay"})}catch(e){}};
 var later=function(){if(d.readyState==="loading")d.addEventListener("DOMContentLoaded",show);else show()};
 if(!app){if(debug)return;setAddress(false);if(seen())return;mark();l.replace(store);return}
 setAddress(true);
