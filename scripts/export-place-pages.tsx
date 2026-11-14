@@ -82,9 +82,12 @@ function shell(template: Place) {
   const hero = template.photos[0] && head.match(new RegExp(`<link rel="preload" href="${escape(template.photos[0]).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}"[^>]*>`));
   if (hero) head = head.replace(hero[0], "\u0000hero\u0000");
   else head = head.replace(/(<link rel="stylesheet")/, "\u0000hero\u0000$1");
-  // The component's own output: from the site header to the "Open in app" script after the footer.
+  // The component's own output: from the site header to its last script after the footer (the shared
+  // /places/place.js where the site has it, else the inline "Open in app" script).
   const start = html.indexOf('<header class="site-header"', headEnd);
-  const end = html.indexOf("</script>", html.indexOf('closest("a[data-open-app]")', html.indexOf("</footer>", start))) + "</script>".length;
+  const footer = html.indexOf("</footer>", start);
+  const shared = html.indexOf('src="/places/place.js"', footer);
+  const end = html.indexOf("</script>", shared > 0 ? shared : html.indexOf('closest("a[data-open-app]")', footer)) + "</script>".length;
   assert.ok(start > 0 && end > start, "could not find the place page's body in the template");
   return { head, middle: html.slice(headEnd, start), tail: html.slice(end), suffix, indexedRobots: indexedRobots! };
 }

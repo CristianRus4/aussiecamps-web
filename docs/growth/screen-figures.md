@@ -61,7 +61,7 @@ followed by that section's heading. Source screenshots are in `~/Marketing/Campi
 | wikicamps-trip-planner-alternative | 3 (Your trip planning jobs, task by task) | aussiecamps_guides_perth-to-broome_map.png | AussieCamps on iPhone: the Perth to Broome road trip on the map, with the forecast along the way |
 | does-wikicamps-work-offline | 2 (What AussieCamps keeps on your phone) | aussiecamps_place-detail_mount-buffalo-np_top.png | AussieCamps on iPhone: the Mount Buffalo National Park page in Victoria with its description and amenities |
 | moving-from-wikicamps | 2 (Where your WikiCamps favourites go) | (reused from the site) | AussieCamps on iPhone: the Collections screen with Liked, Starred, Want to visit, Visited, Pins and All saved, and saved camping road trip guides underneath |
-| share-camping-trip-aussiecamps | 0 (Plan together, live, with Collaborate) | (reused from the site) | AussieCamps on iPhone: the Blue Mountains camping weekend road trip on the map, with the route, dump points and the weather forecast along it |
+| share-camping-trip-aussiecamps | 7 (Plan the next trip together) | (reused from the site) | AussieCamps on iPhone: the Blue Mountains camping weekend road trip on the map, with the route, dump points and the weather forecast along it |
 | free-camps-missing-wikicamps | 1 (Find free stops in AussieCamps with one filter) | (reused from the site) | AussieCamps on iPhone: the Lucky Bay Campground page with its amenities and features |
 | sydney-to-adelaide-drive | 8 (Plan the Sydney to Adelaide drive in AussieCamps) | aussiecamps_collections_my-collections_list-2.png | AussieCamps on iPhone: the Collections screen with the Want to visit, Visited, Pins and All saved lists and saved collections for the Brisbane to Cape Tribulation, Perth to Broome and Blue Mountains road trips |
 | melbourne-to-canberra-drive | 8 (Plan the Melbourne to Canberra drive in AussieCamps) | aussiecamps_guides_blue-mountains-weekend_top.png | AussieCamps on iPhone: the Blue Mountains camping weekend road trip guide, with its trip length of 2 nights, what to plan around and what to book ahead |
@@ -81,9 +81,12 @@ followed by that section's heading. Source screenshots are in `~/Marketing/Campi
 | alice-springs-to-uluru-drive | 7 (Plan the Alice Springs to Uluru drive in AussieCamps) | aussiecamps_guides_adelaide-to-uluru_map.png | AussieCamps on iPhone: the Adelaide to Uluru guide with a route map of saved places including dump points at Coober Pedy and Port Augusta, and a 7-day weather forecast |
 | adelaide-to-port-lincoln-drive | 6 (Plan the Adelaide to Port Lincoln drive in AussieCamps) | aussiecamps_place-detail_coffin-bay-np_middle.png | AussieCamps on iPhone: the Coffin Bay National Park place page in South Australia, with amenities and features such as camping, toilets, campfires allowed, a boat ramp and caravan sites, and a reported prices panel |
 
-`best-fuel-price-apps-australia` is the one exception to "the section whose heading names AussieCamps":
-no heading of that guide names the app, so its figure sits in "Fuel is the biggest cost you can plan", whose
-body names AussieCamps trips. The heading test in `tests/rendered-html.test.mjs` lists it as the exception.
+A figure sits in the section whose heading names AussieCamps, with these exceptions, where it sits in the
+section it shows, whose body names AussieCamps (the heading test in `tests/rendered-html.test.mjs` lists them):
+`best-fuel-price-apps-australia` (no heading names the app: "Fuel is the biggest cost you can plan"),
+`wikicamps-vs-aussiecamps` ("Trip planning"), `wikicamps-trip-planner-alternative` ("Your trip planning jobs,
+task by task"), `moving-from-wikicamps` ("Where your WikiCamps favourites go") and
+`share-camping-trip-aussiecamps` ("Plan the next trip together").
 `best-camping-app-australia` is published; the others are scheduled and show their figure from their publish date.
 
 ## How it works

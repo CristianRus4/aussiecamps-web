@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import vm from "node:vm";
+import { readFileSync } from "node:fs";
 import { readFile, readdir } from "node:fs/promises";
 import { APP_STORE_URL, APPLE_PROVIDER_TOKEN, GA_MEASUREMENT_ID } from "../lib/site.ts";
 import { CAMPAIGN_TOKEN_MAX, campaignTokenPattern, ctaPlacements, smartBannerContent } from "../lib/app-store.ts";
@@ -227,12 +228,13 @@ async function exportedPages() {
   if (exportedCache) return exportedCache;
   const names = (await readdir(dist, { recursive: true })).filter((name) => name.endsWith(".html")).sort();
   assert.ok(names.length > 500, `pages-dist holds ${names.length} HTML files; run \`npm run build:pages\` first`);
-  const all = await Promise.all(names.map(async (name) => {
-    const html = await readFile(new URL(name, dist), "utf8");
+  // A page's html is read from disk each time a test asks for it and never kept: holding every exported
+  // page in memory at once ran CI out of heap.
+  const all = names.map((name) => {
     const route = `/${name.replace(/(^|\/)index\.html$/, "$1")}`;
     const locale = locales.find((code) => route.startsWith(`/${code}/`)) ?? "en";
-    return { name, route, locale, html };
-  }));
+    return { name, route, locale, get html() { return readFileSync(new URL(name, dist), "utf8"); } };
+  });
   // The pages of the places without a listing (scripts/export-place-pages.tsx) are outside the route
   // manifest: they have their own test below, and every other test reads the routed pages.
   const stubPaths = new Set(JSON.parse(await readFile(new URL("../lib/data/place-stubs.json", import.meta.url), "utf8")).places.map((place) => `/places/${place.stateSlug}/${place.slug}/`));
@@ -520,10 +522,10 @@ test("every URL that was live at the start of the growth push is still exported"
 test("every ranking URL is still exported and names itself as canonical", async () => {
   const ranking = await urlList("docs/growth/ranking-urls.txt");
   assert.ok(ranking.length >= 100);
-  const pages = new Map((await exportedPages()).map((page) => [`https://aussiecamps.app${page.route}`, page.html]));
+  const pages = new Map((await exportedPages()).map((page) => [`https://aussiecamps.app${page.route}`, page]));
   for (const url of ranking) {
     assert.ok(pages.has(url), `${url} earns clicks or impressions and is no longer exported`);
-    assert.match(pages.get(url), new RegExp(`<link rel="canonical" href="${url.replace(/[.?]/g, "\\$&")}"`), `${url} must stay self-canonical`);
+    assert.match(pages.get(url).html, new RegExp(`<link rel="canonical" href="${url.replace(/[.?]/g, "\\$&")}"`), `${url} must stay self-canonical`);
   }
 });
 
@@ -639,9 +641,9 @@ const imageAttribute = (tag, name) => tag.match(new RegExp(`\\s${name}="([^"]*)"
 
 test("each screenshot figure sits in the section that names AussieCamps, one figure per guide", async () => {
   const { screenFigures } = await import("../lib/screen-figures.ts");
-  // The documented exception (docs/growth/screen-figures.md): no heading of the fuel guide names the app,
-  // so its figure sits in "Fuel is the biggest cost you can plan", whose body names AussieCamps trips.
-  const namedInBody = new Set(["best-fuel-price-apps-australia"]);
+  // The documented exceptions (docs/growth/screen-figures.md): the figure sits in the section it shows,
+  // whose heading does not name the app but whose body names AussieCamps.
+  const namedInBody = new Set(["best-fuel-price-apps-australia", "wikicamps-vs-aussiecamps", "wikicamps-trip-planner-alternative", "moving-from-wikicamps", "share-camping-trip-aussiecamps"]);
   for (const figure of screenFigures) {
     const article = allArticles.find((item) => item.slug === figure.slug);
     const part = article.sections[figure.section];
@@ -655,7 +657,9 @@ test("each screenshot figure sits in the section that names AussieCamps, one fig
 test("an app guide shows its screenshot figure in English and in every language it is translated into", async () => {
   const { screenFigures } = await import("../lib/screen-figures.ts");
   const { localizedArticles } = await import("../lib/localized.ts");
-  const pages = new Map((await exportedPages()).map((page) => [page.route, page.html]));
+  // Looked up by route; a page's html is read only when the test gets it.
+  const byRoute = new Map((await exportedPages()).map((page) => [page.route, page]));
+  const pages = { get: (route) => byRoute.get(route)?.html, has: (route) => byRoute.has(route) };
   const published = screenFigures.filter((figure) => articles.some((item) => item.slug === figure.slug));
   assert.ok(published.some((figure) => figure.slug === "best-camping-app-australia"), "the best camping app guide is published with its figure");
   let translatedPages = 0;
