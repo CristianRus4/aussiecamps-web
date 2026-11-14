@@ -5,9 +5,11 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+# A run always finishes: the site gets several pushes an hour, longer apart than a run takes, and cancelling
+# the run in progress meant none ever completed. GitHub keeps only the newest push waiting behind it.
 concurrency:
   group: checks
-  cancel-in-progress: true
+  cancel-in-progress: false
 jobs:
   check:
     runs-on: ubuntu-latest
