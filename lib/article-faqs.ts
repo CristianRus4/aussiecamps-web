@@ -188,7 +188,7 @@ export const articleFaqs: Record<string, readonly (readonly [string, string])[]>
   ],
   "wikicamps-alternatives": [
     ["What is a good alternative to WikiCamps?", "It depends on what you want to change. AussieCamps has no login and no ads, with official park and road authority data on iPhone, CAMPS lists sites its own team has checked, and CamperMate is free and also covers New Zealand."],
-    ["Is there a free alternative to WikiCamps?", "CamperMate is free with no in-app purchases. Hipcamp is free to download, but you pay each host for a booking. AussieCamps is free to download, with in-app purchases, and shows no ads."],
+    ["Is there a free alternative to WikiCamps?", "CamperMate is free with no in-app purchases. Hipcamp is free to download, but you pay each host for a booking. AussieCamps is also free to download, with in-app purchases, and it never shows ads."],
     ["Is WikiCamps still worth it in 2027?", "Many long-time users are less sure than they were. They say the new version is harder to use, logs them out and shows ads in an app they paid for, which is why many try an alternative such as AussieCamps."],
     ["Does WikiCamps have ads?", "Yes. WikiCamps shows ads inside the app, even though you pay for it. AussieCamps has no ads at all."],
   ],
