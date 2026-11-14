@@ -333,7 +333,11 @@ em { color: inherit; font: inherit; font-style: normal; }
 /* The download QR code: on a desktop, hovering the store button grows it upward into the code, its
    label kept along the bottom edge, as on getleft.app. Square like every button here. */
 .qr-morph { display: none; }
+/* "Open in app" on phones and tablets, "Open on iPhone" on a desktop (components/open-app-label.tsx). */
+.oa-desk { display: none; }
 @media (hover: hover) and (pointer: fine) and (min-width: 768px) {
+  .oa-touch { display: none; }
+  .oa-desk { display: inline; }
   .qr-morph { --qr-size: 172px; position: absolute; left: 50%; bottom: 0; z-index: 4; width: 100%; height: 48px; overflow: hidden; background: var(--store-button-bg); color: var(--store-button-fg); display: flex; flex-direction: column; opacity: 0; pointer-events: none; transform: translateX(-50%); box-shadow: 0 14px 34px rgba(0, 0, 0, .3); transition: width 500ms cubic-bezier(0.22, 1, 0.36, 1), height 500ms cubic-bezier(0.22, 1, 0.36, 1), opacity 90ms linear; }
   .store-qr:hover .qr-morph, .store-qr:focus-within .qr-morph { width: var(--qr-size); height: calc(var(--qr-size) + 40px); opacity: 1; }
   .store-qr .store-button { transition: opacity 90ms linear, background 180ms ease; }

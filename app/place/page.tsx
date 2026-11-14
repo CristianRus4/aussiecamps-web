@@ -6,6 +6,7 @@ import { StoreWithQr } from "@/components/guide-cta";
 import { mainData } from "@/lib/analytics";
 import { smartBannerContent } from "@/lib/app-store";
 import { SITE_URL } from "@/lib/site";
+import { pageQrScript } from "@/lib/qr-source";
 import { uiStrings } from "@/lib/source-strings";
 import { openAppScript, placeAppLink, placeScript } from "@/lib/place-link";
 
@@ -35,7 +36,7 @@ export default function SharedPlace() {
           </header>
           <div className="place-photo" id="place-photo" hidden />
           <div className="trip-cta place-actions">
-            <StoreWithQr locale="en" placement="shared" label={uiStrings.download} openApp={placeAppLink} />
+            <StoreWithQr locale="en" placement="shared" label={uiStrings.download} openApp={placeAppLink} liveQr />
             <a className="store-button place-secondary" id="place-directions" href="https://maps.apple.com/" rel="nofollow noopener" target="_blank" hidden><MapPin aria-hidden="true" /><span>Directions</span></a>
             <a className="store-button place-secondary" id="place-book" href="https://maps.apple.com/" rel="sponsored nofollow noopener" target="_blank" hidden>Book</a>
           </div>
@@ -46,5 +47,6 @@ export default function SharedPlace() {
     <Footer pageKey="place-link" openApp={placeAppLink} />
     <script data-static-tools dangerouslySetInnerHTML={{ __html: placeScript }} />
     <script data-static-tools dangerouslySetInnerHTML={{ __html: openAppScript }} />
+    <script data-static-tools dangerouslySetInnerHTML={{ __html: pageQrScript }} />
   </>;
 }

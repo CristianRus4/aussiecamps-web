@@ -20,10 +20,10 @@ import { articles, getArticle, sitePath } from "@/lib/site";
  * and fades out; the description ends on the page's one store button, so the rest is one tap away in
  * AussieCamps. Holiday parks lead with the booking banner on our BookEasy agent link.
  */
-function Faded({ children, openApp }: { children: React.ReactNode; openApp?: string }) {
+function Faded({ children, openApp, qr }: { children: React.ReactNode; openApp?: string; qr?: string }) {
   return <div className="pl-fade">
     <div className="pl-fade-body">{children}</div>
-    {openApp && <div className="pl-fade-cta"><StoreWithQr locale="en" placement="place" label={uiStrings.download} openApp={openApp} reuse /></div>}
+    {openApp && <div className="pl-fade-cta"><StoreWithQr locale="en" placement="place" label={uiStrings.download} openApp={openApp} qr={qr} reuse /></div>}
   </div>;
 }
 
@@ -107,8 +107,8 @@ export function PlacePage({ place }: { place: Place }) {
               <section>
                 <h2>About {place.name}</h2>
                 <p className="pl-summary">{summary.join(" ")}</p>
-                {place.description ? <Faded openApp={openApp}><p>{place.description}</p></Faded>
-                  : <div className="pl-fade-cta"><StoreWithQr locale="en" placement="place" label={uiStrings.download} openApp={openApp} reuse /></div>}
+                {place.description ? <Faded openApp={openApp} qr={url}><p>{place.description}</p></Faded>
+                  : <div className="pl-fade-cta"><StoreWithQr locale="en" placement="place" label={uiStrings.download} openApp={openApp} qr={url} reuse /></div>}
               </section>
               {place.amenities.length > 0 && <section>
                 <h2>Facilities</h2>
@@ -142,9 +142,9 @@ export function PlacePage({ place }: { place: Place }) {
               </section>}
               {/* The licence of these sources requires the credit; other sources and the booking feed get none. */}
               {/CC BY/.test(place.credit) && <p className="pl-credit">© {place.credit}</p>}
-              <GuideEndCta locale="en" placement="place" label={uiStrings.download} openApp={openApp} eyebrow={uiStrings.takeRoad} title={uiStrings.savePlanTitle} text={uiStrings.savePlanText} />
+              <GuideEndCta locale="en" placement="place" label={uiStrings.download} openApp={openApp} qr={url} eyebrow={uiStrings.takeRoad} title={uiStrings.savePlanTitle} text={uiStrings.savePlanText} />
             </div>
-            <aside><GuideSideCard locale="en" placement="place" label={uiStrings.download} openApp={openApp} eyebrow={uiStrings.downloadEyebrow} title={uiStrings.downloadTitle} /></aside>
+            <aside><GuideSideCard locale="en" placement="place" label={uiStrings.download} openApp={openApp} qr={url} eyebrow={uiStrings.downloadEyebrow} title={uiStrings.downloadTitle} /></aside>
           </div>
         </div>
       </article>

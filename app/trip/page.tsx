@@ -7,6 +7,7 @@ import { uiStrings } from "@/lib/source-strings";
 import { tripScript } from "@/lib/trip-link";
 import { smartBannerContent } from "@/lib/app-store";
 import { SITE_URL } from "@/lib/site";
+import { pageQrScript } from "@/lib/qr-source";
 import { appLink, openAppScript } from "@/lib/open-app";
 
 const openApp = appLink("/trip/#");
@@ -35,7 +36,7 @@ export default function Trip() {
             <h1 id="trip-name">Shared trip</h1>
             <p className="pl-meta" id="trip-meta" />
           </header>
-          <div className="trip-cta"><StoreWithQr locale="en" placement="trip" label={uiStrings.download} openApp={openApp} /></div>
+          <div className="trip-cta"><StoreWithQr locale="en" placement="trip" label={uiStrings.download} openApp={openApp} liveQr /></div>
           <p className="trip-status" id="trip-status"><noscript>Turn on JavaScript to see this trip.</noscript></p>
           <ol className="trip-stops" id="trip-stops" hidden />
         </div>
@@ -44,5 +45,6 @@ export default function Trip() {
     <Footer pageKey="trip" openApp={openApp} />
     <script data-static-tools dangerouslySetInnerHTML={{ __html: tripScript("en-AU") }} />
     <script data-static-tools dangerouslySetInnerHTML={{ __html: openAppScript }} />
+    <script data-static-tools dangerouslySetInnerHTML={{ __html: pageQrScript }} />
   </>;
 }
