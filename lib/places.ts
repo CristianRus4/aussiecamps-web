@@ -54,6 +54,8 @@ export const typeLabels: Record<PlaceType, { one: string; many: string }> = {
 };
 /** A place's type label; the types without a full page (rest areas, stays, tours…) use the app's own name. */
 export const typeLabel = (place: Pick<Place, "type" | "typeName">) => typeLabels[place.type] ?? { one: place.typeName ?? "Place", many: place.typeName ?? "Places" };
+/** A place's name, page and type for the map's hover label and tap card (components/places/place-map.tsx). */
+export const mapLabel = (place: Place): [string, string, string] => [place.name, placePath(place), typeLabel(place).one];
 /** The types a full page can have: the camping places. */
 export const isCampingType = (type: string): type is PlaceType => type in typeLabels;
 export const placeTypes = (Object.keys(typeLabels) as PlaceType[]).filter((type) => places.some((place) => place.type === type));

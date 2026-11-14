@@ -11,7 +11,7 @@ import { hubGuides } from "@/lib/hubs/regions";
 import { stateIntros } from "@/lib/hubs/state-intros";
 import { SITE_URL, getArticle, sitePath } from "@/lib/site";
 import { uiStrings } from "@/lib/source-strings";
-import { feeLabel, photoUrl, placePath, places, placesPath, placeStatePath, placeStates, placeTypes, typeLabels, type Place, type PlaceState } from "@/lib/places";
+import { feeLabel, mapLabel, photoUrl, placePath, places, placesPath, placeStatePath, placeStates, placeTypes, typeLabels, type Place, type PlaceState } from "@/lib/places";
 
 const where = (place: Place) => place.park ?? place.locality ?? place.stateName;
 
@@ -62,7 +62,7 @@ export function PlacesDirectory() {
         <header className="pl-header">
           <h1>Campgrounds, holiday parks and national parks across Australia</h1>
         </header>
-        <PlaceMap points={places.map((place) => [place.lng, place.lat] as [number, number])} label="Places to camp" precision={1} />
+        <PlaceMap points={places.map((place) => [place.lng, place.lat] as [number, number])} labels={places.map(mapLabel)} label="Places to camp" precision={3} />
         <SearchBox placeholder="Search by name, park or town" results />
         <section className="pl-states">
           <h2>By state</h2>
@@ -98,7 +98,7 @@ export function PlacesState({ state }: { state: PlaceState }) {
           <h1>Places to camp in {state.name}</h1>
           {stateIntros[state.code] && <p className="pl-intro">{stateIntros[state.code]}</p>}
         </header>
-        <PlaceMap points={state.places.map((place) => [place.lng, place.lat] as [number, number])} label={`Places to camp in ${state.name}`} />
+        <PlaceMap points={state.places.map((place) => [place.lng, place.lat] as [number, number])} labels={state.places.map(mapLabel)} label={`Places to camp in ${state.name}`} precision={3} />
         <SearchBox placeholder={`Search places in ${state.name}`} />
         <ul className="pl-rows pl-az">{sorted.map((place) => <li key={place.id} data-type={place.type}><Link href={placePath(place)}>
           <img src={photoUrl(place.photos[1] ?? place.photos[0])} alt="" loading="lazy" decoding="async" referrerPolicy="no-referrer" />
