@@ -51,13 +51,12 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           NODE_OPTIONS: --max-old-space-size=6144
+          # Every page goes to the R2 bucket (no file limit); the Worker serves them from there.
+          PLACES_R2: "1"
         run: |
           if [ -z "$CLOUDFLARE_API_TOKEN" ]; then echo "No CLOUDFLARE_API_TOKEN secret: the extra place pages were not deployed."; exit 0; fi
-          # Every page into R2 too (no file limit), ahead of the Worker reading from it. First, before the
-          # static-assets render puts the pages beyond its file limit into the Pages export.
-          PLACES_R2=1 NODE_ENV=production npx tsx scripts/export-place-pages.tsx --out r2-dist
-          node scripts/sync-places-r2.mjs aussiecamps-places r2-dist
           npm run places:worker
+          node scripts/sync-places-r2.mjs aussiecamps-places worker-dist
           npx wrangler deploy --config places-worker/wrangler.jsonc
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

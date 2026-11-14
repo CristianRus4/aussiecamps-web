@@ -1,20 +1,14 @@
-// The AussieCamps place pages that don't fit on GitHub Pages (Cristian, 14 Nov 2026): the ~19,000 places
-// without a full listing, rendered by the site's own place template (scripts/export-place-pages.tsx
-// --out worker-dist, `npm run places:worker`) and served from this Worker's static assets on the free plan.
-// Everything else stays on GitHub Pages: the Worker passes any other request through unchanged.
+// The AussieCamps place pages that don't fit on GitHub Pages (Cristian, 14 Nov 2026): the ~20,000 places
+// without a full listing, rendered by the site's own place template (`PLACES_R2=1 npm run places:worker` →
+// worker-dist), uploaded to the R2 bucket aussiecamps-places (scripts/sync-places-r2.mjs, only changed pages)
+// and served by this Worker on the free plan: R2 has no file limit. Everything else stays on GitHub Pages:
+// the Worker passes any other request through unchanged (src/index.js).
 {
   "name": "aussiecamps-places",
   "main": "src/index.js",
   "compatibility_date": "2026-11-01",
   "workers_dev": true,
-  "assets": {
-    "directory": "../worker-dist",
-    "binding": "ASSETS",
-    // /places/<state>/<slug> redirects to its trailing slash, like GitHub Pages; an unknown path runs the
-    // Worker, which passes it through to GitHub Pages.
-    "html_handling": "auto-trailing-slash",
-    "not_found_handling": "none"
-  },
+  "r2_buckets": [{ "binding": "PLACES", "bucket_name": "aussiecamps-places" }],
   // Runs on aussiecamps.app/places/* (the domain's DNS records are proxied through Cloudflare).
   "routes": [{ "pattern": "aussiecamps.app/places/*", "zone_name": "aussiecamps.app" }]
 }

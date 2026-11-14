@@ -9,16 +9,14 @@ Worker on the free plan, `aussiecamps-places` (places-worker/).
   shell of an exported place page (scripts/export-place-pages.tsx `--out worker-dist`), after the Pages
   export. They load the site's CSS and scripts from aussiecamps.app like every page. noindex, in no sitemap,
   not in IndexNow.
-- **Routing.** The Worker's static assets answer `/places/<state>/<slug>/` for those pages (a slash-less
-  path redirects to the slash); any other path runs the Worker, which passes the request through to GitHub
-  Pages unchanged.
+- **Routing.** The Worker answers `/places/<state>/<slug>/` for those pages from the R2 bucket (a slash-less
+  path gets a 301 to the slash); any other path passes through to GitHub Pages unchanged.
 - **Deploy.** pages.yml renders and deploys the Worker in the same build as the Pages artifact, so its
   pages always name the CSS file that is going live. It uses the repository secrets
   `CLOUDFLARE_API_TOKEN` (Workers Scripts and Workers Routes edit) and `CLOUDFLARE_ACCOUNT_ID`; without the
   token the step is skipped.
-- **Free plan.** 20,000 static asset files per Worker version: 19,324 used (the pages and `_headers`).
-  Workers' free plan counts only requests that run the Worker (100,000 a day); asset hits are free.
-  If the data outgrows 20,000 files, R2 is the next step.
+- **Free plan.** R2: 10 GB storage and no file limit (about 881 MB used). Workers: 100,000 requests a day;
+  every `/places/*` request runs the Worker.
 
 ## Cutover (14 Nov 2026)
 
@@ -36,16 +34,10 @@ stays DNS only (GitHub redirects it). The Worker runs on the route `aussiecamps.
 Rollback: remove the route in places-worker/wrangler.jsonc and deploy (the extra pages then 404,
 everything else is unaffected), or set the `A` records back to DNS only.
 
-## Moving to R2 (no file limit)
+## R2 (14 Nov 2026)
 
-Workers static assets allow 20,000 files on the free plan. The Worker and its upload script are ready for
-R2 (free: 10 GB, no file limit); it only needs R2 enabled on the account (Cristian: Cloudflare dashboard ›
-R2 Object Storage › enable). Then:
-
-1. `npx wrangler r2 bucket create aussiecamps-places`
-2. places-worker/wrangler.jsonc: replace `"assets": {…}` with
-   `"r2_buckets": [{ "binding": "PLACES", "bucket_name": "aussiecamps-places" }]` (keep the route).
-3. pages.yml, the Cloudflare step: set `PLACES_R2: "1"` in its env and run
-   `node scripts/sync-places-r2.mjs aussiecamps-places worker-dist` before `npx wrangler deploy`. The sync uploads
-   only pages whose MD5 changed and deletes removed ones.
-4. Test on workers.dev, then live; the static-assets copy goes with the deploy that drops `"assets"`.
+The pages are objects in the R2 bucket `aussiecamps-places` (free: 10 GB, no file limit), bound to the Worker
+as PLACES. CI renders them with `PLACES_R2=1`, and scripts/sync-places-r2.mjs uploads only the pages whose
+MD5 changed (and deletes removed ones) over R2's S3 endpoint, with keys derived from CLOUDFLARE_API_TOKEN.
+The Worker answers `/places/<state>/<slug>/` from the bucket (a slash-less path gets a 301), and passes
+everything else through to GitHub Pages.
