@@ -22,6 +22,12 @@ import { localizedHref } from "@/lib/routes";
 type LinkTarget = { pattern: RegExp; slug: string };
 
 const targets: LinkTarget[] = [
+  // WikiCamps switcher guides with distinctive phrases: first, so "free camps" or "no signal" in the same paragraph does not take the link.
+  { pattern: /\bfree camps missing from WikiCamps\b/i, slug: "free-camps-missing-wikicamps" },
+  { pattern: /\bwhether WikiCamps works offline\b/i, slug: "does-wikicamps-work-offline" },
+  { pattern: /\bWikiCamps trip planner\b/, slug: "wikicamps-trip-planner-alternative" },
+  { pattern: /\bmove your trip over\b|\bmoving from WikiCamps\b/i, slug: "moving-from-wikicamps" },
+  { pattern: /\bshare the trip with your partner\b/i, slug: "share-camping-trip-aussiecamps" },
   // Seasonal guides first: their anchor phrases are specific, so they win a paragraph over the broader topics below.
   { pattern: /\bcamping over Christmas\b/i, slug: "christmas-summer-camping-australia-2026-27" },
   { pattern: /\bwet season camping\b/i, slug: "wet-season-camping-top-end-northern-wa" },

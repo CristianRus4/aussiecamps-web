@@ -13,7 +13,7 @@ export default article({
   places: ["Australia", "Sydney", "Melbourne", "Outback"],
   imageAlt: "A green distance sign on the Eyre Highway at Border Village showing Nullarbor 184, Ceduna 479 and Adelaide 1253 kilometres",
   intro: "An Australian road trip needs fewer apps than the App Store suggests, but the right ones save money and trouble: the official ETA app is the only place to apply for that visa, a fuel app pays for itself on a long drive, and the triple zero app reads out your coordinates when you do not know where you are. These are the ten we would install, grouped by the job they do. We make AussieCamps and list it honestly alongside the rest; every price, rating and update date comes from the Australian App Store on 9 November 2026.",
-  related: ["best-road-trip-planner-apps-australia", "best-apps-lap-of-australia", "best-fuel-price-apps-australia", "best-weather-apps-camping-australia"],
+  related: ["wikicamps-vs-aussiecamps", "share-camping-trip-aussiecamps", "best-road-trip-planner-apps-australia", "best-apps-lap-of-australia", "best-fuel-price-apps-australia", "best-weather-apps-camping-australia"],
   sections: [
     section("The apps at a glance", ["Install the entry and emergency apps before you fly, then the road apps once you have a local SIM or eSIM. Every app below is free to download; the prices column shows what costs money."], undefined, {
       caption: "Apps for travelling Australia. Prices, ratings and update dates from the Australian App Store, checked 9 November 2026.",
