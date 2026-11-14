@@ -1,7 +1,8 @@
 /**
  * Writes the place pages of every place the app lists without a full listing (lib/data/place-stubs.json:
- * rest areas, dump points, water, toilets, stays, tours, activities, closed and thin places) into the
- * static export, after scripts/export-github-pages.mjs.
+ * rest areas, dump points, water, toilets, stays, tours, activities, closed and thin places) for the
+ * Cloudflare Worker that serves them (places-worker/, docs/places-cloudflare.md), after
+ * scripts/export-github-pages.mjs. They are not part of the GitHub Pages export.
  *
  * There is one place page template: components/places/place-page.tsx, with lib/places-metadata.ts for its
  * head. The full pages go through the React build; these ~19,000 are rendered by the same component here,
@@ -11,10 +12,10 @@
  * rewritten, from the place's own metadata. They are noindex, in no sitemap and never sent to IndexNow
  * (none of those read this data).
  *
- *   tsx scripts/export-place-pages.tsx      (part of `npm run export`; PAGES_DIST writes elsewhere)
+ *   npm run places:worker      (tsx scripts/export-place-pages.tsx --out worker-dist; PAGES_DIST names the export)
  */
 import assert from "node:assert/strict";
-import { existsSync, mkdirSync, readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { createElement } from "react";
 import { renderToString } from "react-dom/server";
@@ -109,19 +110,8 @@ export function placePageHtml(place: Place, frame: ReturnType<typeof shell>) {
   return `${head}${frame.middle}${body}${frame.tail}`;
 }
 
-/** The published site's limit is 1 GB (GitHub Pages); these pages are written only while the whole export
- * stays under this budget, so a deploy never fails on size. PLACE_PAGES_BUDGET_MB overrides it. */
-const BUDGET_MB = Number(process.env.PLACE_PAGES_BUDGET_MB ?? 900);
-
-/** The export's size so far, in bytes (what the files hold, not the blocks they take on disk). */
-function exportBytes(directory: string): number {
-  let total = 0;
-  for (const entry of readdirSync(directory, { withFileTypes: true })) {
-    const path = resolve(directory, entry.name);
-    total += entry.isDirectory() ? exportBytes(path) : statSync(path).size;
-  }
-  return total;
-}
+/** Static asset files per Worker version on the Workers free plan. */
+const WORKER_FILE_LIMIT = 20_000;
 
 if (process.argv[1] && resolve(process.argv[1]) === resolve(import.meta.filename)) {
   const only = process.env.PAGES_ONLY?.split(",").filter(Boolean);
@@ -139,23 +129,26 @@ if (process.argv[1] && resolve(process.argv[1]) === resolve(import.meta.filename
     assert.fail(`rendering ${placePath(template)} here does not reproduce its exported page, from byte ${at}:\n  here:     ${rebuilt.slice(at - 80, at + 160)}\n  exported: ${exported.slice(at - 80, at + 160)}`);
   }
   if (!stubs.length) { console.log("Place pages without a listing: none in the data."); process.exit(0); }
-  // Render them all first, then write them only if the site stays within its budget.
-  const pages = stubs.map((place) => {
-    const target = fileFor(placePath(place));
-    assert.ok(!existsSync(target), `${placePath(place)} already has a full page`);
-    return { target, html: placePageHtml(place, frame) };
-  });
-  const bytes = pages.reduce((sum, page) => sum + Buffer.byteLength(page.html), 0);
-  const before = exportBytes(output);
-  const mb = (value: number) => (value / 1048576).toFixed(0);
-  const summary = `${stubs.length} place pages without a listing, ${mb(bytes)} MB (${(bytes / stubs.length / 1024).toFixed(1)} KB each); the export is ${mb(before)} MB without them, ${mb(before + bytes)} MB with them`;
-  if (before + bytes > BUDGET_MB * 1048576) {
-    console.warn(`Not written: ${summary}, over the ${BUDGET_MB} MB budget.`);
-    process.exit(0);
+  // They go into their own folder, outside the Pages export (the Cloudflare Worker's static assets,
+  // places-worker/), within the Workers free plan's 20,000 files per version.
+  const outIndex = process.argv.indexOf("--out");
+  assert.ok(outIndex !== -1 && process.argv[outIndex + 1], "Give the output folder: --out worker-dist");
+  {
+    const dir = resolve(root, process.argv[outIndex + 1]);
+    rmSync(dir, { recursive: true, force: true });
+    let bytes = 0;
+    for (const place of stubs) {
+      assert.ok(!existsSync(fileFor(placePath(place))), `${placePath(place)} already has a full page`);
+      const target = resolve(dir, placePath(place).slice(1), "index.html");
+      mkdirSync(dirname(target), { recursive: true });
+      const html = placePageHtml(place, frame);
+      writeFileSync(target, html);
+      bytes += Buffer.byteLength(html);
+    }
+    // GitHub Pages' caching, for the same pages served from the Worker.
+    writeFileSync(resolve(dir, "_headers"), "/places/*\n  Cache-Control: public, max-age=600\n");
+    const files = stubs.length + 1;
+    assert.ok(files <= WORKER_FILE_LIMIT, `${files} files is over the Workers free plan's ${WORKER_FILE_LIMIT} per version`);
+    console.log(`Wrote ${stubs.length} place pages without a listing to ${process.argv[outIndex + 1]} (${(bytes / 1048576).toFixed(0)} MB, ${files} files: ${WORKER_FILE_LIMIT - files} left under the free plan's ${WORKER_FILE_LIMIT}).`);
   }
-  for (const page of pages) {
-    mkdirSync(dirname(page.target), { recursive: true });
-    writeFileSync(page.target, page.html);
-  }
-  console.log(`Wrote ${summary}.`);
 }

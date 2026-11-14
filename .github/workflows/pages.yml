@@ -41,6 +41,20 @@ jobs:
           NODE_OPTIONS: --max-old-space-size=6144
           # Decrypts the place pages' data (scripts/decrypt-places.mjs); this repository is public.
           PLACES_KEY: ${{ secrets.PLACES_KEY }}
+      # The place pages that don't fit on GitHub Pages go to a Cloudflare Worker, from this same build, so
+      # they load the CSS of the build that is going live (docs/places-cloudflare.md). Skipped until the
+      # CLOUDFLARE_API_TOKEN secret exists.
+      - name: Deploy the extra place pages to Cloudflare
+        # A failure here never holds back the site's own deploy; it shows as a warning on the run.
+        continue-on-error: true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          NODE_OPTIONS: --max-old-space-size=6144
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then echo "No CLOUDFLARE_API_TOKEN secret: the extra place pages were not deployed."; exit 0; fi
+          npm run places:worker
+          npx wrangler deploy --config places-worker/wrangler.jsonc
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
