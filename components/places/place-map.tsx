@@ -1,6 +1,7 @@
 /**
- * The map on every listing and place page: OpenStreetMap through OpenFreeMap's Positron style, drawn by
- * MapLibre, turned grey and faint, with the places as dots on top. It fills the width of the page and
+ * The map on every listing and place page: OpenStreetMap through OpenFreeMap's Positron style (its Dark
+ * style when the reader's system is in dark mode, like the rest of the site), drawn by MapLibre, turned
+ * grey and faint, with the places as dots on top. It fills the width of the page and
  * frames the dots in the middle.
  *
  * The page carries only the points, rounded (2 decimals, about a kilometre, unless `precision` says
@@ -10,13 +11,14 @@
  */
 const LIB = "https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.";
 const STYLE = "https://tiles.openfreemap.org/styles/positron";
+const DARK_STYLE = "https://tiles.openfreemap.org/styles/dark";
 
 const mapScript = `(function(){if(window.plMap)return;window.plMap=1;
 var q=[],started=0,style=null;
 var grey={background:["background-color","#eeefec"],park:["fill-color","#e8e9e6"],water:["fill-color","#d3d6d6"],waterway:["line-color","#d3d6d6"],landcover_wood:["fill-color","#e6e7e4"],landcover_glacier:["fill-color","#f3f3f1"],landcover_ice_shelf:["fill-color","#f3f3f1"],landuse_residential:["fill-color","#e7e7e5"]};
 function load(){if(started)return;started=1;var c=document.createElement("link");c.rel="stylesheet";c.href="${LIB}css";document.head.appendChild(c);
-var s=document.createElement("script");s.src="${LIB}js";s.onload=function(){fetch("${STYLE}").then(function(r){return r.json();}).then(function(j){
-j.layers.forEach(function(l){l.paint=l.paint||{};if(grey[l.id])l.paint[grey[l.id][0]]=grey[l.id][1];if(l.type==="symbol"){l.paint["text-opacity"]=0.55;l.paint["icon-opacity"]=0.4;}if(l.type==="line"&&!grey[l.id])l.paint["line-opacity"]=0.6;});
+var s=document.createElement("script");s.src="${LIB}js";s.onload=function(){var dark=window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches;fetch(dark?"${DARK_STYLE}":"${STYLE}").then(function(r){return r.json();}).then(function(j){
+j.layers.forEach(function(l){l.paint=l.paint||{};if(grey[l.id]&&!dark)l.paint[grey[l.id][0]]=grey[l.id][1];if(l.type==="symbol"){l.paint["text-opacity"]=0.55;l.paint["icon-opacity"]=0.4;}if(l.type==="line"&&!grey[l.id])l.paint["line-opacity"]=0.6;});
 style=j;var w=q;q=null;w.forEach(draw);}).catch(function(){});};document.head.appendChild(s);}
 function fc(p){return{type:"FeatureCollection",features:p.map(function(c){return{type:"Feature",properties:{},geometry:{type:"Point",coordinates:c}};})};}
 function draw(el){try{var d=JSON.parse(el.getAttribute("data-pl-map")),p=d.p,f=d.f,all=f?p.concat([f]):p;if(!all.length)return;

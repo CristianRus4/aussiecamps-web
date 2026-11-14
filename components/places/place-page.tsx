@@ -7,7 +7,7 @@ import { GuideEndCta, GuideSideCard, StoreWithQr } from "@/components/guide-cta"
 import { mainData } from "@/lib/analytics";
 import { SITE_URL } from "@/lib/site";
 import { uiStrings } from "@/lib/source-strings";
-import { feeLabel, nearbyPlaces, parkHubPath, photoUrl, placePath, placesPath, placeStatePath, stateHubPath, typeLabels, type Place } from "@/lib/places";
+import { feeLabel, isCampingType, nearbyPlaces, parkHubPath, photoUrl, placePath, placesPath, placeStatePath, stateHubPath, typeLabel, type Place } from "@/lib/places";
 import { placeQuestions, placeSummary } from "@/lib/places-copy";
 import { placeGuides, rulesGuideFor } from "@/lib/place-guides";
 import { LinkList } from "@/components/places/listing";
@@ -44,7 +44,7 @@ function MapsButton({ place }: { place: Place }) {
 const mapsScript = `(function(){if(/iPhone|iPad|iPod/.test(navigator.userAgent)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1)){document.querySelectorAll("[data-apple-maps]").forEach(function(a){a.href=a.getAttribute("data-apple-maps");});}})();`;
 
 export function PlacePage({ place }: { place: Place }) {
-  const type = typeLabels[place.type];
+  const type = typeLabel(place);
   const where = place.park ?? place.locality ?? place.stateName;
   const url = `${SITE_URL}${placePath(place)}`;
   const openApp = appLink(placePath(place));
@@ -57,13 +57,14 @@ export function PlacePage({ place }: { place: Place }) {
   const rulesGuide = articles.find((article) => article.slug === rulesGuideFor(place.state));
   const guides = placeGuides(place).flatMap((slug) => getArticle(slug) ?? []);
   const shown = place.photos.length >= 5 ? 5 : place.photos.length >= 3 ? 3 : place.photos.length;
+  const camping = isCampingType(place.type);
   const morePhotos = place.photoCount - shown;
 
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": place.type === "campground" || place.type === "holiday_park" ? "Campground" : place.type === "walking_track" || place.type === "historic_site" ? "TouristAttraction" : "Park",
+        "@type": place.type === "campground" || place.type === "holiday_park" ? "Campground" : place.type === "walking_track" || place.type === "historic_site" ? "TouristAttraction" : camping ? "Park" : "Place",
         "@id": `${url}#place`, name: place.name, url, description: summary.join(" "),
         image: place.photos.map(photoUrl),
         address: { "@type": "PostalAddress", ...(place.locality ? { addressLocality: place.locality } : {}), addressRegion: place.stateName, addressCountry: "AU" },
@@ -91,12 +92,12 @@ export function PlacePage({ place }: { place: Place }) {
           <nav className="pl-crumbs" aria-label="Breadcrumb"><Link href={placesPath()}>Places</Link><span aria-hidden="true">/</span><Link href={placeStatePath({ slug: place.stateSlug })}>{place.stateName}</Link></nav>
           <header className="pl-header">
             <h1>{place.name}</h1>
-            <p className="pl-meta">{place.stars ? <Stars value={place.stars} /> : null}<span>{type.one} in {where}</span></p>
+            <p className="pl-meta">{place.stars ? <Stars value={place.stars} /> : null}<span>{type.one} in {where}</span>{place.closed && <span>Closed</span>}</p>
           </header>
-          <div className={`pl-gallery pl-gallery-${shown}`}>
-            {place.photos.slice(0, shown).map((file, index) => <img key={file} src={photoUrl(file)} alt={index === 0 ? `${place.name}, ${typeLabels[place.type].one.toLowerCase()} in ${place.stateName}` : `${place.name}, photo ${index + 1}`} loading={index === 0 ? "eager" : "lazy"} fetchPriority={index === 0 ? "high" : undefined} decoding="async" referrerPolicy="no-referrer" />)}
+          {shown > 0 && <div className={`pl-gallery pl-gallery-${shown}`}>
+            {place.photos.slice(0, shown).map((file, index) => <img key={file} src={photoUrl(file)} alt={index === 0 ? `${place.name}, ${type.one.toLowerCase()} in ${place.stateName}` : `${place.name}, photo ${index + 1}`} loading={index === 0 ? "eager" : "lazy"} fetchPriority={index === 0 ? "high" : undefined} decoding="async" referrerPolicy="no-referrer" />)}
             {morePhotos > 0 && shown > 1 && <a className="pl-more-photos" href={appStoreUrl({ placement: "place" })} data-cta="place" data-open-app={openApp}><Images aria-hidden="true" />+{morePhotos} photos in the app</a>}
-          </div>
+          </div>}
           <div className="pl-layout">
             <div className="pl-main">
               {place.booking && <div className="pl-book-banner">
@@ -106,7 +107,8 @@ export function PlacePage({ place }: { place: Place }) {
               <section>
                 <h2>About {place.name}</h2>
                 <p className="pl-summary">{summary.join(" ")}</p>
-                <Faded openApp={openApp}><p>{place.description}</p></Faded>
+                {place.description ? <Faded openApp={openApp}><p>{place.description}</p></Faded>
+                  : <div className="pl-fade-cta"><StoreWithQr locale="en" placement="place" label={uiStrings.download} openApp={openApp} reuse /></div>}
               </section>
               {place.amenities.length > 0 && <section>
                 <h2>Facilities</h2>
@@ -116,9 +118,9 @@ export function PlacePage({ place }: { place: Place }) {
                 <h2>Things to do</h2>
                 <Faded><ul className="pl-amenities">{place.activities.map((activity) => <li key={activity}>{activity}</li>)}</ul></Faded>
               </section>}
-              {!place.booking && <section>
+              {!place.booking && (camping || fee) && <section>
                 <h2>Fees</h2>
-                <Faded><p>{fee ? `${fee}. ` : ""}Fees change with the season and the site, and some sites must be booked ahead. AussieCamps shows the current fee, how to book and what each site offers.</p></Faded>
+                <Faded><p>{fee ? `${fee}. ` : ""}{camping ? "Fees change with the season and the site, and some sites must be booked ahead. AussieCamps shows the current fee, how to book and what each site offers." : ""}</p></Faded>
               </section>}
               <section>
                 <h2>Location</h2>
@@ -130,7 +132,7 @@ export function PlacePage({ place }: { place: Place }) {
                 <h2>Nearby</h2>
                 <ul className="pl-rows">{nearby.map(({ place: other, km }) => <li key={other.id}><Link href={placePath(other)}>
                   <img src={photoUrl(other.photos[1] ?? other.photos[0])} alt="" loading="lazy" decoding="async" referrerPolicy="no-referrer" />
-                  <span><strong>{other.name}</strong><small>{typeLabels[other.type].one} · {km < 1 ? "under 1" : Math.round(km)} km</small></span>
+                  <span><strong>{other.name}</strong><small>{typeLabel(other).one} · {km < 1 ? "under 1" : Math.round(km)} km</small></span>
                 </Link></li>)}</ul>
               </section>}
               <LinkList title={`Guides for ${place.stateName}`} links={guides.map((guide) => ({ href: sitePath(`/guides/${guide.slug}`), label: guide.title }))} />
@@ -149,7 +151,7 @@ export function PlacePage({ place }: { place: Place }) {
       </article>
     </main>
     <Footer pageKey={`place:${place.stateSlug}/${place.slug}`} openApp={openApp} />
-    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+    {place.indexable !== false && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />}
     <script data-static-tools dangerouslySetInnerHTML={{ __html: mapsScript }} />
     <script data-static-tools dangerouslySetInnerHTML={{ __html: openAppScript }} />
   </>;

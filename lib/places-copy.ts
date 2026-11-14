@@ -1,4 +1,4 @@
-import { feeLabel, nearbyPlaces, typeLabels, type Place } from "@/lib/places";
+import { feeLabel, nearbyPlaces, typeLabel, type Place } from "@/lib/places";
 
 /**
  * The words a place page writes from the app's facts: the summary under the photos, the questions and
@@ -20,7 +20,7 @@ export function wherePhrase(place: Place) {
 }
 
 export function placeSummary(place: Place): string[] {
-  const type = lower(typeLabels[place.type].one);
+  const type = lower(typeLabel(place).one);
   const sentences = [`${place.name} is ${article(type)} ${type} in ${wherePhrase(place)}.`];
   if (place.stars) sentences.push(`It is rated ${place.stars} stars.`);
   if (place.amenities.length) sentences.push(`Its facilities include ${list(place.amenities.slice(0, 3).map(lower))}${place.amenityCount > 3 ? `, ${place.amenityCount} in all` : ""}.`);

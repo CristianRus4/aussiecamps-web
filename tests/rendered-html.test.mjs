@@ -233,10 +233,11 @@ async function exportedPages() {
     const locale = locales.find((code) => route.startsWith(`/${code}/`)) ?? "en";
     return { name, route, locale, html };
   }));
-  // The small place pages (scripts/build-place-stubs.mjs) are plain HTML outside the React build: they
-  // have their own test below, and every other test reads the React pages only.
-  exportedCache = all.filter((page) => !page.html.includes('data-page-kind="place-stub"'));
-  stubCache = all.filter((page) => page.html.includes('data-page-kind="place-stub"'));
+  // The pages of the places without a listing (scripts/export-place-pages.tsx) are outside the route
+  // manifest: they have their own test below, and every other test reads the routed pages.
+  const stubPaths = new Set(JSON.parse(await readFile(new URL("../lib/data/place-stubs.json", import.meta.url), "utf8")).places.map((place) => `/places/${place.stateSlug}/${place.slug}/`));
+  exportedCache = all.filter((page) => !stubPaths.has(page.route));
+  stubCache = all.filter((page) => stubPaths.has(page.route));
   return exportedCache;
 }
 const attribute = (tag, name) => tag.match(new RegExp(`\\s${name}="([^"]*)"`))?.[1];
@@ -722,26 +723,20 @@ test("screen figures fail the build when they point at nothing", async () => {
   assert.doesNotMatch(JSON.stringify(translationSource().articles), /images\/screens|"figure"/);
 });
 
-test("every place the app lists without a full page has a small, noindex page that opens it in the app", async () => {
+test("the places without a listing are published from the same template, noindex, or not at all", async () => {
   await exportedPages();
   const { places } = JSON.parse(await readFile(new URL("../lib/data/place-stubs.json", import.meta.url), "utf8"));
-  const pages = new Map(stubCache.map((page) => [page.route, page]));
-  assert.equal(pages.size, places.length, "one small page per place in lib/data/place-stubs.json");
-  const sitemaps = (await readdir(new URL("sitemaps/", dist))).map((file) => new URL(`sitemaps/${file}`, dist));
-  const listed = (await Promise.all(sitemaps.map((file) => readFile(file, "utf8")))).join("");
-  for (const place of places) {
-    const route = `/places/${place.stateSlug}/${place.slug}/`;
-    const page = pages.get(route);
-    assert.ok(page, `${route} was not written`);
-    const url = `https://aussiecamps.app${route}`;
-    assert.match(page.html, /<meta name="robots" content="noindex, follow">/, `${route} must be noindex`);
-    assert.ok(page.html.includes(`<link rel="canonical" href="${url}">`), `${route} canonical`);
-    assert.ok(page.html.includes(`app-argument=${url}"`), `${route} banner app-argument`);
-    assert.ok(page.html.includes(`data-open-app="aussiecamps://places/${place.stateSlug}/${place.slug}/"`), `${route} Open in app`);
-    assert.ok(!listed.includes(url), `${route} is in a sitemap`);
-    assert.ok(page.html.length < 16000, `${route} is ${page.html.length} bytes`);
-    for (const [, href] of page.html.matchAll(/<a\b[^>]*href="(https:[^"]+)"/g)) {
-      assert.match(href, /^https:\/\/(apps\.apple\.com\/|maps\.apple\.com\/|book\.bookeasy\.com\/agent\/cntxt-limited-australia-camping\/)/, `${route} links to ${href}`);
-    }
+  const written = stubCache;
+  // scripts/export-place-pages.tsx writes all of them or, when the site would pass its size budget, none.
+  assert.ok(written.length === 0 || written.length === places.length, `${written.length} of ${places.length} written`);
+  if (!written.length) return;
+  const listed = (await Promise.all((await readdir(new URL("sitemaps/", dist))).map((file) => readFile(new URL(`sitemaps/${file}`, dist), "utf8")))).join("");
+  for (const page of written) {
+    const url = `https://aussiecamps.app${page.route}`;
+    assert.match(page.html, /<main class="[^"]*" data-page-kind="place"|<main data-page-kind="place"/, `${page.route} is not the place template`);
+    assert.match(page.html, /<meta name="robots" content="noindex, follow"\/>/, `${page.route} must be noindex`);
+    assert.ok(page.html.includes(`<link rel="canonical" href="${url}"/>`), `${page.route} canonical`);
+    assert.ok(page.html.includes(`app-argument=${url}"`), `${page.route} banner app-argument`);
+    assert.ok(!listed.includes(url), `${page.route} is in a sitemap`);
   }
 });

@@ -824,4 +824,10 @@ a.trip-stop-title:hover { text-decoration: underline; }
 }
 @media (prefers-color-scheme: dark) {
   .pl-main p { color: #b7beb3; }
+  /* The dark buttons (Open in app, Open in Maps, the place lists' "all" links) turn light on the dark page. */
+  .pl-fade-cta .store-button, .pl-fade-cta .qr-morph, .pl-maps, .trip-cta .store-button, .trip-cta .qr-morph, .pl-cards-more, .pl-home-all {
+    --store-button-bg: var(--ink); --store-button-fg: var(--deep); --store-button-hover: var(--eucalyptus);
+  }
+  .pl-map { background: var(--soft); }
 }
+.store-button:focus-visible { outline: 2px solid var(--eucalyptus); outline-offset: 2px; }

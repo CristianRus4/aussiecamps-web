@@ -124,7 +124,6 @@ export function encrypt(text, key) {
 }
 
 const slugify = (value) => value.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase().replace(/&/g, " and ").replace(/['’]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-const feeOf = (value) => value === "Free" ? "Free" : value === "Paid" ? "Fees apply" : null;
 const clean = (value) => (value ?? "").replace(/<[^>]+>/g, " ").replace(/&nbsp;/g, " ").replace(/&amp;/g, "&").replace(/\s+/g, " ").trim();
 /** The first sentences that fit, never cut mid-sentence when a sentence ends in reach. */
 function excerpt(text, limit) {
@@ -255,7 +254,6 @@ try {
     const doing = activities.all(site.Id).map((row) => row.name.trim()).filter(Boolean);
     candidates.push({ ...entry, doing, hadPage: previous.has(site.Id), score: Math.min(description.length, 1200) + urls.length * 60 + list.length * 15 });
   }
-  db.close();
 
   // The same place can come from two sources: keep the richer record of one name within 3 km (a place
   // that already has a page always wins), and send the other record's id to its page.
@@ -323,24 +321,37 @@ try {
   writeFileSync(probePath, `${JSON.stringify(probes)}\n`);
   const published = new Set(places.flatMap((place) => place.photos));
 
-  // The small pages (scripts/build-place-stubs.mjs): facts only, except that a parks agency's or
-  // BookEasy's place also shows its first photo and a short excerpt, like the full pages.
-  const stubs = small.map((entry) => {
+  // The other places: the same fields as a full page, rendered by the same template (components/places/
+  // place-page.tsx, through scripts/build-place-stubs.mjs) but noindex. A parks agency's or BookEasy's
+  // place shows its photos and a description excerpt like a full page; other sources show facts only.
+  const stubs = await pool(small, async (entry) => {
     const { site, state, credit, live } = entry;
-    const text = credit ? excerpt(entry.description, EXCERPT) : { text: "", more: false };
+    const holidayPark = site.SiteTypeId === "holiday_park";
+    const text = credit ? excerpt(entry.description, holidayPark ? 1600 : EXCERPT) : { text: "", more: false };
+    const doing = activities.all(site.Id).map((row) => row.name.trim()).filter(Boolean);
+    const photoUrls = credit ? entry.urls.slice(0, PHOTOS) : [];
     return {
-      id: site.Id, slug: entry.slug, type: site.SiteTypeId, typeName: typeNames.get(site.SiteTypeId) ?? "Place", name: clean(site.SiteName) || typeNames.get(site.SiteTypeId) || "Place",
-      stateSlug: state.slug, stateName: state.name, locality: clean(site.Locality) || null, closed: site.SiteStatusId === 0,
+      id: site.Id, slug: entry.slug, type: site.SiteTypeId, typeName: typeNames.get(site.SiteTypeId) ?? "Place",
+      name: clean(site.SiteName) || typeNames.get(site.SiteTypeId) || "Place", state: site.State ?? null, stateSlug: state.slug, stateName: state.name,
+      park: site.SiteTypeId === "campground" ? (parks.get(site.ParkId) ?? clean(site.ParentName)) || null : null,
+      locality: clean(site.Locality) || null,
       lat: Number(site.Latitude.toFixed(4)), lng: Number(site.Longitude.toFixed(4)),
-      description: text.text || null, photo: credit ? (entry.urls[0] ?? null) : null,
-      fee: feeOf(site.FeeCategory), pets: site.PetsAllowed ?? null, sites: site.NumberOfSites ?? null, maxVehicleLength: site.MaxVehicleLength || null,
-      amenities: entry.list.slice(0, 10), road: roadOf(entry.route?.road), vehicle: vehicleOf(entry.route?.vehicle),
+      description: text.text, descriptionMore: text.more,
+      amenities: entry.list.slice(0, holidayPark || live ? 40 : SHOWN_AMENITIES), amenityCount: entry.list.length,
+      fee: site.FeeCategory || null, pets: site.PetsAllowed ?? null, sites: site.NumberOfSites ?? null,
+      bookingRequired: site.BookingRequired === 1 ? true : null, maxVehicleLength: site.MaxVehicleLength || null,
+      activities: doing.slice(0, SHOWN_AMENITIES), activityCount: doing.length,
+      road: roadOf(entry.route?.road), vehicle: vehicleOf(entry.route?.vehicle), weather: weatherOf(entry.route?.weather),
+      photos: photoUrls, heroWidth: 0, photoCount: credit ? entry.urls.length : 0,
+      credit: credit ?? site.Operator ?? "",
       booking: BOOKEASY_AGENT.test(site.Booking ?? "") && live?.Active === 1 ? site.Booking : null,
-      checkIn: clock(live?.CheckIn), checkOut: clock(live?.CheckOut),
-      credit: credit ?? site.Operator ?? null,
+      checkIn: clock(live?.CheckIn), checkOut: clock(live?.CheckOut), stars: live?.StarRating || null,
+      indexable: false, ...(site.SiteStatusId === 0 ? { closed: true } : {}),
       ...(entry.aliases.length ? { aliases: entry.aliases } : {}),
     };
-  }).sort((a, b) => a.id.localeCompare(b.id));
+  });
+  stubs.sort((a, b) => a.id.localeCompare(b.id));
+  db.close();
 
   places.sort((a, b) => a.stateSlug.localeCompare(b.stateSlug) || a.name.localeCompare(b.name));
   const exportedAt = new Date().toISOString().slice(0, 10);
@@ -354,7 +365,9 @@ try {
     writeFileSync(stubsEncryptedPath, `${encryptGzip(stubData, key)}\n`);
   } else console.warn("No PLACES_KEY in the environment or the keychain: wrote the plain copies only, not the .enc files.");
   const count = (list, type) => list.filter((place) => place.type === type).length;
-  console.log(`Wrote ${writePlacePages(places, stubs, placePagesOut())} place ids to ${placePagesOut()}.`);
+  // The app links only to pages that are published: the places without a listing join the map once their
+  // pages fit the site (scripts/export-place-pages.tsx; `npm run places:links -- --with-small`).
+  console.log(`Wrote ${writePlacePages(places, process.argv.includes("--with-small") ? stubs : [], placePagesOut())} place ids to ${placePagesOut()}.`);
   console.log(`Exported ${places.length} full pages (${TYPES.map((type) => `${count(places, type)} ${type.replaceAll("_", " ")}`).filter((line) => !line.startsWith("0 ")).join(", ")}) with ${published.size} photos, and ${stubs.length} small pages (${[...typeNames.keys()].map((type) => `${count(stubs, type)} ${type.replaceAll("_", " ")}`).filter((line) => !line.startsWith("0 ")).join(", ")}).`);
 } finally {
   rmSync(temp, { recursive: true, force: true });

@@ -6,11 +6,13 @@
  *   {"AU00002": "/places/new-south-wales/murphys-glen-campground/", …}
  *
  * Keys are the app's `Site.Id`, values the page path with its trailing slash, sorted by id. It covers the
- * full pages (lib/data/places.json), the small pages (lib/data/place-stubs.json) and the duplicate records
- * of a place (`aliases`), which share its page.
+ * full pages (lib/data/places.json) and the duplicate records of a place (`aliases`), which share its
+ * page; with --with-small, also the places without a listing (lib/data/place-stubs.json), once their pages
+ * are published (scripts/export-place-pages.tsx writes them only while the site fits its size budget).
+ * A place with no page is shared from the app as a /place/ link instead.
  *
- *   npm run places:links [-- --out <file>]   from the decrypted data (run scripts/decrypt-places.mjs first)
- *   npm run places:export                    also written at the end of every export
+ *   npm run places:links [-- --out <file>] [-- --with-small]   from the decrypted data (run scripts/decrypt-places.mjs first)
+ *   npm run places:export [-- --with-small]                    also written at the end of every export
  *
  * It goes into the app's bundle, $CAMPING_APP_DATA/Aussie/Resources/place-pages.json, unless --out or
  * PLACE_PAGES_OUT names another file. The app repo commits it; this script never does.
@@ -53,7 +55,7 @@ export function placePagesOut(argv = process.argv.slice(2)) {
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   const read = (file) => existsSync(resolve(repo, file)) ? JSON.parse(readFileSync(resolve(repo, file), "utf8")).places : [];
   const places = read("lib/data/places.json");
-  const stubs = read("lib/data/place-stubs.json");
+  const stubs = process.argv.includes("--with-small") ? read("lib/data/place-stubs.json") : [];
   if (!places.length) {
     console.error("lib/data/places.json has no places: run node scripts/decrypt-places.mjs first.");
     process.exit(1);
