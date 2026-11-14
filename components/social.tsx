@@ -15,11 +15,11 @@ export function SocialScript() {
  * icon, the App Store button and a way on to the website. The icon is the header's, so it is already cached.
  */
 export function SocialOverlay() {
-  return <div className="social-overlay" lang="en" data-social-overlay hidden role="dialog" aria-modal="true" aria-label="Get AussieCamps on the App Store">
+  return <div className="social-overlay" lang="en" data-social-overlay hidden role="dialog" aria-modal="true" aria-label="AussieCamps on the App Store">
     <div className="social-overlay-card">
       <img className="social-overlay-icon" src="/images/aussiecamps-app-icon.png" width="96" height="96" alt="AussieCamps" />
       {/* The script fills in the App Store link for the platform; without JavaScript the overlay never shows. */}
-      <a className="store-button social-overlay-store" data-social-store href="#"><FaApple aria-hidden="true" /><span>Download on the App Store</span></a>
+      <a className="store-button social-overlay-store" data-social-store href="#"><FaApple aria-hidden="true" /><span>Open in the App Store</span></a>
       <button type="button" className="social-overlay-close" data-social-close>Continue to the website</button>
     </div>
   </div>;
