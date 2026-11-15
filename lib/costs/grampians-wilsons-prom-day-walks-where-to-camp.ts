@@ -1,0 +1,43 @@
+import { article, section } from "@/lib/can-i/helpers";
+
+export const faq = [
+  ["Where do I camp for the Pinnacle walk?", "Halls Gap is the closest base, with holiday parks in town. Borough Huts and Plantation are national park campgrounds near Halls Gap, and both are booked through Parks Victoria."],
+  ["Do I need to book camping in the Grampians?", "Yes. Parks Victoria campgrounds in the Grampians are booked online or by phone, and school holidays and long weekends fill early."],
+  ["How do I get a site at Tidal River?", "Book through Parks Victoria as soon as the dates open. Over the Christmas and summer period sites are allocated by ballot, so enter the ballot early or look at Yanakie and Foster outside the park."],
+  ["Can I walk to Sealers Cove in a day?", "Yes, but it is a long day. It is about 20 kilometres return from Telegraph Saddle, mostly flat, so start early and carry plenty of water and food."],
+] as const;
+
+export default article({
+  slug: "grampians-wilsons-prom-day-walks-where-to-camp",
+  publishAt: "2026-11-17",
+  title: "Where to camp for the Grampians Peaks and Wilsons Prom day walks",
+  description: "Day walks in Victoria's two favourite parks and where to camp for each: the Pinnacle, Mount William and Hollow Mountain in the Grampians, and Mount Oberon, Squeaky Beach and Sealers Cove at Wilsons Prom.",
+  category: "Camping guides", region: "Victoria",
+  places: ["Grampians National Park", "Halls Gap", "Wilsons Promontory", "Tidal River", "Yanakie", "Foster", "Mount William", "Sealers Cove"],
+  imageAlt: "Tents at the Tidal River campground below Mount Oberon, Wilsons Promontory National Park, Victoria (vehicle badge softened)",
+  intro: "The Grampians (Gariwerd) and Wilsons Promontory are Victoria's best walking parks, and both reward a few days in one place. The walks are the easy part: it is the camping that needs planning. Halls Gap is the Grampians base, with national park camps a short drive away, and Tidal River is the Prom's only campground, so book early or stay outside the park at Yanakie or Foster.",
+  related: ["great-ocean-road-camping-guide", "camping-rules-victoria", "free-camping-victoria", "melbourne-hikes-camping-base", "bushfire-safety-camping-australia", "can-i-camp-in-a-national-park-without-booking-in-australia"],
+  sections: [
+    section("The walks and the camp for each", ["Both parks have a lot of walking, but a handful of day walks stand out. Pick two or three for the stay, and sleep as close to the first as you can.", "The times are for fit walkers with a few photo stops. Add an hour for children or a slower pace."], undefined, { caption: "Grampians and Wilsons Promontory day walks with the nearest camp, November 2026.", head: ["Walk", "Park", "Nearest camp", "Time on foot"], rows: [
+      ["The Pinnacle", "Grampians", "Halls Gap, Borough Huts or Plantation", "2 to 4 hours return"],
+      ["Hollow Mountain (Wudjub-guyan)", "Grampians", "Stapylton or Halls Gap", "About 1 to 2 hours return"],
+      ["Mount William (Duwul)", "Grampians", "Halls Gap or Smiths Mill", "About 2 hours return"],
+      ["Mount Oberon", "Wilsons Promontory", "Tidal River", "About 3 hours return"],
+      ["Squeaky Beach to Tidal River", "Wilsons Promontory", "Tidal River", "About 4 hours"],
+      ["Sealers Cove", "Wilsons Promontory", "Tidal River, Yanakie or Foster", "A full day"],
+    ] }),
+    section("Grampians day walks", ["The Pinnacle is the Grampians' most famous walk. There are two routes: the easier one starts at Sundial car park, and the more challenging one at Wonderland car park, passing through Grand Canyon and Silent Street on the way up. Hollow Mountain is a short climb through boulders in the north of the park. Mount William, the highest point in the Grampians, has a steep walk with views over the whole range. Boroka Lookout is an easy stop for a sunrise or sunset.", "Parts of the Grampians Peaks Trail make good day walks, and several tracks have been closed for repair after bushfire damage. Check the Parks Victoria conditions page before you set out."], ["Sundial for the easy Pinnacle", "Hollow Mountain is short", "Check track closures"]),
+    section("Where to camp in the Grampians", ["Halls Gap is the base town, with holiday parks, a supermarket and cafes, and it is the easiest option for a van or caravan. Borough Huts and Plantation are national park campgrounds close to Halls Gap and the Wonderland Range. Smiths Mill is in heath woodland near Mackenzie Falls, and Stapylton suits the northern Grampians and Hollow Mountain. All are booked through Parks Victoria.", "School holidays, Easter and long weekends fill early, and the nights can be cold even in spring. Our guide to camping rules in Victoria covers fees and booking, and free camping in Victoria has options outside the park."], ["Book Parks Victoria early", "Halls Gap suits vans", "Stapylton for the north"]),
+    section("Wilsons Promontory day walks", ["Mount Oberon starts from the Telegraph Saddle car park and climbs to a granite summit with views over the whole promontory. In busy periods the car park fills and you may need to walk or take a shuttle from Tidal River. Squeaky Beach to Tidal River is a gentler walk along the coast, with white sand and granite boulders. Lilly Pilly Gully is a short, shaded loop through rainforest, and Little Oberon Bay is a quiet beach reached by a coastal track.", "Sealers Cove is the Prom's classic long day walk, about 20 kilometres return from Telegraph Saddle on a mostly flat track through forest and across creeks. Start early, carry plenty of water and check the tide and weather before you go."], ["Oberon from Telegraph Saddle", "Start Sealers Cove early", "Carry plenty of water"]),
+    section("Where to camp at the Prom", ["Tidal River is the main campground in Wilsons Promontory National Park, with a general store, showers and beaches. It is booked through Parks Victoria, and over the Christmas and summer holiday period sites are allocated by ballot. Enter early and have a backup, because many people miss out.", "Outside the park, Yanakie is the closest town on the main road and has caravan parks and farm stays. Foster is about 40 minutes further on, with more choice. Both are an easy drive to Telegraph Saddle for the walks, and are often easier to book than Tidal River."], ["Enter the summer ballot", "Yanakie is closest", "Foster has more choice"]),
+    section("Fire danger, weather and closures", ["Both parks close on days of Extreme or Catastrophic fire danger, and campgrounds can shut at short notice. Check the fire danger rating the night before, and keep a plan for a coastal town or a holiday park with a pool. Our bushfire safety guide has the steps to follow.", "The weather can change quickly, with cold mornings and wind on the Prom and rain in the Grampians even in summer. Carry a rain jacket and warm layers on every walk, and check the Parks Victoria conditions page for closures after storms and fires."], ["Check the fire rating", "Carry a rain jacket", "Read the conditions page"]),
+    { ...section("Plan the day walks in AussieCamps", ["Build a trip with Add stop, picking the holiday parks and campgrounds near each walk. Each leg shows the driving distance and time, which helps when you plan Halls Gap to Yanakie or the road from Melbourne. Add dates, notes and weather for each stop, and tick them off as you visit.", "Use the Cost filter to switch between free and paid camps, the Online booking filter for sites you can reserve, and the 4WD access filter for rougher tracks. The directory is inside the app, so search and details work with no phone signal in the ranges. There is no account and no ads, and it is an iPhone app."], ["Add each walk start", "Filter by Online booking", "Tick stops as visited"]), cta: true },
+  ],
+  sources: [
+    { label: "Parks Victoria: Grampians National Park", url: "https://www.parks.vic.gov.au/places-to-see/parks/grampians-national-park" },
+    { label: "Parks Victoria: Wilsons Promontory National Park", url: "https://www.parks.vic.gov.au/places-to-see/parks/wilsons-promontory-national-park" },
+    { label: "Visit Victoria: Grampians", url: "https://www.visitvictoria.com/regions/grampians" },
+    { label: "Visit Victoria: Gippsland", url: "https://www.visitvictoria.com/regions/gippsland" },
+    { label: "CFA: Total fire bans and fire danger ratings", url: "https://www.cfa.vic.gov.au/warnings-restrictions/total-fire-bans-fire-danger-ratings-and-daily-update" },
+  ],
+});
