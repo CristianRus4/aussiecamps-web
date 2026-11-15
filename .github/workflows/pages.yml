@@ -63,6 +63,11 @@ jobs:
           if ! created=$(npx wrangler r2 bucket create aussiecamps-links 2>&1); then
             if echo "$created" | grep -qi "already exists"; then echo "R2 bucket aussiecamps-links already exists."; else echo "$created"; exit 1; fi
           fi
+          # The links' preview pictures (images/<id>) expire 90 days after upload; the rule never touches links/.
+          # Added once (the rule's name marks it); a failure to list or add fails the step.
+          rules=$(npx wrangler r2 bucket lifecycle list aussiecamps-links)
+          if echo "$rules" | grep -q "expire-preview-images"; then echo "The preview pictures' lifecycle rule already exists."
+          else npx wrangler r2 bucket lifecycle add aussiecamps-links expire-preview-images images/ --expire-days 90 --force; fi
           npx wrangler deploy --config places-worker/wrangler.jsonc
       # The live links' shell page is only for the Worker; GitHub Pages never serves it, even when the step
       # above was skipped or failed before taking it out of the export.
