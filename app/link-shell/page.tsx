@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 export default function LinkShell() {
   return <>
     <Header openApp={LINK_SHELL_APP} />
-    <main {...mainData({ kind: "trip" })}>
+    <main {...mainData({ kind: "trip" })} data-page-location="/trip/">
       <article className="pl-page trip-page sl-page">
         <div className="pl-wrap">
           <header className="pl-header">

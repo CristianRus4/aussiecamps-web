@@ -66,7 +66,7 @@ passes through to GitHub Pages.
 - Body: trip `{"v":1,"kind":"trip","n","sym","col","sd","ed","u","s":[{"t","id","la","lo","d"}]}` (≤ 300
   stops), collection `{"v":1,"kind":"collection","n","sym","col","u","p":[{"t","id","la","lo"}]}` (≤ 500
   places). Unknown keys are refused; every limit is in places-worker/src/validate.js.
-- Rate limits per IP: 30 writes and 300 reads (API and pages) a minute, then 429 with `Retry-After: 60`.
+- Rate limits per client (an IPv4 address, or an IPv6 /64): 30 writes and 300 reads (API and pages) a minute, then 429 with `Retry-After: 60`.
   Other methods get 405.
 - Storage: the R2 bucket `aussiecamps-links` (binding LINKS), objects `links/<id>.json`. pages.yml creates
   the bucket if it is missing; nothing in the build ever syncs or empties it.
@@ -77,6 +77,10 @@ and its own title, description, Open Graph tags and canonical; noindex. Each sto
 its place card (`cards/<encodeURIComponent(id)>.json`, same script): name, photo, type line, rating or fee,
 linking to its place page. Pins and addresses are plain rows. Both live in the places bucket, so the sync
 must carry them. Pages are cached for 60 seconds with an ETag.
+Only the first 100 distinct ids in the app's place-id format (`SITE.placeId`) are looked up, and each card
+read goes through the data centre's cache for an hour (missing cards too), so repeat views cost no R2 reads.
+The page sends only the origin as referrer, and analytics reports `/trip/` or `/collection/` without the id:
+the id is the link's only key.
 
 Local test: `npx wrangler dev --config places-worker/wrangler.jsonc --compatibility-date 2026-05-22` (the
 local runtime may be older than the config's date), after putting the shell and some cards into the local

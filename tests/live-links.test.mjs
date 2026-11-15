@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 import { dateRange, escapeHtml, headerLine, mapData, previewImage, previewLine, rows, stopDate, usableCard } from "../places-worker/src/format.js";
+import { clientKey } from "../places-worker/src/index.js";
 import { sameHash } from "../places-worker/src/links-api.js";
 import { isDay, validateLink } from "../places-worker/src/validate.js";
 
@@ -133,4 +134,12 @@ test("escapes HTML and compares hashes", () => {
   assert.equal(sameHash("ab12", "ab13"), false);
   assert.equal(sameHash("ab12", "ab1"), false);
   assert.equal(sameHash(undefined, "ab12"), false);
+});
+
+test("rate limits count an IPv6 client by its /64", () => {
+  assert.equal(clientKey("203.0.113.9"), "203.0.113.9");
+  assert.equal(clientKey("2001:db8:a:b:1:2:3:4"), "2001:db8:a:b::/64");
+  assert.equal(clientKey("2001:DB8:A:B::9"), "2001:db8:a:b::/64");
+  assert.equal(clientKey("2001:0db8::1"), "2001:db8:0:0::/64");
+  assert.equal(clientKey("::1"), "0:0:0:0::/64");
 });

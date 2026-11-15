@@ -18,7 +18,8 @@
 import { json, linkKey, linksApi } from "./links-api.js";
 import { renderLinkPage } from "./link-page.js";
 
-const SITE = { url: "https://aussiecamps.app", name: "AussieCamps", scheme: "aussiecamps", ogLocale: "en_AU" };
+// placeId: the app's place ids that can have a card (scripts/place-links.mjs); other stop ids show as plain rows.
+const SITE = { url: "https://aussiecamps.app", name: "AussieCamps", scheme: "aussiecamps", ogLocale: "en_AU", placeId: /^AU\d{5}$/ };
 const PAGE = /^\/places\/([a-z0-9-]+)\/([a-z0-9-]+)(\/?)$/;
 const LINK_PAGE = /^\/(trip|collection)\/([A-Za-z0-9]{12})(\/?)$/;
 const STYLESHEET = /^\/places\/_assets\/([A-Za-z0-9._-]+\.css)$/;
@@ -53,20 +54,30 @@ async function stylesheet(request, bucket, file) {
   return new Response(request.method === "HEAD" ? null : object.body, { headers });
 }
 
-/** Per-IP rate limits (wrangler.jsonc "ratelimits"): writes 30 and reads 300 a minute. A 429, or null. */
+/** The rate-limit key of a client address: an IPv6 client usually holds a whole /64, so it counts as one. */
+export function clientKey(ip) {
+  if (!ip.includes(":") || ip.includes(".")) return ip;
+  const [head, tail] = ip.toLowerCase().split("::");
+  const front = head ? head.split(":") : [];
+  const back = tail === undefined ? [] : tail ? tail.split(":") : [];
+  const groups = tail === undefined ? front : [...front, ...Array(Math.max(0, 8 - front.length - back.length)).fill("0"), ...back];
+  return `${groups.slice(0, 4).map((group) => group.replace(/^0+(?=.)/, "")).join(":")}::/64`;
+}
+
+/** Per-client rate limits (wrangler.jsonc "ratelimits"): writes 30 and reads 300 a minute. A 429, or null. */
 function limiter(request, env) {
-  const ip = request.headers.get("cf-connecting-ip") ?? "local";
+  const key = clientKey(request.headers.get("cf-connecting-ip") ?? "local");
   return async (kind) => {
     const binding = kind === "write" ? env.LINK_WRITES : env.LINK_READS;
     if (!binding) return null;
-    const { success } = await binding.limit({ key: ip });
+    const { success } = await binding.limit({ key });
     return success ? null : json({ error: "too many requests" }, 429, { "retry-after": "60" });
   };
 }
 
 const matchesTag = (header, etag) => (header ?? "").split(/\s*,\s*/).some((tag) => tag === "*" || tag.replace(/^W\//, "") === etag);
 
-async function linkPage(request, env, kind, id) {
+async function linkPage(request, env, ctx, kind, id) {
   if (request.method !== "GET" && request.method !== "HEAD") return new Response("Method not allowed", { status: 405, headers: { allow: "GET, HEAD" } });
   const blocked = await limiter(request, env)("read");
   if (blocked) return blocked;
@@ -89,18 +100,18 @@ async function linkPage(request, env, kind, id) {
     }
   }
   if (request.method === "HEAD") { await shell.body.cancel(); return new Response(null, { status, headers }); }
-  const page = await renderLinkPage({ site: SITE, shell, places: env.PLACES, kind, id, link, status });
+  const page = await renderLinkPage({ site: SITE, shell, places: env.PLACES, ctx, kind, id, link, status });
   return new Response(page.body, { status, headers });
 }
 
 export default {
-  async fetch(request, env) {
+  async fetch(request, env, ctx) {
     const url = new URL(request.url);
     if (url.pathname.startsWith("/api/links/") && env.LINKS) return linksApi(request, env, SITE, url.pathname.slice("/api/links/".length), limiter(request, env));
     const link = LINK_PAGE.exec(url.pathname);
     if (link && env.LINKS && env.PLACES) {
       if (link[3]) return Response.redirect(`${url.origin}/${link[1]}/${link[2]}${url.search}`, 301);
-      return linkPage(request, env, link[1], link[2]);
+      return linkPage(request, env, ctx, link[1], link[2]);
     }
     const css = STYLESHEET.exec(url.pathname);
     if (css && env.PLACES) {
