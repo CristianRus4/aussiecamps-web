@@ -18,9 +18,10 @@ import g_brisbane_to_noosa_hervey_bay_drive, { faq as faq_g_brisbane_to_noosa_he
 import g_cairns_to_port_douglas_cape_tribulation_drive, { faq as faq_g_cairns_to_port_douglas_cape_tribulation_drive } from "@/lib/drives/cairns-to-port-douglas-cape-tribulation-drive";
 import g_sydney_to_port_macquarie_drive, { faq as faq_g_sydney_to_port_macquarie_drive } from "@/lib/drives/sydney-to-port-macquarie-drive";
 import g_hobart_to_freycinet_port_arthur_drive, { faq as faq_g_hobart_to_freycinet_port_arthur_drive } from "@/lib/drives/hobart-to-freycinet-port-arthur-drive";
+import g_perth_to_geraldton_kalbarri_drive, { faq as faq_g_perth_to_geraldton_kalbarri_drive } from "@/lib/drives/perth-to-geraldton-kalbarri-drive";
 
 /** Guides added by the aus-b4 lane: road trips and loops, A-to-B drives and activity guides. Each lives in lib/costs/<slug>.ts or lib/drives/<slug>.ts. */
-export const b4Articles: Article[] = [g_two_week_campervan_itinerary_sydney_brisbane, g_one_week_campervan_itinerary_sydney_byron_bay, g_ten_day_campervan_itinerary_cairns_tropical_north, g_east_coast_vs_west_coast_australia_campervan, g_cairns_to_cape_york_camping_route, g_hobart_bay_of_fires_freycinet_camping_week, g_melbourne_gippsland_wilsons_promontory_camping_loop, g_mornington_peninsula_phillip_island_camping_weekend, g_grampians_camping_weekend_from_melbourne, g_snowy_mountains_kosciuszko_camping_road_trip, g_tasmania_west_coast_road_trip_strahan_cradle_mountain, g_eyre_peninsula_coastal_camping_route, g_limestone_coast_camping_route_adelaide_mount_gambier, g_newcastle_hunter_barrington_tops_camping_loop, g_canberra_southern_highlands_camping_loop, g_brisbane_to_noosa_hervey_bay_drive, g_cairns_to_port_douglas_cape_tribulation_drive, g_sydney_to_port_macquarie_drive, g_hobart_to_freycinet_port_arthur_drive];
+export const b4Articles: Article[] = [g_two_week_campervan_itinerary_sydney_brisbane, g_one_week_campervan_itinerary_sydney_byron_bay, g_ten_day_campervan_itinerary_cairns_tropical_north, g_east_coast_vs_west_coast_australia_campervan, g_cairns_to_cape_york_camping_route, g_hobart_bay_of_fires_freycinet_camping_week, g_melbourne_gippsland_wilsons_promontory_camping_loop, g_mornington_peninsula_phillip_island_camping_weekend, g_grampians_camping_weekend_from_melbourne, g_snowy_mountains_kosciuszko_camping_road_trip, g_tasmania_west_coast_road_trip_strahan_cradle_mountain, g_eyre_peninsula_coastal_camping_route, g_limestone_coast_camping_route_adelaide_mount_gambier, g_newcastle_hunter_barrington_tops_camping_loop, g_canberra_southern_highlands_camping_loop, g_brisbane_to_noosa_hervey_bay_drive, g_cairns_to_port_douglas_cape_tribulation_drive, g_sydney_to_port_macquarie_drive, g_hobart_to_freycinet_port_arthur_drive, g_perth_to_geraldton_kalbarri_drive];
 export const b4Faqs: Record<string, readonly (readonly [string, string])[]> = {
   [g_two_week_campervan_itinerary_sydney_brisbane.slug]: faq_g_two_week_campervan_itinerary_sydney_brisbane,
   [g_one_week_campervan_itinerary_sydney_byron_bay.slug]: faq_g_one_week_campervan_itinerary_sydney_byron_bay,
@@ -41,4 +42,5 @@ export const b4Faqs: Record<string, readonly (readonly [string, string])[]> = {
   [g_cairns_to_port_douglas_cape_tribulation_drive.slug]: faq_g_cairns_to_port_douglas_cape_tribulation_drive,
   [g_sydney_to_port_macquarie_drive.slug]: faq_g_sydney_to_port_macquarie_drive,
   [g_hobart_to_freycinet_port_arthur_drive.slug]: faq_g_hobart_to_freycinet_port_arthur_drive,
+  [g_perth_to_geraldton_kalbarri_drive.slug]: faq_g_perth_to_geraldton_kalbarri_drive,
 };
