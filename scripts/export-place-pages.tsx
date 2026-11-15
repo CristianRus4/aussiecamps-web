@@ -24,6 +24,7 @@ import { PlacePage } from "@/components/places/place-page";
 import { placeMetadata } from "@/lib/places-metadata";
 import { placePath, places, type Place } from "@/lib/places";
 import { SITE_URL } from "@/lib/site";
+import { withR2Stylesheets } from "./r2-stylesheets";
 
 const root = resolve(import.meta.dirname, "..");
 const output = resolve(root, process.env.PAGES_DIST ?? "pages-dist");
@@ -38,6 +39,7 @@ const withSlashes = (html: string) => html.replace(/(href|src)="(\/[^"#?]*?)([#?
 /** The head tags that differ from one place page to the next, in the form Next.js writes them. */
 function headTags(metadata: Metadata, title: string) {
   const og = metadata.openGraph as { title: string; description: string; url: string; siteName: string; type: string; locale: string; images: { url: string; alt?: string; width?: number; height?: number; type?: string }[] };
+  const twitter = metadata.twitter as { card: string; title: string; description: string; images: { url: string; alt?: string; width?: number; height?: number; type?: string }[] };
   const robots = metadata.robots as { index: boolean; follow: boolean; googleBot?: object };
   const meta = (attribute: string, name: string, content: string | number) => `<meta ${attribute}="${name}" content="${escape(String(content))}"/>`;
   return {
@@ -51,13 +53,20 @@ function headTags(metadata: Metadata, title: string) {
         ...(image.width ? [meta("property", "og:image:width", image.width)] : []), ...(image.height ? [meta("property", "og:image:height", image.height)] : []),
         ...(image.alt ? [meta("property", "og:image:alt", image.alt)] : [])]),
     ].join(""),
+    // The same title, description and photo as the Open Graph tags, in the order Next.js writes them.
+    twitter: [
+      meta("name", "twitter:card", twitter.card), meta("name", "twitter:title", twitter.title), meta("name", "twitter:description", twitter.description),
+      ...twitter.images.flatMap((image) => [meta("name", "twitter:image", image.url), ...(image.type ? [meta("name", "twitter:image:type", image.type)] : []),
+        ...(image.width ? [meta("name", "twitter:image:width", image.width)] : []), ...(image.height ? [meta("name", "twitter:image:height", image.height)] : []),
+        ...(image.alt ? [meta("name", "twitter:image:alt", image.alt)] : [])]),
+    ].join(""),
     canonical: `<link rel="canonical" href="${escape(`${SITE_URL}${(metadata.alternates as { canonical: string }).canonical}`)}"/>`,
     banner: meta("name", "apple-itunes-app", String((metadata.other as Record<string, string>)["apple-itunes-app"])),
   };
 }
 
 /** The shell: an exported full place page, split around the parts each place fills in. */
-function shell(template: Place) {
+export function shell(template: Place) {
   const html = readFileSync(fileFor(placePath(template)), "utf8");
   const metadata = placeMetadata(template);
   const fullTitle = html.match(/<title>([^<]*)<\/title>/)![1];
@@ -77,6 +86,7 @@ function shell(template: Place) {
   const indexedRobots = head.match(/<meta name="robots"[^>]*>(?:<meta name="googlebot"[^>]*>)?/)?.[0];
   take(/<meta name="robots"[^>]*>(?:<meta name="googlebot"[^>]*>)?/g, "robots");
   take(/<meta property="og:[^>]*>/g, "og");
+  take(/<meta name="twitter:[^>]*>/g, "twitter");
   take(/<link rel="canonical"[^>]*>/g, "canonical");
   take(/<meta name="apple-itunes-app"[^>]*>/g, "banner");
   // The hero photo's preload (React hoists it into <head>); a place without photos has none.
@@ -105,7 +115,7 @@ export function placePageHtml(place: Place, frame: ReturnType<typeof shell>) {
   const head = frame.head
     .replace("\u0000title\u0000", tags.title).replace("\u0000description\u0000", tags.description)
     .replace("\u0000robots\u0000", tags.robots ?? frame.indexedRobots)
-    .replace("\u0000og\u0000", tags.og).replace("\u0000canonical\u0000", tags.canonical).replace("\u0000banner\u0000", tags.banner)
+    .replace("\u0000og\u0000", tags.og).replace("\u0000twitter\u0000", tags.twitter).replace("\u0000canonical\u0000", tags.canonical).replace("\u0000banner\u0000", tags.banner)
     .replace("\u0000hero\u0000", preload);
   return `${head}${frame.middle}${body}${frame.tail}`;
 }
@@ -141,17 +151,22 @@ if (process.argv[1] && resolve(process.argv[1]) === resolve(import.meta.filename
     const overflow = process.env.PLACES_R2 ? new Set() : new Set([...stubs].sort((a, b) => Number(Number.isFinite(a.lat)) - Number(Number.isFinite(b.lat)) || a.id.localeCompare(b.id))
       .slice(0, Math.max(0, stubs.length + 1 - WORKER_FILE_LIMIT)));
     if (process.env.PLACES_R2) console.log("PLACES_R2: every page goes to R2, no file limit.");
+    // The pages in the bucket link their own copy of the build's CSS (scripts/r2-stylesheets.ts); the overflow
+    // into the Pages export keeps the site's.
+    const r2 = (html: string) => (process.env.PLACES_R2 ? withR2Stylesheets(html, output, dir) : html);
+    const bucketFrame = { ...frame, head: r2(frame.head), middle: r2(frame.middle), tail: r2(frame.tail) };
+    assert.ok(!process.env.PLACES_R2 || bucketFrame.head.includes('href="/places/_assets/'), "the place pages' head links no stylesheet from /assets/");
     let bytes = 0;
     for (const place of stubs) {
       assert.ok(!existsSync(fileFor(placePath(place))), `${placePath(place)} already has a full page`);
       const target = overflow.has(place) ? fileFor(placePath(place)) : resolve(dir, placePath(place).slice(1), "index.html");
       mkdirSync(dirname(target), { recursive: true });
-      const html = placePageHtml(place, frame);
+      const html = placePageHtml(place, overflow.has(place) ? frame : bucketFrame);
       writeFileSync(target, html);
       bytes += Buffer.byteLength(html);
     }
-    // GitHub Pages' caching, for the same pages served from the Worker.
-    writeFileSync(resolve(dir, "_headers"), "/places/*\n  Cache-Control: public, max-age=600\n");
+    // GitHub Pages' caching, for the same pages served from the Worker's static assets (R2 has its own).
+    if (!process.env.PLACES_R2) writeFileSync(resolve(dir, "_headers"), "/places/*\n  Cache-Control: public, max-age=600\n");
     const files = stubs.length - overflow.size + 1;
     assert.ok(process.env.PLACES_R2 || files <= WORKER_FILE_LIMIT, `${files} files is over the Workers free plan's ${WORKER_FILE_LIMIT} per version`);
     const room = process.env.PLACES_R2 ? "for R2" : `${files} files: ${WORKER_FILE_LIMIT - files} left under the free plan's ${WORKER_FILE_LIMIT}`;

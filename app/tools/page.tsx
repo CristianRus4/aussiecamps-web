@@ -5,12 +5,12 @@ import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { calculators } from "@/components/tools/tool-page";
 import { mainData } from "@/lib/analytics";
-import { alternatesFor } from "@/lib/seo";
+import { alternatesFor, pageOpenGraph } from "@/lib/seo";
 import { toolKeys, toolStrings, uiStrings } from "@/lib/source-strings";
 import { defaultOutputs, toolScript } from "@/lib/tools/calc";
 import { toolPath } from "@/lib/tools/pages";
 
-export const metadata: Metadata = { title: toolStrings.index.metaTitle, description: toolStrings.index.metaDescription, alternates: { canonical: "/tools/", languages: alternatesFor("tools") } };
+export const metadata: Metadata = { title: toolStrings.index.metaTitle, description: toolStrings.index.metaDescription, alternates: { canonical: "/tools/", languages: alternatesFor("tools") }, openGraph: pageOpenGraph(toolStrings.index.metaTitle, toolStrings.index.metaDescription, "/tools/") };
 
 /** The campsite comparison has four inputs, so it goes last, where the grid gives it the full width. */
 const indexOrder = ["currency-converter", "fuel-cost-calculator", "drive-time-calculator", "water-tank-calculator", "campsite-cost-calculator"] as const;

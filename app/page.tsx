@@ -13,12 +13,19 @@ import { summerGuideSlugs } from "@/lib/summer";
 import { appStoreUrl } from "@/lib/app-store";
 import { mainData } from "@/lib/analytics";
 import { PlacesHome } from "@/components/places/places-home";
-import { alternatesFor, homeSchema } from "@/lib/seo";
+import { alternatesFor, homeOgImage, homeSchema, ogAlternates } from "@/lib/seo";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: { absolute: "AussieCamps: Camping App for Australia, Map and Trip Planner" },
   description: "The camping app for Australia: find 74,000+ campgrounds, caravan parks, free camps, rest areas and dump points, with offline place details and a road trip planner for iPhone.",
   alternates: { canonical: "/", languages: alternatesFor("home") },
+  openGraph: {
+    type: "website", locale: "en_AU", alternateLocale: ogAlternates("en"), siteName: "AussieCamps",
+    title: "AussieCamps: the camping map and road trip planner for Australia",
+    description: "74,000+ campgrounds, caravan parks, free camps and useful stops, bundled offline. Filter, save and plan the whole lap.",
+    url: `${SITE_URL}/`, images: [{ ...homeOgImage, alt: "AussieCamps, the camping and road trip app for Australia" }],
+  },
 };
 
 const features = [

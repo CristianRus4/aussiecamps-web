@@ -7,6 +7,7 @@ import credits from "@/lib/image-credits.json";
 import dataMeta from "@/lib/data/hubs.meta.json";
 import { articles, isScheduled, sitePath } from "@/lib/site";
 import { mainData } from "@/lib/analytics";
+import { pageOpenGraph } from "@/lib/seo";
 
 type Credit = { slug: string; subject: string; creator: string; licence: string; licenceUrl?: string; sourceUrl?: string };
 type DataSource = { operator: string; key: string; licence: string; licenceUrl: string | null; attribution: string; url: string; terms: string; rows: number };
@@ -16,6 +17,7 @@ export const metadata: Metadata = {
   description: "Attribution and licence details for every photograph used in the AussieCamps guides and for the government data behind its place pages.",
   // English only, so it advertises no language alternates.
   alternates: { canonical: "/credits/" },
+  openGraph: pageOpenGraph("Photo and data credits", "Attribution and licence details for every photograph used in the AussieCamps guides and for the government data behind its place pages.", "/credits/"),
 };
 
 const titleBySlug = new Map(articles.map((article) => [article.slug, article.title]));

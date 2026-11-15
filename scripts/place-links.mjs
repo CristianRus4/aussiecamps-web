@@ -24,17 +24,24 @@ import { fileURLToPath } from "node:url";
 const repo = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const appRepo = resolve(process.env.CAMPING_APP_DATA ?? "/Users/cristian/Developer/Apps/AppStore/Camping");
 
-/** The map for the full and the small pages. */
-export function placePages(...lists) {
+/** Every app place id (a place's own and its aliases) to the place whose page it opens, sorted by id. */
+export function placesById(...lists) {
   const map = new Map();
   for (const place of lists.flat()) {
-    const path = `/places/${place.stateSlug}/${place.slug}/`;
     for (const id of [place.id, ...(place.aliases ?? [])]) {
-      if (map.has(id)) throw new Error(`Place id ${id} has two pages: ${map.get(id)} and ${path}`);
-      map.set(id, path);
+      if (map.has(id)) throw new Error(`Place id ${id} has two pages: ${pathOf(map.get(id))} and ${pathOf(place)}`);
+      map.set(id, place);
     }
   }
-  return Object.fromEntries([...map].sort(([a], [b]) => a.localeCompare(b)));
+  return new Map([...map].sort(([a], [b]) => a.localeCompare(b)));
+}
+
+/** A place's page path, with its trailing slash. */
+export const pathOf = (place) => `/places/${place.stateSlug}/${place.slug}/`;
+
+/** The map for the full and the small pages. */
+export function placePages(...lists) {
+  return Object.fromEntries([...placesById(...lists)].map(([id, place]) => [id, pathOf(place)]));
 }
 
 /** Writes the map to `out`; returns the number of ids in it. */

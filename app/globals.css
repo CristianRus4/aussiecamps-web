@@ -746,6 +746,20 @@ a.trip-stop-title { color: var(--fern); }
 a.trip-stop-title:hover { text-decoration: underline; }
 .trip-stop-body small { color: var(--muted); font-size: 13px; }
 .trip-stop-note { margin: 4px 0 0; color: var(--muted); font-size: 15px; line-height: 1.6; white-space: pre-line; overflow-wrap: anywhere; }
+/* /trip/<id> and /collection/<id>: a live link's page, filled in by the Cloudflare Worker (app/link-shell/page.tsx).
+   Its rows are the place lists' rows with a stop number (trip) or a dot (collection) in front. */
+.sl-page .pl-map { margin: 0; }
+.sl-list { margin-top: 14px; }
+.sl-list .sl-plain > div { padding: 12px 4px; display: flex; align-items: center; gap: 16px; }
+.sl-list .sl-plain > div > span:last-child { min-width: 0; flex: 1; display: flex; flex-direction: column; gap: 2px; }
+.sl-list strong { overflow-wrap: anywhere; }
+.sl-list .sl-pin { width: 64px; height: 64px; flex: none; display: block; background: var(--soft); position: relative; }
+.sl-list .sl-pin::after { content: ""; position: absolute; inset: 0; margin: auto; width: 24px; height: 24px; background: var(--muted); opacity: .7;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0'/%3E%3Ccircle cx='12' cy='10' r='3'/%3E%3C/svg%3E") center / contain no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0'/%3E%3Ccircle cx='12' cy='10' r='3'/%3E%3C/svg%3E") center / contain no-repeat; }
+.sl-num { width: 28px; height: 28px; flex: none; margin-inline-end: -4px; background: var(--deep); color: white; display: inline-flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 750; font-variant-numeric: tabular-nums; }
+.sl-dot { width: 10px; height: 10px; flex: none; margin-inline: 4px 0; background: var(--fern); }
+.sl-list .pl-row-tag .sl-star { color: #e3b341; font-style: normal; }
 .pl-search { max-width: 760px; margin-bottom: 18px; }
 .pl-search-field { position: relative; }
 .pl-search-field input::-webkit-search-cancel-button { display: none; -webkit-appearance: none; }
@@ -767,6 +781,7 @@ a.trip-stop-title:hover { text-decoration: underline; }
 .pl-map-card { display: flex; flex-direction: column; gap: 2px; color: var(--ink); text-decoration: none; }
 .pl-map-card strong { font-size: 14px; }
 .pl-map-card strong::after { content: " \2192"; color: var(--muted); }
+.pl-map-card-plain strong::after { content: none; }
 .pl-map-card small { color: var(--muted); font-size: 12px; font-weight: 500; }
 /* A map with something on it: the place page's Open in Maps button, in the bottom-leading corner. */
 .pl-map-frame { position: relative; margin: 26px 0 0; }
@@ -853,6 +868,8 @@ a.trip-stop-title:hover { text-decoration: underline; }
   .pl-book-banner { flex-direction: column; align-items: stretch; }
   .pl-states ul { grid-template-columns: 1fr; }
   .pl-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .sl-list a, .sl-list .sl-plain > div { gap: 12px; }
+  .sl-list img, .sl-list .sl-pin { width: 56px; height: 56px; }
 }
 @media (prefers-color-scheme: dark) {
   .pl-main p { color: #b7beb3; }
@@ -862,5 +879,6 @@ a.trip-stop-title:hover { text-decoration: underline; }
   }
   .pl-map { background: var(--soft); }
   .pl-map .maplibregl-ctrl-group .maplibregl-ctrl-icon { filter: invert(1); }
+  .sl-num { background: var(--ink); color: var(--deep); }
 }
 .store-button:focus-visible { outline: 2px solid var(--eucalyptus); outline-offset: 2px; }

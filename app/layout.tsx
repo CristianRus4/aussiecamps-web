@@ -29,23 +29,11 @@ export const metadata: Metadata = {
   creator: "AussieCamps",
   publisher: "AussieCamps",
   alternates: { canonical: "/", languages: alternatesFor("home") },
-  openGraph: {
-    type: "website",
-    locale: "en_AU",
-    alternateLocale: ogAlternates("en"),
-    siteName: "AussieCamps",
-    title: "AussieCamps: the camping map and road trip planner for Australia",
-    description:
-      "74,000+ campgrounds, caravan parks, free camps and useful stops, bundled offline. Filter, save and plan the whole lap.",
-    url: `${SITE_URL}/`,
-    images: [{ ...homeOgImage, alt: "AussieCamps, the camping and road trip app for Australia" }],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "AussieCamps: Australia camping map and road trip planner",
-    description: "74,000+ Australian places offline. Filter, save and plan the whole road trip.",
-    images: [{ ...homeOgImage, alt: "AussieCamps, the camping and road trip app for Australia" }],
-  },
+  // Only what every page shares. A page's openGraph replaces this object whole, and the twitter tags
+  // follow that page's own openGraph (Next.js fills them in), so no page ever shows another page's
+  // title, description or image. Every page sets its own openGraph (pageOpenGraph in lib/seo.ts).
+  openGraph: { type: "website", locale: "en_AU", alternateLocale: ogAlternates("en"), siteName: "AussieCamps", images: [{ ...homeOgImage, alt: "AussieCamps, the camping and road trip app for Australia" }] },
+  twitter: { card: "summary_large_image" },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 } },
   icons: {
     icon: [{ url: "/favicon.ico", sizes: "any" }, { url: "/favicon-32x32.png", type: "image/png", sizes: "32x32" }, { url: "/favicon-16x16.png", type: "image/png", sizes: "16x16" }],

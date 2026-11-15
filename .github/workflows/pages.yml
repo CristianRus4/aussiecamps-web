@@ -41,9 +41,9 @@ jobs:
           NODE_OPTIONS: --max-old-space-size=6144
           # Decrypts the place pages' data (scripts/decrypt-places.mjs); this repository is public.
           PLACES_KEY: ${{ secrets.PLACES_KEY }}
-      # The place pages that don't fit on GitHub Pages go to a Cloudflare Worker, from this same build, so
-      # they load the CSS of the build that is going live (docs/places-cloudflare.md). Skipped until the
-      # CLOUDFLARE_API_TOKEN secret exists.
+      # The place pages that don't fit on GitHub Pages and the live trip and collection links go to a
+      # Cloudflare Worker, from this same build, so they load the CSS of the build that is going live
+      # (docs/places-cloudflare.md). Skipped until the CLOUDFLARE_API_TOKEN secret exists.
       - name: Deploy the extra place pages to Cloudflare
         # A failure here never holds back the site's own deploy; it shows as a warning on the run.
         continue-on-error: true
@@ -56,8 +56,17 @@ jobs:
         run: |
           if [ -z "$CLOUDFLARE_API_TOKEN" ]; then echo "No CLOUDFLARE_API_TOKEN secret: the extra place pages were not deployed."; exit 0; fi
           npm run places:worker
+          # The live links' page shell and place cards go into the same folder, so the sync keeps them.
+          npm run links:assets -- --out worker-dist
           node scripts/sync-places-r2.mjs aussiecamps-places worker-dist
+          # The bucket of the links people publish from the app; the deploy needs it to exist.
+          if ! created=$(npx wrangler r2 bucket create aussiecamps-links 2>&1); then
+            if echo "$created" | grep -qi "already exists"; then echo "R2 bucket aussiecamps-links already exists."; else echo "$created"; exit 1; fi
+          fi
           npx wrangler deploy --config places-worker/wrangler.jsonc
+      # The live links' shell page is only for the Worker; GitHub Pages never serves it, even when the step
+      # above was skipped or failed before taking it out of the export.
+      - run: rm -rf pages-dist/link-shell
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

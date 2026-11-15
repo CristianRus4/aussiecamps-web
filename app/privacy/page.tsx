@@ -4,9 +4,10 @@ import { Footer } from "@/components/footer";
 import { SUPPORT_EMAIL, SUPPORT_MAILTO } from "@/lib/site";
 import { staticPages } from "@/lib/source-strings";
 import { mainData } from "@/lib/analytics";
-import { alternatesFor } from "@/lib/seo";
+import { alternatesFor, pageOpenGraph } from "@/lib/seo";
 
-export const metadata: Metadata = { title: "Privacy policy", description: "How AussieCamps handles app and website data, including website analytics and your privacy choices.", alternates: { canonical: "/privacy/", languages: alternatesFor("privacy") } };
+const description = "How AussieCamps handles app and website data, including website analytics and your privacy choices.";
+export const metadata: Metadata = { title: "Privacy policy", description, alternates: { canonical: "/privacy/", languages: alternatesFor("privacy") }, openGraph: pageOpenGraph("Privacy policy", description, "/privacy/") };
 
 /** Rendered from the same source the translations are made from, so English and every locale say the same thing. */
 export default function Privacy() {

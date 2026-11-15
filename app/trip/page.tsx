@@ -7,6 +7,7 @@ import { uiStrings } from "@/lib/source-strings";
 import { tripScript } from "@/lib/trip-link";
 import { smartBannerContent } from "@/lib/app-store";
 import { SITE_URL } from "@/lib/site";
+import { pageOpenGraph } from "@/lib/seo";
 import { pageQrScript } from "@/lib/qr-source";
 import { appLink, openAppScript } from "@/lib/open-app";
 
@@ -21,6 +22,7 @@ export const metadata: Metadata = {
   title: "Shared trip",
   description: "A road trip shared from the AussieCamps app: its stops, dates and notes.",
   alternates: { canonical: "/trip/" },
+  openGraph: pageOpenGraph("Shared trip", "A road trip shared from the AussieCamps app: its stops, dates and notes.", "/trip/"),
   robots: { index: false, follow: true },
   // The banner's app-argument gets the hash from a script in <head> (scripts/export-github-pages.mjs).
   other: { "apple-itunes-app": smartBannerContent("en", `${SITE_URL}/trip/`) },

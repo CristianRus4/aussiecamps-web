@@ -6,6 +6,7 @@ import { StoreWithQr } from "@/components/guide-cta";
 import { mainData } from "@/lib/analytics";
 import { smartBannerContent } from "@/lib/app-store";
 import { SITE_URL } from "@/lib/site";
+import { pageOpenGraph } from "@/lib/seo";
 import { pageQrScript } from "@/lib/qr-source";
 import { uiStrings } from "@/lib/source-strings";
 import { openAppScript, placeAppLink, placeScript } from "@/lib/place-link";
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
   title: "Shared place",
   description: "A place shared from the AussieCamps app.",
   alternates: { canonical: "/place/" },
+  openGraph: pageOpenGraph("Shared place", "A place shared from the AussieCamps app.", "/place/"),
   robots: { index: false, follow: true },
   other: { "apple-itunes-app": smartBannerContent("en", `${SITE_URL}/place/`) },
 };

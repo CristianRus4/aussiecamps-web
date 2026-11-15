@@ -8,7 +8,8 @@
  *
  * A map of many places clusters its dots while zoomed out (a tap on a cluster zooms in). When the page
  * gives the places' `labels`, a dot shows its name on hover; a click opens its page on a desktop, a tap
- * on a phone opens a small card linking to it.
+ * on a phone opens a small card linking to it. A label with no page (a pin in a shared trip: an empty path)
+ * shows its name the same way, without a link.
  *
  * The page carries the points, rounded (2 decimals, about a kilometre, unless `precision` says otherwise),
  * and any labels; MapLibre and the tiles load from their CDNs when the map scrolls into view. The loader is
@@ -29,8 +30,8 @@ function load(){if(started)return;started=1;var c=document.createElement("link")
 var s=document.createElement("script");s.src="${LIB}js";s.onload=function(){var dark=window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches;fetch(dark?"${DARK_STYLE}":"${STYLE}").then(function(r){return r.json();}).then(function(j){
 j.layers.forEach(function(l){l.paint=l.paint||{};if(grey[l.id]&&!dark)l.paint[grey[l.id][0]]=grey[l.id][1];if(l.type==="symbol"){l.paint["text-opacity"]=0.55;l.paint["icon-opacity"]=0.4;if(!font&&l.layout&&l.layout["text-font"])font=l.layout["text-font"];}if(l.type==="line"&&!grey[l.id])l.paint["line-opacity"]=0.6;});
 style=j;var w=q;q=null;w.forEach(draw);}).catch(function(){});};document.head.appendChild(s);}
-function fc(p,lb,ty){return{type:"FeatureCollection",features:p.map(function(c,i){var pr={};if(lb&&lb[i]){pr.n=lb[i][0];pr.u="/places/"+lb[i][1]+"/";pr.t=ty&&ty[lb[i][2]]||"";}return{type:"Feature",properties:pr,geometry:{type:"Point",coordinates:c}};})};}
-function card(pr){var a=document.createElement("a");a.className="pl-map-card";a.href=/^\\/places\\//.test(pr.u)?pr.u:"#";var b=document.createElement("strong");b.textContent=pr.n;a.appendChild(b);if(pr.t){var t=document.createElement("small");t.textContent=pr.t;a.appendChild(t);}return a;}
+function fc(p,lb,ty){return{type:"FeatureCollection",features:p.map(function(c,i){var pr={};if(lb&&lb[i]){pr.n=lb[i][0];pr.u=lb[i][1]?"/places/"+lb[i][1]+"/":"";pr.t=ty&&ty[lb[i][2]]||"";}return{type:"Feature",properties:pr,geometry:{type:"Point",coordinates:c}};})};}
+function card(pr){var a=document.createElement(pr.u?"a":"div");a.className=pr.u?"pl-map-card":"pl-map-card pl-map-card-plain";if(pr.u)a.href=/^\\/places\\//.test(pr.u)?pr.u:"#";var b=document.createElement("strong");b.textContent=pr.n;a.appendChild(b);if(pr.t){var t=document.createElement("small");t.textContent=pr.t;a.appendChild(t);}return a;}
 function draw(el){try{var d=JSON.parse(el.getAttribute("data-pl-map")),p=d.p,f=d.f,lb=d.l||null,ty=d.t||null,all=f?p.concat([f]):p;if(!all.length)return;
 var col=getComputedStyle(el).getPropertyValue("--fern").trim()||"#49642f",w=180,s=90,e=-180,n=-90,many=p.length>${CLUSTER_FROM};
 all.forEach(function(c){w=Math.min(w,c[0]);e=Math.max(e,c[0]);s=Math.min(s,c[1]);n=Math.max(n,c[1]);});
@@ -46,9 +47,9 @@ m.on("mouseenter","pl-c",function(){m.getCanvas().style.cursor="pointer";});m.on
 m.addLayer({id:"pl",type:"circle",source:"pl",filter:["!",["has","point_count"]],paint:{"circle-radius":lb?r+1:r,"circle-color":col,"circle-opacity":f?0.55:0.85,"circle-stroke-width":1,"circle-stroke-color":"#fff"}});
 if(f){m.addSource("pl-f",{type:"geojson",data:fc([f])});m.addLayer({id:"pl-f",type:"circle",source:"pl-f",paint:{"circle-radius":8,"circle-color":col,"circle-stroke-width":3,"circle-stroke-color":"#fff"}});}
 if(lb){var tip=new maplibregl.Popup({closeButton:false,closeOnClick:false,offset:10,className:"pl-map-tip"}),open=new maplibregl.Popup({closeButton:false,offset:10,className:"pl-map-pop"});
-m.on("mouseenter","pl",function(ev){var ft=ev.features[0];if(!ft.properties.n)return;m.getCanvas().style.cursor="pointer";if(fine)tip.setLngLat(ft.geometry.coordinates).setText(ft.properties.n).addTo(m);});
+m.on("mouseenter","pl",function(ev){var ft=ev.features[0];if(!ft.properties.n)return;if(ft.properties.u)m.getCanvas().style.cursor="pointer";if(fine)tip.setLngLat(ft.geometry.coordinates).setText(ft.properties.n).addTo(m);});
 m.on("mouseleave","pl",function(){m.getCanvas().style.cursor="";tip.remove();});
-m.on("click","pl",function(ev){var pr=ev.features[0].properties;if(!pr.n)return;if(fine&&/^\\/places\\//.test(pr.u)){location.href=pr.u;return;}open.setLngLat(ev.features[0].geometry.coordinates).setDOMContent(card(pr)).addTo(m);});}
+m.on("click","pl",function(ev){var pr=ev.features[0].properties;if(!pr.n)return;if(fine){if(/^\\/places\\//.test(pr.u))location.href=pr.u;return;}open.setLngLat(ev.features[0].geometry.coordinates).setDOMContent(card(pr)).addTo(m);});}
 var a=el.querySelector(".maplibregl-ctrl-attrib");if(a)a.classList.remove("maplibregl-compact-show");});}catch(x){}}
 function show(el){if(q){q.push(el);load();}else draw(el);}
 var els=document.querySelectorAll("[data-pl-map]");if(!("IntersectionObserver" in window)){els.forEach(show);return;}
@@ -56,7 +57,8 @@ var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isInt
 els.forEach(function(el){io.observe(el);});})();`;
 
 type Point = [number, number];
-/** A dot's name, its page (/places/<state>/<slug>/) and its type, for the hover label and the tap card. */
+/** A dot's name, its page (/places/<state>/<slug>/) and its type, for the hover label and the tap card.
+ * In the compact data a dot with no page has an empty path and type -1. */
 export type MapLabel = [name: string, href: string, type?: string];
 
 /** `children` sit on the map, in its bottom-leading corner (the place page's Open in Maps button). */

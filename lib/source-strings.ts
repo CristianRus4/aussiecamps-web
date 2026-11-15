@@ -303,7 +303,10 @@ export const staticPages: Record<StaticPageKind, StaticPage> = {
         "Analytics uses two first-party cookies, _ga and one whose name starts with _ga_ followed by our measurement ID, and both last up to 13 months. In the European Economic Area, the United Kingdom and Switzerland they are set only after you accept them. Until then no analytics cookie is stored and Google receives only cookieless measurements that carry no identifier. You can change your choice at any time with the Privacy choices link at the bottom of every page.",
         "Google signals and ad personalisation are switched off, and analytics data is deleted after 14 months. This website does not use advertising trackers.",
       ] },
-      { heading: "Retention and control", paragraphs: ["You can delete app records through the app and manage iCloud data through your Apple account. Removing the app can remove local data, while synced copies may remain in iCloud until separately deleted."] },
+      { heading: "Retention and control", paragraphs: [
+        "You can delete app records through the app and manage iCloud data through your Apple account. Removing the app can remove local data, while synced copies may remain in iCloud until separately deleted.",
+        "A “Send link” page stores what you chose to publish (the trip or collection name, its places and dates) to show the page, and removing the link deletes it.",
+      ] },
       { heading: "Children and contact", paragraphs: [
         "AussieCamps is a general travel utility and is not directed to children. Do not submit personal information about a child through support.",
         "For privacy questions, contact AussieCamps support.",

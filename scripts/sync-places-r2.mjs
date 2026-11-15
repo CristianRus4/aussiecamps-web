@@ -1,7 +1,11 @@
 /**
- * Uploads the Worker's place pages (npm run places:worker → worker-dist) to its R2 bucket, changing only what
- * changed: each file's MD5 is compared with the object's ETag, new or changed files are put, and objects no
- * longer in the folder are deleted.
+ * Uploads the Worker's place pages (npm run places:worker → worker-dist), their copy of the build's CSS
+ * (places/_assets/) and the live links' shell and place cards (npm run links:assets) to its R2 bucket,
+ * changing only what changed: each file's MD5 is compared with the object's ETag, new or changed files are
+ * put, and objects no longer in the folder are deleted.
+ *
+ * The order keeps every page whole: the stylesheets first, then the pages that link them, deletions last. A
+ * stylesheet no longer in the folder stays a week, for pages still cached in browsers.
  *
  * It talks to R2's S3-compatible endpoint, which has no per-user request limit (the Cloudflare REST API
  * allows about 1,200 requests in 5 minutes, far too few for 20,000 pages). The S3 keys come from the same
@@ -51,16 +55,19 @@ const local = new Map();
   for (const entry of readdirSync(directory, { withFileTypes: true })) {
     const path = join(directory, entry.name);
     if (entry.isDirectory()) walk(path);
-    else if (entry.name.endsWith(".html")) local.set(relative(root, path).split(sep).join("/"), path);
+    else local.set(relative(root, path).split(sep).join("/"), path);
   }
 })(root);
 
 // ListObjectsV2, 1,000 keys a page; an object's ETag is the MD5 of its body.
-const remote = new Map();
+const remote = new Map(), modified = new Map();
 for (let token = ""; ;) {
   const xml = await (await call(`${endpoint}?list-type=2&max-keys=1000${token ? `&continuation-token=${encodeURIComponent(token)}` : ""}`)).text();
-  for (const [, key, etag] of xml.matchAll(/<Contents>[\s\S]*?<Key>([^<]*)<\/Key>[\s\S]*?<ETag>([^<]*)<\/ETag>[\s\S]*?<\/Contents>/g)) {
-    remote.set(key.replace(/&amp;/g, "&"), etag.replace(/&quot;|"/g, ""));
+  for (const [, contents] of xml.matchAll(/<Contents>([\s\S]*?)<\/Contents>/g)) {
+    const field = (name) => contents.match(new RegExp(`<${name}>([^<]*)</${name}>`))?.[1] ?? "";
+    const key = field("Key").replace(/&amp;/g, "&");
+    remote.set(key, field("ETag").replace(/&quot;|"/g, ""));
+    modified.set(key, Date.parse(field("LastModified")));
   }
   token = /<IsTruncated>true<\/IsTruncated>/.test(xml) ? (xml.match(/<NextContinuationToken>([^<]*)<\/NextContinuationToken>/)?.[1] ?? "") : "";
   if (!token) break;
@@ -73,16 +80,22 @@ for (const [key, path] of local) {
   bytes += body.length;
   if (remote.get(key) !== createHash("md5").update(body).digest("hex")) uploads.push([key, body]);
 }
-const deletions = [...remote.keys()].filter((key) => !local.has(key));
+const STYLESHEETS = "places/_assets/";
+const week = Date.now() - 7 * 24 * 3600 * 1000;
+const deletions = [...remote.keys()].filter((key) => !local.has(key) && (!key.startsWith(STYLESHEETS) || !(modified.get(key) > week)));
+const TYPES = { html: "text/html; charset=utf-8", json: "application/json", css: "text/css; charset=utf-8" };
+const contentType = (key) => TYPES[key.split(".").pop()] ?? "application/octet-stream";
 
 async function pool(items, job, size = 32) {
   let next = 0;
   await Promise.all(Array.from({ length: size }, async () => { while (next < items.length) await job(items[next++]); }));
 }
 let done = 0;
-await pool(uploads, async ([key, body]) => {
-  await call(objectUrl(key), { method: "PUT", body, headers: { "content-type": "text/html; charset=utf-8" } });
+const upload = async ([key, body]) => {
+  await call(objectUrl(key), { method: "PUT", body, headers: { "content-type": contentType(key) } });
   if (++done % 2000 === 0) console.log(`  uploaded ${done} of ${uploads.length}`);
-});
+};
+await pool(uploads.filter(([key]) => key.startsWith(STYLESHEETS)), upload);
+await pool(uploads.filter(([key]) => !key.startsWith(STYLESHEETS)), upload);
 await pool(deletions, (key) => call(objectUrl(key), { method: "DELETE" }));
-console.log(`R2 ${bucket}: ${local.size} pages (${(bytes / 1048576).toFixed(0)} MB stored), ${uploads.length} uploaded, ${deletions.length} deleted, ${local.size - uploads.length} unchanged.`);
+console.log(`R2 ${bucket}: ${local.size} files (${(bytes / 1048576).toFixed(0)} MB stored), ${uploads.length} uploaded, ${deletions.length} deleted, ${local.size - uploads.length} unchanged.`);
