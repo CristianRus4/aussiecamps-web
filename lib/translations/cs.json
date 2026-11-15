@@ -249,8 +249,8 @@
     },
     "tools": {
       "fuel-cost-calculator": {
-        "metaTitle": "Kalkulačka nákladů na palivo pro road trip po Austrálii",
-        "metaDescription": "Spočítejte benzin nebo naftu na road trip po Austrálii podle vzdálenosti, spotřeby v l/100 km a ceny za litr. Ukáže litry, celkovou cenu i cenu za km, se vzorcem a příkladem výpočtu.",
+        "metaTitle": "Kalkulačka nákladů na palivo v Austrálii: benzín a nafta na km",
+        "metaDescription": "Spočítejte náklady na palivo na cestu i cenu za km, s cenami benzínu a nafty z listopadu 2026 podle hlavních měst a typickou spotřebou osobního auta, campervanu a auta 4x4.",
         "title": "Kalkulačka nákladů na palivo pro road trip po Austrálii",
         "intro": "Zadejte vzdálenost, spotřebu naloženého vozidla a cenu za litr. Dozvíte se, kolik litrů jízda spotřebuje, kolik zaplatíte za palivo a kolik vychází jeden kilometr, takže si celou trasu rozpočítáte ještě před prvním tankováním.",
         "answer": [
@@ -341,8 +341,8 @@
         "ctaText": "AussieCamps ukazuje na mapě {restAreas} odpočívadel a {dumpPoints} výlevek (dump points, místa pro vylití WC kazety a šedé vody) po celé Austrálii a z uložených míst sestaví trasu s více zastávkami a vzdálenostmi."
       },
       "drive-time-calculator": {
-        "metaTitle": "Kalkulačka doby jízdy po Austrálii: skutečný den na cestě",
-        "metaDescription": "Odhadněte, jak dlouho v Austrálii opravdu trvá den za volantem, podle vzdálenosti, typu silnice a zastávek. Ukáže použité průměrné rychlosti, vzorec a příklad výpočtu.",
+        "metaTitle": "Kalkulačka doby jízdy v Austrálii: čas cesty autem",
+        "metaDescription": "Jak dlouho potrvá cesta autem? Spočítejte čas jízdy podle vzdálenosti, typu silnice a zastávek, s dobami jízdy a vzdálenostmi mezi australskými městy.",
         "title": "Kalkulačka doby jízdy pro road trip po Austrálii",
         "intro": "Navigace počítá čistý čas jízdy po volné silnici. Tato kalkulačka plánuje den, který skutečně odjezdíte: průměrnou rychlost podle typu silnice plus čas strávený na zastávkách kvůli palivu, jídlu a přestávkám.",
         "answer": [
@@ -7408,8 +7408,8 @@
       "priceTable": null
     },
     "best-camping-app-australia": {
-      "title": "Aplikace na kempování v Austrálii 2026: srovnání 7 nejlepších",
-      "description": "AussieCamps, WikiCamps, CAMPS, CamperMate, Hipcamp, Full Range Camping a ExplorOz: cena, použití bez signálu, zdroje dat a hodnocení (říjen 2026).",
+      "title": "Nejlepší aplikace na kempování v Austrálii 2026: 7 zdarma i placených",
+      "description": "Nejlepší aplikace na kempování v Austrálii pro rok 2026, zdarma i placené: AussieCamps, WikiCamps, CAMPS, CamperMate, Hipcamp, Full Range Camping a ExplorOz podle ceny, použití bez signálu a hodnocení.",
       "region": "Austrálie",
       "imageAlt": "Aplikace na kempování otevřená vedle australské silnice",
       "intro": "Většinu práce při hledání místa k přespání na australských cestách v roce 2026 odvede sedm aplikací a každá je dobrá v něčem jiném. AussieCamps vyvíjíme my a v přehledu je na prvním místě. Níže vysvětlujeme proč a kdy se vám víc hodí jiná aplikace. Všechny ceny a hodnocení jsme ověřili v australském obchodě App Store 20. října 2026.",
@@ -39911,6 +39911,638 @@
         },
         {
           "label": "NT Government: zásady pro odpočívadla u silnic"
+        }
+      ],
+      "priceTable": null
+    },
+    "oodnadatta-track-camping-guide": {
+      "title": "Kempování na Oodnadatta Track: od Marree po Marla, kempy, palivo a stav cesty",
+      "description": "Jak kempovat a jet po Oodnadatta Track ve státě South Australia (Jižní Austrálie): od Marree po Marla, Farina, Coward Springs, William Creek, Oodnadatta, palivo, stav cesty a nejlepší doba na cestu.",
+      "region": "South Australia",
+      "imageAlt": "Obytný vůz a auto 4x4 stojí mezi palmami v kempu Coward Springs ve státě South Australia",
+      "intro": "Oodnadatta Track patří mezi velké outbackové cesty po Austrálii. Měří asi 620 kilometrů z Marree do Marla, vede přes kamenité pláně, vyschlá jezera a oázy napájené prameny a sleduje trasu staré telegrafní a železniční tratě. Je to šotolinová cesta daleko od pomoci, takže se vyplatí plán: tankujte při každé příležitosti, vezměte vodu na celou cestu, auto v dobrém stavu a místo na přespání si každý den vyberte před setměním. Jeďte mezi dubnem a říjnem a počítejte se třemi nebo čtyřmi dny.",
+      "sections": [
+        {
+          "heading": "Trasa ve zkratce",
+          "body": [
+            "Většina lidí jede z Marree do Oodnadatta a dál do Marla nebo Coober Pedy, i když to jde i opačně. Marree leží asi 700 kilometrů severně od Adelaide a Marla je na Stuart Highway.",
+            "Trasa vede kolem Lake Eyre South, Coward Springs, mound springs (pramenů vyvěrajících na malých kopcích), William Creek, Algebuckina Bridge a Painted Desert. Palivo a jídlo seženete v Marree, William Creek, Oodnadatta a Marla, podle nich si proto rozvrhněte každou nádrž."
+          ],
+          "tips": [
+            "Asi 620 km, většinou šotolina",
+            "Palivo na čtyřech místech",
+            "Tři nebo čtyři dny na pohodovou jízdu"
+          ],
+          "table": {
+            "caption": "Hlavní zastávky na Oodnadatta Track.",
+            "head": [
+              "Zastávka",
+              "Co tam je",
+              "Kempování",
+              "Na co si dát pozor"
+            ],
+            "rows": [
+              [
+                "Marree",
+                "Palivo, hospoda, výlety na Farina",
+                "Caravan park",
+                "Poslední zásoby před stranou Flinders"
+              ],
+              [
+                "Farina",
+                "Zříceniny starého města",
+                "Jednoduchý kemp v buši",
+                "Bez vody, bez služeb"
+              ],
+              [
+                "Coward Springs",
+                "Datlové palmy a teplá lázeň",
+                "Kemp",
+                "V létě málo stínu"
+              ],
+              [
+                "William Creek",
+                "Hospoda, palivo, vyhlídkové lety nad Lake Eyre",
+                "Kemp u hotelu",
+                "Palivo může být drahé"
+              ],
+              [
+                "Oodnadatta",
+                "Roadhouse, palivo, jídlo",
+                "Kempování u roadhousu",
+                "Omezená otevírací doba"
+              ],
+              [
+                "Mount Dare",
+                "Palivo a hospoda na straně Dalhousie",
+                "Kemp u hotelu",
+                "Vyžaduje objížďku"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Kde kempovat",
+          "body": [
+            "Po cestě je kempů dost. Coward Springs má datlové palmy a teplou lázeň v prameni, William Creek a Oodnadatta mají kempy u hotelu a u roadhousu (odlehlé benzinky s občerstvením) se sprchami a Farina je jednoduchý kemp v buši u zřícenin starého města. Kempy v buši u vodních děr a vyschlých potoků jsou běžné, ale jen tam, kde se kempovat smí, a nikdy v korytě potoka, když se čeká déšť.",
+            "Většina kempů si účtuje malý poplatek, platí se v hotelu nebo do kasičky na důvěru, takže mějte u sebe hotovost. Dalhousie Springs, oáza s horkými prameny ve Witjira National Park, leží stranou od trasy a vyžaduje Desert Parks Pass."
+          ],
+          "tips": [
+            "Coward Springs a William Creek",
+            "Hotovost na poplatky za kemp",
+            "Dalhousie vyžaduje Desert Parks Pass"
+          ]
+        },
+        {
+          "heading": "Stav cesty a vozidlo",
+          "body": [
+            "Cesta je místy dobře udržovaná, jinde drsná, s vymletými vlnami na šotolině (corrugations), volnými kameny a občasným brodem potoka. Po dešti se může během hodin stát neprůjezdnou a může být uzavřena. Před odjezdem i cestou si ověřte jihoaustralské hlášení o stavu silnic.",
+            "Mnoho smluv o pronájmu tuto trasu zakazuje, takže si to nechte potvrdit písemně. Vezměte dvě rezervní pneumatiky, kompresor, přídavné palivo, pokud vám nádrž vystačí na méně než 500 kilometrů, a <a data-guide=\"camping-without-phone-signal\">satelitní komunikátor</a> nebo vysílačku UHF. Základy najdete v našem průvodci jízdou s půjčeným autem 4x4."
+          ],
+          "tips": [
+            "Zkontrolujte stav silnic",
+            "Dvě rezervní pneumatiky",
+            "Ověřte, že to půjčovna dovoluje"
+          ]
+        },
+        {
+          "heading": "Sezona a horko",
+          "body": [
+            "Sezona trvá od dubna do října, s teplými dny a chladnými nocemi. Australské léto (prosinec až únor) je velmi horké, běžně přes 40 °C, a přívalový déšť může silnici uzavřít na několik dní.",
+            "Vezměte aspoň 10 litrů vody na osobu a den plus rezervu a když se porouchá auto, zůstaňte u něj. Řekněte někomu, kudy pojedete a kdy čekáte, že dorazíte."
+          ],
+          "tips": [
+            "Duben až říjen",
+            "10 litrů vody na osobu a den",
+            "Zůstaňte u vozidla"
+          ]
+        },
+        {
+          "heading": "Lake Eyre, prameny a další zajímavosti",
+          "body": [
+            "Mound springs poblíž Coward Springs, včetně Blanche Cup a The Bubbler, jsou malé oázy, které živí unikátní mokřad, a prohlížet se mají z pěšin. Z William Creek nabízejí vyhlídkové lety nejlepší pohled na Lake Eyre, Kati Thanda, a v mokrém roce se jezero plní vodou a ptáky.",
+            "Máte-li čas, přidejte Painted Desert, Algebuckina Bridge a opálové město Coober Pedy, kde v našem průvodci <a data-guide=\"is-free-camping-legal-australia\">kempováním zdarma</a> najdete, kde přespat."
+          ],
+          "tips": [
+            "Mound springs: zůstaňte na pěšinách",
+            "Vyhlídkové lety z William Creek",
+            "Přidejte Coober Pedy"
+          ]
+        },
+        {
+          "heading": "Naplánujte si Oodnadatta Track v AussieCamps",
+          "body": [
+            "AussieCamps obsahuje 1 838 kempů a 745 národních parků od státních správ parků a 5 552 odpočívadel od silničních úřadů, s vybavením, poplatky a pravidly každého místa tak, jak je zveřejňuje příslušný úřad. Můžete filtrovat podle ceny, ukládat místa do cesty a vidět vzdálenost jízdy mezi zastávkami, což u takové trasy ukáže dlouhé úseky bez paliva.",
+            "Před jízdou si ověřte podmínky v hlášení o stavu silnic. AussieCamps běží na zařízeních iPhone."
+          ],
+          "tips": [
+            "Vzdálenost mezi zastávkami",
+            "Filtr podle ceny",
+            "Jen pro iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kde se dá kempovat na Oodnadatta Track?",
+          "Ve Farina, Coward Springs, William Creek, Oodnadatta a Mount Dare, kde jsou kempy s různou úrovní vybavení, a v kempech v buši u vodních děr a potoků po cestě. Kempujte vždy na označeném místě nebo na pozemku, kde je kempování povolené."
+        ],
+        [
+          "Potřebuji na Oodnadatta Track auto 4x4?",
+          "Za sucha je trasa často průjezdná i vyšším autem s pohonem jen na dvě kola (2WD), ale je to dlouhá šotolinová cesta s vymletými vlnami a ostrými kameny a většina smluv o pronájmu ji zakazuje. Bezpečnější volbou je auto 4x4 s dobrými pneumatikami."
+        ],
+        [
+          "Jak dlouho trvá Oodnadatta Track?",
+          "Asi 620 kilometrů z Marree do Marla. Počítejte se dvěma až čtyřmi dny se zastávkami a s delším časem, pokud přidáte Dalhousie Springs nebo Lake Eyre."
+        ],
+        [
+          "Je Oodnadatta Track otevřený celý rok?",
+          "Technicky ano, ale po dešti se uzavírá a v létě je nebezpečné horko. Sezona trvá od dubna do října. Před odjezdem si ověřte hlášení o stavu silnic."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "South Australia: Oodnadatta Track"
+        },
+        {
+          "label": "SA Department for Environment and Water: Desert Parks Pass"
+        },
+        {
+          "label": "SA Department for Infrastructure and Transport: stav silnic v outbacku"
+        },
+        {
+          "label": "Visit Coober Pedy: Oodnadatta Track"
+        }
+      ],
+      "priceTable": null
+    },
+    "tanami-track-camping-guide": {
+      "title": "Kempování na Tanami Track: z Alice Springs do Halls Creek, palivo, kempy a pravidla",
+      "description": "Jak jet a kempovat na Tanami Track mezi Alice Springs a Halls Creek: vzdálenost, stav cesty, palivo, kempy, pravidla pro aboridžinská území, sezona a Wolfe Creek Crater.",
+      "region": "Northern Territory",
+      "imageAlt": "Auto 4x4 na červené prašné Great Central Road poblíž Tjukayirla ve státě Western Australia",
+      "intro": "Tanami Track je outbackovou zkratkou mezi Alice Springs a oblastí Kimberley. Vede asi 1 000 kilometrů pouštní krajinou až do Halls Creek, ušetří dlouhý objezd přes Darwin nebo po pobřeží státu Western Australia (Západní Austrálie) a je klidnější než většina outbackových silnic. Zároveň je odlehlý, s málem služeb, pravidly pro aboridžinská území a počasím, které se rychle mění. Palivo plánujte pečlivě, kempujte jen tam, kde to smíte, a jeďte v období sucha.",
+      "sections": [
+        {
+          "heading": "Trasa ve zkratce",
+          "body": [
+            "Cesta odbočuje ze Stuart Highway severně od Alice Springs a míří na severozápad přes poušť Tanami, kolem Yuendumu a Rabbit Flat, pak vjíždí do státu <a data-guide=\"camping-rules-western-australia\">Western Australia</a> a vede krajem Billiluna a Balgo, než dojde na Great Northern Highway poblíž Halls Creek.",
+            "Je to zkratka oproti dlouhému objezdu přes Darwin a dobře navazuje na Wolfe Creek Crater, Purnululu a Gibb River Road. Natankujte v Alice Springs a každou další čerpací stanici berte jen jako dotankování."
+          ],
+          "tips": [
+            "Asi 1 000 km, různý povrch",
+            "Zkratka do Kimberley",
+            "Palivo a zásoby v Alice Springs"
+          ],
+          "table": {
+            "caption": "Hlavní zastávky na Tanami Track.",
+            "head": [
+              "Zastávka",
+              "Co tam je",
+              "Kempování",
+              "Na co si dát pozor"
+            ],
+            "rows": [
+              [
+                "Alice Springs",
+                "Plné služby a zásoby",
+                "Caravan parky",
+                "Poslední velký nákup a opravy"
+              ],
+              [
+                "Tilmouth Well",
+                "Roadhouse a palivo",
+                "Kemp",
+                "Blízko začátku trasy"
+              ],
+              [
+                "Yuendumu",
+                "Aboridžinská komunita, obchod",
+                "Ne pro kempování",
+                "Zůstaňte na silnici, omezení alkoholu"
+              ],
+              [
+                "Rabbit Flat",
+                "Roadhouse v sezoně",
+                "Kemp u roadhousu",
+                "Omezené otevírací dny"
+              ],
+              [
+                "Balgo a Billiluna",
+                "Komunity s omezenými službami",
+                "Ne pro kempování",
+                "Ověřte si palivo, než na něj spolehnete"
+              ],
+              [
+                "Halls Creek",
+                "Palivo, jídlo, služby",
+                "Caravan park",
+                "Wolfe Creek Crater je nedaleko"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Kde kempovat",
+          "body": [
+            "Kempujte u roadhousů (odlehlých benzinek s občerstvením) a v <a data-guide=\"caravan-park-vs-holiday-park\">caravan parcích</a>, v Tilmouth Well, v Rabbit Flat v sezoně a v Halls Creek a na označených odpočívadlech. Nezajíždějte do buše, protože trasa vede aboridžinskou půdou, kde je kempování mimo vyhrazená místa vázáno na povolení.",
+            "Wolfe Creek Crater, kousek jižně od Halls Creek, má kemp a je snadná odbočka stranou od trasy. Pravidla vysvětluje náš průvodce kempováním na aboridžinské půdě."
+          ],
+          "tips": [
+            "Kempujte u roadhousů a na značených místech",
+            "Žádné kempování v buši na aboridžinské půdě",
+            "Kemp u Wolfe Creek Crater"
+          ]
+        },
+        {
+          "heading": "Stav cesty a vozidlo",
+          "body": [
+            "Povrch tvoří směs zpevněných úseků a šotoliny a šotolina bývá drsná, s vymletými vlnami a volnými kameny. Déšť úseky uzavírá, takže si před odjezdem i cestou ověřte hlášení o stavu silnic pro teritorium Northern Territory (Severní teritorium) a od Main Roads <a data-guide=\"camping-rules-western-australia\">Western Australia</a>.",
+            "Mnoho smluv o pronájmu Tanami zakazuje, takže si to nechte potvrdit písemně. Vezměte dvě rezervní pneumatiky, kompresor, zásobu vody a satelitní komunikátor nebo vysílačku UHF a když projíždí <a data-guide=\"driving-with-road-trains-australia\">road train</a> (kamion s několika návěsy), sjeďte hodně stranou od silnice."
+          ],
+          "tips": [
+            "Zkontrolujte obě hlášení",
+            "Dvě rezervní pneumatiky",
+            "Ověřte, že to půjčovna dovoluje"
+          ]
+        },
+        {
+          "heading": "Sezona, horko a počasí",
+          "body": [
+            "Sezona trvá od května do září, s teplými dny a chladnými nocemi. Léto je horké a <a data-guide=\"best-time-camping-australia\">období dešťů</a> zhruba od prosince do března může trasu uzavřít na několik dní.",
+            "Palivo plánujte na celou vzdálenost mezi zastávkami, vezměte aspoň 10 litrů vody na osobu a den a řekněte někomu, co máte v plánu. Signál telefonu je jen u komunit, takže se na něj nespoléhejte."
+          ],
+          "tips": [
+            "Květen až září",
+            "10 litrů vody na osobu a den",
+            "Omezený signál telefonu"
+          ]
+        },
+        {
+          "heading": "Povolení a respekt",
+          "body": [
+            "Hlavní silnici můžete projet bez povolení, ale odbočit z ní na aboridžinskou půdu bez povolení nesmíte a v mnoha komunitách platí omezení alkoholu. Jak ho převážet legálně, vysvětluje náš průvodce alkoholem v outbacku.",
+            "Držte se silnice, před focením lidí nebo míst se zeptejte a nesbírejte suvenýry. Zpomalte při průjezdu komunitami, kde se na silnici mohou pohybovat děti, psi i lidé."
+          ],
+          "tips": [
+            "Zůstaňte na silnici",
+            "Platí omezení alkoholu",
+            "Před focením se zeptejte"
+          ]
+        },
+        {
+          "heading": "Naplánujte si Tanami Track v AussieCamps",
+          "body": [
+            "AussieCamps obsahuje 1 838 kempů a 745 národních parků od státních správ parků a 5 552 odpočívadel od silničních úřadů, s vybavením, poplatky a pravidly každého místa tak, jak je zveřejňuje příslušný úřad. Můžete ukládat místa do cesty a vidět vzdálenost jízdy mezi zastávkami, což ukáže dlouhé úseky bez paliva.",
+            "Před jízdou si ověřte podmínky v hlášeních o stavu silnic. AussieCamps běží na zařízeních iPhone."
+          ],
+          "tips": [
+            "Vzdálenost mezi zastávkami",
+            "Filtr podle ceny",
+            "Jen pro iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Jak dlouhý je Tanami Track?",
+          "Asi 1 000 kilometrů od Stuart Highway poblíž Alice Springs do Halls Creek. Počítejte se dvěma až třemi dny a s delším časem, pokud zastavíte u Wolfe Creek Crater nebo přidáte Purnululu."
+        ],
+        [
+          "Je Tanami Track zpevněný?",
+          "Částečně. Úsek v teritoriu Northern Territory se zpevňoval po etapách, ale dlouhé úseky jsou pořád šotolinové, s vymletými vlnami a volnými kameny, a podmínky se rychle mění. Před jízdou si ověřte hlášení o stavu silnic."
+        ],
+        [
+          "Dá se kempovat podél Tanami Track?",
+          "Kempujte u roadhousů, v kempech a na označených odpočívadlech. Velká část cesty vede aboridžinskou půdou, kde je kempování mimo vyhrazená místa vázáno na povolení, takže nezastavujte a nerozkládejte se kdekoli."
+        ],
+        [
+          "Potřebuji na Tanami Track povolení?",
+          "K jízdě po hlavní silnici povolení nepotřebujete, ale odbočit z ní na aboridžinskou půdu bez něj nesmíte. V mnoha komunitách po cestě platí omezení alkoholu."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NT Government: hlášení o stavu silnic"
+        },
+        {
+          "label": "Main Roads Western Australia: stav silnic"
+        },
+        {
+          "label": "Central Land Council: povolení pro aboridžinskou půdu"
+        },
+        {
+          "label": "Parks and Wildlife Service WA: Wolfe Creek Crater (Kandimalal)"
+        }
+      ],
+      "priceTable": null
+    },
+    "pilbara-camping-beyond-karijini": {
+      "title": "Kempování v oblasti Pilbara mimo Karijini: Millstream, Cape Keraudren a roadhousy",
+      "description": "Kde kempovat v oblasti Pilbara mimo Karijini: Millstream Chichester National Park, Cape Keraudren, Port Hedland, Karratha, Marble Bar, roadhousy, sezona a riziko cyklonů.",
+      "region": "Western Australia",
+      "imageAlt": "Karavany a stany pod stromy a palmami v caravan parku Eighty Mile Beach na severozápadním pobřeží státu Western Australia (Západní Austrálie)",
+      "intro": "Pilbara není jen Karijini. Millstream Chichester National Park má jezírka napájená prameny v červené krajině, Cape Keraudren je divoký pobřežní kemp a města jako Karratha, Port Hedland a Marble Bar jsou užitečnými základnami mezi dlouhými prázdnými úseky silnic. Je tu horko, odlehle a rušno od těžební dopravy, takže jeďte mezi květnem a zářím, rezervujte, kde to jde, a na každé zastávce plánujte palivo a vodu.",
+      "sections": [
+        {
+          "heading": "Kde kempovat",
+          "body": [
+            "V oblasti Pilbara je dobrá nabídka kempů, od kempů v národních parcích po <a data-guide=\"caravan-park-vs-holiday-park\">caravan parky</a> (placené kempy s místy pro karavany, obytná auta i stany). Millstream Chichester National Park poblíž Karratha má kempy blízko jezírek i v pohoří a Cape Keraudren Nature Reserve jižně od Port Hedland má pobřežní kempy na okraji Indického oceánu.",
+            "Roadhousy (odlehlé benzinky s občerstvením) jako Pardoo a Auski a caravan parky v Karratha, Port Hedland, Newman a Tom Price nabízejí sprchy, elektřinu i jídlo. Odpočívadla u silnic jsou tam, kde jsou označená, zdarma na jednu nebo dvě noci."
+          ],
+          "tips": [
+            "Kempy v parcích a na pobřeží",
+            "Caravan parky ve městech",
+            "Odpočívadla, kde jsou označená"
+          ],
+          "table": {
+            "caption": "Možnosti kempování v oblasti Pilbara mimo Karijini.",
+            "head": [
+              "Kde",
+              "Cena",
+              "Rezervace",
+              "Hlavní omezení"
+            ],
+            "rows": [
+              [
+                "Millstream Chichester National Park",
+                "Poplatek za kemp v parku",
+                "Ověřte na stránce parku",
+                "Základní vybavení, v létě horko"
+              ],
+              [
+                "Cape Keraudren Nature Reserve",
+                "Poplatek za kemp",
+                "Ověřte na stránce parku",
+                "Odkryté místo, bez služeb"
+              ],
+              [
+                "Caravan parky v Karratha a Port Hedland",
+                "Placené",
+                "Doporučuje se",
+                "Plno kvůli těžařům"
+              ],
+              [
+                "Pardoo a další roadhousy",
+                "Placené",
+                "Není potřeba",
+                "Základní, palivo na místě"
+              ],
+              [
+                "Odpočívadla u silnic",
+                "Zdarma",
+                "Žádná",
+                "Limity pobytu podle značek"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Millstream a pobřeží",
+          "body": [
+            "V Millstream Chichester National Park najdete Python Pool, chladné koupaliště pod červenými útesy, a jezírka Millstream napájená prameny na řece Fortescue River. Přístupové cesty jsou většinou šotolinové a za sucha průjezdné běžným autem, ale po dešti si ověřte podmínky.",
+            "Na pobřeží je Cape Keraudren odlehlý kemp pro rybáře a milovníky pláže bez služeb, takže vezměte vodu a všechno potřebné. Port Hedland a Karratha jsou servisní centra a Cossack, město duchů poblíž Karratha, vydá na snadný půlden."
+          ],
+          "tips": [
+            "Python Pool ke koupání",
+            "Cape Keraudren je odlehlý",
+            "Město duchů Cossack u Karratha"
+          ]
+        },
+        {
+          "heading": "Marble Bar a města ve vnitrozemí",
+          "body": [
+            "Marble Bar je známý jako jedno z nejteplejších měst v Austrálii a nedaleko jsou Chinaman Pool a Doolena Gorge. Newman a Tom Price jsou hlavní základny ve vnitrozemí, s <a data-guide=\"caravan-park-vs-holiday-park\">caravan parky</a>, palivem a zásobami na cestě ke Karijini.",
+            "Vzdálenosti jsou dlouhé a v provozu jsou <a data-guide=\"driving-with-road-trains-australia\">road trainy</a> (kamiony s několika návěsy) a těžební vozidla. Než vyrazíte, přečtěte si náš průvodce jízdou mezi road trainy."
+          ],
+          "tips": [
+            "Marble Bar kvůli horku",
+            "Newman a Tom Price jako základny",
+            "Sdílejte silnici s road trainy"
+          ]
+        },
+        {
+          "heading": "Sezona, horko a cyklony",
+          "body": [
+            "Sezona trvá od května do září, s teplými dny a chladnými nocemi. Léto je extrémně horké a zhruba od listopadu do dubna mohou v oblasti Pilbara přijít cyklony a záplavy, které uzavřou silnice na několik dní. Co sledovat, vysvětluje náš průvodce obdobím cyklonů a záplav.",
+            "Vezměte aspoň 10 litrů vody na osobu a den, tankujte v každém městě a řekněte někomu, kudy pojedete. Signál mobilu je ve městech dobrý a jinde kolísavý."
+          ],
+          "tips": [
+            "Květen až září",
+            "Období cyklonů od listopadu do dubna",
+            "10 litrů vody na osobu a den"
+          ]
+        },
+        {
+          "heading": "Palivo, zásoby a plánování",
+          "body": [
+            "Palivo je k dostání v Karratha, Port Hedland, Newman, Tom Price, Marble Bar a v roadhousech u silnic, ale vzdálenosti mezi městy jsou dlouhé. Jídlo kupujte ve větších městech, kde jsou ceny nižší než v roadhousech.",
+            "Oblast Pilbara spojte s cestou do Broome nebo Exmouth a širší souvislosti najdete v našich průvodcích z Perthu do Broome a Karijini."
+          ],
+          "tips": [
+            "Palivo v každém městě",
+            "Zásoby ve větších městech",
+            "Spojte s Broome nebo Exmouth"
+          ]
+        },
+        {
+          "heading": "Naplánujte si oblast Pilbara v AussieCamps",
+          "body": [
+            "AussieCamps obsahuje 1 838 kempů a 745 národních parků od státních správ parků a 5 552 odpočívadel od silničních úřadů, s vybavením, poplatky a pravidly každého místa tak, jak je zveřejňuje příslušný úřad. Můžete filtrovat podle ceny, ukládat místa do cesty a vidět vzdálenost jízdy mezi zastávkami, což v oblasti Pilbara ukáže dlouhé úseky bez paliva.",
+            "Před jízdou si ověřte stránky parků a stav silnic. AussieCamps běží na zařízeních iPhone."
+          ],
+          "tips": [
+            "Vzdálenost mezi zastávkami",
+            "Filtr podle ceny",
+            "Jen pro iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kde se dá kempovat v oblasti Pilbara mimo Karijini?",
+          "V Millstream Chichester National Park, v Cape Keraudren na pobřeží jižně od Port Hedland, v roadhousech jako Pardoo, v caravan parcích v Karratha, Port Hedland a Newman a na odpočívadlech u silnic."
+        ],
+        [
+          "Vyplatí se navštívit Millstream Chichester National Park?",
+          "Ano. Python Pool a Chinderwarriner Pool jsou chladná koupaliště napájená prameny v červené krajině a v parku jsou kempy se základním vybavením. Rezervace a stav cest ověřte na stránce parku."
+        ],
+        [
+          "Kdy je nejlepší doba na kempování v oblasti Pilbara?",
+          "Od května do září. Léto je extrémně horké a období cyklonů zhruba od listopadu do dubna může přinést záplavy a uzavírky silnic."
+        ],
+        [
+          "Dá se v oblasti Pilbara kempovat zdarma?",
+          "Jen na označených odpočívadlech, kde je to povolené, obvykle na jednu nebo dvě noci. Těžební a pastevecké pozemky jsou soukromé, takže na ně nezajíždějte."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Parks and Wildlife Service WA: Millstream Chichester National Park"
+        },
+        {
+          "label": "Parks and Wildlife Service WA: Cape Keraudren Nature Reserve"
+        },
+        {
+          "label": "Main Roads Western Australia: stav silnic"
+        },
+        {
+          "label": "Australia's North West: Pilbara"
+        }
+      ],
+      "priceTable": null
+    },
+    "queensland-outback-national-parks-camping": {
+      "title": "Kempování v národních parcích queenslandského outbacku: Boodjamulla, Currawinya a další",
+      "description": "Kempování v národních parcích queenslandského outbacku: Boodjamulla (Lawn Hill), Currawinya, Carnarvon Gorge, Diamantina a Munga-Thirri, s povoleními, silnicemi, sezonou a tím, co vzít s sebou.",
+      "region": "Queensland",
+      "imageAlt": "Carnarvon Creek v Carnarvon Gorge",
+      "intro": "Outback v Queenslandu nabízí kempování v národních parcích, které se v Austrálii vyplatí nejvíc. Boodjamulla má tyrkysovou soutěsku v suché krajině na severozápadě, Currawinya ukrývá mokřady a divokou zvěř na hranici se státem New South Wales (Nový Jižní Wales) a Carnarvon Gorge má pískovcové stěny a skalní malby. Každý park má kemp, který si rezervujete přes systém státních parků, dlouhé příjezdové cesty a krátkou sezonu, takže povolení, palivo i vodu vyřiďte předem.",
+      "sections": [
+        {
+          "heading": "Parky na první pohled",
+          "body": [
+            "Boodjamulla, nazývaná také Lawn Hill, leží na severozápadě a má soutěsku, kterou můžete proplout na kánoi. Currawinya leží na jihozápadě poblíž Hungerford, Carnarvon Gorge je v centrální vysočině a Diamantina a Munga-Thirri leží na dalekém západě a jihozápadě, v pouštní krajině kolem Birdsville a Bedourie.",
+            "Každý park má svůj charakter a jiný stav silnic. Řada návštěvníků spojuje dva nebo tři z nich v delším outbackovém okruhu a mezi parky využívá hlavní silnice."
+          ],
+          "tips": [
+            "Boodjamulla pro soutěsku",
+            "Currawinya pro mokřady",
+            "Carnarvon pro túry"
+          ],
+          "table": {
+            "caption": "Národní parky v queenslandském outbacku a co o nich vědět.",
+            "head": [
+              "Park",
+              "Hlavní lákadlo",
+              "Silnice",
+              "Na co si dát pozor"
+            ],
+            "rows": [
+              [
+                "Boodjamulla (Lawn Hill)",
+                "Soutěska, kánoe, fosilie",
+                "Částečně zpevněná, na konci šotolina",
+                "V období dešťů zavřeno, kapacita bývá vyprodaná"
+              ],
+              [
+                "Currawinya",
+                "Ptáci, jezera, bandikuti",
+                "Šotolina, na vedlejších cestách 4x4",
+                "Mokré cesty se mění v bahno"
+              ],
+              [
+                "Carnarvon Gorge",
+                "Túry a skalní malby",
+                "K soutěsce většinou zpevněná",
+                "O školních prázdninách plno"
+              ],
+              [
+                "Diamantina",
+                "Řeky, divoká zvěř, odlehlost",
+                "Šotolina, doporučeno 4x4",
+                "Dlouhé úseky bez paliva"
+              ],
+              [
+                "Munga-Thirri (Simpson Desert)",
+                "Duny a Big Red",
+                "Jen 4x4, nutné povolení",
+                "V létě zavřeno"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Povolení a rezervace",
+          "body": [
+            "V každém kempu v národních parcích v <a data-guide=\"camping-rules-queensland\">Queenslandu</a> je povinné povolení ke kempování. Rezervujete ho online přes systém státních parků a platí se za něj mírný poplatek za osobu, předem. Odlehlé parky často nemají signál telefonu, takže rezervujte, než opustíte město s pokrytím.",
+            "Oblíbené parky jako Boodjamulla a Carnarvon Gorge se plní o školních prázdninách a v chladnějších měsících, takže rezervujte včas. Širší pravidla státu najdete v našem průvodci pravidly kempování v Queenslandu."
+          ],
+          "tips": [
+            "Rezervujte každý kemp",
+            "Platba předem",
+            "Rezervujte, než ztratíte signál"
+          ]
+        },
+        {
+          "heading": "Silnice, vozidlo a palivo",
+          "body": [
+            "Hlavní silnice jsou zpevněné, ale cesty do parků bývají šotolinové a po dešti se mění v bahno. Před odjezdem si ověřte hlášení QLDTraffic o stavu silnic a upozornění parků a buďte připraveni zůstat na místě, když přijde déšť.",
+            "Tankujte v každém městě do plné nádrže, na odlehlé parky vezměte rezervní palivo a na šotolině aspoň dvě rezervní pneumatiky. Mnoho smluv o pronájmu zakazuje nezpevněné silnice, takže si to nechte potvrdit písemně."
+          ],
+          "tips": [
+            "Ověřte QLDTraffic a upozornění parků",
+            "Palivo v každém městě",
+            "Ověřte, že půjčovna dovoluje šotolinu"
+          ]
+        },
+        {
+          "heading": "Sezona, horko a voda",
+          "body": [
+            "Sezona trvá od dubna do října, s teplými dny a chladnými nocemi. Australské léto (prosinec až únor) je velmi horké, běžně přes 40 °C, a <a data-guide=\"best-time-camping-australia\">období dešťů</a> zhruba od prosince do března může uzavřít silnice i parky.",
+            "Vezměte aspoň 10 litrů vody na osobu a den a vodu, kterou nasbíráte, upravte nebo převařte. Řekněte někomu, kudy pojedete a kdy se vrátíte."
+          ],
+          "tips": [
+            "Duben až říjen",
+            "10 litrů vody na osobu a den",
+            "Řekněte někomu trasu"
+          ]
+        },
+        {
+          "heading": "Propojení parků a outbackových měst",
+          "body": [
+            "Parky propojte s městy mezi nimi. Longreach, Winton a Mount Isa mají caravan parky (placené kempy s místy pro karavany, obytná auta i stany) a kempy místních samospráv a náš průvodce <a data-guide=\"is-free-camping-legal-australia\">kempováním zdarma</a> v queenslandském outbacku ukazuje, kde přespat mezi parky.",
+            "Pro delší okruh spojují Savannah Way a <a data-guide=\"camping-rules-queensland\">Queensland</a> Outback Way severozápadní a centrální parky a navazují na silnice k pobřeží."
+          ],
+          "tips": [
+            "Kempy samospráv mezi parky",
+            "Spojení se Savannah Way",
+            "Queensland Outback Way"
+          ]
+        },
+        {
+          "heading": "Naplánujte si outback v AussieCamps",
+          "body": [
+            "AussieCamps obsahuje 1 838 kempů a 745 národních parků od státních správ parků a 5 552 odpočívadel od silničních úřadů, s vybavením, poplatky a pravidly každého místa tak, jak je zveřejňuje příslušný úřad. Můžete filtrovat podle ceny, ukládat místa do cesty a vidět vzdálenost jízdy mezi zastávkami, což ukáže dlouhé úseky bez paliva.",
+            "Před jízdou si na webu státních parků zarezervujte povolení a ověřte stav silnic. AussieCamps běží na zařízeních iPhone."
+          ],
+          "tips": [
+            "Filtr podle ceny",
+            "Ukládejte místa do cesty",
+            "Jen pro iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Musím si kempování v národních parcích v Queenslandu rezervovat?",
+          "Ano. V každém kempu v národních parcích v Queenslandu je povinné povolení ke kempování, které se rezervuje online přes systém státních parků. Odlehlé parky mají kolísavý signál telefonu, takže rezervujte, než odjedete z města."
+        ],
+        [
+          "Které národní parky v queenslandském outbacku jsou nejlepší na kempování?",
+          "Boodjamulla (Lawn Hill) pro soutěsku a kánoe, Carnarvon Gorge pro túry a skalní malby, Currawinya pro ptáky a mokřady a Diamantina a Munga-Thirri pro odlehlou pouštní krajinu."
+        ],
+        [
+          "Potřebuji do národních parků v queenslandském outbacku auto 4x4?",
+          "Do Carnarvon Gorge a Boodjamulla si za sucha často poradí i auto bez pohonu 4x4 (2WD), ale po dešti se cesty mění v bahno. Diamantina, Munga-Thirri a vedlejší cesty v Currawinya vyžadují auto 4x4 s vysokou světlostí."
+        ],
+        [
+          "Kdy je nejlepší doba na kempování v parcích queenslandského outbacku?",
+          "Od dubna do října. Léto je velmi horké a období dešťů zhruba od prosince do března může přerušit cesty a uzavřít parky, včetně Munga-Thirri, které se v létě zavírá."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Queensland Parks and Forests: kempování a povolení"
+        },
+        {
+          "label": "Queensland Parks and Forests: Boodjamulla National Park"
+        },
+        {
+          "label": "QLDTraffic: stav silnic"
+        },
+        {
+          "label": "Tourism and Events Queensland: Outback Queensland"
         }
       ],
       "priceTable": null

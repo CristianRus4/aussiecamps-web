@@ -249,8 +249,8 @@
     },
     "tools": {
       "fuel-cost-calculator": {
-        "metaTitle": "Kalkulator kosztów paliwa na road trip po Australii",
-        "metaDescription": "Policz benzynę lub olej napędowy na road trip po Australii na podstawie dystansu, spalania w l/100 km i ceny za litr. Pokazuje litry, koszt całkowity i koszt kilometra, ze wzorem i przykładem obliczeń.",
+        "metaTitle": "Kalkulator kosztów paliwa w Australii: benzyna i diesel na km",
+        "metaDescription": "Policz koszt paliwa na trasie i koszt na kilometr. Ceny benzyny i diesla z listopada 2026 w stolicach stanów oraz typowe spalanie osobówki, kampera i auta 4WD.",
         "title": "Kalkulator kosztów paliwa na road trip po Australii",
         "intro": "Wpisz dystans, spalanie załadowanego auta i cenę za litr. Dowiesz się, ile litrów spalisz na trasie, ile zapłacisz za paliwo i ile kosztuje kilometr, więc zaplanujesz budżet całej trasy jeszcze przed pierwszym tankowaniem.",
         "answer": [
@@ -341,8 +341,8 @@
         "ctaText": "AussieCamps pokazuje na mapie {restAreas} miejsc odpoczynku (rest area) i {dumpPoints} punktów zrzutu nieczystości (dump point) w całej Australii i zamienia zapisane miejsca w trasę z wieloma przystankami i odległościami."
       },
       "drive-time-calculator": {
-        "metaTitle": "Kalkulator czasu jazdy po Australii: realny dzień w trasie",
-        "metaDescription": "Oszacuj, ile naprawdę trwa dzień jazdy po Australii, na podstawie dystansu, rodzaju drogi i postojów. Pokazuje przyjęte średnie prędkości, wzór i przykład obliczeń.",
+        "metaTitle": "Kalkulator czasu jazdy po Australii: ile trwa przejazd samochodem",
+        "metaDescription": "Ile zajmie przejazd? Oszacuj czas jazdy na podstawie dystansu, rodzaju drogi i postojów, z czasami i odległościami między australijskimi miastami.",
         "title": "Kalkulator czasu jazdy na road trip po Australii",
         "intro": "Aplikacje z mapami podają czas samej jazdy po pustej drodze. Ten kalkulator planuje dzień, który naprawdę przejedziesz: średnią prędkość dla danego rodzaju drogi plus czas postojów na tankowanie, jedzenie i przerwy.",
         "answer": [
@@ -7408,8 +7408,8 @@
       "priceTable": null
     },
     "best-camping-app-australia": {
-      "title": "Aplikacje na kemping w Australii 2026: porównanie 7 aplikacji",
-      "description": "AussieCamps, WikiCamps, CAMPS, CamperMate, Hipcamp, Full Range Camping i ExplorOz: ceny, działanie bez zasięgu, źródła danych, oceny. Stan na październik 2026.",
+      "title": "Najlepsze aplikacje na kemping w Australii 2026: porównanie 7 darmowych i płatnych",
+      "description": "Najlepsze aplikacje kempingowe w Australii w 2026 roku, darmowe i płatne: AussieCamps, WikiCamps, CAMPS, CamperMate, Hipcamp, Full Range Camping i ExplorOz, porównane pod kątem ceny, działania bez zasięgu i ocen.",
       "region": "Australia",
       "imageAlt": "Aplikacja kempingowa otwarta obok australijskiej drogi",
       "intro": "W 2026 roku większość pracy przy szukaniu noclegu na australijskich trasach wykonuje siedem aplikacji, a każda sprawdza się w czym innym. AussieCamps jest aplikacją twórców tego zestawienia, dlatego otwiera listę. Poniżej wyjaśnienie, dlaczego, oraz kiedy lepiej sprawdzi się inna aplikacja. Każdą cenę i ocenę poniżej sprawdzono w australijskim App Store 20 października 2026 roku.",
@@ -39911,6 +39911,638 @@
         },
         {
           "label": "NT Government: polityka dotycząca parkingów przydrożnych"
+        }
+      ],
+      "priceTable": null
+    },
+    "oodnadatta-track-camping-guide": {
+      "title": "Kemping na Oodnadatta Track: z Marree do Marla, kempingi, paliwo i warunki na drodze",
+      "description": "Jak jechać Oodnadatta Track w Australii Południowej i gdzie spać: z Marree do Marla, Farina, Coward Springs, William Creek, Oodnadatta, paliwo, stan drogi i najlepsza pora na wyjazd.",
+      "region": "Australia Południowa",
+      "imageAlt": "Kamper i auto 4WD na kempingu wśród palm w Coward Springs w Australii Południowej",
+      "intro": "Oodnadatta Track to jedna z najsłynniejszych tras przez australijski outback. Ma około 620 kilometrów z Marree do Marla i prowadzi przez kamieniste równiny gibber, wyschnięte jeziora i oazy przy źródłach, wzdłuż dawnej linii telegraficznej i kolejowej. To szutrowa droga daleko od pomocy, więc warto ją dobrze zaplanować: tankuj przy każdej okazji, zabierz wodę na całą trasę, jedź sprawnym autem i wybieraj nocleg przed zmrokiem. Jedź między kwietniem a październikiem i policz na to trzy lub cztery dni.",
+      "sections": [
+        {
+          "heading": "Trasa w skrócie",
+          "body": [
+            "Większość osób jedzie z Marree do Oodnadatta, a dalej do Marla lub Coober Pedy, choć da się też w drugą stronę. Marree leży około 700 kilometrów na północ od Adelajdy, a Marla przy Stuart Highway.",
+            "Trasa mija Lake Eyre South, Coward Springs, mound springs (źródła tworzące kopce), William Creek, Algebuckina Bridge i Painted Desert. Paliwo i posiłek znajdziesz w Marree, William Creek, Oodnadatta i Marla, więc zaplanuj każdy bak wokół tych miejsc."
+          ],
+          "tips": [
+            "Około 620 km, w większości szuter",
+            "Paliwo w czterech miejscach",
+            "Trzy lub cztery dni to wygodny wariant"
+          ],
+          "table": {
+            "caption": "Główne przystanki na Oodnadatta Track.",
+            "head": [
+              "Przystanek",
+              "Co tam jest",
+              "Nocleg",
+              "Na co uważać"
+            ],
+            "rows": [
+              [
+                "Marree",
+                "Paliwo, pub, wycieczki do Farina",
+                "Caravan park",
+                "Ostatnie zakupy przed trasą w stronę Flinders"
+              ],
+              [
+                "Farina",
+                "Ruiny dawnego miasteczka",
+                "Proste pole biwakowe",
+                "Brak wody i usług"
+              ],
+              [
+                "Coward Springs",
+                "Palmy daktylowe i ciepła kąpiel w źródle",
+                "Kemping",
+                "Mało cienia latem"
+              ],
+              [
+                "William Creek",
+                "Pub, paliwo, loty nad Lake Eyre",
+                "Kemping przy hotelu (pubie)",
+                "Paliwo bywa drogie"
+              ],
+              [
+                "Oodnadatta",
+                "Roadhouse, paliwo, jedzenie",
+                "Kemping przy roadhouse",
+                "Ograniczone godziny otwarcia"
+              ],
+              [
+                "Mount Dare",
+                "Paliwo i pub od strony Dalhousie",
+                "Kemping przy hotelu (pubie)",
+                "Trzeba nadłożyć drogi"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Gdzie spać",
+          "body": [
+            "Po drodze jest sporo miejsc na nocleg. Coward Springs ma palmy daktylowe i ciepłą kąpiel w źródle, William Creek i Oodnadatta mają kempingi przy hotelu i przy roadhouse z prysznicami, a Farina to proste pole biwakowe przy ruinach dawnego miasteczka. Biwaki w buszu przy wodopojach i suchych korytach strumieni zdarzają się często, ale tylko tam, gdzie biwakowanie jest dozwolone, i nigdy w korycie strumienia, gdy zapowiadają deszcz.",
+            "Większość kempingów pobiera niewielką opłatę, którą płaci się w hotelu albo wrzuca do skrzynki na opłaty (honesty box), więc miej przy sobie trochę gotówki. Dalhousie Springs, oaza z gorącymi basenami w Parku Narodowym Witjira, leży z dala od trasy i wymaga karnetu Desert Parks Pass."
+          ],
+          "tips": [
+            "Coward Springs i William Creek",
+            "Weź gotówkę na opłaty za kemping",
+            "Dalhousie wymaga Desert Parks Pass"
+          ]
+        },
+        {
+          "heading": "Stan drogi i pojazd",
+          "body": [
+            "Trasa jest miejscami dobrze wyrównana, a miejscami wyboista: z tarką, luźnymi kamieniami i od czasu do czasu przejazdem przez strumień. Po deszczu w ciągu kilku godzin może stać się nieprzejezdna i bywa zamykana. Sprawdź komunikat o stanie dróg w Australii Południowej przed wyjazdem i jeszcze raz po drodze.",
+            "Wiele umów wynajmu zabrania wjazdu na tę trasę, więc potwierdź swoją na piśmie. Zabierz dwa koła zapasowe, kompresor, dodatkowe paliwo, jeśli zasięg na jednym baku to mniej niż 500 kilometrów, oraz <a data-guide=\"camping-without-phone-signal\">komunikator satelitarny</a> lub radio UHF. Podstawy znajdziesz w naszym poradniku o jeździe autem 4WD z wypożyczalni."
+          ],
+          "tips": [
+            "Sprawdź komunikat o stanie dróg",
+            "Dwa koła zapasowe",
+            "Sprawdź, czy wypożyczalnia na to pozwala"
+          ]
+        },
+        {
+          "heading": "Pora roku i upał",
+          "body": [
+            "Sezon trwa od kwietnia do października: dni są ciepłe, a noce chłodne. Latem jest bardzo gorąco, regularnie powyżej 40 stopni, a gwałtowne opady mogą zamknąć drogę na kilka dni.",
+            "Zabierz co najmniej 10 litrów wody na osobę dziennie plus zapas, a w razie awarii zostań przy aucie. Powiedz komuś, którędy jedziesz i kiedy planujesz dotrzeć."
+          ],
+          "tips": [
+            "Od kwietnia do października",
+            "10 litrów wody na osobę dziennie",
+            "Zostań przy aucie"
+          ]
+        },
+        {
+          "heading": "Lake Eyre, źródła i inne atrakcje",
+          "body": [
+            "Mound springs w okolicy Coward Springs, w tym Blanche Cup i The Bubbler, to małe oazy zasilające unikalne tereny podmokłe, które ogląda się ze ścieżek. Najlepszy widok na Lake Eyre, czyli Kati Thanda, dają loty widokowe z William Creek, a w mokry rok jezioro wypełnia się wodą i ptakami.",
+            "Jeśli masz czas, dodaj Painted Desert, Algebuckina Bridge i opalowe miasteczko Coober Pedy, gdzie nasz poradnik o <a data-guide=\"is-free-camping-legal-australia\">darmowych noclegach</a> pokazuje, gdzie się zatrzymać."
+          ],
+          "tips": [
+            "Mound springs: trzymaj się ścieżek",
+            "Loty widokowe z William Creek",
+            "Dodaj Coober Pedy"
+          ]
+        },
+        {
+          "heading": "Zaplanuj Oodnadatta Track w AussieCamps",
+          "body": [
+            "W AussieCamps znajdziesz 1 838 kempingów i 745 parków narodowych z agencji parków stanowych oraz 5 552 miejsc odpoczynku od zarządców dróg, a przy każdym miejscu udogodnienia, opłaty i zasady w takiej formie, w jakiej podaje je agencja. Możesz filtrować według kosztu, zapisywać miejsca w podróży i sprawdzać odległość jazdy między przystankami, co pokazuje długie odcinki bez paliwa na takiej trasie jak ta.",
+            "Sprawdź warunki w komunikacie o stanie dróg, zanim ruszysz. AussieCamps działa na urządzeniach iPhone."
+          ],
+          "tips": [
+            "Zobacz odległość między przystankami",
+            "Filtruj według kosztu",
+            "Tylko na iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Gdzie można spać na Oodnadatta Track?",
+          "W Farina, Coward Springs, William Creek, Oodnadatta i Mount Dare, gdzie są kempingi o różnym standardzie udogodnień, oraz na biwakach w buszu przy wodopojach i strumieniach po drodze. Zawsze rozbijaj się na wyznaczonym miejscu lub na terenie, na którym biwakowanie jest dozwolone."
+        ],
+        [
+          "Czy na Oodnadatta Track potrzebne jest auto 4WD?",
+          "Przy suchej pogodzie trasę często da się przejechać autem 2WD z wysokim zawieszeniem, ale to długa droga szutrowa z tarką i ostrymi kamieniami, a większość umów wynajmu jej zabrania. Bezpieczniejszym wyborem jest auto 4WD z dobrymi oponami."
+        ],
+        [
+          "Ile trwa przejazd Oodnadatta Track?",
+          "Około 620 kilometrów z Marree do Marla. Policz od dwóch do czterech dni z postojami, a więcej, jeśli dodasz Dalhousie Springs lub Lake Eyre."
+        ],
+        [
+          "Czy Oodnadatta Track jest otwarta przez cały rok?",
+          "Formalnie tak, ale po deszczu jest zamykana, a latem upał bywa niebezpieczny. Sezon trwa od kwietnia do października. Sprawdź komunikat o stanie dróg, zanim ruszysz."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "South Australia: trasa Oodnadatta Track"
+        },
+        {
+          "label": "SA Department for Environment and Water: karnet Desert Parks Pass"
+        },
+        {
+          "label": "SA Department for Infrastructure and Transport: warunki na drogach w outbacku"
+        },
+        {
+          "label": "Visit Coober Pedy: trasa Oodnadatta Track"
+        }
+      ],
+      "priceTable": null
+    },
+    "tanami-track-camping-guide": {
+      "title": "Kemping na Tanami Track: z Alice Springs do Halls Creek, paliwo, kempingi i zasady",
+      "description": "Jak jechać Tanami Track między Alice Springs a Halls Creek i gdzie spać: dystans, stan drogi, paliwo, kempingi, zasady na ziemiach aborygeńskich, sezon i Wolfe Creek Crater.",
+      "region": "Terytorium Północne",
+      "imageAlt": "Auto 4WD na czerwonej, pylistej drodze Great Central Road koło Tjukayirla w Australii Zachodniej",
+      "intro": "Tanami Track to skrót przez outback między Alice Springs a Kimberley. Prowadzi około 1 000 kilometrów przez pustynne tereny do Halls Creek i oszczędza długiej pętli przez Darwin lub wzdłuż wybrzeża Australii Zachodniej, a przy tym jest spokojniejsza niż większość dróg w outbacku. Jest też odludna, z niewieloma punktami usług, przepisami obowiązującymi na ziemiach aborygeńskich i szybko zmieniającą się pogodą. Starannie zaplanuj paliwo, rozbijaj się tylko tam, gdzie wolno, i jedź w porze suchej.",
+      "sections": [
+        {
+          "heading": "Trasa w skrócie",
+          "body": [
+            "Droga odchodzi od Stuart Highway na północ od Alice Springs i biegnie na północny zachód przez pustynię Tanami, obok Yuendumu i Rabbit Flat, po czym wjeżdża do <a data-guide=\"camping-rules-western-australia\">Australii Zachodniej</a> i prowadzi przez tereny Billiluna i Balgo, aż do Great Northern Highway koło Halls Creek.",
+            "W porównaniu z długą pętlą przez Darwin to skrót, który dobrze łączy się z Wolfe Creek Crater, Purnululu i Gibb River Road. Zatankuj do pełna w Alice Springs, a każdy kolejny postój z paliwem traktuj jako uzupełnienie."
+          ],
+          "tips": [
+            "Około 1 000 km, nawierzchnia mieszana",
+            "Skrót do Kimberley",
+            "Paliwo i zaopatrzenie w Alice Springs"
+          ],
+          "table": {
+            "caption": "Główne przystanki na Tanami Track.",
+            "head": [
+              "Przystanek",
+              "Co tam jest",
+              "Nocleg",
+              "Na co uważać"
+            ],
+            "rows": [
+              [
+                "Alice Springs",
+                "Pełne usługi i zaopatrzenie",
+                "Caravan parki",
+                "Ostatnie duże zakupy i naprawy"
+              ],
+              [
+                "Tilmouth Well",
+                "Roadhouse i paliwo",
+                "Kemping",
+                "Blisko początku trasy"
+              ],
+              [
+                "Yuendumu",
+                "Społeczność aborygeńska, sklep",
+                "Nie do biwakowania",
+                "Trzymaj się drogi, obowiązują limity alkoholu"
+              ],
+              [
+                "Rabbit Flat",
+                "Roadhouse w sezonie",
+                "Kemping przy roadhouse",
+                "Ograniczone dni otwarcia"
+              ],
+              [
+                "Balgo i Billiluna",
+                "Społeczności z ograniczonymi usługami",
+                "Nie do biwakowania",
+                "Sprawdź paliwo, zanim na nim polegasz"
+              ],
+              [
+                "Halls Creek",
+                "Paliwo, jedzenie, usługi",
+                "Caravan park",
+                "Wolfe Creek Crater jest w pobliżu"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Gdzie spać",
+          "body": [
+            "Zatrzymuj się przy roadhouse’ach i w <a data-guide=\"caravan-park-vs-holiday-park\">caravan parkach</a>, w Tilmouth Well, w sezonie w Rabbit Flat oraz w Halls Creek, a także na oznaczonych miejscach odpoczynku. Nie zjeżdżaj w busz, bo trasa przecina ziemie aborygeńskie, gdzie biwakowanie poza wyznaczonymi miejscami wymaga zezwolenia.",
+            "Wolfe Creek Crater, krótki przejazd na południe od Halls Creek, ma kemping i łatwo tam zboczyć z trasy. Zasady opisuje nasz poradnik o kempingu na ziemiach aborygeńskich."
+          ],
+          "tips": [
+            "Nocuj przy roadhouse’ach i na oznaczonych miejscach",
+            "Nie biwakuj w buszu na ziemiach aborygeńskich",
+            "Kemping przy Wolfe Creek Crater"
+          ]
+        },
+        {
+          "heading": "Stan drogi i pojazd",
+          "body": [
+            "Nawierzchnia to mieszanka odcinków asfaltowych i szutrowych, a szuter bywa wyboisty, z tarką i luźnymi kamieniami. Deszcz zamyka odcinki, więc przed wyjazdem sprawdź komunikat o stanie dróg na Terytorium Północnym i Main Roads <a data-guide=\"camping-rules-western-australia\">Western Australia</a>, a potem jeszcze raz po drodze.",
+            "Wiele umów wynajmu zabrania wjazdu na Tanami, więc potwierdź to na piśmie. Zabierz dwa koła zapasowe, kompresor, zapas wody i komunikator satelitarny lub radio UHF, a gdy nadjeżdża <a data-guide=\"driving-with-road-trains-australia\">road train</a> (ciężarówka z kilkoma naczepami), zjedź daleko na pobocze."
+          ],
+          "tips": [
+            "Sprawdź oba komunikaty o stanie dróg",
+            "Dwa koła zapasowe",
+            "Sprawdź, czy wypożyczalnia na to pozwala"
+          ]
+        },
+        {
+          "heading": "Pora roku, upał i pogoda",
+          "body": [
+            "Sezon trwa od maja do września: dni są ciepłe, a noce chłodne. Latem jest gorąco, a <a data-guide=\"best-time-camping-australia\">pora deszczowa</a> od około grudnia do marca może zamknąć trasę na kilka dni.",
+            "Zaplanuj paliwo na cały odcinek między postojami, zabierz co najmniej 10 litrów wody na osobę dziennie i powiedz komuś o swoim planie. Zasięg telefonu jest ograniczony do społeczności, więc nie polegaj na nim."
+          ],
+          "tips": [
+            "Od maja do września",
+            "10 litrów wody na osobę dziennie",
+            "Ograniczony zasięg telefonu"
+          ]
+        },
+        {
+          "heading": "Pozwolenia i szacunek",
+          "body": [
+            "Główną drogą możesz jechać bez pozwolenia, ale zjechać z niej na ziemie aborygeńskie bez zezwolenia nie wolno, a w wielu społecznościach obowiązują ograniczenia dotyczące alkoholu. Nasz poradnik o alkoholu w outbacku wyjaśnia, jak legalnie go przewozić.",
+            "Trzymaj się drogi, pytaj, zanim zrobisz zdjęcia ludziom lub miejscom, i nie zbieraj pamiątek. Zwolnij w społecznościach, gdzie na drodze mogą być dzieci, psy i ludzie."
+          ],
+          "tips": [
+            "Trzymaj się drogi",
+            "Obowiązują limity alkoholu",
+            "Pytaj, zanim zrobisz zdjęcie"
+          ]
+        },
+        {
+          "heading": "Zaplanuj Tanami Track w AussieCamps",
+          "body": [
+            "W AussieCamps znajdziesz 1 838 kempingów i 745 parków narodowych z agencji parków stanowych oraz 5 552 miejsc odpoczynku od zarządców dróg, a przy każdym miejscu udogodnienia, opłaty i zasady w takiej formie, w jakiej podaje je agencja. Możesz zapisywać miejsca w podróży i sprawdzać odległość jazdy między przystankami, co pokazuje długie odcinki bez paliwa.",
+            "Sprawdź warunki w komunikatach o stanie dróg, zanim ruszysz. AussieCamps działa na urządzeniach iPhone."
+          ],
+          "tips": [
+            "Zobacz odległość między przystankami",
+            "Filtruj według kosztu",
+            "Tylko na iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Jak długa jest Tanami Track?",
+          "Około 1 000 kilometrów od Stuart Highway koło Alice Springs do Halls Creek. Policz od dwóch do trzech dni, a więcej, jeśli zatrzymasz się przy Wolfe Creek Crater lub dodasz Purnululu."
+        ],
+        [
+          "Czy Tanami Track jest asfaltowa?",
+          "Częściowo. Odcinek od strony Terytorium Północnego był asfaltowany etapami, ale długie fragmenty to nadal szuter z tarką i luźnymi kamieniami, a warunki szybko się zmieniają. Przed wyjazdem sprawdź komunikat o stanie dróg."
+        ],
+        [
+          "Czy mogę biwakować wzdłuż Tanami Track?",
+          "Nocuj przy roadhouse’ach, na kempingach i na oznaczonych miejscach odpoczynku. Duża część drogi przecina ziemie aborygeńskie, gdzie biwakowanie poza wyznaczonymi miejscami wymaga zezwolenia, więc nie zjeżdżaj z drogi, żeby rozbić się gdziekolwiek."
+        ],
+        [
+          "Czy do Tanami Track potrzebne jest pozwolenie?",
+          "Na przejazd główną drogą pozwolenie nie jest potrzebne, ale zjechać z niej na ziemie aborygeńskie bez niego nie wolno. W wielu społecznościach po drodze obowiązują ograniczenia dotyczące alkoholu."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "NT Government: raport o stanie dróg"
+        },
+        {
+          "label": "Main Roads Western Australia: warunki na drogach"
+        },
+        {
+          "label": "Central Land Council: pozwolenia na wjazd na ziemie aborygeńskie"
+        },
+        {
+          "label": "Parks and Wildlife Service WA: Wolfe Creek Crater (Kandimalal)"
+        }
+      ],
+      "priceTable": null
+    },
+    "pilbara-camping-beyond-karijini": {
+      "title": "Kemping w Pilbara poza Karijini: Millstream, Cape Keraudren i postoje przy roadhouse’ach",
+      "description": "Gdzie spać w Pilbara poza Karijini: Park Narodowy Millstream Chichester, Cape Keraudren, Port Hedland, Karratha, Marble Bar, roadhouse’y, pora roku i ryzyko cyklonów.",
+      "region": "Australia Zachodnia",
+      "imageAlt": "Przyczepy i namioty pod drzewami i palmami w caravan parku Eighty Mile Beach na północno-zachodnim wybrzeżu Australii Zachodniej",
+      "intro": "Pilbara to nie tylko Karijini. W Parku Narodowym Millstream Chichester są baseny zasilane źródłami wśród czerwonych skał, Cape Keraudren to odludny kemping na wybrzeżu, a miasta takie jak Karratha, Port Hedland i Marble Bar to wygodne bazy między długimi, pustymi odcinkami dróg. Jest tu gorąco, odludnie i dużo ruchu związanego z górnictwem, więc jedź między majem a wrześniem, rezerwuj tam, gdzie się da, i planuj paliwo oraz wodę na każdym postoju.",
+      "sections": [
+        {
+          "heading": "Gdzie spać",
+          "body": [
+            "W Pilbara jest dobry wybór miejsc, od kempingów w parkach narodowych po <a data-guide=\"caravan-park-vs-holiday-park\">caravan parki</a>. Park Narodowy Millstream Chichester koło Karratha ma kempingi blisko basenów i w górach, a Cape Keraudren Nature Reserve na południe od Port Hedland ma kempingi na wybrzeżu Oceanu Indyjskiego.",
+            "Roadhouse’y, takie jak Pardoo i Auski, oraz caravan parki w Karratha, Port Hedland, Newman i Tom Price dają prysznice, prąd i posiłek. Miejsca odpoczynku przy drogach są bezpłatne na jedną lub dwie noce tam, gdzie pozwalają na to znaki."
+          ],
+          "tips": [
+            "Kempingi w parkach i na wybrzeżu",
+            "Caravan parki w miastach",
+            "Miejsca odpoczynku tam, gdzie pozwalają znaki"
+          ],
+          "table": {
+            "caption": "Opcje noclegu w Pilbara poza Karijini.",
+            "head": [
+              "Gdzie",
+              "Koszt",
+              "Rezerwacja",
+              "Główne ograniczenie"
+            ],
+            "rows": [
+              [
+                "Park Narodowy Millstream Chichester",
+                "Opłata parkowa za kemping",
+                "Sprawdź stronę parku",
+                "Podstawowe udogodnienia, latem upał"
+              ],
+              [
+                "Cape Keraudren Nature Reserve",
+                "Opłata za kemping",
+                "Sprawdź stronę parku",
+                "Odkryte miejsce, brak usług"
+              ],
+              [
+                "Caravan parki w Karratha i Port Hedland",
+                "Płatne",
+                "Zalecana",
+                "Tłok od pracowników kopalń"
+              ],
+              [
+                "Pardoo i inne roadhouse’y",
+                "Płatne",
+                "Niepotrzebna",
+                "Podstawowo, paliwo na miejscu"
+              ],
+              [
+                "Miejsca odpoczynku przy drogach",
+                "Bezpłatne",
+                "Brak",
+                "Limity pobytu według znaków"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Millstream i wybrzeże",
+          "body": [
+            "W Parku Narodowym Millstream Chichester jest Python Pool, chłodne kąpielisko pod czerwonymi klifami, oraz baseny Millstream zasilane źródłami na rzece Fortescue. Drogi dojazdowe są w większości szutrowe i przy suchej pogodzie przejezdne zwykłym autem, ale po deszczu sprawdź warunki.",
+            "Na wybrzeżu Cape Keraudren to odludny kemping dla wędkarzy i plażowiczów bez żadnych usług, więc zabierz wodę i wszystko, czego potrzebujesz. Port Hedland i Karratha to ośrodki usługowe, a Cossack, miasto duch koło Karratha, to łatwa wycieczka na pół dnia."
+          ],
+          "tips": [
+            "Python Pool do kąpieli",
+            "Cape Keraudren jest odludne",
+            "Cossack, miasto duch koło Karratha"
+          ]
+        },
+        {
+          "heading": "Marble Bar i miasteczka w głębi lądu",
+          "body": [
+            "Marble Bar uchodzi za jedno z najgorętszych miasteczek w Australii, a w pobliżu są Chinaman Pool i Doolena Gorge. Newman i Tom Price to główne bazy w głębi lądu, z <a data-guide=\"caravan-park-vs-holiday-park\">caravan parkami</a>, paliwem i zaopatrzeniem po drodze do Karijini.",
+            "Odległości są duże, a na drogach jeżdżą <a data-guide=\"driving-with-road-trains-australia\">road trainy</a> (ciężarówki z kilkoma naczepami) i pojazdy górnicze. Zanim ruszysz, przeczytaj nasz poradnik o jeździe wśród road trainów."
+          ],
+          "tips": [
+            "Marble Bar, jeśli lubisz upał",
+            "Newman i Tom Price jako bazy",
+            "Dziel drogę z road trainami"
+          ]
+        },
+        {
+          "heading": "Pora roku, upał i cyklony",
+          "body": [
+            "Sezon trwa od maja do września: dni są ciepłe, a noce chłodne. Latem jest ekstremalnie gorąco, a mniej więcej od listopada do kwietnia w Pilbara mogą wystąpić cyklony i powodzie, które zamykają drogi na kilka dni. Nasz poradnik o sezonie cyklonów i powodzi wyjaśnia, na co zwracać uwagę.",
+            "Zabierz co najmniej 10 litrów wody na osobę dziennie, tankuj w każdym mieście i powiedz komuś, którędy jedziesz. Zasięg telefonu jest dobry w miastach, a poza nimi bywa słaby."
+          ],
+          "tips": [
+            "Od maja do września",
+            "Sezon cyklonów od listopada do kwietnia",
+            "10 litrów wody na osobę dziennie"
+          ]
+        },
+        {
+          "heading": "Paliwo, zaopatrzenie i planowanie",
+          "body": [
+            "Paliwo kupisz w Karratha, Port Hedland, Newman, Tom Price, Marble Bar i w roadhouse’ach przy drogach, ale odległości między miastami są duże. Zakupy spożywcze rób w większych miastach, gdzie ceny są niższe niż w roadhouse’ach.",
+            "Połącz Pilbara z trasą do Broome lub Exmouth, a szerszy obraz znajdziesz w naszych poradnikach o trasie z Perth do Broome i o Karijini."
+          ],
+          "tips": [
+            "Paliwo w każdym mieście",
+            "Zaopatrz się w większych miastach",
+            "Połącz z Broome lub Exmouth"
+          ]
+        },
+        {
+          "heading": "Zaplanuj Pilbara w AussieCamps",
+          "body": [
+            "W AussieCamps znajdziesz 1 838 kempingów i 745 parków narodowych z agencji parków stanowych oraz 5 552 miejsc odpoczynku od zarządców dróg, a przy każdym miejscu udogodnienia, opłaty i zasady w takiej formie, w jakiej podaje je agencja. Możesz filtrować według kosztu, zapisywać miejsca w podróży i sprawdzać odległość jazdy między przystankami, co pokazuje długie odcinki bez paliwa w Pilbara.",
+            "Sprawdź strony parków i warunki na drogach, zanim ruszysz. AussieCamps działa na urządzeniach iPhone."
+          ],
+          "tips": [
+            "Zobacz odległość między przystankami",
+            "Filtruj według kosztu",
+            "Tylko na iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Gdzie można spać w Pilbara poza Karijini?",
+          "W Parku Narodowym Millstream Chichester, w Cape Keraudren na wybrzeżu na południe od Port Hedland, w roadhouse’ach takich jak Pardoo, w caravan parkach w Karratha, Port Hedland i Newman oraz na miejscach odpoczynku przy drogach."
+        ],
+        [
+          "Czy warto odwiedzić Park Narodowy Millstream Chichester?",
+          "Tak. Python Pool i Chinderwarriner Pool to chłodne, zasilane źródłami kąpieliska wśród czerwonych skał, a w parku są kempingi z podstawowymi udogodnieniami. Rezerwacje i warunki na drogach sprawdź na stronie parku."
+        ],
+        [
+          "Kiedy najlepiej biwakować w Pilbara?",
+          "Od maja do września. Latem jest ekstremalnie gorąco, a sezon cyklonów, mniej więcej od listopada do kwietnia, może przynieść powodzie i zamknięcia dróg."
+        ],
+        [
+          "Czy w Pilbara można nocować za darmo?",
+          "Tylko na oznaczonych miejscach odpoczynku, gdzie jest to dozwolone, zwykle przez jedną lub dwie noce. Tereny górnicze i pastwiskowe są prywatne, więc nie zjeżdżaj na nie."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Parks and Wildlife Service WA: Park Narodowy Millstream Chichester"
+        },
+        {
+          "label": "Parks and Wildlife Service WA: Cape Keraudren Nature Reserve"
+        },
+        {
+          "label": "Main Roads Western Australia: warunki na drogach"
+        },
+        {
+          "label": "Australia’s North West: Pilbara"
+        }
+      ],
+      "priceTable": null
+    },
+    "queensland-outback-national-parks-camping": {
+      "title": "Kemping w parkach narodowych outbacku Queensland: Boodjamulla, Currawinya i inne",
+      "description": "Kemping w parkach narodowych w outbacku Queensland: Boodjamulla (Lawn Hill), Currawinya, Carnarvon Gorge, Diamantina i Munga-Thirri, z pozwoleniami, drogami, sezonem i tym, co zabrać.",
+      "region": "Queensland",
+      "imageAlt": "Carnarvon Creek w Carnarvon Gorge",
+      "intro": "Outback Queensland ma jedne z najbardziej satysfakcjonujących kempingów w parkach narodowych w Australii. W Boodjamulla jest turkusowy wąwóz na suchych terenach północnego zachodu, Currawinya skrywa tereny podmokłe i dziką zwierzynę przy granicy z Nową Południową Walią, a Carnarvon Gorge ma ściany z piaskowca i malowidła naskalne. W każdym parku jest kemping, który rezerwuje się przez stanowy system parków, a do tego długie drogi dojazdowe i krótki sezon, więc pozwolenia, paliwo i wodę zaplanuj przed wyjazdem.",
+      "sections": [
+        {
+          "heading": "Parki w skrócie",
+          "body": [
+            "Boodjamulla, zwany też Lawn Hill, leży na północnym zachodzie i ma wąwóz, w którym można pływać kajakiem. Currawinya jest na południowym zachodzie koło Hungerford, Carnarvon Gorge w centralnych wyżynach, a Diamantina i Munga-Thirri na dalekim zachodzie i południowym zachodzie, na pustynnych terenach wokół Birdsville i Bedourie.",
+            "Każdy z parków ma własny charakter i inne warunki na drogach. Wielu odwiedzających łączy dwa lub trzy z nich w dłuższą pętlę przez outback, jadąc między nimi szosami."
+          ],
+          "tips": [
+            "Boodjamulla dla wąwozu",
+            "Currawinya dla terenów podmokłych",
+            "Carnarvon dla pieszych wędrówek"
+          ],
+          "table": {
+            "caption": "Parki narodowe w outbacku Queensland i co warto o nich wiedzieć.",
+            "head": [
+              "Park",
+              "Główna atrakcja",
+              "Drogi",
+              "Na co uważać"
+            ],
+            "rows": [
+              [
+                "Boodjamulla (Lawn Hill)",
+                "Wąwóz, kajaki, skamieniałości",
+                "Częściowo asfalt, na końcu szuter",
+                "Zamykany w porze deszczowej, miejsca szybko się rozchodzą"
+              ],
+              [
+                "Currawinya",
+                "Ptaki, jeziora, bilby",
+                "Szuter, 4WD na bocznych drogach",
+                "Mokre drogi zamieniają się w błoto"
+              ],
+              [
+                "Carnarvon Gorge",
+                "Wędrówki i malowidła naskalne",
+                "Do wąwozu głównie asfalt",
+                "Tłok w czasie ferii szkolnych"
+              ],
+              [
+                "Diamantina",
+                "Rzeki, dzika przyroda, odludzie",
+                "Szuter, zalecane 4WD",
+                "Długie odcinki bez paliwa"
+              ],
+              [
+                "Munga-Thirri (Simpson Desert)",
+                "Wydmy i Big Red",
+                "Tylko 4WD, wymagane pozwolenie",
+                "Zamknięty latem"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Pozwolenia i rezerwacje",
+          "body": [
+            "Pozwolenie na kemping jest wymagane na każdym kempingu w parku narodowym w <a data-guide=\"camping-rules-queensland\">Queensland</a>. Rezerwujesz je online przez stanowy system parków, a pozwolenie wiąże się z niewielką opłatą od osoby, płatną z góry. W odległych parkach często nie ma zasięgu telefonu, więc zarezerwuj, zanim wyjedziesz z miasta, gdzie jest sygnał.",
+            "Popularne parki, takie jak Boodjamulla i Carnarvon Gorge, zapełniają się w czasie ferii szkolnych i w chłodniejszych miesiącach, więc rezerwuj z wyprzedzeniem. Szersze zasady znajdziesz w naszym poradniku o przepisach kempingowych w Queensland."
+          ],
+          "tips": [
+            "Rezerwuj każdy kemping",
+            "Płać z góry",
+            "Rezerwuj, zanim stracisz zasięg"
+          ]
+        },
+        {
+          "heading": "Drogi, pojazd i paliwo",
+          "body": [
+            "Główne szosy są asfaltowe, ale drogi do parków to często szuter, który po deszczu zamienia się w błoto. Przed wyjazdem sprawdź komunikat o drogach QLDTraffic i alerty parku, i bądź gotów zostać na miejscu, jeśli zacznie padać.",
+            "Tankuj do pełna w każdym mieście, zabierz zapasowe paliwo do odległych parków i co najmniej dwa koła zapasowe na szuter. Wiele umów wynajmu zabrania jazdy po drogach nieutwardzonych, więc potwierdź swoją na piśmie."
+          ],
+          "tips": [
+            "Sprawdź QLDTraffic i alerty parku",
+            "Paliwo w każdym mieście",
+            "Sprawdź, czy wypożyczalnia pozwala na szuter"
+          ]
+        },
+        {
+          "heading": "Pora roku, upał i woda",
+          "body": [
+            "Sezon trwa od kwietnia do października: dni są ciepłe, a noce chłodne. Latem jest bardzo gorąco, regularnie powyżej 40 stopni, a <a data-guide=\"best-time-camping-australia\">pora deszczowa</a> od około grudnia do marca może zamknąć drogi i parki.",
+            "Zabierz co najmniej 10 litrów wody na osobę dziennie, a każdą wodę, którą nabierzesz, uzdatnij lub przegotuj. Powiedz komuś, którędy jedziesz i kiedy wrócisz."
+          ],
+          "tips": [
+            "Od kwietnia do października",
+            "10 litrów wody na osobę dziennie",
+            "Powiedz komuś, którędy jedziesz"
+          ]
+        },
+        {
+          "heading": "Łączenie parków i miasteczek w outbacku",
+          "body": [
+            "Łącz parki z miastami po drodze. Longreach, Winton i Mount Isa mają caravan parki i kempingi prowadzone przez samorządy (council camps), a nasz poradnik o <a data-guide=\"is-free-camping-legal-australia\">darmowych noclegach</a> w outbacku Queensland pokazuje, gdzie spać między parkami.",
+            "Na dłuższą pętlę Savannah Way i Outback Way w <a data-guide=\"camping-rules-queensland\">Queensland</a> łączą parki na północnym zachodzie i w centrum kraju oraz wiodą do szos prowadzących na wybrzeże."
+          ],
+          "tips": [
+            "Kempingi samorządowe między parkami",
+            "Połączenie z Savannah Way",
+            "Queensland Outback Way"
+          ]
+        },
+        {
+          "heading": "Zaplanuj outback w AussieCamps",
+          "body": [
+            "W AussieCamps znajdziesz 1 838 kempingów i 745 parków narodowych z agencji parków stanowych oraz 5 552 miejsc odpoczynku od zarządców dróg, a przy każdym miejscu udogodnienia, opłaty i zasady w takiej formie, w jakiej podaje je agencja. Możesz filtrować według kosztu, zapisywać miejsca w podróży i sprawdzać odległość jazdy między przystankami, co pokazuje długie odcinki bez paliwa.",
+            "Zarezerwuj pozwolenie i sprawdź warunki na drogach na stronie stanowych parków, zanim ruszysz. AussieCamps działa na urządzeniach iPhone."
+          ],
+          "tips": [
+            "Filtruj według kosztu",
+            "Zapisuj miejsca w podróży",
+            "Tylko na iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Czy w parkach narodowych w Queensland trzeba rezerwować kemping?",
+          "Tak. Pozwolenie na kemping jest wymagane na każdym kempingu w parku narodowym w Queensland i rezerwuje się je online przez stanowy system parków. W odległych parkach zasięg telefonu bywa słaby, więc zarezerwuj, zanim opuścisz miasto."
+        ],
+        [
+          "Które parki narodowe w outbacku Queensland są najlepsze na kemping?",
+          "Boodjamulla (Lawn Hill) ze względu na wąwóz i kajaki, Carnarvon Gorge na wędrówki i malowidła naskalne, Currawinya dla ptaków i terenów podmokłych, a Diamantina i Munga-Thirri dla odległych terenów pustynnych."
+        ],
+        [
+          "Czy do parków narodowych w outbacku Queensland potrzebne jest auto 4WD?",
+          "W Carnarvon Gorge i Boodjamulla przy suchej pogodzie często wystarczy auto 2WD, ale po deszczu drogi zamieniają się w błoto. Do Diamantina, Munga-Thirri i bocznych dróg Currawinya potrzebne jest auto 4WD z wysokim zawieszeniem."
+        ],
+        [
+          "Kiedy najlepiej jechać na kemping do parków w outbacku Queensland?",
+          "Od kwietnia do października. Latem jest bardzo gorąco, a pora deszczowa, mniej więcej od grudnia do marca, może odciąć drogi i zamknąć parki, w tym Munga-Thirri, który latem jest zamknięty."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Queensland Parks and Forests: kemping i pozwolenia"
+        },
+        {
+          "label": "Queensland Parks and Forests: Park Narodowy Boodjamulla"
+        },
+        {
+          "label": "QLDTraffic: warunki na drogach"
+        },
+        {
+          "label": "Tourism and Events Queensland: outback Queensland"
         }
       ],
       "priceTable": null
