@@ -88,7 +88,7 @@ export const noteSource = () => Object.fromEntries(Object.entries(stateNotes).fl
 
 /** States that share a land border, for links to the same kind of hub next door. Tasmania has none. */
 export const neighbours: Record<string, string[]> = {
-  NSW: ["QLD", "VIC", "SA", "ACT"], VIC: ["NSW", "SA"], QLD: ["NSW", "NT", "SA"], SA: ["WA", "NT", "QLD", "NSW", "VIC"],
+  NSW: ["QLD", "VIC", "SA", "ACT", "two-week-campervan-itinerary-sydney-brisbane"], VIC: ["NSW", "SA"], QLD: ["NSW", "NT", "SA"], SA: ["WA", "NT", "QLD", "NSW", "VIC"],
   WA: ["NT", "SA"], NT: ["WA", "SA", "QLD"], TAS: [], ACT: ["NSW"],
 };
 
@@ -99,7 +99,7 @@ export const neighbours: Record<string, string[]> = {
 const stateGuides: Record<string, string[]> = {
   NSW: ["free-camping-new-south-wales", "blue-mountains-camping-weekend", "australia-three-week-campervan-route", "sydney-south-coast-camping", "australian-alps-camping-route", "east-coast-road-trip-sydney-cairns", "sydney-to-canberra-drive", "sydney-to-melbourne-drive", "brisbane-to-sydney-drive", "brisbane-to-adelaide-drive", "sydney-to-byron-bay-drive", "sydney-to-gold-coast-drive", "brisbane-to-coffs-harbour-drive", "sydney-to-dubbo-drive"],
   VIC: ["free-camping-victoria", "great-ocean-road-camping-guide", "australia-three-week-campervan-route", "victoria-high-country-camping", "melbourne-to-adelaide-coastal-route", "australian-alps-camping-route", "melbourne-to-mildura-drive", "sydney-to-melbourne-drive", "melbourne-to-perth-drive"],
-  QLD: ["free-camping-queensland", "brisbane-to-cape-tribulation", "cyclone-flood-season-camping-australia", "sunshine-coast-hinterland-camping", "queensland-outback-way", "brisbane-to-cairns-drive", "townsville-to-mount-isa-drive", "brisbane-to-byron-bay-drive", "brisbane-to-darwin-drive", "brisbane-to-adelaide-drive", "brisbane-to-airlie-beach-drive", "sydney-to-gold-coast-drive", "brisbane-to-coffs-harbour-drive"],
+  QLD: ["free-camping-queensland", "brisbane-to-cape-tribulation", "cyclone-flood-season-camping-australia", "sunshine-coast-hinterland-camping", "queensland-outback-way", "brisbane-to-cairns-drive", "townsville-to-mount-isa-drive", "brisbane-to-byron-bay-drive", "brisbane-to-darwin-drive", "brisbane-to-adelaide-drive", "brisbane-to-airlie-beach-drive", "sydney-to-gold-coast-drive", "brisbane-to-coffs-harbour-drive", "two-week-campervan-itinerary-sydney-brisbane"],
   NT: ["darwin-kakadu-litchfield-loop", "red-centre-way-camping", "wet-season-camping-top-end-northern-wa", "cyclone-flood-season-camping-australia", "darwin-to-alice-springs-drive", "alice-springs-to-uluru-drive", "cairns-to-darwin-drive", "perth-to-darwin-drive", "brisbane-to-darwin-drive"],
   WA: ["free-camping-western-australia", "perth-to-broome-road-trip", "south-west-wa-camping-loop", "gibb-river-road-camping", "wet-season-camping-top-end-northern-wa", "perth-to-exmouth-drive", "broome-to-darwin-drive", "melbourne-to-perth-drive", "perth-to-darwin-drive", "perth-to-esperance-drive"],
   SA: ["free-camping-south-australia", "flinders-ranges-camping-guide", "australia-three-week-campervan-route", "kangaroo-island-camping-guide", "adelaide-to-uluru-road-trip", "nullarbor-crossing-camping-guide", "adelaide-to-port-lincoln-drive", "adelaide-to-melbourne-drive", "melbourne-to-perth-drive", "brisbane-to-adelaide-drive", "riverland-murray-river-camping-south-australia", "fleurieu-peninsula-camping"],
