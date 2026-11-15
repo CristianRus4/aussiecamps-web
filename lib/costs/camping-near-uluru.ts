@@ -15,7 +15,7 @@ export default article({
   places: ["Uluru", "Kata Tjuta", "Yulara", "Curtin Springs", "Erldunda"],
   imageAlt: "A straight sealed stretch of the Lasseter Highway running through red-soil scrub in central Australia, with two 100 km/h signs",
   intro: "Uluru is the one place where you cannot camp for free and rarely want to. Camping inside Uluru-Kata Tjuta National Park is not allowed, the only camp in the area is at Yulara, and everything else is a roadhouse an hour or more down the highway. Book your night at Ayers Rock Campground well ahead in the dry season, buy a park pass, and plan the days around sunrise and sunset, the base walk and Kata Tjuta.",
-  related: ["alice-springs-to-uluru-drive", "adelaide-to-uluru-road-trip", "red-centre-way-camping", "can-i-camp-on-aboriginal-land-without-a-permit", "camping-rules-northern-territory"],
+  related: ["alice-springs-to-uluru-drive", "adelaide-to-uluru-road-trip", "red-centre-way-camping", "can-i-camp-on-aboriginal-land-without-a-permit", "camping-rules-northern-territory", "camping-in-alice-springs"],
   sections: [
     section("Why you cannot camp in the park", ["Uluru-Kata Tjuta National Park is owned by the Anangu traditional owners and jointly managed with Parks Australia. Camping, fires and driving off the road are not allowed inside it. Rangers patrol, and the fines are heavy.", "The accommodation is at Yulara, a small resort village about 20 kilometres from the rock, so the camp, the shops and the fuel are all in one place."], ["No camping in the park", "Yulara is the base", "Rangers patrol"], {
       caption: "Where to stay for Uluru and what it costs.",
