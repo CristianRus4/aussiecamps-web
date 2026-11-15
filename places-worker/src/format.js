@@ -50,13 +50,13 @@ export function drivingTime(seconds) {
 }
 
 /** The stats under the page's name, [label, value]: a trip's dates, stops, distance and driving time (each only
- * when the app sent it), a collection's places. A zero distance or time is left out. */
+ * when the app sent it), a collection's places. A distance under 0.1 km or a zero time is left out. */
 export function stats(link) {
   if (link.kind !== "trip") return [["Places", String(items(link).length)]];
   return [
     ["Dates", dateRange(link.sd, link.ed)],
     ["Stops", String(items(link).length)],
-    ["Distance", link.dist > 0 ? distance(link.dist) : ""],
+    ["Distance", link.dist >= 50 ? distance(link.dist) : ""],
     ["Driving", link.dur > 0 ? drivingTime(link.dur) : ""],
   ].filter(([, value]) => value);
 }
@@ -65,7 +65,7 @@ export const statsHtml = (link) => stats(link).map(([label, value]) => `<div><dt
 /** The link preview's description: "6 stops · 1,240 km · 3–9 Dec", "12 places". */
 export const previewLine = (link) => [
   counted(link),
-  link.kind === "trip" && link.dist > 0 ? distance(link.dist) : "",
+  link.kind === "trip" && link.dist >= 50 ? distance(link.dist) : "",
   link.kind === "trip" ? dateRange(link.sd, link.ed, false) : "",
 ].filter(Boolean).join(" · ");
 
