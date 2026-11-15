@@ -669,7 +669,7 @@ em { color: inherit; font: inherit; font-style: normal; }
 .pl-header h1 { max-width: 920px; margin: 0 0 10px; font-size: clamp(36px, 4.6vw, 60px); letter-spacing: -0.03em; line-height: 1.04; }
 .pl-meta { margin: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 14px; color: var(--muted); font-size: 15px; }
 .pl-stars { display: inline-flex; gap: 2px; }
-.pl-stars svg { width: 18px; height: 18px; color: #cfa53a; }
+.pl-stars svg { width: 18px; height: 18px; color: #e3b341; }
 .pl-stars svg.on { fill: #e3b341; color: #e3b341; }
 /* A half star: the empty outline with a full star over it, clipped to its left half. */
 .pl-star-half { position: relative; display: inline-flex; }
@@ -750,8 +750,24 @@ a.trip-stop-title:hover { text-decoration: underline; }
 .trip-stop-body small { color: var(--muted); font-size: 13px; }
 .trip-stop-note { margin: 4px 0 0; color: var(--muted); font-size: 15px; line-height: 1.6; white-space: pre-line; overflow-wrap: anywhere; }
 /* /trip/<id> and /collection/<id>: a live link's page, filled in by the Cloudflare Worker (app/link-shell/page.tsx).
-   Its rows are the place lists' rows with a stop number (trip) or a dot (collection) in front. */
-.sl-page .pl-map { margin: 0; }
+   The Worker sets the link's colour and its ink on the article; the badge, the stop numbers and the map's dots
+   use them. Its rows are the place lists' rows, a trip's with the stop number in front. */
+.sl-page { --sl-col: #30a46c; --sl-ink: #ffffff; }
+.sl-page .pl-map { margin: 0; --fern: var(--sl-col); }
+.sl-title { margin-bottom: 18px; display: flex; align-items: center; gap: 18px; }
+.sl-title h1 { min-width: 0; margin: 0; overflow-wrap: anywhere; }
+.sl-badge { width: 60px; height: 60px; flex: none; display: inline-flex; align-items: center; justify-content: center; background: var(--sl-col); color: var(--sl-ink); }
+.sl-badge[hidden] { display: none; }
+.sl-badge svg { width: 30px; height: 30px; }
+.sl-stats { margin: 0; display: flex; flex-wrap: wrap; gap: 12px 36px; }
+.sl-stats:empty { display: none; }
+.sl-stats div { display: flex; flex-direction: column; gap: 2px; }
+.sl-stats dt { color: var(--muted); font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+.sl-stats dd { margin: 0; font-size: 18px; font-weight: 650; font-variant-numeric: tabular-nums; }
+.sl-error { padding-bottom: 30px; }
+.sl-error .trip-status { padding: 0 0 6px; }
+.sl-contact { margin: 0; color: var(--muted); font-size: 15px; }
+.sl-contact a { color: var(--fern); font-weight: 650; text-decoration: underline; text-underline-offset: 3px; }
 .sl-list { margin-top: 14px; }
 .sl-list .sl-plain > div { padding: 12px 4px; display: flex; align-items: center; gap: 16px; }
 .sl-list .sl-plain > div > span:last-child { min-width: 0; flex: 1; display: flex; flex-direction: column; gap: 2px; }
@@ -760,8 +776,7 @@ a.trip-stop-title:hover { text-decoration: underline; }
 .sl-list .sl-pin::after { content: ""; position: absolute; inset: 0; margin: auto; width: 24px; height: 24px; background: var(--muted); opacity: .7;
   -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0'/%3E%3Ccircle cx='12' cy='10' r='3'/%3E%3C/svg%3E") center / contain no-repeat;
   mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0'/%3E%3Ccircle cx='12' cy='10' r='3'/%3E%3C/svg%3E") center / contain no-repeat; }
-.sl-num { width: 28px; height: 28px; flex: none; margin-inline-end: -4px; background: var(--deep); color: white; display: inline-flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 750; font-variant-numeric: tabular-nums; }
-.sl-dot { width: 10px; height: 10px; flex: none; margin-inline: 4px 0; background: var(--fern); }
+.sl-num { width: 28px; height: 28px; flex: none; margin-inline-end: -4px; background: var(--sl-col); color: var(--sl-ink); display: inline-flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 750; font-variant-numeric: tabular-nums; }
 .sl-list .pl-row-tag .sl-star { color: #e3b341; font-style: normal; }
 .pl-search { max-width: 760px; margin-bottom: 18px; }
 .pl-search-field { position: relative; }
@@ -873,6 +888,11 @@ a.trip-stop-title:hover { text-decoration: underline; }
   .pl-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .sl-list a, .sl-list .sl-plain > div { gap: 12px; }
   .sl-list img, .sl-list .sl-pin { width: 56px; height: 56px; }
+  .sl-title { gap: 14px; }
+  .sl-badge { width: 46px; height: 46px; }
+  .sl-badge svg { width: 24px; height: 24px; }
+  .sl-stats { gap: 10px 26px; }
+  .sl-stats dd { font-size: 16px; }
 }
 @media (prefers-color-scheme: dark) {
   .pl-main p { color: #b7beb3; }
@@ -882,6 +902,5 @@ a.trip-stop-title:hover { text-decoration: underline; }
   }
   .pl-map { background: var(--soft); }
   .pl-map .maplibregl-ctrl-group .maplibregl-ctrl-icon { filter: invert(1); }
-  .sl-num { background: var(--ink); color: var(--deep); }
 }
 .store-button:focus-visible { outline: 2px solid var(--eucalyptus); outline-offset: 2px; }

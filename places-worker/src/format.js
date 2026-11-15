@@ -1,8 +1,11 @@
 /**
- * The text and markup of a live link's page (src/link-page.js): dates, the header's and the preview's lines,
- * the list's rows and the map's data. Plain functions, so the tests run them in Node. Everything from the
- * link (names, titles) is escaped; links and image URLs only ever come from the place cards the build writes.
+ * The text and markup of a live link's page (src/link-page.js): dates, the stats under the name, the preview's
+ * line, the badge, the list's rows and the map's data. Plain functions, so the tests run them in Node. Everything
+ * from the link (names, titles) is escaped; links and image URLs only ever come from the place cards the build
+ * writes, icons only from the symbols table and colours only as 6 hex digits.
  */
+import { SYMBOLS } from "./symbols.js";
+
 const DAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 const PLACE_PAGE = /^\/places\/[a-z0-9-]+\/[a-z0-9-]+\/$/;
@@ -33,10 +36,60 @@ const count = (n, one, many) => `${n} ${n === 1 ? one : many}`;
 const items = (link) => (link.kind === "trip" ? link.s : link.p) ?? [];
 const counted = (link) => (link.kind === "trip" ? count(items(link).length, "stop", "stops") : count(items(link).length, "place", "places"));
 
-/** The line under the page's name: "3–9 Dec 2027 · 6 stops", "12 places". */
-export const headerLine = (link) => [link.kind === "trip" ? dateRange(link.sd, link.ed) : "", counted(link)].filter(Boolean).join(" · ");
-/** The link preview's description: "6 stops · 3–9 Dec", "12 places". */
-export const previewLine = (link) => [counted(link), link.kind === "trip" ? dateRange(link.sd, link.ed, false) : ""].filter(Boolean).join(" · ");
+/** Metres as "1,240 km", or with one decimal under 10 km ("8.4 km"). */
+export function distance(metres) {
+  const km = metres / 1000;
+  return km < 10 ? `${(Math.round(km * 10) / 10).toFixed(1).replace(/\.0$/, "")} km` : `${Math.round(km).toLocaleString("en-US")} km`;
+}
+
+/** Seconds as "14 h 30 min", "3 h" or "45 min" (at least 1 min). */
+export function drivingTime(seconds) {
+  const minutes = Math.max(1, Math.round(seconds / 60));
+  const h = Math.floor(minutes / 60), m = minutes % 60;
+  return [h ? `${h} h` : "", m ? `${m} min` : ""].filter(Boolean).join(" ");
+}
+
+/** The stats under the page's name, [label, value]: a trip's dates, stops, distance and driving time (each only
+ * when the app sent it), a collection's places. A zero distance or time is left out. */
+export function stats(link) {
+  if (link.kind !== "trip") return [["Places", String(items(link).length)]];
+  return [
+    ["Dates", dateRange(link.sd, link.ed)],
+    ["Stops", String(items(link).length)],
+    ["Distance", link.dist > 0 ? distance(link.dist) : ""],
+    ["Driving", link.dur > 0 ? drivingTime(link.dur) : ""],
+  ].filter(([, value]) => value);
+}
+export const statsHtml = (link) => stats(link).map(([label, value]) => `<div><dt>${label}</dt><dd>${escapeHtml(value)}</dd></div>`).join("");
+
+/** The link preview's description: "6 stops · 1,240 km · 3–9 Dec", "12 places". */
+export const previewLine = (link) => [
+  counted(link),
+  link.kind === "trip" && link.dist > 0 ? distance(link.dist) : "",
+  link.kind === "trip" ? dateRange(link.sd, link.ed, false) : "",
+].filter(Boolean).join(" · ");
+
+export const COLOURS = ["30A46C", "3478F6", "0FA5B5", "8B5CF6", "EC4899", "EF4444", "F59E0B", "8B6B4A"];
+const DARK_INK = "#172012";
+const linear = (channel) => { const c = channel / 255; return c <= 0.04045 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4; };
+/** White on the colour when it reaches 3:1 (icons and bold numbers), else the dark ink (amber, teal). */
+export function inkOn(hex) {
+  const [r, g, b] = [0, 2, 4].map((i) => linear(parseInt(hex.slice(i, i + 2), 16)));
+  return 1.05 / (0.2126 * r + 0.7152 * g + 0.0722 * b + 0.05) >= 3 ? "#ffffff" : DARK_INK;
+}
+
+/** The link's colour, its ink and its icon: only 6 hex digits and symbols from the table get through; anything
+ * else is the default (green, a car for a trip, a folder for a collection). */
+export function look(link) {
+  const colour = typeof link.col === "string" && /^[0-9A-Fa-f]{6}$/.test(link.col) ? link.col.toUpperCase() : COLOURS[0];
+  const fallback = link.kind === "trip" ? "car.fill" : "folder.fill";
+  const icon = Object.hasOwn(SYMBOLS, link.sym) ? SYMBOLS[link.sym] : SYMBOLS[fallback];
+  return { colour: `#${colour}`, ink: inkOn(colour), icon };
+}
+/** The page's style attribute: the colour and its ink as custom properties for the badge, numbers and map. */
+export const lookStyle = (link) => { const { colour, ink } = look(link); return `--sl-col:${colour};--sl-ink:${ink}`; };
+/** The badge's icon. */
+export const badgeIcon = (link) => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${look(link).icon}</svg>`;
 
 /** A card from the build is used only if its page path and photo look right. */
 export function usableCard(card) {
@@ -46,7 +99,8 @@ export function usableCard(card) {
 }
 
 const PIN = '<span class="sl-pin" aria-hidden="true"></span>';
-const marker = (kind, index) => (kind === "trip" ? `<b class="sl-num">${index + 1}</b>` : '<i class="sl-dot" aria-hidden="true"></i>');
+/** A trip's rows start with the stop's number; a collection's with nothing. */
+const marker = (kind, index) => (kind === "trip" ? `<b class="sl-num">${index + 1}</b>` : "");
 /** A rating tag "★ 4.5" gets its star in gold (.sl-star); a fee label stays plain. */
 const tag = (g) => (g ? `<em class="pl-row-tag">${g.startsWith("★") ? `<i class="sl-star">★</i>${escapeHtml(g.slice(1))}` : escapeHtml(g)}</em>` : "");
 

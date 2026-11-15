@@ -1,6 +1,9 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { dateRange, escapeHtml, headerLine, mapData, previewImage, previewLine, rows, stopDate, usableCard } from "../places-worker/src/format.js";
+import { readFileSync } from "node:fs";
+import { badgeIcon, COLOURS, dateRange, distance, drivingTime, escapeHtml, inkOn, look, lookStyle, mapData, previewImage, previewLine, rows, stats, statsHtml, stopDate, usableCard } from "../places-worker/src/format.js";
+import { SYMBOLS } from "../places-worker/src/symbols.js";
+import { SYMBOL_ICONS, SYMBOLS_FILE, symbolsSource } from "../scripts/link-symbols.mjs";
 import { clientKey } from "../places-worker/src/index.js";
 import { sameHash } from "../places-worker/src/links-api.js";
 import { isDay, validateLink } from "../places-worker/src/validate.js";
@@ -9,7 +12,7 @@ const trip = (extra = {}, stop = {}) => ({ v: 1, kind: "trip", n: "Tassie loop",
 const reason = (body) => validateLink(body).error;
 
 test("accepts a full trip and a full collection, and keeps their fields", () => {
-  const full = trip({ sym: "tent.fill", col: "A1B2c3", u: "2026-11-15T03:04:05Z" });
+  const full = trip({ sym: "tent.fill", col: "A1B2c3", dist: 1240000.5, dur: 52200, u: "2026-11-15T03:04:05Z" });
   assert.deepEqual(validateLink(full).value, full);
   const collection = { v: 1, kind: "collection", n: "Beaches", sym: "star", col: "000000", u: "2026-11-15T03:04:05.123+13:00", p: [{ t: "A", id: "bookit:100664", la: 0, lo: 0 }, { t: "Pin", la: 90, lo: -180 }] };
   assert.deepEqual(validateLink(collection).value, collection);
@@ -56,6 +59,14 @@ test("limits lengths and counts", () => {
   assert.match(reason({ v: 1, kind: "collection", n: "A", p: Array(501).fill(stop) }), /more than 500/);
 });
 
+test("checks a trip's distance and driving time", () => {
+  for (const [dist, dur] of [[0, 0], [20_000_000, 10_000_000], [1.5, 0.25]]) assert.equal(validateLink(trip({ dist, dur })).error, undefined);
+  for (const dist of [-1, 20_000_001, "100", null, Infinity, NaN]) assert.match(reason(trip({ dist })), /dist/);
+  for (const dur of [-0.5, 10_000_001, "60", true]) assert.match(reason(trip({ dur })), /dur/);
+  assert.match(reason({ v: 1, kind: "collection", n: "A", dist: 10 }), /unknown key dist/);
+  assert.match(reason({ v: 1, kind: "collection", n: "A", dur: 10 }), /unknown key dur/);
+});
+
 test("checks coordinates", () => {
   for (const la of [90.0001, -91, Infinity, NaN]) assert.match(reason(trip({}, { la })), /la/);
   for (const lo of [180.5, -181, -Infinity]) assert.match(reason(trip({}, { lo })), /lo/);
@@ -91,12 +102,42 @@ test("formats dates for the rows, the header and the preview", () => {
   assert.equal(dateRange("2027-12-03", undefined), "3 Dec 2027");
   assert.equal(dateRange(undefined, "2027-12-09", false), "9 Dec");
   assert.equal(dateRange(), "");
-  const six = trip({ s: Array(6).fill({ t: "A", la: 0, lo: 0 }) });
-  assert.equal(headerLine(six), "3–9 Dec 2027 · 6 stops");
-  assert.equal(previewLine(six), "6 stops · 3–9 Dec");
+  const six = trip({ s: Array(6).fill({ t: "A", la: 0, lo: 0 }), dist: 1_240_400, dur: 52_200 });
+  assert.deepEqual(stats(six), [["Dates", "3–9 Dec 2027"], ["Stops", "6"], ["Distance", "1,240 km"], ["Driving", "14 h 30 min"]]);
+  assert.equal(previewLine(six), "6 stops · 1,240 km · 3–9 Dec");
+  assert.deepEqual(stats(trip({ sd: undefined, ed: undefined, dist: 0, dur: 0 })), [["Stops", "1"]]);
   assert.equal(previewLine(trip({ sd: undefined, ed: undefined })), "1 stop");
-  assert.equal(headerLine({ kind: "collection", p: Array(12).fill({}) }), "12 places");
+  assert.deepEqual(stats({ kind: "collection", p: Array(12).fill({}) }), [["Places", "12"]]);
   assert.equal(previewLine({ kind: "collection", p: [{}] }), "1 place");
+  assert.equal(statsHtml({ kind: "collection", p: [] }), "<div><dt>Places</dt><dd>0</dd></div>");
+});
+
+test("formats distances and driving times", () => {
+  assert.equal(distance(1_240_400), "1,240 km");
+  assert.equal(distance(12_345_678), "12,346 km");
+  assert.equal(distance(8_420), "8.4 km");
+  assert.equal(distance(5_000), "5 km");
+  assert.equal(distance(9_990), "10 km");
+  assert.equal(drivingTime(52_200), "14 h 30 min");
+  assert.equal(drivingTime(2_700), "45 min");
+  assert.equal(drivingTime(10_800), "3 h");
+  assert.equal(drivingTime(10), "1 min");
+});
+
+test("draws only known symbols and 6-digit colours, with readable ink", () => {
+  assert.deepEqual(Object.keys(SYMBOLS), Object.keys(SYMBOL_ICONS));
+  assert.equal(look({ kind: "trip", sym: "figure.hiking", col: "f59e0b" }).icon, SYMBOLS["figure.hiking"]);
+  assert.equal(look({ kind: "trip", sym: "toString" }).icon, SYMBOLS["car.fill"]);
+  assert.equal(look({ kind: "collection", sym: "x.fill" }).icon, SYMBOLS["folder.fill"]);
+  assert.equal(look({ kind: "collection" }).colour, "#30A46C");
+  assert.equal(lookStyle({ kind: "trip", col: "F59E0B" }), "--sl-col:#F59E0B;--sl-ink:#172012");
+  assert.equal(lookStyle({ kind: "trip", col: '"><x' }), "--sl-col:#30A46C;--sl-ink:#ffffff");
+  assert.deepEqual(COLOURS.map(inkOn), ["#ffffff", "#ffffff", "#172012", "#ffffff", "#ffffff", "#ffffff", "#172012", "#ffffff"]);
+  assert.ok(badgeIcon({ kind: "trip" }).startsWith('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"'));
+});
+
+test("the symbols table matches lucide", async () => {
+  assert.equal(readFileSync(SYMBOLS_FILE, "utf8"), await symbolsSource(), "run npm run links:symbols");
 });
 
 const card = usableCard({ n: "Perkins & Flat", h: "/places/new-south-wales/perkins-flat/", i: "https://x.example/a.jpg", s: "Campground · High Plains · New South Wales", g: "★ 4.5", o: "https://x.example/b.jpg", ty: "campground" });
@@ -119,8 +160,7 @@ test("writes rows and map data, escaping the link's text", () => {
   assert.equal(html.split("<li").length - 1, 3);
   assert.ok(html.startsWith('<li><a href="/places/new-south-wales/perkins-flat/"><b class="sl-num">1</b><img src="https://x.example/a.jpg" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"><span><strong>Perkins &amp; Flat</strong><small>Fri 3 Dec · Campground · High Plains · New South Wales</small></span><em class="pl-row-tag"><i class="sl-star">★</i> 4.5</em></a></li>'));
   assert.ok(html.includes('<li class="sl-plain"><div><b class="sl-num">2</b><span class="sl-pin" aria-hidden="true"></span><span><strong>&lt;script&gt;alert(1)&lt;/script&gt;&quot;&#39;&amp;</strong></span></div></li>'));
-  const dots = rows({ kind: "collection", p: [{ t: "A", la: 0, lo: 0 }] }, cards);
-  assert.ok(dots.includes('<i class="sl-dot" aria-hidden="true"></i>'));
+  assert.equal(rows({ kind: "collection", p: [{ t: "A", la: 0, lo: 0 }] }, cards), '<li class="sl-plain"><div><span class="sl-pin" aria-hidden="true"></span><span><strong>A</strong></span></div></li>');
   assert.equal(rows({ kind: "collection", p: [{ t: "A", id: "AU1", la: 0, lo: 0 }] }, new Map([["AU1", { ...card, i: "", g: "Free" }]])).includes('<span class="sl-pin" aria-hidden="true"></span><span><strong>Perkins &amp; Flat</strong><small>Campground · High Plains · New South Wales</small></span><em class="pl-row-tag">Free</em>'), true);
   assert.deepEqual(JSON.parse(mapData(link, cards)), { p: [[150.631, -33.93], [2, 1], [2, 1.001]], l: [["Perkins & Flat", "new-south-wales/perkins-flat", 0], [evil, "", -1], ["Pin", "", -1]], t: ["Campground"] });
   assert.ok(!/[<>&']/.test(mapData(link, cards)), "the map JSON carries < > & ' as \\u escapes");

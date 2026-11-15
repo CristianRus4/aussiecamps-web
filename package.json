@@ -20,6 +20,7 @@
     "places:links": "node scripts/place-links.mjs",
     "places:worker": "NODE_ENV=production tsx scripts/export-place-pages.tsx --out worker-dist",
     "links:assets": "tsx scripts/export-link-assets.tsx",
+    "links:symbols": "node scripts/link-symbols.mjs",
     "seo:audit": "tsx scripts/audit-seo.mjs",
     "schema:check": "node scripts/check-structured-data.mjs",
     "indexnow": "tsx scripts/indexnow.mjs",

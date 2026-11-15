@@ -63,17 +63,24 @@ passes through to GitHub Pages.
 
 - The first PUT claims the id: it stores the SHA-256 of the token with the link, as a conditional create, so
   of two racing creators only one wins. Later PUTs and DELETEs must bring the same token.
-- Body: trip `{"v":1,"kind":"trip","n","sym","col","sd","ed","u","s":[{"t","id","la","lo","d"}]}` (≤ 300
+- Body: trip `{"v":1,"kind":"trip","n","sym","col","sd","ed","dist","dur","u","s":[{"t","id","la","lo","d"}]}` (≤ 300
   stops), collection `{"v":1,"kind":"collection","n","sym","col","u","p":[{"t","id","la","lo"}]}` (≤ 500
-  places). Unknown keys are refused; every limit is in places-worker/src/validate.js.
+  places). Unknown keys are refused; every limit is in places-worker/src/validate.js. A trip's optional `dist`
+  is its total driving distance in metres (a finite number, 0–20,000,000) and `dur` its total driving time in
+  seconds (0–10,000,000). `col` is 6 hex digits (the app's colours: 30A46C, the default, 3478F6 0FA5B5 8B5CF6
+  EC4899 EF4444 F59E0B 8B6B4A) and `sym` an SF Symbol name; the page draws each symbol with the closest lucide
+  icon (places-worker/src/symbols.js, made by `npm run links:symbols`), and an unknown one as the default (car.fill
+  for a trip, folder.fill for a collection).
 - Rate limits per client (an IPv4 address, or an IPv6 /64): 30 writes and 300 reads (API and pages) a minute, then 429 with `Retry-After: 60`.
   Other methods get 405.
 - Storage: the R2 bucket `aussiecamps-links` (binding LINKS), objects `links/<id>.json`. pages.yml creates
   the bucket if it is missing; nothing in the build ever syncs or empties it.
 
 **Pages.** The Worker fills the shell `shells/link.html` (app/link-shell/page.tsx, copied by
-`npm run links:assets -- --out worker-dist` after the place export) with the link's name, dates, map and list,
-and its own title, description, Open Graph tags and canonical; noindex. Each stop with an app place id shows
+`npm run links:assets -- --out worker-dist` after the place export) with the link's colour, badge (its symbol on
+its colour), name, stats (a trip's dates, stops, distance and driving time when the app sent them; a
+collection's places), map and list, and its own title, description, Open Graph tags and canonical; noindex. The
+404 and 410 pages keep Open in app (it opens the app itself) and a line linking to the contact address. Each stop with an app place id shows
 its place card (`cards/<encodeURIComponent(id)>.json`, same script): name, photo, type line, rating or fee,
 linking to its place page. Pins and addresses are plain rows. Both live in the places bucket, so the sync
 must carry them. Pages are cached for 60 seconds with an ETag.

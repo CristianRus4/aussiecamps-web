@@ -2,9 +2,10 @@
  * The page of a live link, /trip/<id> or /collection/<id>: the build's shell (shells/link.html in PLACES,
  * app/link-shell/page.tsx) filled in with HTMLRewriter, streaming, from the link (links/<id>.json in LINKS) and
  * the place cards of its stops (cards/<id>.json in PLACES). An unknown link gets the same shell with "This link
- * doesn't exist" (404), a removed one "This link was removed" (410).
+ * doesn't exist" (404), a removed one "This link was removed" (410), each with the contact line and Open in app
+ * opening the app itself.
  */
-import { escapeHtml, headerLine, mapData, previewImage, previewLine, rows, usableCard } from "./format.js";
+import { badgeIcon, escapeHtml, lookStyle, mapData, previewImage, previewLine, rows, statsHtml, usableCard } from "./format.js";
 
 const MAX_CARDS = 100;
 const CARD_TTL = 3600;
@@ -69,7 +70,7 @@ export async function renderLinkPage({ site, shell, places, ctx, kind, id, link,
   const photo = link ? previewImage(link, cards) : "";
   const image = photo ? { url: photo } : { ...HOME_IMAGE, url: `${site.url}${HOME_IMAGE.url}` };
   const head = headTags({ site, title, description, url, image });
-  const appLink = `${site.scheme}://${kind}/${id}`;
+  const appLink = link ? `${site.scheme}://${kind}/${id}` : `${site.scheme}://`;
 
   let rewriter = new HTMLRewriter();
   for (const selector of REPLACED) rewriter = rewriter.on(selector, { element: (el) => el.remove() });
@@ -80,22 +81,20 @@ export async function renderLinkPage({ site, shell, places, ctx, kind, id, link,
     })
     .on("a[data-open-app]", { element: (el) => el.setAttribute("data-open-app", appLink) })
     .on("main[data-page-location]", { element: (el) => el.setAttribute("data-page-location", `/${kind}/`) })
-    .on('[data-sl="name"]', { element: (el) => el.setInnerContent(link ? title : kind === "trip" ? "Shared trip" : "Shared collection") })
-    .on('[data-sl="meta"]', { element: (el) => el.setInnerContent(link ? headerLine(link) : "") });
+    .on('[data-sl="name"]', { element: (el) => el.setInnerContent(link ? title : kind === "trip" ? "Shared trip" : "Shared collection") });
   if (link) {
     const list = rows(link, cards);
     const map = mapData(link, cards);
     rewriter = rewriter
+      .on('[data-sl="page"]', { element: (el) => el.setAttribute("style", lookStyle(link)) })
+      .on('[data-sl="badge"]', { element: (el) => { el.removeAttribute("hidden"); el.setInnerContent(badgeIcon(link), { html: true }); } })
+      .on('[data-sl="stats"]', { element: (el) => el.setInnerContent(statsHtml(link), { html: true }) })
       .on('[data-sl="map"]', { element: (el) => el.setAttribute("data-pl-map", map) })
-      .on('[data-sl="list"]', {
-        element: (el) => {
-          el.setAttribute("class", `${el.getAttribute("class") ?? ""} ${kind === "trip" ? "sl-numbered" : "sl-dots"}`.trim());
-          el.setInnerContent(list, { html: true });
-        },
-      });
+      .on('[data-sl="list"]', { element: (el) => el.setInnerContent(list, { html: true }) });
   } else {
     rewriter = rewriter
-      .on('[data-sl="status"]', { element: (el) => { el.removeAttribute("hidden"); el.setInnerContent(title); } })
+      .on('[data-sl="status"]', { element: (el) => el.removeAttribute("hidden") })
+      .on('[data-sl="message"]', { element: (el) => el.setInnerContent(title) })
       .on('[data-sl="body"]', { element: (el) => el.setAttribute("hidden", "") });
   }
   return rewriter.transform(new Response(shell.body, { headers: { "content-type": "text/html; charset=utf-8" } }));

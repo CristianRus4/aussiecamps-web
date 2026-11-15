@@ -4,15 +4,20 @@
  * short reason for the 400 reply. Control characters in names and titles become spaces (tab, line breaks) or
  * are dropped.
  *
- *   trip        {"v":1,"kind":"trip","n","sym","col","sd","ed","u","s":[{"t","id","la","lo","d"}]}
+ *   trip        {"v":1,"kind":"trip","n","sym","col","sd","ed","dist","dur","u","s":[{"t","id","la","lo","d"}]}
  *   collection  {"v":1,"kind":"collection","n","sym","col","u","p":[{"t","id","la","lo"}]}
+ *
+ * A trip's "dist" is its total driving distance in metres (0–20,000,000) and "dur" its total driving time in
+ * seconds (0–10,000,000); both optional.
  */
 export const LINK_ID = /^[A-Za-z0-9]{12}$/;
 export const MAX_STOPS = 300;
 export const MAX_PLACES = 500;
+export const MAX_DISTANCE = 20_000_000;
+export const MAX_DURATION = 10_000_000;
 
 const KEYS = {
-  trip: new Set(["v", "kind", "n", "sym", "col", "sd", "ed", "u", "s"]),
+  trip: new Set(["v", "kind", "n", "sym", "col", "sd", "ed", "dist", "dur", "u", "s"]),
   collection: new Set(["v", "kind", "n", "sym", "col", "u", "p"]),
 };
 const ITEM_KEYS = { trip: new Set(["t", "id", "la", "lo", "d"]), collection: new Set(["t", "id", "la", "lo"]) };
@@ -94,6 +99,12 @@ export function validateLink(raw) {
       out[key] = raw[key];
     }
     if (out.sd && out.ed && out.ed < out.sd) fail("ed is before sd");
+    for (const [key, max] of [["dist", MAX_DISTANCE], ["dur", MAX_DURATION]]) {
+      if (!(key in raw)) continue;
+      if (typeof raw[key] !== "number" || !Number.isFinite(raw[key])) fail(`${key} must be a finite number`);
+      if (raw[key] < 0 || raw[key] > max) fail(`${key} is out of range`);
+      out[key] = raw[key];
+    }
     if ("u" in raw) {
       if (typeof raw.u !== "string" || raw.u.length > 40 || !/^\d{4}-\d{2}-\d{2}T/.test(raw.u) || !Number.isFinite(Date.parse(raw.u))) fail("u is not an ISO 8601 time");
       out.u = raw.u;

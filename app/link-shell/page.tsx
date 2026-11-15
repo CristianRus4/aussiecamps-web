@@ -7,7 +7,7 @@ import { mainData } from "@/lib/analytics";
 import { smartBannerContent } from "@/lib/app-store";
 import { appLink, openAppScript } from "@/lib/open-app";
 import { pageQrScript } from "@/lib/qr-source";
-import { SITE_URL } from "@/lib/site";
+import { SITE_URL, SUPPORT_MAILTO } from "@/lib/site";
 import { pageOpenGraph } from "@/lib/seo";
 import { uiStrings } from "@/lib/source-strings";
 
@@ -17,9 +17,10 @@ const LINK_SHELL_APP = appLink("/link/");
 /**
  * The page of a live trip or collection link (/trip/<id>, /collection/<id>). The Cloudflare Worker reads this
  * page from its bucket (scripts/export-link-assets.tsx copies it there) and fills in the [data-sl] hooks
- * from the link's data: the name, the dates line, the map's data-pl-map and the rows of the list, plus the
- * head's title, description, Open Graph tags and canonical. Never served from here: noindex, English only,
- * in no sitemap (lib/routes/links.ts).
+ * from the link's data: the colour (the article's style), the badge, the name, the stats, the map's data-pl-map
+ * and the rows of the list, plus the head's title, description, Open Graph tags and canonical. A missing or
+ * removed link shows the message and the contact line instead of the map and the list. Never served from
+ * here: noindex, English only, in no sitemap (lib/routes/links.ts).
  */
 export const metadata: Metadata = {
   title: "Shared trip",
@@ -34,15 +35,21 @@ export default function LinkShell() {
   return <>
     <Header openApp={LINK_SHELL_APP} />
     <main {...mainData({ kind: "trip" })} data-page-location="/trip/">
-      <article className="pl-page trip-page sl-page">
+      <article className="pl-page trip-page sl-page" data-sl="page">
         <div className="pl-wrap">
           <header className="pl-header">
-            <h1 data-sl="name">Shared trip</h1>
-            <p className="pl-meta" data-sl="meta" />
+            <div className="sl-title">
+              <span className="sl-badge" data-sl="badge" aria-hidden="true" hidden />
+              <h1 data-sl="name">Shared trip</h1>
+            </div>
+            <dl className="sl-stats" data-sl="stats" />
           </header>
-          <p className="trip-status" data-sl="status" hidden />
+          <div className="sl-error" data-sl="status" hidden>
+            <p className="trip-status" data-sl="message" />
+            <p className="sl-contact">If you think this is a mistake, <a href={SUPPORT_MAILTO}>contact us</a>.</p>
+          </div>
+          <div className="trip-cta"><StoreWithQr locale="en" placement="trip" label={uiStrings.download} openApp={LINK_SHELL_APP} liveQr /></div>
           <div data-sl="body">
-            <div className="trip-cta"><StoreWithQr locale="en" placement="trip" label={uiStrings.download} openApp={LINK_SHELL_APP} liveQr /></div>
             <figure className="pl-map" role="img" aria-label="Map" data-sl="map" data-pl-map="" />
             <ul className="pl-rows sl-list" data-sl="list" />
           </div>
