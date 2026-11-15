@@ -15,7 +15,7 @@ export default article({
   places: ["Coober Pedy", "The Breakaways", "Stuart Highway", "Painted Desert", "Marla"],
   imageAlt: "Uluṟu, Uluṟu-Kata Tjuṯa National Park",
   intro: "Coober Pedy sits halfway between Adelaide and Uluru, and almost everyone stops for a night. Free camping in town is limited, because the council keeps camping to caravan parks and signed spots and the opal fields are riddled with old mine shafts. The best value is a powered site at a caravan park, or a rest area on the Stuart Highway if you only need to sleep. Plan around the heat, the long fuel gaps and the underground stays that most visitors come for.",
-  related: ["camping-rules-south-australia", "adelaide-to-uluru-road-trip", "is-free-camping-legal-australia", "camping-water-planning", "australia-road-trip-fatigue-wildlife-safety"],
+  related: ["camping-rules-south-australia", "adelaide-to-coober-pedy-drive", "adelaide-to-uluru-road-trip", "is-free-camping-legal-australia", "camping-water-planning", "australia-road-trip-fatigue-wildlife-safety"],
   sections: [
     section("What the town allows", ["Coober Pedy is a mining town, and the council does not allow camping across town and the opal fields. You can camp at the caravan parks, which have powered and unpowered sites, and at a few signed places. Rangers and locals notice a van parked where it should not be.", "The old opal mine shafts are the real reason to follow the rules. Many are open or lightly covered, and they are very dangerous in the dark."], ["Camp at the caravan parks", "Do not wander the fields", "Old shafts are a real danger"], {
       caption: "Where to stay in and around Coober Pedy.",
