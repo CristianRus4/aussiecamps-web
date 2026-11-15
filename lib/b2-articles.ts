@@ -11,9 +11,10 @@ import g_aurora_australis_tasmanian_wildflowers_camping, { faq as faq_g_aurora_a
 import g_does_aussiecamps_work_offline, { faq as faq_g_does_aussiecamps_work_offline } from "@/lib/costs/does-aussiecamps-work-offline";
 import g_aussiecamps_weather_street_view, { faq as faq_g_aussiecamps_weather_street_view } from "@/lib/costs/aussiecamps-weather-street-view";
 import g_aussiecamps_costs_in_your_currency, { faq as faq_g_aussiecamps_costs_in_your_currency } from "@/lib/costs/aussiecamps-costs-in-your-currency";
+import g_holiday_park_memberships_australia_2027, { faq as faq_g_holiday_park_memberships_australia_2027 } from "@/lib/costs/holiday-park-memberships-australia-2027";
 
 /** Guides added by the B2 lane (November 2026): summer pages, general topics, app guides and free camping by area. Each lives in lib/costs/<slug>.ts. */
-export const b2Articles: Article[] = [g_national_park_campsites_sell_out_summer_australia, g_new_years_eve_summer_festival_camping_australia_2026_27, g_best_apps_tasmania_road_trip, g_can_i_drive_a_campervan_on_a_car_licence_in_australia, g_can_i_drink_the_water_at_australian_campsites, g_can_i_go_to_the_toilet_outdoors_while_camping_in_australia, g_national_park_passes_australia_2026_27, g_national_park_campsite_rules_australia, g_aurora_australis_tasmanian_wildflowers_camping, g_does_aussiecamps_work_offline, g_aussiecamps_weather_street_view, g_aussiecamps_costs_in_your_currency];
+export const b2Articles: Article[] = [g_national_park_campsites_sell_out_summer_australia, g_new_years_eve_summer_festival_camping_australia_2026_27, g_best_apps_tasmania_road_trip, g_can_i_drive_a_campervan_on_a_car_licence_in_australia, g_can_i_drink_the_water_at_australian_campsites, g_can_i_go_to_the_toilet_outdoors_while_camping_in_australia, g_national_park_passes_australia_2026_27, g_national_park_campsite_rules_australia, g_aurora_australis_tasmanian_wildflowers_camping, g_does_aussiecamps_work_offline, g_aussiecamps_weather_street_view, g_aussiecamps_costs_in_your_currency, g_holiday_park_memberships_australia_2027];
 export const b2Faqs: Record<string, readonly (readonly [string, string])[]> = {
   [g_national_park_campsites_sell_out_summer_australia.slug]: faq_g_national_park_campsites_sell_out_summer_australia,
   [g_new_years_eve_summer_festival_camping_australia_2026_27.slug]: faq_g_new_years_eve_summer_festival_camping_australia_2026_27,
@@ -27,4 +28,5 @@ export const b2Faqs: Record<string, readonly (readonly [string, string])[]> = {
   [g_does_aussiecamps_work_offline.slug]: faq_g_does_aussiecamps_work_offline,
   [g_aussiecamps_weather_street_view.slug]: faq_g_aussiecamps_weather_street_view,
   [g_aussiecamps_costs_in_your_currency.slug]: faq_g_aussiecamps_costs_in_your_currency,
+  [g_holiday_park_memberships_australia_2027.slug]: faq_g_holiday_park_memberships_australia_2027,
 };
