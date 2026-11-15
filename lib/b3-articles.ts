@@ -1,4 +1,5 @@
 import type { Article } from "@/lib/site";
+import g_starting_campervan_trip_sydney, { faq as faq_g_starting_campervan_trip_sydney } from "@/lib/costs/starting-campervan-trip-sydney";
 import g_sydney_3_days_campervan, { faq as faq_g_sydney_3_days_campervan } from "@/lib/costs/sydney-3-days-campervan";
 import g_camping_in_sydney, { faq as faq_g_camping_in_sydney } from "@/lib/costs/camping-in-sydney";
 import g_bibbulmun_track_camping_2026_27, { faq as faq_g_bibbulmun_track_camping_2026_27 } from "@/lib/costs/bibbulmun-track-camping-2026-27";
@@ -13,7 +14,7 @@ import g_easy_overnight_bushwalks_huts_families, { faq as faq_g_easy_overnight_b
 import g_best_multi_day_walks_australia_2026_27, { faq as faq_g_best_multi_day_walks_australia_2026_27 } from "@/lib/costs/best-multi-day-walks-australia-2026-27";
 
 /** Multi-day walk, park and city camping guides added by the aus-b3 lane. Each lives in lib/costs/<slug>.ts. */
-export const b3Articles: Article[] = [g_best_multi_day_walks_australia_2026_27, g_easy_overnight_bushwalks_huts_families, g_bushwalking_camp_rules_etiquette_australia, g_wilsons_promontory_camping, g_overland_track_2026_27, g_three_capes_track_2026_27, g_overland_track_2027_28_bookings, g_larapinta_trail_camping_2026_27, g_great_ocean_walk_camping_2026_27, g_bibbulmun_track_camping_2026_27, g_camping_in_sydney, g_sydney_3_days_campervan];
+export const b3Articles: Article[] = [g_best_multi_day_walks_australia_2026_27, g_easy_overnight_bushwalks_huts_families, g_bushwalking_camp_rules_etiquette_australia, g_wilsons_promontory_camping, g_overland_track_2026_27, g_three_capes_track_2026_27, g_overland_track_2027_28_bookings, g_larapinta_trail_camping_2026_27, g_great_ocean_walk_camping_2026_27, g_bibbulmun_track_camping_2026_27, g_camping_in_sydney, g_sydney_3_days_campervan, g_starting_campervan_trip_sydney];
 export const b3Faqs: Record<string, readonly (readonly [string, string])[]> = {
   [g_best_multi_day_walks_australia_2026_27.slug]: faq_g_best_multi_day_walks_australia_2026_27,
   [g_easy_overnight_bushwalks_huts_families.slug]: faq_g_easy_overnight_bushwalks_huts_families,
@@ -27,4 +28,5 @@ export const b3Faqs: Record<string, readonly (readonly [string, string])[]> = {
   [g_bibbulmun_track_camping_2026_27.slug]: faq_g_bibbulmun_track_camping_2026_27,
   [g_camping_in_sydney.slug]: faq_g_camping_in_sydney,
   [g_sydney_3_days_campervan.slug]: faq_g_sydney_3_days_campervan,
+  [g_starting_campervan_trip_sydney.slug]: faq_g_starting_campervan_trip_sydney,
 };
