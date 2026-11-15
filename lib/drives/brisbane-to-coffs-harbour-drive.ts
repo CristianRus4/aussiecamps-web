@@ -15,7 +15,7 @@ export default article({
   places: ["Tweed Heads", "Byron Bay", "Ballina", "Yamba", "Grafton", "Coffs Harbour"],
   imageAlt: "A sandy beach and headland on the New South Wales north coast near Coffs Harbour",
   intro: "Brisbane to Coffs Harbour is about 470 km down the Pacific Highway, and it is the easiest of the north coast drives: mostly dual carriageway, beaches every hour and a good place at the end. It is a comfortable day or a lazy two, with a night at Byron Bay or Yamba.",
-  related: ["brisbane-to-byron-bay-drive", "sydney-to-byron-bay-drive", "brisbane-to-sydney-drive", "east-coast-road-trip-sydney-cairns", "camping-rules-new-south-wales", "road-trip-fuel-planning-australia"],
+  related: ["brisbane-to-byron-bay-drive", "sydney-to-port-macquarie-drive", "sydney-to-byron-bay-drive", "brisbane-to-sydney-drive", "east-coast-road-trip-sydney-cairns", "camping-rules-new-south-wales", "road-trip-fuel-planning-australia"],
   sections: [
     section("The route and how long it takes", ["The route is the Pacific Highway (M1) south from Brisbane through the Gold Coast, across the border at Tweed Heads, then past Byron Bay, Ballina, Grafton and on to Coffs Harbour. Almost all of it is dual carriageway, with towns every half hour or so.", "Allow five to six hours for the drive, plus stops. The Brisbane to Byron Bay guide covers the first part and the Sydney to Byron Bay guide covers the road on the New South Wales side."], ["Five to six hours of driving", "Towns every half hour", "Dual carriageway almost all the way"], {
       caption: "A relaxed one or two day split. Distances are approximate.",
