@@ -129,7 +129,7 @@ const section = (heading: string, body: string[], tips?: string[], table?: Artic
  */
 const writtenArticles: Article[] = [
   article({
-    slug: "great-ocean-road-camping-guide", title: "Great Ocean Road camping guide: a 3-day route", description: "Surf beaches, rainforest bends and a final sunset over the Twelve Apostles.", category: "Road trips", region: "Victoria Coast", readTime: 9,
+    slug: "great-ocean-road-camping-guide", related: ["melbourne-hikes-camping-base"], title: "Great Ocean Road camping guide: a 3-day route", description: "Surf beaches, rainforest bends and a final sunset over the Twelve Apostles.", category: "Road trips", region: "Victoria Coast", readTime: 9,
     places: ["Torquay", "Aireys Inlet", "Apollo Bay Holiday Park", "Aire River East Campground", "Johanna Beach Campground", "Port Campbell", "Warrnambool"], imageAlt: "Great Ocean Road coast in Victoria", intro: "Three days gives the Great Ocean Road enough breathing room for lighthouse walks, forest detours and an evening beside the Southern Ocean. Drive west from Torquay and keep the final night near Port Campbell or Warrnambool.",
     sections: [
       section("Day 1: Torquay to Apollo Bay", ["Leave Melbourne early and make Torquay the first proper stop. Bells Beach, Point Addis and the clifftop road around Aireys Inlet are better enjoyed before the afternoon traffic builds.", "Apollo Bay works well for the first night. A holiday park gives you showers, power and an easy resupply, while nearby national park camps offer a quieter base. Book summer weekends well ahead."]),
