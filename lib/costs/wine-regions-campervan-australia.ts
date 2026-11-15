@@ -15,7 +15,7 @@ export default article({
   places: ["Barossa Valley", "McLaren Vale", "Margaret River", "Hunter Valley", "Yarra Valley"],
   imageAlt: "Vineyard rows in the Barossa Valley, South Australia",
   intro: "A campervan and a wine region suit each other: you can base yourself near the vines, cook local produce and wake up in the country. The catch is that wine regions are built around cellar doors and accommodation, not free camping, so the stay needs more planning than the tasting. Here are five regions that work from a campervan, how to stay legally, and the rule about drinking and driving that every driver needs to follow.",
-  related: ["free-camping-margaret-river", "drink-driving-limits-australia-visitors", "fleurieu-peninsula-camping", "riverland-murray-river-camping-south-australia", "free-camping-near-adelaide", "best-time-camping-australia"],
+  related: ["free-camping-margaret-river", "newcastle-hunter-barrington-tops-camping-loop", "drink-driving-limits-australia-visitors", "fleurieu-peninsula-camping", "riverland-murray-river-camping-south-australia", "free-camping-near-adelaide", "best-time-camping-australia"],
   sections: [
     section("Five regions that work by van", ["Each region is within a day's drive of a capital city, which makes them easy to add to a longer route or to do as a long weekend."], undefined, { caption: "Wine regions for a campervan trip and their nearest city, November 2026.", head: ["Region", "State", "Nearest city", "Good for"], rows: [
       ["Barossa Valley", "South Australia", "About an hour north-east of Adelaide", "Shiraz, small towns and cellar doors close together"],
