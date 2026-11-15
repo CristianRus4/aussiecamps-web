@@ -48,11 +48,11 @@ export const placeScript = `(function(){${placeDecoderSource}
 var MESSAGES = ${JSON.stringify(payloadMessages("place"))};
 var d = document, $ = function (id) { return d.getElementById(id); };
 function render(result) {
-  var status = $("place-status"), photo = $("place-photo"), directions = $("place-directions"), book = $("place-book");
+  var status = $("place-status"), photo = $("place-photo"), frame = $("place-map-frame"), map = $("place-map"), directions = $("place-directions"), book = $("place-book");
   photo.replaceChildren(); photo.hidden = true;
   if (result.error) {
     $("place-name").textContent = "Shared place"; $("place-type").textContent = "";
-    status.textContent = MESSAGES[result.error]; status.hidden = false; directions.hidden = true; book.hidden = true;
+    status.textContent = MESSAGES[result.error]; status.hidden = false; frame.hidden = true; book.hidden = true;
     return;
   }
   var place = result.place;
@@ -66,8 +66,13 @@ function render(result) {
     image.src = place.photo;
     photo.appendChild(image); photo.hidden = false;
   }
-  directions.href = "https://maps.apple.com/?daddr=" + place.lat + "," + place.lng + "&q=" + encodeURIComponent(place.name);
-  directions.hidden = false;
+  // The map frames the place, and the page's map loader draws it once it scrolls into view (unhidden here).
+  map.setAttribute("data-pl-map", JSON.stringify({ p: [], f: [Math.round(place.lng * 1e4) / 1e4, Math.round(place.lat * 1e4) / 1e4] }));
+  map.setAttribute("aria-label", place.name + " on the map");
+  var apple = /iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  directions.href = apple ? "https://maps.apple.com/?ll=" + place.lat + "," + place.lng + "&q=" + encodeURIComponent(place.name)
+    : "https://www.google.com/maps/search/?api=1&query=" + place.lat + "," + place.lng;
+  frame.hidden = false;
   if (place.booking) { book.href = place.booking; book.hidden = false; } else book.hidden = true;
 }
 function show() { acDecodePlace(location.hash).then(render); }

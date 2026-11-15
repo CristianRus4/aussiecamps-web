@@ -33,6 +33,9 @@
 * { box-sizing: border-box; border-radius: 0 !important; }
 html { scroll-behavior: auto; color-scheme: light dark; }
 body { margin: 0; background: var(--cream); color: var(--ink); font-family: var(--sans); font-size: 16px; line-height: 1.6; }
+/* Short pages: main takes the spare height, so the footer always sits at the bottom of the window. */
+body { min-height: 100vh; min-height: 100svh; display: flex; flex-direction: column; }
+body > main { flex: 1 0 auto; width: 100%; }
 a { color: inherit; text-decoration: none; }
 button { font: inherit; }
 em { color: inherit; font: inherit; font-style: normal; }
