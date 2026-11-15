@@ -15,7 +15,7 @@ export default article({
   places: ["Hunter Valley", "Yarra Valley", "Margaret River", "Kangaroo Island", "Bay of Fires"],
   imageAlt: "Sunset campsite in Hattah-Kulkyne National Park, Victoria",
   intro: "Glamping is camping with the discomfort taken out: a bed, often power, sometimes a private bathroom, in a tent, dome or cabin in a good spot. Australia has plenty, from vineyards in the Hunter and Yarra valleys to eco retreats at Karijini and the Top End. Book early, choose the season for the region and keep the budget in mind, because the best sites cost several times a normal campsite.",
-  related: ["best-time-camping-australia", "holiday-park-prices-australia-2026", "choosing-campsite-australia", "school-holidays-australia-2027", "karijini-national-park-camping"],
+  related: ["best-time-camping-australia", "eco-treehouse-stays-near-capital-cities-australia", "holiday-park-prices-australia-2026", "choosing-campsite-australia", "school-holidays-australia-2027", "karijini-national-park-camping"],
   sections: [
     section("What glamping is", ["Glamping, or glamorous camping, covers bell tents, safari tents, domes, yurts and cabins with a real bed and often power, in campgrounds, on farms, at vineyards and beside beaches. Some have private bathrooms, some share a block, and the extras vary.", "Check what is included before you book: bedding, power, heating, cooking, linen and whether pets are allowed."], ["Real bed, often power", "Tents, domes and cabins", "Check what is included"], {
       caption: "Where to look for glamping in each state.",
