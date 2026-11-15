@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "limestone-coast-camping-route-adelaide-mount-gambier",
+  slug: "limestone-coast-camping-route-adelaide-mount-gambier", publishAt: "2026-12-05",
   title: "Limestone Coast Camping Route: Adelaide to Mount Gambier by Campervan",
   description: "A four to six day camping loop from Adelaide along the Limestone Coast: the Coorong, Robe, Beachport, Canunda, Mount Gambier, Naracoorte Caves and Coonawarra.",
   category: "Road trips", region: "South Australia",

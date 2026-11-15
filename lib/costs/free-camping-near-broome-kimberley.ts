@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "free-camping-near-broome-kimberley",
+  slug: "free-camping-near-broome-kimberley", publishAt: "2027-01-20",
   title: "Free Camping Near Broome and the Kimberley: Town Bans, Highway Rest Areas and Station Camps",
   description: "Where to camp near Broome and the Kimberley: the town and Cable Beach bans, highway rest areas, Dampier Peninsula camps, Gibb River Road sites and wet season closures.",
   category: "Camping guides", region: "Western Australia",

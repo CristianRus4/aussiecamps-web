@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "thorsborne-trail-hinchinbrook-island",
+  slug: "thorsborne-trail-hinchinbrook-island", publishAt: "2027-01-14",
   title: "Thorsborne Trail, Hinchinbrook Island: Permits, Camping, Ferries and Season",
   description: "How to walk the Thorsborne Trail in Queensland: the permit release, the camps from Ramsay Bay to George Point, ferries from Cardwell and Lucinda, water, crocodiles and when to go.",
   category: "Camping guides", region: "Queensland",

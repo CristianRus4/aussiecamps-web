@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "easy-overnight-bushwalks-huts-families",
+  slug: "easy-overnight-bushwalks-huts-families", publishAt: "2026-11-21",
   title: "Easy Overnight Bushwalks and Huts for Families and First-Timers 2026-27",
   description: "Short, easy one-night walks across Australia for families and first-timers: Wilsons Prom, Royal National Park, Maria Island, the Bibbulmun Track and Cape Conran.",
   category: "Camping guides", region: "Australia",

@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "sydney-walks-camping-base",
+  slug: "sydney-walks-camping-base", publishAt: "2026-11-30",
   title: "Sydney walks with a camping base: Blue Mountains, Royal National Park and Kangaroo Valley",
   description: "Day walks around Sydney with a campground close by: Royal National Park, the Blue Mountains, Kangaroo Valley, Ku-ring-gai Chase and the Central Coast, with tips for tides, booking and fire danger.",
   category: "Camping guides", region: "New South Wales",

@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "camping-in-cairns",
+  slug: "camping-in-cairns", publishAt: "2026-12-28",
   title: "Camping in Cairns: Holiday Parks, Beach Camps and Where to Base Yourself",
   description: "Where to camp in and around Cairns: city holiday parks, the Northern Beaches, Lake Tinaroo and the Tablelands, Babinda Boulders, and what the wet season and stingers mean for your plans.",
   category: "Camping guides", region: "Queensland",

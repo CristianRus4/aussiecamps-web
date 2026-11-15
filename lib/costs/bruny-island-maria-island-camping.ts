@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "bruny-island-maria-island-camping",
+  slug: "bruny-island-maria-island-camping", publishAt: "2026-11-19",
   title: "Bruny Island and Maria Island Camping: Ferries, Camps and What to Bring",
   description: "How to camp on Bruny Island and Maria Island in Tasmania: the Kettering and Triabunna ferries, park camps, the parks pass, fires, water and wildlife.",
   category: "Camping guides", region: "Tasmania",

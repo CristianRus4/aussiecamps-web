@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "best-scenic-campsites-australia-by-state",
+  slug: "best-scenic-campsites-australia-by-state", publishAt: "2026-12-15",
   title: "Best Scenic Campsites in Australia, State by State: 2 or 3 Standout Camps Each",
   description: "Two or three standout campgrounds in every state and territory, with a line on why they are special and how to book, from Lucky Bay to the Bay of Fires.",
   category: "Camping guides", region: "Australia",

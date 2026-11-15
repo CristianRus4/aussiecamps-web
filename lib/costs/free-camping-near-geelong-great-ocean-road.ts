@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "free-camping-near-geelong-great-ocean-road",
+  slug: "free-camping-near-geelong-great-ocean-road", publishAt: "2026-11-19",
   title: "Free Camping Near Geelong and the Great Ocean Road: Coast Bans, Otway Camps and Inland Forests",
   description: "Where you can and can't camp near Geelong and along the Great Ocean Road: coastal bans, Otway national park camps, inland state forests, rest areas and cheaper options.",
   category: "Camping guides", region: "Victoria",

@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "overland-three-capes-booked-out-alternatives",
+  slug: "overland-three-capes-booked-out-alternatives", publishAt: "2026-11-16",
   title: "Overland Track or Three Capes Booked Out? Cancellations and Alternatives 2026/27",
   description: "What to do when the Overland Track or Three Capes Track is full: watching for cancellations, shoulder months, guided walks and other Tasmanian and mainland walks.",
   category: "Camping guides", region: "Tasmania",

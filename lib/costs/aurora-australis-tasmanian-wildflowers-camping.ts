@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "aurora-australis-tasmanian-wildflowers-camping",
+  slug: "aurora-australis-tasmanian-wildflowers-camping", publishAt: "2027-01-06",
   title: "Aurora Australis and Tasmanian Wildflowers: Camping for Dark Skies and Blooms",
   description: "Where and when to see the southern lights from a Tasmanian campsite, plus the spring and summer wildflower season at Cradle Mountain, Mount Field, Ben Lomond and Freycinet.",
   category: "Camping guides", region: "Tasmania",

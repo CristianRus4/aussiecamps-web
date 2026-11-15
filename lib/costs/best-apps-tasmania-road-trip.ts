@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "best-apps-tasmania-road-trip",
+  slug: "best-apps-tasmania-road-trip", publishAt: "2026-11-23",
   listicle: true,
   title: "7 Best Apps for a Tasmania Road Trip in 2027",
   description: "Parks pass, weather, TasALERT, Emergency+, fuel prices, a maps app and AussieCamps: the seven apps and services worth setting up before you drive around Tasmania.",

@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "hobart-to-freycinet-port-arthur-drive",
+  slug: "hobart-to-freycinet-port-arthur-drive", publishAt: "2026-11-23",
   title: "Hobart to Freycinet and Port Arthur Drive 2027: Tasman Peninsula and East Coast Route, Stops and Camping",
   description: "Hobart to Port Arthur is about 100 km, Hobart to Freycinet about 190 km. Arthur Highway and Tasman Highway legs, Fortescue Bay and Richardsons Beach camping, Parks Pass, fuel and wildlife at dusk.",
   category: "Road trips", region: "Tasmania",

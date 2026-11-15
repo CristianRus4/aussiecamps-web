@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "free-camping-with-a-tent-australia",
+  slug: "free-camping-with-a-tent-australia", publishAt: "2026-11-17",
   title: "Free Camping With a Tent in Australia: Where It Is Allowed in 2027",
   description: "Where you can pitch a tent for free in Australia: why most rest areas say no, and how state forests, park camps, council camps and Crown land differ by state.",
   category: "Camping guides", region: "Australia",

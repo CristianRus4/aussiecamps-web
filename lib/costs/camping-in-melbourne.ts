@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "camping-in-melbourne",
+  slug: "camping-in-melbourne", publishAt: "2026-11-18",
   title: "Camping in Melbourne: Holiday Parks, Regional Park Camps and Where to Base Yourself",
   description: "Where a camper sleeps around Melbourne: city holiday parks, Mornington Peninsula foreshore camps, Yarra Valley parks, bush camps and the way into town.",
   category: "Camping guides", region: "Victoria",

@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "can-i-drive-a-campervan-on-a-car-licence-in-australia",
+  slug: "can-i-drive-a-campervan-on-a-car-licence-in-australia", publishAt: "2026-12-22",
   title: "Can I Drive a Campervan on a Car Licence in Australia?",
   description: "Yes for nearly every hire campervan: a car licence covers vehicles to 4.5 tonnes. Larger motorhomes, overseas licences and age rules from hire companies explained.",
   category: "Rules & safety", region: "Australia",

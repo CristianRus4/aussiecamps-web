@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "rail-trails-mountain-bike-campervan-australia",
+  slug: "rail-trails-mountain-bike-campervan-australia", publishAt: "2026-12-20",
   title: "Rail Trails and Mountain Bike Routes by Campervan: Murray to the Mountains and More",
   description: "Rail trails and mountain bike parks you can ride from a campervan: Murray to the Mountains, the Great Victorian, Riesling Trail, Blue Derby, Stromlo and more, with bike racks, hire bikes and where to camp.",
   category: "Trip planning", region: "Australia",

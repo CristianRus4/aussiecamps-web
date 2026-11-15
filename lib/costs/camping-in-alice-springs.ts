@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "camping-in-alice-springs",
+  slug: "camping-in-alice-springs", publishAt: "2027-01-10",
   title: "Camping in Alice Springs: Holiday Parks, the MacDonnell Ranges and Where to Base Yourself",
   description: "How to camp in and around Alice Springs: town holiday parks, West MacDonnell camps like Ormiston Gorge and Ellery Creek, East MacDonnell camps and the heat.",
   category: "Camping guides", region: "Northern Territory",

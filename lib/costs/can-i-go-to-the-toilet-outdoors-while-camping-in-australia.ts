@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "can-i-go-to-the-toilet-outdoors-while-camping-in-australia",
+  slug: "can-i-go-to-the-toilet-outdoors-while-camping-in-australia", publishAt: "2026-12-23",
   title: "Can I Go to the Toilet Outdoors While Camping in Australia?",
   description: "When going in the bush is fine, how to bury waste and pack out paper, where portable toilets or self-contained vehicles are required, and how to empty a cassette at a dump point.",
   category: "Rules & safety", region: "Australia",

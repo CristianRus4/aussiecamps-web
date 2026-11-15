@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "sydney-3-days-campervan",
+  slug: "sydney-3-days-campervan", publishAt: "2026-11-21",
   title: "Sydney in 3 Days by Campervan: Itinerary, Parking and Where to Camp",
   description: "A three day Sydney itinerary for a campervan: where to sleep, how to get around without driving into the CBD, height limits, clearways, tolls and day trips.",
   category: "Road trips", region: "New South Wales",

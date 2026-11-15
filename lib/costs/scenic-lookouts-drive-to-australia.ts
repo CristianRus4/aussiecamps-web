@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "scenic-lookouts-drive-to-australia",
+  slug: "scenic-lookouts-drive-to-australia", publishAt: "2026-12-14",
   title: "Scenic Lookouts You Can Drive To in Australia: Viewpoints Without the Hike",
   description: "Thirteen big-view lookouts in Australia that you reach by road, from Echo Point and Mount Lofty to kunanyi/Mount Wellington, with parking, road and light tips for a campervan.",
   category: "Trip planning", region: "Australia",

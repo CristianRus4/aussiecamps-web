@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "free-camping-near-launceston-tamar-valley",
+  slug: "free-camping-near-launceston-tamar-valley", publishAt: "2026-11-23",
   title: "Free Camping Near Launceston and the Tamar Valley: Midlands Permits, Forests and Cheap Camps",
   description: "Where to camp near Launceston and the Tamar Valley: free Midlands permits at Ross and Campbell Town, forestry land, Narawntapu and Ben Lomond camps, and where camping is banned.",
   category: "Camping guides", region: "Tasmania",

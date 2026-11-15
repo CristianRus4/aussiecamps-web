@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "free-camping-northern-territory",
+  slug: "free-camping-northern-territory", publishAt: "2027-01-17",
   title: "Free Camping in the Northern Territory 2027: Rest Areas, Cheap Park Camps and Where It Is Banned",
   description: "Where you can camp for free in the Northern Territory: Stuart Highway rest areas, cheap park and bush camps, why towns ban camping and how the Parks Visitor Pass works.",
   category: "Camping guides", region: "Northern Territory",

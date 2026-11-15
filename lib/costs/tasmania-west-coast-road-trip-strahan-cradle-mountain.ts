@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "tasmania-west-coast-road-trip-strahan-cradle-mountain",
+  slug: "tasmania-west-coast-road-trip-strahan-cradle-mountain", publishAt: "2026-11-22",
   title: "Tasmania's West Coast: Strahan, Queenstown and Cradle Mountain Road Trip",
   description: "A five-day camping road trip along Tasmania's west coast: the Lyell Highway to Queenstown and Strahan, the Gordon River and Macquarie Harbour, then Cradle Mountain and Dove Lake.",
   category: "Road trips", region: "Tasmania",

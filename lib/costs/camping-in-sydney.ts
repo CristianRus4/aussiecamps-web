@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "camping-in-sydney",
+  slug: "camping-in-sydney", publishAt: "2026-11-17",
   title: "Camping in Sydney: Holiday Parks, National Park Camps and Where to Base Yourself",
   description: "Where to camp in and around Sydney: city-edge holiday parks, Royal National Park, Ku-ring-gai Chase, Cockatoo Island and the Blue Mountains, with how to get into the city.",
   category: "Camping guides", region: "New South Wales",

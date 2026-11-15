@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "starting-campervan-trip-sydney",
+  slug: "starting-campervan-trip-sydney", publishAt: "2026-11-21",
   title: "Starting a Campervan Trip in Sydney: Pick-Up Day, First Night and Which Way to Go",
   description: "How to start a campervan trip in Sydney: pick-up depots near the airport, first-night camps within two hours, tolls, and whether to head north, south or west.",
   category: "Trip planning", region: "New South Wales",

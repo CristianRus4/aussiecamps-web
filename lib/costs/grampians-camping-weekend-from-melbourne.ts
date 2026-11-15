@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "grampians-camping-weekend-from-melbourne",
+  slug: "grampians-camping-weekend-from-melbourne", publishAt: "2026-12-02",
   title: "Grampians weekend camping escape from Melbourne",
   description: "A weekend camping at Gariwerd (the Grampians) from Melbourne: Halls Gap, park campgrounds, the Pinnacle, MacKenzie Falls, Boroka and Reeds lookouts and kangaroos on the oval, three hours by the Western Highway.",
   category: "Road trips", region: "Victoria",

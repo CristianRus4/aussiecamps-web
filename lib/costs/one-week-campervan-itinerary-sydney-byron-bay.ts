@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "one-week-campervan-itinerary-sydney-byron-bay",
+  slug: "one-week-campervan-itinerary-sydney-byron-bay", publishAt: "2026-11-17",
   title: "1 Week Campervan Itinerary Australia: Sydney to Byron Bay",
   description: "A seven-day campervan itinerary from Sydney to Byron Bay, with fewer stops, longer driving days and honest advice on pace, one-way hire and returning the van.",
   category: "Road trips", region: "New South Wales",

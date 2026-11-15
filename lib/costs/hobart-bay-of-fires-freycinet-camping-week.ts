@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "hobart-bay-of-fires-freycinet-camping-week",
+  slug: "hobart-bay-of-fires-freycinet-camping-week", publishAt: "2026-11-18",
   title: "Hobart to Bay of Fires and Freycinet: a week of camping",
   description: "Seven days up Tasmania's east coast from Hobart: Orford, Swansea, Freycinet and Wineglass Bay, Bicheno, the Bay of Fires and St Helens, with where to camp and how to get back.",
   category: "Road trips", region: "Tasmania",

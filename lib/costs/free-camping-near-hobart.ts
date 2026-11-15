@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "free-camping-near-hobart",
+  slug: "free-camping-near-hobart", publishAt: "2026-11-22",
   title: "Free Camping Near Hobart: Huon Valley Forests, Cockle Creek and Cheap Park Camps",
   description: "Where to camp near Hobart on a small budget: forestry land in the Huon Valley, Cockle Creek, Bruny Island and Tasman Peninsula camps, plus where camping is banned.",
   category: "Camping guides", region: "Tasmania",

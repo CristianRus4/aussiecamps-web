@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "australia-experiences-under-100-campers",
+  slug: "australia-experiences-under-100-campers", publishAt: "2026-12-18",
   title: "Australia experiences under A$100 for campers: free walks, hot springs and cheap days out",
   description: "Free and cheap things to do on an Australian camping trip: coastal walks, national parks, hot springs, swimming holes, galleries, ferries and cave tours, with ideas by state.",
   category: "Costs & budget", region: "Australia",

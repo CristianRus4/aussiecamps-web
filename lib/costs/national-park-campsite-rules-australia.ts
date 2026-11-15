@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "national-park-campsite-rules-australia",
+  slug: "national-park-campsite-rules-australia", publishAt: "2026-11-23",
   title: "National Park Campsite Rules in Australia: Quiet Hours, Dogs, Drones and Generators",
   description: "A plain summary of the rules at national park campsites in Australia: quiet hours, dogs, drones, generators, fires, firewood, rubbish, site limits and alcohol.",
   category: "Rules & safety", region: "Australia",

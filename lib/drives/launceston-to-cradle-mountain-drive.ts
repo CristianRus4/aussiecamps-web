@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "launceston-to-cradle-mountain-drive",
+  slug: "launceston-to-cradle-mountain-drive", publishAt: "2026-11-22",
   title: "Launceston to Cradle Mountain Drive 2027: Route, Stops and Camping",
   description: "Drive Launceston to Cradle Mountain through Deloraine, Mole Creek and Sheffield: legs, the Dove Lake shuttle, Parks Pass, camping, fuel, weather and wildlife at dusk.",
   category: "Road trips", region: "Tasmania",

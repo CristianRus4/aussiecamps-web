@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "free-camping-near-bunbury-busselton",
+  slug: "free-camping-near-bunbury-busselton", publishAt: "2026-12-09",
   title: "Free Camping Near Bunbury and Busselton: Forest Camps, Rest Areas and Geographe Bay",
   description: "Where to camp near Bunbury and Busselton: the town and beach bans, Wellington National Park and Ferguson Valley camps, forest nights near Collie and rest areas.",
   category: "Camping guides", region: "Western Australia",

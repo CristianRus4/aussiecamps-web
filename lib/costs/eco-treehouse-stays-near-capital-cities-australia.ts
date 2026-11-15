@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "eco-treehouse-stays-near-capital-cities-australia",
+  slug: "eco-treehouse-stays-near-capital-cities-australia", publishAt: "2026-12-19",
   title: "Eco, Sustainable and Treehouse Stays Near Australian Capital Cities",
   description: "The kinds of eco, off-grid and treehouse stays near Sydney, Melbourne, Brisbane, Adelaide, Perth, Hobart, Canberra and Darwin, where they cluster and how to camp sustainably.",
   category: "Camping guides", region: "Australia",

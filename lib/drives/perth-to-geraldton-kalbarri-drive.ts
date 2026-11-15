@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "perth-to-geraldton-kalbarri-drive",
+  slug: "perth-to-geraldton-kalbarri-drive", publishAt: "2026-12-11",
   title: "Perth to Geraldton and Kalbarri Drive 2027: Indian Ocean Drive, Pinnacles, Stops and Camping",
   description: "Perth to Kalbarri is about 570 km on the Indian Ocean Drive or the Brand Highway. Lancelin, the Pinnacles, Jurien Bay, Dongara, Geraldton, camps, fuel, dump points, wildflowers and Kalbarri National Park.",
   category: "Road trips", region: "Western Australia",

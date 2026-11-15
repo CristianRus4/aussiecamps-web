@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "australian-alps-walking-track",
+  slug: "australian-alps-walking-track", publishAt: "2026-11-20",
   title: "Australian Alps Walking Track: Huts, Camping, Permits and Sections",
   description: "How to walk the Australian Alps Walking Track from Walhalla to Canberra: camping, emergency huts, fuel stove rules, water, food drops, the best season and the best sections to do.",
   category: "Camping guides", region: "Australian Alps",

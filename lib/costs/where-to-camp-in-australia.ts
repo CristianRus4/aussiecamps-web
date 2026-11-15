@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "where-to-camp-in-australia",
+  slug: "where-to-camp-in-australia", publishAt: "2026-12-16",
   title: "Where to Camp in Australia: Campsites by Type and State",
   description: "Where you can camp in Australia: national parks, state forests, free camps, rest areas, showgrounds, holiday parks and farm stays, with costs and the best style by state.",
   category: "Camping guides", region: "Australia",

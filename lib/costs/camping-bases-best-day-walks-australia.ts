@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "camping-bases-best-day-walks-australia",
+  slug: "camping-bases-best-day-walks-australia", publishAt: "2026-12-17",
   title: "Camping bases for Australia's best day walks",
   description: "Where to camp for Wineglass Bay, Dove Lake, Kings Canyon, the Uluru Base Walk, Bluff Knoll and other classic Australian day walks, with walk lengths and tips for heat, water and fire danger.",
   category: "Camping guides", region: "Australia",

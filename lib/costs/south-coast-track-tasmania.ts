@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "south-coast-track-tasmania",
+  slug: "south-coast-track-tasmania", publishAt: "2026-11-18",
   title: "South Coast Track, Tasmania 2026-27: Huts, Permits, Flights and Logistics",
   description: "Walking the South Coast Track from Melaleuca to Cockle Creek: the flight in, the parks pass, mud, river crossings, the New River Lagoon boat and the best season.",
   category: "Camping guides", region: "Tasmania",

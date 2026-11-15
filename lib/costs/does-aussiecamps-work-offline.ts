@@ -7,7 +7,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "does-aussiecamps-work-offline",
+  slug: "does-aussiecamps-work-offline", publishAt: "2026-12-25",
   title: "Does AussieCamps Work Offline? What Needs Signal and What Doesn't",
   description: "AussieCamps keeps every place's details, your saved places and your trips on your iPhone with no signal. Here is what still needs a connection.",
   category: "App guides", region: "Australia",

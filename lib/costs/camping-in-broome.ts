@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "camping-in-broome",
+  slug: "camping-in-broome", publishAt: "2027-01-19",
   title: "Camping in Broome: Holiday Parks, Cable Beach and Where to Base Yourself",
   description: "How to camp in and around Broome: caravan parks near Cable Beach, why there is no free camping in town, and camps on the way to Cape Leveque and 80 Mile Beach.",
   category: "Camping guides", region: "Western Australia",

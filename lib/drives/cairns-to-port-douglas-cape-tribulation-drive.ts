@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "cairns-to-port-douglas-cape-tribulation-drive",
+  slug: "cairns-to-port-douglas-cape-tribulation-drive", publishAt: "2026-12-31",
   title: "Cairns to Port Douglas and Cape Tribulation Drive 2027: Captain Cook Highway, Daintree Ferry and Camping",
   description: "Cairns to Cape Tribulation is about 140 km via Port Douglas and the Daintree River ferry. The coast road, Mossman Gorge, Noah Beach camping, crocodile and stinger safety, fuel and when to go.",
   category: "Road trips", region: "Queensland",

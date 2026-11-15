@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "free-camping-port-augusta-flinders-ranges",
+  slug: "free-camping-port-augusta-flinders-ranges", publishAt: "2027-01-07",
   title: "Free Camping Around Port Augusta and the Flinders Ranges: Rest Areas, Park Camps and Station Stays",
   description: "Where to sleep around Port Augusta and the Flinders Ranges: what is free, what is cheap, the national park camps, Mount Remarkable and station stays worth booking.",
   category: "Camping guides", region: "South Australia",

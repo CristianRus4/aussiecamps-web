@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "newcastle-hunter-barrington-tops-camping-loop",
+  slug: "newcastle-hunter-barrington-tops-camping-loop", publishAt: "2026-11-27",
   title: "Newcastle, Hunter Valley and Barrington Tops Camping Loop",
   description: "A five to seven day camping loop from Newcastle: Stockton Beach and Port Stephens, Hunter Valley wineries, Gloucester and Barrington Tops, then Dungog and back to the coast.",
   category: "Road trips", region: "New South Wales",

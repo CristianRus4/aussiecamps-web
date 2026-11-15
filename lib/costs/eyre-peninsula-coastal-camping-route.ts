@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "eyre-peninsula-coastal-camping-route",
+  slug: "eyre-peninsula-coastal-camping-route", publishAt: "2026-12-07",
   title: "Eyre Peninsula Coastal Camping Route: Port Lincoln, Coffin Bay and Streaky Bay",
   description: "A coastal camping loop around the Eyre Peninsula: Port Lincoln, Lincoln and Coffin Bay national parks, Elliston, Streaky Bay, Baird Bay and Ceduna, with booking, fruit fly and swimming advice.",
   category: "Road trips", region: "South Australia",

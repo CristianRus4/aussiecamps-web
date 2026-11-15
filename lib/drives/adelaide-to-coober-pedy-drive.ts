@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "adelaide-to-coober-pedy-drive",
+  slug: "adelaide-to-coober-pedy-drive", publishAt: "2027-01-08",
   title: "Adelaide to Coober Pedy Drive 2027: Stuart Highway Route, Fuel and Camping",
   description: "Adelaide to Coober Pedy is about 850 km and two days on the Stuart Highway. Fuel at Pimba and Glendambo, rest areas, underground camping, opal field safety, road trains and summer heat.",
   category: "Road trips", region: "South Australia",

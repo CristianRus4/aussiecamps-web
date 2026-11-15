@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "bushwalking-camp-rules-etiquette-australia",
+  slug: "bushwalking-camp-rules-etiquette-australia", publishAt: "2026-12-24",
   title: "Bushwalking Camp Rules and Etiquette in Australia: Toilets, Stoves, Water and Huts",
   description: "The rules and manners of a bush camp in Australia: trowels, fuel stove only areas, water, quiet, sharing huts and tent platforms, wildlife, permits and leave no trace.",
   category: "Rules & safety", region: "Australia",

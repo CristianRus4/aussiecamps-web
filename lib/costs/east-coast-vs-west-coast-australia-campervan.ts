@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "east-coast-vs-west-coast-australia-campervan",
+  slug: "east-coast-vs-west-coast-australia-campervan", publishAt: "2026-12-21",
   title: "East Coast vs West Coast of Australia by Campervan: Which First?",
   description: "East coast or west coast by campervan? Compare distances, towns and services, crowds, beaches, wildlife, seasons, hire availability and one-way fees, and see which trip suits you.",
   category: "Trip planning", region: "Australia",

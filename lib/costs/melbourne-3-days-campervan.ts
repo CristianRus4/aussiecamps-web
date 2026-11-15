@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "melbourne-3-days-campervan",
+  slug: "melbourne-3-days-campervan", publishAt: "2026-11-22",
   title: "Melbourne in 3 Days by Campervan: Itinerary, Parking and Where to Camp",
   description: "A 3 day Melbourne campervan itinerary: trams and hook turns, CBD parking and height limits, where to sleep, and day trips to the Peninsula and Great Ocean Road.",
   category: "Road trips", region: "Victoria",

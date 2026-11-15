@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "best-multi-day-walks-australia-2026-27",
+  slug: "best-multi-day-walks-australia-2026-27", publishAt: "2026-11-21",
   title: "Australia's Best Multi-Day Walks 2026/27: Huts, Campsites, Booking Dates and Fees",
   description: "The best multi-day walks in Australia for 2026/27, from the Overland Track to the Larapinta Trail: huts or tents, when to book, fees and the best season for each.",
   category: "Camping guides", region: "Australia",
