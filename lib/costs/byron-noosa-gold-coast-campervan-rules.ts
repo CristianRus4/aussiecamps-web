@@ -15,7 +15,7 @@ export default article({
   places: ["Byron Bay", "Noosa", "Gold Coast", "Tweed", "Sunshine Coast"],
   imageAlt: "Aerial view of Cape Byron and its lighthouse, with surf along the coast and the green headland rising from the sea",
   intro: "Byron Bay, Noosa and the Gold Coast are the most popular stretch of the east coast and the strictest for campervans. All three councils ban sleeping in vehicles in streets, car parks, reserves and on beaches, and rangers patrol, particularly in summer and school holidays. The reliable answer is a holiday park or caravan park, with booked camps in the hinterland for a quieter night.",
-  related: ["can-i-sleep-in-a-campervan-in-the-city-in-australia", "brisbane-to-byron-bay-drive", "sunshine-coast-hinterland-camping", "camping-rules-queensland", "camping-rules-new-south-wales", "camping-gold-coast"],
+  related: ["can-i-sleep-in-a-campervan-in-the-city-in-australia", "brisbane-to-byron-bay-drive", "sunshine-coast-hinterland-camping", "camping-rules-queensland", "camping-rules-new-south-wales", "camping-gold-coast", "camping-byron-bay"],
   sections: [
     section("Why these three are strict", ["The three places are some of the most visited in the country, with limited parking, residents who complain about vans on their streets and councils that have chosen to act. Each has its own local law banning overnight camping in vehicles in public places.", "Fines are issued, and in peak season the patrols start early and finish late. Treat the rule as enforced, not theoretical."], ["Bans in streets and car parks", "Patrols in summer", "Fines are enforced"], {
       caption: "Campervan rules in each area and what to do instead.",
