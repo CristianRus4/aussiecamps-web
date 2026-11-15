@@ -1,0 +1,45 @@
+import { article, section } from "@/lib/can-i/helpers";
+
+export const faq = [
+  ["Can you camp for free in Canberra?", "No. The ACT has no free camping, and camping on public land outside a booked campground can bring a fine. The free nights start across the border in New South Wales, in state forests an hour or two from the city."],
+  ["Where can you camp in Canberra?", "At Parks ACT campgrounds such as Cotter and the Namadgi camps, which are booked online, or at a holiday park in the city, which gives you power, showers and a short drive to the sights."],
+  ["Can you sleep in a campervan on the street in Canberra?", "No. Overnight camping in vehicles on streets, in car parks and in public parks is not allowed. Use a holiday park or a booked campground as your base."],
+  ["When is the best time to camp in Canberra?", "Autumn and spring. Summer is hot and carries a bushfire season, and winter nights are frosty, often below zero, so you need a warm sleeping bag or a powered site with a heater."],
+] as const;
+
+export default article({
+  slug: "camping-in-canberra", publishAt: "2026-11-17",
+  title: "Camping in Canberra: Holiday Parks, Lakeside Camps and Where to Base Yourself",
+  description: "Where to camp in and around Canberra: the booked Cotter and Namadgi campgrounds, the city holiday parks, lakeside stays in New South Wales and how to pick a base.",
+  category: "Camping guides", region: "Australian Capital Territory",
+  places: ["Cotter Campground", "Namadgi National Park", "Kowen Forest", "Queanbeyan", "Burrinjuck Waters State Park", "Tallaganda"],
+  imageAlt: "Lake Burley Griffin seen from the RG Menzies Walk in Parkes, Canberra",
+  intro: "Canberra is a good place to camp, but not a place to wing it. The ACT has no free camping, vehicle camping is only allowed at booked campgrounds, and the city's streets and parks are off limits overnight. What you get instead is a handful of well-run Parks ACT campgrounds, holiday parks within a few minutes of the lake and the national institutions, and free state forests across the border. Pick the base that suits the trip, book ahead for school holidays and long weekends, and pack for cold nights.",
+  related: ["free-camping-near-canberra", "camping-rules-act", "sydney-to-canberra-drive", "melbourne-to-canberra-drive", "australian-alps-camping-route", "caravan-park-vs-holiday-park"],
+  sections: [
+    section("Choosing a base", ["Most visitors do one of three things. They stay in a city holiday park and drive to the Parliament, the museums and the lake. They stay at Cotter, a short drive west of the city on the river, for a quiet camp with the city still close. Or they head into the Namadgi high country for a night or two of bush camping.", "A city holiday park is the easy answer for a first visit: it has power, hot showers and a camp kitchen, and it suits caravans and larger campervans best. The park campgrounds are better for tents and for a slower pace."], ["City park for sightseeing", "Cotter for a quiet river camp", "Namadgi for the high country"], {
+      caption: "Where to base yourself in and around Canberra.",
+      head: ["Base", "Drive from the centre", "Best for", "Main limit"],
+      rows: [
+        ["City holiday parks", "5 to 20 minutes", "Sightseeing, vans, families", "Book ahead in school holidays"],
+        ["Cotter Campground", "About 25 minutes", "Tents, river walks, quiet", "Booked, no dogs, no generators"],
+        ["Namadgi campgrounds", "45 to 75 minutes", "Walks, stars, wildlife", "Cold nights, basic facilities"],
+        ["NSW state forests", "1 to 2 hours", "Free nights", "No facilities, check closures"],
+      ],
+    }),
+    section("Holiday parks in the city", ["Canberra has several holiday parks on the city's edges, including Canberra Carotel in Watson, Eaglehawk on the Federal Highway, and Alivio Tourist Park in the inner north. All offer powered and unpowered sites and cabins, and the Kingston and Watson parks put you within about 15 minutes of the lake and Parliament House.", "Prices rise in school holidays, over the Floriade spring festival in September and October, and on long weekends, when parks fill weeks ahead. Our caravan parks guide explains how powered sites, cabins and camp kitchens work if you have not used a holiday park before."], ["Book ahead for Floriade", "Powered sites for winter heaters", "Cabins if the nights are cold"]),
+    section("Cotter and the Murrumbidgee", ["Cotter Campground, in the Cotter Recreation Area on the Murrumbidgee River, is the ACT's best known park camp. It has hot showers, drinking water, flushing toilets and barbecues, and the river, the dam and the walking and cycling trails are on the doorstep. Bookings are required and made through Parks ACT.", "Dogs are not allowed, generators are not allowed and there is no phone signal at the campground, so book and download what you need before you leave the city. Check the Parks ACT page for closures, which happen for maintenance and during fire danger."], ["Booked online, no walk-ups", "No dogs or generators", "No phone signal on site"]),
+    section("Namadgi National Park", ["Namadgi, south-west of the city, covers most of the ACT's high country. Its campgrounds, including Honeysuckle, Orroral and Mount Clear, are simple, booked sites with toilets and little else, and the walks start from the camps or nearby. Park entry is free, and the camping fee is paid when you book.", "Nights are cold even in late spring, and the 2020 Orroral Valley fire burnt a large part of the park, so check track and road status before you go. Wildlife is part of the draw, with kangaroos at dusk almost everywhere."], ["Honeysuckle, Orroral, Mount Clear", "Frosts even in spring", "Check track status first"]),
+    section("Lakeside and bush camps in New South Wales", ["Across the border, Queanbeyan and the Southern Tablelands have more choice than the ACT does. Burrinjuck Waters State Park, about 90 minutes north-west, has camping and cabins beside the dam, and Forestry Corporation's state forests around Tallaganda, Kowen and the Brindabellas allow free camping. Our free camping near Canberra guide lists the closest ones.", "State forests can close for harvesting, burns and fire, so check Forestry Corporation before you drive. If you want the mountains, the Australian Alps camping route continues south from Canberra through the Snowy Mountains to Jindabyne."], ["Burrinjuck for lake camping", "State forests are free", "Check closures before you go"]),
+    section("Rules, fire and winter", ["The ACT bushfire season runs from 1 October to 31 March, and on Total Fire Ban days no fires of any kind are allowed. Our campfires and fire bans pages explain how the ratings work. Camping outside a booked campground in the ACT can bring a fine, and our ACT camping rules guide covers the detail.", "Canberra winters are dry and frosty. Overnight lows below zero are normal from June to August, and the high country can have snow. Pack a warm sleeping bag and a hat, or book a powered site and bring a heater."], ["Fire season from 1 October", "Frosts June to August", "Check the Total Fire Ban status"]),
+    section("Getting here", ["From Sydney, Canberra is about three to three and a half hours down the Hume and Federal Highways, and from Melbourne about seven hours via the Hume. Both drives have rest areas and camps along the way, covered in our Sydney and Melbourne to Canberra drive guides.", "Once you are in the city, you do not need a 4WD for any of the park campgrounds, but the roads into Namadgi and the forests can be gravel and slippery after rain."], ["Sydney 3 to 3.5 hours", "Melbourne about 7 hours", "No 4WD needed for park camps"]),
+    { ...section("Plan Canberra in AussieCamps", ["AussieCamps lists campgrounds, national parks, rest areas, dump points and holiday parks around Canberra and across the border in New South Wales, with each place's facilities, fees and rules as the agency publishes them. Filter by cost or dogs allowed, sort by nearest, and save your short list to a trip with the weather for each stop.", "Park campsites are booked with Parks ACT, not in the app, and holiday parks listed by BookEasy can be booked from the app. AussieCamps runs on iPhone, has no account and no ads, and is free to download, with in-app purchases."], ["Filter by cost and dogs allowed", "Trips with weather per stop", "Book park camps with Parks ACT"]), cta: true },
+  ],
+  sources: [
+    { label: "Parks ACT: where to stay", url: "https://www.parks.act.gov.au/where-to-stay" },
+    { label: "Parks ACT: Cotter Campground", url: "https://www.parks.act.gov.au/find-a-park/murrumbidgee-river-corridor/cotter-campground" },
+    { label: "Visit Canberra", url: "https://www.visitcanberra.com.au/" },
+    { label: "Forestry Corporation of NSW: camping and picnics", url: "https://www.forestrycorporation.com.au/visit/activities/camping-and-picnics" },
+    { label: "ACT Emergency Services Agency: bushfire season", url: "https://esa.act.gov.au/be-emergency-ready/bushfires" },
+  ],
+});
