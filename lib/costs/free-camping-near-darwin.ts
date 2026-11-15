@@ -15,7 +15,7 @@ export default article({
   places: ["Litchfield National Park", "Kakadu", "Mary River", "Adelaide River", "Katherine"],
   imageAlt: "Florence Falls, Litchfield National Park",
   intro: "Free camping near Darwin is rare. The Northern Territory allows free overnight stops only at signed rest stops for up to 24 hours, park campgrounds at Litchfield, Kakadu and Mary River are booked and paid, and camping in Darwin itself is banned. The camps are cheap and well worth it, and the dry season from May to October is when the Top End is at its best.",
-  related: ["free-camping-northern-territory", "camping-rules-northern-territory", "darwin-kakadu-litchfield-loop", "wet-season-camping-top-end-northern-wa", "darwin-to-alice-springs-drive", "can-i-stay-overnight-at-a-rest-area-in-australia"],
+  related: ["free-camping-northern-territory", "camping-rules-northern-territory", "darwin-kakadu-litchfield-loop", "wet-season-camping-top-end-northern-wa", "darwin-to-alice-springs-drive", "can-i-stay-overnight-at-a-rest-area-in-australia", "kakadu-national-park-camping"],
   sections: [
     section("Why free is rare here", ["Northern Territory rules limit free camping to signed rest stops with a 24-hour limit. Park camps are booked online at roughly $10 to $20 per adult a night, and visitors need an NT Parks Visitor Pass. Darwin's council area bans camping in parks, on beaches and on streets.", "The Top End is a long way from anywhere, so the free rest stops matter on the long drives, but the camps near Darwin are cheap enough that most people book them."], ["Rest stops: 24 hours", "Parks booked online", "No camping in Darwin"], {
       caption: "Where you can stay near Darwin, how far it is, and the main limit.",

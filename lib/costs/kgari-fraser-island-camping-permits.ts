@@ -15,7 +15,7 @@ export default article({
   places: ["K'gari (Fraser Island)", "Hervey Bay", "Rainbow Beach", "Central Station", "Lake McKenzie"],
   imageAlt: "Four-wheel drives parked on the sand and tyre tracks on the beach at K'gari (Fraser Island), Queensland",
   intro: "K'gari, the island formerly known as Fraser Island, is the largest sand island in the world, and one of the best places in Australia for a 4WD camping trip. It is also one of the most regulated. You need a camping permit for every night and a vehicle access permit for your 4WD, both booked before you go, and you can only camp in named zones and campgrounds. Book early, plan the tides, and take the dingo rules seriously.",
-  related: ["can-i-drive-on-the-beach-in-australia", "can-i-camp-on-the-beach-in-australia", "camping-rules-queensland", "can-i-drive-a-2wd-hire-campervan-on-4wd-roads-in-australia", "camping-fees-australia-2026"],
+  related: ["can-i-drive-on-the-beach-in-australia", "can-i-camp-on-the-beach-in-australia", "camping-rules-queensland", "can-i-drive-a-2wd-hire-campervan-on-4wd-roads-in-australia", "camping-fees-australia-2026", "moreton-island-north-stradbroke-island-camping"],
   sections: [
     section("What permits you need", ["You need two permits to camp on K'gari with a vehicle: a camping permit for each night, and a vehicle access permit for the 4WD. Both are booked through the Queensland parks booking service and paid in advance, and they cost less if you book online before you arrive.", "Camping outside a zone or campground is not allowed, and rangers check permits on the beach and at the camps."], ["Camping permit each night", "Vehicle access permit", "No camping outside zones"], {
       caption: "Permits and camps on K'gari.",

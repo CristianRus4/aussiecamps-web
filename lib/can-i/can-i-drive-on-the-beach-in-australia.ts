@@ -15,7 +15,7 @@ export default article({
   places: ["K'gari", "Stockton Beach", "Cable Beach", "Arthur-Pieman"],
   imageAlt: "Four-wheel drives parked on the sand beside tyre tracks on the beach at K'gari (Fraser Island), Queensland",
   intro: "It depends on the beach: you can drive on some beaches in Queensland, NSW, South Australia, Western Australia and Tasmania, but only where the land manager allows it, often with a vehicle access permit and a 4WD. Victoria prohibits private vehicles on beaches except where an exemption applies, and where driving is allowed you keep to the permitted beach, tracks and areas.",
-  related: ["camping-rules-queensland", "camping-rules-new-south-wales", "responsible-camping-australia", "camping-rules-south-australia"],
+  related: ["camping-rules-queensland", "camping-rules-new-south-wales", "responsible-camping-australia", "camping-rules-south-australia", "moreton-island-north-stradbroke-island-camping"],
   sections: [
     section("The short answer by state", ["Beach driving is a permit and 4WD question in most states, and a no in Victoria. Queensland and South Australia both say normal road rules apply on beaches, so the vehicle must be registered and the driver licensed. Camping on the beach has separate rules, covered in the beach camping guide."], ["Permit before you drive", "4WD where required", "Checked 2026-10-21"], {
       caption: "Beach driving by state and territory, checked 21 October 2026.",

@@ -15,7 +15,7 @@ export default article({
   places: ["Newcastle", "Port Macquarie", "Coffs Harbour", "Ballina", "Byron Bay", "Tweed Heads", "Surfers Paradise"],
   imageAlt: "The Pacific Highway running as a divided road through green hills on the New South Wales north coast",
   intro: "Sydney to the Gold Coast is about 840 km up the Pacific Highway, mostly dual carriageway, with a time change at the Queensland border for half the year. It is a long day or an easy two, and the coastal towns and national parks along the way are worth the extra night.",
-  related: ["sydney-to-byron-bay-drive", "brisbane-to-sydney-drive", "brisbane-to-byron-bay-drive", "east-coast-road-trip-sydney-cairns", "toll-roads-australia-hire-car-campervan", "camping-rules-queensland"],
+  related: ["sydney-to-byron-bay-drive", "brisbane-to-sydney-drive", "brisbane-to-byron-bay-drive", "east-coast-road-trip-sydney-cairns", "toll-roads-australia-hire-car-campervan", "camping-rules-queensland", "camping-gold-coast"],
   sections: [
     section("The route and how long it takes", ["The Pacific Highway (M1) is the route all the way: out of Sydney through the Central Coast to Newcastle, north through Taree, Port Macquarie, Coffs Harbour and Grafton, then past Ballina and Byron Bay to the border at Tweed Heads and Coolangatta. The Gold Coast begins just over the border.", "Allow two days with a night at Port Macquarie or Coffs Harbour, or three to spend more time on the coast. The Sydney to Byron Bay guide covers the route up to Byron in more detail, and the Brisbane to Sydney guide covers the whole highway."], ["Two days is comfortable", "Overnight at Port Macquarie or Coffs", "Border time change in summer"], {
       caption: "A two day split. Distances are approximate.",

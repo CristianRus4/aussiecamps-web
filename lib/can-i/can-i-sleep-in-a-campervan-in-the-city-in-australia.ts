@@ -15,7 +15,7 @@ export default article({
   places: ["Capital cities", "Holiday parks", "City streets", "Council car parks"],
   imageAlt: "Cars parked at the kerb on High Street in Fremantle, Western Australia, at dusk",
   intro: "Usually not on the street. Brisbane makes it illegal to camp overnight in a vehicle on a road, Darwin regulates camping in a motor vehicle or campervan in public spaces, and Perth needs approval to camp in a caravan on land that is not a caravan park. Elsewhere the council sets the rule, so a legal bed in a city means a holiday park or a signed overnight area. The pages below were read on 28 October 2026.",
-  related: ["sleeping-in-car-australia", "can-i-stay-overnight-at-a-rest-area-in-australia", "is-free-camping-legal-australia", "caravan-park-vs-holiday-park"],
+  related: ["sleeping-in-car-australia", "can-i-stay-overnight-at-a-rest-area-in-australia", "is-free-camping-legal-australia", "caravan-park-vs-holiday-park", "sydney-3-days-campervan"],
   sections: [
     section("What the main cities say", ["Australia has no single rule for sleeping in a campervan in a city. Councils write local laws and by-laws, and the answer changes at each council boundary. The table shows what each official source says."], ["Councils decide", "Look for signed areas", "Holiday parks are the safe answer"], {
       caption: "Sleeping in a vehicle in capital cities, from council and official pages read 28 October 2026.",
