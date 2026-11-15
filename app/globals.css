@@ -668,6 +668,9 @@ em { color: inherit; font: inherit; font-style: normal; }
 .pl-stars { display: inline-flex; gap: 2px; }
 .pl-stars svg { width: 18px; height: 18px; color: #cfa53a; }
 .pl-stars svg.on { fill: #e3b341; color: #e3b341; }
+/* A half star: the empty outline with a full star over it, clipped to its left half. */
+.pl-star-half { position: relative; display: inline-flex; }
+.pl-star-half svg.on { position: absolute; inset: 0; clip-path: inset(0 50% 0 0); }
 .pl-gallery { height: 460px; position: relative; display: grid; gap: 8px; }
 .pl-gallery img { width: 100%; height: 100%; min-width: 0; object-fit: cover; background: var(--soft); }
 .pl-gallery-5 { grid-template-columns: 2fr 1fr 1fr; grid-template-rows: 1fr 1fr; }

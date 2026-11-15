@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { PlaceMap } from "@/components/places/place-map";
-import { Images, MapPin, Star, StarHalf } from "lucide-react";
+import { Images, MapPin, Star } from "lucide-react";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { GuideEndCta, GuideSideCard, StoreWithQr } from "@/components/guide-cta";
@@ -31,7 +31,7 @@ function Stars({ value }: { value: number }) {
   const full = Math.floor(value);
   const half = value - full >= 0.5;
   return <span className="pl-stars" role="img" aria-label={`${value} out of 5 stars`}>
-    {[0, 1, 2, 3, 4].map((index) => index < full ? <Star key={index} className="on" aria-hidden="true" /> : index === full && half ? <StarHalf key={index} className="on" aria-hidden="true" /> : <Star key={index} aria-hidden="true" />)}
+    {[0, 1, 2, 3, 4].map((index) => index < full ? <Star key={index} className="on" aria-hidden="true" /> : index === full && half ? <span key={index} className="pl-star-half" aria-hidden="true"><Star /><Star className="on" /></span> : <Star key={index} aria-hidden="true" />)}
   </span>;
 }
 
