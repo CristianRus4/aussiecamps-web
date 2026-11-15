@@ -15,7 +15,7 @@ export default article({
   places: ["Atherton Tableland", "Daintree", "Cape Tribulation", "Port Douglas", "Palm Cove"],
   imageAlt: "Cape Tribulation and the Daintree coast",
   intro: "Free camping near Cairns is rare. Queensland charges for camping in its national parks and forests, councils ban it in and around the city, and the tropical climate adds wet-season floods and crocodiles to the mix. What you can do is stay cheaply at permit camps on the Tablelands and the Daintree coast, use a holiday park for the city, and keep the odd free night for a rest area or council camp further out.",
-  related: ["camping-rules-queensland", "brisbane-to-cape-tribulation", "brisbane-to-cairns-drive", "wet-season-camping-top-end-northern-wa", "can-i-stay-overnight-at-a-rest-area-in-australia"],
+  related: ["camping-rules-queensland", "ten-day-campervan-itinerary-cairns-tropical-north", "brisbane-to-cape-tribulation", "brisbane-to-cairns-drive", "wet-season-camping-top-end-northern-wa", "can-i-stay-overnight-at-a-rest-area-in-australia"],
   sections: [
     section("Why free is rare in the tropics", ["Queensland's parks and forests need a booked camping permit, so there are no free park camps. Cairns and the coast between Palm Cove and Port Douglas are tourist country, and councils sign against camping in streets, car parks and on beaches. Rangers patrol in the dry season when the town is full.", "The practical plan is a holiday park for the city nights and a few permit camps or council camps for the rest."], ["Parks need a permit", "No camping on beaches", "Patrols in the dry season"], {
       caption: "Where you can stay near Cairns, how far it is, and the main limit.",
