@@ -62,13 +62,13 @@ function headTags({ site, title, description, url, image }) {
 
 /** Renders the page of `link`, or without one the 404 (`status` 404) or 410 page, like /trip/'s own errors: the
  * heading "Shared trip" and the message under it. The caller sets the status and the caching headers. */
-export async function renderLinkPage({ site, shell, places, ctx, kind, id, link, status }) {
+export async function renderLinkPage({ site, shell, places, ctx, kind, id, link, status, preview }) {
   const url = `${site.url}/${kind}/${id}`;
   const cards = link ? await cardsFor(link, places, site, ctx) : new Map();
   const title = link ? link.n : status === 410 ? "This link was removed" : "This link doesn't exist";
   const description = link ? previewLine(link) : title;
-  const photo = link ? previewImage(link, cards) : "";
-  const image = photo ? { url: photo } : { ...HOME_IMAGE, url: `${site.url}${HOME_IMAGE.url}` };
+  // og:image: the picture the app uploaded (`preview`, src/link-image.js), otherwise the site's own image.
+  const image = (link && preview) || { ...HOME_IMAGE, url: `${site.url}${HOME_IMAGE.url}` };
   const head = headTags({ site, title, description, url, image });
   const appLink = link ? `${site.scheme}://${kind}/${id}` : `${site.scheme}://`;
 

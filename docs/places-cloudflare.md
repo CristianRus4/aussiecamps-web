@@ -76,6 +76,27 @@ passes through to GitHub Pages.
 - Storage: the R2 bucket `aussiecamps-links` (binding LINKS), objects `links/<id>.json`. pages.yml creates
   the bucket if it is missing; nothing in the build ever syncs or empties it.
 
+**Preview picture.** The app draws the link's preview (the trip's name and stats) and uploads it; the page's
+`og:image` and `twitter:image` are then that picture, otherwise the site's own image (`homeOgImage`), never a
+place's photo (places-worker/src/link-image.js).
+
+| Request | Answer |
+|---|---|
+| `PUT /api/links/<id>/image`, the link's token, `Content-Type: image/jpeg` or `image/png`, raw bytes ≤ 150 KB | 200 `{"url":"https://aussiecamps.app/api/links/<id>/image?v=<upload ms>"}`; 400 bytes not a JPEG/PNG, not the declared type, truncated, or not exactly 1200×630; 401/403 token; 404 no link; 410 link removed; 413 over 150 KB; 415 other Content-Type; 429 another upload within 60 s (`Retry-After`) |
+| `DELETE /api/links/<id>/image`, same token | 204 (also when there was none) |
+| `GET /api/links/<id>/image` | the picture, our content type, `nosniff`, `inline`, `max-age=300`, ETag; 404 none or expired, 410 link removed |
+
+- The bytes decide the type: a JPEG's SOF0–SOF2 frame header or a PNG's IHDR gives the size. Stored as
+  `images/<id>` in the links bucket with the upload time; deleting the link deletes it.
+- One upload per link a minute, judged from the stored picture's upload time, on top of the 30 writes a minute.
+- Expiry: an R2 lifecycle rule `expire-preview-images` deletes objects under `images/` 90 days after upload
+  (pages.yml adds it once to `aussiecamps-links`; it never touches `links/`). The app should upload again when
+  the trip changes, which also restarts the 90 days.
+- Caching: the page checks `images/<id>` through the data centre's cache for a minute, so after expiry it falls
+  back to the site's image by itself; `?v=` changes with every upload, so previews refresh; the versioned
+  picture is served from the data centre's cache for 5 minutes (a deleted picture can linger that long in
+  other data centres).
+
 **Pages.** The Worker fills the shell `shells/link.html` (app/link-shell/page.tsx, copied by
 `npm run links:assets -- --out worker-dist` after the place export) with the link's colour, badge (its symbol on
 its colour), name, stats (a trip's dates, stops, distance and driving time when the app sent them; a

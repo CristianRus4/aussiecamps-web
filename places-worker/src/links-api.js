@@ -5,15 +5,18 @@
  *   PUT    /api/links/<id>   Authorization: Bearer <token>   body: the link (src/validate.js), at most 64 KB
  *   DELETE /api/links/<id>   same token: keeps a tombstone, and the page answers 410
  *   GET    /api/links/<id>   the stored link; 404 unknown, 410 removed
+ *   PUT, DELETE, GET /api/links/<id>/image   the link's preview picture (src/link-image.js), same token
  *
  * The first PUT claims the id: it stores the SHA-256 of the token in the object's metadata, as a conditional
  * create, so of two racing creators only one wins. Every later PUT or DELETE must bring the same token (403
  * otherwise); a PUT after a DELETE restores the link.
  */
+import { deleteImage, getImage, putImage } from "./link-image.js";
 import { LINK_ID, validateLink } from "./validate.js";
 
 export const MAX_BODY = 64 * 1024;
 const TOKEN = /^Bearer ([A-Za-z0-9_-]{43})$/;
+const IMAGE_PATH = /^([A-Za-z0-9]{12})\/image$/;
 
 export const linkKey = (id) => `links/${id}.json`;
 export const json = (body, status = 200, headers = {}) =>
@@ -74,12 +77,24 @@ async function put(request, env, site, id, hash) {
   return json({ error: "the link changed at the same time; try again" }, 409);
 }
 
-async function remove(env, id, hash) {
+async function remove(env, site, id, hash, ctx) {
   const key = linkKey(id);
   const existing = await env.LINKS.head(key);
   if (!existing) return json({ error: "not found" }, 404);
   if (!sameHash(existing.customMetadata?.h, hash)) return json({ error: "wrong token" }, 403);
   if (existing.customMetadata?.removed !== "1") await env.LINKS.put(key, "", { customMetadata: { h: hash, removed: "1" } });
+  await deleteImage(env, site, id, ctx);
+  return new Response(null, { status: 204 });
+}
+
+/** PUT or DELETE of a link's picture: only for a live link, with its token. */
+async function image(request, env, site, id, hash, ctx) {
+  const link = await env.LINKS.head(linkKey(id));
+  if (!link) return json({ error: "not found" }, 404);
+  if (!sameHash(link.customMetadata?.h, hash)) return json({ error: "wrong token" }, 403);
+  if (link.customMetadata?.removed === "1") return json({ error: "removed" }, 410);
+  if (request.method === "PUT") return putImage(request, env, site, id, ctx);
+  await deleteImage(env, site, id, ctx);
   return new Response(null, { status: 204 });
 }
 
@@ -92,15 +107,18 @@ async function read(request, env, id) {
 }
 
 /** Answers /api/links/<rest>. `limited(kind)` is the rate limit check: a 429 Response or null. */
-export async function linksApi(request, env, site, rest, limited) {
+export async function linksApi(request, env, site, rest, limited, ctx) {
   const method = request.method;
   if (!["GET", "HEAD", "PUT", "DELETE"].includes(method)) return json({ error: "method not allowed" }, 405, { allow: "GET, HEAD, PUT, DELETE" });
   const blocked = await limited(method === "GET" || method === "HEAD" ? "read" : "write");
   if (blocked) return blocked;
-  if (!LINK_ID.test(rest)) return json({ error: "the id must be 12 letters or digits" }, 400);
-  if (method === "GET" || method === "HEAD") return read(request, env, rest);
+  const picture = IMAGE_PATH.exec(rest);
+  const id = picture ? picture[1] : rest;
+  if (!LINK_ID.test(id)) return json({ error: "the id must be 12 letters or digits" }, 400);
+  if (method === "GET" || method === "HEAD") return picture ? getImage(request, env, site, id, ctx, linkKey(id)) : read(request, env, id);
   const token = TOKEN.exec(request.headers.get("authorization") ?? "");
   if (!token) return json({ error: "a Bearer token of 43 base64url characters is required" }, 401);
   const hash = await sha256(token[1]);
-  return method === "PUT" ? put(request, env, site, rest, hash) : remove(env, rest, hash);
+  if (picture) return image(request, env, site, id, hash, ctx);
+  return method === "PUT" ? put(request, env, site, id, hash) : remove(env, site, id, hash, ctx);
 }
