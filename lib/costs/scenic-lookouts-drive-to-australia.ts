@@ -1,0 +1,50 @@
+import { article, section } from "@/lib/can-i/helpers";
+
+export const faq = [
+  ["Which Australian lookouts can you drive to?", "Echo Point at Katoomba, Govetts Leap at Blackheath, Mount Coot-tha in Brisbane, Mount Ainslie in Canberra, Mount Lofty near Adelaide and kunanyi/Mount Wellington above Hobart all have a road to the viewpoint. Boroka Lookout in the Grampians and Hawks Head in Kalbarri are also a short drive and a few steps."],
+  ["Can a campervan or caravan drive up to a lookout?", "Most sealed lookout roads take a campervan, but car parks are small and fill early on fine weekends. Roads like Pinnacle Road on kunanyi/Mount Wellington are narrow and winding, so a big motorhome or a van with a trailer is better left at camp, with a day trip in a smaller vehicle or a tour."],
+  ["What time of day is best at a lookout?", "Early morning and the hour before sunset give the best light and the thinnest crowds. West-facing lookouts such as Mount Coot-tha and Mount Lofty suit sunset, and east-coast headlands such as Cape Byron and Point Danger suit sunrise."],
+  ["Do any of these lookouts close?", "Yes. The Pinnacle Road to kunanyi/Mount Wellington closes when snow or ice is forecast, which can happen in any season. Park roads in the Flinders Ranges and the Grampians can close after heavy rain, and Kalbarri's gorge country is limited on very hot days."],
+] as const;
+
+export default article({
+  slug: "scenic-lookouts-drive-to-australia",
+  publishAt: "2026-11-17",
+  title: "Scenic Lookouts You Can Drive To in Australia: Viewpoints Without the Hike",
+  description: "Thirteen big-view lookouts in Australia that you reach by road, from Echo Point and Mount Lofty to kunanyi/Mount Wellington, with parking, road and light tips for a campervan.",
+  category: "Trip planning", region: "Australia",
+  places: ["Echo Point", "Cape Byron", "Mount Coot-tha", "Mount Ainslie", "kunanyi/Mount Wellington", "Mount Lofty", "Kalbarri National Park", "Grampians National Park"],
+  imageAlt: "The Horn in Mount Buffalo National Park",
+  intro: "Some of the best views in Australia need nothing more than a drive and a short stroll from the car park. The lookouts below all have a road to or very near the viewpoint, so they suit tired legs, small kids, a hot day or a tight schedule. Thirteen of them are listed by state, with the camps nearby, how the road drives and when the light is best.",
+  related: ["blue-mountains-camping-weekend", "flinders-ranges-camping-guide", "kalbarri-coral-coast-camping", "waterfalls-with-campsites-australia", "tasmania-camping-loop", "free-camping-near-canberra"],
+  sections: [
+    section("Thirteen lookouts by state", ["Each viewpoint here is reached by sealed road unless noted, and the walk from the car park is short and mostly flat. Distances are rounded, so check the current road and park status before you go."], ["Pick one per day", "Check road status first", "Carry water and a jacket"], { caption: "Drive-up lookouts by state, with the best time for light.", head: ["State", "Lookout", "Base for the night", "Best light"], rows: [
+      ["New South Wales", "Echo Point, Katoomba", "Blue Mountains camps and caravan parks", "Sunrise and late afternoon"],
+      ["New South Wales", "Govetts Leap, Blackheath", "Blue Mountains camps near Blackheath", "Morning, then late afternoon"],
+      ["New South Wales", "Cape Byron lighthouse", "Byron Bay caravan parks", "Sunrise"],
+      ["Queensland and New South Wales", "Point Danger, Coolangatta and Tweed Heads", "Gold Coast and Tweed caravan parks", "Sunrise"],
+      ["Queensland", "Mount Coot-tha Summit Lookout, Brisbane", "Camps and caravan parks around Brisbane", "Sunset and after dark"],
+      ["Australian Capital Territory", "Mount Ainslie Lookout, Canberra", "Canberra holiday parks", "Sunrise and sunset"],
+      ["Victoria", "Boroka Lookout, Grampians", "Halls Gap area camps", "Sunset"],
+      ["Victoria", "Reeds Lookout, Grampians", "Halls Gap area camps", "Morning"],
+      ["Tasmania", "kunanyi/Mount Wellington summit", "Hobart caravan parks", "Clear mornings"],
+      ["South Australia", "Mount Lofty Summit, Adelaide Hills", "Adelaide and Adelaide Hills camps", "Sunset"],
+      ["South Australia", "Razorback Lookout, Ikara-Flinders Ranges National Park", "Wilpena Pound area camps", "Early morning and sunset"],
+      ["Western Australia", "Hawks Head Lookout, Kalbarri National Park", "Kalbarri caravan parks", "Morning"],
+      ["Western Australia", "Z Bend Lookout, Kalbarri National Park", "Kalbarri caravan parks", "Morning"],
+    ] }),
+    section("New South Wales and the border coast", ["Echo Point at Katoomba is the postcard view of the Three Sisters over the Jamison Valley, and it is busy from mid-morning, so go at sunrise or late in the day. Govetts Leap at Blackheath looks over the Grose Valley to a long waterfall, with fewer people and a quieter car park. Our Blue Mountains weekend guide has the camps.", "Cape Byron is the most easterly point on the mainland, with a lighthouse, whales passing in winter and a view up and down the coast. The car park by the lighthouse is small and fills early, so arrive before sunrise or walk up from town. Point Danger sits on the Queensland and New South Wales border, and its headland lookout gives wide ocean views and a good sunrise."], ["Echo Point at sunrise", "Park early at Cape Byron", "Govetts Leap is quieter"]),
+    section("Brisbane, Canberra and the Adelaide Hills", ["Mount Coot-tha has a sealed road from Brisbane and a summit lookout over the city, the river and Moreton Bay, so it works well at sunset and into the evening when the lights come on. Mount Ainslie in Canberra looks straight down Anzac Parade to Parliament House and the lake, and it is just as good at dawn as at dusk. Our free camping near Canberra guide covers where to sleep.", "Mount Lofty Summit in the Adelaide Hills has a sealed road, a car park and wide views over the Adelaide plains and Gulf St Vincent. Sunset suits it, and so does a clear morning after rain."], ["Mount Coot-tha after dark", "Mount Ainslie both ends", "Mount Lofty at sunset"]),
+    section("Grampians, Flinders Ranges and Kalbarri", ["Boroka Lookout and Reeds Lookout in the Grampians (Gariwerd) are both a short drive from Halls Gap along sealed roads, with a few steps from the car park. Boroka looks over the valley and Lake Bellfield at sunset, and Reeds is a good morning stop. Check Parks Victoria for road closures after heavy rain.", "Razorback Lookout is in Ikara-Flinders Ranges National Park, reached by Bunyeroo Road, which is unsealed, so check conditions after rain before you go. It looks across to St Mary Peak and glows red in early light. Our Flinders Ranges guide has the camps and the track details.", "In Kalbarri National Park, Hawks Head and Z Bend are short stops on the sealed road to the Murchison River gorge, with big views of red rock. Go in the morning, because the heat builds fast and park access can be limited on very hot days. Our Kalbarri guide has the camps."], ["Grampians roads close in storms", "Razorback road is unsealed", "Kalbarri heat builds early"]),
+    section("kunanyi/Mount Wellington", ["The summit of kunanyi/Mount Wellington is about a 30 minute drive from Hobart and reaches 1,271 metres, with views over the city, the Derwent and out to Bruny Island on a clear day. The Pinnacle Road is sealed but narrow and winding, and tour buses use it too, so a big van is better left at camp.", "The road can close at short notice for snow and ice, in any season, and it is colder and windier at the top than in town. Check the City of Hobart road status before you go, and pack warm layers even in summer. Our Tasmania camping loop has the camps on the way around the island."], ["Check road status first", "Leave big vans at camp", "Pack warm layers"]),
+    section("Parking, roads and light", ["Lookout car parks are small and built for cars. In a campervan, arrive early or late, look for any bays marked for long vehicles and never block a turning area. On narrow, winding roads, drive slowly, give way on blind corners and watch for cyclists, as well as wildlife at dawn and dusk. Our night driving guide has more on animals on the road.", "Sunrise and sunset give the soft light, but the best sunrise views need an early start and a torch. East-facing lookouts such as Cape Byron and Point Danger suit sunrise, and west-facing ones such as Mount Coot-tha, Mount Lofty and Boroka suit sunset. Fog and cloud can hide a view completely, so keep a second day free."], ["Arrive early or late", "Slow on winding roads", "Keep a spare day"]),
+    { ...section("Plan the lookout trip in AussieCamps", ["Use the Add stop button to build a trip from lookout to lookout and see the driving distance and time for each leg. Add dates, notes and weather to each stop, and use the To-do list for jobs like checking road status before you go.", "Find a camp nearby with filters such as Dogs allowed, Cost and Popular features like toilets, and sort by Nearest to see what is closest to your lookout. Save places to your own collections, such as Want to visit, and share the trip with Collaborate or Send copy. The whole directory is inside the app, so search, filters and place details work with no signal. AussieCamps is an iPhone app with no account and no ads."], ["Add stop for each lookout", "Filter by facilities", "Save to Want to visit"]), cta: true },
+  ],
+  sources: [
+    { label: "NSW National Parks", url: "https://www.nationalparks.nsw.gov.au/" },
+    { label: "Parks Victoria", url: "https://www.parks.vic.gov.au/" },
+    { label: "City of Hobart: kunanyi/Mount Wellington", url: "https://www.hobartcity.com.au/Things-To-Do/Kunanyi-Mt-Wellington" },
+    { label: "Parks and Wildlife Service WA: Explore Parks WA", url: "https://exploreparks.dbca.wa.gov.au/" },
+    { label: "South Australian National Parks", url: "https://www.parks.sa.gov.au/" },
+  ],
+});
