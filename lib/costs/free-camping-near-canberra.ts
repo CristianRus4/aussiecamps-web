@@ -15,7 +15,7 @@ export default article({
   places: ["Namadgi National Park", "Cotter Campground", "Tallaganda", "Snowy Valleys", "Jindabyne"],
   imageAlt: "View from Mount Kosciuszko",
   intro: "There is no free camping in Canberra. The ACT only allows vehicle camping at booked campgrounds, and camping on other public land without a permit is an offence. The free nights are just over the border: New South Wales state forests allow free camping with no booking, and country councils on the Southern Tablelands and in the Snowy Valleys run free or cheap camps within an hour or two of the city.",
-  related: ["camping-rules-act", "australian-alps-camping-route", "sydney-to-canberra-drive", "melbourne-to-canberra-drive", "can-i-camp-in-a-state-forest-in-australia"],
+  related: ["camping-rules-act", "canberra-southern-highlands-camping-loop", "australian-alps-camping-route", "sydney-to-canberra-drive", "melbourne-to-canberra-drive", "can-i-camp-in-a-state-forest-in-australia"],
   sections: [
     section("The ACT: booked campgrounds only", ["Parks ACT lists every place you can camp: Cotter, Honeysuckle, Orroral, Mount Clear, Kowen and others. All need a booking and fee, and camping on public land elsewhere without a permit can bring a fine of up to 20 penalty units.", "Commercial holiday parks around the city are the easy base for a visit, with powered sites the park campgrounds do not offer."], ["Bookings and fees apply", "Fines up to 20 penalty units", "Holiday parks have power"], {
       caption: "Where you can stay near Canberra, how far it is, and the main limit.",

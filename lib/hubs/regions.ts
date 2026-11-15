@@ -88,7 +88,7 @@ export const noteSource = () => Object.fromEntries(Object.entries(stateNotes).fl
 
 /** States that share a land border, for links to the same kind of hub next door. Tasmania has none. */
 export const neighbours: Record<string, string[]> = {
-  NSW: ["QLD", "VIC", "SA", "ACT", "two-week-campervan-itinerary-sydney-brisbane", "one-week-campervan-itinerary-sydney-byron-bay", "snowy-mountains-kosciuszko-camping-road-trip", "newcastle-hunter-barrington-tops-camping-loop"], VIC: ["NSW", "SA"], QLD: ["NSW", "NT", "SA"], SA: ["WA", "NT", "QLD", "NSW", "VIC"],
+  NSW: ["QLD", "VIC", "SA", "ACT", "two-week-campervan-itinerary-sydney-brisbane", "one-week-campervan-itinerary-sydney-byron-bay", "snowy-mountains-kosciuszko-camping-road-trip", "newcastle-hunter-barrington-tops-camping-loop", "canberra-southern-highlands-camping-loop"], VIC: ["NSW", "SA"], QLD: ["NSW", "NT", "SA"], SA: ["WA", "NT", "QLD", "NSW", "VIC"],
   WA: ["NT", "SA"], NT: ["WA", "SA", "QLD"], TAS: [], ACT: ["NSW"],
 };
 
@@ -104,7 +104,7 @@ const stateGuides: Record<string, string[]> = {
   WA: ["free-camping-western-australia", "perth-to-broome-road-trip", "south-west-wa-camping-loop", "gibb-river-road-camping", "wet-season-camping-top-end-northern-wa", "perth-to-exmouth-drive", "broome-to-darwin-drive", "melbourne-to-perth-drive", "perth-to-darwin-drive", "perth-to-esperance-drive"],
   SA: ["free-camping-south-australia", "flinders-ranges-camping-guide", "australia-three-week-campervan-route", "kangaroo-island-camping-guide", "adelaide-to-uluru-road-trip", "nullarbor-crossing-camping-guide", "adelaide-to-port-lincoln-drive", "adelaide-to-melbourne-drive", "melbourne-to-perth-drive", "brisbane-to-adelaide-drive", "riverland-murray-river-camping-south-australia", "fleurieu-peninsula-camping", "eyre-peninsula-coastal-camping-route", "limestone-coast-camping-route-adelaide-mount-gambier"],
   TAS: ["free-camping-tasmania", "tasmania-camping-loop", "hobart-to-launceston-drive", "can-i-take-a-campervan-or-caravan-on-the-spirit-of-tasmania", "hobart-bay-of-fires-freycinet-camping-week", "tasmania-west-coast-road-trip-strahan-cradle-mountain"],
-  ACT: ["australian-alps-camping-route", "sydney-to-canberra-drive", "melbourne-to-canberra-drive"],
+  ACT: ["australian-alps-camping-route", "sydney-to-canberra-drive", "melbourne-to-canberra-drive", "canberra-southern-highlands-camping-loop"],
 };
 /** Guides every hub of a kind links to, after the state's own. */
 const sectionGuides: Record<HubSection, string[]> = {
