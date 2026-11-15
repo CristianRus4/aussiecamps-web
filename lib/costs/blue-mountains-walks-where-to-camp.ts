@@ -9,7 +9,6 @@ export const faq = [
 
 export default article({
   slug: "blue-mountains-walks-where-to-camp",
-  publishAt: "2026-11-17",
   title: "Where to camp for the Blue Mountains walks: Three Sisters and Grand Canyon",
   description: "The best Blue Mountains walks and the camp nearest to each: Three Sisters at Echo Point, the Prince Henry Cliff Walk, Grand Canyon at Blackheath, National Pass at Wentworth Falls and Govetts Leap.",
   category: "Camping guides", region: "New South Wales",

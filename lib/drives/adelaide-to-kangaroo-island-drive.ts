@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "adelaide-to-kangaroo-island-drive", publishAt: "2026-11-17",
+  slug: "adelaide-to-kangaroo-island-drive",
   title: "Adelaide to Kangaroo Island Drive 2027: Route, Stops and Camping",
   description: "Drive Adelaide to Cape Jervis, take the SeaLink ferry to Penneshaw and tour Kangaroo Island by van: routes, ferry booking, park camps, fuel, dump points and wildlife at dusk.",
   category: "Road trips", region: "South Australia",

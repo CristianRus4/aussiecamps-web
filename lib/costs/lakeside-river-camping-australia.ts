@@ -9,7 +9,6 @@ export const faq = [
 
 export default article({
   slug: "lakeside-river-camping-australia",
-  publishAt: "2026-11-17",
   title: "Lakeside and River Camping in Australia: Lake Eildon, Lake Argyle and More",
   description: "Where to camp beside a lake or river in Australia: Lake Eildon, Lake Argyle, the Murray River, Lake Jindabyne, Lake Hume and more, plus safety for snags, cold water, algae and river red gums.",
   category: "Camping guides", region: "Australia",

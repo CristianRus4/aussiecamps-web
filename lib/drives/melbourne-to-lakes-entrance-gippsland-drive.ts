@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "melbourne-to-lakes-entrance-gippsland-drive", publishAt: "2026-11-17",
+  slug: "melbourne-to-lakes-entrance-gippsland-drive",
   title: "Melbourne to Lakes Entrance Drive 2027: Princes Highway, Gippsland Stops and Camping",
   description: "Melbourne to Lakes Entrance is about 320 km on the Princes Highway, around four hours. Towns to stop in, detours to Raymond Island, Metung, Ninety Mile Beach and Buchan Caves, plus where to sleep.",
   category: "Road trips", region: "Victoria",

@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "canberra-to-jindabyne-snowy-mountains-drive", publishAt: "2026-11-17",
+  slug: "canberra-to-jindabyne-snowy-mountains-drive",
   title: "Canberra to Jindabyne Drive 2027: Snowy Mountains Route, Stops and Camping",
   description: "Drive Canberra to Jindabyne on the Monaro Highway via Cooma: Michelago, Bredbo and Berridale, Kosciuszko entry fees, snow chains, kangaroos at dusk and where to camp.",
   category: "Road trips", region: "ACT and NSW",

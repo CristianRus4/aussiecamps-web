@@ -24,6 +24,6 @@ jobs:
       - run: echo "BUILD_DATE=$(TZ=Pacific/Auckland date +%F)" >> "$GITHUB_ENV"
       - run: npm run check
         env:
-          NODE_OPTIONS: --max-old-space-size=6144
+          NODE_OPTIONS: --max-old-space-size=12288
           # Decrypts the place pages' data (scripts/decrypt-places.mjs); this repository is public.
           PLACES_KEY: ${{ secrets.PLACES_KEY }}

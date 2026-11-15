@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "larapinta-trail-camping-2026-27", publishAt: "2026-11-17",
+  slug: "larapinta-trail-camping-2026-27",
   title: "Larapinta Trail Camping 2026/27: Sections, Water, Resupply and Booking",
   description: "How to camp the Larapinta Trail in Tjoritja / West MacDonnell National Park: the 12 sections, water tanks, food drops, fees, fire rules and the cooler-month season.",
   category: "Camping guides", region: "Northern Territory",

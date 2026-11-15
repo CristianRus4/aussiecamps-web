@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "hobart-3-days-campervan", publishAt: "2026-11-17",
+  slug: "hobart-3-days-campervan",
   title: "Hobart in 3 Days by Campervan: Itinerary, Port Arthur and Where to Camp",
   description: "A 3-day Hobart campervan itinerary: Salamanca and MONA, the kunanyi / Mount Wellington road, Port Arthur and the Tasman Peninsula, Mount Field, and where to camp.",
   category: "Road trips", region: "Tasmania",

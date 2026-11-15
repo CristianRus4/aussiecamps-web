@@ -9,7 +9,6 @@ export const faq = [
 
 export default article({
   slug: "melbourne-hikes-camping-base",
-  publishAt: "2026-11-17",
   title: "Melbourne hikes with a camping base: Dandenongs, Yarra Ranges and Wilsons Prom",
   description: "Where to sleep for Melbourne's best bushwalks: the 1000 Steps and Sherbrooke Falls in the Dandenongs, the Yarra Ranges, Wilsons Promontory, the Mornington Peninsula and the You Yangs.",
   category: "Camping guides", region: "Victoria",

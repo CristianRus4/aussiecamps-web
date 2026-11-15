@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "sydney-to-port-macquarie-drive", publishAt: "2026-11-17",
+  slug: "sydney-to-port-macquarie-drive",
   title: "Sydney to Port Macquarie Drive 2027: Pacific Highway Route, Stops and Camping",
   description: "Sydney to Port Macquarie is about 390 km, or four and a half hours, on the M1 and Pacific Highway. Tolls, Newcastle, Port Stephens, Myall Lakes, Forster, Crowdy Bay, camping, fuel and dump points.",
   category: "Road trips", region: "New South Wales",

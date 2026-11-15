@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "overland-track-2026-27", publishAt: "2026-11-17",
+  slug: "overland-track-2026-27",
   title: "Overland Track 2026/27: Huts, Camping, Booking Dates and Fees",
   description: "How the Overland Track works in the 2026/27 season: the booking season, the walker pass and fees, huts and tent platforms, getting to Cradle Mountain and what to carry.",
   category: "Camping guides", region: "Tasmania",

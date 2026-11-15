@@ -9,7 +9,6 @@ export const faq = [
 
 export default article({
   slug: "snowy-mountains-kosciuszko-camping-road-trip",
-  publishAt: "2026-11-17",
   title: "Snowy Mountains and Kosciuszko camping road trip",
   description: "A camping loop through the New South Wales Snowy Mountains: Jindabyne, Thredbo, the Kosciuszko summit walk from Charlotte Pass, the Alpine Way, Yarrangobilly Caves, Kiandra and Cooma.",
   category: "Road trips", region: "New South Wales",

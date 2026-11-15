@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "kakadu-national-park-camping", publishAt: "2026-11-17",
+  slug: "kakadu-national-park-camping",
   title: "Kakadu National Park Camping: Sites, Permits and Tips",
   description: "How to camp in Kakadu: the park pass, Parks Australia campgrounds like Merl, Muirella Park and Gunlom, Cooinda, dry and wet season access, crocodiles and the 4WD tracks.",
   category: "Camping guides", region: "Northern Territory",

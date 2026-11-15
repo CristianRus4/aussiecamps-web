@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "overland-track-2027-28-bookings", publishAt: "2026-11-17",
+  slug: "overland-track-2027-28-bookings",
   title: "Overland Track 2027/28 Bookings: When They Open and How to Prepare",
   description: "When Overland Track bookings for the 2027/28 season open, how the waiting room works, what to have ready, and how to plan dates, transport and gear before opening day.",
   category: "Camping guides", region: "Tasmania",

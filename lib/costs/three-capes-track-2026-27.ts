@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "three-capes-track-2026-27", publishAt: "2026-11-17",
+  slug: "three-capes-track-2026-27",
   title: "Three Capes Track 2026/27: Huts, Booking and Fees",
   description: "How the Three Capes Track works in 2026/27: the four day, three night walk on the Tasman Peninsula, the cabins, booking, fees, the boat trip and what to carry.",
   category: "Camping guides", region: "Tasmania",

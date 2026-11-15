@@ -9,7 +9,6 @@ export const faq = [
 
 export default article({
   slug: "uluru-base-walk-kings-canyon-rim-walk-where-to-camp",
-  publishAt: "2026-11-17",
   title: "Where to Camp for the Uluru Base Walk and Kings Canyon Rim Walk",
   description: "Where to camp for the Uluru Base Walk, Kata Tjuta and the Kings Canyon Rim Walk: Yulara, Curtin Springs, Kings Canyon Resort and Kings Creek Station, with heat rules and early starts.",
   category: "Camping guides", region: "Northern Territory",

@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "cairns-to-cape-york-camping-route", publishAt: "2026-11-17",
+  slug: "cairns-to-cape-york-camping-route",
   title: "Cairns to Cape York Camping Route",
   description: "The camping route from Cairns to the Tip of Cape York: the Peninsula Developmental Road, Laura and Coen, the Jardine River ferry, the Old Telegraph Track, permits, crocodiles, fuel and the dry season.",
   category: "Road trips", region: "Queensland",

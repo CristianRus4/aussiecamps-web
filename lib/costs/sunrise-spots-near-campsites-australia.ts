@@ -9,7 +9,6 @@ export const faq = [
 
 export default article({
   slug: "sunrise-spots-near-campsites-australia",
-  publishAt: "2026-11-17",
   title: "Sunrise Spots in Australia You Can Reach From a Campsite",
   description: "Where to watch the sunrise in Australia from a campsite, from Cape Byron and Cape Hillsborough to the Bay of Fires, Noah Beach and Uluru, with the camp to stay at and how far it is.",
   category: "Camping guides", region: "Australia",

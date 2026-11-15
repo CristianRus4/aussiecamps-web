@@ -9,7 +9,6 @@ export const faq = [
 
 export default article({
   slug: "melbourne-gippsland-wilsons-promontory-camping-loop",
-  publishAt: "2026-11-17",
   title: "Melbourne to Gippsland and Wilsons Promontory camping loop",
   description: "A six to eight day camping loop from Melbourne: Wilsons Promontory and Tidal River, Port Albert, Walhalla and the Gippsland Lakes at Paynesville, Metung and Lakes Entrance, then home.",
   category: "Road trips", region: "Victoria",

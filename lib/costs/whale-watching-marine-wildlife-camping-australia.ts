@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "whale-watching-marine-wildlife-camping-australia", publishAt: "2026-11-17",
+  slug: "whale-watching-marine-wildlife-camping-australia",
   title: "Whale Watching and Marine Wildlife Camping in Australia 2027: Hervey Bay, Port Stephens and Ningaloo",
   description: "Where to camp for whale watching and marine wildlife: Hervey Bay's humpback nursery, Port Stephens dolphins and whales, and Ningaloo's whale sharks and manta rays, plus distance rules, tours and lookouts.",
   category: "Camping guides", region: "Australia",

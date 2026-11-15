@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "national-park-passes-australia-2026-27", publishAt: "2026-11-17",
+  slug: "national-park-passes-australia-2026-27",
   title: "Australian National Park Passes 2026-27: Which Pass Is Worth It, by State",
   description: "National park passes in Australia by state for 2026-27: NSW, Victoria, Queensland, SA, WA, Tasmania, the NT and Commonwealth parks, with rough prices and which one is worth buying.",
   category: "Costs & budget", region: "Australia",

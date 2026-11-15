@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "moreton-island-north-stradbroke-island-camping", publishAt: "2026-11-17",
+  slug: "moreton-island-north-stradbroke-island-camping",
   title: "Camping on Moreton Island and North Stradbroke Island: Barges, Ferries, Permits and Beach Camps",
   description: "How to camp on Mulgumpin (Moreton Island) and Minjerribah (North Stradbroke Island) from Brisbane: the vehicle barge and ferry, 4WD rules, permits and the best camps.",
   category: "Camping guides", region: "Queensland",

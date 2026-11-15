@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "free-camping-mid-north-coast-nsw", publishAt: "2026-11-17",
+  slug: "free-camping-mid-north-coast-nsw",
   title: "Free Camping on the NSW Mid North Coast: Coffs Harbour and Port Macquarie",
   description: "Where to camp between Coffs Harbour and Port Macquarie: free state forest camps, cheap national park beaches, highway rest areas and the towns that say no.",
   category: "Camping guides", region: "New South Wales",

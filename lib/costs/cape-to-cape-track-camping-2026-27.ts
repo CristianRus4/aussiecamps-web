@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "cape-to-cape-track-camping-2026-27", publishAt: "2026-11-17",
+  slug: "cape-to-cape-track-camping-2026-27",
   title: "Cape to Cape Track Camping 2026/27: Margaret River to Cape Leeuwin",
   description: "How to camp on the Cape to Cape Track in Western Australia: the walker-only campsites, booked campgrounds, water, fire rules, the best months and supplies from Yallingup to Hamelin Bay.",
   category: "Camping guides", region: "Western Australia",

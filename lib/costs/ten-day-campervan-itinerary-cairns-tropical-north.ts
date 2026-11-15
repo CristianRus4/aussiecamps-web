@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "ten-day-campervan-itinerary-cairns-tropical-north", publishAt: "2026-11-17",
+  slug: "ten-day-campervan-itinerary-cairns-tropical-north",
   title: "10 Day Campervan Itinerary Australia: Cairns and the Tropical North",
   description: "A 10-day campervan loop from Cairns through the Atherton Tablelands, Port Douglas, the Daintree and Cape Tribulation, Paronella Park and Mission Beach, with crocodile, stinger and season advice.",
   category: "Road trips", region: "Queensland",

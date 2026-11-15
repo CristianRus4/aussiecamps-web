@@ -7,7 +7,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "aussiecamps-costs-in-your-currency", publishAt: "2026-11-17",
+  slug: "aussiecamps-costs-in-your-currency",
   title: "See Reported Place Costs in Your Own Currency in AussieCamps",
   description: "Visiting Australia? Choose your currency and set the rate once, and AussieCamps shows reported fees next to the Australian dollar price.",
   category: "App guides", region: "Australia",

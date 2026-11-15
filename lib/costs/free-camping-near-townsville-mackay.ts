@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "free-camping-near-townsville-mackay", publishAt: "2026-11-17",
+  slug: "free-camping-near-townsville-mackay",
   title: "Free Camping Near Townsville and Mackay: Bruce Highway Stops, Park Camps and the Dry Season",
   description: "Where to camp around Townsville and Mackay: free Bruce Highway rest areas, cheap national park camps, crocodile and stinger warnings and the best months.",
   category: "Camping guides", region: "Queensland",

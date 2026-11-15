@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "hut-stays-australia", publishAt: "2026-11-17",
+  slug: "hut-stays-australia",
   title: "Hut Stays in Australia 2026-27: Tasmanian, Alpine and National Park Huts, Fees and Booking",
   description: "How to sleep in huts on Australian walks: Overland Track and Three Capes huts, Victorian and NSW high country huts, park cottages, fees and what you can book.",
   category: "Camping guides", region: "Australia",

@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "free-camping-near-newcastle-hunter", publishAt: "2026-11-17",
+  slug: "free-camping-near-newcastle-hunter",
   title: "Free Camping Near Newcastle and the Hunter: State Forests, Park Camps and Rest Areas",
   description: "Where to camp near Newcastle and the Hunter Valley: banned spots in the city, free state forests, paid Myall Lakes and Barrington camps, rest areas and wine country stays.",
   category: "Camping guides", region: "New South Wales",

@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "great-ocean-walk-camping-2026-27", publishAt: "2026-11-17",
+  slug: "great-ocean-walk-camping-2026-27",
   title: "Great Ocean Walk Camping 2026/27: Campsites, Permits, Fees and Stages",
   description: "How to camp the Great Ocean Walk from Apollo Bay to the Twelve Apostles: the seven hike-in campsites, booking, fees, water, tides and the best months to walk.",
   category: "Camping guides", region: "Victoria",

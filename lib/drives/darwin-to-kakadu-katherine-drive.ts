@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "darwin-to-kakadu-katherine-drive", publishAt: "2026-11-17",
+  slug: "darwin-to-kakadu-katherine-drive",
   title: "Darwin to Kakadu and Katherine Drive 2027: Route, Stops and Camping",
   description: "Drive Darwin to Kakadu and Katherine by the Arnhem and Kakadu Highways: Jabiru, Ubirr, Yellow Water, Pine Creek, Nitmiluk and the hot springs, with camps, fuel, crocodile safety and the dry season.",
   category: "Road trips", region: "Northern Territory",

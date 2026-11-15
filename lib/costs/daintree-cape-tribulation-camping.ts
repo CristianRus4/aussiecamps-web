@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "daintree-cape-tribulation-camping", publishAt: "2026-11-17",
+  slug: "daintree-cape-tribulation-camping",
   title: "Daintree and Cape Tribulation Camping: Sites, Rules and Tips",
   description: "How to camp in the Daintree and at Cape Tribulation: the river ferry, Noah Beach camping area, private campgrounds, crocodiles, stingers and the 4WD Bloomfield Track.",
   category: "Camping guides", region: "Queensland",

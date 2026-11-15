@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "bibbulmun-track-camping-2026-27", publishAt: "2026-11-17",
+  slug: "bibbulmun-track-camping-2026-27",
   title: "Bibbulmun Track Camping 2026/27: Shelters, Water, Resupply and Season",
   description: "How to camp the Bibbulmun Track in Western Australia: the shelters and tent sites, water tanks, towns for resupply, trip registration and the best months to walk.",
   category: "Camping guides", region: "Western Australia",

@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "camping-in-canberra", publishAt: "2026-11-17",
+  slug: "camping-in-canberra",
   title: "Camping in Canberra: Holiday Parks, Lakeside Camps and Where to Base Yourself",
   description: "Where to camp in and around Canberra: the booked Cotter and Namadgi campgrounds, the city holiday parks, lakeside stays in New South Wales and how to pick a base.",
   category: "Camping guides", region: "Australian Capital Territory",

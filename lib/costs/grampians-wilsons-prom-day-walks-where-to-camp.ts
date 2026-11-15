@@ -9,7 +9,6 @@ export const faq = [
 
 export default article({
   slug: "grampians-wilsons-prom-day-walks-where-to-camp",
-  publishAt: "2026-11-17",
   title: "Where to camp for the Grampians Peaks and Wilsons Prom day walks",
   description: "Day walks in Victoria's two favourite parks and where to camp for each: the Pinnacle, Mount William and Hollow Mountain in the Grampians, and Mount Oberon, Squeaky Beach and Sealers Cove at Wilsons Prom.",
   category: "Camping guides", region: "Victoria",

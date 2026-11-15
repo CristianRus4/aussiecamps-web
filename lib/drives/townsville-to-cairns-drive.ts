@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "townsville-to-cairns-drive", publishAt: "2026-11-17",
+  slug: "townsville-to-cairns-drive",
   title: "Townsville to Cairns Drive 2027: Bruce Highway Route, Stops and Camping",
   description: "Townsville to Cairns is about 350 km and four hours on the Bruce Highway. Where to stop at Ingham, Cardwell, Mission Beach and Babinda, where to sleep, and what to know about wet season floods, crocodiles and stingers.",
   category: "Road trips", region: "Queensland",

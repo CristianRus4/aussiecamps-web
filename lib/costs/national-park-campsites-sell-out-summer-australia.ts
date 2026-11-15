@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "national-park-campsites-sell-out-summer-australia", publishAt: "2026-11-17",
+  slug: "national-park-campsites-sell-out-summer-australia",
   title: "National Park Campsites That Sell Out Over Summer in Australia (and What to Book Instead)",
   description: "The famous national park campgrounds that sell out each summer, from Tidal River to Lucky Bay, and the quieter camps, state forests and holiday parks to book instead.",
   category: "Trip planning", region: "Australia",

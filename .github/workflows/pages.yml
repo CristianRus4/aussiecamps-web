@@ -38,7 +38,7 @@ jobs:
       # separately in checks.yml after every push and reports failures without holding the deploy.
       - run: npm run deploy:gate
         env:
-          NODE_OPTIONS: --max-old-space-size=6144
+          NODE_OPTIONS: --max-old-space-size=12288
           # Decrypts the place pages' data (scripts/decrypt-places.mjs); this repository is public.
           PLACES_KEY: ${{ secrets.PLACES_KEY }}
       # The place pages that don't fit on GitHub Pages and the live trip and collection links go to a
@@ -50,7 +50,7 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          NODE_OPTIONS: --max-old-space-size=6144
+          NODE_OPTIONS: --max-old-space-size=12288
           # Every page goes to the R2 bucket (no file limit); the Worker serves them from there.
           PLACES_R2: "1"
         run: |

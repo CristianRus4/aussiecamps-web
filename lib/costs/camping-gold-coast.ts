@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "camping-gold-coast", publishAt: "2026-11-17",
+  slug: "camping-gold-coast",
   title: "Camping on the Gold Coast: Holiday Parks, Hinterland Camps and Where to Base Yourself",
   description: "Where to camp on the Gold Coast: council tourist parks at Burleigh and Tallebudgera, hinterland camps at Lamington and Springbrook, transport and parking.",
   category: "Camping guides", region: "Queensland",

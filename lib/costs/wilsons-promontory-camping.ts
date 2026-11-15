@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "wilsons-promontory-camping", publishAt: "2026-11-17",
+  slug: "wilsons-promontory-camping",
   title: "Wilsons Promontory Camping 2026-27: Tidal River, Hike-In Camps, Bookings and the Drive from Melbourne",
   description: "How to camp at Wilsons Promontory: Tidal River, the hike-in camps, summer bookings, park rules and the three-hour drive from Melbourne.",
   category: "Camping guides", region: "Victoria",

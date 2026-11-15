@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "canberra-southern-highlands-camping-loop", publishAt: "2026-11-17",
+  slug: "canberra-southern-highlands-camping-loop",
   title: "Canberra and Southern Highlands Camping Loop: Bowral, Kangaroo Valley and Braidwood",
   description: "A five-day camping loop from Canberra through Goulburn, the Southern Highlands and Kangaroo Valley, then home through Braidwood: where to book, where it is cold and what to see.",
   category: "Road trips", region: "ACT and NSW",

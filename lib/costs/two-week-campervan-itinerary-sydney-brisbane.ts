@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "two-week-campervan-itinerary-sydney-brisbane", publishAt: "2026-11-17",
+  slug: "two-week-campervan-itinerary-sydney-brisbane",
   title: "2 Week Campervan Itinerary Australia: Sydney to Brisbane by the Pacific Coast",
   description: "A 14-day campervan holiday from Sydney to Brisbane along the Pacific coast, with two-night stops at Port Stephens, Port Macquarie, Yamba and Byron Bay and time for the Gold Coast hinterland.",
   category: "Road trips", region: "East Coast",

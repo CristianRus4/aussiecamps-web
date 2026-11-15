@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "free-camping-near-albany-south-coast-wa", publishAt: "2026-11-17",
+  slug: "free-camping-near-albany-south-coast-wa",
   title: "Free Camping Near Albany and the WA South Coast: Rest Areas, Shire Camps and Park Sites",
   description: "Where to camp around Albany and the WA south coast: town rules, the 24-hour rest area limit, shire camps, and paid camps at West Cape Howe, Fitzgerald River and Cape Arid.",
   category: "Camping guides", region: "Western Australia",

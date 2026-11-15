@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "holiday-park-memberships-australia-2027", publishAt: "2026-11-17",
+  slug: "holiday-park-memberships-australia-2027",
   title: "Holiday Parks in Australia 2027: BIG4, Discovery and NRMA Memberships, Costs and How to Book",
   description: "How BIG4, G'day Rewards (Discovery Parks) and NRMA Parks and Resorts memberships work, what they save, when one pays for itself and how to book a holiday park for 2027.",
   category: "Costs & budget", region: "Australia",

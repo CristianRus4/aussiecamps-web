@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "new-years-eve-summer-festival-camping-australia-2026-27", publishAt: "2026-11-17",
+  slug: "new-years-eve-summer-festival-camping-australia-2026-27",
   title: "New Year's Eve and Summer Festival Camping in Australia 2026-27",
   description: "Where you can camp on New Year's Eve in Australia, what alcohol bans and bookings mean, which summer festivals have camping and how to stay cool and safe on site.",
   category: "Trip planning", region: "Australia",

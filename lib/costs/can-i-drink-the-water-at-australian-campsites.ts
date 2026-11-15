@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "can-i-drink-the-water-at-australian-campsites", publishAt: "2026-11-17",
+  slug: "can-i-drink-the-water-at-australian-campsites",
   title: "Can I Drink the Water at Australian Campsites?",
   description: "Town water is safe, but many campground taps are not for drinking. How to read the sign, treat questionable water, carry enough in the outback and refill on the road.",
   category: "Rules & safety", region: "Australia",

@@ -9,7 +9,6 @@ export const faq = [
 
 export default article({
   slug: "mornington-peninsula-phillip-island-camping-weekend",
-  publishAt: "2026-11-17",
   title: "Mornington Peninsula and Phillip Island camping weekend from Melbourne",
   description: "Two days and a night or two from Melbourne: foreshore camping on the Mornington Peninsula, Peninsula Hot Springs, Point Nepean, the Sorrento to Queenscliff ferry and the Phillip Island penguin parade.",
   category: "Road trips", region: "Victoria",

@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "camping-byron-bay", publishAt: "2026-11-17",
+  slug: "camping-byron-bay",
   title: "Camping in Byron Bay: Holiday Parks, National Park Camps and Where to Base Yourself",
   description: "Where to camp around Byron Bay: the holiday parks at Byron, Suffolk Park and Broken Head, Brunswick Heads and Lennox Head, and the hinterland national park camps.",
   category: "Camping guides", region: "New South Wales",

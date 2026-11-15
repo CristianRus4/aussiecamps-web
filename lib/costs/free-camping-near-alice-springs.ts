@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "free-camping-near-alice-springs", publishAt: "2026-11-17",
+  slug: "free-camping-near-alice-springs",
   title: "Free Camping Near Alice Springs: MacDonnell Ranges Camps, Highway Rest Areas and Desert Heat",
   description: "Where to camp near Alice Springs: cheap West and East MacDonnell Ranges camps, free Stuart Highway rest areas, the town bans, park fees, summer heat and water.",
   category: "Camping guides", region: "Northern Territory",

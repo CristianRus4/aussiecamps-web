@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "brisbane-to-noosa-hervey-bay-drive", publishAt: "2026-11-17",
+  slug: "brisbane-to-noosa-hervey-bay-drive",
   title: "Brisbane to Noosa and Hervey Bay Drive 2027: Bruce Highway Route, Stops and Camping",
   description: "Brisbane to Hervey Bay is about 290 km up the Bruce Highway. Where to detour for the Glass House Mountains, Noosa and Rainbow Beach, where to camp, fuel, dump points and whale season.",
   category: "Road trips", region: "Queensland",

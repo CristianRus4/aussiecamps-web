@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "cairns-3-days-campervan", publishAt: "2026-11-17",
+  slug: "cairns-3-days-campervan",
   title: "Cairns in 3 Days by Campervan: Reef, Rainforest and Where to Camp",
   description: "A 3-day Cairns campervan itinerary: a reef day from the marina, Kuranda and the Tablelands waterfalls, Mossman Gorge and Port Douglas, with where to sleep each night.",
   category: "Road trips", region: "Queensland",

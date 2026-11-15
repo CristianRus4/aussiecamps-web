@@ -7,7 +7,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "aussiecamps-weather-street-view", publishAt: "2026-11-17",
+  slug: "aussiecamps-weather-street-view",
   title: "Use Weather and Street View Before Choosing a Stay in AussieCamps",
   description: "Check a place's weather, look at the entrance in Street View, read the alerts and fees, then choose your stay or a backup, all inside AussieCamps.",
   category: "App guides", region: "Australia",
