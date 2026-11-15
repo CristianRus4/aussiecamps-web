@@ -128,6 +128,12 @@ export async function putImage(request, env, site, id, ctx) {
     onlyIf: existing ? { etagMatches: existing.etag } : { etagDoesNotMatch: "*" },
   });
   if (!stored) return reply({ error: "one picture a minute per link" }, 429, { "retry-after": String(UPLOAD_GAP / 1000) });
+  // A slow upload can finish after the link was deleted: then the picture goes too, so it never outlives its link.
+  const link = await env.LINKS.head(`links/${id}.json`);
+  if (!link || link.customMetadata?.removed === "1") {
+    await env.LINKS.delete(key);
+    return reply({ error: link ? "removed" : "not found" }, link ? 410 : 404);
+  }
   forget(site, id, ctx, existing?.customMetadata?.t);
   return reply({ url: publicUrl(site, id, version) }, 200);
 }
