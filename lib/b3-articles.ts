@@ -1,4 +1,5 @@
 import type { Article } from "@/lib/site";
+import g_cape_to_cape_track_camping_2026_27, { faq as faq_g_cape_to_cape_track_camping_2026_27 } from "@/lib/costs/cape-to-cape-track-camping-2026-27";
 import g_australian_alps_walking_track, { faq as faq_g_australian_alps_walking_track } from "@/lib/costs/australian-alps-walking-track";
 import g_thorsborne_trail_hinchinbrook_island, { faq as faq_g_thorsborne_trail_hinchinbrook_island } from "@/lib/costs/thorsborne-trail-hinchinbrook-island";
 import g_overland_three_capes_booked_out_alternatives, { faq as faq_g_overland_three_capes_booked_out_alternatives } from "@/lib/costs/overland-three-capes-booked-out-alternatives";
@@ -19,7 +20,7 @@ import g_easy_overnight_bushwalks_huts_families, { faq as faq_g_easy_overnight_b
 import g_best_multi_day_walks_australia_2026_27, { faq as faq_g_best_multi_day_walks_australia_2026_27 } from "@/lib/costs/best-multi-day-walks-australia-2026-27";
 
 /** Multi-day walk, park and city camping guides added by the aus-b3 lane. Each lives in lib/costs/<slug>.ts. */
-export const b3Articles: Article[] = [g_best_multi_day_walks_australia_2026_27, g_easy_overnight_bushwalks_huts_families, g_bushwalking_camp_rules_etiquette_australia, g_wilsons_promontory_camping, g_overland_track_2026_27, g_three_capes_track_2026_27, g_overland_track_2027_28_bookings, g_larapinta_trail_camping_2026_27, g_great_ocean_walk_camping_2026_27, g_bibbulmun_track_camping_2026_27, g_camping_in_sydney, g_sydney_3_days_campervan, g_starting_campervan_trip_sydney, g_hut_stays_australia, g_south_coast_track_tasmania, g_overland_three_capes_booked_out_alternatives, g_thorsborne_trail_hinchinbrook_island, g_australian_alps_walking_track];
+export const b3Articles: Article[] = [g_best_multi_day_walks_australia_2026_27, g_easy_overnight_bushwalks_huts_families, g_bushwalking_camp_rules_etiquette_australia, g_wilsons_promontory_camping, g_overland_track_2026_27, g_three_capes_track_2026_27, g_overland_track_2027_28_bookings, g_larapinta_trail_camping_2026_27, g_great_ocean_walk_camping_2026_27, g_bibbulmun_track_camping_2026_27, g_camping_in_sydney, g_sydney_3_days_campervan, g_starting_campervan_trip_sydney, g_hut_stays_australia, g_south_coast_track_tasmania, g_overland_three_capes_booked_out_alternatives, g_thorsborne_trail_hinchinbrook_island, g_australian_alps_walking_track, g_cape_to_cape_track_camping_2026_27];
 export const b3Faqs: Record<string, readonly (readonly [string, string])[]> = {
   [g_best_multi_day_walks_australia_2026_27.slug]: faq_g_best_multi_day_walks_australia_2026_27,
   [g_easy_overnight_bushwalks_huts_families.slug]: faq_g_easy_overnight_bushwalks_huts_families,
@@ -39,4 +40,5 @@ export const b3Faqs: Record<string, readonly (readonly [string, string])[]> = {
   [g_overland_three_capes_booked_out_alternatives.slug]: faq_g_overland_three_capes_booked_out_alternatives,
   [g_thorsborne_trail_hinchinbrook_island.slug]: faq_g_thorsborne_trail_hinchinbrook_island,
   [g_australian_alps_walking_track.slug]: faq_g_australian_alps_walking_track,
+  [g_cape_to_cape_track_camping_2026_27.slug]: faq_g_cape_to_cape_track_camping_2026_27,
 };
