@@ -1,10 +1,8 @@
 /**
  * The text and markup of a live link's page (src/link-page.js): dates, the stats under the name, the preview's
- * line, the badge, the list's rows and the map's data. Plain functions, so the tests run them in Node. Everything
- * from the link (names, titles) is escaped; links and image URLs only ever come from the place cards the build
- * writes, icons only from the symbols table and colours only as 6 hex digits.
+ * line, the list's rows and the map's data. Plain functions, so the tests run them in Node. Everything from the
+ * link (names, titles) is escaped; links and image URLs only ever come from the place cards the build writes.
  */
-import { SYMBOLS } from "./symbols.js";
 
 const DAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
@@ -68,28 +66,6 @@ export const previewLine = (link) => [
   link.kind === "trip" && link.dist >= 50 ? distance(link.dist) : "",
   link.kind === "trip" ? dateRange(link.sd, link.ed, false) : "",
 ].filter(Boolean).join(" · ");
-
-export const COLOURS = ["30A46C", "3478F6", "0FA5B5", "8B5CF6", "EC4899", "EF4444", "F59E0B", "8B6B4A"];
-const DARK_INK = "#172012";
-const linear = (channel) => { const c = channel / 255; return c <= 0.04045 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4; };
-/** White on the colour when it reaches 3:1 (icons and bold numbers), else the dark ink (amber, teal). */
-export function inkOn(hex) {
-  const [r, g, b] = [0, 2, 4].map((i) => linear(parseInt(hex.slice(i, i + 2), 16)));
-  return 1.05 / (0.2126 * r + 0.7152 * g + 0.0722 * b + 0.05) >= 3 ? "#ffffff" : DARK_INK;
-}
-
-/** The link's colour, its ink and its icon: only 6 hex digits and symbols from the table get through; anything
- * else is the default (green, a car for a trip, a folder for a collection). */
-export function look(link) {
-  const colour = typeof link.col === "string" && /^[0-9A-Fa-f]{6}$/.test(link.col) ? link.col.toUpperCase() : COLOURS[0];
-  const fallback = link.kind === "trip" ? "car.fill" : "folder.fill";
-  const icon = Object.hasOwn(SYMBOLS, link.sym) ? SYMBOLS[link.sym] : SYMBOLS[fallback];
-  return { colour: `#${colour}`, ink: inkOn(colour), icon };
-}
-/** The page's style attribute: the colour and its ink as custom properties for the badge, numbers and map. */
-export const lookStyle = (link) => { const { colour, ink } = look(link); return `--sl-col:${colour};--sl-ink:${ink}`; };
-/** The badge's icon. */
-export const badgeIcon = (link) => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${look(link).icon}</svg>`;
 
 /** A card from the build is used only if its page path and photo look right. */
 export function usableCard(card) {

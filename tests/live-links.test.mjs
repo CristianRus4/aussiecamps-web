@@ -1,11 +1,8 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { readFileSync } from "node:fs";
-import { badgeIcon, COLOURS, dateRange, distance, drivingTime, escapeHtml, inkOn, look, lookStyle, mapData, previewLine, rows, stats, statsHtml, stopDate, usableCard } from "../places-worker/src/format.js";
-import { SYMBOLS } from "../places-worker/src/symbols.js";
-import { SYMBOL_ICONS, SYMBOLS_FILE, symbolsSource } from "../scripts/link-symbols.mjs";
+import { dateRange, distance, drivingTime, escapeHtml, mapData, previewLine, rows, stats, statsHtml, stopDate, usableCard } from "../places-worker/src/format.js";
 import { clientKey } from "../places-worker/src/index.js";
-import { sameHash } from "../places-worker/src/links-api.js";
+import { linksApi, sameHash } from "../places-worker/src/links-api.js";
 import { isDay, validateLink } from "../places-worker/src/validate.js";
 
 const trip = (extra = {}, stop = {}) => ({ v: 1, kind: "trip", n: "Tassie loop", sd: "2027-12-03", ed: "2027-12-09", s: [{ t: "Stop 1", id: "AU00001", la: -33.93012, lo: 150.63128, d: "2027-12-03", ...stop }], ...extra });
@@ -124,22 +121,6 @@ test("formats distances and driving times", () => {
   assert.equal(drivingTime(10), "1 min");
 });
 
-test("draws only known symbols and 6-digit colours, with readable ink", () => {
-  assert.deepEqual(Object.keys(SYMBOLS), Object.keys(SYMBOL_ICONS));
-  assert.equal(look({ kind: "trip", sym: "figure.hiking", col: "f59e0b" }).icon, SYMBOLS["figure.hiking"]);
-  assert.equal(look({ kind: "trip", sym: "toString" }).icon, SYMBOLS["car.fill"]);
-  assert.equal(look({ kind: "collection", sym: "x.fill" }).icon, SYMBOLS["folder.fill"]);
-  assert.equal(look({ kind: "collection" }).colour, "#30A46C");
-  assert.equal(lookStyle({ kind: "trip", col: "F59E0B" }), "--sl-col:#F59E0B;--sl-ink:#172012");
-  assert.equal(lookStyle({ kind: "trip", col: '"><x' }), "--sl-col:#30A46C;--sl-ink:#ffffff");
-  assert.deepEqual(COLOURS.map(inkOn), ["#ffffff", "#ffffff", "#172012", "#ffffff", "#ffffff", "#ffffff", "#172012", "#ffffff"]);
-  assert.ok(badgeIcon({ kind: "trip" }).startsWith('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"'));
-});
-
-test("the symbols table matches lucide", async () => {
-  assert.equal(readFileSync(SYMBOLS_FILE, "utf8"), await symbolsSource(), "run npm run links:symbols");
-});
-
 const card = usableCard({ n: "Perkins & Flat", h: "/places/new-south-wales/perkins-flat/", i: "https://x.example/a.jpg", s: "Campground · High Plains · New South Wales", g: "★ 4.5", o: "https://x.example/b.jpg", ty: "campground" });
 
 test("uses only cards with a place page path and https photos", () => {
@@ -180,4 +161,11 @@ test("rate limits count an IPv6 client by its /64", () => {
   assert.equal(clientKey("2001:DB8:A:B::9"), "2001:db8:a:b::/64");
   assert.equal(clientKey("2001:0db8::1"), "2001:db8:0:0::/64");
   assert.equal(clientKey("::1"), "0:0:0:0::/64");
+});
+
+test("answers 404 for paths under a link id", async () => {
+  for (const method of ["GET", "PUT", "DELETE"]) {
+    const response = await linksApi(new Request("https://x.example/api/links/abcdefabcdef/image", { method }), {}, {}, "abcdefabcdef/image", async () => null);
+    assert.equal(response.status, 404);
+  }
 });

@@ -5,7 +5,7 @@
  * doesn't exist" (404), a removed one "This link was removed" (410), each with the contact line and Open in app
  * opening the app itself.
  */
-import { badgeIcon, escapeHtml, lookStyle, mapData, previewLine, rows, statsHtml, usableCard } from "./format.js";
+import { escapeHtml, mapData, previewLine, rows, statsHtml, usableCard } from "./format.js";
 
 const MAX_CARDS = 100;
 const CARD_TTL = 3600;
@@ -41,7 +41,6 @@ async function cardsFor(link, bucket, site, ctx) {
 
 function headTags({ site, title, description, url, image }) {
   const meta = (attr, key, value) => `<meta ${attr}="${key}" content="${escapeHtml(value)}"/>`;
-  const imageType = image.type ?? (/\.png$/i.test(new URL(image.url).pathname) ? "image/png" : "image/jpeg");
   return [
     `<title>${escapeHtml(title)} | ${escapeHtml(site.name)}</title>`,
     meta("name", "description", description),
@@ -53,8 +52,8 @@ function headTags({ site, title, description, url, image }) {
     url ? meta("property", "og:url", url) : "",
     meta("property", "og:site_name", site.name), meta("property", "og:type", "website"), meta("property", "og:locale", site.ogLocale),
     meta("property", "og:image", image.url),
-    image.width ? meta("property", "og:image:width", String(image.width)) : "", image.height ? meta("property", "og:image:height", String(image.height)) : "",
-    meta("property", "og:image:type", imageType), meta("property", "og:image:alt", title),
+    meta("property", "og:image:width", String(image.width)), meta("property", "og:image:height", String(image.height)),
+    meta("property", "og:image:type", image.type), meta("property", "og:image:alt", title),
     meta("name", "twitter:card", "summary_large_image"), meta("name", "twitter:title", title), meta("name", "twitter:description", description),
     meta("name", "twitter:image", image.url), meta("name", "twitter:image:alt", title),
   ].join("");
@@ -62,13 +61,13 @@ function headTags({ site, title, description, url, image }) {
 
 /** Renders the page of `link`, or without one the 404 (`status` 404) or 410 page, like /trip/'s own errors: the
  * heading "Shared trip" and the message under it. The caller sets the status and the caching headers. */
-export async function renderLinkPage({ site, shell, places, ctx, kind, id, link, status, preview }) {
+export async function renderLinkPage({ site, shell, places, ctx, kind, id, link, status }) {
   const url = `${site.url}/${kind}/${id}`;
   const cards = link ? await cardsFor(link, places, site, ctx) : new Map();
   const title = link ? link.n : status === 410 ? "This link was removed" : "This link doesn't exist";
   const description = link ? previewLine(link) : title;
-  // og:image: the picture the app uploaded (`preview`, src/link-image.js), otherwise the site's own image.
-  const image = (link && preview) || { ...HOME_IMAGE, url: `${site.url}${HOME_IMAGE.url}` };
+  // og:image is always the site's own image, as for a shared pin.
+  const image = { ...HOME_IMAGE, url: `${site.url}${HOME_IMAGE.url}` };
   const head = headTags({ site, title, description, url, image });
   const appLink = link ? `${site.scheme}://${kind}/${id}` : `${site.scheme}://`;
 
@@ -86,8 +85,6 @@ export async function renderLinkPage({ site, shell, places, ctx, kind, id, link,
     const list = rows(link, cards);
     const map = mapData(link, cards);
     rewriter = rewriter
-      .on('[data-sl="page"]', { element: (el) => el.setAttribute("style", lookStyle(link)) })
-      .on('[data-sl="badge"]', { element: (el) => { el.removeAttribute("hidden"); el.setInnerContent(badgeIcon(link), { html: true }); } })
       .on('[data-sl="stats"]', { element: (el) => el.setInnerContent(statsHtml(link), { html: true }) })
       .on('[data-sl="map"]', { element: (el) => el.setAttribute("data-pl-map", map) })
       .on('[data-sl="list"]', { element: (el) => el.setInnerContent(list, { html: true }) });
