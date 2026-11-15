@@ -88,7 +88,7 @@ export const noteSource = () => Object.fromEntries(Object.entries(stateNotes).fl
 
 /** States that share a land border, for links to the same kind of hub next door. Tasmania has none. */
 export const neighbours: Record<string, string[]> = {
-  NSW: ["QLD", "VIC", "SA", "ACT", "two-week-campervan-itinerary-sydney-brisbane", "one-week-campervan-itinerary-sydney-byron-bay", "snowy-mountains-kosciuszko-camping-road-trip", "newcastle-hunter-barrington-tops-camping-loop", "canberra-southern-highlands-camping-loop", "sydney-to-port-macquarie-drive", "canberra-to-jindabyne-snowy-mountains-drive"], VIC: ["NSW", "SA"], QLD: ["NSW", "NT", "SA"], SA: ["WA", "NT", "QLD", "NSW", "VIC"],
+  NSW: ["QLD", "VIC", "SA", "ACT", "two-week-campervan-itinerary-sydney-brisbane", "one-week-campervan-itinerary-sydney-byron-bay", "snowy-mountains-kosciuszko-camping-road-trip", "newcastle-hunter-barrington-tops-camping-loop", "canberra-southern-highlands-camping-loop", "sydney-to-port-macquarie-drive", "canberra-to-jindabyne-snowy-mountains-drive", "sydney-walks-camping-base"], VIC: ["NSW", "SA"], QLD: ["NSW", "NT", "SA"], SA: ["WA", "NT", "QLD", "NSW", "VIC"],
   WA: ["NT", "SA", "perth-to-geraldton-kalbarri-drive"], NT: ["WA", "SA", "QLD"], TAS: [], ACT: ["NSW"],
 };
 
