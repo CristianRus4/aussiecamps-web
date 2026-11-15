@@ -27,7 +27,7 @@ export default article({
         ["NSW (Commonwealth)", "Green Patch and Bristol Point, Booderee", "Jervis Bay's whitest sand", "Parks Australia"],
         ["New South Wales", "Thredbo Diggings, Kosciuszko", "Alpine river camp for summer walks and bikes", "NSW National Parks"],
         ["Queensland", "K'gari and Moreton Island beach zones", "Permit-limited beach camping", "Queensland Parks"],
-        ["Queensland", "Cape Hillsborough", "Beach camp with wallabies at sunrise", "Queensland Parks"],
+        ["Queensland", "Cape Hillsborough", "Beach camp with wallabies at sunrise", "The campground's own booking page"],
         ["Western Australia", "Lucky Bay, Cape Le Grand", "Beach camp with kangaroos on the sand", "Parks and Wildlife WA"],
         ["Tasmania", "Richardsons Beach and Honeymoon Bay, Freycinet", "Few sites in a very popular park", "Parks and Wildlife Tasmania"],
       ],

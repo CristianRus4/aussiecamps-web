@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "free-camping-northern-territory", publishAt: "2026-11-17",
-  title: "Free Camping in the Northern Territory 2026: Rest Areas, Cheap Park Camps and Where It Is Banned",
+  title: "Free Camping in the Northern Territory 2027: Rest Areas, Cheap Park Camps and Where It Is Banned",
   description: "Where you can camp for free in the Northern Territory: Stuart Highway rest areas, cheap park and bush camps, why towns ban camping and how the Parks Visitor Pass works.",
   category: "Camping guides", region: "Northern Territory",
   places: ["Stuart Highway", "Nitmiluk National Park", "Litchfield National Park", "Kakadu", "West MacDonnell Ranges"],

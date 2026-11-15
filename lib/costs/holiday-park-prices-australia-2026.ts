@@ -15,7 +15,7 @@ export default article({
   places: ["Holiday parks", "Council parks", "Powered sites", "Cabins"],
   imageAlt: "Grassed camping area under eucalypts at the Flaxmill Caravan Park in Boyup Brook, Western Australia",
   intro: "In published 2026 council tariffs, a powered site costs $30 to $60 a night for two people, an unpowered site $20 to $40 and a cabin from $85, and the peak season adds roughly $4 to $20 a night to a site. The big chains do not publish a price until you enter your dates, so the council tariffs are the clearest price list there is. The pages below were read on 28 October 2026, and each park sets its own price.",
-  related: ["powered-vs-unpowered-sites-australia", "camping-fees-australia-2026", "caravan-park-vs-holiday-park", "accommodation-costs-australia-2026"],
+  related: ["holiday-park-memberships-australia-2027", "powered-vs-unpowered-sites-australia", "camping-fees-australia-2026", "caravan-park-vs-holiday-park", "accommodation-costs-australia-2026"],
   sections: [
     section("What published tariffs show", ["Four parks that publish a 2026 tariff give a spread of prices across states. The prices are per night for one to two people unless noted, and each park has a peak tier for school holidays and summer."], ["Peak adds $4 to $20 for a site", "Cabins cost $85 and up", "Chains show prices after you search"], {
       caption: "Published holiday park prices in 2026, per night for one or two people, read 28 October 2026.",
