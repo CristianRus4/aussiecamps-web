@@ -1,4 +1,5 @@
 import type { Article } from "@/lib/site";
+import g_cairns_3_days_campervan, { faq as faq_g_cairns_3_days_campervan } from "@/lib/costs/cairns-3-days-campervan";
 import g_hobart_3_days_campervan, { faq as faq_g_hobart_3_days_campervan } from "@/lib/costs/hobart-3-days-campervan";
 import g_melbourne_3_days_campervan, { faq as faq_g_melbourne_3_days_campervan } from "@/lib/costs/melbourne-3-days-campervan";
 import g_camping_byron_bay, { faq as faq_g_camping_byron_bay } from "@/lib/costs/camping-byron-bay";
@@ -31,7 +32,7 @@ import g_easy_overnight_bushwalks_huts_families, { faq as faq_g_easy_overnight_b
 import g_best_multi_day_walks_australia_2026_27, { faq as faq_g_best_multi_day_walks_australia_2026_27 } from "@/lib/costs/best-multi-day-walks-australia-2026-27";
 
 /** Multi-day walk, park and city camping guides added by the aus-b3 lane. Each lives in lib/costs/<slug>.ts. */
-export const b3Articles: Article[] = [g_best_multi_day_walks_australia_2026_27, g_easy_overnight_bushwalks_huts_families, g_bushwalking_camp_rules_etiquette_australia, g_wilsons_promontory_camping, g_overland_track_2026_27, g_three_capes_track_2026_27, g_overland_track_2027_28_bookings, g_larapinta_trail_camping_2026_27, g_great_ocean_walk_camping_2026_27, g_bibbulmun_track_camping_2026_27, g_camping_in_sydney, g_sydney_3_days_campervan, g_starting_campervan_trip_sydney, g_hut_stays_australia, g_south_coast_track_tasmania, g_overland_three_capes_booked_out_alternatives, g_thorsborne_trail_hinchinbrook_island, g_australian_alps_walking_track, g_cape_to_cape_track_camping_2026_27, g_daintree_cape_tribulation_camping, g_kakadu_national_park_camping, g_best_scenic_campsites_australia_by_state, g_bruny_island_maria_island_camping, g_moreton_island_north_stradbroke_island_camping, g_camping_in_melbourne, g_camping_in_cairns, g_camping_gold_coast, g_camping_byron_bay, g_melbourne_3_days_campervan, g_hobart_3_days_campervan];
+export const b3Articles: Article[] = [g_best_multi_day_walks_australia_2026_27, g_easy_overnight_bushwalks_huts_families, g_bushwalking_camp_rules_etiquette_australia, g_wilsons_promontory_camping, g_overland_track_2026_27, g_three_capes_track_2026_27, g_overland_track_2027_28_bookings, g_larapinta_trail_camping_2026_27, g_great_ocean_walk_camping_2026_27, g_bibbulmun_track_camping_2026_27, g_camping_in_sydney, g_sydney_3_days_campervan, g_starting_campervan_trip_sydney, g_hut_stays_australia, g_south_coast_track_tasmania, g_overland_three_capes_booked_out_alternatives, g_thorsborne_trail_hinchinbrook_island, g_australian_alps_walking_track, g_cape_to_cape_track_camping_2026_27, g_daintree_cape_tribulation_camping, g_kakadu_national_park_camping, g_best_scenic_campsites_australia_by_state, g_bruny_island_maria_island_camping, g_moreton_island_north_stradbroke_island_camping, g_camping_in_melbourne, g_camping_in_cairns, g_camping_gold_coast, g_camping_byron_bay, g_melbourne_3_days_campervan, g_hobart_3_days_campervan, g_cairns_3_days_campervan];
 export const b3Faqs: Record<string, readonly (readonly [string, string])[]> = {
   [g_best_multi_day_walks_australia_2026_27.slug]: faq_g_best_multi_day_walks_australia_2026_27,
   [g_easy_overnight_bushwalks_huts_families.slug]: faq_g_easy_overnight_bushwalks_huts_families,
@@ -63,4 +64,5 @@ export const b3Faqs: Record<string, readonly (readonly [string, string])[]> = {
   [g_camping_byron_bay.slug]: faq_g_camping_byron_bay,
   [g_melbourne_3_days_campervan.slug]: faq_g_melbourne_3_days_campervan,
   [g_hobart_3_days_campervan.slug]: faq_g_hobart_3_days_campervan,
+  [g_cairns_3_days_campervan.slug]: faq_g_cairns_3_days_campervan,
 };
