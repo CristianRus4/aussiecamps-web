@@ -5,7 +5,7 @@
  * doesn't exist" (404), a removed one "This link was removed" (410), each with the contact line and Open in app
  * opening the app itself.
  */
-import { badgeIcon, escapeHtml, lookStyle, mapData, previewImage, previewLine, rows, statsHtml, usableCard } from "./format.js";
+import { badgeIcon, escapeHtml, lookStyle, mapData, previewLine, rows, statsHtml, usableCard } from "./format.js";
 
 const MAX_CARDS = 100;
 const CARD_TTL = 3600;

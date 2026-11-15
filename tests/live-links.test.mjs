@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 import { readFileSync } from "node:fs";
-import { badgeIcon, COLOURS, dateRange, distance, drivingTime, escapeHtml, inkOn, look, lookStyle, mapData, previewImage, previewLine, rows, stats, statsHtml, stopDate, usableCard } from "../places-worker/src/format.js";
+import { badgeIcon, COLOURS, dateRange, distance, drivingTime, escapeHtml, inkOn, look, lookStyle, mapData, previewLine, rows, stats, statsHtml, stopDate, usableCard } from "../places-worker/src/format.js";
 import { SYMBOLS } from "../places-worker/src/symbols.js";
 import { SYMBOL_ICONS, SYMBOLS_FILE, symbolsSource } from "../scripts/link-symbols.mjs";
 import { clientKey } from "../places-worker/src/index.js";
@@ -164,8 +164,6 @@ test("writes rows and map data, escaping the link's text", () => {
   assert.equal(rows({ kind: "collection", p: [{ t: "A", id: "AU1", la: 0, lo: 0 }] }, new Map([["AU1", { ...card, i: "", g: "Free" }]])).includes('<span class="sl-pin" aria-hidden="true"></span><span><strong>Perkins &amp; Flat</strong><small>Campground · High Plains · New South Wales</small></span><em class="pl-row-tag">Free</em>'), true);
   assert.deepEqual(JSON.parse(mapData(link, cards)), { p: [[150.631, -33.93], [2, 1], [2, 1.001]], l: [["Perkins & Flat", "new-south-wales/perkins-flat", 0], [evil, "", -1], ["Pin", "", -1]], t: ["Campground"] });
   assert.ok(!/[<>&']/.test(mapData(link, cards)), "the map JSON carries < > & ' as \\u escapes");
-  assert.equal(previewImage(link, cards), "https://x.example/b.jpg");
-  assert.equal(previewImage(link, new Map()), "");
 });
 
 test("escapes HTML and compares hashes", () => {

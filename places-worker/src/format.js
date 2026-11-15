@@ -135,11 +135,3 @@ export function mapData(link, cards) {
   return JSON.stringify({ p, l, t: types }).replace(/[<>&']/g, (char) => `\\u${char.charCodeAt(0).toString(16).padStart(4, "0")}`);
 }
 
-/** The first card photo that works as a link preview, in list order. */
-export function previewImage(link, cards) {
-  for (const entry of items(link)) {
-    const card = entry.id ? cards.get(entry.id) : null;
-    if (card?.o) return card.o;
-  }
-  return "";
-}
