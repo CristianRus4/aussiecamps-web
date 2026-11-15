@@ -15,7 +15,7 @@ export default article({
   places: ["Geelong", "Devonport", "Bass Strait", "Cradle Mountain", "Bay of Fires"],
   imageAlt: "A Spirit of Tasmania ferry passing a breakwater footbridge as it enters Port Frederick at Devonport, Tasmania",
   intro: "Yes. The Spirit of Tasmania carries campervans, motorhomes and caravans between Geelong and Devonport, provided you book the exact length and height, keep your gas turned off and tagged, and clear Tasmania's biosecurity rules. You are charged by total length, towed unit and attachments included, and TT-Line can deny passage if the size you declared turns out to be wrong.",
-  related: ["interstate-biosecurity-road-trip", "tasmania-camping-loop", "camping-rules-tasmania", "towing-caravan-australia-road-rules"],
+  related: ["interstate-biosecurity-road-trip", "tasmania-camping-loop", "camping-rules-tasmania", "towing-caravan-australia-road-rules", "hobart-3-days-campervan"],
   sections: [
     section("The short answer by vehicle and item", ["Most of the rules come from two TT-Line documents, the booking pages and the carriage of dangerous goods policy, plus Biosecurity Tasmania. The table gives the rule for each part of a rig, checked on 21 October 2026."], ["Declare exact size", "Gas off and tagged", "No fresh produce"], {
       caption: "Taking a caravan or campervan on the Spirit of Tasmania, checked 21 October 2026.",
