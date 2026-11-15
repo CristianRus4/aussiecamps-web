@@ -5,3 +5,4 @@ All images below are downloaded copies of real photographs. They were resized an
 | Article slug | Photograph subject | Creator | Source page | License | License URL |
 | --- | --- | --- | --- | --- | --- |
 | `two-week-campervan-itinerary-sydney-brisbane` | Aerial view of Cape Byron and its lighthouse, with surf along the coast and the green headland rising from the sea | Kpravin2 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Byron_Bay_Lighthouse,_Beach_and_Hinterland_in_the_Northern_Rivers,_NSW,_Australia.jpg) | CC BY-SA 4.0 | https://creativecommons.org/licenses/by-sa/4.0/ |
+| `one-week-campervan-itinerary-sydney-byron-bay` | The Cape Byron lighthouse above the coast at Byron Bay, New South Wales | Bernard Spragg. NZ from Christchurch, New Zealand | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Byron_Bay_Lighthouse.Australia._%2812065145333%29.jpg) | CC0 | http://creativecommons.org/publicdomain/zero/1.0/deed.en |
