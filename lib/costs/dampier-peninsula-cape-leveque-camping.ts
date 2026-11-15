@@ -15,7 +15,7 @@ export default article({
   places: ["Broome", "Cape Leveque", "Middle Lagoon", "Beagle Bay", "Lombadina"],
   imageAlt: "A giant boab tree inside a low fence at a rest area on the Great Northern Highway in the Kimberley, with red dirt in front of it",
   intro: "The Dampier Peninsula, north of Broome, has some of the most beautiful camping in the Kimberley, with red cliffs, white sand and turquoise water. It is also Aboriginal land, and the camps are run by the communities that own it. There is no free camping, but the camps are cheap by resort standards and the money goes back to the community. Go in the dry season, book ahead, and travel with respect.",
-  related: ["perth-to-broome-road-trip", "gibb-river-road-camping", "can-i-camp-on-aboriginal-land-without-a-permit", "can-i-take-alcohol-into-restricted-areas-on-an-outback-road-trip", "wet-season-camping-top-end-northern-wa"],
+  related: ["perth-to-broome-road-trip", "gibb-river-road-camping", "can-i-camp-on-aboriginal-land-without-a-permit", "can-i-take-alcohol-into-restricted-areas-on-an-outback-road-trip", "wet-season-camping-top-end-northern-wa", "camping-in-broome"],
   sections: [
     section("What the peninsula is like", ["The Dampier Peninsula is a long finger of land north of Broome, about a two hour drive to Cape Leveque. The communities of Beagle Bay, Lombadina and Ardyaloon (One Arm Point) have homes, shops and camps, and welcome visitors who follow the rules.", "The scenery is the point: pindan red earth, white beaches and clear water, with some of the biggest tides in Australia."], ["Aboriginal-owned land", "Red earth and white sand", "Big tides"], {
       caption: "Camps on the Dampier Peninsula.",
