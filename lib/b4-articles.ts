@@ -4,13 +4,15 @@ import g_one_week_campervan_itinerary_sydney_byron_bay, { faq as faq_g_one_week_
 import g_ten_day_campervan_itinerary_cairns_tropical_north, { faq as faq_g_ten_day_campervan_itinerary_cairns_tropical_north } from "@/lib/costs/ten-day-campervan-itinerary-cairns-tropical-north";
 import g_east_coast_vs_west_coast_australia_campervan, { faq as faq_g_east_coast_vs_west_coast_australia_campervan } from "@/lib/costs/east-coast-vs-west-coast-australia-campervan";
 import g_cairns_to_cape_york_camping_route, { faq as faq_g_cairns_to_cape_york_camping_route } from "@/lib/costs/cairns-to-cape-york-camping-route";
+import g_hobart_bay_of_fires_freycinet_camping_week, { faq as faq_g_hobart_bay_of_fires_freycinet_camping_week } from "@/lib/costs/hobart-bay-of-fires-freycinet-camping-week";
 
 /** Guides added by the aus-b4 lane: road trips and loops, A-to-B drives and activity guides. Each lives in lib/costs/<slug>.ts or lib/drives/<slug>.ts. */
-export const b4Articles: Article[] = [g_two_week_campervan_itinerary_sydney_brisbane, g_one_week_campervan_itinerary_sydney_byron_bay, g_ten_day_campervan_itinerary_cairns_tropical_north, g_east_coast_vs_west_coast_australia_campervan, g_cairns_to_cape_york_camping_route];
+export const b4Articles: Article[] = [g_two_week_campervan_itinerary_sydney_brisbane, g_one_week_campervan_itinerary_sydney_byron_bay, g_ten_day_campervan_itinerary_cairns_tropical_north, g_east_coast_vs_west_coast_australia_campervan, g_cairns_to_cape_york_camping_route, g_hobart_bay_of_fires_freycinet_camping_week];
 export const b4Faqs: Record<string, readonly (readonly [string, string])[]> = {
   [g_two_week_campervan_itinerary_sydney_brisbane.slug]: faq_g_two_week_campervan_itinerary_sydney_brisbane,
   [g_one_week_campervan_itinerary_sydney_byron_bay.slug]: faq_g_one_week_campervan_itinerary_sydney_byron_bay,
   [g_ten_day_campervan_itinerary_cairns_tropical_north.slug]: faq_g_ten_day_campervan_itinerary_cairns_tropical_north,
   [g_east_coast_vs_west_coast_australia_campervan.slug]: faq_g_east_coast_vs_west_coast_australia_campervan,
   [g_cairns_to_cape_york_camping_route.slug]: faq_g_cairns_to_cape_york_camping_route,
+  [g_hobart_bay_of_fires_freycinet_camping_week.slug]: faq_g_hobart_bay_of_fires_freycinet_camping_week,
 };
