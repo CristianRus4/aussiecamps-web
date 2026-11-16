@@ -62,6 +62,7 @@ const targets: LinkTarget[] = [
   { pattern: /\bflat white\b|\bcoffee prices\b|\bschooner\b|\bbeer prices\b|\bprice of a beer\b/i, slug: "alcohol-coffee-drink-prices-australia" },
   { pattern: /\bcigarette prices\b|\bprice of cigarettes\b/i, slug: "cigarette-prices-australia" },
   { pattern: /\bsmoking and vaping rules\b|\bduty[- ]free allowance\b|\bsmoke-free (?:areas?|places?|laws?)\b/i, slug: "smoking-vaping-rules-australia" },
+  { pattern: /\bwhere to buy cigarettes\b|\btobacconists?\b/i, slug: "where-to-buy-cigarettes-vapes-australia" },
   { pattern: /\baccommodation costs?\b|\bhostels?\b/i, slug: "accommodation-costs-australia-2026" },
   { pattern: /\bpublic transport\b/i, slug: "public-transport-costs-australia-2026" },
   { pattern: /\bdomestic flights?\b/i, slug: "domestic-flight-costs-australia-2026" },
