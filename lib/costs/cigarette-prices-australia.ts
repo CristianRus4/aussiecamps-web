@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "cigarette-prices-australia", publishAt: "2026-11-17",
+  slug: "cigarette-prices-australia", publishAt: "2026-11-16",
   title: "How Much Do Cigarettes Cost in Australia in 2027? Packs from $40 to $60",
   description: "A legal pack of 20 costs about $40 to $60 in Australia and a 30 g pouch of roll-your-own about $90 to $120. Prices by state, why tax is the cost, and vapes.",
   category: "Costs & budget", region: "Australia",

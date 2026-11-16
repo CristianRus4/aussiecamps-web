@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "where-to-buy-cigarettes-vapes-australia", publishAt: "2026-11-17",
+  slug: "where-to-buy-cigarettes-vapes-australia", publishAt: "2026-11-16",
   title: "Where to Buy Cigarettes and Vapes in Australia (2027)",
   description: "Cigarettes are sold at supermarket counters, servos and tobacconists; vapes only in pharmacies. Where to buy, ID rules and what to expect in the outback.",
   category: "Costs & budget", region: "Australia",

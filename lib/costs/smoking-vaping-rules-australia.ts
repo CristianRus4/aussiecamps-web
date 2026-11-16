@@ -8,7 +8,7 @@ export const faq = [
 ] as const;
 
 export default article({
-  slug: "smoking-vaping-rules-australia", publishAt: "2026-11-17",
+  slug: "smoking-vaping-rules-australia", publishAt: "2026-11-16",
   title: "Smoking and Vaping in Australia (2027): Rules for Travellers",
   description: "Bring 25 cigarettes or 25 g of tobacco duty free, vapes are pharmacy-only, you must be 18, and lit butts in the bush bring big fines. Traveller rules for 2027.",
   category: "Rules & safety", region: "Australia",
