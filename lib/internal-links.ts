@@ -59,7 +59,7 @@ const targets: LinkTarget[] = [
   { pattern: /\bcampervan budget\b|\broad trip budget\b/i, slug: "campervan-road-trip-budget-australia" },
   { pattern: /\bdaily budget\b|\btravel costs?\b/i, slug: "australia-travel-cost-2026" },
   { pattern: /\beating out\b|\btakeaway\b/i, slug: "eating-out-australia-prices-2026" },
-  { pattern: /\bflat white\b|\bcoffee prices\b|\bschooner\b/i, slug: "alcohol-coffee-drink-prices-australia" },
+  { pattern: /\bflat white\b|\bcoffee prices\b|\bschooner\b|\bbeer prices\b|\bprice of a beer\b/i, slug: "alcohol-coffee-drink-prices-australia" },
   { pattern: /\baccommodation costs?\b|\bhostels?\b/i, slug: "accommodation-costs-australia-2026" },
   { pattern: /\bpublic transport\b/i, slug: "public-transport-costs-australia-2026" },
   { pattern: /\bdomestic flights?\b/i, slug: "domestic-flight-costs-australia-2026" },
@@ -100,6 +100,38 @@ const live = targets.filter((target) => bySlug.has(target.slug));
 const escapeHtml = (text: string) =>
   text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
+/**
+ * Links to the sister site, KiwiCamping, written into the English prose itself as
+ * `<a data-sister="slug">phrase</a>`, where slug is a guide on campingapp.nz. A guide carries at most
+ * one, as a single sentence pointing at its New Zealand twin. Translators keep the tag as they keep
+ * `data-guide`. Every renderer escapes the prose and lets back in only this tag, rewritten to
+ * https://campingapp.nz/guides/<slug>/; plain-text uses strip it with the other tags.
+ */
+export const SISTER_GUIDE_URL = "https://campingapp.nz/guides/";
+const sisterMarkup = /<a data-sister="([a-z0-9-]+)">([^<]*)<\/a>/g;
+const sisterRanges = (paragraph: string) => [...paragraph.matchAll(sisterMarkup)].map((match) => [match.index!, match.index! + match[0].length] as const);
+/** Escapes text, turning sister markup back into its link; `outside` first cleans the text around it. */
+const escapeWithSister = (text: string, outside = (part: string) => part) => {
+  let html = "";
+  let last = 0;
+  for (const match of text.matchAll(sisterMarkup)) {
+    html += escapeHtml(outside(text.slice(last, match.index)));
+    html += `<a href="${SISTER_GUIDE_URL}${match[1]}/">${escapeHtml(match[2])}</a>`;
+    last = match.index! + match[0].length;
+  }
+  return html + escapeHtml(outside(text.slice(last)));
+};
+/** The first match of `pattern` in `paragraph` that does not fall inside sister markup. */
+const firstMatchOutside = (pattern: RegExp, paragraph: string) => {
+  const ranges = sisterRanges(paragraph);
+  if (!ranges.length) return pattern.exec(paragraph);
+  for (const match of paragraph.matchAll(new RegExp(pattern.source, pattern.flags.includes("g") ? pattern.flags : `${pattern.flags}g`))) {
+    const end = match.index + match[0].length;
+    if (!ranges.some(([from, to]) => match.index < to && end > from)) return match;
+  }
+  return null;
+};
+
 /** One chosen link: the phrase at [start, end) of its paragraph links to `slug`. */
 export type LinkSpan = { start: number; end: number; slug: string };
 
@@ -116,7 +148,7 @@ export function selectLinks(paragraphs: readonly string[], currentSlug: string, 
     if (remaining <= 0) return null;
     for (const target of live) {
       if (used.has(target.slug)) continue;
-      const match = target.pattern.exec(paragraph);
+      const match = firstMatchOutside(target.pattern, paragraph);
       if (!match) continue;
       used.add(target.slug);
       remaining -= 1;
@@ -138,10 +170,10 @@ export function linkProse(paragraphs: readonly string[], currentSlug: string, lo
   const spans = selectLinks(paragraphs, currentSlug, budget);
   return paragraphs.map((paragraph, index) => {
     const span = spans[index];
-    if (!span || isScheduled(span.slug)) return escapeHtml(paragraph);
-    return escapeHtml(paragraph.slice(0, span.start))
+    if (!span || isScheduled(span.slug)) return escapeWithSister(paragraph);
+    return escapeWithSister(paragraph.slice(0, span.start))
       + `<a href="${hrefFor(span.slug)}">${escapeHtml(paragraph.slice(span.start, span.end))}</a>`
-      + escapeHtml(paragraph.slice(span.end));
+      + escapeWithSister(paragraph.slice(span.end));
   });
 }
 
@@ -174,7 +206,7 @@ export const stripGuideLinks = (text: string) => text.replace(guideMarkup, "$2")
  * not yet published guide, is reduced to its text.
  */
 export function renderGuideLinks(text: string, locale: LocaleCode | "en"): string {
-  const clean = (part: string) => escapeHtml(part.replace(/<\/?a\b[^>]*>/g, ""));
+  const clean = (part: string) => escapeWithSister(part, (text) => text.replace(/<\/?a\b[^>]*>/g, ""));
   let html = "";
   let last = 0;
   for (const match of text.matchAll(guideMarkup)) {

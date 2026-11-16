@@ -12,7 +12,7 @@ export function Footer({ pageKey = "home", openApp }: { pageKey?: string; openAp
     <footer className="footer">
       <div className="footer-grid">
         <div><BrandMark /><p>Find 74,000+ Australian places offline, save the ones that matter and build complete road trips with routes, distance, dates, notes and to-dos.</p></div>
-        <div><strong>Explore</strong><Link href="/guides/">Travel guides</Link><Link href="/tools/">Tools</Link><Link href="/#features">Features</Link></div>
+        <div><strong>Explore</strong><Link href="/guides/">Travel guides</Link><Link href="/tools/">Tools</Link><Link href="/#features">Features</Link><a href="https://campingapp.nz/">KiwiCamping</a></div>
         <div><strong>Help</strong><Link href="/support/">Support & FAQ</Link><a href={SUPPORT_MAILTO}>Contact</a></div>
         <div><strong>{openApp ? "The app" : "Get the app"}</strong><a href={appStoreUrl({ placement: "foot" })} data-cta="foot" data-open-app={openApp}>{openApp ? <OpenAppLabel /> : "Download app"}</a><Link href="/privacy/">Privacy</Link><Link href="/terms/">Terms</Link><PrivacyChoicesLink /></div>
       </div>
