@@ -60,6 +60,7 @@ const targets: LinkTarget[] = [
   { pattern: /\bdaily budget\b|\btravel costs?\b/i, slug: "australia-travel-cost-2026" },
   { pattern: /\beating out\b|\btakeaway\b/i, slug: "eating-out-australia-prices-2026" },
   { pattern: /\bflat white\b|\bcoffee prices\b|\bschooner\b|\bbeer prices\b|\bprice of a beer\b/i, slug: "alcohol-coffee-drink-prices-australia" },
+  { pattern: /\bcigarette prices\b|\bprice of cigarettes\b/i, slug: "cigarette-prices-australia" },
   { pattern: /\baccommodation costs?\b|\bhostels?\b/i, slug: "accommodation-costs-australia-2026" },
   { pattern: /\bpublic transport\b/i, slug: "public-transport-costs-australia-2026" },
   { pattern: /\bdomestic flights?\b/i, slug: "domestic-flight-costs-australia-2026" },
