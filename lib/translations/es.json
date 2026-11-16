@@ -7800,145 +7800,309 @@
       }
     },
     "alcohol-coffee-drink-prices-australia": {
-      "title": "Cerveza y café en Australia 2027: la cerveza en el pub, de 7 a 16 AUD",
-      "description": "Una cerveza en un pub cuesta de 7 a 16 AUD y un capuchino de 4,50 a 8 AUD en Sídney (octubre de 2026). Por bebida estándar, la cerveza del pub sale de 4 a 9 AUD y el vino de tienda de 1,60 a 4 AUD.",
+      "title": "Cuánto cuesta una cerveza en Australia: precios en pubs y bottle shops (2027)",
+      "description": "Un schooner en un pub cuesta de $8 a $13 y una pinta de $12 a $18 en las ciudades australianas (noviembre de 2026). Un pack de 24, de $55 a $72. Precios por ciudad, nombres de vasos y happy hours.",
       "region": "Australia",
       "imageAlt": "Bebidas de una cafetería australiana sobre una mesa",
-      "intro": "Una cerveza de barril de 500 ml en un pub de Sídney cuesta entre 7 y 16 AUD y un capuchino entre 4,50 y 8 AUD, según los datos de precios de la comunidad actualizados en octubre de 2026, mientras que una botella de cerveza de 500 ml en una bottle shop (tienda de bebidas alcohólicas) ronda entre 3,50 y 12 AUD en todo el país. Por bebida estándar, eso supone entre 4 y 9 AUD en el pub, entre 2 y 7 AUD con cerveza de bottle shop y entre 1,60 y 4 AUD con una botella de vino de gama media, así que lo más barato es lo que compras para llevar al camping.",
+      "intro": "Un schooner de cerveza (425 ml) cuesta de $8 a $13 en un pub de una ciudad australiana en noviembre de 2026, y una pinta (570 ml), de $12 a $18. Perth y los pubs de pueblo son lo más barato, mientras que el centro de Sídney y Melbourne es lo más caro. En un bottle shop, un pack de seis cervezas normales sale por unos $20 a $28 y un slab de 24 por unos $55 a $72, es decir, menos de la mitad del precio de pub por cerveza. Comprar para llevarte las bebidas al camping es, con diferencia, lo que más compensa.",
       "sections": [
         {
-          "heading": "Precio en tienda y precio en el local son cosas distintas",
+          "heading": "Precio de la cerveza por ciudad",
           "body": [
-            "En un pub pagas el local, el personal y el servicio, no solo lo que hay en el vaso. Compara lo que es comparable y no presentes el equivalente de la bottle shop como si fuera el precio de una bebida servida. Las bebidas estándar permiten comparar de forma justa: Healthy WA define una bebida estándar como 10 gramos de alcohol, lo que hay en 285 ml de cerveza normal o 100 ml de vino, así que una cerveza de 500 ml son unas 1,75 bebidas estándar y una botella de vino de 750 ml unas 7,5.",
-            "Las happy hours y las promociones son pasajeras. Haz el presupuesto con el rango de precios habitual y cuenta cualquier descuento como margen a tu favor."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Vino en la bottle shop y en el bar",
-          "body": [
-            "Una botella de vino de gama media de 750 ml cuesta entre 12 y 30 AUD en una bottle shop, y da para unas cinco copas de 150 ml. Pedido por copas en un bar o restaurante, el mismo vino suele costar bastante más por ración, así que el vino sale más barato si compartes una botella en el camping.",
-            "Algunos restaurantes, sobre todo los que no tienen licencia de alcohol, te dejan llevar tu propia botella (BYO, bring your own) a cambio de un descorche, y así el precio de la bottle shop se convierte en el vino de la cena. Pregúntalo al reservar, no en la mesa."
+            "La tabla recoge precios habituales de una cerveza corriente, como una lager o una pale ale local. El precio en un pub depende mucho del local: un pub de barrio o un club sirve más barato que un bar de azotea o un hotel frente al puerto, y la cerveza artesanal suele añadir de $2 a $4 por vaso.",
+            "En los bottle shops los precios cambian menos de una ciudad a otra, porque la mayor parte del precio es el impuesto especial (excise), el impuesto federal sobre el alcohol, que es el mismo en todas partes. Darwin y el interior pagan más por el transporte, y en los bottle shops del <a data-guide=\"camping-rules-northern-territory\">Territorio del Norte</a> hay normas adicionales sobre horarios y documento de identidad.",
+            "Cuenta con que los precios sigan subiendo. El impuesto sobre la cerveza envasada se actualiza con la inflación cada febrero y agosto, así que en los bottle shops subirán a lo largo de 2027, mientras que el de la cerveza de barril está congelado hasta agosto de 2027, lo que mantiene más estables los precios en los pubs."
           ],
           "tips": [
-            "Botella de gama media: 12–30 AUD",
-            "Unas cinco copas por botella",
-            "Pregunta por el BYO al reservar"
+            "Perth: las pintas más baratas de las capitales",
+            "Sídney y Melbourne: las más caras",
+            "Pubs de pueblo: a menudo los más baratos"
+          ],
+          "table": {
+            "caption": "Precios habituales de una cerveza corriente en noviembre de 2026. Un schooner son 425 ml y una pinta 570 ml; en Adelaida, el vaso de 425 ml se llama pinta.",
+            "head": [
+              "Ciudad",
+              "Schooner en pub (425 ml)",
+              "Pinta en pub (570 ml)",
+              "Pack de seis (bottle shop)",
+              "Slab de 24 (bottle shop)"
+            ],
+            "rows": [
+              [
+                "Sídney",
+                "$9 a $13",
+                "$13 a $18",
+                "$21 a $28",
+                "$57 a $72"
+              ],
+              [
+                "Melbourne",
+                "$9.50 a $14",
+                "$14 a $18.50",
+                "$21 a $28",
+                "$57 a $72"
+              ],
+              [
+                "Brisbane",
+                "$9 a $13",
+                "$12 a $17",
+                "$21 a $28",
+                "$57 a $72"
+              ],
+              [
+                "Perth",
+                "$8 a $12",
+                "$9 a $15",
+                "$21 a $28",
+                "$58 a $72"
+              ],
+              [
+                "Adelaida",
+                "$8.50 a $12",
+                "$12 a $16",
+                "$20 a $27",
+                "$55 a $70"
+              ],
+              [
+                "Hobart",
+                "$9 a $12",
+                "$12 a $16",
+                "$21 a $28",
+                "$58 a $72"
+              ],
+              [
+                "Darwin",
+                "$9 a $13",
+                "$13 a $18",
+                "$23 a $30",
+                "$62 a $80"
+              ],
+              [
+                "Canberra",
+                "$9 a $12",
+                "$12 a $17",
+                "$21 a $28",
+                "$57 a $72"
+              ],
+              [
+                "Pubs de pueblo",
+                "$7 a $10",
+                "$10 a $14",
+                "$22 a $32",
+                "$60 a $85"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Nombres y tamaños de los vasos según el estado",
+          "body": [
+            "Los vasos de cerveza australianos cambian de nombre al cruzar la frontera de cada estado, y la misma palabra puede significar un vaso distinto. Si pides un schooner en Sídney te sirven 425 ml; si lo pides en Adelaida, 285 ml, porque en Australia Meridional el vaso de 425 ml se llama pinta y el de 570 ml, imperial pint.",
+            "Si tienes dudas, pide el tamaño con palabras sencillas o di simplemente pequeña, mediana o grande. El personal está acostumbrado a los visitantes y la lista de precios de la pared suele indicar cómo se llama cada vaso."
+          ],
+          "tips": [
+            "Schooner son 285 ml en Australia Meridional",
+            "Pide pequeña, mediana o grande",
+            "Las jarras son de unos 1,1 litros"
+          ],
+          "table": {
+            "caption": "Nombres habituales de los vasos de cerveza de barril por estado y territorio. Los nombres varían de un pub a otro, sobre todo el del vaso de 285 ml.",
+            "head": [
+              "Estado o territorio",
+              "285 ml",
+              "425 ml",
+              "570 ml"
+            ],
+            "rows": [
+              [
+                "Nueva Gales del Sur y el ACT",
+                "Middy",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Victoria",
+                "Pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Queensland",
+                "Pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Australia Meridional",
+                "Schooner",
+                "Pint",
+                "Imperial pint"
+              ],
+              [
+                "Australia Occidental",
+                "Middy",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Tasmania",
+                "Ten o pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Territorio del Norte",
+                "Handle o middy",
+                "Schooner",
+                "Pint"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Precio en tienda y precio en local no son lo mismo",
+          "body": [
+            "El precio en un pub incluye el local, el personal y el servicio, no solo el líquido. Compara cosas equivalentes y no presentes el precio de un bottle shop como si fuera el de una copa servida. Las bebidas estándar hacen justa la comparación: Healthy WA fija una bebida estándar en 10 gramos de alcohol, que es lo que hay en 285 ml de cerveza de graduación normal o en 100 ml de vino, de modo que una cerveza de 500 ml equivale a unas 1,75 bebidas estándar y una botella de vino de 750 ml, a unas 7,5.",
+            "Por bebida estándar, la cerveza de pub cuesta de $4 a $9, un slab del bottle shop de $1.60 a $2.20 y una botella de vino de gama media de $1.60 a $4. La cerveza de graduación media, que se sirve de barril casi en todas partes, tiene cerca de una cuarta parte menos de alcohol por un precio casi igual."
+          ],
+          "tips": [
+            "285 ml de cerveza normal: una bebida estándar",
+            "Cerveza en slab: unos $2 por bebida estándar",
+            "La de graduación media cuesta casi lo mismo"
           ]
         },
         {
-          "heading": "Controla el gasto diario que no se ve",
+          "heading": "Happy hours y las formas más baratas de beber",
           "body": [
-            "Dos cafés y dos bebidas en un bar al día acaban sumando una buena cantidad a la semana. Decide qué paradas te importan de verdad en lugar de comprar por costumbre.",
-            "Ten siempre <a data-guide=\"camping-water-planning\">agua potable</a> a mano y rellena solo en grifos de agua potable. Con calor, hidratarte y buscar sombra forman parte del plan de seguridad, no del presupuesto de ocio."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "El café es una partida diaria",
-          "body": [
-            "Australia tiene una gran cultura del café, con un nivel alto de verdad también en los pueblos, y justo por eso acaba siendo una partida más del presupuesto. Dos flat whites al día para dos personas se van sumando sin que en ningún momento parezca una decisión.",
-            "Con una cafetera italiana o una AeroPress en la camper, el café de la mañana te sale por una fracción de lo que cuesta en la cafetería, y esa parada pasa a ser algo que eliges, no una costumbre automática.",
-            "En los trayectos largos, el café de los roadhouses (las gasolineras con bar y tienda del outback) es irregular en el mejor de los casos. En las rutas por el outback, preparártelo tú suele salir más barato y bastante mejor."
+            "Muchos pubs tienen una happy hour entre semana por la tarde, a menudo de 16:00 a 18:00, con schooners por unos $6 a $9. Algunos añaden jarras baratas, una cerveza con la comida del mostrador o una noche de filete con schooner. Tómalo como un extra y no como parte de tu presupuesto: cambian a menudo y muchas solo valen de lunes a viernes.",
+            "Los clubes, como los RSL, los clubes de bolos y los clubes de surf, suelen servir más barato que los pubs y los visitantes son bienvenidos: te registras en la puerta con un documento con foto y eres socio temporal por un día.",
+            "La bebida más barata de todas es un slab o un cask (cartón de vino) del bottle shop, enfriado en la nevera de la furgoneta o en el esky y bebido de vuelta en el camping. Mira antes las normas del camping, porque algunos sitios de parques nacionales y de ayuntamientos, y muchas playas y parques urbanos, prohíben el alcohol o lo limitan a ciertas horas."
           ],
           "tips": [
-            "Dos cafés al día suman rápido",
-            "Prepárate tú el café de la mañana",
-            "El café de los roadhouses es irregular"
+            "Happy hours entre semana: de 16:00 a 18:00 aprox.",
+            "Los clubes admiten visitantes con documento",
+            "Mira las normas sobre alcohol del camping"
           ]
         },
         {
           "heading": "Comprar alcohol en Australia",
           "body": [
-            "El alcohol envasado se vende sobre todo en bottle shops con licencia, muchas veces pegadas a un supermercado pero con funcionamiento independiente, aunque Aldi y algunas tiendas de alimentación independientes lo venden en la propia tienda. Los horarios de venta están regulados y cambian según el estado.",
-            "Hay restricciones al alcohol en muchas comunidades y regiones, sobre todo en el Territorio del Norte, en partes de <a data-guide=\"camping-rules-queensland\">Queensland</a>, en Australia Occidental y en Australia Meridional. Llevar alcohol a una zona restringida conlleva sanciones considerables.",
-            "Infórmate antes de viajar con alcohol a zonas remotas. Las restricciones se aplican por ley, afectan a los visitantes igual que a los residentes y no vale alegar que no lo sabías."
+            "El alcohol envasado se vende sobre todo en bottle shops con licencia, a menudo junto a un supermercado pero con funcionamiento aparte, aunque Aldi y algunas tiendas independientes lo venden dentro. Los horarios están regulados y varían según el estado. Hay que tener 18 años para comprar alcohol, y al que parezca menor de 25 le piden un documento con foto: el pasaporte o el carné de conducir.",
+            "Hay restricciones al alcohol en muchas comunidades y regiones, sobre todo en el Territorio del Norte, en zonas de <a data-guide=\"camping-rules-queensland\">Queensland</a>, en Australia Occidental y en Australia Meridional. Entrar con alcohol en una zona restringida conlleva multas muy elevadas.",
+            "Infórmate antes de viajar con alcohol a zonas remotas. Las restricciones se aplican por ley, valen tanto para visitantes como para residentes y desconocerlas no te exime."
           ],
           "tips": [
             "Sobre todo bottle shops, algunos supermercados",
-            "Las zonas restringidas tienen multas fuertes",
+            "Lleva un documento con foto",
             "Infórmate antes de entrar en regiones remotas"
           ]
         },
         {
-          "heading": "Beber y conducir en un día de ruta",
+          "heading": "Beber y el día de conducción",
           "body": [
-            "El límite general es de 0,05 para quienes tienen el permiso definitivo, de cero para conductores en prácticas y noveles, y de cero o 0,02 para muchos conductores profesionales según el estado (0,02 en Nueva Gales del Sur). Los controles de alcoholemia aleatorios son habituales, también en carreteras rurales y durante el día.",
-            "En ruta, lo único seguro es separar por completo el alcohol y el volante: duerme donde bebas, que conduzca alguien que no haya bebido o bebe solo cuando el vehículo ya esté aparcado para pasar la noche.",
-            "Conducir a la mañana siguiente sorprende a mucha gente. El cuerpo tarda al menos una hora en eliminar cada consumición estándar, a menudo más, y ni el café ni una ducha lo aceleran, así que tras una noche de mucho beber puedes seguir por encima del límite bien entrada la mañana."
+            "El límite general es 0,05 para quienes tienen el carné completo, cero para conductores con permiso de aprendiz o provisional, y cero o 0,02 para muchos conductores profesionales según el estado (0,02 en Nueva Gales del Sur). Los controles de alcoholemia aleatorios son habituales, también en carreteras rurales y de día.",
+            "En un viaje por carretera, lo único seguro es separar del todo beber y conducir: quédate donde bebes, usa un conductor designado o bebe cuando el vehículo ya esté aparcado para pasar la noche.",
+            "Conducir a la mañana siguiente pilla desprevenida a mucha gente. El cuerpo tarda al menos una hora en eliminar cada bebida estándar, a menudo más, y ni el café ni una ducha lo aceleran, así que una noche de mucho alcohol puede dejarte por encima del límite hasta bien entrada la mañana."
           ],
           "tips": [
-            "0,05 en general; cero en prácticas y noveles",
-            "Los controles aleatorios son habituales, también de día",
-            "La trampa es conducir a la mañana siguiente"
+            "0,05 en general, cero para aprendices y provisionales",
+            "Los controles aleatorios son comunes y de día",
+            "Conducir a la mañana siguiente es la trampa"
           ]
         },
         {
-          "heading": "Lo importante es acertar con el agua",
+          "heading": "El vino en el bottle shop y en el bar",
           "body": [
-            "El agua del grifo es segura y buena en casi todos los pueblos y ciudades de Australia, y comprar agua embotellada es prácticamente tirar el dinero. Lleva botellas reutilizables y rellénalas en cualquier grifo de agua potable de un pueblo, un camping o unas instalaciones públicas.",
-            "En zonas remotas y en el monte la cosa cambia: el agua de pozo puede estar muy mineralizada o no ser apta, el agua de depósito no está tratada y el agua superficial en zonas agrícolas puede llevar contaminación química. Purifica cualquier agua que no venga de una red municipal señalizada como potable.",
-            "Lleva una buena botella isotérmica para tener siempre agua fría a mano con el calor; rellenarla no cuesta nada."
+            "Una botella de vino de gama media de 750 ml cuesta de $12 a $29 en un bottle shop y da para unas cinco copas de 150 ml. Pedido por copa en un bar o restaurante, el mismo vino suele costar de $10 a $16 la copa, así que el vino sale más barato cuando compartes una botella en el camping.",
+            "Algunos restaurantes, sobre todo los que no tienen licencia de alcohol, te dejan llevar tu propia botella a cambio de un cargo por descorche, con lo que el precio de bottle shop pasa a ser vino de cena. Pregúntalo al reservar y no en la mesa."
           ],
           "tips": [
-            "El agua del grifo de los pueblos es segura",
-            "El agua de pozo a menudo no es apta",
-            "Purifica el agua de depósito y la superficial"
+            "Botella de gama media: de $12 a $29",
+            "Unas cinco copas por botella",
+            "Pregunta por el BYO al reservar"
+          ]
+        },
+        {
+          "heading": "El café es un gasto diario",
+          "body": [
+            "Un capuchino o un flat white normal cuesta de $4 a $8, y las cafeterías del centro de las ciudades están en la parte alta del rango. La cultura del café en Australia es fuerte y el nivel en las ciudades pequeñas es realmente alto, y por eso mismo acaba siendo una partida del presupuesto: dos cafés al día para dos personas se suman sin que parezca una decisión.",
+            "Una cafetera italiana o una AeroPress en la furgoneta te resuelve el café de la mañana por una fracción del precio de la cafetería y deja la parada en el café como algo que eliges y no como un automatismo. El café de las gasolineras de carretera en los largos tramos del interior es irregular, así que hacértelo tú suele ser más barato y mejor.",
+            "El agua del grifo es segura y buena en casi todas las ciudades y pueblos australianos, así que lleva botellas rellenables en lugar de comprar agua. En el campo, trata el agua de pozo, de depósito o de arroyo antes de beberla. ¿Vas también a Nueva Zelanda? KiwiCamping te cuenta <a data-sister=\"beer-wine-coffee-prices-new-zealand\">cuánto cuestan una cerveza, un vino y un café en Nueva Zelanda</a>."
+          ],
+          "tips": [
+            "Capuchino: de $4 a $8",
+            "Prepárate tú el café de la mañana",
+            "El agua del grifo en las ciudades es segura"
           ]
         }
       ],
       "faq": [
         [
           "¿Cuánto cuesta una cerveza en Australia?",
-          "Una cerveza de barril de 500 ml en un pub de Sídney cuesta entre 7,15 y 16 AUD según los datos de precios de la comunidad de octubre de 2026, y una botella de 500 ml en una bottle shop, entre 3,50 y 12 AUD en todo el país. Comprar en una bottle shop en vez de en un bar es uno de los mayores ahorros en un viaje largo."
+          "Un schooner (425 ml) de cerveza corriente cuesta de $8 a $13 en un pub de ciudad en noviembre de 2026, y una pinta (570 ml), de $12 a $18. En un bottle shop, un pack de seis sale por unos $20 a $28 y un slab de 24 por unos $55 a $72, menos de la mitad del precio de pub por cerveza."
+        ],
+        [
+          "¿Cuánto cuesta una pinta en Australia?",
+          "Unos $12 a $18 por 570 ml de cerveza corriente en un pub de ciudad, con Perth y los pubs de pueblo en la parte baja y el centro de Melbourne y Sídney en la alta. En Australia Meridional una pinta es el vaso de 425 ml, que cuesta de $8.50 a $12; pide una imperial pint para que te sirvan 570 ml."
+        ],
+        [
+          "¿Dónde está la cerveza más barata de Australia?",
+          "Perth y los pubs de pueblo sirven la cerveza más barata, y los clubes como los RSL y los clubes de bolos suelen ser más baratos que los pubs; los visitantes se registran con un documento con foto. Con las happy hours entre semana el schooner baja a unos $6 a $9, pero lo más barato de todo es un slab del bottle shop, a unos $2 por bebida estándar."
         ],
         [
           "¿Cuánto cuesta un café en Australia?",
-          "Un capuchino normal cuesta entre 4,50 y 8 AUD en Sídney y entre 4 y 8 AUD en todo el país según los datos de precios de la comunidad de octubre de 2026, con las cafeterías del centro de las ciudades en la parte alta de la franja. Dos cafés al día para dos personas se convierten en una partida real del presupuesto en un viaje largo."
+          "Un capuchino o un flat white normal cuesta de $4 a $8, y las cafeterías del centro de las ciudades suelen estar en la parte alta. Dos cafés al día para dos personas se convierten en una partida real del presupuesto en un viaje largo, y por eso muchos campistas se preparan el de la mañana ellos mismos."
         ]
       ],
       "sources": [
         {
-          "label": "Precios de las bebidas en Sídney según Numbeo"
+          "label": "Numbeo, precios de bebidas en Australia, actualizado en noviembre de 2026"
         },
         {
-          "label": "Rangos de precios en tiendas de Australia según Numbeo"
+          "label": "Australian Taxation Office: tipos del impuesto especial sobre el alcohol"
         },
         {
-          "label": "Información de NSW sobre alcohol y conducción"
+          "label": "Healthy WA: qué es una bebida estándar"
+        },
+        {
+          "label": "Guía de alcohol y conducción de Nueva Gales del Sur"
         },
         {
           "label": "NHMRC: cuánto tarda el cuerpo en eliminar el alcohol"
         },
         {
-          "label": "Territorio del Norte: comprar y beber alcohol"
+          "label": "Territorio del Norte: comprar y consumir alcohol"
         },
         {
-          "label": "Healthy WA: qué es una bebida estándar"
+          "label": "Gobierno de Nueva Gales del Sur: normas de los clubes para visitantes"
         }
       ],
       "priceTable": {
-        "note": "Rangos para Australia y Sídney aportados por la comunidad y actualizados en octubre de 2026. Varían según el tamaño de la bebida, el local, las promociones y la zona.",
+        "note": "Rangos de precio en pubs y bottle shops de ciudad para cerveza australiana corriente en noviembre de 2026. La cerveza artesanal, la importada, los locales frente al agua y las zonas remotas cuestan más; las happy hours y las ofertas cuestan menos.",
         "rows": [
           {
-            "label": "Capuchino (Sídney)",
+            "label": "Schooner en pub",
+            "unit": "425 ml"
+          },
+          {
+            "label": "Pinta en pub",
+            "unit": "570 ml"
+          },
+          {
+            "label": "Pack de seis en bottle shop",
+            "unit": "6 x 375 ml"
+          },
+          {
+            "label": "Slab en bottle shop",
+            "unit": "24 x 375 ml"
+          },
+          {
+            "label": "Vino de gama media",
+            "unit": "botella de 750 ml en bottle shop"
+          },
+          {
+            "label": "Capuchino",
             "unit": "una taza"
-          },
-          {
-            "label": "Cerveza de barril en un pub (Sídney)",
-            "unit": "un vaso"
-          },
-          {
-            "label": "Vino de gama media (todo el país)",
-            "unit": "750 ml en tienda"
-          },
-          {
-            "label": "Cerveza nacional equivalente (todo el país)",
-            "unit": "500 ml en tienda"
-          },
-          {
-            "label": "Refresco (Sídney)",
-            "unit": "330 ml en un local"
           }
         ]
       }
@@ -29161,6 +29325,608 @@
         },
         {
           "label": "Bureau of Meteorology: clima por región"
+        }
+      ],
+      "priceTable": null
+    },
+    "cigarette-prices-australia": {
+      "title": "Cuánto cuesta el tabaco en Australia en 2027: cajetillas de $40 a $60",
+      "description": "Una cajetilla legal de 20 cigarrillos cuesta unos $40 a $60 en Australia y una bolsa de 30 g de tabaco de liar, unos $90 a $120. Precios por estado, por qué son tan caros y vapeadores.",
+      "region": "Australia",
+      "imageAlt": "Armario de tabaco cerrado en una tienda australiana, con cajetillas y bolsas en envase neutro sobre sus precios",
+      "intro": "Una cajetilla legal de 20 cigarrillos cuesta unos $40 a $60 en Australia en noviembre de 2026, y una bolsa de 30 g de tabaco de liar, unos $90 a $120. Las cajetillas de 25 y las bolsas grandes ya no existen: desde el 1 de julio de 2025 los cigarrillos solo se venden en cajetillas de 20 y el tabaco de liar solo en bolsas de 30 g. Casi todo el precio son impuestos federales, así que la misma cajetilla cuesta más o menos lo mismo en Sídney que en Perth, y un poco más en los pueblos remotos y en el Territorio del Norte. Los precios suben dos veces al año, así que si viajas en 2027, cuenta con más de lo que ves aquí.",
+      "sections": [
+        {
+          "heading": "Cuánto cuesta una cajetilla de 20",
+          "body": [
+            "Las marcas económicas están en la parte baja, entre $38 y $45 por 20. Las marcas corrientes, las que verás detrás de cualquier mostrador de gasolinera (servo), rondan de $50 a $60. Las tiendas y las cadenas hacen descuentos y suben precios en momentos distintos, así que la misma marca puede diferir en unos dólares entre dos tiendas de la misma calle.",
+            "Si recuerdas la cajetilla de 25 de años anteriores o la que venden en tu país, ese tamaño ya no existe en Australia. La ley de envase neutro, que entró en vigor del todo el 1 de julio de 2025, fijó todas las cajetillas de cigarrillos en 20, con 10 cajetillas por cartón. La de 20 es el único tamaño que tienes que mirar."
+          ],
+          "tips": [
+            "Económicas: unos $38 a $45",
+            "Corrientes: unos $50 a $60",
+            "Ya no hay cajetillas de 25"
+          ]
+        },
+        {
+          "heading": "Precios por estado y territorio",
+          "body": [
+            "La mayor parte del precio es el impuesto especial federal, igual en todos los estados, así que el estado donde compres cambia poco el precio. Los rangos de abajo son una guía de lo que cobran las tiendas por productos legales. En el <a data-guide=\"camping-rules-northern-territory\">Territorio del Norte</a> y en las comunidades remotas suele ser más caro, porque el transporte y las pocas ventas se suman al precio de estantería, y en las gasolineras del interior (roadhouses) puede ser el más alto de todos.",
+            "No hay una lista oficial de precios por estado, así que toma los rangos como una orientación de lo que te vas a encontrar y no como un presupuesto cerrado. Echar un vistazo al precio en la tienda antes de comprar te dice más que cualquier tabla."
+          ],
+          "tips": [
+            "El mismo impuesto en todos los estados",
+            "Territorio del Norte y zonas remotas: algo más caro",
+            "Mira el precio en la tienda"
+          ],
+          "table": {
+            "caption": "Precios habituales en tienda del tabaco legal en noviembre de 2026. Una orientación, no un presupuesto: cada tienda fija sus precios.",
+            "head": [
+              "Estado o territorio",
+              "Cajetilla de 20",
+              "Bolsa de 30 g"
+            ],
+            "rows": [
+              [
+                "Nueva Gales del Sur",
+                "$40 a $60",
+                "$90 a $120"
+              ],
+              [
+                "Victoria",
+                "$40 a $60",
+                "$90 a $120"
+              ],
+              [
+                "Queensland",
+                "$40 a $60",
+                "$90 a $120"
+              ],
+              [
+                "Australia Meridional",
+                "$40 a $60",
+                "$90 a $120"
+              ],
+              [
+                "Australia Occidental",
+                "$40 a $60",
+                "$90 a $120"
+              ],
+              [
+                "Tasmania",
+                "$40 a $60",
+                "$90 a $120"
+              ],
+              [
+                "Territorio de la Capital Australiana",
+                "$40 a $60",
+                "$90 a $120"
+              ],
+              [
+                "Territorio del Norte y zonas remotas",
+                "$45 a $65 o más",
+                "$95 a $130 o más"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Bolsas de tabaco de liar",
+          "body": [
+            "El tabaco de liar solo se vende en bolsas de 30 g, y de una bolsa salen unos 50 cigarrillos finos. Las bolsas económicas rondan los $90 y las premium unos $115 o algo más, así que liar no sale mucho más barato por cigarrillo que una cajetilla de 20 en cuanto sumas el papel y los <a data-guide=\"how-to-use-aussiecamps-filters\">filtros</a>.",
+            "El impuesto especial del tabaco de liar se cobra por peso, a $2,587.90 por kilo desde el 1 de septiembre de 2026. Son unos $78 de impuesto en cada bolsa de 30 g antes del GST, y por eso el precio en tienda se acerca tanto al de una cajetilla."
+          ],
+          "tips": [
+            "30 g es el único tamaño",
+            "Unos $90 a $120",
+            "No es mucho más barato por cigarrillo"
+          ]
+        },
+        {
+          "heading": "Por qué cuestan tanto",
+          "body": [
+            "El precio es sobre todo impuestos. El impuesto especial federal es de $1.55274 por cigarrillo desde el 1 de septiembre de 2026, frente a $1.52829 en marzo, lo que son unos $31 por cada cajetilla de 20. Encima se añade en caja el GST del 10%. Entre los dos suman cerca del 70% de una cajetilla normal de $50, y más aún en una económica.",
+            "El tipo se actualiza dos veces al año, en marzo y el 1 de septiembre, siguiendo la evolución de los salarios. Además, de 2023 a 2026 subió un 5% extra cada septiembre, de modo que el precio ha ido subiendo poco a poco y no de golpe. Una cajetilla que a un visitante le parece cara en su primer viaje seguirá subiendo al año siguiente."
+          ],
+          "tips": [
+            "Unos $31 de impuesto por cajetilla",
+            "Más el 10% de GST",
+            "Sube cada marzo y septiembre"
+          ]
+        },
+        {
+          "heading": "La subida anual y tu viaje",
+          "body": [
+            "Como el tipo cambia cada marzo y septiembre, una cifra del año pasado ya está desfasada cuando aterrizas. Como regla, da por hecho que en 2027 una cajetilla costará unos dólares más que los rangos de 2026 de aquí, y mira el precio en tienda en el primer pueblo antes de planificar un mes de gastos.",
+            "Para un fumador habitual en un viaje largo, el gasto se dispara rápido. Diez cajetillas al mes son de $400 a $600. Ponlo en el presupuesto del viaje como una partida propia, igual que la gasolina, para que no se coma el dinero de la comida."
+          ],
+          "tips": [
+            "Cuenta con unos dólares más",
+            "Diez cajetillas: de $400 a $600",
+            "Dale su propia partida de presupuesto"
+          ]
+        },
+        {
+          "heading": "Precios de los vapeadores",
+          "body": [
+            "Desde el 1 de julio de 2024 los vapeadores solo se venden en farmacias, tengan nicotina o no. En la mayoría de los estados, los adultos pueden comprar en la farmacia vapeadores con nicotina de menor concentración sin receta, tras hablar con el farmacéutico, y los productos más fuertes requieren receta. Las farmacias solo pueden suministrar los productos de la lista de vapeadores notificados de la TGA.",
+            "Los precios en farmacia los fijan el fabricante y la tienda, no el gobierno. Cuenta con unos $30 a $60 por un dispositivo básico o un pack de cartuchos (pods), y más por un kit de inicio. Los vapeadores desechables baratos que algunas tiendas venden bajo el mostrador no son productos legales."
+          ],
+          "tips": [
+            "Solo en farmacias desde julio de 2024",
+            "Unos $30 a $60 por dispositivo",
+            "Pregunta antes al farmacéutico"
+          ]
+        },
+        {
+          "heading": "Tabaco y vapeadores ilegales",
+          "body": [
+            "Algunas tiendas venden cigarrillos y vapeadores por una fracción del precio legal, a menudo en cajetillas sin marcar o extranjeras, y a veces lo llaman chop chop. Es ilegal, y comprarlo puede acarrear multas y que te confisquen la mercancía, con sanciones que cambian según el estado. Además no llevan las advertencias sanitarias australianas.",
+            "Si un precio parece demasiado bueno comparado con las cifras de arriba, casi seguro lo es. Quédate con la farmacia para los vapeadores y con un <a data-guide=\"where-to-buy-cigarettes-vapes-australia\">estanco</a> con licencia o un supermercado para el tabaco."
+          ],
+          "tips": [
+            "Las cajetillas sin marcar son ilegales",
+            "A los compradores se les puede multar",
+            "Barato suele significar ilegal"
+          ]
+        },
+        {
+          "heading": "Cómo gastar menos, dentro de la ley",
+          "body": [
+            "La <a data-guide=\"smoking-vaping-rules-australia\">franquicia libre de impuestos</a> al llegar es de solo 25 cigarrillos o 25 gramos de tabaco, más una cajetilla abierta, para viajeros de 18 años o más. Si traes más, tienes que declararlo, y la Australian Border Force dice que o entregas el exceso o pagas aranceles por toda la cantidad. El tabaco sin declarar puede confiscarse y multarse, así que traer un alijo de casa no sirve para ahorrar en un viaje largo.",
+            "Comprar por cartones no sale mucho más barato por cigarrillo, porque el impuesto es el mismo por cada uno. El ahorro real es pequeño: elige una marca económica, compra donde la tienda haga descuento y evita los precios de las gasolineras de carretera y de las zonas remotas siempre que puedas. Las normas para viajeros, incluidos el duty free, los vapeadores y los lugares sin humo, están en la guía de normas sobre fumar y vapear. Si fumas cerca del camping, apaga bien cada colilla y llévatela, y respeta las normas de <a data-guide=\"campfires-camping-australia\">prohibición total de fuego</a>: las colillas y el monte no se llevan bien.",
+            "¿Vas también a Nueva Zelanda? KiwiCamping te cuenta <a data-sister=\"cigarette-prices-new-zealand\">cuánto cuesta el tabaco en Nueva Zelanda</a>."
+          ],
+          "tips": [
+            "Trae solo 25 cigarrillos",
+            "Los cartones ahorran poco",
+            "Apaga las colillas y llévatelas"
+          ]
+        },
+        {
+          "heading": "Presupuesta el viaje en AussieCamps",
+          "body": [
+            "AussieCamps permite <a data-guide=\"how-to-use-aussiecamps-filters\">filtrar</a> los sitios por Coste, Gratis o De pago, para que las noches más baratas dejen margen al resto del presupuesto. Añade cada parada a un viaje con fechas, notas y una lista de tareas, de modo que reponer provisiones en las ciudades grandes antes de un tramo remoto forme parte del plan.",
+            "Los detalles de los sitios y los filtros funcionan <a data-guide=\"camping-without-phone-signal\">sin cobertura</a>, y la ruta en coche muestra la distancia y el tiempo de cada tramo. AussieCamps funciona en iPhone."
+          ],
+          "tips": [
+            "Filtra por Coste",
+            "Planifica reponer antes de los tramos remotos",
+            "Solo iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "¿Cuánto cuesta una cajetilla de tabaco en Australia?",
+          "Una cajetilla legal de 20 suele costar unos $40 a $60 en noviembre de 2026, con las marcas económicas en lo más bajo y las corrientes en lo más alto. Ya no se venden cajetillas de 25: desde el 1 de julio de 2025 todas las cajetillas de cigarrillos deben tener exactamente 20. Los precios son algo más bajos en la costa este y más altos en el Territorio del Norte y en los pueblos remotos."
+        ],
+        [
+          "¿Por qué es tan caro el tabaco en Australia?",
+          "Por los impuestos federales. El impuesto especial es de $1.55274 por cigarrillo desde el 1 de septiembre de 2026, es decir, unos $31 por una cajetilla de 20 antes de añadir el 10% de GST. En la mayoría de las marcas, cerca del 70% o más del precio en tienda va al gobierno."
+        ],
+        [
+          "¿Cuántos cigarrillos puedo traer a Australia?",
+          "La franquicia libre de impuestos para viajeros de 18 años o más es de 25 cigarrillos o 25 gramos de tabaco, más una cajetilla abierta. Declara cualquier cantidad superior. La Australian Border Force indica que puedes entrar la cantidad permitida y entregar el resto, o quedártelo todo y pagar aranceles por la cantidad completa."
+        ],
+        [
+          "¿Puedo comprar un vapeador en Australia siendo turista?",
+          "Solo en una farmacia. Desde el 1 de julio de 2024 los vapeadores no pueden venderse en otras tiendas, y los kioscos que los venden están infringiendo la ley. En la mayoría de los estados, los adultos pueden comprar en la farmacia vapeadores con nicotina de menor concentración sin receta, tras una breve charla con el farmacéutico."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Australian Taxation Office: tipos del impuesto especial sobre el tabaco"
+        },
+        {
+          "label": "Australian Border Force: franquicias libres de impuestos"
+        },
+        {
+          "label": "Department of Health: cambios en los productos de tabaco en Australia"
+        },
+        {
+          "label": "Department of Health: leyes sobre el vapeo"
+        },
+        {
+          "label": "Therapeutic Goods Administration: productos de vapeo con nicotina"
+        },
+        {
+          "label": "Tobacco in Australia: el precio de los productos de tabaco"
+        }
+      ],
+      "priceTable": null
+    },
+    "smoking-vaping-rules-australia": {
+      "title": "Fumar y vapear en Australia (2027): normas para viajeros",
+      "description": "Puedes traer 25 cigarrillos o 25 g de tabaco libres de impuestos, los vapeadores solo se venden en farmacias, hay que tener 18 años y las colillas encendidas en el monte se multan con fuerza. Normas para viajeros en 2027.",
+      "region": "Australia",
+      "imageAlt": "Cartel con el texto This jetty is smoke-free and vape-free en la barandilla del embarcadero de Outer Harbor, en Adelaida, Australia Meridional",
+      "intro": "Los visitantes de 18 años o más pueden entrar en Australia con 25 cigarrillos o 25 g de tabaco libres de impuestos, más una cajetilla abierta, y deben declarar cualquier cantidad superior. Los vapeadores ahora solo se venden en farmacias, y la exención para viajeros permite 2 vapeadores, 20 cartuchos o pods y 200 mL de líquido para tratamiento propio. Hay que tener 18 años para comprar cualquiera de los dos, y fumar y vapear está prohibido en muchos lugares al aire libre, desde las mesas de las cafeterías hasta las playas con socorristas. Para quien acampa, lo más importante es el fuego: una colilla encendida tirada desde un coche o dejada caer en hierba seca puede costar miles de dólares. Estas son las normas vigentes en noviembre de 2026.",
+      "sections": [
+        {
+          "heading": "Qué puedes traer libre de impuestos",
+          "body": [
+            "Los adultos de 18 años o más pueden traer tabaco a Australia sin permiso. La franquicia libre de impuestos es de 25 cigarrillos o 25 g de productos de tabaco, más una cajetilla abierta. Como las cajetillas australianas y la mayoría de las extranjeras tienen 20, eso significa una cajetilla precintada más la que estés fumando. Los menores de 18 años no tienen franquicia de tabaco alguna.",
+            "Si te pasas del límite, la Australian Border Force indica que los aranceles e impuestos se aplican a todo ese tipo de mercancía, no solo a la parte que excede. No declarar el exceso puede suponer sanciones, un proceso judicial o la cancelación del visado, según la cantidad que lleves. Si traes más, decláralo en la Incoming Passenger Card, enseña el comprobante de compra y paga los aranceles, o entrégalo en la frontera. Los precios de las cajetillas locales están en la guía de <a data-guide=\"cigarette-prices-australia\">precios del tabaco</a>."
+          ],
+          "tips": [
+            "25 cigarrillos o 25 g",
+            "Más una cajetilla abierta",
+            "Declara todo lo que supere el límite"
+          ]
+        },
+        {
+          "heading": "Vapeadores para viajeros",
+          "body": [
+            "Desde 2024, los vapeadores en Australia se consideran productos terapéuticos. Los viajeros solo pueden traerlos con una exención para viajeros: deben ser para tu propio tratamiento o el de una persona a la que cuidas y que viaja contigo en el mismo vuelo o barco. Los límites son 2 vapeadores en total, 20 accesorios como pods, cartuchos o cápsulas y 200 mL de líquido para vapear.",
+            "Los vapeadores desechables cuentan dentro de los 2. No se permite enviarte vapeadores por correo ni que te los mande un amigo, y todo lo que supere el límite puede ser confiscado. Declara tus vapeadores y llévalos en el equipaje de mano, donde los agentes puedan verlos. Las normas para llevarlos en el avión las fija tu aerolínea, así que consúltalas antes de volar."
+          ],
+          "tips": [
+            "2 vapeadores, 20 pods, 200 mL",
+            "Solo para uso propio",
+            "No se pueden enviar vapeadores por correo a Australia"
+          ]
+        },
+        {
+          "heading": "Comprar vapeadores y edad legal",
+          "body": [
+            "Los vapeadores solo se venden en farmacias en Australia. Desde octubre de 2024, los farmacéuticos pueden suministrar vapeadores con nicotina de 20 mg/mL o menos a personas de 18 años o más sin receta, y los menores de 18 la necesitan. Los <a data-guide=\"where-to-buy-cigarettes-vapes-australia\">estancos</a>, las tiendas de vapeo, las gasolineras (servos) y las tiendas de barrio no pueden vender vapeadores en absoluto, sea cual sea el contenido de nicotina.",
+            "La edad legal para comprar tabaco es de 18 años en todos los estados y territorios, y las tiendas pueden pedirte un documento con foto. A los visitantes se les pide lo mismo que a los locales, así que lo más seguro es llevar el pasaporte o el <a data-guide=\"overseas-driver-licence-australia-state-guide\">carné de conducir extranjero</a>. Los farmacéuticos también pueden informarte de cualquier norma adicional del estado antes de que compres."
+          ],
+          "tips": [
+            "Vapeadores: solo en farmacias",
+            "18 años para comprar cualquier cosa",
+            "Lleva un documento con foto"
+          ]
+        },
+        {
+          "heading": "Dónde no se puede fumar ni vapear",
+          "body": [
+            "Las leyes de espacios sin humo las fija cada estado y territorio, y vapear se trata igual que fumar en los lugares sin humo. La tabla recoge los sitios que más se encuentran los campistas. Muchos ayuntamientos añaden normas propias para playas, parques y centros urbanos, así que fíjate en los carteles.",
+            "Los parques nacionales, las playas y los campings tienen sus propias normas. Queensland prohíbe fumar a menos de 10 m de las zonas de acampada e instalaciones de los parques nacionales, varios estados lo prohíben entre las banderas de las playas vigiladas, y muchos <a data-guide=\"caravan-park-vs-holiday-park\">caravan parks</a> lo prohíben en las cabañas, los bloques de servicios y las cocinas comunes. Cuando hay prohibición de fuego, los guardas de los parques tratan un cigarrillo encendido al aire libre como cualquier otra llama.",
+            "Las multas se fijan en unidades de sanción o en importes fijos que cambian cada año, así que la tabla da una orientación y no una cifra exacta."
+          ],
+          "tips": [
+            "Vapear también cuenta",
+            "Fíjate en los carteles locales",
+            "Las multas cambian cada año"
+          ],
+          "table": {
+            "caption": "Lugares al aire libre sin humo por estado y territorio, según las páginas de salud de cada estado consultadas en noviembre de 2026. Comprueba la página actual del estado antes de fiarte de una cifra.",
+            "head": [
+              "Estado",
+              "Lugares al aire libre sin humo que conviene conocer",
+              "Multa habitual en el acto"
+            ],
+            "rows": [
+              [
+                "Nueva Gales del Sur",
+                "Restauración comercial al aire libre, a menos de 4 m de las entradas de edificios públicos, paradas y andenes de transporte público; muchos ayuntamientos añaden playas y parques",
+                "$300"
+              ],
+              [
+                "Victoria",
+                "Restauración al aire libre, a menos de 10 m de parques infantiles y skate parks, en eventos deportivos de menores de 18 años y en ferias de comida",
+                "Una o dos unidades de sanción, unos pocos cientos de dólares"
+              ],
+              [
+                "Queensland",
+                "Entre las banderas de las playas vigiladas, a menos de 10 m de zonas de acampada e instalaciones de parques nacionales, a 5 m de paradas de transporte público y a 10 m de parques infantiles",
+                "Dos unidades de sanción"
+              ],
+              [
+                "Australia Meridional",
+                "Restauración al aire libre, parques infantiles y marquesinas de transporte público, además de nuevas zonas al aire libre desde marzo de 2024",
+                "$105"
+              ],
+              [
+                "Australia Occidental",
+                "Zonas para comer al aire libre, a menos de 10 m de equipamiento infantil y entre las banderas de las playas vigiladas",
+                "$300 en restauración al aire libre"
+              ],
+              [
+                "Tasmania",
+                "Restauración al aire libre, a menos de 3 m de las entradas, a menos de 10 m de parques infantiles, playas vigiladas y eventos al aire libre",
+                "Aproximadamente de $350 a $400"
+              ],
+              [
+                "Territorio del Norte",
+                "Restauración al aire libre sin licencia, eventos públicos y sus alrededores y zonas de juego infantiles",
+                "Fijada en unidades de sanción"
+              ],
+              [
+                "Territorio de la Capital Australiana",
+                "Zonas para comer y beber al aire libre y a menos de 10 m de equipamiento infantil",
+                "Fijada en unidades de sanción"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Fumar en el coche con niños",
+          "body": [
+            "Todos los estados y territorios prohíben fumar en un coche con un menor dentro, aunque lleves las ventanillas bajadas o el coche esté aparcado. La edad del menor que cuenta es menos de 16 años en <a data-guide=\"camping-rules-new-south-wales\">Nueva Gales del Sur</a>, Queensland, Australia Meridional, el Territorio del Norte y el ACT, menos de 17 en Australia Occidental y menos de 18 en Victoria y Tasmania. Vapear también está incluido.",
+            "En un coche de alquiler o una furgoneta camper la norma es la misma, y la empresa de alquiler también puede cobrarte un cargo de limpieza por el olor a humo. Si fumas, aléjate del vehículo y deja salir antes a los pasajeros."
+          ],
+          "tips": [
+            "Ilegal en todos los estados",
+            "Con las ventanillas bajadas tampoco vale",
+            "Los coches de alquiler cobran limpieza"
+          ]
+        },
+        {
+          "heading": "Prohibición de fuego, colillas y multas",
+          "body": [
+            "En un día de <a data-guide=\"campfires-camping-australia\">prohibición total de fuego</a>, todo lo que pueda provocar un incendio al aire libre es un problema, y tirar un cigarrillo encendido es delito en todos los estados. En Nueva Gales del Sur, una colilla encendida puede suponer una multa en el acto desde unos $660, que se duplica hasta unos $1,320 en un día de prohibición total de fuego. En los tribunales el máximo es de $5,500, u $11,000 en un día de prohibición total de fuego. Los conductores también reciben puntos de penalización: 5 normalmente y 10 en un día de prohibición total de fuego.",
+            "Tirar una colilla desde un coche se considera abandono peligroso de basura en Victoria y <a data-guide=\"camping-rules-queensland\">Queensland</a>, con multas de varios cientos de dólares en el acto y mucho más en los tribunales. Incluso una colilla en el suelo es basura. En el monte puede provocar un incendio que llegue a un camping o a un pueblo.",
+            "Lleva una lata para colillas o un cenicero portátil y no apagues nunca un cigarrillo en hierba seca ni en hojarasca. En algunos estados puedes denunciar a quien tira colillas encendidas: en <a data-guide=\"camping-rules-new-south-wales\">Nueva Gales del Sur</a> puedes llamar a la Bush Fire Information Line, 1800 679 737."
+          ],
+          "tips": [
+            "Una lata para colillas en el coche",
+            "Nunca en hierba seca",
+            "Denuncia las colillas lanzadas desde coches"
+          ]
+        },
+        {
+          "heading": "Las multas de un vistazo y el plan del campista",
+          "body": [
+            "En resumen: el tabaco que supera el límite te cuesta aranceles por todo o lo pierdes, fumar en un lugar sin humo cuesta desde unos $100 hasta unos pocos cientos de dólares, y una colilla encendida lanzada desde un vehículo cuesta cientos en el acto y miles en los tribunales.",
+            "Para un viaje de acampada, elige un sitio con espacio lejos de las tiendas y de la hierba seca, comprueba cada mañana el nivel de peligro de incendio y deja cerrada la lata de colillas cuando termines. Las páginas de las agencias de parques y los carteles del camping indican dónde no se puede fumar. ¿Vas también a Nueva Zelanda? KiwiCamping te cuenta <a data-sister=\"smoking-vaping-rules-new-zealand\">las normas sobre fumar y vapear en Nueva Zelanda</a>."
+          ],
+          "tips": [
+            "Comprueba el peligro de incendio a diario",
+            "Mira las zonas sin humo del parque",
+            "Nunca apagues un cigarrillo en la hierba"
+          ]
+        },
+        {
+          "heading": "Planifica según las normas en AussieCamps",
+          "body": [
+            "AussieCamps muestra los campings que publican las agencias de parques, con el filtro \"Características populares\" para aseos, agua potable, duchas y <a data-guide=\"campfires-camping-australia\">hogueras</a>. Usa el filtro \"Coste\" para comparar sitios gratis y de pago, y añade paradas a un viaje con fechas, notas, tiempo y una \"Lista de tareas\" para acordarte de la lata de colillas y del documento de identidad.",
+            "Los detalles de los sitios, la búsqueda y los filtros funcionan <a data-guide=\"camping-without-phone-signal\">sin cobertura</a>, porque el directorio está dentro de la app. El mapa, las rutas y el tiempo necesitan conexión, y AussieCamps funciona en iPhone."
+          ],
+          "tips": [
+            "Filtra por hogueras y características",
+            "Añade la lata de colillas a la lista de tareas",
+            "Solo iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "¿Cuántos cigarrillos puedo traer a Australia?",
+          "Los viajeros de 18 años o más pueden traer 25 cigarrillos o 25 g de productos de tabaco, más una cajetilla abierta, sin pagar aranceles. Como las cajetillas tienen 20, en la práctica es una cajetilla precintada y la que estés fumando. Si traes más y no lo declaras, pueden obligarte a pagar aranceles por todo o a entregarlo, y puedes enfrentarte a sanciones o a un proceso judicial. Declara en la frontera todo lo que supere el límite."
+        ],
+        [
+          "¿Puedo traer un vapeador a Australia?",
+          "Solo en pequeñas cantidades y solo para tu propio tratamiento o el de una persona a la que cuidas y que viaja contigo. El límite es de 2 vapeadores, 20 accesorios como pods o cartuchos y 200 mL de líquido para vapear. No se pueden enviar vapeadores por correo y no puedes comprarlos en una tienda en Australia."
+        ],
+        [
+          "¿Cuál es la edad mínima para fumar en Australia?",
+          "Hay que tener 18 años para comprar tabaco o vapeadores en cualquier lugar de Australia, y las tiendas pueden pedir un documento con foto. A los turistas se les pide lo mismo que a los locales, así que lleva el pasaporte o el carné de conducir."
+        ],
+        [
+          "¿Se puede fumar en un camping en Australia?",
+          "Normalmente sí en tu propia parcela, pero no en todas partes. En los parques nacionales de Queensland, fumar y vapear está prohibido a menos de 10 m de las zonas de acampada e instalaciones como aseos y mesas de pícnic. En un día de prohibición total de fuego, o en monte seco, lo más seguro es no fumar al aire libre en absoluto."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Australian Border Force: franquicias libres de impuestos"
+        },
+        {
+          "label": "Office of Drug Control: vapeadores y exención para viajeros"
+        },
+        {
+          "label": "TGA: información sobre vapeadores para pacientes y consumidores"
+        },
+        {
+          "label": "Gobierno de Queensland: leyes sobre el tabaco en Queensland"
+        },
+        {
+          "label": "NSW Health: leyes de espacios sin humo en la restauración comercial al aire libre"
+        },
+        {
+          "label": "Gobierno de Victoria: consejos sobre fumar y vapear para padres"
+        },
+        {
+          "label": "NSW Rural Fire Service: multas nuevas y más altas"
+        }
+      ],
+      "priceTable": null
+    },
+    "where-to-buy-cigarettes-vapes-australia": {
+      "title": "Dónde comprar tabaco y vapeadores en Australia (2027)",
+      "description": "El tabaco se vende en los mostradores de los supermercados, en gasolineras y en estancos; los vapeadores, solo en farmacias. Dónde comprar, normas de documento de identidad y qué esperar en el interior del país.",
+      "region": "Australia",
+      "imageAlt": "El Nullarbor Roadhouse, en Australia Meridional, con un road train y una camper aparcados junto a los surtidores y la tienda",
+      "intro": "El tabaco se vende en los mostradores de los supermercados, en gasolineras, en tiendas de barrio y en estancos, y hay que tener 18 años o más para comprarlo. Con los vapeadores es distinto: desde el 1 de julio de 2024 solo pueden venderlos las farmacias, y los adultos pueden comprar vapeadores con nicotina de 20 mg/mL o menos a un farmacéutico sin receta. En el campo la oferta se reduce a una roadhouse o una tienda general, normalmente con menos marcas y precios más altos, así que reponte en una ciudad grande antes de un tramo remoto. Los precios suben cada año, así que mira el precio en la tienda y no te fíes de una cifra del año pasado.",
+      "sections": [
+        {
+          "heading": "Dónde comprar, de un vistazo",
+          "body": [
+            "El tabaco es fácil de encontrar en cualquier ciudad de tamaño razonable, y el tipo de tienda decide la variedad y el precio. Los vapeadores son un caso aparte y solo se compran en una farmacia.",
+            "Lo que tienen las tiendas cambia de una cadena a otra y de un año a otro, así que toma la tabla como el patrón habitual y no como una promesa para todas las tiendas."
+          ],
+          "tips": [
+            "Tabaco: muchas tiendas",
+            "Vapeadores: solo farmacias",
+            "La oferta se reduce en el interior"
+          ],
+          "table": {
+            "caption": "Dónde suelen comprar tabaco y vapeadores los viajeros en Australia, noviembre de 2026. La oferta y los precios varían según la tienda.",
+            "head": [
+              "Dónde",
+              "Qué venden",
+              "Notas"
+            ],
+            "rows": [
+              [
+                "Supermercados",
+                "Cigarrillos y tabaco de liar; sin vapeadores",
+                "Coles, Woolworths e IGA lo venden en un mostrador de atención o en un quiosco; Aldi no vende tabaco"
+              ],
+              [
+                "Gasolineras y tiendas de barrio",
+                "Cigarrillos y tabaco de liar; sin vapeadores",
+                "Abiertas hasta tarde y por todas partes, pero a menudo la opción más cara"
+              ],
+              [
+                "Estancos",
+                "La mayor variedad de cigarrillos y tabaco; sin vapeadores",
+                "Tiendas especializadas, lo mejor para marcas poco comunes"
+              ],
+              [
+                "Bottle shops y pubs",
+                "Cigarrillos en algunos",
+                "No todos lo tienen, así que pregunta antes"
+              ],
+              [
+                "Farmacias",
+                "Vapeadores con nicotina de 20 mg/mL o menos, tras hablar con el farmacéutico",
+                "El único sitio legal para vapeadores; sabores limitados; no todas las farmacias los tienen"
+              ],
+              [
+                "Roadhouses y tiendas remotas",
+                "Unas pocas marcas de cigarrillos, a veces tabaco de liar",
+                "Precios más altos, horarios más cortos, sin vapeadores"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Supermercados y bottle shops",
+          "body": [
+            "Coles, Woolworths e IGA venden cigarrillos, pero no los verás en una estantería. La prohibición de exhibirlos obliga a guardar las cajetillas en armarios cerrados, así que se piden en un mostrador de atención o en un quiosco diciendo la marca. Las cadenas de supermercados han ido reduciendo el tabaco, y algunas de sus tiendas de licores han dejado de venderlo, así que lo que hay depende de cada tienda. Aldi no vende tabaco en absoluto.",
+            "Algunos bottle shops, incluidos los de los pubs, venden cigarrillos y otros no, así que pregunta antes de contar con uno. El mostrador de un supermercado es una buena opción cuando haces una compra grande, porque los precios suelen ir en línea con el resto de la ciudad y ya estás allí."
+          ],
+          "tips": [
+            "Pídelo en el mostrador de atención",
+            "Aldi no vende tabaco",
+            "Pregunta antes en los bottle shops"
+          ]
+        },
+        {
+          "heading": "Gasolineras y tiendas de barrio",
+          "body": [
+            "Los servos de Ampol, BP, 7-Eleven y los independientes casi siempre venden cigarrillos, normalmente en un mostrador detrás de la caja, y muchos abren hasta tarde o toda la noche. Eso los convierte en la opción más fácil cuando llegas a un pueblo con los supermercados ya cerrados.",
+            "Esa comodidad se paga con un precio más alto. Un servo suele ser el sitio más caro de la ciudad para una cajetilla, así que si vas a comprar para unas semanas, el mostrador de un supermercado o un estanco suele salir más barato. La guía de <a data-guide=\"cigarette-prices-australia\">precios del tabaco</a> tiene los rangos habituales de una cajetilla y de una bolsa."
+          ],
+          "tips": [
+            "Abiertas hasta tarde, a menudo las más caras",
+            "Bien para una cajetilla de emergencia",
+            "Más barato en un supermercado"
+          ]
+        },
+        {
+          "heading": "Estancos y tiendas ilegales",
+          "body": [
+            "Los estancos (tobacconists) son tiendas especializadas con la mayor variedad de cigarrillos y tabaco de liar, y pueden encargarte o recomendarte marcas que los supermercados no tienen. Varios estados exigen ya que la tienda tenga una licencia de venta minorista de tabaco, y en <a data-guide=\"camping-rules-victoria\">Victoria</a> la norma de la licencia se aplica desde el 1 de febrero de 2026. A menudo el número o el certificado de la licencia está expuesto en la tienda.",
+            "Desconfía de las tiendas que venden cigarrillos o vapeadores muy baratos. En algunas tiendas se vende tabaco y vapeadores ilegales, sin impuestos, y venderlos o comprarlos va contra la ley. Pueden confiscarlos y multar a los compradores, con sanciones que cambian según el estado. Los cigarrillos legales vienen en cajetillas lisas de color verde oliva amarronado con grandes advertencias sanitarias gráficas en inglés, así que una cajetilla colorida o de aspecto extranjero, sin advertencia en inglés o con un precio muy por debajo del rango habitual es una señal de alarma."
+          ],
+          "tips": [
+            "La mayor variedad de marcas",
+            "Cajetillas lisas, advertencias en inglés",
+            "Muy barato suele significar ilegal"
+          ]
+        },
+        {
+          "heading": "Documento de identidad y edad",
+          "body": [
+            "Hay que tener 18 años o más para comprar cigarrillos, tabaco de liar o un vapeador en cualquier lugar de Australia, y el vendedor puede negarse a atenderte si no demuestras tu edad. Muchas tiendas piden el documento a cualquiera que parezca menor de 25, así que cuenta con que te lo pidan y no te lo tomes a mal.",
+            "Lleva el pasaporte o un carné de conducir australiano, o el de tu país si muestra tu foto y tu fecha de nacimiento. El personal decide qué acepta, así que lleva el original contigo y no una fotocopia. La guía de <a data-guide=\"smoking-vaping-rules-australia\">normas sobre fumar y vapear</a> recoge los lugares donde no se puede fumar."
+          ],
+          "tips": [
+            "Solo mayores de 18",
+            "A menudo te lo piden si pareces menor de 25",
+            "Lleva el original del documento con foto"
+          ]
+        },
+        {
+          "heading": "Comprar un vapeador",
+          "body": [
+            "Los vapeadores solo pueden venderlos las farmacias. Los estancos, las tiendas de vapeo y las tiendas de barrio no pueden venderlos, lleven nicotina o no, y los vapeadores desechables de un solo uso están prohibidos. Una tienda que los vende en el mostrador está infringiendo la ley.",
+            "Los adultos pueden comprar a un farmacéutico un vapeador con nicotina de 20 mg/mL o menos sin receta, tras una breve conversación, donde lo permitan las leyes del estado o territorio. Las concentraciones más altas requieren receta. Los sabores se limitan a sin sabor, menta, mentol y tabaco. No todas las farmacias tienen vapeadores, así que llama antes o pregunta en una más grande."
+          ],
+          "tips": [
+            "Solo farmacias",
+            "Sin desechables",
+            "Menta, mentol, tabaco"
+          ]
+        },
+        {
+          "heading": "En el interior y en carreteras remotas",
+          "body": [
+            "Las roadhouses y las tiendas generales remotas suelen vender cigarrillos, pero la oferta puede ser de unas pocas marcas y el precio es más alto que en la ciudad. El tabaco de liar puede ser limitado, y si la tienda se queda sin existencias, la siguiente puede estar a cientos de kilómetros. Algunas comunidades remotas fijan sus propias normas sobre lo que pueden vender las tiendas, así que pregunta antes de contar con la tienda de una comunidad y respeta cualquier cartel sobre restricciones.",
+            "Las farmacias escasean lejos de las ciudades grandes, así que si vapeas, compra antes de salir. La mayoría de las roadhouses aceptan tarjeta, pero hay caídas del sistema y los horarios son más cortos, a menudo cierran a primera hora de la noche, así que lleva algo de efectivo y compra antes de que anochezca. Unas cajetillas de más para un tramo largo salen más baratas que reponer en una roadhouse."
+          ],
+          "tips": [
+            "Compra antes de los tramos remotos",
+            "Si vapeas, planifica según las farmacias",
+            "Lleva algo de efectivo"
+          ]
+        },
+        {
+          "heading": "En ruta y en el camping",
+          "body": [
+            "El calor es duro con el tabaco y los vapeadores. No dejes cajetillas, bolsas ni un vapeador en un coche caliente ni en una camper cerrada, donde pueden resecarse o estropearse, y mantén el vapeador fuera del sol directo. Es mejor guardarlos en una bolsa a la sombra o en un compartimento de la nevera portátil.",
+            "Fuma lejos del campamento y de las tiendas, y comprueba el nivel de peligro de incendio. En una <a data-guide=\"campfires-camping-australia\">prohibición total de fuego</a> un cigarrillo encendido es un riesgo real, y algunos campings, playas y parques nacionales son espacios sin humo. Apaga bien cada colilla y llévatela, nunca la dejes en el suelo. ¿Vas también a Nueva Zelanda? KiwiCamping te cuenta <a data-sister=\"where-to-buy-cigarettes-vapes-new-zealand\">dónde comprar tabaco y vapeadores en Nueva Zelanda</a>."
+          ],
+          "tips": [
+            "Lejos de los coches calientes",
+            "Comprueba el nivel de peligro de incendio",
+            "Llévate las colillas"
+          ]
+        },
+        {
+          "heading": "Planifica tus paradas para reponer en AussieCamps",
+          "body": [
+            "AussieCamps te permite añadir cada parada a un viaje con fechas y notas, y la ruta en coche muestra la distancia y el tiempo de cada tramo. Así es fácil ver cuál es la última ciudad grande antes de un tramo remoto y anotarla como el lugar donde reponer.",
+            "Los detalles de los sitios, la búsqueda y los filtros funcionan sin cobertura, así que puedes consultar las características de un camping, como agua potable, aseos y <a data-guide=\"campfires-camping-australia\">hogueras</a>, cuando estás fuera de cobertura. AussieCamps funciona en iPhone."
+          ],
+          "tips": [
+            "Mira la distancia de cada tramo",
+            "Anota las ciudades donde reponer",
+            "Solo iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "¿Dónde puedo comprar tabaco en Australia?",
+          "En supermercados como Coles, Woolworths e IGA, en gasolineras y tiendas de barrio, y en estancos, que tienen la mayor variedad. Aldi no vende tabaco. En los supermercados los cigarrillos se guardan fuera de la vista y se piden en el mostrador de atención."
+        ],
+        [
+          "¿Dónde puedo comprar un vapeador en Australia?",
+          "Solo en una farmacia. Desde el 1 de julio de 2024, los estancos, las tiendas de vapeo y las tiendas de barrio no pueden vender vapeadores, y los vapeadores desechables están prohibidos. Los adultos pueden comprar vapeadores con nicotina de 20 mg/mL o menos a un farmacéutico sin receta, tras una breve charla, pero no todas las farmacias los tienen."
+        ],
+        [
+          "¿Necesito el documento de identidad para comprar tabaco en Australia?",
+          "Hay que tener 18 años o más y el personal puede pedir que demuestres tu edad. Lleva el pasaporte o un carné de conducir australiano, porque una fotocopia o una foto en el móvil puede no aceptarse. Las tiendas suelen pedírselo a cualquiera que parezca menor de 25."
+        ],
+        [
+          "¿Puedo comprar tabaco en el interior del país?",
+          "Normalmente sí en las roadhouses y las tiendas generales, pero con pocas marcas y a precios más altos. Algunas tiendas de comunidades remotas tienen sus propias normas sobre lo que venden, y las farmacias escasean, así que compra lo que necesites en una ciudad más grande antes de un tramo remoto."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Department of Health: sobre el vapeo"
+        },
+        {
+          "label": "Department of Health: cambios en el vapeo en Australia desde el 1 de julio"
+        },
+        {
+          "label": "Therapeutic Goods Administration: reformas de la regulación de los vapeadores"
+        },
+        {
+          "label": "Therapeutic Goods Administration: información sobre productos de vapeo con nicotina para consumidores"
+        },
+        {
+          "label": "Gobierno de Victoria: licencias de venta de tabaco"
+        },
+        {
+          "label": "Department of Health: cambios en los productos de tabaco en Australia"
         }
       ],
       "priceTable": null

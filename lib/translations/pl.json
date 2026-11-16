@@ -8097,112 +8097,272 @@
       }
     },
     "alcohol-coffee-drink-prices-australia": {
-      "title": "Ceny piwa i kawy w Australii 2027: piwo w pubie 7–16 AUD",
-      "description": "Piwo w pubie kosztuje w Sydney od 7 do 16 AUD, a cappuccino od 4,50 do 8 AUD (październik 2026). Na standardową porcję piwo w pubie to 4–9 AUD, a wino z bottle shopu 1,60–4 AUD.",
+      "title": "Ile kosztuje piwo w Australii? Ceny w pubie i w bottle shopie (2027)",
+      "description": "Schooner w pubie kosztuje $8 do $13, a pint $12 do $18 w australijskich miastach (listopad 2026). Slab 24 puszek to $55 do $72. Ceny wg miast, nazwy szklanek, happy hours.",
       "region": "Australia",
-      "imageAlt": "Napoje z australijskiej kawiarni na stoliku",
-      "intro": "Piwo z beczki 500 ml w pubie w Sydney kosztuje od około 7 do 16 AUD, a cappuccino od 4,50 do 8 AUD (dane cenowe od użytkowników, aktualizacja: październik 2026), natomiast butelka piwa 500 ml z bottle shopu (sklepu monopolowego) w całym kraju to od około 3,50 do 12 AUD. Na standardową porcję alkoholu wychodzi około 4–9 AUD w pubie, 2–7 AUD za piwo z bottle shopu i 1,60–4 AUD za butelkę wina ze średniej półki, więc najtaniej pije się to, co zabierasz na kemping.",
+      "imageAlt": "Australijskie napoje kawiarniane na stole",
+      "intro": "Schooner piwa (425 ml) kosztuje w listopadzie 2026 w pubie w australijskim mieście około $8 do $13, a pint (570 ml) około $12 do $18. Najtaniej jest w Perth i w pubach na prowincji, najdrożej w centrum Sydney i Melbourne. W bottle shopie sześciopak popularnego piwa to około $20 do $28, a slab 24 sztuk około $55 do $72, czyli w przeliczeniu na jedno piwo mniej niż połowa ceny z pubu. Alkohol kupiony na wynos i wypity na kempingu to zdecydowanie najlepsza opcja cenowa.",
       "sections": [
         {
-          "heading": "Cena w sklepie i cena w lokalu to dwie różne rzeczy",
+          "heading": "Ceny piwa w poszczególnych miastach",
           "body": [
-            "Cena w pubie obejmuje lokal, personel i obsługę, a nie tylko to, co w szklance. Porównuj rzeczy porównywalne i nie przedstawiaj ceny odpowiednika z bottle shopu jako ceny napoju nalanego w lokalu. Uczciwe porównanie dają standardowe porcje: Healthy WA przyjmuje, że standardowa porcja to 10 gramów alkoholu, tyle co w 285 ml zwykłego piwa lub 100 ml wina, więc piwo 500 ml to około 1,75 porcji, a butelka wina 750 ml około 7,5.",
-            "Happy hours i promocje są chwilowe. Planuj budżet na podstawie zwykłych cen, a każdą zniżkę traktuj jako zapas."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Wino w bottle shopie i w barze",
-          "body": [
-            "Butelka wina 750 ml ze średniej półki kosztuje w bottle shopie od około 12 do 30 AUD i wystarcza na mniej więcej pięć kieliszków po 150 ml. To samo wino zamawiane na kieliszki w barze albo restauracji zwykle kosztuje za porcję znacznie więcej, więc najtaniej wychodzi butelka otwarta wspólnie na kempingu.",
-            "Niektóre restauracje, głównie te bez licencji na alkohol, pozwalają przynieść własną butelkę za opłatą korkową, a wtedy wino do kolacji kosztuje tyle, co w bottle shopie. Zapytaj o to przy rezerwacji, a nie dopiero przy stoliku."
+            "W tabeli podajemy typowe ceny popularnego piwa, na przykład lokalnego lagera albo pale ale. Cena w pubie mocno zależy od lokalu: pub na przedmieściach albo klub nalewa taniej niż bar na dachu czy hotel przy porcie, a piwo kraftowe zwykle kosztuje o $2 do $4 więcej za szklankę.",
+            "Ceny w bottle shopach różnią się między miastami mniej, bo większość ceny to akcyza, federalny podatek od alkoholu, który jest wszędzie taki sam. Darwin i outback dopłacają za transport, a bottle shopy na <a data-guide=\"camping-rules-northern-territory\">Terytorium Północnym</a> mają dodatkowe zasady dotyczące godzin sprzedaży i dokumentu tożsamości.",
+            "Spodziewaj się dalszych podwyżek. Akcyza na piwo w opakowaniach rośnie z inflacją co roku w lutym i sierpniu, więc ceny w bottle shopach będą rosnąć przez cały 2027, a podatek od piwa beczkowego jest zamrożony do sierpnia 2027, dzięki czemu ceny w pubach są stabilniejsze."
           ],
           "tips": [
-            "Butelka ze średniej półki: 12–30 AUD",
-            "Około pięciu kieliszków z butelki",
-            "Zapytaj o własny alkohol (BYO) przy rezerwacji"
+            "Perth: najtańsze pinty wśród stolic",
+            "Sydney i Melbourne: najdrożej",
+            "Puby na prowincji: często najtaniej"
+          ],
+          "table": {
+            "caption": "Typowe ceny popularnego piwa w listopadzie 2026. Schooner to 425 ml, a pint 570 ml; w Adelaide szklanka 425 ml nazywa się pint.",
+            "head": [
+              "Miasto",
+              "Schooner w pubie (425 ml)",
+              "Pint w pubie (570 ml)",
+              "Sześciopak (bottle shop)",
+              "Slab 24 sztuk (bottle shop)"
+            ],
+            "rows": [
+              [
+                "Sydney",
+                "$9 do $13",
+                "$13 do $18",
+                "$21 do $28",
+                "$57 do $72"
+              ],
+              [
+                "Melbourne",
+                "$9.50 do $14",
+                "$14 do $18.50",
+                "$21 do $28",
+                "$57 do $72"
+              ],
+              [
+                "Brisbane",
+                "$9 do $13",
+                "$12 do $17",
+                "$21 do $28",
+                "$57 do $72"
+              ],
+              [
+                "Perth",
+                "$8 do $12",
+                "$9 do $15",
+                "$21 do $28",
+                "$58 do $72"
+              ],
+              [
+                "Adelaide",
+                "$8.50 do $12",
+                "$12 do $16",
+                "$20 do $27",
+                "$55 do $70"
+              ],
+              [
+                "Hobart",
+                "$9 do $12",
+                "$12 do $16",
+                "$21 do $28",
+                "$58 do $72"
+              ],
+              [
+                "Darwin",
+                "$9 do $13",
+                "$13 do $18",
+                "$23 do $30",
+                "$62 do $80"
+              ],
+              [
+                "Canberra",
+                "$9 do $12",
+                "$12 do $17",
+                "$21 do $28",
+                "$57 do $72"
+              ],
+              [
+                "Puby na prowincji",
+                "$7 do $10",
+                "$10 do $14",
+                "$22 do $32",
+                "$60 do $85"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Nazwy i rozmiary szklanek w poszczególnych stanach",
+          "body": [
+            "Australijskie szklanki do piwa zmieniają nazwy na granicach stanów, a to samo słowo może oznaczać inną szklankę. Jeśli w Sydney poprosisz o schoonera, dostaniesz 425 ml, a w Adelaide 285 ml, bo mieszkańcy Australii Południowej nazywają szklankę 425 ml pintem, a szklankę 570 ml imperial pintem.",
+            "W razie wątpliwości podaj rozmiar po prostu słowami albo powiedz small, medium lub large. Barmani są przyzwyczajeni do turystów, a cennik na ścianie zwykle podaje nazwy szklanek."
+          ],
+          "tips": [
+            "Schooner w SA to 285 ml",
+            "Proś o small, medium lub large",
+            "Dzban to około 1,1 litra"
+          ],
+          "table": {
+            "caption": "Popularne nazwy szklanek piwa beczkowego w stanach i terytoriach. Nazwy różnią się między pubami, zwłaszcza w przypadku szklanki 285 ml.",
+            "head": [
+              "Stan lub terytorium",
+              "285 ml",
+              "425 ml",
+              "570 ml"
+            ],
+            "rows": [
+              [
+                "Nowa Południowa Walia i ACT",
+                "Middy",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Wiktoria",
+                "Pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Queensland",
+                "Pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Australia Południowa",
+                "Schooner",
+                "Pint",
+                "Imperial pint"
+              ],
+              [
+                "Australia Zachodnia",
+                "Middy",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Tasmania",
+                "Ten lub pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Terytorium Północne",
+                "Handle lub middy",
+                "Schooner",
+                "Pint"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Ceny w sklepie i w lokalu to dwa różne produkty",
+          "body": [
+            "Cena w pubie obejmuje lokal, obsługę i serwis, a nie tylko sam napój. Porównuj rzeczy porównywalne i nie traktuj ceny z bottle shopu jako ceny nalanego piwa. Do uczciwego porównania służą standardowe drinki: Healthy WA określa jeden standardowy drink jako 10 gramów alkoholu, czyli tyle, ile mieści się w 285 ml piwa pełnej mocy albo 100 ml wina, więc piwo 500 ml to około 1,75 standardowego drinka, a butelka wina 750 ml około 7,5.",
+            "W przeliczeniu na standardowy drink piwo w pubie kosztuje około $4 do $9, slab z bottle shopu około $1.60 do $2.20, a butelka wina ze średniej półki około $1.60 do $4. Piwo mid-strength, dostępne z kija prawie wszędzie, ma około jednej czwartej mniej alkoholu przy niemal tej samej cenie."
+          ],
+          "tips": [
+            "285 ml piwa pełnej mocy: jeden standardowy drink",
+            "Piwo ze slaba: około $2 za standardowy drink",
+            "Mid-strength kosztuje mniej więcej tyle samo"
           ]
         },
         {
-          "heading": "Pilnuj dziennej sumy, która rośnie po cichu",
+          "heading": "Happy hours i najtańsze sposoby na piwo",
           "body": [
-            "Dwie kawy i dwa drinki w lokalu dziennie potrafią w skali tygodnia złożyć się na sporą kwotę. Zdecyduj, które postoje są dla ciebie ważne, zamiast kupować z przyzwyczajenia.",
-            "Miej <a data-guide=\"camping-water-planning\">wodę pitną</a> pod ręką i uzupełniaj ją tylko z kranów z wodą pitną. W upale nawodnienie i cień należą do planu bezpieczeństwa, a nie do budżetu na rozrywki."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Kawa to codzienna pozycja w budżecie",
-          "body": [
-            "Kultura kawy jest w Australii silna, a w miasteczkach na prowincji kawa trzyma naprawdę wysoki poziom. Właśnie dlatego staje się pozycją w budżecie. Dwa flat white dziennie dla dwóch osób to wydatek, który rośnie, choć nigdy nie wydaje się świadomą decyzją.",
-            "Kawiarka albo AeroPress w vanie zapewnią poranną kawę za ułamek ceny z kawiarni, a wizyta w kawiarni przestaje być odruchem i staje się świadomym wyborem.",
-            "W roadhouse'ach kawa na długich odcinkach bywa, delikatnie mówiąc, różna. Na trasach przez outback własna wychodzi zwykle i taniej, i znacznie lepiej."
+            "Wiele pubów ma happy hour w popołudnia w dni powszednie, często około 16:00 do 18:00, ze schoonerami za około $6 do $9. Czasem dochodzą tanie dzbany, piwo do obiadu przy barze albo wieczór ze stekiem i schoonerem. Traktuj to jako bonus, a nie podstawę budżetu: oferty często się zmieniają, a wiele z nich obowiązuje tylko w tygodniu.",
+            "Kluby, takie jak RSL, bowls cluby czy surf cluby, zwykle nalewają taniej niż puby i chętnie przyjmują turystów: wpisujesz się przy wejściu, pokazując dokument ze zdjęciem, i zostajesz tymczasowym członkiem na jeden dzień.",
+            "Najtaniej wychodzi slab albo cask z bottle shopu, schłodzony w lodówce w vanie lub w esky i wypity na kempingu. Najpierw sprawdź regulamin kempingu, bo niektóre parki narodowe i obiekty gminne, a także wiele plaż i parków w miastach, zakazują alkoholu albo ograniczają go o określonych porach."
           ],
           "tips": [
-            "Dwie kawy dziennie szybko się sumują",
-            "Poranną kawę przygotuj samodzielnie",
-            "Kawa w roadhousie bywa różna"
+            "Happy hours w tygodniu: około 16 do 18",
+            "Kluby przyjmują turystów z dokumentem",
+            "Sprawdź zasady dotyczące alkoholu na kempingu"
           ]
         },
         {
           "heading": "Kupowanie alkoholu w Australii",
           "body": [
-            "Alkohol na wynos sprzedają głównie licencjonowane bottle shopy, często obok supermarketu, ale działające osobno. Aldi i niektóre niezależne sklepy spożywcze sprzedają go jednak bezpośrednio w sklepie. Godziny handlu są regulowane i różnią się w zależności od stanu.",
-            "Ograniczenia dotyczące alkoholu obowiązują w wielu społecznościach i regionach, zwłaszcza na Terytorium Północnym oraz w niektórych częściach <a data-guide=\"camping-rules-queensland\">Queenslandu</a>, Australii Zachodniej i Australii Południowej. Za wwiezienie alkoholu na obszar objęty ograniczeniami grożą wysokie kary.",
-            "Zanim wjedziesz z alkoholem w odległe rejony, sprawdź przepisy. Ograniczenia są egzekwowane, dotyczą turystów tak samo jak mieszkańców, a nieznajomość przepisów nie jest żadnym usprawiedliwieniem."
+            "Alkohol w opakowaniach kupisz głównie w licencjonowanych bottle shopach, często obok supermarketu, ale działających osobno, choć Aldi i niektóre niezależne sklepy spożywcze sprzedają go w środku. Godziny sprzedaży są regulowane i różnią się między stanami. Musisz mieć 18 lat, a obsługa prosi o dokument ze zdjęciem każdego, kto wygląda na mniej niż 25 lat: paszport albo prawo jazdy.",
+            "Ograniczenia w sprzedaży i posiadaniu alkoholu obowiązują w wielu społecznościach i regionach, zwłaszcza na Terytorium Północnym, w części <a data-guide=\"camping-rules-queensland\">Queenslandu</a>, w Australii Zachodniej i Południowej. Wwożenie alkoholu na obszar objęty ograniczeniami grozi wysokimi karami.",
+            "Sprawdź przepisy, zanim pojedziesz z alkoholem w odległe rejony. Ograniczenia są egzekwowane prawnie, dotyczą turystów tak samo jak mieszkańców, a nieznajomość przepisów nie jest żadnym usprawiedliwieniem."
           ],
           "tips": [
-            "Głównie bottle shopy, czasem supermarkety",
-            "W strefach z ograniczeniami grożą wysokie kary",
-            "Sprawdź przed wjazdem w odległe rejony"
+            "Głównie bottle shopy, część supermarketów",
+            "Weź dokument ze zdjęciem",
+            "Sprawdź przepisy przed wjazdem w odległe rejony"
           ]
         },
         {
-          "heading": "Picie alkoholu a prowadzenie auta",
+          "heading": "Alkohol i dzień za kierownicą",
           "body": [
-            "Ogólny limit stężenia alkoholu we krwi wynosi 0,05 (czyli 0,5 promila) dla kierowców z pełnym prawem jazdy, zero dla kierowców uczących się (learner) i z tymczasowym prawem jazdy (provisional), a dla wielu kierowców zawodowych, zależnie od stanu, zero albo 0,02 (0,2 promila; w NSW 0,02). Wyrywkowe badania alkomatem (random breath testing) są częste, także na drogach poza miastami i w ciągu dnia.",
-            "W podróży samochodem jedyne bezpieczne podejście to całkowicie oddzielić picie od jazdy: nocuj tam, gdzie pijesz, wyznacz kierowcę, który nie pije, albo sięgaj po alkohol dopiero wtedy, gdy auto stoi już na noc.",
-            "Jazda następnego ranka zaskakuje wielu kierowców. Organizm potrzebuje co najmniej godziny, żeby usunąć każdą porcję standardową (standard drink), często dłużej, a kawa ani prysznic tego nie przyspieszają, więc po mocno zakrapianym wieczorze możesz mieć przekroczony limit jeszcze długo następnego ranka."
+            "Ogólny limit to 0,05 dla kierowców z pełnym prawem jazdy, zero dla kierowców na L i P (uczących się i na okresie próbnym) oraz zero lub 0,02 dla wielu kierowców zawodowych, zależnie od stanu (0,02 w NSW). Losowe kontrole trzeźwości są częste, także na drogach lokalnych i w ciągu dnia.",
+            "W podróży jedyne bezpieczne podejście to całkowite oddzielenie picia od jazdy: pij tam, gdzie nocujesz, wyznacz kierowcę albo pij dopiero wtedy, gdy auto stoi już na noc.",
+            "Jazda następnego ranka łapie wielu ludzi z zaskoczenia. Organizm potrzebuje co najmniej godziny na wydalenie każdego standardowego drinka, często dłużej, a kawa czy prysznic tego nie przyspieszą, więc po suto zakrapianym wieczorze możesz mieć przekroczony limit jeszcze długo po południu następnego dnia."
           ],
           "tips": [
-            "Limit 0,05, a zero dla kursantów i kierowców z tymczasowym prawem jazdy",
-            "Kontrole trzeźwości są częste, także w dzień",
-            "Pułapka: jazda następnego ranka"
+            "0,05 ogólnie, zero dla kierowców na L i P",
+            "Losowe kontrole są częste, także w dzień",
+            "Pułapka to jazda następnego ranka"
           ]
         },
         {
-          "heading": "Woda wymaga najwięcej uwagi",
+          "heading": "Wino w bottle shopie i w barze",
           "body": [
-            "Woda z kranu jest bezpieczna i dobra w niemal wszystkich australijskich miastach i miasteczkach, więc kupowanie butelkowanej to prawie wyrzucanie pieniędzy. Wóź ze sobą butelki wielokrotnego użytku i napełniaj je z każdego kranu z wodą pitną w mieście, na kempingu albo w obiektach publicznych.",
-            "Na odludziu i w buszu jest odwrotnie: woda z odwiertów (bore water) może być mocno zmineralizowana albo nie nadawać się do picia, woda ze zbiorników (tank water) nie jest uzdatniana, a woda powierzchniowa na terenach rolniczych może zawierać zanieczyszczenia chemiczne. Uzdatniaj każdą wodę, która nie pochodzi z oznaczonego miejskiego ujęcia wody pitnej.",
-            "Miej ze sobą porządną butelkę termiczną, żeby w upale zawsze mieć pod ręką zimną wodę. Jej uzupełnienie nic nie kosztuje."
+            "Butelka wina 750 ml ze średniej półki kosztuje w bottle shopie około $12 do $29, a wystarcza na mniej więcej pięć kieliszków po 150 ml. To samo wino zamówione na kieliszki w barze lub restauracji kosztuje zwykle $10 do $16 za kieliszek, więc najtaniej jest wypić butelkę razem na kempingu.",
+            "Niektóre restauracje, głównie bez licencji na alkohol, pozwalają przynieść własną butelkę za opłatą korkową, dzięki czemu wino z bottle shopu staje się winem do kolacji. Zapytaj o to przy rezerwacji, a nie dopiero przy stoliku."
           ],
           "tips": [
-            "Kranówka w miastach jest bezpieczna",
-            "Woda z odwiertów często nie nadaje się do picia",
-            "Uzdatniaj wodę ze zbiorników i powierzchniową"
+            "Butelka ze średniej półki: $12 do $29",
+            "Z butelki wychodzi około pięciu kieliszków",
+            "Zapytaj o BYO przy rezerwacji"
+          ]
+        },
+        {
+          "heading": "Kawa to codzienny wydatek",
+          "body": [
+            "Zwykłe cappuccino albo flat white kosztuje około $4 do $8, a kawiarnie w centrach miast plasują się na górze tego przedziału. Australijska kultura kawy jest mocna, a poziom w miasteczkach na prowincji naprawdę wysoki, i właśnie dlatego kawa staje się pozycją w budżecie: dwie kawy dziennie dla dwóch osób sumują się, choć nigdy nie wydają się decyzją.",
+            "Kawiarka albo AeroPress w vanie załatwia poranną filiżankę za ułamek ceny z kawiarni, a wizyta w kawiarni staje się wyborem, a nie automatem. Kawa w roadhouse'ach na długich trasach przez outback bywa różna, więc robienie własnej jest zwykle i tańsze, i lepsze.",
+            "Woda z kranu jest bezpieczna i dobra w prawie wszystkich australijskich miastach i miasteczkach, więc wozisz butelki do napełniania zamiast kupować wodę. W buszu wodę z odwiertu, zbiornika i strumienia uzdatnij przed piciem. Jedziesz też do Nowej Zelandii? KiwiCamping opisuje, <a data-sister=\"beer-wine-coffee-prices-new-zealand\">ile kosztują piwo, wino i kawa w Nowej Zelandii</a>."
+          ],
+          "tips": [
+            "Cappuccino: $4 do $8",
+            "Poranną kawę rób sam",
+            "Woda z kranu w miastach jest bezpieczna"
           ]
         }
       ],
       "faq": [
         [
           "Ile kosztuje piwo w Australii?",
-          "Piwo z beczki 500 ml w pubie w Sydney kosztuje od około 7,15 do 16 AUD (dane cenowe od użytkowników z października 2026), a butelka piwa 500 ml z bottle shopu od około 3,50 do 12 AUD w całym kraju. Kupowanie w bottle shopie zamiast w barze to jedna z największych oszczędności na długiej trasie."
+          "Schooner (425 ml) popularnego piwa kosztuje w listopadzie 2026 około $8 do $13 w pubie w mieście, a pint (570 ml) około $12 do $18. W bottle shopie sześciopak to około $20 do $28, a slab 24 sztuk około $55 do $72, czyli mniej niż połowa ceny z pubu w przeliczeniu na jedno piwo."
+        ],
+        [
+          "Ile kosztuje pint w Australii?",
+          "Około $12 do $18 za 570 ml popularnego piwa w pubie w mieście, przy czym Perth i puby na prowincji są na tańszym końcu, a centrum Melbourne i Sydney na górze. W Australii Południowej pintem nazywa się szklankę 425 ml, która kosztuje około $8.50 do $12; żeby dostać 570 ml, poproś o imperial pint."
+        ],
+        [
+          "Gdzie w Australii jest najtańsze piwo?",
+          "Najtańsze piwo nalewają w Perth i w pubach na prowincji, a kluby takie jak RSL i bowls cluby zwykle biją puby ceną; turyści wpisują się, pokazując dokument ze zdjęciem. Happy hours w tygodniu obniżają cenę schoonera do około $6 do $9, ale najtaniej jest ze slabem z bottle shopu, czyli około $2 za standardowy drink."
         ],
         [
           "Ile kosztuje kawa w Australii?",
-          "Zwykłe cappuccino kosztuje w Sydney od około 4,50 do 8 AUD, a w całym kraju od 4 do 8 AUD (dane cenowe od użytkowników z października 2026), przy czym kawiarnie w centrach dużych miast często są przy górnej granicy. Dwie kawy dziennie na dwie osoby to na długiej trasie poważna pozycja w budżecie."
+          "Zwykłe cappuccino albo flat white kosztuje około $4 do $8, a kawiarnie w centrach miast często są na górze tego przedziału. Dwie kawy dziennie dla dwóch osób to na długiej trasie prawdziwa pozycja w budżecie, dlatego wielu kamperowiczów robi poranną kawę sama."
         ]
       ],
       "sources": [
         {
-          "label": "Numbeo: ceny napojów w Sydney"
+          "label": "Numbeo: ceny napojów w Australii, aktualizacja listopad 2026"
         },
         {
-          "label": "Numbeo: przedziały cen w sklepach w Australii"
+          "label": "Australian Taxation Office: stawki akcyzy na alkohol"
         },
         {
-          "label": "Zalecenia NSW dotyczące alkoholu i prowadzenia auta"
+          "label": "Healthy WA: co to jest standardowy drink"
+        },
+        {
+          "label": "NSW: zasady dotyczące alkoholu i prowadzenia pojazdów"
         },
         {
           "label": "NHMRC: jak długo organizm usuwa alkohol"
@@ -8211,31 +8371,35 @@
           "label": "Terytorium Północne: kupowanie i picie alkoholu"
         },
         {
-          "label": "Healthy WA: czym jest standardowa porcja alkoholu"
+          "label": "NSW Government: zasady wstępu do klubów dla gości"
         }
       ],
       "priceTable": {
-        "note": "Przedziały cen dla Australii i Sydney zgłaszane przez użytkowników, aktualizacja: październik 2026. Ceny zależą od wielkości porcji, lokalu, promocji i miejsca.",
+        "note": "Przedziały cen w pubach miejskich i bottle shopach dla popularnego australijskiego piwa w listopadzie 2026. Piwo kraftowe, importowane, lokale nad wodą i odległe rejony kosztują więcej; happy hours i promocje kosztują mniej.",
         "rows": [
           {
-            "label": "Cappuccino (Sydney)",
+            "label": "Schooner w pubie",
+            "unit": "425 ml"
+          },
+          {
+            "label": "Pint w pubie",
+            "unit": "570 ml"
+          },
+          {
+            "label": "Sześciopak z bottle shopu",
+            "unit": "6 x 375 ml"
+          },
+          {
+            "label": "Slab z bottle shopu",
+            "unit": "24 x 375 ml"
+          },
+          {
+            "label": "Wino ze średniej półki",
+            "unit": "750 ml, bottle shop"
+          },
+          {
+            "label": "Cappuccino",
             "unit": "jedna filiżanka"
-          },
-          {
-            "label": "Piwo z beczki w pubie (Sydney)",
-            "unit": "jedna porcja"
-          },
-          {
-            "label": "Wino ze średniej półki (w całym kraju)",
-            "unit": "750 ml w sklepie"
-          },
-          {
-            "label": "Odpowiednik piwa krajowego (w całym kraju)",
-            "unit": "500 ml w sklepie"
-          },
-          {
-            "label": "Napój gazowany (Sydney)",
-            "unit": "330 ml w lokalu"
           }
         ]
       }
@@ -29458,6 +29622,608 @@
         },
         {
           "label": "Bureau of Meteorology: klimat według regionów"
+        }
+      ],
+      "priceTable": null
+    },
+    "cigarette-prices-australia": {
+      "title": "Ile kosztują papierosy w Australii w 2027? Paczki od $40 do $60",
+      "description": "Legalna paczka 20 papierosów kosztuje w Australii około $40 do $60, a 30 g tytoniu do skręcania około $90 do $120. Ceny wg stanów, dlaczego podatek robi cenę, i e-papierosy.",
+      "region": "Australia",
+      "imageAlt": "Zamknięta szafka z tytoniem w australijskim sklepie, z paczkami papierosów i woreczkami w jednolitych opakowaniach nad cenami na półce",
+      "intro": "Legalna paczka 20 papierosów kosztuje w Australii w listopadzie 2026 około $40 do $60, a 30-gramowy woreczek tytoniu do skręcania około $90 do $120. Paczek po 25 sztuk i dużych woreczków już nie ma: od 1 lipca 2025 papierosy sprzedaje się tylko w paczkach po 20, a tytoń do skręcania tylko w woreczkach po 30 g. Prawie cała cena to podatek federalny, więc ta sama paczka kosztuje mniej więcej tyle samo w Sydney i w Perth, a odległe miasteczka i Terytorium Północne są odrobinę droższe. Ceny rosną dwa razy w roku, więc jeśli jedziesz w 2027, licz więcej, niż pokazują kwoty tutaj.",
+      "sections": [
+        {
+          "heading": "Ile kosztuje paczka 20 sztuk",
+          "body": [
+            "Tanie marki są na dole przedziału, około $38 do $45 za 20 sztuk. Popularne marki, które zobaczysz za ladą na każdej stacji paliw (servo), kosztują bliżej $50 do $60. Sklepy i sieci robią promocje i podnoszą ceny w różnych momentach, więc ta sama marka może różnić się o kilka dolarów między dwoma sklepami przy tej samej ulicy.",
+            "Jeśli pamiętasz paczkę 25 sztuk z dawnych lat albo od znajomych z kraju, to takiego rozmiaru w Australii już nie ma. Ustawa o jednolitych opakowaniach, która w pełni weszła w życie 1 lipca 2025, ustaliła dla każdej paczki papierosów 20 sztuk, a w kartonie 10 paczek. Do wyceny zostaje tylko paczka 20."
+          ],
+          "tips": [
+            "Tanie marki: około $38 do $45",
+            "Popularne: około $50 do $60",
+            "Paczek 25 sztuk już się nie sprzedaje"
+          ]
+        },
+        {
+          "heading": "Ceny w stanach i terytoriach",
+          "body": [
+            "Większość ceny to akcyza federalna, taka sama w każdym stanie, więc stan, w którym kupujesz, zmienia cenę tylko trochę. Poniższe przedziały pokazują, ile sklepy liczą za legalne produkty. Na <a data-guide=\"camping-rules-northern-territory\">Terytorium Północnym</a> i w odległych społecznościach jest zwykle drożej, bo do ceny na półce dokładają się koszty transportu i mała skala sprzedaży, a cena w roadhouse'ie w outbacku bywa najwyższa ze wszystkich.",
+            "Nie ma oficjalnego cennika dla poszczególnych stanów, więc traktuj przedziały jako widełki, których możesz się spodziewać, a nie ofertę. Rzut oka na półkę przed zakupem powie ci więcej niż jakakolwiek tabela."
+          ],
+          "tips": [
+            "Ten sam podatek w każdym stanie",
+            "NT i odległe rejony: trochę drożej",
+            "Sprawdź cenę na półce"
+          ],
+          "table": {
+            "caption": "Typowe ceny legalnego tytoniu na półkach w listopadzie 2026. Orientacyjne widełki, nie oferta: sklepy ustalają własne ceny.",
+            "head": [
+              "Stan lub terytorium",
+              "Paczka 20 sztuk",
+              "Woreczek 30 g"
+            ],
+            "rows": [
+              [
+                "Nowa Południowa Walia",
+                "$40 do $60",
+                "$90 do $120"
+              ],
+              [
+                "Wiktoria",
+                "$40 do $60",
+                "$90 do $120"
+              ],
+              [
+                "Queensland",
+                "$40 do $60",
+                "$90 do $120"
+              ],
+              [
+                "Australia Południowa",
+                "$40 do $60",
+                "$90 do $120"
+              ],
+              [
+                "Australia Zachodnia",
+                "$40 do $60",
+                "$90 do $120"
+              ],
+              [
+                "Tasmania",
+                "$40 do $60",
+                "$90 do $120"
+              ],
+              [
+                "Australijskie Terytorium Stołeczne",
+                "$40 do $60",
+                "$90 do $120"
+              ],
+              [
+                "Terytorium Północne i odległe rejony",
+                "$45 do $65 lub więcej",
+                "$95 do $130 lub więcej"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Woreczki tytoniu do skręcania",
+          "body": [
+            "Tytoń do skręcania sprzedaje się tylko w woreczkach po 30 g, a z jednego woreczka wychodzi około 50 cienkich papierosów. Tanie woreczki kosztują około $90, a premium około $115 lub trochę więcej, więc skręcanie wcale nie wychodzi dużo taniej na sztukę niż paczka 20, gdy doliczysz bibułki i <a data-guide=\"how-to-use-aussiecamps-filters\">filtry</a>.",
+            "Akcyza na tytoń do skręcania jest naliczana od wagi i od 1 września 2026 wynosi $2,587.90 za kilogram. To około $78 podatku w każdym woreczku 30 g jeszcze przed GST, dlatego cena na półce jest tak bliska cenie paczki papierosów."
+          ],
+          "tips": [
+            "30 g to jedyny rozmiar",
+            "Około $90 do $120",
+            "Niewiele taniej na sztukę"
+          ]
+        },
+        {
+          "heading": "Dlaczego są tak drogie",
+          "body": [
+            "Cena to głównie podatek. Akcyza federalna wynosi $1.55274 od każdego papierosa od 1 września 2026, po $1.52829 w marcu, czyli około $31 od paczki 20 sztuk. Do tego przy kasie dolicza się 10% GST. Razem to około 70% typowej paczki za $50, a przy taniej paczce jeszcze więcej.",
+            "Stawka zmienia się dwa razy w roku, w marcu i 1 września, bo podąża za wzrostem płac. Ponadto od 2023 do 2026 stawka rosła co wrzesień o dodatkowe 5%, więc koszt rośnie stopniowo, a nie jednym skokiem. Paczka, która wydaje się droga podczas pierwszej wizyty turysty, w następnym roku będzie jeszcze droższa."
+          ],
+          "tips": [
+            "Około $31 akcyzy na paczkę",
+            "Plus 10% GST",
+            "Rośnie co marzec i wrzesień"
+          ]
+        },
+        {
+          "heading": "Coroczne podwyżki a twoja podróż",
+          "body": [
+            "Ponieważ stawka zmienia się co marzec i wrzesień, kwota z zeszłego roku jest nieaktualna, zanim wylądujesz. Zakładaj, że paczka w 2027 będzie kosztować o kilka dolarów więcej niż przedziały z 2026 podane tutaj, a cenę na półce sprawdź w pierwszym mieście, zanim zaplanujesz miesiąc wydatków.",
+            "Mocny palacz na długiej trasie szybko się rozlicza. Dziesięć paczek miesięcznie to około $400 do $600. Wpisz to w budżet podróży jako osobną pozycję, tak jak paliwo, żeby nie uszczuplało pieniędzy na jedzenie."
+          ],
+          "tips": [
+            "Licz kilka dolarów więcej",
+            "Dziesięć paczek: $400 do $600",
+            "Daj temu osobną pozycję w budżecie"
+          ]
+        },
+        {
+          "heading": "Ceny e-papierosów",
+          "body": [
+            "Od 1 lipca 2024 e-papierosy (vapes) sprzedaje się tylko w aptekach, niezależnie od tego, czy zawierają nikotynę. Dorośli mogą w większości stanów kupić e-papierosy z niższą zawartością nikotyny od farmaceuty bez recepty, po rozmowie, a mocniejsze produkty wymagają recepty. Apteki mogą sprzedawać tylko produkty z listy zgłoszonych e-papierosów TGA.",
+            "Ceny w aptekach ustala producent i sklep, a nie rząd. Licz mniej więcej $30 do $60 za zwykłe urządzenie lub paczkę wkładów, a więcej za zestaw startowy. Tanie jednorazówki sprzedawane spod lady w niektórych sklepach nie są legalnym produktem."
+          ],
+          "tips": [
+            "Tylko apteki od lipca 2024",
+            "Około $30 do $60 za urządzenie",
+            "Najpierw zapytaj farmaceutę"
+          ]
+        },
+        {
+          "heading": "Nielegalny tytoń i e-papierosy",
+          "body": [
+            "Niektóre sklepy sprzedają papierosy i e-papierosy za ułamek legalnej ceny, często w nieoznakowanych lub zagranicznych paczkach, czasem nazywane chop chop. To produkty nielegalne, a ich kupno może skończyć się mandatem i konfiskatą towaru, z karami różnymi w zależności od stanu. Nie mają też australijskich ostrzeżeń zdrowotnych.",
+            "Jeśli cena wygląda zbyt dobrze w porównaniu z kwotami powyżej, to prawie na pewno tak jest, więc e-papierosy kupuj w aptece, a tytoń u licencjonowanego <a data-guide=\"where-to-buy-cigarettes-vapes-australia\">sprzedawcy tytoniu</a> albo w supermarkecie."
+          ],
+          "tips": [
+            "Nieoznakowane paczki są nielegalne",
+            "Kupujący może dostać mandat",
+            "Tanio zwykle znaczy nielegalnie"
+          ]
+        },
+        {
+          "heading": "Jak wydać mniej, legalnie",
+          "body": [
+            "<a data-guide=\"smoking-vaping-rules-australia\">Limit bezcłowy</a> przy przylocie to tylko 25 papierosów lub 25 gramów tytoniu, plus jedna otwarta paczka, dla podróżnych w wieku 18 lat i więcej. Przywiezienie więcej oznacza obowiązek zgłoszenia, a Australian Border Force informuje, że albo oddajesz nadwyżkę, albo płacisz cło od całej ilości. Niezgłoszony tytoń można zająć i można za niego dostać karę, więc zapas z domu nie jest sposobem na oszczędność na długiej podróży.",
+            "Kupowanie kartonami nie jest dużo tańsze na sztukę, bo podatek od każdego papierosa jest taki sam. Prawdziwe oszczędności są niewielkie: wybierz tanią markę, kupuj tam, gdzie sklep ma promocję, i unikaj cen w roadhouse'ach i w odległych rejonach, gdy się da. Zasady dla podróżnych, w tym limit bezcłowy, e-papierosy i miejsca, gdzie nie wolno palić, opisuje poradnik o przepisach dotyczących palenia i e-papierosów. Jeśli palisz w pobliżu obozu, gaś każdy niedopałek do końca i zabieraj go ze sobą oraz przestrzegaj zasad <a data-guide=\"campfires-camping-australia\">całkowitego zakazu rozpalania ognia</a>: niedopałki i busz się nie lubią.",
+            "Jedziesz też do Nowej Zelandii? KiwiCamping opisuje, <a data-sister=\"cigarette-prices-new-zealand\">ile kosztują papierosy w Nowej Zelandii</a>."
+          ],
+          "tips": [
+            "Wwieź tylko 25 sztuk",
+            "Kartony oszczędzają niewiele",
+            "Gaś niedopałki, zabieraj ze sobą"
+          ]
+        },
+        {
+          "heading": "Zaplanuj budżet podróży w AussieCamps",
+          "body": [
+            "AussieCamps <a data-guide=\"how-to-use-aussiecamps-filters\">filtruje</a> miejsca według kosztu, darmowe lub płatne, więc tańsze noce mogą zrobić miejsce na resztę budżetu. Dodawaj każdy przystanek do podróży z datami, notatkami i listą zadań, żeby uzupełnianie zapasów w większych miastach przed odległym odcinkiem było częścią planu.",
+            "Szczegóły miejsc i filtry działają <a data-guide=\"camping-without-phone-signal\">bez zasięgu</a>, a trasa pokazuje odległość i czas każdego odcinka. AussieCamps działa na iPhonie."
+          ],
+          "tips": [
+            "Filtruj według kosztu",
+            "Zaplanuj zakupy przed odległymi odcinkami",
+            "Tylko iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Ile kosztuje paczka papierosów w Australii?",
+          "Legalna paczka 20 sztuk kosztuje zwykle około $40 do $60 w listopadzie 2026, przy czym tanie marki są na dole, a popularne na górze. Paczek 25 sztuk już się nie sprzedaje: od 1 lipca 2025 każda paczka papierosów musi mieć dokładnie 20 sztuk. Na wschodnim wybrzeżu ceny są trochę niższe, a na Terytorium Północnym i w odległych miasteczkach wyższe."
+        ],
+        [
+          "Dlaczego papierosy w Australii są takie drogie?",
+          "Przez podatek federalny. Akcyza wynosi $1.55274 od każdego papierosa od 1 września 2026, czyli około $31 od paczki 20 sztuk, zanim doliczy się 10% GST. Przy większości marek około 70% ceny na półce lub więcej trafia do rządu."
+        ],
+        [
+          "Ile papierosów mogę wwieźć do Australii?",
+          "Limit bezcłowy dla podróżnych w wieku 18 lat i więcej to 25 papierosów lub 25 gramów tytoniu, plus jedna otwarta paczka. Wszystko ponad to musisz zgłosić. Australian Border Force informuje, że możesz wwieźć dozwoloną ilość i oddać resztę albo zatrzymać całość i zapłacić cło od całej ilości."
+        ],
+        [
+          "Czy jako turysta kupię e-papierosa w Australii?",
+          "Tylko w aptece. Od 1 lipca 2024 e-papierosów nie wolno sprzedawać w innych sklepach, a sklepiki, które je sprzedają, łamią prawo. Dorośli mogą w większości stanów kupić e-papierosy z niższą zawartością nikotyny od farmaceuty bez recepty, po krótkiej rozmowie."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Australian Taxation Office: stawki akcyzy na tytoń"
+        },
+        {
+          "label": "Australian Border Force: limity bezcłowe"
+        },
+        {
+          "label": "Department of Health: zmiany dotyczące wyrobów tytoniowych w Australii"
+        },
+        {
+          "label": "Department of Health: przepisy dotyczące e-papierosów"
+        },
+        {
+          "label": "Therapeutic Goods Administration: e-papierosy z nikotyną"
+        },
+        {
+          "label": "Tobacco in Australia: ceny wyrobów tytoniowych"
+        }
+      ],
+      "priceTable": null
+    },
+    "smoking-vaping-rules-australia": {
+      "title": "Palenie i e-papierosy w Australii (2027): przepisy dla podróżnych",
+      "description": "Bez cła wwieziesz 25 papierosów lub 25 g tytoniu, e-papierosy są tylko w aptekach, musisz mieć 18 lat, a palący niedopałek w buszu to wysokie mandaty. Przepisy dla podróżnych na 2027.",
+      "region": "Australia",
+      "imageAlt": "Tabliczka z napisem This jetty is smoke-free and vape-free na barierce mola Outer Harbor w Adelaide w Australii Południowej",
+      "intro": "Osoby w wieku 18 lat i więcej mogą wwieźć do Australii bez cła 25 papierosów lub 25 g tytoniu, plus jedną otwartą paczkę, a wszystko ponad to muszą zgłosić. E-papierosy sprzedaje się teraz tylko w aptekach, a wyjątek dla podróżnych pozwala wwieźć 2 e-papierosy, 20 wkładów lub kartridży i 200 mL płynu na własne leczenie. Żeby kupić jedno albo drugie, trzeba mieć 18 lat, a palenie i vaping są zakazane w wielu miejscach na zewnątrz, od stolików przed kawiarniami po plaże pod nadzorem ratowników. Dla kamperowiczów najważniejszy jest ogień: palący się niedopałek wyrzucony z samochodu albo upuszczony w suchą trawę może kosztować tysiące dolarów. Tak wyglądają przepisy w listopadzie 2026.",
+      "sections": [
+        {
+          "heading": "Co możesz wwieźć bez cła",
+          "body": [
+            "Dorośli w wieku 18 lat i więcej mogą wwieźć tytoń do Australii bez pozwolenia. Limit bezcłowy to 25 papierosów lub 25 g wyrobów tytoniowych, plus jedna otwarta paczka. Ponieważ australijskie i większość zagranicznych paczek ma 20 sztuk, oznacza to jedną zamkniętą paczkę plus tę, którą palisz. Osoby poniżej 18 lat nie mają żadnego limitu na tytoń.",
+            "Po przekroczeniu limitu Australian Border Force informuje, że cło i podatek dotyczą całej ilości danego towaru, a nie tylko nadwyżki. Niezgłoszenie nadwyżki może skończyć się karami, postępowaniem karnym albo cofnięciem wizy, zależnie od ilości. Jeśli masz więcej, zgłoś to w Incoming Passenger Card, pokaż dowód zakupu i zapłać cło albo oddaj towar na granicy. Ceny lokalnych paczek opisujemy w poradniku o <a data-guide=\"cigarette-prices-australia\">cenach papierosów</a>."
+          ],
+          "tips": [
+            "25 papierosów lub 25 g",
+            "Plus jedna otwarta paczka",
+            "Zgłoś wszystko ponad limit"
+          ]
+        },
+        {
+          "heading": "E-papierosy dla podróżnych",
+          "body": [
+            "Od 2024 roku e-papierosy w Australii są traktowane jak towary lecznicze. Podróżni mogą je wwieźć tylko na podstawie wyjątku dla podróżnych: e-papierosy muszą służyć twojemu własnemu leczeniu albo osoby, którą się opiekujesz i która podróżuje z tobą tym samym lotem lub statkiem. Limity to łącznie 2 e-papierosy, 20 akcesoriów, takich jak wkłady, kartridże czy kapsułki, i 200 mL płynu.",
+            "Jednorazówki wliczają się do tych 2 sztuk. Wysyłanie e-papierosów do siebie pocztą albo prośba, żeby przesłał je znajomy, jest zabroniona, a wszystko ponad limit może zostać zajęte. Zgłoś e-papierosy i trzymaj je w bagażu podręcznym, tak by funkcjonariusze je widzieli. Zasady przewożenia ich w samolocie ustala linia lotnicza, więc sprawdź je przed lotem."
+          ],
+          "tips": [
+            "2 e-papierosy, 20 wkładów, 200 mL",
+            "Tylko na własny użytek",
+            "Nie wysyłaj e-papierosów pocztą do Australii"
+          ]
+        },
+        {
+          "heading": "Kupowanie e-papierosów i wiek",
+          "body": [
+            "E-papierosy sprzedają w Australii wyłącznie apteki. Od października 2024 farmaceuci mogą wydawać e-papierosy z nikotyną 20 mg/mL lub mniej osobom w wieku 18 lat i więcej bez recepty, a osoby poniżej 18 lat potrzebują recepty. <a data-guide=\"where-to-buy-cigarettes-vapes-australia\">Sklepy tytoniowe</a>, sklepy z e-papierosami, stacje paliw (servo) i sklepiki nie mogą ich sprzedawać wcale, bez względu na zawartość nikotyny.",
+            "Wiek uprawniający do zakupu tytoniu to 18 lat w każdym stanie i terytorium, a sklepy mogą poprosić o dokument ze zdjęciem. Turyści są traktowani tak samo jak miejscowi, więc najbezpieczniej mieć przy sobie paszport albo <a data-guide=\"overseas-driver-licence-australia-state-guide\">zagraniczne prawo jazdy</a>. Farmaceuta może też powiedzieć ci o dodatkowych przepisach stanowych przed zakupem."
+          ],
+          "tips": [
+            "E-papierosy: tylko apteka",
+            "18 lat, żeby kupić cokolwiek",
+            "Miej przy sobie dokument ze zdjęciem"
+          ]
+        },
+        {
+          "heading": "Gdzie nie wolno palić ani vapować",
+          "body": [
+            "Przepisy o zakazie palenia ustala każdy stan i terytorium, a vaping jest traktowany jak palenie w miejscach wolnych od dymu. Tabela zawiera miejsca, z którymi kamperowicze spotykają się najczęściej. Wiele rad lokalnych dodaje własne zasady dla miejscowych plaż, parków i centrów miast, więc szukaj tabliczek.",
+            "Parki narodowe, plaże i kempingi mają własne reguły. Queensland zakazuje palenia w promieniu 10 m od pól biwakowych i obiektów w parkach narodowych, kilka stanów zakazuje go między flagami na plażach pod nadzorem ratowników, a wiele <a data-guide=\"caravan-park-vs-holiday-park\">parków kempingowych (caravan parks)</a> zabrania go w domkach, blokach sanitarnych i kuchniach kempingowych. Gdy obowiązuje zakaz rozpalania ognia, strażnicy parków traktują palącego się papierosa na otwartej przestrzeni jak każdy inny płomień.",
+            "Mandaty są ustalane w jednostkach karnych albo w kwotach stałych, które zmieniają się co roku, więc tabela jest wskazówką, a nie dokładną kwotą."
+          ],
+          "tips": [
+            "Vaping też się liczy",
+            "Szukaj lokalnych tabliczek",
+            "Mandaty zmieniają się co roku"
+          ],
+          "table": {
+            "caption": "Miejsca na zewnątrz wolne od dymu w stanach i terytoriach, na podstawie stanowych stron zdrowotnych z listopada 2026. Sprawdź aktualną stronę stanową, zanim zaufasz konkretnej kwocie.",
+            "head": [
+              "Stan",
+              "Warte znajomości miejsca na zewnątrz wolne od dymu",
+              "Typowy mandat na miejscu"
+            ],
+            "rows": [
+              [
+                "Nowa Południowa Walia",
+                "Komercyjne ogródki gastronomiczne, w promieniu 4 m od wejść do budynków publicznych, przystanki i perony komunikacji publicznej; wiele rad dodaje plaże i parki",
+                "$300"
+              ],
+              [
+                "Wiktoria",
+                "Ogródki gastronomiczne, w promieniu 10 m od placów zabaw i skateparków, na imprezach sportowych dla osób poniżej 18 lat i na festiwalach jedzenia",
+                "Około jednej lub dwóch jednostek karnych, kilkaset dolarów"
+              ],
+              [
+                "Queensland",
+                "Między flagami na plażach pod nadzorem ratowników, w promieniu 10 m od pól biwakowych i obiektów w parkach narodowych, 5 m od przystanków komunikacji publicznej i 10 m od placów zabaw",
+                "Dwie jednostki karne"
+              ],
+              [
+                "Australia Południowa",
+                "Ogródki gastronomiczne, place zabaw i wiaty przystankowe, plus nowsze strefy na zewnątrz od marca 2024",
+                "$105"
+              ],
+              [
+                "Australia Zachodnia",
+                "Miejsca do jedzenia na zewnątrz, w promieniu 10 m od urządzeń na placach zabaw i między flagami na plażach pod nadzorem ratowników",
+                "$300 w ogródkach gastronomicznych"
+              ],
+              [
+                "Tasmania",
+                "Ogródki gastronomiczne, w promieniu 3 m od wejść, w promieniu 10 m od placów zabaw, plaże pod nadzorem ratowników i imprezy na świeżym powietrzu",
+                "Około $350 do $400"
+              ],
+              [
+                "Terytorium Północne",
+                "Ogródki gastronomiczne bez licencji, imprezy publiczne i ich otoczenie oraz miejsca zabaw dla dzieci",
+                "Ustalany w jednostkach karnych"
+              ],
+              [
+                "Australijskie Terytorium Stołeczne",
+                "Miejsca do jedzenia i picia na zewnątrz oraz w promieniu 10 m od urządzeń zabawowych",
+                "Ustalany w jednostkach karnych"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Palenie w samochodzie z dziećmi",
+          "body": [
+            "Każdy stan i terytorium zakazuje palenia w samochodzie, w którym jest dziecko, nawet gdy szyby są opuszczone albo auto stoi. Granica wieku dziecka to poniżej 16 lat w <a data-guide=\"camping-rules-new-south-wales\">Nowej Południowej Walii</a>, Queenslandzie, Australii Południowej, na Terytorium Północnym i w ACT, poniżej 17 lat w Australii Zachodniej i poniżej 18 lat w Wiktorii i na Tasmanii. Dotyczy to także vapingu.",
+            "W wypożyczonym aucie albo kamperze zasada jest taka sama, a wypożyczalnia może dodatkowo policzyć opłatę za sprzątanie z powodu zapachu dymu. Jeśli palisz, odejdź od pojazdu i najpierw wypuść pasażerów."
+          ],
+          "tips": [
+            "Nielegalne w każdym stanie",
+            "Opuszczone szyby to żadna wymówka",
+            "Wypożyczalnie liczą opłatę za sprzątanie"
+          ]
+        },
+        {
+          "heading": "Zakazy ognia, niedopałki i mandaty",
+          "body": [
+            "W dniu <a data-guide=\"campfires-camping-australia\">całkowitego zakazu rozpalania ognia</a> niepokoi wszystko, co na otwartej przestrzeni może wzniecić pożar, a wyrzucenie palącego się papierosa jest wykroczeniem w każdym stanie. W Nowej Południowej Walii palący się niedopałek może skutkować mandatem na miejscu od około $660, który w dniu całkowitego zakazu podwaja się do około $1,320. W sądzie maksimum to $5,500, a w dniu całkowitego zakazu $11,000. Kierowcy dostają też punkty karne, zwykle 5, a w dniu całkowitego zakazu 10.",
+            "Wyrzucenie niedopałka z samochodu jest traktowane jako niebezpieczne śmiecenie w Wiktorii i <a data-guide=\"camping-rules-queensland\">Queenslandzie</a>, z mandatami sięgającymi kilkuset dolarów na miejscu i znacznie wyższymi w sądzie. Nawet niedopałek na ziemi to śmiecenie. W buszu może wywołać pożar, który dojdzie do kempingu albo miasteczka.",
+            "Wóź ze sobą popielniczkę turystyczną albo puszkę na niedopałki i nigdy nie gaś papierosa w suchej trawie ani w ściółce liściowej. W niektórych stanach można zgłaszać osoby wyrzucające palące się niedopałki: w <a data-guide=\"camping-rules-new-south-wales\">Nowej Południowej Walii</a> możesz zadzwonić na Bush Fire Information Line pod numer 1800 679 737."
+          ],
+          "tips": [
+            "Puszka na niedopałki w aucie",
+            "Nigdy w suchej trawie",
+            "Zgłaszaj niedopałki wyrzucane z aut"
+          ]
+        },
+        {
+          "heading": "Mandaty w pigułce i plan kamperowicza",
+          "body": [
+            "Podsumowując: tytoń ponad limit kosztuje cło od całości albo jego utratę, palenie w miejscu wolnym od dymu kosztuje od około $100 do kilkuset dolarów, a palący się niedopałek wyrzucony z pojazdu to setki dolarów na miejscu i tysiące w sądzie.",
+            "Na wyjeździe kempingowym wybierz miejsce z dala od namiotów i suchej trawy, codziennie rano sprawdzaj stopień zagrożenia pożarowego i zamykaj puszkę na niedopałki, gdy skończysz. Strony agencji parków i tabliczki na kempingu mówią, gdzie palenie jest zabronione. Jedziesz też do Nowej Zelandii? KiwiCamping opisuje <a data-sister=\"smoking-vaping-rules-new-zealand\">przepisy dotyczące palenia i e-papierosów w Nowej Zelandii</a>."
+          ],
+          "tips": [
+            "Codziennie sprawdzaj zagrożenie pożarowe",
+            "Sprawdź strefy wolne od dymu w parku",
+            "Nigdy nie gaś w trawie"
+          ]
+        },
+        {
+          "heading": "Zaplanuj podróż z uwzględnieniem przepisów w AussieCamps",
+          "body": [
+            "AussieCamps pokazuje kempingi publikowane przez agencje parków, z filtrem „Popular features” (popularne udogodnienia): toalety, woda pitna, prysznice i <a data-guide=\"campfires-camping-australia\">ogniska</a>. Użyj filtra „Cost” (koszt), żeby porównać miejsca darmowe i płatne, i dodawaj przystanki do podróży z datami, notatkami, pogodą i listą „To-do list” (zadania), żeby pamiętać o puszce na niedopałki i dokumencie.",
+            "Szczegóły miejsc, wyszukiwanie i filtry działają <a data-guide=\"camping-without-phone-signal\">bez zasięgu</a>, bo katalog jest w aplikacji. Mapa, wyznaczanie trasy i pogoda wymagają połączenia, a AussieCamps działa na iPhonie."
+          ],
+          "tips": [
+            "Filtruj według ognisk i udogodnień",
+            "Dodaj puszkę na niedopałki do listy zadań",
+            "Tylko iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Ile papierosów mogę wwieźć do Australii?",
+          "Podróżni w wieku 18 lat i więcej mogą wwieźć 25 papierosów lub 25 g wyrobów tytoniowych, plus jedną otwartą paczkę, bez płacenia cła. Przy paczkach po 20 sztuk to w praktyce jedna zamknięta paczka i ta, którą palisz. Jeśli wwieziesz więcej i tego nie zgłosisz, możesz zostać zmuszony do zapłacenia cła od całości albo do oddania towaru, a także narazić się na kary lub postępowanie karne. Wszystko ponad limit zgłoś na granicy."
+        ],
+        [
+          "Czy mogę wwieźć e-papierosa do Australii?",
+          "Tylko w małych ilościach i tylko na własne leczenie albo osoby, którą się opiekujesz i która podróżuje z tobą. Limit to 2 e-papierosy, 20 akcesoriów, takich jak wkłady lub kartridże, i 200 mL płynu. E-papierosów nie można przesłać ci pocztą i nie kupisz ich w sklepie w Australii."
+        ],
+        [
+          "Od ilu lat można palić w Australii?",
+          "Żeby kupić tytoń albo e-papierosy w Australii, musisz mieć 18 lat, a sklepy mogą poprosić o dokument ze zdjęciem. Turyści są traktowani tak samo jak miejscowi, więc miej przy sobie paszport albo prawo jazdy."
+        ],
+        [
+          "Czy mogę palić na kempingu w Australii?",
+          "Zwykle tak na własnym stanowisku, ale nie wszędzie. W parkach narodowych Queenslandu palenie i vaping są zakazane w promieniu 10 m od pól biwakowych i obiektów, takich jak toalety i stoły piknikowe. W dniu całkowitego zakazu rozpalania ognia albo w suchym buszu najbezpieczniej w ogóle nie palić na otwartej przestrzeni."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Australian Border Force: ulgi bezcłowe"
+        },
+        {
+          "label": "Office of Drug Control: e-papierosy i wyjątek dla podróżnych"
+        },
+        {
+          "label": "TGA: informacje o e-papierosach dla pacjentów i konsumentów"
+        },
+        {
+          "label": "Queensland Government: przepisy antynikotynowe w Queenslandzie"
+        },
+        {
+          "label": "NSW Health: przepisy o ogródkach gastronomicznych wolnych od dymu"
+        },
+        {
+          "label": "Victorian Government: porady o paleniu i vapingu dla rodziców"
+        },
+        {
+          "label": "NSW Rural Fire Service: nowe i podwyższone mandaty"
+        }
+      ],
+      "priceTable": null
+    },
+    "where-to-buy-cigarettes-vapes-australia": {
+      "title": "Gdzie kupić papierosy i e-papierosy w Australii (2027)",
+      "description": "Papierosy kupisz przy kasach w supermarketach, na stacjach paliw (servo) i w sklepach tytoniowych; e-papierosy tylko w aptekach. Gdzie kupować, wymagany dokument i jak jest w outbacku.",
+      "region": "Australia",
+      "imageAlt": "Nullarbor Roadhouse w Australii Południowej, z road trainem i kamperem zaparkowanymi przy dystrybutorach i sklepie",
+      "intro": "Papierosy sprzedaje się przy ladach w supermarketach, na stacjach paliw, w sklepikach i w sklepach tytoniowych, a żeby je kupić, musisz mieć 18 lat. Z e-papierosami jest inaczej: od 1 lipca 2024 mogą je sprzedawać tylko apteki, a dorośli kupią tam e-papierosy z nikotyną 20 mg/mL lub mniej od farmaceuty bez recepty. Na prowincji wybór zawęża się do roadhouse'u albo sklepu ogólnego, zwykle z mniejszą liczbą marek i wyższymi cenami, więc zrób zapasy w większym mieście przed odległym odcinkiem. Ceny rosną co roku, więc patrz na cenę na półce, a nie ufaj kwocie z zeszłego roku.",
+      "sections": [
+        {
+          "heading": "Gdzie kupować, w skrócie",
+          "body": [
+            "Papierosy łatwo znaleźć w każdym przyzwoitej wielkości mieście, a rodzaj sklepu decyduje o asortymencie i cenie. E-papierosy to osobny przypadek i kupisz je tylko w aptece.",
+            "Asortyment sklepów zmienia się między sieciami i z roku na rok, więc traktuj tabelę jako zwykły schemat, a nie obietnicę dla każdego sklepu."
+          ],
+          "tips": [
+            "Papierosy: wiele sklepów",
+            "E-papierosy: tylko apteki",
+            "W outbacku wybór się kurczy"
+          ],
+          "table": {
+            "caption": "Gdzie podróżni zwykle kupują tytoń i e-papierosy w Australii, listopad 2026. Asortyment i ceny różnią się między sklepami.",
+            "head": [
+              "Gdzie",
+              "Co sprzedają",
+              "Uwagi"
+            ],
+            "rows": [
+              [
+                "Supermarkety",
+                "Papierosy i tytoń do skręcania; bez e-papierosów",
+                "Coles, Woolworths i IGA sprzedają przy punkcie obsługi lub w kiosku; Aldi nie sprzedaje tytoniu"
+              ],
+              [
+                "Stacje paliw i sklepiki",
+                "Papierosy i tytoń do skręcania; bez e-papierosów",
+                "Otwarte do późna i wszędzie, ale często najdroższa opcja"
+              ],
+              [
+                "Sklepy tytoniowe",
+                "Najszerszy wybór papierosów i tytoniu; bez e-papierosów",
+                "Sklepy specjalistyczne, najlepsze na mniej popularne marki"
+              ],
+              [
+                "Bottle shopy i puby",
+                "Papierosy w niektórych",
+                "Nie wszystkie je mają, więc najpierw zapytaj"
+              ],
+              [
+                "Apteki",
+                "E-papierosy z nikotyną 20 mg/mL lub mniej, po rozmowie z farmaceutą",
+                "Jedyne legalne miejsce na e-papierosy; ograniczone smaki; nie każda apteka je ma"
+              ],
+              [
+                "Roadhouse'y i sklepy w odległych rejonach",
+                "Kilka marek papierosów, czasem tytoń",
+                "Wyższe ceny, krótsze godziny otwarcia, bez e-papierosów"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Supermarkety i bottle shopy",
+          "body": [
+            "Coles, Woolworths i IGA sprzedają papierosy, ale na półce ich nie zobaczysz. Zakaz ekspozycji sprawia, że paczki trzyma się w zamkniętych szafkach, więc prosisz przy punkcie obsługi lub w kiosku i podajesz markę. Sieci supermarketów ograniczają sprzedaż tytoniu, a niektóre ich sklepy monopolowe przestały go sprzedawać, więc asortyment zależy od sklepu. Aldi nie sprzedaje tytoniu wcale.",
+            "Niektóre bottle shopy i pubowe bottle shopy sprzedają papierosy, a inne nie, więc zapytaj, zanim zaczniesz na nie liczyć. Lada w supermarkecie to wygodny wybór przy dużych zakupach, bo ceny zwykle są zbliżone do reszty miasta, a ty i tak już tam jesteś."
+          ],
+          "tips": [
+            "Pytaj przy punkcie obsługi",
+            "Aldi nie sprzedaje tytoniu",
+            "Najpierw zapytaj w bottle shopie"
+          ]
+        },
+        {
+          "heading": "Stacje paliw i sklepiki",
+          "body": [
+            "Servo takie jak Ampol, BP, 7-Eleven i niezależne prawie zawsze sprzedają papierosy, zwykle przy ladzie za kasą, a wiele jest otwartych do późna albo całą noc. To najłatwiejsza opcja, gdy przyjeżdżasz do miasta po zamknięciu supermarketów.",
+            "Ceną za tę wygodę jest wyższa cena. Servo to często najdroższe miejsce w mieście na paczkę, więc jeśli kupujesz zapas na kilka tygodni, lada w supermarkecie albo sklep tytoniowy zwykle wychodzi taniej. Poradnik o <a data-guide=\"cigarette-prices-australia\">cenach papierosów</a> zawiera zwykłe przedziały cen paczki i woreczka."
+          ],
+          "tips": [
+            "Otwarte do późna, często najdroższe",
+            "Dobre na awaryjną paczkę",
+            "Taniej w supermarkecie"
+          ]
+        },
+        {
+          "heading": "Sklepy tytoniowe i nielegalne sklepy",
+          "body": [
+            "Sklepy tytoniowe to sklepy specjalistyczne z najszerszym wyborem papierosów i tytoniu do skręcania i mogą zamówić albo wskazać marki, których nie ma w supermarketach. Kilka stanów wymaga dziś od sklepu licencji na sprzedaż detaliczną tytoniu, a w <a data-guide=\"camping-rules-victoria\">Wiktorii</a> przepis o licencji jest egzekwowany od 1 lutego 2026. Numer licencji albo certyfikat często wisi w sklepie.",
+            "Uważaj na sklepy, które sprzedają bardzo tanie papierosy albo e-papierosy. W niektórych sklepach sprzedaje się nielegalny tytoń i e-papierosy bez akcyzy, a sprzedaż i kupno są sprzeczne z prawem. Mogą zostać zajęte, a kupujący mogą dostać mandat, z karami różnymi w zależności od stanu. Legalne papierosy są w jednolitych oliwkowobrązowych paczkach z dużymi obrazkowymi ostrzeżeniami zdrowotnymi po angielsku, więc kolorowa lub zagraniczna paczka, brak angielskiego ostrzeżenia albo cena daleko poniżej zwykłego przedziału to sygnał ostrzegawczy."
+          ],
+          "tips": [
+            "Najszerszy wybór marek",
+            "Jednolite paczki, ostrzeżenia po angielsku",
+            "Bardzo tanio zwykle znaczy nielegalnie"
+          ]
+        },
+        {
+          "heading": "Dokument i wiek",
+          "body": [
+            "Żeby kupić papierosy, tytoń do skręcania albo e-papierosa gdziekolwiek w Australii, musisz mieć 18 lat, a sprzedawca może odmówić obsługi bez dowodu wieku. Wiele sklepów prosi o dokument każdego, kto wygląda na mniej niż 25 lat, więc spodziewaj się pytania i nie bierz tego do siebie.",
+            "Miej przy sobie paszport albo australijskie prawo jazdy, albo prawo jazdy z własnego kraju, jeśli widać na nim zdjęcie i datę urodzenia. Personel decyduje, co przyjmie, więc noś oryginał, a nie kserokopię. Poradnik o <a data-guide=\"smoking-vaping-rules-australia\">przepisach dotyczących palenia i e-papierosów</a> wymienia miejsca, w których palić nie wolno."
+          ],
+          "tips": [
+            "Tylko od 18 lat",
+            "Często pytają, jeśli wyglądasz na mniej niż 25",
+            "Noś oryginał dokumentu ze zdjęciem"
+          ]
+        },
+        {
+          "heading": "Kupowanie e-papierosa",
+          "body": [
+            "E-papierosy mogą sprzedawać tylko apteki. Sklepy tytoniowe, sklepy z e-papierosami i sklepiki nie mogą ich sprzedawać, niezależnie od tego, czy zawierają nikotynę, a jednorazowe e-papierosy są zakazane. Sklep, który sprzedaje je spod lady, łamie prawo.",
+            "Dorośli mogą kupić e-papierosa z nikotyną 20 mg/mL lub mniej od farmaceuty bez recepty, po krótkiej rozmowie, tam gdzie pozwalają na to przepisy stanu i terytorium. Wyższe stężenia wymagają recepty. Smaki są ograniczone do bez smaku, miętowego, mentolowego i tytoniowego. Nie każda apteka ma e-papierosy, więc zadzwoń wcześniej albo zapytaj w większej."
+          ],
+          "tips": [
+            "Tylko apteki",
+            "Bez jednorazówek",
+            "Mięta, mentol, tytoń"
+          ]
+        },
+        {
+          "heading": "W outbacku i na odległych drogach",
+          "body": [
+            "Roadhouse'y i odległe sklepy ogólne zwykle sprzedają papierosy, ale wybór może ograniczać się do kilku marek, a cena jest wyższa niż w mieście. Tytoń do skręcania może być ograniczony, a jeśli sklepowi się skończy, następny może być o setki kilometrów dalej. Niektóre odległe społeczności ustalają własne zasady dotyczące tego, co sklepy mogą sprzedawać, więc zapytaj, zanim zaczniesz liczyć na sklep w społeczności, i stosuj się do tabliczek o ograniczeniach.",
+            "Apteki są rzadkie poza większymi miastami, więc jeśli vapujesz, kup przed wyjazdem. Większość roadhouse'ów przyjmuje karty, ale zdarzają się awarie, a godziny otwarcia są krótsze i często zamykają wczesnym wieczorem, więc miej trochę gotówki i kupuj przed zmrokiem. Kilka zapasowych paczek na długi odcinek wychodzi taniej niż uzupełnienie w roadhouse'ie."
+          ],
+          "tips": [
+            "Kupuj przed odległymi odcinkami",
+            "Vapujący: planuj wokół aptek",
+            "Miej trochę gotówki"
+          ]
+        },
+        {
+          "heading": "W trasie i na kempingu",
+          "body": [
+            "Upał szkodzi tytoniowi i e-papierosom. Nie zostawiaj paczek, woreczków ani e-papierosa w nagrzanym aucie lub zamkniętym kamperze, gdzie mogą wyschnąć albo się zepsuć, a e-papierosa trzymaj z dala od bezpośredniego słońca. Lepsza będzie torba w cieniu albo przegroda w lodówce turystycznej.",
+            "Pal z dala od obozu i namiotów i sprawdzaj stopień zagrożenia pożarowego. W czasie <a data-guide=\"campfires-camping-australia\">całkowitego zakazu rozpalania ognia</a> palący się papieros to realne ryzyko, a niektóre kempingi, plaże i parki narodowe są wolne od dymu. Gaś każdy niedopałek do końca i zabieraj go ze sobą, nigdy nie zostawiaj go na ziemi. Jedziesz też do Nowej Zelandii? KiwiCamping opisuje, <a data-sister=\"where-to-buy-cigarettes-vapes-new-zealand\">gdzie kupić papierosy i e-papierosy w Nowej Zelandii</a>."
+          ],
+          "tips": [
+            "Nie zostawiaj w nagrzanym aucie",
+            "Sprawdź zagrożenie pożarowe",
+            "Zabieraj niedopałki ze sobą"
+          ]
+        },
+        {
+          "heading": "Zaplanuj postoje na zakupy w AussieCamps",
+          "body": [
+            "W AussieCamps dodajesz każdy przystanek do podróży z datami i notatkami, a trasa pokazuje odległość i czas każdego odcinka. Dzięki temu łatwo zobaczyć ostatnie większe miasto przed odległym odcinkiem i zapisać je jako miejsce na uzupełnienie zapasów.",
+            "Szczegóły miejsc, wyszukiwanie i filtry działają bez zasięgu, więc możesz sprawdzić udogodnienia kempingu, takie jak woda pitna, toalety i <a data-guide=\"campfires-camping-australia\">ogniska</a>, gdy jesteś poza zasięgiem. AussieCamps działa na iPhonie."
+          ],
+          "tips": [
+            "Zobacz odległość każdego odcinka",
+            "Zapisz miasta do zakupów",
+            "Tylko iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Gdzie mogę kupić papierosy w Australii?",
+          "W supermarketach takich jak Coles, Woolworths i IGA, na stacjach paliw i w sklepikach oraz w sklepach tytoniowych, które mają najszerszy wybór. Aldi nie sprzedaje tytoniu. W supermarketach papierosy są schowane i prosisz o nie przy punkcie obsługi."
+        ],
+        [
+          "Gdzie mogę kupić e-papierosa w Australii?",
+          "Tylko w aptece. Od 1 lipca 2024 e-papierosów nie mogą sprzedawać sklepy tytoniowe, sklepy z e-papierosami ani sklepiki, a jednorazówki są zakazane. Dorośli mogą kupić e-papierosy z nikotyną 20 mg/mL lub mniej od farmaceuty bez recepty, po krótkiej rozmowie, ale nie każda apteka je ma."
+        ],
+        [
+          "Czy potrzebuję dokumentu, żeby kupić papierosy w Australii?",
+          "Musisz mieć 18 lat, a personel może poprosić o dowód wieku. Miej przy sobie paszport albo australijskie prawo jazdy, bo kserokopia albo zdjęcie na telefonie mogą nie zostać przyjęte. Sklepy zwykle proszą o dokument każdego, kto wygląda na mniej niż 25 lat."
+        ],
+        [
+          "Czy kupię papierosy w outbacku?",
+          "Zwykle tak, w roadhouse'ach i sklepach ogólnych, ale z małym wyborem marek i po wyższych cenach. Niektóre sklepy w odległych społecznościach mają własne zasady dotyczące tego, co sprzedają, a apteki są rzadkie, więc kup to, czego potrzebujesz, w większym mieście przed odległym odcinkiem."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Department of Health: o e-papierosach"
+        },
+        {
+          "label": "Department of Health: zmiany dotyczące e-papierosów w Australii od 1 lipca"
+        },
+        {
+          "label": "Therapeutic Goods Administration: reformy regulacji e-papierosów"
+        },
+        {
+          "label": "Therapeutic Goods Administration: informacje o e-papierosach z nikotyną dla konsumentów"
+        },
+        {
+          "label": "Victorian Government: licencje na sprzedaż tytoniu"
+        },
+        {
+          "label": "Department of Health: zmiany dotyczące wyrobów tytoniowych w Australii"
         }
       ],
       "priceTable": null

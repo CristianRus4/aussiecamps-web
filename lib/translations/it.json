@@ -8126,145 +8126,309 @@
       }
     },
     "alcohol-coffee-drink-prices-australia": {
-      "title": "Prezzi di birra e caffè in Australia 2027: al pub da 7 a 16 $",
-      "description": "Una birra al pub costa da 7 a 16 $ e un cappuccino da 4,50 a 8 $ a Sydney (ottobre 2026). Per drink standard, la birra al pub costa da 4 a 9 $ e il vino del bottle shop da 1,60 a 4 $.",
+      "title": "Quanto costa una birra in Australia? Prezzi nei pub e nei bottle shop (2027)",
+      "description": "In una città australiana una schooner al pub costa da $8 a $13 e una pinta da $12 a $18 (novembre 2026). Una slab da 24 birre costa da $55 a $72. Prezzi per città, nomi dei bicchieri, happy hour.",
       "region": "Australia",
-      "imageAlt": "Bevande sul tavolino di una caffetteria australiana",
-      "intro": "Una birra alla spina da 500 ml in un pub di Sydney costa circa da 7 a 16 $ e un cappuccino da 4,50 a 8 $, secondo i prezzi segnalati dagli utenti e aggiornati a ottobre 2026, mentre una bottiglia di birra da 500 ml al bottle shop (il negozio di alcolici) costa circa da 3,50 a 12 $ in tutto il Paese. Per drink standard sono circa da 4 a 9 $ al pub, da 2 a 7 $ per la birra del bottle shop e da 1,60 a 4 $ per una bottiglia di vino di fascia media: quello che compri da portare al campeggio è quindi la scelta più conveniente.",
+      "imageAlt": "Bevande di un caffè australiano su un tavolo",
+      "intro": "In novembre 2026 una schooner di birra (425 ml) in un pub di città australiano costa circa da $8 a $13, e una pinta (570 ml) circa da $12 a $18. Perth e i pub di campagna sono i più economici, mentre il centro di Sydney e di Melbourne è il più caro. Al bottle shop un sei-pack di birra comune costa circa da $20 a $28 e una slab da 24 circa da $55 a $72: meno della metà del prezzo al pub per ogni birra. Se vuoi risparmiare, compra da bere e goditelo in campeggio.",
       "sections": [
         {
-          "heading": "Negozio e locale vendono due prodotti diversi",
+          "heading": "Prezzi della birra per città",
           "body": [
-            "Al pub paghi il locale, il personale e il servizio, non solo quello che c’è nel bicchiere. Confronta cose confrontabili e non scambiare il prezzo dello stesso drink comprato al bottle shop per quello di un bicchiere servito al banco. I drink standard rendono il confronto equo: Healthy WA definisce un drink standard come 10 grammi di alcol, quanti ne contengono 285 ml di birra normale o 100 ml di vino, quindi una birra da 500 ml vale circa 1,75 drink standard e una bottiglia di vino da 750 ml circa 7,5.",
-            "Happy hour e promozioni durano poco. Calcola il budget sui prezzi normali e considera gli sconti un margine in più."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Il vino al bottle shop e al bar",
-          "body": [
-            "Una bottiglia di vino di fascia media da 750 ml costa circa da 12 a 30 $ al bottle shop e basta per circa cinque bicchieri da 150 ml. Ordinato al bicchiere in un bar o in un ristorante, lo stesso vino di solito costa molto di più a porzione: il vino costa meno quando dividi una bottiglia al campeggio.",
-            "Alcuni ristoranti, soprattutto quelli senza licenza per gli alcolici, ti lasciano portare la tua bottiglia (BYO, bring your own) pagando un diritto di tappo: così a cena bevi vino a prezzo da bottle shop. Chiedilo quando prenoti, non al tavolo."
+            "La tabella riporta i prezzi tipici di una birra comune, come una lager o una pale ale locale. Al pub il prezzo dipende molto dal locale: un pub di quartiere o un club servono a meno di un rooftop bar o di un hotel sul porto, e la birra artigianale di solito costa da $2 a $4 in più a bicchiere.",
+            "I prezzi del bottle shop cambiano meno da una città all'altra, perché la maggior parte del prezzo è accisa, l'imposta federale sugli alcolici, uguale ovunque. A Darwin e nell'outback pesa di più il trasporto, e nei bottle shop del <a data-guide=\"camping-rules-northern-territory\">Northern Territory</a> valgono regole in più su orari e documento d'identità.",
+            "Aspettati prezzi in lenta salita. L'accisa sulla birra confezionata sale con l'inflazione ogni febbraio e ogni agosto, quindi i prezzi nei bottle shop aumentano per tutto il 2027, mentre l'imposta sulla birra alla spina è congelata fino ad agosto 2027, e questo tiene più stabili i prezzi al pub."
           ],
           "tips": [
-            "Bottiglia di fascia media: da 12 a 30 $",
-            "Circa cinque bicchieri a bottiglia",
-            "Chiedi del BYO quando prenoti"
+            "Perth: le pinte più economiche tra le capitali",
+            "Sydney e Melbourne: le più care",
+            "Pub di campagna: spesso i più economici"
+          ],
+          "table": {
+            "caption": "Prezzi tipici di una birra comune a novembre 2026. Una schooner è 425 ml e una pinta 570 ml; ad Adelaide il bicchiere da 425 ml si chiama pint.",
+            "head": [
+              "Città",
+              "Schooner al pub (425 ml)",
+              "Pinta al pub (570 ml)",
+              "Sei-pack (bottle shop)",
+              "Slab da 24 (bottle shop)"
+            ],
+            "rows": [
+              [
+                "Sydney",
+                "$9 a $13",
+                "$13 a $18",
+                "$21 a $28",
+                "$57 a $72"
+              ],
+              [
+                "Melbourne",
+                "$9.50 a $14",
+                "$14 a $18.50",
+                "$21 a $28",
+                "$57 a $72"
+              ],
+              [
+                "Brisbane",
+                "$9 a $13",
+                "$12 a $17",
+                "$21 a $28",
+                "$57 a $72"
+              ],
+              [
+                "Perth",
+                "$8 a $12",
+                "$9 a $15",
+                "$21 a $28",
+                "$58 a $72"
+              ],
+              [
+                "Adelaide",
+                "$8.50 a $12",
+                "$12 a $16",
+                "$20 a $27",
+                "$55 a $70"
+              ],
+              [
+                "Hobart",
+                "$9 a $12",
+                "$12 a $16",
+                "$21 a $28",
+                "$58 a $72"
+              ],
+              [
+                "Darwin",
+                "$9 a $13",
+                "$13 a $18",
+                "$23 a $30",
+                "$62 a $80"
+              ],
+              [
+                "Canberra",
+                "$9 a $12",
+                "$12 a $17",
+                "$21 a $28",
+                "$57 a $72"
+              ],
+              [
+                "Pub di campagna",
+                "$7 a $10",
+                "$10 a $14",
+                "$22 a $32",
+                "$60 a $85"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Nomi e misure dei bicchieri per stato",
+          "body": [
+            "In Australia i bicchieri da birra cambiano nome al confine tra uno stato e l'altro, e la stessa parola può indicare un bicchiere diverso. Se a Sydney chiedi una schooner ottieni 425 ml; se la chiedi ad Adelaide ne ottieni 285, perché in South Australia il bicchiere da 425 ml si chiama pint e quello da 570 ml imperial pint.",
+            "Nel dubbio, chiedi la misura a parole semplici, oppure di' small, medium o large. Il personale è abituato ai turisti, e il listino appeso al muro di solito indica i nomi dei bicchieri."
+          ],
+          "tips": [
+            "Schooner significa 285 ml in SA",
+            "Chiedi small, medium o large",
+            "Il jug è di circa 1,1 litri"
+          ],
+          "table": {
+            "caption": "Nomi più comuni dei bicchieri di birra alla spina per stato e territorio. I nomi cambiano da un pub all'altro, soprattutto per il bicchiere da 285 ml.",
+            "head": [
+              "Stato o territorio",
+              "285 ml",
+              "425 ml",
+              "570 ml"
+            ],
+            "rows": [
+              [
+                "New South Wales e ACT",
+                "Middy",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Victoria",
+                "Pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Queensland",
+                "Pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "South Australia",
+                "Schooner",
+                "Pint",
+                "Imperial pint"
+              ],
+              [
+                "Western Australia",
+                "Middy",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Tasmania",
+                "Ten o pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Northern Territory",
+                "Handle o middy",
+                "Schooner",
+                "Pint"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Vendita al dettaglio e prezzi dei locali sono due cose diverse",
+          "body": [
+            "Il prezzo al pub comprende il locale, il personale e il servizio, non solo il liquido. Confronta cose omogenee e non spacciare il prezzo del bottle shop per quello di un drink servito. Le unità alcoliche standard rendono il confronto onesto: secondo Healthy WA un'unità standard equivale a 10 grammi di alcol, la quantità contenuta in 285 ml di birra a gradazione piena o in 100 ml di vino, quindi una birra da 500 ml vale circa 1,75 unità e una bottiglia di vino da 750 ml circa 7,5.",
+            "Per unità standard, la birra al pub costa circa da $4 a $9, una slab dal bottle shop circa da $1.60 a $2.20 e una bottiglia di vino di fascia media circa da $1.60 a $4. La birra mid-strength, che si trova alla spina quasi ovunque, ha circa un quarto di alcol in meno a un prezzo quasi uguale."
+          ],
+          "tips": [
+            "285 ml a gradazione piena: una unità standard",
+            "Birra in slab: circa $2 a unità standard",
+            "La mid-strength costa più o meno uguale"
           ]
         },
         {
-          "heading": "Tieni d’occhio la spesa quotidiana che non si nota",
+          "heading": "Happy hour e i modi più economici per bere",
           "body": [
-            "Due caffè e due drink al locale ogni giorno, in una settimana, diventano una bella cifra. Scegli le soste che contano davvero invece di comprare per abitudine.",
-            "Tieni l’<a data-guide=\"camping-water-planning\">acqua da bere</a> a portata di mano e riempi le borracce solo ai rubinetti di acqua potabile. Con il caldo, bere e stare all’ombra fanno parte del piano di sicurezza, non del budget per lo svago."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Il caffè è una voce di tutti i giorni",
-          "body": [
-            "In Australia la cultura del caffè è forte e anche nelle cittadine di provincia il livello è davvero alto: proprio per questo diventa una voce di spesa. Due flat white al giorno per due persone si sommano senza che ti sembri mai di aver deciso qualcosa.",
-            "Con una moka o un’AeroPress nel van il caffè del mattino ti costa una frazione del prezzo della caffetteria, e fermarti a prenderlo fuori diventa una scelta, non un automatismo.",
-            "Sui lunghi trasferimenti il caffè dei roadhouse (stazioni di servizio isolate con bar e spesso camere) è, a essere generosi, altalenante. Sulle strade dell’outback fartelo da te di solito costa meno ed è molto più buono."
+            "Molti pub fanno l'happy hour nei pomeriggi dei giorni feriali, spesso dalle 16 alle 18, con schooner a circa da $6 a $9. Alcuni aggiungono jug a prezzo ridotto, una birra con il pasto al banco o una serata bistecca e schooner. Considerali un extra, non una base per il budget: cambiano spesso e molti valgono solo nei giorni feriali.",
+            "I club come gli RSL, i bowls club e i surf club di solito servono a meno dei pub, e i visitatori sono benvenuti: ti registri all'ingresso con un documento con foto e diventi socio temporaneo per la giornata.",
+            "La bevuta più economica in assoluto è una slab o un cask dal bottle shop, raffreddato nel frigo del van o nell'esky e bevuto in campeggio. Prima controlla le regole del campeggio, perché alcuni siti dei parchi nazionali e dei council, e molte spiagge e parchi in città, vietano l'alcol o lo limitano in certi orari."
           ],
           "tips": [
-            "Due tazze al giorno si fanno sentire",
-            "Il caffè del mattino fattelo da te",
-            "Il caffè dei roadhouse è una lotteria"
+            "Happy hour nei giorni feriali: circa dalle 16 alle 18",
+            "I club accolgono i visitatori con documento",
+            "Controlla le regole sull'alcol al campeggio"
           ]
         },
         {
           "heading": "Comprare alcolici in Australia",
           "body": [
-            "Gli alcolici confezionati si vendono soprattutto nei bottle shop con licenza, spesso accanto a un supermercato ma gestiti a parte, anche se Aldi e alcuni alimentari indipendenti li vendono all’interno del negozio. Gli orari di vendita sono regolati per legge e cambiano da stato a stato.",
-            "In molte comunità e regioni l’alcol è soggetto a restrizioni, soprattutto nel Northern Territory, in parte del <a data-guide=\"camping-rules-queensland\">Queensland</a>, nel Western Australia e nel South Australia. Portare alcolici in un’area con restrizioni comporta sanzioni pesanti.",
-            "Informati prima di entrare con alcolici in una zona remota. Le restrizioni sono imposte per legge, valgono per i turisti come per i residenti, e la legge non ammette ignoranza."
+            "Gli alcolici confezionati si vendono soprattutto nei bottle shop con licenza, spesso accanto a un supermercato ma gestiti a parte, anche se Aldi e alcuni negozi indipendenti li vendono dentro il negozio. Gli orari di vendita sono regolati e cambiano da stato a stato. Per comprare alcolici devi avere 18 anni, e il personale chiede un documento con foto a chiunque sembri avere meno di 25 anni: va bene il passaporto o la patente.",
+            "In molte comunità e regioni valgono restrizioni sugli alcolici, in particolare nel Northern Territory, in alcune zone del <a data-guide=\"camping-rules-queensland\">Queensland</a>, della Western Australia e della South Australia. Portare alcolici in un'area soggetta a restrizioni comporta sanzioni pesanti.",
+            "Informati prima di viaggiare con alcolici verso le zone remote. Le restrizioni sono applicate per legge, valgono per i visitatori come per i residenti, e non conoscerle non ti salva."
           ],
           "tips": [
             "Soprattutto bottle shop, qualche supermercato",
-            "Sanzioni pesanti nelle zone con restrizioni",
-            "Informati prima di entrare nelle zone remote"
+            "Porta un documento con foto",
+            "Informati prima di entrare nelle regioni remote"
           ]
         },
         {
-          "heading": "Bere e guidare nella stessa giornata",
+          "heading": "Bere e giornata di guida",
           "body": [
-            "Il limite generale è 0,05 per chi ha la patente definitiva, zero per chi guida con il foglio rosa e per i neopatentati con patente provvisoria, e zero o 0,02 per molti autisti professionisti a seconda dello stato (0,02 nel New South Wales). I controlli a campione con l’etilometro sono frequenti, anche sulle strade di campagna e di giorno.",
-            "In un viaggio on the road l’unico modo sicuro è separare del tutto bere e guidare: dormi dove bevi, fai guidare chi resta sobrio, oppure bevi solo quando il veicolo è parcheggiato per la notte.",
-            "La trappola è guidare la mattina dopo. L’organismo impiega almeno un’ora per smaltire ogni drink standard, spesso di più, e né il caffè né una doccia accelerano il processo, quindi dopo una serata pesante puoi essere ancora oltre il limite a mattina inoltrata."
+            "Il limite generale è 0,05 per chi ha la patente piena, zero per i neopatentati (learner e provisional) e zero o 0,02 per molti conducenti professionisti a seconda dello stato (0,02 in NSW). I controlli con l'etilometro a campione sono frequenti, anche sulle strade di campagna e di giorno.",
+            "In un viaggio on the road l'unico approccio sicuro è tenere bere e guidare completamente separati: resta dove stai bevendo, scegli un guidatore designato oppure bevi quando il veicolo è già parcheggiato per la notte.",
+            "Il giorno dopo molti ci cascano. Il corpo impiega almeno un'ora per smaltire ogni unità standard, spesso di più, e né il caffè né la doccia accelerano il processo: una serata pesante può lasciarti sopra il limite fino a tarda mattinata."
           ],
           "tips": [
-            "0,05 in generale, zero per neopatentati e foglio rosa",
-            "Controlli frequenti, anche di giorno",
-            "La trappola è la mattina dopo"
+            "0,05 il limite generale, zero per learner e provisional",
+            "I controlli a campione sono frequenti, anche di giorno",
+            "La trappola è guidare la mattina dopo"
           ]
         },
         {
-          "heading": "La bevanda da non sbagliare: l’acqua",
+          "heading": "Il vino al bottle shop e al bar",
           "body": [
-            "In quasi tutte le città e i paesi australiani l’acqua del rubinetto è sicura e buona, e comprare acqua in bottiglia è praticamente uno spreco. Porta delle borracce e riempile a qualsiasi rubinetto di acqua potabile, in paese, in campeggio o nei servizi pubblici.",
-            "Nelle zone remote e nel bush vale il contrario: l’acqua di pozzo (bore water) può essere molto mineralizzata o non adatta, quella delle cisterne non è trattata e quella di superficie nelle zone agricole può contenere sostanze chimiche. Potabilizza tutta l’acqua che non viene da un acquedotto cittadino segnalato come tale.",
-            "Porta una buona borraccia termica, così hai sempre acqua fresca a portata di mano con il caldo: riempirla non costa niente."
+            "Una bottiglia di vino di fascia media da 750 ml costa circa da $12 a $29 al bottle shop e serve circa cinque calici da 150 ml. Al bicchiere, in un bar o in un ristorante, lo stesso vino di solito costa da $10 a $16 al calice, quindi il vino costa meno quando si divide una bottiglia in campeggio.",
+            "Alcuni ristoranti, soprattutto quelli senza licenza per gli alcolici, ti lasciano portare la tua bottiglia pagando un diritto di tappo (corkage), così il vino del bottle shop diventa il vino della cena. Chiedilo quando prenoti, non al tavolo."
           ],
           "tips": [
-            "In città l’acqua del rubinetto è sicura",
-            "L’acqua di pozzo spesso non è adatta",
-            "Potabilizza l’acqua di cisterna e di superficie"
+            "Bottiglia di fascia media: da $12 a $29",
+            "Circa cinque calici a bottiglia",
+            "Chiedi del BYO quando prenoti"
+          ]
+        },
+        {
+          "heading": "Il caffè è una spesa quotidiana",
+          "body": [
+            "Un cappuccino o un flat white normale costa circa da $4 a $8, con i caffè del centro città in cima alla forbice. La cultura del caffè in Australia è forte e lo standard nelle cittadine di provincia è davvero alto, ed è proprio per questo che diventa una voce di budget: due caffè al giorno in due si sommano senza che sembri mai una decisione.",
+            "Una moka o una AeroPress nel van coprono il caffè della mattina a una frazione del prezzo del bar e lasciano la sosta al caffè come una scelta, non un'abitudine automatica. Il caffè dei roadhouse sulle lunghe tratte nell'outback è incostante, quindi prepararlo da soli di solito costa meno e viene meglio.",
+            "L'acqua del rubinetto è sicura e buona in quasi tutte le città e cittadine australiane, quindi porta borracce riutilizzabili invece di comprare acqua. Nel bush tratta l'acqua di pozzo, di serbatoio e di torrente prima di berla. Vai anche in Nuova Zelanda? KiwiCamping spiega <a data-sister=\"beer-wine-coffee-prices-new-zealand\">quanto costano una birra, un vino e un caffè in Nuova Zelanda</a>."
+          ],
+          "tips": [
+            "Cappuccino: da $4 a $8",
+            "Prepara tu il caffè della mattina",
+            "L'acqua del rubinetto in città è sicura"
           ]
         }
       ],
       "faq": [
         [
           "Quanto costa una birra in Australia?",
-          "Una birra alla spina da 500 ml in un pub di Sydney costa circa da 7,15 a 16 $ secondo i prezzi segnalati dagli utenti a ottobre 2026, e una bottiglia da 500 ml al bottle shop circa da 3,50 a 12 $ in tutto il Paese. In un viaggio lungo, comprare al bottle shop invece che al bar è uno dei risparmi più grossi."
+          "In novembre 2026 una schooner (425 ml) di birra comune costa circa da $8 a $13 in un pub di città, e una pinta (570 ml) circa da $12 a $18. Al bottle shop un sei-pack costa circa da $20 a $28 e una slab da 24 circa da $55 a $72, meno della metà del prezzo al pub per ogni birra."
         ],
         [
-          "Quanto costa un caffè in Australia?",
-          "Un cappuccino normale costa circa da 4,50 a 8 $ a Sydney e da 4 a 8 $ in tutto il Paese secondo i prezzi segnalati dagli utenti a ottobre 2026, con le caffetterie del centro nella fascia alta. Due caffè al giorno in due diventano una vera voce di budget in un viaggio lungo."
+          "Quanto costa una pinta in Australia?",
+          "Circa da $12 a $18 per 570 ml di birra comune in un pub di città, con Perth e i pub di campagna in fondo alla forbice e il centro di Melbourne e Sydney in cima. In South Australia la pint è il bicchiere da 425 ml, che costa circa da $8.50 a $12: per averne 570 ml chiedi una imperial pint."
+        ],
+        [
+          "Dove costa meno la birra in Australia?",
+          "Perth e i pub di campagna servono la birra più economica, e i club come gli RSL e i bowls club di solito costano meno dei pub; i visitatori si registrano con un documento con foto. Con l'happy hour dei giorni feriali le schooner scendono a circa da $6 a $9, ma la più economica in assoluto è una slab dal bottle shop, a circa $2 per unità standard."
+        ],
+        [
+          "Quanto costa il caffè in Australia?",
+          "Un cappuccino o un flat white normale costa circa da $4 a $8, con i caffè del centro città spesso in cima alla forbice. Due caffè al giorno in due diventano una vera voce di budget in un viaggio lungo, quindi molti camper preparano da soli il caffè della mattina."
         ]
       ],
       "sources": [
         {
-          "label": "Numbeo: prezzi delle bevande a Sydney"
+          "label": "Numbeo, prezzi delle bevande in Australia, aggiornati a novembre 2026"
         },
         {
-          "label": "Numbeo: fasce di prezzo al dettaglio in Australia"
+          "label": "Australian Taxation Office: aliquote dell'accisa sugli alcolici"
+        },
+        {
+          "label": "Healthy WA: che cos'è un'unità alcolica standard"
         },
         {
           "label": "NSW: indicazioni su alcol e guida"
         },
         {
-          "label": "NHMRC: quanto ci mette l’organismo a smaltire l’alcol"
+          "label": "NHMRC: quanto tempo serve per smaltire l'alcol"
         },
         {
           "label": "Northern Territory: acquistare e consumare alcolici"
         },
         {
-          "label": "Healthy WA: che cos’è un drink standard"
+          "label": "NSW Government: regole dei club per i visitatori"
         }
       ],
       "priceTable": {
-        "note": "Fasce di prezzo segnalate dagli utenti per l’Australia e per Sydney, aggiornate a ottobre 2026. Variano in base alla dimensione della porzione, al locale, alle promozioni e alla zona.",
+        "note": "Fasce di prezzo di pub e bottle shop in città per la birra australiana comune, a novembre 2026. Birra artigianale, birra d'importazione, locali sul lungomare e zone remote costano di più; happy hour e promozioni costano meno.",
         "rows": [
           {
-            "label": "Cappuccino (Sydney)",
+            "label": "Schooner al pub",
+            "unit": "425 ml"
+          },
+          {
+            "label": "Pinta al pub",
+            "unit": "570 ml"
+          },
+          {
+            "label": "Sei-pack al bottle shop",
+            "unit": "6 x 375 ml"
+          },
+          {
+            "label": "Slab al bottle shop",
+            "unit": "24 x 375 ml"
+          },
+          {
+            "label": "Vino di fascia media",
+            "unit": "bottiglia da 750 ml, bottle shop"
+          },
+          {
+            "label": "Cappuccino",
             "unit": "una tazza"
-          },
-          {
-            "label": "Birra alla spina al pub (Sydney)",
-            "unit": "un bicchiere"
-          },
-          {
-            "label": "Vino di fascia media (media nazionale)",
-            "unit": "750 ml, in negozio"
-          },
-          {
-            "label": "Birra australiana equivalente (media nazionale)",
-            "unit": "500 ml, in negozio"
-          },
-          {
-            "label": "Bibita (Sydney)",
-            "unit": "330 ml, al locale"
           }
         ]
       }
@@ -29487,6 +29651,608 @@
         },
         {
           "label": "Bureau of Meteorology: clima per regione"
+        }
+      ],
+      "priceTable": null
+    },
+    "cigarette-prices-australia": {
+      "title": "Quanto costano le sigarette in Australia nel 2027? Pacchetti da $40 a $60",
+      "description": "In Australia un pacchetto legale da 20 costa circa da $40 a $60 e una busta da 30 g di tabacco da rollare circa da $90 a $120. Prezzi per stato, perché il costo è tutto tasse, e le vape.",
+      "region": "Australia",
+      "imageAlt": "Un armadietto del tabacco chiuso in un negozio australiano, con pacchetti di sigarette e buste neutri sopra i cartellini dei prezzi",
+      "intro": "In novembre 2026 in Australia un pacchetto legale da 20 sigarette costa circa da $40 a $60 e una busta da 30 g di tabacco da rollare circa da $90 a $120. I pacchetti da 25 e le buste grandi non esistono più: dal 1 luglio 2025 le sigarette si vendono solo in pacchetti da 20 e il tabacco da rollare solo in buste da 30 g. Quasi tutto il prezzo è tassa federale, quindi lo stesso pacchetto costa più o meno uguale a Sydney e a Perth, con le località remote e il Northern Territory un po' più care. I prezzi salgono due volte l'anno, quindi se viaggi nel 2027 mettiti a budget più delle cifre di questa pagina.",
+      "sections": [
+        {
+          "heading": "Quanto costa un pacchetto da 20",
+          "body": [
+            "Le marche economiche stanno in fondo alla forbice, intorno a $38-$45 per 20. Le marche più diffuse, quelle che vedi dietro il bancone di ogni servo, costano più vicino a $50-$60. Negozi e catene fanno sconti e aumenti in momenti diversi, quindi la stessa marca può differire di qualche dollaro tra due negozi della stessa strada.",
+            "Se ti ricordi un pacchetto da 25 degli anni scorsi o da amici a casa, quel formato in Australia non esiste più. La legge sul pacchetto neutro, entrata pienamente in vigore il 1 luglio 2025, ha fissato ogni pacchetto di sigarette a 20, con 10 pacchetti per stecca. Il pacchetto da 20 è l'unico formato di cui calcolare il prezzo."
+          ],
+          "tips": [
+            "Marche economiche: circa $38-$45",
+            "Marche diffuse: circa $50-$60",
+            "Pacchetti da 25 non più in vendita"
+          ]
+        },
+        {
+          "heading": "Prezzi per stato e territorio",
+          "body": [
+            "Gran parte del prezzo è accisa federale, uguale in ogni stato, quindi lo stato in cui compri cambia il prezzo solo di poco. Le fasce qui sotto indicano quanto chiedono i negozi per i prodotti legali. Il <a data-guide=\"camping-rules-northern-territory\">Northern Territory</a> e le comunità remote di solito costano di più, perché trasporto e vendite ridotte si sommano al prezzo a scaffale, e il prezzo dei roadhouse nell'outback può essere il più alto di tutti.",
+            "Non esiste un listino ufficiale stato per stato, quindi considera le fasce come l'ordine di grandezza da aspettarti, non come un preventivo. Una rapida occhiata allo scaffale prima di comprare dice più di qualsiasi tabella."
+          ],
+          "tips": [
+            "Stessa tassa in ogni stato",
+            "NT e zone remote: un po' più care",
+            "Controlla il prezzo a scaffale"
+          ],
+          "table": {
+            "caption": "Prezzi tipici a scaffale del tabacco legale a novembre 2026. Un'indicazione di cosa aspettarti, non un preventivo: ogni negozio fissa i suoi prezzi.",
+            "head": [
+              "Stato o territorio",
+              "Pacchetto da 20",
+              "Busta da 30 g"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "$40 a $60",
+                "$90 a $120"
+              ],
+              [
+                "Victoria",
+                "$40 a $60",
+                "$90 a $120"
+              ],
+              [
+                "Queensland",
+                "$40 a $60",
+                "$90 a $120"
+              ],
+              [
+                "South Australia",
+                "$40 a $60",
+                "$90 a $120"
+              ],
+              [
+                "Western Australia",
+                "$40 a $60",
+                "$90 a $120"
+              ],
+              [
+                "Tasmania",
+                "$40 a $60",
+                "$90 a $120"
+              ],
+              [
+                "Australian Capital Territory",
+                "$40 a $60",
+                "$90 a $120"
+              ],
+              [
+                "Northern Territory e zone remote",
+                "$45 a $65 o più",
+                "$95 a $130 o più"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Buste di tabacco da rollare",
+          "body": [
+            "Il tabacco da rollare si vende solo in buste da 30 g, e da una busta si ricavano circa 50 sigarette sottili. Le buste economiche costano circa $90 e quelle premium circa $115 o poco più, quindi rollare non costa molto meno per sigaretta di un pacchetto da 20 una volta aggiunti cartine e <a data-guide=\"how-to-use-aussiecamps-filters\">filtri</a>.",
+            "L'accisa sul tabacco da rollare si calcola a peso, a $2,587.90 al chilo dal 1 settembre 2026. Sono circa $78 di tasse in ogni busta da 30 g prima della GST, ed ecco perché il prezzo a scaffale è così vicino a quello di un pacchetto."
+          ],
+          "tips": [
+            "30 g è l'unico formato",
+            "Circa da $90 a $120",
+            "Costa poco meno per sigaretta"
+          ]
+        },
+        {
+          "heading": "Perché costano così tanto",
+          "body": [
+            "Il prezzo è soprattutto tassa. L'accisa federale è $1.55274 per ogni sigaretta dal 1 settembre 2026, in salita dai $1.52829 di marzo, cioè circa $31 su ogni pacchetto da 20. In cassa si aggiunge poi la GST del 10%. In tutto fa circa il 70% di un pacchetto tipico da $50, e di più per un pacchetto economico.",
+            "L'aliquota cambia due volte l'anno, a marzo e il 1 settembre, perché segue i salari. In più, ogni settembre dal 2023 al 2026 è salita di un ulteriore 5%, quindi il costo cresce in modo costante, senza un unico salto. Un pacchetto che al primo viaggio sembra caro l'anno dopo costerà ancora di più."
+          ],
+          "tips": [
+            "Circa $31 di accisa a pacchetto",
+            "Più il 10% di GST",
+            "Sale ogni marzo e settembre"
+          ]
+        },
+        {
+          "heading": "L'aumento annuale e il tuo viaggio",
+          "body": [
+            "Poiché l'aliquota cambia ogni marzo e settembre, una cifra dell'anno scorso è già vecchia quando atterri. In linea di massima, calcola che nel 2027 un pacchetto costerà qualche dollaro più delle fasce 2026 di questa pagina, e controlla il prezzo a scaffale nella prima cittadina prima di pianificare un mese di spese.",
+            "Per un forte fumatore in un viaggio lungo la spesa cresce in fretta. Dieci pacchetti al mese sono circa da $400 a $600. Mettili nel budget del viaggio come voce a parte, come fai con il carburante, così non erodono i soldi per mangiare."
+          ],
+          "tips": [
+            "Aspettati qualche dollaro in più",
+            "Dieci pacchetti: da $400 a $600",
+            "Dagli una voce di budget a parte"
+          ]
+        },
+        {
+          "heading": "Prezzi delle vape",
+          "body": [
+            "Dal 1 luglio 2024 le vape si vendono solo in farmacia, con o senza nicotina. Nella maggior parte degli stati gli adulti possono comprare dal farmacista, dopo una breve chiacchierata, vape con nicotina a bassa concentrazione senza ricetta, mentre i prodotti più forti richiedono la ricetta. Le farmacie possono fornire solo i prodotti presenti nell'elenco delle vape notificate della TGA.",
+            "I prezzi in farmacia li fissano il produttore e il negozio, non il governo. Aspettati circa da $30 a $60 per un dispositivo base o una confezione di pod, e di più per uno starter kit. Le vape usa e getta a basso prezzo che alcuni negozi vendono sottobanco non sono prodotti legali."
+          ],
+          "tips": [
+            "Solo in farmacia da luglio 2024",
+            "Circa da $30 a $60 a dispositivo",
+            "Chiedi prima al farmacista"
+          ]
+        },
+        {
+          "heading": "Tabacco e vape illegali",
+          "body": [
+            "Alcuni negozi vendono sigarette e vape a una frazione del prezzo legale, spesso in pacchetti senza marchio o stranieri e a volte chiamati chop chop. Sono illegali, e comprarli può significare multe e sequestro della merce, con sanzioni che cambiano da stato a stato. Inoltre non riportano le avvertenze sanitarie australiane.",
+            "Se un prezzo sembra troppo bello per essere vero rispetto alle cifre qui sopra, quasi certamente lo è: per le vape rivolgiti a una farmacia, per il tabacco a un <a data-guide=\"where-to-buy-cigarettes-vapes-australia\">tabaccaio</a> con licenza o a un supermercato."
+          ],
+          "tips": [
+            "I pacchetti senza marchio sono illegali",
+            "Anche chi compra rischia la multa",
+            "Prezzo basso di solito vuol dire illegale"
+          ]
+        },
+        {
+          "heading": "Come spendere meno, nel rispetto della legge",
+          "body": [
+            "La <a data-guide=\"smoking-vaping-rules-australia\">franchigia duty free</a> all'arrivo è di sole 25 sigarette o 25 grammi di tabacco, più un pacchetto già aperto, per i viaggiatori dai 18 anni in su. Portarne di più significa doverlo dichiarare, e secondo l'Australian Border Force o rinunci all'eccedenza o paghi il dazio sull'intera quantità. Il tabacco non dichiarato può essere sequestrato e multato, quindi portarsi una scorta da casa non è un modo per risparmiare in un viaggio lungo.",
+            "Comprare a stecche non costa molto meno per sigaretta, perché la tassa è uguale su ogni sigaretta. I risparmi veri sono piccoli: scegli una marca economica, compra dove il negozio fa sconti ed evita, se puoi, i prezzi dei roadhouse e delle zone remote. Le regole per i viaggiatori, tra cui duty free, vape e luoghi dove non si può fumare, sono nella guida alle regole su fumo e vape. Se fumi vicino al campo, spegni bene ogni mozzicone e portalo via, e rispetta i divieti di <a data-guide=\"campfires-camping-australia\">total fire ban</a>: mozziconi e bush non vanno d'accordo.",
+            "Vai anche in Nuova Zelanda? KiwiCamping spiega <a data-sister=\"cigarette-prices-new-zealand\">quanto costano le sigarette in Nuova Zelanda</a>."
+          ],
+          "tips": [
+            "Porta solo 25 sigarette",
+            "Le stecche fanno risparmiare poco",
+            "Spegni i mozziconi e portali via"
+          ]
+        },
+        {
+          "heading": "Fai il budget del viaggio in AussieCamps",
+          "body": [
+            "AussieCamps ti permette di <a data-guide=\"how-to-use-aussiecamps-filters\">filtrare</a> i posti per Costo, Gratuito o A pagamento, così le notti più economiche lasciano spazio al resto del budget. Aggiungi ogni tappa a un viaggio con date, note e una lista di cose da fare, così rifornirti nelle città più grandi prima di una tratta remota diventa parte del piano.",
+            "Le schede dei posti e i filtri funzionano <a data-guide=\"camping-without-phone-signal\">senza segnale</a>, e il percorso in auto mostra distanza e tempo di ogni tratta. AussieCamps funziona su iPhone."
+          ],
+          "tips": [
+            "Filtra per Costo",
+            "Pianifica i rifornimenti prima delle tratte remote",
+            "Solo iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Quanto costa un pacchetto di sigarette in Australia?",
+          "In novembre 2026 un pacchetto legale da 20 costa di solito circa da $40 a $60, con le marche economiche in fondo e quelle più diffuse in cima. I pacchetti da 25 non si vendono più: dal 1 luglio 2025 ogni pacchetto di sigarette deve contenerne esattamente 20. I prezzi sono un po' più bassi sulla costa orientale e più alti nel Northern Territory e nelle località remote."
+        ],
+        [
+          "Perché le sigarette costano così tanto in Australia?",
+          "Per la tassa federale. L'accisa è $1.55274 per ogni sigaretta dal 1 settembre 2026, cioè circa $31 su un pacchetto da 20 prima di aggiungere il 10% di GST. Per la maggior parte delle marche, circa il 70% o più del prezzo a scaffale va al governo."
+        ],
+        [
+          "Quante sigarette posso portare in Australia?",
+          "La franchigia duty free per i viaggiatori dai 18 anni in su è di 25 sigarette o 25 grammi di tabacco, più un pacchetto già aperto. Dichiara tutto ciò che supera questo limite. Secondo l'Australian Border Force puoi portare la quantità consentita e rinunciare al resto, oppure tenere tutto e pagare il dazio sull'intera quantità."
+        ],
+        [
+          "Posso comprare una vape in Australia da turista?",
+          "Solo in farmacia. Dal 1 luglio 2024 le vape non si possono vendere negli altri negozi, e i minimarket che le vendono violano la legge. Nella maggior parte degli stati gli adulti possono comprare in farmacia vape con nicotina a bassa concentrazione senza ricetta, dopo una breve chiacchierata col farmacista."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Australian Taxation Office: aliquote dell'accisa sul tabacco"
+        },
+        {
+          "label": "Australian Border Force: franchigie duty free"
+        },
+        {
+          "label": "Department of Health: le novità sui prodotti del tabacco in Australia"
+        },
+        {
+          "label": "Department of Health: le leggi sulle vape"
+        },
+        {
+          "label": "Therapeutic Goods Administration: prodotti da svapo con nicotina"
+        },
+        {
+          "label": "Tobacco in Australia: il prezzo dei prodotti del tabacco"
+        }
+      ],
+      "priceTable": null
+    },
+    "smoking-vaping-rules-australia": {
+      "title": "Fumo e vape in Australia (2027): le regole per chi viaggia",
+      "description": "Puoi portare 25 sigarette o 25 g di tabacco duty free, le vape si vendono solo in farmacia, serve avere 18 anni e un mozzicone acceso nel bush costa multe salate. Regole per i viaggiatori 2027.",
+      "region": "Australia",
+      "imageAlt": "Un cartello con la scritta This jetty is smoke-free and vape-free sulla ringhiera del molo di Outer Harbor ad Adelaide, South Australia",
+      "intro": "I visitatori dai 18 anni in su possono portare in Australia 25 sigarette o 25 g di tabacco duty free, più un pacchetto già aperto, e devono dichiarare qualsiasi quantità superiore. Le vape ora si vendono solo in farmacia, e l'esenzione per i viaggiatori consente 2 vape, 20 pod o cartucce e 200 mL di liquido per la tua cura personale. Per comprare l'una o l'altra devi avere 18 anni, e fumare e svapare è vietato in molti luoghi all'aperto, dai tavolini dei caffè alle spiagge sorvegliate. Per chi fa campeggio il tema più importante è il fuoco: un mozzicone acceso gettato dall'auto o lasciato cadere nell'erba secca può costare migliaia di dollari. Sono le regole in vigore a novembre 2026.",
+      "sections": [
+        {
+          "heading": "Cosa puoi portare duty free",
+          "body": [
+            "Gli adulti dai 18 anni in su possono portare tabacco in Australia senza permesso. La franchigia duty free è di 25 sigarette o 25 g di prodotti del tabacco, più un pacchetto già aperto. Poiché i pacchetti australiani e la maggior parte di quelli esteri ne contengono 20, in pratica significa un pacchetto sigillato più quello che stai fumando. Sotto i 18 anni non c'è alcuna franchigia per il tabacco.",
+            "Se superi il limite, l'Australian Border Force precisa che dazio e tasse si applicano a tutta la merce di quel tipo, non solo alla parte in eccesso. Non dichiarare l'eccedenza può comportare sanzioni, un procedimento penale o l'annullamento del visto, a seconda della quantità che porti. Se ne hai di più, dichiaralo sull'Incoming Passenger Card, mostra la prova d'acquisto e paga il dazio, oppure consegnalo alla frontiera. I prezzi dei pacchetti locali sono nella guida ai <a data-guide=\"cigarette-prices-australia\">prezzi delle sigarette</a>."
+          ],
+          "tips": [
+            "25 sigarette o 25 g",
+            "Più un pacchetto già aperto",
+            "Dichiara tutto ciò che supera il limite"
+          ]
+        },
+        {
+          "heading": "Le vape per chi viaggia",
+          "body": [
+            "Dal 2024 in Australia le vape sono considerate prodotti terapeutici. I viaggiatori possono portarle solo con l'esenzione per viaggiatori: le vape devono servire alla tua cura personale, o a quella di una persona di cui ti prendi cura che viaggia con te sullo stesso volo o sulla stessa nave. I limiti sono 2 vape in totale, 20 accessori come pod, cartucce o capsule e 200 mL di liquido per vape.",
+            "Le vape usa e getta rientrano nelle 2. Non è consentito spedirsi le vape per posta né farsele mandare da un amico, e tutto ciò che supera il limite può essere sequestrato. Dichiara le tue vape e tienile nel bagaglio a mano, dove gli agenti possano vederle. Le regole per portarle in aereo le stabilisce la tua compagnia aerea, quindi informati prima di volare."
+          ],
+          "tips": [
+            "2 vape, 20 pod, 200 mL",
+            "Solo per uso personale",
+            "Vietato spedire vape in Australia"
+          ]
+        },
+        {
+          "heading": "Comprare le vape e l'età minima",
+          "body": [
+            "In Australia le vape si vendono solo in farmacia. Da ottobre 2024 i farmacisti possono fornire vape con nicotina a 20 mg/mL o meno alle persone dai 18 anni in su senza ricetta, mentre sotto i 18 anni serve la ricetta. <a data-guide=\"where-to-buy-cigarettes-vapes-australia\">Tabaccherie</a>, vape shop, servo e minimarket non possono vendere vape in nessun caso, qualunque sia il contenuto di nicotina.",
+            "L'età minima per comprare tabacco è 18 anni in ogni stato e territorio, e i negozi possono chiedere un documento con foto. Ai visitatori chiedono lo stesso che ai locali, quindi la cosa più sicura è avere con te il passaporto o una <a data-guide=\"overseas-driver-licence-australia-state-guide\">patente straniera</a>. Il farmacista può anche informarti su eventuali regole statali aggiuntive prima dell'acquisto."
+          ],
+          "tips": [
+            "Vape: solo in farmacia",
+            "18 anni per comprare tutto",
+            "Porta un documento con foto"
+          ]
+        },
+        {
+          "heading": "Dove non puoi fumare né svapare",
+          "body": [
+            "Le leggi sul divieto di fumo le stabilisce ogni stato e territorio, e nei luoghi dove non si può fumare svapare è equiparato al fumo. La tabella elenca i luoghi che i camperisti incontrano più spesso. Molti council aggiungono regole proprie per spiagge, parchi e centri cittadini locali, quindi cerca i cartelli.",
+            "Parchi nazionali, spiagge e campeggi hanno regole proprie. Il Queensland vieta di fumare entro 10 m dalle piazzole e dalle strutture dei campeggi nei parchi nazionali, diversi stati lo vietano tra le bandiere sulle spiagge sorvegliate, e molti <a data-guide=\"caravan-park-vs-holiday-park\">caravan park</a> lo vietano nelle cabin, nei blocchi servizi e nelle cucine comuni. Quando c'è un divieto di accendere fuochi, i ranger trattano una sigaretta accesa all'aperto come qualsiasi altra fiamma.",
+            "Le multe sono espresse in penalty unit o in importi fissi che cambiano ogni anno, quindi la tabella dà un'indicazione, non una cifra esatta."
+          ],
+          "tips": [
+            "Vale anche per le vape",
+            "Cerca i cartelli locali",
+            "Le multe cambiano ogni anno"
+          ],
+          "table": {
+            "caption": "Luoghi all'aperto dove non si può fumare, per stato e territorio, dalle pagine sanitarie statali consultate a novembre 2026. Controlla la pagina statale aggiornata prima di fidarti di una cifra.",
+            "head": [
+              "Stato",
+              "Luoghi all'aperto senza fumo da conoscere",
+              "Multa tipica sul posto"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "Ristorazione commerciale all'aperto, entro 4 m dagli ingressi degli edifici pubblici, dalle fermate e dalle banchine del trasporto pubblico; molti council aggiungono spiagge e parchi",
+                "$300"
+              ],
+              [
+                "Victoria",
+                "Ristorazione all'aperto, entro 10 m da parchi giochi e skate park, agli eventi sportivi per minori di 18 anni e alle fiere del cibo",
+                "Circa una o due penalty unit, qualche centinaio di dollari"
+              ],
+              [
+                "Queensland",
+                "Tra le bandiere sulle spiagge sorvegliate, entro 10 m dalle piazzole e dalle strutture dei campeggi nei parchi nazionali, 5 m dalle fermate del trasporto pubblico e 10 m dai parchi giochi",
+                "Due penalty unit"
+              ],
+              [
+                "South Australia",
+                "Ristorazione all'aperto, parchi giochi e pensiline del trasporto pubblico, più nuove zone all'aperto da marzo 2024",
+                "$105"
+              ],
+              [
+                "Western Australia",
+                "Aree all'aperto per mangiare, entro 10 m dalle attrezzature dei parchi giochi e tra le bandiere sulle spiagge sorvegliate",
+                "$300 per la ristorazione all'aperto"
+              ],
+              [
+                "Tasmania",
+                "Ristorazione all'aperto, entro 3 m dagli ingressi, entro 10 m dai parchi giochi, spiagge sorvegliate ed eventi all'aperto",
+                "Circa $350-$400"
+              ],
+              [
+                "Northern Territory",
+                "Ristorazione all'aperto senza licenza, eventi pubblici e dintorni, aree giochi per bambini",
+                "Fissata in penalty unit"
+              ],
+              [
+                "Australian Capital Territory",
+                "Aree all'aperto per mangiare e bere, ed entro 10 m dalle attrezzature per il gioco",
+                "Fissata in penalty unit"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Fumare in auto con i bambini",
+          "body": [
+            "Ogni stato e territorio vieta di fumare in un'auto in cui c'è un bambino, anche con i finestrini abbassati o a veicolo fermo. L'età del bambino che conta è sotto i 16 anni nel <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a>, in Queensland, South Australia, Northern Territory e ACT, sotto i 17 in Western Australia e sotto i 18 in Victoria e Tasmania. Il divieto vale anche per le vape.",
+            "In un'auto a noleggio o in un campervan la regola è la stessa, e la società di noleggio può anche addebitarti un costo di pulizia per l'odore di fumo. Se fumi, allontanati dal veicolo e fai scendere prima i passeggeri."
+          ],
+          "tips": [
+            "Illegale in ogni stato",
+            "Il finestrino abbassato non è una scusa",
+            "Le auto a noleggio addebitano la pulizia"
+          ]
+        },
+        {
+          "heading": "Divieti di fuochi, mozziconi e multe",
+          "body": [
+            "Nei giorni di <a data-guide=\"campfires-camping-australia\">total fire ban</a> tutto ciò che può innescare un incendio all'aperto è un rischio, e gettare una sigaretta accesa è un reato in ogni stato. Nel New South Wales un mozzicone acceso può costare una multa sul posto da circa $660, che raddoppia a circa $1,320 nei giorni di total fire ban. In tribunale il massimo è $5,500, o $11,000 nei giorni di total fire ban. Ai conducenti si tolgono anche punti dalla patente: 5 normalmente e 10 nei giorni di total fire ban.",
+            "Gettare un mozzicone dall'auto è considerato abbandono pericoloso di rifiuti in Victoria e <a data-guide=\"camping-rules-queensland\">Queensland</a>, con multe di diverse centinaia di dollari sul posto e molte di più in tribunale. Anche un mozzicone a terra è un rifiuto. Nel bush può far partire un incendio che arriva fino a un campeggio o a una città.",
+            "Porta con te un portamozziconi tascabile e non spegnere mai una sigaretta sull'erba secca o sulle foglie. Alcuni stati permettono di segnalare chi getta mozziconi accesi: nel <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> puoi chiamare la Bush Fire Information Line allo 1800 679 737."
+          ],
+          "tips": [
+            "Portamozziconi in auto",
+            "Mai sull'erba secca",
+            "Segnala i mozziconi accesi dalle auto"
+          ]
+        },
+        {
+          "heading": "Le multe in sintesi e un piano per chi fa campeggio",
+          "body": [
+            "Mettendo tutto insieme: il tabacco oltre il limite costa il dazio su tutta la quantità o va perso, fumare in un luogo dove è vietato costa da circa $100 a qualche centinaio di dollari, un mozzicone acceso gettato da un veicolo costa centinaia di dollari sul posto e migliaia in tribunale.",
+            "Per un viaggio in campeggio scegli un sito con spazio lontano da tende ed erba secca, controlla ogni mattina il livello di pericolo incendi e tieni chiuso il portamozziconi quando hai finito. Le pagine delle agenzie dei parchi e i cartelli nel campeggio indicano dove non si può fumare. Vai anche in Nuova Zelanda? KiwiCamping spiega <a data-sister=\"smoking-vaping-rules-new-zealand\">le regole su fumo e vape in Nuova Zelanda</a>."
+          ],
+          "tips": [
+            "Controlla ogni giorno il pericolo incendi",
+            "Controlla le aree senza fumo del parco",
+            "Mai spegnere le sigarette sull'erba"
+          ]
+        },
+        {
+          "heading": "Organizzati con le regole in AussieCamps",
+          "body": [
+            "AussieCamps mostra i campeggi pubblicati dalle agenzie dei parchi, con il filtro \"Popular features\" per bagni, acqua potabile, docce e <a data-guide=\"campfires-camping-australia\">fuochi da campo</a>. Usa il filtro \"Cost\" per confrontare i siti gratuiti e a pagamento, e aggiungi le tappe a un viaggio con date, note, meteo e una \"To-do list\" per ricordarti del portamozziconi e del documento.",
+            "Le schede dei posti, la ricerca e i filtri funzionano <a data-guide=\"camping-without-phone-signal\">senza segnale</a>, perché l'elenco è dentro l'app. Mappa, percorsi e meteo richiedono una connessione, e AussieCamps funziona su iPhone."
+          ],
+          "tips": [
+            "Filtra per fuochi da campo e servizi",
+            "Aggiungi il portamozziconi alla to-do list",
+            "Solo iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Quante sigarette posso portare in Australia?",
+          "I viaggiatori dai 18 anni in su possono portare 25 sigarette o 25 g di prodotti del tabacco, più un pacchetto già aperto, senza pagare dazio. Dato che i pacchetti ne contengono 20, in pratica è un pacchetto sigillato più quello che stai fumando. Se ne porti di più e non lo dichiari, puoi essere obbligato a pagare il dazio su tutto o a rinunciarci, e rischi sanzioni o un procedimento penale. Dichiara alla frontiera tutto ciò che supera il limite."
+        ],
+        [
+          "Posso portare una vape in Australia?",
+          "Solo in piccole quantità e solo per la tua cura personale o per quella di una persona di cui ti prendi cura che viaggia con te. Il limite è 2 vape, 20 accessori come pod o cartucce e 200 mL di liquido per vape. Le vape non si possono farsi spedire per posta e in Australia non si possono comprare in un negozio."
+        ],
+        [
+          "Qual è l'età minima per fumare in Australia?",
+          "Devi avere 18 anni per comprare tabacco o vape in qualsiasi parte dell'Australia, e i negozi possono chiedere un documento con foto. Ai turisti chiedono lo stesso che ai locali, quindi porta il passaporto o una patente."
+        ],
+        [
+          "Posso fumare in un campeggio in Australia?",
+          "Di solito sì nella tua piazzola, ma non dappertutto. Nei parchi nazionali del Queensland fumare e svapare è vietato entro 10 m dalle piazzole e dalle strutture come bagni e tavoli da picnic. In un giorno di total fire ban, o nel bush secco, la risposta più sicura è non fumare affatto all'aperto."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Australian Border Force: franchigie duty free"
+        },
+        {
+          "label": "Office of Drug Control: vape ed esenzione per i viaggiatori"
+        },
+        {
+          "label": "TGA: informazioni sulle vape per pazienti e consumatori"
+        },
+        {
+          "label": "Queensland Government: leggi sul fumo in Queensland"
+        },
+        {
+          "label": "NSW Health: leggi sul divieto di fumo nella ristorazione commerciale all'aperto"
+        },
+        {
+          "label": "Victorian Government: consigli su fumo e vape per i genitori"
+        },
+        {
+          "label": "NSW Rural Fire Service: multe nuove e aumentate"
+        }
+      ],
+      "priceTable": null
+    },
+    "where-to-buy-cigarettes-vapes-australia": {
+      "title": "Dove comprare sigarette e vape in Australia (2027)",
+      "description": "Le sigarette si vendono ai banchi dei supermercati, nei servo e dai tabaccai; le vape solo in farmacia. Dove comprare, documento d'identità e cosa aspettarsi nell'outback.",
+      "region": "Australia",
+      "imageAlt": "Il Nullarbor Roadhouse in South Australia, con un road train e un camper parcheggiati vicino alle pompe di carburante e al negozio",
+      "intro": "Le sigarette si vendono ai banchi dei supermercati, nelle stazioni di servizio, nei minimarket e dai tabaccai, e per comprarle devi avere almeno 18 anni. Per le vape è diverso: dal 1 luglio 2024 possono essere vendute solo in farmacia, e gli adulti possono comprare dal farmacista, senza ricetta, vape con nicotina fino a 20 mg/mL. In campagna la scelta si riduce a un roadhouse o a un emporio, di solito con meno marche e prezzi più alti, quindi fai scorta in una città più grande prima di una tratta remota. I prezzi salgono ogni anno, quindi controlla lo scaffale invece di fidarti di una cifra dell'anno scorso.",
+      "sections": [
+        {
+          "heading": "Dove comprare, in breve",
+          "body": [
+            "Le sigarette si trovano facilmente in qualsiasi cittadina di una certa dimensione, e il tipo di negozio decide assortimento e prezzo. Le vape sono un caso a parte e si comprano solo in farmacia.",
+            "Cosa tengono i negozi cambia da catena a catena e da un anno all'altro, quindi considera la tabella come la regola generale, non come una garanzia per ogni negozio."
+          ],
+          "tips": [
+            "Sigarette: in molti negozi",
+            "Vape: solo in farmacia",
+            "L'assortimento si riduce nell'outback"
+          ],
+          "table": {
+            "caption": "Dove i viaggiatori di solito comprano tabacco e vape in Australia, novembre 2026. Assortimento e prezzi variano da negozio a negozio.",
+            "head": [
+              "Dove",
+              "Cosa vendono",
+              "Note"
+            ],
+            "rows": [
+              [
+                "Supermercati",
+                "Sigarette e tabacco da rollare; niente vape",
+                "Coles, Woolworths e IGA le vendono a un banco di servizio o a un chiosco; Aldi non vende tabacco"
+              ],
+              [
+                "Stazioni di servizio e minimarket",
+                "Sigarette e tabacco da rollare; niente vape",
+                "Aperti fino a tardi e ovunque, ma spesso l'opzione più cara"
+              ],
+              [
+                "Tabaccherie",
+                "L'assortimento più ampio di sigarette e tabacco; niente vape",
+                "Negozi specializzati, i migliori per le marche meno comuni"
+              ],
+              [
+                "Bottle shop e pub",
+                "Sigarette in alcuni",
+                "Non tutti le tengono, quindi chiedi prima"
+              ],
+              [
+                "Farmacie",
+                "Vape con nicotina fino a 20 mg/mL, dopo una chiacchierata con il farmacista",
+                "L'unico posto legale per le vape; gusti limitati; non tutte le farmacie le tengono"
+              ],
+              [
+                "Roadhouse e negozi remoti",
+                "Poche marche di sigarette, a volte tabacco",
+                "Prezzi più alti, orari più corti, niente vape"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Supermercati e bottle shop",
+          "body": [
+            "Coles, Woolworths e IGA vendono sigarette, ma non le vedrai sugli scaffali. I divieti di esposizione fanno sì che i pacchetti siano tenuti in armadietti chiusi, quindi chiedi a un banco di servizio o a un chiosco e indica la marca. Le catene di supermercati stanno riducendo il tabacco, e alcuni dei loro negozi di alcolici hanno smesso di venderlo, quindi l'assortimento varia da negozio a negozio. Aldi non vende affatto tabacco.",
+            "Alcuni bottle shop e bottle shop dei pub vendono sigarette e altri no, quindi chiedi prima di contarci. Il banco di un supermercato è una scelta comoda quando fai una spesa grossa, perché i prezzi di solito sono in linea con il resto della città e sei già lì."
+          ],
+          "tips": [
+            "Chiedi al banco di servizio",
+            "Aldi non vende tabacco",
+            "Chiedi prima ai bottle shop"
+          ]
+        },
+        {
+          "heading": "Stazioni di servizio e minimarket",
+          "body": [
+            "I servo di Ampol, BP, 7-Eleven e degli indipendenti vendono quasi sempre sigarette, di solito a un banco dietro la cassa, e molti sono aperti fino a tardi o tutta la notte. Per questo sono l'opzione più semplice quando arrivi in una città dopo la chiusura dei supermercati.",
+            "Il prezzo di questa comodità è un costo più alto. Un servo è spesso il posto più caro della città per un pacchetto, quindi se compri scorte per qualche settimana, il banco di un supermercato o un tabaccaio di solito conviene di più. La guida ai <a data-guide=\"cigarette-prices-australia\">prezzi delle sigarette</a> riporta le fasce abituali per un pacchetto e una busta."
+          ],
+          "tips": [
+            "Aperti fino a tardi, spesso i più cari",
+            "Va bene per un pacchetto d'emergenza",
+            "Costa meno al supermercato"
+          ]
+        },
+        {
+          "heading": "Tabaccai e negozi illegali",
+          "body": [
+            "I tabaccai sono negozi specializzati con l'assortimento più ampio di sigarette e tabacco da rollare, e possono ordinarti o indicarti marche che i supermercati non tengono. Diversi stati ora richiedono ai negozi una licenza di vendita al dettaglio del tabacco, e nel <a data-guide=\"camping-rules-victoria\">Victoria</a> la norma sulla licenza è applicata dal 1 febbraio 2026. Spesso nel negozio è esposto un numero di licenza o un certificato.",
+            "Diffida dei negozi che vendono sigarette o vape a prezzi bassissimi. In alcuni negozi si vendono tabacco e vape illegali, non tassati, e venderli o comprarli è contro la legge. Possono essere sequestrati e chi li compra può essere multato, con sanzioni che cambiano da stato a stato. Le sigarette legali sono in pacchetti neutri color verde oliva-marrone con grandi avvertenze sanitarie illustrate in inglese, quindi un pacchetto colorato o dall'aspetto straniero, senza avvertenza in inglese, o un prezzo ben sotto la fascia abituale è un campanello d'allarme."
+          ],
+          "tips": [
+            "L'assortimento di marche più ampio",
+            "Pacchetti neutri, avvertenze in inglese",
+            "Molto economico di solito vuol dire illegale"
+          ]
+        },
+        {
+          "heading": "Documento d'identità ed età minima",
+          "body": [
+            "Devi avere almeno 18 anni per comprare sigarette, tabacco da rollare o una vape in qualsiasi parte dell'Australia, e il venditore può rifiutarsi di servirti senza una prova dell'età. Molti negozi chiedono il documento a chiunque sembri avere meno di 25 anni, quindi aspettati la richiesta e non prenderla sul personale.",
+            "Porta con te il passaporto o una patente australiana, oppure una patente del tuo paese se riporta foto e data di nascita. Il personale decide cosa accettare, quindi tieni addosso l'originale e non una fotocopia. La guida alle <a data-guide=\"smoking-vaping-rules-australia\">regole su fumo e vape</a> elenca i luoghi dove non si può fumare."
+          ],
+          "tips": [
+            "Solo dai 18 anni in su",
+            "Spesso lo chiedono se sembri sotto i 25",
+            "Porta un documento originale con foto"
+          ]
+        },
+        {
+          "heading": "Comprare una vape",
+          "body": [
+            "Le vape possono essere vendute solo in farmacia. Tabaccherie, vape shop e minimarket non possono venderle, con o senza nicotina, e le vape monouso usa e getta sono vietate. Un negozio che le vende al banco viola la legge.",
+            "Gli adulti possono comprare dal farmacista, dopo una breve conversazione, una vape con nicotina fino a 20 mg/mL senza ricetta, dove le leggi dello stato o del territorio lo consentono. Per le concentrazioni più alte serve la ricetta. I gusti si limitano a nessun gusto, menta, mentolo e tabacco. Non tutte le farmacie tengono le vape, quindi telefona prima o chiedi in una più grande."
+          ],
+          "tips": [
+            "Solo in farmacia",
+            "Niente usa e getta",
+            "Menta, mentolo, tabacco"
+          ]
+        },
+        {
+          "heading": "Nell'outback e sulle strade remote",
+          "body": [
+            "I roadhouse e gli empori remoti di solito vendono sigarette, ma l'assortimento può ridursi a poche marche e il prezzo è più alto che in città. Il tabacco da rollare può essere limitato, e se il negozio finisce le scorte, il prossimo può essere a centinaia di chilometri. Alcune comunità remote stabiliscono regole proprie su cosa i negozi possono vendere, quindi chiedi prima di contare sul negozio di una comunità e rispetta eventuali cartelli sulle restrizioni.",
+            "Le farmacie scarseggiano lontano dalle città più grandi, quindi se svapi compra prima di partire. La maggior parte dei roadhouse accetta carte, ma i guasti capitano e gli orari sono più corti, spesso con chiusura nel primo pomeriggio, quindi tieni con te un po' di contanti e compra prima che faccia buio. Qualche pacchetto di scorta per una tratta lunga costa meno di un rifornimento al roadhouse."
+          ],
+          "tips": [
+            "Compra prima delle tratte remote",
+            "Se svapi, pianifica intorno alle farmacie",
+            "Porta un po' di contanti"
+          ]
+        },
+        {
+          "heading": "In viaggio e al campeggio",
+          "body": [
+            "Il caldo fa male a tabacco e vape. Non lasciare pacchetti, buste o una vape in un'auto rovente o in un camper chiuso, dove possono seccarsi o rovinarsi, e tieni la vape lontana dal sole diretto. Meglio una borsa all'ombra o uno scomparto della borsa frigo.",
+            "Fuma lontano dal campo e dalle tende, e controlla il livello di pericolo incendi. Durante un <a data-guide=\"campfires-camping-australia\">total fire ban</a> una sigaretta accesa è un rischio reale, e alcuni campeggi, spiagge e parchi nazionali sono senza fumo. Spegni bene ogni mozzicone e portalo via con te, non lasciarlo mai a terra. Vai anche in Nuova Zelanda? KiwiCamping spiega <a data-sister=\"where-to-buy-cigarettes-vapes-new-zealand\">dove comprare sigarette e vape in Nuova Zelanda</a>."
+          ],
+          "tips": [
+            "Tienile lontane dalle auto roventi",
+            "Controlla il pericolo incendi",
+            "Porta via i mozziconi"
+          ]
+        },
+        {
+          "heading": "Pianifica le soste di rifornimento in AussieCamps",
+          "body": [
+            "AussieCamps ti permette di aggiungere ogni tappa a un viaggio con date e note, e il percorso in auto mostra distanza e tempo di ogni tratta. Così è facile vedere l'ultima città più grande prima di un tratto remoto e segnarla come il posto dove rifornirti.",
+            "Le schede dei posti, la ricerca e i filtri funzionano senza segnale, quindi puoi controllare i servizi di un campeggio, come acqua potabile, bagni e <a data-guide=\"campfires-camping-australia\">fuochi da campo</a>, quando sei fuori copertura. AussieCamps funziona su iPhone."
+          ],
+          "tips": [
+            "Vedi la distanza di ogni tratta",
+            "Segna le città dove rifornirti",
+            "Solo iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Dove posso comprare sigarette in Australia?",
+          "Nei supermercati come Coles, Woolworths e IGA, nelle stazioni di servizio e nei minimarket, e dai tabaccai, che hanno l'assortimento più ampio. Aldi non vende tabacco. Nei supermercati le sigarette sono tenute fuori vista e le chiedi al banco di servizio."
+        ],
+        [
+          "Dove posso comprare una vape in Australia?",
+          "Solo in farmacia. Dal 1 luglio 2024 le vape non possono essere vendute da tabaccherie, vape shop o minimarket, e le vape usa e getta sono vietate. Gli adulti possono comprare dal farmacista, senza ricetta e dopo una breve chiacchierata, vape con nicotina fino a 20 mg/mL, ma non tutte le farmacie le tengono."
+        ],
+        [
+          "Serve un documento per comprare sigarette in Australia?",
+          "Devi avere almeno 18 anni e il personale può chiedere una prova dell'età. Porta il passaporto o una patente australiana, perché una fotocopia o una foto sul telefono potrebbe non essere accettata. I negozi di solito lo chiedono a chiunque sembri avere meno di 25 anni."
+        ],
+        [
+          "Posso comprare sigarette nell'outback?",
+          "Di solito sì nei roadhouse e negli empori, ma con poche marche e a prezzi più alti. Alcuni negozi delle comunità remote hanno regole proprie su cosa vendono, e le farmacie scarseggiano, quindi compra ciò che ti serve in una città più grande prima di una tratta remota."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Department of Health: informazioni sullo svapo"
+        },
+        {
+          "label": "Department of Health: le novità sullo svapo in Australia dal 1 luglio"
+        },
+        {
+          "label": "Therapeutic Goods Administration: la riforma della regolamentazione delle vape"
+        },
+        {
+          "label": "Therapeutic Goods Administration: informazioni per i consumatori sui prodotti da svapo con nicotina"
+        },
+        {
+          "label": "Victorian Government: licenze per la vendita di tabacco"
+        },
+        {
+          "label": "Department of Health: le novità sui prodotti del tabacco in Australia"
         }
       ],
       "priceTable": null

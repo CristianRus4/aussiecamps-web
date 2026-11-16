@@ -8126,145 +8126,309 @@
       }
     },
     "alcohol-coffee-drink-prices-australia": {
-      "title": "Prijzen van bier en koffie in Australië 2027: pubbier $7 tot $16",
-      "description": "Een pubbier kost $7 tot $16 en een cappuccino $4,50 tot $8 in Sydney (oktober 2026). Per standaardglas kost pubbier $4 tot $9 en wijn uit de bottle shop $1,60 tot $4.",
+      "title": "Wat kost een biertje in Australië? Prijzen in pub en bottle shop (2027)",
+      "description": "Een schooner in de pub kost $8 tot $13 en een pint $12 tot $18 in Australische steden (november 2026). Een slab van 24 kost $55 tot $72. Prijzen per stad, glasnamen, happy hours.",
       "region": "Australië",
-      "imageAlt": "Australische cafédrankjes op een tafel",
-      "intro": "Een glas tapbier van 500 ml in een pub in Sydney kost ongeveer $7 tot $16 en een cappuccino $4,50 tot $8, volgens door de gemeenschap aangeleverde prijsdata van oktober 2026, terwijl een flesje bier van 500 ml uit de bottle shop landelijk ongeveer $3,50 tot $12 kost. Per standaardglas is dat ongeveer $4 tot $9 in de pub, $2 tot $7 voor bier uit de bottle shop en $1,60 tot $4 voor een fles wijn uit het middensegment, dus drank die je meeneemt naar de camping is het voordeligst.",
+      "imageAlt": "Australische koffie en drankjes op een tafeltje in een café",
+      "intro": "Een schooner bier (425 ml) kost in november 2026 ongeveer $8 tot $13 in een stadspub in Australië, en een pint (570 ml) ongeveer $12 tot $18. Perth en pubs op het platteland zijn het goedkoopst, het centrum van Sydney en Melbourne het duurst. In de bottle shop (slijterij) kost een sixpack gewoon bier ongeveer $20 tot $28 en een slab van 24 blikjes of flesjes ongeveer $55 tot $72. Dat is per biertje minder dan de helft van de pubprijs, dus drank die je mee terugneemt naar je camping is verreweg het voordeligst.",
       "sections": [
         {
-          "heading": "Winkel- en horecaprijzen zijn verschillende producten",
+          "heading": "Biermprijzen per stad",
           "body": [
-            "Een pubprijs omvat de locatie, het personeel en de bediening en niet alleen de vloeistof. Vergelijk gelijksoortige dingen en presenteer het bottle-shopequivalent niet als de prijs van een geschonken drankje. Standaardglazen maken de vergelijking eerlijk: Healthy WA stelt één standaardglas op 10 gram alcohol, de hoeveelheid in 285 ml bier van normale sterkte of 100 ml wijn, dus een bier van 500 ml is ongeveer 1,75 standaardglas en een fles wijn van 750 ml ongeveer 7,5.",
-            "Happy hours en acties zijn tijdelijk. Bouw het budget op de gewone prijsrange en zie een korting als extra marge."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Wijn in de bottle shop en aan de bar",
-          "body": [
-            "Een fles wijn van 750 ml uit het middensegment kost ongeveer $12 tot $30 in een bottle shop en schenkt grofweg vijf glazen van 150 ml. Per glas besteld in een bar of restaurant kost dezelfde wijn per portie meestal aanzienlijk meer, dus een fles die je op de camping deelt is waar wijn het goedkoopst is.",
-            "Sommige restaurants, meestal zonder drankvergunning, laten je tegen kurkgeld je eigen fles meenemen, waarmee een prijs uit de bottle shop dinerwijn wordt. Vraag ernaar bij het reserveren en niet aan tafel."
+            "De tabel toont gebruikelijke prijzen voor een gewoon biertje, zoals een lokale lager of pale ale. De prijs in de pub hangt sterk af van de zaak: een pub in een buitenwijk of een club schenkt goedkoper dan een rooftopbar of een hotel aan de haven, en craftbier kost meestal $2 tot $4 extra per glas.",
+            "De prijzen in de bottle shop verschillen minder per stad, omdat het grootste deel van de prijs uit accijns bestaat, de federale belasting op alcohol, en die is overal gelijk. Darwin en het binnenland betalen meer voor transport, en in bottle shops in het <a data-guide=\"camping-rules-northern-territory\">Northern Territory</a> gelden extra regels voor openingstijden en legitimatie.",
+            "Reken erop dat de prijzen blijven stijgen. De accijns op bier in verpakking gaat elk jaar in februari en augustus omhoog met de inflatie, dus de prijzen in de bottle shop lopen in 2027 verder op, terwijl de belasting op getapt bier tot augustus 2027 bevroren is. Daardoor blijven de pubprijzen stabieler."
           ],
           "tips": [
-            "Fles uit het middensegment: $12 tot $30",
-            "Ongeveer vijf glazen per fles",
-            "Vraag bij het boeken naar BYO"
+            "Perth: goedkoopste pints van de hoofdsteden",
+            "Sydney en Melbourne: het duurst",
+            "Pubs op het platteland: vaak het goedkoopst"
+          ],
+          "table": {
+            "caption": "Gebruikelijke prijzen voor een gewoon biertje in november 2026. Een schooner is 425 ml en een pint 570 ml; in Adelaide heet het glas van 425 ml een pint.",
+            "head": [
+              "Stad",
+              "Schooner in de pub (425 ml)",
+              "Pint in de pub (570 ml)",
+              "Sixpack (bottle shop)",
+              "Slab van 24 (bottle shop)"
+            ],
+            "rows": [
+              [
+                "Sydney",
+                "$9 tot $13",
+                "$13 tot $18",
+                "$21 tot $28",
+                "$57 tot $72"
+              ],
+              [
+                "Melbourne",
+                "$9,50 tot $14",
+                "$14 tot $18,50",
+                "$21 tot $28",
+                "$57 tot $72"
+              ],
+              [
+                "Brisbane",
+                "$9 tot $13",
+                "$12 tot $17",
+                "$21 tot $28",
+                "$57 tot $72"
+              ],
+              [
+                "Perth",
+                "$8 tot $12",
+                "$9 tot $15",
+                "$21 tot $28",
+                "$58 tot $72"
+              ],
+              [
+                "Adelaide",
+                "$8,50 tot $12",
+                "$12 tot $16",
+                "$20 tot $27",
+                "$55 tot $70"
+              ],
+              [
+                "Hobart",
+                "$9 tot $12",
+                "$12 tot $16",
+                "$21 tot $28",
+                "$58 tot $72"
+              ],
+              [
+                "Darwin",
+                "$9 tot $13",
+                "$13 tot $18",
+                "$23 tot $30",
+                "$62 tot $80"
+              ],
+              [
+                "Canberra",
+                "$9 tot $12",
+                "$12 tot $17",
+                "$21 tot $28",
+                "$57 tot $72"
+              ],
+              [
+                "Pubs op het platteland",
+                "$7 tot $10",
+                "$10 tot $14",
+                "$22 tot $32",
+                "$60 tot $85"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Glasnamen en maten per staat",
+          "body": [
+            "Australische biergGlazen veranderen van naam bij de staatsgrens, en hetzelfde woord kan een ander glas betekenen. Vraag in Sydney om een schooner en je krijgt 425 ml; vraag er in Adelaide een en je krijgt 285 ml, want in South Australia heet het glas van 425 ml een pint en dat van 570 ml een imperial pint.",
+            "Twijfel je, vraag dan gewoon om de maat in gewone woorden, of zeg small, medium of large. Het barpersoneel is toeristen gewend, en op de prijslijst aan de muur staan de glazen meestal met naam."
+          ],
+          "tips": [
+            "Schooner is 285 ml in SA",
+            "Vraag om small, medium of large",
+            "Een jug is ongeveer 1,1 liter"
+          ],
+          "table": {
+            "caption": "Gangbare namen voor glazen getapt bier per staat en territorium. De namen verschillen per pub, vooral bij het glas van 285 ml.",
+            "head": [
+              "Staat of territorium",
+              "285 ml",
+              "425 ml",
+              "570 ml"
+            ],
+            "rows": [
+              [
+                "New South Wales en het ACT",
+                "Middy",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Victoria",
+                "Pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Queensland",
+                "Pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "South Australia",
+                "Schooner",
+                "Pint",
+                "Imperial pint"
+              ],
+              [
+                "Western Australia",
+                "Middy",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Tasmania",
+                "Ten of pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Northern Territory",
+                "Handle of middy",
+                "Schooner",
+                "Pint"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Winkelprijs en horecaprijs zijn twee verschillende dingen",
+          "body": [
+            "In de prijs in de pub zitten de zaak, het personeel en de bediening, niet alleen de drank zelf. Vergelijk dus appels met appels en zie de prijs in de bottle shop niet als de prijs van een getapt biertje. Standaardglazen maken de vergelijking eerlijk: Healthy WA rekent één standaardglas als 10 gram alcohol, de hoeveelheid in 285 ml bier van normale sterkte of 100 ml wijn. Een bier van 500 ml is dus ongeveer 1,75 standaardglas en een fles wijn van 750 ml ongeveer 7,5.",
+            "Per standaardglas kost bier in de pub ongeveer $4 tot $9, een slab uit de bottle shop ongeveer $1,60 tot $2,20 en een fles wijn uit het middensegment ongeveer $1,60 tot $4. Mid-strength bier, bijna overal van de tap, bevat zo'n kwart minder alcohol voor vrijwel dezelfde prijs."
+          ],
+          "tips": [
+            "285 ml normale sterkte: één standaardglas",
+            "Slab bier: ongeveer $2 per standaardglas",
+            "Mid-strength kost ongeveer hetzelfde"
           ]
         },
         {
-          "heading": "Houd het stille dagtotaal in de hand",
+          "heading": "Happy hours en de goedkoopste manieren om te drinken",
           "body": [
-            "Twee koffies en twee drankjes in de horeca per dag kunnen een flink weekbedrag worden. Bepaal welke stops ertoe doen in plaats van uit gewoonte te kopen.",
-            "Houd <a data-guide=\"camping-water-planning\">drinkwater</a> binnen handbereik en vul alleen bij aan kranen met drinkwater. Bij hitte horen hydratatie en schaduw in het veiligheidsplan, niet in het uitgavenbudget."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Koffie is een dagelijkse post",
-          "body": [
-            "De Australische koffiecultuur is sterk en het niveau in regionale plaatsen is echt hoog, en juist daarom wordt het een budgetpost. Twee flat whites per dag voor twee personen tellen op zonder dat het ooit als een beslissing voelt.",
-            "Een percolator voor op het fornuis of een AeroPress in de camper dekt de ochtendkop voor een fractie van de caféprijs en maakt van de café-stop iets wat je kiest in plaats van iets automatisch.",
-            "Koffie bij roadhouses is op lange ritten wisselend op zijn best. Op outbackroutes is zelf zetten meestal zowel goedkoper als aanzienlijk beter."
+            "Veel pubs hebben op doordeweekse middagen een happy hour, vaak van ongeveer 16.00 tot 18.00 uur, met schooners voor zo'n $6 tot $9. Soms komen er goedkope jugs bij, een biertje bij een maaltijd aan de bar of een steak-and-schooner-avond. Zie dit als een meevaller en niet als basis voor je budget: de acties wisselen vaak en veel gelden alleen doordeweeks.",
+            "Clubs zoals RSL's, bowlingclubs en surfclubs schenken meestal goedkoper dan pubs, en bezoekers zijn welkom: je meldt je bij de deur aan met een legitimatiebewijs met foto en wordt voor die dag tijdelijk lid.",
+            "Het goedkoopst is een slab of een cask (wijnbox) uit de bottle shop, gekoeld in de koelkast van de camper of in de esky (koelbox) en opgedronken op je kampeerplek. Lees eerst de regels van de camping, want op sommige campings in nationale parken en van gemeentes, en op veel stranden en in stadsparken is alcohol verboden of op bepaalde tijden beperkt."
           ],
           "tips": [
-            "Twee koppen per dag tellen snel op",
-            "Zet de ochtendkop zelf",
-            "Koffie bij roadhouses is wisselend"
+            "Happy hours doordeweeks: ongeveer 16.00 tot 18.00 uur",
+            "Clubs verwelkomen bezoekers met legitimatie",
+            "Check de alcoholregels op de camping"
           ]
         },
         {
           "heading": "Alcohol kopen in Australië",
           "body": [
-            "Verpakte alcohol wordt meestal verkocht via bottle shops met drankvergunning, vaak naast een supermarkt maar los daarvan, al verkopen Aldi en sommige onafhankelijke kruideniers het in de winkel zelf. Openingstijden zijn gereguleerd en verschillen per staat.",
-            "Alcoholbeperkingen gelden in veel gemeenschappen en regio's, vooral in de Northern Territory, delen van <a data-guide=\"camping-rules-queensland\">Queensland</a>, Western Australia en South Australia. Alcohol meenemen naar een beperkt gebied brengt flinke boetes met zich mee.",
-            "Check dit voordat je met alcohol naar afgelegen gebieden reist. De beperkingen worden wettelijk gehandhaafd, gelden net zo goed voor bezoekers als voor bewoners en onwetendheid is geen verweer."
+            "Alcohol in verpakking wordt vooral verkocht in bottle shops met een vergunning, vaak naast een supermarkt maar los daarvan, al verkopen Aldi en sommige zelfstandige supermarkten het ook in de winkel. De openingstijden zijn wettelijk geregeld en verschillen per staat. Je moet 18 zijn om alcohol te kopen en het personeel vraagt iedereen die er jonger dan 25 uitziet om een legitimatiebewijs met foto: een paspoort of een rijbewijs.",
+            "In veel gemeenschappen en regio's gelden alcoholbeperkingen, vooral in het Northern Territory, delen van <a data-guide=\"camping-rules-queensland\">Queensland</a>, Western Australia en South Australia. Wie alcohol meeneemt naar een beperkt gebied riskeert flinke boetes.",
+            "Informeer je vooraf voordat je met alcohol naar afgelegen gebieden reist. De beperkingen worden wettelijk gehandhaafd, gelden voor bezoekers net zo goed als voor inwoners, en onwetendheid is geen excuus."
           ],
           "tips": [
-            "Meestal bottle shops, soms supermarkten",
-            "Beperkte gebieden kennen hoge boetes",
-            "Check voordat je afgelegen regio's binnengaat"
+            "Vooral bottle shops, soms supermarkten",
+            "Neem een legitimatiebewijs met foto mee",
+            "Check het vooraf voor afgelegen regio's"
           ]
         },
         {
-          "heading": "Drinken en de rijdag",
+          "heading": "Drinken en een dag rijden",
           "body": [
-            "De algemene limiet is 0,05 voor houders van een volledig rijbewijs, nul voor leerlingen en beginnende bestuurders, en nul of 0,02 voor veel beroepschauffeurs afhankelijk van de staat (0,02 in NSW). Willekeurige blaascontroles komen vaak voor, ook op landelijke wegen en overdag.",
-            "Op een roadtrip is de enige veilige aanpak drinken en rijden volledig scheiden: blijf waar je drinkt, gebruik een aangewezen bestuurder, of drink pas als het voertuig voor de nacht geparkeerd staat.",
-            "Rijden de ochtend erna verrast mensen. Het lichaam heeft minstens een uur nodig om elk standaardglas af te breken, vaak langer, en koffie of een douche versnelt dat niet, dus een zware avond kan je tot ver in de volgende ochtend boven de limiet houden."
+            "De algemene limiet is 0,05 voor bestuurders met een volledig rijbewijs, nul voor leerlingen en bestuurders met een voorlopig rijbewijs, en nul of 0,02 voor veel beroepschauffeurs, afhankelijk van de staat (0,02 in NSW). Willekeurige alcoholcontroles komen vaak voor, ook op landelijke wegen en overdag.",
+            "Op een roadtrip is de enige veilige aanpak om drinken en rijden helemaal gescheiden te houden: blijf waar je drinkt, laat een bob rijden of drink pas als het voertuig voor de nacht geparkeerd staat.",
+            "Rijden de ochtend erna wordt vaak onderschat. Het lichaam heeft minstens een uur nodig om elk standaardglas af te breken, vaak langer, en koffie of een douche versnelt dat niet. Na een stevige avond zit je dus tot ver in de volgende ochtend nog boven de limiet."
           ],
           "tips": [
-            "0,05 algemeen, nul voor leerlingen en beginners",
-            "Willekeurige controles zijn gewoon en ook overdag",
+            "0,05 algemeen, nul voor leerlingen en voorlopig rijbewijs",
+            "Willekeurige controles komen vaak voor, ook overdag",
             "Rijden de ochtend erna is de valkuil"
           ]
         },
         {
-          "heading": "Water is degene die je goed moet regelen",
+          "heading": "Wijn in de bottle shop en in de bar",
           "body": [
-            "Kraanwater is veilig en goed in vrijwel alle Australische steden en dorpen, en flessenwater kopen is bijna pure verspilling. Neem hervulbare flessen mee en vul bij aan elke kraan met drinkwater in een plaats, camping of openbare voorziening.",
-            "In afgelegen gebieden en in de bush keert dat om: bronwater kan mineraalrijk of ongeschikt zijn, tankwater is onbehandeld en oppervlaktewater in landbouwgebied kan chemisch verontreinigd zijn. Behandel alles wat niet een gemarkeerde drinkwatervoorziening van een plaats is.",
-            "Neem een goede geïsoleerde fles mee, zodat er in de hitte altijd koud water is; bijvullen kost niets."
+            "Een fles wijn van 750 ml uit het middensegment kost in de bottle shop ongeveer $12 tot $29 en levert grofweg vijf glazen van 150 ml op. Per glas besteld in een bar of restaurant kost dezelfde wijn meestal $10 tot $16 per glas, dus een fles die je op je kampeerplek deelt is de goedkoopste manier om wijn te drinken.",
+            "Sommige restaurants, meestal zonder drankvergunning, laten je zelf een fles meenemen tegen een kurkengeld (corkage), waardoor een fles uit de bottle shop dinerwijn wordt. Vraag ernaar bij het reserveren en niet pas aan tafel."
           ],
           "tips": [
-            "Kraanwater in plaatsen is veilig",
-            "Bronwater is vaak ongeschikt",
-            "Behandel tank- en oppervlaktewater"
+            "Fles uit het middensegment: $12 tot $29",
+            "Ongeveer vijf glazen per fles",
+            "Vraag bij het reserveren naar BYO"
+          ]
+        },
+        {
+          "heading": "Koffie is een dagelijkse kostenpost",
+          "body": [
+            "Een gewone cappuccino of flat white kost ongeveer $4 tot $8, waarbij cafés in het stadscentrum het duurst zijn. De Australische koffiecultuur is sterk en de standaard in plaatsen op het platteland is echt hoog, en juist daardoor wordt het een kostenpost: twee koffies per dag voor twee personen lopen op zonder dat het ooit als een keuze voelt.",
+            "Een percolator of een AeroPress in de camper dekt de ochtendkoffie voor een fractie van de caféprijs en maakt van de koffiestop iets wat je kiest in plaats van iets automatisch. Koffie bij een roadhouse onderweg in het outback is wisselend van kwaliteit, dus zelf zetten is meestal zowel goedkoper als lekkerder.",
+            "Leidingwater is veilig en goed in vrijwel alle Australische steden en dorpen, dus neem navulbare flessen mee in plaats van water te kopen. Behandel in de bush water uit boorputten, tanks en beken voordat je het drinkt. Reis je ook naar Nieuw-Zeeland? KiwiCamping vertelt <a data-sister=\"beer-wine-coffee-prices-new-zealand\">wat een biertje, wijn en koffie in Nieuw-Zeeland kosten</a>."
+          ],
+          "tips": [
+            "Cappuccino: $4 tot $8",
+            "Zet de ochtendkoffie zelf",
+            "Leidingwater in steden is veilig"
           ]
         }
       ],
       "faq": [
         [
-          "Hoeveel kost een biertje in Australië?",
-          "Een glas tapbier van 500 ml in een pub in Sydney kost ongeveer $7,15 tot $16 volgens prijsdata van oktober 2026, en een flesje van 500 ml uit een bottle shop landelijk ongeveer $3,50 tot $12. Kopen in een bottle shop in plaats van aan de bar is een van de grootste besparingen op een lange reis."
+          "Wat kost een biertje in Australië?",
+          "Een schooner (425 ml) gewoon bier kost in november 2026 ongeveer $8 tot $13 in een stadspub en een pint (570 ml) ongeveer $12 tot $18. In de bottle shop kost een sixpack ongeveer $20 tot $28 en een slab van 24 ongeveer $55 tot $72, minder dan de helft van de pubprijs per biertje."
         ],
         [
-          "Hoeveel kost koffie in Australië?",
-          "Een gewone cappuccino kost ongeveer $4,50 tot $8 in Sydney en $4 tot $8 landelijk volgens prijsdata van oktober 2026, waarbij cafés in het centrum vaak aan de bovenkant zitten. Twee koffies per dag voor twee personen worden op een lange reis een echte budgetpost."
+          "Wat kost een pint in Australië?",
+          "Ongeveer $12 tot $18 voor 570 ml gewoon bier in een stadspub, waarbij Perth en pubs op het platteland het goedkoopst zijn en het centrum van Melbourne en Sydney het duurst. In South Australia is een pint het glas van 425 ml, dat ongeveer $8,50 tot $12 kost; vraag om een imperial pint voor 570 ml."
+        ],
+        [
+          "Waar is het bier in Australië het goedkoopst?",
+          "Perth en pubs op het platteland schenken het goedkoopste bier, en clubs zoals RSL's en bowlingclubs zijn meestal goedkoper dan pubs; bezoekers melden zich aan met een legitimatiebewijs met foto. Met een happy hour doordeweeks zakt een schooner naar ongeveer $6 tot $9, maar een slab uit de bottle shop, voor ongeveer $2 per standaardglas, is het goedkoopst."
+        ],
+        [
+          "Wat kost koffie in Australië?",
+          "Een gewone cappuccino of flat white kost ongeveer $4 tot $8, waarbij cafés in het stadscentrum vaak het duurst zijn. Twee koffies per dag voor twee personen worden op een lange reis een serieuze kostenpost, dus veel kampeerders zetten de ochtendkoffie zelf."
         ]
       ],
       "sources": [
         {
-          "label": "Numbeo Sydney drink prices"
+          "label": "Numbeo: drankprijzen in Australië, bijgewerkt in november 2026"
         },
         {
-          "label": "Numbeo Australia retail ranges"
+          "label": "Australian Taxation Office: accijnstarieven voor alcohol"
         },
         {
-          "label": "NSW alcohol and driving guidance"
+          "label": "Healthy WA: wat is een standaardglas"
         },
         {
-          "label": "NHMRC: how long alcohol takes to clear"
+          "label": "NSW: richtlijnen over alcohol en autorijden"
         },
         {
-          "label": "Northern Territory: buying and drinking alcohol"
+          "label": "NHMRC: hoe lang alcohol nodig heeft om af te breken"
         },
         {
-          "label": "Healthy WA: what is a standard drink"
+          "label": "Northern Territory: alcohol kopen en drinken"
+        },
+        {
+          "label": "NSW Government: clubregels voor bezoekers"
         }
       ],
       "priceTable": {
-        "note": "Door de gemeenschap aangeleverde bereiken voor Australië en Sydney, bijgewerkt in oktober 2026. Portiegrootte, locatie, actie en plaats verschillen.",
+        "note": "Prijsbereik in stadspubs en bottle shops voor gewoon Australisch bier in november 2026. Craftbier, import, horeca aan het water en afgelegen gebieden zijn duurder; happy hours en aanbiedingen zijn goedkoper.",
         "rows": [
           {
-            "label": "Cappuccino (Sydney)",
+            "label": "Schooner in de pub",
+            "unit": "425 ml"
+          },
+          {
+            "label": "Pint in de pub",
+            "unit": "570 ml"
+          },
+          {
+            "label": "Sixpack uit de bottle shop",
+            "unit": "6 x 375 ml"
+          },
+          {
+            "label": "Slab uit de bottle shop",
+            "unit": "24 x 375 ml"
+          },
+          {
+            "label": "Wijn uit het middensegment",
+            "unit": "750 ml, bottle shop"
+          },
+          {
+            "label": "Cappuccino",
             "unit": "één kop"
-          },
-          {
-            "label": "Tapbier in de pub (Sydney)",
-            "unit": "één glas"
-          },
-          {
-            "label": "Wijn uit het middensegment (landelijk)",
-            "unit": "750 ml winkel"
-          },
-          {
-            "label": "Vergelijkbaar huismerkbier (landelijk)",
-            "unit": "500 ml winkel"
-          },
-          {
-            "label": "Frisdrank (Sydney)",
-            "unit": "330 ml horeca"
           }
         ]
       }
@@ -29487,6 +29651,608 @@
         },
         {
           "label": "Bureau of Meteorology: klimaat per regio"
+        }
+      ],
+      "priceTable": null
+    },
+    "cigarette-prices-australia": {
+      "title": "Wat kosten sigaretten in Australië in 2027? Pakjes van $40 tot $60",
+      "description": "Een legaal pakje van 20 kost in Australië ongeveer $40 tot $60 en een zakje shag van 30 g ongeveer $90 tot $120. Prijzen per staat, waarom belasting de prijs bepaalt, en vapes.",
+      "region": "Australië",
+      "imageAlt": "Een gesloten tabakskast in een Australische winkel, met neutrale sigarettenpakjes en zakjes boven de prijskaartjes",
+      "intro": "Een legaal pakje van 20 sigaretten kost in november 2026 ongeveer $40 tot $60 in Australië, en een zakje shag van 30 g ongeveer $90 tot $120. Pakjes van 25 en grote zakken bestaan niet meer: sinds 1 juli 2025 worden sigaretten alleen verkocht in pakjes van 20 en shag alleen in zakjes van 30 g. Bijna de hele prijs is federale belasting, dus hetzelfde pakje kost in Sydney en Perth ongeveer evenveel, en afgelegen plaatsen en het Northern Territory zijn iets duurder. De prijzen gaan twee keer per jaar omhoog, dus reken op meer dan de bedragen hier als je in 2027 reist.",
+      "sections": [
+        {
+          "heading": "Wat een pakje van 20 kost",
+          "body": [
+            "Budgetmerken zitten aan de onderkant, rond $38 tot $45 voor 20. Gangbare merken die je achter elke toonbank van een tankstation ziet, kosten eerder $50 tot $60. Winkels en ketens geven op verschillende momenten korting en verhogen de prijs, dus hetzelfde merk kan in twee winkels in dezelfde straat een paar dollar verschillen.",
+            "Herinner je je een pakje van 25 uit eerdere jaren of van vrienden thuis, dan bestaat die maat in Australië niet meer. De wet op neutrale verpakkingen, die op 1 juli 2025 volledig inging, legde elk sigarettenpakje vast op 20 stuks, met 10 pakjes in een slof. Een pakje van 20 is dus de enige maat om te vergelijken."
+          ],
+          "tips": [
+            "Budget: ongeveer $38 tot $45",
+            "Gangbaar: ongeveer $50 tot $60",
+            "Pakjes van 25 worden niet meer verkocht"
+          ]
+        },
+        {
+          "heading": "Prijzen per staat en territorium",
+          "body": [
+            "Het grootste deel van de prijs is federale accijns, en die is in elke staat gelijk, dus de staat waar je koopt verandert de prijs maar weinig. De bedragen hieronder geven aan wat winkels vragen voor legale producten. Het <a data-guide=\"camping-rules-northern-territory\">Northern Territory</a> en afgelegen gemeenschappen zijn meestal duurder, omdat transport en kleine afzet de prijs in het schap verhogen, en de prijs bij een roadhouse in het outback kan de hoogste van allemaal zijn.",
+            "Er is geen officiële prijslijst per staat, dus zie de bedragen als de bandbreedte die je kunt verwachten en niet als offerte. Even naar het schap kijken voordat je koopt zegt je meer dan welke tabel dan ook."
+          ],
+          "tips": [
+            "Dezelfde belasting in elke staat",
+            "NT en afgelegen gebieden: iets duurder",
+            "Kijk naar de prijs in het schap"
+          ],
+          "table": {
+            "caption": "Gebruikelijke schapprijzen voor legale tabak in november 2026. Een richtlijn en geen offerte: winkels bepalen hun eigen prijzen.",
+            "head": [
+              "Staat of territorium",
+              "Pakje van 20",
+              "Zakje van 30 g"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "$40 tot $60",
+                "$90 tot $120"
+              ],
+              [
+                "Victoria",
+                "$40 tot $60",
+                "$90 tot $120"
+              ],
+              [
+                "Queensland",
+                "$40 tot $60",
+                "$90 tot $120"
+              ],
+              [
+                "South Australia",
+                "$40 tot $60",
+                "$90 tot $120"
+              ],
+              [
+                "Western Australia",
+                "$40 tot $60",
+                "$90 tot $120"
+              ],
+              [
+                "Tasmania",
+                "$40 tot $60",
+                "$90 tot $120"
+              ],
+              [
+                "Australian Capital Territory",
+                "$40 tot $60",
+                "$90 tot $120"
+              ],
+              [
+                "Northern Territory en afgelegen gebieden",
+                "$45 tot $65 of meer",
+                "$95 tot $130 of meer"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Zakjes shag",
+          "body": [
+            "Shag wordt alleen verkocht in zakjes van 30 g, en uit één zakje draai je ongeveer 50 dunne sigaretten. Budgetzakjes kosten rond $90 en premiumzakjes rond $115 of iets meer. Shag is dus per sigaret niet veel goedkoper dan een pakje van 20 zodra je vloeitjes en <a data-guide=\"how-to-use-aussiecamps-filters\">filters</a> meetelt.",
+            "De accijns op shag wordt per gewicht berekend, vanaf 1 september 2026 $2.587,90 per kilo. Dat is ongeveer $78 belasting in elk zakje van 30 g, vóór GST, en daarom ligt de prijs in het schap zo dicht bij die van een pakje sigaretten."
+          ],
+          "tips": [
+            "30 g is de enige maat",
+            "Ongeveer $90 tot $120",
+            "Per sigaret niet veel goedkoper"
+          ]
+        },
+        {
+          "heading": "Waarom ze zo duur zijn",
+          "body": [
+            "De prijs bestaat vooral uit belasting. De federale accijns is vanaf 1 september 2026 $1,55274 per sigaret, tegen $1,52829 in maart. Dat is ongeveer $31 op elk pakje van 20. Daar komt aan de kassa 10% GST bovenop. Samen is dat ongeveer 70% van een gangbaar pakje van $50, en bij een budgetpakje nog meer.",
+            "Het tarief verandert twee keer per jaar, in maart en op 1 september, omdat het de lonen volgt. Daarbovenop steeg het tarief van 2023 tot 2026 elke september met nog eens 5%, dus de kosten zijn geleidelijk gestegen en niet in één klap. Een pakje dat een bezoeker op de eerste reis duur vindt, wordt het jaar daarna nog duurder."
+          ],
+          "tips": [
+            "Ongeveer $31 accijns per pakje",
+            "Plus 10% GST",
+            "Stijgt elke maart en september"
+          ]
+        },
+        {
+          "heading": "De jaarlijkse stijging en jouw reis",
+          "body": [
+            "Omdat het tarief elke maart en september verandert, is een bedrag van vorig jaar verouderd tegen de tijd dat je landt. Ga er in 2027 maar vanuit dat een pakje een paar dollar meer kost dan de bedragen uit 2026 hier, en kijk de prijs in het schap in je eerste plaats na voordat je een maand aan uitgaven plant.",
+            "Een zware roker loopt op een lange reis snel op. Tien pakjes per maand kosten ongeveer $400 tot $600. Zet het als aparte post in je reisbudget, zoals je ook met brandstof doet, zodat het niet ten koste gaat van je eetgeld."
+          ],
+          "tips": [
+            "Reken op een paar dollar meer",
+            "Tien pakjes: $400 tot $600",
+            "Geef het een eigen post in je budget"
+          ]
+        },
+        {
+          "heading": "Prijzen van vapes",
+          "body": [
+            "Sinds 1 juli 2024 worden vapes alleen verkocht in apotheken, met of zonder nicotine. Volwassenen kunnen in de meeste staten vapes met een lager nicotinegehalte na een gesprek zonder recept bij de apotheker kopen, en sterkere producten vragen een recept. Apotheken mogen alleen de producten leveren die op de lijst van aangemelde vapes van de TGA staan.",
+            "De prijzen in de apotheek worden bepaald door de fabrikant en de winkel, niet door de overheid. Reken op ongeveer $30 tot $60 voor een eenvoudig apparaat of een pak pods, en meer voor een starterskit. De goedkope wegwerpvapes die sommige winkels onder de toonbank verkopen, zijn geen legale producten."
+          ],
+          "tips": [
+            "Sinds juli 2024 alleen apotheken",
+            "Ongeveer $30 tot $60 per apparaat",
+            "Vraag het eerst aan de apotheker"
+          ]
+        },
+        {
+          "heading": "Illegale tabak en vapes",
+          "body": [
+            "Sommige winkels verkopen sigaretten en vapes voor een fractie van de legale prijs, vaak in pakjes zonder opdruk of uit het buitenland, en soms chop chop genoemd. Dit is illegaal, en kopen kan boetes en inbeslagname opleveren, met straffen die per staat verschillen. Ze hebben bovendien geen Australische gezondheidswaarschuwingen.",
+            "Lijkt een prijs te mooi om waar te zijn naast de bedragen hierboven, dan is dat vrijwel zeker zo. Koop vapes dus bij een apotheek en tabak bij een erkende <a data-guide=\"where-to-buy-cigarettes-vapes-australia\">tabakszaak</a> of in de supermarkt."
+          ],
+          "tips": [
+            "Pakjes zonder opdruk zijn illegaal",
+            "Kopers kunnen een boete krijgen",
+            "Spotgoedkoop betekent meestal illegaal"
+          ]
+        },
+        {
+          "heading": "Zo geef je legaal minder uit",
+          "body": [
+            "De <a data-guide=\"smoking-vaping-rules-australia\">belastingvrije hoeveelheid</a> bij aankomst is voor reizigers van 18 jaar en ouder maar 25 sigaretten of 25 gram tabak, plus één geopend pakje. Wie meer meeneemt, moet dat aangeven, en volgens de Australian Border Force geef je dan het teveel af of betaal je rechten over de hele hoeveelheid. Niet aangegeven tabak kan in beslag worden genomen en tot een boete leiden, dus een voorraad van thuis meenemen is geen manier om op een lange reis geld te besparen.",
+            "Per slof kopen is per sigaret niet veel goedkoper, want de belasting is voor elke sigaret gelijk. De echte besparingen zijn klein: kies een budgetmerk, koop waar een winkel korting geeft en vermijd waar mogelijk de prijzen van roadhouses en afgelegen plaatsen. De regels voor reizigers, waaronder belastingvrij, vapes en rookvrije plekken, staan in de gids over de rook- en vaperegels. Rook je bij je kampeerplek, doof dan elke peuk helemaal en neem hem mee, en volg de regels bij een <a data-guide=\"campfires-camping-australia\">totaal vuurverbod</a>: peuken en bush gaan niet samen.",
+            "Reis je ook naar Nieuw-Zeeland? KiwiCamping vertelt <a data-sister=\"cigarette-prices-new-zealand\">wat sigaretten in Nieuw-Zeeland kosten</a>."
+          ],
+          "tips": [
+            "Neem maar 25 sigaretten mee",
+            "Een slof bespaart weinig",
+            "Peuken uit en meenemen"
+          ]
+        },
+        {
+          "heading": "Budgetteer je reis in AussieCamps",
+          "body": [
+            "AussieCamps <a data-guide=\"how-to-use-aussiecamps-filters\">filtert</a> plekken op Kosten, Gratis of Betaald, zodat goedkopere nachten ruimte maken voor de rest van je budget. Voeg elke stop toe aan een reis met data, notities en een takenlijst, zodat bijtanken in de grotere plaatsen voor een afgelegen etappe deel van je plan is.",
+            "Plekdetails en filters werken <a data-guide=\"camping-without-phone-signal\">zonder bereik</a>, en de rijroute toont de afstand en de tijd van elke etappe. AussieCamps draait op iPhone."
+          ],
+          "tips": [
+            "Filter op Kosten",
+            "Plan bijvullen vóór afgelegen etappes",
+            "Alleen iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Wat kost een pakje sigaretten in Australië?",
+          "Een legaal pakje van 20 kost in november 2026 meestal ongeveer $40 tot $60, met budgetmerken onderaan en gangbare merken bovenaan. Pakjes van 25 worden niet meer verkocht: sinds 1 juli 2025 moet elk sigarettenpakje precies 20 stuks bevatten. De prijzen zijn aan de oostkust iets lager en in het Northern Territory en afgelegen plaatsen hoger."
+        ],
+        [
+          "Waarom zijn sigaretten in Australië zo duur?",
+          "Door de federale belasting. De accijns is vanaf 1 september 2026 $1,55274 per sigaret, ongeveer $31 op een pakje van 20 voordat er 10% GST bij komt. Bij de meeste merken gaat zo'n 70% of meer van de prijs in het schap naar de overheid."
+        ],
+        [
+          "Hoeveel sigaretten mag ik meenemen naar Australië?",
+          "De belastingvrije hoeveelheid voor reizigers van 18 jaar en ouder is 25 sigaretten of 25 gram tabak, plus één geopend pakje. Geef alles daarboven aan. Volgens de Australian Border Force kun je de toegestane hoeveelheid meenemen en de rest afstaan, of alles houden en rechten betalen over de volledige hoeveelheid."
+        ],
+        [
+          "Kan ik als toerist een vape kopen in Australië?",
+          "Alleen bij een apotheek. Sinds 1 juli 2024 mogen vapes niet meer in andere winkels worden verkocht, en buurtwinkels die ze toch verkopen overtreden de wet. Volwassenen kunnen in de meeste staten na een kort gesprek vapes met een lager nicotinegehalte zonder recept bij de apotheker kopen."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Australian Taxation Office: accijnstarieven voor tabak"
+        },
+        {
+          "label": "Australian Border Force: belastingvrije hoeveelheden"
+        },
+        {
+          "label": "Department of Health: veranderingen bij tabaksproducten in Australië"
+        },
+        {
+          "label": "Department of Health: wetgeving over vapen"
+        },
+        {
+          "label": "Therapeutic Goods Administration: nicotinevapes"
+        },
+        {
+          "label": "Tobacco in Australia: de prijs van tabaksproducten"
+        }
+      ],
+      "priceTable": null
+    },
+    "smoking-vaping-rules-australia": {
+      "title": "Roken en vapen in Australië (2027): regels voor reizigers",
+      "description": "Neem 25 sigaretten of 25 g tabak belastingvrij mee, vapes alleen bij de apotheek, je moet 18 zijn, en brandende peuken in de bush leveren hoge boetes op. Regels voor reizigers in 2027.",
+      "region": "Australië",
+      "imageAlt": "Een bord met de tekst This jetty is smoke-free and vape-free op de reling van de Outer Harbor jetty in Adelaide, South Australia",
+      "intro": "Bezoekers van 18 jaar en ouder mogen belastingvrij 25 sigaretten of 25 g tabak meenemen naar Australië, plus één geopend pakje, en moeten alles daarboven aangeven. Vapes worden nu alleen via apotheken verkocht, en de uitzondering voor reizigers staat 2 vapes, 20 pods of cartridges en 200 mL vloeistof toe voor eigen behandeling. Je moet 18 zijn om een van beide te kopen, en roken en vapen zijn op veel buitenplekken verboden, van caféterrassen tot bewaakte stranden. Voor kampeerders gaat het vooral om brand: een brandende peuk die uit een auto wordt gegooid of in droog gras valt, kan duizenden dollars kosten. Dit zijn de regels zoals ze in november 2026 gelden.",
+      "sections": [
+        {
+          "heading": "Wat je belastingvrij mag meenemen",
+          "body": [
+            "Volwassenen van 18 jaar en ouder mogen zonder vergunning tabak meenemen naar Australië. De belastingvrije hoeveelheid is 25 sigaretten of 25 g tabaksproducten, plus één geopend pakje. Omdat Australische en de meeste buitenlandse pakjes er 20 bevatten, betekent dat één gesloten pakje plus het pakje waar je nu uit rookt. Onder de 18 mag je helemaal geen tabak meenemen.",
+            "Ga je over de limiet, dan gelden volgens de Australian Border Force rechten en belasting over alle goederen van dat soort, niet alleen over het deel boven de limiet. Het teveel niet aangeven kan boetes, vervolging of een ingetrokken visum betekenen, afhankelijk van de hoeveelheid. Heb je meer, geef het dan aan op je Incoming Passenger Card, toon het aankoopbewijs en betaal de rechten, of lever het in bij de grens. De prijzen van pakjes in Australië staan in de gids over <a data-guide=\"cigarette-prices-australia\">sigarettenprijzen</a>."
+          ],
+          "tips": [
+            "25 sigaretten of 25 g",
+            "Plus één geopend pakje",
+            "Geef alles daarboven aan"
+          ]
+        },
+        {
+          "heading": "Vapes voor reizigers",
+          "body": [
+            "Sinds 2024 gelden vapes in Australië als geneesmiddelen. Reizigers mogen ze alleen meenemen onder een reizigersuitzondering: de vapes moeten bedoeld zijn voor je eigen behandeling, of voor iemand die je verzorgt en die met je meereist op dezelfde vlucht of boot. De limieten zijn 2 vapes in totaal, 20 accessoires zoals pods, cartridges of capsules en 200 mL vapevloeistof.",
+            "Wegwerpvapes tellen mee voor de 2. Vapes naar jezelf opsturen of door een vriend laten opsturen is niet toegestaan, en alles boven de limiet kan in beslag worden genomen. Geef je vapes aan en houd ze in je handbagage, waar de douaniers ze kunnen zien. De regels voor het meenemen in het vliegtuig bepaalt je luchtvaartmaatschappij, dus check dat voordat je vliegt."
+          ],
+          "tips": [
+            "2 vapes, 20 pods, 200 mL",
+            "Alleen voor eigen gebruik",
+            "Vapes niet naar Australië opsturen"
+          ]
+        },
+        {
+          "heading": "Vapes kopen en de wettelijke leeftijd",
+          "body": [
+            "Vapes worden in Australië alleen door apotheken verkocht. Sinds oktober 2024 mogen apothekers nicotinevapes van 20 mg/mL of lager zonder recept leveren aan mensen van 18 jaar en ouder, en onder de 18 is een recept nodig. <a data-guide=\"where-to-buy-cigarettes-vapes-australia\">Tabakszaken</a>, vapewinkels, tankstations en buurtwinkels mogen helemaal geen vapes verkopen, wat het nicotinegehalte ook is.",
+            "De wettelijke leeftijd om tabak te kopen is in elke staat en elk territorium 18, en winkels kunnen om een legitimatiebewijs met foto vragen. Bezoekers krijgen dezelfde vraag als locals, dus een paspoort of een <a data-guide=\"overseas-driver-licence-australia-state-guide\">buitenlands rijbewijs</a> is het veiligst om bij je te hebben. De apotheker kan je ook vertellen over eventuele extra regels van de staat voordat je koopt."
+          ],
+          "tips": [
+            "Vapes: alleen apotheek",
+            "18 om iets te kopen",
+            "Neem een legitimatiebewijs met foto mee"
+          ]
+        },
+        {
+          "heading": "Waar je niet mag roken of vapen",
+          "body": [
+            "Rookvrije wetten worden per staat en territorium bepaald, en vapen wordt op rookvrije plekken net zo behandeld als roken. De tabel toont de plekken die kampeerders het vaakst tegenkomen. Veel gemeentes voegen eigen regels toe voor lokale stranden, parken en stadscentra, dus let op de borden.",
+            "Nationale parken, stranden en campings hebben eigen regels. Queensland verbiedt roken binnen 10 m van kampeerplekken en voorzieningen in nationale parken, meerdere staten verbieden het tussen de vlaggen op bewaakte stranden, en veel <a data-guide=\"caravan-park-vs-holiday-park\">caravanparken</a> verbieden het in huisjes, sanitairgebouwen en kampeerkeukens. Geldt er een vuurverbod, dan behandelen parkwachters een brandende sigaret in de open lucht als elke andere vlam.",
+            "Boetes worden vastgesteld in boete-eenheden of vaste bedragen die elk jaar veranderen, dus de tabel geeft een richtlijn en geen exact bedrag."
+          ],
+          "tips": [
+            "Vapen telt ook mee",
+            "Let op lokale borden",
+            "Boetes veranderen elk jaar"
+          ],
+          "table": {
+            "caption": "Rookvrije buitenplekken per staat en territorium, volgens de gezondheidspagina's van de staten in november 2026. Check de actuele pagina van de staat voordat je op een bedrag vertrouwt.",
+            "head": [
+              "Staat",
+              "Rookvrije buitenplekken om te kennen",
+              "Gebruikelijke boete ter plekke"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "Commerciële buitenterrassen, binnen 4 m van ingangen van openbare gebouwen, halten en perrons van het openbaar vervoer; veel gemeentes voegen stranden en parken toe",
+                "$300"
+              ],
+              [
+                "Victoria",
+                "Buitenterrassen, binnen 10 m van speeltuinen en skateparken, bij sportevenementen voor onder-18's en op foodfestivals",
+                "Ongeveer een of twee boete-eenheden, een paar honderd dollar"
+              ],
+              [
+                "Queensland",
+                "Tussen de vlaggen op bewaakte stranden, binnen 10 m van kampeerplekken en voorzieningen in nationale parken, 5 m van halten van het openbaar vervoer en 10 m van speeltuinen",
+                "Twee boete-eenheden"
+              ],
+              [
+                "South Australia",
+                "Buitenterrassen, speeltuinen en wachtruimtes van het openbaar vervoer, plus nieuwere buitenzones sinds maart 2024",
+                "$105"
+              ],
+              [
+                "Western Australia",
+                "Buitenplekken om te eten, binnen 10 m van speeltoestellen en tussen de vlaggen op bewaakte stranden",
+                "$300 op een buitenterras"
+              ],
+              [
+                "Tasmania",
+                "Buitenterrassen, binnen 3 m van ingangen, binnen 10 m van speeltuinen, op bewaakte stranden en bij buitenevenementen",
+                "Ongeveer $350 tot $400"
+              ],
+              [
+                "Northern Territory",
+                "Buitenterrassen zonder vergunning, openbare evenementen en hun omgeving, en speelplekken voor kinderen",
+                "Vastgesteld in boete-eenheden"
+              ],
+              [
+                "Australian Capital Territory",
+                "Buitenplekken om te eten en te drinken, en binnen 10 m van speeltoestellen",
+                "Vastgesteld in boete-eenheden"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Roken in de auto met kinderen",
+          "body": [
+            "Elke staat en elk territorium verbiedt roken in een auto waar een kind in zit, ook als de ramen open zijn of de auto geparkeerd staat. De leeftijd van het kind die telt is onder de 16 in <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a>, Queensland, South Australia, het Northern Territory en het ACT, onder de 17 in Western Australia en onder de 18 in Victoria en Tasmania. Ook vapen valt eronder.",
+            "In een huurauto of camper geldt dezelfde regel, en een verhuurbedrijf kan bovendien schoonmaakkosten rekenen voor rooklucht. Rook je, stap dan uit en laat de passagiers eerst uitstappen."
+          ],
+          "tips": [
+            "Verboden in elke staat",
+            "Ramen open is geen excuus",
+            "Huurauto's rekenen schoonmaakkosten"
+          ]
+        },
+        {
+          "heading": "Vuurverboden, peuken en boetes",
+          "body": [
+            "Op een dag met een <a data-guide=\"campfires-camping-australia\">totaal vuurverbod</a> is alles wat buiten een brand kan veroorzaken een risico, en een brandende sigaret weggooien is in elke staat strafbaar. In New South Wales kan een brandende peuk een boete ter plekke opleveren vanaf ongeveer $660, het dubbele (ongeveer $1.320) op een dag met totaal vuurverbod. Bij de rechter is het maximum $5.500, of $11.000 op een dag met totaal vuurverbod. Bestuurders krijgen ook strafpunten: normaal 5 en 10 op een dag met totaal vuurverbod.",
+            "Een peuk uit een auto gooien geldt in Victoria en <a data-guide=\"camping-rules-queensland\">Queensland</a> als gevaarlijk zwerfvuil, met boetes die ter plekke oplopen tot enkele honderden dollars en bij de rechter veel meer. Zelfs een peuk op de grond is zwerfvuil. In de bush kan hij een brand veroorzaken die een camping of een dorp bereikt.",
+            "Neem een peukenblikje of draagbare asbak mee en doof een sigaret nooit uit in droog gras of op een laag bladeren. In sommige staten kun je mensen melden die brandende peuken weggooien: in <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> kun je de Bush Fire Information Line bellen op 1800 679 737."
+          ],
+          "tips": [
+            "Peukenblikje in de auto",
+            "Nooit in droog gras",
+            "Meld brandende peuken uit auto's"
+          ]
+        },
+        {
+          "heading": "Boetes op een rij, en een plan voor kampeerders",
+          "body": [
+            "Samengevat: tabak boven de limiet kost rechten over alles of je raakt het kwijt, roken op een rookvrije plek kost van ongeveer $100 tot een paar honderd dollar, en een brandende peuk uit een voertuig gooien kost honderden dollars ter plekke en duizenden bij de rechter.",
+            "Kies voor een kampeertrip een plek met ruimte weg van tenten en droog gras, check elke ochtend de brandgevaarsverwachting en houd je peukenblikje dicht als je klaar bent. Op de pagina's van de parkdiensten en op borden bij de camping staat waar roken niet mag. Reis je ook naar Nieuw-Zeeland? KiwiCamping vertelt over <a data-sister=\"smoking-vaping-rules-new-zealand\">de rook- en vaperegels in Nieuw-Zeeland</a>."
+          ],
+          "tips": [
+            "Check dagelijks het brandgevaar",
+            "Check de rookvrije zones in het park",
+            "Doof nooit uit in gras"
+          ]
+        },
+        {
+          "heading": "Plan rond de regels in AussieCamps",
+          "body": [
+            "AussieCamps toont de campings die de parkdiensten publiceren, met het filter \"Populaire voorzieningen\" voor toiletten, drinkwater, douches en <a data-guide=\"campfires-camping-australia\">kampvuren</a>. Gebruik het filter \"Kosten\" om gratis en betaalde plekken te vergelijken en voeg stops toe aan een reis met data, notities, weer en een \"Takenlijst\", zodat je je peukenblikje en je legitimatiebewijs niet vergeet.",
+            "Plekdetails, zoeken en filters werken <a data-guide=\"camping-without-phone-signal\">zonder bereik</a>, omdat de gids in de app zit. De kaart, routeplanning en het weer hebben verbinding nodig, en AussieCamps draait op iPhone."
+          ],
+          "tips": [
+            "Filter op kampvuren en voorzieningen",
+            "Zet een peukenblikje op de takenlijst",
+            "Alleen iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hoeveel sigaretten mag ik meenemen naar Australië?",
+          "Reizigers van 18 jaar en ouder mogen 25 sigaretten of 25 g tabaksproducten, plus één geopend pakje, belastingvrij meenemen. Omdat pakjes er 20 bevatten, is dat in de praktijk één gesloten pakje en het pakje waar je nu uit rookt. Neem je meer mee en geef je het niet aan, dan kun je moeten betalen over alles of het moeten afstaan, en kun je boetes of vervolging krijgen. Geef alles boven de limiet aan bij de grens."
+        ],
+        [
+          "Mag ik een vape meenemen naar Australië?",
+          "Alleen in kleine hoeveelheden en alleen voor je eigen behandeling of die van iemand die je verzorgt en die met je meereist. De limiet is 2 vapes, 20 accessoires zoals pods of cartridges en 200 mL vapevloeistof. Vapes kunnen niet naar je worden opgestuurd, en je kunt ze in Australië niet in een winkel kopen."
+        ],
+        [
+          "Wat is de rookleeftijd in Australië?",
+          "Je moet overal in Australië 18 zijn om tabak of vapes te kopen, en winkels kunnen om een legitimatiebewijs met foto vragen. Toeristen krijgen dezelfde vraag als locals, dus neem je paspoort of rijbewijs mee."
+        ],
+        [
+          "Mag ik roken op een camping in Australië?",
+          "Meestal wel op je eigen plek, maar niet overal. In nationale parken in Queensland zijn roken en vapen verboden binnen 10 m van kampeerplekken en voorzieningen zoals toiletten en picknicktafels. Op een dag met totaal vuurverbod, of in droge bush, is het veiligst om buiten helemaal niet te roken."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Australian Border Force: belastingvrije vrijstellingen"
+        },
+        {
+          "label": "Office of Drug Control: vapes en de reizigersuitzondering"
+        },
+        {
+          "label": "TGA: informatie over vapes voor patiënten en consumenten"
+        },
+        {
+          "label": "Queensland Government: rookwetten in Queensland"
+        },
+        {
+          "label": "NSW Health: wetten over rookvrije commerciële buitenterrassen"
+        },
+        {
+          "label": "Victorian Government: advies over roken en vapen voor ouders"
+        },
+        {
+          "label": "NSW Rural Fire Service: nieuwe en hogere boetes"
+        }
+      ],
+      "priceTable": null
+    },
+    "where-to-buy-cigarettes-vapes-australia": {
+      "title": "Waar sigaretten en vapes kopen in Australië (2027)",
+      "description": "Sigaretten koop je bij de supermarkt, het tankstation en de tabakszaak; vapes alleen bij de apotheek. Waar je kunt kopen, legitimatieregels en wat je in het outback kunt verwachten.",
+      "region": "Australië",
+      "imageAlt": "De Nullarbor Roadhouse in South Australia, met een road train en een camper naast de benzinepompen en de winkel",
+      "intro": "Sigaretten worden verkocht bij de kassa van supermarkten, bij tankstations, buurtwinkels en tabakszaken, en je moet 18 jaar of ouder zijn om ze te kopen. Vapes zijn anders: sinds 1 juli 2024 mogen alleen apotheken ze verkopen, en volwassenen kunnen bij de apotheker zonder recept nicotinevapes van 20 mg/mL of minder kopen. Op het platteland blijft er vaak alleen een roadhouse of een algemene winkel over, meestal met minder merken en hogere prijzen, dus doe voorraad op in een grotere plaats voordat je aan een afgelegen etappe begint. De prijzen stijgen elk jaar, dus kijk naar de prijs in het schap en vertrouw niet op een bedrag van vorig jaar.",
+      "sections": [
+        {
+          "heading": "Waar je kunt kopen in één oogopslag",
+          "body": [
+            "Sigaretten vind je in elke plaats van redelijke omvang, en het soort winkel bepaalt het assortiment en de prijs. Vapes zijn een apart geval en komen alleen van de apotheek.",
+            "Wat winkels in huis hebben verschilt per keten en per jaar, dus zie de tabel als het gebruikelijke patroon en niet als een belofte voor elke winkel."
+          ],
+          "tips": [
+            "Sigaretten: bij veel winkels",
+            "Vapes: alleen apotheken",
+            "Het assortiment krimpt in het outback"
+          ],
+          "table": {
+            "caption": "Waar reizigers in Australië meestal tabak en vapes kopen, november 2026. Voorraad en prijzen verschillen per winkel.",
+            "head": [
+              "Waar",
+              "Wat ze verkopen",
+              "Opmerkingen"
+            ],
+            "rows": [
+              [
+                "Supermarkten",
+                "Sigaretten en shag; geen vapes",
+                "Coles, Woolworths en IGA verkopen het bij een servicebalie of kiosk; Aldi verkoopt geen tabak"
+              ],
+              [
+                "Tankstations en buurtwinkels",
+                "Sigaretten en shag; geen vapes",
+                "Tot laat open en overal, maar vaak de duurste optie"
+              ],
+              [
+                "Tabakszaken",
+                "Het grootste assortiment sigaretten en tabak; geen vapes",
+                "Speciaalzaken, het best voor minder gangbare merken"
+              ],
+              [
+                "Bottle shops en pubs",
+                "Bij sommige sigaretten",
+                "Niet allemaal hebben ze het, dus vraag het eerst"
+              ],
+              [
+                "Apotheken",
+                "Nicotinevapes van 20 mg/mL of minder, na een gesprek met de apotheker",
+                "De enige legale plek voor vapes; beperkte smaken; niet elke apotheek heeft ze"
+              ],
+              [
+                "Roadhouses en winkels in afgelegen gebieden",
+                "Een paar merken sigaretten, soms tabak",
+                "Hogere prijzen, kortere openingstijden, geen vapes"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Supermarkten en bottle shops",
+          "body": [
+            "Coles, Woolworths en IGA verkopen sigaretten, maar je ziet ze niet in een schap. Door het uitstalverbod liggen de pakjes in gesloten kasten, dus je vraagt bij een servicebalie of kiosk en noemt het merk. Supermarktketens bouwen hun tabaksverkoop af en sommige van hun slijterijen zijn ermee gestopt, dus wat er ligt verschilt per winkel. Aldi verkoopt helemaal geen tabak.",
+            "Sommige bottle shops en pubs met een bottle shop verkopen sigaretten en andere niet, dus vraag het eerst voordat je erop rekent. Een supermarktbalie is handig bij een grote boodschappenronde, want de prijzen liggen meestal op het niveau van de rest van het stadje en je bent er toch al."
+          ],
+          "tips": [
+            "Vraag bij de servicebalie",
+            "Aldi verkoopt geen tabak",
+            "Vraag het eerst bij bottle shops"
+          ]
+        },
+        {
+          "heading": "Tankstations en buurtwinkels",
+          "body": [
+            "Tankstations van Ampol, BP, 7-Eleven en de zelfstandigen verkopen bijna altijd sigaretten, meestal bij een balie achter de kassa, en veel zijn tot laat of de hele nacht open. Dat maakt ze de makkelijkste optie als je in een plaats aankomt nadat de supermarkten dicht zijn.",
+            "Die gemakkelijkheid kost geld. Een tankstation is vaak de duurste plek in het stadje voor een pakje. Koop je voor een paar weken in, dan komt een supermarktbalie of een tabakszaak meestal goedkoper uit. In de gids over <a data-guide=\"cigarette-prices-australia\">sigarettenprijzen</a> staan de gebruikelijke bedragen voor een pakje en een zakje."
+          ],
+          "tips": [
+            "Tot laat open, vaak het duurst",
+            "Prima voor een noodpakje",
+            "Goedkoper bij de supermarkt"
+          ]
+        },
+        {
+          "heading": "Tabakszaken en illegale winkels",
+          "body": [
+            "Tabakszaken zijn speciaalzaken met het grootste assortiment sigaretten en shag, en ze kunnen merken bestellen of aanwijzen die supermarkten niet hebben. Meerdere staten eisen nu dat een winkel een vergunning voor de tabakshandel heeft, en in <a data-guide=\"camping-rules-victoria\">Victoria</a> wordt de vergunningsplicht sinds 1 februari 2026 gehandhaafd. Een vergunningsnummer of certificaat hangt vaak in de winkel.",
+            "Wees op je hoede voor winkels die sigaretten of vapes heel goedkoop verkopen. In sommige winkels wordt illegale, onbelaste tabak en worden illegale vapes verkocht, en verkopen en kopen is bij wet verboden. Ze kunnen in beslag worden genomen en kopers kunnen een boete krijgen, met straffen die per staat verschillen. Legale sigaretten zitten in neutrale olijfbruine pakjes met grote afschrikwekkende foto's en waarschuwingen in het Engels, dus een kleurrijk of buitenlands ogend pakje, geen Engelse waarschuwing of een prijs ver onder het gebruikelijke bereik is een waarschuwingssignaal."
+          ],
+          "tips": [
+            "Het grootste assortiment merken",
+            "Neutrale pakjes, Engelse waarschuwingen",
+            "Spotgoedkoop betekent meestal illegaal"
+          ]
+        },
+        {
+          "heading": "Legitimatie en leeftijdsregels",
+          "body": [
+            "Je moet overal in Australië 18 jaar of ouder zijn om sigaretten, shag of een vape te kopen, en een verkoper mag weigeren je te bedienen zonder leeftijdsbewijs. Veel winkels vragen een legitimatiebewijs aan iedereen die er jonger dan 25 uitziet, dus reken erop dat ze erom vragen en vat het niet persoonlijk op.",
+            "Neem een paspoort of een Australisch rijbewijs mee, of een rijbewijs uit je eigen land als je foto en geboortedatum erop staan. Het personeel bepaalt wat ze accepteren, dus heb het origineel bij je in plaats van een fotokopie. In de gids over de <a data-guide=\"smoking-vaping-rules-australia\">rook- en vaperegels</a> staan de plekken waar roken niet mag."
+          ],
+          "tips": [
+            "Alleen vanaf 18 jaar",
+            "Vaak gevraagd als je er jonger dan 25 uitziet",
+            "Neem een origineel legitimatiebewijs met foto mee"
+          ]
+        },
+        {
+          "heading": "Een vape kopen",
+          "body": [
+            "Vapes mogen alleen door apotheken worden verkocht. Tabakszaken, vapewinkels en buurtwinkels mogen ze niet verkopen, met of zonder nicotine, en wegwerpvapes zijn verboden. Een winkel die ze gewoon over de toonbank verkoopt, overtreedt de wet.",
+            "Volwassenen kunnen na een kort gesprek zonder recept bij de apotheker een nicotinevape van 20 mg/mL of minder kopen, waar de wetten van de staat of het territorium dat toestaan. Hogere sterktes vragen een recept. Smaken zijn beperkt tot zonder smaak, mint, menthol en tabak. Niet elke apotheek heeft vapes, dus bel vooraf of vraag het bij een grotere."
+          ],
+          "tips": [
+            "Alleen apotheken",
+            "Geen wegwerpvapes",
+            "Mint, menthol, tabak"
+          ]
+        },
+        {
+          "heading": "In het outback en op afgelegen wegen",
+          "body": [
+            "Roadhouses en algemene winkels in afgelegen gebieden verkopen meestal sigaretten, maar het assortiment kan uit een paar merken bestaan en de prijs ligt hoger dan in de stad. Shag kan beperkt zijn, en als de winkel uitverkocht is, ligt de volgende misschien honderden kilometers verderop. Sommige afgelegen gemeenschappen stellen eigen regels over wat winkels mogen verkopen, dus vraag het na voordat je op een winkel in zo'n gemeenschap rekent en volg de borden over beperkingen.",
+            "Apotheken zijn schaars buiten de grotere plaatsen, dus als je vapet, koop je vooraf voordat je vertrekt. De meeste roadhouses accepteren pinpas of creditcard, maar storingen komen voor en de openingstijden zijn korter, vaak sluiten ze vroeg in de avond, dus heb wat contant geld bij je en koop voor het donker. Een paar reservepakjes voor een lange etappe zijn goedkoper dan bijvullen bij een roadhouse."
+          ],
+          "tips": [
+            "Koop vóór afgelegen etappes",
+            "Vapers: plan rond apotheken",
+            "Neem wat contant geld mee"
+          ]
+        },
+        {
+          "heading": "Onderweg en op de camping",
+          "body": [
+            "Hitte is slecht voor tabak en vapes. Laat pakjes, zakjes of een vape niet achter in een hete auto of gesloten camper, waar ze kunnen uitdrogen of bederven, en houd een vape uit de directe zon. Een tas op een schaduwrijke plek of een vak in de koelbox is beter.",
+            "Rook weg van de kampeerplek en de tenten en check de brandgevaarsverwachting. Bij een <a data-guide=\"campfires-camping-australia\">totaal vuurverbod</a> is een brandende sigaret een reëel risico, en sommige campings, stranden en nationale parken zijn rookvrij. Doof elke peuk helemaal en neem hem mee, laat hem nooit op de grond liggen. Reis je ook naar Nieuw-Zeeland? KiwiCamping vertelt <a data-sister=\"where-to-buy-cigarettes-vapes-new-zealand\">waar je in Nieuw-Zeeland sigaretten en vapes kunt kopen</a>."
+          ],
+          "tips": [
+            "Weg uit hete auto's",
+            "Check de brandgevaarsverwachting",
+            "Neem peuken mee"
+          ]
+        },
+        {
+          "heading": "Plan je bijvulstops in AussieCamps",
+          "body": [
+            "In AussieCamps voeg je elke stop toe aan een reis met data en notities, en de rijroute toont de afstand en de tijd van elke etappe. Zo zie je makkelijk de laatste grotere plaats voor een afgelegen stuk en noteer je die als de plek om voorraad in te slaan.",
+            "Plekdetails, zoeken en filters werken zonder bereik, zodat je de voorzieningen van een camping, zoals drinkwater, toiletten en <a data-guide=\"campfires-camping-australia\">kampvuren</a>, kunt bekijken als je buiten bereik bent. AussieCamps draait op iPhone."
+          ],
+          "tips": [
+            "Bekijk de afstand van elke etappe",
+            "Noteer plaatsen om bij te vullen",
+            "Alleen iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Waar kan ik sigaretten kopen in Australië?",
+          "Bij supermarkten zoals Coles, Woolworths en IGA, bij tankstations en buurtwinkels en bij tabakszaken, die het grootste assortiment hebben. Aldi verkoopt geen tabak. In supermarkten liggen sigaretten uit het zicht en vraag je ze bij de servicebalie."
+        ],
+        [
+          "Waar kan ik een vape kopen in Australië?",
+          "Alleen bij een apotheek. Sinds 1 juli 2024 mogen tabakszaken, vapewinkels en buurtwinkels geen vapes meer verkopen, en wegwerpvapes zijn verboden. Volwassenen kunnen na een kort gesprek zonder recept bij de apotheker nicotinevapes van 20 mg/mL of minder kopen, maar niet elke apotheek heeft ze."
+        ],
+        [
+          "Heb ik een legitimatiebewijs nodig om sigaretten te kopen in Australië?",
+          "Je moet 18 jaar of ouder zijn en het personeel kan om een leeftijdsbewijs vragen. Neem een paspoort of een Australisch rijbewijs mee, want een fotokopie of een foto op je telefoon wordt misschien niet geaccepteerd. Winkels vragen er meestal om bij iedereen die er jonger dan 25 uitziet."
+        ],
+        [
+          "Kan ik sigaretten kopen in het outback?",
+          "Meestal wel bij roadhouses en algemene winkels, maar met een klein assortiment en tegen hogere prijzen. Sommige winkels in afgelegen gemeenschappen hebben eigen regels over wat ze verkopen, en apotheken zijn schaars, dus koop wat je nodig hebt in een grotere plaats voordat je aan een afgelegen etappe begint."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Department of Health: over vapen"
+        },
+        {
+          "label": "Department of Health: veranderingen rond vapen in Australië vanaf 1 juli"
+        },
+        {
+          "label": "Therapeutic Goods Administration: hervormingen in de regulering van vapes"
+        },
+        {
+          "label": "Therapeutic Goods Administration: informatie over nicotinevapes voor consumenten"
+        },
+        {
+          "label": "Victorian Government: vergunningen voor tabak"
+        },
+        {
+          "label": "Department of Health: veranderingen bij tabaksproducten in Australië"
         }
       ],
       "priceTable": null

@@ -8102,112 +8102,272 @@
       }
     },
     "alcohol-coffee-drink-prices-australia": {
-      "title": "Oluen ja kahvin hinnat Australiassa 2027: pubiolut $7-$16",
-      "description": "Pubiolut maksaa $7-$16 ja cappuccino $4,50-$8 Sydneyssä (lokakuu 2026). Annosta kohden pubiolut on $4-$9 ja viinikaupan viini $1,60-$4.",
+      "title": "Paljonko olut maksaa Australiassa? Pubin ja bottle shopin hinnat (2027)",
+      "description": "Schooner-lasi maksaa pubissa $8-$13 ja pint $12-$18 Australian kaupungeissa (marraskuu 2026). 24 tölkin laatikko maksaa $55-$72. Hinnat kaupungeittain, lasien nimet, happy hourit.",
       "region": "Australia",
       "imageAlt": "Australialaisia kahvilajuomia pöydällä",
-      "intro": "500 ml:n tuoppi tuoretta olutta Sydneyn pubissa maksaa noin $7-$16 ja cappuccino $4,50-$8 yhteisön hintatietojen mukaan lokakuulta 2026, kun taas 500 ml:n pullo olutta viinakaupasta maksaa valtakunnallisesti noin $3,50-$12. Tavallista annosta kohden se on noin $4-$9 pubissa, $2-$7 viinakaupan oluelle ja $1,60-$4 keskihintaiselle viinipullolle, joten leiripaikalle mukaan ostetut juomat ovat edullisimpia.",
+      "intro": "Schooner-lasillinen olutta (425 ml) maksaa australialaisessa kaupunkipubissa marraskuussa 2026 noin $8-$13 ja pint (570 ml) noin $12-$18. Perth ja maaseudun pubit ovat halvimmasta päästä, sisä-Sydney ja Melbourne kalleimpia. Bottle shopista kuuden oluen paketti kotimaista perusolutta maksaa noin $20-$28 ja 24 pullon laatikko (slab) noin $55-$72, eli alle puolet pubin hinnasta per olut. Leirille viety olut on siis ylivoimaisesti edullisinta.",
       "sections": [
         {
-          "heading": "Vähittäis- ja ravintolahinnat ovat eri tuotteita",
+          "heading": "Oluen hinnat kaupungeittain",
           "body": [
-            "Pubin hintaan sisältyvät tila, henkilökunta ja palvelu, ei pelkkä neste. Vertaile samanlaista samaan äläkä kuvaile viinakaupan vastaavaa tarjoillun juoman hintana. Tavalliset annokset tekevät vertailusta reilun: Healthy WA määrittää yhden tavallisen annoksen 10 gramman alkoholiksi, mikä on 285 ml:ssa normaalivahvaa olutta tai 100 ml:ssa viiniä, joten 500 ml:n olut on noin 1,75 tavallista annosta ja 750 ml:n viinipullo noin 7,5.",
-            "Happy hourit ja tarjoukset ovat tilapäisiä. Rakenna budjetti tavallisesta vaihteluvälistä ja pidä alennusta liikkumavarana."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Viini viinakaupassa ja baarissa",
-          "body": [
-            "Keskihintainen 750 ml:n viinipullo maksaa viinakaupasta noin $12-$30, ja siitä riittää noin viisi 150 ml:n lasillista. Baarissa tai ravintolassa lasillisena tilattuna sama viini maksaa yleensä annosta kohden huomattavasti enemmän, joten leirillä jaettu pullo on halvin tapa juoda viiniä.",
-            "Jotkin ravintolat, enimmäkseen anniskeluluvattomat, antavat tuoda oman pullon korkkimaksua vastaan, mikä muuttaa viinakaupan hinnan illallisviiniksi. Kysy siitä varausta tehdessäsi, älä vasta pöydässä."
+            "Taulukossa on tavallisen oluen, kuten paikallisen lagerin tai pale alen, tyypilliset hinnat. Pubin hinta riippuu paljon paikasta: lähiön pubi tai klubi tarjoilee halvemmalla kuin kattobaari tai satamahotelli, ja craft-olut maksaa yleensä $2-$4 lasilta enemmän.",
+            "Bottle shopin hinnat vaihtelevat kaupunkien välillä vähemmän, koska suurin osa hinnasta on valmistevero (excise), alkoholin liittovaltion vero, joka on kaikkialla sama. Darwinissa ja outbackilla rahti nostaa hintoja, ja <a data-guide=\"camping-rules-northern-territory\">Northern Territoryn</a> bottle shopeissa on lisäsääntöjä aukioloajoista ja ikätodistuksesta.",
+            "Hintojen odotetaan edelleen nousevan. Pakatun oluen valmistevero nousee inflaation mukana joka helmikuu ja elokuu, joten bottle shopin hinnat kiipeävät läpi vuoden 2027, kun taas tynnyriolutta koskeva vero on jäädytetty elokuuhun 2027 asti, mikä pitää pubien hinnat vakaampina."
           ],
           "tips": [
-            "Keskihintainen pullo: $12-$30",
-            "Pullosta noin viisi lasillista",
-            "Kysy BYO:sta varatessa"
+            "Perth: pääkaupunkien halvimmat pintit",
+            "Sydney ja Melbourne: kalleimmat",
+            "Maaseudun pubit: usein halvimmat"
+          ],
+          "table": {
+            "caption": "Tavallisen oluen tyypilliset hinnat marraskuussa 2026. Schooner on 425 ml ja pint 570 ml; Adelaidessa 425 ml:n lasia sanotaan pintiksi.",
+            "head": [
+              "Kaupunki",
+              "Pubin schooner (425 ml)",
+              "Pubin pint (570 ml)",
+              "Kuuden pakkaus (bottle shop)",
+              "24 laatikko (bottle shop)"
+            ],
+            "rows": [
+              [
+                "Sydney",
+                "$9-$13",
+                "$13-$18",
+                "$21-$28",
+                "$57-$72"
+              ],
+              [
+                "Melbourne",
+                "$9,50-14",
+                "$14-$18,50",
+                "$21-$28",
+                "$57-$72"
+              ],
+              [
+                "Brisbane",
+                "$9-$13",
+                "$12-$17",
+                "$21-$28",
+                "$57-$72"
+              ],
+              [
+                "Perth",
+                "$8-$12",
+                "$9-$15",
+                "$21-$28",
+                "$58-$72"
+              ],
+              [
+                "Adelaide",
+                "$8,50-12",
+                "$12-$16",
+                "$20-$27",
+                "$55-$70"
+              ],
+              [
+                "Hobart",
+                "$9-$12",
+                "$12-$16",
+                "$21-$28",
+                "$58-$72"
+              ],
+              [
+                "Darwin",
+                "$9-$13",
+                "$13-$18",
+                "$23-$30",
+                "$62-$80"
+              ],
+              [
+                "Canberra",
+                "$9-$12",
+                "$12-$17",
+                "$21-$28",
+                "$57-$72"
+              ],
+              [
+                "Maaseudun pubit",
+                "$7-$10",
+                "$10-$14",
+                "$22-$32",
+                "$60-$85"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Lasien nimet ja koot osavaltioittain",
+          "body": [
+            "Australialaisten olutlasien nimet vaihtuvat osavaltioiden rajoilla, ja sama sana voi tarkoittaa eri lasia. Jos pyydät Sydneyssä schooneria, saat 425 ml; Adelaidessa saat 285 ml, koska etelä-australialaiset kutsuvat 425 ml:n lasia pintiksi ja 570 ml:n lasia imperial pintiksi.",
+            "Epäselvässä tilanteessa pyydä kokoa selvin sanoin tai sano vain small, medium tai large. Baarityöntekijät ovat tottuneet matkailijoihin, ja seinällä oleva hinnasto nimeää yleensä lasit."
+          ],
+          "tips": [
+            "Schooner tarkoittaa SA:ssa 285 ml",
+            "Pyydä small, medium tai large",
+            "Kannu (jug) on noin 1,1 litraa"
+          ],
+          "table": {
+            "caption": "Tynnyriolutlasien yleiset nimet osavaltioittain ja territorioittain. Nimet vaihtelevat pubien välillä, etenkin 285 ml:n lasin kohdalla.",
+            "head": [
+              "Osavaltio tai territorio",
+              "285 ml",
+              "425 ml",
+              "570 ml"
+            ],
+            "rows": [
+              [
+                "New South Wales ja ACT",
+                "Middy",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Victoria",
+                "Pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Queensland",
+                "Pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "South Australia",
+                "Schooner",
+                "Pint",
+                "Imperial pint"
+              ],
+              [
+                "Western Australia",
+                "Middy",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Tasmania",
+                "Ten tai pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Northern Territory",
+                "Handle tai middy",
+                "Schooner",
+                "Pint"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Vähittäis- ja anniskeluhinnat ovat eri tuotteita",
+          "body": [
+            "Pubin hintaan kuuluvat paikka, henkilökunta ja palvelu, ei pelkkä neste. Vertaa samanlaista samanlaiseen äläkä pidä bottle shopin vastaavaa tuotetta tarjoillun juoman hintana. Vakioannokset tekevät vertailusta reilun: Healthy WA määrittelee yhden vakioannoksen 10 gramman alkoholiksi, mikä on 285 ml:ssa vahvaa olutta tai 100 ml:ssa viiniä, joten 500 ml:n olut on noin 1,75 vakioannosta ja 750 ml:n viinipullo noin 7,5.",
+            "Vakioannosta kohden pubiolut maksaa noin $4-$9, bottle shopin laatikko noin $1,60-2,20 ja keskihintainen viinipullo noin $1,60-4. Keskivahva olut, jota myydään tynnyristä lähes kaikkialla, sisältää noin neljänneksen vähemmän alkoholia lähes samalla hinnalla."
+          ],
+          "tips": [
+            "285 ml vahvaa: yksi vakioannos",
+            "Laatikko-olut: noin $2 vakioannos",
+            "Keskivahva maksaa suunnilleen saman"
           ]
         },
         {
-          "heading": "Hallitse hiljaista päiväsummaa",
+          "heading": "Happy hourit ja halvimmat tavat juoda",
           "body": [
-            "Kaksi kahvia ja kaksi ravintolajuomaa joka päivä voi kasvaa viikossa merkittäväksi summaksi. Päätä, mitkä pysäkit ovat tärkeitä, äläkä osta tottumuksesta.",
-            "Pidä <a data-guide=\"camping-water-planning\">juomavesi</a> saatavilla ja täytä pullot vain juomakelpoisista hanoista. Kuumassa nesteytys ja varjo kuuluvat turvallisuussuunnitelmaan, ei viihdebudjettiin."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Kahvi on päivittäinen menoerä",
-          "body": [
-            "Australian kahvikulttuuri on vahva ja maaseutukaupunkien taso on aidosti korkea, minkä takia siitä tulee budjettierä. Kaksi flat whitea päivässä kahdelle ihmiselle kertyy tuntumatta koskaan päätökseltä.",
-            "Liesikeitin tai AeroPress vanissa hoitaa aamukupin murto-osalla kahvilan hinnasta ja jättää kahvilapysähdyksen valinnaksi eikä automaatioksi.",
-            "Tienvarsiasemien kahvi pitkillä ajomatkoilla on parhaimmillaankin vaihtelevaa. Outbackin reiteillä oman keittäminen on yleensä sekä halvempaa että huomattavasti parempaa."
+            "Monissa pubeissa on arki-iltapäivisin happy hour, usein noin klo 16-18, jolloin schooner maksaa noin $6-$9. Joskus tarjolla on myös halpoja kannuja, olut ruoka-annoksen kanssa tai steak-and-schooner-ilta. Pidä näitä bonuksena, älä budjettina: ne vaihtuvat usein ja moni on voimassa vain arkisin.",
+            "Klubit, kuten RSL:t, keilaklubit ja surf-klubit, tarjoilevat yleensä pubeja halvemmalla, ja vieraat ovat tervetulleita: kirjaudut ovella sisään kuvallisella henkilöllisyystodistuksella ja olet päivän väliaikainen jäsen.",
+            "Kaikista halvin juoma on bottle shopista ostettu laatikko tai viinipussi (cask), joka jäähdytetään asuntoauton jääkaapissa tai kylmälaukussa (esky) ja juodaan leirissä. Tarkista ensin leirintäalueen säännöt, sillä jotkin kansallispuistojen ja kuntien alueet sekä monet kaupunkien rannat ja puistot kieltävät alkoholin tai rajoittavat sitä tiettyinä aikoina."
           ],
           "tips": [
-            "Kaksi kuppia päivässä kertyy nopeasti",
-            "Keitä aamukuppi itse",
-            "Tienvarsiasemien kahvi vaihtelee"
+            "Arkien happy hour: noin klo 16-18",
+            "Klubit ottavat vieraat ID:llä",
+            "Tarkista alkoholisäännöt leirissä"
           ]
         },
         {
-          "heading": "Alkoholin ostaminen Australiassa",
+          "heading": "Alkoholin osto Australiassa",
           "body": [
-            "Pakattu alkoholi myydään enimmäkseen luvallisista viinakaupoista, jotka ovat usein supermarketin vieressä mutta toimivat erillään, vaikka Aldi ja jotkin itsenäiset kauppiaat myyvät sitä myymälässä. Aukioloajat on säännelty ja vaihtelevat osavaltioittain.",
-            "Alkoholirajoituksia on monissa yhteisöissä ja alueilla, erityisesti Northern Territoryssa, osissa <a data-guide=\"camping-rules-queensland\">Queenslandia</a>, Länsi-Australiassa ja Etelä-Australiassa. Alkoholin vieminen rajoitetulle alueelle johtaa merkittäviin seuraamuksiin.",
-            "Tarkista ennen kuin viet alkoholia syrjäisille alueille. Rajoituksia valvotaan lain voimalla, ne koskevat vierailijoita siinä missä asukkaitakin, eikä tietämättömyys ole puolustus."
+            "Pakattua alkoholia myydään pääosin luvanvaraisissa bottle shopeissa, jotka ovat usein supermarketin vieressä mutta toimivat erillään. Aldi ja jotkin itsenäiset ruokakaupat myyvät sitä kuitenkin myös sisällä. Aukioloajat on säännelty ja vaihtelevat osavaltioittain. Alkoholin ostamiseen vaaditaan 18 vuoden ikä, ja henkilökunta pyytää kuvallista henkilöllisyystodistusta keneltä tahansa, joka näyttää alle 25-vuotiaalta: passia tai ajokorttia.",
+            "Alkoholirajoituksia on monissa yhteisöissä ja alueilla, erityisesti Northern Territoryssa sekä osissa <a data-guide=\"camping-rules-queensland\">Queenslandia</a>, Western Australiaa ja South Australiaa. Alkoholin vieminen rajoitusalueelle voi johtaa merkittäviin seuraamuksiin.",
+            "Tarkista asia ennen kuin matkustat alkoholin kanssa syrjäisille alueille. Rajoitukset ovat laillisesti valvottuja, koskevat vierailijoita siinä missä asukkaitakin, eikä tietämättömyys ole puolustus."
           ],
           "tips": [
-            "Enimmäkseen viinakaupoista, joitain supermarketeista",
-            "Rajoitetuilla alueilla suuret sakot",
+            "Pääosin bottle shopeista, joitain supermarketeista",
+            "Ota kuvallinen ID mukaan",
             "Tarkista ennen syrjäisille alueille menoa"
           ]
         },
         {
           "heading": "Juominen ja ajopäivä",
           "body": [
-            "Yleinen raja on 0,05 täyden ajokortin haltijoille, nolla oppilas- ja koeaikaisille kuljettajille sekä nolla tai 0,02 monille ammattikuljettajille osavaltiosta riippuen (0,02 NSW:ssä). Satunnaisia puhalluskokeita tehdään usein, myös maaseututeillä ja päiväsaikaan.",
-            "Road tripillä ainoa turvallinen tapa on erottaa juominen ja ajaminen täysin: pysy siellä, missä juot, käytä nimettyä kuljettajaa tai juo vasta, kun ajoneuvo on pysäköity yöksi.",
-            "Aamuinen ajaminen yllättää ihmiset. Keholta menee vähintään tunti jokaisen tavallisen annoksen poistamiseen, usein pidempään, eivätkä kahvi tai suihku nopeuta sitä, joten raskas ilta voi jättää sinut rajan yli pitkälle seuraavaan aamuun."
+            "Yleinen raja on 0,05 täyden ajokortin haltijoille, nolla oppilas- ja kokeiluvaiheen kuljettajille ja nolla tai 0,02 monille ammattikuljettajille osavaltiosta riippuen (NSW:ssä 0,02). Satunnaisia puhalluskokeita tehdään yleisesti, myös maaseututeillä ja päiväsaikaan.",
+            "Road tripillä ainoa turvallinen tapa on erottaa juominen ja ajaminen kokonaan: pysy siellä missä juot, käytä nimettyä kuljettajaa tai juo vasta kun ajoneuvo on pysäköity yöksi.",
+            "Aamuinen ajaminen yllättää monet. Elimistöltä kestää vähintään tunti poistaa yksi vakioannos, usein pidempään, eikä kahvi tai suihku nopeuta sitä, joten runsas ilta voi jättää sinut rajan yli vielä pitkälle seuraavaan aamuun."
           ],
           "tips": [
-            "0,05 yleisesti, nolla oppilas- ja koeaikaisille",
-            "Satunnaisia kokeita tehdään usein ja päiväsaikaan",
-            "Aamuinen ajaminen on ansa"
+            "0,05 yleisesti, nolla oppilas- ja kokeiluvaiheessa",
+            "Satunnaiset testit ovat yleisiä ja päiväsaikaan",
+            "Aamuajo on ansa"
           ]
         },
         {
-          "heading": "Vesi on se, jonka kanssa kannattaa onnistua",
+          "heading": "Viini bottle shopissa ja baarissa",
           "body": [
-            "Hanavesi on turvallista ja hyvää lähes kaikissa Australian kaupungeissa, ja pullotetun veden ostaminen on lähes pelkkää hukkaa. Kanna täytettäviä pulloja mukana ja täytä ne missä tahansa juomakelpoisessa hanassa kaupungissa, leirintäalueella tai julkisessa tilassa.",
-            "Syrjäisillä seuduilla ja pensaikossa tilanne kääntyy: porakaivovesi voi olla mineraalipitoista tai sopimatonta, säiliövesi on käsittelemätöntä ja maatalousalueiden pintavesi voi sisältää kemiallista saastetta. Käsittele kaikki, mikä ei ole merkitty juomakelpoinen kaupungin vesi.",
-            "Kanna kunnollista eristettyä pulloa, jotta kylmää vettä on aina saatavilla kuumassa; täyttäminen ei maksa mitään."
+            "Keskihintainen 750 ml:n viinipullo maksaa bottle shopissa noin $12-$29, ja siitä riittää noin viisi 150 ml:n lasillista. Baarissa tai ravintolassa lasilta tilattuna sama viini maksaa yleensä $10-$16 lasilta, joten leirissä jaettu pullo on viinin halvin tapa.",
+            "Jotkin ravintolat, enimmäkseen ilman anniskelulupaa olevat, antavat tuoda oman pullon korkkimaksua vastaan (corkage), mikä tekee bottle shopin hinnasta illallisviinin. Kysy asiasta pöytää varatessa, älä vasta pöydässä."
           ],
           "tips": [
-            "Kaupungin hanavesi on turvallista",
-            "Porakaivovesi on usein sopimatonta",
-            "Käsittele säiliö- ja pintavesi"
+            "Keskihintainen pullo: $12-$29",
+            "Pullosta noin viisi lasillista",
+            "Kysy BYO:sta varattaessa"
+          ]
+        },
+        {
+          "heading": "Kahvi on päivittäinen menoerä",
+          "body": [
+            "Tavallinen cappuccino tai flat white maksaa noin $4-$8, sisäkaupungin kahvilat hintahaarukan yläpäässä. Australian kahvikulttuuri on vahva ja taso on maakuntakaupungeissakin todella korkea, ja juuri siksi siitä tulee budjettierä: kaksi kahvia päivässä kahdelle ihmiselle kertyy summaksi ilman, että se tuntuu päätökseltä.",
+            "Moka-pannu tai AeroPress asuntoautossa hoitaa aamukupin murto-osalla kahvilan hinnasta ja tekee kahvilapysähdyksestä valinnan eikä automaattia. Roadhouse-kahvi pitkillä outback-ajoilla on vaihtelevaa, joten itse keitetty on yleensä sekä halvempaa että parempaa.",
+            "Vesijohtovesi on turvallista ja hyvää lähes kaikissa Australian kaupungeissa, joten kanna täytettäviä pulloja äläkä osta vettä. Pensaikossa käsittele kaivo-, säiliö- ja puroveti ennen juomista. Matkaatko myös Uuteen-Seelantiin? KiwiCamping kertoo, <a data-sister=\"beer-wine-coffee-prices-new-zealand\">paljonko olut, viini ja kahvi maksavat Uudessa-Seelannissa</a>."
+          ],
+          "tips": [
+            "Cappuccino: $4-$8",
+            "Keitä aamukahvi itse",
+            "Kaupunkien vesijohtovesi on turvallista"
           ]
         }
       ],
       "faq": [
         [
           "Paljonko olut maksaa Australiassa?",
-          "500 ml:n tuoppi tuoretta olutta Sydneyn pubissa maksaa noin $7,15-$16 lokakuun 2026 yhteisön hintatietojen mukaan ja 500 ml:n pullo viinakaupasta noin $3,50-$12 valtakunnallisesti. Viinakaupasta ostaminen baarin sijaan on yksi suurimmista säästöistä pitkällä reissulla."
+          "Schooner (425 ml) tavallista olutta maksaa kaupunkipubissa marraskuussa 2026 noin $8-$13 ja pint (570 ml) noin $12-$18. Bottle shopista kuuden pakkaus maksaa noin $20-$28 ja 24 laatikko noin $55-$72, eli alle puolet pubin hinnasta per olut."
+        ],
+        [
+          "Paljonko pint maksaa Australiassa?",
+          "Noin $12-$18 (570 ml):lta tavallista olutta kaupunkipubissa, Perth ja maaseudun pubit halvimmassa päässä sekä sisä-Melbourne ja Sydney ylimpänä. South Australiassa pint on 425 ml:n lasi, joka maksaa noin $8,50-12; pyydä imperial pintiä saadaksesi 570 ml."
+        ],
+        [
+          "Missä on halvin olut Australiassa?",
+          "Perthin ja maaseudun pubit tarjoilevat halvinta olutta, ja klubit kuten RSL:t ja keilaklubit alittavat yleensä pubien hinnat; vieraat kirjautuvat sisään kuvallisella ID:llä. Arkien happy hourit laskevat schoonerin noin $6-$9:ään, mutta bottle shopin laatikko, noin $2 vakioannos, on halvin kaikista."
         ],
         [
           "Paljonko kahvi maksaa Australiassa?",
-          "Tavallinen cappuccino maksaa noin $4,50-$8 Sydneyssä ja $4-$8 valtakunnallisesti lokakuun 2026 yhteisön hintatietojen mukaan, ja kantakaupungin kahvilat ovat usein vaihteluvälin yläpäässä. Kaksi kahvia päivässä kahdelle ihmiselle on pitkällä reissulla todellinen budjettierä."
+          "Tavallinen cappuccino tai flat white maksaa noin $4-$8, sisäkaupungin kahvilat usein hintahaarukan yläpäässä. Kaksi kahvia päivässä kahdelle ihmiselle on pitkällä matkalla todellinen budjettierä, joten moni matkailija keittää aamukupin itse."
         ]
       ],
       "sources": [
         {
-          "label": "Numbeo: Sydneyn juomahinnat"
+          "label": "Numbeo Australia drink prices, päivitetty marraskuussa 2026"
         },
         {
-          "label": "Numbeo: Australian vähittäishintavälit"
+          "label": "Australian Taxation Office: alkoholin valmisteverokannat"
         },
         {
-          "label": "NSW:n alkoholi- ja ajo-ohjeet"
+          "label": "Healthy WA: mikä on vakioannos"
+        },
+        {
+          "label": "NSW:n alkoholi- ja ajamisohjeet"
         },
         {
           "label": "NHMRC: kuinka kauan alkoholin poistuminen kestää"
@@ -8216,31 +8376,35 @@
           "label": "Northern Territory: alkoholin osto ja juominen"
         },
         {
-          "label": "Healthy WA: mikä on tavallinen annos"
+          "label": "NSW Government: klubien säännöt vieraille"
         }
       ],
       "priceTable": {
-        "note": "Yhteisön lisäämät Australian ja Sydneyn hintavälit päivitetty lokakuussa 2026. Annoskoko, paikka, tarjous ja sijainti vaihtelevat.",
+        "note": "Kaupunkien pubien ja bottle shopien hintahaarukat tavalliselle australialaiselle oluelle marraskuussa 2026. Craft-olut, tuontiolut, rantaravintolat ja syrjäiset alueet maksavat enemmän; happy hourit ja tarjoukset vähemmän.",
         "rows": [
           {
-            "label": "Cappuccino (Sydney)",
+            "label": "Pubin schooner",
+            "unit": "425 ml"
+          },
+          {
+            "label": "Pubin pint",
+            "unit": "570 ml"
+          },
+          {
+            "label": "Bottle shopin kuuden pakkaus",
+            "unit": "6 x 375 ml"
+          },
+          {
+            "label": "Bottle shopin laatikko",
+            "unit": "24 x 375 ml"
+          },
+          {
+            "label": "Keskihintainen viini",
+            "unit": "750 ml bottle shop"
+          },
+          {
+            "label": "Cappuccino",
             "unit": "yksi kuppi"
-          },
-          {
-            "label": "Pubin tuoppi olutta (Sydney)",
-            "unit": "yksi annos"
-          },
-          {
-            "label": "Keskihintainen viini (valtakunnallinen)",
-            "unit": "750 ml vähittäis"
-          },
-          {
-            "label": "Kotimaisen oluen vastine (valtakunnallinen)",
-            "unit": "500 ml vähittäis"
-          },
-          {
-            "label": "Virvoitusjuoma (Sydney)",
-            "unit": "330 ml ravintola"
           }
         ]
       }
@@ -29463,6 +29627,608 @@
         },
         {
           "label": "Bureau of Meteorology: ilmasto alueittain"
+        }
+      ],
+      "priceTable": null
+    },
+    "cigarette-prices-australia": {
+      "title": "Paljonko savukkeet maksavat Australiassa 2027? Askit $40-$60",
+      "description": "Laillinen 20 savukkeen aski maksaa Australiassa noin $40-$60 ja 30 g:n kääretupakkapussi noin $90-$120. Hinnat osavaltioittain, miksi vero on kustannus, ja vapet.",
+      "region": "Australia",
+      "imageAlt": "Suljettu tupakkakaappi australialaisessa kaupassa, jonka päällä on neutraaleissa pakkauksissa olevia savukeaskeja ja pusseja hintoineen",
+      "intro": "Laillinen 20 savukkeen aski maksaa Australiassa marraskuussa 2026 noin $40-$60 ja 30 g:n pussi kääretupakkaa noin $90-$120. Myös 25 savukkeen askit ja suuret pussit ovat poistuneet: 1.7.2025 alkaen savukkeita myydään vain 20 kappaleen askeissa ja kääretupakkaa vain 30 g:n pusseissa. Lähes koko hinta on liittovaltion veroa, joten sama aski maksaa suunnilleen saman Sydneyssä ja Perthissä, syrjäiset kaupungit ja Northern Territory hieman enemmän. Hinnat nousevat kahdesti vuodessa, joten varaa enemmän kuin tässä esitetyt luvut, jos matkustat vuonna 2027.",
+      "sections": [
+        {
+          "heading": "Mitä 20 savukkeen aski maksaa",
+          "body": [
+            "Halpamerkit ovat alapäässä, noin $38-$45 (20 savukkeelta. Tavalliset merkit, jotka näet jokaisen servon (huoltoaseman) tiskin takana, maksavat lähempänä $50-$60. Kaupat ja ketjut alentavat ja nostavat hintoja eri aikoihin, joten sama merkki voi vaihdella muutaman dollarin kahden saman kadun kaupan välillä.",
+            "Jos muistat 25 savukkeen askin aiemmilta vuosilta tai kotimaan tuttavilta, sitä kokoa ei enää ole Australiassa. 1.7.2025 täysimääräisesti voimaan tullut neutraalien pakkausten laki vahvisti jokaisen savukeaskin kooksi 20, ja 10 askia per karton. 20 kappaleen aski on ainoa hinnoiteltava koko."
+          ],
+          "tips": [
+            "Halpa: noin $38-$45",
+            "Tavallinen: noin $50-$60",
+            "25 askeja ei enää myydä"
+          ]
+        },
+        {
+          "heading": "Hinnat osavaltioittain ja territorioittain",
+          "body": [
+            "Suurin osa hinnasta on liittovaltion valmisteveroa, joka on sama joka osavaltiossa, joten ostopaikan osavaltio vaikuttaa hintaan vain vähän. Alla olevat haarukat ovat suuntaa antava arvio siitä, mitä kaupat veloittavat laillisista tuotteista. <a data-guide=\"camping-rules-northern-territory\">Northern Territory</a> ja syrjäiset yhteisöt ovat yleensä kalliimpia, koska rahti ja pienet myyntimäärät nostavat hyllyhintaa, ja outbackin roadhouse-hinta voi olla kaikista korkein.",
+            "Virallista osavaltiokohtaista hintaluetteloa ei ole, joten pidä haarukoita odotettavissa olevana vaihteluvälinä äläkä tarjouksena. Nopea katse hyllyyn ennen ostoa kertoo enemmän kuin mikään taulukko."
+          ],
+          "tips": [
+            "Sama vero joka osavaltiossa",
+            "NT ja syrjäiset: hieman kalliimpaa",
+            "Tarkista hyllyhinta"
+          ],
+          "table": {
+            "caption": "Laillisen tupakan tyypilliset hyllyhinnat marraskuussa 2026. Suuntaa antava arvio, ei tarjous: kaupat päättävät hinnoistaan itse.",
+            "head": [
+              "Osavaltio tai territorio",
+              "20 savukkeen aski",
+              "30 g:n pussi"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "$40-$60",
+                "$90-$120"
+              ],
+              [
+                "Victoria",
+                "$40-$60",
+                "$90-$120"
+              ],
+              [
+                "Queensland",
+                "$40-$60",
+                "$90-$120"
+              ],
+              [
+                "South Australia",
+                "$40-$60",
+                "$90-$120"
+              ],
+              [
+                "Western Australia",
+                "$40-$60",
+                "$90-$120"
+              ],
+              [
+                "Tasmania",
+                "$40-$60",
+                "$90-$120"
+              ],
+              [
+                "Australian Capital Territory",
+                "$40-$60",
+                "$90-$120"
+              ],
+              [
+                "Northern Territory ja syrjäiset alueet",
+                "$45-$65 tai enemmän",
+                "$95-$130 tai enemmän"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Kääretupakkapussit",
+          "body": [
+            "Kääretupakkaa myydään vain 30 g:n pusseissa, ja yhdestä pussista saa noin 50 ohutta savuketta. Halpapussit maksavat noin $90 ja premium-pussit noin $115 tai hieman enemmän, joten kääretupakka ei ole savuketta kohden paljon halvempaa kuin 20 savukkeen aski, kun lisäät paperit ja <a data-guide=\"how-to-use-aussiecamps-filters\">suodattimet</a>.",
+            "Kääretupakan valmistevero peritään painon mukaan, $2 587,90 kilolta 1.9.2026 alkaen. Se on noin $78 veroa jokaisessa 30 g:n pussissa ennen GST:tä, minkä vuoksi hyllyhinta on niin lähellä pakatun askin hintaa."
+          ],
+          "tips": [
+            "30 g on ainoa koko",
+            "Noin $90-$120",
+            "Ei paljon halvempaa per savuke"
+          ]
+        },
+        {
+          "heading": "Miksi ne maksavat niin paljon",
+          "body": [
+            "Hinta on suurimmaksi osaksi veroa. Liittovaltion valmistevero on $1,55274 jokaisesta savukkeesta 1.9.2026 alkaen, maaliskuun $1,52829:n jälkeen, mikä on noin $31 jokaista 20 savukkeen askia kohden. Sen päälle kassalla lisätään 10 %:n GST. Yhteensä se on noin 70 % tyypillisen $50 askin hinnasta, halpa-askissa vielä enemmän.",
+            "Verokanta muuttuu kahdesti vuodessa, maaliskuussa ja 1.9., koska se seuraa palkkakehitystä. Lisäksi kanta nousi ylimääräiset 5 % joka syyskuu vuosina 2023-2026, joten kustannus on noussut tasaisesti eikä yhdellä harppauksella. Aski, joka vaikuttaa kalliilta vierailijan ensimmäisellä matkalla, kallistuu edelleen ensi vuonna."
+          ],
+          "tips": [
+            "Noin $31 valmisteveroa per aski",
+            "Lisäksi 10 % GST",
+            "Nousee joka maaliskuu ja syyskuu"
+          ]
+        },
+        {
+          "heading": "Vuosittainen nousu ja matkasi",
+          "body": [
+            "Koska kanta muuttuu joka maaliskuu ja syyskuu, viime vuoden luku on vanhentunut siihen mennessä, kun laskeudut. Oleta nyrkkisääntönä, että aski maksaa vuonna 2027 muutaman dollarin enemmän kuin tämän sivun vuoden 2026 haarukat, ja tarkista hyllyhinta ensimmäisessä kaupungissa ennen kuin suunnittelet kuukauden menoja.",
+            "Runsas tupakoitsija kuluttaa pitkällä matkalla nopeasti. Kymmenen askia kuukaudessa on noin $400-$600. Kirjaa se matkabudjettiin omana rivinään, kuten polttoaine, jotta se ei syö ruokarahoja."
+          ],
+          "tips": [
+            "Odota muutaman dollarin lisää",
+            "Kymmenen askia: $400-$600",
+            "Anna sille oma budjettirivi"
+          ]
+        },
+        {
+          "heading": "Vapen hinnat",
+          "body": [
+            "1.7.2024 alkaen vapeja on myyty vain apteekeissa, sisältävät ne nikotiinia tai eivät. Aikuiset voivat ostaa heikomman nikotiinipitoisia vapeja apteekkarilta ilman reseptiä useimmissa osavaltioissa keskustelun jälkeen, ja vahvemmat tuotteet vaativat reseptin. Apteekit voivat toimittaa vain TGA:n ilmoitettujen vapejen listalla olevia tuotteita.",
+            "Apteekin hinnat määrittelee valmistaja ja kauppa, ei valtio. Odota noin $30-$60 peruslaitteesta tai podien paketista ja enemmän aloituspakkauksesta. Halvat kertakäyttövapet, joita jotkin kaupat myyvät tiskin alta, eivät ole laillisia tuotteita."
+          ],
+          "tips": [
+            "Vain apteekeissa heinäkuusta 2024",
+            "Noin $30-$60 per laite",
+            "Kysy ensin apteekkarilta"
+          ]
+        },
+        {
+          "heading": "Laiton tupakka ja vapet",
+          "body": [
+            "Jotkin kaupat myyvät savukkeita ja vapeja murto-osalla laillisesta hinnasta, usein merkitsemättömissä tai ulkomaisissa pakkauksissa ja joskus nimellä chop chop. Ne ovat laittomia, ja niiden ostaminen voi johtaa sakkoihin ja tavaran takavarikointiin, seuraamukset vaihtelevat osavaltioittain. Niissä ei myöskään ole australialaisia terveysvaroituksia.",
+            "Jos hinta näyttää liian hyvältä ylläolevien lukujen rinnalla, se lähes varmasti on sitä, joten osta vapet apteekista ja tupakka luvanvaraiselta <a data-guide=\"where-to-buy-cigarettes-vapes-australia\">tupakkakauppiaalta</a> tai supermarketista."
+          ],
+          "tips": [
+            "Merkitsemättömät askit ovat laittomia",
+            "Ostajalle voi tulla sakko",
+            "Halpa tarkoittaa yleensä laitonta"
+          ]
+        },
+        {
+          "heading": "Näin säästät laillisesti",
+          "body": [
+            "<a data-guide=\"smoking-vaping-rules-australia\">Tullittoman tuonnin määrä</a> saapuessa on vain 25 savuketta tai 25 grammaa tupakkaa sekä yksi avattu aski 18 vuotta täyttäneille matkustajille. Jos tuot enemmän, se on ilmoitettava, ja Australian Border Force toteaa, että joko luovutat ylimääräisen tai maksat tullin koko määrästä. Ilmoittamaton tupakka voidaan takavarikoida ja siitä voi tulla sakko, joten kotoa tuotu varasto ei ole tapa säästää pitkällä matkalla.",
+            "Karton-osto ei ole savuketta kohden paljon halvempaa, koska vero on sama jokaiselta savukkeelta. Todelliset säästöt ovat pieniä: valitse halpamerkki, osta missä kauppa alentaa ja vältä roadhouse- ja syrjäisten alueiden hintoja jos voit. Matkailijoiden säännöt, mukaan lukien tullittomuus, vapet ja savuttomat paikat, käsitellään tupakointi- ja vapesääntöjen oppaassa. Jos tupakoit leirin lähellä, sammuta jokainen tumppi kokonaan ja vie se mukanasi, ja noudata <a data-guide=\"campfires-camping-australia\">täydellisen tulenteon kiellon</a> sääntöjä: tumpit ja pensaikko eivät sovi yhteen.",
+            "Matkaatko myös Uuteen-Seelantiin? KiwiCamping kertoo, <a data-sister=\"cigarette-prices-new-zealand\">paljonko savukkeet maksavat Uudessa-Seelannissa</a>."
+          ],
+          "tips": [
+            "Kanna vain 25 savuketta",
+            "Kartonit säästävät vähän",
+            "Tumpit sammuksiin ja mukaan"
+          ]
+        },
+        {
+          "heading": "Budjetoi matka AussieCampsissa",
+          "body": [
+            "AussieCamps <a data-guide=\"how-to-use-aussiecamps-filters\">suodattaa</a> paikat hinnan, ilmaisen tai maksullisen mukaan, jotta halvemmat yöt jättävät tilaa muulle budjetille. Lisää jokainen pysähdys matkaan päivämäärillä, muistiinpanoilla ja tehtävälistalla, jotta täydennysostokset isommissa kaupungeissa ennen syrjäistä osuutta kuuluvat suunnitelmaan.",
+            "Paikkojen tiedot ja suodattimet toimivat <a data-guide=\"camping-without-phone-signal\">ilman kenttää</a>, ja ajoreitti näyttää jokaisen osuuden pituuden ja keston. AussieCamps toimii iPhonella."
+          ],
+          "tips": [
+            "Suodata hinnan mukaan",
+            "Suunnittele täydennysostot ennen syrjäisiä osuuksia",
+            "Vain iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Paljonko savukeaski maksaa Australiassa?",
+          "Laillinen 20 savukkeen aski maksaa yleensä noin $40-$60 marraskuussa 2026, halpamerkit alapäässä ja tavalliset merkit yläpäässä. 25 savukkeen askeja ei enää myydä: 1.7.2025 alkaen jokaisessa savukeaskissa on oltava tasan 20. Hinnat ovat itärannikolla hieman alhaisemmat ja Northern Territoryssa sekä syrjäisissä kaupungeissa korkeammat."
+        ],
+        [
+          "Miksi savukkeet ovat niin kalliita Australiassa?",
+          "Liittovaltion vero. Valmistevero on $1,55274 jokaisesta savukkeesta 1.9.2026 alkaen, mikä on noin $31 (20 savukkeen askilta) ennen 10 %:n GST:n lisäämistä. Useimmilla merkeillä noin 70 % tai enemmän hyllyhinnasta menee valtiolle."
+        ],
+        [
+          "Montako savuketta saan tuoda Australiaan?",
+          "Tullittoman tuonnin määrä 18 vuotta täyttäneille matkustajille on 25 savuketta tai 25 grammaa tupakkaa sekä yksi avattu aski. Ilmoita kaikki sen ylittävä. Australian Border Force toteaa, että voit tuoda sallitun määrän ja luovuttaa loput tai pitää kaiken ja maksaa tullin koko määrästä."
+        ],
+        [
+          "Voinko ostaa vapen Australiasta turistina?",
+          "Vain apteekista. 1.7.2024 alkaen vapeja ei saa myydä muissa kaupoissa, ja niitä myyvät lähikaupat rikkovat lakia. Aikuiset voivat ostaa heikomman nikotiinipitoisia vapeja apteekkarilta ilman reseptiä useimmissa osavaltioissa lyhyen keskustelun jälkeen."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Australian Taxation Office: tupakan valmisteverokannat"
+        },
+        {
+          "label": "Australian Border Force: tullittoman tuonnin määrät"
+        },
+        {
+          "label": "Department of Health: tupakkatuotteiden muutokset Australiassa"
+        },
+        {
+          "label": "Department of Health: vapelait"
+        },
+        {
+          "label": "Therapeutic Goods Administration: nikotiinivapetuotteet"
+        },
+        {
+          "label": "Tobacco in Australia: tupakkatuotteiden hinta"
+        }
+      ],
+      "priceTable": null
+    },
+    "smoking-vaping-rules-australia": {
+      "title": "Tupakointi ja vapeaminen Australiassa (2027): säännöt matkailijoille",
+      "description": "Tuo 25 savuketta tai 25 g tupakkaa tullitta, vapet vain apteekista, ikäraja 18 ja palavat tumpit pensaikossa tuovat suuret sakot. Matkailijoiden säännöt 2027.",
+      "region": "Australia",
+      "imageAlt": "Kyltti, jossa lukee This jetty is smoke-free and vape-free, Outer Harbor -laiturin kaiteessa Adelaidessa, South Australiassa",
+      "intro": "18 vuotta täyttäneet vierailijat voivat tuoda Australiaan tullitta 25 savuketta tai 25 g tupakkaa sekä yhden avatun askin, ja kaikki ylimääräinen on ilmoitettava. Vapeja myydään nyt vain apteekeissa, ja matkustajapoikkeus sallii 2 vapea, 20 podia tai patruunaa ja 200 mL nestettä omaan hoitoon. Molempien ostamiseen vaaditaan 18 vuoden ikä, ja tupakointi ja vapeaminen on kielletty monissa ulkotiloissa, kahvilapöydistä vartioituihin rantoihin. Leiriläisille suurin asia on tuli: autosta heitetty tai kuivaan heinikkoon pudonnut palava tumppi voi maksaa tuhansia dollareita. Nämä ovat säännöt marraskuussa 2026.",
+      "sections": [
+        {
+          "heading": "Mitä voit tuoda maahan tullitta",
+          "body": [
+            "18 vuotta täyttäneet aikuiset voivat tuoda tupakkaa Australiaan ilman lupaa. Tullittoman tuonnin määrä on 25 savuketta tai 25 g tupakkatuotteita sekä yksi avattu aski. Koska australialaisissa ja useimmissa ulkomaisissa askeissa on 20, se tarkoittaa yhtä sinetöityä askia sekä sitä, jota poltat. Alle 18-vuotiailla ei ole mitään tupakkakiintiötä.",
+            "Jos ylität rajan, Australian Border Force toteaa, että tulli ja verot koskevat koko kyseistä tavaralajia, ei vain rajan ylittävää osaa. Ylimäärän ilmoittamatta jättäminen voi johtaa seuraamuksiin, syytteeseen tai viisumin peruuttamiseen riippuen siitä, kuinka paljon kuljetat. Jos sinulla on enemmän, ilmoita se Incoming Passenger Cardilla, näytä ostotodistus ja maksa tulli tai luovuta se rajalla. Paikallisten askien hinnat käsitellään <a data-guide=\"cigarette-prices-australia\">savukkeiden hintojen</a> oppaassa."
+          ],
+          "tips": [
+            "25 savuketta tai 25 g",
+            "Lisäksi yksi avattu aski",
+            "Ilmoita kaikki ylimääräinen"
+          ]
+        },
+        {
+          "heading": "Vapet matkailijoille",
+          "body": [
+            "Vuodesta 2024 alkaen vapet on Australiassa luokiteltu lääkinnällisiksi tuotteiksi. Matkailijat voivat tuoda niitä vain matkustajapoikkeuksella: vapejen on oltava omaan hoitoosi tai samalla lennolla tai laivalla matkustavalle hoidettavallesi. Rajat ovat yhteensä 2 vapea, 20 lisätarviketta kuten podia, patruunaa tai kapselia ja 200 mL vapenestettä.",
+            "Kertakäyttövapet lasketaan mukaan niihin kahteen. Vapejen postittaminen itselleen tai ystävän lähettäminen ei ole sallittua, ja rajan ylittävä määrä voidaan takavarikoida. Ilmoita vapesi ja pidä ne käsimatkatavaroissa, jossa virkailijat näkevät ne. Niiden kuljettamisen säännöt lentokoneessa määrittelee lentoyhtiösi, joten tarkista ennen lentoa."
+          ],
+          "tips": [
+            "2 vapea, 20 podia, 200 mL",
+            "Vain omaan käyttöön",
+            "Ei vapejen postitusta Australiaan"
+          ]
+        },
+        {
+          "heading": "Vapen osto ja laillinen ikäraja",
+          "body": [
+            "Vapeja myyvät Australiassa vain apteekit. Lokakuusta 2024 alkaen apteekkarit voivat toimittaa enintään 20 mg/mL nikotiinivapeja 18 vuotta täyttäneille ilman reseptiä, ja alle 18-vuotiaat tarvitsevat sellaisen. <a data-guide=\"where-to-buy-cigarettes-vapes-australia\">Tupakkakauppiaat</a>, vapekaupat, servot ja lähikaupat eivät saa myydä vapeja lainkaan nikotiinipitoisuudesta riippumatta.",
+            "Tupakan ostamisen laillinen ikäraja on 18 jokaisessa osavaltiossa ja territoriossa, ja kaupat voivat pyytää kuvallista henkilöllisyystodistusta. Vierailijoilta kysytään samaa kuin paikallisilta, joten passi tai <a data-guide=\"overseas-driver-licence-australia-state-guide\">ulkomainen ajokortti</a> on turvallinen mukaan otettava. Apteekkarit voivat myös kertoa osavaltiokohtaisista lisäsäännöistä ennen ostoa."
+          ],
+          "tips": [
+            "Vapet: vain apteekista",
+            "18 vuotta kaiken ostamiseen",
+            "Ota kuvallinen ID mukaan"
+          ]
+        },
+        {
+          "heading": "Missä et saa tupakoida tai vapeta",
+          "body": [
+            "Savuttomuuslait määrää jokainen osavaltio ja territorio, ja vapeamista kohdellaan kuin tupakointia savuttomissa paikoissa. Taulukossa on paikat, joihin leiriläiset törmäävät useimmin. Monet kunnat lisäävät omia sääntöjään paikallisille rannoille, puistoille ja kaupunkien keskustoille, joten katso kylttejä.",
+            "Kansallispuistoilla, rannoilla ja leirintäalueilla on omat sääntönsä. Queensland kieltää tupakoinnin 10 metrin etäisyydellä kansallispuistojen telttapaikoista ja tiloista, useat osavaltiot kieltävät sen vartioitujen rantojen lippujen välillä, ja monet <a data-guide=\"caravan-park-vs-holiday-park\">asuntovaunualueet</a> kieltävät sen mökeissä, pesutiloissa ja leirikeittiöissä. Kun tulenteon kielto on voimassa, puistovartijat kohtelevat ulkona palavaa savuketta kuten mitä tahansa muuta liekkiä.",
+            "Sakot määritellään sakkoyksikköinä tai kiinteinä summina, jotka muuttuvat vuosittain, joten taulukko antaa suuntaa eikä tarkkaa lukua."
+          ],
+          "tips": [
+            "Vapeaminen lasketaan myös",
+            "Katso paikallisia kylttejä",
+            "Sakot muuttuvat vuosittain"
+          ],
+          "table": {
+            "caption": "Savuttomat ulkotilat osavaltioittain ja territorioittain, osavaltioiden terveyssivuilta luettuna marraskuussa 2026. Tarkista ajantasainen osavaltion sivu ennen kuin luotat lukuun.",
+            "head": [
+              "Osavaltio",
+              "Tiedettäviä savuttomia ulkotiloja",
+              "Tyypillinen paikan päällä annettava sakko"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "Kaupalliset ulkoravintola-alueet, 4 m julkisten rakennusten sisäänkäynneistä sekä joukkoliikenteen pysäkeiltä ja laitureilta; monet kunnat lisäävät rannat ja puistot",
+                "$300"
+              ],
+              [
+                "Victoria",
+                "Ulkoravintola-alueet, 10 m leikkikentistä ja skeittipuistoista, alle 18-vuotiaiden urheilutapahtumat ja ruokamarkkinat",
+                "Noin yksi tai kaksi sakkoyksikköä, muutama sata dollaria"
+              ],
+              [
+                "Queensland",
+                "Vartioitujen rantojen liputettu alue, 10 m kansallispuistojen telttapaikoista ja tiloista, 5 m joukkoliikenteen pysäkeistä ja 10 m leikkikentistä",
+                "Kaksi sakkoyksikköä"
+              ],
+              [
+                "South Australia",
+                "Ulkoravintola-alueet, leikkikentät ja joukkoliikenteen odotuskatokset sekä uudemmat ulkoalueet maaliskuusta 2024",
+                "$105"
+              ],
+              [
+                "Western Australia",
+                "Ulkoruokailualueet, 10 m leikkivälineistä ja vartioitujen rantojen lippujen välillä",
+                "$300 ulkoravintolasta"
+              ],
+              [
+                "Tasmania",
+                "Ulkoravintola-alueet, 3 m sisäänkäynneistä, 10 m leikkikentistä, vartioidut rannat ja ulkotapahtumat",
+                "Noin $350-$400"
+              ],
+              [
+                "Northern Territory",
+                "Ulkoravintola-alueet ilman anniskelulupaa, yleisötapahtumat ja niiden ympäristö sekä lasten leikkialueet",
+                "Määritellään sakkoyksikköinä"
+              ],
+              [
+                "Australian Capital Territory",
+                "Ulkoruokailu- ja juomisalueet sekä 10 m leikkivälineistä",
+                "Määritellään sakkoyksikköinä"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Tupakointi autossa lasten kanssa",
+          "body": [
+            "Jokainen osavaltio ja territorio kieltää tupakoinnin autossa, jossa on lapsi, vaikka ikkunat olisivat auki tai auto pysäköitynä. Lapsen ikäraja on alle 16 <a data-guide=\"camping-rules-new-south-wales\">New South Walesissa</a>, Queenslandissa, South Australiassa, Northern Territoryssa ja ACT:ssä, alle 17 Western Australiassa ja alle 18 Victoriassa ja Tasmaniassa. Vapeaminen kuuluu myös kiellon piiriin.",
+            "Vuokra-autossa tai matkailuautossa sääntö on sama, ja vuokrafirma voi lisäksi veloittaa siivousmaksun savun hajusta. Jos tupakoit, siirry pois ajoneuvon luota ja päästä matkustajat ensin ulos."
+          ],
+          "tips": [
+            "Laitonta joka osavaltiossa",
+            "Ikkunat auki ei ole tekosyy",
+            "Vuokra-autot veloittavat siivousmaksun"
+          ]
+        },
+        {
+          "heading": "Tulenteon kiellot, tumpit ja sakot",
+          "body": [
+            "Täydellisen tulenteon kiellon (<a data-guide=\"campfires-camping-australia\">total fire ban</a>) päivänä kaikki, mikä voi sytyttää tulipalon ulkona, on huolenaihe, ja palavan savukkeen heittäminen pois on rikos joka osavaltiossa. New South Walesissa palava tumppi voi tuoda paikan päällä annettavan sakon, noin $660:sta alkaen, tuplaantuen noin $1 320:een täydellisen tulenteon kiellon päivänä. Tuomioistuimessa enimmäissakko on $5 500 tai $11 000 täydellisen tulenteon kiellon päivänä. Kuljettajat saavat myös rikepisteitä, normaalisti 5 ja täydellisen tulenteon kiellon päivänä 10.",
+            "Tumpin heittämistä autosta kohdellaan vaarallisena roskaamisena Victoriassa ja <a data-guide=\"camping-rules-queensland\">Queenslandissa</a>, ja sakot nousevat paikan päällä useisiin satoihin dollareihin ja tuomioistuimessa paljon enemmän. Jo maahan jäänyt tumppi on roskaa. Pensaikossa se voi sytyttää palon, joka yltää leirintäalueelle tai kaupunkiin.",
+            "Pidä mukana tumppipurkkia tai kannettavaa tuhkakuppia, äläkä koskaan sammuta savuketta kuivaan heinikkoon tai lehtikarikkeeseen. Joissain osavaltioissa voit ilmoittaa palavia tumppeja heittävistä: <a data-guide=\"camping-rules-new-south-wales\">New South Walesissa</a> voit soittaa Bush Fire Information Lineen numeroon 1800 679 737."
+          ],
+          "tips": [
+            "Tumppipurkki autoon",
+            "Ei koskaan kuivaan heinikkoon",
+            "Ilmoita autosta heitetyistä tumpeista"
+          ]
+        },
+        {
+          "heading": "Sakot pähkinänkuoressa ja leiriläisen suunnitelma",
+          "body": [
+            "Yhteenvetona: rajan ylittävästä tupakasta joutuu maksamaan tullin koko määrästä tai menettää sen, tupakoinnista savuttomassa paikassa joutuu maksamaan noin $100:sta muutamaan sataan dollariin, ja ajoneuvosta heitetystä palavasta tumpista joutuu maksamaan satoja paikan päällä ja tuhansia tuomioistuimessa.",
+            "Leirintämatkalla valitse paikka, jossa on tilaa teltoista ja kuivasta heinikosta, tarkista palovaaran taso joka aamu ja pidä tumppipurkki kiinni, kun olet valmis. Puistoviranomaisten sivuilla ja leirintäalueen kylteissä kerrotaan, missä tupakointi ei ole sallittu. Matkaatko myös Uuteen-Seelantiin? KiwiCamping kertoo <a data-sister=\"smoking-vaping-rules-new-zealand\">tupakointi- ja vapesäännöistä Uudessa-Seelannissa</a>."
+          ],
+          "tips": [
+            "Tarkista palovaara päivittäin",
+            "Tarkista puiston savuttomat alueet",
+            "Älä koskaan sammuta ruohikkoon"
+          ]
+        },
+        {
+          "heading": "Suunnittele sääntöjen mukaan AussieCampsissa",
+          "body": [
+            "AussieCamps näyttää puistoviranomaisten julkaisemat leirintäalueet, ja \"Popular features\" -suodatin kattaa wc:t, juomaveden, suihkut ja <a data-guide=\"campfires-camping-australia\">nuotiot</a>. Käytä \"Cost\"-suodatinta vertaillaksesi ilmaisia ja maksullisia paikkoja ja lisää pysähdykset matkaan päivämäärillä, muistiinpanoilla, säällä ja \"To-do list\" -listalla, jotta muistat tumppipurkin ja henkilöllisyystodistuksen.",
+            "Paikkojen tiedot, haku ja suodattimet toimivat <a data-guide=\"camping-without-phone-signal\">ilman kenttää</a>, koska hakemisto on sovelluksen sisällä. Kartta, reititys ja sää vaativat yhteyden, ja AussieCamps toimii iPhonella."
+          ],
+          "tips": [
+            "Suodata nuotioiden ja ominaisuuksien mukaan",
+            "Lisää tumppipurkki tehtävälistalle",
+            "Vain iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Montako savuketta saan tuoda Australiaan?",
+          "18 vuotta täyttäneet matkustajat voivat tuoda 25 savuketta tai 25 g tupakkatuotteita sekä yhden avatun askin maksamatta tullia. Kun askeissa on 20, käytännössä se on yksi sinetöity aski ja se, jota poltat. Jos tuot enemmän etkä ilmoita sitä, voit joutua maksamaan tullin koko määrästä tai luovuttamaan sen, ja voit kohdata seuraamuksia tai syytteen. Ilmoita rajan ylittävä määrä rajalla."
+        ],
+        [
+          "Voinko tuoda vapen Australiaan?",
+          "Vain pieniä määriä ja vain omaan hoitoosi tai mukanasi matkustavan hoidettavasi hoitoon. Raja on 2 vapea, 20 lisätarviketta kuten podia tai patruunaa ja 200 mL vapenestettä. Vapeja ei voi postittaa sinulle, eikä niitä voi ostaa kaupasta Australiassa."
+        ],
+        [
+          "Mikä on tupakoinnin ikäraja Australiassa?",
+          "Tupakan tai vapejen ostamiseen vaaditaan 18 vuoden ikä kaikkialla Australiassa, ja kaupat voivat pyytää kuvallista henkilöllisyystodistusta. Turisteilta kysytään samaa kuin paikallisilta, joten pidä mukana passia tai ajokorttia."
+        ],
+        [
+          "Saanko tupakoida leirintäalueella Australiassa?",
+          "Yleensä omalla paikallasi kyllä, mutta ei kaikkialla. Queenslandin kansallispuistoissa tupakointi ja vapeaminen on kielletty 10 metrin etäisyydellä telttapaikoista ja tiloista kuten wc:istä ja piknikpöydistä. Täydellisen tulenteon kiellon päivänä tai kuivassa pensaikossa turvallisin vastaus on olla tupakoimatta ulkona lainkaan."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Australian Border Force: tullittoman tuonnin helpotukset"
+        },
+        {
+          "label": "Office of Drug Control: vapet ja matkustajapoikkeus"
+        },
+        {
+          "label": "TGA: vapejen tiedot potilaille ja kuluttajille"
+        },
+        {
+          "label": "Queensland Government: tupakointilait Queenslandissa"
+        },
+        {
+          "label": "NSW Health: savuttomat kaupalliset ulkoravintola-alueet"
+        },
+        {
+          "label": "Victorian Government: tupakointi- ja vapeneuvoja vanhemmille"
+        },
+        {
+          "label": "NSW Rural Fire Service: uudet ja korotetut sakot"
+        }
+      ],
+      "priceTable": null
+    },
+    "where-to-buy-cigarettes-vapes-australia": {
+      "title": "Mistä ostaa savukkeita ja vapeja Australiassa (2027)",
+      "description": "Savukkeita myydään supermarketin tiskiltä, servoista ja tupakkakaupoista; vapeja vain apteekeista. Mistä ostaa, ikärajat ja mitä odottaa outbackilla.",
+      "region": "Australia",
+      "imageAlt": "Nullarbor Roadhouse South Australiassa, polttoainepumppujen ja kaupan vieressä road train ja matkailuauto",
+      "intro": "Savukkeita myydään supermarkettien tiskeiltä, huoltoasemilta, lähikaupoista ja tupakkakaupoista, ja ostajan on oltava 18 vuotta täyttänyt. Vapet ovat eri asia: 1.7.2024 alkaen niitä on saanut myydä vain apteekeissa, ja aikuiset voivat ostaa enintään 20 mg/mL nikotiinivapeja apteekkarilta ilman reseptiä. Maaseudulla valikoima kapenee roadhouseen tai yleiskauppaan, jossa on yleensä vähemmän merkkejä ja korkeammat hinnat, joten varastoi isommassa kaupungissa ennen syrjäistä osuutta. Hinnat nousevat joka vuosi, joten tarkista hyllyhinta äläkä luota viime vuoden lukuun.",
+      "sections": [
+        {
+          "heading": "Mistä ostaa pähkinänkuoressa",
+          "body": [
+            "Savukkeita on helppo löytää kaikista kohtuullisen kokoisista kaupungeista, ja kaupan tyyppi ratkaisee valikoiman ja hinnan. Vapet ovat erillinen tapaus ja tulevat vain apteekista.",
+            "Kauppojen valikoima vaihtelee ketjusta toiseen ja vuodesta toiseen, joten pidä taulukkoa tavallisena kaavana, älä lupauksena jokaisesta kaupasta."
+          ],
+          "tips": [
+            "Savukkeet: monet kaupat",
+            "Vapet: vain apteekit",
+            "Valikoima kapenee outbackilla"
+          ],
+          "table": {
+            "caption": "Mistä matkailijat yleensä ostavat tupakkaa ja vapeja Australiassa, marraskuu 2026. Valikoima ja hinnat vaihtelevat kaupoittain.",
+            "head": [
+              "Mistä",
+              "Mitä myydään",
+              "Huomioita"
+            ],
+            "rows": [
+              [
+                "Supermarketit",
+                "Savukkeita ja kääretupakkaa; ei vapeja",
+                "Coles, Woolworths ja IGA myyvät sitä palvelutiskiltä tai kioskista; Aldi ei myy tupakkaa"
+              ],
+              [
+                "Huoltoasemat ja lähikaupat",
+                "Savukkeita ja kääretupakkaa; ei vapeja",
+                "Auki myöhään ja kaikkialla, mutta usein kallein vaihtoehto"
+              ],
+              [
+                "Tupakkakaupat",
+                "Laajin valikoima savukkeita ja tupakkaa; ei vapeja",
+                "Erikoisliikkeet, parhaita harvinaisemmille merkeille"
+              ],
+              [
+                "Bottle shopit ja pubit",
+                "Savukkeita joissakin",
+                "Kaikilla ei ole, joten kysy ensin"
+              ],
+              [
+                "Apteekit",
+                "Enintään 20 mg/mL nikotiinivapeja apteekkarin kanssa keskustelun jälkeen",
+                "Ainoa laillinen paikka vapeille; rajalliset maut; kaikissa apteekeissa ei ole"
+              ],
+              [
+                "Roadhouset ja syrjäiset kaupat",
+                "Muutama savukemerkki, joskus tupakkaa",
+                "Korkeammat hinnat, lyhyemmät aukioloajat, ei vapeja"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Supermarketit ja bottle shopit",
+          "body": [
+            "Coles, Woolworths ja IGA myyvät savukkeita, mutta et näe niitä hyllyllä. Esillepanokiellon vuoksi askit pidetään suljetuissa kaapeissa, joten pyydät palvelutiskiltä tai kioskista ja sanot merkin. Supermarkettiketjut ovat vähentäneet tupakkaa, ja jotkin niiden viinakaupat ovat lopettaneet sen myynnin, joten valikoima vaihtelee myymälöittäin. Aldi ei myy tupakkaa lainkaan.",
+            "Jotkin bottle shopit ja pubien bottle shopit myyvät savukkeita ja jotkin eivät, joten kysy ennen kuin luotat yhteen. Supermarketin tiski on kätevä valinta ison ruokaostoksen yhteydessä, koska hinnat ovat yleensä linjassa muun kaupungin kanssa ja olet jo paikalla."
+          ],
+          "tips": [
+            "Kysy palvelutiskiltä",
+            "Aldi ei myy tupakkaa",
+            "Kysy bottle shopeilta ensin"
+          ]
+        },
+        {
+          "heading": "Huoltoasemat ja lähikaupat",
+          "body": [
+            "Ampolin, BP:n, 7-Elevenin ja itsenäisten servot myyvät lähes aina savukkeita, yleensä kassan takana olevalta tiskiltä, ja moni on auki myöhään tai koko yön. Siksi ne ovat helpoin vaihtoehto, kun saavut kaupunkiin supermarkettien sulkeuduttua.",
+            "Mukavuuden hinta on korkeampi hinta. Servo on usein kaupungin kallein paikka askille, joten jos ostat parin viikon varaston, supermarketin tiski tai tupakkakauppa tulee yleensä halvemmaksi. <a data-guide=\"cigarette-prices-australia\">Savukkeiden hintojen</a> oppaassa on tavalliset haarukat askille ja pussille."
+          ],
+          "tips": [
+            "Auki myöhään, usein kallein",
+            "Kelpaa hätäaskiksi",
+            "Halvempaa supermarketista"
+          ]
+        },
+        {
+          "heading": "Tupakkakaupat ja laittomat kaupat",
+          "body": [
+            "Tupakkakaupat ovat erikoisliikkeitä, joissa on laajin valikoima savukkeita ja kääretupakkaa, ja ne voivat tilata tai osoittaa merkkejä, joita supermarketeissa ei ole. Useat osavaltiot vaativat nykyään kaupalta tupakan vähittäismyyntiluvan, ja <a data-guide=\"camping-rules-victoria\">Victoriassa</a> lupasääntöä on valvottu 1.2.2026 alkaen. Luvan numero tai todistus on usein esillä kaupassa.",
+            "Ole varovainen kaupoissa, jotka myyvät hyvin halpoja savukkeita tai vapeja. Joissakin kaupoissa myydään laitonta, verotonta tupakkaa ja vapeja, ja niiden myynti ja osto on lainvastaista. Ne voidaan takavarikoida ja ostajille voi tulla sakko, seuraamukset vaihtelevat osavaltioittain. Lailliset savukkeet tulevat neutraaleissa oliivinruskeissa pakkauksissa, joissa on suuret kuvalliset englanninkieliset terveysvaroitukset, joten värikäs tai ulkomaalaisen näköinen aski, englanninkielisen varoituksen puuttuminen tai tavallisen haarukan selvästi alittava hinta on varoitusmerkki."
+          ],
+          "tips": [
+            "Laajin merkkivalikoima",
+            "Neutraalit askit, englanninkieliset varoitukset",
+            "Hyvin halpa tarkoittaa yleensä laitonta"
+          ]
+        },
+        {
+          "heading": "Henkilöllisyystodistus ja ikärajat",
+          "body": [
+            "Savukkeiden, kääretupakan tai vapen ostamiseen vaaditaan 18 vuoden ikä kaikkialla Australiassa, ja myyjä voi kieltäytyä palvelemasta ilman ikätodistusta. Monet kaupat pyytävät henkilöllisyystodistusta keneltä tahansa, joka näyttää alle 25-vuotiaalta, joten varaudu kysymykseen äläkä ota sitä henkilökohtaisesti.",
+            "Pidä mukana passia tai australialaista ajokorttia tai oman maasi ajokorttia, jos siinä on kuvasi ja syntymäaikasi. Henkilökunta päättää, mitä hyväksyy, joten pidä mukana alkuperäistä äläkä valokopiota. <a data-guide=\"smoking-vaping-rules-australia\">Tupakointi- ja vapesääntöjen</a> oppaassa on paikat, joissa tupakointi ei ole sallittua."
+          ],
+          "tips": [
+            "Vain 18 vuotta täyttäneille",
+            "Kysytään usein alle 25-vuotiailta",
+            "Pidä mukana alkuperäinen kuvallinen ID"
+          ]
+        },
+        {
+          "heading": "Vapen osto",
+          "body": [
+            "Vapeja saavat myydä vain apteekit. Tupakkakaupat, vapekaupat ja lähikaupat eivät saa myydä niitä riippumatta siitä, sisältävätkö ne nikotiinia, ja kertakäyttövapet on kielletty. Kauppa, joka myy niitä tiskin yli, rikkoo lakia.",
+            "Aikuiset voivat ostaa enintään 20 mg/mL nikotiinivapen apteekkarilta ilman reseptiä lyhyen keskustelun jälkeen, jos osavaltion ja territorion lait sen sallivat. Vahvemmat pitoisuudet vaativat reseptin. Maut on rajattu mauttomaan, minttuun, mentoliin ja tupakkaan. Kaikissa apteekeissa ei ole vapeja, joten soita etukäteen tai kysy isommasta."
+          ],
+          "tips": [
+            "Vain apteekit",
+            "Ei kertakäyttövapeja",
+            "Minttu, mentoli, tupakka"
+          ]
+        },
+        {
+          "heading": "Outbackilla ja syrjäisillä teillä",
+          "body": [
+            "Roadhouset ja syrjäiset yleiskaupat myyvät yleensä savukkeita, mutta valikoima voi olla muutama merkki ja hinta on korkeampi kuin kaupungissa. Kääretupakkaa voi olla rajoitetusti, ja jos kauppa loppuu, seuraava voi olla satojen kilometrien päässä. Jotkin syrjäiset yhteisöt asettavat omia sääntöjään siitä, mitä kaupat saavat myydä, joten kysy ennen kuin luotat yhteisön kauppaan ja noudata rajoituksia koskevia kylttejä.",
+            "Apteekkeja on vähän suurempien kaupunkien ulkopuolella, joten jos vapeat, osta ennen lähtöä. Useimmat roadhouset ottavat kortteja, mutta katkoksia sattuu ja aukioloajat ovat lyhyemmät, usein sulkeudutaan jo varhain illalla, joten pidä mukana vähän käteistä ja osta ennen pimeää. Muutama varaaski pitkälle osuudelle on halvempi kuin roadhousen täydennys."
+          ],
+          "tips": [
+            "Osta ennen syrjäisiä osuuksia",
+            "Vapeajat: suunnittele apteekkien mukaan",
+            "Pidä mukana vähän käteistä"
+          ]
+        },
+        {
+          "heading": "Tiellä ja leirissä",
+          "body": [
+            "Kuumuus on rankkaa tupakalle ja vapeille. Älä jätä askeja, pusseja tai vapea kuumaan autoon tai suljettuun matkailuautoon, jossa ne voivat kuivua tai pilaantua, ja pidä vape poissa suorasta auringosta. Laukku varjoisassa paikassa tai kylmälaukun lokero on parempi.",
+            "Tupakoi kauempana leiristä ja teltoista ja tarkista palovaaran taso. <a data-guide=\"campfires-camping-australia\">Täydellisen tulenteon kiellon</a> aikana palava savuke on todellinen riski, ja jotkin leirintäalueet, rannat ja kansallispuistot ovat savuttomia. Sammuta jokainen tumppi kokonaan ja vie se mukanasi, älä koskaan jätä sitä maahan. Matkaatko myös Uuteen-Seelantiin? KiwiCamping kertoo, <a data-sister=\"where-to-buy-cigarettes-vapes-new-zealand\">mistä ostaa savukkeita ja vapeja Uudessa-Seelannissa</a>."
+          ],
+          "tips": [
+            "Pidä poissa kuumasta autosta",
+            "Tarkista palovaaran taso",
+            "Vie tumpit mukanasi"
+          ]
+        },
+        {
+          "heading": "Suunnittele täydennyspysähdykset AussieCampsissa",
+          "body": [
+            "AussieCampsissa voit lisätä jokaisen pysähdyksen matkaan päivämäärillä ja muistiinpanoilla, ja ajoreitti näyttää jokaisen osuuden pituuden ja keston. Siten on helppo nähdä viimeinen isompi kaupunki ennen syrjäistä osuutta ja merkitä se täydennyspaikaksi.",
+            "Paikkojen tiedot, haku ja suodattimet toimivat ilman kenttää, joten voit tarkistaa leirintäalueen ominaisuudet, kuten juomaveden, wc:t ja <a data-guide=\"campfires-camping-australia\">nuotiot</a>, kun olet kuuluvuusalueen ulkopuolella. AussieCamps toimii iPhonella."
+          ],
+          "tips": [
+            "Näe jokaisen osuuden pituus",
+            "Merkitse täydennyskaupungit",
+            "Vain iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Mistä voin ostaa savukkeita Australiassa?",
+          "Supermarketeista kuten Coles, Woolworths ja IGA, huoltoasemilta ja lähikaupoista sekä tupakkakaupoista, joissa on laajin valikoima. Aldi ei myy tupakkaa. Supermarketeissa savukkeet pidetään piilossa ja pyydät palvelutiskiltä."
+        ],
+        [
+          "Mistä voin ostaa vapen Australiassa?",
+          "Vain apteekista. 1.7.2024 alkaen tupakkakauppiaat, vapekaupat tai lähikaupat eivät saa myydä vapeja, ja kertakäyttövapet on kielletty. Aikuiset voivat ostaa enintään 20 mg/mL nikotiinivapeja apteekkarilta ilman reseptiä lyhyen keskustelun jälkeen, mutta kaikissa apteekeissa ei ole niitä."
+        ],
+        [
+          "Tarvitsenko henkilöllisyystodistuksen savukkeiden ostamiseen Australiassa?",
+          "Sinun on oltava 18 vuotta täyttänyt, ja henkilökunta voi pyytää ikätodistusta. Pidä mukana passia tai australialaista ajokorttia, sillä valokopiota tai puhelimen kuvaa ei välttämättä hyväksytä. Kaupat pyytävät yleisesti keneltä tahansa, joka näyttää alle 25-vuotiaalta."
+        ],
+        [
+          "Voinko ostaa savukkeita outbackilla?",
+          "Yleensä kyllä roadhouseista ja yleiskaupoista, mutta pienellä merkkivalikoimalla ja korkeammilla hinnoilla. Joillakin syrjäisten yhteisöjen kaupoilla on omat sääntönsä siitä, mitä ne myyvät, ja apteekkeja on vähän, joten osta tarvitsemasi isommassa kaupungissa ennen syrjäistä osuutta."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Department of Health: tietoa vapeamisesta"
+        },
+        {
+          "label": "Department of Health: vapeamisen muutokset Australiassa 1. heinäkuuta alkaen"
+        },
+        {
+          "label": "Therapeutic Goods Administration: vapejen sääntelyn uudistukset"
+        },
+        {
+          "label": "Therapeutic Goods Administration: nikotiinivapetuotteet, tietoa kuluttajille"
+        },
+        {
+          "label": "Victorian Government: tupakkalisensointi"
+        },
+        {
+          "label": "Department of Health: tupakkatuotteiden muutokset Australiassa"
         }
       ],
       "priceTable": null

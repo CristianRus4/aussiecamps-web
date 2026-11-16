@@ -8102,145 +8102,309 @@
       }
     },
     "alcohol-coffee-drink-prices-australia": {
-      "title": "Harga Bir & Kopi di Australia 2027: Bir Pub $7 sampai $16",
-      "description": "Bir di pub berharga $7 sampai $16 dan cappuccino $4,50 sampai $8 di Sydney (Oktober 2026). Per takaran standar, bir pub $4 sampai $9 dan wine bottle shop $1,60 sampai $4.",
+      "title": "Berapa Harga Bir di Australia? Harga di Pub dan Bottle Shop (2027)",
+      "description": "Satu schooner di pub kota Australia harganya $8 sampai $13 dan satu pint $12 sampai $18 (November 2026). Satu slab isi 24 harganya $55 sampai $72. Harga per kota, nama gelas, happy hour.",
       "region": "Australia",
       "imageAlt": "Minuman kafe Australia di atas meja",
-      "intro": "Bir draught 500 ml di pub Sydney berharga sekitar $7 sampai $16 dan cappuccino $4,50 sampai $8, menurut data harga komunitas yang diperbarui Oktober 2026, sedangkan sebotol bir 500 ml dari bottle shop sekitar $3,50 sampai $12 secara nasional. Per takaran standar, itu sekitar $4 sampai $9 di pub, $2 sampai $7 untuk bir bottle shop, dan $1,60 sampai $4 untuk sebotol wine kelas menengah, jadi minuman yang dibeli untuk dibawa pulang ke camp adalah yang paling hemat.",
+      "intro": "Satu schooner bir (425 ml) di pub kota Australia harganya sekitar $8 sampai $13 pada November 2026, dan satu pint (570 ml) sekitar $12 sampai $18. Perth dan pub di daerah pedesaan ada di kisaran termurah, sedangkan pusat kota Sydney dan Melbourne paling mahal. Di bottle shop, satu six-pack bir biasa harganya sekitar $20 sampai $28 dan satu slab isi 24 sekitar $55 sampai $72, atau kurang dari separuh harga pub per botol, jadi minuman yang dibeli untuk dibawa ke kemah adalah yang paling hemat.",
       "sections": [
         {
-          "heading": "Harga eceran dan harga tempat adalah produk yang berbeda",
+          "heading": "Harga bir per kota",
           "body": [
-            "Harga di pub mencakup tempat, staf, dan layanan, bukan hanya cairannya. Bandingkan yang setara dan jangan menyebut padanan bottle shop sebagai harga minuman yang dituangkan. Takaran standar membuat perbandingan jadi adil: Healthy WA menetapkan satu takaran standar sebagai 10 gram alkohol, jumlah yang ada di 285 ml bir berkadar penuh atau 100 ml wine, jadi bir 500 ml sekitar 1,75 takaran standar dan sebotol wine 750 ml sekitar 7,5.",
-            "Happy hour dan promosi bersifat sementara. Susun anggaran dari kisaran biasa, lalu anggap diskon sebagai kelonggaran."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Wine di bottle shop dan di bar",
-          "body": [
-            "Sebotol wine 750 ml kelas menengah berharga sekitar $12 sampai $30 di bottle shop, dan menghasilkan sekitar lima gelas 150 ml. Dipesan per gelas di bar atau restoran, wine yang sama biasanya jauh lebih mahal per sajian, jadi sebotol yang dinikmati bersama di camp adalah cara wine paling murah.",
-            "Beberapa restoran, kebanyakan yang tidak berlisensi, mengizinkan Anda membawa botol sendiri dengan biaya corkage, yang mengubah harga bottle shop menjadi wine makan malam. Tanyakan saat memesan, bukan di meja."
+            "Tabel ini memuat harga umum bir biasa seperti lager atau pale ale lokal. Harga di pub sangat bergantung pada tempatnya: pub pinggiran kota atau klub menjual lebih murah daripada bar atap gedung atau hotel di tepi pelabuhan, dan bir craft biasanya menambah $2 sampai $4 per gelas.",
+            "Harga di bottle shop lebih sedikit berbeda antar kota, karena sebagian besar harganya adalah excise, pajak federal atas alkohol, yang sama di mana-mana. Darwin dan kawasan outback membayar lebih mahal untuk ongkos angkut, dan bottle shop di <a data-guide=\"camping-rules-northern-territory\">Northern Territory</a> punya aturan tambahan soal jam buka dan kartu identitas.",
+            "Harga kemungkinan akan terus naik pelan-pelan. Excise bir kemasan naik mengikuti inflasi setiap Februari dan Agustus, jadi harga di bottle shop naik sepanjang 2027, sedangkan pajak bir tekan (draught) dibekukan sampai Agustus 2027, sehingga harga di pub lebih stabil."
           ],
           "tips": [
-            "Botol kelas menengah: $12 sampai $30",
-            "Sekitar lima gelas per botol",
-            "Tanya soal BYO saat memesan"
+            "Perth: pint termurah di ibu kota",
+            "Sydney dan Melbourne: paling mahal",
+            "Pub daerah: sering paling murah"
+          ],
+          "table": {
+            "caption": "Harga umum bir biasa pada November 2026. Satu schooner 425 ml dan satu pint 570 ml; di Adelaide gelas 425 ml disebut pint.",
+            "head": [
+              "Kota",
+              "Schooner di pub (425 ml)",
+              "Pint di pub (570 ml)",
+              "Six-pack (bottle shop)",
+              "Slab isi 24 (bottle shop)"
+            ],
+            "rows": [
+              [
+                "Sydney",
+                "$9 sampai $13",
+                "$13 sampai $18",
+                "$21 sampai $28",
+                "$57 sampai $72"
+              ],
+              [
+                "Melbourne",
+                "$9.50 sampai $14",
+                "$14 sampai $18.50",
+                "$21 sampai $28",
+                "$57 sampai $72"
+              ],
+              [
+                "Brisbane",
+                "$9 sampai $13",
+                "$12 sampai $17",
+                "$21 sampai $28",
+                "$57 sampai $72"
+              ],
+              [
+                "Perth",
+                "$8 sampai $12",
+                "$9 sampai $15",
+                "$21 sampai $28",
+                "$58 sampai $72"
+              ],
+              [
+                "Adelaide",
+                "$8.50 sampai $12",
+                "$12 sampai $16",
+                "$20 sampai $27",
+                "$55 sampai $70"
+              ],
+              [
+                "Hobart",
+                "$9 sampai $12",
+                "$12 sampai $16",
+                "$21 sampai $28",
+                "$58 sampai $72"
+              ],
+              [
+                "Darwin",
+                "$9 sampai $13",
+                "$13 sampai $18",
+                "$23 sampai $30",
+                "$62 sampai $80"
+              ],
+              [
+                "Canberra",
+                "$9 sampai $12",
+                "$12 sampai $17",
+                "$21 sampai $28",
+                "$57 sampai $72"
+              ],
+              [
+                "Pub daerah",
+                "$7 sampai $10",
+                "$10 sampai $14",
+                "$22 sampai $32",
+                "$60 sampai $85"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Nama dan ukuran gelas per negara bagian",
+          "body": [
+            "Nama gelas bir di Australia berubah di setiap perbatasan negara bagian, dan kata yang sama bisa berarti gelas yang berbeda. Minta schooner di Sydney, Anda dapat 425 ml; minta di Adelaide, Anda dapat 285 ml, karena orang South Australia menyebut gelas 425 ml sebagai pint dan gelas 570 ml sebagai imperial pint.",
+            "Kalau ragu, sebutkan ukurannya dengan kata biasa, atau cukup bilang kecil, sedang atau besar. Staf bar sudah terbiasa dengan pengunjung, dan daftar harga di dinding biasanya mencantumkan nama gelasnya."
+          ],
+          "tips": [
+            "Schooner berarti 285 ml di SA",
+            "Minta kecil, sedang atau besar",
+            "Jug sekitar 1,1 liter"
+          ],
+          "table": {
+            "caption": "Nama umum gelas bir tekan per negara bagian dan teritori. Namanya bisa berbeda antar pub, terutama untuk gelas 285 ml.",
+            "head": [
+              "Negara bagian atau teritori",
+              "285 ml",
+              "425 ml",
+              "570 ml"
+            ],
+            "rows": [
+              [
+                "New South Wales dan ACT",
+                "Middy",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Victoria",
+                "Pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Queensland",
+                "Pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "South Australia",
+                "Schooner",
+                "Pint",
+                "Imperial pint"
+              ],
+              [
+                "Western Australia",
+                "Middy",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Tasmania",
+                "Ten atau pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Northern Territory",
+                "Handle atau middy",
+                "Schooner",
+                "Pint"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Harga eceran dan harga tempat adalah dua hal berbeda",
+          "body": [
+            "Harga di pub sudah termasuk tempat, staf dan layanan, bukan hanya minumannya. Bandingkan yang setara, dan jangan menganggap harga di bottle shop sebagai harga minuman yang dituangkan. Standard drink membuat perbandingan jadi adil: Healthy WA menetapkan satu standard drink sebagai 10 gram alkohol, yaitu jumlah dalam 285 ml bir berkadar penuh atau 100 ml anggur, jadi bir 500 ml sekitar 1,75 standard drink dan sebotol anggur 750 ml sekitar 7,5.",
+            "Per standard drink, bir di pub harganya sekitar $4 sampai $9, satu slab dari bottle shop sekitar $1.60 sampai $2.20, dan sebotol anggur kelas menengah sekitar $1.60 sampai $4. Bir mid-strength, yang dijual tekan hampir di mana-mana, kadar alkoholnya sekitar seperempat lebih rendah dengan harga hampir sama."
+          ],
+          "tips": [
+            "285 ml berkadar penuh: satu standard drink",
+            "Bir slab: sekitar $2 per standard drink",
+            "Mid-strength harganya hampir sama"
           ]
         },
         {
-          "heading": "Kendalikan total harian yang tak terasa",
+          "heading": "Happy hour dan cara minum paling murah",
           "body": [
-            "Dua kopi dan dua minuman di tempat setiap hari bisa menjadi jumlah mingguan yang besar. Tentukan perhentian mana yang penting, jangan membeli karena kebiasaan.",
-            "Pastikan <a data-guide=\"camping-water-planning\">air minum</a> mudah dijangkau dan isi ulang hanya dari keran air layak minum. Dalam cuaca panas, hidrasi dan tempat teduh masuk rencana keselamatan, bukan anggaran hiburan."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Kopi adalah pos harian",
-          "body": [
-            "Budaya kopi Australia kuat dan standarnya di kota-kota daerah benar-benar tinggi, justru itulah yang membuatnya jadi pos anggaran. Dua flat white sehari untuk dua orang menumpuk tanpa pernah terasa seperti keputusan.",
-            "Moka pot atau AeroPress di van mencukupi kopi pagi dengan sebagian kecil harga kafe dan membuat mampir ke kafe jadi pilihan, bukan otomatis.",
-            "Kopi roadhouse di perjalanan panjang paling banter bervariasi. Di rute pedalaman, membuat sendiri biasanya lebih murah sekaligus jauh lebih enak."
+            "Banyak pub mengadakan happy hour pada sore hari kerja, sering sekitar pukul 16.00 sampai 18.00, dengan schooner seharga sekitar $6 sampai $9. Beberapa menambahkan jug murah, bir bersama makan di konter, atau malam steak dan schooner. Anggap ini bonus, bukan dasar anggaran: promonya sering berubah dan banyak yang hanya berlaku di hari kerja.",
+            "Klub seperti RSL, klub bowling dan klub surfing biasanya menjual lebih murah daripada pub, dan pengunjung diterima: Anda mendaftar di pintu dengan kartu identitas berfoto dan menjadi anggota sementara untuk hari itu.",
+            "Minuman paling murah adalah satu slab atau cask dari bottle shop, didinginkan di kulkas van atau esky dan diminum di kemah. Periksa dulu aturan campground, karena sebagian lokasi taman nasional dan dewan kota, serta banyak pantai dan taman di dalam kota, melarang alkohol atau membatasinya pada jam tertentu."
           ],
           "tips": [
-            "Dua cangkir sehari cepat menumpuk",
-            "Buat kopi pagi sendiri",
-            "Kopi roadhouse bervariasi"
+            "Happy hour hari kerja: sekitar pukul 16 sampai 18",
+            "Klub menerima pengunjung dengan ID",
+            "Periksa aturan alkohol di kemah"
           ]
         },
         {
           "heading": "Membeli alkohol di Australia",
           "body": [
-            "Alkohol kemasan kebanyakan dijual lewat bottle shop berlisensi, sering di sebelah supermarket tetapi beroperasi terpisah, meski Aldi dan beberapa toko kelontong independen menjualnya di dalam toko. Jam buka diatur dan berbeda menurut negara bagian.",
-            "Pembatasan alkohol berlaku di banyak komunitas dan wilayah, terutama di Northern Territory, sebagian <a data-guide=\"camping-rules-queensland\">Queensland</a>, Western Australia, dan South Australia. Membawa alkohol ke area terlarang dikenai denda besar.",
-            "Cek sebelum bepergian dengan alkohol ke daerah terpencil. Pembatasan ini ditegakkan secara hukum, berlaku bagi pengunjung sama seperti penduduk, dan ketidaktahuan bukan pembelaan."
+            "Alkohol kemasan sebagian besar dijual lewat bottle shop berlisensi, sering bersebelahan dengan supermarket tetapi beroperasi terpisah, meski Aldi dan beberapa toko kelontong independen menjualnya di dalam toko. Jam buka diatur dan berbeda di tiap negara bagian. Anda harus berusia 18 tahun untuk membeli alkohol, dan staf meminta kartu identitas berfoto dari siapa pun yang tampak di bawah 25 tahun: paspor atau SIM.",
+            "Pembatasan alkohol berlaku di banyak komunitas dan wilayah, terutama di Northern Territory, sebagian <a data-guide=\"camping-rules-queensland\">Queensland</a>, Western Australia dan South Australia. Membawa alkohol ke kawasan terbatas dikenai denda yang besar.",
+            "Periksa dulu sebelum membawa alkohol ke daerah terpencil. Pembatasan ini ditegakkan secara hukum, berlaku bagi pengunjung sama seperti penduduk, dan tidak tahu aturan bukan alasan yang dibenarkan."
           ],
           "tips": [
-            "Kebanyakan bottle shop, sebagian supermarket",
-            "Area terlarang berdenda besar",
-            "Cek sebelum masuk wilayah terpencil"
+            "Terutama bottle shop, sebagian supermarket",
+            "Bawa kartu identitas berfoto",
+            "Periksa sebelum masuk daerah terpencil"
           ]
         },
         {
-          "heading": "Minum dan hari berkendara",
+          "heading": "Minum alkohol dan hari berkendara",
           "body": [
-            "Batas umum adalah 0,05 untuk pemegang SIM penuh, nol untuk pengemudi pelajar dan percobaan, dan nol atau 0,02 untuk banyak pengemudi profesional tergantung negara bagian (0,02 di NSW). Tes napas acak umum dilakukan, termasuk di jalan pedesaan dan pada siang hari.",
-            "Di road trip, satu-satunya cara aman adalah memisahkan minum dari berkendara sepenuhnya: menginap di tempat Anda minum, pakai pengemudi yang ditunjuk, atau minum setelah kendaraan diparkir untuk malam itu.",
-            "Berkendara keesokan paginya sering menjebak orang. Tubuh butuh setidaknya satu jam untuk mengurai setiap takaran standar, sering lebih lama, dan kopi atau mandi tidak mempercepatnya, jadi malam yang berat bisa membuat Anda melewati batas hingga jauh ke pagi berikutnya."
+            "Batas umum adalah 0.05 untuk pemegang SIM penuh, nol untuk pengemudi learner dan provisional, dan nol atau 0.02 untuk banyak pengemudi profesional tergantung negara bagian (0.02 di NSW). Tes napas acak sering dilakukan, termasuk di jalan pedesaan dan pada siang hari.",
+            "Dalam perjalanan darat, satu-satunya cara aman adalah memisahkan minum dari mengemudi sepenuhnya: tetap di tempat Anda minum, gunakan pengemudi yang ditunjuk, atau minum setelah kendaraan diparkir untuk malam itu.",
+            "Mengemudi keesokan paginya sering menjebak orang. Tubuh butuh setidaknya satu jam untuk mengurai tiap standard drink, sering lebih lama, dan kopi atau mandi tidak mempercepatnya, jadi malam yang berat bisa membuat Anda melewati batas sampai jauh ke pagi hari."
           ],
           "tips": [
-            "0,05 umum, nol untuk pelajar dan percobaan",
-            "Tes acak umum dan dilakukan siang hari",
-            "Berkendara keesokan pagi adalah jebakannya"
+            "0.05 umum, nol untuk learner dan provisional",
+            "Tes acak sering dan bisa siang hari",
+            "Mengemudi keesokan paginya adalah jebakan"
           ]
         },
         {
-          "heading": "Air adalah yang harus Anda atur dengan benar",
+          "heading": "Anggur di bottle shop dan di bar",
           "body": [
-            "Air keran aman dan baik di hampir semua kota besar maupun kecil di Australia, dan membeli air kemasan hampir murni pemborosan. Bawa botol isi ulang dan isi di keran air layak minum mana pun di kota, campground, atau fasilitas umum.",
-            "Di daerah terpencil dan semak, keadaannya berbalik: air bor mungkin bermineral atau tidak cocok, air tangki tidak diolah, dan air permukaan di daerah pertanian bisa terkontaminasi bahan kimia. Olah apa pun yang bukan pasokan kota layak minum yang bertanda.",
-            "Bawa botol berinsulasi yang bagus agar air dingin selalu ada saat panas; mengisi ulangnya tidak memakan biaya."
+            "Sebotol anggur 750 ml kelas menengah harganya sekitar $12 sampai $29 di bottle shop, dan bisa dituang menjadi sekitar lima gelas 150 ml. Dipesan per gelas di bar atau restoran, anggur yang sama biasanya $10 sampai $16 per gelas, jadi sebotol yang dinikmati bersama di kemah adalah cara anggur paling murah.",
+            "Beberapa restoran, kebanyakan yang tidak berlisensi minuman keras, mengizinkan Anda membawa botol sendiri dengan biaya corkage, yang mengubah harga bottle shop menjadi anggur makan malam. Tanyakan saat memesan tempat, bukan di meja."
           ],
           "tips": [
-            "Air keran kota aman",
-            "Air bor sering tidak cocok",
-            "Olah air tangki dan air permukaan"
+            "Botol kelas menengah: $12 sampai $29",
+            "Sekitar lima gelas per botol",
+            "Tanyakan soal BYO saat memesan"
+          ]
+        },
+        {
+          "heading": "Kopi adalah pengeluaran harian",
+          "body": [
+            "Satu cappuccino atau flat white biasa harganya sekitar $4 sampai $8, dengan kafe di pusat kota di ujung atas. Budaya kopi Australia kuat dan standar di kota-kota daerah benar-benar tinggi, dan justru itu sebabnya kopi jadi pos anggaran: dua kopi sehari untuk dua orang menumpuk tanpa pernah terasa sebagai keputusan.",
+            "Moka pot atau AeroPress di van mencukupi secangkir pagi dengan sebagian kecil harga kafe, dan membuat mampir ke kafe jadi pilihan, bukan kebiasaan otomatis. Kopi di roadhouse pada perjalanan outback yang panjang kualitasnya beragam, jadi membuat sendiri biasanya lebih murah sekaligus lebih enak.",
+            "Air keran aman dan bagus di hampir semua kota di Australia, jadi bawa botol isi ulang daripada membeli air. Di alam liar, olah dulu air sumur bor, tangki dan sungai sebelum diminum. Mau ke New Zealand juga? KiwiCamping membahas <a data-sister=\"beer-wine-coffee-prices-new-zealand\">harga bir, anggur dan kopi di New Zealand</a>."
+          ],
+          "tips": [
+            "Cappuccino: $4 sampai $8",
+            "Buat sendiri kopi pagi",
+            "Air keran kota aman diminum"
           ]
         }
       ],
       "faq": [
         [
           "Berapa harga bir di Australia?",
-          "Bir draught 500 ml di pub Sydney berharga sekitar $7,15 sampai $16 menurut data harga komunitas Oktober 2026, dan sebotol 500 ml dari bottle shop sekitar $3,50 sampai $12 secara nasional. Membeli dari bottle shop, bukan bar, adalah salah satu penghematan terbesar di perjalanan panjang."
+          "Satu schooner (425 ml) bir biasa harganya sekitar $8 sampai $13 di pub kota pada November 2026, dan satu pint (570 ml) sekitar $12 sampai $18. Di bottle shop, satu six-pack sekitar $20 sampai $28 dan satu slab isi 24 sekitar $55 sampai $72, kurang dari separuh harga pub per botol."
+        ],
+        [
+          "Berapa harga satu pint di Australia?",
+          "Sekitar $12 sampai $18 untuk 570 ml bir biasa di pub kota, dengan Perth dan pub daerah di ujung termurah dan pusat Melbourne dan Sydney di ujung teratas. Di South Australia, pint adalah gelas 425 ml, yang harganya sekitar $8.50 sampai $12; minta imperial pint untuk mendapat 570 ml."
+        ],
+        [
+          "Di mana bir termurah di Australia?",
+          "Perth dan pub daerah menjual bir termurah, dan klub seperti RSL dan klub bowling biasanya lebih murah daripada pub; pengunjung mendaftar dengan kartu identitas berfoto. Happy hour hari kerja menurunkan schooner jadi sekitar $6 sampai $9, tetapi satu slab dari bottle shop, sekitar $2 per standard drink, paling murah dari semuanya."
         ],
         [
           "Berapa harga kopi di Australia?",
-          "Cappuccino biasa berharga sekitar $4,50 sampai $8 di Sydney dan $4 sampai $8 secara nasional menurut data harga komunitas Oktober 2026, dengan kafe pusat kota sering di ujung atas kisaran. Dua kopi sehari untuk dua orang menjadi pos anggaran nyata di perjalanan panjang."
+          "Satu cappuccino atau flat white biasa harganya sekitar $4 sampai $8, dengan kafe pusat kota sering di ujung atas. Dua kopi sehari untuk dua orang menjadi pos anggaran yang nyata dalam perjalanan panjang, jadi banyak pengemah membuat kopi pagi sendiri."
         ]
       ],
       "sources": [
         {
-          "label": "Harga minuman Sydney di Numbeo"
+          "label": "Harga minuman Australia di Numbeo, diperbarui November 2026"
         },
         {
-          "label": "Kisaran harga eceran Australia di Numbeo"
+          "label": "Australian Taxation Office: tarif excise duty untuk alkohol"
         },
         {
-          "label": "Panduan alkohol dan berkendara NSW"
+          "label": "Healthy WA: apa itu standard drink"
+        },
+        {
+          "label": "Panduan alkohol dan mengemudi di NSW"
         },
         {
           "label": "NHMRC: berapa lama alkohol terurai"
         },
         {
-          "label": "Northern Territory: membeli dan minum alkohol"
+          "label": "Northern Territory: membeli dan meminum alkohol"
         },
         {
-          "label": "Healthy WA: apa itu takaran standar"
+          "label": "NSW Government: aturan klub untuk pengunjung"
         }
       ],
       "priceTable": {
-        "note": "Kisaran Australia dan Sydney dari kontribusi komunitas, diperbarui Oktober 2026. Ukuran sajian, tempat, promosi, dan lokasi bervariasi.",
+        "note": "Kisaran harga pub dan bottle shop di kota untuk bir biasa Australia pada November 2026. Bir craft, bir impor, tempat di tepi air dan daerah terpencil lebih mahal; happy hour dan promo lebih murah.",
         "rows": [
           {
-            "label": "Cappuccino (Sydney)",
+            "label": "Schooner di pub",
+            "unit": "425 ml"
+          },
+          {
+            "label": "Pint di pub",
+            "unit": "570 ml"
+          },
+          {
+            "label": "Six-pack bottle shop",
+            "unit": "6 x 375 ml"
+          },
+          {
+            "label": "Slab bottle shop",
+            "unit": "24 x 375 ml"
+          },
+          {
+            "label": "Anggur kelas menengah",
+            "unit": "botol 750 ml di bottle shop"
+          },
+          {
+            "label": "Cappuccino",
             "unit": "satu cangkir"
-          },
-          {
-            "label": "Bir draught di pub (Sydney)",
-            "unit": "satu sajian"
-          },
-          {
-            "label": "Wine kelas menengah (nasional)",
-            "unit": "750 ml eceran"
-          },
-          {
-            "label": "Padanan bir domestik (nasional)",
-            "unit": "500 ml eceran"
-          },
-          {
-            "label": "Minuman ringan (Sydney)",
-            "unit": "330 ml di tempat"
           }
         ]
       }
@@ -29463,6 +29627,608 @@
         },
         {
           "label": "Bureau of Meteorology: iklim menurut wilayah"
+        }
+      ],
+      "priceTable": null
+    },
+    "cigarette-prices-australia": {
+      "title": "Berapa Harga Rokok di Australia 2027? Satu Bungkus $40 sampai $60",
+      "description": "Satu bungkus isi 20 yang legal sekitar $40 sampai $60 di Australia dan satu kantong 30 g tembakau linting sekitar $90 sampai $120. Harga per negara bagian, mengapa pajak jadi biayanya, dan vape.",
+      "region": "Australia",
+      "imageAlt": "Lemari tembakau tertutup di toko Australia, dengan bungkus rokok dan kantong kemasan polos di atas harga di raknya",
+      "intro": "Satu bungkus isi 20 rokok yang legal harganya sekitar $40 sampai $60 di Australia pada November 2026, dan satu kantong 30 g tembakau linting sekitar $90 sampai $120. Bungkus isi 25 dan kantong besar sudah tidak ada: sejak 1 Juli 2025 rokok hanya dijual dalam bungkus isi 20 dan tembakau linting hanya dalam kantong 30 g. Hampir seluruh harganya adalah pajak federal, jadi bungkus yang sama harganya hampir sama di Sydney dan Perth, dengan kota terpencil dan Northern Territory sedikit lebih tinggi. Harga naik dua kali setahun, jadi siapkan anggaran lebih besar dari angka di sini kalau Anda bepergian pada 2027.",
+      "sections": [
+        {
+          "heading": "Berapa harga satu bungkus isi 20",
+          "body": [
+            "Merek murah ada di ujung bawah, sekitar $38 sampai $45 untuk 20 batang. Merek arus utama yang Anda lihat di balik setiap konter servo mendekati $50 sampai $60. Toko dan jaringan memberi diskon dan menaikkan harga pada waktu yang berbeda, jadi merek yang sama bisa selisih beberapa dolar antara dua toko di jalan yang sama.",
+            "Kalau Anda ingat bungkus isi 25 dari tahun-tahun lalu atau dari teman di negara asal, ukuran itu tidak ada lagi di Australia. Undang-undang kemasan polos yang berlaku penuh pada 1 Juli 2025 menetapkan setiap bungkus rokok berisi 20, dengan 10 bungkus per karton. Bungkus isi 20 adalah satu-satunya ukuran yang perlu Anda hitung harganya."
+          ],
+          "tips": [
+            "Murah: sekitar $38 sampai $45",
+            "Arus utama: sekitar $50 sampai $60",
+            "Bungkus isi 25 tidak dijual lagi"
+          ]
+        },
+        {
+          "heading": "Harga per negara bagian dan teritori",
+          "body": [
+            "Sebagian besar harganya adalah excise federal, yang sama di setiap negara bagian, jadi negara bagian tempat Anda membeli hanya sedikit mengubah harga. Kisaran di bawah ini adalah panduan harga produk legal di toko. <a data-guide=\"camping-rules-northern-territory\">Northern Territory</a> dan komunitas terpencil biasanya lebih tinggi, karena ongkos angkut dan penjualan yang sedikit menambah harga di rak, dan harga di roadhouse di outback bisa jadi yang tertinggi.",
+            "Tidak ada daftar harga resmi per negara bagian, jadi anggap kisaran ini sebagai perkiraan, bukan penawaran harga. Melihat sekilas harga di rak sebelum membeli memberi tahu Anda lebih banyak daripada tabel mana pun."
+          ],
+          "tips": [
+            "Pajak sama di setiap negara bagian",
+            "NT dan daerah terpencil: sedikit lebih tinggi",
+            "Periksa harga di rak"
+          ],
+          "table": {
+            "caption": "Harga umum di rak untuk tembakau legal pada November 2026. Panduan perkiraan, bukan penawaran harga: toko menetapkan harganya sendiri.",
+            "head": [
+              "Negara bagian atau teritori",
+              "Bungkus isi 20",
+              "Kantong 30 g"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "$40 sampai $60",
+                "$90 sampai $120"
+              ],
+              [
+                "Victoria",
+                "$40 sampai $60",
+                "$90 sampai $120"
+              ],
+              [
+                "Queensland",
+                "$40 sampai $60",
+                "$90 sampai $120"
+              ],
+              [
+                "South Australia",
+                "$40 sampai $60",
+                "$90 sampai $120"
+              ],
+              [
+                "Western Australia",
+                "$40 sampai $60",
+                "$90 sampai $120"
+              ],
+              [
+                "Tasmania",
+                "$40 sampai $60",
+                "$90 sampai $120"
+              ],
+              [
+                "Australian Capital Territory",
+                "$40 sampai $60",
+                "$90 sampai $120"
+              ],
+              [
+                "Northern Territory dan daerah terpencil",
+                "$45 sampai $65 atau lebih",
+                "$95 sampai $130 atau lebih"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Kantong tembakau linting",
+          "body": [
+            "Tembakau linting hanya dijual dalam kantong 30 g, dan satu kantong menghasilkan sekitar 50 batang tipis. Kantong murah sekitar $90 dan yang premium sekitar $115 atau sedikit lebih, jadi tembakau linting tidak jauh lebih murah per batang daripada bungkus isi 20 setelah Anda menambah kertas dan <a data-guide=\"how-to-use-aussiecamps-filters\">filter</a>.",
+            "Excise tembakau linting dihitung berdasarkan berat, sebesar $2,587.90 per kilogram sejak 1 September 2026. Itu sekitar $78 pajak di setiap kantong 30 g sebelum GST, dan itulah sebabnya harga di rak begitu dekat dengan bungkus dalam kotak."
+          ],
+          "tips": [
+            "30 g adalah satu-satunya ukuran",
+            "Sekitar $90 sampai $120",
+            "Tidak jauh lebih murah per batang"
+          ]
+        },
+        {
+          "heading": "Mengapa harganya begitu mahal",
+          "body": [
+            "Harganya sebagian besar adalah pajak. Excise federal adalah $1.55274 untuk setiap batang rokok sejak 1 September 2026, naik dari $1.52829 pada Maret, atau sekitar $31 untuk setiap bungkus isi 20. Di atas itu, GST 10% ditambahkan di kasir. Totalnya sekitar 70% dari bungkus $50 yang umum, dan lebih besar lagi untuk bungkus murah.",
+            "Tarifnya berubah dua kali setahun, pada Maret dan 1 September, mengikuti kenaikan upah. Selain itu, tarifnya naik tambahan 5% setiap September dari 2023 sampai 2026, jadi biayanya naik terus-menerus, bukan dalam satu lonjakan. Bungkus yang tampak mahal pada perjalanan pertama seorang pengunjung akan naik lagi tahun berikutnya."
+          ],
+          "tips": [
+            "Sekitar $31 excise per bungkus",
+            "Ditambah GST 10%",
+            "Naik setiap Maret dan September"
+          ]
+        },
+        {
+          "heading": "Kenaikan tahunan dan perjalanan Anda",
+          "body": [
+            "Karena tarifnya berubah setiap Maret dan September, angka tahun lalu sudah ketinggalan saat Anda mendarat. Sebagai patokan, anggap satu bungkus pada 2027 akan beberapa dolar lebih mahal daripada kisaran 2026 di sini, dan periksa harga di rak di kota pertama sebelum merencanakan pengeluaran sebulan.",
+            "Perokok berat dalam perjalanan panjang cepat menumpuk biayanya. Sepuluh bungkus sebulan sekitar $400 sampai $600. Masukkan sebagai pos tersendiri dalam anggaran perjalanan, seperti bahan bakar, supaya tidak memakan uang makan."
+          ],
+          "tips": [
+            "Siapkan beberapa dolar lebih",
+            "Sepuluh bungkus: $400 sampai $600",
+            "Beri pos anggaran tersendiri"
+          ]
+        },
+        {
+          "heading": "Harga vape",
+          "body": [
+            "Sejak 1 Juli 2024 vape hanya dijual di apotek, baik yang mengandung nikotin maupun tidak. Orang dewasa bisa membeli vape nikotin berkadar lebih rendah dari apoteker tanpa resep di sebagian besar negara bagian, setelah berbincang, dan produk yang lebih kuat memerlukan resep. Apotek hanya boleh menyediakan produk dalam daftar vape terdaftar milik TGA.",
+            "Harga di apotek ditetapkan oleh produsen dan toko, bukan oleh pemerintah. Perkirakan sekitar $30 sampai $60 untuk perangkat dasar atau satu paket pod, dan lebih mahal untuk starter kit. Vape sekali pakai murah yang dijual diam-diam di beberapa toko bukan produk legal."
+          ],
+          "tips": [
+            "Hanya apotek sejak Juli 2024",
+            "Sekitar $30 sampai $60 per perangkat",
+            "Tanya apoteker dulu"
+          ]
+        },
+        {
+          "heading": "Tembakau dan vape ilegal",
+          "body": [
+            "Beberapa toko menjual rokok dan vape dengan harga sebagian kecil dari harga legal, sering dalam bungkus tanpa merek atau bungkus asing dan kadang disebut chop chop. Ini ilegal, dan membelinya bisa berarti denda serta barang disita, dengan hukuman yang berbeda per negara bagian. Produk ini juga tidak memuat peringatan kesehatan Australia.",
+            "Kalau harga tampak terlalu bagus dibanding angka di atas, hampir pasti memang begitu, jadi tetaplah beli vape di apotek dan tembakau di <a data-guide=\"where-to-buy-cigarettes-vapes-australia\">toko tembakau</a> berlisensi atau supermarket."
+          ],
+          "tips": [
+            "Bungkus tanpa merek ilegal",
+            "Pembeli bisa didenda",
+            "Murah biasanya berarti ilegal"
+          ]
+        },
+        {
+          "heading": "Cara berhemat secara legal",
+          "body": [
+            "<a data-guide=\"smoking-vaping-rules-australia\">Jatah bebas bea</a> saat Anda tiba hanya 25 batang rokok atau 25 gram tembakau, ditambah satu bungkus yang sudah dibuka, untuk pelancong berusia 18 tahun ke atas. Membawa lebih berarti Anda wajib mendeklarasikannya, dan Australian Border Force menyatakan Anda menyerahkan kelebihannya atau membayar bea atas seluruh jumlahnya. Tembakau yang tidak dideklarasikan bisa disita dan didenda, jadi membawa persediaan dari rumah bukan cara menghemat dalam perjalanan panjang.",
+            "Membeli per karton tidak banyak lebih murah per batang, karena pajaknya sama untuk setiap batang. Penghematan nyatanya kecil: pilih merek murah, beli di toko yang memberi diskon, dan hindari harga roadhouse dan daerah terpencil kalau bisa. Aturan untuk pelancong, termasuk bebas bea, vape dan tempat bebas asap, dibahas di panduan aturan merokok dan vaping. Kalau Anda merokok di dekat kemah, matikan setiap puntung sepenuhnya dan bawa pergi, dan ikuti aturan <a data-guide=\"campfires-camping-australia\">larangan api total</a>: puntung dan semak tidak boleh bertemu.",
+            "Mau ke New Zealand juga? KiwiCamping membahas <a data-sister=\"cigarette-prices-new-zealand\">harga rokok di New Zealand</a>."
+          ],
+          "tips": [
+            "Bawa hanya 25 batang",
+            "Karton hemat sedikit",
+            "Matikan puntung, bawa pergi"
+          ]
+        },
+        {
+          "heading": "Susun anggaran perjalanan di AussieCamps",
+          "body": [
+            "AussieCamps menyaring tempat berdasarkan <a data-guide=\"how-to-use-aussiecamps-filters\">filter</a> Biaya, Gratis atau Berbayar, jadi malam yang lebih murah memberi ruang bagi anggaran lainnya. Tambahkan setiap pemberhentian ke perjalanan dengan tanggal, catatan dan daftar tugas, supaya belanja persediaan di kota besar sebelum etape terpencil menjadi bagian dari rencana.",
+            "Detail tempat dan filter berfungsi <a data-guide=\"camping-without-phone-signal\">tanpa sinyal</a>, dan rute berkendara menunjukkan jarak dan waktu tiap etape. AussieCamps berjalan di iPhone."
+          ],
+          "tips": [
+            "Saring berdasarkan Biaya",
+            "Rencanakan belanja sebelum etape terpencil",
+            "Hanya iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Berapa harga satu bungkus rokok di Australia?",
+          "Satu bungkus isi 20 yang legal biasanya sekitar $40 sampai $60 pada November 2026, dengan merek murah di bawah dan merek arus utama di atas. Bungkus isi 25 tidak dijual lagi: sejak 1 Juli 2025 setiap bungkus rokok harus berisi tepat 20. Harga sedikit lebih rendah di pantai timur dan lebih tinggi di Northern Territory dan kota terpencil."
+        ],
+        [
+          "Mengapa rokok sangat mahal di Australia?",
+          "Pajak federal. Excise-nya $1.55274 untuk setiap batang rokok sejak 1 September 2026, atau sekitar $31 untuk satu bungkus isi 20 sebelum GST 10% ditambahkan. Untuk kebanyakan merek, sekitar 70% atau lebih harga di rak masuk ke pemerintah."
+        ],
+        [
+          "Berapa batang rokok yang boleh saya bawa ke Australia?",
+          "Jatah bebas bea untuk pelancong berusia 18 tahun ke atas adalah 25 batang rokok atau 25 gram tembakau, ditambah satu bungkus yang sudah dibuka. Deklarasikan apa pun di atas itu. Australian Border Force menyatakan Anda boleh membawa jumlah yang diizinkan dan menyerahkan sisanya, atau menyimpan semuanya dan membayar bea atas seluruh jumlahnya."
+        ],
+        [
+          "Bisakah saya membeli vape di Australia sebagai turis?",
+          "Hanya dari apotek. Sejak 1 Juli 2024 vape tidak boleh dijual di toko lain, dan toko kelontong yang menjualnya melanggar hukum. Orang dewasa bisa membeli vape nikotin berkadar lebih rendah dari apoteker tanpa resep di sebagian besar negara bagian, setelah berbincang singkat."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Australian Taxation Office: tarif excise duty untuk tembakau"
+        },
+        {
+          "label": "Australian Border Force: jatah bebas bea"
+        },
+        {
+          "label": "Department of Health: perubahan produk tembakau di Australia"
+        },
+        {
+          "label": "Department of Health: undang-undang vaping"
+        },
+        {
+          "label": "Therapeutic Goods Administration: produk vaping nikotin"
+        },
+        {
+          "label": "Tobacco in Australia: harga produk tembakau"
+        }
+      ],
+      "priceTable": null
+    },
+    "smoking-vaping-rules-australia": {
+      "title": "Merokok dan Vaping di Australia (2027): Aturan untuk Pelancong",
+      "description": "Bawa 25 batang rokok atau 25 g tembakau bebas bea, vape hanya di apotek, usia minimal 18, dan puntung menyala di alam liar didenda besar. Aturan pelancong 2027.",
+      "region": "Australia",
+      "imageAlt": "Papan bertuliskan This jetty is smoke-free and vape-free di pagar dermaga Outer Harbor di Adelaide, South Australia",
+      "intro": "Pengunjung berusia 18 tahun ke atas boleh membawa 25 batang rokok atau 25 g tembakau ke Australia bebas bea, ditambah satu bungkus yang sudah dibuka, dan wajib mendeklarasikan jumlah yang lebih. Vape kini dijual hanya lewat apotek, dan pengecualian pelancong mengizinkan 2 vape, 20 pod atau kartrid dan 200 mL cairan untuk pengobatan Anda sendiri. Anda harus berusia 18 tahun untuk membeli keduanya, dan merokok serta vaping dilarang di banyak tempat terbuka, dari meja kafe sampai pantai yang dijaga. Bagi pengemah, yang terbesar adalah api: puntung menyala yang dibuang dari mobil atau jatuh di rumput kering bisa berarti denda ribuan dolar. Inilah aturan yang berlaku pada November 2026.",
+      "sections": [
+        {
+          "heading": "Apa yang boleh dibawa bebas bea",
+          "body": [
+            "Orang dewasa berusia 18 tahun ke atas boleh membawa tembakau ke Australia tanpa izin. Jatah bebas beanya adalah 25 batang rokok atau 25 g produk tembakau, ditambah satu bungkus yang sudah dibuka. Karena bungkus Australia dan kebanyakan bungkus luar negeri berisi 20, itu berarti satu bungkus tersegel ditambah yang sedang Anda hisap. Anak di bawah 18 tahun tidak mendapat jatah tembakau sama sekali.",
+            "Kalau melebihi batas, Australian Border Force menyatakan bea dan pajak berlaku untuk seluruh barang jenis itu, bukan hanya bagian yang melebihi. Tidak mendeklarasikan kelebihan bisa berarti denda, penuntutan atau pencabutan visa, tergantung jumlah yang dibawa. Kalau membawa lebih, deklarasikan di Incoming Passenger Card, tunjukkan bukti pembelian dan bayar bea, atau serahkan di perbatasan. Harga bungkus lokal dibahas di panduan <a data-guide=\"cigarette-prices-australia\">harga rokok</a>."
+          ],
+          "tips": [
+            "25 batang rokok atau 25 g",
+            "Ditambah satu bungkus terbuka",
+            "Deklarasikan yang melebihi"
+          ]
+        },
+        {
+          "heading": "Vape untuk pelancong",
+          "body": [
+            "Sejak 2024, vape di Australia diperlakukan sebagai barang terapeutik. Pelancong hanya boleh membawanya dengan pengecualian pelancong: vape harus untuk pengobatan Anda sendiri, atau untuk orang yang Anda rawat dan bepergian bersama Anda dengan penerbangan atau kapal yang sama. Batasnya adalah 2 vape secara total, 20 aksesori seperti pod, kartrid atau kapsul, dan 200 mL cairan vape.",
+            "Vape sekali pakai dihitung dalam 2 tersebut. Mengirim vape lewat pos ke diri sendiri, atau meminta teman mengirimkannya, tidak diizinkan, dan apa pun yang melebihi batas bisa disita. Deklarasikan vape Anda dan simpan di bagasi kabin agar petugas bisa melihatnya. Aturan membawanya di pesawat ditetapkan maskapai Anda, jadi periksa sebelum terbang."
+          ],
+          "tips": [
+            "2 vape, 20 pod, 200 mL",
+            "Hanya untuk pemakaian sendiri",
+            "Dilarang mengirim vape ke Australia lewat pos"
+          ]
+        },
+        {
+          "heading": "Membeli vape dan batas usia",
+          "body": [
+            "Vape hanya dijual apotek di Australia. Sejak Oktober 2024, apoteker boleh menyediakan vape nikotin 20 mg/mL atau lebih rendah untuk orang berusia 18 tahun ke atas tanpa resep, dan yang di bawah 18 tahun memerlukan resep. <a data-guide=\"where-to-buy-cigarettes-vapes-australia\">Toko tembakau</a>, toko vape, servo dan toko serba ada sama sekali tidak boleh menjual vape, berapa pun kadar nikotinnya.",
+            "Batas usia legal untuk membeli tembakau adalah 18 tahun di setiap negara bagian dan teritori, dan toko boleh meminta kartu identitas berfoto. Pengunjung diminta hal yang sama seperti penduduk lokal, jadi paspor atau <a data-guide=\"overseas-driver-licence-australia-state-guide\">SIM luar negeri</a> adalah yang aman dibawa. Apoteker juga bisa memberi tahu Anda tentang aturan tambahan negara bagian sebelum Anda membeli."
+          ],
+          "tips": [
+            "Vape: hanya apotek",
+            "18 tahun untuk membeli apa pun",
+            "Bawa kartu identitas berfoto"
+          ]
+        },
+        {
+          "heading": "Di mana Anda tidak boleh merokok atau vaping",
+          "body": [
+            "Undang-undang bebas asap ditetapkan tiap negara bagian dan teritori, dan vaping diperlakukan seperti merokok di tempat bebas asap. Tabel mencantumkan tempat yang paling sering dijumpai pengemah. Banyak dewan kota menambahkan aturan sendiri untuk pantai, taman dan pusat kota setempat, jadi perhatikan papan tanda.",
+            "Taman nasional, pantai dan campground punya aturan sendiri. Queensland melarang merokok dalam jarak 10 m dari lokasi kemah dan fasilitas taman nasional, beberapa negara bagian melarangnya di antara bendera pada pantai yang dijaga, dan banyak <a data-guide=\"caravan-park-vs-holiday-park\">caravan park</a> melarangnya di kabin, blok fasilitas dan dapur kemah. Saat larangan api berlaku, ranger taman memperlakukan rokok menyala di tempat terbuka seperti api lainnya.",
+            "Denda ditetapkan dalam penalty unit atau jumlah tetap yang berubah setiap tahun, jadi tabel memberi panduan, bukan angka pasti."
+          ],
+          "tips": [
+            "Vaping juga termasuk",
+            "Cari papan tanda setempat",
+            "Denda berubah setiap tahun"
+          ],
+          "table": {
+            "caption": "Tempat terbuka bebas asap per negara bagian dan teritori, dari halaman kesehatan negara bagian yang dibaca pada November 2026. Periksa halaman negara bagian terbaru sebelum mengandalkan angka.",
+            "head": [
+              "Negara bagian",
+              "Tempat terbuka bebas asap yang perlu diketahui",
+              "Denda langsung yang umum"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "Area makan luar ruang komersial, dalam jarak 4 m dari pintu masuk gedung umum, halte dan peron transportasi umum; banyak dewan kota menambahkan pantai dan taman",
+                "$300"
+              ],
+              [
+                "Victoria",
+                "Area makan luar ruang, dalam jarak 10 m dari taman bermain dan skate park, di acara olahraga anak di bawah 18 tahun, dan di festival makanan",
+                "Sekitar satu atau dua penalty unit, beberapa ratus dolar"
+              ],
+              [
+                "Queensland",
+                "Di antara bendera pada pantai yang dijaga, dalam jarak 10 m dari lokasi kemah dan fasilitas taman nasional, 5 m dari halte transportasi umum dan 10 m dari taman bermain",
+                "Dua penalty unit"
+              ],
+              [
+                "South Australia",
+                "Area makan luar ruang, taman bermain dan shelter transportasi umum, ditambah zona luar ruang baru sejak Maret 2024",
+                "$105"
+              ],
+              [
+                "Western Australia",
+                "Area makan luar ruang, dalam jarak 10 m dari peralatan taman bermain, dan di antara bendera pada pantai yang dijaga",
+                "$300 untuk area makan luar ruang"
+              ],
+              [
+                "Tasmania",
+                "Area makan luar ruang, dalam jarak 3 m dari pintu masuk, dalam jarak 10 m dari taman bermain, pantai yang dijaga, dan acara luar ruang",
+                "Sekitar $350 sampai $400"
+              ],
+              [
+                "Northern Territory",
+                "Area makan luar ruang tanpa lisensi, acara umum dan sekitarnya, serta area bermain anak",
+                "Ditetapkan dalam penalty unit"
+              ],
+              [
+                "Australian Capital Territory",
+                "Area makan dan minum luar ruang, dan dalam jarak 10 m dari peralatan bermain",
+                "Ditetapkan dalam penalty unit"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Merokok di mobil bersama anak",
+          "body": [
+            "Setiap negara bagian dan teritori melarang merokok di mobil yang ada anak di dalamnya, bahkan jika jendela terbuka atau mobil sedang parkir. Usia anak yang dihitung adalah di bawah 16 tahun di <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a>, Queensland, South Australia, Northern Territory dan ACT, di bawah 17 tahun di Western Australia, dan di bawah 18 tahun di Victoria dan Tasmania. Vaping juga tercakup.",
+            "Di mobil sewaan atau campervan aturannya sama, dan perusahaan rental juga bisa menagih biaya pembersihan karena bau asap. Kalau Anda merokok, menjauhlah dari kendaraan dan turunkan penumpang lebih dulu."
+          ],
+          "tips": [
+            "Ilegal di setiap negara bagian",
+            "Jendela terbuka bukan alasan",
+            "Mobil sewaan menagih biaya pembersihan"
+          ]
+        },
+        {
+          "heading": "Larangan api, puntung dan denda",
+          "body": [
+            "Pada hari <a data-guide=\"campfires-camping-australia\">larangan api total</a>, apa pun yang bisa menyulut api di tempat terbuka menjadi kekhawatiran, dan membuang rokok menyala adalah pelanggaran di setiap negara bagian. Di New South Wales, puntung menyala bisa dikenai denda langsung mulai sekitar $660, menjadi dua kali lipat sekitar $1,320 pada hari larangan api total. Di pengadilan maksimumnya $5,500, atau $11,000 pada hari larangan api total. Pengemudi juga mendapat poin pelanggaran, 5 pada hari biasa dan 10 pada hari larangan api total.",
+            "Membuang puntung dari mobil diperlakukan sebagai membuang sampah berbahaya di Victoria dan <a data-guide=\"camping-rules-queensland\">Queensland</a>, dengan denda sampai beberapa ratus dolar langsung dan jauh lebih besar di pengadilan. Bahkan puntung di tanah adalah sampah. Di alam liar, puntung bisa menyulut kebakaran yang sampai ke campground atau kota.",
+            "Bawa kaleng puntung atau asbak portabel, dan jangan pernah mematikan rokok di rumput kering atau serasah daun. Beberapa negara bagian memungkinkan Anda melaporkan orang yang membuang puntung menyala: di <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> Anda bisa menelepon Bush Fire Information Line di 1800 679 737."
+          ],
+          "tips": [
+            "Kaleng puntung di mobil",
+            "Jangan pernah di rumput kering",
+            "Laporkan puntung menyala dari mobil"
+          ]
+        },
+        {
+          "heading": "Ringkasan denda dan rencana pengemah",
+          "body": [
+            "Singkatnya: tembakau melebihi batas berarti bea atas seluruhnya atau disita, merokok di tempat bebas asap berarti denda mulai sekitar $100 sampai beberapa ratus dolar, dan puntung menyala yang dibuang dari kendaraan berarti ratusan dolar langsung dan ribuan di pengadilan.",
+            "Untuk perjalanan berkemah, pilih lokasi dengan ruang jauh dari tenda dan rumput kering, periksa peringkat bahaya api setiap pagi, dan tutup rapat kaleng puntung setelah selesai. Halaman badan taman dan papan tanda di campground menunjukkan di mana merokok tidak diizinkan. Mau ke New Zealand juga? KiwiCamping membahas <a data-sister=\"smoking-vaping-rules-new-zealand\">aturan merokok dan vaping di New Zealand</a>."
+          ],
+          "tips": [
+            "Periksa bahaya api setiap hari",
+            "Periksa area bebas asap taman",
+            "Jangan matikan rokok di rumput"
+          ]
+        },
+        {
+          "heading": "Rencanakan sesuai aturan di AussieCamps",
+          "body": [
+            "AussieCamps menampilkan campground yang dipublikasikan badan taman, dengan filter \"Popular features\" untuk toilet, air minum, pancuran dan <a data-guide=\"campfires-camping-australia\">api unggun</a>. Gunakan filter \"Cost\" untuk membandingkan lokasi gratis dan berbayar, dan tambahkan pemberhentian ke perjalanan dengan tanggal, catatan, cuaca dan \"To-do list\" supaya Anda ingat kaleng puntung dan kartu identitas.",
+            "Detail tempat, pencarian dan filter berfungsi <a data-guide=\"camping-without-phone-signal\">tanpa sinyal</a>, karena direktorinya ada di dalam aplikasi. Peta, rute dan cuaca memerlukan koneksi, dan AussieCamps berjalan di iPhone."
+          ],
+          "tips": [
+            "Saring berdasarkan api unggun dan fasilitas",
+            "Tambahkan kaleng puntung ke to-do list",
+            "Hanya iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Berapa batang rokok yang boleh saya bawa ke Australia?",
+          "Pelancong berusia 18 tahun ke atas boleh membawa 25 batang rokok atau 25 g produk tembakau, ditambah satu bungkus yang sudah dibuka, tanpa membayar bea. Karena bungkus berisi 20, dalam praktiknya itu satu bungkus tersegel dan yang sedang Anda hisap. Kalau Anda membawa lebih dan tidak mendeklarasikannya, Anda bisa diwajibkan membayar bea atas seluruhnya atau menyerahkannya, dan bisa menghadapi denda atau penuntutan. Deklarasikan apa pun yang melebihi batas di perbatasan."
+        ],
+        [
+          "Bolehkah saya membawa vape ke Australia?",
+          "Hanya dalam jumlah kecil dan hanya untuk pengobatan Anda sendiri atau orang yang Anda rawat yang bepergian bersama Anda. Batasnya adalah 2 vape, 20 aksesori seperti pod atau kartrid, dan 200 mL cairan vape. Vape tidak boleh dikirim lewat pos kepada Anda, dan Anda tidak bisa membelinya di toko di Australia."
+        ],
+        [
+          "Berapa usia minimal merokok di Australia?",
+          "Anda harus berusia 18 tahun untuk membeli tembakau atau vape di mana pun di Australia, dan toko boleh meminta kartu identitas berfoto. Turis diminta hal yang sama seperti penduduk lokal, jadi bawa paspor atau SIM Anda."
+        ],
+        [
+          "Bolehkah saya merokok di campground di Australia?",
+          "Biasanya boleh di lokasi Anda sendiri, tetapi tidak di mana-mana. Di taman nasional Queensland, merokok dan vaping dilarang dalam jarak 10 m dari lokasi kemah dan fasilitas seperti toilet dan meja piknik. Pada hari larangan api total, atau di semak kering, jawaban paling aman adalah tidak merokok di tempat terbuka sama sekali."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Australian Border Force: keringanan bebas bea"
+        },
+        {
+          "label": "Office of Drug Control: vape dan pengecualian pelancong"
+        },
+        {
+          "label": "TGA: informasi vape untuk pasien dan konsumen"
+        },
+        {
+          "label": "Pemerintah Queensland: undang-undang merokok di Queensland"
+        },
+        {
+          "label": "NSW Health: undang-undang bebas asap untuk area makan luar ruang komersial"
+        },
+        {
+          "label": "Pemerintah Victoria: saran merokok dan vaping untuk orang tua"
+        },
+        {
+          "label": "NSW Rural Fire Service: denda baru dan yang dinaikkan"
+        }
+      ],
+      "priceTable": null
+    },
+    "where-to-buy-cigarettes-vapes-australia": {
+      "title": "Di Mana Membeli Rokok dan Vape di Australia (2027)",
+      "description": "Rokok dijual di konter supermarket, servo dan toko tembakau; vape hanya di apotek. Di mana membeli, aturan kartu identitas dan apa yang diharapkan di outback.",
+      "region": "Australia",
+      "imageAlt": "Nullarbor Roadhouse di South Australia, dengan road train dan camper yang parkir di dekat pompa bensin dan toko",
+      "intro": "Rokok dijual di konter supermarket, SPBU, toko serba ada dan toko tembakau, dan Anda harus berusia 18 tahun ke atas untuk membelinya. Vape berbeda: sejak 1 Juli 2024 vape hanya boleh dijual oleh apotek, dan orang dewasa bisa membeli vape nikotin 20 mg/mL atau kurang dari apoteker tanpa resep. Di daerah pedesaan pilihannya menyempit ke roadhouse atau toko umum, biasanya dengan merek lebih sedikit dan harga lebih tinggi, jadi belilah persediaan di kota yang lebih besar sebelum etape terpencil. Harga naik setiap tahun, jadi periksa harga di rak, jangan percaya angka tahun lalu.",
+      "sections": [
+        {
+          "heading": "Di mana membeli sekilas",
+          "body": [
+            "Rokok mudah ditemukan di kota berukuran wajar mana pun, dan jenis toko menentukan pilihan dan harganya. Vape adalah kasus terpisah dan hanya berasal dari apotek.",
+            "Apa yang dijual toko berbeda dari jaringan ke jaringan dan dari tahun ke tahun, jadi anggap tabel sebagai pola yang biasa, bukan janji untuk setiap toko."
+          ],
+          "tips": [
+            "Rokok: banyak toko",
+            "Vape: hanya apotek",
+            "Pilihan menyusut di outback"
+          ],
+          "table": {
+            "caption": "Tempat pelancong biasanya membeli tembakau dan vape di Australia, November 2026. Stok dan harga berbeda per toko.",
+            "head": [
+              "Di mana",
+              "Yang dijual",
+              "Catatan"
+            ],
+            "rows": [
+              [
+                "Supermarket",
+                "Rokok dan tembakau linting; tanpa vape",
+                "Coles, Woolworths dan IGA menjualnya di konter layanan atau kios; Aldi tidak menjual tembakau"
+              ],
+              [
+                "SPBU dan toko serba ada",
+                "Rokok dan tembakau linting; tanpa vape",
+                "Buka malam dan ada di mana-mana, tetapi sering pilihan termahal"
+              ],
+              [
+                "Toko tembakau",
+                "Pilihan rokok dan tembakau terluas; tanpa vape",
+                "Toko spesialis, terbaik untuk merek yang kurang umum"
+              ],
+              [
+                "Bottle shop dan pub",
+                "Rokok di sebagian",
+                "Tidak semua menyediakan, jadi tanya dulu"
+              ],
+              [
+                "Apotek",
+                "Vape nikotin 20 mg/mL atau kurang, setelah berbincang dengan apoteker",
+                "Satu-satunya tempat legal untuk vape; rasa terbatas; tidak semua apotek menyediakannya"
+              ],
+              [
+                "Roadhouse dan toko terpencil",
+                "Beberapa merek rokok, kadang tembakau",
+                "Harga lebih tinggi, jam buka lebih pendek, tanpa vape"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Supermarket dan bottle shop",
+          "body": [
+            "Coles, Woolworths dan IGA menjual rokok, tetapi Anda tidak akan melihatnya di rak. Larangan pajangan membuat bungkus disimpan di lemari tertutup, jadi Anda bertanya di konter layanan atau kios dan menyebut mereknya. Jaringan supermarket telah mengurangi tembakau, dan sebagian toko minuman mereka berhenti menjualnya, jadi yang tersedia berbeda per toko. Aldi sama sekali tidak menjual tembakau.",
+            "Sebagian bottle shop dan bottle shop di pub menjual rokok dan sebagian tidak, jadi tanyakan sebelum Anda mengandalkannya. Konter supermarket adalah pilihan praktis saat belanja besar karena harganya biasanya sejalan dengan sisa kota dan Anda sudah ada di sana."
+          ],
+          "tips": [
+            "Tanya di konter layanan",
+            "Aldi tidak menjual tembakau",
+            "Tanya bottle shop dulu"
+          ]
+        },
+        {
+          "heading": "SPBU dan toko serba ada",
+          "body": [
+            "Servo dari Ampol, BP, 7-Eleven dan yang independen hampir selalu menjual rokok, biasanya di konter di belakang kasir, dan banyak yang buka sampai larut atau semalaman. Itu menjadikannya pilihan termudah saat Anda tiba di kota setelah supermarket tutup.",
+            "Harga dari kemudahan itu adalah harga yang lebih tinggi. Servo sering menjadi tempat termahal di kota untuk satu bungkus, jadi kalau Anda membeli untuk beberapa minggu, konter supermarket atau toko tembakau biasanya lebih murah. Panduan <a data-guide=\"cigarette-prices-australia\">harga rokok</a> memuat kisaran umum untuk satu bungkus dan satu kantong."
+          ],
+          "tips": [
+            "Buka malam, sering termahal",
+            "Cukup untuk bungkus darurat",
+            "Lebih murah di supermarket"
+          ]
+        },
+        {
+          "heading": "Toko tembakau dan toko ilegal",
+          "body": [
+            "Toko tembakau adalah toko spesialis dengan pilihan rokok dan tembakau linting terluas, dan mereka bisa memesan atau menunjukkan merek yang tidak ada di supermarket. Beberapa negara bagian kini mewajibkan toko memiliki lisensi ritel tembakau, dan di <a data-guide=\"camping-rules-victoria\">Victoria</a> aturan lisensi ditegakkan sejak 1 Februari 2026. Nomor atau sertifikat lisensi sering dipajang di toko.",
+            "Waspadai toko yang menjual rokok atau vape sangat murah. Tembakau dan vape ilegal tanpa pajak dijual di beberapa toko, dan menjual atau membelinya melanggar hukum. Barang bisa disita dan pembeli bisa didenda, dengan hukuman yang berbeda per negara bagian. Rokok legal datang dalam bungkus polos cokelat zaitun dengan peringatan kesehatan grafis besar dalam bahasa Inggris, jadi bungkus berwarna-warni atau yang tampak asing, tanpa peringatan bahasa Inggris, atau harga jauh di bawah kisaran biasa adalah tanda bahaya."
+          ],
+          "tips": [
+            "Pilihan merek terluas",
+            "Bungkus polos, peringatan bahasa Inggris",
+            "Sangat murah biasanya ilegal"
+          ]
+        },
+        {
+          "heading": "Aturan kartu identitas dan usia",
+          "body": [
+            "Anda harus berusia 18 tahun ke atas untuk membeli rokok, tembakau linting atau vape di mana pun di Australia, dan penjual boleh menolak melayani Anda tanpa bukti usia. Banyak toko meminta kartu identitas dari siapa pun yang tampak di bawah 25 tahun, jadi siap-siaplah ditanya dan jangan tersinggung.",
+            "Bawa paspor atau SIM Australia, atau SIM dari negara Anda sendiri jika memuat foto dan tanggal lahir Anda. Staf yang memutuskan apa yang diterima, jadi bawa aslinya, bukan fotokopi. Panduan <a data-guide=\"smoking-vaping-rules-australia\">aturan merokok dan vaping</a> memuat tempat-tempat yang melarang merokok."
+          ],
+          "tips": [
+            "Hanya 18 tahun ke atas",
+            "Sering ditanya jika di bawah 25",
+            "Bawa kartu identitas berfoto asli"
+          ]
+        },
+        {
+          "heading": "Membeli vape",
+          "body": [
+            "Vape hanya boleh dijual oleh apotek. Toko tembakau, toko vape dan toko serba ada tidak boleh menjualnya, baik mengandung nikotin maupun tidak, dan vape sekali pakai dilarang. Toko yang menjualnya di atas konter melanggar hukum.",
+            "Orang dewasa bisa membeli vape nikotin 20 mg/mL atau kurang dari apoteker tanpa resep, setelah berbincang singkat, di tempat yang diizinkan undang-undang negara bagian dan teritori. Kadar lebih tinggi memerlukan resep. Rasa dibatasi pada tanpa rasa, mint, menthol dan tembakau. Tidak semua apotek menyediakan vape, jadi telepon dulu atau tanya di apotek yang lebih besar."
+          ],
+          "tips": [
+            "Hanya apotek",
+            "Tanpa sekali pakai",
+            "Mint, menthol, tembakau"
+          ]
+        },
+        {
+          "heading": "Di outback dan di jalan terpencil",
+          "body": [
+            "Roadhouse dan toko umum terpencil biasanya menjual rokok, tetapi pilihannya bisa hanya beberapa merek dan harganya lebih tinggi daripada di kota. Tembakau linting mungkin terbatas, dan kalau toko kehabisan, toko berikutnya bisa ratusan kilometer jauhnya. Beberapa komunitas terpencil menetapkan aturan sendiri tentang apa yang boleh dijual toko, jadi tanyakan sebelum mengandalkan toko komunitas dan ikuti papan tanda tentang pembatasan.",
+            "Apotek jarang di luar kota yang lebih besar, jadi kalau Anda vaping, beli sebelum berangkat. Kebanyakan roadhouse menerima kartu, tetapi gangguan bisa terjadi dan jam bukanya lebih pendek, sering tutup di awal malam, jadi bawa sedikit uang tunai dan beli sebelum gelap. Beberapa bungkus cadangan untuk etape panjang lebih murah daripada isi ulang di roadhouse."
+          ],
+          "tips": [
+            "Beli sebelum etape terpencil",
+            "Pengguna vape: rencanakan sekitar apotek",
+            "Bawa sedikit uang tunai"
+          ]
+        },
+        {
+          "heading": "Di jalan dan di kemah",
+          "body": [
+            "Panas berat bagi tembakau dan vape. Jangan tinggalkan bungkus, kantong atau vape di mobil panas atau camper tertutup, tempat semuanya bisa mengering atau rusak, dan jauhkan vape dari sinar matahari langsung. Tas di tempat teduh atau sekat cool box lebih baik.",
+            "Merokoklah jauh dari kemah dan tenda, dan periksa peringkat bahaya api. Pada <a data-guide=\"campfires-camping-australia\">larangan api total</a>, rokok menyala adalah risiko nyata, dan beberapa campground, pantai dan taman nasional bebas asap. Matikan setiap puntung sepenuhnya dan bawa pergi, jangan tinggalkan di tanah. Mau ke New Zealand juga? KiwiCamping membahas <a data-sister=\"where-to-buy-cigarettes-vapes-new-zealand\">di mana membeli rokok dan vape di New Zealand</a>."
+          ],
+          "tips": [
+            "Jauhkan dari mobil panas",
+            "Periksa peringkat bahaya api",
+            "Bawa puntung pergi"
+          ]
+        },
+        {
+          "heading": "Rencanakan pemberhentian belanja ulang di AussieCamps",
+          "body": [
+            "AussieCamps memungkinkan Anda menambahkan setiap pemberhentian ke perjalanan dengan tanggal dan catatan, dan rute berkendara menunjukkan jarak dan waktu tiap etape. Itu memudahkan melihat kota besar terakhir sebelum bentang terpencil dan mencatatnya sebagai tempat belanja ulang.",
+            "Detail tempat, pencarian dan filter berfungsi tanpa sinyal, jadi Anda bisa memeriksa fasilitas campground, seperti air minum, toilet dan <a data-guide=\"campfires-camping-australia\">api unggun</a>, saat di luar jangkauan. AussieCamps berjalan di iPhone."
+          ],
+          "tips": [
+            "Lihat jarak tiap etape",
+            "Catat kota untuk belanja ulang",
+            "Hanya iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Di mana saya bisa membeli rokok di Australia?",
+          "Di supermarket seperti Coles, Woolworths dan IGA, di SPBU dan toko serba ada, dan di toko tembakau yang pilihannya paling luas. Aldi tidak menjual tembakau. Di supermarket rokok disimpan di luar pandangan dan Anda bertanya di konter layanan."
+        ],
+        [
+          "Di mana saya bisa membeli vape di Australia?",
+          "Hanya di apotek. Sejak 1 Juli 2024 vape tidak boleh dijual oleh toko tembakau, toko vape atau toko serba ada, dan vape sekali pakai dilarang. Orang dewasa bisa membeli vape nikotin 20 mg/mL atau kurang dari apoteker tanpa resep, setelah berbincang singkat, tetapi tidak semua apotek menyediakannya."
+        ],
+        [
+          "Apakah saya perlu kartu identitas untuk membeli rokok di Australia?",
+          "Anda harus berusia 18 tahun ke atas, dan staf bisa meminta bukti usia. Bawa paspor atau SIM Australia, karena fotokopi atau foto di ponsel mungkin tidak diterima. Toko biasanya meminta dari siapa pun yang tampak di bawah 25 tahun."
+        ],
+        [
+          "Bisakah saya membeli rokok di outback?",
+          "Biasanya bisa di roadhouse dan toko umum, tetapi dengan pilihan merek kecil dan harga lebih tinggi. Beberapa toko komunitas terpencil punya aturan sendiri tentang apa yang dijual, dan apotek jarang, jadi beli yang Anda butuhkan di kota yang lebih besar sebelum etape terpencil."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Department of Health: tentang vaping"
+        },
+        {
+          "label": "Department of Health: perubahan vaping di Australia mulai 1 Juli"
+        },
+        {
+          "label": "Therapeutic Goods Administration: reformasi regulasi vape"
+        },
+        {
+          "label": "Therapeutic Goods Administration: informasi produk vaping nikotin untuk konsumen"
+        },
+        {
+          "label": "Pemerintah Victoria: perizinan tembakau"
+        },
+        {
+          "label": "Department of Health: perubahan produk tembakau di Australia"
         }
       ],
       "priceTable": null

@@ -7763,145 +7763,309 @@
       }
     },
     "alcohol-coffee-drink-prices-australia": {
-      "title": "Priser på øl og kaffe i Australia 2027: pubøl $7 til $16",
-      "description": "Et øl på pub koster $7 til $16 og en cappuccino $4.50 til $8 i Sydney (oktober 2026). Per standarddrink er pubøl $4 til $9 og vin fra bottle shop $1.60 til $4.",
+      "title": "Hva koster en øl i Australia? Priser på pub og vinmonopol (2027)",
+      "description": "En schooner på pub koster $8 til $13 og en pint $12 til $18 i australske byer (november 2026). En slab med 24 koster $55 til $72. Priser per by, glassnavn og happy hour.",
       "region": "Australia",
       "imageAlt": "Australske kafédrikker på et bord",
-      "intro": "Et draught-øl på 500 ml på en pub i Sydney koster omtrent $7 til $16 og en cappuccino $4.50 til $8, ifølge prisdata fra brukerfellesskapet oppdatert i oktober 2026, mens en flaske øl på 500 ml fra bottle shop koster omtrent $3.50 til $12 på landsbasis. Per standarddrink er det omtrent $4 til $9 på puben, $2 til $7 for øl fra bottle shop og $1.60 til $4 for en vinflaske i mellomklassen, så drikke du kjøper med tilbake til leiren gir best verdi.",
+      "intro": "En schooner øl (425 ml) koster omtrent $8 til $13 på en pub i en australsk by i november 2026, og en pint (570 ml) omtrent $12 til $18. Perth og pubene på bygda er billigst, mens indre Sydney og Melbourne er dyrest. I en bottle shop koster en sekspakning vanlig øl rundt $20 til $28, og en slab med 24 rundt $55 til $72. Det blir under halvparten av pubprisen per øl, så drikke du kjøper med tilbake til leirplassen er den klart billigste løsningen.",
       "sections": [
         {
-          "heading": "Butikkpriser og utepriser er ulike produkter",
+          "heading": "Ølpriser per by",
           "body": [
-            "En pubpris inkluderer lokalet, personalet og servicen, ikke bare væsken. Sammenlign likt med likt, og ikke beskriv en tilsvarende vare fra bottle shop som prisen på en servert drink. Standarddrinker gjør sammenligningen rettferdig: Healthy WA setter én standarddrink til 10 gram alkohol, mengden i 285 ml øl med full styrke eller 100 ml vin, så et øl på 500 ml er omtrent 1,75 standarddrinker og en vinflaske på 750 ml omtrent 7,5.",
-            "Happy hour og kampanjer er midlertidige. Bygg budsjettet på det vanlige prisnivået, og se på en rabatt som en ekstra margin."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Vin i bottle shop og i baren",
-          "body": [
-            "En vinflaske på 750 ml i mellomklassen koster omtrent $12 til $30 fra bottle shop, og den gir omtrent fem glass på 150 ml. Bestilt på glass i en bar eller restaurant koster den samme vinen som regel betydelig mer per servering, så en flaske delt i leiren er der vin er billigst.",
-            "Noen restauranter, stort sett de uten skjenkebevilling, lar deg ta med din egen flaske mot et korkavgift, som gjør en pris fra bottle shop til middagsvin. Spør om det når du booker, ikke ved bordet."
+            "Tabellen viser typiske priser for en vanlig øl, som en lokal lager eller pale ale. Prisen på pub varierer mye med stedet: en pub i forstaden eller en klubb skjenker billigere enn en takbar eller et hotell ved havnen, og håndverksøl koster som regel $2 til $4 mer per glass.",
+            "Prisene i bottle shop varierer mindre mellom byene, fordi det meste av prisen er særavgift (excise), den føderale alkoholavgiften, som er lik overalt. Darwin og outbacken betaler mer for frakt, og bottle shops i <a data-guide=\"camping-rules-northern-territory\">Northern Territory</a> har egne regler for åpningstider og legitimasjon.",
+            "Regn med at prisene fortsetter å stige. Avgiften på ølflasker og bokser justeres for inflasjon hver februar og august, så prisene i bottle shop går opp gjennom 2027, mens avgiften på fatøl er frosset til august 2027, noe som holder pubprisene mer stabile."
           ],
           "tips": [
-            "Flaske i mellomklassen: $12 til $30",
-            "Omtrent fem glass per flaske",
-            "Spør om BYO når du booker"
+            "Perth: billigste pint blant hovedstedene",
+            "Sydney og Melbourne: dyrest",
+            "Pubene på bygda: ofte billigst"
+          ],
+          "table": {
+            "caption": "Typiske priser for en vanlig øl i november 2026. En schooner er 425 ml og en pint 570 ml. I Adelaide kalles glasset på 425 ml en pint.",
+            "head": [
+              "By",
+              "Schooner på pub (425 ml)",
+              "Pint på pub (570 ml)",
+              "Sekspakning (bottle shop)",
+              "Slab med 24 (bottle shop)"
+            ],
+            "rows": [
+              [
+                "Sydney",
+                "$9 til $13",
+                "$13 til $18",
+                "$21 til $28",
+                "$57 til $72"
+              ],
+              [
+                "Melbourne",
+                "$9.50 til $14",
+                "$14 til $18.50",
+                "$21 til $28",
+                "$57 til $72"
+              ],
+              [
+                "Brisbane",
+                "$9 til $13",
+                "$12 til $17",
+                "$21 til $28",
+                "$57 til $72"
+              ],
+              [
+                "Perth",
+                "$8 til $12",
+                "$9 til $15",
+                "$21 til $28",
+                "$58 til $72"
+              ],
+              [
+                "Adelaide",
+                "$8.50 til $12",
+                "$12 til $16",
+                "$20 til $27",
+                "$55 til $70"
+              ],
+              [
+                "Hobart",
+                "$9 til $12",
+                "$12 til $16",
+                "$21 til $28",
+                "$58 til $72"
+              ],
+              [
+                "Darwin",
+                "$9 til $13",
+                "$13 til $18",
+                "$23 til $30",
+                "$62 til $80"
+              ],
+              [
+                "Canberra",
+                "$9 til $12",
+                "$12 til $17",
+                "$21 til $28",
+                "$57 til $72"
+              ],
+              [
+                "Pubene på bygda",
+                "$7 til $10",
+                "$10 til $14",
+                "$22 til $32",
+                "$60 til $85"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Glassnavn og størrelser per delstat",
+          "body": [
+            "Ølglassene i Australia skifter navn ved delstatsgrensene, og det samme ordet kan bety et annet glass. Be om en schooner i Sydney, så får du 425 ml. Be om en i Adelaide, så får du 285 ml, fordi folk i South Australia kaller glasset på 425 ml en pint og glasset på 570 ml en imperial pint.",
+            "Er du usikker, be om størrelsen med vanlige ord, eller si bare small, medium eller large. Bartenderne er vant til turister, og prislisten på veggen oppgir vanligvis navnene på glassene."
+          ],
+          "tips": [
+            "Schooner betyr 285 ml i SA",
+            "Be om small, medium eller large",
+            "En jug er omtrent 1,1 liter"
+          ],
+          "table": {
+            "caption": "Vanlige navn på fatølglass per delstat og territorium. Navnene varierer mellom pubene, særlig for glasset på 285 ml.",
+            "head": [
+              "Delstat eller territorium",
+              "285 ml",
+              "425 ml",
+              "570 ml"
+            ],
+            "rows": [
+              [
+                "New South Wales og ACT",
+                "Middy",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Victoria",
+                "Pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Queensland",
+                "Pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "South Australia",
+                "Schooner",
+                "Pint",
+                "Imperial pint"
+              ],
+              [
+                "Western Australia",
+                "Middy",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Tasmania",
+                "Ten eller pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Northern Territory",
+                "Handle eller middy",
+                "Schooner",
+                "Pint"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Butikkpriser og skjenkepriser er to forskjellige ting",
+          "body": [
+            "Prisen på pub inkluderer lokalet, personalet og servicen, ikke bare drikken. Sammenlign derfor like ting, og ikke si at prisen i bottle shop er det en servert drink koster. Standard drinks (standardenheter) gjør sammenligningen rettferdig: Healthy WA regner én standard drink som 10 gram alkohol, mengden i 285 ml øl med full styrke eller 100 ml vin, så en øl på 500 ml er omtrent 1,75 standard drinks og en vinflaske på 750 ml omtrent 7,5.",
+            "Per standard drink koster øl på pub omtrent $4 til $9, en slab fra bottle shop omtrent $1.60 til $2.20 og en vinflaske i mellomklassen omtrent $1.60 til $4. Mid-strength-øl, som selges på fat nesten overalt, har rundt en fjerdedel mindre alkohol for nesten samme pris."
+          ],
+          "tips": [
+            "285 ml med full styrke: én standard drink",
+            "Slab-øl: rundt $2 per standard drink",
+            "Mid-strength koster omtrent det samme"
           ]
         },
         {
-          "heading": "Hold kontroll på den stille dagssummen",
+          "heading": "Happy hour og de billigste måtene å drikke på",
           "body": [
-            "To kaffer og to drinker ute hver dag kan bli en betydelig sum i uken. Bestem hvilke stopp som betyr noe i stedet for å kjøpe av gammel vane.",
-            "Ha <a data-guide=\"camping-water-planning\">drikkevann</a> lett tilgjengelig, og fyll bare fra drikkevannskraner. I varme forhold hører væske og skygge hjemme i sikkerhetsplanen, ikke i underholdningsbudsjettet."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Kaffe er en daglig post",
-          "body": [
-            "Den australske kaffekulturen er sterk, og standarden i distriktsbyene er virkelig høy, og nettopp derfor blir den en budsjettpost. To flat white om dagen for to personer hoper seg opp uten at det noen gang føles som en beslutning.",
-            "En mokkakanne eller en AeroPress i bilen dekker morgenkoppen for en brøkdel av kaféprisen og gjør kafépausen til noe du velger, ikke noe automatisk.",
-            "Kaffe på veikroer under lange turer er i beste fall svingende. På utmarksruter er det som regel både billigere og mye bedre å lage den selv."
+            "Mange puber har happy hour på ukedager om ettermiddagen, ofte mellom 16 og 18, med schoonere til omtrent $6 til $9. Noen legger til billige jugs, en øl til middagen (counter meal) eller en kveld med biff og schooner. Se på dette som en bonus, ikke som en del av budsjettet: tilbudene endrer seg ofte, og mange gjelder bare på ukedager.",
+            "Klubber som RSL, bowlingklubber og surfeklubber skjenker vanligvis billigere enn pubene, og turister er velkomne: du signerer deg inn ved døra med bilde-ID og blir midlertidig medlem for dagen.",
+            "Aller billigst er en slab eller en cask (vinboks) fra bottle shop, kjølt i kjøleskapet i bilen eller i esky-kjøleboksen og drukket tilbake på leirplassen. Sjekk reglene for campingplassen først, for noen nasjonalparker og kommunale plasser, og mange strender og parker inne i byene, forbyr alkohol eller begrenser den til bestemte tider."
           ],
           "tips": [
-            "To kopper om dagen går raskt opp i penger",
+            "Happy hour på ukedager: rundt 16 til 18",
+            "Klubber ønsker turister velkommen, med ID",
+            "Sjekk alkoholreglene på leirplassen"
+          ]
+        },
+        {
+          "heading": "Kjøpe alkohol i Australia",
+          "body": [
+            "Alkohol på flaske og boks selges mest i lisensierte bottle shops, ofte ved siden av et supermarked, men drevet separat, selv om Aldi og noen uavhengige butikker selger det inne i butikken. Åpningstidene er regulert og varierer fra delstat til delstat. Du må være 18 for å kjøpe alkohol, og de ansatte ber alle som ser ut til å være under 25 om bilde-ID: pass eller førerkort.",
+            "Alkoholrestriksjoner gjelder i mange lokalsamfunn og regioner, særlig i Northern Territory, deler av <a data-guide=\"camping-rules-queensland\">Queensland</a>, Western Australia og South Australia. Å ta med alkohol inn i et område med restriksjoner kan gi store bøter.",
+            "Sjekk reglene før du reiser med alkohol til avsidesliggende områder. Restriksjonene håndheves rettslig, gjelder turister like mye som lokale, og uvitenhet er ingen unnskyldning."
+          ],
+          "tips": [
+            "Mest bottle shops, noen supermarkeder",
+            "Ha med bilde-ID",
+            "Sjekk reglene før du drar til avsidesliggende områder"
+          ]
+        },
+        {
+          "heading": "Alkohol og kjøredagen",
+          "body": [
+            "Den generelle promillegrensen er 0,05 for fører med full lisens, null for førere med læreløyve og prøveløyve, og null eller 0,02 for mange yrkesførere, avhengig av delstat (0,02 i NSW). Tilfeldige promillekontroller er vanlige, også på landeveier og midt på dagen.",
+            "På roadtrip er den eneste trygge løsningen å skille drikking og kjøring helt: bli der du drikker, bruk en edru sjåfør, eller drikk først når bilen er parkert for natten.",
+            "Kjøring dagen derpå tar mange på sengen. Kroppen bruker minst en time på å bryte ned hver standard drink, ofte lenger, og kaffe eller dusj gjør det ikke raskere, så en tung kveld kan gi deg promille langt utover neste morgen."
+          ],
+          "tips": [
+            "0,05 generelt, null for læreløyve og prøveløyve",
+            "Tilfeldige kontroller er vanlige, også på dagtid",
+            "Kjøring dagen derpå er fella"
+          ]
+        },
+        {
+          "heading": "Vin i bottle shop og på bar",
+          "body": [
+            "En vinflaske på 750 ml i mellomklassen koster omtrent $12 til $29 i bottle shop, og gir rundt fem glass på 150 ml. Bestilt per glass på bar eller restaurant koster den samme vinen vanligvis $10 til $16 per glass, så en flaske delt på leirplassen er den billigste måten å drikke vin på.",
+            "Noen restauranter, stort sett de uten skjenkebevilling, lar deg ta med din egen flaske mot et korketrekkergebyr (corkage), og da blir flaska fra bottle shop middagsvin. Spør om det når du bestiller bord, ikke ved bordet."
+          ],
+          "tips": [
+            "Flaske i mellomklassen: $12 til $29",
+            "Rundt fem glass per flaske",
+            "Spør om BYO når du bestiller"
+          ]
+        },
+        {
+          "heading": "Kaffe er en daglig utgift",
+          "body": [
+            "En vanlig cappuccino eller flat white koster omtrent $4 til $8, og kaféene i sentrum ligger øverst i spennet. Australia har en sterk kaffekultur, og nivået i byene på landsbygda er virkelig høyt. Det er nettopp derfor kaffe blir en budsjettpost: to kaffe om dagen for to personer går opp i mye uten at det føles som et valg.",
+            "Med en espressokanne eller en AeroPress i bilen får du morgenkoppen for en brøkdel av kaféprisen, og kaféstoppet blir noe du velger, ikke noe som skjer av seg selv. Kaffen på roadhouse langs lange kjøreturer i outbacken varierer, så å lage den selv er som regel både billigere og bedre.",
+            "Springvannet er trygt og godt i nesten alle australske byer og tettsteder, så ha med påfyllbare flasker i stedet for å kjøpe vann. I bushen må du rense vann fra brønn, tank og bekk før du drikker det. Skal du til New Zealand også? KiwiCamping har en guide om <a data-sister=\"beer-wine-coffee-prices-new-zealand\">hva øl, vin og kaffe koster i New Zealand</a>."
+          ],
+          "tips": [
+            "Cappuccino: $4 til $8",
             "Lag morgenkoppen selv",
-            "Kaffe på veikro er svingende"
-          ]
-        },
-        {
-          "heading": "Å kjøpe alkohol i Australia",
-          "body": [
-            "Pakket alkohol selges stort sett i bottle shops med skjenkebevilling, ofte ved siden av et supermarked, men drevet separat, selv om Aldi og noen uavhengige dagligvarebutikker selger det i butikken. Åpningstidene er regulert og varierer fra delstat til delstat.",
-            "Alkoholrestriksjoner gjelder i mange lokalsamfunn og regioner, særlig i Northern Territory, deler av <a data-guide=\"camping-rules-queensland\">Queensland</a>, Western Australia og South Australia. Å ta med alkohol inn i et begrenset område medfører betydelige bøter.",
-            "Sjekk før du reiser med alkohol inn i avsidesliggende områder. Restriksjonene håndheves juridisk, gjelder besøkende like mye som innbyggere, og uvitenhet er ikke et forsvar."
-          ],
-          "tips": [
-            "Stort sett bottle shops, noen supermarkeder",
-            "Begrensede områder gir store bøter",
-            "Sjekk før du kjører inn i avsidesliggende regioner"
-          ]
-        },
-        {
-          "heading": "Drikking og kjøredagen",
-          "body": [
-            "Den generelle grensen er 0,05 for fullt førerkort, null for elever og de på prøvelisens, og null eller 0,02 for mange yrkessjåfører avhengig av delstaten (0,02 i NSW). Tilfeldige promillekontroller er vanlige, også på landeveier og på dagtid.",
-            "På en biltur er den eneste trygge fremgangsmåten å skille drikking fra kjøring helt: bli der du drikker, bruk en edru sjåfør, eller drikk først når bilen er parkert for natten.",
-            "Kjøring morgenen etter tar folk på sengen. Kroppen bruker minst en time på hver standarddrink, ofte lenger, og kaffe eller en dusj gjør det ikke raskere, så en kraftig kveld kan la deg ligge over grensen langt ut på neste morgen."
-          ],
-          "tips": [
-            "0,05 generelt, null for elever og prøvelisens",
-            "Tilfeldige kontroller er vanlige og skjer på dagtid",
-            "Kjøring morgenen etter er fellen"
-          ]
-        },
-        {
-          "heading": "Vann er det du må få riktig",
-          "body": [
-            "Kranvann er trygt og godt i nesten alle australske byer og tettsteder, og å kjøpe flaskevann er nesten ren sløsing. Ha med flasker du kan fylle på, og fyll på ved en hvilken som helst drikkevannskran i en by, på en campingplass eller ved et offentlig anlegg.",
-            "I avsidesliggende områder og i bushen er det motsatt: brønnvann kan være mineralrikt eller uegnet, tankvann er ubehandlet, og overflatevann i jordbruksland kan bære kjemisk forurensning. Behandle alt som ikke er en merket drikkevannsforsyning i en by.",
-            "Ha med en god isolert flaske så det alltid er kaldt vann for hånden i varmen. Det koster ingenting å fylle på."
-          ],
-          "tips": [
-            "Kranvann i byer er trygt",
-            "Brønnvann er ofte uegnet",
-            "Behandle tankvann og overflatevann"
+            "Springvannet i byene er trygt"
           ]
         }
       ],
       "faq": [
         [
-          "Hvor mye koster et øl i Australia?",
-          "Et draught-øl på 500 ml på en pub i Sydney koster omtrent $7.15 til $16 ifølge prisdata fra brukerfellesskapet i oktober 2026, og en flaske på 500 ml fra bottle shop omtrent $3.50 til $12 på landsbasis. Å kjøpe i bottle shop i stedet for i en bar er en av de største besparelsene på en lang tur."
+          "Hva koster en øl i Australia?",
+          "En schooner (425 ml) vanlig øl koster omtrent $8 til $13 på en pub i en by i november 2026, og en pint (570 ml) omtrent $12 til $18. I en bottle shop koster en sekspakning omtrent $20 til $28 og en slab med 24 omtrent $55 til $72, som er mindre enn halvparten av pubprisen per øl."
         ],
         [
-          "Hvor mye koster kaffe i Australia?",
-          "En vanlig cappuccino koster omtrent $4.50 til $8 i Sydney og $4 til $8 på landsbasis ifølge prisdata fra brukerfellesskapet i oktober 2026, med kafeer i indre by ofte i øvre del av spennet. To kaffer om dagen for to personer blir en reell budsjettpost på en lang tur."
+          "Hva koster en pint i Australia?",
+          "Omtrent $12 til $18 for 570 ml vanlig øl på en pub i en by. Perth og pubene på bygda er billigst, mens indre Melbourne og Sydney ligger øverst. I South Australia er en pint glasset på 425 ml, som koster omtrent $8.50 til $12. Be om en imperial pint for å få 570 ml."
+        ],
+        [
+          "Hvor er ølen billigst i Australia?",
+          "Perth og pubene på bygda har billigst øl, og klubber som RSL og bowlingklubber er vanligvis billigere enn pubene. Turister signerer seg inn med bilde-ID. Happy hour på ukedager gir schoonere ned mot $6 til $9, men en slab fra bottle shop, til omtrent $2 per standard drink, er aller billigst."
+        ],
+        [
+          "Hva koster kaffe i Australia?",
+          "En vanlig cappuccino eller flat white koster omtrent $4 til $8, og kaféene i sentrum ligger ofte øverst i spennet. To kaffe om dagen for to personer blir en reell budsjettpost på en lang tur, så mange campere lager morgenkoppen selv."
         ]
       ],
       "sources": [
         {
-          "label": "Numbeo Sydney drink prices"
+          "label": "Numbeo, drikkepriser i Australia, oppdatert november 2026"
         },
         {
-          "label": "Numbeo Australia retail ranges"
+          "label": "Australian Taxation Office: avgiftssatser for alkohol (excise duty)"
         },
         {
-          "label": "NSW alcohol and driving guidance"
+          "label": "Healthy WA: hva er en standard drink"
         },
         {
-          "label": "NHMRC: how long alcohol takes to clear"
+          "label": "NSW: veiledning om alkohol og kjøring"
         },
         {
-          "label": "Northern Territory: buying and drinking alcohol"
+          "label": "NHMRC: hvor lang tid alkohol bruker på å forsvinne ut av kroppen"
         },
         {
-          "label": "Healthy WA: what is a standard drink"
+          "label": "Northern Territory: kjøp og bruk av alkohol"
+        },
+        {
+          "label": "NSW Government: klubbregler for besøkende"
         }
       ],
       "priceTable": {
-        "note": "Prisspenn fra brukerfellesskapet for Australia og Sydney, oppdatert oktober 2026. Serveringsstørrelse, sted, kampanje og beliggenhet varierer.",
+        "note": "Prisspenn for vanlig australsk øl på pub og i bottle shop i byene, november 2026. Håndverksøl, importert øl, steder ved vannkanten og avsidesliggende områder koster mer. Happy hour og tilbud koster mindre.",
         "rows": [
           {
-            "label": "Cappuccino (Sydney)",
+            "label": "Schooner på pub",
+            "unit": "425 ml"
+          },
+          {
+            "label": "Pint på pub",
+            "unit": "570 ml"
+          },
+          {
+            "label": "Sekspakning fra bottle shop",
+            "unit": "6 x 375 ml"
+          },
+          {
+            "label": "Slab fra bottle shop",
+            "unit": "24 x 375 ml"
+          },
+          {
+            "label": "Vin i mellomklassen",
+            "unit": "750 ml, bottle shop"
+          },
+          {
+            "label": "Cappuccino",
             "unit": "én kopp"
-          },
-          {
-            "label": "Draught-øl på pub (Sydney)",
-            "unit": "én servering"
-          },
-          {
-            "label": "Vin i mellomklassen (landsdekkende)",
-            "unit": "750 ml butikk"
-          },
-          {
-            "label": "Tilsvarende innenlandsk øl (landsdekkende)",
-            "unit": "500 ml butikk"
-          },
-          {
-            "label": "Brus (Sydney)",
-            "unit": "330 ml servert"
           }
         ]
       }
@@ -29124,6 +29288,608 @@
         },
         {
           "label": "Bureau of Meteorology: climate by region"
+        }
+      ],
+      "priceTable": null
+    },
+    "cigarette-prices-australia": {
+      "title": "Hva koster sigaretter i Australia i 2027? Pakker fra $40 til $60",
+      "description": "En lovlig pakke med 20 koster omtrent $40 til $60 i Australia, og en pose på 30 g rulletobakk omtrent $90 til $120. Priser per delstat, hvorfor avgiften er kostnaden, og vapes.",
+      "region": "Australia",
+      "imageAlt": "Et lukket tobakksskap i en australsk butikk, med nøytrale sigarettpakker og poser over hyllprisene",
+      "intro": "En lovlig pakke med 20 sigaretter koster omtrent $40 til $60 i Australia i november 2026, og en pose på 30 g rulletobakk omtrent $90 til $120. Pakker med 25 og store poser er historie: siden 1. juli 2025 selges sigaretter bare i pakker med 20, og rulletobakk bare i poser på 30 g. Nesten hele prisen er føderal avgift, så den samme pakken koster omtrent likt i Sydney og Perth, mens avsidesliggende tettsteder og Northern Territory ligger litt høyere. Prisene går opp to ganger i året, så legg inn mer enn tallene her hvis du reiser i 2027.",
+      "sections": [
+        {
+          "heading": "Hva en pakke med 20 koster",
+          "body": [
+            "Rimelige merker ligger i bunnen, rundt $38 til $45 for 20. Vanlige merker, som du ser bak disken på alle bensinstasjoner (servo), koster nærmere $50 til $60. Butikker og kjeder setter ned og opp prisene til ulike tider, så samme merke kan variere med noen dollar mellom to butikker i samme gate.",
+            "Husker du en pakke med 25 fra tidligere år, eller fra venner hjemme, finnes ikke den størrelsen lenger i Australia. Loven om nøytrale pakker, som fikk full virkning 1. juli 2025, satte alle sigarettpakker til 20, med 10 pakker i en slengpakke. En pakke med 20 er den eneste størrelsen du trenger å se på."
+          ],
+          "tips": [
+            "Rimelig: omtrent $38 til $45",
+            "Vanlige merker: omtrent $50 til $60",
+            "Pakker med 25 selges ikke lenger"
+          ]
+        },
+        {
+          "heading": "Priser per delstat og territorium",
+          "body": [
+            "Det meste av prisen er føderal avgift (excise), som er lik i alle delstater, så hvilken delstat du kjøper i, betyr bare litt for prisen. Spennene under er en veiledning for hva butikkene tar for lovlige produkter. <a data-guide=\"camping-rules-northern-territory\">Northern Territory</a> og avsidesliggende lokalsamfunn ligger vanligvis høyere, fordi frakt og lavt salg slår ut på hyllprisen, og prisen på roadhouse i outbacken kan være den høyeste av alle.",
+            "Det finnes ingen offisiell prisliste per delstat, så se på spennene som en ramme du kan regne med, ikke som et tilbud. Et raskt blikk på hylla før du kjøper, sier deg mer enn noen tabell."
+          ],
+          "tips": [
+            "Samme avgift i alle delstater",
+            "NT og avsidesliggende steder: litt høyere",
+            "Sjekk prisen på hylla"
+          ],
+          "table": {
+            "caption": "Typiske hyllpriser for lovlig tobakk i november 2026. En veiledning for hva du kan vente, ikke et tilbud: butikkene setter prisene selv.",
+            "head": [
+              "Delstat eller territorium",
+              "Pakke med 20",
+              "Pose på 30 g"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "$40 til $60",
+                "$90 til $120"
+              ],
+              [
+                "Victoria",
+                "$40 til $60",
+                "$90 til $120"
+              ],
+              [
+                "Queensland",
+                "$40 til $60",
+                "$90 til $120"
+              ],
+              [
+                "South Australia",
+                "$40 til $60",
+                "$90 til $120"
+              ],
+              [
+                "Western Australia",
+                "$40 til $60",
+                "$90 til $120"
+              ],
+              [
+                "Tasmania",
+                "$40 til $60",
+                "$90 til $120"
+              ],
+              [
+                "Australian Capital Territory",
+                "$40 til $60",
+                "$90 til $120"
+              ],
+              [
+                "Northern Territory og avsidesliggende områder",
+                "$45 til $65 eller mer",
+                "$95 til $130 eller mer"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Poser med rulletobakk",
+          "body": [
+            "Rulletobakk selges bare i poser på 30 g, og en pose gir omtrent 50 tynne sigaretter. Rimelige poser koster rundt $90 og premiumposer rundt $115 eller litt mer, så rulletobakk er ikke mye billigere per sigarett enn en pakke med 20 når du legger til papir og <a data-guide=\"how-to-use-aussiecamps-filters\">filter</a>.",
+            "Avgiften på rulletobakk beregnes etter vekt, med $2,587.90 per kilo fra 1. september 2026. Det er omtrent $78 i avgift i hver pose på 30 g før GST, og derfor ligger hyllprisen så nær prisen på en ferdig pakke."
+          ],
+          "tips": [
+            "30 g er den eneste størrelsen",
+            "Omtrent $90 til $120",
+            "Ikke mye billigere per sigarett"
+          ]
+        },
+        {
+          "heading": "Hvorfor de koster så mye",
+          "body": [
+            "Prisen er for det meste avgift. Den føderale avgiften er $1.55274 per sigarett fra 1. september 2026, opp fra $1.52829 i mars, som blir omtrent $31 på hver pakke med 20. På toppen kommer 10 % GST i kassa. Til sammen er det omtrent 70 % av en vanlig pakke til $50, og enda mer på en rimelig pakke.",
+            "Satsen justeres to ganger i året, i mars og 1. september, i takt med lønnsutviklingen. I tillegg økte satsen med ekstra 5 % hver september fra 2023 til 2026, så prisen har steget jevnt og trutt, ikke i ett byks. En pakke som virker dyr på første tur, blir dyrere også neste år."
+          ],
+          "tips": [
+            "Omtrent $31 i avgift per pakke",
+            "Pluss 10 % GST",
+            "Øker hver mars og september"
+          ]
+        },
+        {
+          "heading": "Den årlige prisøkningen og turen din",
+          "body": [
+            "Fordi satsen endres hver mars og september, er et tall fra i fjor utdatert når du lander. Som tommelfingerregel kan du regne med at en pakke i 2027 koster noen dollar mer enn spennene fra 2026 her, og sjekke hyllprisen i den første byen før du planlegger en måned med utgifter.",
+            "For en storrøyker på en lang tur går det raskt opp i mye. Ti pakker i måneden er omtrent $400 til $600. Sett det opp som en egen post i reisebudsjettet, slik du gjør med drivstoff, så det ikke tar av matpengene."
+          ],
+          "tips": [
+            "Regn med noen dollar mer",
+            "Ti pakker: $400 til $600",
+            "Gi det en egen budsjettpost"
+          ]
+        },
+        {
+          "heading": "Priser på vapes",
+          "body": [
+            "Siden 1. juli 2024 har vapes bare vært solgt på apotek, uansett om de inneholder nikotin eller ikke. Voksne kan i de fleste delstater kjøpe nikotinvapes med lavere styrke av en farmasøyt uten resept, etter en samtale, og sterkere produkter krever resept. Apotekene kan bare levere produktene på TGAs liste over meldte vapes.",
+            "Prisene på apotek settes av produsenten og butikken, ikke av myndighetene. Regn med omtrent $30 til $60 for en enkel enhet eller en pakke med pods, og mer for et startsett. De billige engangsvapene som selges under disken i noen butikker, er ikke lovlige produkter."
+          ],
+          "tips": [
+            "Bare apotek siden juli 2024",
+            "Omtrent $30 til $60 per enhet",
+            "Spør farmasøyten først"
+          ]
+        },
+        {
+          "heading": "Ulovlig tobakk og vapes",
+          "body": [
+            "Noen butikker selger sigaretter og vapes til en brøkdel av den lovlige prisen, ofte i umerkede eller utenlandske pakker, og noen ganger kalt chop chop. Dette er ulovlig, og å kjøpe det kan gi bot og beslag i varene, med straffer som varierer fra delstat til delstat. Pakkene har heller ingen australske helseadvarsler.",
+            "Ser en pris for god ut til å være sann ved siden av tallene over, er den nesten helt sikkert det, så hold deg til apotek for vapes og en lisensiert <a data-guide=\"where-to-buy-cigarettes-vapes-australia\">tobakksforhandler</a> eller et supermarked for tobakk."
+          ],
+          "tips": [
+            "Umerkede pakker er ulovlige",
+            "Kjøpere kan få bot",
+            "Billig betyr som regel ulovlig"
+          ]
+        },
+        {
+          "heading": "Slik bruker du mindre, helt lovlig",
+          "body": [
+            "<a data-guide=\"smoking-vaping-rules-australia\">Tollfri kvote</a> når du kommer, er bare 25 sigaretter eller 25 gram tobakk, pluss én åpnet pakke, for reisende fra 18 år. Har du med mer, må du deklarere det, og Australian Border Force sier at du enten gir fra deg det overskytende eller betaler toll på hele mengden. Ikke deklarert tobakk kan bli beslaglagt og gi bot, så å ta med et lager hjemmefra er ingen måte å spare penger på en lang tur.",
+            "Å kjøpe slengpakke er ikke mye billigere per sigarett, fordi avgiften er den samme på hver enkelt. De virkelige besparelsene er små: velg et rimelig merke, kjøp der butikken har tilbud, og unngå priser på roadhouse og avsidesliggende steder når du kan. Reglene for reisende, blant annet tollfri kvote, vapes og røykfrie steder, står i guiden om røyke- og vapereglene. Røyker du i nærheten av leirplassen, slokk hver sigarettsneip helt og ta den med deg, og følg reglene for <a data-guide=\"campfires-camping-australia\">totalt bålforbud</a>: sneiper og busk hører ikke sammen.",
+            "Skal du til New Zealand også? KiwiCamping har en guide om <a data-sister=\"cigarette-prices-new-zealand\">hva sigaretter koster i New Zealand</a>."
+          ],
+          "tips": [
+            "Ta med bare 25 sigaretter",
+            "Slengpakker sparer lite",
+            "Slokk sneipene og ta dem med"
+          ]
+        },
+        {
+          "heading": "Legg reisebudsjettet i AussieCamps",
+          "body": [
+            "AussieCamps har <a data-guide=\"how-to-use-aussiecamps-filters\">filtre</a> for steder etter Pris, Gratis eller Betalt, så billigere netter gir rom for resten av budsjettet. Legg hvert stopp til i en tur med datoer, notater og en gjøremålsliste, så etterfylling i de større byene før en avsidesliggende etappe blir en del av planen.",
+            "Stedsdetaljer og filtre virker <a data-guide=\"camping-without-phone-signal\">uten dekning</a>, og kjøreruten viser avstand og tid for hver etappe. AussieCamps finnes for iPhone."
+          ],
+          "tips": [
+            "Filtrer på Pris",
+            "Planlegg etterfylling før avsidesliggende etapper",
+            "Bare iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hva koster en sigarettpakke i Australia?",
+          "En lovlig pakke med 20 koster som regel omtrent $40 til $60 i november 2026, med rimelige merker i bunnen og vanlige merker i toppen. Pakker med 25 selges ikke lenger: siden 1. juli 2025 må hver sigarettpakke inneholde nøyaktig 20. Prisene er litt lavere på østkysten og høyere i Northern Territory og avsidesliggende tettsteder."
+        ],
+        [
+          "Hvorfor er sigaretter så dyre i Australia?",
+          "På grunn av føderal avgift. Avgiften er $1.55274 per sigarett fra 1. september 2026, som er omtrent $31 på en pakke med 20 før 10 % GST legges til. For de fleste merker går omtrent 70 % eller mer av hyllprisen til myndighetene."
+        ],
+        [
+          "Hvor mange sigaretter kan jeg ta med til Australia?",
+          "Tollfri kvote for reisende fra 18 år er 25 sigaretter eller 25 gram tobakk, pluss én åpnet pakke. Deklarer alt over det. Australian Border Force sier at du kan ta med tillatt mengde og gi fra deg resten, eller beholde alt og betale toll på hele mengden."
+        ],
+        [
+          "Kan jeg kjøpe en vape i Australia som turist?",
+          "Bare på apotek. Siden 1. juli 2024 kan vapes ikke selges i andre butikker, og nærbutikker som selger dem, bryter loven. Voksne kan i de fleste delstater kjøpe nikotinvapes med lavere styrke av en farmasøyt uten resept, etter en kort prat."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Australian Taxation Office: avgiftssatser for tobakk (excise duty)"
+        },
+        {
+          "label": "Australian Border Force: tollfrie kvoter"
+        },
+        {
+          "label": "Department of Health: endringer for tobakksprodukter i Australia"
+        },
+        {
+          "label": "Department of Health: vapelover"
+        },
+        {
+          "label": "Therapeutic Goods Administration: nikotinvapeprodukter"
+        },
+        {
+          "label": "Tobacco in Australia: prisen på tobakksprodukter"
+        }
+      ],
+      "priceTable": null
+    },
+    "smoking-vaping-rules-australia": {
+      "title": "Røyking og vaping i Australia (2027): regler for reisende",
+      "description": "Ta med 25 sigaretter eller 25 g tobakk tollfritt, vapes selges bare på apotek, du må være 18, og tente sneiper i bushen gir store bøter. Regler for reisende i 2027.",
+      "region": "Australia",
+      "imageAlt": "Et skilt med teksten This jetty is smoke-free and vape-free på rekkverket til Outer Harbor jetty i Adelaide, South Australia",
+      "intro": "Besøkende fra 18 år kan ta med 25 sigaretter eller 25 g tobakk til Australia tollfritt, pluss én åpnet pakke, og må deklarere alt over det. Vapes selges nå bare på apotek, og unntaket for reisende tillater 2 vapes, 20 pods eller kassetter og 200 mL væske til egen behandling. Du må være 18 for å kjøpe noen av delene, og røyking og vaping er forbudt mange steder utendørs, fra kafébord til strender med badevakter. For campere er brann det store temaet: en tent sneip kastet ut av bilen eller mistet i tørt gress kan koste tusenvis av dollar. Dette er reglene slik de gjelder i november 2026.",
+      "sections": [
+        {
+          "heading": "Hva du kan ta med tollfritt",
+          "body": [
+            "Voksne fra 18 år kan ta med tobakk til Australia uten tillatelse. Den tollfrie kvoten er 25 sigaretter eller 25 g tobakksprodukter, pluss én åpnet pakke. Siden australske og de fleste utenlandske pakker inneholder 20, betyr det én forseglet pakke pluss den du røyker på. Personer under 18 har ingen tobakkskvote i det hele tatt.",
+            "Går du over grensen, sier Australian Border Force at toll og avgift gjelder for hele mengden av den typen varer, ikke bare for det som er over. Å la være å deklarere overskuddet kan gi bot, straffeforfølgelse eller at visumet blir kansellert, avhengig av hvor mye du har med. Har du mer, deklarer det på Incoming Passenger Card, vis kjøpskvittering og betal tollen, eller lever det fra deg ved grensen. Priser på pakker i Australia finner du i guiden om <a data-guide=\"cigarette-prices-australia\">sigarettpriser</a>."
+          ],
+          "tips": [
+            "25 sigaretter eller 25 g",
+            "Pluss én åpnet pakke",
+            "Deklarer alt over det"
+          ]
+        },
+        {
+          "heading": "Vapes for reisende",
+          "body": [
+            "Siden 2024 regnes vapes i Australia som terapeutiske varer. Reisende kan bare ta dem med under et unntak for reisende: vapesene må være til din egen behandling, eller for noen du tar vare på som reiser med deg på samme fly eller skip. Grensene er 2 vapes til sammen, 20 tilbehørsdeler som pods, kassetter eller kapsler, og 200 mL vapevæske.",
+            "Engangsvapes teller med i de 2. Det er ikke lov å sende vapes til seg selv i posten, eller å la en venn sende dem, og alt over grensen kan bli beslaglagt. Deklarer vapesene dine og ha dem i håndbagasjen, der tollerne kan se dem. Reglene for å ha dem med på flyet bestemmes av flyselskapet, så sjekk det før du flyr."
+          ],
+          "tips": [
+            "2 vapes, 20 pods, 200 mL",
+            "Bare til eget bruk",
+            "Ikke send vapes til Australia i posten"
+          ]
+        },
+        {
+          "heading": "Kjøpe vapes og aldersgrensen",
+          "body": [
+            "Vapes selges bare på apotek i Australia. Siden oktober 2024 kan farmasøyter selge nikotinvapes på 20 mg/mL eller lavere til personer fra 18 år uten resept, mens personer under 18 trenger resept. <a data-guide=\"where-to-buy-cigarettes-vapes-australia\">Tobakksforhandlere</a>, vapebutikker, bensinstasjoner (servos) og nærbutikker kan ikke selge vapes i det hele tatt, uansett nikotininnhold.",
+            "Aldersgrensen for å kjøpe tobakk er 18 i alle delstater og territorier, og butikkene kan be om bilde-ID. Turister blir spurt om det samme som lokale, så pass eller et <a data-guide=\"overseas-driver-licence-australia-state-guide\">utenlandsk førerkort</a> er det tryggeste å ha på seg. Farmasøytene kan også fortelle deg om ekstra regler i delstaten før du kjøper."
+          ],
+          "tips": [
+            "Vapes: bare på apotek",
+            "18 år for å kjøpe noe som helst",
+            "Ha med bilde-ID"
+          ]
+        },
+        {
+          "heading": "Hvor du ikke kan røyke eller vape",
+          "body": [
+            "Lovene om røykfrie steder fastsettes av hver delstat og hvert territorium, og vaping behandles som røyking på røykfrie steder. Tabellen viser stedene campere oftest kommer til. Mange kommuner legger til egne regler for lokale strender, parker og bysentrum, så se etter skilt.",
+            "Nasjonalparker, strender og campingplasser har egne regler. Queensland forbyr røyking innen 10 m fra teltplasser og fasiliteter i nasjonalparker, flere delstater forbyr det mellom flaggene på strender med badevakter, og mange <a data-guide=\"caravan-park-vs-holiday-park\">campingplasser</a> forbyr det i hytter, sanitærbygg og felleskjøkken. Når det er bålforbud, behandler parkvoktere en tent sigarett utendørs som enhver annen flamme.",
+            "Bøtene settes i penalty units eller faste beløp som endres hvert år, så tabellen gir en veiledning, ikke et nøyaktig tall."
+          ],
+          "tips": [
+            "Vaping teller også",
+            "Se etter lokale skilt",
+            "Bøtene endres hvert år"
+          ],
+          "table": {
+            "caption": "Røykfrie steder utendørs per delstat og territorium, fra delstatenes helsesider lest i november 2026. Sjekk den gjeldende delstatssiden før du stoler på et tall.",
+            "head": [
+              "Delstat",
+              "Røykfrie steder utendørs det er greit å kjenne til",
+              "Typisk bot på stedet"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "Kommersielle utendørs serveringssteder, innen 4 m fra innganger til offentlige bygg, holdeplasser og plattformer for kollektivtrafikk. Mange kommuner legger til strender og parker",
+                "$300"
+              ],
+              [
+                "Victoria",
+                "Utendørs servering, innen 10 m fra lekeplasser og skateparker, ved idrettsarrangementer for under 18 år og på matmarkeder",
+                "Rundt én til to penalty units, noen hundre dollar"
+              ],
+              [
+                "Queensland",
+                "Mellom flaggene på strender med badevakter, innen 10 m fra teltplasser og fasiliteter i nasjonalparker, 5 m fra holdeplasser og 10 m fra lekeplasser",
+                "To penalty units"
+              ],
+              [
+                "South Australia",
+                "Utendørs servering, lekeplasser og leskur for kollektivtrafikk, pluss nyere utendørssoner siden mars 2024",
+                "$105"
+              ],
+              [
+                "Western Australia",
+                "Utendørs spiseområder, innen 10 m fra lekeapparater og mellom flaggene på strender med badevakter",
+                "$300 for utendørs servering"
+              ],
+              [
+                "Tasmania",
+                "Utendørs servering, innen 3 m fra innganger, innen 10 m fra lekeplasser, strender med badevakter og utendørs arrangementer",
+                "Omtrent $350 til $400"
+              ],
+              [
+                "Northern Territory",
+                "Utendørs servering uten skjenkebevilling, offentlige arrangementer og områdene rundt, og lekeområder for barn",
+                "Fastsatt i penalty units"
+              ],
+              [
+                "Australian Capital Territory",
+                "Utendørs spise- og drikkeområder, og innen 10 m fra lekeapparater",
+                "Fastsatt i penalty units"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Røyking i bil med barn",
+          "body": [
+            "Alle delstater og territorier forbyr røyking i bil med barn i, selv om vinduene er nede eller bilen står parkert. Barnets alder som gjelder, er under 16 år i <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a>, Queensland, South Australia, Northern Territory og ACT, under 17 i Western Australia og under 18 i Victoria og Tasmania. Vaping er også dekket.",
+            "I leiebil eller campervan gjelder samme regel, og utleieselskapet kan i tillegg ta et rengjøringsgebyr for røyklukt. Røyker du, gå bort fra bilen og la passasjerene gå ut først."
+          ],
+          "tips": [
+            "Ulovlig i alle delstater",
+            "Nede vinduer er ingen unnskyldning",
+            "Leiebiler tar rengjøringsgebyr"
+          ]
+        },
+        {
+          "heading": "Bålforbud, sneiper og bøter",
+          "body": [
+            "På en dag med <a data-guide=\"campfires-camping-australia\">totalt bålforbud</a> er alt som kan starte en brann utendørs en bekymring, og å kaste en tent sigarett er straffbart i alle delstater. I New South Wales kan en tent sneip gi en bot på stedet fra omtrent $660, som dobles til omtrent $1,320 på en dag med totalt bålforbud. I retten er maksimum $5,500, eller $11,000 på en dag med totalt bålforbud. Sjåfører får også prikker i førerkortet, 5 vanligvis og 10 på en dag med totalt bålforbud.",
+            "Å kaste en sneip ut av en bil regnes som farlig forsøpling i Victoria og <a data-guide=\"camping-rules-queensland\">Queensland</a>, med bøter på flere hundre dollar på stedet og langt mer i retten. Selv en sneip på bakken er søppel. I bushen kan den starte en brann som når en campingplass eller en by.",
+            "Ha med en sneipboks eller en bærbar askebeger, og slukk aldri en sigarett i tørt gress eller løv. Noen delstater lar deg melde fra om folk som kaster tente sneiper: i <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> kan du ringe Bush Fire Information Line på 1800 679 737."
+          ],
+          "tips": [
+            "Sneipboks i bilen",
+            "Aldri i tørt gress",
+            "Meld fra om tente sneiper fra biler"
+          ]
+        },
+        {
+          "heading": "Bøter i korte trekk, og en plan for campere",
+          "body": [
+            "Samlet sett: tobakk over grensen koster toll på hele mengden eller at du mister den, røyking på et røykfritt sted koster fra omtrent $100 til noen hundre dollar, og en tent sneip kastet fra et kjøretøy koster hundrevis av dollar på stedet og tusenvis i retten.",
+            "På campingtur: velg en plass med avstand til telt og tørt gress, sjekk brannfarevarselet hver morgen, og hold sneipboksen igjen når du er ferdig. Sidene til parkmyndighetene og skiltene på campingplassen viser hvor røyking ikke er tillatt. Skal du til New Zealand også? KiwiCamping har en guide om <a data-sister=\"smoking-vaping-rules-new-zealand\">reglene for røyking og vaping i New Zealand</a>."
+          ],
+          "tips": [
+            "Sjekk brannfaren hver dag",
+            "Sjekk røykfrie områder i parken",
+            "Aldri slukk i gresset"
+          ]
+        },
+        {
+          "heading": "Planlegg etter reglene i AussieCamps",
+          "body": [
+            "AussieCamps viser campingplassene parkmyndighetene publiserer, med filteret «Popular features» for toaletter, drikkevann, dusjer og <a data-guide=\"campfires-camping-australia\">bålplasser</a>. Bruk filteret «Cost» for å sammenligne gratis og betalte plasser, og legg stopp til i en tur med datoer, notater, vær og en «To-do list», så du husker sneipboksen og ID-en.",
+            "Stedsdetaljer, søk og filtre virker <a data-guide=\"camping-without-phone-signal\">uten dekning</a>, fordi oversikten ligger inne i appen. Kartet, ruteplanleggingen og været trenger tilkobling, og AussieCamps finnes for iPhone."
+          ],
+          "tips": [
+            "Filtrer på bålplasser og fasiliteter",
+            "Legg sneipboks på gjøremålslisten",
+            "Bare iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hvor mange sigaretter kan jeg ta med til Australia?",
+          "Reisende fra 18 år kan ta med 25 sigaretter eller 25 g tobakksprodukter, pluss én åpnet pakke, uten å betale toll. Siden pakkene inneholder 20, er det i praksis én forseglet pakke og den du røyker på. Tar du med mer og ikke deklarerer det, kan du bli pålagt å betale toll på hele mengden eller gi den fra deg, og du kan få bot eller bli straffeforfulgt. Deklarer alt over grensen ved grensekontrollen."
+        ],
+        [
+          "Kan jeg ta med en vape til Australia?",
+          "Bare i små mengder, og bare til din egen behandling eller for noen du tar vare på som reiser med deg. Grensen er 2 vapes, 20 tilbehørsdeler som pods eller kassetter, og 200 mL vapevæske. Vapes kan ikke sendes til deg i posten, og du kan ikke kjøpe dem i en butikk i Australia."
+        ],
+        [
+          "Hva er aldersgrensen for røyking i Australia?",
+          "Du må være 18 for å kjøpe tobakk eller vapes overalt i Australia, og butikkene kan be om bilde-ID. Turister blir spurt om det samme som lokale, så ha med pass eller førerkort."
+        ],
+        [
+          "Kan jeg røyke på en campingplass i Australia?",
+          "Som regel ja på din egen plass, men ikke overalt. I nasjonalparkene i Queensland er røyking og vaping forbudt innen 10 m fra teltplasser og fasiliteter som toaletter og piknikbord. På en dag med totalt bålforbud, eller i tørr busk, er det tryggeste svaret å ikke røyke utendørs i det hele tatt."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Australian Border Force: tollfrie kvoter"
+        },
+        {
+          "label": "Office of Drug Control: vapes og unntaket for reisende"
+        },
+        {
+          "label": "TGA: informasjon om vapes for pasienter og forbrukere"
+        },
+        {
+          "label": "Queensland Government: røykelover i Queensland"
+        },
+        {
+          "label": "NSW Health: lover om røykfri utendørs servering"
+        },
+        {
+          "label": "Victorian Government: råd om røyking og vaping til foreldre"
+        },
+        {
+          "label": "NSW Rural Fire Service: nye og økte bøter"
+        }
+      ],
+      "priceTable": null
+    },
+    "where-to-buy-cigarettes-vapes-australia": {
+      "title": "Hvor kan du kjøpe sigaretter og vapes i Australia? (2027)",
+      "description": "Sigaretter selges ved supermarkedenes servicedisk, på bensinstasjoner og hos tobakkshandlere, vapes bare på apotek. Hvor du kan kjøpe, ID-regler og hva du kan vente i outbacken.",
+      "region": "Australia",
+      "imageAlt": "Nullarbor Roadhouse i South Australia, med et vogntog og en campervan parkert ved drivstoffpumpene og butikken",
+      "intro": "Sigaretter selges ved servicedisken i supermarkeder, på bensinstasjoner, i nærbutikker og hos tobakkshandlere, og du må være 18 eller eldre for å kjøpe dem. Vapes er noe annet: siden 1. juli 2024 kan de bare selges av apotek, og voksne kan kjøpe nikotinvapes på 20 mg/mL eller lavere av en farmasøyt uten resept. Ute på landsbygda smalner valget inn til et roadhouse eller en landhandel, vanligvis med færre merker og høyere priser, så fyll lageret i en større by før en avsidesliggende etappe. Prisene stiger hvert år, så sjekk hyllprisen i stedet for å stole på et tall fra i fjor.",
+      "sections": [
+        {
+          "heading": "Hvor du kan kjøpe, i korte trekk",
+          "body": [
+            "Sigaretter er lette å finne i enhver by av rimelig størrelse, og typen butikk avgjør utvalget og prisen. Vapes er et eget tilfelle og fås bare på apotek.",
+            "Hva butikkene har, varierer fra kjede til kjede og fra år til år, så se på tabellen som det vanlige mønsteret, ikke som en garanti for hver butikk."
+          ],
+          "tips": [
+            "Sigaretter: mange butikker",
+            "Vapes: bare apotek",
+            "Utvalget krymper i outbacken"
+          ],
+          "table": {
+            "caption": "Hvor reisende vanligvis kjøper tobakk og vapes i Australia, november 2026. Utvalg og priser varierer fra butikk til butikk.",
+            "head": [
+              "Hvor",
+              "Hva de selger",
+              "Merknader"
+            ],
+            "rows": [
+              [
+                "Supermarkeder",
+                "Sigaretter og rulletobakk, ingen vapes",
+                "Coles, Woolworths og IGA selger det ved en servicedisk eller kiosk. Aldi selger ikke tobakk"
+              ],
+              [
+                "Bensinstasjoner og nærbutikker",
+                "Sigaretter og rulletobakk, ingen vapes",
+                "Åpent sent og overalt, men ofte det dyreste alternativet"
+              ],
+              [
+                "Tobakkshandlere",
+                "Bredest utvalg av sigaretter og tobakk, ingen vapes",
+                "Spesialbutikker, best for mindre vanlige merker"
+              ],
+              [
+                "Bottle shops og puber",
+                "Sigaretter noen steder",
+                "Ikke alle har det, så spør først"
+              ],
+              [
+                "Apotek",
+                "Nikotinvapes på 20 mg/mL eller lavere, etter en prat med farmasøyten",
+                "Det eneste lovlige stedet for vapes. Begrenset utvalg av smaker, og ikke alle apotek har dem"
+              ],
+              [
+                "Roadhouses og butikker i avsidesliggende strøk",
+                "Noen få merker sigaretter, av og til tobakk",
+                "Høyere priser, kortere åpningstider, ingen vapes"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Supermarkeder og bottle shops",
+          "body": [
+            "Coles, Woolworths og IGA selger sigaretter, men du ser dem ikke på hylla. På grunn av forbudet mot synlig utstilling oppbevares pakkene i lukkede skap, så du spør ved en servicedisk eller kiosk og oppgir merket. Supermarkedkjedene har skåret ned på tobakk, og noen av vinmonopolbutikkene deres har sluttet å selge det, så utvalget varierer fra butikk til butikk. Aldi selger ikke tobakk i det hele tatt.",
+            "Noen bottle shops og bottle shops tilknyttet puber selger sigaretter, andre ikke, så spør før du regner med en av dem. En supermarkedsdisk er et praktisk valg når du handler stort, fordi prisene vanligvis ligger på nivå med resten av byen, og du er der allerede."
+          ],
+          "tips": [
+            "Spør ved servicedisken",
+            "Aldi selger ikke tobakk",
+            "Spør bottle shops først"
+          ]
+        },
+        {
+          "heading": "Bensinstasjoner og nærbutikker",
+          "body": [
+            "Servos fra Ampol, BP, 7-Eleven og uavhengige selger nesten alltid sigaretter, vanligvis ved en disk bak kassa, og mange har åpent sent eller hele natten. Det gjør dem til det enkleste alternativet når du kommer til en by etter at supermarkedene har stengt.",
+            "Prisen for den bekvemmeligheten er en høyere pris. En servo er ofte det dyreste stedet i byen for en pakke, så skal du kjøpe nok til et par uker, kommer du som regel billigere ut ved en supermarkedsdisk eller hos en tobakkshandler. Guiden om <a data-guide=\"cigarette-prices-australia\">sigarettpriser</a> har de vanlige prisspennene for en pakke og en pose."
+          ],
+          "tips": [
+            "Åpent sent, ofte dyrest",
+            "Greit for en nødpakke",
+            "Billigere i supermarkedet"
+          ]
+        },
+        {
+          "heading": "Tobakkshandlere og ulovlige butikker",
+          "body": [
+            "Tobakkshandlere er spesialbutikker med det bredeste utvalget av sigaretter og rulletobakk, og de kan bestille eller vise deg til merker som supermarkedene ikke har. Flere delstater krever nå at en butikk har lisens for tobakkssalg, og i <a data-guide=\"camping-rules-victoria\">Victoria</a> har lisenskravet blitt håndhevet siden 1. februar 2026. Lisensnummer eller sertifikat henger ofte synlig i butikken.",
+            "Vær på vakt mot butikker som selger veldig billige sigaretter eller vapes. Ulovlig tobakk og vapes uten avgift selges i noen butikker, og det er mot loven å selge eller kjøpe dem. De kan bli beslaglagt, og kjøpere kan få bot, med straffer som varierer fra delstat til delstat. Lovlige sigaretter kommer i nøytrale olivenbrune pakker med store bildeadvarsler på engelsk, så en fargerik eller utenlandsk pakke, ingen engelsk advarsel eller en pris langt under det vanlige spennet er et varselsignal."
+          ],
+          "tips": [
+            "Bredest utvalg av merker",
+            "Nøytrale pakker, advarsler på engelsk",
+            "Veldig billig betyr som regel ulovlig"
+          ]
+        },
+        {
+          "heading": "ID og aldersgrenser",
+          "body": [
+            "Du må være 18 eller eldre for å kjøpe sigaretter, rulletobakk eller en vape hvor som helst i Australia, og selgeren kan nekte å ekspedere deg uten bevis på alder. Mange butikker ber om ID fra alle som ser ut til å være under 25, så regn med å bli spurt, og ta det ikke personlig.",
+            "Ha med pass eller australsk førerkort, eller et førerkort fra hjemlandet ditt hvis det viser bilde og fødselsdato. De ansatte bestemmer hva de godtar, så ha originalen på deg i stedet for en fotokopi. Guiden om <a data-guide=\"smoking-vaping-rules-australia\">røyke- og vapereglene</a> viser hvor røyking ikke er tillatt."
+          ],
+          "tips": [
+            "Bare fra 18 år",
+            "Du blir ofte spurt hvis du ser ut til å være under 25",
+            "Ha med originalt ID med bilde"
+          ]
+        },
+        {
+          "heading": "Kjøpe en vape",
+          "body": [
+            "Vapes kan bare selges av apotek. Tobakkshandlere, vapebutikker og nærbutikker kan ikke selge dem, uansett om de inneholder nikotin eller ikke, og engangsvapes er forbudt. En butikk som selger dem over disken, bryter loven.",
+            "Voksne kan kjøpe en nikotinvape på 20 mg/mL eller lavere av en farmasøyt uten resept, etter en kort samtale, der lovene i delstaten eller territoriet tillater det. Høyere styrker krever resept. Smakene er begrenset til uten smak, mint, mentol og tobakk. Ikke alle apotek har vapes, så ring i forkant eller spør på et større apotek."
+          ],
+          "tips": [
+            "Bare apotek",
+            "Ingen engangsvapes",
+            "Mint, mentol, tobakk"
+          ]
+        },
+        {
+          "heading": "I outbacken og på avsidesliggende veier",
+          "body": [
+            "Roadhouses og landhandler i avsidesliggende strøk selger vanligvis sigaretter, men utvalget kan være noen få merker, og prisen er høyere enn i byen. Rulletobakk kan være begrenset, og er butikken tom, kan den neste ligge hundrevis av kilometer unna. Noen avsidesliggende lokalsamfunn har egne regler for hva butikkene kan selge, så spør før du regner med en butikk i et lokalsamfunn, og følg skilt om restriksjoner.",
+            "Apotek er sjeldne utenfor de større byene, så vaper du, kjøp før du drar. De fleste roadhouses tar kort, men nettstopp forekommer, og åpningstidene er kortere, ofte stenger de tidlig på kvelden, så ha litt kontanter og kjøp før det blir mørkt. Noen ekstra pakker til en lang etappe er billigere enn påfyll på roadhouse."
+          ],
+          "tips": [
+            "Kjøp før avsidesliggende etapper",
+            "Vapere: planlegg etter apotekene",
+            "Ha litt kontanter"
+          ]
+        },
+        {
+          "heading": "På veien og på leirplassen",
+          "body": [
+            "Varme er hardt for tobakk og vapes. La ikke pakker, poser eller en vape ligge i en varm bil eller en lukket campervan, der de kan tørke ut eller bli ødelagt, og hold en vape unna direkte sol. En veske på en skyggefull plass eller i et rom i kjøleboksen er bedre.",
+            "Røyk unna leiren og teltene, og sjekk brannfarevarselet. Ved <a data-guide=\"campfires-camping-australia\">totalt bålforbud</a> er en tent sigarett en reell risiko, og noen campingplasser, strender og nasjonalparker er røykfrie. Slokk hver sneip helt og ta den med deg, aldri la den ligge på bakken. Skal du til New Zealand også? KiwiCamping har en guide om <a data-sister=\"where-to-buy-cigarettes-vapes-new-zealand\">hvor du kan kjøpe sigaretter og vapes i New Zealand</a>."
+          ],
+          "tips": [
+            "Hold unna varme biler",
+            "Sjekk brannfarevarselet",
+            "Ta sneipene med deg"
+          ]
+        },
+        {
+          "heading": "Planlegg etterfyllingsstoppene i AussieCamps",
+          "body": [
+            "I AussieCamps kan du legge hvert stopp til i en tur med datoer og notater, og kjøreruten viser avstand og tid for hver etappe. Da er det lett å se den siste større byen før en avsidesliggende strekning og notere den som stedet for å fylle på.",
+            "Stedsdetaljer, søk og filtre virker uten dekning, så du kan sjekke hva en campingplass har, som drikkevann, toaletter og <a data-guide=\"campfires-camping-australia\">bålplasser</a>, når du er utenfor rekkevidde. AussieCamps finnes for iPhone."
+          ],
+          "tips": [
+            "Se avstanden for hver etappe",
+            "Noter byer for etterfylling",
+            "Bare iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hvor kan jeg kjøpe sigaretter i Australia?",
+          "I supermarkeder som Coles, Woolworths og IGA, på bensinstasjoner og i nærbutikker, og hos tobakkshandlere, som har det bredeste utvalget. Aldi selger ikke tobakk. I supermarkedene holdes sigarettene utenfor syne, og du spør ved servicedisken."
+        ],
+        [
+          "Hvor kan jeg kjøpe en vape i Australia?",
+          "Bare på apotek. Siden 1. juli 2024 kan ikke vapes selges av tobakkshandlere, vapebutikker eller nærbutikker, og engangsvapes er forbudt. Voksne kan kjøpe nikotinvapes på 20 mg/mL eller lavere av en farmasøyt uten resept, etter en kort prat, men ikke alle apotek har dem."
+        ],
+        [
+          "Trenger jeg ID for å kjøpe sigaretter i Australia?",
+          "Du må være 18 eller eldre, og de ansatte kan be om bevis på alder. Ha med pass eller australsk førerkort, for en fotokopi eller et bilde på telefonen blir kanskje ikke godtatt. Butikkene spør ofte alle som ser ut til å være under 25."
+        ],
+        [
+          "Kan jeg kjøpe sigaretter i outbacken?",
+          "Som regel ja på roadhouses og landhandler, men med et lite utvalg merker til høyere priser. Noen butikker i avsidesliggende lokalsamfunn har egne regler for hva de selger, og apotek er sjeldne, så kjøp det du trenger i en større by før en avsidesliggende etappe."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Department of Health: om vaping"
+        },
+        {
+          "label": "Department of Health: endringer for vaping i Australia fra 1. juli"
+        },
+        {
+          "label": "Therapeutic Goods Administration: reformer i reguleringen av vapes"
+        },
+        {
+          "label": "Therapeutic Goods Administration: informasjon om nikotinvapeprodukter for forbrukere"
+        },
+        {
+          "label": "Victorian Government: tobakkslisensiering"
+        },
+        {
+          "label": "Department of Health: endringer for tobakksprodukter i Australia"
         }
       ],
       "priceTable": null

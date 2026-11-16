@@ -8102,112 +8102,272 @@
       }
     },
     "alcohol-coffee-drink-prices-australia": {
-      "title": "Ceny piva a kávy v Austrálii 2027: pivo v krčme $7 až $16",
-      "description": "Pivo v krčme stojí $7 až $16 a cappuccino $4,50 až $8 v Sydney (október 2026). Na štandardný drink je pivo v krčme $4 až $9 a víno z obchodu $1,60 až $4.",
+      "title": "Koľko stojí pivo v Austrálii? Ceny v pube a v bottle shope (2027)",
+      "description": "Schooner v pube stojí $8 až $13 a pint $12 až $18 v austrálskych mestách (november 2026). Kartón 24 piv stojí $55 až $72. Ceny podľa miest, názvy pohárov, happy hours.",
       "region": "Austrália",
-      "imageAlt": "Austrálske kávové nápoje na stole",
-      "intro": "Čapované pivo 500 ml v krčme v Sydney stojí približne $7 až $16 a cappuccino $4,50 až $8 podľa komunitných cenových údajov aktualizovaných v októbri 2026, zatiaľ čo fľaša piva 500 ml z obchodu s alkoholom vyjde celoštátne približne na $3,50 až $12. Na štandardný drink to je približne $4 až $9 v krčme, $2 až $7 za pivo z obchodu a $1,60 až $4 za fľašu vína strednej triedy, takže nápoje kúpené so sebou do kempu sú najvýhodnejšie.",
+      "imageAlt": "Austrálske kaviarenské nápoje na stole",
+      "intro": "Schooner piva (425 ml) stojí v pube v austrálskom meste v novembri 2026 približne $8 až $13 a pint (570 ml) približne $12 až $18. Perth a vidiecke puby patria k lacnejším, najdrahšie sú centrá Sydney a Melbourne. V bottle shope stojí šesťbalenie bežného piva asi $20 až $28 a kartón 24 piv asi $55 až $72, čo je na jedno pivo menej než polovica ceny z pubu, takže nápoje kúpené do kempu sú zďaleka najvýhodnejšie.",
       "sections": [
         {
-          "heading": "Ceny v obchode a v podniku sú dva rôzne produkty",
+          "heading": "Ceny piva podľa miest",
           "body": [
-            "Cena v krčme zahŕňa podnik, personál a obsluhu, nielen tekutinu. Porovnávajte rovnaké s rovnakým a cenu z obchodu s alkoholom nevydávajte za cenu načapovaného nápoja. Štandardné drinky robia porovnanie férovým: Healthy WA definuje jeden štandardný drink ako 10 gramov alkoholu, teda množstvo v 285 ml plnohodnotného piva alebo 100 ml vína, takže pivo 500 ml je približne 1,75 štandardného drinku a fľaša vína 750 ml približne 7,5.",
-            "Happy hours a akcie sú dočasné. Rozpočet staviajte na bežnom rozpätí a zľavu berte ako rezervu."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Víno v obchode a v bare",
-          "body": [
-            "Fľaša vína strednej triedy 750 ml stojí v obchode približne $12 až $30 a načapuje zhruba päť pohárov po 150 ml. Pri objednaní na poháre v bare alebo reštaurácii stojí to isté víno zvyčajne za porciu podstatne viac, takže fľaša zdieľaná v kempe je miesto, kde je víno najlacnejšie.",
-            "Niektoré reštaurácie, väčšinou tie bez licencie na alkohol, vám umožnia priniesť si vlastnú fľašu za poplatok za podávanie, čo zmení cenu z obchodu na večerné víno. Opýtajte sa na to pri rezervácii, nie pri stole."
+            "Tabuľka uvádza typické ceny bežného piva, napríklad miestneho ležiaka alebo pale ale. Cena v pube veľmi závisí od podniku: predmestský pub alebo klub čapuje lacnejšie než bar na streche či hotel pri prístave a craft pivo zvyčajne pridá $2 až $4 na pohár.",
+            "Ceny v bottle shopoch sa medzi mestami menia menej, pretože väčšinu ceny tvorí spotrebná daň (excise), federálna daň z alkoholu, ktorá je všade rovnaká. Darwin a vnútrozemie platia viac za dopravu a bottle shopy v <a data-guide=\"camping-rules-northern-territory\">Northern Territory</a> majú navyše pravidlá o otváracích hodinách a preukazovaní totožnosti.",
+            "Počítajte s tým, že ceny budú ďalej rásť. Spotrebná daň z baleného piva rastie s infláciou každý február a august, takže ceny v bottle shopoch budú v roku 2027 stúpať, kým daň z čapovaného piva je zmrazená do augusta 2027, vďaka čomu sú ceny v pubach stabilnejšie."
           ],
           "tips": [
-            "Fľaša strednej triedy: $12 až $30",
-            "Z fľaše asi päť pohárov",
-            "Pri rezervácii sa opýtajte na BYO"
+            "Perth: najlacnejšie pinty v metropolách",
+            "Sydney a Melbourne: najdrahšie",
+            "Vidiecke puby: často najlacnejšie"
+          ],
+          "table": {
+            "caption": "Typické ceny bežného piva v novembri 2026. Schooner má 425 ml a pint 570 ml; v Adelaide sa pohár 425 ml volá pint.",
+            "head": [
+              "Mesto",
+              "Schooner v pube (425 ml)",
+              "Pint v pube (570 ml)",
+              "Šesťbalenie (bottle shop)",
+              "Kartón 24 (bottle shop)"
+            ],
+            "rows": [
+              [
+                "Sydney",
+                "$9 až $13",
+                "$13 až $18",
+                "$21 až $28",
+                "$57 až $72"
+              ],
+              [
+                "Melbourne",
+                "$9.50 až $14",
+                "$14 až $18.50",
+                "$21 až $28",
+                "$57 až $72"
+              ],
+              [
+                "Brisbane",
+                "$9 až $13",
+                "$12 až $17",
+                "$21 až $28",
+                "$57 až $72"
+              ],
+              [
+                "Perth",
+                "$8 až $12",
+                "$9 až $15",
+                "$21 až $28",
+                "$58 až $72"
+              ],
+              [
+                "Adelaide",
+                "$8.50 až $12",
+                "$12 až $16",
+                "$20 až $27",
+                "$55 až $70"
+              ],
+              [
+                "Hobart",
+                "$9 až $12",
+                "$12 až $16",
+                "$21 až $28",
+                "$58 až $72"
+              ],
+              [
+                "Darwin",
+                "$9 až $13",
+                "$13 až $18",
+                "$23 až $30",
+                "$62 až $80"
+              ],
+              [
+                "Canberra",
+                "$9 až $12",
+                "$12 až $17",
+                "$21 až $28",
+                "$57 až $72"
+              ],
+              [
+                "Vidiecke puby",
+                "$7 až $10",
+                "$10 až $14",
+                "$22 až $32",
+                "$60 až $85"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Názvy a objemy pohárov podľa štátov",
+          "body": [
+            "Austrálske pivné poháre menia názvy na hraniciach štátov a rovnaké slovo môže znamenať iný pohár. Ak si v Sydney objednáte schooner, dostanete 425 ml; v Adelaide dostanete 285 ml, pretože obyvatelia South Australia volajú pohár 425 ml pint a pohár 570 ml imperial pint.",
+            "Keď si nie ste istí, pýtajte si objem jasne slovami alebo jednoducho povedzte small, medium alebo large. Obsluha je na návštevníkov zvyknutá a cenník na stene zvyčajne poháre pomenúva."
+          ],
+          "tips": [
+            "Schooner znamená v SA 285 ml",
+            "Pýtajte si small, medium alebo large",
+            "Džbán má asi 1,1 litra"
+          ],
+          "table": {
+            "caption": "Bežné názvy pohárov na čapované pivo podľa štátu a teritória. Názvy sa medzi pubmi líšia, najmä pri pohári 285 ml.",
+            "head": [
+              "Štát alebo teritórium",
+              "285 ml",
+              "425 ml",
+              "570 ml"
+            ],
+            "rows": [
+              [
+                "New South Wales a ACT",
+                "Middy",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Victoria",
+                "Pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Queensland",
+                "Pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "South Australia",
+                "Schooner",
+                "Pint",
+                "Imperial pint"
+              ],
+              [
+                "Western Australia",
+                "Middy",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Tasmania",
+                "Ten alebo pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Northern Territory",
+                "Handle alebo middy",
+                "Schooner",
+                "Pint"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Ceny v obchode a v podniku sú dva rozdielne produkty",
+          "body": [
+            "Cena v pube zahŕňa podnik, personál a obsluhu, nielen tekutinu. Porovnávajte rovnaké s rovnakým a nepovažujte cenu z bottle shopu za cenu natočeného nápoja. Štandardné drinky robia porovnanie férovým: Healthy WA uvádza, že jeden štandardný drink je 10 gramov alkoholu, čo je množstvo v 285 ml plnohodnotného piva alebo 100 ml vína, takže pivo 500 ml má asi 1,75 štandardného drinku a fľaša vína 750 ml asi 7,5.",
+            "Na štandardný drink vychádza pivo z pubu asi na $4 až $9, kartón z bottle shopu asi na $1.60 až $2.20 a fľaša vína strednej triedy asi na $1.60 až $4. Mid-strength pivo, ktoré sa čapuje takmer všade, má asi o štvrtinu menej alkoholu za takmer rovnakú cenu."
+          ],
+          "tips": [
+            "285 ml plnohodnotného piva: jeden štandardný drink",
+            "Pivo z kartónu: asi $2 za štandardný drink",
+            "Mid-strength stojí približne rovnako"
           ]
         },
         {
-          "heading": "Držte pod kontrolou tichý denný súčet",
+          "heading": "Happy hours a najlacnejšie spôsoby, ako piť",
           "body": [
-            "Dve kávy a dva nápoje v podniku každý deň sa môžu zmeniť na značnú týždennú sumu. Rozhodnite sa, ktoré zastávky sú dôležité, namiesto nákupu zo zvyku.",
-            "Majte <a data-guide=\"camping-water-planning\">pitnú vodu</a> po ruke a dopĺňajte ju len z pitných kohútikov. V horúčave patria hydratácia a tieň do bezpečnostného plánu, nie do rozpočtu na zábavu."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Káva je každodenná položka",
-          "body": [
-            "Austrálska kávová kultúra je silná a štandard v regionálnych mestách je skutočne vysoký, a práve preto sa z nej stáva rozpočtová položka. Dve flat white denne pre dvoch ľudí sa nazbierajú bez toho, aby to pôsobilo ako rozhodnutie.",
-            "Moka kanvička alebo AeroPress v dodávke pokryje ranný šálok za zlomok ceny z kaviarne a necháva zastávku v kaviarni ako vec, ktorú si vyberiete, nie automatickú.",
-            "Káva z roadhousov na dlhých jazdách je v najlepšom prípade premenlivá. Na trasách vo vnútrozemí je vlastná káva zvyčajne lacnejšia aj podstatne lepšia."
+            "Mnohé puby majú happy hour v popoludňajších hodinách pracovných dní, často okolo 16.00 až 18.00, so schoonermi za asi $6 až $9. Niektoré pridávajú lacné džbány, pivo k jedlu z denného menu alebo večer so steakom a schoonerom. Berte to ako bonus, nie ako základ rozpočtu: menia sa často a mnohé platia len cez pracovné dni.",
+            "Kluby ako RSL, bowls kluby a surf kluby zvyčajne čapujú lacnejšie než puby a návštevníci sú vítaní: pri vchode sa zapíšete s fotografickým dokladom a na ten deň sa stanete dočasným členom.",
+            "Úplne najlacnejší nápoj je kartón alebo vak vína (cask) z bottle shopu, vychladený v chladničke v dodávke alebo v esky a vypitý v kempe. Najprv si skontrolujte pravidlá kempu, pretože niektoré miesta v národných parkoch a pod správou obcí a mnohé pláže a parky v mestách alkohol zakazujú alebo obmedzujú v určitých hodinách."
           ],
           "tips": [
-            "Dva šálky denne sa rýchlo sčítajú",
-            "Ranný šálok si pripravte sami",
-            "Káva z roadhousov je premenlivá"
+            "Happy hours cez týždeň: asi 16.00 až 18.00",
+            "Kluby vítajú návštevníkov s dokladom",
+            "Skontrolujte pravidlá o alkohole v kempe"
           ]
         },
         {
           "heading": "Nákup alkoholu v Austrálii",
           "body": [
-            "Balený alkohol sa predáva väčšinou v licencovaných obchodoch s alkoholom, často vedľa supermarketu, ale s oddelenou prevádzkou, hoci Aldi a niektoré nezávislé potraviny ho predávajú priamo v predajni. Otváracie hodiny sú regulované a líšia sa podľa štátu.",
-            "Obmedzenia alkoholu platia v mnohých komunitách a regiónoch, najmä v Northern Territory, v častiach <a data-guide=\"camping-rules-queensland\">Queenslandu</a>, Western Australia a South Australia. Prevoz alkoholu do obmedzenej oblasti prináša vysoké pokuty.",
-            "Pred cestou s alkoholom do odľahlých oblastí si to overte. Obmedzenia sú právne vymáhané, platia pre návštevníkov rovnako ako pre obyvateľov a neznalosť nie je ospravedlnením."
+            "Balený alkohol sa predáva väčšinou v licencovaných bottle shopoch, často vedľa supermarketu, ale s oddelenou prevádzkou, hoci Aldi a niektoré nezávislé obchody ho predávajú priamo v predajni. Otváracie hodiny sú regulované a líšia sa podľa štátu. Na kúpu alkoholu musíte mať 18 rokov a personál žiada fotografický doklad od každého, kto vyzerá na menej ako 25: pas alebo vodičský preukaz.",
+            "V mnohých komunitách a regiónoch platia obmedzenia alkoholu, najmä v Northern Territory, v častiach <a data-guide=\"camping-rules-queensland\">Queensland</a>, Western Australia a South Australia. Za prenášanie alkoholu do obmedzenej oblasti hrozia vysoké pokuty.",
+            "Skôr než pôjdete s alkoholom do odľahlých oblastí, overte si pravidlá. Obmedzenia sa vymáhajú zákonom, vzťahujú sa na návštevníkov rovnako ako na obyvateľov a neznalosť nie je ospravedlnením."
           ],
           "tips": [
-            "Väčšinou obchody s alkoholom, niektoré supermarkety",
-            "Obmedzené oblasti majú vysoké pokuty",
-            "Pred vstupom do odľahlých regiónov si to overte"
+            "Väčšinou bottle shopy, niekedy supermarkety",
+            "Majte so sebou fotografický doklad",
+            "Pred vstupom do odľahlých regiónov si overte pravidlá"
           ]
         },
         {
-          "heading": "Pitie a jazdný deň",
+          "heading": "Pitie a deň za volantom",
           "body": [
-            "Všeobecný limit je 0,05 pre držiteľov plného vodičského preukazu, nula pre vodičov na skúšku a s dočasným preukazom a nula alebo 0,02 pre mnohých profesionálnych vodičov podľa štátu (0,02 v NSW). Namátkové dychové skúšky sú bežné, aj na vidieckych cestách a cez deň.",
-            "Na výlete je jediný bezpečný prístup úplne oddeliť pitie od šoférovania: zostaňte tam, kde pijete, využite určeného vodiča alebo pite, až keď je vozidlo na noc zaparkované.",
-            "Ranná jazda po večeri ľudí prekvapí. Telu trvá odbúranie každého štandardného drinku aspoň hodinu, často dlhšie, a káva ani sprcha to nezrýchlia, takže silný večer vás môže nechať nad limitom hlboko do nasledujúceho rána."
+            "Všeobecný limit je 0.05 pre držiteľov plného vodičského preukazu, nula pre vodičov s učňovským a skúšobným preukazom a nula alebo 0.02 pre mnohých profesionálnych vodičov podľa štátu (v NSW 0.02). Namatkové dychové skúšky sú bežné, aj na vidieckych cestách a cez deň.",
+            "Na road tripe je jediný bezpečný prístup úplne oddeliť pitie od šoférovania: ostaňte tam, kde pijete, využite určeného vodiča alebo pite až po zaparkovaní vozidla na noc.",
+            "Šoférovanie na druhý deň ráno ľudí často prekvapí. Telo potrebuje na odbúranie každého štandardného drinku aspoň hodinu, často dlhšie, a ani káva či sprcha to neurýchlia, takže po náročnom večeri môžete byť nad limitom dlho do rána."
           ],
           "tips": [
-            "0,05 všeobecne, nula pre vodičov na skúšku a s dočasným preukazom",
-            "Namátkové kontroly sú bežné a aj cez deň",
-            "Pasca je ranná jazda po večeri"
+            "0.05 všeobecne, nula pre učňovské a skúšobné preukazy",
+            "Namatkové kontroly sú bežné aj cez deň",
+            "Úskalím je šoférovanie na druhý deň ráno"
           ]
         },
         {
-          "heading": "S vodou to treba zvládnuť správne",
+          "heading": "Víno v bottle shope a v bare",
           "body": [
-            "Voda z kohútika je bezpečná a dobrá takmer vo všetkých austrálskych mestách a mestečkách a kupovanie balenej vody je takmer čisté plytvanie. Noste so sebou znovuplniteľné fľaše a plňte ich z ktoréhokoľvek pitného kohútika v meste, kempe alebo verejnom zariadení.",
-            "V odľahlých oblastiach a v buši je to naopak: voda z vrtov môže byť mineralizovaná alebo nevhodná, voda z nádrží je neupravená a povrchová voda v poľnohospodárskej krajine môže niesť chemické znečistenie. Upravujte všetko, čo nie je označený pitný mestský zdroj.",
-            "Noste kvalitnú izolovanú fľašu, aby ste mali v horúčave vždy studenú vodu; dopĺňanie nestojí nič."
+            "Fľaša vína strednej triedy 750 ml stojí v bottle shope asi $12 až $29 a naleje sa z nej zhruba päť pohárov po 150 ml. Pri objednaní na poháre v bare alebo reštaurácii stojí to isté víno zvyčajne $10 až $16 za pohár, takže najlacnejšie je víno z fľaše, ktorú zdieľate v kempe.",
+            "Niektoré reštaurácie, väčšinou tie bez licencie na alkohol, vám dovolia priniesť si vlastnú fľašu za poplatok za otvorenie (corkage), vďaka čomu sa cena z bottle shopu zmení na víno k večeri. Opýtajte sa na to pri rezervácii, nie až pri stole."
           ],
           "tips": [
-            "Voda z kohútika v mestách je bezpečná",
-            "Voda z vrtov je často nevhodná",
-            "Upravujte vodu z nádrží a povrchovú vodu"
+            "Fľaša strednej triedy: $12 až $29",
+            "Z fľaše asi päť pohárov",
+            "Pri rezervácii sa opýtajte na BYO"
+          ]
+        },
+        {
+          "heading": "Káva je každodenná položka",
+          "body": [
+            "Bežné cappuccino alebo flat white stojí asi $4 až $8, pričom kaviarne v centrách miest sú na vrchu rozpätia. Austrálska kávová kultúra je silná a úroveň v regionálnych mestách je naozaj vysoká, a práve preto sa z kávy stáva rozpočtová položka: dve kávy denne pre dvoch sa nazbierajú bez toho, aby ste sa o tom niekedy rozhodli.",
+            "Kanvička na sporák alebo AeroPress v dodávke pokryje ranný šálok za zlomok ceny z kaviarne a z kaviarne urobí zastávku, ktorú si vyberiete, nie automatickú. Káva v roadhouse na dlhých jazdách vnútrozemím je rôzna, takže vlastná je zvyčajne lacnejšia aj lepšia.",
+            "Voda z vodovodu je takmer vo všetkých austrálskych mestách bezpečná a dobrá, takže noste opakovane naplniteľné fľaše a nekupujte vodu. V buši upravte vodu z vrtov, nádrží a potokov, skôr než ju vypijete. Mierite aj na Nový Zéland? KiwiCamping pokrýva <a data-sister=\"beer-wine-coffee-prices-new-zealand\">koľko stojí pivo, víno a káva na Novom Zélande</a>."
+          ],
+          "tips": [
+            "Cappuccino: $4 až $8",
+            "Ranný šálok si pripravte sami",
+            "Voda z vodovodu v mestách je bezpečná"
           ]
         }
       ],
       "faq": [
         [
           "Koľko stojí pivo v Austrálii?",
-          "Čapované pivo 500 ml v krčme v Sydney stojí približne $7,15 až $16 podľa komunitných cenových údajov z októbra 2026 a fľaša 500 ml z obchodu s alkoholom celoštátne približne $3,50 až $12. Nákup v obchode s alkoholom namiesto baru je jednou z najväčších úspor na dlhom výlete."
+          "Schooner (425 ml) bežného piva stojí v pube v meste v novembri 2026 asi $8 až $13 a pint (570 ml) asi $12 až $18. V bottle shope stojí šesťbalenie asi $20 až $28 a kartón 24 piv asi $55 až $72, čo je na jedno pivo menej než polovica ceny z pubu."
+        ],
+        [
+          "Koľko stojí pint v Austrálii?",
+          "Asi $12 až $18 za 570 ml bežného piva v pube v meste, pričom Perth a vidiecke puby sú na lacnejšom konci a centrum Melbourne a Sydney na vrchu. V South Australia je pint pohár 425 ml, ktorý stojí asi $8.50 až $12; pre 570 ml si pýtajte imperial pint."
+        ],
+        [
+          "Kde je v Austrálii najlacnejšie pivo?",
+          "Najlacnejšie pivo čapujú Perth a vidiecke puby a kluby ako RSL a bowls kluby zvyčajne podbíjajú ceny pubov; návštevníci sa zapisujú s fotografickým dokladom. Happy hours cez týždeň znižujú cenu schoonera na asi $6 až $9, ale najlacnejší je kartón z bottle shopu, asi $2 za štandardný drink."
         ],
         [
           "Koľko stojí káva v Austrálii?",
-          "Bežné cappuccino stojí približne $4,50 až $8 v Sydney a $4 až $8 celoštátne podľa komunitných cenových údajov z októbra 2026, pričom kaviarne v centre mesta sú často na hornej hranici rozpätia. Dve kávy denne pre dvoch ľudí sa na dlhom výlete stanú skutočnou rozpočtovou položkou."
+          "Bežné cappuccino alebo flat white stojí asi $4 až $8, pričom kaviarne v centrách miest sú často na vrchu rozpätia. Dve kávy denne pre dvoch sa na dlhej ceste stanú skutočnou rozpočtovou položkou, preto si mnohí kempujúci pripravujú ranný šálok sami."
         ]
       ],
       "sources": [
         {
-          "label": "Numbeo: ceny nápojov v Sydney"
+          "label": "Numbeo, ceny nápojov v Austrálii, aktualizované november 2026"
         },
         {
-          "label": "Numbeo: maloobchodné rozpätia v Austrálii"
+          "label": "Australian Taxation Office: sadzby spotrebnej dane z alkoholu"
         },
         {
-          "label": "Pokyny NSW o alkohole a šoférovaní"
+          "label": "Healthy WA: čo je štandardný drink"
+        },
+        {
+          "label": "NSW: usmernenie k alkoholu a šoférovaniu"
         },
         {
           "label": "NHMRC: ako dlho trvá odbúranie alkoholu"
@@ -8216,31 +8376,35 @@
           "label": "Northern Territory: nákup a pitie alkoholu"
         },
         {
-          "label": "Healthy WA: čo je štandardný drink"
+          "label": "NSW Government: pravidlá klubov pre návštevníkov"
         }
       ],
       "priceTable": {
-        "note": "Komunitne zadané rozpätia pre Austráliu a Sydney aktualizované v októbri 2026. Veľkosť porcie, podnik, akcia a miesto sa líšia.",
+        "note": "Rozpätia cien v pube v meste a v bottle shope pre bežné austrálske pivo v novembri 2026. Craft pivo, dovážané pivo, podniky pri vode a odľahlé oblasti stoja viac; happy hours a akcie stoja menej.",
         "rows": [
           {
-            "label": "Cappuccino (Sydney)",
+            "label": "Schooner v pube",
+            "unit": "425 ml"
+          },
+          {
+            "label": "Pint v pube",
+            "unit": "570 ml"
+          },
+          {
+            "label": "Šesťbalenie z bottle shopu",
+            "unit": "6 x 375 ml"
+          },
+          {
+            "label": "Kartón z bottle shopu",
+            "unit": "24 x 375 ml"
+          },
+          {
+            "label": "Víno strednej triedy",
+            "unit": "750 ml, bottle shop"
+          },
+          {
+            "label": "Cappuccino",
             "unit": "jeden šálok"
-          },
-          {
-            "label": "Čapované pivo v krčme (Sydney)",
-            "unit": "jedna porcia"
-          },
-          {
-            "label": "Víno strednej triedy (celoštátne)",
-            "unit": "750 ml maloobchod"
-          },
-          {
-            "label": "Ekvivalent domáceho piva (celoštátne)",
-            "unit": "500 ml maloobchod"
-          },
-          {
-            "label": "Nealkoholický nápoj (Sydney)",
-            "unit": "330 ml v podniku"
           }
         ]
       }
@@ -29463,6 +29627,608 @@
         },
         {
           "label": "Bureau of Meteorology: klíma podľa regiónov"
+        }
+      ],
+      "priceTable": null
+    },
+    "cigarette-prices-australia": {
+      "title": "Koľko stoja cigarety v Austrálii v roku 2027? Škatuľky od $40 do $60",
+      "description": "Legálna škatuľka 20 cigariet stojí v Austrálii asi $40 až $60 a vrecko 30 g tabaku na vlastné motanie asi $90 až $120. Ceny podľa štátov, prečo za to môže daň, a vapy.",
+      "region": "Austrália",
+      "imageAlt": "Zatvorená skrinka s tabakom v austrálskom obchode, so škatuľkami cigariet a vreckami v jednotných obaloch nad cenovkami",
+      "intro": "Legálna škatuľka 20 cigariet stojí v Austrálii v novembri 2026 asi $40 až $60 a vrecko 30 g tabaku na vlastné motanie asi $90 až $120. Škatuľky po 25 kusov a veľké vrecká zmizli: od 1. júla 2025 sa cigarety predávajú len v škatuľkách po 20 kusov a tabak na motanie len vo vreckách po 30 g. Takmer celú cenu tvorí federálna daň, takže tá istá škatuľka stojí v Sydney a Perthe približne rovnako, s o niečo vyššími cenami v odľahlých mestách a v Northern Territory. Ceny rastú dvakrát ročne, takže ak cestujete v roku 2027, rátajte s viac, než uvádzajú tunajšie čísla.",
+      "sections": [
+        {
+          "heading": "Koľko stojí škatuľka 20 cigariet",
+          "body": [
+            "Lacnejšie značky sú na spodku, okolo $38 až $45 za 20 kusov. Bežné značky, ktoré uvidíte za pultom každého servo, vychádzajú bližšie k $50 až $60. Obchody a reťazce znižujú a zvyšujú ceny v rôznom čase, takže rovnaká značka sa môže medzi dvoma obchodmi na tej istej ulici líšiť o niekoľko dolárov.",
+            "Ak si pamätáte škatuľku s 25 kusmi z minulých rokov alebo od priateľov doma, takáto veľkosť už v Austrálii neexistuje. Zákon o jednotných obaloch, ktorý plne nadobudol účinnosť 1. júla 2025, určil pre každú škatuľku cigariet 20 kusov, s 10 škatuľkami v kartóne. Škatuľka po 20 je jediná veľkosť, ktorú treba porovnávať."
+          ],
+          "tips": [
+            "Lacné značky: asi $38 až $45",
+            "Bežné značky: asi $50 až $60",
+            "Škatuľky po 25 sa už nepredávajú"
+          ]
+        },
+        {
+          "heading": "Ceny podľa štátu a teritória",
+          "body": [
+            "Väčšinu ceny tvorí federálna spotrebná daň, ktorá je v každom štáte rovnaká, takže štát, v ktorom nakupujete, mení cenu len málo. Rozpätia nižšie sú orientáciou, koľko obchody účtujú za legálne produkty. <a data-guide=\"camping-rules-northern-territory\">Northern Territory</a> a odľahlé komunity bývajú drahšie, pretože k cene v regáli pridáva doprava a malé predaje, a cena v roadhouse vo vnútrozemí môže byť úplne najvyššia.",
+            "Neexistuje oficiálny cenník podľa štátov, preto berte rozpätia ako pásmo, ktoré môžete očakávať, nie ako ponuku. Pohľad na regál pred nákupom vám povie viac než akákoľvek tabuľka."
+          ],
+          "tips": [
+            "Rovnaká daň v každom štáte",
+            "NT a odľahlé oblasti: o niečo vyššie",
+            "Pozrite si cenu v regáli"
+          ],
+          "table": {
+            "caption": "Typické ceny legálneho tabaku v regáli v novembri 2026. Orientačné pásmo, nie ponuka: obchody si určujú ceny samy.",
+            "head": [
+              "Štát alebo teritórium",
+              "Škatuľka 20",
+              "Vrecko 30 g"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "$40 až $60",
+                "$90 až $120"
+              ],
+              [
+                "Victoria",
+                "$40 až $60",
+                "$90 až $120"
+              ],
+              [
+                "Queensland",
+                "$40 až $60",
+                "$90 až $120"
+              ],
+              [
+                "South Australia",
+                "$40 až $60",
+                "$90 až $120"
+              ],
+              [
+                "Western Australia",
+                "$40 až $60",
+                "$90 až $120"
+              ],
+              [
+                "Tasmania",
+                "$40 až $60",
+                "$90 až $120"
+              ],
+              [
+                "Australian Capital Territory",
+                "$40 až $60",
+                "$90 až $120"
+              ],
+              [
+                "Northern Territory a odľahlé oblasti",
+                "$45 až $65 alebo viac",
+                "$95 až $130 alebo viac"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Vrecká tabaku na vlastné motanie",
+          "body": [
+            "Tabak na vlastné motanie sa predáva len vo vreckách po 30 g a z vrecka sa dá namotať asi 50 tenkých cigariet. Lacné vrecká stoja okolo $90 a prémiové okolo $115 alebo o málo viac, takže vlastné motanie nie je na cigaretu o veľa lacnejšie než škatuľka 20, keď pripočítate papieriky a <a data-guide=\"how-to-use-aussiecamps-filters\">filtre</a>.",
+            "Spotrebná daň z tabaku na motanie sa účtuje podľa hmotnosti, od 1. septembra 2026 vo výške $2,587.90 za kilogram. To je asi $78 dane v každom vreckúi 30 g pred GST, preto je cena v regáli taká blízka škatuľke."
+          ],
+          "tips": [
+            "30 g je jediná veľkosť",
+            "Asi $90 až $120",
+            "Na kus o veľa lacnejšie nie je"
+          ]
+        },
+        {
+          "heading": "Prečo stoja tak veľa",
+          "body": [
+            "Cena je väčšinou daň. Federálna spotrebná daň je od 1. septembra 2026 $1.55274 na každú cigaretu, oproti $1.52829 v marci, čo je asi $31 na každú škatuľku 20. K tomu sa pri pokladni pripočíta GST 10 %. Spolu je to asi 70 % typickej škatuľky za $50 a ešte viac pri lacnej škatuľke.",
+            "Sadzba sa mení dvakrát ročne, v marci a 1. septembra, podľa vývoja miezd. Navyše sa sadzba každý september v rokoch 2023 až 2026 zvýšila o ďalších 5 %, takže cena stúpala postupne, nie jedným skokom. Škatuľka, ktorá sa návštevníkovi zdá drahá na prvej ceste, bude ďalší rok ešte drahšia."
+          ],
+          "tips": [
+            "Asi $31 spotrebnej dane na škatuľku",
+            "Plus 10 % GST",
+            "Rastie každý marec a september"
+          ]
+        },
+        {
+          "heading": "Ročné zvyšovanie a vaša cesta",
+          "body": [
+            "Pretože sa sadzba mení každý marec a september, údaj z minulého roka je po vašom pristátí zastaraný. Ako pravidlo rátajte s tým, že škatuľka v roku 2027 bude stáť o niekoľko dolárov viac než tunajšie rozpätia z roku 2026, a pred plánovaním mesiaca výdavkov si pozrite cenu v regáli v prvom meste.",
+            "Silný fajčiar na dlhej ceste rýchlo narátá. Desať škatuliek mesačne je asi $400 až $600. Dajte to do rozpočtu cesty ako samostatnú položku, rovnako ako palivo, aby to neubralo z peňazí na jedlo."
+          ],
+          "tips": [
+            "Rátajte s o pár dolárov viac",
+            "Desať škatuliek: $400 až $600",
+            "Dajte tomu vlastnú položku v rozpočte"
+          ]
+        },
+        {
+          "heading": "Ceny vapov",
+          "body": [
+            "Od 1. júla 2024 sa vapy predávajú len v lekárňach, či už obsahujú nikotín, alebo nie. Dospelí môžu vo väčšine štátov kúpiť vapy s nižšou koncentráciou nikotínu od lekárnika bez receptu, po rozhovore, a silnejšie produkty vyžadujú recept. Lekárne smú dodávať len produkty zo zoznamu notifikovaných vapov TGA.",
+            "Ceny v lekárňach určuje výrobca a obchod, nie vláda. Rátajte zhruba s $30 až $60 za základné zariadenie alebo balenie náplní (pods) a viac za štartovaciu sadu. Lacné jednorazové vapy predávané spod pultu v niektorých obchodoch nie sú legálne produkty."
+          ],
+          "tips": [
+            "Len v lekárňach od júla 2024",
+            "Asi $30 až $60 za zariadenie",
+            "Najprv sa opýtajte lekárnika"
+          ]
+        },
+        {
+          "heading": "Nelegálny tabak a vapy",
+          "body": [
+            "Niektoré obchody predávajú cigarety a vapy za zlomok legálnej ceny, často v neoznačených alebo zahraničných škatuľkách, niekedy nazývaných chop chop. Sú nelegálne a ich kúpa môže znamenať pokuty a zhabanie tovaru, pričom sankcie sa líšia podľa štátu. Nemajú ani austrálske zdravotné upozornenia.",
+            "Ak sa vám cena zdá oproti číslam vyššie priveľmi výhodná, takmer iste taká je, preto ostaňte pri lekárni pre vapy a pri licencovanom <a data-guide=\"where-to-buy-cigarettes-vapes-australia\">predajcovi tabaku</a> alebo supermarkete pre tabak."
+          ],
+          "tips": [
+            "Neoznačené škatuľky sú nelegálne",
+            "Kupujúcim hrozia pokuty",
+            "Lacné zvyčajne znamená nelegálne"
+          ]
+        },
+        {
+          "heading": "Ako míňať menej, legálne",
+          "body": [
+            "<a data-guide=\"smoking-vaping-rules-australia\">Bezcolný limit</a> pri príchode je len 25 cigariet alebo 25 gramov tabaku plus jedna otvorená škatuľka pre cestujúcich od 18 rokov. Ak prinesiete viac, musíte to deklarovať a Australian Border Force uvádza, že buď prebytok odovzdáte, alebo zaplatíte clo z celého množstva. Nedeklarovaný tabak môže byť zhabaný a môže znamenať pokutu, takže zásoba z domu nie je spôsob, ako ušetriť na dlhej ceste.",
+            "Nákup po kartónoch nie je na cigaretu o veľa lacnejší, pretože daň je na každú cigaretu rovnaká. Skutočné úspory sú malé: vyberte lacnú značku, kupujte tam, kde obchod robí zľavy, a vyhnite sa cenám v roadhouse a v odľahlých oblastiach, kde sa dá. Pravidlá pre cestujúcich, vrátane bezcolného limitu, vapov a miest bez fajčenia, sú v sprievodcovi pravidlami fajčenia a vapovania. Ak fajčíte pri kempe, každý ohorok úplne uhaste a vezmite so sebou a dodržiavajte pravidlá <a data-guide=\"campfires-camping-australia\">úplného zákazu ohňa</a>: ohorky a buš sa nezlučujú.",
+            "Mierite aj na Nový Zéland? KiwiCamping pokrýva <a data-sister=\"cigarette-prices-new-zealand\">koľko stoja cigarety na Novom Zélande</a>."
+          ],
+          "tips": [
+            "Prineste len 25 kusov",
+            "Kartóny šetria málo",
+            "Ohorky uhaste a odneste"
+          ]
+        },
+        {
+          "heading": "Rozpočet cesty v AussieCamps",
+          "body": [
+            "AussieCamps <a data-guide=\"how-to-use-aussiecamps-filters\">filtruje</a> miesta podľa ceny (Cost), zadarmo alebo platené (Free or Paid), aby lacnejšie noci uvoľnili miesto zvyšku rozpočtu. Pridajte každú zastávku do cesty s dátumami, poznámkami a zoznamom úloh, aby bolo doplnenie zásob vo väčších mestách pred odľahlým úsekom súčasťou plánu.",
+            "Detaily miest a filtre fungujú <a data-guide=\"camping-without-phone-signal\">bez signálu</a> a trasa jazdy ukazuje vzdialenosť a čas každého úseku. AussieCamps beží na iPhone."
+          ],
+          "tips": [
+            "Filtrujte podľa ceny (Cost)",
+            "Plánujte doplnenie zásob pred odľahlými úsekmi",
+            "Len iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Koľko stojí škatuľka cigariet v Austrálii?",
+          "Legálna škatuľka 20 kusov stojí v novembri 2026 zvyčajne asi $40 až $60, pričom lacné značky sú na spodku a bežné značky na vrchu. Škatuľky po 25 sa už nepredávajú: od 1. júla 2025 musí každá škatuľka cigariet obsahovať presne 20 kusov. Ceny sú na východnom pobreží o niečo nižšie a v Northern Territory a odľahlých mestách vyššie."
+        ],
+        [
+          "Prečo sú cigarety v Austrálii také drahé?",
+          "Kvôli federálnej dani. Spotrebná daň je od 1. septembra 2026 $1.55274 na každú cigaretu, čo je asi $31 na škatuľku 20 pred pripočítaním GST 10 %. Pri väčšine značiek ide zhruba 70 % ceny v regáli alebo viac štátu."
+        ],
+        [
+          "Koľko cigariet môžem priniesť do Austrálie?",
+          "Bezcolný limit pre cestujúcich od 18 rokov je 25 cigariet alebo 25 gramov tabaku plus jedna otvorená škatuľka. Všetko nad to deklarujte. Australian Border Force uvádza, že môžete priniesť povolené množstvo a zvyšok odovzdať, alebo si nechať všetko a zaplatiť clo z celého množstva."
+        ],
+        [
+          "Môžem si v Austrálii ako turista kúpiť vape?",
+          "Len v lekárni. Od 1. júla 2024 sa vapy nesmú predávať v iných obchodoch a obchody na rohu, ktoré ich predávajú, porušujú zákon. Dospelí môžu vo väčšine štátov kúpiť vapy s nižšou koncentráciou nikotínu od lekárnika bez receptu, po krátkom rozhovore."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Australian Taxation Office: sadzby spotrebnej dane z tabaku"
+        },
+        {
+          "label": "Australian Border Force: bezcolné limity"
+        },
+        {
+          "label": "Department of Health: zmeny tabakových výrobkov v Austrálii"
+        },
+        {
+          "label": "Department of Health: zákony o vapovaní"
+        },
+        {
+          "label": "Therapeutic Goods Administration: nikotínové vapovacie produkty"
+        },
+        {
+          "label": "Tobacco in Australia: cena tabakových výrobkov"
+        }
+      ],
+      "priceTable": null
+    },
+    "smoking-vaping-rules-australia": {
+      "title": "Fajčenie a vapovanie v Austrálii (2027): pravidlá pre cestujúcich",
+      "description": "Bezcolne 25 cigariet alebo 25 g tabaku, vapy len v lekárňach, vek 18 rokov a horiace ohorky v buši znamenajú vysoké pokuty. Pravidlá pre cestujúcich na rok 2027.",
+      "region": "Austrália",
+      "imageAlt": "Tabuľa s textom Toto mólo je bez dymu a bez vapovania na zábradlí móla Outer Harbor v Adelaide, South Australia",
+      "intro": "Návštevníci od 18 rokov môžu do Austrálie doviezť bezcolne 25 cigariet alebo 25 g tabaku plus jednu otvorenú škatuľku a všetko navyše musia deklarovať. Vapy sa teraz predávajú len v lekárňach a výnimka pre cestujúcich povoľuje 2 vapy, 20 náplní alebo kartridží a 200 mL tekutiny na vlastnú liečbu. Na kúpu oboch musíte mať 18 rokov a fajčenie a vapovanie je zakázané na mnohých miestach vonku, od stolov v kaviarňach po strážené pláže. Pre kempujúcich je najdôležitejší oheň: horiaci ohorok vyhodený z auta alebo zahodený do suchej trávy môže stáť tisíce dolárov. Toto sú pravidlá platné v novembri 2026.",
+      "sections": [
+        {
+          "heading": "Čo môžete doviezť bezcolne",
+          "body": [
+            "Dospelí od 18 rokov môžu do Austrálie doviezť tabak bez povolenia. Bezcolný limit je 25 cigariet alebo 25 g tabakových výrobkov plus jedna otvorená škatuľka. Keďže austrálske aj väčšina zahraničných škatuliek obsahuje 20 kusov, znamená to jednu zapečatenú škatuľku plus tú, ktorú fajčíte. Osoby mladšie ako 18 rokov nemajú nárok na žiadny tabak.",
+            "Ak limit prekročíte, Australian Border Force uvádza, že clo a daň sa uplatnia na všetok tovar daného druhu, nie len na časť nad limitom. Nedeklarovanie prebytku môže znamenať sankcie, trestné stíhanie alebo zrušenie víza, podľa množstva. Ak máte viac, deklarujte to na Incoming Passenger Card, preukážte doklad o kúpe a zaplaťte clo, alebo to odovzdajte na hranici. Ceny miestnych škatuliek sú v sprievodcovi <a data-guide=\"cigarette-prices-australia\">cenami cigariet</a>."
+          ],
+          "tips": [
+            "25 cigariet alebo 25 g",
+            "Plus jedna otvorená škatuľka",
+            "Všetko nad limit deklarujte"
+          ]
+        },
+        {
+          "heading": "Vapy pre cestujúcich",
+          "body": [
+            "Od roku 2024 sa vapy v Austrálii považujú za terapeutický tovar. Cestujúci ich môžu doviezť len na základe výnimky pre cestujúcich: vapy musia byť na vašu vlastnú liečbu alebo na liečbu osoby, o ktorú sa staráte a ktorá cestuje s vami tým istým letom alebo lodou. Limity sú 2 vapy celkovo, 20 doplnkov, ako sú náplne, kartridže alebo kapsuly, a 200 mL tekutiny do vapu.",
+            "Jednorazové vapy sa započítavajú do tých 2. Posielanie vapov poštou sebe alebo zásielka od priateľa nie je povolená a všetko nad limit môže byť zhabané. Vapy deklarujte a majte ich v príručnej batožine, kde ich colníci vidia. Pravidlá prevozu v lietadle určuje vaša letecká spoločnosť, preto si ich pred letom overte."
+          ],
+          "tips": [
+            "2 vapy, 20 náplní, 200 mL",
+            "Len na vlastné použitie",
+            "Vapy do Austrálie neposielajte poštou"
+          ]
+        },
+        {
+          "heading": "Nákup vapov a zákonný vek",
+          "body": [
+            "Vapy v Austrálii predávajú len lekárne. Od októbra 2024 môžu lekárnici dodávať nikotínové vapy s 20 mg/mL alebo menej osobám od 18 rokov bez receptu a osoby mladšie ako 18 rokov ho potrebujú. <a data-guide=\"where-to-buy-cigarettes-vapes-australia\">Predajcovia tabaku</a>, vape shopy, servo a obchody s potravinami nesmú vapy predávať vôbec, bez ohľadu na obsah nikotínu.",
+            "Zákonný vek na kúpu tabaku je 18 rokov v každom štáte a teritóriu a obchody môžu žiadať fotografický doklad. Návštevníkov sa pýtajú rovnako ako miestnych, takže pas alebo <a data-guide=\"overseas-driver-licence-australia-state-guide\">zahraničný vodičský preukaz</a> je bezpečná voľba. Lekárnik vám môže pred nákupom povedať aj o prípadných ďalších pravidlách štátu."
+          ],
+          "tips": [
+            "Vapy: len v lekárni",
+            "18 rokov na nákup čohokoľvek",
+            "Majte fotografický doklad"
+          ]
+        },
+        {
+          "heading": "Kde sa nesmie fajčiť ani vapovať",
+          "body": [
+            "Zákony o miestach bez dymu určuje každý štát a teritórium a vapovanie sa na miestach bez dymu považuje za fajčenie. Tabuľka uvádza miesta, s ktorými sa kempujúci stretávajú najčastejšie. Mnohé samosprávy pridávajú vlastné pravidlá pre miestne pláže, parky a centrá miest, preto sledujte tabule.",
+            "Národné parky, pláže a kempy majú vlastné pravidlá. Queensland zakazuje fajčenie do 10 m od stanovísk a zariadení v národných parkoch, viaceré štáty ho zakazujú medzi vlajkami na strážených plážach a mnohé <a data-guide=\"caravan-park-vs-holiday-park\">karavanové parky</a> ho zakazujú v chatkách, sociálnych zariadeniach a kuchyniach pre kempujúcich. Keď platí zákaz ohňa, strážcovia parkov berú zapálenú cigaretu na voľnom priestranstve ako akýkoľvek iný plameň.",
+            "Pokuty sa určujú v penalty units alebo pevnými sumami, ktoré sa každý rok menia, preto tabuľka uvádza orientáciu, nie presnú sumu."
+          ],
+          "tips": [
+            "Platí aj pre vapovanie",
+            "Sledujte miestne tabule",
+            "Pokuty sa každý rok menia"
+          ],
+          "table": {
+            "caption": "Miesta bez dymu vonku podľa štátu a teritória, podľa zdravotníckych stránok štátov z novembra 2026. Pred spoliehaním sa na údaj si overte aktuálnu stránku štátu.",
+            "head": [
+              "Štát",
+              "Dôležité miesta bez dymu vonku",
+              "Typická pokuta na mieste"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "Komerčné vonkajšie stolovanie, do 4 m od vchodov do verejných budov, zastávok a nástupíšť verejnej dopravy; mnohé samosprávy pridávajú pláže a parky",
+                "$300"
+              ],
+              [
+                "Victoria",
+                "Vonkajšie stolovanie, do 10 m od ihrísk a skateparkov, na športových podujatiach pre osoby do 18 rokov a na jedlových festivaloch",
+                "Asi jedna až dve penalty units, niekoľko stoviek dolárov"
+              ],
+              [
+                "Queensland",
+                "Medzi vlajkami na strážených plážach, do 10 m od stanovísk a zariadení v národných parkoch, 5 m od zastávok verejnej dopravy a 10 m od ihrísk",
+                "Dve penalty units"
+              ],
+              [
+                "South Australia",
+                "Vonkajšie stolovanie, ihriská a prístrešky verejnej dopravy, plus novšie vonkajšie zóny od marca 2024",
+                "$105"
+              ],
+              [
+                "Western Australia",
+                "Vonkajšie jedálne zóny, do 10 m od herných prvkov ihrísk a medzi vlajkami na strážených plážach",
+                "$300 za vonkajšie stolovanie"
+              ],
+              [
+                "Tasmania",
+                "Vonkajšie stolovanie, do 3 m od vchodov, do 10 m od ihrísk, stráženej pláže a vonkajšie podujatia",
+                "Zhruba $350 až $400"
+              ],
+              [
+                "Northern Territory",
+                "Vonkajšie stolovanie bez licencie, verejné podujatia a ich okolie a detské herné zóny",
+                "Určené v penalty units"
+              ],
+              [
+                "Australian Capital Territory",
+                "Vonkajšie jedálne a pitné zóny a do 10 m od herných prvkov",
+                "Určené v penalty units"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Fajčenie v aute s deťmi",
+          "body": [
+            "Každý štát a teritórium zakazuje fajčenie v aute, v ktorom je dieťa, aj keď sú okná dole alebo auto stojí. Vek dieťaťa, ktorý sa rátá, je do 16 rokov v <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a>, Queensland, South Australia, Northern Territory a ACT, do 17 rokov vo Western Australia a do 18 rokov vo Victoria a Tasmania. Platí to aj pre vapovanie.",
+            "V požičanom aute alebo campervane platí rovnaké pravidlo a požičovňa môže navyše účtovať poplatok za vyčistenie od pachu dymu. Ak fajčíte, odíďte od vozidla a najprv nechajte vystúpiť spolucestujúcich."
+          ],
+          "tips": [
+            "Zakázané v každom štáte",
+            "Spustené okná nie sú výhovorka",
+            "Požičané autá účtujú poplatky za čistenie"
+          ]
+        },
+        {
+          "heading": "Zákazy ohňa, ohorky a pokuty",
+          "body": [
+            "V deň <a data-guide=\"campfires-camping-australia\">úplného zákazu ohňa</a> je problémom všetko, čo môže na voľnom priestranstve založiť požiar, a odhodenie zapálenej cigarety je priestupkom v každom štáte. V New South Wales môže horiaci ohorok znamenať pokutu na mieste od asi $660, ktorá sa v deň úplného zákazu ohňa zdvojnásobí na asi $1,320. Na súde je maximum $5,500, alebo $11,000 v deň úplného zákazu ohňa. Vodiči dostanú aj trestné body, 5 bežne a 10 v deň úplného zákazu ohňa.",
+            "Vyhodenie ohorku z auta sa vo Victoria a <a data-guide=\"camping-rules-queensland\">Queensland</a> považuje za nebezpečné znečisťovanie, s pokutami až niekoľko stoviek dolárov na mieste a oveľa viac na súde. Aj ohorok na zemi je odpad. V buši môže založiť požiar, ktorý sa dostane až ku kempu alebo mestu.",
+            "Noste krabičku na ohorky alebo prenosný popolník a nikdy cigaretu neuhaste v suchej tráve ani v opadanom lístí. Niektoré štáty umožňujú nahlásiť ľudí, ktorí hádžu horiace ohorky: v <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> môžete volať na Bush Fire Information Line na čísle 1800 679 737."
+          ],
+          "tips": [
+            "Krabička na ohorky v aute",
+            "Nikdy v suchej tráve",
+            "Nahláste horiace ohorky z áut"
+          ]
+        },
+        {
+          "heading": "Pokuty v skratke a plán pre kempujúceho",
+          "body": [
+            "Zhrnutie: tabak nad limit stojí clo zo všetkého alebo o neho prídete, fajčenie na mieste bez dymu stojí od asi $100 do niekoľko stoviek dolárov a horiaci ohorok vyhodený z vozidla stojí stovky dolárov na mieste a tisíce na súde.",
+            "Na kempovaciu cestu si vyberte miesto s priestorom ďaleko od stanov a suchej trávy, každé ráno si skontrolujte stupeň nebezpečenstva požiaru a po použití držte krabičku na ohorky zatvorenú. Stránky správ parkov a tabule v kempe uvádzajú, kde sa nesmie fajčiť. Mierite aj na Nový Zéland? KiwiCamping pokrýva <a data-sister=\"smoking-vaping-rules-new-zealand\">pravidlá fajčenia a vapovania na Novom Zélande</a>."
+          ],
+          "tips": [
+            "Denne kontrolujte nebezpečenstvo požiaru",
+            "Overte si oblasti bez dymu v parku",
+            "Nikdy neuhasajte v tráve"
+          ]
+        },
+        {
+          "heading": "Plánujte podľa pravidiel v AussieCamps",
+          "body": [
+            "AussieCamps zobrazuje kempy, ktoré zverejňujú správy parkov, s filtrom „Popular features“ pre toalety, pitnú vodu, sprchy a <a data-guide=\"campfires-camping-australia\">ohniská</a>. Filter „Cost“ použite na porovnanie miest zadarmo a platených a pridajte zastávky do cesty s dátumami, poznámkami, počasím a zoznamom „To-do list“, aby ste nezabudli na krabičku na ohorky a doklad.",
+            "Detaily miest, vyhľadávanie a filtre fungujú <a data-guide=\"camping-without-phone-signal\">bez signálu</a>, pretože adresár je priamo v aplikácii. Mapa, navigácia a počasie vyžadujú pripojenie a AussieCamps beží na iPhone."
+          ],
+          "tips": [
+            "Filtrujte podľa ohnísk a vybavenia",
+            "Pridajte krabičku na ohorky do zoznamu úloh",
+            "Len iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Koľko cigariet môžem priniesť do Austrálie?",
+          "Cestujúci od 18 rokov môžu doviezť 25 cigariet alebo 25 g tabakových výrobkov plus jednu otvorenú škatuľku bez cla. Pri škatuľkách po 20 je to v praxi jedna zapečatená škatuľka a tá, ktorú fajčíte. Ak prinesiete viac a nedeklarujete to, môžete byť nútení zaplatiť clo zo všetkého alebo to odovzdať a môžu vám hroziť sankcie alebo trestné stíhanie. Všetko nad limit deklarujte na hranici."
+        ],
+        [
+          "Môžem priniesť vape do Austrálie?",
+          "Len v malých množstvách a len na vlastnú liečbu alebo liečbu osoby, o ktorú sa staráte a ktorá cestuje s vami. Limit sú 2 vapy, 20 doplnkov, ako sú náplne alebo kartridže, a 200 mL tekutiny do vapu. Vapy vám nemožno poslať poštou a v Austrálii ich nekúpite v obchode."
+        ],
+        [
+          "Aký je v Austrálii vek na fajčenie?",
+          "Na kúpu tabaku alebo vapov kdekoľvek v Austrálii musíte mať 18 rokov a obchody môžu žiadať fotografický doklad. Turistov sa pýtajú rovnako ako miestnych, preto majte pri sebe pas alebo vodičský preukaz."
+        ],
+        [
+          "Môžem v Austrálii fajčiť v kempe?",
+          "Zvyčajne áno na vlastnom mieste, ale nie všade. V národných parkoch v Queensland je fajčenie a vapovanie zakázané do 10 m od stanovísk a zariadení, ako sú toalety a piknikové stoly. V deň úplného zákazu ohňa alebo v suchom buši je najbezpečnejšie nefajčiť vonku vôbec."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Australian Border Force: bezcolné úľavy"
+        },
+        {
+          "label": "Office of Drug Control: vapy a výnimka pre cestujúcich"
+        },
+        {
+          "label": "TGA: informácie o vapoch pre pacientov a spotrebiteľov"
+        },
+        {
+          "label": "Queensland Government: zákony o fajčení v Queensland"
+        },
+        {
+          "label": "NSW Health: zákony o vonkajšom stolovaní bez dymu"
+        },
+        {
+          "label": "Victorian Government: rady o fajčení a vapovaní pre rodičov"
+        },
+        {
+          "label": "NSW Rural Fire Service: nové a zvýšené pokuty"
+        }
+      ],
+      "priceTable": null
+    },
+    "where-to-buy-cigarettes-vapes-australia": {
+      "title": "Kde kúpiť cigarety a vapy v Austrálii (2027)",
+      "description": "Cigarety sa predávajú pri pultoch supermarketov, v servo a u predajcov tabaku; vapy len v lekárňach. Kde nakupovať, pravidlá preukazovania totožnosti a čo čakať vo vnútrozemí.",
+      "region": "Austrália",
+      "imageAlt": "Nullarbor Roadhouse v South Australia, s road trainom a kempervanom zaparkovanými pri čerpadlách a obchode",
+      "intro": "Cigarety sa predávajú pri pultoch supermarketov, na čerpacích staniciach, v obchodoch s potravinami a u predajcov tabaku a na ich kúpu musíte mať 18 rokov. Vapy sú iné: od 1. júla 2024 ich smú predávať len lekárne a dospelí môžu nikotínové vapy do 20 mg/mL kúpiť od lekárnika bez receptu. Na vidieku sa výber zúži na roadhouse alebo zmiešaný obchod, zvyčajne s menším počtom značiek a vyššími cenami, preto si zásoby doplňte vo väčšom meste pred odľahlým úsekom. Ceny rastú každý rok, preto sa pozrite do regálu a nespoliehajte sa na číslo z minulého roka.",
+      "sections": [
+        {
+          "heading": "Kde kúpiť, v skratke",
+          "body": [
+            "Cigarety nájdete v každom meste primeranej veľkosti a typ obchodu určuje sortiment aj cenu. Vapy sú osobitný prípad a dostanete ich len v lekárni.",
+            "Čo obchody držia, sa mení od reťazca k reťazcu a z roka na rok, preto berte tabuľku ako obvyklý vzorec, nie sľub pre každý obchod."
+          ],
+          "tips": [
+            "Cigarety: veľa obchodov",
+            "Vapy: len lekárne",
+            "Sortiment sa vo vnútrozemí zmenšuje"
+          ],
+          "table": {
+            "caption": "Kde cestujúci obvykle kupujú tabak a vapy v Austrálii, november 2026. Zásoby a ceny sa líšia podľa obchodu.",
+            "head": [
+              "Kde",
+              "Čo predávajú",
+              "Poznámky"
+            ],
+            "rows": [
+              [
+                "Supermarkety",
+                "Cigarety a tabak na motanie; žiadne vapy",
+                "Coles, Woolworths a IGA ho predávajú pri obslužnom pulte alebo v kiosku; Aldi tabak nepredáva"
+              ],
+              [
+                "Čerpacie stanice a obchody s potravinami",
+                "Cigarety a tabak na motanie; žiadne vapy",
+                "Otvorené dlho a všade, ale často najdrahšia možnosť"
+              ],
+              [
+                "Predajcovia tabaku",
+                "Najširší sortiment cigariet a tabaku; žiadne vapy",
+                "Špecializované obchody, najlepšie pre menej bežné značky"
+              ],
+              [
+                "Bottle shopy a puby",
+                "Cigarety v niektorých",
+                "Nie všetky ich majú, preto sa najprv opýtajte"
+              ],
+              [
+                "Lekárne",
+                "Nikotínové vapy do 20 mg/mL, po rozhovore s lekárnikom",
+                "Jediné legálne miesto pre vapy; obmedzené príchute; nie každá lekáreň ich má"
+              ],
+              [
+                "Roadhouse a odľahlé obchody",
+                "Niekoľko značiek cigariet, niekedy tabak",
+                "Vyššie ceny, kratšie otváracie hodiny, žiadne vapy"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Supermarkety a bottle shopy",
+          "body": [
+            "Coles, Woolworths a IGA predávajú cigarety, ale na regáli ich neuvidíte. Zákazy vystavovania znamenajú, že škatuľky sú v uzavretých skrinkách, takže sa pýtate pri obslužnom pulte alebo v kiosku a pomenujete značku. Reťazce supermarketov tabak obmedzujú a niektoré ich predajne alkoholu ho prestali predávať, takže to, čo majú, sa líši podľa predajne. Aldi tabak nepredáva vôbec.",
+            "Niektoré bottle shopy a bottle shopy pri pubach cigarety predávajú a niektoré nie, preto sa opýtajte, než sa na ne spoľahnete. Pult v supermarkete je pohodlná voľba pri väčšom nákupe, pretože ceny sú zvyčajne v súlade so zvyškom mesta a už ste tam."
+          ],
+          "tips": [
+            "Pýtajte sa pri obslužnom pulte",
+            "Aldi tabak nepredáva",
+            "V bottle shopoch sa najprv opýtajte"
+          ]
+        },
+        {
+          "heading": "Čerpacie stanice a obchody s potravinami",
+          "body": [
+            "Servo od Ampol, BP, 7-Eleven a nezávislých cigarety takmer vždy predávajú, zvyčajne pri pulte za pokladňou, a mnohé majú otvorené dlho do noci alebo nonstop. To z nich robí najjednoduchšiu možnosť, keď do mesta dorazíte po zatvorení supermarketov.",
+            "Cenou za pohodlie je vyššia cena. Servo je často najdrahším miestom v meste na kúpu škatuľky, takže ak kupujete zásobu na niekoľko týždňov, pult v supermarkete alebo predajca tabaku zvyčajne vyjde lacnejšie. Sprievodca <a data-guide=\"cigarette-prices-australia\">cenami cigariet</a> uvádza bežné rozpätia pre škatuľku a vrecko."
+          ],
+          "tips": [
+            "Otvorené dlho, často najdrahšie",
+            "Dobré na núdzovú škatuľku",
+            "V supermarkete lacnejšie"
+          ]
+        },
+        {
+          "heading": "Predajcovia tabaku a nelegálne obchody",
+          "body": [
+            "Predajcovia tabaku sú špecializované obchody s najširším sortimentom cigariet a tabaku na motanie a môžu objednať alebo odporučiť značky, ktoré supermarkety nemajú. Viaceré štáty teraz vyžadujú, aby mal obchod licenciu na maloobchodný predaj tabaku, a vo <a data-guide=\"camping-rules-victoria\">Victoria</a> sa pravidlo o licencii vymáha od 1. februára 2026. Číslo licencie alebo certifikát je v obchode často vystavený.",
+            "Dávajte pozor na obchody, ktoré predávajú veľmi lacné cigarety alebo vapy. Nelegálny, nezdanený tabak a vapy sa v niektorých obchodoch predávajú a ich predaj aj kúpa sú proti zákonu. Môžu byť zhabané a kupujúcim hrozia pokuty, ktoré sa líšia podľa štátu. Legálne cigarety sú v jednotných olivovohnedých škatuľkách s veľkými obrázkovými zdravotnými upozorneniami v angličtine, takže pestrá alebo cudzie vyzerajúca škatuľka, chýbajúce anglické upozornenie alebo cena hlboko pod obvyklým rozpätím sú varovným signálom."
+          ],
+          "tips": [
+            "Najširší výber značiek",
+            "Jednotné škatuľky, anglické upozornenia",
+            "Veľmi lacné zvyčajne znamená nelegálne"
+          ]
+        },
+        {
+          "heading": "Doklady a vekové pravidlá",
+          "body": [
+            "Na kúpu cigariet, tabaku na motanie alebo vapu kdekoľvek v Austrálii musíte mať 18 rokov a predavač vás môže odmietnuť obslúžiť bez dokladu o veku. Mnohé obchody žiadajú doklad od každého, kto vyzerá na menej ako 25, preto s tým počítajte a neberte to osobne.",
+            "Noste pas alebo austrálsky vodičský preukaz, alebo preukaz z vašej krajiny, ak obsahuje fotografiu a dátum narodenia. O tom, čo prijmú, rozhoduje personál, preto majte pri sebe originál, nie fotokópiu. Sprievodca <a data-guide=\"smoking-vaping-rules-australia\">pravidlami fajčenia a vapovania</a> uvádza miesta, kde sa fajčiť nesmie."
+          ],
+          "tips": [
+            "Len od 18 rokov",
+            "Často sa pýtajú, ak vyzeráte na menej ako 25",
+            "Noste originál dokladu s fotografiou"
+          ]
+        },
+        {
+          "heading": "Nákup vapu",
+          "body": [
+            "Vapy smú predávať len lekárne. Predajcovia tabaku, vape shopy a obchody s potravinami ich predávať nesmú, či už obsahujú nikotín, alebo nie, a jednorazové vapy sú zakázané. Obchod, ktorý ich predáva cez pult, porušuje zákon.",
+            "Dospelí môžu kúpiť nikotínový vape do 20 mg/mL od lekárnika bez receptu, po krátkom rozhovore, tam, kde to zákony štátu a teritória dovoľujú. Vyššie koncentrácie vyžadujú recept. Príchute sú obmedzené na bez príchute, mätu, mentol a tabak. Nie každá lekáreň vapy má, preto zavolajte vopred alebo sa opýtajte vo väčšej."
+          ],
+          "tips": [
+            "Len lekárne",
+            "Žiadne jednorazové",
+            "Mäta, mentol, tabak"
+          ]
+        },
+        {
+          "heading": "Vo vnútrozemí a na odľahlých cestách",
+          "body": [
+            "Roadhouse a odľahlé zmiešané obchody zvyčajne cigarety predávajú, ale sortiment môže byť len niekoľko značiek a cena je vyššia než v meste. Tabak na motanie môže byť obmedzený a ak obchodu dôjde, ďalší môže byť stovky kilometrov ďaleko. Niektoré odľahlé komunity si určujú vlastné pravidlá, čo smú obchody predávať, preto sa opýtajte, než sa spoliehate na komunitný obchod, a dodržiavajte tabule o obmedzeniach.",
+            "Lekárne sú mimo väčších miest vzácne, takže ak vapujete, kúpte si pred odchodom. Väčšina roadhouse berie karty, ale výpadky sa stávajú a otváracie hodiny sú kratšie, často sa zatvára skoro večer, preto majte trochu hotovosti a nakupujte pred zotmením. Zopár náhradných škatuliek na dlhý úsek je lacnejších než doplnenie v roadhouse."
+          ],
+          "tips": [
+            "Kupujte pred odľahlými úsekmi",
+            "Vapujúci: plánujte podľa lekární",
+            "Majte pri sebe trochu hotovosti"
+          ]
+        },
+        {
+          "heading": "Na ceste a v kempe",
+          "body": [
+            "Teplo je na tabak a vapy ťažké. Nenechávajte škatuľky, vrecká ani vape v horúcom aute alebo zatvorenom kempervane, kde môžu vyschnúť alebo sa pokaziť, a vape držte mimo priameho slnka. Lepšia je taška na tienistom mieste alebo priehradka v chladiacom boxe.",
+            "Fajčite mimo kempu a stanov a skontrolujte stupeň nebezpečenstva požiaru. Pri <a data-guide=\"campfires-camping-australia\">úplnom zákaze ohňa</a> je zapálená cigareta skutočné riziko a niektoré kempy, pláže a národné parky sú bez dymu. Každý ohorok úplne uhaste a vezmite so sebou, nikdy ho nenechávajte na zemi. Mierite aj na Nový Zéland? KiwiCamping pokrýva <a data-sister=\"where-to-buy-cigarettes-vapes-new-zealand\">kde kúpiť cigarety a vapy na Novom Zélande</a>."
+          ],
+          "tips": [
+            "Nenechávajte v horúcich autách",
+            "Skontrolujte stupeň nebezpečenstva požiaru",
+            "Ohorky odneste so sebou"
+          ]
+        },
+        {
+          "heading": "Naplánujte zastávky na doplnenie zásob v AussieCamps",
+          "body": [
+            "AussieCamps vám umožňuje pridať každú zastávku do cesty s dátumami a poznámkami a trasa jazdy ukazuje vzdialenosť a čas každého úseku. Vďaka tomu ľahko uvidíte posledné väčšie mesto pred odľahlým úsekom a poznačíte si ho ako miesto na doplnenie zásob.",
+            "Detaily miest, vyhľadávanie a filtre fungujú bez signálu, takže môžete skontrolovať vybavenie kempu, ako je pitná voda, toalety a <a data-guide=\"campfires-camping-australia\">ohniská</a>, aj mimo dosahu. AussieCamps beží na iPhone."
+          ],
+          "tips": [
+            "Pozrite si vzdialenosť každého úseku",
+            "Poznačte si mestá na doplnenie zásob",
+            "Len iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kde môžem v Austrálii kúpiť cigarety?",
+          "V supermarketoch ako Coles, Woolworths a IGA, na čerpacích staniciach a v obchodoch s potravinami a u predajcov tabaku, ktorí majú najširší sortiment. Aldi tabak nepredáva. V supermarketoch sú cigarety mimo dohľadu a pýtate sa pri obslužnom pulte."
+        ],
+        [
+          "Kde môžem v Austrálii kúpiť vape?",
+          "Len v lekárni. Od 1. júla 2024 vapy nesmú predávať predajcovia tabaku, vape shopy ani obchody s potravinami a jednorazové vapy sú zakázané. Dospelí môžu kúpiť nikotínové vapy do 20 mg/mL od lekárnika bez receptu, po krátkom rozhovore, ale nie každá lekáreň ich má."
+        ],
+        [
+          "Potrebujem na kúpu cigariet v Austrálii doklad?",
+          "Musíte mať 18 rokov a personál môže žiadať doklad o veku. Noste pas alebo austrálsky vodičský preukaz, pretože fotokópia alebo fotografia v telefóne nemusí byť prijatá. Obchody bežne žiadajú doklad od každého, kto vyzerá na menej ako 25."
+        ],
+        [
+          "Môžem kúpiť cigarety vo vnútrozemí?",
+          "Zvyčajne áno v roadhouse a zmiešaných obchodoch, ale s malým výberom značiek a za vyššie ceny. Niektoré odľahlé komunitné obchody majú vlastné pravidlá, čo predávajú, a lekárne sú vzácne, preto si pred odľahlým úsekom kúpte, čo potrebujete, vo väčšom meste."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Department of Health: o vapovaní"
+        },
+        {
+          "label": "Department of Health: zmeny vo vapovaní v Austrálii od 1. júla"
+        },
+        {
+          "label": "Therapeutic Goods Administration: reformy regulácie vapov"
+        },
+        {
+          "label": "Therapeutic Goods Administration: informácie o nikotínových vapovacích produktoch pre spotrebiteľov"
+        },
+        {
+          "label": "Victorian Government: licencovanie tabaku"
+        },
+        {
+          "label": "Department of Health: zmeny tabakových výrobkov v Austrálii"
         }
       ],
       "priceTable": null

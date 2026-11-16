@@ -8102,145 +8102,309 @@
       }
     },
     "alcohol-coffee-drink-prices-australia": {
-      "title": "Cene piva in kave v Avstraliji 2027: pivo v pubu od $7 do $16",
-      "description": "Pivo v pubu stane od $7 do $16, kapučino od $4.50 do $8 v Sydneyju (oktober 2026). Na standardno pijačo je pivo v pubu od $4 do $9, vino iz trgovine od $1.60 do $4.",
+      "title": "Koliko stane pivo v Avstraliji? Cene v pubih in trgovinah (2027)",
+      "description": "Schooner v pubu stane od $8 do $13, pint od $12 do $18 v avstralskih mestih (november 2026). Zaboj 24 piv stane od $55 do $72. Cene po mestih, imena kozarcev, happy hour.",
       "region": "Avstralija",
       "imageAlt": "Avstralske kavarniške pijače na mizi",
-      "intro": "Točeno pivo 500 ml v pubu v Sydneyju stane okoli $7 do $16, kapučino pa $4.50 do $8, po skupnostnih podatkih o cenah, posodobljenih oktobra 2026, steklenica piva 500 ml iz specializirane trgovine pa po državi stane okoli $3.50 do $12. Na standardno pijačo to pomeni okoli $4 do $9 v pubu, $2 do $7 za pivo iz trgovine in $1.60 do $4 za steklenico vina srednjega razreda, zato so pijače, kupljene za v kamp, najboljša vrednost.",
+      "intro": "Schooner piva (425 ml) v pubu v avstralskem mestu novembra 2026 stane okoli $8 do $13, pint (570 ml) pa okoli $12 do $18. Perth in podeželski pubi so na ugodnem koncu, notranji Sydney in Melbourne pa sta najdražja. V bottle shopu šestpak običajnega piva stane okoli $20 do $28, zaboj 24 piv (slab) pa okoli $55 do $72, kar je na pivo manj kot polovica cene v pubu, zato je pijača, kupljena za v kamp, daleč najugodnejša.",
       "sections": [
         {
-          "heading": "Cene v trgovini in v lokalu so različni izdelki",
+          "heading": "Cene piva po mestih",
           "body": [
-            "Cena v pubu vključuje lokal, osebje in postrežbo, ne samo tekočine. Primerjaj primerljivo s primerljivim in ne predstavljaj ustreznika iz trgovine kot cene natočene pijače. Standardne pijače naredijo primerjavo pošteno: Healthy WA navaja, da je ena standardna pijača 10 gramov alkohola, kolikor ga je v 285 ml piva običajne jakosti ali 100 ml vina, zato je pivo 500 ml približno 1.75 standardne pijače, steklenica vina 750 ml pa približno 7.5.",
-            "Srečne ure in akcije so začasne. Proračun sestavi iz običajnega razpona, popust pa obravnavaj kot rezervo."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Vino v trgovini in v baru",
-          "body": [
-            "Steklenica vina 750 ml srednjega razreda stane v trgovini okoli $12 do $30 in natoči približno pet kozarcev po 150 ml. Naročeno na kozarec v baru ali restavraciji isto vino običajno stane precej več na porcijo, zato je vino najcenejše, ko si steklenico deliš v kampu.",
-            "Nekatere restavracije, večinoma tiste brez dovoljenja za točenje alkohola, dovolijo, da prineseš svojo steklenico za pristojbino za odmaševanje, kar ceno iz trgovine spremeni v vino za večerjo. Vprašaj o tem ob rezervaciji, ne šele za mizo."
+            "Tabela prikazuje tipične cene običajnega piva, kot je lokalni lager ali pale ale. Cena v pubu je močno odvisna od lokala: predmestni pub ali klub natoči ceneje kot bar na strehi ali hotel ob pristanišču, craft pivo pa običajno doda $2 do $4 na kozarec.",
+            "Cene v bottle shopih se med mesti manj razlikujejo, ker je večina cene trošarina (excise), zvezni davek na alkohol, ki je povsod enak. Darwin in outback plačujeta več za prevoz, bottle shopi v <a data-guide=\"camping-rules-northern-territory\">Northern Territory</a> pa imajo dodatna pravila glede ur in osebnega dokumenta.",
+            "Pričakujte, da bodo cene še naprej rahlo rasle. Trošarina na pakirano pivo se zaradi inflacije dvigne vsak februar in avgust, zato cene v bottle shopih čez 2027 rastejo, davek na točeno pivo pa je zamrznjen do avgusta 2027, kar ohranja cene v pubih bolj stabilne."
           ],
           "tips": [
-            "Steklenica srednjega razreda: $12 do $30",
-            "Okoli pet kozarcev iz steklenice",
-            "Ob rezervaciji vprašaj za BYO"
+            "Perth: najcenejši pinti med prestolnicami",
+            "Sydney in Melbourne: najdražja",
+            "Podeželski pubi: pogosto najcenejši"
+          ],
+          "table": {
+            "caption": "Tipične cene običajnega piva novembra 2026. Schooner je 425 ml, pint 570 ml; v Adelaidu se kozarcu 425 ml reče pint.",
+            "head": [
+              "Mesto",
+              "Schooner v pubu (425 ml)",
+              "Pint v pubu (570 ml)",
+              "Šestpak (bottle shop)",
+              "Zaboj 24 (bottle shop)"
+            ],
+            "rows": [
+              [
+                "Sydney",
+                "$9 do $13",
+                "$13 do $18",
+                "$21 do $28",
+                "$57 do $72"
+              ],
+              [
+                "Melbourne",
+                "$9.50 do $14",
+                "$14 do $18.50",
+                "$21 do $28",
+                "$57 do $72"
+              ],
+              [
+                "Brisbane",
+                "$9 do $13",
+                "$12 do $17",
+                "$21 do $28",
+                "$57 do $72"
+              ],
+              [
+                "Perth",
+                "$8 do $12",
+                "$9 do $15",
+                "$21 do $28",
+                "$58 do $72"
+              ],
+              [
+                "Adelaide",
+                "$8.50 do $12",
+                "$12 do $16",
+                "$20 do $27",
+                "$55 do $70"
+              ],
+              [
+                "Hobart",
+                "$9 do $12",
+                "$12 do $16",
+                "$21 do $28",
+                "$58 do $72"
+              ],
+              [
+                "Darwin",
+                "$9 do $13",
+                "$13 do $18",
+                "$23 do $30",
+                "$62 do $80"
+              ],
+              [
+                "Canberra",
+                "$9 do $12",
+                "$12 do $17",
+                "$21 do $28",
+                "$57 do $72"
+              ],
+              [
+                "Podeželski pubi",
+                "$7 do $10",
+                "$10 do $14",
+                "$22 do $32",
+                "$60 do $85"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Imena in velikosti kozarcev po zveznih državah",
+          "body": [
+            "Avstralski pivski kozarci spreminjajo imena na mejah zveznih držav, ista beseda pa lahko pomeni drug kozarec. Če v Sydneyju naročite schooner, dobite 425 ml; v Adelaidu dobite 285 ml, saj prebivalci Južne Avstralije kozarcu 425 ml pravijo pint, kozarcu 570 ml pa imperial pint.",
+            "Če ste v dvomih, povejte velikost kar z navadnimi besedami ali preprosto rečite majhno, srednje ali veliko. Osebje je navajeno obiskovalcev, cenik na steni pa običajno navaja imena kozarcev."
+          ],
+          "tips": [
+            "Schooner pomeni 285 ml v SA",
+            "Naročite majhno, srednje ali veliko",
+            "Vrč je okoli 1,1 litra"
+          ],
+          "table": {
+            "caption": "Običajna imena kozarcev za točeno pivo po zveznih državah in teritorijih. Imena se med pubi razlikujejo, zlasti za kozarec 285 ml.",
+            "head": [
+              "Zvezna država ali teritorij",
+              "285 ml",
+              "425 ml",
+              "570 ml"
+            ],
+            "rows": [
+              [
+                "New South Wales in ACT",
+                "Middy",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Victoria",
+                "Pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Queensland",
+                "Pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "South Australia",
+                "Schooner",
+                "Pint",
+                "Imperial pint"
+              ],
+              [
+                "Western Australia",
+                "Middy",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Tasmania",
+                "Ten ali pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Northern Territory",
+                "Handle ali middy",
+                "Schooner",
+                "Pint"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Trgovinske in lokalske cene sta različna izdelka",
+          "body": [
+            "Cena v pubu vključuje lokal, osebje in postrežbo, ne le tekočine. Primerjajte primerljivo in cene iz bottle shopa ne predstavljajte kot cene natočene pijače. Standardne pijače naredijo primerjavo poštveno: Healthy WA navaja, da je ena standardna pijača 10 gramov alkohola, kolikor ga je v 285 ml polnega piva ali 100 ml vina, zato je pivo 500 ml približno 1,75 standardne pijače, steklenica vina 750 ml pa okoli 7,5.",
+            "Na standardno pijačo pivo v pubu stane okoli $4 do $9, zaboj iz bottle shopa okoli $1.60 do $2.20, steklenica vina srednjega razreda pa okoli $1.60 do $4. Pivo z manj alkohola (mid-strength), ki ga skoraj povsod točijo, vsebuje približno četrtino manj alkohola za skoraj enako ceno."
+          ],
+          "tips": [
+            "285 ml polnega piva: ena standardna pijača",
+            "Pivo iz zaboja: okoli $2 na standardno pijačo",
+            "Mid-strength stane približno enako"
           ]
         },
         {
-          "heading": "Nadzoruj tihi dnevni znesek",
+          "heading": "Happy hour in najcenejši načini pitja",
           "body": [
-            "Dve kavi in dve pijači v lokalu na dan lahko na teden naraste v precejšen znesek. Odloči se, kateri postanki so pomembni, namesto da kupuješ iz navade.",
-            "Ohrani <a data-guide=\"camping-water-planning\">pitno vodo</a> dostopno in jo dopolni samo iz pipe s pitno vodo. V vročini sta hidracija in senca del načrta varnosti, ne proračuna za zabavo."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Kava je dnevna postavka",
-          "body": [
-            "Avstralska kavna kultura je močna in raven v regionalnih mestih je resnično visoka, prav zato postane proračunska postavka. Dva flat whita na dan za dve osebi se seštejeta, ne da bi se kdaj zdela odločitev.",
-            "Kavni kuhalnik na štedilnik ali AeroPress v kombiju pokrije jutranjo skodelico za delček cene iz kavarne in pustita postanek v kavarni kot nekaj izbranega, ne samodejnega.",
-            "Kava na postajah ob cesti je na dolgih vožnjah v najboljšem primeru različna. Na poteh po outbacku je lastna priprava običajno cenejša in precej boljša."
+            "Mnogi pubi imajo happy hour ob delavniških popoldnevih, pogosto od približno 16. do 18. ure, s schooneri za okoli $6 do $9. Nekateri dodajo poceni vrče, pivo ob obroku ali večer zrezka in schoonerja. Imejte to za bonus, ne za osnovo proračuna: ponudbe se pogosto spreminjajo in veliko jih velja samo ob delavnikih.",
+            "Klubi, kot so RSL, bowls klubi in surf klubi, običajno natočijo ceneje kot pubi, obiskovalci pa so dobrodošli: pri vratih se vpišete s slikovnim osebnim dokumentom in postanete začasni član za ta dan.",
+            "Najcenejša pijača je zaboj ali vrečasto vino (cask) iz bottle shopa, ohlajeno v hladilniku v kombiju ali v esky hladilni torbi in popito v kampu. Najprej preverite pravila kampa, saj nekatera območja nacionalnih parkov in občin ter številne plaže in parki v mestih alkohol prepovedujejo ali omejujejo ob določenih urah."
           ],
           "tips": [
-            "Dve skodelici na dan se hitro seštejeta",
-            "Jutranjo skodelico pripravi sam",
-            "Kava ob cesti je različna"
+            "Happy hour ob delavnikih: okoli 16. do 18. ure",
+            "Klubi sprejmejo obiskovalce z osebnim dokumentom",
+            "Preverite pravila o alkoholu v kampu"
           ]
         },
         {
           "heading": "Nakup alkohola v Avstraliji",
           "body": [
-            "Pakiran alkohol se večinoma prodaja v specializiranih trgovinah z dovoljenjem, pogosto ob supermarketu, a ločeno, čeprav Aldi in nekateri neodvisni trgovci prodajajo alkohol tudi v trgovini. Obratovalni čas je reguliran in se razlikuje po zveznih državah.",
+            "Pakiran alkohol večinoma prodajajo licencirani bottle shopi, pogosto ob supermarketu, a ločeno poslujoči, čeprav ga Aldi in nekatere neodvisne trgovine prodajajo kar v trgovini. Delovni čas je urejen in se razlikuje po zveznih državah. Za nakup alkohola morate biti stari 18 let, osebje pa vsakega, ki je videti mlajši od 25 let, vpraša po slikovnem osebnem dokumentu: potnem listu ali vozniškem dovoljenju.",
             "Omejitve alkohola veljajo v številnih skupnostih in regijah, zlasti v Northern Territory, delih <a data-guide=\"camping-rules-queensland\">Queenslanda</a>, Western Australia in South Australia. Prenašanje alkohola na omejeno območje prinaša visoke kazni.",
-            "Preveri, preden z alkoholom potuješ v odročna območja. Omejitve se zakonsko uveljavljajo, veljajo za obiskovalce enako kot za prebivalce, neznanje pa ni opravičilo."
+            "Pred potovanjem z alkoholom v odročna območja se pozanimajte. Omejitve se zakonsko izvajajo, veljajo za obiskovalce enako kot za prebivalce, nepoznavanje pa ni opravičilo."
           ],
           "tips": [
-            "Večinoma specializirane trgovine, nekaj supermarketov",
-            "Omejena območja prinašajo visoke kazni",
-            "Preveri, preden vstopiš v odročne regije"
+            "Večinoma bottle shopi, nekaj supermarketov",
+            "Vzemite s seboj slikovni dokument",
+            "Preverite pred vstopom v odročne regije"
           ]
         },
         {
-          "heading": "Pitje in dan vožnje",
+          "heading": "Pitje in dan za volanom",
           "body": [
-            "Splošna meja je 0.05 za imetnike polnega dovoljenja, nič za učence in voznike s provizoričnim dovoljenjem ter nič ali 0.02 za mnoge poklicne voznike glede na državo (0.02 v NSW). Naključno testiranje dihanja je pogosto, tudi na podeželskih cestah in podnevi.",
-            "Na poti je edini varen pristop popolna ločitev pitja in vožnje: ostani tam, kjer piješ, uporabi določenega voznika ali pij, ko je vozilo parkirano za noč.",
-            "Vožnja naslednje jutro ljudi ujame nepripravljene. Telo potrebuje vsaj uro za vsako standardno pijačo, pogosto dlje, kava ali prha pa tega ne pospešita, zato lahko težak večer pusti nad mejo še pozno v naslednje jutro."
+            "Splošna meja je 0,05 za polne voznike, nič za učence in voznike s provizorično licenco ter nič ali 0,02 za mnoge poklicne voznike glede na državo (0,02 v NSW). Naključno preizkušanje alkoholiziranosti je pogosto, tudi na podeželskih cestah in podnevi.",
+            "Na potovanju z avtom je edini varen pristop, da pitje in vožnjo popolnoma ločite: ostanite tam, kjer pijete, uporabite voznika, ki ne pije, ali pijte šele, ko je vozilo parkirano za noč.",
+            "Vožnja naslednje jutro ljudi pogosto preseneti. Telo potrebuje vsaj uro za razgradnjo vsake standardne pijače, pogosto dlje, kava ali prha pa tega ne pospešita, zato lahko po obilnem večeru še pozno naslednje jutro presegate mejo."
           ],
           "tips": [
-            "0.05 splošno, nič za učence in provizorične",
-            "Naključno testiranje je pogosto in podnevi",
-            "Vožnja naslednje jutro je past"
+            "0,05 splošno, nič za učence in provizorične",
+            "Naključno preizkušanje je pogosto in tudi podnevi",
+            "Past je vožnja naslednje jutro"
           ]
         },
         {
-          "heading": "Voda je tista, ki jo je treba pravilno urediti",
+          "heading": "Vino v bottle shopu in v baru",
           "body": [
-            "Voda iz pipe je varna in dobra v skoraj vseh avstralskih mestih, nakup vode v plastenkah pa je blizu čiste zapravljenosti. Nosi večkratno uporabne steklenice in jih napolni na vsaki pipi s pitno vodo v mestu, kampu ali javnem objektu.",
-            "V odročnih krajih in grmičevju je ravno obratno: voda iz vrtin je lahko mineralizirana ali neprimerna, voda iz rezervoarjev je neobdelana, površinska voda na kmetijskih območjih pa lahko vsebuje kemično onesnaženje. Obdelaj vse, kar ni označena mestna oskrba s pitno vodo.",
-            "Nosi dobro izolirano steklenico, da je v vročini vedno pri roki hladna voda; polnjenje ne stane nič."
+            "Steklenica vina srednjega razreda (750 ml) stane v bottle shopu okoli $12 do $29 in napolni približno pet kozarcev po 150 ml. Isto vino na kozarec v baru ali restavraciji običajno stane $10 do $16 na kozarec, zato je vino najcenejše, če steklenico delite v kampu.",
+            "Nekatere restavracije, večinoma brez licence za alkohol, dovolijo, da prinesete svojo steklenico proti plačilu pristojbine za odpiranje (corkage), s čimer cena iz bottle shopa postane večerno vino. Vprašajte o tem ob rezervaciji, ne šele za mizo."
           ],
           "tips": [
-            "Voda iz pipe v mestih je varna",
-            "Voda iz vrtin je pogosto neprimerna",
-            "Obdelaj vodo iz rezervoarjev in površinsko vodo"
+            "Steklenica srednjega razreda: $12 do $29",
+            "Okoli pet kozarcev na steklenico",
+            "Ob rezervaciji vprašajte o BYO"
+          ]
+        },
+        {
+          "heading": "Kava je dnevni strošek",
+          "body": [
+            "Navaden cappuccino ali flat white stane okoli $4 do $8, kavarne v središčih mest pa so na vrhu razpona. Avstralska kavna kultura je močna in standard v regionalnih mestih je resnično visok, zato prav kava postane proračunska postavka: dve kavi na dan za dva človeka se seštejeta, ne da bi se kdaj zdela odločitev.",
+            "Kuhalnik za na štedilnik ali AeroPress v kombiju pokrije jutranjo skodelico za delček cene v kavarni, kavarniški postanek pa postane izbira, ne navada. Kava v roadhouse postajah na dolgih vožnjah po outbacku je spremenljiva, zato je lastna kava običajno cenejša in boljša.",
+            "Voda iz pipe je varna in dobra v skoraj vseh avstralskih mestih in krajih, zato nosite večkratne steklenice namesto nakupa vode. V divjini pred pitjem prekuhajte ali prečistite vodo iz vrtin, rezervoarjev in potokov. Potujete tudi na Novo Zelandijo? KiwiCamping pokriva <a data-sister=\"beer-wine-coffee-prices-new-zealand\">koliko stanejo pivo, vino in kava na Novi Zelandiji</a>."
+          ],
+          "tips": [
+            "Cappuccino: $4 do $8",
+            "Jutranjo kavo skuhajte sami",
+            "Voda iz pipe v mestih je varna"
           ]
         }
       ],
       "faq": [
         [
           "Koliko stane pivo v Avstraliji?",
-          "Točeno pivo 500 ml v pubu v Sydneyju stane okoli $7.15 do $16 po skupnostnih podatkih o cenah iz oktobra 2026, steklenica 500 ml iz specializirane trgovine pa po državi okoli $3.50 do $12. Nakup v trgovini namesto v baru je eden največjih prihrankov na dolgi poti."
+          "Schooner (425 ml) običajnega piva v mestnem pubu novembra 2026 stane okoli $8 do $13, pint (570 ml) pa okoli $12 do $18. V bottle shopu šestpak stane okoli $20 do $28, zaboj 24 piv pa okoli $55 do $72, kar je manj kot polovica cene v pubu na pivo."
+        ],
+        [
+          "Koliko stane pint v Avstraliji?",
+          "Okoli $12 do $18 za 570 ml običajnega piva v mestnem pubu, pri čemer so Perth in podeželski pubi na ugodnem koncu, notranji Melbourne in Sydney pa na vrhu. V South Australia je pint kozarec 425 ml, ki stane okoli $8.50 do $12; za 570 ml zahtevajte imperial pint."
+        ],
+        [
+          "Kje je pivo v Avstraliji najcenejše?",
+          "Perth in podeželski pubi točijo najcenejše pivo, klubi, kot so RSL in bowls klubi, pa so običajno cenejši od pubov; obiskovalci se vpišejo s slikovnim dokumentom. Happy hour ob delavnikih spusti schoonerje na okoli $6 do $9, a zaboj iz bottle shopa, okoli $2 na standardno pijačo, je najcenejši."
         ],
         [
           "Koliko stane kava v Avstraliji?",
-          "Navaden kapučino stane okoli $4.50 do $8 v Sydneyju in $4 do $8 po državi po skupnostnih podatkih o cenah iz oktobra 2026, kavarne v središčih mest pa so pogosto na vrhu razpona. Dve kavi na dan za dve osebi postaneta prava proračunska postavka na dolgi poti."
+          "Navaden cappuccino ali flat white stane okoli $4 do $8, kavarne v središčih mest so pogosto na vrhu razpona. Dve kavi na dan za dva človeka postaneta resna proračunska postavka na dolgem potovanju, zato jutranjo skodelico mnogi kamperji skuhajo sami."
         ]
       ],
       "sources": [
         {
-          "label": "Numbeo: cene pijač v Sydneyju"
+          "label": "Numbeo, cene pijač v Avstraliji, posodobljeno novembra 2026"
         },
         {
-          "label": "Numbeo: maloprodajni razponi po Avstraliji"
+          "label": "Australian Taxation Office: stopnje trošarine na alkohol"
+        },
+        {
+          "label": "Healthy WA: kaj je standardna pijača"
         },
         {
           "label": "NSW: smernice o alkoholu in vožnji"
         },
         {
-          "label": "NHMRC: kako dolgo traja, da se alkohol izloči"
+          "label": "NHMRC: kako dolgo traja razgradnja alkohola"
         },
         {
           "label": "Northern Territory: nakup in pitje alkohola"
         },
         {
-          "label": "Healthy WA: kaj je standardna pijača"
+          "label": "NSW Government: pravila klubov za obiskovalce"
         }
       ],
       "priceTable": {
-        "note": "Skupnostno prispevani razponi za Avstralijo in Sydney, posodobljeni oktobra 2026. Velikost porcije, lokal, akcija in lokacija se razlikujejo.",
+        "note": "Razponi cen običajnega avstralskega piva v mestnih pubih in bottle shopih novembra 2026. Craft pivo, uvoženo pivo, lokali ob vodi in odročna območja stanejo več; happy hour in akcije stanejo manj.",
         "rows": [
           {
-            "label": "Kapučino (Sydney)",
+            "label": "Schooner v pubu",
+            "unit": "425 ml"
+          },
+          {
+            "label": "Pint v pubu",
+            "unit": "570 ml"
+          },
+          {
+            "label": "Šestpak iz bottle shopa",
+            "unit": "6 x 375 ml"
+          },
+          {
+            "label": "Zaboj iz bottle shopa",
+            "unit": "24 x 375 ml"
+          },
+          {
+            "label": "Vino srednjega razreda",
+            "unit": "750 ml, bottle shop"
+          },
+          {
+            "label": "Cappuccino",
             "unit": "ena skodelica"
-          },
-          {
-            "label": "Točeno pivo v pubu (Sydney)",
-            "unit": "ena porcija"
-          },
-          {
-            "label": "Vino srednjega razreda (po državi)",
-            "unit": "750 ml v trgovini"
-          },
-          {
-            "label": "Ustreznik domačega piva (po državi)",
-            "unit": "500 ml v trgovini"
-          },
-          {
-            "label": "Gazirana pijača (Sydney)",
-            "unit": "330 ml v lokalu"
           }
         ]
       }
@@ -29463,6 +29627,608 @@
         },
         {
           "label": "Bureau of Meteorology: podnebje po regijah"
+        }
+      ],
+      "priceTable": null
+    },
+    "cigarette-prices-australia": {
+      "title": "Koliko stanejo cigarete v Avstraliji leta 2027? Škatlice od $40 do $60",
+      "description": "Legalna škatlica 20 cigaret stane v Avstraliji okoli $40 do $60; 30 g vrečka tobaka za zvijanje pa okoli $90 do $120. Cene po zveznih državah, zakaj so davki glavni strošek, in vejpi.",
+      "region": "Avstralija",
+      "imageAlt": "Zaprta omarica s tobakom v avstralski trgovini, nad cenami na polici so škatlice cigaret in vrečke v enotni embalaži",
+      "intro": "Legalna škatlica 20 cigaret v Avstraliji novembra 2026 stane okoli $40 do $60; 30 g vrečka tobaka za zvijanje pa okoli $90 do $120. Škatlic po 25 in velikih vrečk ni več: od 1. julija 2025 se cigarete prodajajo samo v škatlicah po 20, tobak za zvijanje pa samo v vrečkah po 30 g. Skoraj vsa cena je zvezni davek, zato ista škatlica stane približno enako v Sydneyju in Perthu, odročna mesta in Northern Territory pa so nekoliko dražji. Cene se dvignejo dvakrat na leto, zato za potovanje v 2027 računajte več, kot navajajo tukajšnje številke.",
+      "sections": [
+        {
+          "heading": "Koliko stane škatlica 20 cigaret",
+          "body": [
+            "Poceni znamke so na spodnjem koncu, okoli $38 do $45 za 20. Običajne znamke, ki jih vidite za pultom vsake bencinske črpalke (servo), stanejo bližje $50 do $60. Trgovine in verige popuste in podražitve izvajajo ob različnih časih, zato se ista znamka lahko med dvema trgovinama na isti ulici razlikuje za nekaj dolarjev.",
+            "Če se spomnite škatlice po 25 iz prejšnjih let ali od prijateljev doma, te velikosti v Avstraliji ni več. Zakon o enotni embalaži, ki je v celoti začel veljati 1. julija 2025, je vsako škatlico cigaret določil na 20, po 10 škatlic v kartonu. Škatlica po 20 je edina velikost za primerjavo cen."
+          ],
+          "tips": [
+            "Poceni: okoli $38 do $45",
+            "Običajne: okoli $50 do $60",
+            "Škatlic po 25 ne prodajajo več"
+          ]
+        },
+        {
+          "heading": "Cene po zveznih državah in teritorijih",
+          "body": [
+            "Večina cene je zvezna trošarina, ki je v vseh državah enaka, zato država nakupa ceno spremeni le malo. Spodnji razponi so vodilo, koliko trgovine zaračunajo za legalne izdelke. <a data-guide=\"camping-rules-northern-territory\">Northern Territory</a> in odročne skupnosti so običajno dražji, saj prevoz in majhna prodaja dvigneta ceno na polici, cena v roadhouse postajah v outbacku pa je lahko najvišja.",
+            "Uradnega seznama cen po državah ni, zato razpone jemljite kot okvir, ki ga lahko pričakujete, ne kot ponudbo. Pogled na polico pred nakupom pove več kot katera koli tabela."
+          ],
+          "tips": [
+            "Enak davek v vseh državah",
+            "NT in odročno: nekoliko več",
+            "Preverite ceno na polici"
+          ],
+          "table": {
+            "caption": "Tipične cene legalnega tobaka na polici novembra 2026. Vodilo, kaj pričakovati, ne ponudba: trgovine same določajo cene.",
+            "head": [
+              "Zvezna država ali teritorij",
+              "Škatlica 20",
+              "Vrečka 30 g"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "$40 do $60",
+                "$90 do $120"
+              ],
+              [
+                "Victoria",
+                "$40 do $60",
+                "$90 do $120"
+              ],
+              [
+                "Queensland",
+                "$40 do $60",
+                "$90 do $120"
+              ],
+              [
+                "South Australia",
+                "$40 do $60",
+                "$90 do $120"
+              ],
+              [
+                "Western Australia",
+                "$40 do $60",
+                "$90 do $120"
+              ],
+              [
+                "Tasmania",
+                "$40 do $60",
+                "$90 do $120"
+              ],
+              [
+                "Australian Capital Territory",
+                "$40 do $60",
+                "$90 do $120"
+              ],
+              [
+                "Northern Territory in odročna območja",
+                "$45 do $65 ali več",
+                "$95 do $130 ali več"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Vrečke tobaka za zvijanje",
+          "body": [
+            "Tobak za zvijanje se prodaja samo v vrečkah po 30 g, iz vrečke pa dobite okoli 50 tankih cigaret. Poceni vrečke stanejo okoli $90, premium okoli $115 ali malo več, zato zvijanje na cigareto ni dosti cenejše od škatlice 20, ko prištejete papirčke in <a data-guide=\"how-to-use-aussiecamps-filters\">filtre</a>.",
+            "Trošarina na tobak za zvijanje se zaračunava po teži, od 1. septembra 2026 po $2,587.90 na kilogram. To je okoli $78 davka v vsaki vrečki po 30 g pred GST, zato je cena na polici tako blizu cene škatlice."
+          ],
+          "tips": [
+            "30 g je edina velikost",
+            "Okoli $90 do $120",
+            "Na cigareto ni dosti ceneje"
+          ]
+        },
+        {
+          "heading": "Zakaj so tako dragi",
+          "body": [
+            "Cena je večinoma davek. Zvezna trošarina je od 1. septembra 2026 $1.55274 na vsako cigareto, kar je več kot $1.52829 marca in znaša okoli $31 na škatlico 20. Ob blagajni se doda še GST 10 %. Skupaj je to okoli 70 % tipične škatlice za $50 in še več pri poceni škatlici.",
+            "Stopnja se spreminja dvakrat na leto, marca in 1. septembra, saj sledi plačam. Poleg tega se je stopnja od 2023 do 2026 vsak september dvignila še za dodatnih 5 %, zato je cena rasla postopoma, ne v enem skoku. Škatlica, ki se obiskovalcu na prvem potovanju zdi draga, se bo naslednje leto še podražila."
+          ],
+          "tips": [
+            "Okoli $31 trošarine na škatlico",
+            "Plus 10 % GST",
+            "Dviga se vsak marec in september"
+          ]
+        },
+        {
+          "heading": "Letno podražitev in vaše potovanje",
+          "body": [
+            "Ker se stopnja spreminja vsak marec in september, je lanska številka zastarela, ko pristanete. Kot pravilo predpostavite, da bo škatlica v 2027 stala nekaj dolarjev več kot tukajšnji razponi za 2026, in preverite ceno na polici v prvem mestu, preden načrtujete mesec stroškov.",
+            "Močan kadilec na dolgem potovanju hitro naloži. Deset škatlic na mesec je okoli $400 do $600. Vnesite to v proračun potovanja kot svojo postavko, kot gorivo, da ne zmanjšuje denarja za hrano."
+          ],
+          "tips": [
+            "Pričakujte nekaj dolarjev več",
+            "Deset škatlic: $400 do $600",
+            "Dajte ji svojo postavko v proračunu"
+          ]
+        },
+        {
+          "heading": "Cene vejpov",
+          "body": [
+            "Od 1. julija 2024 se vejpi prodajajo samo v lekarnah, ne glede na to, ali vsebujejo nikotin. Odrasli lahko v večini držav po pogovoru s farmacevtom kupijo vejpe z nižjo vsebnostjo nikotina brez recepta, močnejši izdelki pa zahtevajo recept. Lekarne lahko dobavljajo samo izdelke s TGA-jevega seznama priglašenih vejpov.",
+            "Cene v lekarnah določata proizvajalec in trgovina, ne država. Pričakujte približno $30 do $60 za osnovno napravo ali paket vložkov in več za začetni komplet. Poceni vejpi za enkratno uporabo, ki jih nekatere trgovine prodajajo izpod pulta, niso legalni izdelki."
+          ],
+          "tips": [
+            "Samo lekarne od julija 2024",
+            "Okoli $30 do $60 za napravo",
+            "Najprej vprašajte farmacevta"
+          ]
+        },
+        {
+          "heading": "Nelegalen tobak in vejpi",
+          "body": [
+            "Nekatere trgovine prodajajo cigarete in vejpe za delček legalne cene, pogosto v neoznačenih ali tujih škatlicah, včasih imenovanih chop chop. To je nezakonito, nakup pa lahko pomeni kazni in zaseg blaga, s kaznimi, ki se razlikujejo po državah. Poleg tega nimajo avstralskih zdravstvenih opozoril.",
+            "Če se vam cena ob zgornjih številkah zdi predobra, da bi bila resnična, to skoraj gotovo je, zato za vejpe ostanite pri lekarni, za tobak pa pri licenciranem <a data-guide=\"where-to-buy-cigarettes-vapes-australia\">tobakarju</a> ali supermarketu."
+          ],
+          "tips": [
+            "Neoznačene škatlice so nezakonite",
+            "Kupce lahko kaznujejo",
+            "Poceni običajno pomeni nezakonito"
+          ]
+        },
+        {
+          "heading": "Kako zakonito porabiti manj",
+          "body": [
+            "<a data-guide=\"smoking-vaping-rules-australia\">Brezcarinska količina</a> ob prihodu je samo 25 cigaret ali 25 gramov tobaka plus ena odprta škatlica za potnike, stare 18 let in več. Če prinesete več, ga morate prijaviti, Australian Border Force pa pravi, da presežek oddate ali plačate carino za celotno količino. Neprijavljen tobak se lahko zasežene in kaznuje, zato zaloga od doma ni način za varčevanje na dolgem potovanju.",
+            "Nakup po kartonu na cigareto ni dosti cenejši, saj je davek na vsako cigareto enak. Pravi prihranki so majhni: izberite poceni znamko, kupujte tam, kjer trgovina da popust, in se kolikor lahko izognite cenam v roadhouse postajah in odročnih krajih. Pravila za potnike, vključno z brezcarino, vejpi in prostori brez dima, so v vodniku o pravilih kajenja in vejpanja. Če kadite blizu kampa, vsak ogorek povsem pogasite in ga odnesite s seboj ter upoštevajte pravila o <a data-guide=\"campfires-camping-australia\">popolni prepovedi kurjenja ognja</a>: ogorki in grmovje se ne ujemajo.",
+            "Potujete tudi na Novo Zelandijo? KiwiCamping pokriva <a data-sister=\"cigarette-prices-new-zealand\">koliko stanejo cigarete na Novi Zelandiji</a>."
+          ],
+          "tips": [
+            "Prinesite samo 25 cigaret",
+            "Kartoni prihranijo malo",
+            "Ogorke pogasite in odnesite"
+          ]
+        },
+        {
+          "heading": "Proračun potovanja v AussieCamps",
+          "body": [
+            "AussieCamps <a data-guide=\"how-to-use-aussiecamps-filters\">filtri</a> razvrščajo kraje po ceni, brezplačno ali plačljivo, zato cenejše noči naredijo prostor za preostali proračun. Vsako postajo dodajte potovanju z datumi, zapiski in seznamom opravil, da je zalaganje v večjih mestih pred odročnim delom poti del načrta.",
+            "Podrobnosti krajev in filtri delujejo <a data-guide=\"camping-without-phone-signal\">brez signala</a>, voznja pot pa prikaže razdaljo in čas vsakega odseka. AussieCamps deluje na iPhonu."
+          ],
+          "tips": [
+            "Filtrirajte po ceni",
+            "Zaloge načrtujte pred odročnimi odseki",
+            "Samo iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Koliko stane škatlica cigaret v Avstraliji?",
+          "Legalna škatlica 20 običajno stane okoli $40 do $60 novembra 2026, poceni znamke na dnu, običajne na vrhu. Škatlic po 25 ne prodajajo več: od 1. julija 2025 mora vsaka škatlica cigaret vsebovati natanko 20. Cene so na vzhodni obali nekoliko nižje, v Northern Territory in odročnih krajih pa višje."
+        ],
+        [
+          "Zakaj so cigarete v Avstraliji tako drage?",
+          "Zaradi zveznega davka. Trošarina je od 1. septembra 2026 $1.55274 na vsako cigareto, kar je okoli $31 na škatlico 20 pred dodatkom 10 % GST. Pri večini znamk gre približno 70 % ali več cene na polici državi."
+        ],
+        [
+          "Koliko cigaret smem prinesti v Avstralijo?",
+          "Brezcarinska količina za potnike, stare 18 let in več, je 25 cigaret ali 25 gramov tobaka plus ena odprta škatlica. Vse nad tem prijavite. Australian Border Force pravi, da lahko prinesete dovoljeno količino in preostalo oddate ali obdržite vse in plačate carino za celotno količino."
+        ],
+        [
+          "Ali lahko kot turist kupim vejp v Avstraliji?",
+          "Samo v lekarni. Od 1. julija 2024 vejpov ne smejo prodajati druge trgovine, trgovinice, ki jih prodajajo, pa kršijo zakon. Odrasli lahko v večini držav po kratkem pogovoru s farmacevtom kupijo vejpe z nižjo vsebnostjo nikotina brez recepta."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Australian Taxation Office: stopnje trošarine na tobak"
+        },
+        {
+          "label": "Australian Border Force: brezcarinske količine"
+        },
+        {
+          "label": "Department of Health: spremembe tobačnih izdelkov v Avstraliji"
+        },
+        {
+          "label": "Department of Health: zakoni o vejpanju"
+        },
+        {
+          "label": "Therapeutic Goods Administration: nikotinski vejpi"
+        },
+        {
+          "label": "Tobacco in Australia: cena tobačnih izdelkov"
+        }
+      ],
+      "priceTable": null
+    },
+    "smoking-vaping-rules-australia": {
+      "title": "Kajenje in vejpanje v Avstraliji (2027): pravila za popotnike",
+      "description": "Brez carine lahko prinesete 25 cigaret ali 25 g tobaka, vejpi so samo v lekarnah, za nakup morate biti stari 18 let, goreči ogorki v divjini pa prinašajo visoke kazni. Pravila za popotnike 2027.",
+      "region": "Avstralija",
+      "imageAlt": "Tabla z napisom Ta pomol je brez dima in brez vejpanja na ograji pomola Outer Harbor v Adelaidu, South Australia",
+      "intro": "Obiskovalci, stari 18 let ali več, lahko brez carine prinesejo v Avstralijo 25 cigaret ali 25 g tobaka plus eno odprto škatlico, vse več pa morajo prijaviti. Vejpi se zdaj prodajajo samo v lekarnah, izjema za popotnike pa dovoljuje 2 vejpa, 20 vložkov ali kartuš in 200 mL tekočine za lastno zdravljenje. Za nakup obeh morate biti stari 18 let, kajenje in vejpanje pa sta prepovedana na številnih odprtih prostorih, od kavarniških miz do plaž z reševalci. Za kampiste je najpomembnejši ogenj: goreč ogorek, vržen iz avta ali spuščen v suho travo, lahko stane tisoče dolarjev. To so pravila, kot veljajo novembra 2026.",
+      "sections": [
+        {
+          "heading": "Kaj lahko prinesete brez carine",
+          "body": [
+            "Odrasli, stari 18 let ali več, lahko prinesejo tobak v Avstralijo brez dovoljenja. Brezcarinska količina je 25 cigaret ali 25 g tobačnih izdelkov plus ena odprta škatlica. Ker avstralske in večina tujih škatlic vsebuje 20, to pomeni eno zaprto škatlico plus tisto, ki jo kadite. Mlajši od 18 let nimajo nobene količine tobaka.",
+            "Če presežete mejo, Australian Border Force pravi, da se carina in davek zaračunata za vse blago te vrste, ne le za del nad mejo. Neprijavljen presežek lahko pomeni kazni, pregon ali preklicano vizo, odvisno od količine. Če imate več, to prijavite na Incoming Passenger Card, pokažite dokazilo o nakupu in plačajte carino ali pa ga oddajte na meji. Cene lokalnih škatlic so v vodniku o <a data-guide=\"cigarette-prices-australia\">cenah cigaret</a>."
+          ],
+          "tips": [
+            "25 cigaret ali 25 g",
+            "Plus ena odprta škatlica",
+            "Vse nad tem prijavite"
+          ]
+        },
+        {
+          "heading": "Vejpi za popotnike",
+          "body": [
+            "Od leta 2024 so vejpi v Avstraliji obravnavani kot terapevtsko blago. Popotniki jih lahko prinesejo samo po izjemi za popotnike: vejpi morajo biti za vaše lastno zdravljenje ali za osebo, ki jo oskrbujete in potuje z vami na istem letu ali ladji. Omejitve so 2 vejpa skupaj, 20 dodatkov, kot so vložki, kartuše ali kapsule, in 200 mL tekočine za vejpanje.",
+            "Vejpi za enkratno uporabo se štejejo med 2. Pošiljanje vejpov sebi ali prošnja prijatelju, naj jih pošlje, ni dovoljeno, vse nad mejo pa se lahko zaseže. Vejpe prijavite in jih imejte v ročni prtljagi, kjer jih uradniki vidijo. Pravila za prevoz na letalu določa vaša letalska družba, zato preverite pred poletom."
+          ],
+          "tips": [
+            "2 vejpa, 20 vložkov, 200 mL",
+            "Samo za lastno rabo",
+            "Vejpov ne pošiljajte v Avstralijo"
+          ]
+        },
+        {
+          "heading": "Nakup vejpov in zakonita starost",
+          "body": [
+            "Vejpe v Avstraliji prodajajo samo lekarne. Od oktobra 2024 lahko farmacevti osebam, starim 18 let ali več, brez recepta dobavijo nikotinske vejpe z 20 mg/mL ali manj, mlajši od 18 let pa potrebujejo recept. <a data-guide=\"where-to-buy-cigarettes-vapes-australia\">Tobakarji</a>, trgovine z vejpi, servo postaje in trgovinice vejpov sploh ne smejo prodajati, ne glede na vsebnost nikotina.",
+            "Zakonita starost za nakup tobaka je v vsaki državi in teritoriju 18 let, trgovine pa lahko zahtevajo slikovni dokument. Obiskovalcem postavljajo enako zahtevo kot domačinom, zato je potni list ali <a data-guide=\"overseas-driver-licence-australia-state-guide\">tuje vozniško dovoljenje</a> varna izbira. Farmacevt vam pred nakupom lahko pove tudi o dodatnih državnih pravilih."
+          ],
+          "tips": [
+            "Vejpi: samo lekarna",
+            "18 let za vsak nakup",
+            "Nosite slikovni dokument"
+          ]
+        },
+        {
+          "heading": "Kje ne smete kaditi ali vejpati",
+          "body": [
+            "Zakone o prostorih brez dima določa vsaka država in teritorij, vejpanje pa je v prostorih brez dima obravnavano kot kajenje. Tabela navaja kraje, na katere kamperji najpogosteje naletijo. Mnoge občine dodajo svoja pravila za lokalne plaže, parke in mestna središča, zato iščite table.",
+            "Nacionalni parki, plaže in kampi imajo svoja pravila. Queensland prepoveduje kajenje v 10 m od kampirnih mest in objektov v nacionalnih parkih, več držav ga prepoveduje med zastavicami na plažah z reševalci, mnogi <a data-guide=\"caravan-park-vs-holiday-park\">kamping parki</a> pa ga prepovedujejo v hiškah, sanitarnih blokih in skupnih kuhinjah. Ko velja prepoved kurjenja, upravljavci parkov goreočo cigareto na prostem obravnavajo kot vsak drug plamen.",
+            "Kazni so določene v kazenskih enotah ali fiksnih zneskih, ki se spreminjajo vsako leto, zato tabela daje vodilo, ne natančnega zneska."
+          ],
+          "tips": [
+            "Vejpanje se prav tako šteje",
+            "Iščite lokalne table",
+            "Kazni se spreminjajo vsako leto"
+          ],
+          "table": {
+            "caption": "Odprti prostori brez dima po državah in teritorijih, iz državnih zdravstvenih strani, prebranih novembra 2026. Pred zanašanjem na znesek preverite aktualno državno stran.",
+            "head": [
+              "Država",
+              "Odprti prostori brez dima, ki jih velja poznati",
+              "Tipična kazen na mestu"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "Komercialno zunanje obedovanje, v 4 m od vhodov v javne zgradbe, postajališč in peronov javnega prevoza; mnoge občine dodajo plaže in parke",
+                "$300"
+              ],
+              [
+                "Victoria",
+                "Zunanje obedovanje, v 10 m od igrišč in skate parkov, na športnih dogodkih za mlajše od 18 let in na sejmih hrane",
+                "Okoli ena ali dve kazenski enoti, nekaj sto dolarjev"
+              ],
+              [
+                "Queensland",
+                "Med zastavicami na plažah z reševalci, v 10 m od kampirnih mest in objektov v nacionalnih parkih, 5 m od postajališč javnega prevoza in 10 m od igrišč",
+                "Dve kazenski enoti"
+              ],
+              [
+                "South Australia",
+                "Zunanje obedovanje, igrišča in nadstreški javnega prevoza ter novejše zunanje cone od marca 2024",
+                "$105"
+              ],
+              [
+                "Western Australia",
+                "Zunanji prostori za prehranjevanje, v 10 m od igral na igriščih in med zastavicami na plažah z reševalci",
+                "$300 za zunanje obedovanje"
+              ],
+              [
+                "Tasmania",
+                "Zunanje obedovanje, v 3 m od vhodov, v 10 m od igrišč, plaže z reševalci in zunanji dogodki",
+                "Približno $350 do $400"
+              ],
+              [
+                "Northern Territory",
+                "Zunanje obedovanje brez licence, javni dogodki in njihova okolica ter otroška igrišča",
+                "Določeno v kazenskih enotah"
+              ],
+              [
+                "Australian Capital Territory",
+                "Zunanji prostori za prehranjevanje in pitje ter v 10 m od igral",
+                "Določeno v kazenskih enotah"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Kajenje v avtu z otroki",
+          "body": [
+            "Vsaka država in teritorij prepoveduje kajenje v avtu, v katerem je otrok, tudi če so okna spuščena ali je avto parkiran. Starost otroka, ki šteje, je pod 16 let v <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a>, Queenslandu, South Australia, Northern Territory in ACT, pod 17 let v Western Australia ter pod 18 let v Victoria in Tasmaniji. Vejpanje je prav tako zajeto.",
+            "V najetem avtu ali kamperju je pravilo enako, najemodajalec pa lahko zaračuna tudi čiščenje zaradi vonja po dimu. Če kadite, stopite stran od vozila in najprej spustite potnike ven."
+          ],
+          "tips": [
+            "Nezakonito v vsaki državi",
+            "Spuščena okna niso opravičilo",
+            "Najeti avti zaračunajo čiščenje"
+          ]
+        },
+        {
+          "heading": "Prepovedi kurjenja, ogorki in kazni",
+          "body": [
+            "Na dan <a data-guide=\"campfires-camping-australia\">popolne prepovedi kurjenja ognja</a> je zaskrbljujoče vse, kar lahko na prostem zaneti ogenj, metanje goreče cigarete pa je kaznivo dejanje v vsaki državi. V New South Wales lahko goreč ogorek prinese kazen na mestu od okoli $660, ki se na dan popolne prepovedi podvoji na okoli $1,320. Na sodišču je maksimum $5,500 ali $11,000 na dan popolne prepovedi. Vozniki dobijo tudi kazenske točke, 5 običajno in 10 na dan popolne prepovedi.",
+            "Metanje ogorka iz avta se v Victoria in <a data-guide=\"camping-rules-queensland\">Queenslandu</a> obravnava kot nevarno onesnaževanje, s kaznimi do nekaj sto dolarjev na mestu in veliko več na sodišču. Že ogorek na tleh je smeti. V divjini lahko zaneti požar, ki doseže kamp ali mesto.",
+            "Nosite škatlico za ogorke ali prenosni pepelnik in cigarete nikoli ne ugašajte v suhi travi ali listju. Nekatere države omogočajo prijavo oseb, ki mečejo goreče ogorke: v <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> lahko pokličete Bush Fire Information Line na 1800 679 737."
+          ],
+          "tips": [
+            "Škatlica za ogorke v avtu",
+            "Nikoli v suho travo",
+            "Prijavite goreče ogorke iz avtov"
+          ]
+        },
+        {
+          "heading": "Kazni na kratko in načrt za kamperje",
+          "body": [
+            "Povzetek: tobak nad mejo pomeni carino za vse ali izgubo, kajenje v prostoru brez dima stane od okoli $100 do nekaj sto dolarjev, goreč ogorek, vržen iz vozila, pa stotine dolarjev na mestu in tisoče na sodišču.",
+            "Za kamping potovanje izberite mesto z razmikom stran od šotorov in suhe trave, vsako jutro preverite stopnjo požarne nevarnosti in škatlico za ogorke, ko ste končali, zaprite. Strani upravljavcev parkov in table v kampu povedo, kje kajenje ni dovoljeno. Potujete tudi na Novo Zelandijo? KiwiCamping pokriva <a data-sister=\"smoking-vaping-rules-new-zealand\">pravila o kajenju in vejpanju na Novi Zelandiji</a>."
+          ],
+          "tips": [
+            "Vsak dan preverite požarno nevarnost",
+            "Preverite območja brez dima v parku",
+            "Nikoli ne ugašajte v travi"
+          ]
+        },
+        {
+          "heading": "Načrtujte okoli pravil v AussieCamps",
+          "body": [
+            "AussieCamps prikazuje kampe, ki jih objavljajo upravljavci parkov, s filtrom \"Popular features\" za stranišča, pitno vodo, prhe in <a data-guide=\"campfires-camping-australia\">kurišča</a>. S filtrom \"Cost\" primerjajte brezplačna in plačljiva mesta, postaje pa dodajte potovanju z datumi, zapiski, vremenom in seznamom opravil \"To-do list\", da ne pozabite škatlice za ogorke in dokumenta.",
+            "Podrobnosti krajev, iskanje in filtri delujejo <a data-guide=\"camping-without-phone-signal\">brez signala</a>, ker je imenik v aplikaciji. Zemljevid, usmerjanje in vreme potrebujejo povezavo, AussieCamps pa deluje na iPhonu."
+          ],
+          "tips": [
+            "Filtrirajte po kuriščih in lastnostih",
+            "Škatlico za ogorke dodajte na seznam opravil",
+            "Samo iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Koliko cigaret smem prinesti v Avstralijo?",
+          "Popotniki, stari 18 let ali več, lahko prinesejo 25 cigaret ali 25 g tobačnih izdelkov plus eno odprto škatlico brez plačila carine. Ker škatlice vsebujejo 20, je to v praksi ena zaprta škatlica in tista, ki jo kadite. Če prinesete več in tega ne prijavite, morate plačati carino za vse ali ga oddati, lahko pa vam grozijo kazni ali pregon. Vse nad mejo prijavite na meji."
+        ],
+        [
+          "Ali lahko prinesem vejp v Avstralijo?",
+          "Samo v majhnih količinah in samo za lastno zdravljenje ali zdravljenje osebe, ki jo oskrbujete in potuje z vami. Omejitev je 2 vejpa, 20 dodatkov, kot so vložki ali kartuše, in 200 mL tekočine za vejpanje. Vejpov vam ni dovoljeno poslati po pošti, v avstralskih trgovinah pa jih ne morete kupiti."
+        ],
+        [
+          "Kakšna je starost za kajenje v Avstraliji?",
+          "Za nakup tobaka ali vejpov morate biti kjer koli v Avstraliji stari 18 let, trgovine pa lahko zahtevajo slikovni dokument. Turistom postavljajo enako zahtevo kot domačinom, zato nosite potni list ali vozniško dovoljenje."
+        ],
+        [
+          "Ali smem kaditi v kampu v Avstraliji?",
+          "Običajno da na svojem mestu, a ne povsod. V nacionalnih parkih Queenslanda sta kajenje in vejpanje prepovedana v 10 m od kampirnih mest in objektov, kot so stranišča in mize za piknik. Na dan popolne prepovedi kurjenja ali v suhi divjini je najvarnejši odgovor, da na prostem sploh ne kadite."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Australian Border Force: brezcarinske olajšave"
+        },
+        {
+          "label": "Office of Drug Control: vejpi in izjema za popotnike"
+        },
+        {
+          "label": "TGA: informacije o vejpih za bolnike in potrošnike"
+        },
+        {
+          "label": "Queensland Government: zakoni o kajenju v Queenslandu"
+        },
+        {
+          "label": "NSW Health: zakoni o komercialnem zunanjem obedovanju brez dima"
+        },
+        {
+          "label": "Victorian Government: nasveti o kajenju in vejpanju za starše"
+        },
+        {
+          "label": "NSW Rural Fire Service: nove in zvišane kazni"
+        }
+      ],
+      "priceTable": null
+    },
+    "where-to-buy-cigarettes-vapes-australia": {
+      "title": "Kje kupiti cigarete in vejpe v Avstraliji (2027)",
+      "description": "Cigarete prodajajo na pultih supermarketov, servo postajah in pri tobakarjih; vejpe samo lekarne. Kje kupiti, pravila o dokumentu in kaj pričakovati v outbacku.",
+      "region": "Avstralija",
+      "imageAlt": "Nullarbor Roadhouse v South Australia, z road trainom in kamperjem, parkiranima ob črpalkah in trgovini",
+      "intro": "Cigarete prodajajo na pultih supermarketov, bencinskih črpalkah, v trgovinicah in pri tobakarjih, za nakup pa morate biti stari 18 let ali več. Vejpi so drugačni: od 1. julija 2024 jih smejo prodajati samo lekarne, odrasli pa lahko nikotinske vejpe do 20 mg/mL kupijo pri farmacevtu brez recepta. Na podeželju se izbira zoži na roadhouse ali splošno trgovino, običajno z manj znamkami in višjimi cenami, zato se pred odročnim delom poti založite v večjem mestu. Cene rastejo vsako leto, zato preverite ceno na polici in ne zaupajte lanski številki.",
+      "sections": [
+        {
+          "heading": "Kje kupiti na kratko",
+          "body": [
+            "Cigarete so v vsakem mestu primerne velikosti lahko dostopne, vrsta trgovine pa določa izbiro in ceno. Vejpi so poseben primer in jih dobite samo v lekarni.",
+            "Kaj trgovine imajo, se razlikuje od verige do verige in iz leta v leto, zato tabelo jemljite kot običajen vzorec, ne kot obljubo za vsako trgovino."
+          ],
+          "tips": [
+            "Cigarete: veliko trgovin",
+            "Vejpi: samo lekarne",
+            "Izbira se v outbacku zmanjša"
+          ],
+          "table": {
+            "caption": "Kje popotniki običajno kupijo tobak in vejpe v Avstraliji, november 2026. Zaloga in cene se razlikujejo po trgovinah.",
+            "head": [
+              "Kje",
+              "Kaj prodajajo",
+              "Opombe"
+            ],
+            "rows": [
+              [
+                "Supermarketi",
+                "Cigarete in tobak za zvijanje; brez vejpov",
+                "Coles, Woolworths in IGA prodajajo na servisnem pultu ali kiosku; Aldi tobaka ne prodaja"
+              ],
+              [
+                "Bencinske črpalke in trgovinice",
+                "Cigarete in tobak za zvijanje; brez vejpov",
+                "Odprto pozno in povsod, a pogosto najdražja možnost"
+              ],
+              [
+                "Tobakarji",
+                "Najširša izbira cigaret in tobaka; brez vejpov",
+                "Specializirane trgovine, najboljše za manj običajne znamke"
+              ],
+              [
+                "Bottle shopi in pubi",
+                "Pri nekaterih cigarete",
+                "Ne imajo vsi, zato najprej vprašajte"
+              ],
+              [
+                "Lekarne",
+                "Nikotinski vejpi do 20 mg/mL, po pogovoru s farmacevtom",
+                "Edino legalno mesto za vejpe; omejeni okusi; ne imajo jih vse lekarne"
+              ],
+              [
+                "Roadhouse postaje in odročne trgovine",
+                "Nekaj znamk cigaret, včasih tobak",
+                "Višje cene, krajši delovni čas, brez vejpov"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Supermarketi in bottle shopi",
+          "body": [
+            "Coles, Woolworths in IGA prodajajo cigarete, a jih na polici ne boste videli. Zaradi prepovedi razstavljanja so škatlice v zaprtih omaricah, zato vprašate na servisnem pultu ali kiosku in poveste znamko. Verige supermarketov zmanjšujejo prodajo tobaka, nekatere njihove trgovine z alkoholom so ga nehale prodajati, zato se zaloga razlikuje po trgovinah. Aldi tobaka sploh ne prodaja.",
+            "Nekateri bottle shopi in bottle shopi v pubih prodajajo cigarete, nekateri ne, zato vprašajte, preden se nanje zanesete. Supermarketski pult je priročna izbira ob velikem nakupu, ker so cene običajno v skladu s preostalim mestom, vi pa ste že tam."
+          ],
+          "tips": [
+            "Vprašajte na servisnem pultu",
+            "Aldi ne prodaja tobaka",
+            "Bottle shope najprej vprašajte"
+          ]
+        },
+        {
+          "heading": "Bencinske črpalke in trgovinice",
+          "body": [
+            "Servo postaje Ampol, BP, 7-Eleven in neodvisne skoraj vedno prodajajo cigarete, običajno na pultu za blagajno, mnoge pa so odprte pozno ali vso noč. To je najlažja možnost, ko v mesto prispete po zaprtju supermarketov.",
+            "Cena te udobnosti je višja cena. Servo je pogosto najdražje mesto v mestu za škatlico, zato je za nakup za nekaj tednov supermarketski pult ali tobakar običajno cenejši. Vodnik o <a data-guide=\"cigarette-prices-australia\">cenah cigaret</a> navaja običajne razpone za škatlico in vrečko."
+          ],
+          "tips": [
+            "Odprto pozno, pogosto najdražje",
+            "Dobro za nujno škatlico",
+            "V supermarketu ceneje"
+          ]
+        },
+        {
+          "heading": "Tobakarji in nelegalne trgovine",
+          "body": [
+            "Tobakarji so specializirane trgovine z najširšo izbiro cigaret in tobaka za zvijanje, znamke, ki jih supermarketi nimajo, pa lahko naročijo ali vas napotijo. Več držav zdaj zahteva, da ima trgovina licenco za maloprodajo tobaka, v <a data-guide=\"camping-rules-victoria\">Victoria</a> pa se pravilo o licenci izvaja od 1. februarja 2026. Številka ali potrdilo o licenci je v trgovini pogosto razstavljeno.",
+            "Bodite previdni pri trgovinah, ki prodajajo zelo poceni cigarete ali vejpe. V nekaterih trgovinah prodajajo nelegalen, neobdavčen tobak in vejpe, njihova prodaja in nakup pa je v nasprotju z zakonom. Zasežejo se lahko, kupce pa lahko kaznujejo, s kaznimi, ki se razlikujejo po državah. Legalne cigarete so v enotnih olivno rjavih škatlicah z velikimi grafičnimi zdravstvenimi opozorili v angleščini, zato so barvita ali tujega videza škatlica, odsotnost angleškega opozorila ali cena daleč pod običajnim razponom opozorilni znak."
+          ],
+          "tips": [
+            "Najširša izbira znamk",
+            "Enotne škatlice, angleška opozorila",
+            "Zelo poceni običajno pomeni nelegalno"
+          ]
+        },
+        {
+          "heading": "Pravila o dokumentu in starosti",
+          "body": [
+            "Za nakup cigaret, tobaka za zvijanje ali vejpa kjer koli v Avstraliji morate biti stari 18 let ali več, prodajalec pa vas lahko zavrne brez dokaza o starosti. Mnoge trgovine zahtevajo dokument od vsakogar, ki je videti mlajši od 25 let, zato pričakujte vprašanje in ga ne jemljite osebno.",
+            "Nosite potni list ali avstralsko vozniško dovoljenje ali dovoljenje iz svoje države, če kaže vašo fotografijo in datum rojstva. Osebje odloča, kaj sprejme, zato imejte s seboj original, ne fotokopije. Vodnik o <a data-guide=\"smoking-vaping-rules-australia\">pravilih kajenja in vejpanja</a> navaja kraje, kjer kajenje ni dovoljeno."
+          ],
+          "tips": [
+            "Samo 18 let in več",
+            "Pogosto vprašajo, če ste mlajši od 25",
+            "Nosite originalni slikovni dokument"
+          ]
+        },
+        {
+          "heading": "Nakup vejpa",
+          "body": [
+            "Vejpe smejo prodajati samo lekarne. Tobakarji, trgovine z vejpi in trgovinice jih ne smejo prodajati, ne glede na to, ali vsebujejo nikotin, vejpi za enkratno uporabo pa so prepovedani. Trgovina, ki jih prodaja čez pult, krši zakon.",
+            "Odrasli lahko po kratkem pogovoru kupijo nikotinski vejp do 20 mg/mL pri farmacevtu brez recepta, kjer to dovoljujejo zakoni države in teritorija. Višje jakosti zahtevajo recept. Okusi so omejeni na brez okusa, meto, mentol in tobak. Vejpe nimajo vse lekarne, zato pokličite vnaprej ali vprašajte v večji."
+          ],
+          "tips": [
+            "Samo lekarne",
+            "Brez vejpov za enkratno uporabo",
+            "Meta, mentol, tobak"
+          ]
+        },
+        {
+          "heading": "V outbacku in na odročnih cestah",
+          "body": [
+            "Roadhouse postaje in odročne splošne trgovine običajno prodajajo cigarete, a izbira je lahko nekaj znamk, cena pa višja kot v mestu. Tobak za zvijanje je morda omejen, in če trgovina zmanjka, je naslednja lahko več sto kilometrov stran. Nekatere odročne skupnosti imajo svoja pravila o tem, kaj trgovine smejo prodajati, zato vprašajte, preden računate na skupnostno trgovino, in upoštevajte table o omejitvah.",
+            "Lekarne so redke zunaj večjih mest, zato če vejpate, kupite pred odhodom. Večina roadhouse postaj sprejema kartice, a izpadi se zgodijo in delovni čas je krajši, pogosto zaprejo zgodaj zvečer, zato nosite nekaj gotovine in kupite pred mrakom. Nekaj rezervnih škatlic za dolg odsek je cenejših kot dopolnitev v roadhouse postaji."
+          ],
+          "tips": [
+            "Kupite pred odročnimi odseki",
+            "Vejperji: načrtujte okoli lekarn",
+            "Nosite nekaj gotovine"
+          ]
+        },
+        {
+          "heading": "Na poti in v kampu",
+          "body": [
+            "Vročina je za tobak in vejpe huda. Škatlic, vrečk ali vejpa ne puščajte v vročem avtu ali zaprtem kamperju, kjer se lahko izsušijo ali pokvarijo, vejp pa držite stran od neposrednega sonca. Torba v senci ali predal v hladilni torbi je boljši.",
+            "Kadite stran od kampa in šotorov in preverite stopnjo požarne nevarnosti. Ob <a data-guide=\"campfires-camping-australia\">popolni prepovedi kurjenja ognja</a> je goreča cigareta resno tveganje, nekateri kampi, plaže in nacionalni parki pa so brez dima. Vsak ogorek povsem pogasite in ga odnesite s seboj, nikoli ga ne puščajte na tleh. Potujete tudi na Novo Zelandijo? KiwiCamping pokriva <a data-sister=\"where-to-buy-cigarettes-vapes-new-zealand\">kje kupiti cigarete in vejpe na Novi Zelandiji</a>."
+          ],
+          "tips": [
+            "Ne v vroč avto",
+            "Preverite požarno nevarnost",
+            "Ogorke odnesite s seboj"
+          ]
+        },
+        {
+          "heading": "Načrtujte postanke za zalaganje v AussieCamps",
+          "body": [
+            "AussieCamps vam omogoča, da vsako postajo dodate potovanju z datumi in zapiski, voznja pot pa prikaže razdaljo in čas vsakega odseka. Tako zlahka vidite zadnje večje mesto pred odročnim odsekom in ga označite kot kraj za zalaganje.",
+            "Podrobnosti krajev, iskanje in filtri delujejo brez signala, zato lahko preverite lastnosti kampa, kot so pitna voda, stranišča in <a data-guide=\"campfires-camping-australia\">kurišča</a>, ko ste izven dosega. AussieCamps deluje na iPhonu."
+          ],
+          "tips": [
+            "Oglejte si razdaljo vsakega odseka",
+            "Označite mesta za zalaganje",
+            "Samo iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kje lahko kupim cigarete v Avstraliji?",
+          "V supermarketih, kot so Coles, Woolworths in IGA, na bencinskih črpalkah in v trgovinicah ter pri tobakarjih, ki imajo najširšo izbiro. Aldi tobaka ne prodaja. V supermarketih so cigarete skrite, vprašate pa na servisnem pultu."
+        ],
+        [
+          "Kje lahko kupim vejp v Avstraliji?",
+          "Samo v lekarni. Od 1. julija 2024 vejpov ne smejo prodajati tobakarji, trgovine z vejpi ali trgovinice, vejpi za enkratno uporabo pa so prepovedani. Odrasli lahko po kratkem pogovoru pri farmacevtu brez recepta kupijo nikotinske vejpe do 20 mg/mL, a jih nimajo vse lekarne."
+        ],
+        [
+          "Ali potrebujem dokument za nakup cigaret v Avstraliji?",
+          "Biti morate stari 18 let ali več, osebje pa lahko zahteva dokaz o starosti. Nosite potni list ali avstralsko vozniško dovoljenje, saj fotokopija ali fotografija na telefonu morda ne bo sprejeta. Trgovine pogosto vprašajo vsakogar, ki je videti mlajši od 25 let."
+        ],
+        [
+          "Ali lahko kupim cigarete v outbacku?",
+          "Običajno da v roadhouse postajah in splošnih trgovinah, a z majhno izbiro znamk in višjimi cenami. Nekatere trgovine v odročnih skupnostih imajo svoja pravila o prodaji, lekarne pa so redke, zato potrebno kupite v večjem mestu pred odročnim odsekom."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Department of Health: o vejpanju"
+        },
+        {
+          "label": "Department of Health: spremembe vejpanja v Avstraliji od 1. julija"
+        },
+        {
+          "label": "Therapeutic Goods Administration: reforme ureditve vejpov"
+        },
+        {
+          "label": "Therapeutic Goods Administration: informacije o nikotinskih vejpih za potrošnike"
+        },
+        {
+          "label": "Victorian Government: licenciranje tobaka"
+        },
+        {
+          "label": "Department of Health: spremembe tobačnih izdelkov v Avstraliji"
         }
       ],
       "priceTable": null

@@ -7771,145 +7771,309 @@
       }
     },
     "alcohol-coffee-drink-prices-australia": {
-      "title": "Öl- och kaffepriser i Australien 2027: fatöl på pub 7–16 AUD",
-      "description": "Fatöl på pub kostar 7–16 AUD och en cappuccino 4,50–8 AUD i Sydney (oktober 2026). Per standarddrink kostar pubölen 4–9 AUD och vin från bottle shop 1,60–4 AUD.",
+      "title": "Vad kostar en öl i Australien? Pub- och bottle shop-priser (2027)",
+      "description": "En schooner på pub kostar $8 till $13 och en pint $12 till $18 i australiska städer (november 2026). En slab om 24 kostar $55 till $72. Priser per stad, glasnamn, happy hour.",
       "region": "Australien",
-      "imageAlt": "Kaffe och andra drycker på ett kafébord i Australien",
-      "intro": "En fatöl på 500 ml på en pub i Sydney kostar ungefär 7 till 16 AUD och en cappuccino 4,50 till 8 AUD, enligt användarpriser uppdaterade i oktober 2026, medan en flaska öl på 500 ml från en bottle shop kostar ungefär 3,50 till 12 AUD i hela landet. Per standarddrink blir det ungefär 4 till 9 AUD på puben, 2 till 7 AUD för öl från en bottle shop och 1,60 till 4 AUD för en flaska vin i mellanklassen, så det du tar med tillbaka till campingen är billigast.",
+      "imageAlt": "Australiska kafédrycker på ett bord",
+      "intro": "En schooner öl (425 ml) kostar cirka $8 till $13 på en pub i en australisk stad i november 2026, och en pint (570 ml) cirka $12 till $18. Perth och pubar på landsbygden ligger i den billiga änden, medan centrala Sydney och Melbourne är dyrast. I en bottle shop kostar en sexpack vanlig öl cirka $20 till $28 och en slab om 24 cirka $55 till $72, vilket blir mindre än hälften av pubpriset per öl. Dryck som du köper med dig tillbaka till lägret är alltså klart billigast.",
       "sections": [
         {
-          "heading": "Butikspris och krogpris är inte samma sak",
+          "heading": "Ölpriser per stad",
           "body": [
-            "På puben betalar du för lokalen, personalen och serveringen, inte bara för det som är i glaset. Jämför lika med lika. Ett butikspris från en bottle shop, omräknat till samma mängd, är inte vad ett serverat glas kostar. Standarddrinkar gör jämförelsen rättvis: Healthy WA räknar en standarddrink som 10 gram alkohol, lika mycket som i 285 ml starköl eller 100 ml vin, så en öl på 500 ml är ungefär 1,75 standarddrinkar och en flaska vin på 750 ml ungefär 7,5.",
-            "Happy hour och kampanjer är tillfälliga. Utgå från de vanliga priserna när du lägger budgeten, och se rabatterna som en extra marginal."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Vin från bottle shop och på baren",
-          "body": [
-            "En flaska vin i mellanklassen på 750 ml kostar ungefär 12 till 30 AUD i en bottle shop och räcker till ungefär fem glas på 150 ml. Beställer du samma vin per glas på en bar eller restaurang kostar det oftast betydligt mer per glas, så vinet är billigast när ni delar en flaska på campingen.",
-            "Vissa restauranger, mest de utan alkoholtillstånd, låter dig ta med en egen flaska mot korkavgift, så får du middagsvin till bottle shop-pris. Fråga om det när du bokar, inte först vid bordet."
+            "Tabellen visar typiska priser för en vanlig öl, till exempel en lokal lager eller pale ale. Pubpriset beror mycket på stället: en pub i förorten eller en klubb tar mindre än en takbar eller ett hotell vid hamnen, och hantverksöl (craft beer) kostar oftast $2 till $4 mer per glas.",
+            "Priserna i bottle shops varierar mindre mellan städerna, eftersom det mesta av priset är punktskatt (excise), den federala alkoholskatten, som är densamma överallt. Darwin och inlandet betalar mer i fraktkostnader, och bottle shops i <a data-guide=\"camping-rules-northern-territory\">Northern Territory</a> har extra regler för öppettider och leg.",
+            "Räkna med att priserna fortsätter att stiga. Skatten på förpackad öl höjs med inflationen varje februari och augusti, så priserna i bottle shops klättrar under 2027, medan skatten på fatöl är frusen till augusti 2027, vilket håller pubpriserna jämnare."
           ],
           "tips": [
-            "Flaska i mellanklassen: 12–30 AUD",
+            "Perth: billigaste pinten bland huvudstäderna",
+            "Sydney och Melbourne: dyrast",
+            "Pubar på landet: ofta billigast"
+          ],
+          "table": {
+            "caption": "Typiska priser för en vanlig öl i november 2026. En schooner är 425 ml och en pint 570 ml. I Adelaide kallas glaset på 425 ml för pint.",
+            "head": [
+              "Stad",
+              "Schooner på pub (425 ml)",
+              "Pint på pub (570 ml)",
+              "Sexpack (bottle shop)",
+              "Slab om 24 (bottle shop)"
+            ],
+            "rows": [
+              [
+                "Sydney",
+                "$9 till $13",
+                "$13 till $18",
+                "$21 till $28",
+                "$57 till $72"
+              ],
+              [
+                "Melbourne",
+                "$9,50 till $14",
+                "$14 till $18,50",
+                "$21 till $28",
+                "$57 till $72"
+              ],
+              [
+                "Brisbane",
+                "$9 till $13",
+                "$12 till $17",
+                "$21 till $28",
+                "$57 till $72"
+              ],
+              [
+                "Perth",
+                "$8 till $12",
+                "$9 till $15",
+                "$21 till $28",
+                "$58 till $72"
+              ],
+              [
+                "Adelaide",
+                "$8,50 till $12",
+                "$12 till $16",
+                "$20 till $27",
+                "$55 till $70"
+              ],
+              [
+                "Hobart",
+                "$9 till $12",
+                "$12 till $16",
+                "$21 till $28",
+                "$58 till $72"
+              ],
+              [
+                "Darwin",
+                "$9 till $13",
+                "$13 till $18",
+                "$23 till $30",
+                "$62 till $80"
+              ],
+              [
+                "Canberra",
+                "$9 till $12",
+                "$12 till $17",
+                "$21 till $28",
+                "$57 till $72"
+              ],
+              [
+                "Pubar på landsbygden",
+                "$7 till $10",
+                "$10 till $14",
+                "$22 till $32",
+                "$60 till $85"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Glasnamn och storlekar per delstat",
+          "body": [
+            "Australiska ölglas byter namn vid delstatsgränserna, och samma ord kan betyda olika glas. Beställer du en schooner i Sydney får du 425 ml, men beställer du en i Adelaide får du 285 ml, eftersom folk i South Australia kallar glaset på 425 ml för pint och glaset på 570 ml för imperial pint.",
+            "Är du osäker kan du be om storleken med vanliga ord, eller helt enkelt säga liten, mellan eller stor. Baren är van vid besökare, och prislistan på väggen brukar ange vad glasen heter."
+          ],
+          "tips": [
+            "Schooner betyder 285 ml i SA",
+            "Be om liten, mellan eller stor",
+            "En tillbringare (jug) rymmer cirka 1,1 liter"
+          ],
+          "table": {
+            "caption": "Vanliga namn på glas med fatöl per delstat och territorium. Namnen varierar mellan pubar, särskilt för glaset på 285 ml.",
+            "head": [
+              "Delstat eller territorium",
+              "285 ml",
+              "425 ml",
+              "570 ml"
+            ],
+            "rows": [
+              [
+                "New South Wales och ACT",
+                "Middy",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Victoria",
+                "Pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Queensland",
+                "Pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "South Australia",
+                "Schooner",
+                "Pint",
+                "Imperial pint"
+              ],
+              [
+                "Western Australia",
+                "Middy",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Tasmania",
+                "Ten eller pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Northern Territory",
+                "Handle eller middy",
+                "Schooner",
+                "Pint"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Butikspriser och barpriser är olika saker",
+          "body": [
+            "Ett pubpris inkluderar lokalen, personalen och servicen, inte bara drycken. Jämför lika med lika och beskriv inte priset i en bottle shop som priset på en dryck som någon hällt upp åt dig. Standardglas (standard drinks) gör jämförelsen rättvis: Healthy WA anger att ett standardglas är 10 gram alkohol, den mängd som finns i 285 ml starköl eller 100 ml vin, så en öl på 500 ml motsvarar cirka 1,75 standardglas och en vinflaska på 750 ml cirka 7,5.",
+            "Per standardglas kostar puböl cirka $4 till $9, en slab från bottle shopen cirka $1,60 till $2,20 och en vinflaska i mellanklassen cirka $1,60 till $4. Mellanöl (mid-strength), som säljs på fat nästan överallt, har ungefär en fjärdedel mindre alkohol för nästan samma pris."
+          ],
+          "tips": [
+            "285 ml starköl: ett standardglas",
+            "Öl i slab: cirka $2 per standardglas",
+            "Mellanöl kostar ungefär lika mycket"
+          ]
+        },
+        {
+          "heading": "Happy hour och de billigaste sätten att dricka",
+          "body": [
+            "Många pubar har happy hour på vardagseftermiddagar, ofta runt 16 till 18, med schooner för cirka $6 till $9. Vissa lägger till billiga tillbringare, en öl till maten eller en kväll med biff och schooner. Se det som en bonus snarare än en budget: erbjudandena ändras ofta och många gäller bara vardagar.",
+            "Klubbar som RSL, bowlingklubbar och surfklubbar (surf clubs) tar oftast mindre än pubar, och besökare är välkomna: du skriver in dig i dörren med foto-id och blir tillfällig medlem för dagen.",
+            "Billigast av allt är en slab eller en boxvin (cask) från bottle shopen, kyld i husbilens kylskåp eller i kylväskan (esky) och dricks tillbaka på lägret. Kolla campingreglerna först, för vissa nationalparker och kommunala platser, och många stränder och parker i stan, förbjuder alkohol eller begränsar den vid vissa tider."
+          ],
+          "tips": [
+            "Happy hour på vardagar: cirka 16 till 18",
+            "Klubbar välkomnar besökare med id",
+            "Kolla alkoholreglerna på lägret"
+          ]
+        },
+        {
+          "heading": "Köpa alkohol i Australien",
+          "body": [
+            "Förpackad alkohol säljs mest i licensierade bottle shops, ofta bredvid en matbutik men med separat verksamhet, även om Aldi och en del fristående livsmedelsbutiker säljer den i butiken. Öppettiderna är reglerade och varierar mellan delstaterna. Du måste vara 18 för att köpa alkohol, och personalen ber alla som ser yngre ut än 25 om foto-id: pass eller körkort.",
+            "Alkoholrestriktioner gäller i många samhällen och regioner, särskilt i Northern Territory, delar av <a data-guide=\"camping-rules-queensland\">Queensland</a>, Western Australia och South Australia. Att ta med alkohol in i ett begränsat område ger kraftiga påföljder.",
+            "Kolla innan du reser med alkohol till avlägsna områden. Restriktionerna efterlevs med lagens hjälp, gäller besökare lika mycket som invånare, och okunskap är inget försvar."
+          ],
+          "tips": [
+            "Mest bottle shops, ibland matbutiker",
+            "Ta med foto-id",
+            "Kolla innan du kommer till avlägsna regioner"
+          ]
+        },
+        {
+          "heading": "Alkohol och körning",
+          "body": [
+            "Den allmänna gränsen är 0,05 för förare med fullständigt körkort, noll för förare med övningskörkort och provisoriskt körkort, och noll eller 0,02 för många yrkesförare beroende på delstat (0,02 i NSW). Slumpmässiga utandningsprov är vanliga, även på landsvägar och mitt på dagen.",
+            "På en roadtrip är det enda säkra att hålla isär drickandet och körandet helt: stanna där du dricker, ha en nykter förare eller drick först när fordonet är parkerat för natten.",
+            "Körning morgonen efter fäller många. Kroppen behöver minst en timme för varje standardglas, ofta längre, och kaffe eller en dusch gör det inte snabbare, så en tung kväll kan lämna dig över gränsen långt in på nästa förmiddag."
+          ],
+          "tips": [
+            "0,05 gäller i allmänhet, noll för nybörjare",
+            "Slumpmässiga prov är vanliga, även på dagen",
+            "Körning morgonen efter är fällan"
+          ]
+        },
+        {
+          "heading": "Vin i bottle shopen och i baren",
+          "body": [
+            "En vinflaska på 750 ml i mellanklassen kostar cirka $12 till $29 i en bottle shop och räcker till ungefär fem glas på 150 ml. Beställer du samma vin på glas i en bar eller på en restaurang kostar det oftast $10 till $16 per glas, så en flaska som delas på lägret är det billigaste sättet att dricka vin.",
+            "Vissa restauranger, mest sådana utan egna utskänkningstillstånd, låter dig ta med egen flaska mot en korkavgift (corkage), vilket gör ett bottle shop-pris till ett middagsvin. Fråga om det när du bokar i stället för vid bordet."
+          ],
+          "tips": [
+            "Flaska i mellanklassen: $12 till $29",
             "Cirka fem glas per flaska",
             "Fråga om BYO när du bokar"
           ]
         },
         {
-          "heading": "Ha koll på vad du dricker upp varje dag",
+          "heading": "Kaffe är en daglig utgift",
           "body": [
-            "Två kaffe och två glas på krogen om dagen blir en rejäl summa på en vecka. Bestäm vilka stopp som är värda pengarna i stället för att köpa av vana.",
-            "Ha <a data-guide=\"camping-water-planning\">dricksvatten</a> nära till hands och fyll bara på från kranar med dricksvatten. När det är varmt hör vätska och skugga till säkerhetsplaneringen, inte till nöjesbudgeten."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Kaffet är en daglig utgift",
-          "body": [
-            "Australien har en stark kaffekultur, och även i småstäderna på landsbygden håller kaffet riktigt hög klass. Just därför blir det en egen post i budgeten. Med två flat white om dagen för två personer växer summan, utan att det någonsin känns som ett beslut.",
-            "En mokabryggare eller en AeroPress i husbilen ger dig morgonkaffet för en bråkdel av kaféets pris, och kafébesöket blir något du väljer i stället för något du gör per automatik.",
-            "På långa körsträckor är kaffet på roadhouses i bästa fall ojämnt. Längs outbackvägarna är det oftast både billigare och betydligt godare att brygga eget."
+            "En vanlig cappuccino eller flat white kostar cirka $4 till $8, där kaféer i centrala städer ligger i den övre delen. Australiens kaffekultur är stark och nivån i småstäder är genuint hög, och det är precis därför det blir en post i budgeten: två koppar om dagen för två personer läggs ihop utan att det någonsin känns som ett beslut.",
+            "En mokabryggare eller en AeroPress i husbilen räcker till morgonkoppen för en bråkdel av kafépriset och gör kaféstoppet till ett val i stället för en vana. Kaffet på roadhouses under långa körningar i outbacken varierar, så att brygga eget är oftast både billigare och bättre.",
+            "Kranvattnet är säkert och gott i nästan alla australiska städer och orter, så ta med flaskor att fylla på i stället för att köpa vatten. Ute i bushen ska du behandla vatten från borrhål, tank och bäck innan du dricker det. Ska du till Nya Zeeland också? KiwiCamping går igenom <a data-sister=\"beer-wine-coffee-prices-new-zealand\">vad en öl, ett vin och ett kaffe kostar i Nya Zeeland</a>."
           ],
           "tips": [
-            "Två koppar om dagen blir snabbt mycket pengar",
-            "Brygg morgonkaffet själv",
-            "Kaffet på roadhouses varierar"
-          ]
-        },
-        {
-          "heading": "Så köper du alkohol i Australien",
-          "body": [
-            "Alkohol att ta med hem säljs mest i bottle shops med tillstånd, ofta vägg i vägg med en mataffär men drivna som egna butiker. Aldi och en del fristående livsmedelsbutiker säljer dock alkohol i själva butiken. Öppettiderna är reglerade och skiljer sig mellan delstaterna.",
-            "I många samhällen och regioner gäller alkoholrestriktioner, framför allt i Northern Territory och i delar av <a data-guide=\"camping-rules-queensland\">Queensland</a>, Western Australia och South Australia. Den som tar med alkohol in i ett sådant område riskerar kännbara straff.",
-            "Kolla reglerna innan du åker ut i avlägsna områden med alkohol i bilen. Restriktionerna är lagstadgade och kontrolleras. De gäller besökare lika väl som dem som bor där, och okunskap är ingen ursäkt."
-          ],
-          "tips": [
-            "Mest bottle shops, en del snabbköp",
-            "Höga straff i områden med restriktioner",
-            "Kolla reglerna innan du åker ut i avlägsna områden"
-          ]
-        },
-        {
-          "heading": "Promillegränser och körning",
-          "body": [
-            "Den allmänna gränsen är 0,05 procent (0,5 promille) för förare med fullt körkort, noll för övningskörande och förare med provisoriskt körkort, och noll eller 0,02 procent (0,2 promille) för många yrkesförare beroende på delstat (0,02 procent i NSW). Slumpvisa nykterhetskontroller är vanliga, även på landsvägar och mitt på dagen.",
-            "På en roadtrip finns bara ett säkert sätt: håll alkohol och körning helt isär. Sov där du dricker, låt en nykter förare köra eller drick först när bilen står parkerad för natten.",
-            "Det är körningen morgonen efter som fäller många. Kroppen behöver minst en timme för att bryta ner varje standarddrink, ofta längre, och varken kaffe eller en dusch gör att det går fortare, så efter en blöt kväll kan du ligga över gränsen långt in på förmiddagen."
-          ],
-          "tips": [
-            "0,05 procent (0,5 promille) som regel, noll för övningsförare och provisoriskt körkort",
-            "Slumpvisa kontroller, även på dagen",
-            "Morgonen efter är fällan"
-          ]
-        },
-        {
-          "heading": "Vattnet är det viktigaste att få rätt",
-          "body": [
-            "Kranvattnet är säkert och gott i nästan alla australiska städer och samhällen, och att köpa vatten på flaska är i stort sett bortkastade pengar. Ha med flaskor som går att fylla på, och fyll dem vid vilken dricksvattenkran som helst i stan, på campingplatsen eller på andra allmänna platser.",
-            "Ute i bushen och i avlägsna områden är det tvärtom. Brunnsvatten (bore water) kan vara mineralrikt eller olämpligt att dricka, tankvatten är obehandlat, och ytvatten i jordbruksbygder kan innehålla kemikalier. Rena allt vatten som inte kommer från en skyltad dricksvattenkran på orten.",
-            "Skaffa en ordentlig termosflaska så att du alltid har kallt vatten till hands i värmen. Det kostar ingenting att fylla på."
-          ],
-          "tips": [
-            "Kranvattnet i städerna är säkert",
-            "Brunnsvatten duger ofta inte att dricka",
-            "Rena tankvatten och ytvatten"
+            "Cappuccino: $4 till $8",
+            "Gör morgonkoppen själv",
+            "Kranvattnet i städerna är säkert"
           ]
         }
       ],
       "faq": [
         [
           "Vad kostar en öl i Australien?",
-          "En fatöl på 500 ml på en pub i Sydney kostar ungefär 7,15 till 16 AUD enligt användarpriser från oktober 2026, och en flaska på 500 ml från en bottle shop ungefär 3,50 till 12 AUD i hela landet. Att köpa i en bottle shop i stället för på en bar är en av de största besparingarna på en lång resa."
+          "En schooner (425 ml) vanlig öl kostar cirka $8 till $13 på en pub i en stad i november 2026, och en pint (570 ml) cirka $12 till $18. I en bottle shop kostar en sexpack cirka $20 till $28 och en slab om 24 cirka $55 till $72, vilket är mindre än hälften av pubpriset per öl."
+        ],
+        [
+          "Vad kostar en pint i Australien?",
+          "Cirka $12 till $18 för 570 ml vanlig öl på en pub i en stad, med Perth och pubar på landsbygden i den billiga änden och centrala Melbourne och Sydney överst. I South Australia är en pint glaset på 425 ml, som kostar cirka $8,50 till $12. Be om en imperial pint för att få 570 ml."
+        ],
+        [
+          "Var är ölen billigast i Australien?",
+          "Perth och pubar på landsbygden har billigast öl, och klubbar som RSL och bowlingklubbar tar oftast mindre än pubar. Besökare skriver in sig med foto-id. Happy hour på vardagar sänker schoonerpriset till cirka $6 till $9, men en slab från bottle shopen, på cirka $2 per standardglas, är billigast av allt."
         ],
         [
           "Vad kostar kaffe i Australien?",
-          "En vanlig cappuccino kostar ungefär 4,50 till 8 AUD i Sydney och 4 till 8 AUD i hela landet enligt användarpriser från oktober 2026, och kaféerna i innerstäderna ligger ofta i den övre änden. Två koppar kaffe om dagen för två personer blir en riktig budgetpost på en lång resa."
+          "En vanlig cappuccino eller flat white kostar cirka $4 till $8, där kaféer i centrala städer ofta ligger i den övre delen. Två koppar om dagen för två personer blir en riktig post i budgeten på en lång resa, så många campare brygger morgonkoppen själva."
         ]
       ],
       "sources": [
         {
-          "label": "Numbeo: dryckespriser i Sydney"
+          "label": "Numbeo, drickspriser i Australien, uppdaterat november 2026"
         },
         {
-          "label": "Numbeo: butikspriser i Australien"
+          "label": "Australian Taxation Office: skattesatser för alkohol (excise)"
         },
         {
-          "label": "NSW: alkohol och bilkörning"
+          "label": "Healthy WA: vad är ett standardglas"
         },
         {
-          "label": "NHMRC: hur lång tid det tar att bryta ner alkohol"
+          "label": "NSW: riktlinjer om alkohol och bilkörning"
+        },
+        {
+          "label": "NHMRC: hur lång tid alkohol tar att lämna kroppen"
         },
         {
           "label": "Northern Territory: köpa och dricka alkohol"
         },
         {
-          "label": "Healthy WA: vad är en standarddrink"
+          "label": "NSW Government: klubbregler för besökare"
         }
       ],
       "priceTable": {
-        "note": "Användarrapporterade intervall för Australien och Sydney, uppdaterade i oktober 2026. Storleken på glas och kopp, ställe, kampanjer och läge varierar.",
+        "note": "Prisintervall på pub och i bottle shop i städer för vanlig australisk öl i november 2026. Hantverksöl, importöl, ställen vid vattnet och avlägsna områden kostar mer, happy hour och specialerbjudanden kostar mindre.",
         "rows": [
           {
-            "label": "Cappuccino (Sydney)",
+            "label": "Schooner på pub",
+            "unit": "425 ml"
+          },
+          {
+            "label": "Pint på pub",
+            "unit": "570 ml"
+          },
+          {
+            "label": "Sexpack i bottle shop",
+            "unit": "6 x 375 ml"
+          },
+          {
+            "label": "Slab i bottle shop",
+            "unit": "24 x 375 ml"
+          },
+          {
+            "label": "Vin i mellanklassen",
+            "unit": "750 ml, bottle shop"
+          },
+          {
+            "label": "Cappuccino",
             "unit": "en kopp"
-          },
-          {
-            "label": "Fatöl på pub (Sydney)",
-            "unit": "ett glas"
-          },
-          {
-            "label": "Vin i mellanklassen (hela landet)",
-            "unit": "750 ml i butik"
-          },
-          {
-            "label": "Motsvarande australisk öl (hela landet)",
-            "unit": "500 ml i butik"
-          },
-          {
-            "label": "Läsk (Sydney)",
-            "unit": "330 ml på kafé eller krog"
           }
         ]
       }
@@ -29132,6 +29296,608 @@
         },
         {
           "label": "Bureau of Meteorology: klimat per region"
+        }
+      ],
+      "priceTable": null
+    },
+    "cigarette-prices-australia": {
+      "title": "Vad kostar cigaretter i Australien 2027? Paket från $40 till $60",
+      "description": "Ett lagligt paket om 20 kostar cirka $40 till $60 i Australien och en påse rulltobak på 30 g cirka $90 till $120. Priser per delstat, varför skatten är kostnaden, och vapes.",
+      "region": "Australien",
+      "imageAlt": "Ett stängt tobaksskåp i en australisk butik, med neutrala cigarettpaket och tobakspåsar ovanför hyllpriserna",
+      "intro": "Ett lagligt paket med 20 cigaretter kostar cirka $40 till $60 i Australien i november 2026, och en påse rulltobak på 30 g cirka $90 till $120. Paket om 25 och stora påsar finns inte längre: sedan 1 juli 2025 säljs cigaretter bara i paket om 20 och rulltobak bara i påsar på 30 g. Nästan hela priset är federal skatt, så samma paket kostar ungefär lika mycket i Sydney och Perth, med avlägsna orter och Northern Territory något högre. Priserna höjs två gånger om året, så budgetera mer än siffrorna här om du reser under 2027.",
+      "sections": [
+        {
+          "heading": "Vad ett paket om 20 kostar",
+          "body": [
+            "Budgetmärken ligger i den lägre änden, runt $38 till $45 för 20. Vanliga märken som du ser bakom varje servo-disk (servo är australiskt för bensinmack) ligger närmare $50 till $60. Butiker och kedjor sänker och höjer priser vid olika tillfällen, så samma märke kan skilja några dollar mellan två butiker på samma gata.",
+            "Om du minns ett paket om 25 från tidigare år eller från vänner hemma finns den storleken inte längre i Australien. Lagen om neutrala paket som trädde i full kraft 1 juli 2025 fastställde alla cigarettpaket till 20, med 10 paket per limpa (carton). Ett paket om 20 är den enda storleken att prissätta."
+          ],
+          "tips": [
+            "Budget: cirka $38 till $45",
+            "Vanliga märken: cirka $50 till $60",
+            "Paket om 25 säljs inte längre"
+          ]
+        },
+        {
+          "heading": "Priser per delstat och territorium",
+          "body": [
+            "Det mesta av priset är federal punktskatt (excise), som är densamma i varje delstat, så delstaten du köper i ändrar priset bara lite. Intervallen nedan är en vägledning om vad butikerna tar för lagliga produkter. <a data-guide=\"camping-rules-northern-territory\">Northern Territory</a> och avlägsna samhällen ligger oftast högre, eftersom frakt och små försäljningsvolymer lägger till hyllpriset, och roadhouse-priset i outbacken kan vara det högsta av alla.",
+            "Det finns ingen officiell prislista per delstat, så se intervallen som det spann du kan förvänta dig, inte som en offert. En snabb blick på hyllan innan du köper säger dig mer än vilken tabell som helst."
+          ],
+          "tips": [
+            "Samma skatt i alla delstater",
+            "NT och avlägsna orter: något högre",
+            "Kolla hyllpriset"
+          ],
+          "table": {
+            "caption": "Typiska hyllpriser för lagliga tobaksprodukter i november 2026. En vägledning att utgå från, inte en offert: butikerna sätter sina egna priser.",
+            "head": [
+              "Delstat eller territorium",
+              "Paket om 20",
+              "Påse på 30 g"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "$40 till $60",
+                "$90 till $120"
+              ],
+              [
+                "Victoria",
+                "$40 till $60",
+                "$90 till $120"
+              ],
+              [
+                "Queensland",
+                "$40 till $60",
+                "$90 till $120"
+              ],
+              [
+                "South Australia",
+                "$40 till $60",
+                "$90 till $120"
+              ],
+              [
+                "Western Australia",
+                "$40 till $60",
+                "$90 till $120"
+              ],
+              [
+                "Tasmania",
+                "$40 till $60",
+                "$90 till $120"
+              ],
+              [
+                "Australian Capital Territory",
+                "$40 till $60",
+                "$90 till $120"
+              ],
+              [
+                "Northern Territory och avlägsna områden",
+                "$45 till $65 eller mer",
+                "$95 till $130 eller mer"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Påsar med rulltobak",
+          "body": [
+            "Rulltobak säljs bara i påsar på 30 g, och en påse räcker till cirka 50 tunna cigaretter. Budgetpåsar kostar runt $90 och premiumpåsar runt $115 eller något mer, så rulltobak är inte mycket billigare per cigarett än ett paket om 20 när du lägger till papper och <a data-guide=\"how-to-use-aussiecamps-filters\">filter</a>.",
+            "Punktskatten på rulltobak tas ut efter vikt, med $2 587,90 per kilo från 1 september 2026. Det blir cirka $78 i skatt i varje påse på 30 g före GST (moms), och därför ligger hyllpriset så nära ett färdigt paket."
+          ],
+          "tips": [
+            "30 g är den enda storleken",
+            "Cirka $90 till $120",
+            "Inte mycket billigare per cigarett"
+          ]
+        },
+        {
+          "heading": "Varför de kostar så mycket",
+          "body": [
+            "Priset är mest skatt. Den federala punktskatten är $1,55274 på varje cigarett från 1 september 2026, upp från $1,52829 i mars, vilket blir cirka $31 på varje paket om 20. Ovanpå det läggs 10 % GST i kassan. Tillsammans blir det cirka 70 % av ett typiskt paket på $50, och ännu mer för ett budgetpaket.",
+            "Satsen ändras två gånger om året, i mars och 1 september, eftersom den följer löneutvecklingen. Dessutom höjdes satsen med ytterligare 5 % varje september från 2023 till 2026, så kostnaden har stigit stadigt i stället för i ett enda hopp. Ett paket som verkar dyrt på en besökares första resa kommer ändå att bli dyrare nästa år."
+          ],
+          "tips": [
+            "Cirka $31 i punktskatt per paket",
+            "Plus 10 % GST",
+            "Höjs varje mars och september"
+          ]
+        },
+        {
+          "heading": "Den årliga höjningen och din resa",
+          "body": [
+            "Eftersom satsen ändras varje mars och september är en siffra från förra året föråldrad när du landar. Räkna som en tumregel med att ett paket 2027 kostar några dollar mer än intervallen för 2026 här, och kolla hyllpriset i din första stad innan du planerar en månads utgifter.",
+            "För en storrökare på en lång resa blir det snabbt mycket pengar. Tio paket i månaden blir cirka $400 till $600. Lägg in det som en egen rad i resebudgeten, så som du gör med bränsle, så att det inte tränger undan matpengarna."
+          ],
+          "tips": [
+            "Räkna med några dollar mer",
+            "Tio paket: $400 till $600",
+            "Ge det en egen budgetrad"
+          ]
+        },
+        {
+          "heading": "Priser på vapes",
+          "body": [
+            "Sedan 1 juli 2024 har vapes bara sålts på apotek, oavsett om de innehåller nikotin eller inte. Vuxna kan köpa nikotinvapes med lägre styrka av en apotekare utan recept i de flesta delstater, efter ett samtal, och starkare produkter kräver recept. Apotek får bara sälja produkterna på TGA:s lista över anmälda vapes.",
+            "Apotekspriserna sätts av tillverkaren och butiken, inte av staten. Räkna med ungefär $30 till $60 för en enkel enhet eller ett paket pods, och mer för ett startkit. De billiga engångsvapes som säljs under disk i vissa butiker är inte lagliga produkter."
+          ],
+          "tips": [
+            "Bara apotek sedan juli 2024",
+            "Cirka $30 till $60 per enhet",
+            "Fråga apotekaren först"
+          ]
+        },
+        {
+          "heading": "Olaglig tobak och olagliga vapes",
+          "body": [
+            "Vissa butiker säljer cigaretter och vapes till en bråkdel av det lagliga priset, ofta i omärkta eller utländska paket och ibland kallade chop chop. De är olagliga, och att köpa dem kan leda till böter och beslag av varorna, med påföljder som skiljer sig mellan delstaterna. De har dessutom inga australiska hälsovarningar.",
+            "Om ett pris verkar för bra för att vara sant jämfört med siffrorna ovan är det nästan säkert det, så håll dig till apotek för vapes och en licensierad <a data-guide=\"where-to-buy-cigarettes-vapes-australia\">tobaksaffär</a> eller en matbutik för tobak."
+          ],
+          "tips": [
+            "Omärkta paket är olagliga",
+            "Köpare kan få böter",
+            "Billigt betyder oftast olagligt"
+          ]
+        },
+        {
+          "heading": "Så spenderar du mindre, lagligt",
+          "body": [
+            "<a data-guide=\"smoking-vaping-rules-australia\">Tullfria kvoten</a> när du anländer är bara 25 cigaretter eller 25 gram tobak, plus ett öppnat paket, för resenärer från 18 år. Tar du med mer måste du deklarera det, och Australian Border Force säger att du antingen lämnar ifrån dig överskottet eller betalar tull på hela mängden. Odeklarerad tobak kan beslagtas och ge böter, så att ta med ett lager hemifrån är inget sätt att spara pengar på en lång resa.",
+            "Att köpa limpa (carton) är inte mycket billigare per cigarett, eftersom skatten är densamma på varje cigarett. De verkliga besparingarna är små: välj ett budgetmärke, köp där en butik har rabatt och undvik roadhouse- och avlägsna priser när du kan. Reglerna för resenärer, inklusive tullfria kvoter, vapes och rökfria platser, går vi igenom i guiden om rök- och vapingregler. Om du röker nära lägret ska du släcka varje fimp helt och ta med den, och följa reglerna för <a data-guide=\"campfires-camping-australia\">totalt eldningsförbud</a>: fimpar och bush hör inte ihop.",
+            "Ska du till Nya Zeeland också? KiwiCamping går igenom <a data-sister=\"cigarette-prices-new-zealand\">vad cigaretter kostar i Nya Zeeland</a>."
+          ],
+          "tips": [
+            "Ta bara med 25 cigaretter",
+            "Limpor sparar lite",
+            "Fimpen släckt, ta med den"
+          ]
+        },
+        {
+          "heading": "Budgetera resan i AussieCamps",
+          "body": [
+            "AussieCamps <a data-guide=\"how-to-use-aussiecamps-filters\">filter</a> sorterar platser efter Kostnad, Gratis eller Betald, så billigare nätter kan ge plats åt resten av budgeten. Lägg till varje stopp i en resa med datum, anteckningar och en att göra-lista, så att påfyllning i de större städerna före en avlägsen etapp blir en del av planen.",
+            "Platsinformation och filter fungerar <a data-guide=\"camping-without-phone-signal\">utan täckning</a>, och körrutten visar avstånd och tid för varje etapp. AussieCamps finns för iPhone."
+          ],
+          "tips": [
+            "Filtrera på Kostnad",
+            "Planera påfyllning före avlägsna etapper",
+            "Bara iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Vad kostar ett cigarettpaket i Australien?",
+          "Ett lagligt paket om 20 kostar oftast cirka $40 till $60 i november 2026, med budgetmärken längst ned och de vanliga märkena överst. Paket om 25 säljs inte längre: sedan 1 juli 2025 måste varje cigarettpaket innehålla exakt 20. Priserna är något lägre på östkusten och högre i Northern Territory och på avlägsna orter."
+        ],
+        [
+          "Varför är cigaretter så dyra i Australien?",
+          "Federal skatt. Punktskatten är $1,55274 på varje cigarett från 1 september 2026, vilket blir cirka $31 på ett paket om 20 innan 10 % GST läggs till. För de flesta märken går ungefär 70 % eller mer av hyllpriset till staten."
+        ],
+        [
+          "Hur många cigaretter får jag ta med till Australien?",
+          "Tullfria kvoten för resenärer från 18 år är 25 cigaretter eller 25 gram tobak, plus ett öppnat paket. Deklarera allt utöver det. Australian Border Force säger att du kan ta in den tillåtna mängden och lämna ifrån dig resten, eller behålla allt och betala tull på hela mängden."
+        ],
+        [
+          "Kan jag köpa en vape i Australien som turist?",
+          "Bara på apotek. Sedan 1 juli 2024 får vapes inte säljas i andra butiker, och närbutiker som säljer dem bryter mot lagen. Vuxna kan köpa nikotinvapes med lägre styrka av en apotekare utan recept i de flesta delstater, efter ett kort samtal."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Australian Taxation Office: skattesatser för tobak (excise)"
+        },
+        {
+          "label": "Australian Border Force: tullfria kvoter"
+        },
+        {
+          "label": "Department of Health: ändringar för tobaksprodukter i Australien"
+        },
+        {
+          "label": "Department of Health: lagar om vaping"
+        },
+        {
+          "label": "Therapeutic Goods Administration: nikotinvapes"
+        },
+        {
+          "label": "Tobacco in Australia: priset på tobaksprodukter"
+        }
+      ],
+      "priceTable": null
+    },
+    "smoking-vaping-rules-australia": {
+      "title": "Rökning och vaping i Australien (2027): regler för resenärer",
+      "description": "Ta med 25 cigaretter eller 25 g tobak tullfritt, vapes säljs bara på apotek, du måste vara 18 och tända fimpar i bushen ger stora böter. Regler för resenärer 2027.",
+      "region": "Australien",
+      "imageAlt": "En skylt med texten This jetty is smoke-free and vape-free på räcket vid Outer Harbor jetty i Adelaide, South Australia",
+      "intro": "Besökare från 18 år kan ta med 25 cigaretter eller 25 g tobak till Australien tullfritt, plus ett öppnat paket, och måste deklarera allt utöver det. Vapes säljs numera bara på apotek, och resenärsundantaget tillåter 2 vapes, 20 pods eller patroner och 200 ml vätska för din egen behandling. Du måste vara 18 för att köpa något av dem, och rökning och vaping är förbjudet på många platser utomhus, från kafébord till bevakade stränder. För campare är det eld som är det stora: en tänd fimp som slängs från en bil eller tappas i torrt gräs kan kosta tusentals dollar. Det här är reglerna som de gäller i november 2026.",
+      "sections": [
+        {
+          "heading": "Vad du får ta med tullfritt",
+          "body": [
+            "Vuxna från 18 år kan ta med tobak till Australien utan tillstånd. Den tullfria kvoten är 25 cigaretter eller 25 g tobaksprodukter, plus ett öppnat paket. Eftersom australiska och de flesta utländska paket innehåller 20 betyder det ett oöppnat paket plus det du röker på. Under 18 år har du ingen tobakskvot alls.",
+            "Går du över gränsen säger Australian Border Force att tull och skatt gäller på hela den varutypen, inte bara på delen över gränsen. Att inte deklarera överskottet kan ge böter, åtal eller indraget visum, beroende på hur mycket du har med dig. Har du mer ska du deklarera det på ditt Incoming Passenger Card, visa inköpskvitto och betala tullen, eller lämna ifrån dig det vid gränsen. Priser på paket i Australien går vi igenom i guiden om <a data-guide=\"cigarette-prices-australia\">cigarettpriser</a>."
+          ],
+          "tips": [
+            "25 cigaretter eller 25 g",
+            "Plus ett öppnat paket",
+            "Deklarera allt utöver det"
+          ]
+        },
+        {
+          "heading": "Vapes för resenärer",
+          "body": [
+            "Sedan 2024 behandlas vapes i Australien som terapeutiska varor. Resenärer kan ta in dem bara enligt ett resenärsundantag: vapesen måste vara för din egen behandling, eller för någon du tar hand om som reser med dig på samma flyg eller fartyg. Gränserna är 2 vapes totalt, 20 tillbehör som pods, patroner eller kapslar och 200 ml vapevätska.",
+            "Engångsvapes räknas in i de 2. Att posta vapes till dig själv, eller låta en vän skicka dem, är inte tillåtet, och allt över gränsen kan beslagtas. Deklarera dina vapes och ha dem i handbagaget där tjänstemännen kan se dem. Reglerna för att ha dem med på flyget bestäms av ditt flygbolag, så kolla innan du flyger."
+          ],
+          "tips": [
+            "2 vapes, 20 pods, 200 ml",
+            "Bara för eget bruk",
+            "Posta inte vapes till Australien"
+          ]
+        },
+        {
+          "heading": "Köpa vapes och åldersgränsen",
+          "body": [
+            "Vapes säljs bara på apotek i Australien. Sedan oktober 2024 kan apotekare lämna ut nikotinvapes på 20 mg/ml eller lägre till personer från 18 år utan recept, och under 18 år krävs recept. <a data-guide=\"where-to-buy-cigarettes-vapes-australia\">Tobaksaffärer</a>, vapebutiker, servos (bensinmackar) och närbutiker får inte sälja vapes alls, oavsett nikotinhalt.",
+            "Åldersgränsen för att köpa tobak är 18 i alla delstater och territorier, och butiker kan be om foto-id. Besökare får samma fråga som lokalbefolkningen, så ett pass eller ett <a data-guide=\"overseas-driver-licence-australia-state-guide\">utländskt körkort</a> är det säkra att ha med sig. Apotekare kan också berätta om eventuella extra regler i delstaten innan du köper."
+          ],
+          "tips": [
+            "Vapes: bara apotek",
+            "18 för att köpa något",
+            "Ha foto-id med dig"
+          ]
+        },
+        {
+          "heading": "Var du inte får röka eller vapa",
+          "body": [
+            "Lagarna om rökfria miljöer bestäms av varje delstat och territorium, och vaping behandlas som rökning på rökfria platser. Tabellen listar de platser campare oftast stöter på. Många kommuner (councils) lägger till egna regler för lokala stränder, parker och stadskärnor, så håll utkik efter skyltar.",
+            "Nationalparker, stränder och campingplatser har egna regler. Queensland förbjuder rökning inom 10 m från campingplatser och anläggningar i nationalparker, flera delstater förbjuder det mellan flaggorna på bevakade stränder, och många <a data-guide=\"caravan-park-vs-holiday-park\">caravan parks</a> förbjuder det i stugor, servicebyggnader och campingkök. När det råder eldningsförbud behandlar parkvakterna en tänd cigarett utomhus som vilken annan låga som helst.",
+            "Böterna anges i straffenheter (penalty units) eller fasta belopp som ändras varje år, så tabellen ger en vägledning snarare än en exakt siffra."
+          ],
+          "tips": [
+            "Vaping räknas också",
+            "Titta efter lokala skyltar",
+            "Böterna ändras varje år"
+          ],
+          "table": {
+            "caption": "Rökfria platser utomhus per delstat och territorium, från delstaternas hälsosidor lästa i november 2026. Kolla den aktuella delstatssidan innan du litar på en siffra.",
+            "head": [
+              "Delstat",
+              "Rökfria platser utomhus värda att känna till",
+              "Typiskt ordningsbot"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "Kommersiella uteserveringar, inom 4 m från entréer till offentliga byggnader, hållplatser och plattformar för kollektivtrafik, och många kommuner lägger till stränder och parker",
+                "$300"
+              ],
+              [
+                "Victoria",
+                "Uteserveringar, inom 10 m från lekplatser och skateparker, vid idrottsevenemang för under 18-åringar och vid matmarknader",
+                "Ungefär en eller två straffenheter, några hundra dollar"
+              ],
+              [
+                "Queensland",
+                "Mellan flaggorna på bevakade stränder, inom 10 m från campingplatser och anläggningar i nationalparker, 5 m från hållplatser och 10 m från lekplatser",
+                "Två straffenheter"
+              ],
+              [
+                "South Australia",
+                "Uteserveringar, lekplatser och väntskjul för kollektivtrafik, plus nyare zoner utomhus sedan mars 2024",
+                "$105"
+              ],
+              [
+                "Western Australia",
+                "Matplatser utomhus, inom 10 m från lekutrustning och mellan flaggorna på bevakade stränder",
+                "$300 för uteservering"
+              ],
+              [
+                "Tasmania",
+                "Uteserveringar, inom 3 m från entréer, inom 10 m från lekplatser, bevakade stränder och evenemang utomhus",
+                "Ungefär $350 till $400"
+              ],
+              [
+                "Northern Territory",
+                "Uteserveringar utan utskänkningstillstånd, offentliga evenemang och deras omgivningar samt lekplatser för barn",
+                "Anges i straffenheter"
+              ],
+              [
+                "Australian Capital Territory",
+                "Mat- och dryckesområden utomhus och inom 10 m från lekutrustning",
+                "Anges i straffenheter"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Rökning i bilar med barn",
+          "body": [
+            "Varje delstat och territorium förbjuder rökning i en bil med ett barn i, även om fönstren är nere eller bilen står parkerad. Barnets ålder som räknas är under 16 i <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a>, Queensland, South Australia, Northern Territory och ACT, under 17 i Western Australia och under 18 i Victoria och Tasmania. Vaping omfattas också.",
+            "I en hyrbil eller husbil gäller samma regel, och uthyraren kan dessutom ta ut en städavgift för röklukt. Röker du, gå bort från fordonet och släpp ut passagerarna först."
+          ],
+          "tips": [
+            "Olagligt i alla delstater",
+            "Fönstren nere är ingen ursäkt",
+            "Hyrbilar tar städavgift"
+          ]
+        },
+        {
+          "heading": "Eldningsförbud, fimpar och böter",
+          "body": [
+            "En dag med <a data-guide=\"campfires-camping-australia\">totalt eldningsförbud</a> är allt som kan starta en brand utomhus ett problem, och att kasta en tänd cigarett är ett brott i varje delstat. I New South Wales kan en tänd fimp ge ett ordningsbot från cirka $660, som fördubblas till cirka $1 320 en dag med totalt eldningsförbud. I domstol är maxbeloppet $5 500, eller $11 000 en dag med totalt eldningsförbud. Förare får dessutom prickar, 5 normalt och 10 en dag med totalt eldningsförbud.",
+            "Att kasta en fimp från en bil behandlas som farlig nedskräpning i Victoria och <a data-guide=\"camping-rules-queensland\">Queensland</a>, med böter som löper upp till flera hundra dollar på platsen och betydligt mer i domstol. Till och med en fimp på marken är skräp. I bushen kan den starta en brand som når en campingplats eller en stad.",
+            "Ha en fimpburk eller bärbar askkopp med dig, och släck aldrig en cigarett i torrt gräs eller bland löv. Vissa delstater låter dig anmäla personer som kastar tända fimpar: i <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a> kan du ringa Bush Fire Information Line på 1800 679 737."
+          ],
+          "tips": [
+            "Fimpburk i bilen",
+            "Aldrig i torrt gräs",
+            "Anmäl tända fimpar från bilar"
+          ]
+        },
+        {
+          "heading": "Böter i korthet, och en campares plan",
+          "body": [
+            "Sammanfattat: tobak över gränsen kostar tull på allt eller att du förlorar den, rökning på en rökfri plats kostar från cirka $100 till några hundra dollar, och en tänd fimp som kastas från ett fordon kostar hundratals dollar på platsen och tusentals i domstol.",
+            "På en campingtur bör du välja en plats med utrymme bort från tält och torrt gräs, kolla brandrisken (fire danger rating) varje morgon och hålla fimpburken stängd när du är klar. Parkmyndigheternas sidor och skyltarna på campingplatsen anger var rökning inte är tillåten. Ska du till Nya Zeeland också? KiwiCamping går igenom <a data-sister=\"smoking-vaping-rules-new-zealand\">reglerna för rökning och vaping i Nya Zeeland</a>."
+          ],
+          "tips": [
+            "Kolla brandrisken varje dag",
+            "Kolla parkens rökfria områden",
+            "Släck aldrig i gräs"
+          ]
+        },
+        {
+          "heading": "Planera efter reglerna i AussieCamps",
+          "body": [
+            "AussieCamps visar de campingplatser som parkmyndigheterna publicerar, med filtret \"Popular features\" för toaletter, dricksvatten, duschar och <a data-guide=\"campfires-camping-australia\">lägereldar</a>. Använd filtret \"Cost\" för att jämföra gratis och betalda platser, och lägg till stopp i en resa med datum, anteckningar, väder och en \"To-do list\" så att du kommer ihåg fimpburken och ditt id.",
+            "Platsinformation, sökning och filter fungerar <a data-guide=\"camping-without-phone-signal\">utan täckning</a>, eftersom katalogen finns i appen. Kartan, ruttplaneringen och vädret kräver uppkoppling, och AussieCamps finns för iPhone."
+          ],
+          "tips": [
+            "Filtrera på lägereldar och faciliteter",
+            "Lägg fimpburken på att göra-listan",
+            "Bara iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hur många cigaretter får jag ta med till Australien?",
+          "Resenärer från 18 år kan ta med 25 cigaretter eller 25 g tobaksprodukter, plus ett öppnat paket, utan att betala tull. Eftersom paketen innehåller 20 blir det i praktiken ett oöppnat paket och det du röker på. Tar du med mer och inte deklarerar det kan du tvingas betala tull på allt eller lämna ifrån dig det, och du kan riskera böter eller åtal. Deklarera allt över gränsen vid gränskontrollen."
+        ],
+        [
+          "Kan jag ta med en vape till Australien?",
+          "Bara i små mängder och bara för din egen behandling eller för någon du tar hand om som reser med dig. Gränsen är 2 vapes, 20 tillbehör som pods eller patroner och 200 ml vapevätska. Vapes kan inte postas till dig, och du kan inte köpa dem i en butik i Australien."
+        ],
+        [
+          "Vilken är rökåldern i Australien?",
+          "Du måste vara 18 för att köpa tobak eller vapes var som helst i Australien, och butiker kan be om foto-id. Turister får samma fråga som lokalbefolkningen, så ha pass eller körkort med dig."
+        ],
+        [
+          "Får jag röka på en campingplats i Australien?",
+          "Oftast ja på din egen plats, men inte överallt. I nationalparkerna i Queensland är rökning och vaping förbjudet inom 10 m från campingplatser och anläggningar som toaletter och picknickbord. En dag med totalt eldningsförbud, eller i torr bush, är det säkraste svaret att inte röka utomhus alls."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Australian Border Force: tullfria undantag"
+        },
+        {
+          "label": "Office of Drug Control: vapes och resenärsundantaget"
+        },
+        {
+          "label": "TGA: information om vapes för patienter och konsumenter"
+        },
+        {
+          "label": "Queensland Government: rökförbud i Queensland"
+        },
+        {
+          "label": "NSW Health: lagar om rökfria kommersiella uteserveringar"
+        },
+        {
+          "label": "Victorian Government: råd om rökning och vaping till föräldrar"
+        },
+        {
+          "label": "NSW Rural Fire Service: nya och höjda böter"
+        }
+      ],
+      "priceTable": null
+    },
+    "where-to-buy-cigarettes-vapes-australia": {
+      "title": "Var köper man cigaretter och vapes i Australien? (2027)",
+      "description": "Cigaretter säljs vid matbutikernas servicedisk, på servos och i tobaksaffärer, vapes bara på apotek. Var du köper, id-regler och vad du kan räkna med i outbacken.",
+      "region": "Australien",
+      "imageAlt": "Nullarbor Roadhouse i South Australia, med ett road train och en husbil parkerade vid bensinpumparna och butiken",
+      "intro": "Cigaretter säljs vid matbutikernas servicedisk, på bensinmackar, i närbutiker och tobaksaffärer, och du måste vara 18 eller äldre för att köpa dem. Vapes är något annat: sedan 1 juli 2024 får de bara säljas på apotek, och vuxna kan köpa nikotinvapes på 20 mg/ml eller mindre av en apotekare utan recept. Ute på landet krymper utbudet till ett roadhouse eller en lanthandel (general store), oftast med färre märken och högre priser, så fyll på i en större stad före en avlägsen etapp. Priserna stiger varje år, så kolla hyllan i stället för att lita på en siffra från förra året.",
+      "sections": [
+        {
+          "heading": "Var du köper, i korthet",
+          "body": [
+            "Cigaretter är lätta att hitta i varje stad av rimlig storlek, och butikstypen avgör utbud och pris. Vapes är ett särfall och finns bara på apotek.",
+            "Vad butikerna har varierar mellan kedjor och från år till år, så se tabellen som det vanliga mönstret, inte som ett löfte för varje butik."
+          ],
+          "tips": [
+            "Cigaretter: många butiker",
+            "Vapes: bara apotek",
+            "Utbudet krymper i outbacken"
+          ],
+          "table": {
+            "caption": "Var resenärer oftast köper tobak och vapes i Australien, november 2026. Utbud och priser varierar mellan butiker.",
+            "head": [
+              "Var",
+              "Vad de säljer",
+              "Anmärkningar"
+            ],
+            "rows": [
+              [
+                "Matbutiker",
+                "Cigaretter och rulltobak, inga vapes",
+                "Coles, Woolworths och IGA säljer det vid en servicedisk eller kiosk, Aldi säljer inte tobak"
+              ],
+              [
+                "Bensinmackar och närbutiker",
+                "Cigaretter och rulltobak, inga vapes",
+                "Öppna sent och överallt, men ofta det dyraste alternativet"
+              ],
+              [
+                "Tobaksaffärer",
+                "Bredaste utbudet av cigaretter och tobak, inga vapes",
+                "Specialbutiker, bäst för mer ovanliga märken"
+              ],
+              [
+                "Bottle shops och pubar",
+                "Cigaretter hos vissa",
+                "Alla har det inte, så fråga först"
+              ],
+              [
+                "Apotek",
+                "Nikotinvapes på 20 mg/ml eller mindre, efter ett samtal med apotekaren",
+                "Den enda lagliga platsen för vapes, begränsade smaker, alla apotek har dem inte"
+              ],
+              [
+                "Roadhouses och avlägsna butiker",
+                "Några märken cigaretter, ibland tobak",
+                "Högre priser, kortare öppettider, inga vapes"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Matbutiker och bottle shops",
+          "body": [
+            "Coles, Woolworths och IGA säljer cigaretter, men du ser dem inte på någon hylla. På grund av förbud mot exponering förvaras paketen i stängda skåp, så du frågar vid en servicedisk eller kiosk och nämner märket. Matbutikskedjorna har dragit ned på tobak, och en del av deras spritbutiker har slutat sälja den, så utbudet varierar mellan butikerna. Aldi säljer ingen tobak alls.",
+            "Vissa bottle shops och pubars bottle shops säljer cigaretter och andra inte, så fråga innan du planerar att lita på en. En servicedisk i en matbutik är ett bra val när du ändå storhandlar, eftersom priserna oftast ligger i linje med resten av staden och du redan är där."
+          ],
+          "tips": [
+            "Fråga vid servicedisken",
+            "Aldi säljer ingen tobak",
+            "Fråga bottle shops först"
+          ]
+        },
+        {
+          "heading": "Bensinmackar och närbutiker",
+          "body": [
+            "Servos från Ampol, BP, 7-Eleven och de fristående säljer nästan alltid cigaretter, oftast vid en disk bakom kassan, och många har öppet sent eller hela natten. Det gör dem till det enklaste alternativet när du kommer till en stad efter att matbutikerna har stängt.",
+            "Priset för den bekvämligheten är ett högre pris. En servo är ofta stadens dyraste ställe för ett paket, så köper du för några veckor blir det oftast billigare vid en servicedisk i en matbutik eller i en tobaksaffär. Guiden om <a data-guide=\"cigarette-prices-australia\">cigarettpriser</a> har de vanliga intervallen för ett paket och en påse."
+          ],
+          "tips": [
+            "Öppet sent, ofta dyrast",
+            "Okej för ett nödpaket",
+            "Billigare i en matbutik"
+          ]
+        },
+        {
+          "heading": "Tobaksaffärer och olagliga butiker",
+          "body": [
+            "Tobaksaffärer är specialbutiker med det bredaste utbudet av cigaretter och rulltobak, och de kan beställa eller visa dig märken som matbutikerna inte har. Flera delstater kräver nu att en butik har ett tillstånd för detaljhandel med tobak, och i <a data-guide=\"camping-rules-victoria\">Victoria</a> har tillståndskravet tillämpats sedan 1 februari 2026. Ett tillståndsnummer eller certifikat visas ofta i butiken.",
+            "Var försiktig med butiker som säljer mycket billiga cigaretter eller vapes. Olaglig, obeskattad tobak och olagliga vapes säljs i vissa butiker, och det är mot lagen att sälja eller köpa dem. De kan beslagtas och köpare kan få böter, med påföljder som skiljer sig mellan delstaterna. Lagliga cigaretter kommer i neutrala olivbruna paket med stora bildvarningar på engelska, så ett färgglatt eller utländskt paket, ingen engelsk varning eller ett pris långt under det vanliga intervallet är en varningssignal."
+          ],
+          "tips": [
+            "Bredaste utbudet av märken",
+            "Neutrala paket, varningar på engelska",
+            "Mycket billigt betyder oftast olagligt"
+          ]
+        },
+        {
+          "heading": "Id och åldersregler",
+          "body": [
+            "Du måste vara 18 eller äldre för att köpa cigaretter, rulltobak eller en vape var som helst i Australien, och en säljare kan vägra sälja till dig utan åldersbevis. Många butiker ber om id av alla som ser yngre ut än 25, så räkna med att få frågan och ta det inte personligt.",
+            "Ha med pass eller australiskt körkort, eller ett körkort från ditt hemland om det visar ditt foto och födelsedatum. Personalen avgör vad de godtar, så ha originalet på dig i stället för en kopia. Guiden om <a data-guide=\"smoking-vaping-rules-australia\">regler för rökning och vaping</a> tar upp var rökning inte är tillåten."
+          ],
+          "tips": [
+            "Bara från 18",
+            "Ofta frågan om du ser yngre ut än 25",
+            "Ha original-id med foto"
+          ]
+        },
+        {
+          "heading": "Köpa en vape",
+          "body": [
+            "Vapes får bara säljas på apotek. Tobaksaffärer, vapebutiker och närbutiker får inte sälja dem, oavsett om de innehåller nikotin, och engångsvapes är förbjudna. En butik som säljer dem över disk bryter mot lagen.",
+            "Vuxna kan köpa en nikotinvape på 20 mg/ml eller mindre av en apotekare utan recept, efter ett kort samtal, där delstaternas och territoriernas lagar tillåter det. Högre styrkor kräver recept. Smakerna är begränsade till osmaksatt, mint, mentol och tobak. Alla apotek har inte vapes, så ring i förväg eller fråga i ett större."
+          ],
+          "tips": [
+            "Bara apotek",
+            "Inga engångsvapes",
+            "Mint, mentol, tobak"
+          ]
+        },
+        {
+          "heading": "I outbacken och på avlägsna vägar",
+          "body": [
+            "Roadhouses och avlägsna lanthandlar säljer oftast cigaretter, men utbudet kan vara några få märken och priset är högre än i stan. Rulltobak kan vara begränsad, och om butiken tar slut kan nästa ligga hundratals kilometer bort. Vissa avlägsna samhällen sätter egna regler för vad butikerna får sälja, så fråga innan du räknar med en butik i ett samhälle och följ skyltar om restriktioner.",
+            "Apotek är glest utanför de större städerna, så vapar du ska du köpa innan du åker. De flesta roadhouses tar kort, men avbrott förekommer och öppettiderna är kortare, ofta stänger de tidigt på kvällen, så ha lite kontanter med dig och handla före mörkret. Några extra paket för en lång etapp är billigare än en påfyllning på ett roadhouse."
+          ],
+          "tips": [
+            "Köp före avlägsna etapper",
+            "Vapare: planera efter apoteken",
+            "Ha lite kontanter"
+          ]
+        },
+        {
+          "heading": "På vägen och på lägret",
+          "body": [
+            "Värme är tufft för tobak och vapes. Lämna inte paket, påsar eller en vape i en varm bil eller en stängd husbil, där de kan torka ut eller bli förstörda, och håll en vape borta från direkt sol. En väska på en skuggig plats eller ett fack i kylväskan är bättre.",
+            "Röker du, gör det på avstånd från lägret och tälten, och kolla brandrisken (fire danger rating). Vid <a data-guide=\"campfires-camping-australia\">totalt eldningsförbud</a> är en tänd cigarett en verklig risk, och vissa campingplatser, stränder och nationalparker är rökfria. Släck varje fimp helt och ta med den, lämna den aldrig på marken. Ska du till Nya Zeeland också? KiwiCamping går igenom <a data-sister=\"where-to-buy-cigarettes-vapes-new-zealand\">var man köper cigaretter och vapes i Nya Zeeland</a>."
+          ],
+          "tips": [
+            "Håll borta från varma bilar",
+            "Kolla brandrisken",
+            "Ta med fimparna"
+          ]
+        },
+        {
+          "heading": "Planera dina påfyllningsstopp i AussieCamps",
+          "body": [
+            "I AussieCamps kan du lägga till varje stopp i en resa med datum och anteckningar, och körrutten visar avstånd och tid för varje etapp. Då är det enkelt att se den sista större staden före en avlägsen sträcka och notera den som platsen att fylla på.",
+            "Platsinformation, sökning och filter fungerar utan täckning, så du kan kolla en campingplats faciliteter, som dricksvatten, toaletter och <a data-guide=\"campfires-camping-australia\">lägereldar</a>, när du är utanför räckvidden. AussieCamps finns för iPhone."
+          ],
+          "tips": [
+            "Se avståndet för varje etapp",
+            "Notera städer att fylla på i",
+            "Bara iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Var kan jag köpa cigaretter i Australien?",
+          "I matbutiker som Coles, Woolworths och IGA, på bensinmackar och i närbutiker, och i tobaksaffärer, som har det bredaste utbudet. Aldi säljer inte tobak. I matbutikerna förvaras cigaretter utom synhåll och du frågar vid servicedisken."
+        ],
+        [
+          "Var kan jag köpa en vape i Australien?",
+          "Bara på apotek. Sedan 1 juli 2024 får vapes inte säljas av tobaksaffärer, vapebutiker eller närbutiker, och engångsvapes är förbjudna. Vuxna kan köpa nikotinvapes på 20 mg/ml eller mindre av en apotekare utan recept, efter ett kort samtal, men alla apotek har dem inte."
+        ],
+        [
+          "Behöver jag id för att köpa cigaretter i Australien?",
+          "Du måste vara 18 eller äldre, och personalen kan be om åldersbevis. Ha med pass eller australiskt körkort, eftersom en kopia eller ett foto i telefonen kanske inte godtas. Butiker frågar ofta alla som ser yngre ut än 25."
+        ],
+        [
+          "Kan jag köpa cigaretter i outbacken?",
+          "Oftast ja på roadhouses och i lanthandlar, men med ett litet utbud av märken till högre priser. Vissa butiker i avlägsna samhällen har egna regler för vad de säljer, och apotek är glest, så köp det du behöver i en större stad före en avlägsen etapp."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Department of Health: om vaping"
+        },
+        {
+          "label": "Department of Health: ändringar för vaping i Australien från 1 juli"
+        },
+        {
+          "label": "Therapeutic Goods Administration: reformer av regleringen av vapes"
+        },
+        {
+          "label": "Therapeutic Goods Administration: information om nikotinvapes för konsumenter"
+        },
+        {
+          "label": "Victorian Government: tobakstillstånd"
+        },
+        {
+          "label": "Department of Health: ändringar för tobaksprodukter i Australien"
         }
       ],
       "priceTable": null

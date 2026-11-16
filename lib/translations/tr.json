@@ -8102,145 +8102,309 @@
       }
     },
     "alcohol-coffee-drink-prices-australia": {
-      "title": "Avustralya’da Bira ve Kahve Fiyatları 2027: Pub Birası $7 ila $16",
-      "description": "Sydney’de (Ekim 2026) pub birası $7 ila $16, cappuccino $4.50 ila $8. Standart içki başına pub birası $4 ila $9, bottle shop şarabı $1.60 ila $4.",
+      "title": "Avustralya'da Bira Ne Kadar? Pub ve Bottle Shop Fiyatları (2027)",
+      "description": "Avustralya şehirlerinde bir pub schooner'ı $8 ile $13, bir pint ise $12 ile $18 arasında (Kasım 2026). 24'lük slab $55 ile $72. Şehre göre fiyatlar, bardak adları, happy hour.",
       "region": "Avustralya",
-      "imageAlt": "Masada Avustralya kafe içecekleri",
-      "intro": "Ekim 2026’da güncellenen topluluk fiyat verilerine göre Sydney’de bir pubda 500 ml fıçı bira yaklaşık $7 ila $16, cappuccino $4.50 ila $8 tutar; bottle shop’tan 500 ml şişe bira ise ülke genelinde yaklaşık $3.50 ila $12 arasındadır. Standart içki başına bu, pubda yaklaşık $4 ila $9, bottle shop birasında $2 ila $7 ve orta segment bir şişe şarapta $1.60 ila $4 eder; yani kampa götürmek için alınan içkiler en iyi değerdir.",
+      "imageAlt": "Masanın üzerinde Avustralya kafe içecekleri",
+      "intro": "Kasım 2026'da Avustralya'daki bir şehir pub'ında bir schooner bira (425 ml) yaklaşık $8 ile $13, bir pint (570 ml) ise yaklaşık $12 ile $18 tutuyor. Perth ve kırsal pub'lar ucuz uçta, iç Sydney ve Melbourne ise en pahalı. Bottle shop'ta sıradan birada altılı paket yaklaşık $20 ile $28; 24'lük slab yaklaşık $55 ile $72; bu da bira başına pub fiyatının yarısından azı demek. Yani kampa götürmek için alınan içecekler açık ara en iyi fiyatlı seçenek.",
       "sections": [
         {
-          "heading": "Perakende ve mekan fiyatları farklı ürünlerdir",
+          "heading": "Şehre göre bira fiyatları",
           "body": [
-            "Bir pub fiyatı yalnızca içeceği değil, mekanı, personeli ve servisi de içerir. Eşit şartlarda karşılaştırın ve bottle shop’taki karşılığı, servis edilen bir içkinin fiyatı gibi göstermeyin. Standart içkiler karşılaştırmayı adil kılar: Healthy WA bir standart içkiyi 10 gram alkol olarak tanımlar; bu, 285 ml tam alkollü birada ya da 100 ml şarapta bulunan miktardır. Dolayısıyla 500 ml bira yaklaşık 1.75, 750 ml’lik bir şişe şarap yaklaşık 7.5 standart içkidir.",
-            "Happy hour’lar ve promosyonlar geçicidir. Bütçeyi olağan aralıktan kurun, indirimi ise pay olarak görün."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Bottle shop’ta ve barda şarap",
-          "body": [
-            "Orta segment 750 ml’lik bir şişe şarap bottle shop’ta yaklaşık $12 ila $30 tutar ve yaklaşık beş adet 150 ml’lik kadeh çıkarır. Bir barda ya da restoranda kadehle sipariş edildiğinde aynı şarap porsiyon başına genellikle epey daha pahalıdır; yani şarap en ucuz, kampta paylaşılan bir şişedir.",
-            "Bazı restoranlar, çoğunlukla alkol lisansı olmayanlar, tapa ücreti karşılığında kendi şişenizi getirmenize izin verir; bu da bir bottle shop fiyatını akşam yemeği şarabına çevirir. Bunu masada değil, rezervasyon yaparken sorun."
+            "Tablo, yerel lager veya pale ale gibi sıradan bir birada tipik fiyatları gösteriyor. Pub fiyatı mekâna göre çok değişir: bir banliyö pub'ı ya da kulüp, çatı barından veya liman kenarındaki bir otelden daha ucuza servis yapar; craft bira ise genellikle bardak başına $2 ile $4 ekler.",
+            "Bottle shop fiyatları şehirler arasında daha az değişir, çünkü fiyatın büyük kısmı her yerde aynı olan akaryakıt benzeri federal alkol vergisi, yani excise'tır. Darwin ve outback nakliye yüzünden daha pahalıdır, <a data-guide=\"camping-rules-northern-territory\">Northern Territory</a> bottle shop'larında ise çalışma saatleri ve kimlik konusunda ek kurallar vardır.",
+            "Fiyatların artmaya devam etmesini bekleyin. Paketli birada excise her yıl Şubat ve Ağustos'ta enflasyonla artıyor, bu yüzden bottle shop fiyatları 2027 boyunca yükselecek; fıçı birasındaki vergi ise Ağustos 2027'ye kadar dondurulmuş durumda, bu da pub fiyatlarını daha istikrarlı tutuyor."
           ],
           "tips": [
-            "Orta segment şişe: $12 ila $30",
-            "Şişe başına yaklaşık beş kadeh",
-            "Rezervasyonda BYO’yu sorun"
+            "Perth: en ucuz başkent pint'i",
+            "Sydney ve Melbourne: en pahalı",
+            "Kırsal pub'lar: çoğu zaman en ucuz"
+          ],
+          "table": {
+            "caption": "Kasım 2026'da sıradan bir birada tipik fiyatlar. Schooner 425 ml, pint 570 ml'dir; Adelaide'de 425 ml'lik bardağa pint denir.",
+            "head": [
+              "Şehir",
+              "Pub schooner (425 ml)",
+              "Pub pint (570 ml)",
+              "Altılı paket (bottle shop)",
+              "24'lük slab (bottle shop)"
+            ],
+            "rows": [
+              [
+                "Sydney",
+                "$9 ile $13",
+                "$13 ile $18",
+                "$21 ile $28",
+                "$57 ile $72"
+              ],
+              [
+                "Melbourne",
+                "$9.50 ile $14",
+                "$14 ile $18.50",
+                "$21 ile $28",
+                "$57 ile $72"
+              ],
+              [
+                "Brisbane",
+                "$9 ile $13",
+                "$12 ile $17",
+                "$21 ile $28",
+                "$57 ile $72"
+              ],
+              [
+                "Perth",
+                "$8 ile $12",
+                "$9 ile $15",
+                "$21 ile $28",
+                "$58 ile $72"
+              ],
+              [
+                "Adelaide",
+                "$8.50 ile $12",
+                "$12 ile $16",
+                "$20 ile $27",
+                "$55 ile $70"
+              ],
+              [
+                "Hobart",
+                "$9 ile $12",
+                "$12 ile $16",
+                "$21 ile $28",
+                "$58 ile $72"
+              ],
+              [
+                "Darwin",
+                "$9 ile $13",
+                "$13 ile $18",
+                "$23 ile $30",
+                "$62 ile $80"
+              ],
+              [
+                "Canberra",
+                "$9 ile $12",
+                "$12 ile $17",
+                "$21 ile $28",
+                "$57 ile $72"
+              ],
+              [
+                "Kırsal pub'lar",
+                "$7 ile $10",
+                "$10 ile $14",
+                "$22 ile $32",
+                "$60 ile $85"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Eyalete göre bardak adları ve boyutları",
+          "body": [
+            "Avustralya'da bira bardaklarının adı eyalet sınırlarında değişir ve aynı kelime farklı bir bardak anlamına gelebilir. Sydney'de schooner isterseniz 425 ml alırsınız; Adelaide'de isterseniz 285 ml alırsınız, çünkü Güney Avustralyalılar 425 ml'lik bardağa pint, 570 ml'lik bardağa imperial pint der.",
+            "Emin değilseniz boyutu düz kelimelerle söyleyin ya da kısaca küçük, orta veya büyük deyin. Bar çalışanları ziyaretçilere alışkındır ve duvardaki fiyat listesi genellikle bardakların adını yazar."
+          ],
+          "tips": [
+            "SA'da schooner 285 ml demek",
+            "Küçük, orta veya büyük isteyin",
+            "Jug yaklaşık 1,1 litre"
+          ],
+          "table": {
+            "caption": "Eyalet ve bölgeye göre fıçı bira bardaklarının yaygın adları. Adlar pub'dan pub'a, özellikle 285 ml'lik bardakta, değişir.",
+            "head": [
+              "Eyalet veya bölge",
+              "285 ml",
+              "425 ml",
+              "570 ml"
+            ],
+            "rows": [
+              [
+                "New South Wales ve ACT",
+                "Middy",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Victoria",
+                "Pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Queensland",
+                "Pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Güney Avustralya",
+                "Schooner",
+                "Pint",
+                "Imperial pint"
+              ],
+              [
+                "Batı Avustralya",
+                "Middy",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Tasmanya",
+                "Ten veya pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Northern Territory",
+                "Handle veya middy",
+                "Schooner",
+                "Pint"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Market ve mekân fiyatları farklı ürünlerdir",
+          "body": [
+            "Pub fiyatı yalnızca içeceği değil, mekânı, personeli ve servisi de kapsar. Aynı şeyleri karşılaştırın ve bir bottle shop karşılığını servis edilen içeceğin fiyatı gibi anlatmayın. Standart içki, karşılaştırmayı adil kılar: Healthy WA bir standart içkiyi 10 gram alkol olarak tanımlıyor; bu, 285 ml tam alkollü bira ya da 100 ml şarapta bulunan miktardır. Dolayısıyla 500 ml'lik bir bira yaklaşık 1,75 standart içki, 750 ml'lik bir şişe şarap ise yaklaşık 7,5 standart içkidir.",
+            "Standart içki başına pub birası yaklaşık $4 ile $9, bottle shop'tan slab yaklaşık $1.60 ile $2.20, orta segment bir şişe şarap ise yaklaşık $1.60 ile $4 tutar. Neredeyse her yerde fıçıdan satılan mid-strength bira, hemen hemen aynı fiyata yaklaşık dörtte bir daha az alkol içerir."
+          ],
+          "tips": [
+            "285 ml tam alkollü: bir standart içki",
+            "Slab bira: standart içki başına yaklaşık $2",
+            "Mid-strength yaklaşık aynı fiyat"
           ]
         },
         {
-          "heading": "Sessiz günlük toplamı kontrol edin",
+          "heading": "Happy hour ve en ucuz içme yolları",
           "body": [
-            "Her gün iki kahve ve iki mekan içkisi haftalık olarak hatırı sayılır bir tutara dönüşebilir. Alışkanlıkla almak yerine hangi durakların önemli olduğuna karar verin.",
-            "<a data-guide=\"camping-water-planning\">İçme suyunu</a> erişilebilir tutun ve yalnızca içilebilir musluklardan doldurun. Sıcak havada su ve gölge, eğlence bütçesinde değil güvenlik planında yer alır."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Kahve günlük bir kalemdir",
-          "body": [
-            "Avustralya kahve kültürü güçlüdür ve bölgesel kasabalardaki standart gerçekten yüksektir; bir bütçe kalemine dönüşmesinin nedeni de tam olarak budur. İki kişi için günde iki flat white, hiç karar gibi hissettirmeden birikir.",
-            "Karavanda bir ocak cezvesi ya da AeroPress, sabah fincanını kafe fiyatının çok küçük bir kısmına karşılar ve kafe durağını otomatik değil, seçilmiş bir şey olarak bırakır.",
-            "Uzun yolculuklarda yol üstü tesis kahvesi en iyi ihtimalle değişkendir. Ücra rotalarda kendi kahvenizi yapmak genellikle hem daha ucuz hem de epey daha iyidir."
+            "Birçok pub hafta içi öğleden sonraları, çoğunlukla 16.00 ile 18.00 arasında, schooner'ları yaklaşık $6 ile $9'a satan bir happy hour uygular. Bazıları ucuz jug'lar, yemekle birlikte bira ya da steak ve schooner gecesi ekler. Bunları bütçe planı değil, bonus olarak görün: sık değişirler ve çoğu yalnızca hafta içi geçerlidir.",
+            "RSL'ler, bowls kulüpleri ve surf kulüpleri gibi kulüpler genellikle pub'lardan ucuza servis yapar ve ziyaretçiler kabul edilir: girişte fotoğraflı kimlikle kayıt olur ve o gün için geçici üye olursunuz.",
+            "En ucuz içki hepsinden önce bottle shop'tan alınan bir slab ya da cask'tır; karavandaki buzdolabında veya esky'de soğutulup kampta içilir. Önce kamp kurallarına bakın, çünkü bazı milli park ve belediye alanları ile şehirdeki birçok plaj ve park alkolü yasaklar ya da belirli saatlerde sınırlar."
           ],
           "tips": [
-            "Günde iki fincan hızla birikir",
-            "Sabah fincanını kendiniz yapın",
-            "Yol üstü tesis kahvesi değişkendir"
+            "Hafta içi happy hour: yaklaşık 16.00 ile 18.00",
+            "Kulüpler kimlikli ziyaretçileri kabul eder",
+            "Kampta alkol kurallarına bakın"
           ]
         },
         {
-          "heading": "Avustralya’da alkol satın almak",
+          "heading": "Avustralya'da alkol satın almak",
           "body": [
-            "Paketli alkol çoğunlukla lisanslı bottle shop’lar aracılığıyla satılır; bunlar genellikle bir marketin yanındadır ama ayrı işletilir, ancak Aldi ve bazı bağımsız bakkallar mağaza içinde satar. Çalışma saatleri düzenlenmiştir ve eyalete göre değişir.",
-            "Alkol kısıtlamaları birçok topluluk ve bölgede geçerlidir; özellikle Northern Territory, <a data-guide=\"camping-rules-queensland\">Queensland</a>’in bazı kısımları, Western Australia ve South Australia’da. Alkolü kısıtlı bir bölgeye sokmak ağır cezalara yol açar.",
-            "Ücra bölgelere alkolle seyahat etmeden önce kontrol edin. Kısıtlamalar yasal olarak uygulanır, sakinler kadar ziyaretçiler için de geçerlidir ve bilmemek savunma değildir."
+            "Paketli alkol çoğunlukla lisanslı bottle shop'lardan satılır; bunlar sıklıkla süpermarketin yanındadır ama ayrı işletilir, yine de Aldi ve bazı bağımsız marketler mağaza içinde de satar. Çalışma saatleri düzenlenmiştir ve eyalete göre değişir. Alkol almak için 18 yaşında olmalısınız ve 25'ten genç görünen herkesten fotoğraflı kimlik istenir: pasaport ya da ehliyet.",
+            "Alkol kısıtlamaları birçok toplulukta ve bölgede geçerlidir; özellikle Northern Territory'de, <a data-guide=\"camping-rules-queensland\">Queensland</a>'in bazı bölgelerinde, Batı Avustralya'da ve Güney Avustralya'da. Kısıtlı bir bölgeye alkol götürmenin ağır cezaları vardır.",
+            "Uzak bölgelere alkolle seyahat etmeden önce kontrol edin. Kısıtlamalar yasal olarak uygulanır, yerliler kadar ziyaretçiler için de geçerlidir ve bilmemek bir savunma değildir."
           ],
           "tips": [
-            "Çoğunlukla bottle shop’lar, bazı marketler",
-            "Kısıtlı bölgelerde büyük cezalar var",
-            "Ücra bölgelere girmeden önce kontrol edin"
+            "Çoğunlukla bottle shop, bazen süpermarket",
+            "Fotoğraflı kimliğinizi yanınıza alın",
+            "Uzak bölgelere girmeden önce kontrol edin"
           ]
         },
         {
           "heading": "İçki ve sürüş günü",
           "body": [
-            "Genel sınır tam ehliyet sahipleri için 0.05, acemi ve geçici ehliyetli sürücüler için sıfır, birçok profesyonel sürücü için ise eyalete göre sıfır ya da 0.02’dir (NSW’de 0.02). Rastgele nefes testi, kırsal yollarda ve gündüz dahil, yaygındır.",
-            "Bir yol gezisinde tek güvenli yaklaşım, içkiyi sürüşten tamamen ayırmaktır: içtiğiniz yerde kalın, belirlenmiş bir sürücü kullanın ya da içkiyi araç geceye park edildikten sonra için.",
-            "Ertesi sabah sürüşü insanı yakalar. Vücut her standart içkiyi temizlemek için en az bir saat alır, çoğu zaman daha uzun; kahve ya da duş bunu hızlandırmaz, bu yüzden yoğun bir akşam sizi ertesi sabahın ilerleyen saatlerine kadar sınırın üzerinde bırakabilir."
+            "Tam ehliyet sahipleri için genel sınır 0,05'tir; acemi ve geçici ehliyetli sürücüler için sıfır, birçok profesyonel sürücü için ise eyalete göre sıfır ya da 0,02'dir (NSW'de 0,02). Rastgele alkol testi kırsal yollarda ve gündüz saatlerinde de yaygındır.",
+            "Yol gezisinde tek güvenli yöntem içkiyi sürüşten tamamen ayırmaktır: içtiğiniz yerde kalın, şoför belirleyin ya da içkiyi araç gece için park edildikten sonra için.",
+            "Ertesi sabah sürüş insanları en çok yanıltan durumdur. Vücut her standart içkiyi en az bir saatte, çoğu zaman daha uzun sürede temizler; kahve ya da duş bunu hızlandırmaz, bu yüzden ağır bir akşam sizi ertesi sabahın ilerleyen saatlerine kadar sınırın üzerinde bırakabilir."
           ],
           "tips": [
-            "Genel 0.05, acemi ve geçici ehliyetliler için sıfır",
-            "Rastgele test yaygın ve gündüz de yapılır",
-            "Ertesi sabah sürüşü tuzaktır"
+            "Genel sınır 0,05, acemi ve geçici ehliyette sıfır",
+            "Rastgele test yaygın ve gündüz de yapılıyor",
+            "Tuzak: ertesi sabah sürüş"
           ]
         },
         {
-          "heading": "Doğru yapılması gereken şey su",
+          "heading": "Bottle shop'ta ve barda şarap",
           "body": [
-            "Musluk suyu Avustralya’nın neredeyse tüm kasaba ve şehirlerinde güvenli ve iyidir; şişe suyu almak neredeyse saf israftır. Yeniden doldurulabilir şişeler taşıyın ve bir kasabadaki, kamp alanındaki ya da herkese açık tesisteki herhangi bir içilebilir musluktan doldurun.",
-            "Ücra ve bozkır ortamlarında durum tersine döner: kuyu suyu mineralli ya da uygunsuz olabilir, tank suyu arıtılmamıştır ve tarım arazilerindeki yüzey suyu kimyasal kirlilik taşıyabilir. İşaretli içilebilir bir kasaba kaynağı olmayan her şeyi arıtın.",
-            "Sıcakta soğuk su her zaman elinizin altında olsun diye iyi bir yalıtımlı şişe taşıyın; yeniden doldurmak hiçbir şeye mal olmaz."
+            "Orta segment 750 ml'lik bir şişe şarap bottle shop'ta yaklaşık $12 ile $29 tutar ve yaklaşık beş adet 150 ml'lik kadeh çıkarır. Bar ya da restoranda kadehle sipariş edildiğinde aynı şarap genellikle kadeh başına $10 ile $16 tutar; yani şarap en ucuz, kampta paylaşılan bir şişede olur.",
+            "Bazı restoranlar, çoğunlukla alkol lisansı olmayanlar, corkage ücreti karşılığında kendi şişenizi getirmenize izin verir; bu da bottle shop fiyatını akşam yemeği şarabına çevirir. Bunu masada değil, rezervasyon sırasında sorun."
           ],
           "tips": [
-            "Kasaba musluk suyu güvenlidir",
-            "Kuyu suyu çoğu zaman uygun değildir",
-            "Tank ve yüzey suyunu arıtın"
+            "Orta segment şişe: $12 ile $29",
+            "Şişeden yaklaşık beş kadeh çıkar",
+            "Rezervasyonda BYO'yu sorun"
+          ]
+        },
+        {
+          "heading": "Kahve günlük bir kalem",
+          "body": [
+            "Normal bir cappuccino ya da flat white yaklaşık $4 ile $8 tutar; şehir merkezindeki kafeler aralığın üst ucunda. Avustralya kahve kültürü güçlüdür ve taşra kasabalarındaki standart gerçekten yüksektir; bütçe kalemi olmasının sebebi de tam budur: iki kişi için günde iki kahve, hiç karar vermiş gibi hissetmeden toplanıp gider.",
+            "Karavandaki bir ocak üstü cezve ya da AeroPress sabah fincanını kafe fiyatının çok altında karşılar ve kafe molasını otomatik değil, seçilmiş bir şey haline getirir. Uzun outback yolculuklarında roadhouse kahvesi tutarsızdır, bu yüzden kendiniz yapmak genellikle hem daha ucuz hem daha iyidir.",
+            "Musluk suyu Avustralya'daki hemen tüm kasaba ve şehirlerde güvenli ve iyidir; bu yüzden su satın almak yerine doldurulabilir şişe taşıyın. Kırsalda bore, tank ve dere suyunu içmeden önce arıtın. Yeni Zelanda'ya da mı gidiyorsunuz? KiwiCamping, <a data-sister=\"beer-wine-coffee-prices-new-zealand\">Yeni Zelanda'da bira, şarap ve kahvenin ne kadar tuttuğunu</a> anlatıyor."
+          ],
+          "tips": [
+            "Cappuccino: $4 ile $8",
+            "Sabah fincanını kendiniz yapın",
+            "Kasaba musluk suyu güvenli"
           ]
         }
       ],
       "faq": [
         [
-          "Avustralya’da bir bira ne kadar?",
-          "Ekim 2026 topluluk fiyat verilerine göre Sydney’de bir pubda 500 ml fıçı bira yaklaşık $7.15 ila $16, bottle shop’tan 500 ml şişe ise ülke genelinde yaklaşık $3.50 ila $12 tutar. Bardan değil bottle shop’tan almak, uzun bir gezideki en büyük tasarruflardan biridir."
+          "Avustralya'da bira ne kadar?",
+          "Kasım 2026'da bir şehir pub'ında sıradan bir birada schooner (425 ml) yaklaşık $8 ile $13, pint (570 ml) yaklaşık $12 ile $18 tutuyor. Bottle shop'ta altılı paket yaklaşık $20 ile $28; 24'lük slab yaklaşık $55 ile $72; bu da bira başına pub fiyatının yarısından azı."
         ],
         [
-          "Avustralya’da kahve ne kadar?",
-          "Ekim 2026 topluluk fiyat verilerine göre sıradan bir cappuccino Sydney’de yaklaşık $4.50 ila $8, ülke genelinde $4 ila $8 tutar; şehir merkezi kafeleri çoğu zaman aralığın üst ucundadır. İki kişi için günde iki kahve, uzun bir gezide gerçek bir bütçe kalemi olur."
+          "Avustralya'da bir pint ne kadar?",
+          "Şehir pub'ında 570 ml sıradan bira için yaklaşık $12 ile $18; Perth ve kırsal pub'lar ucuz uçta, iç Melbourne ve Sydney en üstte. Güney Avustralya'da pint 425 ml'lik bardaktır ve yaklaşık $8.50 ile $12 tutar; 570 ml için imperial pint isteyin."
+        ],
+        [
+          "Avustralya'da en ucuz bira nerede?",
+          "En ucuz birayı Perth ve kırsal pub'lar servis eder, RSL ve bowls kulüpleri gibi kulüpler ise genellikle pub'lardan ucuzdur; ziyaretçiler fotoğraflı kimlikle kayıt olur. Hafta içi happy hour'lar schooner'ı yaklaşık $6 ile $9'a indirir, ama standart içki başına yaklaşık $2 ile bottle shop'tan slab hepsinden ucuzdur."
+        ],
+        [
+          "Avustralya'da kahve ne kadar?",
+          "Normal bir cappuccino ya da flat white yaklaşık $4 ile $8 tutar; şehir merkezindeki kafeler çoğu zaman aralığın üst ucundadır. Uzun bir yolculukta iki kişi için günde iki kahve gerçek bir bütçe kalemi olur, bu yüzden birçok kampçı sabah fincanını kendisi yapar."
         ]
       ],
       "sources": [
         {
-          "label": "Numbeo Sydney içecek fiyatları"
+          "label": "Numbeo Avustralya içecek fiyatları, Kasım 2026 güncellemesi"
         },
         {
-          "label": "Numbeo Avustralya perakende aralıkları"
+          "label": "Australian Taxation Office: alkol için excise vergi oranları"
+        },
+        {
+          "label": "Healthy WA: standart içki nedir"
         },
         {
           "label": "NSW alkol ve sürüş rehberi"
         },
         {
-          "label": "NHMRC: alkolün temizlenmesi ne kadar sürer"
+          "label": "NHMRC: alkolün vücuttan temizlenme süresi"
         },
         {
           "label": "Northern Territory: alkol satın alma ve içme"
         },
         {
-          "label": "Healthy WA: standart içki nedir"
+          "label": "NSW Government: ziyaretçiler için kulüp kuralları"
         }
       ],
       "priceTable": {
-        "note": "Ekim 2026’da güncellenen, topluluğun katkısıyla oluşan Avustralya ve Sydney aralıkları. Servis boyutu, mekan, promosyon ve konum değişir.",
+        "note": "Kasım 2026'da sıradan Avustralya birası için şehir pub'ı ve bottle shop aralıkları. Craft bira, ithal bira, sahil kenarı mekânlar ve uzak bölgeler daha pahalıdır; happy hour'lar ve indirimler daha ucuzdur.",
         "rows": [
           {
-            "label": "Cappuccino (Sydney)",
+            "label": "Pub schooner",
+            "unit": "425 ml"
+          },
+          {
+            "label": "Pub pint",
+            "unit": "570 ml"
+          },
+          {
+            "label": "Bottle shop altılı paket",
+            "unit": "6 x 375 ml"
+          },
+          {
+            "label": "Bottle shop slab",
+            "unit": "24 x 375 ml"
+          },
+          {
+            "label": "Orta segment şarap",
+            "unit": "750 ml bottle shop"
+          },
+          {
+            "label": "Cappuccino",
             "unit": "bir fincan"
-          },
-          {
-            "label": "Pub fıçı birası (Sydney)",
-            "unit": "bir servis"
-          },
-          {
-            "label": "Orta segment şarap (ülke geneli)",
-            "unit": "750 ml perakende"
-          },
-          {
-            "label": "Yerli bira karşılığı (ülke geneli)",
-            "unit": "500 ml perakende"
-          },
-          {
-            "label": "Gazlı içecek (Sydney)",
-            "unit": "330 ml mekan"
           }
         ]
       }
@@ -29463,6 +29627,608 @@
         },
         {
           "label": "Meteoroloji Bürosu: bölgeye göre iklim"
+        }
+      ],
+      "priceTable": null
+    },
+    "cigarette-prices-australia": {
+      "title": "Avustralya'da Sigara 2027'de Ne Kadar? Paketler $40 ile $60 Arası",
+      "description": "Avustralya'da yasal 20'lik bir paket yaklaşık $40 ile $60; 30 g'lık bir sarmalık tütün kesesi yaklaşık $90 ile $120. Eyalete göre fiyatlar, maliyetin neden vergi olduğu ve vape'lar.",
+      "region": "Avustralya",
+      "imageAlt": "Bir Avustralya dükkânında kapalı tütün dolabı; raf fiyatlarının üstünde sade ambalajlı sigara paketleri ve tütün keseleri",
+      "intro": "Kasım 2026'da Avustralya'da yasal 20'lik bir sigara paketi yaklaşık $40 ile $60; 30 g'lık bir sarmalık tütün kesesi ise yaklaşık $90 ile $120 tutuyor. 25'lik paketler ve büyük keseler artık yok: 1 Temmuz 2025'ten beri sigara yalnızca 20'lik paketlerde, sarmalık tütün yalnızca 30 g'lık keselerde satılıyor. Fiyatın neredeyse tamamı federal vergi, bu yüzden aynı paket Sydney'de de Perth'te de hemen hemen aynı fiyata; uzak kasabalar ve Northern Territory biraz daha yüksek. Fiyatlar yılda iki kez artıyor, bu yüzden 2027'de seyahat ediyorsanız buradaki rakamlardan fazlasını bütçeleyin.",
+      "sections": [
+        {
+          "heading": "20'lik bir paket ne kadar?",
+          "body": [
+            "Ekonomik markalar alt uçta, 20'lik için yaklaşık $38 ile $45. Her servo kasasının arkasında göreceğiniz yaygın markalar ise $50 ile $60'a daha yakın. Dükkânlar ve zincirler indirimi ve zammı farklı zamanlarda yapar, bu yüzden aynı marka aynı caddedeki iki dükkân arasında birkaç dolar fark gösterebilir.",
+            "Önceki yıllardan ya da ülkenizdeki arkadaşlarınızdan 25'lik paketi hatırlıyorsanız, bu boyut artık Avustralya'da yok. 1 Temmuz 2025'te tamamen yürürlüğe giren sade paket yasası her sigara paketini 20 adetle sabitledi; bir blokta 10 paket var. Fiyatlandırılacak tek boyut 20'lik paket."
+          ],
+          "tips": [
+            "Ekonomik: yaklaşık $38 ile $45",
+            "Yaygın markalar: yaklaşık $50 ile $60",
+            "25'lik paket artık satılmıyor"
+          ]
+        },
+        {
+          "heading": "Eyalet ve bölgeye göre fiyatlar",
+          "body": [
+            "Fiyatın büyük kısmı her eyalette aynı olan federal excise'tır, bu yüzden satın aldığınız eyalet fiyatı yalnızca biraz değiştirir. Aşağıdaki aralıklar, dükkânların yasal ürünler için istediği fiyatlara dair bir rehberdir. <a data-guide=\"camping-rules-northern-territory\">Northern Territory</a> ve uzak topluluklar genellikle daha yüksektir, çünkü nakliye ve küçük satış hacmi raf fiyatına eklenir; outback'teki roadhouse fiyatı hepsinin en yükseği olabilir.",
+            "Eyalet eyalet resmi bir fiyat listesi yoktur, bu yüzden aralıkları bir teklif değil, beklenecek bir bant olarak görün. Satın almadan önce rafa kısaca bakmak, her tablodan daha fazlasını söyler."
+          ],
+          "tips": [
+            "Her eyalette aynı vergi",
+            "NT ve uzak bölgeler: biraz daha yüksek",
+            "Raf fiyatına bakın"
+          ],
+          "table": {
+            "caption": "Kasım 2026'da yasal tütün için tipik raf fiyatları. Bir rehberdir, teklif değil: dükkânlar kendi fiyatlarını belirler.",
+            "head": [
+              "Eyalet veya bölge",
+              "20'lik paket",
+              "30 g'lık kese"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "$40 ile $60",
+                "$90 ile $120"
+              ],
+              [
+                "Victoria",
+                "$40 ile $60",
+                "$90 ile $120"
+              ],
+              [
+                "Queensland",
+                "$40 ile $60",
+                "$90 ile $120"
+              ],
+              [
+                "Güney Avustralya",
+                "$40 ile $60",
+                "$90 ile $120"
+              ],
+              [
+                "Batı Avustralya",
+                "$40 ile $60",
+                "$90 ile $120"
+              ],
+              [
+                "Tasmanya",
+                "$40 ile $60",
+                "$90 ile $120"
+              ],
+              [
+                "Australian Capital Territory",
+                "$40 ile $60",
+                "$90 ile $120"
+              ],
+              [
+                "Northern Territory ve uzak bölgeler",
+                "$45 ile $65 ya da daha fazla",
+                "$95 ile $130 ya da daha fazla"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Sarmalık tütün keseleri",
+          "body": [
+            "Sarmalık tütün yalnızca 30 g'lık keselerde satılır ve bir kese yaklaşık 50 ince sigara çıkarır. Ekonomik keseler yaklaşık $90, premium olanlar yaklaşık $115 ya da biraz daha fazla; yani kâğıt ve <a data-guide=\"how-to-use-aussiecamps-filters\">filtreleri</a> de eklediğinizde sarmalık tütün, 20'lik pakete göre sigara başına pek ucuz sayılmaz.",
+            "Sarmalık tütünde excise ağırlığa göre alınır: 1 Eylül 2026'dan itibaren kilogram başına $2,587.90. Bu, her 30 g'lık kesede GST'den önce yaklaşık $78 vergi demek; raf fiyatının kutulu pakete bu kadar yakın olmasının nedeni bu."
+          ],
+          "tips": [
+            "Tek boyut 30 g",
+            "Yaklaşık $90 ile $120",
+            "Sigara başına pek ucuz değil"
+          ]
+        },
+        {
+          "heading": "Neden bu kadar pahalı?",
+          "body": [
+            "Fiyatın çoğu vergi. Federal excise, 1 Eylül 2026'dan itibaren her sigara için $1.55274; Mart'taki $1.52829'dan yükseldi, bu da her 20'lik pakette yaklaşık $31 yapar. Bunun üzerine kasada %10 GST eklenir. Birlikte bu, tipik bir $50'lik paketin yaklaşık %70'i eder, ekonomik pakette ise daha da fazlası.",
+            "Oran yılda iki kez, Mart'ta ve 1 Eylül'de, ücretleri izleyerek değişir. Ayrıca 2023'ten 2026'ya her Eylül'de oran fazladan %5 arttı, yani maliyet tek seferde değil, istikrarlı biçimde tırmandı. Bir ziyaretçinin ilk gezisinde pahalı görünen bir paket, ertesi yıl yine zamlanacak."
+          ],
+          "tips": [
+            "Paket başına yaklaşık $31 excise",
+            "Artı %10 GST",
+            "Her Mart ve Eylül'de artıyor"
+          ]
+        },
+        {
+          "heading": "Yıllık artış ve geziniz",
+          "body": [
+            "Oran her Mart ve Eylül'de değiştiği için, geçen yıldan bir rakam siz indiğinizde eskimiş olur. Kural olarak, 2027'de bir paketin buradaki 2026 aralıklarından birkaç dolar fazla tutacağını varsayın ve bir aylık harcamayı planlamadan önce ilk kasabanızdaki raf fiyatına bakın.",
+            "Uzun bir yolculukta çok içen biri için tutar hızla birikir. Ayda on paket yaklaşık $400 ile $600 eder. Bunu yakıtta yaptığınız gibi gezi bütçesine ayrı bir kalem olarak koyun, böylece yemek parasını sıkıştırmaz."
+          ],
+          "tips": [
+            "Birkaç dolar fazlasını bekleyin",
+            "On paket: $400 ile $600",
+            "Ona ayrı bütçe kalemi verin"
+          ]
+        },
+        {
+          "heading": "Vape fiyatları",
+          "body": [
+            "1 Temmuz 2024'ten beri vape'lar, nikotin içersin içermesin, yalnızca eczanelerde satılıyor. Yetişkinler çoğu eyalette düşük nikotinli vape'ları bir konuşmanın ardından reçetesiz olarak eczacıdan alabilir; daha güçlü ürünler için reçete gerekir. Eczaneler yalnızca TGA'nın bildirilmiş vape listesindeki ürünleri verebilir.",
+            "Eczane fiyatlarını hükümet değil, üretici ve dükkân belirler. Basit bir cihaz ya da bir paket pod için kabaca $30 ile $60, başlangıç seti için daha fazlasını bekleyin. Bazı dükkânlarda tezgâh altından satılan ucuz tek kullanımlık vape'lar yasal ürün değildir."
+          ],
+          "tips": [
+            "Temmuz 2024'ten beri yalnızca eczane",
+            "Cihaz başına yaklaşık $30 ile $60",
+            "Önce eczacıya sorun"
+          ]
+        },
+        {
+          "heading": "Yasa dışı tütün ve vape'lar",
+          "body": [
+            "Bazı dükkânlar sigara ve vape'ları yasal fiyatın çok altında, çoğu zaman işaretsiz ya da yabancı paketlerde satar ve bazen buna chop chop denir. Bunlar yasa dışıdır; satın almak para cezası ve malın el konulması anlamına gelebilir, cezalar eyalete göre değişir. Ayrıca Avustralya sağlık uyarıları da taşımazlar.",
+            "Bir fiyat yukarıdaki rakamların yanında fazla iyi görünüyorsa, neredeyse kesinlikle öyledir; bu yüzden vape için eczaneye, tütün için lisanslı bir <a data-guide=\"where-to-buy-cigarettes-vapes-australia\">tütün bayisine</a> ya da süpermarkete bağlı kalın."
+          ],
+          "tips": [
+            "İşaretsiz paketler yasa dışı",
+            "Alıcılara ceza kesilebilir",
+            "Ucuz genellikle yasa dışı demek"
+          ]
+        },
+        {
+          "heading": "Yasal yoldan nasıl daha az harcanır?",
+          "body": [
+            "Vardığınızda geçerli olan <a data-guide=\"smoking-vaping-rules-australia\">gümrüksüz hak</a>, 18 yaş ve üzeri yolcular için yalnızca 25 sigara ya da 25 gram tütün artı bir açılmış pakettir. Daha fazlasını getirmek bildirmeniz gerektiği anlamına gelir ve Australian Border Force, fazlasından vazgeçeceğinizi ya da tüm miktar için vergi ödeyeceğinizi söylüyor. Bildirilmeyen tütüne el konulabilir ve ceza kesilebilir; bu yüzden evden stok getirmek uzun bir gezide para biriktirmenin yolu değil.",
+            "Bloktan almak sigara başına pek ucuz değil, çünkü vergi her dal için aynı. Gerçek tasarruflar küçük: ekonomik bir marka seçin, dükkânın indirim yaptığı yerden alın ve mümkünse roadhouse ve uzak bölge fiyatlarından kaçının. Gümrüksüz hak, vape'lar ve dumansız yerler dahil yolcular için kurallar, sigara ve vape kuralları rehberinde anlatılıyor. Kamp yakınında içiyorsanız her izmariti tamamen söndürüp yanınızda götürün ve <a data-guide=\"campfires-camping-australia\">tam ateş yasağı</a> kurallarına uyun: izmarit ile çalılık bir arada olmaz.",
+            "Yeni Zelanda'ya da mı gidiyorsunuz? KiwiCamping, <a data-sister=\"cigarette-prices-new-zealand\">Yeni Zelanda'da sigaranın ne kadar tuttuğunu</a> anlatıyor."
+          ],
+          "tips": [
+            "Yalnızca 25 dal taşıyın",
+            "Bloklar az tasarruf sağlar",
+            "İzmaritleri söndürüp götürün"
+          ]
+        },
+        {
+          "heading": "AussieCamps'te geziyi bütçeleyin",
+          "body": [
+            "AussieCamps yerleri Maliyet, Ücretsiz veya Ücretli olarak <a data-guide=\"how-to-use-aussiecamps-filters\">filtreler</a>, böylece daha ucuz geceler bütçenin geri kalanına yer açabilir. Her durağı tarihler, notlar ve yapılacaklar listesiyle bir gezeye ekleyin; böylece uzak bir etaptan önce büyük kasabalarda yeniden stok yapmak planın parçası olur.",
+            "Yer ayrıntıları ve filtreler <a data-guide=\"camping-without-phone-signal\">sinyal olmadan</a> çalışır, sürüş rotası da her etabın mesafesini ve süresini gösterir. AussieCamps iPhone'da çalışır."
+          ],
+          "tips": [
+            "Maliyete göre filtreleyin",
+            "Uzak etaplardan önce stok planlayın",
+            "Yalnızca iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Avustralya'da bir paket sigara ne kadar?",
+          "Kasım 2026'da yasal 20'lik bir paket genellikle yaklaşık $40 ile $60 tutuyor; ekonomik markalar altta, yaygın markalar üstte. 25'lik paketler artık satılmıyor: 1 Temmuz 2025'ten beri her sigara paketi tam 20 adet içermek zorunda. Fiyatlar doğu kıyısında biraz daha düşük, Northern Territory ve uzak kasabalarda daha yüksek."
+        ],
+        [
+          "Avustralya'da sigara neden bu kadar pahalı?",
+          "Federal vergi. Excise, 1 Eylül 2026'dan itibaren her sigara için $1.55274; bu, %10 GST eklenmeden önce 20'lik bir pakette yaklaşık $31 eder. Çoğu markada raf fiyatının kabaca %70'i ya da daha fazlası hükümete gidiyor."
+        ],
+        [
+          "Avustralya'ya kaç sigara getirebilirim?",
+          "18 yaş ve üzeri yolcular için gümrüksüz hak 25 sigara ya da 25 gram tütün artı bir açılmış pakettir. Bunun üzerindeki her şeyi bildirin. Australian Border Force, izin verilen miktarı getirip gerisinden vazgeçebileceğinizi ya da hepsini tutup tüm miktar için vergi ödeyebileceğinizi söylüyor."
+        ],
+        [
+          "Turist olarak Avustralya'da vape alabilir miyim?",
+          "Yalnızca eczaneden. 1 Temmuz 2024'ten beri vape'lar başka dükkânlarda satılamıyor ve bunları satan bakkallar yasayı çiğniyor. Yetişkinler çoğu eyalette kısa bir konuşmanın ardından düşük nikotinli vape'ları reçetesiz olarak eczacıdan alabilir."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Australian Taxation Office: tütün için excise vergi oranları"
+        },
+        {
+          "label": "Australian Border Force: gümrüksüz haklar"
+        },
+        {
+          "label": "Department of Health: Avustralya'da tütün ürünlerindeki değişiklikler"
+        },
+        {
+          "label": "Department of Health: vape yasaları"
+        },
+        {
+          "label": "Therapeutic Goods Administration: nikotinli vape ürünleri"
+        },
+        {
+          "label": "Tobacco in Australia: tütün ürünlerinin fiyatı"
+        }
+      ],
+      "priceTable": null
+    },
+    "smoking-vaping-rules-australia": {
+      "title": "Avustralya'da Sigara ve Vape (2027): Yolcular İçin Kurallar",
+      "description": "25 sigara ya da 25 g tütünü gümrüksüz getirebilirsiniz, vape'lar yalnızca eczanede, yaş sınırı 18 ve çalılıkta yanan izmarit ağır cezalara yol açar. 2027 yolcu kuralları.",
+      "region": "Avustralya",
+      "imageAlt": "Güney Avustralya'daki Adelaide Outer Harbor iskelesinin korkuluğunda 'Bu iskele dumansız ve vape'sız' yazan bir tabela",
+      "intro": "18 yaş ve üzeri ziyaretçiler Avustralya'ya 25 sigara ya da 25 g tütünü, artı bir açık paketi gümrüksüz getirebilir; fazlasını bildirmek zorundadır. Vape'lar artık yalnızca eczanelerden satılıyor ve yolcu muafiyeti, kendi tedaviniz için 2 vape, 20 pod ya da kartuş ve 200 mL sıvıya izin veriyor. İkisini de satın almak için 18 yaşında olmalısınız; sigara ve vape, kafe masalarından gözetimli plajlara kadar birçok açık havada yasak. Kampçılar için asıl mesele ateş: arabadan atılan ya da kuru otun üstüne düşen yanan bir izmarit binlerce dolara mal olabilir. Bunlar Kasım 2026 itibarıyla geçerli kurallar.",
+      "sections": [
+        {
+          "heading": "Gümrüksüz neler getirebilirsiniz?",
+          "body": [
+            "18 yaş ve üzeri yetişkinler Avustralya'ya izinsiz tütün getirebilir. Gümrüksüz hak 25 sigara ya da 25 g tütün ürünü, artı bir açık pakettir. Avustralya'daki ve yurt dışındaki çoğu paket 20'lik olduğundan bu, bir kapalı paket artı içmekte olduğunuz paket demek. 18 yaş altı için hiç tütün hakkı yoktur.",
+            "Sınırı aşarsanız Australian Border Force, vergi ve harcın yalnızca limiti aşan kısma değil, o türün tamamına uygulandığını söylüyor. Fazlasını bildirmemek, taşıdığınız miktara göre ceza, kovuşturma ya da vizenin iptali anlamına gelebilir. Daha fazlası varsa Incoming Passenger Card'da bildirin, satın alma belgesini gösterin ve vergiyi ödeyin ya da sınırda teslim edin. Yerel paketlerin fiyatları <a data-guide=\"cigarette-prices-australia\">sigara fiyatları</a> rehberinde anlatılıyor."
+          ],
+          "tips": [
+            "25 sigara ya da 25 g",
+            "Artı bir açık paket",
+            "Fazlasını bildirin"
+          ]
+        },
+        {
+          "heading": "Yolcular için vape'lar",
+          "body": [
+            "2024'ten beri Avustralya'da vape'lar tedavi amaçlı ürün sayılıyor. Yolcular bunları yalnızca yolcu muafiyetiyle getirebilir: vape'lar kendi tedaviniz için ya da aynı uçak veya gemide birlikte seyahat ettiğiniz, baktığınız biri için olmalı. Sınırlar toplamda 2 vape, pod, kartuş veya kapsül gibi 20 aksesuar ve 200 mL vape sıvısı.",
+            "Tek kullanımlık vape'lar da o 2'ye sayılır. Vape'ları kendinize postalamak ya da bir arkadaşınızın göndermesi yasaktır ve limiti aşan her şeye el konulabilir. Vape'larınızı bildirin ve görevlilerin görebileceği şekilde el bagajınızda tutun. Uçakta taşıma kuralları havayolunuz tarafından belirlenir, bu yüzden uçmadan önce kontrol edin."
+          ],
+          "tips": [
+            "2 vape, 20 pod, 200 mL",
+            "Yalnızca kendi kullanımınız için",
+            "Avustralya'ya vape postalanamaz"
+          ]
+        },
+        {
+          "heading": "Vape satın alma ve yasal yaş",
+          "body": [
+            "Avustralya'da vape'lar yalnızca eczanelerde satılır. Ekim 2024'ten beri eczacılar 20 mg/mL ve altındaki nikotinli vape'ları 18 yaş ve üzeri kişilere reçetesiz verebilir; 18 yaş altı için reçete gerekir. <a data-guide=\"where-to-buy-cigarettes-vapes-australia\">Tütün bayileri</a>, vape dükkânları, servo'lar ve bakkallar nikotin içeriği ne olursa olsun vape satamaz.",
+            "Tütün satın almanın yasal yaşı her eyalet ve bölgede 18'dir ve dükkânlar fotoğraflı kimlik isteyebilir. Ziyaretçilerden de yerliler gibi istenir, bu yüzden pasaport ya da <a data-guide=\"overseas-driver-licence-australia-state-guide\">yurt dışı ehliyeti</a> taşımak en güvenlisidir. Eczacılar satın almadan önce ek eyalet kurallarını da size söyleyebilir."
+          ],
+          "tips": [
+            "Vape: yalnızca eczane",
+            "Her şey için 18 yaş",
+            "Fotoğraflı kimlik taşıyın"
+          ]
+        },
+        {
+          "heading": "Nerede sigara ve vape içemezsiniz?",
+          "body": [
+            "Dumansız yer yasalarını her eyalet ve bölge belirler ve dumansız yerlerde vape sigara gibi sayılır. Tablo, kampçıların en sık karşılaştığı yerleri sıralıyor. Birçok belediye yerel plajlar, parklar ve şehir merkezleri için kendi kurallarını ekler, bu yüzden tabelalara bakın.",
+            "Milli parkların, plajların ve kamp alanlarının kendi kuralları vardır. Queensland, milli park kamp alanlarının ve tesislerinin 10 m yakınında sigarayı yasaklar, birkaç eyalet gözetimli plajlarda bayraklar arasında yasaklar ve birçok <a data-guide=\"caravan-park-vs-holiday-park\">karavan parkı</a> kabinlerde, tuvalet ve duş bloklarında ve kamp mutfaklarında yasaklar. Ateş yasağı olduğunda park görevlileri açıkta yanan sigarayı diğer her alev gibi görür.",
+            "Cezalar her yıl değişen ceza birimleri ya da sabit tutarlarla belirlenir, bu yüzden tablo kesin bir rakam değil, bir rehber veriyor."
+          ],
+          "tips": [
+            "Vape de sayılır",
+            "Yerel tabelalara bakın",
+            "Cezalar her yıl değişir"
+          ],
+          "table": {
+            "caption": "Eyalet ve bölgeye göre açık havada dumansız yerler; Kasım 2026'da okunan eyalet sağlık sayfalarından. Bir rakama güvenmeden önce güncel eyalet sayfasına bakın.",
+            "head": [
+              "Eyalet",
+              "Bilinmesi gereken açık hava dumansız yerler",
+              "Tipik yerinde ceza"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "Ticari açık hava yemek alanları, kamu binası girişlerinin, toplu taşıma duraklarının ve peronların 4 m yakını; birçok belediye plajları ve parkları da ekler",
+                "$300"
+              ],
+              [
+                "Victoria",
+                "Açık hava yemek alanları, oyun parklarının ve kaykay parklarının 10 m yakını, 18 yaş altı spor etkinlikleri ve yemek fuarları",
+                "Bir ya da iki ceza birimi, birkaç yüz dolar"
+              ],
+              [
+                "Queensland",
+                "Gözetimli plajlarda bayraklar arası, milli park kamp alanları ve tesislerinin 10 m yakını, toplu taşıma duraklarının 5 m ve oyun parklarının 10 m yakını",
+                "İki ceza birimi"
+              ],
+              [
+                "Güney Avustralya",
+                "Açık hava yemek alanları, oyun parkları ve toplu taşıma sığınakları, ayrıca Mart 2024'ten beri yeni açık hava bölgeleri",
+                "$105"
+              ],
+              [
+                "Batı Avustralya",
+                "Açık hava yemek alanları, oyun parkı ekipmanının 10 m yakını ve gözetimli plajlarda bayraklar arası",
+                "Açık hava yemek alanı için $300"
+              ],
+              [
+                "Tasmanya",
+                "Açık hava yemek alanları, girişlerin 3 m yakını, oyun parklarının 10 m yakını, gözetimli plajlar ve açık hava etkinlikleri",
+                "Kabaca $350 ile $400"
+              ],
+              [
+                "Northern Territory",
+                "Lisanssız açık hava yemek alanları, halka açık etkinlikler ve çevreleri ile çocuk oyun alanları",
+                "Ceza birimleriyle belirlenir"
+              ],
+              [
+                "Australian Capital Territory",
+                "Açık hava yeme içme alanları ve oyun ekipmanının 10 m yakını",
+                "Ceza birimleriyle belirlenir"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Çocuklu arabada sigara",
+          "body": [
+            "Her eyalet ve bölge, içinde çocuk olan bir arabada sigarayı yasaklar; camlar açık ya da araç park halinde olsa bile. Sayılan çocuk yaşı <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a>, Queensland, Güney Avustralya, Northern Territory ve ACT'de 16 yaş altı, Batı Avustralya'da 17 yaş altı, Victoria ve Tasmanya'da 18 yaş altıdır. Vape de kapsanır.",
+            "Kiralık araçta ya da karavanda kural aynıdır ve kiralama şirketi duman kokusu için ayrıca temizlik ücreti isteyebilir. İçiyorsanız araçtan uzaklaşın ve önce yolcuları indirin."
+          ],
+          "tips": [
+            "Her eyalette yasa dışı",
+            "Camlar açık olması mazeret değil",
+            "Kiralık araçlar temizlik ücreti alır"
+          ]
+        },
+        {
+          "heading": "Ateş yasakları, izmaritler ve cezalar",
+          "body": [
+            "<a data-guide=\"campfires-camping-australia\">Tam ateş yasağı</a> olan günde açıkta yangın çıkarabilecek her şey sorundur ve yanan sigara atmak her eyalette suçtur. New South Wales'te yanan bir izmarit yaklaşık $660'tan başlayan yerinde cezaya yol açabilir; tam ateş yasağı gününde bu yaklaşık $1,320'ye katlanır. Mahkemede üst sınır $5,500, tam ateş yasağı gününde $11,000'dir. Sürücülere ayrıca normalde 5, tam ateş yasağı gününde 10 ceza puanı verilir.",
+            "Arabadan izmarit atmak Victoria ve <a data-guide=\"camping-rules-queensland\">Queensland</a>'de tehlikeli çöp atma sayılır; yerinde birkaç yüz dolara, mahkemede çok daha fazlasına varan cezalar vardır. Yerdeki bir izmarit bile çöptür. Çalılıkta ise bir kamp alanına ya da kasabaya ulaşan bir yangın çıkarabilir.",
+            "Bir izmarit kutusu ya da taşınabilir küllük taşıyın ve sigarayı asla kuru otun ya da yaprak örtüsünün üstünde söndürmeyin. Bazı eyaletlerde yanan izmarit atanları ihbar edebilirsiniz: <a data-guide=\"camping-rules-new-south-wales\">New South Wales</a>'te Bush Fire Information Line'ı 1800 679 737'den arayabilirsiniz."
+          ],
+          "tips": [
+            "Arabada izmarit kutusu",
+            "Asla kuru otta değil",
+            "Arabadan atılan yanan izmaritleri bildirin"
+          ]
+        },
+        {
+          "heading": "Cezalara kısa bakış ve kampçı için plan",
+          "body": [
+            "Özetle: limiti aşan tütün, tamamı için vergi ödemeye ya da kaybetmeye mal olur; dumansız bir yerde sigara içmek yaklaşık $100'dan birkaç yüz dolara kadar, araçtan atılan yanan bir izmarit ise yerinde yüzlerce, mahkemede binlerce dolara mal olur.",
+            "Kamp gezisi için çadırlardan ve kuru otlardan uzakta yeri olan bir alan seçin, her sabah yangın tehlike derecesini kontrol edin ve işiniz bittiğinde izmarit kutunuzu kapalı tutun. Park kurumlarının sayfaları ve kamp alanındaki tabelalar sigaranın nerede yasak olduğunu söyler. Yeni Zelanda'ya da mı gidiyorsunuz? KiwiCamping, <a data-sister=\"smoking-vaping-rules-new-zealand\">Yeni Zelanda'daki sigara ve vape kurallarını</a> anlatıyor."
+          ],
+          "tips": [
+            "Yangın tehlikesini her gün kontrol edin",
+            "Parkların dumansız alanlarına bakın",
+            "Asla otta söndürmeyin"
+          ]
+        },
+        {
+          "heading": "AussieCamps'te kurallara göre planlayın",
+          "body": [
+            "AussieCamps, park kurumlarının yayımladığı kamp alanlarını gösterir; tuvalet, içme suyu, duş ve <a data-guide=\"campfires-camping-australia\">kamp ateşi</a> için \"Popüler özellikler\" filtresiyle. Ücretsiz ve ücretli alanları karşılaştırmak için \"Maliyet\" filtresini kullanın ve durakları tarihler, notlar, hava durumu ve bir \"Yapılacaklar listesi\" ile gezeye ekleyin; böylece izmarit kutusunu ve kimliğinizi unutmazsınız.",
+            "Yer ayrıntıları, arama ve filtreler <a data-guide=\"camping-without-phone-signal\">sinyal olmadan</a> çalışır, çünkü rehber uygulamanın içindedir. Harita, rota ve hava durumu bağlantı ister; AussieCamps iPhone'da çalışır."
+          ],
+          "tips": [
+            "Kamp ateşi ve özelliklere göre filtreleyin",
+            "Yapılacaklar listesine izmarit kutusu ekleyin",
+            "Yalnızca iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Avustralya'ya kaç sigara getirebilirim?",
+          "18 yaş ve üzeri yolcular gümrük vergisi ödemeden 25 sigara ya da 25 g tütün ürünü, artı bir açık paket getirebilir. Paketler 20'lik olduğundan bu pratikte bir kapalı paket ve içmekte olduğunuz paket demek. Daha fazlasını getirir ve bildirmezseniz tamamı için vergi ödemeniz ya da teslim etmeniz istenebilir, ceza veya kovuşturmayla da karşılaşabilirsiniz. Limiti aşan her şeyi sınırda bildirin."
+        ],
+        [
+          "Avustralya'ya vape getirebilir miyim?",
+          "Yalnızca küçük miktarlarda ve yalnızca kendi tedaviniz ya da birlikte seyahat ettiğiniz, baktığınız biri için. Sınır 2 vape, pod veya kartuş gibi 20 aksesuar ve 200 mL vape sıvısı. Vape'lar size postalanamaz ve Avustralya'da bir dükkândan alamazsınız."
+        ],
+        [
+          "Avustralya'da sigara içme yaşı kaç?",
+          "Avustralya'nın her yerinde tütün ya da vape satın almak için 18 yaşında olmalısınız ve dükkânlar fotoğraflı kimlik isteyebilir. Turistlerden de yerliler gibi istenir, bu yüzden pasaportunuzu ya da ehliyetinizi taşıyın."
+        ],
+        [
+          "Avustralya'da kamp alanında sigara içebilir miyim?",
+          "Kendi alanınızda genellikle evet, ama her yerde değil. Queensland milli parklarında kamp alanlarının ve tuvalet, piknik masası gibi tesislerin 10 m yakınında sigara ve vape yasak. Tam ateş yasağı gününde ya da kuru çalılıkta en güvenli cevap, açıkta hiç içmemek."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Australian Border Force: gümrüksüz muafiyetler"
+        },
+        {
+          "label": "Office of Drug Control: vape'lar ve yolcu muafiyeti"
+        },
+        {
+          "label": "TGA: hastalar ve tüketiciler için vape bilgileri"
+        },
+        {
+          "label": "Queensland Government: Queensland'de sigara yasaları"
+        },
+        {
+          "label": "NSW Health: ticari açık hava yemek alanlarında dumansız yasalar"
+        },
+        {
+          "label": "Victorian Government: ebeveynler için sigara ve vape tavsiyeleri"
+        },
+        {
+          "label": "NSW Rural Fire Service: yeni ve artırılan cezalar"
+        }
+      ],
+      "priceTable": null
+    },
+    "where-to-buy-cigarettes-vapes-australia": {
+      "title": "Avustralya'da Sigara ve Vape Nereden Alınır? (2027)",
+      "description": "Sigara süpermarket kasalarında, servo'larda ve tütün bayilerinde satılır; vape yalnızca eczanelerde. Nereden alınır, kimlik kuralları ve outback'te ne beklemeli.",
+      "region": "Avustralya",
+      "imageAlt": "Güney Avustralya'daki Nullarbor Roadhouse; akaryakıt pompalarının ve dükkânın yanında park etmiş bir road train ve bir karavan",
+      "intro": "Sigara süpermarket kasalarında, benzin istasyonlarında, bakkallarda ve tütün bayilerinde satılır ve almak için 18 yaş ve üzeri olmalısınız. Vape'lar farklı: 1 Temmuz 2024'ten beri yalnızca eczaneler satabiliyor ve yetişkinler 20 mg/mL ve altındaki nikotinli vape'ları eczacıdan reçetesiz alabiliyor. Kırsalda seçenek bir roadhouse ya da bir genel mağazaya iniyor; genellikle daha az marka ve daha yüksek fiyatla, bu yüzden uzak bir etaptan önce daha büyük bir kasabada stok yapın. Fiyatlar her yıl artıyor, bu yüzden geçen yılın bir rakamına güvenmek yerine rafa bakın.",
+      "sections": [
+        {
+          "heading": "Nereden alınır, kısaca",
+          "body": [
+            "Sigara, makul büyüklükteki her kasabada kolayca bulunur; dükkân türü seçeneği ve fiyatı belirler. Vape'lar ayrı bir durumdur ve yalnızca eczaneden gelir.",
+            "Dükkânların neler bulundurduğu zincirden zincire ve yıldan yıla değişir, bu yüzden tabloyu her dükkân için bir söz değil, olağan düzen olarak görün."
+          ],
+          "tips": [
+            "Sigara: çok sayıda dükkân",
+            "Vape: yalnızca eczane",
+            "Outback'te seçenek daralır"
+          ],
+          "table": {
+            "caption": "Yolcuların Avustralya'da tütün ve vape'ı genellikle nereden aldığı, Kasım 2026. Stok ve fiyatlar dükkâna göre değişir.",
+            "head": [
+              "Nerede",
+              "Ne satıyorlar",
+              "Notlar"
+            ],
+            "rows": [
+              [
+                "Süpermarketler",
+                "Sigara ve sarmalık tütün; vape yok",
+                "Coles, Woolworths ve IGA bunu bir servis kasasında ya da kioskta satar; Aldi tütün satmaz"
+              ],
+              [
+                "Benzin istasyonları ve bakkallar",
+                "Sigara ve sarmalık tütün; vape yok",
+                "Geç saate kadar açık ve her yerde, ama çoğu zaman en pahalı seçenek"
+              ],
+              [
+                "Tütün bayileri",
+                "En geniş sigara ve tütün yelpazesi; vape yok",
+                "Uzman dükkânlar, daha az yaygın markalar için en iyisi"
+              ],
+              [
+                "Bottle shop'lar ve pub'lar",
+                "Bazılarında sigara",
+                "Hepsi bulundurmaz, önce sorun"
+              ],
+              [
+                "Eczaneler",
+                "Eczacıyla konuşmanın ardından 20 mg/mL ve altı nikotinli vape'lar",
+                "Vape için tek yasal yer; sınırlı aromalar; her eczane bulundurmaz"
+              ],
+              [
+                "Roadhouse'lar ve uzak mağazalar",
+                "Birkaç sigara markası, bazen tütün",
+                "Daha yüksek fiyat, daha kısa saatler, vape yok"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Süpermarketler ve bottle shop'lar",
+          "body": [
+            "Coles, Woolworths ve IGA sigara satar, ama onları rafta görmezsiniz. Sergileme yasakları yüzünden paketler kapalı dolaplarda tutulur, bu yüzden servis kasasında ya da kioskta markayı söyleyerek istersiniz. Süpermarket zincirleri tütünü azaltıyor ve bazı içki mağazaları satmayı bıraktı, bu yüzden neyin bulundurulduğu mağazaya göre değişir. Aldi hiç tütün satmaz.",
+            "Bazı bottle shop'lar ve pub bottle shop'ları sigara satar, bazıları satmaz; bu yüzden birine güvenmeyi planlamadan önce sorun. Büyük bir alışverişte süpermarket kasası kullanışlı bir seçimdir, çünkü fiyatlar genellikle kasabanın geri kalanıyla uyumludur ve zaten oradasınızdır."
+          ],
+          "tips": [
+            "Servis kasasında sorun",
+            "Aldi tütün satmaz",
+            "Önce bottle shop'lara sorun"
+          ]
+        },
+        {
+          "heading": "Benzin istasyonları ve bakkallar",
+          "body": [
+            "Ampol, BP, 7-Eleven ve bağımsız servo'lar neredeyse her zaman sigara satar, genellikle kasanın arkasındaki bir tezgâhta, ve birçoğu geç saate ya da bütün gece açıktır. Bu da süpermarketler kapandıktan sonra bir kasabaya vardığınızda onları en kolay seçenek yapar.",
+            "Bu rahatlığın bedeli daha yüksek fiyattır. Bir servo çoğu zaman kasabada bir paket için en pahalı yerdir, bu yüzden birkaç haftalık alıyorsanız süpermarket kasası ya da tütün bayisi genellikle daha ucuza gelir. <a data-guide=\"cigarette-prices-australia\">Sigara fiyatları</a> rehberinde bir paket ve bir kese için olağan aralıklar var."
+          ],
+          "tips": [
+            "Geç saate kadar açık, çoğu zaman en pahalı",
+            "Acil bir paket için uygun",
+            "Süpermarkette daha ucuz"
+          ]
+        },
+        {
+          "heading": "Tütün bayileri ve yasa dışı dükkânlar",
+          "body": [
+            "Tütün bayileri, en geniş sigara ve sarmalık tütün yelpazesine sahip uzman dükkânlardır ve süpermarketlerin bulundurmadığı markaları sipariş edebilir ya da yönlendirebilir. Birkaç eyalet artık bir dükkânın perakende tütün lisansı taşımasını zorunlu kılıyor ve <a data-guide=\"camping-rules-victoria\">Victoria</a>'da lisans kuralı 1 Şubat 2026'dan beri uygulanıyor. Dükkânda çoğu zaman lisans numarası ya da sertifikası asılıdır.",
+            "Çok ucuz sigara ya da vape satan dükkânlara karşı temkinli olun. Bazı dükkânlarda yasa dışı, vergisiz tütün ve vape'lar satılıyor ve bunları satmak ya da almak yasalara aykırıdır. El konulabilir ve alıcılara ceza kesilebilir, cezalar eyalete göre değişir. Yasal sigaralar İngilizce büyük görsel sağlık uyarıları taşıyan sade zeytin-kahverengi paketlerde gelir; bu yüzden rengârenk ya da yabancı görünümlü bir paket, İngilizce uyarının olmaması ya da olağan aralığın çok altında bir fiyat bir uyarı işaretidir."
+          ],
+          "tips": [
+            "En geniş marka yelpazesi",
+            "Sade paketler, İngilizce uyarılar",
+            "Çok ucuz genellikle yasa dışı demek"
+          ]
+        },
+        {
+          "heading": "Kimlik ve yaş kuralları",
+          "body": [
+            "Avustralya'nın her yerinde sigara, sarmalık tütün ya da vape satın almak için 18 yaş ve üzeri olmalısınız ve satıcı yaş kanıtı olmadan size servis yapmayı reddedebilir. Birçok dükkân 25'ten genç görünen herkesten kimlik ister, bu yüzden sorulmasını bekleyin ve kişisel almayın.",
+            "Pasaport ya da Avustralya ehliyeti taşıyın; kendi ülkenizin ehliyeti de fotoğrafınızı ve doğum tarihinizi gösteriyorsa olur. Neyin kabul edileceğine personel karar verir, bu yüzden fotokopi yerine aslını yanınızda tutun. <a data-guide=\"smoking-vaping-rules-australia\">Sigara ve vape kuralları</a> rehberinde sigaranın yasak olduğu yerler var."
+          ],
+          "tips": [
+            "Yalnızca 18 ve üzeri",
+            "25 altı görünene sık sorulur",
+            "Aslı fotoğraflı kimlik taşıyın"
+          ]
+        },
+        {
+          "heading": "Vape satın almak",
+          "body": [
+            "Vape'ları yalnızca eczaneler satabilir. Tütün bayileri, vape dükkânları ve bakkallar, nikotin içersin içermesin, satamaz ve tek kullanımlık vape'lar yasaktır. Bunları tezgâhtan satan bir dükkân yasayı çiğniyordur.",
+            "Yetişkinler, eyalet ve bölge yasalarının izin verdiği yerlerde, kısa bir konuşmanın ardından 20 mg/mL ve altı nikotinli bir vape'ı eczacıdan reçetesiz alabilir. Daha yüksek güçler için reçete gerekir. Aromalar aromasız, nane, mentol ve tütünle sınırlıdır. Her eczane vape bulundurmaz, bu yüzden önceden arayın ya da daha büyük birinde sorun."
+          ],
+          "tips": [
+            "Yalnızca eczane",
+            "Tek kullanımlık yok",
+            "Nane, mentol, tütün"
+          ]
+        },
+        {
+          "heading": "Outback'te ve uzak yollarda",
+          "body": [
+            "Roadhouse'lar ve uzak genel mağazalar genellikle sigara satar, ama seçenek birkaç marka olabilir ve fiyat kasabadakinden yüksektir. Sarmalık tütün sınırlı olabilir ve mağazanın stoğu biterse bir sonraki yüzlerce kilometre uzakta olabilir. Bazı uzak topluluklar mağazaların ne satabileceğine dair kendi kurallarını koyar, bu yüzden bir topluluk dükkânına güvenmeden önce sorun ve kısıtlamalara dair tabelalara uyun.",
+            "Daha büyük kasabaların dışında eczane azdır, bu yüzden vape kullanıyorsanız ayrılmadan önce alın. Çoğu roadhouse kart kabul eder, ama kesintiler olur ve çalışma saatleri daha kısadır, çoğu zaman erken akşam kapanır; bu yüzden biraz nakit taşıyın ve hava kararmadan alın. Uzun bir etap için birkaç yedek paket, roadhouse'ta tamamlamaktan daha ucuzdur."
+          ],
+          "tips": [
+            "Uzak etaplardan önce alın",
+            "Vape kullananlar: eczanelere göre planlayın",
+            "Biraz nakit taşıyın"
+          ]
+        },
+        {
+          "heading": "Yolda ve kampta",
+          "body": [
+            "Sıcak, tütüne ve vape'lara zarar verir. Paketleri, keseleri ya da vape'ı sıcak bir arabada ya da kapalı bir karavanda bırakmayın; kuruyabilir veya bozulabilirler, vape'ı da doğrudan güneşten uzak tutun. Gölgede bir çanta ya da soğutucunun bir bölmesi daha iyidir.",
+            "Kamptan ve çadırlardan uzakta için ve yangın tehlike derecesini kontrol edin. <a data-guide=\"campfires-camping-australia\">Tam ateş yasağında</a> yanan bir sigara gerçek bir risktir ve bazı kamp alanları, plajlar ve milli parklar dumansızdır. Her izmariti tamamen söndürüp yanınızda götürün, asla yerde bırakmayın. Yeni Zelanda'ya da mı gidiyorsunuz? KiwiCamping, <a data-sister=\"where-to-buy-cigarettes-vapes-new-zealand\">Yeni Zelanda'da sigara ve vape nereden alınır</a> konusunu anlatıyor."
+          ],
+          "tips": [
+            "Sıcak arabadan uzak tutun",
+            "Yangın tehlike derecesine bakın",
+            "İzmaritleri yanınızda götürün"
+          ]
+        },
+        {
+          "heading": "AussieCamps'te stok duraklarınızı planlayın",
+          "body": [
+            "AussieCamps her durağı tarihler ve notlarla bir gezeye eklemenizi sağlar, sürüş rotası da her etabın mesafesini ve süresini gösterir. Bu, uzak bir kesimden önceki son büyük kasabayı görmeyi ve stok yapılacak yer olarak not etmeyi kolaylaştırır.",
+            "Yer ayrıntıları, arama ve filtreler sinyal olmadan çalışır, bu yüzden menzil dışındayken bir kamp alanının içme suyu, tuvalet ve <a data-guide=\"campfires-camping-australia\">kamp ateşi</a> gibi özelliklerini kontrol edebilirsiniz. AussieCamps iPhone'da çalışır."
+          ],
+          "tips": [
+            "Her etabın mesafesini görün",
+            "Stok yapılacak kasabaları not edin",
+            "Yalnızca iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Avustralya'da sigara nereden alabilirim?",
+          "Coles, Woolworths ve IGA gibi süpermarketlerden, benzin istasyonlarından ve bakkallardan, ayrıca en geniş yelpazeye sahip tütün bayilerinden. Aldi tütün satmaz. Süpermarketlerde sigaralar gözden uzak tutulur ve servis kasasında istersiniz."
+        ],
+        [
+          "Avustralya'da vape nereden alabilirim?",
+          "Yalnızca eczaneden. 1 Temmuz 2024'ten beri vape'lar tütün bayileri, vape dükkânları ya da bakkallar tarafından satılamıyor ve tek kullanımlık vape'lar yasak. Yetişkinler 20 mg/mL ve altı nikotinli vape'ları kısa bir konuşmanın ardından eczacıdan reçetesiz alabilir, ama her eczane bulundurmaz."
+        ],
+        [
+          "Avustralya'da sigara almak için kimlik gerekir mi?",
+          "18 yaş ve üzeri olmalısınız ve personel yaş kanıtı isteyebilir. Pasaport ya da Avustralya ehliyeti taşıyın, çünkü fotokopi ya da telefondaki bir fotoğraf kabul edilmeyebilir. Dükkânlar sıklıkla 25'ten genç görünen herkese sorar."
+        ],
+        [
+          "Outback'te sigara alabilir miyim?",
+          "Roadhouse'larda ve genel mağazalarda genellikle evet, ama sınırlı sayıda marka ve daha yüksek fiyatla. Bazı uzak topluluk mağazalarının ne sattıklarına dair kendi kuralları var ve eczaneler az, bu yüzden uzak bir etaptan önce ihtiyacınız olanı daha büyük bir kasabada alın."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Department of Health: vaping hakkında"
+        },
+        {
+          "label": "Department of Health: 1 Temmuz'dan itibaren Avustralya'da vaping değişiklikleri"
+        },
+        {
+          "label": "Therapeutic Goods Administration: vape düzenlemesindeki reformlar"
+        },
+        {
+          "label": "Therapeutic Goods Administration: tüketiciler için nikotinli vape ürünleri bilgisi"
+        },
+        {
+          "label": "Victorian Government: tütün lisanslama"
+        },
+        {
+          "label": "Department of Health: Avustralya'da tütün ürünlerindeki değişiklikler"
         }
       ],
       "priceTable": null

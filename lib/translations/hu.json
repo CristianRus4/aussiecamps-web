@@ -8102,112 +8102,272 @@
       }
     },
     "alcohol-coffee-drink-prices-australia": {
-      "title": "Sör- és kávéárak Ausztráliában 2027: pubi sör $7-től $16-ig",
-      "description": "Egy pubi sör $7-tól $16-ig, egy cappuccino $4.50-től $8-ig kerül Sydneyben (2026 október). Standard italonként a pubi sör $4-9, a bottle shopban vett bor $1.60-4.",
-      "region": "Ausztrália",
+      "title": "Mennyibe kerül egy sör Ausztráliában? Kocsmai és italbolti árak (2027)",
+      "description": "Egy schooner $8-$13, egy pint $12-$18 az ausztrál városokban (2026 november). Egy 24-es slab $55-$72. Árak városonként, a poharak nevei, happy hour.",
+      "region": "Australia",
       "imageAlt": "Ausztrál kávézói italok egy asztalon",
-      "intro": "Egy 500 ml-es csapolt sör egy sydney-i pubban kb. $7-tól $16-ig, egy cappuccino $4.50-től $8-ig kerül a 2026 októberében frissített közösségi árakon, míg egy 500 ml-es üveges sör a bottle shopból országosan kb. $3.50-től $12-ig. Standard italonként ez kb. $4-9 a pubban, $2-7 a bottle shopos sörnél és $1.60-4 egy középkategóriás üveg bornál, így a táborba visszavitt italok a legjobb vétel.",
+      "intro": "Egy schooner sör (425 ml) 2026 novemberében nagyjából $8-$13-ba kerül egy ausztrál városi kocsmában, egy pint (570 ml) pedig körülbelül $12-$18-ba. Perth és a vidéki kocsmák az olcsó végén vannak, Sydney és Melbourne belvárosa a legdrágább. Az italboltban egy hatos csomag átlagos sör kb. $20-$28, egy 24-es slab kb. $55-$72, ami söronként kevesebb mint fele a kocsmai árnak, így a kempingbe hazavitt ital messze a legjobb vétel.",
       "sections": [
         {
-          "heading": "A bolti és a vendéglátói árak különböző termékek",
+          "heading": "Sörárak városonként",
           "body": [
-            "A pubi ár a helyet, a személyzetet és a kiszolgálást is tartalmazza, nem csak a folyadékot. Hasonlítsd az egyformát az egyformához, és ne írd le a bottle shopos megfelelőt a csapolt ital áraként. A standard italok teszik tisztességessé az összehasonlítást: a Healthy WA szerint egy standard ital 10 gramm alkohol, ennyi van 285 ml teljes erősségű sörben vagy 100 ml borban, így egy 500 ml-es sör kb. 1.75 standard ital, egy 750 ml-es üveg bor pedig kb. 7.5.",
-            "A happy hourok és akciók átmenetiek. A költségvetést a szokásos sávból építsd fel, a kedvezményt pedig kezeld tartaléknak."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Bor a bottle shopban és a bárban",
-          "body": [
-            "Egy középkategóriás 750 ml-es üveg bor kb. $12-től $30-ig kerül a bottle shopban, és nagyjából öt 150 ml-es poharat tölt. Pohárra rendelve egy bárban vagy étteremben ugyanaz a bor adagonként általában jóval többe kerül, így a táborban megosztott üveg a bor legolcsóbb formája.",
-            "Néhány étterem, főleg az italengedéllyel nem rendelkezők, engedi, hogy saját üveget vigyél dugaszolási díj ellenében, ami a bottle shopos árat vacsorabor-áron kínálja. Erről foglaláskor érdeklődj, ne az asztalnál."
+            "A táblázat egy átlagos sör, például helyi lager vagy pale ale tipikus árait mutatja. A kocsmai ár nagyban függ a helyszíntől: egy külvárosi kocsma vagy klub olcsóbban mér, mint egy tetőtéri bár vagy egy kikötői szálloda, a kraftsör pedig általában poharanként $2-$4-rel drágább.",
+            "Az italboltok árai kevésbé térnek el városonként, mert az ár nagy része a jövedéki adó, vagyis az alkohol szövetségi adója, amely mindenhol ugyanannyi. Darwin és az outback a szállítás miatt többet fizet, a <a data-guide=\"camping-rules-northern-territory\">Northern Territory</a> italboltjaira pedig a nyitvatartásra és az igazolványra vonatkozó külön szabályok érvényesek.",
+            "Számíts rá, hogy az árak tovább emelkednek. A csomagolt sör jövedéki adója minden februárban és augusztusban az inflációval nő, így az italboltok árai 2027-ben tovább kúsznak felfelé, a csapolt sör adója viszont 2027 augusztusáig befagyasztott, ezért a kocsmai árak stabilabbak."
           ],
           "tips": [
-            "Középkategóriás üveg: $12-től $30-ig",
-            "Üvegenként kb. öt pohár",
-            "Foglaláskor kérdezz a BYO-ról"
+            "Perth: a legolcsóbb pint a fővárosok közt",
+            "Sydney és Melbourne: a legdrágább",
+            "Vidéki kocsmák: gyakran a legolcsóbbak"
+          ],
+          "table": {
+            "caption": "Egy átlagos sör tipikus árai 2026 novemberében. Egy schooner 425 ml, egy pint 570 ml; Adelaide-ben a 425 ml-es poharat pintnek hívják.",
+            "head": [
+              "Város",
+              "Kocsmai schooner (425 ml)",
+              "Kocsmai pint (570 ml)",
+              "Hatos csomag (italbolt)",
+              "24-es slab (italbolt)"
+            ],
+            "rows": [
+              [
+                "Sydney",
+                "$9-$13",
+                "$13-$18",
+                "$21-$28",
+                "$57-$72"
+              ],
+              [
+                "Melbourne",
+                "$9.50-$14",
+                "$14-$18.50",
+                "$21-$28",
+                "$57-$72"
+              ],
+              [
+                "Brisbane",
+                "$9-$13",
+                "$12-$17",
+                "$21-$28",
+                "$57-$72"
+              ],
+              [
+                "Perth",
+                "$8-$12",
+                "$9-$15",
+                "$21-$28",
+                "$58-$72"
+              ],
+              [
+                "Adelaide",
+                "$8.50-$12",
+                "$12-$16",
+                "$20-$27",
+                "$55-$70"
+              ],
+              [
+                "Hobart",
+                "$9-$12",
+                "$12-$16",
+                "$21-$28",
+                "$58-$72"
+              ],
+              [
+                "Darwin",
+                "$9-$13",
+                "$13-$18",
+                "$23-$30",
+                "$62-$80"
+              ],
+              [
+                "Canberra",
+                "$9-$12",
+                "$12-$17",
+                "$21-$28",
+                "$57-$72"
+              ],
+              [
+                "Vidéki kocsmák",
+                "$7-$10",
+                "$10-$14",
+                "$22-$32",
+                "$60-$85"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Pohárnevek és méretek államonként",
+          "body": [
+            "Az ausztrál sörspoharak neve az államhatárokon változik, és ugyanaz a szó más poharat jelölhet. Sydney-ben a schooner 425 ml, Adelaide-ben viszont 285 ml, mert a dél-ausztrálok a 425 ml-es poharat pintnek, az 570 ml-est pedig imperial pintnek hívják.",
+            "Ha bizonytalan vagy, kérd a méretet egyszerű szavakkal, vagy mondd, hogy kicsi, közepes vagy nagy. A pultosok megszokták a turistákat, és a falon lévő árlista általában megnevezi a poharakat."
+          ],
+          "tips": [
+            "A schooner SA-ban 285 ml",
+            "Kérj kicsit, közepeset vagy nagyot",
+            "A kancsó kb. 1,1 liter"
+          ],
+          "table": {
+            "caption": "A csapolt sör poharainak szokásos nevei államonként és területenként. A nevek kocsmánként eltérhetnek, főleg a 285 ml-es pohárnál.",
+            "head": [
+              "Állam vagy terület",
+              "285 ml",
+              "425 ml",
+              "570 ml"
+            ],
+            "rows": [
+              [
+                "New South Wales és az ACT",
+                "Middy",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Victoria",
+                "Pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Queensland",
+                "Pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "South Australia",
+                "Schooner",
+                "Pint",
+                "Imperial pint"
+              ],
+              [
+                "Western Australia",
+                "Middy",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Tasmania",
+                "Ten vagy pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Northern Territory",
+                "Handle vagy middy",
+                "Schooner",
+                "Pint"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "A bolti és a vendéglátói ár két különböző termék",
+          "body": [
+            "A kocsmai ár a helyszínt, a személyzetet és a kiszolgálást is tartalmazza, nem csak az italt. Hasonlítsd az egyformát az egyformához, és ne add ki az italbolti megfelelőt a felszolgált ital árának. A standard ital segít a tisztességes összevetésben: a Healthy WA szerint egy standard ital 10 gramm alkoholt jelent, ennyi van 285 ml normál erősségű sörben vagy 100 ml borban, így egy 500 ml-es sör kb. 1,75, egy 750 ml-es üveg bor kb. 7,5 standard ital.",
+            "Standard italonként a kocsmai sör kb. $4-$9, az italboltból vett slab kb. $1.60-$2.20, egy közepes árú üveg bor pedig kb. $1.60-$4. A szinte mindenhol csapolt mid-strength sörben nagyjából negyedével kevesebb az alkohol, az ára mégis majdnem ugyanannyi."
+          ],
+          "tips": [
+            "285 ml normál erősségű: egy standard ital",
+            "Slab sör: kb. $2 standard italonként",
+            "A mid-strength nagyjából ugyanannyiba kerül"
           ]
         },
         {
-          "heading": "Tartsd kézben a csendes napi összeget",
+          "heading": "Happy hour és a legolcsóbb ivási módok",
           "body": [
-            "Napi két kávé és két vendéglátói ital hetente jelentős összeggé nőhet. Döntsd el, mely megállók számítanak, ne megszokásból vásárolj.",
-            "Tartsd elérhetően az <a data-guide=\"camping-water-planning\">ivóvizet</a>, és csak ivóvízminőségű csapokból tölts. Forró időben a hidratálás és az árnyék a biztonsági terv része, nem a szórakozási költségvetésé."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "A kávé napi tétel",
-          "body": [
-            "Az ausztrál kávékultúra erős, és a vidéki városokban a színvonal valóban magas, éppen ezért lesz belőle költségvetési tétel. Napi két flat white két embernek úgy gyűlik, hogy közben sosem érzed döntésnek.",
-            "Egy főzőkanna vagy egy AeroPress a lakóautóban a kávézói ár töredékéért megoldja a reggeli csészét, és a kávézói megállót olyasmivé teszi, amit választasz, nem automatikussá.",
-            "A roadhouse-ok kávéja hosszú utakon a legjobb esetben is változó. Az outbacki útvonalakon a saját főzés általában olcsóbb és jóval jobb is."
+            "Sok kocsma hétköznap délután tart happy hourt, gyakran 16 és 18 óra között, schoonerekkel kb. $6-$9-ért. Van, ahol olcsó kancsót, az ebédhez járó sört vagy steak-és-schooner estet is kínálnak. Tekintsd ezt jutalomnak, ne költségvetésnek: gyakran változnak, és sok csak hétköznap él.",
+            "A klubok, például az RSL-ek, a bowls klubok és a surf klubok általában olcsóbban mérnek a kocsmáknál, és a látogatókat szívesen látják: az ajtóban fényképes igazolvánnyal bejelentkezel, és arra a napra ideiglenes tag leszel.",
+            "A legolcsóbb ital egy slab vagy egy cask (dobozos bor) az italboltból, a lakóautó hűtőjében vagy az eskyben (hűtőtáska) behűtve, a kempingben elfogyasztva. Előbb nézd meg a kemping szabályait, mert egyes nemzeti parki és önkormányzati helyeken, valamint sok városi strandon és parkban tilos az alkohol, vagy csak bizonyos időszakokban szabad."
           ],
           "tips": [
-            "Napi két csésze gyorsan összeadódik",
-            "A reggeli csészét főzd magad",
-            "A roadhouse-kávé változó"
+            "Hétköznapi happy hour: kb. 16-18 óra",
+            "A klubok igazolvánnyal fogadják a látogatókat",
+            "Nézd meg az alkoholszabályokat a kempingben"
           ]
         },
         {
           "heading": "Alkoholvásárlás Ausztráliában",
           "body": [
-            "A csomagolt alkoholt többnyire engedéllyel rendelkező bottle shopok árulják, gyakran egy szupermarket mellett, de attól külön működve, bár az Aldi és néhány független élelmiszerbolt az üzletben is árulja. A nyitvatartást szabályozzák, és államonként eltér.",
-            "Alkoholkorlátozások számos közösségben és régióban érvényesek, különösen a Northern Territoryban, a <a data-guide=\"camping-rules-queensland\">Queensland</a> egyes részein, Nyugat-Ausztráliában és Dél-Ausztráliában. Az alkohol korlátozott területre vitele súlyos büntetéssel jár.",
-            "Mielőtt alkohollal távoli területekre utazol, nézz utána. A korlátozásokat jogilag érvényesítik, a látogatókra ugyanúgy vonatkoznak, mint a helyiekre, és a tudatlanság nem mentség."
+            "A csomagolt alkoholt főleg engedéllyel működő italboltokban árulják, ezek gyakran egy szupermarket mellett vannak, de külön üzemelnek, bár az Aldi és néhány független élelmiszerbolt a boltban is árul alkoholt. A nyitvatartás szabályozott, és államonként eltér. Az alkoholvásárláshoz 18 évesnek kell lenni, és a személyzet mindenkitől fényképes igazolványt kér, aki 25 évesnél fiatalabbnak látszik: útlevelet vagy jogosítványt.",
+            "Az alkoholkorlátozások számos közösségben és régióban érvényesek, különösen a Northern Territoryban, <a data-guide=\"camping-rules-queensland\">Queensland</a> egyes részein, Western Australiában és South Australiában. Ha alkoholt viszel egy korlátozott területre, súlyos büntetésre számíthatsz.",
+            "Mielőtt alkohollal indulsz el távoli vidékekre, érdeklődj. A korlátozásokat jogilag kikényszerítik, a látogatókra ugyanúgy vonatkoznak, mint a helyiekre, és a tudatlanság nem mentség."
           ],
           "tips": [
-            "Többnyire bottle shopok, néhány szupermarket",
-            "A korlátozott területeken nagy a büntetés",
-            "Távoli régióba lépés előtt nézz utána"
+            "Főleg italboltok, néhány szupermarket",
+            "Hozz fényképes igazolványt",
+            "Távoli vidékekre indulás előtt érdeklődj"
           ]
         },
         {
-          "heading": "Ivás és a vezetési nap",
+          "heading": "Ivás és vezetés: a vezetős nap",
           "body": [
-            "Az általános határérték 0.05 a teljes jogosítvánnyal rendelkezőknek, nulla a tanuló- és ideiglenes jogosítványosoknak, és nulla vagy 0.02 sok hivatásos sofőrnek államtól függően (NSW-ben 0.02). A véletlenszerű alkoholszondás ellenőrzés gyakori, vidéki utakon és nappal is.",
-            "Egy road tripen az egyetlen biztonságos megközelítés, ha az ivást és a vezetést teljesen szétválasztod: maradj ott, ahol iszol, használj kijelölt sofőrt, vagy akkor igyál, amikor a jármű már éjszakára parkol.",
-            "A másnapi vezetés sokakat meglep. A szervezetnek legalább egy óra kell minden standard ital lebontásához, gyakran több, és a kávé vagy a zuhany nem gyorsítja, így egy durva este után még jóval másnap délelőtt is a határérték felett lehetsz."
+            "Az általános határérték 0,05 a teljes jogosítvánnyal rendelkezőknek, nulla a tanuló és a próbaidős (provisional) vezetőknek, sok hivatásos sofőrnek pedig államtól függően nulla vagy 0,02 (NSW-ben 0,02). A véletlenszerű alkoholszondás ellenőrzés gyakori, vidéki utakon és nappal is.",
+            "Egy road trip során az egyetlen biztonságos módszer az ivás és a vezetés teljes szétválasztása: maradj ott, ahol iszol, használj kijelölt sofőrt, vagy akkor igyál, amikor a jármű már éjszakára parkol.",
+            "A másnapi vezetés sokakat megfog. A szervezet standard italonként legalább egy órát igényel a lebontáshoz, gyakran többet, a kávé vagy a zuhany pedig nem gyorsítja, így egy hosszú este után másnap délelőtt is a határérték felett lehetsz."
           ],
           "tips": [
-            "0.05 általában, nulla tanulóknak és ideiglenes jogosítványosoknak",
-            "A véletlenszerű ellenőrzés gyakori és nappal is zajlik",
+            "0,05 általában, nulla a tanulóknak és próbaidősöknek",
+            "A véletlenszerű ellenőrzés gyakori, és nappal is van",
             "A másnapi vezetés a csapda"
           ]
         },
         {
-          "heading": "A víz az, amit jól kell csinálni",
+          "heading": "Bor az italboltban és a bárban",
           "body": [
-            "A csapvíz szinte minden ausztrál városban és településen biztonságos és jó, a palackozott víz vásárlása pedig majdnem tiszta pazarlás. Vigyél újratölthető palackokat, és tölts bármelyik ivóvízminőségű csapnál egy városban, kempingben vagy nyilvános létesítményben.",
-            "Távoli és bozótos környezetben a helyzet megfordul: a fúrt kútvíz lehet ásványi anyagokban gazdag vagy alkalmatlan, a tartályvíz kezeletlen, a mezőgazdasági területek felszíni vize pedig vegyi szennyezést hordozhat. Kezelj mindent, ami nem jelzett ivóvízminőségű városi ellátás.",
-            "Vigyél egy jó hőszigetelt palackot, hogy hőségben mindig kéznél legyen hideg víz; az újratöltés semmibe sem kerül."
+            "Egy közepes árú, 750 ml-es üveg bor kb. $12-$29 az italboltban, és nagyjából öt 150 ml-es poharat ad. Bárban vagy étteremben pohárra rendelve ugyanaz a bor általában $10-$16 poharanként, így a kempingben megosztott üveg a legolcsóbb borivás.",
+            "Egyes éttermek, többnyire az engedély nélküliek, megengedik, hogy saját üveget hozz dugópénz (corkage) ellenében, így az italbolti ár vacsorabor lesz. Foglaláskor kérdezz rá, ne az asztalnál."
           ],
           "tips": [
-            "A városi csapvíz biztonságos",
-            "A fúrt kútvíz gyakran alkalmatlan",
-            "Kezeld a tartály- és felszíni vizet"
+            "Közepes árú üveg: $12-$29",
+            "Egy üvegből kb. öt pohár",
+            "Foglaláskor kérdezz rá a BYO-ra"
+          ]
+        },
+        {
+          "heading": "A kávé napi kiadás",
+          "body": [
+            "Egy sima cappuccino vagy flat white kb. $4-$8, a belvárosi kávézók a skála tetején. Az ausztrál kávékultúra erős, és a vidéki városokban is igazán magas a színvonal, éppen ezért lesz költségvetési tétel: napi két kávé két embernek úgy gyűlik, hogy közben sosem érződik döntésnek.",
+            "A lakóautóban egy kotyogós (stovetop) kávéfőző vagy egy AeroPress a kávézói ár töredékéért adja a reggeli csészét, a kávézói megállóból pedig tudatos választás lesz az automatizmus helyett. Az outback hosszú útjain a roadhouse-kávé hullámzó minőségű, ezért a saját főzés általában olcsóbb és jobb is.",
+            "A csapvíz szinte minden ausztrál városban biztonságos és jó, ezért újratölthető palackot vigyél, ne vegyél vizet. A bushban a kútvizet, a tartályvizet és a patakvizet ivás előtt kezeld. Új-Zélandra is mész? A KiwiCamping bemutatja, <a data-sister=\"beer-wine-coffee-prices-new-zealand\">mennyibe kerül egy sör, egy bor és egy kávé Új-Zélandon</a>."
+          ],
+          "tips": [
+            "Cappuccino: $4-$8",
+            "A reggeli csészét főzd magad",
+            "A városi csapvíz biztonságos"
           ]
         }
       ],
       "faq": [
         [
           "Mennyibe kerül egy sör Ausztráliában?",
-          "Egy 500 ml-es csapolt sör egy sydney-i pubban kb. $7.15-től $16-ig kerül a 2026 októberi közösségi árak szerint, egy 500 ml-es üveg a bottle shopból országosan kb. $3.50-től $12-ig. A bottle shopból vásárlás a bár helyett az egyik legnagyobb megtakarítás egy hosszú úton."
+          "Egy schooner (425 ml) átlagos sör 2026 novemberében kb. $8-$13 egy városi kocsmában, egy pint (570 ml) pedig kb. $12-$18. Az italboltban egy hatos csomag kb. $20-$28, egy 24-es slab kb. $55-$72, ami söronként kevesebb mint fele a kocsmai árnak."
+        ],
+        [
+          "Mennyibe kerül egy pint Ausztráliában?",
+          "Egy városi kocsmában 570 ml átlagos sör kb. $12-$18, Perth és a vidéki kocsmák az olcsó, Melbourne és Sydney belvárosa a drága végén. South Australiában a pint a 425 ml-es pohár, ami kb. $8.50-$12; 570 ml-hez imperial pintet kérj."
+        ],
+        [
+          "Hol a legolcsóbb a sör Ausztráliában?",
+          "Perthben és a vidéki kocsmákban mérik a legolcsóbb sört, a klubok, például az RSL-ek és a bowls klubok pedig általában a kocsmák alatt vannak; a látogatók fényképes igazolvánnyal jelentkeznek be. A hétköznapi happy hour a schoonert kb. $6-$9-ra viszi le, de az italboltból vett slab, standard italonként kb. $2-ért, mindennél olcsóbb."
         ],
         [
           "Mennyibe kerül a kávé Ausztráliában?",
-          "Egy sima cappuccino kb. $4.50-től $8-ig kerül Sydneyben és $4-től $8-ig országosan a 2026 októberi közösségi árak szerint, a belvárosi kávézók gyakran a sáv tetején. Napi két kávé két embernek hosszú úton valódi költségvetési tétellé válik."
+          "Egy sima cappuccino vagy flat white kb. $4-$8, a belvárosi kávézók gyakran a skála tetején. Napi két kávé két embernek hosszú úton komoly költségtétel, ezért sok kempinges maga főzi a reggeli csészét."
         ]
       ],
       "sources": [
         {
-          "label": "Numbeo sydney-i italárak"
+          "label": "Numbeo Australia italárak, frissítve 2026 novemberében"
         },
         {
-          "label": "Numbeo ausztráliai kiskereskedelmi sávok"
+          "label": "Australian Taxation Office: az alkohol jövedéki adókulcsai"
         },
         {
-          "label": "NSW útmutató az alkoholról és a vezetésről"
+          "label": "Healthy WA: mi az a standard ital"
+        },
+        {
+          "label": "NSW alkohol és vezetés útmutató"
         },
         {
           "label": "NHMRC: mennyi idő alatt bomlik le az alkohol"
@@ -8216,31 +8376,35 @@
           "label": "Northern Territory: alkoholvásárlás és -fogyasztás"
         },
         {
-          "label": "Healthy WA: mi az a standard ital"
+          "label": "NSW Government: klubszabályok látogatóknak"
         }
       ],
       "priceTable": {
-        "note": "Közösségi forrásból származó ausztráliai és sydney-i sávok, 2026 októberében frissítve. Az adagméret, a hely, az akció és a földrajzi hely változik.",
+        "note": "Városi kocsmai és italbolti sávok az átlagos ausztrál sörre 2026 novemberében. A kraftsör, az import sör, a vízparti helyek és a távoli vidékek drágábbak; a happy hourok és akciók olcsóbbak.",
         "rows": [
           {
-            "label": "Cappuccino (Sydney)",
+            "label": "Kocsmai schooner",
+            "unit": "425 ml"
+          },
+          {
+            "label": "Kocsmai pint",
+            "unit": "570 ml"
+          },
+          {
+            "label": "Italbolti hatos csomag",
+            "unit": "6 x 375 ml"
+          },
+          {
+            "label": "Italbolti slab",
+            "unit": "24 x 375 ml"
+          },
+          {
+            "label": "Közepes árú bor",
+            "unit": "750 ml, italbolt"
+          },
+          {
+            "label": "Cappuccino",
             "unit": "egy csésze"
-          },
-          {
-            "label": "Pubi csapolt sör (Sydney)",
-            "unit": "egy adag"
-          },
-          {
-            "label": "Középkategóriás bor (országos)",
-            "unit": "750 ml bolti"
-          },
-          {
-            "label": "Hazai sör megfelelője (országos)",
-            "unit": "500 ml bolti"
-          },
-          {
-            "label": "Üdítő (Sydney)",
-            "unit": "330 ml vendéglátói"
           }
         ]
       }
@@ -29463,6 +29627,608 @@
         },
         {
           "label": "Bureau of Meteorology: éghajlat régiónként"
+        }
+      ],
+      "priceTable": null
+    },
+    "cigarette-prices-australia": {
+      "title": "Mennyibe kerül a cigaretta Ausztráliában 2027-ben? Dobozok $40-$60 között",
+      "description": "Egy legális 20-as doboz kb. $40-$60, egy 30 g-os sodrótasak kb. $90-$120 Ausztráliában. Árak államonként, miért az adó a költség, és a vape-ok.",
+      "region": "Australia",
+      "imageAlt": "Zárt dohányszekrény egy ausztrál boltban, egységcsomagolású cigarettadobozokkal és zacskókkal a polcárak felett",
+      "intro": "Egy legális, 20 szálas doboz cigaretta 2026 novemberében kb. $40-$60-ba kerül Ausztráliában, egy 30 g-os sodrodohány-zacskó pedig kb. $90-$120-ba. A 25-ös dobozok és a nagy zacskók eltűntek: 2025. július 1. óta a cigaretta csak 20-as dobozban, a sodródohány csak 30 g-os zacskóban kapható. Az ár szinte egésze szövetségi adó, így ugyanaz a doboz Sydney-ben és Perthben nagyjából ugyanannyiba kerül, a távoli városokban és a Northern Territoryban kicsit többe. Az árak évente kétszer emelkednek, ezért ha 2027-ben utazol, az itteni számoknál többel kalkulálj.",
+      "sections": [
+        {
+          "heading": "Mennyibe kerül egy 20-as doboz",
+          "body": [
+            "Az olcsó márkák az alsó sávban vannak, 20 szálért kb. $38-$45. A közismert márkák, amelyeket minden servo pultja mögött látsz, inkább $50-$60 körül mozognak. A boltok és láncok más-más időben engednek és emelnek, így ugyanaz a márka két, ugyanabban az utcában lévő boltban pár dollárral eltérhet.",
+            "Ha emlékszel a korábbi évekből vagy otthoni ismerősöktől egy 25-ös dobozra, ez a méret Ausztráliában már nem létezik. A 2025. július 1-jén teljes egészében hatályba lépett egységcsomagolási törvény minden cigarettadobozt 20 szálban rögzített, egy karton 10 dobozból áll. A 20-as doboz az egyetlen árazható méret."
+          ],
+          "tips": [
+            "Olcsó: kb. $38-$45",
+            "Közismert márka: kb. $50-$60",
+            "25-ös dobozt már nem árulnak"
+          ]
+        },
+        {
+          "heading": "Árak államonként és területenként",
+          "body": [
+            "Az ár nagy része szövetségi jövedéki adó, amely minden államban ugyanannyi, ezért az állam, ahol vásárolsz, csak keveset változtat az áron. Az alábbi sávok iránymutatást adnak arra, mit kérnek a boltok a legális termékekért. A <a data-guide=\"camping-rules-northern-territory\">Northern Territory</a> és a távoli közösségek általában drágábbak, mert a szállítás és a kis forgalom rárakódik a polcárra, az outbackben a roadhouse ára pedig a legmagasabb is lehet.",
+            "Nincs hivatalos, államonkénti árlista, ezért a sávokat várható keretnek tekintsd, ne árajánlatnak. Egy pillantás a polcra vásárlás előtt többet elárul bármelyik táblázatnál."
+          ],
+          "tips": [
+            "Minden államban ugyanaz az adó",
+            "NT és távoli vidékek: kicsit több",
+            "Nézd meg a polcárat"
+          ],
+          "table": {
+            "caption": "A legális dohány tipikus polcárai 2026 novemberében. Iránymutatás, nem árajánlat: a boltok maguk szabják meg az áraikat.",
+            "head": [
+              "Állam vagy terület",
+              "20-as doboz",
+              "30 g-os zacskó"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "$40-$60",
+                "$90-$120"
+              ],
+              [
+                "Victoria",
+                "$40-$60",
+                "$90-$120"
+              ],
+              [
+                "Queensland",
+                "$40-$60",
+                "$90-$120"
+              ],
+              [
+                "South Australia",
+                "$40-$60",
+                "$90-$120"
+              ],
+              [
+                "Western Australia",
+                "$40-$60",
+                "$90-$120"
+              ],
+              [
+                "Tasmania",
+                "$40-$60",
+                "$90-$120"
+              ],
+              [
+                "Australian Capital Territory",
+                "$40-$60",
+                "$90-$120"
+              ],
+              [
+                "Northern Territory és távoli vidékek",
+                "$45-$65 vagy több",
+                "$95-$130 vagy több"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Sodródohány-zacskók",
+          "body": [
+            "A sodródohányt csak 30 g-os zacskóban árulják, egy zacskóból kb. 50 vékony cigaretta lesz. Az olcsó zacskók kb. $90-ba, a prémiumok kb. $115-be vagy kicsit többe kerülnek, így a sodrás szálanként nem sokkal olcsóbb egy 20-as doboznál, ha hozzászámolod a papírt és a <a data-guide=\"how-to-use-aussiecamps-filters\">szűrőket</a>.",
+            "A sodródohány jövedéki adóját tömeg alapján vetik ki, 2026. szeptember 1-jétől kilogrammonként $2,587.90. Ez minden 30 g-os zacskóban kb. $78 adó az áfa előtt, ezért olyan közel a polcár egy dobozos cigarettához."
+          ],
+          "tips": [
+            "A 30 g az egyetlen méret",
+            "Kb. $90-$120",
+            "Szálanként nem sokkal olcsóbb"
+          ]
+        },
+        {
+          "heading": "Miért ilyen drága",
+          "body": [
+            "Az ár nagyrészt adó. A szövetségi jövedéki adó 2026. szeptember 1-jétől minden cigarettaszálra $1.55274, a márciusi $1.52829-ről emelkedve, ami egy 20-as dobozon kb. $31. Ehhez jön a 10%-os áfa (GST) a pénztárnál. Együtt ez egy tipikus $50-os doboz kb. 70%-a, az olcsó dobozoknál még több.",
+            "A kulcs évente kétszer, márciusban és szeptember 1-jén változik, mert követi a béreket. Ráadásul 2023 és 2026 között minden szeptemberben további 5%-kal nőtt, így a költség egyenletesen kúszott fel, nem egyetlen ugrással. Egy doboz, amely a látogató első útján drágának tűnik, a következő évben még drágább lesz."
+          ],
+          "tips": [
+            "Kb. $31 jövedéki adó dobozonként",
+            "Plusz 10% GST",
+            "Minden márciusban és szeptemberben emelkedik"
+          ]
+        },
+        {
+          "heading": "Az éves emelés és az utad",
+          "body": [
+            "Mivel a kulcs minden márciusban és szeptemberben változik, a tavalyi szám már elavult, mire megérkezel. Alapszabályként számíts rá, hogy 2027-ben egy doboz pár dollárral többe kerül az itteni 2026-os sávoknál, és az első városodban nézd meg a polcárat, mielőtt egy hónapnyi költést tervezel.",
+            "Egy erős dohányosnak egy hosszú úton gyorsan összejön az összeg. Havi tíz doboz kb. $400-$600. Tedd be az útiköltségvetésbe külön tételként, mint az üzemanyagot, hogy ne az ételpénzből menjen."
+          ],
+          "tips": [
+            "Számíts pár dollár pluszra",
+            "Tíz doboz: $400-$600",
+            "Legyen külön költségvetési tétele"
+          ]
+        },
+        {
+          "heading": "Vape-árak",
+          "body": [
+            "2024. július 1. óta a vape-okat csak gyógyszertárakban árulják, nikotintartalomtól függetlenül. A felnőttek a legtöbb államban recept nélkül, beszélgetés után vehetnek alacsonyabb nikotinerősségű vape-ot a gyógyszerésztől, az erősebb termékekhez recept kell. A gyógyszertárak csak a TGA bejelentett vape-ok listáján szereplő termékeket adhatják ki.",
+            "A gyógyszertári árakat a gyártó és a bolt szabja meg, nem a kormány. Egy alapkészülékre vagy egy pod-csomagra kb. $30-$60-t számíts, egy kezdőkészletre többet. Az olcsó eldobható vape-ok, amelyeket egyes boltok pult alól árulnak, nem legális termékek."
+          ],
+          "tips": [
+            "2024 júliusa óta csak gyógyszertárban",
+            "Kb. $30-$60 egy készülék",
+            "Előbb kérdezd a gyógyszerészt"
+          ]
+        },
+        {
+          "heading": "Illegális dohány és vape",
+          "body": [
+            "Egyes boltok a legális ár töredékéért árulnak cigarettát és vape-ot, gyakran jelöletlen vagy külföldi csomagolásban, néha chop chopnak hívják. Ezek illegálisak, a vásárlás bírságot és az áru elkobzását vonhatja maga után, a büntetések államonként eltérnek. Ezeken ráadásul nincs ausztrál egészségügyi figyelmeztetés.",
+            "Ha egy ár túl szépnek tűnik a fenti számok mellett, szinte biztosan az is, ezért vape-ért maradj a gyógyszertárnál, dohányért pedig egy engedélyes <a data-guide=\"where-to-buy-cigarettes-vapes-australia\">dohányboltnál</a> vagy szupermarketnél."
+          ],
+          "tips": [
+            "A jelöletlen csomag illegális",
+            "A vásárlót megbírságolhatják",
+            "Az olcsó általában illegális"
+          ]
+        },
+        {
+          "heading": "Hogyan költs kevesebbet, legálisan",
+          "body": [
+            "Az érkezéskor érvényes <a data-guide=\"smoking-vaping-rules-australia\">vámmentes keret</a> a 18 éves és idősebb utazóknak mindössze 25 cigaretta vagy 25 gramm dohány, plusz egy bontott csomag. Ennél többet be kell jelenteni, és az Australian Border Force szerint vagy lemondasz a többletről, vagy a teljes mennyiség után vámot fizetsz. A be nem jelentett dohányt elkobozhatják és bírságot szabhatnak ki rá, így az otthonról hozott készlet nem módja a pénzmegtakarításnak egy hosszú úton.",
+            "A kartonos vásárlás szálanként nem sokkal olcsóbb, mert az adó minden szálra ugyanannyi. A valódi megtakarítás kicsi: válassz olcsó márkát, vegyél ott, ahol a bolt akciózik, és kerüld, ahol lehet, a roadhouse- és távoli vidéki árakat. Az utazókra vonatkozó szabályokat, a vámmentességet, a vape-ot és a füstmentes helyeket a dohányzási és vape-szabályok útmutatója tárgyalja. Ha a tábor közelében dohányzol, minden csikket teljesen oltsz el és vidd magaddal, és tartsd be a <a data-guide=\"campfires-camping-australia\">teljes tűzgyújtási tilalom</a> szabályait: a csikk és a bush nem fér meg egymás mellett.",
+            "Új-Zélandra is mész? A KiwiCamping bemutatja, <a data-sister=\"cigarette-prices-new-zealand\">mennyibe kerül a cigaretta Új-Zélandon</a>."
+          ],
+          "tips": [
+            "Csak 25 szálat vigyél",
+            "A karton keveset spórol",
+            "Oltsd el a csikket, vidd magaddal"
+          ]
+        },
+        {
+          "heading": "Tervezd meg az utat az AussieCampsben",
+          "body": [
+            "Az AussieCamps <a data-guide=\"how-to-use-aussiecamps-filters\">szűrői</a> a helyeket Költség, Ingyenes vagy Fizetős szerint szűrik, így az olcsóbb éjszakák helyet adnak a költségvetés többi részének. Add hozzá minden megállót egy úthoz dátumokkal, jegyzetekkel és teendőlistával, hogy a nagyobb városokban a feltöltés egy távoli szakasz előtt a terv része legyen.",
+            "A helyadatok és a szűrők <a data-guide=\"camping-without-phone-signal\">térerő nélkül</a> is működnek, az útvonal pedig megmutatja minden szakasz távolságát és idejét. Az AussieCamps iPhone-on fut."
+          ],
+          "tips": [
+            "Szűrj Költség szerint",
+            "Tervezd a feltöltést a távoli szakaszok előtt",
+            "Csak iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Mennyibe kerül egy doboz cigaretta Ausztráliában?",
+          "Egy legális 20-as doboz 2026 novemberében általában kb. $40-$60, az olcsó márkák az alján, a közismert márkák a tetején. 25-ös dobozt már nem árulnak: 2025. július 1. óta minden cigarettadobozban pontosan 20 szálnak kell lennie. Az árak a keleti parton kicsit alacsonyabbak, a Northern Territoryban és a távoli városokban magasabbak."
+        ],
+        [
+          "Miért olyan drága a cigaretta Ausztráliában?",
+          "A szövetségi adó miatt. A jövedéki adó 2026. szeptember 1-jétől minden szálra $1.55274, ami egy 20-as dobozon kb. $31 a 10%-os GST hozzáadása előtt. A legtöbb márkánál a polcár nagyjából 70%-a vagy több megy a kormányhoz."
+        ],
+        [
+          "Hány szál cigarettát vihetek be Ausztráliába?",
+          "A 18 éves és idősebb utazók vámmentes kerete 25 cigaretta vagy 25 gramm dohány, plusz egy bontott csomag. Ami ennél több, azt jelentsd be. Az Australian Border Force szerint behozhatod a megengedett mennyiséget és lemondhatsz a többiről, vagy megtarthatod az egészet és a teljes mennyiség után vámot fizetsz."
+        ],
+        [
+          "Vehetek vape-ot Ausztráliában turistaként?",
+          "Csak gyógyszertárban. 2024. július 1. óta más boltokban nem szabad vape-ot árulni, és az ilyet árusító sarki boltok törvényt szegnek. A felnőttek a legtöbb államban egy rövid beszélgetés után recept nélkül vehetnek alacsonyabb nikotinerősségű vape-ot a gyógyszerésztől."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Australian Taxation Office: a dohány jövedéki adókulcsai"
+        },
+        {
+          "label": "Australian Border Force: vámmentes keretek"
+        },
+        {
+          "label": "Department of Health: a dohánytermékek változásai Ausztráliában"
+        },
+        {
+          "label": "Department of Health: vape-törvények"
+        },
+        {
+          "label": "Therapeutic Goods Administration: nikotintartalmú vape-termékek"
+        },
+        {
+          "label": "Tobacco in Australia: a dohánytermékek ára"
+        }
+      ],
+      "priceTable": null
+    },
+    "smoking-vaping-rules-australia": {
+      "title": "Dohányzás és vape Ausztráliában (2027): szabályok utazóknak",
+      "description": "25 cigaretta vagy 25 g dohány vámmentesen vihető be, a vape csak gyógyszertárban kapható, 18 évesnek kell lenni, és a bushban eldobott csikk súlyos bírságot von maga után. Utazói szabályok 2027-re.",
+      "region": "Australia",
+      "imageAlt": "„Ez a móló füstmentes és vape-mentes” feliratú tábla az Outer Harbor móló korlátján Adelaide-ben, South Australiában",
+      "intro": "A 18 éves vagy idősebb látogatók 25 cigarettát vagy 25 g dohányt vihetnek be Ausztráliába vámmentesen, plusz egy bontott csomagot, a többit pedig be kell jelenteni. A vape-ot ma már csak gyógyszertárak árulják, az utazói mentesség pedig 2 vape-ot, 20 podot vagy patront és 200 mL folyadékot enged a saját kezelésedre. Mindkettő vásárlásához 18 évesnek kell lenni, a dohányzás és a vape pedig sok szabadtéri helyen tilos, a kávézók asztalaitól az őrzött strandokig. A kempingezőknek a legnagyobb kérdés a tűz: egy autóból kidobott vagy száraz fűbe ejtett égő csikk ezrekbe kerülhet. Ezek a szabályok 2026 novemberében érvényesek.",
+      "sections": [
+        {
+          "heading": "Mit vihetsz be vámmentesen",
+          "body": [
+            "A 18 éves vagy idősebb felnőttek engedély nélkül vihetnek be dohányt Ausztráliába. A vámmentes keret 25 cigaretta vagy 25 g dohánytermék, plusz egy bontott csomag. Mivel az ausztrál és a legtöbb külföldi csomag 20 szálas, ez egy bontatlan doboz plusz az, amelyből éppen szívsz. A 18 év alattiaknak egyáltalán nincs dohánykeretük.",
+            "Ha túllépsz a határon, az Australian Border Force szerint a vám és az adó az adott árucsoport egészére vonatkozik, nem csak a határ feletti részre. A többlet be nem jelentése büntetéssel, vádemeléssel vagy a vízum visszavonásával járhat, a szállított mennyiségtől függően. Ha többed van, jelentsd be az Incoming Passenger Cardon, mutasd be a vásárlási bizonylatot és fizesd meg a vámot, vagy add le a határon. A helyi csomagok árairól a <a data-guide=\"cigarette-prices-australia\">cigarettaárak</a> útmutató szól."
+          ],
+          "tips": [
+            "25 cigaretta vagy 25 g",
+            "Plusz egy bontott csomag",
+            "Jelentsd be, ami több"
+          ]
+        },
+        {
+          "heading": "Vape utazóknak",
+          "body": [
+            "2024 óta Ausztráliában a vape-ok terápiás árunak számítanak. Utazók csak utazói mentességgel hozhatják be: a vape-nak a saját kezelésedre kell szolgálnia, vagy egy olyan személyére, akit ápolsz, és aki ugyanazon a járaton vagy hajón utazik veled. A határ összesen 2 vape, 20 tartozék, például pod, patron vagy kapszula, és 200 mL vape-folyadék.",
+            "Az eldobható vape-ok is beleszámítanak a 2-be. A vape postázása magadnak, vagy hogy egy barát küldje, nem engedélyezett, és a határ feletti mennyiséget elkobozhatják. Jelentsd be a vape-jaidat, és tartsd a kézipoggyászban, ahol a tisztviselők látják. A repülőn való szállítás szabályait a légitársaság szabja meg, ezért indulás előtt érdeklődj."
+          ],
+          "tips": [
+            "2 vape, 20 pod, 200 mL",
+            "Csak saját használatra",
+            "Vape-ot Ausztráliába postázni tilos"
+          ]
+        },
+        {
+          "heading": "Vape vásárlása és a törvényes kor",
+          "body": [
+            "Ausztráliában a vape-ot csak gyógyszertárak árulják. 2024 októbere óta a gyógyszerészek 20 mg/mL vagy annál alacsonyabb nikotintartalmú vape-ot recept nélkül adhatnak ki a 18 éves vagy idősebbeknek, a 18 év alattiaknak recept kell. A <a data-guide=\"where-to-buy-cigarettes-vapes-australia\">dohányboltok</a>, a vape-boltok, a servók és a kisboltok semmilyen nikotintartalommal nem árulhatnak vape-ot.",
+            "A dohány vásárlásának törvényes kora minden államban és területen 18 év, a boltok pedig fényképes igazolványt kérhetnek. A látogatóktól ugyanazt kérik, mint a helyiektől, ezért az útlevél vagy a <a data-guide=\"overseas-driver-licence-australia-state-guide\">külföldi jogosítvány</a> a biztonságos választás. A gyógyszerészek vásárlás előtt az esetleges további állami szabályokról is felvilágosítanak."
+          ],
+          "tips": [
+            "Vape: csak gyógyszertár",
+            "18 év kell bármihez",
+            "Legyen nálad fényképes igazolvány"
+          ]
+        },
+        {
+          "heading": "Hol tilos dohányozni vagy vape-olni",
+          "body": [
+            "A füstmentes törvényeket minden állam és terület maga szabja meg, a vape-olást pedig a füstmentes helyeken a dohányzással azonosan kezelik. A táblázat azokat a helyeket sorolja fel, amelyekkel a kempingezők a leggyakrabban találkoznak. Sok önkormányzat saját szabályokat ad hozzá a helyi strandokra, parkokra és városközpontokra, ezért figyeld a táblákat.",
+            "A nemzeti parkoknak, strandoknak és kempingeknek saját szabályaik vannak. Queensland tiltja a dohányzást a nemzeti parki kempingek és létesítmények 10 m-es körzetében, több állam tiltja az őrzött strandokon a zászlók között, és sok <a data-guide=\"caravan-park-vs-holiday-park\">lakókocsi-park</a> tiltja a faházakban, a szanitérblokkokban és a közös konyhákban. Tűzgyújtási tilalom idején a parkőrök a szabadban égő cigarettát bármely más lánggal azonosan kezelik.",
+            "A bírságokat büntetőegységekben vagy évente változó fix összegekben szabják meg, ezért a táblázat iránymutatást ad, nem pontos számot."
+          ],
+          "tips": [
+            "A vape is számít",
+            "Figyeld a helyi táblákat",
+            "A bírságok évente változnak"
+          ],
+          "table": {
+            "caption": "Szabadtéri füstmentes helyek államonként és területenként, az állami egészségügyi oldalak alapján, 2026 novemberében. Mielőtt egy számra támaszkodsz, nézd meg az állam aktuális oldalát.",
+            "head": [
+              "Állam",
+              "Érdemes tudni a szabadtéri füstmentes helyekről",
+              "Tipikus azonnali bírság"
+            ],
+            "rows": [
+              [
+                "New South Wales",
+                "Kereskedelmi szabadtéri étkezőhelyek, középületek bejáratainak, tömegközlekedési megállóknak és peronoknak a 4 m-es körzete; sok önkormányzat strandokat és parkokat is hozzátesz",
+                "$300"
+              ],
+              [
+                "Victoria",
+                "Szabadtéri étkezőhelyek, játszóterek és gördeszkaparkok 10 m-es körzete, 18 év alattiak sportrendezvényei és ételfesztiválok",
+                "Egy-két büntetőegység, pár száz dollár"
+              ],
+              [
+                "Queensland",
+                "Őrzött strandokon a zászlók között, nemzeti parki kempingek és létesítmények 10 m-es, tömegközlekedési megállók 5 m-es és játszóterek 10 m-es körzetében",
+                "Két büntetőegység"
+              ],
+              [
+                "South Australia",
+                "Szabadtéri étkezőhelyek, játszóterek és tömegközlekedési várók, plusz 2024 márciusa óta újabb szabadtéri zónák",
+                "$105"
+              ],
+              [
+                "Western Australia",
+                "Szabadtéri étkezőhelyek, játszóeszközök 10 m-es körzete és az őrzött strandokon a zászlók között",
+                "$300 szabadtéri étkezésnél"
+              ],
+              [
+                "Tasmania",
+                "Szabadtéri étkezőhelyek, bejáratok 3 m-es, játszóterek 10 m-es körzete, őrzött strandok és szabadtéri rendezvények",
+                "Nagyjából $350-$400"
+              ],
+              [
+                "Northern Territory",
+                "Szabadtéri étkezőhelyek engedély nélkül, nyilvános rendezvények és környékük, valamint gyerekjátszóterek",
+                "Büntetőegységekben szabják meg"
+              ],
+              [
+                "Australian Capital Territory",
+                "Szabadtéri étkező- és ivóhelyek, valamint játszóeszközök 10 m-es körzete",
+                "Büntetőegységekben szabják meg"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Dohányzás autóban gyerekkel",
+          "body": [
+            "Minden állam és terület tiltja a dohányzást olyan autóban, amelyben gyerek ül, még lehúzott ablaknál vagy álló autónál is. A számító életkor <a data-guide=\"camping-rules-new-south-wales\">New South Walesben</a>, Queenslandben, South Australiában, a Northern Territoryban és az ACT-ben 16 év alatt, Western Australiában 17 év alatt, Victoriában és Tasmaniában 18 év alatt van. A vape-ra is vonatkozik.",
+            "Bérelt autóban vagy lakóautóban ugyanez a szabály, a kölcsönző pedig takarítási díjat is felszámolhat a füstszagért. Ha dohányzol, lépj el a járműtől, és előbb engedd ki az utasokat."
+          ],
+          "tips": [
+            "Minden államban tilos",
+            "A lehúzott ablak nem mentség",
+            "A bérautó takarítási díjat számít fel"
+          ]
+        },
+        {
+          "heading": "Tűzgyújtási tilalom, csikkek és bírságok",
+          "body": [
+            "<a data-guide=\"campfires-camping-australia\">Teljes tűzgyújtási tilalom</a> napján mindenre figyelni kell, ami a szabadban tüzet okozhat, az égő cigaretta eldobása pedig minden államban szabálysértés. New South Walesben egy égő csikk kb. $660-tól induló helyszíni bírságot hozhat, ami teljes tűzgyújtási tilalom napján kb. $1,320-ra duplázódik. A bíróságon a maximum $5,500, teljes tűzgyújtási tilalom napján $11,000. A sofőrök büntetőpontot is kapnak, általában 5-öt, teljes tűzgyújtási tilalom napján 10-et.",
+            "Victoriában és <a data-guide=\"camping-rules-queensland\">Queenslandben</a> az autóból kidobott csikket veszélyes szemetelésnek tekintik, helyszíni bírsággal, amely több száz dollárra rúg, a bíróságon pedig jóval többre. Még a földön heverő csikk is szemét. A bushban tüzet indíthat, amely eléri a kempinget vagy a várost.",
+            "Hordj csikktartó dobozt vagy hordozható hamutartót, és sose nyomd el a cigarettát száraz fűben vagy avarban. Néhány állam lehetővé teszi, hogy bejelentsd az égő csikket eldobókat: <a data-guide=\"camping-rules-new-south-wales\">New South Walesben</a> felhívhatod a Bush Fire Information Line-t a 1800 679 737 számon."
+          ],
+          "tips": [
+            "Csikktartó az autóban",
+            "Soha ne száraz fűben",
+            "Jelentsd az autóból kidobott égő csikket"
+          ]
+        },
+        {
+          "heading": "Bírságok egy pillantásra, és a kempingező terve",
+          "body": [
+            "Összefoglalva: a határ feletti dohány után az egészre vámot kell fizetni, vagy elveszik, a füstmentes helyen dohányzás kb. $100-tól néhány száz dollárig terjed, a járműből kidobott égő csikk pedig a helyszínen több száz, a bíróságon több ezer dollárba kerül.",
+            "Egy kempingútra válassz olyan helyet, ahol van hely a sátraktól és a száraz fűtől távol, minden reggel nézd meg a tűzveszélyi besorolást, és ha végeztél, tartsd zárva a csikktartódat. A parkhatóságok oldalai és a kempingben lévő táblák megmondják, hol tilos a dohányzás. Új-Zélandra is mész? A KiwiCamping bemutatja, <a data-sister=\"smoking-vaping-rules-new-zealand\">milyenek a dohányzási és vape-szabályok Új-Zélandon</a>."
+          ],
+          "tips": [
+            "Naponta nézd a tűzveszélyt",
+            "Nézd meg a park füstmentes területeit",
+            "Soha ne nyomd el a füvön"
+          ]
+        },
+        {
+          "heading": "Tervezz a szabályok szerint az AussieCampsben",
+          "body": [
+            "Az AussieCamps a parkhatóságok által közzétett kempingeket mutatja, a „Népszerű jellemzők” szűrővel mosdóra, ivóvízre, zuhanyra és <a data-guide=\"campfires-camping-australia\">tábortűzre</a>. A „Költség” szűrővel hasonlítsd össze az ingyenes és fizetős helyeket, és adj hozzá megállókat egy úthoz dátumokkal, jegyzetekkel, időjárással és „Teendők” listával, hogy ne felejtsd el a csikktartót és az igazolványodat.",
+            "A helyadatok, a keresés és a szűrők <a data-guide=\"camping-without-phone-signal\">térerő nélkül</a> is működnek, mert a címtár az alkalmazásban van. A térképhez, az útvonaltervezéshez és az időjáráshoz kapcsolat kell, és az AussieCamps iPhone-on fut."
+          ],
+          "tips": [
+            "Szűrj tábortűz és jellemzők szerint",
+            "Tedd a csikktartót a teendők közé",
+            "Csak iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hány szál cigarettát vihetek be Ausztráliába?",
+          "A 18 éves vagy idősebb utazók 25 cigarettát vagy 25 g dohánytermékot vihetnek be, plusz egy bontott csomagot, vám nélkül. A 20 szálas csomagokkal ez a gyakorlatban egy bontatlan doboz és az, amelyből éppen szívsz. Ha többet hozol, és nem jelented be, kötelezhetnek, hogy az egészre vámot fizess vagy lemondj róla, és büntetéssel vagy vádemeléssel is szembenézhetsz. A határ feletti mennyiséget jelentsd be a határon."
+        ],
+        [
+          "Behozhatok vape-ot Ausztráliába?",
+          "Csak kis mennyiségben, és csak a saját kezelésedre, vagy egy olyan személyére, akit ápolsz, és aki veled utazik. A határ 2 vape, 20 tartozék, például pod vagy patron, és 200 mL vape-folyadék. A vape-ot nem lehet neked postázni, és Ausztráliában boltban nem vehetsz."
+        ],
+        [
+          "Hány éves kortól lehet dohányozni Ausztráliában?",
+          "Ausztráliában mindenhol 18 évesnek kell lenni dohány vagy vape vásárlásához, és a boltok fényképes igazolványt kérhetnek. A turistáktól ugyanazt kérik, mint a helyiektől, ezért vidd magaddal az útlevelet vagy a jogosítványt."
+        ],
+        [
+          "Dohányozhatok kempingben Ausztráliában?",
+          "A saját helyeden általában igen, de nem mindenhol. A queenslandi nemzeti parkokban a dohányzás és a vape tilos a kempingek és az olyan létesítmények, mint a mosdók és a piknikasztalok 10 m-es körzetében. Teljes tűzgyújtási tilalom napján vagy száraz bushban a legbiztonságosabb, ha egyáltalán nem dohányzol a szabadban."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Australian Border Force: vámmentes kedvezmények"
+        },
+        {
+          "label": "Office of Drug Control: vape-ok és az utazói mentesség"
+        },
+        {
+          "label": "TGA: vape-információk betegeknek és fogyasztóknak"
+        },
+        {
+          "label": "Queensland Government: dohányzási törvények Queenslandben"
+        },
+        {
+          "label": "NSW Health: füstmentes kereskedelmi szabadtéri étkezési törvények"
+        },
+        {
+          "label": "Victorian Government: dohányzási és vape-tanácsok szülőknek"
+        },
+        {
+          "label": "NSW Rural Fire Service: új és emelt bírságok"
+        }
+      ],
+      "priceTable": null
+    },
+    "where-to-buy-cigarettes-vapes-australia": {
+      "title": "Hol vehetsz cigarettát és vape-ot Ausztráliában (2027)",
+      "description": "A cigarettát szupermarketek pultjainál, servókban és dohányboltokban árulják, a vape-ot csak gyógyszertárban. Hol vásárolj, igazolványszabályok és mire számíts az outbackben.",
+      "region": "Australia",
+      "imageAlt": "A Nullarbor Roadhouse South Australiában, egy road trainnel és egy lakóautóval a töltőoszlopok és a bolt mellett",
+      "intro": "A cigarettát szupermarketek pultjainál, benzinkutakon, kisboltokban és dohányboltokban árulják, megvásárlásához 18 évesnek vagy idősebbnek kell lenni. A vape más eset: 2024. július 1. óta csak gyógyszertárak árulhatják, a felnőttek pedig 20 mg/mL vagy kisebb nikotintartalmú vape-ot recept nélkül vehetnek a gyógyszerésztől. Vidéken a választék egy roadhouse-ra vagy egy közértre szűkül, általában kevesebb márkával és magasabb árakkal, ezért egy távoli szakasz előtt egy nagyobb városban készletezz be. Az árak évente emelkednek, ezért a polcot nézd, ne a tavalyi számot.",
+      "sections": [
+        {
+          "heading": "Hol vegyél, egy pillantásra",
+          "body": [
+            "A cigaretta bármelyik értelmes méretű városban könnyen megtalálható, a bolt típusa dönti el a választékot és az árat. A vape külön eset, és csak gyógyszertárból jön.",
+            "Hogy a boltok mit tartanak, láncról láncra és évről évre változik, ezért a táblázatot a szokásos mintának tekintsd, nem minden boltra szóló ígéretnek."
+          ],
+          "tips": [
+            "Cigaretta: sok bolt",
+            "Vape: csak gyógyszertár",
+            "Az outbackben szűkül a választék"
+          ],
+          "table": {
+            "caption": "Hol vesznek az utazók általában dohányt és vape-ot Ausztráliában, 2026 novemberében. A készlet és az árak boltonként eltérnek.",
+            "head": [
+              "Hol",
+              "Mit árulnak",
+              "Megjegyzés"
+            ],
+            "rows": [
+              [
+                "Szupermarketek",
+                "Cigaretta és sodródohány; vape nincs",
+                "A Coles, a Woolworths és az IGA ügyfélszolgálati pultnál vagy kioszkban árulja; az Aldi nem árul dohányt"
+              ],
+              [
+                "Benzinkutak és kisboltok",
+                "Cigaretta és sodródohány; vape nincs",
+                "Késő estig nyitva és mindenhol ott vannak, de gyakran a legdrágább lehetőség"
+              ],
+              [
+                "Dohányboltok",
+                "A legszélesebb cigaretta- és dohányválaszték; vape nincs",
+                "Szakboltok, a ritkább márkákhoz a legjobbak"
+              ],
+              [
+                "Italboltok és kocsmák",
+                "Egyeseknél cigaretta",
+                "Nem mindenhol tartják, ezért előbb kérdezz"
+              ],
+              [
+                "Gyógyszertárak",
+                "20 mg/mL vagy kisebb nikotintartalmú vape, a gyógyszerésszel való beszélgetés után",
+                "A vape egyetlen legális helye; korlátozott ízek; nem minden gyógyszertár tartja"
+              ],
+              [
+                "Roadhouse-ok és távoli boltok",
+                "Néhány cigarettamárka, néha dohány",
+                "Magasabb árak, rövidebb nyitvatartás, vape nincs"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Szupermarketek és italboltok",
+          "body": [
+            "A Coles, a Woolworths és az IGA árul cigarettát, de polcon nem fogod látni. A kirakati tilalom miatt a dobozok zárt szekrényben vannak, ezért az ügyfélszolgálati pultnál vagy kioszkban kérdezd meg, és mondd meg a márkát. A szupermarketláncok visszavágják a dohányt, és néhány italboltjuk már nem árulja, így a készlet üzletenként eltér. Az Aldi egyáltalán nem árul dohányt.",
+            "Egyes italboltok és kocsmai italboltok árulnak cigarettát, mások nem, ezért kérdezz, mielőtt rájuk számítasz. Egy nagybevásárlásnál a szupermarket pultja kényelmes választás, mert az árak általában a város többi részével egyeznek, és már ott vagy."
+          ],
+          "tips": [
+            "Kérdezz az ügyfélszolgálati pultnál",
+            "Az Aldi nem árul dohányt",
+            "Az italboltoknál előbb kérdezz"
+          ]
+        },
+        {
+          "heading": "Benzinkutak és kisboltok",
+          "body": [
+            "Az Ampol, a BP, a 7-Eleven és a független servók szinte mindig árulnak cigarettát, általában a pénztár mögötti pultnál, és sok késő estig vagy egész éjjel nyitva van. Ezért ez a legkönnyebb lehetőség, ha akkor érkezel egy városba, amikor a szupermarketek már bezártak.",
+            "A kényelem ára a magasabb ár. Egy servo gyakran a város legdrágább helye egy dobozért, ezért ha néhány hétre valót veszel, egy szupermarket pultja vagy egy dohánybolt általában olcsóbb. A <a data-guide=\"cigarette-prices-australia\">cigarettaárak</a> útmutatóban megtalálod egy doboz és egy zacskó szokásos sávjait."
+          ],
+          "tips": [
+            "Késő estig nyitva, gyakran a legdrágább",
+            "Jó egy vészdobozra",
+            "A szupermarketben olcsóbb"
+          ]
+        },
+        {
+          "heading": "Dohányboltok és illegális boltok",
+          "body": [
+            "A dohányboltok szakboltok, a legszélesebb cigaretta- és sodródohány-választékkal, és olyan márkákat is rendelhetnek vagy ajánlhatnak, amelyeket a szupermarketek nem tartanak. Több állam ma már megköveteli, hogy a bolt dohány-kiskereskedelmi engedéllyel rendelkezzen, <a data-guide=\"camping-rules-victoria\">Victoriában</a> az engedélyezési szabályt 2026. február 1. óta érvényesítik. Az engedély száma vagy igazolása gyakran ki van téve a boltban.",
+            "Légy óvatos azokkal a boltokkal, amelyek nagyon olcsó cigarettát vagy vape-ot árulnak. Egyes boltokban illegális, adózatlan dohányt és vape-ot árulnak, és eladni vagy venni törvénybe ütközik. Elkobozhatják, a vásárlókat pedig megbírságolhatják, a büntetések államonként eltérnek. A legális cigaretta egyszínű, olívabarna dobozban jön nagy, angol nyelvű egészségügyi figyelmeztető képekkel, ezért a színes vagy külföldinek tűnő doboz, az angol figyelmeztetés hiánya vagy a szokásos sávnál jóval alacsonyabb ár figyelmeztető jel."
+          ],
+          "tips": [
+            "A legszélesebb márkaválaszték",
+            "Egyszínű doboz, angol figyelmeztetés",
+            "A nagyon olcsó általában illegális"
+          ]
+        },
+        {
+          "heading": "Igazolvány és korhatár",
+          "body": [
+            "Ausztráliában mindenhol 18 évesnek vagy idősebbnek kell lenni cigaretta, sodródohány vagy vape vásárlásához, és az eladó megtagadhatja a kiszolgálást korigazolás nélkül. Sok bolt mindenkitől igazolványt kér, aki 25 évesnél fiatalabbnak látszik, ezért számíts rá, hogy elkérik, és ne vedd magadra.",
+            "Vigyél útlevelet vagy ausztrál jogosítványt, vagy a saját országodból származó jogosítványt, ha rajta van a fényképed és a születési dátumod. A személyzet dönti el, mit fogad el, ezért fénymásolat helyett az eredetit tartsd magadnál. A <a data-guide=\"smoking-vaping-rules-australia\">dohányzási és vape-szabályok</a> útmutatóban megtalálod a helyeket, ahol tilos a dohányzás."
+          ],
+          "tips": [
+            "Csak 18 éves kortól",
+            "25 év alatt gyakran elkérik",
+            "Vidd az eredeti fényképes igazolványt"
+          ]
+        },
+        {
+          "heading": "Vape vásárlása",
+          "body": [
+            "A vape-ot csak gyógyszertárak árulhatják. A dohányboltok, a vape-boltok és a kisboltok nem árulhatják, nikotintartalomtól függetlenül, az egyszer használatos eldobható vape-ok pedig tiltottak. Az a bolt, amely pult alól árulja, törvényt szeg.",
+            "A felnőttek, ahol az állami és területi törvények engedik, egy rövid beszélgetés után recept nélkül vehetnek 20 mg/mL vagy kisebb nikotintartalmú vape-ot a gyógyszerésztől. Az erősebbekhez recept kell. Az ízek az íztelenre, a mentolosra, a mentára és a dohányra korlátozottak. Nem minden gyógyszertár tartja a vape-ot, ezért telefonálj előre, vagy kérdezz egy nagyobbnál."
+          ],
+          "tips": [
+            "Csak gyógyszertár",
+            "Eldobható nincs",
+            "Menta, mentol, dohány"
+          ]
+        },
+        {
+          "heading": "Az outbackben és távoli utakon",
+          "body": [
+            "A roadhouse-ok és a távoli közértek általában árulnak cigarettát, de a választék néhány márka lehet, az ár pedig magasabb, mint a városban. A sodródohány korlátozott lehet, és ha a boltnak elfogy, a következő száz kilométerekre lehet. Egyes távoli közösségek saját szabályokat állapítanak meg arról, mit árulhatnak a boltok, ezért kérdezz, mielőtt egy közösségi boltra számítasz, és tartsd be a korlátozásokra figyelmeztető táblákat.",
+            "A nagyobb városoktól távol kevés a gyógyszertár, ezért ha vape-olsz, indulás előtt vegyél. A legtöbb roadhouse fogad kártyát, de kimaradások előfordulnak, és a nyitvatartás rövidebb, gyakran kora este zárnak, ezért vigyél kevés készpénzt, és sötétedés előtt vásárolj. Néhány tartalék doboz egy hosszú szakaszra olcsóbb, mint egy roadhouse-os utántöltés."
+          ],
+          "tips": [
+            "Vegyél a távoli szakaszok előtt",
+            "Vape-olóknak: a gyógyszertárak köré tervezz",
+            "Legyen nálad készpénz"
+          ]
+        },
+        {
+          "heading": "Úton és a táborban",
+          "body": [
+            "A hőség nehezen viseli a dohányt és a vape-ot. Ne hagyd a dobozokat, zacskókat vagy a vape-ot forró autóban vagy zárt lakóautóban, ahol kiszáradhatnak vagy megromolhatnak, és a vape-ot tartsd távol a közvetlen napsütéstől. Jobb egy árnyékos helyre tett táska vagy a hűtőtáska egy rekesze.",
+            "Dohányozz a tábortól és a sátraktól távol, és nézd meg a tűzveszélyi besorolást. <a data-guide=\"campfires-camping-australia\">Teljes tűzgyújtási tilalom</a> idején az égő cigaretta valódi kockázat, és néhány kemping, strand és nemzeti park füstmentes. Minden csikket teljesen oltsd el és vidd magaddal, soha ne hagyd a földön. Új-Zélandra is mész? A KiwiCamping bemutatja, <a data-sister=\"where-to-buy-cigarettes-vapes-new-zealand\">hol vehetsz cigarettát és vape-ot Új-Zélandon</a>."
+          ],
+          "tips": [
+            "Tartsd távol a forró autótól",
+            "Nézd a tűzveszélyi besorolást",
+            "Vidd magaddal a csikkeket"
+          ]
+        },
+        {
+          "heading": "Tervezd meg a feltöltő megállókat az AussieCampsben",
+          "body": [
+            "Az AussieCamps lehetővé teszi, hogy minden megállót hozzáadj egy úthoz dátumokkal és jegyzetekkel, az útvonal pedig megmutatja minden szakasz távolságát és idejét. Így könnyen látod a távoli szakasz előtti utolsó nagyobb várost, és feljegyezheted feltöltési helyként.",
+            "A helyadatok, a keresés és a szűrők térerő nélkül is működnek, így egy kemping jellemzőit, például az ivóvizet, a mosdókat és a <a data-guide=\"campfires-camping-australia\">tábortüzet</a> térerőn kívül is megnézheted. Az AussieCamps iPhone-on fut."
+          ],
+          "tips": [
+            "Nézd minden szakasz távolságát",
+            "Jegyezd fel a feltöltő városokat",
+            "Csak iPhone"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hol vehetek cigarettát Ausztráliában?",
+          "Szupermarketekben, például a Colesban, a Woolworthsben és az IGA-ban, benzinkutakon és kisboltokban, valamint dohányboltokban, amelyeknek a legszélesebb a választékuk. Az Aldi nem árul dohányt. A szupermarketekben a cigaretta nem látható, az ügyfélszolgálati pultnál kell kérni."
+        ],
+        [
+          "Hol vehetek vape-ot Ausztráliában?",
+          "Csak gyógyszertárban. 2024. július 1. óta a dohányboltok, a vape-boltok és a kisboltok nem árulhatnak vape-ot, az eldobható vape-ok pedig tiltottak. A felnőttek egy rövid beszélgetés után recept nélkül vehetnek 20 mg/mL vagy kisebb nikotintartalmú vape-ot a gyógyszerésztől, de nem minden gyógyszertár tartja."
+        ],
+        [
+          "Kell igazolvány cigaretta vásárlásához Ausztráliában?",
+          "18 évesnek vagy idősebbnek kell lenni, és a személyzet korigazolást kérhet. Vigyél útlevelet vagy ausztrál jogosítványt, mert a fénymásolatot vagy a telefonon lévő fotót nem biztos, hogy elfogadják. A boltok gyakran elkérik attól, aki 25 évesnél fiatalabbnak látszik."
+        ],
+        [
+          "Vehetek cigarettát az outbackben?",
+          "Általában igen, roadhouse-okban és közértekben, de kis márkaválasztékkal és magasabb áron. Egyes távoli közösségi boltoknak saját szabályaik vannak arról, mit árulnak, a gyógyszertár pedig ritka, ezért egy távoli szakasz előtt egy nagyobb városban vedd meg, amire szükséged van."
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Department of Health: a vape-olásról"
+        },
+        {
+          "label": "Department of Health: a vape-olás változásai Ausztráliában július 1-jétől"
+        },
+        {
+          "label": "Therapeutic Goods Administration: a vape-ok szabályozásának reformja"
+        },
+        {
+          "label": "Therapeutic Goods Administration: nikotintartalmú vape-termékek, fogyasztói információk"
+        },
+        {
+          "label": "Victorian Government: dohányengedélyezés"
+        },
+        {
+          "label": "Department of Health: a dohánytermékek változásai Ausztráliában"
         }
       ],
       "priceTable": null
