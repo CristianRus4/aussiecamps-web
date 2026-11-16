@@ -8141,63 +8141,200 @@
       }
     },
     "alcohol-coffee-drink-prices-australia": {
-      "title": "Beer & Coffee Prices in Australia 2026: Pub Beer $7 to $16",
-      "description": "A pub beer costs $7 to $16 and a cappuccino $4.50 to $8 in Sydney (October 2026). Per standard drink, pub beer is $4 to $9 and bottle-shop wine $1.60 to $4.",
+      "title": "How Much Is a Beer in Australia? Pub and Bottle Shop Prices (2027)",
+      "description": "A pub schooner costs $8 to $13 and a pint $12 to $18 in Australian cities (November 2026). A slab of 24 is $55 to $72. Prices by city, glass names, happy hours.",
       "region": "Australia",
       "imageAlt": "Australian cafe drinks on a table",
-      "intro": "A 500 ml draught beer in a Sydney pub costs about $7 to $16 and a cappuccino $4.50 to $8, on community price data updated in October 2026, while a 500 ml bottle of beer from a bottle shop runs about $3.50 to $12 nationally. Per standard drink that is about $4 to $9 at the pub, $2 to $7 for bottle-shop beer and $1.60 to $4 for a mid-range bottle of wine, so drinks bought to take back to camp are the best value.",
+      "intro": "A schooner of beer (425 ml) costs about $8 to $13 in an Australian city pub in November 2026, and a pint (570 ml) about $12 to $18. Perth and country pubs sit at the cheap end, while inner Sydney and Melbourne are the dearest. From a bottle shop, a six-pack of mainstream beer costs about $20 to $28 and a slab of 24 about $55 to $72, which works out at under half the pub price per beer, so drinks bought to take back to camp are the best value by far.",
       "sections": [
+        {
+          "heading": "Beer prices by city",
+          "body": [
+            "The table gives typical prices for a mainstream beer such as a local lager or pale ale. A pub price depends heavily on the venue: a suburban pub or a club pours for less than a rooftop bar or a harbourside hotel, and craft beer usually adds $2 to $4 a glass.",
+            "Bottle-shop prices change less between cities, because most of the price is excise, the federal tax on alcohol, which is the same everywhere. Darwin and the outback pay more for freight, and <a data-guide=\"camping-rules-northern-territory\">Northern Territory</a> bottle shops carry extra rules on hours and ID.",
+            "Expect prices to keep creeping up. Excise on packaged beer rises with inflation every February and August, so bottle-shop prices climb through 2027, while the tax on draught beer is frozen until August 2027, which keeps pub prices steadier."
+          ],
+          "tips": [
+            "Perth: cheapest capital pints",
+            "Sydney and Melbourne: dearest",
+            "Country pubs: often cheapest"
+          ],
+          "table": {
+            "caption": "Typical prices for a mainstream beer in November 2026. A schooner is 425 ml and a pint 570 ml; in Adelaide the 425 ml glass is called a pint.",
+            "head": [
+              "City",
+              "Pub schooner (425 ml)",
+              "Pub pint (570 ml)",
+              "Six-pack (bottle shop)",
+              "Slab of 24 (bottle shop)"
+            ],
+            "rows": [
+              [
+                "Sydney",
+                "$9 to $13",
+                "$13 to $18",
+                "$21 to $28",
+                "$57 to $72"
+              ],
+              [
+                "Melbourne",
+                "$9.50 to $14",
+                "$14 to $18.50",
+                "$21 to $28",
+                "$57 to $72"
+              ],
+              [
+                "Brisbane",
+                "$9 to $13",
+                "$12 to $17",
+                "$21 to $28",
+                "$57 to $72"
+              ],
+              [
+                "Perth",
+                "$8 to $12",
+                "$9 to $15",
+                "$21 to $28",
+                "$58 to $72"
+              ],
+              [
+                "Adelaide",
+                "$8.50 to $12",
+                "$12 to $16",
+                "$20 to $27",
+                "$55 to $70"
+              ],
+              [
+                "Hobart",
+                "$9 to $12",
+                "$12 to $16",
+                "$21 to $28",
+                "$58 to $72"
+              ],
+              [
+                "Darwin",
+                "$9 to $13",
+                "$13 to $18",
+                "$23 to $30",
+                "$62 to $80"
+              ],
+              [
+                "Canberra",
+                "$9 to $12",
+                "$12 to $17",
+                "$21 to $28",
+                "$57 to $72"
+              ],
+              [
+                "Country pubs",
+                "$7 to $10",
+                "$10 to $14",
+                "$22 to $32",
+                "$60 to $85"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Glass names and sizes by state",
+          "body": [
+            "Australian beer glasses change their names at state borders, and the same word can mean a different glass. Ask for a schooner in Sydney and you get 425 ml; ask for one in Adelaide and you get 285 ml, because South Australians call the 425 ml glass a pint and the 570 ml glass an imperial pint.",
+            "When in doubt, ask for the size in plain words, or simply say small, medium or large. Bar staff are used to visitors, and the price list on the wall usually names the glasses."
+          ],
+          "tips": [
+            "Schooner means 285 ml in SA",
+            "Ask for small, medium or large",
+            "Jugs are about 1.1 litres"
+          ],
+          "table": {
+            "caption": "Common names for draught beer glasses by state and territory. Names vary between pubs, especially for the 285 ml glass.",
+            "head": [
+              "State or territory",
+              "285 ml",
+              "425 ml",
+              "570 ml"
+            ],
+            "rows": [
+              [
+                "New South Wales and the ACT",
+                "Middy",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Victoria",
+                "Pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Queensland",
+                "Pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "South Australia",
+                "Schooner",
+                "Pint",
+                "Imperial pint"
+              ],
+              [
+                "Western Australia",
+                "Middy",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Tasmania",
+                "Ten or pot",
+                "Schooner",
+                "Pint"
+              ],
+              [
+                "Northern Territory",
+                "Handle or middy",
+                "Schooner",
+                "Pint"
+              ]
+            ]
+          }
+        },
         {
           "heading": "Retail and venue prices are different products",
           "body": [
             "A pub price includes the venue, staff and service rather than only the liquid. Compare like with like and do not describe a bottle-shop equivalent as the price of a poured drink. Standard drinks make the comparison fair: Healthy WA puts one standard drink at 10 grams of alcohol, the amount in 285 ml of full-strength beer or 100 ml of wine, so a 500 ml beer is about 1.75 standard drinks and a 750 ml bottle of wine about 7.5.",
-            "Happy hours and promotions are temporary. Build the budget from the ordinary range, then treat a discount as margin."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Wine at the bottle shop and at the bar",
-          "body": [
-            "A mid-range 750 ml bottle of wine costs about $12 to $30 from a bottle shop, and it pours roughly five 150 ml glasses. Ordered by the glass in a bar or restaurant, the same wine usually costs considerably more per serve, so a bottle shared at camp is where wine is cheapest.",
-            "Some restaurants, mostly unlicensed ones, let you bring your own bottle for a corkage fee, which turns a bottle-shop price into dinner wine. Ask about it when you book rather than at the table."
+            "Per standard drink, pub beer costs about $4 to $9, a slab from the bottle shop about $1.60 to $2.20, and a mid-range bottle of wine about $1.60 to $4. Mid-strength beer, sold on tap almost everywhere, has about a quarter less alcohol for nearly the same price."
           ],
           "tips": [
-            "Mid-range bottle: $12 to $30",
-            "About five glasses a bottle",
-            "Ask about BYO when booking"
+            "285 ml full strength: one standard drink",
+            "Slab beer: about $2 a standard drink",
+            "Mid-strength costs about the same"
           ]
         },
         {
-          "heading": "Control the quiet daily total",
+          "heading": "Happy hours and the cheapest ways to drink",
           "body": [
-            "Two coffees and two venue drinks each day can become a substantial weekly amount. Decide which stops matter rather than buying by habit.",
-            "Keep <a data-guide=\"camping-water-planning\">drinking water</a> accessible and refill only from potable taps. In hot conditions, hydration and shade belong in the safety plan, not the entertainment budget."
-          ],
-          "tips": []
-        },
-        {
-          "heading": "Coffee is a daily line",
-          "body": [
-            "Australian coffee culture is strong and the standard in regional towns is genuinely high, which is precisely why it becomes a budget item. Two flat whites a day for two people accumulates without ever feeling like a decision.",
-            "A stovetop pot or an AeroPress in the van covers the morning cup for a fraction of the cafe price and leaves the cafe stop as something chosen rather than automatic.",
-            "Roadhouse coffee on long drives is variable at best. On outback routes, making your own is usually both cheaper and considerably better."
+            "Many pubs run a happy hour on weekday afternoons, often around 4 pm to 6 pm, with schooners for about $6 to $9. Some add cheap jugs, a beer with a counter meal, or a steak-and-schooner night. Treat these as a bonus rather than a budget: they change often and many are weekday only.",
+            "Clubs such as RSLs, bowls clubs and surf clubs usually pour cheaper than pubs, and visitors are welcome: you sign in at the door with photo ID and become a temporary member for the day.",
+            "The cheapest drink of all is a slab or a cask from the bottle shop, chilled in the van fridge or the esky and drunk back at camp. Check the campground rules first, because some national park and council sites, and many beaches and parks in town, ban alcohol or limit it at certain times."
           ],
           "tips": [
-            "Two cups a day adds up fast",
-            "Make the morning cup yourself",
-            "Roadhouse coffee is variable"
+            "Weekday happy hours: about 4 to 6 pm",
+            "Clubs welcome visitors with ID",
+            "Check alcohol rules at camp"
           ]
         },
         {
           "heading": "Buying alcohol in Australia",
           "body": [
-            "Packaged alcohol is mostly sold through licensed bottle shops, often next to a supermarket but operating separately, though Aldi and some independent grocers sell it in-store. Trading hours are regulated and vary by state.",
+            "Packaged alcohol is mostly sold through licensed bottle shops, often next to a supermarket but operating separately, though Aldi and some independent grocers sell it in-store. Trading hours are regulated and vary by state. You must be 18 to buy alcohol, and staff ask anyone who looks under 25 for photo ID: a passport or a driver licence.",
             "Alcohol restrictions apply across many communities and regions, particularly in the Northern Territory, parts of <a data-guide=\"camping-rules-queensland\">Queensland</a>, Western Australia and South Australia. Carrying alcohol into a restricted area carries substantial penalties.",
             "Check before travelling with alcohol into remote areas. The restrictions are legally enforced, apply to visitors as much as residents, and ignorance is not a defence."
           ],
           "tips": [
             "Mostly bottle shops, some supermarkets",
-            "Restricted areas carry big penalties",
+            "Bring photo ID",
             "Check before entering remote regions"
           ]
         },
@@ -8215,35 +8352,58 @@
           ]
         },
         {
-          "heading": "Water is the one to get right",
+          "heading": "Wine at the bottle shop and at the bar",
           "body": [
-            "Tap water is safe and good across almost all Australian towns and cities, and buying bottled water is close to pure waste. Carry refillable bottles and fill at any potable tap in a town, campground or public facility.",
-            "In remote and bush settings the position reverses: bore water may be mineralised or unsuitable, tank water is untreated, and surface water in agricultural country can carry chemical contamination. Treat anything that is not a marked potable town supply.",
-            "Carry a decent insulated bottle so cold water is always on hand in the heat; it costs nothing to refill."
+            "A mid-range 750 ml bottle of wine costs about $12 to $29 from a bottle shop, and it pours roughly five 150 ml glasses. Ordered by the glass in a bar or restaurant, the same wine usually costs $10 to $16 a glass, so a bottle shared at camp is where wine is cheapest.",
+            "Some restaurants, mostly unlicensed ones, let you bring your own bottle for a corkage fee, which turns a bottle-shop price into dinner wine. Ask about it when you book rather than at the table."
           ],
           "tips": [
-            "Town tap water is safe",
-            "Bore water is often unsuitable",
-            "Treat tank and surface water"
+            "Mid-range bottle: $12 to $29",
+            "About five glasses a bottle",
+            "Ask about BYO when booking"
+          ]
+        },
+        {
+          "heading": "Coffee is a daily line",
+          "body": [
+            "A regular cappuccino or flat white costs about $4 to $8, with inner-city cafes at the top of the range. Australian coffee culture is strong and the standard in regional towns is genuinely high, which is precisely why it becomes a budget item: two coffees a day for two people adds up without ever feeling like a decision.",
+            "A stovetop pot or an AeroPress in the van covers the morning cup for a fraction of the cafe price and leaves the cafe stop as something chosen rather than automatic. Roadhouse coffee on long outback drives is variable, so making your own is usually both cheaper and better.",
+            "Tap water is safe and good across almost all Australian towns and cities, so carry refillable bottles rather than buying water. In the bush, treat bore, tank and creek water before drinking it. Heading to New Zealand too? KiwiCamping covers <a data-sister=\"beer-wine-coffee-prices-new-zealand\">what a beer, a wine and a coffee cost in New Zealand</a>."
+          ],
+          "tips": [
+            "Cappuccino: $4 to $8",
+            "Make the morning cup yourself",
+            "Town tap water is safe"
           ]
         }
       ],
       "faq": [
         [
           "How much is a beer in Australia?",
-          "A 500 ml draught beer in a Sydney pub costs about $7.15 to $16 on October 2026 community price data, and a 500 ml bottle from a bottle shop about $3.50 to $12 nationally. Buying from a bottle shop rather than a bar is one of the biggest savings on a long trip."
+          "A schooner (425 ml) of mainstream beer costs about $8 to $13 in a city pub in November 2026, and a pint (570 ml) about $12 to $18. From a bottle shop, a six-pack costs about $20 to $28 and a slab of 24 about $55 to $72, which is less than half the pub price per beer."
+        ],
+        [
+          "How much is a pint in Australia?",
+          "About $12 to $18 for 570 ml of mainstream beer in a city pub, with Perth and country pubs at the cheap end and inner Melbourne and Sydney at the top. In South Australia a pint is the 425 ml glass, which costs about $8.50 to $12; ask for an imperial pint to get 570 ml."
+        ],
+        [
+          "Where is the cheapest beer in Australia?",
+          "Perth and country pubs pour the cheapest beer, and clubs such as RSLs and bowls clubs usually undercut pubs; visitors sign in with photo ID. Weekday happy hours bring schooners down to about $6 to $9, but a slab from the bottle shop, at about $2 a standard drink, is cheapest of all."
         ],
         [
           "How much does coffee cost in Australia?",
-          "A regular cappuccino costs about $4.50 to $8 in Sydney and $4 to $8 nationally on October 2026 community price data, with inner-city cafes often at the top of the range. Two coffees a day for two people becomes a real budget line on a long trip."
+          "A regular cappuccino or flat white costs about $4 to $8, with inner-city cafes often at the top of the range. Two coffees a day for two people becomes a real budget line on a long trip, so many campers make the morning cup themselves."
         ]
       ],
       "sources": [
         {
-          "label": "Numbeo Sydney drink prices"
+          "label": "Numbeo Australia drink prices, updated November 2026"
         },
         {
-          "label": "Numbeo Australia retail ranges"
+          "label": "Australian Taxation Office: excise duty rates for alcohol"
+        },
+        {
+          "label": "Healthy WA: what is a standard drink"
         },
         {
           "label": "NSW alcohol and driving guidance"
@@ -8255,31 +8415,35 @@
           "label": "Northern Territory: buying and drinking alcohol"
         },
         {
-          "label": "Healthy WA: what is a standard drink"
+          "label": "NSW Government: club rules for visitors"
         }
       ],
       "priceTable": {
-        "note": "Community-contributed Australia and Sydney ranges updated October 2026. Serving size, venue, promotion and location vary.",
+        "note": "City pub and bottle-shop ranges for mainstream Australian beer in November 2026. Craft beer, imported beer, waterfront venues and remote areas cost more; happy hours and specials cost less.",
         "rows": [
           {
-            "label": "Cappuccino (Sydney)",
+            "label": "Pub schooner",
+            "unit": "425 ml"
+          },
+          {
+            "label": "Pub pint",
+            "unit": "570 ml"
+          },
+          {
+            "label": "Bottle-shop six-pack",
+            "unit": "6 x 375 ml"
+          },
+          {
+            "label": "Bottle-shop slab",
+            "unit": "24 x 375 ml"
+          },
+          {
+            "label": "Mid-range wine",
+            "unit": "750 ml bottle shop"
+          },
+          {
+            "label": "Cappuccino",
             "unit": "one cup"
-          },
-          {
-            "label": "Pub draught beer (Sydney)",
-            "unit": "one serving"
-          },
-          {
-            "label": "Mid-range wine (national)",
-            "unit": "750 ml retail"
-          },
-          {
-            "label": "Domestic beer equivalent (national)",
-            "unit": "500 ml retail"
-          },
-          {
-            "label": "Soft drink (Sydney)",
-            "unit": "330 ml venue"
           }
         ]
       }
