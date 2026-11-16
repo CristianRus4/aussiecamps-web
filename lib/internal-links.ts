@@ -105,13 +105,14 @@ const escapeHtml = (text: string) =>
 
 /**
  * Links to the sister site, KiwiCamping, written into the English prose itself as
- * `<a data-sister="slug">phrase</a>`, where slug is a guide on campingapp.nz. A guide carries at most
- * one, as a single sentence pointing at its New Zealand twin. Translators keep the tag as they keep
+ * `<a data-sister="slug">phrase</a>`, where slug is a guide on campingapp.nz, or `tools/<key>` for one of
+ * its calculators. A page carries at most one, as a single sentence pointing at its New Zealand twin. Translators keep the tag as they keep
  * `data-guide`. Every renderer escapes the prose and lets back in only this tag, rewritten to
- * https://campingapp.nz/guides/<slug>/; plain-text uses strip it with the other tags.
+ * https://campingapp.nz/guides/<slug>/ (or /tools/<key>/); plain-text uses strip it with the other tags.
  */
-export const SISTER_GUIDE_URL = "https://campingapp.nz/guides/";
-const sisterMarkup = /<a data-sister="([a-z0-9-]+)">([^<]*)<\/a>/g;
+export const SISTER_SITE_URL = "https://campingapp.nz/";
+const sisterMarkup = /<a data-sister="((?:tools\/)?[a-z0-9-]+)">([^<]*)<\/a>/g;
+const sisterHref = (target: string) => `${SISTER_SITE_URL}${target.startsWith("tools/") ? target : `guides/${target}`}/`;
 const sisterRanges = (paragraph: string) => [...paragraph.matchAll(sisterMarkup)].map((match) => [match.index!, match.index! + match[0].length] as const);
 /** Escapes text, turning sister markup back into its link; `outside` first cleans the text around it. */
 const escapeWithSister = (text: string, outside = (part: string) => part) => {
@@ -119,11 +120,13 @@ const escapeWithSister = (text: string, outside = (part: string) => part) => {
   let last = 0;
   for (const match of text.matchAll(sisterMarkup)) {
     html += escapeHtml(outside(text.slice(last, match.index)));
-    html += `<a href="${SISTER_GUIDE_URL}${match[1]}/">${escapeHtml(match[2])}</a>`;
+    html += `<a href="${sisterHref(match[1])}">${escapeHtml(match[2])}</a>`;
     last = match.index! + match[0].length;
   }
   return html + escapeHtml(outside(text.slice(last)));
 };
+/** Plain text as HTML with only its sister-site links let through, for prose outside guides (calculator pages). */
+export const renderSisterLinks = (text: string) => escapeWithSister(text, (part) => part.replace(/<\/?a\b[^>]*>/g, ""));
 /** The first match of `pattern` in `paragraph` that does not fall inside sister markup. */
 const firstMatchOutside = (pattern: RegExp, paragraph: string) => {
   const ranges = sisterRanges(paragraph);

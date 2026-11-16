@@ -17,6 +17,7 @@ import { englishFallback, htmlLang, intlLocale, localeRoot } from "@/lib/locales
 import { toolKeys, uiStrings, type ToolKey, type UiStrings } from "@/lib/source-strings";
 import { defaultOutputs, toolScript } from "@/lib/tools/calc";
 import { toolCopy } from "@/lib/tools/strings";
+import { renderSisterLinks } from "@/lib/internal-links";
 import { fillCounts, toolEyebrow, toolGuides, toolPageKey, toolPath, toolSources } from "@/lib/tools/pages";
 import { toolTables } from "@/lib/tools/tables";
 import { localizedHref } from "@/lib/routes";
@@ -113,7 +114,8 @@ export function ToolPage({ tool, locale }: { tool: ToolKey; locale: "en" | Local
             <section id="worked-example">
               <span className="section-count">{count(tables.length + 1)}</span>
               <h2>{common.workedExample}</h2>
-              {copy.example.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+              {/* Escaped prose; the only markup let through is a link to the twin page on KiwiCamping. */}
+              {copy.example.map((paragraph) => <p key={paragraph} dangerouslySetInnerHTML={{ __html: renderSisterLinks(paragraph) }} />)}
             </section>
             <section id="assumptions">
               <span className="section-count">{count(tables.length + 2)}</span>

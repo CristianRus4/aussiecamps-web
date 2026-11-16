@@ -397,7 +397,7 @@ export const toolStrings = {
       example: [
         "A 1,000 km drive in a vehicle using 12 L/100 km at A$2.33 a litre, the petrol average across the five largest cities in Australian Institute of Petroleum figures for the week ending 1 November 2026.",
         "1,000 × 12 ÷ 100 = 120 litres. 120 × A$2.33 = A$279.60. A$279.60 ÷ 1,000 km = about A$0.28 a kilometre.",
-        "The same drive in a diesel vehicle at that week’s diesel average of A$2.77 a litre costs 120 × A$2.77 = A$332.40.",
+        "The same drive in a diesel vehicle at that week’s diesel average of A$2.77 a litre costs 120 × A$2.77 = A$332.40. Heading to New Zealand too? KiwiCamping has a <a data-sister=\"tools/fuel-cost-calculator\">fuel cost calculator for New Zealand roads</a>.",
       ],
       assumptions: [
         "Fuel use is the loaded figure. A campervan, a roof load or a caravan on the back burns more than the brochure number, so measure your own if you can.",
@@ -439,7 +439,7 @@ export const toolStrings = {
       example: [
         "A 250 km day on a winding coastal road with three stops.",
         "250 ÷ 60 × 60 = 250 minutes of driving. Three stops add 3 × 20 = 60 minutes.",
-        "The day takes 310 minutes, or 5 h 10 min. On a main highway at 70 km/h the same distance and stops take 4 h 34 min.",
+        "The day takes 310 minutes, or 5 h 10 min. On a main highway at 70 km/h the same distance and stops take 4 h 34 min. Heading to New Zealand too? KiwiCamping has a <a data-sister=\"tools/drive-time-calculator\">drive time calculator for New Zealand</a>.",
       ],
       assumptions: [
         "Each stop counts as 20 minutes: a fuel stop, a meal, a toilet break or a driver change.",
@@ -467,7 +467,7 @@ export const toolStrings = {
       example: [
         "Two adults staying five nights, comparing A$20 per adult per night with A$50 per site per night.",
         "Per adult: 2 × 5 × A$20 = A$200. Per site: 5 × A$50 = A$250. Per adult is A$50 cheaper.",
-        "The break-even party size is A$50 ÷ A$20 = 2.5 adults, so with three adults the per-adult total rises to A$300 and the per-site price wins.",
+        "The break-even party size is A$50 ÷ A$20 = 2.5 adults, so with three adults the per-adult total rises to A$300 and the per-site price wins. Heading to New Zealand too? KiwiCamping has a <a data-sister=\"tools/campsite-cost-calculator\">campsite cost calculator for New Zealand</a>.",
       ],
       assumptions: [
         "Children and concession holders are often charged a different rate. Enter adults only, or adjust the fee to an average.",
