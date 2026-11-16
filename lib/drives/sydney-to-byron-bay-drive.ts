@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "sydney-to-byron-bay-drive",
-  title: "Sydney to Byron Bay Drive 2026: Pacific Highway Route, Stops, Tolls and Camping",
+  title: "Sydney to Byron Bay Drive 2027: Pacific Highway Route, Stops, Tolls and Camping",
   description: "Sydney to Byron Bay is about 770 km and two days on the Pacific Highway. Stops at Newcastle, Port Macquarie and Coffs Harbour, tolls for visitors, fuel, caravan parks and free camps.",
   category: "Road trips", region: "New South Wales",
   places: ["Newcastle", "Port Stephens", "Port Macquarie", "Coffs Harbour", "Yamba", "Ballina", "Byron Bay"],

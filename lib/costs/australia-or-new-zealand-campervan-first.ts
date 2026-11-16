@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "australia-or-new-zealand-campervan-first",
-  title: "Australia or New Zealand First by Campervan? How to Choose in 2026",
+  title: "Australia or New Zealand First by Campervan? How to Choose in 2027",
   description: "Choosing between a campervan trip in Australia or New Zealand: distances, driving, camping rules, cost, seasons and which suits a first trip. Plus how to do both.",
   category: "Trip planning", region: "Australia and New Zealand",
   places: ["Australia", "New Zealand", "North Island", "South Island", "East coast"],

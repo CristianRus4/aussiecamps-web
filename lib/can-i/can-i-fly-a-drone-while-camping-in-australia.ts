@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "can-i-fly-a-drone-while-camping-in-australia", publishAt: "2026-11-11",
-  title: "Can I Fly a Drone in a National Park or Campsite? 2026",
+  title: "Can I Fly a Drone in a National Park or Campsite? 2027",
   description: "Usually not. CASA allows flying for fun, but most park agencies ban drones or need approval, and Queensland bans them in camping areas. Rules by state, 2026.",
   category: "Rules & safety", region: "Australia",
   places: ["National parks", "Campgrounds", "Kakadu", "Uluru-Kata Tjuta"],

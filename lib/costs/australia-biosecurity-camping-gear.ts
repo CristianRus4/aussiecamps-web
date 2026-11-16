@@ -7,7 +7,7 @@ export const faq = [
 
 export default article({
   slug: "australia-biosecurity-camping-gear", publishAt: "2026-11-09",
-  title: "Australia Biosecurity 2026: Declaring Tents, Boots and Camping Gear",
+  title: "Australia Biosecurity 2027: Declaring Tents, Boots and Camping Gear",
   description: "Used tents, hiking boots, fishing gear and food must be declared when you land in Australia. What to clean before you fly, what officers check and what declaring costs.",
   category: "Rules & safety", region: "Australia",
   places: ["Airport arrivals", "Hiking boots", "Tents", "Fishing gear", "Camp food"],

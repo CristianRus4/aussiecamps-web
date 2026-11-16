@@ -7,7 +7,7 @@ export const faq = [
 
 export default article({
   slug: "drink-driving-limits-australia-visitors", publishAt: "2026-11-09",
-  title: "Drink Driving Limit in Australia for Visitors 2026: 0.05, Zero and Breath Tests",
+  title: "Drink Driving Limit in Australia for Visitors 2027: 0.05, Zero and Breath Tests",
   description: "Australia's drink driving limit is under 0.05 on a full licence and zero on a learner or provisional one, in every state. How random breath tests work and the morning after.",
   category: "Rules & safety", region: "Australia",
   places: ["Random breath testing", "Hire cars", "New South Wales", "Western Australia"],

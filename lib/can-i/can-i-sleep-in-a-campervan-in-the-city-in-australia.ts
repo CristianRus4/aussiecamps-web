@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "can-i-sleep-in-a-campervan-in-the-city-in-australia", publishAt: "2026-11-11",
-  title: "Can I Sleep in a Campervan in the City in Australia? Capital City Rules 2026",
+  title: "Can I Sleep in a Campervan in the City in Australia? Capital City Rules 2027",
   description: "Usually not on the street. Brisbane and Darwin ban it in public places, Perth needs approval, and councils elsewhere set the rule. Capital city rules, 2026.",
   category: "Rules & safety", region: "Australia",
   places: ["Capital cities", "Holiday parks", "City streets", "Council car parks"],

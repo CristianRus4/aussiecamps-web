@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "campervan-relocations-australia",
-  title: "Campervan Relocations in Australia 2026: How They Work, What They Cost and Where to Find Them",
+  title: "Campervan Relocations in Australia 2027: How They Work, What They Cost and Where to Find Them",
   description: "Campervan relocations in Australia often cost about $1 a day for a fixed number of days. How they work, typical routes, what to check, and how to plan the camping on the way.",
   category: "Costs & budget", region: "Australia",
   places: ["Sydney", "Melbourne", "Brisbane", "Perth", "Darwin", "Cairns"],

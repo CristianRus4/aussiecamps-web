@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "brisbane-to-adelaide-drive",
-  title: "Brisbane to Adelaide Drive 2026: Route, Days, Fuel and Camping Through the Inland",
+  title: "Brisbane to Adelaide Drive 2027: Route, Days, Fuel and Camping Through the Inland",
   description: "Brisbane to Adelaide is about 2,050 km and three to four days through the Newell Highway, Dubbo and Mildura. Route, stops, fuel, biosecurity rules, caravan parks and free camps.",
   category: "Road trips", region: "Queensland, New South Wales, Victoria and South Australia",
   places: ["Toowoomba", "Goondiwindi", "Moree", "Dubbo", "Parkes", "Mildura", "Renmark", "Adelaide"],

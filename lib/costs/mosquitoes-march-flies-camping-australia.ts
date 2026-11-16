@@ -7,7 +7,7 @@ export const faq = [
 
 export default article({
   slug: "mosquitoes-march-flies-camping-australia", publishAt: "2026-11-09",
-  title: "Mosquitoes, March Flies, Midges and Ticks: Camping in Australia 2026",
+  title: "Mosquitoes, March Flies, Midges and Ticks: Camping in Australia 2027",
   description: "Where and when biting insects are worst on an Australian camping trip, the diseases mosquitoes carry, the repellents health departments recommend and how to remove a tick.",
   category: "Rules & safety", region: "Australia",
   places: ["Mangroves", "Wetlands", "North Queensland", "East coast"],

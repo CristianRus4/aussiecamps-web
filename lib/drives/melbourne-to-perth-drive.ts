@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "melbourne-to-perth-drive",
-  title: "Melbourne to Perth Drive 2026: Route, Days, Fuel Stops and Camping Across the Nullarbor",
+  title: "Melbourne to Perth Drive 2027: Route, Days, Fuel Stops and Camping Across the Nullarbor",
   description: "Melbourne to Perth is about 3,400 km and five to seven days by Adelaide and the Nullarbor. Day-by-day stops, fuel gaps, the WA border checkpoint, free camps and caravan parks.",
   category: "Road trips", region: "Victoria, South Australia and Western Australia",
   places: ["Horsham", "Adelaide", "Port Augusta", "Ceduna", "Nullarbor Roadhouse", "Eucla", "Norseman", "Kalgoorlie", "Perth"],

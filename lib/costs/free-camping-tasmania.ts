@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "free-camping-tasmania", publishAt: "2026-11-09",
-  title: "Free Camping in Tasmania 2026: Bay of Fires, Free Park Camps and Council Sites",
+  title: "Free Camping in Tasmania 2027: Bay of Fires, Free Park Camps and Council Sites",
   description: "Where to camp for free in Tasmania: the Bay of Fires, free park campgrounds, council sites for self-contained vans and forestry land, and when a parks pass still applies.",
   category: "Camping guides", region: "Tasmania",
   places: ["Bay of Fires", "Southwest National Park", "Huon campground", "Teds Beach", "Northern Midlands"],

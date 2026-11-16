@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "brisbane-to-coffs-harbour-drive",
-  title: "Brisbane to Coffs Harbour Drive 2026: Pacific Highway Route, Stops and Camping",
+  title: "Brisbane to Coffs Harbour Drive 2027: Pacific Highway Route, Stops and Camping",
   description: "Brisbane to Coffs Harbour is about 470 km and five to six hours on the Pacific Highway. Stops at Byron Bay, Ballina and Yamba, the border time change, caravan parks and free camps.",
   category: "Road trips", region: "Queensland and New South Wales",
   places: ["Tweed Heads", "Byron Bay", "Ballina", "Yamba", "Grafton", "Coffs Harbour"],

@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "brisbane-to-darwin-drive",
-  title: "Brisbane to Darwin Drive 2026: Outback Route via Mount Isa and the Barkly, Fuel and Camping",
+  title: "Brisbane to Darwin Drive 2027: Outback Route via Mount Isa and the Barkly, Fuel and Camping",
   description: "Brisbane to Darwin is about 3,400 km and six to ten days across the Queensland outback and the Barkly Tableland. Route, fuel gaps, road trains, caravan parks and free camps.",
   category: "Road trips", region: "Queensland and the Northern Territory",
   places: ["Toowoomba", "Charleville", "Longreach", "Mount Isa", "Camooweal", "Barkly Roadhouse", "Tennant Creek", "Katherine", "Darwin"],

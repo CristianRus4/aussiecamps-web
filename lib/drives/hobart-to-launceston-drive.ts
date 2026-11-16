@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "hobart-to-launceston-drive", publishAt: "2026-11-11",
-  title: "Hobart to Launceston Drive 2026: Midland Highway, Roadworks, Stops and Biosecurity",
+  title: "Hobart to Launceston Drive 2027: Midland Highway, Roadworks, Stops and Biosecurity",
   description: "Hobart to Launceston is about 200 km and under three hours on the Midland Highway. Towns, rest areas, free stopovers, dump points, roadworks at Campbell Town, wildlife at dusk and Tasmania's fruit and vegetable rules.",
   category: "Road trips", region: "Tasmania",
   places: ["Hobart", "Kempton", "Oatlands", "Ross", "Campbell Town", "Epping Forest", "Launceston"],

@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "melbourne-to-mildura-drive", publishAt: "2026-11-11",
-  title: "Melbourne to Mildura Drive 2026: Calder Highway Route, Fruit Fly Rules, Fuel and Camping",
+  title: "Melbourne to Mildura Drive 2027: Calder Highway Route, Fruit Fly Rules, Fuel and Camping",
   description: "Melbourne to Mildura is about 542 km and 6 hours 45 minutes on the Calder Highway. Compared with the Sunraysia Highway, the 2024 fruit fly change, fuel, Hattah-Kulkyne camping and VicTraffic.",
   category: "Road trips", region: "Victoria",
   places: ["Bendigo", "Charlton", "Wycheproof", "Sea Lake", "Lake Tyrrell", "Ouyen", "Hattah-Kulkyne National Park", "Lake Hattah", "Mildura"],

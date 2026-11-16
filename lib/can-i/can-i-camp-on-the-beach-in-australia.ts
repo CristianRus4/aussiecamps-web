@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "can-i-camp-on-the-beach-in-australia", publishAt: "2026-11-07",
-  title: "Can I Camp on the Beach in Australia? Rules by State 2026",
+  title: "Can I Camp on the Beach in Australia? Rules by State 2027",
   description: "Only where the land manager allows it, usually a booked or permitted beach campground. Beach camping rules for Qld, NSW, Vic, SA, WA, Tas and NT, 2026.",
   category: "Rules & safety", region: "Australia",
   places: ["K'gari", "Bay of Fires", "Cape Conran", "Ningaloo Coast"],

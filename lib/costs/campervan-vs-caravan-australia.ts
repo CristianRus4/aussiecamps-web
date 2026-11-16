@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "campervan-vs-caravan-australia", publishAt: "2026-11-11",
-  title: "Campervan vs Caravan in Australia 2026: Licence, Towing, Rules",
+  title: "Campervan vs Caravan in Australia 2027: Licence, Towing, Rules",
   description: "A car licence covers a campervan up to 4.5 tonnes, while towing a caravan adds brake and mass rules. Compare licence, registration, size and where each suits.",
   category: "Trip planning", region: "Australia",
   places: ["New South Wales", "Queensland", "Western Australia", "Caravan parks", "National parks"],

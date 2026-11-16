@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "perth-to-esperance-drive",
-  title: "Perth to Esperance Drive 2026: Routes, Stops, Wave Rock and Camping at Cape Le Grand",
+  title: "Perth to Esperance Drive 2027: Routes, Stops, Wave Rock and Camping at Cape Le Grand",
   description: "Perth to Esperance is about 720 km and two days by Wagin, Hyden and Ravensthorpe. Route options, fuel, Wave Rock, Cape Le Grand and Lucky Bay, caravan parks and free camps.",
   category: "Road trips", region: "Western Australia",
   places: ["Williams", "Wagin", "Lake Grace", "Hyden", "Ravensthorpe", "Esperance", "Cape Le Grand", "Lucky Bay"],

@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "petrol-diesel-prices-australia-2026", publishAt: "2026-11-11",
-  title: "Petrol and Diesel Prices in Australia 2026: Price per Litre by City",
+  title: "Petrol and Diesel Prices in Australia 2027: Price per Litre by City",
   description: "Petrol averaged $2.34 a litre and diesel $2.77 in the five largest cities on 28 October 2026. Prices for every capital, the outback gap and what a tank costs.",
   category: "Costs & budget", region: "Australia",
   places: ["Sydney", "Melbourne", "Brisbane", "Perth", "Alice Springs"],

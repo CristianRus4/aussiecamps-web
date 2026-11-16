@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "campervan-vs-car-and-tent-australia",
-  title: "Campervan vs Car and Tent in Australia: Costs, Rules and Comfort (2026)",
+  title: "Campervan vs Car and Tent in Australia: Costs, Rules and Comfort (2027)",
   description: "Campervan or car and tent for an Australian road trip: running costs, fuel, camping rules, where you can sleep, comfort in the weather and who each suits.",
   category: "Trip planning", region: "Australia",
   places: ["Campgrounds", "Holiday parks", "Rest areas", "National parks"],

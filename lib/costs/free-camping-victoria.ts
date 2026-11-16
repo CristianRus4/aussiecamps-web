@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "free-camping-victoria", publishAt: "2026-11-09",
-  title: "Free Camping in Victoria 2026: State Forests, Free Park Camps and the Coast",
+  title: "Free Camping in Victoria 2027: State Forests, Free Park Camps and the Coast",
   description: "Where to camp for free in Victoria: 28 nights in state forests, 300 free forest campgrounds, free Parks Victoria sites, river frontages and the coastal towns that fine.",
   category: "Camping guides", region: "Victoria",
   places: ["Wombat State Forest", "Big River State Forest", "Howqua River", "Warby-Ovens National Park", "King Hut"],

@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "can-i-fish-without-a-licence-while-camping-in-australia", publishAt: "2026-11-11",
-  title: "Do I Need a Fishing Licence While Camping in Australia? 2026",
+  title: "Do I Need a Fishing Licence While Camping in Australia? 2027",
   description: "It depends on the state. NSW, Victoria, Tasmania (inland) and WA (boat, freshwater) need a licence; Queensland, SA, NT and the ACT do not. Fees checked 2026.",
   category: "Rules & safety", region: "Australia",
   places: ["Rivers and lakes", "Stocked dams", "Beaches", "Marine parks"],

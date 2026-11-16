@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "brisbane-to-airlie-beach-drive",
-  title: "Brisbane to Airlie Beach Drive 2026: Bruce Highway Route, Stops and Camping",
+  title: "Brisbane to Airlie Beach Drive 2027: Bruce Highway Route, Stops and Camping",
   description: "Brisbane to Airlie Beach is about 1,130 km and two to three days on the Bruce Highway. Stops at Bundaberg, 1770 and Rockhampton, fuel, flood closures, caravan parks and free camps.",
   category: "Road trips", region: "Queensland",
   places: ["Gympie", "Hervey Bay", "Bundaberg", "Agnes Water", "Gladstone", "Rockhampton", "Mackay", "Airlie Beach"],

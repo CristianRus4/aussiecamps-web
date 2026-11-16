@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "big-lap-of-australia-guide",
-  title: "The Big Lap of Australia 2026: Route, Direction, Timing, Budget and Camping",
+  title: "The Big Lap of Australia 2027: Route, Direction, Timing, Budget and Camping",
   description: "The Big Lap is a drive around Australia on Highway 1, about 14,500 km in 3 to 12 months. Direction, season by region, fuel and budget, camping and where to start.",
   category: "Trip planning", region: "Australia",
   places: ["Highway 1", "Nullarbor", "Kimberley", "Top End", "Queensland coast", "Tasmania"],

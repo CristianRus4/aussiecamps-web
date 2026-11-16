@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "can-i-drive-a-2wd-hire-campervan-on-4wd-roads-in-australia", publishAt: "2026-11-11",
-  title: "Can I Drive a 2WD Hire Campervan on 4WD Roads in Australia? 2026",
+  title: "Can I Drive a 2WD Hire Campervan on 4WD Roads in Australia? 2027",
   description: "No. Hire contracts ban 2WD campers from unsealed roads beyond short campground access roads, and some roads are 4WD only. What is banned and what to hire instead.",
   category: "Rules & safety", region: "Australia",
   places: ["Gibb River Road", "K'gari", "Outback tracks", "Sealed highways"],

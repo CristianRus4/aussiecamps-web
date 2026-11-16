@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "two-week-australia-trip-cost",
-  title: "How Much Money Do You Need for Two Weeks in Australia? A Camping Road Trip Budget (2026)",
+  title: "How Much Money Do You Need for Two Weeks in Australia? A Camping Road Trip Budget (2027)",
   description: "A worked budget for two weeks in Australia by campervan or car: daily costs, hire add-ons, fuel, campsites and a reserve, with totals for a frugal and a mixed trip.",
   category: "Costs & budget", region: "Australia",
   places: ["Campgrounds", "Holiday parks", "Fuel stops", "Supermarkets"],

@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "holiday-park-prices-australia-2026", publishAt: "2026-11-11",
-  title: "Holiday Park Prices in Australia 2026: Powered, Unpowered and Cabin Costs",
+  title: "Holiday Park Prices in Australia 2027: Powered, Unpowered and Cabin Costs",
   description: "Published 2026 tariffs show powered sites from $30 to $60 a night, unpowered from $20 to $40 and cabins from $85, with peak seasons higher. Prices and how to save.",
   category: "Costs & budget", region: "Australia",
   places: ["Holiday parks", "Council parks", "Powered sites", "Cabins"],

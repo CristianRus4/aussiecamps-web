@@ -10,7 +10,7 @@ export const faq = [
 
 export default article({
   slug: "is-camping-in-australia-dangerous", publishAt: "2026-11-09",
-  title: "Is Camping in Australia Dangerous? The Real Risks and How to Stay Safe (2026)",
+  title: "Is Camping in Australia Dangerous? The Real Risks and How to Stay Safe (2027)",
   description: "What actually hurts campers in Australia, from driving, heat and water to crocodiles, stingers, snakes and spiders, with where each risk is and what to do.",
   category: "Rules & safety", region: "Australia",
   places: ["Driving", "Heat and water", "Crocodiles and stingers", "Snakes and spiders"],
