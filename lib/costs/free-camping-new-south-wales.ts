@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "free-camping-new-south-wales", publishAt: "2026-11-09",
-  title: "Free Camping in NSW 2026: State Forests, Free Park Sites and Rest Areas",
+  title: "Free Camping in NSW 2027: State Forests, Free Park Sites and Rest Areas",
   description: "Where you can camp for free in New South Wales: state forests for up to four weeks, no-fee national park sites, council camps and rest areas, with the rules for each.",
   category: "Camping guides", region: "New South Wales",
   places: ["Pilliga Forest", "Barrington Tops State Forest", "Watagans", "Belanglo State Forest", "Tuross River campground"],

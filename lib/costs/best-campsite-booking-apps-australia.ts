@@ -10,7 +10,7 @@ export const faq = [
 export default article({
   slug: "best-campsite-booking-apps-australia",
   listicle: true,
-  title: "Best Campsite Booking Apps and Sites in Australia 2026: Where to Book in Every State",
+  title: "Best Campsite Booking Apps and Sites in Australia 2027: Where to Book in Every State",
   description: "Where to book a campsite in each state: NSW National Parks, Parks Victoria, Queensland Parks, WA Explore Parks, SA, Tasmania and the NT, plus holiday parks and AussieCamps.",
   category: "App guides", region: "Australia",
   places: ["NSW National Parks", "Parks Victoria", "Queensland Parks", "Explore Parks WA", "Parks Tasmania", "NT Parks", "Holiday parks"],

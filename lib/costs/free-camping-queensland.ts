@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "free-camping-queensland", publishAt: "2026-11-09",
-  title: "Free Camping in Queensland 2026: Council Camps, Rest Areas and Cheap Park Sites",
+  title: "Free Camping in Queensland 2027: Council Camps, Rest Areas and Cheap Park Sites",
   description: "Where you can camp for free in Queensland: council camps, the outback, 20-hour rest areas and the roadside rule, plus park permits at $7.75 a night when free runs out.",
   category: "Camping guides", region: "Queensland",
   places: ["Matilda Way", "Warrego Highway", "Peak Creek rest area", "Boulia", "Cairns"],

@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "perth-to-darwin-drive",
-  title: "Perth to Darwin Drive 2026: Route, Days, Fuel and Camping Along the West Coast and Kimberley",
+  title: "Perth to Darwin Drive 2027: Route, Days, Fuel and Camping Along the West Coast and Kimberley",
   description: "Perth to Darwin is about 4,000 km and eight to fourteen days by the coast, the Pilbara, Broome and the Kimberley. Day-by-day plan, fuel gaps, dry season timing, free camps and caravan parks.",
   category: "Road trips", region: "Western Australia and the Northern Territory",
   places: ["Geraldton", "Carnarvon", "Karratha", "Port Hedland", "Broome", "Fitzroy Crossing", "Kununurra", "Katherine", "Darwin"],

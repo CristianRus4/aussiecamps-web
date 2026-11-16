@@ -7,7 +7,7 @@ export const faq = [
 
 export default article({
   slug: "best-travel-apps-australia", listicle: true, publishAt: "2026-11-09",
-  title: "Best Apps for Travelling Australia in 2026: 10 to Install Before a Road Trip",
+  title: "Best Apps for Travelling Australia in 2027: 10 to Install Before a Road Trip",
   description: "The apps worth installing for an Australian road trip in 2026: entry, navigation, weather, emergency calls, fuel, tolls, city transport and where to stay, with prices and ratings checked November 2026.",
   category: "App guides", region: "Australia",
   places: ["Australia", "Sydney", "Melbourne", "Outback"],

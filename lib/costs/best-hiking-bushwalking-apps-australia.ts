@@ -10,7 +10,7 @@ export const faq = [
 export default article({
   slug: "best-hiking-bushwalking-apps-australia",
   listicle: true,
-  title: "Best Hiking and Bushwalking Apps for Australia in 2026: 6 for Trails, Safety and Camps",
+  title: "Best Hiking and Bushwalking Apps for Australia in 2027: 6 for Trails, Safety and Camps",
   description: "AllTrails, ExplorOz Traveller, the NSW National Parks app, Emergency+, the Bureau of Meteorology and AussieCamps compared for day walks, multi-day walks and remote tracks.",
   category: "App guides", region: "Australia",
   places: ["Overland Track", "Larapinta Trail", "Blue Mountains", "Grampians", "Kosciuszko"],

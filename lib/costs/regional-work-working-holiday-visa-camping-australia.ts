@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "regional-work-working-holiday-visa-camping-australia",
-  title: "Regional Work for a Second or Third Working Holiday Visa: Camping and Living on the Road in 2026",
+  title: "Regional Work for a Second or Third Working Holiday Visa: Camping and Living on the Road in 2027",
   description: "How backpackers camp and live in a van while doing regional work for a second or third working holiday visa in Australia: where to stay, what to check, harvest seasons and planning the route.",
   category: "Trip planning", region: "Australia",
   places: ["Queensland", "Victoria", "New South Wales", "Western Australia", "Tasmania"],

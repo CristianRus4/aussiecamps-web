@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "perth-to-margaret-river-drive", publishAt: "2026-11-11",
-  title: "Perth to Margaret River Drive 2026: Route, Fuel, Caves Road and Park Bookings",
+  title: "Perth to Margaret River Drive 2027: Route, Fuel, Caves Road and Park Bookings",
   description: "Perth to Margaret River is about 275 to 290 km and four hours by Forrest Highway and Bussell Highway. Route options, Caves Road, free Leeuwin-Naturaliste entry, campground bookings, dump points and fruit fly rules.",
   category: "Road trips", region: "Western Australia",
   places: ["Perth", "Mandurah", "Bunbury", "Busselton", "Dunsborough", "Yallingup", "Margaret River", "Leeuwin-Naturaliste National Park"],

@@ -7,7 +7,7 @@ export const faq = [
 
 export default article({
   slug: "speed-limits-australia-visitors", publishAt: "2026-11-09",
-  title: "Speed Limits in Australia 2026: Default Limits by State for Visitors",
+  title: "Speed Limits in Australia 2027: Default Limits by State for Visitors",
   description: "Australian speed limits for visitors: 50 km/h in towns, 100 or 110 km/h on open roads, 130 km/h on parts of four NT highways, plus school zones, cameras and fines in a hire car.",
   category: "Rules & safety", region: "Australia",
   places: ["Northern Territory", "Western Australia", "School zones", "Hire cars"],

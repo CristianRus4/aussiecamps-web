@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "free-camping-south-australia", publishAt: "2026-11-09",
-  title: "Free Camping in South Australia 2026: Crown Land, the Murray and Council Camps",
+  title: "Free Camping in South Australia 2027: Crown Land, the Murray and Council Camps",
   description: "Where to camp for free in South Australia: 21 days on Crown land, River Murray camps, cheap council sites on the peninsulas, rest areas, and the councils that ban it.",
   category: "Camping guides", region: "South Australia",
   places: ["River Murray", "Eyre Peninsula", "Yorke Peninsula", "Crown land", "Barossa"],

@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "can-i-camp-in-a-national-park-without-booking-in-australia", publishAt: "2026-11-09",
-  title: "Can I Camp in a National Park Without Booking? 2026 Rules",
+  title: "Can I Camp in a National Park Without Booking? 2027 Rules",
   description: "Sometimes, but not in Queensland, South Australia or the NT, where you book before you arrive. Which national park campgrounds need no booking, by state, 2026.",
   category: "Rules & safety", region: "Australia",
   places: ["Cape Conran", "Wadbilliga National Park", "Bay of Fires", "Namadgi National Park"],

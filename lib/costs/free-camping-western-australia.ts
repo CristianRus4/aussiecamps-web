@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "free-camping-western-australia", publishAt: "2026-11-09",
-  title: "Free Camping in Western Australia 2026: 24-Hour Rest Stops, Shire Camps and the Law",
+  title: "Free Camping in Western Australia 2027: 24-Hour Rest Stops, Shire Camps and the Law",
   description: "Where you can camp for free in WA: signed 24-hour rest stops, shire camps and private land, why camping elsewhere needs approval, and the cheap park sites in between.",
   category: "Camping guides", region: "Western Australia",
   places: ["North West Coastal Highway", "Great Northern Highway", "Lyndon rest area", "Ningaloo", "Shire camps"],

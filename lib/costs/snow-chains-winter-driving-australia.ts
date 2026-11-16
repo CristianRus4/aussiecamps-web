@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "snow-chains-winter-driving-australia",
-  title: "Snow Chains and Winter Driving in Australia: Rules for Kosciuszko and the Victorian Alps (2026)",
+  title: "Snow Chains and Winter Driving in Australia: Rules for Kosciuszko and the Victorian Alps (2027)",
   description: "When snow chains are required in Kosciuszko National Park and at Victoria's alpine resorts, which vehicles must carry them, the fines, and how to drive a campervan to the snow.",
   category: "Rules & safety", region: "Alpine Australia",
   places: ["Kosciuszko National Park", "Thredbo", "Perisher", "Mt Hotham", "Falls Creek", "Mt Buller"],

@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "can-i-drive-on-the-beach-in-australia", publishAt: "2026-11-08",
-  title: "Can I Drive on the Beach in Australia? Rules by State 2026",
+  title: "Can I Drive on the Beach in Australia? Rules by State 2027",
   description: "Only where the land manager allows it, often with a vehicle access permit and a 4WD. Beach driving rules for Qld, NSW, Vic, SA, WA, Tas and NT, 2026.",
   category: "Rules & safety", region: "Australia",
   places: ["K'gari", "Stockton Beach", "Cable Beach", "Arthur-Pieman"],

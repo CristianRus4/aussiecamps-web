@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "brisbane-to-cairns-drive", publishAt: "2026-11-11",
-  title: "Brisbane to Cairns Drive 2026: Bruce Highway Legs, Flood Season, Fatigue and Fuel",
+  title: "Brisbane to Cairns Drive 2027: Bruce Highway Legs, Flood Season, Fatigue and Fuel",
   description: "Brisbane to Cairns is about 1,700 km and 22 hours on the Bruce Highway. Daily legs, the inland variant, wet-season closures, fire ant rules, rest areas and dump points.",
   category: "Road trips", region: "Queensland",
   places: ["Gympie", "Bundaberg", "Rockhampton", "Mackay", "Townsville", "Ingham", "Innisfail", "Cairns"],

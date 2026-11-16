@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "sydney-to-dubbo-drive",
-  title: "Sydney to Dubbo Drive 2026: Blue Mountains Route, Stops and Camping",
+  title: "Sydney to Dubbo Drive 2027: Blue Mountains Route, Stops and Camping",
   description: "Sydney to Dubbo is about 390 km and five hours over the Blue Mountains, through Bathurst and Orange. Route, stops, tolls, winter road conditions, caravan parks and free camps.",
   category: "Road trips", region: "New South Wales",
   places: ["Katoomba", "Lithgow", "Bathurst", "Orange", "Wellington", "Dubbo"],

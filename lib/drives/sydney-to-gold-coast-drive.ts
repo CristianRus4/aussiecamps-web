@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "sydney-to-gold-coast-drive",
-  title: "Sydney to the Gold Coast Drive 2026: Pacific Highway Route, Stops, Tolls and Camping",
+  title: "Sydney to the Gold Coast Drive 2027: Pacific Highway Route, Stops, Tolls and Camping",
   description: "Sydney to the Gold Coast is about 840 km and two days on the Pacific Highway. Stops at Newcastle, Port Macquarie and Byron Bay, tolls, the border time change, caravan parks and free camps.",
   category: "Road trips", region: "New South Wales and Queensland",
   places: ["Newcastle", "Port Macquarie", "Coffs Harbour", "Ballina", "Byron Bay", "Tweed Heads", "Surfers Paradise"],

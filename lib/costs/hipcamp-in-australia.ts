@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "hipcamp-in-australia",
-  title: "Hipcamp in Australia 2026: How It Works, What It Covers and When to Use It",
+  title: "Hipcamp in Australia 2027: How It Works, What It Covers and When to Use It",
   description: "Hipcamp lists private land and campgrounds you book in Australia. How it works, where it fits beside a camping directory, and what to use for free camps, rest areas and dump points.",
   category: "App guides", region: "Australia",
   places: ["Private land", "Farm stays", "National parks", "Campgrounds"],

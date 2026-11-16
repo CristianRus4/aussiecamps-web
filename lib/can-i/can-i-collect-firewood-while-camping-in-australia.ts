@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "can-i-collect-firewood-while-camping-in-australia", publishAt: "2026-11-10",
-  title: "Can I Collect Firewood Camping in Australia? 2026 Rules",
+  title: "Can I Collect Firewood Camping in Australia? 2027 Rules",
   description: "Mostly no. Parks in Victoria, Queensland, SA, WA and Tasmania ban collecting firewood, and NSW allows it only in some backcountry. Some state forests allow it.",
   category: "Rules & safety", region: "Australia",
   places: ["National parks", "State forests", "Campgrounds", "Roadside stalls"],

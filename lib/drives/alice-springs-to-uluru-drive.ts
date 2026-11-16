@@ -9,7 +9,7 @@ export const faq = [
 
 export default article({
   slug: "alice-springs-to-uluru-drive", publishAt: "2026-11-11",
-  title: "Alice Springs to Uluru Drive 2026: Stuart and Lasseter Highways, Fuel, Park Fees and Camping",
+  title: "Alice Springs to Uluru Drive 2027: Stuart and Lasseter Highways, Fuel, Park Fees and Camping",
   description: "Alice Springs to Uluru is about 450 km and five hours by the Stuart and Lasseter Highways. Fuel at Erldunda, Curtin Springs and Yulara, park pass prices, heat, Yulara camping, alcohol limits, road trains and dump points.",
   category: "Road trips", region: "Northern Territory",
   places: ["Alice Springs", "Erldunda", "Curtin Springs", "Yulara", "Uluru", "Kata Tjuta"],
