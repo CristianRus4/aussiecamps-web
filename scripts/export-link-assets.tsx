@@ -43,7 +43,7 @@ const shellFile = resolve(pages, "link-shell/index.html");
 assert.ok(existsSync(shellFile), `${shellFile} is missing: run npm run build:pages first (this script takes it out of the export)`);
 // Its stylesheet is the bucket's own copy (scripts/r2-stylesheets.ts), live before GitHub Pages deploys.
 const shell = withR2Stylesheets(withSlashes(readFileSync(shellFile, "utf8")), pages, out);
-for (const hook of ['href="/places/_assets/', 'data-sl="name"', 'data-sl="stats"', 'data-sl="status"', 'data-sl="message"', 'href="mailto:', 'data-sl="body"', 'data-sl="map"', 'data-sl="list"', "data-pl-map=", "data-open-app=", "data-page-qr", "window.plMap", 'name="apple-itunes-app"'])
+for (const hook of ['href="/places/_assets/', 'data-sl="name"', 'data-sl="stats"', 'data-sl="status"', 'data-sl="message"', 'data-sl="contact"', 'data-sl="report"', 'href="mailto:', 'data-sl="body"', 'data-sl="map"', 'data-sl="list"', "data-pl-map=", "data-open-app=", "data-page-qr", "window.plMap", 'name="apple-itunes-app"'])
   assert.ok(shell.includes(hook), `the link shell has no ${hook}`);
 rmSync(resolve(out, "shells"), { recursive: true, force: true });
 mkdirSync(resolve(out, "shells"), { recursive: true });

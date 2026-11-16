@@ -8,11 +8,22 @@
  *
  * The first PUT claims the id: it stores the SHA-256 of the token in the object's metadata, as a conditional
  * create, so of two racing creators only one wins. Every later PUT or DELETE must bring the same token (403
- * otherwise); a PUT after a DELETE restores the link.
+ * otherwise); a PUT after a DELETE restores the link. A page taken down by an admin (scripts/remove-link.mjs)
+ * keeps the same tombstone plus `b: "1"`: it answers 410 and its owner can't restore it.
+ *
+ *   GET    /api/links/stats/<yyyy-mm-dd>   that UTC day's totals (writes, new links, removals, capped requests,
+ *                                          addresses): counts only, read by scripts/link-stats.mjs
+ *
+ * Besides the per-minute limits (src/index.js), each address may write WRITE_CAP times and create CREATE_CAP
+ * links per UTC day (counters/<day>/<hash of the address>.json); over that, 429 until midnight UTC.
  */
 import { LINK_ID, validateLink } from "./validate.js";
 
 export const MAX_BODY = 64 * 1024;
+/** Per address and UTC day. The app sends a link a few seconds after each change and nothing when it is unchanged,
+ * so one person editing all day stays far below these. */
+export const WRITE_CAP = 300;
+export const CREATE_CAP = 50;
 const TOKEN = /^Bearer ([A-Za-z0-9_-]{43})$/;
 
 export const linkKey = (id) => `links/${id}.json`;
@@ -52,7 +63,27 @@ async function readBody(request, limit) {
   return new TextDecoder("utf-8", { fatal: true }).decode(bytes);
 }
 
-async function put(request, env, site, id, hash) {
+const DAY = /^\d{4}-\d{2}-\d{2}$/;
+const today = () => new Date().toISOString().slice(0, 10);
+const counterKey = async (day, client) => `counters/${day}/${(await sha256(client)).slice(0, 32)}.json`;
+export const statsKey = (day) => `stats/${day}.json`;
+const secondsToMidnight = () => { const now = new Date(); return String(Math.ceil((Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + 1) - now) / 1000)); };
+
+async function readJson(bucket, key) {
+  const object = await bucket.get(key);
+  if (!object) return null;
+  try { return await object.json(); } catch { return null; }
+}
+
+/** Adds to a day's totals. Read, add, write: two writes at the same moment can lose one count, which is fine for
+ * an alarm. */
+async function bump(bucket, day, add) {
+  const totals = (await readJson(bucket, statsKey(day))) ?? {};
+  for (const [field, n] of Object.entries(add)) totals[field] = (totals[field] ?? 0) + n;
+  await bucket.put(statsKey(day), JSON.stringify(totals), { httpMetadata: { contentType: "application/json" } });
+}
+
+async function put(request, env, site, id, hash, quota) {
   let text;
   try { text = await readBody(request, MAX_BODY); } catch { return json({ error: "the body is not UTF-8" }, 400); }
   if (text === null) return json({ error: "the body is over 64 KB" }, 413);
@@ -67,9 +98,11 @@ async function put(request, env, site, id, hash) {
   // Two tries: if a racing creator takes the id between our check and our create, the second try sees its hash.
   for (let attempt = 0; attempt < 2; attempt += 1) {
     const existing = await env.LINKS.head(key);
+    if (existing?.customMetadata?.b === "1") return json({ error: "removed" }, 410);
     if (existing && !sameHash(existing.customMetadata?.h, hash)) return json({ error: "wrong token" }, 403);
+    if (!existing && quota.c >= CREATE_CAP) return json({ error: "too many new links today" }, 429, { "retry-after": secondsToMidnight() });
     const stored = await env.LINKS.put(key, body, { ...options, onlyIf: existing ? { etagMatches: existing.etag } : { etagDoesNotMatch: "*" } });
-    if (stored) return json({ url: `${site.url}/${value.kind}/${id}` });
+    if (stored) { quota.created = !existing; return json({ url: `${site.url}/${value.kind}/${id}` }); }
   }
   return json({ error: "the link changed at the same time; try again" }, 409);
 }
@@ -91,17 +124,44 @@ async function read(request, env, id) {
   return new Response(request.method === "HEAD" ? null : object.body, { headers });
 }
 
-/** Answers /api/links/<rest>. `limited(kind)` is the rate limit check: a 429 Response or null. */
-export async function linksApi(request, env, site, rest, limited) {
+/** Answers /api/links/<rest>. `limited(kind)` is the rate limit check: a 429 Response or null. `client` is the
+ * caller's rate-limit key (src/index.js clientKey); `ctx` lets the day's counts be written after the reply. */
+export async function linksApi(request, env, site, rest, limited, client = "local", ctx = undefined) {
   const method = request.method;
   if (!["GET", "HEAD", "PUT", "DELETE"].includes(method)) return json({ error: "method not allowed" }, 405, { allow: "GET, HEAD, PUT, DELETE" });
   const blocked = await limited(method === "GET" || method === "HEAD" ? "read" : "write");
   if (blocked) return blocked;
+  const stats = /^stats\/(.+)$/.exec(rest);
+  if (stats && (method === "GET" || method === "HEAD") && DAY.test(stats[1])) {
+    const totals = (await readJson(env.LINKS, statsKey(stats[1]))) ?? {};
+    return json({ day: stats[1], writes: 0, creates: 0, removes: 0, capped: 0, clients: 0, ...totals });
+  }
   if (rest.includes("/")) return json({ error: "not found" }, 404);
   if (!LINK_ID.test(rest)) return json({ error: "the id must be 12 letters or digits" }, 400);
   if (method === "GET" || method === "HEAD") return read(request, env, rest);
   const token = TOKEN.exec(request.headers.get("authorization") ?? "");
   if (!token) return json({ error: "a Bearer token of 43 base64url characters is required" }, 401);
+
+  // The address's writes today (counters/<day>/…): a cap per address, and the day's totals for the alarm.
+  const day = today();
+  const counter = await counterKey(day, client);
+  const quota = (await readJson(env.LINKS, counter)) ?? { w: 0, c: 0 };
+  const later = (promise) => (ctx ? ctx.waitUntil(promise.catch(() => {})) : promise.catch(() => {}));
+  if (quota.w >= WRITE_CAP) {
+    later(bump(env.LINKS, day, { capped: 1 }));
+    return json({ error: "too many writes today" }, 429, { "retry-after": secondsToMidnight() });
+  }
   const hash = await sha256(token[1]);
-  return method === "PUT" ? put(request, env, site, rest, hash) : remove(env, rest, hash);
+  const response = method === "PUT" ? await put(request, env, site, rest, hash, quota) : await remove(env, rest, hash);
+  if (response.status === 429) later(bump(env.LINKS, day, { capped: 1 }));
+  if (response.ok) {
+    const first = quota.w === 0;
+    quota.w += 1;
+    if (quota.created) quota.c += 1;
+    later(Promise.all([
+      env.LINKS.put(counter, JSON.stringify({ w: quota.w, c: quota.c }), { httpMetadata: { contentType: "application/json" } }),
+      bump(env.LINKS, day, { writes: 1, ...(quota.created ? { creates: 1 } : {}), ...(method === "DELETE" ? { removes: 1 } : {}), ...(first ? { clients: 1 } : {}) }),
+    ]));
+  }
+  return response;
 }

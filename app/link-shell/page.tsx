@@ -19,7 +19,8 @@ const LINK_SHELL_APP = appLink("/link/");
  * page from its bucket (scripts/export-link-assets.tsx copies it there) and fills in the [data-sl] hooks
  * from the link's data: the name, the stats, the map's data-pl-map and the rows of the list, plus the head's
  * title, description, Open Graph tags and canonical. A missing or removed link shows the message and the contact
- * line instead of the map and the list. Never served from here: noindex, English only, in no sitemap
+ * line instead of the map and the list; a live one ends with Report (a mail to support naming the page). The
+ * Worker writes the page's own words in the visitor's language. Never served from here: noindex, English only, in no sitemap
  * (lib/routes/links.ts).
  */
 export const metadata: Metadata = {
@@ -43,13 +44,14 @@ export default function LinkShell() {
           </header>
           <div className="sl-error" data-sl="status" hidden>
             <p className="trip-status" data-sl="message" />
-            <p className="sl-contact">If you think this is a mistake, <a href={SUPPORT_MAILTO}>contact us</a>.</p>
+            <p className="sl-contact" data-sl="contact">If you think this is a mistake, <a href={SUPPORT_MAILTO}>contact us</a>.</p>
           </div>
           <div className="trip-cta"><StoreWithQr locale="en" placement="trip" label={uiStrings.download} openApp={LINK_SHELL_APP} liveQr /></div>
           <div data-sl="body">
             <figure className="pl-map" role="img" aria-label="Map" data-sl="map" data-pl-map="" />
             <ul className="pl-rows sl-list" data-sl="list" />
           </div>
+          <p className="sl-report" data-sl="report" hidden><a href={SUPPORT_MAILTO}>Report</a></p>
         </div>
       </article>
     </main>

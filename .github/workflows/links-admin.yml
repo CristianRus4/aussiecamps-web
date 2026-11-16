@@ -1,0 +1,42 @@
+# Admin jobs for the live trip and collection links (docs/places-cloudflare.md): take one page down, list what
+# the links bucket holds, or read a day's totals. Run by hand: Actions → Links admin → Run workflow.
+name: Links admin
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "remove (one page), report (the bucket) or stats (a day's totals)"
+        type: choice
+        options: [report, remove, stats]
+        default: report
+      id:
+        description: "For remove: the 12 letters or digits after /trip/ or /collection/"
+        required: false
+      day:
+        description: "For stats: yyyy-mm-dd (UTC); empty for yesterday"
+        required: false
+permissions:
+  contents: read
+jobs:
+  admin:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Run
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          ACTION: ${{ inputs.action }}
+          LINK_ID: ${{ inputs.id }}
+          DAY: ${{ inputs.day }}
+        run: |
+          case "$ACTION" in
+            remove) node scripts/remove-link.mjs "$LINK_ID" ;;
+            report) node scripts/link-bucket-report.mjs ;;
+            stats) node scripts/link-stats.mjs $DAY ;;
+          esac

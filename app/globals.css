@@ -762,6 +762,8 @@ a.trip-stop-title:hover { text-decoration: underline; }
 .sl-error .trip-status { padding: 0 0 6px; }
 .sl-contact { margin: 0; color: var(--muted); font-size: 15px; }
 .sl-contact a { color: var(--fern); font-weight: 650; text-decoration: underline; text-underline-offset: 3px; }
+.sl-report { margin: 26px 0 0; font-size: 13px; }
+.sl-report a { color: var(--muted); text-decoration: underline; text-underline-offset: 3px; }
 .sl-list { margin-top: 14px; }
 .sl-list .sl-plain > div { padding: 12px 4px; display: flex; align-items: center; gap: 16px; }
 .sl-list .sl-plain > div > span:last-child { min-width: 0; flex: 1; display: flex; flex-direction: column; gap: 2px; }

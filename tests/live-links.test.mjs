@@ -169,3 +169,104 @@ test("answers 404 for paths under a link id", async () => {
     assert.equal(response.status, 404);
   }
 });
+
+// ---- 16 Nov 2026: takedowns, daily caps and totals, the page's language (an in-memory stand-in for R2) ----
+import { CREATE_CAP, WRITE_CAP } from "../places-worker/src/links-api.js";
+import { LABELS, pickLanguage, usesMiles } from "../places-worker/src/labels.js";
+
+class FakeBucket {
+  constructor() { this.objects = new Map(); this.n = 0; }
+  stored(key) { const o = this.objects.get(key); return o && { etag: o.etag, httpEtag: `"${o.etag}"`, customMetadata: o.meta, body: { cancel: async () => {} }, json: async () => JSON.parse(o.body), text: async () => o.body }; }
+  async head(key) { return this.objects.has(key) ? this.stored(key) : null; }
+  async get(key) { return this.objects.has(key) ? this.stored(key) : null; }
+  async put(key, body, options = {}) {
+    const existing = this.objects.get(key);
+    if (options.onlyIf?.etagDoesNotMatch === "*" && existing) return null;
+    if (options.onlyIf?.etagMatches && existing?.etag !== options.onlyIf.etagMatches) return null;
+    this.objects.set(key, { body: String(body), meta: options.customMetadata ?? {}, etag: `e${(this.n += 1)}` });
+    return {};
+  }
+  async delete(key) { this.objects.delete(key); }
+}
+const SITE_T = { url: "https://example.test" };
+const TOKEN_A = "a".repeat(43), TOKEN_B = "b".repeat(43);
+const sampleTrip = { v: 1, kind: "trip", n: "Coast", s: [{ t: "Stop", la: -33.1, lo: 151.1 }] };
+async function call(env, method, rest, { token, body, client = "1.2.3.4" } = {}) {
+  const pending = [];
+  const ctx = { waitUntil: (p) => pending.push(p) };
+  const request = new Request(`https://example.test/api/links/${rest}`, { method, headers: token ? { authorization: `Bearer ${token}` } : {}, body: body ? JSON.stringify(body) : undefined });
+  const response = await linksApi(request, env, SITE_T, rest, async () => null, client, ctx);
+  await Promise.all(pending);
+  return response;
+}
+
+test("an admin takedown answers 410 and its owner can't restore it", async () => {
+  const env = { LINKS: new FakeBucket() };
+  assert.equal((await call(env, "PUT", "AbCdEfGhIjKl", { token: TOKEN_A, body: sampleTrip })).status, 200);
+  // What scripts/remove-link.mjs writes: the owner's hash, removed and b.
+  const meta = env.LINKS.objects.get("links/AbCdEfGhIjKl.json").meta;
+  await env.LINKS.put("links/AbCdEfGhIjKl.json", "", { customMetadata: { h: meta.h, removed: "1", b: "1" } });
+  assert.equal((await call(env, "GET", "AbCdEfGhIjKl")).status, 410);
+  assert.equal((await call(env, "PUT", "AbCdEfGhIjKl", { token: TOKEN_A, body: sampleTrip })).status, 410);
+  assert.equal((await call(env, "DELETE", "AbCdEfGhIjKl", { token: TOKEN_A })).status, 204);
+  assert.equal(env.LINKS.objects.get("links/AbCdEfGhIjKl.json").meta.b, "1");
+  // An owner's own removal can still be undone.
+  assert.equal((await call(env, "PUT", "ZyXwVuTsRqPo", { token: TOKEN_B, body: sampleTrip })).status, 200);
+  assert.equal((await call(env, "DELETE", "ZyXwVuTsRqPo", { token: TOKEN_B })).status, 204);
+  assert.equal((await call(env, "PUT", "ZyXwVuTsRqPo", { token: TOKEN_B, body: sampleTrip })).status, 200);
+});
+
+test("caps writes and new links per address and day, and keeps the day's totals", async () => {
+  const env = { LINKS: new FakeBucket() };
+  const day = new Date().toISOString().slice(0, 10);
+  for (let i = 0; i < CREATE_CAP; i += 1) assert.equal((await call(env, "PUT", `id${String(i).padStart(10, "0")}`, { token: TOKEN_A, body: sampleTrip })).status, 200);
+  const over = await call(env, "PUT", "newIdNewId01", { token: TOKEN_A, body: sampleTrip });
+  assert.equal(over.status, 429);
+  assert.ok(Number(over.headers.get("retry-after")) > 0);
+  // Another address may still create; an update of an existing link isn't a new link.
+  assert.equal((await call(env, "PUT", "newIdNewId01", { token: TOKEN_A, body: sampleTrip, client: "5.6.7.8" })).status, 200);
+  assert.equal((await call(env, "PUT", "id000000000", { token: TOKEN_A, body: sampleTrip })).status, 400); // 11 characters
+  assert.equal((await call(env, "PUT", "id0000000000", { token: TOKEN_A, body: { ...sampleTrip, n: "Renamed" } })).status, 200);
+  const totals = await (await call(env, "GET", `stats/${day}`)).json();
+  assert.equal(totals.creates, CREATE_CAP + 1);
+  assert.equal(totals.writes, CREATE_CAP + 2);
+  assert.equal(totals.clients, 2);
+  assert.ok(totals.capped >= 1);
+  // The write cap, whatever the request.
+  const counter = [...env.LINKS.objects.keys()].find((key) => key.startsWith(`counters/${day}/`));
+  await env.LINKS.put(counter, JSON.stringify({ w: WRITE_CAP, c: 0 }));
+  const capped = [...env.LINKS.objects.keys()].filter((key) => key.startsWith(`counters/${day}/`));
+  for (const key of capped) await env.LINKS.put(key, JSON.stringify({ w: WRITE_CAP, c: 0 }));
+  assert.equal((await call(env, "PUT", "id0000000000", { token: TOKEN_A, body: sampleTrip })).status, 429);
+  assert.equal((await call(env, "GET", "stats/not-a-day")).status, 404);
+});
+
+test("picks the page's language and units from Accept-Language", () => {
+  assert.equal(pickLanguage("de-DE,de;q=0.9,en;q=0.8"), "de");
+  assert.equal(pickLanguage("zh-TW"), "zh-hant");
+  assert.equal(pickLanguage("zh-CN,zh;q=0.9"), "zh-hans");
+  assert.equal(pickLanguage("pt-BR"), "pt-br");
+  assert.equal(pickLanguage("es-MX"), "es-419");
+  assert.equal(pickLanguage("es-ES"), "es");
+  assert.equal(pickLanguage("no"), "nb");
+  assert.equal(pickLanguage("xx-YY, fr;q=0.5"), "fr");
+  assert.equal(pickLanguage(""), "en");
+  assert.equal(pickLanguage(null), "en");
+  assert.equal(usesMiles("en-US,en;q=0.9"), true);
+  assert.equal(usesMiles("en-GB"), true);
+  assert.equal(usesMiles("en-AU"), false);
+  assert.equal(usesMiles("de"), false);
+  for (const [code, words] of Object.entries(LABELS)) {
+    assert.deepEqual(Object.keys(words).sort(), Object.keys(LABELS.en).sort(), code);
+    assert.equal(words.contact.length, 3, code);
+    assert.doesNotMatch(JSON.stringify(words), /—/, code);
+  }
+});
+
+test("writes the stats in the visitor's language and units", () => {
+  const link = { kind: "trip", sd: "2027-12-03", ed: "2027-12-09", dist: 1240400, dur: 52200, s: [{}, {}, {}] };
+  assert.deepEqual(stats(link, "de"), [["Datum", "3.–9. Dez. 2027"], ["Stopps", "3"], ["Strecke", "1.240 km"], ["Fahrzeit", "14 Std. 30 Min."]]);
+  assert.deepEqual(stats(link, "en", true)[2], ["Distance", "771 mi"]);
+  assert.equal(stats(link, "ja")[0][1], "2027年12月3日～12月9日");
+  assert.deepEqual(stats({ kind: "collection", p: [{}, {}] }, "fr"), [["Lieux", "2"]]);
+});
