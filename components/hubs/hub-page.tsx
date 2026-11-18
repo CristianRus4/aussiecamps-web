@@ -17,13 +17,15 @@ import { stateIntros } from "@/lib/hubs/state-intros";
 import { placePath, places, placeStatePath } from "@/lib/places";
 import { PlaceCards } from "@/components/places/place-cards";
 import { hubLocalGuides } from "@/lib/place-guides";
+import { hubPlaceLinks } from "@/lib/hubs/place-links";
 
 const norm = (value: string) => value.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 
 /**
- * One camping hub (a state or a park), in the layout every listing page shares (components/places/
+ * One hub (a state's or a park's camping, a state's dump points or rest areas), in the layout every listing page shares (components/places/
  * listing.tsx): the title and a few plain sentences, the map, five places from the directory, the
- * season and permit notes, guides and links, and the end box. English only for now.
+ * season and permit notes, guides and links, and the end box. A dump point or rest area hub lists its
+ * places, each linking to its place page. English only for now.
  */
 export function HubPage({ hub }: { hub: Hub }) {
   const section = sectionOf(hub.kind);
@@ -79,6 +81,7 @@ export function HubPage({ hub }: { hub: Hub }) {
           <h2>Places to camp in {where}</h2>
           <PlaceCards places={listed.slice(0, 5)} more={{ href: placeStatePath({ slug: hub.id.split("/")[1] }), label: `Explore all places in ${hub.stateName}` }} />
         </section>}
+        {section !== "camping" && <LinkList title={section === "dump-points" ? "Dump points" : "Rest areas"} links={hubPlaceLinks(hub)} />}
         {children.length > 0 && <LinkList title={`Parks in ${hub.stateName} with their own page`} links={children.map((child) => ({ href: hubPath(child), label: child.name }))} />}
         {notes && <section className="pl-block pl-notes">
           <h2>Season and permits in {hub.stateName}</h2>

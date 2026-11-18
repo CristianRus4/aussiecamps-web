@@ -83,9 +83,9 @@ export function evaluateHub(hub: Hub, hubs: Hub[] = hubData.hubs, prose: Record<
 
 export const hubVerdicts = new Map(hubData.hubs.map((hub) => [hub.id, evaluateHub(hub)]));
 /**
- * Only camping hubs are published. Dump point and rest area hubs were retired on 12 Nov 2026 (Cristian:
- * they do not belong on the site); their URLs now redirect to the state's camping hub (lib/hubs/retired.ts).
+ * Every hub kind is published. Dump point and rest area hubs were retired on 12 Nov 2026 and brought back
+ * on 18 Nov 2026 (Cristian: every place in the database belongs on the site).
  */
-export const publishedKind = (kind: HubKind) => kind === "camping-state" || kind === "camping-park";
+export const publishedKind = (_kind: HubKind) => true;
 export const builtHubs = hubData.hubs.filter((hub) => publishedKind(hub.kind) && hubVerdicts.get(hub.id)!.built);
 export const indexableHubs = builtHubs.filter((hub) => hubVerdicts.get(hub.id)!.indexable);

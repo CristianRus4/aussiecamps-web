@@ -11,8 +11,7 @@ import { stateIntros } from "./state-intros";
  * Everything here derives from lib/data/hubs.json and the gate; nothing is hand-maintained per hub.
  */
 export type HubSection = "camping" | "dump-points" | "rest-areas";
-/** The published hub sections; dump points and rest areas were retired (lib/hubs/retired.ts). */
-export const hubSections: HubSection[] = ["camping"];
+export const hubSections: HubSection[] = ["camping", "dump-points", "rest-areas"];
 
 export const sectionOf = (kind: HubKind): HubSection => (kind.startsWith("camping") ? "camping" : kind === "dump-points-state" ? "dump-points" : "rest-areas");
 

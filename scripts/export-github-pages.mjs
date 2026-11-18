@@ -159,6 +159,10 @@ function localTarget(reference) {
   return /\.[a-z0-9]+$/i.test(local) ? resolve(output, local) : resolve(output, local, "index.html");
 }
 
+// The place pages the Cloudflare Worker serves (docs/places-cloudflare.md) are not in this export. The dump
+// point and rest area hubs link to theirs; lib/data/hub-place-paths.json is the list of those pages.
+const workerPages = new Set(Object.values(JSON.parse(await readFile(resolve(root, "lib/data/hub-place-paths.json"), "utf8"))).map((path) => resolve(output, `${basePath}${path}`.slice(basePath.length + 1), "index.html")));
+
 // One page at a time: holding every exported page in memory at once ran the export out of heap.
 const checked = new Set();
 for (const route of htmlRoutes) {
@@ -169,7 +173,7 @@ for (const route of htmlRoutes) {
   for (const match of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
     const target = localTarget(match[1]);
     if (!target || checked.has(target)) continue;
-    await access(target).catch(() => assert.fail(`${route.path} links to missing ${match[1]}`));
+    await access(target).catch(() => workerPages.has(target) || assert.fail(`${route.path} links to missing ${match[1]}`));
     checked.add(target);
   }
 }
