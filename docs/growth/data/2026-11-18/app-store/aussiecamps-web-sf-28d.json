@@ -1,0 +1,80 @@
+{
+  "app": "aussiecamps",
+  "metric": "first_time_downloads",
+  "by": "storefront",
+  "filters": {
+    "storefront": null,
+    "sourceType": "Web referrer",
+    "pageType": null
+  },
+  "window": {
+    "from": "2026-10-16",
+    "through": "2026-11-12",
+    "days": 28,
+    "reportedDays": 28
+  },
+  "total": 19,
+  "rows": [
+    {
+      "key": "AU",
+      "value": 10,
+      "share": 0.5263157894736842,
+      "rates": {
+        "firstTimeDownloadsPerImpression": null,
+        "productPageViewsPerImpression": null,
+        "firstTimeDownloadsPerProductPageView": 0.7142857142857143
+      }
+    },
+    {
+      "key": "DE",
+      "value": 5,
+      "share": 0.2631578947368421,
+      "rates": {
+        "firstTimeDownloadsPerImpression": null,
+        "productPageViewsPerImpression": null,
+        "firstTimeDownloadsPerProductPageView": 0.7142857142857143
+      }
+    },
+    {
+      "key": "CA",
+      "value": 1,
+      "share": 0.05263157894736842,
+      "rates": {
+        "firstTimeDownloadsPerImpression": null,
+        "productPageViewsPerImpression": null,
+        "firstTimeDownloadsPerProductPageView": 1
+      }
+    },
+    {
+      "key": "GB",
+      "value": 1,
+      "share": 0.05263157894736842,
+      "rates": {
+        "firstTimeDownloadsPerImpression": null,
+        "productPageViewsPerImpression": null,
+        "firstTimeDownloadsPerProductPageView": null
+      }
+    },
+    {
+      "key": "NL",
+      "value": 1,
+      "share": 0.05263157894736842,
+      "rates": {
+        "firstTimeDownloadsPerImpression": null,
+        "productPageViewsPerImpression": null,
+        "firstTimeDownloadsPerProductPageView": null
+      }
+    },
+    {
+      "key": "SE",
+      "value": 1,
+      "share": 0.05263157894736842,
+      "rates": {
+        "firstTimeDownloadsPerImpression": null,
+        "productPageViewsPerImpression": null,
+        "firstTimeDownloadsPerProductPageView": null
+      }
+    }
+  ],
+  "definition": "first_time_downloads over 28d ending on the newest day both App Store reports settled (2026-10-16 to 2026-11-12); 28 of the 28 days are settled and counted, the same days series counts, so total equals series' sum over those days; source type Web referrer, every page type summed; rates per key over the window's days both reports settled: first-time downloads per impression, product page views (page type Product page) per impression, first-time downloads per product page view (above 1 when downloads come straight from search results)"
+}
