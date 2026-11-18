@@ -11,7 +11,8 @@ import { hubGuides } from "@/lib/hubs/regions";
 import { stateIntros } from "@/lib/hubs/state-intros";
 import { SITE_URL, getArticle, sitePath } from "@/lib/site";
 import { uiStrings } from "@/lib/source-strings";
-import { feeLabel, mapLabel, photoUrl, placePath, places, placesPath, placeStatePath, placeStates, placeTypes, typeLabels, type Place, type PlaceState } from "@/lib/places";
+import { directoryStates, feeLabel, mapLabel, photoUrl, placeListingPath, placePath, places, placesPath, placeStatePath, placeTypes, stateListings, typeLabel, typeLabels, type Place, type PlaceState } from "@/lib/places";
+import type { Listing } from "@/lib/place-directory";
 
 const where = (place: Place) => place.park ?? place.locality ?? place.stateName;
 
@@ -39,8 +40,8 @@ m.slice(0,100).forEach(function(p){var l=document.createElement("li"),a=document
 q.addEventListener("input",r);})();`;
 }
 
-/** A state page's search: hides the rows that do not match. */
-const filterScript = `(function(){var q=document.getElementById("pl-q");function n(s){return s.normalize("NFD").replace(/[\\u0300-\\u036f]/g,"").toLowerCase();}
+/** A state page's or listing's search: hides the rows that do not match. */
+const filterScript = `(function(){var q=document.getElementById("pl-q");if(!q)return;function n(s){return s.normalize("NFD").replace(/[\\u0300-\\u036f]/g,"").toLowerCase();}
 function r(){var v=n(q.value.trim());document.querySelectorAll(".pl-az li[data-type]").forEach(function(row){row.hidden=!!v&&n(row.textContent).indexOf(v)<0;});}
 q.addEventListener("input",r);})();`;
 
@@ -50,7 +51,7 @@ export function PlacesDirectory() {
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
-      { "@type": "ItemList", "@id": `${url}#states`, name: "Places to camp in Australia, by state", itemListElement: placeStates.map((state, position) => ({ "@type": "ListItem", position: position + 1, name: state.name, url: `${SITE_URL}${placeStatePath(state)}` })) },
+      { "@type": "ItemList", "@id": `${url}#states`, name: "Places to camp in Australia, by state", itemListElement: directoryStates.map((state, position) => ({ "@type": "ListItem", position: position + 1, name: state.name, url: `${SITE_URL}${placeStatePath(state)}` })) },
       { "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` }, { "@type": "ListItem", position: 2, name: "Places", item: url }] },
     ],
   };
@@ -66,7 +67,7 @@ export function PlacesDirectory() {
         <SearchBox placeholder="Search by name, park or town" results />
         <section className="pl-states">
           <h2>By state</h2>
-          <ul>{placeStates.map((state) => <li key={state.slug}><Link href={placeStatePath(state)}><span>{state.name}</span><ArrowRight aria-hidden="true" /></Link></li>)}</ul>
+          <ul>{directoryStates.map((state) => <li key={state.slug}><Link href={placeStatePath(state)}><span>{state.name}</span><ArrowRight aria-hidden="true" /></Link></li>)}</ul>
         </section>
         <GuideEndCta reuse={false} locale="en" placement="place" label={uiStrings.download} eyebrow={uiStrings.takeRoad} title={uiStrings.savePlanTitle} text={uiStrings.savePlanText} />
       </div>
@@ -75,6 +76,16 @@ export function PlacesDirectory() {
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
     <script data-static-tools dangerouslySetInnerHTML={{ __html: searchScript(index) }} />
   </>;
+}
+
+/** A state's listings by type (lib/place-directory.ts), in the directory's "By state" layout. */
+function ListingLinks({ state }: { state: PlaceState }) {
+  const listings = stateListings(state);
+  if (listings.length === 0) return null;
+  return <section className="pl-states">
+    <h2>By type</h2>
+    <ul>{listings.map((listing) => <li key={listing.slug}><Link href={placeListingPath(state, listing)}><span>{listing.title}</span><ArrowRight aria-hidden="true" /></Link></li>)}</ul>
+  </section>;
 }
 
 export function PlacesState({ state }: { state: PlaceState }) {
@@ -95,22 +106,63 @@ export function PlacesState({ state }: { state: PlaceState }) {
       <div className="pl-wrap pl-index">
         <Crumbs trail={[{ name: "Home", path: "/" }, { name: "Places", path: placesPath() }, { name: state.name, path: placeStatePath(state) }]} />
         <header className="pl-header">
-          <h1>Places to camp in {state.name}</h1>
+          <h1>{state.places.length ? `Places to camp in ${state.name}` : `Places in ${state.name}`}</h1>
           {stateIntros[state.code] && <p className="pl-intro">{stateIntros[state.code]}</p>}
         </header>
         <PlaceMap points={state.places.map((place) => [place.lng, place.lat] as [number, number])} labels={state.places.map(mapLabel)} label={`Places to camp in ${state.name}`} precision={3} />
-        <SearchBox placeholder={`Search places in ${state.name}`} />
-        <ul className="pl-rows pl-az">{sorted.map((place) => <li key={place.id} data-type={place.type}><Link href={placePath(place)}>
+        <ListingLinks state={state} />
+        {sorted.length > 0 && <SearchBox placeholder={`Search places in ${state.name}`} />}
+        {sorted.length > 0 && <ul className="pl-rows pl-az">{sorted.map((place) => <li key={place.id} data-type={place.type}><Link href={placePath(place)}>
           <img src={photoUrl(place.photos[1] ?? place.photos[0])} alt="" loading="lazy" decoding="async" referrerPolicy="no-referrer" />
           <span><strong>{place.name}</strong><small>{typeLabels[place.type].one} · {where(place)}</small></span>
           {place.stars ? <em className="pl-row-tag"><Star aria-hidden="true" />{place.stars}</em> : feeLabel(place.fee) ? <em className="pl-row-tag">{feeLabel(place.fee)}</em> : null}
-        </Link></li>)}</ul>
+        </Link></li>)}</ul>}
         <LinkList title={`Guides for ${state.name}`} links={guides.map((guide) => ({ href: sitePath(`/guides/${guide.slug}`), label: guide.title }))} />
         <GuideEndCta reuse={false} locale="en" placement="place" label={uiStrings.download} eyebrow={uiStrings.takeRoad} title={uiStrings.savePlanTitle} text={uiStrings.savePlanText} />
       </div>
     </main>
     <Footer pageKey={`places:${state.slug}`} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+    <script data-static-tools dangerouslySetInnerHTML={{ __html: filterScript }} />
+  </>;
+}
+
+/**
+ * A listing by type: every place of the listing's types in one state (lib/place-directory.ts), full listings
+ * and extra places alike, A to Z. The state page's layout, rows without photos (most of these places have
+ * none) and its search. Rendered for the Worker by scripts/export-place-pages.tsx, not by the Pages build.
+ */
+export function PlacesListing({ state, listing, places: listed, indexable }: { state: PlaceState; listing: Listing; places: Place[]; indexable: boolean }) {
+  const path = placeListingPath(state, listing);
+  const url = `${SITE_URL}${path}`;
+  const title = `${listing.title} in ${state.name}`;
+  const sorted = [...listed].sort((a, b) => a.name.localeCompare(b.name) || (a.locality ?? "").localeCompare(b.locality ?? ""));
+  const located = sorted.filter((place) => Number.isFinite(place.lat) && Number.isFinite(place.lng));
+  const schema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      { "@type": "ItemList", "@id": `${url}#places`, name: title, itemListElement: sorted.map((place, position) => ({ "@type": "ListItem", position: position + 1, name: place.name, url: `${SITE_URL}${placePath(place)}` })) },
+      { "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Places", item: `${SITE_URL}${placesPath()}` }, { "@type": "ListItem", position: 2, name: state.name, item: `${SITE_URL}${placeStatePath(state)}` }, { "@type": "ListItem", position: 3, name: listing.title, item: url }] },
+    ],
+  };
+  return <>
+    <Header />
+    <main {...mainData({ kind: "places", slug: `${state.slug}/${listing.slug}` })}>
+      <div className="pl-wrap pl-index">
+        <Crumbs trail={[{ name: "Home", path: "/" }, { name: "Places", path: placesPath() }, { name: state.name, path: placeStatePath(state) }, { name: listing.title, path }]} />
+        <header className="pl-header">
+          <h1>{title}</h1>
+        </header>
+        <PlaceMap points={located.map((place) => [place.lng, place.lat] as [number, number])} labels={located.map(mapLabel)} label={title} precision={3} />
+        <SearchBox placeholder={`Search ${listing.title.toLowerCase()} in ${state.name}`} />
+        <ul className="pl-rows pl-az pl-rows-plain">{sorted.map((place) => <li key={place.id} data-type={place.type}><Link href={placePath(place)}>
+          <strong>{place.name}</strong><small>{[typeLabel(place).one, place.park ?? place.locality].filter(Boolean).join(" · ")}</small>
+        </Link></li>)}</ul>
+        <GuideEndCta reuse={false} locale="en" placement="place" label={uiStrings.download} eyebrow={uiStrings.takeRoad} title={uiStrings.savePlanTitle} text={uiStrings.savePlanText} />
+      </div>
+    </main>
+    <Footer pageKey={`places:${state.slug}/${listing.slug}`} />
+    {indexable && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />}
     <script data-static-tools dangerouslySetInnerHTML={{ __html: filterScript }} />
   </>;
 }

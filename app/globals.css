@@ -723,6 +723,7 @@ em { color: inherit; font: inherit; font-style: normal; }
 .pl-rows a > span { min-width: 0; flex: 1; display: flex; flex-direction: column; gap: 2px; }
 .pl-rows strong { font-size: 16px; }
 .pl-rows small { color: var(--muted); font-size: 13px; }
+.pl-rows-plain a { flex-direction: column; align-items: flex-start; gap: 2px; }
 .pl-row-tag { flex: none; display: inline-flex; align-items: center; gap: 4px; color: var(--muted); font-size: 13px; font-style: normal; font-weight: 650; }
 .pl-row-tag svg { width: 14px; height: 14px; fill: #e3b341; color: #e3b341; }
 .pl-empty { padding: 12px 4px; color: var(--muted); }

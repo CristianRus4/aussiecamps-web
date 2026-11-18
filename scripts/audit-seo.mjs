@@ -9,7 +9,9 @@
  *   canonical and lists exactly the same set back;
  * - a noindexed page lists no alternates, and is never listed as one;
  * - every canonical on this site ends in / or .html, and an indexable page is its own canonical;
- * - the sitemaps list exactly the indexable exported pages;
+ * - the sitemaps list exactly the indexable exported pages, plus the Worker's indexable pages
+ *   (lib/place-directory.ts), which are not in the export; with WORKER_DIST (or worker-dist) present, each of
+ *   those is there, indexable and self-canonical, and every other page there is noindex;
  * - every page's robots meta agrees with the route manifest's `indexable`;
  * - <html lang> matches lib/locales.json (en-AU for English);
  * - every URL in docs/growth/ranking-urls.txt (clicks or 20+ impressions) is exported and
@@ -23,6 +25,7 @@ import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { resolve } from "node:path";
 import { SITE_URL } from "../lib/site.ts";
 import { exportRoutes } from "../lib/routes.ts";
+import { workerSitemapRoutes } from "../lib/routes/places.ts";
 import { englishLocale, htmlLang, locales } from "../lib/locales.ts";
 import { smartBannerContent } from "../lib/app-store.ts";
 
@@ -105,8 +108,26 @@ for (const sitemap of locs(index)) {
   }
 }
 const indexable = new Set([...pages.values()].filter((page) => page.indexable).map((page) => page.url));
-for (const url of listed) if (!indexable.has(url)) fail(`sitemap lists ${url}, which is not an indexable exported page`);
-for (const url of indexable) if (!listed.has(url)) fail(`${url} is indexable but missing from the sitemaps`);
+const workerUrls = new Set(workerSitemapRoutes().map((route) => `${SITE_URL}${route.path}`));
+for (const url of listed) if (!indexable.has(url) && !workerUrls.has(url)) fail(`sitemap lists ${url}, which is not an indexable exported page`);
+for (const url of [...indexable, ...workerUrls]) if (!listed.has(url)) fail(`${url} is indexable but missing from the sitemaps`);
+for (const url of workerUrls) if (pages.has(url)) fail(`${url} is a Worker page but is also in the Pages export`);
+
+// The Worker's pages, when rendered (npm run places:worker): the indexable ones as the sitemap says, the rest noindex.
+const workerDist = resolve(root, process.env.WORKER_DIST ?? "worker-dist");
+let workerChecked = 0;
+if (existsSync(workerDist)) {
+  for (const name of readdirSync(workerDist, { recursive: true }).filter((file) => file.startsWith("places/") && file.endsWith("index.html"))) {
+    const head = readFileSync(resolve(workerDist, name), "utf8").split("</head>")[0];
+    const url = urlFor(name);
+    const canonical = attribute(head.match(/<link rel="canonical"[^>]*>/)?.[0] ?? "", "href");
+    const robots = attribute(head.match(/<meta name="robots"[^>]*>/)?.[0] ?? "", "content") ?? "";
+    if (canonical !== url) fail(`${url} (Worker): canonical is ${canonical}`);
+    if (workerUrls.has(url) !== robots.startsWith("index")) fail(`${url} (Worker): robots "${robots}", but the sitemap ${workerUrls.has(url) ? "lists" : "does not list"} it`);
+    workerChecked += 1;
+  }
+  if (workerChecked < workerUrls.size) fail(`${workerDist} holds ${workerChecked} place pages, fewer than the ${workerUrls.size} indexable Worker pages in the sitemap`);
+}
 
 // Every indexable page shows the Smart App Banner with its own locale's campaign.
 const segments = new Set(locales.map((entry) => entry.segment));
@@ -136,4 +157,4 @@ if (failures.size) {
   process.exit(1);
 }
 const withAlternates = [...pages.values()].filter((page) => page.alternates.size).length;
-console.log(`SEO audit passed: ${pages.size} pages, ${indexable.size} indexable, in the sitemaps and showing the Smart App Banner, ${withAlternates} with reciprocal hreflang, ${ranking.length} ranking URLs and ${baseline.length} baseline URLs still served.`);
+console.log(`SEO audit passed: ${pages.size} pages, ${indexable.size} indexable, ${workerUrls.size} indexable Worker pages${workerChecked ? ` (${workerChecked} Worker pages checked)` : ""}, in the sitemaps and showing the Smart App Banner, ${withAlternates} with reciprocal hreflang, ${ranking.length} ranking URLs and ${baseline.length} baseline URLs still served.`);

@@ -1,4 +1,6 @@
 import placesFile from "./data/places.json";
+import directoryFile from "./data/place-directory.json";
+import { listingPath, listings, type Listing } from "@/lib/place-directory";
 import { builtHubs } from "@/lib/hubs/gate";
 import { hubPath } from "@/lib/hubs/pages";
 import { sitePath } from "@/lib/site";
@@ -64,6 +66,24 @@ export type PlaceState = { slug: string; name: string; code: string; places: Pla
 export const placeStates: PlaceState[] = [...new Map(places.map((place) => [place.stateSlug, place])).values()]
   .map((place) => ({ slug: place.stateSlug, name: place.stateName, code: place.state, places: places.filter((other) => other.stateSlug === place.stateSlug) }))
   .sort((a, b) => a.name.localeCompare(b.name));
+
+/**
+ * The listings by type (lib/place-directory.ts), served by the Worker with the extra place pages: each
+ * state's, and the Worker pages search engines may index (scripts/build-place-directory.ts).
+ */
+const directory = directoryFile as { asOf: string | null; states: { slug: string; name: string; code: string; listings: string[] }[]; indexed: string[] };
+export const directoryAsOf = directory.asOf;
+export const indexedWorkerPaths = directory.indexed;
+export const stateListings = (state: { slug: string }): Listing[] => (directory.states.find((entry) => entry.slug === state.slug)?.listings ?? [])
+  .flatMap((slug) => listings.find((listing) => listing.slug === slug) ?? []);
+export const placeListingPath = (state: { slug: string }, listing: Pick<Listing, "slug">) => sitePath(listingPath(state.slug, listing));
+/** Every listing page the Worker serves, by path. */
+export const listingPaths = directory.states.flatMap((state) => state.listings.map((slug) => listingPath(state.slug, { slug })));
+/** States whose places are all extra places (Norfolk Island): no full listing, so their state page is noindex. */
+export const extraOnlyStates: PlaceState[] = directory.states.filter((state) => !placeStates.some((other) => other.slug === state.slug))
+  .map((state) => ({ slug: state.slug, name: state.name, code: state.code, places: [] }));
+/** Every state page: the states with full listings, then the rest. */
+export const directoryStates: PlaceState[] = [...placeStates, ...extraOnlyStates].sort((a, b) => a.name.localeCompare(b.name));
 
 export const placesPath = () => sitePath("/places");
 export const placeStatePath = (state: { slug: string }) => sitePath(`/places/${state.slug}`);

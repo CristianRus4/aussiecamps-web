@@ -160,8 +160,12 @@ function localTarget(reference) {
 }
 
 // The place pages the Cloudflare Worker serves (docs/places-cloudflare.md) are not in this export. The dump
-// point and rest area hubs link to theirs; lib/data/hub-place-paths.json is the list of those pages.
-const workerPages = new Set(Object.values(JSON.parse(await readFile(resolve(root, "lib/data/hub-place-paths.json"), "utf8"))).map((path) => resolve(output, `${basePath}${path}`.slice(basePath.length + 1), "index.html")));
+// point and rest area hubs link to theirs (lib/data/hub-place-paths.json), and the state pages and hubs link
+// the listings by type (lib/data/place-directory.json).
+const directory = JSON.parse(await readFile(resolve(root, "lib/data/place-directory.json"), "utf8"));
+const listingPaths = directory.states.flatMap((state) => state.listings.map((slug) => `/places/${state.slug}/${slug}`));
+const workerPages = new Set([...Object.values(JSON.parse(await readFile(resolve(root, "lib/data/hub-place-paths.json"), "utf8"))), ...listingPaths]
+  .map((path) => resolve(output, `${basePath}${path}`.slice(basePath.length + 1).replace(/\/$/, ""), "index.html")));
 
 // One page at a time: holding every exported page in memory at once ran the export out of heap.
 const checked = new Set();

@@ -148,3 +148,33 @@ link only when its content changes (`CampingPublicLink.publish`: an unchanged pa
 and nothing is sent), so an unchanged trip is never written again. Before an expiry rule is added, the app must
 write each link again when its last successful PUT is older than about 3 months, even unchanged (keep the date of
 the last PUT with the record). Then a lifecycle rule on `links/` with a 12-month age can go in pages.yml.
+
+## The listings by type (18 Nov 2026)
+
+Every place page, full or extra, is reachable from `/places/`: the state page's **By type** section links a
+listing per type, `/places/<state>/<listing>/` (for example `/places/victoria/rest-areas/`), and the listing
+links every place of its types in that state, A to Z, with the map and the state page's search. 77 listings
+cover all 22,450 place pages; Norfolk Island, which has only stays, has a small noindex state page so it is
+reachable too. The dump point and rest area hubs end their list with "All dump points in <state>" (English on
+the translated hubs too, as the footer does).
+
+- **One place to change:** lib/place-directory.ts. It names each listing, the app types it holds, and its
+  `indexed` switch. A new app type fails the build until someone checks its source and licence and adds it to a
+  listing (or to `unlisted`).
+- **Search engines:** only dump points are on. A dump point listing is indexable when it has at least one
+  indexable place; a dump point page is indexable when it has a name, a locality, coordinates, at least one
+  facility other than "Dump Point" or a fee, and is not closed (`hasEnoughFacts`): 1,352 of 1,393, and 7 state listings (the ACT's one dump point falls short). Those 1,359
+  pages are in the English sitemap (lib/sitemaps.ts) and get the place's structured data; they are not sent to
+  IndexNow. Everything else stays noindex and out of the sitemaps.
+- **Build:** `npm run prebuild` runs scripts/build-place-directory.ts, which writes the committed
+  lib/data/place-directory.json (each state's listings and the indexable Worker paths: public URLs only) and
+  fails if a listing's slug is also a place's slug. scripts/export-place-pages.tsx renders the listings into the
+  shell of an exported state page, after proving the state page rebuilt there matches the export, and fails if
+  the indexable pages differ from that file or any place page is in no listing. scripts/audit-seo.mjs accepts
+  the Worker's indexable URLs in the sitemap and, with `WORKER_DIST` (or worker-dist) present, checks each
+  Worker page's robots against it.
+- **Routing:** none changed. The Worker already answers `/places/<state>/<slug>/` from R2, so a listing is just
+  one more object, `places/<state>/<listing>/index.html`.
+- **Free plan:** 77 more R2 objects, about 8 MB (the largest, Western Australia's 3,108 rest areas, is 770 KB).
+  Storage stays near 900 MB of the 10 GB. No change to Worker requests per page view. GitHub Pages gains one
+  small page (Norfolk Island's state page).

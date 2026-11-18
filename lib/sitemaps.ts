@@ -1,6 +1,7 @@
 import { SITE_URL } from "@/lib/site";
 import { exportRoutes } from "@/lib/routes";
 import { sitemapNames } from "@/lib/routes/crawlers";
+import { workerSitemapRoutes } from "@/lib/routes/places";
 import { localeEntry } from "@/lib/locales";
 
 /**
@@ -10,13 +11,14 @@ import { localeEntry } from "@/lib/locales";
  * (an unfinished translation, a thin hub) is never submitted. A guide's lastmod is the day its own
  * text last changed, and for a translation the day the translation last changed, both from git
  * history (scripts/build-article-dates.mjs). Search Console can then report coverage per language.
+ * The English file also lists the Worker's indexable pages (lib/place-directory.ts), which are not routes.
  */
 const xml = (body: string) => new Response(`<?xml version="1.0" encoding="UTF-8"?>\n${body}\n`, { headers: { "content-type": "application/xml; charset=utf-8", "cache-control": "public, max-age=3600" } });
 
 const segmentOf = (locale: string) => (locale === "en" ? "en" : localeEntry(locale as Parameters<typeof localeEntry>[0]).segment);
 
 function entries(name: string) {
-  return exportRoutes().filter((route) => route.indexable && route.kind !== "crawler" && segmentOf(route.locale) === name);
+  return [...exportRoutes(), ...(name === "en" ? workerSitemapRoutes() : [])].filter((route) => route.indexable && route.kind !== "crawler" && segmentOf(route.locale) === name);
 }
 
 export function sitemapIndex(): Response {

@@ -12,7 +12,7 @@ import { hubData, type Hub } from "@/lib/hubs/gate";
 import { hubById, hubPageKey, indexableParksOf, neighbourHubs, sectionHubs, sectionOf, sectionPageKey, type HubSection } from "@/lib/hubs/pages";
 import { hubGuides, noteKeys, stateNotes } from "@/lib/hubs/regions";
 import { fill } from "@/lib/hubs/strings";
-import { hubPlaceLinks } from "@/lib/hubs/place-links";
+import { hubListingLink, hubPlaceLinks } from "@/lib/hubs/place-links";
 import { localizedHref } from "@/lib/routes";
 import {
   localizedHubName, localizedHubPath, localizedHubs, localizedHubSummary, localizedHubView, localizedSectionPath,
@@ -90,7 +90,7 @@ export function LocalizedHubPage({ hub, locale }: { hub: Hub; locale: LocaleCode
           <h2>{many.charAt(0).toUpperCase()}{many.slice(1)}</h2>
           <PlaceCards places={cards} />
         </section>}
-        {section !== "camping" && <LinkList title={`${many.charAt(0).toUpperCase()}${many.slice(1)}`} links={hubPlaceLinks(hub)} />}
+        {section !== "camping" && <LinkList title={`${many.charAt(0).toUpperCase()}${many.slice(1)}`} links={[...hubPlaceLinks(hub), ...hubListingLink(hub)]} />}
         <LinkList title={fill(t.common.parksTitle, { state: hub.stateName })} links={children.map((child) => ({ href: localizedHubPath(child, locale), label: child.name }))} />
         {notes && <section className="pl-block pl-notes">
           <h2>{fill(t.common.notesTitle, { where: hub.stateName })}</h2>

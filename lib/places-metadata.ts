@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { SITE_URL } from "@/lib/site";
 import { smartBannerContent } from "@/lib/app-store";
 import { homeOgImage } from "@/lib/seo";
-import { isCampingType, photoUrl, placePath, placesPath, placeStatePath, typeLabel, type Place, type PlaceState } from "@/lib/places";
+import { isCampingType, photoUrl, placeListingPath, placePath, placesPath, placeStatePath, placeStates, typeLabel, type Place, type PlaceState } from "@/lib/places";
+import type { Listing } from "@/lib/place-directory";
 import { placeDescription } from "@/lib/places-copy";
 
 /** English only, so no hreflang; every place page in the export is indexable (lib/routes/places.ts). */
@@ -50,9 +51,23 @@ export function placeMetadata(place: Place): Metadata {
 }
 
 export function placeStateMetadata(state: PlaceState): Metadata {
+  // A state with only extra places (Norfolk Island) has no full listing to show: noindex, like those places.
+  if (!placeStates.includes(state)) {
+    const title = `Places in ${state.name}`;
+    const description = `Places in ${state.name} in AussieCamps, by type.`;
+    return { title, description, alternates: { canonical: placeStatePath(state) }, ...social(og(title, description, placeStatePath(state))), robots: noindex };
+  }
   const title = `Campgrounds, holiday parks and national parks in ${state.name}`;
   const description = `Campgrounds, holiday parks and national parks in ${state.name}, with photos, facilities, fees and holiday parks you can book.`;
   return { title, description, alternates: { canonical: placeStatePath(state) }, ...social(og(title, description, placeStatePath(state))), robots };
+}
+
+/** A listing by type (`/places/<state>/<listing>/`, lib/place-directory.ts), rendered for the Worker. */
+export function placeListingMetadata(state: PlaceState, listing: Listing, indexable: boolean): Metadata {
+  const path = placeListingPath(state, listing);
+  const title = `${listing.title} in ${state.name}`;
+  const description = `${listing.title} in ${state.name} in AussieCamps, on the map and from A to Z.`;
+  return { title, description, alternates: { canonical: path }, ...social(og(title, description, path)), robots: indexable ? robots : noindex, other: { "apple-itunes-app": smartBannerContent("en") } };
 }
 
 export function placesMetadata(): Metadata {

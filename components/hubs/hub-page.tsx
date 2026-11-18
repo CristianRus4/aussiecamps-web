@@ -17,7 +17,7 @@ import { stateIntros } from "@/lib/hubs/state-intros";
 import { placePath, places, placeStatePath } from "@/lib/places";
 import { PlaceCards } from "@/components/places/place-cards";
 import { hubLocalGuides } from "@/lib/place-guides";
-import { hubPlaceLinks } from "@/lib/hubs/place-links";
+import { hubListingLink, hubPlaceLinks } from "@/lib/hubs/place-links";
 
 const norm = (value: string) => value.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 
@@ -81,7 +81,7 @@ export function HubPage({ hub }: { hub: Hub }) {
           <h2>Places to camp in {where}</h2>
           <PlaceCards places={listed.slice(0, 5)} more={{ href: placeStatePath({ slug: hub.id.split("/")[1] }), label: `Explore all places in ${hub.stateName}` }} />
         </section>}
-        {section !== "camping" && <LinkList title={section === "dump-points" ? "Dump points" : "Rest areas"} links={hubPlaceLinks(hub)} />}
+        {section !== "camping" && <LinkList title={section === "dump-points" ? "Dump points" : "Rest areas"} links={[...hubPlaceLinks(hub), ...hubListingLink(hub)]} />}
         {children.length > 0 && <LinkList title={`Parks in ${hub.stateName} with their own page`} links={children.map((child) => ({ href: hubPath(child), label: child.name }))} />}
         {notes && <section className="pl-block pl-notes">
           <h2>Season and permits in {hub.stateName}</h2>
