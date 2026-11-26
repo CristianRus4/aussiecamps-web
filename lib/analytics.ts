@@ -52,12 +52,20 @@ export function mainData({ kind, locale = "en", slug, category }: { kind: PageKi
   };
 }
 
-/** The inline bootstrap. Kept ES5 so it runs on any browser that can render the page. */
+/**
+ * The inline bootstrap. Kept ES5 so it runs on any browser that can render the page.
+ *
+ * Headless crawlers that report a screen no real display has (square, like 1366 × 1366 or
+ * 1600 × 1600, or 1280 × 1200) get nothing: no tag, no events, only a no-op `acTrack`. In November
+ * 2026 they were most of KiwiCamping's GA4 users, from Singapore and China, with no engagement.
+ */
 export function analyticsBootstrap(measurementId: string = GA_MEASUREMENT_ID): string {
   if (!/^G-[A-Z0-9]+$/.test(measurementId)) throw new Error(`Invalid GA4 measurement ID: ${measurementId}`);
   const denied = `ad_storage:"denied",ad_user_data:"denied",ad_personalization:"denied"`;
   return `(function(){
 var w=window,d=document,ID=${JSON.stringify(measurementId)},KEY=${JSON.stringify(CONSENT_STORAGE_KEY)};
+var sw=w.screen&&w.screen.width,sh=w.screen&&w.screen.height;
+if((sw>=1000&&sw===sh)||(sw===1280&&(sh===1200||sh===1600))){w.acTrack=function(){};return;}
 var dl=w.dataLayer=w.dataLayer||[];
 function gtag(){dl.push(arguments);}
 w.gtag=gtag;

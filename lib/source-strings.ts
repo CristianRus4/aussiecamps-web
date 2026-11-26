@@ -415,8 +415,8 @@ export const toolStrings = {
       ctaText: "AussieCamps maps {restAreas} rest areas and {dumpPoints} dump points across Australia and turns saved places into a multi-stop route with distances.",
     },
     "drive-time-calculator": {
-      metaTitle: "Driving Time Calculator Australia: Travel Times by Car",
-      metaDescription: "How long does it take to drive? Work out travel time by car from distance, road type and stops, with driving times and distances between Australian cities.",
+      metaTitle: "Driving Times and Distances Australia: Table + Calculator",
+      metaDescription: "Sydney to Melbourne is 865 km, about 10 h 15 min at the wheel. Driving times with breaks between 15 Australian city pairs, and a calculator for any road trip.",
       title: "Driving time calculator for Australian road trips",
       intro: "Maps apps quote moving time on a clear road. This calculator plans the day you will actually drive: an average speed for the kind of road, plus the time spent stopped for fuel, food and breaks.",
       answer: [
